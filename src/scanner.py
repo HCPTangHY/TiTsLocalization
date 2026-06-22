@@ -1,46 +1,16 @@
 # -*- coding: utf-8 -*-
 """TiTS JS 游标扫描器
 
-核心逻辑：
-1. 游标扫描，遇到已知函数调用（output/combatAppend/addButton等）时
-   用括号匹配提取完整调用内容，作为一条词条
-2. 遇到 this.short = "xxx" 等赋值模式时，提取字符串字面量
+scanner 只负责：
+  1. 游标移动、跳过注释/字符串
+  2. 识别标识符，查 rules 注册表分发
+  3. 括号匹配、参数分割等底层操作
+
+所有提取规则在 rules.py 中注册。
 """
 
 import re
-from dataclasses import dataclass
-from typing import Optional
 from util import parse_js_string, lookback, semantic_key, format_pos, context_hash
-
-
-# 需要整体提取调用内容的函数名
-CALL_EXTRACTORS = {
-    'output':         'output',
-    'combatAppend':   'combat',
-    'outputText':     'output',
-}
-
-# 需要提取第N个参数的函数
-ARG_EXTRACTORS = {
-    'addButton':         (1, 'button'),       # addButton(idx, "text", ...)
-    'addDisabledButton': (1, 'button'),
-    'showName':          (0, 'name.show'),
-    'showBust':          (0, 'bust'),          # 不翻译，但记录
-    'createPerk':        (0, 'perk'),
-    'author':            (0, '_skip'),         # 不生成词条
-}
-
-# 对象字段提取: {text:"...", ttB:"...", dttB:"..."}
-OBJ_FIELDS = {'text': 'button.text', 'ttB': 'button.ttB', 'dttB': 'button.dttB'}
-
-# 赋值模式: this.xxx = "..."
-ASSIGN_PATTERNS = {
-    'this.short':       'name.short',
-    'this.long':        'desc.long',
-    'this.description': 'desc',
-    'this.ButtonName':  'ui.button',
-    'this.TooltipTitle':'ui.tooltip',
-}
 
 
 class TiTSScanner:
@@ -54,7 +24,19 @@ class TiTSScanner:
         self.pos_offset = pos_offset
         self._prev_original = ""
 
-    def _unique_key(self, key):
+        # 从 rules.py 加载规则
+        from rules import CALL_RULES, ARG_RULES, ASSIGN_RULES, FIELD_RULES, CUSTOM_RULES
+        self._call_rules = CALL_RULES
+        self._arg_rules = ARG_RULES
+        self._assign_rules = ASSIGN_RULES
+        self._field_rules = FIELD_RULES
+        self._custom_rules = CUSTOM_RULES
+
+    # ==========================================================
+    #  公共工具方法（供 rules 的 custom handler 调用）
+    # ==========================================================
+
+    def unique_key(self, key):
         if key in self.used_keys:
             i = 1
             while f"{key}#{i}" in self.used_keys:
@@ -63,16 +45,17 @@ class TiTSScanner:
         self.used_keys.add(key)
         return key
 
-    def _has_alpha(self, s):
+    def has_alpha(self, s):
         return bool(re.search(r'[a-zA-Z]', s))
 
-    def _add_entry(self, category, original, pos, next_hint=""):
-        if not original or not self._has_alpha(original):
+    def add_entry(self, category, original, pos, next_hint=""):
+        """添加一条词条。pos 是相对于 self.content 的 0-based 偏移。"""
+        if not original or not self.has_alpha(original):
             return
         h = context_hash(self._prev_original, original, next_hint)
         key_text = semantic_key(original)
         key = f"{category}|{key_text}|{h}"
-        key = self._unique_key(key)
+        key = self.unique_key(key)
         self.entries.append({
             "key": key,
             "original": original,
@@ -81,7 +64,8 @@ class TiTSScanner:
         })
         self._prev_original = original
 
-    def _match_paren(self, start):
+    def match_paren(self, start):
+        """从 content[start]='(' 开始，返回匹配 ')' 的位置。失败返回 -1"""
         if start >= self.length or self.content[start] != '(':
             return -1
         depth = 1
@@ -114,12 +98,45 @@ class TiTSScanner:
             i += 1
         return -1
 
-    def _extract_call_content(self, paren_start):
-        close = self._match_paren(paren_start)
+    def extract_call_content(self, paren_start):
+        """提取 (...) 内的完整内容，返回 (inner, end_pos_after_paren)"""
+        close = self.match_paren(paren_start)
         if close < 0:
             return "", paren_start + 1
         inner = self.content[paren_start + 1:close]
         return inner, close + 1
+
+    def split_args(self, inner):
+        """分割函数参数，正确处理嵌套括号和字符串"""
+        args = []
+        depth = 0
+        current = []
+        i = 0
+        while i < len(inner):
+            ch = inner[i]
+            if ch in ('"', "'", '`'):
+                content, end = parse_js_string(inner, i)
+                if content is not None:
+                    current.append(inner[i:end])
+                    i = end
+                    continue
+            if ch in ('(', '[', '{'):
+                depth += 1
+            elif ch in (')', ']', '}'):
+                depth -= 1
+            elif ch == ',' and depth == 0:
+                args.append(''.join(current))
+                current = []
+                i += 1
+                continue
+            current.append(ch)
+            i += 1
+        args.append(''.join(current))
+        return args
+
+    # ==========================================================
+    #  内部方法
+    # ==========================================================
 
     def _try_identifier(self, pos):
         if pos >= self.length:
@@ -132,13 +149,69 @@ class TiTSScanner:
             end += 1
         return self.content[pos:end], end
 
-    def _try_string_at(self, pos):
-        if pos >= self.length or self.content[pos] not in ('"', "'", '`'):
-            return "", pos, pos
-        content, end = parse_js_string(self.content, pos)
-        if content is None:
-            return "", pos, pos
-        return content, pos, end
+    def _handle_call_rule(self, category, name_end):
+        inner, after = self.extract_call_content(name_end)
+        if inner:
+            content_pos = name_end + 1
+            stripped = inner
+            if stripped and stripped[0] in ('"', "'"):
+                stripped = stripped[1:]
+                content_pos += 1
+            if stripped and stripped[-1] in ('"', "'"):
+                stripped = stripped[:-1]
+            self.add_entry(category, stripped, content_pos)
+        self.pos = after
+
+    def _handle_arg_rule(self, arg_idx, category, name_end):
+        paren_pos = name_end
+        close = self.match_paren(paren_pos)
+        if close < 0:
+            self.pos = paren_pos + 1
+            return
+
+        inner = self.content[paren_pos + 1:close]
+        self.pos = close + 1
+
+        if category == '_skip':
+            return
+
+        args = self.split_args(inner)
+        if arg_idx < len(args):
+            arg = args[arg_idx].strip()
+            if arg and arg[0] in ('"', "'"):
+                content, _ = parse_js_string(arg, 0)
+                if content is not None:
+                    str_offset = inner.find(arg.strip())
+                    if str_offset < 0:
+                        str_offset = 0
+                    real_pos = paren_pos + 1 + str_offset + 1
+                    self.add_entry(category, content, real_pos)
+
+    def _try_assign_pattern(self):
+        prefix = lookback(self.content, self.pos, 50).rstrip()
+        for pattern, category in self._assign_rules.items():
+            if prefix.endswith(pattern + ' =') or prefix.endswith(pattern + '='):
+                str_content, end = parse_js_string(self.content, self.pos)
+                if str_content is not None:
+                    self.add_entry(category, str_content, self.pos + 1)
+                    self.pos = end
+                    return True
+        return False
+
+    def _try_obj_field(self):
+        prefix = lookback(self.content, self.pos, 30).rstrip()
+        for field, category in self._field_rules.items():
+            if prefix.endswith(field + ':') or prefix.endswith(field + ': '):
+                str_content, end = parse_js_string(self.content, self.pos)
+                if str_content is not None:
+                    self.add_entry(category, str_content, self.pos + 1)
+                    self.pos = end
+                    return True
+        return False
+
+    # ==========================================================
+    #  主扫描循环
+    # ==========================================================
 
     def scan(self):
         while self.pos < self.length:
@@ -170,25 +243,17 @@ class TiTSScanner:
             if ch.isalpha() or ch == '_' or ch == '$':
                 name, name_end = self._try_identifier(self.pos)
 
-                if name in CALL_EXTRACTORS and name_end < self.length and self.content[name_end] == '(':
-                    category = CALL_EXTRACTORS[name]
-                    inner, after = self._extract_call_content(name_end)
-                    if inner:
-                        content_pos = name_end + 1
-                        stripped = inner
-                        if stripped and stripped[0] in ('"', "'"):
-                            stripped = stripped[1:]
-                            content_pos += 1
-                        if stripped and stripped[-1] in ('"', "'"):
-                            stripped = stripped[:-1]
-                        self._add_entry(category, stripped, content_pos)
-                    self.pos = after
-                    continue
-
-                if name in ARG_EXTRACTORS and name_end < self.length and self.content[name_end] == '(':
-                    arg_idx, category = ARG_EXTRACTORS[name]
-                    self._extract_arg(name, name_end, arg_idx, category)
-                    continue
+                if name and name_end < self.length and self.content[name_end] == '(':
+                    if name in self._custom_rules:
+                        self._custom_rules[name](self, name_end)
+                        continue
+                    if name in self._call_rules:
+                        self._handle_call_rule(self._call_rules[name], name_end)
+                        continue
+                    if name in self._arg_rules:
+                        arg_idx, category = self._arg_rules[name]
+                        self._handle_arg_rule(arg_idx, category, name_end)
+                        continue
 
                 self.pos = name_end
                 continue
@@ -196,80 +261,6 @@ class TiTSScanner:
             self.pos += 1
 
         return self.entries
-
-    def _try_assign_pattern(self):
-        prefix = lookback(self.content, self.pos, 50).rstrip()
-        for pattern, category in ASSIGN_PATTERNS.items():
-            if prefix.endswith(pattern + ' =') or prefix.endswith(pattern + '='):
-                str_content, end = parse_js_string(self.content, self.pos)
-                if str_content is not None:
-                    self._add_entry(category, str_content, self.pos + 1)
-                    self.pos = end
-                    return True
-        return False
-
-    def _try_obj_field(self):
-        prefix = lookback(self.content, self.pos, 30).rstrip()
-        for field, category in OBJ_FIELDS.items():
-            if prefix.endswith(field + ':') or prefix.endswith(field + ': '):
-                str_content, end = parse_js_string(self.content, self.pos)
-                if str_content is not None:
-                    self._add_entry(category, str_content, self.pos + 1)
-                    self.pos = end
-                    return True
-        return False
-
-    def _extract_arg(self, name, paren_pos, arg_idx, category):
-        close = self._match_paren(paren_pos)
-        if close < 0:
-            self.pos = paren_pos + 1
-            return
-
-        inner = self.content[paren_pos + 1:close]
-        self.pos = close + 1
-
-        if category == '_skip':
-            return
-
-        args = self._split_args(inner)
-
-        if arg_idx < len(args):
-            arg = args[arg_idx].strip()
-            if arg and arg[0] in ('"', "'"):
-                content, _ = parse_js_string(arg, 0)
-                if content is not None:
-                    str_offset = inner.find(arg.strip())
-                    if str_offset < 0:
-                        str_offset = 0
-                    real_pos = paren_pos + 1 + str_offset + 1
-                    self._add_entry(category, content, real_pos)
-
-    def _split_args(self, inner):
-        args = []
-        depth = 0
-        current = []
-        i = 0
-        while i < len(inner):
-            ch = inner[i]
-            if ch in ('"', "'", '`'):
-                content, end = parse_js_string(inner, i)
-                if content is not None:
-                    current.append(inner[i:end])
-                    i = end
-                    continue
-            if ch in ('(', '[', '{'):
-                depth += 1
-            elif ch in (')', ']', '}'):
-                depth -= 1
-            elif ch == ',' and depth == 0:
-                args.append(''.join(current))
-                current = []
-                i += 1
-                continue
-            current.append(ch)
-            i += 1
-        args.append(''.join(current))
-        return args
 
 
 def extract_file(file_path, content, pos_offset=0):
