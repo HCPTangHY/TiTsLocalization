@@ -3,20 +3,38 @@
 
 scanner 只负责：
   1. 游标移动、跳过注释/字符串
-  2. 识别标识符，查 rules 注册表分发
-  3. 括号匹配、参数分割等底层操作
+  2. 识别事件（call / string），构建 Context
+  3. 遍历 RULES 分发，condition 匹配则 process
+  4. 括号匹配、参数分割等工具方法供 rules 调用
 
-所有提取规则在 rules.py 中注册。
+所有提取规则在 rules.py 中以 condition/process 模式注册。
 """
 
-import re
-from util import parse_js_string, lookback, semantic_key, format_pos, context_hash
+from dataclasses import dataclass, field
+from util import parse_js_string, lookback
+
+
+@dataclass
+class Context:
+    """传递给规则的上下文"""
+    event: str           # "call" = 标识符+括号, "string" = 字符串字面量
+    content: str         # 完整文件内容
+    pos: int             # 当前位置（标识符起始 或 引号位置）
+    prefix: str          # 前面 200 字符
+    file_name: str = ""
+    scanner: object = None  # TiTSScanner 实例，提供工具方法
+    # call 事件专属
+    identifier: str = ""    # 函数名（如 "output"、"addButton"）
+    paren_pos: int = -1     # '(' 位置
+    # process 设置，告诉 scanner 跳到哪
+    end_pos: int = -1
 
 
 class TiTSScanner:
     def __init__(self, content, file_name, pos_offset=0):
         self.content = content
         self.file_name = file_name
+        self.file_type = "js"
         self.length = len(content)
         self.entries = []
         self.used_keys = set()
@@ -24,45 +42,17 @@ class TiTSScanner:
         self.pos_offset = pos_offset
         self._prev_original = ""
 
-        # 从 rules.py 加载规则
-        from rules import CALL_RULES, ARG_RULES, ASSIGN_RULES, FIELD_RULES, CUSTOM_RULES
-        self._call_rules = CALL_RULES
-        self._arg_rules = ARG_RULES
-        self._assign_rules = ASSIGN_RULES
-        self._field_rules = FIELD_RULES
-        self._custom_rules = CUSTOM_RULES
+        from rules import RULES
+        self._rules = [r for r in RULES if r["type"] == self.file_type]
 
     # ==========================================================
-    #  公共工具方法（供 rules 的 custom handler 调用）
+    #  公共工具方法（供 rules 的 process 调用）
     # ==========================================================
-
-    def unique_key(self, key):
-        if key in self.used_keys:
-            i = 1
-            while f"{key}#{i}" in self.used_keys:
-                i += 1
-            key = f"{key}#{i}"
-        self.used_keys.add(key)
-        return key
 
     def has_alpha(self, s):
+        """字符串是否包含英文字母"""
+        import re
         return bool(re.search(r'[a-zA-Z]', s))
-
-    def add_entry(self, category, original, pos, next_hint=""):
-        """添加一条词条。pos 是相对于 self.content 的 0-based 偏移。"""
-        if not original or not self.has_alpha(original):
-            return
-        h = context_hash(self._prev_original, original, next_hint)
-        key_text = semantic_key(original)
-        key = f"{category}|{key_text}|{h}"
-        key = self.unique_key(key)
-        self.entries.append({
-            "key": key,
-            "original": original,
-            "translation": "",
-            "context": format_pos(pos + self.pos_offset + 1),
-        })
-        self._prev_original = original
 
     def match_paren(self, start):
         """从 content[start]='(' 开始，返回匹配 ')' 的位置。失败返回 -1"""
@@ -138,6 +128,15 @@ class TiTSScanner:
     #  内部方法
     # ==========================================================
 
+    def _unique_key(self, key):
+        if key in self.used_keys:
+            i = 1
+            while f"{key}#{i}" in self.used_keys:
+                i += 1
+            key = f"{key}#{i}"
+        self.used_keys.add(key)
+        return key
+
     def _try_identifier(self, pos):
         if pos >= self.length:
             return "", pos
@@ -149,64 +148,16 @@ class TiTSScanner:
             end += 1
         return self.content[pos:end], end
 
-    def _handle_call_rule(self, category, name_end):
-        inner, after = self.extract_call_content(name_end)
-        if inner:
-            content_pos = name_end + 1
-            stripped = inner
-            if stripped and stripped[0] in ('"', "'"):
-                stripped = stripped[1:]
-                content_pos += 1
-            if stripped and stripped[-1] in ('"', "'"):
-                stripped = stripped[:-1]
-            self.add_entry(category, stripped, content_pos)
-        self.pos = after
-
-    def _handle_arg_rule(self, arg_idx, category, name_end):
-        paren_pos = name_end
-        close = self.match_paren(paren_pos)
-        if close < 0:
-            self.pos = paren_pos + 1
-            return
-
-        inner = self.content[paren_pos + 1:close]
-        self.pos = close + 1
-
-        if category == '_skip':
-            return
-
-        args = self.split_args(inner)
-        if arg_idx < len(args):
-            arg = args[arg_idx].strip()
-            if arg and arg[0] in ('"', "'"):
-                content, _ = parse_js_string(arg, 0)
-                if content is not None:
-                    str_offset = inner.find(arg.strip())
-                    if str_offset < 0:
-                        str_offset = 0
-                    real_pos = paren_pos + 1 + str_offset + 1
-                    self.add_entry(category, content, real_pos)
-
-    def _try_assign_pattern(self):
-        prefix = lookback(self.content, self.pos, 50).rstrip()
-        for pattern, category in self._assign_rules.items():
-            if prefix.endswith(pattern + ' =') or prefix.endswith(pattern + '='):
-                str_content, end = parse_js_string(self.content, self.pos)
-                if str_content is not None:
-                    self.add_entry(category, str_content, self.pos + 1)
-                    self.pos = end
-                    return True
-        return False
-
-    def _try_obj_field(self):
-        prefix = lookback(self.content, self.pos, 30).rstrip()
-        for field, category in self._field_rules.items():
-            if prefix.endswith(field + ':') or prefix.endswith(field + ': '):
-                str_content, end = parse_js_string(self.content, self.pos)
-                if str_content is not None:
-                    self.add_entry(category, str_content, self.pos + 1)
-                    self.pos = end
-                    return True
+    def _run_rules(self, ctx):
+        for rule in self._rules:
+            if rule["condition"](ctx):
+                result = rule["process"](ctx)
+                for r in result:
+                    if r is not None:
+                        r["key"] = self._unique_key(r["key"])
+                        self.entries.append(r)
+                        self._prev_original = r["original"]
+                return True
         return False
 
     # ==========================================================
@@ -229,33 +180,40 @@ class TiTSScanner:
                     continue
 
             if ch in ('"', "'", '`'):
-                if self._try_assign_pattern():
-                    continue
-                if self._try_obj_field():
-                    continue
-                _, end = parse_js_string(self.content, self.pos)
-                if end > self.pos:
-                    self.pos = end
+                ctx = Context(
+                    event="string",
+                    content=self.content,
+                    pos=self.pos,
+                    prefix=lookback(self.content, self.pos, 200),
+                    file_name=self.file_name,
+                    scanner=self,
+                )
+                if self._run_rules(ctx) and ctx.end_pos > self.pos:
+                    self.pos = ctx.end_pos
                 else:
-                    self.pos += 1
+                    _, end = parse_js_string(self.content, self.pos)
+                    self.pos = end if end > self.pos else self.pos + 1
                 continue
 
             if ch.isalpha() or ch == '_' or ch == '$':
                 name, name_end = self._try_identifier(self.pos)
-
                 if name and name_end < self.length and self.content[name_end] == '(':
-                    if name in self._custom_rules:
-                        self._custom_rules[name](self, name_end)
-                        continue
-                    if name in self._call_rules:
-                        self._handle_call_rule(self._call_rules[name], name_end)
-                        continue
-                    if name in self._arg_rules:
-                        arg_idx, category = self._arg_rules[name]
-                        self._handle_arg_rule(arg_idx, category, name_end)
-                        continue
-
-                self.pos = name_end
+                    ctx = Context(
+                        event="call",
+                        content=self.content,
+                        pos=self.pos,
+                        prefix=lookback(self.content, self.pos, 200),
+                        file_name=self.file_name,
+                        scanner=self,
+                        identifier=name,
+                        paren_pos=name_end,
+                    )
+                    if self._run_rules(ctx) and ctx.end_pos > self.pos:
+                        self.pos = ctx.end_pos
+                    else:
+                        self.pos = name_end
+                else:
+                    self.pos = name_end if name_end > self.pos else self.pos + 1
                 continue
 
             self.pos += 1
