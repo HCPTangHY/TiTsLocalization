@@ -1,0 +1,23 @@
+# 源文件（太大，不入库）
+source/
+
+# 中间产物
+split/
+
+# 产出（pz_origin 要入库）
+# pz_origin/
+
+# 翻译结果（从PZ下载，要入库）
+# trans_origin/
+
+# 最终产物
+dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db

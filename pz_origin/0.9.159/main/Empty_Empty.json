@@ -1,0 +1,368 @@
+[
+  {
+    "key": "name.show|Ship_Storage|68cda17dc00a",
+    "original": "Ship Storage",
+    "translation": "",
+    "context": "<<POS:10434441>>"
+  },
+  {
+    "key": "output|b_Available_Storage_b_e_availableSpace_n|129484e9cb0d",
+    "original": "<b>Available Storage:</b> \"+e.availableSpace()+\" / \"+n+\".",
+    "translation": "",
+    "context": "<<POS:10434487>>"
+  },
+  {
+    "key": "output|n_n_b_u_Stored_Vessels_u_b|81cb0cc32538",
+    "original": "\\n\\n<b><u>Stored Vessels</u>:</b>",
+    "translation": "",
+    "context": "<<POS:10434617>>"
+  },
+  {
+    "key": "output|u_m_startList|0589e2a192d1",
+    "original": "u.m.startList()",
+    "translation": "",
+    "context": "<<POS:10434660>>"
+  },
+  {
+    "key": "output|u_m_li_i_concat_n_theName_i|a114864ef55e",
+    "original": "u.m.li(\"\",\"<i>\".concat(n.theName,\"</i>\"))",
+    "translation": "",
+    "context": "<<POS:10434728>>"
+  },
+  {
+    "key": "output|u_m_li_Empty_Storage|13d8de9f6279",
+    "original": "u.m.li(\"\",\"\\\\[Empty Storage\\\\]\")",
+    "translation": "",
+    "context": "<<POS:10435079>>"
+  },
+  {
+    "key": "button|Empty|5cc7697c6729",
+    "original": "Empty",
+    "translation": "",
+    "context": "<<POS:10435134>>"
+  },
+  {
+    "key": "output|u_m_endList|0201a6c0fe38",
+    "original": "u.m.endList()",
+    "translation": "",
+    "context": "<<POS:10435211>>"
+  },
+  {
+    "key": "button|Current_Ship|7503bde26976",
+    "original": "Current Ship",
+    "translation": "",
+    "context": "<<POS:10435240>>"
+  },
+  {
+    "key": "button|Back|83bdd490ab84",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:10435442>>"
+  },
+  {
+    "key": "button|Buy|c60ff89d05c9",
+    "original": "Buy",
+    "translation": "",
+    "context": "<<POS:10435599>>"
+  },
+  {
+    "key": "button|Buy|146a94c1debe",
+    "original": "Buy",
+    "translation": "",
+    "context": "<<POS:10435778>>"
+  },
+  {
+    "key": "button|Buy|146a94c1debe#1",
+    "original": "Buy",
+    "translation": "",
+    "context": "<<POS:10435984>>"
+  },
+  {
+    "key": "button|Buy|146a94c1debe#2",
+    "original": "Buy",
+    "translation": "",
+    "context": "<<POS:10436359>>"
+  },
+  {
+    "key": "button|Buy|146a94c1debe#3",
+    "original": "Buy",
+    "translation": "",
+    "context": "<<POS:10436485>>"
+  },
+  {
+    "key": "button|Buy_Trade|5f00e96e0053",
+    "original": "Buy+Trade",
+    "translation": "",
+    "context": "<<POS:10436753>>"
+  },
+  {
+    "key": "button|Buy_Trade|b28026d55769",
+    "original": "Buy+Trade",
+    "translation": "",
+    "context": "<<POS:10436891>>"
+  },
+  {
+    "key": "button|Buy_Trade|b28026d55769#1",
+    "original": "Buy+Trade",
+    "translation": "",
+    "context": "<<POS:10437363>>"
+  },
+  {
+    "key": "button|Buy_Trade|b28026d55769#2",
+    "original": "Buy+Trade",
+    "translation": "",
+    "context": "<<POS:10437528>>"
+  },
+  {
+    "key": "output|Once_you_fully_commit_t_short_informs_you_that_it_s_station|1838dc18eeb7",
+    "original": "Once you fully commit, \"+t.short+\" informs you that it’s station policy to ensure that inactivated ships have their storage completely emptied out. Ever since the entire deck got infested with grubthakks a few years back, it’s been something of a sore spot. <i>“Don’t worry too hard about it. Bolted-in upgrades are fine, and I’ll have your smaller things delivered to the new ship.”</i>",
+    "translation": "",
+    "context": "<<POS:10437709>>"
+  },
+  {
+    "key": "output|n_n_b_You_pay_n_toLocaleString_credits_for_i_o_a_o_sho|c9ef1b651d12",
+    "original": "\\n\\n<b>You pay \"+n.toLocaleString()+\" credits for <i>\"+o.a+o.short+\"</i>!</b>",
+    "translation": "",
+    "context": "<<POS:10438107>>"
+  },
+  {
+    "key": "button|Next|a89737a9ee9a",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:10438369>>"
+  },
+  {
+    "key": "output|Once_you_fully_commit_t_short_informs_you_that_your_stored|2b2579449854",
+    "original": "Once you fully commit, \"+t.short+\" informs you that your stored personal items will be moved to the new ship. Installed upgrades will not, though their value will be counted into your trade-in.",
+    "translation": "",
+    "context": "<<POS:10438529>>"
+  },
+  {
+    "key": "output|n_n_b_New_Ship_Cost_b_o_cost_Credits_n_b_Old_Ship_Valu|e7c0965e38da",
+    "original": "\\n\\n<b>New Ship Cost: </b>\"+o.cost()+\" Credits\\n<b>Old Ship Value: </b>\"+n+\" Credits\\n<b>Total Cost: </b>\"+i.toLocaleString()+\" Credits\\n\\nDo you trade it in? (<b>Warning:</b> This cannot be reversed.)",
+    "translation": "",
+    "context": "<<POS:10438779>>"
+  },
+  {
+    "key": "button|Trade_In|51d4e41b9364",
+    "original": "Trade In",
+    "translation": "",
+    "context": "<<POS:10439008>>"
+  },
+  {
+    "key": "button|Back|94dd72fd6f4f",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:10439111>>"
+  },
+  {
+    "key": "output|b_You_make_a_profit_of_Math_abs_n_off_of_the_trade_in_b|fc9b5fccfaff",
+    "original": "<b>You make a profit of \"+Math.abs(n)+\" off of the trade-in</b>, receiving a new \"+o.short+\".",
+    "translation": "",
+    "context": "<<POS:10439312>>"
+  },
+  {
+    "key": "output|b_You_pay_nothing_for_your_new_ship_b_covering_the_cost_by_t|244c106b5772",
+    "original": "<b>You pay nothing for your new ship</b>, covering the cost by trading in your old vessel.",
+    "translation": "",
+    "context": "<<POS:10439422>>"
+  },
+  {
+    "key": "output|b_You_pay_n_toLocaleString_credits_for_i_o_a_o_short|32f1b4c02a9d",
+    "original": "<b>You pay \"+n.toLocaleString()+\" credits for <i>\"+o.a+o.short+\"</i></b> after selling your <i>\"+pc_ship.short+\"</i>!",
+    "translation": "",
+    "context": "<<POS:10439523>>"
+  },
+  {
+    "key": "button|Next|5d15647af369",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:10439841>>"
+  },
+  {
+    "key": "button|Back|eca0a6ead26e",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:10439929>>"
+  },
+  {
+    "key": "button|Next|6d18801ef4fb",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:10439972>>"
+  },
+  {
+    "key": "name.show|Sell_Ship|3010e34cd61d",
+    "original": "Sell Ship",
+    "translation": "",
+    "context": "<<POS:10440224>>"
+  },
+  {
+    "key": "output|What_ship_would_you_like_to_sell|6555ee3e7d50",
+    "original": "What ship would you like to sell?",
+    "translation": "",
+    "context": "<<POS:10440244>>"
+  },
+  {
+    "key": "output|n_n_b_u_Owned_Vessels_u_b|a5e763900e58",
+    "original": "\\n\\n<b><u>Owned Vessels</u>:</b>",
+    "translation": "",
+    "context": "<<POS:10440327>>"
+  },
+  {
+    "key": "output|u_m_startList|940c6f622dc3",
+    "original": "u.m.startList()",
+    "translation": "",
+    "context": "<<POS:10440369>>"
+  },
+  {
+    "key": "output|u_m_li_Cannot_Sell_i_concat_pc_ship_theName_i|0d0349affe85",
+    "original": "u.m.li(\"\",\"\\\\[Cannot Sell\\\\] <i>\".concat(pc_ship.theName,\"</i>\"))",
+    "translation": "",
+    "context": "<<POS:10440393>>"
+  },
+  {
+    "key": "output|u_m_endList|7fe1e133360d",
+    "original": "u.m.endList()",
+    "translation": "",
+    "context": "<<POS:10440673>>"
+  },
+  {
+    "key": "button|Current_Ship|7503bde26976#1",
+    "original": "Current Ship",
+    "translation": "",
+    "context": "<<POS:10440702>>"
+  },
+  {
+    "key": "button|Back|83bdd490ab84#1",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:10440911>>"
+  },
+  {
+    "key": "output|textify_a_a_0_n_Z_You_swap_i_i_for_i_i|2dc6e8cee678",
+    "original": "textify(a||(a=(0,n.Z)([\"You swap <i>\",\"</i> for <i>\",\"</i>.\"])),pc_ship.theName,t.theName)",
+    "translation": "",
+    "context": "<<POS:10441720>>"
+  },
+  {
+    "key": "button|Next|0c22d9d839de",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:10441990>>"
+  },
+  {
+    "key": "output|n_nYour_old_vessel_i_t_theName_i_is_placed_into_storag|6955422433ef",
+    "original": "\\n\\nYour old vessel, <i>\"+t.theName+\"</i>, is placed into storage.",
+    "translation": "",
+    "context": "<<POS:10442212>>"
+  },
+  {
+    "key": "button|Edit_Weapons|ef4904e04b50",
+    "original": "Edit Weapons",
+    "translation": "",
+    "context": "<<POS:10442583>>"
+  },
+  {
+    "key": "button|Edit_Weapons|54b260fb33e2",
+    "original": "Edit Weapons",
+    "translation": "",
+    "context": "<<POS:10443092>>"
+  },
+  {
+    "key": "button|Back|659ee2e7c6f5",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:10443707>>"
+  },
+  {
+    "key": "output|e_generateCompareString_t_t|e73975cb1d96",
+    "original": "e.generateCompareString(t,t)",
+    "translation": "",
+    "context": "<<POS:10443947>>"
+  },
+  {
+    "key": "output|n_n|64f259e08be4",
+    "original": "\\n\\n",
+    "translation": "",
+    "context": "<<POS:10443985>>"
+  },
+  {
+    "key": "button|Back|849b7654f0c1",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:10444029>>"
+  },
+  {
+    "key": "output|i|d206574d7026",
+    "original": "i",
+    "translation": "",
+    "context": "<<POS:10455011>>"
+  },
+  {
+    "key": "output|n_n_e_generateCompareString_o_t_1_0|67aabd5bd01b",
+    "original": "\\n\\n\"+e.generateCompareString(o,t,!1,!0)",
+    "translation": "",
+    "context": "<<POS:10455022>>"
+  },
+  {
+    "key": "output|n_n|8da6ee59aa6a",
+    "original": "\\n\\n",
+    "translation": "",
+    "context": "<<POS:10455072>>"
+  },
+  {
+    "key": "button|Yes|7277fb82b795",
+    "original": "Yes",
+    "translation": "",
+    "context": "<<POS:10455117>>"
+  },
+  {
+    "key": "button|No|1c655db5490a",
+    "original": "No",
+    "translation": "",
+    "context": "<<POS:10455161>>"
+  },
+  {
+    "key": "button|Equipment|c735303ad523",
+    "original": "Equipment",
+    "translation": "",
+    "context": "<<POS:10455204>>"
+  },
+  {
+    "key": "output|Buying_a_module_will_result_in_it_being_immediately_installed_on|367619a57bcc",
+    "original": "Buying a module will result in it being immediately installed on your ship. They’re too large to carry or transport in any other way. The cost of installation is included in the price.\\n\\n",
+    "translation": "",
+    "context": "<<POS:10455668>>"
+  },
+  {
+    "key": "output|b_Unused_Upgrade_Slots_b_pc_ship_capacity_pc_ship_inven|5a41a4e14993",
+    "original": "<b>Unused Upgrade Slots:</b> \"+(pc_ship.capacity()-pc_ship.inventory.storage.length)",
+    "translation": "",
+    "context": "<<POS:10455867>>"
+  },
+  {
+    "key": "output|n_b_Unused_Weapon_Hardpoints_b_pc_ship_gunCapacity_pc_s|694ed6e4b600",
+    "original": "\\n<b>Unused Weapon Hardpoints:</b> \"+(pc_ship.gunCapacity()-pc_ship.listShipWeapons().length)",
+    "translation": "",
+    "context": "<<POS:10455961>>"
+  },
+  {
+    "key": "output|n_b_Current_Crew_Capacity_b_pc_ship_crewCapacity|8f753dec55cd",
+    "original": "\\n<b>Current Crew Capacity:</b> \"+pc_ship.crewCapacity()",
+    "translation": "",
+    "context": "<<POS:10456064>>"
+  },
+  {
+    "key": "output|n_n_b_Warning_b_Your_ship_has_no_more_hardpoints_to_equip_we|f8c1566641e5",
+    "original": "\\n\\n<b>Warning:</b> Your ship has no more hardpoints to equip weapons to.",
+    "translation": "",
+    "context": "<<POS:10456186>>"
+  },
+  {
+    "key": "output|n_n_b_u_Modules_For_Sale_Fit_u_b|76a0ba62c823",
+    "original": "\\n\\n<b><u>Modules For Sale & Fit:</u></b>",
+    "translation": "",
+    "context": "<<POS:10456270>>"
+  }
+]
