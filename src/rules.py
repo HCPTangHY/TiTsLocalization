@@ -57,6 +57,7 @@ def _process_call_extract(ctx):
     ctx.end_pos = after
     if not inner:
         return []
+    # 去掉前后引号
     content_pos = ctx.paren_pos + 1
     stripped = inner
     if stripped and stripped[0] in ('"', "'"):
@@ -80,13 +81,13 @@ RULES.append({
 #   Rule: addButton / showName / createPerk 等 — 第N个参数提取
 # ================================================================
 
+# (arg_index, category) 或 [(arg_index, category), ...] 多参数提取
 _ARG_EXTRACT = {
-    "addButton":         (1, "button"),
-    "addDisabledButton": (1, "button"),
-    "showName":          (0, "name.show"),
-    "showBust":          (0, "bust"),
-    "createPerk":        (0, "perk"),
-    "author":            (0, "_skip"),
+    "addButton":         [(1, "button"), (3, "button.hover"), (4, "button.tooltip")],
+    "addDisabledButton": [(1, "button"), (3, "button.hover"), (4, "button.tooltip")],
+    "showName":          [(0, "name.show")],
+    "createPerk":        [(0, "perk")],
+    "author":            [(0, "_skip")],
 }
 
 
@@ -96,7 +97,7 @@ def _is_arg_extract(ctx):
 
 def _process_arg_extract(ctx):
     s = ctx.scanner
-    arg_idx, category = _ARG_EXTRACT[ctx.identifier]
+    extractions = _ARG_EXTRACT[ctx.identifier]
 
     close = s.match_paren(ctx.paren_pos)
     if close < 0:
@@ -106,28 +107,34 @@ def _process_arg_extract(ctx):
     inner = s.content[ctx.paren_pos + 1:close]
     ctx.end_pos = close + 1
 
-    if category == "_skip":
-        return []
-
     args = s.split_args(inner)
-    if arg_idx >= len(args):
-        return []
+    results = []
 
-    arg = args[arg_idx].strip()
-    if not arg or arg[0] not in ('"', "'"):
-        return []
+    for arg_idx, category in extractions:
+        if category == "_skip":
+            continue
+        if arg_idx >= len(args):
+            continue
 
-    content, _ = parse_js_string(arg, 0)
-    if content is None:
-        return []
+        arg_text, arg_offset = args[arg_idx]
+        # 找到 arg_text 内字符串字面量的起始位置（跳过前导空白）
+        leading = len(arg_text) - len(arg_text.lstrip())
+        stripped = arg_text.strip()
+        if not stripped or stripped[0] not in ('"', "'"):
+            continue
 
-    str_offset = inner.find(arg)
-    if str_offset < 0:
-        str_offset = 0
-    real_pos = ctx.paren_pos + 1 + str_offset + 1
+        content, _ = parse_js_string(stripped, 0)
+        if content is None:
+            continue
 
-    entry = make_entry(ctx, category, content, real_pos)
-    return [entry] if entry else []
+        # 参数在 inner 中的精确起始偏移 = arg_offset + 前导空白 + 1（跳引号）
+        real_pos = ctx.paren_pos + 1 + arg_offset + leading + 1
+
+        entry = make_entry(ctx, category, content, real_pos)
+        if entry:
+            results.append(entry)
+
+    return results
 
 
 RULES.append({
@@ -221,4 +228,71 @@ RULES.append({
     "type": "js",
     "condition": _is_field,
     "process": _process_field,
+})
+
+
+# ================================================================
+#   Rule: textify() — babel tagged template literal
+#   textify(VAR||(VAR=(0,Ce.Z)(["str1","str2",...])), interp1, interp2, ...)
+#   提取字符串数组中的所有文本
+# ================================================================
+
+import re as _re
+
+
+def _is_textify(ctx):
+    return ctx.event == "call" and ctx.identifier == "textify"
+
+
+def _process_textify(ctx):
+    s = ctx.scanner
+    inner, after = s.extract_call_content(ctx.paren_pos)
+    ctx.end_pos = after
+    if not inner:
+        return []
+
+    # inner 形如: VAR||(VAR=(0,Ce.Z)(["str1","str2"])), interp1, ...
+    # 找到字符串数组 ["...","..."]
+    results = []
+
+    # 用正则找所有引号字符串
+    # 从 ([" 开始到 "]) 结束的数组部分
+    arr_start = inner.find('(["')
+    if arr_start < 0:
+        arr_start = inner.find("(['")
+    if arr_start < 0:
+        return []
+
+    arr_start += 1  # 跳过 (
+    # 从 arr_start 找匹配的 ]
+    bracket_pos = arr_start
+    if inner[bracket_pos] != '[':
+        return []
+
+    # 解析数组内的字符串
+    i = bracket_pos + 1
+    while i < len(inner):
+        ch = inner[i]
+        if ch == ']':
+            break
+        if ch in ('"', "'"):
+            str_content, end = parse_js_string(inner, i)
+            if str_content is not None and str_content.strip():
+                # 计算在原始文件中的位置
+                real_pos = ctx.paren_pos + 1 + i + 1  # +1 for (, +1 for quote
+                entry = make_entry(ctx, "textify", str_content, real_pos)
+                if entry:
+                    results.append(entry)
+                i = end
+                continue
+        i += 1
+
+    return results
+
+
+RULES.append({
+    "name": "textify",
+    "type": "js",
+    "condition": _is_textify,
+    "process": _process_textify,
 })
