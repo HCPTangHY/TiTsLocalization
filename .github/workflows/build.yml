@@ -111,7 +111,13 @@ jobs:
           fi
           for f in ../dist/$VERSION/*.js; do
             BASE=$(basename "$f")
-            MATCH=$(find "$APP_DIR" -name "${BASE%%.*}.*" -name '*.js' | head -1)
+            PREFIX="${BASE%%.*}"
+            # 精确匹配完整文件名
+            MATCH=$(find "$APP_DIR" -name "$BASE" | head -1)
+            # fallback: 前缀+hash模式匹配（排除不带hash的如main.js）
+            if [ -z "$MATCH" ]; then
+              MATCH=$(find "$APP_DIR" -regex ".*/${PREFIX}\.[a-f0-9]+\.js" | head -1)
+            fi
             if [ -n "$MATCH" ]; then
               cp "$f" "$MATCH"
               echo "  Replaced: $(basename $MATCH)"
@@ -136,7 +142,13 @@ jobs:
           fi
           for f in ../dist/$VERSION/*.js; do
             BASE=$(basename "$f")
-            MATCH=$(find "$APP_DIR" -name "${BASE%%.*}.*" -name '*.js' | head -1)
+            PREFIX="${BASE%%.*}"
+            # 精确匹配完整文件名
+            MATCH=$(find "$APP_DIR" -name "$BASE" | head -1)
+            # fallback: 前缀+hash模式匹配（排除不带hash的如main.js）
+            if [ -z "$MATCH" ]; then
+              MATCH=$(find "$APP_DIR" -regex ".*/${PREFIX}\.[a-f0-9]+\.js" | head -1)
+            fi
             if [ -n "$MATCH" ]; then
               cp "$f" "$MATCH"
               echo "  Replaced: $(basename $MATCH)"
@@ -155,7 +167,13 @@ jobs:
           cp -r "$APP_DIR" web-build/
           for f in dist/$VERSION/*.js; do
             BASE=$(basename "$f")
-            MATCH=$(find web-build -maxdepth 1 -name "${BASE%%.*}.*" -name '*.js' | head -1)
+            PREFIX="${BASE%%.*}"
+            # 精确匹配完整文件名
+            MATCH=$(find web-build -maxdepth 1 -name "$BASE" | head -1)
+            # fallback: 前缀+hash模式匹配
+            if [ -z "$MATCH" ]; then
+              MATCH=$(find web-build -maxdepth 1 -regex ".*/${PREFIX}\.[a-f0-9]+\.js" | head -1)
+            fi
             if [ -n "$MATCH" ]; then
               cp "$f" "$MATCH"
               echo "  Replaced: $(basename $MATCH)"
