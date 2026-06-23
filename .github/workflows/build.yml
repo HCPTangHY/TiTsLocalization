@@ -153,15 +153,12 @@ jobs:
           cd ..
           echo "Linux package ready"
 
-      # ── 4. Build Web-compatible base (reused by Web zip + Android APK) ──
+      # ── 4. Build Web base (reused by Web zip + Android APK) ──
       - name: Build Web base
-        id: web
         run: |
           VERSION=${{ steps.source.outputs.version }}
-          # Extract app dir from already-unpacked Linux Electron
           APP_DIR=$(find packages/electron-linux -type d -name app -path '*/resources/app' | head -1)
           cp -r "$APP_DIR" web-build/
-          # Replace JS with translated versions
           for f in dist/$VERSION/*.js; do
             BASE=$(basename "$f")
             MATCH=$(find web-build -maxdepth 1 -name "${BASE%%.*}.*" -name '*.js' | head -1)
@@ -170,22 +167,7 @@ jobs:
               echo "  Replaced: $(basename $MATCH)"
             fi
           done
-          # Patch base href: Electron custom protocol → relative path
-          sed -i 's|<base href="tits://titsapp">|<base href="./">|g' web-build/index.html
-          # Inject electronAPI shim
-          python3 -c "
-import re
-with open('web-build/index.html') as f:
-    html = f.read()
-shim = '''<script>window.electronAPI={getStoreValue:()=>Promise.resolve(null),setStoreValue:()=>Promise.resolve(),getAppVersion:()=>Promise.resolve('$VERSION-web'),onNavigate:()=>{},platform:'browser',checkManifest:()=>Promise.resolve(null),deleteFile:()=>Promise.resolve(),downloadImages:()=>Promise.resolve(),downloadImagesCancel:()=>{},forceReload:()=>location.reload(),loadFile:()=>Promise.resolve(null),notifyDownloadComplete:()=>{},notifyDownloadProgress:()=>{},notifyHasImagesAvailable:()=>{},onTriggerRedraw:()=>{},saveFile:(n,d)=>{const b=new Blob([d],{type:'application/octet-stream'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=n;a.click();return Promise.resolve()}};<\/script>'''
-html = html.replace('<script defer=', shim + '<script defer=', 1)
-with open('web-build/index.html', 'w') as f:
-    f.write(html)
-print('electronAPI shim injected')
-          "
-          # Verify
-          grep -q 'base href="./"' web-build/index.html && echo "base href patched" || echo "WARN: base href patch failed"
-          grep -q 'window.electronAPI' web-build/index.html && echo "electronAPI shim OK" || echo "WARN: shim failed"
+          python src/patch_web.py web-build/index.html "$VERSION"
 
       - name: Package Web zip
         run: |
@@ -204,7 +186,6 @@ print('electronAPI shim injected')
           cd packages
           mkdir android-tmp && cd android-tmp
           cp ../android.apk game.apk
-          # Find where index.html lives in APK
           INDEX_PATH=$(unzip -l game.apk | grep -oP '\S+index\.html' | head -1)
           if [ -z "$INDEX_PATH" ]; then
             echo "Cannot locate index.html in APK, skipping"
@@ -213,31 +194,24 @@ print('electronAPI shim injected')
           fi
           APK_APP_DIR=$(dirname "$INDEX_PATH")
           echo "APK app dir: $APK_APP_DIR"
-          # Inject all web-build files into the APK at the correct path
           mkdir -p "inject/$APK_APP_DIR"
-          # Copy patched index.html
           cp ../../web-build/index.html "inject/$INDEX_PATH"
-          # Copy all JS files from web-build
           for f in ../../web-build/*.js; do
             BASENAME=$(basename "$f")
-            # Find matching filename in APK (same prefix, possibly different hash)
             MATCH=$(unzip -l game.apk | grep -oP "\S+${BASENAME%%.*}\.[a-f0-9]+\.js" | head -1)
             if [ -n "$MATCH" ]; then
               cp "$f" "inject/$MATCH"
               echo "  Prepared: $MATCH"
             else
-              # Same filename
               cp "$f" "inject/$APK_APP_DIR/$BASENAME"
               echo "  Prepared (direct): $APK_APP_DIR/$BASENAME"
             fi
           done
-          # Inject into APK
           cd inject
           find . -type f | while read file; do
             zip -u ../game.apk "${file#./}"
           done
           cd ..
-          # Remove old signature
           zip -d game.apk 'META-INF/*' 2>/dev/null || true
           mv game.apk "../../TiTS-CHS-${VERSION}-${CHS}-android-unsigned.apk"
           cd ../..
