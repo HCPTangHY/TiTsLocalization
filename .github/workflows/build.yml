@@ -1,0 +1,220 @@
+name: Build Localized Package
+
+on:
+  workflow_dispatch:
+    inputs:
+      chinese_version:
+        description: 'Chinese version label (e.g. 0.1.0)'
+        required: false
+        default: 'nightly'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+      PARATRANZ_PROJECT: ${{ secrets.PARATRANZ_PROJECT }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Download source release
+        id: source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG=$(gh release list --limit 50 --json tagName -q '.[].tagName' | grep '^source-' | head -1)
+          if [ -z "$TAG" ]; then
+            echo "No source release found. Run check-update workflow first."
+            exit 1
+          fi
+          echo "Using source release: $TAG"
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+
+          VERSION=$(echo "$TAG" | sed 's/source-//;s/-[a-f0-9]*$//')
+          MAIN_HASH=$(echo "$TAG" | grep -oP '[a-f0-9]+$')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "main_hash=$MAIN_HASH" >> $GITHUB_OUTPUT
+          echo "Version: $VERSION, Hash: $MAIN_HASH"
+
+          gh release download "$TAG" --pattern "tits-source-*.tar.gz"
+          mkdir -p source/$VERSION
+          tar xzf tits-source-*.tar.gz -C source/$VERSION/
+          echo "Extracted $(ls source/$VERSION/*.js | wc -l) JS files"
+
+      - name: Download translations
+        run: |
+          VERSION=${{ steps.source.outputs.version }}
+          python src/pz_download.py --output trans_origin/$VERSION/
+
+      - name: Replace translations
+        id: replace
+        run: |
+          VERSION=${{ steps.source.outputs.version }}
+          python src/pipeline.py -v $VERSION replace --root .
+
+      - name: Verify JS syntax
+        run: |
+          VERSION=${{ steps.source.outputs.version }}
+          ERRORS=0
+          for f in dist/$VERSION/*.js; do
+            if ! node --check "$f" 2>/dev/null; then
+              echo "Syntax error in $(basename $f)"
+              COL=$(node --check "$f" 2>&1 | grep -oP ':\d+' | tail -1 | tr -d ':')
+              if [ -n "$COL" ]; then
+                echo "  Error near byte offset $COL"
+              fi
+              ERRORS=$((ERRORS + 1))
+            fi
+          done
+          if [ $ERRORS -gt 0 ]; then
+            echo "$ERRORS files have syntax errors"
+            exit 1
+          fi
+          echo "All JS files pass syntax check"
+
+      - name: Download Electron packages
+        run: |
+          mkdir -p packages
+          echo "Downloading Electron Windows..."
+          curl -sL -A 'Mozilla/5.0' -o packages/electron-win.zip \
+            'https://www.fenoxo.com/play/latest_tits_electron.php'
+          echo "Downloading Electron Linux..."
+          curl -sL -A 'Mozilla/5.0' -o packages/electron-linux.tar.gz \
+            'https://www.fenoxo.com/play/latest_tits_electron_linux.php'
+          echo "Downloading Android APK..."
+          curl -sL -A 'Mozilla/5.0' -o packages/android.apk \
+            'https://www.fenoxo.com/play/latest_tits_android.php'
+          ls -lh packages/
+
+      - name: Build Electron Windows package
+        run: |
+          VERSION=${{ steps.source.outputs.version }}
+          CHS="${{ github.event.inputs.chinese_version || 'nightly' }}"
+          cd packages
+          unzip -q electron-win.zip -d electron-win/
+          APP_DIR=$(find electron-win -type d -name app -path '*/resources/app' | head -1)
+          if [ -z "$APP_DIR" ]; then
+            echo "Cannot find resources/app/ in Electron package"
+            exit 1
+          fi
+          echo "Found app dir: $APP_DIR"
+          for f in ../dist/$VERSION/*.js; do
+            BASE=$(basename "$f")
+            MATCH=$(find "$APP_DIR" -name "${BASE%%.*}.*" -name '*.js' | head -1)
+            if [ -n "$MATCH" ]; then
+              cp "$f" "$MATCH"
+              echo "  Replaced: $(basename $MATCH)"
+            fi
+          done
+          cd electron-win
+          zip -qr "../../TiTS-CHS-${VERSION}-${CHS}-win.zip" .
+          cd ..
+          echo "Windows package ready"
+
+      - name: Build Electron Linux package
+        run: |
+          VERSION=${{ steps.source.outputs.version }}
+          CHS="${{ github.event.inputs.chinese_version || 'nightly' }}"
+          cd packages
+          mkdir electron-linux
+          tar xzf electron-linux.tar.gz -C electron-linux/
+          APP_DIR=$(find electron-linux -type d -name app -path '*/resources/app' | head -1)
+          if [ -z "$APP_DIR" ]; then
+            echo "Cannot find resources/app/ in Electron package"
+            exit 1
+          fi
+          for f in ../dist/$VERSION/*.js; do
+            BASE=$(basename "$f")
+            MATCH=$(find "$APP_DIR" -name "${BASE%%.*}.*" -name '*.js' | head -1)
+            if [ -n "$MATCH" ]; then
+              cp "$f" "$MATCH"
+              echo "  Replaced: $(basename $MATCH)"
+            fi
+          done
+          cd electron-linux
+          tar czf "../../TiTS-CHS-${VERSION}-${CHS}-linux.tar.gz" .
+          cd ..
+          echo "Linux package ready"
+
+      - name: Build Android package
+        run: |
+          VERSION=${{ steps.source.outputs.version }}
+          CHS="${{ github.event.inputs.chinese_version || 'nightly' }}"
+          cd packages
+          mkdir android-tmp
+          cp android.apk android-tmp/game.apk
+          cd android-tmp
+          JS_PATH=$(unzip -l game.apk | grep -oP '\S+main\.[a-f0-9]+\.js' | head -1)
+          if [ -z "$JS_PATH" ]; then
+            echo "Cannot locate JS in APK, skipping Android build"
+            cd ../..
+            exit 0
+          fi
+          JS_DIR=$(dirname "$JS_PATH")
+          echo "JS dir in APK: $JS_DIR"
+          mkdir -p inject/$JS_DIR
+          for f in ../../dist/$VERSION/*.js; do
+            BASE=$(basename "$f")
+            MATCH=$(unzip -l game.apk | grep -oP "\S+${BASE%%.*}\.[a-f0-9]+\.js" | head -1)
+            if [ -n "$MATCH" ]; then
+              cp "$f" "inject/$MATCH"
+              echo "  Prepared: $MATCH"
+            fi
+          done
+          cd inject
+          zip -u ../game.apk $(find . -name '*.js' -printf '%P\n')
+          cd ..
+          zip -d game.apk 'META-INF/*' 2>/dev/null || true
+          mv game.apk "../../TiTS-CHS-${VERSION}-${CHS}-android-unsigned.apk"
+          cd ../..
+          echo "Android package ready (unsigned)"
+
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y%m%d')" >> $GITHUB_OUTPUT
+
+      - name: Cleanup old build releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION=${{ steps.source.outputs.version }}
+          gh release list --limit 50 --json tagName -q '.[].tagName' \
+            | grep "^${VERSION}-chs" \
+            | while read tag; do
+                echo "Deleting old release: $tag"
+                gh release delete "$tag" -y --cleanup-tag || true
+              done || true
+
+      - name: Create release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.source.outputs.version }}-chs-${{ github.event.inputs.chinese_version || 'nightly' }}
+          name: "TiTS ${{ steps.source.outputs.version }} CHS ${{ github.event.inputs.chinese_version || 'nightly' }}"
+          body: |
+            Game version: ${{ steps.source.outputs.version }}
+            Chinese version: ${{ github.event.inputs.chinese_version || 'nightly' }}
+            Baseline hash: ${{ steps.source.outputs.main_hash }}
+            Build date: ${{ steps.date.outputs.date }}
+            
+            Android package is unsigned.
+          files: |
+            TiTS-CHS-*.zip
+            TiTS-CHS-*.tar.gz
+            TiTS-CHS-*.apk
+          prerelease: true
