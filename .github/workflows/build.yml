@@ -73,12 +73,14 @@ jobs:
           VERSION=${{ steps.source.outputs.version }}
           ERRORS=0
           for f in dist/$VERSION/*.js; do
+            echo "Checking $(basename $f)..."
             if ! node --check "$f" 2>/dev/null; then
-              echo "Syntax error in $(basename $f)"
-              COL=$(node --check "$f" 2>&1 | grep -oP ':\d+' | tail -1 | tr -d ':')
-              if [ -n "$COL" ]; then
-                echo "  Error near byte offset $COL"
-              fi
+              echo "=== SYNTAX ERROR in $(basename $f) ==="
+              node --check "$f" 2>&1 || true
+              echo "=== First 5 chars around error ==="
+              # Try to extract error position from node output
+              NODE_ERR=$(node --check "$f" 2>&1 || true)
+              echo "$NODE_ERR"
               ERRORS=$((ERRORS + 1))
             fi
           done
