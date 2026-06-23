@@ -68,19 +68,38 @@ jobs:
           VERSION=${{ steps.source.outputs.version }}
           python src/pipeline.py -v $VERSION replace --root .
 
+      - name: Upload dist artifact (debug)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-js
+          path: dist/
+          retention-days: 3
+
       - name: Verify JS syntax
         run: |
           VERSION=${{ steps.source.outputs.version }}
+          npm install -g js-beautify
           ERRORS=0
           for f in dist/$VERSION/*.js; do
-            echo "Checking $(basename $f)..."
+            BASENAME=$(basename "$f")
+            echo "Checking $BASENAME..."
             if ! node --check "$f" 2>/dev/null; then
-              echo "=== SYNTAX ERROR in $(basename $f) ==="
-              node --check "$f" 2>&1 || true
-              echo "=== First 5 chars around error ==="
-              # Try to extract error position from node output
-              NODE_ERR=$(node --check "$f" 2>&1 || true)
-              echo "$NODE_ERR"
+              echo "=== SYNTAX ERROR in $BASENAME ==="
+              # Format to get readable line numbers
+              FORMATTED="/tmp/formatted_${BASENAME}"
+              js-beautify "$f" -o "$FORMATTED" 2>/dev/null || cp "$f" "$FORMATTED"
+              NODE_OUT=$(node --check "$FORMATTED" 2>&1 || true)
+              # Extract just the error lines, not the code dump
+              echo "$NODE_OUT" | grep -E 'SyntaxError|Unexpected|Invalid|Error' | head -5
+              echo "$NODE_OUT" | grep -E '^\s+at ' | head -3
+              # Also show the line if we got a line number
+              LINE_NUM=$(echo "$NODE_OUT" | grep -oP ':\d+' | head -1 | tr -d ':')
+              if [ -n "$LINE_NUM" ] && [ "$LINE_NUM" -gt 0 ] 2>/dev/null; then
+                echo "--- Line $LINE_NUM context ---"
+                sed -n "$((LINE_NUM-2)),$((LINE_NUM+2))p" "$FORMATTED" | head -10
+              fi
+              rm -f "$FORMATTED"
               ERRORS=$((ERRORS + 1))
             fi
           done
