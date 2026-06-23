@@ -107,15 +107,17 @@ def main():
     p.add_argument("--output", required=True, help="Output directory")
     p.add_argument("--project", default=os.environ.get("PARATRANZ_PROJECT"))
     p.add_argument("--token", default=os.environ.get("PARATRANZ_TOKEN"))
-    p.add_argument("--skip-export", action="store_true", help="Skip triggering export")
+    p.add_argument("--trigger-export", action="store_true", help="Trigger a fresh export before downloading (default: use latest existing)")
     args = p.parse_args()
 
     if not args.project or not args.token:
         print("ERROR: set PARATRANZ_PROJECT and PARATRANZ_TOKEN env vars")
         sys.exit(1)
 
-    if not args.skip_export:
+    if args.trigger_export:
         trigger_export(args.project, args.token)
+    else:
+        print("Using latest existing artifact (PZ auto-builds hourly)")
 
     download_artifact(args.project, args.token, args.output)
     total, translated = count_translated(args.output)
