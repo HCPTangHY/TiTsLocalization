@@ -97,10 +97,14 @@ class TiTSScanner:
         return inner, close + 1
 
     def split_args(self, inner):
-        """分割函数参数，正确处理嵌套括号和字符串"""
+        """分割函数参数，正确处理嵌套括号和字符串。
+
+        返回 list of (arg_text, offset_in_inner)，offset 是该参数在 inner 中的起始字节偏移。
+        """
         args = []
         depth = 0
         current = []
+        cur_start = 0
         i = 0
         while i < len(inner):
             ch = inner[i]
@@ -115,13 +119,14 @@ class TiTSScanner:
             elif ch in (')', ']', '}'):
                 depth -= 1
             elif ch == ',' and depth == 0:
-                args.append(''.join(current))
+                args.append((''.join(current), cur_start))
                 current = []
                 i += 1
+                cur_start = i
                 continue
             current.append(ch)
             i += 1
-        args.append(''.join(current))
+        args.append((''.join(current), cur_start))
         return args
 
     # ==========================================================
@@ -138,6 +143,7 @@ class TiTSScanner:
         return key
 
     def _try_identifier(self, pos):
+        """从 pos 开始尝试读取一个 JS 标识符"""
         if pos >= self.length:
             return "", pos
         ch = self.content[pos]
@@ -149,6 +155,7 @@ class TiTSScanner:
         return self.content[pos:end], end
 
     def _run_rules(self, ctx):
+        """对 ctx 运行所有规则，首条匹配即停。返回是否有匹配。"""
         for rule in self._rules:
             if rule["condition"](ctx):
                 result = rule["process"](ctx)
@@ -168,6 +175,7 @@ class TiTSScanner:
         while self.pos < self.length:
             ch = self.content[self.pos]
 
+            # 跳过注释
             if ch == '/' and self.pos + 1 < self.length:
                 nch = self.content[self.pos + 1]
                 if nch == '/':
@@ -179,6 +187,7 @@ class TiTSScanner:
                     self.pos = end + 2 if end >= 0 else self.length
                     continue
 
+            # 字符串事件
             if ch in ('"', "'", '`'):
                 ctx = Context(
                     event="string",
@@ -195,6 +204,7 @@ class TiTSScanner:
                     self.pos = end if end > self.pos else self.pos + 1
                 continue
 
+            # 标识符 → 检查是否为函数调用
             if ch.isalpha() or ch == '_' or ch == '$':
                 name, name_end = self._try_identifier(self.pos)
                 if name and name_end < self.length and self.content[name_end] == '(':
