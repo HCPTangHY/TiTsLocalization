@@ -30,6 +30,36 @@ def parse_pos(context: str) -> int:
     return -1
 
 
+def check_quote_safety(original: str, translation: str) -> bool:
+    """检查译文的引号结构是否安全。
+
+    规则：译文中每种引号的净变化量必须为偶数（成对出现）。
+    允许译文比原文多或少成对引号，但不允许落单的引号破坏JS语法。
+    同时检查反斜杠转义的引号（\\" 和 \\'）不被计入。
+    """
+    def count_unescaped(s, ch):
+        """计算未转义的引号数量"""
+        count = 0
+        i = 0
+        while i < len(s):
+            if s[i] == '\\':  # 跳过转义字符
+                i += 2
+                continue
+            if s[i] == ch:
+                count += 1
+            i += 1
+        return count
+
+    for ch in ('"', "'"):
+        orig_count = count_unescaped(original, ch)
+        trans_count = count_unescaped(translation, ch)
+        # 净变化必须是偶数（成对增减）
+        delta = trans_count - orig_count
+        if delta % 2 != 0:
+            return False
+    return True
+
+
 def replace_file(source_path: str, trans_json_path: str, output_path: str):
     """对一个源文件执行翻译替换"""
     with open(source_path, 'r', encoding='utf-8') as f:
@@ -49,6 +79,13 @@ def replace_file(source_path: str, trans_json_path: str, output_path: str):
             continue
         original = e.get('original', '')
         if not original:
+            continue
+        # 引号安全检查
+        if not check_quote_safety(original, translation):
+            key = e.get('key', '')
+            logger.warning(f"Quote mismatch, skip: key={key[:60]}")
+            logger.warning(f"  orig: {repr(original[:80])}")
+            logger.warning(f"  trans: {repr(translation[:80])}")
             continue
         items.append((pos0, original, translation, e.get('key', '')))
 
