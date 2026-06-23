@@ -9,7 +9,7 @@ Usage:
   python pz_download.py --output trans_origin/0.9.159/
 """
 
-import os, sys, json, time, zipfile, io, argparse, shutil
+import os, sys, json, re, time, zipfile, io, argparse, shutil
 
 try:
     import requests
@@ -65,9 +65,14 @@ def download_artifact(project_id, token, output_dir):
         for info in zf.infolist():
             if info.is_dir():
                 continue
+            # Normalize path
             name = info.filename
             parts = name.split("/")
+            # Strip PZ export prefix (utf8/ or raw/)
             if parts[0] in ("utf8", "raw"):
+                parts = parts[1:]
+            # Strip version prefix (e.g. 0.9.159/) if PZ uses it for organization
+            if parts and re.match(r'^\d+\.\d+\.\d+$', parts[0]):
                 parts = parts[1:]
             rel = "/".join(parts)
             if not rel or not rel.endswith(".json"):
