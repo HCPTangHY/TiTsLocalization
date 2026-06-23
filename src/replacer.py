@@ -16,25 +16,49 @@ logger = logging.getLogger("replacer")
 logging.basicConfig(format="[%(levelname)s] %(message)s", level=logging.INFO)
 
 
-def parse_pos(context):
+def parse_pos(context: str) -> int:
+    """从 context 字段解析 POS（1-based），返回 0-based。"""
     if not context:
         return -1
     m = re.search(r'<<POS:(\d+)>>', context)
     if m:
-        return int(m.group(1)) - 1
+        return int(m.group(1)) - 1  # 转 0-based
+    # 兼容 HTML 转义
     m2 = re.search(r'&lt;&lt;POS:(\d+)&gt;&gt;', context)
     if m2:
         return int(m2.group(1)) - 1
     return -1
 
 
-def replace_file(source_path, trans_json_path, output_path):
+def escape_for_js(translation: str, quote_char: str) -> str:
+    """转义翻译文本中的JS特殊字符，确保塞回字符串不会破坏语法。
+
+    Args:
+        translation: 翻译后的文本
+        quote_char: 原文在JS中的包裹引号（'"' 或 "'"）
+    """
+    # 先转义反斜杠（必须最先）
+    s = translation.replace('\\', '\\\\')
+    # 转义包裹引号
+    if quote_char == '"':
+        s = s.replace('"', '\\"')
+    elif quote_char == "'":
+        s = s.replace("'", "\\'")
+    # 转义换行符
+    s = s.replace('\n', '\\n')
+    s = s.replace('\r', '\\r')
+    return s
+
+
+def replace_file(source_path: str, trans_json_path: str, output_path: str):
+    """对一个源文件执行翻译替换"""
     with open(source_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
     with open(trans_json_path, 'r', encoding='utf-8') as f:
         entries = json.load(f)
 
+    # 过滤出有翻译且有POS的词条
     items = []
     for e in entries:
         translation = e.get('translation', '')
@@ -49,14 +73,16 @@ def replace_file(source_path, trans_json_path, output_path):
         items.append((pos0, original, translation, e.get('key', '')))
 
     if not items:
-        logger.info("No translated entries, copying original")
+        logger.info(f"No translated entries, copying original")
         os.makedirs(os.path.dirname(output_path) or '.', exist_ok=True)
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(content)
         return 0
 
+    # 按位置升序
     items.sort(key=lambda x: x[0])
 
+    # 顺序拼接替换
     parts = []
     last_idx = 0
     applied = 0
@@ -73,9 +99,11 @@ def replace_file(source_path, trans_json_path, output_path):
             skipped += 1
             continue
 
+        # 验证原文匹配
         orig_len = len(original)
         actual = content[pos0:pos0 + orig_len]
         if actual != original:
+            # 尝试小范围搜索（±5字符）
             found = False
             for offset in range(-5, 6):
                 check_pos = pos0 + offset
@@ -92,11 +120,17 @@ def replace_file(source_path, trans_json_path, output_path):
                 skipped += 1
                 continue
 
+        # 检测原文在源码中的包裹引号（POS指向引号内内容，前一个字符就是引号）
+        quote_char = content[pos0 - 1] if pos0 > 0 and content[pos0 - 1] in ('"', "'") else '"'
+        escaped_translation = escape_for_js(translation, quote_char)
+
+        # 拼接: [last_idx, pos0) + escaped_translation
         parts.append(content[last_idx:pos0])
-        parts.append(translation)
+        parts.append(escaped_translation)
         last_idx = pos0 + orig_len
         applied += 1
 
+    # 收尾
     parts.append(content[last_idx:])
 
     result = ''.join(parts)
