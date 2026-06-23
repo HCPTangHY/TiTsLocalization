@@ -30,26 +30,6 @@ def parse_pos(context: str) -> int:
     return -1
 
 
-def escape_for_js(translation: str, quote_char: str) -> str:
-    """转义翻译文本中的JS特殊字符，确保塞回字符串不会破坏语法。
-
-    Args:
-        translation: 翻译后的文本
-        quote_char: 原文在JS中的包裹引号（'"' 或 "'"）
-    """
-    # 先转义反斜杠（必须最先）
-    s = translation.replace('\\', '\\\\')
-    # 转义包裹引号
-    if quote_char == '"':
-        s = s.replace('"', '\\"')
-    elif quote_char == "'":
-        s = s.replace("'", "\\'")
-    # 转义换行符
-    s = s.replace('\n', '\\n')
-    s = s.replace('\r', '\\r')
-    return s
-
-
 def replace_file(source_path: str, trans_json_path: str, output_path: str):
     """对一个源文件执行翻译替换"""
     with open(source_path, 'r', encoding='utf-8') as f:
@@ -120,13 +100,9 @@ def replace_file(source_path: str, trans_json_path: str, output_path: str):
                 skipped += 1
                 continue
 
-        # 检测原文在源码中的包裹引号（POS指向引号内内容，前一个字符就是引号）
-        quote_char = content[pos0 - 1] if pos0 > 0 and content[pos0 - 1] in ('"', "'") else '"'
-        escaped_translation = escape_for_js(translation, quote_char)
-
-        # 拼接: [last_idx, pos0) + escaped_translation
+        # 拼接: [last_idx, pos0) + translation
         parts.append(content[last_idx:pos0])
-        parts.append(escaped_translation)
+        parts.append(translation)
         last_idx = pos0 + orig_len
         applied += 1
 
