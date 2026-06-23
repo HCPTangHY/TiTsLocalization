@@ -152,6 +152,41 @@ jobs:
           cd ..
           echo "Linux package ready"
 
+      - name: Build Web package
+        run: |
+          VERSION=${{ steps.source.outputs.version }}
+          CHS="${{ github.event.inputs.chinese_version || 'nightly' }}"
+          # Reuse the already-extracted Linux Electron package
+          APP_DIR=$(find packages/electron-linux -type d -name app -path '*/resources/app' | head -1)
+          if [ -z "$APP_DIR" ]; then
+            echo "Cannot find resources/app/ for web build"
+            exit 1
+          fi
+          # Copy app dir as web root
+          cp -r "$APP_DIR" web-build/
+          # Replace JS files
+          for f in dist/$VERSION/*.js; do
+            BASE=$(basename "$f")
+            MATCH=$(find web-build -maxdepth 1 -name "${BASE%%.*}.*" -name '*.js' | head -1)
+            if [ -n "$MATCH" ]; then
+              cp "$f" "$MATCH"
+              echo "  Replaced: $(basename $MATCH)"
+            fi
+          done
+          # Patch index.html: replace Electron custom protocol with relative path
+          sed -i 's|<base href="tits://titsapp">|<base href=".//">|g' web-build/index.html
+          # Inject electronAPI shim before first <script> tag
+          SHIM='<script>window.electronAPI={getStoreValue:()=>Promise.resolve(null),setStoreValue:()=>Promise.resolve(),getAppVersion:()=>Promise.resolve("'"$VERSION"'-web"),onNavigate:()=>{},platform:"browser",checkManifest:()=>Promise.resolve(null),deleteFile:()=>Promise.resolve(),downloadImages:()=>Promise.resolve(),downloadImagesCancel:()=>{},forceReload:()=>location.reload(),loadFile:()=>Promise.resolve(null),notifyDownloadComplete:()=>{},notifyDownloadProgress:()=>{},notifyHasImagesAvailable:()=>{},onTriggerRedraw:()=>{},saveFile:(n,d)=>{const b=new Blob([d],{type:"application/octet-stream"});const a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=n;a.click();return Promise.resolve()}};</script>'
+          sed -i "s|<script defer=|${SHIM}<script defer=|" web-build/index.html
+          # Verify patches applied
+          grep -q 'base href="./"' web-build/index.html && echo "base href patched" || echo "WARN: base href patch failed"
+          grep -q 'window.electronAPI' web-build/index.html && echo "electronAPI shim injected" || echo "WARN: shim injection failed"
+          # Package
+          cd web-build
+          zip -qr "../TiTS-CHS-${VERSION}-${CHS}-web.zip" .
+          cd ..
+          echo "Web package ready"
+
       - name: Build Android package
         run: |
           VERSION=${{ steps.source.outputs.version }}
