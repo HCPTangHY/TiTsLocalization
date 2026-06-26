@@ -1,0 +1,122 @@
+[
+  {
+    "key": "assign|The_ausar_fugitive_stands_maybe_6_foot_tall_a_height_accentuate|4ff842b5f5a4",
+    "original": "The ausar fugitive stands maybe 6 foot tall, a height accentuated by his hard, jungle-leaned body and his wide, pointy ears. His skin is a sun-bronzed teak and his fur an orangey-gray, a shoulder-length matt of the stuff between his ears and down his bushy tail. Around his neck he has tied a long fur of some kind, which combined with the hunch of his shoulders lends him a prowling profile. Aside from that all he’s dressed in are the tattered remains of his bright orange jumpsuit bottoms; his bare feet are floured pale yellow with use.\\n\\nHe has a long, studious face which would be reasonably fetching in some circumstance in which his lips weren’t curled up in a mask of rage and fear. Similarly, his pale gray eyes could be pools of moon-like calm, were they not nakedly shining the light of a mind that has spent weeks marching far into the jungle night. He is armed with black, thorn-like claws and a zil spear, which with his spidery arms give him considerable reach.",
+    "translation": "",
+    "context": "<<POS:01464338>>"
+  },
+  {
+    "key": "assign|Lah_casually_sidesteps_out_of_the_way|59f8d25869d0",
+    "original": "Lah casually sidesteps out of the way.",
+    "translation": "",
+    "context": "<<POS:01465333>>"
+  },
+  {
+    "key": "assign|tattered_jumpsuit|b77375d34392",
+    "original": "tattered jumpsuit",
+    "translation": "",
+    "context": "<<POS:01465596>>"
+  },
+  {
+    "key": "assign|pale_pink|0f8fd8640e24",
+    "original": "pale pink",
+    "translation": "",
+    "context": "<<POS:01467245>>"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_manage_var2_isPlayer_s|25c300be0a15",
+    "original": "{var1}.capitalize({var0})+\" manage\"+({var2}.isPlayer()?\"\":\"s\")+\" to sidestep the attack.",
+    "translation": "",
+    "context": "<<POS:01469929>> <<VARS:var0=e.getCombatName(),!1,var1=b.m,var2=e.isPlural||e>> combatAppend(b.m.capitalize(e.getCombatName(),!1)+\" manage\"+(e.isPlural||e.isPlayer()?\"\":\"s\")+\" to sidestep the attack.\")"
+  },
+  {
+    "key": "combat.expr|His_claws_rake_viciously_through_var0_getCombatName|089c85f546dc",
+    "original": "His claws rake viciously through \"+{var0}.getCombatName()+\".",
+    "translation": "",
+    "context": "<<POS:01470073>> <<VARS:var0=e>> combatAppend(\"His claws rake viciously through \"+e.getCombatName()+\".\")"
+  },
+  {
+    "key": "combat|b_The_deepened_cuts_bleed_faster_b|0c1079e47d06",
+    "original": "<b>The deepened cuts bleed faster!</b>",
+    "translation": "",
+    "context": "<<POS:01470301>>"
+  },
+  {
+    "key": "combat|b_Blood_dribbles_freely_from_the_ragged_wound_b|837b5ee777d9",
+    "original": "<b>Blood dribbles freely from the ragged wound.</b>",
+    "translation": "",
+    "context": "<<POS:01470358>>"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_manage_var2_s_to_sides|ac658643b118",
+    "original": "\"+{var1}.capitalize({var0})+\" manage\"+({var2}?\"\":\"s\")+\" to sidestep the attack.",
+    "translation": "",
+    "context": "<<POS:01471528>> <<VARS:var0=e.getCombatName(),!1,var1=b.m,var2=e.isPlayer()||e.isPlural>> combatAppend(\"\\n\"+b.m.capitalize(e.getCombatName(),!1)+\" manage\"+(e.isPlayer()||e.isPlural?\"\":\"s\")+\" to sidestep the attack.\")"
+  },
+  {
+    "key": "combat|b_The_deepened_cuts_bleed_faster_b|880dd7e4bf3a",
+    "original": "<b>The deepened cuts bleed faster!</b>",
+    "translation": "",
+    "context": "<<POS:01471829>>"
+  },
+  {
+    "key": "combat.expr|Horribly_unprotected_as_var0_getCombatName_var1_ar|1913cd700f76",
+    "original": "Horribly unprotected as \"+{var0}.getCombatName()+\" \"+({var1}?\"are\":\"is\")+\", there’s nothing stopping the blade hitting a vein and the merlot to start flowing down your [pc.skinFurScales], dripping in the dirt below your [pc.feet]. <b>\"+{var3}.capitalize({var2})+\" \"+({var4}.isPlayer()?\"are\":\"is\")+\" bleeding.</b>",
+    "translation": "",
+    "context": "<<POS:01471886>> <<VARS:var0=e,var1=e.isPlayer()||e.isPlural,var2=e.getCombatName(),!1,var3=b.m,var4=e.isPlural||e>> combatAppend(\"\\nHorribly unprotected as \"+e.getCombatName()+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\", there’s nothing stopping the blade hitting a vein and the merlot to start flowing down your [pc.skinFurScales], dripping in the dirt below your [pc.feet]. <b>\"+b.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural||e.isPlayer()?\"are\":\"is\")+\" bleeding.</b>\")"
+  },
+  {
+    "key": "combat|i_Burn_pig_i_he_snarls|0a747d35fa94",
+    "original": "<i>“Burn, pig!”</i> he snarls.",
+    "translation": "",
+    "context": "<<POS:01472584>>"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_manage_var2_isPlayer_s|2b5132cbf4c1",
+    "original": "\"+{var1}.capitalize({var0})+\" manage\"+({var2}.isPlayer()?\"\":\"s\")+\" to sidestep the attack.",
+    "translation": "",
+    "context": "<<POS:01472650>> <<VARS:var0=e.getCombatName(),!1,var1=b.m,var2=e.isPlural||e>> combatAppend(\"\\n\"+b.m.capitalize(e.getCombatName(),!1)+\" manage\"+(e.isPlural||e.isPlayer()?\"\":\"s\")+\" to sidestep the attack.\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_instinctively_throw_var2_getC|3befe0db8863",
+    "original": " \"+{var1}.capitalize({var0})+\" instinctively throw \"+{var2}.getCombatPronoun(\"hisher\")+\" arms in the way, saving \"+{var3}.getCombatPronoun(\"hisher\")+\" face at the expense of searing pain against \"+{var4}.getCombatPronoun(\"hisher\")+\" palms.",
+    "translation": "",
+    "context": "<<POS:01472780>> <<VARS:var0=e.getCombatName(),!1,var1=b.m,var2=e,var3=e,var4=e>> combatAppend(\" \"+b.m.capitalize(e.getCombatName(),!1)+\" instinctively throw \"+e.getCombatPronoun(\"hisher\")+\" arms in the way, saving \"+e.getCombatPronoun(\"hisher\")+\" face at the expense of searing pain against \"+e.getCombatPronoun(\"hisher\")+\" palms.\")"
+  },
+  {
+    "key": "combat|Fffffffuck_that_stings|bce364b82f00",
+    "original": " Fffffffuck that stings!",
+    "translation": "",
+    "context": "<<POS:01473046>>"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_var2_are_is_on_fire|9ce5ba903777",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+({var2}?\"are\":\"is\")+\" on fire!</b>",
+    "translation": "",
+    "context": "<<POS:01473240>> <<VARS:var0=e.getCombatName(),!1,var1=b.m,var2=e.isPlayer()||e.isPlural>> combatAppend(\"\\n<b>\"+b.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\" on fire!</b>\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_scuttle_forward_letting_him_leap|b7603dfe3e53",
+    "original": " \"+{var1}.capitalize({var0})+\" scuttle forward, letting him leap right over \"+{var2}.getCombatPronoun(\"himher\")+\".",
+    "translation": "",
+    "context": "<<POS:01473665>> <<VARS:var0=e.getCombatName(),!1,var1=b.m,var2=e>> combatAppend(\" \"+b.m.capitalize(e.getCombatName(),!1)+\" scuttle forward, letting him leap right over \"+e.getCombatPronoun(\"himher\")+\".\")"
+  },
+  {
+    "key": "combat.expr|Wind_escapes_var1_possessive_var0_getCombatName_lung|fb01be8025f9",
+    "original": " Wind escapes \"+{var1}.possessive({var0}.getCombatName())+\" lungs as he grabs \"+{var2}.getCombatPronoun(\"himher\")+\" around the neck, forcing \"+{var3}.getCombatPronoun(\"himher\")+\" downwards in an arm-lock.",
+    "translation": "",
+    "context": "<<POS:01473803>> <<VARS:var0=e,var1=b.m,var2=e,var3=e>> combatAppend(\" Wind escapes \"+b.m.possessive(e.getCombatName())+\" lungs as he grabs \"+e.getCombatPronoun(\"himher\")+\" around the neck, forcing \"+e.getCombatPronoun(\"himher\")+\" downwards in an arm-lock.\")"
+  },
+  {
+    "key": "combat.expr|i_Give_in_i_he_barks_gruffly_in_var1_possessive_var0|a9f5e1ef9f0a",
+    "original": "<i>“Give in,”</i> he barks gruffly in \"+{var1}.possessive({var0}.getCombatName())+\" ear. <i>“Better now, before your wounds force you to.”</i>",
+    "translation": "",
+    "context": "<<POS:01474010>> <<VARS:var0=e,var1=b.m>> combatAppend(\"\\n\\n<i>“Give in,”</i> he barks gruffly in \"+b.m.possessive(e.getCombatName())+\" ear. <i>“Better now, before your wounds force you to.”</i>\")"
+  },
+  {
+    "key": "combat|b_Grappled_b|b994a2bb8e43",
+    "original": " <b>Grappled!</b>",
+    "translation": "",
+    "context": "<<POS:01474184>>"
+  }
+]

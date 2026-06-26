@@ -1,0 +1,1340 @@
+[
+  {
+    "key": "assign|A_box_of_Dicksprout|1df0566fee2d",
+    "original": "A box of Dicksprout",
+    "translation": "",
+    "context": "<<POS:06336383>>"
+  },
+  {
+    "key": "assign|One_of_the_first_if_not_the_first_man_made_transformative_ever|607913f09979",
+    "original": "One of the first, if not the first man-made transformative ever commercialized. Even after hundreds of years, it remains an extremely popular and safe choice.\\n\\nWhile it was originally released as a true penis enlargement drug; its staggering success and the development of new technologies led to the modern version currently for sale. It’s capable not only of dick enlargement but also may be used to gain full male genitalia in those lacking one.",
+    "translation": "",
+    "context": "<<POS:06336415>>"
+  },
+  {
+    "key": "output|You_open_the_cardboard_box_and_peruse_its_contents_a_small_met|c6099b70d435",
+    "original": "You open the cardboard box and peruse its contents: a small, metallic, handheld cylinder with a big red button on one end and a plastic cap on the other. It’s a jet injector, a needleless syringe with a pressurized vial full of a deep-blue liquid. A small internal chip allows it to link with your codex so you can choose from several customization options.",
+    "translation": "",
+    "context": "<<POS:06337161>>"
+  },
+  {
+    "key": "output|There_s_also_a_set_of_instructions_printed_on_the_back_of_the_bo|e04767007dee",
+    "original": "There’s also a set of instructions printed on the back of the box:",
+    "translation": "",
+    "context": "<<POS:06337533>>"
+  },
+  {
+    "key": "output|i_Link_the_injector_with_any_compatible_dataslate_or_similar_d|2510e52b1cfd",
+    "original": "<i>“Link the injector with any compatible dataslate or similar device. Remove the plastic cap. Press the injector against the crotch or penis. Select the desired testicle, length, and thickness options. Press the red button.",
+    "translation": "",
+    "context": "<<POS:06337614>>"
+  },
+  {
+    "key": "output|b_WARNING_b_Use_only_as_instructed_Misuse_may_result_in_abn|2e40069fd9ed",
+    "original": "<b>WARNING</b>: Use only as instructed. Misuse may result in abnormal growths.”</i>",
+    "translation": "",
+    "context": "<<POS:06337853>>"
+  },
+  {
+    "key": "output|Well_that_was_pretty_sparse_The_rest_of_the_text_contains_a_li|4ef88925539f",
+    "original": "Well, that was pretty sparse. The rest of the text contains a list of side-effects, related medical conditions and a lot of legal jargon you can barely understand.",
+    "translation": "",
+    "context": "<<POS:06337951>>"
+  },
+  {
+    "key": "output|What_will_you_do_now|5ba02ea0a1af",
+    "original": "What will you do now?",
+    "translation": "",
+    "context": "<<POS:06338129>>"
+  },
+  {
+    "key": "button|Dick|f7b033418219",
+    "original": "Dick",
+    "translation": "",
+    "context": "<<POS:06338179>> addButton(o,\"Dick\",(function(){return(pc.hasCocks()?function(){return t.dicksproutCockSelect(t)}:function(){return t.dicksproutBallChoice(0,t)})()}),\"Dick\",\"Press it against your cock. That should add some inches.\")"
+  },
+  {
+    "key": "button.hover|Dick|f7b033418219",
+    "original": "Dick",
+    "translation": "",
+    "context": "<<POS:06338316>> addButton(o,\"Dick\",(function(){return(pc.hasCocks()?function(){return t.dicksproutCockSelect(t)}:function(){return t.dicksproutBallChoice(0,t)})()}),\"Dick\",\"Press it against your cock. That should add some inches.\")"
+  },
+  {
+    "key": "button.tooltip|Press_it_against_your_cock_That_should_add_some_inches|28821d80a0b3",
+    "original": "Press it against your cock. That should add some inches.",
+    "translation": "",
+    "context": "<<POS:06338323>> addButton(o,\"Dick\",(function(){return(pc.hasCocks()?function(){return t.dicksproutCockSelect(t)}:function(){return t.dicksproutBallChoice(0,t)})()}),\"Dick\",\"Press it against your cock. That should add some inches.\")"
+  },
+  {
+    "key": "button|Crotch|45b68b661e45",
+    "original": "Crotch",
+    "translation": "",
+    "context": "<<POS:06338395>> addButton(o,\"Crotch\",(function(){return t.dicksproutBallChoice(0,t)}),\"Crotch\",\"Press it against your crotch. That should give you a brand-new dick.\")"
+  },
+  {
+    "key": "button.hover|Crotch|45b68b661e45",
+    "original": "Crotch",
+    "translation": "",
+    "context": "<<POS:06338453>> addButton(o,\"Crotch\",(function(){return t.dicksproutBallChoice(0,t)}),\"Crotch\",\"Press it against your crotch. That should give you a brand-new dick.\")"
+  },
+  {
+    "key": "button.tooltip|Press_it_against_your_crotch_That_should_give_you_a_brand_new_d|21d87e5d2aa0",
+    "original": "Press it against your crotch. That should give you a brand-new dick.",
+    "translation": "",
+    "context": "<<POS:06338462>> addButton(o,\"Crotch\",(function(){return t.dicksproutBallChoice(0,t)}),\"Crotch\",\"Press it against your crotch. That should give you a brand-new dick.\")"
+  },
+  {
+    "key": "button|Nipples|44701449d4b7",
+    "original": "Nipples",
+    "translation": "",
+    "context": "<<POS:06338595>> addButton(o,\"Nipples\",(function(){return t.dicksproutCockChoice(-1,!0,t)}),\"Nipples\",\"Fuck the rules. Use it on your nipples. See what happens.\")"
+  },
+  {
+    "key": "button.hover|Nipples|44701449d4b7",
+    "original": "Nipples",
+    "translation": "",
+    "context": "<<POS:06338658>> addButton(o,\"Nipples\",(function(){return t.dicksproutCockChoice(-1,!0,t)}),\"Nipples\",\"Fuck the rules. Use it on your nipples. See what happens.\")"
+  },
+  {
+    "key": "button.tooltip|Fuck_the_rules_Use_it_on_your_nipples_See_what_happens|c2600d2b054d",
+    "original": "Fuck the rules. Use it on your nipples. See what happens.",
+    "translation": "",
+    "context": "<<POS:06338668>> addButton(o,\"Nipples\",(function(){return t.dicksproutCockChoice(-1,!0,t)}),\"Nipples\",\"Fuck the rules. Use it on your nipples. See what happens.\")"
+  },
+  {
+    "key": "button|Nipples|1b27b58ccf75",
+    "original": "Nipples",
+    "translation": "",
+    "context": "<<POS:06338741>> addButton(o,\"Nipples\",(function(){return t.dicksproutNipples(-1,t)}),\"Nipples\",\"Fuck the rules. Use it on your nipples. See what happens.\")"
+  },
+  {
+    "key": "button.hover|Nipples|1b27b58ccf75",
+    "original": "Nipples",
+    "translation": "",
+    "context": "<<POS:06338798>> addButton(o,\"Nipples\",(function(){return t.dicksproutNipples(-1,t)}),\"Nipples\",\"Fuck the rules. Use it on your nipples. See what happens.\")"
+  },
+  {
+    "key": "button.tooltip|Fuck_the_rules_Use_it_on_your_nipples_See_what_happens|ba35f25dd2f5",
+    "original": "Fuck the rules. Use it on your nipples. See what happens.",
+    "translation": "",
+    "context": "<<POS:06338808>> addButton(o,\"Nipples\",(function(){return t.dicksproutNipples(-1,t)}),\"Nipples\",\"Fuck the rules. Use it on your nipples. See what happens.\")"
+  },
+  {
+    "key": "button|Tail|697a10c173b7",
+    "original": "Tail",
+    "translation": "",
+    "context": "<<POS:06338917>> addButton(o,\"Tail\",(function(){return t.dicksproutCockChoice(-2,!0,t)}),\"Tail\",\"A piece of cardboard won’t tell you what to do! Use it on your tail.\")"
+  },
+  {
+    "key": "button.hover|Tail|697a10c173b7",
+    "original": "Tail",
+    "translation": "",
+    "context": "<<POS:06338977>> addButton(o,\"Tail\",(function(){return t.dicksproutCockChoice(-2,!0,t)}),\"Tail\",\"A piece of cardboard won’t tell you what to do! Use it on your tail.\")"
+  },
+  {
+    "key": "button.tooltip|A_piece_of_cardboard_won_t_tell_you_what_to_do_Use_it_on_your_t|a8dd0e4d693c",
+    "original": "A piece of cardboard won’t tell you what to do! Use it on your tail.",
+    "translation": "",
+    "context": "<<POS:06338984>> addButton(o,\"Tail\",(function(){return t.dicksproutCockChoice(-2,!0,t)}),\"Tail\",\"A piece of cardboard won’t tell you what to do! Use it on your tail.\")"
+  },
+  {
+    "key": "button|Tail|236362e660a3",
+    "original": "Tail",
+    "translation": "",
+    "context": "<<POS:06339096>> addDisabledButton(o,\"Tail\",\"Tail\",\"You shouldn’t attempt further shenanigans with your tail mounted genitalia.\")"
+  },
+  {
+    "key": "button.hover|You_shouldn_t_attempt_further_shenanigans_with_your_tail_mounted|760596771679",
+    "original": "You shouldn’t attempt further shenanigans with your tail mounted genitalia.",
+    "translation": "",
+    "context": "<<POS:06339110>> addDisabledButton(o,\"Tail\",\"Tail\",\"You shouldn’t attempt further shenanigans with your tail mounted genitalia.\")"
+  },
+  {
+    "key": "button|Tail|97dd93e581a0",
+    "original": "Tail",
+    "translation": "",
+    "context": "<<POS:06339201>> addButton(o,\"Tail\",(function(){return t.dicksproutTail(-1,t)}),\"Tail\",\"A piece of cardboard won’t tell you what to do! Use it on your tail.\")"
+  },
+  {
+    "key": "button.hover|Tail|97dd93e581a0",
+    "original": "Tail",
+    "translation": "",
+    "context": "<<POS:06339252>> addButton(o,\"Tail\",(function(){return t.dicksproutTail(-1,t)}),\"Tail\",\"A piece of cardboard won’t tell you what to do! Use it on your tail.\")"
+  },
+  {
+    "key": "button.tooltip|A_piece_of_cardboard_won_t_tell_you_what_to_do_Use_it_on_your_t|4cdf0699cffa",
+    "original": "A piece of cardboard won’t tell you what to do! Use it on your tail.",
+    "translation": "",
+    "context": "<<POS:06339259>> addButton(o,\"Tail\",(function(){return t.dicksproutTail(-1,t)}),\"Tail\",\"A piece of cardboard won’t tell you what to do! Use it on your tail.\")"
+  },
+  {
+    "key": "button|Nothing|61679664e101",
+    "original": "Nothing",
+    "translation": "",
+    "context": "<<POS:06339349>> addButton(14,\"Nothing\",(function(){return t.dicksproutPutAway(t)}),\"Nothing\",\"You’ve changed your mind.\")"
+  },
+  {
+    "key": "button.hover|Nothing|61679664e101",
+    "original": "Nothing",
+    "translation": "",
+    "context": "<<POS:06339403>> addButton(14,\"Nothing\",(function(){return t.dicksproutPutAway(t)}),\"Nothing\",\"You’ve changed your mind.\")"
+  },
+  {
+    "key": "button.tooltip|You_ve_changed_your_mind|ce5c88359fc7",
+    "original": "You’ve changed your mind.",
+    "translation": "",
+    "context": "<<POS:06339413>> addButton(14,\"Nothing\",(function(){return t.dicksproutPutAway(t)}),\"Nothing\",\"You’ve changed your mind.\")"
+  },
+  {
+    "key": "output.expr|var0_var1_injects_the_Dicksprout_to_no_effect|8f650ab88dab",
+    "original": "{var0}+{var1}+\" injects the Dicksprout to no effect.",
+    "translation": "",
+    "context": "<<POS:06339453>> <<VARS:var0=e.capitalA,var1=e.short>> output(e.capitalA+e.short+\" injects the Dicksprout to no effect.\")"
+  },
+  {
+    "key": "output|First_you_should_decide_which_one_in_particular_you_re_gonna_us|81d81c2fbdac",
+    "original": "First, you should decide which one in particular you’re gonna use it on?",
+    "translation": "",
+    "context": "<<POS:06339633>>"
+  },
+  {
+    "key": "output.expr|var0_startList|8bfa72301be1",
+    "original": "{var0}.startList()",
+    "translation": "",
+    "context": "<<POS:06339728>> <<VARS:var0=h.m>> output(h.m.startList())"
+  },
+  {
+    "key": "output.expr|var0_li_concat_h_m_capitalize_h_m_numToOrdinal_n_1_Cock|9be0cd067db4",
+    "original": "{var0}.li(\"\".concat(h.m.capitalize(h.m.numToOrdinal(n+1)),\" Cock\"),a)",
+    "translation": "",
+    "context": "<<POS:06340246>> <<VARS:var0=h.m>> output(h.m.li(\"\".concat(h.m.capitalize(h.m.numToOrdinal(n+1)),\" Cock\"),a))"
+  },
+  {
+    "key": "button|Cock|8d86874b920d",
+    "original": "Cock ",
+    "translation": "",
+    "context": "<<POS:06340332>> addButton(o,\"Cock \"+(n+1),(function(){return t.dicksproutBallChoice(n,e)}),h.m.capitalize(h.m.numToOrdinal(n+1))+\" Cock\",\"Use this on your [pc.cock \"+n+\"].\")"
+  },
+  {
+    "key": "button.hover.expr|var2_capitalize_var1_numToOrdinal_var0_1_Cock|1054ce4f24bf",
+    "original": "{var2}.capitalize({var1}.numToOrdinal({var0}+1))+\" Cock\"",
+    "translation": "",
+    "context": "<<POS:06340394>> <<VARS:var0=n,var1=h.m,var2=h.m>> addButton(o,\"Cock \"+(n+1),(function(){return t.dicksproutBallChoice(n,e)}),h.m.capitalize(h.m.numToOrdinal(n+1))+\" Cock\",\"Use this on your [pc.cock \"+n+\"].\")"
+  },
+  {
+    "key": "button.tooltip|Use_this_on_your_pc_cock|18da06a699f1",
+    "original": "Use this on your [pc.cock ",
+    "translation": "",
+    "context": "<<POS:06340441>> addButton(o,\"Cock \"+(n+1),(function(){return t.dicksproutBallChoice(n,e)}),h.m.capitalize(h.m.numToOrdinal(n+1))+\" Cock\",\"Use this on your [pc.cock \"+n+\"].\")"
+  },
+  {
+    "key": "output.expr|var0_endList|c45cbec590b2",
+    "original": "{var0}.endList()",
+    "translation": "",
+    "context": "<<POS:06340520>> <<VARS:var0=h.m>> output(h.m.endList())"
+  },
+  {
+    "key": "output.expr|Well_it_s_time_to_add_some_extra_oomph_to_your_good_old_pc_coc|8a9e0ff0f057",
+    "original": "Well, it’s time to add some extra oomph to your good old [pc.cock \"+{var0}+\"]. It surely deserves a nice treat, and the extra attention you’ll both get is a nice bonus.",
+    "translation": "",
+    "context": "<<POS:06340764>> <<VARS:var0=t>> output(\"Well, it’s time to add some extra oomph to your good old [pc.cock \"+t+\"]. It surely deserves a nice treat, and the extra attention you’ll both get is a nice bonus.\")"
+  },
+  {
+    "key": "output.expr|You_re_already_fantasizing_about_what_you_re_going_to_do_with_al|a1cdd20a2c38",
+    "original": "You’re already fantasizing about what you’re going to do with all that surplus cockflesh. The thought won’t leave your mind, and without realizing it, your hand has already slipped under the radar and is idly playing with \"+({var0}.hasCocks()?\"a\":\"your\")+\" [pc.cockNoun \"+{var1}+\"].",
+    "translation": "",
+    "context": "<<POS:06340942>> <<VARS:var0=pc,var1=t>> output(\"\\n\\nYou’re already fantasizing about what you’re going to do with all that surplus cockflesh. The thought won’t leave your mind, and without realizing it, your hand has already slipped under the radar and is idly playing with \"+(pc.hasCocks()?\"a\":\"your\")+\" [pc.cockNoun \"+t+\"].\")"
+  },
+  {
+    "key": "output|You_can_feel_your_manhood_stiffening_swelling_and_hardening_fro|4494f8f122df",
+    "original": "You can feel your manhood stiffening, swelling and hardening from all the mental images cast by your lewd imagination and your unintentional manual stimulation",
+    "translation": "",
+    "context": "<<POS:06341230>>"
+  },
+  {
+    "key": "output|pressing_hard_against_your_pc_crotchCoverUnder|3bbe1e39171a",
+    "original": ", pressing hard against your [pc.crotchCoverUnder]",
+    "translation": "",
+    "context": "<<POS:06341421>>"
+  },
+  {
+    "key": "output|You_ve_barely_done_anything_and_you_re_all_riled_up|b05026525276",
+    "original": ". You’ve barely done anything and you’re all riled up.",
+    "translation": "",
+    "context": "<<POS:06341482>>"
+  },
+  {
+    "key": "output|First_things_first_You_should_select_the_option_you_want_in_reg|f8ba41c2bcc3",
+    "original": "First things first. You should select the option you want in regard to your testicles.",
+    "translation": "",
+    "context": "<<POS:06341551>>"
+  },
+  {
+    "key": "output|It_s_been_decided_You_could_always_use_a_brand_new_dick_Just_t|d786c41da4c7",
+    "original": "It’s been decided. You could always use a brand-new dick. Just thinking about the many ways you could use it already sends your mind racing. Acts of penile debauchery flood your brain, making you hornier than ever, hot and bothered.",
+    "translation": "",
+    "context": "<<POS:06341650>>"
+  },
+  {
+    "key": "output|Your_lewd_fantasy_has_your_mind_already_holding_tightly_to_a_pha|efb1a7f01b36",
+    "original": "Your lewd fantasy has your mind already holding tightly to a phantom cock that’s yet to come. You’re humping instinctively way before you even have a cock to call your own; your body getting ready to welcome your future addition: its new upcoming member.",
+    "translation": "",
+    "context": "<<POS:06341897>>"
+  },
+  {
+    "key": "output|Shaking_your_head_you_snap_out_of_it_and_remember_you_have_a_de|84c0779b5743",
+    "original": "Shaking your head, you snap out of it and remember you have a decision to make first. What kind of testes do you want?",
+    "translation": "",
+    "context": "<<POS:06342166>>"
+  },
+  {
+    "key": "button|Internal|5955e2259d54",
+    "original": "Internal",
+    "translation": "体内",
+    "context": "<<POS:06342313>> addButton(0,\"Internal\",(function(){return e.dicksproutCockChoice(t,!0,o)}),\"Internal\",\"Select internal testicles. Those are safer.\")"
+  },
+  {
+    "key": "button.hover|Internal|5955e2259d54",
+    "original": "Internal",
+    "translation": "",
+    "context": "<<POS:06342376>> addButton(0,\"Internal\",(function(){return e.dicksproutCockChoice(t,!0,o)}),\"Internal\",\"Select internal testicles. Those are safer.\")"
+  },
+  {
+    "key": "button.tooltip|Select_internal_testicles_Those_are_safer|9bf2058eebd2",
+    "original": "Select internal testicles. Those are safer.",
+    "translation": "",
+    "context": "<<POS:06342387>> addButton(0,\"Internal\",(function(){return e.dicksproutCockChoice(t,!0,o)}),\"Internal\",\"Select internal testicles. Those are safer.\")"
+  },
+  {
+    "key": "button|No_Change|48ddc0a0f2de",
+    "original": "No Change",
+    "translation": "",
+    "context": "<<POS:06342446>> addButton(1,\"No Change\",(function(){return e.dicksproutCockChoice(t,!1,o)}),\"No Change\",\"Keep your testicles externalized.\")"
+  },
+  {
+    "key": "button.hover|No_Change|48ddc0a0f2de",
+    "original": "No Change",
+    "translation": "",
+    "context": "<<POS:06342510>> addButton(1,\"No Change\",(function(){return e.dicksproutCockChoice(t,!1,o)}),\"No Change\",\"Keep your testicles externalized.\")"
+  },
+  {
+    "key": "button.tooltip|Keep_your_testicles_externalized|43621992bea7",
+    "original": "Keep your testicles externalized.",
+    "translation": "",
+    "context": "<<POS:06342522>> addButton(1,\"No Change\",(function(){return e.dicksproutCockChoice(t,!1,o)}),\"No Change\",\"Keep your testicles externalized.\")"
+  },
+  {
+    "key": "button|No_Change|7aa2b0f13781",
+    "original": "No Change",
+    "translation": "",
+    "context": "<<POS:06342586>> addButton(0,\"No Change\",(function(){return e.dicksproutCockChoice(t,!0,o)}),\"No Change\",\"Keep your testicles internalized.\")"
+  },
+  {
+    "key": "button.hover|No_Change|7aa2b0f13781",
+    "original": "No Change",
+    "translation": "",
+    "context": "<<POS:06342650>> addButton(0,\"No Change\",(function(){return e.dicksproutCockChoice(t,!0,o)}),\"No Change\",\"Keep your testicles internalized.\")"
+  },
+  {
+    "key": "button.tooltip|Keep_your_testicles_internalized|01a9d86b3484",
+    "original": "Keep your testicles internalized.",
+    "translation": "",
+    "context": "<<POS:06342662>> addButton(0,\"No Change\",(function(){return e.dicksproutCockChoice(t,!0,o)}),\"No Change\",\"Keep your testicles internalized.\")"
+  },
+  {
+    "key": "button|External|b577bfd6d72c",
+    "original": "External",
+    "translation": "体外",
+    "context": "<<POS:06342711>> addButton(1,\"External\",(function(){return e.dicksproutCockChoice(t,!1,o)}),\"External\",\"Select external testicles. Those are much more fun.\")"
+  },
+  {
+    "key": "button.hover|External|b577bfd6d72c",
+    "original": "External",
+    "translation": "",
+    "context": "<<POS:06342774>> addButton(1,\"External\",(function(){return e.dicksproutCockChoice(t,!1,o)}),\"External\",\"Select external testicles. Those are much more fun.\")"
+  },
+  {
+    "key": "button.tooltip|Select_external_testicles_Those_are_much_more_fun|8cf6a9c9b2ca",
+    "original": "Select external testicles. Those are much more fun.",
+    "translation": "",
+    "context": "<<POS:06342785>> addButton(1,\"External\",(function(){return e.dicksproutCockChoice(t,!1,o)}),\"External\",\"Select external testicles. Those are much more fun.\")"
+  },
+  {
+    "key": "button|Internal|0bdff3c454fa",
+    "original": "Internal",
+    "translation": "体内",
+    "context": "<<POS:06342854>> addButton(0,\"Internal\",(function(){return e.dicksproutSelectLength(t,!0,o)}),\"Internal\",\"Select internal testicles. Those are safer.\")"
+  },
+  {
+    "key": "button.hover|Internal|0bdff3c454fa",
+    "original": "Internal",
+    "translation": "",
+    "context": "<<POS:06342919>> addButton(0,\"Internal\",(function(){return e.dicksproutSelectLength(t,!0,o)}),\"Internal\",\"Select internal testicles. Those are safer.\")"
+  },
+  {
+    "key": "button.tooltip|Select_internal_testicles_Those_are_safer|67a66e573e67",
+    "original": "Select internal testicles. Those are safer.",
+    "translation": "",
+    "context": "<<POS:06342930>> addButton(0,\"Internal\",(function(){return e.dicksproutSelectLength(t,!0,o)}),\"Internal\",\"Select internal testicles. Those are safer.\")"
+  },
+  {
+    "key": "button|External|1937acb0777b",
+    "original": "External",
+    "translation": "体外",
+    "context": "<<POS:06342989>> addButton(1,\"External\",(function(){return e.dicksproutSelectLength(t,!1,o)}),\"External\",\"Select external testicles. Those are much more fun.\")"
+  },
+  {
+    "key": "button.hover|External|1937acb0777b",
+    "original": "External",
+    "translation": "",
+    "context": "<<POS:06343054>> addButton(1,\"External\",(function(){return e.dicksproutSelectLength(t,!1,o)}),\"External\",\"Select external testicles. Those are much more fun.\")"
+  },
+  {
+    "key": "button.tooltip|Select_external_testicles_Those_are_much_more_fun|7e5aa36a944a",
+    "original": "Select external testicles. Those are much more fun.",
+    "translation": "",
+    "context": "<<POS:06343065>> addButton(1,\"External\",(function(){return e.dicksproutSelectLength(t,!1,o)}),\"External\",\"Select external testicles. Those are much more fun.\")"
+  },
+  {
+    "key": "output|And_about_length_and_width_What_do_you_choose|492e2687e175",
+    "original": "And about length and width. What do you choose?",
+    "translation": "",
+    "context": "<<POS:06343430>>"
+  },
+  {
+    "key": "button|Lengthen|e7dbe20be9fb",
+    "original": "Lengthen",
+    "translation": "",
+    "context": "<<POS:06343493>> addButton(0,\"Lengthen\",(function(){return e.dicksproutCrotch(t,o,0,0,a)}))"
+  },
+  {
+    "key": "button|Thicken|4e4ab738e13f",
+    "original": "Thicken",
+    "translation": "",
+    "context": "<<POS:06343568>> addButton(1,\"Thicken\",(function(){return e.dicksproutCrotch(t,o,1,0,a)}))"
+  },
+  {
+    "key": "button|Both|60163e0be14c",
+    "original": "Both",
+    "translation": "两者",
+    "context": "<<POS:06343647>> addButton(2,\"Both\",(function(){return e.dicksproutCrotch(t,o,2,0,a)}))"
+  },
+  {
+    "key": "output|Your_chest_mounted_stallions_could_use_a_bit_of_extra_length_the|c6d3ee30bae0",
+    "original": "Your chest mounted stallions could use a bit of extra length themselves. The instructions said something about using the transformative just as indicated, but fuck them, right? Time to make those breeders reach new heights!",
+    "translation": "",
+    "context": "<<POS:06343722>>"
+  },
+  {
+    "key": "output|First_things_first_you_need_to_configure_the_damn_thing_About|19d2a0a07306",
+    "original": "First things first, you need to configure the damn thing. About the length and width. What do you choose?",
+    "translation": "",
+    "context": "<<POS:06343960>>"
+  },
+  {
+    "key": "button|Lengthen|e40b48f98109",
+    "original": "Lengthen",
+    "translation": "",
+    "context": "<<POS:06344081>> addButton(0,\"Lengthen\",(function(){return e.dicksproutNipples(0,a)}))"
+  },
+  {
+    "key": "button|Thicken|4e4ab738e13f#1",
+    "original": "Thicken",
+    "translation": "",
+    "context": "<<POS:06344151>> addButton(1,\"Thicken\",(function(){return e.dicksproutNipples(1,a)}))"
+  },
+  {
+    "key": "button|Both|60163e0be14c#1",
+    "original": "Both",
+    "translation": "两者",
+    "context": "<<POS:06344225>> addButton(2,\"Both\",(function(){return e.dicksproutNipples(2,a)}))"
+  },
+  {
+    "key": "output|Your_tail_cock_concat_1_pc_tailCount_s_could_do_with_s|cf341b2d0e0e",
+    "original": "Your tail cock\".concat(1===pc.tailCount?\"\":\"s\",\" could do with some enhancements. The instructions did mention not to misuse the product... \").concat(pc.isNice()?\"but maybe you are feeling a bit daring?\":\"But rules are meant to be broken!\")",
+    "translation": "",
+    "context": "<<POS:06344295>>"
+  },
+  {
+    "key": "output|First_you_ll_need_to_configure_the_options_What_do_you_choose|76916dac4ab0",
+    "original": "First you’ll need to configure the options. What do you choose?",
+    "translation": "",
+    "context": "<<POS:06344549>>"
+  },
+  {
+    "key": "button|Lengthen|0e0726a35070",
+    "original": "Lengthen",
+    "translation": "",
+    "context": "<<POS:06344628>> addButton(0,\"Lengthen\",(function(){return e.dicksproutTail(0,a)}))"
+  },
+  {
+    "key": "button|Thicken|4e4ab738e13f#2",
+    "original": "Thicken",
+    "translation": "",
+    "context": "<<POS:06344695>> addButton(1,\"Thicken\",(function(){return e.dicksproutTail(1,a)}))"
+  },
+  {
+    "key": "button|Both|60163e0be14c#2",
+    "original": "Both",
+    "translation": "两者",
+    "context": "<<POS:06344766>> addButton(2,\"Both\",(function(){return e.dicksproutTail(2,a)}))"
+  },
+  {
+    "key": "output|b_ERROR_b_dick_concat_t_is_not_a_valid_choice|421ca7b05427",
+    "original": "<b>ERROR:</b> dick: \".concat(t,\" is not a valid choice.\")",
+    "translation": "",
+    "context": "<<POS:06344826>>"
+  },
+  {
+    "key": "button|Next|804c8094f5d5",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:06344903>> addButton(0,\"Next\",(function(){return e.dicksproutPutAway(a)}))"
+  },
+  {
+    "key": "output|And_now_you_should_adjust_the_desired_length_Decide_how_big_it|3f0678772b1b",
+    "original": "And now, you should adjust the desired length. Decide how big it should be:",
+    "translation": "",
+    "context": "<<POS:06345231>>"
+  },
+  {
+    "key": "button.expr|var0|b38b762de533",
+    "original": "{var0}+'\"'",
+    "translation": "",
+    "context": "<<POS:06345347>> <<VARS:var0=i>> addButton(n,i+'\"',(function(){return e.dicksproutSelectThickness(t,o,i,a)}))"
+  },
+  {
+    "key": "output|And_of_course_the_thickness_How_fat_you_want_your_cock_to_be|9bee1fe4a37d",
+    "original": "And of course, the thickness. How fat you want your cock to be?",
+    "translation": "",
+    "context": "<<POS:06345562>>"
+  },
+  {
+    "key": "button|Standard|1c3f9b4e02a2",
+    "original": "Standard",
+    "translation": "",
+    "context": "<<POS:06345641>> addButton(0,\"Standard\",(function(){return n.dicksproutCrotch(e,t,o,1,a)}))"
+  },
+  {
+    "key": "button|Thick|b1ffc523a2d7",
+    "original": "Thick",
+    "translation": "",
+    "context": "<<POS:06345716>> addButton(1,\"Thick\",(function(){return n.dicksproutCrotch(e,t,o,1.1,a)}))"
+  },
+  {
+    "key": "button|Thicker|7d4214353e9a",
+    "original": "Thicker",
+    "translation": "",
+    "context": "<<POS:06345790>> addButton(2,\"Thicker\",(function(){return n.dicksproutCrotch(e,t,o,1.2,a)}))"
+  },
+  {
+    "key": "button|Extra_Thick|4c43995ece60",
+    "original": "Extra Thick",
+    "translation": "",
+    "context": "<<POS:06345866>> addButton(3,\"Extra Thick\",(function(){return n.dicksproutCrotch(e,t,o,1.3,a)}))"
+  },
+  {
+    "key": "output|Your_crotch_warms_but_nothing_happens_What_a_ripoff|e5bac3a37199",
+    "original": "Your crotch warms, but nothing happens. What a ripoff.",
+    "translation": "",
+    "context": "<<POS:06346542>>"
+  },
+  {
+    "key": "button|Next|39d1e7cdfcda",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:06346632>> addButton(0,\"Next\",(function(){return n.returnToInventory(n)}))"
+  },
+  {
+    "key": "output|The_decisions_have_been_made_Now_it_s_time_to_get_down_to_busin|8d0d5735ff26",
+    "original": "The decisions have been made. Now it’s time to get down to business.",
+    "translation": "",
+    "context": "<<POS:06346691>>"
+  },
+  {
+    "key": "output|Using_your_thumb_you_pop_the_injector_s_plastic_cap_like_a_cork|cc7275dccb64",
+    "original": "Using your thumb, you pop the injector’s plastic cap like a cork.",
+    "translation": "",
+    "context": "<<POS:06346774>>"
+  },
+  {
+    "key": "output.expr|First_you_pull_your_pc_cockNoun_var0_out|2bc0fc684216",
+    "original": " First, you pull your [pc.cockNoun \"+{var0}+\"] out.",
+    "translation": "",
+    "context": "<<POS:06346872>> <<VARS:var0=e>> output(\" First, you pull your [pc.cockNoun \"+e+\"] out.\")"
+  },
+  {
+    "key": "output.expr|You_then_press_the_device_against_the_pc_knot_var0_of_yo|3f4252cbc9bc",
+    "original": "You then press the device against the [pc.knot \"+{var0}+\"] of your already steel hard shaft, feeling the rubbery, cool silicone ending of the injector. You make sure it creates a nice tight seal, so its contents don’t spill. Then, you move your thumb over the flashy, big red button and press it without a second thought.",
+    "translation": "",
+    "context": "<<POS:06346933>> <<VARS:var0=e>> output(\"\\n\\nYou then press the device against the [pc.knot \"+e+\"] of your already steel hard shaft, feeling the rubbery, cool silicone ending of the injector. You make sure it creates a nice tight seal, so its contents don’t spill. Then, you move your thumb over the flashy, big red button and press it without a second thought.\")"
+  },
+  {
+    "key": "output.expr|A_soft_pneumatic_hiss_escapes_the_injector_and_the_vial_empties|63e2c91744a7",
+    "original": "A soft pneumatic hiss escapes the injector, and the vial empties slowly, delivering the dose. The area around the injection point tingles slightly. It feels like having a miniaturized rainstorm localized entirely within that tiny region of your [pc.cockSimple \"+{var0}+\"].",
+    "translation": "",
+    "context": "<<POS:06347264>> <<VARS:var0=e>> output(\"\\n\\nA soft pneumatic hiss escapes the injector, and the vial empties slowly, delivering the dose. The area around the injection point tingles slightly. It feels like having a miniaturized rainstorm localized entirely within that tiny region of your [pc.cockSimple \"+e+\"].\")"
+  },
+  {
+    "key": "output|Once_the_vial_is_devoid_of_its_contents_you_set_aside_the_devic|095c8ade0d62",
+    "original": "Once the vial is devoid of its contents, you set aside the device and examine the injection site. The entire area and its vicinity are slightly reddened, but other than that, you see no evident changes in your anatomy.",
+    "translation": "",
+    "context": "<<POS:06347546>>"
+  },
+  {
+    "key": "output.expr|Like_a_jolt_of_lightning_an_intense_sensation_assails_you_trav|d5b0146160bf",
+    "original": "Like a jolt of lightning, an intense sensation assails you, traveling up your spine and causing your entire body to tense up in response, arching your back in the process. All you can do is let out a throaty moan in reply as the powerful stimuli reaches your brain. You’re experiencing an acute pleasure which compels you to instinctively grab hold of your [pc.cock \"+{var0}+\"] and masturbate frantically.",
+    "translation": "",
+    "context": "<<POS:06347779>> <<VARS:var0=e>> output(\"\\n\\nLike a jolt of lightning, an intense sensation assails you, traveling up your spine and causing your entire body to tense up in response, arching your back in the process. All you can do is let out a throaty moan in reply as the powerful stimuli reaches your brain. You’re experiencing an acute pleasure which compels you to instinctively grab hold of your [pc.cock \"+e+\"] and masturbate frantically.\")"
+  },
+  {
+    "key": "output.expr|The_changes_become_apparent_in_a_few_short_minutes_Your_pc_coc|bbea84f30328",
+    "original": "The changes become apparent in a few short minutes. Your [pc.cockSimple \"+{var0}+\"] swells as blood rushes in with every consecutive beat of your heart. Your prick keeps enlarging, throbbing incessantly. You can feel the tremendous pressure building up inside, with veins bulging visibly under your [pc.cockSkin \"+{var1}+\"], pulsating and growing nonstop. You’re scared that they might burst at this rate. Your [pc.cockSimple \"+{var2}+\"] is ludicrously distended right now, and so ridiculously hard you could puncture a ship’s hull with it... well, maybe not that.",
+    "translation": "",
+    "context": "<<POS:06348194>> <<VARS:var0=e,var1=e,var2=e>> output(\"\\n\\nThe changes become apparent in a few short minutes. Your [pc.cockSimple \"+e+\"] swells as blood rushes in with every consecutive beat of your heart. Your prick keeps enlarging, throbbing incessantly. You can feel the tremendous pressure building up inside, with veins bulging visibly under your [pc.cockSkin \"+e+\"], pulsating and growing nonstop. You’re scared that they might burst at this rate. Your [pc.cockSimple \"+e+\"] is ludicrously distended right now, and so ridiculously hard you could puncture a ship’s hull with it... well, maybe not that.\")"
+  },
+  {
+    "key": "output.expr|All_your_thoughts_all_your_worries_are_washed_away_by_the_immen|44cf3b42dfc8",
+    "original": "All your thoughts, all your worries are washed away by the immense wave of ecstasy triggered by the next growth spurt, and the next one... and the one after that. You can barely think straight. All you know is you need to keep pumping hard on your [pc.cockNoun \"+{var0}+\"], faster, stronger.",
+    "translation": "",
+    "context": "<<POS:06348758>> <<VARS:var0=e>> output(\"\\n\\nAll your thoughts, all your worries are washed away by the immense wave of ecstasy triggered by the next growth spurt, and the next one... and the one after that. You can barely think straight. All you know is you need to keep pumping hard on your [pc.cockNoun \"+e+\"], faster, stronger.\")"
+  },
+  {
+    "key": "output.expr|It_feels_like_an_eternity_but_in_truth_your_vigorous_self_lovi|c143a888621d",
+    "original": "It feels like an eternity, but in truth, your vigorous self-loving session barely lasts a minute before your [pc.cockNoun \"+{var0}+\"] reaches its tipping point, setting off a cascade of mini-orgasms culminating in an intense, body-shaking climax.",
+    "translation": "",
+    "context": "<<POS:06349059>> <<VARS:var0=e>> output(\"\\n\\nIt feels like an eternity, but in truth, your vigorous self-loving session barely lasts a minute before your [pc.cockNoun \"+e+\"] reaches its tipping point, setting off a cascade of mini-orgasms culminating in an intense, body-shaking climax.\")"
+  },
+  {
+    "key": "output.expr|Your_pc_cock_var0_twitches_and_throbs_with_a_renewed_and|5f8dc5140550",
+    "original": "Your [pc.cock \"+{var0}+\"] twitches and throbs with a renewed and increased size. You can only smile in contentment, delighting in the fruits of its hard-earned labor.",
+    "translation": "",
+    "context": "<<POS:06349315>> <<VARS:var0=e>> output(\"\\n\\nYour [pc.cock \"+e+\"] twitches and throbs with a renewed and increased size. You can only smile in contentment, delighting in the fruits of its hard-earned labor.\")"
+  },
+  {
+    "key": "output|But_there_s_something_missing_Your_seed_is_not_coming_out|0be543cdc9e1",
+    "original": "But... there’s something missing... Your seed is not coming out. Shouldn’t your [pc.cum] be squirting out of your urethra already? That’s how it usually goes. .",
+    "translation": "",
+    "context": "<<POS:06349494>>"
+  },
+  {
+    "key": "output|An_intense_rumbling_and_a_powerful_tingling_sensation_emerges_fr|789353f814d3",
+    "original": "An intense rumbling and a powerful tingling sensation emerges from your [pc.balls]. It feels odd. It’s not entirely painful, but it aches a bit.",
+    "translation": "",
+    "context": "<<POS:06349675>>"
+  },
+  {
+    "key": "output|Alarmed_you_take_a_good_look_at_your_uniball_only_to_watch_it|6ec177b14d7f",
+    "original": "Alarmed, you take a good look at your uniball, only to watch it as it snuggles tightly against your crotch.",
+    "translation": "",
+    "context": "<<POS:06349843>>"
+  },
+  {
+    "key": "output|Alarmed_you_take_a_good_look_at_your_testes_only_to_watch_them|6e8d5b359561",
+    "original": "Alarmed, you take a good look at your testes, only to watch them as they snuggle tightly against your crotch.",
+    "translation": "",
+    "context": "<<POS:06349961>>"
+  },
+  {
+    "key": "output|The_pressure_keeps_steadily_rising_You_can_feel_it_like_a_biza|7138db429076",
+    "original": "The pressure keeps steadily rising. You can feel it, like a bizarre straining sensation.",
+    "translation": "",
+    "context": "<<POS:06350085>>"
+  },
+  {
+    "key": "output|Your_uniball_is_beginning_to_shrink_No_that_s_not_right_No|0fc5bd15741b",
+    "original": " Your uniball is beginning to shrink! No... that’s not right. Not shrink, sink! Your [pc.balls] is sinking inside your body, slowly moving upwards until it becomes an internal gonad, nesting safely within you.",
+    "translation": "",
+    "context": "<<POS:06350197>>"
+  },
+  {
+    "key": "output|Your_testicles_are_beginning_to_shrink_No_that_s_not_right|247fad7c0e8c",
+    "original": " Your testicles are beginning to shrink! No... that’s not right. Not shrink, sink! Your [pc.balls] are sinking inside your body, slowly moving upwards until they become internal gonads, nesting safely within you.",
+    "translation": "",
+    "context": "<<POS:06350417>>"
+  },
+  {
+    "key": "output|b_You_now_have_internal_testicles_b|58ffb3a72ec4",
+    "original": "<b>You now have internal testicles.</b>",
+    "translation": "",
+    "context": "<<POS:06350644>>"
+  },
+  {
+    "key": "output|There_s_a_slight_itching_sensation_coming_from_under_your_pc_c|5f7feecb910d",
+    "original": " There’s a slight itching sensation coming from under your [pc.cocks]. Annoyed, you reach with your hand to scratch it only to notice a small but quickly expanding fleshy bump.",
+    "translation": "",
+    "context": "<<POS:06350730>>"
+  },
+  {
+    "key": "output|The_ever_expanding_bulge_has_you_slightly_concerned_but_all_you|f5b36c9d29ef",
+    "original": "The ever-expanding bulge has you slightly concerned, but all you can do now is watch in shock as the nub continues growing, causing an acute straining sensation in your nether regions.",
+    "translation": "",
+    "context": "<<POS:06350921>>"
+  },
+  {
+    "key": "output|For_a_couple_of_minutes_you_are_worried_about_the_possible_side|424e6bef08bb",
+    "original": "For a couple of minutes, you are worried about the possible side effects you didn’t bother to read, until the bulb begins to take shape, dividing into two equally sized orbs that hang from your crotch. Those are balls! Your [pc.balls]. They just changed locations.",
+    "translation": "",
+    "context": "<<POS:06351120>>"
+  },
+  {
+    "key": "output|b_You_now_have_external_testicles_b|d82cd568dada",
+    "original": "<b>You now have external testicles.</b>",
+    "translation": "",
+    "context": "<<POS:06351399>>"
+  },
+  {
+    "key": "output|Well_you_did_select_that_option_when_you_Oh_Fuck_A_new_une|2a8f6d4d1e14",
+    "original": "Well, you did select that option when you – Oh! Fuck! A new, unexpected, delayed climax hits you harder than a freight train, giving you no warning this time. Right on cue, you cum.",
+    "translation": "",
+    "context": "<<POS:06351505>>"
+  },
+  {
+    "key": "output.expr|Your_pc_cockSimple_var0_erupts_with_fury_and_thunder_sq|9d62dc9454d6",
+    "original": "Your [pc.cockSimple \"+{var0}+\"] erupts with fury and thunder, squirting load after load of your precious [pc.cum] like an unending storm, painting the floor [pc.cumColor] with a nice helping of [pc.cumNoun].",
+    "translation": "",
+    "context": "<<POS:06351701>> <<VARS:var0=e>> output(\"\\n\\nYour [pc.cockSimple \"+e+\"] erupts with fury and thunder, squirting load after load of your precious [pc.cum] like an unending storm, painting the floor [pc.cumColor] with a nice helping of [pc.cumNoun].\")"
+  },
+  {
+    "key": "output|Exhausted_by_the_whole_ordeal_you_barely_manage_to_stand_up_on|ef1fe53f5b79",
+    "original": "Exhausted by the whole ordeal, you barely manage to stand up, only to marvel at the sight of your new and improved cock. Just perfect. You smile with glee",
+    "translation": "",
+    "context": "<<POS:06351918>>"
+  },
+  {
+    "key": "output.expr|and_stow_your_pc_cockNoun_var0_back_inside_your_clothin|3ce88987fca8",
+    "original": " and stow your [pc.cockNoun \"+{var0}+\"] back inside your clothing",
+    "translation": "",
+    "context": "<<POS:06352104>> <<VARS:var0=e>> output(\" and stow your [pc.cockNoun \"+e+\"] back inside your clothing\")"
+  },
+  {
+    "key": "output|You_ve_got_exactly_what_you_wanted_what_you_paid_for|9cdcc3e178a2",
+    "original": ". You’ve got exactly what you wanted; what you paid for.",
+    "translation": "",
+    "context": "<<POS:06352175>>"
+  },
+  {
+    "key": "output.expr|var0_createCockLockedMessage|a635917b368b",
+    "original": "{var0}.createCockLockedMessage()",
+    "translation": "",
+    "context": "<<POS:06352380>> <<VARS:var0=pc>> output(pc.createCockLockedMessage())"
+  },
+  {
+    "key": "output|What_a_ripoff|59c3e96a37af",
+    "original": " What a ripoff.",
+    "translation": "",
+    "context": "<<POS:06352418>>"
+  },
+  {
+    "key": "button|Next|ca9f46178075",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:06352469>> addButton(0,\"Next\",(function(){return n.returnToInventory(n)}))"
+  },
+  {
+    "key": "output|All_set_and_ready_to_go|41387f0290c9",
+    "original": "All set and ready to go.",
+    "translation": "",
+    "context": "<<POS:06352528>>"
+  },
+  {
+    "key": "output|Without_hesitation_you_pop_the_plastic_cap_off_the_jet_injector|42504cd0ba31",
+    "original": "Without hesitation, you pop the plastic cap off the jet injector",
+    "translation": "",
+    "context": "<<POS:06352567>>"
+  },
+  {
+    "key": "output|and_remove_your_lower_body_s_clothing|9a81fc2f9a29",
+    "original": " and remove your lower body’s clothing",
+    "translation": "",
+    "context": "<<POS:06352663>>"
+  },
+  {
+    "key": "output|You_then_press_its_rubbery_silicone_capped_tip_against_your_b|aa1a31ec336d",
+    "original": ". You then press its rubbery, silicone capped tip against your bare crotch, pushing hard to create a nice seal and avoid any spillage. You bite your lower lip with anticipation and press on the big red button without a second thought.",
+    "translation": "",
+    "context": "<<POS:06352712>>"
+  },
+  {
+    "key": "output|A_faint_pneumatic_hissing_sound_reaches_your_ears_as_the_vial_be|24f579607ee6",
+    "original": "A faint pneumatic hissing sound reaches your ears as the vial begins emptying. The sensation is a most curious one; intense pressure and tiny raindrops crashing heavily against the surface of the [pc.skinFurScalesNoun] in contact with the injector.",
+    "translation": "",
+    "context": "<<POS:06352961>>"
+  },
+  {
+    "key": "output|First_you_discard_the_now_empty_device_and_with_that_junk_now|d4716a612351",
+    "original": "First, you discard the now empty device, and with that junk now out of the way, you take a good look at the area. There a slight reddening and a minor tingling, but other than that you don’t notice any immediate effects.",
+    "translation": "",
+    "context": "<<POS:06353224>>"
+  },
+  {
+    "key": "output|You_try_massaging_the_afflicted_pc_skinFurScalesNoun_patch_ru|043a4f4eff25",
+    "original": "You try massaging the afflicted [pc.skinFurScalesNoun] patch, rubbing it tenderly with a pair of fingers. There’s... something odd. It feels... nice. Actually, like really nice. The sensation is bizarre but so pleasant you can’t keep your fingers away. You feel compelled by a primal need. You need to keep massaging your tingling nethers no matter what... no matter what.",
+    "translation": "",
+    "context": "<<POS:06353459>>"
+  },
+  {
+    "key": "output|Something_finally_clicks_inside_your_mind_What_you_feel_It_s|c234eb4714ef",
+    "original": "Something finally clicks inside your mind. What you feel... It’s arousal! Sexual stimuli, but there’s still no cock to be seen. Could it be the nerve endings develop first? Suddenly, your fingers hit a bump. You look downwards only to see a tiny reddish nub. It’s small, but it’s growing. You can feel it flustered, full of blood and pulsating.",
+    "translation": "",
+    "context": "<<POS:06353846>>"
+  },
+  {
+    "key": "output|Perhaps_with_encouragement_You_bite_your_lower_lip_as_a_na|cbede9a3300a",
+    "original": "Perhaps... with encouragement... You bite your lower lip as a naughty thought crosses your mind. You decide to pinch the tiny thing and in return, you’re rewarded with an intense burst of pleasure. Like a miniature orgasm but still astonishingly potent. So much you can’t help but arch your back and howl from the acute, ecstatic stimuli.",
+    "translation": "",
+    "context": "<<POS:06354205>>"
+  },
+  {
+    "key": "output|You_re_unsure_if_it_s_supposed_to_be_like_this_but_that_harsh_s|88cb5cf65bc8",
+    "original": "You’re unsure if it’s supposed to be like this, but that harsh squeeze has triggered an immediate growth spurt. The tiny mass of flesh quickly expands, becoming bigger and longer, like a tiny finger, but big enough to grab hold of it with your hand.",
+    "translation": "",
+    "context": "<<POS:06354558>>"
+  },
+  {
+    "key": "output|Unable_to_help_yourself_and_incited_by_raw_animalistic_instinct|3a070ec3c978",
+    "original": "Unable to help yourself, and incited by raw animalistic instinct, you begin furiously jerking off the bizarre protuberance, delighting in the intensely pleasurable sensations you draw from it with every pump. You keep upping the pace, stroking it relentlessly and squeezing vigorously, only to trigger new surges. Its mass keeps increasing exponentially, and so is the pleasure. It already resembles a simple penis with a basic human-like shape and feels like the real deal.",
+    "translation": "",
+    "context": "<<POS:06354822>>"
+  },
+  {
+    "key": "output|Overwhelmed_by_the_myriad_of_new_sensations_you_re_beginning_to|5f0a587833bf",
+    "original": "Overwhelmed by the myriad of new sensations, you’re beginning to lose control over your body. Primitive impulses take over, making you unable to focus on anything but your brand new appendage and your zealous self-loving session.",
+    "translation": "",
+    "context": "<<POS:06355311>>"
+  },
+  {
+    "key": "output|Something_odd_is_going_on_You_take_a_good_look_down_and_notice|541c320fb58d",
+    "original": "Something odd is going on. You take a good look down and notice your [pc.testicles] \".concat(1===pc.balls?\"is\":\"are\",\" rapidly sinking inside your body, becoming \").concat(1===pc.balls?\"an internal testicle\":\"internal testicles\",\".\")",
+    "translation": "",
+    "context": "<<POS:06355673>>"
+  },
+  {
+    "key": "output|The_pressure_is_too_much_You_can_feel_it_building_up_deep_withi|49fde244c17b",
+    "original": "The pressure is too much. You can feel it building up deep within you. It’s an orgasm, a male one. Your first one.",
+    "translation": "",
+    "context": "<<POS:06355947>>"
+  },
+  {
+    "key": "output|With_this_dick_at_least|b5555f5cef66",
+    "original": " With this dick at least.",
+    "translation": "",
+    "context": "<<POS:06356087>>"
+  },
+  {
+    "key": "output|You_can_t_hold_it_back_anymore_You_need_to_cum_and_you_need_it|088cab8e0da2",
+    "original": " You can’t hold it back anymore. You need to cum and you need it now. You can feel something squeezing inside you... a prostate? Yes! You have a prostate now! It’s pumping. It’s getting ready, and here it comes.",
+    "translation": "",
+    "context": "<<POS:06356123>>"
+  },
+  {
+    "key": "output|Here_it_comes_Now_Now_What_s_going_on_It_feels_like|9facc1501d67",
+    "original": "... Here it comes! ... Now? Now! What’s going on?! It feels like someone hit the pause button. You’re on edge; feeling incredibly frustrated, denied. This is despairing. You need to cum, and you’re a split second from doing so, yet nothing happens no matter how hard you pump. Come on! Damnit!",
+    "translation": "",
+    "context": "<<POS:06356351>>"
+  },
+  {
+    "key": "output|Wait_There_s_something_else_missing_The_sudden_realizatio|a3b5e4622759",
+    "original": "Wait... There’s something else... missing? The sudden realization hits you hard, and an intense strain assails your crotch, right under your newfound [pc.cock]. It aches, pulsates. There’s an immense pressure coming from your nethers, and then you feel it; a pair of fleshy nubs popping out of your crotch. Testes! Your new [pc.balls], quickly expanding and hanging from your newly minted scrotum. So that’s what - Ah! Fuck! You’re cumming!",
+    "translation": "",
+    "context": "<<POS:06356659>>"
+  },
+  {
+    "key": "output|The_dam_bursts_on_hold_no_longer|d8049bafdbe7",
+    "original": "The dam bursts, on hold no longer.",
+    "translation": "",
+    "context": "<<POS:06357114>>"
+  },
+  {
+    "key": "output|An_enormous_tsunami_of_endorphins_floods_your_system_as_the_feel|f491d55938a4",
+    "original": "An enormous tsunami of endorphins floods your system as the feel-good chemicals inundate every single pleasure center inside your brain. It’s Intense but short-lived, like an adrenaline shot.",
+    "translation": "",
+    "context": "<<POS:06357212>>"
+  },
+  {
+    "key": "output|Finally_you_cum_exactly_what_you_were_yearning_for_You_finall|1108248f23fa",
+    "original": "Finally, you cum, exactly what you were yearning for. You finally get to see your [pc.cum] shooting out of your brand-new [pc.cock]. Your precious bounty sprays wildly everywhere: you, the floor...",
+    "translation": "",
+    "context": "<<POS:06357418>>"
+  },
+  {
+    "key": "output|It_takes_mere_seconds_but_your_fiery_climax_finally_runs_its_co|72f00563502b",
+    "original": "It takes mere seconds, but your fiery climax finally runs its course, leaving you exhausted but somewhat satisfied. You can’t help but smile with contentment. This is it: your new, mint condition [pc.cockNoun]. Just what you wanted.",
+    "translation": "",
+    "context": "<<POS:06357630>>"
+  },
+  {
+    "key": "button|Next|c4b5cb83a87a",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:06357914>> addButton(0,\"Next\",(function(){return n.returnToInventory(n)}))"
+  },
+  {
+    "key": "output|Eager_to_see_the_results_you_pop_the_plastic_cap_and_quickly_in|3b329b339700",
+    "original": "Eager to see the results, you pop the plastic cap and quickly inject each",
+    "translation": "",
+    "context": "<<POS:06358181>>"
+  },
+  {
+    "key": "output|and_every_one|04d685660fea",
+    "original": " and every one",
+    "translation": "",
+    "context": "<<POS:06358319>>"
+  },
+  {
+    "key": "output|of_your_nipples_with_a_partial_dose_of_the_transformative_dist|3f0cf11dd2f0",
+    "original": " of your nipples with a partial dose of the transformative, distributing it to the best of your abilities.",
+    "translation": "",
+    "context": "<<POS:06358344>>"
+  },
+  {
+    "key": "output|Your_pc_nipples_tingle_a_bit_and_they_are_visibly_engorged_b|fd946b85a462",
+    "original": "Your [pc.nipples] tingle a bit, and they are visibly engorged, but just so slightly. This is not what you wanted. You try rubbing one of your nipples, see if there’s is something wrong, and as soon as flesh meets flesh it hits you. Like a freight train, an intense convulsion shakes your entire body, causing it to tense, yet twitch uncontrollably.",
+    "translation": "",
+    "context": "<<POS:06358465>>"
+  },
+  {
+    "key": "output|A_powerful_surge_of_pleasure_comes_from_deep_within_your_chest_a|7173b69e87a4",
+    "original": "A powerful surge of pleasure comes from deep within your chest area, and right on cue, your [pc.dickNipples] pop out of their hideout like torpedoes, hardening in an instant. This isn’t what you were expecting either!",
+    "translation": "",
+    "context": "<<POS:06358898>>"
+  },
+  {
+    "key": "output|You_re_suddenly_brought_low_by_a_new_outburst_of_joy_as_powerfu|a8f63e70872a",
+    "original": "You’re suddenly brought low by a new outburst of joy, as powerful as the first. You can’t help but lay helplessly as the potent sensation turns your body into jelly. You can’t control yourself anymore. This is much more than you’ve bargained for. You are orgasming, riding your fervent peak, and you’ve done nothing at all!",
+    "translation": "",
+    "context": "<<POS:06359130>>"
+  },
+  {
+    "key": "output|Your_body_is_at_the_mercy_of_your_lust_You_can_do_nothing_but_w|bcea269547ee",
+    "original": "Your body is at the mercy of your lust. You can do nothing but watch and hope for your ferocious climax to reach its end, yet it shows no hint of having such intentions. You simply keep cumming; unending, locked in perpetual bliss, unable to move on your own.",
+    "translation": "",
+    "context": "<<POS:06359468>>"
+  },
+  {
+    "key": "output|pc_milk_finally_geysers_out_of_your_pc_dickNipples_reaching|612004a82681",
+    "original": "[pc.milk] finally geysers out of your [pc.dickNipples], reaching untold heights and raining down on your squirming body. You instinctively open your mouth; any shred of self-control already lost within your mighty climax.",
+    "translation": "",
+    "context": "<<POS:06359742>>"
+  },
+  {
+    "key": "output|You_wake_up_perhaps_an_hour_later_having_passed_out_from_the_in|eb1937e17ff8",
+    "original": "You wake up perhaps an hour later, having passed out from the intense overstimulation. It seems that’s what you get for messing around with complex transformatives and ignoring the big bold warning letters. Wait... your [pc.dickNipples] are actually bigger now that you look at them! It worked! Suck it, big bold warning letters.",
+    "translation": "",
+    "context": "<<POS:06359978>>"
+  },
+  {
+    "key": "output.expr|var0_nippleTypeLockedMessage|b19ff719a4a1",
+    "original": "{var0}.nippleTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:06360398>> <<VARS:var0=pc>> output(pc.nippleTypeLockedMessage())"
+  },
+  {
+    "key": "output|What_a_ripoff|8d5926311ca3",
+    "original": " What a ripoff.",
+    "translation": "",
+    "context": "<<POS:06360436>>"
+  },
+  {
+    "key": "button|Next|ca9f46178075#1",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:06360487>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
+  },
+  {
+    "key": "output|There_s_no_way_you_can_shake_the_thought_of_your_head_now_You_r|b984359f3860",
+    "original": "There’s no way you can shake the thought of your head now. You’re already fantasizing about it; gaining brand-new chest-borne breeders. About how delightful they will feel and how hard they’ll cum.",
+    "translation": "",
+    "context": "<<POS:06360546>>"
+  },
+  {
+    "key": "output|Lust_struck_you_pop_the_plastic_cap_of_the_jet_injector_with_ea|7556e3d14b6c",
+    "original": "Lust struck, you pop the plastic cap of the jet injector with eagerness and push the big red button again and again, distributing the drug evenly among each ",
+    "translation": "",
+    "context": "<<POS:06360758>>"
+  },
+  {
+    "key": "output|and_every_one|aa5563fd00be",
+    "original": "and every one ",
+    "translation": "",
+    "context": "<<POS:06360980>>"
+  },
+  {
+    "key": "output|of_your_pc_nipplesNoun|ccd274520efb",
+    "original": "of your [pc.nipplesNoun].",
+    "translation": "",
+    "context": "<<POS:06361005>>"
+  },
+  {
+    "key": "output|You_can_feel_an_odd_tingling_sensation_emanating_deep_within_yo|ad34131ccec2",
+    "original": "You can feel an odd, tingling sensation emanating deep within your [pc.nippleCunts]. It’s a bizarre straining feeling, like pressure. It’s almost like your [pc.breasts] are being squeezed, but, as crazy as it sounds, the sensation is coming from the inside.",
+    "translation": "",
+    "context": "<<POS:06361067>>"
+  },
+  {
+    "key": "output|Alarmed_you_poke_and_probe_sliding_your_index_inside_to_check|0e5bfab188dd",
+    "original": "Alarmed, you poke and probe, sliding your index inside to check if everything’s alright. Fuck! You’re ludicrously tight and your [pc.nippleCunts] only keep squeezing more and more with each passing moment. Hey! That’s your finger and you want it back. Damnit! It feels like an odyssey, but eventually, you manage to pull out. Whatever it is, it seems your boobginas are shutting shop.",
+    "translation": "",
+    "context": "<<POS:06361339>>"
+  },
+  {
+    "key": "output|This_isn_t_the_end_though_The_straining_is_only_intensifying_Y|4f8d99399a41",
+    "original": "This isn’t the end though. The straining is only intensifying. You can feel something else, something new. There’s something growing inside your [pc.breasts].",
+    "translation": "",
+    "context": "<<POS:06361738>>"
+  },
+  {
+    "key": "output|At_this_point_the_bittersweet_mix_of_pain_and_pleasure_you_re_e|1c7283f5c37d",
+    "original": "At this point, the bittersweet mix of pain and pleasure you’re experiencing is too much. You’re down on the floor, panting and moaning like a whore. You can’t contain yourself anymore, and your hands move on their own volition, reaching for your [pc.breasts]. They are decided and relentless. You can’t control them and they keep groping and molesting your chest, squeezing harder and harder until the pressure is too much to bear and something pops out of your [pc.breasts].",
+    "translation": "",
+    "context": "<<POS:06361911>>"
+  },
+  {
+    "key": "output|What_did_you_just_do_This_isn_t_normal_this_they_they_a|398bd445aeff",
+    "original": "What did you just do?! This isn’t normal, this... they... they are - your nipples are enormous, and sensitive, and... [pc.dickNipples]! They are [pc.dickNipples], and - FUCK!",
+    "translation": "",
+    "context": "<<POS:06362435>>"
+  },
+  {
+    "key": "output|A_glorious_new_sensation_hits_you_like_a_sledgehammer_It_s_an|80e883b4a684",
+    "original": "A glorious, new sensation hits you like a sledgehammer. It’s an orgasm, but it’s all wrong. It’s coming from your chest. You’re boobgasming! It’s too much to bear. One powerful jolt of ecstasy after another pounds your already overstimulated system, nearly driving you insane from the untold pleasure and kicking your body into autopilot.",
+    "translation": "",
+    "context": "<<POS:06362624>>"
+  },
+  {
+    "key": "output|There_s_this_curious_feeling_coming_from_your_pc_lipples_They|1ec90191e5f4",
+    "original": "There’s this curious feeling coming from your [pc.lipples]. They are sucking on their own, yet there’s nothing that should warrant that kind of response. Out of curiosity, you stick a finger inside one [pc.lipple]. It’s tight, like really tight. Damnit! It almost hurts, and it keeps sucking so hard you’re afraid you’re not gonna get that finger back. It takes some elbow grease, but eventually, you manage to pull out, but not without enticing a sonorous wet pop in the process.",
+    "translation": "",
+    "context": "<<POS:06362996>>"
+  },
+  {
+    "key": "output|What_the_hell_is_going_on_Fuck_You_re_so_flustered_and_light_h|0d6304e89d8b",
+    "original": "What the hell is going on? Fuck! You’re so flustered and light-headed right now. It’s debilitating. You can barely think straight and you’re... panting? Why? It feels... Oh! Fuck! It feels so good.",
+    "translation": "",
+    "context": "<<POS:06363491>>"
+  },
+  {
+    "key": "output|You_re_getting_a_nice_blowjob_out_of_the_blue_so_nice_wait|b43bf521d5f1",
+    "original": "You’re getting a nice blowjob out of the blue, so nice... wait, who? What? The sensation is not coming from your crotch!",
+    "translation": "",
+    "context": "<<POS:06363703>>"
+  },
+  {
+    "key": "output|And_why_would_it_You_don_t_have_a_dick_down_there|f614cff793f7",
+    "original": " And why would it? You don’t have a dick down there.",
+    "translation": "",
+    "context": "<<POS:06363848>>"
+  },
+  {
+    "key": "output|It_s_not_coming_from_your_pc_tailCock_either|7bc465eb80da",
+    "original": " It’s not coming from your [pc.tailCock] either.",
+    "translation": "",
+    "context": "<<POS:06363929>>"
+  },
+  {
+    "key": "output|There_where_No_way_It_s_coming_from_your_pc_breasts_Or_mor|5463d1cf7ca0",
+    "original": " There where? No way! It’s coming from your [pc.breasts]! Or more accurately, from your [pc.lipples]. This doesn’t make any sense, but fuck, they are so tight and skilled.",
+    "translation": "",
+    "context": "<<POS:06363992>>"
+  },
+  {
+    "key": "output|You_re_so_overwhelmed_by_the_delightful_sensation_you_can_t_sta|57c1b6385546",
+    "original": "You’re so overwhelmed by the delightful sensation, you can’t stand anymore. You find yourself laying on the floor, brought low by the ghost blowjob you’re experiencing. You can’t take this anymore. Your body tenses up and your back arches sharply. You’re cumming!",
+    "translation": "",
+    "context": "<<POS:06364178>>"
+  },
+  {
+    "key": "output|A_peculiar_orgasm_spawns_from_your_chest_rocking_your_entire_bo|0392f04b8f1f",
+    "original": "A peculiar orgasm spawns from your chest, rocking your entire body and sending a wave of pure, distilled bliss washing all over your system. At the peak of your fierce orgasm, your hands instinctively go for your breasts, squeezing and groping until something truly bizarre happens: something pops out of your [pc.breasts]. No way... they are [pc.dickNipples]!",
+    "translation": "",
+    "context": "<<POS:06364490>>"
+  },
+  {
+    "key": "output|You_re_expectant_awaiting_for_the_results_to_manifest_Yet_noth|815e3c6502d0",
+    "original": "You’re expectant, awaiting for the results to manifest. Yet nothing happens. Your [pc.nipples] remain the same. Now that you notice it, you’re breathing erratically, and faster than ever before. You’re flustered all over and incredibly horny right now. Furthermore, you can finally feel something. It’s a minor tingle coming from your areolas.",
+    "translation": "",
+    "context": "<<POS:06364912>>"
+  },
+  {
+    "key": "output|You_trail_your_fingers_all_over_your_pc_nipplesNoun_only_to_be|bc2b79c0fb5c",
+    "original": "You trail your fingers all over your [pc.nipplesNoun] only to be assailed by an intense and pleasurable sensation almost immediately. Fuck! They are so goddamn sensitive right now. The slightest caress has a powerful debilitating effect on you. At this point, you can’t stop yourself. Your body is working on autopilot, rubbing, pinching, squeezing and massaging your [pc.nipples] with reckless abandon.",
+    "translation": "",
+    "context": "<<POS:06365270>>"
+  },
+  {
+    "key": "output|Your_hands_are_fixed_on_your_tender_flesh_almost_like_welded_to|f2755c2b397b",
+    "original": "Your hands are fixed on your tender flesh, almost like welded to your [pc.nipples]. You would need a crowbar to keep them away from each other. The sensation is so magnificent you can’t help but agree with your hands. They must keep going.",
+    "translation": "",
+    "context": "<<POS:06365688>>"
+  },
+  {
+    "key": "output|Your_furious_pc_nippleNoun_worship_is_about_to_reach_its_peak|13f1747994c2",
+    "original": "Your furious [pc.nippleNoun] worship is about to reach its peak. You can feel the pressure rising steadily. You’re so close to... something. It’s a peculiar, yet familiar sensation. Fuck! It’s an orgasm. You’re climaxing! No your [pc.breasts] are... boobgasming?! Yes!",
+    "translation": "",
+    "context": "<<POS:06365942>>"
+  },
+  {
+    "key": "output|It_s_a_ferocious_and_mighty_peak_as_intense_as_it_s_debilitatin|136893ad63c8",
+    "original": "It’s a ferocious and mighty peak, as intense as it’s debilitating. Without realizing it, you’ve been moaning and panting like an ausar in heat. You can do nothing but relish in the strong and gratifying sensation you’re experiencing right now. Endorphins flood your hyperstimulated system, triggering a cascade of micro-orgasm one after another, culminating in a powerful, earth-shattering climax.",
+    "translation": "",
+    "context": "<<POS:06366225>>"
+  },
+  {
+    "key": "output.expr|Distracted_by_the_heat_of_the_moment_you_barely_notice_a_nub_fo|40058d3bc13b",
+    "original": "Distracted by the heat of the moment, you barely notice a nub forming on your [pc.nipples]. That wasn’t there before! It seems your \"+({var0}.hasFlatNipples()?\"flat\":\"inverted\")+\" nipples are now plain and simple nipples... No, wait. It’s growing... changing?!",
+    "translation": "",
+    "context": "<<POS:06366637>> <<VARS:var0=pc>> output(\"\\n\\nDistracted by the heat of the moment, you barely notice a nub forming on your [pc.nipples]. That wasn’t there before! It seems your \"+(pc.hasFlatNipples()?\"flat\":\"inverted\")+\" nipples are now plain and simple nipples... No, wait. It’s growing... changing?!\")"
+  },
+  {
+    "key": "output|That_too_The_nub_if_steadily_enlarging_in_both_girth_and_lengt|906a203f8d67",
+    "original": " That too. The nub if steadily enlarging in both girth and length and reshaping into something entirely different than a nipple... no way... [pc.dickNipples]! You’ve got [pc.dickNipples].",
+    "translation": "",
+    "context": "<<POS:06366938>>"
+  },
+  {
+    "key": "output|You_re_already_panting_staring_at_your_chest_and_hoping_for_th|ed4e01a4320f",
+    "original": " You’re already panting, staring at your chest and hoping for the new surge of flesh, yet nothing happens. All you feel is a slight tingle coming from your sensitive nubs. You reach with your index and poke one of your buds with curiosity. Oh, Damn! They are ludicrously sensitive right now. Just that simple brush nearly makes you cum on the spot. You can only wonder... what if...",
+    "translation": "",
+    "context": "<<POS:06367165>>"
+  },
+  {
+    "key": "output|With_a_naughty_grin_in_your_face_you_do_something_really_stupid|27941ce9a90d",
+    "original": "With a naughty grin in your face, you do something really stupid and pinch hard on the tender flesh of your nipples. It feels like getting struck by lightning; a sharp sensation soon drowned by intense joy. You’re orgasming! Boobgasming?! The feeling is much more powerful than expected. You can help but howl in delight, delivering a mighty cry of pleasure for the entire universe to hear.",
+    "translation": "",
+    "context": "<<POS:06367562>>"
+  },
+  {
+    "key": "output|Stunned_by_your_intense_orgasm_you_barely_manage_to_notice_your|f01679e4cc49",
+    "original": "Stunned by your intense orgasm, you barely manage to notice your [pc.nipplesNoun], growing steadily in girth and length, expanding, bigger and longer, reshaping into what you were just expecting: large, throbbing chest-mounted cocks.",
+    "translation": "",
+    "context": "<<POS:06367967>>"
+  },
+  {
+    "key": "output|Your_body_moves_on_primal_instinct_now_and_your_hands_latch_to_y|f9001c7bb04b",
+    "original": "Your body moves on primal instinct now and your hands latch to your newly-minted [pc.dickNipples] like a lifeboat during a storm and begin zealously jerking them off.",
+    "translation": "",
+    "context": "<<POS:06368250>>"
+  },
+  {
+    "key": "output|Your_climax_seems_unending_Just_when_you_think_it_s_beginning_t|0c104cc179b0",
+    "original": "Your climax seems unending. Just when you think it’s beginning to run its course, a new orgasm chains right after the previous one, triggering a new growth spurt, soon followed by a new wave of pure bliss invading your already overtaxed nervous system.",
+    "translation": "",
+    "context": "<<POS:06368431>>"
+  },
+  {
+    "key": "output|You_wake_up_much_later_feeling_awfully_sore_and_sticky_Your_own|f8ab8323a6d8",
+    "original": "You wake up much later feeling awfully sore and sticky. Your own climax knocked you off for who knows how long. You’re laying on the ground, over a puddle of your own [pc.milk]. Did you do that?! Impressive.",
+    "translation": "",
+    "context": "<<POS:06368698>>"
+  },
+  {
+    "key": "output|Now_that_you_take_a_good_look_at_it_there_isn_t_much_of_a_chang|66830c99aea4",
+    "original": "Now that you take a good look at it, there isn’t much of a change. Is the effect only temporary? Curious about the answer, you rub your [pc.nippleNoun], just to see if there’s anything new. The texture is odd, and it’s much more consistent than before, not to mention much more sensitive.",
+    "translation": "",
+    "context": "<<POS:06368920>>"
+  },
+  {
+    "key": "output|Eventually_you_touch_something_unusual_It_s_almost_like_a_shea|7d00762fed32",
+    "original": "Eventually, you touch something unusual. It’s almost like a sheath. It’s faint, but it’s there. This could only mean one thing... You pinch your [pc.nippleNoun] and squeeze hard with your hand, and just as you thought, slowly, but surely, the nub engorges and stiffens, quickly popping out from inside your breast. It’s not a nipple, it’s a [pc.dickNipple]!",
+    "translation": "",
+    "context": "<<POS:06369223>>"
+  },
+  {
+    "key": "output|Uh_quite_convenient_They_retract_when_not_in_use_You_take_a_f|6acecd368a6f",
+    "original": "Uh, quite convenient. They retract when not in use. You take a few moments to allow your chestborne breeder to retreat back inside its protective sheath and resume your adventures.",
+    "translation": "",
+    "context": "<<POS:06369595>>"
+  },
+  {
+    "key": "output|It_seems_you_got_just_what_you_wanted_despite_ignoring_all_the|1b8284fb046d",
+    "original": "It seems you got just what you wanted, despite ignoring all the warnings.",
+    "translation": "",
+    "context": "<<POS:06369790>>"
+  },
+  {
+    "key": "output|b_You_ve_got_dicknipples_now_b|db8d2ba28c7a",
+    "original": "<b>You’ve got dicknipples now.</b>",
+    "translation": "",
+    "context": "<<POS:06369878>>"
+  },
+  {
+    "key": "button|Next|4e9dcc8e02c4",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:06369964>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
+  },
+  {
+    "key": "output|Popping_off_the_cap_you_rest_the_transformative_against_the_bas|b28daee630b3",
+    "original": "Popping off the cap, you rest the transformative against the base of your tail\".concat(1===pc.tailCount?\"\":\"s\",\" and press the button to inject the drug.\")",
+    "translation": "",
+    "context": "<<POS:06370542>>"
+  },
+  {
+    "key": "output|A_soft_pneumatic_hiss_escapes_the_injector_and_the_vial_empties|cd3e0aabe8a6",
+    "original": "A soft pneumatic hiss escapes the injector, and the vial empties slowly, delivering the dose. The area around the injection point tingles slightly. It feels like having a miniaturized rainstorm localized entirely within that tiny region.",
+    "translation": "",
+    "context": "<<POS:06370711>>"
+  },
+  {
+    "key": "output|Once_the_vial_is_devoid_of_its_contents_you_set_aside_the_devic|068076aaada5",
+    "original": "Once the vial is devoid of its contents, you set aside the device and examine the injection site. The entire area and its vicinity are slightly reddened, but other than that, you see no evident changes in your anatomy.",
+    "translation": "",
+    "context": "<<POS:06370963>>"
+  },
+  {
+    "key": "output|Like_a_jolt_of_lightning_an_intense_sensation_assails_you_trav|983197b35a18",
+    "original": "Like a jolt of lightning, an intense sensation assails you, traveling up your spine and causing your entire body to tense up in response, arching your back in the process. All you can do is let out a throaty moan in reply as the powerful stimuli reaches your brain. You’re experiencing an acute pleasure which compels you to instinctively grab hold of [pc.oneTailCock] and masturbate frantically.",
+    "translation": "",
+    "context": "<<POS:06371196>>"
+  },
+  {
+    "key": "output|The_changes_become_apparent_in_a_few_short_minutes_pc_EachTail|7c63143f8a57",
+    "original": "The changes become apparent in a few short minutes. [pc.EachTailCock] swells as blood rushes in with every consecutive beat of your heart. Your prick keeps enlarging, throbbing incessantly. You can feel the tremendous pressure building up inside, with veins bulging visibly under the skin, pulsating and growing nonstop. You’re scared that they might burst at this rate. Your \".concat(1===pc.tailCount?\"[pc.tailCock] is\":\"[pc.tailCocks] are\",\" ludicrously distended right now!\")",
+    "translation": "",
+    "context": "<<POS:06371607>>"
+  },
+  {
+    "key": "output|All_your_thoughts_all_your_worries_are_washed_away_by_the_immen|977543f7ed8a",
+    "original": "All your thoughts, all your worries are washed away by the immense wave of ecstasy triggered by the next growth spurt, and the next one... and the one after that. You can barely think straight. All you know is you need to keep pumping hard on your [pc.tailCock], faster, stronger.",
+    "translation": "",
+    "context": "<<POS:06372099>>"
+  },
+  {
+    "key": "output|It_feels_like_an_eternity_but_in_truth_your_vigorous_self_lovi|9d41a0471590",
+    "original": "It feels like an eternity, but in truth, your vigorous self-loving session barely lasts a minute before [pc.eachTailCock] reaches its tipping point, setting off a cascade of mini-orgasms culminating in an intense, body-shaking climax.",
+    "translation": "",
+    "context": "<<POS:06372394>>"
+  },
+  {
+    "key": "output|Your_pc_tailCock_twitches_and_throbs_with_a_renewed_and_increa|fc556bbda914",
+    "original": "Your [pc.tailCock] twitches and throbs with a renewed and increased size. You can only smile in contentment, delighting in the fruits of its hard-earned labor.",
+    "translation": "",
+    "context": "<<POS:06372643>>"
+  },
+  {
+    "key": "output|pc_EachTailCock_erupts_with_fury_and_thunder_squirting_load_a|546041328ac8",
+    "original": "[pc.EachTailCock] erupts with fury and thunder, squirting load after load of your precious [pc.cum] like an unending storm, painting the floor, and yourself, [pc.cumColor] with a nice helping of [pc.cumNoun].",
+    "translation": "",
+    "context": "<<POS:06372904>>"
+  },
+  {
+    "key": "output|Exhausted_by_the_whole_ordeal_you_barely_manage_to_stand_up_on|29b32ee3bced",
+    "original": "Exhausted by the whole ordeal, you barely manage to stand up, only to marvel at the sight of your new and improved [pc.tailCocks]. Just perfect. You smile with glee. While you didn’t quite follow the instructions, you definitely got exactly what you paid for.",
+    "translation": "",
+    "context": "<<POS:06373127>>"
+  },
+  {
+    "key": "output|A_wild_thought_crosses_your_mind_What_if_you_use_Dicksprout_on|77e8cc897976",
+    "original": "A wild thought crosses your mind. What if you use Dicksprout on your [pc.tails]? Your [pc.tailNoun] are fun and all, but perhaps they could be enhanced... with a big, fat cock. It’s hard not to fantasize about it; having an extra set of genitalia available and ready for action, mounted on your [pc.tailNoun].",
+    "translation": "",
+    "context": "<<POS:06373484>>"
+  },
+  {
+    "key": "output|A_wild_thought_crosses_your_mind_What_if_you_use_Dicksprout_on|4c51b67791f7",
+    "original": "A wild thought crosses your mind. What if you use Dicksprout on your [pc.tails]? Your [pc.tailNoun] is fun and all, but perhaps it could be enhanced... with a big, fat cock. It’s hard not to fantasize about it; having an extra set of genitalia available and ready for action, mounted on your [pc.tailNoun].",
+    "translation": "",
+    "context": "<<POS:06373804>>"
+  },
+  {
+    "key": "output|Without_giving_your_brain_enough_time_to_second_guess_itself_yo|98d080a50482",
+    "original": "Without giving your brain enough time to second guess itself, you quickly pop the injector’s plastic cap, slap the rubbery tip against your [pc.tailNoun] and press the flashy, big red button",
+    "translation": "",
+    "context": "<<POS:06374125>>"
+  },
+  {
+    "key": "output.expr|then_repeat_the_process_with_var0_the_rest_of_your_pc_t|8bf96f1e797a",
+    "original": ", then repeat the process with \"+({var0}?\"the rest of your [pc.tails\":\"your other one\")",
+    "translation": "",
+    "context": "<<POS:06374341>> <<VARS:var0=pc.tailCount>2>> output(\", then repeat the process with \"+(pc.tailCount>2?\"the rest of your [pc.tails\":\"your other one\"))"
+  },
+  {
+    "key": "output|n_nA_few_minutes_pass_but_nothing_happens_Perhaps_it_doesn_t|5ca383ceb9bd",
+    "original": ".\\n\\nA few minutes pass, but nothing happens. Perhaps it doesn’t work like that. All you feel is an annoying tingling sensation. You decide to run your hands along the length of your [pc.tails] to try and feel if something has changed or, at the very least, try to soothe the itch that bothers you to no end.",
+    "translation": "",
+    "context": "<<POS:06374446>>"
+  },
+  {
+    "key": "output|Other_than_an_increase_in_overall_sensitivity_there_doesn_t_see|4db9ff677bb3",
+    "original": "Other than an increase in overall sensitivity, there doesn’t seem to be any new changes. That is until your finger reaches the tip of your [pc.tailNoun]. It’s subtle and barely noticeable at all, but it feels like a slit. You poke and probe at your new anatomy with your index only for it to slip inside, startling you for a second.",
+    "translation": "",
+    "context": "<<POS:06374769>>"
+  },
+  {
+    "key": "output|The_sensation_is_bizarre_but_somewhat_familiar_Intrigued_ab|81c6e8897ccc",
+    "original": "The sensation is... bizarre, but somewhat familiar. Intrigued about what you might find, you continue pushing your digit inside the opening until it collides with something squishy. It feels odd but slightly pleasant. So, you keep rubbing and feeling with your finger until suddenly, the squishy thing begins moving forwards, pushing your index out and away from its burrow. Then, you finally see it, sliding out from is protective folds. It’s a [pc.tailCockNoun]! A large, towering shaft, and it’s dangling from the very tip of your [pc.tailNoun]; already hard from your accidental stimulation.",
+    "translation": "",
+    "context": "<<POS:06375249>>"
+  },
+  {
+    "key": "output|It_worked_Just_like_you_wanted_Now_it_s_time_to_so_big|575e1c8dd7c3",
+    "original": "It worked! Just like you wanted. Now it’s time... to... so big... return... Wha- focus! It would feel so good between your fingers. Damnit!",
+    "translation": "",
+    "context": "<<POS:06375859>>"
+  },
+  {
+    "key": "output|Like_a_moth_to_a_flame_you_re_unable_to_help_yourself_Your_gaz|3c8a168f0d7d",
+    "original": "Like a moth to a flame, you’re unable to help yourself. Your gaze is fixed on your new dangling appendage. It calls to you; throbbing, dripping, swinging like a clock’s pendulum. You can’t stand this level of teasing.",
+    "translation": "",
+    "context": "<<POS:06376013>>"
+  },
+  {
+    "key": "output|Focus_No_You_can_t_The_alluring_dangling_siren_is_singing|c37c6f944651",
+    "original": "Focus! No... You can’t. The alluring, dangling siren is singing, and you can’t resist the temptation anymore. The eagerness in your face says it all. You’re already licking your lips with anticipation as your hands reach for the new addition to your body.",
+    "translation": "",
+    "context": "<<POS:06376245>>"
+  },
+  {
+    "key": "output|There_s_no_mercy_and_no_foreplay_Once_your_greedy_fingers_grab|d2c3cee88360",
+    "original": "There’s no mercy and no foreplay. Once your greedy fingers grab hold of your [pc.tailCock], frantic debauchery ensures: a desperate masturbatory session. With zealous dedication, both your hands worship your new appendage, polishing its entire length, massaging and stroking it from base to [pc.tailCockHead], making sure not a single square inch of cockflesh is left unexplored.",
+    "translation": "",
+    "context": "<<POS:06376515>>"
+  },
+  {
+    "key": "output|Wave_after_wave_of_glorious_pleasure_emanates_from_your_pc_tail|372953ffe92e",
+    "original": "Wave after wave of glorious pleasure emanates from your [pc.tailCock] like the mythical fountain of youth. The whole experience feels surreal. All your senses are unnaturally heightened right now, making the amount of pleasure drawn from the mere brush of flesh against flesh feel divine.",
+    "translation": "",
+    "context": "<<POS:06376909>>"
+  },
+  {
+    "key": "output|In_your_hypersensitive_state_mere_seconds_is_all_that_s_needed|1551402657f2",
+    "original": "In your hypersensitive state, mere seconds is all that’s needed. As vigorous as it was, your furious self-loving is short lived as well.",
+    "translation": "",
+    "context": "<<POS:06377212>>"
+  },
+  {
+    "key": "output|As_intense_as_it_s_delightful_your_climax_finally_hits_you_with|e9258c2a35e6",
+    "original": "As intense as it’s delightful, your climax finally hits you with the power of a supernova. Burning bright but quickly. A powerful burst of concentrated bliss and joy make their way from your [pc.tailCock] traveling up your spine and wreaking havoc on every single pleasure receptor of your body until it finally smashes into your brain like a sledgehammer, threatening to knock you out with its fierce peak.",
+    "translation": "",
+    "context": "<<POS:06377363>>"
+  },
+  {
+    "key": "output.expr|With_perfect_timing_your_pc_tailCock_var0_hasTails_s_e|41adf5b028cc",
+    "original": "With perfect timing, your [pc.tailCock]\"+({var0}.hasTails()?\"s erupt\":\" erupt\")+\" with the fury of a pent up volcano, spraying wildly in every direction, bathing you and your immediate vicinity with a thin layer of [pc.cum].",
+    "translation": "",
+    "context": "<<POS:06377785>> <<VARS:var0=pc>> output(\"\\n\\nWith perfect timing, your [pc.tailCock]\"+(pc.hasTails()?\"s erupt\":\" erupt\")+\" with the fury of a pent up volcano, spraying wildly in every direction, bathing you and your immediate vicinity with a thin layer of [pc.cum].\")"
+  },
+  {
+    "key": "output|Exhausted_and_sticky_you_take_a_breather_resting_for_a_few|ddf7dac27e84",
+    "original": "Exhausted and... sticky, you take a breather, resting for a few minutes before leaping back into action.",
+    "translation": "",
+    "context": "<<POS:06378020>>"
+  },
+  {
+    "key": "button|Next|aebd99fbf6fa",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:06378197>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
+  },
+  {
+    "key": "output|Now_is_not_the_time_to_use_that_You_stash_the_item_back_inside|c64ba2651d58",
+    "original": "Now is not the time to use that. You stash the item back inside its box and then inside your inventory.",
+    "translation": "",
+    "context": "<<POS:06378327>>"
+  },
+  {
+    "key": "button|Next|97af8131e79e",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:06378481>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+  }
+]

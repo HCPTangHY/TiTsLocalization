@@ -1,0 +1,86 @@
+[
+  {
+    "key": "output|You_sprawl_out_and_kick_on_the_fifth_episode_of_the_season_A_br|68456c57b399",
+    "original": "You sprawl out and kick on the fifth episode of the season. A brief commercial plays before the episode starts, telling you this program is brought to you by TamaniCorp, the galaxy’s leading manufacturer of personal pleasure products and fertility enhancements. An image of a bubbly pink woman in barely-modest skankware flashes you a thumbs up and jiggles her tits at the camera before it fades out, and the new title card of the program comes in: a large pair of fleshtone twin planets with the words <b>Steph Irson: Galactic Huntress</b> superimposed over them. Beneath the title script, a warning appears in large red letters: <i>“This Show Rated X, Adults Only, by the Galactic Entertainment Ratings Board for Graphic, Sexual, and Disturbing Imagery. You Have Been Warned.”</i>",
+    "translation": "",
+    "context": "<<POS:25188719>>"
+  },
+  {
+    "key": "output|A_woman_is_crouching_on_the_top_of_a_snowbank_when_the_camera_re|b90a001eb726",
+    "original": "A woman is crouching on the top of a snowbank when the camera refocuses, bundled up in a heavy fur-lined coat with the show’s logo on one huge, jutting boob and that of the Confederate Scout Authority on the other. Though the figure is so heavily clothed that you can’t see an inch of flesh, the outrageously curvaceous figure, swivelling cat-ears, and wriggling vine-like tail poking out the back of her pants leave little room for doubt that you’re looking at Steph Irson, the much-mutated host of the show.",
+    "translation": "",
+    "context": "<<POS:25190334>>"
+  },
+  {
+    "key": "name.show|Galactic_Huntress|e014afd653c0",
+    "original": "Galactic Huntress",
+    "translation": "",
+    "context": "<<POS:25209773>> showName(\"Galactic Huntress\")"
+  },
+  {
+    "key": "output|You_bring_up_the_GalacNet_On_Demand_page_and_log_in_You_re_quic|96c051a62fac",
+    "original": "You bring up the GalacNet On Demand page and log in. You’re quickly bombarded with holographic advertisements, trying to entice you into a dozen different crime dramas, sci-fi adventures, and fantasy classics. You tab through them, over to a tab displaying in bold letters <b>STEPH IRSON: GALACTIC HUNTRESS</b>, superimposed over a picture of the titular hostess giving the peace sign in front of a pair of soft, tan moons that look kind of like a butt when you stare at them. You’re sure that’s not intentional, right?",
+    "translation": "",
+    "context": "<<POS:25209817>>"
+  },
+  {
+    "key": "output.expr|You_have_var0_episode_1_e_s_of_Steph_Irson_s_s|8e1a23a76e64",
+    "original": "You have \"+{var0}+\" episode\"+(1===e?\"\":\"s\")+\" of Steph Irson’s show in your library.",
+    "translation": "",
+    "context": "<<POS:25210361>> <<VARS:var0=e>> output(\"\\n\\nYou have \"+e+\" episode\"+(1===e?\"\":\"s\")+\" of Steph Irson’s show in your library.\")"
+  },
+  {
+    "key": "output.expr|There_1_t_is_are_var0_available_for_purchase|3f2b858897b9",
+    "original": " There \"+(1===t?\"is\":\"are\")+\" \"+{var0}+\" available for purchase.",
+    "translation": "",
+    "context": "<<POS:25210562>> <<VARS:var0=t>> output(\" There \"+(1===t?\"is\":\"are\")+\" \"+t+\" available for purchase.\")"
+  },
+  {
+    "key": "output|A_handy_message_icon_tells_you_that_your_collection_is_all_caug|98d01a1288c0",
+    "original": " A handy message icon tells you that your collection is all caught up with Steph’s adventures. Check back later for new episodes to release!",
+    "translation": "",
+    "context": "<<POS:25210632>>"
+  },
+  {
+    "key": "button|Buy_Ep|320cdc428397",
+    "original": "Buy Ep. ",
+    "translation": "",
+    "context": "<<POS:25211115>> addDisabledButton(e,\"Buy Ep. \"+(e+1),LX[e].th,LX[e].tb+\"\\n\\nUnfortunately you can’t afford the episode.\\nCost: \"+LX[e].cost)"
+  },
+  {
+    "key": "button.hover.expr|var0_n_nUnfortunately_you_can_t_afford_the_episode_nCost|0865348effaf",
+    "original": "{var0}+\"\\n\\nUnfortunately you can’t afford the episode.\\nCost: \"+{var1}",
+    "translation": "",
+    "context": "<<POS:25211140>> <<VARS:var0=LX[e].tb,var1=LX[e].cost>> addDisabledButton(e,\"Buy Ep. \"+(e+1),LX[e].th,LX[e].tb+\"\\n\\nUnfortunately you can’t afford the episode.\\nCost: \"+LX[e].cost)"
+  },
+  {
+    "key": "button|Unaired_Ep|e822877d160d",
+    "original": "Unaired Ep. ",
+    "translation": "",
+    "context": "<<POS:25211240>> addDisabledButton(e,\"Unaired Ep. \"+(e+1),\"Galactic Huntress - Episode \"+(e+1),\"<i>This episode has yet to be aired.</i>\")"
+  },
+  {
+    "key": "button.hover|i_This_episode_has_yet_to_be_aired_i|ebab80424e9a",
+    "original": "<i>This episode has yet to be aired.</i>",
+    "translation": "",
+    "context": "<<POS:25211298>> addDisabledButton(e,\"Unaired Ep. \"+(e+1),\"Galactic Huntress - Episode \"+(e+1),\"<i>This episode has yet to be aired.</i>\")"
+  },
+  {
+    "key": "name.show|Galactic_Huntress|b5581dad3e79",
+    "original": "Galactic Huntress",
+    "translation": "",
+    "context": "<<POS:25211442>> showName(\"Galactic Huntress\")"
+  },
+  {
+    "key": "output|You_add_the_episode_in_question_to_your_cart_and_check_out_with|1ea17745ff17",
+    "original": "You add the episode in question to your cart and check out with a click, wiring over the handful of credits and letting your console pull the episode from the extranet onto your local storage. You can now view it at your leisure!",
+    "translation": "",
+    "context": "<<POS:25211486>>"
+  },
+  {
+    "key": "button|Watch|287ee36d1d5b",
+    "original": "Watch",
+    "translation": "",
+    "context": "<<POS:25211878>> addButton(0,\"Watch\",(function(){return o.f(o.ar)}),o.th,o.tb)"
+  }
+]

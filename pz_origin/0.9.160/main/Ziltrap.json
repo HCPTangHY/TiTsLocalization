@@ -1,0 +1,86 @@
+[
+  {
+    "key": "assign|dark_green|2101c05802e6",
+    "original": "dark green",
+    "translation": "",
+    "context": "<<POS:00377268>>"
+  },
+  {
+    "key": "assign|venus_ziltrap|44516a0b90ba",
+    "original": "venus ziltrap",
+    "translation": "",
+    "context": "<<POS:01969776>>"
+  },
+  {
+    "key": "assign|the|0017c744b777",
+    "original": "the ",
+    "translation": " ",
+    "context": "<<POS:01969796>>"
+  },
+  {
+    "key": "assign|The_plant_girl_twirls_around_the_attack_with_ballerina_like_grac|49334b2fdd8a",
+    "original": "The plant-girl twirls around the attack with ballerina-like grace.",
+    "translation": "",
+    "context": "<<POS:01969845>>"
+  },
+  {
+    "key": "assign|cellulose_reinforced_skin|34dd86ca4086",
+    "original": "cellulose-reinforced skin",
+    "translation": "",
+    "context": "<<POS:01970512>>"
+  },
+  {
+    "key": "assign|pale_green|cd6ed89bad5e",
+    "original": "pale green",
+    "translation": "",
+    "context": "<<POS:01971104>>"
+  },
+  {
+    "key": "desc.long|The_right_plant_woman_is_fuller_bodied_than_her_sister_with_jig|e85a1465088d",
+    "original": "The right plant-woman is fuller bodied than her sister, with jiggling, head-sized breasts and a waistline that advertises her status as a prime breeder, even if it’s more erotic illusion than truth. The crimson pools of her eyes stay half-closed, seemingly permanently cast into a sultry, blood-quickening smolder, and she licks her lips as stares meaningfully at Penny.",
+    "translation": "",
+    "context": "<<POS:01972521>>"
+  },
+  {
+    "key": "perk|Penny_Targeting|eb1e9103b3c2",
+    "original": "Penny Targeting",
+    "translation": "",
+    "context": "<<POS:01972910>> createPerk(\"Penny Targeting\")"
+  },
+  {
+    "key": "perk|Penny_Targeting|6d6cd2489097",
+    "original": "Penny Targeting",
+    "translation": "",
+    "context": "<<POS:01973026>> createPerk(\"Penny Targeting\")"
+  },
+  {
+    "key": "desc.long|The_leftmost_venus_ziltrap_is_the_younger_looking_of_the_two_wi|fa864c961233",
+    "original": "The leftmost venus ziltrap is the younger-looking of the two, with pert, B-cup breasts and a lithe figure that hints at plenty of exercise - something an immobile alien like her could never actually perform. Her airy smile is married to wide, bright-red eyes that follow you around with rapt attention.",
+    "translation": "",
+    "context": "<<POS:01973057>>"
+  },
+  {
+    "key": "combat.expr|b_But_with_the_pod_occupied_she_won_t_be_able_to_stop_you_fro|e38e37793aa4",
+    "original": " <b>But with the pod occupied, she won’t be able to stop you from effecting a rescue!</b>\"+({var0}()?\" She just made one of the classic blunders: never go all-in against a Steele when vixens are on the line!\":\"\")",
+    "translation": "",
+    "context": "<<POS:01975491>> <<VARS:var0=isSillyModeEnabled>> combatAppend(\" <b>But with the pod occupied, she won’t be able to stop you from effecting a rescue!</b>\"+(isSillyModeEnabled()?\" She just made one of the classic blunders: never go all-in against a Steele when vixens are on the line!\":\"\"))"
+  },
+  {
+    "key": "combat|Maybe_b_maybe_you_can_still_save_her_if_you_re_fast_enoug|1346f3b2986a",
+    "original": " Maybe... <b>maybe you can still save her - if you’re fast enough!</b>",
+    "translation": "",
+    "context": "<<POS:01975731>>"
+  },
+  {
+    "key": "combat.expr|b_Packing_airtight_armor_was_a_smart_idea_b_var1_lust_v|5d9ef85c56d0",
+    "original": " <b>Packing airtight armor was a smart idea</b>\"+({var1}.lust({var0})?\", but Penny isn’t be so lucky. She sneezes a dozen times in a row until she’s unsteadily groping her own chest with a faraway look\":\"\")+\".",
+    "translation": "",
+    "context": "<<POS:01981847>> <<VARS:var0=)<penny.lustMax(,var1=penny>> combatAppend(\" <b>Packing airtight armor was a smart idea</b>\"+(penny.lust()<penny.lustMax()?\", but Penny isn’t be so lucky. She sneezes a dozen times in a row until she’s unsteadily groping her own chest with a faraway look\":\"\")+\".\")"
+  },
+  {
+    "key": "combat.expr|It_s_impossible_not_to_breathe_any_of_it_in_Even_if_it_tickles|ac6a7e4edf96",
+    "original": " It’s impossible not to breathe any of it in. Even if it tickles your nose and makes you sneeze, your head dizzy and your loins warm, you can’t avoid it.\"+({var1}.lust({var0})?\" Penny fares no better, sneezing a dozen times in a row until she’s unsteadily groping her own chest with a faraway look.\":\"\")+\" <b>Hitting these things isn’t going to work!</b>",
+    "translation": "",
+    "context": "<<POS:01982082>> <<VARS:var0=)<penny.lustMax(,var1=penny>> combatAppend(\" It’s impossible not to breathe any of it in. Even if it tickles your nose and makes you sneeze, your head dizzy and your loins warm, you can’t avoid it.\"+(penny.lust()<penny.lustMax()?\" Penny fares no better, sneezing a dozen times in a row until she’s unsteadily groping her own chest with a faraway look.\":\"\")+\" <b>Hitting these things isn’t going to work!</b>\")"
+  }
+]

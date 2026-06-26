@@ -1,0 +1,134 @@
+[
+  {
+    "key": "assign|Snake_Shake_with_Bobas|ec9082ab9940",
+    "original": "Snake Shake with Bobas",
+    "translation": "",
+    "context": "<<POS:09593627>>"
+  },
+  {
+    "key": "assign|a_tasty_looking_snake_shake_with_bobas|35a41dc687ea",
+    "original": "a tasty-looking snake shake with bobas",
+    "translation": "",
+    "context": "<<POS:09593723>>"
+  },
+  {
+    "key": "assign|The_newest_fad_among_ophidian_girls_on_the_extranet_It_s_not_un|2f7336f97808",
+    "original": "The newest fad among ophidian girls on the extranet. It’s not uncommon to see one of these Snake Shakes in the hands of a <b>Slyveren</b> roaming station shopping decks, or in the background of porn shoots that feature their legendary oral and personal ‘bobas’. It’s got everything a slithering predator needs to get through the day, along with a taste of home. This one is full of delicious bobas for pleasant little pops of extra protein.",
+    "translation": "",
+    "context": "<<POS:09593774>>"
+  },
+  {
+    "key": "name.show|Snake_Boba|268f4ed0bb08",
+    "original": "Snake Boba",
+    "translation": "",
+    "context": "<<POS:09594509>> showName(\"Snake Boba\")"
+  },
+  {
+    "key": "button|Next|f88f6b731c4b",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:09594613>> addButton(0,\"Next\",(function(){clearOutput(),clearMenu(),t.doTFs(e),processTime(3),addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))}),\"\",\"\")"
+  },
+  {
+    "key": "output.expr|var0_var1_drinks_the_snake_boba_to_no_effect|cae4332cd92e",
+    "original": "{var0}+{var1}+\" drinks the snake boba to no effect.",
+    "translation": "",
+    "context": "<<POS:09594768>> <<VARS:var0=e.capitalA,var1=e.short>> output(e.capitalA+e.short+\" drinks the snake boba to no effect.\")"
+  },
+  {
+    "key": "textify|flags_SNAKE_SHAKE_USED_Feels_like_too_long_since_you_had_your_l|8791b13e999d",
+    "original": "[flags.SNAKE_SHAKE_USED|Feels like too long since you had your last Snake Shake. Giving it a jiggle, you hear all the tasty bobas bouncing around inside this one. Without further delay, you pry the straw off the side and poke it in deep to take your first sip. Just as sour as you remember it, but oh so good down to the last drop.|From what you can see, this doesn’t seem to be anything more than your typical juice smoothie.[var0| Strange, considering all the hype you’ve heard about it on the extranet.] Cracking the included straw off the side of the transparent cup, you poke it through the protective plastic barrier, eager to find out what all the fuss is about this drink - making a mental note to toss all this into the nearest recycling bin when you’re finished.\\n\\t\\t\\n\\t\\tTaking your first sip, you’re immediately hit with an intense sour flavor that has your [pc.lips] pucker into a virgin-tight seal you fear might break your straw. Despite the first impression, it’s pretty good and before long, you find yourself enjoying it. Especially when you pull up one of those little bobas and are met with a wave of salty sweetness that makes your [pc.tongue] begin to flood your mouth with drool. Before long it’s all gone, leaving your mouth feeling a bit numb and craving just a little bit more.]",
+    "translation": "",
+    "context": "<<POS:09594897>>"
+  },
+  {
+    "key": "output|There_was_no_effect|bfa10f16984e",
+    "original": "There was no effect!",
+    "translation": "",
+    "context": "<<POS:09597892>>"
+  },
+  {
+    "key": "textify|A_sudden_headache_overwhelms_you_Brain_freeze_There_s_a_poundi|aff9dcb5f9b7",
+    "original": "A sudden headache overwhelms you. Brain freeze? There’s a pounding just behind your [pc.eyes] that makes the world seem just a tad too bright and forces you to close them to shut it all out. When the feeling passes, you blink rapidly and find everything seems sharper. Pulling out your codex, you catch your reflection’s slit pupils looking back at you. <b>You now have [var0] snake eyes.</b>",
+    "translation": "",
+    "context": "<<POS:09598069>>"
+  },
+  {
+    "key": "output|Your_pc_ears_begin_to_itch_and_burn_and_you_reach_up_to_rub_t|d417f5a87db4",
+    "original": "Your [pc.ears] begin to itch and burn, and you reach up to rub them. You’re surprised to find, however, that your ears are sunk into the sides of your head, leaving shallow divots for your hearing holes. <b>You now have lizard ears!</b>",
+    "translation": "",
+    "context": "<<POS:09598998>>"
+  },
+  {
+    "key": "output|A_sharp_whine_leaves_you_flinching_reaching_a_pc_hand_up_to_s|f658c3f41b91",
+    "original": "A sharp whine leaves you flinching, reaching a [pc.hand] up to shield yourself from the sound. Vertigo quickly settles in leaving you feeling like the room is spinning around you and you can’t quite find your bearings. You find the cause soon enough as your head begins to feel warm, just above your [pc.ears]. Edges start to push out, top to bottom, stretching until they go all the way from the nape of your neck to just above your temple, near your brow line. They thicken before flaring out into the peripheral of your vision. <b>Your head now has a scaled hood in place of hair</b>, similar to a terran cobra’s - or a slyveren’s.",
+    "translation": "",
+    "context": "<<POS:09599343>>"
+  },
+  {
+    "key": "textify|You_feel_an_itching_sensation_on_your_scalp_compelling_you_to_r|30ab6ba68b3f",
+    "original": "You feel an itching sensation on your scalp, compelling you to reach up and offer your head a scratch. To your horror, you come away with a handful of your [pc.hair] hanging off your fingertips. Clumps of your [pc.hair] slough off you and fall to the ground below until you’re left pawing at nothing but smoothness. <b>You are now bald.</b>",
+    "translation": "",
+    "context": "<<POS:09600106>>"
+  },
+  {
+    "key": "textify|The_aftertaste_of_your_shake_lingers_in_your_mouth_leaving_you|84fa9da09ef7",
+    "original": "The aftertaste of your shake lingers in your mouth, leaving you rolling your [pc.tongue], wriggling it into the nooks and crannies to check for any of the substance left behind. The task becomes easier by the moment. There’s an ache in your jaw[pc.hasBeak|, followed by an unexpected snap as your beak cracks like an egg and begins to crumble around your reshaping face.| as your face starts reshaping itself, [pc.hasMuzzle|a dull pressure making your [pc.face] uncomfortable.|pushing itself forward with a dull pressure.]]\\n\\n\\t\\t[pc.hasMuzzle\\n\\t\\t\\t|You look on as your nostrils are repositioned on\\n\\t\\t\\t|Your nose seems to widen as your nostrils flee to either side of\\n\\t\\t] your elongating face, accommodating the complete restructuring going on just above your palette[pc.hasBeak\\n\\t\\t\\t| at the apex curve of your developing top jaw.\\n\\t\\t\\t|. At this point, your teeth have vanished into your gums, save your canines which are burying roots into the roof of your mouth, where they’ll soon be taking roost.\\n\\t\\t] A yawn has your jaw practically unhinge as it stretches with newfound elasticity.\\n\\n\\t\\t<b>You now have [silly|a snek snoot, perfect for booping,|an ophidian muzzle] complete with retractable, two-inch snake fangs!</b> Extended as they are, you can taste the beads of your venom as they grow heavy and fall onto your waiting [pc.tongue]. They’re sour – wait – have these shakes been...?",
+    "translation": "",
+    "context": "<<POS:09600910>>"
+  },
+  {
+    "key": "textify|Smacking_your_pc_lipColor_lips_you_re_surprised_by_the_extra|38b357c58f8e",
+    "original": "Smacking your [pc.lipColor] lips, you’re surprised by the extra bounce of your lower cock-pillow. A touch confirms it, as your [pc.finger] compresses and glides across their plush surface. Sliding your digit in, your bottom lip softly hugs it, your fangs dribbling a bit of extra lubricant to make everything smooth as silk. No wonder Slyveren love sucking cock so much, you gasp as you lay awash in the feeling of your fattening lip squeezing tighter on your knuckle. <b>Your lips have grown bigger! They’re absolutely plump!</b>",
+    "translation": "",
+    "context": "<<POS:09603943>>"
+  },
+  {
+    "key": "textify|Maybe_it_s_just_how_sour_that_shake_was_but_your_pc_tongue_is|c27e42f70a7a",
+    "original": "Maybe it’s just how sour that shake was, but your [pc.tongue] is feeling numb. Maybe it was a bad batch? Smacking your [pc.lips] as you wonder is a shock to your senses. You weren’t expecting a sudden flood of sensory impulses as air rushes in to bombard your [pc.isBimbo|olfa... ol... smelly brain part|olfactory center] with everything in the room; some of it good, some not so good.\\n\\t\\t\\n\\t\\tSticking out your tongue, the sense gets stronger just as you watch as the tip split down the middle. Each tip flexes and wiggles as you get used to your new organ. <b>You now have a [silly|premium snek sniffer!|forked serpent tongue!] With its strong sense of smell, you may need to be mindful of pheromones.</b>",
+    "translation": "",
+    "context": "<<POS:09605125>>"
+  },
+  {
+    "key": "textify|A_tingle_in_your_mouth_quickly_becomes_a_full_bodied_shudder_dow|4da441a6dba7",
+    "original": "A tingle in your mouth quickly becomes a full bodied shudder down your spine. Across your [pc.skin], you feel pinpricks that draw your attention.[var1| Your down begins to shed, leaving your frame - once covered in fluffy warmth - bare to the air.] Layers of [var0] start to push their way to the surface, hardening into glistening patches of shield-shaped scales that spread by the moment. <b>Your skin is now [var0] snake scales, covering you from head to toe!</b>",
+    "translation": "",
+    "context": "<<POS:09606844>>"
+  },
+  {
+    "key": "textify|Your_scales_feel_absolutely_wonderful_after_that_last_drink_ins|7337db51727a",
+    "original": "Your scales feel absolutely wonderful after that last drink, inspiring you to run a [pc.finger] along the edge of your [pc.scaleColor] hood. You wonder, for a moment, if you could be more of a treat for the eyes. Maybe a new piercing?\\n\\t\\t\\nAs you ponder, your [pc.hand] finds its way into your view, and you catch something new. Breaking up your glistening coat of [pc.scaleColor] is the beginning of a pattern. You slip out of your [pc.upperGarment] for a better look, watching as [var0] [var1] draw their way across your body with each heartbeat. <b>You now have glowing [var0] [var1]!</b>",
+    "translation": "",
+    "context": "<<POS:09608328>>"
+  },
+  {
+    "key": "textify|You_re_vividly_aware_of_a_shock_going_down_your_neck_to_the_pc|c423e6b4952b",
+    "original": "You’re vividly aware of a shock going down your neck to the [pc.hasTail|tip of your [pc.oneTail]|base of your tailbone] that leaves you momentarily stunned. When it doesn’t immediately subside, you turn over your shoulder for a better look. [pc.hasTail|The base of your [pc.tail] is thickening, weight and muscle piling on and dragging it further towards the ground.|The point just above your [pc.ass] is pushing out, extending and growing thicker by the moment as it expands towards the ground.]\\n\\t\\t\\n[pc.ScaleColor] scales push up and layer down its length, giving your new posterior limb a beautiful shine that catches each little ray of light. <b>You now have [silly|a danger noodle’s tail|a thick, snake’s tail] like that of a slyveren!</b>",
+    "translation": "",
+    "context": "<<POS:09609783>>"
+  },
+  {
+    "key": "textify|pc_isGoo_An_excited_shudder_runs_up_your_pc_legs_an_odd_sens|86ca1744c5b5",
+    "original": "[pc.isGoo|An excited shudder runs up your [pc.legs]; an odd sensation that draws your focus down to where your lower half seems to be having a reaction. Your typically shapeless limbs are firming up, accruing a bit of density as they begin to redefine themselves.\\n\\t\\t\\nIt takes a few experimental steps to get used to, as your microsurgeons work with your recent dietary choice to form a pair of scaly legs. <b>You now have a pair of [pc.scaleColor] slyveren legs!</b>|[pc.isTaur|Your hind legs are suddenly stricken with an odd numbness, all but forcing you to take a moment for yourself and sit down. Your [pc.hand] has already gravitated back to your flank, rubbing one of your [pc.buttcheeks] as you consider the cause. You’re not left wondering long, as the sensation starts spreading throughout your [pc.legs] as they lay folded under you.\\n\\nYour hindquarters are sliding forwards, accompanied by a cacophony of pinpricks as your microsurgeons get to work repurposing the parts of you that made up your elongated lower half. Limbs you were quite used to shrink away, and your [pc.genitals] migrate their way up to rest beneath your navel. You roll your hips, trying to stay comfortable on your remaining two legs as their bones shift to a more common and galactically friendly shape. <b>You now have just two, [pc.scaleColor]-scaled slyveren legs!</b>|[pc.isBiped|Cupping your cheek you revel in the memory of the last boba popping in your mouth and releasing its tasty contents - such a treat! The thought of another leaves you wiggling your toes in delightful anticipation, and bringing attention to the tingling sensation now running up your [pc.legs].\\n\\nYou glance down[pc.isNude||, shifting your [pc.lowerGarmentOuter] to get a better look]. [var0|Your heel begins to lower to the ground, causing you to stumble a half-step to keep your shifting balance.] Starting from your hips, fresh scales are growing to cover your old [pc.skin]. Giving them an experimental touch they’re far more supple and giving than you would have anticipated from something with such a sheen. <b>You now have [pc.scaleColor] slyveren legs!</b>|[pc.isNaga|There’s an unusual pressure in your [pc.hips], pulling your attention down to your groin. Curious, you watch your [pc.genitals] sliding up your serpentine underbelly, rearranging your innards to work with creatures of a different persuasion. As they settle into the core of your pelvis, you catch two nubs pushing out from either side of your reproductive glory.\\n\\nYou arch your back, thrusting yourself in tandem with these odd nubs. In an explosion of growth they stretch out from you, building bone and muscle that knits together and ends with complex knots that you’re already flexing and testing as they form. As your [pc.scaleColor] scales work their way down these new appendages, you recognize them as feet. <b>You now have a pair of scaled slyveren legs!</b> Already they’re pulling you forward to a new sense of balance, having consumed much of the bulk of your old, slithering bottom. As they touch down, you take a moment to inspect the results. <b>Your naga tail has shrunk into a slyveren tail,</b> a bulky counter-weight to let you stay upright; even with your [pc.breasts]]]]]",
+    "translation": "",
+    "context": "<<POS:09611419>>"
+  },
+  {
+    "key": "textify|There_s_a_tingle_in_your_pc_nipples_as_they_re_puckering_no|ca6ae78013ef",
+    "original": "There’s a tingle in your [pc.nipples], as they’re puckering - not unlike how your mouth was seconds ago. It’s an uncomfortable feeling that leaves you wriggling and rolling your shoulders to try and alleviate yourself of the sensation. When that fails, your [pc.hands] get involved.\\n\\nAn absentminded scratch finds your fingertips digging into soft flesh, [pc.hasBreasts|more than you’re used to.|that’s not normal.] Pulling away your [pc.upperGarmentOuter] you’re treated to a front row seat of watching your chest expand. Immediately you take hold, feeling your [pc.skin] catch as it pushes into the gaps between your fingers and fills out your shaking palms. <b>[pc.hasBreasts|[silly|[pc.ra slyveren|Your sniddies have grown,|Your boobs have grown,]|Your boobs have grown,] adding on a couple cups worth of extra squish to play with!|[silly|Th- they’re boobs! ]You’ve grown a pair of breasts!]</b>",
+    "translation": "",
+    "context": "<<POS:09618270>>"
+  },
+  {
+    "key": "textify|Your_pc_cocks_decide_pc_hasCocks_2_s_to_become_the_center_of|ac304a2c9fcb",
+    "original": "Your [pc.cocks] decide[pc.hasCocks 2||s] to become the center of attention, sending a shiver up your body that has you bracing yourself against the nearest wall for support. The feeling, whatever it is, is intense. You’re sweating, breath coming out in hot, shallow pants as you try and bear through it.\\n\\n\\t\\t[pc.hasBalls 0|Your [pc.balls] tighten, tucking up like you’re caught out in the cold. They’re not content to stop there, though. They start pulling themselves from your sack, back up into your abdomen and leaving you feeling bloated. Pressing a hand to it, you can feel your microsurgeons hard at work reconfiguring them for what will be your new anatomy.]\\n\\t\\t\\n\\t\\t[pc.hasCock|Your [pc.cocks] [pc.hasCocks 2|rise|rises] to hardness, leaking your [pc.cumColor] seed as [pc.hasCocks 2|they pump|it pumps] fuller and... smaller? Indeed, each heartbeat inflates your [pc.hasCocks 2|rods|rod] and then pulls [pc.hasCocks 2|them|it] back with a pathetic dribble of your cum. Soon even that stops, as pathways seal and you’re left with nothing more than a stiff little clit!]\\n\\t\\t\\n\\t\\t[pc.hasVagina||A seam starts on your crotch, barely more than a divot before it begins to lengthen to an inch, then two. The small, dark line thickens as it grows deeper and eventually opens into a sticky, drooling channel. New nerves are forming, waking up and making you acutely aware of the heat coming off this new hole. An experimental finger probes your new depth, and it forces a tremble in your knees from the sensitivity of what you know is a new vagina.]\\n\\t\\t\\n\\t\\tThe whole of your core is working overtime, leaving you with simultaneous feelings of nausea and a soreness akin to having worked out for too long. [pc.hasVagina|[pc.OneVagina] seems the cause, morphing into something new entirely. ]Your slit finishes taking shape, an undoubtedly feminine pussy between your legs. Beneath the surface though, <b>you’ve grown a slyveren cunt!</b> You’ll have to be careful who you let put eggs in you.",
+    "translation": "",
+    "context": "<<POS:09620304>>"
+  },
+  {
+    "key": "textify|Your_pc_vaginas_decide_pc_hasVaginas_2_s_to_become_the_cente|09decb75c365",
+    "original": "Your [pc.vaginas] decide[pc.hasVaginas 2||s] to become the center of attention, sending a shiver up your body that has you bracing yourself against the nearest wall for support. The feeling, whatever it is, is intense. You’re sweating, breath coming out in hot, shallow pants as you try and bear through it.\\n\\t\\t\\n\\t\\tThe whole of your core is working overtime, leaving you with simultaneous feelings of nausea and a soreness akin to having worked out for too long. [pc.hasVagina|[pc.OneVagina] seems the cause, morphing into something new entirely. ]Your slit finishes taking shape, an undoubtedly feminine pussy between your legs. Beneath the surface though, <b>you’ve grown a slyveren cunt!</b> You’ll have to be careful who you let put eggs in you.",
+    "translation": "",
+    "context": "<<POS:09622849>>"
+  }
+]

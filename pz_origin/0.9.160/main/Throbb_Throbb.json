@@ -1,0 +1,386 @@
+[
+  {
+    "key": "assign|a_vial_of_Throbb|ffa533a4fb4d",
+    "original": "a vial of Throbb",
+    "translation": "",
+    "context": "<<POS:06848840>>"
+  },
+  {
+    "key": "assign|This_vial_of_transparent_cyan_fluid_seems_so_innocuous_consideri|7f7a0f73cedf",
+    "original": "This vial of transparent cyan fluid seems so innocuous considering its supposed deleterious effects: overwhelming libido increase, massive male genital growth, and a titanic boost to production of semen (along with requisite swelling of semen-producing organs). In order to use it, females are to inject it just above the pubic mound. Males are supposed to inject directly into their preferred organ.\\n\\n<b>Known to cause moderate amounts of taint. Check your Codex for details.</b>",
+    "translation": "",
+    "context": "<<POS:06848869>>"
+  },
+  {
+    "key": "output|You_are_reminded_that_Throbb_is_an_illegal_and_potentially_dange|bd2a27716cb1",
+    "original": "You are reminded that Throbb is an illegal and potentially dangerous drug. Perhaps you should read up on it before injecting it into yourself.",
+    "translation": "",
+    "context": "<<POS:06849665>>"
+  },
+  {
+    "key": "button|Use|bcd1011a11b6",
+    "original": "Use",
+    "translation": "",
+    "context": "<<POS:06849831>> addDisabledButton(0,\"Use\")"
+  },
+  {
+    "key": "button.tooltip|View_the_Codex_entry_for_Throbb|f51338235e1e",
+    "original": "View the Codex entry for Throbb.",
+    "translation": "",
+    "context": "<<POS:06850195>> addButton(4,\"Codex\",(function(){showCodex(),(0,p.Vn)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View..."
+  },
+  {
+    "key": "output|You_have_more_than_one_penis_Which_one_will_you_inject_with_Thr|c393007b62ad",
+    "original": "You have more than one penis. Which one will you inject with Throbb?",
+    "translation": "",
+    "context": "<<POS:06850261>>"
+  },
+  {
+    "key": "output.expr|b_var2_capitalize_var1_numToOrdinal_var0_1_Cock_b|483a268c9c2c",
+    "original": "<b>\"+{var2}.capitalize({var1}.numToOrdinal({var0}+1))+\" Cock:</b>",
+    "translation": "",
+    "context": "<<POS:06850385>> <<VARS:var0=a,var1=h.m,var2=h.m>> output(\"\\n<b>\"+h.m.capitalize(h.m.numToOrdinal(a+1))+\" Cock:</b>\")"
+  },
+  {
+    "key": "output.expr|var0_var1_injects_the_Throbb_to_no_effect|e13d42db25b4",
+    "original": "{var0}+{var1}+\" injects the Throbb to no effect.",
+    "translation": "",
+    "context": "<<POS:06851116>> <<VARS:var0=e.capitalA,var1=e.short>> output(e.capitalA+e.short+\" injects the Throbb to no effect.\")"
+  },
+  {
+    "key": "output|You_put_the_vial_back_into_your_inventory|493f9143ea35",
+    "original": "You put the vial back into your inventory.",
+    "translation": "",
+    "context": "<<POS:06851235>>"
+  },
+  {
+    "key": "button|Next|41862f28fb8a",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:06851326>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+  },
+  {
+    "key": "output|Well_here_goes_nothing_You_twist_the_little_plastic_cap_off_on|1588b1092f3e",
+    "original": "Well, here goes nothing. You twist the little plastic cap off one end of the vial to reveal the needle. It gleams menacingly in the light as you consider it. There’s no backing out now. You reverse your grip, align the needle with your ",
+    "translation": "",
+    "context": "<<POS:06851729>>"
+  },
+  {
+    "key": "output.expr|pc_cock_var0|b08b6a49d6c8",
+    "original": "[pc.cock \"+{var0}+\"]",
+    "translation": "",
+    "context": "<<POS:06851989>> <<VARS:var0=e>> output(\"[pc.cock \"+e+\"]\")"
+  },
+  {
+    "key": "output|groin|e256f4814c9a",
+    "original": "groin",
+    "translation": "下体",
+    "context": "<<POS:06852015>>"
+  },
+  {
+    "key": "output|and_jam_it_in_n_nIt_doesn_t_do_anything_at_all_Not_at_first_a|701dcd9a3375",
+    "original": " and jam it in.\\n\\nIt doesn’t do anything at all! Not at first anyway. You discard the spent needle and look around, wondering if you got a dud when the effects finally hit.",
+    "translation": "",
+    "context": "<<POS:06852031>>"
+  },
+  {
+    "key": "output|Already_feeling_a_familiar_anxious_lust_you_uncap_the_throbb_a|6ca43e177fbb",
+    "original": "Already feeling a familiar, anxious lust, you uncap the throbb and look down at your crotch. There’s barely any hesitation when you plunge it in and depress the plunger, flooding your system with the libido-spiking mutagen. You don’t feel anything at first, but then again, you didn’t the first time either. You smile and rub yourself, calmly awaiting the effects.",
+    "translation": "",
+    "context": "<<POS:06852216>>"
+  },
+  {
+    "key": "output|The_room_tilts_slightly_on_its_axis_and_you_move_your_head_to_c|7fc6caa1c769",
+    "original": "The room tilts slightly on its axis, and you move your head to compensate, aware that the Throbb must be doing this but bound by your body’s traitorous senses to experience it all the same. Your [pc.skin] flushes hotly a moment later, fed by the rapid-fire hammering of your accelerating heartbeat. A slow moan slips out between your lips as your thoughts invariably slip into sexual musings, wondering how horny this is going to make you or if you’ll need to fuck six times a day just to function. That idea has more and more appeal; you briefly consider injecting yourself with more when your better sense asserts itself. This stuff has you panting with lust and has undoubtedly supercharged your libido!",
+    "translation": "",
+    "context": "<<POS:06852612>>"
+  },
+  {
+    "key": "output|A_slutty_whorish_sounding_moan_slips_out_of_your_pc_lips_befo|6c26c3ebccf1",
+    "original": "A slutty, whorish sounding moan slips out of your [pc.lips] before you can stop it. You didn’t even feel it coming, but you can tell why you made it now. Your whole body is burning up with lust, carried aloft on a wave of crimson, pulsating desire that pumps through your very veins, making your eyes cross and your tongue loll from you from your mouth. A simpering, needful whimper follows on the heels of the moan as you become completely, irrevocably aroused, too turned on to function in any sane manner. You’re certain it’s given your libido a bump, not that you mind. It’s just another excuse to fuck, after all.",
+    "translation": "",
+    "context": "<<POS:06853408>>"
+  },
+  {
+    "key": "output|Suddenly_you_realize_you_need_to_fuck_right_now_You_want_sex|ef67b8caa60d",
+    "original": "Suddenly, you realize you need to fuck - right now. You want sex like a starving man wants food: fast and in as great a quantity as possible. Lolling out of your mouth, your [pc.tongue] hangs limply as you begin to pant, dripping saliva over your [pc.chest]. Your [pc.skin] is hot and flushed, so sensitive to the touch that you can’t help but rub your hands along over yourself and quietly moan out your enjoyment. As soon as you can get your bearings straight, you’re going to bend someone over and give them a good, hard fucking.",
+    "translation": "",
+    "context": "<<POS:06854115>>"
+  },
+  {
+    "key": "output|Where_did_that_thought_come_from_You_don_t_even_have_a_dick_ye|b13cc2ca949d",
+    "original": " Where did that thought come from? You don’t even have a dick yet!",
+    "translation": "",
+    "context": "<<POS:06854672>>"
+  },
+  {
+    "key": "output|Maybe_two_or_three_fucks_actually_That_way_you_can_use_your_c|6a3357df7b02",
+    "original": " Maybe two or three fucks, actually. That way you can use your cum as lube and give a proper, thorough creampie.",
+    "translation": "",
+    "context": "<<POS:06854749>>"
+  },
+  {
+    "key": "output|There_s_no_banishing_the_strange_thoughts|9d3bc4b84d0e",
+    "original": " There’s no banishing the strange thoughts.",
+    "translation": "",
+    "context": "<<POS:06854886>>"
+  },
+  {
+    "key": "output|You_fall_flat_on_your_pc_butt_letting_lewd_little_moans_slip|47356315227b",
+    "original": "You fall flat on your [pc.butt], letting lewd little moans slip out of your mouth, and unashamedly fondling your ",
+    "translation": "",
+    "context": "<<POS:06854994>>"
+  },
+  {
+    "key": "output|pc_cocks|fd426c194927",
+    "original": "[pc.cocks]",
+    "translation": "",
+    "context": "<<POS:06855132>>"
+  },
+  {
+    "key": "output|and|ddba96e6ca8e",
+    "original": " and ",
+    "translation": "和",
+    "context": "<<POS:06855183>>"
+  },
+  {
+    "key": "output|pc_vaginas|f339801647ae",
+    "original": "[pc.vaginas]",
+    "translation": "",
+    "context": "<<POS:06855215>>"
+  },
+  {
+    "key": "output|groin|be5da81d8bc5",
+    "original": "groin",
+    "translation": "",
+    "context": "<<POS:06855268>>"
+  },
+  {
+    "key": "output|Every_single_inch_of_your_pc_skin_feels_tingly_and_sensitive|7cdb111384ad",
+    "original": ". Every single inch of your [pc.skin] feels tingly and sensitive, and you break out into a sweat regardless of the ambient temperature. You’re hot, inside and out, fiendishly aroused by the Throbb. You wonder just how much fucking hornier it can get you. It’s kind of hard to think straight with how turned on you are right now, but you have a hard time caring. It feels so good, and you’re going to get so big and sexy!",
+    "translation": "",
+    "context": "<<POS:06855284>>"
+  },
+  {
+    "key": "output.expr|Your_hand_strays_to_your_pc_cock_var0_without_conscious|a740c264affd",
+    "original": "Your hand strays to your [pc.cock \"+{var0}+\"] without conscious thought. On noticing it, you merely smile, admiring the shape of your swollen length, like your hand belongs there. Your arm begins to pump, dragging your hand up and down the length, pleasuring yourself before you have a chance to react, and you just slump back, jacking on your [pc.cock \"+{var1}+\"] as it feels better and better.",
+    "translation": "",
+    "context": "<<POS:06855889>> <<VARS:var0=e,var1=e>> output(\"\\n\\nYour hand strays to your [pc.cock \"+e+\"] without conscious thought. On noticing it, you merely smile, admiring the shape of your swollen length, like your hand belongs there. Your arm begins to pump, dragging your hand up and down the length, pleasuring yourself before you have a chance to react, and you just slump back, jacking on your [pc.cock \"+e+\"] as it feels better and better.\")"
+  },
+  {
+    "key": "output.expr|This_is_way_more_pleasurable_than_any_normal_masturbation_You_d|745681401737",
+    "original": "This is way more pleasurable than any normal masturbation! You don’t really recall being able to take such long strokes along your length or having it fill your hand so powerfully, throbbing just like the drug’s namesake. Looking down, you gasp. Your [pc.cock \"+{var0}+\"] is at least two inches longer and still growing! You tug it to help it on its way, moaning as it slops big ropes of pre onto your knuckles. <b>You’ve gained \"+{var2}.numToText({var1})+\" inches of length!</b>",
+    "translation": "",
+    "context": "<<POS:06856371>> <<VARS:var0=e,var1=n,var2=h.m>> output(\"\\n\\nThis is way more pleasurable than any normal masturbation! You don’t really recall being able to take such long strokes along your length or having it fill your hand so powerfully, throbbing just like the drug’s namesake. Looking down, you gasp. Your [pc.cock \"+e+\"] is at least two inches longer and still growing! You tug it to help it on its way, moaning as it slops big ropes of pre onto your knuckles. <b>You’ve gained \"+h.m.numToText(n)+\" inches of length!</b>\")"
+  },
+  {
+    "key": "output.expr|You_couldn_t_stop_yourself_from_grabbing_onto_your_pc_cock_v|59c96247de66",
+    "original": "You couldn’t stop yourself from grabbing onto your [pc.cock \"+{var0}+\"] if you wanted to. It’s burning with need, throbbing and bouncing against you as it weakly shoots out ropes of pre-cum as thick as your normal ejaculate. You tug it, feeling lengthening in your hand, thickening to match its expanded size, and groan. Your [pc.hips] lurch into the air as you start fistfucking yourself, dick lengthening all the while. ",
+    "translation": "",
+    "context": "<<POS:06856914>> <<VARS:var0=e>> output(\"\\n\\nYou couldn’t stop yourself from grabbing onto your [pc.cock \"+e+\"] if you wanted to. It’s burning with need, throbbing and bouncing against you as it weakly shoots out ropes of pre-cum as thick as your normal ejaculate. You tug it, feeling lengthening in your hand, thickening to match its expanded size, and groan. Your [pc.hips] lurch into the air as you start fistfucking yourself, dick lengthening all the while. \")"
+  },
+  {
+    "key": "output.expr|b_It_doesn_t_stop_until_you_ve_gained_var1_numToText_var0|e0e26bd1e5c3",
+    "original": "<b>It doesn’t stop until you’ve gained \"+{var1}.numToText({var0})+\" inches of length.</b>",
+    "translation": "",
+    "context": "<<POS:06857424>> <<VARS:var0=n,var1=h.m>> output(\"<b>It doesn’t stop until you’ve gained \"+h.m.numToText(n)+\" inches of length.</b>\")"
+  },
+  {
+    "key": "output.expr|Despite_its_immensity_your_pc_cock_var0_has_become_pain|5c8e896602f7",
+    "original": "Despite its immensity, your [pc.cock \"+{var0}+\"] has become painfully hard. You idly wonder how you have enough blood to make a dong this size this rigid before another wave of excitement washes that away. Pre-cum is practically pissing out of your slit as you start pumping your expanding length, rolling down the [pc.cockHead \"+{var1}+\"] in waves of cream that are sure to be outshone by your inevitable, massive orgasm. You’re throbbing so hard, thickening with each beat of your heart. It feels so good that you can’t fathom why you haven’t cum yet. It’s like you’re drowning in an ocean of burning, oozing lust, and the only thing exposed is the steadily growing tip of your length. <b>Your [pc.cock \"+{var2}+\"] has gotten even bigger!</b>",
+    "translation": "",
+    "context": "<<POS:06857554>> <<VARS:var0=e,var1=e,var2=e>> output(\"\\n\\nDespite its immensity, your [pc.cock \"+e+\"] has become painfully hard. You idly wonder how you have enough blood to make a dong this size this rigid before another wave of excitement washes that away. Pre-cum is practically pissing out of your slit as you start pumping your expanding length, rolling down the [pc.cockHead \"+e+\"] in waves of cream that are sure to be outshone by your inevitable, massive orgasm. You’re throbbing so hard, thickening with each beat of your heart. It feels so good that you can’t fathom why you haven’t cum yet. It’s like you’re drowning in an ocean of burning, oozing lust, and the only thing exposed is the steadily growing tip of your length. <b>Your [pc.cock \"+e+\"] has gotten even bigger!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_cockLengthLockedMessage|419cbc17855c",
+    "original": "{var0}.cockLengthLockedMessage()",
+    "translation": "",
+    "context": "<<POS:06858380>> <<VARS:var0=pc>> output(pc.cockLengthLockedMessage())"
+  },
+  {
+    "key": "output|Just_when_you_re_getting_into_the_chemical_arousal_that_s_coursi|72ebec4e977b",
+    "original": "Just when you’re getting into the chemical arousal that’s coursing through you, your gut twists, and nausea threatens to overwhelm you. Something is squeezing down on you painfully hard! You check, but there’s nothing there aside from your hand massaging your embiggened phallus. Closing your eyes, you try to identify the source of your discomfort. The tightness shifts lower, sliding down and granting you relief at last. You open your eyes to see something entirely unexpected - a small scrotum with two lumps inside. <b>You have grown testicles!</b>",
+    "translation": "",
+    "context": "<<POS:06858504>>"
+  },
+  {
+    "key": "output.expr|var0_ballsLockedMessage|0104547ae583",
+    "original": "{var0}.ballsLockedMessage()",
+    "translation": "",
+    "context": "<<POS:06859176>> <<VARS:var0=pc>> output(pc.ballsLockedMessage())"
+  },
+  {
+    "key": "output|A_churning_swelling_tightness_stretches_the_skin_of_your_pc_sa|9bce7e87ec27",
+    "original": "A churning, swelling tightness stretches the skin of your [pc.sack] tight for a moment as the omnipresent heat travels into your [pc.balls]. ",
+    "translation": "",
+    "context": "<<POS:06859438>>"
+  },
+  {
+    "key": "output|You_can_feel_it|a118c2f4e31b",
+    "original": "You can feel it",
+    "translation": "",
+    "context": "<<POS:06859603>>"
+  },
+  {
+    "key": "output|You_can_feel_them|d5f16c947bd4",
+    "original": "You can feel them",
+    "translation": "",
+    "context": "<<POS:06859629>>"
+  },
+  {
+    "key": "output|churning_up_a_huge_load_of_pc_cum_swelling_just_to_hold_all|841b05c8ad82",
+    "original": " churning up a huge load of [pc.cum], swelling just to hold all the [pc.cumColor] goodness that’s waiting to burst out in a blissful explosion. You gently palm ",
+    "translation": "",
+    "context": "<<POS:06859657>>"
+  },
+  {
+    "key": "output|it|ebcadfde8e07",
+    "original": "it",
+    "translation": "",
+    "context": "<<POS:06859841>>"
+  },
+  {
+    "key": "output|one|3ae6d5cda81f",
+    "original": "one",
+    "translation": "",
+    "context": "<<POS:06859854>>"
+  },
+  {
+    "key": "output|and_nearly_blow_your_load_when_you_feel_it_pulsating_in_your_ha|12ac21366938",
+    "original": " and nearly blow your load when you feel it pulsating in your hand, stretching out against you. <b>Your [pc.balls] got bigger!</b>",
+    "translation": "",
+    "context": "<<POS:06859885>>"
+  },
+  {
+    "key": "output.expr|var0_ballSizeLockedMessage|4c3fe34d759f",
+    "original": "{var0}.ballSizeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:06860067>> <<VARS:var0=pc>> output(pc.ballSizeLockedMessage())"
+  },
+  {
+    "key": "output|You_whimper_and_ooze_a_strand_of_pc_cum_onto_yourself_when_a_s|6abe53f7f868",
+    "original": "You whimper and ooze a strand of [pc.cum] onto yourself when a strange but pleasurable sensation rolls over your [pc.balls]. It isn’t necessarily growth, nor is it some kind overly erotic, orgasm-inducing surge. The feeling could best be described as a budding capacitance. <b>Somehow, you know your body can hold even more [pc.cum] in its reserves.</b>",
+    "translation": "",
+    "context": "<<POS:06860169>>"
+  },
+  {
+    "key": "output|Muscles_in_your_abdomen_lock_and_release_rhythmically_clenching|9e1b3b3c9546",
+    "original": "Muscles in your abdomen lock and release, rhythmically clenching with the pulsing pleasure that’s running through your [pc.cocks], pushing more and more pre out each time. <b>You can force out even more ejaculate during orgasm!</b>",
+    "translation": "",
+    "context": "<<POS:06860628>>"
+  },
+  {
+    "key": "output|As_heavy_as_loins_are_feeling_right_now_you_re_not_sure_you_cou|3988462a2785",
+    "original": "As heavy as loins are feeling right now, you’re not sure you could drag yourself anywhere, but at the same time, your body is demanding you get up and stuff yourself inside the closest pussy - not just any pussy either: the wettest, most fertile twat you can find. You find yourself fantasizing about dozens of round-bellied women riding you one after the other, all carrying your offspring, when you become aware of that heavy feeling settling in your [pc.balls]. There’s no doubt about it; <b>you’ve gotten more virile.</b>",
+    "translation": "",
+    "context": "<<POS:06860983>>"
+  },
+  {
+    "key": "output|Even_though_you_re_practically_dripping_liquid_from_your_crotch|f1fcffb9ceaf",
+    "original": "Even though you’re practically dripping liquid from your crotch, you feel like you’re never going to run out. Your body is producing it more than fast enough, and if the growing tightness in your [pc.balls] is any indication, <b>you’re producing [pc.cum] even faster than before, allowing you to refill more quickly between orgasms.</b>",
+    "translation": "",
+    "context": "<<POS:06861593>>"
+  },
+  {
+    "key": "output|A_swollen_lump_of_flesh_appears|1047b1b5c70c",
+    "original": "A swollen lump of flesh appears ",
+    "translation": "",
+    "context": "<<POS:06862014>>"
+  },
+  {
+    "key": "output|right_above_your_pc_vaginas|22cb7715d072",
+    "original": "right above your [pc.vaginas]",
+    "translation": "",
+    "context": "<<POS:06862072>>"
+  },
+  {
+    "key": "output|in_the_center_of_your_crotch|eeb1763090fa",
+    "original": "in the center of your crotch",
+    "translation": "",
+    "context": "<<POS:06862112>>"
+  },
+  {
+    "key": "output|It_feels_achy_and_a_little_painful_but_very_very_sensitive_an|9edd9e2d5e73",
+    "original": ". It feels achy and a little painful but very very sensitive, and it’s getting bigger with alarming rapidity. The little knot is sticking an inch out past your [pc.skinFurScales], turning glossy and red as it does. You touch its tip and moan, assaulted by pleasure you barely understand, watching the bulge stretch out another inch in eager response. In seconds, you’re rubbing and fondling it, coaxing more and more length from your crotch until ",
+    "translation": "",
+    "context": "<<POS:06862151>>"
+  },
+  {
+    "key": "output.expr|b_your_hand_is_wrapped_around_a_var1_numToText_var0_in|bfcaa92f6033",
+    "original": "<b>your hand is wrapped around a \"+{var1}.numToText({var0})+\"-inch long, twitching [pc.cockNounSimple \"+{var2}+\"].</b>",
+    "translation": "",
+    "context": "<<POS:06862648>> <<VARS:var0=Math.round(10*pc.cocks[e].cLengthRaw)/10,var1=h.m,var2=e>> output(\"<b>your hand is wrapped around a \"+h.m.numToText(Math.round(10*pc.cocks[e].cLengthRaw)/10)+\"-inch long, twitching [pc.cockNounSimple \"+e+\"].</b>\")"
+  },
+  {
+    "key": "output.expr|var0_createCockLockedMessage|16607ebbc7b4",
+    "original": "{var0}.createCockLockedMessage()",
+    "translation": "",
+    "context": "<<POS:06862832>> <<VARS:var0=pc>> output(pc.createCockLockedMessage())"
+  },
+  {
+    "key": "output|Even_after_the_transformation_ends_you_just_can_t_stop_yourself|f618bc6a900c",
+    "original": "Even after the transformation ends, you just can’t stop yourself....",
+    "translation": "",
+    "context": "<<POS:06862970>>"
+  },
+  {
+    "key": "button|Next|396d0a2762cb",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:06863066>> addButton(0,\"Next\",this.throbbBadEnd)"
+  },
+  {
+    "key": "output|The_artificial_heat_and_longing_that_filled_you_and_put_you_into|672aa962a0cd",
+    "original": "The artificial heat and longing that filled you and put you into such a state fade, but the arousal and need remain. <b>You should probably go blow off some steam....</b>",
+    "translation": "",
+    "context": "<<POS:06863108>>"
+  },
+  {
+    "key": "button|Next|22e2e9f80ac6",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:06863310>> addButton(0,\"Next\",mainGameMenu)"
+  },
+  {
+    "key": "output.expr|You_masturbate_on_the_spot_rubbing_your_pc_cockBiggest_again|3ebb4ef3f934",
+    "original": "You masturbate on the spot, rubbing your [pc.cockBiggest] again and again while thick rivulets of [pc.cum] spill out of your distended [pc.cockHeadBiggest]. Even though you aren’t orgasming, your swollen sack has become so productive that your pre-cum has been replaced by the real deal. You heft and squeeze \"+({var0}?\"one\":\"your\")+\" testicle. The tightness against the sloshing orb is enough to make your length bloat and lurch, throwing a thick rope at least three meters into the air before it splatters down across your face.",
+    "translation": "",
+    "context": "<<POS:06863395>> <<VARS:var0=pc.balls>1>> output(\"You masturbate on the spot, rubbing your [pc.cockBiggest] again and again while thick rivulets of [pc.cum] spill out of your distended [pc.cockHeadBiggest]. Even though you aren’t orgasming, your swollen sack has become so productive that your pre-cum has been replaced by the real deal. You heft and squeeze \"+(pc.balls>1?\"one\":\"your\")+\" testicle. The tightness against the sloshing orb is enough to make your length bloat and lurch, throwing a thick rope at least three meters into the air before it splatters down across your face.\")"
+  },
+  {
+    "key": "output|The_sensation_of_ejaculation_is_too_irresistible_not_to_indulge|059e1b1cf8ba",
+    "original": "The sensation of ejaculation is too irresistible not to indulge. You run your hands up and down your drooling shaft to coax out another lurid deluge, letting loose a low moan when your member immediately and voluminously responds with spontaneous orgasm, pumping out a glob of [pc.cumNoun] bigger than your head. A second follows before the first hits the ground. Your fourth shot is weaker; it mostly resembles one of those fountains that shoots laminar stream of water up to cascade back over itself. The feeling of being slicked in your own steaming hot [pc.cumNoun] mid-orgasm nearly makes you pass out from raw pleasure.",
+    "translation": "",
+    "context": "<<POS:06863944>>"
+  },
+  {
+    "key": "output|You_lose_yourself_in_the_growing_pc_cumColor_lake_rolling_you|4604b43010ed",
+    "original": "You lose yourself in the growing [pc.cumColor] lake, rolling your [pc.hips] with each muscle-clenching burst of ecstasy, letting your hands slide and stream wherever their lusty whims carry them. The lust hammering through every fiber of your being demands no less, and you couldn’t resist if you wanted to. It’s too damn strong. Your [pc.cockBiggest] is a pillar of pleasure that may as well be magnetically bound to your palms, because the only way you’re going stop touching yourself is if your life depends on it.",
+    "translation": "",
+    "context": "<<POS:06864584>>"
+  },
+  {
+    "key": "output|Panting_as_you_finish_draining_your_pc_balls_you_try_to_remem|8f5203a2d795",
+    "original": "Panting as you finish draining your [pc.balls], you try to remember what you were up to before you fell into another drug-fueled fap session. You were exploring or something, but everything was so sexy. Just thinking about some of the aliens you’ve encountered has your flagging phallus pumping up beautifully. Damn if you think about one more juicy, pliant pussy or pillowy bosom, you’re going to have to... ahhh, fuck it. You grab hold of yourself and start jacking off again. You’ll figure it out after another cum.",
+    "translation": "",
+    "context": "<<POS:06865116>>"
+  },
+  {
+    "key": "output|Of_course_you_don_t_You_wind_up_blowing_a_load_all_over_your_f|97914b916b6d",
+    "original": "Of course, you don’t. You wind up blowing a load all over your face and wondering why anyone would complain about it, and then you start thinking about coating other people’s faces with your [pc.cum]. Then, you’re right back where you started, letting yourself sink into another self-indulgent rut.",
+    "translation": "",
+    "context": "<<POS:06865649>>"
+  },
+  {
+    "key": "output|After_a_few_dozen_cyclic_attempts_to_resume_normal_life_you_giv|4b313a015c13",
+    "original": "After a few dozen cyclic attempts to resume normal life, you give up. It’s better to just wrap your hands around your cock and give in to the feelings it provides....",
+    "translation": "",
+    "context": "<<POS:06865962>>"
+  },
+  {
+    "key": "button|Next|6c2e4c543f03",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:06866404>> addButton(0,\"Next\",(function(){showLocationName(\"GAME OVER\"),clearOutput(),output(\"At some point, you realized that your dreams of following in your dad’s footsteps had died. There was no way you were going to be able to focus long enough to find the probes he left scattered around the universe. You..."
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "key": "assign|Jezzy_s_blaster|d539eb30d1fc",
+    "original": "Jezzy’s blaster",
+    "translation": "",
+    "context": "<<POS:00688600>>"
+  },
+  {
+    "key": "assign|a_blaster_pistol_taken_from_Jezzy|3d80ddb2a565",
+    "original": "a blaster pistol taken from Jezzy",
+    "translation": "",
+    "context": "<<POS:00688689>>"
+  },
+  {
+    "key": "assign|This_pistol_once_belonged_to_Jezzy_but_after_the_defeat_of_the|74bf83681973",
+    "original": "This pistol once belonged to Jezzy, but after the defeat of the drugged-up gabilani, it’s fallen into your service. At a glance, it resembles common laser weapons found throughout the rim, but it’s been upgraded with an aftermarket power-supply and custom-cut refraction crystals to put out far more power than its off-the-shelf cousins. A lightweight composite frame keeps it extra-light in the hand - easy enough for a slight girl to hold onto in battle. It won’t slow down your attempts to dodge.",
+    "translation": "",
+    "context": "<<POS:00688735>>"
+  },
+  {
+    "key": "assign|laser_beam|13e3f2587cc7",
+    "original": "laser beam",
+    "translation": "",
+    "context": "<<POS:00689271>>"
+  },
+  {
+    "key": "assign|Jezzy_s_Hat|ed52960bfd55",
+    "original": "Jezzy’s Hat",
+    "translation": "",
+    "context": "<<POS:00690399>>"
+  },
+  {
+    "key": "assign|Jezzy_s_hat|a109cd822f1d",
+    "original": "Jezzy’s hat",
+    "translation": "",
+    "context": "<<POS:00690424>>"
+  },
+  {
+    "key": "assign|a_hat_taken_from_Jezzy|8e70a974c469",
+    "original": "a hat taken from Jezzy",
+    "translation": "",
+    "context": "<<POS:00690509>>"
+  },
+  {
+    "key": "assign|This_loose_fitting_stocking_cap_sometimes_known_as_a_toque_onc|5624bfb8dd73",
+    "original": "This loose-fitting stocking cap, sometimes known as a toque, once belonged to the infamous Gabilani drug-runner Jezzy. Now it’s yours: proof of victory over the short-stacked drug-dealer. Maybe it will help you handle illicit substances a little better?",
+    "translation": "",
+    "context": "<<POS:00690544>>"
+  },
+  {
+    "key": "assign|Short_but_definitely_not_sweet_the_foul_mouthed_gabilani_stands|efee9503feee",
+    "original": "Short but definitely not sweet, the foul-mouthed gabilani stands closer to three feet tall than four - short by the standards of her sex. Her true height, however, is hard to parse, as her head is covered with a loose toque, with holes cut out for her many-times-over pierced ears to poke through. Half naked, she’s wearing an oversized hoodie, unzipped and shrugged down off her shoulders, with it sagging down to her waist. Underneath, she’s stuffed into a white tank top a few sizes too small, the overburdened fabric barely covering her titanic titties. Her nipples strain against the fabric, revealing them to both be pierced with fat studs.\\n\\nJezzy’s bottom half is completely bare, exposing (and showing off) her very round and well-shaped hips and butt. Between her sinfully thick thighs stands a mighty - and very clearly modded - cock. The massive slab of meat is vaguely equine in shape, with two heavy balls hanging below to fuel it. The sight of it almost distracts you from the blaster she’s holding in one hand, and an oversized club she wields in the other. A belt slung around her waist carries a wide array of threats and dangers, which she seems eager to test on you.",
+    "translation": "",
+    "context": "<<POS:00691927>>"
+  },
+  {
+    "key": "assign|a_claw|18939b0f7933",
+    "original": "a claw",
+    "translation": "",
+    "context": "<<POS:00693280>>"
+  },
+  {
+    "key": "perk|Fixed_CumQ|74296bdab92a",
+    "original": "Fixed CumQ",
+    "translation": "",
+    "context": "<<POS:00694094>> createPerk(\"Fixed CumQ\",3912)"
+  },
+  {
+    "key": "perk|Juggernaut|0f827c3b9140",
+    "original": "Juggernaut",
+    "translation": "",
+    "context": "<<POS:00694181>> createPerk(\"Juggernaut\")"
+  },
+  {
+    "key": "combat|Whizzing_past_concat_e_getCombatPronoun_himher_the_weapo|56ec18c524bc",
+    "original": "Whizzing past \".concat(e.getCombatPronoun(\"himher\"),\", the weapon comes up short, missing!\")",
+    "translation": "",
+    "context": "<<POS:00695737>>"
+  },
+  {
+    "key": "combat.expr|The_makeshift_club_bashes_against_var0_getCombatPronoun_his|56d780666ccb",
+    "original": "The makeshift club bashes against \"+{var0}.getCombatPronoun(\"hisher\")+\" \"+({var1}?\"shielded\":\"unshielded\")+\" shoulder!",
+    "translation": "",
+    "context": "<<POS:00695850>> <<VARS:var0=e,var1=pc.shields()>0>> combatAppend(\"\\n\\nThe makeshift club bashes against \"+e.getCombatPronoun(\"hisher\")+\" \"+(pc.shields()>0?\"shielded\":\"unshielded\")+\" shoulder!\")"
+  },
+  {
+    "key": "combat.expr|She_shoots_wide_the_bolt_missing_var0_getCombatName_by|93f991c8cc11",
+    "original": "She shoots wide, the bolt missing \"+{var0}.getCombatName()+\" by a mile!",
+    "translation": "",
+    "context": "<<POS:00696275>> <<VARS:var0=e>> combatAppend(\"\\n\\nShe shoots wide, the bolt missing \"+e.getCombatName()+\" by a mile!\")"
+  },
+  {
+    "key": "combat.expr|Her_aim_true_she_wings_var0_getCombatName_with_a_powerf|db1f62965fca",
+    "original": "Her aim true, she wings \"+{var0}.getCombatName()+\" with a powerful bolt, cackling at her success!",
+    "translation": "",
+    "context": "<<POS:00696363>> <<VARS:var0=e>> combatAppend(\"\\n\\nHer aim true, she wings \"+e.getCombatName()+\" with a powerful bolt, cackling at her success!\")"
+  },
+  {
+    "key": "combat.expr|She_barely_misses_only_the_rush_of_air_catching_var0_getCom|3002b9043ba2",
+    "original": "She barely misses, only the rush of air catching \"+{var0}.getCombatName()+\" in the face as it shoots past!",
+    "translation": "",
+    "context": "<<POS:00696784>> <<VARS:var0=e>> combatAppend(\"\\n\\nShe barely misses, only the rush of air catching \"+e.getCombatName()+\" in the face as it shoots past!\")"
+  },
+  {
+    "key": "combat.expr|Unable_to_dodge_it_in_time_it_connects_hard_with_var1_posse|c60aa3eb9f88",
+    "original": "Unable to dodge it in time, it connects hard with \"+{var1}.possessive({var0}.getCombatName())+\" face!",
+    "translation": "",
+    "context": "<<POS:00696907>> <<VARS:var0=e,var1=g.m>> combatAppend(\"\\n\\nUnable to dodge it in time, it connects hard with \"+g.m.possessive(e.getCombatName())+\" face!\")"
+  },
+  {
+    "key": "combat.expr|Swaying_slightly_var0_getCombatPronoun_heshe_lose|22541e0dee64",
+    "original": " Swaying slightly, \"+{var0}.getCombatPronoun(\"heshe\")+\" lose\"+({var1}.isPlayer()?\"\":\"s\")+\" \"+{var2}.getCombatPronoun(\"hisher\")+\" balance, then tumble\"+({var3}.isPlayer()?\"\":\"s\")+\" to the floor awkwardly!",
+    "translation": "",
+    "context": "<<POS:00697206>> <<VARS:var0=e,var1=e.isPlural||e,var2=e,var3=e.isPlural||e>> combatAppend(\" Swaying slightly, \"+e.getCombatPronoun(\"heshe\")+\" lose\"+(e.isPlural||e.isPlayer()?\"\":\"s\")+\" \"+e.getCombatPronoun(\"hisher\")+\" balance, then tumble\"+(e.isPlural||e.isPlayer()?\"\":\"s\")+\" to the floor awkwardly!\")"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_var2_are_is_tripped|7134e98b9c98",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+({var2}?\"are\":\"is\")+\" tripped!</b>",
+    "translation": "",
+    "context": "<<POS:00697434>> <<VARS:var0=e.getCombatName(),!1,var1=g.m,var2=e.isPlayer()||e.isPlural>> combatAppend(\"\\n\\n<b>\"+g.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\" tripped!</b>\")"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_var2_are_is_stunned|9ada4ebdbab1",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+({var2}?\"are\":\"is\")+\" stunned!</b>",
+    "translation": "",
+    "context": "<<POS:00697572>> <<VARS:var0=e.getCombatName(),!1,var1=g.m,var2=e.isPlayer()||e.isPlural>> combatAppend(\"\\n\\n<b>\"+g.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\" stunned!</b>\")"
+  },
+  {
+    "key": "combat.expr|She_misses_var0_getCombatName_barely_her_cock_sailing|e948eab93b9a",
+    "original": "She misses \"+{var0}.getCombatName()+\", barely, her cock sailing harmlessly through the air. <i>“Fuck!”</i>",
+    "translation": "",
+    "context": "<<POS:00697943>> <<VARS:var0=e>> combatAppend(\"\\n\\nShe misses \"+e.getCombatName()+\", barely, her cock sailing harmlessly through the air. <i>“Fuck!”</i>\")"
+  },
+  {
+    "key": "combat.expr|Her_solid_mast_slaps_hard_against_var0_getCombatName_th|c3b4c2e1ed1e",
+    "original": "Her solid mast slaps hard against \"+{var0}.getCombatName()+\", the weight of it catching you by surprise!",
+    "translation": "",
+    "context": "<<POS:00698070>> <<VARS:var0=e>> combatAppend(\"\\n\\nHer solid mast slaps hard against \"+e.getCombatName()+\", the weight of it catching you by surprise!\")"
+  },
+  {
+    "key": "combat|i_Like_that_huh_bitch_i|96694f848ee2",
+    "original": "<i>“Like that, huh, bitch?”</i>",
+    "translation": "",
+    "context": "<<POS:00698190>>"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_var2_are_is_disarme|7030a7a09474",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+({var2}?\"are\":\"is\")+\" disarmed!</b>",
+    "translation": "",
+    "context": "<<POS:00699013>> <<VARS:var0=e.getCombatName(),!1,var1=g.m,var2=e.isPlayer()||e.isPlural>> combatAppend(\"\\n\\n<b>\"+g.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\" disarmed!</b>\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_barely_dodge_var2_s_th|e231c336abf2",
+    "original": "\"+{var1}.capitalize({var0})+\" barely dodge\"+({var2}?\"\":\"s\")+\" the crackling lash, wincing when it snaps hard against the floor!\\n\\n<i>“Fuck!”</i>",
+    "translation": "",
+    "context": "<<POS:00699502>> <<VARS:var0=e.getCombatName(),!1,var1=g.m,var2=e.isPlayer()||e.isPLural>> combatAppend(\"\\n\\n\"+g.m.capitalize(e.getCombatName(),!1)+\" barely dodge\"+(e.isPlayer()||e.isPLural?\"\":\"s\")+\" the crackling lash, wincing when it snaps hard against the floor!\\n\\n<i>“Fuck!”</i>\")"
+  },
+  {
+    "key": "combat.expr|The_metal_lash_cracks_hard_against_var1_possessive_var0_ge|0479be026069",
+    "original": "The metal lash cracks hard against \"+{var1}.possessive({var0}.getCombatName())+\" chest, subjecting \"+{var2}.getCombatPronoun(\"himher\")+\" to a nasty jolt!",
+    "translation": "",
+    "context": "<<POS:00699702>> <<VARS:var0=e,var1=g.m,var2=e>> combatAppend(\"\\n\\nThe metal lash cracks hard against \"+g.m.possessive(e.getCombatName())+\" chest, subjecting \"+e.getCombatPronoun(\"himher\")+\" to a nasty jolt!\")"
+  },
+  {
+    "key": "combat|i_Fuck_yeah_Wire_is_the_best_conductor_i|38203af01334",
+    "original": "<i>“Fuck yeah! Wire is the best conductor!”</i>",
+    "translation": "",
+    "context": "<<POS:00700016>>"
+  },
+  {
+    "key": "combat.expr|The_sudden_shock_stuns_var0_getCombatPronoun_hisher_ne|e2df9235aedd",
+    "original": " The sudden shock stuns \"+{var0}.getCombatPronoun(\"hisher\")+\" nerves for a brief moment, breaking \"+{var2}.possessive({var1}.getCombatName())+\" balance!",
+    "translation": "",
+    "context": "<<POS:00700081>> <<VARS:var0=e,var1=e,var2=g.m>> combatAppend(\" The sudden shock stuns \"+e.getCombatPronoun(\"hisher\")+\" nerves for a brief moment, breaking \"+g.m.possessive(e.getCombatName())+\" balance!\")"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_var2_are_is_tripped|619005eec703",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+({var2}?\"are\":\"is\")+\" tripped!</b>",
+    "translation": "",
+    "context": "<<POS:00700241>> <<VARS:var0=e.getCombatName(),!1,var1=g.m,var2=e.isPlayer()||e.isPlural>> combatAppend(\"\\n\\n<b>\"+g.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\" tripped!</b>\")"
+  },
+  {
+    "key": "combat.expr|Thinking_fast_var0_getCombatName_swing_var1_s|50e85d366b0d",
+    "original": "Thinking fast, \"+{var0}.getCombatName()+\" swing\"+({var1}?\"\":\"s\")+\" \"+{var2}.getCombatPronoun(\"hisher\")+\" [pc.weaponMain] at the soaring missile, sending it sailing harmlessly over Jezzy’s stunned face!",
+    "translation": "",
+    "context": "<<POS:00700681>> <<VARS:var0=e,var1=e.isPlayer()||e.isPlural,var2=e>> combatAppend(\"\\n\\nThinking fast, \"+e.getCombatName()+\" swing\"+(e.isPlayer()||e.isPlural?\"\":\"s\")+\" \"+e.getCombatPronoun(\"hisher\")+\" [pc.weaponMain] at the soaring missile, sending it sailing harmlessly over Jezzy’s stunned face!\")"
+  },
+  {
+    "key": "combat.expr|The_grenade_falls_short_of_hitting_var0_getCombatName_l|5fcdf6e1cd76",
+    "original": "The grenade falls short of hitting \"+{var0}.getCombatName()+\", landing a foot short, then starts to hiss and release a thick pink cloud!",
+    "translation": "",
+    "context": "<<POS:00700919>> <<VARS:var0=e>> combatAppend(\"\\n\\nThe grenade falls short of hitting \"+e.getCombatName()+\", landing a foot short, then starts to hiss and release a thick pink cloud!\")"
+  },
+  {
+    "key": "combat.expr|Lucky_for_var0_getCombatPronoun_himher_the_the_gas_is|ddbb4493e69f",
+    "original": " Lucky for \"+{var0}.getCombatPronoun(\"himher\")+\", the the gas is outside!",
+    "translation": "",
+    "context": "<<POS:00701088>> <<VARS:var0=e>> combatAppend(\" Lucky for \"+e.getCombatPronoun(\"himher\")+\", the the gas is outside!\")"
+  },
+  {
+    "key": "combat.expr|The_gas_fills_var0_getCombatPronoun_hisher_nostrils_an|05df3ba79219",
+    "original": " The gas fills \"+{var0}.getCombatPronoun(\"hisher\")+\" nostrils and mouth before \"+{var1}.getCombatPronoun(\"heshe\")+\" can shield them, sending \"+{var2}.getCombatPronoun(\"himher\")+\" into a coughing fit!",
+    "translation": "",
+    "context": "<<POS:00701178>> <<VARS:var0=e,var1=e,var2=e>> combatAppend(\" The gas fills \"+e.getCombatPronoun(\"hisher\")+\" nostrils and mouth before \"+e.getCombatPronoun(\"heshe\")+\" can shield them, sending \"+e.getCombatPronoun(\"himher\")+\" into a coughing fit!\")"
+  },
+  {
+    "key": "combat|Simultaneously_you_notice_your_blood_starting_to_heat_up_your|542a8d8eba94",
+    "original": " Simultaneously, you notice your blood starting to heat up, your heart pumping faster!",
+    "translation": "",
+    "context": "<<POS:00701393>>"
+  },
+  {
+    "key": "combat|You_watch_her_eyes_go_wide_as_saucers_and_a_moment_later_she_y|0d3ef3240c19",
+    "original": " You watch her eyes go wide as saucers, and a moment later she yanks out the syringe and tosses it unceremoniously to the side. You’re not sure what happened, but it can’t be good!\",null,this",
+    "translation": "",
+    "context": "<<POS:00703165>>"
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "key": "assign|deep_purple|0393ce20860b",
+    "original": "deep purple",
+    "translation": "",
+    "context": "<<POS:02009409>>"
+  },
+  {
+    "key": "assign|the|3e7fce6880a6",
+    "original": "the ",
+    "translation": " ",
+    "context": "<<POS:02015665>>"
+  },
+  {
+    "key": "assign|Made_lean_by_a_life_of_hard_labor_the_zaika_chainer_lithe_body|860435867e85",
+    "original": "Made lean by a life of hard labor, the zaika chainer lithe body makes her as nimble as the chain she swings. Her clothing reflects her poor social status: a torn-up white top with frayed jeans. Her bright pink jacket is in good shape, at least, though you suspect it’s the result of months of scrimping and saving. You’d hate to ruin it - or to be struck by those thick looking chain links...",
+    "translation": "",
+    "context": "<<POS:02015697>>"
+  },
+  {
+    "key": "assign|Nimble_as_the_chain_she_swings_the_zaika_slides_aside|49ddf98e4287",
+    "original": "Nimble as the chain she swings, the zaika slides aside.",
+    "translation": "",
+    "context": "<<POS:02016123>>"
+  },
+  {
+    "key": "assign|defensive_augmentations|457751021077",
+    "original": "defensive augmentations",
+    "translation": "",
+    "context": "<<POS:02016548>>"
+  },
+  {
+    "key": "perk|Evasive|169cfbc516d1",
+    "original": "Evasive",
+    "translation": "",
+    "context": "<<POS:02018750>> createPerk(\"Evasive\",50,50)"
+  },
+  {
+    "key": "perk|Disarm_Immune|a1d1d21181ad",
+    "original": "Disarm Immune",
+    "translation": "",
+    "context": "<<POS:02018780>> createPerk(\"Disarm Immune\")"
+  },
+  {
+    "key": "combat|You_twist_aside_at_the_last_moment|32d5faef1b9e",
+    "original": " You twist aside at the last moment!",
+    "translation": "",
+    "context": "<<POS:02020651>>"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_getCombatName_slides_aside|4061dab7bf94",
+    "original": " \"+{var1}.capitalize({var0}.getCombatName())+\" slides aside.",
+    "translation": "",
+    "context": "<<POS:02020704>> <<VARS:var0=e,var1=f.m>> combatAppend(\" \"+f.m.capitalize(e.getCombatName())+\" slides aside.\")"
+  },
+  {
+    "key": "combat|Her_chain_snags_your_ankle_and_she_b_pulls_you_out_of_the_sky|ddafd841768d",
+    "original": " Her chain snags your ankle, and she <b>pulls you out of the sky, tripping you!</b>",
+    "translation": "",
+    "context": "<<POS:02020811>>"
+  },
+  {
+    "key": "combat.expr|Her_chain_snags_var1_possessive_var0_getCombatName_a|1d83ad03e5b9",
+    "original": " Her chain snags \"+{var1}.possessive({var0}.getCombatName())+\" ankle, and she pulls \"+{var2}.mfn(\"him\",\"her\",\"it\")+\" out of the sky, tripping \"+{var3}.mfn(\"him\",\"her\",\"it\")+\"!",
+    "translation": "",
+    "context": "<<POS:02020911>> <<VARS:var0=e,var1=f.m,var2=e,var3=e>> combatAppend(\" Her chain snags \"+f.m.possessive(e.getCombatName())+\" ankle, and she pulls \"+e.mfn(\"him\",\"her\",\"it\")+\" out of the sky, tripping \"+e.mfn(\"him\",\"her\",\"it\")+\"!\")"
+  },
+  {
+    "key": "combat|b_You_re_too_high_to_be_hit_by_a_low_swing_b|b8d2d340db9e",
+    "original": " <b>You’re too high to be hit by a low swing!</b>",
+    "translation": "",
+    "context": "<<POS:02021421>>"
+  },
+  {
+    "key": "combat.expr|var0_getCombatName_is_too_high_to_be_hit_by_a_low_swing|cf5059bd5758",
+    "original": " \"+{var0}.getCombatName()+\" is too high to be hit by a low swing!",
+    "translation": "",
+    "context": "<<POS:02021487>> <<VARS:var0=e>> combatAppend(\" \"+e.getCombatName()+\" is too high to be hit by a low swing!\")"
+  },
+  {
+    "key": "combat|You_hop_over_the_low_swing|016e7dcd99b5",
+    "original": " You hop over the low swing!",
+    "translation": "",
+    "context": "<<POS:02021618>>"
+  },
+  {
+    "key": "combat.expr|var0_getCombatName_hops_over_the_low_swing|c3b1dc7afb5c",
+    "original": " \"+{var0}.getCombatName()+\" hops over the low swing!",
+    "translation": "",
+    "context": "<<POS:02021663>> <<VARS:var0=e>> combatAppend(\" \"+e.getCombatName()+\" hops over the low swing!\")"
+  },
+  {
+    "key": "combat|b_You_re_tripped_b|bf1f518df7f7",
+    "original": " <b>You’re tripped!</b>",
+    "translation": "",
+    "context": "<<POS:02021928>>"
+  },
+  {
+    "key": "combat.expr|b_var0_getCombatName_is_tripped_b|6fff44552dd2",
+    "original": " <b>\"+{var0}.getCombatName()+\" is tripped!</b>",
+    "translation": "",
+    "context": "<<POS:02021968>> <<VARS:var0=e>> combatAppend(\" <b>\"+e.getCombatName()+\" is tripped!</b>\")"
+  },
+  {
+    "key": "combat|You_dodge|220257e887c2",
+    "original": " You dodge!",
+    "translation": "",
+    "context": "<<POS:02022243>>"
+  },
+  {
+    "key": "combat.expr|var0_mfn_He_She_It_dodges|7516e936b8f3",
+    "original": " \"+{var0}.mfn(\"He\",\"She\",\"It\")+\" dodges!",
+    "translation": "",
+    "context": "<<POS:02022271>> <<VARS:var0=e>> combatAppend(\" \"+e.mfn(\"He\",\"She\",\"It\")+\" dodges!\")"
+  },
+  {
+    "key": "combat|You_barely_duck_in_time|f46500210e68",
+    "original": " You barely duck in time!",
+    "translation": "",
+    "context": "<<POS:02022727>>"
+  },
+  {
+    "key": "combat.expr|var0_getCombatName_barely_ducks_in_time|3e65695145db",
+    "original": " \"+{var0}.getCombatName()+\" barely ducks in time!",
+    "translation": "",
+    "context": "<<POS:02022769>> <<VARS:var0=e>> combatAppend(\" \"+e.getCombatName()+\" barely ducks in time!\")"
+  },
+  {
+    "key": "combat|It_connects|167bd9836326",
+    "original": " It connects.",
+    "translation": "",
+    "context": "<<POS:02022831>>"
+  },
+  {
+    "key": "combat|b_You_are_stunned_b|2ee8aa5bca42",
+    "original": "<b>You are stunned!</b>",
+    "translation": "",
+    "context": "<<POS:02023055>>"
+  },
+  {
+    "key": "combat.expr|b_var0_getCombatName_is_stunned_b|2d24b13e516b",
+    "original": "<b>\"+{var0}.getCombatName()+\" is stunned!</b>",
+    "translation": "",
+    "context": "<<POS:02023097>> <<VARS:var0=e>> combatAppend(\"\\n<b>\"+e.getCombatName()+\" is stunned!</b>\")"
+  },
+  {
+    "key": "combat|Ever_alert_you_duck_aside|7a48e2de20b6",
+    "original": " Ever alert, you duck aside.",
+    "translation": "",
+    "context": "<<POS:02023334>>"
+  },
+  {
+    "key": "combat|The_chain_links_settle_around_you_momentarily_binding_you_in_p|b8a2e34b1c7b",
+    "original": " The chain links settle around you, momentarily binding you in place. While you struggle, the chainer closes in, tugging you like a dog on a leash. <i>“Oooh, what tasty-looking space meat...”</i> Her tongue slathers your cheek in spit. <i>“Fuckin’ slut.”</i> She steps away while you finish wriggling free. Your feel a little hotter for the encounter.",
+    "translation": "",
+    "context": "<<POS:02023380>>"
+  }
+]

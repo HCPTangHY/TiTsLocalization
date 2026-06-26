@@ -1,0 +1,152 @@
+[
+  {
+    "key": "button|Help|305a380d639d",
+    "original": "Help",
+    "translation": "",
+    "context": "<<POS:12774302>> addButton(1,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_CIRCUIT_PROMPT&&(flags.TUTORIAL_CIRCUIT_PROMPT=2),e.generateTutorialBoard(),e.generateMenu()}),\"Circuit System Tutorial\",\"Get an explanation of this puzzle.\\n\\n<b>You can only ac..."
+  },
+  {
+    "key": "button.tooltip|Get_an_explanation_of_this_puzzle_n_n_b_You_can_only_access_thi|a8f7cf216082",
+    "original": "Get an explanation of this puzzle.\\n\\n<b>You can only access this before beginning!</b>",
+    "translation": "",
+    "context": "<<POS:12774533>> addButton(1,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_CIRCUIT_PROMPT&&(flags.TUTORIAL_CIRCUIT_PROMPT=2),e.generateTutorialBoard(),e.generateMenu()}),\"Circuit System Tutorial\",\"Get an explanation of this puzzle.\\n\\n<b>You can only ac..."
+  },
+  {
+    "key": "button|Give_Up|9351ddec0a4c",
+    "original": "Give Up",
+    "translation": "",
+    "context": "<<POS:12774682>> addButton(4,\"Give Up\",(function(){window.removeRotateMinigame(),window.returnFromElement(),window.getGameState()&&!0!==e.props.testGame||showMainMenu(!0,!0,!0),e.props.onFailure()}))"
+  },
+  {
+    "key": "assign|The_switchboard_contains_a_number_of_buttons_or_switches_in_ei|2b0a2592560b",
+    "original": "The switchboard contains a number of buttons, or switches, in either one of two positions. This one here is in the <b>On</b> position.",
+    "translation": "",
+    "context": "<<POS:12794381>>"
+  },
+  {
+    "key": "assign|And_this_one_here_is_in_the_b_Off_b_position_Simple_so_far|ddd9fc39707b",
+    "original": "And this one here is in the <b>Off</b> position. Simple so far, right?",
+    "translation": "",
+    "context": "<<POS:12795015>>"
+  },
+  {
+    "key": "assign|Now_when_you_press_on_a_switch_it_will_flip_positions_but_it|8fa96417fd7e",
+    "original": "Now, when you press on a switch, it will flip positions--but it will also toggle the positions of the four directly-adjacent switches as well!",
+    "translation": "",
+    "context": "<<POS:12795547>>"
+  },
+  {
+    "key": "assign|Ultimately_your_objective_is_to_clear_the_board_by_having_all|2a860d927740",
+    "original": "Ultimately, your objective is to “clear” the board by having all switches in the same position. You can find the target condition under <b>Goal</b>. In this case, the solution requires all <i>Lights On</i>.",
+    "translation": "",
+    "context": "<<POS:12796073>>"
+  },
+  {
+    "key": "assign|In_addition_not_all_switchboards_come_with_just_one_condition|7f2d2d2e1b1d",
+    "original": "In addition, not all switchboards come with just one condition. Sometimes they can come with a <b>Fail</b> state--for this, the board will crash with all <i>Lights Off</i>.",
+    "translation": "",
+    "context": "<<POS:12796709>>"
+  },
+  {
+    "key": "assign|There_are_also_trickier_boards_that_track_your_b_Moves_Left_b|02faab827c45",
+    "original": "There are also trickier boards that track your <b>Moves Left</b>, so you’ll only have a limited number of actions to solve those...",
+    "translation": "",
+    "context": "<<POS:12797313>>"
+  },
+  {
+    "key": "assign|While_a_board_can_be_solid_enough_to_take_as_many_solutions_you|c713f6025e92",
+    "original": "While a board can be solid enough to take as many solutions you can throw at it, some are more sensitive and may become unsuable if you fail too many times. For those boards, you’ll see the amount of <b>Attempts Left</b>.",
+    "translation": "",
+    "context": "<<POS:12797893>>"
+  },
+  {
+    "key": "assign|Those_are_the_basics_Short_of_solving_them_you_should_know_eve|f0ae2975ffec",
+    "original": "Those are the basics! Short of solving them, you should know everything there is to know about how the lights out switchboards work.",
+    "translation": "",
+    "context": "<<POS:12798557>>"
+  },
+  {
+    "key": "assign|And_that_s_all_the_help_I_can_give_you_now_go_out_there_and_sol|306e94113dab",
+    "original": "And that’s all the help I can give you--now go out there and solve some switchboards.<br><br><b>Best of luck!</b>",
+    "translation": "",
+    "context": "<<POS:12799088>>"
+  },
+  {
+    "key": "assign|Lights|4adcbebe46dc",
+    "original": "Lights ",
+    "translation": "",
+    "context": "<<POS:12799839>>"
+  },
+  {
+    "key": "assign|br_Well_look_who_it_is_br_br|367373c5b6f5",
+    "original": "<br>Well look who it is!<br><br>",
+    "translation": "",
+    "context": "<<POS:12800210>>"
+  },
+  {
+    "key": "button|Help|1ac3611b3658",
+    "original": "Help",
+    "translation": "",
+    "context": "<<POS:12802135>> addDisabledButton(1,\"Help\",\"Lights Out Tutorial\",\"You can only access this before beginning the puzzle.\")"
+  },
+  {
+    "key": "button.hover|You_can_only_access_this_before_beginning_the_puzzle|46a147f34126",
+    "original": "You can only access this before beginning the puzzle.",
+    "translation": "",
+    "context": "<<POS:12802164>> addDisabledButton(1,\"Help\",\"Lights Out Tutorial\",\"You can only access this before beginning the puzzle.\")"
+  },
+  {
+    "key": "button.hover|Lights_Out_Tutorial|d22e0006f55e",
+    "original": "Lights Out Tutorial",
+    "translation": "",
+    "context": "<<POS:12802436>> addButton(1,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_LIGHTS_PROMPT&&(flags.TUTORIAL_LIGHTS_PROMPT=2),e.generateTutorialBoard(),e.generateMenu()}),\"Lights Out Tutorial\",\"Get an explanation of this puzzle.\\n\\n<b>You can only access t..."
+  },
+  {
+    "key": "button|Next|f1831e116865",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:12804864>> addButton(2,\"Next\",h)"
+  },
+  {
+    "key": "assign|Lights|357b9d08c862",
+    "original": "Lights ",
+    "translation": "",
+    "context": "<<POS:12806951>>"
+  },
+  {
+    "key": "assign|Lights|22aee93ce9b7",
+    "original": "Lights ",
+    "translation": "",
+    "context": "<<POS:12807183>>"
+  },
+  {
+    "key": "assign|mini|e0d0e4270505",
+    "original": " mini",
+    "translation": "",
+    "context": "<<POS:12814012>>"
+  },
+  {
+    "key": "assign|wide|9dcb4bc82828",
+    "original": " wide",
+    "translation": "",
+    "context": "<<POS:12814047>>"
+  },
+  {
+    "key": "assign|hidden|9614bd2dc277",
+    "original": " hidden",
+    "translation": "",
+    "context": "<<POS:12814084>>"
+  },
+  {
+    "key": "assign|disabled|f37ddfca8a9f",
+    "original": " disabled",
+    "translation": "",
+    "context": "<<POS:12814125>>"
+  },
+  {
+    "key": "ui.element|Set_the_preferred_bust_artist_priority|6cdf3960d572",
+    "original": "Set the preferred bust artist priority. ",
+    "translation": "",
+    "context": "<<POS:12843881>>"
+  }
+]

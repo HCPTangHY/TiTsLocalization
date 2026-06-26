@@ -1,0 +1,92 @@
+[
+  {
+    "key": "assign|a|2936c2831383",
+    "original": "a ",
+    "translation": "",
+    "context": "<<POS:02115763>>"
+  },
+  {
+    "key": "assign|In_stature_he_is_a_typical_male_zil_5_7_slim_boyish_body|9cae922ec02a",
+    "original": "In stature he is a typical male zil - 5' 7\\\", slim, boyish body clad in black carapace - but he is in full flight, open wings keeping him floating near your position, tauntingly just out of reach. He is armed with a long, thin shield and a poison-soaked assegai, with which he suddenly darts in and stabs you with to attack. He is daubed in war dyes and is livid with the joy of flight and battle, flicking this way and that, his heart-shaped face wild with varying degrees of lust, delight and righteous anger. There’s no chance of getting away from him up here - you’ll have to force him to buzz off.",
+    "translation": "",
+    "context": "<<POS:02115791>>"
+  },
+  {
+    "key": "assign|The_zil_s_chitinous_armor_deflects_your_attack|b8af778c5668",
+    "original": "The zil’s chitinous armor deflects your attack.",
+    "translation": "",
+    "context": "<<POS:02116410>>"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_manage_var2_isPlayer_s|9a4c32c3cfe2",
+    "original": " \"+{var1}.capitalize({var0})+\" manage\"+({var2}.isPlayer()?\"\":\"s\")+\" to shuffle desperately to one side, evading the attack.",
+    "translation": "",
+    "context": "<<POS:02120405>> <<VARS:var0=e.getCombatName(),!1,var1=m.m,var2=e.isPlural||e>> combatAppend(\" \"+m.m.capitalize(e.getCombatName(),!1)+\" manage\"+(e.isPlural||e.isPlayer()?\"\":\"s\")+\" to shuffle desperately to one side, evading the attack.\")"
+  },
+  {
+    "key": "combat.expr|The_blow_breaks_through_var1_possessive_var0_getCombatNam|f2c1d62b2b7d",
+    "original": " The blow breaks through \"+{var1}.possessive({var0}.getCombatName())+\" shield and stabs true.",
+    "translation": "",
+    "context": "<<POS:02120700>> <<VARS:var0=e,var1=m.m>> combatAppend(\" The blow breaks through \"+m.m.possessive(e.getCombatName())+\" shield and stabs true.\")"
+  },
+  {
+    "key": "combat.expr|The_attack_stabs_viciously_home_pain_searing_into_var1_pos|b94140d274e5",
+    "original": " The attack stabs viciously home, pain searing into \"+{var1}.possessive({var0}.getCombatName())+\" side.",
+    "translation": "",
+    "context": "<<POS:02120819>> <<VARS:var0=e,var1=m.m>> combatAppend(\" The attack stabs viciously home, pain searing into \"+m.m.possessive(e.getCombatName())+\" side.\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_var2_isPlayer_cries_cry|6efb27d4b31a",
+    "original": " \"+{var1}.capitalize({var0})+\" \"+({var2}.isPlayer()?\"cries\":\"cry\")+\" out as yet more pheromone poison is thrust into \"+{var3}.getCombatPronoun(\"himher\")+\", honeyed lust piling on top of honeyed lust.",
+    "translation": "",
+    "context": "<<POS:02121001>> <<VARS:var0=e.getCombatName(),!1,var1=m.m,var2=e.isPlural||e,var3=e>> combatAppend(\" \"+m.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural||e.isPlayer()?\"cries\":\"cry\")+\" out as yet more pheromone poison is thrust into \"+e.getCombatPronoun(\"himher\")+\", honeyed lust piling on top of honeyed lust.\")"
+  },
+  {
+    "key": "combat|You_ve_got_to_stop_him_doing_that|dec0070b7f25",
+    "original": " You’ve got to stop him doing that!",
+    "translation": "",
+    "context": "<<POS:02121244>>"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_groan_var2_isPlayer_s|ada24c584401",
+    "original": " \"+{var1}.capitalize({var0})+\" groan\"+({var2}.isPlayer()?\"\":\"s\")+\" as heat flares within \"+{var3}.getCombatPronoun(\"himher\")+\", zil pheromones surging into \"+{var4}.getCombatPronoun(\"hisher\")+\" bloodstream",
+    "translation": "",
+    "context": "<<POS:02121358>> <<VARS:var0=e.getCombatPronoun(\"heshe\"),!1,var1=m.m,var2=e.isPlural||e,var3=e,var4=e>> combatAppend(\" \"+m.m.capitalize(e.getCombatPronoun(\"heshe\"),!1)+\" groan\"+(e.isPlural||e.isPlayer()?\"\":\"s\")+\" as heat flares within \"+e.getCombatPronoun(\"himher\")+\", zil pheromones surging into \"+e.getCombatPronoun(\"hisher\")+\" bloodstream\")"
+  },
+  {
+    "key": "combat|lust_pulsing_steadily_down_to_your_pc_groin|f2c80e9bf22d",
+    "original": ", lust pulsing steadily down to your [pc.groin]",
+    "translation": "",
+    "context": "<<POS:02121612>>"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_might_not_actually_be_able_to_smel|b6598ab0a039",
+    "original": "\"+{var1}.capitalize({var0})+\" might not actually be able to smell it, owing to \"+{var2}.getCombatPronoun(\"hisher\")+\" airtight equipment, but the sight remains erotic nonetheless.",
+    "translation": "",
+    "context": "<<POS:02122645>> <<VARS:var0=e.getCombatName(),!1,var1=m.m,var2=e>> combatAppend(\"\\n\\n\"+m.m.capitalize(e.getCombatName(),!1)+\" might not actually be able to smell it, owing to \"+e.getCombatPronoun(\"hisher\")+\" airtight equipment, but the sight remains erotic nonetheless.\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_can_t_help_but_breathe_some_of_it|685b899fca1e",
+    "original": " \"+{var1}.capitalize({var0})+\" can’t help but breathe some of it in, the scent teasing and twisting down \"+{var2}.getCombatPronoun(\"hisher\")+\" throat",
+    "translation": "",
+    "context": "<<POS:02122847>> <<VARS:var0=e.getCombatName(),!1,var1=m.m,var2=e>> combatAppend(\" \"+m.m.capitalize(e.getCombatName(),!1)+\" can’t help but breathe some of it in, the scent teasing and twisting down \"+e.getCombatPronoun(\"hisher\")+\" throat\")"
+  },
+  {
+    "key": "combat|sugary_impulse_and_heat_pulsing_down_into_your_pc_groin|dd1b29354f88",
+    "original": ", sugary impulse and heat pulsing down into your [pc.groin]",
+    "translation": "",
+    "context": "<<POS:02123033>>"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_make_var2_isPlayer_s|42a34b2e7676",
+    "original": " \"+{var1}.capitalize({var0})+\" make\"+({var2}.isPlayer()?\"\":\"s\")+\" the mistake of trying to track his movements, and dust is blown into \"+{var4}.possessive({var3}.getCombatName())+\" [pc.eyes]. <b>\"+{var6}.capitalize({var5})+\" \"+({var7}.isPlayer()?\"are\":\"is\")+\" blinded!</b>",
+    "translation": "",
+    "context": "<<POS:02123235>> <<VARS:var0=e.getCombatPronoun(\"heshe\"),!1,var1=m.m,var2=e.isPlural||e,var3=e,var4=m.m,var5=e.getCombatName(),!1,var6=m.m,var7=e.isPlural||e>> combatAppend(\" \"+m.m.capitalize(e.getCombatPronoun(\"heshe\"),!1)+\" make\"+(e.isPlural||e.isPlayer()?\"\":\"s\")+\" the mistake of trying to track his movements, and dust is blown into \"+m.m.possessive(e.getCombatName())+\" [pc.eyes]. <b>\"+m.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural||e.isPlayer()?\"are\":\"is\")+\" blinded!</b>\")"
+  },
+  {
+    "key": "combat|i_Give_me_your_sorcerous_toy_s_best_shot_land_stealer_i_h|e2fc490bc2e7",
+    "original": "<i>“Give me your sorcerous toy’s best shot, land-stealer!”</i> he cries.",
+    "translation": "",
+    "context": "<<POS:02124021>>"
+  }
+]

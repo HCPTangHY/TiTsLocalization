@@ -1,0 +1,1700 @@
+[
+  {
+    "key": "assign|Your|3aa9681fbcd1",
+    "original": "Your ",
+    "translation": "",
+    "context": "<<POS:11536263>>"
+  },
+  {
+    "key": "assign|deployed_turret|13c9e5dfde14",
+    "original": "deployed turret",
+    "translation": "",
+    "context": "<<POS:20340550>>"
+  },
+  {
+    "key": "assign|the|48b5dfd85ad8",
+    "original": "the ",
+    "translation": " ",
+    "context": "<<POS:20340595>>"
+  },
+  {
+    "key": "assign|Your_deployable_turret_stands_with_you_As_product_of_your_own_d|c5a9b83dbcfc",
+    "original": "Your deployable turret stands with you. As product of your own design and construction, it has been painstakingly maintained with the scrap parts you’ve accumulated in your travels. Its laser turret swivels to and fro, seeking targets to engage.",
+    "translation": "",
+    "context": "<<POS:20340641>>"
+  },
+  {
+    "key": "assign|hard_blow|cdcf1d345a43",
+    "original": "hard blow",
+    "translation": "",
+    "context": "<<POS:20340978>>"
+  },
+  {
+    "key": "assign|heavy_staff|efe308cc10af",
+    "original": "heavy staff",
+    "translation": "",
+    "context": "<<POS:20341001>>"
+  },
+  {
+    "key": "assign|laser_gun|8d623adbb03f",
+    "original": "laser gun",
+    "translation": "",
+    "context": "<<POS:20341164>>"
+  },
+  {
+    "key": "assign|laser_gun|a9aaf8f0b3d4",
+    "original": "laser gun",
+    "translation": "",
+    "context": "<<POS:20341188>>"
+  },
+  {
+    "key": "assign|a_laser_gun|c39b3f87138b",
+    "original": "a laser gun",
+    "translation": "",
+    "context": "<<POS:20341214>>"
+  },
+  {
+    "key": "assign|metal_plates|4a8742413bf4",
+    "original": "metal plates",
+    "translation": "",
+    "context": "<<POS:20341348>>"
+  },
+  {
+    "key": "assign|Turret_Target|56980d10a1b8",
+    "original": "Turret Target",
+    "translation": "",
+    "context": "<<POS:20342043>>"
+  },
+  {
+    "key": "output|b_Warning_valid_vagina_not_found_falling_back_to_an_unsupport|1c20d54787ce",
+    "original": "<b>Warning, valid vagina not found, falling back to an unsupported anal version of this scene. Please report the following scene.</b>",
+    "translation": "",
+    "context": "<<POS:20350325>>"
+  },
+  {
+    "key": "button|Next|44981762625f",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20350474>> addButton(0,\"Next\",m)"
+  },
+  {
+    "key": "header|Selecting|1f588c7942c7",
+    "original": "Selecting...",
+    "translation": "",
+    "context": "<<POS:20350535>>"
+  },
+  {
+    "key": "output.expr|Which_of_var0_your_var1_s_var2_holes_vagi|81029f691c31",
+    "original": "Which of \"+({var0}?\"your\":{var1}+\"’s\")+\" \"+({var2}?\"holes\":\"vaginas\")+\" will you use?",
+    "translation": "",
+    "context": "<<POS:20350559>> <<VARS:var0=h===pc,var1=h.short,var2=s>> output(\"Which of \"+(h===pc?\"your\":h.short+\"’s\")+\" \"+(s?\"holes\":\"vaginas\")+\" will you use?\")"
+  },
+  {
+    "key": "output|b_u_Suitable_u_b|f2a0ff2f24cb",
+    "original": "<b><u>Suitable:</u></b>",
+    "translation": "",
+    "context": "<<POS:20350667>>"
+  },
+  {
+    "key": "output|b_u_Unsuitable_u_b|b2b5cac86fee",
+    "original": "<b><u>Unsuitable:</u></b>",
+    "translation": "",
+    "context": "<<POS:20350766>>"
+  },
+  {
+    "key": "button|Anus|6c01ebbda1c0",
+    "original": "Anus",
+    "translation": "",
+    "context": "<<POS:20351038>> addButton(e,\"Anus\",(function(){return w(d[e])}),\"Anus\",\"Use your anus.\")"
+  },
+  {
+    "key": "button.hover|Anus|6c01ebbda1c0",
+    "original": "Anus",
+    "translation": "",
+    "context": "<<POS:20351074>> addButton(e,\"Anus\",(function(){return w(d[e])}),\"Anus\",\"Use your anus.\")"
+  },
+  {
+    "key": "button.tooltip|Use_your_anus|7ff8e5dc0a46",
+    "original": "Use your anus.",
+    "translation": "",
+    "context": "<<POS:20351081>> addButton(e,\"Anus\",(function(){return w(d[e])}),\"Anus\",\"Use your anus.\")"
+  },
+  {
+    "key": "button|Vagina|a0ce625bbedd",
+    "original": "Vagina",
+    "translation": "",
+    "context": "<<POS:20351132>> addButton(e,\"Vagina\",(function(){return w(d[e])}),\"Vagina\",ParseText(\"Use your [pc.vagina].\"))"
+  },
+  {
+    "key": "button.hover|Vagina|a0ce625bbedd",
+    "original": "Vagina",
+    "translation": "",
+    "context": "<<POS:20351170>> addButton(e,\"Vagina\",(function(){return w(d[e])}),\"Vagina\",ParseText(\"Use your [pc.vagina].\"))"
+  },
+  {
+    "key": "assign|Virgin|31147517f834",
+    "original": " Virgin",
+    "translation": "",
+    "context": "<<POS:20351787>>"
+  },
+  {
+    "key": "output|b_Anus_concat_a_b_concat_w_e|8b92211bb6f5",
+    "original": "<b>Anus\".concat(a,\":</b>\").concat(w_(e))",
+    "translation": "",
+    "context": "<<POS:20352124>>"
+  },
+  {
+    "key": "output|b_Vagina_concat_a_b_concat_w_e|137c681cdf2f",
+    "original": "<b>Vagina\".concat(a,\":</b>\").concat(w_(e))",
+    "translation": "",
+    "context": "<<POS:20352197>>"
+  },
+  {
+    "key": "output|b_concat_Ot_m_capitalize_Ot_m_numToOrdinal_e_1_Vagina_c|b2c05b76312e",
+    "original": "<b>\".concat(Ot.m.capitalize(Ot.m.numToOrdinal(e+1)),\" Vagina\").concat(a,\":</b>\").concat(w_(e))",
+    "translation": "",
+    "context": "<<POS:20352251>>"
+  },
+  {
+    "key": "output|b_Stretch_Likely_b|8c47b7c3ad46",
+    "original": ", <b>Stretch Likely!</b>",
+    "translation": "",
+    "context": "<<POS:20352547>>"
+  },
+  {
+    "key": "output|b_Stretch_Possible_b|42fd577dfd81",
+    "original": ", <b>Stretch Possible!</b>",
+    "translation": "",
+    "context": "<<POS:20352590>>"
+  },
+  {
+    "key": "output|b_Anus_concat_n_b_concat_w_e|3e045c932604",
+    "original": "<b>Anus\".concat(n,\":</b>\").concat(w_(e))",
+    "translation": "",
+    "context": "<<POS:20352749>>"
+  },
+  {
+    "key": "output|b_Vagina_concat_n_b_concat_w_e|d9869c658513",
+    "original": "<b>Vagina\".concat(n,\":</b>\").concat(w_(e))",
+    "translation": "",
+    "context": "<<POS:20352822>>"
+  },
+  {
+    "key": "output|b_concat_Ot_m_capitalize_Ot_m_numToOrdinal_e_1_Vagina_c|041f9fbef695",
+    "original": "<b>\".concat(Ot.m.capitalize(Ot.m.numToOrdinal(e+1)),\" Vagina\").concat(n,\":</b>\").concat(w_(e))",
+    "translation": "",
+    "context": "<<POS:20352876>>"
+  },
+  {
+    "key": "output|b_concat_t_join_b|1879821ea76d",
+    "original": " - <b>(\".concat(t.join(\" - \"),\")</b>\")",
+    "translation": "",
+    "context": "<<POS:20353031>>"
+  },
+  {
+    "key": "output|REASON_UNKNOWN|aa4ee98c56be",
+    "original": " (REASON UNKNOWN)",
+    "translation": "",
+    "context": "<<POS:20353079>>"
+  },
+  {
+    "key": "header|Selecting|a306f077bcb1",
+    "original": "Selecting...",
+    "translation": "",
+    "context": "<<POS:20354285>>"
+  },
+  {
+    "key": "output.expr|Which_of_var0_your_var1_s_phallic_implements_will|be23a0cd3801",
+    "original": "Which of \"+({var0}?\"your\":{var1}+\"’s\")+\" phallic implements will you use?",
+    "translation": "",
+    "context": "<<POS:20354309>> <<VARS:var0=r===pc,var1=r.short>> output(\"Which of \"+(r===pc?\"your\":r.short+\"’s\")+\" phallic implements will you use?\")"
+  },
+  {
+    "key": "output|b_u_Suitable_u_b|42f10676d79f",
+    "original": "<b><u>Suitable:</u></b>",
+    "translation": "",
+    "context": "<<POS:20354398>>"
+  },
+  {
+    "key": "output|b_u_Unsuitable_u_b|b2b5cac86fee#1",
+    "original": "<b><u>Unsuitable:</u></b>",
+    "translation": "",
+    "context": "<<POS:20354484>>"
+  },
+  {
+    "key": "button|HL_Strapon|3d03d8715f06",
+    "original": "HL Strapon",
+    "translation": "",
+    "context": "<<POS:20354657>> addButton(e,\"HL Strapon\",(function(){return m(l[e])}),\"Hardlight Strap-On\",\"Use the dildo from \"+(r===pc?\"your [pc.lowerUndergarment].\":r.mf(\"his\",\"her\")+r.inventory.lowerUndergarment.longName+\".\"))"
+  },
+  {
+    "key": "button.hover|Hardlight_Strap_On|14bb0ed7462b",
+    "original": "Hardlight Strap-On",
+    "translation": "",
+    "context": "<<POS:20354699>> addButton(e,\"HL Strapon\",(function(){return m(l[e])}),\"Hardlight Strap-On\",\"Use the dildo from \"+(r===pc?\"your [pc.lowerUndergarment].\":r.mf(\"his\",\"her\")+r.inventory.lowerUndergarment.longName+\".\"))"
+  },
+  {
+    "key": "button.tooltip|Use_the_dildo_from|16a4c64f7d8f",
+    "original": "Use the dildo from ",
+    "translation": "",
+    "context": "<<POS:20354720>> addButton(e,\"HL Strapon\",(function(){return m(l[e])}),\"Hardlight Strap-On\",\"Use the dildo from \"+(r===pc?\"your [pc.lowerUndergarment].\":r.mf(\"his\",\"her\")+r.inventory.lowerUndergarment.longName+\".\"))"
+  },
+  {
+    "key": "button|Penis|1e746f9198d3",
+    "original": "Penis",
+    "translation": "",
+    "context": "<<POS:20354876>> addButton(e,\"Penis\",(function(){return m(l[e])}),\"Penis\",r===pc?ParseText(\"Use your [pc.cock].\"):\"Use \"+r.short+\"’s \"+r.cockDescript()+\".\")"
+  },
+  {
+    "key": "button.hover|Penis|1e746f9198d3",
+    "original": "Penis",
+    "translation": "",
+    "context": "<<POS:20354913>> addButton(e,\"Penis\",(function(){return m(l[e])}),\"Penis\",r===pc?ParseText(\"Use your [pc.cock].\"):\"Use \"+r.short+\"’s \"+r.cockDescript()+\".\")"
+  },
+  {
+    "key": "button.tooltip.expr|var0_var1_Use_your_pc_cock_Use_var2_s_var3|a2aa93e213c0",
+    "original": "{var0}?{var1}(\"Use your [pc.cock].\"):\"Use \"+{var2}+\"’s \"+{var3}.cockDescript()+\".\"",
+    "translation": "",
+    "context": "<<POS:20354920>> <<VARS:var0=r===pc,var1=ParseText,var2=r.short,var3=r>> addButton(e,\"Penis\",(function(){return m(l[e])}),\"Penis\",r===pc?ParseText(\"Use your [pc.cock].\"):\"Use \"+r.short+\"’s \"+r.cockDescript()+\".\")"
+  },
+  {
+    "key": "button|Penis|918e24e6d23c",
+    "original": "Penis ",
+    "translation": "",
+    "context": "<<POS:20355016>> addButton(e,\"Penis \"+(l[e]+1),(function(){return m(l[e])}),Ot.m.capitalize(Ot.m.numToOrdinal(l[e]+1))+\" Penis\",r===pc?ParseText(\"Use your [pc.cock \"+l[e]+\"].\"):\"Use \"+r.short+\"’s \"+r.cockDescript(e)+\".\")"
+  },
+  {
+    "key": "button.hover.expr|var2_capitalize_var1_numToOrdinal_var0_1_Penis|a469c72f1141",
+    "original": "{var2}.capitalize({var1}.numToOrdinal({var0}+1))+\" Penis\"",
+    "translation": "",
+    "context": "<<POS:20355062>> <<VARS:var0=l[e],var1=Ot.m,var2=Ot.m>> addButton(e,\"Penis \"+(l[e]+1),(function(){return m(l[e])}),Ot.m.capitalize(Ot.m.numToOrdinal(l[e]+1))+\" Penis\",r===pc?ParseText(\"Use your [pc.cock \"+l[e]+\"].\"):\"Use \"+r.short+\"’s \"+r.cockDescript(e)+\".\")"
+  },
+  {
+    "key": "button.tooltip.expr|var0_var2_Use_your_pc_cock_var1_Use_var3|94fa378075b4",
+    "original": "{var0}?{var2}(\"Use your [pc.cock \"+{var1}+\"].\"):\"Use \"+{var3}+\"’s \"+{var5}.cockDescript({var4})+\".\"",
+    "translation": "",
+    "context": "<<POS:20355114>> <<VARS:var0=r===pc,var1=l[e],var2=ParseText,var3=r.short,var4=e,var5=r>> addButton(e,\"Penis \"+(l[e]+1),(function(){return m(l[e])}),Ot.m.capitalize(Ot.m.numToOrdinal(l[e]+1))+\" Penis\",r===pc?ParseText(\"Use your [pc.cock \"+l[e]+\"].\"):\"Use \"+r.short+\"’s \"+r.cockDescript(e)+\".\")"
+  },
+  {
+    "key": "output.expr|b_Hardlight_Strap_On_b_var1_toDisplayCase_var0|07c2b90a611a",
+    "original": "<b>Hardlight Strap-On:</b> \"+{var1}.toDisplayCase({var0})",
+    "translation": "",
+    "context": "<<POS:20355881>> <<VARS:var0=pc.inventory.lowerUndergarment.longName,var1=Ot.m>> output(\"\\n<b>Hardlight Strap-On:</b> \"+Ot.m.toDisplayCase(pc.inventory.lowerUndergarment.longName))"
+  },
+  {
+    "key": "output.expr|b_Penis_b_var1_var0|66572430d683",
+    "original": "<b>Penis:</b>\"+{var1}({var0})",
+    "translation": "",
+    "context": "<<POS:20356001>> <<VARS:var0=e,var1=T_>> output(\"\\n<b>Penis:</b>\"+T_(e))"
+  },
+  {
+    "key": "output.expr|b_var2_capitalize_var1_numToOrdinal_var0_1_Penis|857e96a7a62e",
+    "original": "<b>\"+{var2}.capitalize({var1}.numToOrdinal({var0}+1))+\" Penis:</b>\"+{var4}({var3})",
+    "translation": "",
+    "context": "<<POS:20356033>> <<VARS:var0=e,var1=Ot.m,var2=Ot.m,var3=e,var4=T_>> output(\"\\n<b>\"+Ot.m.capitalize(Ot.m.numToOrdinal(e+1))+\" Penis:</b>\"+T_(e))"
+  },
+  {
+    "key": "output.expr|b_Penis_b_var1_var0|336f0360b9d0",
+    "original": "<b>Penis:</b>\"+{var1}({var0})",
+    "translation": "",
+    "context": "<<POS:20356146>> <<VARS:var0=e,var1=T_>> output(\"\\n<b>Penis:</b>\"+T_(e))"
+  },
+  {
+    "key": "output.expr|b_var2_capitalize_var1_numToOrdinal_var0_1_Penis|857e96a7a62e#1",
+    "original": "<b>\"+{var2}.capitalize({var1}.numToOrdinal({var0}+1))+\" Penis:</b>\"+{var4}({var3})",
+    "translation": "",
+    "context": "<<POS:20356178>> <<VARS:var0=e,var1=Ot.m,var2=Ot.m,var3=e,var4=T_>> output(\"\\n<b>\"+Ot.m.capitalize(Ot.m.numToOrdinal(e+1))+\" Penis:</b>\"+T_(e))"
+  },
+  {
+    "key": "output.expr|b_var0_join_b|41b64866e312",
+    "original": " - <b>(\"+{var0}.join(\" - \")+\")</b>",
+    "translation": "",
+    "context": "<<POS:20356303>> <<VARS:var0=t>> output(\" - <b>(\"+t.join(\" - \")+\")</b>\")"
+  },
+  {
+    "key": "output|REASON_UNKNOWN|20b65e2b405b",
+    "original": " (REASON UNKNOWN)",
+    "translation": "",
+    "context": "<<POS:20356343>>"
+  },
+  {
+    "key": "header|Selecting|a306f077bcb1#1",
+    "original": "Selecting...",
+    "translation": "",
+    "context": "<<POS:20358042>>"
+  },
+  {
+    "key": "output|Which_set_of_implements_will_you_use|597b1704a2c8",
+    "original": "Which set of implements will you use?",
+    "translation": "",
+    "context": "<<POS:20358066>>"
+  },
+  {
+    "key": "button.expr|var0_hasCocks_Penises_Penis|a8f5376fc02b",
+    "original": "{var0}.hasCocks()?\"Penises\":\"Penis\"",
+    "translation": "",
+    "context": "<<POS:20358130>> <<VARS:var0=pc>> addButton(0,pc.hasCocks()?\"Penises\":\"Penis\",(function(){return A_.apply(void 0,[i].concat((0,c.Z)(t)))}))"
+  },
+  {
+    "key": "button.expr|var0_hasVaginas_Vaginas_Vagina|35df11850d88",
+    "original": "{var0}.hasVaginas()?\"Vaginas\":\"Vagina\"",
+    "translation": "",
+    "context": "<<POS:20358236>> <<VARS:var0=pc>> addButton(1,pc.hasVaginas()?\"Vaginas\":\"Vagina\",(function(){return f_.apply(void 0,[s].concat((0,c.Z)(o)))}))"
+  },
+  {
+    "key": "header|No_cock_or_vagina_found|3e62ac12cb2e",
+    "original": "No cock or vagina found",
+    "translation": "",
+    "context": "<<POS:20358485>>"
+  },
+  {
+    "key": "output|The_following_scene_will_fall_back_to_using_a_concat_a_vagina|327eea862016",
+    "original": "The following scene will fall back to using a \".concat(a?\"vagina\":\"cock\",\" and may have issues, please report.\")",
+    "translation": "",
+    "context": "<<POS:20358520>>"
+  },
+  {
+    "key": "button|Next|9593fa1d8f81",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20358659>> addButton(0,\"Next\",(function(){return e(0,a)}))"
+  },
+  {
+    "key": "header|Selecting|1f588c7942c7#1",
+    "original": "Selecting...",
+    "translation": "",
+    "context": "<<POS:20359196>>"
+  },
+  {
+    "key": "output|Which_set_of_implements_will_you_use|597b1704a2c8#1",
+    "original": "Which set of implements will you use?",
+    "translation": "",
+    "context": "<<POS:20359220>>"
+  },
+  {
+    "key": "button.expr|var0_Penises_Penis|e482f19c66fb",
+    "original": "{var0}?\"Penises\":\"Penis\"",
+    "translation": "",
+    "context": "<<POS:20359284>> <<VARS:var0=y.length>1>> addButton(0,y.length>1?\"Penises\":\"Penis\",(function(){return E_(p)}))"
+  },
+  {
+    "key": "button.expr|var0_var1_Vaginas_Vagina_var2_hasVagina_Holes_Anu|aad56fccdf0f",
+    "original": "{var0}?{var1}?\"Vaginas\":\"Vagina\":{var2}.hasVagina()?\"Holes\":\"Anus\"",
+    "translation": "",
+    "context": "<<POS:20359353>> <<VARS:var0=m.indexOf(-1)<0,var1=m.length>1,var2=pc>> addButton(1,m.indexOf(-1)<0?m.length>1?\"Vaginas\":\"Vagina\":pc.hasVagina()?\"Holes\":\"Anus\",(function(){return b_(d)}))"
+  },
+  {
+    "key": "output|The_temperature_gradually_changes_around_you|6410316fbf4b",
+    "original": "The temperature gradually changes around you.",
+    "translation": "",
+    "context": "<<POS:20361781>>"
+  },
+  {
+    "key": "output|With_relief_you_can_finally_take_some_time_to_defrost_and_enjo|08d309d35521",
+    "original": " With relief, you can finally take some time to defrost and enjoy the warmth!",
+    "translation": "",
+    "context": "<<POS:20361862>>"
+  },
+  {
+    "key": "perk|Easy|3269c6ee83a3",
+    "original": "Easy",
+    "translation": "",
+    "context": "<<POS:20365565>> createPerk(\"Easy\",20,0,0,0,\"Gain 20% more lust from combat sources.\")"
+  },
+  {
+    "key": "perk|Inhuman_Desire|4677d62297de",
+    "original": "Inhuman Desire",
+    "translation": "",
+    "context": "<<POS:20365668>> createPerk(\"Inhuman Desire\",15,0,0,0,\"Increases maximum lust by 15.\")"
+  },
+  {
+    "key": "perk|Breed_Hungry|578816067347",
+    "original": "Breed Hungry",
+    "translation": "",
+    "context": "<<POS:20365769>> createPerk(\"Breed Hungry\",15,0,0,0,\"Increases speed that semen is created at and pregnancy speed.\")"
+  },
+  {
+    "key": "perk|Ditz_Speech|29cb48c717d5",
+    "original": "Ditz Speech",
+    "translation": "",
+    "context": "<<POS:20365899>> createPerk(\"Ditz Speech\",0,0,0,0,\"Alters dialogue in certain scenes.\")"
+  },
+  {
+    "key": "assign|You_have_been_exposed_to_radiation_damaging_the_inner_workings|a23d2d26638c",
+    "original": "You have been exposed to radiation, damaging the inner workings of your cells! Your enhanced immune system can repair the damage with sufficient time, at the expense of equivalent amounts of <b>lingering taint</b>. Your codex recommends utilizing protective equipment in hazardous areas and avoiding further exposure until you have been suitably decontaminated.\\n\\n<b>-",
+    "translation": "",
+    "context": "<<POS:20367362>>"
+  },
+  {
+    "key": "assign|Drop_Raskvel_Loot|c319d037e71b",
+    "original": "Drop Raskvel Loot",
+    "translation": "",
+    "context": "<<POS:20370192>>"
+  },
+  {
+    "key": "assign|You_are_going_to_drop_b|4d9f089d139d",
+    "original": "You are going to drop <b>",
+    "translation": "",
+    "context": "<<POS:20370215>>"
+  },
+  {
+    "key": "output|credits|12f7bcb85e8f",
+    "original": "credits",
+    "translation": "",
+    "context": "<<POS:20370411>>"
+  },
+  {
+    "key": "assign|br_br_Because_you_have_mutliple_raskvel_loot_items_you_can_al|c1ba1a8c2fba",
+    "original": "<br><br>Because you have mutliple raskvel loot items, you can also choose to <b>Drop All</b> if you desire to remove them all at once.",
+    "translation": "",
+    "context": "<<POS:20370474>>"
+  },
+  {
+    "key": "assign|br_br_i_Note_that_dropping_the_loot_will_remove_it_from_your|dfe94fa80a42",
+    "original": "<br><br><i>Note that dropping the loot will remove it from your inventory and cannot be reclaimed.</i>",
+    "translation": "",
+    "context": "<<POS:20370615>>"
+  },
+  {
+    "key": "assign|You_have_dropped|cf94430b8eaa",
+    "original": "You have dropped ",
+    "translation": "",
+    "context": "<<POS:20370797>>"
+  },
+  {
+    "key": "assign|Drop_All_Raskvel_Loot|4818fc58b2d0",
+    "original": "Drop All Raskvel Loot",
+    "translation": "",
+    "context": "<<POS:20371264>>"
+  },
+  {
+    "key": "assign|You_are_going_to_drop_b_all_of_your_raskvel_loot_items_b_whi|dfa9b5054518",
+    "original": "You are going to drop <b>all of your raskvel loot items</b>, which is possibly worth around <b>",
+    "translation": "",
+    "context": "<<POS:20371291>>"
+  },
+  {
+    "key": "output|credits|579d74703689",
+    "original": "credits",
+    "translation": "",
+    "context": "<<POS:20371452>>"
+  },
+  {
+    "key": "output|i_I_m_having_so_much_fun_i_she_grins_jiggling_excitedly_a|0d1b4434ba6e",
+    "original": "<i>“I’m having so much fun!”</i> she grins, jiggling excitedly at the screen. <i>“Space is amazing. There are so many cool people and weird places and adventures. So many adventures! I never thought I’d be, like, a real life adventurer. Well, kind of. [pc.name] is the real adventurer, but [pc.heShe]’s been nice enough to let me tag along.”</i>",
+    "translation": "",
+    "context": "<<POS:20373118>>"
+  },
+  {
+    "key": "output|You_hear_a_noble_reserved_laugh_from_the_screen_and_a_woman_s|afde76280ad4",
+    "original": "You hear a noble, reserved laugh from the screen, and a woman’s voice answer. <i>“That’s lovely, [gooarmor.name]. I’m glad you’re being taken care of.”</i>",
+    "translation": "",
+    "context": "<<POS:20373478>>"
+  },
+  {
+    "key": "output|i_How_s_the_new_body_Everything_where_it_s_supposed_to_be|9fa85ceb0c78",
+    "original": "<i>“How’s the new body? Everything where it’s supposed to be?”</i> [gooarmor.name] teases, making her big ol’ tits bounce.",
+    "translation": "",
+    "context": "<<POS:20373648>>"
+  },
+  {
+    "key": "output|i_I_am_fully_functional_yes_i_the_voice_says_with_anot|344dd48900e6",
+    "original": "<i>“I am... fully functional, yes,”</i> the voice says with another laugh. <i>“The new body’s quite nice, actually. I do admit, I miss the flexibility and convenience we used to have, but I shouldn’t complain. Sometimes I even forget that I’m not... me.”</i>",
+    "translation": "",
+    "context": "<<POS:20373785>>"
+  },
+  {
+    "key": "output|gooarmor_name_pouts_i_Aww_don_t_be_like_that_You_re_gonna|6df56c7fb076",
+    "original": "[gooarmor.name] pouts. <i>“Aww, don’t be like that. You’re gonna make </i>me<i> sad. Oh, didn’t you get that super duper awesome job, anyway?”</i>",
+    "translation": "",
+    "context": "<<POS:20374058>>"
+  },
+  {
+    "key": "output|i_I_did_i_the_woman_says_her_tone_changing_immediately|060e36875f26",
+    "original": "<i>“I did!”</i> the woman says, her tone changing immediately. <i>“Steele Tech offered me a captain’s post aboard one of their transports. They said I had sufficient ‘prior experience.’ Ha! Still, it’s something to do. Most of the crew is still in re-education classes to bring them up to speed on all the advances in the last few centuries.”</i>",
+    "translation": "",
+    "context": "<<POS:20374219>>"
+  },
+  {
+    "key": "output|gooarmor_name_beams_i_Super_cool_I_guess_I_can_still_call|83bbad1643b7",
+    "original": "[gooarmor.name] beams. <i>“Super cool! I guess I can still call you ‘captain,’ then?”</i>",
+    "translation": "",
+    "context": "<<POS:20374580>>"
+  },
+  {
+    "key": "output|i_I_suppose_you_can_i_the_woman_laughs_i_Ah_speaking_o|58e72065a9ac",
+    "original": "<i>“I suppose you can,”</i> the woman laughs. <i>“Ah, speaking of which, looks like my XO is at the door. I have to run, [gooarmor.name]. I’ll call you back soon.”</i>",
+    "translation": "",
+    "context": "<<POS:20374684>>"
+  },
+  {
+    "key": "output|i_Aw_Okay_See_you_later_Captain_Morrow_Love_you_Bye_i|7af158645118",
+    "original": "<i>“Aw. Okay! See you later, Captain Morrow. Love you. Bye.”</i>",
+    "translation": "",
+    "context": "<<POS:20374866>>"
+  },
+  {
+    "key": "output|The_screen_flicks_off_to_black_and_like_breathing_a_sigh_gooa|267b63d42525",
+    "original": "The screen flicks off to black, and like breathing a sigh, [gooarmor.name] resumes her less-human gooey form. She scoots back over to where you’ve dumped your equipment and collapses into an amorphous pile, awaiting you. Smiling to yourself, you roll back over and go to sleep again...",
+    "translation": "",
+    "context": "<<POS:20374945>>"
+  },
+  {
+    "key": "button|Next|d1b50f53bf8b",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20375258>> addButton(0,\"Next\",(function(){var e=Hl.L.findPlayerShipBedroom();e&&skipToRoom(e),mainGameMenu()}))"
+  },
+  {
+    "key": "assign|your|62710854f814",
+    "original": "your ",
+    "translation": "",
+    "context": "<<POS:20375694>>"
+  },
+  {
+    "key": "button|Next|d96e6aa5fa5a",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20376613>> addButton(0,\"Next\",mainGameMenu)"
+  },
+  {
+    "key": "name.show|Kally_Kiro|d11630cb91d6",
+    "original": "Kally & Kiro",
+    "translation": "",
+    "context": "<<POS:20381320>> showName(\"Kally & Kiro\")"
+  },
+  {
+    "key": "name.show|Kiro_Paige|3de7e4770cc0",
+    "original": "Kiro & Paige",
+    "translation": "",
+    "context": "<<POS:20381818>> showName(\"Kiro & Paige\")"
+  },
+  {
+    "key": "name.show|Paige_Kiro|06aedcbd8710",
+    "original": "Paige & Kiro",
+    "translation": "",
+    "context": "<<POS:20381894>> showName(\"Paige & Kiro\")"
+  },
+  {
+    "key": "name.show|Steph_Irson|c8ce6f9982f3",
+    "original": "Steph Irson",
+    "translation": "",
+    "context": "<<POS:20384150>> showName(\"Steph Irson\")"
+  },
+  {
+    "key": "name.show|Gray_Goo|d79c0846045c",
+    "original": "Gray Goo",
+    "translation": "",
+    "context": "<<POS:20384762>> showName(\"Gray Goo\")"
+  },
+  {
+    "key": "name.show.expr|var0_Korgonne_Princess_Ula|da1c35a5a552",
+    "original": "{var0}?\"Korgonne Princess\":\"Ula\"",
+    "translation": "",
+    "context": "<<POS:20387421>> <<VARS:var0=void 0===flags.MET_ULA>> showName(void 0===flags.MET_ULA?\"Korgonne Princess\":\"Ula\")"
+  },
+  {
+    "key": "output|i_You_want_me_to|04f042f0e52d",
+    "original": "<i>“You want me to ",
+    "translation": "",
+    "context": "<<POS:20388204>>"
+  },
+  {
+    "key": "output|wear_this|f56b697f4c43",
+    "original": "wear this",
+    "translation": "",
+    "context": "<<POS:20388236>>"
+  },
+  {
+    "key": "output|go_naked_for_a_while|594458de9a76",
+    "original": "go naked for a while",
+    "translation": "",
+    "context": "<<POS:20388256>>"
+  },
+  {
+    "key": "output|i_Reaha_asks_sweetly_i_For_you_anything_I_ll_go_get_ch|fbe3d9725ac8",
+    "original": "?”</i> Reaha asks sweetly. <i>“For you, anything! I’ll go get changed!”</i>",
+    "translation": "",
+    "context": "<<POS:20388287>>"
+  },
+  {
+    "key": "output|Reaha_collects_her_things_and_skips_off_to_her_quarters_A_few_m|0ba6c3733303",
+    "original": "Reaha collects her things and skips off to her quarters. A few moments later and she’s wandering the corridors",
+    "translation": "",
+    "context": "<<POS:20388377>>"
+  },
+  {
+    "key": "output|trussed_up_in_her_reaha_gear|caa1f68d8c3d",
+    "original": " trussed up in her [reaha.gear].",
+    "translation": "",
+    "context": "<<POS:20388500>>"
+  },
+  {
+    "key": "output|butt_naked_flaunting_what_she_s_got_for_you|35bbe8d2bc91",
+    "original": " butt naked, flaunting what she’s got for you.",
+    "translation": "",
+    "context": "<<POS:20388543>>"
+  },
+  {
+    "key": "output|You_bet_her_johns_will_get_a_kick_out_of_that|a8c96945f50d",
+    "original": " You bet her johns will get a kick out of that!",
+    "translation": "",
+    "context": "<<POS:20388634>>"
+  },
+  {
+    "key": "output|You_make_your_selection|641f7ad550f1",
+    "original": "You make your selection.",
+    "translation": "",
+    "context": "<<POS:20388828>>"
+  },
+  {
+    "key": "output|i_Ooooh_Mitzi_has_a_lot_of_fun_with_that_one_She_ll_wear_it|39a86ff42beb",
+    "original": "<i>“Ooooh, Mitzi has a lot of fun with that one. She’ll wear it around for days, [pc.Master], all for you.”</i> Her tail affectionately caresses your cheek",
+    "translation": "",
+    "context": "<<POS:20388867>>"
+  },
+  {
+    "key": "output|and_you_can_t_help_but_give_it_a_quick_kiss|d5c7f00430fb",
+    "original": ", and you can’t help but give it a quick kiss",
+    "translation": "",
+    "context": "<<POS:20389050>>"
+  },
+  {
+    "key": "output|The_bimbo_goblin_makes_a_show_of_peeling_out_of_her_mitzi_armor|6d7b0643ca5b",
+    "original": "The bimbo goblin makes a show of peeling out of her [mitzi.armor] and slowly unveiling more and more of her almost perfectly smooth skin. You have to shut down multiple attempts at sex just to keep her simple mind on task, but after the third rejection, she gets the hint and slips into her newly designated slut-wear.",
+    "translation": "",
+    "context": "<<POS:20389132>>"
+  },
+  {
+    "key": "output|i_Mmmm_maybe_this_ll_get_you_to_fuck_me_What_do_you_think|f83fc18a2aab",
+    "original": " <i>“Mmmm, maybe this’ll get you to fuck me. What do you think, [pc.Master]?”</i> Mitzi twirls. <i>“It makes you want to fuck Mitzi to pieces, doesn’t it?”</i>",
+    "translation": "",
+    "context": "<<POS:20389462>>"
+  },
+  {
+    "key": "output|b_concat_e_short_is_now_concat_e_isNude_naked_weari|6ce7be45885e",
+    "original": "<b>\".concat(e.short,\" is now \").concat(e.isNude()?\"naked\":\"wearing \".concat(e.gearDescript()),\"!</b>\")",
+    "translation": "",
+    "context": "<<POS:20389663>>"
+  },
+  {
+    "key": "output|b_u_concat_e_short_s_Current_Clothing_u_b|3a6199723cdf",
+    "original": "<b><u>\".concat(e.short,\"’s Current Clothing</u></b>\")",
+    "translation": "",
+    "context": "<<POS:20389792>>"
+  },
+  {
+    "key": "output.expr|var1_simpleList_var0|1f8e44dc3b66",
+    "original": "{var1}.simpleList({var0})",
+    "translation": "",
+    "context": "<<POS:20390153>> <<VARS:var0=t,var1=Ot.m>> output(Ot.m.simpleList(t))"
+  },
+  {
+    "key": "output|b_u_concat_e_short_s_Available_Clothing_u_b|c43922b4b024",
+    "original": "<b><u>\".concat(e.short,\"’s Available Clothing</u></b>\")",
+    "translation": "",
+    "context": "<<POS:20390199>>"
+  },
+  {
+    "key": "output.expr|var1_simpleList_var0|42a9b56fca59",
+    "original": "{var1}.simpleList({var0})",
+    "translation": "",
+    "context": "<<POS:20390589>> <<VARS:var0=t,var1=Ot.m>> output(Ot.m.simpleList(t))"
+  },
+  {
+    "key": "button|Wear_Clothes|44d739b2b443",
+    "original": "Wear Clothes",
+    "translation": "",
+    "context": "<<POS:20390622>> addButton(0,\"Wear Clothes\",(function a(){clearOutput(),e.header(),function(){if(\"Mitzi\"===e.getClassName())output(\"You inform Mitzi that you’re going to pick out something for her to wear.\"),output(\"\\n\\n<i>“Oooh, really? Mitzi has like, the best [pc.Master]! Who else would care enough to pretty up [..."
+  },
+  {
+    "key": "button.hover|Wear_Clothes|44d739b2b443",
+    "original": "Wear Clothes",
+    "translation": "",
+    "context": "<<POS:20393205>> addButton(0,\"Wear Clothes\",(function a(){clearOutput(),e.header(),function(){if(\"Mitzi\"===e.getClassName())output(\"You inform Mitzi that you’re going to pick out something for her to wear.\"),output(\"\\n\\n<i>“Oooh, really? Mitzi has like, the best [pc.Master]! Who else would care enough to pretty up [..."
+  },
+  {
+    "key": "button.tooltip|Change|1c092f915eac",
+    "original": "Change ",
+    "translation": "",
+    "context": "<<POS:20393220>> addButton(0,\"Wear Clothes\",(function a(){clearOutput(),e.header(),function(){if(\"Mitzi\"===e.getClassName())output(\"You inform Mitzi that you’re going to pick out something for her to wear.\"),output(\"\\n\\n<i>“Oooh, really? Mitzi has like, the best [pc.Master]! Who else would care enough to pretty up [..."
+  },
+  {
+    "key": "output|b_You_don_t_have_anything_to_give_concat_e_short_right_now|4346ebd1547b",
+    "original": "<b>You don’t have anything to give \".concat(e.short,\" right now.</b>\\n\\n\")",
+    "translation": "",
+    "context": "<<POS:20393921>>"
+  },
+  {
+    "key": "output|Which_clothes_do_you_want_to_give_concat_e_short_n_n|6bd6128a0eab",
+    "original": "Which clothes do you want to give \".concat(e.short,\"?\\n\\n\")",
+    "translation": "",
+    "context": "<<POS:20394005>>"
+  },
+  {
+    "key": "button|Outfits|a8877bb9be35",
+    "original": "Outfits (",
+    "translation": "",
+    "context": "<<POS:20394416>> addButton(u,\"Outfits (\".concat(h,\")\"),(function(){return l(e)}),\"Selection of Outfits: \".concat(s===r?s:\"\".concat(s,\" to \").concat(r)),a===i?\"\".concat(t,\".\"):\"\".concat(t,\" through \").concat(o,\".\"))"
+  },
+  {
+    "key": "button.hover|Selection_of_Outfits|47edf6f419cd",
+    "original": "Selection of Outfits: ",
+    "translation": "",
+    "context": "<<POS:20394468>> addButton(u,\"Outfits (\".concat(h,\")\"),(function(){return l(e)}),\"Selection of Outfits: \".concat(s===r?s:\"\".concat(s,\" to \").concat(r)),a===i?\"\".concat(t,\".\"):\"\".concat(t,\" through \").concat(o,\".\"))"
+  },
+  {
+    "key": "button.tooltip.expr|var0_concat_t_concat_t_through_concat_o|3ca369db7fd7",
+    "original": "{var0}?\"\".concat(t,\".\"):\"\".concat(t,\" through \").concat(o,\".\")",
+    "translation": "",
+    "context": "<<POS:20394538>> <<VARS:var0=a===i>> addButton(u,\"Outfits (\".concat(h,\")\"),(function(){return l(e)}),\"Selection of Outfits: \".concat(s===r?s:\"\".concat(s,\" to \").concat(r)),a===i?\"\".concat(t,\".\"):\"\".concat(t,\" through \").concat(o,\".\"))"
+  },
+  {
+    "key": "button|Back|1ecfe7f3692b",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:20395251>> addButton(14,\"Back\",o)"
+  },
+  {
+    "key": "output|i_I_ve_got_a_present_for_you_i|38aed546ddb8",
+    "original": "<i>“I’ve got a present for you!”</i>",
+    "translation": "",
+    "context": "<<POS:20395404>>"
+  },
+  {
+    "key": "output|i_Ooh_What_is_it_i_she_asks_looking_at_you_expectantly|833a7985273d",
+    "original": "<i>“Ooh! What is it?”</i> she asks, looking at you expectantly.",
+    "translation": "",
+    "context": "<<POS:20395455>>"
+  },
+  {
+    "key": "output.expr|i_Oh_cute_i_Reaha_giggles_as_you_hand_over_var0_S|a0d83a72ca19",
+    "original": " <i>“Oh, cute!”</i> Reaha giggles as you hand over \"+{var0}+\". She puts it up against herself, showing off her cute new outfit for you. You tell her it looks good on her, earning a smile from her. <i>“Thank you so much, [pc.name]! I’ll go change!”</i>",
+    "translation": "",
+    "context": "<<POS:20395543>> <<VARS:var0=a.description>> output(\" <i>“Oh, cute!”</i> Reaha giggles as you hand over \"+a.description+\". She puts it up against herself, showing off her cute new outfit for you. You tell her it looks good on her, earning a smile from her. <i>“Thank you so much, [pc.name]! I’ll go change!”</i>\")"
+  },
+  {
+    "key": "output.expr|i_Armor_i_Reaha_asks_raising_an_eyebrow_but_taking_v|8f53324ce5fa",
+    "original": " <i>“Armor?”</i> Reaha asks, raising an eyebrow, but taking \"+{var0}+\" anyway. <i>“Neat. I haven’t really worn much armor since the army, but I appreciate the thought!",
+    "translation": "",
+    "context": "<<POS:20395826>> <<VARS:var0=a.description>> output(\" <i>“Armor?”</i> Reaha asks, raising an eyebrow, but taking \"+a.description+\" anyway. <i>“Neat. I haven’t really worn much armor since the army, but I appreciate the thought!\")"
+  },
+  {
+    "key": "output|This_ll_keep_me_nice_and_safe_in_case_somebody_tries_to_rustle|78c199dae2a1",
+    "original": " This’ll keep me nice and safe in case somebody tries to rustle me, right?",
+    "translation": "",
+    "context": "<<POS:20396032>>"
+  },
+  {
+    "key": "output|This_ll_come_in_handy_in_case_we_ever_get_boarded_I_m_sure|a0b2e3cfb740",
+    "original": " This’ll come in handy in case we ever get boarded, I’m sure.",
+    "translation": "",
+    "context": "<<POS:20396117>>"
+  },
+  {
+    "key": "output|I_ll_go_put_this_on_thanks_pc_name_Glad_to_know_you_re_lo|de489b0118ff",
+    "original": " I’ll go put this on - thanks, [pc.name]. Glad to know you’re looking out for me!”</i>",
+    "translation": "",
+    "context": "<<POS:20396189>>"
+  },
+  {
+    "key": "output.expr|i_Wow_a_shield_generator_i_Reaha_says_as_you_hand_over|f4923857bfa9",
+    "original": " <i>“Wow, a shield generator,”</i> Reaha says as you hand over \"+{var0}+\". <i>“Us poor grunts didn’t even get these back in the army. Then again, I mostly sat around in a tank anyway!”</i> she laughs, taking \"+{var1}+\".",
+    "translation": "",
+    "context": "<<POS:20396301>> <<VARS:var0=a.description,var1=a.description>> output(\" <i>“Wow, a shield generator,”</i> Reaha says as you hand over \"+a.description+\". <i>“Us poor grunts didn’t even get these back in the army. Then again, I mostly sat around in a tank anyway!”</i> she laughs, taking \"+a.description+\".\")"
+  },
+  {
+    "key": "output|i_Thanks_for_this_pc_name_i_she_adds_with_a_smile_i|60699a279c9d",
+    "original": "<i>“Thanks for this, [pc.name],”</i> she adds with a smile. <i>“It’ll keep me nice and safe!”</i>",
+    "translation": "",
+    "context": "<<POS:20396549>>"
+  },
+  {
+    "key": "output.expr|i_Oh_i_she_says_the_excitement_fading_from_her_voice|b0ca20ba3dce",
+    "original": " <i>“...Oh,”</i> she says, the excitement fading from her voice as she sees the ugly \"+{var0}+\" on offer. <i>“Um, thanks, [pc.name].”</i>",
+    "translation": "",
+    "context": "<<POS:20396671>> <<VARS:var0=a.description>> output(\" <i>“...Oh,”</i> she says, the excitement fading from her voice as she sees the ugly \"+a.description+\" on offer. <i>“Um, thanks, [pc.name].”</i>\")"
+  },
+  {
+    "key": "output|i_Moo_i_Reaha_cheers_as_she_takes_in_the_pretty_cow_s_clo|03440965e3d4",
+    "original": " <i>“Moo!”</i> Reaha cheers as she takes in the pretty cow’s clothing. <i>“Hehe, thanks [pc.name], it’s adorable! I feel like I shouldn’t like cow-print, but... it’s just so cute! I love it!”</i>",
+    "translation": "",
+    "context": "<<POS:20396856>>"
+  },
+  {
+    "key": "output|She_catches_you_in_a_big_hug_squeezing_her_tits_tight_against_y|000bd8b88767",
+    "original": "She catches you in a big hug, squeezing her tits tight against your [pc.chest]. <i>“I’ll go change. Be a shame if someone took advantage of me while I did,”</i> she adds with a lusty wink.",
+    "translation": "",
+    "context": "<<POS:20397066>>"
+  },
+  {
+    "key": "output.expr|i_Aww_thank_you_i_Reaha_says_taking_the_proffered_va|6114a1ab3b38",
+    "original": " <i>“Aww, thank you!”</i> Reaha says, taking the proffered \"+{var0}+\" from you. Once you’ve handed it over, Reaha ",
+    "translation": "",
+    "context": "<<POS:20397267>> <<VARS:var0=a.description>> output(\" <i>“Aww, thank you!”</i> Reaha says, taking the proffered \"+a.description+\" from you. Once you’ve handed it over, Reaha \")"
+  },
+  {
+    "key": "output|leans_up_on_her_tip_toes_and|a632a735c203",
+    "original": "leans up on her tip-toes and",
+    "translation": "",
+    "context": "<<POS:20397428>>"
+  },
+  {
+    "key": "output|leans_in_and|37a35cdcecea",
+    "original": "leans in and",
+    "translation": "",
+    "context": "<<POS:20397467>>"
+  },
+  {
+    "key": "output|gives_you_a_peck_on_the_cheek_i_You_re_too_sweet_pc_name|d44e2b0da95d",
+    "original": " gives you a peck on the cheek. <i>“You’re too sweet, [pc.name]. I’ll go change into this right away!”</i>",
+    "translation": "",
+    "context": "<<POS:20397490>>"
+  },
+  {
+    "key": "output|i_Holyshitreally_i_Mitzi_hugs_your_pc_leg_crushingly_tig|ad78c821ca9b",
+    "original": "<i>“Holyshitreally?”</i> Mitzi hugs your [pc.leg] crushingly tight. Little bimbo tears streak down her cheeks. <i>“You’re the best, [pc.Master]. Mitzi is going to wear this for you right now!”</i>\\n\\nUnsurprisingly, she makes it look hot as hell.",
+    "translation": "",
+    "context": "<<POS:20397630>>"
+  },
+  {
+    "key": "button|Next|81f572c42c00",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20398074>> addButton(0,\"Next\",o)"
+  },
+  {
+    "key": "output|Are_you_sure_you_want_to_give_concat_e_short_concat_pc_in|94e6b4f6ad71",
+    "original": "Are you sure you want to give \".concat(e.short,\" \").concat(pc.inventory.storage[t].description,\"?\")",
+    "translation": "",
+    "context": "<<POS:20398116>>"
+  },
+  {
+    "key": "button|Yes|a526065367a5",
+    "original": "Yes",
+    "translation": "是的",
+    "context": "<<POS:20398242>> addButton(0,\"Yes\",(function(){return a(t)}),\"Yes\",\"Give \".concat(e.short,\" the clothes.\"))"
+  },
+  {
+    "key": "button.hover|Yes|a526065367a5",
+    "original": "Yes",
+    "translation": "",
+    "context": "<<POS:20398274>> addButton(0,\"Yes\",(function(){return a(t)}),\"Yes\",\"Give \".concat(e.short,\" the clothes.\"))"
+  },
+  {
+    "key": "button.tooltip|Give|d7c99f9ee261",
+    "original": "Give ",
+    "translation": "",
+    "context": "<<POS:20398280>> addButton(0,\"Yes\",(function(){return a(t)}),\"Yes\",\"Give \".concat(e.short,\" the clothes.\"))"
+  },
+  {
+    "key": "button|No|92037e356faf",
+    "original": "No",
+    "translation": "不",
+    "context": "<<POS:20398333>> addButton(1,\"No\",o,\"No\",\"Keep the clothes.\")"
+  },
+  {
+    "key": "button.hover|No|92037e356faf",
+    "original": "No",
+    "translation": "",
+    "context": "<<POS:20398340>> addButton(1,\"No\",o,\"No\",\"Keep the clothes.\")"
+  },
+  {
+    "key": "button.tooltip|Keep_the_clothes|d502599c23bd",
+    "original": "Keep the clothes.",
+    "translation": "",
+    "context": "<<POS:20398345>> addButton(1,\"No\",o,\"No\",\"Keep the clothes.\")"
+  },
+  {
+    "key": "button|Back|4d00659aa67e",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:20398379>> addButton(14,\"Back\",t)"
+  },
+  {
+    "key": "button|Return_Clothes|b063560375ca",
+    "original": "Return Clothes",
+    "translation": "",
+    "context": "<<POS:20398617>> addButton(2,\"Return Clothes\",(function o(){clearOutput(),e.header(),output(\"What will you have \".concat(e.short,\" return to you?\\n\\n\")),s();var a=e.inventory.storage.sort((function(e,t){return e.shortName.localeCompare(t.shortName)}));if(a.length>14){clearMenu();for(var n=window.chunkUpAnArray(a,14)..."
+  },
+  {
+    "key": "button.hover|Return_Clothes|b063560375ca",
+    "original": "Return Clothes",
+    "translation": "",
+    "context": "<<POS:20401047>> addButton(2,\"Return Clothes\",(function o(){clearOutput(),e.header(),output(\"What will you have \".concat(e.short,\" return to you?\\n\\n\")),s();var a=e.inventory.storage.sort((function(e,t){return e.shortName.localeCompare(t.shortName)}));if(a.length>14){clearMenu();for(var n=window.chunkUpAnArray(a,14)..."
+  },
+  {
+    "key": "button.tooltip|Take_back_some_clothes_from|ea3c616e1c57",
+    "original": "Take back some clothes from ",
+    "translation": "",
+    "context": "<<POS:20401064>> addButton(2,\"Return Clothes\",(function o(){clearOutput(),e.header(),output(\"What will you have \".concat(e.short,\" return to you?\\n\\n\")),s();var a=e.inventory.storage.sort((function(e,t){return e.shortName.localeCompare(t.shortName)}));if(a.length>14){clearMenu();for(var n=window.chunkUpAnArray(a,14)..."
+  },
+  {
+    "key": "button|Destroy_Clothes|99b3248c1a97",
+    "original": "Destroy Clothes",
+    "translation": "",
+    "context": "<<POS:20401122>> addButton(3,\"Destroy Clothes\",(function o(){clearOutput(),e.header(),output(\"You cannot get clothing back from \".concat(e.short,\" once you ask \").concat(n,\" to get rid of it.\\n\\nWhat will you have \").concat(e.short,\" throw out?\\n\\n\")),s();var i=e.inventory.storage.sort((function(e,t){return e.shortN..."
+  },
+  {
+    "key": "button.hover|Destroy_Clothes|99b3248c1a97",
+    "original": "Destroy Clothes",
+    "translation": "",
+    "context": "<<POS:20403876>> addButton(3,\"Destroy Clothes\",(function o(){clearOutput(),e.header(),output(\"You cannot get clothing back from \".concat(e.short,\" once you ask \").concat(n,\" to get rid of it.\\n\\nWhat will you have \").concat(e.short,\" throw out?\\n\\n\")),s();var i=e.inventory.storage.sort((function(e,t){return e.shortN..."
+  },
+  {
+    "key": "button.tooltip|Get_rid_of_some_of|5f9260bb7aca",
+    "original": "Get rid of some of ",
+    "translation": "",
+    "context": "<<POS:20403894>> addButton(3,\"Destroy Clothes\",(function o(){clearOutput(),e.header(),output(\"You cannot get clothing back from \".concat(e.short,\" once you ask \").concat(n,\" to get rid of it.\\n\\nWhat will you have \").concat(e.short,\" throw out?\\n\\n\")),s();var i=e.inventory.storage.sort((function(e,t){return e.shortN..."
+  },
+  {
+    "key": "header|Immobilized|58d6b8d8a196",
+    "original": "Immobilized!",
+    "translation": "",
+    "context": "<<POS:20420523>>"
+  },
+  {
+    "key": "output|Because_of_the_immense_size_and_weight_of_your_pc_sack_you_fi|4c436fef1c49",
+    "original": "Because of the immense size and weight of your [pc.sack], you find yourself immobile, anchored by your anatomy...",
+    "translation": "",
+    "context": "<<POS:20420547>>"
+  },
+  {
+    "key": "button|Next|d3c6c7fe754e",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20420725>> addButton(0,\"Next\",(function(){return $_(\"bad end\")}))"
+  },
+  {
+    "key": "output|Maybe_you_can_access_your_Inventory_to_find_something_you_can_us|f76a94cfc182",
+    "original": "Maybe you can access your Inventory to find something you can use...",
+    "translation": "",
+    "context": "<<POS:20420905>>"
+  },
+  {
+    "key": "button|Inventory|183cbf2a6f84",
+    "original": "Inventory",
+    "translation": "",
+    "context": "<<POS:20420989>> addButton(3,\"Inventory\",(function(){return $_(\"inventory\")}))"
+  },
+  {
+    "key": "button|Never_Mind|991138294967",
+    "original": "Never Mind",
+    "translation": "",
+    "context": "<<POS:20421053>> addButton(14,\"Never Mind\",(function(){return $_(\"never mind\")}))"
+  },
+  {
+    "key": "header|Relief|3018349bb1e6",
+    "original": "Relief!",
+    "translation": "",
+    "context": "<<POS:20421130>>"
+  },
+  {
+    "key": "output|b_Luckily_you_are_no_longer_immobilized_b|511503d28e10",
+    "original": "<b>Luckily, you are no longer immobilized!</b>",
+    "translation": "",
+    "context": "<<POS:20421149>>"
+  },
+  {
+    "key": "button|Next|3e9a1fcfcd76",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20421211>> addButton(0,\"Next\",mainGameMenu)"
+  },
+  {
+    "key": "header|Immobilized|44c2912aa77a",
+    "original": "Immobilized!",
+    "translation": "",
+    "context": "<<POS:20421474>>"
+  },
+  {
+    "key": "output.expr|Welp_it_looks_like_you_are_stuck_out_in_var1_var0_the|540cc915573b",
+    "original": "Welp, it looks like you are stuck out in \"+({var1}({var0})?\"the wilderness\":\"a dangerous location\")+\" with a sack you cannot hide. Do you want to use your codex to call for help or stay and see what happens?",
+    "translation": "",
+    "context": "<<POS:20421498>> <<VARS:var0=).hasFlag(r.tb.OUTDOOR,var1=getCurrentRoom>> output(\"Welp, it looks like you are stuck out in \"+(getCurrentRoom().hasFlag(r.tb.OUTDOOR)?\"the wilderness\":\"a dangerous location\")+\" with a sack you cannot hide. Do you want to use your codex to call for help or stay and see what happens?\")"
+  },
+  {
+    "key": "button|Stay|fc0d40858a22",
+    "original": "Stay...",
+    "translation": "",
+    "context": "<<POS:20421745>> addButton(0,\"Stay...\",(function(){return $_(\"stay\")}))"
+  },
+  {
+    "key": "button|Help|63d89e13f6bd",
+    "original": "Help!",
+    "translation": "",
+    "context": "<<POS:20421800>> addButton(1,\"Help!\",(function(){return $_(\"help\")}))"
+  },
+  {
+    "key": "output|Or_you_can_access_your_Inventory_to_find_something_you_can_use|5079d9313551",
+    "original": "Or you can access your Inventory to find something you can use...",
+    "translation": "",
+    "context": "<<POS:20421859>>"
+  },
+  {
+    "key": "button|Inventory|183cbf2a6f84#1",
+    "original": "Inventory",
+    "translation": "",
+    "context": "<<POS:20421940>> addButton(3,\"Inventory\",(function(){return $_(\"inventory\")}))"
+  },
+  {
+    "key": "button|Never_Mind|991138294967#1",
+    "original": "Never Mind",
+    "translation": "",
+    "context": "<<POS:20422004>> addButton(14,\"Never Mind\",(function(){return $_(\"never mind\")}))"
+  },
+  {
+    "key": "header|Medical_Emergency|e0845d1ebd2a",
+    "original": "Medical Emergency!",
+    "translation": "",
+    "context": "<<POS:20422141>>"
+  },
+  {
+    "key": "output|Eventually_you_manage_to_get_someone_to_pick_you_up_and_take_yo|8c4dcb5298dc",
+    "original": "Eventually, you manage to get someone to pick you up and take you in for treatment. It isn’t cheap either.",
+    "translation": "",
+    "context": "<<POS:20422171>>"
+  },
+  {
+    "key": "output|Your_finances_are|1f4bc4e58482",
+    "original": " Your finances are",
+    "translation": "",
+    "context": "<<POS:20422321>>"
+  },
+  {
+    "key": "output|completely|ddd4ae6d68d4",
+    "original": " completely",
+    "translation": "",
+    "context": "<<POS:20422366>>"
+  },
+  {
+    "key": "output|drained_by_your_own_libidinous_foolishness_but_at_least_you_ca|eb64625686da",
+    "original": " drained by your own libidinous foolishness, but at least you can move around normally again!",
+    "translation": "",
+    "context": "<<POS:20422388>>"
+  },
+  {
+    "key": "output|Your_finances_aren_t_capable_of_footing_the_bill_but_at_least|411392deeec0",
+    "original": " Your finances aren’t capable of footing the bill, but at least the medical experimentation that pays for it all isn’t too bad.",
+    "translation": "",
+    "context": "<<POS:20422507>>"
+  },
+  {
+    "key": "output|A_third_breast_is_a_small_price_to_pay_after_all|d767a22139d9",
+    "original": " A third breast is a small price to pay, after all.",
+    "translation": "",
+    "context": "<<POS:20422710>>"
+  },
+  {
+    "key": "output|A_trio_of_smaller_nuts_is_a_small_price_to_pay_after_all|1556bc84813e",
+    "original": " A trio of smaller nuts is a small price to pay, after all.",
+    "translation": "",
+    "context": "<<POS:20422813>>"
+  },
+  {
+    "key": "assign|It_seems_your_lower_anatomy_has_changed_b_You_now_have|7cee0090aecd",
+    "original": "It seems your lower anatomy has changed... <b>You now have",
+    "translation": "",
+    "context": "<<POS:20423736>>"
+  },
+  {
+    "key": "assign|one|68cd3fe3dcae",
+    "original": " one",
+    "translation": "",
+    "context": "<<POS:20423828>>"
+  },
+  {
+    "key": "assign|testicle|f109750bdf3f",
+    "original": " testicle",
+    "translation": "",
+    "context": "<<POS:20423959>>"
+  },
+  {
+    "key": "output|concat_t|19c2e16f26fb",
+    "original": "\".concat(t)",
+    "translation": "",
+    "context": "<<POS:20424027>>"
+  },
+  {
+    "key": "button|Next|4c61bef7a001",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20424101>> addButton(0,\"Next\",mainGameMenu)"
+  },
+  {
+    "key": "output|You_decide_that_you_ll_figure_it_out_So_until_you_find_a_solu|ace3820209ac",
+    "original": "You decide that you’ll figure it out... So until you find a solution, you will be stuck like this in the meantime.",
+    "translation": "",
+    "context": "<<POS:20424349>>"
+  },
+  {
+    "key": "button|Next|514629632e08",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20424479>> addButton(0,\"Next\",mainGameMenu)"
+  },
+  {
+    "key": "header|Who_You_Gonna_Call|9ac6f7dced7b",
+    "original": "Who You Gonna Call?",
+    "translation": "",
+    "context": "<<POS:20424589>>"
+  },
+  {
+    "key": "output|Who_else_do_you_call|641e702d9532",
+    "original": "Who else do you call?",
+    "translation": "",
+    "context": "<<POS:20424631>>"
+  },
+  {
+    "key": "output|Being_vulnerable_in_a_hazardous_location_is_not_ideal|de15fd575b61",
+    "original": "Being vulnerable in a hazardous location is not ideal...",
+    "translation": "",
+    "context": "<<POS:20424683>>"
+  },
+  {
+    "key": "output|You_decide_it_would_be_a_better_idea_to_ask_for_help_and_so_you|216c46e58bdd",
+    "original": "You decide it would be a better idea to ask for help and so you flip open your Codex and attempt to access your phone-a-friend speed dial list.",
+    "translation": "",
+    "context": "<<POS:20424754>>"
+  },
+  {
+    "key": "output|Who_do_you_call|f8db451873b5",
+    "original": "Who do you call?",
+    "translation": "",
+    "context": "<<POS:20424912>>"
+  },
+  {
+    "key": "output|Or_would_you_rather_try_your_luck_with_something_from_your_inven|fe62d0f5d24d",
+    "original": "Or would you rather try your luck with something from your inventory?",
+    "translation": "",
+    "context": "<<POS:20424958>>"
+  },
+  {
+    "key": "button|Stay|5796dd51768a",
+    "original": "Stay...",
+    "translation": "",
+    "context": "<<POS:20425414>> addButton(13,\"Stay...\",(function(){return $_(\"stay\")}))"
+  },
+  {
+    "key": "button|Never_Mind|baac0bb8bce1",
+    "original": "Never Mind",
+    "translation": "",
+    "context": "<<POS:20425470>> addButton(14,\"Never Mind\",(function(){return $_(\"never mind\")}))"
+  },
+  {
+    "key": "output|It_might_be_too_embarrassing_to_call_emergency_services_so_you|715afcba5813",
+    "original": "It might be too embarrassing to call emergency services, so you try the next best thing and dial Steele Tech property retrieval",
+    "translation": "",
+    "context": "<<POS:20425895>>"
+  },
+  {
+    "key": "output|because_of_course_you_would_do_such_a_thing|d022ef10463b",
+    "original": " (because of course you would do such a thing)",
+    "translation": "",
+    "context": "<<POS:20426055>>"
+  },
+  {
+    "key": "output|and_wait_Beep|1f322dad4e79",
+    "original": " and wait... Beep.",
+    "translation": "",
+    "context": "<<POS:20426112>>"
+  },
+  {
+    "key": "output.expr|i_Oh_Uh_um_Steele_Tech_pick_up_crew_how_may_we_be_of_ser|d46f60a5456b",
+    "original": "<i>“Oh! Uh, um... Steele Tech pick-up crew, how may we be of service, \"+{var0}.mf(\"Mr.\",\"Ms.\")+\" Steele,”</i> a semi-nervous voice answers through audio... and after the video feed picks up, obviously female. You are greeted by her violet eyes and maroon lips on a chocolate-toned face, wearing a surprised expression.",
+    "translation": "",
+    "context": "<<POS:20426145>> <<VARS:var0=pc>> output(\"\\n\\n<i>“Oh! Uh, um... Steele Tech pick-up crew, how may we be of service, \"+pc.mf(\"Mr.\",\"Ms.\")+\" Steele,”</i> a semi-nervous voice answers through audio... and after the video feed picks up, obviously female. You are greeted by her violet eyes and maroon lips on a chocolate-toned face, wearing a surprised expression.\")"
+  },
+  {
+    "key": "output|It_s_Milly_and_upon_recognizing_you_she_flashes_a_bright_smil|ba95936ec92d",
+    "original": " It’s Milly, and upon recognizing you, she flashes a bright smile and her two-finger salute.",
+    "translation": "",
+    "context": "<<POS:20426508>>"
+  },
+  {
+    "key": "output.expr|The_var0_entryUnlocked_Dzaan_dzaan_alien_girl_ad|1ef11a6bdc46",
+    "original": " The \"+({var0}.entryUnlocked(\"Dzaan\")?\"dzaan\":\"alien\")+\" girl adjusts her platinum, micro-braided ponytail and draps it over one shoulder, straightening her posture in attention. <i>“So, do you need us to send over a draggin’ wagon to tow a probe back to base?”</i>",
+    "translation": "",
+    "context": "<<POS:20426611>> <<VARS:var0=vt.dI>> output(\" The \"+(vt.dI.entryUnlocked(\"Dzaan\")?\"dzaan\":\"alien\")+\" girl adjusts her platinum, micro-braided ponytail and draps it over one shoulder, straightening her posture in attention. <i>“So, do you need us to send over a draggin’ wagon to tow a probe back to base?”</i>\")"
+  },
+  {
+    "key": "output.expr|You_smirk_i_Well_now_that_you_mention_it_I_have_1_pc_b|3b348e584552",
+    "original": "You smirk. <i>“Well, now that you mention it, I have \"+(1===pc.balls?\"one big Steele Tech probe\":{var1}.numToText({var0})+\" big Steele Tech probes\")+\" I need help with...”</i> You try to pan and zoom your camera to reveal your [pc.ballsack] as much as possible. <i>“Do you think that is doable?”</i>",
+    "translation": "",
+    "context": "<<POS:20426890>> <<VARS:var0=pc.balls,var1=Ot.m>> output(\"\\n\\nYou smirk. <i>“Well, now that you mention it, I have \"+(1===pc.balls?\"one big Steele Tech probe\":Ot.m.numToText(pc.balls)+\" big Steele Tech probes\")+\" I need help with...”</i> You try to pan and zoom your camera to reveal your [pc.ballsack] as much as possible. <i>“Do you think that is doable?”</i>\")"
+  },
+  {
+    "key": "output|Taking_in_what_she_just_saw_the_girl_is_stunned_i_Oh_dear|fc0c6b6f2e07",
+    "original": "Taking in what she just saw, the girl is stunned. <i>“Oh, dear...”</i> is her response, too shocked to follow up with another word.",
+    "translation": "",
+    "context": "<<POS:20427204>>"
+  },
+  {
+    "key": "output|Is_is_that_drool_streaming_down_of_the_side_of_her_mouth|c64e9e1ff5e6",
+    "original": " Is... is that drool streaming down of the side of her mouth?",
+    "translation": "",
+    "context": "<<POS:20427375>>"
+  },
+  {
+    "key": "output|Out_of_the_corner_of_the_video_feed_you_spot_a_youthful_kaithr|2ab4875f3521",
+    "original": "Out of the corner of the video feed, you spot a youthful, kaithrit male in the back, carelessly spinning by on his rolling chair. When his eyes meet the camera, you see him flinch and then, <i>“By the One--!”</i> His chair somehow flips from under him and \".concat(Ot.m.animateText(\"CRASH!\",\"shake\"),\" He is on the ground instantly.\")",
+    "translation": "",
+    "context": "<<POS:20427451>>"
+  },
+  {
+    "key": "output|The_noise_breaks_the_girl_s_trance_and_she_reflexively_hops_out|18326199a812",
+    "original": "The noise breaks the girl’s trance and she reflexively hops out of her seat, her hair whipping to the motion, so she can quickly tend to her co-worker. <i>“A--are you okay, Ringo?”</i>",
+    "translation": "",
+    "context": "<<POS:20427799>>"
+  },
+  {
+    "key": "output|i_Yeah_yeah_I_m_okay_I_m_okay_Thanks_i_he_groans_defe|e8c2417a1023",
+    "original": "<i>“Yeah, yeah. I’m okay, I’m okay. Thanks,”</i> he groans, defeatedly.",
+    "translation": "",
+    "context": "<<POS:20427998>>"
+  },
+  {
+    "key": "output|Concluding_that_the_accident_wasn_t_anything_severe_but_still_t|b2f5ba063cde",
+    "original": "Concluding that the accident wasn’t anything severe, but still too flustered by the sudden mix of emotions, the girl darts back up toward the camera, one hand covering her eyes as if to be polite and splurting out a string of apologies with the blindly-aligned camera looking up at her chin. <i>“S-sorry. I’ll call a team nearby to give you a lift!”</i> The camera reangles itself again from being hand held and you are left with an image of her tight, cocoa-colored cleavage, and then a big silhouette of her hand blocks the view before tapping a button and finally the video and audio feed cuts out... Beep.",
+    "translation": "",
+    "context": "<<POS:20428084>>"
+  },
+  {
+    "key": "output.expr|As_innocent_as_she_is_she_var0_s_seems_to_be_a_goo|5e88c72730a7",
+    "original": "As innocent as she is, she\"+({var0}?\"’s\":\" seems to be\")+\" a good kid. Hopefully everything is okay over there. Anyway, it’s settled, you can now get out of your predicament.... somehow.",
+    "translation": "",
+    "context": "<<POS:20428708>> <<VARS:var0=void 0!==flags.MHENGA_PROBE_CASH_GOT>> output(\"\\n\\nAs innocent as she is, she\"+(void 0!==flags.MHENGA_PROBE_CASH_GOT?\"’s\":\" seems to be\")+\" a good kid. Hopefully everything is okay over there. Anyway, it’s settled, you can now get out of your predicament.... somehow.\")"
+  },
+  {
+    "key": "button|Next|0bbc040953ff",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20428970>> addButton(0,\"Next\",(function(){return $_(\"success\")}))"
+  },
+  {
+    "key": "output|An_unknown_number_You_don_t_remember_having_this_saved_on_your|53c902cfaa96",
+    "original": "An unknown number? You don’t remember having this saved on your list... Oh well, no harm if it’s the wrong contact. You dial it and wait... Beep.",
+    "translation": "",
+    "context": "<<POS:20429091>>"
+  },
+  {
+    "key": "output|i_pc_name_be_careful_i_a_masked_voice_answers_without_a|5ff44a9d5264",
+    "original": "<i>“[pc.name], be careful!”</i> a masked voice answers without a greeting, the video feed appears all black for you. <i>“There are Playmore Dongs around there.”</i> What? <i>“Use a Dong Detector!”</i>",
+    "translation": "",
+    "context": "<<POS:20429251>>"
+  },
+  {
+    "key": "output|i_Wh_who_are_you_i_you_respond|c8b52b04f23c",
+    "original": "<i>“Wh...who are you?”</i> you respond.",
+    "translation": "",
+    "context": "<<POS:20429466>>"
+  },
+  {
+    "key": "output|i_Just_call_me_DEEPTHROAT_i|412424a5c2a1",
+    "original": "<i>“Just call me... ‘DEEPTHROAT’.”</i>",
+    "translation": "",
+    "context": "<<POS:20429520>>"
+  },
+  {
+    "key": "output|i_Deepthroat_i_You_are_not_sure_if_this_is_a_joke_so_you|30053b66c29c",
+    "original": "<i>“Deepthroat?”</i> You are not sure if this is a joke, so you better make your situation clear. <i>“Listen, I just need help with my situation...”</i>",
+    "translation": "",
+    "context": "<<POS:20429573>>"
+  },
+  {
+    "key": "output|Just_before_you_provide_video_proof_the_voice_answers_i_Alre|8ff3defc83de",
+    "original": "Just before you provide video proof, the voice answers, <i>“Already done.”</i> You could hear an audible grin.",
+    "translation": "",
+    "context": "<<POS:20429740>>"
+  },
+  {
+    "key": "output|i_What_do_you_want_in_return_i|3d256861ea79",
+    "original": "<i>“What do you want in return?”</i>",
+    "translation": "",
+    "context": "<<POS:20429865>>"
+  },
+  {
+    "key": "output|i_I_ve_waited_a_long_time_for_this_day_Now_I_want_to_enjoy_th|47e16193afc7",
+    "original": "<i>“I’ve waited a long time for this day. Now I want to enjoy the moment.”</i> The audio and video then cut off... Beep.",
+    "translation": "",
+    "context": "<<POS:20429916>>"
+  },
+  {
+    "key": "output|What_s_with_that_guy_Well_Let_s_hope_they_are_true_to_their_wo|455dda18bcae",
+    "original": "What’s with that guy? Well, Let’s hope they are true to their word....",
+    "translation": "",
+    "context": "<<POS:20430051>>"
+  },
+  {
+    "key": "button|Next|c5920a2f249b",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20430167>> addButton(0,\"Next\",(function(){return $_(\"success\")}))"
+  },
+  {
+    "key": "header|Call_Celise|937f9cff5e53",
+    "original": "Call Celise",
+    "translation": "",
+    "context": "<<POS:20430265>>"
+  },
+  {
+    "key": "output|Well_this_is_a_crapshoot_but_it_s_an_option_at_least_You_di|5143fc6af814",
+    "original": "Well, this is a crapshoot, but it’s an option at least... You dial for Celise and wait... Beep.",
+    "translation": "",
+    "context": "<<POS:20430288>>"
+  },
+  {
+    "key": "output|Beep|99f8821430ad",
+    "original": "... Beep.",
+    "translation": "",
+    "context": "<<POS:20430398>>"
+  },
+  {
+    "key": "output|Beep|7c81cdd9be90",
+    "original": "... Beep.",
+    "translation": "",
+    "context": "<<POS:20430422>>"
+  },
+  {
+    "key": "output|Beep_Beep|a86304725f68",
+    "original": "Beep. Beep.",
+    "translation": "",
+    "context": "<<POS:20430446>>"
+  },
+  {
+    "key": "output|i_HELLOOOooo_i_is_the_greeting_with_some_irritable_cra|6875764f401a",
+    "original": "<i>“HELLOOOooo...!”</i> is the greeting, with some irritable crackling from exceeding the microphone’s audio levels. The video feed engages and all you see is a translucent green with the occasional bubbling.",
+    "translation": "",
+    "context": "<<POS:20430492>>"
+  },
+  {
+    "key": "output|i_Uh_Celise_i_you_ask|3c835538a929",
+    "original": "<i>“Uh, Celise...?”</i> you ask.",
+    "translation": "",
+    "context": "<<POS:20430715>>"
+  },
+  {
+    "key": "output|i_Oh_hey_pc_name_i_she_answers_The_emerald_begins_to|84d59a56374e",
+    "original": "<i>“Oh, hey, [pc.name]!”</i> she answers. The emerald begins to shuffle away from the camera lens and a familiar face emerges.",
+    "translation": "",
+    "context": "<<POS:20430762>>"
+  },
+  {
+    "key": "output|gooarmor_name_pokes_her_head_out_and_adds_i_Like_heeey_Ce|7b865abc7675",
+    "original": "[gooarmor.name] pokes her head out and adds, <i>“Like, heeey, Celise!”</i>",
+    "translation": "",
+    "context": "<<POS:20430922>>"
+  },
+  {
+    "key": "output|i_Hiya_gooarmor_name_i_Celise_responds_waving_excitedl|122dc4a64ef0",
+    "original": "<i>“Hiya, [gooarmor.name]!”</i> Celise responds, waving excitedly.",
+    "translation": "",
+    "context": "<<POS:20431011>>"
+  },
+  {
+    "key": "output|i_Do_ya_need_something_i|e1e7dce4efc4",
+    "original": " <i>“Do ya need something?”</i>",
+    "translation": "",
+    "context": "<<POS:20431089>>"
+  },
+  {
+    "key": "output|i_Well_i_You_try_your_best_to_pan_and_zoom_the_camera_to|1d86af668898",
+    "original": "<i>“Well...”</i> You try your best to pan and zoom the camera to capture the immensity of your [pc.balls]. <i>“I need some help",
+    "translation": "",
+    "context": "<<POS:20431135>>"
+  },
+  {
+    "key": "output.expr|emptying_1_pc_balls_this_these_or_at_least|25592b95cce3",
+    "original": " emptying \"+(1===pc.balls?\"this\":\"these\")+\"--or at least",
+    "translation": "",
+    "context": "<<POS:20431287>>  output(\" emptying \"+(1===pc.balls?\"this\":\"these\")+\"--or at least\")"
+  },
+  {
+    "key": "output.expr|getting_1_pc_balls_it_them_to_a_more_manageable_siz|d861117c823f",
+    "original": " getting \"+(1===pc.balls?\"it\":\"them\")+\" to a more manageable size.”</i>",
+    "translation": "",
+    "context": "<<POS:20431354>>  output(\" getting \"+(1===pc.balls?\"it\":\"them\")+\" to a more manageable size.”</i>\")"
+  },
+  {
+    "key": "output|The_green_goo_girl_lets_out_an_exaggerated_gasp_i_Wow_I_wish|303206a42035",
+    "original": "The green goo girl lets out an exaggerated gasp. <i>“Wow! I wish I was there so I could drink it all myself!”</i>",
+    "translation": "",
+    "context": "<<POS:20431440>>"
+  },
+  {
+    "key": "output|i_Ooo_Me_too_Me_too_i_gooarmor_name_adds|e5a25c40ca40",
+    "original": "<i>“Ooo! Me too! Me too!”</i> [gooarmor.name] adds.",
+    "translation": "",
+    "context": "<<POS:20431587>>"
+  },
+  {
+    "key": "output|Celise_giggles_i_Of_course_we_can_share_i|fcee5630ee76",
+    "original": "Celise giggles, <i>“Of course, we can share!”</i>",
+    "translation": "",
+    "context": "<<POS:20431653>>"
+  },
+  {
+    "key": "output|You_audibly_clear_your_throat|15836d0f668e",
+    "original": "You audibly clear your throat.",
+    "translation": "",
+    "context": "<<POS:20431718>>"
+  },
+  {
+    "key": "output|Celise_s_face_crinkles_in_deep_concentration_i_Okay_I_will_s|2d0df7f4bbf0",
+    "original": "Celise’s face crinkles in deep concentration. <i>“Okay, I will send out the call!”</i>",
+    "translation": "",
+    "context": "<<POS:20431763>>"
+  },
+  {
+    "key": "output|What|4b2dd50f5499",
+    "original": "What?",
+    "translation": "",
+    "context": "<<POS:20431864>>"
+  },
+  {
+    "key": "output|You_see_her_vigorously_tapping_and_typing_on_the_keys_on_the_scr|a454e175c0a4",
+    "original": "You see her vigorously tapping and typing on the keys on the screen, supposedly, at least in her mind, putting together a team of experts to come and rescue you. However, in reality, the video display switches between color, grayscale, sepia tone, and fire and snow effects, while the sounds alternates between hyper girly, robot destroyer, auto-tune, and high-pitched and low-pitched. Basically, she’s just randomly changing the video and audio filters in her button mashing rampage.",
+    "translation": "",
+    "context": "<<POS:20431884>>"
+  },
+  {
+    "key": "output|You_are_about_to_suggest_something_but_the_audio_and_video_feed|6b77d63a9bed",
+    "original": "You are about to suggest something but the audio and video feed suddenly cut off with a static cue and then... Beep. The call has ended.",
+    "translation": "",
+    "context": "<<POS:20432383>>"
+  },
+  {
+    "key": "output|Uh_perhaps_you_should_try_another_contact|45220b483ff2",
+    "original": "Uh... perhaps you should try another contact....",
+    "translation": "",
+    "context": "<<POS:20432534>>"
+  },
+  {
+    "key": "button|Next|4b5d823672ba",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20432628>> addButton(0,\"Next\",(function(){return $_(\"back\")}))"
+  },
+  {
+    "key": "header|Call_Reaha|5df892a54f95",
+    "original": "Call Reaha",
+    "translation": "",
+    "context": "<<POS:20432721>>"
+  },
+  {
+    "key": "output|Maybe_you_should_give_your_homely_cowgirl_a_call_You_dial_for_R|5def8d1e402b",
+    "original": "Maybe you should give your homely cowgirl a call? You dial for Reaha and wait... Beep.",
+    "translation": "",
+    "context": "<<POS:20432743>>"
+  },
+  {
+    "key": "output|i_Hello_i_the_bovine_beauty_s_voice_answers|7d29383c69ed",
+    "original": "<i>“Hello,”</i> the bovine beauty’s voice answers.",
+    "translation": "",
+    "context": "<<POS:20432844>>"
+  },
+  {
+    "key": "output|You_reply_i_He_i|013e15b5980f",
+    "original": "You reply, <i>“He--”</i>",
+    "translation": "",
+    "context": "<<POS:20432909>>"
+  },
+  {
+    "key": "output|i_You_ve_reached_the_voice_box_of_Reaha_Hayes_I_m_not_here|057c799acae1",
+    "original": "<i>“...You’ve reached the voice box of Reaha Hayes. I’m not here right now but if you leave your name and number after the ‘moo’, I will try to get back to you as soon as I can. Thank you!”</i>",
+    "translation": "",
+    "context": "<<POS:20432948>>"
+  },
+  {
+    "key": "output|Great_well_she_s_probably_busy_at_the_mo|984f10d7a389",
+    "original": "Great, well, she’s probably busy at the mo--",
+    "translation": "",
+    "context": "<<POS:20433156>>"
+  },
+  {
+    "key": "output|i_Moo_i|fa79a04eedd8",
+    "original": "<i>“Moo!”</i>",
+    "translation": "",
+    "context": "<<POS:20433215>>"
+  },
+  {
+    "key": "output|Guess_you_better_try_another_contact|565b2daa1612",
+    "original": "Guess you better try another contact....",
+    "translation": "",
+    "context": "<<POS:20433243>>"
+  },
+  {
+    "key": "button|Next|2329aa83a4c7",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20433329>> addButton(0,\"Next\",(function(){return $_(\"back\")}))"
+  },
+  {
+    "key": "header|Waiting|f86797b33655",
+    "original": "Waiting...",
+    "translation": "",
+    "context": "<<POS:20433432>>"
+  },
+  {
+    "key": "output|Now_to_wait|44541e02d6ed",
+    "original": "Now to wait...",
+    "translation": "",
+    "context": "<<POS:20433454>>"
+  },
+  {
+    "key": "output|And_wait|46519d4142d7",
+    "original": "And wait...",
+    "translation": "",
+    "context": "<<POS:20433483>>"
+  },
+  {
+    "key": "output|And_wait|5b4a18da9f99",
+    "original": "...And wait.",
+    "translation": "",
+    "context": "<<POS:20433509>>"
+  },
+  {
+    "key": "button|Next|e33e52cb2c0a",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20433568>> addButton(0,\"Next\",(function(){return $_(\"emergency\")}))"
+  },
+  {
+    "key": "header|Waiting|f86797b33655#1",
+    "original": "Waiting...",
+    "translation": "",
+    "context": "<<POS:20433673>>"
+  },
+  {
+    "key": "output|You_decide_to_stay_and_let_fate_decide_for_you|833609dec4cd",
+    "original": "You decide to stay and let fate decide for you....",
+    "translation": "",
+    "context": "<<POS:20433695>>"
+  },
+  {
+    "key": "button|Next|8de5769eb7ed",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20433791>> addButton(0,\"Next\",eS)"
+  },
+  {
+    "key": "header|No_Response|fb3c09f98bce",
+    "original": "No Response",
+    "translation": "",
+    "context": "<<POS:20433859>>"
+  },
+  {
+    "key": "output|A_ring_ring_aaaaaand_no_answer|ec2165fe9896",
+    "original": "A ring... ring... aaaaaand no answer.",
+    "translation": "",
+    "context": "<<POS:20433882>>"
+  },
+  {
+    "key": "output|Perhaps_you_should_try_a_different_number|f214e10fdb8c",
+    "original": "Perhaps you should try a different number?",
+    "translation": "",
+    "context": "<<POS:20433934>>"
+  },
+  {
+    "key": "button|Next|2f755facb655",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20434022>> addButton(0,\"Next\",(function(){return $_(\"back\")}))"
+  },
+  {
+    "key": "header|All_Out_Balls_Out|44430e68ef79",
+    "original": "All Out Balls Out",
+    "translation": "",
+    "context": "<<POS:20434134>>"
+  },
+  {
+    "key": "output|It_isn_t_long_before_the_natives_of_this_place_take_you_as_an_am|1a476f5bcd0e",
+    "original": "It isn’t long before the natives of this place take you as an amusement - a live-in toy whose virility is the show-piece of an alien exhibit. You never do manage to get your dad’s fortune, but hey, at least you get to live in relative comfort and have all the orgasms your body can handle.",
+    "translation": "",
+    "context": "<<POS:20434180>>"
+  },
+  {
+    "key": "output|Due_to_your_immobilized_state_you_take_out_your_codex_and_call|e3102a61be53",
+    "original": "Due to your immobilized state, you take out your codex and call for help...",
+    "translation": "",
+    "context": "<<POS:20434779>>"
+  },
+  {
+    "key": "button|Next|9ecd28d11298",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20434904>> addButton(0,\"Next\",e[rand(e.length)])"
+  },
+  {
+    "key": "output|Unfortunately_for_you_there_is_no_solution_for_your_current_co|8365ca131ee4",
+    "original": " Unfortunately for you, there is no solution for your current condition.",
+    "translation": "",
+    "context": "<<POS:20434938>>"
+  },
+  {
+    "key": "button|Next|0651512e11ac",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20435026>> addButton(0,\"Next\",window.popUIStateToMainText)"
+  },
+  {
+    "key": "header|Priapism_Problems|b1125d261503",
+    "original": "Priapism Problems",
+    "translation": "",
+    "context": "<<POS:20435623>>"
+  },
+  {
+    "key": "output.expr|Traversing_around_with_your_fully_erect_dick_1_pc_cocks_leng|83efbc1c4d45",
+    "original": "Traversing around with your fully erect dick\"+(1===pc.cocks.length?\"\":\"s\")+\" out is quite daring for you, especially in a place where nudity is prohibited. Unexpectedly, from of the corner of your eye, you see a patrolling U.G.C. officer crossing your path... and just as you have your back turned to hide your exposed manhood\"+(1===pc.cocks.length?\"\":\"s\")+\", \"+({var0}?\"he\":\"she\")+\" spots you!",
+    "translation": "",
+    "context": "<<POS:20435697>> <<VARS:var0=n>> output(\"Traversing around with your fully erect dick\"+(1===pc.cocks.length?\"\":\"s\")+\" out is quite daring for you, especially in a place where nudity is prohibited. Unexpectedly, from of the corner of your eye, you see a patrolling U.G.C. officer crossing your path... and just as you have your back turned to hide your exposed manhood\"+(1===pc.cocks.length?\"\":\"s\")+\", \"+(n?\"he\":\"she\")+\" spots you!\")"
+  },
+  {
+    "key": "output|i_You_Halt_i|f071f1bb8fcc",
+    "original": "<i>“You! Halt!”</i>",
+    "translation": "",
+    "context": "<<POS:20436101>>"
+  },
+  {
+    "key": "output|You_blush_a_bit_flustered_and_giggly_inside_while_trying_to_ski|e444feb0ae6a",
+    "original": "You blush, a bit flustered and giggly inside while trying to skip your way in the opposite direction.",
+    "translation": "",
+    "context": "<<POS:20436148>>"
+  },
+  {
+    "key": "output|You_act_casual_and_straighten_out_your_back_to_stride_away_in_th|71fde175a2c8",
+    "original": "You act casual and straighten out your back to stride away in the opposite direction.",
+    "translation": "",
+    "context": "<<POS:20436275>>"
+  },
+  {
+    "key": "output|You_sigh_that_your_luck_was_so_bad_but_try_to_nervously_walk_awa|7f1918b91bbb",
+    "original": "You sigh that your luck was so bad but try to nervously walk away in the opposite direction.",
+    "translation": "",
+    "context": "<<POS:20436387>>"
+  },
+  {
+    "key": "output|You_curse_under_your_breath_Despite_your_bad_luck_you_try_to_i|34faf601b34c",
+    "original": "You curse under your breath. Despite your bad luck, you try to inconspicuously stride away in the opposite direction.",
+    "translation": "",
+    "context": "<<POS:20436513>>"
+  },
+  {
+    "key": "output|You_audibly_let_out_a_curse_and_rapidly_stomp_your_way_in_the_op|3a078f939b49",
+    "original": "You audibly let out a curse and rapidly stomp your way in the opposite direction, hoping that the cop didn’t catch you.",
+    "translation": "",
+    "context": "<<POS:20436656>>"
+  },
+  {
+    "key": "output|You_pretend_not_to_see_the_police_officer_and_proceed_on_your_wa|47e59ebd8068",
+    "original": "You pretend not to see the police officer and proceed on your way in the opposite direction.",
+    "translation": "",
+    "context": "<<POS:20436790>>"
+  },
+  {
+    "key": "button|Next|438c121d9726",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20436910>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearOutput(),author(\"Jacques00\");var t=0===rand(3),o=pc.biggestCockIndex(),a=pc.cumQ();showBust(\"UCG_\"+(e?\"MALE\":\"FEMALE\")+\"_\"+(t?\"2\":\"1\")),showName(\"UGC Officer\"),output(blockHeader(\"Pay ..."
+  }
+]
