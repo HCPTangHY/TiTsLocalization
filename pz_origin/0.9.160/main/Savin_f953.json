@@ -1,9 +1,9 @@
 [
   {
-    "key": "perk|Hypermilky|ee3c97faeb52",
-    "original": "Hypermilky",
+    "key": "assign|DracoGuard_pill|0c713fa385d9",
+    "original": "DracoGuard pill",
     "translation": "",
-    "context": "<<POS:06533285>> createPerk(\"Hypermilky\",0,0,0,0,\"Lactation will not decrease from disuse or overfilling.\")"
+    "context": "<<POS:08117962>>"
   },
   {
     "key": "assign|a_DracoGuard_pill|fe41196bc9ac",
@@ -768,6 +768,12 @@
     "context": "<<POS:08148061>> <<VARS:var0=e>> output(\"\\n\\n\"+e.legTypeLockedMessage())"
   },
   {
+    "key": "output.expr|var0_legCountLockedMessage|09ba01780b7b",
+    "original": "\"+{var0}.legCountLockedMessage()",
+    "translation": "",
+    "context": "<<POS:08148101>> <<VARS:var0=e>> output(\"\\n\\n\"+e.legCountLockedMessage())"
+  },
+  {
     "key": "output.expr|You_pause_a_moment_as_you_feel_a_sudden_burning_itch_in_your_pc|10bd39b9b5d3",
     "original": "You pause a moment as you feel a sudden burning itch in your [pc.chest]. There is a tingling sensation that radiates from your pregnant womb\"+(1===t.totalWombPregnancies()?\"\":\"s\")+\", suddenly bursting outward and spreading to your irritated [pc.nipples]. Like an extinguisher to a fire, your nipples are hit with a breezy coolness and you let out a relieved sigh. But just before you think it is over, your chest gradually fills with another pressure... Your lactation is picking up in production and filling your \"+{var1}.breastCup({var0}.biggestTitRow())+\" tits! Your hand travels over your [pc.nipples \"+{var2}.biggestTitRow()+\"], and you \"+({var3}.isChestExposed()?\"notice the [pc.milkGem] [pc.milkNoun] trickling off them and plotting on the floor\":\"feel the [pc.milkVisc] [pc.milkNoun] coat your top, rapidly wetting the surface with ease\")+\".",
     "translation": "",
@@ -784,6 +790,12 @@
     "original": "(<b>Perk Gained: Hypermilky!</b> - Lactation will not decrease from disuse or overfilling.)",
     "translation": "",
     "context": "<<POS:08149501>>"
+  },
+  {
+    "key": "perk|Hypermilky|ee3c97faeb52",
+    "original": "Hypermilky",
+    "translation": "",
+    "context": "<<POS:08149609>> createPerk(\"Hypermilky\",0,0,0,0,\"Lactation will not decrease from disuse or overfilling.\")"
   },
   {
     "key": "output|It_seems_nothing_happens|3f27fed3c3fa",

@@ -1,5 +1,17 @@
 [
   {
+    "key": "name.show.expr|var0|6d5c8cf79027",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10505710>> <<VARS:var0=a>> showName(a)"
+  },
+  {
+    "key": "name.show|Ship_Storage|acefc4ddbe5f",
+    "original": "Ship Storage",
+    "translation": "",
+    "context": "<<POS:10505723>> showName(\"Ship Storage\")"
+  },
+  {
     "key": "output.expr|b_Available_Storage_b_var0_availableSpace_var1|59780bfbb785",
     "original": "<b>Available Storage:</b> \"+{var0}.availableSpace()+\" / \"+{var1}+\".",
     "translation": "",
@@ -69,7 +81,8 @@
     "key": "button|Back|d98738b8010b",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:10506724>> addButton(14,\"Back\",(function(){resetItemSelector(),e.returnFunction()}))"
+    "context": "<<POS:10506724>> addButton(14,\"Back\",(function(){resetItemSelector(),e.returnFunction()}))",
+    "stage": 1
   },
   {
     "key": "button|Buy|c60ff89d05c9",
@@ -192,6 +205,18 @@
     "context": "<<POS:10508838>> addDisabledButton(1,\"Buy+Trade\",\"Buy and Trade\",\"You cannot trade this ship.\")"
   },
   {
+    "key": "name.show.expr|var0|36f954cce43d",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10508959>> <<VARS:var0=t.short>> showName(t.short)"
+  },
+  {
+    "key": "output.expr|Once_you_fully_commit_var0_informs_you_that_it_s_station|15ec3d7b7f30",
+    "original": "Once you fully commit, \"+{var0}+\" informs you that it’s station policy to ensure that inactivated ships have their storage completely emptied out. Ever since the entire deck got infested with grubthakks a few years back, it’s been something of a sore spot. <i>“Don’t worry too hard about it. Bolted-in upgrades are fine, and I’ll have your smaller things delivered to the new ship.”</i>",
+    "translation": "",
+    "context": "<<POS:10508991>> <<VARS:var0=t.short>> output(\"Once you fully commit, \"+t.short+\" informs you that it’s station policy to ensure that inactivated ships have their storage completely emptied out. Ever since the entire deck got infested with grubthakks a few years back, it’s been something of a sore spot. <i>“Don’t worry too hard about it. Bolted-in upgrades are fine, and I’ll have your smaller things delivered to the new ship.”</i>\")"
+  },
+  {
     "key": "output.expr|b_You_pay_var0_toLocaleString_credits_for_i_var1|0009a4f18aa9",
     "original": "<b>You pay \"+{var0}.toLocaleString()+\" credits for <i>\"+{var1}+{var2}+\"</i>!</b>",
     "translation": "",
@@ -201,7 +226,20 @@
     "key": "button|Next|f1b592f0de02",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:10509651>> addButton(0,\"Next\",(function(){resetItemSelector(),a()}))"
+    "context": "<<POS:10509651>> addButton(0,\"Next\",(function(){resetItemSelector(),a()}))",
+    "stage": 1
+  },
+  {
+    "key": "name.show.expr|var0|725f50c68bae",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10509794>> <<VARS:var0=t.short>> showName(t.short)"
+  },
+  {
+    "key": "output.expr|Once_you_fully_commit_var0_informs_you_that_your_stored_p|fb11062432e6",
+    "original": "Once you fully commit, \"+{var0}+\" informs you that your stored personal items will be moved to the new ship. Installed upgrades will not, though their value will be counted into your trade-in.",
+    "translation": "",
+    "context": "<<POS:10509811>> <<VARS:var0=t.short>> output(\"Once you fully commit, \"+t.short+\" informs you that your stored personal items will be moved to the new ship. Installed upgrades will not, though their value will be counted into your trade-in.\")"
   },
   {
     "key": "output.expr|b_New_Ship_Cost_b_var0_cost_Credits_n_b_Old_Ship_Val|491a5effe39c",
@@ -231,7 +269,20 @@
     "key": "button|Back|506ee381782a",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:10510393>> addButton(14,\"Back\",(function(){resetItemSelector(),a()}))"
+    "context": "<<POS:10510393>> addButton(14,\"Back\",(function(){resetItemSelector(),a()}))",
+    "stage": 1
+  },
+  {
+    "key": "name.show.expr|var0|47fa7bde0a8a",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10510531>> <<VARS:var0=t.short>> showName(t.short)"
+  },
+  {
+    "key": "output.expr|b_You_make_a_profit_of_var1_abs_var0_off_of_the_trade|b216a43de9a2",
+    "original": "<b>You make a profit of \"+{var1}.abs({var0})+\" off of the trade-in</b>, receiving a new \"+{var2}+\".",
+    "translation": "",
+    "context": "<<POS:10510594>> <<VARS:var0=n,var1=Math,var2=o.short>> output(\"<b>You make a profit of \"+Math.abs(n)+\" off of the trade-in</b>, receiving a new \"+o.short+\".\")"
   },
   {
     "key": "output|b_You_pay_nothing_for_your_new_ship_b_covering_the_cost_by_t|963ed9f576c5",
@@ -249,13 +300,34 @@
     "key": "button|Next|ba4fbd87d87b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:10511123>> addButton(0,\"Next\",(function(){return window.raskvelDockmaster(!0)}))"
+    "context": "<<POS:10511123>> addButton(0,\"Next\",(function(){return window.raskvelDockmaster(!0)}))",
+    "stage": 1
   },
   {
     "key": "button|Back|eca0a6ead26e",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:10511211>> addButton(14,\"Back\",window.focalorApproach)"
+    "context": "<<POS:10511211>> addButton(14,\"Back\",window.focalorApproach)",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|6d18801ef4fb",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:10511254>> addButton(0,\"Next\",a)",
+    "stage": 1
+  },
+  {
+    "key": "name.show.expr|var0|725f50c68bae#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10511493>> <<VARS:var0=n>> showName(n)"
+  },
+  {
+    "key": "name.show|Sell_Ship|ff061ca36eeb",
+    "original": "Sell Ship",
+    "translation": "",
+    "context": "<<POS:10511506>> showName(\"Sell Ship\")"
   },
   {
     "key": "output|What_ship_would_you_like_to_sell|6555ee3e7d50",
@@ -282,10 +354,28 @@
     "context": "<<POS:10511675>> <<VARS:var0=u.m>> output(u.m.li(\"\",\"\\\\[Cannot Sell\\\\] <i>\".concat(pc_ship.theName,\"</i>\")))"
   },
   {
+    "key": "button.expr|var0|233ef90f829c",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10511764>> <<VARS:var0=pc_ship.short>> addDisabledButton(i++,pc_ship.short,\"<i>\".concat(pc_ship.theName,\"</i>\"),\"You can’t sell your ship without first lining up a replacement.\",void 0,pc_ship)"
+  },
+  {
     "key": "button.hover|You_can_t_sell_your_ship_without_first_lining_up_a_replacement|3267848afc42",
     "original": "You can’t sell your ship without first lining up a replacement.",
     "translation": "",
     "context": "<<POS:10511816>> addDisabledButton(i++,pc_ship.short,\"<i>\".concat(pc_ship.theName,\"</i>\"),\"You can’t sell your ship without first lining up a replacement.\",void 0,pc_ship)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|233ef90f829c",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10511881>> <<VARS:var0=void 0>> addDisabledButton(i++,pc_ship.short,\"<i>\".concat(pc_ship.theName,\"</i>\"),\"You can’t sell your ship without first lining up a replacement.\",void 0,pc_ship)"
+  },
+  {
+    "key": "output.expr|var0_endList|b00393bd1a17",
+    "original": "{var0}.endList()",
+    "translation": "",
+    "context": "<<POS:10511955>> <<VARS:var0=u.m>> output(u.m.endList())"
   },
   {
     "key": "button|Current_Ship|13577fe76234#1",
@@ -309,13 +399,39 @@
     "key": "button|Back|d98738b8010b#1",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:10512193>> addButton(14,\"Back\",(function(){resetItemSelector(),o()}))"
+    "context": "<<POS:10512193>> addButton(14,\"Back\",(function(){resetItemSelector(),o()}))",
+    "stage": 1
+  },
+  {
+    "key": "name.show.expr|var0|47fa7bde0a8a#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10512986>> <<VARS:var0=t.short>> showName(t.short)"
+  },
+  {
+    "key": "textify|You_swap_i|52096726c98e",
+    "original": "You swap <i>",
+    "translation": "",
+    "context": "<<POS:10513026>>"
+  },
+  {
+    "key": "textify|i_for_i|7db3bb423b1f",
+    "original": "</i> for <i>",
+    "translation": "",
+    "context": "<<POS:10513041>>"
+  },
+  {
+    "key": "textify|i|80acba3a3894",
+    "original": "</i>.",
+    "translation": "",
+    "context": "<<POS:10513056>>"
   },
   {
     "key": "button|Next|674722d95476",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:10513272>> addButton(0,\"Next\",(function(){return e.storedShipsMenu(o,i,s)}))"
+    "context": "<<POS:10513272>> addButton(0,\"Next\",(function(){return e.storedShipsMenu(o,i,s)}))",
+    "stage": 1
   },
   {
     "key": "output.expr|Your_old_vessel_i_var0_i_is_placed_into_storage|b024cc3a3e33",
@@ -354,10 +470,28 @@
     "context": "<<POS:10514410>> addDisabledButton(l,\"Edit Weapons\",\"Reorganize Weapons\",\"You do not have enough installed weapons to change the order of.\")"
   },
   {
+    "key": "button.expr|var1_toDisplayCase_var0|2f3e67904b50",
+    "original": "{var1}.toDisplayCase({var0})",
+    "translation": "",
+    "context": "<<POS:10514518>> <<VARS:var0=i,var1=u.m>> addButton(n,u.m.toDisplayCase(i),(function(){makeButtonMenuFromList(s,(function(e,t){return addItemButton(e,t,(function(){window.showInspectItem(t,null,o)}))}),(function(){return e.equipmentMenu(t,o,a)}),0,u.m.toDisplayCase(i))}),u.m.toDisplayCase(\"installed \".concat(i)),\"View the list of installed ..."
+  },
+  {
+    "key": "button.hover.expr|var0_toDisplayCase_installed_concat_i|c0f07ce65b77",
+    "original": "{var0}.toDisplayCase(\"installed \".concat(i))",
+    "translation": "",
+    "context": "<<POS:10514736>> <<VARS:var0=u.m>> addButton(n,u.m.toDisplayCase(i),(function(){makeButtonMenuFromList(s,(function(e,t){return addItemButton(e,t,(function(){window.showInspectItem(t,null,o)}))}),(function(){return e.equipmentMenu(t,o,a)}),0,u.m.toDisplayCase(i))}),u.m.toDisplayCase(\"installed \".concat(i)),\"View the list of installed ..."
+  },
+  {
     "key": "button.tooltip|View_the_list_of_installed|a91ac032b7cc",
     "original": "View the list of installed ",
     "translation": "",
     "context": "<<POS:10514779>> addButton(n,u.m.toDisplayCase(i),(function(){makeButtonMenuFromList(s,(function(e,t){return addItemButton(e,t,(function(){window.showInspectItem(t,null,o)}))}),(function(){return e.equipmentMenu(t,o,a)}),0,u.m.toDisplayCase(i))}),u.m.toDisplayCase(\"installed \".concat(i)),\"View the list of installed ..."
+  },
+  {
+    "key": "button.expr|var1_toDisplayCase_var0|62eeae8bc6be",
+    "original": "{var1}.toDisplayCase({var0})",
+    "translation": "",
+    "context": "<<POS:10514843>> <<VARS:var0=i,var1=u.m>> addDisabledButton(n,u.m.toDisplayCase(i),u.m.toDisplayCase(\"installed \".concat(i)),\"This ship has no installed \".concat(i,\" to view.\"))"
   },
   {
     "key": "button.hover|This_ship_has_no_installed|320a05c6c76d",
@@ -369,13 +503,27 @@
     "key": "button|Back|90f677abb294",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:10514989>> addButton(14,\"Back\",(function(){resetItemSelector(),a()}))"
+    "context": "<<POS:10514989>> addButton(14,\"Back\",(function(){resetItemSelector(),a()}))",
+    "stage": 1
+  },
+  {
+    "key": "name.show.expr|var0|47fa7bde0a8a#2",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10515213>> <<VARS:var0=t.short>> showName(t.short)"
+  },
+  {
+    "key": "output.expr|var1_generateCompareString_var0|4a184a8916b5",
+    "original": "{var1}.generateCompareString({var0})",
+    "translation": "",
+    "context": "<<POS:10515229>> <<VARS:var0=t,t,var1=e>> output(e.generateCompareString(t,t))"
   },
   {
     "key": "button|Back|f853bca78c40",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:10515311>> addButton(14,\"Back\",(function(){resetItemSelector(),o()}))"
+    "context": "<<POS:10515311>> addButton(14,\"Back\",(function(){resetItemSelector(),o()}))",
+    "stage": 1
   },
   {
     "key": "assign|i|e0e9509802f3",
@@ -418,6 +566,12 @@
     "original": "<span class=\"clickable\" onclick=\"showItemFlagInfo(\\'DamageFlag\\', ",
     "translation": "",
     "context": "<<POS:10519812>>"
+  },
+  {
+    "key": "assign|span|8d8e0aee78b3",
+    "original": "</span>",
+    "translation": "",
+    "context": "<<POS:10519910>>"
   },
   {
     "key": "assign|b_b|591774339650",
@@ -510,10 +664,34 @@
     "context": "<<POS:10525153>>"
   },
   {
+    "key": "button.expr|var0|496c6c9bc2b6",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10525726>> <<VARS:var0=n>> addButton(t,n,(function(){window.showInspectItem(o,a),i&&(u||(u=a&&o?e.generateCompareDescription(a,o):null),addButton(0,s,(function(){window.popUIStateToMainText(),i()}),r,u))}),o?\"<i>\".concat(o.theName,\"</i>\"):n,e.generateCompareDescription(a,o),void 0,o)"
+  },
+  {
     "key": "button.hover.expr|var0_i_concat_o_theName_i_var1|f8a00d376d72",
     "original": "{var0}?\"<i>\".concat(o.theName,\"</i>\"):{var1}",
     "translation": "",
     "context": "<<POS:10525893>> <<VARS:var0=o,var1=n>> addButton(t,n,(function(){window.showInspectItem(o,a),i&&(u||(u=a&&o?e.generateCompareDescription(a,o):null),addButton(0,s,(function(){window.popUIStateToMainText(),i()}),r,u))}),o?\"<i>\".concat(o.theName,\"</i>\"):n,e.generateCompareDescription(a,o),void 0,o)"
+  },
+  {
+    "key": "button.tooltip.expr|var1_generateCompareDescription_var0|9fd04a9eb53f",
+    "original": "{var1}.generateCompareDescription({var0})",
+    "translation": "",
+    "context": "<<POS:10525928>> <<VARS:var0=a,o,var1=e>> addButton(t,n,(function(){window.showInspectItem(o,a),i&&(u||(u=a&&o?e.generateCompareDescription(a,o):null),addButton(0,s,(function(){window.popUIStateToMainText(),i()}),r,u))}),o?\"<i>\".concat(o.theName,\"</i>\"):n,e.generateCompareDescription(a,o),void 0,o)"
+  },
+  {
+    "key": "name.show.expr|var0|3f03c0a9d0cd",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10526277>> <<VARS:var0=t.short>> showName(t.short)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10526293>> <<VARS:var0=i>> output(i)"
   },
   {
     "key": "output.expr|var1_generateCompareString_var0|dbf8f58c3665",
@@ -525,7 +703,15 @@
     "key": "button|Yes|6a1c255a6ac5",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:10526399>> addButton(0,\"Yes\",(function(){return a()}))"
+    "context": "<<POS:10526399>> addButton(0,\"Yes\",(function(){return a()}))",
+    "stage": 1
+  },
+  {
+    "key": "button|No|1c655db5490a",
+    "original": "No",
+    "translation": "不",
+    "context": "<<POS:10526443>> addButton(1,\"No\",(function(){return n()}))",
+    "stage": 1
   },
   {
     "key": "button|Equipment|c735303ad523",

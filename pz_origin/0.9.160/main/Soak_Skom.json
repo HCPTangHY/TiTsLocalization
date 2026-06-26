@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|dose_of_Soak|199c97964ab9",
+    "original": "dose of Soak",
+    "translation": "",
+    "context": "<<POS:09672681>>"
+  },
+  {
     "key": "assign|a_dose_of_Soak|cf8bbdf04357",
     "original": "a dose of Soak",
     "translation": "",
@@ -122,7 +128,7 @@
   {
     "key": "button|Oral|813fccc05deb",
     "original": "Oral",
-    "translation": "口交",
+    "translation": "",
     "context": "<<POS:09676754>> addButton(1,\"Oral\",(function(){return t.putDatSoakInYerMouf(e)}))"
   },
   {
@@ -142,6 +148,26 @@
     "original": "Use",
     "translation": "",
     "context": "<<POS:09677351>> addDisabledButton(0,\"Use\")"
+  },
+  {
+    "key": "button|Don_t_Use|0be660b7f3f7",
+    "original": "Don’t Use",
+    "translation": "",
+    "context": "<<POS:09677370>> addButton(1,\"Don’t Use\",(function(){return t.itemCancel(t)}))"
+  },
+  {
+    "key": "button|Codex|ca0d49eb9299",
+    "original": "Codex",
+    "translation": "智典",
+    "context": "<<POS:09677432>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.GE)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"Look...",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Codex_Entry|24493e4f06cb",
+    "original": "Codex Entry",
+    "translation": "智典入口",
+    "context": "<<POS:09677701>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.GE)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"Look...",
+    "stage": 1
   },
   {
     "key": "button.tooltip|Look_up_Soak_s_Codex_entry_real_quick|32ffeeb74223",
@@ -166,6 +192,13 @@
     "original": "You put the pill back into your inventory.",
     "translation": "",
     "context": "<<POS:09677925>>"
+  },
+  {
+    "key": "button|Next|5c2987c1c774",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:09678016>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Soak|bdbf59b191ae",
@@ -213,7 +246,8 @@
     "key": "button|Next|2b5a17c54939",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09678893>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+    "context": "<<POS:09678893>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Soak|bdbf59b191ae#1",
@@ -224,7 +258,7 @@
   {
     "key": "output|You|87ceb254eccd",
     "original": "You ",
-    "translation": "你 ",
+    "translation": "",
     "context": "<<POS:09679142>>"
   },
   {
@@ -249,7 +283,22 @@
     "key": "button|Next|89218342fc7d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09680081>> addButton(0,\"Next\",(function(){return t.badEndForSoakyBoisByAltair(e)}))"
+    "context": "<<POS:09680081>> addButton(0,\"Next\",(function(){return t.badEndForSoakyBoisByAltair(e)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:09680166>> addButton(0,\"Next\",(function(){return t.soakOverdose(e)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff#1",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:09680242>> addButton(0,\"Next\",(function(){return t.soakEffectsSceneWheee(e)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Soak|bdbf59b191ae#2",
@@ -273,7 +322,22 @@
     "key": "button|Next|d86a45c20d58",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09681433>> addButton(0,\"Next\",(function(){return t.badEndForSoakyBoisByAltair(e)}))"
+    "context": "<<POS:09681433>> addButton(0,\"Next\",(function(){return t.badEndForSoakyBoisByAltair(e)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff#2",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:09681518>> addButton(0,\"Next\",(function(){return t.soakOverdose(e)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff#3",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:09681594>> addButton(0,\"Next\",(function(){return t.soakEffectsSceneWheee(e)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Soak|bdbf59b191ae#3",
@@ -321,7 +385,8 @@
     "key": "button|Next|c74d6248986d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09684314>> addButton(0,\"Next\",o)"
+    "context": "<<POS:09684314>> addButton(0,\"Next\",o)",
+    "stage": 1
   },
   {
     "key": "name.show|Soak|bdbf59b191ae#4",
@@ -405,7 +470,8 @@
     "key": "button|Next|2fd5cf8f12ea",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09688706>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:09688706>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Soak|bdbf59b191ae#5",
@@ -459,7 +525,8 @@
     "key": "button|Next|8555add6c50a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09690361>> addButton(0,\"Next\",(function(){clearOutput(),showBust(\"SOAK\"),showName(\"Soak\"),author(\"Skom\");var o=0;void 0!==flags.SOAK_TIMES_USED&&(o=flags.SOAK_TIMES_USED);output(\"Over the next few minutes, you feel a growing heat in your [pc.vaginas], accompanied by a tingly need that starts inside but quickly..."
+    "context": "<<POS:09690361>> addButton(0,\"Next\",(function(){clearOutput(),showBust(\"SOAK\"),showName(\"Soak\"),author(\"Skom\");var o=0;void 0!==flags.SOAK_TIMES_USED&&(o=flags.SOAK_TIMES_USED);output(\"Over the next few minutes, you feel a growing heat in your [pc.vaginas], accompanied by a tingly need that starts inside but quickly...",
+    "stage": 1
   },
   {
     "key": "name.show|Soak|bdbf59b191ae#6",
@@ -543,7 +610,8 @@
     "key": "button|Next|8f6623709bd2",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09696414>> addButton(0,\"Next\",(function(){return t.soakOverdose2(e)}))"
+    "context": "<<POS:09696414>> addButton(0,\"Next\",(function(){return t.soakOverdose2(e)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Soak|bdbf59b191ae#7",
@@ -597,7 +665,8 @@
     "key": "button|Next|49a4975d475a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09698905>> addButton(0,\"Next\",(function(){return t.soakOverdose3(e)}))"
+    "context": "<<POS:09698905>> addButton(0,\"Next\",(function(){return t.soakOverdose3(e)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Soak|bdbf59b191ae#8",
@@ -639,7 +708,8 @@
     "key": "button|Next|cee75fba54fa",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09700982>> addButton(0,\"Next\",(function(){return t.soakOverdose4(e)}))"
+    "context": "<<POS:09700982>> addButton(0,\"Next\",(function(){return t.soakOverdose4(e)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Soak|bdbf59b191ae#9",
@@ -687,7 +757,15 @@
     "key": "output|are|39d5598ba584",
     "original": " are",
     "translation": "掏",
-    "context": "<<POS:09702751>>"
+    "context": "<<POS:09702751>>",
+    "stage": 1
+  },
+  {
+    "key": "output|is|5243da8630ad",
+    "original": " is",
+    "translation": "掏",
+    "context": "<<POS:09702766>>",
+    "stage": 1
   },
   {
     "key": "output|still_very_puffy_swollen_beautifully_and_tingling_with_need_w|b4007456e820",
@@ -705,7 +783,15 @@
     "key": "button|Next|c9f0fbfd26f1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09703558>> addButton(0,\"Next\",(function(){return t.badEndForSoakyBoisByAltair(e)}))"
+    "context": "<<POS:09703558>> addButton(0,\"Next\",(function(){return t.badEndForSoakyBoisByAltair(e)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff#4",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:09703645>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Soak|bdbf59b191ae#10",
@@ -879,7 +965,8 @@
     "key": "button|Next|e6ae53220e24",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09714069>> addButton(0,\"Next\",(function(){return t.soakBadEndPart2(e)}))"
+    "context": "<<POS:09714069>> addButton(0,\"Next\",(function(){return t.soakBadEndPart2(e)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Soak|bdbf59b191ae#11",
@@ -1029,7 +1116,8 @@
     "key": "button|Next|d82ce4c946e8",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09718928>> addButton(0,\"Next\",(function(){return t.soakBadEndPart3(e)}))"
+    "context": "<<POS:09718928>> addButton(0,\"Next\",(function(){return t.soakBadEndPart3(e)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Soak|bdbf59b191ae#12",
@@ -1335,6 +1423,7 @@
     "key": "button|Next|c9bd886d1093",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09734379>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:09734379>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   }
 ]

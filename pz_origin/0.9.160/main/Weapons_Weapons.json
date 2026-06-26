@@ -1,27 +1,15 @@
 [
   {
-    "key": "button|Back|8377b4609270",
-    "original": "Back",
-    "translation": "返回",
-    "context": "<<POS:08851080>> addButton(14,\"Back\",(function(){return o.rbgCancel(e,n)}))"
+    "key": "button|Weapons|16ec46311dc6",
+    "original": "Weapons",
+    "translation": "",
+    "context": "<<POS:10896310>> addDisabledButton(0,\"Weapons\",\"Weapons\",\"Your ship has no weapons equipped.\")"
   },
   {
-    "key": "button|Back|8377b4609270#1",
-    "original": "Back",
-    "translation": "返回",
-    "context": "<<POS:09272785>> addButton(14,\"Back\",(function(){return a.partMenu(e,t,o,-1,a)}))"
-  },
-  {
-    "key": "button|Next|6d18801ef4fb",
-    "original": "Next",
-    "translation": "继续",
-    "context": "<<POS:09274109>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
-  },
-  {
-    "key": "button|Back|202fe93f2acf",
-    "original": "Back",
-    "translation": "返回",
-    "context": "<<POS:09972420>> addButton(14,\"Back\",(function(){return o.uthraMenuMain(e,t)}))"
+    "key": "button.hover|Your_ship_has_no_weapons_equipped|0f0a756894f6",
+    "original": "Your ship has no weapons equipped.",
+    "translation": "",
+    "context": "<<POS:10896330>> addDisabledButton(0,\"Weapons\",\"Weapons\",\"Your ship has no weapons equipped.\")"
   },
   {
     "key": "button|Weapons|20721142bd08",
@@ -342,10 +330,32 @@
     "context": "<<POS:10901054>> <<VARS:var0=m.m>> combatAppend(m.m.endList())"
   },
   {
+    "key": "button|Back|202fe93f2acf",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:10903411>> addButton(14,\"Back\",(function(){t.manageWeapons(e,!1),t.generateCombatMenu(!0)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Back|8377b4609270",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:10904100>> addButton(14,\"Back\",(function(){return e.generateCombatMenu(!0)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Back|8377b4609270#1",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:10904273>> addButton(14,\"Back\",(function(){return e.generateCombatMenu(!0)}),\"Back\",\"Return to the previous menu.\")",
+    "stage": 1
+  },
+  {
     "key": "button.hover|Back|8377b4609270",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:10904326>> addButton(14,\"Back\",(function(){return e.generateCombatMenu(!0)}),\"Back\",\"Return to the previous menu.\")"
+    "context": "<<POS:10904326>> addButton(14,\"Back\",(function(){return e.generateCombatMenu(!0)}),\"Back\",\"Return to the previous menu.\")",
+    "stage": 1
   },
   {
     "key": "button.tooltip|Return_to_the_previous_menu|e14287d991b2",
@@ -432,6 +442,12 @@
     "context": "<<POS:10907259>> <<VARS:var0=h>> ParseText(h)"
   },
   {
+    "key": "button.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10907800>> <<VARS:var0=n.buttonText>> addButton(o,n.buttonText,function(e,o){return function(){e.tar=o,t.executeSimpleAttack(e)}}(e,n),m.m.toDisplayCase(\"target \".concat(n===pc_ship?\"yourself\":n.getCombatName())),\"Use action on \".concat(n===pc_ship?\"your own vessel\":n.nameDisplay(),\".\"))"
+  },
+  {
     "key": "button.hover.expr|var0_toDisplayCase_target_concat_n_pc_ship_yourself_n_g|2bd70de1dfe4",
     "original": "{var0}.toDisplayCase(\"target \".concat(n===pc_ship?\"yourself\":n.getCombatName()))",
     "translation": "",
@@ -447,7 +463,15 @@
     "key": "button|Back|3e311fd8f355",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:10908057>> addButton(14,\"Back\",this.generateCombatMenu)"
+    "context": "<<POS:10908057>> addButton(14,\"Back\",this.generateCombatMenu)",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|6d18801ef4fb",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:10914793>> addButton(0,\"Next\",(function(){clearCombatOutput(),e.combatContainer&&(e.combatContainer.showMainUI(),e.combatContainer.doCombatCleanup(),e.combatContainer=null),t()}))",
+    "stage": 1
   },
   {
     "key": "assign|Defeat_Team|16e5c93e07b1",

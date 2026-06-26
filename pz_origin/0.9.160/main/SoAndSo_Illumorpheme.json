@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|Illumorpheme_case|41bcf0f75fd0",
+    "original": "Illumorpheme case",
+    "translation": "",
+    "context": "<<POS:08437825>>"
+  },
+  {
     "key": "assign|an_Illumorpheme_case|88eecee131eb",
     "original": "an Illumorpheme case",
     "translation": "",
@@ -27,7 +33,8 @@
     "key": "button|Next|bd8c2cdc6a51",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:08439087>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
+    "context": "<<POS:08439087>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))",
+    "stage": 1
   },
   {
     "key": "output|You_open_the_anodyne_black_box_of_Illumorpheme_Bearing_the_warn|694a1956c0ad",
@@ -46,6 +53,30 @@
     "original": "Setting yourself down on your bed, you give it all a thorough inspection. There’s a singular slot for a vial, so It seems you’re limited to only one selection. Which do you go for?",
     "translation": "",
     "context": "<<POS:08439483>>"
+  },
+  {
+    "key": "button.expr|var0|ee1252da73fc",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08440072>> <<VARS:var0=o.name>> addButton(i++,o.name,(function(){return t.illumorpheneUse(e,o.type,t)}),o.name,o.desc)"
+  },
+  {
+    "key": "button.hover.expr|var0|ee1252da73fc",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08440130>> <<VARS:var0=o.name>> addButton(i++,o.name,(function(){return t.illumorpheneUse(e,o.type,t)}),o.name,o.desc)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|ee1252da73fc",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08440137>> <<VARS:var0=o.desc>> addButton(i++,o.name,(function(){return t.illumorpheneUse(e,o.type,t)}),o.name,o.desc)"
+  },
+  {
+    "key": "output.expr|var1_createTable_var0|5de15dd505be",
+    "original": "{var1}.createTable({var0})",
+    "translation": "",
+    "context": "<<POS:08440195>> <<VARS:var0=n,[\"Name\",\"Description\"],[\"text-label\",\"text-left\"],\"\",\"Options\",\"\",var1=l.m>> output(l.m.createTable(n,[\"Name\",\"Description\"],[\"text-label\",\"text-left\"],\"\",\"Options\",\"\"))"
   },
   {
     "key": "button|Actually|f53a00f13aa6",
@@ -70,6 +101,18 @@
     "original": "{var0}+{var1}+\" cannot use the case of Illumorpheme.",
     "translation": "",
     "context": "<<POS:08440418>> <<VARS:var0=e.capitalA,var1=e.short>> output(e.capitalA+e.short+\" cannot use the case of Illumorpheme.\")"
+  },
+  {
+    "key": "name.show.expr|var1_toDisplayCase_var0|810d875c5cd8",
+    "original": "{var1}.toDisplayCase({var0})",
+    "translation": "",
+    "context": "<<POS:08440582>> <<VARS:var0=t,var1=l.m>> showName(l.m.toDisplayCase(t))"
+  },
+  {
+    "key": "output|With_caution_you_remove_the_injector_and_the|468b6b74aeab",
+    "original": "With caution, you remove the injector and the ",
+    "translation": "",
+    "context": "<<POS:08440630>>"
   },
   {
     "key": "output|pink|44789990a2bf",
@@ -135,7 +178,20 @@
     "key": "button|Next|4502be4dfbb1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:08442119>> addButton(0,\"Next\",(function(){return a.illumorpheneNext(e,t,o)}))"
+    "context": "<<POS:08442119>> addButton(0,\"Next\",(function(){return a.illumorpheneNext(e,t,o)}))",
+    "stage": 1
+  },
+  {
+    "key": "name.show.expr|var1_toDisplayCase_var0|612037054b82",
+    "original": "{var1}.toDisplayCase({var0})",
+    "translation": "",
+    "context": "<<POS:08442257>> <<VARS:var0=t,var1=l.m>> showName(l.m.toDisplayCase(t))"
+  },
+  {
+    "key": "output|But_you_re_not_quite_asleep_just_barely_hanging_on_to_conscious|9665051496c9",
+    "original": "But you’re not quite asleep, just barely hanging on to consciousness. It’s enough to feel what’s undoubtedly going to change you, at least.",
+    "translation": "",
+    "context": "<<POS:08442305>>"
   },
   {
     "key": "output|The_pc_skinFurScales_covering_your_body_is_the_first_thing_to|9995a06341fc",
@@ -177,7 +233,8 @@
     "key": "output|b|396d3141d766",
     "original": "!</b>",
     "translation": "!</b>",
-    "context": "<<POS:08443653>>"
+    "context": "<<POS:08443653>>",
+    "stage": 1
   },
   {
     "key": "output.expr|Your_limbs_and_bones_feel_something_similar_a_loss_of_mass_coin|b198e38e0ee7",
@@ -309,7 +366,8 @@
     "key": "button|Next|1363d1f26e93",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:08449898>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))"
+    "context": "<<POS:08449898>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Illumorpheme|b87df889978b",
@@ -327,6 +385,7 @@
     "key": "button|Next|881156b63c88",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:08450261>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+    "context": "<<POS:08450261>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   }
 ]

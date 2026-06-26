@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|a_bottle_of_Holstaria|29f2724a2d9b",
+    "original": "a bottle of Holstaria",
+    "translation": "",
+    "context": "<<POS:08377089>>"
+  },
+  {
     "key": "assign|This_is_a_small_bottle_the_size_of_an_energy_drink_labeled_with|a4da86b33be8",
     "original": "This is a small bottle the size of an energy drink, labeled with the Steele Tech logo, along with a warning label about its prototype status. The drink contains an abundance of highly dense proteins and microsurgeons used to produce transformation into a tall, muscular and curvaceous cowgirl.",
     "translation": "",
@@ -240,6 +246,12 @@
     "context": "<<POS:08388937>>"
   },
   {
+    "key": "perk|Bubble_Butt|62798961bd8c",
+    "original": "Bubble Butt",
+    "translation": "",
+    "context": "<<POS:08389038>> createPerk(\"Bubble Butt\",0,0,0,0,\"Your ass is always soft, regardless of tone.\")"
+  },
+  {
     "key": "output|A_shiver_runs_across_your_pc_butts_and_suddenly_they_don_t_fee|d0615a3579ef",
     "original": "A shiver runs across your [pc.butts] and suddenly they don’t feel as extra tight and firm as they did before... You suppose this is one of the side effects of the Holstaria drink....",
     "translation": "",
@@ -390,6 +402,12 @@
     "context": "<<POS:08393611>>  output(\"\\n\\nYour \"+(1===e.legCount?\"[pc.leg] quakes\":\"[pc.legs] quake\")+\" under you, prompting you to hurry and sit down before you collapse. You watch as your lower body twists and morphs, forming into\")"
   },
   {
+    "key": "output|a_pair_of|9cced2e33313",
+    "original": " a pair of",
+    "translation": "",
+    "context": "<<POS:08393827>>"
+  },
+  {
     "key": "output.expr|unguligrade_legs_each_capped_with_a_thick_powerful_hoof_A_lay|154abaa25b2a",
     "original": " unguligrade legs each capped with a thick, powerful hoof. A layer of [pc.furColor] fur soon grows in over the skin, <b>leaving you with a decidedly bovine \"+({var0}?\"pair\":\"set\")+\" of legs.</b>",
     "translation": "",
@@ -402,6 +420,18 @@
     "context": "<<POS:08394261>> <<VARS:var0=e>> output(\"\\n\\n\"+e.legTypeLockedMessage())"
   },
   {
+    "key": "output|Your_pc_hair_soon_begins_to_molt_or_perhaps_melt_is_a_better|fc37057fa74b",
+    "original": "Your [pc.hair] soon begins to molt; or perhaps melt is a better way to describe how it feels, wicking away under the heat of your scalp to leave your head bare. It doesn’t stay that way for long, as fresh [pc.hairColor] locks grow in in short order, taking the heat with them. In time, the sensation fully fades, leaving you with a new full head of hair.",
+    "translation": "",
+    "context": "<<POS:08394352>>"
+  },
+  {
+    "key": "output.expr|var0_hairTypeLockedMessage|bc8eec710ac3",
+    "original": "\"+{var0}.hairTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:08394777>> <<VARS:var0=e>> output(\"\\n\\n\"+e.hairTypeLockedMessage())"
+  },
+  {
     "key": "output.expr|Your_fur_tingles_as_a_drop_of_bovine_var0_forms_at_your_ch|d49785ac8980",
     "original": "Your fur tingles as a drop of bovine \"+{var0}+\" forms at your chest, flowing outward to cover your entire body in the new palette. <b>Your fur is now \"+{var1}+\".</b>",
     "translation": "",
@@ -412,6 +442,24 @@
     "original": "\"+{var0}.furColorLockedMessage()",
     "translation": "",
     "context": "<<POS:08395030>> <<VARS:var0=e>> output(\"\\n\\n\"+e.furColorLockedMessage())"
+  },
+  {
+    "key": "output.expr|Your_var0_hasScales_scales_chitin_start_to_flake_a|e208da848fda",
+    "original": "Your \"+({var0}.hasScales()?\"scales\":\"chitin\")+\" start to flake away as they heat up, revealing swathes of fresh smooth [pc.skinColor] skin beneath. You’re left confused - wasn’t this supposed to grow fur? - but a second wave of warmth follows just as you finish the thought. ",
+    "translation": "",
+    "context": "<<POS:08395161>> <<VARS:var0=e>> output(\"Your \"+(e.hasScales()?\"scales\":\"chitin\")+\" start to flake away as they heat up, revealing swathes of fresh smooth [pc.skinColor] skin beneath. You’re left confused - wasn’t this supposed to grow fur? - but a second wave of warmth follows just as you finish the thought. \")"
+  },
+  {
+    "key": "output.expr|Swathes_of_new_var0_fur_begin_to_fill_out_across_your_skin|1d35c5bcd5c8",
+    "original": "Swathes of new \"+{var0}+\" fur begin to fill out across your skin, soon spreading to cover you completely in the warm pelt. It’s not quite thick enough to go without a heat belt on an ice world, but it should make you much more comfortable.",
+    "translation": "",
+    "context": "<<POS:08395442>> <<VARS:var0=o>> output(\"Swathes of new \"+o+\" fur begin to fill out across your skin, soon spreading to cover you completely in the warm pelt. It’s not quite thick enough to go without a heat belt on an ice world, but it should make you much more comfortable.\")"
+  },
+  {
+    "key": "output.expr|var0_skinTypeLockedMessage|73b4849f3550",
+    "original": "\"+{var0}.skinTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:08395756>> <<VARS:var0=e>> output(\"\\n\\n\"+e.skinTypeLockedMessage())"
   },
   {
     "key": "output|The_heat_concentrates_in_your_skin|ab49de73b9cf",

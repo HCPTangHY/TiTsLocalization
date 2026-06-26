@@ -1,15 +1,9 @@
 [
   {
-    "key": "output|pc_belly|263127a67c1f",
-    "original": "[pc.belly]",
-    "translation": "",
-    "context": "<<POS:08540238>>"
-  },
-  {
-    "key": "header|Victory|5954cb577c9e#1",
+    "key": "header|Victory|306a3bdfd0a7",
     "original": "Victory",
     "translation": "",
-    "context": "<<POS:29845883>>"
+    "context": "<<POS:35942156>>"
   },
   {
     "key": "output|Alright_time_to_get_out_of_here_You_lock_up_the_Akkadi_case_an|1796dcdf1546",
@@ -207,7 +201,14 @@
     "key": "button|Next|90546a07de14",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35947719>> addButton(0,\"Next\",yNe)"
+    "context": "<<POS:35947719>> addButton(0,\"Next\",yNe)",
+    "stage": 1
+  },
+  {
+    "key": "header|Victory|5954cb577c9e",
+    "original": "Victory",
+    "translation": "",
+    "context": "<<POS:35947785>>"
   },
   {
     "key": "output|You_wipe_the_sweat_from_your_brow_as_you_crawl_out_of_the_wiry_g|a21410056219",
@@ -315,7 +316,8 @@
     "key": "button|Next|4d6b0be809ad",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35952130>> addButton(0,\"Next\",XBe)"
+    "context": "<<POS:35952130>> addButton(0,\"Next\",XBe)",
+    "stage": 1
   },
   {
     "key": "output|You_tell_her_that_you_will_and_turn_to_leave|12a91acbb059",
@@ -387,7 +389,15 @@
     "key": "button|Next|835472b102e9",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35955055>> addButton(0,\"Next\",fNe)"
+    "context": "<<POS:35955055>> addButton(0,\"Next\",fNe)",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:35955079>> addButton(0,\"Next\",XBe)",
+    "stage": 1
   },
   {
     "key": "output|Considering_Syri_s_last_request_such_as_it_is_you_tell_Anno_to|5159f3a562fc",
@@ -435,7 +445,14 @@
     "key": "button|Next|4a88750c3953",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35956401>> addButton(0,\"Next\",XBe)"
+    "context": "<<POS:35956401>> addButton(0,\"Next\",XBe)",
+    "stage": 1
+  },
+  {
+    "key": "header|Victory|5954cb577c9e#1",
+    "original": "Victory",
+    "translation": "",
+    "context": "<<POS:35956467>>"
   },
   {
     "key": "output|You_step_towards_the_defeated_demoness_shrugging_off_your_gear|e8bafa0ffb28",
@@ -1251,7 +1268,8 @@
     "key": "button|Next|0a296c60e6f5",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35989176>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:35989176>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|0a296c60e6f5",
@@ -1269,7 +1287,8 @@
     "key": "button|Next|fe1f5b6b7fb2",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35989544>> addButton(e++,\"Next\",pc.hasCock()?RNe:YNe,\"Next\",\"\")"
+    "context": "<<POS:35989544>> addButton(e++,\"Next\",pc.hasCock()?RNe:YNe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|fe1f5b6b7fb2",
@@ -1287,7 +1306,8 @@
     "key": "button|Next|07cd84521325",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36001161>> addButton(e++,\"Next\",BNe,\"Next\",\"\")"
+    "context": "<<POS:36001161>> addButton(e++,\"Next\",BNe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|07cd84521325",
@@ -1305,7 +1325,8 @@
     "key": "button|Next|2854efe5401d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36002848>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:36002848>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|2854efe5401d",
@@ -1323,7 +1344,8 @@
     "key": "button|Next|bf32db9eb3f6",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36007692>> addButton(e++,\"Next\",(function(){return ONe(true)}),\"Next\",\"\")"
+    "context": "<<POS:36007692>> addButton(e++,\"Next\",(function(){return ONe(true)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|bf32db9eb3f6",
@@ -1341,7 +1363,8 @@
     "key": "button|Next|7b179f828c9f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36011483>> addButton(e++,\"Next\",(function(){return ONe(false)}),\"Next\",\"\")"
+    "context": "<<POS:36011483>> addButton(e++,\"Next\",(function(){return ONe(false)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|7b179f828c9f",
@@ -1359,7 +1382,8 @@
     "key": "button|Next|694eee05beb9",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36017080>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:36017080>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|694eee05beb9",
@@ -1377,7 +1401,8 @@
     "key": "button|Next|10c6701120e5",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36019259>> addButton(e++,\"Next\",MNe,\"Next\",\"\")"
+    "context": "<<POS:36019259>> addButton(e++,\"Next\",MNe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|10c6701120e5",
@@ -1395,7 +1420,8 @@
     "key": "button|Next|c6105fb1f657",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36020164>> addButton(e++,\"Next\",MNe,\"Next\",\"\")"
+    "context": "<<POS:36020164>> addButton(e++,\"Next\",MNe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|c6105fb1f657",
@@ -1413,7 +1439,8 @@
     "key": "button|Next|099dbc107fb3",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36024041>> addButton(e++,\"Next\",GNe,\"Next\",\"\")"
+    "context": "<<POS:36024041>> addButton(e++,\"Next\",GNe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|099dbc107fb3",
@@ -1431,7 +1458,8 @@
     "key": "button|Next|758c768d8aff",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36027348>> addButton(e++,\"Next\",FNe,\"Next\",\"\")"
+    "context": "<<POS:36027348>> addButton(e++,\"Next\",FNe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|758c768d8aff",
@@ -1449,7 +1477,8 @@
     "key": "button|Next|5c2ff1b8360c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36034753>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:36034753>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|5c2ff1b8360c",
@@ -1574,7 +1603,7 @@
   {
     "key": "button|Leave|3f842bd543bb",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:36042296>> addButton(1,\"Leave\",(function(){return function(e){clearOutput(),author(\"Savin\"),output(\"You plot a course around the anomaly, leaving a buoy in your wake for Steele Tech to come investigate later. Your pop’s science department can deal with this: you’ve got better things to do.\"),flags.EVENT_WHORIZ..."
   },
   {
@@ -1629,7 +1658,8 @@
     "key": "button|Fight|e9ae6fa9fee2",
     "original": "Fight!",
     "translation": "战斗！",
-    "context": "<<POS:36044777>> addButton(0,\"Fight!\",E.V.beginCombat)"
+    "context": "<<POS:36044777>> addButton(0,\"Fight!\",E.V.beginCombat)",
+    "stage": 1
   },
   {
     "key": "name.show|Torment_Cages|189fcb52ccda",
@@ -1694,7 +1724,7 @@
   {
     "key": "button|Leave|e5815d378dd8",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:36046711>> addButton(1,\"Leave\",rNe,\"Leave Him\",\"Back off and leave the poor Rusher to his fate.\")"
   },
   {
@@ -1791,7 +1821,8 @@
     "key": "button|Next|ddd23b06f3a6",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36049950>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36049950>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|The_Bondage_Palace|6e627e543a96",
@@ -1887,7 +1918,8 @@
     "key": "button|Fight|fbc42cea84e5",
     "original": "Fight!",
     "translation": "战斗！",
-    "context": "<<POS:36054579>> addButton(0,\"Fight!\",E.V.beginCombat)"
+    "context": "<<POS:36054579>> addButton(0,\"Fight!\",E.V.beginCombat)",
+    "stage": 1
   },
   {
     "key": "textify|As_you_walk_down_the_dirt_road_you_notice_a_crowd_gathered_a_goo|5081e6a0f49f",
@@ -1899,7 +1931,8 @@
     "key": "button|Next|d026add0764b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36057062>> addButton(e++,\"Next\",LNe,\"Next\",\"\")"
+    "context": "<<POS:36057062>> addButton(e++,\"Next\",LNe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|d026add0764b",
@@ -1923,7 +1956,8 @@
     "key": "button|Next|383ce8af799a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36057999>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:36057999>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|383ce8af799a",
@@ -1947,7 +1981,8 @@
     "key": "button|Next|fbebb2d7d34b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36059239>> addButton(t++,\"Next\",VNe,\"Next\",\"\")"
+    "context": "<<POS:36059239>> addButton(t++,\"Next\",VNe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|fbebb2d7d34b",
@@ -2019,7 +2054,8 @@
     "key": "button|Next|3aff40249e54",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36061985>> addButton(e++,\"Next\",UNe,\"Next\",\"\")"
+    "context": "<<POS:36061985>> addButton(e++,\"Next\",UNe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|3aff40249e54",
@@ -2043,7 +2079,8 @@
     "key": "button|Next|64f9dd9232f8",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36063789>> addButton(e++,\"Next\",UNe,\"Next\",\"\")"
+    "context": "<<POS:36063789>> addButton(e++,\"Next\",UNe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|64f9dd9232f8",
@@ -2103,7 +2140,8 @@
     "key": "button|Next|0819b23aeff1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36071646>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:36071646>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|0819b23aeff1",
@@ -2121,7 +2159,8 @@
     "key": "button|Next|d2a1658f7abe",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36071928>> addButton(e++,\"Next\",VNe,\"Next\",\"\")"
+    "context": "<<POS:36071928>> addButton(e++,\"Next\",VNe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|d2a1658f7abe",
@@ -2301,7 +2340,8 @@
     "key": "button|Next|c243bbc263cc",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36084242>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:36084242>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|c243bbc263cc",
@@ -2325,7 +2365,8 @@
     "key": "button|Next|44eca45d9a4c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36088991>> addButton(e++,\"Next\",$Ne,\"Next\",\"\")"
+    "context": "<<POS:36088991>> addButton(e++,\"Next\",$Ne,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|44eca45d9a4c",
@@ -2361,7 +2402,8 @@
     "key": "button|Next|d1ee8b710a9b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36104345>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36104345>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Big_T|fe7bab5896cc#3",
@@ -2415,7 +2457,22 @@
     "key": "button|Next|5db9ec11165f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36108469>> addButton(0,\"Next\",e)"
+    "context": "<<POS:36108469>> addButton(0,\"Next\",e)",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff#1",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:36108673>> addButton(0,\"Next\",E.V.showCombatUI)",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff#2",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:36108900>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|I_M_OUT|932f51099111",
@@ -2433,7 +2490,8 @@
     "key": "button|Next|ef4b9ed7852f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36110060>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36110060>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Landing|1c4b0d1dc927",
@@ -2463,7 +2521,8 @@
     "key": "button|Next|7e444463ea77",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36110900>> addButton(0,\"Next\",(function(){return moveToRoom(\"DEEP SPACE.N/A.KQ N32\",!0)}))"
+    "context": "<<POS:36110900>> addButton(0,\"Next\",(function(){return moveToRoom(\"DEEP SPACE.N/A.KQ N32\",!0)}))",
+    "stage": 1
   },
   {
     "key": "output|The_doorway_swishes_open_and_you_step_into_a_storage_closet|13e12342420b",
@@ -2535,7 +2594,8 @@
     "key": "button|Next|d9de5c516cf9",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36112685>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36112685>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|The_EMERGENCY_USE_ONLY_dildo_bucket_holds_the_following|673710f5e667",
@@ -2600,7 +2660,7 @@
   {
     "key": "button|Leave|9e464e839fb9",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:36113503>> addButton(14,\"Leave\",mainGameMenu)"
   },
   {
@@ -2619,7 +2679,8 @@
     "key": "button|Next|b173e423196e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36113833>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36113833>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Door_Lock|03f19f2de0c9",
@@ -2697,7 +2758,8 @@
     "key": "button|Back|415616eb6fff",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:36115081>> addButton(14,\"Back\",mainGameMenu)"
+    "context": "<<POS:36115081>> addButton(14,\"Back\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Lock_Picking|06bbfc9a116b",
@@ -2889,7 +2951,8 @@
     "key": "button|Next|79d02a61b533",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36123729>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36123729>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Lock_Picking|979a80781bbd",
@@ -2919,7 +2982,8 @@
     "key": "button|Next|8a595c7755d1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36124521>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36124521>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Control_Panel|a19758826de4",
@@ -2976,6 +3040,12 @@
     "context": "<<POS:36125440>>"
   },
   {
+    "key": "assign|You_need_a_penis_for_this|615bfdfdcd38",
+    "original": "You need a penis for this.",
+    "translation": "",
+    "context": "<<POS:36125480>>"
+  },
+  {
     "key": "button.text|Insert_Dick|613405b7330e",
     "original": "Insert Dick",
     "translation": "",
@@ -2991,7 +3061,8 @@
     "key": "button|Back|33a04003d176",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:36125664>> addButton(14,\"Back\",mainGameMenu)"
+    "context": "<<POS:36125664>> addButton(14,\"Back\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Lock_Picking|06bbfc9a116b#1",
@@ -3045,7 +3116,15 @@
     "key": "button|Next|480adfe25531",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36127323>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36127323>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
+  },
+  {
+    "key": "button|Back|eca0a6ead26e",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:36127395>> addButton(14,\"Back\",NYe)",
+    "stage": 1
   },
   {
     "key": "header|Lock_Picking|06bbfc9a116b#2",
@@ -3111,7 +3190,8 @@
     "key": "button|Next|bda5f542be0c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36130964>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36130964>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Like_the_ancient_cuffs_doctors_used_to_use_to_measure_blood_pres|fb1610f5e8d4",
@@ -3141,7 +3221,8 @@
     "key": "button|Next|3b57feab7534",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36133344>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36133344>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Withdrawing_yourself_from_the_judgy_little_cock_socket_in_the_wa|71327a900300",
@@ -3225,7 +3306,8 @@
     "key": "button|Next|d2b834cee009",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36134932>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36134932>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output.expr|As_you_drag_your_reluctant_dick_free_from_the_picky_prick_holste|d4e5ba7832aa",
@@ -3237,7 +3319,8 @@
     "key": "button|Next|56d2b5177046",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36135690>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36135690>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output.expr|Fuck_the_error_code_Irritated_that_your_dick_isn_t_the_key_to_u|fc0af80dfeba",
@@ -3270,6 +3353,12 @@
     "context": "<<POS:36137439>>"
   },
   {
+    "key": "output|pc_belly|263127a67c1f",
+    "original": "[pc.belly]",
+    "translation": "",
+    "context": "<<POS:36137460>>"
+  },
+  {
     "key": "output|this_soon_may_seem_incredibly_hedonistic_but_it_s_the_only_cou|5d7abfb70786",
     "original": " this soon may seem incredibly hedonistic, but it’s the only course of action that makes sense. You feel best when you’re cumming hard, painting yourself with torrents of sticky, fragrant seed.",
     "translation": "",
@@ -3291,7 +3380,8 @@
     "key": "button|Next|6bc3a80d6a74",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36138171>> addButton(0,\"Next\",YYe)"
+    "context": "<<POS:36138171>> addButton(0,\"Next\",YYe)",
+    "stage": 1
   },
   {
     "key": "header|Getting_Off|6469c789edb2",
@@ -3315,7 +3405,8 @@
     "key": "button|Next|6bf7f7f7e299",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36139062>> addButton(0,\"Next\",MYe)"
+    "context": "<<POS:36139062>> addButton(0,\"Next\",MYe)",
+    "stage": 1
   },
   {
     "key": "header|Getting_Off|6469c789edb2#1",
@@ -3339,7 +3430,8 @@
     "key": "button|Next|32cd89ebda40",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36140085>> addButton(0,\"Next\",GYe)"
+    "context": "<<POS:36140085>> addButton(0,\"Next\",GYe)",
+    "stage": 1
   },
   {
     "key": "header|Getting_Off|6469c789edb2#2",
@@ -3363,7 +3455,8 @@
     "key": "button|Next|afaa19fad60c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36141249>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36141249>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_re_standing_in_the_heart_of_the_tentacle_garden_surrounded|862a52278be8",
@@ -3450,6 +3543,24 @@
     "context": "<<POS:36148918>> <<VARS:var0=t.tooltip>> ParseText(t.tooltip)"
   },
   {
+    "key": "button.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:36148942>> <<VARS:var0=o>> addButton(e,o,a,n,i,void 0,t)"
+  },
+  {
+    "key": "button.hover.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:36148946>> <<VARS:var0=n>> addButton(e,o,a,n,i,void 0,t)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:36148948>> <<VARS:var0=i>> addButton(e,o,a,n,i,void 0,t)"
+  },
+  {
     "key": "assign|x|c460a4b356eb",
     "original": " x",
     "translation": "",
@@ -3466,6 +3577,24 @@
     "original": "{var0}",
     "translation": "",
     "context": "<<POS:36149301>> <<VARS:var0=t.tooltip>> ParseText(t.tooltip)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:36149328>> <<VARS:var0=s>> addButton(e,s,o,a,n,void 0,t)"
+  },
+  {
+    "key": "button.hover.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:36149332>> <<VARS:var0=a>> addButton(e,s,o,a,n,void 0,t)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:36149334>> <<VARS:var0=n>> addButton(e,s,o,a,n,void 0,t)"
   },
   {
     "key": "assign|x|c460a4b356eb#1",
@@ -3486,6 +3615,24 @@
     "context": "<<POS:36149693>> <<VARS:var0=t.tooltip>> ParseText(t.tooltip)"
   },
   {
+    "key": "button.expr|var0|682b08bd06d1#2",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:36149725>> <<VARS:var0=i>> addDisabledButton(e,i,o,a,void 0,t)"
+  },
+  {
+    "key": "button.hover.expr|var0|682b08bd06d1#2",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:36149729>> <<VARS:var0=a>> addDisabledButton(e,i,o,a,void 0,t)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1#2",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:36149731>> <<VARS:var0=void 0>> addDisabledButton(e,i,o,a,void 0,t)"
+  },
+  {
     "key": "assign|b_The_item_slot_for_this_item_has_been_disabled_b|e5d47054e10b",
     "original": "<b>The item slot for this item has been disabled!</b>",
     "translation": "",
@@ -3496,6 +3643,13 @@
     "original": "{var0}",
     "translation": "",
     "context": "<<POS:36151523>> <<VARS:var0=o>> output(o)"
+  },
+  {
+    "key": "button|Next|648f6a4c46f8",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:36151555>> addButton(0,\"Next\",wYe)",
+    "stage": 1
   },
   {
     "key": "output.expr|b_You_are_unable_to_equip_var0_due_to_being_disarmed_b|bccd74380688",
@@ -3519,7 +3673,8 @@
     "key": "button|Back|1f5b61ff2962",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:36152555>> addButton(14,\"Back\",(function(){return mYe(t)}))"
+    "context": "<<POS:36152555>> addButton(14,\"Back\",(function(){return mYe(t)}))",
+    "stage": 1
   },
   {
     "key": "output.expr|var1_omnisuitInventoryBlurb_var0|19537dbdca2d",
@@ -3798,6 +3953,12 @@
     "context": "<<POS:36163335>>"
   },
   {
+    "key": "textify|The_ship_s_more_than_big_enough_to_accommodate_a_crew_of_a_few_d|73043976ee39",
+    "original": "The ship’s more than big enough to accommodate a crew of a few dozen, but most of the rooms are stripped bare; nothing left but spaces in the dust where furniture once was. The largest of the rooms -- the captain’s quarters -- is still furnished. An overly large king-sized bed is pushed up against one wall, surrounded by a sea of dirty magazines and holo-vid boxes for a variety of big-booty porn. You see a bin beside the bed, full of tied-off condoms in a whole slew of colors, all filled to bursting with spooge. Nasty.",
+    "translation": "",
+    "context": "<<POS:36163422>>"
+  },
+  {
     "key": "assign|KIROS_SHIP_INTERIOR2|af9fcf2ec098",
     "original": "KIROS SHIP INTERIOR2",
     "translation": "",
@@ -3832,6 +3993,12 @@
     "original": "Trophy Room",
     "translation": "",
     "context": "<<POS:36165025>>"
+  },
+  {
+    "key": "textify|This_room_is_not_quite_what_you_expected_for_something_labeled|7d7c3076a50c",
+    "original": "This room is not quite what you expected for something labeled ‘Trophy Room.’ Namely, rather than animal heads and hunting kit, the walls are utterly covered from floor to ceiling with cum-stained panties tacked onto the wall. A thousand colors of undies from myriad races, from mono-holed waistbands to a tauric creature’s flank-hugging silks, this room is a testament to sexual conquests. Next to each pair of panties is a small holo-pic of what must be their owner, bent over with a gut-stretching cock buried up her ass or twat. God <i>damn</i>, the captain’s hung or fancies stallions.",
+    "translation": "",
+    "context": "<<POS:36165105>>"
   },
   {
     "key": "assign|KIROS_SHIP_INTERIOR|7090b394167d",
@@ -7436,13 +7603,13 @@
   {
     "key": "button|Investigate|6b7e141c65e9",
     "original": "Investigate",
-    "translation": "调查",
+    "translation": "",
     "context": "<<POS:36290054>> addButton(0,\"Investigate\",window.syriQuestAkkadiBaseStarshipLabInvestigate,\"Investigate\",\"Search the Starship Lab for anything useful.\")"
   },
   {
     "key": "button.hover|Investigate|6b7e141c65e9",
     "original": "Investigate",
-    "translation": "调查",
+    "translation": "",
     "context": "<<POS:36290117>> addButton(0,\"Investigate\",window.syriQuestAkkadiBaseStarshipLabInvestigate,\"Investigate\",\"Search the Starship Lab for anything useful.\")"
   },
   {
@@ -7940,13 +8107,13 @@
   {
     "key": "button|Take_Poster|7631f63f3063",
     "original": "Take Poster",
-    "translation": "拿下海报",
+    "translation": "",
     "context": "<<POS:36303491>> addButton(0,\"Take Poster\",EYe,\"Take Poster\",\"Take down the poster. Maybe it’ll look nice in your ship?\")"
   },
   {
     "key": "button.hover|Take_Poster|7631f63f3063",
     "original": "Take Poster",
-    "translation": "拿下海报",
+    "translation": "",
     "context": "<<POS:36303509>> addButton(0,\"Take Poster\",EYe,\"Take Poster\",\"Take down the poster. Maybe it’ll look nice in your ship?\")"
   },
   {
@@ -8120,13 +8287,13 @@
   {
     "key": "button|Take_Poster|bfd9f04feecd",
     "original": "Take Poster",
-    "translation": "拿下海报",
+    "translation": "",
     "context": "<<POS:36308387>> addButton(0,\"Take Poster\",TYe,\"Take Poster\",\"Take down the poster. Maybe it’ll look nice in your ship?\")"
   },
   {
     "key": "button.hover|Take_Poster|bfd9f04feecd",
     "original": "Take Poster",
-    "translation": "拿下海报",
+    "translation": "",
     "context": "<<POS:36308405>> addButton(0,\"Take Poster\",TYe,\"Take Poster\",\"Take down the poster. Maybe it’ll look nice in your ship?\")"
   },
   {
@@ -8799,7 +8966,15 @@
     "key": "button|Yes|d65381550c3c",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:36328530>> addButton(0,\"Yes\",AYe)"
+    "context": "<<POS:36328530>> addButton(0,\"Yes\",AYe)",
+    "stage": 1
+  },
+  {
+    "key": "button|No|1c655db5490a",
+    "original": "No",
+    "translation": "不",
+    "context": "<<POS:36328553>> addButton(1,\"No\",vYe)",
+    "stage": 1
   },
   {
     "key": "output|b_concat_Ot_m_toDisplayCase_i_longName_b_concat_void|3f73696df8e9",
@@ -8811,7 +8986,8 @@
     "key": "button|Next|55b186a909bb",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36329157>> addButton(0,\"Next\",(function(){return window.illustriaPoCheatMenu(\"dungeon loot\")}))"
+    "context": "<<POS:36329157>> addButton(0,\"Next\",(function(){return window.illustriaPoCheatMenu(\"dungeon loot\")}))",
+    "stage": 1
   },
   {
     "key": "assign|Cave_Entrance|2d828e22230a",

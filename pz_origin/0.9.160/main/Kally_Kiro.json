@@ -1,9 +1,27 @@
 [
   {
-    "key": "assign|Your|3aa9681fbcd1",
-    "original": "Your ",
+    "key": "assign|light_pink|aabd3c27cf71",
+    "original": "light pink",
     "translation": "",
-    "context": "<<POS:11536263>>"
+    "context": "<<POS:20339553>>"
+  },
+  {
+    "key": "assign|NOT_SET|cce6e7d4ade3",
+    "original": "NOT SET",
+    "translation": "",
+    "context": "<<POS:20339635>>"
+  },
+  {
+    "key": "assign|NOT_SET|3975c8b1d3a5",
+    "original": "NOT SET",
+    "translation": "",
+    "context": "<<POS:20339659>>"
+  },
+  {
+    "key": "assign|NOT_SET|3975c8b1d3a5#1",
+    "original": "NOT SET",
+    "translation": "",
+    "context": "<<POS:20339684>>"
   },
   {
     "key": "assign|deployed_turret|13c9e5dfde14",
@@ -14,8 +32,15 @@
   {
     "key": "assign|the|48b5dfd85ad8",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:20340595>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "context": "<<POS:20340613>>",
+    "stage": 1
   },
   {
     "key": "assign|Your_deployable_turret_stands_with_you_As_product_of_your_own_d|c5a9b83dbcfc",
@@ -75,7 +100,8 @@
     "key": "button|Next|44981762625f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20350474>> addButton(0,\"Next\",m)"
+    "context": "<<POS:20350474>> addButton(0,\"Next\",m)",
+    "stage": 1
   },
   {
     "key": "header|Selecting|1f588c7942c7",
@@ -130,6 +156,30 @@
     "original": "Vagina",
     "translation": "",
     "context": "<<POS:20351170>> addButton(e,\"Vagina\",(function(){return w(d[e])}),\"Vagina\",ParseText(\"Use your [pc.vagina].\"))"
+  },
+  {
+    "key": "button.tooltip.expr|var0_Use_your_pc_vagina|a8f1826c8d66",
+    "original": "{var0}(\"Use your [pc.vagina].\")",
+    "translation": "",
+    "context": "<<POS:20351178>> <<VARS:var0=ParseText>> addButton(e,\"Vagina\",(function(){return w(d[e])}),\"Vagina\",ParseText(\"Use your [pc.vagina].\"))"
+  },
+  {
+    "key": "button|Vagina|b6c6edf67fd3",
+    "original": "Vagina ",
+    "translation": "",
+    "context": "<<POS:20351227>> addButton(e,\"Vagina \"+(d[e]+1),(function(){return w(d[e])}),Ot.m.capitalize(Ot.m.numToOrdinal(d[e]+1))+\" Vagina\",ParseText(\"Use your [pc.vagina \"+d[e]+\"].\"))"
+  },
+  {
+    "key": "button.hover.expr|var2_capitalize_var1_numToOrdinal_var0_1_Vagina|58dcb3e9e0c8",
+    "original": "{var2}.capitalize({var1}.numToOrdinal({var0}+1))+\" Vagina\"",
+    "translation": "",
+    "context": "<<POS:20351274>> <<VARS:var0=d[e],var1=Ot.m,var2=Ot.m>> addButton(e,\"Vagina \"+(d[e]+1),(function(){return w(d[e])}),Ot.m.capitalize(Ot.m.numToOrdinal(d[e]+1))+\" Vagina\",ParseText(\"Use your [pc.vagina \"+d[e]+\"].\"))"
+  },
+  {
+    "key": "button.tooltip.expr|var1_Use_your_pc_vagina_var0|e2038465ea4c",
+    "original": "{var1}(\"Use your [pc.vagina \"+{var0}+\"].\")",
+    "translation": "",
+    "context": "<<POS:20351327>> <<VARS:var0=d[e],var1=ParseText>> addButton(e,\"Vagina \"+(d[e]+1),(function(){return w(d[e])}),Ot.m.capitalize(Ot.m.numToOrdinal(d[e]+1))+\" Vagina\",ParseText(\"Use your [pc.vagina \"+d[e]+\"].\"))"
   },
   {
     "key": "assign|Virgin|31147517f834",
@@ -357,7 +407,8 @@
     "key": "button|Next|9593fa1d8f81",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20358659>> addButton(0,\"Next\",(function(){return e(0,a)}))"
+    "context": "<<POS:20358659>> addButton(0,\"Next\",(function(){return e(0,a)}))",
+    "stage": 1
   },
   {
     "key": "header|Selecting|1f588c7942c7#1",
@@ -480,6 +531,18 @@
     "context": "<<POS:20371452>>"
   },
   {
+    "key": "name.show.expr|var0|fee5bc6e50aa",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:20372574>> <<VARS:var0=gooarmor.short>> showName(gooarmor.short)"
+  },
+  {
+    "key": "output|The_sound_of_talking_beckons_you_awake_You_blink_your_eyes_open|501a477a0416",
+    "original": "The sound of talking beckons you awake. You blink your eyes open, and see that your cabin’s holoterminal is open, flashing brightly... and [gooarmor.name] is parked in your chair, her body molded in an even more human form than normal. She looks like the old [gooarmor.name] you encountered on Deck 13, complete with uniform and long hair pulled back in a ponytail, sitting on her legs and talking happily at the computer screen.",
+    "translation": "",
+    "context": "<<POS:20372674>>"
+  },
+  {
     "key": "output|i_I_m_having_so_much_fun_i_she_grins_jiggling_excitedly_a|0d1b4434ba6e",
     "original": "<i>“I’m having so much fun!”</i> she grins, jiggling excitedly at the screen. <i>“Space is amazing. There are so many cool people and weird places and adventures. So many adventures! I never thought I’d be, like, a real life adventurer. Well, kind of. [pc.name] is the real adventurer, but [pc.heShe]’s been nice enough to let me tag along.”</i>",
     "translation": "",
@@ -543,7 +606,8 @@
     "key": "button|Next|d1b50f53bf8b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20375258>> addButton(0,\"Next\",(function(){var e=Hl.L.findPlayerShipBedroom();e&&skipToRoom(e),mainGameMenu()}))"
+    "context": "<<POS:20375258>> addButton(0,\"Next\",(function(){var e=Hl.L.findPlayerShipBedroom();e&&skipToRoom(e),mainGameMenu()}))",
+    "stage": 1
   },
   {
     "key": "assign|your|62710854f814",
@@ -552,10 +616,17 @@
     "context": "<<POS:20375694>>"
   },
   {
+    "key": "assign|Your|3aa9681fbcd1",
+    "original": "Your ",
+    "translation": "",
+    "context": "<<POS:20375713>>"
+  },
+  {
     "key": "button|Next|d96e6aa5fa5a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20376613>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:20376613>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Kally_Kiro|d11630cb91d6",
@@ -580,6 +651,24 @@
     "original": "Steph Irson",
     "translation": "",
     "context": "<<POS:20384150>> showName(\"Steph Irson\")"
+  },
+  {
+    "key": "name.show.expr|var0|0234af47325e",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:20384474>> <<VARS:var0=bianca.short>> showName(bianca.short)"
+  },
+  {
+    "key": "name.show.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:20384697>> <<VARS:var0=gooarmor.short>> showName(gooarmor.short)"
+  },
+  {
+    "key": "name.show|Goo_Armor|2b17679725a1",
+    "original": "Goo Armor",
+    "translation": "",
+    "context": "<<POS:20384740>> showName(\"Goo Armor\")"
   },
   {
     "key": "name.show|Gray_Goo|d79c0846045c",
@@ -750,10 +839,35 @@
     "context": "<<POS:20394538>> <<VARS:var0=a===i>> addButton(u,\"Outfits (\".concat(h,\")\"),(function(){return l(e)}),\"Selection of Outfits: \".concat(s===r?s:\"\".concat(s,\" to \").concat(r)),a===i?\"\".concat(t,\".\"):\"\".concat(t,\" through \").concat(o,\".\"))"
   },
   {
+    "key": "button.expr|var0|efbfceb858f4",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:20394840>> <<VARS:var0=i.shortName>> addDisabledButton(n++,i.shortName,Ot.m.toDisplayCase(i.longName),\"\".concat(e.short,\" is already wearing one of these!\"))"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:20394974>> <<VARS:var0=i.shortName>> addDisabledButton(n++,i.shortName,Ot.m.toDisplayCase(i.longName),\"\".concat(e.short,\" already has one of these.\"))"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:20395101>> <<VARS:var0=i.shortName>> addDisabledButton(n++,i.shortName,Ot.m.toDisplayCase(i.longName),\"You cannot drop this item.\")"
+  },
+  {
+    "key": "button.hover|You_cannot_drop_this_item|4585127d2cbf",
+    "original": "You cannot drop this item.",
+    "translation": "",
+    "context": "<<POS:20395145>> addDisabledButton(n++,i.shortName,Ot.m.toDisplayCase(i.longName),\"You cannot drop this item.\")"
+  },
+  {
     "key": "button|Back|1ecfe7f3692b",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:20395251>> addButton(14,\"Back\",o)"
+    "context": "<<POS:20395251>> addButton(14,\"Back\",o)",
+    "stage": 1
   },
   {
     "key": "output|i_I_ve_got_a_present_for_you_i|38aed546ddb8",
@@ -861,7 +975,8 @@
     "key": "button|Next|81f572c42c00",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20398074>> addButton(0,\"Next\",o)"
+    "context": "<<POS:20398074>> addButton(0,\"Next\",o)",
+    "stage": 1
   },
   {
     "key": "output|Are_you_sure_you_want_to_give_concat_e_short_concat_pc_in|94e6b4f6ad71",
@@ -873,7 +988,8 @@
     "key": "button|Yes|a526065367a5",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:20398242>> addButton(0,\"Yes\",(function(){return a(t)}),\"Yes\",\"Give \".concat(e.short,\" the clothes.\"))"
+    "context": "<<POS:20398242>> addButton(0,\"Yes\",(function(){return a(t)}),\"Yes\",\"Give \".concat(e.short,\" the clothes.\"))",
+    "stage": 1
   },
   {
     "key": "button.hover|Yes|a526065367a5",
@@ -891,7 +1007,8 @@
     "key": "button|No|92037e356faf",
     "original": "No",
     "translation": "不",
-    "context": "<<POS:20398333>> addButton(1,\"No\",o,\"No\",\"Keep the clothes.\")"
+    "context": "<<POS:20398333>> addButton(1,\"No\",o,\"No\",\"Keep the clothes.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|No|92037e356faf",
@@ -909,7 +1026,8 @@
     "key": "button|Back|4d00659aa67e",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:20398379>> addButton(14,\"Back\",t)"
+    "context": "<<POS:20398379>> addButton(14,\"Back\",t)",
+    "stage": 1
   },
   {
     "key": "button|Return_Clothes|b063560375ca",
@@ -963,7 +1081,22 @@
     "key": "button|Next|d3c6c7fe754e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20420725>> addButton(0,\"Next\",(function(){return $_(\"bad end\")}))"
+    "context": "<<POS:20420725>> addButton(0,\"Next\",(function(){return $_(\"bad end\")}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20420782>> addButton(0,\"Next\",(function(){return $_(\"help danger\")}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff#1",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20420842>> addButton(0,\"Next\",(function(){return $_(\"emergency\")}))",
+    "stage": 1
   },
   {
     "key": "output|Maybe_you_can_access_your_Inventory_to_find_something_you_can_us|f76a94cfc182",
@@ -999,7 +1132,8 @@
     "key": "button|Next|3e9a1fcfcd76",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20421211>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:20421211>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Immobilized|44c2912aa77a",
@@ -1119,7 +1253,8 @@
     "key": "button|Next|4c61bef7a001",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20424101>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:20424101>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_decide_that_you_ll_figure_it_out_So_until_you_find_a_solu|ace3820209ac",
@@ -1131,7 +1266,8 @@
     "key": "button|Next|514629632e08",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20424479>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:20424479>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Who_You_Gonna_Call|9ac6f7dced7b",
@@ -1170,6 +1306,18 @@
     "context": "<<POS:20424958>>"
   },
   {
+    "key": "button.expr|var0|b9aad99cda3b",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:20425237>> <<VARS:var0=e.name>> addButton(u,e.name,(function(){return $_(e.id?e.id:e.name)}))"
+  },
+  {
+    "key": "button|Inventory|74e904d815d3",
+    "original": "Inventory",
+    "translation": "",
+    "context": "<<POS:20425332>> addButton(10,\"Inventory\",(function(){return $_(\"inventory\")}))"
+  },
+  {
     "key": "button|Stay|5796dd51768a",
     "original": "Stay...",
     "translation": "",
@@ -1180,6 +1328,18 @@
     "original": "Never Mind",
     "translation": "",
     "context": "<<POS:20425470>> addButton(14,\"Never Mind\",(function(){return $_(\"never mind\")}))"
+  },
+  {
+    "key": "button.expr|var0|936f250c1472",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:20425721>> <<VARS:var0=t.name>> addButton(e,t.name,(function(){return $_(t.id?t.id:t.name)}))"
+  },
+  {
+    "key": "header|Call_Steele_Tech|757e6bf22fd3",
+    "original": "Call Steele Tech",
+    "translation": "",
+    "context": "<<POS:20425867>>"
   },
   {
     "key": "output|It_might_be_too_embarrassing_to_call_emergency_services_so_you|715afcba5813",
@@ -1269,7 +1429,8 @@
     "key": "button|Next|0bbc040953ff",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20428970>> addButton(0,\"Next\",(function(){return $_(\"success\")}))"
+    "context": "<<POS:20428970>> addButton(0,\"Next\",(function(){return $_(\"success\")}))",
+    "stage": 1
   },
   {
     "key": "output|An_unknown_number_You_don_t_remember_having_this_saved_on_your|53c902cfaa96",
@@ -1329,7 +1490,8 @@
     "key": "button|Next|c5920a2f249b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20430167>> addButton(0,\"Next\",(function(){return $_(\"success\")}))"
+    "context": "<<POS:20430167>> addButton(0,\"Next\",(function(){return $_(\"success\")}))",
+    "stage": 1
   },
   {
     "key": "header|Call_Celise|937f9cff5e53",
@@ -1473,7 +1635,8 @@
     "key": "button|Next|4b5d823672ba",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20432628>> addButton(0,\"Next\",(function(){return $_(\"back\")}))"
+    "context": "<<POS:20432628>> addButton(0,\"Next\",(function(){return $_(\"back\")}))",
+    "stage": 1
   },
   {
     "key": "header|Call_Reaha|5df892a54f95",
@@ -1527,7 +1690,8 @@
     "key": "button|Next|2329aa83a4c7",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20433329>> addButton(0,\"Next\",(function(){return $_(\"back\")}))"
+    "context": "<<POS:20433329>> addButton(0,\"Next\",(function(){return $_(\"back\")}))",
+    "stage": 1
   },
   {
     "key": "header|Waiting|f86797b33655",
@@ -1557,7 +1721,8 @@
     "key": "button|Next|e33e52cb2c0a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20433568>> addButton(0,\"Next\",(function(){return $_(\"emergency\")}))"
+    "context": "<<POS:20433568>> addButton(0,\"Next\",(function(){return $_(\"emergency\")}))",
+    "stage": 1
   },
   {
     "key": "header|Waiting|f86797b33655#1",
@@ -1575,7 +1740,8 @@
     "key": "button|Next|8de5769eb7ed",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20433791>> addButton(0,\"Next\",eS)"
+    "context": "<<POS:20433791>> addButton(0,\"Next\",eS)",
+    "stage": 1
   },
   {
     "key": "header|No_Response|fb3c09f98bce",
@@ -1599,7 +1765,8 @@
     "key": "button|Next|2f755facb655",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20434022>> addButton(0,\"Next\",(function(){return $_(\"back\")}))"
+    "context": "<<POS:20434022>> addButton(0,\"Next\",(function(){return $_(\"back\")}))",
+    "stage": 1
   },
   {
     "key": "header|All_Out_Balls_Out|44430e68ef79",
@@ -1623,7 +1790,8 @@
     "key": "button|Next|9ecd28d11298",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20434904>> addButton(0,\"Next\",e[rand(e.length)])"
+    "context": "<<POS:20434904>> addButton(0,\"Next\",e[rand(e.length)])",
+    "stage": 1
   },
   {
     "key": "output|Unfortunately_for_you_there_is_no_solution_for_your_current_co|8365ca131ee4",
@@ -1635,7 +1803,8 @@
     "key": "button|Next|0651512e11ac",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20435026>> addButton(0,\"Next\",window.popUIStateToMainText)"
+    "context": "<<POS:20435026>> addButton(0,\"Next\",window.popUIStateToMainText)",
+    "stage": 1
   },
   {
     "key": "header|Priapism_Problems|b1125d261503",
@@ -1695,6 +1864,7 @@
     "key": "button|Next|438c121d9726",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20436910>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearOutput(),author(\"Jacques00\");var t=0===rand(3),o=pc.biggestCockIndex(),a=pc.cumQ();showBust(\"UCG_\"+(e?\"MALE\":\"FEMALE\")+\"_\"+(t?\"2\":\"1\")),showName(\"UGC Officer\"),output(blockHeader(\"Pay ..."
+    "context": "<<POS:20436910>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearOutput(),author(\"Jacques00\");var t=0===rand(3),o=pc.biggestCockIndex(),a=pc.cumQ();showBust(\"UCG_\"+(e?\"MALE\":\"FEMALE\")+\"_\"+(t?\"2\":\"1\")),showName(\"UGC Officer\"),output(blockHeader(\"Pay ...",
+    "stage": 1
   }
 ]

@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|medipen_labeled_Sylvanol|ec262114f6b9",
+    "original": "medipen labeled “Sylvanol”",
+    "translation": "",
+    "context": "<<POS:09807182>>"
+  },
+  {
     "key": "assign|a_medipen_labeled_Sylvanol|cf7ff832baba",
     "original": "a medipen labeled “Sylvanol”",
     "translation": "",
@@ -24,6 +30,30 @@
     "context": "<<POS:09808354>>"
   },
   {
+    "key": "button.expr|var0|48cb4f758f0c",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:09809165>> <<VARS:var0=i.name>> addButton(n++,i.name,(function(){return i.func(e,t)}),i.name,i.desc)"
+  },
+  {
+    "key": "button.hover.expr|var0|48cb4f758f0c",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:09809205>> <<VARS:var0=i.name>> addButton(n++,i.name,(function(){return i.func(e,t)}),i.name,i.desc)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|48cb4f758f0c",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:09809212>> <<VARS:var0=i.desc>> addButton(n++,i.name,(function(){return i.func(e,t)}),i.name,i.desc)"
+  },
+  {
+    "key": "output.expr|var1_createTable_var0|5de15dd505be",
+    "original": "{var1}.createTable({var0})",
+    "translation": "",
+    "context": "<<POS:09809270>> <<VARS:var0=a,[\"Name\",\"Description\"],[\"text-label\",\"text-left\"],\"\",\"Settings\",\"\",var1=l.m>> output(l.m.createTable(a,[\"Name\",\"Description\"],[\"text-label\",\"text-left\"],\"\",\"Settings\",\"\"))"
+  },
+  {
     "key": "button|Cancel|c297f753d68e",
     "original": "Cancel",
     "translation": "",
@@ -46,6 +76,13 @@
     "original": "You put the medipen back into your inventory.",
     "translation": "",
     "context": "<<POS:09809589>>"
+  },
+  {
+    "key": "button|Next|d1394c8557d7",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:09809683>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   },
   {
     "key": "output|You_feel_your_ears_contort|04ed255be7b9",
@@ -273,7 +310,8 @@
     "key": "button|Next|ee377186d103",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09819108>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
+    "context": "<<POS:09819108>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Sylvanol_Au_Myrtille|5ebefba77206",
@@ -321,7 +359,8 @@
     "key": "button|Next|ee377186d103#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09820776>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
+    "context": "<<POS:09820776>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Sylvanol_Au_Chocolat|fc5b047a9d87",
@@ -363,7 +402,8 @@
     "key": "button|Next|ee377186d103#2",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09821885>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
+    "context": "<<POS:09821885>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Sylvanol_Au_Lait|44aa98173deb",
@@ -405,7 +445,8 @@
     "key": "button|Next|ee377186d103#3",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09822956>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
+    "context": "<<POS:09822956>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Sylvanol_Au_Franc|2a9972f505f5",
@@ -429,6 +470,7 @@
     "key": "button|Next|751e48448df3",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09823565>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
+    "context": "<<POS:09823565>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))",
+    "stage": 1
   }
 ]

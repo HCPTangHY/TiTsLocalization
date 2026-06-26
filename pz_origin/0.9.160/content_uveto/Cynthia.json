@@ -80,8 +80,9 @@
   {
     "key": "button|Shop|8bcfe68ade01",
     "original": "Shop",
-    "translation": "",
-    "context": "<<POS:00359831>> addButton(0,\"Shop\",Ft)"
+    "translation": "商店",
+    "context": "<<POS:00359831>> addButton(0,\"Shop\",Ft)",
+    "stage": 1
   },
   {
     "key": "output|i_Hey_there_pc_name_Can_I_help_you_find_anything_today_i|ee069f0c572d",
@@ -92,14 +93,16 @@
   {
     "key": "button|Shop|68139dab59af",
     "original": "Shop",
-    "translation": "",
-    "context": "<<POS:00360073>> addButton(0,\"Shop\",Ft)"
+    "translation": "商店",
+    "context": "<<POS:00360073>> addButton(0,\"Shop\",Ft)",
+    "stage": 1
   },
   {
     "key": "button|Shop|0f9378e60efc",
     "original": "Shop",
-    "translation": "",
-    "context": "<<POS:00360104>> addDisabledButton(0,\"Shop\",\"Shop\",\"You can’t do this outside business hours.\")"
+    "translation": "商店",
+    "context": "<<POS:00360104>> addDisabledButton(0,\"Shop\",\"Shop\",\"You can’t do this outside business hours.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|You_can_t_do_this_outside_business_hours|4664beb86164",
@@ -212,8 +215,9 @@
   {
     "key": "button|Next|75a5cb20337b",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00362516>> addButton(0,\"Next\",fo)"
+    "translation": "继续",
+    "context": "<<POS:00362516>> addButton(0,\"Next\",fo)",
+    "stage": 1
   },
   {
     "key": "button|Hangout|5de82094665d",
@@ -284,11 +288,18 @@
   {
     "key": "button|Next|8568f54a0c62",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00364153>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00364153>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
-    "key": "name.show|Eimear|e8d0157475df",
+    "key": "name.show.expr|var0|725f50c68bae",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00364674>> <<VARS:var0=gwen.short>> showName(gwen.short)"
+  },
+  {
+    "key": "name.show|Eimear|419a08f326c5",
     "original": "Eimear",
     "translation": "",
     "context": "<<POS:00364836>> showName(\"Eimear\")"
@@ -344,8 +355,9 @@
   {
     "key": "button|Shop|92b64975a7ac",
     "original": "Shop",
-    "translation": "",
-    "context": "<<POS:00366989>> addButton(1,\"Shop\",Pt)"
+    "translation": "商店",
+    "context": "<<POS:00366989>> addButton(1,\"Shop\",Pt)",
+    "stage": 1
   },
   {
     "key": "output|You_tell_the_pudgy_puazi_that_you_d_like_to_talk_about_how_she_c|cc1079989ff1",
@@ -386,8 +398,9 @@
   {
     "key": "button|Next|93e12df6d339",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00368535>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00368535>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|It_doesn_t_look_like_you_ll_be_able_to_talk_to_both_of_the_owner|5e1e96929ba4",
@@ -398,8 +411,9 @@
   {
     "key": "button|Back|0a9977de7263",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:00369542>> addButton(14,\"Back\",Lt)"
+    "translation": "返回",
+    "context": "<<POS:00369542>> addButton(14,\"Back\",Lt)",
+    "stage": 1
   },
   {
     "key": "output|As_you_approach_the_bubbly_shopkeep_you_see_her_demeanor_shift_n|9995cad74345",
@@ -440,8 +454,9 @@
   {
     "key": "button|Next|3c7fcfd907ae",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00370883>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00370883>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Gwen_gasps_dramatically_as_you_approach_running_a_finger_throug|c600f4b43e69",
@@ -1064,8 +1079,9 @@
   {
     "key": "button|Next|3a9a0b883a1c",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00399439>> addButton(0,\"Next\",uo)"
+    "translation": "继续",
+    "context": "<<POS:00399439>> addButton(0,\"Next\",uo)",
+    "stage": 1
   },
   {
     "key": "output|A_large_spaceship_cruises_through_the_black_expanse_of_space_fo|30b949ef02ba",
@@ -1382,8 +1398,9 @@
   {
     "key": "button|Next|f7bbd47f6284",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00411431>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00411431>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_walk_up_to_Gwen_s_counter_preparing_to_ask_if_she_wants_to|92af60aab668",
@@ -1682,8 +1699,9 @@
   {
     "key": "button|Next|7ab253e8d661",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00424799>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00424799>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|i_Do_you_guys_want_to_hang_out_tonight_Last_time_was_a_lot_of|1159bb2a3732",
@@ -1826,8 +1844,9 @@
   {
     "key": "button|Next|d229f55a7d88",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00434804>> addButton(0,\"Next\",co)"
+    "translation": "继续",
+    "context": "<<POS:00434804>> addButton(0,\"Next\",co)",
+    "stage": 1
   },
   {
     "key": "output|You_stand_stretching_and_giving_each_girl_a_goodbye_hug|b85f1ee66cd8",
@@ -1910,8 +1929,9 @@
   {
     "key": "button|Next|6a37a3d30675",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00435829>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00435829>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_walk_up_to_Eimear_s_counter_and_ask_if_you_can_have_a_massa|b538e5764b87",
@@ -1958,8 +1978,9 @@
   {
     "key": "button|Back|cd6841ddcbe4",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:00436787>> addButton(14,\"Back\",Lt)"
+    "translation": "返回",
+    "context": "<<POS:00436787>> addButton(14,\"Back\",Lt)",
+    "stage": 1
   },
   {
     "key": "output|i_What_if_I_want_a_massage_from_you_i_you_ask_spinning_th|81ac09bcb866",
@@ -2420,8 +2441,9 @@
   {
     "key": "output|s|f9ee7a9cdb8f",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:00447232>>"
+    "translation": "​",
+    "context": "<<POS:00447232>>",
+    "stage": 1
   },
   {
     "key": "output|a_single_extra_strand_of_pc_cum_twitching_in_defeat|8e9eaee44f38",
@@ -2456,8 +2478,9 @@
   {
     "key": "button|Next|6d0ae5992bc9",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00448281>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00448281>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|i_Pff_We_don_t_need_a_car_I_can_get_us_wherever_you_want_to|def593bb4098",
@@ -2552,8 +2575,9 @@
   {
     "key": "button|Next|8d4f0e9b09ef",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00452930>> addButton(0,\"Next\",wo)"
+    "translation": "继续",
+    "context": "<<POS:00452930>> addButton(0,\"Next\",wo)",
+    "stage": 1
   },
   {
     "key": "output|i_Shorry_pc_name_Can_we_pull_over_for_a_shecond_I_jusht_wa|6e8c0490cd56",
@@ -2918,8 +2942,9 @@
   {
     "key": "button|Next|ef92ffb4c6a1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00472335>> addButton(0,\"Next\",bo)"
+    "translation": "继续",
+    "context": "<<POS:00472335>> addButton(0,\"Next\",bo)",
+    "stage": 1
   },
   {
     "key": "output|i_Hey_what_took_you_guys_so_lo_oh_Ooh_i_Eimear_says_as|f562b202fdd5",
@@ -2978,8 +3003,9 @@
   {
     "key": "button|Next|bebe9f1143a5",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00473727>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00473727>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "textify|i_Hey_pc_name_I_thought_you_might_be_bored_out_there_in_spa|0f62e96019f9",
@@ -3080,14 +3106,16 @@
   {
     "key": "button|Next|7f524073b3c3",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00484394>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00484394>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "button|Next|35b9a3540cff",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00484477>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00484477>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Finally_to_the_west_is_a_combination_clothing_store_come_spa|8acf3fa26411",
@@ -3206,8 +3234,9 @@
   {
     "key": "button|Next|30adb2513350",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00487262>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00487262>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "textify|A_beeping_on_your_codex_notifies_you_of_an_incoming_video_messag|eb8873477928",
@@ -3218,8 +3247,9 @@
   {
     "key": "button|Next|2aaad2da0a61",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00488024>> addButton(0,\"Next\",(function(){return ko(!0)}))"
+    "translation": "继续",
+    "context": "<<POS:00488024>> addButton(0,\"Next\",(function(){return ko(!0)}))",
+    "stage": 1
   },
   {
     "key": "output|After_steeling_yourself_for_what_might_lie_ahead_you_cautiously|d0e473125796",
@@ -3410,8 +3440,9 @@
   {
     "key": "button|Next|d17d33d06308",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00495010>> addButton(0,\"Next\",vo.V.beginCombat)"
+    "translation": "继续",
+    "context": "<<POS:00495010>> addButton(0,\"Next\",vo.V.beginCombat)",
+    "stage": 1
   },
   {
     "key": "output|Panting_in_exhaustion_Chaurmine_falls_to_his_knees_with_a_crash|2a7662c45205",
@@ -4490,8 +4521,9 @@
   {
     "key": "button|Appearance|edd1f5cb9ec0",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:00526818>> addButton(0,\"Appearance\",window.chaurmineAppearance)"
+    "translation": "外貌",
+    "context": "<<POS:00526818>> addButton(0,\"Appearance\",window.chaurmineAppearance)",
+    "stage": 1
   },
   {
     "key": "button|Talk|ddabdde12809",
@@ -4592,8 +4624,9 @@
   {
     "key": "button|Back|08c6bfb4ca66",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:00527765>> addButton(14,\"Back\",zo)"
+    "translation": "返回",
+    "context": "<<POS:00527765>> addButton(14,\"Back\",zo)",
+    "stage": 1
   },
   {
     "key": "output|i_You_really_wanna_hear_about_me_smashin_faces_i_he_says|48aee33be80b",
@@ -4646,8 +4679,9 @@
   {
     "key": "button|Next|583304d22e29",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00530032>> addButton(0,\"Next\",zo)"
+    "translation": "继续",
+    "context": "<<POS:00530032>> addButton(0,\"Next\",zo)",
+    "stage": 1
   },
   {
     "key": "output|i_Wait_i_he_casually_growls_as_he_leans_into_the_wall_next|d2fc7c03cee9",
@@ -4712,8 +4746,9 @@
   {
     "key": "button|Next|e6b22cc3dc66",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00531922>> addButton(0,\"Next\",zo)"
+    "translation": "继续",
+    "context": "<<POS:00531922>> addButton(0,\"Next\",zo)",
+    "stage": 1
   },
   {
     "key": "output|i_Hmm_Uhh_yeah_you_re_a_good_friend_like_I_ve_said_Why_br|8b762d019833",
@@ -4796,8 +4831,9 @@
   {
     "key": "button|Next|1c4adcb41696",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00532823>> addButton(0,\"Next\",Go)"
+    "translation": "继续",
+    "context": "<<POS:00532823>> addButton(0,\"Next\",Go)",
+    "stage": 1
   },
   {
     "key": "output|You_feel_your_pc_face_bloom_with_warmth_as_you_blush_i_W_we|d22d00512f4e",
@@ -4952,8 +4988,9 @@
   {
     "key": "button|Next|1d5595408519",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00535451>> addButton(0,\"Next\",Go)"
+    "translation": "继续",
+    "context": "<<POS:00535451>> addButton(0,\"Next\",Go)",
+    "stage": 1
   },
   {
     "key": "output|i_Haha_of_course_I_was_just_thinking_about_what_great_friend|023a6315ffb3",
@@ -4976,8 +5013,9 @@
   {
     "key": "button|Next|b03b7f364f14",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00535841>> addButton(0,\"Next\",zo)"
+    "translation": "继续",
+    "context": "<<POS:00535841>> addButton(0,\"Next\",zo)",
+    "stage": 1
   },
   {
     "key": "output|Is_there_something_else_you_d_like_to_ask_of_Chaurmine_The_big|8098f8642e99",
@@ -5678,8 +5716,9 @@
   {
     "key": "button|Next|17c50dcd386b",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00561675>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),chaurmine.showAll(!0),author(\"Aullama\"),output(\"You come to, coughing and sputtering (again) as your burning lungs cry for air (again). Thick cum bursts past your white-stained [pc.lips] and nose, though you keep the rest down with a ga..."
+    "translation": "继续",
+    "context": "<<POS:00561675>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),chaurmine.showAll(!0),author(\"Aullama\"),output(\"You come to, coughing and sputtering (again) as your burning lungs cry for air (again). Thick cum bursts past your white-stained [pc.lips] and nose, though you keep the rest down with a ga...",
+    "stage": 1
   },
   {
     "key": "output|With_him_already_worked_up_it_may_be_a_good_idea_to_head_out_in|45ce589874e8",
@@ -5708,8 +5747,9 @@
   {
     "key": "button|Next|ac261140e012",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00565300>> addButton(0,\"Next\",vo.V.beginCombat)"
+    "translation": "继续",
+    "context": "<<POS:00565300>> addButton(0,\"Next\",vo.V.beginCombat)",
+    "stage": 1
   },
   {
     "key": "output|You_sigh_coming_to_a_stop_in_the_icy_snow_Though_you_re_not_re|f78119a97b93",
@@ -5894,8 +5934,9 @@
   {
     "key": "button|Appearance|154976385bba",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:00572149>> addButton(0,\"Appearance\",Ko,\"Appearance\",\"Take a look at Chrissy.\")"
+    "translation": "外貌",
+    "context": "<<POS:00572149>> addButton(0,\"Appearance\",Ko,\"Appearance\",\"Take a look at Chrissy.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Appearance|154976385bba",
@@ -6014,8 +6055,9 @@
   {
     "key": "button|Next|f10c99881642",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00574498>> addButton(0,\"Next\",Po)"
+    "translation": "继续",
+    "context": "<<POS:00574498>> addButton(0,\"Next\",Po)",
+    "stage": 1
   },
   {
     "key": "output|i_Sure_i_the_tanuki_girl_says_leaning_forward_onto_the_ta|654aa2c32736",
@@ -6080,8 +6122,9 @@
   {
     "key": "button|Back|6aeb4c8b54e6",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:00574952>> addButton(14,\"Back\",Po)"
+    "translation": "返回",
+    "context": "<<POS:00574952>> addButton(14,\"Back\",Po)",
+    "stage": 1
   },
   {
     "key": "output.expr|i_Me_i_she_asks_almost_taken_aback_by_your_question_i|e5697bfcd543",
@@ -6188,8 +6231,9 @@
   {
     "key": "button|Back|6aeb4c8b54e6#1",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:00577584>> addButton(14,\"Back\",Po)"
+    "translation": "返回",
+    "context": "<<POS:00577584>> addButton(14,\"Back\",Po)",
+    "stage": 1
   },
   {
     "key": "output|i_There_s_not_much_i_Chrissy_begins_with_a_little_shrug_of|d6221b3adeba",
@@ -6278,8 +6322,9 @@
   {
     "key": "button|Back|6aeb4c8b54e6#2",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:00580377>> addButton(14,\"Back\",Po)"
+    "translation": "返回",
+    "context": "<<POS:00580377>> addButton(14,\"Back\",Po)",
+    "stage": 1
   },
   {
     "key": "output|i_I_like_it_a_lot_here_i_Chrissy_exclaims_with_a_big_smile|68f5a3ae32cc",
@@ -6368,8 +6413,9 @@
   {
     "key": "button|Back|32cf7654724e",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:00583132>> addButton(14,\"Back\",Po)"
+    "translation": "返回",
+    "context": "<<POS:00583132>> addButton(14,\"Back\",Po)",
+    "stage": 1
   },
   {
     "key": "output.expr|Leaning_forward_in_your_seat_you_put_on_a_smile_and_ask_Chrissy|7ab50750cfeb",
@@ -6392,8 +6438,9 @@
   {
     "key": "button|Next|2088d2d574af",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00584171>> addButton(0,\"Next\",en)"
+    "translation": "继续",
+    "context": "<<POS:00584171>> addButton(0,\"Next\",en)",
+    "stage": 1
   },
   {
     "key": "output|Chrissy_leads_you_through_the_cold_cold_streets_keeping_a_clos|ae5440ca9336",
@@ -6524,8 +6571,9 @@
   {
     "key": "button|Next|bffa70bf5317",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00588516>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00588516>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Putting_on_your_most_seductive_grin_you_ask_this_tanuki_if_she|be4c701ef9a1",
@@ -6566,8 +6614,9 @@
   {
     "key": "button|Next|54f1ff706d9d",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00589648>> addButton(0,\"Next\",Po)"
+    "translation": "继续",
+    "context": "<<POS:00589648>> addButton(0,\"Next\",Po)",
+    "stage": 1
   },
   {
     "key": "output|Putting_on_your_most_seductive_grin_you_ask_this_tanuki_if_she|1f7da9d604a6",
@@ -6614,8 +6663,9 @@
   {
     "key": "button|Next|2088d2d574af#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00591338>> addButton(0,\"Next\",on)"
+    "translation": "继续",
+    "context": "<<POS:00591338>> addButton(0,\"Next\",on)",
+    "stage": 1
   },
   {
     "key": "output|Chrissy_leads_you_through_the_cold_cold_streets_keeping_a_clos|e36afd656e41",
@@ -6992,8 +7042,9 @@
   {
     "key": "button|Next|dfadb6867c34",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00606248>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00606248>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|With_a_smirk_you_step_closer_to_your_soon_to_be_lover_reach_do|5b556a1d95ef",
@@ -7178,8 +7229,9 @@
   {
     "key": "button|Next|9f60d110e570",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00618070>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00618070>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|With_a_smirk_you_step_closer_to_your_soon_to_be_lover_reach_do|5b556a1d95ef#1",
@@ -7316,8 +7368,9 @@
   {
     "key": "button|Next|3b147fcdaf1c",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00625851>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00625851>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|With_a_smirk_you_step_closer_to_your_soon_to_be_lover_reach_do|5b556a1d95ef#2",
@@ -7460,8 +7513,9 @@
   {
     "key": "button|Next|293bcebc318a",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00635495>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00635495>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Looking_around_you_can_see_a_girl_sitting_all_alone_in_her_boot|60e6c7e60702",
@@ -7670,8 +7724,9 @@
   {
     "key": "button|Back|2c9e1c717472",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:00639002>> addButton(14,\"Back\",mainGameMenu)"
+    "translation": "返回",
+    "context": "<<POS:00639002>> addButton(14,\"Back\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Cynthia|303b333a5dfe",
@@ -7844,8 +7899,9 @@
   {
     "key": "button|Next|2976e08f3478",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00645657>> addButton(0,\"Next\",(function(){return cn(\"next\")}))"
+    "translation": "继续",
+    "context": "<<POS:00645657>> addButton(0,\"Next\",(function(){return cn(\"next\")}))",
+    "stage": 1
   },
   {
     "key": "output|You_find_yourself_escorted_to_the_residential_district_in_short|c951d70ab035",
@@ -8036,8 +8092,9 @@
   {
     "key": "button|Next|d0e7b53be470",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00651551>> addButton(0,\"Next\",(function(){return cn(\"sex menu\")}))"
+    "translation": "继续",
+    "context": "<<POS:00651551>> addButton(0,\"Next\",(function(){return cn(\"sex menu\")}))",
+    "stage": 1
   },
   {
     "key": "output|You_shake_your_head_instead_slipping_off_your_gear_so_that_ther|7486e3c437dc",
@@ -8096,8 +8153,9 @@
   {
     "key": "button|Next|785daf49410d",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00654048>> addButton(0,\"Next\",(function(){return cn(\"sex menu\")}))"
+    "translation": "继续",
+    "context": "<<POS:00654048>> addButton(0,\"Next\",(function(){return cn(\"sex menu\")}))",
+    "stage": 1
   },
   {
     "key": "output|Soon_the_two_of_you_find_yourselves_in_Cynthia_s_large_sturdy_b|dbf9d019bbb4",
@@ -8420,8 +8478,9 @@
   {
     "key": "button|Next|a100424c322a",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00662160>> addButton(0,\"Next\",(function(){return cn(\"morning\")}))"
+    "translation": "继续",
+    "context": "<<POS:00662160>> addButton(0,\"Next\",(function(){return cn(\"morning\")}))",
+    "stage": 1
   },
   {
     "key": "output|Rather_than_answer_aloud_you_pull_away_and_up_turn_yourself_ar|fb7300816c90",
@@ -8534,8 +8593,9 @@
   {
     "key": "button|Next|a606540b1649",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00666023>> addButton(0,\"Next\",(function(){return cn(\"morning\")}))"
+    "translation": "继续",
+    "context": "<<POS:00666023>> addButton(0,\"Next\",(function(){return cn(\"morning\")}))",
+    "stage": 1
   },
   {
     "key": "output|The_next_morning_you_wake_to_find_yourself_nestled_in_a_warm_and|e97a31e44fe8",
@@ -8588,8 +8648,9 @@
   {
     "key": "button|Next|a488eac63e36",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00667670>> addButton(0,\"Next\",gn)"
+    "translation": "继续",
+    "context": "<<POS:00667670>> addButton(0,\"Next\",gn)",
+    "stage": 1
   },
   {
     "key": "output|You_see_Cynthia_the_minotauress_sitting_at_the_bar_sipping_idly|6ef9f7987326",

@@ -1,5 +1,36 @@
 [
   {
+    "key": "name.show|Saurmorians|f67fcf380d54",
+    "original": "Saurmorians",
+    "translation": "",
+    "context": "<<POS:34913084>> showName(\"Saurmorians\")"
+  },
+  {
+    "key": "output|You_let_out_a_tired_moan_and_slowly_crack_an_eye_open_Strange|6196b6265f41",
+    "original": "You let out a tired moan, and slowly crack an eye open. Strange; you’re in your cabin, sleeping in your bed like normal.",
+    "translation": "",
+    "context": "<<POS:34913124>>"
+  },
+  {
+    "key": "output|Sitting_up_you_look_at_the_clock_and_shake_your_head_both_in_c|8d62fc2ca083",
+    "original": "Sitting up, you look at the clock, and shake your head both in confusion and to get rid of the grogginess. You slept for a while, yet you feel more drained than when you went to sleep... Did you have some strange dream? You can’t remember, really; maybe something to do with saurmorians?",
+    "translation": "",
+    "context": "<<POS:34913259>>"
+  },
+  {
+    "key": "output|Oh_well_Probably_nothing_serious|830872e67773",
+    "original": "Oh well. Probably nothing serious.",
+    "translation": "",
+    "context": "<<POS:34913561>>"
+  },
+  {
+    "key": "button|Next|12f25b62055a",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:34913623>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
+  },
+  {
     "key": "name.show|Mad_Scientist|2f80879f6b30",
     "original": "Mad Scientist",
     "translation": "",
@@ -117,7 +148,8 @@
     "key": "button|Next|95870bb6aa8a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34920107>> addButton(0,\"Next\",(function(){clearOutput(),showBust(\"\"),showName(\"Mad Scientist\"),author(\"Carol J.\"),output(\"<i>“Felicia, make a note of this.”</i> Veronica seems intrigued. Impressed, even, given the smile she has as she taps her fingertips together. <i>“Subject is still capable of speech after i..."
+    "context": "<<POS:34920107>> addButton(0,\"Next\",(function(){clearOutput(),showBust(\"\"),showName(\"Mad Scientist\"),author(\"Carol J.\"),output(\"<i>“Felicia, make a note of this.”</i> Veronica seems intrigued. Impressed, even, given the smile she has as she taps her fingertips together. <i>“Subject is still capable of speech after i...",
+    "stage": 1
   },
   {
     "key": "header|Running|eefda3adc96b",
@@ -159,7 +191,8 @@
     "key": "button|Next|e91d65ec40e8",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34931387>> addButton(0,\"Next\",(function(){clearOutput(),showBust(\"\"),showName(\"Werewolf\"),author(\"TheGreatAlbert\"),output(\"Where you had imagined witnessing an eldritch horror born of your worst nightmares, instead stands a magnificent creature, feral yet human, the marriage of a wild wolf and a man: a werewol..."
+    "context": "<<POS:34931387>> addButton(0,\"Next\",(function(){clearOutput(),showBust(\"\"),showName(\"Werewolf\"),author(\"TheGreatAlbert\"),output(\"Where you had imagined witnessing an eldritch horror born of your worst nightmares, instead stands a magnificent creature, feral yet human, the marriage of a wild wolf and a man: a werewol...",
+    "stage": 1
   },
   {
     "key": "name.show|Nurse|0c1f2cc7bb40",
@@ -243,7 +276,8 @@
     "key": "button|Next|b6ab9b27903a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34945002>> addButton(0,\"Next\",(function(){clearOutput(),showBust(\"\"),showName(\"Nurse\"),output(blockHeader(\"Hello Nurse\")),author(\"Breebee\"),output(\"You’re in a hospital, or what used to be a hospital. Red splashes cover the room’s dirty, cracked walls. Ancient medical equipment lays scattered on the floor in v..."
+    "context": "<<POS:34945002>> addButton(0,\"Next\",(function(){clearOutput(),showBust(\"\"),showName(\"Nurse\"),output(blockHeader(\"Hello Nurse\")),author(\"Breebee\"),output(\"You’re in a hospital, or what used to be a hospital. Red splashes cover the room’s dirty, cracked walls. Ancient medical equipment lays scattered on the floor in v...",
+    "stage": 1
   },
   {
     "key": "header|Awake|52cb0cb3732f",
@@ -309,7 +343,8 @@
     "key": "button|Next|a29628e9906d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34963234>> addButton(0,\"Next\",(function(){clearOutput(),showBust(\"\"),showName(\"A G-GHOST!\"),author(\"Lkynmbr24\"),output(\"Once you enter the doorway, you are greeted with a ghastly sight. In front of the wide-open refrigerator door is a petite, though feminine figure clad in dark clothing. You can’t see the deta..."
+    "context": "<<POS:34963234>> addButton(0,\"Next\",(function(){clearOutput(),showBust(\"\"),showName(\"A G-GHOST!\"),author(\"Lkynmbr24\"),output(\"Once you enter the doorway, you are greeted with a ghastly sight. In front of the wide-open refrigerator door is a petite, though feminine figure clad in dark clothing. You can’t see the deta...",
+    "stage": 1
   },
   {
     "key": "header|A_Festival|c40b8974ba13",
@@ -369,7 +404,8 @@
     "key": "button|Next|0894fd0a261d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34981732>> addButton(0,\"Next\",(function(){clearOutput(),clearBust(),clearName(),output(blockHeader(\"A Festival...?\")),author(\"Linarahn\"),output(\"You find yourself in a room lit only by candles, resting on a rather large bed – much too big for a single person. Your mind feels hazy and your limbs heavy as you st..."
+    "context": "<<POS:34981732>> addButton(0,\"Next\",(function(){clearOutput(),clearBust(),clearName(),output(blockHeader(\"A Festival...?\")),author(\"Linarahn\"),output(\"You find yourself in a room lit only by candles, resting on a rather large bed – much too big for a single person. Your mind feels hazy and your limbs heavy as you st...",
+    "stage": 1
   },
   {
     "key": "header|Wandering_Off|7d9a6ffb1bd3",
@@ -519,7 +555,8 @@
     "key": "button|Next|a406071ddd94",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35029985>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:35029985>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|A_Path|b79639fe8b00",
@@ -537,7 +574,8 @@
     "key": "button|Next|506c11cb673c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35030915>> addButton(0,\"Next\",(function(){clearOutput(),clearBust(),clearName(),output(blockHeader(\"Pumpkin Patch\")),author(\"H3X\"),output(\"After a short walk around a few bends, the path opens up to a much larger clearing. Roughly the size of a cruiser’s cargo bay, the ground here is almost entirely covered wi..."
+    "context": "<<POS:35030915>> addButton(0,\"Next\",(function(){clearOutput(),clearBust(),clearName(),output(blockHeader(\"Pumpkin Patch\")),author(\"H3X\"),output(\"After a short walk around a few bends, the path opens up to a much larger clearing. Roughly the size of a cruiser’s cargo bay, the ground here is almost entirely covered wi...",
+    "stage": 1
   },
   {
     "key": "name.show|Halloween_Goblins|ba63407e36bd",
@@ -657,7 +695,8 @@
     "key": "button|Next|11cd38c76d59",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35051604>> addButton(0,\"Next\",(function(){clearOutput(),clearBust(),clearName(),output(blockHeader(\"Halloween\")),author(\"Gardeford\"),mitzi.isCrew()?output(\"You try and gasp in a breath, and are sequestered by... something!? Something warm, wet, and familiarly sweet. You sit up, and Mitzi rolls off your face an..."
+    "context": "<<POS:35051604>> addButton(0,\"Next\",(function(){clearOutput(),clearBust(),clearName(),output(blockHeader(\"Halloween\")),author(\"Gardeford\"),mitzi.isCrew()?output(\"You try and gasp in a breath, and are sequestered by... something!? Something warm, wet, and familiarly sweet. You sit up, and Mitzi rolls off your face an...",
+    "stage": 1
   },
   {
     "key": "header|Dream|96894f64469c",
@@ -735,7 +774,8 @@
     "key": "button|Next|a93107c79501",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35055564>> addButton(0,\"Next\",(function(){clearOutput(),showBust(\"\"),showName(\"Hands\"),author(\"Frogapus\"),output(\"Helpless, you sink through the floor, pulled down, down down by the hands into darkness. As your eyes adjust, you become aware of movement all around you. In the wan, nowhere-light, you become awar..."
+    "context": "<<POS:35055564>> addButton(0,\"Next\",(function(){clearOutput(),showBust(\"\"),showName(\"Hands\"),author(\"Frogapus\"),output(\"Helpless, you sink through the floor, pulled down, down down by the hands into darkness. As your eyes adjust, you become aware of movement all around you. In the wan, nowhere-light, you become awar...",
+    "stage": 1
   },
   {
     "key": "name.show|The_Witch|69307388daa6",
@@ -879,7 +919,8 @@
     "key": "button|Next|5a347b4db69b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35072878>> addButton(0,\"Next\",(function(){clearOutput(),showBust(\"\"),showName(\"The Witch...\"),author(\"ThereWasAnAttempt\"),output(\"You blink, your eyelids drooping. Your head feels... heavy. Like someone was winding string around your brain...\"),output(\"\\n\\n<i>“Are you listening?”</i>\"),output(\"\\n\\n<i>“Yeah,”</..."
+    "context": "<<POS:35072878>> addButton(0,\"Next\",(function(){clearOutput(),showBust(\"\"),showName(\"The Witch...\"),author(\"ThereWasAnAttempt\"),output(\"You blink, your eyelids drooping. Your head feels... heavy. Like someone was winding string around your brain...\"),output(\"\\n\\n<i>“Are you listening?”</i>\"),output(\"\\n\\n<i>“Yeah,”</...",
+    "stage": 1
   },
   {
     "key": "name.show|A_DEMON|53b96168aaea",
@@ -969,7 +1010,8 @@
     "key": "button|Next|689fc8951a24",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35085452>> addButton(0,\"Next\",(function(){clearOutput(),showBust(sera.bustString(!0)),showName(\"Demon Sera\"),author(\"Hatchford\"),output(\"Sera doesn’t even give you the dignity of dragging you to the bed, but instead keeps you in the pile of crew, occasionally, and forcefully, pushing you into whatever overflow..."
+    "context": "<<POS:35085452>> addButton(0,\"Next\",(function(){clearOutput(),showBust(sera.bustString(!0)),showName(\"Demon Sera\"),author(\"Hatchford\"),output(\"Sera doesn’t even give you the dignity of dragging you to the bed, but instead keeps you in the pile of crew, occasionally, and forcefully, pushing you into whatever overflow...",
+    "stage": 1
   },
   {
     "key": "header|Cum|90a320ecad20",
@@ -1023,7 +1065,8 @@
     "key": "button|Next|ac08b8e3c988",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35089646>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:35089646>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Cum|8569d1468a30",
@@ -1131,7 +1174,8 @@
     "key": "button|Next|60a5e9f30062",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35096735>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:35096735>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|i_Angel_i_you_hear_Kiro_call_from_down_the_hall_her_usual|71688cb81a34",
@@ -1203,7 +1247,8 @@
     "key": "button|Next|722bc02f0241",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35100017>> addButton(0,\"Next\",(function(){clearOutput(),kiro.showAll(),author(\"Fenoxo\"),output(\"Kiro, still holding the cheap costume cap, couldn’t look more smug. <i>“Not really a hat, actually. Also not legal, actually. Also... one of the few treasures I kept for myself while I was pillaging my way across th..."
+    "context": "<<POS:35100017>> addButton(0,\"Next\",(function(){clearOutput(),kiro.showAll(),author(\"Fenoxo\"),output(\"Kiro, still holding the cheap costume cap, couldn’t look more smug. <i>“Not really a hat, actually. Also not legal, actually. Also... one of the few treasures I kept for myself while I was pillaging my way across th...",
+    "stage": 1
   },
   {
     "key": "name.show|Roeliel|9d44a199065a",
@@ -1221,7 +1266,8 @@
     "key": "button|Next|c80fe32cf904",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35171941>> addButton(0,\"Next\",LSe)"
+    "context": "<<POS:35171941>> addButton(0,\"Next\",LSe)",
+    "stage": 1
   },
   {
     "key": "textify|Your_back_is_pushed_against_a_nearby_tree_and_you_knock_the_bac|5b2404fb05bb",
@@ -1232,13 +1278,13 @@
   {
     "key": "button|Continue|39964ff7e4ac",
     "original": "Continue",
-    "translation": "继续",
+    "translation": "",
     "context": "<<POS:35183768>> addButton(0,\"Continue\",_Se,\"Continue\",\"Let Roeliel continue as she likes on you. There are worse fates than being thoroughly groomed by a sexy panther.\")"
   },
   {
     "key": "button.hover|Continue|39964ff7e4ac",
     "original": "Continue",
-    "translation": "继续",
+    "translation": "",
     "context": "<<POS:35183783>> addButton(0,\"Continue\",_Se,\"Continue\",\"Let Roeliel continue as she likes on you. There are worse fates than being thoroughly groomed by a sexy panther.\")"
   },
   {
@@ -1275,7 +1321,8 @@
     "key": "button|Next|ccdc480a679a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35195966>> addButton(0,\"Next\",lorelei.hasCock()?xSe:ISe)"
+    "context": "<<POS:35195966>> addButton(0,\"Next\",lorelei.hasCock()?xSe:ISe)",
+    "stage": 1
   },
   {
     "key": "textify|You_may_be_caught_and_captured_but_one_thing_you_aren_t_is_pass|34079cb345c1",
@@ -1287,7 +1334,8 @@
     "key": "button|Next|29d41a0a3224",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35209524>> addButton(0,\"Next\",lorelei.hasCock()?xSe:ISe)"
+    "context": "<<POS:35209524>> addButton(0,\"Next\",lorelei.hasCock()?xSe:ISe)",
+    "stage": 1
   },
   {
     "key": "textify|That_said_there_s_only_so_much_b_satisfaction_b_a_woman_or|2fa90990d9fc",
@@ -1365,7 +1413,8 @@
     "key": "button|Next|dc3e9e3305f5",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35269183>> addButton(0,\"Next\",NSe)"
+    "context": "<<POS:35269183>> addButton(0,\"Next\",NSe)",
+    "stage": 1
   },
   {
     "key": "textify|Your_eyes_glance_down_Roeliel_s_body_although_with_her_pressed|9d0e91144038",
@@ -1383,7 +1432,8 @@
     "key": "button|Next|0a8841bcc90d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35295670>> addButton(0,\"Next\",NSe)"
+    "context": "<<POS:35295670>> addButton(0,\"Next\",NSe)",
+    "stage": 1
   },
   {
     "key": "textify|About_an_hour_later_n_n_t_tYou_re_holding_onto_a_giant_leaf|ec6ced4908d0",
@@ -1395,7 +1445,8 @@
     "key": "button|Next|a547555dc349",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35298620>> addButton(0,\"Next\",RSe)"
+    "context": "<<POS:35298620>> addButton(0,\"Next\",RSe)",
+    "stage": 1
   },
   {
     "key": "textify|Roeliel_does_mercifully_get_off_your_lap_about_another_hour_la|527a1833a972",
@@ -1407,7 +1458,8 @@
     "key": "button|Next|f4e08f3dc53b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35300042>> addButton(0,\"Next\",(function(){return moveToRoom(\"ZSR L31\",!0)}))"
+    "context": "<<POS:35300042>> addButton(0,\"Next\",(function(){return moveToRoom(\"ZSR L31\",!0)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Elieorl|49d680b9c48d",
@@ -1437,7 +1489,8 @@
     "key": "button|Next|3a3f6cf557ae",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35308922>> addButton(e++,\"Next\",FSe,\"Next\",\"\")"
+    "context": "<<POS:35308922>> addButton(e++,\"Next\",FSe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|3a3f6cf557ae",
@@ -1455,7 +1508,8 @@
     "key": "button|Next|ae893714720b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35326246>> addButton(e++,\"Next\",DSe,\"Next\",\"\")"
+    "context": "<<POS:35326246>> addButton(e++,\"Next\",DSe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|ae893714720b",
@@ -1473,7 +1527,8 @@
     "key": "button|Next|84c066bd0816",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35340406>> addButton(e++,\"Next\",HSe,\"Next\",\"\")"
+    "context": "<<POS:35340406>> addButton(e++,\"Next\",HSe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|84c066bd0816",
@@ -1509,7 +1564,8 @@
     "key": "button|Next|d8d5ed5b6151",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35372546>> addButton(t++,\"Next\",e?USe:qSe,\"Next\",\"\")"
+    "context": "<<POS:35372546>> addButton(t++,\"Next\",e?USe:qSe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|d8d5ed5b6151",
@@ -1527,7 +1583,8 @@
     "key": "button|Next|707d6b210aaa",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35392402>> addButton(e++,\"Next\",(function(){return WSe(!0)}),\"Next\",\"\")"
+    "context": "<<POS:35392402>> addButton(e++,\"Next\",(function(){return WSe(!0)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|707d6b210aaa",
@@ -1545,7 +1602,8 @@
     "key": "button|Next|bc9cd6950865",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35415045>> addButton(e++,\"Next\",(function(){return WSe(!1)}),\"Next\",\"\")"
+    "context": "<<POS:35415045>> addButton(e++,\"Next\",(function(){return WSe(!1)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|bc9cd6950865",
@@ -1563,7 +1621,8 @@
     "key": "button|Next|872aa79807a1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:35421784>> addButton(t++,\"Next\",VSe,\"Next\",\"\")"
+    "context": "<<POS:35421784>> addButton(t++,\"Next\",VSe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|872aa79807a1",

@@ -1,9 +1,22 @@
 [
   {
+    "key": "assign|slyveren_slavebreaker|9aea0e57dfbe",
+    "original": "slyveren slavebreaker",
+    "translation": "",
+    "context": "<<POS:01739416>>"
+  },
+  {
     "key": "assign|the|f9af2dd4638e",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:01739497>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "context": "<<POS:01739515>>",
+    "stage": 1
   },
   {
     "key": "assign|The_slyveren_sensuously_wiggles_aside|b9efa050cce9",
@@ -27,7 +40,8 @@
     "key": "perk|Appearance_Enabled|bc3ba4a4fb4f",
     "original": "Appearance Enabled",
     "translation": "启用外观",
-    "context": "<<POS:01742212>> createPerk(\"Appearance Enabled\")"
+    "context": "<<POS:01742212>> createPerk(\"Appearance Enabled\")",
+    "stage": 1
   },
   {
     "key": "assign|neon_blue|0c64f3c2d03d",
@@ -160,6 +174,12 @@
     "original": "<b>You are stunned!</b>",
     "translation": "",
     "context": "<<POS:01752031>>"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_var2_are_is_stunned|14367098f182",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+({var2}?\"are\":\"is\")+\" stunned!</b>",
+    "translation": "",
+    "context": "<<POS:01752071>> <<VARS:var0=e.getCombatName(),!1,var1=b.m,var2=e.isPlural>> combatAppend(\"<b>\"+b.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural?\"are\":\"is\")+\" stunned!</b>\")"
   },
   {
     "key": "combat|Closing_your_eyes_feels_harder_than_lifting_a_100_pound_weight|0a18622c16b5",

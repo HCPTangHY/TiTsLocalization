@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|Power_Potion|fe5010ebd443",
+    "original": "Power Potion",
+    "translation": "",
+    "context": "<<POS:07528750>>"
+  },
+  {
     "key": "assign|a_power_potion|2574709b0654",
     "original": "a power potion",
     "translation": "",
@@ -22,5 +28,18 @@
     "original": "{var0}",
     "translation": "",
     "context": "<<POS:07529935>> <<VARS:var0=o>> output(o)"
+  },
+  {
+    "key": "button|Next|648f6a4c46f8",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:07529997>> addButton(0,\"Next\",(function(){(new d.z).useFunction(e),window.inCombat()||addButton(0,\"Next\",mainGameMenu)}))",
+    "stage": 1
+  },
+  {
+    "key": "output.expr|var0|725f50c68bae",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:07530303>> <<VARS:var0=a>> output(a)"
   }
 ]

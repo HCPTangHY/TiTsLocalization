@@ -1,5 +1,19 @@
 [
   {
+    "key": "button|Next|43c1e187e1b0",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:10854009>> addButton(0,\"Next\",(function(){return t.helpDumbPCsOut()}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:10854069>> addButton(0,\"Next\",(function(){return t.postCombatReturnToMenu()}))",
+    "stage": 1
+  },
+  {
     "key": "header|T_I_T_S_Help|290c734de956",
     "original": "T.I.T.S. Help",
     "translation": "",
@@ -15,7 +29,8 @@
     "key": "button|Next|b0cd5b50c6a5",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:10854767>> addButton(0,\"Next\",(function(){return e.postCombatReturnToMenu()}))"
+    "context": "<<POS:10854767>> addButton(0,\"Next\",(function(){return e.postCombatReturnToMenu()}))",
+    "stage": 1
   },
   {
     "key": "combat|ready_to_swing_your_lasso|a66516f19100",
@@ -168,6 +183,18 @@
     "context": "<<POS:10868503>>"
   },
   {
+    "key": "menu.button.expr|var0|343384dfa026",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10871497>> <<VARS:var0=e>> i(a?\"\".concat(s,\"<b>You are disarmed and cannot use weapon based attacks.</b>\"):\"\".concat(s,\"<b>\").concat(n,\" \").concat(e.isPlural?\"are\":\"is\",\" disarmed.</b>\"),null,e)"
+  },
+  {
+    "key": "combat|defeated|b9928c091f64",
+    "original": " defeated.",
+    "translation": "",
+    "context": "<<POS:10874777>>"
+  },
+  {
     "key": "combat.expr|var0_their_crews_its_crew_disabled_by_lust|e134fef430cc",
     "original": " \"+({var0}?\"their crews\":\"its crew\")+\" disabled by lust.",
     "translation": "",
@@ -207,7 +234,8 @@
     "key": "button|Next|714db01db563",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:10875971>> addButton(0,\"Next\",(function(){return t.processHostileGroupActions()}))"
+    "context": "<<POS:10875971>> addButton(0,\"Next\",(function(){return t.processHostileGroupActions()}))",
+    "stage": 1
   },
   {
     "key": "combat|powered_down_and_vulnerable|1a0418cbb1f0",
@@ -249,7 +277,8 @@
     "key": "button|Next|2fe35bcbd5e6",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:10880094>> addButton(0,\"Next\",(function(){return e.showCombatMenu()}))"
+    "context": "<<POS:10880094>> addButton(0,\"Next\",(function(){return e.showCombatMenu()}))",
+    "stage": 1
   },
   {
     "key": "button|Defeat|0f1e1a4ff680",
@@ -309,7 +338,8 @@
     "key": "button|Next|a642587eaf69",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:10885941>> addButton(0,\"Next\",(function(){return t.postCombatReturnToMenu()}))"
+    "context": "<<POS:10885941>> addButton(0,\"Next\",(function(){return t.postCombatReturnToMenu()}))",
+    "stage": 1
   },
   {
     "key": "string.array|A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P|0aaff8ead75b",

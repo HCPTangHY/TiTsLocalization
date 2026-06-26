@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|large_pink_Ovalasting_egg|c371a9c3c200",
+    "original": "large, pink Ovalasting egg",
+    "translation": "",
+    "context": "<<POS:21782948>>"
+  },
+  {
     "key": "assign|a_large_pink_Ovalasting_egg|aab82c2edff7",
     "original": "a large, pink Ovalasting egg",
     "translation": "",
@@ -344,7 +350,7 @@
   {
     "key": "button|Leave|3aa78215d593",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:21861020>> addButton(14,\"Leave\",(function(){clearOutput(),author(\"Savin\"),output(\"You decide against using the egg trainer, and put it on standby for the time being. The screen flickers off, and the burbling noises you occasionally hear inside it fade to a low murmur.\"),clearMenu(),addButton(0,\"Next\",mainGameM..."
   },
   {
@@ -387,7 +393,8 @@
     "key": "button|Next|6a17b7507b5b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21863139>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:21863139>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "assign|You_are_under_the_effects_of_Ovalasting|b2171de9b332",
@@ -448,6 +455,12 @@
     "original": "(<i>The TamaniCorp Egg Trainer has been removed from your inventory and <b>installed</b></i>.)",
     "translation": "",
     "context": "<<POS:21866608>>"
+  },
+  {
+    "key": "output|i_You_can_access_it_from_b_Masturbation_Installed_b_anywhe|d61b9e51505a",
+    "original": "(<i>You can access it from <b>Masturbation->Installed</b> anywhere on your ship or by visiting the <b>Storage</b> room.</i>)",
+    "translation": "",
+    "context": "<<POS:21866715>>"
   },
   {
     "key": "output|You_must_be_onboard_your_ship_in_order_to_install_the_Egg_Traine|e5930e9228db",
@@ -531,7 +544,8 @@
     "key": "button|Next|e6d9609d61da",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21869251>> addButton(0,\"Next\",(function(){return function(e){if(!pc.hasStatusEffect(\"Eggy Belly\"))return void mainGameMenu();for(var t=0,o=0;o<pc.pregnancyData.length;o++){var a=pc.pregnancyData[o];\"EggTrainerCarryTraining\"===a.pregnancyType&&(a.pregnancyQuantity+=t)}pc.addStatusValue(\"Eggy Belly\",3,-1*e),pc.s..."
+    "context": "<<POS:21869251>> addButton(0,\"Next\",(function(){return function(e){if(!pc.hasStatusEffect(\"Eggy Belly\"))return void mainGameMenu();for(var t=0,o=0;o<pc.pregnancyData.length;o++){var a=pc.pregnancyData[o];\"EggTrainerCarryTraining\"===a.pregnancyType&&(a.pregnancyQuantity+=t)}pc.addStatusValue(\"Eggy Belly\",3,-1*e),pc.s...",
+    "stage": 1
   },
   {
     "key": "header|Eggs|335a23796e79",
@@ -747,7 +761,8 @@
     "key": "button|Next|46441f6183c5",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21876797>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:21876797>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Eggs|335a23796e79#1",
@@ -1086,6 +1101,18 @@
     "context": "<<POS:21888938>>"
   },
   {
+    "key": "output|and|e34db0c75f64",
+    "original": " and",
+    "translation": "",
+    "context": "<<POS:21888973>>"
+  },
+  {
+    "key": "output|pc_vaginas|b0cb292d47be",
+    "original": " [pc.vaginas]",
+    "translation": "",
+    "context": "<<POS:21889004>>"
+  },
+  {
     "key": "output|bare_pelvis|177b19792506",
     "original": "bare pelvis",
     "translation": "",
@@ -1407,7 +1434,8 @@
     "key": "button|Next|afe917793ca1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21897736>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:21897736>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Hardlight_Thong|d8339b4b466b",
@@ -1533,7 +1561,8 @@
     "key": "button|Back|29ea84d35df9",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:21898747>> addButton(14,\"Back\",(function(){return window.showInventory({force:!0})}))"
+    "context": "<<POS:21898747>> addButton(14,\"Back\",(function(){return window.showInventory({force:!0})}))",
+    "stage": 1
   },
   {
     "key": "name.show|Hardlight_Thong|8e7ac924667c",
@@ -1563,7 +1592,8 @@
     "key": "output|s|3201d6fd5518",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:21899508>>"
+    "context": "<<POS:21899508>>",
+    "stage": 1
   },
   {
     "key": "output|rapidly_growing_pierce|4a1e11fd1bf7",
@@ -1575,7 +1605,8 @@
     "key": "output|s|35413d0a58f7",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:21899579>>"
+    "context": "<<POS:21899579>>",
+    "stage": 1
   },
   {
     "key": "output|your_cunt|7988548d0050",
@@ -1587,7 +1618,8 @@
     "key": "output|s|c6b03dc7bb6a",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:21899635>>"
+    "context": "<<POS:21899635>>",
+    "stage": 1
   },
   {
     "key": "output.expr|until_1_pc_vaginas_length_it_reaches_your_cervix_poking|3bfe1582f7d6",
@@ -1611,7 +1643,8 @@
     "key": "output|s|865d0af6622f",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:21900564>>"
+    "context": "<<POS:21900564>>",
+    "stage": 1
   },
   {
     "key": "output|from_the_constant_teasing_You_reach_for_the_vagina_button_an|ee98ecabe883",
@@ -1623,7 +1656,8 @@
     "key": "output|s|9762925c3f5b",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:21900695>>"
+    "context": "<<POS:21900695>>",
+    "stage": 1
   },
   {
     "key": "output|lodged_within_you_recede|fe8cadf921ee",
@@ -1635,7 +1669,8 @@
     "key": "output|s|4586d6352552",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:21900766>>"
+    "context": "<<POS:21900766>>",
+    "stage": 1
   },
   {
     "key": "output|leaving_behind_a_feeling_of_disappointing_hollowness_Once_your|3a8186f310db",
@@ -1821,7 +1856,8 @@
     "key": "button|Next|09c026095e67",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21906220>> addButton(0,\"Next\",bR)"
+    "context": "<<POS:21906220>> addButton(0,\"Next\",bR)",
+    "stage": 1
   },
   {
     "key": "name.show|Hardlight_Thong|d8339b4b466b#1",
@@ -1917,7 +1953,8 @@
     "key": "output|s|902fc06cfcbc",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:21907669>>"
+    "context": "<<POS:21907669>>",
+    "stage": 1
   },
   {
     "key": "output|buried_deep_inside_you_for_a_few_seconds_bringing_you_instantl|0c97e231f500",
@@ -2007,7 +2044,8 @@
     "key": "output|s|6430ade2703f",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:21909254>>"
+    "context": "<<POS:21909254>>",
+    "stage": 1
   },
   {
     "key": "output|stuffing_you_this_time_persisting_The_intense_stimulation_tak|377d6a43aa40",
@@ -2019,7 +2057,8 @@
     "key": "output|s|787bd85eab7d",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:21909719>>"
+    "context": "<<POS:21909719>>",
+    "stage": 1
   },
   {
     "key": "output|Your_gyrations_are_now_wild_and_erratic_Your_arms_flail_around|9658ff173286",
@@ -2121,7 +2160,8 @@
     "key": "button|Next|de628664c999",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21913971>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:21913971>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "assign|If_you_continue_to_engage_in_public_lewdness_b_you_might_end_u|501a02617511",
@@ -2199,7 +2239,8 @@
     "key": "button|Next|90f45608294f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21918500>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:21918500>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "assign|bag_of_milk|b481c220eb88",
@@ -2565,7 +2606,15 @@
     "key": "button|Yes|280b6bb65ea8",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:21924991>> addButton(0,\"Yes\",(function(){return n(\"yes\")}))"
+    "context": "<<POS:21924991>> addButton(0,\"Yes\",(function(){return n(\"yes\")}))",
+    "stage": 1
+  },
+  {
+    "key": "button|No|1c655db5490a",
+    "original": "No",
+    "translation": "不",
+    "context": "<<POS:21925040>> addButton(1,\"No\",CR)",
+    "stage": 1
   },
   {
     "key": "output|You_tap_the_trash_can_icon_next_to_the_dreamcatcher_icon_and_the|488938122f08",
@@ -2600,7 +2649,7 @@
   {
     "key": "button|Leave|750c9228872a",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:21925933>> addButton(14,\"Leave\",(function(){2!==flags.SLEEP_FAPNEA_ACTIVE&&pc.removeStatusEffect(\"Sleep Fapnea Dream\"),mainGameMenu()}))"
   },
   {
@@ -2871,7 +2920,8 @@
     "key": "button|Next|462be9058b70",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21934082>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:21934082>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|The_sensation_is_wonderful_overpowering_and_you_are_brought_to|dd6fd89b8891",
@@ -3234,6 +3284,12 @@
     "context": "<<POS:21942850>>"
   },
   {
+    "key": "output|they_re|3a3b4a986f03",
+    "original": "they’re",
+    "translation": "",
+    "context": "<<POS:21942865>>"
+  },
+  {
     "key": "output|wreathed_in_barely_contained_pc_milk|8d1ba26b2f42",
     "original": " wreathed in barely-contained [pc.milk]",
     "translation": "",
@@ -3346,6 +3402,12 @@
     "original": "it’s",
     "translation": "",
     "context": "<<POS:21945140>>"
+  },
+  {
+    "key": "output|they_re|3a3b4a986f03#1",
+    "original": "they’re",
+    "translation": "",
+    "context": "<<POS:21945155>>"
   },
   {
     "key": "output|wreathed_in_barely_contained_pc_milk|8d1ba26b2f42#1",
@@ -3465,7 +3527,8 @@
     "key": "button|Next|462be9058b70#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21948542>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:21948542>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output.expr|The_bag_seals_off_leaving_you_with_var0|7c280383ecac",
@@ -3531,7 +3594,8 @@
     "key": "button|Next|0aa4d1644207",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21949405>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:21949405>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Installing|f65d5f48dddd",
@@ -3615,7 +3679,8 @@
     "key": "button|Next|ce85ff502fa1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21951518>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:21951518>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_re_too_pumped_up_The_instant_you_fit_the_cup_over_pc_oneVa|d0a7bcb16ff9",
@@ -3645,7 +3710,8 @@
     "key": "button|Next|8ec7dd2ad54f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21952139>> addButton(0,\"Next\",window.masturbateMenu)"
+    "context": "<<POS:21952139>> addButton(0,\"Next\",window.masturbateMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|SukMastr_2000|4250d4682ec4",
@@ -3699,7 +3765,15 @@
     "key": "button|Back|b802e7f01759",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:21952916>> addButton(14,\"Back\",(function(){return window.showInventory({force:!0})}))"
+    "context": "<<POS:21952916>> addButton(14,\"Back\",(function(){return window.showInventory({force:!0})}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Back|8377b4609270",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:21952991>> addButton(14,\"Back\",window.masturbateMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|SukMastr_2000|3af983d79cbe",
@@ -3912,6 +3986,12 @@
     "context": "<<POS:21956084>>"
   },
   {
+    "key": "output|are|c663ab43bf85",
+    "original": "are",
+    "translation": "",
+    "context": "<<POS:21956097>>"
+  },
+  {
     "key": "output|soon|be33aafe3741",
     "original": " soon ",
     "translation": "",
@@ -4056,6 +4136,12 @@
     "context": "<<POS:21957610>>"
   },
   {
+    "key": "output|their|88c9279b1b82",
+    "original": "their",
+    "translation": "",
+    "context": "<<POS:21957624>>"
+  },
+  {
     "key": "output|achy_throbs_It_d_be_nice_if_just_this_once_the_horny_boy|ec8f5f6ae79f",
     "original": " achy throbs. It’d be nice if just this once the horny boy",
     "translation": "",
@@ -4065,7 +4151,8 @@
     "key": "output|s|57a947951545",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:21957727>>"
+    "context": "<<POS:21957727>>",
+    "stage": 1
   },
   {
     "key": "output|would_give_you_a_few_minutes_alone_with_your_juicing_lad|b771ca341abb",
@@ -4078,6 +4165,12 @@
     "original": "y",
     "translation": "",
     "context": "<<POS:21957828>>"
+  },
+  {
+    "key": "output|ies|fdf0741b1b4b",
+    "original": "ies",
+    "translation": "",
+    "context": "<<POS:21957840>>"
   },
   {
     "key": "output|You_press_the_activation_button|a4e59bda687b",
@@ -4167,7 +4260,8 @@
     "key": "output|s|4181365e34f8",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:21960595>>"
+    "context": "<<POS:21960595>>",
+    "stage": 1
   },
   {
     "key": "output|y|89ff41dd187e",
@@ -4185,7 +4279,8 @@
     "key": "output|s|30ff6d735250",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:21960725>>"
+    "context": "<<POS:21960725>>",
+    "stage": 1
   },
   {
     "key": "output|and_grinning_y|b9af5fd76d36",
@@ -4311,6 +4406,7 @@
     "key": "button|Next|b502a64d600d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21965075>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:21965075>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   }
 ]

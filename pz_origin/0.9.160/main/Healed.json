@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|BBQ_To_Go|ad32fcc6c97e",
+    "original": "BBQ To-Go",
+    "translation": "",
+    "context": "<<POS:06284171>>"
+  },
+  {
     "key": "assign|box_of_barbeque_to_go|30bca1936953",
     "original": "box of barbeque to-go",
     "translation": "",
@@ -22,6 +28,12 @@
     "original": "Using supplements to heal yourself will only work once per fight. No body can handle the metabolic strain of downing multiple regenerative items in such quick succession.",
     "translation": "",
     "context": "<<POS:06285181>>"
+  },
+  {
+    "key": "output.expr|var0_var1_has_already_healed_during_this_fight_Doing_so_a|5d6ba491fb50",
+    "original": "{var0}+{var1}+\" has already healed during this fight! Doing so again would be more than ill-advised!",
+    "translation": "",
+    "context": "<<POS:06285523>> <<VARS:var0=e.capitalA,var1=e.short>> output(e.capitalA+e.short+\" has already healed during this fight! Doing so again would be more than ill-advised!\")"
   },
   {
     "key": "output|You_pop_open_the_packaged_BBQ_To_Go_meal_and_quickly_munch_down|05fb599c4196",

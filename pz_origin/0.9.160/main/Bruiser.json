@@ -1,9 +1,22 @@
 [
   {
+    "key": "assign|milodan_bruiser|8c098d774515",
+    "original": "milodan bruiser",
+    "translation": "",
+    "context": "<<POS:01116758>>"
+  },
+  {
     "key": "assign|the|ee1ea79f2bc5",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:01116831>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "context": "<<POS:01116849>>",
+    "stage": 1
   },
   {
     "key": "assign|The_milodan_standing_in_front_of_you_couldn_t_be_referred_to_as|e485b144f2a7",
@@ -27,7 +40,14 @@
     "key": "perk|Appearance_Enabled|e3913a9df1b6",
     "original": "Appearance Enabled",
     "translation": "启用外观",
-    "context": "<<POS:01120148>> createPerk(\"Appearance Enabled\")"
+    "context": "<<POS:01120148>> createPerk(\"Appearance Enabled\")",
+    "stage": 1
+  },
+  {
+    "key": "perk|Fixed_CumQ|e3c8bf88d8ff",
+    "original": "Fixed CumQ",
+    "translation": "",
+    "context": "<<POS:01120183>> createPerk(\"Fixed CumQ\",45e3,0,0,0)"
   },
   {
     "key": "desc.long|The_milodan_standing_in_front_of_you_couldn_t_be_referred_to_as|dfd53741b1f6",
@@ -202,6 +222,12 @@
     "original": "<b>Your wounds are still open and bleeding.</b>",
     "translation": "",
     "context": "<<POS:01131037>>"
+  },
+  {
+    "key": "combat|b_You_are_now_bleeding_b|7365c3471b7b",
+    "original": "<b>You are now bleeding.</b> ",
+    "translation": "",
+    "context": "<<POS:01131105>>"
   },
   {
     "key": "combat|shields_causing_sparks_to_fly_everywhere_as_she_tries_to_break|bc9b98a1c03c",

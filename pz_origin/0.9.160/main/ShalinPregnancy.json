@@ -1,9 +1,9 @@
 [
   {
-    "key": "assign|It_easily_avoids_your_attack|475759aec3d2",
-    "original": "It easily avoids your attack.",
+    "key": "assign|Shalin_Hunter|d9dff2d50e46",
+    "original": "Shalin Hunter",
     "translation": "",
-    "context": "<<POS:01312919>>"
+    "context": "<<POS:01670659>>"
   },
   {
     "key": "assign|Shalin_Hunter|3ee4e1d2d658",
@@ -14,8 +14,15 @@
   {
     "key": "assign|the|b6a370308e60",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:01670729>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "context": "<<POS:01670747>>",
+    "stage": 1
   },
   {
     "key": "assign|From_the_waist_up_he_has_a_bare_recognizably_human_body_slim|06fd340ffe27",
@@ -28,6 +35,12 @@
     "original": "It easily avoids your attack.",
     "translation": "",
     "context": "<<POS:01671189>>"
+  },
+  {
+    "key": "assign|It_easily_avoids_your_attack|475759aec3d2",
+    "original": "It easily avoids your attack.",
+    "translation": "",
+    "context": "<<POS:01671235>>"
   },
   {
     "key": "assign|a_set_of_tough_feathers|b6250ce7a317",
@@ -68,7 +81,7 @@
   {
     "key": "button|Fight|e5421a1469f1",
     "original": "Fight",
-    "translation": "战斗！",
+    "translation": "",
     "context": "<<POS:01676368>> addButton(0,\"Fight\",(function(){combatOutput(\"You’ll quit when you’re dead. You go limp, let him think you’ve finally given up, and when he softens his grip just a tad you grab for your [pc.weapon].\\n\\n\\t\\t\\t\\tThe shalin hunter reacts by immediately tightening his monstrous grasp around you again, c..."
   },
   {
@@ -99,7 +112,8 @@
     "key": "button|Next|181db8c0c65a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:01678259>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:01678259>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "textify|The_fluffy_claw_that_currently_has_you_pinned_to_the_moss_and_tw|d3826cb50552",

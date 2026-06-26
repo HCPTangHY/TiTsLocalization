@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|jar_of_Circumscriber_cream|197a62ffba2a",
+    "original": "jar of Circumscriber cream",
+    "translation": "",
+    "context": "<<POS:08057746>>"
+  },
+  {
     "key": "assign|a_jar_of_cream_called_Circumscriber|7fcc8abd48ec",
     "original": "a jar of cream called ‘Circumscriber’",
     "translation": "",
@@ -24,6 +30,12 @@
     "context": "<<POS:08058635>>"
   },
   {
+    "key": "output|You_put_the_item_back_in_your_inventory|b948a40cac43",
+    "original": "You put the item back in your inventory.",
+    "translation": "",
+    "context": "<<POS:08058710>>"
+  },
+  {
     "key": "output|You_have_more_than_one_penis_Which_one_will_you_apply_Circumscr|dcee89186dae",
     "original": "You have more than one penis. Which one will you apply Circumscriber to?",
     "translation": "",
@@ -34,6 +46,54 @@
     "original": "<b>\"+{var2}.capitalize({var1}.numToOrdinal({var0}+1))+\" Cock:</b>",
     "translation": "",
     "context": "<<POS:08058945>> <<VARS:var0=a,var1=l.m,var2=l.m>> output(\"\\n<b>\"+l.m.capitalize(l.m.numToOrdinal(a+1))+\" Cock:</b>\")"
+  },
+  {
+    "key": "output.expr|var0|922b0de05a5e",
+    "original": " \"+{var0}+\",",
+    "translation": "",
+    "context": "<<POS:08059078>> <<VARS:var0=GLOBAL.FLAG_NAMES[e.cocks[a].flags[n]]>> output(\" \"+GLOBAL.FLAG_NAMES[e.cocks[a].flags[n]]+\",\")"
+  },
+  {
+    "key": "output.expr|var1_toDisplayCase_var0|6b56906039bd",
+    "original": " \"+{var1}.toDisplayCase({var0})+\",",
+    "translation": "",
+    "context": "<<POS:08059160>> <<VARS:var0=e.cocks[a].cockColor,var1=l.m>> output(\" \"+l.m.toDisplayCase(e.cocks[a].cockColor)+\",\")"
+  },
+  {
+    "key": "output.expr|var0|fa00ce88ea05",
+    "original": " \"+{var0}",
+    "translation": "",
+    "context": "<<POS:08059216>> <<VARS:var0=GLOBAL.TYPE_NAMES[e.cocks[a].cType]>> output(\" \"+GLOBAL.TYPE_NAMES[e.cocks[a].cType])"
+  },
+  {
+    "key": "output.expr|var1_formatFloat_var0_in_long|1b92b9803840",
+    "original": ", \"+{var1}.formatFloat({var0})+\" in long",
+    "translation": "",
+    "context": "<<POS:08059288>> <<VARS:var0=e.cocks[a].cLength(),3,var1=d.k>> output(\", \"+d.k.formatFloat(e.cocks[a].cLength(),3)+\" in long\")"
+  },
+  {
+    "key": "output.expr|var1_formatFloat_var0_in_thick|be543b2383ed",
+    "original": ", \"+{var1}.formatFloat({var0})+\" in thick",
+    "translation": "",
+    "context": "<<POS:08059378>> <<VARS:var0=e.cocks[a].thickness(),3,var1=d.k>> output(\", \"+d.k.formatFloat(e.cocks[a].thickness(),3)+\" in thick\")"
+  },
+  {
+    "key": "button|Cock|307607c4ca8e",
+    "original": "Cock ",
+    "translation": "",
+    "context": "<<POS:08059450>> addButton(o,\"Cock \"+(a+1),(function(){return t.cockTF(e,a)}),l.m.capitalize(l.m.numToOrdinal(a+1))+\" Cock\",\"Use this on your [pc.cock \"+a+\"].\")"
+  },
+  {
+    "key": "button.hover.expr|var2_capitalize_var1_numToOrdinal_var0_1_Cock|b8466f2f507f",
+    "original": "{var2}.capitalize({var1}.numToOrdinal({var0}+1))+\" Cock\"",
+    "translation": "",
+    "context": "<<POS:08059498>> <<VARS:var0=a,var1=l.m,var2=l.m>> addButton(o,\"Cock \"+(a+1),(function(){return t.cockTF(e,a)}),l.m.capitalize(l.m.numToOrdinal(a+1))+\" Cock\",\"Use this on your [pc.cock \"+a+\"].\")"
+  },
+  {
+    "key": "button.tooltip|Use_this_on_your_pc_cock|cae10125b034",
+    "original": "Use this on your [pc.cock ",
+    "translation": "",
+    "context": "<<POS:08059545>> addButton(o,\"Cock \"+(a+1),(function(){return t.cockTF(e,a)}),l.m.capitalize(l.m.numToOrdinal(a+1))+\" Cock\",\"Use this on your [pc.cock \"+a+\"].\")"
   },
   {
     "key": "output.expr|var0_var1_var2_var3_applies_the_Circumscriber_cream|27374c3c82c7",
@@ -60,10 +120,77 @@
     "context": "<<POS:08060119>>"
   },
   {
+    "key": "output|removing_your_pc_armor|fbe372b40c01",
+    "original": " removing your [pc.armor]",
+    "translation": "",
+    "context": "<<POS:08060165>>"
+  },
+  {
+    "key": "output|and|14c343a60bb6",
+    "original": " and",
+    "translation": "",
+    "context": "<<POS:08060227>>"
+  },
+  {
+    "key": "output|dropping_your_pc_lowerUndergarment_to_the_floor|54b8e2df09da",
+    "original": " dropping your [pc.lowerUndergarment] to the floor",
+    "translation": "",
+    "context": "<<POS:08060242>>"
+  },
+  {
     "key": "output.expr|You_scoop_a_large_dollop_of_the_orange_glittery_cream_and_care|906111c1dd15",
     "original": ". You scoop a large dollop of the orange glittery cream and carefully smear every inch of your [pc.cockNoun \"+{var0}+\"] in it",
     "translation": "",
     "context": "<<POS:08060305>> <<VARS:var0=t>> output(\". You scoop a large dollop of the orange glittery cream and carefully smear every inch of your [pc.cockNoun \"+t+\"] in it\")"
+  },
+  {
+    "key": "output|especially|b88b6b16df8e",
+    "original": ", especially",
+    "translation": "",
+    "context": "<<POS:08060522>>"
+  },
+  {
+    "key": "output.expr|behind_the_pc_knot_var0|a7313ebc9871",
+    "original": " behind the [pc.knot \"+{var0}+\"]",
+    "translation": "",
+    "context": "<<POS:08060586>> <<VARS:var0=t>> output(\" behind the [pc.knot \"+t+\"]\")"
+  },
+  {
+    "key": "output|and|d8163e7c931e",
+    "original": " and",
+    "translation": "",
+    "context": "<<POS:08060707>>"
+  },
+  {
+    "key": "output.expr|within_the_pc_sheath_var0|b1ac5c9fdec4",
+    "original": " within the [pc.sheath \"+{var0}+\"]",
+    "translation": "",
+    "context": "<<POS:08060764>> <<VARS:var0=t>> output(\" within the [pc.sheath \"+t+\"]\")"
+  },
+  {
+    "key": "output|while_trying_to_avoid_your_other_genital|bb06b7ea1d95",
+    "original": " while trying to avoid your other genital",
+    "translation": "",
+    "context": "<<POS:08060825>>"
+  },
+  {
+    "key": "output|s|07286e8e7c6a",
+    "original": "s",
+    "translation": "​",
+    "context": "<<POS:08060898>>",
+    "stage": 1
+  },
+  {
+    "key": "output.expr|You_apply_the_rest_around_and_on_your_pc_cockHead_var0|326f17c9fa6b",
+    "original": ". You apply the rest around and on your [pc.cockHead \"+{var0}+\"]",
+    "translation": "",
+    "context": "<<POS:08060911>> <<VARS:var0=t>> output(\". You apply the rest around and on your [pc.cockHead \"+t+\"]\")"
+  },
+  {
+    "key": "output|pulling_down_your_foreskin_coating_its_insides_and_releasing|be478fb72c2b",
+    "original": ", pulling down your foreskin, coating its insides and releasing it, letting it spread the cream more thoroughly by itself",
+    "translation": "",
+    "context": "<<POS:08061026>>"
   },
   {
     "key": "output.expr|As_you_wait_for_the_transformation_the_orange_cream_dries_up|1e332e162892",
@@ -75,7 +202,8 @@
     "key": "button|Next|bf0f723e8da0",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:08061645>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:08061645>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output.expr|Aside_from_a_few_short_tingles_along_your_pc_cockNoun_var0|48d816e333e0",

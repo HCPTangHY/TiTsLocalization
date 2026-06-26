@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|Bumpy_Road|8faa8257fbb3",
+    "original": "Bumpy Road",
+    "translation": "",
+    "context": "<<POS:07913676>>"
+  },
+  {
     "key": "assign|a_long_injector_called_Bumpy_Road|88d9f125a841",
     "original": "a long injector called ‘Bumpy Road’",
     "translation": "",
@@ -48,6 +54,18 @@
     "context": "<<POS:07915616>> <<VARS:var0=GLOBAL.FLAG_NAMES[e.cocks[0].flags[u]]>> output(\" \"+GLOBAL.FLAG_NAMES[e.cocks[0].flags[u]]+\",\")"
   },
   {
+    "key": "output.expr|var1_toDisplayCase_var0|6b56906039bd",
+    "original": " \"+{var1}.toDisplayCase({var0})+\",",
+    "translation": "",
+    "context": "<<POS:07915698>> <<VARS:var0=e.cocks[0].cockColor,var1=l.m>> output(\" \"+l.m.toDisplayCase(e.cocks[0].cockColor)+\",\")"
+  },
+  {
+    "key": "output.expr|var0|fa00ce88ea05",
+    "original": " \"+{var0}",
+    "translation": "",
+    "context": "<<POS:07915754>> <<VARS:var0=GLOBAL.TYPE_NAMES[e.cocks[0].cType]>> output(\" \"+GLOBAL.TYPE_NAMES[e.cocks[0].cType])"
+  },
+  {
     "key": "button|Cock|ddd259f8e556",
     "original": "Cock",
     "translation": "",
@@ -72,16 +90,28 @@
     "context": "<<POS:07915932>> <<VARS:var0=a[n],var1=l.m,var2=l.m>> output(\"\\n<b>\"+l.m.capitalize(l.m.numToOrdinal(a[n]+1))+\" Cock:</b>\")"
   },
   {
-    "key": "output.expr|var1_toDisplayCase_var0|6b56906039bd#2",
+    "key": "output.expr|var0|922b0de05a5e",
+    "original": " \"+{var0}+\",",
+    "translation": "",
+    "context": "<<POS:07916074>> <<VARS:var0=GLOBAL.FLAG_NAMES[e.cocks[a[n]].flags[i]]>> output(\" \"+GLOBAL.FLAG_NAMES[e.cocks[a[n]].flags[i]]+\",\")"
+  },
+  {
+    "key": "output.expr|var1_toDisplayCase_var0|6b56906039bd#1",
     "original": " \"+{var1}.toDisplayCase({var0})+\",",
     "translation": "",
     "context": "<<POS:07916162>> <<VARS:var0=e.cocks[a[n]].cockColor,var1=l.m>> output(\" \"+l.m.toDisplayCase(e.cocks[a[n]].cockColor)+\",\")"
   },
   {
-    "key": "output.expr|var0|fa00ce88ea05#2",
+    "key": "output.expr|var0|fa00ce88ea05#1",
     "original": " \"+{var0}",
     "translation": "",
     "context": "<<POS:07916221>> <<VARS:var0=GLOBAL.TYPE_NAMES[e.cocks[a[n]].cType]>> output(\" \"+GLOBAL.TYPE_NAMES[e.cocks[a[n]].cType])"
+  },
+  {
+    "key": "button|Cock|16cbe277c8a0",
+    "original": "Cock ",
+    "translation": "",
+    "context": "<<POS:07916277>> addButton(o,\"Cock \"+(a[n]+1),(function(){return t.cockTF(e,a[n])}),l.m.capitalize(l.m.numToOrdinal(a[n]+1))+\" Cock\",\"Use this on your [pc.cock \"+a[n]+\"].\")"
   },
   {
     "key": "button.hover.expr|var2_capitalize_var1_numToOrdinal_var0_1_Cock|fcddaddb586e",
@@ -108,13 +138,13 @@
     "context": "<<POS:07916598>> <<VARS:var0=GLOBAL.FLAG_NAMES[e.vaginas[0].flags[d]]>> output(\" \"+GLOBAL.FLAG_NAMES[e.vaginas[0].flags[d]]+\",\")"
   },
   {
-    "key": "output.expr|var1_toDisplayCase_var0|6b56906039bd#3",
+    "key": "output.expr|var1_toDisplayCase_var0|6b56906039bd#2",
     "original": " \"+{var1}.toDisplayCase({var0})+\",",
     "translation": "",
     "context": "<<POS:07916686>> <<VARS:var0=e.vaginas[0].vaginaColor,var1=l.m>> output(\" \"+l.m.toDisplayCase(e.vaginas[0].vaginaColor)+\",\")"
   },
   {
-    "key": "output.expr|var0|fa00ce88ea05#3",
+    "key": "output.expr|var0|fa00ce88ea05#2",
     "original": " \"+{var0}",
     "translation": "",
     "context": "<<POS:07916746>> <<VARS:var0=GLOBAL.TYPE_NAMES[e.vaginas[0].type]>> output(\" \"+GLOBAL.TYPE_NAMES[e.vaginas[0].type])"
@@ -142,6 +172,42 @@
     "original": "<b>\"+{var2}.capitalize({var1}.numToOrdinal({var0}+1))+\" Vagina:</b>",
     "translation": "",
     "context": "<<POS:07916931>> <<VARS:var0=n[a],var1=l.m,var2=l.m>> output(\"\\n<b>\"+l.m.capitalize(l.m.numToOrdinal(n[a]+1))+\" Vagina:</b>\")"
+  },
+  {
+    "key": "output.expr|var0|7e9bd5935c12",
+    "original": " \"+{var0}+\",",
+    "translation": "",
+    "context": "<<POS:07917079>> <<VARS:var0=GLOBAL.FLAG_NAMES[e.vaginas[n[a]].flags[i]]>> output(\" \"+GLOBAL.FLAG_NAMES[e.vaginas[n[a]].flags[i]]+\",\")"
+  },
+  {
+    "key": "output.expr|var1_toDisplayCase_var0|6b56906039bd#3",
+    "original": " \"+{var1}.toDisplayCase({var0})+\",",
+    "translation": "",
+    "context": "<<POS:07917173>> <<VARS:var0=e.vaginas[n[a]].vaginaColor,var1=l.m>> output(\" \"+l.m.toDisplayCase(e.vaginas[n[a]].vaginaColor)+\",\")"
+  },
+  {
+    "key": "output.expr|var0|fa00ce88ea05#3",
+    "original": " \"+{var0}",
+    "translation": "",
+    "context": "<<POS:07917236>> <<VARS:var0=GLOBAL.TYPE_NAMES[e.vaginas[n[a]].type]>> output(\" \"+GLOBAL.TYPE_NAMES[e.vaginas[n[a]].type])"
+  },
+  {
+    "key": "button|Vagina|7f092ebd5c70",
+    "original": "Vagina ",
+    "translation": "",
+    "context": "<<POS:07917293>> addButton(o,\"Vagina \"+(n[a]+1),(function(){return t.cuntTF(e,n[a])}),l.m.capitalize(l.m.numToOrdinal(n[a]+1))+\" Vagina\",\"Use this on your [pc.vagina \"+n[a]+\"].\")"
+  },
+  {
+    "key": "button.hover.expr|var2_capitalize_var1_numToOrdinal_var0_1_Vagina|a2571b941286",
+    "original": "{var2}.capitalize({var1}.numToOrdinal({var0}+1))+\" Vagina\"",
+    "translation": "",
+    "context": "<<POS:07917349>> <<VARS:var0=n[a],var1=l.m,var2=l.m>> addButton(o,\"Vagina \"+(n[a]+1),(function(){return t.cuntTF(e,n[a])}),l.m.capitalize(l.m.numToOrdinal(n[a]+1))+\" Vagina\",\"Use this on your [pc.vagina \"+n[a]+\"].\")"
+  },
+  {
+    "key": "button.tooltip|Use_this_on_your_pc_vagina|2ee9f4557c0c",
+    "original": "Use this on your [pc.vagina ",
+    "translation": "",
+    "context": "<<POS:07917401>> addButton(o,\"Vagina \"+(n[a]+1),(function(){return t.cuntTF(e,n[a])}),l.m.capitalize(l.m.numToOrdinal(n[a]+1))+\" Vagina\",\"Use this on your [pc.vagina \"+n[a]+\"].\")"
   },
   {
     "key": "output.expr|var0_var1_injects_the_Bumpy_Road_transformative_but_to_no|7ba37d71d2e9",
@@ -249,7 +315,8 @@
     "key": "button|Next|680df3a7b427",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:07920678>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:07920678>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Bumpy_Road|b56eb1e38bfe",
@@ -333,6 +400,7 @@
     "key": "button|Next|f0ced0eeb7e8",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:07923587>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:07923587>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   }
 ]

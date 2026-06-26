@@ -1,5 +1,11 @@
 [
   {
+    "key": "output|You_smile_at_the_doctor_lips_already_mouthing_i_Are_you_feel|e7f5d79030f4",
+    "original": "You smile at the doctor, lips already mouthing, <i>“Are you feeling well today, Bianca?”</i> ",
+    "translation": "",
+    "context": "<<POS:27476959>>"
+  },
+  {
     "key": "output.expr|Instead_of_a_verbal_answer_Bianca_var0_hasHair_ruffles|768c9c3b1adb",
     "original": "Instead of a verbal answer, Bianca \"+({var0}.hasHair()?\"ruffles your [pc.hair]\":\"kisses you with lightning speed\")+\"! <i>“I don’t intend to ever be unwell. Not after meeting you, <b>[pc.name] Steele.</b>”</i>",
     "translation": "",
@@ -513,7 +519,8 @@
     "key": "button|Next|f3a68eb6d2f3",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27497409>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearMenu(),clearOutput(),showBianca(e?\"WORK\":\"CASUAL\"),author(\"William\"),processTime(1),e?bianca.familiarity()<50?(output(\"Words are exchanged, handshakes are made, and sometimes pats on t..."
+    "context": "<<POS:27497409>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearMenu(),clearOutput(),showBianca(e?\"WORK\":\"CASUAL\"),author(\"William\"),processTime(1),e?bianca.familiarity()<50?(output(\"Words are exchanged, handshakes are made, and sometimes pats on t...",
+    "stage": 1
   },
   {
     "key": "output|You_ask_Bianca_to_tell_you_about_her_childhood_again_i_Can_do|3dee468ebec5",
@@ -627,7 +634,8 @@
     "key": "button|Next|512dab37ac7c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27505622>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearMenu(),clearOutput(),showBianca(e?\"WORK\":\"CASUAL\"),author(\"William\"),processTime(5+rand(3)),output(\"<i>“Say,”</i> Bianca looks to you, <i>“What were your parents like, [pc.name]? If no..."
+    "context": "<<POS:27505622>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearMenu(),clearOutput(),showBianca(e?\"WORK\":\"CASUAL\"),author(\"William\"),processTime(5+rand(3)),output(\"<i>“Say,”</i> Bianca looks to you, <i>“What were your parents like, [pc.name]? If no...",
+    "stage": 1
   },
   {
     "key": "output|You_ask_Bianca_to_tell_you_why_she_became_a_doctor_again_to_whi|2e9deda685a0",
@@ -741,7 +749,8 @@
     "key": "button|Next|34fa61303029",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27515309>> addButton(0,\"Next\",(function(){return y3(e)}))"
+    "context": "<<POS:27515309>> addButton(0,\"Next\",(function(){return y3(e)}))",
+    "stage": 1
   },
   {
     "key": "output|In_light_of_your_confrontation_Bianca_has_certainly_looked_and|05034b4173b4",
@@ -843,7 +852,8 @@
     "key": "button|Next|3bafd611c9d6",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27520234>> addButton(0,\"Next\",(function(){return function(e){if(clearMenu(),clearOutput(),showBianca(e?\"WORK\":\"CASUAL\"),author(\"William\"),processTime(5+rand(3)),output(\"After a pregnant pause, Bianca makes a light ‘Ahh’ noise and turns to you. <i>“If you don’t mind me asking... do you think you’ll want to have..."
+    "context": "<<POS:27520234>> addButton(0,\"Next\",(function(){return function(e){if(clearMenu(),clearOutput(),showBianca(e?\"WORK\":\"CASUAL\"),author(\"William\"),processTime(5+rand(3)),output(\"After a pregnant pause, Bianca makes a light ‘Ahh’ noise and turns to you. <i>“If you don’t mind me asking... do you think you’ll want to have...",
+    "stage": 1
   },
   {
     "key": "output|You_ask_Bianca_to_tell_you_about_her_family_life_a_little_more_n|3581d8fe6d5a",
@@ -1161,7 +1171,8 @@
     "key": "button|Next|ad969284fc73",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27542835>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:27542835>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "textify|The_profile_picture_shows_a_six_foot_tall_broad_kaithrit_woman|5c4823de1e0e",
@@ -1179,7 +1190,8 @@
     "key": "button|Next|ea92b706ad00",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27545772>> addButton(0,\"Next\",b3)"
+    "context": "<<POS:27545772>> addButton(0,\"Next\",b3)",
+    "stage": 1
   },
   {
     "key": "textify|You_log_off_and_immediately_start_making_your_way_to_Anon_s_bar|2e793f47ca19",
@@ -1413,7 +1425,8 @@
     "key": "button|Next|2eae4ea73069",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27554403>> addButton(0,\"Next\",(function(){return p7(!0)}))"
+    "context": "<<POS:27554403>> addButton(0,\"Next\",(function(){return p7(!0)}))",
+    "stage": 1
   },
   {
     "key": "output|You_grab_Kaede_s_tight_behind_in_both_hands_hefting_her_up_off|23e0f6405b84",
@@ -1539,7 +1552,44 @@
     "key": "button|Next|b6c767933e74",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27560908>> addButton(0,\"Next\",p7)"
+    "context": "<<POS:27560908>> addButton(0,\"Next\",p7)",
+    "stage": 1
+  },
+  {
+    "key": "button.expr|var0|725f50c68bae",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:27561194>> <<VARS:var0=t>> addButton(a++,t,(function(){return r(t)}),i,n.description)"
+  },
+  {
+    "key": "button.hover.expr|var0|725f50c68bae",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:27561222>> <<VARS:var0=i>> addButton(a++,t,(function(){return r(t)}),i,n.description)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|725f50c68bae",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:27561224>> <<VARS:var0=n.description>> addButton(a++,t,(function(){return r(t)}),i,n.description)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:27561253>> <<VARS:var0=t>> addButton(a++,t,(function(){return s(t)}),i,\"Order one of Ilaria’s infamous ‘special sauce’ sinabunnies. Let’s be honest: Kaede would eat that sauce by the gallon anyway.\")"
+  },
+  {
+    "key": "button.hover.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:27561281>> <<VARS:var0=i>> addButton(a++,t,(function(){return s(t)}),i,\"Order one of Ilaria’s infamous ‘special sauce’ sinabunnies. Let’s be honest: Kaede would eat that sauce by the gallon anyway.\")"
+  },
+  {
+    "key": "button.tooltip|Order_one_of_Ilaria_s_infamous_special_sauce_sinabunnies_Let|fcc31105841c",
+    "original": "Order one of Ilaria’s infamous ‘special sauce’ sinabunnies. Let’s be honest: Kaede would eat that sauce by the gallon anyway.",
+    "translation": "",
+    "context": "<<POS:27561284>> addButton(a++,t,(function(){return s(t)}),i,\"Order one of Ilaria’s infamous ‘special sauce’ sinabunnies. Let’s be honest: Kaede would eat that sauce by the gallon anyway.\")"
   },
   {
     "key": "button.ttB|You_can_t_afford_this|6696a13c6955",
@@ -1749,7 +1799,8 @@
     "key": "button|Next|f6c721e9ecd5",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27568595>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:27568595>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Kaede_Ilaria|8cfa6821b91d",
@@ -1833,7 +1884,8 @@
     "key": "button|Next|4a3527ff80f2",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27570255>> addButton(0,\"Next\",e)"
+    "context": "<<POS:27570255>> addButton(0,\"Next\",e)",
+    "stage": 1
   },
   {
     "key": "name.show|Kaede_Ilaria|8cfa6821b91d#1",
@@ -2049,7 +2101,8 @@
     "key": "button|Next|b01543366ae2",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27576987>> addButton(0,\"Next\",t)"
+    "context": "<<POS:27576987>> addButton(0,\"Next\",t)",
+    "stage": 1
   },
   {
     "key": "name.show|Kaede_Ilaria|8cfa6821b91d#2",
@@ -2253,7 +2306,15 @@
     "key": "button|Next|8ee5a53856ca",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27584902>> addButton(0,\"Next\",(function(){return t(e)}))"
+    "context": "<<POS:27584902>> addButton(0,\"Next\",(function(){return t(e)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:27584960>> addButton(0,\"Next\",(function(){return o(t)}))",
+    "stage": 1
   },
   {
     "key": "output|Kaede_s_not_kidding_her_apartment_s_only_a_stone_s_throw_away_f|0cfe47e5f5e0",
@@ -2475,7 +2536,8 @@
     "key": "button|Next|9e399b4ce020",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27592252>> addButton(0,\"Next\",a)"
+    "context": "<<POS:27592252>> addButton(0,\"Next\",a)",
+    "stage": 1
   },
   {
     "key": "name.show|Kaede_Ilaria|8cfa6821b91d#3",
@@ -2691,7 +2753,8 @@
     "key": "button|Next|366a08f7da43",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27597091>> addButton(0,\"Next\",o)"
+    "context": "<<POS:27597091>> addButton(0,\"Next\",o)",
+    "stage": 1
   },
   {
     "key": "output|A_few_minutes_after_you_tap_Kaede_s_profile_and_send_a_request_t|0ae2155772fb",
@@ -3171,7 +3234,8 @@
     "key": "button|Next|572a0e143734",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27616830>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:27616830>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|When_it_s_time_to_leave_there_s_only_one_next_destination_on_yo|a7d928e7c5a8",
@@ -3315,7 +3379,8 @@
     "key": "button|Next|caa1a39cef40",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27619726>> addButton(0,\"Next\",a)"
+    "context": "<<POS:27619726>> addButton(0,\"Next\",a)",
+    "stage": 1
   },
   {
     "key": "name.show|Starchild|b06d9242234b",
@@ -3483,7 +3548,8 @@
     "key": "button|Appearance|0c37262a5de6",
     "original": "Appearance",
     "translation": "外貌",
-    "context": "<<POS:27628690>> addButton(0,\"Appearance\",(function(){clearOutput(),e(),output(\"Starchild is about 1.8 meters tall (5' 9\\\" tall on the old imperial system) and she’s currently clad inside her signature exo-suit. Giving her a humanoid shape with the usual two arms, two legs, a torso and a head, with no tails or any o..."
+    "context": "<<POS:27628690>> addButton(0,\"Appearance\",(function(){clearOutput(),e(),output(\"Starchild is about 1.8 meters tall (5' 9\\\" tall on the old imperial system) and she’s currently clad inside her signature exo-suit. Giving her a humanoid shape with the usual two arms, two legs, a torso and a head, with no tails or any o...",
+    "stage": 1
   },
   {
     "key": "button|Species|d21ee3deb870",
@@ -3591,7 +3657,8 @@
     "key": "button|Back|c89eb777b271",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:27814100>> addButton(14,\"Back\",window.selleraMenu,\"\",\"\")"
+    "context": "<<POS:27814100>> addButton(14,\"Back\",window.selleraMenu,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|i_Disavowed_i|ad17ee9456dd",
@@ -3813,7 +3880,8 @@
     "key": "button|Next|7ab27fc245eb",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27821906>> addButton(0,\"Next\",(function(){return moveToRoom(\"SINDATHU.MYRELLION.834\",!0)}))"
+    "context": "<<POS:27821906>> addButton(0,\"Next\",(function(){return moveToRoom(\"SINDATHU.MYRELLION.834\",!0)}))",
+    "stage": 1
   },
   {
     "key": "output|i_Alright_I_m_in_i_you_say_even_as_Sellera_plucks_the_po|529b1e9c14dd",
@@ -3837,7 +3905,8 @@
     "key": "button|Next|e47b252753e4",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27822582>> addButton(0,\"Next\",(function(){mainGameMenu(),moveToRoom(\"SINDATHU.MYRELLION.834\")}))"
+    "context": "<<POS:27822582>> addButton(0,\"Next\",(function(){mainGameMenu(),moveToRoom(\"SINDATHU.MYRELLION.834\")}))",
+    "stage": 1
   },
   {
     "key": "name.show|The_Pathfinders|74ab026f0ba8",
@@ -4467,7 +4536,8 @@
     "key": "button|Next|6be28277b878",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27841647>> addButton(0,\"Next\",b8,\"\",\"\")"
+    "context": "<<POS:27841647>> addButton(0,\"Next\",b8,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "name.show|Lieve_Crew|beb623c08b2a",
@@ -4491,7 +4561,8 @@
     "key": "button|Next|266e2010df40",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27842883>> addButton(0,\"Next\",w8,\"\",\"\")"
+    "context": "<<POS:27842883>> addButton(0,\"Next\",w8,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "name.show|Lieve_Crew|beb623c08b2a#1",
@@ -4635,7 +4706,8 @@
     "key": "button|Next|6de74b105866",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27848802>> addButton(0,\"Next\",k8,\"\",\"\")"
+    "context": "<<POS:27848802>> addButton(0,\"Next\",k8,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "name.show|Lieve_Crew|beb623c08b2a#2",
@@ -4700,7 +4772,7 @@
   {
     "key": "button|Fight|107b0cd7f318",
     "original": "Fight!",
-    "translation": "战斗！",
+    "translation": "",
     "context": "<<POS:27851551>> addButton(0,\"Fight!\",v8)"
   },
   {
@@ -4875,7 +4947,8 @@
     "key": "button|Next|9d0687d7b721",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27858856>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:27858856>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Lieve_Crew|beb623c08b2a#3",
@@ -5049,7 +5122,8 @@
     "key": "button|Next|9d0687d7b721#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27864160>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:27864160>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_roll_up_your_metaphorical_sleeves_and_grab_some_of_the_tools|160c863f7d57",
@@ -5061,7 +5135,8 @@
     "key": "button|Next|3e221d7a7c40",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27864515>> addButton(0,\"Next\",N8,\"\",\"\")"
+    "context": "<<POS:27864515>> addButton(0,\"Next\",N8,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|You_pull_yourself_up_out_of_the_engine_block_and_wipe_the_grease|3e73501fef54",
@@ -5073,7 +5148,8 @@
     "key": "button|Next|6dcf30f39984",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27865898>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
+    "context": "<<POS:27865898>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|After_several_minutes_of_working_it_turns_out_that_no_you_don|2661268368e9",
@@ -5085,7 +5161,8 @@
     "key": "button|Next|4cd93a4a7abc",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27866223>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
+    "context": "<<POS:27866223>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|Alright_time_to_do_this_You_rear_back_and_hurl_the_vial_into_t|5ded8b362b16",
@@ -5133,7 +5210,15 @@
     "key": "button|Next|36dfe704a4b9",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27868001>> addButton(0,\"Next\",(function(){moveToRoom(\"SINDATHU.MYRELLION_QUEST.G19\"),clearOutput(),clearMenu(),author(\"Savin\"),pc.hasCock()?z8():j8()}),\"\",\"\")"
+    "context": "<<POS:27868001>> addButton(0,\"Next\",(function(){moveToRoom(\"SINDATHU.MYRELLION_QUEST.G19\"),clearOutput(),clearMenu(),author(\"Savin\"),pc.hasCock()?z8():j8()}),\"\",\"\")",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff#1",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:27868173>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|You_take_the_tranq_dart_out_of_your_pack_and_crack_it_open_on_th|cacbbc78e231",
@@ -5145,7 +5230,8 @@
     "key": "button|Next|fe161596d4e0",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27868787>> addButton(0,\"Next\",(function(){return Y8(1)}),\"\",\"\")"
+    "context": "<<POS:27868787>> addButton(0,\"Next\",(function(){return Y8(1)}),\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|A_few_minutes_later_you_hear_a_lull_in_the_conversation_from_th|a33523200da8",
@@ -5175,7 +5261,8 @@
     "key": "button|Next|9cdce54392ea",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27870310>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
+    "context": "<<POS:27870310>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|ERROR_part_concat_e_not_found|89e82058497e",
@@ -5187,7 +5274,8 @@
     "key": "button|Next|f6bc8bb2a36d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27870412>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:27870412>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "assign|The_troops_filling_the_barracks_are_ragged_and_skinny_by_gold_st|f6224ab09a42",
@@ -5264,7 +5352,7 @@
   {
     "key": "button|Leave|6fe9136f38cd",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:27872782>> addButton(1,\"Leave\",E.V.genericVictory,\"\",\"\")"
   },
   {
@@ -5469,7 +5557,8 @@
     "key": "button|Next|6980b9fd381c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27882662>> addButton(0,\"Next\",Z8,\"\",\"\")"
+    "context": "<<POS:27882662>> addButton(0,\"Next\",Z8,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|Girl_after_girl_takes_her_time_on_your_pc_cock_bouncing_on_yo|360b49c96a36",
@@ -5487,7 +5576,8 @@
     "key": "button|Next|273cb0bcbac2",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27883965>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
+    "context": "<<POS:27883965>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output.expr|You_don_t_know_if_it_s_their_own_rampant_lusts_or_3_flags_F|1f103e9bf783",
@@ -5535,7 +5625,8 @@
     "key": "button|Next|fdaa16e722f8",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27888300>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
+    "context": "<<POS:27888300>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|The_safe_s_door_swings_open_bearing_its_contents_to_your_inquis|76ae1905d91e",
@@ -5600,7 +5691,7 @@
   {
     "key": "button|Leave|0b19bfe4a647",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:27890104>> addButton(14,\"Leave\",mainGameMenu)"
   },
   {
@@ -5858,7 +5949,7 @@
   {
     "key": "button|Leave|63798a9b6b79",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:27901178>> addButton(2,\"Leave\",$8,\"Leave\",\"You don’t have time to mess around with this haughty rebel.\")"
   },
   {
@@ -6105,7 +6196,8 @@
     "key": "button|Next|7766de5afafb",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27912962>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
+    "context": "<<POS:27912962>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|Somehow_you_figure_the_planet_would_be_better_off_without_anybo|5216eb99dab1",
@@ -6117,7 +6209,8 @@
     "key": "button|Next|ed15a79f4e56",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27913472>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
+    "context": "<<POS:27913472>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "name.show|War_Queen_Estallia|87a109b3be0b",
@@ -6135,7 +6228,8 @@
     "key": "button|Next|7ab93545def5",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27913872>> addButton(0,\"Next\",b9,\"\",\"\")"
+    "context": "<<POS:27913872>> addButton(0,\"Next\",b9,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|i_I_don_t_want_to_fight_you_i_you_tell_the_queen_putting|5b6c7d353aef",
@@ -6237,7 +6331,8 @@
     "key": "button|Next|1133682f34ac",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27915953>> addButton(0,\"Next\",b9,\"\",\"\")"
+    "context": "<<POS:27915953>> addButton(0,\"Next\",b9,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|i_Wait_please_i_you_say_i_I_didn_t_come_here_to_fight|afe462630f83",
@@ -6303,7 +6398,8 @@
     "key": "button|Next|32caeba463e2",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27918368>> addButton(0,\"Next\",b9,\"\",\"\")"
+    "context": "<<POS:27918368>> addButton(0,\"Next\",b9,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|A_moment_passes_filled_with_uncomfortable_silence_The_golden_h|922f680db885",
@@ -6435,7 +6531,8 @@
     "key": "button|Next|d751f8f4e52f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27922890>> addButton(0,\"Next\",B9,\"\",\"\")"
+    "context": "<<POS:27922890>> addButton(0,\"Next\",B9,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|i_Listen_more_Federation_troops_are_on_their_way_i_you_te|e95a0c46dc0f",
@@ -6489,7 +6586,8 @@
     "key": "button|Next|1133682f34ac#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27924497>> addButton(0,\"Next\",b9)"
+    "context": "<<POS:27924497>> addButton(0,\"Next\",b9)",
+    "stage": 1
   },
   {
     "key": "output.expr|i_var0_isBimbo_Could_I_like_ask_you_some_stuff_Be|6f5bda5634ca",
@@ -6795,7 +6893,8 @@
     "key": "button|Next|6482cb4f6d4f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27932929>> addButton(0,\"Next\",d9,\"\",\"\")"
+    "context": "<<POS:27932929>> addButton(0,\"Next\",d9,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|She_looks_back_to_her_daughters_and_finds_no_complaints_from_th|062447ee376c",
@@ -6903,7 +7002,8 @@
     "key": "button|Next|d751f8f4e52f#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27936597>> addButton(0,\"Next\",B9,\"\",\"\")"
+    "context": "<<POS:27936597>> addButton(0,\"Next\",B9,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|i_I_know_a_world_that_s_ripe_for_colonization_i_you_offer|cc933683ee7e",
@@ -7089,7 +7189,8 @@
     "key": "button|Next|a0b3237d2ada",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27941496>> addButton(0,\"Next\",f9,\"\",\"\")"
+    "context": "<<POS:27941496>> addButton(0,\"Next\",f9,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|i_I_can_take_you_i_you_offer_i_I_have_a_ship_A_b_big|7fb063c50c8f",
@@ -7131,7 +7232,8 @@
     "key": "button|Next|a9a1a7341efa",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27942553>> addButton(0,\"Next\",f9,\"\",\"\")"
+    "context": "<<POS:27942553>> addButton(0,\"Next\",f9,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output.expr|If_there_s_one_thing_a_spaceborne_play_var0_mf_boy_girl|a4f87118a1e1",
@@ -7191,7 +7293,8 @@
     "key": "button|Next|7023547c1456",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27945013>> addButton(0,\"Next\",f9,\"\",\"\")"
+    "context": "<<POS:27945013>> addButton(0,\"Next\",f9,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|Queen_Estallia_gathers_her_daughters_back_to_the_armored_truck_t|0423142aa20b",
@@ -7293,7 +7396,8 @@
     "key": "button|Next|d751f8f4e52f#2",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27948138>> addButton(0,\"Next\",B9,\"\",\"\")"
+    "context": "<<POS:27948138>> addButton(0,\"Next\",B9,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|Without_another_word_the_towering_War_Queen_lunges_forward_You|43d8b34b7b0c",
@@ -7323,7 +7427,8 @@
     "key": "button|Fight|517a62e2a56c",
     "original": "Fight!",
     "translation": "战斗！",
-    "context": "<<POS:27949749>> addButton(0,\"Fight!\",E.V.beginCombat,\"\",\"\")"
+    "context": "<<POS:27949749>> addButton(0,\"Fight!\",E.V.beginCombat,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|You_collapse_crying_out_in_pain_Your_mind_doesn_t_even_have_th|cb081604d85d",
@@ -7389,7 +7494,8 @@
     "key": "button|Fight|0fd425eb06a2",
     "original": "Fight!",
     "translation": "战斗！",
-    "context": "<<POS:27952874>> addButton(0,\"Fight!\",E.V.beginCombat,\"\",\"\")"
+    "context": "<<POS:27952874>> addButton(0,\"Fight!\",E.V.beginCombat,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "assign|You_re_fighting_the_War_Queen_and_her_daughters_a_gaggle_of_hea|f7c070b69e7c",
@@ -7443,7 +7549,8 @@
     "key": "button|Next|afca780d5632",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27956208>> addButton(0,\"Next\",T9,\"\",\"\")"
+    "context": "<<POS:27956208>> addButton(0,\"Next\",T9,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|It_s_been_months_maybe_Maybe_even_a_year_since_the_Federati|3e53fd33b264",
@@ -7539,7 +7646,8 @@
     "key": "button|Next|9023c06d6c96",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27960583>> addButton(0,\"Next\",pc.hasCock()?C9:L9)"
+    "context": "<<POS:27960583>> addButton(0,\"Next\",pc.hasCock()?C9:L9)",
+    "stage": 1
   },
   {
     "key": "output.expr|The_golden_giant_strides_towards_you_closing_the_great_distance|d90166799ef5",
@@ -7690,6 +7798,13 @@
     "original": "Fixed CumQ",
     "translation": "",
     "context": "<<POS:27970797>> createPerk(\"Fixed CumQ\",500,0,0,0)"
+  },
+  {
+    "key": "button|Next|d8e8da7beead",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:27971034>> addButton(0,\"Next\",_9,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|The_seventh_or_eighth_load_blown_inside_you_clues_you_into_your|f84e5854eba4",
@@ -7977,7 +8092,8 @@
     "key": "button|Next|79d3f786a6ca",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27983981>> addButton(0,\"Next\",N9,\"\",\"\")"
+    "context": "<<POS:27983981>> addButton(0,\"Next\",N9,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "name.show|Lieve_Sellera|a162596ba9c4",
@@ -8055,7 +8171,8 @@
     "key": "button|Next|133f5169e851",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27986689>> addButton(0,\"Next\",R9,\"\",\"\")"
+    "context": "<<POS:27986689>> addButton(0,\"Next\",R9,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|You_can_t_remember_ever_having_seen_Sellera_smile_before_but_sh|7d5262118e3d",
@@ -8139,6 +8256,7 @@
     "key": "button|Next|162fd4c91b62",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27989168>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
+    "context": "<<POS:27989168>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")",
+    "stage": 1
   }
 ]

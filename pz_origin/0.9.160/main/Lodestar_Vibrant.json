@@ -1,21 +1,9 @@
 [
   {
-    "key": "output.expr|var1_toDisplayCase_var0|6b56906039bd#1",
-    "original": " \"+{var1}.toDisplayCase({var0})+\",",
+    "key": "assign|P_Pal|33c7235361ab",
+    "original": "P. Pal",
     "translation": "",
-    "context": "<<POS:07915698>> <<VARS:var0=e.cocks[0].cockColor,var1=l.m>> output(\" \"+l.m.toDisplayCase(e.cocks[0].cockColor)+\",\")"
-  },
-  {
-    "key": "output.expr|var0|fa00ce88ea05#1",
-    "original": " \"+{var0}",
-    "translation": "",
-    "context": "<<POS:07915754>> <<VARS:var0=GLOBAL.TYPE_NAMES[e.cocks[0].cType]>> output(\" \"+GLOBAL.TYPE_NAMES[e.cocks[0].cType])"
-  },
-  {
-    "key": "button|Cock|16cbe277c8a0",
-    "original": "Cock ",
-    "translation": "",
-    "context": "<<POS:07916277>> addButton(o,\"Cock \"+(a[n]+1),(function(){return t.cockTF(e,a[n])}),l.m.capitalize(l.m.numToOrdinal(a[n]+1))+\" Cock\",\"Use this on your [pc.cock \"+a[n]+\"].\")"
+    "context": "<<POS:09267011>>"
   },
   {
     "key": "assign|Pleasure_Palette_Permapaint|0ed2ebcfc0a5",
@@ -60,6 +48,12 @@
     "context": "<<POS:09268377>>"
   },
   {
+    "key": "button|Terran|fde8d2418012",
+    "original": "“Terran”",
+    "translation": "",
+    "context": "<<POS:09268621>> addButton(0,\"“Terran”\",(function(){return window.rbgSelColor(e,\"terran\",void 0,t.partMenu,t.backMenu,null,\"\",t)}))"
+  },
+  {
     "key": "button|Vibrant|24acd9ab72ee",
     "original": "Vibrant",
     "translation": "",
@@ -87,7 +81,8 @@
     "key": "button|Back|19adb4e0953c",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:09269196>> addButton(14,\"Back\",(function(){return t.rbgCancel(t)}))"
+    "context": "<<POS:09269196>> addButton(14,\"Back\",(function(){return t.rbgCancel(t)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Pleasure_Palette|22a688393c08",
@@ -105,7 +100,8 @@
     "key": "button|Next|739a0dafcb4d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09269456>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+    "context": "<<POS:09269456>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   },
   {
     "key": "header|Select_Part|fefa1beb039e",
@@ -218,7 +214,7 @@
   {
     "key": "button.hover|You_need_a_penis_for_this|12f1b277012e",
     "original": "You need a penis for this.",
-    "translation": "你需要有阴茎。",
+    "translation": "",
     "context": "<<POS:09270558>> addDisabledButton(1,\"Penis\",\"Penis\",\"You need a penis for this.\")"
   },
   {
@@ -327,7 +323,8 @@
     "key": "button|Back|5f4366b85c87",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:09271574>> addButton(14,\"Back\",(function(){return window.rbgSelColor(e,t,void 0,n.partMenu,n.backMenu,null,\"\",n)}))"
+    "context": "<<POS:09271574>> addButton(14,\"Back\",(function(){return window.rbgSelColor(e,t,void 0,n.partMenu,n.backMenu,null,\"\",n)}))",
+    "stage": 1
   },
   {
     "key": "header|Select_Penis|a1766f668c9e",
@@ -345,13 +342,38 @@
     "key": "button|Back|c68f28165efd",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:09271897>> addButton(n,\"Back\",(function(){return a.partMenu(e,t,o,-1,a)}))"
+    "context": "<<POS:09271897>> addButton(n,\"Back\",(function(){return a.partMenu(e,t,o,-1,a)}))",
+    "stage": 1
   },
   {
     "key": "output.expr|b_var2_capitalize_var1_numToOrdinal_var0_1_Cock_b|9bf48db95132",
     "original": "<b>\"+{var2}.capitalize({var1}.numToOrdinal({var0}+1))+\" Cock:</b>",
     "translation": "",
     "context": "<<POS:09271963>> <<VARS:var0=i,var1=h.m,var2=h.m>> output(\"\\n<b>\"+h.m.capitalize(h.m.numToOrdinal(i+1))+\" Cock:</b>\")"
+  },
+  {
+    "key": "output.expr|var0|922b0de05a5e",
+    "original": " \"+{var0}+\",",
+    "translation": "",
+    "context": "<<POS:09272096>> <<VARS:var0=GLOBAL.FLAG_NAMES[e.cocks[i].flags[s]]>> output(\" \"+GLOBAL.FLAG_NAMES[e.cocks[i].flags[s]]+\",\")"
+  },
+  {
+    "key": "output.expr|var1_toDisplayCase_var0|6b56906039bd",
+    "original": " \"+{var1}.toDisplayCase({var0})+\",",
+    "translation": "",
+    "context": "<<POS:09272181>> <<VARS:var0=e.cocks[i].cockColor,var1=h.m>> output(\" \"+h.m.toDisplayCase(e.cocks[i].cockColor)+\",\")"
+  },
+  {
+    "key": "output.expr|var0|fa00ce88ea05",
+    "original": " \"+{var0}",
+    "translation": "",
+    "context": "<<POS:09272237>> <<VARS:var0=GLOBAL.TYPE_NAMES[e.cocks[i].cType]>> output(\" \"+GLOBAL.TYPE_NAMES[e.cocks[i].cType])"
+  },
+  {
+    "key": "button|Cock|16cbe277c8a0",
+    "original": "Cock ",
+    "translation": "",
+    "context": "<<POS:09272323>> addDisabledButton(n,\"Cock \"+(i+1),h.m.capitalize(h.m.numToOrdinal(i+1))+\" Cock\",\"Your [pc.cockNoun \"+i+\"] is already \"+o+\"!\")"
   },
   {
     "key": "button.hover|Your_pc_cockNoun|ee5b56d5f793",
@@ -381,7 +403,15 @@
     "key": "button|Back|e8250e32a7ac",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:09272688>> addButton(n,\"Back\",(function(){return a.partMenu(e,t,o,-1,a)}))"
+    "context": "<<POS:09272688>> addButton(n,\"Back\",(function(){return a.partMenu(e,t,o,-1,a)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Back|8377b4609270",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:09272785>> addButton(14,\"Back\",(function(){return a.partMenu(e,t,o,-1,a)}))",
+    "stage": 1
   },
   {
     "key": "header|Select_Vagina|a7f56846e743",
@@ -399,13 +429,38 @@
     "key": "button|Back|58aff7c7ecc1",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:09273071>> addButton(n,\"Back\",(function(){return a.partMenu(e,t,o,-1,a)}))"
+    "context": "<<POS:09273071>> addButton(n,\"Back\",(function(){return a.partMenu(e,t,o,-1,a)}))",
+    "stage": 1
   },
   {
     "key": "output.expr|b_var2_capitalize_var1_numToOrdinal_var0_1_Vagina|bb6ad770ac90",
     "original": "<b>\"+{var2}.capitalize({var1}.numToOrdinal({var0}+1))+\" Vagina:</b>",
     "translation": "",
     "context": "<<POS:09273137>> <<VARS:var0=i,var1=h.m,var2=h.m>> output(\"\\n<b>\"+h.m.capitalize(h.m.numToOrdinal(i+1))+\" Vagina:</b>\")"
+  },
+  {
+    "key": "output.expr|var0|7e9bd5935c12",
+    "original": " \"+{var0}+\",",
+    "translation": "",
+    "context": "<<POS:09273276>> <<VARS:var0=GLOBAL.FLAG_NAMES[e.vaginas[i].flags[s]]>> output(\" \"+GLOBAL.FLAG_NAMES[e.vaginas[i].flags[s]]+\",\")"
+  },
+  {
+    "key": "output.expr|var1_toDisplayCase_var0|6b56906039bd#1",
+    "original": " \"+{var1}.toDisplayCase({var0})+\",",
+    "translation": "",
+    "context": "<<POS:09273367>> <<VARS:var0=e.vaginas[i].vaginaColor,var1=h.m>> output(\" \"+h.m.toDisplayCase(e.vaginas[i].vaginaColor)+\",\")"
+  },
+  {
+    "key": "output.expr|var0|fa00ce88ea05#1",
+    "original": " \"+{var0}",
+    "translation": "",
+    "context": "<<POS:09273427>> <<VARS:var0=GLOBAL.TYPE_NAMES[e.vaginas[i].type]>> output(\" \"+GLOBAL.TYPE_NAMES[e.vaginas[i].type])"
+  },
+  {
+    "key": "button|Vagina|7f092ebd5c70",
+    "original": "Vagina ",
+    "translation": "",
+    "context": "<<POS:09273518>> addDisabledButton(n,\"Vagina \"+(i+1),h.m.capitalize(h.m.numToOrdinal(i+1))+\" Vagina\",\"Your [pc.vaginaNoun \"+i+\"] is already \"+o+\"!\")"
   },
   {
     "key": "button.hover|Your_pc_vaginaNoun|6aea0cda95ec",
@@ -435,7 +490,22 @@
     "key": "button|Back|8a55f3a6a540",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:09273900>> addButton(n,\"Back\",(function(){return a.partMenu(e,t,o,-1,a)}))"
+    "context": "<<POS:09273900>> addButton(n,\"Back\",(function(){return a.partMenu(e,t,o,-1,a)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Back|8377b4609270#1",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:09273999>> addButton(14,\"Back\",(function(){return a.partMenu(e,t,o,-1,a)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|6d18801ef4fb",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:09274109>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   },
   {
     "key": "header|Permapaint_Nipples|f9c4c0255b30",
@@ -564,6 +634,12 @@
     "context": "<<POS:09276906>>"
   },
   {
+    "key": "output|pc_cocks|c5ecb6c4adc5",
+    "original": " [pc.cocks]",
+    "translation": "",
+    "context": "<<POS:09276924>>"
+  },
+  {
     "key": "output.expr|reach_1_l_es_its_their_own_peak_Driven_to_sympathe|a265ea343a38",
     "original": " reach\"+(1===l?\"es its\":\" their\")+\" own peak. Driven to sympathetic orgasm,",
     "translation": "",
@@ -598,6 +674,18 @@
     "original": " [pc.cum]",
     "translation": "",
     "context": "<<POS:09277158>>"
+  },
+  {
+    "key": "output|and|56d1382667d1",
+    "original": " and",
+    "translation": "",
+    "context": "<<POS:09277184>>"
+  },
+  {
+    "key": "output|pc_girlCum|2931bb54696b",
+    "original": " [pc.girlCum]",
+    "translation": "",
+    "context": "<<POS:09277202>>"
   },
   {
     "key": "output|adding_to_the_mess_you_ve_already_managed_to_make_with_your_p|7b8d3913f652",
@@ -867,7 +955,8 @@
     "key": "output|s|192159641ba5",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:09284785>>"
+    "context": "<<POS:09284785>>",
+    "stage": 1
   },
   {
     "key": "output|greeted_by_the_same_tingling_warmth_at_the_small_of_your_back|b81460306bf1",

@@ -1,27 +1,9 @@
 [
   {
-    "key": "assign|She_easily_avoids_your_attack|68f7a55965c6",
-    "original": "She easily avoids your attack.",
+    "key": "assign|Here_the_finest_goods_I_can_spare_without_risking_our_hides|c43e6c642d6a",
+    "original": "Here: the finest goods I can spare without risking our hides.",
     "translation": "",
-    "context": "<<POS:00075401>>"
-  },
-  {
-    "key": "assign|dull_pink|9d9aff12b183",
-    "original": "dull pink",
-    "translation": "",
-    "context": "<<POS:00077243>>"
-  },
-  {
-    "key": "perk|Fixed_CumQ|2304020cafe0",
-    "original": "Fixed CumQ",
-    "translation": "",
-    "context": "<<POS:00595420>> createPerk(\"Fixed CumQ\",500)"
-  },
-  {
-    "key": "combat.expr|b_var1_capitalize_var0_var2_are_is_stunned|14367098f182",
-    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+({var2}?\"are\":\"is\")+\" stunned!</b>",
-    "translation": "",
-    "context": "<<POS:01752071>> <<VARS:var0=e.getCombatName(),!1,var1=b.m,var2=e.isPlural>> combatAppend(\"<b>\"+b.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural?\"are\":\"is\")+\" stunned!</b>\")"
+    "context": "<<POS:12077413>>"
   },
   {
     "key": "assign|Here_the_finest_goods_I_can_spare_without_risking_our_hides|edf241e1f842",
@@ -118,6 +100,24 @@
     "original": "She easily avoids your attack.",
     "translation": "",
     "context": "<<POS:12102578>>"
+  },
+  {
+    "key": "assign|She_easily_avoids_your_attack|68f7a55965c6",
+    "original": "She easily avoids your attack.",
+    "translation": "",
+    "context": "<<POS:12102625>>"
+  },
+  {
+    "key": "assign|dull_pink|9d9aff12b183",
+    "original": "dull pink",
+    "translation": "",
+    "context": "<<POS:12104440>>"
+  },
+  {
+    "key": "perk|Fixed_CumQ|2304020cafe0",
+    "original": "Fixed CumQ",
+    "translation": "",
+    "context": "<<POS:12104643>> createPerk(\"Fixed CumQ\",5e3)"
   },
   {
     "key": "assign|Dressed_in_a_Steele_Tech_branded_apron_Dizzy_is_bustling_away_i|5906c21b9e1d",
@@ -225,13 +225,21 @@
     "key": "button|Next|32c1255ba03b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:12114020>> addButton(0,\"Next\",window.omniSuitRepeatFinisher)"
+    "context": "<<POS:12114020>> addButton(0,\"Next\",window.omniSuitRepeatFinisher)",
+    "stage": 1
   },
   {
     "key": "assign|the|ad1f6bc05ca9",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:12114911>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "context": "<<POS:12114929>>",
+    "stage": 1
   },
   {
     "key": "assign|The_terran_woman_has_pale_skin_with_light_brown_hair_pulled_back|19f6690209e0",
@@ -249,7 +257,8 @@
     "key": "perk|Appearance_Enabled|ac84eaa5d624",
     "original": "Appearance Enabled",
     "translation": "启用外观",
-    "context": "<<POS:12116662>> createPerk(\"Appearance Enabled\")"
+    "context": "<<POS:12116662>> createPerk(\"Appearance Enabled\")",
+    "stage": 1
   },
   {
     "key": "name.short|Sex_Crazed_Rusher|fadea4a6d6b6",
@@ -357,7 +366,8 @@
     "key": "perk|Musky_Pheromones|9fb8a99722a5",
     "original": "Musky Pheromones",
     "translation": "麝香信息素",
-    "context": "<<POS:12130140>> createPerk(\"Musky Pheromones\",0,0,0,0,\"Grants a +5 musk bonus to tease attacks.\")"
+    "context": "<<POS:12130140>> createPerk(\"Musky Pheromones\",0,0,0,0,\"Grants a +5 musk bonus to tease attacks.\")",
+    "stage": 1
   },
   {
     "key": "textify|var2_n_t_t_t_Taking_a_wide_stance_the_rusher_s_rifle_begins_to|d9b9cdfc6ed3",
@@ -406,6 +416,12 @@
     "original": "<b>You are stunned!</b>",
     "translation": "",
     "context": "<<POS:12134152>>"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_var2_are_is_stunned|14367098f182",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+({var2}?\"are\":\"is\")+\" stunned!</b>",
+    "translation": "",
+    "context": "<<POS:12134192>> <<VARS:var0=e.getCombatName(),!1,var1=Ot.m,var2=e.isPlural>> combatAppend(\"<b>\"+Ot.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural?\"are\":\"is\")+\" stunned!</b>\")"
   },
   {
     "key": "textify|Smiling_the_rusher_swings_her_hips_around_sending_her_cord_lik|23abc87d6c2f",

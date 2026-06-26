@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|Cyberpunk_K7|65c0f417c28c",
+    "original": "Cyberpunk K7",
+    "translation": "",
+    "context": "<<POS:24534365>>"
+  },
+  {
     "key": "assign|Clydesdale_K7|afa17478ab34",
     "original": "Clydesdale K7",
     "translation": "",
@@ -26,8 +32,28 @@
   {
     "key": "assign|the|c6961d34f1ab",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:24534729>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "context": "<<POS:24534747>>",
+    "stage": 1
+  },
+  {
+    "key": "assign|b_The_attack_was_blocked_b|d64eb436591b",
+    "original": "<b>The attack was blocked.</b>",
+    "translation": "<b>攻击被阻挡了。</b>",
+    "context": "<<POS:24534778>>",
+    "stage": 1
+  },
+  {
+    "key": "assign|It_rolls_aside|6aa211910773",
+    "original": "It rolls aside!",
+    "translation": "",
+    "context": "<<POS:24534825>>"
   },
   {
     "key": "perk|DEFENSIVE_AI|bb72d64e00be",
@@ -75,7 +101,8 @@
     "key": "button|Next|2f49ac87486f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24538234>> addButton(0,\"Next\",(function(){clearOutput(),JV(!1)}))"
+    "context": "<<POS:24538234>> addButton(0,\"Next\",(function(){clearOutput(),JV(!1)}))",
+    "stage": 1
   },
   {
     "key": "header|Defeat|9ebfc95ede20",
@@ -147,7 +174,8 @@
     "key": "button|Credits|4009b18a1785",
     "original": "Credits",
     "translation": "鸣谢",
-    "context": "<<POS:24542426>> addButton(0,\"Credits\",eK,\"Credits\",\"She wanted your credits, but the tables have turned. Collect a payment for your trouble.\")"
+    "context": "<<POS:24542426>> addButton(0,\"Credits\",eK,\"Credits\",\"She wanted your credits, but the tables have turned. Collect a payment for your trouble.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Credits|4009b18a1785",
@@ -218,7 +246,7 @@
   {
     "key": "button|Leave|9d00df34404d",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:24543358>> addButton(14,\"Leave\",aK)"
   },
   {
@@ -248,7 +276,7 @@
   {
     "key": "output|i|d926620c2cf7",
     "original": "”</i>",
-    "translation": "”</i>",
+    "translation": "",
     "context": "<<POS:24543743>>"
   },
   {
@@ -428,7 +456,7 @@
   {
     "key": "button.hover|You_need_a_penis_for_this|c8bea526ee71",
     "original": "You need a penis for this.",
-    "translation": "你需要有阴茎。",
+    "translation": "",
     "context": "<<POS:24549209>> addDisabledButton(0,\"Get BJ\",\"Get BJ\",\"You need a penis for this.\")"
   },
   {
@@ -482,7 +510,7 @@
   {
     "key": "button|Locked|e60dd6a3b257",
     "original": "Locked",
-    "translation": "已锁定",
+    "translation": "",
     "context": "<<POS:24549784>> addDisabledButton(2,\"Locked\",\"Locked\",penny.isCrew()?\"Your vulpine companion needs to be a bimbo or cumslut to do this.\":\"You need a certain vulpine companion for this - and for her to be a bimbo or cumslut.\")"
   },
   {
@@ -590,7 +618,7 @@
   {
     "key": "button|Leave|4e1fcf2ec597",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:24550800>> addButton(14,\"Leave\",aK)"
   },
   {
@@ -1347,7 +1375,8 @@
     "key": "button|Next|aa3b0d1e2e4b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24595697>> addButton(0,\"Next\",kK)"
+    "context": "<<POS:24595697>> addButton(0,\"Next\",kK)",
+    "stage": 1
   },
   {
     "key": "textify|If_you_take_another_hit_like_that_your_drive_s_going_to_go_crit|3d55643be30e",
@@ -1359,7 +1388,8 @@
     "key": "button|Next|b6ede1693b28",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24597981>> addButton(0,\"Next\",hK)"
+    "context": "<<POS:24597981>> addButton(0,\"Next\",hK)",
+    "stage": 1
   },
   {
     "key": "textify|The_hand_teasing_your_chest_suddenly_grips_your_shoulder_hard_a|11fea9d79963",
@@ -1569,7 +1599,8 @@
     "key": "button|Next|3e62147bd74b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24616230>> addButton(0,\"Next\",dK)"
+    "context": "<<POS:24616230>> addButton(0,\"Next\",dK)",
+    "stage": 1
   },
   {
     "key": "output|You_don_t_take_any_chances_with_the_feline_scallywag_punching_i|affeff9789e8",
@@ -1593,7 +1624,8 @@
     "key": "button|Next|e8d45fc260b3",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24618760>> addButton(0,\"Next\",gK)"
+    "context": "<<POS:24618760>> addButton(0,\"Next\",gK)",
+    "stage": 1
   },
   {
     "key": "output|At_your_cue_the_feline_freebooter_crosses_the_distance_to_Penny|2ba5612f097b",
@@ -1641,7 +1673,8 @@
     "key": "button|Next|a3013635ae11",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24622663>> addButton(0,\"Next\",pK)"
+    "context": "<<POS:24622663>> addButton(0,\"Next\",pK)",
+    "stage": 1
   },
   {
     "key": "output|i_I_love_i_Penny_moans_i_I_love_this_caawwwwwk_i|5dcff5a03663",
@@ -1743,7 +1776,8 @@
     "key": "button|Next|030ff7ac8372",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24625602>> addButton(0,\"Next\",yK)"
+    "context": "<<POS:24625602>> addButton(0,\"Next\",yK)",
+    "stage": 1
   },
   {
     "key": "output|Once_Penny_s_hips_stop_quaking_and_her_climax_finally_settles_in|536193ccac0e",
@@ -1809,7 +1843,8 @@
     "key": "button|Next|b3d87c6740aa",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24632064>> addButton(0,\"Next\",fK)"
+    "context": "<<POS:24632064>> addButton(0,\"Next\",fK)",
+    "stage": 1
   },
   {
     "key": "textify|i_WHAT_THE_FUCK_i_the_pirate_yowls_again_tumbling_onto_h|90357e9c68f3",
@@ -2019,7 +2054,8 @@
     "key": "button|Next|cc5fa3ae3fdc",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24650878>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),KV(!0),author(\"William\");var t=pc.ass.wetness();e>=0&&(t=pc.vaginas[e].wetness());output(\"The cheetah pirate’s eyes gleam with a predatory hunger as she circles you. Then, she shoves into you, sheds her coverings\"+(pc.isCrotchExposed()?..."
+    "context": "<<POS:24650878>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),KV(!0),author(\"William\");var t=pc.ass.wetness();e>=0&&(t=pc.vaginas[e].wetness());output(\"The cheetah pirate’s eyes gleam with a predatory hunger as she circles you. Then, she shoves into you, sheds her coverings\"+(pc.isCrotchExposed()?...",
+    "stage": 1
   },
   {
     "key": "output|True_to_her_promise_the_cheetah_pirate_carried_on_until_you_did|69da05fbf646",
@@ -2043,6 +2079,7 @@
     "key": "button|Next|b6c7255dce82",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24663628>> addButton(0,\"Next\",E.V.beginCombat)"
+    "context": "<<POS:24663628>> addButton(0,\"Next\",E.V.beginCombat)",
+    "stage": 1
   }
 ]

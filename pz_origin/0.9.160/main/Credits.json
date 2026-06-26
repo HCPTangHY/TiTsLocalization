@@ -1,5 +1,17 @@
 [
   {
+    "key": "output.expr|var0|6d5c8cf79027",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:12656591>> <<VARS:var0=this.item.longName>> ParseText(this.item.longName)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:12656714>> <<VARS:var0=this.item.tooltip>> ParseText(this.item.tooltip)"
+  },
+  {
     "key": "assign|You_cannot|7f154980d480",
     "original": "You cannot",
     "translation": "",
@@ -52,6 +64,12 @@
     "original": "{var0}",
     "translation": "",
     "context": "<<POS:12682155>> <<VARS:var0=e.longName>> ParseText(e.longName)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:12682242>> <<VARS:var0=e.tooltip>> ParseText(e.tooltip)"
   },
   {
     "key": "output.expr|var0_var1|3c15a3940f39",
@@ -108,6 +126,24 @@
     "context": "<<POS:12700352>>"
   },
   {
+    "key": "assign|square|9c671827242c",
+    "original": " square",
+    "translation": "",
+    "context": "<<POS:12700369>>"
+  },
+  {
+    "key": "assign|tall|550c1cea8c04",
+    "original": " tall",
+    "translation": "",
+    "context": "<<POS:12700390>>"
+  },
+  {
+    "key": "assign|pixelated|6e8957600068",
+    "original": " pixelated",
+    "translation": "",
+    "context": "<<POS:12700447>>"
+  },
+  {
     "key": "output.expr|var0_itemCollectedText|ded858055609",
     "original": "{var0}.itemCollectedText()",
     "translation": "",
@@ -117,7 +153,28 @@
     "key": "button|Next|0b5a2aa20551",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:12714296>> addButton(0,\"Next\",(function(){window.showInventory({force:!0})}))"
+    "context": "<<POS:12714296>> addButton(0,\"Next\",(function(){window.showInventory({force:!0})}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:12715500>> addButton(0,\"Next\",(function(){window.showInventory({force:!0})}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff#1",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:12716669>> addButton(0,\"Next\",(function(){e&&e.quantity<=0&&(t.selectedItem=null,t.autoSortItems()),window.showInventory({force:!0})}))",
+    "stage": 1
+  },
+  {
+    "key": "button.expr|var0|725f50c68bae",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:12717440>> <<VARS:var0=o.buttonText>> addButton(c++,o.buttonText,(function(){window.target=o,t.useItem(e,!1)}),Ot.m.toDisplayCase(\"target \".concat(\"PlayerCharacter\"===o.getClassName()?\"yourself\":o.getCombatName())),\"Use \".concat(e.description,\" on \").concat(\"PlayerCharacter\"===o.getClassName()?\"yourself\":o.nameDisplay(),\".\"))"
   },
   {
     "key": "button.hover.expr|var0_toDisplayCase_target_concat_PlayerCharacter_o_getC|326099e4956f",
@@ -135,7 +192,8 @@
     "key": "button|Back|36725f5360e0",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:12717792>> addButton(14,\"Back\",(function(){window.target=null,window.popUIState()}))"
+    "context": "<<POS:12717792>> addButton(14,\"Back\",(function(){window.target=null,window.popUIState()}))",
+    "stage": 1
   },
   {
     "key": "assign|span_class_bad|e66e275b8e4f",

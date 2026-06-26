@@ -12,7 +12,19 @@
     "context": "<<POS:00217879>>"
   },
   {
-    "key": "string.array|asText_asBinary_asNodeBuffer_asUint8Array_asArrayBuffe|fb63aa65b762",
+    "key": "menu.button.expr|var0|487e8c60dfb6",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00224340>> <<VARS:var0=this.crc32>> i(this.compressedSize,this.uncompressedSize,this.crc32,t,e.readData(this.compressedSize))"
+  },
+  {
+    "key": "menu.tooltip.expr|var0|487e8c60dfb6",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00224351>> <<VARS:var0=t>> i(this.compressedSize,this.uncompressedSize,this.crc32,t,e.readData(this.compressedSize))"
+  },
+  {
+    "key": "string.array|asText_asBinary_asNodeBuffer_asUint8Array_asArrayBuffe|140021f2a26e",
     "original": "[\"asText\",\"asBinary\",\"asNodeBuffer\",\"asUint8Array\",\"asArrayBuffer\"]",
     "translation": "",
     "context": "<<POS:00228533>>"
@@ -96,7 +108,43 @@
     "context": "<<POS:00261444>>"
   },
   {
-    "key": "assign|header_crc_mismatch|3970d6dc9847",
+    "key": "menu.button.expr|var0|2d874ac67b7e",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00262417>> <<VARS:var0=C>> i(n.check,h,C,g)"
+  },
+  {
+    "key": "menu.tooltip.expr|var0|2d874ac67b7e",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00262419>> <<VARS:var0=g>> i(n.check,h,C,g)"
+  },
+  {
+    "key": "menu.button.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00262655>> <<VARS:var0=C>> i(n.check,h,C,g)"
+  },
+  {
+    "key": "menu.tooltip.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00262657>> <<VARS:var0=g>> i(n.check,h,C,g)"
+  },
+  {
+    "key": "menu.button.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00262907>> <<VARS:var0=C>> i(n.check,h,C,g)"
+  },
+  {
+    "key": "menu.tooltip.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00262909>> <<VARS:var0=g>> i(n.check,h,C,g)"
+  },
+  {
+    "key": "assign|header_crc_mismatch|76e693e20d2f",
     "original": "header crc mismatch",
     "translation": "",
     "context": "<<POS:00263082>>"
@@ -180,7 +228,19 @@
     "context": "<<POS:00267497>>"
   },
   {
-    "key": "assign|incorrect_data_check|0171d8163756",
+    "key": "menu.button.expr|var0|055b5ad08d55",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00267947>> <<VARS:var0=S>> i(n.check,p,S,m-S)"
+  },
+  {
+    "key": "menu.tooltip.expr|var0|055b5ad08d55",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00267949>> <<VARS:var0=m-S>> i(n.check,p,S,m-S)"
+  },
+  {
+    "key": "assign|incorrect_data_check|cde5229fbc7b",
     "original": "incorrect data check",
     "translation": "",
     "context": "<<POS:00268013>>"
@@ -192,7 +252,19 @@
     "context": "<<POS:00268182>>"
   },
   {
-    "key": "assign|pako_inflate_from_Nodeca_project|bb388a523f8c",
+    "key": "menu.button.expr|var0|de9f94b10167",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00268621>> <<VARS:var0=S>> i(n.check,p,S,e.next_out-S)"
+  },
+  {
+    "key": "menu.tooltip.expr|var0|de9f94b10167",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00268623>> <<VARS:var0=e.next_out-S>> i(n.check,p,S,e.next_out-S)"
+  },
+  {
+    "key": "assign|pako_inflate_from_Nodeca_project|aef595808951",
     "original": "pako inflate (from Nodeca project)",
     "translation": "",
     "context": "<<POS:00269220>>"

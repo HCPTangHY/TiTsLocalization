@@ -1,6 +1,78 @@
 [
   {
-    "key": "name.show|Captain_Neykkar|78311b00d4d7",
+    "key": "header|It_Begins|a9860cef7cba",
+    "original": "It Begins...",
+    "translation": "",
+    "context": "<<POS:29155193>>"
+  },
+  {
+    "key": "output|b_A_week_passes_b|a1f3011b89f9",
+    "original": "<b>A week passes...</b>",
+    "translation": "",
+    "context": "<<POS:29155217>>"
+  },
+  {
+    "key": "output|The_i_Kashima_i_shudders_violently_as_a_boarding_tether_bolts|f351d8cae7ad",
+    "original": "The <i>Kashima</i> shudders violently as a boarding tether bolts on. The sleek, curving hull of the Confederate cruiser slowly glides past the derelict’s starboard windows, showing in big, blocky white letters a Terran identification number. Above them, the words <i>Odyssey</i>.",
+    "translation": "",
+    "context": "<<POS:29155313>>"
+  },
+  {
+    "key": "output|The_airlock_buzzes_as_a_plasma_torch_burns_through_it_slowly_sl|6a249896d5b9",
+    "original": "The airlock buzzes as a plasma torch burns through it, slowly slicing it open. It takes just a minute before the steel lock falls away with a thunderous <i>thunk</i>, echoing throughout the halls. The moment it does, five pair of heavy boots stomp across the steel deck into the ship. Flashlights penetrate the darkness that’s overcome the corridors, scanning the empty walkways and busted panels on the bulkheads. Dead wires hang heavily from above, dripping with old, rancid white and pink cream. The smell is overwhelming, repulsive, making the five invaders curl their noses even through their suits.",
+    "translation": "",
+    "context": "<<POS:29155607>>"
+  },
+  {
+    "key": "output|i_What_the_hell_happened_here_i_one_of_them_a_burly_kui_t|db5c7dd06b79",
+    "original": "<i>“What the hell happened here?”</i> one of them, a burly kui-tan, grunts. He raises his plasma rifle, scanning the corridor through the holographic sights. <i>“This ship’s a wreck.”</i>",
+    "translation": "",
+    "context": "<<POS:29156226>>"
+  },
+  {
+    "key": "output|Another_a_cat_like_kaithrit_woman_pulls_a_handheld_computer_fr|899219bbf403",
+    "original": "Another, a cat-like kaithrit woman, pulls a handheld computer from her belt and holds it up. <i>“No idea. Plenty of lifesigns, though. Enough for both crews.”</i>",
+    "translation": "",
+    "context": "<<POS:29156428>>"
+  },
+  {
+    "key": "output|The_first_man_scoffs_i_Alive_Strange_with_the_ship_in_this|e0eeb5ed1dc9",
+    "original": "The first man scoffs. <i>“Alive? Strange, with the ship in this state. We-”</i>",
+    "translation": "",
+    "context": "<<POS:29156605>>"
+  },
+  {
+    "key": "output|i_Lieutenant_Something_s_coming_i_the_kaithrit_barks_eye|b880a4a1827b",
+    "original": "<i>“Lieutenant! Something’s coming!”</i> the kaithrit barks, eyes fixed to her screen. <i>“Those lifesigns are-”</i>",
+    "translation": "",
+    "context": "<<POS:29156699>>"
+  },
+  {
+    "key": "output|Something_screams_a_horrible_piercing_shriek_that_echoes_throu|9d4485b049bd",
+    "original": "Something screams, a horrible, piercing shriek that echoes through the corridors. A moment later, it’s answered by another... and another. A cacophony of screeching voices that meld together, deafening the marines. One of them stumbles back, yells something in panic as the first of the crew come into view.",
+    "translation": "",
+    "context": "<<POS:29156830>>"
+  },
+  {
+    "key": "output|There_s_nothing_human_about_them_Nothing_humanoid_Just_writhin|8163a0be0514",
+    "original": "There’s nothing human about them. Nothing humanoid. Just writhing masses of squirming red tentacles, lunging down the corridors like jets of liquid. They engulf the marines before they can key their comms; before they can scream. A moment later, and they spill through the airlock, through the boarding tube before anyone aboard realizes what’s wrong.",
+    "translation": "",
+    "context": "<<POS:29157152>>"
+  },
+  {
+    "key": "output|Somewhere_among_the_flood_of_creatures_that_boards_the_i_Odysse|856eb295f72f",
+    "original": "Somewhere among the flood of creatures that boards the <i>Odyssey</i> is flesh that once was [pc.name] Steele. Flesh, and some small, vestigial remnant of the mind that once sought to rescue the <i>Kashima</i>’s crew. Now you are, though in a form you hadn’t quite expected...",
+    "translation": "",
+    "context": "<<POS:29157518>>"
+  },
+  {
+    "key": "output|Now_though_you_ll_be_bringing_them_to_the_rest_of_the_galaxy|ce51de975682",
+    "original": "Now, though, you’ll be bringing them to the rest of the galaxy.",
+    "translation": "",
+    "context": "<<POS:29157809>>"
+  },
+  {
+    "key": "name.show|Captain_Neykkar|b51f9123742f",
     "original": "Captain & Neykkar",
     "translation": "",
     "context": "<<POS:29157983>> showName(\"Captain & Neykkar\")"
@@ -165,7 +237,14 @@
     "key": "button|Next|ab9f866e38b5",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29162874>> addButton(0,\"Next\",Rre)"
+    "context": "<<POS:29162874>> addButton(0,\"Next\",Rre)",
+    "stage": 1
+  },
+  {
+    "key": "name.show|Captain_Neykkar|78311b00d4d7",
+    "original": "Captain & Neykkar",
+    "translation": "",
+    "context": "<<POS:29162969>> showName(\"Captain & Neykkar\")"
   },
   {
     "key": "output|And_just_as_you_do_you_feel_something_wet_and_slimy_wrap_around|d4db7976a6ee",
@@ -416,7 +495,7 @@
   {
     "key": "button|Leave|cd92111fc054",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:29170721>> addButton(14,\"Leave\",zre,\"Leave\",\"What’s next, doc?\")"
   },
   {
@@ -573,7 +652,8 @@
     "key": "button|Next|661a8fd38d78",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29176012>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29176012>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_can_only_imagine_how_dangerous_this_maneuver_is_but_you_ll|2cf4d8867c02",
@@ -951,7 +1031,8 @@
     "key": "button|Next|3b0b79a37d9d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29188888>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29188888>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|i_No_i_you_say_as_firmly_as_you_can_i_Can_t_risk_it|0f82b051bb54",
@@ -1071,7 +1152,8 @@
     "key": "output|s|fe5b7476d405",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:29192567>>"
+    "context": "<<POS:29192567>>",
+    "stage": 1
   },
   {
     "key": "output|pc_legOrLegs|d17579eb4693",
@@ -1137,7 +1219,8 @@
     "key": "button|Next|6a6d8b02a05b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29195555>> addButton(0,\"Next\",$re)"
+    "context": "<<POS:29195555>> addButton(0,\"Next\",$re)",
+    "stage": 1
   },
   {
     "key": "output.expr|Your_heart_flutters_at_the_mere_suggestion_of_mounting_this_insa|edeacf910075",
@@ -1233,7 +1316,8 @@
     "key": "output|s|b1c743634093",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:29197896>>"
+    "context": "<<POS:29197896>>",
+    "stage": 1
   },
   {
     "key": "output|uselessly_fitfully_pulsing_as|0682398a7012",
@@ -1248,7 +1332,7 @@
     "context": "<<POS:29197970>>"
   },
   {
-    "key": "output|they|efe1b7c73f79#1",
+    "key": "output|they|efe1b7c73f79",
     "original": "they",
     "translation": "",
     "context": "<<POS:29197983>>"
@@ -1266,6 +1350,12 @@
     "context": "<<POS:29198070>>"
   },
   {
+    "key": "output|them|261b044ceec5",
+    "original": "them",
+    "translation": "",
+    "context": "<<POS:29198083>>"
+  },
+  {
     "key": "output|any_stimulation_Your_pc_vaginas|b2daac103606",
     "original": " any stimulation. Your [pc.vaginas] ",
     "translation": "",
@@ -1278,6 +1368,12 @@
     "context": "<<POS:29198166>>"
   },
   {
+    "key": "output|are|c663ab43bf85",
+    "original": "are",
+    "translation": "",
+    "context": "<<POS:29198179>>"
+  },
+  {
     "key": "output|no_better_Your_netherlips_are_swampy_with_heat_and_your_pc_c|06ab806019ae",
     "original": " no better. Your netherlips are swampy with heat, and your [pc.clits] ",
     "translation": "",
@@ -1288,6 +1384,12 @@
     "original": "is",
     "translation": "",
     "context": "<<POS:29198294>>"
+  },
+  {
+    "key": "output|are|c663ab43bf85#1",
+    "original": "are",
+    "translation": "",
+    "context": "<<POS:29198307>>"
   },
   {
     "key": "output|as_rigid_as|ee27c884b44a",
@@ -1317,7 +1419,8 @@
     "key": "output|s|6b56bf4c0a7b",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:29198457>>"
+    "context": "<<POS:29198457>>",
+    "stage": 1
   },
   {
     "key": "output|how_hard_you_ve_grown_in_such_a_short_time_Your_pc_cocks_coul|09f4094b9c44",
@@ -1329,7 +1432,8 @@
     "key": "output|s|b1c743634093#1",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:29198623>>"
+    "context": "<<POS:29198623>>",
+    "stage": 1
   },
   {
     "key": "output|uselessly_fitfully_pulsing_as|0682398a7012#1",
@@ -1344,6 +1448,12 @@
     "context": "<<POS:29198697>>"
   },
   {
+    "key": "output|they|efe1b7c73f79#1",
+    "original": "they",
+    "translation": "",
+    "context": "<<POS:29198710>>"
+  },
+  {
     "key": "output|jut_through_an_opening_too_large_to_give|13edde5c0fe6#1",
     "original": " jut through an opening too large to give ",
     "translation": "",
@@ -1354,6 +1464,12 @@
     "original": "it",
     "translation": "",
     "context": "<<POS:29198797>>"
+  },
+  {
+    "key": "output|them|261b044ceec5#1",
+    "original": "them",
+    "translation": "",
+    "context": "<<POS:29198810>>"
   },
   {
     "key": "output|any_stimulation|f4203bde9440",
@@ -1494,6 +1610,12 @@
     "context": "<<POS:29205523>>"
   },
   {
+    "key": "output|are|c663ab43bf85#2",
+    "original": "are",
+    "translation": "",
+    "context": "<<POS:29205536>>"
+  },
+  {
     "key": "output|little_more|0d1403860d57",
     "original": " little more ",
     "translation": "",
@@ -1569,7 +1691,8 @@
     "key": "button|Next|e1433aab147f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29208745>> addButton(0,\"Next\",Xre)"
+    "context": "<<POS:29208745>> addButton(0,\"Next\",Xre)",
+    "stage": 1
   },
   {
     "key": "output|Fuck_the_consequences_You_don_t_care_if_the_screen_or_the_drugs|821dab6adf99",
@@ -1580,7 +1703,7 @@
   {
     "key": "output|You|d70183c2df87",
     "original": "You ",
-    "translation": "你 ",
+    "translation": "",
     "context": "<<POS:29208991>>"
   },
   {
@@ -1701,7 +1824,8 @@
     "key": "button|Next|1bbe61fd38a6",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29213959>> addButton(0,\"Next\",Kre)"
+    "context": "<<POS:29213959>> addButton(0,\"Next\",Kre)",
+    "stage": 1
   },
   {
     "key": "output|Though_the_Word_has_faded_from_your_sight_no_longer_displayed_a|f9a162830453",
@@ -1743,7 +1867,8 @@
     "key": "button|Next|f529b3a1051e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29216980>> addButton(0,\"Next\",Qre)"
+    "context": "<<POS:29216980>> addButton(0,\"Next\",Qre)",
+    "stage": 1
   },
   {
     "key": "output|You_bounce_in_your_restraints_each_time_the_machine_brings_you_t|25a6f15261f2",
@@ -1767,7 +1892,8 @@
     "key": "button|Next|e40d53ccb136",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29218417>> addButton(0,\"Next\",Jre)"
+    "context": "<<POS:29218417>> addButton(0,\"Next\",Jre)",
+    "stage": 1
   },
   {
     "key": "header|Bad_End|8dedd596f6e0",
@@ -1815,7 +1941,8 @@
     "key": "button|Next|1ef70b6cc9af",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29220234>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29220234>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Trapped|35f7b8051de2",
@@ -1875,7 +2002,8 @@
     "key": "button|Next|1404996587ab",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29224193>> addButton(0,\"Next\",eue)"
+    "context": "<<POS:29224193>> addButton(0,\"Next\",eue)",
+    "stage": 1
   },
   {
     "key": "header|Trapped|35f7b8051de2#1",
@@ -2049,7 +2177,8 @@
     "key": "output|s|4ba4d99e89e5",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:29228566>>"
+    "context": "<<POS:29228566>>",
+    "stage": 1
   },
   {
     "key": "output|Pussy_just_can_t_compare_now_that_you_ve_had_this_Really_wha|d41048187e6a",
@@ -2079,7 +2208,8 @@
     "key": "button|Next|976870b3049b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29229919>> addButton(0,\"Next\",tue)"
+    "context": "<<POS:29229919>> addButton(0,\"Next\",tue)",
+    "stage": 1
   },
   {
     "key": "header|Free_At_Last|b1576ec0413e",
@@ -2109,7 +2239,8 @@
     "key": "button|Next|4ecaeb0d17cd",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29231078>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29231078>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Sexdoll|f3424dafeff1",
@@ -2198,7 +2329,7 @@
   {
     "key": "button|Locked|cdfadd002e37",
     "original": "Locked",
-    "translation": "已锁定",
+    "translation": "",
     "context": "<<POS:29234386>> addDisabledButton(4,\"Locked\",\"Locked\",\"This scene is in another sexdoll...\")"
   },
   {
@@ -2376,6 +2507,18 @@
     "context": "<<POS:29236265>> addButton(3,\"Sixty-Nine\",hue,\"Sixty-Nine\",t)"
   },
   {
+    "key": "button.tooltip.expr|var0|9745bd3ee996",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:29236277>> <<VARS:var0=t>> addButton(3,\"Sixty-Nine\",hue,\"Sixty-Nine\",t)"
+  },
+  {
+    "key": "button|Leave|0f2ac9f5ef76",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:29236294>> addButton(14,\"Leave\",E.V.genericVictory)"
+  },
+  {
     "key": "output.expr|Sprawled_out_on_the_ground_is_no_place_for_the_var1_lust_v|f35360ee0215",
     "original": "Sprawled out on the ground is no place for the \"+({var1}.lust({var0})?\"lust-drunk\":\"lusty, broken\")+\" toy, especially when you’ve got \"+({var2}.hasCocks()?\"\":\"a \")",
     "translation": "",
@@ -2397,7 +2540,8 @@
     "key": "output|s|ce40b19c8d32",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:29236642>>"
+    "context": "<<POS:29236642>>",
+    "stage": 1
   },
   {
     "key": "output.expr|lined_up_throbbing_with_excitement_at_the_potential_to_fuck_an|3ca5a0089a74",
@@ -2655,7 +2799,8 @@
     "key": "button|Next|cde97e0a196c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29254541>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),oue(!0),author(\"Fenoxo\"),output(\"You need no further encouragement. Lining your slickened pole up with short, stacked fuckslut’s hole, you press in, and she welcomes you. Her body caresses you with its inhuman warmth, beckons you to jum..."
+    "context": "<<POS:29254541>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),oue(!0),author(\"Fenoxo\"),output(\"You need no further encouragement. Lining your slickened pole up with short, stacked fuckslut’s hole, you press in, and she welcomes you. Her body caresses you with its inhuman warmth, beckons you to jum...",
+    "stage": 1
   },
   {
     "key": "output.expr|You_remove_your_finger_It_s_as_clean_as_it_ever_was_amazingly|9354c3d1aef8",
@@ -3039,7 +3184,8 @@
     "key": "output|s|c5d4e13474b8",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:29278215>>"
+    "context": "<<POS:29278215>>",
+    "stage": 1
   },
   {
     "key": "output|at_her_moan_You_jump_slightly_when_you_see_her_body_twitch_al|404dfe6ddc2b",
@@ -3135,7 +3281,8 @@
     "key": "output|i|434c90760a8f",
     "original": "”</i>",
     "translation": "”</i>",
-    "context": "<<POS:29281420>>"
+    "context": "<<POS:29281420>>",
+    "stage": 1
   },
   {
     "key": "output|The_fluffy_shortstack_wiggles_her_cotton_tipped_antenna_attemp|de9aa7a0d484",
@@ -4563,7 +4710,8 @@
     "key": "button|Next|7fd4de117eef",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29342974>> addButton(0,\"Next\",(function(){return function(e,t){clearOutput(),oue(!0),author(\"William\"),pc.hasCock()?(output(\"The lusty bimbo babe’s tongue lashes across your vulnerable [pc.cockNoun], weaving around the [pc.knotOrSheath] with a sexual serpent’s coiling relish. Sloppy kisses follow suit, pepperi..."
+    "context": "<<POS:29342974>> addButton(0,\"Next\",(function(){return function(e,t){clearOutput(),oue(!0),author(\"William\"),pc.hasCock()?(output(\"The lusty bimbo babe’s tongue lashes across your vulnerable [pc.cockNoun], weaving around the [pc.knotOrSheath] with a sexual serpent’s coiling relish. Sloppy kisses follow suit, pepperi...",
+    "stage": 1
   },
   {
     "key": "output|You_drop_to_the_ground_unable_to_stop_your_body_s_libido_from_re|a140632d24eb",
@@ -5342,7 +5490,7 @@
   {
     "key": "output|i|cb34b3bd3ef5",
     "original": "”</i>",
-    "translation": "”</i>",
+    "translation": "",
     "context": "<<POS:29406613>>"
   },
   {
@@ -5781,7 +5929,8 @@
     "key": "button|Next|eb623aaea0b5",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29428301>> addButton(0,\"Next\",due)"
+    "context": "<<POS:29428301>> addButton(0,\"Next\",due)",
+    "stage": 1
   },
   {
     "key": "name.show|Doctor_Po|5362c07431e7",
@@ -5931,7 +6080,8 @@
     "key": "button|Next|5388b8d34575",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29436656>> addButton(0,\"Next\",gue)"
+    "context": "<<POS:29436656>> addButton(0,\"Next\",gue)",
+    "stage": 1
   },
   {
     "key": "name.show|Doctor_Po|5362c07431e7#1",
@@ -6075,7 +6225,8 @@
     "key": "button|Next|75dba4f3545e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29444211>> addButton(0,\"Next\",pue)"
+    "context": "<<POS:29444211>> addButton(0,\"Next\",pue)",
+    "stage": 1
   },
   {
     "key": "output|There_s_a_story_floating_around_U_G_C_space_a_fairy_tale_a_d|c44e6cd1144c",
@@ -6201,7 +6352,8 @@
     "key": "button|Back|8cbe73d2b9df",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:29448475>> addButton(14,\"Back\",mainGameMenu)"
+    "context": "<<POS:29448475>> addButton(14,\"Back\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|VR|322de8a169d3",
@@ -6255,7 +6407,8 @@
     "key": "button|Next|087526f3f6ce",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29450178>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29450178>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Open|2c1a8ed789aa",
@@ -6327,7 +6480,8 @@
     "key": "button|Next|aab132f67b1b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29451955>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29451955>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Goblin|3d5322f0db70",
@@ -6417,7 +6571,8 @@
     "key": "button|Next|1335546af3cc",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29453350>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29453350>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Goblin|3d5322f0db70#1",
@@ -6615,7 +6770,8 @@
     "key": "button|Next|92d9ac7977e7",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29460434>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29460434>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Llaerwyn|f9bab85cd684",
@@ -6686,7 +6842,7 @@
   {
     "key": "button|Leave|b6cd9dc32e47",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:29461903>> addButton(14,\"Leave\",Cue,\"Leave\",\"Nothing to see here.\")"
   },
   {
@@ -6885,7 +7041,8 @@
     "key": "button|Next|5a391d432a0c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29467908>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29467908>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Llaerwyn|f9bab85cd684#1",
@@ -7095,7 +7252,8 @@
     "key": "button|Next|1bebc63c8d83",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29475200>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29475200>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Llaerwyn|f9bab85cd684#2",
@@ -7125,7 +7283,8 @@
     "key": "button|Next|10371174f12d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29475668>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29475668>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Woman|17376c0702dc",
@@ -7167,7 +7326,8 @@
     "key": "button|No|231ef47961ea",
     "original": "No",
     "translation": "不",
-    "context": "<<POS:29476582>> addButton(1,\"No\",Sue,\"No\",\"You don’t have the time for this! Adventure awaits elsewhere!\")"
+    "context": "<<POS:29476582>> addButton(1,\"No\",Sue,\"No\",\"You don’t have the time for this! Adventure awaits elsewhere!\")",
+    "stage": 1
   },
   {
     "key": "button.hover|No|231ef47961ea",
@@ -7197,7 +7357,8 @@
     "key": "button|Next|0c30ebaf4b26",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29476979>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29476979>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Woman|17376c0702dc#1",
@@ -7263,7 +7424,8 @@
     "key": "button|Yes|9af0ff3df755",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:29478670>> addButton(1,\"Yes\",Nue,\"Yes\",\"They’re nice breasts.\")"
+    "context": "<<POS:29478670>> addButton(1,\"Yes\",Nue,\"Yes\",\"They’re nice breasts.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Yes|9af0ff3df755",
@@ -7281,7 +7443,8 @@
     "key": "button|No|59f2dca58e4b",
     "original": "No",
     "translation": "不",
-    "context": "<<POS:29478723>> addButton(2,\"No\",Rue,\"No\",\"Not really. You’ve seen better.\")"
+    "context": "<<POS:29478723>> addButton(2,\"No\",Rue,\"No\",\"Not really. You’ve seen better.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|No|59f2dca58e4b",
@@ -7521,7 +7684,8 @@
     "key": "button|Next|c4f55a0a7b04",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29483420>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29483420>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Princess|793361e4f614",
@@ -7677,7 +7841,8 @@
     "key": "button|Next|ff0741b7b209",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29488952>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29488952>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Waving_her_hand_in_vague_fashion_she_plants_her_palm_right_on_h|cddfbc18a50e",
@@ -7911,7 +8076,8 @@
     "key": "button|Next|c57b06ffb8cb",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29499819>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29499819>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Waving_her_hand_in_vague_fashion_she_plants_her_palm_right_on_h|cddfbc18a50e#1",
@@ -8169,7 +8335,8 @@
     "key": "button|Next|c57b06ffb8cb#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29511454>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29511454>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Princess|793361e4f614#1",
@@ -8517,7 +8684,8 @@
     "key": "button|Next|0c1b859cee8f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29522478>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29522478>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Salamander|2ae02dbe1d4a",
@@ -8583,7 +8751,8 @@
     "key": "button|Next|1e32d2d94131",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29525460>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29525460>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Salamander|2ae02dbe1d4a#1",
@@ -8835,7 +9004,8 @@
     "key": "button|Next|e2a23616b208",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29532842>> addButton(0,\"Next\",Yue)"
+    "context": "<<POS:29532842>> addButton(0,\"Next\",Yue)",
+    "stage": 1
   },
   {
     "key": "name.show|Salamander|2ae02dbe1d4a#2",
@@ -9033,7 +9203,8 @@
     "key": "button|Next|647a911f3986",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29539011>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29539011>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show.expr|var0_Demon_Ithzan|a661d61bd861",
@@ -9213,7 +9384,8 @@
     "key": "button|Fight|b5dafe4b7447",
     "original": "Fight!",
     "translation": "战斗！",
-    "context": "<<POS:29540673>> addButton(10,\"Fight!\",ole,\"Fight!\",\"Enough talk!\")"
+    "context": "<<POS:29540673>> addButton(10,\"Fight!\",ole,\"Fight!\",\"Enough talk!\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Fight|b5dafe4b7447",
@@ -9999,7 +10171,8 @@
     "key": "button|Next|e4883261fffd",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29561135>> addButton(0,\"Next\",Gue)"
+    "context": "<<POS:29561135>> addButton(0,\"Next\",Gue)",
+    "stage": 1
   },
   {
     "key": "output|Making_fuck_me_eyes_at_the_demoness_your_hand_slides_down_your|3b21e901589a",
@@ -10233,7 +10406,8 @@
     "key": "button|Next|89c7fc5ff890",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29568350>> addButton(0,\"Next\",Gue)"
+    "context": "<<POS:29568350>> addButton(0,\"Next\",Gue)",
+    "stage": 1
   },
   {
     "key": "output|i_I_think_I_d_do_a_great_job_of_sucking_your_cock_i_you|28a267107c54",
@@ -10371,7 +10545,8 @@
     "key": "button|Next|1ee2e7b3854a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29574591>> addButton(0,\"Next\",Gue)"
+    "context": "<<POS:29574591>> addButton(0,\"Next\",Gue)",
+    "stage": 1
   },
   {
     "key": "output|i_I_want_you_to_spread_your_cheeks_for_me_i_you_tell_her|8a8dd4f335a9",
@@ -10551,7 +10726,8 @@
     "key": "button|Next|93e3410b9d5e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29580482>> addButton(0,\"Next\",Gue)"
+    "context": "<<POS:29580482>> addButton(0,\"Next\",Gue)",
+    "stage": 1
   },
   {
     "key": "output|i_How_about_you_spread_those_inviting_thighs_of_yours_i_yo|429bb3b7b02a",
@@ -10827,7 +11003,8 @@
     "key": "button|Next|10ab08a9c555",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29587293>> addButton(0,\"Next\",Gue)"
+    "context": "<<POS:29587293>> addButton(0,\"Next\",Gue)",
+    "stage": 1
   },
   {
     "key": "output|i_How_about_you_kneel_down_to_about_hip_level_and_we_can_negot|33478cbde211",
@@ -11331,7 +11508,8 @@
     "key": "button|Next|b40cd79e7a36",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29605360>> addButton(0,\"Next\",Gue)"
+    "context": "<<POS:29605360>> addButton(0,\"Next\",Gue)",
+    "stage": 1
   },
   {
     "key": "output|i_What_happened_to_all_of_the_previous_players_i_you_ask|d143edc21059",
@@ -11487,7 +11665,8 @@
     "key": "button|Next|58d046d9cfae",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29610162>> addButton(0,\"Next\",nle)"
+    "context": "<<POS:29610162>> addButton(0,\"Next\",nle)",
+    "stage": 1
   },
   {
     "key": "output|i_Alright_I_ve_spent_enough_time_in_here_i_you_mutter|add6cd589a5a",
@@ -11523,7 +11702,8 @@
     "key": "button|Next|face2afe9942",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29611116>> addButton(0,\"Next\",nle)"
+    "context": "<<POS:29611116>> addButton(0,\"Next\",nle)",
+    "stage": 1
   },
   {
     "key": "header|Reality|a76f43b07d9e",
@@ -11553,7 +11733,8 @@
     "key": "button|Next|db7de453cd40",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29612025>> addButton(0,\"Next\",(function(){skipToRoom(\"N/A.N/A.KQVR S5\"),mainGameMenu()}))"
+    "context": "<<POS:29612025>> addButton(0,\"Next\",(function(){skipToRoom(\"N/A.N/A.KQVR S5\"),mainGameMenu()}))",
+    "stage": 1
   },
   {
     "key": "output|i_Welcome_back_from_Aulandia_We_hope_you_enjoyed_the_encount|eb9739b26550",
@@ -11571,7 +11752,8 @@
     "key": "button|Next|ff893696a088",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29612746>> addButton(0,\"Next\",(function(){skipToRoom(\"N/A.N/A.KQVR S5\"),mainGameMenu()}))"
+    "context": "<<POS:29612746>> addButton(0,\"Next\",(function(){skipToRoom(\"N/A.N/A.KQVR S5\"),mainGameMenu()}))",
+    "stage": 1
   },
   {
     "key": "output|i_Welcome_back_from_Aulandia_and_congratulations_upon_your_c|1dcc7a404192",
@@ -11709,7 +11891,8 @@
     "key": "button|Next|8a45aa9c556d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29617457>> addButton(0,\"Next\",ile)"
+    "context": "<<POS:29617457>> addButton(0,\"Next\",ile)",
+    "stage": 1
   },
   {
     "key": "header|Score|b59c1d8a2ba3",
@@ -11877,7 +12060,8 @@
     "key": "button|Next|335136b67806",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29623448>> addButton(0,\"Next\",sle)"
+    "context": "<<POS:29623448>> addButton(0,\"Next\",sle)",
+    "stage": 1
   },
   {
     "key": "header|Score|b59c1d8a2ba3#1",
@@ -12126,6 +12310,13 @@
     "context": "<<POS:29633082>>"
   },
   {
+    "key": "button|Next|121c6d02ef69",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:29633185>> addButton(0,\"Next\",rle)",
+    "stage": 1
+  },
+  {
     "key": "header|Score|b59c1d8a2ba3#2",
     "original": "Score:",
     "translation": "",
@@ -12207,7 +12398,8 @@
     "key": "button|Next|8a11b88a0e68",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29635130>> addButton(0,\"Next\",ule)"
+    "context": "<<POS:29635130>> addButton(0,\"Next\",ule)",
+    "stage": 1
   },
   {
     "key": "header|Score|b59c1d8a2ba3#3",
@@ -12237,7 +12429,8 @@
     "key": "button|Next|338e8079bf35",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29635708>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29635708>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Your_ship_s_comms_display_lights_up_with_the_incoming_message_m|7e507981238c",
@@ -12366,6 +12559,31 @@
     "context": "<<POS:29639411>>"
   },
   {
+    "key": "output|pc_armor|35b0d3422dfe",
+    "original": " [pc.armor]",
+    "translation": "",
+    "context": "<<POS:29639427>>"
+  },
+  {
+    "key": "output|lashing_at_your_mouth_and_rump|06a3a90275fa",
+    "original": ", lashing at your mouth and rump",
+    "translation": "",
+    "context": "<<POS:29639449>>"
+  },
+  {
+    "key": "output|and_twat|e9631414fd7a",
+    "original": " and twat",
+    "translation": "",
+    "context": "<<POS:29639509>>"
+  },
+  {
+    "key": "output|s|286bcf9d969e",
+    "original": "s",
+    "translation": "​",
+    "context": "<<POS:29639550>>",
+    "stage": 1
+  },
+  {
     "key": "output|with_dozens_of_slimy_drooling_tentacles_You_lack_the_power_to|383b48dd7824",
     "original": " with dozens of slimy, drooling tentacles. You lack the power to resist anymore, and your will crumbles under a haze of red mist seeping from the creatures’ mouths.",
     "translation": "",
@@ -12381,7 +12599,8 @@
     "key": "button|Next|2c0b14a8abdb",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29639806>> addButton(0,\"Next\",Xse)"
+    "context": "<<POS:29639806>> addButton(0,\"Next\",Xse)",
+    "stage": 1
   },
   {
     "key": "output|You_ve_dropped_the_closest_of_the_creatures_buying_yourself_som|c2f2c0e66def",
@@ -12447,7 +12666,8 @@
     "key": "button|Next|ffe3403e641f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29642753>> addButton(0,\"Next\",Dse)"
+    "context": "<<POS:29642753>> addButton(0,\"Next\",Dse)",
+    "stage": 1
   },
   {
     "key": "output|Despite_the_danger_of_your_surroundings_you_find_your_rising_lu|6622fee98e4b",
@@ -12596,7 +12816,7 @@
   {
     "key": "output|i|54593807d593",
     "original": "”</i>",
-    "translation": "”</i>",
+    "translation": "",
     "context": "<<POS:29647803>>"
   },
   {
@@ -12608,7 +12828,7 @@
   {
     "key": "button|Oral|0103abbac590",
     "original": "Oral",
-    "translation": "口交",
+    "translation": "",
     "context": "<<POS:29647984>> addButton(0,\"Oral\",Hse,\"Oral Sex\",\"Orally pleasure each other.\")"
   },
   {
@@ -12645,7 +12865,15 @@
     "key": "button|Next|7ccdf395cc9f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29648136>> addButton(0,\"Next\",Zse)"
+    "context": "<<POS:29648136>> addButton(0,\"Next\",Zse)",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:29648160>> addButton(0,\"Next\",Hse)",
+    "stage": 1
   },
   {
     "key": "header|Victory|5954cb577c9e",
@@ -12981,13 +13209,21 @@
     "key": "button|Next|74d0c6d2495e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29659531>> addButton(0,\"Next\",Use)"
+    "context": "<<POS:29659531>> addButton(0,\"Next\",Use)",
+    "stage": 1
   },
   {
     "key": "output|You_hear_a_horrible_screech_of_metal_buckling_and_tearing_You_s|e7c166745507",
     "original": "You hear a horrible screech of metal buckling and tearing. You spin around in time to see a vent shaft above you explode outwards, and several mutants crawl out of it, leaping down onto the deck just feet away from you. Oh, shit, here we go again!",
     "translation": "",
     "context": "<<POS:29659675>>"
+  },
+  {
+    "key": "button|Fight|95622992b226",
+    "original": "Fight!",
+    "translation": "战斗！",
+    "context": "<<POS:29659950>> addButton(0,\"Fight!\",(function(){for(var e=[],t=0;t<4;t++)e.push(new _P);e[0].inventory.insertItem(new gl.t),e[0].createStatusEffect(\"Flee Disabled\"),E.V.newGroundCombat(),E.V.setFriendlyActors(pc),E.V.setHostileActors(e),E.V.displayLocation(\"INFECTED CREW\"),E.V.victoryCondition(E.V.ENTIRE_PARTY_DEF...",
+    "stage": 1
   },
   {
     "key": "header|Escape_i_Kashima_i|96dc02b2455b",
@@ -13017,7 +13253,8 @@
     "key": "button|Next|f38f28e1e147",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29661751>> addButton(0,\"Next\",Yse)"
+    "context": "<<POS:29661751>> addButton(0,\"Next\",Yse)",
+    "stage": 1
   },
   {
     "key": "header|i_Kashima_i_Followup|bc8f7084c1ee",
@@ -13041,7 +13278,8 @@
     "key": "button|Next|14196fea8640",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29662375>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29662375>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|The_Nova_Securities_shuttle_that_ferried_you_over_is_parked_here|c682bfec8640",
@@ -13305,6 +13543,7 @@
     "key": "button|Next|c332b09aa402",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:29669094>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:29669094>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   }
 ]

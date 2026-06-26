@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|ausar_treat|1f980f04912b",
+    "original": "ausar treat",
+    "translation": "",
+    "context": "<<POS:06271640>>"
+  },
+  {
     "key": "assign|a_bone_shaped_ausar_treat|d99b647843ae",
     "original": "a bone-shaped ausar treat",
     "translation": "",
@@ -22,6 +28,24 @@
     "original": "Your [pc.cock \"+{var0}+\"] throbs suddenly ",
     "translation": "",
     "context": "<<POS:06272807>> <<VARS:var0=i>> output(\"\\n\\nYour [pc.cock \"+i+\"] throbs suddenly \")"
+  },
+  {
+    "key": "output|beneath_your_pc_lowerGarments|84ce32f5b873",
+    "original": "beneath your [pc.lowerGarments]",
+    "translation": "",
+    "context": "<<POS:06272874>>"
+  },
+  {
+    "key": "output|on_your_pc_leg|9ea6d75771de",
+    "original": "on your [pc.leg]",
+    "translation": "",
+    "context": "<<POS:06272931>>"
+  },
+  {
+    "key": "output|between_your_pc_legs|a09d4c413d27",
+    "original": "between your [pc.legs]",
+    "translation": "",
+    "context": "<<POS:06272958>>"
   },
   {
     "key": "output|swelling_to_its_full_size_as_a_strange_heat_radiates_through_y|0ddf257a06e9",
@@ -96,6 +120,18 @@
     "context": "<<POS:06274422>> <<VARS:var0=e>> output(\"\\n\\n\"+e.cockTypeLockedMessage())"
   },
   {
+    "key": "output.expr|You_shudder_as_your_pc_cock_var0_throbs_swelling_powerf|9c89536191a7",
+    "original": "You shudder as your [pc.cock \"+{var0}+\"] throbs, swelling powerfully. You look down just in time to see your cockflesh expanding, sending waves of pleasure through your body. Your dick spurts a thin trickle of [pc.cum] as it grows out to its new size of ",
+    "translation": "",
+    "context": "<<POS:06274641>> <<VARS:var0=i>> output(\"\\n\\nYou shudder as your [pc.cock \"+i+\"] throbs, swelling powerfully. You look down just in time to see your cockflesh expanding, sending waves of pleasure through your body. Your dick spurts a thin trickle of [pc.cum] as it grows out to its new size of \")"
+  },
+  {
+    "key": "output.expr|var0_inches_You_take_a_moment_to_marvel_at_your_new_larger|9689491af518",
+    "original": "{var0}+\" inches. You take a moment to marvel at your new, larger member, ready for action.",
+    "translation": "",
+    "context": "<<POS:06275011>> <<VARS:var0=Math.round(10*n.cocks[i].cLength())/10>> output(Math.round(10*n.cocks[i].cLength())/10+\" inches. You take a moment to marvel at your new, larger member, ready for action.\")"
+  },
+  {
     "key": "output.expr|You_feel_something_swelling_on_your_pc_cock_var0_s_base|088e473018a7",
     "original": "You feel something swelling on your [pc.cock \"+{var0}+\"]’s base, straining against your sensitive flesh. Alarmed, you ",
     "translation": "",
@@ -106,6 +142,12 @@
     "original": "spread your [pc.legOrLegs]",
     "translation": "",
     "context": "<<POS:06275466>>"
+  },
+  {
+    "key": "output|strip|d2ba62a13757",
+    "original": "strip",
+    "translation": "",
+    "context": "<<POS:06275503>>"
   },
   {
     "key": "output|and_grab_your_knotty_cock_Your_bitch_breaking_knot_is_swelling|b3cb1c907236",
@@ -228,6 +270,12 @@
     "context": "<<POS:06281822>>"
   },
   {
+    "key": "output|peeling_back_your_pc_underGarments|4363ecaf69d9",
+    "original": ", peeling back your [pc.underGarments]",
+    "translation": "",
+    "context": "<<POS:06282012>>"
+  },
+  {
     "key": "output|There_s_a_raised_irritated_lump_there_and_it_s_getting_bigge|e230ae4f8059",
     "original": ". There’s a raised, irritated lump there, and it’s getting bigger. Wiggling slightly, it extends as new bones form within it, gently wagging as it lengthens. You’re growing a tail! Fine hairs sprout on its [pc.skin], giving it a distinctly canine cast. When it finishes growing, it’s long enough to lazily swish back and forth; <b>you’ve obviously gained an ausar’s tail.</b>",
     "translation": "",
@@ -250,5 +298,11 @@
     "original": "Nothing changed. What a rip-off.",
     "translation": "",
     "context": "<<POS:06283214>>"
+  },
+  {
+    "key": "output.expr|var0_var1_eats_the_rations_to_no_effect|c73d404f0281",
+    "original": "{var0}+{var1}+\" eats the rations to no effect.",
+    "translation": "",
+    "context": "<<POS:06283261>> <<VARS:var0=e.capitalA,var1=e.short>> output(e.capitalA+e.short+\" eats the rations to no effect.\")"
   }
 ]

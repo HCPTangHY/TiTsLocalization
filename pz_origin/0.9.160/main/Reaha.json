@@ -1,27 +1,9 @@
 [
   {
-    "key": "button|Next|d8e8da7beead#2",
-    "original": "Next",
-    "translation": "继续",
-    "context": "<<POS:27001359>> addButton(t++,\"Next\",(function(){moveToRoom(Hl.L.findPlayerShipEntryRoom()),mainGameMenu()}),\"Next\",\"\")"
-  },
-  {
-    "key": "button|Next|d8e8da7beead#3",
-    "original": "Next",
-    "translation": "继续",
-    "context": "<<POS:27971034>> addButton(0,\"Next\",_9,\"\",\"\")"
-  },
-  {
-    "key": "button|Next|d8e8da7beead#4",
-    "original": "Next",
-    "translation": "继续",
-    "context": "<<POS:29955874>> addButton(0,\"Next\",mainGameMenu)"
-  },
-  {
-    "key": "button|Next|d8e8da7beead#5",
-    "original": "Next",
-    "translation": "继续",
-    "context": "<<POS:31540629>> addButton(0,\"Next\",(function(){return l(1)}))"
+    "key": "name.show.expr|var0_Reindeer_Girl_Krissy|72f93bb3a2d3",
+    "original": "{var0}?\"Reindeer Girl\":\"Krissy\"",
+    "translation": "",
+    "context": "<<POS:33881217>> <<VARS:var0=void 0===flags.MET_KRISSY>> showName(void 0===flags.MET_KRISSY?\"Reindeer Girl\":\"Krissy\")"
   },
   {
     "key": "output|You_shake_your_head_i|b8cda3c92718",
@@ -62,7 +44,7 @@
   {
     "key": "output|i|125ffc1161a3",
     "original": "”</i>",
-    "translation": "”</i>",
+    "translation": "",
     "context": "<<POS:33882028>>"
   },
   {
@@ -81,7 +63,8 @@
     "key": "button|Next|f38c10f6ba1e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33882552>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:33882552>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output.expr|i_Sure_i_You_wave_her_onto_the_ship_i_var0_canadia|dbdafc12908e",
@@ -122,7 +105,7 @@
   {
     "key": "output|i|dee571967ac1",
     "original": "”</i>",
-    "translation": "”</i>",
+    "translation": "",
     "context": "<<POS:33883412>>"
   },
   {
@@ -147,7 +130,8 @@
     "key": "button|Next|ed081e439056",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33883863>> addButton(0,\"Next\",_Le)"
+    "context": "<<POS:33883863>> addButton(0,\"Next\",_Le)",
+    "stage": 1
   },
   {
     "key": "output.expr|Krissy_hangs_onto_the_back_of_your_chair_the_entire_way_through|cf79b66d79fd",
@@ -405,7 +389,8 @@
     "key": "button|Next|e7511ba7629b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33893311>> addButton(0,\"Next\",ILe)"
+    "context": "<<POS:33893311>> addButton(0,\"Next\",ILe)",
+    "stage": 1
   },
   {
     "key": "output|Handling_a_doped_up_reindeer_girl_is_no_easy_feat_No_matter_how|46b00541286e",
@@ -561,7 +546,8 @@
     "key": "button|Next|be19b916cc0d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33899656>> addButton(0,\"Next\",BLe)"
+    "context": "<<POS:33899656>> addButton(0,\"Next\",BLe)",
+    "stage": 1
   },
   {
     "key": "output|Three_explosive_climaxes_later_Krissy_finally_joins_you_in_orga|95711dcb4099",
@@ -630,6 +616,13 @@
     "context": "<<POS:33902391>> createPerk(\"Fixed CumQ\",25e3,0,0,0)"
   },
   {
+    "key": "button|Next|d8e8da7beead",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:33902459>> addButton(0,\"Next\",NLe)",
+    "stage": 1
+  },
+  {
     "key": "output.expr|Krissy_claims_your_mouth_in_much_the_same_manner_as_your_pc_vag|f3538b685817",
     "original": "Krissy claims your mouth in much the same manner as your [pc.vaginas]: passionately and insistently. \"+({var0}.canDeepthroat()?\"How fortunate that you have no problem taking every inch she has to offer! On a curtain of slick saliva and fountaining cock-drool, Krissy’s dick slides down your throat like it’s just another pussy for her to claim. When her delightfully musky crotch presses against your nose, your eyes roll back in delight. When her balls pulse on your chin, you cry tears of slutty joy, proud to service such a perfect example of sensuous vascularity.\":\"Your gag reflex is little more than a plaything for her to overcome with repeated pressure, bowing and then breaking completely. Her balls clapping against your chin is an eye-watering victory. The tasty scent of her intensely virile musk floods your nose while you struggle to keep her down with repeated, cock-pleasing gulps.\")",
     "translation": "",
@@ -658,6 +651,13 @@
     "original": "Fixed CumQ",
     "translation": "",
     "context": "<<POS:33904968>> createPerk(\"Fixed CumQ\",25e3,0,0,0)"
+  },
+  {
+    "key": "button|Next|d8e8da7beead#1",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:33905059>> addButton(0,\"Next\",RLe)",
+    "stage": 1
   },
   {
     "key": "output|By_the_time_you_into_get_shower_together_clean_up_most_of_the|322fa93bcf08",
@@ -915,7 +915,8 @@
     "key": "button|Next|37afabf2ed69",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33917276>> addButton(0,\"Next\",PLe)"
+    "context": "<<POS:33917276>> addButton(0,\"Next\",PLe)",
+    "stage": 1
   },
   {
     "key": "output|You_come_to_with_your_chair_on_full_recline_Krissy_s_nipple_is|ae0b408f4155",
@@ -939,7 +940,8 @@
     "key": "button|Next|37afabf2ed69#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33917985>> addButton(0,\"Next\",YLe)"
+    "context": "<<POS:33917985>> addButton(0,\"Next\",YLe)",
+    "stage": 1
   },
   {
     "key": "output|When_you_wake_Krissy_is_nowhere_to_be_seen_but_the_landing_ass|1b93710f94df",
@@ -1227,7 +1229,8 @@
     "key": "button|Next|c4afe4164707",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33930201>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0;clearOutput(),TLe(!0),author(\"Thirdgames\"),output(\"When you awake, Krissy is just putting on her dress and getting her things together. Your ship alerts you that you’ve arrived at Canadia ..."
+    "context": "<<POS:33930201>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0;clearOutput(),TLe(!0),author(\"Thirdgames\"),output(\"When you awake, Krissy is just putting on her dress and getting her things together. Your ship alerts you that you’ve arrived at Canadia ...",
+    "stage": 1
   },
   {
     "key": "name.show|Candy|60733f82a4c0",
@@ -1310,7 +1313,7 @@
   {
     "key": "button|Leave|ea01c2bf5688",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:33934170>> addButton(14,\"Leave\",qLe)"
   },
   {
@@ -1418,7 +1421,7 @@
   {
     "key": "button|Leave|ea01c2bf5688#1",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:33936302>> addButton(14,\"Leave\",qLe)"
   },
   {
@@ -1528,6 +1531,13 @@
     "original": "Fixed CumQ",
     "translation": "",
     "context": "<<POS:33940609>> createPerk(\"Fixed CumQ\",3e4,0,0,0)"
+  },
+  {
+    "key": "button|Next|d8e8da7beead#2",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:33940675>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|KRAMPUS|52adc3e66d94",
@@ -1728,6 +1738,12 @@
     "context": "<<POS:33945280>>"
   },
   {
+    "key": "output|pc_girlCum|fade2e8659ee",
+    "original": "[pc.girlCum]",
+    "translation": "",
+    "context": "<<POS:33945315>>"
+  },
+  {
     "key": "output|a_second_time_As_your_ass_clenches_round_the_Krampus_s_throbbi|65f3a08883b9",
     "original": " a second time. As your ass clenches round the Krampus’s throbbing shaft, you drive the horned man over the edge. With a bleating cry he cums, hosing your bowels with his seed. You moan, twitching as his hot spooge stuffs your slutty rump.",
     "translation": "",
@@ -1770,6 +1786,13 @@
     "context": "<<POS:33946265>> createPerk(\"Fixed CumQ\",3e4,0,0,0)"
   },
   {
+    "key": "button|Next|d8e8da7beead#3",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:33946329>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
+  },
+  {
     "key": "output|Well_you_don_t_like_to_toot_your_own_horn_but_you_ve_been_very|39a635a42c59",
     "original": "Well, you don’t like to toot your own horn, but you’ve been very nice this year. Saving worlds and people. All that jazz. The Rahn’s eyes light up and she draws the candy cane teasingly from her lips. <i>“Well,”</i> she says, sliding her hands onto your shoulders, stroking your neck as she presses her jiggling body against yours, <i>“in that case, I think you deserve a present.”</i>",
     "translation": "",
@@ -1809,7 +1832,8 @@
     "key": "output|and|211259dcefe3",
     "original": " and ",
     "translation": "和",
-    "context": "<<POS:33947731>>"
+    "context": "<<POS:33947731>>",
+    "stage": 1
   },
   {
     "key": "output|sopping_cunt|2f4f640e7fda",
@@ -1862,7 +1886,7 @@
   {
     "key": "button|Leave|615c03194a14",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:33948195>> addButton(14,\"Leave\",qLe)"
   },
   {
@@ -2016,6 +2040,13 @@
     "context": "<<POS:33952475>> createPerk(\"Fixed CumQ\",3e4,0,0,0)"
   },
   {
+    "key": "button|Next|d8e8da7beead#4",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:33952542>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
+  },
+  {
     "key": "output|She_wraps_her_hand_around_your_bulge_and_pulls_you_out_of_the_ba|9582035820a9",
     "original": "She wraps her hand around your bulge and pulls you out of the bar and into a nearby bathroom. You follow willingly, not sure what to expect, but more than happy to get your present. The bathroom is empty, and once inside the Rahn turns about and drapes herself against you. She kisses you hungrily, a sentiment you return with interest. You relish the candy taste of her lips and chocolate tang of her mouth. You moan, sucking on her tongue, wrestling with it as your hands wander across her plump frame.",
     "translation": "",
@@ -2127,7 +2158,8 @@
     "key": "button|Next|8a9eb0e99e02",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33955831>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:33955831>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_inform_her_you_ve_actually_got_business_elsewhere|2463c7893e9b",
@@ -2151,10 +2183,11 @@
     "key": "button|Next|e8d80280d84a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33956165>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:33956165>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
-    "key": "name.show|Reaha|ff15a36a706a#1",
+    "key": "name.show|Reaha|ff15a36a706a",
     "original": "Reaha",
     "translation": "",
     "context": "<<POS:33956258>> showName(\"Reaha\")"
@@ -2181,7 +2214,14 @@
     "key": "button|Next|92910f6279c0",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33957111>> addButton(0,\"Next\",sleep)"
+    "context": "<<POS:33957111>> addButton(0,\"Next\",sleep)",
+    "stage": 1
+  },
+  {
+    "key": "name.show|Reaha|ff15a36a706a#1",
+    "original": "Reaha",
+    "translation": "",
+    "context": "<<POS:33957197>> showName(\"Reaha\")"
   },
   {
     "key": "output.expr|Smiling_you_slide_yourself_over_to_Reaha_throwing_your_arms_ar|2ea6351a6715",
@@ -2205,7 +2245,8 @@
     "key": "button|Next|d542e6f0fbf0",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33957956>> addButton(0,\"Next\",KLe)"
+    "context": "<<POS:33957956>> addButton(0,\"Next\",KLe)",
+    "stage": 1
   },
   {
     "key": "header|Your_Bed|c51bf51c5381",
@@ -2241,7 +2282,8 @@
     "key": "button|Next|34a7a4880252",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33958666>> addButton(0,\"Next\",QLe)"
+    "context": "<<POS:33958666>> addButton(0,\"Next\",QLe)",
+    "stage": 1
   },
   {
     "key": "name.show|Reaha|9aa511bbd6f3",
@@ -2319,7 +2361,8 @@
     "key": "button|Fight|1448591ac1ac",
     "original": "Fight!",
     "translation": "战斗！",
-    "context": "<<POS:33961695>> addButton(0,\"Fight!\",JLe)"
+    "context": "<<POS:33961695>> addButton(0,\"Fight!\",JLe)",
+    "stage": 1
   },
   {
     "key": "name.show|Reaha|06c287788e21",
@@ -2679,7 +2722,8 @@
     "key": "button|Next|0025277b0668",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33976419>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:33976419>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Just_as_you_re_about_to_board_your_ship_a_hand_falls_softly_on|094b4e9a7abd",
@@ -2716,6 +2760,12 @@
     "original": "Sure",
     "translation": "",
     "context": "<<POS:33978345>> addButton(0,\"Sure\",LLe)"
+  },
+  {
+    "key": "button|No_Way|1049086ac022",
+    "original": "No Way",
+    "translation": "",
+    "context": "<<POS:33978369>> addButton(1,\"No Way\",CLe)"
   },
   {
     "key": "output|You_scan_the_Freezer_and_catch_a_sudden_splash_of_color_in_the_o|5088f93e45ba",
@@ -2907,7 +2957,8 @@
     "key": "button|Next|8000ac1ed862",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33983510>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:33983510>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|i_Sure_i_you_agree_The_rabbit_eared_zaika_takes_you_by_th|6b16743ddd52",
@@ -2982,10 +3033,24 @@
     "context": "<<POS:33986004>>"
   },
   {
+    "key": "output|and|11f46d4e29bd",
+    "original": " and ",
+    "translation": "和",
+    "context": "<<POS:33986104>>",
+    "stage": 1
+  },
+  {
+    "key": "output|pc_lowerUndergarment|9d674874875d",
+    "original": "[pc.lowerUndergarment]",
+    "translation": "",
+    "context": "<<POS:33986200>>"
+  },
+  {
     "key": "button|Next|a3ed721330a4",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33986342>> addButton(0,\"Next\",f_e)"
+    "context": "<<POS:33986342>> addButton(0,\"Next\",f_e)",
+    "stage": 1
   },
   {
     "key": "button|Fuck_Her|6ed544c55abf",
@@ -3051,7 +3116,8 @@
     "key": "button|Yes|7aa3a57a4a3f",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:33989578>> addButton(0,\"Yes\",(function(){return function(e){clearOutput(),g_e(),author(\"Fenoxo\"),output(\"<i>“Yes,”</i> you eagerly answer, shaking your hips until your rigid [pc.cocksLight] wobble\"+(pc.hasCocks()?\"\":\"s\")+\" enticingly.\"),output(\"\\n\\nThe zaika gasps like she didn’t really expect you to say it. <..."
+    "context": "<<POS:33989578>> addButton(0,\"Yes\",(function(){return function(e){clearOutput(),g_e(),author(\"Fenoxo\"),output(\"<i>“Yes,”</i> you eagerly answer, shaking your hips until your rigid [pc.cocksLight] wobble\"+(pc.hasCocks()?\"\":\"s\")+\" enticingly.\"),output(\"\\n\\nThe zaika gasps like she didn’t really expect you to say it. <...",
+    "stage": 1
   },
   {
     "key": "button.hover|Yes|7aa3a57a4a3f",
@@ -3243,7 +3309,8 @@
     "key": "button|Next|aa72f8541c7a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33998609>> addButton(0,\"Next\",(function(){return function(e,t){clearOutput(),g_e(),author(\"Fenoxo\"),output(\"You lie down alongside the groaning alien, and spoon her.\"),t>1e4?output(\" She was already pretty inflated from the size of your spermy infusion, but her belly is continuing to grow, even without your as..."
+    "context": "<<POS:33998609>> addButton(0,\"Next\",(function(){return function(e,t){clearOutput(),g_e(),author(\"Fenoxo\"),output(\"You lie down alongside the groaning alien, and spoon her.\"),t>1e4?output(\" She was already pretty inflated from the size of your spermy infusion, but her belly is continuing to grow, even without your as...",
+    "stage": 1
   },
   {
     "key": "output|i_Oh_so_forward_i_the_cybernetic_zaika_remarks_with_a_gro|3a19286cca05",
@@ -3399,7 +3466,14 @@
     "key": "output|and|636ef434a251",
     "original": " and ",
     "translation": "和",
-    "context": "<<POS:34007778>>"
+    "context": "<<POS:34007778>>",
+    "stage": 1
+  },
+  {
+    "key": "output|pc_vaginas|f339801647ae",
+    "original": "[pc.vaginas]",
+    "translation": "",
+    "context": "<<POS:34007807>>"
   },
   {
     "key": "output|and|0a9d09c32a8e",
@@ -3411,7 +3485,8 @@
     "key": "output|and|573bf9cd1469",
     "original": " and ",
     "translation": "和",
-    "context": "<<POS:34007889>>"
+    "context": "<<POS:34007889>>",
+    "stage": 1
   },
   {
     "key": "output|pc_balls|1154c704f3fe",
@@ -3600,6 +3675,13 @@
     "context": "<<POS:34016988>> createPerk(\"Fixed CumQ\",2e4)"
   },
   {
+    "key": "button|Next|d8e8da7beead#5",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:34017069>> addButton(0,\"Next\",v_e)",
+    "stage": 1
+  },
+  {
     "key": "output.expr|You_lay_eggs_for_the_next_hour_and_a_half_How_do_you_have_that|41c3188e24fa",
     "original": "You lay eggs for the next hour and a half. How do you have that many inside you? It doesn’t make sense. The pile is bigger than your belly was after the first twenty minutes, but you still look pregnant. And the eggs keep coming. Your zaika friend is there with you through it all, telling you not to worry, to push, and cum, and moan as often as you feel like. Puddles of alien spunk \"+({var0}.hasVagina()?\"and [pc.girlCumNoun] \":\"\")+\"and egg-juice form in cushions’ divots.",
     "translation": "",
@@ -3669,7 +3751,8 @@
     "key": "button|Next|ec36393b612c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34018498>> addButton(0,\"Next\",A_e)"
+    "context": "<<POS:34018498>> addButton(0,\"Next\",A_e)",
+    "stage": 1
   },
   {
     "key": "output|You_wake_alone_in_the_room_Most_of_the_eggs_are_gone_though_a|a6ee0cc1e9ce",
@@ -3783,7 +3866,8 @@
     "key": "button|Next|f7a684a73526",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34020687>> addButton(0,\"Next\",T_e)"
+    "context": "<<POS:34020687>> addButton(0,\"Next\",T_e)",
+    "stage": 1
   },
   {
     "key": "button|Take_Eggs|b8724bbbff25",
@@ -3804,6 +3888,12 @@
     "context": "<<POS:34020817>>"
   },
   {
+    "key": "button.expr|var0|1d8bcbb5a679",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:34021042>> <<VARS:var0=n>> addButton(o,n,(function(){return e=t,clearOutput(),clearBust(),clearName(),output(blockHeader(\"EGGS!\")),void itemCollect(E_e,[e]);var e}),\"Take \".concat(n),\"Take a \".concat(a,\" egg for yourself.\"))"
+  },
+  {
     "key": "button.hover|Take|c1e655ab1d02",
     "original": "Take ",
     "translation": "",
@@ -3818,7 +3908,7 @@
   {
     "key": "button|Leave|f114706c4cc5",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:34021266>> addButton(14,\"Leave\",T_e)"
   },
   {
@@ -3837,7 +3927,8 @@
     "key": "button|Next|6dd6dbc1f362",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34021519>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:34021519>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Easter_Jumper|ba43a8456dd2",
@@ -3897,7 +3988,8 @@
     "key": "button|Next|5e24ed9c20f7",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34023308>> addButton(0,\"Next\",E.V.beginCombat)"
+    "context": "<<POS:34023308>> addButton(0,\"Next\",E.V.beginCombat)",
+    "stage": 1
   },
   {
     "key": "output|You_d_be_lying_to_yourself_if_you_said_it_didn_t_give_you_a_bit|f55e64d1799e",
@@ -3933,7 +4025,8 @@
     "key": "button|Next|00cfbf3e6404",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34025559>> addButton(0,\"Next\",Y_e)"
+    "context": "<<POS:34025559>> addButton(0,\"Next\",Y_e)",
+    "stage": 1
   },
   {
     "key": "output|Before_the_fight_even_starts_you_crumple_to_the_floor_in_agony|abf06c974bdc",
@@ -3993,7 +4086,8 @@
     "key": "button|Next|1527c4964389",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34028009>> addButton(0,\"Next\",Y_e)"
+    "context": "<<POS:34028009>> addButton(0,\"Next\",Y_e)",
+    "stage": 1
   },
   {
     "key": "output|i_Noooo_i_The_Easter_Jumper_bowls_over_and_curls_into_a_fe|63f2567cf11b",
@@ -4082,7 +4176,7 @@
   {
     "key": "button|Leave|bcb21240865c",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:34030754>> addButton(14,\"Leave\",I_e,\"Leave\",\"Psh. Don’t got time for that.\")"
   },
   {
@@ -4203,7 +4297,8 @@
     "key": "button|Next|46e6547c161e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34036116>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),C_e(),author(\"William\"),output(\"Your bunny’s hips work to pleasure your [pc.cock \"+e+\"] on its withdrawal through the furry girl’s soft, warm buttcheeks. Grinding the [pc.cockHead \"+e+\"] against her ebon lips, you immediately discover a..."
+    "context": "<<POS:34036116>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),C_e(),author(\"William\"),output(\"Your bunny’s hips work to pleasure your [pc.cock \"+e+\"] on its withdrawal through the furry girl’s soft, warm buttcheeks. Grinding the [pc.cockHead \"+e+\"] against her ebon lips, you immediately discover a...",
+    "stage": 1
   },
   {
     "key": "output|An_alarming_development_forces_you_out_of_the_laquine_s_folds_Y|dbb66f191443",
@@ -4388,7 +4483,7 @@
   {
     "key": "button|Leave|8ca111995646",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:34048244>> addButton(14,\"Leave\",O_e)"
   },
   {
@@ -4545,7 +4640,8 @@
     "key": "button|Next|0c821d44981f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34054738>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),C_e(),author(\"William\"),e>=0?(output(\"Sliding up the laquine’s turgid horsecock, \"),pc.isTaur()?output(\"you feel your hindquarters quivering in the presence of a cock that’ll suit your ‘tauric anatomy better than most others.\"):output(\"..."
+    "context": "<<POS:34054738>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),C_e(),author(\"William\"),e>=0?(output(\"Sliding up the laquine’s turgid horsecock, \"),pc.isTaur()?output(\"you feel your hindquarters quivering in the presence of a cock that’ll suit your ‘tauric anatomy better than most others.\"):output(\"...",
+    "stage": 1
   },
   {
     "key": "output|Easter_hued_horsecock_looms_over_you_ivory_spooge_bubbles_from|d88107babd2a",
@@ -4719,7 +4815,8 @@
     "key": "output|s|2c9477246882",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:34083251>>"
+    "context": "<<POS:34083251>>",
+    "stage": 1
   },
   {
     "key": "output|Rumbling_euphoria_expands_at_a_rapid_pace_felt_deeper_than_yo|b22423bc23ba",
@@ -4953,7 +5050,8 @@
     "key": "output|s|2c9477246882#1",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:34099807>>"
+    "context": "<<POS:34099807>>",
+    "stage": 1
   },
   {
     "key": "output|Rumbling_euphoria_expands_at_a_rapid_pace_felt_deeper_than_yo|b22423bc23ba#1",
@@ -5031,7 +5129,8 @@
     "key": "button|Next|c4306d9ce1d3",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34104278>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),C_e(),author(\"William\"),pc.isTaur()?(output(\"The horse-bunny mounts your rear like an animal, giving your ‘tauric haunches an open palmed slap\"+(pc.isAssExposed()?\"\":\" after you’re denuded in an exhilarating manner\")+\". You mumble, sway..."
+    "context": "<<POS:34104278>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),C_e(),author(\"William\"),pc.isTaur()?(output(\"The horse-bunny mounts your rear like an animal, giving your ‘tauric haunches an open palmed slap\"+(pc.isAssExposed()?\"\":\" after you’re denuded in an exhilarating manner\")+\". You mumble, sway...",
+    "stage": 1
   },
   {
     "key": "output|Returning_to_your_body_you_find_yourself_in_the_relative|9ee7b860816b",
@@ -5079,7 +5178,8 @@
     "key": "button|Next|ac5637f1b5ef",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34120445>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:34120445>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|No_Thanks|d925b90c5a74",
@@ -5127,7 +5227,8 @@
     "key": "button|Next|f4786ff66c17",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34121731>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:34121731>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Yes_Please|be07bdff0625",
@@ -5229,7 +5330,8 @@
     "key": "button|Next|b556f58bef89",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34126714>> addButton(0,\"Next\",o)"
+    "context": "<<POS:34126714>> addButton(0,\"Next\",o)",
+    "stage": 1
   },
   {
     "key": "header|BIGGER|572a3da1095b",
@@ -5451,7 +5553,8 @@
     "key": "button|Next|a7f563a4b7c5",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34135178>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:34135178>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|She_holds_her_hands_together_the_glow_building_between_them_unt|77632f89beff",
@@ -5547,7 +5650,8 @@
     "key": "button|Next|37ee176f38dd",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34139428>> addButton(0,\"Next\",(function(){clearOutput(),output(blockHeader(\"More!\")),author(\"Slab Bulkhead\"),output(\"The ghost’s hands glow again as she presses your shaft between her palms, and your [pc.cock] tingles as the light passes into it. Your cock swells, rising up and out from your crotch with new gr..."
+    "context": "<<POS:34139428>> addButton(0,\"Next\",(function(){clearOutput(),output(blockHeader(\"More!\")),author(\"Slab Bulkhead\"),output(\"The ghost’s hands glow again as she presses your shaft between her palms, and your [pc.cock] tingles as the light passes into it. Your cock swells, rising up and out from your crotch with new gr...",
+    "stage": 1
   },
   {
     "key": "header|Weird_Mail|25a0394f1458",
@@ -5619,7 +5723,8 @@
     "key": "button|Next|0ffd7e247688",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34144094>> addButton(0,\"Next\",z_e)"
+    "context": "<<POS:34144094>> addButton(0,\"Next\",z_e)",
+    "stage": 1
   },
   {
     "key": "header|Weird_Mail|25a0394f1458#1",
@@ -5643,7 +5748,8 @@
     "key": "button|Next|a2c92401b170",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34144772>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"Everybody gets spam every now and then. Don’t worry about it.\")"
+    "context": "<<POS:34144772>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"Everybody gets spam every now and then. Don’t worry about it.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a2c92401b170",
@@ -5679,7 +5785,8 @@
     "key": "button|Next|34daf0e3e9a8",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34145302>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"It’s gonna be fine.\")"
+    "context": "<<POS:34145302>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"It’s gonna be fine.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|34daf0e3e9a8",
@@ -5751,7 +5858,8 @@
     "key": "button|Next|9b4bc0781c9b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34146275>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:34146275>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Something_Weird|cf9e9b5a1f8b",
@@ -6207,7 +6315,8 @@
     "key": "button|Next|da5cc9da302d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34159961>> addButton(0,\"Next\",U_e)"
+    "context": "<<POS:34159961>> addButton(0,\"Next\",U_e)",
+    "stage": 1
   },
   {
     "key": "header|Just_a_Dream|9d9ca45d35e2",
@@ -6279,7 +6388,8 @@
     "key": "button|Next|8f6cae2e8c08",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34162709>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:34162709>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|i_Oh_my_A_laquine_all_the_way_out_here_on_Dhaal_i|030f72adc51d",
@@ -6446,7 +6556,7 @@
   {
     "key": "output|i|db67d1b5595a",
     "original": "”</i>",
-    "translation": "”</i>",
+    "translation": "",
     "context": "<<POS:34166910>>"
   },
   {
@@ -6464,7 +6574,7 @@
   {
     "key": "output|i|d093e4ba44de",
     "original": "”</i>",
-    "translation": "”</i>",
+    "translation": "",
     "context": "<<POS:34167343>>"
   },
   {
@@ -6771,7 +6881,8 @@
     "key": "button|No|588677917aed",
     "original": "No",
     "translation": "不",
-    "context": "<<POS:34271688>> addButton(1,\"No\",(function(){clearOutput(),author(\"Adjatha\"),output(blockHeader(\"Nope\")),output(\"Snatching the tablet back, the faceless giantess tilts her head at a 90 degree angle. <i>“You have made quite a trip only to turn back now. We will be here when you’ve worked up your courage,”</i> she te..."
+    "context": "<<POS:34271688>> addButton(1,\"No\",(function(){clearOutput(),author(\"Adjatha\"),output(blockHeader(\"Nope\")),output(\"Snatching the tablet back, the faceless giantess tilts her head at a 90 degree angle. <i>“You have made quite a trip only to turn back now. We will be here when you’ve worked up your courage,”</i> she te...",
+    "stage": 1
   },
   {
     "key": "button.hover|No|588677917aed",
@@ -6879,7 +6990,8 @@
     "key": "button|Yes|2eed43d22839",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:34274830>> addButton(1,\"Yes\",D_e,\"Yes\",\"Sure. Ghost sex. Why not?\")"
+    "context": "<<POS:34274830>> addButton(1,\"Yes\",D_e,\"Yes\",\"Sure. Ghost sex. Why not?\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Yes|2eed43d22839",
@@ -6909,7 +7021,8 @@
     "key": "button|Next|8425adeb264c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34275193>> addButton(0,\"Next\",H_e)"
+    "context": "<<POS:34275193>> addButton(0,\"Next\",H_e)",
+    "stage": 1
   },
   {
     "key": "header|Something_Stirring|f1bacd8bf8f2",
@@ -7059,7 +7172,8 @@
     "key": "button|Next|dd9017569f19",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:34279225>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:34279225>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Poe_A|27a176145f99",
@@ -7108,5 +7222,566 @@
     "original": "There are plenty, as it turns out, but every single one of them are closed, sold out, or more commonly, both. Frustratingly, it seems you’re a bit unprepared for this year and, coming so close to the end of the season, just about everything’s gone. Unwilling to leave empty handed, you turn off the main streets and start wandering some of the less crowded alleys, trying to ask revelers for directions in the quieter sections, only to be greeted by the same icy hush of the others. Before long, you start feeling a bit discouraged by all the stonewalling and you seek out an alley with lit signs but no silent, judging, masked faces to dishearten you further.",
     "translation": "",
     "context": "<<POS:34282925>>"
+  },
+  {
+    "key": "name.show|Holiday|c2cc72ebe5d5",
+    "original": "Holiday",
+    "translation": "",
+    "context": "<<POS:34283938>> showName(\"Holiday\")"
+  },
+  {
+    "key": "perk|Fixed_CumQ|898b431db447",
+    "original": "Fixed CumQ",
+    "translation": "",
+    "context": "<<POS:34284428>> createPerk(\"Fixed CumQ\",5e4,0,0,0)"
+  },
+  {
+    "key": "perk|Fixed_GirlCumQ|4939ca933e87",
+    "original": "Fixed GirlCumQ",
+    "translation": "",
+    "context": "<<POS:34284622>> createPerk(\"Fixed GirlCumQ\",1e3,0,0,0)"
+  },
+  {
+    "key": "output|As_you_wander_one_such_backstreet_an_illuminated_doorway_catche|150a48ad2549",
+    "original": "As you wander one such backstreet, an illuminated doorway catches your attention. A small, hand-written sign on the outside reads <i>“Holiday Supplies,”</i> and there seems to be a figure moving around in the back room of the otherwise empty store. Figuring it’s worth a shot, you step inside and stride up to the counter, calling out to the owner with a hopeful request. The shadowy figure in the back freezes for a second before slowly, reluctantly coming to the desk. The owner seems to be a young woman, around 6 feet tall, with generous curves and thick, pink hair that frames her angular face like a mane. She has a large number of piercings and a series of elaborate tattoos across her milky skin. Like everyone else on the planet, she’s wearing a costume, dressed in the white and red of a nurse’s uniform, though cut to be more revealing than practical - barely more than a risque swimsuit. Confusingly, she’s also wearing a pair of russet horns and a spaded tail. Maybe she couldn’t decide between a devil and a nurse and just decided to go with both?",
+    "translation": "",
+    "context": "<<POS:34284659>>"
+  },
+  {
+    "key": "output|She_looks_at_you_with_a_cautious_glare_sizing_you_up_while_chew|af538cbf79c1",
+    "original": "She looks at you with a cautious glare, sizing you up while chewing on her lower lip. Seemingly satisfied, she relaxes and leans across the counter, displaying the ample cleavage her costume seems designed to show off. <i>“Sup?”</i>",
+    "translation": "",
+    "context": "<<POS:34285735>>"
+  },
+  {
+    "key": "output|A_little_off_put_you_ask_her_if_she_s_still_got_any_costumes_fo|67ee0481462f",
+    "original": "A little off-put, you ask her if she’s still got any costumes for sale.",
+    "translation": "",
+    "context": "<<POS:34285982>>"
+  },
+  {
+    "key": "output|i_Costumes_i_she_asks_with_a_blank_face_Her_eyes_flutter|80f3b4a5b3fb",
+    "original": "<i>“Costumes?”</i> she asks, with a blank face. Her eyes flutter in surprise. <i>“Uh...”</i> she glances over her shoulder at the backroom. <i>“Yeah? Yeah.”</i> She puts on a smirking grin. <i>“Yeah, we’ve got costumes. Name’s Holiday. This is my... store? Yeah, store. Come to the back and we’ll get you in something.”</i> Suspicious demeanor aside, you follow after the sashaying woman, a little impressed by the life-like movements of her 3-foot long tail. Must be some kind of temporary spinal graft you think, as you enjoy the supple ripeness of her barely covered ass as well.",
+    "translation": "",
+    "context": "<<POS:34286068>>"
+  },
+  {
+    "key": "output|The_back_room_is_mostly_filled_with_sealed_crates_and_unmarked_b|3d3ff12c8514",
+    "original": "The back room is mostly filled with sealed crates and unmarked boxes that give off a weird, aromatic smell that seems vaguely familiar but you can’t quite place. There are a number of cheap coat racks with random garments hanging from them without any rhyme or reason. Holiday produces a small, bone pipe from seemingly nowhere and puts what appears to be a piece of incense in it, puffing away as she watches you with private amusement. <i>“<b>Any of them are yours for \".concat(V_e.toLocaleString(),\" creds.</b> Just let me know if anything catches your eye,”</i> she murmurs.\")",
+    "translation": "",
+    "context": "<<POS:34286665>>"
+  },
+  {
+    "key": "button|Talk|689fb7a41143",
+    "original": "Talk",
+    "translation": "",
+    "context": "<<POS:34287352>> addButton(0,\"Talk\",(function(){clearOutput(),e(),author(\"Adjatha\"),output(\"As excited as you are to get out there and start partying your brains out, it might be prudent to get to know this woman a bit better. She’s been acting pretty shifty and some of these costumes look sketchy at best. You start..."
+  },
+  {
+    "key": "header|Costumes|29d0d70026c2",
+    "original": "Costumes",
+    "translation": "",
+    "context": "<<POS:34291224>>"
+  },
+  {
+    "key": "output|You_take_a_gander_at_the_shop_s_inventory_What_costume_would_yo|4ccc648d48b6",
+    "original": "You take a gander at the shop’s inventory. What costume would you like to purchase?",
+    "translation": "",
+    "context": "<<POS:34291244>>"
+  },
+  {
+    "key": "output|Glancing_around_at_some_of_the_costumes_you_pull_one_randomly_o|72c166e3cdd3",
+    "original": "Glancing around at some of the costumes, you pull one randomly off the rack - a small green number that seems to be adorned by black straps. It’s unclear what you’re looking at, exactly, but the zipper in the back suggests that this is a bodysuit. The material feels like a soft rubber on the inside, but there’s an unusually yielding sponginess to it that almost makes you think of some high-tech medical science.",
+    "translation": "",
+    "context": "<<POS:34295667>>"
+  },
+  {
+    "key": "output|Holiday_flicks_her_earlobe_with_her_thumb_impatiently_waiting_f|3aa2532cce83",
+    "original": "Holiday flicks her earlobe with her thumb, impatiently waiting for you to make your selection. Noticing you’ve picked one up, she leans forward to see what you’ve got. <i>“Oh yeah. That’s a goblin suit. It came as part of a couples set, along with a ‘ghost’ costume. But... well let’s just say that I’m on a list that I don’t really want to be on, and ‘selling’ too many ghost costumes is a good way to move up from number 11 to number 10.”</i>",
+    "translation": "",
+    "context": "<<POS:34296096>>"
+  },
+  {
+    "key": "output|Would_you_like_to_buy_the_goblin_suit_or_select_another|d290495e80f8",
+    "original": "Would you like to buy the goblin suit, or select another?",
+    "translation": "",
+    "context": "<<POS:34296555>>"
+  },
+  {
+    "key": "button|Buy_It|47e672f4421d",
+    "original": "Buy It",
+    "translation": "",
+    "context": "<<POS:34296655>> addButton(0,\"Buy It\",(function(){clearOutput(),e(),l(\"goblin costume\",t),output(\"Goblins are spooky, right? This should be enough to get through that creepy wall of stares that frustrated you before. After Holiday collects her payment, she gestures at a curtained corner of the room. <i>“Feel free to..."
+  },
+  {
+    "key": "button.hover|Buy_It|47e672f4421d",
+    "original": "Buy It",
+    "translation": "",
+    "context": "<<POS:34313954>> addButton(0,\"Buy It\",(function(){clearOutput(),e(),l(\"goblin costume\",t),output(\"Goblins are spooky, right? This should be enough to get through that creepy wall of stares that frustrated you before. After Holiday collects her payment, she gestures at a curtained corner of the room. <i>“Feel free to..."
+  },
+  {
+    "key": "button.tooltip|Costs|1eb06834d27c",
+    "original": "Costs ",
+    "translation": "",
+    "context": "<<POS:34313963>> addButton(0,\"Buy It\",(function(){clearOutput(),e(),l(\"goblin costume\",t),output(\"Goblins are spooky, right? This should be enough to get through that creepy wall of stares that frustrated you before. After Holiday collects her payment, she gestures at a curtained corner of the room. <i>“Feel free to..."
+  },
+  {
+    "key": "button|Back|ca97514d9bb8",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:34314025>> addButton(14,\"Back\",n)",
+    "stage": 1
+  },
+  {
+    "key": "output|Skipping_over_the_larger_costumes_you_notice_a_ruddy_orange_hel|14a5a23aa4c8",
+    "original": "Skipping over the larger costumes, you notice a ruddy orange helmet lying atop one of the numerous unmarked crates. Picking it up, you see with delight that it’s about your size and it even has some neat little flourishes on it. Bundles of tubes connect to the mask, seemingly to keep you cool while wearing it, and a little switch inside makes the green visor glow with a pale light - perfect for finding your way out of these back alleys.",
+    "translation": "",
+    "context": "<<POS:34314092>>"
+  },
+  {
+    "key": "output|i_Oh_yeah_that_old_thing_i_Holiday_remarks_i_There_was|9a48f5d8a5b3",
+    "original": "<i>“Oh yeah, that old thing,”</i> Holiday remarks. <i>“There was a whole ‘Bounty Hunter’ suit for it, but you wouldn’t believe how dirty the thing was. Dirt, grease, slime, even scorch marks. You’d think the previous owner did nothing but crawl through tubes for a living. Lucky for you, I’ve got an extra flourish that I’ll throw in for free.”</i> She flashes a crooked smile.",
+    "translation": "",
+    "context": "<<POS:34314547>>"
+  },
+  {
+    "key": "output|Would_you_like_to_buy_the_Bounty_Hunter_Helmet_or_select_anothe|0f8b04951bb2",
+    "original": "Would you like to buy the Bounty Hunter Helmet, or select another?",
+    "translation": "",
+    "context": "<<POS:34314939>>"
+  },
+  {
+    "key": "button|Buy_It|9f3cfe30e1ca",
+    "original": "Buy It",
+    "translation": "",
+    "context": "<<POS:34315048>> addButton(0,\"Buy It\",(function(){clearOutput(),e(),author(\"Adjatha\"),l(\"bounty hunter helmet\",o),output(\"Nodding, you sign over the cost of the costume and loosen the straps on the helmet, lowering it over your\"),pc.isBald()?output(\" head\"):output(\" [pc.hair]\"),output(\" carefully. As the large, oblo..."
+  },
+  {
+    "key": "button.hover|Buy_It|9f3cfe30e1ca",
+    "original": "Buy It",
+    "translation": "",
+    "context": "<<POS:34332735>> addButton(0,\"Buy It\",(function(){clearOutput(),e(),author(\"Adjatha\"),l(\"bounty hunter helmet\",o),output(\"Nodding, you sign over the cost of the costume and loosen the straps on the helmet, lowering it over your\"),pc.isBald()?output(\" head\"):output(\" [pc.hair]\"),output(\" carefully. As the large, oblo..."
+  },
+  {
+    "key": "button.tooltip|Costs|0545f0257a86",
+    "original": "Costs ",
+    "translation": "",
+    "context": "<<POS:34332744>> addButton(0,\"Buy It\",(function(){clearOutput(),e(),author(\"Adjatha\"),l(\"bounty hunter helmet\",o),output(\"Nodding, you sign over the cost of the costume and loosen the straps on the helmet, lowering it over your\"),pc.isBald()?output(\" head\"):output(\" [pc.hair]\"),output(\" carefully. As the large, oblo..."
+  },
+  {
+    "key": "button|Back|ca97514d9bb8#1",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:34332806>> addButton(14,\"Back\",n)",
+    "stage": 1
+  },
+  {
+    "key": "output.expr|Taking_a_glance_at_the_rack_your_eyes_are_drawn_to_a_costume_th|4bef5ed8f950",
+    "original": "Taking a glance at the rack, your eyes are drawn to a costume that would look more at home at the Uritten Games Expo than a masquerade party: a black bodysuit overlaid with metallic green plates on the arms, legs, crotch, and chest. They leave the belly, thighs, and cleavage completely bare, and the boob-plates on the chest are clearly meant for a girl with some serious ballistics. It almost looks like something a soldier would wear, just cut down into a skimpy outfit that draws more lustful gazes than it does enemy fire.\"+{var0}.mf(\" You’d definitely be masquerading as a hot babe with this on!\",\"\")",
+    "translation": "",
+    "context": "<<POS:34332871>> <<VARS:var0=pc>> output(\"Taking a glance at the rack, your eyes are drawn to a costume that would look more at home at the Uritten Games Expo than a masquerade party: a black bodysuit overlaid with metallic green plates on the arms, legs, crotch, and chest. They leave the belly, thighs, and cleavage completely bare, and the boob-plates on the chest are clearly meant for a girl with some serious ballistics. It almost looks like something a soldier would wear, just cut down into a skimpy outfit that draws more lustful gazes than it does enemy fire.\"+pc.mf(\" You’d definitely be masquerading as a hot babe with this on!\",\"\"))"
+  },
+  {
+    "key": "output|Holiday_smirks_as_she_sees_you_poking_at_the_latex_like_bodysuit|ff27915a89a3",
+    "original": "Holiday smirks as she sees you poking at the latex-like bodysuit underneath. <i>“Oh, yeah, the Captain Terra outfit. For all your gun-toting space marine needs. Guns not included. Gotta buy those separate,”</i> she smirks. <i>“Bodysuit will change to match your skin color if you put it on, shape ",
+    "translation": "",
+    "context": "<<POS:34333487>>"
+  },
+  {
+    "key": "output|that_rockin_bod|8f8c70943f9c",
+    "original": "that rockin’ bod",
+    "translation": "",
+    "context": "<<POS:34333807>>"
+  },
+  {
+    "key": "output|that_plain_belly|c90983073099",
+    "original": "that plain belly",
+    "translation": "",
+    "context": "<<POS:34333846>>"
+  },
+  {
+    "key": "output|that_flabby_ass|784eba700c52",
+    "original": "that flabby ass",
+    "translation": "",
+    "context": "<<POS:34333873>>"
+  },
+  {
+    "key": "output|into_something_a_body_builder_d_be_proud_of_If_a_body_builder|776222206acb",
+    "original": " into something a body builder’d be proud of. If a body builder had huge balloon tits, anyway.”</i>",
+    "translation": "",
+    "context": "<<POS:34333899>>"
+  },
+  {
+    "key": "output|Would_you_like_to_buy_the_amazon_like_armor_or_look_at_another|24b28d8ce3da",
+    "original": "Would you like to buy the amazon-like armor, or look at another costume?",
+    "translation": "",
+    "context": "<<POS:34334013>>"
+  },
+  {
+    "key": "button|Buy_It|fe74cdde9b8d",
+    "original": "Buy It",
+    "translation": "",
+    "context": "<<POS:34334128>> addButton(0,\"Buy It\",(function(){clearOutput(),e(),author(\"Savin\"),l(\"Captain Terra outfit\",t),output(\"Well, you wouldn’t call this get-up spooky, but the thought of masquerading as a big, buff amazon in power armor is pretty sexy. You turn to Holiday and give her your payment: you’ve found the perf..."
+  },
+  {
+    "key": "button.hover|Buy_It|fe74cdde9b8d",
+    "original": "Buy It",
+    "translation": "",
+    "context": "<<POS:34377590>> addButton(0,\"Buy It\",(function(){clearOutput(),e(),author(\"Savin\"),l(\"Captain Terra outfit\",t),output(\"Well, you wouldn’t call this get-up spooky, but the thought of masquerading as a big, buff amazon in power armor is pretty sexy. You turn to Holiday and give her your payment: you’ve found the perf..."
+  },
+  {
+    "key": "button.tooltip|Costs|cf088633557b",
+    "original": "Costs ",
+    "translation": "",
+    "context": "<<POS:34377599>> addButton(0,\"Buy It\",(function(){clearOutput(),e(),author(\"Savin\"),l(\"Captain Terra outfit\",t),output(\"Well, you wouldn’t call this get-up spooky, but the thought of masquerading as a big, buff amazon in power armor is pretty sexy. You turn to Holiday and give her your payment: you’ve found the perf..."
+  },
+  {
+    "key": "button|Back|ca97514d9bb8#2",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:34377661>> addButton(14,\"Back\",n)",
+    "stage": 1
+  },
+  {
+    "key": "output|It_s_impossible_not_to_notice_the_elephant_in_the_room_or_this|988aaf988bb4",
+    "original": "It’s impossible not to notice the elephant in the room - or this case, horse. In between a number of floppy, rubbery bodysuits is the powerful lower half of a terran equine, complete with a tail and four hoof-capped legs. The only thing missing is the beast’s head. Where the neck would begin, there is only an empty hole, perfectly shaped for someone like you to squeeze into. There’s no visible port for a control console. The rubbery-looking interior must be lined with sophisticated sensors to detect the firing of your muscle’s neurons. How else could you get around with it on?",
+    "translation": "",
+    "context": "<<POS:34377710>>"
+  },
+  {
+    "key": "output|Holiday_flicks_her_earlobe_with_her_thumb_impatiently_waiting_f|58fc51699082",
+    "original": "Holiday flicks her earlobe with her thumb, impatiently waiting for you to make your selection. <i>“You gonna spend all night looking the gift horse in the mouth or go party? Centaur’s aren’t real common choices - real expensive. I’d normally charge way more, but... I’m saving on having to store it all year till next Masque.”</i> Her eyes flick to the door, then back to you. <i>“Not to rush you, but I’d like to close up and join the party.”</i>",
+    "translation": "",
+    "context": "<<POS:34378308>>"
+  },
+  {
+    "key": "output|Would_you_like_to_buy_the_centaur_body_or_something_else|f37bfb9fffb9",
+    "original": "Would you like to buy the centaur body or something else?",
+    "translation": "",
+    "context": "<<POS:34378770>>"
+  },
+  {
+    "key": "output|It_might_not_be_very_spooky_but_it_is_imposing_It_d_probably_g|624f06de7632",
+    "original": "It might not be very spooky, but it is imposing. It’d probably get you past all those creepy stares better than something a little less bombastic, and once you rejoin the party, you’ll be sure to be a popular figure. Who wouldn’t want to party with a centaur? <i>“I’ll take it.”</i>",
+    "translation": "",
+    "context": "<<POS:34378916>>"
+  },
+  {
+    "key": "output|Holiday_smirks_and_has_you_transfer_the_credits_to_a_dubious_loo|16505fc8ff22",
+    "original": "Holiday smirks and has you transfer the credits to a dubious-looking holding account. The bank is some rimward corp you’ve never heard of. <i>“Great. You can change here.",
+    "translation": "",
+    "context": "<<POS:34379213>>"
+  },
+  {
+    "key": "output|That_s_not_a_problem_for_you_since_you_re_a_nudist_or_somethin|f0199f7dc605",
+    "original": " That’s not a problem for you, since you’re a nudist or something, right? Just climb on in and let the servos do the rest. It’ll be a lot easier than trying to drag four hundred pounds of horse butt into the little changing room.",
+    "translation": "",
+    "context": "<<POS:34379414>>"
+  },
+  {
+    "key": "output|Unless_you_plan_on_dragging_four_hundred_pounds_of_horse_butt_a|c656406711ae",
+    "original": " Unless you plan on dragging four hundred pounds of horse butt all the way home. I doubt you could even fit it in the changing room. Just shuck your bottoms and climb. It won’t work without skin contact",
+    "translation": "",
+    "context": "<<POS:34379655>>"
+  },
+  {
+    "key": "output|or_pc_skinFurScalesNoun_I_guess|03fa74d0a4a0",
+    "original": ", or [pc.skinFurScalesNoun], I guess",
+    "translation": "",
+    "context": "<<POS:34379917>>"
+  },
+  {
+    "key": "output|i|bcef2da86077",
+    "original": "”</i>",
+    "translation": "",
+    "context": "<<POS:34379977>>"
+  },
+  {
+    "key": "output|You_protest_What_are_you_supposed_to_do_with_your_pc_lowerGarm|39b052530dba",
+    "original": "You protest. What are you supposed to do with your [pc.lowerGarments]? This costume doesn’t exactly come with anywhere to store your stuff.",
+    "translation": "",
+    "context": "<<POS:34380017>>"
+  },
+  {
+    "key": "output|You_protest_wondering_where_you_re_supposed_to_store_your_gear|4e40fc36ccee",
+    "original": "You protest, wondering where you’re supposed to store your gear. The few pieces of equipment you do keep on your mostly-naked body wouldn’t sit right once your hips are enveloped in the costume. There’s not even any storage compartments to hide your stuff!",
+    "translation": "",
+    "context": "<<POS:34380171>>"
+  },
+  {
+    "key": "output|Holiday_huffs_i_Well_duh_Nobody_goes_to_Masque_loaded_up_wit|c9cdf87d7177",
+    "original": "Holiday huffs, <i>“Well duh! Nobody goes to Masque loaded up with a bunch of explorer’s gear.”</i> She idly kicks a crate. <i>“Unless they’re dressed up as an explorer, but who’s ever heard of a centaur explorer? You’d be better off going as a brainy galotian or a kui-tan nun.”</i>",
+    "translation": "",
+    "context": "<<POS:34380442>>"
+  },
+  {
+    "key": "output|Point_taken|2f51a8a87b0c",
+    "original": "Point taken.",
+    "translation": "",
+    "context": "<<POS:34380739>>"
+  },
+  {
+    "key": "output|i_I_ll_watch_your_shit_for_you_Just_stick_it_in_a_corner_and|8d3665930c7c",
+    "original": "<i>“I’ll watch your shit for you. Just stick it in a corner, and you can pick it up in the morning after you’re done partying.”</i> She tilts her head to the side, pink hair falling across her cat-like yellow eyes. <i>“Don’t you trust me?”</i> The crate she’s sitting on lets out a deep, rumbling growl, which she silences with a crunching blow from her knuckles on the container’s reinforced lid.",
+    "translation": "",
+    "context": "<<POS:34380766>>"
+  },
+  {
+    "key": "output|She_s_about_as_trustworthy_as_a_prom_date_s_purity_promise_yet|76263d18dd3e",
+    "original": "She’s about as trustworthy as a prom date’s purity promise, yet you don’t have a lot of other options. Wandering around without a costume seems a good way to flag yourself as a tourist and an easy mark. At least with your stuff in the store, you can get out and have some fun before the party ends for the night. Fuck it; you may as well have some fun.",
+    "translation": "",
+    "context": "<<POS:34381178>>"
+  },
+  {
+    "key": "output|Stripping|c77ef25f7eba",
+    "original": "Stripping",
+    "translation": "",
+    "context": "<<POS:34381664>>"
+  },
+  {
+    "key": "output|Getting_ready_to_climb_in|5b88f2dc1f9a",
+    "original": "Getting ready to climb in",
+    "translation": "",
+    "context": "<<POS:34381684>>"
+  },
+  {
+    "key": "output|is_made_awkward_by_the_demonic_nurse_s_lecherous_eyes_You_swea|918b7daffff2",
+    "original": " is made awkward by the demonic nurse’s lecherous eyes. You swear that her eyes are drinking you up like a tall glass of water, but every time you glance in her direction, she’s diligently checking her nails. Maybe your brain’s just playing tricks on you after suffering under all the creepy stares outside. You resolve to put it behind you and approach your new costume.",
+    "translation": "",
+    "context": "<<POS:34381720>>"
+  },
+  {
+    "key": "output|It_looks_even_bigger_up_close_You_can_t_believe_you_got_it_so_c|8632e3959a10",
+    "original": "It looks even bigger up close. You can’t believe you got it so cheap. Even if its locomotors are cheap crap from Plurion 4, it’d still be a steal. The exterior looks like the real deal, too, with life-like fur and a real, horse-hair tail. It even <i>smells</i> sort of like an animal, not at all like a machine of metal, plastic, and rubber. Wow. You brush the coat a few times, and you swear you can feel the chest lift up with a breath. It must have air-pumps and bladders beneath the exterior to mimic the function of a living equine. You glance at Holiday and wonder if she knows just how amazing of a costume she’s selling you.",
+    "translation": "",
+    "context": "<<POS:34382106>>"
+  },
+  {
+    "key": "output|The_medically_attired_demon_is_still_checking_her_nails_Score|4db79ba09a0e",
+    "original": "The medically-attired demon is still checking her nails. Score.",
+    "translation": "",
+    "context": "<<POS:34382753>>"
+  },
+  {
+    "key": "output|Peering_inside_the_opening_you_can_t_help_but_feel_a_little_cre|3c0e3b93615e",
+    "original": "Peering inside the opening, you can’t help but feel a little creeped out. It’s pitch black and rubbery, but glossy as if wet. You poke it with a finger to test, and your finger comes away oily. It must be self-lubricating. The artificial flesh jiggles a bit from the contact, sending ripples through the inorganic animal simulacrum like tiny waves. Bizarre.",
+    "translation": "",
+    "context": "<<POS:34382831>>"
+  },
+  {
+    "key": "output|You_do_This_horse_body_is_fully_functional_and_anatomically_cor|aa9de546c9b9",
+    "original": "You do! This horse body is fully functional and anatomically correct - for a male horse! You let yourself be lead out the door, enjoying the way your too-heavy balls sway between your hind legs, sending pleasant tingles to your sheath-enclosed cock. It stretches longer within the sheath, threatening to burst forth and dangle out in the open, where anyone could see it. If just thinking about it feels this good, how good must it feel to fuck someone?",
+    "translation": "",
+    "context": "<<POS:34383332>>"
+  },
+  {
+    "key": "output|You_do_This_horse_body_is_fully_functional_and_anatomically_cor|b9c3c418de1a",
+    "original": "You do! This horse body is fully functional and anatomically correct - for a female horse! You let yourself be lead out the door, enjoying the way the full lips of your horsecunt press and rub against one either. You can even feel your clit inside its hood, though your excitement at this discovery is making the cherry-sized pleasure organ begin to swell outside of its quasi-organic encasement. If just thinking about it feels this good, how good must it feel to get fucked?",
+    "translation": "",
+    "context": "<<POS:34383801>>"
+  },
+  {
+    "key": "output|You_do_This_horse_body_is_fully_functional_and_more_than_anatom|59d055aaa30a",
+    "original": "You do! This horse body is fully functional and more than anatomically correct! Both sets of genitalia are there in full form, from weighty swaying balls to plush, wet lips. You can feel the former bouncing between your hind legs and the latter puffing up with excitement at the revelation, revealing a cherry-sized pleasure organ ripe for the touching. If just thinking about it feels this good, how good must centaur sex feel?",
+    "translation": "",
+    "context": "<<POS:34384288>>"
+  },
+  {
+    "key": "output|When_Holiday_pushes_you_out_the_door_you_stop_to_wiggle_your_as|ae94cbae3b55",
+    "original": "When Holiday pushes you out the door, you stop to wiggle your ass in her direction, amazed at the astounding levels of sensation this suit is capable of. You’re barely aware of the presence of your real [pc.legOrLegs] at all. You’d probably wind up moving your horse legs instead if you tried to move them around. Not much point in it while they’re locked up in the suit anyway.",
+    "translation": "",
+    "context": "<<POS:34384731>>"
+  },
+  {
+    "key": "output|Holiday_brazenly|8c790fabefc2",
+    "original": "Holiday brazenly ",
+    "translation": "",
+    "context": "<<POS:34385124>>"
+  },
+  {
+    "key": "output|grabs_hold_of_your_centaur_sack_and_rolls_the_weighty_orbs_betwe|c4493516d15c",
+    "original": "grabs hold of your centaur sack and rolls the weighty orbs between her fingers",
+    "translation": "",
+    "context": "<<POS:34385158>>"
+  },
+  {
+    "key": "output|caresses_your_folds_and_slips_a_finger_in_between|3e265eba8c5c",
+    "original": "caresses your folds and slips a finger in between.",
+    "translation": "",
+    "context": "<<POS:34385247>>"
+  },
+  {
+    "key": "output|i_Holy_shit_you_re_such_a_fucking|e4e152b2cb08",
+    "original": " <i>“Holy shit, you’re such a fucking ",
+    "translation": "",
+    "context": "<<POS:34385308>>"
+  },
+  {
+    "key": "output|mare_slut_Twenty_seconds_in_a_centaur_costume_and_you_re_alread|1e923cb42e19",
+    "original": "mare slut. Twenty seconds in a centaur costume and you’re already leaking like a faucet. You’d better get a handle on yourself or you’ll wind up seeing just how much jizz a horsecunt can hold.",
+    "translation": "",
+    "context": "<<POS:34385363>>"
+  },
+  {
+    "key": "output|slutty_stallion_Twenty_seconds_in_a_centaur_costume_and_you_re|9181e2d1d199",
+    "original": "slutty stallion. Twenty seconds in a centaur costume and you’re already about to pop out of your sheath. Did you pick this one cause you know horses can get off just from slapping their cock into their belly? I bet you can’t even stop yourself from getting hard. Horny taur-[pc.boyGirl] like you’ll probably keep [pc.hisHer] cock on display until [pc.heShe] can find someone to take it, won’t you?",
+    "translation": "",
+    "context": "<<POS:34385572>>"
+  },
+  {
+    "key": "output|hermy_slut_Twenty_seconds_into_wearing_a_centaur_costume_and_y|188124cb136d",
+    "original": "hermy slut. Twenty seconds into wearing a centaur costume, and you’re already starting to leak. Hell, your cock’s gonna pop out of that sheath any second. I’d bet you couldn’t go more than a block without fucking someone, but nobody would ever bet against that.",
+    "translation": "",
+    "context": "<<POS:34385980>>"
+  },
+  {
+    "key": "output.expr|Maybe_we_ll_bump_into_each_other_during_the_festivities_skanky|1df8324a57a7",
+    "original": " Maybe we’ll bump into each other during the festivities, skanky \"+{var0}.mf(\"stallion\",\"slut\")+\".”</i> She breaks away with another familiar caress to your muscular rump, then vanishes back into her shop. The lights go out a moment later.",
+    "translation": "",
+    "context": "<<POS:34386252>> <<VARS:var0=pc>> output(\" Maybe we’ll bump into each other during the festivities, skanky \"+pc.mf(\"stallion\",\"slut\")+\".”</i> She breaks away with another familiar caress to your muscular rump, then vanishes back into her shop. The lights go out a moment later.\")"
+  },
+  {
+    "key": "name.show|Dane_Holiday|6c1ef9f184f3",
+    "original": "Dane & Holiday",
+    "translation": "",
+    "context": "<<POS:34388076>> showName(\"Dane & Holiday\")"
+  },
+  {
+    "key": "output.expr|That_sounds_like_consent_to_you_You_wiggle_your_rump_smearing|262bb5bb40bf",
+    "original": "That sounds like consent to you. You wiggle your rump, smearing long lines of glistering horse-lube across the loincloth dividing you and the four-armed ausar, marinating his \"+({var0}?\"wriggling\":\"bestial\")+\" phallus in slippery pheromones. A big boy like him is going to need lots of lube to help carry all his sperm into your womb. Your achingly empty crevasse clenches, hollow and needy. Grinding harder against him, you pin Dane between a rock and a wet place.",
+    "translation": "",
+    "context": "<<POS:34388101>> <<VARS:var0=e>> output(\"That sounds like consent to you. You wiggle your rump, smearing long lines of glistering horse-lube across the loincloth dividing you and the four-armed ausar, marinating his \"+(e?\"wriggling\":\"bestial\")+\" phallus in slippery pheromones. A big boy like him is going to need lots of lube to help carry all his sperm into your womb. Your achingly empty crevasse clenches, hollow and needy. Grinding harder against him, you pin Dane between a rock and a wet place.\")"
+  },
+  {
+    "key": "output.expr|Four_powerful_hands_press_back_against_your_straining_haunches|72206344bcf0",
+    "original": "Four powerful hands press back against your straining haunches, shifting your bulk enough to give the musclebound merc some breathing room - breathing room he’s all too happy to spend yanking the silk curtain from between your bodies. The slimy garment lands on a cheering human’s head, momentarily muffling her jubilation, but you pay it no mind. Without the condom-tight fabric stretched between Dane’s cock and your gushing nethers, his phallus is free to plunge into your waiting gates, spearing through the entrance with the force of a \"+({var0}?\"striking snake\":\"stampeding stallion\")+\".",
+    "translation": "",
+    "context": "<<POS:34388576>> <<VARS:var0=e>> output(\"\\n\\nFour powerful hands press back against your straining haunches, shifting your bulk enough to give the musclebound merc some breathing room - breathing room he’s all too happy to spend yanking the silk curtain from between your bodies. The slimy garment lands on a cheering human’s head, momentarily muffling her jubilation, but you pay it no mind. Without the condom-tight fabric stretched between Dane’s cock and your gushing nethers, his phallus is free to plunge into your waiting gates, spearing through the entrance with the force of a \"+(e?\"striking snake\":\"stampeding stallion\")+\".\")"
+  },
+  {
+    "key": "output|It_feels_like_a_normal_ausar_cock_at_first_The_tapered_tip_lets|66a2182191c4",
+    "original": "It feels like a normal ausar cock at first. The tapered tip lets it slide with ease, quickly broadening into a sturdy base, the kind you’d imagine could lift your hind legs off the ground with a single frenzied hump, and that’s only the beginning. Dane’s knot, the anchor of his pillar of cock, stretches you wide open. It’s pleasant, really. Your body is built to be stuffed with bigger dicks than this, so the swollen lump in the base is nothing more than erotic bonus.",
+    "translation": "",
+    "context": "<<POS:34389244>>"
+  },
+  {
+    "key": "output|All_things_considered_it_s_a_pretty_good_start_to_your_evening|b9f1c23287ba",
+    "original": "All things considered, it’s a pretty good start to your evening.",
+    "translation": "",
+    "context": "<<POS:34389730>>"
+  },
+  {
+    "key": "output|The_knot_pushes_deeper_Your_eyes_widen_in_surprise_as_the_bulb|af210608a3e6",
+    "original": "The knot pushes deeper. Your eyes widen in surprise as the bulb burrows into your passage, leaving your lips hanging cutely agape behind. There’s no time to puzzle over this most recent development, not when Dane is spooling near-equine lengths of prick into your quim. Another knot pushes in, and your legs tremble, making your hooves slip and slide in the puddle you’ve made below. Your alien partner holds you upright, keeping you from spilling entirely to the ground. He literally saves your ass, if only so that he can hold his hips against it and continue to deep-dick you.",
+    "translation": "",
+    "context": "<<POS:34389809>>"
+  },
+  {
+    "key": "output|Somewhat_cowed_by_his_display_of_might_and_control_you_kneel_do|532836d1efe8",
+    "original": "Somewhat cowed by his display of might and control, you kneel down on your forelegs, ceding Dane the authority to use your body as he will, allowing you to focus on the way he’s slowly but steadily filling your cunt. His dick seems endless, revealing more and more knot-like bulges with each passing minute. You look back at him, delirious with pleasure, squeezing down on the wiggling, hybrid cock until the pressure inflates every orb along the length of his phallus. They open you wider than two rutting pony-boys ever could.",
+    "translation": "",
+    "context": "<<POS:34390403>>"
+  },
+  {
+    "key": "output|It_feels_like_a_perfect_fit_at_first_The_broad_tip_slides_with|6e125188c942",
+    "original": "It feels like a perfect fit at first. The broad tip slides with ease, quickly flaring out when your lips reach his sturdy base, the kind you’d imagine could lift your hind legs off the ground with a single frenzied hump. Dane’s medial ring caresses your [pc.clits 0], giving you a slight tickle before the rest of the length is pushed inside you.",
+    "translation": "",
+    "context": "<<POS:34390948>>"
+  },
+  {
+    "key": "output|All_things_considered_it_s_a_pretty_good_start_to_your_evening|ceec2ddcad3a",
+    "original": "All things considered, it’s a pretty good start to your evening.",
+    "translation": "",
+    "context": "<<POS:34391309>>"
+  },
+  {
+    "key": "output.expr|Your_eyes_widen_in_var0_surprise_as_a_excitement_as_a_fa|9e0e2a288682",
+    "original": "Your eyes widen in \"+({var0}?\"surprise as a\":\"excitement as a familiar\")+\" bulb burrows into your passage. There’s no time to puzzle over this most recent development, not when Dane is ramming his fully-equine length of prick into your quim. Your legs tremble, making your hooves slip and slide in the puddle you’ve made below. Your alien partner holds you upright, keeping you from spilling entirely to the ground. He literally saves your ass, if only so that he can hold his hips against it and continue to deep-dick you.",
+    "translation": "",
+    "context": "<<POS:34391388>> <<VARS:var0=void 0===flags.DANE_VAGFUCKS>> output(\"\\n\\nYour eyes widen in \"+(void 0===flags.DANE_VAGFUCKS?\"surprise as a\":\"excitement as a familiar\")+\" bulb burrows into your passage. There’s no time to puzzle over this most recent development, not when Dane is ramming his fully-equine length of prick into your quim. Your legs tremble, making your hooves slip and slide in the puddle you’ve made below. Your alien partner holds you upright, keeping you from spilling entirely to the ground. He literally saves your ass, if only so that he can hold his hips against it and continue to deep-dick you.\")"
+  },
+  {
+    "key": "output|Somewhat_cowed_by_his_display_of_might_and_control_you_kneel_do|95439d183eb4",
+    "original": "Somewhat cowed by his display of might and control, you kneel down on your forelegs, ceding Dane the authority to use your body as he will, allowing you to focus on the way he’s slowly but steadily filling your cunt. His dick completely and utterly fills you with its veiny length. You look back at him, delirious with pleasure, squeezing down on the wiggling, hybrid cock. The pressure inflates his knot, the anchor at the base of his pillar of cock, stretching wider than two rutting pony-boys ever could.",
+    "translation": "",
+    "context": "<<POS:34391948>>"
+  },
+  {
+    "key": "output|Dane_slaps_your_ass_keeping_ahold_of_you_with_his_other_three_h|fde17b301af3",
+    "original": "Dane slaps your ass, keeping ahold of you with his other three hands. <i>“You got a tight cunt for a taur-[pc.boyGirl], you know?”</i> He yanks back, dragging dozens of spherical protrusions against misfiring nerves, then slowly pushes back in. <i>“A guy could get used to this.”</i>",
+    "translation": "",
+    "context": "<<POS:34392471>>"
+  },
+  {
+    "key": "output|i_Room_for_one_more_i_a_high_pitched_mischievous_voice_ca|0cb3912c1776",
+    "original": "<i>“Room for one more?”</i> a high-pitched, mischievous voice calls over the debauched din.",
+    "translation": "",
+    "context": "<<POS:34392769>>"
+  },
+  {
+    "key": "output|You_blink_tears_of_pleasure_from_your_eyes_and_suck_your_tongue|6bf4910f50eb",
+    "original": "You blink tears of pleasure from your eyes and suck your tongue back into your mouth.",
+    "translation": "",
+    "context": "<<POS:34392875>>"
+  },
+  {
+    "key": "output|It_was_wetly_lapping_at_one_of_your_pc_nipples|1b0805b1e32d",
+    "original": " It was wetly lapping at one of your [pc.nipples].",
+    "translation": "",
+    "context": "<<POS:34393049>>"
+  },
+  {
+    "key": "output|When_did_that_start_You_catch_a_flash_of_pink_before_something|c9c840362c50",
+    "original": " When did that start? You catch a flash of pink before something heavy, wet, and fragrant slaps onto your face, thick enough to blot out the sight of the newcomer.",
+    "translation": "",
+    "context": "<<POS:34393110>>"
+  },
+  {
+    "key": "output.expr|It_s_a_cock_If_the_smooth_skin_and_veiny_ribs_didn_t_give_it_aw|ec0bf3c48c31",
+    "original": "It’s a cock. If the smooth skin and veiny ribs didn’t give it away, there’d be no mistaking it. It <i>smells</i> like cock, and not just any cock: \"+({var0}?\"a\":\"<i>another</i>\")+\" horse-cock. Its heady pheromones fill your nose with their musk and your brain with barnyard romps, the perfect complement to the sharp scent your cunny is doing its best to flood the bar with.",
+    "translation": "",
+    "context": "<<POS:34393288>> <<VARS:var0=e>> output(\"\\n\\nIt’s a cock. If the smooth skin and veiny ribs didn’t give it away, there’d be no mistaking it. It <i>smells</i> like cock, and not just any cock: \"+(e?\"a\":\"<i>another</i>\")+\" horse-cock. Its heady pheromones fill your nose with their musk and your brain with barnyard romps, the perfect complement to the sharp scent your cunny is doing its best to flood the bar with.\")"
+  },
+  {
+    "key": "output|Dane_grunts_something_but_you_don_t_care_Your_back_half_isn_t|04e45c2775c7",
+    "original": "Dane grunts something, but you don’t care. Your back half isn’t what’s being discussed here. It’s your mouth, and you’ll decide what goes in it. Or you would if you hadn’t have already swallowed the head. In retrospect, sucking this cock was a pretty great idea. It gives your mouth something to do while your quim is being bred. The taste on your tongue just makes the blaze in your cunt that much hotter, and it gives you the chance to see just who owns this lovely sausage.",
+    "translation": "",
+    "context": "<<POS:34393672>>"
+  },
+  {
+    "key": "output|Holiday_waves_down_i_I_m_glad_I_found_you_I_tried_to_dress_f|fa63423461fd",
+    "original": "Holiday waves down. <i>“I’m glad I found you! I tried to dress for the occasion, but this shit won’t stop getting hard, and nobody else had the balls to stretch out their jaw and give it a go.”</i>",
+    "translation": "",
+    "context": "<<POS:34394163>>"
+  },
+  {
+    "key": "output|The_demon_nurse_from_earlier_it_s_her_fault_her_fault_you|d88afea3ece0",
+    "original": "The demon nurse from earlier... it’s her fault... her fault you can’t stop thinking about cum in your cunny, spunk pooling between your splayed hind legs, having such a swollen middle that it’s difficult to walk... You shake off the thought of milk spilling down tits, swollen by newfound motherhood, and scowl around her dick. You don’t take it out - perish the thought. With your hands cupping balls a bit too big for the nurse’s slight frame, you give her a scathing rebuke with nothing but your eyes.",
+    "translation": "",
+    "context": "<<POS:34394375>>"
+  },
+  {
+    "key": "output|You_try_to_anyhow_It_comes_out_as_more_of_a_petulant_pout_and|bcc4776ee9e8",
+    "original": "You try to, anyhow. It comes out as more of a petulant pout, and the taste of unlicked flesh on your tongue pulls you down Holiday’s length until you’re nearly gagging yourself with your thirst for her dick. You have to close your eyes to focus on handling the monstrous member. It’s too perfect to be mad at really. You keep it warm with your lips while Dane begins to ejaculate against the wall of your cervix, spreading gooey ropes over the entrance to your womb until the whole thing has been thoroughly painted.",
+    "translation": "",
+    "context": "<<POS:34394894>>"
+  },
+  {
+    "key": "output|You_cum_of_course_Every_lance_of_hot_spunk_is_the_fulfillment|571f099d01c5",
+    "original": "You cum, of course. Every lance of hot spunk is the fulfillment of your life’s purpose. It’s the penultimate meaning of the universe, boiled down to two sweaty bodies trading fluids. You might consider it poetic if you weren’t busy using your moans to turn your throat into Holiday’s personal vibrator. If you could think straight. If your mind could process the needs being broadcast on every thought-frequency by your gushy vagina.",
+    "translation": "",
+    "context": "<<POS:34395425>>"
+  },
+  {
+    "key": "output|Holiday_doesn_t_cum_in_your_throat_either_She_tastefully_saves|743a138b40fc",
+    "original": "Holiday doesn’t cum in your throat either. She tastefully saves her load for your cunt. What a peach! You lick Dane clean while she takes her turn, adding her own spunk to what you intend to turn into a melange of breeding juice. It gets a little fuzzy after that, but you’re pretty sure that you get a cock in every hole and every hand at least once.",
+    "translation": "",
+    "context": "<<POS:34395873>>"
+  },
+  {
+    "key": "output|Maybe_twice|85a7e0d285b1",
+    "original": "Maybe twice?",
+    "translation": "",
+    "context": "<<POS:34396239>>"
   }
 ]

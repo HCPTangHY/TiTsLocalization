@@ -1,27 +1,9 @@
 [
   {
-    "key": "combat|b_You_are_now_bleeding_b|7365c3471b7b",
-    "original": "<b>You are now bleeding.</b> ",
+    "key": "assign|a_claw|9715f251544a",
+    "original": "a claw",
     "translation": "",
-    "context": "<<POS:01131105>>"
-  },
-  {
-    "key": "combat.expr|var0_getCombatName|4f4432e58e17",
-    "original": "{var0}.getCombatName()",
-    "translation": "",
-    "context": "<<POS:05927897>> <<VARS:var0=t>> combatAppend(t.getCombatName())"
-  },
-  {
-    "key": "assign|dark_brown|09079db66d24",
-    "original": "dark brown",
-    "translation": "",
-    "context": "<<POS:10135061>>"
-  },
-  {
-    "key": "assign|dark_brown|09079db66d24#1",
-    "original": "dark brown",
-    "translation": "",
-    "context": "<<POS:10136181>>"
+    "context": "<<POS:12018835>>"
   },
   {
     "key": "assign|thick_hide|4498eec191fc",
@@ -96,6 +78,12 @@
     "context": "<<POS:12024243>>"
   },
   {
+    "key": "combat|b_You_are_now_bleeding_b|7365c3471b7b",
+    "original": "<b>You are now bleeding.</b> ",
+    "translation": "",
+    "context": "<<POS:12024311>>"
+  },
+  {
     "key": "combat|Fortunately_for_you_you_manage_to_roll_out_of_his_flight_path|86882f919536",
     "original": " Fortunately for you, you manage to roll out of his flight path, leaving him to slam into a cave wall behind you. He’s quick to clamber to his feet and snarl at you as he rubs his head.",
     "translation": "",
@@ -140,8 +128,15 @@
   {
     "key": "assign|the|e11e14a9ddd2",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:12028577>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "context": "<<POS:12028595>>",
+    "stage": 1
   },
   {
     "key": "assign|Claws_scrabbling_varmintpet_combatName_slips_away_from_the_at|d7c28c985674",
@@ -192,6 +187,18 @@
     "context": "<<POS:12031024>> addButton(e,\"Varmint\",window.getAPetVarmint,\"Varmint Stowaway\",a)"
   },
   {
+    "key": "button.tooltip.expr|var0|fe207261d79d",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:12031042>> <<VARS:var0=a>> addButton(e,\"Varmint\",window.getAPetVarmint,\"Varmint Stowaway\",a)"
+  },
+  {
+    "key": "assign|Your_pet_varmint|53380b5e0776",
+    "original": "Your pet varmint ",
+    "translation": "",
+    "context": "<<POS:12031079>>"
+  },
+  {
     "key": "assign|sitting_happily_in_your_quarters_swishing_its_tail_and_watchin|e51e306d0336",
     "original": " sitting happily in your quarters, swishing its tail and watching you as you wander about. Whenever you get close, its spikes flare up and it makes a high-pitched, trilling hoot at you.",
     "translation": "",
@@ -232,6 +239,18 @@
     "original": "{var0}.varmintRenamend()?{var1}.varmintPetName():\"Varmint Companion\"",
     "translation": "",
     "context": "<<POS:12031760>> <<VARS:var0=window,var1=window>> addButton(e,window.varmintRenamend()?window.varmintPetName():\"Varmint\",(function(){return window.approachPetVarmint(!0)}),window.varmintRenamend()?window.varmintPetName():\"Varmint Companion\",a)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|015f4c8c8511",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:12031829>> <<VARS:var0=a>> addButton(e,window.varmintRenamend()?window.varmintPetName():\"Varmint\",(function(){return window.approachPetVarmint(!0)}),window.varmintRenamend()?window.varmintPetName():\"Varmint Companion\",a)"
+  },
+  {
+    "key": "assign|The_blonde_cyborg_in_front_of_you_is_tall_her_muscular_form_shr|ad240e97eb81",
+    "original": "The blonde cyborg in front of you is tall, her muscular form shrouded by a black tunic cut from some synthetic fabric interwoven with graphene. A matching pair of shorts, a utility belt and a worn pair of boots make up the rest of her livery. Her prosthetic arm is rock steady as she grips her flechetter, belaying the casual, almost nonchalant, expression plastered across her face as her piercing grey eyes survey you.",
+    "translation": "",
+    "context": "<<POS:12033711>>"
   },
   {
     "key": "assign|The_blonde_cyborg_in_front_of_you_is_tall_her_muscular_form_shr|d0ad799eddd0",
@@ -336,6 +355,18 @@
     "context": "<<POS:12042411>>"
   },
   {
+    "key": "assign|dark_brown|09079db66d24",
+    "original": "dark brown",
+    "translation": "",
+    "context": "<<POS:12042732>>"
+  },
+  {
+    "key": "assign|dark_brown|09079db66d24#1",
+    "original": "dark brown",
+    "translation": "",
+    "context": "<<POS:12042932>>"
+  },
+  {
     "key": "assign|Venus_Pitcher|f850ef01d517",
     "original": "Venus Pitcher",
     "translation": "",
@@ -352,6 +383,24 @@
     "original": "Venus is not a combat mob. Thus this should never be shown.",
     "translation": "",
     "context": "<<POS:12045086>>"
+  },
+  {
+    "key": "assign|chitinous_plating|9497f4c5f2aa",
+    "original": "chitinous plating",
+    "translation": "",
+    "context": "<<POS:12045526>>"
+  },
+  {
+    "key": "assign|pale_green|ed7dcd50f194",
+    "original": "pale green",
+    "translation": "",
+    "context": "<<POS:12046105>>"
+  },
+  {
+    "key": "assign|dark_green|2101c05802e6",
+    "original": "dark green",
+    "translation": "",
+    "context": "<<POS:12047079>>"
   },
   {
     "key": "assign|You_ask_Vi_if_you_can_sell_her_some_medical_supplies_She_nods_h|f7834cb77653",
@@ -448,6 +497,24 @@
     "original": " and deadly blade.",
     "translation": "",
     "context": "<<POS:12066976>>"
+  },
+  {
+    "key": "menu.button.expr|var0|9ae62f279df1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:12069305>> <<VARS:var0=o>> i(e,t,o)"
+  },
+  {
+    "key": "combat|you|8f177000526c",
+    "original": "you",
+    "translation": "",
+    "context": "<<POS:12069623>>"
+  },
+  {
+    "key": "combat.expr|var0_getCombatName|4f4432e58e17",
+    "original": "{var0}.getCombatName()",
+    "translation": "",
+    "context": "<<POS:12069642>> <<VARS:var0=e>> combatAppend(e.getCombatName())"
   },
   {
     "key": "combat|with_claw_and_fang|5e3a8b54c19d",

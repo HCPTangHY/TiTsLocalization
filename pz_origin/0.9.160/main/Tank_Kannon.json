@@ -1,27 +1,9 @@
 [
   {
-    "key": "output.expr|var0_endList|ae0ad3e8b82e",
-    "original": "{var0}.endList()",
+    "key": "assign|DBG_Shield|229603d56e14",
+    "original": "DBG Shield",
     "translation": "",
-    "context": "<<POS:04883059>> <<VARS:var0=C.m>> output(C.m.endList())"
-  },
-  {
-    "key": "output|are|4e17b8f3b43e",
-    "original": " are",
-    "translation": "掏",
-    "context": "<<POS:06315823>>"
-  },
-  {
-    "key": "output.expr|var0|0a4dbb0a9ccf",
-    "original": "{var0}",
-    "translation": "",
-    "context": "<<POS:06546699>> <<VARS:var0=a>> output(a)"
-  },
-  {
-    "key": "button|No|1c655db5490a#1",
-    "original": "No",
-    "translation": "不",
-    "context": "<<POS:08069876>> addButton(1,\"No\",(function(){return t.itemCancel(t)}))"
+    "context": "<<POS:20574006>>"
   },
   {
     "key": "assign|Delta_Borite_Gavlon_shield_emitter|8b313c6fc781",
@@ -376,6 +358,49 @@
     "original": "{var0}.startList()",
     "translation": "",
     "context": "<<POS:20594843>> <<VARS:var0=Ot.m>> output(Ot.m.startList())"
+  },
+  {
+    "key": "button.expr|var0|978bc6ac8db7",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:20595032>> <<VARS:var0=y.txt>> addButton(o,y.txt,y.f,y.ttH,y.ttB)"
+  },
+  {
+    "key": "button.hover.expr|var0|978bc6ac8db7",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:20595042>> <<VARS:var0=y.ttH>> addButton(o,y.txt,y.f,y.ttH,y.ttB)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|978bc6ac8db7",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:20595048>> <<VARS:var0=y.ttB>> addButton(o,y.txt,y.f,y.ttH,y.ttB)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:20595075>> <<VARS:var0=y.txt>> addDisabledButton(o,y.txt,y.ttH,y.ttB)"
+  },
+  {
+    "key": "button.hover.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:20595087>> <<VARS:var0=y.ttB>> addDisabledButton(o,y.txt,y.ttH,y.ttB)"
+  },
+  {
+    "key": "output.expr|var0_endList|b00393bd1a17",
+    "original": "{var0}.endList()",
+    "translation": "",
+    "context": "<<POS:20595105>> <<VARS:var0=Ot.m>> output(Ot.m.endList())"
+  },
+  {
+    "key": "button|Back|202fe93f2acf",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:20595150>> addButton(14,\"Back\",(function(){return ui.codexBack()}))",
+    "stage": 1
   },
   {
     "key": "assign|i_All_of_the_pictures_and_video_clips_you_took_of_Flahne_seem_t|5bd2d54150a3",
@@ -1884,6 +1909,12 @@
     "context": "<<POS:20700907>>"
   },
   {
+    "key": "output.expr|var0|0a4dbb0a9ccf",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:20700923>> <<VARS:var0=e>> ParseText(e)"
+  },
+  {
     "key": "output|Hey_babe_n_nI_marched_myself_into_Big_T_s_office_as_soon_as_I_g|db4ad7024432",
     "original": "Hey babe,\\n\\nI marched myself into Big T’s office as soon as I got back from Tavros this morning and told him that I was gonna be away for the weekends from now on. He wasn’t too fond of the idea until I told him I absolutely wasn’t going to let my kids forget who their second mommy was! The big lug tried to bear hug me as congratulations!\\n\\nI hope I’ll see you around with the kids!\\n\\nLove\\n\\nZephyr",
     "translation": "",
@@ -1942,6 +1973,12 @@
     "original": "{var0}",
     "translation": "",
     "context": "<<POS:20704943>> <<VARS:var0=e>> ParseText(e)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:20707985>> <<VARS:var0=e>> ParseText(e)"
   },
   {
     "key": "assign|Omigod_they_re_all_together_like_that_already_they_sure_grow_f|5dfb0713f519",
@@ -3705,13 +3742,15 @@
     "key": "button|Confirm|03ad17b40e83",
     "original": "Confirm",
     "translation": "确认",
-    "context": "<<POS:20824166>> addButton(0,\"Confirm\",vx)"
+    "context": "<<POS:20824166>> addButton(0,\"Confirm\",vx)",
+    "stage": 1
   },
   {
     "key": "button|Back|8fab9a03f852",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:20824193>> addButton(14,\"Back\",window.popUIState)"
+    "context": "<<POS:20824193>> addButton(14,\"Back\",window.popUIState)",
+    "stage": 1
   },
   {
     "key": "output|b_You_must_input_something_b|48913b00584f",
@@ -3760,6 +3799,13 @@
     "original": "{var0}",
     "translation": "",
     "context": "<<POS:20824908>> <<VARS:var0=t>> output(t)"
+  },
+  {
+    "key": "button|Next|648f6a4c46f8",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:20825047>> addButton(0,\"Next\",(function(){window.setMainElement(Cl.gO.MAIL,!0)}))",
+    "stage": 1
   },
   {
     "key": "assign|Hey_I_m_gonna_have_another_baby_At_this_point_I_m_pretty_sure|c98163337cb6",
@@ -4527,7 +4573,15 @@
     "key": "button|Yes|dbdf7f42ffd6",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:20841404>> addButton(0,\"Yes\",(function(){return window.startFallOfThePhoenix(e)}))"
+    "context": "<<POS:20841404>> addButton(0,\"Yes\",(function(){return window.startFallOfThePhoenix(e)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|No|1c655db5490a",
+    "original": "No",
+    "translation": "不",
+    "context": "<<POS:20841476>> addButton(1,\"No\",(function(){return function(e){flags[\"FALL OF THE PHOENIX STATUS\"]=-1,clearOutput(),output(\"You turn the message off. There’s nothing you can do.\"),clearMenu(),addButton(0,\"Next\",(function(){return Kx(e)}))}(e)}))",
+    "stage": 1
   },
   {
     "key": "output|You_hit_the_display_button_A_message_appears_on_your_ship_s_con|a21eaf177d8a",
@@ -4563,7 +4617,15 @@
     "key": "button|Yes|462e8239efcb",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:20842225>> addButton(0,\"Yes\",(function(){return window.answerKiroDistressCall(e)}))"
+    "context": "<<POS:20842225>> addButton(0,\"Yes\",(function(){return window.answerKiroDistressCall(e)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|No|1c655db5490a#1",
+    "original": "No",
+    "translation": "不",
+    "context": "<<POS:20842298>> addButton(1,\"No\",(function(){return function(e){function t(e){clearOutput(),output(\"You resume your previous course. Somebody else can deal with it.\"),flags[\"RESCUE KIRO FROM BLUEBALLS\"]=-1,clearMenu(),addButton(0,\"Next\",(function(){return Kx(e)}))}clearOutput(),output(\"Are you sure you want to igno...",
+    "stage": 1
   },
   {
     "key": "output|Unlike_most_S_O_S_channel_broadcasts_you_ve_seen_this_one_isn|d344f823f3db",
@@ -4821,7 +4883,8 @@
     "key": "button|Next|6deefa925934",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20852161>> addButton(0,\"Next\",(function(){clearOutput(),stephHeader(1,!0);var e=syri.atBurts()&&void 0!==flags.SYRI_TALKS;output(\"<i>“Ugh, mah head!”</i> Steph drawls, rubbing her temples as the naleen plants her at the edge of the pit. <i>“Crickey! Looks like she’s dragged me back to her nest! Oh, but look he..."
+    "context": "<<POS:20852161>> addButton(0,\"Next\",(function(){clearOutput(),stephHeader(1,!0);var e=syri.atBurts()&&void 0!==flags.SYRI_TALKS;output(\"<i>“Ugh, mah head!”</i> Steph drawls, rubbing her temples as the naleen plants her at the edge of the pit. <i>“Crickey! Looks like she’s dragged me back to her nest! Oh, but look he...",
+    "stage": 1
   },
   {
     "key": "output|You_flop_down_in_a_quiet_booth_in_the_corner_of_the_bar_looking|fdeac71472a6",
@@ -4953,7 +5016,8 @@
     "key": "button|Next|072550326918",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20864573>> addButton(0,\"Next\",(function(){clearOutput(),stephHeader(2,!0);var e=-1;pc.hasCock()?e=pc.smallestCockIndex():pc.hasVagina()&&(e=rand(pc.vaginaTotal()));output(\"<i>“Say hi to the camera!”</i> The goo titters, bending over and wiggling her ass at the camera drone hovering around her. Winking at the c..."
+    "context": "<<POS:20864573>> addButton(0,\"Next\",(function(){clearOutput(),stephHeader(2,!0);var e=-1;pc.hasCock()?e=pc.smallestCockIndex():pc.hasVagina()&&(e=rand(pc.vaginaTotal()));output(\"<i>“Say hi to the camera!”</i> The goo titters, bending over and wiggling her ass at the camera drone hovering around her. Winking at the c...",
+    "stage": 1
   },
   {
     "key": "output|You_seat_yourself_on_one_of_the_benches_in_the_grill_kicking_yo|42cdfb169c99",
@@ -5067,7 +5131,8 @@
     "key": "button|Next|de5a818e2af8",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20879920>> addButton(0,\"Next\",(function(){clearOutput(),stephHeader(3),output(\"Steph sets her big bucket down, cracks her knuckles, and wipes the milk from her lips. <i>“Right, then. That’s a Tehan sheila for you. Now, we’re going to have to be a little more careful up ahead: we’re on a quest to find a Tehan m..."
+    "context": "<<POS:20879920>> addButton(0,\"Next\",(function(){clearOutput(),stephHeader(3),output(\"Steph sets her big bucket down, cracks her knuckles, and wipes the milk from her lips. <i>“Right, then. That’s a Tehan sheila for you. Now, we’re going to have to be a little more careful up ahead: we’re on a quest to find a Tehan m...",
+    "stage": 1
   },
   {
     "key": "output|You_take_a_seat_at_the_bar_and_pick_up_the_remote_sitting_unatte|991776e1f7e8",
@@ -5127,13 +5192,26 @@
     "key": "button|Next|688633f5c9e6",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20900531>> addButton(0,\"Next\",(function(){clearOutput(),stephHeader(4),output(\"<i>“Ah, I’m sorry, I didn’t... I didn’t see you there!”</i> the alien girl groans, blinking hard.\"),output(\"\\n\\n<i>“Crikey! It’s a nyrea!”</i> Steph shouts, leaping to her feet. <i>“Are you getting this, camera? A live nyrean female..."
+    "context": "<<POS:20900531>> addButton(0,\"Next\",(function(){clearOutput(),stephHeader(4),output(\"<i>“Ah, I’m sorry, I didn’t... I didn’t see you there!”</i> the alien girl groans, blinking hard.\"),output(\"\\n\\n<i>“Crikey! It’s a nyrea!”</i> Steph shouts, leaping to her feet. <i>“Are you getting this, camera? A live nyrean female...",
+    "stage": 1
   },
   {
     "key": "button|Stop_Watching|91fcf8198b76",
     "original": "Stop Watching",
     "translation": "",
     "context": "<<POS:20913920>> addButton(1,\"Stop Watching\",mainGameMenu)"
+  },
+  {
+    "key": "name.show.expr|var0_stephNameDisplay|e342c4925bc3",
+    "original": "{var0}.stephNameDisplay()",
+    "translation": "",
+    "context": "<<POS:20914044>> <<VARS:var0=window>> showName(window.stephNameDisplay())"
+  },
+  {
+    "key": "output|When_the_fuck_happy_puppy_folk_have_finished_Steph_s_frontside|4d1789e5064e",
+    "original": "When the fuck-happy puppy-folk have finished, Steph’s frontside is glazed in white from her lips, through her heaving milky rack, and right down to her pussy and thighs. The five korgonne flop off of her one by one, panting and leaking seed as they go soft in the chill. The drone pans around, looking over the sordid affair, before re-focusing on the last man standing... or rather, woman sitting.",
+    "translation": "",
+    "context": "<<POS:20914095>>"
   },
   {
     "key": "output|The_female_korgonne_is_sitting_on_the_top_of_the_rise_where_she|11a3b35ecb14",
@@ -5337,7 +5415,8 @@
     "key": "button|Next|a5a633b3f0df",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20922961>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:20922961>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_slide_into_one_of_the_booths_tucked_against_the_Freezer_s_wa|3585c87b56da",
@@ -5397,7 +5476,8 @@
     "key": "button|Next|d36dd389b6ba",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20927817>> addButton(0,\"Next\",(function(){clearOutput(),showBust(stephBustDisplay(5,!0),\"KORGONNE_MALE_NUDE\",\"KORGONNE_MALE_NUDE\"),showName(window.stephNameDisplay()),author(\"Savin\"),output(\"Steph giggles and turns towards the crevasse, which is only a hair more than a foot wide you notice. She starts trying t..."
+    "context": "<<POS:20927817>> addButton(0,\"Next\",(function(){clearOutput(),showBust(stephBustDisplay(5,!0),\"KORGONNE_MALE_NUDE\",\"KORGONNE_MALE_NUDE\"),showName(window.stephNameDisplay()),author(\"Savin\"),output(\"Steph giggles and turns towards the crevasse, which is only a hair more than a foot wide you notice. She starts trying t...",
+    "stage": 1
   },
   {
     "key": "output|i_The_good_part_s_over_Change_it_i_calls_a_bored_looking|00c884db0538",
@@ -5433,7 +5513,8 @@
     "key": "button|Next|a28a81a39d58",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20934703>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:20934703>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Tank_Kannon|0b9472c86ccb",
@@ -5493,7 +5574,8 @@
     "key": "button|Back|25534c93b018",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:20946036>> addButton(14,\"Back\",mainGameMenu)"
+    "context": "<<POS:20946036>> addButton(14,\"Back\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Breast_Boobily|5e361afd4197",
@@ -5516,7 +5598,7 @@
   {
     "key": "button|Leave|2e8487c115f4",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:20950223>> addButton(14,\"Leave\",mainGameMenu)"
   },
   {
@@ -5534,7 +5616,7 @@
   {
     "key": "button|Leave|2e8487c115f4#1",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:20955635>> addButton(14,\"Leave\",mainGameMenu)"
   },
   {
@@ -5559,7 +5641,8 @@
     "key": "button|Next|b96b6fd4cf68",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20964147>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:20964147>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "textify|i_Ba_dum_bum_Boi_oing_i_n_n_t_tYou_find_yourself_a_seat_and|0cafc445be94",
@@ -5576,7 +5659,7 @@
   {
     "key": "button|Leave|2e8487c115f4#2",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:20967450>> addButton(14,\"Leave\",mainGameMenu)"
   },
   {
@@ -5594,7 +5677,7 @@
   {
     "key": "button|Leave|2e8487c115f4#3",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:20971303>> addButton(14,\"Leave\",mainGameMenu)"
   },
   {
@@ -5612,7 +5695,7 @@
   {
     "key": "button|Leave|2e8487c115f4#4",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:20977268>> addButton(14,\"Leave\",mainGameMenu)"
   },
   {
@@ -5625,7 +5708,8 @@
     "key": "button|Next|f9deff460393",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:20982228>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:20982228>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "textify|i_Ba_dum_bum_Boi_oing_i_n_n_t_tOnce_again_you_ve_managed_to|d3f98af2b84c",
@@ -5642,7 +5726,7 @@
   {
     "key": "button|Leave|2e8487c115f4#5",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:20986209>> addButton(14,\"Leave\",mainGameMenu)"
   },
   {
@@ -5660,7 +5744,7 @@
   {
     "key": "button|Leave|2e8487c115f4#6",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:20992631>> addButton(14,\"Leave\",mainGameMenu)"
   },
   {
@@ -5678,7 +5762,7 @@
   {
     "key": "button|Leave|2e8487c115f4#7",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:21000072>> addButton(14,\"Leave\",mainGameMenu)"
   },
   {
@@ -5691,7 +5775,8 @@
     "key": "button|Next|5642f5f38780",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21004547>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:21004547>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show.expr|var0_Milly_Courier|259eac21280f",
@@ -5715,7 +5800,8 @@
     "key": "button|Next|749f8e90fbda",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21005384>> addButton(0,\"Next\",(function(){return wI(1)}))"
+    "context": "<<POS:21005384>> addButton(0,\"Next\",(function(){return wI(1)}))",
+    "stage": 1
   },
   {
     "key": "output|And_wait|9ea47d2a3071",
@@ -5727,7 +5813,8 @@
     "key": "button|Next|d3b7f0c6dd2d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21005504>> addButton(0,\"Next\",(function(){return wI(2)}))"
+    "context": "<<POS:21005504>> addButton(0,\"Next\",(function(){return wI(2)}))",
+    "stage": 1
   },
   {
     "key": "output|and_wait|1029f0135f8e",
@@ -5739,7 +5826,8 @@
     "key": "button|Next|2e7ab6943337",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21005626>> addButton(0,\"Next\",(function(){return wI(3)}))"
+    "context": "<<POS:21005626>> addButton(0,\"Next\",(function(){return wI(3)}))",
+    "stage": 1
   },
   {
     "key": "output|Over_three_and_a_half_hours_pass_and_you_start_to_wonder_what_is|b98875e7a46c",
@@ -5961,7 +6049,8 @@
     "key": "button|Next|98c39c6397ad",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21011046>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:21011046>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|i_Hey_Milly_i_you_say_casually_approaching_her|251577ac6267",
@@ -6621,7 +6710,8 @@
     "key": "button|Next|8c8bee0154f4",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21032459>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:21032459>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|i|558f11e6604c",
@@ -6668,7 +6758,7 @@
   {
     "key": "output|i|4196eaab96bf",
     "original": "”</i>",
-    "translation": "”</i>",
+    "translation": "",
     "context": "<<POS:21033091>>"
   },
   {
@@ -6705,7 +6795,8 @@
     "key": "button|Next|a0044fc15790",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21033634>> addButton(0,\"Next\",TI)"
+    "context": "<<POS:21033634>> addButton(0,\"Next\",TI)",
+    "stage": 1
   },
   {
     "key": "output|i_So_first_you_cheat_your_way_into_a_shot_at_stealing_my_inher|010fab09bd29",
@@ -6735,7 +6826,8 @@
     "key": "button|Next|4665cb4e5f1e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21034639>> addButton(0,\"Next\",TI)"
+    "context": "<<POS:21034639>> addButton(0,\"Next\",TI)",
+    "stage": 1
   },
   {
     "key": "output|It_s_huge_standing_nearly_eight_feet_tall_and_as_it_steps_into|c6c62622e274",
@@ -6777,7 +6869,8 @@
     "key": "button|Next|ba4e08dd06fe",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21036934>> addButton(0,\"Next\",E.V.beginCombat)"
+    "context": "<<POS:21036934>> addButton(0,\"Next\",E.V.beginCombat)",
+    "stage": 1
   },
   {
     "key": "output|i_Alright_Dane_let_s_get_out_of_here_already_i_rival_nam|8370ea307947",
@@ -6807,7 +6900,8 @@
     "key": "button|Next|1773c5151c10",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21038291>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:21038291>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show.expr|var0_Dane|4f5761a0f035",
@@ -7071,7 +7165,15 @@
     "key": "output|is|e9c2f4a3e89f",
     "original": " is",
     "translation": "掏",
-    "context": "<<POS:21047588>>"
+    "context": "<<POS:21047588>>",
+    "stage": 1
+  },
+  {
+    "key": "output|are|4e17b8f3b43e",
+    "original": " are",
+    "translation": "掏",
+    "context": "<<POS:21047602>>",
+    "stage": 1
   },
   {
     "key": "output|quivering_in_insensate_fulfillment_You_whimper_pleadingly|b4c01ac8ac99",
@@ -7167,7 +7269,8 @@
     "key": "button|Next|84a8c9aa11a4",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21051247>> addButton(0,\"Next\",SI)"
+    "context": "<<POS:21051247>> addButton(0,\"Next\",SI)",
+    "stage": 1
   },
   {
     "key": "output|You_wake_all_alone_naked_sore_and_leaking_white_cum_You_re_h|1d8c7edff07c",
@@ -7227,7 +7330,8 @@
     "key": "button|Next|5cc76ee9a14f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21054262>> addButton(0,\"Next\",(function(){return Kx(e)}))"
+    "context": "<<POS:21054262>> addButton(0,\"Next\",(function(){return Kx(e)}))",
+    "stage": 1
   },
   {
     "key": "header|Roaring_Good_Sale|bdab1dac49e0",
@@ -7245,7 +7349,8 @@
     "key": "button|Next|f55c1ecb68e5",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21054857>> addButton(0,\"Next\",(function(){return Kx(e)}))"
+    "context": "<<POS:21054857>> addButton(0,\"Next\",(function(){return Kx(e)}))",
+    "stage": 1
   },
   {
     "key": "button|Watch_Boobs_Ep_3|318f2d7feee0",
@@ -7478,7 +7583,7 @@
   {
     "key": "button|Fight|c047ad708749",
     "original": "Fight",
-    "translation": "战斗！",
+    "translation": "",
     "context": "<<POS:21061838>> addButton(0,\"Fight\",AI)"
   },
   {
@@ -7593,7 +7698,8 @@
     "key": "button|Fertility|4fe370fd2247",
     "original": "Fertility",
     "translation": "生育力",
-    "context": "<<POS:21062827>> addDisabledButton(2,\"Fertility\",\"Fertility\",\"Your womb is already configured to be incredibly fertile.\")"
+    "context": "<<POS:21062827>> addDisabledButton(2,\"Fertility\",\"Fertility\",\"Your womb is already configured to be incredibly fertile.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Your_womb_is_already_configured_to_be_incredibly_fertile|f2d784c80486",
@@ -7605,13 +7711,15 @@
     "key": "button|Fertility|a1556723df16",
     "original": "Fertility",
     "translation": "生育力",
-    "context": "<<POS:21062924>> addButton(2,\"Fertility\",OI,\"Fertility\",\"Configure your womb to be incredibly fertile.\")"
+    "context": "<<POS:21062924>> addButton(2,\"Fertility\",OI,\"Fertility\",\"Configure your womb to be incredibly fertile.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Fertility|a1556723df16",
     "original": "Fertility",
     "translation": "生育力",
-    "context": "<<POS:21062939>> addButton(2,\"Fertility\",OI,\"Fertility\",\"Configure your womb to be incredibly fertile.\")"
+    "context": "<<POS:21062939>> addButton(2,\"Fertility\",OI,\"Fertility\",\"Configure your womb to be incredibly fertile.\")",
+    "stage": 1
   },
   {
     "key": "button.tooltip|Configure_your_womb_to_be_incredibly_fertile|fdd295ea46c8",
@@ -7623,7 +7731,8 @@
     "key": "button|Back|8f9f8c350e6e",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:21063013>> addButton(14,\"Back\",window.showCodexExtra)"
+    "context": "<<POS:21063013>> addButton(14,\"Back\",window.showCodexExtra)",
+    "stage": 1
   },
   {
     "key": "header|Deactivating|6114e4030d14",
@@ -8385,7 +8494,8 @@
     "key": "button|Back|bc0d6d5b0b60",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:21069441>> addButton(14,\"Back\",window.showCodexExtra)"
+    "context": "<<POS:21069441>> addButton(14,\"Back\",window.showCodexExtra)",
+    "stage": 1
   },
   {
     "key": "header|Activating|1d83b2badaa7",
@@ -8403,7 +8513,8 @@
     "key": "button|Next|86a280588794",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21069906>> addButton(0,\"Next\",PI)"
+    "context": "<<POS:21069906>> addButton(0,\"Next\",PI)",
+    "stage": 1
   },
   {
     "key": "header|Deactivating|6c795be2c3b5",
@@ -8421,7 +8532,8 @@
     "key": "button|Next|86a280588794#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:21070341>> addButton(0,\"Next\",PI)"
+    "context": "<<POS:21070341>> addButton(0,\"Next\",PI)",
+    "stage": 1
   },
   {
     "key": "assign|Sending_command|b94d21cb8dc6",
@@ -8775,7 +8887,8 @@
     "key": "button|Back|337eb6557edb",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:21075513>> addButton(14,\"Back\",window.showCodexExtra)"
+    "context": "<<POS:21075513>> addButton(14,\"Back\",window.showCodexExtra)",
+    "stage": 1
   },
   {
     "key": "header|Deactivating|6114e4030d14#1",
@@ -8814,6 +8927,12 @@
     "context": "<<POS:21076258>>"
   },
   {
+    "key": "button.expr|var1_percent_var0|9347fc16ac62",
+    "original": "{var1}.percent({var0})",
+    "translation": "",
+    "context": "<<POS:21076441>> <<VARS:var0=e,var1=Ot.m>> addButton(t,Ot.m.percent(e),(function(){pc.inventory.combatImplant.HPQThreshold=parseInt(e),JI()}),\"\".concat(Ot.m.percent(e),\" HP\"),\"Set the minimum health threshold to \".concat(Ot.m.percent(e),\".\"))"
+  },
+  {
     "key": "button.tooltip|Set_the_minimum_health_threshold_to|70fa8236ca1c",
     "original": "Set the minimum health threshold to ",
     "translation": "",
@@ -8823,13 +8942,15 @@
     "key": "button|Back|ee2a34d01705",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:21076646>> addButton(14,\"Back\",window.showCodexExtra,\"Back\",\"\")"
+    "context": "<<POS:21076646>> addButton(14,\"Back\",window.showCodexExtra,\"Back\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Back|ee2a34d01705",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:21076675>> addButton(14,\"Back\",window.showCodexExtra,\"Back\",\"\")"
+    "context": "<<POS:21076675>> addButton(14,\"Back\",window.showCodexExtra,\"Back\",\"\")",
+    "stage": 1
   },
   {
     "key": "name.show|SynthWomb|dedf201bf6e0",

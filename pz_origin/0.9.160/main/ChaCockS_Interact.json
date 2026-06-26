@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|Chameleon_cock_sock|1d99d85eea5c",
+    "original": "Chameleon cock sock",
+    "translation": "",
+    "context": "<<POS:07381549>>"
+  },
+  {
     "key": "output|Your_Chameleon_Cock_Sock_is_presently_transparent_showing_off_e|d53395be3ba2",
     "original": "Your Chameleon Cock Sock is presently transparent, showing off every inch of your cock to anyone who wants a look.",
     "translation": "",
@@ -57,13 +63,26 @@
     "key": "button|Reset|3c060959f3b5",
     "original": "Reset",
     "translation": "重置",
-    "context": "<<POS:07384244>> addDisabledButton(13,\"Reset\",\"Reset Color Scheme\",\"This item already has the default color scheme.\")"
+    "context": "<<POS:07384244>> addDisabledButton(13,\"Reset\",\"Reset Color Scheme\",\"This item already has the default color scheme.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|This_item_already_has_the_default_color_scheme|0a278020a640",
     "original": "This item already has the default color scheme.",
     "translation": "",
     "context": "<<POS:07384273>> addDisabledButton(13,\"Reset\",\"Reset Color Scheme\",\"This item already has the default color scheme.\")"
+  },
+  {
+    "key": "button|Reset|6aae52089c82",
+    "original": "Reset",
+    "translation": "",
+    "context": "<<POS:07384337>> addButton(13,\"Reset\",(function(){return e.resetSettings(e)}),\"Reset Color Scheme\",\"Revert back to the default color scheme. This will also reset the transparency settings.\")"
+  },
+  {
+    "key": "button.hover|Reset_Color_Scheme|d0af0f3b1819",
+    "original": "Reset Color Scheme",
+    "translation": "",
+    "context": "<<POS:07384385>> addButton(13,\"Reset\",(function(){return e.resetSettings(e)}),\"Reset Color Scheme\",\"Revert back to the default color scheme. This will also reset the transparency settings.\")"
   },
   {
     "key": "button.tooltip|Revert_back_to_the_default_color_scheme_This_will_also_reset_th|f8a7fbeea8be",
@@ -75,7 +94,8 @@
     "key": "button|Back|7c121e69e138",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:07384511>> addButton(14,\"Back\",(function(){return e.returnToInventory(e)}))"
+    "context": "<<POS:07384511>> addButton(14,\"Back\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   },
   {
     "key": "output|You_link_your_Codex_with_the_Utopian_Skies_control_interface_for|caeb66054b50",
@@ -87,7 +107,8 @@
     "key": "button|Next|4bbe8b05e473",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:07385110>> addButton(0,\"Next\",(function(){return e.chameleonOptionsDisplay()}))"
+    "context": "<<POS:07385110>> addButton(0,\"Next\",(function(){return e.chameleonOptionsDisplay()}))",
+    "stage": 1
   },
   {
     "key": "output|You_tick_an_option_in_your_Codex_s_link_to_the_Utopian_Skies_Coc|d8ccb40f8e76",
@@ -99,6 +120,7 @@
     "key": "button|Next|a9a6b3d11d76",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:07385433>> addButton(0,\"Next\",(function(){return e.chameleonOptionsDisplay()}))"
+    "context": "<<POS:07385433>> addButton(0,\"Next\",(function(){return e.chameleonOptionsDisplay()}))",
+    "stage": 1
   }
 ]

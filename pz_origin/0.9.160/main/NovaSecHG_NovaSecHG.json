@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|Nova_Securities_T_57_auto_pistol_Snowstorm|a18cdf05db0b",
+    "original": "Nova Securities T-57 auto-pistol “Snowstorm”",
+    "translation": "",
+    "context": "<<POS:01760098>>"
+  },
+  {
     "key": "assign|a_Nova_Securities_T_57_auto_pistol_Snowstorm|1b67a8188a6d",
     "original": "a Nova Securities T-57 auto-pistol “Snowstorm”",
     "translation": "",
@@ -64,6 +70,12 @@
     "original": "She easily avoids your attack.",
     "translation": "",
     "context": "<<POS:01765503>>"
+  },
+  {
+    "key": "assign|She_easily_avoids_your_attack|68f7a55965c6",
+    "original": "She easily avoids your attack.",
+    "translation": "",
+    "context": "<<POS:01765550>>"
   },
   {
     "key": "assign|inky_bodysuit|4bd914dfdd7f",
@@ -166,6 +178,12 @@
     "original": "<b>You are stunned!</b>",
     "translation": "",
     "context": "<<POS:01793901>>"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_var2_are_is_stunned|14367098f182",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+({var2}?\"are\":\"is\")+\" stunned!</b>",
+    "translation": "",
+    "context": "<<POS:01793941>> <<VARS:var0=e.getCombatName(),!1,var1=k.m,var2=e.isPlural>> combatAppend(\"<b>\"+k.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural?\"are\":\"is\")+\" stunned!</b>\")"
   },
   {
     "key": "textify|Forgoing_technique_and_skill_sophora_nameKnown_n_t_t_t_Sophora|4eaf7d5e35b7",

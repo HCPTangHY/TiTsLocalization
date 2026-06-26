@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|It_s_ur_boi_Kase|cff7dc4757e5",
+    "original": "It’s ur boi, Kase!",
+    "translation": "",
+    "context": "<<POS:00788148>>"
+  },
+  {
     "key": "assign|pine_green|a8d480822e99",
     "original": "pine green",
     "translation": "",
@@ -87,7 +93,15 @@
     "key": "button|Yes|c29dc4b1cbaf",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:00793731>> addButton(0,\"Yes\",this.yesStoryTake)"
+    "context": "<<POS:00793731>> addButton(0,\"Yes\",this.yesStoryTake)",
+    "stage": 1
+  },
+  {
+    "key": "button|No|1c655db5490a",
+    "original": "No",
+    "translation": "不",
+    "context": "<<POS:00793768>> addButton(1,\"No\",this.noStoryFind)",
+    "stage": 1
   },
   {
     "key": "button|Heck_No|c101e8e59bf1",
@@ -117,7 +131,8 @@
     "key": "button|Next|b38710740170",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:00794258>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:00794258>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Downloading|1cb19a1bf9eb",
@@ -135,7 +150,8 @@
     "key": "button|Next|d5a287142dc9",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:00794601>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:00794601>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|A_plaintive_hiss_cuts_through_the_opened_door_to_Kase_s_quarters|2320b2fecb8f",
@@ -260,7 +276,7 @@
   {
     "key": "output|i|5c107d87e103",
     "original": "”</i>",
-    "translation": "”</i>",
+    "translation": "",
     "context": "<<POS:00799456>>"
   },
   {
@@ -420,6 +436,18 @@
     "context": "<<POS:00805232>> addButton(0,\"Help Him\",this.helpPoorKaseSolveHisProblem,\"Help Him\",e)"
   },
   {
+    "key": "button.tooltip.expr|var0|afad0d0beb58",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00805242>> <<VARS:var0=e>> addButton(0,\"Help Him\",this.helpPoorKaseSolveHisProblem,\"Help Him\",e)"
+  },
+  {
+    "key": "assign|He_s_too_stressed_out_It_s_up_to_him_to_solve_this_conundrum_b|23a71161c437",
+    "original": "He’s too stressed out. It’s up to him to solve this conundrum, but in the meantime you can give him some very sexual pampering to relieve that stress. You’ll make a good team.",
+    "translation": "",
+    "context": "<<POS:00805252>>"
+  },
+  {
     "key": "assign|Sex_is_just_the_thing_that_ll_get_rid_of_all_that_nasty_tension|96334bd6dda7",
     "original": "Sex is just the thing that’ll get rid of all that nasty tension! Gotta get him in the mood first!",
     "translation": "",
@@ -438,6 +466,18 @@
     "context": "<<POS:00805612>> addButton(1,\"“Help Him”\",this.helpKaseSolveHisProblemButSexyOWO,\"‘Help’ Him\",t)"
   },
   {
+    "key": "button.tooltip.expr|var0|8702c2674e9d",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00805624>> <<VARS:var0=t>> addButton(1,\"“Help Him”\",this.helpKaseSolveHisProblemButSexyOWO,\"‘Help’ Him\",t)"
+  },
+  {
+    "key": "assign|It_s_your_problem|e94e7d62bb25",
+    "original": "It’s your problem.",
+    "translation": "",
+    "context": "<<POS:00805634>>"
+  },
+  {
     "key": "assign|This_is_lame|b130d7753619",
     "original": "This is lame!",
     "translation": "",
@@ -454,6 +494,18 @@
     "original": "Can’t Help",
     "translation": "",
     "context": "<<POS:00805777>> addButton(2,\"Can’t Help\",this.noHelpPoorKaseYouMeanieHesSoPreciousHowCouldYouNotHelpHim,\"Can’t Help\",o)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|cf900098b6f9",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00805789>> <<VARS:var0=o>> addButton(2,\"Can’t Help\",this.noHelpPoorKaseYouMeanieHesSoPreciousHowCouldYouNotHelpHim,\"Can’t Help\",o)"
+  },
+  {
+    "key": "output|i_Aaaalright_I_guess_I_can_take_a_look_too_i_you_declare|b2338a0a233e",
+    "original": "<i>“Aaaalright, I guess I can take a look too!”</i> you declare.",
+    "translation": "",
+    "context": "<<POS:00805940>>"
   },
   {
     "key": "output|i_Alright_lemme_try_i|c6923b3f6a45",
@@ -668,7 +720,7 @@
   {
     "key": "button|Leave|4faa46ea9618",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:00811819>> addButton(14,\"Leave\",mainGameMenu)"
   },
   {
@@ -897,7 +949,8 @@
     "key": "button|Next|d69340872a1f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:00819196>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:00819196>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Kase_s_slitted_eyes_follow_your_approaching_sashay_with_great_in|1ebf744805f8",
@@ -1665,7 +1718,8 @@
     "key": "button|Next|4e065f248eff",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:00845457>> addButton(0,\"Next\",this.kaseLapRideAfterMath)"
+    "context": "<<POS:00845457>> addButton(0,\"Next\",this.kaseLapRideAfterMath)",
+    "stage": 1
   },
   {
     "key": "output|You_re_the_first_to_wake_up_then_Kase_The_pleasure_of_keeping|6737c77ef67c",
@@ -2127,7 +2181,8 @@
     "key": "button|Next|ca02f4fc369d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:00865015>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:00865015>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_d_guess_the_pale_skinned_Kase_is_about_5_5_which_is_pret|b87b49af8964",
@@ -2181,7 +2236,8 @@
     "key": "button|Appearance|2c739e2c09be",
     "original": "Appearance",
     "translation": "外貌",
-    "context": "<<POS:00867177>> addDisabledButton(0,\"Appearance\",\"Appearance\",\"You’re looking at him right now.\")"
+    "context": "<<POS:00867177>> addDisabledButton(0,\"Appearance\",\"Appearance\",\"You’re looking at him right now.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|You_re_looking_at_him_right_now|b1b97c3a68ed",
@@ -2229,7 +2285,15 @@
     "key": "button|Next|3d5335cd8c2b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:00869541>> addButton(0,\"Next\",window.kaseCrewTalkMenu)"
+    "context": "<<POS:00869541>> addButton(0,\"Next\",window.kaseCrewTalkMenu)",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:00869599>> addButton(0,\"Next\",this.kaseTalkMenu)",
+    "stage": 1
   },
   {
     "key": "button|Him|68cf9f08ac31",
@@ -2289,7 +2353,8 @@
     "key": "button|Back|aa359926e056",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:00869939>> addButton(14,\"Back\",this.kaseMenu)"
+    "context": "<<POS:00869939>> addButton(14,\"Back\",this.kaseMenu)",
+    "stage": 1
   },
   {
     "key": "output|i_Working_for_Pyrite_wasn_t_terrible_at_first_anyway_i_Ka|fec7af2c429d",
@@ -2373,7 +2438,28 @@
     "key": "button|Next|206c77270e9d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:00873487>> addButton(0,\"Next\",window.kaseCrewTalkMenu)"
+    "context": "<<POS:00873487>> addButton(0,\"Next\",window.kaseCrewTalkMenu)",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff#1",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:00873545>> addButton(0,\"Next\",this.kaseTalkMenu)",
+    "stage": 1
+  },
+  {
+    "key": "button|Appearance|af485afe2d63",
+    "original": "Appearance",
+    "translation": "外貌",
+    "context": "<<POS:00873631>> addButton(0,\"Appearance\",this.kaseAppearance,\"Appearance\",\"Take a look at Kase.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Appearance|af485afe2d63",
+    "original": "Appearance",
+    "translation": "",
+    "context": "<<POS:00873664>> addButton(0,\"Appearance\",this.kaseAppearance,\"Appearance\",\"Take a look at Kase.\")"
   },
   {
     "key": "button.tooltip|Take_a_look_at_Kase|92eaca0bb6ed",
@@ -2450,7 +2536,7 @@
   {
     "key": "button|Leave|102781a2e59e",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:00874184>> addButton(14,\"Leave\",mainGameMenu)"
   },
   {
@@ -2685,7 +2771,8 @@
     "key": "button|Next|cf3a6f76b64e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:00882179>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:00882179>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_lean_forward_and_ask_him_if_he_d_like_to_work_for_Steele_Tec|615677673488",
@@ -2739,7 +2826,8 @@
     "key": "button|Next|cf3a6f76b64e#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:00883557>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:00883557>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output.expr|You_figure_you_probably_shouldn_t_go_around_buying_employee_cont|2f55d94afcfa",
@@ -2757,7 +2845,15 @@
     "key": "button|Next|19cba9bef612",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:00883986>> addButton(0,\"Next\",this.kaseMenu)"
+    "context": "<<POS:00883986>> addButton(0,\"Next\",this.kaseMenu)",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff#2",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:00884203>> addButton(0,\"Next\",this.approachKase)",
+    "stage": 1
   },
   {
     "key": "output|You_begin_to_make_your_way_up_to_the_sad_looking_kaithrit_takin|efc172921f82",

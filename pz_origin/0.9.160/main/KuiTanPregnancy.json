@@ -1,6 +1,6 @@
 [
   {
-    "key": "textify|You_stop_in_your_tracks_holding_your_stomach_with_both_hands_A|6b884ebba6c5",
+    "key": "textify|You_stop_in_your_tracks_holding_your_stomach_with_both_hands_A|b3e84e7505f2",
     "original": "You stop in your tracks, holding your stomach with both hands. A burning feeling rises up your throat as bile rises up into your mouth. You hold one hand against your throat as you swallow your stomach acid back down. You wipe the water from your eyes as the sensation passes, leaving you confused and worried; hopefully you haven't eaten something bad.",
     "translation": "",
     "context": "<<POS:36492644>>"
@@ -87,7 +87,8 @@
     "key": "button|Next|7d8eac9ef717",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36501997>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36501997>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "textify|You_stagger_forward_as_you_double_over_in_pain_as_your_water_bre|f2a3cc4c7d8a",
@@ -111,7 +112,14 @@
     "key": "button|Next|281c15383ba2",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36504065>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36504065>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
+  },
+  {
+    "key": "textify|You_stop_in_your_tracks_holding_your_stomach_with_both_hands_A|6b884ebba6c5",
+    "original": "You stop in your tracks, holding your stomach with both hands. A burning feeling rises up your throat as bile rises up into your mouth. You hold one hand against your throat as you swallow your stomach acid back down. You wipe the water from your eyes as the sensation passes, leaving you confused and worried; hopefully you haven't eaten something bad.",
+    "translation": "",
+    "context": "<<POS:36505045>>"
   },
   {
     "key": "textify|You_stumble_and_hold_your_hands_against_your_belly_as_pain_makes|df0d948166d1#1",
@@ -381,7 +389,14 @@
     "key": "button|Next|99928f499c47",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36541259>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36541259>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
+  },
+  {
+    "key": "output|Pain_in_your_gut_bends_you_over_and_fluid_spills|2894ab4caa7c",
+    "original": "Pain in your gut bends you over and fluid spills",
+    "translation": "",
+    "context": "<<POS:36541422>>"
   },
   {
     "key": "output|into_your_pc_lowerUndergarment|aa623ad18a72",
@@ -394,6 +409,12 @@
     "original": " onto the deck",
     "translation": "",
     "context": "<<POS:36541549>>"
+  },
+  {
+    "key": "output|onto_the_ground|f6bebe51bcb2",
+    "original": " onto the ground",
+    "translation": "",
+    "context": "<<POS:36541574>>"
   },
   {
     "key": "output|Alarm_grips_you_as_you_feel_your_cervix_dilate_With_as_much_c|87c986cd8dcd",
@@ -514,5 +535,12 @@
     "original": "You spend a little time with them, cleaning them and playing with their cute pointed toes and brushing their nascent fur, drawing little whinnies and whines out of them, tiny paw-hands touching your face. Eventually, though, reality intrudes. With a heavy heart, you call up the incubation drone, which arrives altogether too fast, and carefully load the pair of them up. You watch the shuttle disappear, comforting yourself with the knowledge that you’ll be able to see them again soon at the Nursery.",
     "translation": "",
     "context": "<<POS:36545092>>"
+  },
+  {
+    "key": "button|Next|aedefc2c8825",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:36545757>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   }
 ]

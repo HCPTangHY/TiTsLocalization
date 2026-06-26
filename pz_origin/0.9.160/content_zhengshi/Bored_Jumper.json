@@ -168,19 +168,26 @@
     "context": "<<POS:00009775>> addButton(0,\"Play\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:1;c(),author(\"William\"),setButtonState(e,!1);var t=B(500,5e3);if(!1===t)return void setButtonState(e,!0);var o=new u.MU(f,t,\"Roo\");window.showBlackjackMinigame(o),flags.BLACKJACK_DEALER=1,In..."
   },
   {
-    "key": "button|Appearance|83c1c556e704",
-    "original": "Appearance",
+    "key": "button.tooltip.expr|var0|d178bbc04237",
+    "original": "{var0}",
     "translation": "",
-    "context": "<<POS:00009831>> addButton(1,\"Appearance\",(function(){removeInput(),function(){clearOutput(),c(),author(\"William\"),output(\"You shake your head, deciding to sit out a few games. Roo accepts the answer. In fact, she does so with poised alacrity, positioning herself in a way that helps you accomplish your goal! Guess s..."
+    "context": "<<POS:00009802>> <<VARS:var0=e>> addButton(0,\"Play\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:1;c(),author(\"William\"),setButtonState(e,!1);var t=B(500,5e3);if(!1===t)return void setButtonState(e,!0);var o=new u.MU(f,t,\"Roo\");window.showBlackjackMinigame(o),flags.BLACKJACK_DEALER=1,In..."
   },
   {
-    "key": "button.hover|Appearance|83c1c556e704",
+    "key": "button|Appearance|cf5ef2c36dd7",
+    "original": "Appearance",
+    "translation": "外貌",
+    "context": "<<POS:00009831>> addButton(1,\"Appearance\",(function(){removeInput(),function(){clearOutput(),c(),author(\"William\"),output(\"You shake your head, deciding to sit out a few games. Roo accepts the answer. In fact, she does so with poised alacrity, positioning herself in a way that helps you accomplish your goal! Guess s...",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Appearance|cf5ef2c36dd7",
     "original": "Appearance",
     "translation": "",
     "context": "<<POS:00013814>> addButton(1,\"Appearance\",(function(){removeInput(),function(){clearOutput(),c(),author(\"William\"),output(\"You shake your head, deciding to sit out a few games. Roo accepts the answer. In fact, she does so with poised alacrity, positioning herself in a way that helps you accomplish your goal! Guess s..."
   },
   {
-    "key": "button.tooltip|The_decorations_here_are_nice_and_all_but_this_lady_deserves_a|5d6d828054d6",
+    "key": "button.tooltip|The_decorations_here_are_nice_and_all_but_this_lady_deserves_a|90c8192dccc7",
     "original": "The decorations here are nice and all, but this lady deserves a thorough inspection!",
     "translation": "",
     "context": "<<POS:00013827>> addButton(1,\"Appearance\",(function(){removeInput(),function(){clearOutput(),c(),author(\"William\"),output(\"You shake your head, deciding to sit out a few games. Roo accepts the answer. In fact, she does so with poised alacrity, positioning herself in a way that helps you accomplish your goal! Guess s..."
@@ -1274,8 +1281,9 @@
   {
     "key": "button|Next|c6ed62753365",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00064679>> addButton(0,\"Next\",y)"
+    "translation": "继续",
+    "context": "<<POS:00064679>> addButton(0,\"Next\",y)",
+    "stage": 1
   },
   {
     "key": "output|Roo_s_eyes_close_partway_while_she_pushes_herself_out_spreads_h|a53a52a718ab",
@@ -1346,8 +1354,9 @@
   {
     "key": "button|Next|590490fefcdd",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00068079>> addButton(0,\"Next\",y)"
+    "translation": "继续",
+    "context": "<<POS:00068079>> addButton(0,\"Next\",y)",
+    "stage": 1
   },
   {
     "key": "output.expr|i_Oh_yes_i_Roo_squeals_hopping_up_from_her_chair_Pulses|53c7c330155d",
@@ -1496,8 +1505,9 @@
   {
     "key": "button|Next|00d6eb868ac1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00072723>> addButton(0,\"Next\",b)"
+    "translation": "继续",
+    "context": "<<POS:00072723>> addButton(0,\"Next\",b)",
+    "stage": 1
   },
   {
     "key": "output|This_time_you_watch_Roo_move_under_the_table_reaching_out_to_st|45e207928205",
@@ -1592,8 +1602,9 @@
   {
     "key": "button|Next|00d6eb868ac1#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00074444>> addButton(0,\"Next\",b)"
+    "translation": "继续",
+    "context": "<<POS:00074444>> addButton(0,\"Next\",b)",
+    "stage": 1
   },
   {
     "key": "output|For_the_spectacle_to_come_there_is_no_fanfare_but_silent_expecta|e5452a69967e",
@@ -1742,8 +1753,9 @@
   {
     "key": "button|Next|eb3b97856fe4",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00078800>> addButton(0,\"Next\",b)"
+    "translation": "继续",
+    "context": "<<POS:00078800>> addButton(0,\"Next\",b)",
+    "stage": 1
   },
   {
     "key": "output|While_it_s_a_persuasive_offer_it_s_not_what_you_re_after_right|ba856b373f4f",
@@ -1790,8 +1802,9 @@
   {
     "key": "button|Next|8cfc40386740",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00080786>> addButton(0,\"Next\",y)"
+    "translation": "继续",
+    "context": "<<POS:00080786>> addButton(0,\"Next\",y)",
+    "stage": 1
   },
   {
     "key": "output|i_That_s_good_i_she_nods_i_because_I_have_something_I_n|59391fa0ebd5",
@@ -1892,8 +1905,9 @@
   {
     "key": "button|Next|9943927da1ef",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00084569>> addButton(0,\"Next\",y)"
+    "translation": "继续",
+    "context": "<<POS:00084569>> addButton(0,\"Next\",y)",
+    "stage": 1
   },
   {
     "key": "output|i_What_s_the_story_of_the_cute_kitty_cat_with_bunny_s_ears|de664d45a112",
@@ -2924,8 +2938,9 @@
   {
     "key": "button|Next|6abe87e2023c",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00113275>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),c(),author(\"William\"),output(\"<i>“Ready, [pc.name]?”</i> she purrs, licking your becalmed [pc.cockHead \"+e+\"] with a swirl, prostrating herself in front of your [pc.cock \"+e+\"]. \"),pc.cocks[e].cLength()<7?output(\"<i>“It’s such a perfect..."
+    "translation": "继续",
+    "context": "<<POS:00113275>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),c(),author(\"William\"),output(\"<i>“Ready, [pc.name]?”</i> she purrs, licking your becalmed [pc.cockHead \"+e+\"] with a swirl, prostrating herself in front of your [pc.cock \"+e+\"]. \"),pc.cocks[e].cLength()<7?output(\"<i>“It’s such a perfect...",
+    "stage": 1
   },
   {
     "key": "output.expr|i_I_can_t_wait_to_see_how_wet_you_get_var0_this_time|9d02eba9bb0b",
@@ -3368,8 +3383,9 @@
   {
     "key": "button|Next|16e25ff6b1bf",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00143457>> addButton(0,\"Next\",(function(){return v(\"notBack\")}))"
+    "translation": "继续",
+    "context": "<<POS:00143457>> addButton(0,\"Next\",(function(){return v(\"notBack\")}))",
+    "stage": 1
   },
   {
     "key": "output|i_Ohh_where_was_I_i_she_asks|cfe6e6fd1a78",
@@ -3410,8 +3426,9 @@
   {
     "key": "button|Next|8d1197212362",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00144901>> addButton(0,\"Next\",y)"
+    "translation": "继续",
+    "context": "<<POS:00144901>> addButton(0,\"Next\",y)",
+    "stage": 1
   },
   {
     "key": "output|i_I_wanna_give_you_something_extra_pc_name_i_Roo_says|bcfc2c44ec38",
@@ -3452,8 +3469,9 @@
   {
     "key": "button|Next|f6b0ca65533e",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00146984>> addButton(0,\"Next\",(function(){return j(!0)}))"
+    "translation": "继续",
+    "context": "<<POS:00146984>> addButton(0,\"Next\",(function(){return j(!0)}))",
+    "stage": 1
   },
   {
     "key": "output|You_lean_down_and_slide_your_pc_hands_under_Roo_s_armpits_lif|9ef16068911b",
@@ -3512,8 +3530,9 @@
   {
     "key": "button|Yes|db6e86434384",
     "original": "Yes",
-    "translation": "",
-    "context": "<<POS:00148673>> addButton(0,\"Yes\",O,\"Yes\",\"You could use an extra drink!\")"
+    "translation": "是的",
+    "context": "<<POS:00148673>> addButton(0,\"Yes\",O,\"Yes\",\"You could use an extra drink!\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Yes|db6e86434384",
@@ -3530,8 +3549,9 @@
   {
     "key": "button|No|d1a6fd3e8414",
     "original": "No",
-    "translation": "",
-    "context": "<<POS:00148737>> addButton(1,\"No\",H,\"No\",\"Maybe next time.\")"
+    "translation": "不",
+    "context": "<<POS:00148737>> addButton(1,\"No\",H,\"No\",\"Maybe next time.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|No|d1a6fd3e8414",
@@ -3590,8 +3610,9 @@
   {
     "key": "button|Yes|792beeedc40c",
     "original": "Yes",
-    "translation": "",
-    "context": "<<POS:00150175>> addButton(0,\"Yes\",O,\"Yes\",\"You could use an extra drink!\")"
+    "translation": "是的",
+    "context": "<<POS:00150175>> addButton(0,\"Yes\",O,\"Yes\",\"You could use an extra drink!\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Yes|792beeedc40c",
@@ -3608,8 +3629,9 @@
   {
     "key": "button|No|d1a6fd3e8414#1",
     "original": "No",
-    "translation": "",
-    "context": "<<POS:00150239>> addButton(1,\"No\",H,\"No\",\"Maybe next time.\")"
+    "translation": "不",
+    "context": "<<POS:00150239>> addButton(1,\"No\",H,\"No\",\"Maybe next time.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|No|d1a6fd3e8414#1",
@@ -3626,8 +3648,9 @@
   {
     "key": "button|Next|a179bf14d46f",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00150327>> addButton(0,\"Next\",(function(){return j(!1)}))"
+    "translation": "继续",
+    "context": "<<POS:00150327>> addButton(0,\"Next\",(function(){return j(!1)}))",
+    "stage": 1
   },
   {
     "key": "output|You_give_her_an_eager_nod_and_Roo_presses_the_injector_to_her_ne|72842104e0d8",
@@ -3650,8 +3673,9 @@
   {
     "key": "button|Next|e6a7f5e73692",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00151229>> addButton(0,\"Next\",(function(){return j(!0)}))"
+    "translation": "继续",
+    "context": "<<POS:00151229>> addButton(0,\"Next\",(function(){return j(!0)}))",
+    "stage": 1
   },
   {
     "key": "output|You_pilfer_the_injector_and_set_it_out_of_her_reach_shaking_you|27b6dd0a2d3d",
@@ -3662,8 +3686,9 @@
   {
     "key": "button|Next|3e0c77073ab2",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00151494>> addButton(0,\"Next\",(function(){return j(!1)}))"
+    "translation": "继续",
+    "context": "<<POS:00151494>> addButton(0,\"Next\",(function(){return j(!1)}))",
+    "stage": 1
   },
   {
     "key": "output|Roo_does_everything_she_can_to_present_her_superlative_chest_to|003eeb9242f4",
@@ -3764,8 +3789,9 @@
   {
     "key": "button|Next|37afabf2ed69",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00157133>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearOutput(),c(),author(\"William\");var t=pc.cockThatFits(750);t<0&&(t=pc.smallestCockIndex());output(\"Thick, aching throbs pulse through your [pc.cocks]\"),pc.isCrotchExposed()?output(\", so..."
+    "translation": "继续",
+    "context": "<<POS:00157133>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearOutput(),c(),author(\"William\");var t=pc.cockThatFits(750);t<0&&(t=pc.smallestCockIndex());output(\"Thick, aching throbs pulse through your [pc.cocks]\"),pc.isCrotchExposed()?output(\", so...",
+    "stage": 1
   },
   {
     "key": "output|b_Please_enter_a_valid_value_Only_whole_numbers_of_concat_e|6060b1f36838",
@@ -4046,8 +4072,9 @@
   {
     "key": "button|Blackjack|78b993741865",
     "original": "Blackjack",
-    "translation": "",
-    "context": "<<POS:00180710>> addButton(1,\"Blackjack\",(function(){return o(1)}),\"Place Bet, Play Blackjack\",\"Playing will cost you at least 500 credits, maybe more if you’re feeling greedy.\")"
+    "translation": "二十一点",
+    "context": "<<POS:00180710>> addButton(1,\"Blackjack\",(function(){return o(1)}),\"Place Bet, Play Blackjack\",\"Playing will cost you at least 500 credits, maybe more if you’re feeling greedy.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Place_Bet_Play_Blackjack|42126f7b7201",
@@ -4076,8 +4103,9 @@
   {
     "key": "button|Next|caa6afd5b17c",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00228229>> addButton(t++,\"Next\",10===flags.ZHENG_SLAVE_SUB?ge:function(){clearAll(),he(!0),output(textify(P||(P=(0,a.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|The passage of time slowly jogs you from where you were left by the bad-mannered Jumper, [pc.face] painted and stomach swelled with seed. Your cuffs are gone, thank good..."
+    "translation": "继续",
+    "context": "<<POS:00228229>> addButton(t++,\"Next\",10===flags.ZHENG_SLAVE_SUB?ge:function(){clearAll(),he(!0),output(textify(P||(P=(0,a.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|The passage of time slowly jogs you from where you were left by the bad-mannered Jumper, [pc.face] painted and stomach swelled with seed. Your cuffs are gone, thank good...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|caa6afd5b17c",
@@ -4094,8 +4122,9 @@
   {
     "key": "button|Next|d4f694b2296e",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00289759>> addButton(t++,\"Next\",10===flags.ZHENG_SLAVE_SUB?ge:function(){clearAll(),he(!0),output(textify(U||(U=(0,a.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|Cum, pre, and plenty of spit stains your [pc.face] when you become aware of such things again. You’re sitting up against the wall where the no-nonsense bun left you — un..."
+    "translation": "继续",
+    "context": "<<POS:00289759>> addButton(t++,\"Next\",10===flags.ZHENG_SLAVE_SUB?ge:function(){clearAll(),he(!0),output(textify(U||(U=(0,a.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|Cum, pre, and plenty of spit stains your [pc.face] when you become aware of such things again. You’re sitting up against the wall where the no-nonsense bun left you — un...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|d4f694b2296e",
@@ -4112,8 +4141,9 @@
   {
     "key": "button|Next|2cbdb5b2cd69",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00323515>> addButton(t++,\"Next\",10===flags.ZHENG_SLAVE_SUB?ge:function(){clearAll(),he(!0),output(textify(K||(K=(0,a.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|Cum, pre, and plenty of spit stains your [pc.face] when you become aware of such things again. You’re sitting up against the wall where the no-nonsense bun left you — un..."
+    "translation": "继续",
+    "context": "<<POS:00323515>> addButton(t++,\"Next\",10===flags.ZHENG_SLAVE_SUB?ge:function(){clearAll(),he(!0),output(textify(K||(K=(0,a.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|Cum, pre, and plenty of spit stains your [pc.face] when you become aware of such things again. You’re sitting up against the wall where the no-nonsense bun left you — un...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|2cbdb5b2cd69",
@@ -4130,8 +4160,9 @@
   {
     "key": "button|Next|628ff9dc65d6",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00362685>> addButton(t++,\"Next\",10===flags.ZHENG_SLAVE_SUB?ge:function(){clearAll(),he(!0),output(textify(Q||(Q=(0,a.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|Ordinarily, the fuzzy moments immediately after hot sex are a bonding period. A chance to form connections. This Jumper is entirely silent. You can’t imagine why. [pc.ha..."
+    "translation": "继续",
+    "context": "<<POS:00362685>> addButton(t++,\"Next\",10===flags.ZHENG_SLAVE_SUB?ge:function(){clearAll(),he(!0),output(textify(Q||(Q=(0,a.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|Ordinarily, the fuzzy moments immediately after hot sex are a bonding period. A chance to form connections. This Jumper is entirely silent. You can’t imagine why. [pc.ha...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|628ff9dc65d6",
@@ -4148,8 +4179,9 @@
   {
     "key": "button|Next|bd91a6fc2ca2",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00383326>> addButton(t++,\"Next\",(function(){clearAll(),window.showBoredJumper(!0),output(textify($||($=(0,a.Z)([\"\\n\\t\\tInduction into the Jumpers’ caste of favored slaves was a week-long process that you look back on with fondness. A tender sensation spreads down from your neck where a bright silver obedience ..."
+    "translation": "继续",
+    "context": "<<POS:00383326>> addButton(t++,\"Next\",(function(){clearAll(),window.showBoredJumper(!0),output(textify($||($=(0,a.Z)([\"\\n\\t\\tInduction into the Jumpers’ caste of favored slaves was a week-long process that you look back on with fondness. A tender sensation spreads down from your neck where a bright silver obedience ...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|bd91a6fc2ca2",
@@ -4748,8 +4780,9 @@
   {
     "key": "output|s|7331b39a07c0",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:00408727>>"
+    "translation": "​",
+    "context": "<<POS:00408727>>",
+    "stage": 1
   },
   {
     "key": "output|for_attention|18a25570f301",
@@ -4766,8 +4799,9 @@
   {
     "key": "output|s|0eafa6e564fa",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:00408819>>"
+    "translation": "​",
+    "context": "<<POS:00408819>>",
+    "stage": 1
   },
   {
     "key": "output|harden_to_the_point_of_pain_slapping_against_your_stomach_in_a|1162ae724821",
@@ -5042,8 +5076,9 @@
   {
     "key": "output|s|8c959d8ae573",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:00412244>>"
+    "translation": "​",
+    "context": "<<POS:00412244>>",
+    "stage": 1
   },
   {
     "key": "output|pc_cum_all_over_the_wall_you_re_braced_against_your_fuckhole|d3a467199f7a",
@@ -5126,8 +5161,9 @@
   {
     "key": "output|s|08fa50d9cbe2",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:00414179>>"
+    "translation": "​",
+    "context": "<<POS:00414179>>",
+    "stage": 1
   },
   {
     "key": "output|as_the_hyperactive_bunny_fucks_it_out_of_you_with_an_intensity|018f39745564",
@@ -5756,8 +5792,9 @@
   {
     "key": "button|Next|fe57b1483b56",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00431535>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),he(!0),output(\"You whine in discomfort and arousal, every vein on your [pc.cock \"+e+\"] standing out, flexing and straining with the effort of holding in the growing pocket of pre. <i>“\"),pc.isBimbo()?output(\"Ooooh please! Fuck my fuckin..."
+    "translation": "继续",
+    "context": "<<POS:00431535>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),he(!0),output(\"You whine in discomfort and arousal, every vein on your [pc.cock \"+e+\"] standing out, flexing and straining with the effort of holding in the growing pocket of pre. <i>“\"),pc.isBimbo()?output(\"Ooooh please! Fuck my fuckin...",
+    "stage": 1
   },
   {
     "key": "output|Midway_through_your_tumble_to_the_ground_you_spot_a_dangerous_g|a1300b8fe1a2",
@@ -6050,8 +6087,9 @@
   {
     "key": "button|Next|fe802e252729",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00452911>> addButton(0,\"Next\",ke)"
+    "translation": "继续",
+    "context": "<<POS:00452911>> addButton(0,\"Next\",ke)",
+    "stage": 1
   },
   {
     "key": "output|Dropping_to_your_knees_the_wind_is_completely_knocked_out_of_yo|334242bff0b0",
@@ -6188,8 +6226,9 @@
   {
     "key": "output|s|b5874ff0570f",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:00459254>>"
+    "translation": "​",
+    "context": "<<POS:00459254>>",
+    "stage": 1
   },
   {
     "key": "output|draped_up_over_hers_as_she_squats_between_them_and_rides_you_T|a4d4bb50cc32",
@@ -6590,8 +6629,9 @@
   {
     "key": "button|Next|049e4efbb99c",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00476763>> addButton(0,\"Next\",we)"
+    "translation": "继续",
+    "context": "<<POS:00476763>> addButton(0,\"Next\",we)",
+    "stage": 1
   },
   {
     "key": "output|i_You_like_how_I_smell_huh_i_The_Jumper_bends_low_and_lic|4314abacb7f0",
@@ -6890,8 +6930,9 @@
   {
     "key": "button|Next|07cc7ade79b2",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00483954>> addButton(0,\"Next\",be)"
+    "translation": "继续",
+    "context": "<<POS:00483954>> addButton(0,\"Next\",be)",
+    "stage": 1
   },
   {
     "key": "header|Alone|834dc5c627ee",
@@ -7466,8 +7507,9 @@
   {
     "key": "output|s|5784c8291242",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:00495465>>"
+    "translation": "​",
+    "context": "<<POS:00495465>>",
+    "stage": 1
   },
   {
     "key": "output|to_full_hardness_as_you_get_a_full_look_at_the_laquine_slut_s_w|67f2b48dfeee",
@@ -7490,8 +7532,9 @@
   {
     "key": "output|s|d572e9ce3233",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:00495661>>"
+    "translation": "​",
+    "context": "<<POS:00495661>>",
+    "stage": 1
   },
   {
     "key": "output|shamelessly_erect_and_swaying_in_the_open|7c7438607907",
@@ -7556,8 +7599,9 @@
   {
     "key": "button|Next|f21e84639204",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00499224>> addButton(0,\"Next\",Te)"
+    "translation": "继续",
+    "context": "<<POS:00499224>> addButton(0,\"Next\",Te)",
+    "stage": 1
   },
   {
     "key": "output|You_press_your_face_between_her_beefy_bun_thighs_barely_an_inch|57c0ce8a8622",
@@ -7790,8 +7834,9 @@
   {
     "key": "output|s|3c4a152f0a33",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:00508512>>"
+    "translation": "​",
+    "context": "<<POS:00508512>>",
+    "stage": 1
   },
   {
     "key": "output|into_hers_with_each_thrust_The_impact_should_be_painful_but_i|b87bfe7535b5",
@@ -8432,8 +8477,9 @@
   {
     "key": "output|s|8ed3a1ab3f97",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:00528940>>"
+    "translation": "​",
+    "context": "<<POS:00528940>>",
+    "stage": 1
   },
   {
     "key": "output|and_in_your_cunt_despite_its_loneliness|33aedd253d7e",

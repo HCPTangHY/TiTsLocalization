@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|Pirate_Gruss|de71f9b12cce",
+    "original": "Pirate Gruss",
+    "translation": "",
+    "context": "<<POS:24390608>>"
+  },
+  {
     "key": "assign|SHIELDS_PFFFFT|9d5f49ba62e5",
     "original": "SHIELDS? PFFFFT.",
     "translation": "",
@@ -8,8 +14,15 @@
   {
     "key": "assign|the|bf023e47d563",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:24390949>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "context": "<<POS:24390967>>",
+    "stage": 1
   },
   {
     "key": "assign|The_pirate_vessel_is_a_Moondast_Gruss_a_cobbled_together_bruis|599b59e3bbbc",
@@ -315,7 +328,8 @@
     "key": "button|Next|e584087dbc9b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24405756>> addButton(0,\"Next\",QW)"
+    "context": "<<POS:24405756>> addButton(0,\"Next\",QW)",
+    "stage": 1
   },
   {
     "key": "output|The_gabilani_stuck_around_for_a_second_and_third_round_mightily|a43b2c868c9a",
@@ -506,7 +520,7 @@
   {
     "key": "button|Leave|7586171bbe06",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:24411508>> addButton(14,\"Leave\",$W)"
   },
   {
@@ -663,7 +677,8 @@
     "key": "button|Next|36c79bf2d2e0",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24417322>> addButton(0,\"Next\",aV)"
+    "context": "<<POS:24417322>> addButton(0,\"Next\",aV)",
+    "stage": 1
   },
   {
     "key": "output|You_open_up_a_comm_channel_to_the_thoroughly_defeated_pirate_Th|0a088f8c881e",
@@ -980,7 +995,7 @@
   {
     "key": "output|i|89fb70d5e29f",
     "original": "”</i>",
-    "translation": "”</i>",
+    "translation": "",
     "context": "<<POS:24425063>>"
   },
   {
@@ -1023,7 +1038,8 @@
     "key": "button|Next|3849d98ee686",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24427435>> addButton(0,\"Next\",sV)"
+    "context": "<<POS:24427435>> addButton(0,\"Next\",sV)",
+    "stage": 1
   },
   {
     "key": "output|Stretching_yourself_up_out_and_around_both_of_the_gabilani_s_m|22c25171e74b",
@@ -1089,7 +1105,8 @@
     "key": "button|Next|741fd34d7835",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24432750>> addButton(0,\"Next\",rV)"
+    "context": "<<POS:24432750>> addButton(0,\"Next\",rV)",
+    "stage": 1
   },
   {
     "key": "output|Somehow_you_pull_yourself_together_before_the_pirate_She_s_comp|584245ed4d02",
@@ -1419,7 +1436,8 @@
     "key": "button|Next|465f14a7b594",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24447015>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),DW(!0),output(\"You gather your things and leave the sex-stained pleasure pod behind, sure that the pirate will be back to her old tricks once she finishes digesting \"+(e>3e3?\"the tummy-inflating treat you left her\":\"your treat\")+\", but ..."
+    "context": "<<POS:24447015>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),DW(!0),output(\"You gather your things and leave the sex-stained pleasure pod behind, sure that the pirate will be back to her old tricks once she finishes digesting \"+(e>3e3?\"the tummy-inflating treat you left her\":\"your treat\")+\", but ...",
+    "stage": 1
   },
   {
     "key": "output.expr|You_climb_through_the_hatch_and_into_the_fluorescent_cabin|4e7eb5755235",
@@ -1521,7 +1539,8 @@
     "key": "button|Next|486ba2dd71e6",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24450814>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),DW(!0),output(\"You slip inside the olive alien without meaning to. One moment, you’re savoring the sensuous caresses of her fingers along your length, the next, your [pc.cockHead \"+e+\"] is kissed with sordid, wet heat. The sopping conta..."
+    "context": "<<POS:24450814>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),DW(!0),output(\"You slip inside the olive alien without meaning to. One moment, you’re savoring the sensuous caresses of her fingers along your length, the next, your [pc.cockHead \"+e+\"] is kissed with sordid, wet heat. The sopping conta...",
+    "stage": 1
   },
   {
     "key": "output.expr|Separating_yourself_from_the_sticky_insensate_rogue_is_only_as|0abffcfd81ea",
@@ -1545,7 +1564,8 @@
     "key": "button|Next|f8b31daf3e7a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24461146>> addButton(0,\"Next\",E.V.genericVictory)"
+    "context": "<<POS:24461146>> addButton(0,\"Next\",E.V.genericVictory)",
+    "stage": 1
   },
   {
     "key": "button|Take_Panties|24dc9620b44f",
@@ -1857,7 +1877,8 @@
     "key": "button|Next|a3ec9adc2206",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24478506>> addButton(0,\"Next\",pV)"
+    "context": "<<POS:24478506>> addButton(0,\"Next\",pV)",
+    "stage": 1
   },
   {
     "key": "output|You_peel_yourself_away_from_the_sticky_gabilani_with_a_smile_Sh|b398e103f9dc",
@@ -1875,7 +1896,8 @@
     "key": "button|Next|949fcc6898c1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24479358>> addButton(0,\"Next\",E.V.genericVictory)"
+    "context": "<<POS:24479358>> addButton(0,\"Next\",E.V.genericVictory)",
+    "stage": 1
   },
   {
     "key": "button|Take_Panties|24dc9620b44f#1",
@@ -2157,7 +2179,8 @@
     "key": "button|Next|2ec5094e30bd",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24489043>> addButton(0,\"Next\",(function(){return function(e,t){clearOutput(),DW(!0,!1),output(\"Pivoting like a dancer mid-strip tease, she once again perches herself at the very tip of your [pc.cock \"+e+\"], her small hands wrapping around to keep it steady for her slide into bliss. <i>“Gonna ride \"),t>=12?outp..."
+    "context": "<<POS:24489043>> addButton(0,\"Next\",(function(){return function(e,t){clearOutput(),DW(!0,!1),output(\"Pivoting like a dancer mid-strip tease, she once again perches herself at the very tip of your [pc.cock \"+e+\"], her small hands wrapping around to keep it steady for her slide into bliss. <i>“Gonna ride \"),t>=12?outp...",
+    "stage": 1
   },
   {
     "key": "textify|Whatever_the_goblin_sexpot_s_got_in_mind_it_starts_with_you_on|de4a4eb8016d",
@@ -2205,7 +2228,8 @@
     "key": "button|Next|917d6fbde8f0",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24512920>> addButton(0,\"Next\",bV)"
+    "context": "<<POS:24512920>> addButton(0,\"Next\",bV)",
+    "stage": 1
   },
   {
     "key": "textify|The_shortstack_pirate_leans_forward_her_jiggling_breasts_cascad|b9db7dc81750",
@@ -2295,7 +2319,8 @@
     "key": "button|Next|e2ae18d12673",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24524985>> addButton(0,\"Next\",wV)"
+    "context": "<<POS:24524985>> addButton(0,\"Next\",wV)",
+    "stage": 1
   },
   {
     "key": "textify|Things_start_making_sense_again_your_thundering_heartbeat_gradu|58c79883880a",
@@ -2337,7 +2362,14 @@
     "key": "button|Next|b18d1d392a2a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24526263>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:24526263>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
+  },
+  {
+    "key": "header|Pirate_Attack|0ce5633964e8",
+    "original": "Pirate Attack!",
+    "translation": "",
+    "context": "<<POS:24526596>>"
   },
   {
     "key": "textify|Your_comms_light_up_as_you_drop_out_of_light_drive_buzzing_acro|7321272ef2da",
@@ -2394,10 +2426,46 @@
     "context": "<<POS:24529124>>"
   },
   {
+    "key": "button.expr|var0|871b00999ee7",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:24529210>> <<VARS:var0=a>> addDisabledButton(e,a,n,\"You cannot afford this!\",s)"
+  },
+  {
     "key": "button.hover|You_cannot_afford_this|c2f03c564afa",
     "original": "You cannot afford this!",
     "translation": "",
     "context": "<<POS:24529215>> addDisabledButton(e,a,n,\"You cannot afford this!\",s)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|871b00999ee7",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:24529240>> <<VARS:var0=s>> addDisabledButton(e,a,n,\"You cannot afford this!\",s)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:24529255>> <<VARS:var0=a>> addButton(e,a,(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:5e3;clearOutput(),DW(!1,!0),output(textify(fW||(fW=(0,Ce.Z)([\"<i>“Hold your fire,”</i> you answer with a resigned look. You punch a credit transfer into the console and send it through an encrypt..."
+  },
+  {
+    "key": "button.hover.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:24531006>> <<VARS:var0=n>> addButton(e,a,(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:5e3;clearOutput(),DW(!1,!0),output(textify(fW||(fW=(0,Ce.Z)([\"<i>“Hold your fire,”</i> you answer with a resigned look. You punch a credit transfer into the console and send it through an encrypt..."
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:24531008>> <<VARS:var0=i>> addButton(e,a,(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:5e3;clearOutput(),DW(!1,!0),output(textify(fW||(fW=(0,Ce.Z)([\"<i>“Hold your fire,”</i> you answer with a resigned look. You punch a credit transfer into the console and send it through an encrypt..."
+  },
+  {
+    "key": "button|Fight|fd6a3252e42b",
+    "original": "Fight",
+    "translation": "",
+    "context": "<<POS:24531028>> addButton(e++,\"Fight\",VW)"
   },
   {
     "key": "textify|The_space_around_your_ship_blurs_with_the_aftershocks_of_weapons|e07e39639901",
@@ -2451,6 +2519,7 @@
     "key": "button|Next|b7d5c4fbc2a0",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24533652>> addButton(0,\"Next\",(function(){RandomInCollection([KW,mV,fV])()}))"
+    "context": "<<POS:24533652>> addButton(0,\"Next\",(function(){RandomInCollection([KW,mV,fV])()}))",
+    "stage": 1
   }
 ]

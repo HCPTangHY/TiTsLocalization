@@ -1,9 +1,9 @@
 [
   {
-    "key": "button|Next|5c2987c1c774",
-    "original": "Next",
-    "translation": "继续",
-    "context": "<<POS:08215373>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+    "key": "assign|Tentatool_pill|a6abfb15b3df",
+    "original": "Tentatool pill",
+    "translation": "",
+    "context": "<<POS:09858384>>"
   },
   {
     "key": "assign|a_Tentatool_pill|9fcadb06ac13",
@@ -30,6 +30,26 @@
     "context": "<<POS:09859126>> addDisabledButton(0,\"Use\")"
   },
   {
+    "key": "button|Don_t_Use|0be660b7f3f7",
+    "original": "Don’t Use",
+    "translation": "",
+    "context": "<<POS:09859145>> addButton(1,\"Don’t Use\",(function(){return t.itemCancel(t)}))"
+  },
+  {
+    "key": "button|Codex|ca0d49eb9299",
+    "original": "Codex",
+    "translation": "智典",
+    "context": "<<POS:09859207>> addButton(4,\"Codex\",(function(){showCodex(),(0,p.C2)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View...",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Codex_Entry|24493e4f06cb",
+    "original": "Codex Entry",
+    "translation": "智典入口",
+    "context": "<<POS:09859476>> addButton(4,\"Codex\",(function(){showCodex(),(0,p.C2)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View...",
+    "stage": 1
+  },
+  {
     "key": "button.tooltip|View_the_Codex_entry_for_Tentatool|f4ba6d2bad49",
     "original": "View the Codex entry for Tentatool.",
     "translation": "",
@@ -52,6 +72,13 @@
     "original": "You put the pill back into your inventory.",
     "translation": "",
     "context": "<<POS:09860196>>"
+  },
+  {
+    "key": "button|Next|5c2987c1c774",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:09860287>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   },
   {
     "key": "string.array|green_blue_red_purple_black|8a05bc34563a",

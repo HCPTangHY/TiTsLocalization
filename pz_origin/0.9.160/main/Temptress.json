@@ -1,63 +1,16 @@
 [
   {
-    "key": "assign|The|63f2e902a6e1#1",
+    "key": "assign|the|0e3057607fb9",
+    "original": "the ",
+    "translation": "",
+    "context": "<<POS:22303834>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
     "original": "The ",
-    "translation": "",
-    "context": "<<POS:00018438>>"
-  },
-  {
-    "key": "assign|The|63f2e902a6e1#2",
-    "original": "The ",
-    "translation": "",
-    "context": "<<POS:00127247>>"
-  },
-  {
-    "key": "assign|The|63f2e902a6e1#3",
-    "original": "The ",
-    "translation": "",
-    "context": "<<POS:00139502>>"
-  },
-  {
-    "key": "assign|The|63f2e902a6e1#4",
-    "original": "The ",
-    "translation": "",
-    "context": "<<POS:00174824>>"
-  },
-  {
-    "key": "perk|Can_Crit|dd8579421e1a#1",
-    "original": "Can Crit",
-    "translation": "",
-    "context": "<<POS:01347637>> createPerk(\"Can Crit\",0,0,0,0)"
-  },
-  {
-    "key": "combat.expr|var0_getCombatName|4f4432e58e17#1",
-    "original": "{var0}.getCombatName()",
-    "translation": "",
-    "context": "<<POS:10709706>> <<VARS:var0=t>> combatAppend(t.getCombatName())"
-  },
-  {
-    "key": "perk|Can_Crit|dd8579421e1a#2",
-    "original": "Can Crit",
-    "translation": "",
-    "context": "<<POS:11875541>> createPerk(\"Can Crit\",0,0,0,0)"
-  },
-  {
-    "key": "assign|a_sparking_energy_sword|c943ecd0e63b",
-    "original": "a sparking energy sword",
-    "translation": "",
-    "context": "<<POS:22292015>>"
-  },
-  {
-    "key": "assign|sizzling_slice|fbb865c7f52d",
-    "original": "sizzling slice",
-    "translation": "",
-    "context": "<<POS:22292119>>"
-  },
-  {
-    "key": "combat|you|804c91c31ed2",
-    "original": "you",
-    "translation": "",
-    "context": "<<POS:22299893>>"
+    "translation": " ",
+    "context": "<<POS:22303852>>",
+    "stage": 1
   },
   {
     "key": "assign|The_Milodan_Temptress_certainly_lives_up_to_her_name_A_statuesq|9285c1ed83c3",
@@ -230,8 +183,14 @@
   {
     "key": "assign|the|527eefe287bf",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:22316530>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#1",
+    "original": "The ",
+    "translation": "",
+    "context": "<<POS:22316548>>"
   },
   {
     "key": "assign|At_what_must_be_close_to_eight_feet_tall_the_war_lion_is_a_trul|77eeebf6933e",
@@ -244,6 +203,18 @@
     "original": "energy sword",
     "translation": "",
     "context": "<<POS:22317262>>"
+  },
+  {
+    "key": "assign|a_sparking_energy_sword|c943ecd0e63b",
+    "original": "a sparking energy sword",
+    "translation": "",
+    "context": "<<POS:22317313>>"
+  },
+  {
+    "key": "assign|sizzling_slice|fbb865c7f52d",
+    "original": "sizzling slice",
+    "translation": "",
+    "context": "<<POS:22317417>>"
   },
   {
     "key": "assign|tri_barreled_beam_cannon|58003236c83e",
@@ -354,6 +325,12 @@
     "context": "<<POS:22324548>>"
   },
   {
+    "key": "combat.expr|var0_getCombatName|4f4432e58e17",
+    "original": "{var0}.getCombatName()",
+    "translation": "",
+    "context": "<<POS:22324567>> <<VARS:var0=e>> combatAppend(e.getCombatName())"
+  },
+  {
     "key": "combat|to_parry_or_step_back_He_doesn_t_let_up_his_swings_seemingly|027c5e1e4b99",
     "original": " to parry or step back! He doesn’t let up, his swings seemingly gaining strength",
     "translation": "",
@@ -384,6 +361,18 @@
     "context": "<<POS:22325281>> <<VARS:var0=e>> combatAppend(\" at \"+e.getCombatName())"
   },
   {
+    "key": "combat|you|804c91c31ed2",
+    "original": "you",
+    "translation": "",
+    "context": "<<POS:22325669>>"
+  },
+  {
+    "key": "combat.expr|var0_getCombatName|4f4432e58e17#1",
+    "original": "{var0}.getCombatName()",
+    "translation": "",
+    "context": "<<POS:22325688>> <<VARS:var0=e>> combatAppend(e.getCombatName())"
+  },
+  {
     "key": "combat|destroying_almost_everything_in_the_vicinity|d0fdf817f28e",
     "original": ", destroying almost everything in the vicinity!",
     "translation": "",
@@ -396,7 +385,7 @@
     "context": "<<POS:22326104>>"
   },
   {
-    "key": "combat.expr|var1_possessive_var0_getCombatName|0e2ffdce4a9a#1",
+    "key": "combat.expr|var1_possessive_var0_getCombatName|0e2ffdce4a9a",
     "original": "{var1}.possessive({var0}.getCombatName())",
     "translation": "",
     "context": "<<POS:22326124>> <<VARS:var0=e,var1=Ot.m>> combatAppend(Ot.m.possessive(e.getCombatName()))"
@@ -412,6 +401,12 @@
     "original": "your",
     "translation": "",
     "context": "<<POS:22326583>>"
+  },
+  {
+    "key": "combat.expr|var1_possessive_var0_getCombatName|0e2ffdce4a9a#1",
+    "original": "{var1}.possessive({var0}.getCombatName())",
+    "translation": "",
+    "context": "<<POS:22326603>> <<VARS:var0=e,var1=Ot.m>> combatAppend(Ot.m.possessive(e.getCombatName()))"
   },
   {
     "key": "combat|direction_partially_catching_himself_in_the_blast|1f5badea1279",
@@ -464,14 +459,26 @@
   {
     "key": "assign|the|f07006b5a7e4",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:22330256>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#2",
+    "original": "The ",
+    "translation": "",
+    "context": "<<POS:22330274>>"
   },
   {
     "key": "assign|thick_chitin|8fe565856fc7",
     "original": "thick chitin",
     "translation": "",
     "context": "<<POS:22330640>>"
+  },
+  {
+    "key": "perk|Can_Crit|dd8579421e1a",
+    "original": "Can Crit",
+    "translation": "",
+    "context": "<<POS:22332412>> createPerk(\"Can Crit\",0,0,0,0)"
   },
   {
     "key": "combat.expr|var1_capitalize_var0_manage_var2_s_to_dodge|18415eb3b8f0",
@@ -524,14 +531,26 @@
   {
     "key": "assign|the|c56bea384dd9",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:22336808>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#3",
+    "original": "The ",
+    "translation": "",
+    "context": "<<POS:22336826>>"
   },
   {
     "key": "assign|thick_chitin|8fe565856fc7#1",
     "original": "thick chitin",
     "translation": "",
     "context": "<<POS:22337134>>"
+  },
+  {
+    "key": "perk|Can_Crit|dd8579421e1a#1",
+    "original": "Can Crit",
+    "translation": "",
+    "context": "<<POS:22338935>> createPerk(\"Can Crit\",0,0,0,0)"
   },
   {
     "key": "combat|though_her_shots_go_wide_She_grimaces_and_flips_her_gun_from_on|adbfdc37d0df",
@@ -614,14 +633,26 @@
   {
     "key": "assign|the|5c700d377ae5",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:22347377>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#4",
+    "original": "The ",
+    "translation": "",
+    "context": "<<POS:22347395>>"
   },
   {
     "key": "assign|thick_chitin|8fe565856fc7#2",
     "original": "thick chitin",
     "translation": "",
     "context": "<<POS:22347602>>"
+  },
+  {
+    "key": "perk|Can_Crit|dd8579421e1a#2",
+    "original": "Can Crit",
+    "translation": "",
+    "context": "<<POS:22349388>> createPerk(\"Can Crit\",0,0,0,0)"
   },
   {
     "key": "combat|ricochets_off_the_concrete_behind_you|b816c1c87a49",

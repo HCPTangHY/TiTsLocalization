@@ -1,5 +1,18 @@
 [
   {
+    "key": "assign|the|0e3057607fb9",
+    "original": "the ",
+    "translation": "",
+    "context": "<<POS:22243640>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "context": "<<POS:22243658>>",
+    "stage": 1
+  },
+  {
     "key": "assign|She_s_wearing_nothing_but_a_confident_smile_on_her_pouty_pink_li|27921e294715",
     "original": "She’s wearing nothing but a confident smile on her pouty pink lips that doesn’t reach her shining blue eyes, her overfull breasts large and proudly exposed to you in her nakedness. Tiny trickles of white milk run down her light pink skin with every move she makes, a seriously oversized human cock swaying from side to side between her legs as she decides on her next course of action. Underneath it rests her balls, heavy and plump.\\n\\nDespite her soft, womanly features and skin her exterior looks hard enough to resist some damage - not to mention there are odd lines all over her, perhaps detailing hidden compartments. There’s almost no telling what she’ll do next but it’s a good bet she’s aiming to subdue you with sex!",
     "translation": "",
@@ -21,7 +34,15 @@
     "key": "perk|Appearance_Enabled|5838065372ef",
     "original": "Appearance Enabled",
     "translation": "启用外观",
-    "context": "<<POS:22246188>> createPerk(\"Appearance Enabled\")"
+    "context": "<<POS:22246188>> createPerk(\"Appearance Enabled\")",
+    "stage": 1
+  },
+  {
+    "key": "perk|Inhuman_Desire|f9aba3b8e9ce",
+    "original": "Inhuman Desire",
+    "translation": "非人欲望",
+    "context": "<<POS:22246261>> createPerk(\"Inhuman Desire\",150)",
+    "stage": 1
   },
   {
     "key": "output|advanced_herm_npc_f_sexbot|f921629ceef4",
@@ -39,25 +60,29 @@
     "key": "combat|i_You_should_have_let_it_touch_you_i_she_says_shaking_her|5e1517bb1a17",
     "original": "<i>“You should have let it touch you,”</i> she says, shaking her head. <i>“It’s so much more fun that way.”</i>",
     "translation": "<i>“你应该让它碰你的，”</i>她摇了摇头说。<i>“那样可有趣多了。”</i>",
-    "context": "<<POS:22249945>>"
+    "context": "<<POS:22249945>>",
+    "stage": 1
   },
   {
     "key": "combat|It_strikes_you_right_in_the_chest_sending_you_stumbling_back_b|fc061b4cc978",
     "original": " It strikes you right in the chest, sending you stumbling back before you realize the impact really wasn’t that bad - it’s this hot, lingering sensation it’s leaving in its wake that’s occupying your mind.",
     "translation": "它正中你的胸口，将你击得踉跄后退，然而你随即意识到冲击本身并没有那么糟糕——真正占据你心神的，是它留下的那股灼热而绵延不散的灼痛感。",
-    "context": "<<POS:22250075>>"
+    "context": "<<POS:22250075>>",
+    "stage": 1
   },
   {
     "key": "combat|She_grins_i_You_like_it_There_s_more_where_that_came_from|bd1ec0158b68",
     "original": "She grins. <i>“You like it? There’s more where that came from.”</i>",
     "translation": "她邪恶一笑。<i>“你喜欢吗？后面还有更多呢。”</i>",
-    "context": "<<POS:22250404>>"
+    "context": "<<POS:22250404>>",
+    "stage": 1
   },
   {
     "key": "combat|You_hop_out_of_the_way_just_in_time_the_tentacle_like_weapon_s|267e231b936c",
     "original": " You hop out of the way just in time, the tentacle-like weapon scraping across the ground where your [pc.leg] was not even a second ago. She draws it back with lightning speed, already ready for another attempt at catching you like a fish.",
     "translation": "你及时跳开，那触手般的武器擦过地面，而在不到一秒前，你的[pc.leg]就在那里。她以闪电般的速度将其收回，已经准备好向抛出鱼杆一样向你抓来。",
-    "context": "<<POS:22250705>>"
+    "context": "<<POS:22250705>>",
+    "stage": 1
   },
   {
     "key": "combat|Unable_to_avoid_the_tentacle_like_weapon_you_take_a_step_backw|e84ec4d04782",
@@ -231,7 +256,8 @@
     "key": "combat|She_grins_i_You_like_it_There_s_more_where_that_came_from|8c2e42c720c7",
     "original": "She grins. <i>“You like it? There’s more where that came from.”</i>",
     "translation": "她邪恶一笑。<i>“你喜欢吗？后面还有更多呢。”</i>",
-    "context": "<<POS:22263926>>"
+    "context": "<<POS:22263926>>",
+    "stage": 1
   },
   {
     "key": "combat|Her_extra_mass_makes_her_pretty_clumsy_and_you_re_able_to_av|e8f32b345710",
@@ -261,7 +287,8 @@
     "key": "combat|i_You_should_have_let_it_touch_you_i_she_says_shaking_her|ba19cfeeb396",
     "original": "<i>“You should have let it touch you,”</i> she says, shaking her head. <i>“It’s so much more fun that way.”</i>",
     "translation": "<i>“你应该让它碰你的，”</i>她摇了摇头说。<i>“那样可有趣多了。”</i>",
-    "context": "<<POS:22265942>>"
+    "context": "<<POS:22265942>>",
+    "stage": 1
   },
   {
     "key": "combat|The_force_of_the_blast_splatters_against_you_like_a_high_powered|135b7c721afd",
@@ -582,6 +609,12 @@
     "context": "<<POS:22286868>>"
   },
   {
+    "key": "perk|Can_Crit|dd8579421e1a",
+    "original": "Can Crit",
+    "translation": "",
+    "context": "<<POS:22288653>> createPerk(\"Can Crit\",0,0,0,0)"
+  },
+  {
     "key": "combat|Both_of_her_attacks_strike_true|6c9ca06823ba",
     "original": "Both of her attacks strike true!",
     "translation": "",
@@ -620,8 +653,14 @@
   {
     "key": "assign|the|4a8d675e5b59",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:22291374>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#1",
+    "original": "The ",
+    "translation": "",
+    "context": "<<POS:22291392>>"
   },
   {
     "key": "assign|Wearing_a_tight_fitting_helmet_and_clad_in_a_black_infiltration|2ebf99f7b35f",
@@ -634,6 +673,18 @@
     "original": "energy sword",
     "translation": "",
     "context": "<<POS:22291964>>"
+  },
+  {
+    "key": "assign|a_sparking_energy_sword|c943ecd0e63b",
+    "original": "a sparking energy sword",
+    "translation": "",
+    "context": "<<POS:22292015>>"
+  },
+  {
+    "key": "assign|sizzling_slice|fbb865c7f52d",
+    "original": "sizzling slice",
+    "translation": "",
+    "context": "<<POS:22292119>>"
   },
   {
     "key": "assign|a_Pyrite_Industries_autopistol|f5d9e44a5eca",
@@ -702,6 +753,12 @@
     "context": "<<POS:22298474>>"
   },
   {
+    "key": "combat.expr|var0_getCombatName|4f4432e58e17",
+    "original": "{var0}.getCombatName()",
+    "translation": "",
+    "context": "<<POS:22298493>> <<VARS:var0=e>> combatAppend(e.getCombatName())"
+  },
+  {
     "key": "combat|with_both_hands|45cac4d461fc",
     "original": " with both hands!",
     "translation": "",
@@ -742,6 +799,18 @@
     "original": " at \"+{var0}.getCombatName()",
     "translation": "",
     "context": "<<POS:22299589>> <<VARS:var0=e>> combatAppend(\" at \"+e.getCombatName())"
+  },
+  {
+    "key": "combat|you|804c91c31ed2",
+    "original": "you",
+    "translation": "",
+    "context": "<<POS:22299893>>"
+  },
+  {
+    "key": "combat.expr|var0_getCombatName|4f4432e58e17#1",
+    "original": "{var0}.getCombatName()",
+    "translation": "",
+    "context": "<<POS:22299912>> <<VARS:var0=e>> combatAppend(e.getCombatName())"
   },
   {
     "key": "combat|Grunting|2fd10323f474",

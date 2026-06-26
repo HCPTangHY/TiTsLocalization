@@ -1,9 +1,9 @@
 [
   {
-    "key": "output|You_quickly_undress_to_investigate|b276f0f47a78",
-    "original": " You quickly undress to investigate...",
+    "key": "assign|vial_of_kerokoras_venom|4ce77f30347d",
+    "original": "vial of kerokoras venom",
     "translation": "",
-    "context": "<<POS:07993521>>"
+    "context": "<<POS:08454627>>"
   },
   {
     "key": "assign|a_vial_of_kerokoras_venom|490289df92ad",
@@ -186,6 +186,12 @@
     "context": "<<POS:08458972>>"
   },
   {
+    "key": "output.expr|var0_skinTypeLockedMessage|c5e41350e44e",
+    "original": "\"+{var0}.skinTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:08459275>> <<VARS:var0=e>> output(\"\\n\\n\"+e.skinTypeLockedMessage())"
+  },
+  {
     "key": "output|Detecting_a_change_you_quickly_remove_your_pc_armor|df2d8204a0a7",
     "original": "Detecting a change, you quickly remove your [pc.armor]... ",
     "translation": "",
@@ -219,7 +225,8 @@
     "key": "output|b|c4a66310bc79",
     "original": "!</b>",
     "translation": "!</b>",
-    "context": "<<POS:08460072>>"
+    "context": "<<POS:08460072>>",
+    "stage": 1
   },
   {
     "key": "output.expr|var0_eyeTypeLockedMessage|920b80d4a808",
@@ -244,6 +251,12 @@
     "original": "An unpleasant twinge of nerves brings your attention to your nipples.",
     "translation": "",
     "context": "<<POS:08461849>>"
+  },
+  {
+    "key": "output|You_quickly_undress_to_investigate|b276f0f47a78",
+    "original": " You quickly undress to investigate...",
+    "translation": "",
+    "context": "<<POS:08461954>>"
   },
   {
     "key": "output|By_the_time_you_focus_on_them_the_pain_is_gone_but_you_find_wh|fe9c3257a0c1",
@@ -436,6 +449,12 @@
     "original": "\"+{var0}.tailTypeLockedMessage()",
     "translation": "",
     "context": "<<POS:08467908>> <<VARS:var0=e>> output(\"\\n\\n\"+e.tailTypeLockedMessage())"
+  },
+  {
+    "key": "output.expr|var0_tailCountLockedMessage|5cfee4fe0e88",
+    "original": "\"+{var0}.tailCountLockedMessage()",
+    "translation": "",
+    "context": "<<POS:08467949>> <<VARS:var0=e>> output(\"\\n\\n\"+e.tailCountLockedMessage())"
   },
   {
     "key": "output|You_feel_your_pc_tail_tighten_and_constrict_losing|802413dad3ab",

@@ -140,8 +140,9 @@
   {
     "key": "button|Next|2995171e3343",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00815235>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00815235>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Julian_offhandedly_gestures_at_the_capture_harness_i_The_harn|62e6bc32cae9",
@@ -206,8 +207,9 @@
   {
     "key": "button|Back|999699f2f57f",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:00819313>> addButton(14,\"Back\",mainGameMenu)"
+    "translation": "返回",
+    "context": "<<POS:00819313>> addButton(14,\"Back\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Coughing_lightly_to_get_the_mousy_looking_man_s_attention_you_w|ed1ec86027be",
@@ -338,8 +340,9 @@
   {
     "key": "button|Next|57b1a9b4f2cc",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00824334>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00824334>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output.expr|i_No_way_Doc_i_you_say_with_a_shake_of_your_head_i_I_m|23f93cf220c3",
@@ -374,8 +377,9 @@
   {
     "key": "button|Next|8655c7c8c053",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00825407>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00825407>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_decline_the_offer_for_now|e90923d4c60a",
@@ -392,8 +396,9 @@
   {
     "key": "button|Next|5552c030004c",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00825683>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00825683>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Picking_up_the_familiar_compact_harness_you_nod_to_Julian|06601c84117c",
@@ -416,8 +421,9 @@
   {
     "key": "button|Next|57b1a9b4f2cc#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00826328>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00826328>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Sitting_behind_the_desk_a_human_with_incredibly_pale_almost_al|ac88fcf1b954",
@@ -464,8 +470,9 @@
   {
     "key": "button|Back|bd2d8c30ce14",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:00828709>> addButton(14,\"Back\",$e)"
+    "translation": "返回",
+    "context": "<<POS:00828709>> addButton(14,\"Back\",$e)",
+    "stage": 1
   },
   {
     "key": "button|Kane|769cae1e610d",
@@ -644,14 +651,16 @@
   {
     "key": "button|Appearance|84aee5d79c2c",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:00844933>> addDisabledButton(o++,\"Appearance\")"
+    "translation": "外貌",
+    "context": "<<POS:00844933>> addDisabledButton(o++,\"Appearance\")",
+    "stage": 1
   },
   {
     "key": "button|Appearance|4f60c9731514",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:00844961>> addButton(o++,\"Appearance\",(function(){clearOutput(),showBust(kane.bustString()),author(\"Nonesuch\"),output(\"Although not heavily built by any means, the 5' 11\\\" zil known as Kane is more muscular than most of his brethren, compact muscle rounding the shiny black carapace on his limbs and chest, his ..."
+    "translation": "外貌",
+    "context": "<<POS:00844961>> addButton(o++,\"Appearance\",(function(){clearOutput(),showBust(kane.bustString()),author(\"Nonesuch\"),output(\"Although not heavily built by any means, the 5' 11\\\" zil known as Kane is more muscular than most of his brethren, compact muscle rounding the shiny black carapace on his limbs and chest, his ...",
+    "stage": 1
   },
   {
     "key": "button|Talk|ddabdde12809",
@@ -930,6 +939,12 @@
     "context": "<<POS:00870022>> <<VARS:var0=a[n][2]>> output(a[n][2])"
   },
   {
+    "key": "button.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00870065>> <<VARS:var0=[\"Arm Grab\",\"Push\",\"Trip\"][a]>> addButton(a,[\"Arm Grab\",\"Push\",\"Trip\"][a],(function(){return function(t,o,n,a){clearMenu(),clearOutput(),showBust(kane.bustString()),author(\"Nonesuch\");var u=s;n!==a?u=r:pc.PQ()+rand(65)>75&&pc.WQ()+rand(65)>75&&(u=i);u===i&&(t+=1);u===r&&(o+=1);output(u[n][0]),u===r&&2===o||u===i&&3===t?output(u[n]..."
+  },
+  {
     "key": "output|You_follow_the_tall_rangy_zil_away_from_the_village_further_in|b13b8e5476d6",
     "original": "You follow the tall, rangy zil away from the village, further into the lavender-scented, cedar-like trees until you emerge into a secluded, grassy clearing.",
     "translation": "",
@@ -1046,8 +1061,9 @@
   {
     "key": "button|Fight|4a82d29ef740",
     "original": "Fight!",
-    "translation": "",
-    "context": "<<POS:00876360>> addButton(0,\"Fight!\",(function(){return e(0,0,rand(3))}))"
+    "translation": "战斗！",
+    "context": "<<POS:00876360>> addButton(0,\"Fight!\",(function(){return e(0,0,rand(3))}))",
+    "stage": 1
   },
   {
     "key": "output|For_some_reason_you_can_t_remember_your_first_encounter_with_Ka|c40925fbde94",
@@ -1208,8 +1224,9 @@
   {
     "key": "button|Next|51bb65cfe59c",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00882174>> addButton(0,\"Next\",(function(){clearMenu(),clearOutput(),showBust(kane.bustString()),author(\"Nonesuch\"),moveToAnIsolatedRoom(\"GAME OVER\"),processTime(1440*(20+rand(50))),output(\"The young human explorer checked the holo-map emitted by her codex, before carefully peeking over the boulder, peering dow..."
+    "translation": "继续",
+    "context": "<<POS:00882174>> addButton(0,\"Next\",(function(){clearMenu(),clearOutput(),showBust(kane.bustString()),author(\"Nonesuch\"),moveToAnIsolatedRoom(\"GAME OVER\"),processTime(1440*(20+rand(50))),output(\"The young human explorer checked the holo-map emitted by her codex, before carefully peeking over the boulder, peering dow...",
+    "stage": 1
   },
   {
     "key": "output|i_You_re_back_i_says_Kane_eyeing_you_from_his_perch_in_th|b45051af9f48",
@@ -1748,8 +1765,9 @@
   {
     "key": "button|Next|70ab0bf1533f",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00910015>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00910015>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|The_waves_of_pheromones_radiating_off_of_him_tell_you_to_comply|3424d01c568a",
@@ -1880,8 +1898,9 @@
   {
     "key": "button|Yes|26f6c763b13a",
     "original": "Yes",
-    "translation": "",
-    "context": "<<POS:00917758>> addButton(0,\"Yes\",(function(){return et(e)}),\"Yes\",\"He is making you feel quite light-headed...\")"
+    "translation": "是的",
+    "context": "<<POS:00917758>> addButton(0,\"Yes\",(function(){return et(e)}),\"Yes\",\"He is making you feel quite light-headed...\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Yes|26f6c763b13a",
@@ -1898,8 +1917,9 @@
   {
     "key": "button|No|ce27d0a31f9c",
     "original": "No",
-    "translation": "",
-    "context": "<<POS:00917856>> addButton(1,\"No\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearMenu(),clearOutput(),showBust(kane.bustString()),author(\"Nonesuch\"),processTime(2),pc.isNice()?(output(\" <i>“Actually, I seem to recall beating your ass,”</i> you reply sweetly.\"),e&&out..."
+    "translation": "不",
+    "context": "<<POS:00917856>> addButton(1,\"No\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearMenu(),clearOutput(),showBust(kane.bustString()),author(\"Nonesuch\"),processTime(2),pc.isNice()?(output(\" <i>“Actually, I seem to recall beating your ass,”</i> you reply sweetly.\"),e&&out...",
+    "stage": 1
   },
   {
     "key": "button.hover|No|ce27d0a31f9c",
@@ -1994,8 +2014,9 @@
   {
     "key": "button|Next|5662d42a6bc4",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00924131>> addButton(0,\"Next\",Bt)"
+    "translation": "继续",
+    "context": "<<POS:00924131>> addButton(0,\"Next\",Bt)",
+    "stage": 1
   },
   {
     "key": "button|x1|042f1937f549",
@@ -2042,14 +2063,16 @@
   {
     "key": "button|Back|9ab963913b68",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:00924456>> addButton(14,\"Back\",Bt)"
+    "translation": "返回",
+    "context": "<<POS:00924456>> addButton(14,\"Back\",Bt)",
+    "stage": 1
   },
   {
     "key": "button|Appearance|9f04e745656c",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:00925082>> addButton(e++,\"Appearance\",(function(){clearOutput(),kelly.showAll(),author(\"Quiet Browser & LD\"),flags.KELLY_MET<2?output(\"Kelly\"):output(\"Louise “Kelly” Epona, though if you dare call her <i>Louise</i> she’d be pretty mad at you,\");output(\" is a gene-modded laquine you met on the planet Mhen’gha i..."
+    "translation": "外貌",
+    "context": "<<POS:00925082>> addButton(e++,\"Appearance\",(function(){clearOutput(),kelly.showAll(),author(\"Quiet Browser & LD\"),flags.KELLY_MET<2?output(\"Kelly\"):output(\"Louise “Kelly” Epona, though if you dare call her <i>Louise</i> she’d be pretty mad at you,\");output(\" is a gene-modded laquine you met on the planet Mhen’gha i...",
+    "stage": 1
   },
   {
     "key": "button|Talk|ddabdde12809#1",
@@ -2060,8 +2083,9 @@
   {
     "key": "button|Shop|92b64975a7ac",
     "original": "Shop",
-    "translation": "",
-    "context": "<<POS:00962628>> addDisabledButton(e++,\"Shop\",\"Shop\",\"Kelly does not currently have anything to sell you.\")"
+    "translation": "商店",
+    "context": "<<POS:00962628>> addDisabledButton(e++,\"Shop\",\"Shop\",\"Kelly does not currently have anything to sell you.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Kelly_does_not_currently_have_anything_to_sell_you|eec1ad34927b",
@@ -2072,8 +2096,9 @@
   {
     "key": "button|Shop|a2fae592159b",
     "original": "Shop",
-    "translation": "",
-    "context": "<<POS:00962711>> addButton(e++,\"Shop\",(function(){window.showShop({items:o(),shopkeeper:kelly,saleableFilter:function(e){return![\"SkySap\",\"SynthSap\"].includes(e.getClassName())&&kelly.typesBought.includes(e.type)}})}),\"Shop\",\"Buy some of Xenogen Biotech’s wares.\")"
+    "translation": "商店",
+    "context": "<<POS:00962711>> addButton(e++,\"Shop\",(function(){window.showShop({items:o(),shopkeeper:kelly,saleableFilter:function(e){return![\"SkySap\",\"SynthSap\"].includes(e.getClassName())&&kelly.typesBought.includes(e.type)}})}),\"Shop\",\"Buy some of Xenogen Biotech’s wares.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Shop|a2fae592159b",
@@ -2144,8 +2169,9 @@
   {
     "key": "button|Appearance|631bf5203e77",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:00965893>> addButton(e++,\"Appearance\",jt,\"Appearance\",\"\")"
+    "translation": "外貌",
+    "context": "<<POS:00965893>> addButton(e++,\"Appearance\",jt,\"Appearance\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Appearance|631bf5203e77",
@@ -2258,14 +2284,16 @@
   {
     "key": "button|Back|2fef15822fe6",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:00973983>> addButton(14,\"Back\",Ht,\"Back\",\"\")"
+    "translation": "返回",
+    "context": "<<POS:00973983>> addButton(14,\"Back\",Ht,\"Back\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Back|2fef15822fe6",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:00973993>> addButton(14,\"Back\",Ht,\"Back\",\"\")"
+    "translation": "返回",
+    "context": "<<POS:00973993>> addButton(14,\"Back\",Ht,\"Back\",\"\")",
+    "stage": 1
   },
   {
     "key": "button|Zil|fb1606f96786",
@@ -2342,8 +2370,9 @@
   {
     "key": "button|Next|bb5485808a5e",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00989843>> addButton(0,\"Next\",(function(){skipToRoom(\"ARA ARA.MHEN’GA.BURT'S MAIN HALL\"),mainGameMenu()}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:00989843>> addButton(0,\"Next\",(function(){skipToRoom(\"ARA ARA.MHEN’GA.BURT'S MAIN HALL\"),mainGameMenu()}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|bb5485808a5e",
@@ -2360,8 +2389,9 @@
   {
     "key": "button|Next|bb5485808a5e#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00995147>> addButton(0,\"Next\",(function(){skipToRoom(\"ARA ARA.MHEN’GA.BURT'S MAIN HALL\"),mainGameMenu()}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:00995147>> addButton(0,\"Next\",(function(){skipToRoom(\"ARA ARA.MHEN’GA.BURT'S MAIN HALL\"),mainGameMenu()}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|bb5485808a5e#1",
@@ -2378,8 +2408,9 @@
   {
     "key": "button|Next|bcc448499522",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:01000117>> addButton(0,\"Next\",(function(){skipToRoom(\"ARA ARA.MHEN’GA.BURT'S MAIN HALL\"),mainGameMenu()}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:01000117>> addButton(0,\"Next\",(function(){skipToRoom(\"ARA ARA.MHEN’GA.BURT'S MAIN HALL\"),mainGameMenu()}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|bcc448499522",
@@ -2426,14 +2457,16 @@
   {
     "key": "button|Yes|d8341ef2a26c",
     "original": "Yes",
-    "translation": "",
-    "context": "<<POS:01002155>> addButton(0,\"Yes\",(function(){clearOutput(),kelly.showAll(),author(\"Quiet Browser & LD\"),flags.KELLY_MET=1,output(\"Sure thing, you reply.\"),output(\"\\n\\n<i>“Excellent. Now, if you would just give me your name, \"+pc.mf(\"sir\",\"madam\")+\",”</i> she begins....\"),output(\"\\n\\nYou follow her instructions, an..."
+    "translation": "是的",
+    "context": "<<POS:01002155>> addButton(0,\"Yes\",(function(){clearOutput(),kelly.showAll(),author(\"Quiet Browser & LD\"),flags.KELLY_MET=1,output(\"Sure thing, you reply.\"),output(\"\\n\\n<i>“Excellent. Now, if you would just give me your name, \"+pc.mf(\"sir\",\"madam\")+\",”</i> she begins....\"),output(\"\\n\\nYou follow her instructions, an...",
+    "stage": 1
   },
   {
     "key": "button|No|1c655db5490a",
     "original": "No",
-    "translation": "",
-    "context": "<<POS:01002799>> addButton(1,\"No\",(function(){clearOutput(),kelly.showAll(),author(\"Quiet Browser & LD\"),output(\"You apologize, but you don’t feel like registering now, so you’ll be leaving.\"),output(\"\\n\\n<i>“I understand \"+pc.mf(\"sir\",\"ma’am\")+\", Xenogen thanks you for your visit. Please come again.”</i> she says w..."
+    "translation": "不",
+    "context": "<<POS:01002799>> addButton(1,\"No\",(function(){clearOutput(),kelly.showAll(),author(\"Quiet Browser & LD\"),output(\"You apologize, but you don’t feel like registering now, so you’ll be leaving.\"),output(\"\\n\\n<i>“I understand \"+pc.mf(\"sir\",\"ma’am\")+\", Xenogen thanks you for your visit. Please come again.”</i> she says w...",
+    "stage": 1
   },
   {
     "key": "output|Kelly_is_at_her_usual_position_behind_the_receptionist_counter|320ad217acf9",
@@ -2456,8 +2489,9 @@
   {
     "key": "button|Next|334ceb0561c7",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:01003617>> addButton(0,\"Next\",(function(){return Nt(!0)}))"
+    "translation": "继续",
+    "context": "<<POS:01003617>> addButton(0,\"Next\",(function(){return Nt(!0)}))",
+    "stage": 1
   },
   {
     "key": "output|Kelly_looks_up_at_your_approach_smiling_to_see_you_with_her_usu|894daa0f4dc7",
@@ -2540,14 +2574,16 @@
   {
     "key": "button|Yes|39f5da55b320",
     "original": "Yes",
-    "translation": "",
-    "context": "<<POS:01006864>> addButton(0,\"Yes\",(function(){clearOutput(),kelly.showAll(),author(\"Quiet Browser & LD\"),output(\"She adopts a sorrowful expression and makes a tutting noise, shaking her head. <i>“Aw, you really think that way? Well, don’t worry, a little time with honey-bunny Kelly and your opinion will change,”</i..."
+    "translation": "是的",
+    "context": "<<POS:01006864>> addButton(0,\"Yes\",(function(){clearOutput(),kelly.showAll(),author(\"Quiet Browser & LD\"),output(\"She adopts a sorrowful expression and makes a tutting noise, shaking her head. <i>“Aw, you really think that way? Well, don’t worry, a little time with honey-bunny Kelly and your opinion will change,”</i...",
+    "stage": 1
   },
   {
     "key": "button|No|1c655db5490a#1",
     "original": "No",
-    "translation": "",
-    "context": "<<POS:01007655>> addButton(1,\"No\",(function(){clearOutput(),kelly.showAll(),author(\"Quiet Browser & LD\"),output(\"<i>“Oh ho,”</i> she says, grinning smugly. <i>“Does somebody have a dickgirl fetish, hmm? Do you like a chick with a big, fat cock between her legs...? Well, who wouldn’t? Mmm, there’s no one better at se..."
+    "translation": "不",
+    "context": "<<POS:01007655>> addButton(1,\"No\",(function(){clearOutput(),kelly.showAll(),author(\"Quiet Browser & LD\"),output(\"<i>“Oh ho,”</i> she says, grinning smugly. <i>“Does somebody have a dickgirl fetish, hmm? Do you like a chick with a big, fat cock between her legs...? Well, who wouldn’t? Mmm, there’s no one better at se...",
+    "stage": 1
   },
   {
     "key": "output|Kelly_visibly_brightens_up_when_she_sees_you_approaching_her_i|06a4dad71c1a",
@@ -2840,8 +2876,9 @@
   {
     "key": "button|Next|42e384d1916f",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:01025312>> addButton(0,\"Next\",Nt)"
+    "translation": "继续",
+    "context": "<<POS:01025312>> addButton(0,\"Next\",Nt)",
+    "stage": 1
   },
   {
     "key": "output|The_rest_of_the_walk_goes_by_in_silence_though_Kelly_does_shoot|b5ac12162f3c",
@@ -2882,14 +2919,16 @@
   {
     "key": "button|Yes|dc057bc1127f",
     "original": "Yes",
-    "translation": "",
-    "context": "<<POS:01026138>> addButton(0,\"Yes\",e)"
+    "translation": "是的",
+    "context": "<<POS:01026138>> addButton(0,\"Yes\",e)",
+    "stage": 1
   },
   {
     "key": "button|No|1c655db5490a#2",
     "original": "No",
-    "translation": "",
-    "context": "<<POS:01026159>> addButton(1,\"No\",o)"
+    "translation": "不",
+    "context": "<<POS:01026159>> addButton(1,\"No\",o)",
+    "stage": 1
   },
   {
     "key": "output|With_a_quiet_sigh_she_reaches_down_and_gently_pats_the_bulge_be|08584182cacc",
@@ -3536,8 +3575,9 @@
   {
     "key": "output|s|e716cb2149b6",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:01166546>>"
+    "translation": "​",
+    "context": "<<POS:01166546>>",
+    "stage": 1
   },
   {
     "key": "output|in_half_The_huge_squirting_crest_of_her_rigid_totem_rearrange|31b659b75e19",
@@ -3638,8 +3678,9 @@
   {
     "key": "output|s|802ddc6a9d33",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:01172588>>"
+    "translation": "​",
+    "context": "<<POS:01172588>>",
+    "stage": 1
   },
   {
     "key": "output|brutalized_by_the_rhythmic_whallops_of_her_enormous_seed_stash|8a57b1608f7f",
@@ -3758,8 +3799,9 @@
   {
     "key": "button|Next|b95b9b1d7a68",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:01177793>> addButton(0,\"Next\",(function(){if(clearOutput(),kelly.showAll(!0,!0),author(\"William\"),output(\"It’s morning on Mhen’ga when Kelly’s alarm ring-a-ding-dings. You rush to move out of bed like the peppy Rusher you are, only to find yourself stickily adhered to the hot and sweaty laquine, bundled safely..."
+    "translation": "继续",
+    "context": "<<POS:01177793>> addButton(0,\"Next\",(function(){if(clearOutput(),kelly.showAll(!0,!0),author(\"William\"),output(\"It’s morning on Mhen’ga when Kelly’s alarm ring-a-ding-dings. You rush to move out of bed like the peppy Rusher you are, only to find yourself stickily adhered to the hot and sweaty laquine, bundled safely...",
+    "stage": 1
   },
   {
     "key": "button|Hyper_Play|9781311de836",

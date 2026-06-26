@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|a_color_changing_bottle_labeled_Hornucopia|c76c715d32b9",
+    "original": "a color-changing bottle labeled “Hornucopia”",
+    "translation": "",
+    "context": "<<POS:08410994>>"
+  },
+  {
     "key": "assign|A_varnish_created_by_Xenogen_Biotech_after_the_success_of_their|b83060de1053",
     "original": "A varnish created by Xenogen Biotech after the success of their Pickmentation product, this time designed to change the color and material of the user’s horns - its particular focus being on metallic or gem-like properties. There’s a brush included with a color picker on it, allowing for easy application.",
     "translation": "",
@@ -15,7 +21,8 @@
     "key": "button|Next|c3f2bbbd4a8b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:08411777>> addButton(0,\"Next\",(function(){return t.itemCancel(e,t)}))"
+    "context": "<<POS:08411777>> addButton(0,\"Next\",(function(){return t.itemCancel(e,t)}))",
+    "stage": 1
   },
   {
     "key": "output|You_pull_the_bottle_out_and_turn_it_over_in_your_hands_trying_t|baaf8a0aa4b8",
@@ -123,7 +130,8 @@
     "key": "button|Back|db525431cbe5",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:08413000>> addButton(14,\"Back\",(function(){return o.itemCancel(e,t)}))"
+    "context": "<<POS:08413000>> addButton(14,\"Back\",(function(){return o.itemCancel(e,t)}))",
+    "stage": 1
   },
   {
     "key": "name.show.expr|var1_toDisplayCase_var0_Colors|e581bfe20f2e",
@@ -153,7 +161,20 @@
     "key": "button|Back|c1a2d017d615",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:08413977>> addButton(14,\"Back\",(function(){return a.rbgMenu(e,o)}))"
+    "context": "<<POS:08413977>> addButton(14,\"Back\",(function(){return a.rbgMenu(e,o)}))",
+    "stage": 1
+  },
+  {
+    "key": "button.expr|var0|47fa7bde0a8a",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08414193>> <<VARS:var0=t[1]>> addButton(u,t[1],(function(){return s.rbgUse(e,t[0],n,i)}),l.m.toDisplayCase(t[0]),\"Change the color of your \"+e.hornsNoun()+\" to \"+t[0]+\".\")"
+  },
+  {
+    "key": "button.hover.expr|var1_toDisplayCase_var0|7ee32967072f",
+    "original": "{var1}.toDisplayCase({var0})",
+    "translation": "",
+    "context": "<<POS:08414240>> <<VARS:var0=t[0],var1=l.m>> addButton(u,t[1],(function(){return s.rbgUse(e,t[0],n,i)}),l.m.toDisplayCase(t[0]),\"Change the color of your \"+e.hornsNoun()+\" to \"+t[0]+\".\")"
   },
   {
     "key": "button.tooltip|Change_the_color_of_your|203d552a2031",
@@ -162,10 +183,23 @@
     "context": "<<POS:08414265>> addButton(u,t[1],(function(){return s.rbgUse(e,t[0],n,i)}),l.m.toDisplayCase(t[0]),\"Change the color of your \"+e.hornsNoun()+\" to \"+t[0]+\".\")"
   },
   {
+    "key": "button.expr|var0|ffebba69706b",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08414343>> <<VARS:var0=o[1]>> addDisabledButton(u,o[1],l.m.toDisplayCase(o[0]),\"Your \"+e.hornsNoun()+\" \"+(1===e.horns?\"is\":\"are\")+\" already \"+o[0]+\".\")"
+  },
+  {
     "key": "button.hover|Your|85950b77fc66",
     "original": "Your ",
     "translation": "",
     "context": "<<POS:08414373>> addDisabledButton(u,o[1],l.m.toDisplayCase(o[0]),\"Your \"+e.hornsNoun()+\" \"+(1===e.horns?\"is\":\"are\")+\" already \"+o[0]+\".\")"
+  },
+  {
+    "key": "button|Back|a2050e464505",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:08414525>> addButton(14,\"Back\",(function(){return s.rbgSelColor(e,t,i)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Hornucopia|d828a5109fe3",
@@ -178,6 +212,13 @@
     "original": "You put the bottle back into your inventory.",
     "translation": "",
     "context": "<<POS:08414693>>"
+  },
+  {
+    "key": "button|Next|8f138d3b9daa",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:08414786>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Hornucopia|d36263b96a8d",
@@ -279,6 +320,7 @@
     "key": "button|Next|bdbb4ab977e5",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:08418762>> addButton(0,\"Next\",(function(){return a.returnToInventory(a)}))"
+    "context": "<<POS:08418762>> addButton(0,\"Next\",(function(){return a.returnToInventory(a)}))",
+    "stage": 1
   }
 ]

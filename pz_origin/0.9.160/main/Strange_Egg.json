@@ -1,15 +1,9 @@
 [
   {
-    "key": "output|their|88c9279b1b82",
-    "original": "their",
+    "key": "output|Since_Kimber_needs_a_naleen_hair_you_wonder_if_you_can_find_one|e9af25bd09ac",
+    "original": "Since Kimber needs a naleen hair, you wonder if you can find one somewhere around here. After a few minutes of searching, you find a shed hair laying around. You pop open one of Kimber’s sample tubes and stick the hair inside, then seal it shut.",
     "translation": "",
-    "context": "<<POS:08373084>>"
-  },
-  {
-    "key": "output|it|025f588a49a9",
-    "original": " it",
-    "translation": "",
-    "context": "<<POS:24304399>>"
+    "context": "<<POS:32759139>>"
   },
   {
     "key": "output|b_You_found_a_naleen_hair_for_Kimber_b|ccdd7011f8fe",
@@ -63,7 +57,8 @@
     "key": "button|Next|af4f4909ff59",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:32761030>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:32761030>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_open_the_video_Kimber_sent_you_It_starts_with_her_kneeling|ed5b87413391",
@@ -213,7 +208,8 @@
     "key": "button|Next|cea1947711f7",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:32769066>> addButton(0,\"Next\",(function(){clearOutput(),yye(!0),output(\"Kimber rises to her knees one more time, then grabs the tentacle and holds it behind her. Her hips and legs block the view, so you can only watch her eyes open wide as she slides the dildo up her ass. She gasps, her breath catching as she ..."
+    "context": "<<POS:32769066>> addButton(0,\"Next\",(function(){clearOutput(),yye(!0),output(\"Kimber rises to her knees one more time, then grabs the tentacle and holds it behind her. Her hips and legs block the view, so you can only watch her eyes open wide as she slides the dildo up her ass. She gasps, her breath catching as she ...",
+    "stage": 1
   },
   {
     "key": "output|Are_you_sure_you_want_to_leave_You_re_liable_to_never_encounter|8b75d2179c6a",
@@ -225,7 +221,22 @@
     "key": "button|Confirm|798d5086a92e",
     "original": "Confirm",
     "translation": "确认",
-    "context": "<<POS:32773344>> addButton(0,\"Confirm\",(function(){return function(e){clearOutput(),output(\"You resume your previous course, leaving this oddity behind to the void of space. Somebody else can deal with it.\"),flags[\"RESCUE KIRO FROM BLUEBALLS\"]=-1,kiro.orgasm(),clearMenu(),addButton(0,\"Next\",(function(){return window..."
+    "context": "<<POS:32773344>> addButton(0,\"Confirm\",(function(){return function(e){clearOutput(),output(\"You resume your previous course, leaving this oddity behind to the void of space. Somebody else can deal with it.\"),flags[\"RESCUE KIRO FROM BLUEBALLS\"]=-1,kiro.orgasm(),clearMenu(),addButton(0,\"Next\",(function(){return window...",
+    "stage": 1
+  },
+  {
+    "key": "button|Back|8fab9a03f852",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:32773717>> addButton(1,\"Back\",(function(){return e(t)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Back|8377b4609270",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:32773763>> addButton(1,\"Back\",(function(){return a(t)}))",
+    "stage": 1
   },
   {
     "key": "output|You_wait_an_hour_to_see_if_anything_happens_but_nothing_does_J|927ee20da7a1",
@@ -242,7 +253,7 @@
   {
     "key": "button|Leave|824fe9d6b995",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:32774321>> addButton(2,\"Leave\",(function(){return o(e)}))"
   },
   {
@@ -255,7 +266,8 @@
     "key": "button|Next|3cf2ea612d9c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:32774826>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:32774826>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_divert_your_course_towards_the_attached_coordinates_It_isn|6399aeab545c",
@@ -284,7 +296,7 @@
   {
     "key": "button|Leave|6da7f5f0e5b6",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:32775743>> addButton(2,\"Leave\",(function(){return o(t)}))"
   },
   {
@@ -297,7 +309,8 @@
     "key": "button|Exit|70babc5bee8b",
     "original": "Exit",
     "translation": "退出",
-    "context": "<<POS:32775924>> addButton(7,\"Exit\",(function(){return moveToRoom(getShipRoom(),!0)}))"
+    "context": "<<POS:32775924>> addButton(7,\"Exit\",(function(){return moveToRoom(getShipRoom(),!0)}))",
+    "stage": 1
   },
   {
     "key": "output|currently_connecting_it_to_your_ship_and_allowing_you_to_move|7bd0036265fb",
@@ -624,6 +637,12 @@
     "context": "<<POS:32818487>>"
   },
   {
+    "key": "output|it|025f588a49a9",
+    "original": " it",
+    "translation": "",
+    "context": "<<POS:32818503>>"
+  },
+  {
     "key": "output|won_t_be_getting_to_have_any_fun_but_you_stroke|3e6ad4a8d120",
     "original": " won’t be getting to have any fun, but you stroke",
     "translation": "",
@@ -634,6 +653,12 @@
     "original": " them",
     "translation": "",
     "context": "<<POS:32818594>>"
+  },
+  {
+    "key": "output|it|c6284b7c8973",
+    "original": " it",
+    "translation": "",
+    "context": "<<POS:32818610>>"
   },
   {
     "key": "output|all_the_same_as_you_take_in_the_scene|d28076abded4",
@@ -850,6 +875,12 @@
     "original": " it",
     "translation": "",
     "context": "<<POS:32822881>>"
+  },
+  {
+    "key": "output|them|137b6d18696e",
+    "original": " them",
+    "translation": "",
+    "context": "<<POS:32822895>>"
   },
   {
     "key": "output|flat_with_just_enough_of_a_curve_to_make_you_spread_out_wider|f9f99bf7552d",
@@ -1167,7 +1198,8 @@
     "key": "output|s|64a40e5d1d63",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:32828543>>"
+    "context": "<<POS:32828543>>",
+    "stage": 1
   },
   {
     "key": "output|out_a_little_pre_cum_and_the_lusty_herm_pc_f_grabs_hold|de4dbe5f9be6",
@@ -1461,7 +1493,8 @@
     "key": "button|Next|16685da3239f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:32835676>> addButton(0,\"Next\",a)"
+    "context": "<<POS:32835676>> addButton(0,\"Next\",a)",
+    "stage": 1
   },
   {
     "key": "output|A_little_while_later_the_big_tailed_big_balled_big_cocked|07f52216d647",
@@ -1569,7 +1602,8 @@
     "key": "button|Next|85e044dfd707",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:32838819>> addButton(0,\"Next\",(function(){return window.flyToWrapper(flags[\"STORED SHIP DESTINATION\"])}))"
+    "context": "<<POS:32838819>> addButton(0,\"Next\",(function(){return window.flyToWrapper(flags[\"STORED SHIP DESTINATION\"])}))",
+    "stage": 1
   },
   {
     "key": "textify|i_Hey_boss_i_n_t_n_tAnno_frisks_into_view_from_your_blind|3d5110003b5a",
@@ -1761,7 +1795,8 @@
     "key": "button|Next|fb75548740f3",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:32851506>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:32851506>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Strange_Egg|7346660f826a",
@@ -1941,7 +1976,8 @@
     "key": "output|e|78eccb5a4d15",
     "original": "e",
     "translation": "e",
-    "context": "<<POS:32856095>>"
+    "context": "<<POS:32856095>>",
+    "stage": 1
   },
   {
     "key": "output|on|6cd8171eb7ce",
@@ -1971,7 +2007,8 @@
     "key": "output|s|1a18d8f64dca",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:32856330>>"
+    "context": "<<POS:32856330>>",
+    "stage": 1
   },
   {
     "key": "output|rounded_and_fatter_than_the_rest_rub|28b9036c91fb",
@@ -1983,7 +2020,8 @@
     "key": "output|s|5bcf9ea2b5c1",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:32856414>>"
+    "context": "<<POS:32856414>>",
+    "stage": 1
   },
   {
     "key": "output|directly_on_your_slit|6a4a41f11a94",
@@ -1995,7 +2033,8 @@
     "key": "output|s|fd35bc470ded",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:32856479>>"
+    "context": "<<POS:32856479>>",
+    "stage": 1
   },
   {
     "key": "output|teasing_your_pc_clits_until_you_re_bucking_back_against_them|af0d3caf4965",
@@ -2055,7 +2094,8 @@
     "key": "output|s|a1367365cbfa",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:32857432>>"
+    "context": "<<POS:32857432>>",
+    "stage": 1
   },
   {
     "key": "output|in|8a1d8c637d3b",
@@ -2178,6 +2218,12 @@
     "context": "<<POS:32860412>>"
   },
   {
+    "key": "output|their|88c9279b1b82",
+    "original": "their",
+    "translation": "",
+    "context": "<<POS:32860426>>"
+  },
+  {
     "key": "output|prehensile_mate|9864df4c6748",
     "original": " prehensile mate",
     "translation": "",
@@ -2187,7 +2233,8 @@
     "key": "output|s|e78e3a96f057",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:32860489>>"
+    "context": "<<POS:32860489>>",
+    "stage": 1
   },
   {
     "key": "output|Best_of_all_is_the_wickedly_sensuous_experience_of_having_an_an|a5fa464ec08d",
@@ -2211,7 +2258,8 @@
     "key": "button|Next|87bce98916d9",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:32861509>> addButton(0,\"Next\",(function(){clearOutput(),showBust(\"TENTACLE_EGG\"),showName(\"Tentacles!\"),output(\"The creature fucks you for hours, but you never seem to tire. Your body never grows sore, just looser, more willing to accept the gift of additional tentacles than ever before. At first, you’re shock..."
+    "context": "<<POS:32861509>> addButton(0,\"Next\",(function(){clearOutput(),showBust(\"TENTACLE_EGG\"),showName(\"Tentacles!\"),output(\"The creature fucks you for hours, but you never seem to tire. Your body never grows sore, just looser, more willing to accept the gift of additional tentacles than ever before. At first, you’re shock...",
+    "stage": 1
   },
   {
     "key": "header|Tentacle_Birth|d70164793e2c",
@@ -2325,7 +2373,8 @@
     "key": "button|Next|afe4e3c3c64c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:32867808>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:32867808>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_ask_Tessa_about_that_favor_she_mentioned|5aa2b6ffbeaf",
@@ -2565,7 +2614,14 @@
     "key": "button|Next|b1c4f53c8023",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33068411>> addButton(0,\"Next\",(function(){n(1),mainGameMenu()}))"
+    "context": "<<POS:33068411>> addButton(0,\"Next\",(function(){n(1),mainGameMenu()}))",
+    "stage": 1
+  },
+  {
+    "key": "header.expr|var0|725f50c68bae",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:33068528>> <<VARS:var0=!0>> header(!0)"
   },
   {
     "key": "output|While_you_for_sure_have_seen_Tessa_drunk_before_this_is_just_ov|805d63bd172b",
@@ -2619,13 +2675,22 @@
     "key": "button|Next|b1c4f53c8023#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33070792>> addButton(0,\"Next\",(function(){n(2),mainGameMenu()}))"
+    "context": "<<POS:33070792>> addButton(0,\"Next\",(function(){n(2),mainGameMenu()}))",
+    "stage": 1
   },
   {
     "key": "button|Yes|91ec4d5c690a",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:33071020>> addButton(0,\"Yes\",o)"
+    "context": "<<POS:33071020>> addButton(0,\"Yes\",o)",
+    "stage": 1
+  },
+  {
+    "key": "button|No|1c655db5490a",
+    "original": "No",
+    "translation": "不",
+    "context": "<<POS:33071041>> addButton(1,\"No\",o)",
+    "stage": 1
   },
   {
     "key": "output|Tessa_laughs_i_Well_that_s_a_reaction_I_guess_I_still_have_t|f3eeb9939231",

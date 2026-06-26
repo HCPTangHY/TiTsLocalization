@@ -1,33 +1,9 @@
 [
   {
-    "key": "output|swell|3d7039225005",
-    "original": " swell",
+    "key": "assign|Suma_Cream_capsule|61fe39ae49e6",
+    "original": "Suma Cream capsule",
     "translation": "",
-    "context": "<<POS:07912247>>"
-  },
-  {
-    "key": "output|s|f9b82e6ab7ba",
-    "original": "s",
-    "translation": "​",
-    "context": "<<POS:07912271>>"
-  },
-  {
-    "key": "button|Codex|91b41cee8132",
-    "original": "Codex",
-    "translation": "智典",
-    "context": "<<POS:08069931>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.FI)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View..."
-  },
-  {
-    "key": "button.hover|Codex_Entry|5e6f1989329b",
-    "original": "Codex Entry",
-    "translation": "智典入口",
-    "context": "<<POS:08070200>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.FI)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View..."
-  },
-  {
-    "key": "button.tooltip|View_the_Codex_entry_for_ClearYu|011a7d2b56a1",
-    "original": "View the Codex entry for ClearYu.",
-    "translation": "",
-    "context": "<<POS:08070214>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.FI)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View..."
+    "context": "<<POS:09755051>>"
   },
   {
     "key": "assign|a_Suma_Cream_capsule|152d416c054c",
@@ -69,7 +45,15 @@
     "key": "button|Next|987d882c5a8d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09756208>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
+    "context": "<<POS:09756208>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:09756473>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Suma_Cream|177f94a3df22",
@@ -87,7 +71,35 @@
     "key": "button|Yes|536b964cdfe2",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:09756964>> addButton(0,\"Yes\",(function(){clearMenu(),o.sumaEffects(e,t,a,!0)}))"
+    "context": "<<POS:09756964>> addButton(0,\"Yes\",(function(){clearMenu(),o.sumaEffects(e,t,a,!0)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|No|1c655db5490a",
+    "original": "No",
+    "translation": "不",
+    "context": "<<POS:09757033>> addButton(1,\"No\",(function(){return o.itemCancel(t,a)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Codex|91b41cee8132",
+    "original": "Codex",
+    "translation": "智典",
+    "context": "<<POS:09757095>> addButton(4,\"Codex\",(function(){showCodex(),(0,d.cY)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),o.sumaEffects(e,t,a)})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),o.itemCancel(t,a)}))}),\"Codex Entry\",\"View the Codex entry for ClearYu.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Codex_Entry|5e6f1989329b",
+    "original": "Codex Entry",
+    "translation": "智典入口",
+    "context": "<<POS:09757305>> addButton(4,\"Codex\",(function(){showCodex(),(0,d.cY)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),o.sumaEffects(e,t,a)})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),o.itemCancel(t,a)}))}),\"Codex Entry\",\"View the Codex entry for ClearYu.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.tooltip|View_the_Codex_entry_for_ClearYu|011a7d2b56a1",
+    "original": "View the Codex entry for ClearYu.",
+    "translation": "",
+    "context": "<<POS:09757319>> addButton(4,\"Codex\",(function(){showCodex(),(0,d.cY)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),o.sumaEffects(e,t,a)})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),o.itemCancel(t,a)}))}),\"Codex Entry\",\"View the Codex entry for ClearYu.\")"
   },
   {
     "key": "output|You_look_at_the_cream_filled_sphere_and_contemplate_giving_it_a|14eaf859b2c2",
@@ -141,7 +153,8 @@
     "key": "button|Next|f627161ab905",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09758490>> addButton(0,\"Next\",(function(){return a.returnToInventory(a)}))"
+    "context": "<<POS:09758490>> addButton(0,\"Next\",(function(){return a.returnToInventory(a)}))",
+    "stage": 1
   },
   {
     "key": "output|Flexing_the_tiny_ball_of_cream_between_your_fingers_you_recall|49ff58c0c7ea",
@@ -189,7 +202,8 @@
     "key": "button|Next|1137d4b2a51f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09759886>> addButton(0,\"Next\",(function(){return a.returnToInventory(a)}))"
+    "context": "<<POS:09759886>> addButton(0,\"Next\",(function(){return a.returnToInventory(a)}))",
+    "stage": 1
   },
   {
     "key": "output.expr|Rolling_the_small_bead_around_in_your_palm_you_begin_to_wonder|69393fa47848",
@@ -333,7 +347,8 @@
     "key": "button|Next|aa1ee0543633",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09763561>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:09763561>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|UH_OH|7b6decc76f9f",
@@ -417,7 +432,21 @@
     "key": "output|s|c76bb6be2104",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:09766339>>"
+    "context": "<<POS:09766339>>",
+    "stage": 1
+  },
+  {
+    "key": "output|swell|3d7039225005",
+    "original": " swell",
+    "translation": "",
+    "context": "<<POS:09766351>>"
+  },
+  {
+    "key": "output|s|f9b82e6ab7ba",
+    "original": "s",
+    "translation": "​",
+    "context": "<<POS:09766387>>",
+    "stage": 1
   },
   {
     "key": "output|to_turgid_stiffness_in_moments_beads_of_pre_cum_bubbling_to_th|cf316f911f7a",
@@ -471,7 +500,8 @@
     "key": "output|s|cb17ed336faa",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:09768561>>"
+    "context": "<<POS:09768561>>",
+    "stage": 1
   },
   {
     "key": "output|with_covetous_empathy_Though_unaffected_by_the_balm_s_influenc|b3c7f2eddcd7",
@@ -483,7 +513,8 @@
     "key": "output|s|a8980f70dda3",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:09768681>>"
+    "context": "<<POS:09768681>>",
+    "stage": 1
   },
   {
     "key": "output|reach|6ca860fbfaef",
@@ -496,6 +527,12 @@
     "original": " its",
     "translation": "",
     "context": "<<POS:09768728>>"
+  },
+  {
+    "key": "output|their|8d2aff613ffe",
+    "original": " their",
+    "translation": "",
+    "context": "<<POS:09768743>>"
   },
   {
     "key": "output|full_mast_in_record_time_eager_to_put_your_expanding_balls_to|d18dd3c06529",
@@ -603,7 +640,8 @@
     "key": "output|s|215e3cc77469",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:09773021>>"
+    "context": "<<POS:09773021>>",
+    "stage": 1
   },
   {
     "key": "output|to_finally_come_up_empty_do_you_take_stock_of_yourself_Head_s|90f8c1848af1",
@@ -651,7 +689,8 @@
     "key": "button|Next|51d83e4868a7",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09774059>> addButton(0,\"Next\",(function(){return a.returnToInventory(a)}))"
+    "context": "<<POS:09774059>> addButton(0,\"Next\",(function(){return a.returnToInventory(a)}))",
+    "stage": 1
   },
   {
     "key": "header|Medical_Attention|78b3d74b1c03",
@@ -699,7 +738,8 @@
     "key": "button|Next|989e2998be07",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09776216>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:09776216>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Side_Effects|f01b9cc57cf0",
@@ -741,7 +781,8 @@
     "key": "output|s|7b29a4fa1a21",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:09778139>>"
+    "context": "<<POS:09778139>>",
+    "stage": 1
   },
   {
     "key": "output|you_renew_your_masturbation_reaching_another|d7f2770cf655",
@@ -771,7 +812,8 @@
     "key": "button|Next|2793b50be950",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09778691>> addButton(0,\"Next\",(function(){return o.sumaBadEnd(\"growing\")}))"
+    "context": "<<POS:09778691>> addButton(0,\"Next\",(function(){return o.sumaBadEnd(\"growing\")}))",
+    "stage": 1
   },
   {
     "key": "header|Side_Effects|f01b9cc57cf0#1",
@@ -807,7 +849,8 @@
     "key": "output|s|d3879acad121",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:09780717>>"
+    "context": "<<POS:09780717>>",
+    "stage": 1
   },
   {
     "key": "output.expr|with_the_soothing_pc_cumVisc_cum_that_geysers_from_your_enfe|0d23b4d18f53",
@@ -819,7 +862,8 @@
     "key": "button|Next|b30a6400a159",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09781797>> addButton(0,\"Next\",(function(){return o.sumaBadEnd(\"bad end\")}))"
+    "context": "<<POS:09781797>> addButton(0,\"Next\",(function(){return o.sumaBadEnd(\"bad end\")}))",
+    "stage": 1
   },
   {
     "key": "header|Cream_Filled|e84a6f01ec58",

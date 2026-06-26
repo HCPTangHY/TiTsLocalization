@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|vial_of_Throbb|289e87df785f",
+    "original": "vial of Throbb",
+    "translation": "",
+    "context": "<<POS:06848752>>"
+  },
+  {
     "key": "assign|a_vial_of_Throbb|ffa533a4fb4d",
     "original": "a vial of Throbb",
     "translation": "",
@@ -24,6 +30,26 @@
     "context": "<<POS:06849831>> addDisabledButton(0,\"Use\")"
   },
   {
+    "key": "button|Don_t_Use|0be660b7f3f7",
+    "original": "Don’t Use",
+    "translation": "",
+    "context": "<<POS:06849850>> addButton(1,\"Don’t Use\",(function(){return t.itemCancel(t)}))"
+  },
+  {
+    "key": "button|Codex|ca0d49eb9299",
+    "original": "Codex",
+    "translation": "智典",
+    "context": "<<POS:06849912>> addButton(4,\"Codex\",(function(){showCodex(),(0,p.Vn)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View...",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Codex_Entry|24493e4f06cb",
+    "original": "Codex Entry",
+    "translation": "智典入口",
+    "context": "<<POS:06850181>> addButton(4,\"Codex\",(function(){showCodex(),(0,p.Vn)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View...",
+    "stage": 1
+  },
+  {
     "key": "button.tooltip|View_the_Codex_entry_for_Throbb|f51338235e1e",
     "original": "View the Codex entry for Throbb.",
     "translation": "",
@@ -42,6 +68,54 @@
     "context": "<<POS:06850385>> <<VARS:var0=a,var1=h.m,var2=h.m>> output(\"\\n<b>\"+h.m.capitalize(h.m.numToOrdinal(a+1))+\" Cock:</b>\")"
   },
   {
+    "key": "output.expr|var0|922b0de05a5e",
+    "original": " \"+{var0}+\",",
+    "translation": "",
+    "context": "<<POS:06850518>> <<VARS:var0=GLOBAL.FLAG_NAMES[e.cocks[a].flags[n]]>> output(\" \"+GLOBAL.FLAG_NAMES[e.cocks[a].flags[n]]+\",\")"
+  },
+  {
+    "key": "output.expr|var1_toDisplayCase_var0|6b56906039bd",
+    "original": " \"+{var1}.toDisplayCase({var0})+\",",
+    "translation": "",
+    "context": "<<POS:06850600>> <<VARS:var0=e.cocks[a].cockColor,var1=h.m>> output(\" \"+h.m.toDisplayCase(e.cocks[a].cockColor)+\",\")"
+  },
+  {
+    "key": "output.expr|var0|fa00ce88ea05",
+    "original": " \"+{var0}",
+    "translation": "",
+    "context": "<<POS:06850656>> <<VARS:var0=GLOBAL.TYPE_NAMES[e.cocks[a].cType]>> output(\" \"+GLOBAL.TYPE_NAMES[e.cocks[a].cType])"
+  },
+  {
+    "key": "output.expr|var1_formatFloat_var0_in_long|1b92b9803840",
+    "original": ", \"+{var1}.formatFloat({var0})+\" in long",
+    "translation": "",
+    "context": "<<POS:06850728>> <<VARS:var0=e.cocks[a].cLength(),3,var1=c.k>> output(\", \"+c.k.formatFloat(e.cocks[a].cLength(),3)+\" in long\")"
+  },
+  {
+    "key": "output.expr|var1_formatFloat_var0_in_thick|be543b2383ed",
+    "original": ", \"+{var1}.formatFloat({var0})+\" in thick",
+    "translation": "",
+    "context": "<<POS:06850818>> <<VARS:var0=e.cocks[a].thickness(),3,var1=c.k>> output(\", \"+c.k.formatFloat(e.cocks[a].thickness(),3)+\" in thick\")"
+  },
+  {
+    "key": "button|Cock|307607c4ca8e",
+    "original": "Cock ",
+    "translation": "",
+    "context": "<<POS:06850890>> addButton(o,\"Cock \"+(a+1),(function(){return t.throbbPCEffects(a)}),h.m.capitalize(h.m.numToOrdinal(a+1))+\" Cock\",\"Use this on your [pc.cock \"+a+\"].\")"
+  },
+  {
+    "key": "button.hover.expr|var2_capitalize_var1_numToOrdinal_var0_1_Cock|b8466f2f507f",
+    "original": "{var2}.capitalize({var1}.numToOrdinal({var0}+1))+\" Cock\"",
+    "translation": "",
+    "context": "<<POS:06850945>> <<VARS:var0=a,var1=h.m,var2=h.m>> addButton(o,\"Cock \"+(a+1),(function(){return t.throbbPCEffects(a)}),h.m.capitalize(h.m.numToOrdinal(a+1))+\" Cock\",\"Use this on your [pc.cock \"+a+\"].\")"
+  },
+  {
+    "key": "button.tooltip|Use_this_on_your_pc_cock|cae10125b034",
+    "original": "Use this on your [pc.cock ",
+    "translation": "",
+    "context": "<<POS:06850992>> addButton(o,\"Cock \"+(a+1),(function(){return t.throbbPCEffects(a)}),h.m.capitalize(h.m.numToOrdinal(a+1))+\" Cock\",\"Use this on your [pc.cock \"+a+\"].\")"
+  },
+  {
     "key": "output.expr|var0_var1_injects_the_Throbb_to_no_effect|e13d42db25b4",
     "original": "{var0}+{var1}+\" injects the Throbb to no effect.",
     "translation": "",
@@ -57,7 +131,8 @@
     "key": "button|Next|41862f28fb8a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:06851326>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+    "context": "<<POS:06851326>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   },
   {
     "key": "output|Well_here_goes_nothing_You_twist_the_little_plastic_cap_off_on|1588b1092f3e",
@@ -75,7 +150,8 @@
     "key": "output|groin|e256f4814c9a",
     "original": "groin",
     "translation": "下体",
-    "context": "<<POS:06852015>>"
+    "context": "<<POS:06852015>>",
+    "stage": 1
   },
   {
     "key": "output|and_jam_it_in_n_nIt_doesn_t_do_anything_at_all_Not_at_first_a|701dcd9a3375",
@@ -141,7 +217,8 @@
     "key": "output|and|ddba96e6ca8e",
     "original": " and ",
     "translation": "和",
-    "context": "<<POS:06855183>>"
+    "context": "<<POS:06855183>>",
+    "stage": 1
   },
   {
     "key": "output|pc_vaginas|f339801647ae",
@@ -327,7 +404,8 @@
     "key": "button|Next|396d0a2762cb",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:06863066>> addButton(0,\"Next\",this.throbbBadEnd)"
+    "context": "<<POS:06863066>> addButton(0,\"Next\",this.throbbBadEnd)",
+    "stage": 1
   },
   {
     "key": "output|The_artificial_heat_and_longing_that_filled_you_and_put_you_into|672aa962a0cd",
@@ -339,7 +417,8 @@
     "key": "button|Next|22e2e9f80ac6",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:06863310>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:06863310>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output.expr|You_masturbate_on_the_spot_rubbing_your_pc_cockBiggest_again|3ebb4ef3f934",
@@ -381,6 +460,7 @@
     "key": "button|Next|6c2e4c543f03",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:06866404>> addButton(0,\"Next\",(function(){showLocationName(\"GAME OVER\"),clearOutput(),output(\"At some point, you realized that your dreams of following in your dad’s footsteps had died. There was no way you were going to be able to focus long enough to find the probes he left scattered around the universe. You..."
+    "context": "<<POS:06866404>> addButton(0,\"Next\",(function(){showLocationName(\"GAME OVER\"),clearOutput(),output(\"At some point, you realized that your dreams of following in your dad’s footsteps had died. There was no way you were going to be able to focus long enough to find the probes he left scattered around the universe. You...",
+    "stage": 1
   }
 ]

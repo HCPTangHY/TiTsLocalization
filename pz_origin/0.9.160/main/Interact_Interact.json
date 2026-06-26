@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|Slave_U|309cb7bd462f",
+    "original": "Slave U.",
+    "translation": "",
+    "context": "<<POS:05718343>>"
+  },
+  {
     "key": "assign|slave_uniform|b6c3dde553e8",
     "original": "slave uniform",
     "translation": "",
@@ -111,7 +117,8 @@
     "key": "button|Back|cbca8e24f232",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:05722112>> addButton(14,\"Back\",(function(){return e.returnToInventory(e)}))"
+    "context": "<<POS:05722112>> addButton(14,\"Back\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   },
   {
     "key": "output|You_pull_open_the_top_zippers_open_to_expose_your_pc_chest|5e16ada3b6d4",
@@ -171,7 +178,8 @@
     "key": "button|Next|72742ac0feb3",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05723444>> addButton(0,\"Next\",this.slavesuitOptionsDisplay)"
+    "context": "<<POS:05723444>> addButton(0,\"Next\",this.slavesuitOptionsDisplay)",
+    "stage": 1
   },
   {
     "key": "output|You_zip_up_the_chest_of_your_slave_uniform|c09916b3fd7b",
@@ -201,6 +209,7 @@
     "key": "button|Next|8779b5a2e988",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05724287>> addButton(0,\"Next\",this.slavesuitOptionsDisplay)"
+    "context": "<<POS:05724287>> addButton(0,\"Next\",this.slavesuitOptionsDisplay)",
+    "stage": 1
   }
 ]

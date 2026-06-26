@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|armor_plating|81a482d19bd4",
+    "original": "armor plating",
+    "translation": "",
+    "context": "<<POS:33088486>>"
+  },
+  {
     "key": "assign|a_piece_of_armor_from_the_Pyrexxx_robots|84281df2eab3",
     "original": "a piece of armor from the Pyrexxx robots",
     "translation": "",
@@ -44,8 +50,15 @@
   {
     "key": "assign|the|65dd2c367413",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:33090860>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "context": "<<POS:33090877>>",
+    "stage": 1
   },
   {
     "key": "assign|hard_blow|9ef7c47c08db",
@@ -54,7 +67,7 @@
     "context": "<<POS:33090966>>"
   },
   {
-    "key": "assign|heavy_staff|efe308cc10af#1",
+    "key": "assign|heavy_staff|efe308cc10af",
     "original": "heavy staff",
     "translation": "",
     "context": "<<POS:33090989>>"
@@ -104,14 +117,26 @@
   {
     "key": "assign|the|abfbebb59020",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:33093599>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#1",
+    "original": "The ",
+    "translation": "",
+    "context": "<<POS:33093616>>"
   },
   {
     "key": "assign|hard_blow|9ef7c47c08db#1",
     "original": "hard blow",
     "translation": "",
     "context": "<<POS:33093705>>"
+  },
+  {
+    "key": "assign|heavy_staff|efe308cc10af#1",
+    "original": "heavy staff",
+    "translation": "",
+    "context": "<<POS:33093728>>"
   },
   {
     "key": "assign|Laser_Gun|888a23d70406#1",
@@ -140,8 +165,14 @@
   {
     "key": "assign|the|07b7c4585264",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:33096630>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#2",
+    "original": "The ",
+    "translation": "",
+    "context": "<<POS:33096648>>"
   },
   {
     "key": "assign|The_Pyrexxx_G4_Z1_heavy_munitions_bot_is_an_enormous_half_humano|01d638bdc2b7",
@@ -218,8 +249,14 @@
   {
     "key": "assign|the|6d701b7a996d",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:33101440>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#3",
+    "original": "The ",
+    "translation": "",
+    "context": "<<POS:33101458>>"
   },
   {
     "key": "assign|The_repair_unit_remains_intact_upon_the_Heavy_Minitions_Bot_s_ch|51578e607fcf",
@@ -266,8 +303,14 @@
   {
     "key": "assign|the|39053407b13e",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:33105768>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#4",
+    "original": "The ",
+    "translation": "",
+    "context": "<<POS:33105786>>"
   },
   {
     "key": "assign|The_shield_unit_remains_intact_upon_the_Heavy_Minitions_Bot_s_ch|b6b993faddfd",
@@ -314,7 +357,7 @@
   {
     "key": "button|Fight|a179b3b72320",
     "original": "Fight!",
-    "translation": "战斗！",
+    "translation": "",
     "context": "<<POS:33112568>> addButton(0,\"Fight!\",(function(){return E.V.beginCombat()}),\"Fight!\",\"\")"
   },
   {
@@ -357,7 +400,8 @@
     "key": "button|Next|69f91de1fbcb",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33114811>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:33114811>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|69f91de1fbcb",
@@ -387,7 +431,8 @@
     "key": "button|Next|ccc768d16e49",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33119486>> addButton(e++,\"Next\",(function(){clearAll(),author(\"Slab Bulkhead\"),showBust(\"KIKI\",\"JOSIE\",\"KARRAH\"),output(textify(Xme||(Xme=(0,Ce.Z)([\"\\n\\t\\tYou head into the Dhaal spaceport with the Mastodon and the towing crew behind you. Tamup Los calls you again once you’re through the warp gate, and gives y..."
+    "context": "<<POS:33119486>> addButton(e++,\"Next\",(function(){clearAll(),author(\"Slab Bulkhead\"),showBust(\"KIKI\",\"JOSIE\",\"KARRAH\"),output(textify(Xme||(Xme=(0,Ce.Z)([\"\\n\\t\\tYou head into the Dhaal spaceport with the Mastodon and the towing crew behind you. Tamup Los calls you again once you’re through the warp gate, and gives y...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|ccc768d16e49",
@@ -405,7 +450,8 @@
     "key": "button|Next|42fe8c99882e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:33130606>> addButton(e++,\"Next\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(mme||(mme=(0,Ce.Z)([\"\\n\\t\\t[flags.MASTODON_VISITED\\n\\t\\t\\t|The Mastodon floats through space, and there’s no sign anyone else has been here. Debris clouds hover around the darkened thrusters, and lights still flicker ..."
+    "context": "<<POS:33130606>> addButton(e++,\"Next\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(mme||(mme=(0,Ce.Z)([\"\\n\\t\\t[flags.MASTODON_VISITED\\n\\t\\t\\t|The Mastodon floats through space, and there’s no sign anyone else has been here. Debris clouds hover around the darkened thrusters, and lights still flicker ...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|42fe8c99882e",
@@ -470,7 +516,7 @@
   {
     "key": "button|Fight|08d51e6c4d25",
     "original": "Fight!",
-    "translation": "战斗！",
+    "translation": "",
     "context": "<<POS:33144247>> addButton(0,\"Fight!\",(function(){return E.V.beginCombat()}),\"Fight!\",\"\")"
   },
   {
@@ -524,13 +570,13 @@
   {
     "key": "button|Investigate|20eceb9fcfc1",
     "original": "Investigate",
-    "translation": "调查",
+    "translation": "",
     "context": "<<POS:33155830>> addButton(e++,\"Investigate\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(xme||(xme=(0,Ce.Z)([\"\\n\\t\\tThis room is small, but somehow manages to be a complete mess. Holo-posters cover what little wall space there is, flipping between images of all kinds of people from all kinds of spe..."
   },
   {
     "key": "button.hover|Investigate|20eceb9fcfc1",
     "original": "Investigate",
-    "translation": "调查",
+    "translation": "",
     "context": "<<POS:33157286>> addButton(e++,\"Investigate\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(xme||(xme=(0,Ce.Z)([\"\\n\\t\\tThis room is small, but somehow manages to be a complete mess. Holo-posters cover what little wall space there is, flipping between images of all kinds of people from all kinds of spe..."
   },
   {
@@ -578,7 +624,7 @@
   {
     "key": "button|Fight|08d51e6c4d25#1",
     "original": "Fight!",
-    "translation": "战斗！",
+    "translation": "",
     "context": "<<POS:33162410>> addButton(0,\"Fight!\",(function(){return E.V.beginCombat()}),\"Fight!\",\"\")"
   },
   {

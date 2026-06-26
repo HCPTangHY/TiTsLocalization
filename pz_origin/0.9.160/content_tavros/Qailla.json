@@ -14,8 +14,9 @@
   {
     "key": "button|Next|c967abcbe24f",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08322310>> addButton(0,\"Next\",KO)"
+    "translation": "继续",
+    "context": "<<POS:08322310>> addButton(0,\"Next\",KO)",
+    "stage": 1
   },
   {
     "key": "header|Pick_a_weapon_any_weapon|aedfb45af778",
@@ -28,6 +29,12 @@
     "original": "Qailla claps her hands together, setting her latex-wrapped tits jiggling, then spreads her hands wide enough to better reveal her excess of cleavage. <i>“So what kind of weapon are you thinking? Hammer?”</i> She gestures to the wall. <i>“Nail? Knife? Shiv? Shank?”</i> The greenskinned woman laughs. <i>“Seriously though, what kind of thing are you thinking?”</i>",
     "translation": "",
     "context": "<<POS:08322420>>"
+  },
+  {
+    "key": "button.expr|var0|5f3caa10c948",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08322946>> <<VARS:var0=i>> addButton(o++,i,(function(){return function(e,t){e.weaponKey=t,clearOutput(),UO();var o=[\"Knuckles\"].includes(t);output(blockHeader(\"Choosing: \"+we.m.toTitleCase(o?t:we.m.indefiniteArticle(t))+\"...\")),output(\"You decide to make \"+(o?t:we.m.indefiniteArticle(t)).toLowerCase()+\". This type of weapon p..."
   },
   {
     "key": "button.hover|Crafting|fb6a7c847464",
@@ -56,8 +63,9 @@
   {
     "key": "button|Next|72a51131a36f",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08323859>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08323859>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Pick_a_damage_type|4608dc461f16",
@@ -72,6 +80,18 @@
     "context": "<<POS:08323964>> <<VARS:var0=e.weaponKey>> output(\"With the form of your \"+e.weaponKey+\" chosen, it is time to select a focusing gem, determining the type of damage the weapon-to-be will deal. Nearly any individual gemstone should work. <b>This gemstone will be effectively consumed to create the weapon.</b>\")"
   },
   {
+    "key": "button.expr|var0|63a0ba1ba577",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08324510>> <<VARS:var0=r>> addButton(o++,r,(function(){return function(e,t){clearOutput(),UO(),output(blockHeader(\"Choosing: \"+we.m.toTitleCase(WO.get(t).damageType+\" damage...\"))),output(we.m.capitalize(we.m.indefiniteArticle(t))+\" gem will result in a weapon that deals \"+WO.get(t).damageType+\" damage.\\n\\nDo you wish to cont..."
+  },
+  {
+    "key": "button.hover.expr|var0|63a0ba1ba577",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08325003>> <<VARS:var0=r>> addButton(o++,r,(function(){return function(e,t){clearOutput(),UO(),output(blockHeader(\"Choosing: \"+we.m.toTitleCase(WO.get(t).damageType+\" damage...\"))),output(we.m.capitalize(we.m.indefiniteArticle(t))+\" gem will result in a weapon that deals \"+WO.get(t).damageType+\" damage.\\n\\nDo you wish to cont..."
+  },
+  {
     "key": "button.tooltip|Damage_Type_b|7292305808be",
     "original": "Damage Type: <b>",
     "translation": "",
@@ -80,8 +100,9 @@
   {
     "key": "button|Back|ca27e101d68d",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:08325156>> addButton(14,\"Back\",KO)"
+    "translation": "返回",
+    "context": "<<POS:08325156>> addButton(14,\"Back\",KO)",
+    "stage": 1
   },
   {
     "key": "header|Pick_an_attribute_bonus|01ba8490ac54",
@@ -96,6 +117,18 @@
     "context": "<<POS:08325256>>"
   },
   {
+    "key": "button.expr|var0|6592d7622002",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08325741>> <<VARS:var0=r>> addButton(o++,r,(function(){return function(e,t){clearOutput(),UO(),output(blockHeader(\"Choosing: \"+we.m.toTitleCase(WO.get(t).secondary+\" bonus...\"))),output(we.m.capitalize(we.m.indefiniteArticle(t))+\" gem will result in a weapon with a bonus to \"+WO.get(t).secondary+\".\\n\\nDo you wish to continue?..."
+  },
+  {
+    "key": "button.hover.expr|var0|6592d7622002",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08326233>> <<VARS:var0=r>> addButton(o++,r,(function(){return function(e,t){clearOutput(),UO(),output(blockHeader(\"Choosing: \"+we.m.toTitleCase(WO.get(t).secondary+\" bonus...\"))),output(we.m.capitalize(we.m.indefiniteArticle(t))+\" gem will result in a weapon with a bonus to \"+WO.get(t).secondary+\".\\n\\nDo you wish to continue?..."
+  },
+  {
     "key": "button.tooltip|Bonus_Attribute_b|7c7c7e1c6894",
     "original": "Bonus Attribute: <b>",
     "translation": "",
@@ -104,8 +137,9 @@
   {
     "key": "button|Back|3c2b5886d655",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:08326389>> addButton(14,\"Back\",(function(){return function(e){var t=new(M.yq.getClassByName(WO.get(e.focusKey).long));pc.inventory.insertItem(t),e.focusKey=void 0,JO(e)}(e)}))"
+    "translation": "返回",
+    "context": "<<POS:08326389>> addButton(14,\"Back\",(function(){return function(e){var t=new(M.yq.getClassByName(WO.get(e.focusKey).long));pc.inventory.insertItem(t),e.focusKey=void 0,JO(e)}(e)}))",
+    "stage": 1
   },
   {
     "key": "header|Pick_a_weapon_proc|b7a6ee2a9eee",
@@ -150,6 +184,12 @@
     "context": "<<POS:08327735>>"
   },
   {
+    "key": "button.expr|var0|2a8a2743ddd7",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08327969>> <<VARS:var0=l>> addDisabledButton(o++,l,l,\"<b><u>Requires appropriate damage type!</u></b>\".concat(h),\"Special Effect: <b>\".concat(GO.get(WO.get(i).chanceApply),\"</b>\"))"
+  },
+  {
     "key": "button.hover|b_u_Requires_appropriate_damage_type_u_b|21205706de8d",
     "original": "<b><u>Requires appropriate damage type!</u></b>",
     "translation": "",
@@ -162,6 +202,18 @@
     "context": "<<POS:08328034>> addDisabledButton(o++,l,l,\"<b><u>Requires appropriate damage type!</u></b>\".concat(h),\"Special Effect: <b>\".concat(GO.get(WO.get(i).chanceApply),\"</b>\"))"
   },
   {
+    "key": "button.expr|var0|7f5804028d07",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08328115>> <<VARS:var0=l>> addButton(o++,l,(function(){return function(e,t){clearOutput(),UO();var o=WO.get(t).chanceApply;output(blockHeader(\"Choosing: \"+we.m.toTitleCase(GO.get(o)+\"...\"))),output(we.m.capitalize(we.m.indefiniteArticle(t))+\" gem will result in a weapon with a the following special ability: \"+GO.get(o)+\".\\n\")..."
+  },
+  {
+    "key": "button.hover.expr|var0|7f5804028d07",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08329803>> <<VARS:var0=l>> addButton(o++,l,(function(){return function(e,t){clearOutput(),UO();var o=WO.get(t).chanceApply;output(blockHeader(\"Choosing: \"+we.m.toTitleCase(GO.get(o)+\"...\"))),output(we.m.capitalize(we.m.indefiniteArticle(t))+\" gem will result in a weapon with a the following special ability: \"+GO.get(o)+\".\\n\")..."
+  },
+  {
     "key": "button.tooltip|Special_Effect_b|7c940fdad3e6",
     "original": "Special Effect: <b>",
     "translation": "",
@@ -170,8 +222,9 @@
   {
     "key": "button|Back|f90ed6c31bb6",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:08329956>> addButton(14,\"Back\",(function(){return function(e){var t=new(M.yq.getClassByName(WO.get(e.resonanceKey).long));pc.inventory.insertItem(t),e.resonanceKey=void 0,QO(e)}(e)}))"
+    "translation": "返回",
+    "context": "<<POS:08329956>> addButton(14,\"Back\",(function(){return function(e){var t=new(M.yq.getClassByName(WO.get(e.resonanceKey).long));pc.inventory.insertItem(t),e.resonanceKey=void 0,QO(e)}(e)}))",
+    "stage": 1
   },
   {
     "key": "header|Weapon_Ready|df3ef9eb7706",
@@ -294,31 +347,43 @@
     "context": "<<POS:08341895>> addDisabledButton(0,\"Custom Weapon\",\"Custom Weapon\",\"You can’t afford the \".concat(qO.toLocaleString(),\" credit price tag for this service.\"),i)"
   },
   {
-    "key": "button|Custom_Weapon|981321030514",
+    "key": "button.tooltip.expr|var0|0e9eda0c83c5",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08341984>> <<VARS:var0=i>> addDisabledButton(0,\"Custom Weapon\",\"Custom Weapon\",\"You can’t afford the \".concat(qO.toLocaleString(),\" credit price tag for this service.\"),i)"
+  },
+  {
+    "key": "button|Custom_Weapon|51b54b5a641d",
     "original": "Custom Weapon",
     "translation": "",
     "context": "<<POS:08342012>> addDisabledButton(0,\"Custom Weapon\",\"Custom Weapon\",\"You need at least 3 eligible gems to make a custom hardlight weapon.\",i)"
   },
   {
-    "key": "button.hover|You_need_at_least_3_eligible_gems_to_make_a_custom_hardlight_wea|d32355cc6abf",
+    "key": "button.hover|You_need_at_least_3_eligible_gems_to_make_a_custom_hardlight_wea|6be6107c6005",
     "original": "You need at least 3 eligible gems to make a custom hardlight weapon.",
     "translation": "",
     "context": "<<POS:08342044>> addDisabledButton(0,\"Custom Weapon\",\"Custom Weapon\",\"You need at least 3 eligible gems to make a custom hardlight weapon.\",i)"
   },
   {
-    "key": "button|Custom_Weapon|74c083065e96",
+    "key": "button.tooltip.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08342114>> <<VARS:var0=i>> addDisabledButton(0,\"Custom Weapon\",\"Custom Weapon\",\"You need at least 3 eligible gems to make a custom hardlight weapon.\",i)"
+  },
+  {
+    "key": "button|Custom_Weapon|51b54b5a641d#1",
     "original": "Custom Weapon",
     "translation": "",
     "context": "<<POS:08342130>> addButton(0,\"Custom Weapon\",VO,\"Custom Weapon\",\"Begin creating a custom hardlight weapon with Qailla.\",i)"
   },
   {
-    "key": "button.hover|Custom_Weapon|74c083065e96",
+    "key": "button.hover|Custom_Weapon|51b54b5a641d",
     "original": "Custom Weapon",
     "translation": "",
     "context": "<<POS:08342149>> addButton(0,\"Custom Weapon\",VO,\"Custom Weapon\",\"Begin creating a custom hardlight weapon with Qailla.\",i)"
   },
   {
-    "key": "button.tooltip|Begin_creating_a_custom_hardlight_weapon_with_Qailla|653fd140a4a1",
+    "key": "button.tooltip|Begin_creating_a_custom_hardlight_weapon_with_Qailla|e7437f5790b1",
     "original": "Begin creating a custom hardlight weapon with Qailla.",
     "translation": "",
     "context": "<<POS:08342165>> addButton(0,\"Custom Weapon\",VO,\"Custom Weapon\",\"Begin creating a custom hardlight weapon with Qailla.\",i)"
@@ -674,8 +739,9 @@
   {
     "key": "button|Next|eb9a3915df38",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08352048>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08352048>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_knock_on_The_Servant_s_door_Faintly_you_hear_her_walking_o|e4cda83a9be1",
@@ -710,8 +776,9 @@
   {
     "key": "button|Appearance|303ce8882bd1",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:08353015>> addButton(0,\"Appearance\",n,\"Appearance\",\"Size her up.\")"
+    "translation": "外貌",
+    "context": "<<POS:08353015>> addButton(0,\"Appearance\",n,\"Appearance\",\"Size her up.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Appearance|303ce8882bd1",
@@ -884,8 +951,9 @@
   {
     "key": "button|Appearance|e3603623f926",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:08356966>> addDisabledButton(0,\"Appearance\")"
+    "translation": "外貌",
+    "context": "<<POS:08356966>> addDisabledButton(0,\"Appearance\")",
+    "stage": 1
   },
   {
     "key": "output|You_ask_The_Servant_to_tell_you_more_about_herself|a3b7d445f7cd",
@@ -974,8 +1042,9 @@
   {
     "key": "button|Tattoos|1d96f576bd25",
     "original": "Tattoos",
-    "translation": "",
-    "context": "<<POS:08357576>> addButton(4,\"Tattoos\",l,\"Tattoos\",\"She’s got some serious ink...\")"
+    "translation": "纹身",
+    "context": "<<POS:08357576>> addButton(4,\"Tattoos\",l,\"Tattoos\",\"She’s got some serious ink...\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Tattoos|1d96f576bd25",
@@ -992,8 +1061,9 @@
   {
     "key": "button|Tattoos|f6c3a0382ae9",
     "original": "Tattoos",
-    "translation": "",
-    "context": "<<POS:08357651>> addDisabledButton(4,\"Tattoos\",\"Tattoos\",\"You’d need to have seen most of her tats before you’d know to ask about them!\")"
+    "translation": "纹身",
+    "context": "<<POS:08357651>> addDisabledButton(4,\"Tattoos\",\"Tattoos\",\"You’d need to have seen most of her tats before you’d know to ask about them!\")",
+    "stage": 1
   },
   {
     "key": "button.hover|You_d_need_to_have_seen_most_of_her_tats_before_you_d_know_to_as|f458a6d8ff01",
@@ -1004,8 +1074,9 @@
   {
     "key": "button|Back|969f266d56b2",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:08357765>> addButton(14,\"Back\",o)"
+    "translation": "返回",
+    "context": "<<POS:08357765>> addButton(14,\"Back\",o)",
+    "stage": 1
   },
   {
     "key": "output|You_decide_to_ask_her_what_s_up_with_all_her_dark_quirks_and_wei|822796bef490",
@@ -1472,8 +1543,9 @@
   {
     "key": "button|Tattoos|dec66f187fe2",
     "original": "Tattoos",
-    "translation": "",
-    "context": "<<POS:08375184>> addDisabledButton(4,\"Tattoos\")"
+    "translation": "纹身",
+    "context": "<<POS:08375184>> addDisabledButton(4,\"Tattoos\")",
+    "stage": 1
   },
   {
     "key": "output|You_ask_The_Servant_to_tell_you_more_about_her_necklace|84793b74510b",
@@ -1664,8 +1736,9 @@
   {
     "key": "button|Back|9892582a14b6",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:08378418>> addButton(14,\"Back\",o)"
+    "translation": "返回",
+    "context": "<<POS:08378418>> addButton(14,\"Back\",o)",
+    "stage": 1
   },
   {
     "key": "output|You_ask_her_to_tell_you_the_secret_behind_the_Red_Stone_Necklace|5fee299af30d",
@@ -2090,8 +2163,9 @@
   {
     "key": "button|Back|0734ba556663",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:08391590>> addButton(14,\"Back\",o)"
+    "translation": "返回",
+    "context": "<<POS:08391590>> addButton(14,\"Back\",o)",
+    "stage": 1
   },
   {
     "key": "output|i_Hm_simple_But_I_can_do_that_i|f4b10f4c033e",
@@ -2156,8 +2230,9 @@
   {
     "key": "button|Next|10ab853338ab",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08394182>> addButton(0,\"Next\",t?b:w)"
+    "translation": "继续",
+    "context": "<<POS:08394182>> addButton(0,\"Next\",t?b:w)",
+    "stage": 1
   },
   {
     "key": "output|Her_cool_fingers_seem_to_warm_to_the_touch_as_they_slide_up_and|80c124fd01af",
@@ -2306,8 +2381,9 @@
   {
     "key": "button|Next|2a4a754acde3",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08403128>> addButton(0,\"Next\",a)"
+    "translation": "继续",
+    "context": "<<POS:08403128>> addButton(0,\"Next\",a)",
+    "stage": 1
   },
   {
     "key": "output.expr|A_pair_of_soft_pillowy_lips_press_gently_against_your_pc_cockH|492e2cb703a0",
@@ -2420,8 +2496,9 @@
   {
     "key": "button|Next|f15ffd378c4b",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08411327>> addButton(0,\"Next\",a)"
+    "translation": "继续",
+    "context": "<<POS:08411327>> addButton(0,\"Next\",a)",
+    "stage": 1
   },
   {
     "key": "output|i_As_you_wish_pc_name_i|48c28e3ba020",
@@ -2774,8 +2851,9 @@
   {
     "key": "output|s|5b28ff5ea3db",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:08424033>>"
+    "translation": "​",
+    "context": "<<POS:08424033>>",
+    "stage": 1
   },
   {
     "key": "output.expr|yearning_for_sweet_release_Throwing_your_head_back_you_groan|1d1bdd2a1efe",
@@ -2828,8 +2906,9 @@
   {
     "key": "button|Next|d4b1e39d4a6e",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08426157>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08426157>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|The_Servant_stares_at_you_her_mouth_agape_i_Oh_i_The_S|ee2cbdeaabec",
@@ -3014,8 +3093,9 @@
   {
     "key": "button|Next|d4b1e39d4a6e#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08434866>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08434866>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|The_Servant_s_eyes_go_wide_in_disbelief_the_pale_woman_almost_s|b1132317efe8",
@@ -3164,8 +3244,9 @@
   {
     "key": "button|Next|d4b1e39d4a6e#2",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08445496>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08445496>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|The_Servant_s_stares_at_you_a_moment_her_expression_deadpan_i|864683615889",
@@ -3536,8 +3617,9 @@
   {
     "key": "button|Next|3b4c69f70042",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08458346>> addButton(0,\"Next\",B)"
+    "translation": "继续",
+    "context": "<<POS:08458346>> addButton(0,\"Next\",B)",
+    "stage": 1
   },
   {
     "key": "output|You_tell_The_Servant_you_want_her_to_wear_it|76a8353d51f1",
@@ -3812,8 +3894,9 @@
   {
     "key": "button|Next|c55bc7b16b06",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08470543>> addButton(0,\"Next\",B)"
+    "translation": "继续",
+    "context": "<<POS:08470543>> addButton(0,\"Next\",B)",
+    "stage": 1
   },
   {
     "key": "output|You_awaken|3cd64c8e5175",
@@ -3890,8 +3973,9 @@
   {
     "key": "button|Next|204bd7f859b8",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08472916>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08472916>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Deciding_you_ve_had_enough_you_pull_yourself_to_your_feet_and_h|66333636bf2f",
@@ -3914,8 +3998,9 @@
   {
     "key": "button|Next|d29db6328a82",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08473402>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08473402>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_are_standing_next_to_The_Servant_s_apartment_She_s_surely_h|b46d4b1c34dc",
@@ -4088,8 +4173,9 @@
   {
     "key": "button|Appearance|7992d24c5055",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:08477588>> addButton(0,\"Appearance\",a)"
+    "translation": "外貌",
+    "context": "<<POS:08477588>> addButton(0,\"Appearance\",a)",
+    "stage": 1
   },
   {
     "key": "button|Talk|ddabdde12809",
@@ -4220,8 +4306,9 @@
   {
     "key": "button|Appearance|0dc4dd658121",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:08479740>> addDisabledButton(0,\"Appearance\")"
+    "translation": "外貌",
+    "context": "<<POS:08479740>> addDisabledButton(0,\"Appearance\")",
+    "stage": 1
   },
   {
     "key": "output|You_ask_Fadil_if_he_minds_talking_for_a_moment|6af83f3250c7",
@@ -4236,7 +4323,19 @@
     "context": "<<POS:08479909>>"
   },
   {
-    "key": "button|Daddy|020b4038992a",
+    "key": "button.expr|var0|76fa42a2aa17",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08480328>> <<VARS:var0=e>> addButton(o,e,(function(){return r(e)}))"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08480377>> <<VARS:var0=e>> addDisabledButton(o,e)"
+  },
+  {
+    "key": "button|Daddy|6fa2813ae181",
     "original": "Daddy",
     "translation": "",
     "context": "<<POS:08480493>> addDisabledButton(o++,\"Daddy\")"
@@ -4274,8 +4373,9 @@
   {
     "key": "button|Back|643f674a38fd",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:08480808>> addButton(14,\"Back\",n)"
+    "translation": "返回",
+    "context": "<<POS:08480808>> addButton(14,\"Back\",n)",
+    "stage": 1
   },
   {
     "key": "output|i_You_want_to_know_more_about_me_i_he_asks_with_slight_sur|1b318e6b802e",
@@ -5210,8 +5310,9 @@
   {
     "key": "button|Next|2922b85af862",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08521301>> addButton(0,\"Next\",g)"
+    "translation": "继续",
+    "context": "<<POS:08521301>> addButton(0,\"Next\",g)",
+    "stage": 1
   },
   {
     "key": "output|You_don_t_know_how_long_you_ve_been_asleep_so_you_reach_for_you|d3794c782533",
@@ -5246,8 +5347,9 @@
   {
     "key": "button|Next|24e6031a3351",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08522542>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08522542>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_recall_him_mentioning_private_donations_to_his_charity_and_a|96a06475b76c",
@@ -5342,8 +5444,9 @@
   {
     "key": "button|Next|ccda204c9d31",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08524904>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08524904>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_lean_forward_whispering_into_his_ear_i_I_need_your_hot_c|94b34019a576",
@@ -5510,8 +5613,9 @@
   {
     "key": "button|Next|2992b99bef31",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08530430>> addButton(0,\"Next\",(function(){return function(e){clearMenu(),clearOutput(),fadil.showAll(2),author(\"Doots\"),processTime(15+rand(76)),output(\"You’re not quite sure how long he’s been fucking you, nor do you know how many times you’ve come, but with how good it feels, you don’t care. Fadil’s knot is ..."
+    "translation": "继续",
+    "context": "<<POS:08530430>> addButton(0,\"Next\",(function(){return function(e){clearMenu(),clearOutput(),fadil.showAll(2),author(\"Doots\"),processTime(15+rand(76)),output(\"You’re not quite sure how long he’s been fucking you, nor do you know how many times you’ve come, but with how good it feels, you don’t care. Fadil’s knot is ...",
+    "stage": 1
   },
   {
     "key": "output|You_apologize_for_not_thinking_about_coming_to_him_in_a_such_a_s|1af60415280b",
@@ -5528,8 +5632,9 @@
   {
     "key": "button|Next|00c0b1a5a4ca",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08536385>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08536385>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|There_s_a_middle_aged_looking_ausar_sitting_in_a_corner_of_the_b|033033d67e68",
@@ -5630,8 +5735,9 @@
   {
     "key": "button|Appearance|7758af515113",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:08538431>> addButton(0,\"Appearance\",(function(){clearOutput(),liamme.showAll(),author(\"HugsAlright\"),output(\"Liamme is a \"),isSillyModeEnabled()?output(\"smol\"):output(\"5' 7\\\"\");output(\" ausar male. He’s made sure to accentuate his feminine features as much as possible: from the fluffy wolf-ears that part his l..."
+    "translation": "外貌",
+    "context": "<<POS:08538431>> addButton(0,\"Appearance\",(function(){clearOutput(),liamme.showAll(),author(\"HugsAlright\"),output(\"Liamme is a \"),isSillyModeEnabled()?output(\"smol\"):output(\"5' 7\\\"\");output(\" ausar male. He’s made sure to accentuate his feminine features as much as possible: from the fluffy wolf-ears that part his l...",
+    "stage": 1
   },
   {
     "key": "button.hover|Appearance|7758af515113",
@@ -6026,8 +6132,9 @@
   {
     "key": "button|Yes|bdd966fc7520",
     "original": "Yes",
-    "translation": "",
-    "context": "<<POS:08611939>> addButton(0,\"Yes\",(function(){clearOutput(),liamme.showAll(),author(\"HugsAlright\"),output(\"You smile and tell Liamme you’d be happy to help him out, to which the femboy happily exclaim <i>“Great!”</i> before checking his bag one more time to make sure he’s got everything.\"),output(\"\\n\\nWith a big, g..."
+    "translation": "是的",
+    "context": "<<POS:08611939>> addButton(0,\"Yes\",(function(){clearOutput(),liamme.showAll(),author(\"HugsAlright\"),output(\"You smile and tell Liamme you’d be happy to help him out, to which the femboy happily exclaim <i>“Great!”</i> before checking his bag one more time to make sure he’s got everything.\"),output(\"\\n\\nWith a big, g...",
+    "stage": 1
   },
   {
     "key": "button.hover|Yes|bdd966fc7520",
@@ -6044,8 +6151,9 @@
   {
     "key": "button|No|3ca22b0a92cf",
     "original": "No",
-    "translation": "",
-    "context": "<<POS:08624281>> addButton(1,\"No\",(function(){clearOutput(),liamme.showAll(),author(\"HugsAlright\"),output(\"You tell Liamme you \"),pc.isAss()||output(\" unfortunately\");output(\" have other things to do, earning a disappointed look from the ausar.\"),output(\"\\n\\n<i>“Oh, that’s fine,”</i> he says, shoulders slumping slig..."
+    "translation": "不",
+    "context": "<<POS:08624281>> addButton(1,\"No\",(function(){clearOutput(),liamme.showAll(),author(\"HugsAlright\"),output(\"You tell Liamme you \"),pc.isAss()||output(\" unfortunately\");output(\" have other things to do, earning a disappointed look from the ausar.\"),output(\"\\n\\n<i>“Oh, that’s fine,”</i> he says, shoulders slumping slig...",
+    "stage": 1
   },
   {
     "key": "button.hover|No|3ca22b0a92cf",
@@ -6278,14 +6386,16 @@
   {
     "key": "button|Next|be5f7903575d",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08635078>> addButton(0,\"Next\",o)"
+    "translation": "继续",
+    "context": "<<POS:08635078>> addButton(0,\"Next\",o)",
+    "stage": 1
   },
   {
     "key": "button|Next|35b9a3540cff",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08635115>> addButton(0,\"Next\",n)"
+    "translation": "继续",
+    "context": "<<POS:08635115>> addButton(0,\"Next\",n)",
+    "stage": 1
   },
   {
     "key": "output|Sellesy_openly_presses_against_your_groin_and_then_frowns_obvio|3397a190dd51",
@@ -6296,8 +6406,9 @@
   {
     "key": "button|Next|d29712c80608",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08635359>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08635359>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|The_gyration_of_her_hips_increase_in_intensity_A_series_of_deli|d617d2e83b86",
@@ -6350,8 +6461,9 @@
   {
     "key": "button|Next|ba68a2a5b94a",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08636933>> addButton(0,\"Next\",i)"
+    "translation": "继续",
+    "context": "<<POS:08636933>> addButton(0,\"Next\",i)",
+    "stage": 1
   },
   {
     "key": "output|The_gyration_of_her_hips_increases_in_intensity_A_series_of_del|47a0cbd9708b",
@@ -6368,8 +6480,9 @@
   {
     "key": "button|Next|02ba82eaa246",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08637977>> addButton(0,\"Next\",i)"
+    "translation": "继续",
+    "context": "<<POS:08637977>> addButton(0,\"Next\",i)",
+    "stage": 1
   },
   {
     "key": "output|As_Sellesy_casually_strolls_off_to_prepare_your_drink_you_tak|d80942409ac9",
@@ -6764,8 +6877,9 @@
   {
     "key": "button|Next|800ef6e4dd83",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08651052>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08651052>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Dropping_your_pc_gear_you_can_see_she_is_immediately_astounde|d59d43b1c9de",
@@ -6878,8 +6992,9 @@
   {
     "key": "button|Next|9667661a4eb1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08656230>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08656230>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|i_I_don_t_know_honey_i_Sellesy_temporizes_when_you_state|3c200a938062",
@@ -7094,8 +7209,9 @@
   {
     "key": "output|and|27ee4b492742",
     "original": " and ",
-    "translation": "",
-    "context": "<<POS:08660302>>"
+    "translation": "和",
+    "context": "<<POS:08660302>>",
+    "stage": 1
   },
   {
     "key": "output|pc_cocks|0fc47f47e0a2",
@@ -7844,8 +7960,9 @@
   {
     "key": "button|Next|b1e4d478d3c7",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08674264>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08674264>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Sellesy_seems_markedly_nonplussed_at_your_crotch_once_you_reach|71362eb0a13c",
@@ -8072,8 +8189,9 @@
   {
     "key": "output|and|af3ca503510e",
     "original": " and ",
-    "translation": "",
-    "context": "<<POS:08681953>>"
+    "translation": "和",
+    "context": "<<POS:08681953>>",
+    "stage": 1
   },
   {
     "key": "output|the_base_of|c6a2d919c473",
@@ -8330,8 +8448,9 @@
   {
     "key": "button|Next|8622e430f6c8",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08689540>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08689540>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Any_qualms_you_have_over_the_change_in_plans_are_overriden_insta|94bd7408c842",
@@ -8372,8 +8491,9 @@
   {
     "key": "button|Next|a77c4b653202",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08692435>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08692435>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Sellesy_s_imperturbability_is_almost_damaged_when_you_tell_her_w|f3a150a8221f",
@@ -8606,8 +8726,9 @@
   {
     "key": "output|s|d9c092a48801",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:08701760>>"
+    "translation": "​",
+    "context": "<<POS:08701760>>",
+    "stage": 1
   },
   {
     "key": "output|bending_the_shaft|9366f1d5d76c",
@@ -8618,8 +8739,9 @@
   {
     "key": "output|s|b46e524e9e2e",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:08701820>>"
+    "translation": "​",
+    "context": "<<POS:08701820>>",
+    "stage": 1
   },
   {
     "key": "output|and_aiming_you_toward_the_smooth_skin_of_her_thighs_as_each_cli|249e009f1910",
@@ -8630,8 +8752,9 @@
   {
     "key": "output|s|6f96b1a224ab",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:08702009>>"
+    "translation": "​",
+    "context": "<<POS:08702009>>",
+    "stage": 1
   },
   {
     "key": "output|every_time_Sellesy_rises_up_She_resumes_riding_jerking_and_fo|2878308c236c",
@@ -8666,8 +8789,9 @@
   {
     "key": "output|s|30d56c02d470",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:08702712>>"
+    "translation": "​",
+    "context": "<<POS:08702712>>",
+    "stage": 1
   },
   {
     "key": "output|at_the_base|0930f0f841cc",
@@ -8678,8 +8802,9 @@
   {
     "key": "output|s|e5b6abd32610",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:08702765>>"
+    "translation": "​",
+    "context": "<<POS:08702765>>",
+    "stage": 1
   },
   {
     "key": "output|like_velvety_vises_Push_as_your_body_might_only_a_whisper_esc|b6a95ef33e13",
@@ -8696,8 +8821,9 @@
   {
     "key": "output|s|04f9439d6471",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:08703275>>"
+    "translation": "​",
+    "context": "<<POS:08703275>>",
+    "stage": 1
   },
   {
     "key": "output.expr|into_position_in_its_place_then_she_sinks_down_again_capturin|8275f5f52a39",
@@ -8786,8 +8912,9 @@
   {
     "key": "output|s|db7f527f96b3",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:08704785>>"
+    "translation": "​",
+    "context": "<<POS:08704785>>",
+    "stage": 1
   },
   {
     "key": "output|For_ten_minutes|fe29c76d8d19",
@@ -8948,8 +9075,9 @@
   {
     "key": "button|Next|7457a8805734",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08709982>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08709982>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|As_you_enter_the_Bar_leaving_the_check_in_kiosk_behind_a_wall|85dd3b92bf7d",
@@ -9380,8 +9508,9 @@
   {
     "key": "button|Next|f43e541479f9",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08719852>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08719852>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_tell_Shelly_if_she_wants_some_assistance_with_her_egg_laying|2b774df860ff",
@@ -9782,8 +9911,9 @@
   {
     "key": "button|Next|ccc0f602f8c0",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08736350>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08736350>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_ask_Shelly_if_she_d_be_up_for_a_little_more_intensive_sessio|13ba50340830",
@@ -9872,8 +10002,9 @@
   {
     "key": "button|Next|7c553e4e2dd6",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08739849>> addButton(0,\"Next\",(function(){return l(2)}))"
+    "translation": "继续",
+    "context": "<<POS:08739849>> addButton(0,\"Next\",(function(){return l(2)}))",
+    "stage": 1
   },
   {
     "key": "output|i|558f11e6604c",
@@ -10052,8 +10183,9 @@
   {
     "key": "button|Next|6b312bdf63f9",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08748435>> addButton(0,\"Next\",(function(){return l(3)}))"
+    "translation": "继续",
+    "context": "<<POS:08748435>> addButton(0,\"Next\",(function(){return l(3)}))",
+    "stage": 1
   },
   {
     "key": "output|You_assist_her_in_the_only_way_you_can_think_of_by_continuing_s|a384eb4546ad",
@@ -10088,8 +10220,9 @@
   {
     "key": "button|Next|9075172074ab",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08750626>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08750626>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|i_Ooh_girl_you_look_knocked_up_You_need_help_i|58cfd16062da",
@@ -10370,8 +10503,9 @@
   {
     "key": "button|No|66b17599fcae",
     "original": "No",
-    "translation": "",
-    "context": "<<POS:08759682>> addButton(0,\"No\",c,\"No\",\"Duck the dusky bunny’s demand.\")"
+    "translation": "不",
+    "context": "<<POS:08759682>> addButton(0,\"No\",c,\"No\",\"Duck the dusky bunny’s demand.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|No|66b17599fcae",
@@ -10388,8 +10522,9 @@
   {
     "key": "button|Yes|cfd65e7477b0",
     "original": "Yes",
-    "translation": "",
-    "context": "<<POS:08759740>> addButton(1,\"Yes\",y,\"Yes\",\"Let the bunny-girl borrow your hardlight underwear and ride your [pc.vagOrAss] to climax.\")"
+    "translation": "是的",
+    "context": "<<POS:08759740>> addButton(1,\"Yes\",y,\"Yes\",\"Let the bunny-girl borrow your hardlight underwear and ride your [pc.vagOrAss] to climax.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Yes|cfd65e7477b0",
@@ -10544,8 +10679,9 @@
   {
     "key": "button|Next|d8464b69077c",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08762579>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08762579>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Your_eyes_wander_to_your_hardlight_underpants_as_you_consider_ho|d836b422ed52",
@@ -11150,8 +11286,9 @@
   {
     "key": "button|Next|0c18d2fa4d79",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:08773870>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:08773870>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output.expr|Your_pc_cockNounSimple_var0_twitches_you_hold_it_as_lon|eb183a2d0c8b",

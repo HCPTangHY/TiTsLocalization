@@ -1,15 +1,9 @@
 [
   {
-    "key": "perk|Bubble_Butt|62798961bd8c",
-    "original": "Bubble Butt",
+    "key": "assign|a_bottle_of_Thicc_Shake|637daeda1759",
+    "original": "a bottle of Thicc&Shake",
     "translation": "",
-    "context": "<<POS:08389038>> createPerk(\"Bubble Butt\",0,0,0,0,\"Your ass is always soft, regardless of tone.\")"
-  },
-  {
-    "key": "output|pc_cocks|c5ecb6c4adc5",
-    "original": " [pc.cocks]",
-    "translation": "",
-    "context": "<<POS:09276924>>"
+    "context": "<<POS:09897357>>"
   },
   {
     "key": "assign|Thicc_Shake_is_newly_developed_JoyCo_product_for_those_wishing_t|890462673468",
@@ -34,6 +28,12 @@
     "original": "{var0}",
     "translation": "",
     "context": "<<POS:09899065>> <<VARS:var0=a>> output(a)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:09899679>> <<VARS:var0=a>> output(a)"
   },
   {
     "key": "name.show|Thicc_Shake|561027f19f88",
@@ -147,7 +147,8 @@
     "key": "button|Next|e88ed04f51a3",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09903496>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:09903496>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "assign|Thinking_to_make_use_of_the_Thicc_Shake_you_remove_your_gear_an|32d9e4f50554",
@@ -444,7 +445,7 @@
     "context": "<<POS:09909422>>"
   },
   {
-    "key": "output|pc_cocks|c5ecb6c4adc5#1",
+    "key": "output|pc_cocks|c5ecb6c4adc5",
     "original": " [pc.cocks]",
     "translation": "",
     "context": "<<POS:09909450>>"
@@ -466,6 +467,12 @@
     "original": " and",
     "translation": "",
     "context": "<<POS:09909581>>"
+  },
+  {
+    "key": "output|pc_cum|a5d0ce9324d6",
+    "original": " [pc.cum]",
+    "translation": "",
+    "context": "<<POS:09909609>>"
   },
   {
     "key": "output|your_pc_asshole_explodes_with_orgasmic_contractions|b3625e9b6c3b",
@@ -504,7 +511,7 @@
     "context": "<<POS:09910563>>"
   },
   {
-    "key": "output|pc_cocks|c5ecb6c4adc5#2",
+    "key": "output|pc_cocks|c5ecb6c4adc5#1",
     "original": " [pc.cocks]",
     "translation": "",
     "context": "<<POS:09910591>>"
@@ -525,7 +532,8 @@
     "key": "button|Next|a595cc2892b6",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09911025>> addButton(0,\"Next\",(function(){return o.overdoseNext(e)}))"
+    "context": "<<POS:09911025>> addButton(0,\"Next\",(function(){return o.overdoseNext(e)}))",
+    "stage": 1
   },
   {
     "key": "output|Your_brain_finally_reboots_from_your_slumber_and_your_surroundin|2d9326dd2bde",
@@ -630,6 +638,12 @@
     "context": "<<POS:09913450>>"
   },
   {
+    "key": "output|pc_cocks|c5ecb6c4adc5#2",
+    "original": " [pc.cocks]",
+    "translation": "",
+    "context": "<<POS:09913478>>"
+  },
+  {
     "key": "output|you_can_ever_imagine|12c3ea6de140",
     "original": " you can ever imagine",
     "translation": "",
@@ -708,6 +722,12 @@
     "context": "<<POS:09915438>>"
   },
   {
+    "key": "perk|Bubble_Butt|62798961bd8c",
+    "original": "Bubble Butt",
+    "translation": "",
+    "context": "<<POS:09915534>> createPerk(\"Bubble Butt\",0,0,0,0,\"Your ass is always soft, regardless of tone.\")"
+  },
+  {
     "key": "output|You_can_t_help_but_swing_your_pc_hips_around_The_weight_the|ba1b54a390c1",
     "original": "You can’t help but swing your [pc.hips] around. The weight, the power, the appeal--all very intoxicating. You need find partner and give them the ride of the lifetime. Though you wonder, maybe you will be too much for them? Ah, who cares! These hips need to slam into something, what it is doesn’t matter!",
     "translation": "",
@@ -747,6 +767,7 @@
     "key": "button|Next|3cfd1f2c9abc",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09916804>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:09916804>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   }
 ]

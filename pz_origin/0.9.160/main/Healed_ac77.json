@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|vial_of_fungal_extract|31c5f975e92c",
+    "original": "vial of fungal extract",
+    "translation": "",
+    "context": "<<POS:06425341>>"
+  },
+  {
     "key": "assign|a_vial_of_fungal_extract|a3b585a91d69",
     "original": "a vial of fungal extract",
     "translation": "",
@@ -16,6 +22,12 @@
     "original": "Using supplements to heal yourself will only work once per fight. No body can handle the metabolic strain of downing multiple regenerative items in such quick succession.",
     "translation": "",
     "context": "<<POS:06426273>>"
+  },
+  {
+    "key": "output.expr|var0_var1_has_already_healed_during_this_fight_Doing_so_a|5d6ba491fb50",
+    "original": "{var0}+{var1}+\" has already healed during this fight! Doing so again would be more than ill-advised!",
+    "translation": "",
+    "context": "<<POS:06426615>> <<VARS:var0=e.capitalA,var1=e.short>> output(e.capitalA+e.short+\" has already healed during this fight! Doing so again would be more than ill-advised!\")"
   },
   {
     "key": "combat|You_quickly_feel_a_rush_of_vigor_and_a_hint_of_arousal_burni|bcaa63678f13",

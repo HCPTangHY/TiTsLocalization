@@ -1,5 +1,35 @@
 [
   {
+    "key": "string.array|equipmentSlot|9658697aa3fe",
+    "original": "[\"equipmentSlot\"]",
+    "translation": "",
+    "context": "<<POS:12729416>>"
+  },
+  {
+    "key": "assign|wide|935e31b31650",
+    "original": " wide",
+    "translation": "",
+    "context": "<<POS:12731417>>"
+  },
+  {
+    "key": "assign|square|9c671827242c",
+    "original": " square",
+    "translation": "",
+    "context": "<<POS:12731434>>"
+  },
+  {
+    "key": "assign|tall|550c1cea8c04",
+    "original": " tall",
+    "translation": "",
+    "context": "<<POS:12731455>>"
+  },
+  {
+    "key": "assign|pixelated|6e8957600068",
+    "original": " pixelated",
+    "translation": "",
+    "context": "<<POS:12731512>>"
+  },
+  {
     "key": "assign|Piercings|f80cab0312d6",
     "original": " Piercings",
     "translation": "",
@@ -126,10 +156,28 @@
     "context": "<<POS:12774233>> addDisabledButton(1,\"Help\",\"Circuit System Tutorial\",\"You can only access this before beginning the puzzle.\")"
   },
   {
+    "key": "button|Help|305a380d639d",
+    "original": "Help",
+    "translation": "",
+    "context": "<<POS:12774302>> addButton(1,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_CIRCUIT_PROMPT&&(flags.TUTORIAL_CIRCUIT_PROMPT=2),e.generateTutorialBoard(),e.generateMenu()}),\"Circuit System Tutorial\",\"Get an explanation of this puzzle.\\n\\n<b>You can only ac..."
+  },
+  {
     "key": "button.hover|Circuit_System_Tutorial|304d0279f0cd",
     "original": "Circuit System Tutorial",
     "translation": "",
     "context": "<<POS:12774507>> addButton(1,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_CIRCUIT_PROMPT&&(flags.TUTORIAL_CIRCUIT_PROMPT=2),e.generateTutorialBoard(),e.generateMenu()}),\"Circuit System Tutorial\",\"Get an explanation of this puzzle.\\n\\n<b>You can only ac..."
+  },
+  {
+    "key": "button.tooltip|Get_an_explanation_of_this_puzzle_n_n_b_You_can_only_access_thi|a8f7cf216082",
+    "original": "Get an explanation of this puzzle.\\n\\n<b>You can only access this before beginning!</b>",
+    "translation": "",
+    "context": "<<POS:12774533>> addButton(1,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_CIRCUIT_PROMPT&&(flags.TUTORIAL_CIRCUIT_PROMPT=2),e.generateTutorialBoard(),e.generateMenu()}),\"Circuit System Tutorial\",\"Get an explanation of this puzzle.\\n\\n<b>You can only ac..."
+  },
+  {
+    "key": "button|Give_Up|9351ddec0a4c",
+    "original": "Give Up",
+    "translation": "",
+    "context": "<<POS:12774682>> addButton(4,\"Give Up\",(function(){window.removeRotateMinigame(),window.returnFromElement(),window.getGameState()&&!0!==e.props.testGame||showMainMenu(!0,!0,!0),e.props.onFailure()}))"
   },
   {
     "key": "assign|The_circuit_system_has_crashed_br_Reset_and_try_again|009d447c73dc",
@@ -153,6 +201,7 @@
     "key": "button|Next|08e5decf1a4a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:12777814>> addButton(2,\"Next\",c)"
+    "context": "<<POS:12777814>> addButton(2,\"Next\",c)",
+    "stage": 1
   }
 ]

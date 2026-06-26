@@ -1,9 +1,9 @@
 [
   {
-    "key": "button|No|1c655db5490a",
-    "original": "No",
-    "translation": "不",
-    "context": "<<POS:00793768>> addButton(1,\"No\",this.noStoryFind)"
+    "key": "output|You_make_your_way_to_embry_name_s_apartment_and_shiver_slightl|551258be246d",
+    "original": "You make your way to [embry.name]’s apartment and shiver slightly. It’s definitely colder on Myrellion this time of year. When you get to [embry.name]’s apartment, you knock. After a few moments without an answer, you try the door, surprised as it opens, unlocked.",
+    "translation": "",
+    "context": "<<POS:10467820>>"
   },
   {
     "key": "output|You_enter_embry_name_s_apartment_and_are_greeting_with_a_radic|a0f605ec4c83",
@@ -170,7 +170,7 @@
   {
     "key": "button|Leave|b7d6c1c57eae",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:10473780>> addButton(4,\"Leave\",t)"
   },
   {
@@ -195,7 +195,8 @@
     "key": "button|Next|347f0a51db84",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:10474272>> addButton(0,\"Next\",(function(){return moveToRoom(\"609\",!0)}))"
+    "context": "<<POS:10474272>> addButton(0,\"Next\",(function(){return moveToRoom(\"609\",!0)}))",
+    "stage": 1
   },
   {
     "key": "output|You_tell_embry_name_that_you_d_love_to_bake_cookies_with_her|99c997a7d6d5",
@@ -296,7 +297,7 @@
   {
     "key": "button|Leave|8dd439b6bf7b",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:10476946>> addButton(4,\"Leave\",a)"
   },
   {
@@ -321,7 +322,8 @@
     "key": "button|Next|347f0a51db84#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:10477383>> addButton(0,\"Next\",(function(){return moveToRoom(\"609\",!0)}))"
+    "context": "<<POS:10477383>> addButton(0,\"Next\",(function(){return moveToRoom(\"609\",!0)}))",
+    "stage": 1
   },
   {
     "key": "output|You_tell_her_that_you_re_interested_in_snowball_cookies|0383bc0b0df7",
@@ -525,7 +527,15 @@
     "key": "button|Yes|df9b58c8696d",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:10484830>> addButton(0,\"Yes\",i)"
+    "context": "<<POS:10484830>> addButton(0,\"Yes\",i)",
+    "stage": 1
+  },
+  {
+    "key": "button|No|1c655db5490a",
+    "original": "No",
+    "translation": "不",
+    "context": "<<POS:10484851>> addButton(1,\"No\",s)",
+    "stage": 1
   },
   {
     "key": "header.expr|var0|985d0d117f34",
@@ -663,7 +673,8 @@
     "key": "button|Next|6c188e20b432",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:10487916>> addButton(0,\"Next\",enterPCShip)"
+    "context": "<<POS:10487916>> addButton(0,\"Next\",enterPCShip)",
+    "stage": 1
   },
   {
     "key": "header.expr|var0|725f50c68bae",
@@ -963,7 +974,8 @@
     "key": "button|Next|6c188e20b432#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:10499469>> addButton(0,\"Next\",enterPCShip)"
+    "context": "<<POS:10499469>> addButton(0,\"Next\",enterPCShip)",
+    "stage": 1
   },
   {
     "key": "header.expr|var0|725f50c68bae#1",
@@ -1065,7 +1077,8 @@
     "key": "button|Next|6c188e20b432#2",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:10502958>> addButton(0,\"Next\",enterPCShip)"
+    "context": "<<POS:10502958>> addButton(0,\"Next\",enterPCShip)",
+    "stage": 1
   },
   {
     "key": "name.show|Waitress|ddeeb827c24e",

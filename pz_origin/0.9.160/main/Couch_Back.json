@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|Rainbow_Gaze|485e12847cc0",
+    "original": "Rainbow Gaze",
+    "translation": "",
+    "context": "<<POS:09310575>>"
+  },
+  {
     "key": "assign|an_eyedropper_labeled_Rainbow_Gaze|f91041e729ac",
     "original": "an eyedropper labeled “Rainbow Gaze”",
     "translation": "",
@@ -30,6 +36,19 @@
     "context": "<<POS:09311515>> showName(\"Rainbow Gaze\")"
   },
   {
+    "key": "button.expr|var1_capitalize_var0|ec56fbe7cb6c",
+    "original": "{var1}.capitalize({var0})",
+    "translation": "",
+    "context": "<<POS:09311637>> <<VARS:var0=n,var1=l.m>> addButton(a++,l.m.capitalize(n),(function(){return o.rbgSelColor(e,n,t)}))"
+  },
+  {
+    "key": "button|Back|8f5ba447a959",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:09311715>> addButton(14,\"Back\",(function(){return o.rbgCancel(e,t)}))",
+    "stage": 1
+  },
+  {
     "key": "header.expr|var1_toDisplayCase_var0_Colors|2860f5039432",
     "original": "{var1}.toDisplayCase({var0})+\" Colors",
     "translation": "",
@@ -57,13 +76,32 @@
     "key": "button|Back|1adc3a127bf2",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:09313268>> addButton(14,\"Back\",(function(){return a.rbgMenu(e,o)}))"
+    "context": "<<POS:09313268>> addButton(14,\"Back\",(function(){return a.rbgMenu(e,o)}))",
+    "stage": 1
+  },
+  {
+    "key": "button.expr|var0|47fa7bde0a8a",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:09313462>> <<VARS:var0=t[1]>> addButton(s,t[1],(function(){return n.rbgUse(e,t[0],a)}),l.m.toDisplayCase(t[0]),\"Change the color of your eyes to \"+t[0]+\".\")"
+  },
+  {
+    "key": "button.hover.expr|var1_toDisplayCase_var0|7ee32967072f",
+    "original": "{var1}.toDisplayCase({var0})",
+    "translation": "",
+    "context": "<<POS:09313507>> <<VARS:var0=t[0],var1=l.m>> addButton(s,t[1],(function(){return n.rbgUse(e,t[0],a)}),l.m.toDisplayCase(t[0]),\"Change the color of your eyes to \"+t[0]+\".\")"
   },
   {
     "key": "button.tooltip|Change_the_color_of_your_eyes_to|762fc873f8b6",
     "original": "Change the color of your eyes to ",
     "translation": "",
     "context": "<<POS:09313532>> addButton(s,t[1],(function(){return n.rbgUse(e,t[0],a)}),l.m.toDisplayCase(t[0]),\"Change the color of your eyes to \"+t[0]+\".\")"
+  },
+  {
+    "key": "button.expr|var0|96b23428733f",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:09313597>> <<VARS:var0=t[1]>> addDisabledButton(s,t[1],l.m.toDisplayCase(t[0]),\"Your eyes are already \"+t[0]+\".\")"
   },
   {
     "key": "button.hover|Your_eyes_are_already|e48d8dbe51d7",
@@ -75,7 +113,8 @@
     "key": "button|Back|29d9ad0ee982",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:09313741>> addButton(14,\"Back\",(function(){return n.rbgSelColor(e,t,a)}))"
+    "context": "<<POS:09313741>> addButton(14,\"Back\",(function(){return n.rbgSelColor(e,t,a)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Rainbow_Gaze|e4cec20eaee1",
@@ -93,7 +132,8 @@
     "key": "button|Next|4a09b843f374",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09314002>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
+    "context": "<<POS:09314002>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Rainbow_Gaze|aaee06573fdc",
@@ -111,6 +151,7 @@
     "key": "button|Next|34dc5e6ff1f5",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09314576>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))"
+    "context": "<<POS:09314576>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))",
+    "stage": 1
   }
 ]

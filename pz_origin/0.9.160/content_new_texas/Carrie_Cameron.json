@@ -92,8 +92,9 @@
   {
     "key": "button|Next|ace10976a66f",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03294031>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:03294031>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_lean_over_the_counter_looking_the_chef_up_and_down_your_ey|8b3b5e5ffeda",
@@ -188,8 +189,9 @@
   {
     "key": "button|Next|d8e8da7beead",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03299910>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:03299910>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|credits|b52b3df1e1ac",
@@ -236,14 +238,33 @@
   {
     "key": "button|Next|fec839c0108c",
     "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:03301421>> addButton(0,\"Next\",e)",
+    "stage": 1
+  },
+  {
+    "key": "button.expr|var0|725f50c68bae",
+    "original": "{var0}",
     "translation": "",
-    "context": "<<POS:03301421>> addButton(0,\"Next\",e)"
+    "context": "<<POS:03301598>> <<VARS:var0=e.name>> addButton(s++,e.name,(function(){!function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0;isNaN(e)||(pc.credits-=e)}(e.cost),e.func()}),e.name,null!=o?o:\"Order this item.\",t)"
+  },
+  {
+    "key": "button.hover.expr|var0|725f50c68bae",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:03301738>> <<VARS:var0=e.name>> addButton(s++,e.name,(function(){!function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0;isNaN(e)||(pc.credits-=e)}(e.cost),e.func()}),e.name,null!=o?o:\"Order this item.\",t)"
   },
   {
     "key": "button.tooltip.expr|var0_var1_Order_this_item|49f2c921b40a",
     "original": "{var0}?{var1}:\"Order this item.\"",
     "translation": "",
     "context": "<<POS:03301745>> <<VARS:var0=null!=o,var1=o>> addButton(s++,e.name,(function(){!function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0;isNaN(e)||(pc.credits-=e)}(e.cost),e.func()}),e.name,null!=o?o:\"Order this item.\",t)"
+  },
+  {
+    "key": "button.expr|var0|f0666e36c23c",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:03301799>> <<VARS:var0=e.name>> addDisabledButton(s++,e.name,e.name,\"You can’t afford \".concat(e.item,\". You’d need \").concat(e.cost.toLocaleString(),\" credits.\"))"
   },
   {
     "key": "button.hover|You_can_t_afford|312a824d9d61",
@@ -254,8 +275,9 @@
   {
     "key": "button|Back|d5401fc7ed5f",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:03301926>> addButton(14,\"Back\",mainGameMenu)"
+    "translation": "返回",
+    "context": "<<POS:03301926>> addButton(14,\"Back\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Carrie_Cameron|9d8076cac94e",
@@ -356,8 +378,9 @@
   {
     "key": "button|Back|78aed61e2f9f",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:03315521>> addButton(0,\"Back\",(function(){window.popUIState()}))"
+    "translation": "返回",
+    "context": "<<POS:03315521>> addButton(0,\"Back\",(function(){window.popUIState()}))",
+    "stage": 1
   },
   {
     "key": "name.show|Smee|c55b604c8878",
@@ -410,8 +433,9 @@
   {
     "key": "button|Next|c5233b19ffb7",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03317992>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:03317992>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|c5233b19ffb7",
@@ -470,8 +494,9 @@
   {
     "key": "button|Next|67f7c3fe41f8",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03395713>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:03395713>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Betsy_Victoria|c0e50e616439",
@@ -812,8 +837,9 @@
   {
     "key": "button|Next|b366a72844f8",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03409751>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.503\",!0)}))"
+    "translation": "继续",
+    "context": "<<POS:03409751>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.503\",!0)}))",
+    "stage": 1
   },
   {
     "key": "output|You_tell_the_girls_that_since_you_just_got_both_of_them_off_you|15c26a78db70",
@@ -938,8 +964,9 @@
   {
     "key": "button|Next|b366a72844f8#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03415042>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.503\",!0)}))"
+    "translation": "继续",
+    "context": "<<POS:03415042>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.503\",!0)}))",
+    "stage": 1
   },
   {
     "key": "output|The_gym_s_entry_room_is_simple_and_spartan_with_almost_half_of|23398d590a63",
@@ -1346,14 +1373,16 @@
   {
     "key": "button|Next|0fe48cf90422",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03464047>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:03464047>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "button|Next|35b9a3540cff",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03464094>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:03464094>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Simone_sits_down_and_straddles_the_end_of_the_bench_then|43acbb7d0588",
@@ -2024,8 +2053,9 @@
   {
     "key": "button|Next|767939149101",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03491123>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:03491123>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header.expr|var0|725f50c68bae",
@@ -2150,14 +2180,16 @@
   {
     "key": "button|Next|bc4b2c7a5105",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03497217>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:03497217>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "button|Next|35b9a3540cff#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03497264>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:03497264>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_saunter_on_over_to_the_smirking_cowgirl_She_s_hard_at_work|3c7e5ca92ae9",
@@ -2966,8 +2998,9 @@
   {
     "key": "button|Next|7eb60bc105ef",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03512630>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:03512630>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|Surprise_Shekka|8cafb5f94fb2",
@@ -3764,8 +3797,9 @@
   {
     "key": "button|Next|014013c54ccd",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03587947>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:03587947>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "button|Yep|718c6dab2465",
@@ -4082,8 +4116,9 @@
   {
     "key": "button|Next|e79f16843c0a",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03599042>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:03599042>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_tell_Lola_that_you_re_just_not_into_that_She_pouts_at_you_a|0edb9ce6de41",
@@ -4100,14 +4135,16 @@
   {
     "key": "button|Next|e75ab1610479",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03599363>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:03599363>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "button|Next|35b9a3540cff#2",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03599410>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:03599410>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "header|The_Pool|48ba3f0ad139",
@@ -4154,8 +4191,9 @@
   {
     "key": "button|Next|e805555d3497",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03600102>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:03600102>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_change_your_mind_and_decide_to_not_get_wet_You|f9b7f46b3301",
@@ -4190,8 +4228,9 @@
   {
     "key": "button|Next|6e59d4c54814",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03600715>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:03600715>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "assign|Ten_Ton_Gym_Pool_Used|acfdeb2c00ba",
@@ -6248,8 +6287,9 @@
   {
     "key": "button|Next|77a21b36e685",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03740913>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.503\",!0)}))"
+    "translation": "继续",
+    "context": "<<POS:03740913>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.503\",!0)}))",
+    "stage": 1
   },
   {
     "key": "header.expr|var0|725f50c68bae#1",
@@ -6302,8 +6342,9 @@
   {
     "key": "button|Next|77a21b36e685#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03742042>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.503\",!0)}))"
+    "translation": "继续",
+    "context": "<<POS:03742042>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.503\",!0)}))",
+    "stage": 1
   },
   {
     "key": "button|Like_Before|dc739f44a2e4",
@@ -6398,8 +6439,9 @@
   {
     "key": "button|Yes|3e2f4d65ad86",
     "original": "Yes",
-    "translation": "",
-    "context": "<<POS:03744257>> addButton(0,\"Yes\",e)"
+    "translation": "是的",
+    "context": "<<POS:03744257>> addButton(0,\"Yes\",e)",
+    "stage": 1
   },
   {
     "key": "button|Nope|d78263837603",
@@ -6632,8 +6674,9 @@
   {
     "key": "button|Next|2224b6ec038b",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03754619>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.503\",!0)}))"
+    "translation": "继续",
+    "context": "<<POS:03754619>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.503\",!0)}))",
+    "stage": 1
   },
   {
     "key": "header.expr|var0|725f50c68bae#2",
@@ -6884,8 +6927,9 @@
   {
     "key": "button|Next|2224b6ec038b#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03765412>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.503\",!0)}))"
+    "translation": "继续",
+    "context": "<<POS:03765412>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.503\",!0)}))",
+    "stage": 1
   },
   {
     "key": "header.expr|var0|725f50c68bae#3",
@@ -7106,8 +7150,9 @@
   {
     "key": "button|Next|2224b6ec038b#2",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03776204>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.503\",!0)}))"
+    "translation": "继续",
+    "context": "<<POS:03776204>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.503\",!0)}))",
+    "stage": 1
   },
   {
     "key": "output|Simone_grins_at_you_then_waves_for_you_to_follow_her_i_You_h|0ea4f0f9e019",
@@ -7430,14 +7475,16 @@
   {
     "key": "button|Next|2a6f496044d7",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03791079>> addButton(0,\"Next\",(function(){return penisRouter(e,simone.vaginalCapacity(0),!1,0)}))"
+    "translation": "继续",
+    "context": "<<POS:03791079>> addButton(0,\"Next\",(function(){return penisRouter(e,simone.vaginalCapacity(0),!1,0)}))",
+    "stage": 1
   },
   {
     "key": "button|Next|35b9a3540cff#3",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03791166>> addButton(0,\"Next\",(function(){return vaginaRouter(t,0,0,0)}))"
+    "translation": "继续",
+    "context": "<<POS:03791166>> addButton(0,\"Next\",(function(){return vaginaRouter(t,0,0,0)}))",
+    "stage": 1
   },
   {
     "key": "output|As_you_head_down_the_road_you_see_someone_you_know_up_ahead_It|bbe3ca6ec537",
@@ -7502,8 +7549,9 @@
   {
     "key": "button|Yes|3e2f4d65ad86#1",
     "original": "Yes",
-    "translation": "",
-    "context": "<<POS:03792710>> addButton(0,\"Yes\",e)"
+    "translation": "是的",
+    "context": "<<POS:03792710>> addButton(0,\"Yes\",e)",
+    "stage": 1
   },
   {
     "key": "button|Nope|d78263837603#1",
@@ -7706,7 +7754,8 @@
   {
     "key": "button|Next|fc8adee68b7c",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03802930>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.503\",!0)}))"
+    "translation": "继续",
+    "context": "<<POS:03802930>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.503\",!0)}))",
+    "stage": 1
   }
 ]

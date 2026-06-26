@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|Eating_this_will_most_likely_change_your_fluid_production|5a2b765a212e",
+    "original": "Eating this will most likely change your fluid production.",
+    "translation": "",
+    "context": "<<POS:09218929>>"
+  },
+  {
     "key": "assign|Eating_this_will_most_likely_change_your_pregnancy_duration|b16ecc3d9d3c",
     "original": "Eating this will most likely change your pregnancy duration.",
     "translation": "",
@@ -10,6 +16,18 @@
     "original": "Eating this will most likely change your fertility.",
     "translation": "",
     "context": "<<POS:09219195>>"
+  },
+  {
+    "key": "name.show.expr|var1_toDisplayCase_var0|edbb33bafa44",
+    "original": "{var1}.toDisplayCase({var0})",
+    "translation": "",
+    "context": "<<POS:09219815>> <<VARS:var0=this.longName,var1=u.m>> showName(u.m.toDisplayCase(this.longName))"
+  },
+  {
+    "key": "header.expr|var0_YUM_Snack_Break|66b6140b235d",
+    "original": "{var0}()?\"YUM!\":\"Snack Break",
+    "translation": "",
+    "context": "<<POS:09219868>> <<VARS:var0=isSillyModeEnabled>> blockHeader(isSillyModeEnabled()?\"YUM!\":\"Snack Break\")"
   },
   {
     "key": "output.expr|You_take_one_bite_of_the_var0_egg_in_your_hands_and_before|37a202f39bed",
@@ -24,10 +42,22 @@
     "context": "<<POS:09220709>>"
   },
   {
+    "key": "combat|Nothing_changes_except_for_the_taste_in_your_mouth|4bd55f0092f9",
+    "original": " Nothing changes except for the taste in your mouth.",
+    "translation": "",
+    "context": "<<POS:09220762>>"
+  },
+  {
     "key": "output|You_feel_better_almost_immediately|4f37db7331ca",
     "original": " You feel better almost immediately!",
     "translation": "",
     "context": "<<POS:09220829>>"
+  },
+  {
+    "key": "output|Nothing_changes_except_for_the_taste_in_your_mouth|4bd55f0092f9",
+    "original": " Nothing changes except for the taste in your mouth.",
+    "translation": "",
+    "context": "<<POS:09220876>>"
   },
   {
     "key": "output.expr|var0|71e62dd84862",

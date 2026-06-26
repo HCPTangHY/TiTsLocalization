@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|Gush_spraypen|1f749fc64fef",
+    "original": "Gush spraypen",
+    "translation": "",
+    "context": "<<POS:08343477>>"
+  },
+  {
     "key": "assign|a_spraypen_loaded_with_Gush|774e41f8cc58",
     "original": "a spraypen loaded with Gush",
     "translation": "",
@@ -147,7 +153,8 @@
     "key": "button|Next|d2dd76ec5f89",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:08349129>> addButton(0,\"Next\",(function(){clearOutput();var e=getCurrentRoom();if(\"New Texas\"===e.planet){showBust(\"BRYNN_NUDE\",\"CAMERON_NUDE\"),showName((brynn.introduced()?\"Brynn\":\"Bull-Stud\")+\" & \"+(void 0===flags.MET_CAMERON?\"Farmboy\":\"Cameron\")),output(\"The milking chair is really soft and cushiony. It eve..."
+    "context": "<<POS:08349129>> addButton(0,\"Next\",(function(){clearOutput();var e=getCurrentRoom();if(\"New Texas\"===e.planet){showBust(\"BRYNN_NUDE\",\"CAMERON_NUDE\"),showName((brynn.introduced()?\"Brynn\":\"Bull-Stud\")+\" & \"+(void 0===flags.MET_CAMERON?\"Farmboy\":\"Cameron\")),output(\"The milking chair is really soft and cushiony. It eve...",
+    "stage": 1
   },
   {
     "key": "output|You_got_warned_about_this_stuff_back_in_the_S_C_A_R_E_program_t|6a9c6f74334a",
@@ -160,6 +167,26 @@
     "original": "Use",
     "translation": "",
     "context": "<<POS:08354653>> addDisabledButton(0,\"Use\")"
+  },
+  {
+    "key": "button|Don_t_Use|0be660b7f3f7",
+    "original": "Don’t Use",
+    "translation": "",
+    "context": "<<POS:08354672>> addButton(1,\"Don’t Use\",(function(){return t.itemCancel(t)}))"
+  },
+  {
+    "key": "button|Codex|ca0d49eb9299",
+    "original": "Codex",
+    "translation": "智典",
+    "context": "<<POS:08354734>> addButton(4,\"Codex\",(function(){showCodex(),(0,p.Oz)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View...",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Codex_Entry|24493e4f06cb",
+    "original": "Codex Entry",
+    "translation": "智典入口",
+    "context": "<<POS:08355003>> addButton(4,\"Codex\",(function(){showCodex(),(0,p.Oz)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View...",
+    "stage": 1
   },
   {
     "key": "button.tooltip|View_the_Codex_entry_for_Gush|9e94ae3d4884",
@@ -681,7 +708,8 @@
     "key": "output|s|8b69670ea020",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:08365422>>"
+    "context": "<<POS:08365422>>",
+    "stage": 1
   },
   {
     "key": "output|a_thick_load_of_pc_cumNoun_directly_into_your_pc_lowerGarmen|d84efe3f4a23",
@@ -711,7 +739,8 @@
     "key": "output|s|8b69670ea020#1",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:08365788>>"
+    "context": "<<POS:08365788>>",
+    "stage": 1
   },
   {
     "key": "output|a_thick_load_of_pc_cumNoun_onto_the_ground_in_front_of_you_p|69b2b6b4c781",
@@ -765,7 +794,15 @@
     "key": "button|Next|2d8e32ebe061",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:08367563>> addButton(0,\"Next\",this.gushBadEndPartI)"
+    "context": "<<POS:08367563>> addButton(0,\"Next\",this.gushBadEndPartI)",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:08367621>> addButton(0,\"Next\",this.notBadEndEpilogue4Gush)",
+    "stage": 1
   },
   {
     "key": "output.expr|var0_var1_uses_the_spraypen_to_no_effect|37e83dd54c72",
@@ -783,7 +820,8 @@
     "key": "button|Next|dd483f466125",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:08367887>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+    "context": "<<POS:08367887>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   },
   {
     "key": "output|You_lose_track_of_time_under_the_psychosensory_assault_blasting|d4eba9ea62b3",
@@ -882,6 +920,12 @@
     "context": "<<POS:08373070>>"
   },
   {
+    "key": "output|their|88c9279b1b82",
+    "original": "their",
+    "translation": "",
+    "context": "<<POS:08373084>>"
+  },
+  {
     "key": "output|own_pc_cum_your_pc_cocks_are_more_than_a_little_thrilled_b|fe4722df33d5",
     "original": " own [pc.cum], your [pc.cocks] are more than a little thrilled by the memories Gush has left you with. Maybe... maybe you’ll be able to bend low enough to titfuck your [pc.cocks]... as a reward for being so good. You blink at the stray thought. <b>You’re definitely getting more libidinous!</b>",
     "translation": "",
@@ -939,6 +983,7 @@
     "key": "button|Next|32c8fe03907e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:08376124>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:08376124>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   }
 ]

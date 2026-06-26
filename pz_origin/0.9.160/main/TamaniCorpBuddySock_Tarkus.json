@@ -1,27 +1,9 @@
 [
   {
-    "key": "button|Back|a2050e464505",
-    "original": "Back",
-    "translation": "返回",
-    "context": "<<POS:08414525>> addButton(14,\"Back\",(function(){return s.rbgSelColor(e,t,i)}))"
-  },
-  {
-    "key": "button|Colors|e791be21c6cc",
-    "original": "Colors (",
+    "key": "assign|b_u|7b6874e539e6",
+    "original": "<b><u>",
     "translation": "",
-    "context": "<<POS:08853135>> addButton(c++,\"Colors (\".concat(c,\")\"),(function(){return a.rgbMakeAPage(e,t,n,i,o,s)}),\"Selection of Colors: \".concat(u===d?l.m.toDisplayCase(u):\"\".concat(l.m.toDisplayCase(u),\" to \").concat(l.m.toDisplayCase(d))),u===d?\"To \".concat(u,\".\"):\"From \".concat(u,\" to \").concat(d,\".\"))"
-  },
-  {
-    "key": "button.hover|Selection_of_Colors|5f731849e5f3",
-    "original": "Selection of Colors: ",
-    "translation": "",
-    "context": "<<POS:08853209>> addButton(c++,\"Colors (\".concat(c,\")\"),(function(){return a.rgbMakeAPage(e,t,n,i,o,s)}),\"Selection of Colors: \".concat(u===d?l.m.toDisplayCase(u):\"\".concat(l.m.toDisplayCase(u),\" to \").concat(l.m.toDisplayCase(d))),u===d?\"To \".concat(u,\".\"):\"From \".concat(u,\" to \").concat(d,\".\"))"
-  },
-  {
-    "key": "output.expr|var0|19a12464d6a9",
-    "original": "{var0}",
-    "translation": "",
-    "context": "<<POS:18246980>> <<VARS:var0=o>> output(o)"
+    "context": "<<POS:19441349>>"
   },
   {
     "key": "assign|div_class_event_log_entry_span_class_timestamp_span|15c5cd7f706e",
@@ -45,7 +27,8 @@
     "key": "button|Next|831db4069e4e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:19442246>> addButton(0,\"Next\",AT)"
+    "context": "<<POS:19442246>> addButton(0,\"Next\",AT)",
+    "stage": 1
   },
   {
     "key": "output|div_class_event_log_concat_n_b_u_End_log_u_b_div|d4d62030928a",
@@ -64,6 +47,18 @@
     "original": "<b><span class=\"'.concat(flags.TARKUS_BOMB_TIMER<=30?\"bad\":\"caution\",'\">Time-Bomb Countdown: ').concat(Ot.m.prettifyMinutes(flags.TARKUS_BOMB_TIMER),\"</span></b>\\n\\n\")",
     "translation": "",
     "context": "<<POS:19442710>>"
+  },
+  {
+    "key": "name.show.expr|var0|586a4f8ce974",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19443561>> <<VARS:var0=h[0]>> showName(h[0])"
+  },
+  {
+    "key": "output|b_You_re_immobilized_b_You_can_call_for_b_Emergency_Help_b|dbcbd04d1f37",
+    "original": "<b>You’re immobilized!</b> You can call for <b>Emergency Help</b> via your Codex, under the <b>Extra Functions</b> menu.",
+    "translation": "",
+    "context": "<<POS:19443680>>"
   },
   {
     "key": "output|Alternatively_you_can_try_to_find_something_from_your_inventor|450baae5b774",
@@ -87,7 +82,8 @@
     "key": "button|Exit|c68d0f4815fb",
     "original": "Exit",
     "translation": "退出",
-    "context": "<<POS:19444363>> addButton(7,\"Exit\",TT)"
+    "context": "<<POS:19444363>> addButton(7,\"Exit\",TT)",
+    "stage": 1
   },
   {
     "key": "button|Enter_Ship|12a3a225f947",
@@ -243,7 +239,8 @@
     "key": "button|Back|436375d2eddc",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19455996>> addButton(14,\"Back\",AT)"
+    "context": "<<POS:19455996>> addButton(14,\"Back\",AT)",
+    "stage": 1
   },
   {
     "key": "string.array|wait_for_some_minutes_take_a_rest_for_a_few_hours|f2ee647e81b3",
@@ -348,6 +345,13 @@
     "context": "<<POS:19458376>> addDisabledButton(9,\"Tent On CD\",\"Tent on Cooldown\",\"Your \".concat(pc.inventory.tent.longName,\" will need <b>\").concat(Ot.m.prettifyMinutes(pc.inventory.tent.timeLeft()),\"</b> to recharge before you can use it again.\"))"
   },
   {
+    "key": "button|Back|a2050e464505",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:19458557>> addButton(14,\"Back\",window.popUIState)",
+    "stage": 1
+  },
+  {
     "key": "output.expr|You_decide_to_var0_stand_mosey_around_and_wait_for|06ae8c7640c5",
     "original": "You decide to \"+({var0}?\"stand\":\"mosey\")+\" around and wait for",
     "translation": "",
@@ -375,7 +379,8 @@
     "key": "button|Next|042b02ebed04",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:19459003>> addButton(0,\"Next\",AT)"
+    "context": "<<POS:19459003>> addButton(0,\"Next\",AT)",
+    "stage": 1
   },
   {
     "key": "assign|You_take_a_rest_for_about|f63309bcca53",
@@ -402,6 +407,13 @@
     "context": "<<POS:19460483>> <<VARS:var0=o>> output(o)"
   },
   {
+    "key": "button|Next|648f6a4c46f8",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:19460556>> addButton(0,\"Next\",AT)",
+    "stage": 1
+  },
+  {
     "key": "output.expr|You_lie_down_and_sleep_for_about_var2_numToText_var1_round|53da66ee0c3e",
     "original": "You lie down and sleep for about \"+{var2}.numToText({var1}.round({var0}))+\" hours.",
     "translation": "",
@@ -411,7 +423,29 @@
     "key": "button|Next|34be8747e143",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:19465974>> addButton(0,\"Next\",n[rand(n.length)])"
+    "context": "<<POS:19465974>> addButton(0,\"Next\",n[rand(n.length)])",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:19467554>> addButton(0,\"Next\",n[rand(n.length)])",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff#1",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:19467733>> addButton(0,\"Next\",window.taivraMorningEvent)",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff#2",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:19467779>> addButton(0,\"Next\",AT)",
+    "stage": 1
   },
   {
     "key": "button|Decorate|2b208b43c92a",
@@ -486,10 +520,34 @@
     "context": "<<POS:19473936>>"
   },
   {
+    "key": "name.show.expr|var0|6e50ce427cc2",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19474187>> <<VARS:var0=pc_ship.short>> showName(pc_ship.short)"
+  },
+  {
+    "key": "header|Choose_Destination|2fdcaaca3677",
+    "original": "Choose Destination",
+    "translation": "",
+    "context": "<<POS:19474256>>"
+  },
+  {
     "key": "output|Where_do_you_want_to_go|b820164fe615",
     "original": "Where do you want to go?",
     "translation": "",
     "context": "<<POS:19474286>>"
+  },
+  {
+    "key": "name.show.expr|var0|b87e4c09e5a4",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19474397>> <<VARS:var0=pc_ship.short>> showName(pc_ship.short)"
+  },
+  {
+    "key": "header|Choose_Destination|2fdcaaca3677#1",
+    "original": "Choose Destination",
+    "translation": "",
+    "context": "<<POS:19474466>>"
   },
   {
     "key": "output|b_Your_gear_is_still_locked_up_in_customs_You_should_go_grab_i|7ec51c2ec48a",
@@ -501,7 +559,8 @@
     "key": "button|Back|50177f67d7f9",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19474691>> addButton(14,\"Back\",AT)"
+    "context": "<<POS:19474691>> addButton(14,\"Back\",AT)",
+    "stage": 1
   },
   {
     "key": "output|b_You_should_probably_get_rid_of_R_K_Lah_before_you_skip_town|dbc6b68414e0",
@@ -513,7 +572,8 @@
     "key": "button|Back|3cb3aab5520e",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19474897>> addButton(14,\"Back\",AT)"
+    "context": "<<POS:19474897>> addButton(14,\"Back\",AT)",
+    "stage": 1
   },
   {
     "key": "button|Wait|b7414ddce83a",
@@ -525,7 +585,8 @@
     "key": "button|Back|4fd75f931109",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19475046>> addButton(14,\"Back\",AT)"
+    "context": "<<POS:19475046>> addButton(14,\"Back\",AT)",
+    "stage": 1
   },
   {
     "key": "output|b_Without_a_way_to_navigate_back_through_the_spatial_anomaly_i|6e38cc131c37",
@@ -537,7 +598,8 @@
     "key": "button|Back|ad821b009a5b",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19475238>> addButton(14,\"Back\",AT)"
+    "context": "<<POS:19475238>> addButton(14,\"Back\",AT)",
+    "stage": 1
   },
   {
     "key": "button|Tavros|7bcc8dcf639e",
@@ -568,6 +630,30 @@
     "original": "You’re already here.",
     "translation": "",
     "context": "<<POS:19475462>> addDisabledButton(0,\"Tavros\",\"Tavros Station\",\"You’re already here.\",e)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|11ee6585b8d6",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19475484>> <<VARS:var0=e>> addDisabledButton(0,\"Tavros\",\"Tavros Station\",\"You’re already here.\",e)"
+  },
+  {
+    "key": "button|Probe_Loc|6dc27c87cc13",
+    "original": "Probe Loc.",
+    "translation": "",
+    "context": "<<POS:19475500>> addButton(1,\"Probe Loc.\",(function(){return JT(0)}),\"Probe Locations\",\"Choose a location where you can find the coordinates.\")"
+  },
+  {
+    "key": "button.hover|Probe_Locations|e3fb20d359bf",
+    "original": "Probe Locations",
+    "translation": "",
+    "context": "<<POS:19475540>> addButton(1,\"Probe Loc.\",(function(){return JT(0)}),\"Probe Locations\",\"Choose a location where you can find the coordinates.\")"
+  },
+  {
+    "key": "button.tooltip|Choose_a_location_where_you_can_find_the_coordinates|1ca699b34b6d",
+    "original": "Choose a location where you can find the coordinates.",
+    "translation": "",
+    "context": "<<POS:19475558>> addButton(1,\"Probe Loc.\",(function(){return JT(0)}),\"Probe Locations\",\"Choose a location where you can find the coordinates.\")"
   },
   {
     "key": "button|Misc_Loc|ae72b7c33fe2",
@@ -627,7 +713,8 @@
     "key": "button|Back|1de0209c6386",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19475953>> addButton(14,\"Back\",AT)"
+    "context": "<<POS:19475953>> addButton(14,\"Back\",AT)",
+    "stage": 1
   },
   {
     "key": "textify|This_content_isn_t_available_yet_We_ve_not_finished_converting|88a111a0f0d2",
@@ -666,6 +753,30 @@
     "context": "<<POS:19476388>> addDisabledButton(o++,\"Mhen’ga\",\"Mhen’ga\",\"You’re already here.\",a)"
   },
   {
+    "key": "button.tooltip.expr|var0|262fb271817f",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19476410>> <<VARS:var0=a>> addDisabledButton(o++,\"Mhen’ga\",\"Mhen’ga\",\"You’re already here.\",a)"
+  },
+  {
+    "key": "button|Tarkus|42ddc8e908b6",
+    "original": "Tarkus",
+    "translation": "",
+    "context": "<<POS:19476510>> addButton(o++,\"Tarkus\",(function(){return eC(\"Tarkus\")}),\"Tarkus\",\"Fly to Tarkus.\",a)"
+  },
+  {
+    "key": "button.hover|Tarkus|42ddc8e908b6",
+    "original": "Tarkus",
+    "translation": "",
+    "context": "<<POS:19476553>> addButton(o++,\"Tarkus\",(function(){return eC(\"Tarkus\")}),\"Tarkus\",\"Fly to Tarkus.\",a)"
+  },
+  {
+    "key": "button.tooltip|Fly_to_Tarkus|697722e47b57",
+    "original": "Fly to Tarkus.",
+    "translation": "",
+    "context": "<<POS:19476562>> addButton(o++,\"Tarkus\",(function(){return eC(\"Tarkus\")}),\"Tarkus\",\"Fly to Tarkus.\",a)"
+  },
+  {
     "key": "button|Tarkus|7204adba1003",
     "original": "Tarkus",
     "translation": "",
@@ -676,6 +787,24 @@
     "original": "You’re already here.",
     "translation": "",
     "context": "<<POS:19476622>> addDisabledButton(o++,\"Tarkus\",\"Tarkus\",\"You’re already here.\",a)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|37ba84c6150d",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19476644>> <<VARS:var0=a>> addDisabledButton(o++,\"Tarkus\",\"Tarkus\",\"You’re already here.\",a)"
+  },
+  {
+    "key": "button|Locked|cdedac6139a1",
+    "original": "Locked",
+    "translation": "",
+    "context": "<<POS:19476671>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You need to find one of your father’s probes to access this location’s coordinates.\")"
+  },
+  {
+    "key": "button.hover|You_need_to_find_one_of_your_father_s_probes_to_access_this_loca|b0b15da56e7f",
+    "original": "You need to find one of your father’s probes to access this location’s coordinates.",
+    "translation": "",
+    "context": "<<POS:19476689>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You need to find one of your father’s probes to access this location’s coordinates.\")"
   },
   {
     "key": "button|Myrellion|16ebe937b574",
@@ -738,10 +867,70 @@
     "context": "<<POS:19477303>> addDisabledButton(o++,\"Myrellion\",\"Myrellion\",\"You’re already here.\",a)"
   },
   {
+    "key": "button.tooltip.expr|var0|975c4a0c31d4",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19477325>> <<VARS:var0=a>> addDisabledButton(o++,\"Myrellion\",\"Myrellion\",\"You’re already here.\",a)"
+  },
+  {
+    "key": "button|Myrellion|03e4010e0639",
+    "original": "Myrellion",
+    "translation": "",
+    "context": "<<POS:19477351>> addDisabledButton(o++,\"Myrellion\",\"Myrellion\",\"It would be wise not to visit a planet currently experiencing a heavy nuclear winter...\",a)"
+  },
+  {
+    "key": "button.hover|It_would_be_wise_not_to_visit_a_planet_currently_experiencing_a|28464e5bb287",
+    "original": "It would be wise not to visit a planet currently experiencing a heavy nuclear winter...",
+    "translation": "",
+    "context": "<<POS:19477375>> addDisabledButton(o++,\"Myrellion\",\"Myrellion\",\"It would be wise not to visit a planet currently experiencing a heavy nuclear winter...\",a)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19477464>> <<VARS:var0=a>> addDisabledButton(o++,\"Myrellion\",\"Myrellion\",\"It would be wise not to visit a planet currently experiencing a heavy nuclear winter...\",a)"
+  },
+  {
+    "key": "button|Locked|cdedac6139a1#1",
+    "original": "Locked",
+    "translation": "",
+    "context": "<<POS:19477491>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You need to find one of your father’s probes to access this location’s coordinates.\")"
+  },
+  {
+    "key": "button.hover|You_need_to_find_one_of_your_father_s_probes_to_access_this_loca|b0b15da56e7f#1",
+    "original": "You need to find one of your father’s probes to access this location’s coordinates.",
+    "translation": "",
+    "context": "<<POS:19477509>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You need to find one of your father’s probes to access this location’s coordinates.\")"
+  },
+  {
     "key": "button|Myrellion|16ebe937b574#1",
     "original": "Myrellion",
     "translation": "",
     "context": "<<POS:19477618>> addDisabledButton(o++,\"Myrellion\",\"Myrellion\",t)"
+  },
+  {
+    "key": "button.hover.expr|var0|7d8bcb3ed916",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19477641>> <<VARS:var0=t>> addDisabledButton(o++,\"Myrellion\",\"Myrellion\",t)"
+  },
+  {
+    "key": "button|Zh_ng_Shi|7aa0b8dbc1a0",
+    "original": "Zhèng Shi",
+    "translation": "",
+    "context": "<<POS:19477757>> addButton(o++,\"Zhèng Shi\",(function(){return eC(\"ZhengShi\")}),\"Zhèng Shi Station\",\"Fly to Zhèng Shi Station.\",a)"
+  },
+  {
+    "key": "button.hover|Zh_ng_Shi_Station|02afb12f6ad2",
+    "original": "Zhèng Shi Station",
+    "translation": "",
+    "context": "<<POS:19477805>> addButton(o++,\"Zhèng Shi\",(function(){return eC(\"ZhengShi\")}),\"Zhèng Shi Station\",\"Fly to Zhèng Shi Station.\",a)"
+  },
+  {
+    "key": "button.tooltip|Fly_to_Zh_ng_Shi_Station|8bc0b93d0f4d",
+    "original": "Fly to Zhèng Shi Station.",
+    "translation": "",
+    "context": "<<POS:19477825>> addButton(o++,\"Zhèng Shi\",(function(){return eC(\"ZhengShi\")}),\"Zhèng Shi Station\",\"Fly to Zhèng Shi Station.\",a)"
   },
   {
     "key": "button|Zh_ng_Shi|295af6e495b5",
@@ -756,10 +945,52 @@
     "context": "<<POS:19477910>> addDisabledButton(o++,\"Zhèng Shi\",\"Zhèng Shi Station\",\"You’re already here.\",a)"
   },
   {
+    "key": "button.tooltip.expr|var0|f78826089326",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19477932>> <<VARS:var0=a>> addDisabledButton(o++,\"Zhèng Shi\",\"Zhèng Shi Station\",\"You’re already here.\",a)"
+  },
+  {
+    "key": "button|Locked|cdedac6139a1#2",
+    "original": "Locked",
+    "translation": "",
+    "context": "<<POS:19477959>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You need to find one of your father’s probes to access this location’s coordinates.\")"
+  },
+  {
+    "key": "button.hover|You_need_to_find_one_of_your_father_s_probes_to_access_this_loca|b0b15da56e7f#2",
+    "original": "You need to find one of your father’s probes to access this location’s coordinates.",
+    "translation": "",
+    "context": "<<POS:19477977>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You need to find one of your father’s probes to access this location’s coordinates.\")"
+  },
+  {
     "key": "button|Zh_ng_Shi|572f01b292ba",
     "original": "Zhèng Shi",
     "translation": "",
     "context": "<<POS:19478086>> addDisabledButton(o++,\"Zhèng Shi\",\"Zhèng Shi Station\",t)"
+  },
+  {
+    "key": "button.hover.expr|var0|7d8bcb3ed916#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19478117>> <<VARS:var0=t>> addDisabledButton(o++,\"Zhèng Shi\",\"Zhèng Shi Station\",t)"
+  },
+  {
+    "key": "button|Dhaal|196fe1e310bc",
+    "original": "Dhaal",
+    "translation": "",
+    "context": "<<POS:19478228>> addButton(o++,\"Dhaal\",(function(){return eC(\"Dhaal\")}),\"Dhaal\",\"Fly to Dhaal.\",a)"
+  },
+  {
+    "key": "button.hover|Dhaal|196fe1e310bc",
+    "original": "Dhaal",
+    "translation": "",
+    "context": "<<POS:19478269>> addButton(o++,\"Dhaal\",(function(){return eC(\"Dhaal\")}),\"Dhaal\",\"Fly to Dhaal.\",a)"
+  },
+  {
+    "key": "button.tooltip|Fly_to_Dhaal|7249e699b2a6",
+    "original": "Fly to Dhaal.",
+    "translation": "",
+    "context": "<<POS:19478277>> addButton(o++,\"Dhaal\",(function(){return eC(\"Dhaal\")}),\"Dhaal\",\"Fly to Dhaal.\",a)"
   },
   {
     "key": "button|Dhaal|410d753d5b67",
@@ -774,10 +1005,52 @@
     "context": "<<POS:19478334>> addDisabledButton(o++,\"Dhaal\",\"Dhaal\",\"You’re already here.\",a)"
   },
   {
+    "key": "button.tooltip.expr|var0|a1500582175b",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19478356>> <<VARS:var0=a>> addDisabledButton(o++,\"Dhaal\",\"Dhaal\",\"You’re already here.\",a)"
+  },
+  {
+    "key": "button|Locked|cdedac6139a1#3",
+    "original": "Locked",
+    "translation": "",
+    "context": "<<POS:19478383>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You need to find one of your father’s probes to access this location’s coordinates.\")"
+  },
+  {
+    "key": "button.hover|You_need_to_find_one_of_your_father_s_probes_to_access_this_loca|b0b15da56e7f#3",
+    "original": "You need to find one of your father’s probes to access this location’s coordinates.",
+    "translation": "",
+    "context": "<<POS:19478401>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You need to find one of your father’s probes to access this location’s coordinates.\")"
+  },
+  {
     "key": "button|Dhaal|682fb8cfc099",
     "original": "Dhaal",
     "translation": "",
     "context": "<<POS:19478510>> addDisabledButton(o++,\"Dhaal\",\"Dhaal\",t)"
+  },
+  {
+    "key": "button.hover.expr|var0|7d8bcb3ed916#2",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19478525>> <<VARS:var0=t>> addDisabledButton(o++,\"Dhaal\",\"Dhaal\",t)"
+  },
+  {
+    "key": "button|Phaedra|1dd97ab0fb42",
+    "original": "Phaedra",
+    "translation": "",
+    "context": "<<POS:19478645>> addButton(o++,\"Phaedra\",(function(){return eC(\"Phaedra II\")}),\"Phaedra II\",\"Fly to Phaedra II.\",a)"
+  },
+  {
+    "key": "button.hover|Phaedra_II|74a32cb90838",
+    "original": "Phaedra II",
+    "translation": "",
+    "context": "<<POS:19478693>> addButton(o++,\"Phaedra\",(function(){return eC(\"Phaedra II\")}),\"Phaedra II\",\"Fly to Phaedra II.\",a)"
+  },
+  {
+    "key": "button.tooltip|Fly_to_Phaedra_II|9bb19cf5f7a6",
+    "original": "Fly to Phaedra II.",
+    "translation": "",
+    "context": "<<POS:19478706>> addButton(o++,\"Phaedra\",(function(){return eC(\"Phaedra II\")}),\"Phaedra II\",\"Fly to Phaedra II.\",a)"
   },
   {
     "key": "button|Phaedra|4f4781232ffe",
@@ -792,10 +1065,52 @@
     "context": "<<POS:19478775>> addDisabledButton(o++,\"Phaedra\",\"Phaedra II\",\"You’re already here.\",a)"
   },
   {
+    "key": "button.tooltip.expr|var0|d5b752a77b62",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19478797>> <<VARS:var0=a>> addDisabledButton(o++,\"Phaedra\",\"Phaedra II\",\"You’re already here.\",a)"
+  },
+  {
+    "key": "button|Locked|cdedac6139a1#4",
+    "original": "Locked",
+    "translation": "",
+    "context": "<<POS:19478824>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You need to find one of your father’s probes to access this location’s coordinates.\")"
+  },
+  {
+    "key": "button.hover|You_need_to_find_one_of_your_father_s_probes_to_access_this_loca|b0b15da56e7f#4",
+    "original": "You need to find one of your father’s probes to access this location’s coordinates.",
+    "translation": "",
+    "context": "<<POS:19478842>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You need to find one of your father’s probes to access this location’s coordinates.\")"
+  },
+  {
     "key": "button|Phaedra|28cffa34b93c",
     "original": "Phaedra",
     "translation": "",
     "context": "<<POS:19478951>> addDisabledButton(o++,\"Phaedra\",\"Phaedra II\",t)"
+  },
+  {
+    "key": "button.hover.expr|var0|7d8bcb3ed916#3",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19478973>> <<VARS:var0=t>> addDisabledButton(o++,\"Phaedra\",\"Phaedra II\",t)"
+  },
+  {
+    "key": "button|FIRST_14|2a968b14d5f9",
+    "original": "FIRST-14",
+    "translation": "",
+    "context": "<<POS:19479053>> addButton(o++,\"FIRST-14\",(function(){return eC(\"FIRST-14\")}),\"F.I.R.S.T-14\",\"Fly to F.I.R.S.T-14.\",a)"
+  },
+  {
+    "key": "button.hover|F_I_R_S_T_14|b09a024e1047",
+    "original": "F.I.R.S.T-14",
+    "translation": "",
+    "context": "<<POS:19479100>> addButton(o++,\"FIRST-14\",(function(){return eC(\"FIRST-14\")}),\"F.I.R.S.T-14\",\"Fly to F.I.R.S.T-14.\",a)"
+  },
+  {
+    "key": "button.tooltip|Fly_to_F_I_R_S_T_14|08f2ed3527b1",
+    "original": "Fly to F.I.R.S.T-14.",
+    "translation": "",
+    "context": "<<POS:19479115>> addButton(o++,\"FIRST-14\",(function(){return eC(\"FIRST-14\")}),\"F.I.R.S.T-14\",\"Fly to F.I.R.S.T-14.\",a)"
   },
   {
     "key": "button|FIRST_14|6fcabf34bd56",
@@ -810,6 +1125,30 @@
     "context": "<<POS:19479189>> addDisabledButton(o++,\"FIRST-14\",\"F.I.R.S.T-14\",\"You’re already here.\",a)"
   },
   {
+    "key": "button.tooltip.expr|var0|26d990bb77e8",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19479211>> <<VARS:var0=a>> addDisabledButton(o++,\"FIRST-14\",\"F.I.R.S.T-14\",\"You’re already here.\",a)"
+  },
+  {
+    "key": "button|New_Texas|947e8ba94ae0",
+    "original": "New Texas",
+    "translation": "",
+    "context": "<<POS:19479332>> addButton(o++,\"New Texas\",(function(){return eC(\"New Texas\")}),\"New Texas\",\"Fly to New Texas.\",a)"
+  },
+  {
+    "key": "button.hover|New_Texas|947e8ba94ae0",
+    "original": "New Texas",
+    "translation": "",
+    "context": "<<POS:19479381>> addButton(o++,\"New Texas\",(function(){return eC(\"New Texas\")}),\"New Texas\",\"Fly to New Texas.\",a)"
+  },
+  {
+    "key": "button.tooltip|Fly_to_New_Texas|a78d3ef53dde",
+    "original": "Fly to New Texas.",
+    "translation": "",
+    "context": "<<POS:19479393>> addButton(o++,\"New Texas\",(function(){return eC(\"New Texas\")}),\"New Texas\",\"Fly to New Texas.\",a)"
+  },
+  {
     "key": "button|New_Texas|3344cc625df2",
     "original": "New Texas",
     "translation": "",
@@ -822,10 +1161,70 @@
     "context": "<<POS:19479462>> addDisabledButton(o++,\"New Texas\",\"New Texas\",\"You’re already here.\",a)"
   },
   {
+    "key": "button.tooltip.expr|var0|3dfbfc1e0d5e",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19479484>> <<VARS:var0=a>> addDisabledButton(o++,\"New Texas\",\"New Texas\",\"You’re already here.\",a)"
+  },
+  {
+    "key": "button|Locked|cdedac6139a1#5",
+    "original": "Locked",
+    "translation": "",
+    "context": "<<POS:19479511>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You have not yet learned of this location’s coordinates.\")"
+  },
+  {
+    "key": "button.hover|You_have_not_yet_learned_of_this_location_s_coordinates|d30b94f5d5fc",
+    "original": "You have not yet learned of this location’s coordinates.",
+    "translation": "",
+    "context": "<<POS:19479529>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You have not yet learned of this location’s coordinates.\")"
+  },
+  {
     "key": "button|New_Texas|c0f2ab171be7",
     "original": "New Texas",
     "translation": "",
     "context": "<<POS:19479611>> addDisabledButton(o++,\"New Texas\",\"New Texas\",t)"
+  },
+  {
+    "key": "button.hover.expr|var0|e34c9c9c745c",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19479634>> <<VARS:var0=t>> addDisabledButton(o++,\"New Texas\",\"New Texas\",t)"
+  },
+  {
+    "key": "button|Poe_A|93d0cf40b29f",
+    "original": "Poe A",
+    "translation": "",
+    "context": "<<POS:19479818>> addDisabledButton(o++,\"Poe A\",\"Poe A\",\"<b>You need to unequip your hardlight suit before going to Poe A, as it is incompatible with that content.\",a)"
+  },
+  {
+    "key": "button.hover|b_You_need_to_unequip_your_hardlight_suit_before_going_to_Poe_A|8cdb685d3f24",
+    "original": "<b>You need to unequip your hardlight suit before going to Poe A, as it is incompatible with that content.",
+    "translation": "",
+    "context": "<<POS:19479834>> addDisabledButton(o++,\"Poe A\",\"Poe A\",\"<b>You need to unequip your hardlight suit before going to Poe A, as it is incompatible with that content.\",a)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19479942>> <<VARS:var0=a>> addDisabledButton(o++,\"Poe A\",\"Poe A\",\"<b>You need to unequip your hardlight suit before going to Poe A, as it is incompatible with that content.\",a)"
+  },
+  {
+    "key": "button|Poe_A|93d0cf40b29f#1",
+    "original": "Poe A",
+    "translation": "",
+    "context": "<<POS:19479991>> addButton(o++,\"Poe A\",(function(){return window.flyToPoeAConfirm()}),\"Poe A\",\"Fly to Poe A.\",a)"
+  },
+  {
+    "key": "button.hover|Poe_A|93d0cf40b29f",
+    "original": "Poe A",
+    "translation": "",
+    "context": "<<POS:19480046>> addButton(o++,\"Poe A\",(function(){return window.flyToPoeAConfirm()}),\"Poe A\",\"Fly to Poe A.\",a)"
+  },
+  {
+    "key": "button.tooltip|Fly_to_Poe_A|6bbd288fe07f",
+    "original": "Fly to Poe A.",
+    "translation": "",
+    "context": "<<POS:19480054>> addButton(o++,\"Poe A\",(function(){return window.flyToPoeAConfirm()}),\"Poe A\",\"Fly to Poe A.\",a)"
   },
   {
     "key": "button|Poe_A|22628e4acc6d",
@@ -840,10 +1239,52 @@
     "context": "<<POS:19480111>> addDisabledButton(o++,\"Poe A\",\"Poe A\",\"You’re already here.\",a)"
   },
   {
+    "key": "button.tooltip.expr|var0|bbf1fed8619c",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19480133>> <<VARS:var0=a>> addDisabledButton(o++,\"Poe A\",\"Poe A\",\"You’re already here.\",a)"
+  },
+  {
+    "key": "button|Locked|cdedac6139a1#6",
+    "original": "Locked",
+    "translation": "",
+    "context": "<<POS:19480160>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You have not yet learned of this location’s coordinates.\")"
+  },
+  {
+    "key": "button.hover|You_have_not_yet_learned_of_this_location_s_coordinates|d30b94f5d5fc#1",
+    "original": "You have not yet learned of this location’s coordinates.",
+    "translation": "",
+    "context": "<<POS:19480178>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You have not yet learned of this location’s coordinates.\")"
+  },
+  {
     "key": "button|Poe_A|af76985277fe",
     "original": "Poe A",
     "translation": "",
     "context": "<<POS:19480260>> addDisabledButton(o++,\"Poe A\",\"Poe A\",t)"
+  },
+  {
+    "key": "button.hover.expr|var0|e34c9c9c745c#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19480275>> <<VARS:var0=t>> addDisabledButton(o++,\"Poe A\",\"Poe A\",t)"
+  },
+  {
+    "key": "button|Uveto|907994a796c4",
+    "original": "Uveto",
+    "translation": "",
+    "context": "<<POS:19480374>> addButton(o++,\"Uveto\",(function(){return eC(\"Uveto\")}),\"Uveto Station\",\"Fly to Uveto Station.\",a)"
+  },
+  {
+    "key": "button.hover|Uveto_Station|946a7109efeb",
+    "original": "Uveto Station",
+    "translation": "",
+    "context": "<<POS:19480415>> addButton(o++,\"Uveto\",(function(){return eC(\"Uveto\")}),\"Uveto Station\",\"Fly to Uveto Station.\",a)"
+  },
+  {
+    "key": "button.tooltip|Fly_to_Uveto_Station|5d5401c573d9",
+    "original": "Fly to Uveto Station.",
+    "translation": "",
+    "context": "<<POS:19480431>> addButton(o++,\"Uveto\",(function(){return eC(\"Uveto\")}),\"Uveto Station\",\"Fly to Uveto Station.\",a)"
   },
   {
     "key": "button|Uveto|904281c35d6f",
@@ -858,10 +1299,52 @@
     "context": "<<POS:19480504>> addDisabledButton(o++,\"Uveto\",\"Uveto Station\",\"You’re already here.\",a)"
   },
   {
+    "key": "button.tooltip.expr|var0|f01ac7a8ff32",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19480526>> <<VARS:var0=a>> addDisabledButton(o++,\"Uveto\",\"Uveto Station\",\"You’re already here.\",a)"
+  },
+  {
+    "key": "button|Locked|cdedac6139a1#7",
+    "original": "Locked",
+    "translation": "",
+    "context": "<<POS:19480553>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You have not yet learned of this location’s coordinates.\")"
+  },
+  {
+    "key": "button.hover|You_have_not_yet_learned_of_this_location_s_coordinates|d30b94f5d5fc#2",
+    "original": "You have not yet learned of this location’s coordinates.",
+    "translation": "",
+    "context": "<<POS:19480571>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You have not yet learned of this location’s coordinates.\")"
+  },
+  {
     "key": "button|Uveto|ccf3719af5ac",
     "original": "Uveto",
     "translation": "",
     "context": "<<POS:19480653>> addDisabledButton(o++,\"Uveto\",\"Uveto Station\",t)"
+  },
+  {
+    "key": "button.hover.expr|var0|e34c9c9c745c#2",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19480676>> <<VARS:var0=t>> addDisabledButton(o++,\"Uveto\",\"Uveto Station\",t)"
+  },
+  {
+    "key": "button|Canadia|6d0c941b40d1",
+    "original": "Canadia",
+    "translation": "",
+    "context": "<<POS:19480781>> addButton(o++,\"Canadia\",(function(){return eC(\"Canadia\")}),\"Canadia Station\",\"Fly to Canadia Station.\",a)"
+  },
+  {
+    "key": "button.hover|Canadia_Station|36404f2d0d02",
+    "original": "Canadia Station",
+    "translation": "",
+    "context": "<<POS:19480826>> addButton(o++,\"Canadia\",(function(){return eC(\"Canadia\")}),\"Canadia Station\",\"Fly to Canadia Station.\",a)"
+  },
+  {
+    "key": "button.tooltip|Fly_to_Canadia_Station|0f37ed124290",
+    "original": "Fly to Canadia Station.",
+    "translation": "",
+    "context": "<<POS:19480844>> addButton(o++,\"Canadia\",(function(){return eC(\"Canadia\")}),\"Canadia Station\",\"Fly to Canadia Station.\",a)"
   },
   {
     "key": "button|Canadia|f0ee0c7908cd",
@@ -876,10 +1359,52 @@
     "context": "<<POS:19480923>> addDisabledButton(o++,\"Canadia\",\"Canadia Station\",\"You’re already here.\",a)"
   },
   {
+    "key": "button.tooltip.expr|var0|653007fbf617",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19480945>> <<VARS:var0=a>> addDisabledButton(o++,\"Canadia\",\"Canadia Station\",\"You’re already here.\",a)"
+  },
+  {
+    "key": "button|Locked|cdedac6139a1#8",
+    "original": "Locked",
+    "translation": "",
+    "context": "<<POS:19480972>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You have not yet learned of this location’s coordinates.\")"
+  },
+  {
+    "key": "button.hover|You_have_not_yet_learned_of_this_location_s_coordinates|d30b94f5d5fc#3",
+    "original": "You have not yet learned of this location’s coordinates.",
+    "translation": "",
+    "context": "<<POS:19480990>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You have not yet learned of this location’s coordinates.\")"
+  },
+  {
     "key": "button|Canadia|3e9d0f210951",
     "original": "Canadia",
     "translation": "",
     "context": "<<POS:19481072>> addDisabledButton(o++,\"Canadia\",\"Canadia Station\",t)"
+  },
+  {
+    "key": "button.hover.expr|var0|e34c9c9c745c#3",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19481099>> <<VARS:var0=t>> addDisabledButton(o++,\"Canadia\",\"Canadia Station\",t)"
+  },
+  {
+    "key": "button|Gastigoth|cf837e04936e",
+    "original": "Gastigoth",
+    "translation": "",
+    "context": "<<POS:19481222>> addButton(o++,\"Gastigoth\",(function(){return eC(\"Gastigoth\")}),\"Gastigoth Station\",\"Fly to Gastigoth Station.\",a)"
+  },
+  {
+    "key": "button.hover|Gastigoth_Station|c0a50c8b7091",
+    "original": "Gastigoth Station",
+    "translation": "",
+    "context": "<<POS:19481271>> addButton(o++,\"Gastigoth\",(function(){return eC(\"Gastigoth\")}),\"Gastigoth Station\",\"Fly to Gastigoth Station.\",a)"
+  },
+  {
+    "key": "button.tooltip|Fly_to_Gastigoth_Station|5ef2bf477604",
+    "original": "Fly to Gastigoth Station.",
+    "translation": "",
+    "context": "<<POS:19481291>> addButton(o++,\"Gastigoth\",(function(){return eC(\"Gastigoth\")}),\"Gastigoth Station\",\"Fly to Gastigoth Station.\",a)"
   },
   {
     "key": "button|Gastigoth|33d7f14658b9",
@@ -894,10 +1419,106 @@
     "context": "<<POS:19481376>> addDisabledButton(o++,\"Gastigoth\",\"Gastigoth Station\",\"You’re already here.\",a)"
   },
   {
+    "key": "button.tooltip.expr|var0|d3a03cd894e2",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19481398>> <<VARS:var0=a>> addDisabledButton(o++,\"Gastigoth\",\"Gastigoth Station\",\"You’re already here.\",a)"
+  },
+  {
+    "key": "button|Locked|cdedac6139a1#9",
+    "original": "Locked",
+    "translation": "",
+    "context": "<<POS:19481425>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You have not yet learned of this location’s coordinates.\")"
+  },
+  {
+    "key": "button.hover|You_have_not_yet_learned_of_this_location_s_coordinates|d30b94f5d5fc#4",
+    "original": "You have not yet learned of this location’s coordinates.",
+    "translation": "",
+    "context": "<<POS:19481443>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You have not yet learned of this location’s coordinates.\")"
+  },
+  {
     "key": "button|Gastigoth|37d713c1b5c7",
     "original": "Gastigoth",
     "translation": "",
     "context": "<<POS:19481525>> addDisabledButton(o++,\"Gastigoth\",\"Gastigoth Station\",t)"
+  },
+  {
+    "key": "button.hover.expr|var0|e34c9c9c745c#4",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19481556>> <<VARS:var0=t>> addDisabledButton(o++,\"Gastigoth\",\"Gastigoth Station\",t)"
+  },
+  {
+    "key": "button|Breedwell|3f2cd1461474",
+    "original": "Breedwell",
+    "translation": "",
+    "context": "<<POS:19481695>> addDisabledButton(o++,\"Breedwell\",\"Breedwell Centre\",\"You’re already here.\",a)"
+  },
+  {
+    "key": "button.hover|You_re_already_here|e2ca32c1e115",
+    "original": "You’re already here.",
+    "translation": "",
+    "context": "<<POS:19481726>> addDisabledButton(o++,\"Breedwell\",\"Breedwell Centre\",\"You’re already here.\",a)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1#2",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19481748>> <<VARS:var0=a>> addDisabledButton(o++,\"Breedwell\",\"Breedwell Centre\",\"You’re already here.\",a)"
+  },
+  {
+    "key": "button|Breedwell|3f2cd1461474#1",
+    "original": "Breedwell",
+    "translation": "",
+    "context": "<<POS:19481891>> addDisabledButton(o++,\"Breedwell\",\"Breedwell Centre\",\"Probably unwise to check this place out whilst you’re infertile. The ad gave you the distinct impression that the Breedwell Centre was counting on you being... fruitful.\",a)"
+  },
+  {
+    "key": "button.hover|Probably_unwise_to_check_this_place_out_whilst_you_re_infertile|885d4b2913e5",
+    "original": "Probably unwise to check this place out whilst you’re infertile. The ad gave you the distinct impression that the Breedwell Centre was counting on you being... fruitful.",
+    "translation": "",
+    "context": "<<POS:19481922>> addDisabledButton(o++,\"Breedwell\",\"Breedwell Centre\",\"Probably unwise to check this place out whilst you’re infertile. The ad gave you the distinct impression that the Breedwell Centre was counting on you being... fruitful.\",a)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1#3",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19482093>> <<VARS:var0=a>> addDisabledButton(o++,\"Breedwell\",\"Breedwell Centre\",\"Probably unwise to check this place out whilst you’re infertile. The ad gave you the distinct impression that the Breedwell Centre was counting on you being... fruitful.\",a)"
+  },
+  {
+    "key": "button|Breedwell|3f2cd1461474#2",
+    "original": "Breedwell",
+    "translation": "",
+    "context": "<<POS:19482131>> addDisabledButton(o++,\"Breedwell\",\"Breedwell Centre\",\"One of the disclaimers from the ad did stick with you: <i>“Tauric beings not supported”</i>. Gobsmacking discrimination, really.\",a)"
+  },
+  {
+    "key": "button.hover|One_of_the_disclaimers_from_the_ad_did_stick_with_you_i_Tauri|f53da26c2a11",
+    "original": "One of the disclaimers from the ad did stick with you: <i>“Tauric beings not supported”</i>. Gobsmacking discrimination, really.",
+    "translation": "",
+    "context": "<<POS:19482162>> addDisabledButton(o++,\"Breedwell\",\"Breedwell Centre\",\"One of the disclaimers from the ad did stick with you: <i>“Tauric beings not supported”</i>. Gobsmacking discrimination, really.\",a)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1#4",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19482292>> <<VARS:var0=a>> addDisabledButton(o++,\"Breedwell\",\"Breedwell Centre\",\"One of the disclaimers from the ad did stick with you: <i>“Tauric beings not supported”</i>. Gobsmacking discrimination, really.\",a)"
+  },
+  {
+    "key": "button|Breedwell|3f2cd1461474#3",
+    "original": "Breedwell",
+    "translation": "",
+    "context": "<<POS:19482310>> addButton(o++,\"Breedwell\",(function(){return eC(\"Breedwell\")}),\"Breedwell Centre\",\"Fly to Breedwell Centre.\",a)"
+  },
+  {
+    "key": "button.hover|Breedwell_Centre|e0e9dd180357",
+    "original": "Breedwell Centre",
+    "translation": "",
+    "context": "<<POS:19482359>> addButton(o++,\"Breedwell\",(function(){return eC(\"Breedwell\")}),\"Breedwell Centre\",\"Fly to Breedwell Centre.\",a)"
+  },
+  {
+    "key": "button.tooltip|Fly_to_Breedwell_Centre|c1f60776d7b8",
+    "original": "Fly to Breedwell Centre.",
+    "translation": "",
+    "context": "<<POS:19482378>> addButton(o++,\"Breedwell\",(function(){return eC(\"Breedwell\")}),\"Breedwell Centre\",\"Fly to Breedwell Centre.\",a)"
   },
   {
     "key": "button|Breedwell|400ea2c06d43",
@@ -912,10 +1533,70 @@
     "context": "<<POS:19482461>> addDisabledButton(o++,\"Breedwell\",\"Breedwell Centre\",\"It might be a pointless journey if you have no genitals to make use of this location...\",a)"
   },
   {
+    "key": "button.tooltip.expr|var0|4d9a4d910485",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19482550>> <<VARS:var0=a>> addDisabledButton(o++,\"Breedwell\",\"Breedwell Centre\",\"It might be a pointless journey if you have no genitals to make use of this location...\",a)"
+  },
+  {
+    "key": "button|Breedwell|3f2cd1461474#4",
+    "original": "Breedwell",
+    "translation": "",
+    "context": "<<POS:19482576>> addDisabledButton(o++,\"Breedwell\",\"Breedwell Centre\",\"Maybe you should read up on the rahn before traveling to this location...\",a)"
+  },
+  {
+    "key": "button.hover|Maybe_you_should_read_up_on_the_rahn_before_traveling_to_this_lo|f9528e8b1a06",
+    "original": "Maybe you should read up on the rahn before traveling to this location...",
+    "translation": "",
+    "context": "<<POS:19482607>> addDisabledButton(o++,\"Breedwell\",\"Breedwell Centre\",\"Maybe you should read up on the rahn before traveling to this location...\",a)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1#5",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19482682>> <<VARS:var0=a>> addDisabledButton(o++,\"Breedwell\",\"Breedwell Centre\",\"Maybe you should read up on the rahn before traveling to this location...\",a)"
+  },
+  {
+    "key": "button|Locked|cdedac6139a1#10",
+    "original": "Locked",
+    "translation": "",
+    "context": "<<POS:19482709>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You have not yet learned of this location’s coordinates.\")"
+  },
+  {
+    "key": "button.hover|You_have_not_yet_learned_of_this_location_s_coordinates|d30b94f5d5fc#5",
+    "original": "You have not yet learned of this location’s coordinates.",
+    "translation": "",
+    "context": "<<POS:19482727>> addDisabledButton(o++,\"Locked\",\"Locked\",\"You have not yet learned of this location’s coordinates.\")"
+  },
+  {
     "key": "button|Breedwell|e7a10e23d54b",
     "original": "Breedwell",
     "translation": "",
     "context": "<<POS:19482809>> addDisabledButton(o++,\"Breedwell\",\"Breedwell Centre\",t)"
+  },
+  {
+    "key": "button.hover.expr|var0|e34c9c9c745c#5",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19482839>> <<VARS:var0=t>> addDisabledButton(o++,\"Breedwell\",\"Breedwell Centre\",t)"
+  },
+  {
+    "key": "button|Kara|a0182bc364d3",
+    "original": "Kara",
+    "translation": "",
+    "context": "<<POS:19482937>> addButton(o++,\"Kara\",(function(){return eC(\"karaQuest2\")}),\"Kara\",\"Go see what Kara has up her sleeve.\")"
+  },
+  {
+    "key": "button.hover|Kara|a0182bc364d3",
+    "original": "Kara",
+    "translation": "",
+    "context": "<<POS:19482982>> addButton(o++,\"Kara\",(function(){return eC(\"karaQuest2\")}),\"Kara\",\"Go see what Kara has up her sleeve.\")"
+  },
+  {
+    "key": "button.tooltip|Go_see_what_Kara_has_up_her_sleeve|6127f9428647",
+    "original": "Go see what Kara has up her sleeve.",
+    "translation": "",
+    "context": "<<POS:19482989>> addButton(o++,\"Kara\",(function(){return eC(\"karaQuest2\")}),\"Kara\",\"Go see what Kara has up her sleeve.\")"
   },
   {
     "key": "button|Remnants|4b277126fe97",
@@ -975,7 +1656,8 @@
     "key": "button|Back|d35112faf6ba",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19483724>> addButton(14,\"Back\",QT)"
+    "context": "<<POS:19483724>> addButton(14,\"Back\",QT)",
+    "stage": 1
   },
   {
     "key": "string.array|Poe_A_karaQuest2|13fd26a9d56f",
@@ -993,7 +1675,8 @@
     "key": "button|Next|e17f0fc02e7b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:19487748>> addButton(0,\"Next\",(function(){return eC(\"Tavros\")}))"
+    "context": "<<POS:19487748>> addButton(0,\"Next\",(function(){return eC(\"Tavros\")}))",
+    "stage": 1
   },
   {
     "key": "output|You_land_on_Phaedra_II_and_disembark_once_more|f18808f75d94",
@@ -1011,7 +1694,8 @@
     "key": "button|Next|c51604575393",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:19492222>> addButton(0,\"Next\",AT)"
+    "context": "<<POS:19492222>> addButton(0,\"Next\",AT)",
+    "stage": 1
   },
   {
     "key": "output.expr|You_find_yourself_in_the_var0_s_shower_room|65adc698d9a2",
@@ -1095,7 +1779,8 @@
     "key": "button|Back|d336fa8ca04f",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19494121>> addButton(14,\"Back\",iC)"
+    "context": "<<POS:19494121>> addButton(14,\"Back\",iC)",
+    "stage": 1
   },
   {
     "key": "button|Rinse_ON|00af9e0bf9b5",
@@ -1209,7 +1894,8 @@
     "key": "button|Next|a63169b72a5b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:19497190>> addButton(0,\"Next\",iC)"
+    "context": "<<POS:19497190>> addButton(0,\"Next\",iC)",
+    "stage": 1
   },
   {
     "key": "output|Adventuring_is_fun_and_all_but_it_also_leaves_a_pc_guy_feelin|178ebe4d664b",
@@ -1383,7 +2069,8 @@
     "key": "output|s|3f6cd1a523f6",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:19500270>>"
+    "context": "<<POS:19500270>>",
+    "stage": 1
   },
   {
     "key": "output|you_re_carrying_to_slowly_ooze_out_You_whisk_it_all_from_your|2e5408a80b1a",
@@ -1467,7 +2154,8 @@
     "key": "button|Next|2e4c181af797",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:19501572>> addButton(0,\"Next\",iC)"
+    "context": "<<POS:19501572>> addButton(0,\"Next\",iC)",
+    "stage": 1
   },
   {
     "key": "output|You_open_the_medicine_cabinet_and_find_a_small_collection_of_bod|399f554e03b7",
@@ -1515,7 +2203,8 @@
     "key": "button|Back|30bafe2f1061",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19502015>> addButton(14,\"Back\",(function(){return oC(t)}))"
+    "context": "<<POS:19502015>> addButton(14,\"Back\",(function(){return oC(t)}))",
+    "stage": 1
   },
   {
     "key": "button|Anno|169ff1f4224b",
@@ -1599,7 +2288,8 @@
     "key": "button|Amber|283a9bf25abc",
     "original": "Amber",
     "translation": "琥珀色",
-    "context": "<<POS:19502933>> addButton(i,\"Amber\",(function(){return window.amberCureShowerSex()}))"
+    "context": "<<POS:19502933>> addButton(i,\"Amber\",(function(){return window.amberCureShowerSex()}))",
+    "stage": 1
   },
   {
     "key": "button|Reaha_Syri|54615917c540",
@@ -1635,7 +2325,8 @@
     "key": "button|Back|711349794c74",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19503521>> addButton(14,\"Back\",(function(){return oC(t)}))"
+    "context": "<<POS:19503521>> addButton(14,\"Back\",(function(){return oC(t)}))",
+    "stage": 1
   },
   {
     "key": "button|Masturbate|dfebdbe7c12a",
@@ -1719,7 +2410,8 @@
     "key": "button|Back|413d2789ce94",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19504727>> addButton(14,\"Back\",(function(){return oC(t)}))"
+    "context": "<<POS:19504727>> addButton(14,\"Back\",(function(){return oC(t)}))",
+    "stage": 1
   },
   {
     "key": "output|To_prepare_you_lather_your_lower_face_and_around_your_pc_lipsC|2bdecdf12c7f",
@@ -1767,7 +2459,8 @@
     "key": "button|Next|965b4b669dbe",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:19506101>> addButton(0,\"Next\",(function(){return oC(t)}))"
+    "context": "<<POS:19506101>> addButton(0,\"Next\",(function(){return oC(t)}))",
+    "stage": 1
   },
   {
     "key": "output.expr|A_mini_slate_with_the_Cosm_tique_logo_emblazoned_on_it_sits_next|c6c1c3eddf81",
@@ -1893,7 +2586,8 @@
     "key": "button|Next|332b2589bd1a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:19510137>> addButton(0,\"Next\",(function(){return oC(t)}))"
+    "context": "<<POS:19510137>> addButton(0,\"Next\",(function(){return oC(t)}))",
+    "stage": 1
   },
   {
     "key": "output|Nothing_valid_selected|b592c5340197",
@@ -1905,7 +2599,8 @@
     "key": "button|Next|9744ed792b96",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:19510247>> addButton(0,\"Next\",(function(){return oC(t)}))"
+    "context": "<<POS:19510247>> addButton(0,\"Next\",(function(){return oC(t)}))",
+    "stage": 1
   },
   {
     "key": "assign|b|f3048d9a8202",
@@ -1989,13 +2684,15 @@
     "key": "button|Next|ffee712ed1d0",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:19513481>> addButton(0,\"Next\",AT)"
+    "context": "<<POS:19513481>> addButton(0,\"Next\",AT)",
+    "stage": 1
   },
   {
     "key": "button|Exit|63ee478fce7f",
     "original": "Exit",
     "translation": "退出",
-    "context": "<<POS:19513594>> addButton(7,\"Exit\",(function(){return moveToRoom(pc.isNude()&&getShipRoom().hasFlag(r.tb.NUDITY_ILLEGAL)?Hl.L.findPlayerShipEntryRoom():getFullShipLocation(),!0)}))"
+    "context": "<<POS:19513594>> addButton(7,\"Exit\",(function(){return moveToRoom(pc.isNude()&&getShipRoom().hasFlag(r.tb.NUDITY_ILLEGAL)?Hl.L.findPlayerShipEntryRoom():getFullShipLocation(),!0)}))",
+    "stage": 1
   },
   {
     "key": "output|and_attempt_to_head_towards_the_airlock_but_you_can_barely_b|a8047c8cfda2",
@@ -2019,7 +2716,8 @@
     "key": "button|Next|f548c620c97b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:19521478>> addButton(0,\"Next\",AT)"
+    "context": "<<POS:19521478>> addButton(0,\"Next\",AT)",
+    "stage": 1
   },
   {
     "key": "output|b_span_class_lust_UNLIMITED_CREW_MEMBER_SPACE_IS_ON_spa|1339cc16932d",
@@ -2337,7 +3035,21 @@
     "key": "button|Exit|764aef4608bd",
     "original": "Exit",
     "translation": "退出",
-    "context": "<<POS:19528247>> addDisabledButton(7,\"Exit\",\"Exit Ship\",b)"
+    "context": "<<POS:19528247>> addDisabledButton(7,\"Exit\",\"Exit Ship\",b)",
+    "stage": 1
+  },
+  {
+    "key": "button.hover.expr|var0|b494b9fe73a2",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19528265>> <<VARS:var0=b>> addDisabledButton(7,\"Exit\",\"Exit Ship\",b)"
+  },
+  {
+    "key": "button|Exit|9af9f01b3726",
+    "original": "Exit",
+    "translation": "退出",
+    "context": "<<POS:19528281>> addButton(7,\"Exit\",(function(){return CT(!1)}))",
+    "stage": 1
   },
   {
     "key": "button|Ship_Stats|ef7569346bb3",
@@ -2439,7 +3151,8 @@
     "key": "button|Next|145cbfeae098",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:19531164>> addButton(0,\"Next\",AT)"
+    "context": "<<POS:19531164>> addButton(0,\"Next\",AT)",
+    "stage": 1
   },
   {
     "key": "output|Deciding_to_let_consumerism_solve_your_problem_you_flip_open_yo|0786bafade2d",
@@ -2568,22 +3281,78 @@
     "context": "<<POS:19540846>>"
   },
   {
+    "key": "button|Colors|e791be21c6cc",
+    "original": "Colors (",
+    "translation": "",
+    "context": "<<POS:19541026>> addButton(d++,\"Colors (\".concat(d,\")\"),(function(){return y(e,s,r,u,l)}),\"Selection of Colors: \".concat(t===o?Ot.m.toDisplayCase(t):\"\".concat(Ot.m.toDisplayCase(t),\" to \").concat(Ot.m.toDisplayCase(o))),t===o?\"To \".concat(t,\".\"):\"From \".concat(t,\" to \").concat(o,\".\"))"
+  },
+  {
+    "key": "button.hover|Selection_of_Colors|5f731849e5f3",
+    "original": "Selection of Colors: ",
+    "translation": "",
+    "context": "<<POS:19541085>> addButton(d++,\"Colors (\".concat(d,\")\"),(function(){return y(e,s,r,u,l)}),\"Selection of Colors: \".concat(t===o?Ot.m.toDisplayCase(t):\"\".concat(Ot.m.toDisplayCase(t),\" to \").concat(Ot.m.toDisplayCase(o))),t===o?\"To \".concat(t,\".\"):\"From \".concat(t,\" to \").concat(o,\".\"))"
+  },
+  {
     "key": "button.tooltip.expr|var0_To_concat_t_From_concat_t_to_concat_o|99689ebe7fcf",
     "original": "{var0}?\"To \".concat(t,\".\"):\"From \".concat(t,\" to \").concat(o,\".\")",
     "translation": "",
     "context": "<<POS:19541214>> <<VARS:var0=t===o>> addButton(d++,\"Colors (\".concat(d,\")\"),(function(){return y(e,s,r,u,l)}),\"Selection of Colors: \".concat(t===o?Ot.m.toDisplayCase(t):\"\".concat(Ot.m.toDisplayCase(t),\" to \").concat(Ot.m.toDisplayCase(o))),t===o?\"To \".concat(t,\".\"):\"From \".concat(t,\" to \").concat(o,\".\"))"
   },
   {
+    "key": "button.expr|var1_toDisplayCase_var0|7f8a334106fc",
+    "original": "{var1}.toDisplayCase({var0})",
+    "translation": "",
+    "context": "<<POS:19541724>> <<VARS:var0=e[1],var1=Ot.m>> addDisabledButton(d++,Ot.m.toDisplayCase(e[1]),Ot.m.toDisplayCase(e[0]),\"\"!==u?u:\"This color is already chosen.\")"
+  },
+  {
+    "key": "button.expr|var1_toDisplayCase_var0|7c1615984ab7",
+    "original": "{var1}.toDisplayCase({var0})",
+    "translation": "",
+    "context": "<<POS:19541830>> <<VARS:var0=e[1],var1=Ot.m>> addButton(d++,Ot.m.toDisplayCase(e[1]),(function(){return n(t,o,e[0],a,l,h)}),Ot.m.toDisplayCase(e[0]),\"Select \"+e[0]+\".\")"
+  },
+  {
+    "key": "button.hover.expr|var1_toDisplayCase_var0|7c1615984ab7",
+    "original": "{var1}.toDisplayCase({var0})",
+    "translation": "",
+    "context": "<<POS:19541894>> <<VARS:var0=e[0],var1=Ot.m>> addButton(d++,Ot.m.toDisplayCase(e[1]),(function(){return n(t,o,e[0],a,l,h)}),Ot.m.toDisplayCase(e[0]),\"Select \"+e[0]+\".\")"
+  },
+  {
+    "key": "button.tooltip|Select|915450930ce6",
+    "original": "Select ",
+    "translation": "",
+    "context": "<<POS:19541920>> addButton(d++,Ot.m.toDisplayCase(e[1]),(function(){return n(t,o,e[0],a,l,h)}),Ot.m.toDisplayCase(e[0]),\"Select \"+e[0]+\".\")"
+  },
+  {
     "key": "button|Back|fd1a9f71043a",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19542015>> addButton(14,\"Back\",(function(){return e(t,o,a,n,i,r,u,l,h)}))"
+    "context": "<<POS:19542015>> addButton(14,\"Back\",(function(){return e(t,o,a,n,i,r,u,l,h)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Back|8377b4609270",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:19542078>> addButton(14,\"Back\",(function(){return i(t,u)}))",
+    "stage": 1
   },
   {
     "key": "string.array|lavender_violet_purple_indigo_grape_sangria_wine|d7b281eecb39",
     "original": "[\"lavender\",\"violet\",\"purple\",\"indigo\",\"grape\",\"sangria\",\"wine\",\"blueberry\"]",
     "translation": "",
     "context": "<<POS:19545401>>"
+  },
+  {
+    "key": "name.show.expr|var0|ea3935873fed",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19548312>> <<VARS:var0=e.short>> showName(e.short)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19548377>> <<VARS:var0=t>> output(t)"
   },
   {
     "key": "output|The_options_presented_here_are_for_adjusting_any_personal_prefer|a05ae8f67e8b",
@@ -2694,10 +3463,22 @@
     "context": "<<POS:19550035>> addButton(n++,\"Pref. Ultra-Exhib.\",(function(){IC(f)}),\"Preferred Ultra-Exhibitionist Notice\",\"Adjust the frequency of the event logs coming from your Ultra-Exhibitionist trait.\")"
   },
   {
+    "key": "button.expr|var2_toDisplayCase_var1_wingsDescript_var0|dc2ba24318c5",
+    "original": "{var2}.toDisplayCase({var1}.wingsDescript({var0}))",
+    "translation": "",
+    "context": "<<POS:19550229>> <<VARS:var0=!0,var1=e,var2=Ot.m>> addDisabledButton(n++,Ot.m.toDisplayCase(e.wingsDescript(!0)),\"Position \"+Ot.m.toDisplayCase(e.wingsDescript(!0)),\"You cannot change the position of your \"+e.wingsDescript(!0)+\" right now.\")"
+  },
+  {
     "key": "button.hover|You_cannot_change_the_position_of_your|5b3ed1c1ce66",
     "original": "You cannot change the position of your ",
     "translation": "",
     "context": "<<POS:19550322>> addDisabledButton(n++,Ot.m.toDisplayCase(e.wingsDescript(!0)),\"Position \"+Ot.m.toDisplayCase(e.wingsDescript(!0)),\"You cannot change the position of your \"+e.wingsDescript(!0)+\" right now.\")"
+  },
+  {
+    "key": "button.expr|var2_toDisplayCase_var1_wingsDescript_var0|5e8c9dbddb60",
+    "original": "{var2}.toDisplayCase({var1}.wingsDescript({var0}))",
+    "translation": "",
+    "context": "<<POS:19550412>> <<VARS:var0=!0,var1=e,var2=Ot.m>> addButton(n++,Ot.m.toDisplayCase(e.wingsDescript(!0)),(function(){IC(b)}),\"Position \"+Ot.m.toDisplayCase(e.wingsDescript(!0)),\"Change the position of your \"+e.wingsDescript(!0)+\".\")"
   },
   {
     "key": "button.hover|Position|e44d2cdb9f3a",
@@ -3207,7 +3988,8 @@
     "key": "button|Back|7cefa5fc43f3",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19557070>> addButton(14,\"Back\",(function(){ui.queueRefreshMainText(Cl.gO.APPEARANCE),window.popUIState(),setTimeout((function(){return SC(pc)}),5)}))"
+    "context": "<<POS:19557070>> addButton(14,\"Back\",(function(){ui.queueRefreshMainText(Cl.gO.APPEARANCE),window.popUIState(),setTimeout((function(){return SC(pc)}),5)}))",
+    "stage": 1
   },
   {
     "key": "output|Your_current_preferred_gender_is_set_to|eced1241890c",
@@ -3273,7 +4055,8 @@
     "key": "button|Female|c2a82f0a7d77",
     "original": "Female",
     "translation": "女性",
-    "context": "<<POS:19558354>> addDisabledButton(o++,\"Female\",\"Selected: Female\",\"Your pronouns are set as feminine.\")"
+    "context": "<<POS:19558354>> addDisabledButton(o++,\"Female\",\"Selected: Female\",\"Your pronouns are set as feminine.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Your_pronouns_are_set_as_feminine|3b11abf426a7",
@@ -3285,7 +4068,8 @@
     "key": "button|Female|6283ea4fcbc1",
     "original": "Female",
     "translation": "女性",
-    "context": "<<POS:19558435>> addButton(o++,\"Female\",(function(){return a(\"Force Fem Gender\")}),\"Select: Female\",\"Allow your pronouns to be feminine.\")"
+    "context": "<<POS:19558435>> addButton(o++,\"Female\",(function(){return a(\"Force Fem Gender\")}),\"Select: Female\",\"Allow your pronouns to be feminine.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Select_Female|e37238092f87",
@@ -3315,7 +4099,8 @@
     "key": "button|Male|386ba71df62b",
     "original": "Male",
     "translation": "男性",
-    "context": "<<POS:19558747>> addDisabledButton(o++,\"Male\",\"Selected: Male\",\"Your pronouns are set as masculine.\")"
+    "context": "<<POS:19558747>> addDisabledButton(o++,\"Male\",\"Selected: Male\",\"Your pronouns are set as masculine.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Your_pronouns_are_set_as_masculine|ddd9f9d9cc8b",
@@ -3327,7 +4112,8 @@
     "key": "button|Male|7f294ae8a618",
     "original": "Male",
     "translation": "男性",
-    "context": "<<POS:19558825>> addButton(o++,\"Male\",(function(){return a(\"Force Male Gender\")}),\"Select: Male\",\"Allow your pronouns to be masculine.\")"
+    "context": "<<POS:19558825>> addButton(o++,\"Male\",(function(){return a(\"Force Male Gender\")}),\"Select: Male\",\"Allow your pronouns to be masculine.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Select_Male|f7df4893f309",
@@ -3345,7 +4131,8 @@
     "key": "button|Back|0dbfacf2574c",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19558944>> addButton(14,\"Back\",(function(){return xC(e,\"preference\")}))"
+    "context": "<<POS:19558944>> addButton(14,\"Back\",(function(){return xC(e,\"preference\")}))",
+    "stage": 1
   },
   {
     "key": "output|Your_current_preferred_species_is_set_to|97aa6f11f1f5",
@@ -3430,6 +4217,42 @@
     "original": " (Bovine)",
     "translation": "",
     "context": "<<POS:19560545>>"
+  },
+  {
+    "key": "button.expr|var0|5da5106b74ae",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19560989>> <<VARS:var0=t.btnName>> addButton(e,t.btnName,t.btnFunc,t.btnTH,t.btnTB)"
+  },
+  {
+    "key": "button.hover.expr|var0|5da5106b74ae",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19561009>> <<VARS:var0=t.btnTH>> addButton(e,t.btnName,t.btnFunc,t.btnTH,t.btnTB)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|5da5106b74ae",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19561017>> <<VARS:var0=t.btnTB>> addButton(e,t.btnName,t.btnFunc,t.btnTH,t.btnTB)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19561046>> <<VARS:var0=t.btnName>> addDisabledButton(e,t.btnName,t.btnTH,t.btnTB)"
+  },
+  {
+    "key": "button.hover.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19561064>> <<VARS:var0=t.btnTB>> addDisabledButton(e,t.btnName,t.btnTH,t.btnTB)"
+  },
+  {
+    "key": "output|li_concat_y_m_text_li|5b94ae4dbb32",
+    "original": "<li>\".concat(y[m].text,\"</li>\")",
+    "translation": "",
+    "context": "<<POS:19561105>>"
   },
   {
     "key": "button|Species|29c9c7d448f7",
@@ -3525,7 +4348,8 @@
     "key": "button|Back|838e858d8246",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19562392>> addButton(14,\"Back\",(function(){return xC(e,\"preference\")}))"
+    "context": "<<POS:19562392>> addButton(14,\"Back\",(function(){return xC(e,\"preference\")}))",
+    "stage": 1
   },
   {
     "key": "output|Your_current_species_is_b_concat_Ot_m_toDisplayCase_e_b|bbea6d32aeae",
@@ -3585,7 +4409,8 @@
     "key": "button|Back|1459d9e28b6c",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19564488>> addButton(14,\"Back\",(function(){var e=null;(e=pc.getStatusEffect(\"Force Race Prefix\"))&&0===e.value1&&0===e.value2&&0===e.value3&&0===e.value4&&pc.removeStatusEffect(\"Force Race Prefix\"),(e=pc.getStatusEffect(\"Force Race Suffix\"))&&0===e.value1&&0===e.value2&&0===e.value3&&0===e.value4&&pc.removeSta..."
+    "context": "<<POS:19564488>> addButton(14,\"Back\",(function(){var e=null;(e=pc.getStatusEffect(\"Force Race Prefix\"))&&0===e.value1&&0===e.value2&&0===e.value3&&0===e.value4&&pc.removeStatusEffect(\"Force Race Prefix\"),(e=pc.getStatusEffect(\"Force Race Suffix\"))&&0===e.value1&&0===e.value2&&0===e.value3&&0===e.value4&&pc.removeSta...",
+    "stage": 1
   },
   {
     "key": "output|Set_the_preferred_maximum_wetness_level_for_your_appearance_desc|ee8016ab968c",
@@ -3879,7 +4704,8 @@
     "key": "button|Back|0035c7139772",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19569169>> addButton(14,\"Back\",(function(){return xC(e,\"preference\")}))"
+    "context": "<<POS:19569169>> addButton(14,\"Back\",(function(){return xC(e,\"preference\")}))",
+    "stage": 1
   },
   {
     "key": "output|Your_current_preferred_silicone_description_is_set_to|e262ac66a562",
@@ -3909,7 +4735,8 @@
     "key": "button|None|6fb1f013f2a1",
     "original": "None",
     "translation": "无",
-    "context": "<<POS:19569674>> addButton(3,\"None\",(function(){return t(-1)}))"
+    "context": "<<POS:19569674>> addButton(3,\"None\",(function(){return t(-1)}))",
+    "stage": 1
   },
   {
     "key": "output|b_Moderate_b|168943509613",
@@ -3963,7 +4790,8 @@
     "key": "button|None|55b067195a6a",
     "original": "None",
     "translation": "无",
-    "context": "<<POS:19570395>> addDisabledButton(3,\"None\")"
+    "context": "<<POS:19570395>> addDisabledButton(3,\"None\")",
+    "stage": 1
   },
   {
     "key": "output|b_Full_b|b1a6dd31a80b",
@@ -3987,7 +4815,8 @@
     "key": "button|Back|af9dbaa6cfc5",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19570624>> addButton(14,\"Back\",(function(){return xC(e,\"preference\")}))"
+    "context": "<<POS:19570624>> addButton(14,\"Back\",(function(){return xC(e,\"preference\")}))",
+    "stage": 1
   },
   {
     "key": "output|Your_b_Ultra_Exhibitionist_b_trait_makes_it_so_that_your_ur|830ef47e75b4",
@@ -4017,7 +4846,8 @@
     "key": "button|None|da9a8277566e",
     "original": "None",
     "translation": "无",
-    "context": "<<POS:19571408>> addDisabledButton(o++,\"None\",\"Selected: None\",\"Log messages are turned off.\")"
+    "context": "<<POS:19571408>> addDisabledButton(o++,\"None\",\"Selected: None\",\"Log messages are turned off.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Log_messages_are_turned_off|b407b5bd2c1c",
@@ -4029,7 +4859,8 @@
     "key": "button|None|1a86406fe09b",
     "original": "None",
     "translation": "无",
-    "context": "<<POS:19571479>> addButton(o++,\"None\",(function(){return a(-2)}),\"Select: None\",\"Turn off log messages.\")"
+    "context": "<<POS:19571479>> addButton(o++,\"None\",(function(){return a(-2)}),\"Select: None\",\"Turn off log messages.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Select_None|0c4c51c539e0",
@@ -4215,7 +5046,8 @@
     "key": "button|Back|d14c2be0c79e",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19572898>> addButton(14,\"Back\",(function(){return xC(e,\"preference\")}))"
+    "context": "<<POS:19572898>> addButton(14,\"Back\",(function(){return xC(e,\"preference\")}))",
+    "stage": 1
   },
   {
     "key": "output|Your_current_pc_wingNoun_position_is_set_to|957679d35902",
@@ -4227,7 +5059,8 @@
     "key": "button|Normal|e78390f70e66",
     "original": "Normal",
     "translation": "normal",
-    "context": "<<POS:19573187>> addButton(0,\"Normal\",(function(){return t(0)}),\"Normal Position\",\"Your [pc.wingsNoun] fold\"+(1===pc.wingCount?\"s\":\"\")+\" normally behind you.\")"
+    "context": "<<POS:19573187>> addButton(0,\"Normal\",(function(){return t(0)}),\"Normal Position\",\"Your [pc.wingsNoun] fold\"+(1===pc.wingCount?\"s\":\"\")+\" normally behind you.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Normal_Position|b8fcbc474e7e",
@@ -4311,7 +5144,8 @@
     "key": "button|Normal|3c298bbf2465",
     "original": "Normal",
     "translation": "normal",
-    "context": "<<POS:19574021>> addDisabledButton(0,\"Normal\",\"Normal Position\",\"Your [pc.wingsNoun] \"+(1===pc.wingCount?\"is\":\"are\")+\" already positioned normally behind you.\")"
+    "context": "<<POS:19574021>> addDisabledButton(0,\"Normal\",\"Normal Position\",\"Your [pc.wingsNoun] \"+(1===pc.wingCount?\"is\":\"are\")+\" already positioned normally behind you.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Your_pc_wingsNoun|5827e312becc",
@@ -4323,7 +5157,8 @@
     "key": "button|Back|40c1f62c075d",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19574159>> addButton(14,\"Back\",(function(){return xC(e,\"physical\")}))"
+    "context": "<<POS:19574159>> addButton(14,\"Back\",(function(){return xC(e,\"physical\")}))",
+    "stage": 1
   },
   {
     "key": "output|Your_lower_tentacles_are_currently_set_to|a9ee6ff88b01",
@@ -4335,7 +5170,8 @@
     "key": "button|Normal|595fb0f5f9d4",
     "original": "Normal",
     "translation": "normal",
-    "context": "<<POS:19574587>> addButton(0,\"Normal\",t,\"Normal Form\",\"Support yourself on a writhing mass of tentacles.\")"
+    "context": "<<POS:19574587>> addButton(0,\"Normal\",t,\"Normal Form\",\"Support yourself on a writhing mass of tentacles.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Normal_Form|4c4fe8b32b86",
@@ -4383,7 +5219,8 @@
     "key": "button|Normal|01cf37b3046d",
     "original": "Normal",
     "translation": "normal",
-    "context": "<<POS:19574962>> addDisabledButton(0,\"Normal\",\"Normal Form\",\"Your lower tentacles are already a shapeless mass of tentacles.\")"
+    "context": "<<POS:19574962>> addDisabledButton(0,\"Normal\",\"Normal Form\",\"Your lower tentacles are already a shapeless mass of tentacles.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Your_lower_tentacles_are_already_a_shapeless_mass_of_tentacles|c74a8ed7333e",
@@ -4431,7 +5268,8 @@
     "key": "button|Back|82789c88467e",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19575388>> addButton(14,\"Back\",(function(){return xC(e,\"physical\")}))"
+    "context": "<<POS:19575388>> addButton(14,\"Back\",(function(){return xC(e,\"physical\")}))",
+    "stage": 1
   },
   {
     "key": "assign|You_are_currently_creating_yourself|d6c2f943beda",
@@ -12108,6 +12946,12 @@
     "context": "<<POS:19872900>>"
   },
   {
+    "key": "button.expr|var0_Sera_s|95986468f767",
+    "original": "{var0}(\"Sera’s\")",
+    "translation": "",
+    "context": "<<POS:19873154>> <<VARS:var0=a>> addButton(t++,a(\"Sera’s\"),window.toggleSeraCollarOff,\"Sera’s Collar\",\"Remove this collar.\")"
+  },
+  {
     "key": "button.hover|Sera_s_Collar|1653034dcc4f",
     "original": "Sera’s Collar",
     "translation": "",
@@ -12138,6 +12982,12 @@
     "context": "<<POS:19873298>> addButton(t++,\"Sera’s\",window.toggleSeraCollarOn,\"Sera’s Collar\",\"Wear this collar.\")"
   },
   {
+    "key": "button.expr|var1_var0|e912867b83fb",
+    "original": "{var1}({var0})",
+    "translation": "",
+    "context": "<<POS:19873350>> <<VARS:var0=GLOBAL.COLLAR_LIST[e],var1=a>> addButton(t++,a(GLOBAL.COLLAR_LIST[e]),(function(){return n(GLOBAL.COLLAR_LIST[e])}),GLOBAL.COLLAR_LIST[e]+\" Collar\",\"Remove this collar.\")"
+  },
+  {
     "key": "button.hover.expr|var0_Collar|f3e5115937f1",
     "original": "{var0}+\" Collar\"",
     "translation": "",
@@ -12148,6 +12998,12 @@
     "original": "Remove this collar.",
     "translation": "",
     "context": "<<POS:19873454>> addButton(t++,a(GLOBAL.COLLAR_LIST[e]),(function(){return n(GLOBAL.COLLAR_LIST[e])}),GLOBAL.COLLAR_LIST[e]+\" Collar\",\"Remove this collar.\")"
+  },
+  {
+    "key": "button.expr|var0|c9b2d9518085",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19873490>> <<VARS:var0=GLOBAL.COLLAR_LIST[e]>> addButton(t++,GLOBAL.COLLAR_LIST[e],(function(){return n(GLOBAL.COLLAR_LIST[e])}),GLOBAL.COLLAR_LIST[e]+\" Collar\",\"Wear this collar.\")"
   },
   {
     "key": "button.hover.expr|var0_Collar|ee5e09761adb",
@@ -12165,7 +13021,8 @@
     "key": "button|Back|85169a00258e",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19873693>> addButton(14,\"Back\",(function(){return xC(pc,\"accessories\")}))"
+    "context": "<<POS:19873693>> addButton(14,\"Back\",(function(){return xC(pc,\"accessories\")}))",
+    "stage": 1
   },
   {
     "key": "output|You_flip_out_your_codex_to_check_up_on_your_biometric_statistics|0fb0bda1a598",
@@ -12363,7 +13220,8 @@
     "key": "button|Next|301ff55dac23",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:19878900>> addButton(0,\"Next\",(function(){ui.queueRefreshMainText(Cl.gO.APPEARANCE),window.popUIState(),setTimeout((function(){SC(pc),removeButton(\"Fix Size Mod\")}),5)}))"
+    "context": "<<POS:19878900>> addButton(0,\"Next\",(function(){ui.queueRefreshMainText(Cl.gO.APPEARANCE),window.popUIState(),setTimeout((function(){SC(pc),removeButton(\"Fix Size Mod\")}),5)}))",
+    "stage": 1
   },
   {
     "key": "button|Personal|3b88afdb457f",
@@ -12471,7 +13329,8 @@
     "key": "button|Other|ab3abe4e94c3",
     "original": "Other",
     "translation": "其他",
-    "context": "<<POS:19883925>> addButton(7,\"Other\",(function(){return QC(\"other\")}),\"Other Statistics\",\"Show your other statistics.\")"
+    "context": "<<POS:19883925>> addButton(7,\"Other\",(function(){return QC(\"other\")}),\"Other Statistics\",\"Show your other statistics.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Other_Statistics|0f5bd1dc0ba6",
@@ -12489,7 +13348,8 @@
     "key": "button|Back|205924a4bd1a",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:19884029>> addButton(14,\"Back\",(function(){return ui.codexBack()}))"
+    "context": "<<POS:19884029>> addButton(14,\"Back\",(function(){return ui.codexBack()}))",
+    "stage": 1
   },
   {
     "key": "output.expr|var0_Personal_Statistics_1|06e0f2414eea",
@@ -12762,6 +13622,12 @@
     "context": "<<POS:19923797>>"
   },
   {
+    "key": "assign|span|8d8e0aee78b3",
+    "original": "</span>",
+    "translation": "",
+    "context": "<<POS:19923895>>"
+  },
+  {
     "key": "output.expr|var0_Location_Information_1|ff39ce78a3f4",
     "original": "\"+{var0}(\"Location Information\",!1)",
     "translation": "",
@@ -12930,10 +13796,22 @@
     "context": "<<POS:19952815>>"
   },
   {
+    "key": "assign|ul|3f5fecb64d8a",
+    "original": "</ul>",
+    "translation": "",
+    "context": "<<POS:19952826>>"
+  },
+  {
     "key": "assign|span|1e55a359095d",
     "original": "</span>",
     "translation": "",
     "context": "<<POS:19952837>>"
+  },
+  {
+    "key": "output.expr|var0|19a12464d6a9",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:19952853>> <<VARS:var0=v>> output(v)"
   },
   {
     "key": "output|div|73873e446510",

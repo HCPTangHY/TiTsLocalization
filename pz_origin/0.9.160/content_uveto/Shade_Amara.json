@@ -236,8 +236,9 @@
   {
     "key": "button|Next|2302d76bbf71",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06243282>> addButton(0,\"Next\",lA)"
+    "translation": "继续",
+    "context": "<<POS:06243282>> addButton(0,\"Next\",lA)",
+    "stage": 1
   },
   {
     "key": "name.show|Shade_Amara|362a58fae0fa",
@@ -344,8 +345,9 @@
   {
     "key": "button|Next|feb6a39772c2",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06246387>> addButton(0,\"Next\",(function(){return moveToRoom(getCurrentRoom().west,!0)}))"
+    "translation": "继续",
+    "context": "<<POS:06246387>> addButton(0,\"Next\",(function(){return moveToRoom(getCurrentRoom().west,!0)}))",
+    "stage": 1
   },
   {
     "key": "output|Head_nurse_Briget_is_standing_in_front_of_her_desk_expectantly|312f5f7c591a",
@@ -392,8 +394,9 @@
   {
     "key": "button|Next|b80e669172a5",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06248627>> addButton(0,\"Next\",xx)"
+    "translation": "继续",
+    "context": "<<POS:06248627>> addButton(0,\"Next\",xx)",
+    "stage": 1
   },
   {
     "key": "assign|Nursery_Cafeteria|8dbc01f493c7",
@@ -636,7 +639,13 @@
     "context": "<<POS:06254283>> addButton(e,\"Shade\",(function(){return $x(!0)}),\"Shade\",o)"
   },
   {
-    "key": "output|Shade_is_sitting_at_the_bar_and_nursing_a_dark_mug_She_looks_mu|10feef0b5d2a",
+    "key": "button.tooltip.expr|var0|9d3097575bda",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:06254290>> <<VARS:var0=o>> addButton(e,\"Shade\",(function(){return $x(!0)}),\"Shade\",o)"
+  },
+  {
+    "key": "output|Shade_is_sitting_at_the_bar_and_nursing_a_dark_mug_She_looks_mu|e71602d9d2d1",
     "original": "Shade is sitting at the bar and nursing a dark mug. She looks much the same as before, though at a glance she’s wearing a thick woolen sweater under her long coat, and her tail is wrapped up in a dark blue sock that leaves none of its scales bare. As you enter the bar, Shade glances up and locks eyes with you for a moment. She sighs and waves, summoning you to your jilted lover’s side.",
     "translation": "",
     "context": "<<POS:06254362>>"
@@ -714,13 +723,19 @@
     "context": "<<POS:06256518>> addButton(e,\"Shade\",(function(){return Jx(t)}),\"Shade\",o)"
   },
   {
-    "key": "button|Buzzer|ee1045ac491f",
+    "key": "button.tooltip.expr|var0|f7f6f1a62c0a",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:06256525>> <<VARS:var0=o>> addButton(e,\"Shade\",(function(){return Jx(t)}),\"Shade\",o)"
+  },
+  {
+    "key": "button|Buzzer|edcebcfb1e6d",
     "original": "Buzzer",
     "translation": "",
     "context": "<<POS:06256992>> addDisabledButton(e,\"Buzzer\",\"Buzzer\",\"No one is home at the moment!\")"
   },
   {
-    "key": "button.hover|No_one_is_home_at_the_moment|71811424d726",
+    "key": "button.hover|No_one_is_home_at_the_moment|ff3b34d060aa",
     "original": "No one is home at the moment!",
     "translation": "",
     "context": "<<POS:06257010>> addDisabledButton(e,\"Buzzer\",\"Buzzer\",\"No one is home at the moment!\")"
@@ -792,19 +807,31 @@
     "context": "<<POS:06258124>> addDisabledButton(e,\"Buzzer\",\"Buzzer\",o)"
   },
   {
-    "key": "button|Buzzer|dfb2c0041f27",
+    "key": "button.hover.expr|var0|90da528e574d",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:06258141>> <<VARS:var0=o>> addDisabledButton(e,\"Buzzer\",\"Buzzer\",o)"
+  },
+  {
+    "key": "button|Buzzer|edcebcfb1e6d#1",
     "original": "Buzzer",
     "translation": "",
     "context": "<<POS:06258157>> addButton(e,\"Buzzer\",(function(){return oA(t)}),\"Buzzer\",o)"
   },
   {
-    "key": "button.hover|Buzzer|dfb2c0041f27",
+    "key": "button.hover|Buzzer|edcebcfb1e6d",
     "original": "Buzzer",
     "translation": "",
     "context": "<<POS:06258193>> addButton(e,\"Buzzer\",(function(){return oA(t)}),\"Buzzer\",o)"
   },
   {
-    "key": "output|9999_Room_Description|5fa557411a84",
+    "key": "button.tooltip.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:06258201>> <<VARS:var0=o>> addButton(e,\"Buzzer\",(function(){return oA(t)}),\"Buzzer\",o)"
+  },
+  {
+    "key": "output|9999_Room_Description|58c11202a290",
     "original": "9999 - Room Description",
     "translation": "",
     "context": "<<POS:06258256>>"

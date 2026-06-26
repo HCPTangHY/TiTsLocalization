@@ -1,9 +1,9 @@
 [
   {
-    "key": "button|Next|8f138d3b9daa",
-    "original": "Next",
-    "translation": "继续",
-    "context": "<<POS:08414786>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
+    "key": "assign|Skin_Clear|8b94df96f6c7",
+    "original": "Skin Clear",
+    "translation": "",
+    "context": "<<POS:09521286>>"
   },
   {
     "key": "assign|a_small_bottle_labeled_Skin_Clear|b339c4338e39",
@@ -87,7 +87,8 @@
     "key": "button|Back|a5b3198d7082",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:09522991>> addButton(14,\"Back\",(function(){return o.useCancel(t)}))"
+    "context": "<<POS:09522991>> addButton(14,\"Back\",(function(){return o.useCancel(t)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Skin_Clear|2a62f1905d4d",
@@ -100,6 +101,13 @@
     "original": "You put the bottle back into your inventory.",
     "translation": "",
     "context": "<<POS:09523145>>"
+  },
+  {
+    "key": "button|Next|8f138d3b9daa",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:09523238>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Skin_Clear|8bfa2f8c4868",
@@ -117,7 +125,8 @@
     "key": "button|Next|52b6eeaf109e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09524192>> addButton(0,\"Next\",(function(){return o.skinTF(e,t)}))"
+    "context": "<<POS:09524192>> addButton(0,\"Next\",(function(){return o.skinTF(e,t)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Skin_Clear|8bfa2f8c4868#1",
@@ -135,7 +144,8 @@
     "key": "button|Next|7715c5ff28a0",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09524823>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
+    "context": "<<POS:09524823>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))",
+    "stage": 1
   },
   {
     "key": "output|While_waiting_for_the_lotion_to_have_an_effect_you_notice_that|1b26f2db84e3",
@@ -231,7 +241,8 @@
     "key": "button|Next|9e1a14f5fe78",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09528810>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
+    "context": "<<POS:09528810>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Skin_Clear|8bfa2f8c4868#2",
@@ -261,7 +272,8 @@
     "key": "button|Next|9876ae7d42ed",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09531414>> addButton(0,\"Next\",(function(){return o.ingestTF(e,t)}))"
+    "context": "<<POS:09531414>> addButton(0,\"Next\",(function(){return o.ingestTF(e,t)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Skin_Clear|8bfa2f8c4868#3",
@@ -729,7 +741,8 @@
     "key": "button|Next|17ef94c225f3",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09554391>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
+    "context": "<<POS:09554391>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Skin_Clear|8bfa2f8c4868#4",
@@ -891,6 +904,14 @@
     "key": "button|Next|02e503f593d3",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09571645>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))"
+    "context": "<<POS:09571645>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:09571726>> addButton(0,\"Next\",(function(){return a.badEndTF(e,t+1,o)}))",
+    "stage": 1
   }
 ]

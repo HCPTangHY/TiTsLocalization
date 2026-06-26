@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|capacitor_bank|443fbb1844cc",
+    "original": "capacitor bank",
+    "translation": "",
+    "context": "<<POS:07538656>>"
+  },
+  {
     "key": "assign|a_bank_of_capacitors|ff1ddfbaf04b",
     "original": "a bank of capacitors",
     "translation": "",
@@ -16,6 +22,12 @@
     "original": "Your energy is already maxed out.",
     "translation": "",
     "context": "<<POS:07539824>>"
+  },
+  {
+    "key": "output.expr|For_some_reason_var0_getCombatName_taps_into_a_reserve|fcce143da71f",
+    "original": "For some reason, \"+{var0}.getCombatName()+\" taps into a reserve power source while at full energy!",
+    "translation": "",
+    "context": "<<POS:07539869>> <<VARS:var0=t>> output(\"For some reason, \"+t.getCombatName()+\" taps into a reserve power source while at full energy!\")"
   },
   {
     "key": "combat|concat_h_m_printStatChange_E_o_shieldHeal_shield|5e327c551197",

@@ -1,21 +1,9 @@
 [
   {
-    "key": "button|Don_t_Use|0be660b7f3f7",
-    "original": "Don’t Use",
+    "key": "assign|medipen_loaded_with_the_Treatment|91371b2a3f34",
+    "original": "medipen loaded with the Treatment",
     "translation": "",
-    "context": "<<POS:06386693>> addButton(1,\"Don’t Use\",(function(){return t.dontTakeThePill(t)}))"
-  },
-  {
-    "key": "button|Codex|ca0d49eb9299",
-    "original": "Codex",
-    "translation": "智典",
-    "context": "<<POS:06386760>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.kB)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),window.goAheadAndDumbfuck()})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.dontTakeThePill(t)}))}),\"Codex Entry\",\"View the Codex entry for Dumbfuck.\")"
-  },
-  {
-    "key": "button.hover|Codex_Entry|24493e4f06cb",
-    "original": "Codex Entry",
-    "translation": "智典入口",
-    "context": "<<POS:06386968>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.kB)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),window.goAheadAndDumbfuck()})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.dontTakeThePill(t)}))}),\"Codex Entry\",\"View the Codex entry for Dumbfuck.\")"
+    "context": "<<POS:06891279>>"
   },
   {
     "key": "assign|a_medipen_loaded_with_the_Treatment|63625ddd82a0",
@@ -40,6 +28,26 @@
     "original": "Use",
     "translation": "",
     "context": "<<POS:06892403>> addDisabledButton(0,\"Use\")"
+  },
+  {
+    "key": "button|Don_t_Use|0be660b7f3f7",
+    "original": "Don’t Use",
+    "translation": "",
+    "context": "<<POS:06892422>> addButton(1,\"Don’t Use\",(function(){return t.itemCancel(t)}))"
+  },
+  {
+    "key": "button|Codex|ca0d49eb9299",
+    "original": "Codex",
+    "translation": "智典",
+    "context": "<<POS:06892484>> addButton(4,\"Codex\",(function(){showCodex(),(0,m.Zo)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View...",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Codex_Entry|24493e4f06cb",
+    "original": "Codex Entry",
+    "translation": "智典入口",
+    "context": "<<POS:06892753>> addButton(4,\"Codex\",(function(){showCodex(),(0,m.Zo)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View...",
+    "stage": 1
   },
   {
     "key": "button.tooltip|View_the_Codex_entry_for_The_Treatment|74cfa06d639b",
@@ -189,7 +197,8 @@
     "key": "button|Next|d1394c8557d7",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:06898459>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+    "context": "<<POS:06898459>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   },
   {
     "key": "output|For_instance_you_can_smell_your_pc_vaginas_You_can_tell_just|4acd297752f0",

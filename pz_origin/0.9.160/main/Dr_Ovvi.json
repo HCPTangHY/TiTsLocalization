@@ -1,63 +1,22 @@
 [
   {
-    "key": "output.expr|For_some_reason_var0_getCombatName_taps_into_a_reserve|fcce143da71f",
-    "original": "For some reason, \"+{var0}.getCombatName()+\" taps into a reserve power source while at full energy!",
+    "key": "assign|Life_Support|94001ea6006a",
+    "original": "Life Support",
     "translation": "",
-    "context": "<<POS:07539869>> <<VARS:var0=t>> output(\"For some reason, \"+t.getCombatName()+\" taps into a reserve power source while at full energy!\")"
-  },
-  {
-    "key": "button|Next|35b9a3540cff#8",
-    "original": "Next",
-    "translation": "继续",
-    "context": "<<POS:09681594>> addButton(0,\"Next\",(function(){return t.soakEffectsSceneWheee(e)}))"
-  },
-  {
-    "key": "button|Next|35b9a3540cff#9",
-    "original": "Next",
-    "translation": "继续",
-    "context": "<<POS:09703645>> addButton(0,\"Next\",mainGameMenu)"
-  },
-  {
-    "key": "button|Next|35b9a3540cff#10",
-    "original": "Next",
-    "translation": "继续",
-    "context": "<<POS:09756473>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
-  },
-  {
-    "key": "button|Next|35b9a3540cff#11",
-    "original": "Next",
-    "translation": "继续",
-    "context": "<<POS:10247781>> addButton(0,\"Next\",mainGameMenu)"
-  },
-  {
-    "key": "button|Next|35b9a3540cff#12",
-    "original": "Next",
-    "translation": "继续",
-    "context": "<<POS:10854069>> addButton(0,\"Next\",(function(){return t.postCombatReturnToMenu()}))"
-  },
-  {
-    "key": "button|Next|35b9a3540cff#13",
-    "original": "Next",
-    "translation": "继续",
-    "context": "<<POS:12715500>> addButton(0,\"Next\",(function(){window.showInventory({force:!0})}))"
-  },
-  {
-    "key": "button|Next|35b9a3540cff#14",
-    "original": "Next",
-    "translation": "继续",
-    "context": "<<POS:12716669>> addButton(0,\"Next\",(function(){e&&e.quantity<=0&&(t.selectedItem=null,t.autoSortItems()),window.showInventory({force:!0})}))"
-  },
-  {
-    "key": "button|Next|35b9a3540cff#15",
-    "original": "Next",
-    "translation": "继续",
-    "context": "<<POS:12867020>> addButton(0,\"Next\",(function(){return window.biancaRandomEncounter(!0)}))"
+    "context": "<<POS:28129905>>"
   },
   {
     "key": "assign|the|afa892a5b9aa",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:28129947>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "context": "<<POS:28129964>>",
+    "stage": 1
   },
   {
     "key": "assign|The_Life_Support_System_hums_ominously_ready_to_restore_any_dam|1da68757c060",
@@ -94,6 +53,12 @@
     "original": "{var0}",
     "translation": "",
     "context": "<<POS:28132809>> <<VARS:var0=o>> output(o)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:28133395>> <<VARS:var0=o>> output(o)"
   },
   {
     "key": "assign|repair_gland|0270987b4d18",
@@ -148,6 +113,12 @@
     "original": "Your energy is already maxed out.",
     "translation": "",
     "context": "<<POS:28137714>>"
+  },
+  {
+    "key": "output.expr|For_some_reason_var0_getCombatName_taps_into_a_reserve|fcce143da71f",
+    "original": "For some reason, \"+{var0}.getCombatName()+\" taps into a reserve power source while at full energy!",
+    "translation": "",
+    "context": "<<POS:28137759>> <<VARS:var0=t>> output(\"For some reason, \"+t.getCombatName()+\" taps into a reserve power source while at full energy!\")"
   },
   {
     "key": "combat|concat_Ot_m_printStatChange_E_o_shieldHeal_shield|53b9d6e912fb",
@@ -278,8 +249,21 @@
   {
     "key": "assign|the|0e0e73323d63",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:28145932>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#1",
+    "original": "The ",
+    "translation": "",
+    "context": "<<POS:28145950>>"
+  },
+  {
+    "key": "assign|b_The_attack_was_blocked_b|d64eb436591b",
+    "original": "<b>The attack was blocked.</b>",
+    "translation": "<b>攻击被阻挡了。</b>",
+    "context": "<<POS:28145981>>",
+    "stage": 1
   },
   {
     "key": "assign|The_Space_Leviathan_waves_its_gigantic_sails_soaring_out_of_ran|4c6a4d1e8e01",
@@ -363,7 +347,8 @@
     "key": "button|Next|c9a8153be661",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28150577>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:28150577>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|c9a8153be661",
@@ -381,7 +366,8 @@
     "key": "button|Next|0c310ddd08fa",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28152732>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];window.pauletteClear(),author(\"Magenta Needle\"),output(textify(mee||(mee=(0,Ce.Z)([\"You crouch down, following the cover you can find on your way to the crimson factory. All the buildings e..."
+    "context": "<<POS:28152732>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];window.pauletteClear(),author(\"Magenta Needle\"),output(textify(mee||(mee=(0,Ce.Z)([\"You crouch down, following the cover you can find on your way to the crimson factory. All the buildings e...",
+    "stage": 1
   },
   {
     "key": "textify|Strict_9_chambers_a_uniquely_heavy_canister_into_her_chemical_gu|ab7e02a3c1a4",
@@ -393,7 +379,8 @@
     "key": "button|Next|410d6474f6c2",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28162191>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];poe(),output(textify(wee||(wee=(0,Ce.Z)([\"\\n\\tStars, everything’s so fun out here! You’ve been playing with these cool girls for hours, rolling in the grass, playing catch, joking. They a..."
+    "context": "<<POS:28162191>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];poe(),output(textify(wee||(wee=(0,Ce.Z)([\"\\n\\tStars, everything’s so fun out here! You’ve been playing with these cool girls for hours, rolling in the grass, playing catch, joking. They a...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|410d6474f6c2",
@@ -411,7 +398,8 @@
     "key": "button|Next|94fca84169b3",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28183913>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28183913>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|94fca84169b3",
@@ -453,7 +441,8 @@
     "key": "button|Next|38a2a3d1e763",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28191738>> addButton(t++,\"Next\",(function(){return Poe(e)}),\"Next\",\"\")"
+    "context": "<<POS:28191738>> addButton(t++,\"Next\",(function(){return Poe(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|38a2a3d1e763",
@@ -483,7 +472,8 @@
     "key": "button|Next|27b320acc5f6",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28193287>> addButton(t++,\"Next\",e?voe:Yoe,\"Next\",\"\")"
+    "context": "<<POS:28193287>> addButton(t++,\"Next\",e?voe:Yoe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|27b320acc5f6",
@@ -501,7 +491,8 @@
     "key": "button|Next|cade27b2c95d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28200802>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];poe(!0),output(textify(Cee||(Cee=(0,Ce.Z)([\"\\n\\t<i>“Coochie coochy coo,”</i> Paulette whistles, spreading her target’s faux-pussy wide.\\n\\t\\n\\tStrict-9 hisses as the knot-like breeder bul..."
+    "context": "<<POS:28200802>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];poe(!0),output(textify(Cee||(Cee=(0,Ce.Z)([\"\\n\\t<i>“Coochie coochy coo,”</i> Paulette whistles, spreading her target’s faux-pussy wide.\\n\\t\\n\\tStrict-9 hisses as the knot-like breeder bul...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|cade27b2c95d",
@@ -519,7 +510,8 @@
     "key": "button|Next|90c83355275f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28216145>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];poe(!0),output(textify(_ee||(_ee=(0,Ce.Z)([\"\\n\\tThe former XO smiles. She squirts milk all over the poor girl’s face, turning it into a gooey mess before fountaining sapphire droplets dir..."
+    "context": "<<POS:28216145>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];poe(!0),output(textify(_ee||(_ee=(0,Ce.Z)([\"\\n\\tThe former XO smiles. She squirts milk all over the poor girl’s face, turning it into a gooey mess before fountaining sapphire droplets dir...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|90c83355275f",
@@ -537,7 +529,8 @@
     "key": "button|Next|27b320acc5f6#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28231025>> addButton(t++,\"Next\",e?voe:Yoe,\"Next\",\"\")"
+    "context": "<<POS:28231025>> addButton(t++,\"Next\",e?voe:Yoe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|27b320acc5f6#1",
@@ -555,13 +548,27 @@
     "key": "button|Next|683c8994b723",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28234073>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28234073>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|683c8994b723",
     "original": "Next",
     "translation": "",
     "context": "<<POS:28234084>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+  },
+  {
+    "key": "button|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:28234107>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28234127>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "textify|The_insectile_cyborgs_pin_you_to_the_ground_with_their_bladed_li|485b2c235e16",
@@ -573,7 +580,8 @@
     "key": "button|Next|1108afa64928",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28235421>> addButton(t++,\"Next\",(function(){return Doe(e)}),\"Next\",\"\")"
+    "context": "<<POS:28235421>> addButton(t++,\"Next\",(function(){return Doe(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|1108afa64928",
@@ -591,7 +599,8 @@
     "key": "button|Next|d6d5205474a9",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28247662>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28247662>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|d6d5205474a9",
@@ -620,7 +629,7 @@
   {
     "key": "button|Leave|f9f904999a7b",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:28249410>> addButton(14,\"Leave\",(function(){return Woe(e)}),\"Leave\",\"\")"
   },
   {
@@ -639,13 +648,21 @@
     "key": "button|Next|8a5fc3a55d14",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28259195>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28259195>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|8a5fc3a55d14",
     "original": "Next",
     "translation": "",
     "context": "<<POS:28259206>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+  },
+  {
+    "key": "button|Next|35b9a3540cff#1",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:28259244>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|35b9a3540cff#1",
@@ -663,13 +680,21 @@
     "key": "button|Next|8a5fc3a55d14#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28267921>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28267921>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|8a5fc3a55d14#1",
     "original": "Next",
     "translation": "",
     "context": "<<POS:28267932>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+  },
+  {
+    "key": "button|Next|35b9a3540cff#2",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:28267970>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|35b9a3540cff#2",
@@ -687,13 +712,21 @@
     "key": "button|Next|cd925a047940",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28276511>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28276511>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|cd925a047940",
     "original": "Next",
     "translation": "",
     "context": "<<POS:28276522>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+  },
+  {
+    "key": "button|Next|35b9a3540cff#3",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:28276560>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|35b9a3540cff#3",
@@ -711,13 +744,21 @@
     "key": "button|Next|151099fbbcf0",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28277949>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28277949>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|151099fbbcf0",
     "original": "Next",
     "translation": "",
     "context": "<<POS:28277960>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+  },
+  {
+    "key": "button|Next|35b9a3540cff#4",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:28277998>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|35b9a3540cff#4",
@@ -735,7 +776,8 @@
     "key": "button|Next|f68f03e6d9b2",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28289016>> addButton(e++,\"Next\",Koe,\"Next\",\"\")"
+    "context": "<<POS:28289016>> addButton(e++,\"Next\",Koe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|f68f03e6d9b2",
@@ -753,7 +795,8 @@
     "key": "button|Next|14e0c1173ebb",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28294458>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:28294458>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|14e0c1173ebb",
@@ -771,7 +814,8 @@
     "key": "button|Next|1712b6f1e0bc",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28303809>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];if(moe(!0),output(textify(qee||(qee=(0,Ce.Z)([\"\\n\\tA deep hiss resonates through the room as a long, oily tongue slithers inside your [pc.vagOrAss]. It thrusts deep inside you, stretching..."
+    "context": "<<POS:28303809>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];if(moe(!0),output(textify(qee||(qee=(0,Ce.Z)([\"\\n\\tA deep hiss resonates through the room as a long, oily tongue slithers inside your [pc.vagOrAss]. It thrusts deep inside you, stretching...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|1712b6f1e0bc",
@@ -824,7 +868,7 @@
   {
     "key": "button|Leave|cefeab6e9b2b",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:28329119>> addButton(14,\"Leave\",(function(){return eae(e)}),\"Leave\",\"Pacify Sci’Koh.\")"
   },
   {
@@ -849,13 +893,21 @@
     "key": "button|Next|26e0d7234e75",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28332100>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28332100>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|26e0d7234e75",
     "original": "Next",
     "translation": "",
     "context": "<<POS:28332111>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+  },
+  {
+    "key": "button|Next|35b9a3540cff#5",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:28332149>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|35b9a3540cff#5",
@@ -873,7 +925,8 @@
     "key": "button|Next|88645c326fca",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28340068>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];moe(!0),output(textify(Qee||(Qee=(0,Ce.Z)([\"\\n\\tSomeone’s angry. After a particularly vicious buck, your ex-XO’s flared tip slides into Sci’Koh’s earmuff. The poor girl coos, eyes rolled ..."
+    "context": "<<POS:28340068>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];moe(!0),output(textify(Qee||(Qee=(0,Ce.Z)([\"\\n\\tSomeone’s angry. After a particularly vicious buck, your ex-XO’s flared tip slides into Sci’Koh’s earmuff. The poor girl coos, eyes rolled ...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|88645c326fca",
@@ -891,13 +944,21 @@
     "key": "button|Next|d44245926868",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28348210>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28348210>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|d44245926868",
     "original": "Next",
     "translation": "",
     "context": "<<POS:28348221>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+  },
+  {
+    "key": "button|Next|35b9a3540cff#6",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:28348259>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|35b9a3540cff#6",
@@ -915,13 +976,21 @@
     "key": "button|Next|d44245926868#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28350266>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28350266>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|d44245926868#1",
     "original": "Next",
     "translation": "",
     "context": "<<POS:28350277>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+  },
+  {
+    "key": "button|Next|35b9a3540cff#7",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:28350315>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|35b9a3540cff#7",
@@ -939,7 +1008,8 @@
     "key": "button|Next|4af580c9248f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28357302>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];moe(!0),output(textify(ote||(ote=(0,Ce.Z)([\"\\n\\tThe purple cyborg raises the dazzled vulpatra to your level, aiming her torso-sized, extra fat red rocket at your [pc.vagOrAss]. <i>“Alrigh..."
+    "context": "<<POS:28357302>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];moe(!0),output(textify(ote||(ote=(0,Ce.Z)([\"\\n\\tThe purple cyborg raises the dazzled vulpatra to your level, aiming her torso-sized, extra fat red rocket at your [pc.vagOrAss]. <i>“Alrigh...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|4af580c9248f",
@@ -956,7 +1026,7 @@
   {
     "key": "button|Fight|f504d455fb57",
     "original": "Fight!",
-    "translation": "战斗！",
+    "translation": "",
     "context": "<<POS:28371419>> addButton(t++,\"Fight!\",(function(){return uae(e)}),\"Fight!\",\"\")"
   },
   {
@@ -975,7 +1045,8 @@
     "key": "button|Next|ac57cf4dc401",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28381089>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];if(foe(),output(textify(rte||(rte=(0,Ce.Z)([\"\\n\\tA strange unfamiliar warmth spreads through you, bringing a debilitating numbness with it as a new girl sprouts from behind the Goddess. S..."
+    "context": "<<POS:28381089>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];if(foe(),output(textify(rte||(rte=(0,Ce.Z)([\"\\n\\tA strange unfamiliar warmth spreads through you, bringing a debilitating numbness with it as a new girl sprouts from behind the Goddess. S...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|ac57cf4dc401",
@@ -1028,7 +1099,7 @@
   {
     "key": "button|Leave|bb99965935ab",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:28390710>> addButton(14,\"Leave\",(function(){return fae(e)}),\"Leave\",\"\")"
   },
   {
@@ -1047,7 +1118,8 @@
     "key": "button|Next|6541682249de",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28399178>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];foe(!0),output(textify(hte||(hte=(0,Ce.Z)([\"\\n\\tIn the blink of an eye, Zero Plus’s tail slithers around BL00M’s waist and sneaks between her bountiful buttcheeks. The curvaceous zaika wh..."
+    "context": "<<POS:28399178>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];foe(!0),output(textify(hte||(hte=(0,Ce.Z)([\"\\n\\tIn the blink of an eye, Zero Plus’s tail slithers around BL00M’s waist and sneaks between her bountiful buttcheeks. The curvaceous zaika wh...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|6541682249de",
@@ -1065,7 +1137,8 @@
     "key": "button|Next|176da9b56059",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28416202>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];foe(!0),output(textify(dte||(dte=(0,Ce.Z)([\"\\n\\tFeeling extra saucy, Zero Plus butts in, breaking your kiss,, the flared pride of her tail finding its way to BL00M’s lips. She pecks the o..."
+    "context": "<<POS:28416202>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];foe(!0),output(textify(dte||(dte=(0,Ce.Z)([\"\\n\\tFeeling extra saucy, Zero Plus butts in, breaking your kiss,, the flared pride of her tail finding its way to BL00M’s lips. She pecks the o...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|176da9b56059",
@@ -1083,7 +1156,8 @@
     "key": "button|Next|05717d9ca6fd",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28431653>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];foe(!0),output(textify(pte||(pte=(0,Ce.Z)([\"\\n\\tThe harder you fondle and finger her, the more pleasure BL00M gives you in return. Her godly scent ravishes your mind, cooking your mushy b..."
+    "context": "<<POS:28431653>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];foe(!0),output(textify(pte||(pte=(0,Ce.Z)([\"\\n\\tThe harder you fondle and finger her, the more pleasure BL00M gives you in return. Her godly scent ravishes your mind, cooking your mushy b...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|05717d9ca6fd",
@@ -1101,13 +1175,21 @@
     "key": "button|Next|56a297dd6190",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28440038>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28440038>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|56a297dd6190",
     "original": "Next",
     "translation": "",
     "context": "<<POS:28440049>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+  },
+  {
+    "key": "button|Next|35b9a3540cff#8",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:28440087>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|35b9a3540cff#8",
@@ -1125,7 +1207,8 @@
     "key": "button|Next|5d545629930d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28442355>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:28442355>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|5d545629930d",
@@ -1143,7 +1226,8 @@
     "key": "button|Next|41781dea50d7",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28445601>> addButton(o++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:28445601>> addButton(o++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|41781dea50d7",
@@ -1161,7 +1245,8 @@
     "key": "button|Next|fab7eb0f1809",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28447661>> addButton(e++,\"Next\",vae,\"Next\",\"\")"
+    "context": "<<POS:28447661>> addButton(e++,\"Next\",vae,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|fab7eb0f1809",
@@ -1179,7 +1264,8 @@
     "key": "button|Next|80835dc85e51",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28448960>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:28448960>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|80835dc85e51",
@@ -1197,13 +1283,21 @@
     "key": "button|Next|3333c95447c4",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28453967>> addButton(e++,\"Next\",Eae,\"Next\",\"\")"
+    "context": "<<POS:28453967>> addButton(e++,\"Next\",Eae,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|3333c95447c4",
     "original": "Next",
     "translation": "",
     "context": "<<POS:28453978>> addButton(e++,\"Next\",Eae,\"Next\",\"\")"
+  },
+  {
+    "key": "button|Next|35b9a3540cff#9",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:28459204>> addButton(e++,\"Next\",Tae,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|35b9a3540cff#9",
@@ -1215,7 +1309,8 @@
     "key": "button|Fight|fa941149e603",
     "original": "Fight!",
     "translation": "战斗！",
-    "context": "<<POS:28475660>> addButton(t++,\"Fight!\",(function(){return Cae(e)}),\"Fight!\",\"\")"
+    "context": "<<POS:28475660>> addButton(t++,\"Fight!\",(function(){return Cae(e)}),\"Fight!\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Fight|fa941149e603",
@@ -1233,7 +1328,8 @@
     "key": "button|Next|4e13c7d18b2e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28485717>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28485717>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|4e13c7d18b2e",
@@ -1268,7 +1364,7 @@
   {
     "key": "button|Leave|6033ac268644",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:28487972>> addButton(14,\"Leave\",(function(){return Rae(e)}),\"Leave\",\"Ovvi must be stopped now!\")"
   },
   {
@@ -1293,7 +1389,8 @@
     "key": "button|Next|2e5f12b0b9dd",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28494966>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];boe(),output(textify(Rte||(Rte=(0,Ce.Z)([\"\\n\\tWithout a warning, you stop the frenzied fucking and reach an arm out of the marshmallow entombment to caress the BRAT’s cheeks. She melts at..."
+    "context": "<<POS:28494966>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];boe(),output(textify(Rte||(Rte=(0,Ce.Z)([\"\\n\\tWithout a warning, you stop the frenzied fucking and reach an arm out of the marshmallow entombment to caress the BRAT’s cheeks. She melts at...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|2e5f12b0b9dd",
@@ -1311,7 +1408,8 @@
     "key": "button|Next|716296ab2470",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28508786>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];boe(),output(textify(Pte||(Pte=(0,Ce.Z)([\"\\n\\tThe BRAT never stops. Her tails relentlessly ram your gaping holes, milking lurid moans out of you. You can feel the raw bliss rocking her sp..."
+    "context": "<<POS:28508786>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];boe(),output(textify(Pte||(Pte=(0,Ce.Z)([\"\\n\\tThe BRAT never stops. Her tails relentlessly ram your gaping holes, milking lurid moans out of you. You can feel the raw bliss rocking her sp...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|716296ab2470",
@@ -1329,13 +1427,21 @@
     "key": "button|Next|c063b7ff10af",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28517189>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28517189>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|c063b7ff10af",
     "original": "Next",
     "translation": "",
     "context": "<<POS:28517200>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+  },
+  {
+    "key": "button|Next|35b9a3540cff#10",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:28517238>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|35b9a3540cff#10",
@@ -1353,7 +1459,8 @@
     "key": "button|Next|3146df2b9c5e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28518065>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:28518065>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|3146df2b9c5e",
@@ -1371,7 +1478,8 @@
     "key": "button|Next|c124eab2ff5c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28518813>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:28518813>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|c124eab2ff5c",
@@ -1389,13 +1497,21 @@
     "key": "button|Yes|0b73cf492d64",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:28519055>> addButton(e++,\"Yes\",Mae,\"Yes\",\"\")"
+    "context": "<<POS:28519055>> addButton(e++,\"Yes\",Mae,\"Yes\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Yes|0b73cf492d64",
     "original": "Yes",
     "translation": "",
     "context": "<<POS:28519065>> addButton(e++,\"Yes\",Mae,\"Yes\",\"\")"
+  },
+  {
+    "key": "button|No|1c655db5490a",
+    "original": "No",
+    "translation": "不",
+    "context": "<<POS:28519089>> addButton(e++,\"No\",Fae,\"No\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|No|1c655db5490a",
@@ -1413,7 +1529,8 @@
     "key": "button|Next|1b6f27a245a5",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28524177>> addButton(e++,\"Next\",Gae,\"Next\",\"\")"
+    "context": "<<POS:28524177>> addButton(e++,\"Next\",Gae,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|1b6f27a245a5",
@@ -1431,7 +1548,8 @@
     "key": "button|Next|15f12bf44fd0",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28525031>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:28525031>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|15f12bf44fd0",
@@ -1448,7 +1566,7 @@
   {
     "key": "button|Fight|fed63b814b25",
     "original": "Fight!",
-    "translation": "战斗！",
+    "translation": "",
     "context": "<<POS:28529010>> addButton(t++,\"Fight!\",(function(){return Dae(e)}),\"Fight!\",\"\")"
   },
   {
@@ -1456,6 +1574,13 @@
     "original": "Fight!",
     "translation": "",
     "context": "<<POS:28529047>> addButton(t++,\"Fight!\",(function(){return Dae(e)}),\"Fight!\",\"\")"
+  },
+  {
+    "key": "button|Next|d58fe8e1ec22",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:28538246>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearOutput(),showName(\"Dr. Ovvi\"),showBust(zp.bustString(!1,!0),paulette.bustString()),author(\"Magenta Needle\"),output(textify(qte||(qte=(0,Ce.Z)([\"\",\"A powerful shockwave blasts the roo...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|d58fe8e1ec22",
@@ -1484,13 +1609,13 @@
   {
     "key": "button|Call_Steele_Tech|3783ec536131",
     "original": "Call Steele Tech",
-    "translation": "致电斯蒂尔科技",
+    "translation": "",
     "context": "<<POS:28546036>> addButton(t++,\"Call Steele Tech\",e?voe:Qae,\"Call Steele Tech\",\"Let’s get this over with.\")"
   },
   {
     "key": "button.hover|Call_Steele_Tech|3783ec536131",
     "original": "Call Steele Tech",
-    "translation": "致电斯蒂尔科技",
+    "translation": "",
     "context": "<<POS:28546065>> addButton(t++,\"Call Steele Tech\",e?voe:Qae,\"Call Steele Tech\",\"Let’s get this over with.\")"
   },
   {
@@ -1509,7 +1634,8 @@
     "key": "button|Next|0eae976b7459",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28553930>> addButton(t++,\"Next\",(function(){return qae(e)}),\"Next\",\"\")"
+    "context": "<<POS:28553930>> addButton(t++,\"Next\",(function(){return qae(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|0eae976b7459",
@@ -1527,13 +1653,21 @@
     "key": "button|Next|1b8e58534394",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28561850>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28561850>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|1b8e58534394",
     "original": "Next",
     "translation": "",
     "context": "<<POS:28561861>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+  },
+  {
+    "key": "button|Next|35b9a3540cff#11",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:28561899>> addButton(t++,\"Next\",(function(){return Qae(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|35b9a3540cff#11",
@@ -1551,7 +1685,8 @@
     "key": "button|Next|0eae976b7459#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28569747>> addButton(t++,\"Next\",(function(){return Kae(e)}),\"Next\",\"\")"
+    "context": "<<POS:28569747>> addButton(t++,\"Next\",(function(){return Kae(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|0eae976b7459#1",
@@ -1569,13 +1704,21 @@
     "key": "button|Next|1b8e58534394#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28577567>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28577567>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|1b8e58534394#1",
     "original": "Next",
     "translation": "",
     "context": "<<POS:28577578>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+  },
+  {
+    "key": "button|Next|35b9a3540cff#12",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:28577616>> addButton(t++,\"Next\",(function(){return Qae(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|35b9a3540cff#12",
@@ -1593,7 +1736,8 @@
     "key": "button|Next|1fecdf882a8e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28582224>> addButton(t++,\"Next\",(function(){return Jae(e)}),\"Next\",\"\")"
+    "context": "<<POS:28582224>> addButton(t++,\"Next\",(function(){return Jae(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|1fecdf882a8e",
@@ -1611,7 +1755,8 @@
     "key": "button|Next|1b7bf54042c3",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28591806>> addButton(t++,\"Next\",(function(){return Xae(e)}),\"Next\",\"\")"
+    "context": "<<POS:28591806>> addButton(t++,\"Next\",(function(){return Xae(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|1b7bf54042c3",
@@ -1629,7 +1774,8 @@
     "key": "button|Next|a3852a848166",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28594454>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];window.pauletteClear(),output(textify(toe||(toe=(0,Ce.Z)([\"\",\"The screen flickers to life again. This time, Past Paulette’s crossing a narrow tunnel. You have a sort of deja vu. Yes, you’..."
+    "context": "<<POS:28594454>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];window.pauletteClear(),output(textify(toe||(toe=(0,Ce.Z)([\"\",\"The screen flickers to life again. This time, Past Paulette’s crossing a narrow tunnel. You have a sort of deja vu. Yes, you’...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a3852a848166",
@@ -1659,13 +1805,21 @@
     "key": "button|Next|e84f32d45ae9",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28612262>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28612262>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|e84f32d45ae9",
     "original": "Next",
     "translation": "",
     "context": "<<POS:28612273>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+  },
+  {
+    "key": "button|Next|35b9a3540cff#13",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:28612298>> addButton(t++,\"Next\",(function(){skipToRoom(getShipRoom()),mainGameMenu(),flags.EGG_END_TS=GetGameTimestamp()}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|35b9a3540cff#13",
@@ -1683,13 +1837,21 @@
     "key": "button|Next|9e94ed943aea",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28614957>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28614957>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|9e94ed943aea",
     "original": "Next",
     "translation": "",
     "context": "<<POS:28614968>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+  },
+  {
+    "key": "button|Next|35b9a3540cff#14",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:28615006>> addButton(t++,\"Next\",(function(){skipToRoom(getShipRoom()),mainGameMenu(),flags.EGG_END_TS=GetGameTimestamp()}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|35b9a3540cff#14",
@@ -1707,13 +1869,21 @@
     "key": "button|Next|db31b373b540",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28618564>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28618564>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|db31b373b540",
     "original": "Next",
     "translation": "",
     "context": "<<POS:28618575>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+  },
+  {
+    "key": "button|Next|35b9a3540cff#15",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:28618613>> addButton(t++,\"Next\",(function(){skipToRoom(getShipRoom()),mainGameMenu(),flags.EGG_END_TS=GetGameTimestamp()}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|35b9a3540cff#15",
@@ -1742,13 +1912,13 @@
   {
     "key": "button|Call_Steele_Tech|3783ec536131#1",
     "original": "Call Steele Tech",
-    "translation": "致电斯蒂尔科技",
+    "translation": "",
     "context": "<<POS:28622930>> addButton(t++,\"Call Steele Tech\",e?voe:Qae,\"Call Steele Tech\",\"Let’s get this over with.\")"
   },
   {
     "key": "button.hover|Call_Steele_Tech|3783ec536131#1",
     "original": "Call Steele Tech",
-    "translation": "致电斯蒂尔科技",
+    "translation": "",
     "context": "<<POS:28622959>> addButton(t++,\"Call Steele Tech\",e?voe:Qae,\"Call Steele Tech\",\"Let’s get this over with.\")"
   },
   {
@@ -1767,7 +1937,8 @@
     "key": "button|Next|94d24a0f4ba5",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28634596>> addButton(0,\"Next\",voe,\"Next\",\"\")"
+    "context": "<<POS:28634596>> addButton(0,\"Next\",voe,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|94d24a0f4ba5",
@@ -1785,7 +1956,8 @@
     "key": "button|Next|87d63d2214ce",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28636538>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:28636538>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "textify|blockHeader|3f40333a6476#1",
@@ -1803,7 +1975,8 @@
     "key": "button|Next|b8d391e53cbc",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28637985>> addButton(0,\"Next\",E.V.beginCombat)"
+    "context": "<<POS:28637985>> addButton(0,\"Next\",E.V.beginCombat)",
+    "stage": 1
   },
   {
     "key": "textify|blockHeader|3f40333a6476#2",
@@ -1832,7 +2005,7 @@
   {
     "key": "button|Leave|389fd8c81862",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:28639062>> addButton(14,\"Leave\",une,\"Leave\",\"Nah.\")"
   },
   {
@@ -1863,7 +2036,8 @@
     "key": "button|Next|87d63d2214ce#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28640598>> addButton(0,\"Next\",hne)"
+    "context": "<<POS:28640598>> addButton(0,\"Next\",hne)",
+    "stage": 1
   },
   {
     "key": "header|Peacekeeper_Results|d70b784da9fa",

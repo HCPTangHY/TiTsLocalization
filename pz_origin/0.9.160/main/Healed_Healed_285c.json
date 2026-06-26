@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|healing_poultice|98c717cbf6a1",
+    "original": "healing poultice",
+    "translation": "",
+    "context": "<<POS:07522916>>"
+  },
+  {
     "key": "assign|a_healing_poultice|4a0216dcec9c",
     "original": "a healing poultice",
     "translation": "",
@@ -34,6 +40,12 @@
     "original": "Using supplements to heal yourself will only work once per fight. No body can handle the metabolic strain of downing multiple regenerative items in such quick succession.",
     "translation": "",
     "context": "<<POS:07524732>>"
+  },
+  {
+    "key": "output.expr|var0_var1_has_already_healed_during_this_fight_Doing_so_a|5d6ba491fb50",
+    "original": "{var0}+{var1}+\" has already healed during this fight! Doing so again would be more than ill-advised!",
+    "translation": "",
+    "context": "<<POS:07524928>> <<VARS:var0=e.capitalA,var1=e.short>> output(e.capitalA+e.short+\" has already healed during this fight! Doing so again would be more than ill-advised!\")"
   },
   {
     "key": "output|You_apply_the_poultice_to_your_body|b4693efa8802",

@@ -1,45 +1,15 @@
 [
   {
-    "key": "output.expr|var0|682b08bd06d1#1",
-    "original": "{var0}",
+    "key": "output|Your_movements_have_slowly_begun_to_feel_sluggish_Like_your|7b1f905e6df4",
+    "original": "Your movements have slowly begun to feel... sluggish. Like your body weighs a little more than it should. You’ve also been craving foods that are high in protein lately, and you’ve been drinking a lot more water than usual recently. \\n\\nYou consider the possibility that maybe you’re just craving foods and you’re more dehydrated than you realize, but you know that, so soon from your coupling with [flurry.name], it’s better to assume that you’re good and pregnant. Still, no need to panic yet; just keep doing what you’re doing. You’ll know for sure in a couple days.",
     "translation": "",
-    "context": "<<POS:02340904>> <<VARS:var0=s>> output(s)"
-  },
-  {
-    "key": "output.expr|var0|682b08bd06d1#2",
-    "original": "{var0}",
-    "translation": "",
-    "context": "<<POS:02347884>> <<VARS:var0=s>> output(s)"
-  },
-  {
-    "key": "assign|tbody|808cddfb0707",
-    "original": "</tbody>",
-    "translation": "",
-    "context": "<<POS:10628791>>"
-  },
-  {
-    "key": "assign|div|40dc4dbb7052",
-    "original": "</div>",
-    "translation": "",
-    "context": "<<POS:10628919>>"
-  },
-  {
-    "key": "assign|table|f1cbb478061a",
-    "original": "</table>",
-    "translation": "",
-    "context": "<<POS:18211129>>"
-  },
-  {
-    "key": "assign|select_span|b33ec75dbc27",
-    "original": "</select></span>",
-    "translation": "",
-    "context": "<<POS:18385255>>"
+    "context": "<<POS:36842581>>"
   },
   {
     "key": "output.expr|Your_stomach_s_a_little_more_bloated_than_usual_these_past_few_d|0698922cc366",
     "original": "Your stomach’s a little more bloated than usual these past few days, and your cravings for certain foods and tons of water haven’t stopped. When you press into your belly, the [pc.skinFurScales] feel a lot tougher and firmer than you believe should be right.\\n\\nNo point in beating around the bush: <b>you’re probably pregnant with the Frostwyrm’s kip.</b> You have no idea what to expect going forward; maybe you should take it a little more cautiously. No doubt a Frostwyrm child is hardier than \"+{var1}.indefiniteArticle(\"frostwyrm\"===pc.raceShort()?\"human\":{var0}.race())+\" baby, but that doesn’t give you an excuse to go wild. You’re eating for two, now.",
     "translation": "",
-    "context": "<<POS:36443706>> <<VARS:var0=pc,var1=Ot.m>> ParseText(\"Your stomach’s a little more bloated than usual these past few days, and your cravings for certain foods and tons of water haven’t stopped. When you press into your belly, the [pc.skinFurScales] feel a lot tougher and firmer than you believe should be right.\\n\\nNo point in beating around the bush: <b>you’re probably pregnant with the Frostwyrm’s kip.</b> You have no idea what to expect going forward; maybe you should take it a little more cautiously. No doubt a Frostwyrm child is hardier than \"+Ot.m.indefiniteArticle(\"frostwyrm\"===pc.raceShort()?\"human\":pc.race())+\" baby, but that doesn’t give you an excuse to go wild. You’re eating for two, now.\")"
+    "context": "<<POS:36843517>> <<VARS:var0=pc,var1=Ot.m>> ParseText(\"Your stomach’s a little more bloated than usual these past few days, and your cravings for certain foods and tons of water haven’t stopped. When you press into your belly, the [pc.skinFurScales] feel a lot tougher and firmer than you believe should be right.\\n\\nNo point in beating around the bush: <b>you’re probably pregnant with the Frostwyrm’s kip.</b> You have no idea what to expect going forward; maybe you should take it a little more cautiously. No doubt a Frostwyrm child is hardier than \"+Ot.m.indefiniteArticle(\"frostwyrm\"===pc.raceShort()?\"human\":pc.race())+\" baby, but that doesn’t give you an excuse to go wild. You’re eating for two, now.\")"
   },
   {
     "key": "output.expr|Lately_you_ve_been_feeling_a_little_different_Not_in_a_bad_w|7c9c940cb12c",
@@ -60,6 +30,18 @@
     "context": "<<POS:36850200>>"
   },
   {
+    "key": "assign|NOT_SET|3975c8b1d3a5",
+    "original": "NOT SET",
+    "translation": "",
+    "context": "<<POS:36850225>>"
+  },
+  {
+    "key": "header|Birthing|850fb246e1d6",
+    "original": "Birthing!",
+    "translation": "",
+    "context": "<<POS:36880608>>"
+  },
+  {
     "key": "output|ERROR_Shalin_Pregnancy_Ends_Status_Effect_does_not_exist|272ff622f4dc",
     "original": "ERROR: 'Shalin Pregnancy Ends' Status Effect does not exist.",
     "translation": "",
@@ -69,7 +51,8 @@
     "key": "button|Next|02a16aa01578",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36880804>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36880804>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output.expr|A_pain_sharp_enough_to_make_you_buckle_at_the_pc_knees_tugs_at|afb6ee9c461f",
@@ -237,7 +220,8 @@
     "key": "button|Next|e41568332858",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36885154>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36885154>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "assign|p_i_Negative_values_mean_the_item_is_over_budget_and_may_be_t|be6d8db347b0",
@@ -268,6 +252,12 @@
     "original": "<option value=\"",
     "translation": "",
     "context": "<<POS:36905287>>"
+  },
+  {
+    "key": "assign|select_span|b33ec75dbc27",
+    "original": "</select></span>",
+    "translation": "",
+    "context": "<<POS:36905432>>"
   },
   {
     "key": "assign|span_class_item_filter_b_From_b_select_id_ItemBudget_Fi|51100b3166d3",
@@ -306,10 +296,28 @@
     "context": "<<POS:36906132>>"
   },
   {
+    "key": "button.expr|var1_toDisplayCase_var0|8a501416aaa0",
+    "original": "{var1}.toDisplayCase({var0})",
+    "translation": "",
+    "context": "<<POS:36906545>> <<VARS:var0=t,var1=Ot.m>> addButton(e,Ot.m.toDisplayCase(t),(function(){function e(e,t){var o=getGameOptions().extraItemStatDetail,a=t[0],n=\"words\",i=Math.round(t[1].budget-t[1].cost);i>10&&(n=\"caution\"),i<-10&&(n=\"bad\");var s=\"\".concat(a.tooltip?\"\".concat(Ot.m.trimText(a.tooltip),'<div class=\"hr alt inline divider\"></div>')..."
+  },
+  {
+    "key": "button.hover.expr|var0_toDisplayCase_inspect_concat_t_items|cf3fd6b72b2c",
+    "original": "{var0}.toDisplayCase(\"inspect \".concat(t,\" items\"))",
+    "translation": "",
+    "context": "<<POS:36908601>> <<VARS:var0=Ot.m>> addButton(e,Ot.m.toDisplayCase(t),(function(){function e(e,t){var o=getGameOptions().extraItemStatDetail,a=t[0],n=\"words\",i=Math.round(t[1].budget-t[1].cost);i>10&&(n=\"caution\"),i<-10&&(n=\"bad\");var s=\"\".concat(a.tooltip?\"\".concat(Ot.m.trimText(a.tooltip),'<div class=\"hr alt inline divider\"></div>')..."
+  },
+  {
     "key": "button.tooltip|View_the_list_of|5d13da041456",
     "original": "View the list of ",
     "translation": "",
     "context": "<<POS:36908652>> addButton(e,Ot.m.toDisplayCase(t),(function(){function e(e,t){var o=getGameOptions().extraItemStatDetail,a=t[0],n=\"words\",i=Math.round(t[1].budget-t[1].cost);i>10&&(n=\"caution\"),i<-10&&(n=\"bad\");var s=\"\".concat(a.tooltip?\"\".concat(Ot.m.trimText(a.tooltip),'<div class=\"hr alt inline divider\"></div>')..."
+  },
+  {
+    "key": "button.expr|var1_toDisplayCase_var0|062845bd447c",
+    "original": "{var1}.toDisplayCase({var0})",
+    "translation": "",
+    "context": "<<POS:36908712>> <<VARS:var0=t,var1=Ot.m>> addDisabledButton(e,Ot.m.toDisplayCase(t),Ot.m.toDisplayCase(\"inspect \".concat(t,\" items\")),\"There are no \".concat(t,\" items to view.\"))"
   },
   {
     "key": "button.hover|There_are_no|abf08015ccc9",
@@ -321,13 +329,32 @@
     "key": "button|Back|a225885a6aa6",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:36908896>> addButton(14,\"Back\",mainGameMenu)"
+    "context": "<<POS:36908896>> addButton(14,\"Back\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output.expr|var0|47fa7bde0a8a",
     "original": "{var0}",
     "translation": "",
     "context": "<<POS:36909323>> <<VARS:var0=e[0].longName>> ParseText(e[0].longName)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:36909362>> <<VARS:var0=t[0].longName>> ParseText(t[0].longName)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:36909407>> <<VARS:var0=t[0].longName>> ParseText(t[0].longName)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1#2",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:36909446>> <<VARS:var0=e[0].longName>> ParseText(e[0].longName)"
   },
   {
     "key": "assign|select_span|bf1a17d40ad1",
@@ -444,6 +471,30 @@
     "context": "<<POS:36912068>>"
   },
   {
+    "key": "assign|tbody|808cddfb0707",
+    "original": "</tbody>",
+    "translation": "",
+    "context": "<<POS:36912082>>"
+  },
+  {
+    "key": "assign|table|f1cbb478061a",
+    "original": "</table>",
+    "translation": "",
+    "context": "<<POS:36912096>>"
+  },
+  {
+    "key": "assign|div|40dc4dbb7052",
+    "original": "</div>",
+    "translation": "",
+    "context": "<<POS:36912113>>"
+  },
+  {
+    "key": "output.expr|var0|d6ebf181e930",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:36912128>> <<VARS:var0=h>> output(h)"
+  },
+  {
     "key": "assign|option_value|1220694212c5",
     "original": "<option value=\"",
     "translation": "",
@@ -465,7 +516,8 @@
     "key": "button|Next|f64a645b3c13",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36913124>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36913124>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_ve_been_feeling_ready_to_pop_for_days_now_so_when_the_clenc|4de9627fbf6f",
@@ -537,7 +589,8 @@
     "key": "button|Next|7ef3d7edecb2",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36916946>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36916946>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "assign|Loaded|ece09aa851b7",

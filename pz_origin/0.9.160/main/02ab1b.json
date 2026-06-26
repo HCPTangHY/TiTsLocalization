@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|Scales_of_Color|50d5717d1365",
+    "original": "Scales of Color",
+    "translation": "",
+    "context": "<<POS:09447426>>"
+  },
+  {
     "key": "assign|Scales_of_Color|f998cc053154",
     "original": "Scales of Color",
     "translation": "",
@@ -21,13 +27,15 @@
     "key": "output|You_pull_the_injector_out_but_remember_that_you_need_to_have_sca|758f1957903b",
     "original": "You pull the injector out but remember that you need to have scales in order use it!",
     "translation": "你拔出注射器，却想起自己得有鳞片才能用这玩意儿！",
-    "context": "<<POS:09448388>>"
+    "context": "<<POS:09448388>>",
+    "stage": 1
   },
   {
     "key": "button|Next|b5276b0b0884",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:09448504>> addButton(0,\"Next\",(function(){return t.rbgCancel(e,t)}))"
+    "context": "<<POS:09448504>> addButton(0,\"Next\",(function(){return t.rbgCancel(e,t)}))",
+    "stage": 1
   },
   {
     "key": "output.expr|var0_var1_uses_the_scales_of_color_to_no_effect|0e388c02731b",
@@ -39,73 +47,259 @@
     "key": "name.show|Scales_of_Color|91cf54aefac7",
     "original": "Scales of Color",
     "translation": "五彩斑鳞",
-    "context": "<<POS:09448843>> showName(\"Scales of Color\")"
+    "context": "<<POS:09448843>> showName(\"Scales of Color\")",
+    "stage": 1
   },
   {
     "key": "output|A_quick_look_at_the_injector_reveals_the_tap_to_link_emblem_Gra|f61f049bcfb5",
     "original": "A quick look at the injector reveals the tap-to-link emblem. Grabbing your codex and tapping the injector to it, the typical permission-to-link pop up [silly|pops up|appears]. A quick tap later and the interface appears. \\n\\n\\t“Scales of color can only do one of the following per dose: change color of scales/chitin, alter, remove, or create body patterns/markings.” is printed in bold at the top of the program. There are two buttons below it, one for changing your scale/chitin color[pc.hasPartScales any||[pc.hasPartChitin any|| (which you won’t be using)]], and one for altering your body patterns/markings.",
     "translation": "你快速扫一眼注射器，便看到了轻触连接的标志。你取出智典，将注射器搭在上面，一个标准的权限连接弹窗随即浮现[silly|pops up|appears]。轻点确认后，界面便展现在眼前。\\n\\n\\t程序顶部用粗体印着：“五彩斑鳞每剂仅可实现以下功能之一：改变鳞片/甲壳颜色，或改变、移除、创造身体纹样/斑纹。”下方有两个按钮，一个用于改变鳞片/甲壳颜色[pc.hasPartScales any||[pc.hasPartChitin any||（这个你用不上）]]，另一个用于改变身体图案/斑纹。",
-    "context": "<<POS:09448871>>"
+    "context": "<<POS:09448871>>",
+    "stage": 1
   },
   {
     "key": "output|Recoloring_concat_compressToList_a_please_pick_your_color|b2cff5b5b9ed",
     "original": "“Recoloring \".concat(compressToList(a),\", please pick your color” is shown at the top of the page.</b>. \")",
     "translation": "页面顶部显示“正在重新着色\".concat(compressToList(a),\"，请选择想要的颜色”。</b>\")",
-    "context": "<<POS:09449582>>"
+    "context": "<<POS:09449582>>",
+    "stage": 1
   },
   {
     "key": "button|Terran|c40905bb4a46",
     "original": "“Terran”",
     "translation": "“泰拉”",
-    "context": "<<POS:09449908>> addButton(0,\"“Terran”\",(function(){return window.rbgSelColor(e,\"terran\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"“Terran” Colors\",\"Choose from the human terran color scheme.\")"
+    "context": "<<POS:09449908>> addButton(0,\"“Terran”\",(function(){return window.rbgSelColor(e,\"terran\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"“Terran” Colors\",\"Choose from the human terran color scheme.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Terran_Colors|3496c3ff6654",
     "original": "“Terran” Colors",
     "translation": "“泰拉”配色",
-    "context": "<<POS:09450027>> addButton(0,\"“Terran”\",(function(){return window.rbgSelColor(e,\"terran\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"“Terran” Colors\",\"Choose from the human terran color scheme.\")"
+    "context": "<<POS:09450027>> addButton(0,\"“Terran”\",(function(){return window.rbgSelColor(e,\"terran\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"“Terran” Colors\",\"Choose from the human terran color scheme.\")",
+    "stage": 1
   },
   {
     "key": "button.tooltip|Choose_from_the_human_terran_color_scheme|cbad928a5f35",
     "original": "Choose from the human terran color scheme.",
     "translation": "从人类泰拉配色方案中选择。",
-    "context": "<<POS:09450045>> addButton(0,\"“Terran”\",(function(){return window.rbgSelColor(e,\"terran\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"“Terran” Colors\",\"Choose from the human terran color scheme.\")"
+    "context": "<<POS:09450045>> addButton(0,\"“Terran”\",(function(){return window.rbgSelColor(e,\"terran\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"“Terran” Colors\",\"Choose from the human terran color scheme.\")",
+    "stage": 1
+  },
+  {
+    "key": "button|Unusual|fe129d7dadbe",
+    "original": "Unusual",
+    "translation": "非常规",
+    "context": "<<POS:09450103>> addButton(1,\"Unusual\",(function(){return window.rbgSelColor(e,\"rainbow\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Unusual Colors\",\"Choose from the unusual color library.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Unusual_Colors|bca941b45441",
+    "original": "Unusual Colors",
+    "translation": "非常规颜色",
+    "context": "<<POS:09450222>> addButton(1,\"Unusual\",(function(){return window.rbgSelColor(e,\"rainbow\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Unusual Colors\",\"Choose from the unusual color library.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.tooltip|Choose_from_the_unusual_color_library|38ad22e98ce2",
+    "original": "Choose from the unusual color library.",
+    "translation": "从非常规色彩库中选择。",
+    "context": "<<POS:09450239>> addButton(1,\"Unusual\",(function(){return window.rbgSelColor(e,\"rainbow\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Unusual Colors\",\"Choose from the unusual color library.\")",
+    "stage": 1
+  },
+  {
+    "key": "button|Metallic|f19b33ad2d04",
+    "original": "Metallic",
+    "translation": "金属",
+    "context": "<<POS:09450293>> addButton(2,\"Metallic\",(function(){return window.rbgSelColor(e,\"metallic\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Metallic Colors\",\"Choose from the metallic color library.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Metallic_Colors|347a3d6db2aa",
+    "original": "Metallic Colors",
+    "translation": "金属色",
+    "context": "<<POS:09450414>> addButton(2,\"Metallic\",(function(){return window.rbgSelColor(e,\"metallic\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Metallic Colors\",\"Choose from the metallic color library.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.tooltip|Choose_from_the_metallic_color_library|dc668ea1e1bd",
+    "original": "Choose from the metallic color library.",
+    "translation": "从金属色库中选择。",
+    "context": "<<POS:09450432>> addButton(2,\"Metallic\",(function(){return window.rbgSelColor(e,\"metallic\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Metallic Colors\",\"Choose from the metallic color library.\")",
+    "stage": 1
+  },
+  {
+    "key": "button|Glowing|613fdd99efbe",
+    "original": "Glowing",
+    "translation": "发光",
+    "context": "<<POS:09450487>> addButton(3,\"Glowing\",(function(){return window.rbgSelColor(e,\"glowing\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Glowing Colors\",\"Choose from the glowing color library.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Glowing_Colors|57e0b147279a",
+    "original": "Glowing Colors",
+    "translation": "发光颜色",
+    "context": "<<POS:09450606>> addButton(3,\"Glowing\",(function(){return window.rbgSelColor(e,\"glowing\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Glowing Colors\",\"Choose from the glowing color library.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.tooltip|Choose_from_the_glowing_color_library|a2b9c8d5f8ad",
+    "original": "Choose from the glowing color library.",
+    "translation": "从发光颜色库中选择。",
+    "context": "<<POS:09450623>> addButton(3,\"Glowing\",(function(){return window.rbgSelColor(e,\"glowing\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Glowing Colors\",\"Choose from the glowing color library.\")",
+    "stage": 1
   },
   {
     "key": "button|Gem|4205f1833e5c",
     "original": "Gem",
     "translation": "宝石",
-    "context": "<<POS:09450677>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Gem Colors\",\"Choose from the gem color library.\")"
+    "context": "<<POS:09450677>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Gem Colors\",\"Choose from the gem color library.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Gem_Colors|9aca03191d1b",
     "original": "Gem Colors",
     "translation": "宝石颜色",
-    "context": "<<POS:09450793>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Gem Colors\",\"Choose from the gem color library.\")"
+    "context": "<<POS:09450793>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Gem Colors\",\"Choose from the gem color library.\")",
+    "stage": 1
   },
   {
     "key": "button.tooltip|Choose_from_the_gem_color_library|d72e9b7eadf9",
     "original": "Choose from the gem color library.",
     "translation": "从宝石颜色库中选择。",
-    "context": "<<POS:09450806>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Gem Colors\",\"Choose from the gem color library.\")"
+    "context": "<<POS:09450806>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Gem Colors\",\"Choose from the gem color library.\")",
+    "stage": 1
   },
   {
     "key": "button|Markings|423183290c43",
     "original": "Markings",
     "translation": "纹样",
-    "context": "<<POS:09450856>> addButton(6,\"Markings\",(function(){return t.getMarkings(e,t)}),\"Markings\",\"Add or remove markings on your body.\")"
+    "context": "<<POS:09450856>> addButton(6,\"Markings\",(function(){return t.getMarkings(e,t)}),\"Markings\",\"Add or remove markings on your body.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Markings|423183290c43",
     "original": "Markings",
     "translation": "纹样",
-    "context": "<<POS:09450907>> addButton(6,\"Markings\",(function(){return t.getMarkings(e,t)}),\"Markings\",\"Add or remove markings on your body.\")"
+    "context": "<<POS:09450907>> addButton(6,\"Markings\",(function(){return t.getMarkings(e,t)}),\"Markings\",\"Add or remove markings on your body.\")",
+    "stage": 1
   },
   {
     "key": "button.tooltip|Add_or_remove_markings_on_your_body|6a1b4da1134f",
     "original": "Add or remove markings on your body.",
     "translation": "添加或移除你身上的纹样。",
-    "context": "<<POS:09450918>> addButton(6,\"Markings\",(function(){return t.getMarkings(e,t)}),\"Markings\",\"Add or remove markings on your body.\")"
+    "context": "<<POS:09450918>> addButton(6,\"Markings\",(function(){return t.getMarkings(e,t)}),\"Markings\",\"Add or remove markings on your body.\")",
+    "stage": 1
+  },
+  {
+    "key": "button|Back|4d0f53d4624b",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:09450971>> addButton(14,\"Back\",(function(){return t.rbgCancel(e,t)}))",
+    "stage": 1
+  },
+  {
+    "key": "header|Select_Pattern|ab2dd6337d2f",
+    "original": "Select Pattern",
+    "translation": "",
+    "context": "<<POS:09451091>>"
+  },
+  {
+    "key": "output|What_body_pattern_would_you_like|eb7461eca03a",
+    "original": "What body pattern would you like?",
+    "translation": "",
+    "context": "<<POS:09451174>>"
+  },
+  {
+    "key": "button.expr|var0|f086092b3f7e",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:09451381>> <<VARS:var0=s>> addButton(a++,s,(function(){return t.getMarkingColor(e,n,t)}),s,(o?\"Change your markings to\":\"Give yourself\")+\" \".concat(i,\".\"))"
+  },
+  {
+    "key": "button.hover.expr|var0|f086092b3f7e",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:09451429>> <<VARS:var0=s>> addButton(a++,s,(function(){return t.getMarkingColor(e,n,t)}),s,(o?\"Change your markings to\":\"Give yourself\")+\" \".concat(i,\".\"))"
+  },
+  {
+    "key": "button.tooltip.expr|var0_Change_your_markings_to_Give_yourself_concat_i|cd2e413ba3b4",
+    "original": "({var0}?\"Change your markings to\":\"Give yourself\")+\" \".concat(i,\".\")",
+    "translation": "",
+    "context": "<<POS:09451431>> <<VARS:var0=o>> addButton(a++,s,(function(){return t.getMarkingColor(e,n,t)}),s,(o?\"Change your markings to\":\"Give yourself\")+\" \".concat(i,\".\"))"
+  },
+  {
+    "key": "button|Recolor|1496da747534",
+    "original": "Recolor",
+    "translation": "",
+    "context": "<<POS:09451558>> addButton(12,\"Recolor\",(function(){return t.getMarkingColor(e,-2,t)}),\"Recolor\",\"Recolor your \"+e.accentMarkingsDescript()+\".\")"
+  },
+  {
+    "key": "button.hover|Recolor|1496da747534",
+    "original": "Recolor",
+    "translation": "",
+    "context": "<<POS:09451615>> addButton(12,\"Recolor\",(function(){return t.getMarkingColor(e,-2,t)}),\"Recolor\",\"Recolor your \"+e.accentMarkingsDescript()+\".\")"
+  },
+  {
+    "key": "button.tooltip|Recolor_your|f856be4af4e4",
+    "original": "Recolor your ",
+    "translation": "",
+    "context": "<<POS:09451625>> addButton(12,\"Recolor\",(function(){return t.getMarkingColor(e,-2,t)}),\"Recolor\",\"Recolor your \"+e.accentMarkingsDescript()+\".\")"
+  },
+  {
+    "key": "button|Recolor|27ae0092fc46",
+    "original": "Recolor",
+    "translation": "染色",
+    "context": "<<POS:09451694>> addDisabledButton(12,\"Recolor\",\"Recolor\",\"You don’t have any body markings to recolor.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|You_don_t_have_any_body_markings_to_recolor|7258ef75dac7",
+    "original": "You don’t have any body markings to recolor.",
+    "translation": "你身上没有可以改色的身体纹样。",
+    "context": "<<POS:09451714>> addDisabledButton(12,\"Recolor\",\"Recolor\",\"You don’t have any body markings to recolor.\")",
+    "stage": 1
+  },
+  {
+    "key": "button|Remove|a1ce2f00efd4",
+    "original": "Remove",
+    "translation": "移除",
+    "context": "<<POS:09451777>> addButton(13,\"Remove\",(function(){return t.markingColor(e,\"\",\"\",-1,t)}),\"Remove\",\"Remove your \"+e.accentMarkingsDescript()+\".\")",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Remove|a1ce2f00efd4",
+    "original": "Remove",
+    "translation": "移除",
+    "context": "<<POS:09451836>> addButton(13,\"Remove\",(function(){return t.markingColor(e,\"\",\"\",-1,t)}),\"Remove\",\"Remove your \"+e.accentMarkingsDescript()+\".\")",
+    "stage": 1
+  },
+  {
+    "key": "button.tooltip|Remove_your|e3758d90cd9c",
+    "original": "Remove your ",
+    "translation": "移除你的",
+    "context": "<<POS:09451845>> addButton(13,\"Remove\",(function(){return t.markingColor(e,\"\",\"\",-1,t)}),\"Remove\",\"Remove your \"+e.accentMarkingsDescript()+\".\")",
+    "stage": 1
+  },
+  {
+    "key": "button|Remove|f1dacf340eb2",
+    "original": "Remove",
+    "translation": "移除",
+    "context": "<<POS:09451913>> addDisabledButton(13,\"Remove\",\"Remove\",\"You don’t have any body markings to remove.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|You_don_t_have_any_body_markings_to_remove|757a30d8f50c",
+    "original": "You don’t have any body markings to remove.",
+    "translation": "你身上没有可以去除的身体纹样。",
+    "context": "<<POS:09451931>> addDisabledButton(13,\"Remove\",\"Remove\",\"You don’t have any body markings to remove.\")",
+    "stage": 1
+  },
+  {
+    "key": "button|Back|bf8b8fd781e5",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:09451991>> addButton(14,\"Back\",(function(){return t.backMenu(e,t)}))",
+    "stage": 1
   },
   {
     "key": "header.expr|var0_Recolor_Pattern_var3_toDisplayCase_var2_getAccentMa|aba84fa12970",
@@ -120,40 +314,137 @@
     "context": "<<POS:09452196>>"
   },
   {
+    "key": "button|Terran|ddc4f9419822",
+    "original": "“Terran”",
+    "translation": "“泰拉”",
+    "context": "<<POS:09452248>> addButton(0,\"“Terran”\",(function(){return window.rbgSelColor(e,\"terran\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"“Terran” Colors\",\"Choose from the human terran color scheme.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Terran_Colors|b5eea8e04370",
+    "original": "“Terran” Colors",
+    "translation": "“泰拉”配色",
+    "context": "<<POS:09452360>> addButton(0,\"“Terran”\",(function(){return window.rbgSelColor(e,\"terran\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"“Terran” Colors\",\"Choose from the human terran color scheme.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.tooltip|Choose_from_the_human_terran_color_scheme|ecc50b6afe05",
+    "original": "Choose from the human terran color scheme.",
+    "translation": "从人类泰拉配色方案中选择。",
+    "context": "<<POS:09452378>> addButton(0,\"“Terran”\",(function(){return window.rbgSelColor(e,\"terran\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"“Terran” Colors\",\"Choose from the human terran color scheme.\")",
+    "stage": 1
+  },
+  {
+    "key": "button|Unusual|fe129d7dadbe#1",
+    "original": "Unusual",
+    "translation": "非常规",
+    "context": "<<POS:09452436>> addButton(1,\"Unusual\",(function(){return window.rbgSelColor(e,\"rainbow\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Unusual Colors\",\"Choose from the unusual color library.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Unusual_Colors|bca941b45441#1",
+    "original": "Unusual Colors",
+    "translation": "非常规颜色",
+    "context": "<<POS:09452548>> addButton(1,\"Unusual\",(function(){return window.rbgSelColor(e,\"rainbow\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Unusual Colors\",\"Choose from the unusual color library.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.tooltip|Choose_from_the_unusual_color_library|38ad22e98ce2#1",
+    "original": "Choose from the unusual color library.",
+    "translation": "从非常规色彩库中选择。",
+    "context": "<<POS:09452565>> addButton(1,\"Unusual\",(function(){return window.rbgSelColor(e,\"rainbow\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Unusual Colors\",\"Choose from the unusual color library.\")",
+    "stage": 1
+  },
+  {
+    "key": "button|Metallic|f19b33ad2d04#1",
+    "original": "Metallic",
+    "translation": "金属",
+    "context": "<<POS:09452619>> addButton(2,\"Metallic\",(function(){return window.rbgSelColor(e,\"metallic\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Metallic Colors\",\"Choose from the metallic color library.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Metallic_Colors|347a3d6db2aa#1",
+    "original": "Metallic Colors",
+    "translation": "金属色",
+    "context": "<<POS:09452733>> addButton(2,\"Metallic\",(function(){return window.rbgSelColor(e,\"metallic\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Metallic Colors\",\"Choose from the metallic color library.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.tooltip|Choose_from_the_metallic_color_library|dc668ea1e1bd#1",
+    "original": "Choose from the metallic color library.",
+    "translation": "从金属色库中选择。",
+    "context": "<<POS:09452751>> addButton(2,\"Metallic\",(function(){return window.rbgSelColor(e,\"metallic\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Metallic Colors\",\"Choose from the metallic color library.\")",
+    "stage": 1
+  },
+  {
+    "key": "button|Glowing|613fdd99efbe#1",
+    "original": "Glowing",
+    "translation": "发光",
+    "context": "<<POS:09452806>> addButton(3,\"Glowing\",(function(){return window.rbgSelColor(e,\"glowing\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Glowing Colors\",\"Choose from the glowing color library.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Glowing_Colors|57e0b147279a#1",
+    "original": "Glowing Colors",
+    "translation": "发光颜色",
+    "context": "<<POS:09452918>> addButton(3,\"Glowing\",(function(){return window.rbgSelColor(e,\"glowing\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Glowing Colors\",\"Choose from the glowing color library.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.tooltip|Choose_from_the_glowing_color_library|a2b9c8d5f8ad#1",
+    "original": "Choose from the glowing color library.",
+    "translation": "从发光颜色库中选择。",
+    "context": "<<POS:09452935>> addButton(3,\"Glowing\",(function(){return window.rbgSelColor(e,\"glowing\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Glowing Colors\",\"Choose from the glowing color library.\")",
+    "stage": 1
+  },
+  {
     "key": "button|Gem|4205f1833e5c#1",
     "original": "Gem",
     "translation": "宝石",
-    "context": "<<POS:09452989>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Gem Colors\",\"Choose from the gem color library.\")"
+    "context": "<<POS:09452989>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Gem Colors\",\"Choose from the gem color library.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Gem_Colors|9aca03191d1b#1",
     "original": "Gem Colors",
     "translation": "宝石颜色",
-    "context": "<<POS:09453098>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Gem Colors\",\"Choose from the gem color library.\")"
+    "context": "<<POS:09453098>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Gem Colors\",\"Choose from the gem color library.\")",
+    "stage": 1
   },
   {
     "key": "button.tooltip|Choose_from_the_gem_color_library|d72e9b7eadf9#1",
     "original": "Choose from the gem color library.",
     "translation": "从宝石颜色库中选择。",
-    "context": "<<POS:09453111>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Gem Colors\",\"Choose from the gem color library.\")"
+    "context": "<<POS:09453111>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Gem Colors\",\"Choose from the gem color library.\")",
+    "stage": 1
   },
   {
     "key": "button|Back|331830972eb9",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:09453162>> addButton(14,\"Back\",(function(){return o.getMarkings(e,o)}))"
+    "context": "<<POS:09453162>> addButton(14,\"Back\",(function(){return o.getMarkings(e,o)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Scales_of_Color|04a09f72f714",
     "original": "Scales of Color",
     "translation": "五彩斑鳞",
-    "context": "<<POS:09453285>> showName(\"Scales of Color\")"
+    "context": "<<POS:09453285>> showName(\"Scales of Color\")",
+    "stage": 1
   },
   {
     "key": "output|You_put_the_injector_back_into_your_inventory|db0e8a6d5cc0",
     "original": "You put the injector back into your inventory.",
     "translation": "你把注射器放回物品栏。",
-    "context": "<<POS:09453311>>"
+    "context": "<<POS:09453311>>",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|dc8a48569dc7",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:09453406>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))",
+    "stage": 1
   },
   {
     "key": "header|New_Scale_Color|a496cef72e75",
@@ -171,13 +462,15 @@
     "key": "output|your_pc_scaleColor_concat_s_along_its_path_turning_conc|d6cf7de2655f",
     "original": "your [pc.scaleColor] \".concat(s,\" along its path turning \").concat(o,\". The tingling quickly runs through your body before fading from the [pc.isNaga|end of your [pc.lowerBody]|[pc.hasTailFlags long|tip[pc.hasTails|s] of your [pc.tails]|[pc.hasToes|tips of your [pc.toes]|bottom of your [pc.feet]]]].\\n\\nA quick lookover confirms that your <b>\").concat(s,\" \").concat(1===i.length&&i.includes(\"chitin\")?\"has\":\"have\",\" changed to \").concat(o,\"</b>. \")",
     "translation": "你的[pc.scaleColor]\".concat(s,\"沿着它的路径变成了\").concat(o,\"。一阵刺痛迅速窜过你的身体，最后在[pc.isNaga|你的[pc.lowerBody]末端|[pc.hasTailFlags long|你的[pc.tails]尖[pc.hasTails|端|]|[pc.hasToes|你的[pc.toes]尖|你的[pc.feet]底]]]消散。\\n\\n你迅速扫了一眼，确认你的<b>\").concat(s,\"​\").concat(\"都变成了\",\"​\").concat(o,\"</b>。\")",
-    "context": "<<POS:09454164>>"
+    "context": "<<POS:09454164>>",
+    "stage": 1
   },
   {
     "key": "output|nothing_Waiting_for_another_minute_with_nothing_happening_lead|477681d7de0a",
     "original": "nothing. Waiting for another minute with nothing happening, leads you to a single conclusion: <b>Something must be preventing you from changing your [pc.hasPartScales any|scale][pc.hasPartChitin any|[pc.hasPartScales any| and ]chitin] color.</b>",
     "translation": "就没有别的感觉了。你又等了一分钟还是毫无动静，只能得出一个结论：<b>一定有什么东西，在阻止你改变[pc.hasPartScales any|鳞片][pc.hasPartChitin any|[pc.hasPartScales any|和]甲壳]的颜色。</b>",
-    "context": "<<POS:09454779>>"
+    "context": "<<POS:09454779>>",
+    "stage": 1
   },
   {
     "key": "header|Body_Markings|fcda42a75291",
@@ -202,5 +495,30 @@
     "original": "Recolor Markings",
     "translation": "",
     "context": "<<POS:09455683>>"
+  },
+  {
+    "key": "output.expr|You_adjust_the_selector_to_recolor_your_body_markings_to_var0|0b5e44d93b66",
+    "original": "You adjust the selector to recolor your body markings to \"+{var0}+\" and press the medipen to your sternum. There’s a quiet hiss from the device, followed by a tingling sensation that spreads from the injection site over your whole body. When the tingling finally ends you pull out your codex to check your reflection, finding that <b>the [pc.skinAccent] of your [pc.accentMarkingsNoun] has changed to \"+{var1}+\".</b>",
+    "translation": "",
+    "context": "<<POS:09455711>> <<VARS:var0=o,var1=o>> output(\"You adjust the selector to recolor your body markings to \"+o+\" and press the medipen to your sternum. There’s a quiet hiss from the device, followed by a tingling sensation that spreads from the injection site over your whole body. When the tingling finally ends you pull out your codex to check your reflection, finding that <b>the [pc.skinAccent] of your [pc.accentMarkingsNoun] has changed to \"+o+\".</b>\")"
+  },
+  {
+    "key": "header|Remove_Markings|b2fce7fe88ed",
+    "original": "Remove Markings",
+    "translation": "",
+    "context": "<<POS:09456157>>"
+  },
+  {
+    "key": "output|You_adjust_the_selector_to_remove_your_body_markings_and_press_t|8e4d75a0d3b4",
+    "original": "You adjust the selector to remove your body markings and press the medipen to your sternum. There’s a quiet hiss from the device, followed by a tingling sensation that spreads from the injection site over your whole body. When the tingling finally ends you pull out your codex to check your reflection, finding that <b>your body no longer has [pc.accentMarkings].</b>",
+    "translation": "",
+    "context": "<<POS:09456184>>"
+  },
+  {
+    "key": "button|Next|a5102bf388b0",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:09456652>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   }
 ]

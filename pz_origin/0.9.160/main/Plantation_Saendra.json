@@ -1,5 +1,23 @@
 [
   {
+    "key": "button|Plantation|85969cef68fc",
+    "original": "Plantation",
+    "translation": "",
+    "context": "<<POS:04892313>> addButton(0,\"Plantation\",(function(){return o(0)}),\"Snugglé Plantation\",\"Helping a megacorp isn’t necessarily a good thing, but stopping an anarchist and giving the natives a chance at diplomacy are.\")"
+  },
+  {
+    "key": "button.hover|Snuggl_Plantation|e96173603881",
+    "original": "Snugglé Plantation",
+    "translation": "",
+    "context": "<<POS:04892352>> addButton(0,\"Plantation\",(function(){return o(0)}),\"Snugglé Plantation\",\"Helping a megacorp isn’t necessarily a good thing, but stopping an anarchist and giving the natives a chance at diplomacy are.\")"
+  },
+  {
+    "key": "button.tooltip|Helping_a_megacorp_isn_t_necessarily_a_good_thing_but_stopping|d042effab08a",
+    "original": "Helping a megacorp isn’t necessarily a good thing, but stopping an anarchist and giving the natives a chance at diplomacy are.",
+    "translation": "",
+    "context": "<<POS:04892373>> addButton(0,\"Plantation\",(function(){return o(0)}),\"Snugglé Plantation\",\"Helping a megacorp isn’t necessarily a good thing, but stopping an anarchist and giving the natives a chance at diplomacy are.\")"
+  },
+  {
     "key": "button.hover|To_answer_with_this_you_must_resolve_a_situation_on_Mhen_ga_bet|bc67f7e5aced",
     "original": "To answer with this, you must resolve a situation on Mhen’ga between a tribe and a megacorp as peacefully and diplomatically as possible.",
     "translation": "",
@@ -758,7 +776,7 @@
   {
     "key": "output|i|96b5b06d0b58",
     "original": "”</i>",
-    "translation": "”</i>",
+    "translation": "",
     "context": "<<POS:04917113>>"
   },
   {
@@ -1035,7 +1053,8 @@
     "key": "button|Next|5a6146c4f494",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:04928986>> addButton(0,\"Next\",(function(){return i()}))"
+    "context": "<<POS:04928986>> addButton(0,\"Next\",(function(){return i()}))",
+    "stage": 1
   },
   {
     "key": "output|Based_on_what_Bianca_s_hinted_at_in_past_conversations_she_s_ha|2e6f07d26255",
@@ -1113,7 +1132,8 @@
     "key": "button|Next|305f009d5b88",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:04932815>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];function o(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearMenu(),clearOutput(),showBianca(e?\"WORK\":\"CASUAL\"),author(\"William\"),processTime(18+rand(10)),output(\"One of ..."
+    "context": "<<POS:04932815>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];function o(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearMenu(),clearOutput(),showBianca(e?\"WORK\":\"CASUAL\"),author(\"William\"),processTime(18+rand(10)),output(\"One of ...",
+    "stage": 1
   },
   {
     "key": "output|i_When_I_began_working_for_the_U_G_C_I_was_stationed_aboard|b6a934414acd",
@@ -1509,7 +1529,8 @@
     "key": "button|Next|2e1f185e0d1b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:04964311>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearMenu(),clearOutput(),showBianca(e?\"WORK\":\"CASUAL\"),author(\"William\"),processTime(18+rand(10)),output(\"Bianca pulls up her black and silver codex. A few quick taps later, she shows you ..."
+    "context": "<<POS:04964311>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearMenu(),clearOutput(),showBianca(e?\"WORK\":\"CASUAL\"),author(\"William\"),processTime(18+rand(10)),output(\"Bianca pulls up her black and silver codex. A few quick taps later, she shows you ...",
+    "stage": 1
   },
   {
     "key": "header|Continue|534413c88a87",
@@ -1527,7 +1548,8 @@
     "key": "button|Continue|b4704578a541",
     "original": "Continue",
     "translation": "继续",
-    "context": "<<POS:04970346>> addButton(0,\"Continue\",a)"
+    "context": "<<POS:04970346>> addButton(0,\"Continue\",a)",
+    "stage": 1
   },
   {
     "key": "button|End|ac906ee40e1f",
@@ -1671,7 +1693,8 @@
     "key": "button|Next|26c1d12580ed",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:04997073>> addButton(0,\"Next\",(function(){clearOutput(),author(\"Adjatha\"),1===flags.NUNFUCK_PAUSED?(clearBust(),window.clearName(),output(blockHeader(\"Captured!\")),output(\"Red and blue lights flash through the windows of the convent, telling you that your task is complete. You step lightly out of the front of ..."
+    "context": "<<POS:04997073>> addButton(0,\"Next\",(function(){clearOutput(),author(\"Adjatha\"),1===flags.NUNFUCK_PAUSED?(clearBust(),window.clearName(),output(blockHeader(\"Captured!\")),output(\"Red and blue lights flash through the windows of the convent, telling you that your task is complete. You step lightly out of the front of ...",
+    "stage": 1
   },
   {
     "key": "header|The_Convent|6a8a2628a6d3",
@@ -1803,7 +1826,8 @@
     "key": "button|Continue|4d12ecdc4de7",
     "original": "Continue",
     "translation": "继续",
-    "context": "<<POS:05042915>> addButton(0,\"Continue\",a)"
+    "context": "<<POS:05042915>> addButton(0,\"Continue\",a)",
+    "stage": 1
   },
   {
     "key": "button|Reset|2757131efe02",
@@ -1905,7 +1929,8 @@
     "key": "button|Next|2c60415215b6",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05046144>> addButton(0,\"Next\",(function(){function t(){var t=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearOutput(),e(),author(\"B\"),t?(output(\"You do as you’re commanded, and you slip to one knee, and then the other, placing yourself at the mercy of Lorelei. From that position, you place your ha..."
+    "context": "<<POS:05046144>> addButton(0,\"Next\",(function(){function t(){var t=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearOutput(),e(),author(\"B\"),t?(output(\"You do as you’re commanded, and you slip to one knee, and then the other, placing yourself at the mercy of Lorelei. From that position, you place your ha...",
+    "stage": 1
   },
   {
     "key": "output|When_you_enter_Lorelei_s_room_you_notice_that_there_s_something|9f294d9ed1d5",
@@ -2001,7 +2026,8 @@
     "key": "button|Next|aefcc80eabc7",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05141221>> addButton(0,\"Next\",t)"
+    "context": "<<POS:05141221>> addButton(0,\"Next\",t)",
+    "stage": 1
   },
   {
     "key": "output|You_ask_Lorelei_if_she_happens_to_know_if_one_of_her_alter_egos|18c0ff99ecc2",
@@ -2055,7 +2081,8 @@
     "key": "button|Next|0a9f96c1380c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05143380>> addButton(0,\"Next\",t)"
+    "context": "<<POS:05143380>> addButton(0,\"Next\",t)",
+    "stage": 1
   },
   {
     "key": "name.show|Lorelei|eb61e476e485",
@@ -2973,7 +3000,8 @@
     "key": "button|Next|d0370b072ce9",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05183512>> addButton(0,\"Next\",r)"
+    "context": "<<POS:05183512>> addButton(0,\"Next\",r)",
+    "stage": 1
   },
   {
     "key": "output.expr|The_booths_are_both_a_bit_wider_than_you_had_expected_you_imagi|ead1dd19f66b",
@@ -3296,7 +3324,7 @@
   {
     "key": "button|Frot|d64a889fba97",
     "original": "Frot",
-    "translation": "摩擦",
+    "translation": "",
     "context": "<<POS:05194526>> addButton(2,\"Frot\",h,\"Frot\",\"Press your tits against Lorelei’s and enjoy a little playdate with the girls....\")"
   },
   {
@@ -3314,7 +3342,7 @@
   {
     "key": "button|Frot|d7ecdbefb162",
     "original": "Frot",
-    "translation": "摩擦",
+    "translation": "",
     "context": "<<POS:05194646>> addDisabledButton(2,\"Frot\",\"Frot\",\"You need tits before you can frot with them!\")"
   },
   {
@@ -3909,7 +3937,8 @@
     "key": "button|Next|23fdf1f0713d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05222638>> addButton(0,\"Next\",(function(){return genitalRouter(d,[80085,!1],[0,0,0])}))"
+    "context": "<<POS:05222638>> addButton(0,\"Next\",(function(){return genitalRouter(d,[80085,!1],[0,0,0])}))",
+    "stage": 1
   },
   {
     "key": "output.expr|Your_var0_hasVagina_pc_vagina_var1_crotch|1cbc0c124c5e",
@@ -4317,7 +4346,8 @@
     "key": "button|Next|86f2f1b61d95",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05239941>> addButton(0,\"Next\",g)"
+    "context": "<<POS:05239941>> addButton(0,\"Next\",g)",
+    "stage": 1
   },
   {
     "key": "output|You_lay_on_top_of_Lorelei_panting_and_out_of_breath_from_all_th|b33868abe4a6",
@@ -4443,7 +4473,8 @@
     "key": "button|Next|2d9d4e25d8f6",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05244906>> addButton(0,\"Next\",(function(){moveToRoom(\"ZSR L31\"),mainGameMenu()}))"
+    "context": "<<POS:05244906>> addButton(0,\"Next\",(function(){moveToRoom(\"ZSR L31\"),mainGameMenu()}))",
+    "stage": 1
   },
   {
     "key": "output|You_ask_Lorelei_if_she_s_willing_to_practice_the_faith_of_Lei|8dda13e3fd4c",
@@ -4473,7 +4504,8 @@
     "key": "button|Next|fa9b04290b41",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05246193>> addButton(0,\"Next\",t)"
+    "context": "<<POS:05246193>> addButton(0,\"Next\",t)",
+    "stage": 1
   },
   {
     "key": "header|Spooky_Cabin|75517d6a1067",
@@ -4527,7 +4559,8 @@
     "key": "button|Next|ecad12cc114c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05249326>> addButton(0,\"Next\",t)"
+    "context": "<<POS:05249326>> addButton(0,\"Next\",t)",
+    "stage": 1
   },
   {
     "key": "header|Spooky_Cabin|75517d6a1067#1",
@@ -4575,7 +4608,8 @@
     "key": "button|Next|755da8c14f1f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05251319>> addButton(0,\"Next\",o)"
+    "context": "<<POS:05251319>> addButton(0,\"Next\",o)",
+    "stage": 1
   },
   {
     "key": "header|Spooky_Cabin|75517d6a1067#2",
@@ -4605,7 +4639,8 @@
     "key": "button|Next|b4ec9c6e9451",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05253420>> addButton(0,\"Next\",n)"
+    "context": "<<POS:05253420>> addButton(0,\"Next\",n)",
+    "stage": 1
   },
   {
     "key": "name.show.expr|var0_Succ_U_Cow_Succucow|f738305d865e",
@@ -4695,7 +4730,8 @@
     "key": "button|Next|ea7c8a9bfb0b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05257860>> addButton(0,\"Next\",i)"
+    "context": "<<POS:05257860>> addButton(0,\"Next\",i)",
+    "stage": 1
   },
   {
     "key": "output|Ha_Is_she_kidding_You_re_still_in_control_of_yourself_You_fig|0c554ba561ff",
@@ -4737,7 +4773,8 @@
     "key": "button|Next|c4fbea34db9f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05261201>> addButton(0,\"Next\",s)"
+    "context": "<<POS:05261201>> addButton(0,\"Next\",s)",
+    "stage": 1
   },
   {
     "key": "output|The_peal_of_evil_laughter_that_would_ve_chilled_you_to_the_bone|84fe88aa39b0",
@@ -4785,7 +4822,8 @@
     "key": "button|Next|224a82e1790a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05264130>> addButton(0,\"Next\",r)"
+    "context": "<<POS:05264130>> addButton(0,\"Next\",r)",
+    "stage": 1
   },
   {
     "key": "output|You_babble_incoherently_pleading_with_the_succubus_to_rob_you_o|abea2ff61c8a",
@@ -4833,7 +4871,8 @@
     "key": "button|Next|89f5288d6a64",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05268219>> addButton(0,\"Next\",u)"
+    "context": "<<POS:05268219>> addButton(0,\"Next\",u)",
+    "stage": 1
   },
   {
     "key": "output|Your_cock_is_so_sensitive_that_you_can_barely_notice_the_change|5ac3d41fd8a8",
@@ -4887,7 +4926,8 @@
     "key": "button|Next|9f0c8088270b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05271607>> addButton(0,\"Next\",l)"
+    "context": "<<POS:05271607>> addButton(0,\"Next\",l)",
+    "stage": 1
   },
   {
     "key": "header|Spooky_Cabin|75517d6a1067#3",
@@ -4971,7 +5011,8 @@
     "key": "button|Next|7362a5051a51",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05274880>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
+    "context": "<<POS:05274880>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|You_let_Ciaran_know_that_you_read_his_email_and_that_you_re_read|6676668742cb",
@@ -5061,6 +5102,7 @@
     "key": "button|Next|3337f1ae9152",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:05280365>> addButton(0,\"Next\",e)"
+    "context": "<<POS:05280365>> addButton(0,\"Next\",e)",
+    "stage": 1
   }
 ]

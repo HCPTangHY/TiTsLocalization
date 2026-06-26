@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|a_FizzyFix_pill|e2434ac45c9f",
+    "original": "a FizzyFix pill",
+    "translation": "",
+    "context": "<<POS:08213771>>"
+  },
+  {
     "key": "assign|Originally_designed_to_remove_the_tongue_that_appears_when_one_a|e9e8078f6980",
     "original": "Originally designed to remove the tongue that appears when one applies Muffstick, this up and coming JoyCo product is more often used as a source of arousal.\\n\\nIt looks like a round and flat gray pill with a red crossed out tongue mark stamped on it.",
     "translation": "",
@@ -22,6 +28,34 @@
     "original": "Are you sure you want to continue to use the item?",
     "translation": "",
     "context": "<<POS:08214610>>"
+  },
+  {
+    "key": "button|Yes|8fdada2cd6b2",
+    "original": "Yes",
+    "translation": "是的",
+    "context": "<<POS:08214717>> addButton(0,\"Yes\",(function(){return t.vagMenu(e,t)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|No|1c655db5490a",
+    "original": "No",
+    "translation": "不",
+    "context": "<<POS:08214772>> addButton(1,\"No\",(function(){return t.itemCancel(t)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Codex|91b41cee8132",
+    "original": "Codex",
+    "translation": "智典",
+    "context": "<<POS:08214827>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.yx)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),t.vagMenu(e,t)})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View the Codex entry for FizzyFix.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Codex_Entry|5e6f1989329b",
+    "original": "Codex Entry",
+    "translation": "智典入口",
+    "context": "<<POS:08215017>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.yx)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),t.vagMenu(e,t)})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View the Codex entry for FizzyFix.\")",
+    "stage": 1
   },
   {
     "key": "button.tooltip|View_the_Codex_entry_for_FizzyFix|b42c0a914f2e",
@@ -48,6 +82,13 @@
     "context": "<<POS:08215282>>"
   },
   {
+    "key": "button|Next|5c2987c1c774",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:08215373>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
+  },
+  {
     "key": "name.show|FizzyFix|806730f4422c",
     "original": "FizzyFix",
     "translation": "",
@@ -58,6 +99,19 @@
     "original": "If you are not mistaken, you’ll need to have a vagina before you can even think of changing it...",
     "translation": "",
     "context": "<<POS:08215653>>"
+  },
+  {
+    "key": "output|If_you_recall_correctly_you_ll_need_to_have_a_vagina_to_be_able|23691881ce7c",
+    "original": "If you recall correctly, you’ll need to have a vagina to be able to change it...",
+    "translation": "",
+    "context": "<<POS:08215761>>"
+  },
+  {
+    "key": "button|Next|462860503fa9",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:08215874>> addButton(0,\"Next\",(function(){return o.itemCancel(t)}))",
+    "stage": 1
   },
   {
     "key": "name.show|FizzyFix|806730f4422c#1",
@@ -84,10 +138,47 @@
     "context": "<<POS:08216185>> <<VARS:var0=a,var1=l.m,var2=l.m>> output(\"\\n<b>\"+l.m.capitalize(l.m.numToOrdinal(a+1))+\" Vagina:</b>\")"
   },
   {
+    "key": "output.expr|var0|7e9bd5935c12",
+    "original": " \"+{var0}+\",",
+    "translation": "",
+    "context": "<<POS:08216324>> <<VARS:var0=GLOBAL.FLAG_NAMES[e.vaginas[a].flags[n]]>> output(\" \"+GLOBAL.FLAG_NAMES[e.vaginas[a].flags[n]]+\",\")"
+  },
+  {
+    "key": "output.expr|var1_toDisplayCase_var0|6b56906039bd",
+    "original": " \"+{var1}.toDisplayCase({var0})+\",",
+    "translation": "",
+    "context": "<<POS:08216412>> <<VARS:var0=e.vaginas[a].vaginaColor,var1=l.m>> output(\" \"+l.m.toDisplayCase(e.vaginas[a].vaginaColor)+\",\")"
+  },
+  {
+    "key": "output.expr|var0|fa00ce88ea05",
+    "original": " \"+{var0}",
+    "translation": "",
+    "context": "<<POS:08216472>> <<VARS:var0=GLOBAL.TYPE_NAMES[e.vaginas[a].type]>> output(\" \"+GLOBAL.TYPE_NAMES[e.vaginas[a].type])"
+  },
+  {
+    "key": "button|Vagina|7f092ebd5c70",
+    "original": "Vagina ",
+    "translation": "",
+    "context": "<<POS:08216526>> addButton(a,\"Vagina \"+(a+1),(function(){return o.useTF(e,a,t)}),l.m.capitalize(l.m.numToOrdinal(a+1))+\" Vagina\",\"Use this on your [pc.vagina \"+a+\"].\")"
+  },
+  {
+    "key": "button.hover.expr|var2_capitalize_var1_numToOrdinal_var0_1_Vagina|a2571b941286",
+    "original": "{var2}.capitalize({var1}.numToOrdinal({var0}+1))+\" Vagina\"",
+    "translation": "",
+    "context": "<<POS:08216577>> <<VARS:var0=a,var1=l.m,var2=l.m>> addButton(a,\"Vagina \"+(a+1),(function(){return o.useTF(e,a,t)}),l.m.capitalize(l.m.numToOrdinal(a+1))+\" Vagina\",\"Use this on your [pc.vagina \"+a+\"].\")"
+  },
+  {
+    "key": "button.tooltip|Use_this_on_your_pc_vagina|2ee9f4557c0c",
+    "original": "Use this on your [pc.vagina ",
+    "translation": "",
+    "context": "<<POS:08216626>> addButton(a,\"Vagina \"+(a+1),(function(){return o.useTF(e,a,t)}),l.m.capitalize(l.m.numToOrdinal(a+1))+\" Vagina\",\"Use this on your [pc.vagina \"+a+\"].\")"
+  },
+  {
     "key": "button|Back|e4e4d6d0df61",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:08216711>> addButton(14,\"Back\",(function(){return o.itemCancel(t)}))"
+    "context": "<<POS:08216711>> addButton(14,\"Back\",(function(){return o.itemCancel(t)}))",
+    "stage": 1
   },
   {
     "key": "name.show|FizzyFix|5e0ae6af7fb7",
@@ -177,7 +268,8 @@
     "key": "output|You|3d99fe65366f",
     "original": "You ",
     "translation": "你 ",
-    "context": "<<POS:08219327>>"
+    "context": "<<POS:08219327>>",
+    "stage": 1
   },
   {
     "key": "output|find_a_secluded_enough_spot|374988409ee2",
@@ -237,6 +329,7 @@
     "key": "button|Next|d6bee41c7cd0",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:08221145>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))"
+    "context": "<<POS:08221145>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))",
+    "stage": 1
   }
 ]

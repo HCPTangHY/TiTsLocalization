@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|purple_Dumbfuck_pill|08e27d2b98e9",
+    "original": "purple Dumbfuck pill",
+    "translation": "",
+    "context": "<<POS:06383500>>"
+  },
+  {
     "key": "assign|a_purple_Dumbfuck_pill|ff0a56d7b7c5",
     "original": "a purple Dumbfuck pill",
     "translation": "",
@@ -111,7 +117,8 @@
     "key": "button|Next|6d0f0ad55c5f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:06386484>> addButton(0,\"Next\",window.goAheadAndDumbfuck)"
+    "context": "<<POS:06386484>> addButton(0,\"Next\",window.goAheadAndDumbfuck)",
+    "stage": 1
   },
   {
     "key": "output|You_ve_heard_this_stuff_is_pretty_intense_You_had_better_look_u|e2f5562cc290",
@@ -124,6 +131,26 @@
     "original": "Use",
     "translation": "",
     "context": "<<POS:06386674>> addDisabledButton(0,\"Use\")"
+  },
+  {
+    "key": "button|Don_t_Use|0be660b7f3f7",
+    "original": "Don’t Use",
+    "translation": "",
+    "context": "<<POS:06386693>> addButton(1,\"Don’t Use\",(function(){return t.dontTakeThePill(t)}))"
+  },
+  {
+    "key": "button|Codex|ca0d49eb9299",
+    "original": "Codex",
+    "translation": "智典",
+    "context": "<<POS:06386760>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.kB)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),window.goAheadAndDumbfuck()})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.dontTakeThePill(t)}))}),\"Codex Entry\",\"View the Codex entry for Dumbfuck.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Codex_Entry|24493e4f06cb",
+    "original": "Codex Entry",
+    "translation": "智典入口",
+    "context": "<<POS:06386968>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.kB)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),window.goAheadAndDumbfuck()})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.dontTakeThePill(t)}))}),\"Codex Entry\",\"View the Codex entry for Dumbfuck.\")",
+    "stage": 1
   },
   {
     "key": "button.tooltip|View_the_Codex_entry_for_Dumbfuck|d024ffbfdfe4",
@@ -147,6 +174,7 @@
     "key": "button|Next|b12b0715f315",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:06387261>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+    "context": "<<POS:06387261>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   }
 ]

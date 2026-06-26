@@ -1,6 +1,6 @@
 [
   {
-    "key": "assign|option_value|73da9ebac0cf",
+    "key": "assign|option_value|4f0ecdc6322e",
     "original": "<option value=\"",
     "translation": "",
     "context": "<<POS:19953272>>"
@@ -142,6 +142,24 @@
     "original": "Siegwulfe Eggnancy Stage 0",
     "translation": "",
     "context": "<<POS:19955417>>"
+  },
+  {
+    "key": "assign|Siegwulfe_Eggnancy_Stage_1|a9dfab7ecc2c",
+    "original": "Siegwulfe Eggnancy Stage 1",
+    "translation": "",
+    "context": "<<POS:19955454>>"
+  },
+  {
+    "key": "assign|Siegwulfe_Eggnancy_Stage_2|fdae83b6dd2f",
+    "original": "Siegwulfe Eggnancy Stage 2",
+    "translation": "",
+    "context": "<<POS:19955491>>"
+  },
+  {
+    "key": "assign|Siegwulfe_Eggnancy_Stage_Butt|b61124d06da9",
+    "original": "Siegwulfe Eggnancy Stage Butt",
+    "translation": "",
+    "context": "<<POS:19955530>>"
   },
   {
     "key": "assign|Clutch|b894ea2a7de1",
@@ -348,7 +366,7 @@
     "context": "<<POS:19965888>> <<VARS:var0=Ot.m>> output(Ot.m.startList())"
   },
   {
-    "key": "output.expr|var0_endList|ae0ad3e8b82e#1",
+    "key": "output.expr|var0_endList|ae0ad3e8b82e",
     "original": "{var0}.endList()",
     "translation": "",
     "context": "<<POS:19965927>> <<VARS:var0=Ot.m>> output(Ot.m.endList())"
@@ -1234,6 +1252,12 @@
     "original": "Cow Stud",
     "translation": "",
     "context": "<<POS:19990972>>"
+  },
+  {
+    "key": "assign|Double_Stud|0048b915485d",
+    "original": "Double Stud",
+    "translation": "",
+    "context": "<<POS:19991027>>"
   },
   {
     "key": "assign|i_Unknown_i|f3bbacd15e1c",
@@ -5997,7 +6021,8 @@
     "key": "button|Back|05ae69bfb16c",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:20088320>> addButton(14,\"Back\",(function(){return ui.codexBack()}))"
+    "context": "<<POS:20088320>> addButton(14,\"Back\",(function(){return ui.codexBack()}))",
+    "stage": 1
   },
   {
     "key": "assign|Quest_Log|513645759687",
@@ -13212,6 +13237,12 @@
     "context": "<<POS:20333610>> <<VARS:var0=Ot.m>> output(Ot.m.startList())"
   },
   {
+    "key": "output.expr|var0_endList|ae0ad3e8b82e#1",
+    "original": "{var0}.endList()",
+    "translation": "",
+    "context": "<<POS:20333649>> <<VARS:var0=Ot.m>> output(Ot.m.endList())"
+  },
+  {
     "key": "assign|div_id_CodexLog_DropList_class_codex_log_drop_list|06997e24ef28",
     "original": "<div id=\"CodexLog_DropList\" class=\"codex_log_drop_list\">",
     "translation": "",
@@ -13236,10 +13267,28 @@
     "context": "<<POS:20333982>>"
   },
   {
+    "key": "assign|div|e60c9a5cb381",
+    "original": "</div>",
+    "translation": "",
+    "context": "<<POS:20333997>>"
+  },
+  {
+    "key": "output.expr|var0|d6ebf181e930",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:20334017>> <<VARS:var0=e>> output(e)"
+  },
+  {
     "key": "output|br_br_br_br|13d38245b2d4",
     "original": "<br><br><br><br>",
     "translation": "",
     "context": "<<POS:20334042>>"
+  },
+  {
+    "key": "assign|option_value|73da9ebac0cf",
+    "original": "<option value=\"",
+    "translation": "",
+    "context": "<<POS:20335610>>"
   },
   {
     "key": "assign|span_id_CodexLogEntry|182f9df3d911",

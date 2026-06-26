@@ -8,14 +8,16 @@
   {
     "key": "button|Next|3c118f1d8c10",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05723831>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:05723831>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "button|Next|35b9a3540cff",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05723876>> addButton(0,\"Next\",r)"
+    "translation": "继续",
+    "context": "<<POS:05723876>> addButton(0,\"Next\",r)",
+    "stage": 1
   },
   {
     "key": "output.expr|By_the_sheer_power_of_rising_orgasm_you_break_free_of_the_slyver|9734eeca8f8c",
@@ -92,8 +94,9 @@
   {
     "key": "button|Next|3c118f1d8c10#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05727344>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:05727344>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_shrug_your_shoulders_and_nonchalantly_wave_the_serpent_off|d60d8775c561",
@@ -116,8 +119,9 @@
   {
     "key": "button|Next|3c118f1d8c10#2",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05728190>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:05728190>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|It_isn_t_until_you_hear_a_cough_that_you_remember_where_you_are|c879508348ea",
@@ -164,8 +168,9 @@
   {
     "key": "button|Whatever|f189944b9ce9",
     "original": "Whatever",
-    "translation": "",
-    "context": "<<POS:05729179>> addButton(1,\"Whatever\",n,\"Whatever\",isSillyModeEnabled()?\"lol ok.\":\"Not your problem.\")"
+    "translation": "无所谓",
+    "context": "<<POS:05729179>> addButton(1,\"Whatever\",n,\"Whatever\",isSillyModeEnabled()?\"lol ok.\":\"Not your problem.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Whatever|f189944b9ce9",
@@ -218,8 +223,9 @@
   {
     "key": "button|Next|4cdde08e31d4",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05731578>> addButton(0,\"Next\",n)"
+    "translation": "继续",
+    "context": "<<POS:05731578>> addButton(0,\"Next\",n)",
+    "stage": 1
   },
   {
     "key": "button|Disobey|a2e10991fe46",
@@ -236,8 +242,9 @@
   {
     "key": "button|Ignore_Her|4d4fe57edf42",
     "original": "Ignore Her",
-    "translation": "",
-    "context": "<<POS:05731816>> addButton(1,\"Ignore Her\",(function(){return a(!0)}),\"Ignore Her\",\"Fuck, you just need a blowjob, not someone talking in your head the whole time!\")"
+    "translation": "别理她",
+    "context": "<<POS:05731816>> addButton(1,\"Ignore Her\",(function(){return a(!0)}),\"Ignore Her\",\"Fuck, you just need a blowjob, not someone talking in your head the whole time!\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Ignore_Her|4d4fe57edf42",
@@ -494,8 +501,9 @@
   {
     "key": "button|Next|3c118f1d8c10#3",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05742184>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:05742184>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output.expr|Although_you_don_t_have_to_tell_what_you_re_doing_an_intrusive|96850f900d4a",
@@ -620,8 +628,9 @@
   {
     "key": "button|Next|e6aa10d14b14",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05763511>> addButton(0,\"Next\",(function(){return n(pc.smallestCockIndex())}))"
+    "translation": "继续",
+    "context": "<<POS:05763511>> addButton(0,\"Next\",(function(){return n(pc.smallestCockIndex())}))",
+    "stage": 1
   },
   {
     "key": "output|i_D_aw_leaving_ssssoooo_ssssooon_i|b748fa1962f6",
@@ -650,8 +659,9 @@
   {
     "key": "button|Next|52fa4d6a45fe",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05763912>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:05763912>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "button|Leave|624c4177527d",
@@ -666,19 +676,25 @@
     "context": "<<POS:05763977>> addButton(14,\"Leave\",a,\"Leave\",e)"
   },
   {
-    "key": "button|Squid_Girl|3a6d4f0c7bbd",
+    "key": "button.tooltip.expr|var0|725f50c68bae",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:05763984>> <<VARS:var0=e>> addButton(14,\"Leave\",a,\"Leave\",e)"
+  },
+  {
+    "key": "button|Squid_Girl|c715b8b540c7",
     "original": "Squid Girl",
     "translation": "",
     "context": "<<POS:05764121>> addButton(e++,\"Squid Girl\",(function(){clearAll(),showBust(\"WALL_SQUID\"),author(\"William\");var e=pc.hasKeyItem(\"Puss Pass\");output(textify(xy||(xy=(0,a.Z)([\"\\nA bouquet of sapphire-blue tentacles protrudes from this socket in Cherry’s Wall. The bundle of slimy limbs are attached to the body of a rod..."
   },
   {
-    "key": "button.hover|Squid_Girl|3a6d4f0c7bbd",
+    "key": "button.hover|Squid_Girl|c715b8b540c7",
     "original": "Squid Girl",
     "translation": "",
     "context": "<<POS:05774605>> addButton(e++,\"Squid Girl\",(function(){clearAll(),showBust(\"WALL_SQUID\"),author(\"William\");var e=pc.hasKeyItem(\"Puss Pass\");output(textify(xy||(xy=(0,a.Z)([\"\\nA bouquet of sapphire-blue tentacles protrudes from this socket in Cherry’s Wall. The bundle of slimy limbs are attached to the body of a rod..."
   },
   {
-    "key": "button.tooltip|At_first_glance_it_seems_impossible_to_copulate_with_this_creatu|dc4177c4bbc7",
+    "key": "button.tooltip|At_first_glance_it_seems_impossible_to_copulate_with_this_creatu|f9fe3fef0ae7",
     "original": "At first glance it seems impossible to copulate with this creature, but that’s just part of the allure.",
     "translation": "",
     "context": "<<POS:05774618>> addButton(e++,\"Squid Girl\",(function(){clearAll(),showBust(\"WALL_SQUID\"),author(\"William\");var e=pc.hasKeyItem(\"Puss Pass\");output(textify(xy||(xy=(0,a.Z)([\"\\nA bouquet of sapphire-blue tentacles protrudes from this socket in Cherry’s Wall. The bundle of slimy limbs are attached to the body of a rod..."
@@ -794,8 +810,9 @@
   {
     "key": "button|Next|7a18e33f674e",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05799420>> addButton(0,\"Next\",(function(){clearOutput(),cherry.showAll(),author(\"Adjatha\"),output(\"The only figure who doesn’t seem to be examining or using the merchandise is a ruby red zel’rahn who leans against the far wall. Though she’s mostly nude, what draws your attention are the large, cybernetic legs ..."
+    "translation": "继续",
+    "context": "<<POS:05799420>> addButton(0,\"Next\",(function(){clearOutput(),cherry.showAll(),author(\"Adjatha\"),output(\"The only figure who doesn’t seem to be examining or using the merchandise is a ruby red zel’rahn who leans against the far wall. Though she’s mostly nude, what draws your attention are the large, cybernetic legs ...",
+    "stage": 1
   },
   {
     "key": "output|The_cloying_scent_of_Cherry_s_bio_chemical_perfume_wafts_around|19fcfe91abed",
@@ -992,8 +1009,9 @@
   {
     "key": "button|Next|3acfc3f9bf50",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05806772>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:05806772>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|3acfc3f9bf50",
@@ -1178,8 +1196,9 @@
   {
     "key": "button|Next|4e9144190d75",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05814870>> addButton(e++,\"Next\",Wg,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:05814870>> addButton(e++,\"Next\",Wg,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|4e9144190d75",
@@ -1334,8 +1353,9 @@
   {
     "key": "button|Next|2503e47ec2cb",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05841728>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:05841728>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|2503e47ec2cb",
@@ -1352,8 +1372,9 @@
   {
     "key": "button|Next|28fc0a9198f4",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05842557>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:05842557>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|28fc0a9198f4",
@@ -1490,8 +1511,9 @@
   {
     "key": "button|Appearance|cc346ca5e5c5",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:05857797>> addButton(e++,\"Appearance\",Hm,\"Appearance\",\"\")"
+    "translation": "外貌",
+    "context": "<<POS:05857797>> addButton(e++,\"Appearance\",Hm,\"Appearance\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Appearance|cc346ca5e5c5",
@@ -1592,14 +1614,16 @@
   {
     "key": "button|Back|50fa5a926322",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:05858400>> addButton(14,\"Back\",Om,\"Back\",\"\")"
+    "translation": "返回",
+    "context": "<<POS:05858400>> addButton(14,\"Back\",Om,\"Back\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Back|50fa5a926322",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:05858410>> addButton(14,\"Back\",Om,\"Back\",\"\")"
+    "translation": "返回",
+    "context": "<<POS:05858410>> addButton(14,\"Back\",Om,\"Back\",\"\")",
+    "stage": 1
   },
   {
     "key": "textify|Zarduk_is_a_3_4_vulpatra_His_entire_body_is_covered_in_amber|05e657b597ec",
@@ -1670,14 +1694,16 @@
   {
     "key": "button|Back|bfcd17c36b02",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:05869387>> addButton(14,\"Back\",Om,\"Back\",\"\")"
+    "translation": "返回",
+    "context": "<<POS:05869387>> addButton(14,\"Back\",Om,\"Back\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Back|bfcd17c36b02",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:05869397>> addButton(14,\"Back\",Om,\"Back\",\"\")"
+    "translation": "返回",
+    "context": "<<POS:05869397>> addButton(14,\"Back\",Om,\"Back\",\"\")",
+    "stage": 1
   },
   {
     "key": "textify|i_I_d_like_to_know_more_about_you_Zarduk_i_n_t_t_n_t_tThe|6516218ff13a",
@@ -1736,14 +1762,16 @@
   {
     "key": "button|Back|385371c816eb",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:05892384>> addButton(14,\"Back\",Om,\"Back\",\"\")"
+    "translation": "返回",
+    "context": "<<POS:05892384>> addButton(14,\"Back\",Om,\"Back\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Back|385371c816eb",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:05892394>> addButton(14,\"Back\",Om,\"Back\",\"\")"
+    "translation": "返回",
+    "context": "<<POS:05892394>> addButton(14,\"Back\",Om,\"Back\",\"\")",
+    "stage": 1
   },
   {
     "key": "textify|There_s_something_you_d_like_to_know_What_does_he_have_to_offer|33130e378421",
@@ -1778,8 +1806,9 @@
   {
     "key": "button|Back|b8b7ada18a7f",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:05904854>> addButton(14,\"Back\",Rm,\"Back\",\"\")"
+    "translation": "返回",
+    "context": "<<POS:05904854>> addButton(14,\"Back\",Rm,\"Back\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Back|b8b7ada18a7f",
@@ -1964,14 +1993,16 @@
   {
     "key": "button|Back|04ab1317e5bd",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:05908219>> addButton(14,\"Back\",Om,\"Back\",\"\")"
+    "translation": "返回",
+    "context": "<<POS:05908219>> addButton(14,\"Back\",Om,\"Back\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Back|04ab1317e5bd",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:05908229>> addButton(14,\"Back\",Om,\"Back\",\"\")"
+    "translation": "返回",
+    "context": "<<POS:05908229>> addButton(14,\"Back\",Om,\"Back\",\"\")",
+    "stage": 1
   },
   {
     "key": "textify|You_don_t_intend_to_pay_to_taste_the_shredded_yuri_mf_stud_she|07a4a47c695d",
@@ -1982,8 +2013,9 @@
   {
     "key": "button|Next|2d9edbae7c64",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05913314>> addButton(t++,\"Next\",e?Zm:Km,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:05913314>> addButton(t++,\"Next\",e?Zm:Km,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|2d9edbae7c64",
@@ -2006,8 +2038,9 @@
   {
     "key": "button|Next|42e30c258ca2",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05922594>> addButton(t++,\"Next\",(function(){return randomInCollection(e)(2)}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:05922594>> addButton(t++,\"Next\",(function(){return randomInCollection(e)(2)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|42e30c258ca2",
@@ -2024,8 +2057,9 @@
   {
     "key": "button|Next|cecae96009c4",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05927132>> addButton(t++,\"Next\",e?Qm:Xm,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:05927132>> addButton(t++,\"Next\",e?Qm:Xm,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|cecae96009c4",
@@ -2072,8 +2106,9 @@
   {
     "key": "button|Next|3af434ec40bf",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05933078>> addButton(t++,\"Next\",(function(){return randomInCollection(e)(2)}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:05933078>> addButton(t++,\"Next\",(function(){return randomInCollection(e)(2)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|3af434ec40bf",
@@ -2090,8 +2125,9 @@
   {
     "key": "button|Next|84a35815d857",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05934879>> addButton(e++,\"Next\",(function(){return randomInCollection(t)(2)}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:05934879>> addButton(e++,\"Next\",(function(){return randomInCollection(t)(2)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|84a35815d857",
@@ -2108,8 +2144,9 @@
   {
     "key": "button|Next|a36e228afdc0",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05950049>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:05950049>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a36e228afdc0",
@@ -2150,8 +2187,9 @@
   {
     "key": "button|Next|a36e228afdc0#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05965443>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:05965443>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a36e228afdc0#1",
@@ -2168,8 +2206,9 @@
   {
     "key": "button|Next|a36e228afdc0#2",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05974779>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:05974779>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a36e228afdc0#2",
@@ -2186,8 +2225,9 @@
   {
     "key": "button|Next|a36e228afdc0#3",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05982321>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:05982321>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a36e228afdc0#3",
@@ -2204,8 +2244,9 @@
   {
     "key": "button|Next|a36e228afdc0#4",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:05998117>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:05998117>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a36e228afdc0#4",
@@ -2222,8 +2263,9 @@
   {
     "key": "button|Next|b24946277bd7",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06024476>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06024476>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|b24946277bd7",
@@ -2240,8 +2282,9 @@
   {
     "key": "button|Next|bd7b1d42b206",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06028333>> addButton(t++,\"Next\",(function(){return randomInCollection(o)(e)}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06028333>> addButton(t++,\"Next\",(function(){return randomInCollection(o)(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|bd7b1d42b206",
@@ -2264,8 +2307,9 @@
   {
     "key": "button|Next|02ab81c6231e",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06034822>> addButton(t++,\"Next\",(function(){return lf(e)}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06034822>> addButton(t++,\"Next\",(function(){return lf(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|02ab81c6231e",
@@ -2288,8 +2332,9 @@
   {
     "key": "button|Next|5dcf8d14afe0",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06041016>> addButton(t++,\"Next\",(function(){return ff(e)}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06041016>> addButton(t++,\"Next\",(function(){return ff(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|5dcf8d14afe0",
@@ -2312,8 +2357,9 @@
   {
     "key": "button|Next|7846ebbf31be",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06050322>> addButton(t++,\"Next\",(function(){return df(e)}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06050322>> addButton(t++,\"Next\",(function(){return df(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|7846ebbf31be",
@@ -2336,8 +2382,9 @@
   {
     "key": "button|Next|5b79238061c8",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06061866>> addButton(t++,\"Next\",(function(){return ff(e)}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06061866>> addButton(t++,\"Next\",(function(){return ff(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|5b79238061c8",
@@ -2360,8 +2407,9 @@
   {
     "key": "button|Next|c8fcbf659e8f",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06067208>> addButton(t++,\"Next\",(function(){return gf(e)}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06067208>> addButton(t++,\"Next\",(function(){return gf(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|c8fcbf659e8f",
@@ -2384,8 +2432,9 @@
   {
     "key": "button|Next|a0ada72c139b",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06074949>> addButton(t++,\"Next\",(function(){return ff(e)}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06074949>> addButton(t++,\"Next\",(function(){return ff(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a0ada72c139b",
@@ -2408,8 +2457,9 @@
   {
     "key": "button|Next|64b1db79bccc",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06082327>> addButton(t++,\"Next\",(function(){return mf(e)}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06082327>> addButton(t++,\"Next\",(function(){return mf(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|64b1db79bccc",
@@ -2432,8 +2482,9 @@
   {
     "key": "button|Next|7de1214e0761",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06093790>> addButton(t++,\"Next\",(function(){return ff(e)}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06093790>> addButton(t++,\"Next\",(function(){return ff(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|7de1214e0761",
@@ -2450,8 +2501,9 @@
   {
     "key": "button|Next|3870855ec517",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06100403>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06100403>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|3870855ec517",
@@ -2468,8 +2520,9 @@
   {
     "key": "button|Next|a36e228afdc0#5",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06116841>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06116841>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a36e228afdc0#5",
@@ -2486,8 +2539,9 @@
   {
     "key": "button|Next|a36e228afdc0#6",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06131254>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06131254>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a36e228afdc0#6",
@@ -2534,8 +2588,9 @@
   {
     "key": "button|Next|a36e228afdc0#7",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06150724>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06150724>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a36e228afdc0#7",
@@ -2552,8 +2607,9 @@
   {
     "key": "button|Next|a36e228afdc0#8",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06171145>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06171145>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a36e228afdc0#8",
@@ -2588,8 +2644,9 @@
   {
     "key": "button|Next|a36e228afdc0#9",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06190312>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06190312>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a36e228afdc0#9",
@@ -2606,8 +2663,9 @@
   {
     "key": "button|Next|a36e228afdc0#10",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06211823>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06211823>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a36e228afdc0#10",
@@ -2642,8 +2700,9 @@
   {
     "key": "button|Next|a36e228afdc0#11",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06230037>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06230037>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a36e228afdc0#11",
@@ -2660,8 +2719,9 @@
   {
     "key": "button|Next|a36e228afdc0#12",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06251611>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06251611>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a36e228afdc0#12",
@@ -2678,8 +2738,9 @@
   {
     "key": "button|Next|929b047167c4",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06266209>> addButton(t++,\"Next\",Cf,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06266209>> addButton(t++,\"Next\",Cf,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|929b047167c4",
@@ -2696,8 +2757,9 @@
   {
     "key": "button|Next|a36e228afdc0#13",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06281373>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06281373>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a36e228afdc0#13",
@@ -2714,8 +2776,9 @@
   {
     "key": "button|Next|929b047167c4#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06296040>> addButton(t++,\"Next\",(function(){return Hf(e)}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06296040>> addButton(t++,\"Next\",(function(){return Hf(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|929b047167c4#1",
@@ -2738,8 +2801,9 @@
   {
     "key": "button|Next|4b7bdf1ee2a8",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06317660>> addButton(n++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06317660>> addButton(n++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|4b7bdf1ee2a8",
@@ -2756,8 +2820,9 @@
   {
     "key": "button|Next|a36e228afdc0#14",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06332903>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06332903>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a36e228afdc0#14",
@@ -2774,8 +2839,9 @@
   {
     "key": "button|Next|a36e228afdc0#15",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06334310>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06334310>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a36e228afdc0#15",
@@ -2792,8 +2858,9 @@
   {
     "key": "button|Next|b2f0b8238fac",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06339848>> addButton(e++,\"Next\",zf,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06339848>> addButton(e++,\"Next\",zf,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|b2f0b8238fac",
@@ -2810,8 +2877,9 @@
   {
     "key": "button|Next|a8f57086abfe",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06347642>> addButton(e++,\"Next\",Lf,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06347642>> addButton(e++,\"Next\",Lf,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a8f57086abfe",
@@ -2828,8 +2896,9 @@
   {
     "key": "button|Next|40dd5b300d0f",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06359965>> addButton(e++,\"Next\",Nf,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06359965>> addButton(e++,\"Next\",Nf,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|40dd5b300d0f",
@@ -2846,8 +2915,9 @@
   {
     "key": "button|Next|c3270f7a1203",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:06365101>> addButton(e++,\"Next\",qf,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:06365101>> addButton(e++,\"Next\",qf,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|c3270f7a1203",

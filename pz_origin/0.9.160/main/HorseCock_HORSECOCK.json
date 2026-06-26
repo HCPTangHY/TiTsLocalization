@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|equine_phallus_complete_with_balls|fba87674600d",
+    "original": "equine phallus complete with balls",
+    "translation": "",
+    "context": "<<POS:06451432>>"
+  },
+  {
     "key": "assign|an_equine_phallus_complete_with_balls|4a5bfd423c10",
     "original": "an equine phallus complete with balls",
     "translation": "",
@@ -72,6 +78,24 @@
     "context": "<<POS:06456361>> <<VARS:var0=e,var1=h.m.indefiniteArticle(pc.simpleCockNoun(e)),!1,var2=h.m>> output(\"\\n\"+(e+1)+\". \"+h.m.upperCase(h.m.indefiniteArticle(pc.simpleCockNoun(e)),!1))"
   },
   {
+    "key": "button.expr|var2_upperCase_var1_numToText_var0_1|105b6c78ccfb",
+    "original": "{var2}.upperCase({var1}.numToText({var0}+1))",
+    "translation": "",
+    "context": "<<POS:06456449>> <<VARS:var0=e,var1=h.m,var2=h.m>> addButton(e,h.m.upperCase(h.m.numToText(e+1)),(function(){return t.HorseCockHorseCockConversion(e)}))"
+  },
+  {
+    "key": "output.expr|var0_1_b_Ineligible_b_i_var2_upperCase_v|837e27a9d8c5",
+    "original": "\"+({var0}+1)+\". \\\\[<b>Ineligible</b>\\\\] <i>\"+{var2}.upperCase({var1})+\"</i>",
+    "translation": "",
+    "context": "<<POS:06456551>> <<VARS:var0=e,var1=h.m.indefiniteArticle(pc.simpleCockNoun(e)),!1,var2=h.m>> output(\"\\n\"+(e+1)+\". \\\\[<b>Ineligible</b>\\\\] <i>\"+h.m.upperCase(h.m.indefiniteArticle(pc.simpleCockNoun(e)),!1)+\"</i>\")"
+  },
+  {
+    "key": "button.expr|var2_upperCase_var1_numToText_var0_1|9a90d3864fd3",
+    "original": "{var2}.upperCase({var1}.numToText({var0}+1))",
+    "translation": "",
+    "context": "<<POS:06456681>> <<VARS:var0=e,var1=h.m,var2=h.m>> addDisabledButton(e,h.m.upperCase(h.m.numToText(e+1)),h.m.upperCase(h.m.numToText(e+1)),\"It’d look silly to put a horse-cock on a horse-cock.\")"
+  },
+  {
     "key": "button.hover|It_d_look_silly_to_put_a_horse_cock_on_a_horse_cock|588a6db3b5e8",
     "original": "It’d look silly to put a horse-cock on a horse-cock.",
     "translation": "",
@@ -93,7 +117,8 @@
     "key": "button|Next|09ec34acaa09",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:06457430>> addButton(0,\"Next\",(function(){return e.returnToInventory()}))"
+    "context": "<<POS:06457430>> addButton(0,\"Next\",(function(){return e.returnToInventory()}))",
+    "stage": 1
   },
   {
     "key": "output.expr|Your_pc_cock_var0_lies_draped_over_your_thigh_as_you_loo|6423b6fed11b",
@@ -363,6 +388,7 @@
     "key": "button|Next|b08667c3a986",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:06466369>> addButton(0,\"Next\",(function(){return e.returnToInventory()}))"
+    "context": "<<POS:06466369>> addButton(0,\"Next\",(function(){return e.returnToInventory()}))",
+    "stage": 1
   }
 ]

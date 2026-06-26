@@ -1,5 +1,11 @@
 [
   {
+    "key": "output|Away_from_her_work_in_town_you_have_a_good_chance_to_look_over_B|f0ccf949e666",
+    "original": "Away from her work in town you have a good chance to look over Bianca. She commits herself to patient silence for the duration of your curiosity, smirking at the level of detail your eyes work to drink in.",
+    "translation": "",
+    "context": "<<POS:25724315>>"
+  },
+  {
     "key": "output|You_work_your_eyes_and_your_brain_like_never_before_making_the|c44727749892",
     "original": "You work your eyes and your brain like never before, making the most of a scant few seconds to look over Bianca’s maternal form. Her radiantly bemused expression is one such thing recorded by your rigorous inspection.",
     "translation": "",
@@ -111,13 +117,15 @@
     "key": "button|Appearance|ad28466e4562",
     "original": "Appearance",
     "translation": "外貌",
-    "context": "<<POS:25729735>> addDisabledButton(0,\"Appearance\")"
+    "context": "<<POS:25729735>> addDisabledButton(0,\"Appearance\")",
+    "stage": 1
   },
   {
     "key": "button|Appearance|4f60c9731514",
     "original": "Appearance",
     "translation": "外貌",
-    "context": "<<POS:25729837>> addButton(0,\"Appearance\",(function(){return l0(0)}),\"Appearance\",\"You have ample time to get a good look at Bianca.\")"
+    "context": "<<POS:25729837>> addButton(0,\"Appearance\",(function(){return l0(0)}),\"Appearance\",\"You have ample time to get a good look at Bianca.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Appearance|4f60c9731514",
@@ -236,7 +244,7 @@
   {
     "key": "button|Leave|b4a865d4a2bb",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:25743764>> addButton(14,\"Leave\",(function(){return function(e){clearMenu(),clearOutput(),showBianca(\"WORK\"),author(\"William\"),processTime(1),bianca.familiarity()<50?(output(\"You’re not in need of her skills, and you tell her as much, wishing her well in her endeavors. Bianca nods lightly, taking a deep breath...."
   },
   {
@@ -381,7 +389,8 @@
     "key": "button|Appearance|f8ece46ac92a",
     "original": "Appearance",
     "translation": "外貌",
-    "context": "<<POS:25751163>> addButton(0,\"Appearance\",(function(){return l0(1)}),\"Appearance\",\"Look over Bianca herself.\")"
+    "context": "<<POS:25751163>> addButton(0,\"Appearance\",(function(){return l0(1)}),\"Appearance\",\"Look over Bianca herself.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Appearance|f8ece46ac92a",
@@ -399,7 +408,8 @@
     "key": "button|Next|5a62bb103a5e",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:25751572>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:25751572>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "button|Checkup|e54229ac33de",
@@ -488,7 +498,7 @@
   {
     "key": "button|Leave|fab1cc7393e3",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:25779059>> addButton(14,\"Leave\",(function(){return function(e){clearMenu(),clearOutput(),showBianca(\"CLOTHED\"),author(\"William\"),processTime(1),e?bianca.familiarity()<50?output(\"You thank Bianca for her time, telling her you’ll definitely be back if you need something in the future. For now, you part with a fr..."
   },
   {
@@ -596,7 +606,7 @@
   {
     "key": "output|i|fea17e9b659c",
     "original": "”</i>",
-    "translation": "”</i>",
+    "translation": "",
     "context": "<<POS:25786036>>"
   },
   {
@@ -621,7 +631,8 @@
     "key": "button|Appearance|b2f626e6af05",
     "original": "Appearance",
     "translation": "外貌",
-    "context": "<<POS:25786541>> addButton(0,\"Appearance\",(function(){return l0(2)}),\"Appearance\",\"It may be dark, but you can still look over Bianca in detail.\")"
+    "context": "<<POS:25786541>> addButton(0,\"Appearance\",(function(){return l0(2)}),\"Appearance\",\"It may be dark, but you can still look over Bianca in detail.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Appearance|b2f626e6af05",
@@ -734,7 +745,7 @@
   {
     "key": "button|Leave|1898a30b6b61",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:25791229>> addButton(14,\"Leave\",(function(){clearMenu(),clearOutput(),showBianca(\"CASUAL\"),author(\"William\"),processTime(1),bianca.familiarity()<35?output(\"Bianca watches as you unseat yourself and give her a friendly wave, telling her you’ll be going now. She nods quietly but says nothing as you leave her tab..."
   },
   {
@@ -1155,7 +1166,8 @@
     "key": "button|Back|1d6f8c490c40",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:25798213>> addButton(14,\"Back\",w0)"
+    "context": "<<POS:25798213>> addButton(14,\"Back\",w0)",
+    "stage": 1
   },
   {
     "key": "output|On_second_thought_nothing_s_really_coming_to_mind|6a27ba6abeea",
@@ -1245,7 +1257,8 @@
     "key": "button|Yes|bbf46e091d10",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:25801399>> addButton(0,\"Yes\",mainGameMenu)"
+    "context": "<<POS:25801399>> addButton(0,\"Yes\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "button|Not_Tonight|bc3416e8a3b4",
@@ -1281,7 +1294,8 @@
     "key": "button|Next|9ab1f418a6c9",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:25801860>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:25801860>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "button|Handjob|9d514db98941",
@@ -1368,10 +1382,22 @@
     "context": "<<POS:25842194>> addDisabledButton(1,\"Blowjob\",\"Blowjob\",\"<b>You need a penis</b> for the doctor to take your temperature.\")"
   },
   {
+    "key": "button.expr|var0|4e595cf558e8",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:25842374>> <<VARS:var0=o>> addDisabledButton(2,o,o,\"You’ll have to get her more comfortable with you before you can ask this.\")"
+  },
+  {
     "key": "button.hover|You_ll_have_to_get_her_more_comfortable_with_you_before_you_can|5faa16aab041",
     "original": "You’ll have to get her more comfortable with you before you can ask this.",
     "translation": "",
     "context": "<<POS:25842379>> addDisabledButton(2,o,o,\"You’ll have to get her more comfortable with you before you can ask this.\")"
+  },
+  {
+    "key": "button.expr|var0|eb72651b8074",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:25842501>> <<VARS:var0=o>> addDisabledButton(2,o,o,\"<b>You need to have a penis and external testicles</b> for this scene.\")"
   },
   {
     "key": "button.hover|b_You_need_to_have_a_penis_and_external_testicles_b_for_this|895be282c490",
@@ -1380,10 +1406,28 @@
     "context": "<<POS:25842506>> addDisabledButton(2,o,o,\"<b>You need to have a penis and external testicles</b> for this scene.\")"
   },
   {
+    "key": "button.expr|var0|12b7d2d1eefa",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:25842624>> <<VARS:var0=o>> addButton(2,o,(function(){clearMenu(),clearOutput(),showBianca(\"WORK\"),author(\"William\"),processTime(3+rand(3));var e=rand(pc.cocks.length);void 0===flags.BIANCA_SEXED_BLUE?(output(\"Bianca’s ministrations are not merciful. Her fingers know every ridge and vein on your pliant [pc.cocksLight], thumbin..."
+  },
+  {
+    "key": "button.hover.expr|var0|12b7d2d1eefa",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:25879149>> <<VARS:var0=o>> addButton(2,o,(function(){clearMenu(),clearOutput(),showBianca(\"WORK\"),author(\"William\"),processTime(3+rand(3));var e=rand(pc.cocks.length);void 0===flags.BIANCA_SEXED_BLUE?(output(\"Bianca’s ministrations are not merciful. Her fingers know every ridge and vein on your pliant [pc.cocksLight], thumbin..."
+  },
+  {
     "key": "button.tooltip|Bianca_should_know_how_to_treat_a_case_of_pc_cumNoun_congestio|a8324a4f241b",
     "original": "Bianca should know how to treat a case of [pc.cumNoun] congestion, right?",
     "translation": "",
     "context": "<<POS:25879152>> addButton(2,o,(function(){clearMenu(),clearOutput(),showBianca(\"WORK\"),author(\"William\"),processTime(3+rand(3));var e=rand(pc.cocks.length);void 0===flags.BIANCA_SEXED_BLUE?(output(\"Bianca’s ministrations are not merciful. Her fingers know every ridge and vein on your pliant [pc.cocksLight], thumbin..."
+  },
+  {
+    "key": "button.expr|var0|410539976cee",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:25879248>> <<VARS:var0=o>> addDisabledButton(2,o,o,\"You need to be very backed up for this. <b>Being blue-balled is no joke.</b>\")"
   },
   {
     "key": "button.hover|You_need_to_be_very_backed_up_for_this_b_Being_blue_balled_is|e09101ee18fb",
@@ -1623,7 +1667,8 @@
     "key": "button|Next|88d90a8cf92b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:25967114>> addButton(0,\"Next\",(function(){return function(e){switch(clearMenu(),clearOutput(),showBianca(\"WORK\"),author(\"William\"),processTime(8+rand(9)),output(\"<i>“No, let me... I need this, [pc.name]...!”</i> she hisses. <i>“Forgive me for asking, but stand up just a little!”</i> You do so, somehow conjurin..."
+    "context": "<<POS:25967114>> addButton(0,\"Next\",(function(){return function(e){switch(clearMenu(),clearOutput(),showBianca(\"WORK\"),author(\"William\"),processTime(8+rand(9)),output(\"<i>“No, let me... I need this, [pc.name]...!”</i> she hisses. <i>“Forgive me for asking, but stand up just a little!”</i> You do so, somehow conjurin...",
+    "stage": 1
   },
   {
     "key": "output|This_position_you_re_in_has_become_acutely_familiar_No_more_th|3bfbb058b46d",
@@ -1863,7 +1908,14 @@
     "key": "button|Next|f31ddf2264e9",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:26059088>> addButton(0,\"Next\",(function(){clearMenu(),clearOutput(),showBianca(\"NUDE\"),author(\"William\"),processTime(7+rand(10)),output(\"In the fire of the moment, Bianca tugs her compression shirt up with an effortful grunt, sighing dazedly when her hefty F-cups spill out centimeters from your nose. The effec..."
+    "context": "<<POS:26059088>> addButton(0,\"Next\",(function(){clearMenu(),clearOutput(),showBianca(\"NUDE\"),author(\"William\"),processTime(7+rand(10)),output(\"In the fire of the moment, Bianca tugs her compression shirt up with an effortful grunt, sighing dazedly when her hefty F-cups spill out centimeters from your nose. The effec...",
+    "stage": 1
+  },
+  {
+    "key": "button.expr|var0|725f50c68bae",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:26081118>> <<VARS:var0=a>> addDisabledButton(7,a,a,\"You must <b>have normal or inverted nipples and be lactating</b> for this scene.\")"
   },
   {
     "key": "button.hover|You_must_b_have_normal_or_inverted_nipples_and_be_lactating_b|75b82f3b20c0",
@@ -1872,10 +1924,28 @@
     "context": "<<POS:26081123>> addDisabledButton(7,a,a,\"You must <b>have normal or inverted nipples and be lactating</b> for this scene.\")"
   },
   {
+    "key": "button.expr|var0|02a7839b4370",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:26081250>> <<VARS:var0=a>> addDisabledButton(7,a,a,\"You’ll have to get her more comfortable with you before you can ask this.\")"
+  },
+  {
     "key": "button.hover|You_ll_have_to_get_her_more_comfortable_with_you_before_you_can|dbeb02fe6743",
     "original": "You’ll have to get her more comfortable with you before you can ask this.",
     "translation": "",
     "context": "<<POS:26081255>> addDisabledButton(7,a,a,\"You’ll have to get her more comfortable with you before you can ask this.\")"
+  },
+  {
+    "key": "button.expr|var0|eb72651b8074#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:26081343>> <<VARS:var0=a>> addButton(7,a,(function(){clearMenu(),clearOutput(),showBianca(\"WORK\"),author(\"William\"),processTime(4+rand(5));var e=pc.biggestTitRow();void 0===flags.BIANCA_SEXED_MILK?(output((1!==flags.BIANCA_CONFRONTED?\"Mrs.\":\"Ms.\")+\" Ketria’s teasing is exacerbating a pre-existing issue that you can’t quite pl..."
+  },
+  {
+    "key": "button.hover.expr|var0|eb72651b8074",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:26113025>> <<VARS:var0=a>> addButton(7,a,(function(){clearMenu(),clearOutput(),showBianca(\"WORK\"),author(\"William\"),processTime(4+rand(5));var e=pc.biggestTitRow();void 0===flags.BIANCA_SEXED_MILK?(output((1!==flags.BIANCA_CONFRONTED?\"Mrs.\":\"Ms.\")+\" Ketria’s teasing is exacerbating a pre-existing issue that you can’t quite pl..."
   },
   {
     "key": "button.tooltip|Your_boobs_are_so_full_of_pc_milkNoun_that_they_re_i_sloshing|eb6fc4f3fe06",
@@ -1884,10 +1954,22 @@
     "context": "<<POS:26113028>> addButton(7,a,(function(){clearMenu(),clearOutput(),showBianca(\"WORK\"),author(\"William\"),processTime(4+rand(5));var e=pc.biggestTitRow();void 0===flags.BIANCA_SEXED_MILK?(output((1!==flags.BIANCA_CONFRONTED?\"Mrs.\":\"Ms.\")+\" Ketria’s teasing is exacerbating a pre-existing issue that you can’t quite pl..."
   },
   {
+    "key": "button.expr|var0|7eb2f73db194",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:26113195>> <<VARS:var0=a>> addDisabledButton(7,a,a,\"You <b>need to be lactating and be rather full</b> to do this.\")"
+  },
+  {
     "key": "button.hover|You_b_need_to_be_lactating_and_be_rather_full_b_to_do_this|f53b8e5df4e0",
     "original": "You <b>need to be lactating and be rather full</b> to do this.",
     "translation": "",
     "context": "<<POS:26113200>> addDisabledButton(7,a,a,\"You <b>need to be lactating and be rather full</b> to do this.\")"
+  },
+  {
+    "key": "button.expr|var0|c780be835913",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:26113285>> <<VARS:var0=a>> addDisabledButton(7,a,a,\"You will never see this unless you <b>get some boobs!</b>\")"
   },
   {
     "key": "button.hover|You_will_never_see_this_unless_you_b_get_some_boobs_b|2c7ce8bdebba",
@@ -2043,7 +2125,8 @@
     "key": "button|Next|0deb616d212a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:26219217>> addButton(e++,\"Next\",(function(){var e=rand(20)+1+Math.round(pc.RQ()/10)>=15;A2(),output(textify(BX||(BX=(0,Ce.Z)([\"\\n\\t\\t[flags.JASVALLA_MHENGA\\n\\t\\t\\t|[var0\\n\\t\\t\\t\\t|You fling yourself to one side the moment you see it. There’s a sharp CRACK, a flash of blue light, and your [pc.skin] crawls with ..."
+    "context": "<<POS:26219217>> addButton(e++,\"Next\",(function(){var e=rand(20)+1+Math.round(pc.RQ()/10)>=15;A2(),output(textify(BX||(BX=(0,Ce.Z)([\"\\n\\t\\t[flags.JASVALLA_MHENGA\\n\\t\\t\\t|[var0\\n\\t\\t\\t\\t|You fling yourself to one side the moment you see it. There’s a sharp CRACK, a flash of blue light, and your [pc.skin] crawls with ...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|0deb616d212a",
@@ -2061,7 +2144,8 @@
     "key": "button|Next|0deb616d212a#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:26233279>> addButton(e++,\"Next\",(function(){var e=rand(20)+1+Math.round(pc.RQ()/10)>=20;A2(),output(textify(XX||(XX=(0,Ce.Z)([\"\\n\\t\\t[flags.JASVALLA_MYR\\n\\t\\t\\t|[var0\\n\\t\\t\\t\\t|You fling yourself to one side the moment you see it. There’s a sharp CRACK, a flash of blue light, and your [pc.skin] crawls with sta..."
+    "context": "<<POS:26233279>> addButton(e++,\"Next\",(function(){var e=rand(20)+1+Math.round(pc.RQ()/10)>=20;A2(),output(textify(XX||(XX=(0,Ce.Z)([\"\\n\\t\\t[flags.JASVALLA_MYR\\n\\t\\t\\t|[var0\\n\\t\\t\\t\\t|You fling yourself to one side the moment you see it. There’s a sharp CRACK, a flash of blue light, and your [pc.skin] crawls with sta...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|0deb616d212a#1",
@@ -2079,7 +2163,8 @@
     "key": "button|Next|0deb616d212a#2",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:26249172>> addButton(e++,\"Next\",(function(){var e=rand(20)+1+Math.round(pc.RQ()/10)>=20;A2(),output(textify(e$||(e$=(0,Ce.Z)([\"\\n\\t\\t[flags.JASVALLA_ZHENG\\n\\t\\t\\t|[var0\\n\\t\\t\\t\\t|You fling yourself to one side the moment you see it. There’s a sharp CRACK, a flash of blue light, and your [pc.skin] crawls with s..."
+    "context": "<<POS:26249172>> addButton(e++,\"Next\",(function(){var e=rand(20)+1+Math.round(pc.RQ()/10)>=20;A2(),output(textify(e$||(e$=(0,Ce.Z)([\"\\n\\t\\t[flags.JASVALLA_ZHENG\\n\\t\\t\\t|[var0\\n\\t\\t\\t\\t|You fling yourself to one side the moment you see it. There’s a sharp CRACK, a flash of blue light, and your [pc.skin] crawls with s...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|0deb616d212a#2",
@@ -2133,7 +2218,8 @@
     "key": "button|Next|2d43d4d99e66",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:26280691>> addButton(0,\"Next\",t,\"Next\",\"\")"
+    "context": "<<POS:26280691>> addButton(0,\"Next\",t,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|2d43d4d99e66",
@@ -2151,7 +2237,8 @@
     "key": "button|Next|6da65eec38ed",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:26283142>> addButton(o++,\"Next\",jasvalla.likesChanges(pc)?t:e,\"Next\",\"\")"
+    "context": "<<POS:26283142>> addButton(o++,\"Next\",jasvalla.likesChanges(pc)?t:e,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|6da65eec38ed",
@@ -2169,7 +2256,8 @@
     "key": "button|Next|29883b709a8c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:26287384>> addButton(0,\"Next\",(function(){A2(),output(textify(b$||(b$=(0,Ce.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|Pick something classically dzaan? You look at a recipe that comes up and immediately your head begins to swim from the long list of unfamiliar ingredients. No, it would be a disaster. You settle on something st..."
+    "context": "<<POS:26287384>> addButton(0,\"Next\",(function(){A2(),output(textify(b$||(b$=(0,Ce.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|Pick something classically dzaan? You look at a recipe that comes up and immediately your head begins to swim from the long list of unfamiliar ingredients. No, it would be a disaster. You settle on something st...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|29883b709a8c",
@@ -2187,7 +2275,8 @@
     "key": "button|Next|edb790a381fb",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:26310597>> addButton(o++,\"Next\",(function(){var o=(flags.JASVALLA_LICKING||0)+(pc.hasTongueFlag(GLOBAL.FLAG_PREHENSILE)?1:0)+(pc.lipMod>4?1:0);A2(),output(textify(_$||(_$=(0,Ce.Z)([\"\\n\\t\\tYour world becomes packed, brown flesh sat firmly down upon your face, the padded support on your neck and the back of your..."
+    "context": "<<POS:26310597>> addButton(o++,\"Next\",(function(){var o=(flags.JASVALLA_LICKING||0)+(pc.hasTongueFlag(GLOBAL.FLAG_PREHENSILE)?1:0)+(pc.lipMod>4?1:0);A2(),output(textify(_$||(_$=(0,Ce.Z)([\"\\n\\t\\tYour world becomes packed, brown flesh sat firmly down upon your face, the padded support on your neck and the back of your...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|edb790a381fb",
@@ -2205,7 +2294,8 @@
     "key": "button|Next|012744283f5b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:26320652>> addButton(o++,\"Next\",(function(){A2();var o=new _.jL;o.ass=jasvalla.lastSeenAss;var a=!1;jasvalla.lastSeenAss&&o.analCapacity()<=100&&pc.analCapacity()>=101&&(a=!0),output(textify(x$||(x$=(0,Ce.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|You exhale, close your eyes, and dip downwards. The dull, oiled point of Nua Spre..."
+    "context": "<<POS:26320652>> addButton(o++,\"Next\",(function(){A2();var o=new _.jL;o.ass=jasvalla.lastSeenAss;var a=!1;jasvalla.lastSeenAss&&o.analCapacity()<=100&&pc.analCapacity()>=101&&(a=!0),output(textify(x$||(x$=(0,Ce.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|You exhale, close your eyes, and dip downwards. The dull, oiled point of Nua Spre...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|012744283f5b",
@@ -2283,7 +2373,8 @@
     "key": "button|Next|fec398449437",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:26353448>> addButton(t++,\"Next\",n,\"Next\",\"\")"
+    "context": "<<POS:26353448>> addButton(t++,\"Next\",n,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|fec398449437",
@@ -2301,7 +2392,8 @@
     "key": "button|Next|01c26f57ae63",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:26357698>> addButton(e++,\"Next\",(function(){A2(!0),output(textify(d$||(d$=(0,Ce.Z)([\"\\n\\t\\tMmm. Sucking alpha’s cock. Opening your maw wide and letting all that thick, fervid breeding meat fill your head and own you, stop you and silence you, your tongue and throat fit only to baste and lavish it with wet wors..."
+    "context": "<<POS:26357698>> addButton(e++,\"Next\",(function(){A2(!0),output(textify(d$||(d$=(0,Ce.Z)([\"\\n\\t\\tMmm. Sucking alpha’s cock. Opening your maw wide and letting all that thick, fervid breeding meat fill your head and own you, stop you and silence you, your tongue and throat fit only to baste and lavish it with wet wors...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|01c26f57ae63",
@@ -2319,7 +2411,8 @@
     "key": "button|Next|a782555486e7",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:26369808>> addButton(e++,\"Next\",o,\"Next\",\"\")"
+    "context": "<<POS:26369808>> addButton(e++,\"Next\",o,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a782555486e7",
@@ -2337,7 +2430,8 @@
     "key": "button|Next|7863af3067df",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:26373592>> addButton(e++,\"Next\",(function(){A2(),output(textify(Y$||(Y$=(0,Ce.Z)([\"\\n\\t\\tYou awkwardly stalk after your alpha’s clacking heels and tall legs on your[pc.hasKnees| knees and] elbows, your leash leading upwards to her carelessly dangling fingers. Her long gait requires you to go quickly, padded el..."
+    "context": "<<POS:26373592>> addButton(e++,\"Next\",(function(){A2(),output(textify(Y$||(Y$=(0,Ce.Z)([\"\\n\\t\\tYou awkwardly stalk after your alpha’s clacking heels and tall legs on your[pc.hasKnees| knees and] elbows, your leash leading upwards to her carelessly dangling fingers. Her long gait requires you to go quickly, padded el...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|7863af3067df",
@@ -2445,7 +2539,8 @@
     "key": "button|Next|65f57a64d8b3",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:26422994>> addButton(e++,\"Next\",(function(){A2(),output(textify(G$||(G$=(0,Ce.Z)([\"\\n\\t\\t<i>“Now then, good beta.”</i> She continues to pat you, those long, skillful fingers of hers drawing simple, warm pleasure through your scalp and neck, but her tone turns quieter and teasing. <i>“Perhaps there’s something ..."
+    "context": "<<POS:26422994>> addButton(e++,\"Next\",(function(){A2(),output(textify(G$||(G$=(0,Ce.Z)([\"\\n\\t\\t<i>“Now then, good beta.”</i> She continues to pat you, those long, skillful fingers of hers drawing simple, warm pleasure through your scalp and neck, but her tone turns quieter and teasing. <i>“Perhaps there’s something ...",
+    "stage": 1
   },
   {
     "key": "textify|Jasvalla_s_eyes_finally_turn_away_from_you_She_unrolls_an_arm_i|206678c0f7c7",
@@ -2457,7 +2552,8 @@
     "key": "button|Next|074ead8bd722",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:26424523>> addButton(e++,\"Next\",jasvalla.dom()<100?n:function(){return a(!0)},\"Next\",\"\")"
+    "context": "<<POS:26424523>> addButton(e++,\"Next\",jasvalla.dom()<100?n:function(){return a(!0)},\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|074ead8bd722",
@@ -2475,7 +2571,8 @@
     "key": "button|Next|aac39f67d7ec",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:26427379>> addButton(t++,\"Next\",(function(){A2(),output(textify(Q$||(Q$=(0,Ce.Z)([\"\\n\\t\\tIt’s maybe a year later, on the Oshosi. Jasvalla is hard at work at her desk, which means you are too, in your own way. Your [pc.hands] stroke up and down her hard, bronze thighs as you fill your mouth with her thick cock ..."
+    "context": "<<POS:26427379>> addButton(t++,\"Next\",(function(){A2(),output(textify(Q$||(Q$=(0,Ce.Z)([\"\\n\\t\\tIt’s maybe a year later, on the Oshosi. Jasvalla is hard at work at her desk, which means you are too, in your own way. Your [pc.hands] stroke up and down her hard, bronze thighs as you fill your mouth with her thick cock ...",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|aac39f67d7ec",

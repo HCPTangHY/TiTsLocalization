@@ -1,15 +1,9 @@
 [
   {
-    "key": "button|Appearance|af485afe2d63",
-    "original": "Appearance",
-    "translation": "外貌",
-    "context": "<<POS:00873631>> addButton(0,\"Appearance\",this.kaseAppearance,\"Appearance\",\"Take a look at Kase.\")"
-  },
-  {
-    "key": "button.hover|Appearance|af485afe2d63",
-    "original": "Appearance",
+    "key": "assign|Nym_Foe_Dakimakura|25ce6e9af102",
+    "original": "Nym-Foe Dakimakura",
     "translation": "",
-    "context": "<<POS:00873664>> addButton(0,\"Appearance\",this.kaseAppearance,\"Appearance\",\"Take a look at Kase.\")"
+    "context": "<<POS:07741444>>"
   },
   {
     "key": "assign|a_life_sized_Nym_Foe_body_pillow|17603da8eb43",
@@ -69,7 +63,8 @@
     "key": "button|Appearance|12a135f6e070",
     "original": "Appearance",
     "translation": "外貌",
-    "context": "<<POS:07743815>> addDisabledButton(0,\"Appearance\")"
+    "context": "<<POS:07743815>> addDisabledButton(0,\"Appearance\")",
+    "stage": 1
   },
   {
     "key": "name.show|Nym_Foe_Dakimakura|bfc8053bd230",
@@ -117,7 +112,21 @@
     "key": "button|Next|f3f501def311",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:07745426>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+    "context": "<<POS:07745426>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Appearance|af485afe2d63",
+    "original": "Appearance",
+    "translation": "外貌",
+    "context": "<<POS:07745502>> addButton(0,\"Appearance\",(function(){return o(e)}),\"Appearance\",\"Take a closer look at the pillow.\")",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Appearance|af485afe2d63",
+    "original": "Appearance",
+    "translation": "",
+    "context": "<<POS:07745541>> addButton(0,\"Appearance\",(function(){return o(e)}),\"Appearance\",\"Take a closer look at the pillow.\")"
   },
   {
     "key": "button.tooltip|Take_a_closer_look_at_the_pillow|37976f3a3f8a",

@@ -80,8 +80,9 @@
   {
     "key": "button|Appearance|c00c85454734",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:02109486>> addDisabledButton(1,\"Appearance\",\"Appearance\",\"You’re looking at her right now.\")"
+    "translation": "外貌",
+    "context": "<<POS:02109486>> addDisabledButton(1,\"Appearance\",\"Appearance\",\"You’re looking at her right now.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|You_re_looking_at_her_right_now|662d9dc9d3b3",
@@ -98,8 +99,9 @@
   {
     "key": "button|Appearance|544d4610ae0c",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:02109609>> addButton(1,\"Appearance\",ka)"
+    "translation": "外貌",
+    "context": "<<POS:02109609>> addButton(1,\"Appearance\",ka)",
+    "stage": 1
   },
   {
     "key": "button|Sex|07b5f9447fbb",
@@ -264,10 +266,22 @@
     "context": "<<POS:02191344>> addDisabledButton(e,\"Festival\",\"Festival\",\"You don’t think it’s the right time yet. Quinn indicated the early evening. Try checking back between 16:45 - 19:00.\")"
   },
   {
+    "key": "button.expr|var0_quinnBabyName|56c81df18d7e",
+    "original": "{var0}.quinnBabyName()",
+    "translation": "",
+    "context": "<<POS:02191580>> <<VARS:var0=window>> addDisabledButton(5,window.quinnBabyName(),\"Play with\"+window.quinnBabyName(),\"You’ve already played with Quinn’s kid today!\")"
+  },
+  {
     "key": "button.hover|You_ve_already_played_with_Quinn_s_kid_today|5a4450b8ade1",
     "original": "You’ve already played with Quinn’s kid today!",
     "translation": "",
     "context": "<<POS:02191639>> addDisabledButton(5,window.quinnBabyName(),\"Play with\"+window.quinnBabyName(),\"You’ve already played with Quinn’s kid today!\")"
+  },
+  {
+    "key": "button.expr|var0_quinnBabyName|ff1aa139b9d2",
+    "original": "{var0}.quinnBabyName()",
+    "translation": "",
+    "context": "<<POS:02191699>> <<VARS:var0=window>> addButton(5,window.quinnBabyName(),(function(){var e=n.s.getStat(\"pregnancy/quinn sired\")>0,t=1===flags.QUINN_KID_SEX,o=i.kd.numChildrenAtNursery();if(clearOutput(),!Ba())return clearBust(),clearName(),output(blockHeader(\"Maybe Not...\")),output((e?\"Your\":\"Quinn’s\")+\" child is most likely sleeping at..."
   },
   {
     "key": "button.hover|Play_with|5042c93e3d3e",
@@ -290,8 +304,9 @@
   {
     "key": "button|Next|d57476b68678",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02197108>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02197108>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output.expr|i_No_i_Quinn_replies_curtly_i_I_need_I_need_to_be_car|4d444e994d50",
@@ -314,14 +329,16 @@
   {
     "key": "button|Back|ab4e5aa2e682",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:02197867>> addButton(14,\"Back\",Aa)"
+    "translation": "返回",
+    "context": "<<POS:02197867>> addButton(14,\"Back\",Aa)",
+    "stage": 1
   },
   {
     "key": "button|Next|6d18801ef4fb",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02197891>> addButton(0,\"Next\",Aa)"
+    "translation": "继续",
+    "context": "<<POS:02197891>> addButton(0,\"Next\",Aa)",
+    "stage": 1
   },
   {
     "key": "output|You_follow_her_bobbing_abdomen_and_the_glossy_slink_of_her_legs|f19f4c409363",
@@ -470,8 +487,9 @@
   {
     "key": "button|Back|d880790d6009",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:02237555>> addButton(14,\"Back\",(function(){clearOutput(),da(!0),author(\"Nonesuch\"),output(\"You shamefacedly explain that you have no suitably endowments to please her with and hastily retreat.\"),clearMenu(),addButton(0,\"Next\",mainGameMenu)}))"
+    "translation": "返回",
+    "context": "<<POS:02237555>> addButton(14,\"Back\",(function(){clearOutput(),da(!0),author(\"Nonesuch\"),output(\"You shamefacedly explain that you have no suitably endowments to please her with and hastily retreat.\"),clearMenu(),addButton(0,\"Next\",mainGameMenu)}))",
+    "stage": 1
   },
   {
     "key": "output|i_Here_Quinn_Watch_this_i|532b1d4d0f49",
@@ -956,8 +974,9 @@
   {
     "key": "button|Next|a4574153e4f8",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02260799>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02260799>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_re_the_one_that_s_brought_the_weird_piece_of_starwalker_magi|232e502945e0",
@@ -1160,8 +1179,9 @@
   {
     "key": "button|Next|e9532f48b9b8",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02271374>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02271374>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|i_Talk_i_says_Quinn_absently_Her_golden_irises_rest_upon|671708c42ce4",
@@ -1202,8 +1222,9 @@
   {
     "key": "button|Next|b8111dac6214",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02273223>> addButton(0,\"Next\",(function(){return e(\"next\")}))"
+    "translation": "继续",
+    "context": "<<POS:02273223>> addButton(0,\"Next\",(function(){return e(\"next\")}))",
+    "stage": 1
   },
   {
     "key": "output|i_Um_i_How_to_put_this_i_I_don_t_know_if_you_ve_notic|9927e119f189",
@@ -1400,8 +1421,9 @@
   {
     "key": "button|Next|2bbbe7d4f4d2",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02280234>> addButton(0,\"Next\",(function(){return e(\"finish\")}))"
+    "translation": "继续",
+    "context": "<<POS:02280234>> addButton(0,\"Next\",(function(){return e(\"finish\")}))",
+    "stage": 1
   },
   {
     "key": "output|The_prospect_of_several_zil_doing_you_every_which_way_until_dawn|d9077865b993",
@@ -1424,8 +1446,9 @@
   {
     "key": "button|Next|4fa3a402b256",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02280917>> addButton(0,\"Next\",(function(){return e(\"finish\")}))"
+    "translation": "继续",
+    "context": "<<POS:02280917>> addButton(0,\"Next\",(function(){return e(\"finish\")}))",
+    "stage": 1
   },
   {
     "key": "output.expr|i_You_don_t_need_a_ball_of_random_guys_to_put_a_baby_in_you|9d1bcd14f219",
@@ -1448,8 +1471,9 @@
   {
     "key": "button|Yes|5a1ea50a0ff2",
     "original": "Yes",
-    "translation": "",
-    "context": "<<POS:02282108>> addButton(0,\"Yes\",(function(){return e(\"just me yes\")}),\"Yes\",\"Kicking a bunch of bee boi butts beforehand will only make your dick harder.\")"
+    "translation": "是的",
+    "context": "<<POS:02282108>> addButton(0,\"Yes\",(function(){return e(\"just me yes\")}),\"Yes\",\"Kicking a bunch of bee boi butts beforehand will only make your dick harder.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Yes|5a1ea50a0ff2",
@@ -1466,8 +1490,9 @@
   {
     "key": "button|No|7ecb17add243",
     "original": "No",
-    "translation": "",
-    "context": "<<POS:02282250>> addButton(1,\"No\",(function(){return e(\"just me no\")}),\"No\",\"Maybe not the best idea.\")"
+    "translation": "不",
+    "context": "<<POS:02282250>> addButton(1,\"No\",(function(){return e(\"just me no\")}),\"No\",\"Maybe not the best idea.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|No|7ecb17add243",
@@ -1496,8 +1521,9 @@
   {
     "key": "button|Next|6de3a03c4a2e",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02283118>> addButton(0,\"Next\",(function(){return e(\"finish\")}))"
+    "translation": "继续",
+    "context": "<<POS:02283118>> addButton(0,\"Next\",(function(){return e(\"finish\")}))",
+    "stage": 1
   },
   {
     "key": "output|i_Come_back_when_the_suns_are_beginning_to_set_i_Quinn_dis|fb454633094e",
@@ -1514,8 +1540,9 @@
   {
     "key": "button|Next|c1bd4b539abb",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02283709>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02283709>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "button|Why_Group|9f824585282e",
@@ -1880,8 +1907,9 @@
   {
     "key": "button|Back|78a647862b28",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:02298998>> addButton(14,\"Back\",Aa)"
+    "translation": "返回",
+    "context": "<<POS:02298998>> addButton(14,\"Back\",Aa)",
+    "stage": 1
   },
   {
     "key": "output|i_I_heard_hissing_sounds_coming_up_from_underneath_the_wate|ea9d5bd09a38",
@@ -1940,8 +1968,9 @@
   {
     "key": "button|Next|ba72b96433b2",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02301326>> addButton(0,\"Next\",Ya)"
+    "translation": "继续",
+    "context": "<<POS:02301326>> addButton(0,\"Next\",Ya)",
+    "stage": 1
   },
   {
     "key": "output|i_Have_you_managed_to_make_contact_with_the_people_of_Esbeth|12a52fe34936",
@@ -1994,8 +2023,9 @@
   {
     "key": "button|Next|2e000bee68c9",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02303363>> addButton(0,\"Next\",Ya)"
+    "translation": "继续",
+    "context": "<<POS:02303363>> addButton(0,\"Next\",Ya)",
+    "stage": 1
   },
   {
     "key": "output|What_would_you_ask_of_the_zil_Queen_now|0c10910fb9a4",
@@ -2048,8 +2078,9 @@
   {
     "key": "button|Next|8a0af61670ea",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02305800>> addButton(0,\"Next\",(function(){return Oa(\"next\")}))"
+    "translation": "继续",
+    "context": "<<POS:02305800>> addButton(0,\"Next\",(function(){return Oa(\"next\")}))",
+    "stage": 1
   },
   {
     "key": "name.show|Quinn|cbadb78eb34c",
@@ -2066,8 +2097,9 @@
   {
     "key": "button|Next|e253537327cd",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02306175>> addButton(0,\"Next\",Ia)"
+    "translation": "继续",
+    "context": "<<POS:02306175>> addButton(0,\"Next\",Ia)",
+    "stage": 1
   },
   {
     "key": "name.show|Quinn|cbadb78eb34c#1",
@@ -2090,8 +2122,9 @@
   {
     "key": "button|Back|ab4e5aa2e682#1",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:02306518>> addButton(14,\"Back\",Aa)"
+    "translation": "返回",
+    "context": "<<POS:02306518>> addButton(14,\"Back\",Aa)",
+    "stage": 1
   },
   {
     "key": "output|i_So_generous_of_our_Quinn_to_let_us_have_the_star_person_cham|4bde1a14cd3d",
@@ -2120,8 +2153,9 @@
   {
     "key": "button|Next|42e93720f39c",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02308954>> addButton(0,\"Next\",(function(){return Oa(s,t,o,n,a,i)}))"
+    "translation": "继续",
+    "context": "<<POS:02308954>> addButton(0,\"Next\",(function(){return Oa(s,t,o,n,a,i)}))",
+    "stage": 1
   },
   {
     "key": "output.expr|i_Ooh_Fetch_look_i_she_coos_hands_grasping_your_pc_cock|2bd21ce7b533",
@@ -2312,8 +2346,9 @@
   {
     "key": "button|Next|488e6d22ffa8",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02316493>> addButton(0,\"Next\",(function(){return Oa(\"cocks next\",t,o,n,a,i)}))"
+    "translation": "继续",
+    "context": "<<POS:02316493>> addButton(0,\"Next\",(function(){return Oa(\"cocks next\",t,o,n,a,i)}))",
+    "stage": 1
   },
   {
     "key": "output.expr|After_another_good_fifteen_minutes_of_pounding_the_shorter_zil_s|ac5a2d7f7cde",
@@ -2354,8 +2389,9 @@
   {
     "key": "button|Next|e9e827916b26",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02318796>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02318796>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output.expr|i_They_were_telling_the_truth_you_know_Fetch_i_she_murmur|74248d12bd96",
@@ -2522,8 +2558,9 @@
   {
     "key": "button|Next|88391b780409",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02326532>> addButton(0,\"Next\",(function(){return Oa(\"vagina next\",t,o,n,a,i)}))"
+    "translation": "继续",
+    "context": "<<POS:02326532>> addButton(0,\"Next\",(function(){return Oa(\"vagina next\",t,o,n,a,i)}))",
+    "stage": 1
   },
   {
     "key": "output.expr|You_do_a_pretty_good_job_of_meeting_Fetch_s_demands_her_mouth_i|91e6301dd66f",
@@ -2564,8 +2601,9 @@
   {
     "key": "button|Next|30653d3bae96",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02328390>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02328390>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output.expr|i_So_this_is_what_starwalkers_hide_underneath_their_soft_plate|ed77493d551e",
@@ -2612,8 +2650,9 @@
   {
     "key": "button|Next|4ac66e2ce00b",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02332600>> addButton(0,\"Next\",(function(){return Oa(\"cock pheromones\",t,o,n,a,i)}))"
+    "translation": "继续",
+    "context": "<<POS:02332600>> addButton(0,\"Next\",(function(){return Oa(\"cock pheromones\",t,o,n,a,i)}))",
+    "stage": 1
   },
   {
     "key": "output.expr|i_You_re_uh_not_as_big_as_I_was_expecting_i_murmurs_th|bc92289ae21f",
@@ -2756,8 +2795,9 @@
   {
     "key": "button|Next|88391b780409#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02340744>> addButton(0,\"Next\",(function(){return Oa(\"cock next\",t,o,n,a,i)}))"
+    "translation": "继续",
+    "context": "<<POS:02340744>> addButton(0,\"Next\",(function(){return Oa(\"cock next\",t,o,n,a,i)}))",
+    "stage": 1
   },
   {
     "key": "output|i_Aww_i_buzzes_Fetch_a_few_moments_later_i_You_gave_Ca|f496a0537273",
@@ -2852,8 +2892,9 @@
   {
     "key": "button|Next|30653d3bae96#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02346528>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02346528>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output.expr|You_do_a_pretty_good_job_of_meeting_Fetch_s_demands_her_mouth_i|91e6301dd66f#1",
@@ -2894,8 +2935,9 @@
   {
     "key": "button|Next|30653d3bae96#2",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02348348>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02348348>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|ERROR_No_scene_available|1e2fee527bb7",
@@ -2906,8 +2948,9 @@
   {
     "key": "button|Next|92272f8da3bd",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02348454>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02348454>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Fetch_Carry|61b583ca1a4a",
@@ -3308,8 +3351,9 @@
   {
     "key": "button|Next|d3c4c6660235",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02363478>> addButton(0,\"Next\",t)"
+    "translation": "继续",
+    "context": "<<POS:02363478>> addButton(0,\"Next\",t)",
+    "stage": 1
   },
   {
     "key": "output|You_follow_a_supple_white_clad_rump_a_pair_of_wings_the_size_o|08a5491b140f",
@@ -3614,8 +3658,9 @@
   {
     "key": "button|Next|bf4a99e39e77",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02386699>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02386699>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Beyond_the_brass_gates_the_gutted_manor_house_continues_to_smol|aa01607a4201",

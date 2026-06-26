@@ -1,5 +1,11 @@
 [
   {
+    "key": "output.expr|Your_queasy_stomach_has_been_complaining_more_and_more_you_can|2d9549c493f0",
+    "original": "Your queasy stomach has been complaining more and more; you can barely keep meals down.\"+({var0}?\" Despite this, your [pc.belly] seems bigger, if anything.\":\"\")",
+    "translation": "",
+    "context": "<<POS:10269229>> <<VARS:var0=pc.bellyRating()<10>> ParseText(\"Your queasy stomach has been complaining more and more; you can barely keep meals down.\"+(pc.bellyRating()<10?\" Despite this, your [pc.belly] seems bigger, if anything.\":\"\"))"
+  },
+  {
     "key": "assign|The_cause_of_the_terrible_nausea_you_suffered_is_visible_now_y|a2b39794ced0",
     "original": "The cause of the terrible nausea you suffered is visible now - your womb is swollen with new life,",
     "translation": "",

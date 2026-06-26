@@ -1,39 +1,9 @@
 [
   {
-    "key": "output|a_pair_of|9cced2e33313",
-    "original": " a pair of",
+    "key": "assign|a_Lupinol_medipen|6136e44c0f4c",
+    "original": "a Lupinol medipen",
     "translation": "",
-    "context": "<<POS:08393827>>"
-  },
-  {
-    "key": "output|Your_pc_hair_soon_begins_to_molt_or_perhaps_melt_is_a_better|fc37057fa74b",
-    "original": "Your [pc.hair] soon begins to molt; or perhaps melt is a better way to describe how it feels, wicking away under the heat of your scalp to leave your head bare. It doesn’t stay that way for long, as fresh [pc.hairColor] locks grow in in short order, taking the heat with them. In time, the sensation fully fades, leaving you with a new full head of hair.",
-    "translation": "",
-    "context": "<<POS:08394352>>"
-  },
-  {
-    "key": "output.expr|var0_hairTypeLockedMessage|bc8eec710ac3",
-    "original": "\"+{var0}.hairTypeLockedMessage()",
-    "translation": "",
-    "context": "<<POS:08394777>> <<VARS:var0=e>> output(\"\\n\\n\"+e.hairTypeLockedMessage())"
-  },
-  {
-    "key": "output.expr|Your_var0_hasScales_scales_chitin_start_to_flake_a|e208da848fda",
-    "original": "Your \"+({var0}.hasScales()?\"scales\":\"chitin\")+\" start to flake away as they heat up, revealing swathes of fresh smooth [pc.skinColor] skin beneath. You’re left confused - wasn’t this supposed to grow fur? - but a second wave of warmth follows just as you finish the thought. ",
-    "translation": "",
-    "context": "<<POS:08395161>> <<VARS:var0=e>> output(\"Your \"+(e.hasScales()?\"scales\":\"chitin\")+\" start to flake away as they heat up, revealing swathes of fresh smooth [pc.skinColor] skin beneath. You’re left confused - wasn’t this supposed to grow fur? - but a second wave of warmth follows just as you finish the thought. \")"
-  },
-  {
-    "key": "output.expr|Swathes_of_new_var0_fur_begin_to_fill_out_across_your_skin|1d35c5bcd5c8",
-    "original": "Swathes of new \"+{var0}+\" fur begin to fill out across your skin, soon spreading to cover you completely in the warm pelt. It’s not quite thick enough to go without a heat belt on an ice world, but it should make you much more comfortable.",
-    "translation": "",
-    "context": "<<POS:08395442>> <<VARS:var0=o>> output(\"Swathes of new \"+o+\" fur begin to fill out across your skin, soon spreading to cover you completely in the warm pelt. It’s not quite thick enough to go without a heat belt on an ice world, but it should make you much more comfortable.\")"
-  },
-  {
-    "key": "output.expr|var0_skinTypeLockedMessage|73b4849f3550",
-    "original": "\"+{var0}.skinTypeLockedMessage()",
-    "translation": "",
-    "context": "<<POS:08395756>> <<VARS:var0=e>> output(\"\\n\\n\"+e.skinTypeLockedMessage())"
+    "context": "<<POS:08879041>>"
   },
   {
     "key": "assign|One_of_Steele_Tech_s_newer_forays_into_the_transformatives_marke|be9fe5442de1",
@@ -360,6 +330,12 @@
     "context": "<<POS:08889696>>  output(\"\\n\\nYour \"+(1===e.legCount?\"[pc.leg] is\":\"[pc.legs] are\")+\" peppered with shocks that force you to sit, your muscles spasming uncontrollably. You watch as your lower body twists and morphs, forming into\")"
   },
   {
+    "key": "output|a_pair_of|9cced2e33313",
+    "original": " a pair of",
+    "translation": "",
+    "context": "<<POS:08889920>>"
+  },
+  {
     "key": "output|digitigrade_legs_coated_in_silky_pc_furColor_fur_Each_bears|dbccd731607a",
     "original": " digitigrade legs coated in silky [pc.furColor] fur. Each bears three large, thick toes tipped with distinctly lupine claws, further distinguishing them from an ausar’s legs. You soon get on your feet to get the hang of walking with <b>your new lupine legs.</b>",
     "translation": "",
@@ -372,6 +348,18 @@
     "context": "<<POS:08890408>> <<VARS:var0=e>> output(\"\\n\\n\"+e.legTypeLockedMessage())"
   },
   {
+    "key": "output|Your_pc_hair_soon_begins_to_molt_or_perhaps_melt_is_a_better|fc37057fa74b",
+    "original": "Your [pc.hair] soon begins to molt; or perhaps melt is a better way to describe how it feels, wicking away under the heat of your scalp to leave your head bare. It doesn’t stay that way for long, as fresh [pc.hairColor] locks grow in in short order, taking the heat with them. In time, the sensation fully fades, leaving you with a new full head of hair.",
+    "translation": "",
+    "context": "<<POS:08890499>>"
+  },
+  {
+    "key": "output.expr|var0_hairTypeLockedMessage|bc8eec710ac3",
+    "original": "\"+{var0}.hairTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:08890924>> <<VARS:var0=e>> output(\"\\n\\n\"+e.hairTypeLockedMessage())"
+  },
+  {
     "key": "output.expr|Streaks_of_var0_paint_themselves_across_your_body_like_bei|aa93108d28d2",
     "original": "Streaks of \"+{var0}+\" paint themselves across your body like being worked over with a paintbrush, gradually overwriting your \"+{var1}+\" fur entirely with a new \"+{var2}+\" palette. <b>Your fur is now \"+{var3}+\".</b>",
     "translation": "",
@@ -382,5 +370,23 @@
     "original": "\"+{var0}.furColorLockedMessage()",
     "translation": "",
     "context": "<<POS:08891225>> <<VARS:var0=e>> output(\"\\n\\n\"+e.furColorLockedMessage())"
+  },
+  {
+    "key": "output.expr|Your_var0_hasScales_scales_chitin_start_to_flake_a|e208da848fda",
+    "original": "Your \"+({var0}.hasScales()?\"scales\":\"chitin\")+\" start to flake away as they heat up, revealing swathes of fresh smooth [pc.skinColor] skin beneath. You’re left confused - wasn’t this supposed to grow fur? - but a second wave of warmth follows just as you finish the thought. ",
+    "translation": "",
+    "context": "<<POS:08891356>> <<VARS:var0=e>> output(\"Your \"+(e.hasScales()?\"scales\":\"chitin\")+\" start to flake away as they heat up, revealing swathes of fresh smooth [pc.skinColor] skin beneath. You’re left confused - wasn’t this supposed to grow fur? - but a second wave of warmth follows just as you finish the thought. \")"
+  },
+  {
+    "key": "output.expr|Swathes_of_new_var0_fur_begin_to_fill_out_across_your_skin|1d35c5bcd5c8",
+    "original": "Swathes of new \"+{var0}+\" fur begin to fill out across your skin, soon spreading to cover you completely in the warm pelt. It’s not quite thick enough to go without a heat belt on an ice world, but it should make you much more comfortable.",
+    "translation": "",
+    "context": "<<POS:08891637>> <<VARS:var0=o>> output(\"Swathes of new \"+o+\" fur begin to fill out across your skin, soon spreading to cover you completely in the warm pelt. It’s not quite thick enough to go without a heat belt on an ice world, but it should make you much more comfortable.\")"
+  },
+  {
+    "key": "output.expr|var0_skinTypeLockedMessage|73b4849f3550",
+    "original": "\"+{var0}.skinTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:08891951>> <<VARS:var0=e>> output(\"\\n\\n\"+e.skinTypeLockedMessage())"
   }
 ]

@@ -26,8 +26,9 @@
   {
     "key": "button|Next|c606e8c0c0bc",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00008401>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00008401>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_step_through_the_door_into_Governor_Tee_s_office_The_inside|e567432f0699",
@@ -566,8 +567,9 @@
   {
     "key": "button|Back|9f89581a0758",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:00024487>> addButton(14,\"Back\",e)"
+    "translation": "返回",
+    "context": "<<POS:00024487>> addButton(14,\"Back\",e)",
+    "stage": 1
   },
   {
     "key": "button|Talk|7a001b3d36bc",
@@ -950,8 +952,9 @@
   {
     "key": "button|Next|5a83468d0921",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00076855>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00076855>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "button|Suckle|93408d8c9a3b",
@@ -1202,8 +1205,9 @@
   {
     "key": "button|Back|68017ad2dd4e",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:00121907>> addButton(14,\"Back\",e)"
+    "translation": "返回",
+    "context": "<<POS:00121907>> addButton(14,\"Back\",e)",
+    "stage": 1
   },
   {
     "key": "perk|Fixed_CumQ|3f4dd5b5d234",
@@ -1214,8 +1218,9 @@
   {
     "key": "button|Appearance|e1b20d784d01",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:00122233>> addButton(0,\"Appearance\",(function(){clearOutput(),s(),author(\"HugsAlright\"),void 0!==flags.BRANDYWEEN?(output(\"Brandy in all her glory is standing about 5' 11\\\" before you. She’s a beautiful New Texan girl with pale skin covered in freckles, thickset hips, and huge, F-cup breasts capped with big pi..."
+    "translation": "外貌",
+    "context": "<<POS:00122233>> addButton(0,\"Appearance\",(function(){clearOutput(),s(),author(\"HugsAlright\"),void 0!==flags.BRANDYWEEN?(output(\"Brandy in all her glory is standing about 5' 11\\\" before you. She’s a beautiful New Texan girl with pale skin covered in freckles, thickset hips, and huge, F-cup breasts capped with big pi...",
+    "stage": 1
   },
   {
     "key": "button.hover|Appearance|e1b20d784d01",
@@ -1508,8 +1513,9 @@
   {
     "key": "button|Next|8d361875c06c",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00206004>> addButton(0,\"Next\",(function(){return moveToRoom(\"BrynnsStall\",!0)}))"
+    "translation": "继续",
+    "context": "<<POS:00206004>> addButton(0,\"Next\",(function(){return moveToRoom(\"BrynnsStall\",!0)}))",
+    "stage": 1
   },
   {
     "key": "output|you_catch_a_lung_full_of_pheromones_an_amalgamation_containing|ccab5c0074d7",
@@ -1532,8 +1538,9 @@
   {
     "key": "output|s|037f063ac6f7",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:00206502>>"
+    "translation": "​",
+    "context": "<<POS:00206502>>",
+    "stage": 1
   },
   {
     "key": "output|insistently|f022bae0382b",
@@ -1598,8 +1605,9 @@
   {
     "key": "output|s|1105b10fd6a5",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:00206978>>"
+    "translation": "​",
+    "context": "<<POS:00206978>>",
+    "stage": 1
   },
   {
     "key": "output|suit_fluttering|543a5f61b298",
@@ -1616,8 +1624,9 @@
   {
     "key": "output|s|4750883026ba",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:00207062>>"
+    "translation": "​",
+    "context": "<<POS:00207062>>",
+    "stage": 1
   },
   {
     "key": "output|and_flush|2e83c3254224",
@@ -1790,8 +1799,9 @@
   {
     "key": "output|s|750aeca267db",
     "original": "s",
-    "translation": "",
-    "context": "<<POS:00213247>>"
+    "translation": "​",
+    "context": "<<POS:00213247>>",
+    "stage": 1
   },
   {
     "key": "output|to_a_stop_your_pc_legOrLegs_having_been_moving_on_effective|fcd852e3fdb3",
@@ -2226,6 +2236,18 @@
     "context": "<<POS:00286551>>"
   },
   {
+    "key": "button.expr|var0|48fb2ac5c1e4",
+    "original": "{var0}()",
+    "translation": "",
+    "context": "<<POS:00286777>> <<VARS:var0=t>> addButton(3,t(),(function(){clearOutput(),o(),author(\"HugsAlright\"),void 0===flags.MET_SALLY?(output(\"You decide to go up to the cowgirl and begin to casually stroll your way to the bar. Her lust-inducing scent keeps your eyes fixed on her big, wobbly tits and dusky skin, sparkling with little drops..."
+  },
+  {
+    "key": "button.hover.expr|var0|48fb2ac5c1e4",
+    "original": "{var0}()",
+    "translation": "",
+    "context": "<<POS:00311135>> <<VARS:var0=t>> addButton(3,t(),(function(){clearOutput(),o(),author(\"HugsAlright\"),void 0===flags.MET_SALLY?(output(\"You decide to go up to the cowgirl and begin to casually stroll your way to the bar. Her lust-inducing scent keeps your eyes fixed on her big, wobbly tits and dusky skin, sparkling with little drops..."
+  },
+  {
     "key": "button.tooltip|Follow_the_wonderful_scent_of_that_cowgirl_to_the_bar|33cdd3663b8a",
     "original": "Follow the wonderful scent of that cowgirl to the bar.",
     "translation": "",
@@ -2474,8 +2496,9 @@
   {
     "key": "button|Appearance|ba068b4b06bd",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:00373931>> addDisabledButton(5,\"Appearance\")"
+    "translation": "外貌",
+    "context": "<<POS:00373931>> addDisabledButton(5,\"Appearance\")",
+    "stage": 1
   },
   {
     "key": "output|You_tell_James_you_d_like_to_see_if_you_can_qualify_with_your_pu|baf800bf7dd0",
@@ -2738,8 +2761,9 @@
   {
     "key": "button|Appearance|01579320af78",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:00383279>> addButton(5,\"Appearance\",o,\"Appearance\",\"Get a closer look at him.\")"
+    "translation": "外貌",
+    "context": "<<POS:00383279>> addButton(5,\"Appearance\",o,\"Appearance\",\"Get a closer look at him.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Appearance|01579320af78",
@@ -2756,11 +2780,18 @@
   {
     "key": "button|Back|f1ca1c7707b7",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:00383349>> addButton(14,\"Back\",mainGameMenu)"
+    "translation": "返回",
+    "context": "<<POS:00383349>> addButton(14,\"Back\",mainGameMenu)",
+    "stage": 1
   },
   {
-    "key": "name.show|Living_Kegs|b889914cb1ec",
+    "key": "name.show.expr|var0|c801e603f97a",
+    "original": "{var0}()",
+    "translation": "",
+    "context": "<<POS:00383475>> <<VARS:var0=t>> showName(t())"
+  },
+  {
+    "key": "name.show|Living_Kegs|de07a6ed8348",
     "original": "Living Kegs",
     "translation": "",
     "context": "<<POS:00383599>> showName(\"Living Kegs\")"
@@ -2838,10 +2869,34 @@
     "context": "<<POS:00386715>>"
   },
   {
+    "key": "button.expr|var0|b111670ecf15",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00386824>> <<VARS:var0=d>> addButton(h++,d,(function(){return e.func(e.name,0)}),e.name,null!=n?n:\"Request this drink.\")"
+  },
+  {
+    "key": "button.hover.expr|var0|b111670ecf15",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00386864>> <<VARS:var0=e.name>> addButton(h++,d,(function(){return e.func(e.name,0)}),e.name,null!=n?n:\"Request this drink.\")"
+  },
+  {
     "key": "button.tooltip.expr|var0_var1_Request_this_drink|cd953c7d65db",
     "original": "{var0}?{var1}:\"Request this drink.\"",
     "translation": "",
     "context": "<<POS:00386871>> <<VARS:var0=null!=n,var1=n>> addButton(h++,d,(function(){return e.func(e.name,0)}),e.name,null!=n?n:\"Request this drink.\")"
+  },
+  {
+    "key": "button.expr|var0|4ecf4b8b34de",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00386937>> <<VARS:var0=d>> addButton(h++,d,(function(){return e.func(e.cost)}),e.name,null!=n?n:\"Buy this drink.\",o)"
+  },
+  {
+    "key": "button.hover.expr|var0|4ecf4b8b34de",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00386975>> <<VARS:var0=e.name>> addButton(h++,d,(function(){return e.func(e.cost)}),e.name,null!=n?n:\"Buy this drink.\",o)"
   },
   {
     "key": "button.tooltip.expr|var0_var1_Buy_this_drink|cd0ec7101b13",
@@ -2850,13 +2905,25 @@
     "context": "<<POS:00386982>> <<VARS:var0=null!=n,var1=n>> addButton(h++,d,(function(){return e.func(e.cost)}),e.name,null!=n?n:\"Buy this drink.\",o)"
   },
   {
+    "key": "button.expr|var0|194f30baa92a",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00387035>> <<VARS:var0=d>> addDisabledButton(h++,d,e.name,\"You can’t afford that.\",o)"
+  },
+  {
     "key": "button.hover|You_can_t_afford_that|20b111e8e214",
     "original": "You can’t afford that.",
     "translation": "",
     "context": "<<POS:00387045>> addDisabledButton(h++,d,e.name,\"You can’t afford that.\",o)"
   },
   {
-    "key": "name.show|Whiskey_Cow|aa376671e049",
+    "key": "button.tooltip.expr|var0|194f30baa92a",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00387069>> <<VARS:var0=o>> addDisabledButton(h++,d,e.name,\"You can’t afford that.\",o)"
+  },
+  {
+    "key": "name.show|Whiskey_Cow|dc49b30b678c",
     "original": "Whiskey Cow",
     "translation": "",
     "context": "<<POS:00387216>> showName(\"Whiskey Cow\")"
@@ -2924,8 +2991,9 @@
   {
     "key": "button|Next|ebb4cf2626d7",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00391103>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00391103>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Beer_Cow|f90d0e4e1a0e",
@@ -3002,8 +3070,9 @@
   {
     "key": "button|Next|ebb4cf2626d7#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00395218>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00395218>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_stroll_your_way_up_to|4dbbb26891c0",
@@ -3170,8 +3239,9 @@
   {
     "key": "button|Next|6ce370bf0fcc",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00399986>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00399986>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "button|Leave|624c4177527d",
@@ -3206,8 +3276,9 @@
   {
     "key": "button|Next|760c5d2acf0c",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00401853>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:00401853>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|pc_kmhbb_i_Gladly_Where_do_you_want_to_do_it_i_br_br_i|a3fd95907a8d",
@@ -3224,8 +3295,9 @@
   {
     "key": "button|Next|5299dc082569",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00402850>> addButton(0,\"Next\",a)"
+    "translation": "继续",
+    "context": "<<POS:00402850>> addButton(0,\"Next\",a)",
+    "stage": 1
   },
   {
     "key": "output|Naomi_s_apartment_is_well_furnished_and_luxurious_but_you_don_t|a8acc398ca1d",
@@ -3356,8 +3428,9 @@
   {
     "key": "button|Next|90c98f485a70",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00411019>> addButton(0,\"Next\",i)"
+    "translation": "继续",
+    "context": "<<POS:00411019>> addButton(0,\"Next\",i)",
+    "stage": 1
   },
   {
     "key": "output|After_awakening_your_crotch_still_sticky_with_your_combined_eja|295d8f2283f8",
@@ -3368,8 +3441,9 @@
   {
     "key": "button|Next|9e1f7fcc269c",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:00411829>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.505\",!0)}))"
+    "translation": "继续",
+    "context": "<<POS:00411829>> addButton(0,\"Next\",(function(){return moveToRoom(\"NYE.NEWTEXAS.505\",!0)}))",
+    "stage": 1
   },
   {
     "key": "output.expr|var0_Naomi_A_disappointed_cowgirl_catches_your_eye_as|3b0b4c8963aa",

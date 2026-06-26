@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|jar_of_Easy_Fit_cream|c25f3e941eea",
+    "original": "jar of Easy Fit cream",
+    "translation": "",
+    "context": "<<POS:06392039>>"
+  },
+  {
     "key": "assign|a_jar_of_Easy_Fit_cream|66a47833a62b",
     "original": "a jar of Easy Fit cream",
     "translation": "",
@@ -162,6 +168,13 @@
     "context": "<<POS:06395071>>"
   },
   {
+    "key": "output|s|e453d4b78026",
+    "original": "s",
+    "translation": "​",
+    "context": "<<POS:06395107>>",
+    "stage": 1
+  },
+  {
     "key": "output|asshole|c23d2813777e",
     "original": " asshole",
     "translation": "",
@@ -255,7 +268,8 @@
     "key": "button|Next|f7d2f174b6e3",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:06396352>> addButton(0,\"Next\",(function(){return a.returnToInventory(a)}))"
+    "context": "<<POS:06396352>> addButton(0,\"Next\",(function(){return a.returnToInventory(a)}))",
+    "stage": 1
   },
   {
     "key": "output|b_ERROR_b_Orifice_used_for_targetHole_is_not_a_valid_choice|fe6d31cc7d62",
@@ -267,7 +281,8 @@
     "key": "button|Next|e841b654bc3a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:06396505>> addButton(0,\"Next\",(function(){return a.easyFitPutAway(a)}))"
+    "context": "<<POS:06396505>> addButton(0,\"Next\",(function(){return a.easyFitPutAway(a)}))",
+    "stage": 1
   },
   {
     "key": "output|Now_is_not_the_time_to_use_that_You_put_the_item_back_into_your|017ac41da9d8",
@@ -279,6 +294,7 @@
     "key": "button|Next|7a41f11c3084",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:06396741>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+    "context": "<<POS:06396741>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   }
 ]

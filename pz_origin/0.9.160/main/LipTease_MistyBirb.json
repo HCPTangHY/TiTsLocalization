@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|Lip_Tease_lip_balm|dc92964c62cc",
+    "original": "Lip Tease lip balm",
+    "translation": "",
+    "context": "<<POS:08848463>>"
+  },
+  {
     "key": "assign|a_doubled_ended_lip_balm_labeled_Lip_Tease|14b887d2fbd5",
     "original": "a doubled-ended lip balm labeled “Lip Tease”",
     "translation": "",
@@ -57,7 +63,8 @@
     "key": "button|Back|c72ab86f5f2a",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:08850072>> addButton(14,\"Back\",(function(){return o.rbgCancel(e,t)}))"
+    "context": "<<POS:08850072>> addButton(14,\"Back\",(function(){return o.rbgCancel(e,t)}))",
+    "stage": 1
   },
   {
     "key": "output.expr|The_directions_say_you_have_to_pick_a_color_before_shaking_it_D|6c484b0934b3",
@@ -69,7 +76,8 @@
     "key": "button|Yes|11ddd4ba5066",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:08850565>> addButton(0,\"Yes\",(function(){return o.rbgSelColor(e,t,!1,a,n)}),\"Choose Color\",\"Choose a color for your \"+this.lipTypeString(t)+\".\")"
+    "context": "<<POS:08850565>> addButton(0,\"Yes\",(function(){return o.rbgSelColor(e,t,!1,a,n)}),\"Choose Color\",\"Choose a color for your \"+this.lipTypeString(t)+\".\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Choose_Color|7df78d690716",
@@ -87,7 +95,8 @@
     "key": "button|No|3fbe0f98d472",
     "original": "No",
     "translation": "不",
-    "context": "<<POS:08850699>> addButton(1,\"No\",(function(){return o.sizeMenu(e,t,\"null\",a)}),\"No Color\",\"Don’t change the color of your \"+this.lipTypeString(t)+\".\")"
+    "context": "<<POS:08850699>> addButton(1,\"No\",(function(){return o.sizeMenu(e,t,\"null\",a)}),\"No Color\",\"Don’t change the color of your \"+this.lipTypeString(t)+\".\")",
+    "stage": 1
   },
   {
     "key": "button.hover|No_Color|feef1075c930",
@@ -123,7 +132,15 @@
     "key": "button|Back|8a5bdeb8ae0b",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:08851023>> addButton(14,\"Back\",(function(){return o.lipMenu(e,n)}))"
+    "context": "<<POS:08851023>> addButton(14,\"Back\",(function(){return o.lipMenu(e,n)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Back|8377b4609270",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:08851080>> addButton(14,\"Back\",(function(){return o.rbgCancel(e,n)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Lip_Tease|869fd3c9d9ea",
@@ -150,6 +167,48 @@
     "context": "<<POS:08851439>> <<VARS:var0=n,var1=l.m,var2=l.m>> output(\"\\n<b>\"+l.m.capitalize(l.m.numToOrdinal(n+1))+\" Vagina:</b>\")"
   },
   {
+    "key": "output.expr|var0|7e9bd5935c12",
+    "original": " \"+{var0}+\",",
+    "translation": "",
+    "context": "<<POS:08851578>> <<VARS:var0=GLOBAL.FLAG_NAMES[e.vaginas[n].flags[i]]>> output(\" \"+GLOBAL.FLAG_NAMES[e.vaginas[n].flags[i]]+\",\")"
+  },
+  {
+    "key": "output.expr|var1_toDisplayCase_var0|6b56906039bd",
+    "original": " \"+{var1}.toDisplayCase({var0})+\",",
+    "translation": "",
+    "context": "<<POS:08851666>> <<VARS:var0=e.vaginas[n].vaginaColor,var1=l.m>> output(\" \"+l.m.toDisplayCase(e.vaginas[n].vaginaColor)+\",\")"
+  },
+  {
+    "key": "output.expr|var0|fa00ce88ea05",
+    "original": " \"+{var0}",
+    "translation": "",
+    "context": "<<POS:08851726>> <<VARS:var0=GLOBAL.TYPE_NAMES[e.vaginas[n].type]>> output(\" \"+GLOBAL.TYPE_NAMES[e.vaginas[n].type])"
+  },
+  {
+    "key": "button|Vagina|7f092ebd5c70",
+    "original": "Vagina ",
+    "translation": "",
+    "context": "<<POS:08851822>> addButton(n,\"Vagina \"+(n+1),(function(){return a.rbgMenu(e,t,!0,n,o)}),l.m.capitalize(l.m.numToOrdinal(n+1))+\" Vagina\",\"Use this on your [pc.vagina \"+n+\"].\")"
+  },
+  {
+    "key": "button.hover.expr|var2_capitalize_var1_numToOrdinal_var0_1_Vagina|a2571b941286",
+    "original": "{var2}.capitalize({var1}.numToOrdinal({var0}+1))+\" Vagina\"",
+    "translation": "",
+    "context": "<<POS:08851880>> <<VARS:var0=n,var1=l.m,var2=l.m>> addButton(n,\"Vagina \"+(n+1),(function(){return a.rbgMenu(e,t,!0,n,o)}),l.m.capitalize(l.m.numToOrdinal(n+1))+\" Vagina\",\"Use this on your [pc.vagina \"+n+\"].\")"
+  },
+  {
+    "key": "button.tooltip|Use_this_on_your_pc_vagina|2ee9f4557c0c",
+    "original": "Use this on your [pc.vagina ",
+    "translation": "",
+    "context": "<<POS:08851929>> addButton(n,\"Vagina \"+(n+1),(function(){return a.rbgMenu(e,t,!0,n,o)}),l.m.capitalize(l.m.numToOrdinal(n+1))+\" Vagina\",\"Use this on your [pc.vagina \"+n+\"].\")"
+  },
+  {
+    "key": "button|Vagina|ee4ca9cb8070",
+    "original": "Vagina ",
+    "translation": "",
+    "context": "<<POS:08851988>> addDisabledButton(n,\"Vagina \"+(n+1),l.m.capitalize(l.m.numToOrdinal(n+1))+\" Vagina\",\"This vagina is not a valid type for this item!\")"
+  },
+  {
     "key": "button.hover|This_vagina_is_not_a_valid_type_for_this_item|3d23885b1c58",
     "original": "This vagina is not a valid type for this item!",
     "translation": "",
@@ -159,7 +218,8 @@
     "key": "button|Back|079b1437c21f",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:08852148>> addButton(14,\"Back\",(function(){return a.rbgCancel(e,o)}))"
+    "context": "<<POS:08852148>> addButton(14,\"Back\",(function(){return a.rbgCancel(e,o)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Lip_Tease|869fd3c9d9ea#1",
@@ -177,7 +237,8 @@
     "key": "button|Next|8a5eac5a1562",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:08852434>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
+    "context": "<<POS:08852434>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))",
+    "stage": 1
   },
   {
     "key": "name.show.expr|var1_toDisplayCase_var0_Colors|e343eff58163",
@@ -192,6 +253,18 @@
     "context": "<<POS:08852926>>"
   },
   {
+    "key": "button|Colors|e791be21c6cc",
+    "original": "Colors (",
+    "translation": "",
+    "context": "<<POS:08853135>> addButton(c++,\"Colors (\".concat(c,\")\"),(function(){return a.rgbMakeAPage(e,t,n,i,o,s)}),\"Selection of Colors: \".concat(u===d?l.m.toDisplayCase(u):\"\".concat(l.m.toDisplayCase(u),\" to \").concat(l.m.toDisplayCase(d))),u===d?\"To \".concat(u,\".\"):\"From \".concat(u,\" to \").concat(d,\".\"))"
+  },
+  {
+    "key": "button.hover|Selection_of_Colors|5f731849e5f3",
+    "original": "Selection of Colors: ",
+    "translation": "",
+    "context": "<<POS:08853209>> addButton(c++,\"Colors (\".concat(c,\")\"),(function(){return a.rgbMakeAPage(e,t,n,i,o,s)}),\"Selection of Colors: \".concat(u===d?l.m.toDisplayCase(u):\"\".concat(l.m.toDisplayCase(u),\" to \").concat(l.m.toDisplayCase(d))),u===d?\"To \".concat(u,\".\"):\"From \".concat(u,\" to \").concat(d,\".\"))"
+  },
+  {
     "key": "button.tooltip.expr|var0_To_concat_u_From_concat_u_to_concat_d|a3a8110c7653",
     "original": "{var0}?\"To \".concat(u,\".\"):\"From \".concat(u,\" to \").concat(d,\".\")",
     "translation": "",
@@ -201,7 +274,20 @@
     "key": "button|Back|5174f2c6e2f4",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:08853514>> addButton(14,\"Back\",(function(){return a.rbgMenu(e,t,!0,i,s)}))"
+    "context": "<<POS:08853514>> addButton(14,\"Back\",(function(){return a.rbgMenu(e,t,!0,i,s)}))",
+    "stage": 1
+  },
+  {
+    "key": "button.expr|var0|47fa7bde0a8a",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08853730>> <<VARS:var0=o[1]>> addButton(u,o[1],(function(){return s.sizeMenu(e,t,o[0])}),l.m.toDisplayCase(o[0]),\"Change the color of your lips to \"+o[0]+\".\")"
+  },
+  {
+    "key": "button.hover.expr|var1_toDisplayCase_var0|7ee32967072f",
+    "original": "{var1}.toDisplayCase({var0})",
+    "translation": "",
+    "context": "<<POS:08853777>> <<VARS:var0=o[0],var1=l.m>> addButton(u,o[1],(function(){return s.sizeMenu(e,t,o[0])}),l.m.toDisplayCase(o[0]),\"Change the color of your lips to \"+o[0]+\".\")"
   },
   {
     "key": "button.tooltip|Change_the_color_of_your_lips_to|b5a20115c66f",
@@ -210,10 +296,34 @@
     "context": "<<POS:08853802>> addButton(u,o[1],(function(){return s.sizeMenu(e,t,o[0])}),l.m.toDisplayCase(o[0]),\"Change the color of your lips to \"+o[0]+\".\")"
   },
   {
+    "key": "button.expr|var0|366f23abeb42",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08853894>> <<VARS:var0=o[1]>> addButton(u,o[1],(function(){return s.sizeMenu(e,t,o[0])}),l.m.toDisplayCase(o[0]),\"Change the color of your lipples to \"+o[0]+\".\")"
+  },
+  {
+    "key": "button.hover.expr|var1_toDisplayCase_var0|72a75df797b6",
+    "original": "{var1}.toDisplayCase({var0})",
+    "translation": "",
+    "context": "<<POS:08853941>> <<VARS:var0=o[0],var1=l.m>> addButton(u,o[1],(function(){return s.sizeMenu(e,t,o[0])}),l.m.toDisplayCase(o[0]),\"Change the color of your lipples to \"+o[0]+\".\")"
+  },
+  {
     "key": "button.tooltip|Change_the_color_of_your_lipples_to|50e253837afb",
     "original": "Change the color of your lipples to ",
     "translation": "",
     "context": "<<POS:08853966>> addButton(u,o[1],(function(){return s.sizeMenu(e,t,o[0])}),l.m.toDisplayCase(o[0]),\"Change the color of your lipples to \"+o[0]+\".\")"
+  },
+  {
+    "key": "button.expr|var0|59fa5bfb815c",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08854075>> <<VARS:var0=o[1]>> addButton(u,o[1],(function(){return s.sizeMenu(e,t,o[0],a)}),l.m.toDisplayCase(o[0]),\"Change the color of your [pc.vaginaNoun \"+a+\"] to \"+o[0]+\".\")"
+  },
+  {
+    "key": "button.hover.expr|var1_toDisplayCase_var0|efbf5cac2a33",
+    "original": "{var1}.toDisplayCase({var0})",
+    "translation": "",
+    "context": "<<POS:08854124>> <<VARS:var0=o[0],var1=l.m>> addButton(u,o[1],(function(){return s.sizeMenu(e,t,o[0],a)}),l.m.toDisplayCase(o[0]),\"Change the color of your [pc.vaginaNoun \"+a+\"] to \"+o[0]+\".\")"
   },
   {
     "key": "button.tooltip|Change_the_color_of_your_pc_vaginaNoun|36ce7c66e7d1",
@@ -222,10 +332,23 @@
     "context": "<<POS:08854149>> addButton(u,o[1],(function(){return s.sizeMenu(e,t,o[0],a)}),l.m.toDisplayCase(o[0]),\"Change the color of your [pc.vaginaNoun \"+a+\"] to \"+o[0]+\".\")"
   },
   {
+    "key": "button.expr|var0|3b7c4e2d1cd2",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08854231>> <<VARS:var0=o[1]>> addDisabledButton(u,o[1],l.m.toDisplayCase(o[0]),\"Your \"+s.lipTypeString(t)+\" are already \"+o[0]+\".\")"
+  },
+  {
     "key": "button.hover|Your|98dce8d72aca",
     "original": "Your ",
     "translation": "",
     "context": "<<POS:08854261>> addDisabledButton(u,o[1],l.m.toDisplayCase(o[0]),\"Your \"+s.lipTypeString(t)+\" are already \"+o[0]+\".\")"
+  },
+  {
+    "key": "button|Back|a2050e464505",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:08854393>> addButton(14,\"Back\",(function(){return s.rbgSelColor(e,t,o,a,i)}))",
+    "stage": 1
   },
   {
     "key": "name.show.expr|var1_toDisplayCase_var0_Size|843f701ebb60",
@@ -387,6 +510,7 @@
     "key": "button|Next|28aa396d2b17",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:08858448>> addButton(0,\"Next\",(function(){return n.returnToInventory(n)}))"
+    "context": "<<POS:08858448>> addButton(0,\"Next\",(function(){return n.returnToInventory(n)}))",
+    "stage": 1
   }
 ]

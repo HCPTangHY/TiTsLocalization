@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|a_lollipop_labeled_ClearYu|edd7d7fac464",
+    "original": "a lollipop labeled “ClearYu”",
+    "translation": "",
+    "context": "<<POS:08068835>>"
+  },
+  {
     "key": "assign|A_crimson_candy_sphere_on_a_white_stick_that_has_been_tied_up_i|ef87bd70dca5",
     "original": "A crimson, candy sphere on a white stick that has been tied up in a pink, waxy wrapper. It’s a small, trivial looking thing, but somehow the lollipop seems heavier than it should be.\\n\\n<b>Known to cause moderate amounts of taint. Check your Codex for details.</b>",
     "translation": "",
@@ -15,7 +21,35 @@
     "key": "button|Yes|1bd69576b564",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:08069653>> addButton(0,\"Yes\",(function(){clearMenu(),e.createStatusEffect(\"Ignore Suma Warning\");var o=t.useFunction(e);e.removeStatusEffect(\"Ignore Suma Warning\"),o||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))}))"
+    "context": "<<POS:08069653>> addButton(0,\"Yes\",(function(){clearMenu(),e.createStatusEffect(\"Ignore Suma Warning\");var o=t.useFunction(e);e.removeStatusEffect(\"Ignore Suma Warning\"),o||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))}))",
+    "stage": 1
+  },
+  {
+    "key": "button|No|1c655db5490a",
+    "original": "No",
+    "translation": "不",
+    "context": "<<POS:08069876>> addButton(1,\"No\",(function(){return t.itemCancel(t)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Codex|91b41cee8132",
+    "original": "Codex",
+    "translation": "智典",
+    "context": "<<POS:08069931>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.FI)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View...",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Codex_Entry|5e6f1989329b",
+    "original": "Codex Entry",
+    "translation": "智典入口",
+    "context": "<<POS:08070200>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.FI)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View...",
+    "stage": 1
+  },
+  {
+    "key": "button.tooltip|View_the_Codex_entry_for_ClearYu|011a7d2b56a1",
+    "original": "View the Codex entry for ClearYu.",
+    "translation": "",
+    "context": "<<POS:08070214>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.FI)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View..."
   },
   {
     "key": "output|Pulling_off_the_wrapper_you_pop_the_candy_into_your_mouth_and_s|137adf0800e1",
@@ -75,7 +109,8 @@
     "key": "output|s|d0dd38adcf69",
     "original": "s",
     "translation": "​",
-    "context": "<<POS:08073608>>"
+    "context": "<<POS:08073608>>",
+    "stage": 1
   },
   {
     "key": "output|as_you_nearly_sink_to_the_ground_from_the_suffocating_ecstasy|f3ee79fd2dca",
@@ -141,7 +176,8 @@
     "key": "button|Next|bacdfb0271be",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:08075259>> addButton(0,\"Next\",(function(){return t.lollipopSuperBadEnd(e)}))"
+    "context": "<<POS:08075259>> addButton(0,\"Next\",(function(){return t.lollipopSuperBadEnd(e)}))",
+    "stage": 1
   },
   {
     "key": "output|You_unwrap_another_lollipop_and_stare_at_it_for_a_moment_The_cr|398ed4f7cece",
@@ -207,7 +243,8 @@
     "key": "button|Next|5d72cd8d1675",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:08079321>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+    "context": "<<POS:08079321>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   },
   {
     "key": "output|Over_the_course_of_a_few_months_your_life_has_changed_completel|70c7ef17ba49",

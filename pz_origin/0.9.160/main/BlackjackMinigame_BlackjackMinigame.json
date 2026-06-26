@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|The_top_row_of_cards_is_the_dealer_s_hand_The_total_points_in_t|797b8cf7e045",
+    "original": "The top row of cards is the dealer’s hand. The total points in this hand is listed under the <b>Dealer</b> score.",
+    "translation": "",
+    "context": "<<POS:17554318>>"
+  },
+  {
     "key": "assign|And_the_bottom_row_of_cards_is_your_hand_The_total_points_in_th|4990411b8bbd",
     "original": "And the bottom row of cards is your hand. The total points in this hand is listed under the <b>Player</b> score.",
     "translation": "",
@@ -87,7 +93,8 @@
     "key": "button|Next|ccd558e9003a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:17565686>> addButton(0,\"Next\",this.processAction)"
+    "context": "<<POS:17565686>> addButton(0,\"Next\",this.processAction)",
+    "stage": 1
   },
   {
     "key": "assign|Both_hands_are_Bust_the_House_wins|fe9fcd119ebb",
@@ -165,7 +172,8 @@
     "key": "button|Next|272ef45efafd",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:17569264>> addButton(n++,\"Next\",(function(){var e;a.clearAnnouncement(),clearMenu(),a.cachePuzzleState(!0),ui.state.tempBlackjackState=((e=ui.state.puzzleStateSnapshot).data.playerCards=[],e.data.dealerCards=[],e.data.isPlayerFirst=!1,e.data.isPlayerTurn=!1,e.data.isRoundOver=!0,e.data.roundsWon=l.win,e.data.r..."
+    "context": "<<POS:17569264>> addButton(n++,\"Next\",(function(){var e;a.clearAnnouncement(),clearMenu(),a.cachePuzzleState(!0),ui.state.tempBlackjackState=((e=ui.state.puzzleStateSnapshot).data.playerCards=[],e.data.dealerCards=[],e.data.isPlayerFirst=!1,e.data.isPlayerTurn=!1,e.data.isRoundOver=!0,e.data.roundsWon=l.win,e.data.r...",
+    "stage": 1
   },
   {
     "key": "button|Deal|a54e26a49926",
@@ -210,6 +218,18 @@
     "context": "<<POS:17570870>>"
   },
   {
+    "key": "assign|ul_class_receipt|8e57745403c9",
+    "original": "<ul class=\"receipt\">",
+    "translation": "",
+    "context": "<<POS:17570906>>"
+  },
+  {
+    "key": "assign|li|65e5b5453780",
+    "original": "<li>",
+    "translation": "",
+    "context": "<<POS:17570932>>"
+  },
+  {
     "key": "assign|span_class_name_span_class_text_Current_Bet_span_span|ac8a8f62eb3d",
     "original": "<span class=\"name\"><span class=\"text\">Current Bet</span></span>",
     "translation": "",
@@ -228,7 +248,13 @@
     "context": "<<POS:17571137>> <<VARS:var0=h>> ParseText(h)"
   },
   {
-    "key": "assign|li|92ebfcc2954e#1",
+    "key": "assign|li|56b0527af81b",
+    "original": "</li>",
+    "translation": "",
+    "context": "<<POS:17571177>>"
+  },
+  {
+    "key": "assign|li|92ebfcc2954e",
     "original": "<li>",
     "translation": "",
     "context": "<<POS:17571188>>"
@@ -250,6 +276,12 @@
     "original": "</li>",
     "translation": "",
     "context": "<<POS:17571529>>"
+  },
+  {
+    "key": "assign|ul|3f5fecb64d8a",
+    "original": "</ul>",
+    "translation": "",
+    "context": "<<POS:17571540>>"
   },
   {
     "key": "assign|ul_class_receipt|99a6ebbe6a9e",
@@ -282,6 +314,18 @@
     "context": "<<POS:17571778>> <<VARS:var0=h>> ParseText(h)"
   },
   {
+    "key": "assign|li|56b0527af81b#1",
+    "original": "</li>",
+    "translation": "",
+    "context": "<<POS:17571818>>"
+  },
+  {
+    "key": "assign|li|92ebfcc2954e#1",
+    "original": "<li>",
+    "translation": "",
+    "context": "<<POS:17571829>>"
+  },
+  {
     "key": "assign|span_class_name_span_class_text_Current_Pot_span_span|c3be9b9357e0",
     "original": "<span class=\"name\"><span class=\"text\">Current Pot</span></span>",
     "translation": "",
@@ -298,6 +342,24 @@
     "original": "{var0}",
     "translation": "",
     "context": "<<POS:17572059>> <<VARS:var0=h>> ParseText(h)"
+  },
+  {
+    "key": "assign|li|56b0527af81b#2",
+    "original": "</li>",
+    "translation": "",
+    "context": "<<POS:17572099>>"
+  },
+  {
+    "key": "assign|ul|3f5fecb64d8a#1",
+    "original": "</ul>",
+    "translation": "",
+    "context": "<<POS:17572110>>"
+  },
+  {
+    "key": "assign|div|93b83304f2df",
+    "original": "</div>",
+    "translation": "",
+    "context": "<<POS:17572121>>"
   },
   {
     "key": "button|Stakes|c4eebe5c33f7",
@@ -321,7 +383,8 @@
     "key": "button|New_Game|3302c29543d9",
     "original": "New Game",
     "translation": "新游戏",
-    "context": "<<POS:17573049>> addButton(0,\"New Game\",(function(){return e.initGame(!0)}),\"New Card Game\",\"Begin a new game of blackjack.\")"
+    "context": "<<POS:17573049>> addButton(0,\"New Game\",(function(){return e.initGame(!0)}),\"New Card Game\",\"Begin a new game of blackjack.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|New_Card_Game|e33d69b6974e",
@@ -405,13 +468,15 @@
     "key": "button|Continue|9d04c156a158",
     "original": "Continue",
     "translation": "继续",
-    "context": "<<POS:17574102>> addButton(2,\"Continue\",(function(){return e.stand()}),\"Continue\",\"Not much to do when you’re already bust...\")"
+    "context": "<<POS:17574102>> addButton(2,\"Continue\",(function(){return e.stand()}),\"Continue\",\"Not much to do when you’re already bust...\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Continue|9d04c156a158",
     "original": "Continue",
     "translation": "继续",
-    "context": "<<POS:17574144>> addButton(2,\"Continue\",(function(){return e.stand()}),\"Continue\",\"Not much to do when you’re already bust...\")"
+    "context": "<<POS:17574144>> addButton(2,\"Continue\",(function(){return e.stand()}),\"Continue\",\"Not much to do when you’re already bust...\")",
+    "stage": 1
   },
   {
     "key": "button.tooltip|Not_much_to_do_when_you_re_already_bust|b152d30ed072",
@@ -471,7 +536,8 @@
     "key": "button|Next|6675188dc933",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:17574523>> addButton(0,\"Next\",this.processAction)"
+    "context": "<<POS:17574523>> addButton(0,\"Next\",this.processAction)",
+    "stage": 1
   },
   {
     "key": "button|Deal|a54e26a49926#1",

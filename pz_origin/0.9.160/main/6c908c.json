@@ -1,9 +1,22 @@
 [
   {
+    "key": "assign|zaika_riot_leader|1a9be61c266f",
+    "original": "zaika riot leader",
+    "translation": "",
+    "context": "<<POS:10941978>>"
+  },
+  {
     "key": "assign|the|0d5a07cb383c",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:10942052>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "context": "<<POS:10942070>>",
+    "stage": 1
   },
   {
     "key": "assign|The_riot_leader_deftly_sidesteps|e017a728195e",
@@ -231,7 +244,8 @@
     "key": "button|Yes|3421eb77be36",
     "original": "Yes",
     "translation": "是的",
-    "context": "<<POS:10965701>> addButton(0,\"Yes\",(function(){combatOutput((0,v.zI)(Fe||(Fe=(0,i.Z)([\"<i>“Is your cum an aphrodisiac?”</i> you ask, eyeing her suspiciously.\\n\\t\\t\\t\\t\\n\\t\\t\\t\\t<i>“Oh, no, it’s just cum, silly,”</i> she giggles, taking a step towards you and then another when she sees you’re open to the idea. <i>“Do..."
+    "context": "<<POS:10965701>> addButton(0,\"Yes\",(function(){combatOutput((0,v.zI)(Fe||(Fe=(0,i.Z)([\"<i>“Is your cum an aphrodisiac?”</i> you ask, eyeing her suspiciously.\\n\\t\\t\\t\\t\\n\\t\\t\\t\\t<i>“Oh, no, it’s just cum, silly,”</i> she giggles, taking a step towards you and then another when she sees you’re open to the idea. <i>“Do...",
+    "stage": 1
   },
   {
     "key": "button.hover|Yes|3421eb77be36",
@@ -930,10 +944,40 @@
     "context": "<<POS:11039650>>"
   },
   {
+    "key": "button.expr|var0|8d9cee92d852",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11039810>> <<VARS:var0=a>> addDisabledButton(0,a,\"Melee Attack\",this.roundCounter>=2?\"You already tried this and it didn’t work!\":o,n)"
+  },
+  {
     "key": "button.hover.expr|var0_You_already_tried_this_and_it_didn_t_work_var1|0e1c6d5d843d",
     "original": "{var0}?\"You already tried this and it didn’t work!\":{var1}",
     "translation": "",
     "context": "<<POS:11039827>> <<VARS:var0=this.roundCounter>=2,var1=o>> addDisabledButton(0,a,\"Melee Attack\",this.roundCounter>=2?\"You already tried this and it didn’t work!\":o,n)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|8d9cee92d852",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11039895>> <<VARS:var0=n>> addDisabledButton(0,a,\"Melee Attack\",this.roundCounter>=2?\"You already tried this and it didn’t work!\":o,n)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11039910>> <<VARS:var0=a>> addButton(0,a,(function(){return e.selectSimpleAttack({func:g.P.MeleeAttack})}),\"Melee Attack\",\"Attack a single enemy with a melee strike. Damage is based on physique.\",n)"
+  },
+  {
+    "key": "button.hover|Melee_Attack|f2bea1bc0b93",
+    "original": "Melee Attack",
+    "translation": "",
+    "context": "<<POS:11039979>> addButton(0,a,(function(){return e.selectSimpleAttack({func:g.P.MeleeAttack})}),\"Melee Attack\",\"Attack a single enemy with a melee strike. Damage is based on physique.\",n)"
+  },
+  {
+    "key": "button.tooltip|Attack_a_single_enemy_with_a_melee_strike_Damage_is_based_on_ph|6398e1c5fad0",
+    "original": "Attack a single enemy with a melee strike. Damage is based on physique.",
+    "translation": "",
+    "context": "<<POS:11039994>> addButton(0,a,(function(){return e.selectSimpleAttack({func:g.P.MeleeAttack})}),\"Melee Attack\",\"Attack a single enemy with a melee strike. Damage is based on physique.\",n)"
   },
   {
     "key": "string.array|Rock|b194f76f85be",
@@ -954,16 +998,88 @@
     "context": "<<POS:11040398>>"
   },
   {
+    "key": "button.expr|var0|7df303cd03d8",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11040462>> <<VARS:var0=a>> addDisabledButton(1,a,\"Ranged Attack\",this.roundCounter>=3?\"You already tried this and it didn’t work!\":o,n)"
+  },
+  {
     "key": "button.hover.expr|var0_You_already_tried_this_and_it_didn_t_work_var1|c28e8f336766",
     "original": "{var0}?\"You already tried this and it didn’t work!\":{var1}",
     "translation": "",
     "context": "<<POS:11040480>> <<VARS:var0=this.roundCounter>=3,var1=o>> addDisabledButton(1,a,\"Ranged Attack\",this.roundCounter>=3?\"You already tried this and it didn’t work!\":o,n)"
   },
   {
+    "key": "button.tooltip.expr|var0|7df303cd03d8",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11040548>> <<VARS:var0=n>> addDisabledButton(1,a,\"Ranged Attack\",this.roundCounter>=3?\"You already tried this and it didn’t work!\":o,n)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11040563>> <<VARS:var0=a>> addButton(1,a,(function(){return e.selectSimpleAttack({func:g.P.RangedAttack})}),\"Ranged Attack\",\"Attack a single enemy with a ranged weapon. Damage is based on aim.\",n)"
+  },
+  {
+    "key": "button.hover|Ranged_Attack|bb93c1079ce5",
+    "original": "Ranged Attack",
+    "translation": "",
+    "context": "<<POS:11040633>> addButton(1,a,(function(){return e.selectSimpleAttack({func:g.P.RangedAttack})}),\"Ranged Attack\",\"Attack a single enemy with a ranged weapon. Damage is based on aim.\",n)"
+  },
+  {
+    "key": "button.tooltip|Attack_a_single_enemy_with_a_ranged_weapon_Damage_is_based_on_a|dfbf1419c74e",
+    "original": "Attack a single enemy with a ranged weapon. Damage is based on aim.",
+    "translation": "",
+    "context": "<<POS:11040649>> addButton(1,a,(function(){return e.selectSimpleAttack({func:g.P.RangedAttack})}),\"Ranged Attack\",\"Attack a single enemy with a ranged weapon. Damage is based on aim.\",n)"
+  },
+  {
     "key": "button|Sense|a8383572de66",
     "original": "Sense",
     "translation": "",
     "context": "<<POS:11040742>> addDisabledButton(2,\"Sense\",\"Sense\",o)"
+  },
+  {
+    "key": "button.hover.expr|var0|e31f51f3e41f",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11040757>> <<VARS:var0=o>> addDisabledButton(2,\"Sense\",\"Sense\",o)"
+  },
+  {
+    "key": "button|Inventory|74e904d815d3",
+    "original": "Inventory",
+    "translation": "",
+    "context": "<<POS:11040781>> addDisabledButton(3,\"Inventory\",\"Inventory\",o)"
+  },
+  {
+    "key": "button.hover.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11040804>> <<VARS:var0=o>> addDisabledButton(3,\"Inventory\",\"Inventory\",o)"
+  },
+  {
+    "key": "button|Abilities|c050da76a732",
+    "original": "Abilities",
+    "translation": "",
+    "context": "<<POS:11040828>> addDisabledButton(4,\"Abilities\",\"Special Abilities\",o)"
+  },
+  {
+    "key": "button.hover.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11040859>> <<VARS:var0=o>> addDisabledButton(4,\"Abilities\",\"Special Abilities\",o)"
+  },
+  {
+    "key": "button|Tease|3a74796ee149",
+    "original": "Tease",
+    "translation": "",
+    "context": "<<POS:11040905>> addDisabledButton(5,\"Tease\",\"Tease Attack\",this.roundCounter>=4?\"You already tried this!\":o)"
+  },
+  {
+    "key": "button.hover.expr|var0_You_already_tried_this_var1|20e5d5b123e7",
+    "original": "{var0}?\"You already tried this!\":{var1}",
+    "translation": "",
+    "context": "<<POS:11040927>> <<VARS:var0=this.roundCounter>=4,var1=o>> addDisabledButton(5,\"Tease\",\"Tease Attack\",this.roundCounter>=4?\"You already tried this!\":o)"
   },
   {
     "key": "button|Tease|95af85a6c8f6",
@@ -990,10 +1106,70 @@
     "context": "<<POS:11041202>> addDisabledButton(6,\"Special\",\"Special Attacks\",o)"
   },
   {
+    "key": "button.hover.expr|var0|09ccff1406bd",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11041229>> <<VARS:var0=o>> addDisabledButton(6,\"Special\",\"Special Attacks\",o)"
+  },
+  {
+    "key": "button|Closer_Look|b7fcf9bf4c8f",
+    "original": "Closer Look",
+    "translation": "",
+    "context": "<<POS:11041245>> addButton(7,\"Closer Look\",(function(){return e.combatAppearance(7)}),\"Closer Look\",\"Take a closer look at your foe’s appearance.\\n\\nThis does not consume your action for this round.\")"
+  },
+  {
+    "key": "button.hover|Closer_Look|b7fcf9bf4c8f",
+    "original": "Closer Look",
+    "translation": "",
+    "context": "<<POS:11041302>> addButton(7,\"Closer Look\",(function(){return e.combatAppearance(7)}),\"Closer Look\",\"Take a closer look at your foe’s appearance.\\n\\nThis does not consume your action for this round.\")"
+  },
+  {
+    "key": "button.tooltip|Take_a_closer_look_at_your_foe_s_appearance_n_nThis_does_not_co|9c7ba154f3a5",
+    "original": "Take a closer look at your foe’s appearance.\\n\\nThis does not consume your action for this round.",
+    "translation": "",
+    "context": "<<POS:11041316>> addButton(7,\"Closer Look\",(function(){return e.combatAppearance(7)}),\"Closer Look\",\"Take a closer look at your foe’s appearance.\\n\\nThis does not consume your action for this round.\")"
+  },
+  {
     "key": "button|Fantasize|034948cfa2e4",
     "original": "Fantasize",
     "translation": "",
     "context": "<<POS:11041437>> addDisabledButton(8,\"Fantasize\",\"Fantasize\",o)"
+  },
+  {
+    "key": "button.hover.expr|var0|c2c803a4feb5",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11041460>> <<VARS:var0=o>> addDisabledButton(8,\"Fantasize\",\"Fantasize\",o)"
+  },
+  {
+    "key": "button|Wait|0573e756e7e6",
+    "original": "Wait",
+    "translation": "",
+    "context": "<<POS:11041484>> addDisabledButton(9,\"Wait\",\"Wait\",o)"
+  },
+  {
+    "key": "button.hover.expr|var0|682b08bd06d1#2",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11041497>> <<VARS:var0=o>> addDisabledButton(9,\"Wait\",\"Wait\",o)"
+  },
+  {
+    "key": "button|Run|642339084bb2",
+    "original": "Run",
+    "translation": "",
+    "context": "<<POS:11041527>> addDisabledButton(14,\"Run\",\"Run\",o)"
+  },
+  {
+    "key": "button.hover.expr|var0|682b08bd06d1#3",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11041538>> <<VARS:var0=o>> addDisabledButton(14,\"Run\",\"Run\",o)"
+  },
+  {
+    "key": "button|Recover|a3494c02897c",
+    "original": "Recover",
+    "translation": "",
+    "context": "<<POS:11041671>> addButton(0,\"Recover\",(function(){return e.doStunRecover(pc)}))"
   },
   {
     "key": "button|Submit|9b0eda84b80f",
@@ -1218,10 +1394,76 @@
     "context": "<<POS:11048259>>"
   },
   {
+    "key": "button.expr|var0|8d9cee92d852#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11048539>> <<VARS:var0=r>> addDisabledButton(0,r,\"Melee Attack\",\"You can’t bring yourself to resort to using a weapon right now!\",u)"
+  },
+  {
     "key": "button.hover|You_can_t_bring_yourself_to_resort_to_using_a_weapon_right_now|12b60e568230",
     "original": "You can’t bring yourself to resort to using a weapon right now!",
     "translation": "",
     "context": "<<POS:11048557>> addDisabledButton(0,r,\"Melee Attack\",\"You can’t bring yourself to resort to using a weapon right now!\",u)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|8d9cee92d852#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11048622>> <<VARS:var0=u>> addDisabledButton(0,r,\"Melee Attack\",\"You can’t bring yourself to resort to using a weapon right now!\",u)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1#2",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11048713>> <<VARS:var0=r>> addDisabledButton(0,r,\"Melee Attack\",\"You’re holding something, but can’t quite recall what it’s used for.\",u)"
+  },
+  {
+    "key": "button.hover|You_re_holding_something_but_can_t_quite_recall_what_it_s_used|c73f2b2eea1b",
+    "original": "You’re holding something, but can’t quite recall what it’s used for.",
+    "translation": "",
+    "context": "<<POS:11048731>> addDisabledButton(0,r,\"Melee Attack\",\"You’re holding something, but can’t quite recall what it’s used for.\",u)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11048801>> <<VARS:var0=u>> addDisabledButton(0,r,\"Melee Attack\",\"You’re holding something, but can’t quite recall what it’s used for.\",u)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1#3",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11048917>> <<VARS:var0=r>> addDisabledButton(0,r,\"Melee Attack\",\"Your melee weapon is too heavy to lift and use!\",u)"
+  },
+  {
+    "key": "button.hover|Your_melee_weapon_is_too_heavy_to_lift_and_use|2897156fd8e0",
+    "original": "Your melee weapon is too heavy to lift and use!",
+    "translation": "",
+    "context": "<<POS:11048935>> addDisabledButton(0,r,\"Melee Attack\",\"Your melee weapon is too heavy to lift and use!\",u)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11048984>> <<VARS:var0=u>> addDisabledButton(0,r,\"Melee Attack\",\"Your melee weapon is too heavy to lift and use!\",u)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1#4",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11048999>> <<VARS:var0=r>> addButton(0,r,(function(){return e.selectSimpleAttack({func:l,isMelee:!0})}),\"Melee Attack\",\"Attack a single enemy with a melee strike. Damage is based on physique.\",u)"
+  },
+  {
+    "key": "button.hover|Melee_Attack|f2bea1bc0b93#1",
+    "original": "Melee Attack",
+    "translation": "",
+    "context": "<<POS:11049065>> addButton(0,r,(function(){return e.selectSimpleAttack({func:l,isMelee:!0})}),\"Melee Attack\",\"Attack a single enemy with a melee strike. Damage is based on physique.\",u)"
+  },
+  {
+    "key": "button.tooltip|Attack_a_single_enemy_with_a_melee_strike_Damage_is_based_on_ph|6398e1c5fad0#1",
+    "original": "Attack a single enemy with a melee strike. Damage is based on physique.",
+    "translation": "",
+    "context": "<<POS:11049080>> addButton(0,r,(function(){return e.selectSimpleAttack({func:l,isMelee:!0})}),\"Melee Attack\",\"Attack a single enemy with a melee strike. Damage is based on physique.\",u)"
   },
   {
     "key": "string.array|Rock|b194f76f85be#1",
@@ -1242,10 +1484,94 @@
     "context": "<<POS:11049484>>"
   },
   {
+    "key": "button.expr|var0|7df303cd03d8#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11049674>> <<VARS:var0=r>> addDisabledButton(1,r,\"Ranged Attack\",\"You can’t bring yourself to resort to using a weapon right now!\",u)"
+  },
+  {
     "key": "button.hover|You_can_t_bring_yourself_to_resort_to_using_a_weapon_right_now|5f98a4a53db5",
     "original": "You can’t bring yourself to resort to using a weapon right now!",
     "translation": "",
     "context": "<<POS:11049693>> addDisabledButton(1,r,\"Ranged Attack\",\"You can’t bring yourself to resort to using a weapon right now!\",u)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|7df303cd03d8#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11049758>> <<VARS:var0=u>> addDisabledButton(1,r,\"Ranged Attack\",\"You can’t bring yourself to resort to using a weapon right now!\",u)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1#5",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11049849>> <<VARS:var0=r>> addDisabledButton(1,r,\"Melee Attack\",\"You’re holding something, but can’t quite recall what it’s used for.\",u)"
+  },
+  {
+    "key": "button.hover|You_re_holding_something_but_can_t_quite_recall_what_it_s_used|c73f2b2eea1b#1",
+    "original": "You’re holding something, but can’t quite recall what it’s used for.",
+    "translation": "",
+    "context": "<<POS:11049867>> addDisabledButton(1,r,\"Melee Attack\",\"You’re holding something, but can’t quite recall what it’s used for.\",u)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1#2",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11049937>> <<VARS:var0=u>> addDisabledButton(1,r,\"Melee Attack\",\"You’re holding something, but can’t quite recall what it’s used for.\",u)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1#6",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11050054>> <<VARS:var0=r>> addDisabledButton(1,r,\"Ranged Attack\",\"Your ranged weapon is too heavy to lift and use!\",u)"
+  },
+  {
+    "key": "button.hover|Your_ranged_weapon_is_too_heavy_to_lift_and_use|62bb012a19fd",
+    "original": "Your ranged weapon is too heavy to lift and use!",
+    "translation": "",
+    "context": "<<POS:11050073>> addDisabledButton(1,r,\"Ranged Attack\",\"Your ranged weapon is too heavy to lift and use!\",u)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1#3",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11050123>> <<VARS:var0=u>> addDisabledButton(1,r,\"Ranged Attack\",\"Your ranged weapon is too heavy to lift and use!\",u)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1#7",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11050254>> <<VARS:var0=r>> addDisabledButton(1,r,\"Ranged Attack\",\"You lack the physique necessary to use such a weapon! You need at least \".concat(Math.ceil(66*pc.physiqueMax()/100),\" physique to use it.\"),u)"
+  },
+  {
+    "key": "button.hover|You_lack_the_physique_necessary_to_use_such_a_weapon_You_need_a|9e636324098c",
+    "original": "You lack the physique necessary to use such a weapon! You need at least ",
+    "translation": "",
+    "context": "<<POS:11050273>> addDisabledButton(1,r,\"Ranged Attack\",\"You lack the physique necessary to use such a weapon! You need at least \".concat(Math.ceil(66*pc.physiqueMax()/100),\" physique to use it.\"),u)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1#4",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11050413>> <<VARS:var0=u>> addDisabledButton(1,r,\"Ranged Attack\",\"You lack the physique necessary to use such a weapon! You need at least \".concat(Math.ceil(66*pc.physiqueMax()/100),\" physique to use it.\"),u)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1#8",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11050428>> <<VARS:var0=r>> addButton(1,r,(function(){return e.selectSimpleAttack({func:h,isRanged:!0})}),\"Ranged Attack\",\"Attack a single enemy with a ranged weapon. Damage is based on aim.\",u)"
+  },
+  {
+    "key": "button.hover|Ranged_Attack|bb93c1079ce5#1",
+    "original": "Ranged Attack",
+    "translation": "",
+    "context": "<<POS:11050495>> addButton(1,r,(function(){return e.selectSimpleAttack({func:h,isRanged:!0})}),\"Ranged Attack\",\"Attack a single enemy with a ranged weapon. Damage is based on aim.\",u)"
+  },
+  {
+    "key": "button.tooltip|Attack_a_single_enemy_with_a_ranged_weapon_Damage_is_based_on_a|dfbf1419c74e#1",
+    "original": "Attack a single enemy with a ranged weapon. Damage is based on aim.",
+    "translation": "",
+    "context": "<<POS:11050511>> addButton(1,r,(function(){return e.selectSimpleAttack({func:h,isRanged:!0})}),\"Ranged Attack\",\"Attack a single enemy with a ranged weapon. Damage is based on aim.\",u)"
   },
   {
     "key": "button|Sense|a8383572de66#1",
@@ -1383,7 +1709,8 @@
     "key": "button.hover|Tease_Menu|1c22f4802897",
     "original": "Tease Menu",
     "translation": "挑逗菜单",
-    "context": "<<POS:11052246>> addButton(5,\"Tease\",(function(){return e.selectSimpleAttack({func:e.generateTeaseMenu})}),\"Tease Menu\",\"Opens up your menu of available lust-targeting attacks. It is recommended that the ‘Sense’ option be used beforehand.\")"
+    "context": "<<POS:11052246>> addButton(5,\"Tease\",(function(){return e.selectSimpleAttack({func:e.generateTeaseMenu})}),\"Tease Menu\",\"Opens up your menu of available lust-targeting attacks. It is recommended that the ‘Sense’ option be used beforehand.\")",
+    "stage": 1
   },
   {
     "key": "button.tooltip|Opens_up_your_menu_of_available_lust_targeting_attacks_It_is_re|e7edffa12f36",
@@ -1680,10 +2007,28 @@
     "context": "<<POS:11056407>> addDisabledButton(a,\"Closer Look\",\"Closer Look\",\"You are already looking at \".concat(r.nameDisplay(),\".\"))"
   },
   {
+    "key": "button.expr|var0|42ba48e760cd",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11056627>> <<VARS:var0=n>> addDisabledButton(u,n,i,\"You are already looking at \".concat(t.nameDisplay(),\".\"))"
+  },
+  {
     "key": "button.hover|You_are_already_looking_at|375466c1bd0b",
     "original": "You are already looking at ",
     "translation": "",
     "context": "<<POS:11056632>> addDisabledButton(u,n,i,\"You are already looking at \".concat(t.nameDisplay(),\".\"))"
+  },
+  {
+    "key": "button.expr|var0|42ba48e760cd#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11056702>> <<VARS:var0=n>> addButton(u,n,t.hasPerk(\"Appearance Enabled\")?function(){combatOutput(window.appearanceText(t)),o.combatAppearance(e)}:function(){o.combatLongDisplay(t),o.combatAppearance(e)},i,\"Take a closer look at \".concat(t.nameDisplay(),\".\\n\\nThis does not consume your action for this round.\"))"
+  },
+  {
+    "key": "button.hover.expr|var0|42ba48e760cd",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11056866>> <<VARS:var0=i>> addButton(u,n,t.hasPerk(\"Appearance Enabled\")?function(){combatOutput(window.appearanceText(t)),o.combatAppearance(e)}:function(){o.combatLongDisplay(t),o.combatAppearance(e)},i,\"Take a closer look at \".concat(t.nameDisplay(),\".\\n\\nThis does not consume your action for this round.\"))"
   },
   {
     "key": "button.tooltip|Take_a_closer_look_at|515ae89b927e",
@@ -1695,7 +2040,8 @@
     "key": "button|Back|54b06b5b7081",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:11057030>> addButton(14,\"Back\",(function(){return o.generateCombatMenu(!0)}))"
+    "context": "<<POS:11057030>> addButton(14,\"Back\",(function(){return o.generateCombatMenu(!0)}))",
+    "stage": 1
   },
   {
     "key": "combat|And_with_the_gryvain_obviously_chargin_concat_isSillyModeEnabl|b0b4450845a1",
@@ -2286,6 +2632,48 @@
     "context": "<<POS:11115325>>"
   },
   {
+    "key": "button.expr|var0|c1775f7c476f",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11116056>> <<VARS:var0=t.name>> addButton(e,t.name,t.func,t.title,t.tooltip,t.footer)"
+  },
+  {
+    "key": "button.hover.expr|var0|c1775f7c476f",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11116070>> <<VARS:var0=t.title>> addButton(e,t.name,t.func,t.title,t.tooltip,t.footer)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|c1775f7c476f",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11116078>> <<VARS:var0=t.tooltip>> addButton(e,t.name,t.func,t.title,t.tooltip,t.footer)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1#9",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11116118>> <<VARS:var0=t.name>> addDisabledButton(e,t.name,t.title,t.tooltip,t.footer)"
+  },
+  {
+    "key": "button.hover.expr|var0|682b08bd06d1#4",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11116133>> <<VARS:var0=t.tooltip>> addDisabledButton(e,t.name,t.title,t.tooltip,t.footer)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1#5",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11116143>> <<VARS:var0=t.footer>> addDisabledButton(e,t.name,t.title,t.tooltip,t.footer)"
+  },
+  {
+    "key": "button.ttB|Leave_the_ground_behind_gaining_the_b_Flying_b_effect|d9d12613b119",
+    "original": "Leave the ground behind, gaining the <b>Flying</b> effect.",
+    "translation": "",
+    "context": "<<POS:11116425>>"
+  },
+  {
     "key": "assign|Use_your_levitation_ability_to_leave_the_ground_behind_gaining|96ba70ea8c2c",
     "original": "Use your levitation ability to leave the ground behind, gaining the <b>flying</b> effect and +10 evasion.\\n\\n<b>Requires energy but will not cost a turn to use.</b>",
     "translation": "",
@@ -2340,6 +2728,56 @@
     "context": "<<POS:11117339>>"
   },
   {
+    "key": "button.expr|var0|f3d6e689e5bd",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11117542>> <<VARS:var0=i.name>> addDisabledButton(n++,i.name,i.ttH,i.ttB,i.ttF)"
+  },
+  {
+    "key": "button.hover.expr|var0|f3d6e689e5bd",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11117555>> <<VARS:var0=i.ttB>> addDisabledButton(n++,i.name,i.ttH,i.ttB,i.ttF)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|f3d6e689e5bd",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11117561>> <<VARS:var0=i.ttF>> addDisabledButton(n++,i.name,i.ttH,i.ttB,i.ttF)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1#10",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11117582>> <<VARS:var0=i.name>> addButton(n++,i.name,(function(){return e.toggleFlightEffect(a)}),i.ttH,i.ttB,i.ttF)"
+  },
+  {
+    "key": "button.hover.expr|var0|682b08bd06d1#5",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11117634>> <<VARS:var0=i.ttH>> addButton(n++,i.name,(function(){return e.toggleFlightEffect(a)}),i.ttH,i.ttB,i.ttF)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1#6",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11117640>> <<VARS:var0=i.ttB>> addButton(n++,i.name,(function(){return e.toggleFlightEffect(a)}),i.ttH,i.ttB,i.ttF)"
+  },
+  {
+    "key": "button|Back|aed8e0c1db1d",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:11117737>> addButton(14,\"Back\",(function(){return e.generateSpecialsMenu()}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Next|6d18801ef4fb",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:11118320>> addButton(0,\"Next\",(function(){return n.generateCombatMenu(!0)}))",
+    "stage": 1
+  },
+  {
     "key": "combat|b_You_are_no_longer_tripped_b|56f2d22883ca",
     "original": " <b>You are no longer tripped!</b>",
     "translation": "",
@@ -2349,13 +2787,32 @@
     "key": "button|Next|7e3e00a54f9b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:11119803>> addButton(0,\"Next\",(function(){return e.generateCombatMenu(!0)}))"
+    "context": "<<POS:11119803>> addButton(0,\"Next\",(function(){return e.generateCombatMenu(!0)}))",
+    "stage": 1
+  },
+  {
+    "key": "button.expr|var0|725f50c68bae",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11121000>> <<VARS:var0=e.hostiles[o].buttonText>> addDisabledButton(a,e.hostiles[o].buttonText,k.m.toDisplayCase(e.hostiles[o].getCombatName()),\"Already targeting \"+e.hostiles[o].getCombatName()+\".\")"
   },
   {
     "key": "button.hover|Already_targeting|67d844607fd7",
     "original": "Already targeting ",
     "translation": "",
     "context": "<<POS:11121075>> addDisabledButton(a,e.hostiles[o].buttonText,k.m.toDisplayCase(e.hostiles[o].getCombatName()),\"Already targeting \"+e.hostiles[o].getCombatName()+\".\")"
+  },
+  {
+    "key": "button.expr|var0|9a7a8eebcfb8",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11121142>> <<VARS:var0=e.hostiles[o].buttonText>> addButton(a,e.hostiles[o].buttonText,(function(){return e.selectDroneTargetSpecial(t,e.hostiles[o])}),k.m.toDisplayCase(e.hostiles[o].getCombatName()),\"Target \"+e.hostiles[o].getCombatName()+\".\")"
+  },
+  {
+    "key": "button.hover.expr|var1_toDisplayCase_var0_getCombatName|0d49a56de571",
+    "original": "{var1}.toDisplayCase({var0}.getCombatName())",
+    "translation": "",
+    "context": "<<POS:11121232>> <<VARS:var0=e.hostiles[o],var1=k.m>> addButton(a,e.hostiles[o].buttonText,(function(){return e.selectDroneTargetSpecial(t,e.hostiles[o])}),k.m.toDisplayCase(e.hostiles[o].getCombatName()),\"Target \"+e.hostiles[o].getCombatName()+\".\")"
   },
   {
     "key": "button.tooltip|Target|ba22cd5b56af",
@@ -2397,7 +2854,8 @@
     "key": "button|None|192b97010bd7",
     "original": "None",
     "translation": "无",
-    "context": "<<POS:11121685>> addDisabledButton(13,\"None\",\"No Target\",\"Currently not targeting anything.\")"
+    "context": "<<POS:11121685>> addDisabledButton(13,\"None\",\"No Target\",\"Currently not targeting anything.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Currently_not_targeting_anything|de803af08b74",
@@ -2409,7 +2867,8 @@
     "key": "button|None|e6d2f233d6a2",
     "original": "None",
     "translation": "无",
-    "context": "<<POS:11121754>> addButton(13,\"None\",(function(){return e.selectDroneTargetSpecial(t,null)}),\"No Target\",\"Don’t target anything.\")"
+    "context": "<<POS:11121754>> addButton(13,\"None\",(function(){return e.selectDroneTargetSpecial(t,null)}),\"No Target\",\"Don’t target anything.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|No_Target|ffbe694ae37a",
@@ -2517,13 +2976,32 @@
     "key": "button|Back|4826aeee703f",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:11123462>> addButton(14,\"Back\",(function(){return e.generateSpecialsMenu()}))"
+    "context": "<<POS:11123462>> addButton(14,\"Back\",(function(){return e.generateSpecialsMenu()}))",
+    "stage": 1
+  },
+  {
+    "key": "button.expr|var0|47fa7bde0a8a",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11126207>> <<VARS:var0=e.hostiles[a].buttonText>> addDisabledButton(n,e.hostiles[a].buttonText,k.m.toDisplayCase(e.hostiles[a].getCombatName()),\"Already targeting \".concat(e.hostiles[a].getCombatName(),\".\"))"
   },
   {
     "key": "button.hover|Already_targeting|4e2432d246db",
     "original": "Already targeting ",
     "translation": "",
     "context": "<<POS:11126282>> addDisabledButton(n,e.hostiles[a].buttonText,k.m.toDisplayCase(e.hostiles[a].getCombatName()),\"Already targeting \".concat(e.hostiles[a].getCombatName(),\".\"))"
+  },
+  {
+    "key": "button.expr|var0|9a7a8eebcfb8#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11126357>> <<VARS:var0=e.hostiles[a].buttonText>> addButton(n,e.hostiles[a].buttonText,(function(){return e.selectTurretTargetSpecial(t,e.hostiles[a])}),k.m.toDisplayCase(e.hostiles[a].getCombatName()),\"Target \".concat(e.hostiles[a].getCombatName(),\".\"))"
+  },
+  {
+    "key": "button.hover.expr|var1_toDisplayCase_var0_getCombatName|0d49a56de571#1",
+    "original": "{var1}.toDisplayCase({var0}.getCombatName())",
+    "translation": "",
+    "context": "<<POS:11126448>> <<VARS:var0=e.hostiles[a],var1=k.m>> addButton(n,e.hostiles[a].buttonText,(function(){return e.selectTurretTargetSpecial(t,e.hostiles[a])}),k.m.toDisplayCase(e.hostiles[a].getCombatName()),\"Target \".concat(e.hostiles[a].getCombatName(),\".\"))"
   },
   {
     "key": "button.tooltip|Target|ba22cd5b56af#1",
@@ -2565,7 +3043,8 @@
     "key": "button|None|eef151632522",
     "original": "None",
     "translation": "无",
-    "context": "<<POS:11126860>> addDisabledButton(13,\"None\",\"No Target\",\"Currently not targeting anything.\")"
+    "context": "<<POS:11126860>> addDisabledButton(13,\"None\",\"No Target\",\"Currently not targeting anything.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Currently_not_targeting_anything|f618803b92c8",
@@ -2577,7 +3056,8 @@
     "key": "button|None|e6d2f233d6a2#1",
     "original": "None",
     "translation": "无",
-    "context": "<<POS:11126929>> addButton(13,\"None\",(function(){return e.selectTurretTargetSpecial(t,\"none\")}),\"No Target\",\"Don’t target anything.\")"
+    "context": "<<POS:11126929>> addButton(13,\"None\",(function(){return e.selectTurretTargetSpecial(t,\"none\")}),\"No Target\",\"Don’t target anything.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|No_Target|ffbe694ae37a#1",
@@ -2685,7 +3165,14 @@
     "key": "button|Back|ce9a8c0743c8",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:11128150>> addButton(14,\"Back\",(function(){return e.generateSpecialsMenu()}))"
+    "context": "<<POS:11128150>> addButton(14,\"Back\",(function(){return e.generateSpecialsMenu()}))",
+    "stage": 1
+  },
+  {
+    "key": "button.expr|var0|47fa7bde0a8a#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11129289>> <<VARS:var0=a.buttonText>> addButton(o,a.buttonText,(function(){return t.executeAttack({attack:e,tar:a})}),k.m.toDisplayCase(\"target \".concat(\"PlayerCharacter\"===a.getClassName()?\"yourself\":a.getCombatName())),\"Use <b>\".concat(e.TooltipTitle,\"</b> on \").concat(\"PlayerCharacter\"===a.getClassName()?\"yourself\":a.nameDisplay(),\"...."
   },
   {
     "key": "button.hover.expr|var0_toDisplayCase_target_concat_PlayerCharacter_a_getC|131c5bf17da6",
@@ -2703,7 +3190,14 @@
     "key": "button|Back|25b3575c5a58",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:11129636>> addButton(14,\"Back\",(function(){return t.generateCombatMenu(!0)}))"
+    "context": "<<POS:11129636>> addButton(14,\"Back\",(function(){return t.generateCombatMenu(!0)}))",
+    "stage": 1
+  },
+  {
+    "key": "button.expr|var0|47fa7bde0a8a#2",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11130712>> <<VARS:var0=n.buttonText>> addButton(o,n.buttonText,function(e,o){return function(){e.tar=o,t.executeSimpleAttack(e)}}(e,n),k.m.toDisplayCase(\"target \".concat(\"PlayerCharacter\"===n.getClassName()?\"yourself\":n.getCombatName())),\"Use action on \".concat(\"PlayerCharacter\"===n.getClassName()?\"yourself\":n.nameDisplay(),\".\"))"
   },
   {
     "key": "button.hover.expr|var0_toDisplayCase_target_concat_PlayerCharacter_n_getC|254b8d0daa80",
@@ -2716,6 +3210,34 @@
     "original": "Use action on ",
     "translation": "",
     "context": "<<POS:11130901>> addButton(o,n.buttonText,function(e,o){return function(){e.tar=o,t.executeSimpleAttack(e)}}(e,n),k.m.toDisplayCase(\"target \".concat(\"PlayerCharacter\"===n.getClassName()?\"yourself\":n.getCombatName())),\"Use action on \".concat(\"PlayerCharacter\"===n.getClassName()?\"yourself\":n.nameDisplay(),\".\"))"
+  },
+  {
+    "key": "button|Back|3e311fd8f355",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:11131012>> addButton(14,\"Back\",(function(){return t.generateCombatMenu(!0)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Back|8377b4609270",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:11132070>> addButton(14,\"Back\",(function(){return a.showCombatMenu(!1,!1)}))",
+    "stage": 1
+  },
+  {
+    "key": "button|Back|8377b4609270#1",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:11136622>> addButton(14,\"Back\",(function(){return a.showCombatMenu(!1,!1)}),\"Back\",\"Back out. Remember that “Sense” can be used to determine a foes likes and dislikes!\")",
+    "stage": 1
+  },
+  {
+    "key": "button.hover|Back|8377b4609270",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:11136674>> addButton(14,\"Back\",(function(){return a.showCombatMenu(!1,!1)}),\"Back\",\"Back out. Remember that “Sense” can be used to determine a foes likes and dislikes!\")",
+    "stage": 1
   },
   {
     "key": "button.tooltip|Back_out_Remember_that_Sense_can_be_used_to_determine_a_foes|11bca009e1e0",
@@ -4236,6 +4758,12 @@
     "context": "<<POS:11220650>>"
   },
   {
+    "key": "assign|span|8d8e0aee78b3",
+    "original": "</span>",
+    "translation": "",
+    "context": "<<POS:11220748>>"
+  },
+  {
     "key": "combat.expr|var1_li_Resistance_Flags_w_l_var0_join_You_can_t_t|cad32595f647",
     "original": "{var1}.li(\"Resistance Flags\",w(l)?{var0}.join(\", \"):\"You can’t tell.\")",
     "translation": "",
@@ -4275,7 +4803,14 @@
     "key": "button|Next|3951a2a48fb6",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:11222262>> addButton(0,\"Next\",(function(){return e.postCombatReturnToMenu()}))"
+    "context": "<<POS:11222262>> addButton(0,\"Next\",(function(){return e.postCombatReturnToMenu()}))",
+    "stage": 1
+  },
+  {
+    "key": "header|T_I_T_S_Help|290c734de956",
+    "original": "T.I.T.S. Help",
+    "translation": "",
+    "context": "<<POS:11222400>>"
   },
   {
     "key": "combat|Are_you_having_difficulty_winning_fights_If_so_select_yes_for|5b5e96001c5b",
@@ -4293,7 +4828,8 @@
     "key": "button|No|2b28fb18cb0a",
     "original": "No",
     "translation": "不",
-    "context": "<<POS:11222646>> addButton(1,\"No\",(function(){return e.postCombatReturnToMenu()}))"
+    "context": "<<POS:11222646>> addButton(1,\"No\",(function(){return e.postCombatReturnToMenu()}))",
+    "stage": 1
   },
   {
     "key": "combat.expr|Electricity_arcs_all_over_PlayerCharacter_e_getClassName|ca09c7c3c54d",

@@ -1,5 +1,11 @@
 [
   {
+    "key": "name.show|Lieve_Sellera|eacad8f0039c",
+    "original": "Lieve & Sellera",
+    "translation": "",
+    "context": "<<POS:27989300>> showName(\"Lieve & Sellera\")"
+  },
+  {
     "key": "output|You_dig_into_your_pack_and_take_out_the_documents_you_seized_fro|b2ca5335ddf9",
     "original": "You dig into your pack and take out the documents you seized from the radio tower, handing them over to the Field Marshal. She takes them and scatters the papers across the desk, looking them over with a cocked eyebrow. When she realizes what she’s looking at, that cheshire grin returns with a vengeance.",
     "translation": "",
@@ -183,7 +189,8 @@
     "key": "button|Next|26a2e564b8ad",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27997684>> addButton(0,\"Next\",G9,\"\",\"\")"
+    "context": "<<POS:27997684>> addButton(0,\"Next\",G9,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "name.show|Mayren|d003ac096862",
@@ -225,7 +232,8 @@
     "key": "button|Next|fd65eda43b15",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:27999132>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
+    "context": "<<POS:27999132>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "name.show|Gold_Myr_Estallia|9594ee7983dc",
@@ -273,7 +281,8 @@
     "key": "button|Next|3161eb8de6eb",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28001459>> addButton(0,\"Next\",D9,\"\",\"\")"
+    "context": "<<POS:28001459>> addButton(0,\"Next\",D9,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "name.show|Estallia|20204f1337e5",
@@ -315,7 +324,8 @@
     "key": "button|Next|a1b8b5efa72a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28002872>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
+    "context": "<<POS:28002872>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "name.show|Estallia|20204f1337e5#1",
@@ -422,7 +432,7 @@
   {
     "key": "button|Leave|321e053a010c",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:28004507>> addButton(14,\"Leave\",mainGameMenu,\"\",\"\")"
   },
   {
@@ -561,7 +571,8 @@
     "key": "button|Next|e39112cc6671",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28016167>> addButton(e++,\"Next\",V9,\"Next\",\"\")"
+    "context": "<<POS:28016167>> addButton(e++,\"Next\",V9,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|e39112cc6671",
@@ -579,7 +590,8 @@
     "key": "button|Next|2882d500494b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28018929>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:28018929>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|2882d500494b",
@@ -597,7 +609,8 @@
     "key": "button|Next|63d9fc37c3a3",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28024111>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:28024111>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|63d9fc37c3a3",
@@ -615,7 +628,8 @@
     "key": "button|Next|63d9fc37c3a3#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28026072>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:28026072>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|63d9fc37c3a3#1",
@@ -986,7 +1000,7 @@
   {
     "key": "button|Leave|173b8527ffd9",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:28037342>> addButton(2,\"Leave\",I8,\"Leave\",\"Time to head out.\")"
   },
   {
@@ -1064,7 +1078,7 @@
   {
     "key": "button|Leave|3bc36deef223",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:28039542>> addButton(1,\"Leave\",mainGameMenu,\"\",\"\")"
   },
   {
@@ -1095,7 +1109,8 @@
     "key": "button|Don_t|906b93fc2abf",
     "original": "Don’t",
     "translation": "不",
-    "context": "<<POS:28040342>> addButton(1,\"Don’t\",mainGameMenu,\"Don’t\",\"Maybe not...\")"
+    "context": "<<POS:28040342>> addButton(1,\"Don’t\",mainGameMenu,\"Don’t\",\"Maybe not...\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Don_t|906b93fc2abf",
@@ -1136,7 +1151,7 @@
   {
     "key": "button|Leave|1f26f820ddc6",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:28041136>> addButton(14,\"Leave\",mainGameMenu,\"\",\"\")"
   },
   {
@@ -1161,7 +1176,8 @@
     "key": "button|Next|f4b8d3edcf3d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28041904>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:28041904>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_push_the_door_open_wincing_when_its_hinges_squeal_loudly_B|4f9cd6a3f52f",
@@ -1203,7 +1219,8 @@
     "key": "button|Fight|7958e79f2619",
     "original": "Fight!",
     "translation": "战斗！",
-    "context": "<<POS:28043211>> addButton(0,\"Fight!\",E.V.beginCombat)"
+    "context": "<<POS:28043211>> addButton(0,\"Fight!\",E.V.beginCombat)",
+    "stage": 1
   },
   {
     "key": "output|b_Your_place_in_the_myr_orgy_continues_for_hours_and_hours_an|b678328aebe8",
@@ -1370,7 +1387,7 @@
   {
     "key": "button|Leave|a2b2910024c8",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:28050835>> addButton(1,\"Leave\",mainGameMenu,\"\",\"\")"
   },
   {
@@ -1401,7 +1418,8 @@
     "key": "button|Next|6ea6b56edc97",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28052168>> addButton(0,\"Next\",U8,\"\",\"\")"
+    "context": "<<POS:28052168>> addButton(0,\"Next\",U8,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output.expr|You_ll_need_to_find_some_keys_to_get_inside_var0_Too_bad|9e44f9f2c7cd",
@@ -1413,7 +1431,8 @@
     "key": "button|Next|9f469e8851ec",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28052413>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
+    "context": "<<POS:28052413>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|You_test_the_latch_on_the_rusty_iron_door_at_the_end_of_the_brid|60b42d4cd780",
@@ -1466,7 +1485,7 @@
   {
     "key": "output|i|4ef2ac858972",
     "original": "”</i>",
-    "translation": "”</i>",
+    "translation": "",
     "context": "<<POS:28054576>>"
   },
   {
@@ -1485,7 +1504,8 @@
     "key": "button|Fight|90ee55cbb2a5",
     "original": "Fight!",
     "translation": "战斗！",
-    "context": "<<POS:28055090>> addButton(0,\"Fight!\",E.V.beginCombat,\"\",\"\")"
+    "context": "<<POS:28055090>> addButton(0,\"Fight!\",E.V.beginCombat,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|You_pull_the_folder_off_the_shelf_and_toss_it_onto_the_console|85035b250c0c",
@@ -1695,7 +1715,8 @@
     "key": "button|Next|714c808957b6",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28060707>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
+    "context": "<<POS:28060707>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|When_you_return_to_the_floor_of_the_garage_the_side_loading_doo|8dab0d605662",
@@ -2097,7 +2118,8 @@
     "key": "button|Next|f81c27d39e35",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:28073005>> addButton(0,\"Next\",F9,\"\",\"\")"
+    "context": "<<POS:28073005>> addButton(0,\"Next\",F9,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "output|The_former_War_Queen_has_set_up_her_court_here_a_titanic_metal|5d8f9ecb4489",
@@ -2198,13 +2220,13 @@
   {
     "key": "button|Investigate|649393f18ed8",
     "original": "Investigate",
-    "translation": "调查",
+    "translation": "",
     "context": "<<POS:28075811>> addButton(0,\"Investigate\",window.fedQuestInvestigateToxin,\"Investigate\",\"Take a peek inside and see if there’s anything worthwhile.\")"
   },
   {
     "key": "button.hover|Investigate|649393f18ed8",
     "original": "Investigate",
-    "translation": "调查",
+    "translation": "",
     "context": "<<POS:28075857>> addButton(0,\"Investigate\",window.fedQuestInvestigateToxin,\"Investigate\",\"Take a peek inside and see if there’s anything worthwhile.\")"
   },
   {
@@ -2324,13 +2346,13 @@
   {
     "key": "button|Investigate|f15da5c15b43",
     "original": "Investigate",
-    "translation": "调查",
+    "translation": "",
     "context": "<<POS:28078350>> addButton(e++,\"Investigate\",window.fedQuestRadioFolder,\"Investigate\",\"Take a look at that folder...\")"
   },
   {
     "key": "button.hover|Investigate|f15da5c15b43",
     "original": "Investigate",
-    "translation": "调查",
+    "translation": "",
     "context": "<<POS:28078391>> addButton(e++,\"Investigate\",window.fedQuestRadioFolder,\"Investigate\",\"Take a look at that folder...\")"
   },
   {

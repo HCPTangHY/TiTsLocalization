@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|Shrt_Nme|89182c2a6a56",
+    "original": "Shrt Nme",
+    "translation": "",
+    "context": "<<POS:06119188>>"
+  },
+  {
     "key": "assign|Item_Name|8ccfbfaa5927",
     "original": "Item Name",
     "translation": "",
@@ -16,6 +22,12 @@
     "original": "This \".concat(GLOBAL.ITEM_TYPE_NAMES[e.type].toLowerCase(),\" has chameleon tech, with color changing capabilities. A series of tints and hues appear on your screen:\")",
     "translation": "",
     "context": "<<POS:06120104>>"
+  },
+  {
+    "key": "button.expr|var0|8e3c55d6e8b7",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:06120448>> <<VARS:var0=o>> addButton(a++,o,(function(){return window.rbgSelColor((0,u.Z)(e),t,void 0,e.applyColor,(function(){return e.interactFunction()}),\"\".concat(e.color),\"This item is already set to \".concat(e.color,\".\"),(0,u.Z)(e),n)}),\"\".concat(o,\" Colors\"),\"Choose from the \".concat(t,\" color scheme.\"))"
   },
   {
     "key": "button.tooltip|Choose_from_the|5f3a28c025f5",
@@ -57,13 +69,15 @@
     "key": "button|Back|a8adc08296c6",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:06121063>> addButton(14,\"Back\",(function(){return e.returnToInventory((0,u.Z)(e))}),\"Back\",\"Keep them \".concat(null!==(t=e.color)&&void 0!==t?t:\"default\",\" for now.\"))"
+    "context": "<<POS:06121063>> addButton(14,\"Back\",(function(){return e.returnToInventory((0,u.Z)(e))}),\"Back\",\"Keep them \".concat(null!==(t=e.color)&&void 0!==t?t:\"default\",\" for now.\"))",
+    "stage": 1
   },
   {
     "key": "button.hover|Back|a8adc08296c6",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:06121123>> addButton(14,\"Back\",(function(){return e.returnToInventory((0,u.Z)(e))}),\"Back\",\"Keep them \".concat(null!==(t=e.color)&&void 0!==t?t:\"default\",\" for now.\"))"
+    "context": "<<POS:06121123>> addButton(14,\"Back\",(function(){return e.returnToInventory((0,u.Z)(e))}),\"Back\",\"Keep them \".concat(null!==(t=e.color)&&void 0!==t?t:\"default\",\" for now.\"))",
+    "stage": 1
   },
   {
     "key": "button.tooltip|Keep_them|7c88cfe0678e",
@@ -87,7 +101,8 @@
     "key": "button|Next|a1d49094bdb8",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:06121720>> addButton(0,\"Next\",null!==s?s:function(){return e.returnToInventory((0,u.Z)(e))})"
+    "context": "<<POS:06121720>> addButton(0,\"Next\",null!==s?s:function(){return e.returnToInventory((0,u.Z)(e))})",
+    "stage": 1
   },
   {
     "key": "string.array|quantity|c323c668b3aa",
@@ -162,6 +177,42 @@
     "context": "<<POS:06135109>>"
   },
   {
+    "key": "button.expr|var0|b56955d8efb8",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:06135314>> <<VARS:var0=e.btnTxt>> addDisabledButton(t,e.btnTxt,e.tooltip?e.btnTxt:void 0,e.tooltip)"
+  },
+  {
+    "key": "button.hover.expr|var0|b56955d8efb8",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:06135349>> <<VARS:var0=e.tooltip>> addDisabledButton(t,e.btnTxt,e.tooltip?e.btnTxt:void 0,e.tooltip)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:06135372>> <<VARS:var0=e.btnTxt>> addButton(t,e.btnTxt,e.fn,e.tooltip?e.btnTxt:void 0,e.tooltip)"
+  },
+  {
+    "key": "button.hover.expr|var0_var1_var2|9f8d245ab13d",
+    "original": "{var0}?{var1}:{var2}",
+    "translation": "",
+    "context": "<<POS:06135386>> <<VARS:var0=e.tooltip,var1=e.btnTxt,var2=void 0>> addButton(t,e.btnTxt,e.fn,e.tooltip?e.btnTxt:void 0,e.tooltip)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:06135412>> <<VARS:var0=e.tooltip>> addButton(t,e.btnTxt,e.fn,e.tooltip?e.btnTxt:void 0,e.tooltip)"
+  },
+  {
+    "key": "button|Nipples|302fe86711cb",
+    "original": "Nipples",
+    "translation": "",
+    "context": "<<POS:06135525>> addButton(u,\"Nipples\",(function(){return t.displayPiercingMenu(e,\"nipples\")}))"
+  },
+  {
     "key": "button|Penis|f4ca5170f87c",
     "original": "Penis",
     "translation": "",
@@ -180,6 +231,36 @@
     "context": "<<POS:06135958>> addButton(u,\"Clit\",(function(){return t.displayPiercingMenu(e,\"clit\")}))"
   },
   {
+    "key": "button.expr|var0|6fb870c26981",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:06136097>> <<VARS:var0=e.btnTxt>> addDisabledButton(t,e.btnTxt,e.tooltip?e.btnTxt:void 0,e.tooltip)"
+  },
+  {
+    "key": "button.hover.expr|var0|6fb870c26981",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:06136132>> <<VARS:var0=e.tooltip>> addDisabledButton(t,e.btnTxt,e.tooltip?e.btnTxt:void 0,e.tooltip)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:06136155>> <<VARS:var0=e.btnTxt>> addButton(t,e.btnTxt,e.fn,e.tooltip?e.btnTxt:void 0,e.tooltip)"
+  },
+  {
+    "key": "button.hover.expr|var0_var1_var2|9f8d245ab13d#1",
+    "original": "{var0}?{var1}:{var2}",
+    "translation": "",
+    "context": "<<POS:06136169>> <<VARS:var0=e.tooltip,var1=e.btnTxt,var2=void 0>> addButton(t,e.btnTxt,e.fn,e.tooltip?e.btnTxt:void 0,e.tooltip)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:06136195>> <<VARS:var0=e.tooltip>> addButton(t,e.btnTxt,e.fn,e.tooltip?e.btnTxt:void 0,e.tooltip)"
+  },
+  {
     "key": "button|Cancel|fe661bfbe1ce",
     "original": "Cancel",
     "translation": "",
@@ -189,7 +270,8 @@
     "key": "button|Back|42aae9662fc9",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:06136385>> addButton(14,\"Back\",(function(){return t.displayPiercingMenu(e)}))"
+    "context": "<<POS:06136385>> addButton(14,\"Back\",(function(){return t.displayPiercingMenu(e)}))",
+    "stage": 1
   },
   {
     "key": "header|Piercing|28b42efc7b1a",
@@ -240,6 +322,13 @@
     "context": "<<POS:06138690>> <<VARS:var0=e>> output(e)"
   },
   {
+    "key": "button|Next|648f6a4c46f8",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:06138891>> addButton(0,\"Next\",(function(){return p.returnToInventory(g)}))",
+    "stage": 1
+  },
+  {
     "key": "output|You_do_not_have_a_penis_to_use_this_item_on|f2f21a1ba56a",
     "original": "You do not have a penis to use this item on!",
     "translation": "",
@@ -249,7 +338,8 @@
     "key": "button|Next|310a8839fa0f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:06139111>> addButton(0,\"Next\",(function(){return e.returnToInventory()}))"
+    "context": "<<POS:06139111>> addButton(0,\"Next\",(function(){return e.returnToInventory()}))",
+    "stage": 1
   },
   {
     "key": "output|You_cannot_remove_the_current_cockwear_without_outside_assistanc|935172673767",
@@ -267,7 +357,8 @@
     "key": "button|Next|d71f0404d8dd",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:06139544>> addButton(0,\"Next\",(function(){return e.returnToInventory()}))"
+    "context": "<<POS:06139544>> addButton(0,\"Next\",(function(){return e.returnToInventory()}))",
+    "stage": 1
   },
   {
     "key": "output.expr|Which_cock_would_you_like_to_wear_var0_on|391ca4de79e5",
@@ -294,16 +385,40 @@
     "context": "<<POS:06140306>>"
   },
   {
+    "key": "button.expr|var0|7e16cb58ec12",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:06140471>> <<VARS:var0=u>> addDisabledButton(o++,u,l,\"You cannot remove the current cockwear on that without outside assistance.\")"
+  },
+  {
     "key": "button.hover|You_cannot_remove_the_current_cockwear_on_that_without_outside_a|7e27506d8919",
     "original": "You cannot remove the current cockwear on that without outside assistance.",
     "translation": "",
     "context": "<<POS:06140476>> addDisabledButton(o++,u,l,\"You cannot remove the current cockwear on that without outside assistance.\")"
   },
   {
+    "key": "button.expr|var0|903f4c9a6a44",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:06140577>> <<VARS:var0=u>> addDisabledButton(o++,u,l,\"You cannot fit this cockwear on that.\")"
+  },
+  {
     "key": "button.hover|You_cannot_fit_this_cockwear_on_that|5427676b09de",
     "original": "You cannot fit this cockwear on that.",
     "translation": "",
     "context": "<<POS:06140582>> addDisabledButton(o++,u,l,\"You cannot fit this cockwear on that.\")"
+  },
+  {
+    "key": "button.expr|var0|9a9e43e749a5",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:06140636>> <<VARS:var0=u>> addButton(o++,u,(function(){return e.actuallyWearCocksock(t)}),l,\"Wear this cockwear on that.\")"
+  },
+  {
+    "key": "button.hover.expr|var0|9a9e43e749a5",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:06140685>> <<VARS:var0=l>> addButton(o++,u,(function(){return e.actuallyWearCocksock(t)}),l,\"Wear this cockwear on that.\")"
   },
   {
     "key": "button.tooltip|Wear_this_cockwear_on_that|2ecff86e912e",
@@ -316,6 +431,12 @@
     "original": "{var0}",
     "translation": "",
     "context": "<<POS:06140777>> <<VARS:var0=a>> output(a)"
+  },
+  {
+    "key": "button|Cancel|fe661bfbe1ce#1",
+    "original": "Cancel",
+    "translation": "",
+    "context": "<<POS:06140825>> addButton(o++,\"Cancel\",(function(){return e.returnToInventory()}))"
   },
   {
     "key": "header|Cockwear|a07ca3971042",
@@ -345,7 +466,8 @@
     "key": "button|Next|d589fa199bbd",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:06142052>> addButton(0,\"Next\",(function(){return a.returnToInventory(t)}))"
+    "context": "<<POS:06142052>> addButton(0,\"Next\",(function(){return a.returnToInventory(t)}))",
+    "stage": 1
   },
   {
     "key": "assign|Special_Flags|797545e3a338",

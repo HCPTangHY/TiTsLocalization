@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|Deerium_Lite|8a0c016cf950",
+    "original": "Deerium Lite",
+    "translation": "",
+    "context": "<<POS:09849778>>"
+  },
+  {
     "key": "assign|a_Deerium_Lite_medipen|9c0d4911d1cc",
     "original": "a Deerium Lite medipen",
     "translation": "",
@@ -60,10 +66,46 @@
     "context": "<<POS:09852950>> <<VARS:var0=e>> output(\"\\n\\nYour [pc.legOrLegs] suddenly become weak, sending you tumbling onto your \"+(e.isTaur()?\"flank\":\"butt\")+\" wondering what’s happening. You flop on the floor helplessly feeling like \")"
   },
   {
+    "key": "output|you_re_splitting_in_half_until_it_really_happens_and_your_lower|d4f667c6b713",
+    "original": "you’re splitting in half, until it really happens and your lower body becomes a pair of legs! They grow to look like those of a deer, with light brown fur capped by small black hooves.",
+    "translation": "",
+    "context": "<<POS:09853155>>"
+  },
+  {
+    "key": "output|they_re_turning_to_putty_until_they_change_shape_and_start_to_r|d820b91b8336",
+    "original": "they’re turning to putty, until they change shape and start to resemble those of a deer, with light brown fur capped by small black hooves.",
+    "translation": "",
+    "context": "<<POS:09853350>>"
+  },
+  {
+    "key": "output|Your_new_legs_aren_t_much_different_than_the_old_to_be_honest|9593019d416d",
+    "original": " Your new legs aren’t much different than the old, to be honest.",
+    "translation": "",
+    "context": "<<POS:09853595>>"
+  },
+  {
+    "key": "output|You_carefully_get_up_balancing_yourself_on_your_hooves_as_you|bf020ce60034",
+    "original": " You carefully get up, balancing yourself on your hooves as you try to get used to your new gait.",
+    "translation": "",
+    "context": "<<POS:09853670>>"
+  },
+  {
+    "key": "output|b_You_now_have_the_legs_of_a_deer_b|a73580a15bce",
+    "original": " <b>You now have the legs of a deer!</b>",
+    "translation": "",
+    "context": "<<POS:09853778>>"
+  },
+  {
     "key": "output.expr|var0_legTypeLockedMessage|967f350d2b2a",
     "original": "\"+{var0}.legTypeLockedMessage()",
     "translation": "",
     "context": "<<POS:09854031>> <<VARS:var0=e>> output(\"\\n\\n\"+e.legTypeLockedMessage())"
+  },
+  {
+    "key": "output.expr|var0_legCountLockedMessage|09ba01780b7b",
+    "original": "\"+{var0}.legCountLockedMessage()",
+    "translation": "",
+    "context": "<<POS:09854071>> <<VARS:var0=e>> output(\"\\n\\n\"+e.legCountLockedMessage())"
   },
   {
     "key": "output|There_s_a_rush_of_heat_that_hits_your_groin_and_pulses_through_y|d47ea4459cc0",

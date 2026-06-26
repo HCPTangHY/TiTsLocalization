@@ -2,8 +2,9 @@
   {
     "key": "button|Next|43c1e187e1b0",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02084303>> addButton(0,\"Next\",(function(){return function(e,t){clearOutput(),author(\"William\"),clearBust(),clearName(),output(blockHeader(\"Birthing!\"));var o=200*e;o>pc.milkQ()&&(o=pc.milkQ());window.boredJumperBreastFeedOK()?(output(\"You can feel your [pc.breasts]\"),pc.milkQ()>=2e3?output(\" straining\"):output..."
+    "translation": "继续",
+    "context": "<<POS:02084303>> addButton(0,\"Next\",(function(){return function(e,t){clearOutput(),author(\"William\"),clearBust(),clearName(),output(blockHeader(\"Birthing!\"));var o=200*e;o>pc.milkQ()&&(o=pc.milkQ());window.boredJumperBreastFeedOK()?(output(\"You can feel your [pc.breasts]\"),pc.milkQ()>=2e3?output(\" straining\"):output...",
+    "stage": 1
   },
   {
     "key": "output.expr|b_Minuet_has_taken_var0_of_your_credits|8edc3e8d112d",
@@ -32,8 +33,9 @@
   {
     "key": "output|b|21123fdac4e4",
     "original": ".</b>",
-    "translation": "",
-    "context": "<<POS:02089495>>"
+    "translation": "。</b>",
+    "context": "<<POS:02089495>>",
+    "stage": 1
   },
   {
     "key": "output|You_tell_Minuet_that_you_don_t_want_to_be_hurt_You_re_just_here|5c5b2fcb20ad",
@@ -164,8 +166,9 @@
   {
     "key": "button|Next|6f4b9e2c38e8",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02095572>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02095572>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Minuet_gives_you_a_second_to_decide_on_your_answer_and_that_s_a|b11f7a08838a",
@@ -284,8 +287,9 @@
   {
     "key": "button|Next|7c14dfd2e33e",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02101506>> addButton(0,\"Next\",ki)"
+    "translation": "继续",
+    "context": "<<POS:02101506>> addButton(0,\"Next\",ki)",
+    "stage": 1
   },
   {
     "key": "header.expr|var0|725f50c68bae",
@@ -596,8 +600,9 @@
   {
     "key": "button|Next|24d013e5a981",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02114070>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02114070>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|For_the_first_time_you_feel_resolve_Maybe_even_indignation|3f61c66a57a5",
@@ -1136,8 +1141,9 @@
   {
     "key": "button|Fight|147eceaba889",
     "original": "Fight!",
-    "translation": "",
-    "context": "<<POS:02135115>> addButton(0,\"Fight!\",ue.V.beginCombat)"
+    "translation": "战斗！",
+    "context": "<<POS:02135115>> addButton(0,\"Fight!\",ue.V.beginCombat)",
+    "stage": 1
   },
   {
     "key": "output|After_that_last_blow_Minuet_stumbles_backward_She_tries_to_mai|313fb7fb5ebd",
@@ -1526,8 +1532,9 @@
   {
     "key": "button|Appearance|cf5ef2c36dd7",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:02149598>> addButton(0,\"Appearance\",(function(){clearOutput(),output(xi()),addDisabledButton(0,\"Appearance\")}),\"Appearance\",\"Lorelei put a lot of effort into making herself look good for you. Might as well admire her effort!\")"
+    "translation": "外貌",
+    "context": "<<POS:02149598>> addButton(0,\"Appearance\",(function(){clearOutput(),output(xi()),addDisabledButton(0,\"Appearance\")}),\"Appearance\",\"Lorelei put a lot of effort into making herself look good for you. Might as well admire her effort!\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Appearance|cf5ef2c36dd7",
@@ -1644,19 +1651,25 @@
     "context": "<<POS:02150994>> addButton(8,\"Elieorl\",window.loreleiVenomIntro,\"Elieorl\",textify(ci||(ci=(0,a.Z)([\"Ask Lorelei to assume the persona of the alien that had symbiotically attached itself to a ‘host’ and has a fixation on either consuming others, or using them as ‘vessels’ so it can spread across the universe.\\n\\n<b>T..."
   },
   {
-    "key": "button|Leave|22a071c4d664",
+    "key": "button.tooltip.expr|var2_var1_var0_0_a_Z_Ask_Lorelei_to_assume_the_persona|c8e6944e6daf",
+    "original": "{var2}({var1}({var0}(0,a.Z)([\"Ask Lorelei to assume the persona of the alien that had symbiotically attached itself to a ‘host’ and has a fixation on either consuming others, or using them as ‘vessels’ so it can spread across the universe.\\n\\n<b>This content involves body invasions, oviposition, infestation, and insemination via infestation, among other intense fetishes, for the squeamish.</b>\"])))",
+    "translation": "",
+    "context": "<<POS:02151003>> <<VARS:var0=ci=,var1=ci||,var2=textify>> addButton(8,\"Elieorl\",window.loreleiVenomIntro,\"Elieorl\",textify(ci||(ci=(0,a.Z)([\"Ask Lorelei to assume the persona of the alien that had symbiotically attached itself to a ‘host’ and has a fixation on either consuming others, or using them as ‘vessels’ so it can spread across the universe.\\n\\n<b>T..."
+  },
+  {
+    "key": "button|Leave|398f87463b46",
     "original": "Leave",
     "translation": "",
     "context": "<<POS:02151418>> addButton(14,\"Leave\",zi,\"Leave\",\"It was fun, but you really have other things you must be doing.\")"
   },
   {
-    "key": "button.hover|Leave|22a071c4d664",
+    "key": "button.hover|Leave|398f87463b46",
     "original": "Leave",
     "translation": "",
     "context": "<<POS:02151429>> addButton(14,\"Leave\",zi,\"Leave\",\"It was fun, but you really have other things you must be doing.\")"
   },
   {
-    "key": "button.tooltip|It_was_fun_but_you_really_have_other_things_you_must_be_doing|3375c8411b39",
+    "key": "button.tooltip|It_was_fun_but_you_really_have_other_things_you_must_be_doing|ffa05a0cbc2f",
     "original": "It was fun, but you really have other things you must be doing.",
     "translation": "",
     "context": "<<POS:02151437>> addButton(14,\"Leave\",zi,\"Leave\",\"It was fun, but you really have other things you must be doing.\")"
@@ -1958,8 +1971,9 @@
   {
     "key": "button|Back|f36698c5dbfb",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:02156701>> addButton(14,\"Back\",Si)"
+    "translation": "返回",
+    "context": "<<POS:02156701>> addButton(14,\"Back\",Si)",
+    "stage": 1
   },
   {
     "key": "header.expr|var0|47fa7bde0a8a",
@@ -2996,8 +3010,9 @@
   {
     "key": "button|Next|42c4a573ae87",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02192257>> addButton(0,\"Next\",(function(){return moveToRoom(\"ZSR L31\",!0)}))"
+    "translation": "继续",
+    "context": "<<POS:02192257>> addButton(0,\"Next\",(function(){return moveToRoom(\"ZSR L31\",!0)}))",
+    "stage": 1
   },
   {
     "key": "header.expr|var0|725f50c68bae#1",
@@ -3074,8 +3089,9 @@
   {
     "key": "button|Next|f5a86e640e1b",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02194426>> addButton(0,\"Next\",(function(){return Fi(!0)}))"
+    "translation": "继续",
+    "context": "<<POS:02194426>> addButton(0,\"Next\",(function(){return Fi(!0)}))",
+    "stage": 1
   },
   {
     "key": "output|i_What_i_Lorelei_asks_in_bewilderment_She_looks_to_her_gl|1a7e755464f3",
@@ -3104,8 +3120,9 @@
   {
     "key": "button|Next|af7c725bb825",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02195137>> addButton(0,\"Next\",(function(){return moveToRoom(\"ZSR L31\",!0)}))"
+    "translation": "继续",
+    "context": "<<POS:02195137>> addButton(0,\"Next\",(function(){return moveToRoom(\"ZSR L31\",!0)}))",
+    "stage": 1
   },
   {
     "key": "header.expr|var0|725f50c68bae#2",
@@ -4364,8 +4381,9 @@
   {
     "key": "button|Next|c93e39e91a92",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02248812>> addButton(0,\"Next\",(function(){return Fi(!1)}))"
+    "translation": "继续",
+    "context": "<<POS:02248812>> addButton(0,\"Next\",(function(){return Fi(!1)}))",
+    "stage": 1
   },
   {
     "key": "header.expr|var0|725f50c68bae#3",
@@ -5330,14 +5348,16 @@
   {
     "key": "button|Yes|792ca8418293",
     "original": "Yes",
-    "translation": "",
-    "context": "<<POS:02289535>> addButton(0,\"Yes\",(function(){return Gi(!0)}))"
+    "translation": "是的",
+    "context": "<<POS:02289535>> addButton(0,\"Yes\",(function(){return Gi(!0)}))",
+    "stage": 1
   },
   {
     "key": "button|No|1c655db5490a",
     "original": "No",
-    "translation": "",
-    "context": "<<POS:02289582>> addButton(1,\"No\",_i)"
+    "translation": "不",
+    "context": "<<POS:02289582>> addButton(1,\"No\",_i)",
+    "stage": 1
   },
   {
     "key": "output|That_s_certainly_something_to_keep_in_mind_should_you_come_acro|3f5ab06261dc",
@@ -5702,8 +5722,9 @@
   {
     "key": "button|Next|933a7e17ba3b",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02303156>> addButton(0,\"Next\",Ji)"
+    "translation": "继续",
+    "context": "<<POS:02303156>> addButton(0,\"Next\",Ji)",
+    "stage": 1
   },
   {
     "key": "header.expr|var0|725f50c68bae#4",
@@ -5744,8 +5765,9 @@
   {
     "key": "button|Average|d621a11f9ac0",
     "original": "Average",
-    "translation": "",
-    "context": "<<POS:02303770>> addButton(0,\"Average\",(function(){return Ui(!1)}))"
+    "translation": "平均",
+    "context": "<<POS:02303770>> addButton(0,\"Average\",(function(){return Ui(!1)}))",
+    "stage": 1
   },
   {
     "key": "button|Big|5e3d6569136f",
@@ -5774,8 +5796,9 @@
   {
     "key": "button|None|6eeab838cac2",
     "original": "None",
-    "translation": "",
-    "context": "<<POS:02304081>> addButton(0,\"None\",(function(){return Zi(0)}))"
+    "translation": "无",
+    "context": "<<POS:02304081>> addButton(0,\"None\",(function(){return Zi(0)}))",
+    "stage": 1
   },
   {
     "key": "button|One|499186ccda4c",
@@ -5798,8 +5821,9 @@
   {
     "key": "button|Back|2704e1645905",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:02304256>> addButton(14,\"Back\",(function(){return Ki(e-1)}))"
+    "translation": "返回",
+    "context": "<<POS:02304256>> addButton(14,\"Back\",(function(){return Ki(e-1)}))",
+    "stage": 1
   },
   {
     "key": "header.expr|var0|47fa7bde0a8a#1",
@@ -7796,8 +7820,9 @@
   {
     "key": "button|Next|4915e489c389",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02388044>> addButton(0,\"Next\",(function(){return moveToRoom(\"ZSR L31\",!0)}))"
+    "translation": "继续",
+    "context": "<<POS:02388044>> addButton(0,\"Next\",(function(){return moveToRoom(\"ZSR L31\",!0)}))",
+    "stage": 1
   },
   {
     "key": "output|b_You_can_t_help_but_feel_like_you_re_being_watched_b|7797603003ae",
@@ -7862,8 +7887,9 @@
   {
     "key": "button|Next|2f19833b501c",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02390412>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02390412>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_make_your_way_deeper_into_Zh_ng_Shi|eaf987c90244",
@@ -8162,14 +8188,16 @@
   {
     "key": "button|Yes|edc27a39bc88",
     "original": "Yes",
-    "translation": "",
-    "context": "<<POS:02401986>> addButton(0,\"Yes\",bi)"
+    "translation": "是的",
+    "context": "<<POS:02401986>> addButton(0,\"Yes\",bi)",
+    "stage": 1
   },
   {
     "key": "button|No|1c655db5490a#1",
     "original": "No",
-    "translation": "",
-    "context": "<<POS:02402008>> addButton(1,\"No\",vi)"
+    "translation": "不",
+    "context": "<<POS:02402008>> addButton(1,\"No\",vi)",
+    "stage": 1
   },
   {
     "key": "output|You_make_your_way_deeper_into_Zh_ng_Shi|11ab7f75a847",
@@ -8432,14 +8460,16 @@
   {
     "key": "button|Yes|c935b765fe3b",
     "original": "Yes",
-    "translation": "",
-    "context": "<<POS:02410496>> addButton(0,\"Yes\",fi)"
+    "translation": "是的",
+    "context": "<<POS:02410496>> addButton(0,\"Yes\",fi)",
+    "stage": 1
   },
   {
     "key": "button|No|1c655db5490a#2",
     "original": "No",
-    "translation": "",
-    "context": "<<POS:02410518>> addButton(1,\"No\",wi)"
+    "translation": "不",
+    "context": "<<POS:02410518>> addButton(1,\"No\",wi)",
+    "stage": 1
   },
   {
     "key": "textify|The_Saurmorian_doorman_recognizes_you_as_you_approach_and_steps|ccd503848f7b",
@@ -8528,8 +8558,9 @@
   {
     "key": "button|Next|5ada3333f5e7",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02414834>> addButton(0,\"Next\",(function(){return moveToRoom(\"ZSR L31\",!0)}))"
+    "translation": "继续",
+    "context": "<<POS:02414834>> addButton(0,\"Next\",(function(){return moveToRoom(\"ZSR L31\",!0)}))",
+    "stage": 1
   },
   {
     "key": "output|The_Saurmorian_eyes_you_up_and_down_getting_a_good_look_at_you|046053ca829e",
@@ -8570,8 +8601,9 @@
   {
     "key": "button|Next|0a1b9b2f7f95",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02416391>> addButton(0,\"Next\",Ii)"
+    "translation": "继续",
+    "context": "<<POS:02416391>> addButton(0,\"Next\",Ii)",
+    "stage": 1
   },
   {
     "key": "output|The_Saurmorian_doorman_recognizes_you_as_you_approach_and_steps|0af31c174738",
@@ -8702,8 +8734,9 @@
   {
     "key": "button|Next|e1dedf16885a",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02419932>> addButton(0,\"Next\",I)"
+    "translation": "继续",
+    "context": "<<POS:02419932>> addButton(0,\"Next\",I)",
+    "stage": 1
   },
   {
     "key": "output.expr|Out_from_the_twisting_gloom_of_the_mineshafts_and_twinkling_mine|b5b19676fcb8",
@@ -8780,8 +8813,9 @@
   {
     "key": "button|Next|ba8f81068546",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02422080>> addButton(0,\"Next\",(function(){clearOutput(),e.showAll(),author(\"SoAndSo\"),output(\"Two heavy metal bolts hammer into the ground near your [pc.feet], the sheer heft of the impact almost enough to crumble the ground!\"),pc.hasSlaveOutfit()?output(\"\\n\\nYou jump back on instinct and draw out your [pc.wea..."
+    "translation": "继续",
+    "context": "<<POS:02422080>> addButton(0,\"Next\",(function(){clearOutput(),e.showAll(),author(\"SoAndSo\"),output(\"Two heavy metal bolts hammer into the ground near your [pc.feet], the sheer heft of the impact almost enough to crumble the ground!\"),pc.hasSlaveOutfit()?output(\"\\n\\nYou jump back on instinct and draw out your [pc.wea...",
+    "stage": 1
   },
   {
     "key": "output|b_Maike_s_remote_is_on_the_ground_where_you_left_it_You_could|ee53735cf127",
@@ -8912,8 +8946,9 @@
   {
     "key": "button|Appearance|bb8ef2f16700",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:02431929>> addDisabledButton(0,\"Appearance\",\"Appearance\",\"You’re already doing that!\")"
+    "translation": "外貌",
+    "context": "<<POS:02431929>> addDisabledButton(0,\"Appearance\",\"Appearance\",\"You’re already doing that!\")",
+    "stage": 1
   },
   {
     "key": "button.hover|You_re_already_doing_that|61a52a3b44d2",
@@ -9218,8 +9253,9 @@
   {
     "key": "button|Next|49cdf99242cc",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02440665>> addButton(0,\"Next\",s)"
+    "translation": "继续",
+    "context": "<<POS:02440665>> addButton(0,\"Next\",s)",
+    "stage": 1
   },
   {
     "key": "output|i_I_was_told_to_go_to_the_pen_after_the_shift_the_collar_popp|513253033e24",
@@ -9254,8 +9290,9 @@
   {
     "key": "button|Next|f8ef3f2f96f5",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02441962>> addButton(0,\"Next\",s)"
+    "translation": "继续",
+    "context": "<<POS:02441962>> addButton(0,\"Next\",s)",
+    "stage": 1
   },
   {
     "key": "output.expr|i_Dare_I_take_you_here_and_now_By_the_neck_and_off_of_that_wa|072486321bd6",
@@ -9722,8 +9759,9 @@
   {
     "key": "button|Next|5caf9af95aa3",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02460957>> addButton(0,\"Next\",r)"
+    "translation": "继续",
+    "context": "<<POS:02460957>> addButton(0,\"Next\",r)",
+    "stage": 1
   },
   {
     "key": "output|Without_a_thought_for_you_Maike_takes_a_step_to_the_side_and_ha|ca89f342a8a8",
@@ -9878,8 +9916,9 @@
   {
     "key": "button|Next|6f030240c0c6",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02466789>> addButton(0,\"Next\",u)"
+    "translation": "继续",
+    "context": "<<POS:02466789>> addButton(0,\"Next\",u)",
+    "stage": 1
   },
   {
     "key": "output|The_march_to_the_pen_is_quite_the_effort|29c5ea610332",
@@ -9950,8 +9989,9 @@
   {
     "key": "button|Next|adc553d1daf6",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02469399>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02469399>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output.expr|You_ve_got_a_more_expedient_idea_to_get_what_you_want_1_fla|34b59a03e2c9",
@@ -10100,8 +10140,9 @@
   {
     "key": "button|Next|19ae7ecf9d31",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02472749>> addButton(0,\"Next\",ue.V.beginCombat)"
+    "translation": "继续",
+    "context": "<<POS:02472749>> addButton(0,\"Next\",ue.V.beginCombat)",
+    "stage": 1
   },
   {
     "key": "output|The_battered_up_moth_domme_crash_lands_into_the_rough_stone_walk|11efd95bdf86",
@@ -10610,8 +10651,9 @@
   {
     "key": "button|Next|744bad33f909",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02489185>> addButton(0,\"Next\",w)"
+    "translation": "继续",
+    "context": "<<POS:02489185>> addButton(0,\"Next\",w)",
+    "stage": 1
   },
   {
     "key": "output|You_rub_your_hands_together_in_glee_perhaps_to_most_a_spanking|c01c8cbe3e02",
@@ -10790,8 +10832,9 @@
   {
     "key": "button|Next|8a1ef4a6ebd4",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02499971>> addButton(0,\"Next\",w)"
+    "translation": "继续",
+    "context": "<<POS:02499971>> addButton(0,\"Next\",w)",
+    "stage": 1
   },
   {
     "key": "output|i_Sup_girl_i_you_say_out_loud_as_your_pc_tailCunt_swin|4bb8fc63676f",
@@ -10976,8 +11019,9 @@
   {
     "key": "button|Next|f223925a6688",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02509533>> addButton(0,\"Next\",w)"
+    "translation": "继续",
+    "context": "<<POS:02509533>> addButton(0,\"Next\",w)",
+    "stage": 1
   },
   {
     "key": "output|You_probably_could_do_something_to_her_but_the_satisfaction_you|b4999a69f7b8",
@@ -11006,8 +11050,9 @@
   {
     "key": "button|Next|1760f7d4fa6c",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02510240>> addButton(0,\"Next\",w)"
+    "translation": "继续",
+    "context": "<<POS:02510240>> addButton(0,\"Next\",w)",
+    "stage": 1
   },
   {
     "key": "header|The_Spoils|ae57940bc6bf",
@@ -11126,8 +11171,9 @@
   {
     "key": "button|Next|36e6e81f8481",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02513362>> addButton(0,\"Next\",k)"
+    "translation": "继续",
+    "context": "<<POS:02513362>> addButton(0,\"Next\",k)",
+    "stage": 1
   },
   {
     "key": "output|Faces_of_all_kinds|75a53ff3264a",
@@ -11210,8 +11256,9 @@
   {
     "key": "button|Next|18bbb1e86180",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02515814>> addButton(0,\"Next\",v)"
+    "translation": "继续",
+    "context": "<<POS:02515814>> addButton(0,\"Next\",v)",
+    "stage": 1
   },
   {
     "key": "output|You_re_not_quite_sure_of_what_happens_afterwards_It_s_a_blur_of|284609d7530f",
@@ -11444,8 +11491,9 @@
   {
     "key": "button|Next|6809203a44b9",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02526307>> addButton(0,\"Next\",T)"
+    "translation": "继续",
+    "context": "<<POS:02526307>> addButton(0,\"Next\",T)",
+    "stage": 1
   },
   {
     "key": "output|You_re_pulled_down_by_the_waist_as_an_entire_body_clambers_over|2ba580e4f8b1",
@@ -11576,8 +11624,9 @@
   {
     "key": "button|Next|8070f10f434f",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02531334>> addButton(0,\"Next\",Y)"
+    "translation": "继续",
+    "context": "<<POS:02531334>> addButton(0,\"Next\",Y)",
+    "stage": 1
   },
   {
     "key": "output|You_re_not_sure_of_what_happens_next_Your_arm_goes_numb_as_if_y|7cc0bcff1aaf",
@@ -11738,8 +11787,9 @@
   {
     "key": "button|Next|cfc698e8caf4",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02534473>> addButton(0,\"Next\",k)"
+    "translation": "继续",
+    "context": "<<POS:02534473>> addButton(0,\"Next\",k)",
+    "stage": 1
   },
   {
     "key": "output|It_s_such_a_short_ranged_attack_that_it_s_impossible_to_avoid_a|336106d636b9",
@@ -11882,8 +11932,9 @@
   {
     "key": "button|Next|fccd447093ed",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02539428>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02539428>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|i_Was_there_something_else_you_wanted_pc_name_i|c5135e46a6d2",
@@ -11972,8 +12023,9 @@
   {
     "key": "button|Appearance|5e380e532e0d",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:02540714>> addButton(2,\"Appearance\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:2;clearOutput(),olympia.showAll(),author(\"Savin\"),output(\"Olympia is a titan of a synthetic woman, standing a bit over seven feet tall and gifted with pornstar curves to complement her..."
+    "translation": "外貌",
+    "context": "<<POS:02540714>> addButton(2,\"Appearance\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:2;clearOutput(),olympia.showAll(),author(\"Savin\"),output(\"Olympia is a titan of a synthetic woman, standing a bit over seven feet tall and gifted with pornstar curves to complement her...",
+    "stage": 1
   },
   {
     "key": "button|Leave|d86e60d41cae",
@@ -12044,8 +12096,9 @@
   {
     "key": "button|Back|71237994a1ed",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:02544147>> addButton(14,\"Back\",(function(){return ua(!0)}))"
+    "translation": "返回",
+    "context": "<<POS:02544147>> addButton(14,\"Back\",(function(){return ua(!0)}))",
+    "stage": 1
   },
   {
     "key": "output|i_Tell_me_about_your_ship_there_i_you_prompt_nodding_out|0b485ed10a43",
@@ -12524,8 +12577,9 @@
   {
     "key": "button|Next|d668dff41ded",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02564917>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02564917>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|i_Every_system_aboard_the_i_Sidewinder_i_is_proprietary_de|97c26721b935",
@@ -12686,8 +12740,9 @@
   {
     "key": "button|Next|b3cf21364f48",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02573938>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02573938>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|The_lab_seems_dark_and_deserted_now_that_Olympia_is_gone_The_co|602e09afc9a4",
@@ -12752,8 +12807,9 @@
   {
     "key": "button|Next|c7ac2807332e",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02576405>> addButton(0,\"Next\",(function(){return moveToRoom(va.L.findPlayerShipBedroom(),!0)}))"
+    "translation": "继续",
+    "context": "<<POS:02576405>> addButton(0,\"Next\",(function(){return moveToRoom(va.L.findPlayerShipBedroom(),!0)}))",
+    "stage": 1
   },
   {
     "key": "textify|In_lieu_of_horny_Jumpers_this_deck_of_Zh_ng_Shi_is_guarded_by_a|0d9190c5cbd3",
@@ -12764,8 +12820,9 @@
   {
     "key": "button|Next|2fbddf85441e",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02578201>> addButton(n++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02578201>> addButton(n++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|2fbddf85441e",
@@ -12962,8 +13019,9 @@
   {
     "key": "button|Next|7e39c14d900b",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02585371>> addButton(0,\"Next\",ue.V.beginCombat)"
+    "translation": "继续",
+    "context": "<<POS:02585371>> addButton(0,\"Next\",ue.V.beginCombat)",
+    "stage": 1
   },
   {
     "key": "output.expr|The_grinning_cyber_kitty_strides_over_your_slumping_form_var1|ba519eae9689",
@@ -13004,26 +13062,30 @@
   {
     "key": "button|Next|543c1c3777ea",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02587119>> addButton(0,\"Next\",t[rand(t.length)])"
+    "translation": "继续",
+    "context": "<<POS:02587119>> addButton(0,\"Next\",t[rand(t.length)])",
+    "stage": 1
   },
   {
     "key": "button|Next|35b9a3540cff",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02587169>> addButton(0,\"Next\",N)"
+    "translation": "继续",
+    "context": "<<POS:02587169>> addButton(0,\"Next\",N)",
+    "stage": 1
   },
   {
     "key": "button|Next|35b9a3540cff#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02587203>> addButton(0,\"Next\",s)"
+    "translation": "继续",
+    "context": "<<POS:02587203>> addButton(0,\"Next\",s)",
+    "stage": 1
   },
   {
     "key": "button|Next|35b9a3540cff#2",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02587225>> addButton(0,\"Next\",o)"
+    "translation": "继续",
+    "context": "<<POS:02587225>> addButton(0,\"Next\",o)",
+    "stage": 1
   },
   {
     "key": "output|You_stagger_back_and_fall_to_the_ground_with_eye_blurring_impact|8fa3be404e1c",
@@ -13190,8 +13252,9 @@
   {
     "key": "output|i|051e956410f1",
     "original": "”</i>",
-    "translation": "",
-    "context": "<<POS:02595978>>"
+    "translation": "”</i>",
+    "context": "<<POS:02595978>>",
+    "stage": 1
   },
   {
     "key": "output|You_can_t_bring_yourself_to_hate_this_can_t_force_yourself_to_s|f80f345e3518",
@@ -13268,8 +13331,9 @@
   {
     "key": "button|Next|97cb8209b9c3",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02601433>> addButton(0,\"Next\",f)"
+    "translation": "继续",
+    "context": "<<POS:02601433>> addButton(0,\"Next\",f)",
+    "stage": 1
   },
   {
     "key": "output|The_cat_pirate_laughs_to_himself_when_you_stagger_and_fall_to_th|42a0c2471ed5",

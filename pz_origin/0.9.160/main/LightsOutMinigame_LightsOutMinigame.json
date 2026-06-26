@@ -1,21 +1,9 @@
 [
   {
-    "key": "button|Help|305a380d639d",
-    "original": "Help",
+    "key": "assign|Figuring_out_how_to_interact_with|5f71126db5ca",
+    "original": "Figuring out how to interact with ",
     "translation": "",
-    "context": "<<POS:12774302>> addButton(1,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_CIRCUIT_PROMPT&&(flags.TUTORIAL_CIRCUIT_PROMPT=2),e.generateTutorialBoard(),e.generateMenu()}),\"Circuit System Tutorial\",\"Get an explanation of this puzzle.\\n\\n<b>You can only ac..."
-  },
-  {
-    "key": "button.tooltip|Get_an_explanation_of_this_puzzle_n_n_b_You_can_only_access_thi|a8f7cf216082",
-    "original": "Get an explanation of this puzzle.\\n\\n<b>You can only access this before beginning!</b>",
-    "translation": "",
-    "context": "<<POS:12774533>> addButton(1,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_CIRCUIT_PROMPT&&(flags.TUTORIAL_CIRCUIT_PROMPT=2),e.generateTutorialBoard(),e.generateMenu()}),\"Circuit System Tutorial\",\"Get an explanation of this puzzle.\\n\\n<b>You can only ac..."
-  },
-  {
-    "key": "button|Give_Up|9351ddec0a4c",
-    "original": "Give Up",
-    "translation": "",
-    "context": "<<POS:12774682>> addButton(4,\"Give Up\",(function(){window.removeRotateMinigame(),window.returnFromElement(),window.getGameState()&&!0!==e.props.testGame||showMainMenu(!0,!0,!0),e.props.onFailure()}))"
+    "context": "<<POS:12793742>>"
   },
   {
     "key": "assign|The_switchboard_contains_a_number_of_buttons_or_switches_in_ei|2b0a2592560b",
@@ -96,16 +84,35 @@
     "context": "<<POS:12802164>> addDisabledButton(1,\"Help\",\"Lights Out Tutorial\",\"You can only access this before beginning the puzzle.\")"
   },
   {
+    "key": "button|Help|305a380d639d",
+    "original": "Help",
+    "translation": "",
+    "context": "<<POS:12802233>> addButton(1,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_LIGHTS_PROMPT&&(flags.TUTORIAL_LIGHTS_PROMPT=2),e.generateTutorialBoard(),e.generateMenu()}),\"Lights Out Tutorial\",\"Get an explanation of this puzzle.\\n\\n<b>You can only access t..."
+  },
+  {
     "key": "button.hover|Lights_Out_Tutorial|d22e0006f55e",
     "original": "Lights Out Tutorial",
     "translation": "",
     "context": "<<POS:12802436>> addButton(1,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_LIGHTS_PROMPT&&(flags.TUTORIAL_LIGHTS_PROMPT=2),e.generateTutorialBoard(),e.generateMenu()}),\"Lights Out Tutorial\",\"Get an explanation of this puzzle.\\n\\n<b>You can only access t..."
   },
   {
+    "key": "button.tooltip|Get_an_explanation_of_this_puzzle_n_n_b_You_can_only_access_thi|a8f7cf216082",
+    "original": "Get an explanation of this puzzle.\\n\\n<b>You can only access this before beginning!</b>",
+    "translation": "",
+    "context": "<<POS:12802458>> addButton(1,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_LIGHTS_PROMPT&&(flags.TUTORIAL_LIGHTS_PROMPT=2),e.generateTutorialBoard(),e.generateMenu()}),\"Lights Out Tutorial\",\"Get an explanation of this puzzle.\\n\\n<b>You can only access t..."
+  },
+  {
+    "key": "button|Give_Up|9351ddec0a4c",
+    "original": "Give Up",
+    "translation": "",
+    "context": "<<POS:12802607>> addButton(4,\"Give Up\",(function(){window.removeLightsOutMinigame(),window.returnFromElement(),window.getGameState()&&!0!==e.props.testGame||showMainMenu(!0,!0,!0),e.props.onFailure()}))"
+  },
+  {
     "key": "button|Next|f1831e116865",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:12804864>> addButton(2,\"Next\",h)"
+    "context": "<<POS:12804864>> addButton(2,\"Next\",h)",
+    "stage": 1
   },
   {
     "key": "assign|Lights|357b9d08c862",

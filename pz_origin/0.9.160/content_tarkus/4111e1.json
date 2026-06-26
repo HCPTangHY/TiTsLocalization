@@ -230,8 +230,9 @@
   {
     "key": "button|Next|64f588bac778",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:01608730>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:01608730>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|Making_your_way_to_your_bedroom_is_a_challenge_all_things_told|7eee6009cbb7",
@@ -410,8 +411,9 @@
   {
     "key": "button|Next|9b2ab51265b1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:01622661>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:01622661>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "button|About_You|fd3b15ad0594",
@@ -434,8 +436,9 @@
   {
     "key": "button|Appearance|c8dee2cb183f",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:01625209>> addButton(1,\"Appearance\",(function(){clearOutput(),dn(),author(\"SomeKindofWizard\"),output(\"The dockmaster is a violet-skinned beauty with mechanically-augmented limbs of silver and gold that far outshine the murky gunmetals of everything else in the dock. A chrome mount runs down her spine and holds..."
+    "translation": "外貌",
+    "context": "<<POS:01625209>> addButton(1,\"Appearance\",(function(){clearOutput(),dn(),author(\"SomeKindofWizard\"),output(\"The dockmaster is a violet-skinned beauty with mechanically-augmented limbs of silver and gold that far outshine the murky gunmetals of everything else in the dock. A chrome mount runs down her spine and holds...",
+    "stage": 1
   },
   {
     "key": "button.hover|Appearance|c8dee2cb183f",
@@ -660,19 +663,37 @@
     "context": "<<POS:01638434>>"
   },
   {
-    "key": "button|Current_Ship|04fc8a16c426",
+    "key": "button.expr|var0|b034d275571f",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:01638820>> <<VARS:var0=t[e][0]>> addButton(e,t[e][0],(function(){window.showInspectItem(t[e][2],pc_ship),on.m.generateShipPurchaseMenu(dockmaster,t[e][2],(function(){return mn(!0)}))}),t[e][0],on.m.generateCompareDescription(pc_ship,t[e][2]),void 0,t[e][2])"
+  },
+  {
+    "key": "button.hover.expr|var0|b034d275571f",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:01638960>> <<VARS:var0=t[e][0]>> addButton(e,t[e][0],(function(){window.showInspectItem(t[e][2],pc_ship),on.m.generateShipPurchaseMenu(dockmaster,t[e][2],(function(){return mn(!0)}))}),t[e][0],on.m.generateCompareDescription(pc_ship,t[e][2]),void 0,t[e][2])"
+  },
+  {
+    "key": "button.tooltip.expr|var1_generateCompareDescription_var0|265f78354a7f",
+    "original": "{var1}.generateCompareDescription({var0})",
+    "translation": "",
+    "context": "<<POS:01638968>> <<VARS:var0=pc_ship,t[e][2],var1=on.m>> addButton(e,t[e][0],(function(){window.showInspectItem(t[e][2],pc_ship),on.m.generateShipPurchaseMenu(dockmaster,t[e][2],(function(){return mn(!0)}))}),t[e][0],on.m.generateCompareDescription(pc_ship,t[e][2]),void 0,t[e][2])"
+  },
+  {
+    "key": "button|Current_Ship|66d3a373b46b",
     "original": "Current Ship",
     "translation": "",
     "context": "<<POS:01639072>> addButton(13,\"Current Ship\",(function(){return on.m.statistics(pc_ship,(function(){return mn(!0)}))}),\"Current Ship Stats\",\"Look over your ship and its equipped modules.\",void 0,pc_ship)"
   },
   {
-    "key": "button.hover|Current_Ship_Stats|e992f06ef6b3",
+    "key": "button.hover|Current_Ship_Stats|073d29a3909d",
     "original": "Current Ship Stats",
     "translation": "",
     "context": "<<POS:01639161>> addButton(13,\"Current Ship\",(function(){return on.m.statistics(pc_ship,(function(){return mn(!0)}))}),\"Current Ship Stats\",\"Look over your ship and its equipped modules.\",void 0,pc_ship)"
   },
   {
-    "key": "button.tooltip|Look_over_your_ship_and_its_equipped_modules|372383ce88f2",
+    "key": "button.tooltip|Look_over_your_ship_and_its_equipped_modules|a8e0bede8c99",
     "original": "Look over your ship and its equipped modules.",
     "translation": "",
     "context": "<<POS:01639182>> addButton(13,\"Current Ship\",(function(){return on.m.statistics(pc_ship,(function(){return mn(!0)}))}),\"Current Ship Stats\",\"Look over your ship and its equipped modules.\",void 0,pc_ship)"
@@ -680,8 +701,9 @@
   {
     "key": "button|Back|d98738b8010b",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:01639259>> addButton(14,\"Back\",(function(){return yn(!0)}))"
+    "translation": "返回",
+    "context": "<<POS:01639259>> addButton(14,\"Back\",(function(){return yn(!0)}))",
+    "stage": 1
   },
   {
     "key": "output|It_s_hard_to_tell_who_s_in_charge_among_the_dozens_of_Raskvel_sc|20a2ea758f91",

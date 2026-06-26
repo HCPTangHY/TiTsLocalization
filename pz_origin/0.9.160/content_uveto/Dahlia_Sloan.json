@@ -482,8 +482,9 @@
   {
     "key": "button|Next|efd31be138af",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02411416>> addButton(0,\"Next\",My)"
+    "translation": "继续",
+    "context": "<<POS:02411416>> addButton(0,\"Next\",My)",
+    "stage": 1
   },
   {
     "key": "output.expr|Satisfied_at_a_job_well_done_you_curl_yourself_up_against_fros|4604bc6f5d19",
@@ -570,19 +571,31 @@
     "context": "<<POS:02414202>> addButton(0,\"Happy\",(function(){return Md(!0)}),\"Happy Holidays!\",t)"
   },
   {
-    "key": "button|Holidays|c6ec71a8eb48",
+    "key": "button.tooltip.expr|var0|3f40c879828e",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:02414219>> <<VARS:var0=t>> addButton(0,\"Happy\",(function(){return Md(!0)}),\"Happy Holidays!\",t)"
+  },
+  {
+    "key": "button|Holidays|26bbef11ec5a",
     "original": "Holidays!",
     "translation": "",
     "context": "<<POS:02414235>> addButton(1,\"Holidays!\",(function(){return Md(!0)}),\"Happy Holidays!\",t)"
   },
   {
-    "key": "button.hover|Happy_Holidays|735d27050525",
+    "key": "button.hover|Happy_Holidays|bb8c7dc857f3",
     "original": "Happy Holidays!",
     "translation": "",
     "context": "<<POS:02414275>> addButton(1,\"Holidays!\",(function(){return Md(!0)}),\"Happy Holidays!\",t)"
   },
   {
-    "key": "output.expr|You_nudge_at_var0_Nykke_your_eldest_kip_getting_her|006e6821295e",
+    "key": "button.tooltip.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:02414292>> <<VARS:var0=t>> addButton(1,\"Holidays!\",(function(){return Md(!0)}),\"Happy Holidays!\",t)"
+  },
+  {
+    "key": "output.expr|You_nudge_at_var0_Nykke_your_eldest_kip_getting_her|578125d7dc96",
     "original": "You nudge at \"+({var0}?\"Nykke\":\"your eldest kip\")+\", getting her attention. <i>“Yes, my Qal?”</i> she says attentively, her eyes locking onto yours. You get the feeling that she already knows what you’re going to talk about.",
     "translation": "",
     "context": "<<POS:02414463>> <<VARS:var0=void 0!==flags.NYKKE_MET&&e>> output(\"You nudge at \"+(void 0!==flags.NYKKE_MET&&e?\"Nykke\":\"your eldest kip\")+\", getting her attention. <i>“Yes, my Qal?”</i> she says attentively, her eyes locking onto yours. You get the feeling that she already knows what you’re going to talk about.\")"
@@ -602,14 +615,16 @@
   {
     "key": "button|No|7212355ad477",
     "original": "No",
-    "translation": "",
-    "context": "<<POS:02415280>> addButton(0,\"No\",Fy)"
+    "translation": "不",
+    "context": "<<POS:02415280>> addButton(0,\"No\",Fy)",
+    "stage": 1
   },
   {
     "key": "button|Yes|10998bfce0d5",
     "original": "Yes",
-    "translation": "",
-    "context": "<<POS:02415301>> addButton(1,\"Yes\",_y)"
+    "translation": "是的",
+    "context": "<<POS:02415301>> addButton(1,\"Yes\",_y)",
+    "stage": 1
   },
   {
     "key": "output.expr|You_tell_var0_Nykke_your_eldest_kip_that_it_s_nothin|2f37d1c48cf4",
@@ -626,8 +641,9 @@
   {
     "key": "button|Next|79b0db2f74bd",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02415683>> addButton(0,\"Next\",fy)"
+    "translation": "继续",
+    "context": "<<POS:02415683>> addButton(0,\"Next\",fy)",
+    "stage": 1
   },
   {
     "key": "output.expr|You_tell_var0_Nykke_your_eldest_kip_that_you_ve_chan|7704d3ad3a0c",
@@ -668,14 +684,16 @@
   {
     "key": "button|Next|dfeb436e0b2e",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02417453>> addButton(0,\"Next\",fy)"
+    "translation": "继续",
+    "context": "<<POS:02417453>> addButton(0,\"Next\",fy)",
+    "stage": 1
   },
   {
     "key": "button|Next|35b9a3540cff",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02417510>> addButton(0,\"Next\",fy)"
+    "translation": "继续",
+    "context": "<<POS:02417510>> addButton(0,\"Next\",fy)",
+    "stage": 1
   },
   {
     "key": "output|As_you_sit_your_back_to_frostwyrm_name_s_belly_and_with_Nykke|b1c4f6ffdad4",
@@ -1130,8 +1148,9 @@
   {
     "key": "button|Next|103b695078f6",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02439862>> addButton(0,\"Next\",Uy)"
+    "translation": "继续",
+    "context": "<<POS:02439862>> addButton(0,\"Next\",Uy)",
+    "stage": 1
   },
   {
     "key": "output|At_the_mercy_of_your_clutch_you_feel_their_hands_roam_over_your|625a674b76c8",
@@ -1508,8 +1527,9 @@
   {
     "key": "button|Next|b4d63cd2b64c",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02460941>> addButton(0,\"Next\",Uy)"
+    "translation": "继续",
+    "context": "<<POS:02460941>> addButton(0,\"Next\",Uy)",
+    "stage": 1
   },
   {
     "key": "output|Your_fall_is_broken_by_the_gentle_yet_strong_and_sturdy_arms_o|002a91c17f7d",
@@ -1982,8 +2002,9 @@
   {
     "key": "button|Next|3495c3a14a64",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02481223>> addButton(0,\"Next\",Uy)"
+    "translation": "继续",
+    "context": "<<POS:02481223>> addButton(0,\"Next\",Uy)",
+    "stage": 1
   },
   {
     "key": "output|You_feel_the_hands_of_your_amorous_kips_roam_your_body_once_you|d101f0c477ad",
@@ -2426,8 +2447,9 @@
   {
     "key": "button|Next|53e6e75e4793",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02505550>> addButton(0,\"Next\",Uy)"
+    "translation": "继续",
+    "context": "<<POS:02505550>> addButton(0,\"Next\",Uy)",
+    "stage": 1
   },
   {
     "key": "output|Time_is_difficult_to_keep_track_of_in_the_lair_considering_you|fd74aaa8f608",
@@ -2462,8 +2484,9 @@
   {
     "key": "button|Next|2caa7ff26ea5",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02507555>> addButton(0,\"Next\",py)"
+    "translation": "继续",
+    "context": "<<POS:02507555>> addButton(0,\"Next\",py)",
+    "stage": 1
   },
   {
     "key": "output.expr|Guilt_starts_to_creep_up_on_you_as_you_lay_in_frostwyrm_name_s|7c5ad0583135",
@@ -2582,8 +2605,9 @@
   {
     "key": "button|Next|d45926c329f7",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02514345>> addButton(0,\"Next\",Py)"
+    "translation": "继续",
+    "context": "<<POS:02514345>> addButton(0,\"Next\",Py)",
+    "stage": 1
   },
   {
     "key": "output.expr|frostwyrm_name_pulls_her_head_away_from_you_and_relaxes_her_bo|d9afb5cf650e",
@@ -2702,8 +2726,9 @@
   {
     "key": "button|Next|5c499ecca50b",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02520118>> addButton(0,\"Next\",Ky)"
+    "translation": "继续",
+    "context": "<<POS:02520118>> addButton(0,\"Next\",Ky)",
+    "stage": 1
   },
   {
     "key": "output|But_all_of_that_can_wait_Right_here_right_now_you_re_with_f|43ced26c2e64",
@@ -3314,8 +3339,9 @@
   {
     "key": "button|Next|d26f1112e751",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02554841>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:-1;clearOutput(),dd(!0),author(\"B\"),output(\"You aren’t sure when you passed out. It could have been shortly after [frostwyrm.name] started cumming, but, for all you know, it could have been ..."
+    "translation": "继续",
+    "context": "<<POS:02554841>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:-1;clearOutput(),dd(!0),author(\"B\"),output(\"You aren’t sure when you passed out. It could have been shortly after [frostwyrm.name] started cumming, but, for all you know, it could have been ...",
+    "stage": 1
   },
   {
     "key": "output|When_you_and_frostwyrm_name_aren_t_sharing_ideas_and_experienc|eed228b60600",
@@ -3542,8 +3568,9 @@
   {
     "key": "button|Next|48d2200a6a0f",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02570825>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:-1;clearOutput(),window.nykke2FrostyHeader(!0);var t=!0;flags.FROSTY_NYKKE2_COCKRING>0&&(t=!1);var o=e>=0?pc.vaginalCapacity(e):pc.analCapacity();output(\"You hand one of the rings to Nykke a..."
+    "translation": "继续",
+    "context": "<<POS:02570825>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:-1;clearOutput(),window.nykke2FrostyHeader(!0);var t=!0;flags.FROSTY_NYKKE2_COCKRING>0&&(t=!1);var o=e>=0?pc.vaginalCapacity(e):pc.analCapacity();output(\"You hand one of the rings to Nykke a...",
+    "stage": 1
   },
   {
     "key": "output.expr|Once_you_sink_to_the_pc_hips_inside_her_var0_your_pc_b|b5a9da5b7c37",
@@ -3722,8 +3749,9 @@
   {
     "key": "button|Next|a956f8c27a3c",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02629998>> addButton(e++,\"Next\",oc,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02629998>> addButton(e++,\"Next\",oc,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a956f8c27a3c",
@@ -3746,8 +3774,9 @@
   {
     "key": "button|Yes|cda25b7f9a1d",
     "original": "Yes",
-    "translation": "",
-    "context": "<<POS:02637707>> addButton(e++,\"Yes\",ac,\"Yes\",\"This will unlock a new sex option in [frostwyrm.name]’s menu. This choice cannot be undone.\")"
+    "translation": "是的",
+    "context": "<<POS:02637707>> addButton(e++,\"Yes\",ac,\"Yes\",\"This will unlock a new sex option in [frostwyrm.name]’s menu. This choice cannot be undone.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Yes|cda25b7f9a1d",
@@ -3764,8 +3793,9 @@
   {
     "key": "button|No|00e41327b851",
     "original": "No",
-    "translation": "",
-    "context": "<<POS:02637831>> addButton(e++,\"No\",sc,\"No\",\"\")"
+    "translation": "不",
+    "context": "<<POS:02637831>> addButton(e++,\"No\",sc,\"No\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|No|00e41327b851",
@@ -3788,8 +3818,9 @@
   {
     "key": "button|Next|27896914932b",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02650446>> addButton(e++,\"Next\",ic,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02650446>> addButton(e++,\"Next\",ic,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|27896914932b",
@@ -3918,6 +3949,12 @@
     "context": "<<POS:02655391>>"
   },
   {
+    "key": "button.expr|var0|992662ed09fc",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:02655424>> <<VARS:var0=frostwyrm.short>> addButton(0,frostwyrm.short,Ad,\"Call [frostwyrm.name]\",\"Make contact with the frostwyrm.\")"
+  },
+  {
     "key": "button.hover|Call_frostwyrm_name|e51e5db10d51",
     "original": "Call [frostwyrm.name]",
     "translation": "",
@@ -4034,8 +4071,9 @@
   {
     "key": "button|Next|daa4bee82e69",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02659767>> addButton(0,\"Next\",mainGameMenu)"
+    "translation": "继续",
+    "context": "<<POS:02659767>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "name.show|Grimald|b09d1b565ee6",
@@ -4046,8 +4084,9 @@
   {
     "key": "button|Appearance|70d92fb029a4",
     "original": "Appearance",
-    "translation": "",
-    "context": "<<POS:02660583>> addButton(e++,\"Appearance\",ng,\"Appearance\",\"\")"
+    "translation": "外貌",
+    "context": "<<POS:02660583>> addButton(e++,\"Appearance\",ng,\"Appearance\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Appearance|70d92fb029a4",
@@ -4112,8 +4151,9 @@
   {
     "key": "button|Next|a0e6dcd60c9b",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02664836>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02664836>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a0e6dcd60c9b",
@@ -4178,14 +4218,16 @@
   {
     "key": "button|Back|e28d50e3a774",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:02667310>> addButton(14,\"Back\",tg,\"Back\",\"\")"
+    "translation": "返回",
+    "context": "<<POS:02667310>> addButton(14,\"Back\",tg,\"Back\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Back|e28d50e3a774",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:02667320>> addButton(14,\"Back\",tg,\"Back\",\"\")"
+    "translation": "返回",
+    "context": "<<POS:02667320>> addButton(14,\"Back\",tg,\"Back\",\"\")",
+    "stage": 1
   },
   {
     "key": "textify|i_What_brings_an_exotic_bird_like_you_to_this_cold_little_moon|9087ecaa2a3a",
@@ -4298,8 +4340,9 @@
   {
     "key": "button|Don_t|62d49e9c3172",
     "original": "Don’t",
-    "translation": "",
-    "context": "<<POS:02715115>> addButton(e++,\"Don’t\",cg,\"Don’t\",\"You’d rather have some hot chocolate.\")"
+    "translation": "不",
+    "context": "<<POS:02715115>> addButton(e++,\"Don’t\",cg,\"Don’t\",\"You’d rather have some hot chocolate.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Don_t|62d49e9c3172",
@@ -4322,8 +4365,9 @@
   {
     "key": "button|Next|81890ad482a8",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02718941>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02718941>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|81890ad482a8",
@@ -4340,8 +4384,9 @@
   {
     "key": "button|Next|81890ad482a8#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02720918>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02720918>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|81890ad482a8#1",
@@ -4358,8 +4403,9 @@
   {
     "key": "button|Next|fb10c2a85640",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02729432>> addButton(e++,\"Next\",pg,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02729432>> addButton(e++,\"Next\",pg,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|fb10c2a85640",
@@ -4394,8 +4440,9 @@
   {
     "key": "button|Don_t|62d49e9c3172#1",
     "original": "Don’t",
-    "translation": "",
-    "context": "<<POS:02737865>> addButton(e++,\"Don’t\",cg,\"Don’t\",\"You’d rather have some hot chocolate.\")"
+    "translation": "不",
+    "context": "<<POS:02737865>> addButton(e++,\"Don’t\",cg,\"Don’t\",\"You’d rather have some hot chocolate.\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Don_t|62d49e9c3172#1",
@@ -4418,8 +4465,9 @@
   {
     "key": "button|Next|e51b91bdd4b3",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02746135>> addButton(e++,\"Next\",fg,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02746135>> addButton(e++,\"Next\",fg,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|e51b91bdd4b3",
@@ -4436,8 +4484,9 @@
   {
     "key": "button|Next|81890ad482a8#2",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02753866>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02753866>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|81890ad482a8#2",
@@ -4454,8 +4503,9 @@
   {
     "key": "button|Next|0d30b5749397",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02760917>> addButton(e++,\"Next\",bg,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02760917>> addButton(e++,\"Next\",bg,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|0d30b5749397",
@@ -4472,8 +4522,9 @@
   {
     "key": "button|Next|b7b0a5a961cb",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02768677>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02768677>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|b7b0a5a961cb",
@@ -4526,8 +4577,9 @@
   {
     "key": "button|Next|81890ad482a8#3",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02791978>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02791978>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|81890ad482a8#3",
@@ -4544,8 +4596,9 @@
   {
     "key": "button|Next|81890ad482a8#4",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02799932>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02799932>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|81890ad482a8#4",
@@ -4574,8 +4627,9 @@
   {
     "key": "button|Next|e1fa32342c2b",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02809522>> addButton(e++,\"Next\",Sg,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02809522>> addButton(e++,\"Next\",Sg,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|e1fa32342c2b",
@@ -4718,8 +4772,9 @@
   {
     "key": "button|Next|b8747e43214b",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02842199>> addButton(n++,\"Next\",Eg,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02842199>> addButton(n++,\"Next\",Eg,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|b8747e43214b",
@@ -4736,8 +4791,9 @@
   {
     "key": "button|Next|0685ef3d396e",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02844897>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02844897>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|0685ef3d396e",
@@ -4856,8 +4912,9 @@
   {
     "key": "button|Next|c5df0f7b2d19",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02884731>> addButton(t++,\"Next\",(function(){return Cg(e)}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02884731>> addButton(t++,\"Next\",(function(){return Cg(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|c5df0f7b2d19",
@@ -4874,8 +4931,9 @@
   {
     "key": "button|Next|68e4517d5690",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02912122>> addButton(t++,\"Next\",(function(){return jg(e)}),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02912122>> addButton(t++,\"Next\",(function(){return jg(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|68e4517d5690",
@@ -4892,8 +4950,9 @@
   {
     "key": "button|Next|c276792df11f",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02917122>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02917122>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|c276792df11f",
@@ -4910,8 +4969,9 @@
   {
     "key": "button|Next|dc5db154994f",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02931464>> addButton(e++,\"Next\",Lg,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02931464>> addButton(e++,\"Next\",Lg,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|dc5db154994f",
@@ -4928,8 +4988,9 @@
   {
     "key": "button|Next|fb1d5d914388",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02945162>> addButton(e++,\"Next\",Fg,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02945162>> addButton(e++,\"Next\",Fg,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|fb1d5d914388",
@@ -4946,8 +5007,9 @@
   {
     "key": "button|Next|c276792df11f#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02950013>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02950013>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|c276792df11f#1",
@@ -4964,8 +5026,9 @@
   {
     "key": "button|Next|3b25e8f821f1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02955686>> addButton(0,\"Next\",randomInCollection([zg,Dg,Ug,Ug]),\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02955686>> addButton(0,\"Next\",randomInCollection([zg,Dg,Ug,Ug]),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|3b25e8f821f1",
@@ -4982,8 +5045,9 @@
   {
     "key": "button|Next|0685ef3d396e#1",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02965454>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02965454>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|0685ef3d396e#1",
@@ -5042,8 +5106,9 @@
   {
     "key": "button|Next|0685ef3d396e#2",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02979597>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02979597>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|0685ef3d396e#2",
@@ -5066,8 +5131,9 @@
   {
     "key": "button|Next|38b7da00da6a",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02985854>> addButton(e++,\"Next\",qg,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02985854>> addButton(e++,\"Next\",qg,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|38b7da00da6a",
@@ -5090,8 +5156,9 @@
   {
     "key": "button|Next|0685ef3d396e#3",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02990453>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02990453>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|0685ef3d396e#3",
@@ -5108,8 +5175,9 @@
   {
     "key": "button|Next|0685ef3d396e#4",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:02995284>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:02995284>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|0685ef3d396e#4",
@@ -5126,8 +5194,9 @@
   {
     "key": "button|Next|4866a018f0db",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03000801>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:03000801>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|4866a018f0db",
@@ -5186,8 +5255,9 @@
   {
     "key": "button|Back|33f4348316a9",
     "original": "Back",
-    "translation": "",
-    "context": "<<POS:03003018>> addButton(14,\"Back\",tg,\"\",\"\")"
+    "translation": "返回",
+    "context": "<<POS:03003018>> addButton(14,\"Back\",tg,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "textify|A_distant_beeping_rings_in_your_frozen_ears_It_seems_so_far_and|bc7972f1ec5f",
@@ -5198,8 +5268,9 @@
   {
     "key": "button|Next|f7b195325e1a",
     "original": "Next",
-    "translation": "",
-    "context": "<<POS:03007184>> addButton(e++,\"Next\",Vg,\"Next\",\"\")"
+    "translation": "继续",
+    "context": "<<POS:03007184>> addButton(e++,\"Next\",Vg,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|f7b195325e1a",

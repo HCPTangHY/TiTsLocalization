@@ -1,15 +1,23 @@
 [
   {
-    "key": "perk|Nuki_Nuts|b6fc2b3ab2f0",
-    "original": "'Nuki Nuts",
-    "translation": "'努基坚果",
-    "context": "<<POS:00758475>> createPerk(\"'Nuki Nuts\",0,0,0,0,\"\")"
+    "key": "assign|Kiro_casually_sidesteps_out_of_the_way|73d1f016e95b",
+    "original": "Kiro casually sidesteps out of the way",
+    "translation": "",
+    "context": "<<POS:00900759>>"
   },
   {
     "key": "perk|Nuki_Drunk|d2896cb0305a",
     "original": "'Nuki Drunk",
     "translation": "'努基醉酒",
-    "context": "<<POS:00903184>> createPerk(\"'Nuki Drunk\",0,0,0,0,\"\")"
+    "context": "<<POS:00903184>> createPerk(\"'Nuki Drunk\",0,0,0,0,\"\")",
+    "stage": 1
+  },
+  {
+    "key": "perk|Nuki_Nuts|b6fc2b3ab2f0",
+    "original": "'Nuki Nuts",
+    "translation": "'努基坚果",
+    "context": "<<POS:00903223>> createPerk(\"'Nuki Nuts\",0,0,0,0,\"\")",
+    "stage": 1
   },
   {
     "key": "perk|MinCumQ|bf5cb920df5c",
@@ -28,6 +36,18 @@
     "original": "Ditz Speech",
     "translation": "",
     "context": "<<POS:00904743>> createPerk(\"Ditz Speech\")"
+  },
+  {
+    "key": "button.expr|var0|dad4a6dfac40",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00905376>> <<VARS:var0=this.short>> addButton(e,this.short,window.approachBimboKiroCrew)"
+  },
+  {
+    "key": "assign|While_Kiro_is_counted_amongst_your_crew_she_s_too_busy_to_be_vi|c99f1106542c",
+    "original": "While Kiro is counted amongst your crew, she’s too busy to be visited right now.",
+    "translation": "",
+    "context": "<<POS:00905818>>"
   },
   {
     "key": "button|Kiro|150ef28dcb37",

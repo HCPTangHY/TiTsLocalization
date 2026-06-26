@@ -1,5 +1,127 @@
 [
   {
+    "key": "assign|ERROR_Log_Event_modTimestamp_is_NaN|3d8ad7b52cf7",
+    "original": "ERROR: Log Event modTimestamp is NaN: \"",
+    "translation": "",
+    "context": "<<POS:11485095>>"
+  },
+  {
+    "key": "output|p_b_concat_a_b_p|0a27fd7a9b9d",
+    "original": "<p><b>\".concat(a,\"</b></p>\")",
+    "translation": "",
+    "context": "<<POS:11485154>>"
+  },
+  {
+    "key": "assign|ERROR_attempted_to_create_a_Log_Event_but_eventMessage_was_set|eddfb4839c9a",
+    "original": "ERROR: attempted to create a Log Event but eventMessage was set to \"",
+    "translation": "",
+    "context": "<<POS:11485197>>"
+  },
+  {
+    "key": "output|p_b_concat_n_b_p|def3c8ae3336",
+    "original": "<p><b>\".concat(n,\"</b></p>\")",
+    "translation": "",
+    "context": "<<POS:11485289>>"
+  },
+  {
+    "key": "output|A_nearby_whistle_blows_before_a_visible_cloud_of_steam_briefly_a|940d1475769b",
+    "original": "A nearby whistle blows before a visible cloud of steam briefly appears around you. You hear the gears cranking and axles turning before feeling the metal floor beneath you move. Not long after, the clacking clockwork mechanisms quickly carry the car across the impressive view of Gildenmere, then gradually slows to a stop before an audible woosh sounds, marking your arrival to your destination.",
+    "translation": "",
+    "context": "<<POS:11488441>>"
+  },
+  {
+    "key": "output|The_glass_chamber_closes_and_muffles_the_sounds_around_you_leav|f6fd1f44be1a",
+    "original": "The glass chamber closes and muffles the sounds around you, leaving you with the faint noises of steam-powered hydraulics and turning gears--and an incredible view of Kressia. Before you know it, the elevator practically glides to its destination and you arrive with little fanfare. The doors open and the sounds of the busy populace instantly hit you once again.",
+    "translation": "",
+    "context": "<<POS:11488868>>"
+  },
+  {
+    "key": "output|With_audible_hydraulic_presses_whirring_gears_and_a_mechanical|0c8a8bdb3a32",
+    "original": "With audible hydraulic presses, whirring gears and a mechanical hum, the cargo elevator powers up and shifts you towards the direction of your destination, then it slows down and quiets once you arrive.",
+    "translation": "",
+    "context": "<<POS:11489263>>"
+  },
+  {
+    "key": "output|Your_stomach_drops_as_the_lift_kicks_into_gear_The_gentle_stea|10475076be23",
+    "original": "Your stomach drops as the lift kicks into gear. The gentle, steady thrum of powerful machinery fills the metallic tube as you are brought to your destination, slowly decelerating when you arrive.",
+    "translation": "",
+    "context": "<<POS:11489537>>"
+  },
+  {
+    "key": "button|Next|dd86a3fb474b",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:11489756>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
+  },
+  {
+    "key": "output|Nudity_is_illegal_in_that_location_You_ll_have_to_cover_up_if_y|6ab2d08eeab1",
+    "original": "Nudity is illegal in that location! You’ll have to cover up if you want to go there.",
+    "translation": "",
+    "context": "<<POS:11490579>>"
+  },
+  {
+    "key": "output|You_can_try_your_luck_and_sneak_back_to_your_ship_if_you_are_dar|b841a32d94f7",
+    "original": "You can try your luck and sneak back to your ship if you are daring...",
+    "translation": "",
+    "context": "<<POS:11492210>>"
+  },
+  {
+    "key": "button|Sneak_Back|fba4ac1fc43a",
+    "original": "Sneak Back",
+    "translation": "",
+    "context": "<<POS:11492296>> addButton(0,\"Sneak Back\",window.sneakBackYouNudist,\"Sneak Back\",\"Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.\")"
+  },
+  {
+    "key": "button.hover|Sneak_Back|fba4ac1fc43a",
+    "original": "Sneak Back",
+    "translation": "",
+    "context": "<<POS:11492335>> addButton(0,\"Sneak Back\",window.sneakBackYouNudist,\"Sneak Back\",\"Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.\")"
+  },
+  {
+    "key": "button.tooltip|Sneak_back_to_the_ship_Fuckin_prudes_It_might_take_you_a_coup|45377d60ecba",
+    "original": "Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.",
+    "translation": "",
+    "context": "<<POS:11492348>> addButton(0,\"Sneak Back\",window.sneakBackYouNudist,\"Sneak Back\",\"Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.\")"
+  },
+  {
+    "key": "output|Due_to_your_lack_of_coverage_you_can_call_for_an_emergency_clot|a2b442bdb7d4",
+    "original": "Due to your lack of coverage, you can call for an emergency clothing drop to help with your situation--though it may cost you some credits if you choose to do so.",
+    "translation": "",
+    "context": "<<POS:11492469>>"
+  },
+  {
+    "key": "button|Help|4b70e0285fbf",
+    "original": "Help!",
+    "translation": "",
+    "context": "<<POS:11492647>> addButton(1,\"Help!\",window.dropNewClothes,\"Emergency Clothing Drop\",\"Call a drone to retrieve a new set of clothes.\")"
+  },
+  {
+    "key": "button.hover|Emergency_Clothing_Drop|e1c656d77f8e",
+    "original": "Emergency Clothing Drop",
+    "translation": "",
+    "context": "<<POS:11492677>> addButton(1,\"Help!\",window.dropNewClothes,\"Emergency Clothing Drop\",\"Call a drone to retrieve a new set of clothes.\")"
+  },
+  {
+    "key": "button.tooltip|Call_a_drone_to_retrieve_a_new_set_of_clothes|d59da0abc7e7",
+    "original": "Call a drone to retrieve a new set of clothes.",
+    "translation": "",
+    "context": "<<POS:11492703>> addButton(1,\"Help!\",window.dropNewClothes,\"Emergency Clothing Drop\",\"Call a drone to retrieve a new set of clothes.\")"
+  },
+  {
+    "key": "button|Back|ff5c8ec996bc",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:11492772>> addButton(14,\"Back\",(function(){return window.enterPCShip(!0)}))",
+    "stage": 1
+  },
+  {
+    "key": "string.array|null_January_February_March_April_May_June_July|3227162611b0",
+    "original": "[\"null\",\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\"]",
+    "translation": "",
+    "context": "<<POS:11504098>>"
+  },
+  {
     "key": "string.array|null_Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_O|180d8a27d17f",
     "original": "[\"null\",\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"]",
     "translation": "",
@@ -36,10 +158,83 @@
     "context": "<<POS:11507323>> <<VARS:var0=e.longName>> ParseText(e.longName)"
   },
   {
+    "key": "output.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11507359>> <<VARS:var0=t.longName>> ParseText(t.longName)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11508169>> <<VARS:var0=v.longName>> ParseText(v.longName)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11509884>> <<VARS:var0=l>> addDisabledButton(a++,l,c,\"You are already on \".concat(null!==(r=n[t].long)&&void 0!==r?r:\"this floor\",\".\"))"
+  },
+  {
     "key": "button.hover|You_are_already_on|8b88ecef80eb",
     "original": "You are already on ",
     "translation": "",
     "context": "<<POS:11509889>> addDisabledButton(a++,l,c,\"You are already on \".concat(null!==(r=n[t].long)&&void 0!==r?r:\"this floor\",\".\"))"
+  },
+  {
+    "key": "button.expr|var0|8aeadaa956bf",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11509999>> <<VARS:var0=l>> addButton(a++,l,h,c,d)"
+  },
+  {
+    "key": "button.hover.expr|var0|8aeadaa956bf",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11510003>> <<VARS:var0=c>> addButton(a++,l,h,c,d)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|8aeadaa956bf",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11510005>> <<VARS:var0=d>> addButton(a++,l,h,c,d)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11510110>> <<VARS:var0=l>> addDisabledButton(a++,l,c,\"Unable to go to \".concat(n[t].long,\".\"))"
+  },
+  {
+    "key": "button.hover|Unable_to_go_to|ee23f3318017",
+    "original": "Unable to go to ",
+    "translation": "",
+    "context": "<<POS:11510115>> addDisabledButton(a++,l,c,\"Unable to go to \".concat(n[t].long,\".\"))"
+  },
+  {
+    "key": "button.expr|var0|c274eef87a3b",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11510170>> <<VARS:var0=l>> addButton(a++,l,(function(){return function(e,t){var o=e.loc,a=e.mins;a>0&&processTime(a);V(o,t)}({loc:u,mins:Math.abs(n[o].sumMins-n[t].sumMins)-n[t].moveMins},e)}),c,d,g)"
+  },
+  {
+    "key": "button.hover.expr|var0|c274eef87a3b",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11510322>> <<VARS:var0=c>> addButton(a++,l,(function(){return function(e,t){var o=e.loc,a=e.mins;a>0&&processTime(a);V(o,t)}({loc:u,mins:Math.abs(n[o].sumMins-n[t].sumMins)-n[t].moveMins},e)}),c,d,g)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|c274eef87a3b",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11510324>> <<VARS:var0=d>> addButton(a++,l,(function(){return function(e,t){var o=e.loc,a=e.mins;a>0&&processTime(a);V(o,t)}({loc:u,mins:Math.abs(n[o].sumMins-n[t].sumMins)-n[t].moveMins},e)}),c,d,g)"
+  },
+  {
+    "key": "button|Back|aed8e0c1db1d",
+    "original": "Back",
+    "translation": "返回",
+    "context": "<<POS:11510369>> addButton(14,\"Back\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "button|Floors|5d0dc6754df4",

@@ -1,5 +1,23 @@
 [
   {
+    "key": "output.expr|var0|6d5c8cf79027",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:12404260>> <<VARS:var0=e>> ParseText(e)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:12404390>> <<VARS:var0=this.props.altName>> ParseText(this.props.altName)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:12404561>> <<VARS:var0=this.props.statName>> ParseText(this.props.statName)"
+  },
+  {
     "key": "assign|codexStats|f271182f2a0f",
     "original": " codexStats",
     "translation": "",
@@ -45,7 +63,8 @@
     "key": "assign|altMenu|0ab9c0ca551c",
     "original": " altMenu",
     "translation": " altMenu",
-    "context": "<<POS:12417578>>"
+    "context": "<<POS:12417578>>",
+    "stage": 1
   },
   {
     "key": "assign|hideNav|af2e7a3510f3",
@@ -75,13 +94,15 @@
     "key": "menu.button|Main_Menu|f4509e1c9e8f",
     "original": "Main Menu",
     "translation": "主菜单",
-    "context": "<<POS:12419497>> i(\"Menu\",\"menu\",\"Main Menu\",this.props.mainElement===Cl.gO.MAIN_MENU?\"\":\"Return to the Main Menu.\",Cl.T9.MENU,this.props.mainElement===Cl.gO.MAIN_MENU,!1,h,0,r,u)"
+    "context": "<<POS:12419497>> i(\"Menu\",\"menu\",\"Main Menu\",this.props.mainElement===Cl.gO.MAIN_MENU?\"\":\"Return to the Main Menu.\",Cl.T9.MENU,this.props.mainElement===Cl.gO.MAIN_MENU,!1,h,0,r,u)",
+    "stage": 1
   },
   {
     "key": "menu.tooltip.expr|var0_Return_to_the_Main_Menu|a797d1d2ba4a",
     "original": "{var0}?\"\":\"Return to the Main Menu.\"",
     "translation": "{var0}?\"\":\"返回主菜单。\"",
-    "context": "<<POS:12419508>> <<VARS:var0=this.props.mainElement===Cl.gO.MAIN_MENU>> i(\"Menu\",\"menu\",\"Main Menu\",this.props.mainElement===Cl.gO.MAIN_MENU?\"\":\"Return to the Main Menu.\",Cl.T9.MENU,this.props.mainElement===Cl.gO.MAIN_MENU,!1,h,0,r,u)"
+    "context": "<<POS:12419508>> <<VARS:var0=this.props.mainElement===Cl.gO.MAIN_MENU>> i(\"Menu\",\"menu\",\"Main Menu\",this.props.mainElement===Cl.gO.MAIN_MENU?\"\":\"Return to the Main Menu.\",Cl.T9.MENU,this.props.mainElement===Cl.gO.MAIN_MENU,!1,h,0,r,u)",
+    "stage": 1
   },
   {
     "key": "menu.button|Panic|68d6d97bb01f",
@@ -94,6 +115,24 @@
     "original": "{var0}?\"\":\"Utilize various apps from the workstation.\"",
     "translation": "",
     "context": "<<POS:12419761>> <<VARS:var0=this.props.mainElement===Cl.gO.MAIN_MENU||p>> i(\"Panic\",\"panic\",\"Panic!\",this.props.mainElement===Cl.gO.MAIN_MENU||p?\"\":\"Utilize various apps from the workstation.\",Cl.T9.PANIC,!!p,this.props.mainElement===Cl.gO.MAIN_MENU,h,1,r,u)"
+  },
+  {
+    "key": "menu.tooltip.expr|var0|dd9b062af6e4",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:12420044>> <<VARS:var0=null>> i(\"\",\"\",\"\",null,Cl.T9.FULLSCREEN,!1,!0,h,2,r,u)"
+  },
+  {
+    "key": "menu.button.expr|var0_Restore_Fullscreen|e0b7d6d9d457",
+    "original": "{var0}?\"Restore\":\"Fullscreen\"",
+    "translation": "",
+    "context": "<<POS:12420275>> <<VARS:var0=f>> i(\"Screen\",f?\"restore\":\"fullscreen\",f?\"Restore\":\"Fullscreen\",this.props.mainElement===Cl.gO.MAIN_MENU?\"\":\"Toggle the full-screen view of the game.\",Cl.T9.FULLSCREEN,!1,this.props.mainElement===Cl.gO.MAIN_MENU,h,2,r,u)"
+  },
+  {
+    "key": "menu.tooltip.expr|var0_Toggle_the_full_screen_view_of_the_game|19f07291b6d5",
+    "original": "{var0}?\"\":\"Toggle the full-screen view of the game.\"",
+    "translation": "",
+    "context": "<<POS:12420300>> <<VARS:var0=this.props.mainElement===Cl.gO.MAIN_MENU>> i(\"Screen\",f?\"restore\":\"fullscreen\",f?\"Restore\":\"Fullscreen\",this.props.mainElement===Cl.gO.MAIN_MENU?\"\":\"Toggle the full-screen view of the game.\",Cl.T9.FULLSCREEN,!1,this.props.mainElement===Cl.gO.MAIN_MENU,h,2,r,u)"
   },
   {
     "key": "menu.button|Data_Menu|80364bb465c3",
@@ -180,6 +219,13 @@
     "context": "<<POS:12427585>>"
   },
   {
+    "key": "string.array|ship_in_ship_out|be17640b3fe4",
+    "original": "[\"ship_in\",\"ship_out\"]",
+    "translation": "[\"ship_in\",\"ship_out\"]",
+    "context": "<<POS:12428100>>",
+    "stage": 1
+  },
+  {
     "key": "assign|Move|e364125bef7d",
     "original": "Move ",
     "translation": "",
@@ -258,31 +304,31 @@
     "context": "<<POS:12435535>>"
   },
   {
-    "key": "assign|wide|adaaab2f5491#1",
+    "key": "assign|wide|adaaab2f5491",
     "original": " wide",
     "translation": "",
     "context": "<<POS:12435552>>"
   },
   {
-    "key": "assign|square|9c671827242c#1",
+    "key": "assign|square|9c671827242c",
     "original": " square",
     "translation": "",
     "context": "<<POS:12435569>>"
   },
   {
-    "key": "assign|tall|550c1cea8c04#1",
+    "key": "assign|tall|550c1cea8c04",
     "original": " tall",
     "translation": "",
     "context": "<<POS:12435590>>"
   },
   {
-    "key": "assign|pixelated|6e8957600068#1",
+    "key": "assign|pixelated|6e8957600068",
     "original": " pixelated",
     "translation": "",
     "context": "<<POS:12435725>>"
   },
   {
-    "key": "assign|View_Image|89c0352bb37a#1",
+    "key": "assign|View_Image|89c0352bb37a",
     "original": "View Image",
     "translation": "",
     "context": "<<POS:12437162>>"
@@ -298,5 +344,35 @@
     "original": " emblem",
     "translation": "",
     "context": "<<POS:12452117>>"
+  },
+  {
+    "key": "assign|wide|adaaab2f5491#1",
+    "original": " wide",
+    "translation": "",
+    "context": "<<POS:12452134>>"
+  },
+  {
+    "key": "assign|square|9c671827242c#1",
+    "original": " square",
+    "translation": "",
+    "context": "<<POS:12452151>>"
+  },
+  {
+    "key": "assign|tall|550c1cea8c04#1",
+    "original": " tall",
+    "translation": "",
+    "context": "<<POS:12452172>>"
+  },
+  {
+    "key": "assign|pixelated|6e8957600068#1",
+    "original": " pixelated",
+    "translation": "",
+    "context": "<<POS:12452307>>"
+  },
+  {
+    "key": "assign|View_Image|89c0352bb37a#1",
+    "original": "View Image",
+    "translation": "",
+    "context": "<<POS:12453805>>"
   }
 ]

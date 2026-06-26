@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|Crimson_Tide|0a7b602b871b",
+    "original": "Crimson Tide",
+    "translation": "",
+    "context": "<<POS:24664092>>"
+  },
+  {
     "key": "assign|C_Tide|f833f20e58f7",
     "original": "C. Tide",
     "translation": "",
@@ -8,8 +14,15 @@
   {
     "key": "assign|the|f4b4174a7811",
     "original": "the ",
-    "translation": " ",
+    "translation": "",
     "context": "<<POS:24664433>>"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "context": "<<POS:24664451>>",
+    "stage": 1
   },
   {
     "key": "assign|The_Crimson_Tide_clearly_used_to_be_a_MaxCorp_pleasure_yacht_a|8355169ab3fe",
@@ -22,6 +35,12 @@
     "original": "<b>The attack was blocked.</b>",
     "translation": "",
     "context": "<<POS:24664934>>"
+  },
+  {
+    "key": "assign|It_rolls_aside|6aa211910773",
+    "original": "It rolls aside!",
+    "translation": "",
+    "context": "<<POS:24664981>>"
   },
   {
     "key": "perk|AGGRESSIVE_AI|6357830f9833",
@@ -45,7 +64,8 @@
     "key": "button|Next|6ef04455e74a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24666907>> addButton(e++,\"Next\",VQ,\"\",\"\")"
+    "context": "<<POS:24666907>> addButton(e++,\"Next\",VQ,\"\",\"\")",
+    "stage": 1
   },
   {
     "key": "name.show|Crimson_Tide|fec4f75d6df8",
@@ -63,7 +83,8 @@
     "key": "button|Next|8bbbd5d428b8",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24669375>> addButton(t++,\"Next\",(function(){return randomInCollection(e)(!0)}),\"Next\",\"\")"
+    "context": "<<POS:24669375>> addButton(t++,\"Next\",(function(){return randomInCollection(e)(!0)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|8bbbd5d428b8",
@@ -81,7 +102,8 @@
     "key": "button|Next|c8e6cab109a5",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24674250>> addButton(e++,\"Next\",(function(){return pJ(!0)}),\"Next\",\"\")"
+    "context": "<<POS:24674250>> addButton(e++,\"Next\",(function(){return pJ(!0)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|c8e6cab109a5",
@@ -146,7 +168,7 @@
   {
     "key": "button|Leave|cc9be6e66a23",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:24675747>> addButton(14,\"Leave\",oJ,\"Leave\",\"She’s got nothing interesting to you.\")"
   },
   {
@@ -279,7 +301,8 @@
     "key": "button|Next|8bbbd5d428b8#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24685180>> addButton(t++,\"Next\",(function(){return randomInCollection(o)(!0)}),\"Next\",\"\")"
+    "context": "<<POS:24685180>> addButton(t++,\"Next\",(function(){return randomInCollection(o)(!0)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|8bbbd5d428b8#1",
@@ -303,7 +326,8 @@
     "key": "button|Next|dcfdff3bbc22",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24698601>> addButton(e++,\"Next\",iJ,\"Next\",\"\")"
+    "context": "<<POS:24698601>> addButton(e++,\"Next\",iJ,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|dcfdff3bbc22",
@@ -327,7 +351,8 @@
     "key": "button|Next|20093cf92663",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24713122>> addButton(e++,\"Next\",rJ,\"Next\",\"\")"
+    "context": "<<POS:24713122>> addButton(e++,\"Next\",rJ,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|20093cf92663",
@@ -351,7 +376,8 @@
     "key": "button|Next|d7b7b4e39ecb",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24727962>> addButton(t++,\"Next\",(function(){return lJ(e)}),\"Next\",\"\")"
+    "context": "<<POS:24727962>> addButton(t++,\"Next\",(function(){return lJ(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|d7b7b4e39ecb",
@@ -369,7 +395,8 @@
     "key": "button|Next|82f0b44828a6",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24732087>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:24732087>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|82f0b44828a6",
@@ -387,7 +414,8 @@
     "key": "button|Next|0bf22ed8504f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24752723>> addButton(e++,\"Next\",cJ,\"Next\",\"\")"
+    "context": "<<POS:24752723>> addButton(e++,\"Next\",cJ,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|0bf22ed8504f",
@@ -411,7 +439,8 @@
     "key": "button|Next|ecacc696f410",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24776210>> addButton(t++,\"Next\",(function(){return gJ(e)}),\"Next\",\"\")"
+    "context": "<<POS:24776210>> addButton(t++,\"Next\",(function(){return gJ(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|ecacc696f410",
@@ -429,7 +458,8 @@
     "key": "button|Next|82f0b44828a6#1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24780191>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:24780191>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|82f0b44828a6#1",
@@ -447,7 +477,8 @@
     "key": "button|Next|06b2a3e0044a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24798019>> addButton(t++,\"Next\",yJ,\"Next\",\"\")"
+    "context": "<<POS:24798019>> addButton(t++,\"Next\",yJ,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|06b2a3e0044a",
@@ -465,7 +496,8 @@
     "key": "button|Next|cbdd882b50ab",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24800321>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:24800321>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|cbdd882b50ab",
@@ -483,7 +515,8 @@
     "key": "button|Next|f59f3303b2b0",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24818789>> addButton(t++,\"Next\",(function(){return fJ(e)}),\"Next\",\"\")"
+    "context": "<<POS:24818789>> addButton(t++,\"Next\",(function(){return fJ(e)}),\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|f59f3303b2b0",
@@ -501,7 +534,8 @@
     "key": "button|Next|b60ffc740397",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24822973>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:24822973>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|b60ffc740397",
@@ -518,7 +552,7 @@
   {
     "key": "button|Fight|7cbe0cce7778",
     "original": "Fight",
-    "translation": "战斗！",
+    "translation": "",
     "context": "<<POS:24825359>> addButton(e++,\"Fight\",WQ,\"Fight\",\"\")"
   },
   {
@@ -681,7 +715,8 @@
     "key": "button|Next|c070c02fadd0",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24840312>> addButton(t++,\"Next\",[TJ,_J,IJ][tyros.loss()],\"Next\",\"\")"
+    "context": "<<POS:24840312>> addButton(t++,\"Next\",[TJ,_J,IJ][tyros.loss()],\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|c070c02fadd0",
@@ -699,7 +734,8 @@
     "key": "button|Next|6f65ac671f51",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24841786>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:24841786>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|6f65ac671f51",
@@ -717,7 +753,8 @@
     "key": "button|Next|80f1ca6335b1",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24847651>> addButton(t++,\"Next\",CJ,\"Next\",\"\")"
+    "context": "<<POS:24847651>> addButton(t++,\"Next\",CJ,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|80f1ca6335b1",
@@ -735,7 +772,8 @@
     "key": "button|Next|2c4cb6c91338",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24859232>> addButton(e++,\"Next\",LJ,\"Next\",\"\")"
+    "context": "<<POS:24859232>> addButton(e++,\"Next\",LJ,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|2c4cb6c91338",
@@ -753,7 +791,8 @@
     "key": "button|Next|bc7c94dcdd64",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24861376>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:24861376>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|bc7c94dcdd64",
@@ -771,7 +810,8 @@
     "key": "button|Next|fed715b0b0c7",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24863953>> addButton(t++,\"Next\",SJ,\"Next\",\"\")"
+    "context": "<<POS:24863953>> addButton(t++,\"Next\",SJ,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|fed715b0b0c7",
@@ -789,7 +829,8 @@
     "key": "button|Next|9e539016896f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24874612>> addButton(a++,\"Next\",xJ,\"Next\",\"\")"
+    "context": "<<POS:24874612>> addButton(a++,\"Next\",xJ,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|9e539016896f",
@@ -807,7 +848,8 @@
     "key": "button|Next|feb60ef78999",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24877316>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:24877316>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|feb60ef78999",
@@ -825,7 +867,8 @@
     "key": "button|Next|a05ce6258f3a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24883665>> addButton(t++,\"Next\",BJ,\"Next\",\"\")"
+    "context": "<<POS:24883665>> addButton(t++,\"Next\",BJ,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|a05ce6258f3a",
@@ -843,7 +886,8 @@
     "key": "button|Next|675fa6e135d0",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24888755>> addButton(e++,\"Next\",NJ,\"Next\",\"\")"
+    "context": "<<POS:24888755>> addButton(e++,\"Next\",NJ,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|675fa6e135d0",
@@ -861,7 +905,8 @@
     "key": "button|Next|92619f983b3b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24891779>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:24891779>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|92619f983b3b",
@@ -879,7 +924,8 @@
     "key": "button|Appearance|e9f6fb80442b",
     "original": "Appearance",
     "translation": "外貌",
-    "context": "<<POS:24895510>> addButton(e++,\"Appearance\",PJ,\"Appearance\",\"Take a close look at the droid, and maybe ask for a few changes...\")"
+    "context": "<<POS:24895510>> addButton(e++,\"Appearance\",PJ,\"Appearance\",\"Take a close look at the droid, and maybe ask for a few changes...\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Appearance|e9f6fb80442b",
@@ -939,13 +985,15 @@
     "key": "button|Back|8ad7aebf58e4",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:24898845>> addButton(1,\"Back\",OJ,\"Back\",\"\")"
+    "context": "<<POS:24898845>> addButton(1,\"Back\",OJ,\"Back\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Back|8ad7aebf58e4",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:24898855>> addButton(1,\"Back\",OJ,\"Back\",\"\")"
+    "context": "<<POS:24898855>> addButton(1,\"Back\",OJ,\"Back\",\"\")",
+    "stage": 1
   },
   {
     "key": "textify|You_ask_Tyros_if_they_wouldn_t_mind_changing_their_look_a_bit_n|d3233dd3f869",
@@ -963,7 +1011,8 @@
     "key": "button|Next|eed270beca36",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24915247>> addButton(e++,\"Next\",DJ,\"Next\",\"\")"
+    "context": "<<POS:24915247>> addButton(e++,\"Next\",DJ,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|eed270beca36",
@@ -981,7 +1030,8 @@
     "key": "button|Next|e745e120506f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24925106>> addButton(e++,\"Next\",DJ,\"Next\",\"\")"
+    "context": "<<POS:24925106>> addButton(e++,\"Next\",DJ,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|e745e120506f",
@@ -999,7 +1049,8 @@
     "key": "button|Next|867932a5818b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24926246>> addButton(t++,\"Next\",DJ,\"Next\",\"\")"
+    "context": "<<POS:24926246>> addButton(t++,\"Next\",DJ,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|867932a5818b",
@@ -1017,7 +1068,8 @@
     "key": "button|Next|cfc3e96885a3",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24927437>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:24927437>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|cfc3e96885a3",
@@ -1122,10 +1174,46 @@
     "context": "<<POS:24936193>>"
   },
   {
+    "key": "button.expr|var0|04840ecce2bf",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:24936629>> <<VARS:var0=a>> addDisabledButton(e++,a,a,\"<b>Too late to choose this!</b>\\n\\n\".concat(n))"
+  },
+  {
     "key": "button.hover|b_Too_late_to_choose_this_b|6b153f531508",
     "original": "<b>Too late to choose this!</b>",
     "translation": "",
     "context": "<<POS:24936634>> addDisabledButton(e++,a,a,\"<b>Too late to choose this!</b>\\n\\n\".concat(n))"
+  },
+  {
+    "key": "button.expr|var0|fc08fd77d526",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:24936696>> <<VARS:var0=a>> addButton(e++,a,oX,a,\"\".concat(n))"
+  },
+  {
+    "key": "button.hover.expr|var0|fc08fd77d526",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:24936701>> <<VARS:var0=a>> addButton(e++,a,oX,a,\"\".concat(n))"
+  },
+  {
+    "key": "button|Leave|0f2ac9f5ef76",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:24936731>> addButton(14,\"Leave\",tX,\"Leave\",\"You’ve got places to be.\")"
+  },
+  {
+    "key": "button.hover|Leave|0f2ac9f5ef76",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:24936742>> addButton(14,\"Leave\",tX,\"Leave\",\"You’ve got places to be.\")"
+  },
+  {
+    "key": "button.tooltip|You_ve_got_places_to_be|201b00913580",
+    "original": "You’ve got places to be.",
+    "translation": "",
+    "context": "<<POS:24936750>> addButton(14,\"Leave\",tX,\"Leave\",\"You’ve got places to be.\")"
   },
   {
     "key": "textify|Shrugging_your_shoulders_you_gesture_dismissively_and_close_the|937331628257",
@@ -1347,7 +1435,8 @@
     "key": "button|Next|284ddc5a560b",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24956624>> addButton(0,\"Next\",(function(){return rX(e)}))"
+    "context": "<<POS:24956624>> addButton(0,\"Next\",(function(){return rX(e)}))",
+    "stage": 1
   },
   {
     "key": "output.expr|pc_cockOrStrapon_var0_in_hand_you_line_yourself_up_and|2c2371615aaf",
@@ -1395,7 +1484,8 @@
     "key": "button|Next|489b8e3c303c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24959603>> addButton(0,\"Next\",(function(){return uX(e)}))"
+    "context": "<<POS:24959603>> addButton(0,\"Next\",(function(){return uX(e)}))",
+    "stage": 1
   },
   {
     "key": "textify|You_pull_out_of_the_needy_pirate_to_find_a_new_position_pressin|f81e324f9b08",
@@ -1419,7 +1509,8 @@
     "key": "button|Next|b810c0902742",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24967433>> addButton(0,\"Next\",(function(){return hX(e)}))"
+    "context": "<<POS:24967433>> addButton(0,\"Next\",(function(){return hX(e)}))",
+    "stage": 1
   },
   {
     "key": "textify|Your_hips_hit_hers_again_and_she_lets_out_a_breathy_whimper_tha|de5f8bc8bb1d",
@@ -1431,7 +1522,8 @@
     "key": "button|Next|96a182b93f4a",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24971495>> addButton(0,\"Next\",(function(){return cX(e)}))"
+    "context": "<<POS:24971495>> addButton(0,\"Next\",(function(){return cX(e)}))",
+    "stage": 1
   },
   {
     "key": "textify|Satisfied_with_your_lay_you_linger_for_a_long_moment_or_two_bef|640081b22a7d",
@@ -1449,7 +1541,8 @@
     "key": "button|Next|9398fa5748ef",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24974955>> addButton(0,\"Next\",(function(){return gX(e)}))"
+    "context": "<<POS:24974955>> addButton(0,\"Next\",(function(){return gX(e)}))",
+    "stage": 1
   },
   {
     "key": "textify|b_Still_b_you_keep_teasing_her_rubbing_your_pc_ass_agains|09c8061f16f0",
@@ -1461,7 +1554,8 @@
     "key": "button|Next|a8f23a52f9bd",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24978247>> addButton(0,\"Next\",(function(){return pX(e)}))"
+    "context": "<<POS:24978247>> addButton(0,\"Next\",(function(){return pX(e)}))",
+    "stage": 1
   },
   {
     "key": "textify|Her_body_trembles_beneath_you_muscles_taut_with_pleasure_as_she|e55bf34a8998",
@@ -1473,7 +1567,8 @@
     "key": "button|Next|eeffc7fd31c7",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24983058>> addButton(0,\"Next\",(function(){return yX(e)}))"
+    "context": "<<POS:24983058>> addButton(0,\"Next\",(function(){return yX(e)}))",
+    "stage": 1
   },
   {
     "key": "textify|After_two_minutes_longer_than_you_intended_snuggling_up_for_pos|21a96cf4fc97",
@@ -1491,7 +1586,8 @@
     "key": "button|Next|af772e39681c",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24988610>> addButton(0,\"Next\",fX)"
+    "context": "<<POS:24988610>> addButton(0,\"Next\",fX)",
+    "stage": 1
   },
   {
     "key": "textify|You_take_the_final_step_now_kneeling_lower_as_your_tongue_slide|171f5ef4bc7c",
@@ -1503,7 +1599,8 @@
     "key": "button|Next|7d730813a7ad",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24992374>> addButton(0,\"Next\",bX)"
+    "context": "<<POS:24992374>> addButton(0,\"Next\",bX)",
+    "stage": 1
   },
   {
     "key": "textify|She_lets_out_another_loud_groan_of_satisfaction_as_she_s_fully_e|699339150b2e",
@@ -1515,7 +1612,8 @@
     "key": "button|Next|983a245dc6fc",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:24995810>> addButton(0,\"Next\",wX)"
+    "context": "<<POS:24995810>> addButton(0,\"Next\",wX)",
+    "stage": 1
   },
   {
     "key": "textify|After_two_minutes_longer_than_you_intended_snuggling_up_for_pos|8764e75f6a87",
@@ -1533,7 +1631,8 @@
     "key": "button|Next|00ca95f44878",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:25000542>> addButton(0,\"Next\",(function(){return vX(e)}))"
+    "context": "<<POS:25000542>> addButton(0,\"Next\",(function(){return vX(e)}))",
+    "stage": 1
   },
   {
     "key": "textify|You_give_the_laquine_s_fuzzy_rump_a_resounding_i_SMACK_i_ri|c70f37ff0217",
@@ -1551,7 +1650,8 @@
     "key": "button|Next|e7374c05509d",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:25004790>> addButton(0,\"Next\",(function(){return AX(e)}))"
+    "context": "<<POS:25004790>> addButton(0,\"Next\",(function(){return AX(e)}))",
+    "stage": 1
   },
   {
     "key": "textify|Who_knew_boning_a_pirate_could_feel_so_good_The_filthy_claps_of|e86ec553c43d",
@@ -1563,7 +1663,8 @@
     "key": "button|Next|4d1c37f65351",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:25008798>> addButton(0,\"Next\",(function(){return EX(e)}))"
+    "context": "<<POS:25008798>> addButton(0,\"Next\",(function(){return EX(e)}))",
+    "stage": 1
   },
   {
     "key": "textify|Round_after_round_you_reposition_the_helpless_pirate_to_conquer|cc5a0d8369b6",
@@ -1629,7 +1730,8 @@
     "key": "button|Next|faa0fe4dcc58",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:25020871>> addButton(0,\"Next\",E.V.beginCombat)"
+    "context": "<<POS:25020871>> addButton(0,\"Next\",E.V.beginCombat)",
+    "stage": 1
   },
   {
     "key": "output|You_give_the_crudely_titled_video_chip_a_last_look_before_insert|8688a07da6c4",
@@ -1767,7 +1869,8 @@
     "key": "button|Next|9ab89deddd39",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:25030209>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:25030209>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|You_sigh_giving_the_crude_looking_video_chip_one_last_look_befo|4b09f32cc919",
@@ -1911,7 +2014,8 @@
     "key": "button|Next|59066abc0505",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:25041413>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:25041413>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "textify|The_video_starts_with_what_looks_like_a_basic_barn_setting_with|fef79dddfad8",
@@ -1923,7 +2027,8 @@
     "key": "button|Next|fa9302fc6598",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:25050694>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:25050694>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|fa9302fc6598",
@@ -1941,7 +2046,8 @@
     "key": "button|Next|5f442736bffc",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:25068794>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:25068794>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|5f442736bffc",
@@ -1959,7 +2065,8 @@
     "key": "button|Next|f26333911c53",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:25075066>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:25075066>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|f26333911c53",
@@ -1977,7 +2084,8 @@
     "key": "button|Next|ab457aa87e39",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:25085276>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+    "context": "<<POS:25085276>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")",
+    "stage": 1
   },
   {
     "key": "button.hover|Next|ab457aa87e39",
@@ -2006,13 +2114,13 @@
   {
     "key": "button|Investigate|82ffd8f4a080",
     "original": "Investigate",
-    "translation": "调查",
+    "translation": "",
     "context": "<<POS:25085908>> addButton(0,\"Investigate\",(function(){clearOutput(),clearMenu(),author(\"SoAndSo\"),output(\"You reservedly take note of the space around you, wondering if the two will try to flee if you confront them. Hey, you’re a trained pro, right?\"),pc.characterClass===GLOBAL.CLASS_ENGINEER&&output(\" Wait, no, yo..."
   },
   {
     "key": "button.hover|Investigate|82ffd8f4a080",
     "original": "Investigate",
-    "translation": "调查",
+    "translation": "",
     "context": "<<POS:25094182>> addButton(0,\"Investigate\",(function(){clearOutput(),clearMenu(),author(\"SoAndSo\"),output(\"You reservedly take note of the space around you, wondering if the two will try to flee if you confront them. Hey, you’re a trained pro, right?\"),pc.characterClass===GLOBAL.CLASS_ENGINEER&&output(\" Wait, no, yo..."
   },
   {
@@ -2138,7 +2246,7 @@
   {
     "key": "button|Leave|0cbe266f1525",
     "original": "Leave",
-    "translation": "离开",
+    "translation": "",
     "context": "<<POS:25099715>> addButton(0,\"Leave\",(function(){processTime(60),moveToRoom(\"KALAS.TAVROS.TAVROS HANGAR\"),mainGameMenu()}))"
   },
   {
@@ -2162,13 +2270,13 @@
   {
     "key": "button|Investigate|656561b380f0",
     "original": "Investigate",
-    "translation": "调查",
+    "translation": "",
     "context": "<<POS:25100413>> addButton(0,\"Investigate\",(function(){clearOutput(),clearMenu(),author(\"SoAndSo\"),output(\"Given how your last encounter panned out, you figure the hands-on-weapon method is not the right approach for this one. The mask and hood confirm it all: someone who’s a part of or affiliated with the mysteriou..."
   },
   {
     "key": "button.hover|Investigate|656561b380f0",
     "original": "Investigate",
-    "translation": "调查",
+    "translation": "",
     "context": "<<POS:25108156>> addButton(0,\"Investigate\",(function(){clearOutput(),clearMenu(),author(\"SoAndSo\"),output(\"Given how your last encounter panned out, you figure the hands-on-weapon method is not the right approach for this one. The mask and hood confirm it all: someone who’s a part of or affiliated with the mysteriou..."
   },
   {
@@ -2204,13 +2312,13 @@
   {
     "key": "button|Investigate|1c5a7daa2043",
     "original": "Investigate",
-    "translation": "调查",
+    "translation": "",
     "context": "<<POS:25108957>> addButton(0,\"Investigate\",(function(){clearOutput(),clearMenu(),author(\"SoAndSo\"),output(\"Before setting off, you measure your choices: previous run-ins have had these Host agents ahead of you at a moment’s notice, they’re dangerous and seemingly <i>too</i> fast for the local law enforcement.\"),outp..."
   },
   {
     "key": "button.hover|Investigate|1c5a7daa2043",
     "original": "Investigate",
-    "translation": "调查",
+    "translation": "",
     "context": "<<POS:25124032>> addButton(0,\"Investigate\",(function(){clearOutput(),clearMenu(),author(\"SoAndSo\"),output(\"Before setting off, you measure your choices: previous run-ins have had these Host agents ahead of you at a moment’s notice, they’re dangerous and seemingly <i>too</i> fast for the local law enforcement.\"),outp..."
   },
   {
@@ -2226,10 +2334,76 @@
     "context": "<<POS:25124220>>"
   },
   {
+    "key": "output|i_We_re_here_on_newly_colonized_Mhen_ga_a_world_of_lush_jungl|8a3c179e9483",
+    "original": "<i>“We’re here on newly-colonized Mhen’ga, a world of lush jungles and deadly predators,”</i> the host begins in a thick New Brisbane accent, <i>“and we’re on the hunt for the naleen, the apex predator on this planet. Now, imagine a great big lion right out of Africa, a strong, lightning-fast beauty of a huntress, and combine that with the stealth and venom of a deadly adder, and you’ve got the naleen in a nutshell. I’ll have to be so, so careful dealing with these predators, or I’m dead for sure.”</i>",
+    "translation": "",
+    "context": "<<POS:25124837>>"
+  },
+  {
+    "key": "output|For_someone_supposedly_tracking_down_a_lethal_hunter_she_seems|8b09af38eeca",
+    "original": "For someone supposedly tracking down a lethal hunter, she seems oddly cheerful about it. She crests a hill, tumbles through a thick bush, and eventually comes to a clearing in the jungle, one of the few places where the sun actually gets through to the ground. Resting atop a large boulder in the center is ",
+    "translation": "",
+    "context": "<<POS:25125359>>"
+  },
+  {
+    "key": "output|a_very_familiar_kitty_naga_in_the_middle_of_a_quick_cat_nap|57e731558081",
+    "original": "a very familiar kitty-naga in the middle of a quick cat-nap",
+    "translation": "",
+    "context": "<<POS:25125709>>"
+  },
+  {
+    "key": "output|what_looks_like_a_giant_snake_coiled_around_the_rocks_at_first|55bd3c6a9481",
+    "original": "what looks like a giant snake coiled around the rocks at first, but as the camera draws in, is clearly half-serpent and half-catgirl, a woman with deliciously large breasts on a feline torso, long orange hair draped around her half-furred body",
+    "translation": "",
+    "context": "<<POS:25125779>>"
+  },
+  {
     "key": "output|i_Holy_smokes_i_Steph_whispers_to_the_camera_angling_it_a|50d7bd5edd13",
     "original": "<i>“Holy smokes!”</i> Steph whispers to the camera, angling it at the slumbering predator. Brazenly, the host approaches, creeping along the ground almost at a crawl. Lazily, the kitty-naga opens a single emerald eye, watching her approach. <i>“Lookit this, a NALEEN! They’re the deadliest predators on this planet, with tails so strong they’d crush me dead in a heartbeat. Lemme see if I can stick mah hand up ‘er cloaca!”</i>",
     "translation": "",
     "context": "<<POS:25126049>>"
+  },
+  {
+    "key": "output|Is_she_insane|3d4fd6f23d3a",
+    "original": "Is she insane?",
+    "translation": "",
+    "context": "<<POS:25126491>>"
+  },
+  {
+    "key": "output|i_W_what_are_you_doing_strange_little_girl_i_the_naleen_h|dd6c13a21a90",
+    "original": "<i>“W-what are you doing, strange little girl?”</i> the naleen hisses as Steph creeps up. The snake-girl rises off the rock, her feline half looming over the show’s hostess menacingly.",
+    "translation": "",
+    "context": "<<POS:25126520>>"
+  },
+  {
+    "key": "output|i_Uh_oh_she_s_noticed_me_If_I_try_to_run_she_ll_hunt_me_dow|2f339b37daaa",
+    "original": "<i>“Uh-oh, she’s noticed me! If I try to run, she’ll hunt me down in an instant! All I can do is lie perfectly still and hope she backs off! As a predator, the naleen shouldn’t bother me if I’m dead still.”</i>",
+    "translation": "",
+    "context": "<<POS:25126719>>"
+  },
+  {
+    "key": "output|i_I_can_hear_you_i_the_busty_monster_sighs_cocking_an|174c049b80d1",
+    "original": "<i>“...I can hear you,”</i> the busty monster sighs, cocking an eyebrow at Steph as she lies face-down in the dirt, heart-shaped ass swaying just inches in front of the camera.",
+    "translation": "",
+    "context": "<<POS:25126944>>"
+  },
+  {
+    "key": "output|i_Crikey_Looks_like_she_s_coming_in_for_the_kill_All_I_can_d|4c96305bbe32",
+    "original": "<i>“Crikey! Looks like she’s coming in for the kill! All I can do now is try to overpower her!”</i> Steph shouts, leaping to her feet and tackling the naleen, throwing the two of them over the boulder and into the brush. The camera drone speedily follows the brawl as Steph and the naleen tumble around in the dirt, eventually rolling into a wet mud-pit at the edge of the clearing.",
+    "translation": "",
+    "context": "<<POS:25127135>>"
+  },
+  {
+    "key": "output|i_W_WHAT_ARE_YOU_DOING_GET_OFF_ME_i_the_naleen_howls_as|9c4740855fba",
+    "original": "<i>“W-WHAT ARE YOU DOING!? GET OFF ME!”</i> the naleen howls as Steph straddles her wide hips victoriously, pinning the huntress down and grabbing her massive tail’s slender tip.",
+    "translation": "",
+    "context": "<<POS:25127532>>"
+  },
+  {
+    "key": "output|i_There_we_go_got_er_by_the_tail_Now_let_s_take_a_look_at_t|89216152c40a",
+    "original": "<i>“There we go, got ‘er by the tail! Now let’s take a look at this beauty! Oh, she’s the real deal: lookit these scales. She’s seen some battles, too, see the dents and scars here?”</i> she says, pointing out the various cuts and old wounds on the naleen’s scales, a history of battle engraved in her body. <i>“Ah, ‘ere we go, see the cloaca engorging? When you hold ‘em, naleen can’t decide if you’re trying to kill ‘em or mate with ‘em! Let’s get a closer look!”</i>",
+    "translation": "",
+    "context": "<<POS:25127725>>"
   },
   {
     "key": "output|The_camera_zooms_in_on_the_naleen_s_pussy_as_it_visibly_engorges|2937f93e98d4",
@@ -2238,10 +2412,65 @@
     "context": "<<POS:25128209>>"
   },
   {
+    "key": "output|i_D_don_t_touch_meeeee_i_the_naleen_cries_writhing_violent|fc05ee643aec",
+    "original": "<i>“D-don’t touch meeeee”</i> the naleen cries, writhing violently under Steph as the show’s host practically shoves her arm into the alien’s sodden box. <i>“...Ooh! Ooohhhh... mmm, yessss, stick your arm riiiiight in, little girl.”</i>",
+    "translation": "",
+    "context": "<<POS:25128394>>"
+  },
+  {
+    "key": "output|i_There_we_go_i_Steph_announces_victoriously_to_the_camera|ed0642ba6ee0",
+    "original": "<i>“There we go!”</i> Steph announces victoriously to the camera, <i>“Elbow-deep in ‘er cloaca. Oh, this is a dream come true! Lookit the way she moves, writhing so gracefully. She’s a real beauty, innit she?”</i>",
+    "translation": "",
+    "context": "<<POS:25128645>>"
+  },
+  {
+    "key": "output|i_Mmm_you_are_not_so_bad_yourself_i_the_naleen_coos_as_St|36ccd3103922",
+    "original": "<i>“Mmm, you are not so bad yourself,”</i> the naleen coos as Steph’s arm vanishes up to the elbow inside her.",
+    "translation": "",
+    "context": "<<POS:25128873>>"
+  },
+  {
+    "key": "output|i_One_of_the_most_amazing_things_about_these_predators_is_the|d16a4e182813",
+    "original": "<i>“One of the most amazing things about these predators is the way they mate. Like some snakes from ol’ Earth, they congregate in huge ‘mating balls,’ just like a great big animal orgy that can last for hours, or even days. I’d give anything to see one of those up close and personal!”</i>",
+    "translation": "",
+    "context": "<<POS:25128998>>"
+  },
+  {
+    "key": "output|i_Is_that_so_i_the_naleen_grins_and_suddenly_her_long_tai|159d10c63dd1",
+    "original": "<i>“Is that so?”</i> the naleen grins, and suddenly her long tail is wrapped around Steph, encircling the hostess from shoulder to toes, leaving nothing but her head visible.",
+    "translation": "",
+    "context": "<<POS:25129303>>"
+  },
+  {
+    "key": "output|i_Holy_smokes_Looks_like_I_forgot_the_most_deadly_attack_the|18b222c0c57f",
+    "original": "<i>“Holy smokes! Looks like I forgot the most deadly attack the naleen have: a crushing vice-like grip of the tail. I’ll be dead in seconds if I don’t think of a way out of this; she’ll crush the air right from my lungs.”</i>",
+    "translation": "",
+    "context": "<<POS:25129492>>"
+  },
+  {
+    "key": "output|i_You_are_very_strange_i_the_naleen_sighs_her_feline_half|3445e0b47a40",
+    "original": "<i>“You are very strange,”</i> the naleen sighs, her feline half rising up to grab Steph’s cheeks, turning her head aside to expose her neck.",
+    "translation": "",
+    "context": "<<POS:25129732>>"
+  },
+  {
+    "key": "output|i_Uh_oh_looks_like_I_m_a_goner_This_paralytic_venom_could_sp|7ec233098a7f",
+    "original": "<i>“Uh-oh, looks like I’m a goner! This paralytic venom could spell the end if she bites me!”</i> For someone convinced she’s about to die, Steph’s awfully calm about this.",
+    "translation": "",
+    "context": "<<POS:25129888>>"
+  },
+  {
     "key": "output|The_naleen_sighs_and_bites_down_injecting_a_dose_of_paralytic_v|3fb62c427a04",
     "original": "The naleen sighs and bites down, injecting a dose of paralytic venom into the show’s host. With an exaggerated gasp, Steph limply falls into the huntress’s waiting arms. Giggling, the naleen tosses Steph over her shoulder and carries her off, slithering into the forest - and the camera drone dutifully follows, tracking the pair of them for several minutes in the brush until they come to a cave mouth. The naleen slithers in, and the camera switches to nightvision as it follows her through a network of caves and into a large, natural pit in the ground.",
     "translation": "",
     "context": "<<POS:25130075>>"
+  },
+  {
+    "key": "button|Next|6deefa925934",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:25130674>> addButton(0,\"Next\",(function(){clearOutput(),stephHeader(1,!0),output(\"<i>“Ugh, mah head!”</i> Steph drawls, rubbing her temples as the naleen plants her at the edge of the pit. <i>“Crickey! Looks like she’s dragged me back to her nest! Oh, but look here! Before she eats me, I’m getting to witness t...",
+    "stage": 1
   },
   {
     "key": "output|You_sprawl_out_and_kick_on_the_second_episode_of_the_season_A_b|5d86fc065acd",
@@ -2250,16 +2479,131 @@
     "context": "<<POS:25135424>>"
   },
   {
+    "key": "output|A_U_G_C_mandated_warning_appears_on_the_screen_in_tiny_letters|9c76e1cfaec6",
+    "original": "A U.G.C. mandated warning appears on the screen in tiny letters:",
+    "translation": "",
+    "context": "<<POS:25136187>>"
+  },
+  {
+    "key": "output|b_The_U_G_C_Scout_Authority_apologizes_for_content_in_previou|9f6c2ea3999a",
+    "original": "<b>“The U.G.C. Scout Authority apologizes for content in previous episodes of <i>Steph Irson: Galactic Huntress</i>, and warns that interacting with unidentified xeno-biotics can result in erratic and unexpected mutations or grievous injury. Do not attempt anything seen in this series at home, or without professional guidance.”</b>",
+    "translation": "",
+    "context": "<<POS:25136266>>"
+  },
+  {
+    "key": "output|Meanwhile_on_screen_the_now_cat_eared_Steph_grabs_the_camera|8740acc4434a",
+    "original": "Meanwhile, on screen, the now cat-eared Steph grabs the camera, showing off the rusty wastelands behind her as she narrates: ",
+    "translation": "",
+    "context": "<<POS:25136614>>"
+  },
+  {
+    "key": "output|i_We_re_here_on_ancient_Tarkus_a_world_of_rough_and_tumble_in|4acd48c4d4e8",
+    "original": "<i>“We’re here on ancient Tarkus, a world of rough and tumble inhabitants dealing with wild and untamed life and technology,”</i> the host begins in a thick New Brisbane accent, <i>“and we’re on the hunt for the Gray Goo. Now I know I usually go huntin’ for my creatures alive and kickin’, but these goo’re something special: made up of trillions of discarded micromachines, Gray Goo have a kind of network intelligence: the more of ‘em, the smarter they are. They’re very aggressive, though, so I’ll have to be very careful to stay out of their reach if I wanna make it out alive. One touch and I could end up enveloped in goo! Nasty!”</i>",
+    "translation": "",
+    "context": "<<POS:25136754>>"
+  },
+  {
     "key": "output|Having_spoken_her_piece_Steph_takes_off_jogging_into_the_mechan|da4f23e2aab4",
     "original": "Having spoken her piece, Steph takes off jogging into the mechanical dunes of the Tarkus wastes, deftly maneuvering between piles of discarded trash and ruined tech from ages past, stopping occasionally to lament about the sad state of the planet or to scratch at her twitching cat ears (once even stopping to jump at an errant laser pointer coming from an old mining rig). Eventually, though, with a gasp of surprise and awe, the huntress meets her prey:",
     "translation": "",
     "context": "<<POS:25137409>>"
   },
   {
+    "key": "output|i_Crikey_Look_at_this_i_Steph_says_tumbling_behind_a_ste|0efc0503a1bb",
+    "original": "<i>“Crikey! Look at this!”</i> Steph says, tumbling behind a steel outcropping for cover. <i>“Come on, take a look at this: isn’t she a beaut?”</i>",
+    "translation": "",
+    "context": "<<POS:25137879>>"
+  },
+  {
+    "key": "output|The_camera_hovers_down_behind_her_shoulder_focusing_in_as_she_p|26b59f44c42f",
+    "original": "The camera hovers down behind her shoulder, focusing in as she points to a clearing ahead, in which sits what looks like a voluptuous gray woman, shining brightly in the sunlight, her proportions comically over-exaggerated - were she a <i>“real”</i> girl, you doubt she could stand up under the weight of those tits. Slowly, Steph creeps forward, whispering, <i>“Oh yeah, there’s one now. See how she morphs herself into a humanoid form? It’s just like a bird showing its plumage to attract a mate, but this babe’s got a devious twist to her: give her half a chance and she’ll drain you dry! Gray Goo live off of our bodily fluids, see, and they’ll do anything to get ‘em. I’d better be careful not to alert her to my presence!”</i>",
+    "translation": "",
+    "context": "<<POS:25138041>>"
+  },
+  {
+    "key": "output|Slowly_Steph_creeps_out_of_cover_hugging_the_ground_almost_lik|69c4bd3c60ba",
+    "original": "Slowly, Steph creeps out of cover, hugging the ground almost like a cartoon character as she sneaks up on the Gray Goo sunbathing in the clearing. The camera putters behind her, giving an excellent view of the host’s ass in her sheer short pants, ever so slightly raised in the air as she creeps toward her prey.",
+    "translation": "",
+    "context": "<<POS:25138788>>"
+  },
+  {
+    "key": "output|Nearing_the_slumbering_goo_girl_Steph_holds_still_a_hair_s_brea|5ec893a9bf78",
+    "original": "Nearing the slumbering goo-girl, Steph holds still a hair’s breadth away, camera zooming in for a close-up of the gray’s cute little face as she snores quietly. <i>“Must be in standby mode,”</i> Steph says, relief palpable in her voice. <i>“Look at how she mimics a human. Kinda cute, innit she?”</i>",
+    "translation": "",
+    "context": "<<POS:25139115>>"
+  },
+  {
+    "key": "output|As_she_speaks_Steph_pulls_on_a_blue_rubber_glove_giving_it_a_q|cfe63c6faafe",
+    "original": "As she speaks, Steph pulls on a blue rubber glove, giving it a quiet snap before reaching up to the goo. <i>“Let me show just how gooey this creature is. She’s like gelatin to the touch, see-”</i>",
+    "translation": "",
+    "context": "<<POS:25139430>>"
+  },
+  {
+    "key": "output|As_soon_as_Steph_prods_the_gey_goo_s_tit_of_course_its_eyes_sn|1307f6c8eb64",
+    "original": "As soon as Steph prods the gey goo’s tit, of course, its eyes snap open. The goo sits up, looking around in total confusion before her gaze alights on the galactic huntress, whose hand quickly retracts, owner stumbling away as the goo wakes up.",
+    "translation": "",
+    "context": "<<POS:25139641>>"
+  },
+  {
+    "key": "output|i_Oh_my_gosh_A_are_you_Steph_Irson_i_the_goo_says_sudden|571255f3aa2e",
+    "original": "<i>“Oh my gosh! A-are you Steph Irson!?”</i> the goo says suddenly, surging toward Steph, stopping just a few inches away, faces practically pressed together. <i>“Ohmygoshohmygosh! I love your show! Are we on right now? HI MOM! I mean, I don’t really have a mom, but if I did I’d totally say ‘hi’ to her right now!”</i>",
+    "translation": "",
+    "context": "<<POS:25139900>>"
+  },
+  {
+    "key": "output|Steph_stares_at_the_goo_girl_for_a_long_moment_i_W_what_i|d0843c311bfc",
+    "original": "Steph stares at the goo-girl for a long moment. <i>“W-what?”</i>",
+    "translation": "",
+    "context": "<<POS:25140234>>"
+  },
+  {
     "key": "output|The_goo_circles_the_galactic_bounty_hunter_in_half_disbelief|5e04ff7bd0b4",
     "original": "The goo circles the galactic bounty hunter, in half-disbelief. <i>“A-and this is what you look like up up close? Oh gosh I’m so happy to meet you! A real person, a star! Eep, I’m nervous! I have all your shirts, Miss Irson, oh and I used to have a Galactic Huntress action figure but a rust monster stole it and used it like a dildo and fucked me with it! That was super fun, though. OH! W-would you sign, uh... I KNOW! Sign my tits!”</i>",
     "translation": "",
     "context": "<<POS:25140313>>"
+  },
+  {
+    "key": "output|The_goo_makes_an_exaggerated_motion_as_if_pulling_her_non_exist|8b537c95b44f",
+    "original": "The goo makes an exaggerated motion, as if pulling her non-existent shirt up, presenting her gigantic bosom to Steph. Finally recovering from her surprise, the huntress runs a hand through her sandy hair, pulling out a marker from her pocket.",
+    "translation": "",
+    "context": "<<POS:25140766>>"
+  },
+  {
+    "key": "output|i_Sure_Anything_for_an_adoring_fan_i_she_beams_as_if_she|69d6b72faa43",
+    "original": "<i>“Sure! Anything for an adoring fan!”</i> she beams, as if she’s completely forgotten the mortal peril she’s supposedly in. Steph twirls the pen and pops the cap, asking, <i>“So, who do I sign this to, pretty lady?”</i>",
+    "translation": "",
+    "context": "<<POS:25141023>>"
+  },
+  {
+    "key": "output|i_Uh_I_don_t_know_i_the_goo_says_apologetically_rubb|d93345c27fdf",
+    "original": "<i>“Uh... I don’t know...”</i> the goo says apologetically, rubbing the back of her head in mock consternation, <i>“I don’t really have a name.”</i>",
+    "translation": "",
+    "context": "<<POS:25141259>>"
+  },
+  {
+    "key": "output|i_Aw_that_s_alright_babe_I_ll_call_you_Carrie_Like_my_mum|bc75cb3f75a7",
+    "original": "<i>“Aw, that’s alright, babe. I’ll call you Carrie! Like my mum!”</i> Steph says with a grin, starting to write on the goo’s tit... only to have her pen... and her hand... sink into her gooey skin.",
+    "translation": "",
+    "context": "<<POS:25141422>>"
+  },
+  {
+    "key": "output|The_goo_and_Steph_both_stare_at_the_huntress_s_wrist_as_it_vanis|512994763f27",
+    "original": "The goo and Steph both stare at the huntress’s wrist as it vanishes into the goo-girl’s tit. <i>“Oops. I guess I’m hungry! Oh well! This is gonna be super duper fun, Miss Irson, I promise.”</i>",
+    "translation": "",
+    "context": "<<POS:25141634>>"
+  },
+  {
+    "key": "output|Steph_manages_only_to_let_out_a_panicked_scream_as_a_surge_of_gr|55abd19b43b5",
+    "original": "Steph manages only to let out a panicked scream as a surge of gray goo rushes up her arm, crashing across her body like a tidal wave, pulling her into the main mass of silvery machines. Her voice is silenced as a million micromachines surround her, dragging the show’s host into the googirl’s body until there’s no trace of her left except her ponytail wiggling around behind the goo’s head, dripping with moist micromachines. Giggling to herself, the goo spins around and strikes a pose, now almost perfectly mirroring Steph’s shapely, athletic form (except for a much larger bust and ass), even pouring herself in to fill out the huntress’s clothes.",
+    "translation": "",
+    "context": "<<POS:25141842>>"
+  },
+  {
+    "key": "button|Next|072550326918",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:25142553>> addButton(0,\"Next\",(function(){clearOutput(),stephHeader(2,!0),output(\"<i>“Say hi to the camera!”</i> The goo titters, bending over and wiggling her ass at the camera drone hovering around her. Winking at the camera over her shoulder, she reaches back and spreads her cheeks, quick and hard enough to...",
+    "stage": 1
   },
   {
     "key": "output|You_sprawl_out_and_kick_on_the_third_episode_of_the_season_A_br|8dc0273dd2ca",
@@ -2292,6 +2636,12 @@
     "context": "<<POS:25149198>>"
   },
   {
+    "key": "output|Steph_hops_nimbly_from_the_fence_post_and_takes_one_of_the_cow_g|413c5112fc94",
+    "original": "Steph hops nimbly from the fence post and takes one of the cow-girls by the arm, giving her a gentle tug towards the camera’s left. The cow moos, her floppy ears perking up. <i>“Milk time?”</i> she asks, obediently following along behind Steph.",
+    "translation": "",
+    "context": "<<POS:25149683>>"
+  },
+  {
     "key": "output|i_Milk_time_big_girl_i_Steph_coos_petting_the_cow_on_the|a2a0b140b386",
     "original": "<i>“Milk time, big girl!”</i> Steph coos, petting the cow on the head. Turning back to the camera, Steph explains, <i>“Human milk is the colony’s primary export. The slightly modified milk produced here is excellent for your health, highly nutritious, and if I’m in luck in a few minutes, absolutely delicious! Gotta admit, never tried cow-girl milk before, so I guess I’m in for a new experience today. Isn’t that right, cutie?”</i>",
     "translation": "",
@@ -2310,6 +2660,24 @@
     "context": "<<POS:25150993>>"
   },
   {
+    "key": "output|The_cow_grins_and_hurriedly_steps_up_into_the_harness_hanging_do|4ce7023d2633",
+    "original": "The cow grins and hurriedly steps up into the harness hanging down from the ceiling. With a little help from Steph, she’s soon putting almost all of her weight on the two cords of the harness, one under her chest and the other just above the groin, which leaves her bent-over with her big, milky breasts hanging down for easy access. The cow moos in excitement as Steph moves to her side and crouches down; the camera finds itself angled just perfectly to catch a glistening bead of excitement pearling on the lips of the cow’s sex.",
+    "translation": "",
+    "context": "<<POS:25151376>>"
+  },
+  {
+    "key": "output|i_Right_Now_normally_milking_here_s_done_by_pneumatic_suctio|e7665c047bed",
+    "original": "<i>“Right. Now, normally milking here’s done by pneumatic suction,”</i> Steph says, pulling a pair of blue gloves on over her hands, <i>“But I like to get a bit more hands-on, don’t I?”</i>",
+    "translation": "",
+    "context": "<<POS:25151923>>"
+  },
+  {
+    "key": "output|Flashing_the_camera_a_grin_Steph_drags_a_bucket_underneath_the|a7a9943b9c4f",
+    "original": "Flashing the camera a grin, Steph drags a bucket underneath the cow’s hanging bosom and reaches up to up one of the cow-girl’s tits. The cow groans, her fluff-tipped tail swishing happily as Steph’s hands work onto both her boobs, squeezing and massaging the huge, soft mounds. Steph’s quickly rewarded with a little spurt of milk trickling from the cow’s teat, a pair of white streams pouring down into the bucket. The cow-girl shudders and moos quietly while her body sways in the harness as she’s milked and her legs tremble with pleasure.",
+    "translation": "",
+    "context": "<<POS:25152127>>"
+  },
+  {
     "key": "output|i_The_girls_on_NT_just_love_getting_milked_i_Steph_narrate|7439939b2733",
     "original": "<i>“The girls on NT just love getting milked,”</i> Steph narrates as her hands continue to rhythmically massage the cow’s tits. <i>“Generations of selective breedings, genetic manipulation, and a special, top-secret drug called the Treatment have made the local women into the ultimate milk-cows. Just a couple minutes of this, and I’ll have a full bucket of creamy, delicious milk. Won’t I, cutie?”</i>",
     "translation": "",
@@ -2322,9 +2690,172 @@
     "context": "<<POS:25153102>>"
   },
   {
+    "key": "output|When_she_does_you_re_treated_to_a_shrill_cry_of_ecstasy_as_the|3e932ff492fd",
+    "original": "When she does, you’re treated to a shrill cry of ecstasy as the cow cums, her whole body wracked with spasmic shudders that nearly send milk spraying everywhere. And what milk there is! As she climaxes, the cow’s tits work themselves into high gear, spraying what looks like gallons into the over-laden bucket. After several minutes of orgasmic milking, Steph steps back and hefts the bucket up from under the twitching, blissed-out cowgirl.",
+    "translation": "",
+    "context": "<<POS:25153588>>"
+  },
+  {
+    "key": "output|i_Now_let_s_take_a_taste_shall_we_i_she_grins_bringing|f6c371871f74",
+    "original": "<i>“Now, let’s take a taste, shall we?”</i> she grins, bringing the bucket up to her lips and drinking deep. When she lowers it, she’s grinning from kitty-ear to kitty-ear, a great big milk moustache on her upper lip.",
+    "translation": "",
+    "context": "<<POS:25154044>>"
+  },
+  {
+    "key": "output|i_Croickey_That_s_amazing_i_Steph_says_clearly_surprised|889596ec75c7",
+    "original": "<i>“Croickey! That’s amazing!”</i> Steph says, clearly surprised. <i>“I think I’ll be switching brands at home if all the girls have your talented teats!”</i>",
+    "translation": "",
+    "context": "<<POS:25154276>>"
+  },
+  {
+    "key": "output|i_Glad_you_liked_it_i_the_cow_girl_murmurs_half_asleep_in|ec88b8acf2eb",
+    "original": "<i>“Glad you liked it,”</i> the cow-girl murmurs, half asleep in her afterglow.",
+    "translation": "",
+    "context": "<<POS:25154449>>"
+  },
+  {
+    "key": "button|Next|de5a818e2af8",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:25154590>> addButton(0,\"Next\",(function(){clearOutput(),stephHeader(3),output(\"Steph sets her big bucket down, cracks her knuckles, and wipes the milk from her lips. <i>“Right, then. That’s a Texan sheila for you. Now, we’re going to have to be a little more careful up ahead: we’re on a quest to find a bull. N...",
+    "stage": 1
+  },
+  {
     "key": "output|You_sprawl_out_and_kick_on_the_fourth_episode_of_the_season_A_b|868af22bbab3",
     "original": "You sprawl out and kick on the fourth episode of the season. A brief commercial plays, advertising RhenWorld Stellar Excavations as an exciting career opportunity for anyone for anyone looking to see the frontier of the galaxy. After a brief splash of a pair of handsome leithans galloping over a rocky alien world, the screen fades in to the logo of <b>Steph Irson: Galactic Huntress</b>, a popular nature show. Beneath the title script, a warning appears in large red letters: <i>“This Show Rated X, Adults Only, by the Galactic Entertainment Ratings Board due to graphic, sexual, and disturbing imagery. You have been warned.”</i> A smaller notice underneath announces <i>“This show brought to you by the New Texas Council for Entertainment,”</i> followed by a cute cartoon image of an overly-busty cow-girl giving you a wink and a thumbs up.",
     "translation": "",
     "context": "<<POS:25169598>>"
+  },
+  {
+    "key": "output|The_title_card_fades_away_replaced_with_a_shaky_camera_shot_tha|7e4211ad3f9b",
+    "original": "The title card fades away, replaced with a shaky camera shot that’s exploding with obviously digital color - a small disclaimer at the screen’s bottom tells you that the camera is operating in nightvision mode, with computer coloration added in real time by the producer A.I. The view resolves into a picture of the show’s host, Steph Irson, wearing her familiar khaki short-shorts and shirt, straining against the sheer size of her massive bust. The hostess doesn’t look much like the iconic nature presenter you remember growing up: she’s sporting a pair of cute little cat ears atop her head that twitch and fidget as she moves, and her lips and eyes glisten with a metallic gray. Perhaps most noticeable, though, is her immense bust, more than double in size over the perky D-cups she sports in her promotional material. You don’t think that shirt of hers is going to hold up to much - even a deep breath might burst those buttons and let her tits pop free on galactic TV. A big three-optic night vision rig is stuck on her forehead, awkwardly hooked around her kitty-ears.",
+    "translation": "",
+    "context": "<<POS:25170458>>"
+  },
+  {
+    "key": "output|i_We_re_here_on_Myrellion_one_of_the_most_dangerous_and_unfor|be388eef32cb",
+    "original": "<i>“We’re here on Myrellion, one of the most dangerous and unforgiving worlds in the new Planet Rush,”</i> Steph whispers to the camera drone. Her New Brisbaner accent, at least, is more recognizable than her body these days. <i>“It’s pitch black here in the caverns below the surface, where all intelligent life on this world lives!”</i> She taps her night vision goggles for emphasis, grinning at the camera. <i>“But we’re on even footing now, thanks to our friends at Xenogen, who’re nice enough to give me these cute goggles!”</i>",
+    "translation": "",
+    "context": "<<POS:25171550>>"
+  },
+  {
+    "key": "output|She_bounces_giddily_causing_her_bovine_like_bosom_to_jiggle_lik|8cf05d335c85",
+    "original": "She bounces giddily, causing her bovine-like bosom to jiggle like gelatin under her shirt. <i>“Now, we’re here to find what’s gotta be the coolest species here on Myrellion, a planet full of insect-type creatures: the nyrea! A nyrea queen, to be precise! Nyrea flip what you and I know about biological sex right on its head, cuz the females have pseudo-penises and the males have genital slits just like pussies. Er, I mean vaginas!”</i>",
+    "translation": "",
+    "context": "<<POS:25172099>>"
+  },
+  {
+    "key": "output|Steph_chuckles_and_turns_away_from_the_camera_start_to_walk_thr|88d9e13adec7",
+    "original": "Steph chuckles and turns away from the camera, start to walk through the narrow, winding caverns. The camera drone follows, keeping her thick, booty-short-straining behind in view for the audience. <i>“Nyrean females vie for dominance among their own kind like old-earth predators, with submissive losers being forced to carry alphas’ eggs after the fight. Eggs they get through reverse sex with a male: inserting their pseudo-penis in his genital slit and extracting semen from little sacs inside him. Pretty nifty, huh? So today, I’m on the hunt for the biggest, baddest alpha nyrea I can find and see if we can get this strange, unique twist on mating on camera for you viewers at home! I’ve done a little scouting, and I think I’ve found a pretty likely place to find one: a deep cavern just up the tunnel here, covered in glowing moss and cave drawings.”</i>",
+    "translation": "",
+    "context": "<<POS:25172552>>"
+  },
+  {
+    "key": "output|A_few_moments_later_and_the_Huntress_has_arrived_at_the_cave_in|16bce9a814dd",
+    "original": "A few moments later and the Huntress has arrived at the cave in question: a big crack in the wall surrounded by softly glowing blue moss that’s been artificially arranged into a swirling pattern around the cavern entrance, several concentric circles that make the passage seem much bigger and more intimidating than it actually is. A few small bushes grow from the ground nearby, forming a sweeping approach to the cave, almost like a manor house’s cultivated garden. Steph wasn’t kidding when she said nyrean queen!",
+    "translation": "",
+    "context": "<<POS:25173430>>"
+  },
+  {
+    "key": "output|i_Right_ere_we_are_then_I_m_gonna_have_to_be_incredibly_ca|448eebdacdba",
+    "original": "<i>“Right, ‘ere we are, then. I’m gonna have to be incredibly careful from here on out, unless I want to end up with a belly full of eggs. Nyrea are aggressive breeders, and alphas love to make other people carry their eggs for them - I’m just a walking incubator to these ovipositing beauties. I’m just shivering thinking about it,”</i> Steph adds, hugging her arms around herself. In the ultra-HD color on screen, you can’t help but notice a dark splotch suddenly form on her shorts between her legs. The camera drone immediately focuses in on it, until Steph reaches out and gives it a swat.",
+    "translation": "",
+    "context": "<<POS:25173961>>"
+  },
+  {
+    "key": "output|i_Alright_it_s_about_time_to_go_get_a_look_at_a_big_bad_nyre|d2305c250906",
+    "original": "<i>“Alright, it’s about time to go get a look at a big, bad nyrean queen. Follow me!”</i> Steph whispers, adjusting her goggles and starting to creep towards the darkened tunnel entrance.",
+    "translation": "",
+    "context": "<<POS:25174570>>"
+  },
+  {
+    "key": "output|Just_as_she_s_about_to_step_through_the_cavern_entrance_a_woman|bd6b97069e6a",
+    "original": "Just as she’s about to step through the cavern entrance, a woman steps out, smacking right into Steph and sending both of them tumbling to the ground. The camera zooms in on the alien woman, an insectile girl with a pair of big, bare breasts over a natural corset of chitin and long, elfin ears growing from her head. She lands on her ass with an <i>“oomph,”</i> rubbing her head where Steph bonked into her.",
+    "translation": "",
+    "context": "<<POS:25174772>>"
+  },
+  {
+    "key": "output|i_Ah_I_m_sorry_I_didn_t_I_didn_t_see_you_there_i_the|a4bacceda6b2",
+    "original": "<i>“Ah, I’m sorry, I didn’t... I didn’t see you there!”</i> the alien girl groans, blinking hard.",
+    "translation": "",
+    "context": "<<POS:25175278>>"
+  },
+  {
+    "key": "output|i_Crikey_It_s_a_nyrea_i_Steph_shouts_leaping_to_her_feet|a41ccb2b3559",
+    "original": "<i>“Crikey! It’s a nyrea!”</i> Steph shouts, leaping to her feet. <i>“Are you getting this, camera? A live nyrean female, right in front of me. I’ve gotta subdue ‘er quick, or I’m gonna get stuffed with eggs!”</i>",
+    "translation": "",
+    "context": "<<POS:25175390>>"
+  },
+  {
+    "key": "output|The_alien_girl_blinks_i_B_but_I_m_a_male_i|5cfe7bfa331e",
+    "original": "The alien girl blinks. <i>“B-but I’m a male...”</i>",
+    "translation": "",
+    "context": "<<POS:25175618>>"
+  },
+  {
+    "key": "output|Before_the_alien_not_female_can_finish_her_sentence_Steph_s_on|c7cb136d5ca5",
+    "original": "Before the alien not-female can finish her sentence, Steph’s on her like a sack of bricks, barreling her back to the cave floor and pinning her wrists to the ground. The nyrea squirms under Steph’s grasp, trying and failing to get her - his? - face out of Steph’s massive tits. All he ends up succeeding at is spreading his legs around Steph’s waist, and the camera dutifully zips around and sticks itself under Steph’s big, upturned booty, showing off the smooth gash between the nyrea’s legs, drooling moisture as his submission instinct kicks into overdrive.",
+    "translation": "",
+    "context": "<<POS:25175684>>"
+  },
+  {
+    "key": "output|i_Nooooo_I_already_have_a_mistress_i_the_nyrea_cries_flo|61c513ff31de",
+    "original": "<i>“Nooooo, I already have a mistress,”</i> the nyrea cries, flopping helplessly back. <i>“Don’t egg me! Queen Taivra will be so mad if I come back full of eggs.”</i>",
+    "translation": "",
+    "context": "<<POS:25176260>>"
+  },
+  {
+    "key": "output|Steph_rises_to_her_knees_straddling_the_defeated_insect_boy_i|7f092b91ec73",
+    "original": "Steph rises to her knees, straddling the defeated insect boy. <i>“What do you mean egg </i>you<i>? You’re the one who was gonna stuff </i>me<i> with eggs!”</i>",
+    "translation": "",
+    "context": "<<POS:25176441>>"
+  },
+  {
+    "key": "output|i_I_m_a_male_i_the_nyrea_huffs_crossing_his_arms_under_hi|59288579640d",
+    "original": "<i>“I’m a male!”</i> the nyrea huffs, crossing his arms under his D-cups tits. As if to emphasize the point, the camera swings back around to a view of Steph’s backside, resting just over the male’s genital slit, her khaki shorts soaking up a little of his rampant moisture.",
+    "translation": "",
+    "context": "<<POS:25176615>>"
+  },
+  {
+    "key": "output|Steph_blushes_and_scrambles_off_i_So_you_re_not_gonna_try|cb95a5497f2d",
+    "original": "Steph blushes and scrambles off. <i>“So... you’re not gonna try and fuck me silly?”</i>",
+    "translation": "",
+    "context": "<<POS:25176904>>"
+  },
+  {
+    "key": "output|i_No_What_what_kind_of_weirdo_do_you_think_I_am_i|b29ef640d5d7",
+    "original": "<i>“No! What... what kind of weirdo do you think I am?”</i>",
+    "translation": "",
+    "context": "<<POS:25177006>>"
+  },
+  {
+    "key": "output|i_I_dunno_It_s_like_really_out_of_the_ordinary_that_you_re|b521bc2cd657",
+    "original": "<i>“I dunno. It’s, like, really out of the ordinary that you’re <b>not</b>,”</i> Steph admits. <i>“Everything else I meet does,”</i> she adds, twirling a lock of golden hair.",
+    "translation": "",
+    "context": "<<POS:25177080>>"
+  },
+  {
+    "key": "output|The_nyrea_blinks_but_accepts_Steph_s_hand_and_pulls_herself_to|20ee4bbc9c1d",
+    "original": "The nyrea blinks, but accepts Steph’s hand and pulls herself to her feet. <i>“I guess it’s the same everywhere. Even where you offworlders are from, huh?”</i>",
+    "translation": "",
+    "context": "<<POS:25177269>>"
+  },
+  {
+    "key": "output|Steph_giggles_i_I_don_t_mind_anymore_really_You_sorta_get_u|06c8f9e2bda3",
+    "original": "Steph giggles. <i>“I don’t mind anymore, really. You sorta get used to everybody wanting to use you like a fucktoy eventually.”</i>",
+    "translation": "",
+    "context": "<<POS:25177442>>"
+  },
+  {
+    "key": "output|i_Tell_me_about_it_i_the_nyrea_smiles_folding_her_arms_be|a3a23f4c427d",
+    "original": "<i>“Tell me about it!”</i> the nyrea smiles, folding her arms behind her back in a way that compels the camera to zoom in on her thrust-out chest, giving you a view of cream-pale flesh and black nipples that are still nice and stiff. <i>“Ugh, I’m so sick of...”</i>",
+    "translation": "",
+    "context": "<<POS:25177588>>"
+  },
+  {
+    "key": "output|A_moment_later_the_camera_zooms_up_over_her_shoulder_as_another|b2826a12aa1e",
+    "original": "A moment later, the camera zooms up over her shoulder as another nyrea steps out, voice echoing off the stone: <i>“And what a marvelous fucktoy it is.”</i> The second nyrea is clutching a long spear and wearing padded chainmail that just barely conceals her bust... and the massive, half-hard cock bulging between her legs. The camera zooms in, ducking under Steph’s ass to get an angle on the beast that’s only just restrained by the nyrea’s chainmail bikini bottom. <i>“If you two had kept wrestling much longer, I might have had to start jacking off. But now that I have your attention, I guess you can take care of my big, thick problem here with your... cute little fucktoy of a breeder body, can’t you?”</i>",
+    "translation": "",
+    "context": "<<POS:25177868>>"
   }
 ]

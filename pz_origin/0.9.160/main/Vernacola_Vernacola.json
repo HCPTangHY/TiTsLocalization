@@ -1,5 +1,11 @@
 [
   {
+    "key": "assign|a_can_of_Vernacola|92d0ac9823ee",
+    "original": "a can of Vernacola",
+    "translation": "",
+    "context": "<<POS:10000453>>"
+  },
+  {
     "key": "assign|The_package_is_shaped_much_like_a_soda_can_but_with_a_small_scr|51d099771ef8",
     "original": "The package is shaped much like a soda can, but with a small screen and slider to select the tongue of your choice. It has a Xenogen Logo on the side. Looking over the other side of the can, it reads: <i>“Speak in your native tongue! Or better yet speak with a new one. With the miracle of science and the funding of Xenogen, you, yes you, can get the tongue of your dreams! Simply choose a tongue from the screen, then crack open the can and bottoms up!”</i> The mod currently has the following available races: Human, Canine, Kaithrit, Leithan, Gryvain, Zil, and Raskvel.",
     "translation": "",
@@ -18,10 +24,35 @@
     "context": "<<POS:10001375>>"
   },
   {
+    "key": "button.expr|var0|df86bcba8f5e",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10002733>> <<VARS:var0=i.name>> addButton(n++,i.name,(function(){return t.vernacolaUse(e,i.type,t)}),i.name,i.desc)"
+  },
+  {
+    "key": "button.hover.expr|var0|df86bcba8f5e",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10002788>> <<VARS:var0=i.name>> addButton(n++,i.name,(function(){return t.vernacolaUse(e,i.type,t)}),i.name,i.desc)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|df86bcba8f5e",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10002795>> <<VARS:var0=i.desc>> addButton(n++,i.name,(function(){return t.vernacolaUse(e,i.type,t)}),i.name,i.desc)"
+  },
+  {
+    "key": "output.expr|var1_createTable_var0|5de15dd505be",
+    "original": "{var1}.createTable({var0})",
+    "translation": "",
+    "context": "<<POS:10002853>> <<VARS:var0=a,[\"Name\",\"Description\"],[\"text-label\",\"text-left\"],\"\",\"Settings\",\"\",var1=l.m>> output(l.m.createTable(a,[\"Name\",\"Description\"],[\"text-label\",\"text-left\"],\"\",\"Settings\",\"\"))"
+  },
+  {
     "key": "button|Back|1ed803b7bfaf",
     "original": "Back",
     "translation": "返回",
-    "context": "<<POS:10002954>> addButton(14,\"Back\",(function(){return t.vernacolaCancel(t)}))"
+    "context": "<<POS:10002954>> addButton(14,\"Back\",(function(){return t.vernacolaCancel(t)}))",
+    "stage": 1
   },
   {
     "key": "output.expr|var0_var1_cannot_use_the_can_of_Vernacola|26834f65ab9b",
@@ -45,7 +76,8 @@
     "key": "button|Next|526898c09c08",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:10003264>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+    "context": "<<POS:10003264>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Vernacola|a88f70c35247",
@@ -81,7 +113,8 @@
     "key": "button|Next|1acec8f10d95",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:10005531>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))"
+    "context": "<<POS:10005531>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))",
+    "stage": 1
   },
   {
     "key": "name.show|Vernacola|a88f70c35247#1",
@@ -99,6 +132,7 @@
     "key": "button|Next|a844b275fe4f",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:10005812>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+    "context": "<<POS:10005812>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))",
+    "stage": 1
   }
 ]

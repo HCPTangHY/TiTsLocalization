@@ -1,5 +1,11 @@
 [
   {
+    "key": "header|Birthing|4c97264fe9d7",
+    "original": "Birthing!",
+    "translation": "",
+    "context": "<<POS:36795340>>"
+  },
+  {
     "key": "output|ERROR_Status_effect_Behemoth_Pregnancy_Ends_does_not_exist|be5def3428fd",
     "original": "ERROR: Status effect Behemoth Pregnancy Ends” does not exist!",
     "translation": "",
@@ -9,7 +15,8 @@
     "key": "button|Next|bc7681c1b6cf",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36795535>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36795535>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "output|i_It_s_time_The_baby_is_coming_i_You_don_t_know_i_how_i|8c23b5ecf797",
@@ -189,13 +196,38 @@
     "key": "button|Next|47652c9d5d43",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36800939>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36800939>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "assign|NOT_SET|c7e8bfe5c66d",
     "original": "NOT SET",
     "translation": "",
     "context": "<<POS:36801210>>"
+  },
+  {
+    "key": "assign|NOT_SET|3975c8b1d3a5",
+    "original": "NOT SET",
+    "translation": "",
+    "context": "<<POS:36801234>>"
+  },
+  {
+    "key": "assign|NOT_SET|3975c8b1d3a5#1",
+    "original": "NOT SET",
+    "translation": "",
+    "context": "<<POS:36801315>>"
+  },
+  {
+    "key": "assign|NOT_SET|3975c8b1d3a5#2",
+    "original": "NOT SET",
+    "translation": "",
+    "context": "<<POS:36801339>>"
+  },
+  {
+    "key": "assign|NOT_SET|3975c8b1d3a5#3",
+    "original": "NOT SET",
+    "translation": "",
+    "context": "<<POS:36801364>>"
   },
   {
     "key": "textify|Checking_the_calendar_you_notice_your_period_is_already_several|da91974fd8ed",
@@ -351,7 +383,99 @@
     "key": "button|Next|faadb5978a36",
     "original": "Next",
     "translation": "继续",
-    "context": "<<POS:36828419>> addButton(0,\"Next\",mainGameMenu)"
+    "context": "<<POS:36828419>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
+  },
+  {
+    "key": "output|Pain_in_your_gut_bends_you_over_and_fluid_spills|2894ab4caa7c",
+    "original": "Pain in your gut bends you over and fluid spills",
+    "translation": "",
+    "context": "<<POS:36828513>>"
+  },
+  {
+    "key": "output|onto_the_deck|7338839cb01f",
+    "original": " onto the deck",
+    "translation": "",
+    "context": "<<POS:36828610>>"
+  },
+  {
+    "key": "output|onto_the_ground|f6bebe51bcb2",
+    "original": " onto the ground",
+    "translation": "",
+    "context": "<<POS:36828635>>"
+  },
+  {
+    "key": "output|into_your_pc_lowerUndergarment|69de28b4c49e",
+    "original": " into your [pc.lowerUndergarment]",
+    "translation": "",
+    "context": "<<POS:36828662>>"
+  },
+  {
+    "key": "output|This_is_it_your_child_is_making_its_way_down_your_birth_canal|e7bcd83db6fd",
+    "original": ". This is it: your child is making its way down your birth canal.",
+    "translation": "",
+    "context": "<<POS:36828706>>"
+  },
+  {
+    "key": "output|You_grab_the_nearest_medkit_and_head_for_your_bed_determined_to|9c35da621841",
+    "original": "You grab the nearest medkit and head for your bed, determined to deliver the baby safely. After setting aside your gear, you lie down and begin to breathe in preparation for your labor.",
+    "translation": "",
+    "context": "<<POS:36828803>>"
+  },
+  {
+    "key": "output|Groaning_at_the_timing_you_shed_your_pc_gear_and_position_you|b9e25647e7e6",
+    "original": "Groaning at the timing, you shed your [pc.gear] and position yourself the best you can in the inhospitable and non-hospital-able terrain. The wish that you’d stayed somewhere indoors and safe hums through your thoughts like a mosquito, but there’s no help for it - you’ll have to deliver the baby on your own.",
+    "translation": "",
+    "context": "<<POS:36829031>>"
+  },
+  {
+    "key": "output|You_waddle_as_fast_as_you_can_to_the_nearest_restroom_There_s_a|df9e51542206",
+    "original": "You waddle as fast as you can to the nearest restroom. There’s a med-drone fastened to the wall, installed for this exact eventuality. It instructs you to remain calm as it positions a blanket beneath you, and to bear down when it beeps.",
+    "translation": "",
+    "context": "<<POS:36829361>>"
+  },
+  {
+    "key": "output|Spasms_wrack_your_pregnant_body_for_the_next_hour_as_it_works_th|7890589221fd",
+    "original": "Spasms wrack your pregnant body for the next hour as it works the baby free. It is a tough, arduous process: Your bundle of joy is a big so-and-so, struggling and hard-boned.",
+    "translation": "",
+    "context": "<<POS:36829614>>"
+  },
+  {
+    "key": "output|You_have_no_choice_but_to_bear_it_richly_cursing_the_baby_you|48d62c4eaf86",
+    "original": " You have no choice but to bear it; richly cursing the baby, yourself, and the world at large for having to bear a child in this day and age like this.",
+    "translation": "",
+    "context": "<<POS:36829827>>"
+  },
+  {
+    "key": "output.expr|var0_The_drone_administers_You_administer_some_painkil|e44ff99a728c",
+    "original": "({var0}?\"The drone administers\":\"You administer\")+\" some painkillers, and the whole thing goes on in a fuzzy blur.",
+    "translation": "",
+    "context": "<<POS:36829988>> <<VARS:var0=o>> output((o?\"The drone administers\":\"You administer\")+\" some painkillers, and the whole thing goes on in a fuzzy blur.\")"
+  },
+  {
+    "key": "output|At_last_you_hear_a_throaty_wail_somebody_announcing_themselves|29cc76bc2a8d",
+    "original": "At last you hear a throaty wail; somebody announcing themselves to the universe. Exhausted, you cut the umbilical cord and draw the damp, wriggling child up into your arms. To the casual observer perhaps, it would look like you’ve given birth to a brown-skinned, particularly large human girl. A mother’s eye lands upon the long, preternaturally curved back; the pointed posture of the feet, and the keratinous heels that support them; and of course, the pointed, elven ears.",
+    "translation": "",
+    "context": "<<POS:36830112>>"
+  },
+  {
+    "key": "output.expr|Your_dzaan_child_is_0_t_female_a_so_called_beta_of_the_sp|bc8e8a31556c",
+    "original": "Your dzaan child is \"+(0===t?\"female, a so-called beta of the species\":\"a hermaphrodite, a rare alpha of the species\")+\", and once she’s stopped contorting her face into hearty screams and is contenting herself with the [pc.milk]-dripping [pc.nipple] you present to her, you can see for yourself that she is both whole and a real cutie.",
+    "translation": "",
+    "context": "<<POS:36830602>>  output(\"\\n\\nYour dzaan child is \"+(0===t?\"female, a so-called beta of the species\":\"a hermaphrodite, a rare alpha of the species\")+\", and once she’s stopped contorting her face into hearty screams and is contenting herself with the [pc.milk]-dripping [pc.nipple] you present to her, you can see for yourself that she is both whole and a real cutie.\")"
+  },
+  {
+    "key": "output|You_nurse_her_peacefully_for_a_while_lost_in_the_throes_of_exha|5a784fa4f588",
+    "original": "You nurse her peacefully for a while, lost in the throes of exhausted motherhood. At last her head droops against your arm, carried off into a deep sleep. You summon the drone, carefully sequester her into the climate-controlled device, and watch it bear your new child off to the nursery, where years of quiet safety await. You clean yourself up, and then disappear into a long, well-needed slumber yourself.",
+    "translation": "",
+    "context": "<<POS:36830953>>"
+  },
+  {
+    "key": "button|Next|5d2b49e93651",
+    "original": "Next",
+    "translation": "继续",
+    "context": "<<POS:36831407>> addButton(0,\"Next\",mainGameMenu)",
+    "stage": 1
   },
   {
     "key": "assign|middle_has_swollen_visibly|3dd06a296847",
