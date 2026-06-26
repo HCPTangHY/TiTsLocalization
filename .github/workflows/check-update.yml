@@ -1,0 +1,136 @@
+name: Check Game Update
+
+on:
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Force update (ignore version cache)'
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+
+jobs:
+  check_update:
+    runs-on: ubuntu-latest
+    outputs:
+      has_update: ${{ steps.check.outputs.has_update }}
+      version: ${{ steps.check.outputs.version }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Restore version cache
+        uses: actions/cache@v4
+        with:
+          path: .version_cache
+          key: tits-version-cache
+
+      - name: Check for updates
+        id: check
+        run: |
+          if [ "${{ github.event.inputs.force_update }}" = "true" ]; then
+            python src/fetch_game.py --check-only --force
+          else
+            python src/fetch_game.py --check-only
+          fi
+
+      - name: Save version cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .version_cache
+          key: tits-version-cache-${{ github.run_id }}
+
+  download_and_extract:
+    needs: check_update
+    if: needs.check_update.outputs.has_update == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      VERSION: ${{ needs.check_update.outputs.version }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Download game files
+        run: python src/fetch_game.py --output game_source/
+
+      - name: Detect version and hash
+        id: detect
+        run: |
+          VERSION=$(cat game_source/.version)
+          MAIN_HASH=$(cat game_source/.main_hash)
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "main_hash=$MAIN_HASH" >> $GITHUB_OUTPUT
+          echo "Version: $VERSION, Main hash: $MAIN_HASH"
+
+      - name: Run pipeline (split + extract)
+        run: |
+          VERSION=${{ steps.detect.outputs.version }}
+          # Setup directory structure
+          mkdir -p source/$VERSION
+          cp game_source/*.js source/$VERSION/
+          # Run pipeline
+          python src/pipeline.py -v $VERSION all --root .
+
+      - name: Package source JS
+        id: package
+        run: |
+          VERSION=${{ steps.detect.outputs.version }}
+          MAIN_HASH=${{ steps.detect.outputs.main_hash }}
+          TAG="source-${VERSION}-${MAIN_HASH}"
+          # Source JS archive (for build workflow)
+          cd game_source && tar czf ../tits-source-${TAG}.tar.gz *.js .version .main_hash && cd ..
+          # pz_origin archive (for manual PZ upload)
+          cd pz_origin/$VERSION && tar czf ../../tits-pz-origin-${TAG}.tar.gz . && cd ../..
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+          echo "source_archive=tits-source-${TAG}.tar.gz" >> $GITHUB_OUTPUT
+          echo "pz_archive=tits-pz-origin-${TAG}.tar.gz" >> $GITHUB_OUTPUT
+          ls -lh tits-*.tar.gz
+
+      - name: Delete old source releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release list --limit 50 --json tagName -q '.[].tagName' \
+            | grep '^source-' \
+            | while read tag; do
+                echo "Deleting old release: $tag"
+                gh release delete "$tag" -y --cleanup-tag || true
+              done || true
+
+      - name: Create source release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.package.outputs.tag }}
+          name: "Source ${{ steps.detect.outputs.version }} (${{ steps.detect.outputs.main_hash }})"
+          body: |
+            Game version: ${{ steps.detect.outputs.version }}
+            Main hash: ${{ steps.detect.outputs.main_hash }}
+            
+            Artifacts:
+            - `tits-source-*.tar.gz` — Baseline JS files for build workflow
+            - `tits-pz-origin-*.tar.gz` — Extracted entries for ParaTranz upload
+          files: |
+            ${{ steps.package.outputs.source_archive }}
+            ${{ steps.package.outputs.pz_archive }}
+          prerelease: true

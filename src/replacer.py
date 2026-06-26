@@ -30,6 +30,58 @@ def parse_pos(context: str) -> int:
     return -1
 
 
+def parse_vars(context: str) -> dict:
+    """从 context 解析 <<VARS:var0=a,var1=Ot.m>> 映射表。"""
+    if not context:
+        return {}
+    m = re.search(r'<<VARS:([^>]+)>>', context)
+    if not m:
+        return {}
+    result = {}
+    for pair in m.group(1).split(','):
+        eq = pair.find('=')
+        if eq > 0:
+            result[pair[:eq]] = pair[eq + 1:]
+    return result
+
+
+def resolve_vars(text: str, var_map: dict) -> str:
+    """将 {var0} {var1} 占位符替换为真实变量名。"""
+    for k, v in var_map.items():
+        text = text.replace('{' + k + '}', v)
+    return text
+
+
+def check_quote_safety(original: str, translation: str) -> bool:
+    """检查译文的引号结构是否安全。
+
+    规则：译文中每种引号的净变化量必须为偶数（成对出现）。
+    允许译文比原文多或少成对引号，但不允许落单的引号破坏JS语法。
+    同时检查反斜杠转义的引号（\\" 和 \\'）不被计入。
+    """
+    def count_unescaped(s, ch):
+        """计算未转义的引号数量"""
+        count = 0
+        i = 0
+        while i < len(s):
+            if s[i] == '\\':  # 跳过转义字符
+                i += 2
+                continue
+            if s[i] == ch:
+                count += 1
+            i += 1
+        return count
+
+    for ch in ('"', "'"):
+        orig_count = count_unescaped(original, ch)
+        trans_count = count_unescaped(translation, ch)
+        # 净变化必须是偶数（成对增减）
+        delta = trans_count - orig_count
+        if delta % 2 != 0:
+            return False
+    return True
+
+
 def replace_file(source_path: str, trans_json_path: str, output_path: str):
     """对一个源文件执行翻译替换"""
     with open(source_path, 'r', encoding='utf-8') as f:
@@ -38,10 +90,18 @@ def replace_file(source_path: str, trans_json_path: str, output_path: str):
     with open(trans_json_path, 'r', encoding='utf-8') as f:
         entries = json.load(f)
 
+    # 零宽空格字符集
+    _ZWSP = '\u200b\u200c\u200d\ufeff'
+
     # 过滤出有翻译且有POS的词条
     items = []
     for e in entries:
         translation = e.get('translation', '')
+        if not translation:
+            continue
+        # 剥离零宽空格：译者用零宽空格表示"不需要翻译"（如英语复数s），
+        # 但零宽空格插入JS代码区会导致语法错误，替换为空字符串
+        translation = translation.translate(str.maketrans('', '', _ZWSP))
         if not translation:
             continue
         pos0 = parse_pos(e.get('context', ''))
@@ -50,7 +110,21 @@ def replace_file(source_path: str, trans_json_path: str, output_path: str):
         original = e.get('original', '')
         if not original:
             continue
-        items.append((pos0, original, translation, e.get('key', '')))
+        context = e.get('context', '')
+        key = e.get('key', '')
+        # 解析 expr 占位符映射
+        var_map = parse_vars(context)
+        if var_map:
+            # expr 类型：还原 original 和 translation 中的 {var} 占位符
+            original = resolve_vars(original, var_map)
+            translation = resolve_vars(translation, var_map)
+        # 引号安全检查
+        if not check_quote_safety(original, translation):
+            logger.warning(f"Quote mismatch, skip: key={key[:60]}")
+            logger.warning(f"  orig: {repr(original[:80])}")
+            logger.warning(f"  trans: {repr(translation[:80])}")
+            continue
+        items.append((pos0, original, translation, key))
 
     if not items:
         logger.info(f"No translated entries, copying original")

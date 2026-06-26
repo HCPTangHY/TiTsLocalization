@@ -99,7 +99,6 @@ def step_extract(root, version):
         import re
         chunk_name = re.sub(r'\.[a-f0-9]+$', '', chunk_name_raw)
         out_dir = os.path.join(pz_dir, chunk_name)
-        os.makedirs(out_dir, exist_ok=True)
 
         manifest_path = os.path.join(chunk_dir, '_manifest.json')
         manifest = None
@@ -124,9 +123,12 @@ def step_extract(root, version):
 
             entries = extract_file(js_file, content, pos_offset=offset)
 
-            # 跳过空文件
+            # 跳过空结果
             if not entries:
                 continue
+
+            # 按需创建输出目录
+            os.makedirs(out_dir, exist_ok=True)
 
             out_path = os.path.join(out_dir, f"{module_name}.json")
             with open(out_path, 'w', encoding='utf-8') as f:
@@ -154,6 +156,7 @@ def step_replace(root, version):
     source_dir = os.path.join(root, 'source', version)
     trans_dir = os.path.join(root, 'trans_origin', version)
     dist_dir = resolve_dir(root, version, 'dist')
+    pz_dir = os.path.join(root, 'pz_origin', version)
 
     if not os.path.isdir(source_dir):
         print(f"ERROR: source directory not found: {source_dir}")
@@ -163,11 +166,29 @@ def step_replace(root, version):
         print(f"ERROR: trans_origin directory not found: {trans_dir}")
         return False
 
+    # 以 pz_origin 为权威：遍历 pz_origin 词条，从 trans_origin 查翻译填入
+    # 构建翻译查找表：key -> translation/context
+    trans_lookup = {}
+    if os.path.isdir(trans_dir):
+        for tj in glob.glob(os.path.join(trans_dir, '**', '*.json'), recursive=True):
+            with open(tj) as f:
+                for e in json.load(f):
+                    if e.get('translation'):
+                        trans_lookup[e['key']] = e
+        print(f"  Loaded {len(trans_lookup)} translated entries from trans_origin/{version}")
+    else:
+        print(f"  ERROR: trans_origin/{version} not found")
+        return False
+
+    if not os.path.isdir(pz_dir):
+        print(f"  WARNING: pz_origin/{version} not found, using trans_origin keys directly")
+
     print(f"\n{'='*60}")
-    print(f"  REPLACE: {trans_dir} -> {dist_dir}")
+    print(f"  REPLACE: pz_origin as authority, trans_origin as translations")
     print(f"{'='*60}")
 
     total_applied = 0
+    total_matched = 0
 
     # 遍历每个源文件
     for src_file in sorted(glob.glob(os.path.join(source_dir, '*.js'))):
@@ -178,19 +199,32 @@ def step_replace(root, version):
         if chunk_name == src_name.replace('.js', ''):
             chunk_name = src_name.replace('.js', '')
 
-        trans_chunk_dir = os.path.join(trans_dir, chunk_name)
-        if not os.path.isdir(trans_chunk_dir):
-            # 没有翻译文件，原样复制
+        # 优先用 pz_origin 作为权威词条来源
+        pz_chunk_dir = os.path.join(pz_dir, chunk_name)
+        if os.path.isdir(pz_dir) and os.path.isdir(pz_chunk_dir):
+            authority_dir = pz_chunk_dir
+        else:
+            # fallback: 用 trans_origin
+            authority_dir = os.path.join(trans_dir, chunk_name)
+
+        if not os.path.isdir(authority_dir):
             out_path = os.path.join(dist_dir, src_name)
             shutil.copy2(src_file, out_path)
             continue
 
-        # 合并这个 chunk 下所有翻译 JSON
+        # 遍历权威词条，从翻译查找表里填入翻译
         all_entries = []
-        for tj in sorted(glob.glob(os.path.join(trans_chunk_dir, '*.json'))):
-            with open(tj) as f:
+        for pf in sorted(glob.glob(os.path.join(authority_dir, '*.json'))):
+            with open(pf) as f:
                 entries = json.load(f)
-            all_entries.extend([e for e in entries if e.get('translation')])
+            for e in entries:
+                tr = trans_lookup.get(e['key'])
+                if tr and tr.get('translation'):
+                    # 用 pz_origin 的 POS/context，填入 trans 的翻译
+                    entry = dict(e)
+                    entry['translation'] = tr['translation']
+                    all_entries.append(entry)
+                    total_matched += 1
 
         if not all_entries:
             out_path = os.path.join(dist_dir, src_name)
@@ -219,7 +253,7 @@ def step_replace(root, version):
             if os.path.isfile(other):
                 shutil.copy2(other, out)
 
-    print(f"\n  Total applied: {total_applied} replacements")
+    print(f"\n  Total: {total_matched} matched, {total_applied} applied")
     return True
 
 
