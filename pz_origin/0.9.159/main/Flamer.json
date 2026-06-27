@@ -3,28 +3,28 @@
     "key": "perk|Regal_Mane|5c22a772917f",
     "original": "Regal Mane",
     "translation": "",
-    "context": "<<POS:00217157>>"
+    "context": "<<POS:00217157>> createPerk(\"Regal Mane\",GLOBAL.FLAG_FURRED,0,0,0,\"\")"
   },
   {
     "key": "perk|Appearance_Enabled|bc22963a504d",
     "original": "Appearance Enabled",
     "translation": "",
-    "context": "<<POS:00217738>>"
+    "context": "<<POS:00217738>> createPerk(\"Appearance Enabled\")"
   },
   {
-    "key": "combat|n_n_concat_s_i_instanceof_m_n_manage_manages_to_g|0da69a71e652",
-    "original": "\\n\\n\".concat(s,\" \")+(i instanceof m.n?\"manage\":\"manages\")+\" to get out of the way completely, the heat licking at the ground ineffectually. The Flamer looks on in glee, her eyes shining with almost religious fervor.",
+    "key": "combat|concat_s_i_instanceof_m_n_manage_manages_to_get_o|83b295480bb0",
+    "original": "\".concat(s,\" \")+(i instanceof m.n?\"manage\":\"manages\")+\" to get out of the way completely, the heat licking at the ground ineffectually. The Flamer looks on in glee, her eyes shining with almost religious fervor.",
     "translation": "",
-    "context": "<<POS:00219149>>"
+    "context": "<<POS:00219153>>"
   },
   {
-    "key": "combat|n_nFire_surrounds|772ac8dbcf7b",
-    "original": "\\n\\nFire surrounds",
+    "key": "combat|Fire_surrounds|4021eabf1cd7",
+    "original": "Fire surrounds",
     "translation": "",
-    "context": "<<POS:00219395>>"
+    "context": "<<POS:00219399>>"
   },
   {
-    "key": "combat|concat_s_burning_concat_i_getCombatPronoun_hisher|dd11165e6558",
+    "key": "combat|concat_s_burning_concat_i_getCombatPronoun_hisher|f887a43a7915",
     "original": " \".concat(s,\", burning \").concat(i.getCombatPronoun(\"hisher\"),\" fizzling shields until they <b>penetrate momentarily and \").concat(i.getCombatPronoun(\"heshe\"),\" \")+(i instanceof m.n?\"catch\":\"catches\")+\" alight!</b>",
     "translation": "",
     "context": "<<POS:00219444>>"
@@ -42,37 +42,37 @@
     "context": "<<POS:00219788>>"
   },
   {
-    "key": "combat|n_n_i_instanceof_m_n_Your_concat_s_s_shields_take|4998e18a8268",
-    "original": "\\n\\n\"+(i instanceof m.n?\"Your\":\"\".concat(s,\"’s\"))+\" shields take the brunt of the heat, crackling against the flames.",
+    "key": "combat|i_instanceof_m_n_Your_concat_s_s_shields_take_the|b168953d5960",
+    "original": "\"+(i instanceof m.n?\"Your\":\"\".concat(s,\"’s\"))+\" shields take the brunt of the heat, crackling against the flames.",
     "translation": "",
-    "context": "<<POS:00220124>>"
+    "context": "<<POS:00220128>>"
   },
   {
-    "key": "combat|n_nShit_Without_shields_these_flames_i_really_i_hurt_i_i|c07fd1e9b8c3",
-    "original": "\\n\\nShit! Without shields, these flames <i>really</i> hurt\"+(i instanceof m.n?\"!\":\" \".concat(s,\"!\"))",
+    "key": "combat|Shit_Without_shields_these_flames_i_really_i_hurt_i_insta|b47eb7967acd",
+    "original": "Shit! Without shields, these flames <i>really</i> hurt\"+(i instanceof m.n?\"!\":\" \".concat(s,\"!\"))",
     "translation": "",
-    "context": "<<POS:00220258>>"
+    "context": "<<POS:00220262>>"
   },
   {
-    "key": "combat|n_n_i_Hahahaha_i_the_Flamer_screams_through_the_smoke_i|1152448a523b",
-    "original": "\\n\\n<i>“Hahahaha!”</i> the Flamer screams through the smoke. <i>“Burn, mother\"+(t>1?\"fuckers\":\"fucker\")+\"!”</i>",
+    "key": "combat|i_Hahahaha_i_the_Flamer_screams_through_the_smoke_i_Bur|d137a1eadf9b",
+    "original": "<i>“Hahahaha!”</i> the Flamer screams through the smoke. <i>“Burn, mother\"+(t>1?\"fuckers\":\"fucker\")+\"!”</i>",
     "translation": "",
-    "context": "<<POS:00220462>>"
+    "context": "<<POS:00220466>>"
   },
   {
-    "key": "combat|n_nThe_width_of_the_stream_winds_up_being_its_undoing_allowing|0557f6911ce8",
-    "original": "\\n\\nThe width of the stream winds up being its undoing, allowing you to keep it at bay as you twist and turn out of its way. The huskar growls in disappointment, dropping the spent canister.",
+    "key": "combat|The_width_of_the_stream_winds_up_being_its_undoing_allowing_you|a9a2dbebef06",
+    "original": "The width of the stream winds up being its undoing, allowing you to keep it at bay as you twist and turn out of its way. The huskar growls in disappointment, dropping the spent canister.",
     "translation": "",
-    "context": "<<POS:00221161>>"
+    "context": "<<POS:00221165>>"
   },
   {
-    "key": "combat|n_nThe_flame_licks_at|bf51e621a3df",
-    "original": "\\n\\nThe flame licks at",
+    "key": "combat|The_flame_licks_at|9bbb70d11a9d",
+    "original": "The flame licks at",
     "translation": "",
-    "context": "<<POS:00221369>>"
+    "context": "<<POS:00221373>>"
   },
   {
-    "key": "combat|concat_e_getCombatPronoun_hisher_shields_and_to_conca|bf8e3af9cad8",
+    "key": "combat|concat_e_getCombatPronoun_hisher_shields_and_to_conca|285626da9f0d",
     "original": " \".concat(e.getCombatPronoun(\"hisher\"),\" shields and to \").concat(e.getCombatPronoun(\"hisher\"),\" surprise, <b>momentarily penetrates them!</b>\")",
     "translation": "",
     "context": "<<POS:00221422>>"
@@ -90,22 +90,22 @@
     "context": "<<POS:00221696>>"
   },
   {
-    "key": "combat|n_n_concat_A_m_capitalize_e_getCombatPronoun_heshe_e|fc444d81ebf6",
-    "original": "\\n\\n\".concat(A.m.capitalize(e.getCombatPronoun(\"heshe\")),\" \")+(e instanceof m.n?\"leap\":\"leaps\")+\" back just in time to avoid the ball of scorching white plasma, catching the heat radiating from it. That was close!",
+    "key": "combat|concat_A_m_capitalize_e_getCombatPronoun_heshe_e_ins|dc8e92583f50",
+    "original": "\".concat(A.m.capitalize(e.getCombatPronoun(\"heshe\")),\" \")+(e instanceof m.n?\"leap\":\"leaps\")+\" back just in time to avoid the ball of scorching white plasma, catching the heat radiating from it. That was close!",
     "translation": "",
-    "context": "<<POS:00222566>>"
+    "context": "<<POS:00222570>>"
   },
   {
-    "key": "combat|n_nLeft_without_enough_time_to_avoid_it_the_grenade_detonates|7fa215bc672a",
-    "original": "\\n\\nLeft without enough time to avoid it, the grenade detonates in a ball of scorching white plasma, blasting \".concat(e.getCombatPronoun(\"himher\"),\" with heat!\")",
+    "key": "combat|Left_without_enough_time_to_avoid_it_the_grenade_detonates_in_a|e270aa3b142d",
+    "original": "Left without enough time to avoid it, the grenade detonates in a ball of scorching white plasma, blasting \".concat(e.getCombatPronoun(\"himher\"),\" with heat!\")",
     "translation": "",
-    "context": "<<POS:00222797>>"
+    "context": "<<POS:00222801>>"
   },
   {
-    "key": "combat|n_nIt_immediately_explodes_into_a_ball_of_fire_there_must_have|1a0cde163f7a",
-    "original": "\\n\\nIt immediately explodes into a ball of fire; there must have been something highly volatile inside!",
+    "key": "combat|It_immediately_explodes_into_a_ball_of_fire_there_must_have_bee|a84eba4ab0b1",
+    "original": "It immediately explodes into a ball of fire; there must have been something highly volatile inside!",
     "translation": "",
-    "context": "<<POS:00223441>>"
+    "context": "<<POS:00223445>>"
   },
   {
     "key": "combat|concat_A_m_capitalize_e_getCombatPronoun_heshe_narrowly|fa2c7d18071c",

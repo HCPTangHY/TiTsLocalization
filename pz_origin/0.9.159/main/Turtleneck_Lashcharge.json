@@ -3,7 +3,7 @@
     "key": "name.show|Turtleneck|57fe63e23a70",
     "original": "Turtleneck",
     "translation": "",
-    "context": "<<POS:09868252>>"
+    "context": "<<POS:09868252>> showName(\"Turtleneck\")"
   },
   {
     "key": "output|Unfortunately_you_do_not_have_any_penises_to_apply_this_on|27e0ebae7654",
@@ -12,22 +12,22 @@
     "context": "<<POS:09868388>>"
   },
   {
-    "key": "output|n_nYou_put_the_item_back_in_your_inventory|5ac06de1716a",
-    "original": "\\n\\nYou put the item back in your inventory.",
+    "key": "output|You_put_the_item_back_in_your_inventory|b948a40cac43",
+    "original": "You put the item back in your inventory.",
     "translation": "",
-    "context": "<<POS:09868459>>"
+    "context": "<<POS:09868463>>"
   },
   {
-    "key": "output|You_have_more_than_one_penis_Which_one_will_you_apply_Turtlenec|779a993d7144",
-    "original": "You have more than one penis. Which one will you apply Turtleneck to?\\n",
+    "key": "output|You_have_more_than_one_penis_Which_one_will_you_apply_Turtlenec|161e552abf28",
+    "original": "You have more than one penis. Which one will you apply Turtleneck to?",
     "translation": "",
     "context": "<<POS:09868574>>"
   },
   {
-    "key": "output|n_b_l_m_capitalize_l_m_numToOrdinal_a_1_Cock_b|3f4623fb7556",
-    "original": "\\n<b>\"+l.m.capitalize(l.m.numToOrdinal(a+1))+\" Cock:</b>",
+    "key": "output|b_l_m_capitalize_l_m_numToOrdinal_a_1_Cock_b|a964845c5ddb",
+    "original": "<b>\"+l.m.capitalize(l.m.numToOrdinal(a+1))+\" Cock:</b>",
     "translation": "",
-    "context": "<<POS:09868693>>"
+    "context": "<<POS:09868695>>"
   },
   {
     "key": "output|GLOBAL_FLAG_NAMES_e_cocks_a_flags_n|0ddeaa394f8e",
@@ -63,10 +63,16 @@
     "key": "button|Cock|aa74da6a6952",
     "original": "Cock ",
     "translation": "",
-    "context": "<<POS:09869200>>"
+    "context": "<<POS:09869200>> addButton(o,\"Cock \"+(a+1),(function(){return t.cockTF(e,a)}),l.m.capitalize(l.m.numToOrdinal(a+1))+\" Cock\",\"Use this on your [pc.cock \"+a+\"].\")"
   },
   {
-    "key": "output|e_capitalA_e_short_applies_the_Turtleneck_cream_but_to_no_effe|6719faba6817",
+    "key": "button.tooltip|Use_this_on_your_pc_cock|9b79a9b2c96d",
+    "original": "Use this on your [pc.cock ",
+    "translation": "",
+    "context": "<<POS:09869295>> addButton(o,\"Cock \"+(a+1),(function(){return t.cockTF(e,a)}),l.m.capitalize(l.m.numToOrdinal(a+1))+\" Cock\",\"Use this on your [pc.cock \"+a+\"].\")"
+  },
+  {
+    "key": "output|e_capitalA_e_short_applies_the_Turtleneck_cream_but_to_no_effe|c20f5cb5e557",
     "original": "e.capitalA+e.short+\" applies the Turtleneck cream but to no effect.",
     "translation": "",
     "context": "<<POS:09869389>>"
@@ -75,7 +81,7 @@
     "key": "name.show|Turtleneck|145dc113f933",
     "original": "Turtleneck",
     "translation": "",
-    "context": "<<POS:09869535>>"
+    "context": "<<POS:09869535>> showName(\"Turtleneck\")"
   },
   {
     "key": "output|You_read_the_instructions_and_open_the_spy_themed_jar|0456a8ef2a3e",
@@ -168,13 +174,7 @@
     "context": "<<POS:09870880>>"
   },
   {
-    "key": "output|n_n|1f8d2605d7b6",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:09871064>>"
-  },
-  {
-    "key": "output|Aside_from_a_few_short_tingles_along_your_pc_cockNoun_t_n|adefd195594d",
+    "key": "output|Aside_from_a_few_short_tingles_along_your_pc_cockNoun_t_n|d7c36e51656b",
     "original": "Aside from a few short tingles along your [pc.cockNoun \"+t+\"], nothing really happens... what a waste.",
     "translation": "",
     "context": "<<POS:09871383>>"
@@ -183,7 +183,7 @@
     "key": "button|Next|52f45eec335b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09871529>>"
+    "context": "<<POS:09871529>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|The_gray_microsurgeons_begin_to_move_positing_themselves_in_cir|a36970b051a8",
@@ -192,28 +192,28 @@
     "context": "<<POS:09871597>>"
   },
   {
-    "key": "output|n_nAfter_another_itchy_minute_they_finish_their_work_leaving_y|d128fe2cda33",
-    "original": "\\n\\nAfter another itchy minute, they finish their work leaving you to admire the slackened foreskin that folds around your [pc.cockHead \"+t+\"]. The gray glitter gathers on the tip of the loose flesh and massages it into an elastic ridged band that’s delightfully tight. You can see the machines slither inside and work on your cock-head, their prickles becoming increasingly more painful, or rather it looks like you are becoming much more sensitive than before.",
+    "key": "output|After_another_itchy_minute_they_finish_their_work_leaving_you_t|9ceef4703294",
+    "original": "After another itchy minute, they finish their work leaving you to admire the slackened foreskin that folds around your [pc.cockHead \"+t+\"]. The gray glitter gathers on the tip of the loose flesh and massages it into an elastic ridged band that’s delightfully tight. You can see the machines slither inside and work on your cock-head, their prickles becoming increasingly more painful, or rather it looks like you are becoming much more sensitive than before.",
     "translation": "",
-    "context": "<<POS:09872440>>"
+    "context": "<<POS:09872444>>"
   },
   {
-    "key": "output|n_nEventually_the_prickling_stops_and_you_can_t_feel_anything|d9caeffa4b19",
-    "original": "\\n\\nEventually, the prickling stops and you can’t feel anything else going on with your cock, so you assume the transformation must’ve run its course. You begin to rub your length and explore the gliding action that your new foreskin offers. When you pull it all the way down you rediscover your [pc.cockHead \"+t+\"], now in a more vibrant and glistening [pc.cockColor], as the machines flake off from it. You admire how the foreskin bunches up over your tip every time you pull it all the way up and shove two fingers within, swirling them around your cockhead as pre-cum gurgles from your cum-slit. The tight band can be stretched pretty wide, sending enjoyable shivers of pleasure running across your spine as you test it with your fingers. You pull your pre-cum slicked fingers from within and the band quickly snaps back into place.",
+    "key": "output|Eventually_the_prickling_stops_and_you_can_t_feel_anything_else|27aeb51a7169",
+    "original": "Eventually, the prickling stops and you can’t feel anything else going on with your cock, so you assume the transformation must’ve run its course. You begin to rub your length and explore the gliding action that your new foreskin offers. When you pull it all the way down you rediscover your [pc.cockHead \"+t+\"], now in a more vibrant and glistening [pc.cockColor], as the machines flake off from it. You admire how the foreskin bunches up over your tip every time you pull it all the way up and shove two fingers within, swirling them around your cockhead as pre-cum gurgles from your cum-slit. The tight band can be stretched pretty wide, sending enjoyable shivers of pleasure running across your spine as you test it with your fingers. You pull your pre-cum slicked fingers from within and the band quickly snaps back into place.",
     "translation": "",
-    "context": "<<POS:09872913>>"
+    "context": "<<POS:09872917>>"
   },
   {
-    "key": "output|n_nPulling_the_skin_all_the_way_down_you_find_yourself_overwhel|44f9459db957",
-    "original": "\\n\\nPulling the skin all the way down you find yourself overwhelmed by the tight and sensitive band massaging your shaft. Using the skin as the cock sleeve it is, you polish your spear, slowly building yourself into an intense orgasm. You fall to your knees from pleasure and use one hand for support while the other feverishly beats your [pc.cock \"+t+\"]. Soon you feel your seed rising through your cumvein, so you pull the foreskin over your [pc.cockHead \"+t+\"] and pinch it closed. It quickly fills with your [pc.cum], ballooning it as you bask in your afterglow. You let it go and the skin rolls back, dripping its [pc.cumFlavor] contents on the floor. <b>Your [pc.cock \"+t+\"] now has a foreskin!</b>",
+    "key": "output|Pulling_the_skin_all_the_way_down_you_find_yourself_overwhelmed|21a9880e3257",
+    "original": "Pulling the skin all the way down you find yourself overwhelmed by the tight and sensitive band massaging your shaft. Using the skin as the cock sleeve it is, you polish your spear, slowly building yourself into an intense orgasm. You fall to your knees from pleasure and use one hand for support while the other feverishly beats your [pc.cock \"+t+\"]. Soon you feel your seed rising through your cumvein, so you pull the foreskin over your [pc.cockHead \"+t+\"] and pinch it closed. It quickly fills with your [pc.cum], ballooning it as you bask in your afterglow. You let it go and the skin rolls back, dripping its [pc.cumFlavor] contents on the floor. <b>Your [pc.cock \"+t+\"] now has a foreskin!</b>",
     "translation": "",
-    "context": "<<POS:09873760>>"
+    "context": "<<POS:09873764>>"
   },
   {
     "key": "button|Next|645c0f8034f4",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09874547>>"
+    "context": "<<POS:09874547>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|You_can_see_the_gray_microsurgeons_crawling_all_over_your_shaft|44569d3b139f",
@@ -222,10 +222,10 @@
     "context": "<<POS:09874620>>"
   },
   {
-    "key": "output|n_nSlowly_the_little_gray_machines_begin_to_pour_out_of_your|4aa6ddef6a56",
-    "original": "\\n\\nSlowly, the little gray machines begin to pour out of your [pc.skinColor] sheath, as your cock quickly recedes into its new reservoir. As your prick completely retreats within the sheath, it washes away the rest of the glitter with your pre-cum. When it seems like the transformation has run its course, you stick a finger in there, swirling it around and exploring your unfamiliar depths. ",
+    "key": "output|Slowly_the_little_gray_machines_begin_to_pour_out_of_your_pc_s|3aa37c3f8989",
+    "original": "Slowly, the little gray machines begin to pour out of your [pc.skinColor] sheath, as your cock quickly recedes into its new reservoir. As your prick completely retreats within the sheath, it washes away the rest of the glitter with your pre-cum. When it seems like the transformation has run its course, you stick a finger in there, swirling it around and exploring your unfamiliar depths. ",
     "translation": "",
-    "context": "<<POS:09875331>>"
+    "context": "<<POS:09875335>>"
   },
   {
     "key": "output|You_realize_it_s_not_done_yet_when_painful_trickles_surge_on_the|8c3cfc0f9221",
@@ -291,7 +291,7 @@
     "key": "button|Next|c84253885987",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09877556>>"
+    "context": "<<POS:09877556>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|You_can_see_the_gray_microsurgeons_forming_circular_lines_around|b63049ee2476",
@@ -303,7 +303,7 @@
     "key": "button|Next|a8ac26edced8",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09878158>>"
+    "context": "<<POS:09878158>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|As_soon_as_the_gray_machines_start_moving_they_begin_to_fall_of|c12466bc4f43",
@@ -315,6 +315,6 @@
     "key": "button|Next|13864d93bf13",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09878575>>"
+    "context": "<<POS:09878575>> addButton(0,\"Next\",mainGameMenu)"
   }
 ]

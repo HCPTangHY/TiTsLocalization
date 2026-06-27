@@ -3,7 +3,13 @@
     "key": "button|Next|43c1e187e1b0",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07947970>>"
+    "context": "<<POS:07947970>> addButton(e++,\"Next\",NR,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|43c1e187e1b0",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:07947980>> addButton(e++,\"Next\",NR,\"Next\",\"\")"
   },
   {
     "key": "output|textify_jR_jR_0_Bt_Z_n_t_flags_VELIKA_DHAAL_APPROACH_n_t|85be2b7c3ff1",
@@ -21,19 +27,43 @@
     "key": "button|Motive|59773381ef12",
     "original": "Motive",
     "translation": "",
-    "context": "<<POS:07952852>>"
+    "context": "<<POS:07952852>> addButton(e++,\"Motive\",kD,\"Motive\",\"Ask Velika why she’s offering to help you. What is she scheming?\")"
   },
   {
-    "key": "button|Accept|03056f414996",
+    "key": "button.hover|Motive|59773381ef12",
+    "original": "Motive",
+    "translation": "",
+    "context": "<<POS:07952864>> addButton(e++,\"Motive\",kD,\"Motive\",\"Ask Velika why she’s offering to help you. What is she scheming?\")"
+  },
+  {
+    "key": "button.tooltip|Ask_Velika_why_she_s_offering_to_help_you_What_is_she_scheming|c24b701cc597",
+    "original": "Ask Velika why she’s offering to help you. What is she scheming?",
+    "translation": "",
+    "context": "<<POS:07952873>> addButton(e++,\"Motive\",kD,\"Motive\",\"Ask Velika why she’s offering to help you. What is she scheming?\")"
+  },
+  {
+    "key": "button|Accept|550d3ff799da",
     "original": "Accept",
     "translation": "",
-    "context": "<<POS:07952955>>"
+    "context": "<<POS:07952955>> addButton(e++,\"Accept\",vD,\"Accept\",\"\")"
+  },
+  {
+    "key": "button.hover|Accept|550d3ff799da",
+    "original": "Accept",
+    "translation": "",
+    "context": "<<POS:07952967>> addButton(e++,\"Accept\",vD,\"Accept\",\"\")"
   },
   {
     "key": "button|Reject|3c38e44be88c",
     "original": "Reject",
     "translation": "",
-    "context": "<<POS:07952994>>"
+    "context": "<<POS:07952994>> addButton(e++,\"Reject\",TD,\"Reject\",\"\")"
+  },
+  {
+    "key": "button.hover|Reject|3c38e44be88c",
+    "original": "Reject",
+    "translation": "",
+    "context": "<<POS:07953006>> addButton(e++,\"Reject\",TD,\"Reject\",\"\")"
   },
   {
     "key": "output|textify_DR_DR_0_Bt_Z_n_t_i_Me_Scheme_I_would_never|6a6d466a2637",
@@ -45,19 +75,43 @@
     "key": "button|Motive|e803c5fe1511",
     "original": "Motive",
     "translation": "",
-    "context": "<<POS:07953836>>"
+    "context": "<<POS:07953836>> addButton(0,\"Motive\",e,\"Motive\",\"Ask Velika why she’s offering to help you. What is she scheming?\")"
   },
   {
-    "key": "button|Accept|03056f414996#1",
+    "key": "button.hover|Motive|e803c5fe1511",
+    "original": "Motive",
+    "translation": "",
+    "context": "<<POS:07953847>> addButton(0,\"Motive\",e,\"Motive\",\"Ask Velika why she’s offering to help you. What is she scheming?\")"
+  },
+  {
+    "key": "button.tooltip|Ask_Velika_why_she_s_offering_to_help_you_What_is_she_scheming|c6275a581cf3",
+    "original": "Ask Velika why she’s offering to help you. What is she scheming?",
+    "translation": "",
+    "context": "<<POS:07953856>> addButton(0,\"Motive\",e,\"Motive\",\"Ask Velika why she’s offering to help you. What is she scheming?\")"
+  },
+  {
+    "key": "button|Accept|550d3ff799da#1",
     "original": "Accept",
     "translation": "",
-    "context": "<<POS:07953936>>"
+    "context": "<<POS:07953936>> addButton(1,\"Accept\",vD,\"Accept\",\"\")"
+  },
+  {
+    "key": "button.hover|Accept|550d3ff799da#1",
+    "original": "Accept",
+    "translation": "",
+    "context": "<<POS:07953948>> addButton(1,\"Accept\",vD,\"Accept\",\"\")"
   },
   {
     "key": "button|Reject|3c38e44be88c#1",
     "original": "Reject",
     "translation": "",
-    "context": "<<POS:07953973>>"
+    "context": "<<POS:07953973>> addButton(2,\"Reject\",TD,\"Reject\",\"\")"
+  },
+  {
+    "key": "button.hover|Reject|3c38e44be88c#1",
+    "original": "Reject",
+    "translation": "",
+    "context": "<<POS:07953985>> addButton(2,\"Reject\",TD,\"Reject\",\"\")"
   },
   {
     "key": "output|textify_FR_FR_0_Bt_Z_n_tVelika_leans_in_to_capture_your_l|5b7dc682719a",
@@ -75,37 +129,79 @@
     "key": "button|Next|5863748ef700",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07955842>>"
+    "context": "<<POS:07955842>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|5863748ef700",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:07955862>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "button|Appearance|af485afe2d63",
     "original": "Appearance",
     "translation": "",
-    "context": "<<POS:07955922>>"
+    "context": "<<POS:07955922>> addButton(e++,\"Appearance\",window.velikaAppearance,\"Appearance\",\"\")"
+  },
+  {
+    "key": "button.hover|Appearance|af485afe2d63",
+    "original": "Appearance",
+    "translation": "",
+    "context": "<<POS:07955959>> addButton(e++,\"Appearance\",window.velikaAppearance,\"Appearance\",\"\")"
   },
   {
     "key": "button|Talk|ddabdde12809",
     "original": "Talk",
     "translation": "",
-    "context": "<<POS:07955990>>"
+    "context": "<<POS:07955990>> addButton(e++,\"Talk\",SD,\"Talk\",\"\")"
+  },
+  {
+    "key": "button.hover|Talk|ddabdde12809",
+    "original": "Talk",
+    "translation": "",
+    "context": "<<POS:07956000>> addButton(e++,\"Talk\",SD,\"Talk\",\"\")"
   },
   {
     "key": "button|Flirt|8a825ee0d8b6",
     "original": "Flirt",
     "translation": "",
-    "context": "<<POS:07956025>>"
+    "context": "<<POS:07956025>> addButton(e++,\"Flirt\",MD,\"Flirt\",\"\")"
+  },
+  {
+    "key": "button.hover|Flirt|8a825ee0d8b6",
+    "original": "Flirt",
+    "translation": "",
+    "context": "<<POS:07956036>> addButton(e++,\"Flirt\",MD,\"Flirt\",\"\")"
   },
   {
     "key": "button|Party|bc618fc072da",
     "original": "Party",
     "translation": "",
-    "context": "<<POS:07956114>>"
+    "context": "<<POS:07956114>> addButton(e++,\"Party\",LD,\"Party\",\"Ask Velika if her suit transmitted correctly.\")"
   },
   {
-    "key": "button|Leave|c31c04a17958",
+    "key": "button.hover|Party|bc618fc072da",
+    "original": "Party",
+    "translation": "",
+    "context": "<<POS:07956125>> addButton(e++,\"Party\",LD,\"Party\",\"Ask Velika if her suit transmitted correctly.\")"
+  },
+  {
+    "key": "button.tooltip|Ask_Velika_if_her_suit_transmitted_correctly|323ac53fd6c5",
+    "original": "Ask Velika if her suit transmitted correctly.",
+    "translation": "",
+    "context": "<<POS:07956133>> addButton(e++,\"Party\",LD,\"Party\",\"Ask Velika if her suit transmitted correctly.\")"
+  },
+  {
+    "key": "button|Leave|5a21e21d0e08",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:07956195>>"
+    "context": "<<POS:07956195>> addButton(14,\"Leave\",AD,\"Leave\",\"\")"
+  },
+  {
+    "key": "button.hover|Leave|5a21e21d0e08",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:07956206>> addButton(14,\"Leave\",AD,\"Leave\",\"\")"
   },
   {
     "key": "output|textify_WR_WR_0_Bt_Z_n_t_i_Oh_Lay_it_on_me_innie_i|5b250d473979",
@@ -117,49 +213,133 @@
     "key": "button|Zaika|ecc64546bdb8",
     "original": "Zaika",
     "translation": "",
-    "context": "<<POS:07956498>>"
+    "context": "<<POS:07956498>> addButton(e++,\"Zaika\",xD,\"Zaika\",\"Ask Velika how she feels about the Zaika.\")"
   },
   {
-    "key": "button|Evening|c61fe683d60c",
+    "key": "button.hover|Zaika|ecc64546bdb8",
+    "original": "Zaika",
+    "translation": "",
+    "context": "<<POS:07956509>> addButton(e++,\"Zaika\",xD,\"Zaika\",\"Ask Velika how she feels about the Zaika.\")"
+  },
+  {
+    "key": "button.tooltip|Ask_Velika_how_she_feels_about_the_Zaika|e4ff839f6639",
+    "original": "Ask Velika how she feels about the Zaika.",
+    "translation": "",
+    "context": "<<POS:07956517>> addButton(e++,\"Zaika\",xD,\"Zaika\",\"Ask Velika how she feels about the Zaika.\")"
+  },
+  {
+    "key": "button|Evening|492e86f3a833",
     "original": "Evening",
     "translation": "",
-    "context": "<<POS:07956595>>"
+    "context": "<<POS:07956595>> addButton(e++,\"Evening\",zD,\"Evening\",\"Ask Velika what she thinks of Evening.\")"
   },
   {
-    "key": "button|Allegiance|7dd072904878",
+    "key": "button.hover|Evening|492e86f3a833",
+    "original": "Evening",
+    "translation": "",
+    "context": "<<POS:07956608>> addButton(e++,\"Evening\",zD,\"Evening\",\"Ask Velika what she thinks of Evening.\")"
+  },
+  {
+    "key": "button.tooltip|Ask_Velika_what_she_thinks_of_Evening|135ff0f4740c",
+    "original": "Ask Velika what she thinks of Evening.",
+    "translation": "",
+    "context": "<<POS:07956618>> addButton(e++,\"Evening\",zD,\"Evening\",\"Ask Velika what she thinks of Evening.\")"
+  },
+  {
+    "key": "button|Allegiance|abe9157ee768",
     "original": "Allegiance",
     "translation": "",
-    "context": "<<POS:07956674>>"
+    "context": "<<POS:07956674>> addButton(e++,\"Allegiance\",ND,\"Allegiance\",\"Ask Velika who she works for.\")"
   },
   {
-    "key": "button|Myr|c45c4c68596e",
+    "key": "button.hover|Allegiance|abe9157ee768",
+    "original": "Allegiance",
+    "translation": "",
+    "context": "<<POS:07956690>> addButton(e++,\"Allegiance\",ND,\"Allegiance\",\"Ask Velika who she works for.\")"
+  },
+  {
+    "key": "button.tooltip|Ask_Velika_who_she_works_for|f1be7a5940b1",
+    "original": "Ask Velika who she works for.",
+    "translation": "",
+    "context": "<<POS:07956703>> addButton(e++,\"Allegiance\",ND,\"Allegiance\",\"Ask Velika who she works for.\")"
+  },
+  {
+    "key": "button|Myr|54d42fb27596",
     "original": "Myr",
     "translation": "",
-    "context": "<<POS:07956810>>"
+    "context": "<<POS:07956810>> addButton(e++,\"Myr\",CD,\"Myr\",\"Ask Velika why she and her employers were so interested in the Red Myr.\")"
   },
   {
-    "key": "button|Smoke|c79503d2279c",
+    "key": "button.hover|Myr|54d42fb27596",
+    "original": "Myr",
+    "translation": "",
+    "context": "<<POS:07956819>> addButton(e++,\"Myr\",CD,\"Myr\",\"Ask Velika why she and her employers were so interested in the Red Myr.\")"
+  },
+  {
+    "key": "button.tooltip|Ask_Velika_why_she_and_her_employers_were_so_interested_in_the_R|1b8088d71083",
+    "original": "Ask Velika why she and her employers were so interested in the Red Myr.",
+    "translation": "",
+    "context": "<<POS:07956825>> addButton(e++,\"Myr\",CD,\"Myr\",\"Ask Velika why she and her employers were so interested in the Red Myr.\")"
+  },
+  {
+    "key": "button|Smoke|201d5256bb84",
     "original": "Smoke",
     "translation": "",
-    "context": "<<POS:07956967>>"
+    "context": "<<POS:07956967>> addButton(e++,\"Smoke\",window.velikaSmoke,\"Smoke\",\"Broach the topic of Velika’s smoking addiction.\")"
   },
   {
-    "key": "button|Insist|435e9abe3962",
+    "key": "button.hover|Smoke|201d5256bb84",
+    "original": "Smoke",
+    "translation": "",
+    "context": "<<POS:07956994>> addButton(e++,\"Smoke\",window.velikaSmoke,\"Smoke\",\"Broach the topic of Velika’s smoking addiction.\")"
+  },
+  {
+    "key": "button.tooltip|Broach_the_topic_of_Velika_s_smoking_addiction|7a55e2740913",
+    "original": "Broach the topic of Velika’s smoking addiction.",
+    "translation": "",
+    "context": "<<POS:07957002>> addButton(e++,\"Smoke\",window.velikaSmoke,\"Smoke\",\"Broach the topic of Velika’s smoking addiction.\")"
+  },
+  {
+    "key": "button|Insist|4b4c5778066e",
     "original": "Insist",
     "translation": "",
-    "context": "<<POS:07957146>>"
+    "context": "<<POS:07957146>> addButton(e++,\"Insist\",ED,\"Insist\",\"[silly|Take a chance for romance, take my heart|Insist you want to deepen your relationship]\")"
   },
   {
-    "key": "button|Relationship|e45acda6f1be",
+    "key": "button.hover|Insist|4b4c5778066e",
+    "original": "Insist",
+    "translation": "",
+    "context": "<<POS:07957158>> addButton(e++,\"Insist\",ED,\"Insist\",\"[silly|Take a chance for romance, take my heart|Insist you want to deepen your relationship]\")"
+  },
+  {
+    "key": "button.tooltip|silly_Take_a_chance_for_romance_take_my_heart_Insist_you_want|c8c8eb0312fd",
+    "original": "[silly|Take a chance for romance, take my heart|Insist you want to deepen your relationship]",
+    "translation": "",
+    "context": "<<POS:07957167>> addButton(e++,\"Insist\",ED,\"Insist\",\"[silly|Take a chance for romance, take my heart|Insist you want to deepen your relationship]\")"
+  },
+  {
+    "key": "button|Relationship|92ef4b4b70da",
     "original": "Relationship",
     "translation": "",
-    "context": "<<POS:07957277>>"
+    "context": "<<POS:07957277>> addButton(e++,\"Relationship\",BD,\"Relationship\",\"\")"
+  },
+  {
+    "key": "button.hover|Relationship|92ef4b4b70da",
+    "original": "Relationship",
+    "translation": "",
+    "context": "<<POS:07957295>> addButton(e++,\"Relationship\",BD,\"Relationship\",\"\")"
   },
   {
     "key": "button|Leave|5dede710e77d",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:07957327>>"
+    "context": "<<POS:07957327>> addButton(14,\"Leave\",mainGameMenu,\"Leave\",\"\")"
+  },
+  {
+    "key": "button.hover|Leave|5dede710e77d",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:07957348>> addButton(14,\"Leave\",mainGameMenu,\"Leave\",\"\")"
   },
   {
     "key": "output|textify_qR_qR_0_Bt_Z_n_tThe_cyborgs_pauses_for_a_moment|6b1dbdab1fd1",
@@ -201,16 +381,40 @@
     "key": "button|Commit|d07cfab01ed4",
     "original": "Commit",
     "translation": "",
-    "context": "<<POS:07967650>>"
+    "context": "<<POS:07967650>> addButton(e++,\"Commit\",OD,\"Commit\",\"<b>Point of no return.</b> Tell Velika you want to be with her no matter what.\")"
   },
   {
-    "key": "button|Back_Down|b844f1f6f639",
+    "key": "button.hover|Commit|d07cfab01ed4",
+    "original": "Commit",
+    "translation": "",
+    "context": "<<POS:07967662>> addButton(e++,\"Commit\",OD,\"Commit\",\"<b>Point of no return.</b> Tell Velika you want to be with her no matter what.\")"
+  },
+  {
+    "key": "button.tooltip|b_Point_of_no_return_b_Tell_Velika_you_want_to_be_with_her_n|06f6878f4a99",
+    "original": "<b>Point of no return.</b> Tell Velika you want to be with her no matter what.",
+    "translation": "",
+    "context": "<<POS:07967671>> addButton(e++,\"Commit\",OD,\"Commit\",\"<b>Point of no return.</b> Tell Velika you want to be with her no matter what.\")"
+  },
+  {
+    "key": "button|Back_Down|27f0fdefbecd",
     "original": "Back Down",
     "translation": "",
-    "context": "<<POS:07967767>>"
+    "context": "<<POS:07967767>> addButton(e++,\"Back Down\",HD,\"Back Down\",\"Tell Velika you’re fine with keeping things between you more casual.\")"
   },
   {
-    "key": "output|textify_ZR_ZR_0_Bt_Z_n_tWithout_warning_Velika_lashes_ou|c2f482ed51df",
+    "key": "button.hover|Back_Down|27f0fdefbecd",
+    "original": "Back Down",
+    "translation": "",
+    "context": "<<POS:07967782>> addButton(e++,\"Back Down\",HD,\"Back Down\",\"Tell Velika you’re fine with keeping things between you more casual.\")"
+  },
+  {
+    "key": "button.tooltip|Tell_Velika_you_re_fine_with_keeping_things_between_you_more_cas|0b6d916c0de5",
+    "original": "Tell Velika you’re fine with keeping things between you more casual.",
+    "translation": "",
+    "context": "<<POS:07967794>> addButton(e++,\"Back Down\",HD,\"Back Down\",\"Tell Velika you’re fine with keeping things between you more casual.\")"
+  },
+  {
+    "key": "output|textify_ZR_ZR_0_Bt_Z_n_tWithout_warning_Velika_lashes_ou|c625440dec1e",
     "original": "textify(ZR||(ZR=(0,Bt.Z)([\"\\n\\tWithout warning, Velika lashes out and with a swift strike at your jaw, knocking you flat onto your back. The other patrons fall silent, watching the scene unfold with a mix of fear and morbid curiosity. <i>“You’re an idiot, [pc.name]. A stubborn, insane idiot.”</i> She straddles your hips and reaches out, roughly grabbing your chin. <i>“And you’re mine. No matter what happens, that’ll never change.”</i> The blonde leans in, capturing your mouth in a searing kiss, pouring all of her hunger into it. <i>“I love you, innie. Stars help me, but I do.”</i> she murmurs against your lips. <i>“And together, we will face whatever comes our way...”</i>\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:07967908>>"
@@ -219,7 +423,13 @@
     "key": "button|Next|c276fe6bbdcb",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07968637>>"
+    "context": "<<POS:07968637>> addButton(e++,\"Next\",jD,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|c276fe6bbdcb",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:07968647>> addButton(e++,\"Next\",jD,\"Next\",\"\")"
   },
   {
     "key": "output|textify_JR_JR_0_Bt_Z_n_tA_low_relieved_sound_escapes_Vel|cebc7f9a5d44",
@@ -237,7 +447,13 @@
     "key": "button|Next|d101bc2c59a8",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07970491>>"
+    "context": "<<POS:07970491>> addButton(e++,\"Next\",window.velikaSexIntro,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|d101bc2c59a8",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:07970520>> addButton(e++,\"Next\",window.velikaSexIntro,\"Next\",\"\")"
   },
   {
     "key": "output|textify_XR_XR_0_Bt_Z_n_tThe_cyborg_furnishes_you_with_the|a266c63476bb",
@@ -261,7 +477,13 @@
     "key": "button|Next|70643c28fbf7",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07973595>>"
+    "context": "<<POS:07973595>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|70643c28fbf7",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:07973615>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_LR_LR_0_Bt_Z_n_t_n_nYou_spot_Velika_seated_near_t|12675b009e41",
@@ -273,19 +495,25 @@
     "key": "button|Velika|0d6ead6e4cb8",
     "original": "Velika",
     "translation": "",
-    "context": "<<POS:07974247>>"
+    "context": "<<POS:07974247>> addButton(e,\"Velika\",wD,\"Velika\",\"\")"
+  },
+  {
+    "key": "button.hover|Velika|0d6ead6e4cb8",
+    "original": "Velika",
+    "translation": "",
+    "context": "<<POS:07974259>> addButton(e,\"Velika\",wD,\"Velika\",\"\")"
   },
   {
     "key": "name.show|Zero_Plus|3873c69b27df",
     "original": "Zero Plus",
     "translation": "",
-    "context": "<<POS:07975027>>"
+    "context": "<<POS:07975027>> showName(\"Zero Plus\")"
   },
   {
-    "key": "output|n_t_i_Heyo_pc_name_Do_you_need_me_to_heal_your_booboos_I_m|65c4b5ae2e4f",
-    "original": "\\n\\t<i>“Heyo [pc.name]! Do you need me to heal your booboos? I’m like, super good at cuddles and boobies therapy!”</i>\\n\\n\\t<i>“Perhaps,”</i> you reply. <i>“Are you fine?”</i>\\n\\n\\tThe dollified doctor nods. ",
+    "key": "output|t_i_Heyo_pc_name_Do_you_need_me_to_heal_your_booboos_I_m_l|b5f044a73d95",
+    "original": "\\t<i>“Heyo [pc.name]! Do you need me to heal your booboos? I’m like, super good at cuddles and boobies therapy!”</i>\\n\\n\\t<i>“Perhaps,”</i> you reply. <i>“Are you fine?”</i>\\n\\n\\tThe dollified doctor nods. ",
     "translation": "",
-    "context": "<<POS:07975184>>"
+    "context": "<<POS:07975186>>"
   },
   {
     "key": "output|i_Yip_Yup_This_ship_s_like_so_much_fun_It_s_nothing_like_th|0710d3b0d495",
@@ -306,79 +534,205 @@
     "context": "<<POS:07976003>>"
   },
   {
-    "key": "output|n_n_t_pc_isBimbo_n_t_t_Gosh_She_s_so_precious_You_re_like_th|34a0aadcb4b7",
-    "original": "\\n\\n\\t[pc.isBimbo\\n\\t\\t|Gosh! She’s so precious. You’re like, the bestest bimbos of the galaxy!\\n\\t\\t|Stars, she’s so precious.\\n\\t]\\n\\t",
+    "key": "output|t_pc_isBimbo_n_t_t_Gosh_She_s_so_precious_You_re_like_the_be|73e562f14f35",
+    "original": "\\t[pc.isBimbo\\n\\t\\t|Gosh! She’s so precious. You’re like, the bestest bimbos of the galaxy!\\n\\t\\t|Stars, she’s so precious.\\n\\t]\\n\\t",
     "translation": "",
-    "context": "<<POS:07976049>>"
+    "context": "<<POS:07976053>>"
   },
   {
     "key": "button|Appearance|47685b169406",
     "original": "Appearance",
     "translation": "",
-    "context": "<<POS:07976258>>"
+    "context": "<<POS:07976258>> addButton(0,\"Appearance\",PD,\"Appearance\",\"\")"
+  },
+  {
+    "key": "button.hover|Appearance|47685b169406",
+    "original": "Appearance",
+    "translation": "",
+    "context": "<<POS:07976274>> addButton(0,\"Appearance\",PD,\"Appearance\",\"\")"
   },
   {
     "key": "button|Herself|1d9bc0a24ae4",
     "original": "Herself",
     "translation": "",
-    "context": "<<POS:07976303>>"
+    "context": "<<POS:07976303>> addButton(1,\"Herself\",WD,\"Ask About Herself\",\"Does she remember anything about herself?\")"
   },
   {
-    "key": "button|Mistress|a48d66129db6",
+    "key": "button.hover|Ask_About_Herself|ee3d89f50313",
+    "original": "Ask About Herself",
+    "translation": "",
+    "context": "<<POS:07976316>> addButton(1,\"Herself\",WD,\"Ask About Herself\",\"Does she remember anything about herself?\")"
+  },
+  {
+    "key": "button.tooltip|Does_she_remember_anything_about_herself|f4fda45070ad",
+    "original": "Does she remember anything about herself?",
+    "translation": "",
+    "context": "<<POS:07976336>> addButton(1,\"Herself\",WD,\"Ask About Herself\",\"Does she remember anything about herself?\")"
+  },
+  {
+    "key": "button|Mistress|ef59c839a170",
     "original": "Mistress?",
     "translation": "",
-    "context": "<<POS:07976393>>"
+    "context": "<<POS:07976393>> addButton(2,\"Mistress?\",qD,\"Ask About Mistress Ovvi\",\"Does she remember anything about Ovvi?\")"
   },
   {
-    "key": "button|Paulette_Dabbebieth|f6455b42f78f",
+    "key": "button.hover|Ask_About_Mistress_Ovvi|fc0eb8a289f6",
+    "original": "Ask About Mistress Ovvi",
+    "translation": "",
+    "context": "<<POS:07976408>> addButton(2,\"Mistress?\",qD,\"Ask About Mistress Ovvi\",\"Does she remember anything about Ovvi?\")"
+  },
+  {
+    "key": "button.tooltip|Does_she_remember_anything_about_Ovvi|84406e0f15a4",
+    "original": "Does she remember anything about Ovvi?",
+    "translation": "",
+    "context": "<<POS:07976434>> addButton(2,\"Mistress?\",qD,\"Ask About Mistress Ovvi\",\"Does she remember anything about Ovvi?\")"
+  },
+  {
+    "key": "button|Paulette_Dabbebieth|b1c6d0198522",
     "original": "Paulette & Dabbebieth",
     "translation": "",
-    "context": "<<POS:07976488>>"
+    "context": "<<POS:07976488>> addButton(3,\"Paulette & Dabbebieth\",GD,\"Ask About Paulette and Dabbebieth\",\"What’s her opinion on Paulette and Dabbebieth?\")"
   },
   {
-    "key": "button|Sabrae|c34c11c1ef46",
+    "key": "button.hover|Ask_About_Paulette_and_Dabbebieth|2404459028f3",
+    "original": "Ask About Paulette and Dabbebieth",
+    "translation": "",
+    "context": "<<POS:07976515>> addButton(3,\"Paulette & Dabbebieth\",GD,\"Ask About Paulette and Dabbebieth\",\"What’s her opinion on Paulette and Dabbebieth?\")"
+  },
+  {
+    "key": "button.tooltip|What_s_her_opinion_on_Paulette_and_Dabbebieth|ca04883081a0",
+    "original": "What’s her opinion on Paulette and Dabbebieth?",
+    "translation": "",
+    "context": "<<POS:07976551>> addButton(3,\"Paulette & Dabbebieth\",GD,\"Ask About Paulette and Dabbebieth\",\"What’s her opinion on Paulette and Dabbebieth?\")"
+  },
+  {
+    "key": "button.hover|You_need_to_meet_the_shopkeep_at_the_Implant_Station_first|e49ab75825d1",
+    "original": "You need to meet the shopkeep at the Implant Station first.",
+    "translation": "",
+    "context": "<<POS:07976685>> addDisabledButton(4,\"???\",\"Ask About ???\",\"You need to meet the shopkeep at the Implant Station first.\")"
+  },
+  {
+    "key": "button|Sabrae|389c2386e0c2",
     "original": "Sabrae",
     "translation": "",
-    "context": "<<POS:07976804>>"
+    "context": "<<POS:07976804>> addDisabledButton(4,\"Sabrae\",\"Ask About Sabrae\",\"She hasn’t met the zaika at the Implant Station yet.\")"
   },
   {
-    "key": "button|Sabrae|c3f4966178dd",
+    "key": "button.hover|She_hasn_t_met_the_zaika_at_the_Implant_Station_yet|7f223dfcc194",
+    "original": "She hasn’t met the zaika at the Implant Station yet.",
+    "translation": "",
+    "context": "<<POS:07976832>> addDisabledButton(4,\"Sabrae\",\"Ask About Sabrae\",\"She hasn’t met the zaika at the Implant Station yet.\")"
+  },
+  {
+    "key": "button|Sabrae|22f8a58f441a",
     "original": "Sabrae",
     "translation": "",
-    "context": "<<POS:07976900>>"
+    "context": "<<POS:07976900>> addButton(4,\"Sabrae\",_D,\"Ask About Sabrae\",\"What’s her opinion on [zp.isCrew|the tauric zaika|her roommate]?\")"
   },
   {
-    "key": "button|Healing_Massage|150c38a36ea3",
+    "key": "button.hover|Ask_About_Sabrae|d5992a745aca",
+    "original": "Ask About Sabrae",
+    "translation": "",
+    "context": "<<POS:07976912>> addButton(4,\"Sabrae\",_D,\"Ask About Sabrae\",\"What’s her opinion on [zp.isCrew|the tauric zaika|her roommate]?\")"
+  },
+  {
+    "key": "button.tooltip|What_s_her_opinion_on_zp_isCrew_the_tauric_zaika_her_roommate|8e1812f8175b",
+    "original": "What’s her opinion on [zp.isCrew|the tauric zaika|her roommate]?",
+    "translation": "",
+    "context": "<<POS:07976931>> addButton(4,\"Sabrae\",_D,\"Ask About Sabrae\",\"What’s her opinion on [zp.isCrew|the tauric zaika|her roommate]?\")"
+  },
+  {
+    "key": "button|Healing_Massage|c1133064d50f",
     "original": "Healing Massage",
     "translation": "",
-    "context": "<<POS:07977012>>"
+    "context": "<<POS:07977012>> addButton(7,\"Healing Massage\",UD,\"Healing Massage\",\"Get some high grade zaika medication.\")"
   },
   {
-    "key": "button|Kinky_Healing|51d7512f5785",
+    "key": "button.hover|Healing_Massage|c1133064d50f",
+    "original": "Healing Massage",
+    "translation": "",
+    "context": "<<POS:07977033>> addButton(7,\"Healing Massage\",UD,\"Healing Massage\",\"Get some high grade zaika medication.\")"
+  },
+  {
+    "key": "button.tooltip|Get_some_high_grade_zaika_medication|96f33fecc182",
+    "original": "Get some high grade zaika medication.",
+    "translation": "",
+    "context": "<<POS:07977051>> addButton(7,\"Healing Massage\",UD,\"Healing Massage\",\"Get some high grade zaika medication.\")"
+  },
+  {
+    "key": "button|Kinky_Healing|ac67a4212bc2",
     "original": "Kinky Healing",
     "translation": "",
-    "context": "<<POS:07977104>>"
+    "context": "<<POS:07977104>> addButton(8,\"Kinky Healing\",ZD,\"Kinky Healing\",\"Get some tender love and care.\")"
   },
   {
-    "key": "button|Send_Off|dd61c46f0be0",
+    "key": "button.hover|Kinky_Healing|ac67a4212bc2",
+    "original": "Kinky Healing",
+    "translation": "",
+    "context": "<<POS:07977123>> addButton(8,\"Kinky Healing\",ZD,\"Kinky Healing\",\"Get some tender love and care.\")"
+  },
+  {
+    "key": "button.tooltip|Get_some_tender_love_and_care|a89e3be3483e",
+    "original": "Get some tender love and care.",
+    "translation": "",
+    "context": "<<POS:07977139>> addButton(8,\"Kinky Healing\",ZD,\"Kinky Healing\",\"Get some tender love and care.\")"
+  },
+  {
+    "key": "button|Send_Off|6484bb0a5beb",
     "original": "Send Off",
     "translation": "",
-    "context": "<<POS:07977213>>"
+    "context": "<<POS:07977213>> addButton(9,\"Send Off\",VD,\"Send Off\",\"You don’t want her onboard anymore.\")"
   },
   {
-    "key": "button|Recruit|98ccd95bb313",
+    "key": "button.hover|Send_Off|6484bb0a5beb",
+    "original": "Send Off",
+    "translation": "",
+    "context": "<<POS:07977227>> addButton(9,\"Send Off\",VD,\"Send Off\",\"You don’t want her onboard anymore.\")"
+  },
+  {
+    "key": "button.tooltip|You_don_t_want_her_onboard_anymore|86d8aeac16f0",
+    "original": "You don’t want her onboard anymore.",
+    "translation": "",
+    "context": "<<POS:07977238>> addButton(9,\"Send Off\",VD,\"Send Off\",\"You don’t want her onboard anymore.\")"
+  },
+  {
+    "key": "button|Recruit|ab7c7ff854dc",
     "original": "Recruit",
     "translation": "",
-    "context": "<<POS:07977289>>"
+    "context": "<<POS:07977289>> addButton(9,\"Recruit\",KD,\"Recruit\",\"You need a bubbly nurse on your ship.\")"
   },
   {
-    "key": "button|Leave|5ce17b79f654",
+    "key": "button.hover|Recruit|ab7c7ff854dc",
+    "original": "Recruit",
+    "translation": "",
+    "context": "<<POS:07977302>> addButton(9,\"Recruit\",KD,\"Recruit\",\"You need a bubbly nurse on your ship.\")"
+  },
+  {
+    "key": "button.tooltip|You_need_a_bubbly_nurse_on_your_ship|4aa453b29842",
+    "original": "You need a bubbly nurse on your ship.",
+    "translation": "",
+    "context": "<<POS:07977312>> addButton(9,\"Recruit\",KD,\"Recruit\",\"You need a bubbly nurse on your ship.\")"
+  },
+  {
+    "key": "button|Leave|e40e381caae8",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:07977367>>"
+    "context": "<<POS:07977367>> addButton(14,\"Leave\",mainGameMenu,\"Leave\",\"[zp.isCrew|Say Goodbye to your zaika [silly|dollctor|nurse]|Let’s move on].\")"
   },
   {
-    "key": "output|textify_tD_tD_0_Bt_Z_n_tZero_Plus_is_a_curvy_zaika_slight|85a24ce002b8",
+    "key": "button.hover|Leave|e40e381caae8",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:07977388>> addButton(14,\"Leave\",mainGameMenu,\"Leave\",\"[zp.isCrew|Say Goodbye to your zaika [silly|dollctor|nurse]|Let’s move on].\")"
+  },
+  {
+    "key": "button.tooltip|zp_isCrew_Say_Goodbye_to_your_zaika_silly_dollctor_nurse_Let|fa1dc6d6bd8c",
+    "original": "[zp.isCrew|Say Goodbye to your zaika [silly|dollctor|nurse]|Let’s move on].",
+    "translation": "",
+    "context": "<<POS:07977396>> addButton(14,\"Leave\",mainGameMenu,\"Leave\",\"[zp.isCrew|Say Goodbye to your zaika [silly|dollctor|nurse]|Let’s move on].\")"
+  },
+  {
+    "key": "output|textify_tD_tD_0_Bt_Z_n_tZero_Plus_is_a_curvy_zaika_slight|b50914769954",
     "original": "textify(tD||(tD=(0,Bt.Z)([\"\\n\\tZero Plus is a curvy zaika slightly over 7' tall. Her long, tapered ears surface from cascades of stringy locks that frame her head. She’s got bright, bubbly eyes burning with naive curiosity — like a small child’s. Small, round glasses rest on her nose. Considering how little light they filter, she must have either very good diurnal vision for a zaika or her eyes are so full of stars that she doesn’t mind the strong daylight. She’s got [silly\\n\\t\\t|Dick-Sucking Lips\\n\\t\\t|plush lips\\n\\t] glistening with glittery lipstick. [pc.isBimbo\\n\\t\\t|Gosh, you bet kissing her feels like smooching stars!\\n\\t]\\n\\t\\n\\tHer body is heavily-modded. Unlike her fellow zaika, her skin is a milky, pearl white. She’s wearing a long, hooded coat over a revealing bodysuit that struggles to contain her fat, sloshing tits and bubble butt, a pair of short gloves, and thigh high socks — all branded with red crosses. The inside of the coat glows in the dark, ensuring that she’s visible at all times. Dr. Ovvi [silly\\n\\t\\t|Positorii\\n\\t\\t|Hellitrix\\n\\t] modified her chest and tail so that it could store and inject microsurgeon-laced mixtures into unlucky test subjects or willing patients. \\n\\t\\n\\tWhen she’s aroused, her syringe-like bulb opens to reveal a more conventional zaika tail tip, but nothing stops her from using her narrow end to pump someone full of highly-pressurized medicinal spunk. Two large handlebars frame her hips, highlighting her waspish waist and providing you with support if you ever want to bring her to pound town.\\n\\t\"],[\"\\n\\tZero Plus is a curvy zaika slightly over 7\\\\' tall. Her long, tapered ears surface from cascades of stringy locks that frame her head. She’s got bright, bubbly eyes burning with naive curiosity — like a small child’s. Small, round glasses rest on her nose. Considering how little light they filter, she must have either very good diurnal vision for a zaika or her eyes are so full of stars that she doesn’t mind the strong daylight. She’s got [silly\\n\\t\\t|Dick-Sucking Lips\\n\\t\\t|plush lips\\n\\t] glistening with glittery lipstick. [pc.isBimbo\\n\\t\\t|Gosh, you bet kissing her feels like smooching stars!\\n\\t]\\n\\t\\n\\tHer body is heavily-modded. Unlike her fellow zaika, her skin is a milky, pearl white. She’s wearing a long, hooded coat over a revealing bodysuit that struggles to contain her fat, sloshing tits and bubble butt, a pair of short gloves, and thigh high socks — all branded with red crosses. The inside of the coat glows in the dark, ensuring that she’s visible at all times. Dr. Ovvi [silly\\n\\t\\t|Positorii\\n\\t\\t|Hellitrix\\n\\t] modified her chest and tail so that it could store and inject microsurgeon-laced mixtures into unlucky test subjects or willing patients. \\n\\t\\n\\tWhen she’s aroused, her syringe-like bulb opens to reveal a more conventional zaika tail tip, but nothing stops her from using her narrow end to pump someone full of highly-pressurized medicinal spunk. Two large handlebars frame her hips, highlighting her waspish waist and providing you with support if you ever want to bring her to pound town.\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:07977500>>"
@@ -417,7 +771,13 @@
     "key": "button|Next|1f168ac6d160",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07996695>>"
+    "context": "<<POS:07996695>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|1f168ac6d160",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:07996715>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_rD_rD_0_Bt_Z_n_t_i_Zero_Plus_it_s_gonna_be_very|028d91d91996",
@@ -429,7 +789,13 @@
     "key": "button|Next|7150095fbb18",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07997440>>"
+    "context": "<<POS:07997440>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|7150095fbb18",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:07997460>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_hD_hD_0_Bt_Z_n_t_i_Zero_Plus_I_don_t_feel_so_we|120c4c2e7173",
@@ -441,13 +807,31 @@
     "key": "button|Creamy_Oral|bd172703df1a",
     "original": "Creamy Oral",
     "translation": "",
-    "context": "<<POS:08004138>>"
+    "context": "<<POS:08004138>> addButton(e++,\"Creamy Oral\",XD,\"Creamy Oral\",\"Get high and get tailed.\")"
   },
   {
-    "key": "button|Back|fbd1750d6f7a",
+    "key": "button.hover|Creamy_Oral|bd172703df1a",
+    "original": "Creamy Oral",
+    "translation": "",
+    "context": "<<POS:08004155>> addButton(e++,\"Creamy Oral\",XD,\"Creamy Oral\",\"Get high and get tailed.\")"
+  },
+  {
+    "key": "button.tooltip|Get_high_and_get_tailed|2ebbdf90b1ea",
+    "original": "Get high and get tailed.",
+    "translation": "",
+    "context": "<<POS:08004169>> addButton(e++,\"Creamy Oral\",XD,\"Creamy Oral\",\"Get high and get tailed.\")"
+  },
+  {
+    "key": "button|Back|5b81007b17ba",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:08004535>>"
+    "context": "<<POS:08004535>> addButton(14,\"Back\",FD,\"Back\",\"\")"
+  },
+  {
+    "key": "button.hover|Back|5b81007b17ba",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:08004545>> addButton(14,\"Back\",FD,\"Back\",\"\")"
   },
   {
     "key": "output|textify_uD_uD_0_Bt_Z_n_t_i_Doctor_I_ve_got_a_swelling_i|94abb291ea2c",
@@ -459,7 +843,13 @@
     "key": "button|Next|04e7adfbbe6c",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08010523>>"
+    "context": "<<POS:08010523>> addButton(e++,\"Next\",QD,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|04e7adfbbe6c",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:08010533>> addButton(e++,\"Next\",QD,\"Next\",\"\")"
   },
   {
     "key": "output|textify_lD_lD_0_Bt_Z_n_tWell_that_s_a_treatment_you_can|0b98967667e3",
@@ -471,7 +861,13 @@
     "key": "button|Next|53dd33202b62",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08019620>>"
+    "context": "<<POS:08019620>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|53dd33202b62",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:08019640>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_dD_dD_0_Bt_Z_n_t_i_Doctor_I_think_I_have_a_weir|a2fc0abcd127",
@@ -483,19 +879,25 @@
     "key": "perk|Fixed_CumQ|1a59297362ee",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:08027693>>"
+    "context": "<<POS:08027693>> createPerk(\"Fixed CumQ\",25e3)"
   },
   {
     "key": "perk|Fixed_GirlCumQ|4939ca933e87",
     "original": "Fixed GirlCumQ",
     "translation": "",
-    "context": "<<POS:08027726>>"
+    "context": "<<POS:08027726>> createPerk(\"Fixed GirlCumQ\",5e3)"
   },
   {
     "key": "button|Next|af6d8c05d2c8",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08027924>>"
+    "context": "<<POS:08027924>> addButton(e++,\"Next\",$D,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|af6d8c05d2c8",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:08027934>> addButton(e++,\"Next\",$D,\"Next\",\"\")"
   },
   {
     "key": "output|textify_cD_cD_0_Bt_Z_n_tThe_world_feels_so_eerie_and_myst|5b83823f190b",
@@ -507,7 +909,13 @@
     "key": "button|Next|13edd511f4ec",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08033715>>"
+    "context": "<<POS:08033715>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|13edd511f4ec",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:08033735>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_gD_gD_0_Bt_Z_n_t_i_Doctor_I_think_something_s_w|b9b0abeb0fe8",
@@ -519,7 +927,13 @@
     "key": "button|Next|1f049f25a672",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08042312>>"
+    "context": "<<POS:08042312>> addButton(e++,\"Next\",tF,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|1f049f25a672",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:08042322>> addButton(e++,\"Next\",tF,\"Next\",\"\")"
   },
   {
     "key": "output|textify_yD_yD_0_Bt_Z_n_tYou_pc_hasTailCock_n_t_t_spear_y|7f209ed12635",
@@ -531,13 +945,19 @@
     "key": "button|Next|1f049f25a672#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08049259>>"
+    "context": "<<POS:08049259>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|1f049f25a672#1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:08049279>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "name.show|Zero_Plus_Paulette|c8333c6f47fd",
     "original": "Zero Plus & Paulette",
     "translation": "",
-    "context": "<<POS:08049372>>"
+    "context": "<<POS:08049372>> showName(\"Zero Plus & Paulette\")"
   },
   {
     "key": "output|textify_pD_pD_0_Bt_Z_n_tThere_s_lots_of_things_she_can_do|8bdaa0831ae5",
@@ -549,13 +969,19 @@
     "key": "button|Next|524d47bc60c0",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08056605>>"
+    "context": "<<POS:08056605>> addButton(e++,\"Next\",nF,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|524d47bc60c0",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:08056615>> addButton(e++,\"Next\",nF,\"Next\",\"\")"
   },
   {
     "key": "name.show|Zero_Plus_Paulette|c8333c6f47fd#1",
     "original": "Zero Plus & Paulette",
     "translation": "",
-    "context": "<<POS:08056708>>"
+    "context": "<<POS:08056708>> showName(\"Zero Plus & Paulette\")"
   },
   {
     "key": "output|textify_mD_mD_0_Bt_Z_n_tYour_latex_clad_crewmate_gurgles|309f79828c50",
@@ -567,7 +993,13 @@
     "key": "button|Next|1f8ebaed17c5",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08065920>>"
+    "context": "<<POS:08065920>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|1f8ebaed17c5",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:08065940>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_eD_eD_0_Bt_Z_n_nZero_Plus_waves_at_you_from_the_o|2c70eda7daf7",
@@ -579,6 +1011,12 @@
     "key": "button|Zero_Plus|6bfa7ebcbec1",
     "original": "Zero Plus",
     "translation": "",
-    "context": "<<POS:08066438>>"
+    "context": "<<POS:08066438>> addButton(e,\"Zero Plus\",DD,\"Zero Plus\",\"\")"
+  },
+  {
+    "key": "button.hover|Zero_Plus|6bfa7ebcbec1",
+    "original": "Zero Plus",
+    "translation": "",
+    "context": "<<POS:08066453>> addButton(e,\"Zero Plus\",DD,\"Zero Plus\",\"\")"
   }
 ]

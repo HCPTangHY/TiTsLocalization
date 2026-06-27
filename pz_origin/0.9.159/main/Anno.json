@@ -3,25 +3,37 @@
     "key": "button|Anno|dd8c960a4fc7",
     "original": "Anno",
     "translation": "",
-    "context": "<<POS:00040456>>"
+    "context": "<<POS:00040456>> addDisabledButton(e,\"Anno\",\"Anno\",\"Anno isn’t in at the moment. You’ll have to wait a bit longer for her to start digging into the treats....\")"
+  },
+  {
+    "key": "button.hover|Anno_isn_t_in_at_the_moment_You_ll_have_to_wait_a_bit_longer_fo|d7f644203cde",
+    "original": "Anno isn’t in at the moment. You’ll have to wait a bit longer for her to start digging into the treats....",
+    "translation": "",
+    "context": "<<POS:00040470>> addDisabledButton(e,\"Anno\",\"Anno\",\"Anno isn’t in at the moment. You’ll have to wait a bit longer for her to start digging into the treats....\")"
+  },
+  {
+    "key": "button|Anno|85a740301fc9",
+    "original": "Anno",
+    "translation": "",
+    "context": "<<POS:00040681>> addDisabledButton(e,\"Anno\",\"Anno\",\"Anno is currently away or otherwise busy at the moment.\")"
+  },
+  {
+    "key": "button.hover|Anno_is_currently_away_or_otherwise_busy_at_the_moment|568dc1c997d5",
+    "original": "Anno is currently away or otherwise busy at the moment.",
+    "translation": "",
+    "context": "<<POS:00040695>> addDisabledButton(e,\"Anno\",\"Anno\",\"Anno is currently away or otherwise busy at the moment.\")"
+  },
+  {
+    "key": "button|Anno|aedfb388d5c0",
+    "original": "Anno",
+    "translation": "",
+    "context": "<<POS:00041310>> addButton(e,\"Anno\",(function(){pc.createStatusEffect(\"The Lusty Ausar Maid\",0,0,0,0,!0,\"\",\"\",!1,1440),clearOutput(),author(\"HugsAlright\"),clearMenu(),showImage(anno.bustString(!1,!0)),anno.isHuskar()?output(\"You draw in a little closer to the ausar, eyes transfixed by the lower half of her callipygi..."
   },
   {
     "key": "button|Anno|898a4462a129",
     "original": "Anno",
     "translation": "",
-    "context": "<<POS:00040681>>"
-  },
-  {
-    "key": "button|Anno|898a4462a129#1",
-    "original": "Anno",
-    "translation": "",
-    "context": "<<POS:00041310>>"
-  },
-  {
-    "key": "button|Anno|898a4462a129#2",
-    "original": "Anno",
-    "translation": "",
-    "context": "<<POS:00069837>>"
+    "context": "<<POS:00069837>> addButton(e,\"Anno\",window.annoFollowerApproach)"
   },
   {
     "key": "combat|Anno_finally_brings_her_gun_to_bear_and_fires_pumping_her_enti|7a76815d0919",

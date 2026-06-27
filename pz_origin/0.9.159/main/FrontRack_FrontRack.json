@@ -3,7 +3,7 @@
     "key": "name.show|FrontRack|24ed476e709d",
     "original": "FrontRack",
     "translation": "",
-    "context": "<<POS:08223753>>"
+    "context": "<<POS:08223753>> showName(\"FrontRack\")"
   },
   {
     "key": "output|t_isChestExposed_Y_Once_you_ve_shed_your_upper_gear_y|ff98bda030d8",
@@ -30,13 +30,7 @@
     "context": "<<POS:08224432>>"
   },
   {
-    "key": "output|n_n|4f031a3606bd",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08224597>>"
-  },
-  {
-    "key": "output|e_capitalA_e_short_applies_the_FrontRack_cream_but_to_no_effec|aa80689e1349",
+    "key": "output|e_capitalA_e_short_applies_the_FrontRack_cream_but_to_no_effec|fc7f349b5c17",
     "original": "e.capitalA+e.short+\" applies the FrontRack cream but to no effect.",
     "translation": "",
     "context": "<<POS:08224880>>"
@@ -159,7 +153,7 @@
     "key": "button|Next|1ceaf30be371",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08226884>>"
+    "context": "<<POS:08226884>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|Even_though_your_torso_is_already_covered_with_row_after_row_of|6135581b2ec7",
@@ -225,7 +219,7 @@
     "key": "button|Next|687610954da3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08227627>>"
+    "context": "<<POS:08227627>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|After_waiting_for_the_results_for_several_minutes_your_pc_ches|a9d561bf0888",
@@ -237,6 +231,6 @@
     "key": "button|Next|3cb63fb1f867",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08227879>>"
+    "context": "<<POS:08227879>> addButton(0,\"Next\",mainGameMenu)"
   }
 ]

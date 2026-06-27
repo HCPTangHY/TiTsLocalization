@@ -1,15 +1,9 @@
 [
   {
-    "key": "bust|EGG_TRAINER|2af54942da02",
-    "original": "EGG_TRAINER",
-    "translation": "",
-    "context": "<<POS:21702323>>"
-  },
-  {
-    "key": "name.show|Egg_Trainer|2357d7a42166",
+    "key": "name.show|Egg_Trainer|bceb5b79beb3",
     "original": "Egg Trainer",
     "translation": "",
-    "context": "<<POS:21702347>>"
+    "context": "<<POS:21702347>> showName(\"Egg Trainer\")"
   },
   {
     "key": "output|You_find_yourself_drawn_back_to_the_bubblegum_pink_Tamani_Corp_b|049619ad990b",
@@ -24,19 +18,19 @@
     "context": "<<POS:21702818>>"
   },
   {
-    "key": "output|n_nThe_holo_screen_on_the_front_of_the_box_presents_you_with_se|adf7aaf24a1f",
-    "original": "\\n\\nThe holo-screen on the front of the box presents you with several options....",
+    "key": "output|The_holo_screen_on_the_front_of_the_box_presents_you_with_severa|c7f3dd4ee4ce",
+    "original": "The holo-screen on the front of the box presents you with several options....",
     "translation": "",
-    "context": "<<POS:21702877>>"
+    "context": "<<POS:21702881>>"
   },
   {
-    "key": "output|n_n_b_u_Statistics_u_b|738248163203",
-    "original": "\\n\\n<b><u>Statistics</u></b>",
+    "key": "output|b_u_Statistics_u_b|bb60f9298a6e",
+    "original": "<b><u>Statistics</u></b>",
     "translation": "",
-    "context": "<<POS:21702969>>"
+    "context": "<<POS:21702973>>"
   },
   {
-    "key": "output|Ot_m_startList|cd7647d8bb11",
+    "key": "output|Ot_m_startList|7b90ba340ea1",
     "original": "Ot.m.startList()",
     "translation": "",
     "context": "<<POS:21703007>>"
@@ -54,166 +48,310 @@
     "context": "<<POS:21703077>>"
   },
   {
-    "key": "output|n_n|6b5340aa3298",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:21703101>>"
-  },
-  {
-    "key": "button|Raw_Tentacle|0128fb74427b",
+    "key": "button|Raw_Tentacle|41a750bdbf21",
     "original": "Raw Tentacle",
     "translation": "",
-    "context": "<<POS:21703170>>"
+    "context": "<<POS:21703170>> addButton(0,\"Raw Tentacle\",(function(){clearOutput(),iR();var e=pc.findEmptyPregnancySlot(GLOBAL.PREGSLOT_ANY);-1===e&&pc.hasVagina()&&(e=rand(pc.vaginaTotal()));3===e&&(e=-1);output(\"You press the cheerful blue <i>“Tentacle Training”</i> button, which somehow seems to be the <i>least</i> invasive o..."
   },
   {
-    "key": "button|Egg_Trainer|90d59d32749f",
+    "key": "button.hover|Raw_Tentacle|41a750bdbf21",
+    "original": "Raw Tentacle",
+    "translation": "",
+    "context": "<<POS:21709921>> addButton(0,\"Raw Tentacle\",(function(){clearOutput(),iR();var e=pc.findEmptyPregnancySlot(GLOBAL.PREGSLOT_ANY);-1===e&&pc.hasVagina()&&(e=rand(pc.vaginaTotal()));3===e&&(e=-1);output(\"You press the cheerful blue <i>“Tentacle Training”</i> button, which somehow seems to be the <i>least</i> invasive o..."
+  },
+  {
+    "key": "button.tooltip|No_eggs_this_time_You_just_want_to_feel_that_slippery_tentacle|de094a978804",
+    "original": "No eggs this time. You just want to feel that slippery tentacle slithering inside you...",
+    "translation": "",
+    "context": "<<POS:21709936>> addButton(0,\"Raw Tentacle\",(function(){clearOutput(),iR();var e=pc.findEmptyPregnancySlot(GLOBAL.PREGSLOT_ANY);-1===e&&pc.hasVagina()&&(e=rand(pc.vaginaTotal()));3===e&&(e=-1);output(\"You press the cheerful blue <i>“Tentacle Training”</i> button, which somehow seems to be the <i>least</i> invasive o..."
+  },
+  {
+    "key": "button|Egg_Trainer|bc14cfd84b50",
     "original": "Egg Trainer",
     "translation": "",
-    "context": "<<POS:21710121>>"
+    "context": "<<POS:21710121>> addButton(1,\"Egg Trainer\",(function(){clearOutput(),iR(),author(\"Savin\");var e=pc.findEmptyPregnancySlot(GLOBAL.PREGSLOT_ANY);-1===e&&pc.hasVagina()&&(e=rand(pc.vaginaTotal()));3===e&&(e=-1);output(\"You press the bright pink <i>“Egg Training”</i> button, \"),void 0===flags.EGG_TRAINING_TIMES?output(\"..."
   },
   {
-    "key": "button|Carry_Train|975ad388cc8f",
+    "key": "button.hover|Egg_Training|e3747ed0e7ec",
+    "original": "Egg Training",
+    "translation": "",
+    "context": "<<POS:21725717>> addButton(1,\"Egg Trainer\",(function(){clearOutput(),iR(),author(\"Savin\");var e=pc.findEmptyPregnancySlot(GLOBAL.PREGSLOT_ANY);-1===e&&pc.hasVagina()&&(e=rand(pc.vaginaTotal()));3===e&&(e=-1);output(\"You press the bright pink <i>“Egg Training”</i> button, \"),void 0===flags.EGG_TRAINING_TIMES?output(\"..."
+  },
+  {
+    "key": "button.tooltip|Have_the_machine_fill_you_with_eggs_and_lube_then_lay_them_righ|26f44603ea67",
+    "original": "Have the machine fill you with eggs and lube, then lay them right back into the cleaning pool. Something tells you between a tentacle fucking and a two-way oviposition, you’d be in for a wild ride.",
+    "translation": "",
+    "context": "<<POS:21725732>> addButton(1,\"Egg Trainer\",(function(){clearOutput(),iR(),author(\"Savin\");var e=pc.findEmptyPregnancySlot(GLOBAL.PREGSLOT_ANY);-1===e&&pc.hasVagina()&&(e=rand(pc.vaginaTotal()));3===e&&(e=-1);output(\"You press the bright pink <i>“Egg Training”</i> button, \"),void 0===flags.EGG_TRAINING_TIMES?output(\"..."
+  },
+  {
+    "key": "button|Carry_Train|c8eda4c95cf5",
     "original": "Carry Train",
     "translation": "",
-    "context": "<<POS:21725981>>"
+    "context": "<<POS:21725981>> addDisabledButton(2,\"Carry Train\",\"Carry Train\",\"You aren’t experienced enough with this machine to try this.\")"
   },
   {
-    "key": "button|Carry_Train|86a7fb995c3d",
+    "key": "button.hover|You_aren_t_experienced_enough_with_this_machine_to_try_this|4830ee5d7df3",
+    "original": "You aren’t experienced enough with this machine to try this.",
+    "translation": "",
+    "context": "<<POS:21726009>> addDisabledButton(2,\"Carry Train\",\"Carry Train\",\"You aren’t experienced enough with this machine to try this.\")"
+  },
+  {
+    "key": "button|Carry_Train|eb76d841e38b",
     "original": "Carry Train",
     "translation": "",
-    "context": "<<POS:21726085>>"
+    "context": "<<POS:21726085>> addButton(2,\"Carry Train\",(function(){clearOutput(),iR(),author(\"Savin\");var e=pc.findEmptyPregnancySlot(GLOBAL.PREGSLOT_ANY);-1===e&&pc.hasVagina()&&(e=rand(pc.vaginaTotal()));3===e&&(e=-1);void 0===flags.CARRY_TRAINING_TIMES?output(\"Having experimented to your heart’s content with the lesser optio..."
   },
   {
-    "key": "button|Faux_Preg|c3cf6a01d684",
+    "key": "button.hover|Carry_Train|eb76d841e38b",
+    "original": "Carry Train",
+    "translation": "",
+    "context": "<<POS:21738631>> addButton(2,\"Carry Train\",(function(){clearOutput(),iR(),author(\"Savin\");var e=pc.findEmptyPregnancySlot(GLOBAL.PREGSLOT_ANY);-1===e&&pc.hasVagina()&&(e=rand(pc.vaginaTotal()));3===e&&(e=-1);void 0===flags.CARRY_TRAINING_TIMES?output(\"Having experimented to your heart’s content with the lesser optio..."
+  },
+  {
+    "key": "button.tooltip|Have_the_tentacle_device_fill_you_with_eggs_This_option_adverti|ecc0544ad2f9",
+    "original": "Have the tentacle-device fill you with eggs. This option advertises TamaniCorp brand Lock-Lube, made to ensure that your eggs are lodged inside you for a good long while... You’ll be carrying so many eggs that you’ll look positively pregnant for about a week, it tells you.",
+    "translation": "",
+    "context": "<<POS:21738645>> addButton(2,\"Carry Train\",(function(){clearOutput(),iR(),author(\"Savin\");var e=pc.findEmptyPregnancySlot(GLOBAL.PREGSLOT_ANY);-1===e&&pc.hasVagina()&&(e=rand(pc.vaginaTotal()));3===e&&(e=-1);void 0===flags.CARRY_TRAINING_TIMES?output(\"Having experimented to your heart’s content with the lesser optio..."
+  },
+  {
+    "key": "button|Faux_Preg|f44dd6395efe",
     "original": "Faux Preg",
     "translation": "",
-    "context": "<<POS:21738936>>"
+    "context": "<<POS:21738936>> addButton(3,\"Faux Preg\",(function(){clearOutput(),iR(),author(\"Savin\");var e=pc.findEmptyPregnancySlot(GLOBAL.PREGSLOT_ANY);-1===e&&pc.hasVagina()&&(e=rand(pc.vaginaTotal()));3===e&&(e=-1);output(\"Having thoroughly enjoyed the other services your lewd little egg-trainer has to offer, you wistfully c..."
   },
   {
-    "key": "button|Faux_Preg|f1ffcc430bcd",
+    "key": "button.hover|Faux_Preg|f44dd6395efe",
     "original": "Faux Preg",
     "translation": "",
-    "context": "<<POS:21745407>>"
+    "context": "<<POS:21744924>> addButton(3,\"Faux Preg\",(function(){clearOutput(),iR(),author(\"Savin\");var e=pc.findEmptyPregnancySlot(GLOBAL.PREGSLOT_ANY);-1===e&&pc.hasVagina()&&(e=rand(pc.vaginaTotal()));3===e&&(e=-1);output(\"Having thoroughly enjoyed the other services your lewd little egg-trainer has to offer, you wistfully c..."
   },
   {
-    "key": "button|Ovalasting|57af998d5c09",
+    "key": "button.tooltip|This_special_service_causes_the_tentacle_to_fuck_a_single_uni|a516bff4713d",
+    "original": "This special “service” causes the tentacle to fuck a single, unique egg into you - what the screen labels a “faux-preg egg.” This special egg lodges inside you and grows, grows, grows inside you until your belly is completely gravid. And there’s no way it’s coming out once it goes in without some medical intervention, or the help of the Egg Trainer machine. All the joys of being perpetually, gravidly pregnant without the inevitable childbirth.",
+    "translation": "",
+    "context": "<<POS:21744936>> addButton(3,\"Faux Preg\",(function(){clearOutput(),iR(),author(\"Savin\");var e=pc.findEmptyPregnancySlot(GLOBAL.PREGSLOT_ANY);-1===e&&pc.hasVagina()&&(e=rand(pc.vaginaTotal()));3===e&&(e=-1);output(\"Having thoroughly enjoyed the other services your lewd little egg-trainer has to offer, you wistfully c..."
+  },
+  {
+    "key": "button|Faux_Preg|812fa44bbb5e",
+    "original": "Faux Preg",
+    "translation": "",
+    "context": "<<POS:21745407>> addDisabledButton(3,\"Faux Preg\",\"Faux Preg\",\"You are not yet experienced enough for this. You’ll have to work up to it.\")"
+  },
+  {
+    "key": "button.hover|You_are_not_yet_experienced_enough_for_this_You_ll_have_to_work|3a3ad288b29c",
+    "original": "You are not yet experienced enough for this. You’ll have to work up to it.",
+    "translation": "",
+    "context": "<<POS:21745431>> addDisabledButton(3,\"Faux Preg\",\"Faux Preg\",\"You are not yet experienced enough for this. You’ll have to work up to it.\")"
+  },
+  {
+    "key": "button|Ovalasting|b159a40732ea",
     "original": "Ovalasting",
     "translation": "",
-    "context": "<<POS:21745523>>"
+    "context": "<<POS:21745523>> addButton(4,\"Ovalasting\",(function e(){clearOutput(),iR(),output(blockHeader(\"Ovalasting\")),author(\"Nonesuch\"),output(\"You study the final button on your ovipositing machine. “Ovalasting”? It’s not exactly self-explanatory. You push it, and watch as the holo display once again lights up.\"),output(\"\\..."
+  },
+  {
+    "key": "button.hover|Ovalasting|b159a40732ea",
+    "original": "Ovalasting",
+    "translation": "",
+    "context": "<<POS:21756068>> addButton(4,\"Ovalasting\",(function e(){clearOutput(),iR(),output(blockHeader(\"Ovalasting\")),author(\"Nonesuch\"),output(\"You study the final button on your ovipositing machine. “Ovalasting”? It’s not exactly self-explanatory. You push it, and watch as the holo display once again lights up.\"),output(\"\\..."
   },
   {
     "key": "button|Ovalasting|663c02acee53",
     "original": "Ovalasting",
     "translation": "",
-    "context": "<<POS:21756255>>"
+    "context": "<<POS:21756255>> addDisabledButton(4,\"Ovalasting\",\"Ovalasting\",\"This button is dull. It looks like you need to try some of the other options first before the machine will activate something that’s obviously for experienced users only.\")"
   },
   {
-    "key": "button|Egg_Training|2f11a0e33fd9",
+    "key": "button.hover|This_button_is_dull_It_looks_like_you_need_to_try_some_of_the_o|217ba50dbfa8",
+    "original": "This button is dull. It looks like you need to try some of the other options first before the machine will activate something that’s obviously for experienced users only.",
+    "translation": "",
+    "context": "<<POS:21756281>> addDisabledButton(4,\"Ovalasting\",\"Ovalasting\",\"This button is dull. It looks like you need to try some of the other options first before the machine will activate something that’s obviously for experienced users only.\")"
+  },
+  {
+    "key": "button|Egg_Training|ceaa6e016e4c",
     "original": "Egg Training",
     "translation": "",
-    "context": "<<POS:21756480>>"
+    "context": "<<POS:21756480>> addDisabledButton(1,\"Egg Training\",\"Egg Training\",\"You have no room for eggs.\")"
   },
   {
-    "key": "button|Carry_Train|364ae5d65723",
+    "key": "button.hover|You_have_no_room_for_eggs|b6ea6ead437d",
+    "original": "You have no room for eggs.",
+    "translation": "",
+    "context": "<<POS:21756510>> addDisabledButton(1,\"Egg Training\",\"Egg Training\",\"You have no room for eggs.\")"
+  },
+  {
+    "key": "button|Carry_Train|1924ad5c1989",
     "original": "Carry Train",
     "translation": "",
-    "context": "<<POS:21756560>>"
+    "context": "<<POS:21756560>> addDisabledButton(2,\"Carry Train\",\"Carry Train\",\"You have no room for eggs.\")"
   },
   {
-    "key": "button|Faux_Preg|c3cf6a01d684#1",
+    "key": "button.hover|You_have_no_room_for_eggs|76896d002814",
+    "original": "You have no room for eggs.",
+    "translation": "",
+    "context": "<<POS:21756588>> addDisabledButton(2,\"Carry Train\",\"Carry Train\",\"You have no room for eggs.\")"
+  },
+  {
+    "key": "button|Faux_Preg|a283a76ed5d6",
     "original": "Faux Preg",
     "translation": "",
-    "context": "<<POS:21756638>>"
+    "context": "<<POS:21756638>> addDisabledButton(3,\"Faux Preg\",\"Faux Preg\",\"You have no room for eggs.\")"
   },
   {
-    "key": "button|Ovalasting|57af998d5c09#1",
+    "key": "button.hover|You_have_no_room_for_eggs|76896d002814#1",
+    "original": "You have no room for eggs.",
+    "translation": "",
+    "context": "<<POS:21756662>> addDisabledButton(3,\"Faux Preg\",\"Faux Preg\",\"You have no room for eggs.\")"
+  },
+  {
+    "key": "button|Ovalasting|0364b0667ba1",
     "original": "Ovalasting",
     "translation": "",
-    "context": "<<POS:21756712>>"
+    "context": "<<POS:21756712>> addDisabledButton(4,\"Ovalasting\",\"Ovalasting\",\"All holes are occupied.\")"
   },
   {
-    "key": "button|Remove_Egg|d8b1a1b653c3",
+    "key": "button.hover|All_holes_are_occupied|d99716518b81",
+    "original": "All holes are occupied.",
+    "translation": "",
+    "context": "<<POS:21756738>> addDisabledButton(4,\"Ovalasting\",\"Ovalasting\",\"All holes are occupied.\")"
+  },
+  {
+    "key": "button|Remove_Egg|be89191dca23",
     "original": "Remove Egg",
     "translation": "",
-    "context": "<<POS:21756822>>"
+    "context": "<<POS:21756822>> addButton(3,\"Remove Egg\",(function(){clearOutput(),iR(),author(\"Savin\");var e=pc.findPregnancyOfType(\"EggTrainerFauxPreg\"),t=e,o=pc.pregnancyData[e];3===t&&(t=-1);output(\"As enjoyable as it’s been, you’ve decided it’s time to let go of your faux-preg egg. \"),t>=0&&output(\"If anything, having it has ..."
   },
   {
-    "key": "button|Rem_OL_Egg|3266cdc7f047",
+    "key": "button.hover|Remove_Egg|be89191dca23",
+    "original": "Remove Egg",
+    "translation": "",
+    "context": "<<POS:21767535>> addButton(3,\"Remove Egg\",(function(){clearOutput(),iR(),author(\"Savin\");var e=pc.findPregnancyOfType(\"EggTrainerFauxPreg\"),t=e,o=pc.pregnancyData[e];3===t&&(t=-1);output(\"As enjoyable as it’s been, you’ve decided it’s time to let go of your faux-preg egg. \"),t>=0&&output(\"If anything, having it has ..."
+  },
+  {
+    "key": "button.tooltip|Have_the_Egg_Trainer_remove_your_Faux_Preg_Egg_somehow|c7ff0e719b80",
+    "original": "Have the Egg Trainer remove your Faux Preg Egg... somehow?",
+    "translation": "",
+    "context": "<<POS:21767548>> addButton(3,\"Remove Egg\",(function(){clearOutput(),iR(),author(\"Savin\");var e=pc.findPregnancyOfType(\"EggTrainerFauxPreg\"),t=e,o=pc.pregnancyData[e];3===t&&(t=-1);output(\"As enjoyable as it’s been, you’ve decided it’s time to let go of your faux-preg egg. \"),t>=0&&output(\"If anything, having it has ..."
+  },
+  {
+    "key": "button|Rem_OL_Egg|ae0b99cd11ff",
     "original": "Rem. OL Egg",
     "translation": "",
-    "context": "<<POS:21767725>>"
+    "context": "<<POS:21767725>> addDisabledButton(9,\"Rem. OL Egg\",\"Remove Ovalasting Egg\",\"The interface flashes ‘IN PROGRESS’ in red when you press this. Looks like you’re going to have to see the whole incubation through before the machine is willing to reverse the procedure!\")"
   },
   {
-    "key": "button|Ovalasting|9715a28610d3",
+    "key": "button.hover|The_interface_flashes_IN_PROGRESS_in_red_when_you_press_this|39692d270911",
+    "original": "The interface flashes ‘IN PROGRESS’ in red when you press this. Looks like you’re going to have to see the whole incubation through before the machine is willing to reverse the procedure!",
+    "translation": "",
+    "context": "<<POS:21767763>> addDisabledButton(9,\"Rem. OL Egg\",\"Remove Ovalasting Egg\",\"The interface flashes ‘IN PROGRESS’ in red when you press this. Looks like you’re going to have to see the whole incubation through before the machine is willing to reverse the procedure!\")"
+  },
+  {
+    "key": "button|Ovalasting|d775c1c9bfab",
     "original": "Ovalasting",
     "translation": "",
-    "context": "<<POS:21768087>>"
+    "context": "<<POS:21768087>> addDisabledButton(4,\"Ovalasting\",\"Ovalasting\",\"All holes are occupied.\")"
   },
   {
-    "key": "button|Rem_OL_Egg|770aeec3c1de",
+    "key": "button.hover|All_holes_are_occupied|41089b981def",
+    "original": "All holes are occupied.",
+    "translation": "",
+    "context": "<<POS:21768113>> addDisabledButton(4,\"Ovalasting\",\"Ovalasting\",\"All holes are occupied.\")"
+  },
+  {
+    "key": "button|Rem_OL_Egg|dfd2e1048029",
     "original": "Rem. OL Egg",
     "translation": "",
-    "context": "<<POS:21768152>>"
+    "context": "<<POS:21768152>> addButton(9,\"Rem. OL Egg\",(function(){clearOutput(),iR(),output(blockHeader(\"Ovalasting\")),author(\"Nonesuch\"),clearMenu();var e=0,t=pc.getStatusEffect(\"Ovalasting\");t&&(0!==t.value1&&e++,0!==t.value2&&e++,0!==t.value3&&e++,0!==t.value4&&e++);var o=0;e>=2||pc.hasVagina()?(output(\"Which Ovalasting egg..."
   },
   {
-    "key": "button|Uninstall|9bb3b7a76aa0",
+    "key": "button.hover|Remove_Ovalasting_Egg|bcc33ae594b0",
+    "original": "Remove Ovalasting Egg",
+    "translation": "",
+    "context": "<<POS:21777010>> addButton(9,\"Rem. OL Egg\",(function(){clearOutput(),iR(),output(blockHeader(\"Ovalasting\")),author(\"Nonesuch\"),clearMenu();var e=0,t=pc.getStatusEffect(\"Ovalasting\");t&&(0!==t.value1&&e++,0!==t.value2&&e++,0!==t.value3&&e++,0!==t.value4&&e++);var o=0;e>=2||pc.hasVagina()?(output(\"Which Ovalasting egg..."
+  },
+  {
+    "key": "button.tooltip|Get|0229873fc825",
+    "original": "Get ",
+    "translation": "",
+    "context": "<<POS:21777034>> addButton(9,\"Rem. OL Egg\",(function(){clearOutput(),iR(),output(blockHeader(\"Ovalasting\")),author(\"Nonesuch\"),clearMenu();var e=0,t=pc.getStatusEffect(\"Ovalasting\");t&&(0!==t.value1&&e++,0!==t.value2&&e++,0!==t.value3&&e++,0!==t.value4&&e++);var o=0;e>=2||pc.hasVagina()?(output(\"Which Ovalasting egg..."
+  },
+  {
+    "key": "button|Uninstall|25e8b03bcdab",
     "original": "Uninstall",
     "translation": "",
-    "context": "<<POS:21777703>>"
+    "context": "<<POS:21777703>> addDisabledButton(13,\"Uninstall\",\"Uninstall Device\",\"It might not be a good idea to uninstall the device while still implanted with eggs.\")"
   },
   {
-    "key": "button|Uninstall|4669c0b08a8a",
+    "key": "button.hover|It_might_not_be_a_good_idea_to_uninstall_the_device_while_still|33258cb8364b",
+    "original": "It might not be a good idea to uninstall the device while still implanted with eggs.",
+    "translation": "",
+    "context": "<<POS:21777734>> addDisabledButton(13,\"Uninstall\",\"Uninstall Device\",\"It might not be a good idea to uninstall the device while still implanted with eggs.\")"
+  },
+  {
+    "key": "button|Uninstall|83e25a218446",
     "original": "Uninstall",
     "translation": "",
-    "context": "<<POS:21777835>>"
+    "context": "<<POS:21777835>> addButton(13,\"Uninstall\",(function(){clearOutput(),iR(),output(blockHeader(\"Uninstalling...\")),output(\"You take some time to uninstall the dedicated egg-implanting device.\"),output(\"\\n\\n<b>You no longer have the TamaniCorp Egg Trainer installed!</b>\"),processTime(8),flags.EGG_TRAINER_INSTALLED=void ..."
   },
   {
-    "key": "button|Leave|88fce4edc245",
+    "key": "button.hover|Uninstall_Device|aef7e29258b4",
+    "original": "Uninstall Device",
+    "translation": "",
+    "context": "<<POS:21778161>> addButton(13,\"Uninstall\",(function(){clearOutput(),iR(),output(blockHeader(\"Uninstalling...\")),output(\"You take some time to uninstall the dedicated egg-implanting device.\"),output(\"\\n\\n<b>You no longer have the TamaniCorp Egg Trainer installed!</b>\"),processTime(8),flags.EGG_TRAINER_INSTALLED=void ..."
+  },
+  {
+    "key": "button.tooltip|Unplug_the_machine_and_put_it_in_your_inventory|534b55b19afc",
+    "original": "Unplug the machine and put it in your inventory.",
+    "translation": "",
+    "context": "<<POS:21778180>> addButton(13,\"Uninstall\",(function(){clearOutput(),iR(),output(blockHeader(\"Uninstalling...\")),output(\"You take some time to uninstall the dedicated egg-implanting device.\"),output(\"\\n\\n<b>You no longer have the TamaniCorp Egg Trainer installed!</b>\"),processTime(8),flags.EGG_TRAINER_INSTALLED=void ..."
+  },
+  {
+    "key": "button|Leave|3aa78215d593",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:21778245>>"
+    "context": "<<POS:21778245>> addButton(14,\"Leave\",(function(){clearOutput(),author(\"Savin\"),output(\"You decide against using the egg trainer, and put it on standby for the time being. The screen flickers off, and the burbling noises you occasionally hear inside it fade to a low murmur.\"),clearMenu(),addButton(0,\"Next\",mainGameM..."
   },
   {
-    "key": "output|n_n_b_You_re_pretty_sure_you_ve_gotten_a_little_stretchier_down|604ebc29c68d",
-    "original": "\\n\\n<b>You’re pretty sure you’ve gotten a little stretchier down there from the experience.",
+    "key": "output|b_You_re_pretty_sure_you_ve_gotten_a_little_stretchier_down_the|c7df8c063b73",
+    "original": "<b>You’re pretty sure you’ve gotten a little stretchier down there from the experience.",
     "translation": "",
-    "context": "<<POS:21778788>>"
+    "context": "<<POS:21778792>>"
   },
   {
-    "key": "output|n_n_b_You_re_pretty_sure_you_ve_gotten_a_little_stretchier_down|a02480be07f6",
-    "original": "\\n\\n<b>You’re pretty sure you’ve gotten a little stretchier down there from the experience.",
+    "key": "output|b_You_re_pretty_sure_you_ve_gotten_a_little_stretchier_down_the|124a18137925",
+    "original": "<b>You’re pretty sure you’ve gotten a little stretchier down there from the experience.",
     "translation": "",
-    "context": "<<POS:21778950>>"
+    "context": "<<POS:21778954>>"
   },
   {
-    "key": "output|n_n_b_You_re_pretty_sure_you_ve_gotten_a_good_bit_stretchier_do|2fd9e0ed80be",
-    "original": "\\n\\n<b>You’re pretty sure you’ve gotten a good bit stretchier down there from the experience.",
+    "key": "output|b_You_re_pretty_sure_you_ve_gotten_a_good_bit_stretchier_down_t|7215258aca08",
+    "original": "<b>You’re pretty sure you’ve gotten a good bit stretchier down there from the experience.",
     "translation": "",
-    "context": "<<POS:21779168>>"
+    "context": "<<POS:21779172>>"
   },
   {
-    "key": "output|n_n_b_You_re_pretty_sure_you_ve_gotten_a_good_bit_stretchier_do|ac1ca5f22331",
-    "original": "\\n\\n<b>You’re pretty sure you’ve gotten a good bit stretchier down there from the experience.",
+    "key": "output|b_You_re_pretty_sure_you_ve_gotten_a_good_bit_stretchier_down_t|464aa5b21fa0",
+    "original": "<b>You’re pretty sure you’ve gotten a good bit stretchier down there from the experience.",
     "translation": "",
-    "context": "<<POS:21779333>>"
+    "context": "<<POS:21779337>>"
   },
   {
-    "key": "output|n_n_b_You_re_pretty_sure_you_ve_gotten_a_lot_stretchier_down_th|cc72ca2a9115",
-    "original": "\\n\\n<b>You’re pretty sure you’ve gotten a lot stretchier down there from the experience.",
+    "key": "output|b_You_re_pretty_sure_you_ve_gotten_a_lot_stretchier_down_there|0a20e102016e",
+    "original": "<b>You’re pretty sure you’ve gotten a lot stretchier down there from the experience.",
     "translation": "",
-    "context": "<<POS:21779553>>"
+    "context": "<<POS:21779557>>"
   },
   {
-    "key": "output|n_n_b_You_re_pretty_sure_you_ve_gotten_a_lot_stretchier_down_th|8d3d2ed0c949",
-    "original": "\\n\\n<b>You’re pretty sure you’ve gotten a lot stretchier down there from the experience.",
+    "key": "output|b_You_re_pretty_sure_you_ve_gotten_a_lot_stretchier_down_there|75c6c2c1899e",
+    "original": "<b>You’re pretty sure you’ve gotten a lot stretchier down there from the experience.",
     "translation": "",
-    "context": "<<POS:21779708>>"
+    "context": "<<POS:21779712>>"
   },
   {
     "key": "button|Next|6a17b7507b5b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:21780364>>"
+    "context": "<<POS:21780364>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|blockHeader_Installing|3b09a5cf9d92",
@@ -228,40 +366,40 @@
     "context": "<<POS:21781478>>"
   },
   {
-    "key": "output|n_nThe_readout_shows_the_Tamani_Corp_logo_for_a_moment_before_r|d95599341dcc",
-    "original": "\\n\\nThe readout shows the Tamani Corp logo for a moment before resolving into a product registration screen, prompting you for your email address. You give it somewhat reluctantly - there doesn’t seem to be any way to skip the screen - and watch as the screen fades out and into a main menu of sorts, indicating a button labeled <i>“Tutorial”</i>. You click it.",
+    "key": "output|The_readout_shows_the_Tamani_Corp_logo_for_a_moment_before_resol|510c477362ec",
+    "original": "The readout shows the Tamani Corp logo for a moment before resolving into a product registration screen, prompting you for your email address. You give it somewhat reluctantly - there doesn’t seem to be any way to skip the screen - and watch as the screen fades out and into a main menu of sorts, indicating a button labeled <i>“Tutorial”</i>. You click it.",
     "translation": "",
-    "context": "<<POS:21782035>>"
+    "context": "<<POS:21782039>>"
   },
   {
-    "key": "output|n_nA_cute_hand_drawn_looking_doodle_of_the_machine_dances_arou|40ac4818af2c",
-    "original": "\\n\\nA cute, hand-drawn-looking doodle of the machine dances around underneath the option buttons, cavorting its way to the center of the screen. After a moment, a facsimile of a person appears on the menu, sitting down on the saddle-like seat on the far side of the box, straddling it like an animal - or a lover - with spread legs. The image of the training box cuts away, showing a tube-like tentacle rising from within, lurching up through the bottom of the saddle-seat and into the box’s owner. The view then shifts to a tub of eggs floating in a bubbling liquid, which start to get sucked up through one end of the tube like a vacuum, pumping into the cartoon human.",
+    "key": "output|A_cute_hand_drawn_looking_doodle_of_the_machine_dances_around_u|7bd7ea34af36",
+    "original": "A cute, hand-drawn-looking doodle of the machine dances around underneath the option buttons, cavorting its way to the center of the screen. After a moment, a facsimile of a person appears on the menu, sitting down on the saddle-like seat on the far side of the box, straddling it like an animal - or a lover - with spread legs. The image of the training box cuts away, showing a tube-like tentacle rising from within, lurching up through the bottom of the saddle-seat and into the box’s owner. The view then shifts to a tub of eggs floating in a bubbling liquid, which start to get sucked up through one end of the tube like a vacuum, pumping into the cartoon human.",
     "translation": "",
-    "context": "<<POS:21782407>>"
+    "context": "<<POS:21782411>>"
   },
   {
-    "key": "output|n_nYou_watch_with_wide_eyes_as_the_tentacle_pumps_its_rider_ful|a1a05bb9a383",
-    "original": "\\n\\nYou watch with wide eyes as the tentacle pumps its rider full of eggs, one after another, until his belly is swollen to bursting with them, looking as gravid as a woman nine months pregnant. A cartoon boner appears between his legs as the eggs flood in, erupting in a white geyser just as the final one pops into his ass. The tentacle then withdraws, leaving the rider agape... and letting the eggs fall out, one after the other, causing the animated figure to climax messily as his belly shrinks back down and the pool refills with its eggs.",
+    "key": "output|You_watch_with_wide_eyes_as_the_tentacle_pumps_its_rider_full_of|f267c14ebbc1",
+    "original": "You watch with wide eyes as the tentacle pumps its rider full of eggs, one after another, until his belly is swollen to bursting with them, looking as gravid as a woman nine months pregnant. A cartoon boner appears between his legs as the eggs flood in, erupting in a white geyser just as the final one pops into his ass. The tentacle then withdraws, leaving the rider agape... and letting the eggs fall out, one after the other, causing the animated figure to climax messily as his belly shrinks back down and the pool refills with its eggs.",
     "translation": "",
-    "context": "<<POS:21783089>>"
+    "context": "<<POS:21783093>>"
   },
   {
-    "key": "output|n_nWell_that_doesn_t_leave_much_to_the_imagination_You_turn|eced87676ba2",
-    "original": "\\n\\nWell, that doesn’t leave much to the imagination... You turn your attention to the buttons appearing on the screen, showing you what this lascivious device is offering.",
+    "key": "output|Well_that_doesn_t_leave_much_to_the_imagination_You_turn_you|c2eb5f28b3c9",
+    "original": "Well, that doesn’t leave much to the imagination... You turn your attention to the buttons appearing on the screen, showing you what this lascivious device is offering.",
     "translation": "",
-    "context": "<<POS:21783646>>"
+    "context": "<<POS:21783650>>"
   },
   {
-    "key": "output|n_n_i_The_TamaniCorp_Egg_Trainer_has_been_removed_from_your_in|3eafa75f06d5",
-    "original": "\\n\\n(<i>The TamaniCorp Egg Trainer has been removed from your inventory and <b>installed</b></i>.)",
+    "key": "output|i_The_TamaniCorp_Egg_Trainer_has_been_removed_from_your_invent|561b642ebd84",
+    "original": "(<i>The TamaniCorp Egg Trainer has been removed from your inventory and <b>installed</b></i>.)",
     "translation": "",
-    "context": "<<POS:21783829>>"
+    "context": "<<POS:21783833>>"
   },
   {
-    "key": "output|n_i_You_can_access_it_from_b_Masturbation_Installed_b_anyw|a1445344e3f6",
-    "original": "\\n(<i>You can access it from <b>Masturbation->Installed</b> anywhere on your ship or by visiting the <b>Storage</b> room.</i>)",
+    "key": "output|i_You_can_access_it_from_b_Masturbation_Installed_b_anywhe|d61b9e51505a",
+    "original": "(<i>You can access it from <b>Masturbation->Installed</b> anywhere on your ship or by visiting the <b>Storage</b> room.</i>)",
     "translation": "",
-    "context": "<<POS:21783938>>"
+    "context": "<<POS:21783940>>"
   },
   {
     "key": "output|You_must_be_onboard_your_ship_in_order_to_install_the_Egg_Traine|e5930e9228db",
@@ -306,16 +444,16 @@
     "context": "<<POS:21785165>>"
   },
   {
-    "key": "output|n_nYou_feel_the_contractions_quickening_and_prepare_to_push_the|ed3ec874c998",
-    "original": "\\n\\nYou feel the contractions quickening and prepare to push the eggs out. Steeling yourself for the coming eggs, you prepare to push, expecting it to be a bit tough. Contrary to your beliefs, as soon as you push a torrent of eggs slip through your passage. The suddenness of it causes your muscles to tense, [pc.legs] splaying out in the air. Before you can recover your wits a few more eggs slide out of you and into the pile.",
+    "key": "output|You_feel_the_contractions_quickening_and_prepare_to_push_the_egg|17e21244b138",
+    "original": "You feel the contractions quickening and prepare to push the eggs out. Steeling yourself for the coming eggs, you prepare to push, expecting it to be a bit tough. Contrary to your beliefs, as soon as you push a torrent of eggs slip through your passage. The suddenness of it causes your muscles to tense, [pc.legs] splaying out in the air. Before you can recover your wits a few more eggs slide out of you and into the pile.",
     "translation": "",
-    "context": "<<POS:21785263>>"
+    "context": "<<POS:21785267>>"
   },
   {
-    "key": "output|n_nYou_can_t_resist_any_longer_as_the_final_eggs_leave_your_bod|764d40ac0195",
-    "original": "\\n\\nYou can’t resist any longer as the final eggs leave your body, cumming as the last of them are pushed out. Spasms rock your body, pumping out two or three eggs at a time until your ",
+    "key": "output|You_can_t_resist_any_longer_as_the_final_eggs_leave_your_body_c|fe858631d142",
+    "original": "You can’t resist any longer as the final eggs leave your body, cumming as the last of them are pushed out. Spasms rock your body, pumping out two or three eggs at a time until your ",
     "translation": "",
-    "context": "<<POS:21785702>>"
+    "context": "<<POS:21785706>>"
   },
   {
     "key": "output|ass|c0a03e9bb75e",
@@ -336,16 +474,16 @@
     "context": "<<POS:21785933>>"
   },
   {
-    "key": "output|n_nAfter_all_that_b_you_count_having_laid_Ot_m_numToText_t|699dce9b71ae",
-    "original": "\\n\\nAfter all that, <b>you count having laid \"+Ot.m.numToText(t)+\" eggs!</b>",
+    "key": "output|After_all_that_b_you_count_having_laid_Ot_m_numToText_t_e|081d23160bf9",
+    "original": "After all that, <b>you count having laid \"+Ot.m.numToText(t)+\" eggs!</b>",
     "translation": "",
-    "context": "<<POS:21786311>>"
+    "context": "<<POS:21786315>>"
   },
   {
     "key": "button|Next|c55d5e4bede4",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:21786476>>"
+    "context": "<<POS:21786476>> addButton(0,\"Next\",(function(){return function(e){if(!pc.hasStatusEffect(\"Eggy Belly\"))return void mainGameMenu();for(var t=0,o=0;o<pc.pregnancyData.length;o++){var a=pc.pregnancyData[o];\"EggTrainerCarryTraining\"===a.pregnancyType&&(a.pregnancyQuantity+=t)}pc.addStatusValue(\"Eggy Belly\",3,-1*e),pc.s..."
   },
   {
     "key": "output|blockHeader_Eggs|e36428278cb9",
@@ -360,13 +498,13 @@
     "context": "<<POS:21788632>>"
   },
   {
-    "key": "output|n_nIn_a_slight_panic_you_waddle|a1d894833709",
-    "original": "\\n\\nIn a slight panic, you waddle",
+    "key": "output|In_a_slight_panic_you_waddle|09c3e1377618",
+    "original": "In a slight panic, you waddle",
     "translation": "",
-    "context": "<<POS:21788800>>"
+    "context": "<<POS:21788804>>"
   },
   {
-    "key": "output|to_your_bedroom|7122768d4291",
+    "key": "output|to_your_bedroom|a51cd783c1aa",
     "original": " to your bedroom",
     "translation": "",
     "context": "<<POS:21788846>>"
@@ -402,16 +540,16 @@
     "context": "<<POS:21789595>>"
   },
   {
-    "key": "output|n_nThey_just_keep_coming_one_after_the_other_sliding_down_3|4354e9f24313",
-    "original": "\\n\\nThey just keep coming, one after the other sliding down \"+(3===e?\"your back passage\":\"the tunnel of your twat\")+\" and stretching you wide, requiring huffing, hefty pushes of your [pc.hips] to come free and land in the oozing, ever-growing pile. Another orgasm follows swiftly upon the heels of the last, blowing away all thought as you lay yet another \"+(o?\"huge, pink, ostrich-like egg\":\"cute, pink oval\")+\", the pressure put on your \"+(3===e?pc.hasCock()?\"prostate\":\"rectum\":\"sensitive pussy lips\")+\"; you lose yourself utterly in the process, nothing more than a helpless, egg-producing machine, squatting and birthing the wonderful, hefty brood that you grew within you.",
+    "key": "output|They_just_keep_coming_one_after_the_other_sliding_down_3_e|7006b67d34d0",
+    "original": "They just keep coming, one after the other sliding down \"+(3===e?\"your back passage\":\"the tunnel of your twat\")+\" and stretching you wide, requiring huffing, hefty pushes of your [pc.hips] to come free and land in the oozing, ever-growing pile. Another orgasm follows swiftly upon the heels of the last, blowing away all thought as you lay yet another \"+(o?\"huge, pink, ostrich-like egg\":\"cute, pink oval\")+\", the pressure put on your \"+(3===e?pc.hasCock()?\"prostate\":\"rectum\":\"sensitive pussy lips\")+\"; you lose yourself utterly in the process, nothing more than a helpless, egg-producing machine, squatting and birthing the wonderful, hefty brood that you grew within you.",
     "translation": "",
-    "context": "<<POS:21789949>>"
+    "context": "<<POS:21789953>>"
   },
   {
-    "key": "output|n_nEventually_you_fall_to_one_side_numbed_dazed_and_thoroughl|701ae7c3d1d8",
-    "original": "\\n\\nEventually you fall to one side, numbed, dazed and thoroughly gaped, your [pc.groin] and thighs utterly coated in",
+    "key": "output|Eventually_you_fall_to_one_side_numbed_dazed_and_thoroughly_ga|24325c93025c",
+    "original": "Eventually you fall to one side, numbed, dazed and thoroughly gaped, your [pc.groin] and thighs utterly coated in",
     "translation": "",
-    "context": "<<POS:21790638>>"
+    "context": "<<POS:21790642>>"
   },
   {
     "key": "output|pc_cum|ba524cf3a0c3",
@@ -462,13 +600,13 @@
     "context": "<<POS:21791377>>"
   },
   {
-    "key": "output|n_nYou|65c12cea865e",
-    "original": "\\n\\nYou",
+    "key": "output|You|8b62bba7466e",
+    "original": "You",
     "translation": "",
-    "context": "<<POS:21791565>>"
+    "context": "<<POS:21791569>>"
   },
   {
-    "key": "output|wash_them_in_the_bathroom|4125ee1f7585",
+    "key": "output|wash_them_in_the_bathroom|1627e5d4b0b2",
     "original": " wash them in the bathroom",
     "translation": "",
     "context": "<<POS:21791585>>"
@@ -492,13 +630,7 @@
     "context": "<<POS:21791697>>"
   },
   {
-    "key": "output|n_n|70f4fb7a1c89",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:21792217>>"
-  },
-  {
-    "key": "output|blockHeader_UH_OH|317316da4d62",
+    "key": "output|blockHeader_UH_OH|57905acc7e00",
     "original": "blockHeader(\"UH-OH!\")",
     "translation": "",
     "context": "<<POS:21792327>>"
@@ -510,13 +642,13 @@
     "context": "<<POS:21792664>>"
   },
   {
-    "key": "output|n_nIn_a_slight_panic_you_waddle|6fd37184c2e4",
-    "original": "\\n\\nIn a slight panic, you waddle",
+    "key": "output|In_a_slight_panic_you_waddle|fa15ec942845",
+    "original": "In a slight panic, you waddle",
     "translation": "",
-    "context": "<<POS:21792822>>"
+    "context": "<<POS:21792826>>"
   },
   {
-    "key": "output|to_your_bedroom|7122768d4291#1",
+    "key": "output|to_your_bedroom|a51cd783c1aa#1",
     "original": " to your bedroom",
     "translation": "",
     "context": "<<POS:21792868>>"
@@ -540,10 +672,10 @@
     "context": "<<POS:21792959>>"
   },
   {
-    "key": "output|n_nYou_frown_as_you_pick_it_up_Is_that_supposed_to_happen|c852620cceb3",
-    "original": "\\n\\nYou frown as you pick it up. Is that supposed to happen?",
+    "key": "output|You_frown_as_you_pick_it_up_Is_that_supposed_to_happen|549d0b15b89a",
+    "original": "You frown as you pick it up. Is that supposed to happen?",
     "translation": "",
-    "context": "<<POS:21793283>>"
+    "context": "<<POS:21793287>>"
   },
   {
     "key": "output|The_Egg_Trainer_was_pretty_clear_that_the_thing_was_going_to_di|67811cccde8a",
@@ -567,7 +699,7 @@
     "key": "button|Next|46441f6183c5",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:21794022>>"
+    "context": "<<POS:21794022>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|blockHeader_Eggs|e36428278cb9#1",
@@ -576,13 +708,7 @@
     "context": "<<POS:21794144>>"
   },
   {
-    "key": "bust|PC_NUDE|61d04c080c09",
-    "original": "PC_NUDE",
-    "translation": "",
-    "context": "<<POS:21804682>>"
-  },
-  {
-    "key": "output|blockHeader_Public_Striptease|87b478aeecde",
+    "key": "output|blockHeader_Public_Striptease|ab471d15f10c",
     "original": "blockHeader(\"Public Striptease!\")",
     "translation": "",
     "context": "<<POS:21804711>>"
@@ -600,10 +726,10 @@
     "context": "<<POS:21804948>>"
   },
   {
-    "key": "output|n_nYou_find_a_spot_at_the_center_of_a_busy_place_and_take_a_dee|ee8bc9dff8d1",
-    "original": "\\n\\nYou find a spot at the center of a busy place and take a deep breath. Loudly, you announce to the good citizens of \"+t+\" to gather around for a free and exciting show. A few heads turn around,",
+    "key": "output|You_find_a_spot_at_the_center_of_a_busy_place_and_take_a_deep_br|c0a350d6186d",
+    "original": "You find a spot at the center of a busy place and take a deep breath. Loudly, you announce to the good citizens of \"+t+\" to gather around for a free and exciting show. A few heads turn around,",
     "translation": "",
-    "context": "<<POS:21805084>>"
+    "context": "<<POS:21805088>>"
   },
   {
     "key": "output|smirking_when_they_behold_your_exposed_figure_People_from_all|32c7902674e2",
@@ -618,13 +744,7 @@
     "context": "<<POS:21805458>>"
   },
   {
-    "key": "output|n_n|75e9d116b6de",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:21805630>>"
-  },
-  {
-    "key": "output|Already_fully_nude_there_is_nothing_more_you_can_reveal_to_the|6fea96db0541",
+    "key": "output|Already_fully_nude_there_is_nothing_more_you_can_reveal_to_the|5faf26a12588",
     "original": "Already fully nude, there is nothing more you can reveal to the ever growing crowd. Instead you opt to flaunt your assets. You begin with your [pc.fullChest], caressing \"+(pc.hasBreasts()?\"them\":\"it\")+\" sensually as you tease your [pc.nipples]. Next you drag your fingertips across your [pc.belly], drawing the eyes fixated on your body downwards. Once you reach your crotch, you give your [pc.ass] a light spank with one hand, and have the other travel over your",
     "translation": "",
     "context": "<<POS:21805657>>"
@@ -834,10 +954,10 @@
     "context": "<<POS:21809098>>"
   },
   {
-    "key": "output|n_nA_number_of_zealous_voyeurs_shamelessly_pull_up_their_device|69b462cf89a8",
-    "original": "\\n\\nA number of zealous voyeurs shamelessly pull up their devices and prepare to take pictures and video of your impending perversion. \"+(e?\"You\":\"As if on autopilot, you\")+\" grab your [pc.chest] with both hands, kneading with abandon as you savor the feelings that hit you. With one hand you pinch on a [pc.milkyNipple], releasing a moan that earns you a few hoots and whistles from your audience",
+    "key": "output|A_number_of_zealous_voyeurs_shamelessly_pull_up_their_devices_an|c17a6a6701f5",
+    "original": "A number of zealous voyeurs shamelessly pull up their devices and prepare to take pictures and video of your impending perversion. \"+(e?\"You\":\"As if on autopilot, you\")+\" grab your [pc.chest] with both hands, kneading with abandon as you savor the feelings that hit you. With one hand you pinch on a [pc.milkyNipple], releasing a moan that earns you a few hoots and whistles from your audience",
     "translation": "",
-    "context": "<<POS:21809272>>"
+    "context": "<<POS:21809276>>"
   },
   {
     "key": "output|as_well_as_some_pc_milk_You_draw_your_pc_milkNoun_covered|68b2f3e2bcc9",
@@ -858,10 +978,10 @@
     "context": "<<POS:21810075>>"
   },
   {
-    "key": "output|n_nYou_caress_every_inch_of_your_body_as_you_move_your_hands_do|09a5271c0f3b",
-    "original": "\\n\\nYou caress every inch of your body as you move your hands down to your crotch.",
+    "key": "output|You_caress_every_inch_of_your_body_as_you_move_your_hands_down_t|218453e93258",
+    "original": "You caress every inch of your body as you move your hands down to your crotch.",
     "translation": "",
-    "context": "<<POS:21810141>>"
+    "context": "<<POS:21810145>>"
   },
   {
     "key": "output|With_one_hand_you_take_hold_of_your_pc_biggestCock_and_give_i|219861551424",
@@ -882,10 +1002,10 @@
     "context": "<<POS:21810860>>"
   },
   {
-    "key": "output|n_nAfter_taking_a_few_breaths_to_recollect_your_thoughts_you_s|1eebeff60fae",
-    "original": "\\n\\nAfter taking a few breaths to recollect your thoughts, you slowly bend at the waist to reveal the last bit of you yet to be fully exposed. With a light slap to your [pc.ass], you hold both buttcheeks and spread them out,",
+    "key": "output|After_taking_a_few_breaths_to_recollect_your_thoughts_you_slowl|09e146ca4aa0",
+    "original": "After taking a few breaths to recollect your thoughts, you slowly bend at the waist to reveal the last bit of you yet to be fully exposed. With a light slap to your [pc.ass], you hold both buttcheeks and spread them out,",
     "translation": "",
-    "context": "<<POS:21811228>>"
+    "context": "<<POS:21811232>>"
   },
   {
     "key": "output|pc_eachTail_writhing_wildly_in_the_process|6ef5ee064ccf",
@@ -900,46 +1020,46 @@
     "context": "<<POS:21811568>>"
   },
   {
-    "key": "output|n_nYou_take_a_look_at_the_horny_faces_fixated_on_your_body_and|5ae032171ed0",
-    "original": "\\n\\nYou take a look at the horny faces fixated on your body and can’t help but feel elated. The host of cameras capturing every scene of your slutty show reminds you of how your actions will be shared all over the extranet, and of the number of people who will masturbate watching you debase yourself. That thought alone clouds your mind with lust and pushes your urge to please the gathered strangers further. \"+(e?\"<i>This</i> is what you live for\":\"How could you ever bring yourself to avoid all the pleasures of exposing yourself for so long?\")+\"!",
+    "key": "output|You_take_a_look_at_the_horny_faces_fixated_on_your_body_and_can|b62824034257",
+    "original": "You take a look at the horny faces fixated on your body and can’t help but feel elated. The host of cameras capturing every scene of your slutty show reminds you of how your actions will be shared all over the extranet, and of the number of people who will masturbate watching you debase yourself. That thought alone clouds your mind with lust and pushes your urge to please the gathered strangers further. \"+(e?\"<i>This</i> is what you live for\":\"How could you ever bring yourself to avoid all the pleasures of exposing yourself for so long?\")+\"!",
     "translation": "",
-    "context": "<<POS:21812016>>"
+    "context": "<<POS:21812020>>"
   },
   {
-    "key": "output|n_nIt_takes_a_moment_for_you_to_properly_focus_before_you_begin|214184d24cc6",
-    "original": "\\n\\nIt takes a moment for you to properly focus before you begin to speak. You ask the audience to share their opinions on what they saw, sending them into a frenzy as they shout all sorts of things at you. Cocktease, whore, good [pc.boy] and everything in between, and you don’t disagree with them, you can’t... after all you are here to be everything they want you to be. Once they calm down a little, you tell them just that, and strike up as many sexy poses as you can, letting them sear your image into their memories and devices to their hearts’ content.",
+    "key": "output|It_takes_a_moment_for_you_to_properly_focus_before_you_begin_to|f6155521b2ac",
+    "original": "It takes a moment for you to properly focus before you begin to speak. You ask the audience to share their opinions on what they saw, sending them into a frenzy as they shout all sorts of things at you. Cocktease, whore, good [pc.boy] and everything in between, and you don’t disagree with them, you can’t... after all you are here to be everything they want you to be. Once they calm down a little, you tell them just that, and strike up as many sexy poses as you can, letting them sear your image into their memories and devices to their hearts’ content.",
     "translation": "",
-    "context": "<<POS:21812578>>"
+    "context": "<<POS:21812582>>"
   },
   {
-    "key": "output|n_nA_few_more_minutes_pass_until_you_are_satisfied_with_how_muc|5a7909dbdc20",
-    "original": "\\n\\nA few more minutes pass until you are satisfied with how much you put out, still in full display for anyone’s pleasure. You gather your gear and prepare to go on your way hornier than ever, thanking everyone for such a wonderful time.",
+    "key": "output|A_few_more_minutes_pass_until_you_are_satisfied_with_how_much_yo|7356353a2819",
+    "original": "A few more minutes pass until you are satisfied with how much you put out, still in full display for anyone’s pleasure. You gather your gear and prepare to go on your way hornier than ever, thanking everyone for such a wonderful time.",
     "translation": "",
-    "context": "<<POS:21813170>>"
+    "context": "<<POS:21813174>>"
   },
   {
-    "key": "output|n_nYou_see_a_a_man_woman_in_Tavros_security_uniform_a|8b742c9de8f9",
-    "original": "\\n\\nYou see a \"+(a?\"man\":\"woman\")+\" in Tavros security uniform approach you slowly with a stern expression... uh’oh. \"+(a?\"He\":\"She\")+\" looks you up and down with scathing eyes and using a gruff voice utters: <i>“You know public nudity is illegal on Tavros, don’t you?”</i>",
+    "key": "output|You_see_a_a_man_woman_in_Tavros_security_uniform_appro|8e13da59fd21",
+    "original": "You see a \"+(a?\"man\":\"woman\")+\" in Tavros security uniform approach you slowly with a stern expression... uh’oh. \"+(a?\"He\":\"She\")+\" looks you up and down with scathing eyes and using a gruff voice utters: <i>“You know public nudity is illegal on Tavros, don’t you?”</i>",
     "translation": "",
-    "context": "<<POS:21813442>>"
+    "context": "<<POS:21813446>>"
   },
   {
-    "key": "output|n_nMany_of_the_voyeurs_slyly_scatter_away_as_your_heart_sinks|ebcfea1fd09c",
-    "original": "\\n\\nMany of the voyeurs slyly scatter away, as your heart sinks to your feet. What did you get yourself into?",
+    "key": "output|Many_of_the_voyeurs_slyly_scatter_away_as_your_heart_sinks_to_y|302952f68265",
+    "original": "Many of the voyeurs slyly scatter away, as your heart sinks to your feet. What did you get yourself into?",
     "translation": "",
-    "context": "<<POS:21813726>>"
+    "context": "<<POS:21813730>>"
   },
   {
-    "key": "output|n_n_i_I_will_let_it_slide_this_time_i_a_He_She|4b32474694a5",
-    "original": "\\n\\n<i>“I will let it slide, this time.”</i> \"+(a?\"He\":\"She\")+\" continues without giving you a chance to respond, handing you a folded piece of paper that \"+(a?\"he\":\"she\")+\" just scribbled something on. <i>“You will have to take this warning though.”</i>",
+    "key": "output|i_I_will_let_it_slide_this_time_i_a_He_She_cont|2d3b208db3b4",
+    "original": "<i>“I will let it slide, this time.”</i> \"+(a?\"He\":\"She\")+\" continues without giving you a chance to respond, handing you a folded piece of paper that \"+(a?\"he\":\"she\")+\" just scribbled something on. <i>“You will have to take this warning though.”</i>",
     "translation": "",
-    "context": "<<POS:21813846>>"
+    "context": "<<POS:21813850>>"
   },
   {
-    "key": "output|n_nYou_take_the_warning_and_notice_a_a_bulge_in_his_pants|8e338b86b272",
-    "original": "\\n\\nYou take the warning and notice \"+(a?\"a bulge in his pants\":\"her nipples poking through her shirt\")+\". Wait a minute... you are pretty sure you saw \"+(a?\"him\":\"her\")+\" snap a few pictures of you. You unfold the piece of paper to read it, but instead of a warning you find something very different. <i>“Nice assets!”</i> Is written in large handwriting followed by a phone number.",
+    "key": "output|You_take_the_warning_and_notice_a_a_bulge_in_his_pants_her|bfb5423a0d45",
+    "original": "You take the warning and notice \"+(a?\"a bulge in his pants\":\"her nipples poking through her shirt\")+\". Wait a minute... you are pretty sure you saw \"+(a?\"him\":\"her\")+\" snap a few pictures of you. You unfold the piece of paper to read it, but instead of a warning you find something very different. <i>“Nice assets!”</i> Is written in large handwriting followed by a phone number.",
     "translation": "",
-    "context": "<<POS:21814111>>"
+    "context": "<<POS:21814115>>"
   },
   {
     "key": "output|i_Awww_i_that_is_pretty_sweet|79f4b1dbeebc",
@@ -960,22 +1080,22 @@
     "context": "<<POS:21814660>>"
   },
   {
-    "key": "output|n_nBy_now_the_cop_has_disappeared_barring_you_from_a_chance_to|74ae29bbce0d",
-    "original": "\\n\\nBy now the cop has disappeared, barring you from a chance to respond, so you gather your gear and depart with a satisfied skip in your steps.",
+    "key": "output|By_now_the_cop_has_disappeared_barring_you_from_a_chance_to_res|a6c68abd4873",
+    "original": "By now the cop has disappeared, barring you from a chance to respond, so you gather your gear and depart with a satisfied skip in your steps.",
     "translation": "",
-    "context": "<<POS:21814710>>"
+    "context": "<<POS:21814714>>"
   },
   {
     "key": "button|Next|afe917793ca1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:21814961>>"
+    "context": "<<POS:21814961>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "name.show|Hardlight_Thong|d8339b4b466b",
     "original": "Hardlight Thong",
     "translation": "",
-    "context": "<<POS:21815054>>"
+    "context": "<<POS:21815054>> showName(\"Hardlight Thong\")"
   },
   {
     "key": "output|Ot_m_h3_Current_Status|1abc7e85fadc",
@@ -1017,43 +1137,91 @@
     "key": "button|Vag|98e041d7ec32",
     "original": "Vag: ",
     "translation": "",
-    "context": "<<POS:21815424>>"
+    "context": "<<POS:21815424>> addButton(0,\"Vag: \"+(e?\"ON\":\"OFF\"),(function(){return mR(\"cunt\")}),\"Vagina Dildo\",\"Turn \"+(e?\"off\":\"on\")+\" the vagina dildo.\")"
   },
   {
-    "key": "button|Vag_OFF|e4bd7e6c305f",
+    "key": "button.hover|Vagina_Dildo|d33f22978561",
+    "original": "Vagina Dildo",
+    "translation": "",
+    "context": "<<POS:21815479>> addButton(0,\"Vag: \"+(e?\"ON\":\"OFF\"),(function(){return mR(\"cunt\")}),\"Vagina Dildo\",\"Turn \"+(e?\"off\":\"on\")+\" the vagina dildo.\")"
+  },
+  {
+    "key": "button.tooltip|Turn|93805705d11e",
+    "original": "Turn ",
+    "translation": "",
+    "context": "<<POS:21815494>> addButton(0,\"Vag: \"+(e?\"ON\":\"OFF\"),(function(){return mR(\"cunt\")}),\"Vagina Dildo\",\"Turn \"+(e?\"off\":\"on\")+\" the vagina dildo.\")"
+  },
+  {
+    "key": "button|Vag_OFF|821609ef4966",
     "original": "Vag: OFF",
     "translation": "",
-    "context": "<<POS:21815559>>"
+    "context": "<<POS:21815559>> addDisabledButton(0,\"Vag: OFF\",\"Vagina Dildo\",\"You need a vagina to try this!\")"
   },
   {
-    "key": "button|Ass|abb7e829cee8",
+    "key": "button.hover|You_need_a_vagina_to_try_this|49171852af2c",
+    "original": "You need a vagina to try this!",
+    "translation": "",
+    "context": "<<POS:21815585>> addDisabledButton(0,\"Vag: OFF\",\"Vagina Dildo\",\"You need a vagina to try this!\")"
+  },
+  {
+    "key": "button|Ass|e263e608cac4",
     "original": "Ass: ",
     "translation": "",
-    "context": "<<POS:21815631>>"
+    "context": "<<POS:21815631>> addButton(1,\"Ass: \"+(t?\"ON\":\"OFF\"),(function(){return mR(\"butt\")}),\"Ass Dildo\",\"Turn \"+(t?\"off\":\"on\")+\" the ass dildo.\")"
   },
   {
-    "key": "button|Vibr|36c450cfc01a",
+    "key": "button.hover|Ass_Dildo|81b5b69be331",
+    "original": "Ass Dildo",
+    "translation": "",
+    "context": "<<POS:21815686>> addButton(1,\"Ass: \"+(t?\"ON\":\"OFF\"),(function(){return mR(\"butt\")}),\"Ass Dildo\",\"Turn \"+(t?\"off\":\"on\")+\" the ass dildo.\")"
+  },
+  {
+    "key": "button.tooltip|Turn|88ef6dafc0ff",
+    "original": "Turn ",
+    "translation": "",
+    "context": "<<POS:21815698>> addButton(1,\"Ass: \"+(t?\"ON\":\"OFF\"),(function(){return mR(\"butt\")}),\"Ass Dildo\",\"Turn \"+(t?\"off\":\"on\")+\" the ass dildo.\")"
+  },
+  {
+    "key": "button|Vibr|93df3fa1d511",
     "original": "Vibr: ",
     "translation": "",
-    "context": "<<POS:21815757>>"
+    "context": "<<POS:21815757>> addButton(2,\"Vibr: \"+(o?\"ON\":\"OFF\"),(function(){return mR(\"vibe\")}),\"Vibration\",\"Turn \"+(o?\"off\":\"on\")+\" dildo vibration.\")"
   },
   {
-    "key": "button|Vibr_OFF|555e1c5ea856",
+    "key": "button.hover|Vibration|91007070eeb8",
+    "original": "Vibration",
+    "translation": "",
+    "context": "<<POS:21815813>> addButton(2,\"Vibr: \"+(o?\"ON\":\"OFF\"),(function(){return mR(\"vibe\")}),\"Vibration\",\"Turn \"+(o?\"off\":\"on\")+\" dildo vibration.\")"
+  },
+  {
+    "key": "button.tooltip|Turn|3f87492561db",
+    "original": "Turn ",
+    "translation": "",
+    "context": "<<POS:21815825>> addButton(2,\"Vibr: \"+(o?\"ON\":\"OFF\"),(function(){return mR(\"vibe\")}),\"Vibration\",\"Turn \"+(o?\"off\":\"on\")+\" dildo vibration.\")"
+  },
+  {
+    "key": "button|Vibr_OFF|5d5535f520f3",
     "original": "Vibr: OFF",
     "translation": "",
-    "context": "<<POS:21815889>>"
+    "context": "<<POS:21815889>> addDisabledButton(2,\"Vibr: OFF\",\"Vibration\",\"You need a dildo to be active to try this!\")"
   },
   {
-    "key": "button|Back|66f41aaa25ff",
+    "key": "button.hover|You_need_a_dildo_to_be_active_to_try_this|23a471009637",
+    "original": "You need a dildo to be active to try this!",
+    "translation": "",
+    "context": "<<POS:21815913>> addDisabledButton(2,\"Vibr: OFF\",\"Vibration\",\"You need a dildo to be active to try this!\")"
+  },
+  {
+    "key": "button|Back|29ea84d35df9",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:21815972>>"
+    "context": "<<POS:21815972>> addButton(14,\"Back\",(function(){return window.showInventory({force:!0})}))"
   },
   {
     "key": "name.show|Hardlight_Thong|8e7ac924667c",
     "original": "Hardlight Thong",
     "translation": "",
-    "context": "<<POS:21816174>>"
+    "context": "<<POS:21816174>> showName(\"Hardlight Thong\")"
   },
   {
     "key": "output|You_find_yourself_a_seat_and_click_the_button_labeled_vagina|80fe778af8eb",
@@ -1110,10 +1278,10 @@
     "context": "<<POS:21816872>>"
   },
   {
-    "key": "output|n_nOnce_you_are_certain_that_1_pc_vaginas_length_it_is|4b86d7bac43e",
-    "original": "\\n\\nOnce you are certain that \"+(1===pc.vaginas.length?\"it is\":\"they are\")+\" done growing, you bring yourself to your [pc.feet] and experimentally move around, savoring the feeling of the dildo\"+(1===pc.vaginas.length?\"\":\"s\")+\" rubbing your insides. <i>This will be fun</i>.",
+    "key": "output|Once_you_are_certain_that_1_pc_vaginas_length_it_is_they|2f7713f51df5",
+    "original": "Once you are certain that \"+(1===pc.vaginas.length?\"it is\":\"they are\")+\" done growing, you bring yourself to your [pc.feet] and experimentally move around, savoring the feeling of the dildo\"+(1===pc.vaginas.length?\"\":\"s\")+\" rubbing your insides. <i>This will be fun</i>.",
     "translation": "",
-    "context": "<<POS:21817366>>"
+    "context": "<<POS:21817370>>"
   },
   {
     "key": "output|That_was_fun_but_it_is_time_to_relieve_your_vagina|8f159f80e55d",
@@ -1164,10 +1332,10 @@
     "context": "<<POS:21818206>>"
   },
   {
-    "key": "output|n_nOnce_you_are_certain_that_it_is_done_growing_you_bring_your|a1a915d5182a",
-    "original": "\\n\\nOnce you are certain that it is done growing, you bring yourself to your [pc.feet] and experimentally move around, savoring the feeling of the dildo shuffling inside you. <i>This will be fun</i>.",
+    "key": "output|Once_you_are_certain_that_it_is_done_growing_you_bring_yourself|e84828c35b70",
+    "original": "Once you are certain that it is done growing, you bring yourself to your [pc.feet] and experimentally move around, savoring the feeling of the dildo shuffling inside you. <i>This will be fun</i>.",
     "translation": "",
-    "context": "<<POS:21818711>>"
+    "context": "<<POS:21818715>>"
   },
   {
     "key": "output|That_was_fun_but_it_is_time_to_relieve_your_pc_asshole_from_t|9b7ec9256d7b",
@@ -1188,16 +1356,16 @@
     "context": "<<POS:21819995>>"
   },
   {
-    "key": "output|n_nYou_don_t_get_to_ponder_that_thought_long_though|948b7bce6657",
-    "original": "\\n\\nYou don’t get to ponder that thought long though...",
+    "key": "output|You_don_t_get_to_ponder_that_thought_long_though|f35de91c7809",
+    "original": "You don’t get to ponder that thought long though...",
     "translation": "",
-    "context": "<<POS:21820057>>"
+    "context": "<<POS:21820061>>"
   },
   {
-    "key": "output|n_nWithout_any_sort_of_warning_the_intensity_of_the_vibrations|fd7cf8f4702c",
-    "original": "\\n\\nWithout any sort of warning the intensity of the vibrations leaps forward several magnitudes, creating quakes of pleasure that shake your very being and probably would have brought you to your knees if you weren’t already seated. The burst of pleasure you are still experiencing has almost instantly turned your",
+    "key": "output|Without_any_sort_of_warning_the_intensity_of_the_vibrations_leap|bc6cd525bfdb",
+    "original": "Without any sort of warning the intensity of the vibrations leaps forward several magnitudes, creating quakes of pleasure that shake your very being and probably would have brought you to your knees if you weren’t already seated. The burst of pleasure you are still experiencing has almost instantly turned your",
     "translation": "",
-    "context": "<<POS:21820123>>"
+    "context": "<<POS:21820127>>"
   },
   {
     "key": "output|pc_cocks_rock_solid|fb56fa20422d",
@@ -1230,13 +1398,7 @@
     "context": "<<POS:21820686>>"
   },
   {
-    "key": "output|n_n|d0320d83e038",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:21820825>>"
-  },
-  {
-    "key": "output|As_the_dildos_stuffing_your_every_hole_continue_their_merciless|c86550d9f998",
+    "key": "output|As_the_dildos_stuffing_your_every_hole_continue_their_merciless|602d9a6c5f15",
     "original": "As the dildos stuffing your every hole continue their merciless assault on your insides, the pleasure already quaking your entire body only intensifies. Your vision blurs as your eyes roll into your head, while your mouth hangs wide open, leaving you drooling and moaning without a care in the galaxy. You are essentially the splitting image of pure bliss. At this rate you fear normal sex may not satisfy you anymore.",
     "translation": "",
     "context": "<<POS:21820845>>"
@@ -1254,13 +1416,13 @@
     "context": "<<POS:21821534>>"
   },
   {
-    "key": "output|n_nFeeling_an_orgasm_draw_near|b6de163e9218",
-    "original": "\\n\\nFeeling an orgasm draw near",
+    "key": "output|Feeling_an_orgasm_draw_near|1cdb3ec04199",
+    "original": "Feeling an orgasm draw near",
     "translation": "",
-    "context": "<<POS:21821663>>"
+    "context": "<<POS:21821667>>"
   },
   {
-    "key": "output|and_a_powerful_one_at_that|d3bbf18b6e09",
+    "key": "output|and_a_powerful_one_at_that|93b6e75bcd37",
     "original": ", and a powerful one at that",
     "translation": "",
     "context": "<<POS:21821711>>"
@@ -1284,13 +1446,13 @@
     "context": "<<POS:21821987>>"
   },
   {
-    "key": "output|n_nYou_wait_for_your_lust_to_calm_down_a_little|17983c878bc9",
-    "original": "\\n\\nYou wait for your lust to calm down a little",
+    "key": "output|You_wait_for_your_lust_to_calm_down_a_little|d7444a43c586",
+    "original": "You wait for your lust to calm down a little",
     "translation": "",
-    "context": "<<POS:21822092>>"
+    "context": "<<POS:21822096>>"
   },
   {
-    "key": "output|and_wipe_the_drool_of_your_face|994e812bf30e",
+    "key": "output|and_wipe_the_drool_of_your_face|79a94d74f87a",
     "original": ", and wipe the drool of your face,",
     "translation": "",
     "context": "<<POS:21822157>>"
@@ -1341,13 +1503,13 @@
     "key": "button|Next|09c026095e67",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:21823445>>"
+    "context": "<<POS:21823445>> addButton(0,\"Next\",yR)"
   },
   {
     "key": "name.show|Hardlight_Thong|d8339b4b466b#1",
     "original": "Hardlight Thong",
     "translation": "",
-    "context": "<<POS:21823528>>"
+    "context": "<<POS:21823528>> showName(\"Hardlight Thong\")"
   },
   {
     "key": "output|blockHeader_Orgasmic_Vibrations|dd9f82a92089",
@@ -1416,13 +1578,7 @@
     "context": "<<POS:21824645>>"
   },
   {
-    "key": "output|n_n|202fccdfad12",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:21824750>>"
-  },
-  {
-    "key": "output|But_it_i_is_i_too_late_a|d105f13ccae3",
+    "key": "output|But_it_i_is_i_too_late_a|e003dc14c0e8",
     "original": "But it <i>is</i> too late, a",
     "translation": "",
     "context": "<<POS:21824773>>"
@@ -1524,10 +1680,10 @@
     "context": "<<POS:21826259>>"
   },
   {
-    "key": "output|n_nAnother_strong_vibration_bursts_through_the_hardlight_cock|40c463811057",
-    "original": "\\n\\nAnother strong vibration bursts through the hardlight cock",
+    "key": "output|Another_strong_vibration_bursts_through_the_hardlight_cock|30e992996594",
+    "original": "Another strong vibration bursts through the hardlight cock",
     "translation": "",
-    "context": "<<POS:21826399>>"
+    "context": "<<POS:21826403>>"
   },
   {
     "key": "output|s|6430ade2703f",
@@ -1548,13 +1704,7 @@
     "context": "<<POS:21826944>>"
   },
   {
-    "key": "output|n_n|4dbe815222d1",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:21826972>>"
-  },
-  {
-    "key": "output|Your_gyrations_are_now_wild_and_erratic_Your_arms_flail_around|fd44825def69",
+    "key": "output|Your_gyrations_are_now_wild_and_erratic_Your_arms_flail_around|9658ff173286",
     "original": "Your gyrations are now wild and erratic. Your arms flail around, desperately trying to clasp onto something, anything. Whorish moans escape you unchecked. Your drooling face appears as nothing more than an expression of pure, blissful debauchery. Yet you muster every bit of energy you still have in you and beg your precious audience through your moans. You beg them to savour every inch of your body, every movement and twist you make. You beg them to film, to take pictures, and to share in every moment of your perversion. You beg them to call you a slut, a whore, and anything else they desire. You <i>are</i> here to entertain them after all. Although shocked by your announcement, it only takes a few moments for the crowd to turn rowdy and oblige every single one of your wishes, bringing you within a hair’s breadth of the orgasm you crave.",
     "translation": "",
     "context": "<<POS:21826993>>"
@@ -1572,13 +1722,7 @@
     "context": "<<POS:21828322>>"
   },
   {
-    "key": "output|n_n|c13b02c7dd92",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:21828895>>"
-  },
-  {
-    "key": "output|You_don_t_care_about_the_crowd_surrounding_you_anymore_you_i_n|554b6678abcd",
+    "key": "output|You_don_t_care_about_the_crowd_surrounding_you_anymore_you_i_n|7536254e4ddc",
     "original": "You don’t care about the crowd surrounding you anymore, you <i>need</i> this orgasm. ",
     "translation": "",
     "context": "<<POS:21828918>>"
@@ -1626,10 +1770,10 @@
     "context": "<<POS:21829844>>"
   },
   {
-    "key": "output|n_nSatisfied_and_drained_you_lay_on_the_ground_for_a_moment_to|e436f4ea61f5",
-    "original": "\\n\\nSatisfied and drained, you lay on the ground for a moment to catch your breath, meanwhile the vibrations inside you die down.",
+    "key": "output|Satisfied_and_drained_you_lay_on_the_ground_for_a_moment_to_cat|d176e7fdd4d0",
+    "original": "Satisfied and drained, you lay on the ground for a moment to catch your breath, meanwhile the vibrations inside you die down.",
     "translation": "",
-    "context": "<<POS:21830020>>"
+    "context": "<<POS:21830024>>"
   },
   {
     "key": "output|You_turn_your_face_now_with_a_slutty_expression_of_a_satisfact|9fde6f59fcb7",
@@ -1650,28 +1794,28 @@
     "context": "<<POS:21830625>>"
   },
   {
-    "key": "output|n_nYou_bring_yourself_back_up_and_get_on_your_way_The_soft_vib|227d66c08319",
-    "original": "\\n\\nYou bring yourself back up and get on your way. The soft vibration emanating from your thong, reminds you that it is still there and still active. This is not over yet and you are not sure if you want it to be.",
+    "key": "output|You_bring_yourself_back_up_and_get_on_your_way_The_soft_vibrati|f84476cd47e3",
+    "original": "You bring yourself back up and get on your way. The soft vibration emanating from your thong, reminds you that it is still there and still active. This is not over yet and you are not sure if you want it to be.",
     "translation": "",
-    "context": "<<POS:21830847>>"
+    "context": "<<POS:21830851>>"
   },
   {
     "key": "button|Next|de628664c999",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:21831196>>"
+    "context": "<<POS:21831196>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "perk|Ultra_Exhibitionist|b1d89a3d23da",
     "original": "Ultra-Exhibitionist",
     "translation": "",
-    "context": "<<POS:21832740>>"
+    "context": "<<POS:21832740>> createPerk(\"Ultra-Exhibitionist\",1,0,0,0,\"Locks your exhibitionism at max value and raises your minimum lust (and lust gain over time) when exhibiting in public.\")"
   },
   {
     "key": "name.show|Hardlight_Thong|ae42b6c003db",
     "original": "Hardlight Thong",
     "translation": "",
-    "context": "<<POS:21833485>>"
+    "context": "<<POS:21833485>> showName(\"Hardlight Thong\")"
   },
   {
     "key": "output|A_sudden_burst_in_the_intensity_of_the_vibrations_in_your_dildo|c094e6e09d5a",
@@ -1686,13 +1830,7 @@
     "context": "<<POS:21833889>>"
   },
   {
-    "key": "output|n_n|46685794aa2a",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:21834341>>"
-  },
-  {
-    "key": "output|All_that_attention_is_clouding_your_mind_with_excitement_Withou|39aef8f5f59e",
+    "key": "output|All_that_attention_is_clouding_your_mind_with_excitement_Withou|d00a3946995a",
     "original": "All that attention is clouding your mind with excitement. Without a second thought you decide to give your beloved audience a show to remember. You start to grind your [pc.hips] against your hardlight thong, releasing whorish moans of pleasure for the ever-growing crowd until the vibrations die down. You make sure to give your audience a slutty wink as you catch your breath, giving them the chance to snap a few more pictures of you.",
     "translation": "",
     "context": "<<POS:21834362>>"
@@ -1713,46 +1851,40 @@
     "key": "button|Next|90f45608294f",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:21835725>>"
+    "context": "<<POS:21835725>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
-    "key": "bust|FAPNEA|06dab97c1707",
-    "original": "FAPNEA",
-    "translation": "",
-    "context": "<<POS:21838103>>"
-  },
-  {
-    "key": "name.show|Sleep_Fapnea|3b7554cffccd",
+    "key": "name.show|Sleep_Fapnea|4628c0ea16ab",
     "original": "Sleep Fapnea",
     "translation": "",
-    "context": "<<POS:21838122>>"
+    "context": "<<POS:21838122>> showName(\"Sleep Fapnea\")"
   },
   {
-    "key": "output|n_n_b_u_Settings_u_b|d47610f003fc",
-    "original": "\\n\\n<b><u>Settings</u></b>",
+    "key": "output|b_u_Settings_u_b|775c3584a42c",
+    "original": "<b><u>Settings</u></b>",
     "translation": "",
-    "context": "<<POS:21838175>>"
+    "context": "<<POS:21838179>>"
   },
   {
-    "key": "output|n_b_Status_b|5d99b5fbe4be",
-    "original": "\\n<b>* Status:</b>",
+    "key": "output|b_Status_b|673c4a2b3405",
+    "original": "<b>* Status:</b>",
     "translation": "",
-    "context": "<<POS:21838212>>"
+    "context": "<<POS:21838214>>"
   },
   {
-    "key": "output|Active|8d5051f7e698",
+    "key": "output|Active|927c07bfff83",
     "original": " Active",
     "translation": "",
     "context": "<<POS:21838284>>"
   },
   {
-    "key": "output|n_b_Dreams_b|784ed0112f42",
-    "original": "\\n<b>* Dreams:</b>",
+    "key": "output|b_Dreams_b|815d6af9b8fc",
+    "original": "<b>* Dreams:</b>",
     "translation": "",
-    "context": "<<POS:21838302>>"
+    "context": "<<POS:21838304>>"
   },
   {
-    "key": "output|Chaste_Mode|d33a9427c44c",
+    "key": "output|Chaste_Mode|0389b50d0094",
     "original": " Chaste Mode",
     "translation": "",
     "context": "<<POS:21838365>>"
@@ -1770,16 +1902,16 @@
     "context": "<<POS:21838439>>"
   },
   {
-    "key": "output|n_b_Repeat_b_On|b021e6aaa831",
-    "original": "\\n<b>* Repeat:</b> On",
+    "key": "output|b_Repeat_b_On|5948a99345d5",
+    "original": "<b>* Repeat:</b> On",
     "translation": "",
-    "context": "<<POS:21838568>>"
+    "context": "<<POS:21838570>>"
   },
   {
-    "key": "output|n_b_Module_b_TR_pc_statusEffectv1_Sleep_Fapnea_Dream|cf2cb4788cf4",
-    "original": "\\n<b>* Module:</b> “\"+TR(pc.statusEffectv1(\"Sleep Fapnea Dream\"))+\"”",
+    "key": "output|b_Module_b_TR_pc_statusEffectv1_Sleep_Fapnea_Dream|19cf12cc4e6b",
+    "original": "<b>* Module:</b> “\"+TR(pc.statusEffectv1(\"Sleep Fapnea Dream\"))+\"”",
     "translation": "",
-    "context": "<<POS:21838642>>"
+    "context": "<<POS:21838644>>"
   },
   {
     "key": "output|Inactive|dae0f7d07801",
@@ -1794,91 +1926,205 @@
     "context": "<<POS:21838786>>"
   },
   {
-    "key": "output|n_nWhat_do_you_choose_to_do|4b0171683229",
-    "original": "\\n\\nWhat do you choose to do?",
+    "key": "output|What_do_you_choose_to_do|dcc10991d048",
+    "original": "What do you choose to do?",
     "translation": "",
-    "context": "<<POS:21838850>>"
+    "context": "<<POS:21838854>>"
   },
   {
-    "key": "button|Free|d4f506bdd302",
+    "key": "button|Free|9592526b5652",
     "original": "Free",
     "translation": "",
-    "context": "<<POS:21838962>>"
+    "context": "<<POS:21838962>> addDisabledButton(0,\"Free\",\"Free Dreaming\",\"Currently free dreaming.\")"
   },
   {
-    "key": "button|Free|6faf8ff00aa1",
+    "key": "button.hover|Currently_free_dreaming|3356631c5447",
+    "original": "Currently free dreaming.",
+    "translation": "",
+    "context": "<<POS:21838985>> addDisabledButton(0,\"Free\",\"Free Dreaming\",\"Currently free dreaming.\")"
+  },
+  {
+    "key": "button|Free|be981cbc3a35",
     "original": "Free",
     "translation": "",
-    "context": "<<POS:21839025>>"
+    "context": "<<POS:21839025>> addButton(0,\"Free\",o,\"Free Dreaming\",\"Set the device to induce free dreaming.\")"
   },
   {
-    "key": "button|Chaste|8a5e146e245c",
+    "key": "button.hover|Free_Dreaming|5db407b5174e",
+    "original": "Free Dreaming",
+    "translation": "",
+    "context": "<<POS:21839034>> addButton(0,\"Free\",o,\"Free Dreaming\",\"Set the device to induce free dreaming.\")"
+  },
+  {
+    "key": "button.tooltip|Set_the_device_to_induce_free_dreaming|e775acdc583a",
+    "original": "Set the device to induce free dreaming.",
+    "translation": "",
+    "context": "<<POS:21839050>> addButton(0,\"Free\",o,\"Free Dreaming\",\"Set the device to induce free dreaming.\")"
+  },
+  {
+    "key": "button|Chaste|755545cf2c91",
     "original": "Chaste",
     "translation": "",
-    "context": "<<POS:21839143>>"
+    "context": "<<POS:21839143>> addDisabledButton(2,\"Chaste\",\"Chaste Mode\",\"Currently preventing dreaming.\")"
   },
   {
-    "key": "button|Chaste|1d051ffbdc45",
+    "key": "button.hover|Currently_preventing_dreaming|493dcbdc0a4a",
+    "original": "Currently preventing dreaming.",
+    "translation": "",
+    "context": "<<POS:21839166>> addDisabledButton(2,\"Chaste\",\"Chaste Mode\",\"Currently preventing dreaming.\")"
+  },
+  {
+    "key": "button|Chaste|5054bf71f7d7",
     "original": "Chaste",
     "translation": "",
-    "context": "<<POS:21839212>>"
+    "context": "<<POS:21839212>> addButton(2,\"Chaste\",i,\"Chaste Mode\",\"Set the device to block all dreaming.\")"
   },
   {
-    "key": "button|Off|ac135531dfc1",
+    "key": "button.hover|Chaste_Mode|9e40519de7e4",
+    "original": "Chaste Mode",
+    "translation": "",
+    "context": "<<POS:21839223>> addButton(2,\"Chaste\",i,\"Chaste Mode\",\"Set the device to block all dreaming.\")"
+  },
+  {
+    "key": "button.tooltip|Set_the_device_to_block_all_dreaming|34c626fc9803",
+    "original": "Set the device to block all dreaming.",
+    "translation": "",
+    "context": "<<POS:21839237>> addButton(2,\"Chaste\",i,\"Chaste Mode\",\"Set the device to block all dreaming.\")"
+  },
+  {
+    "key": "button|Off|479a41516736",
     "original": "Off",
     "translation": "",
-    "context": "<<POS:21839333>>"
+    "context": "<<POS:21839333>> addDisabledButton(3,\"Off\",\"Off\",\"Currently turned off.\")"
   },
   {
-    "key": "button|Off|26c8c6ce3088",
+    "key": "button.hover|Currently_turned_off|982111d15e89",
+    "original": "Currently turned off.",
+    "translation": "",
+    "context": "<<POS:21839345>> addDisabledButton(3,\"Off\",\"Off\",\"Currently turned off.\")"
+  },
+  {
+    "key": "button|Off|af56091d3545",
     "original": "Off",
     "translation": "",
-    "context": "<<POS:21839382>>"
+    "context": "<<POS:21839382>> addButton(3,\"Off\",s,\"Off\",\"Turn the device off to resume normal dreaming patterns.\")"
   },
   {
-    "key": "button|Repeat_OFF|fe94ad687c79",
+    "key": "button.hover|Off|af56091d3545",
+    "original": "Off",
+    "translation": "",
+    "context": "<<POS:21839390>> addButton(3,\"Off\",s,\"Off\",\"Turn the device off to resume normal dreaming patterns.\")"
+  },
+  {
+    "key": "button.tooltip|Turn_the_device_off_to_resume_normal_dreaming_patterns|a17db30b3ca4",
+    "original": "Turn the device off to resume normal dreaming patterns.",
+    "translation": "",
+    "context": "<<POS:21839396>> addButton(3,\"Off\",s,\"Off\",\"Turn the device off to resume normal dreaming patterns.\")"
+  },
+  {
+    "key": "button|Repeat_OFF|d2f55753a98a",
     "original": "Repeat:OFF",
     "translation": "",
-    "context": "<<POS:21839546>>"
+    "context": "<<POS:21839546>> addDisabledButton(5,\"Repeat:OFF\",\"Repeat Previous Dream\",\"The device’s dreamcatcher has not logged your previous dream yet.\")"
   },
   {
-    "key": "button|Repeat|5e76540f7578",
+    "key": "button.hover|The_device_s_dreamcatcher_has_not_logged_your_previous_dream_yet|217ffc9002f4",
+    "original": "The device’s dreamcatcher has not logged your previous dream yet.",
+    "translation": "",
+    "context": "<<POS:21839583>> addDisabledButton(5,\"Repeat:OFF\",\"Repeat Previous Dream\",\"The device’s dreamcatcher has not logged your previous dream yet.\")"
+  },
+  {
+    "key": "button|Repeat|b40abb082a87",
     "original": "Repeat:",
     "translation": "",
-    "context": "<<POS:21839664>>"
+    "context": "<<POS:21839664>> addButton(5,\"Repeat:\"+(void 0!==flags.SLEEP_FAPNEA_REPEAT?\"ON\":\"OFF\"),a,\"Repeat Previous Dream\",\"Toggle the repeat function to replay your previous dream.\")"
   },
   {
-    "key": "button|Repeat_ON|0affb4d4a5c3",
+    "key": "button.hover|Repeat_Previous_Dream|a7309583a278",
+    "original": "Repeat Previous Dream",
+    "translation": "",
+    "context": "<<POS:21839724>> addButton(5,\"Repeat:\"+(void 0!==flags.SLEEP_FAPNEA_REPEAT?\"ON\":\"OFF\"),a,\"Repeat Previous Dream\",\"Toggle the repeat function to replay your previous dream.\")"
+  },
+  {
+    "key": "button.tooltip|Toggle_the_repeat_function_to_replay_your_previous_dream|2b72f6025a22",
+    "original": "Toggle the repeat function to replay your previous dream.",
+    "translation": "",
+    "context": "<<POS:21839748>> addButton(5,\"Repeat:\"+(void 0!==flags.SLEEP_FAPNEA_REPEAT?\"ON\":\"OFF\"),a,\"Repeat Previous Dream\",\"Toggle the repeat function to replay your previous dream.\")"
+  },
+  {
+    "key": "button|Repeat_ON|e0e0019ca208",
     "original": "Repeat:ON",
     "translation": "",
-    "context": "<<POS:21839859>>"
+    "context": "<<POS:21839859>> addDisabledButton(5,\"Repeat:ON\",\"Repeat Previous Dream\",\"Currently repeating the scripted dream.\")"
   },
   {
-    "key": "button|Repeat_OFF|c158678da644",
+    "key": "button.hover|Currently_repeating_the_scripted_dream|cf60125e43e0",
+    "original": "Currently repeating the scripted dream.",
+    "translation": "",
+    "context": "<<POS:21839895>> addDisabledButton(5,\"Repeat:ON\",\"Repeat Previous Dream\",\"Currently repeating the scripted dream.\")"
+  },
+  {
+    "key": "button|Repeat_OFF|d96629d65ae2",
     "original": "Repeat:OFF",
     "translation": "",
-    "context": "<<POS:21839958>>"
+    "context": "<<POS:21839958>> addDisabledButton(5,\"Repeat:OFF\",\"Repeat Previous Dream\",\"Free dreaming is not active.\")"
   },
   {
-    "key": "button|Delete|8e663a47d17b",
+    "key": "button.hover|Free_dreaming_is_not_active|3f5b239cc790",
+    "original": "Free dreaming is not active.",
+    "translation": "",
+    "context": "<<POS:21839995>> addDisabledButton(5,\"Repeat:OFF\",\"Repeat Previous Dream\",\"Free dreaming is not active.\")"
+  },
+  {
+    "key": "button|Delete|2fedb035fddf",
     "original": "Delete",
     "translation": "",
-    "context": "<<POS:21840082>>"
+    "context": "<<POS:21840082>> addButton(10,\"Delete\",(function(){return n(\"intro\")}),\"Delete\",\"Delete the previously saved dream.\")"
   },
   {
-    "key": "button|Uninstall|bc0aa64f7404",
+    "key": "button.hover|Delete|2fedb035fddf",
+    "original": "Delete",
+    "translation": "",
+    "context": "<<POS:21840123>> addButton(10,\"Delete\",(function(){return n(\"intro\")}),\"Delete\",\"Delete the previously saved dream.\")"
+  },
+  {
+    "key": "button.tooltip|Delete_the_previously_saved_dream|2d03b503aa69",
+    "original": "Delete the previously saved dream.",
+    "translation": "",
+    "context": "<<POS:21840132>> addButton(10,\"Delete\",(function(){return n(\"intro\")}),\"Delete\",\"Delete the previously saved dream.\")"
+  },
+  {
+    "key": "button|Uninstall|a767dd19ec07",
     "original": "Uninstall",
     "translation": "",
-    "context": "<<POS:21840200>>"
+    "context": "<<POS:21840200>> addButton(13,\"Uninstall\",(function(){function e(){flags.SLEEP_FAPNEA_ACTIVE=void 0,pc.removeStatusEffect(\"Sleep Fapnea Dream\"),flags.SLEEP_FAPNEA_REPEAT=void 0,flags.SLEEP_FAPNEA_DREAMCATCHER=void 0}clearOutput(),vR(),output(blockHeader(\"Uninstalling...\")),output(\"You take some time to uninstall the..."
   },
   {
-    "key": "button|Uninstall|4669c0b08a8a#1",
+    "key": "button.hover|Uninstall_Device|749edd44ee5d",
+    "original": "Uninstall Device",
+    "translation": "",
+    "context": "<<POS:21840690>> addButton(13,\"Uninstall\",(function(){function e(){flags.SLEEP_FAPNEA_ACTIVE=void 0,pc.removeStatusEffect(\"Sleep Fapnea Dream\"),flags.SLEEP_FAPNEA_REPEAT=void 0,flags.SLEEP_FAPNEA_DREAMCATCHER=void 0}clearOutput(),vR(),output(blockHeader(\"Uninstalling...\")),output(\"You take some time to uninstall the..."
+  },
+  {
+    "key": "button.tooltip|Unplug_the_machine_and_put_it_in_your_inventory|9dd2b7ecd392",
+    "original": "Unplug the machine and put it in your inventory.",
+    "translation": "",
+    "context": "<<POS:21840709>> addButton(13,\"Uninstall\",(function(){function e(){flags.SLEEP_FAPNEA_ACTIVE=void 0,pc.removeStatusEffect(\"Sleep Fapnea Dream\"),flags.SLEEP_FAPNEA_REPEAT=void 0,flags.SLEEP_FAPNEA_DREAMCATCHER=void 0}clearOutput(),vR(),output(blockHeader(\"Uninstalling...\")),output(\"You take some time to uninstall the..."
+  },
+  {
+    "key": "button|Uninstall|1abe5970d4cf",
     "original": "Uninstall",
     "translation": "",
-    "context": "<<POS:21840782>>"
+    "context": "<<POS:21840782>> addDisabledButton(13,\"Uninstall\",\"Uninstall Device\",\"You can only uninstall this device while on your ship.\")"
   },
   {
-    "key": "output|blockHeader_Free_Dream|b9cc40e4923e",
+    "key": "button.hover|You_can_only_uninstall_this_device_while_on_your_ship|4fde1b89ec08",
+    "original": "You can only uninstall this device while on your ship.",
+    "translation": "",
+    "context": "<<POS:21840813>> addDisabledButton(13,\"Uninstall\",\"Uninstall Device\",\"You can only uninstall this device while on your ship.\")"
+  },
+  {
+    "key": "output|blockHeader_Free_Dream|414594994478",
     "original": "blockHeader(\"Free Dream\")",
     "translation": "",
     "context": "<<POS:21840909>>"
@@ -1902,10 +2148,10 @@
     "context": "<<POS:21841337>>"
   },
   {
-    "key": "output|n_n_b_The_previously_captured_dream_will_continue_to_play_as_lo|99e9e1655b97",
-    "original": "\\n\\n<b>The previously captured dream will continue to play as long as the Free Dreaming option is active.</b>",
+    "key": "output|b_The_previously_captured_dream_will_continue_to_play_as_long_a|0bf56e378698",
+    "original": "<b>The previously captured dream will continue to play as long as the Free Dreaming option is active.</b>",
     "translation": "",
-    "context": "<<POS:21841482>>"
+    "context": "<<POS:21841486>>"
   },
   {
     "key": "output|You_open_your_Codex_and_press_the_dreamcatcher_icon_in_the_contr|31fea9f2cb1f",
@@ -1914,10 +2160,10 @@
     "context": "<<POS:21841632>>"
   },
   {
-    "key": "output|n_n_b_The_previous_dream_will_no_longer_play_so_a_newer_dream|162805caf8e0",
-    "original": "\\n\\n<b>The previous dream will no longer play, so a newer dream may be saved by the device’s dreamcatcher function.</b>",
+    "key": "output|b_The_previous_dream_will_no_longer_play_so_a_newer_dream_may|217e18b1af11",
+    "original": "<b>The previous dream will no longer play, so a newer dream may be saved by the device’s dreamcatcher function.</b>",
     "translation": "",
-    "context": "<<POS:21841778>>"
+    "context": "<<POS:21841782>>"
   },
   {
     "key": "output|blockHeader_Delete_Dream|e501ce49540b",
@@ -1935,13 +2181,13 @@
     "key": "button|Yes|280b6bb65ea8",
     "original": "Yes",
     "translation": "",
-    "context": "<<POS:21842216>>"
+    "context": "<<POS:21842216>> addButton(0,\"Yes\",(function(){return n(\"yes\")}))"
   },
   {
     "key": "button|No|1c655db5490a",
     "original": "No",
     "translation": "",
-    "context": "<<POS:21842265>>"
+    "context": "<<POS:21842265>> addButton(1,\"No\",AR)"
   },
   {
     "key": "output|You_tap_the_trash_can_icon_next_to_the_dreamcatcher_icon_and_the|488938122f08",
@@ -1977,7 +2223,7 @@
     "key": "button|Leave|750c9228872a",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:21843158>>"
+    "context": "<<POS:21843158>> addButton(14,\"Leave\",(function(){2!==flags.SLEEP_FAPNEA_ACTIVE&&pc.removeStatusEffect(\"Sleep Fapnea Dream\"),mainGameMenu()}))"
   },
   {
     "key": "output|Grabbing_the_Magic_Milker_7_a_product_of_JoyCo_in_your_hand_y|c7ae05db4cb6",
@@ -1986,34 +2232,34 @@
     "context": "<<POS:21843356>>"
   },
   {
-    "key": "output|n_nYou_peel_your_pc_upperGarments_away_from_your_pc_allBrea|682244781f32",
-    "original": "\\n\\nYou peel your [pc.upperGarments] away from your \"+pc.allBreastsDescript()+\" and shiver as your [pc.nipples] purse up a bit in the cool air. There’s nothing between you and a quick, machine-assisted milking now.",
+    "key": "output|You_peel_your_pc_upperGarments_away_from_your_pc_allBreastsD|a63b8824d0e8",
+    "original": "You peel your [pc.upperGarments] away from your \"+pc.allBreastsDescript()+\" and shiver as your [pc.nipples] purse up a bit in the cool air. There’s nothing between you and a quick, machine-assisted milking now.",
     "translation": "",
-    "context": "<<POS:21843729>>"
+    "context": "<<POS:21843733>>"
   },
   {
-    "key": "output|n_nYou_peel_your_pc_upperGarments_away_from_your_pc_allBrea|4f1fcbde14ef",
-    "original": "\\n\\nYou peel your [pc.upperGarments] away from your \"+pc.allBreastsDescript()+\" and shiver as your [pc.nipples] immediately perk up, crinkling in the chill air. There’s nothing between you and a quick, machine-assisted milking now.",
+    "key": "output|You_peel_your_pc_upperGarments_away_from_your_pc_allBreastsD|38786731a5bc",
+    "original": "You peel your [pc.upperGarments] away from your \"+pc.allBreastsDescript()+\" and shiver as your [pc.nipples] immediately perk up, crinkling in the chill air. There’s nothing between you and a quick, machine-assisted milking now.",
     "translation": "",
-    "context": "<<POS:21843954>>"
+    "context": "<<POS:21843958>>"
   },
   {
-    "key": "output|n_nYour_pc_allBreastsDescript_are_already_bare_to_the_wor|c1dddba709ce",
-    "original": "\\n\\nYour \"+pc.allBreastsDescript()+\" are already bare to the world, and your [pc.nipples] have pursed up a bit from the chill. You’re not going to get any more ready for a quick, machine-assisted milking.",
+    "key": "output|Your_pc_allBreastsDescript_are_already_bare_to_the_world|c3ee92fc07d7",
+    "original": "Your \"+pc.allBreastsDescript()+\" are already bare to the world, and your [pc.nipples] have pursed up a bit from the chill. You’re not going to get any more ready for a quick, machine-assisted milking.",
     "translation": "",
-    "context": "<<POS:21844220>>"
+    "context": "<<POS:21844224>>"
   },
   {
-    "key": "output|n_nYour_pc_allBreastsDescript_are_already_bare_to_the_wor|2b83c36d85b7",
-    "original": "\\n\\nYour \"+pc.allBreastsDescript()+\" are already bare to the world, and your [pc.nipples] have grown hard and a little crinkly from the chill. You’re not going to get any more ready for a quick, machine-assisted milking.",
+    "key": "output|Your_pc_allBreastsDescript_are_already_bare_to_the_world|18ad90689755",
+    "original": "Your \"+pc.allBreastsDescript()+\" are already bare to the world, and your [pc.nipples] have grown hard and a little crinkly from the chill. You’re not going to get any more ready for a quick, machine-assisted milking.",
     "translation": "",
-    "context": "<<POS:21844435>>"
+    "context": "<<POS:21844439>>"
   },
   {
-    "key": "output|n_nThe_button_audibly_clicks_under_your_thumb_and_the_miniatur|49e6137e8320",
-    "original": "\\n\\nThe button audibly clicks under your thumb, and the miniaturized milker whirrs. Like someone waking from a long sleep, the machine’s tubes writhe and lift, barely coordinated. After a few seconds of this, they lift the cups up before you.",
+    "key": "output|The_button_audibly_clicks_under_your_thumb_and_the_miniaturized|d98444457742",
+    "original": "The button audibly clicks under your thumb, and the miniaturized milker whirrs. Like someone waking from a long sleep, the machine’s tubes writhe and lift, barely coordinated. After a few seconds of this, they lift the cups up before you.",
     "translation": "",
-    "context": "<<POS:21844666>>"
+    "context": "<<POS:21844670>>"
   },
   {
     "key": "output|A_hatch_on_the_Magic_Milker_s_main_body_opens_and_Ot_m_numTo|4e45386b7ac5",
@@ -2040,28 +2286,28 @@
     "context": "<<POS:21845240>>"
   },
   {
-    "key": "output|n_nYou_frown_and_then_coo_and_flinch_slightly_as_the_small_cup|05276e5294e1",
-    "original": "\\n\\nYou frown, and then coo and flinch slightly as the small cups reach out to gently brush over your [pc.nipples], then retract and reconfigure. Out of the centre of each grows a long, slim brown phallus with a pinpoint hole at the end, not a million miles away from an over-long baby bottle teat - although considerably harder, by the looks of it.",
+    "key": "output|You_frown_and_then_coo_and_flinch_slightly_as_the_small_cups_re|f364a68c6ecc",
+    "original": "You frown, and then coo and flinch slightly as the small cups reach out to gently brush over your [pc.nipples], then retract and reconfigure. Out of the centre of each grows a long, slim brown phallus with a pinpoint hole at the end, not a million miles away from an over-long baby bottle teat - although considerably harder, by the looks of it.",
     "translation": "",
-    "context": "<<POS:21845450>>"
+    "context": "<<POS:21845454>>"
   },
   {
-    "key": "output|n_nThey_thrust_forward_suddenly_spearing_into_your_cunt_nipple|998786e43070",
-    "original": "\\n\\nThey thrust forward suddenly, spearing into your cunt nipples, and the cups snap themselves over your areolae, forming a seal. The protrusions feel warm inside your breasts, their tenderness amplified by the gentle, hissing suck of the vacuum on the outside until they are plush, wet and eager.",
+    "key": "output|They_thrust_forward_suddenly_spearing_into_your_cunt_nipples_a|31c7ce4bc6c6",
+    "original": "They thrust forward suddenly, spearing into your cunt nipples, and the cups snap themselves over your areolae, forming a seal. The protrusions feel warm inside your breasts, their tenderness amplified by the gentle, hissing suck of the vacuum on the outside until they are plush, wet and eager.",
     "translation": "",
-    "context": "<<POS:21845830>>"
+    "context": "<<POS:21845834>>"
   },
   {
-    "key": "output|n_nThey_slowly_move_forward_halting_when_their_blunt_tips_are|87478773c434",
-    "original": "\\n\\nThey slowly move forward, halting when their blunt tips are pressed against your plump lipples. They react instinctively, opening up to greedily suck them inside, making you gasp with their slutty willfulness.",
+    "key": "output|They_slowly_move_forward_halting_when_their_blunt_tips_are_pres|6295bb11df18",
+    "original": "They slowly move forward, halting when their blunt tips are pressed against your plump lipples. They react instinctively, opening up to greedily suck them inside, making you gasp with their slutty willfulness.",
     "translation": "",
-    "context": "<<POS:21846139>>"
+    "context": "<<POS:21846143>>"
   },
   {
-    "key": "output|n_nArousal_beginning_to_coil_through_you_you_let_go_of_the_mac|c6c9e7b639a2",
-    "original": "\\n\\nArousal beginning to coil through you, you let go of the machine and cup yourself. It’s enough to support the weight of the whirring device as it activates, but the spherical device is only getting started. Rising to a higher-pitched whine, the milker judders - and that judder is translated straight down to the pseudo-dildos embedded in your boobs, vibrating stringently against the inner walls. Beguiling sensation sweeps through you, only getting stronger as the cups tug at the outer flesh and the nozzles at the teat tips begin to suck, aiming to draw out all of your [pc.milkNoun] before it can even be expressed.",
+    "key": "output|Arousal_beginning_to_coil_through_you_you_let_go_of_the_machine|3de751f8d3df",
+    "original": "Arousal beginning to coil through you, you let go of the machine and cup yourself. It’s enough to support the weight of the whirring device as it activates, but the spherical device is only getting started. Rising to a higher-pitched whine, the milker judders - and that judder is translated straight down to the pseudo-dildos embedded in your boobs, vibrating stringently against the inner walls. Beguiling sensation sweeps through you, only getting stronger as the cups tug at the outer flesh and the nozzles at the teat tips begin to suck, aiming to draw out all of your [pc.milkNoun] before it can even be expressed.",
     "translation": "",
-    "context": "<<POS:21846363>>"
+    "context": "<<POS:21846367>>"
   },
   {
     "key": "output|With_all_the_tubes_hanging_off_your_front_you_find_yourself_wo|18782199c601",
@@ -2070,13 +2316,13 @@
     "context": "<<POS:21847019>>"
   },
   {
-    "key": "output|n_nThe_phalli_pump_vibrate_you_until_your|dd9df3d58543",
-    "original": "\\n\\nThe phalli pump vibrate you until your ",
+    "key": "output|The_phalli_pump_vibrate_you_until_your|5efd62cd3955",
+    "original": "The phalli pump vibrate you until your ",
     "translation": "",
-    "context": "<<POS:21847135>>"
+    "context": "<<POS:21847139>>"
   },
   {
-    "key": "output|cunt_nipples|d3c3d256ba4c",
+    "key": "output|cunt_nipples|bbf170a05328",
     "original": "cunt nipples",
     "translation": "",
     "context": "<<POS:21847209>>"
@@ -2106,10 +2352,10 @@
     "context": "<<POS:21847407>>"
   },
   {
-    "key": "output|n_nYou_sigh_in_anticipatory_boredom_nothing_slows_the_passage|3abe4816f40e",
-    "original": "\\n\\nYou sigh in anticipatory boredom; nothing slows the passage of time like waiting for a pleasant activity. In this case, time seems to be slogging through molasses, though only a few seconds have passed. The Magic-Milker 7 activates just as you’re inhaling a breath of fresh air, the cups snapping forward",
+    "key": "output|You_sigh_in_anticipatory_boredom_nothing_slows_the_passage_of_t|8edf79cedaaf",
+    "original": "You sigh in anticipatory boredom; nothing slows the passage of time like waiting for a pleasant activity. In this case, time seems to be slogging through molasses, though only a few seconds have passed. The Magic-Milker 7 activates just as you’re inhaling a breath of fresh air, the cups snapping forward",
     "translation": "",
-    "context": "<<POS:21847512>>"
+    "context": "<<POS:21847516>>"
   },
   {
     "key": "output|expanding_as_they_go_to|ecbe90c5c034",
@@ -2142,10 +2388,10 @@
     "context": "<<POS:21848094>>"
   },
   {
-    "key": "output|n_nGasping_you_let_go_of_the_machine_and_cup_yourself_feeling|3805c24bb203",
-    "original": "\\n\\nGasping, you let go of the machine and cup yourself, feeling your [pc.nipples] hardening from the gentle, almost imperceptible vacuum. It’s enough to support the weight of the whirring device as it activates, but the spherical device is only getting started. Rising to a higher-pitched whine, the milker smoothly cranks the suction up until your [pc.nipples] start swelling, immensely hard",
+    "key": "output|Gasping_you_let_go_of_the_machine_and_cup_yourself_feeling_you|a4e51ba30642",
+    "original": "Gasping, you let go of the machine and cup yourself, feeling your [pc.nipples] hardening from the gentle, almost imperceptible vacuum. It’s enough to support the weight of the whirring device as it activates, but the spherical device is only getting started. Rising to a higher-pitched whine, the milker smoothly cranks the suction up until your [pc.nipples] start swelling, immensely hard",
     "translation": "",
-    "context": "<<POS:21848226>>"
+    "context": "<<POS:21848230>>"
   },
   {
     "key": "output|and_already_dripping_pc_milkNoun|4654a8c757b6",
@@ -2166,10 +2412,10 @@
     "context": "<<POS:21848805>>"
   },
   {
-    "key": "output|n_nThe_pump_pulls_tighter_and_tighter_until_it_hits_some_kind_o|2b297c4a5ef8",
-    "original": "\\n\\nThe pump pulls tighter and tighter until it hits some kind of predefined vacuum-ceiling. Then, it starts stuttering the tugs into a staccato rhythm designed to maximize lactic stimulation. ",
+    "key": "output|The_pump_pulls_tighter_and_tighter_until_it_hits_some_kind_of_pr|04ca8050cdc1",
+    "original": "The pump pulls tighter and tighter until it hits some kind of predefined vacuum-ceiling. Then, it starts stuttering the tugs into a staccato rhythm designed to maximize lactic stimulation. ",
     "translation": "",
-    "context": "<<POS:21848921>>"
+    "context": "<<POS:21848925>>"
   },
   {
     "key": "output|The_sensation_is_wonderful_overpowering_and_you_are_brought_to|9a37958145e1",
@@ -2196,28 +2442,28 @@
     "context": "<<POS:21849379>>"
   },
   {
-    "key": "output|n_nA_single_blue_tinged_holographic_display_briefly_emerges_ab|fcd0c6349faf",
-    "original": "\\n\\nA single, blue-tinged holographic display briefly emerges above the spent sphere. It reads:",
+    "key": "output|A_single_blue_tinged_holographic_display_briefly_emerges_above|50b06034d0e2",
+    "original": "A single, blue-tinged holographic display briefly emerges above the spent sphere. It reads:",
     "translation": "",
-    "context": "<<POS:21849906>>"
+    "context": "<<POS:21849910>>"
   },
   {
-    "key": "output|n_n_b_0_mL_b|cf424ac1a9ba",
-    "original": "\\n\\n<b>0 mL</b>",
+    "key": "output|b_0_mL_b|7bc5cdbcc857",
+    "original": "<b>0 mL</b>",
     "translation": "",
-    "context": "<<POS:21850012>>"
+    "context": "<<POS:21850016>>"
   },
   {
-    "key": "output|It_makes_your_pumped_up_teats_tingle_more_than_a_little_as_it_tr|3e9a3ab3ad6a",
+    "key": "output|It_makes_your_pumped_up_teats_tingle_more_than_a_little_as_it_tr|5a77bbe3c57f",
     "original": "It makes your pumped-up teats tingle more than a little as it tries to pull the [pc.milk] out of you, but nothing is coming. You sit there squirming for at least fifteen minutes, [pc.nipples] sweating only the barest residue of [pc.milk] before you’re forced to give up and press the deactivation button.",
     "translation": "",
     "context": "<<POS:21850097>>"
   },
   {
-    "key": "output|n_nThe_cups_detach_and_shrink_back_to_their_passive_size|8b7a06972b8f",
-    "original": "\\n\\nThe cups detach and shrink back to their passive size",
+    "key": "output|The_cups_detach_and_shrink_back_to_their_passive_size|2f0751444feb",
+    "original": "The cups detach and shrink back to their passive size",
     "translation": "",
-    "context": "<<POS:21850412>>"
+    "context": "<<POS:21850416>>"
   },
   {
     "key": "output|the_extra_arms_withdrawing_into_the_main_chamber|fc2bff4ee281",
@@ -2232,22 +2478,22 @@
     "context": "<<POS:21850562>>"
   },
   {
-    "key": "output|n_n_b_All_that_nipple_work_has_left_your_areolae_looking_a_litt|b24d5d827c5b",
-    "original": "\\n\\n<b>All that nipple-work has left your areolae looking a little more prominent. They’re wider for sure.</b>",
+    "key": "output|b_All_that_nipple_work_has_left_your_areolae_looking_a_little_m|2dd7c0e0a8ca",
+    "original": "<b>All that nipple-work has left your areolae looking a little more prominent. They’re wider for sure.</b>",
     "translation": "",
-    "context": "<<POS:21850828>>"
+    "context": "<<POS:21850832>>"
   },
   {
-    "key": "output|n_n_b_Your_pc_nipples_remain_a_little_longer_after_the_ordeal|16f537e2d3a3",
-    "original": "\\n\\n<b>Your [pc.nipples] remain a little longer after the ordeal. This gleaming breast-pump seems determined to give you cow teats.</b>",
+    "key": "output|b_Your_pc_nipples_remain_a_little_longer_after_the_ordeal_Th|17de1029307e",
+    "original": "<b>Your [pc.nipples] remain a little longer after the ordeal. This gleaming breast-pump seems determined to give you cow teats.</b>",
     "translation": "",
-    "context": "<<POS:21851012>>"
+    "context": "<<POS:21851016>>"
   },
   {
     "key": "button|Next|462be9058b70",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:21851307>>"
+    "context": "<<POS:21851307>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|The_sensation_is_wonderful_overpowering_and_you_are_brought_to|dd6fd89b8891",
@@ -2298,10 +2544,10 @@
     "context": "<<POS:21852434>>"
   },
   {
-    "key": "output|n_nSome_of_the_harder_tugs_earn_tiny_sprays_of_pc_milk_but_t|ba44f465afb9",
-    "original": "\\n\\nSome of the harder tugs earn tiny sprays of [pc.milk], but the streams are thin and insubstantial. Your [pc.fullChest] just aren’t very full right now, ",
+    "key": "output|Some_of_the_harder_tugs_earn_tiny_sprays_of_pc_milk_but_the_s|d7956aeae860",
+    "original": "Some of the harder tugs earn tiny sprays of [pc.milk], but the streams are thin and insubstantial. Your [pc.fullChest] just aren’t very full right now, ",
     "translation": "",
-    "context": "<<POS:21852708>>"
+    "context": "<<POS:21852712>>"
   },
   {
     "key": "output|no_matter_how_enormous_they_are_or_how_they_jiggle_from_the_appl|01074ce7a3d5#1",
@@ -2364,10 +2610,10 @@
     "context": "<<POS:21853827>>"
   },
   {
-    "key": "output|n_nThe_sloshing_liquid_foams_slightly_before_the_motor_pulls_it|52420458c963",
-    "original": "\\n\\nThe sloshing liquid foams slightly before the motor pulls it down the silver tubes to the main sphere. There, it’s collected into a clear back that dangles from the back of the device, turning [pc.milkColor] as hangs against your [pc.belly], filling. Eventually the moistened phalli click out, and the cups detach, shrinking back to their passive size. You’re left bare and sore, but deeply satiated.",
+    "key": "output|The_sloshing_liquid_foams_slightly_before_the_motor_pulls_it_dow|501f98c15715",
+    "original": "The sloshing liquid foams slightly before the motor pulls it down the silver tubes to the main sphere. There, it’s collected into a clear back that dangles from the back of the device, turning [pc.milkColor] as hangs against your [pc.belly], filling. Eventually the moistened phalli click out, and the cups detach, shrinking back to their passive size. You’re left bare and sore, but deeply satiated.",
     "translation": "",
-    "context": "<<POS:21853921>>"
+    "context": "<<POS:21853925>>"
   },
   {
     "key": "output|It_makes_your_pc_nipples_swell_with_soon_to_be_released_pc_mi|c91dbe4fe442",
@@ -2376,10 +2622,10 @@
     "context": "<<POS:21854350>>"
   },
   {
-    "key": "output|n_nYou_sigh_at_the_feeling_of_release_and_watch_the_cups_fill_w|23912a8e1a9c",
-    "original": "\\n\\nYou sigh at the feeling of release and watch the cups fill with the sloshing liquid. It foams slightly before the motor pulls it down the silver tubes to the main sphere. There, it is collected into a clear bag that dangles from the back of the device, turning [pc.milkColor] as it hangs against your [pc.belly], filling. You groan from the feeling of having your sensitive flesh so aggressively worked over and do the only thing you can in such a situation: enjoy every second of it.",
+    "key": "output|You_sigh_at_the_feeling_of_release_and_watch_the_cups_fill_with|de99de93167f",
+    "original": "You sigh at the feeling of release and watch the cups fill with the sloshing liquid. It foams slightly before the motor pulls it down the silver tubes to the main sphere. There, it is collected into a clear bag that dangles from the back of the device, turning [pc.milkColor] as it hangs against your [pc.belly], filling. You groan from the feeling of having your sensitive flesh so aggressively worked over and do the only thing you can in such a situation: enjoy every second of it.",
     "translation": "",
-    "context": "<<POS:21854597>>"
+    "context": "<<POS:21854601>>"
   },
   {
     "key": "output|You_moan_as_a_feeling_of_deep_wet_release_combines_with_the_ris|58083b0f4e97",
@@ -2424,19 +2670,19 @@
     "context": "<<POS:21855599>>"
   },
   {
-    "key": "output|n_nIt_s_intense_beyond_anything_a_human_would_normally_experien|f9d3dabd29c7",
-    "original": "\\n\\nIt’s intense beyond anything a human would normally experience, and you quickly get lost in it, eyes rolling as you’re stirred to repeated highs, enough [pc.milk] teased out of your breasts that it escapes your nipples and swells the squeezing cups [pc.milkColor]. It manages to cope with it adroitly though, vacuuming it all away to the swelling bag on the back side of the machine. You cup your [pc.chest], squeezing to coax out more, shuddering and moaning at each exquisite spurt of [pc.milk] only to have the next well up before you finish. Reveling in the act of giving and producing becomes your entire focus, and you let it subsume you while the device whisks your body’s juice away.",
+    "key": "output|It_s_intense_beyond_anything_a_human_would_normally_experience|aec34ad9e005",
+    "original": "It’s intense beyond anything a human would normally experience, and you quickly get lost in it, eyes rolling as you’re stirred to repeated highs, enough [pc.milk] teased out of your breasts that it escapes your nipples and swells the squeezing cups [pc.milkColor]. It manages to cope with it adroitly though, vacuuming it all away to the swelling bag on the back side of the machine. You cup your [pc.chest], squeezing to coax out more, shuddering and moaning at each exquisite spurt of [pc.milk] only to have the next well up before you finish. Reveling in the act of giving and producing becomes your entire focus, and you let it subsume you while the device whisks your body’s juice away.",
     "translation": "",
-    "context": "<<POS:21855691>>"
+    "context": "<<POS:21855695>>"
   },
   {
-    "key": "output|n_nAt_long_last_your_boob|6e4928de80aa",
-    "original": "\\n\\nAt long last your boob ",
+    "key": "output|At_long_last_your_boob|c58698360e1a",
+    "original": "At long last your boob ",
     "translation": "",
-    "context": "<<POS:21856397>>"
+    "context": "<<POS:21856401>>"
   },
   {
-    "key": "output|mouths|6ba72cf88b20",
+    "key": "output|mouths|6c84fb7ce89a",
     "original": "mouths",
     "translation": "",
     "context": "<<POS:21856451>>"
@@ -2454,22 +2700,22 @@
     "context": "<<POS:21856486>>"
   },
   {
-    "key": "output|n_nGetting_milked_is_too_damned_good|24e59022cfcc",
-    "original": "\\n\\nGetting milked is too damned good.",
+    "key": "output|Getting_milked_is_too_damned_good|152bb86155f3",
+    "original": "Getting milked is too damned good.",
     "translation": "",
-    "context": "<<POS:21856711>>"
+    "context": "<<POS:21856715>>"
   },
   {
-    "key": "output|It_makes_your_pc_nipples_swell_up_a_moment_before_they_finally|7c271c8bed55",
+    "key": "output|It_makes_your_pc_nipples_swell_up_a_moment_before_they_finally|ca69054c00e6",
     "original": "It makes your [pc.nipples] swell up a moment before they finally let down, gushing steady streams of [pc.milk], filling the cups while leaking drops from the tips. The flow seems steady and reliable, above terran norms by a decent amount.",
     "translation": "",
     "context": "<<POS:21856774>>"
   },
   {
-    "key": "output|n_nYou_groan_at_the_intensity_of_the_sensations_you_re_presente|4ecad8da1789",
-    "original": "\\n\\nYou groan at the intensity of the sensations you’re presented with, cupping your [pc.chest] behind the device and squeezing to coax out more, shuddering at each exquisite spurt of [pc.milk] only to have the next well up before you finish. Reveling in the act of giving and producing becomes your entire focus, and it subsumes you while the device whisks your body’s juice away. On the rear of the milker, a [pc.milkColor] bag has emerged. It hangs against your [pc.belly], half full and only getting fuller.",
+    "key": "output|You_groan_at_the_intensity_of_the_sensations_you_re_presented_wi|7be85c194691",
+    "original": "You groan at the intensity of the sensations you’re presented with, cupping your [pc.chest] behind the device and squeezing to coax out more, shuddering at each exquisite spurt of [pc.milk] only to have the next well up before you finish. Reveling in the act of giving and producing becomes your entire focus, and it subsumes you while the device whisks your body’s juice away. On the rear of the milker, a [pc.milkColor] bag has emerged. It hangs against your [pc.belly], half full and only getting fuller.",
     "translation": "",
-    "context": "<<POS:21857023>>"
+    "context": "<<POS:21857027>>"
   },
   {
     "key": "output|Down_south_pc_oneCock_has_risen_up_throbbing_with_hot_desir|ee6a75d4603b",
@@ -2526,16 +2772,16 @@
     "context": "<<POS:21858315>>"
   },
   {
-    "key": "output|n_nIt_s_far_too_much_for_the_phallus_nozzles_to_easily_hoover_u|8f34c339c0f4",
-    "original": "\\n\\nIt’s far too much for the phallus nozzles to easily hoover up, and the cups themselves swell hugely with escaped [pc.milkVisc] produce. Your [pc.tongue] lolls out of your mouth in ecstasy at finally releasing your massive mammary build-up at the same time as receiving such stimulation. Take it all, get it to take it all! You rub the undersides of your [pc.chest] to encourage the fluid-filled organs to release even more. Sharp tingles of sensation rise up with every staccato suck, and even when they relax, your [pc.nipples] thrum with tingles of pleasure.",
+    "key": "output|It_s_far_too_much_for_the_phallus_nozzles_to_easily_hoover_up_a|d81b55edec41",
+    "original": "It’s far too much for the phallus nozzles to easily hoover up, and the cups themselves swell hugely with escaped [pc.milkVisc] produce. Your [pc.tongue] lolls out of your mouth in ecstasy at finally releasing your massive mammary build-up at the same time as receiving such stimulation. Take it all, get it to take it all! You rub the undersides of your [pc.chest] to encourage the fluid-filled organs to release even more. Sharp tingles of sensation rise up with every staccato suck, and even when they relax, your [pc.nipples] thrum with tingles of pleasure.",
     "translation": "",
-    "context": "<<POS:21858407>>"
+    "context": "<<POS:21858411>>"
   },
   {
-    "key": "output|n_nAgain_and_again_your_tits_are_driven_to_orgasm_each_time_a|e3574c3148a0",
-    "original": "\\n\\nAgain and again your tits are driven to orgasm, each time a big gush of glorious [pc.milkNoun] is sourced, and you are quickly lost in the sensuality of being such a juicy, fecund, productive titty monster. ",
+    "key": "output|Again_and_again_your_tits_are_driven_to_orgasm_each_time_a_big|85877701236d",
+    "original": "Again and again your tits are driven to orgasm, each time a big gush of glorious [pc.milkNoun] is sourced, and you are quickly lost in the sensuality of being such a juicy, fecund, productive titty monster. ",
     "translation": "",
-    "context": "<<POS:21858982>>"
+    "context": "<<POS:21858986>>"
   },
   {
     "key": "output|Your_lipples_suckle_greedily_on_the_vibrating_pseudo_cocks_and|b24fb01fb6ce",
@@ -2628,13 +2874,13 @@
     "context": "<<POS:21860172>>"
   },
   {
-    "key": "output|n_nAt_long_last_your_boob|bcad6d39278f",
-    "original": "\\n\\nAt long last your boob ",
+    "key": "output|At_long_last_your_boob|945ea690e308",
+    "original": "At long last your boob ",
     "translation": "",
-    "context": "<<POS:21860274>>"
+    "context": "<<POS:21860278>>"
   },
   {
-    "key": "output|mouths|6ba72cf88b20#1",
+    "key": "output|mouths|6c84fb7ce89a#1",
     "original": "mouths",
     "translation": "",
     "context": "<<POS:21860328>>"
@@ -2652,28 +2898,28 @@
     "context": "<<POS:21860363>>"
   },
   {
-    "key": "output|n_nGetting_milked_is_too_damned_good|24e59022cfcc#1",
-    "original": "\\n\\nGetting milked is too damned good.",
+    "key": "output|Getting_milked_is_too_damned_good|152bb86155f3#1",
+    "original": "Getting milked is too damned good.",
     "translation": "",
-    "context": "<<POS:21860588>>"
+    "context": "<<POS:21860592>>"
   },
   {
-    "key": "output|It_makes_your_pc_nipples_swell_obscenely_just_before_they_fina|ad00b61dc455",
+    "key": "output|It_makes_your_pc_nipples_swell_obscenely_just_before_they_fina|76c780d7ea8f",
     "original": "It makes your [pc.nipples] swell obscenely just before they finally burst, spraying streams of [pc.milk] into the accommodating cups, flooding them in superhuman amounts of liquid. Honestly, it could cut the suction in half, and you would gush just as hard. Your [pc.chest] are better at giving than most charities.",
     "translation": "",
     "context": "<<POS:21860651>>"
   },
   {
-    "key": "output|n_nYou_can_t_stifle_a_pc_mf_groan_moan_nor_do_you_wan|9f6bc6413a97",
-    "original": "\\n\\nYou can’t stifle a \"+pc.mf(\"groan\",\"moan\")+\", nor do you want to. You lean back, chest quivering, and give your full attention to the fluttering suckles of your [pc.nipples], rubbing along the undersides of your [pc.chest] to encourage the fluid-filled organs to release even more. Sharp tingles of sensation rise up with every staccato suck, and even when they relax, your [pc.nipples] thrum with tingles of titty-pleasing pleasure. If everyone in the galaxy knew how good they can feel, you’re certain you’d be surrounded in mooing milkmaids in no time.",
+    "key": "output|You_can_t_stifle_a_pc_mf_groan_moan_nor_do_you_want_to|097801bf24ab",
+    "original": "You can’t stifle a \"+pc.mf(\"groan\",\"moan\")+\", nor do you want to. You lean back, chest quivering, and give your full attention to the fluttering suckles of your [pc.nipples], rubbing along the undersides of your [pc.chest] to encourage the fluid-filled organs to release even more. Sharp tingles of sensation rise up with every staccato suck, and even when they relax, your [pc.nipples] thrum with tingles of titty-pleasing pleasure. If everyone in the galaxy knew how good they can feel, you’re certain you’d be surrounded in mooing milkmaids in no time.",
     "translation": "",
-    "context": "<<POS:21860977>>"
+    "context": "<<POS:21860981>>"
   },
   {
-    "key": "output|n_nWatching_the_pc_milkColor_fluid_vanish_into_the_silvery_tu|6b3b16976deb",
-    "original": "\\n\\nWatching the [pc.milkColor] fluid vanish into the silvery tubes, you marvel at the engineering might displayed by the Magic-Milker. Someone at JoyCo did their job very - you gasp at a particularly potent surge of ecstasy - very right. A heavy, [pc.milkNoun]-filled bag has fallen out of the far side of the device to rest against your [pc.belly], and it’s rapidly filling with the [pc.milk] you’re producing.",
+    "key": "output|Watching_the_pc_milkColor_fluid_vanish_into_the_silvery_tubes|fabf2c4bd70d",
+    "original": "Watching the [pc.milkColor] fluid vanish into the silvery tubes, you marvel at the engineering might displayed by the Magic-Milker. Someone at JoyCo did their job very - you gasp at a particularly potent surge of ecstasy - very right. A heavy, [pc.milkNoun]-filled bag has fallen out of the far side of the device to rest against your [pc.belly], and it’s rapidly filling with the [pc.milk] you’re producing.",
     "translation": "",
-    "context": "<<POS:21861547>>"
+    "context": "<<POS:21861551>>"
   },
   {
     "key": "output|You_barely_notice|21e02f16f3b6",
@@ -2748,37 +2994,31 @@
     "context": "<<POS:21862483>>"
   },
   {
-    "key": "output|n_nThere_s_no_way_to_describe_the_pleasure_and_relief_that_expr|8eb62f264e43",
-    "original": "\\n\\nThere’s no way to describe the pleasure and relief that expressing so much [pc.milk] gives you. Instead, you slump down to the ground and moan, writhing in place, your hands feverishly groping and squeezing encouragingly at your [pc.chest]. The gurgling sounds the Magic-Milker makes as it works are drowned out by your own vocalizations of pleasure, and your eyes roll back from bliss, not bothering to watch the [pc.milkColor] fluid drain away into a bag on the back-end of the device. Shocks of ecstatic pleasure jostle and jiggle your leaking teats as you stagger through one boobquaking orgasm after another, leaving your head fuzzy with pleasure-static and thoughts of giving your [pc.milk] again and again.",
+    "key": "output|There_s_no_way_to_describe_the_pleasure_and_relief_that_expressi|81f6723e37e3",
+    "original": "There’s no way to describe the pleasure and relief that expressing so much [pc.milk] gives you. Instead, you slump down to the ground and moan, writhing in place, your hands feverishly groping and squeezing encouragingly at your [pc.chest]. The gurgling sounds the Magic-Milker makes as it works are drowned out by your own vocalizations of pleasure, and your eyes roll back from bliss, not bothering to watch the [pc.milkColor] fluid drain away into a bag on the back-end of the device. Shocks of ecstatic pleasure jostle and jiggle your leaking teats as you stagger through one boobquaking orgasm after another, leaving your head fuzzy with pleasure-static and thoughts of giving your [pc.milk] again and again.",
     "translation": "",
-    "context": "<<POS:21862760>>"
+    "context": "<<POS:21862764>>"
   },
   {
-    "key": "output|n_nThe_plastic_bag_has_sprung_a_leak_and_has_soaked_you_from_t|83719d929224",
-    "original": "\\n\\nThe plastic bag has sprung a leak, and has soaked you from the waist down in [pc.milk]. You didn’t even notice, you were that into it. Even now, considering the mess you’ve caused and the [pc.milkFlavor] produce wasted, you’re finding it difficult to care. Another pleasurable throb echoes through you, making you coo woozily.",
+    "key": "output|The_plastic_bag_has_sprung_a_leak_and_has_soaked_you_from_the_w|053fd9cb5962",
+    "original": "The plastic bag has sprung a leak, and has soaked you from the waist down in [pc.milk]. You didn’t even notice, you were that into it. Even now, considering the mess you’ve caused and the [pc.milkFlavor] produce wasted, you’re finding it difficult to care. Another pleasurable throb echoes through you, making you coo woozily.",
     "translation": "",
-    "context": "<<POS:21863574>>"
+    "context": "<<POS:21863578>>"
   },
   {
-    "key": "output|n_nThe_plastic_bag_expands_and_expands_and_expands_every_wr|5c3deafb97e7",
-    "original": "\\n\\nThe plastic bag expands and expands... and expands, every wrinkle on its surface vanishing while it’s pulled tight by the voluminous fluid inside. It audibly creaks, and for a second, you think it’s going to pop. Then, it springs a leak in the corner, gushing [pc.milk] out onto the ground. That leak is rapidly joined by another in the opposite corner, and then the whole bottom of the bag gives out, soaking you from the waist down in your own [pc.milkColor] liquid.",
+    "key": "output|The_plastic_bag_expands_and_expands_and_expands_every_wrinkl|e491fe9f6629",
+    "original": "The plastic bag expands and expands... and expands, every wrinkle on its surface vanishing while it’s pulled tight by the voluminous fluid inside. It audibly creaks, and for a second, you think it’s going to pop. Then, it springs a leak in the corner, gushing [pc.milk] out onto the ground. That leak is rapidly joined by another in the opposite corner, and then the whole bottom of the bag gives out, soaking you from the waist down in your own [pc.milkColor] liquid.",
     "translation": "",
-    "context": "<<POS:21863916>>"
+    "context": "<<POS:21863920>>"
   },
   {
-    "key": "output|n_nOf_course_the_pump_keeps_going_on_as_if_nothing_happened_a|b6c80f1d9609",
-    "original": "\\n\\nOf course, the pump keeps going on as if nothing happened, and you’re too into it to mind a little mess.",
+    "key": "output|Of_course_the_pump_keeps_going_on_as_if_nothing_happened_and_y|b18b247ed543",
+    "original": "Of course, the pump keeps going on as if nothing happened, and you’re too into it to mind a little mess.",
     "translation": "",
-    "context": "<<POS:21864399>>"
+    "context": "<<POS:21864403>>"
   },
   {
-    "key": "output|n_n|19c1d911b67e",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:21864520>>"
-  },
-  {
-    "key": "output|The_Magic_Milker_7_tugs_your_teats_until_they_re_inflamed_and_so|5cbddb2fff67",
+    "key": "output|The_Magic_Milker_7_tugs_your_teats_until_they_re_inflamed_and_so|c3485f437e5d",
     "original": "The Magic-Milker 7 tugs your teats until they’re inflamed and sore. Every single drop that you have to give has been taken",
     "translation": "",
     "context": "<<POS:21864561>>"
@@ -2844,31 +3084,25 @@
     "context": "<<POS:21865135>>"
   },
   {
-    "key": "output|n_n_b_All_that_nipple_work_has_left_your_areolae_looking_a_litt|472c36d15218",
-    "original": "\\n\\n<b>All that nipple-work has left your areolae looking a little more prominent. They’re wider for sure.</b>",
+    "key": "output|b_All_that_nipple_work_has_left_your_areolae_looking_a_little_m|0c1f58b9ea4e",
+    "original": "<b>All that nipple-work has left your areolae looking a little more prominent. They’re wider for sure.</b>",
     "translation": "",
-    "context": "<<POS:21865266>>"
+    "context": "<<POS:21865270>>"
   },
   {
-    "key": "output|n_n_b_Your_pc_nipples_remain_a_little_longer_after_the_ordeal|16f537e2d3a3#1",
-    "original": "\\n\\n<b>Your [pc.nipples] remain a little longer after the ordeal. This gleaming breast-pump seems determined to give you cow teats.</b>",
+    "key": "output|b_Your_pc_nipples_remain_a_little_longer_after_the_ordeal_Th|17de1029307e#1",
+    "original": "<b>Your [pc.nipples] remain a little longer after the ordeal. This gleaming breast-pump seems determined to give you cow teats.</b>",
     "translation": "",
-    "context": "<<POS:21865476>>"
+    "context": "<<POS:21865480>>"
   },
   {
     "key": "button|Next|462be9058b70#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:21865767>>"
+    "context": "<<POS:21865767>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
-    "key": "output|n_n|bd607d7c0646",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:21865848>>"
-  },
-  {
-    "key": "output|The_bag_seals_off_leaving_you_with_o_0_description|777b7a1cb6ce",
+    "key": "output|The_bag_seals_off_leaving_you_with_o_0_description|cb615f2d257f",
     "original": "The bag seals off, leaving you with \"+o[0].description+\".",
     "translation": "",
     "context": "<<POS:21865895>>"
@@ -2928,16 +3162,10 @@
     "context": "<<POS:21866479>>"
   },
   {
-    "key": "output|n_n|a7673d8efa38",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:21866558>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30",
+    "key": "button|Next|0aa4d1644207",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:21866630>>"
+    "context": "<<POS:21866630>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|blockHeader_Installing|3b09a5cf9d92#1",
@@ -2952,28 +3180,28 @@
     "context": "<<POS:21867009>>"
   },
   {
-    "key": "output|n_n_b_You_ve_installed_a_Sleep_Fapnea_device_in_your_ship_You|979a25ef97f9",
-    "original": "\\n\\n<b>You’ve installed a Sleep Fapnea device in your ship! You can access it from the storage menu.</b>",
+    "key": "output|b_You_ve_installed_a_Sleep_Fapnea_device_in_your_ship_You_can|1357bc37571d",
+    "original": "<b>You’ve installed a Sleep Fapnea device in your ship! You can access it from the storage menu.</b>",
     "translation": "",
-    "context": "<<POS:21867378>>"
+    "context": "<<POS:21867382>>"
   },
   {
-    "key": "output|n_n_i_The_Sleep_Fapnea_device_has_been_removed_from_your_inven|8636c0d5cc3d",
-    "original": "\\n\\n(<i>The Sleep Fapnea device has been removed from your inventory and <b>installed</b></i>.)",
+    "key": "output|i_The_Sleep_Fapnea_device_has_been_removed_from_your_inventory|783978520d6b",
+    "original": "(<i>The Sleep Fapnea device has been removed from your inventory and <b>installed</b></i>.)",
     "translation": "",
-    "context": "<<POS:21867493>>"
+    "context": "<<POS:21867497>>"
   },
   {
-    "key": "output|n_i_You_can_access_it_from_the_b_bedroom_on_your_ship_b_i|749c0f67e738",
-    "original": "\\n(<i>You can access it from the <b>bedroom on your ship</b>.</i>)",
+    "key": "output|i_You_can_access_it_from_the_b_bedroom_on_your_ship_b_i|d6e26117a427",
+    "original": "(<i>You can access it from the <b>bedroom on your ship</b>.</i>)",
     "translation": "",
-    "context": "<<POS:21867599>>"
+    "context": "<<POS:21867601>>"
   },
   {
-    "key": "output|n_i_You_may_also_access_it_from_your_b_apartment_bedroom_on_T|b9c0250d8682",
-    "original": "\\n(<i>You may also access it from your <b>apartment bedroom on Tavros</b>, but you can only install or uninstall it while on your ship.</i>)",
+    "key": "output|i_You_may_also_access_it_from_your_b_apartment_bedroom_on_Tav|1dad7db134c7",
+    "original": "(<i>You may also access it from your <b>apartment bedroom on Tavros</b>, but you can only install or uninstall it while on your ship.</i>)",
     "translation": "",
-    "context": "<<POS:21867676>>"
+    "context": "<<POS:21867678>>"
   },
   {
     "key": "output|You_must_be_onboard_your_ship_in_order_to_install_the_Sleep_Fapn|e08d4c8769a3",
@@ -2982,19 +3210,31 @@
     "context": "<<POS:21867913>>"
   },
   {
-    "key": "output|n_nNext_to_your_bed_is_the_Sleep_Fapnea_device_where_you_can_m|49a2f1d2f9c4",
-    "original": "\\n\\nNext to your bed is the Sleep Fapnea device, where you can modify your dreams before you sleep.",
+    "key": "output|Next_to_your_bed_is_the_Sleep_Fapnea_device_where_you_can_modif|3081c2341d11",
+    "original": "Next to your bed is the Sleep Fapnea device, where you can modify your dreams before you sleep.",
     "translation": "",
-    "context": "<<POS:21868107>>"
+    "context": "<<POS:21868111>>"
   },
   {
     "key": "button|Sleep_Fapnea|4e6901606bf6",
     "original": "Sleep Fapnea",
     "translation": "",
-    "context": "<<POS:21868222>>"
+    "context": "<<POS:21868222>> addButton(e,\"Sleep Fapnea\",AR,\"Sleep Fapnea Device\",\"Change your sleep settings.\")"
   },
   {
-    "key": "output|blockHeader_Dreaming|f7b735402170",
+    "key": "button.hover|Sleep_Fapnea_Device|2b76fb9f322d",
+    "original": "Sleep Fapnea Device",
+    "translation": "",
+    "context": "<<POS:21868240>> addButton(e,\"Sleep Fapnea\",AR,\"Sleep Fapnea Device\",\"Change your sleep settings.\")"
+  },
+  {
+    "key": "button.tooltip|Change_your_sleep_settings|c1d6783146f1",
+    "original": "Change your sleep settings.",
+    "translation": "",
+    "context": "<<POS:21868262>> addButton(e,\"Sleep Fapnea\",AR,\"Sleep Fapnea Device\",\"Change your sleep settings.\")"
+  },
+  {
+    "key": "output|blockHeader_Dreaming|46f5a99d5f44",
     "original": "blockHeader(\"Dreaming...\")",
     "translation": "",
     "context": "<<POS:21868587>>"
@@ -3009,7 +3249,7 @@
     "key": "button|Next|ce85ff502fa1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:21868743>>"
+    "context": "<<POS:21868743>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|You_re_too_pumped_up_The_instant_you_fit_the_cup_over_pc_oneVa|d0a7bcb16ff9",
@@ -3039,13 +3279,13 @@
     "key": "button|Next|8ec7dd2ad54f",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:21869364>>"
+    "context": "<<POS:21869364>> addButton(0,\"Next\",window.masturbateMenu)"
   },
   {
     "key": "name.show|SukMastr_2000|4250d4682ec4",
     "original": "SukMastr 2000",
     "translation": "",
-    "context": "<<POS:21869453>>"
+    "context": "<<POS:21869453>> showName(\"SukMastr 2000\")"
   },
   {
     "key": "output|blockHeader_Which_Vagina|8a1fa73176e1",
@@ -3060,16 +3300,10 @@
     "context": "<<POS:21869526>>"
   },
   {
-    "key": "output|n|aaba77a30be4",
-    "original": "\\n",
+    "key": "output|b_e_1_b_Ot_m_upperCase_pc_vaginaNoun2_pc_vaginas_0|79b75fb82e60",
+    "original": "<b>#\"+(e+1)+\":</b> \"+Ot.m.upperCase(pc.vaginaNoun2(pc.vaginas[0],!1))",
     "translation": "",
-    "context": "<<POS:21869567>>"
-  },
-  {
-    "key": "output|n_b_e_1_b_Ot_m_upperCase_pc_vaginaNoun2_pc_vaginas|7905ebb72c72",
-    "original": "\\n<b>#\"+(e+1)+\":</b> \"+Ot.m.upperCase(pc.vaginaNoun2(pc.vaginas[0],!1))",
-    "translation": "",
-    "context": "<<POS:21869602>>"
+    "context": "<<POS:21869604>>"
   },
   {
     "key": "output|i_Slightly_Pumped_i|400c0aaa949a",
@@ -3084,22 +3318,34 @@
     "context": "<<POS:21869862>>"
   },
   {
-    "key": "button|Back|d1418180d166",
+    "key": "button.hover|Your_pc_vagina|9dc5c2778a6a",
+    "original": "Your [pc.vagina ",
+    "translation": "",
+    "context": "<<POS:21869927>> addDisabledButton(e,\"#\"+(e+1),\"#\"+(e+1),\"Your [pc.vagina \"+e+\"] is already as pumped as it is going to get!\")"
+  },
+  {
+    "key": "button.tooltip|Use_it_on_your_pc_vagina|fb5c9c942f2b",
+    "original": "Use it on your [pc.vagina ",
+    "translation": "",
+    "context": "<<POS:21870056>> addButton(e,\"#\"+(e+1),(function(){return a(e)}),\"#\"+(e+1),\"Use it on your [pc.vagina \"+e+\"].\")"
+  },
+  {
+    "key": "button|Back|b802e7f01759",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:21870141>>"
+    "context": "<<POS:21870141>> addButton(14,\"Back\",(function(){return window.showInventory({force:!0})}))"
   },
   {
     "key": "button|Back|8377b4609270",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:21870216>>"
+    "context": "<<POS:21870216>> addButton(14,\"Back\",window.masturbateMenu)"
   },
   {
     "key": "name.show|SukMastr_2000|3af983d79cbe",
     "original": "SukMastr 2000",
     "translation": "",
-    "context": "<<POS:21870368>>"
+    "context": "<<POS:21870368>> showName(\"SukMastr 2000\")"
   },
   {
     "key": "output|There_s_no_better_place_to_indulge_yourself_with_an_expensive_se|a159e3ecca07",
@@ -3282,10 +3528,10 @@
     "context": "<<POS:21872408>>"
   },
   {
-    "key": "output|n_nYou_rub_the_edges_of_the_pump_s_lewdly_shaped_cup_against_p|1dd0d0367bce",
-    "original": "\\n\\nYou rub the edges of the pump’s lewdly shaped cup against [pc.oneVagina], teasing yourself with the cool, hard edge. An involuntary shiver climbs up between your shoulder blades at first but quickly fades beneath the heady tightness of your arousal, allowing you to enjoy the touch of the rapidly warming plastic. ",
+    "key": "output|You_rub_the_edges_of_the_pump_s_lewdly_shaped_cup_against_pc_on|28c71577efd9",
+    "original": "You rub the edges of the pump’s lewdly shaped cup against [pc.oneVagina], teasing yourself with the cool, hard edge. An involuntary shiver climbs up between your shoulder blades at first but quickly fades beneath the heady tightness of your arousal, allowing you to enjoy the touch of the rapidly warming plastic. ",
     "translation": "",
-    "context": "<<POS:21872578>>"
+    "context": "<<POS:21872582>>"
   },
   {
     "key": "output|It_s_so_slick_with_your_drooling_lubricant_that_it_slips_and_sli|411ee021ac07",
@@ -3336,10 +3582,10 @@
     "context": "<<POS:21873405>>"
   },
   {
-    "key": "output|n_nOne_meaningful_wiggle_later_and_the_cup_is_nestling_snugly|edf5dc41e38e",
-    "original": "\\n\\nOne meaningful wiggle later, and the cup is nestling snugly around ",
+    "key": "output|One_meaningful_wiggle_later_and_the_cup_is_nestling_snugly_arou|1f23ecaed233",
+    "original": "One meaningful wiggle later, and the cup is nestling snugly around ",
     "translation": "",
-    "context": "<<POS:21873442>>"
+    "context": "<<POS:21873446>>"
   },
   {
     "key": "output|your|6f9981fd35ad",
@@ -3492,16 +3738,16 @@
     "context": "<<POS:21875065>>"
   },
   {
-    "key": "output|n_nYou_press_the_activation_button|4db052caa84c",
-    "original": "\\n\\nYou press the activation button.",
+    "key": "output|You_press_the_activation_button|a4e59bda687b",
+    "original": "You press the activation button.",
     "translation": "",
-    "context": "<<POS:21875092>>"
+    "context": "<<POS:21875096>>"
   },
   {
-    "key": "output|n_nWhirring_softly_the_SukMastr_2000_does_what_it_was_designed|4419b3ad4558",
-    "original": "\\n\\nWhirring softly, the SukMastr 2000 does what it was designed to do - suck on cunt. It tugs gently on your pussylips, making them swell and tingle",
+    "key": "output|Whirring_softly_the_SukMastr_2000_does_what_it_was_designed_to|a02e06177067",
+    "original": "Whirring softly, the SukMastr 2000 does what it was designed to do - suck on cunt. It tugs gently on your pussylips, making them swell and tingle",
     "translation": "",
-    "context": "<<POS:21875139>>"
+    "context": "<<POS:21875143>>"
   },
   {
     "key": "output|even_more|da0806d8530f",
@@ -3528,16 +3774,16 @@
     "context": "<<POS:21876131>>"
   },
   {
-    "key": "output|n_nOnce_your_pc_girlCum_reaches_the_level_of_the_pump_s_hose|1e669c886357",
-    "original": "\\n\\nOnce your [pc.girlCum] reaches the level of the pump’s hose, it loudly burbles, devouring your lady-jizz with enthusiasm, seemingly doubling the suction in an instant. Your pussy puffs up, and the pleasure comes back twice as strong. Your [pc.hips] shake, and your body quivers, delighted to be so forcefully sucked. Nerves sizzle and misfire. Your crotch is a constant barrage of pleasure and desire, delirious tingles and masochistic pain mixing together into an ecstatic stew.",
+    "key": "output|Once_your_pc_girlCum_reaches_the_level_of_the_pump_s_hose_it|46903a86403c",
+    "original": "Once your [pc.girlCum] reaches the level of the pump’s hose, it loudly burbles, devouring your lady-jizz with enthusiasm, seemingly doubling the suction in an instant. Your pussy puffs up, and the pleasure comes back twice as strong. Your [pc.hips] shake, and your body quivers, delighted to be so forcefully sucked. Nerves sizzle and misfire. Your crotch is a constant barrage of pleasure and desire, delirious tingles and masochistic pain mixing together into an ecstatic stew.",
     "translation": "",
-    "context": "<<POS:21876174>>"
+    "context": "<<POS:21876178>>"
   },
   {
-    "key": "output|n_nUnable_to_keep_your_hands_off_your_puffed_up_puss_you_flick|bc326ffc37c2",
-    "original": "\\n\\nUnable to keep your hands off your puffed-up puss, you flick the release switch, briefly shutting off the pump so that you can touch the raw, engorged flesh. ",
+    "key": "output|Unable_to_keep_your_hands_off_your_puffed_up_puss_you_flick_the|95cda92b05dc",
+    "original": "Unable to keep your hands off your puffed-up puss, you flick the release switch, briefly shutting off the pump so that you can touch the raw, engorged flesh. ",
     "translation": "",
-    "context": "<<POS:21876668>>"
+    "context": "<<POS:21876672>>"
   },
   {
     "key": "output|The_expression_flicking_the_bean_suddenly_makes_a_lot_more_sen|c3670e7d826f",
@@ -3558,25 +3804,19 @@
     "context": "<<POS:21877205>>"
   },
   {
-    "key": "output|n_nIf_it_s_this_good_now_what_ll_happen_once_you_pump_it_up_ev|c15050823983",
-    "original": "\\n\\nIf it’s this good now, what’ll happen once you pump it up even more?",
+    "key": "output|If_it_s_this_good_now_what_ll_happen_once_you_pump_it_up_even_m|32e163400357",
+    "original": "If it’s this good now, what’ll happen once you pump it up even more?",
     "translation": "",
-    "context": "<<POS:21877398>>"
+    "context": "<<POS:21877402>>"
   },
   {
-    "key": "output|n_nIf_it_s_staying_this_big_now_how_long_can_you_keep_it_looki|d6056676655e",
-    "original": "\\n\\nIf it’s staying this big now, how long can you keep it looking lewd if you blow it up all the way?",
+    "key": "output|If_it_s_staying_this_big_now_how_long_can_you_keep_it_looking_l|e5a0dbeb694e",
+    "original": "If it’s staying this big now, how long can you keep it looking lewd if you blow it up all the way?",
     "translation": "",
-    "context": "<<POS:21877481>>"
+    "context": "<<POS:21877485>>"
   },
   {
-    "key": "output|n_n|ab5fec47f044",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:21877594>>"
-  },
-  {
-    "key": "output|Sparing_a_glance_to_your_neglected_secondary_vagina|ac82de68d149",
+    "key": "output|Sparing_a_glance_to_your_neglected_secondary_vagina|70e3a8c4a63e",
     "original": "Sparing a glance to your neglected, secondary vagina",
     "translation": "",
     "context": "<<POS:21877735>>"
@@ -3642,10 +3882,10 @@
     "context": "<<POS:21878180>>"
   },
   {
-    "key": "output|n_nThe_machine_dings_and_shuts_off_before_your_fattened_nethers|cb35481f08e3",
-    "original": "\\n\\nThe machine dings and shuts off before your fattened nethers can be pinched by the vacuum tube, but the pressure does not fade. The seal is perfect, allowing your [pc.vagina \"+e+\"] to swell for a few moments more before it becomes completely, totally plumped. It is molded to the shape of the oblong cup and practically frothing with lust.",
+    "key": "output|The_machine_dings_and_shuts_off_before_your_fattened_nethers_can|edab78aa886f",
+    "original": "The machine dings and shuts off before your fattened nethers can be pinched by the vacuum tube, but the pressure does not fade. The seal is perfect, allowing your [pc.vagina \"+e+\"] to swell for a few moments more before it becomes completely, totally plumped. It is molded to the shape of the oblong cup and practically frothing with lust.",
     "translation": "",
-    "context": "<<POS:21878618>>"
+    "context": "<<POS:21878622>>"
   },
   {
     "key": "output|Your_drizzling_omnipresent_lube_fills_the_last_few_gaps_then|c6bd13699ade",
@@ -3660,16 +3900,16 @@
     "context": "<<POS:21879244>>"
   },
   {
-    "key": "output|n_nIt_s_so_i_huge_i_So_fuckable_You_gently_pet_it_dazzled|ab9119c9fc86",
-    "original": "\\n\\nIt’s so <i>huge</i>. So fuckable. You gently pet it, dazzled by the sensation flood forth from the too-tender folds. Your finger curls up into the slit on its own, parting the rubbery veil and plunging you into bliss. It doesn’t even feel like your [pc.vagina \"+e+\"]. It feels like a sex-toy - a big, plush sextoy that jiggles and wobbles with every poke and prod. You add a second finger as your [pc.hips] lift, humping and grinding into your palm. Thumbing your clit, you give up on controlled pleasure and give yourself over to your lusts, humping and grinding in wild abandon.",
+    "key": "output|It_s_so_i_huge_i_So_fuckable_You_gently_pet_it_dazzled_by|72531d7a5cd3",
+    "original": "It’s so <i>huge</i>. So fuckable. You gently pet it, dazzled by the sensation flood forth from the too-tender folds. Your finger curls up into the slit on its own, parting the rubbery veil and plunging you into bliss. It doesn’t even feel like your [pc.vagina \"+e+\"]. It feels like a sex-toy - a big, plush sextoy that jiggles and wobbles with every poke and prod. You add a second finger as your [pc.hips] lift, humping and grinding into your palm. Thumbing your clit, you give up on controlled pleasure and give yourself over to your lusts, humping and grinding in wild abandon.",
     "translation": "",
-    "context": "<<POS:21879436>>"
+    "context": "<<POS:21879440>>"
   },
   {
-    "key": "output|n_n_pc_GirlCum_drips_everywhere_It_hangs_in_webs_from_your_fi|6cd546b8ff55",
-    "original": "\\n\\n[pc.GirlCum] drips everywhere. It hangs in webs from your fingertips. ",
+    "key": "output|pc_GirlCum_drips_everywhere_It_hangs_in_webs_from_your_finger|2af42d221b5d",
+    "original": "[pc.GirlCum] drips everywhere. It hangs in webs from your fingertips. ",
     "translation": "",
-    "context": "<<POS:21880031>>"
+    "context": "<<POS:21880035>>"
   },
   {
     "key": "output|Curtains_spray_out|4a1b8245c2cf",
@@ -3690,16 +3930,16 @@
     "context": "<<POS:21880202>>"
   },
   {
-    "key": "output|n_nAftershocks_of_pleasure_won_t_stop_racing_through_your_body|ef71dd929522",
-    "original": "\\n\\nAftershocks of pleasure won’t stop racing through your body, twitching your [pc.legOrLegs]. You close your eyes and slowly, artlessly drag your slick digits across your body and up to your [pc.chest], cupping yourself and idly rubbing your nipples. Nothing feels quite as good as a nice a cum.",
+    "key": "output|Aftershocks_of_pleasure_won_t_stop_racing_through_your_body_twi|36fba687ffde",
+    "original": "Aftershocks of pleasure won’t stop racing through your body, twitching your [pc.legOrLegs]. You close your eyes and slowly, artlessly drag your slick digits across your body and up to your [pc.chest], cupping yourself and idly rubbing your nipples. Nothing feels quite as good as a nice a cum.",
     "translation": "",
-    "context": "<<POS:21880461>>"
+    "context": "<<POS:21880465>>"
   },
   {
-    "key": "output|n_nEventually_your_pc_vagina_e_stops_looking_so_obscenel|e3b54f3ce759",
-    "original": "\\n\\nEventually, your [pc.vagina \"+e+\"] stops looking so obscenely-inflated and shrinks back down to its normal, puffy self. You wonder if a few more play sessions won’t fix that.",
+    "key": "output|Eventually_your_pc_vagina_e_stops_looking_so_obscenely_in|f63376151980",
+    "original": "Eventually, your [pc.vagina \"+e+\"] stops looking so obscenely-inflated and shrinks back down to its normal, puffy self. You wonder if a few more play sessions won’t fix that.",
     "translation": "",
-    "context": "<<POS:21881134>>"
+    "context": "<<POS:21881138>>"
   },
   {
     "key": "output|After_all_it_worked_once|e397ed4a2110",
@@ -3708,27 +3948,27 @@
     "context": "<<POS:21881326>>"
   },
   {
-    "key": "output|n_nEventually_your_pc_vagina_e_returns_back_to_its_regul|010725b2138c",
-    "original": "\\n\\nEventually, your [pc.vagina \"+e+\"] returns back to its regular size, though a pleasant soreness lingers.",
+    "key": "output|Eventually_your_pc_vagina_e_returns_back_to_its_regular_s|1111a687a674",
+    "original": "Eventually, your [pc.vagina \"+e+\"] returns back to its regular size, though a pleasant soreness lingers.",
     "translation": "",
-    "context": "<<POS:21881367>>"
+    "context": "<<POS:21881371>>"
   },
   {
-    "key": "output|n_nWhen_you_look_down_you_realize_that_your_pc_vagina_e|37e7f10bc420",
-    "original": "\\n\\nWhen you look down, you realize that your [pc.vagina \"+e+\"] is taking a long time to shrink back down. You wait, but it only loses half of its size before stopping. <b>It looks like you have a permanently pumped-up pussy.</b>",
+    "key": "output|When_you_look_down_you_realize_that_your_pc_vagina_e_is_t|0b7c0c7ffea6",
+    "original": "When you look down, you realize that your [pc.vagina \"+e+\"] is taking a long time to shrink back down. You wait, but it only loses half of its size before stopping. <b>It looks like you have a permanently pumped-up pussy.</b>",
     "translation": "",
-    "context": "<<POS:21881487>>"
+    "context": "<<POS:21881491>>"
   },
   {
-    "key": "output|n_nYour_rubbery_inflated_cunt_aches_but_it_isn_t_receding_muc|a10a08344db1",
-    "original": "\\n\\nYour rubbery, inflated cunt aches, but it isn’t receding much at all. You sit there, watching it, occassionally reaching down to give it a little love-pat, amazed at how plush it seems. <b>Your [pc.vagina \"+e+\"] appears to be permanently irrecovably expanded.</b> Pumping it any more would be pointless - it fills the cup as is.",
+    "key": "output|Your_rubbery_inflated_cunt_aches_but_it_isn_t_receding_much_at|0beb2948a22c",
+    "original": "Your rubbery, inflated cunt aches, but it isn’t receding much at all. You sit there, watching it, occassionally reaching down to give it a little love-pat, amazed at how plush it seems. <b>Your [pc.vagina \"+e+\"] appears to be permanently irrecovably expanded.</b> Pumping it any more would be pointless - it fills the cup as is.",
     "translation": "",
-    "context": "<<POS:21881785>>"
+    "context": "<<POS:21881789>>"
   },
   {
     "key": "button|Next|b502a64d600d",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:21882300>>"
+    "context": "<<POS:21882300>> addButton(0,\"Next\",mainGameMenu)"
   }
 ]

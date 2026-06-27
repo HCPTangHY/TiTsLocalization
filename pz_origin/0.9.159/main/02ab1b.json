@@ -1,15 +1,15 @@
 [
   {
-    "key": "output|You_pull_the_injector_out_but_remember_that_you_need_to_have_sca|df825960d43c",
-    "original": "You pull the injector out but remember that you need to have scales in order use it!\\n\\n",
+    "key": "output|You_pull_the_injector_out_but_remember_that_you_need_to_have_sca|23cf485b7435",
+    "original": "You pull the injector out but remember that you need to have scales in order use it!",
     "translation": "",
     "context": "<<POS:09398195>>"
   },
   {
-    "key": "button|Next|0f6f09342cb1",
+    "key": "button|Next|b5276b0b0884",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09398311>>"
+    "context": "<<POS:09398311>> addButton(0,\"Next\",(function(){return t.rbgCancel(e,t)}))"
   },
   {
     "key": "output|e_capitalA_e_short_uses_the_scales_of_color_to_no_effect|341974543b5e",
@@ -21,7 +21,7 @@
     "key": "name.show|Scales_of_Color|770bb0eb9bac",
     "original": "Scales of Color",
     "translation": "",
-    "context": "<<POS:09398650>>"
+    "context": "<<POS:09398650>> showName(\"Scales of Color\")"
   },
   {
     "key": "output|A_quick_look_at_the_injector_reveals_the_tap_to_link_emblem_Gra|f61f049bcfb5",
@@ -39,43 +39,115 @@
     "key": "button|Terran|c40905bb4a46",
     "original": "“Terran”",
     "translation": "",
-    "context": "<<POS:09399715>>"
+    "context": "<<POS:09399715>> addButton(0,\"“Terran”\",(function(){return window.rbgSelColor(e,\"terran\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"“Terran” Colors\",\"Choose from the human terran color scheme.\")"
   },
   {
-    "key": "button|Unusual|6287d18cabbb",
+    "key": "button.hover|Terran_Colors|3496c3ff6654",
+    "original": "“Terran” Colors",
+    "translation": "",
+    "context": "<<POS:09399834>> addButton(0,\"“Terran”\",(function(){return window.rbgSelColor(e,\"terran\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"“Terran” Colors\",\"Choose from the human terran color scheme.\")"
+  },
+  {
+    "key": "button.tooltip|Choose_from_the_human_terran_color_scheme|cbad928a5f35",
+    "original": "Choose from the human terran color scheme.",
+    "translation": "",
+    "context": "<<POS:09399852>> addButton(0,\"“Terran”\",(function(){return window.rbgSelColor(e,\"terran\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"“Terran” Colors\",\"Choose from the human terran color scheme.\")"
+  },
+  {
+    "key": "button|Unusual|fe129d7dadbe",
     "original": "Unusual",
     "translation": "",
-    "context": "<<POS:09399910>>"
+    "context": "<<POS:09399910>> addButton(1,\"Unusual\",(function(){return window.rbgSelColor(e,\"rainbow\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Unusual Colors\",\"Choose from the unusual color library.\")"
   },
   {
-    "key": "button|Metallic|3b8aa98c14c9",
+    "key": "button.hover|Unusual_Colors|bca941b45441",
+    "original": "Unusual Colors",
+    "translation": "",
+    "context": "<<POS:09400029>> addButton(1,\"Unusual\",(function(){return window.rbgSelColor(e,\"rainbow\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Unusual Colors\",\"Choose from the unusual color library.\")"
+  },
+  {
+    "key": "button.tooltip|Choose_from_the_unusual_color_library|38ad22e98ce2",
+    "original": "Choose from the unusual color library.",
+    "translation": "",
+    "context": "<<POS:09400046>> addButton(1,\"Unusual\",(function(){return window.rbgSelColor(e,\"rainbow\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Unusual Colors\",\"Choose from the unusual color library.\")"
+  },
+  {
+    "key": "button|Metallic|f19b33ad2d04",
     "original": "Metallic",
     "translation": "",
-    "context": "<<POS:09400100>>"
+    "context": "<<POS:09400100>> addButton(2,\"Metallic\",(function(){return window.rbgSelColor(e,\"metallic\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Metallic Colors\",\"Choose from the metallic color library.\")"
   },
   {
-    "key": "button|Glowing|429d796eb23f",
+    "key": "button.hover|Metallic_Colors|347a3d6db2aa",
+    "original": "Metallic Colors",
+    "translation": "",
+    "context": "<<POS:09400221>> addButton(2,\"Metallic\",(function(){return window.rbgSelColor(e,\"metallic\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Metallic Colors\",\"Choose from the metallic color library.\")"
+  },
+  {
+    "key": "button.tooltip|Choose_from_the_metallic_color_library|dc668ea1e1bd",
+    "original": "Choose from the metallic color library.",
+    "translation": "",
+    "context": "<<POS:09400239>> addButton(2,\"Metallic\",(function(){return window.rbgSelColor(e,\"metallic\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Metallic Colors\",\"Choose from the metallic color library.\")"
+  },
+  {
+    "key": "button|Glowing|613fdd99efbe",
     "original": "Glowing",
     "translation": "",
-    "context": "<<POS:09400294>>"
+    "context": "<<POS:09400294>> addButton(3,\"Glowing\",(function(){return window.rbgSelColor(e,\"glowing\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Glowing Colors\",\"Choose from the glowing color library.\")"
   },
   {
-    "key": "button|Gem|21bde52b1c80",
+    "key": "button.hover|Glowing_Colors|57e0b147279a",
+    "original": "Glowing Colors",
+    "translation": "",
+    "context": "<<POS:09400413>> addButton(3,\"Glowing\",(function(){return window.rbgSelColor(e,\"glowing\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Glowing Colors\",\"Choose from the glowing color library.\")"
+  },
+  {
+    "key": "button.tooltip|Choose_from_the_glowing_color_library|a2b9c8d5f8ad",
+    "original": "Choose from the glowing color library.",
+    "translation": "",
+    "context": "<<POS:09400430>> addButton(3,\"Glowing\",(function(){return window.rbgSelColor(e,\"glowing\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Glowing Colors\",\"Choose from the glowing color library.\")"
+  },
+  {
+    "key": "button|Gem|4205f1833e5c",
     "original": "Gem",
     "translation": "",
-    "context": "<<POS:09400484>>"
+    "context": "<<POS:09400484>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Gem Colors\",\"Choose from the gem color library.\")"
   },
   {
-    "key": "button|Markings|868376b851cd",
+    "key": "button.hover|Gem_Colors|9aca03191d1b",
+    "original": "Gem Colors",
+    "translation": "",
+    "context": "<<POS:09400600>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Gem Colors\",\"Choose from the gem color library.\")"
+  },
+  {
+    "key": "button.tooltip|Choose_from_the_gem_color_library|d72e9b7eadf9",
+    "original": "Choose from the gem color library.",
+    "translation": "",
+    "context": "<<POS:09400613>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",void 0,t.scaleColorChanger,t.backMenu,e.scaleColor,\"\",t)}),\"Gem Colors\",\"Choose from the gem color library.\")"
+  },
+  {
+    "key": "button|Markings|423183290c43",
     "original": "Markings",
     "translation": "",
-    "context": "<<POS:09400663>>"
+    "context": "<<POS:09400663>> addButton(6,\"Markings\",(function(){return t.getMarkings(e,t)}),\"Markings\",\"Add or remove markings on your body.\")"
   },
   {
-    "key": "button|Back|9afbeaaafbf1",
+    "key": "button.hover|Markings|423183290c43",
+    "original": "Markings",
+    "translation": "",
+    "context": "<<POS:09400714>> addButton(6,\"Markings\",(function(){return t.getMarkings(e,t)}),\"Markings\",\"Add or remove markings on your body.\")"
+  },
+  {
+    "key": "button.tooltip|Add_or_remove_markings_on_your_body|6a1b4da1134f",
+    "original": "Add or remove markings on your body.",
+    "translation": "",
+    "context": "<<POS:09400725>> addButton(6,\"Markings\",(function(){return t.getMarkings(e,t)}),\"Markings\",\"Add or remove markings on your body.\")"
+  },
+  {
+    "key": "button|Back|4d0f53d4624b",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:09400778>>"
+    "context": "<<POS:09400778>> addButton(14,\"Back\",(function(){return t.rbgCancel(e,t)}))"
   },
   {
     "key": "output|blockHeader_Select_Pattern|fc217a24cae7",
@@ -84,40 +156,76 @@
     "context": "<<POS:09400885>>"
   },
   {
-    "key": "output|What_body_pattern_would_you_like_n_n|def75028a7d3",
-    "original": "What body pattern would you like?\\n\\n",
+    "key": "output|What_body_pattern_would_you_like|05956ad5ed07",
+    "original": "What body pattern would you like?",
     "translation": "",
     "context": "<<POS:09400981>>"
   },
   {
-    "key": "button|Recolor|51b1ff3eb4e4",
+    "key": "button|Recolor|f2df0253445e",
     "original": "Recolor",
     "translation": "",
-    "context": "<<POS:09401365>>"
+    "context": "<<POS:09401365>> addButton(12,\"Recolor\",(function(){return t.getMarkingColor(e,-2,t)}),\"Recolor\",\"Recolor your \"+e.accentMarkingsDescript()+\".\")"
   },
   {
-    "key": "button|Recolor|5008e1330b06",
+    "key": "button.hover|Recolor|f2df0253445e",
     "original": "Recolor",
     "translation": "",
-    "context": "<<POS:09401501>>"
+    "context": "<<POS:09401422>> addButton(12,\"Recolor\",(function(){return t.getMarkingColor(e,-2,t)}),\"Recolor\",\"Recolor your \"+e.accentMarkingsDescript()+\".\")"
   },
   {
-    "key": "button|Remove|93196c9cc554",
+    "key": "button.tooltip|Recolor_your|b5ac09fc4128",
+    "original": "Recolor your ",
+    "translation": "",
+    "context": "<<POS:09401432>> addButton(12,\"Recolor\",(function(){return t.getMarkingColor(e,-2,t)}),\"Recolor\",\"Recolor your \"+e.accentMarkingsDescript()+\".\")"
+  },
+  {
+    "key": "button|Recolor|27ae0092fc46",
+    "original": "Recolor",
+    "translation": "",
+    "context": "<<POS:09401501>> addDisabledButton(12,\"Recolor\",\"Recolor\",\"You don’t have any body markings to recolor.\")"
+  },
+  {
+    "key": "button.hover|You_don_t_have_any_body_markings_to_recolor|7258ef75dac7",
+    "original": "You don’t have any body markings to recolor.",
+    "translation": "",
+    "context": "<<POS:09401521>> addDisabledButton(12,\"Recolor\",\"Recolor\",\"You don’t have any body markings to recolor.\")"
+  },
+  {
+    "key": "button|Remove|a1ce2f00efd4",
     "original": "Remove",
     "translation": "",
-    "context": "<<POS:09401584>>"
+    "context": "<<POS:09401584>> addButton(13,\"Remove\",(function(){return t.markingColor(e,\"\",\"\",-1,t)}),\"Remove\",\"Remove your \"+e.accentMarkingsDescript()+\".\")"
   },
   {
-    "key": "button|Remove|5c4e1ca4bbe0",
+    "key": "button.hover|Remove|a1ce2f00efd4",
     "original": "Remove",
     "translation": "",
-    "context": "<<POS:09401720>>"
+    "context": "<<POS:09401643>> addButton(13,\"Remove\",(function(){return t.markingColor(e,\"\",\"\",-1,t)}),\"Remove\",\"Remove your \"+e.accentMarkingsDescript()+\".\")"
   },
   {
-    "key": "button|Back|e947abcbc247",
+    "key": "button.tooltip|Remove_your|e3758d90cd9c",
+    "original": "Remove your ",
+    "translation": "",
+    "context": "<<POS:09401652>> addButton(13,\"Remove\",(function(){return t.markingColor(e,\"\",\"\",-1,t)}),\"Remove\",\"Remove your \"+e.accentMarkingsDescript()+\".\")"
+  },
+  {
+    "key": "button|Remove|f1dacf340eb2",
+    "original": "Remove",
+    "translation": "",
+    "context": "<<POS:09401720>> addDisabledButton(13,\"Remove\",\"Remove\",\"You don’t have any body markings to remove.\")"
+  },
+  {
+    "key": "button.hover|You_don_t_have_any_body_markings_to_remove|757a30d8f50c",
+    "original": "You don’t have any body markings to remove.",
+    "translation": "",
+    "context": "<<POS:09401738>> addDisabledButton(13,\"Remove\",\"Remove\",\"You don’t have any body markings to remove.\")"
+  },
+  {
+    "key": "button|Back|bf8b8fd781e5",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:09401798>>"
+    "context": "<<POS:09401798>> addButton(14,\"Back\",(function(){return t.backMenu(e,t)}))"
   },
   {
     "key": "output|blockHeader_2_t_Recolor_Pattern_l_m_toDisplayCase_window_ge|50d2ec617b54",
@@ -126,64 +234,124 @@
     "context": "<<POS:09401910>>"
   },
   {
-    "key": "output|Select_a_color_type_n_n|90a0c7bb48d9",
-    "original": "Select a color type.\\n\\n",
+    "key": "output|Select_a_color_type|bf7259f4b3fb",
+    "original": "Select a color type.",
     "translation": "",
     "context": "<<POS:09402003>>"
   },
   {
-    "key": "button|Terran|74efecf1ddab",
+    "key": "button|Terran|ddc4f9419822",
     "original": "“Terran”",
     "translation": "",
-    "context": "<<POS:09402055>>"
+    "context": "<<POS:09402055>> addButton(0,\"“Terran”\",(function(){return window.rbgSelColor(e,\"terran\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"“Terran” Colors\",\"Choose from the human terran color scheme.\")"
   },
   {
-    "key": "button|Unusual|6287d18cabbb#1",
+    "key": "button.hover|Terran_Colors|b5eea8e04370",
+    "original": "“Terran” Colors",
+    "translation": "",
+    "context": "<<POS:09402167>> addButton(0,\"“Terran”\",(function(){return window.rbgSelColor(e,\"terran\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"“Terran” Colors\",\"Choose from the human terran color scheme.\")"
+  },
+  {
+    "key": "button.tooltip|Choose_from_the_human_terran_color_scheme|ecc50b6afe05",
+    "original": "Choose from the human terran color scheme.",
+    "translation": "",
+    "context": "<<POS:09402185>> addButton(0,\"“Terran”\",(function(){return window.rbgSelColor(e,\"terran\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"“Terran” Colors\",\"Choose from the human terran color scheme.\")"
+  },
+  {
+    "key": "button|Unusual|fe129d7dadbe#1",
     "original": "Unusual",
     "translation": "",
-    "context": "<<POS:09402243>>"
+    "context": "<<POS:09402243>> addButton(1,\"Unusual\",(function(){return window.rbgSelColor(e,\"rainbow\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Unusual Colors\",\"Choose from the unusual color library.\")"
   },
   {
-    "key": "button|Metallic|3b8aa98c14c9#1",
+    "key": "button.hover|Unusual_Colors|bca941b45441#1",
+    "original": "Unusual Colors",
+    "translation": "",
+    "context": "<<POS:09402355>> addButton(1,\"Unusual\",(function(){return window.rbgSelColor(e,\"rainbow\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Unusual Colors\",\"Choose from the unusual color library.\")"
+  },
+  {
+    "key": "button.tooltip|Choose_from_the_unusual_color_library|38ad22e98ce2#1",
+    "original": "Choose from the unusual color library.",
+    "translation": "",
+    "context": "<<POS:09402372>> addButton(1,\"Unusual\",(function(){return window.rbgSelColor(e,\"rainbow\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Unusual Colors\",\"Choose from the unusual color library.\")"
+  },
+  {
+    "key": "button|Metallic|f19b33ad2d04#1",
     "original": "Metallic",
     "translation": "",
-    "context": "<<POS:09402426>>"
+    "context": "<<POS:09402426>> addButton(2,\"Metallic\",(function(){return window.rbgSelColor(e,\"metallic\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Metallic Colors\",\"Choose from the metallic color library.\")"
   },
   {
-    "key": "button|Glowing|429d796eb23f#1",
+    "key": "button.hover|Metallic_Colors|347a3d6db2aa#1",
+    "original": "Metallic Colors",
+    "translation": "",
+    "context": "<<POS:09402540>> addButton(2,\"Metallic\",(function(){return window.rbgSelColor(e,\"metallic\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Metallic Colors\",\"Choose from the metallic color library.\")"
+  },
+  {
+    "key": "button.tooltip|Choose_from_the_metallic_color_library|dc668ea1e1bd#1",
+    "original": "Choose from the metallic color library.",
+    "translation": "",
+    "context": "<<POS:09402558>> addButton(2,\"Metallic\",(function(){return window.rbgSelColor(e,\"metallic\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Metallic Colors\",\"Choose from the metallic color library.\")"
+  },
+  {
+    "key": "button|Glowing|613fdd99efbe#1",
     "original": "Glowing",
     "translation": "",
-    "context": "<<POS:09402613>>"
+    "context": "<<POS:09402613>> addButton(3,\"Glowing\",(function(){return window.rbgSelColor(e,\"glowing\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Glowing Colors\",\"Choose from the glowing color library.\")"
   },
   {
-    "key": "button|Gem|21bde52b1c80#1",
+    "key": "button.hover|Glowing_Colors|57e0b147279a#1",
+    "original": "Glowing Colors",
+    "translation": "",
+    "context": "<<POS:09402725>> addButton(3,\"Glowing\",(function(){return window.rbgSelColor(e,\"glowing\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Glowing Colors\",\"Choose from the glowing color library.\")"
+  },
+  {
+    "key": "button.tooltip|Choose_from_the_glowing_color_library|a2b9c8d5f8ad#1",
+    "original": "Choose from the glowing color library.",
+    "translation": "",
+    "context": "<<POS:09402742>> addButton(3,\"Glowing\",(function(){return window.rbgSelColor(e,\"glowing\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Glowing Colors\",\"Choose from the glowing color library.\")"
+  },
+  {
+    "key": "button|Gem|4205f1833e5c#1",
     "original": "Gem",
     "translation": "",
-    "context": "<<POS:09402796>>"
+    "context": "<<POS:09402796>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Gem Colors\",\"Choose from the gem color library.\")"
   },
   {
-    "key": "button|Back|19adb4e0953c",
+    "key": "button.hover|Gem_Colors|9aca03191d1b#1",
+    "original": "Gem Colors",
+    "translation": "",
+    "context": "<<POS:09402905>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Gem Colors\",\"Choose from the gem color library.\")"
+  },
+  {
+    "key": "button.tooltip|Choose_from_the_gem_color_library|d72e9b7eadf9#1",
+    "original": "Choose from the gem color library.",
+    "translation": "",
+    "context": "<<POS:09402918>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",t,o.markingColor,o.getMarkings,e.skinAccent,\"\",o)}),\"Gem Colors\",\"Choose from the gem color library.\")"
+  },
+  {
+    "key": "button|Back|331830972eb9",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:09402969>>"
+    "context": "<<POS:09402969>> addButton(14,\"Back\",(function(){return o.getMarkings(e,o)}))"
   },
   {
     "key": "name.show|Scales_of_Color|04a09f72f714",
     "original": "Scales of Color",
     "translation": "",
-    "context": "<<POS:09403092>>"
+    "context": "<<POS:09403092>> showName(\"Scales of Color\")"
   },
   {
-    "key": "output|You_put_the_injector_back_into_your_inventory_n_n|b66f8700dfee",
-    "original": "You put the injector back into your inventory.\\n\\n",
+    "key": "output|You_put_the_injector_back_into_your_inventory|db0e8a6d5cc0",
+    "original": "You put the injector back into your inventory.",
     "translation": "",
     "context": "<<POS:09403118>>"
   },
   {
-    "key": "button|Next|124770715c37",
+    "key": "button|Next|dc8a48569dc7",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09403213>>"
+    "context": "<<POS:09403213>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   },
   {
     "key": "output|blockHeader_New_Scale_Color|4ec94a0f5113",
@@ -249,6 +417,6 @@
     "key": "button|Next|a5102bf388b0",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09406459>>"
+    "context": "<<POS:09406459>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
   }
 ]

@@ -3,30 +3,36 @@
     "key": "perk|Fixed_CumQ|9becd7a6288b",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:12078112>>"
+    "context": "<<POS:12078112>> createPerk(\"Fixed CumQ\",1e3)"
   },
   {
     "key": "perk|Inhuman_Desire|0761734979f5",
     "original": "Inhuman Desire",
     "translation": "",
-    "context": "<<POS:12081292>>"
+    "context": "<<POS:12081292>> createPerk(\"Inhuman Desire\",100)"
   },
   {
     "key": "perk|Appearance_Enabled|468b9a179f4c",
     "original": "Appearance Enabled",
     "translation": "",
-    "context": "<<POS:12081344>>"
+    "context": "<<POS:12081344>> createPerk(\"Appearance Enabled\")"
   },
   {
     "key": "perk|Appearance_Enabled|9981b1b20dfc",
     "original": "Appearance Enabled",
     "translation": "",
-    "context": "<<POS:12086116>>"
+    "context": "<<POS:12086116>> createPerk(\"Appearance Enabled\")"
   },
   {
     "key": "button|Slyveren_Slave|8d4bcd202e07",
     "original": "Slyveren Slave",
     "translation": "",
-    "context": "<<POS:12088224>>"
+    "context": "<<POS:12088224>> addButton(arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,\"Slyveren Slave\",this.crewApproach,\"Slyveren Slave\",\"\")"
+  },
+  {
+    "key": "button.hover|Slyveren_Slave|8d4bcd202e07",
+    "original": "Slyveren Slave",
+    "translation": "",
+    "context": "<<POS:12088259>> addButton(arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,\"Slyveren Slave\",this.crewApproach,\"Slyveren Slave\",\"\")"
   }
 ]

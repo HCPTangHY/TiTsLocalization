@@ -3,36 +3,48 @@
     "key": "perk|Sterile|7ed8c5414080",
     "original": "Sterile",
     "translation": "",
-    "context": "<<POS:01711815>>"
+    "context": "<<POS:01711815>> createPerk(\"Sterile\",0,0,0,0,\"\")"
   },
   {
     "key": "button|Shekka|abce26fdc4c5",
     "original": "Shekka",
     "translation": "",
-    "context": "<<POS:01714282>>"
+    "context": "<<POS:01714282>> addDisabledButton(e,\"Shekka\",\"Shekka\",\"Shekka is lounging about after a little bit of play with her toy. Once she’s recovered and cleaned up, she’ll be up to hang out again. Give her an hour at the most.\")"
+  },
+  {
+    "key": "button.hover|Shekka_is_lounging_about_after_a_little_bit_of_play_with_her_toy|122af50090b9",
+    "original": "Shekka is lounging about after a little bit of play with her toy. Once she’s recovered and cleaned up, she’ll be up to hang out again. Give her an hour at the most.",
+    "translation": "",
+    "context": "<<POS:01714300>> addDisabledButton(e,\"Shekka\",\"Shekka\",\"Shekka is lounging about after a little bit of play with her toy. Once she’s recovered and cleaned up, she’ll be up to hang out again. Give her an hour at the most.\")"
+  },
+  {
+    "key": "button|Shekka|fa4597527e8f",
+    "original": "Shekka",
+    "translation": "",
+    "context": "<<POS:01714644>> addDisabledButton(e,\"Shekka\",\"Shekka\",\"Shekka is still probably banging out her frustrations on a bull. She’ll be back before too long.\")"
+  },
+  {
+    "key": "button.hover|Shekka_is_still_probably_banging_out_her_frustrations_on_a_bull|30e080ab029e",
+    "original": "Shekka is still probably banging out her frustrations on a bull. She’ll be back before too long.",
+    "translation": "",
+    "context": "<<POS:01714662>> addDisabledButton(e,\"Shekka\",\"Shekka\",\"Shekka is still probably banging out her frustrations on a bull. She’ll be back before too long.\")"
+  },
+  {
+    "key": "button|Shekka|5b7d7ce172cf",
+    "original": "Shekka",
+    "translation": "",
+    "context": "<<POS:01714961>> addButton(e,\"Shekka\",window.shekkaOnaholeIntro)"
   },
   {
     "key": "button|Shekka|f41256458184",
     "original": "Shekka",
     "translation": "",
-    "context": "<<POS:01714644>>"
+    "context": "<<POS:01715135>> addButton(e,\"Shekka\",window.approachCrewShekka)"
   },
   {
     "key": "button|Shekka|f41256458184#1",
     "original": "Shekka",
     "translation": "",
-    "context": "<<POS:01714961>>"
-  },
-  {
-    "key": "button|Shekka|f41256458184#2",
-    "original": "Shekka",
-    "translation": "",
-    "context": "<<POS:01715135>>"
-  },
-  {
-    "key": "button|Shekka|f41256458184#3",
-    "original": "Shekka",
-    "translation": "",
-    "context": "<<POS:01715184>>"
+    "context": "<<POS:01715184>> addButton(e,\"Shekka\",window.approachCrewShekka)"
   }
 ]

@@ -15,28 +15,58 @@
     "key": "button|Fruit|df63b2053151",
     "original": "Fruit",
     "translation": "",
-    "context": "<<POS:08999494>>"
+    "context": "<<POS:08999494>> addButton(0,\"Fruit\",(function(){return t.useText(e,0)}),\"Fruit\",\"For those looking to become a fruit bat, a white chocolate bonbon with dried mango and cashews in the shape of a banana bunch.\")"
   },
   {
-    "key": "button|Vamp|7daf32faca11",
+    "key": "button.hover|Fruit|df63b2053151",
+    "original": "Fruit",
+    "translation": "",
+    "context": "<<POS:08999538>> addButton(0,\"Fruit\",(function(){return t.useText(e,0)}),\"Fruit\",\"For those looking to become a fruit bat, a white chocolate bonbon with dried mango and cashews in the shape of a banana bunch.\")"
+  },
+  {
+    "key": "button.tooltip|For_those_looking_to_become_a_fruit_bat_a_white_chocolate_bonbo|e7c08b775612",
+    "original": "For those looking to become a fruit bat, a white chocolate bonbon with dried mango and cashews in the shape of a banana bunch.",
+    "translation": "",
+    "context": "<<POS:08999546>> addButton(0,\"Fruit\",(function(){return t.useText(e,0)}),\"Fruit\",\"For those looking to become a fruit bat, a white chocolate bonbon with dried mango and cashews in the shape of a banana bunch.\")"
+  },
+  {
+    "key": "button|Vamp|56a243e6eeb9",
     "original": "Vamp",
     "translation": "",
-    "context": "<<POS:08999688>>"
+    "context": "<<POS:08999688>> addButton(1,\"Vamp\",(function(){return t.useText(e,1)}),\"Vamp\",\"For those seeking the vampire bat look, an iron-rich, droplet-shaped dark chocolate filled with a syrup of blood orange and blackstrap molasses.\")"
   },
   {
-    "key": "button|Generic|75150f4e15f3",
+    "key": "button.hover|Vamp|56a243e6eeb9",
+    "original": "Vamp",
+    "translation": "",
+    "context": "<<POS:08999731>> addButton(1,\"Vamp\",(function(){return t.useText(e,1)}),\"Vamp\",\"For those seeking the vampire bat look, an iron-rich, droplet-shaped dark chocolate filled with a syrup of blood orange and blackstrap molasses.\")"
+  },
+  {
+    "key": "button.tooltip|For_those_seeking_the_vampire_bat_look_an_iron_rich_droplet_sh|88a99e391ec1",
+    "original": "For those seeking the vampire bat look, an iron-rich, droplet-shaped dark chocolate filled with a syrup of blood orange and blackstrap molasses.",
+    "translation": "",
+    "context": "<<POS:08999738>> addButton(1,\"Vamp\",(function(){return t.useText(e,1)}),\"Vamp\",\"For those seeking the vampire bat look, an iron-rich, droplet-shaped dark chocolate filled with a syrup of blood orange and blackstrap molasses.\")"
+  },
+  {
+    "key": "button|Generic|f1b425ef771c",
     "original": "Generic",
     "translation": "",
-    "context": "<<POS:08999898>>"
+    "context": "<<POS:08999898>> addButton(2,\"Generic\",(function(){return t.useText(e,2)}),\"Generic\",\"No preference? No problem! This grub-shaped milk chocolate comes mixed with bug-shaped gummies...\")"
   },
   {
-    "key": "output|n_n|210208a10a89",
-    "original": "\\n\\n",
+    "key": "button.hover|Generic|f1b425ef771c",
+    "original": "Generic",
     "translation": "",
-    "context": "<<POS:09003256>>"
+    "context": "<<POS:08999944>> addButton(2,\"Generic\",(function(){return t.useText(e,2)}),\"Generic\",\"No preference? No problem! This grub-shaped milk chocolate comes mixed with bug-shaped gummies...\")"
   },
   {
-    "key": "output|textify_n_n_0_L_Z_n_t_tThere_s_a_feeling_at_your_back_lik|b2fff51ab86e",
+    "key": "button.tooltip|No_preference_No_problem_This_grub_shaped_milk_chocolate_comes|15981c73482b",
+    "original": "No preference? No problem! This grub-shaped milk chocolate comes mixed with bug-shaped gummies...",
+    "translation": "",
+    "context": "<<POS:08999954>> addButton(2,\"Generic\",(function(){return t.useText(e,2)}),\"Generic\",\"No preference? No problem! This grub-shaped milk chocolate comes mixed with bug-shaped gummies...\")"
+  },
+  {
+    "key": "output|textify_n_n_0_L_Z_n_t_tThere_s_a_feeling_at_your_back_lik|169b406401ff",
     "original": "textify(n||(n=(0,L.Z)([\"\\n\\t\\tThere’s a feeling at your back like your shoulders tightening, the skin and muscle extending out behind you as it divests from the bulk of your body. The growths smooth out as they stretch away and soon your <b>newly grown bat wings</b> are fully formed and functional, with leathery membranes spread between delicate finger-bones.[var0| After a moment, the [pc.skinTone] skin begins to itch, heralding the spread of fur over your wing backs. The silky fluff keeps the delicate arms’s dorsal sides nice and warm.] They’re not large enough to fly with, but a few more of these candies ought to take care of things... should you want them to be.\\n\\t\\t\"]))),[function(){return t}]",
     "translation": "",
     "context": "<<POS:09003412>>"
@@ -132,10 +162,10 @@
     "context": "<<POS:09023289>>"
   },
   {
-    "key": "output|n_nWhat_you_took_for_bare_skin_was_in_fact_t_a_large_amou|dae8b2fc77f6",
-    "original": "\\n\\nWhat you took for bare skin was, in fact, \"+(t?\"a large amount of silky, luxurious\":\"an unexpected new layer of velveteen\")+\" [pc.furColor] fur! <b>You have [pc.furColor] fur, just like a bat!</b>",
+    "key": "output|What_you_took_for_bare_skin_was_in_fact_t_a_large_amount_o|1f28830276c4",
+    "original": "What you took for bare skin was, in fact, \"+(t?\"a large amount of silky, luxurious\":\"an unexpected new layer of velveteen\")+\" [pc.furColor] fur! <b>You have [pc.furColor] fur, just like a bat!</b>",
     "translation": "",
-    "context": "<<POS:09023637>>"
+    "context": "<<POS:09023641>>"
   },
   {
     "key": "output|There_s_a_strange_sort_of_pressure_coming_from_under_your|d203b5813272",
@@ -189,7 +219,7 @@
     "key": "perk|Flexibility|0ac17c0e8e71",
     "original": "Flexibility",
     "translation": "",
-    "context": "<<POS:09042088>>"
+    "context": "<<POS:09042088>> createPerk(\"Flexibility\",0,0,0,0,\"You can bend and stretch more easily than normal.\")"
   },
   {
     "key": "output|textify_w_w_0_L_Z_n_t_tThe_inside_of_your_throat_feels_od|59c7a4d84ad4",
@@ -201,7 +231,7 @@
     "key": "perk|Cumpire|a9a0b742d7d5",
     "original": "Cumpire",
     "translation": "",
-    "context": "<<POS:09056573>>"
+    "context": "<<POS:09056573>> createPerk(\"Cumpire\",0,0,0,0,\"Grants extra willpower after acquiring cum, but reduces it otherwise.\")"
   },
   {
     "key": "output|textify_k_k_0_L_Z_n_t_tThere_s_a_sudden_twinge_in_your_p|77d7346ab08c",
@@ -237,16 +267,16 @@
     "key": "button|Next|05a20b82cadd",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09066509>>"
+    "context": "<<POS:09066509>> addButton(0,\"Next\",this.returnToInventory,\"Next\",\"\")"
   },
   {
-    "key": "output|n_n|bd607d7c0646",
-    "original": "\\n\\n",
+    "key": "button.hover|Next|05a20b82cadd",
+    "original": "Next",
     "translation": "",
-    "context": "<<POS:09066591>>"
+    "context": "<<POS:09066539>> addButton(0,\"Next\",this.returnToInventory,\"Next\",\"\")"
   },
   {
-    "key": "output|textify_C_C_0_L_Z_Other_than_the_passing_flavor_on_your_to|01edc2d532dc",
+    "key": "output|textify_C_C_0_L_Z_Other_than_the_passing_flavor_on_your_to|df850059b897",
     "original": "textify(C||(C=(0,L.Z)([\"Other than the passing flavor on your tongue, nothing changes: a dud. At least it tasted nice.\"])))",
     "translation": "",
     "context": "<<POS:09066605>>"
@@ -255,6 +285,12 @@
     "key": "button|Next|c0a7e8ac6faa",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09066755>>"
+    "context": "<<POS:09066755>> addButton(0,\"Next\",this.returnToInventory,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|c0a7e8ac6faa",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:09066785>> addButton(0,\"Next\",this.returnToInventory,\"Next\",\"\")"
   }
 ]

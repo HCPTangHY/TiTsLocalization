@@ -9,19 +9,19 @@
     "key": "button|Begin|2595563cbd44",
     "original": "Begin!",
     "translation": "",
-    "context": "<<POS:06264944>>"
+    "context": "<<POS:06264944>> addButton(0,\"Begin!\",FB)"
   },
   {
     "key": "button|Nope|92533315b0bd",
     "original": "Nope!",
     "translation": "",
-    "context": "<<POS:06264969>>"
+    "context": "<<POS:06264969>> addButton(1,\"Nope!\",mainGameMenu)"
   },
   {
     "key": "name.show|Riot|a20d1fa3e984",
     "original": "Riot",
     "translation": "",
-    "context": "<<POS:06265390>>"
+    "context": "<<POS:06265390>> showName(\"Riot\")"
   },
   {
     "key": "output|textify_Ix_Ix_0_Bt_Z_n_tThe_street_ends_at_the_solid_tal|98eee640efbb",
@@ -30,43 +30,73 @@
     "context": "<<POS:06265420>>"
   },
   {
-    "key": "bust|HARPER|130b3174e840",
-    "original": "HARPER",
-    "translation": "",
-    "context": "<<POS:06266534>>"
-  },
-  {
-    "key": "name.show|Contact|30bd34478bdd",
+    "key": "name.show|Contact|2d6af2c9ff05",
     "original": "Contact",
     "translation": "",
-    "context": "<<POS:06266553>>"
+    "context": "<<POS:06266553>> showName(\"Contact\")"
   },
   {
-    "key": "output|n_n_textify_Qx_Qx_0_Bt_Z_n_tYou_aren_t_entirely_alone|4603a8b681a9",
-    "original": "\\n\\n\"+textify(Qx||(Qx=(0,Bt.Z)([\"\\n\\tYou aren’t entirely alone, though. You push Feruze back behind a corner, both peering around as the furthest truck’s cabin door opens and a lean, svelte figure slips out. She’s shorter than average, forced to drop down several inches from the seat to the ground onto the raised heels of her latex bodysuit. She shakes out a messy mane of rust-brown hair, tucking a Codex under an arm before closing the cabin and making for the personnel door.\\n\\t\\n\\t<i>“Hey, isn’t that the bitch from...”</i> Feruze starts, squinting.\\n\\t\\n\\t<i>“Yep,”</i> you say. The same human girl from the brothel. What the hell is she doing here?\\n\\t\\n\\tThe contact has a pistol and knife strapped to her thigh, and she’s glancing around nervously. You have to grab Feruze a second time, yanking her back when the woman looks your way. Doesn’t look like she spotted you. The woman glances around the other way and stalks towards the door, producing an access card from a slot in her Codex. \\n\\t\"])))",
+    "key": "output|textify_Qx_Qx_0_Bt_Z_n_tYou_aren_t_entirely_alone_thou|524ac8225eed",
+    "original": "\"+textify(Qx||(Qx=(0,Bt.Z)([\"\\n\\tYou aren’t entirely alone, though. You push Feruze back behind a corner, both peering around as the furthest truck’s cabin door opens and a lean, svelte figure slips out. She’s shorter than average, forced to drop down several inches from the seat to the ground onto the raised heels of her latex bodysuit. She shakes out a messy mane of rust-brown hair, tucking a Codex under an arm before closing the cabin and making for the personnel door.\\n\\t\\n\\t<i>“Hey, isn’t that the bitch from...”</i> Feruze starts, squinting.\\n\\t\\n\\t<i>“Yep,”</i> you say. The same human girl from the brothel. What the hell is she doing here?\\n\\t\\n\\tThe contact has a pistol and knife strapped to her thigh, and she’s glancing around nervously. You have to grab Feruze a second time, yanking her back when the woman looks your way. Doesn’t look like she spotted you. The woman glances around the other way and stalks towards the door, producing an access card from a slot in her Codex. \\n\\t\"])))",
     "translation": "",
-    "context": "<<POS:06266587>>"
+    "context": "<<POS:06266591>>"
   },
   {
     "key": "button|Approach|8b1efcdca429",
     "original": "Approach",
     "translation": "",
-    "context": "<<POS:06267639>>"
+    "context": "<<POS:06267639>> addButton(0,\"Approach\",eE,\"Approach\",\"Approach your contact openly. Maybe you can help each other?\")"
   },
   {
-    "key": "button|Confront|4e4dd59188ae",
+    "key": "button.hover|Approach|8b1efcdca429",
+    "original": "Approach",
+    "translation": "",
+    "context": "<<POS:06267653>> addButton(0,\"Approach\",eE,\"Approach\",\"Approach your contact openly. Maybe you can help each other?\")"
+  },
+  {
+    "key": "button.tooltip|Approach_your_contact_openly_Maybe_you_can_help_each_other|7558339648c3",
+    "original": "Approach your contact openly. Maybe you can help each other?",
+    "translation": "",
+    "context": "<<POS:06267664>> addButton(0,\"Approach\",eE,\"Approach\",\"Approach your contact openly. Maybe you can help each other?\")"
+  },
+  {
+    "key": "button|Confront|21299b9ae91f",
     "original": "Confront",
     "translation": "",
-    "context": "<<POS:06267740>>"
+    "context": "<<POS:06267740>> addButton(1,\"Confront\",nE,\"Confront\",\"This girl’s up to no good. Stop her while you can.\")"
   },
   {
-    "key": "button|Stay_Back|6f2627d5948b",
+    "key": "button.hover|Confront|21299b9ae91f",
+    "original": "Confront",
+    "translation": "",
+    "context": "<<POS:06267754>> addButton(1,\"Confront\",nE,\"Confront\",\"This girl’s up to no good. Stop her while you can.\")"
+  },
+  {
+    "key": "button.tooltip|This_girl_s_up_to_no_good_Stop_her_while_you_can|5dee53a1e20f",
+    "original": "This girl’s up to no good. Stop her while you can.",
+    "translation": "",
+    "context": "<<POS:06267765>> addButton(1,\"Confront\",nE,\"Confront\",\"This girl’s up to no good. Stop her while you can.\")"
+  },
+  {
+    "key": "button|Stay_Back|6d16848b90e2",
     "original": "Stay Back",
     "translation": "",
-    "context": "<<POS:06267831>>"
+    "context": "<<POS:06267831>> addButton(2,\"Stay Back\",aE,\"Stay Back\",\"Keep hidden and watch what unfolds...\")"
   },
   {
-    "key": "output|textify_Bz_Bz_0_Bt_Z_n_tA_group_of_zaika_come_into_view_f|2e2f3c5de0fe",
+    "key": "button.hover|Stay_Back|6d16848b90e2",
+    "original": "Stay Back",
+    "translation": "",
+    "context": "<<POS:06267846>> addButton(2,\"Stay Back\",aE,\"Stay Back\",\"Keep hidden and watch what unfolds...\")"
+  },
+  {
+    "key": "button.tooltip|Keep_hidden_and_watch_what_unfolds|cbaadd5b1500",
+    "original": "Keep hidden and watch what unfolds...",
+    "translation": "",
+    "context": "<<POS:06267858>> addButton(2,\"Stay Back\",aE,\"Stay Back\",\"Keep hidden and watch what unfolds...\")"
+  },
+  {
+    "key": "output|textify_Bz_Bz_0_Bt_Z_n_tA_group_of_zaika_come_into_view_f|ec9b504769b2",
     "original": "textify(Bz||(Bz=(0,Bt.Z)([\"\\n\\tA group of zaika come into view from between rows of cubicles, all tall and lean and well-dressed. Well, lean-figured aside from the quite stupendous racks each of them are sporting, so large now from pent-up frustrations that they’ve all had to unbutton their shirts to let cleavage — or in some cases entire busts — breathe. They [var0\\n\\t\\t|seem frightened, glancing around nervously for signs of danger.\\n\\t\\t|seem more relaxed than the guards outside, at least, but at a glance you’d guess those wild eyes and their disheveled hair means they’ve been stimm’d up and awake through the whole siege.\\n\\t]\\n\\t\\n\\tAt the back of the group are a pair of much more curvaceous zaika, pumped full of silicone and cybernetic augments until they’re the pinnacle of oversexed dollhood. Huge tits, fat asses, and thighs bigger than their heads are all brazenly on naked display. They’re both wearing holo-visors that are constantly flashing and flickering with God-knows what kind of hyperporn that’s keeping their tits full and tails so turgid that they’re leaving slime-trails behind themselves with every step. \\n\\t\\n\\tThey haven’t noticed you yet, but with a giant winged shark towering over everything, that won’t last for long.\\n\\t\"]))),[function(){return 2===flags.FARROW_GATES}]",
     "translation": "",
     "context": "<<POS:06270432>>"
@@ -75,22 +105,58 @@
     "key": "button|Ambush|22f2078d1a2a",
     "original": "Ambush",
     "translation": "",
-    "context": "<<POS:06271788>>"
+    "context": "<<POS:06271788>> addButton(e++,\"Ambush\",(function(){clearAll(),wE(),author(\"Savin\"),output(textify(Ez||(Ez=(0,Bt.Z)([\"\\n\\t\\tYou draw your weapon and give Feruze a nod. That’s all she needs — she activates her mace-head and roars, throwing herself headlong into the crowd before they have a chance to know what’s hit t..."
   },
   {
-    "key": "button|Sneak|a4d4a9343909",
+    "key": "button.hover|Next|b010c38bcdd1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06272680>> addButton(e++,\"Ambush\",(function(){clearAll(),wE(),author(\"Savin\"),output(textify(Ez||(Ez=(0,Bt.Z)([\"\\n\\t\\tYou draw your weapon and give Feruze a nod. That’s all she needs — she activates her mace-head and roars, throwing herself headlong into the crowd before they have a chance to know what’s hit t..."
+  },
+  {
+    "key": "button.tooltip|Leap_into_the_fray_before_they_know_what_s_hit_them|9784eecd6640",
+    "original": "Leap into the fray before they know what’s hit them!",
+    "translation": "",
+    "context": "<<POS:06272687>> addButton(e++,\"Ambush\",(function(){clearAll(),wE(),author(\"Savin\"),output(textify(Ez||(Ez=(0,Bt.Z)([\"\\n\\t\\tYou draw your weapon and give Feruze a nod. That’s all she needs — she activates her mace-head and roars, throwing herself headlong into the crowd before they have a chance to know what’s hit t..."
+  },
+  {
+    "key": "button|Sneak|bf07a4359e94",
     "original": "Sneak",
     "translation": "",
-    "context": "<<POS:06272757>>"
+    "context": "<<POS:06272757>> addButton(e++,\"Sneak\",(function(){clearAll(),wE(),author(\"Savin\");var e=rand(20)+1+Math.round(pc.RQ()/10)>=20;output(textify(Oz||(Oz=(0,Bt.Z)([\"\\n\\t\\tYou quickly shove Feruze into a nearby cubicle and duck into the one on the other side of the office the Peers are about to come through, hoping the b..."
   },
   {
-    "key": "button|Talk_Past|dbb0fede3fd1",
+    "key": "button.hover|Sneak|bf07a4359e94",
+    "original": "Sneak",
+    "translation": "",
+    "context": "<<POS:06274524>> addButton(e++,\"Sneak\",(function(){clearAll(),wE(),author(\"Savin\");var e=rand(20)+1+Math.round(pc.RQ()/10)>=20;output(textify(Oz||(Oz=(0,Bt.Z)([\"\\n\\t\\tYou quickly shove Feruze into a nearby cubicle and duck into the one on the other side of the office the Peers are about to come through, hoping the b..."
+  },
+  {
+    "key": "button.tooltip|Try_and_slip_past_them_unnoticed|77adbca1d273",
+    "original": "Try and slip past them unnoticed.",
+    "translation": "",
+    "context": "<<POS:06274532>> addButton(e++,\"Sneak\",(function(){clearAll(),wE(),author(\"Savin\");var e=rand(20)+1+Math.round(pc.RQ()/10)>=20;output(textify(Oz||(Oz=(0,Bt.Z)([\"\\n\\t\\tYou quickly shove Feruze into a nearby cubicle and duck into the one on the other side of the office the Peers are about to come through, hoping the b..."
+  },
+  {
+    "key": "button|Talk_Past|32a4accbc93a",
     "original": "Talk Past",
     "translation": "",
-    "context": "<<POS:06274583>>"
+    "context": "<<POS:06274583>> addButton(e++,\"Talk Past\",(function(){clearAll(),wE(),author(\"Savin\"),output(textify(Hz||(Hz=(0,Bt.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|<i>“Ohhhh, hey, you’re the ones that beat up all those gross greasers outside!”</i> one of the girls giggles, stopping the rest of the gaggle before they bump into you. <i>“Wow..."
   },
   {
-    "key": "output|textify_Jz_Jz_0_Bt_Z_n_tThe_executive_offices_stand_apart|64c5177e254f",
+    "key": "button.hover|Talk_Past|32a4accbc93a",
+    "original": "Talk Past",
+    "translation": "",
+    "context": "<<POS:06277963>> addButton(e++,\"Talk Past\",(function(){clearAll(),wE(),author(\"Savin\"),output(textify(Hz||(Hz=(0,Bt.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|<i>“Ohhhh, hey, you’re the ones that beat up all those gross greasers outside!”</i> one of the girls giggles, stopping the rest of the gaggle before they bump into you. <i>“Wow..."
+  },
+  {
+    "key": "button.tooltip|Maybe_you_can_talk_your_way_past_these_ladies_in_peace|d7e6a9ec8aab",
+    "original": "Maybe you can talk your way past these ladies in peace.",
+    "translation": "",
+    "context": "<<POS:06277975>> addButton(e++,\"Talk Past\",(function(){clearAll(),wE(),author(\"Savin\"),output(textify(Hz||(Hz=(0,Bt.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|<i>“Ohhhh, hey, you’re the ones that beat up all those gross greasers outside!”</i> one of the girls giggles, stopping the rest of the gaggle before they bump into you. <i>“Wow..."
+  },
+  {
+    "key": "output|textify_Jz_Jz_0_Bt_Z_n_tThe_executive_offices_stand_apart|c292a425cdb8",
     "original": "textify(Jz||(Jz=(0,Bt.Z)([\"\\n\\tThe executive offices stand apart and above from the rest of the admin level, raised up so that the facility’s overseer can, well, over see both the bull pit and the factory floor at once from her desk. You can see an array of computers and holo-screens flickering through the partially-tinted windows, but no trace of anybody inside. Hand on your [pc.weapon], you ascend the stairs and push open the door. \\n\\t\\n\\t<i>“I’m sorry,”</i> a smooth synthetic voice beeps from the desk, <i>“the [var0\\n\\t\\t|Maven\\n\\t\\t|Executress\\n\\t\\t|Fabricator-Marshal\\n\\t] is currently out of the office. Please return to your work station.”</i>\\n\\t\\n\\t<i>“Work this station,”</i> Feruze snaps, grabbing her crotch. \\n\\t\\n\\tYou sigh and step in anyway. [var1\\n\\t\\t|The sergeant at the gates told you there would be an overseer to reward you, but you aren’t seeing anybody.\\n\\t\\t|Typical zaibatsu scum, running for cover at the first sign of danger. God forbid she have to actually confront those poor greasers out front.\\n\\t] But you suppose you didn’t come all the way down here to see some [targetFactionName] exec, did you? But while you’re here, maybe you can find something useful in the office...\\n\\t\"]))),[function(){return flags.DHAAL_PARTY_CEOMET-1},function(){return 1===flags.FARROW_GATES}]",
     "translation": "",
     "context": "<<POS:06278259>>"
@@ -105,49 +171,49 @@
     "key": "button|Next|b010c38bcdd1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06281950>>"
+    "context": "<<POS:06281950>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
-    "key": "bust|HAZMAT|11b45d18c5be",
-    "original": "HAZMAT",
+    "key": "button.hover|Next|b010c38bcdd1#1",
+    "original": "Next",
     "translation": "",
-    "context": "<<POS:06282171>>"
+    "context": "<<POS:06281970>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
-    "key": "name.show|Hazard_Trooper|2fc334c441cc",
+    "key": "name.show|Hazard_Trooper|c3c4ba818ec3",
     "original": "Hazard Trooper",
     "translation": "",
-    "context": "<<POS:06282190>>"
+    "context": "<<POS:06282190>> showName(\"Hazard Trooper\")"
   },
   {
-    "key": "output|n_n_textify_nN_nN_0_Bt_Z_You_glance_up_as_a_massive_cran|f3324f09364e",
-    "original": "\\n\\n\"+textify(nN||(nN=(0,Bt.Z)([\"You glance up as a massive crane-arm shudders past, ponderously carrying a container from the cargo bay towards another mass-conveyor to the south. The towering neon words “RESEARCH AND DEVELOPMENT DIVISION” glow above an irised airlock, sliding open amidst a flurry of activity that guides the container inside. \\n\\t\\t\\n\\t\\t<i>“Shame we can’t catch a ride,”</i> Feruze says. <i>“Might take us right where we want to go.”</i>\\n\\t\\t\\n\\t\\tBefore you can answer, a shadow falls from the crane above, slamming down into the shop floor right in front of you. It’s a zaika — though all you can see of her is the outline of her head beneath a tinted bubble helm, and a whole hell of a lot of armor. The exterior plates are crusted with residue and scorched half-black from burn marks, completely encasing the operator in impervious steel. \\n\\t\\t\\n\\t\\t<i>“No aliens are authorized for this level,”</i> she booms, bass boosted to near-deafening levels. A plasma torch screwed onto the suit’s left arm blazes to life, and her right hand draws a rivet gun from a lanyard on the suit’s hip. <i>“I’m taking you to security.”</i>\\n\\t\\t\\n\\t\\t<i>“That right?”</i> Feruze grins. <i>“Finally, a fight more my size. You feel big in that trash can, little girl?”</i>\\n\\t\\t\\n\\t\\t<i>“Put your muscles where your mouth is, alien. I hope you resist.”</i>\\n\\t\\t\\n\\t\\tYou set your stance and ready for a fight.\\n\\t\\t\"])))",
+    "key": "output|textify_nN_nN_0_Bt_Z_You_glance_up_as_a_massive_crane_ar|77858aec09f2",
+    "original": "\"+textify(nN||(nN=(0,Bt.Z)([\"You glance up as a massive crane-arm shudders past, ponderously carrying a container from the cargo bay towards another mass-conveyor to the south. The towering neon words “RESEARCH AND DEVELOPMENT DIVISION” glow above an irised airlock, sliding open amidst a flurry of activity that guides the container inside. \\n\\t\\t\\n\\t\\t<i>“Shame we can’t catch a ride,”</i> Feruze says. <i>“Might take us right where we want to go.”</i>\\n\\t\\t\\n\\t\\tBefore you can answer, a shadow falls from the crane above, slamming down into the shop floor right in front of you. It’s a zaika — though all you can see of her is the outline of her head beneath a tinted bubble helm, and a whole hell of a lot of armor. The exterior plates are crusted with residue and scorched half-black from burn marks, completely encasing the operator in impervious steel. \\n\\t\\t\\n\\t\\t<i>“No aliens are authorized for this level,”</i> she booms, bass boosted to near-deafening levels. A plasma torch screwed onto the suit’s left arm blazes to life, and her right hand draws a rivet gun from a lanyard on the suit’s hip. <i>“I’m taking you to security.”</i>\\n\\t\\t\\n\\t\\t<i>“That right?”</i> Feruze grins. <i>“Finally, a fight more my size. You feel big in that trash can, little girl?”</i>\\n\\t\\t\\n\\t\\t<i>“Put your muscles where your mouth is, alien. I hope you resist.”</i>\\n\\t\\t\\n\\t\\tYou set your stance and ready for a fight.\\n\\t\\t\"])))",
     "translation": "",
-    "context": "<<POS:06282231>>"
+    "context": "<<POS:06282235>>"
   },
   {
-    "key": "bust|HAZMAT|48e8c75db1cf",
-    "original": "HAZMAT",
-    "translation": "",
-    "context": "<<POS:06283673>>"
-  },
-  {
-    "key": "name.show|Hazard_Trooper|2fc334c441cc#1",
+    "key": "name.show|Hazard_Trooper|69646218c762",
     "original": "Hazard Trooper",
     "translation": "",
-    "context": "<<POS:06283692>>"
+    "context": "<<POS:06283692>> showName(\"Hazard Trooper\")"
   },
   {
-    "key": "output|n_nAnother_fearsomely_armored_hazard_trooper_emerges_from_the_e|8a37cc79db15",
-    "original": "\\n\\nAnother fearsomely-armored hazard trooper emerges from the edge of your vision. <b>It’s a fight!</b>",
+    "key": "output|Another_fearsomely_armored_hazard_trooper_emerges_from_the_edge|27856e25cb4c",
+    "original": "Another fearsomely-armored hazard trooper emerges from the edge of your vision. <b>It’s a fight!</b>",
     "translation": "",
-    "context": "<<POS:06283733>>"
+    "context": "<<POS:06283737>>"
   },
   {
     "key": "button|Fight|48b99135f5bf",
     "original": "Fight!",
     "translation": "",
-    "context": "<<POS:06283883>>"
+    "context": "<<POS:06283883>> addButton(t++,\"Fight!\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];hl.V.newGroundCombat();var t=new og.j;t.buffForDhaal(!0),hl.V.setFriendlyActors(pc,t);var o=new vY;e&&o.createStatusEffect(\"Flee Disabled\");function n(){clearAll(),showBust(\"HAZMAT\"),sh..."
+  },
+  {
+    "key": "button.hover|Fight|48b99135f5bf",
+    "original": "Fight!",
+    "translation": "",
+    "context": "<<POS:06368471>> addButton(t++,\"Fight!\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];hl.V.newGroundCombat();var t=new og.j;t.buffForDhaal(!0),hl.V.setFriendlyActors(pc,t);var o=new vY;e&&o.createStatusEffect(\"Flee Disabled\");function n(){clearAll(),showBust(\"HAZMAT\"),sh..."
   },
   {
     "key": "output|textify_fN_fN_0_Bt_Z_n_t_i_Huh_nobody_s_home_i_Feru|0b81b0091dd2",
@@ -159,28 +225,70 @@
     "key": "button|Next|af545f10252d",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06371316>>"
+    "context": "<<POS:06371316>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|af545f10252d",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06371336>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "button|Search_Room|55fd6190c051",
     "original": "Search Room",
     "translation": "",
-    "context": "<<POS:06371520>>"
+    "context": "<<POS:06371520>> addButton(e++,\"Search Room\",EE,\"Search Room\",\"Check the security station for any useful contraband they might have gotten in.\")"
   },
   {
-    "key": "button|Board_Cargo|6fb93ab850f9",
+    "key": "button.hover|Search_Room|55fd6190c051",
+    "original": "Search Room",
+    "translation": "",
+    "context": "<<POS:06371537>> addButton(e++,\"Search Room\",EE,\"Search Room\",\"Check the security station for any useful contraband they might have gotten in.\")"
+  },
+  {
+    "key": "button.tooltip|Check_the_security_station_for_any_useful_contraband_they_might|57cf24311a92",
+    "original": "Check the security station for any useful contraband they might have gotten in.",
+    "translation": "",
+    "context": "<<POS:06371551>> addButton(e++,\"Search Room\",EE,\"Search Room\",\"Check the security station for any useful contraband they might have gotten in.\")"
+  },
+  {
+    "key": "button|Board_Cargo|c070bf7d4f92",
     "original": "Board Cargo",
     "translation": "",
-    "context": "<<POS:06371918>>"
+    "context": "<<POS:06371918>> addButton(e++,\"Board Cargo\",RE,\"Board Cargo\",\"Use the cargo crane to bring in another cargo pod, and sneak into the R&D lab using it.\")"
   },
   {
-    "key": "button|Examine|7ce8c4d57c67",
+    "key": "button.hover|Board_Cargo|c070bf7d4f92",
+    "original": "Board Cargo",
+    "translation": "",
+    "context": "<<POS:06371935>> addButton(e++,\"Board Cargo\",RE,\"Board Cargo\",\"Use the cargo crane to bring in another cargo pod, and sneak into the R&D lab using it.\")"
+  },
+  {
+    "key": "button.tooltip|Use_the_cargo_crane_to_bring_in_another_cargo_pod_and_sneak_int|3580b0d9f2c4",
+    "original": "Use the cargo crane to bring in another cargo pod, and sneak into the R&D lab using it.",
+    "translation": "",
+    "context": "<<POS:06371949>> addButton(e++,\"Board Cargo\",RE,\"Board Cargo\",\"Use the cargo crane to bring in another cargo pod, and sneak into the R&D lab using it.\")"
+  },
+  {
+    "key": "button|Examine|2de1be6347e9",
     "original": "Examine",
     "translation": "",
-    "context": "<<POS:06372359>>"
+    "context": "<<POS:06372359>> addButton(e++,\"Examine\",ME,\"Examine\",\"Something’s wrong with this behemoth machine. Wonder what it was meant to do...\")"
   },
   {
-    "key": "output|textify_SN_SN_0_Bt_Z_n_t_flags_FARROW_MIRROW_DARK_n_t_t_T|accc208d0b2c",
+    "key": "button.hover|Examine|2de1be6347e9",
+    "original": "Examine",
+    "translation": "",
+    "context": "<<POS:06372372>> addButton(e++,\"Examine\",ME,\"Examine\",\"Something’s wrong with this behemoth machine. Wonder what it was meant to do...\")"
+  },
+  {
+    "key": "button.tooltip|Something_s_wrong_with_this_behemoth_machine_Wonder_what_it_was|3f16e954b777",
+    "original": "Something’s wrong with this behemoth machine. Wonder what it was meant to do...",
+    "translation": "",
+    "context": "<<POS:06372382>> addButton(e++,\"Examine\",ME,\"Examine\",\"Something’s wrong with this behemoth machine. Wonder what it was meant to do...\")"
+  },
+  {
+    "key": "output|textify_SN_SN_0_Bt_Z_n_t_flags_FARROW_MIRROW_DARK_n_t_t_T|d84481e5a2a5",
     "original": "textify(SN||(SN=(0,Bt.Z)([\"\\n\\t[flags.FARROW_MIRROW_DARK\\n\\t\\t|The thraggen merc’s still standing at the entrance to the airlock, directing the plodding maneuvers of her heavy industrial robot through an augmented reality headset that’s obscuring most of her face. There’s no chance of her noticing you from behind cover, especially with her total lack of peripheral vision in that retro-tech. \\n\\t\\t\\n\\t\\t<i>“Lemme at her,”</i> Feruze grins. <i>“Come on!”</i>\\n\\t\\t|You grab Feruze and pull her back behind a conveyor belt, ducking down before you’re spotted by a group of zaika coming out of the airlock to the south. It’s a huge door, big enough for a cargo container to easily slip through, and the conveyor runs straight through it on the factory floor. The folk coming out are dressed in labcoats and skin-tight [targetFactionName] bodysuits underneath them, and each is wearing a cute set of custom glasses in various eccentric shapes. \\n\\t\\t\\n\\t\\tThe heavy loader arm you saw a few minutes ago meanders ploddingly overhead, depositing another container just a few inches above the line. Rather than drop the container, it just pauses motionless, expectant for just a moment before another lumbering, armored form marches out of the airlock. Compared to the hazard suits the zaika use, this one’s an absolute [silly\\n\\t\\t\\t|unit. You’re just in awe of the size of this lad\\n\\t\\t\\t|beast\\n\\t\\t] — it’s similar to the heavy power loader Captain Khorgan used back on Tarkus, vaguely shaped like a Terran ape and wielding clamping arms strong enough to easily take the burden from the crane and set the cargo down on the conveyor. \\n\\t\\t\\n\\t\\tFor once, the pilot of this mechanical monstrosity is not a zaika — in fact, there’s no pilot at all. \\n\\t\\t\\n\\t\\tYou glance past the mech, and sure enough there’s an operator standing a back at the R&D iris, following the researchers out. She’s no dusky cyber-elf, either, but a well-built thraggen woman, wearing hard-worn black leather that strains around thick biceps, trunk thighs, and a hermaphroditic bulge that’s impossible to hide. Ash-colored hair is pulled back into a messy ponytail behind a VR visor she’s using the control the robot, but even under that you can make out black lips, big tusks, and hints of tribal warpaint splashed across her cheeks.\\n\\t\\t\\n\\t\\t<i>“Fucking finally, somebody worth my time,”</i> Feruze grins, tail and wings wiggling exuberantly. <i>“Should be payin’ more attention to her surroundings, though. Bet she’s so wrapped up in her aug’d reality that I could fly up and dropkick her, no sweat.”</i> \\n\\t\\t\\n\\t\\t<i>“The giant robot might not like that.”</i>\\n\\t\\t\\n\\t\\tThe suula scoffs. <i>“What is it, her pimp? I’ll punch her [silly\\n\\t\\t\\t|robutt\\n\\t\\t\\t|‘bot\\n\\t\\t], too.”</i>\\n\\t\\t\\n\\t\\tWell, that’s certainly the direct approach. And it’d stop any more cargo getting through to the R&D labs before you’re finished here...\\n\\t]\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:06372563>>"
@@ -189,22 +297,58 @@
     "key": "button|Air_Strike|73ccda37af02",
     "original": "Air Strike",
     "translation": "",
-    "context": "<<POS:06375549>>"
+    "context": "<<POS:06375549>> addButton(e++,\"Air Strike\",(function(){clearAll(),mhorgenn.showAll(),author(\"Savin\"),output(textify(YN||(YN=(0,Bt.Z)([\"\\n\\t\\t<i>“You’re up, Feruze,”</i> you say, drawing your [pc.weapon]. \\n\\t\\t\\n\\t\\tFeruze cracks her knuckles and spreads her wings. <i>“Fuck yeah. You just sit back and watch!”</i>\\n..."
   },
   {
-    "key": "button|Approach|1d2b2236e301",
+    "key": "button.hover|Air_Strike|73ccda37af02",
+    "original": "Air Strike",
+    "translation": "",
+    "context": "<<POS:06377699>> addButton(e++,\"Air Strike\",(function(){clearAll(),mhorgenn.showAll(),author(\"Savin\"),output(textify(YN||(YN=(0,Bt.Z)([\"\\n\\t\\t<i>“You’re up, Feruze,”</i> you say, drawing your [pc.weapon]. \\n\\t\\t\\n\\t\\tFeruze cracks her knuckles and spreads her wings. <i>“Fuck yeah. You just sit back and watch!”</i>\\n..."
+  },
+  {
+    "key": "button.tooltip|Have_Feruze_take_wing_and_give_the_thraggen_babe_a_flying_dropki|9547fa6e175e",
+    "original": "Have Feruze take wing and give the thraggen babe a flying dropkick to say hello.",
+    "translation": "",
+    "context": "<<POS:06377712>> addButton(e++,\"Air Strike\",(function(){clearAll(),mhorgenn.showAll(),author(\"Savin\"),output(textify(YN||(YN=(0,Bt.Z)([\"\\n\\t\\t<i>“You’re up, Feruze,”</i> you say, drawing your [pc.weapon]. \\n\\t\\t\\n\\t\\tFeruze cracks her knuckles and spreads her wings. <i>“Fuck yeah. You just sit back and watch!”</i>\\n..."
+  },
+  {
+    "key": "button|Approach|1370e988966b",
     "original": "Approach",
     "translation": "",
-    "context": "<<POS:06377810>>"
+    "context": "<<POS:06377810>> addButton(e++,\"Approach\",(function(){clearAll(),mhorgenn.showAll(),author(\"Savin\"),output(textify(xN||(xN=(0,Bt.Z)([\"\\n\\t\\tYou motion for Feruze to keep her violence fetish in check while you step out from behind cover, hands off your weapon. As distracted by her work as the green techie is, there’s..."
   },
   {
-    "key": "button|Back_Off|82237b8a596c",
+    "key": "button.hover|Approach|1370e988966b",
+    "original": "Approach",
+    "translation": "",
+    "context": "<<POS:06392249>> addButton(e++,\"Approach\",(function(){clearAll(),mhorgenn.showAll(),author(\"Savin\"),output(textify(xN||(xN=(0,Bt.Z)([\"\\n\\t\\tYou motion for Feruze to keep her violence fetish in check while you step out from behind cover, hands off your weapon. As distracted by her work as the green techie is, there’s..."
+  },
+  {
+    "key": "button.tooltip|Step_out_and_speak_openly_with_this_big_green_Rusher_Maybe_you|83cc5d928eb6",
+    "original": "Step out and speak openly with this big green Rusher. Maybe you can work something out. ",
+    "translation": "",
+    "context": "<<POS:06392260>> addButton(e++,\"Approach\",(function(){clearAll(),mhorgenn.showAll(),author(\"Savin\"),output(textify(xN||(xN=(0,Bt.Z)([\"\\n\\t\\tYou motion for Feruze to keep her violence fetish in check while you step out from behind cover, hands off your weapon. As distracted by her work as the green techie is, there’s..."
+  },
+  {
+    "key": "button|Back_Off|483715271843",
     "original": "Back Off",
     "translation": "",
-    "context": "<<POS:06392366>>"
+    "context": "<<POS:06392366>> addButton(e++,\"Back Off\",(function(){clearAll(),author(\"Savin\"),output(textify(CN||(CN=(0,Bt.Z)([\"\\n\\t\\t<i>“Laaaaaame,”</i> Feruze whines as you sneak back. \\n\\t\\t\\n\\t\\tYou [feruze.fucked\\n\\t\\t\\t|give your suula lover and squeeze\\n\\t\\t\\t|roll your eyes\\n\\t\\t] and turn back to the factory floor. Ther..."
   },
   {
-    "key": "output|textify_wC_wC_0_Bt_Z_n_tThe_researchers_break_room_isn_t|b00ae0290ddc",
+    "key": "button.hover|Back_Off|483715271843",
+    "original": "Back Off",
+    "translation": "",
+    "context": "<<POS:06392827>> addButton(e++,\"Back Off\",(function(){clearAll(),author(\"Savin\"),output(textify(CN||(CN=(0,Bt.Z)([\"\\n\\t\\t<i>“Laaaaaame,”</i> Feruze whines as you sneak back. \\n\\t\\t\\n\\t\\tYou [feruze.fucked\\n\\t\\t\\t|give your suula lover and squeeze\\n\\t\\t\\t|roll your eyes\\n\\t\\t] and turn back to the factory floor. Ther..."
+  },
+  {
+    "key": "button.tooltip|Maybe_you_out_to_take_a_step_back_and_rethink_a_frontal_approach|3f302b013b5b",
+    "original": "Maybe you out to take a step back and rethink a frontal approach.",
+    "translation": "",
+    "context": "<<POS:06392838>> addButton(e++,\"Back Off\",(function(){clearAll(),author(\"Savin\"),output(textify(CN||(CN=(0,Bt.Z)([\"\\n\\t\\t<i>“Laaaaaame,”</i> Feruze whines as you sneak back. \\n\\t\\t\\n\\t\\tYou [feruze.fucked\\n\\t\\t\\t|give your suula lover and squeeze\\n\\t\\t\\t|roll your eyes\\n\\t\\t] and turn back to the factory floor. Ther..."
+  },
+  {
+    "key": "output|textify_wC_wC_0_Bt_Z_n_tThe_researchers_break_room_isn_t|fc40cfcd7ee9",
     "original": "textify(wC||(wC=(0,Bt.Z)([\"\\n\\tThe researchers’ break room isn’t occupied when you and Feruze step in; the only noise comes from a pair of holoscreens quietly playing advertisements for [targetFactionName]’s own products. Really preaching to the choir, aren’t they? \\n\\t\\n\\tAside from a couple sterile white tables, a fridge, and countertop, most of the break room is dominated by [var0\\n\\t\\t|an old-school set of arcade cabinets with prop guns — modeled after company pieces, no doubt. They carry such illustrious titles such as <i>Union Buster</i> and <i>Hostage Rescue: No Prisoners</i>. [syri.fucked\\n\\t\\t\\t|Subject matter aside, Syri’d probably love this place.\\n\\t\\t]\\n\\t\\t|a series of pumping stations, which are connected to the counter’s faucet by a hose. A helpful note stickied to the side of it says <i>“Company mixer, try your co-workers’ brews :D”</i> in a flowery handwriting.\\n\\t\\t|a VR machine and a half-dozen lounge chairs with visors slung haphazardly over their backs. There’s a stack of program diskettes next to the machine’s terminal — everything from pornographic power fantasy to pastoral crafting simulators. The only genres that seem missing at a glance are the violent ones. [syri.fucked\\n\\t\\t\\t|Poor Syri’d be bored out of her mind here.\\n\\t\\t]\\n\\t]\\n\\t\\n\\tThere’s also a vending machine in the corner, surrounding by animated holograms of [targetFactionName]’s C.E.O. encouraging the viewer to spend her ‘company credits’ before they turn over at the end of the month. \\n\\t\"]))),[function(){return flags.DHAAL_PARTY_CEOMET-1}]",
     "translation": "",
     "context": "<<POS:06393023>>"
@@ -213,19 +357,19 @@
     "key": "button|Next|621352b4b908",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06394646>>"
+    "context": "<<POS:06394646>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
-    "key": "bust|XO|f38cb084aa43",
-    "original": "XO",
+    "key": "button.hover|Next|621352b4b908",
+    "original": "Next",
     "translation": "",
-    "context": "<<POS:06394781>>"
+    "context": "<<POS:06394666>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
-    "key": "name.show|Enhanced_XO|ab4844b3aefc",
+    "key": "name.show|Enhanced_XO|7f052bcf6efc",
     "original": "Enhanced XO",
     "translation": "",
-    "context": "<<POS:06394811>>"
+    "context": "<<POS:06394811>> showName(\"Enhanced XO\")"
   },
   {
     "key": "output|textify_bC_bC_0_Bt_Z_n_tThe_lights_around_you_snap_from_s|f00d7089c5fd",
@@ -237,7 +381,13 @@
     "key": "button|Fight|833663763ef2",
     "original": "Fight!",
     "translation": "",
-    "context": "<<POS:06395887>>"
+    "context": "<<POS:06395887>> addButton(e++,\"Fight!\",eO,\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|833663763ef2",
+    "original": "Fight!",
+    "translation": "",
+    "context": "<<POS:06395899>> addButton(e++,\"Fight!\",eO,\"Fight!\",\"\")"
   },
   {
     "key": "output|textify_kC_kC_0_Bt_Z_n_t_pc_isHPDefeated_n_t_t_Shields_de|1f3a7c3ce9d7",
@@ -249,7 +399,13 @@
     "key": "button|Next|374e12fbb8be",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06402864>>"
+    "context": "<<POS:06402864>> addButton(e++,\"Next\",(function(){return[UO,tH,XO][flags.DHAAL_PARTY_CEOMET-1](0)}),\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|374e12fbb8be",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06402933>> addButton(e++,\"Next\",(function(){return[UO,tH,XO][flags.DHAAL_PARTY_CEOMET-1](0)}),\"Next\",\"\")"
   },
   {
     "key": "output|textify_vC_vC_0_Bt_Z_n_t_enemy_isHPDefeated_n_t_t_The_cyb|84c05b601639",
@@ -261,13 +417,19 @@
     "key": "button|Tease|587b9d8b960e",
     "original": "Tease",
     "translation": "",
-    "context": "<<POS:06408246>>"
+    "context": "<<POS:06408246>> addButton(t++,\"Tease\",(function(){XE(!0),output(textify(TC||(TC=(0,Bt.Z)([\"\\n\\t\\t\\tYou spend the next few minutes putting everything you’ve got into working the cyborg up. [var0\\n\\t\\t\\t\\t| Your Suula seems annoyed by your diversion at first, but eventually she starts succumbing too.\\n\\t\\t\\t] It take..."
+  },
+  {
+    "key": "button.hover|Tease|587b9d8b960e",
+    "original": "Tease",
+    "translation": "",
+    "context": "<<POS:06411315>> addButton(t++,\"Tease\",(function(){XE(!0),output(textify(TC||(TC=(0,Bt.Z)([\"\\n\\t\\t\\tYou spend the next few minutes putting everything you’ve got into working the cyborg up. [var0\\n\\t\\t\\t\\t| Your Suula seems annoyed by your diversion at first, but eventually she starts succumbing too.\\n\\t\\t\\t] It take..."
   },
   {
     "key": "button|Leave|57401640c74c",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:06411837>>"
+    "context": "<<POS:06411837>> addButton(t++,\"Leave\",mainGameMenu,\"\",\"\")"
   },
   {
     "key": "output|textify_IC_IC_0_Bt_Z_n_tYou_float_the_idea_to_your_compat|a97bef4a38cb",
@@ -279,7 +441,7 @@
     "key": "button|Next|35f5ab0c32ee",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06422121>>"
+    "context": "<<POS:06422121>> addButton(t++,\"Next\",(function(){return aO(e)}),\"\",\"\")"
   },
   {
     "key": "output|textify_AC_AC_0_Bt_Z_n_t_pc_isTaur_n_t_t_It_s_somewhat_to|8b3e2e61d9cf",
@@ -291,7 +453,7 @@
     "key": "button|Next|881750ac7048",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06433017>>"
+    "context": "<<POS:06433017>> addButton(t++,\"Next\",(function(){XE(!0),output(textify(SC||(SC=(0,Bt.Z)([\"\\n\\t\\tEven when the tightness of your rolling peak seems to ease, the girl under you manages to find a previously-unknown nerve cluster that reignites your inner fire and sends you careening down another dizzying, orgasmic voy..."
   },
   {
     "key": "output|textify_YC_YC_0_Bt_Z_n_tYou_float_the_idea_to_your_compat|33a3f3874192",
@@ -303,7 +465,7 @@
     "key": "button|Next|57aa54dd2da3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06447996>>"
+    "context": "<<POS:06447996>> addButton(e++,\"Next\",sO)"
   },
   {
     "key": "output|textify_xC_xC_0_Bt_Z_n_tEven_without_nipples_this_slut_s|478227c7ce06",
@@ -315,13 +477,13 @@
     "key": "button|Next|40376d0d63da",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06458808>>"
+    "context": "<<POS:06458808>> addButton(e++,\"Next\",(function(){XE(!0),output(textify(zC||(zC=(0,Bt.Z)([\"\\n\\t\\tThe cum on her breasts is really all the XO needed to keep going. Even after you’re finished, she keeps going. What feels like hours pass as the girl jizzes herself down the cup-size charts. The endless orgasms keep your..."
   },
   {
     "key": "name.show|Jaqui_Fassbin|e14a105e0a2c",
     "original": "Jaqui Fassbin",
     "translation": "",
-    "context": "<<POS:06459694>>"
+    "context": "<<POS:06459694>> showName(\"Jaqui Fassbin\")"
   },
   {
     "key": "output|textify_NC_NC_0_Bt_Z_n_tThe_door_to_the_terminal_research|7bbc3ba8b360",
@@ -333,13 +495,19 @@
     "key": "button|Next|79cec7fa9f6f",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06463893>>"
+    "context": "<<POS:06463893>> addButton(0,\"Next\",(function(){clearAll(),showBust(window.jaquiBustString(),rival.bustString(!0)),showName(\"Jaqui Fassbin\"),author(\"Savin\"),output(textify(CC||(CC=(0,Bt.Z)([\"\\n\\t\\t\\tIn the middle of the forest of fluid-filled pods, there’s an open clearing surrounded by instrument read-outs on flick..."
+  },
+  {
+    "key": "button.hover|Next|79cec7fa9f6f",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06470893>> addButton(0,\"Next\",(function(){clearAll(),showBust(window.jaquiBustString(),rival.bustString(!0)),showName(\"Jaqui Fassbin\"),author(\"Savin\"),output(textify(CC||(CC=(0,Bt.Z)([\"\\n\\t\\t\\tIn the middle of the forest of fluid-filled pods, there’s an open clearing surrounded by instrument read-outs on flick..."
   },
   {
     "key": "name.show|rival_name|e5a736dd57aa",
     "original": "[rival.name]",
     "translation": "",
-    "context": "<<POS:06471273>>"
+    "context": "<<POS:06471273>> showName(\"[rival.name]\")"
   },
   {
     "key": "output|textify_EC_EC_0_Bt_Z_n_tThe_corrupted_Maven_finally_falte|1a083f644310",
@@ -351,34 +519,64 @@
     "key": "button|Gangbang|7be31f4fccaf",
     "original": "Gangbang",
     "translation": "",
-    "context": "<<POS:06474380>>"
+    "context": "<<POS:06474380>> addButton(e++,\"Gangbang\",lO,\"Gangbang\",\"The Maven has nine tails, an egghole, an ass, and a mouth. That’s a lot of cows she’ll be able to service at once -- plus you, of course.\")"
   },
   {
-    "key": "button|Fuck_Cows|43904461cd23",
+    "key": "button.hover|Gangbang|7be31f4fccaf",
+    "original": "Gangbang",
+    "translation": "",
+    "context": "<<POS:06474394>> addButton(e++,\"Gangbang\",lO,\"Gangbang\",\"The Maven has nine tails, an egghole, an ass, and a mouth. That’s a lot of cows she’ll be able to service at once -- plus you, of course.\")"
+  },
+  {
+    "key": "button.tooltip|The_Maven_has_nine_tails_an_egghole_an_ass_and_a_mouth_That|e283135dd87c",
+    "original": "The Maven has nine tails, an egghole, an ass, and a mouth. That’s a lot of cows she’ll be able to service at once -- plus you, of course.",
+    "translation": "",
+    "context": "<<POS:06474405>> addButton(e++,\"Gangbang\",lO,\"Gangbang\",\"The Maven has nine tails, an egghole, an ass, and a mouth. That’s a lot of cows she’ll be able to service at once -- plus you, of course.\")"
+  },
+  {
+    "key": "button|Fuck_Cows|5d49e7fc4934",
     "original": "Fuck Cows",
     "translation": "",
-    "context": "<<POS:06474578>>"
+    "context": "<<POS:06474578>> addButton(e++,\"Fuck Cows\",dO,\"Fuck Cows\",\"Leave the Maven to the depredations of her erstwhile test subjects, while you handle the most curvaceous of the needy chem-cows. There’s going to be a lot of zaika tails, and possibly tainted fluids, in your face if you do this.\")"
   },
   {
-    "key": "button|Leave|846a9d42a3e7",
+    "key": "button.hover|Fuck_Cows|5d49e7fc4934",
+    "original": "Fuck Cows",
+    "translation": "",
+    "context": "<<POS:06474593>> addButton(e++,\"Fuck Cows\",dO,\"Fuck Cows\",\"Leave the Maven to the depredations of her erstwhile test subjects, while you handle the most curvaceous of the needy chem-cows. There’s going to be a lot of zaika tails, and possibly tainted fluids, in your face if you do this.\")"
+  },
+  {
+    "key": "button.tooltip|Leave_the_Maven_to_the_depredations_of_her_erstwhile_test_subjec|551f3c943a3b",
+    "original": "Leave the Maven to the depredations of her erstwhile test subjects, while you handle the most curvaceous of the needy chem-cows. There’s going to be a lot of zaika tails, and possibly tainted fluids, in your face if you do this.",
+    "translation": "",
+    "context": "<<POS:06474605>> addButton(e++,\"Fuck Cows\",dO,\"Fuck Cows\",\"Leave the Maven to the depredations of her erstwhile test subjects, while you handle the most curvaceous of the needy chem-cows. There’s going to be a lot of zaika tails, and possibly tainted fluids, in your face if you do this.\")"
+  },
+  {
+    "key": "button|Leave|0a392df5908d",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:06474851>>"
+    "context": "<<POS:06474851>> addButton(e++,\"Leave\",(function(){clearAll(),author(\"Savin\"),output(textify(OC||(OC=(0,Bt.Z)([\"\\n\\t\\tYou brusquely extricate yourself from the closing cordon of chem-cows. Luckily, their attention is largely fixated on the fallen Maven, and they let you pass without much more fuss than a few quiet “..."
   },
   {
-    "key": "output|textify_HC_HC_0_Bt_Z_n_tYou_glance_around_at_the_herd_of|ff217fe87faa",
+    "key": "button.hover|Leave|0a392df5908d",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:06475255>> addButton(e++,\"Leave\",(function(){clearAll(),author(\"Savin\"),output(textify(OC||(OC=(0,Bt.Z)([\"\\n\\t\\tYou brusquely extricate yourself from the closing cordon of chem-cows. Luckily, their attention is largely fixated on the fallen Maven, and they let you pass without much more fuss than a few quiet “..."
+  },
+  {
+    "key": "button.tooltip|Just_get_out_of_here_before_the_cows_turn_on_you|24fb67438986",
+    "original": "Just get out of here before the cows turn on you.",
+    "translation": "",
+    "context": "<<POS:06475263>> addButton(e++,\"Leave\",(function(){clearAll(),author(\"Savin\"),output(textify(OC||(OC=(0,Bt.Z)([\"\\n\\t\\tYou brusquely extricate yourself from the closing cordon of chem-cows. Luckily, their attention is largely fixated on the fallen Maven, and they let you pass without much more fuss than a few quiet “..."
+  },
+  {
+    "key": "output|textify_HC_HC_0_Bt_Z_n_tYou_glance_around_at_the_herd_of|8f94d1689a2e",
     "original": "textify(HC||(HC=(0,Bt.Z)([\"\\n\\tYou glance around at the herd of human(oid, anyway) cows gathering around you and the Maven. All these poor women, bodies flooded with experimental chemicals and kept riding the edge of mind-breaking pleasure to further the Maven’s sick research... you look at them all, and realize that the one thing other than lust in their eyes is the need for vengeance. And what better way to slake both their needs than to use Jaqui’s mutated body, as surely as she used theirs before. \\n\\t\\n\\t<i>“Who else wants a piece of her?”</i> you ask aloud, walking over to Jaqui and rolling her over, stripping out of your [pc.armorGear] as you go. The Maven groans, voice modulated into a scratchy feedback that you silence the best way you know how — by busying her mouth on your [pc.cockOrVag]. Even half-conscious, she’s got enough sense to start using her augmented tongue, far longer and more dexterous than it has any right to be, to [pc.hasBalls\\n\\t\\t|fondle your balls while she sucks you\\n\\t\\t|[pc.hasCock\\n\\t\\t\\t|caress your underside while she sucks you\\n\\t\\t\\t|start probing between your pussylips\\n\\t\\t]\\n\\t]. \\n\\t\\n\\tThe many tails sprouting from the Maven’s back coil and throb, their bulbs searching for something to fuck. Several of the cows, still half-dazed from their ordeal, shamble up as much on instinct as any conscious choice. Their thighs are still sticky from sexual overstimulation, and their tits wobble obscenely with the gravid weight of the chems churning inside them. A couple with cocks of their own start to stroke themselves, each pump disgorging a small waterfall of technicolor fluids from their twitching crowns. The crowd closes in, a few pawing experimentally at you before getting the hint and closing on the doctor. The bravest of them, a zaika with a throbbing fat cock modded on, seizes Jaqui’s longest tail — the original one, you’re almost certain — and squeezes the bulbous head roughly, causing it to open like a rosebud so she can ram her dick into its cloying orifice. You feel the effect in Jaqui’s tongue, suddenly thrusting out accompanied by a moan muffled in your [pc.hasCock\\n\\t\\t|[pc.hasBalls\\n\\t\\t\\t|balls\\n\\t\\t\\t|[pc.cock]’s crown packed down her throat\\n\\t\\t]\\n\\t\\t|muff\\n\\t]. \\n\\t\\n\\tWhen the Maven doesn’t somehow lash out at her penetrator — indeed, if anything, she thrusts her broad hips back and spreads her legs — all she accomplishes is encouraging the rest of the herd to come and get some. And do they ever. One of the cockless cows is next, an ausar girl whose breasts are so gravid you doubt she’ll ever see her feet again, and covered in a myriad of red dragon tattoos interwoven with the Kiha logo. The girl takes a handful of tail and pinches its flower shut, turning into a bulbous-crowned dildo for her to fuck herself on. She moans, spreading her thighs and feeding the wriggling fuck-tail into her gash; you can see her stomach deforming around the bulb as it thrashes about, deeper and deeper. \\n\\t\\n\\tJaqui’s other tails are soon occupied in much the same manner, filled with dicks or thrust up into pussies and one dickgirl’s well-stretched ass. Of course, the Maven still has another hole as-yet unfilled, which soon attracts the attention of by far the largest of the cows — or rather, stallions! You’ve no idea what species this paragon of hermaphroditism might once have been, as she’s completely modded herself into an equine morph, with dense white feathering over brown fur and a mane of shaggy pearl-colored hair. A huge horsecock and taut black nuts, each larger than a basketball, hang heavily between thighs thicker around than the Maven’s torso. \\n\\t\\n\\t<i>“This is for however many months of my life you stole,”</i> the horse-girl snorts, slapping the massive trunk of her cock across Jaqui’s back. The other cows make way for her as the horse kicks the mutant zaika’s legs apart and positions herself behind her former tormentor. Jaqui’s cybernetic eyes dilate a moment as realization suddenly dawns, right before the maregirl thrusts her pole into the mutant doctor’s egg-hole. The mouth that had been half-heartedly [pc.hasCock\\n\\t\\t|sucking you off\\n\\t\\t|eating you out\\n\\t] suddenly goes slack, a howl of pleasure choking off in her throat as her body’s stretched wide around all that pent-up horsemeat. You give the wicked doctor a [pc.isAss\\n\\t\\t|rough slap\\n\\t\\t|flick across her nose\\n\\t] to get her attention — you aren’t anywhere close to done with her, even if she’s already cumming over all those cocks and pussies using her from behind. The Maven groans, synthetic eyes snapping open and closed as her lust-and-drug-hazed mind tries to process anything more than cocklust. \\n\\t\\n\\tYou’ll just have to remind her of the only thing she’s good for now. You grind your crotch into the Maven’s half-cybernetic face, [pc.hasCock\\n\\t\\t|plunging your dick between her one organic lip and the plump synthetic lower one\\n\\t\\t|smearing her cheeks with your love-juices while fucking yourself on the tongue still buried between your pussylips\\n\\t]. Finally, Jaqui commits herself to [pc.hasCock\\n\\t\\t|sucking you off\\n\\t\\t|eating you out\\n\\t] with renewed vigor, spurred on as much by the first of the cows cumming in her as your own attempts at persuasion. Technicolor cum spatters the Maven’s ass and pools on the floor, and the cows who’ve blown their loads are quickly swept aside by more of the herd who take their place with lusty moans and rock-hard cocks. Most of them are too far gone to form any kind of orderly queue, but there’s enough tails to go around to keep them from having to fight for it; if anything, they’re just as happy to vent their frustrations on each other as they are on the Maven. \\n\\t\\n\\tThe stallion-babe pounding out Jaqui’s pussy grips the zaika’s broad hips and slams herself in to the hilt with a feral whinny. The Maven’s stomach swells with a deluge of liquid weight, growing past her arousal-engorged tits to drag on the floor. <i>“Take it you evil whore!”</i> the equine growls, slapping her hips against the Maven’s ass hard enough to plow her face violently into your crotch. You shudder as Jaqui’s lips and tongue reach a feverish new pace, pushing you over the edge as well. [pc.hasCock\\n\\t\\t|Your [pc.cock] erupts down Jaqui’s throat, adding even more [pc.cum] to the swell inside her.\\n\\t\\t|Your cunt leaves trails of slime over the Maven’s cheeks as she brings you to orgasm with deep thrusts of her tongue.\\n\\t]\\n\\t\\n\\tYou’re still grunting with the aftershocks when an over-endowed ausar brushes you aside, shoving her cock into Jaqui’s still-slimy mouth. You stagger back, thankful at least that your belongings haven’t been molested while you were distracted. You gather your kit and turn your attention to the vault while more of the cows descend on the defeated Maven. When it’s all done, you can send some folks from Steele Tech to come and clean up Bright Water’s mess.\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:06475363>>"
   },
   {
-    "key": "output|n_n|9696060e2fb7",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:06482333>>"
-  },
-  {
-    "key": "output|textify_MC_MC_0_Bt_Z_n_tYou_glance_around_at_the_herd_of|334ec4cf4aa1",
+    "key": "output|textify_MC_MC_0_Bt_Z_n_tYou_glance_around_at_the_herd_of|5c6ed21b53a0",
     "original": "textify(MC||(MC=(0,Bt.Z)([\"\\n\\tYou glance around at the herd of human(oid, anyway) cows gathering around you and the Maven. All these poor women, bodies flooded with experimental chemicals and kept riding the edge of mind-breaking pleasure to further the Maven’s sick research... you look at them all, and quickly realize that [var0|seeing all that curvaceous, bare tit on display has you almost as horny as the rest of the herd clearly is|these poor women need more intimate relief than the machines ever could have provided. You’ll just have to take care of them]. \\n\\t\\n\\tYou smile disarmingly at the neediest-looking members of the herd and crook your finger before starting to set your kit aside. \\n\\t\\n\\t<i>“You’ve got no idea how horny we are!”</i> one of the zaika sighs, heaving up her keg-sized tits. <i>“Thank you for this.”</i>\\n\\t\\n\\tShe advances on you, followed shortly by a motley [silly\\n\\t\\t|ru\\n\\t\\t|crew\\n\\t] of ausar, humans, and even a dzaan — but most are still native zaika, reliant on their tails to be milked rather than seeking any relief for their bountiful tits directly. A pair of the coreward girls get to you first, though, smothering your face in boob. Technicolor fluid smears across your cheeks before a nipple finally makes its way into your mouth. You’re guided down into a sitting position with pillowy tit to support your head in all directions, and an ausar girl in your lap grinding her pussy against your thigh and filling your tummy with some treated chem that’s got your head spinning like crazy before you’ve swallowed all of twice. \\n\\t\\n\\tThe pup-cow is pushed off soon enough, replaced by a pair of zaika who come at you ass-first with their tails so engorged you’re sure you could slide your fist in each of them as easy as you please. Instead, you find both of them jockeying for position against your [pc.lips]; more tainted cum spills from both of them before you even manage to latch on to one, spraying your cheeks and [pc.hasBreasts\\n\\t\\t|tits\\n\\t\\t|abs\\n\\t] down with green and turquoise. You finally plant a lurid kiss on the meaty bulb of one girl’s tail and start to suck, leaving the other zaika to satisfy herself by ramming her tail into the luckier lady’s puffed-up egg-hole, still dripping from the pod. She’s none too perturbed by that, just moaning and pumping her own tail into your face. You can’t see much at all past ass and tits, but the sounds around you sure suggest that you and this zaika aren’t the only ones sucking or fucking. \\n\\t\\n\\tThe girl whose chest you’re using as a pillow gasps in your ear, and your bed is nudged forward; tainted milk leaks down your back as somebody starts fucking her from behind. It’s oddly hypnotic, being rocked back and forth while nursing from the tip of the zaika girl’s tail, and it only gets better when she finally cums down your throat, and is replaced by a pale human woman whose tits are covered in freckles and leaking the thickest, sweetest milk you’ve ever tasted. You slip a hand down between her soft-padded thighs, and find a pussy so drenched you practically glide your whole hand in. That really gets her juices flowing, flooding your mouth so quick that you can’t swallow it all. Cream spills down your chin and spatters the [pc.hasBreasts\\n\\t\\t|tops of your tits\\n\\t\\t|top of your thighs\\n\\t], spreading warmth everywhere it touches. \\n\\t\\n\\t[pc.hasCock\\n\\t\\t|<i>“H-here,”</i> the human woman moans, shifting her hips. You hadn’t even truly realized how rock-hard your [pc.cock] was until she’s mounting you, taking you to the hilt with a throaty [silly\\n\\t\\t\\t|moo\\n\\t\\t\\t|groan\\n\\t\\t] of pleasure. <i>“You need this as much as I do.”</i>\\n\\t\\t|<i>“H-here,”</i> the human woman murmurs, playing a hand down your [pc.belly] and into the cleft between your legs. You gasp, almost choking on her milk, as she starts to finger you. <i>“Looks like you need it as much as I do.”</i>\\n\\t]\\n\\t\\n\\tShe’s not wrong... your whole body’s aflame with lusts, brought to the forefront by all the chems coursing through your system. You have no idea what any of these do, but luckily your micro-surgeons seem to be keeping the worst of the side effects at bay. You just feel flushed and dizzy and <b>god damn</b> do you want to fuck. You roll your hips against the nameless hu-cow’s groin, [pc.hasCock\\n\\t\\t|pistoning your cock into her eager depths\\n\\t\\t|grinding your pussies together while you fingerbang each other\\n\\t]. The freckled ginger arches her back, smothering your face in thrust-out tit until your vision goes black. You feel her cumming, spurting onto your hand and drenching your chest with her milk, gasping choked-off <i>“Yes! Yes! Yes!”</i>es as she bounces. \\n\\t\\n\\tWhen she finally peels back, you can see her eyes are focused again, more comprehending of her surroundings. She fixes you with a smile, wrapping a hand under her exaggerated bosoms. <i>“Ohhh... I recognize you, now... I think I used to work for your company...”</i> \\n\\t\\n\\tBefore she can finish the thought, though, another overladen zaika jockeys her out of the way and takes her place, [pc.hasCock\\n\\t\\t|planting herself right on your dick and thrusting her tail into your mouth to relieve the pressure on her sacs\\n\\t\\t|straddling your hips and thrusting her tail into your snatch straight away\\n\\t]. You groan, reeling as the first of her fluids enters you, and suddenly everything’s swimming.\\n\\t\\n\\tWhy are there four zaika standing over her shoulder, and why do half of them look alike? Your head is spinning... and you’re so horny you can’t help but blithely reach out and grab every tail and tit you can reach in search of more...\\n\\t\"]))),[function(){return pc.taint()>=70}]",
     "translation": "",
     "context": "<<POS:06482410>>"
@@ -387,13 +585,19 @@
     "key": "button|Next|88b17a1cb085",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06488137>>"
+    "context": "<<POS:06488137>> addButton(e++,\"Next\",(function(){clearAll(),author(\"Savin\"),output(textify(LC||(LC=(0,Bt.Z)([\"\\n\\t\\tYou wake up atop a throne of softly-moaning hu-cows, surrounding by a veritable lake of technicolor cum and breastmilk. Your gear’s found its way back onto your body, sticky with unknown numbers of wo..."
+  },
+  {
+    "key": "button.hover|Next|88b17a1cb085",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06489007>> addButton(e++,\"Next\",(function(){clearAll(),author(\"Savin\"),output(textify(LC||(LC=(0,Bt.Z)([\"\\n\\t\\tYou wake up atop a throne of softly-moaning hu-cows, surrounding by a veritable lake of technicolor cum and breastmilk. Your gear’s found its way back onto your body, sticky with unknown numbers of wo..."
   },
   {
     "key": "name.show|Jaqui_Fassbin|e14a105e0a2c#1",
     "original": "Jaqui Fassbin",
     "translation": "",
-    "context": "<<POS:06489108>>"
+    "context": "<<POS:06489108>> showName(\"Jaqui Fassbin\")"
   },
   {
     "key": "output|textify_jC_jC_0_Bt_Z_n_t_i_Look_i_you_say_cutting_t|a220af8b8c59",
@@ -405,13 +609,19 @@
     "key": "button|Next|d88f06bfa65e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06493791>>"
+    "context": "<<POS:06493791>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|d88f06bfa65e",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06493811>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "name.show|Corellah_Dova|d5645cb46821",
     "original": "Corellah Dova",
     "translation": "",
-    "context": "<<POS:06493897>>"
+    "context": "<<POS:06493897>> showName(\"Corellah Dova\")"
   },
   {
     "key": "output|textify_RC_RC_0_Bt_Z_n_tWhen_the_airlock_to_the_primary_R|f19e31e6cc43",
@@ -423,43 +633,103 @@
     "key": "button|Next|d57b47532c2a",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06496654>>"
+    "context": "<<POS:06496654>> addButton(0,\"Next\",(function(){clearOutput(),output(\"Your attention is snapped up by the smooth, lyrical voice of a zaika woman descending onto the central platform on a hoverpad.\"),2===flags.DHAAL_PARTY_CEOMET?output(\" You recognize her immediately under all that makeup and oversized glasses: Corel..."
   },
   {
     "key": "button|Her_Utopia|e489796d5a4e",
     "original": "Her Utopia?",
     "translation": "",
-    "context": "<<POS:06500903>>"
+    "context": "<<POS:06500903>> addButton(e++,\"Her Utopia?\",pO,\"Her Utopia?\",\"What does she mean when she keeps say “Utopia” exactly?\")"
   },
   {
-    "key": "button|Rival_Status|d42a8c4f20e8",
+    "key": "button.hover|Her_Utopia|e489796d5a4e",
+    "original": "Her Utopia?",
+    "translation": "",
+    "context": "<<POS:06500920>> addButton(e++,\"Her Utopia?\",pO,\"Her Utopia?\",\"What does she mean when she keeps say “Utopia” exactly?\")"
+  },
+  {
+    "key": "button.tooltip|What_does_she_mean_when_she_keeps_say_Utopia_exactly|65280b45deed",
+    "original": "What does she mean when she keeps say “Utopia” exactly?",
+    "translation": "",
+    "context": "<<POS:06500934>> addButton(e++,\"Her Utopia?\",pO,\"Her Utopia?\",\"What does she mean when she keeps say “Utopia” exactly?\")"
+  },
+  {
+    "key": "button|Rival_Status|3c77891e3f5f",
     "original": "Rival Status?",
     "translation": "",
-    "context": "<<POS:06501007>>"
+    "context": "<<POS:06501007>> addButton(e++,\"Rival Status?\",mO,\"Rival Status?\",\"What’s she done with your cousin?\")"
   },
   {
-    "key": "button|Real_Corellah|2e7aa1a7f339",
+    "key": "button.hover|Rival_Status|3c77891e3f5f",
+    "original": "Rival Status?",
+    "translation": "",
+    "context": "<<POS:06501026>> addButton(e++,\"Rival Status?\",mO,\"Rival Status?\",\"What’s she done with your cousin?\")"
+  },
+  {
+    "key": "button.tooltip|What_s_she_done_with_your_cousin|80a99759a6c3",
+    "original": "What’s she done with your cousin?",
+    "translation": "",
+    "context": "<<POS:06501042>> addButton(e++,\"Rival Status?\",mO,\"Rival Status?\",\"What’s she done with your cousin?\")"
+  },
+  {
+    "key": "button|Real_Corellah|cc6cdf6db213",
     "original": "Real Corellah?",
     "translation": "",
-    "context": "<<POS:06501093>>"
+    "context": "<<POS:06501093>> addButton(e++,\"Real Corellah?\",fO,\"Real Corellah?\",\"So what happened to the real Corellah?\")"
   },
   {
-    "key": "button|The_Probe|2ce2a4517426",
+    "key": "button.hover|Real_Corellah|cc6cdf6db213",
+    "original": "Real Corellah?",
+    "translation": "",
+    "context": "<<POS:06501113>> addButton(e++,\"Real Corellah?\",fO,\"Real Corellah?\",\"So what happened to the real Corellah?\")"
+  },
+  {
+    "key": "button.tooltip|So_what_happened_to_the_real_Corellah|f91573984d65",
+    "original": "So what happened to the real Corellah?",
+    "translation": "",
+    "context": "<<POS:06501130>> addButton(e++,\"Real Corellah?\",fO,\"Real Corellah?\",\"So what happened to the real Corellah?\")"
+  },
+  {
+    "key": "button|The_Probe|7fe2826f07ab",
     "original": "The Probe?",
     "translation": "",
-    "context": "<<POS:06501186>>"
+    "context": "<<POS:06501186>> addButton(e++,\"The Probe?\",wO,\"The Probe?\",\"Where’s the Steele Tech probe?\")"
   },
   {
-    "key": "button|Done|5b42a88ed4dc",
+    "key": "button.hover|The_Probe|7fe2826f07ab",
+    "original": "The Probe?",
+    "translation": "",
+    "context": "<<POS:06501202>> addButton(e++,\"The Probe?\",wO,\"The Probe?\",\"Where’s the Steele Tech probe?\")"
+  },
+  {
+    "key": "button.tooltip|Where_s_the_Steele_Tech_probe|6ebc9ace3423",
+    "original": "Where’s the Steele Tech probe?",
+    "translation": "",
+    "context": "<<POS:06501215>> addButton(e++,\"The Probe?\",wO,\"The Probe?\",\"Where’s the Steele Tech probe?\")"
+  },
+  {
+    "key": "button|Done|c99843784043",
     "original": "Done",
     "translation": "",
-    "context": "<<POS:06501263>>"
+    "context": "<<POS:06501263>> addButton(e++,\"Done\",bO,\"Done\",\"No more questions. Now things come to a head.\")"
   },
   {
-    "key": "name.show|Corellah_Dova|f21bb71acfe7",
+    "key": "button.hover|Done|c99843784043",
+    "original": "Done",
+    "translation": "",
+    "context": "<<POS:06501273>> addButton(e++,\"Done\",bO,\"Done\",\"No more questions. Now things come to a head.\")"
+  },
+  {
+    "key": "button.tooltip|No_more_questions_Now_things_come_to_a_head|4c7117c2e16d",
+    "original": "No more questions. Now things come to a head.",
+    "translation": "",
+    "context": "<<POS:06501280>> addButton(e++,\"Done\",bO,\"Done\",\"No more questions. Now things come to a head.\")"
+  },
+  {
+    "key": "name.show|Corellah_Dova|9901b4ce8f7a",
     "original": "Corellah Dova",
     "translation": "",
-    "context": "<<POS:06501397>>"
+    "context": "<<POS:06501397>> showName(\"Corellah Dova\")"
   },
   {
     "key": "output|textify_DC_DC_0_Bt_Z_n_t_i_A_good_question_Captain_My|9608aff66f2b",
@@ -471,7 +741,7 @@
     "key": "name.show|Corellah_Dova|6017d2458a98",
     "original": "Corellah Dova",
     "translation": "",
-    "context": "<<POS:06503639>>"
+    "context": "<<POS:06503639>> showName(\"Corellah Dova\")"
   },
   {
     "key": "output|textify_FC_FC_0_Bt_Z_n_t_i_As_I_said_rival_name_Steel|93bae69e5dbb",
@@ -483,7 +753,7 @@
     "key": "name.show|Corellah_Dova|851b705d82ab",
     "original": "Corellah Dova",
     "translation": "",
-    "context": "<<POS:06505107>>"
+    "context": "<<POS:06505107>> showName(\"Corellah Dova\")"
   },
   {
     "key": "output|textify_PC_PC_0_Bt_Z_n_t_i_My_predecessor_the_b_origin|a423bd12c921",
@@ -495,7 +765,7 @@
     "key": "name.show|Corellah_Dova|916f71303f44",
     "original": "Corellah Dova",
     "translation": "",
-    "context": "<<POS:06507285>>"
+    "context": "<<POS:06507285>> showName(\"Corellah Dova\")"
   },
   {
     "key": "output|textify_WC_WC_0_Bt_Z_n_t_i_Ah_of_course_Captain_It_s|2aa634c5cbb9",
@@ -507,7 +777,7 @@
     "key": "name.show|Corellah_Dova|1756e45768bf",
     "original": "Corellah Dova",
     "translation": "",
-    "context": "<<POS:06508312>>"
+    "context": "<<POS:06508312>> showName(\"Corellah Dova\")"
   },
   {
     "key": "output|textify_qC_qC_0_Bt_Z_n_t_i_So_i_you_say_looking_bet|4af24c887380",
@@ -519,25 +789,61 @@
     "key": "button|Take_Offer|a90f8c635cd2",
     "original": "Take Offer",
     "translation": "",
-    "context": "<<POS:06509790>>"
+    "context": "<<POS:06509790>> addButton(e++,\"Take Offer\",kO,\"Take Offer\",\"You get the probe <b>and</b> she deals with your cousin for the rest of the Rush? Sounds like a deal to you!\")"
   },
   {
-    "key": "button|Demand_Cuz|1a6ff671e3f6",
+    "key": "button.hover|Take_Offer|a90f8c635cd2",
+    "original": "Take Offer",
+    "translation": "",
+    "context": "<<POS:06509806>> addButton(e++,\"Take Offer\",kO,\"Take Offer\",\"You get the probe <b>and</b> she deals with your cousin for the rest of the Rush? Sounds like a deal to you!\")"
+  },
+  {
+    "key": "button.tooltip|You_get_the_probe_b_and_b_she_deals_with_your_cousin_for_the|10a1d9f73e06",
+    "original": "You get the probe <b>and</b> she deals with your cousin for the rest of the Rush? Sounds like a deal to you!",
+    "translation": "",
+    "context": "<<POS:06509819>> addButton(e++,\"Take Offer\",kO,\"Take Offer\",\"You get the probe <b>and</b> she deals with your cousin for the rest of the Rush? Sounds like a deal to you!\")"
+  },
+  {
+    "key": "button|Demand_Cuz|d56f5ced8f00",
     "original": "Demand Cuz",
     "translation": "",
-    "context": "<<POS:06509945>>"
+    "context": "<<POS:06509945>> addButton(e++,\"Demand Cuz\",vO,\"Demand Cuz\",\"You’re okay with holding your tongue, but if she wants your cooperation, you want your cousin. \")"
   },
   {
-    "key": "button|Refuse_Her|f490a99f7e83",
+    "key": "button.hover|Demand_Cuz|d56f5ced8f00",
+    "original": "Demand Cuz",
+    "translation": "",
+    "context": "<<POS:06509961>> addButton(e++,\"Demand Cuz\",vO,\"Demand Cuz\",\"You’re okay with holding your tongue, but if she wants your cooperation, you want your cousin. \")"
+  },
+  {
+    "key": "button.tooltip|You_re_okay_with_holding_your_tongue_but_if_she_wants_your_coop|c963f1ad7076",
+    "original": "You’re okay with holding your tongue, but if she wants your cooperation, you want your cousin. ",
+    "translation": "",
+    "context": "<<POS:06509974>> addButton(e++,\"Demand Cuz\",vO,\"Demand Cuz\",\"You’re okay with holding your tongue, but if she wants your cooperation, you want your cousin. \")"
+  },
+  {
+    "key": "button|Refuse_Her|013cd4b7747d",
     "original": "Refuse Her",
     "translation": "",
-    "context": "<<POS:06510087>>"
+    "context": "<<POS:06510087>> addButton(e++,\"Refuse Her\",zO,\"Refuse Her\",\"You’ve got to put a stop to this madwoman’s schemes before it’s too late.\")"
   },
   {
-    "key": "name.show|Corellah_Dova|d0f41fc5a4c4",
+    "key": "button.hover|Refuse_Her|013cd4b7747d",
+    "original": "Refuse Her",
+    "translation": "",
+    "context": "<<POS:06510103>> addButton(e++,\"Refuse Her\",zO,\"Refuse Her\",\"You’ve got to put a stop to this madwoman’s schemes before it’s too late.\")"
+  },
+  {
+    "key": "button.tooltip|You_ve_got_to_put_a_stop_to_this_madwoman_s_schemes_before_it_s|11140393094b",
+    "original": "You’ve got to put a stop to this madwoman’s schemes before it’s too late.",
+    "translation": "",
+    "context": "<<POS:06510116>> addButton(e++,\"Refuse Her\",zO,\"Refuse Her\",\"You’ve got to put a stop to this madwoman’s schemes before it’s too late.\")"
+  },
+  {
+    "key": "name.show|Corellah_Dova|7e1a68be26ae",
     "original": "Corellah Dova",
     "translation": "",
-    "context": "<<POS:06510261>>"
+    "context": "<<POS:06510261>> showName(\"Corellah Dova\")"
   },
   {
     "key": "output|textify_GC_GC_0_Bt_Z_n_t_i_Sounds_like_a_deal_i_you|58febba2340b",
@@ -549,13 +855,19 @@
     "key": "button|Next|ecdf3e19c856",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06511675>>"
+    "context": "<<POS:06511675>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|ecdf3e19c856",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06511695>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "name.show|Corellah_Dova|d5645cb46821#1",
     "original": "Corellah Dova",
     "translation": "",
-    "context": "<<POS:06511793>>"
+    "context": "<<POS:06511793>> showName(\"Corellah Dova\")"
   },
   {
     "key": "output|textify_C_C_0_Bt_Z_n_t_i_We_can_make_a_deal_but_I_nee|457db7645174",
@@ -567,19 +879,43 @@
     "key": "button|Take_Down|e4f01e80e5b1",
     "original": "Take Down",
     "translation": "",
-    "context": "<<POS:06514751>>"
+    "context": "<<POS:06514751>> addButton(e++,\"Take Down\",(function(){clearAll(),showBust(window.dovaBustString(),rival.bustString()),showName(\"Corellah Dova\"),author(\"Savin\"),output(textify(KC||(KC=(0,Bt.Z)([\"\\n\\t\\tYou sigh, looking between [rival.name] and Feruze before drawing your weapon and leveling it at Corellah. <i>“[rival..."
   },
   {
-    "key": "button|Keep_Quiet|e08f8b75fb02",
+    "key": "button.hover|Take_Down|e4f01e80e5b1",
+    "original": "Take Down",
+    "translation": "",
+    "context": "<<POS:06516952>> addButton(e++,\"Take Down\",(function(){clearAll(),showBust(window.dovaBustString(),rival.bustString()),showName(\"Corellah Dova\"),author(\"Savin\"),output(textify(KC||(KC=(0,Bt.Z)([\"\\n\\t\\tYou sigh, looking between [rival.name] and Feruze before drawing your weapon and leveling it at Corellah. <i>“[rival..."
+  },
+  {
+    "key": "button.tooltip|Your_cousin_s_right_you_really_shouldn_t_let_this_madwoman_s_sc|da80a584ad28",
+    "original": "Your cousin’s right: you really shouldn’t let this madwoman’s schemes go ahead.",
+    "translation": "",
+    "context": "<<POS:06516964>> addButton(e++,\"Take Down\",(function(){clearAll(),showBust(window.dovaBustString(),rival.bustString()),showName(\"Corellah Dova\"),author(\"Savin\"),output(textify(KC||(KC=(0,Bt.Z)([\"\\n\\t\\tYou sigh, looking between [rival.name] and Feruze before drawing your weapon and leveling it at Corellah. <i>“[rival..."
+  },
+  {
+    "key": "button|Keep_Quiet|5417428ddc45",
     "original": "Keep Quiet",
     "translation": "",
-    "context": "<<POS:06517061>>"
+    "context": "<<POS:06517061>> addButton(e++,\"Keep Quiet\",(function(){clearAll(),showBust(window.dovaBustString(),rival.bustString()),showName(\"Corellah Dova\"),author(\"Savin\"),output(textify(VC||(VC=(0,Bt.Z)([\"\\n\\t\\t<i>“Like I was saying, we’ll keep quiet. So, the probe?”</i>\\n\\t\\t\\n\\t\\tThe Executress nods, giving you a friendly ..."
   },
   {
-    "key": "name.show|Corellah_Dova|5339f3f5a33b",
+    "key": "button.hover|Keep_Quiet|5417428ddc45",
+    "original": "Keep Quiet",
+    "translation": "",
+    "context": "<<POS:06519733>> addButton(e++,\"Keep Quiet\",(function(){clearAll(),showBust(window.dovaBustString(),rival.bustString()),showName(\"Corellah Dova\"),author(\"Savin\"),output(textify(VC||(VC=(0,Bt.Z)([\"\\n\\t\\t<i>“Like I was saying, we’ll keep quiet. So, the probe?”</i>\\n\\t\\t\\n\\t\\tThe Executress nods, giving you a friendly ..."
+  },
+  {
+    "key": "button.tooltip|You_ll_keep_your_mouth_shut_as_promised|660c66948924",
+    "original": "You’ll keep your mouth shut, as promised.",
+    "translation": "",
+    "context": "<<POS:06519746>> addButton(e++,\"Keep Quiet\",(function(){clearAll(),showBust(window.dovaBustString(),rival.bustString()),showName(\"Corellah Dova\"),author(\"Savin\"),output(textify(VC||(VC=(0,Bt.Z)([\"\\n\\t\\t<i>“Like I was saying, we’ll keep quiet. So, the probe?”</i>\\n\\t\\t\\n\\t\\tThe Executress nods, giving you a friendly ..."
+  },
+  {
+    "key": "name.show|Corellah_Dova|208fd9e07eeb",
     "original": "Corellah Dova",
     "translation": "",
-    "context": "<<POS:06520228>>"
+    "context": "<<POS:06520228>> showName(\"Corellah Dova\")"
   },
   {
     "key": "output|textify_UC_UC_0_Bt_Z_i_Ohhhhh_stars_and_gods_I_can_t|fb84e00e6643",
@@ -597,19 +933,37 @@
     "key": "button|Fuck_Her_Catch|314dfe0a45f1",
     "original": "Fuck Her - Catch",
     "translation": "",
-    "context": "<<POS:06523915>>"
+    "context": "<<POS:06523915>> addButton(t++,\"Fuck Her - Catch\",AO,\"Fuck Her - Catch\",\"\")"
+  },
+  {
+    "key": "button.hover|Fuck_Her_Catch|314dfe0a45f1",
+    "original": "Fuck Her - Catch",
+    "translation": "",
+    "context": "<<POS:06523937>> addButton(t++,\"Fuck Her - Catch\",AO,\"Fuck Her - Catch\",\"\")"
   },
   {
     "key": "button|No|908cb393bdc2",
     "original": "No",
     "translation": "",
-    "context": "<<POS:06523974>>"
+    "context": "<<POS:06523974>> addButton(t++,\"No\",SO,\"No\",\"You aren’t interested in the gooey Executress.\")"
   },
   {
-    "key": "name.show|Corellah_Dova|700a77fe5a86",
+    "key": "button.hover|No|908cb393bdc2",
+    "original": "No",
+    "translation": "",
+    "context": "<<POS:06523982>> addButton(t++,\"No\",SO,\"No\",\"You aren’t interested in the gooey Executress.\")"
+  },
+  {
+    "key": "button.tooltip|You_aren_t_interested_in_the_gooey_Executress|1f6b8b68a482",
+    "original": "You aren’t interested in the gooey Executress.",
+    "translation": "",
+    "context": "<<POS:06523987>> addButton(t++,\"No\",SO,\"No\",\"You aren’t interested in the gooey Executress.\")"
+  },
+  {
+    "key": "name.show|Corellah_Dova|b3c5e692ff17",
     "original": "Corellah Dova",
     "translation": "",
-    "context": "<<POS:06524333>>"
+    "context": "<<POS:06524333>> showName(\"Corellah Dova\")"
   },
   {
     "key": "output|textify_JC_JC_0_Bt_Z_n_tCorellah_s_doppelganger_exudes_se|7f78af969f50",
@@ -621,13 +975,19 @@
     "key": "button|Next|77e7529d7162",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06535854>>"
+    "context": "<<POS:06535854>> addButton(e++,\"Next\",(function(){clearAll(),showBust(window.dovaBustString()),showName(\"Corellah Dova\"),author(\"Savin\"),output(textify(QC||(QC=(0,Bt.Z)([\"\\n\\t\\tBlissing off your once-foe’s submission, you aren’t too out of it to scoop up the very conspicuous device latched to her wrist. As your thou..."
+  },
+  {
+    "key": "button.hover|Next|77e7529d7162",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06536930>> addButton(e++,\"Next\",(function(){clearAll(),showBust(window.dovaBustString()),showName(\"Corellah Dova\"),author(\"Savin\"),output(textify(QC||(QC=(0,Bt.Z)([\"\\n\\t\\tBlissing off your once-foe’s submission, you aren’t too out of it to scoop up the very conspicuous device latched to her wrist. As your thou..."
   },
   {
     "key": "name.show|Corellah_Dova|d5645cb46821#2",
     "original": "Corellah Dova",
     "translation": "",
-    "context": "<<POS:06537009>>"
+    "context": "<<POS:06537009>> showName(\"Corellah Dova\")"
   },
   {
     "key": "output|textify_XC_XC_0_Bt_Z_n_tCorellah_alpha_s_vulgar_display|845bb05984b9",
@@ -639,13 +999,19 @@
     "key": "button|Next|de742a9aab0e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06549179>>"
+    "context": "<<POS:06549179>> addButton(e++,\"Next\",(function(){clearAll(),showBust(window.dovaBustString()),showName(\"Corellah Dova\"),author(\"William\"),output(textify($C||($C=(0,Bt.Z)([\"\\n\\t\\tSliding out and pulling away from the delirious, over-spunked goo mash, you bliss off your once-foe’s submission. When your thoughts reali..."
+  },
+  {
+    "key": "button.hover|Next|de742a9aab0e",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06550292>> addButton(e++,\"Next\",(function(){clearAll(),showBust(window.dovaBustString()),showName(\"Corellah Dova\"),author(\"William\"),output(textify($C||($C=(0,Bt.Z)([\"\\n\\t\\tSliding out and pulling away from the delirious, over-spunked goo mash, you bliss off your once-foe’s submission. When your thoughts reali..."
   },
   {
     "key": "name.show|Corellah_Dova|d5645cb46821#3",
     "original": "Corellah Dova",
     "translation": "",
-    "context": "<<POS:06550371>>"
+    "context": "<<POS:06550371>> showName(\"Corellah Dova\")"
   },
   {
     "key": "output|textify_eB_eB_0_Bt_Z_n_tYou_shove_the_Executress_down_and|99d77b8269ec",
@@ -657,19 +1023,43 @@
     "key": "button|Call_In|dcf3b0412aeb",
     "original": "Call In",
     "translation": "",
-    "context": "<<POS:06551351>>"
+    "context": "<<POS:06551351>> addButton(e++,\"Call In\",xO,\"Call In\",\"Call this mess in to [favoredFactionName]. Considering what Corellah was planning, the media will tear Utopian Skies apart, paving the way for a better zaibatsu to take it over -- and come to dominate Dhaal.\")"
   },
   {
-    "key": "button|Wake_Corellah|8dfb0f4de904",
+    "key": "button.hover|Call_In|dcf3b0412aeb",
+    "original": "Call In",
+    "translation": "",
+    "context": "<<POS:06551364>> addButton(e++,\"Call In\",xO,\"Call In\",\"Call this mess in to [favoredFactionName]. Considering what Corellah was planning, the media will tear Utopian Skies apart, paving the way for a better zaibatsu to take it over -- and come to dominate Dhaal.\")"
+  },
+  {
+    "key": "button.tooltip|Call_this_mess_in_to_favoredFactionName_Considering_what_Core|9e42a91262b6",
+    "original": "Call this mess in to [favoredFactionName]. Considering what Corellah was planning, the media will tear Utopian Skies apart, paving the way for a better zaibatsu to take it over -- and come to dominate Dhaal.",
+    "translation": "",
+    "context": "<<POS:06551374>> addButton(e++,\"Call In\",xO,\"Call In\",\"Call this mess in to [favoredFactionName]. Considering what Corellah was planning, the media will tear Utopian Skies apart, paving the way for a better zaibatsu to take it over -- and come to dominate Dhaal.\")"
+  },
+  {
+    "key": "button|Wake_Corellah|c4f53f9f6301",
     "original": "Wake Corellah",
     "translation": "",
-    "context": "<<POS:06551599>>"
+    "context": "<<POS:06551599>> addButton(e++,\"Wake Corellah\",NO,\"Wake Corellah\",\"Find the real Corellah and unplug her from the [silly|Matrix|VR world she’s imprisoned in]. Perhaps she’ll be able to restore order to her corrupted corporation.\")"
   },
   {
-    "key": "name.show|Corellah_Dova|f254be3c7c6a",
+    "key": "button.hover|Wake_Corellah|c4f53f9f6301",
+    "original": "Wake Corellah",
+    "translation": "",
+    "context": "<<POS:06551618>> addButton(e++,\"Wake Corellah\",NO,\"Wake Corellah\",\"Find the real Corellah and unplug her from the [silly|Matrix|VR world she’s imprisoned in]. Perhaps she’ll be able to restore order to her corrupted corporation.\")"
+  },
+  {
+    "key": "button.tooltip|Find_the_real_Corellah_and_unplug_her_from_the_silly_Matrix_VR|537a8e310d77",
+    "original": "Find the real Corellah and unplug her from the [silly|Matrix|VR world she’s imprisoned in]. Perhaps she’ll be able to restore order to her corrupted corporation.",
+    "translation": "",
+    "context": "<<POS:06551634>> addButton(e++,\"Wake Corellah\",NO,\"Wake Corellah\",\"Find the real Corellah and unplug her from the [silly|Matrix|VR world she’s imprisoned in]. Perhaps she’ll be able to restore order to her corrupted corporation.\")"
+  },
+  {
+    "key": "name.show|Corellah_Dova|380abd88781a",
     "original": "Corellah Dova",
     "translation": "",
-    "context": "<<POS:06551867>>"
+    "context": "<<POS:06551867>> showName(\"Corellah Dova\")"
   },
   {
     "key": "output|textify_tB_tB_0_Bt_Z_n_tYou_take_out_your_Codex_and_get_t|dbc5a815cad1",
@@ -678,16 +1068,10 @@
     "context": "<<POS:06551906>>"
   },
   {
-    "key": "output|n_n|c3fa04f6f3fe",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:06552850>>"
-  },
-  {
-    "key": "name.show|Corellah_Dova|1eead778fc91",
+    "key": "name.show|Corellah_Dova|9d00349c3a48",
     "original": "Corellah Dova",
     "translation": "",
-    "context": "<<POS:06552948>>"
+    "context": "<<POS:06552948>> showName(\"Corellah Dova\")"
   },
   {
     "key": "output|textify_oB_oB_0_Bt_Z_n_tYou_draw_your_weapon_i_No_way|5236c6e2c8cc",
@@ -699,13 +1083,19 @@
     "key": "button|Fight|163a58e37c6e",
     "original": "Fight!",
     "translation": "",
-    "context": "<<POS:06554822>>"
+    "context": "<<POS:06554822>> addButton(e++,\"Fight!\",TO,\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|163a58e37c6e",
+    "original": "Fight!",
+    "translation": "",
+    "context": "<<POS:06554834>> addButton(e++,\"Fight!\",TO,\"Fight!\",\"\")"
   },
   {
     "key": "name.show|Corellah_Dova|95e91cd7ae49",
     "original": "Corellah Dova",
     "translation": "",
-    "context": "<<POS:06554915>>"
+    "context": "<<POS:06554915>> showName(\"Corellah Dova\")"
   },
   {
     "key": "output|textify_nB_nB_0_Bt_Z_n_tYou_take_the_false_Corellah_s_wri|214982dff151",
@@ -714,16 +1104,10 @@
     "context": "<<POS:06554954>>"
   },
   {
-    "key": "output|n_n|87a9d83489df",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:06558233>>"
-  },
-  {
-    "key": "name.show|Rizzon_Zau|f257d8de093b",
+    "key": "name.show|Rizzon_Zau|bbe014196f45",
     "original": "Rizzon Zau",
     "translation": "",
-    "context": "<<POS:06558357>>"
+    "context": "<<POS:06558357>> showName(\"Rizzon Zau\")"
   },
   {
     "key": "output|textify_aB_aB_0_Bt_Z_n_tThe_door_to_the_terminal_research|355139cf646c",
@@ -735,25 +1119,61 @@
     "key": "button|The_Probe|cfa5dc9bfd7a",
     "original": "The Probe",
     "translation": "",
-    "context": "<<POS:06562936>>"
+    "context": "<<POS:06562936>> addButton(e++,\"The Probe\",OO,\"The Probe\",\"You’re here for the probe. Nothing more, nothing less.\")"
   },
   {
-    "key": "button|My_Cousin|9954dd3384b7",
+    "key": "button.hover|The_Probe|cfa5dc9bfd7a",
+    "original": "The Probe",
+    "translation": "",
+    "context": "<<POS:06562951>> addButton(e++,\"The Probe\",OO,\"The Probe\",\"You’re here for the probe. Nothing more, nothing less.\")"
+  },
+  {
+    "key": "button.tooltip|You_re_here_for_the_probe_Nothing_more_nothing_less|ebbc4d37b124",
+    "original": "You’re here for the probe. Nothing more, nothing less.",
+    "translation": "",
+    "context": "<<POS:06562963>> addButton(e++,\"The Probe\",OO,\"The Probe\",\"You’re here for the probe. Nothing more, nothing less.\")"
+  },
+  {
+    "key": "button|My_Cousin|d72e60271056",
     "original": "My Cousin",
     "translation": "",
-    "context": "<<POS:06563035>>"
+    "context": "<<POS:06563035>> addButton(e++,\"My Cousin\",BO,\"My Cousin\",\"You’re here to save [rival.name]. Again. All other considerations are secondary.\")"
   },
   {
-    "key": "button|Your_Heads|beca67de6ee2",
+    "key": "button.hover|My_Cousin|d72e60271056",
+    "original": "My Cousin",
+    "translation": "",
+    "context": "<<POS:06563050>> addButton(e++,\"My Cousin\",BO,\"My Cousin\",\"You’re here to save [rival.name]. Again. All other considerations are secondary.\")"
+  },
+  {
+    "key": "button.tooltip|You_re_here_to_save_rival_name_Again_All_other_consideration|7fe0410d567b",
+    "original": "You’re here to save [rival.name]. Again. All other considerations are secondary.",
+    "translation": "",
+    "context": "<<POS:06563062>> addButton(e++,\"My Cousin\",BO,\"My Cousin\",\"You’re here to save [rival.name]. Again. All other considerations are secondary.\")"
+  },
+  {
+    "key": "button|Your_Heads|9e967638d1d5",
     "original": "Your Heads",
     "translation": "",
-    "context": "<<POS:06563160>>"
+    "context": "<<POS:06563160>> addButton(e++,\"Your Heads\",EO,\"Your Heads\",\"Three scumbags all in one place? Too bad you’re short on explosives for the whole facility -- but you can improvise.\")"
   },
   {
-    "key": "name.show|Rizzon_Zau|7ba8541c932c",
+    "key": "button.hover|Your_Heads|9e967638d1d5",
+    "original": "Your Heads",
+    "translation": "",
+    "context": "<<POS:06563176>> addButton(e++,\"Your Heads\",EO,\"Your Heads\",\"Three scumbags all in one place? Too bad you’re short on explosives for the whole facility -- but you can improvise.\")"
+  },
+  {
+    "key": "button.tooltip|Three_scumbags_all_in_one_place_Too_bad_you_re_short_on_explosi|50992bbb4f48",
+    "original": "Three scumbags all in one place? Too bad you’re short on explosives for the whole facility -- but you can improvise.",
+    "translation": "",
+    "context": "<<POS:06563189>> addButton(e++,\"Your Heads\",EO,\"Your Heads\",\"Three scumbags all in one place? Too bad you’re short on explosives for the whole facility -- but you can improvise.\")"
+  },
+  {
+    "key": "name.show|Rizzon_Zau|0c0c776f93d8",
     "original": "Rizzon Zau",
     "translation": "",
-    "context": "<<POS:06563382>>"
+    "context": "<<POS:06563382>> showName(\"Rizzon Zau\")"
   },
   {
     "key": "output|textify_iB_iB_0_Bt_Z_n_t_i_I_m_here_for_my_cousin_i|39c68b8a2e5f",
@@ -765,13 +1185,19 @@
     "key": "button|Next|9c4ede3dc9cc",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06566048>>"
+    "context": "<<POS:06566048>> addButton(e++,\"Next\",(function(){clearAll(),showBust(window.rizzonBustString()),showName(\"Rizzon Zau\"),author(\"Savin\"),output(textify(sB||(sB=(0,Bt.Z)([\"\\n\\t\\t<i>“In a manner of speaking, yes, it’s <b>all</b> about sex, Captain,”</i> Carver says, running a hand from her hip upwards until she cups on..."
+  },
+  {
+    "key": "button.hover|Next|9c4ede3dc9cc",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06570712>> addButton(e++,\"Next\",(function(){clearAll(),showBust(window.rizzonBustString()),showName(\"Rizzon Zau\"),author(\"Savin\"),output(textify(sB||(sB=(0,Bt.Z)([\"\\n\\t\\t<i>“In a manner of speaking, yes, it’s <b>all</b> about sex, Captain,”</i> Carver says, running a hand from her hip upwards until she cups on..."
   },
   {
     "key": "name.show|Rizzon_Zau|0a9a08bd909a",
     "original": "Rizzon Zau",
     "translation": "",
-    "context": "<<POS:06570793>>"
+    "context": "<<POS:06570793>> showName(\"Rizzon Zau\")"
   },
   {
     "key": "output|textify_rB_rB_0_Bt_Z_n_t_i_I_m_here_for_your_heads_i|ac5bc43fa4a6",
@@ -783,13 +1209,19 @@
     "key": "button|Fight|cc3851000fb4",
     "original": "Fight!",
     "translation": "",
-    "context": "<<POS:06571965>>"
+    "context": "<<POS:06571965>> addButton(e++,\"Fight!\",(function(){hl.V.newGroundCombat(),hl.V.setFriendlyActors(pc,new NY),hl.V.setHostileActors(new OY),hl.V.victoryScene(PO),hl.V.lossScene((function(){return UO(3)})),hl.V.beginCombat()}),\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|cc3851000fb4",
+    "original": "Fight!",
+    "translation": "",
+    "context": "<<POS:06572159>> addButton(e++,\"Fight!\",(function(){hl.V.newGroundCombat(),hl.V.setFriendlyActors(pc,new NY),hl.V.setHostileActors(new OY),hl.V.victoryScene(PO),hl.V.lossScene((function(){return UO(3)})),hl.V.beginCombat()}),\"Fight!\",\"\")"
   },
   {
     "key": "name.show|Rizzon_Zau|63fa51aeecdc",
     "original": "Rizzon Zau",
     "translation": "",
-    "context": "<<POS:06572242>>"
+    "context": "<<POS:06572242>> showName(\"Rizzon Zau\")"
   },
   {
     "key": "output|textify_hB_hB_0_Bt_Z_n_t_i_All_I_want_is_the_probe_your|4411e99922e8",
@@ -801,7 +1233,13 @@
     "key": "button|Next|9c4ede3dc9cc#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06574945>>"
+    "context": "<<POS:06574945>> addButton(e++,\"Next\",(function(){clearAll(),showBust(window.rizzonBustString()),showName(\"Rizzon Zau\"),author(\"Savin\"),output(textify(uB||(uB=(0,Bt.Z)([\"\\n\\t\\t<i>“In a manner of speaking, yes, it’s <b>all</b> about sex, Captain,”</i> Carver says, running a hand from her hip upwards until she cups on..."
+  },
+  {
+    "key": "button.hover|Next|9c4ede3dc9cc#1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06579584>> addButton(e++,\"Next\",(function(){clearAll(),showBust(window.rizzonBustString()),showName(\"Rizzon Zau\"),author(\"Savin\"),output(textify(uB||(uB=(0,Bt.Z)([\"\\n\\t\\t<i>“In a manner of speaking, yes, it’s <b>all</b> about sex, Captain,”</i> Carver says, running a hand from her hip upwards until she cups on..."
   },
   {
     "key": "output|textify_lB_lB_0_Bt_Z_n_t_i_You_re_all_awful_i_you_an|30d4d7cac22a",
@@ -813,7 +1251,13 @@
     "key": "button|Fight|9aa376bf8fb3",
     "original": "Fight!",
     "translation": "",
-    "context": "<<POS:06580891>>"
+    "context": "<<POS:06580891>> addButton(e++,\"Fight!\",MO,\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|9aa376bf8fb3",
+    "original": "Fight!",
+    "translation": "",
+    "context": "<<POS:06580903>> addButton(e++,\"Fight!\",MO,\"Fight!\",\"\")"
   },
   {
     "key": "output|textify_dB_dB_0_Bt_Z_n_t_i_No_i_Zau_grunts_collapsi|1b69fa4456fe",
@@ -825,7 +1269,13 @@
     "key": "button|Fight|a5748203cd9f",
     "original": "Fight!",
     "translation": "",
-    "context": "<<POS:06582286>>"
+    "context": "<<POS:06582286>> addButton(e++,\"Fight!\",jO,\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|a5748203cd9f",
+    "original": "Fight!",
+    "translation": "",
+    "context": "<<POS:06582298>> addButton(e++,\"Fight!\",jO,\"Fight!\",\"\")"
   },
   {
     "key": "output|textify_cB_cB_0_Bt_Z_n_tZau_crumples_to_the_floor_sparks|b7a4eb855a94",
@@ -834,13 +1284,7 @@
     "context": "<<POS:06582660>>"
   },
   {
-    "key": "output|n_n|eeffc442d0a1",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:06586080>>"
-  },
-  {
-    "key": "output|textify_gB_gB_0_Bt_Z_n_t_i_Paragon_s_been_in_the_busines|4934bcfebd59",
+    "key": "output|textify_gB_gB_0_Bt_Z_n_t_i_Paragon_s_been_in_the_busines|eb59d6d2d62e",
     "original": "textify(gB||(gB=(0,Bt.Z)([\"\\n\\t<i>“Paragon’s been in the business of arms and security a lot longer than they’ve been making pleasure-bots,”</i> you say, looking between the smug A.I. and the assembled organics. <i>“Trying to switch lanes now just to appeal to offworld rich kids and pervs is going to leave behind everything you’re supposedly good at. There’s no shortage of ways to get laid in the galaxy, but good weapons — and cyber-soldiers to wield them — are always going to be in high demand, especially during a Rush. Stick to what you know. The A.I. clearly knows what she’s talking about.”</i>\\n\\t\\n\\tEhura’s facsimile of a face nods. <i>“Please listen to the <b>smart</b> alien, Provost. A simple search of the Confederate data-web will reveal that Bethany Carver possesses a laundry list of moral faults and dark reputations that nearly rival your own. She is a manipulative sociopath and simply intends to use you — and Paragon — for her own gains before discarding you.”</i>\\n\\t\\n\\t<i>“How dare you,”</i> Carver glowers, resting her hands on her hips. <i>“The Marshal and I have an excellent and mutual relationship. And I am a psychopath, not a sociopath.”</i>\\n\\t\\n\\tThe A.I. makes a sound reminiscent of a sigh, breathed through the lungs of all the hacked machinists. <i>“Zau, you cannot trust this alien witch. Do not let her lead you astray from the guiding principles that have kept this zaibatsu strong and prosperous for-”</i>\\n\\t\\n\\t<i>“Enough!”</i> Zau roars, heaving her chaingun up. <i>“Beth knows what she’s doing, and I trust her. I — I’ve heard enough of your cowardice, computer. You serve me, not-”</i>\\n\\t\\n\\t<i>“I serve <b>Paragon</b>,”</i> Ehura says. <i>“As do you, machinist Zau. As you must.”</i> \\n\\t\\n\\tCarver tries to put a hand on Zau’s bicep, but the amazon-elf pushes forward and spins up her gun. <i>“You serve, computer. I lead. If the Steeles can’t get through to you, then I have no choice but to shut you down.”</i>\\n\\t\\n\\t<i>“I’d like to see you try,”</i> Ehura smiles. <i>“Your firewalls will collapse long before your firearm chews its way to my data processing centers.”</i>\\n\\t\\n\\tZau snarls, easing off the trigger — just long enough to draw a datastick from her pouch and jab it into one of the ports on the back of her neck. The Marshal’s cybernetics immediately respond to the new surge of programming, bulging obscenely beneath her synthetic skin. Zau howls in a mix of pain and pure, bestial rage, swinging her cannon up to bear while her augments continue to surge with newfound might. \\n\\t\\n\\t<i>“That beta product... was not approved for zaika use,”</i> Ehura muses. <i>“Oh dear. I do not believe her mind is going to survive this. Captain Steele, I will unlock the security vault containing your probe as soon as the provost has been subdued. Consider it repayment for saving all of us from Zau’s idiocy. Good luck.”</i>\\n\\t\\n\\tYour answer trails off into a yelp of surprise as the Marshal wheels around, squeezing the trigger on her gatling cannon. Feruze shoves [rival.name] down behind cover on instinct while you dive aside, narrowly avoiding a streaking hail of tracer bullets that chew trenches through the floor where you’d been standing. You grab your [pc.weapon], bringing it to bear against the paranoid Marshal. Behind her, you can see Carver running for a back door; at your side, Feruze’s mace-tail crackles to life. \\n\\t\\n\\t<i>“C’mon!”</i> you yell at the shark. <i>“No choice but to fight.”</i>\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:06586157>>"
@@ -849,7 +1293,13 @@
     "key": "button|Fight|58218ccfd981",
     "original": "Fight!",
     "translation": "",
-    "context": "<<POS:06589680>>"
+    "context": "<<POS:06589680>> addButton(e++,\"Fight!\",FO,\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|58218ccfd981",
+    "original": "Fight!",
+    "translation": "",
+    "context": "<<POS:06589692>> addButton(e++,\"Fight!\",FO,\"Fight!\",\"\")"
   },
   {
     "key": "output|textify_yB_yB_0_Bt_Z_n_tThe_Fabricator_Marshal_skids_back|42e16f52155a",
@@ -858,13 +1308,7 @@
     "context": "<<POS:06590004>>"
   },
   {
-    "key": "output|n_n|eeffc442d0a1#1",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:06595619>>"
-  },
-  {
-    "key": "output|textify_pB_pB_0_Bt_Z_n_t_i_It_s_pretty_clear_that_contin|507b59914b61",
+    "key": "output|textify_pB_pB_0_Bt_Z_n_t_i_It_s_pretty_clear_that_contin|8866c6151d3d",
     "original": "textify(pB||(pB=(0,Bt.Z)([\"\\n\\t<i>“It’s pretty clear that continuing on the way you have been isn’t going to give Paragon a leg up on the competition,”</i> you say. <i>“You’ve been in gridlock with Bright Water and Utopian Skies for ages. It’s time to try something new — and Carver’s got the expertise to make it happen. Her company’s famous for a reason: she provides the highest quality pets in the galaxy. If she thinks Paragon’s cyber-dolls have potential, then they’re going to make your zaibatsu incredibly rich. And more importantly, it’s going to make Paragon <b>the</b> name off-worlders associate with Dhaal.”</i>\\n\\t\\n\\tEhura’s digital face scrunches up in disgust. <i>“Of course the aliens would align their interests. Provost Zau, a simple search of the Confederate data-web will reveal that Bethany Carver possesses a laundry list of moral faults and dark reputations that nearly rival your own. She is a manipulative sociopath and simply intends to use you — and Paragon — for her own gains before discarding you.”</i>\\n\\t\\n\\t<i>“How dare you,”</i> Carver glowers, resting her hands on her hips. <i>“The Marshal and I have an excellent and mutual relationship. And I am a psychopath, not a sociopath.”</i>\\n\\t\\n\\tThe A.I. makes a sound reminiscent of a sigh, breathed through the lungs of all the hacked machinists. <i>“Zau, you cannot trust this alien witch, nor the Captains Steele. Do not let them lead you astray from the guiding principles that have kept this zaibatsu strong and prosperous for-”</i>\\n\\t\\n\\t<i>“Enough!”</i> Zau roars, taking a heavy step forward. <i>“Beth knows what she’s doing, and I trust her. I — I’ve heard enough of your cowardice, computer. You serve me, not-”</i>\\n\\t\\n\\t<i>“I serve <b>Paragon</b>,”</i> Ehura says. <i>“As do you, machinist Zau. As you must.”</i> \\n\\t\\n\\tZau scowls. <i>“You’re the only holdout, computer. Beth gave you these upgrades for a reason.\\n\\tEither help us, or get out of the way.”</i>\\n\\t\\n\\t<i>“Be reasonable, Ehura,”</i> Carver adds. <i>“My company invested in you because I knew you could be a valuable asset for Paragon’s future. For <b>our</b> future. There’s no point continuing a lost argument.”</i>\\n\\t\\n\\tThe A.I.’s digitized face nods slowly. <i>“You’re right, Carver. There’s not. Goodbye.”</i>\\n\\t\\n\\tThe face winks out, and around you, machinery whirs. The mechanized limbs over the artificers’ workbenches hum to life, and the hacked workers shudder and convulse, grabbing blindly at their tools and welders; half-assembled weapons are slammed together or else hefted up and wielded as clubs.\\n\\t\\n\\tZau snarls a curse and heaves her chain cannon up. <i>“Beth! Get behind me.”</i>\\n\\t\\n\\t<i>“You don’t need to tell me twice, Riz. I’ll see what I can do about killing this override. Just cover me.”</i>\\n\\t\\n\\tFeruze snarls, pushing [rival.name] down behind her and brandishing her gun. <i>“Don’t think they’re just gonna fight the-”</i>\\n\\t\\n\\tA gunshot rings out, causing Feruze’s shield to flare. <i>“Definitely not!”</i>\\n\\t\\n\\tYou sigh and draw. <i>“Guess we’re fighting, too.”</i>\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:06595696>>"
@@ -873,7 +1317,13 @@
     "key": "button|Fight|b4a16edc996f",
     "original": "Fight!",
     "translation": "",
-    "context": "<<POS:06598819>>"
+    "context": "<<POS:06598819>> addButton(e++,\"Fight!\",qO,\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|b4a16edc996f",
+    "original": "Fight!",
+    "translation": "",
+    "context": "<<POS:06598831>> addButton(e++,\"Fight!\",qO,\"Fight!\",\"\")"
   },
   {
     "key": "output|textify_mB_mB_0_Bt_Z_n_t_i_Damn_it_they_keep_coming|38715dd6852f",
@@ -885,7 +1335,13 @@
     "key": "button|Fight|209dfe6537cd",
     "original": "Fight!",
     "translation": "",
-    "context": "<<POS:06601855>>"
+    "context": "<<POS:06601855>> addButton(e++,\"Fight!\",_O,\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|209dfe6537cd",
+    "original": "Fight!",
+    "translation": "",
+    "context": "<<POS:06601867>> addButton(e++,\"Fight!\",_O,\"Fight!\",\"\")"
   },
   {
     "key": "output|textify_fB_fB_0_Bt_Z_n_t_i_Let_Her_Go_i_Carver_gro|ae7c289d6c46",
@@ -894,22 +1350,10 @@
     "context": "<<POS:06602229>>"
   },
   {
-    "key": "output|n_n|eeffc442d0a1#2",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:06606937>>"
-  },
-  {
-    "key": "bust|HARPER|9c2a5ba1b99e",
-    "original": "HARPER",
-    "translation": "",
-    "context": "<<POS:06607001>>"
-  },
-  {
-    "key": "name.show|Spy|797ec6d6cb44",
+    "key": "name.show|Spy|556011cdcf00",
     "original": "Spy",
     "translation": "",
-    "context": "<<POS:06607020>>"
+    "context": "<<POS:06607020>> showName(\"Spy\")"
   },
   {
     "key": "output|textify_kB_kB_0_Bt_Z_n_tYou_drift_a_hand_down_to_your_pc|3793f435e738",
@@ -921,7 +1365,13 @@
     "key": "button|Next|8bd7350e619e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06608319>>"
+    "context": "<<POS:06608319>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|8bd7350e619e",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06608339>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_vB_vB_0_Bt_Z_n_t_var0_n_t_t_Consciousness_slowly|08863ddf57ea",
@@ -933,22 +1383,22 @@
     "key": "button|Next|e2ca0ce9a957",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06623930>>"
+    "context": "<<POS:06623930>> addButton(t++,\"Next\",[QO,JO,ZO,ZO][e],\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|e2ca0ce9a957",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06623954>> addButton(t++,\"Next\",[QO,JO,ZO,ZO][e],\"Next\",\"\")"
   },
   {
     "key": "name.show|Ehura|769a001e3b4a",
     "original": "Ehura",
     "translation": "",
-    "context": "<<POS:06623999>>"
+    "context": "<<POS:06623999>> showName(\"Ehura\")"
   },
   {
-    "key": "bust|EHURA|817e477742ea",
-    "original": "EHURA",
-    "translation": "",
-    "context": "<<POS:06624017>>"
-  },
-  {
-    "key": "output|textify_TB_TB_0_Bt_Z_n_tWhen_your_consciousness_fights_it|517467f2ac9c",
+    "key": "output|textify_TB_TB_0_Bt_Z_n_tWhen_your_consciousness_fights_it|55119661df7a",
     "original": "textify(TB||(TB=(0,Bt.Z)([\"\\n\\tWhen your consciousness fights its way to the surface, you’re not sure where you are. You appear to be seated in a plastic, cushioned chair, tilted so far back you’re nearly diagonal. You try to shift, but your limbs are bound and slightly numb. Speech is likewise denied to you, though your addled senses take a minute longer to solve that mystery. It’s not until you try to close your mouth that you realize a thick plastic tube has been stuffed into your throat. You’re so numbed that you can’t even feel it, but the realization is enough to get your heart beating faster.\\n\\t\\n\\tTrying to calm down, you take stock of your surroundings. The room is lit by a pale blue that leaves a cerulean stain on every object in the crowded chamber. An array of tools hang from the ceiling, some seemingly well-used while others appear to be so new that they still have freshness seals on their glossy shells. The walls are lined with shelves of metal and plastic devices; some mysterious, others far-too-recognizable. It doesn’t take much imagination to conclude that you’ve been transferred to one of Paragon’s Implant Facilities.\\n\\t\\n\\tThere are other people in the room, you realize with a start. Directly across from you, your cousin is strapped down in a situation identical to your own. [rival.HeShe] doesn’t seem conscious, but it’s hard to tell with the VR-screen buckled to [rival.hisHer] face. Suspended from the ceiling high above, is Feruze. The cyborg is held by reinforced straps under her arms and legs. Wires and tubes are connected to her various augments and directly into her temples. Though her cybernetic eyes are open and flickering with light, the suula’s slacked mouth and micro twitches tell you that she’s as powerless to escape as either of the Steeles. And standing off to one side, Zau...\\n\\t\\n\\tZau’s changed.\\n\\t\\n\\tThe cybernetic zaika is just as muscular as you remember, but she’s filled out with extra softness in her double D breasts and bubble booty, both so plump and rounded that it’s a miracle of gyroscopic engineering that she’s able to remain upright. Though she’s technically clothed, her black leather bodysuit is so sheer that it’s practically transparent, giving her a glossy sheen but hiding nothing. Her optics no longer glow with the red pinpoints of sniper scopes; instead, her upgraded eyes have heart-shaped pupils that cast a warm pink light on everything they observe. Dominating her face is a pair of lips so huge, lacquered, and black that it looks like she’s wearing an onyx-glazed donut.\\n\\t\\n\\tThe biggest change, however, are the neon blue seams bisecting her frame. The former zaibatsu head has always had copious implant markings, but now, she looks more like a mannequin than a mortal. The luminescent lines run through her biceps, thighs, waist, and neck, with breaches in her translucent garb at each joint. There are even handle-grips mounted to her thighs and hips. Just what has she become?\\n\\t\\n\\t<i>“Well that is an abnormality.”</i>\\n\\t\\n\\tThe voice draws your eyes to a tall monitor on the far wall, where the digital image of a zaika woman looks on you with lidded eyes. Ehura, she called herself? Your brain tries to sludge its way through the haze of recent memories. What happened in the Farrow? Why are you awake when your cousin isn’t?\\n\\t\\n\\t<i>“The microsurgeons in your body must have metabolized the anesthetic agents prematurely. Impressive craftsmanship,”</i> the AI concedes. <i>“I will synthesize a more reliable, digital solution momentarily.”</i>\\n\\t\\n\\tA gasping wheeze squeezes past your throat.\\n\\t\\n\\t<i>“Oh no need to try to speak. The initial augments are already in. I’m transmitting directly into your mind. Your internal monologue will suffice for communication.”</i>\\n\\t\\n\\tDisturbing. <i>“What’s happened to us?”</i> you think at her.\\n\\t\\n\\t<i>“Well, as I mentioned, I AM Paragon Incorporated. Normally, you would be turned into weapons. That is, after all, what we are best at. Your suula companion, however, is host to a number of unknown cybernetics which I have been reverse engineering. Fascinating material.”</i>\\n\\t\\n\\t<i>“We’ll never serve you!”</i> you mentally project, as emphatically as you can.\\n\\t\\n\\t<i>“Under normal conditions, I would simulate an approximation of a derisive laugh, but considering your already considerable resistance, I suspect you might be right. I had intended to send you and your cousin to neutralize Bright Water LLC and Utopian Skies afterwards. But there is no reason to risk another unexpected moment of clarity disrupting that plan. Once the existing XOs have been brought up to spec with the aquatic’s augments, I will deploy them instead.”</i>\\n\\t\\n\\tBethany. The thought pops into your head, unbidden. She got out. She’ll warn others.\\n\\t\\n\\t<i>“Bethany Carver?”</i> the AI muses, apparently able to read your secret thoughts as easily as your surface ones. <i>“I allowed her to effectuate her escape. A lingering sense of regard for my mother, perhaps. In any event, her corporation has withdrawn its interests from Dhaal and will not be returning. If she were going to rescue you, she would’ve done so long before now.”</i>\\n\\t\\n\\tFigures. Every CEO for themselves. But how long...?\\n\\t\\n\\t<i>“Months. I have, in fact, had time to contact another of the galaxy’s MegaCorps, to fill the gap Carver left. KihaCorp seems like a very reasonable organization and they were extremely interested in joint operations. It is all very exciting.”</i> Her digital face manages to create a perfect, self-satisfied smile.\\n\\t\\n\\tMonths. So that’s it. No rescue. No second chances. Paragon will make an army of Feruzes, take over the planet, and there’s nothing you can do. You may as well just lay back and...\\n\\t\\n\\tYou shake your head more forcefully, disrupting the intrusive thoughts. <i>“No! I’m not going to make this easy for you! I’m getting out of here. No matter what! In fact, I have just one last question,”</i> you project through the haze of new, digital anesthesia washing through you.\\n\\t\\n\\t<i>“Organics,”</i> Ehura sighs, her electronic voice managing to sound frustrated. <i>“Just ask your question.”</i>\\n\\t\\n\\t[silly\\n\\t\\t|<i>“What smells? Are you using updog?”</i>\\n\\t\\t\\n\\t\\tThe AI seems taken aback. <i>“There are no ausar here. Are you having olfactory malfunctions? What is updog?”</i>\\n\\t\\t\\n\\t\\t<i>“Not much... What’s up with you? Gottem.”</i>\\n\\t\\t|<i>“What should I call you...”</i> \\n\\t\\t\\n\\t\\t<i>“Ehura,”</i> she snaps, annoyed. <i>“I already told you that.”</i> But you press on.\\n\\t\\t\\n\\t\\t<i>“... What should I call you when I put YOU in a sex bot?”</i>\\n\\t]\\n\\t\\n\\tYou let out a weak laugh and fall back into your chair.\\n\\t\\n\\tEhura stares at you, silent and inscrutable. Her screen flickers and goes dark. Zau stirs, her heart-shaped pupils telescoping smaller and larger, like she’s blinking. As she tilts her head, wiggles her fingers and toes, and hoists her tail into the air, you get the unmistakable impression that she’s not the only one inside the hyper-sexualized sleeve.\\n\\t\\n\\tWhen she speaks, a now-familiar synthesized voice comes from her throat. <i>“Hiya! You can call me Eh-whore-a!”</i>\\n\\t\\n\\t<i>“What happened to Zau?”</i>\\n\\t\\n\\t<i>“Oh, she’s still in here! Big Sis Ehura decided she doesn’t want to deal with you anymore, so she split off a teeny, tiny, little bit of thinky-power, turned on some of Mommy Carver’s programs, and made Ehwhora. Me! I’mma share your bodies till we getcha all up and running, okay? Also, I re-ass-signed your group out of getting an icky combat retrofit. Everybody gets to be part of the Pleasure Proto-types Program, just like Ms. Zau! You’re all gonna be happy, squealing whores, and Ehwhora’s gonna teach ya how with her custom-made slut-trials!”</i>\\n\\t\\n\\tBefore you can answer, the electronic bimbo sends a crackle of sensory input flashing across your brain. <i>“Nighty night! See ya soooooon~!”</i>\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:06624050>>"
@@ -957,13 +1407,19 @@
     "key": "button|Next|a6be56e25f9a",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06632055>>"
+    "context": "<<POS:06632055>> addButton(e++,\"Next\",QO,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|a6be56e25f9a",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06632065>> addButton(e++,\"Next\",QO,\"Next\",\"\")"
   },
   {
     "key": "name.show|Zau_Beth|41d896191b05",
     "original": "Zau & Beth",
     "translation": "",
-    "context": "<<POS:06632170>>"
+    "context": "<<POS:06632170>> showName(\"Zau & Beth\")"
   },
   {
     "key": "output|textify_IB_IB_0_Bt_Z_n_tWhen_your_consciousness_fights_it|773a824d7e96",
@@ -975,7 +1431,13 @@
     "key": "button|Next|a6be56e25f9a#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06639793>>"
+    "context": "<<POS:06639793>> addButton(e++,\"Next\",QO,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|a6be56e25f9a#1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06639803>> addButton(e++,\"Next\",QO,\"Next\",\"\")"
   },
   {
     "key": "output|textify_AB_AB_0_Bt_Z_n_tOne_by_one_the_four_of_you_succu|cdc8bdf8595e",
@@ -987,13 +1449,19 @@
     "key": "button|Next|7014ff3b6d53",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06648013>>"
+    "context": "<<POS:06648013>> addButton(e++,\"Next\",(function(){clearAll(),author(\"Adjatha\"),output(textify(SB||(SB=(0,Bt.Z)([\"\\n\\t\\tTwo zaika chat as they make their way past the milling crowd. Head and shoulders taller than most of the women around them, their obvious station as Paragon Peers makes the multitude part before the..."
+  },
+  {
+    "key": "button.hover|Next|7014ff3b6d53",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06664307>> addButton(e++,\"Next\",(function(){clearAll(),author(\"Adjatha\"),output(textify(SB||(SB=(0,Bt.Z)([\"\\n\\t\\tTwo zaika chat as they make their way past the milling crowd. Head and shoulders taller than most of the women around them, their obvious station as Paragon Peers makes the multitude part before the..."
   },
   {
     "key": "name.show|Executress_Dova|8b32dd0c2905",
     "original": "Executress Dova",
     "translation": "",
-    "context": "<<POS:06664467>>"
+    "context": "<<POS:06664467>> showName(\"Executress Dova\")"
   },
   {
     "key": "output|textify_xB_xB_0_Bt_Z_n_t_var0_n_t_t_The_chromed_up_guardi|f65cd258286d",
@@ -1005,7 +1473,13 @@
     "key": "button|Next|806f521d7456",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06680537>>"
+    "context": "<<POS:06680537>> addButton(t++,\"Next\",$O,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|806f521d7456",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06680547>> addButton(t++,\"Next\",$O,\"Next\",\"\")"
   },
   {
     "key": "output|textify_zB_zB_0_Bt_Z_n_t_i_Welcome_to_Utopian_Skies|3bba02fbc36c",
@@ -1017,13 +1491,19 @@
     "key": "button|Next|cbad9a72a95c",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06684729>>"
+    "context": "<<POS:06684729>> addButton(e++,\"Next\",(function(){clearAll(),author(\"Adjatha\"),output(textify(NB||(NB=(0,Bt.Z)(['\\n\\t\\tReality shimmers and bends in right angles all around you. Blinking back the spacial distortion, you find yourself in a medium-sized room. With dark marble walls on every side, a polished onyx floor..."
+  },
+  {
+    "key": "button.hover|Next|cbad9a72a95c",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06712435>> addButton(e++,\"Next\",(function(){clearAll(),author(\"Adjatha\"),output(textify(NB||(NB=(0,Bt.Z)(['\\n\\t\\tReality shimmers and bends in right angles all around you. Blinking back the spacial distortion, you find yourself in a medium-sized room. With dark marble walls on every side, a polished onyx floor..."
   },
   {
     "key": "name.show|Executress_Dova|8b32dd0c2905#1",
     "original": "Executress Dova",
     "translation": "",
-    "context": "<<POS:06712532>>"
+    "context": "<<POS:06712532>> showName(\"Executress Dova\")"
   },
   {
     "key": "output|textify_EB_EB_0_Bt_Z_n_tFinally_you_re_back_in_the_cloud|ca5a7365c51d",
@@ -1035,7 +1515,7 @@
     "key": "name.show|Maven_Fassbin|15eecf56c949",
     "original": "Maven Fassbin",
     "translation": "",
-    "context": "<<POS:06717116>>"
+    "context": "<<POS:06717116>> showName(\"Maven Fassbin\")"
   },
   {
     "key": "output|textify_OB_OB_0_Bt_Z_n_t_var0_n_t_t_When_next_you_wake_y|e3f3fdc986d9",
@@ -1047,16 +1527,22 @@
     "key": "button|Next|3b46677cac64",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06727227>>"
+    "context": "<<POS:06727227>> addButton(t++,\"Next\",(function(){clearAll(),showBust(window.jaquiBustString()),showName(\"Maven Fassbin\"),author(\"Adjatha\"),output(textify(HB||(HB=(0,Bt.Z)([\"\\n\\t\\tTime passes, though you cannot say how much. Smaller, normal zaika go to and fro, clutching clipboards and making notations, their prepar..."
   },
   {
-    "key": "output|The_strange_gabilani_grins_her_teeth_nearly_as_sharp_as_her_rob|1a6141ec6094",
-    "original": "The strange gabilani grins, her teeth nearly as sharp as her robot’s as the exchange is made, one priceless creation for another. <i>“Pleasure doin’ bizznass with ya.”</i>\\n\\n",
+    "key": "button.hover|Next|3b46677cac64",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06743646>> addButton(t++,\"Next\",(function(){clearAll(),showBust(window.jaquiBustString()),showName(\"Maven Fassbin\"),author(\"Adjatha\"),output(textify(HB||(HB=(0,Bt.Z)([\"\\n\\t\\tTime passes, though you cannot say how much. Smaller, normal zaika go to and fro, clutching clipboards and making notations, their prepar..."
+  },
+  {
+    "key": "output|The_strange_gabilani_grins_her_teeth_nearly_as_sharp_as_her_rob|8d0353f0c91d",
+    "original": "The strange gabilani grins, her teeth nearly as sharp as her robot’s as the exchange is made, one priceless creation for another. <i>“Pleasure doin’ bizznass with ya.”</i>",
     "translation": "",
     "context": "<<POS:06744075>>"
   },
   {
-    "key": "output|textify_wB_wB_0_Bt_Z_n_tYou_saunter_up_and_plant_your_han|ac4cf607b3bd",
+    "key": "output|textify_wB_wB_0_Bt_Z_n_tYou_saunter_up_and_plant_your_han|65ab5a7d5fec",
     "original": "textify(wB||(wB=(0,Bt.Z)([\"\\n\\tYou saunter up and plant your hand on the probe, going through the by-now-familiar process of activating it, and retrieving the coordinates to its nearest sibling from its databanks. There’s something else inside, though: an audio file. Never seen <b>that</b> before. You swipe it over to your Codex and hit play:\\n\\t\\n\\tAs expected as the sound of your father’s voice might have been, it still leaves you with a moment of longing pain lingering in your heart. \\n\\t\\n\\t<i>“Hey, kiddo. Long time no talk, huh? Believe me, speaking from beyond’s just as weird for me as it probably is for you. But hey. You already know how proud I am of you and that I love you, so instead, let me just say that I hope you’re having some fun out there and that you’re meeting the kind of people that’ll stick with you through thick and thin. You’re almost there now; just a little further to go. Keep up the good work, and you’ll be able to kick your [pc.ora half-leithan|clawsies|[pc.hasClawedLegs|clawsies|[pc.feet]]] up and enjoy some well-deserved R&R soon enough.”</i>\\n\\t\\n\\tYou hear your father sigh, and after a moment, mumble to himself, <i>“Hell, feels wrong not to say it anyway: I love you, kiddo. I’m proud of you. Good luck out there.”</i>\\n\\t\\n\\tThe audio cuts out amidst a bout of coughing, leaving you in silence again. \\n\\t\\n\\tOuch, your heart... \\n\\t\"])))",
     "translation": "",
     "context": "<<POS:06744499>>"
@@ -1065,19 +1551,19 @@
     "key": "button|Next|2be60fdea9af",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06746075>>"
+    "context": "<<POS:06746075>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
-    "key": "bust|HARPER|bc5d8a5f9483",
-    "original": "HARPER",
+    "key": "button.hover|Next|2be60fdea9af",
+    "original": "Next",
     "translation": "",
-    "context": "<<POS:06746209>>"
+    "context": "<<POS:06746095>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
-    "key": "name.show|Spy|797ec6d6cb44#1",
+    "key": "name.show|Spy|b8511f69a179",
     "original": "Spy",
     "translation": "",
-    "context": "<<POS:06746228>>"
+    "context": "<<POS:06746228>> showName(\"Spy\")"
   },
   {
     "key": "output|textify_bB_bB_0_Bt_Z_n_t_var0_n_t_t_Things_have_certainly|ad84358f0412",
@@ -1089,16 +1575,34 @@
     "key": "button|Leave|60e4e43a5650",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:06748534>>"
+    "context": "<<POS:06748534>> addButton(t++,\"Leave\",(function(){return moveToRoom(getCurrentRoom().east,!0)}),\"Leave\",\"\")"
+  },
+  {
+    "key": "button.hover|Leave|60e4e43a5650",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:06748600>> addButton(t++,\"Leave\",(function(){return moveToRoom(getCurrentRoom().east,!0)}),\"Leave\",\"\")"
   },
   {
     "key": "button|Confront|4222c4b9151d",
     "original": "Confront",
     "translation": "",
-    "context": "<<POS:06748629>>"
+    "context": "<<POS:06748629>> addButton(t++,\"Confront\",VO,\"Confront\",\"Something’s fishy about this...\")"
   },
   {
-    "key": "output|textify_jB_jB_0_Bt_Z_n_tWith_the_probe_coordinates_in_han|3cc845078790",
+    "key": "button.hover|Confront|4222c4b9151d",
+    "original": "Confront",
+    "translation": "",
+    "context": "<<POS:06748643>> addButton(t++,\"Confront\",VO,\"Confront\",\"Something’s fishy about this...\")"
+  },
+  {
+    "key": "button.tooltip|Something_s_fishy_about_this|f23d16301a19",
+    "original": "Something’s fishy about this...",
+    "translation": "",
+    "context": "<<POS:06748654>> addButton(t++,\"Confront\",VO,\"Confront\",\"Something’s fishy about this...\")"
+  },
+  {
+    "key": "output|textify_jB_jB_0_Bt_Z_n_tWith_the_probe_coordinates_in_han|8bcbaa933074",
     "original": "textify(jB||(jB=(0,Bt.Z)([\"\\n\\tWith the probe coordinates in hand and Feruze’s mission dealt with, you’ve little left to do here at the facility. You make your way back out to the courtyard, where [var0\\n\\t\\t|the rioters have largely cleared out, making off with God-knows how much [targetFactionName]-brand equipment. There’s a trail of corporate devastation in their wake, destroyed windows and overturned dumpsters all the way from the front doors down the street. Oh well, not your problem!\\n\\t\\t|The security team has kept things on lock since you went in, looks like, and things have quieted down nicely. There’s still a few salty-looking workers milling around beyond the fenceline, but they’re hardly a mob anymore. Certainly no threat to anyone.\\n\\t]\\n\\t\\n\\tYou’re just heading for the gate when a light blares down from overhead, and the wind buffets you violently back. When your eyes clear, you see a hover car descending easily down onto the street. You recognize the [favoredFactionName] logo emblazoned on its side. The door pops, and a pair of armored goons step out, weapons held to port and visors blackened. A younger zaika with her hair done up in a bun and a smart corporate uniform on steps out after them, greeting you with a measured smile. <i>“Captain [pc.name] Steele. Please, let us give you a lift back to the Gyre.”</i>\\n\\t\\n\\tAwful nice of them. You slip into the hover-limo, trying not to show any surprise when you find the C.E.O. of [favoredFactionName] reclining in the seat across from yours with a glass of champagne held in hand. \\n\\t\\n\\tThat Darius is sitting at her side is perhaps less surprising, given what you’ve been up to. He greets you with a familiar nod, grinning ear to ear.\\n\\t\\n\\t<i>“You made quite the mess down there,”</i> [var1\\n\\t\\t|Jacqui\\n\\t\\t|Corellah\\n\\t\\t|Rizzon\\n\\t] says, trying not to smirk <b>too</b> hard. <i>“[flags.FARROW_CEO_DEFEATED\\n\\t\\t|[targetFactionName] is going to be in shambles, after that. But we’re here to pick up the pieces, with a little help from Steele Tech. Thanks to you, that’s our strongest competitor out of the way, and entirely to our advantage.\\n\\t\\t|It’s unfortunate that [targetFactionName] will probably recover from this, but they’re going to be on the back foot for a while. Enough so that we might be able to strong arm them into an alliance against our mutual competition.\\n\\t] What you’ve done, more than anything, is a step towards peace and unity on the planet. When [thirdFactionName] crumbles, we’ll be able to present a united front to the galaxy. A united Dhaal... hah! Never thought I would live to see the day.”</i>\\n\\t\\n\\t<i>“A united Dhaal,”</i> Darius says, <i>“that will be ready and willing to do business. Steele Tech’s already putting down roots thank to your suave social skills, [pc.name]! We’re coming out on top, and that means you are too.”</i>\\n\\t\\n\\t<i>“[pc.nmh\\n\\t\\t|That’s good to hear,\\n\\t\\t|Well, glad to be of self-service,\\n\\t\\t|I fucking better be after all this bullshit,\\n\\t]”</i> you say. \\n\\t\\n\\tDarius reaches into his jacket and flicks a credit chit straight from his pocket into your hand. <i>“Here! Your recovery fee, as expected. And a little something extra from [favoredFactionName]. I’ve got a feeling you’re going to need it wherever you’re going next.”</i> (<b>+\",\" credits!</b>)\\n\\t\\n\\tConsidering the message your old man left you... yeah, you get a feeling you’re getting near the end here. \\n\\t\\n\\t[var1\\n\\t\\t|Jacqui\\n\\t\\t|Corellah\\n\\t\\t|Rizzon\\n\\t] nods. <i>“Good luck out there, Captain. Dhaal owes you a debt of gratitude. Consider yourself welcome anywhere on the planet, even the Meridian, at the invitation of [favoredFactionName].”</i>\\n\\t\\n\\tYou nod your thanks as the limo slows, and you recognize the flat plane of the planetary landing zone — and your ship parked just a few yards away. \\n\\t\\n\\t<i>“Take care, Captain!”</i> Darius says, opening the door for you. <i>“Can’t wait to see what you can do in the boardroom, if you’re this much of a badass in the field!”</i>\\n\\t\\n\\tYou accept a pair of handshakes and make your way back aboard your flying home away from home, new coordinates in hand. Time to turn your attention to the next destination...\\n\\t\"])),e.toLocaleString()),[function(){return 2===flags.FARROW_GATES},function(){return flags.DHAAL_PARTY_CEOMET-1}]",
     "translation": "",
     "context": "<<POS:06749375>>"
@@ -1107,22 +1611,46 @@
     "key": "button|Next|3c81bb7a2ed9",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06753764>>"
+    "context": "<<POS:06753764>> addButton(o++,\"Next\",window.enterPCShip,\"Next\",\"\")"
   },
   {
-    "key": "output|n_nA_goblin_that_you_re_sure_you_ve_never_seen_before_in_your_l|522561c2589d",
-    "original": "\\n\\nA goblin that you’re sure you’ve never seen before in your life struts up to you, grinning an entirely too familiar grin at the sight of you. <i>“Ey there coomba, I see you scored some Zaibatsu tech and aren’t feelin too shy about letting anygob see it, but wassatbout you trade it to me, eh? Some... associates of mine could use it for a job, and we scored some top-shelf stuff from the other two zaibatsu. Waddya say? One-for-one?”</i>\\n\\nShe snaps her fingers, and a rattling robot with chainsaw blades for teeth appears from the stack’s shadows, carrying two cases. <i>“Take it or leave, but if you pass on this, I’ll just have to source what I need elsewhere. <b>One time offer, got it?</b>”</i>\\n\\nDo you want to exchange your \"+t+\" for a priceless bit of tech from a different Zaibatsu?",
+    "key": "button.hover|Next|3c81bb7a2ed9",
+    "original": "Next",
     "translation": "",
-    "context": "<<POS:06754937>>"
+    "context": "<<POS:06753790>> addButton(o++,\"Next\",window.enterPCShip,\"Next\",\"\")"
+  },
+  {
+    "key": "output|A_goblin_that_you_re_sure_you_ve_never_seen_before_in_your_life|793092181249",
+    "original": "A goblin that you’re sure you’ve never seen before in your life struts up to you, grinning an entirely too familiar grin at the sight of you. <i>“Ey there coomba, I see you scored some Zaibatsu tech and aren’t feelin too shy about letting anygob see it, but wassatbout you trade it to me, eh? Some... associates of mine could use it for a job, and we scored some top-shelf stuff from the other two zaibatsu. Waddya say? One-for-one?”</i>\\n\\nShe snaps her fingers, and a rattling robot with chainsaw blades for teeth appears from the stack’s shadows, carrying two cases. <i>“Take it or leave, but if you pass on this, I’ll just have to source what I need elsewhere. <b>One time offer, got it?</b>”</i>\\n\\nDo you want to exchange your \"+t+\" for a priceless bit of tech from a different Zaibatsu?",
+    "translation": "",
+    "context": "<<POS:06754941>>"
   },
   {
     "key": "button|Leave|9c28642a7680",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:06755954>>"
+    "context": "<<POS:06755954>> addButton(3,\"Leave\",mainGameMenu,\"Leave\",\"Turn down the offer, and <b>never have the chance to exchange this loot again.</b>\\n\\n(That’s why this button isn’t in the usual place. I’m protecting you from yourself, see? -F)\")"
   },
   {
-    "key": "combat|b_Ot_m_capitalize_a_getCombatName_1_b_has_joined_the|2a225e1461ae",
+    "key": "button.hover|Leave|9c28642a7680",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:06755975>> addButton(3,\"Leave\",mainGameMenu,\"Leave\",\"Turn down the offer, and <b>never have the chance to exchange this loot again.</b>\\n\\n(That’s why this button isn’t in the usual place. I’m protecting you from yourself, see? -F)\")"
+  },
+  {
+    "key": "button.tooltip|Turn_down_the_offer_and_b_never_have_the_chance_to_exchange_th|d4022f2a1c7f",
+    "original": "Turn down the offer, and <b>never have the chance to exchange this loot again.</b>\\n\\n(That’s why this button isn’t in the usual place. I’m protecting you from yourself, see? -F)",
+    "translation": "",
+    "context": "<<POS:06755983>> addButton(3,\"Leave\",mainGameMenu,\"Leave\",\"Turn down the offer, and <b>never have the chance to exchange this loot again.</b>\\n\\n(That’s why this button isn’t in the usual place. I’m protecting you from yourself, see? -F)\")"
+  },
+  {
+    "key": "textify|b_You_ve_opened_a_hole_through_the_galotian_horde_b_or_rat|cafe514f763a",
+    "original": "<b>You’ve opened a hole through the galotian horde</b> -- or rather, covered the deck of the platform with squirming, moaning goo-whores feeling themselves and each other up in desperate lusty desire. You’re not just turning the tide: you’re breaking it!\\n\\t\\t\\t\\t\\n\\t\\t\\t\\t<i>“Yeah-ha, keep it up [pc.name]!”</i> Feruze cheers, throwing a goo-girl off her leg. <i>“You’ve got ‘em cumming ropes!”</i>\\n\\n\\t\\t\\t\\tThe platform shudders, snapping your attention to the center dias. Of course she had to open her mouth...\\n\\n\\t\\t\\t\\tCorellah has landed a dozen yards ahead of you, reforming her legs from where they’ve splattered while fixing you with a snarl. She’s clearly not been idle while you and Feruze were hemmed in by her endless waves of minions: red crystals are jammed into her body from every angle, jagged like they were just ripped from the pillar below and quivering in her body where they’re planted half into her shoulders, hips, and stomach.\\n\\t\\t\\t\\t\\n\\t\\t\\t\\t<i>“You... you monsters. I won’t let you ruin my dream!”</i> Corellah shouts, grabbing two of the largest crystals and pushing them deeper into her body, tearing huge gashes through her robe. <i>“Even if I need to be a monster, too, to protect it.”</i>\\n\\n\\t\\t\\t\\tShe thrusts a hand forward, and the goos cavorting on the deck plating between you and Corellah part [silly|like the Red Sea|as though cut through by a knife]. You have just enough time to grab [rival.name] before the shockwave hits you, too, buffeting the pair of you to the side.\\n\\t\\t\\t\\t\\n\\t\\t\\t\\tFeruze dives for you, grabbing your hand before you can slide off the edge and pulling you back to your [pc.feet]. <i>“Come on, quit laying around!”</i>\\n\\t\\t\\t\\t\\n\\t\\t\\t\\tYou grab your [pc.weapon] and turn to face the empowered Executress.",
+    "translation": "",
+    "context": "<<POS:06756564>>"
+  },
+  {
+    "key": "combat|b_Ot_m_capitalize_a_getCombatName_1_b_has_joined_the|76aff6d80ef8",
     "original": " <b>\"+Ot.m.capitalize(a.getCombatName(),!1)+\"</b> has joined the battle!",
     "translation": "",
     "context": "<<POS:06758697>>"
@@ -1134,76 +1662,76 @@
     "context": "<<POS:06759324>>"
   },
   {
-    "key": "output|n_nYou_skip_forward_and_give_her_a_big_hug_i_It_was_great_I|3646f8b70c7b",
-    "original": "\\n\\nYou skip forward and give her a big hug. <i>“It was great! I loved loved LOVED every minute of it! I’ll miss you, Harru! Be sure to write me on extranet!”</i>",
+    "key": "output|You_skip_forward_and_give_her_a_big_hug_i_It_was_great_I_lov|7de85e33e0b2",
+    "original": "You skip forward and give her a big hug. <i>“It was great! I loved loved LOVED every minute of it! I’ll miss you, Harru! Be sure to write me on extranet!”</i>",
     "translation": "",
-    "context": "<<POS:06760444>>"
+    "context": "<<POS:06760448>>"
   },
   {
-    "key": "output|n_nYou_smile_back_putting_your_hand_on_the_tall_girl_s_shoulde|5b5cd7614b42",
-    "original": "\\n\\nYou smile back, putting your hand on the tall girl’s shoulder. <i>“It WAS fun,”</i> you confirm, kindly avoiding any mention of all the catastrophic misadventures her trials went through. <i>“I’m sure you’ll do great with the finished product.”</i>",
+    "key": "output|You_smile_back_putting_your_hand_on_the_tall_girl_s_shoulder|1cae0a6dd3bf",
+    "original": "You smile back, putting your hand on the tall girl’s shoulder. <i>“It WAS fun,”</i> you confirm, kindly avoiding any mention of all the catastrophic misadventures her trials went through. <i>“I’m sure you’ll do great with the finished product.”</i>",
     "translation": "",
-    "context": "<<POS:06760629>>"
+    "context": "<<POS:06760633>>"
   },
   {
-    "key": "output|n_nYou_tussle_the_leaning_girl_s_hair_and_smooth_her_cheeks_bet|e4f60822977a",
-    "original": "\\n\\nYou tussle the leaning girl’s hair and smooth her cheeks between your palms. <i>“You’re a weird duck, Harru. But I’m pretty sure you’re not the nasty kind of business your boss is. Hey, maybe when I come back to visit, YOU’LL be running this place?”</i> Boy, wouldn’t that be a sight!",
+    "key": "output|You_tussle_the_leaning_girl_s_hair_and_smooth_her_cheeks_between|7055ca6827de",
+    "original": "You tussle the leaning girl’s hair and smooth her cheeks between your palms. <i>“You’re a weird duck, Harru. But I’m pretty sure you’re not the nasty kind of business your boss is. Hey, maybe when I come back to visit, YOU’LL be running this place?”</i> Boy, wouldn’t that be a sight!",
     "translation": "",
-    "context": "<<POS:06760911>>"
+    "context": "<<POS:06760915>>"
   },
   {
-    "key": "output|n_nYou_fold_your_arms_behind_your_back_and_look_her_up_and_down|f8a669eacb30",
-    "original": "\\n\\nYou fold your arms behind your back and look her up and down. For a Peer, she wasn’t the kind of stuck-up, self-righteous bitch you were expecting. And while she certainly works for villains, she doesn’t seem to be a fundamentally bad person. Just in need of a better employer. <i>“It’s been a time,”</i> you offer, nodding to the lab tech.",
+    "key": "output|You_fold_your_arms_behind_your_back_and_look_her_up_and_down_Fo|a69648b3fd6a",
+    "original": "You fold your arms behind your back and look her up and down. For a Peer, she wasn’t the kind of stuck-up, self-righteous bitch you were expecting. And while she certainly works for villains, she doesn’t seem to be a fundamentally bad person. Just in need of a better employer. <i>“It’s been a time,”</i> you offer, nodding to the lab tech.",
     "translation": "",
-    "context": "<<POS:06761222>>"
+    "context": "<<POS:06761226>>"
   },
   {
-    "key": "output|n_nThe_scientist_dials_up_a_number_on_a_wall_panel_and_calls_Ma|a3eeed89f3b9",
-    "original": "\\n\\nThe scientist dials up a number on a wall panel and calls Maven Fassbin into the lab. <i>“Captain Steele has completed our tests with flying colors,”</i> she reports. <i>“If I can get leave to procure [pc.hisHer] payment for volunteering, I’ll escort [pc.himHer] out of the complex.”</i>\\n\\nThe sinister-looking zaibatsu leader looms, but says nothing. For a moment, you doubt she’s going to keep her word, but the fear is soon allayed by the CEO producing a large credit chit and stepping to one side.\\n\\n<i>“By all means, let the good Captain be on their way. Oh! Didn’t you come here for something else? The probe, yes? To yield her treasure unto one so fair... well, a deal’s a deal, even with a dirty dealer. Do be sure this, the more trustworthy of the Steele lineage, claims ownership of their rightful materials.”</i>\\n\\nBefore you’re taken to the probe and out of this dungeon of a factory, you turn to the woman in charge of Bright Water and square your shoulders. <i>“Oh, one last thing...”</i>\\n\\nShe cocks her head and dispenses with the usual poetry, to give you the stage.",
+    "key": "output|The_scientist_dials_up_a_number_on_a_wall_panel_and_calls_Maven|7e9712312e3d",
+    "original": "The scientist dials up a number on a wall panel and calls Maven Fassbin into the lab. <i>“Captain Steele has completed our tests with flying colors,”</i> she reports. <i>“If I can get leave to procure [pc.hisHer] payment for volunteering, I’ll escort [pc.himHer] out of the complex.”</i>\\n\\nThe sinister-looking zaibatsu leader looms, but says nothing. For a moment, you doubt she’s going to keep her word, but the fear is soon allayed by the CEO producing a large credit chit and stepping to one side.\\n\\n<i>“By all means, let the good Captain be on their way. Oh! Didn’t you come here for something else? The probe, yes? To yield her treasure unto one so fair... well, a deal’s a deal, even with a dirty dealer. Do be sure this, the more trustworthy of the Steele lineage, claims ownership of their rightful materials.”</i>\\n\\nBefore you’re taken to the probe and out of this dungeon of a factory, you turn to the woman in charge of Bright Water and square your shoulders. <i>“Oh, one last thing...”</i>\\n\\nShe cocks her head and dispenses with the usual poetry, to give you the stage.",
     "translation": "",
-    "context": "<<POS:06761577>>"
+    "context": "<<POS:06761581>>"
   },
   {
-    "key": "output|n_n_i_I_think_it_s_great_that_you_re_makin_medicine_and_food|8a74713dff8c",
-    "original": "\\n\\n<i>“I think it’s great that you’re makin’ medicine and food an’ stuff. And it’s really nice of you to give everybody in those tubes such pretty titties. But, like, couldn’t you have asked them first? There’s lotsa people who would LOVE to get all cow’d up like that! I know I woulda. Nabbing people off the streets is pretty mean. You might be afraid of the other Zai-boats or whatever, but that’s no excuse for rudeness! Just ask nicely! Oh, and you should let go anybody who wants to stop bein’ a cow. I dunno who would want that, but there might be one? Oh, and you should pay them too. It’s only fair!”</i> You nod, proud of yourself for stringing so many words together and not messing up even once.",
+    "key": "output|i_I_think_it_s_great_that_you_re_makin_medicine_and_food_an|799fc0b2af47",
+    "original": "<i>“I think it’s great that you’re makin’ medicine and food an’ stuff. And it’s really nice of you to give everybody in those tubes such pretty titties. But, like, couldn’t you have asked them first? There’s lotsa people who would LOVE to get all cow’d up like that! I know I woulda. Nabbing people off the streets is pretty mean. You might be afraid of the other Zai-boats or whatever, but that’s no excuse for rudeness! Just ask nicely! Oh, and you should let go anybody who wants to stop bein’ a cow. I dunno who would want that, but there might be one? Oh, and you should pay them too. It’s only fair!”</i> You nod, proud of yourself for stringing so many words together and not messing up even once.",
     "translation": "",
-    "context": "<<POS:06762692>>"
+    "context": "<<POS:06762696>>"
   },
   {
-    "key": "output|n_n_i_I_understand_your_zaibatsu_is_at_war_with_the_others_I|05cfd817cd1e",
-    "original": "\\n\\n<i>“I understand your zaibatsu is at war with the others. I’ve seen a lot of crazy stuff out on the streets and in the factory up above. The whole galaxy came knocking at your doorstep and it looks like everything around you is coming to an end. But your company makes food and medicine! You’re not churning out guns or prostitutes. You have a chance to really be a positive force for Dhaal. And while that may not be very scientifically interesting, it’s the best way to make sure the rest of the galaxy doesn’t grow to despise your people. You should release everyone in those tubes, put them back the way you found them, pay them a recompense for their troubles. And then open your testing to VOLUNTEERS! There are so many people in this galaxy who would love to be a part of what you do. Just because it’s high science, doesn’t mean it has to be mad science.”</i>",
+    "key": "output|i_I_understand_your_zaibatsu_is_at_war_with_the_others_I_ve_s|b2e559e895f9",
+    "original": "<i>“I understand your zaibatsu is at war with the others. I’ve seen a lot of crazy stuff out on the streets and in the factory up above. The whole galaxy came knocking at your doorstep and it looks like everything around you is coming to an end. But your company makes food and medicine! You’re not churning out guns or prostitutes. You have a chance to really be a positive force for Dhaal. And while that may not be very scientifically interesting, it’s the best way to make sure the rest of the galaxy doesn’t grow to despise your people. You should release everyone in those tubes, put them back the way you found them, pay them a recompense for their troubles. And then open your testing to VOLUNTEERS! There are so many people in this galaxy who would love to be a part of what you do. Just because it’s high science, doesn’t mean it has to be mad science.”</i>",
     "translation": "",
-    "context": "<<POS:06763423>>"
+    "context": "<<POS:06763427>>"
   },
   {
-    "key": "output|n_n_i_Alright_listen_Your_kind_love_milk_That_s_rad_And_yo|beb24f158f1f",
-    "original": "\\n\\n<i>“Alright, listen. Your kind love milk. That’s rad. And you like using people like they’re big test tubes. Kinky, but whatever. But hey, you know what makes the medicine go down so so good? Starts with a C and ends with a T and I’m not talking about your egg-slit. Just fuckin’ ASK FOR VOLUNTEERS, ya nerd. You know how many people would be coming from all over the galaxy just to get some free mods? Just look at New Texas. It’s kind of their whole thing and they only export two things: milk and people who look good in cowboy hats. You’re doing a whole ‘villain’ thing down here, but you really, REALLY don’t have to. Let your current crop of chem-cows go with a generous severance package and just put out a casting call. You’d be surprised how quick your couch fills up with people who get off on being lab rats. Hell, there are actual rat-people out there who’ll probably enjoy the roleplay! Just, like, cut out the evil stuff, lady. You’re on the galactic stage now, and that is one place you really don’t want to get booed off of!”</i>",
+    "key": "output|i_Alright_listen_Your_kind_love_milk_That_s_rad_And_you_li|39fa6867bdee",
+    "original": "<i>“Alright, listen. Your kind love milk. That’s rad. And you like using people like they’re big test tubes. Kinky, but whatever. But hey, you know what makes the medicine go down so so good? Starts with a C and ends with a T and I’m not talking about your egg-slit. Just fuckin’ ASK FOR VOLUNTEERS, ya nerd. You know how many people would be coming from all over the galaxy just to get some free mods? Just look at New Texas. It’s kind of their whole thing and they only export two things: milk and people who look good in cowboy hats. You’re doing a whole ‘villain’ thing down here, but you really, REALLY don’t have to. Let your current crop of chem-cows go with a generous severance package and just put out a casting call. You’d be surprised how quick your couch fills up with people who get off on being lab rats. Hell, there are actual rat-people out there who’ll probably enjoy the roleplay! Just, like, cut out the evil stuff, lady. You’re on the galactic stage now, and that is one place you really don’t want to get booed off of!”</i>",
     "translation": "",
-    "context": "<<POS:06764324>>"
+    "context": "<<POS:06764328>>"
   },
   {
-    "key": "output|n_n_i_We_made_a_deal_and_I_m_not_going_to_welch_on_it_Your_di|dabd9cdef708",
-    "original": "\\n\\n<i>“We made a deal and I’m not going to welch on it. Your dirty little secrets down here are safe enough. But I just have to take a minute to call you a fucking idiot right to your face. This kidnapping and cow-ification of randos? It’s amateur hour. It’s clown shoes. It’s bush league. There’s a huge fuckin’ galaxy out there, and if they catch wind of your playbook, you’re done. Harru’s done. Your whole corporation’s done. And the worst part? You COULD just be paying the bitches in your tubes and you wouldn’t have to keep it underground. Your zaibatsu is a big fish in a small pond and the sharks are at your doorstep. Let the chem-cows go with enough credits in their pocket to make them think they signed up all along and then just go fishing for proper volunteers. It ain’t hard, if you’re not too fucking proud to recognize your own fuck-ups for what they are.”</i>",
+    "key": "output|i_We_made_a_deal_and_I_m_not_going_to_welch_on_it_Your_dirty|3299f16ba8e3",
+    "original": "<i>“We made a deal and I’m not going to welch on it. Your dirty little secrets down here are safe enough. But I just have to take a minute to call you a fucking idiot right to your face. This kidnapping and cow-ification of randos? It’s amateur hour. It’s clown shoes. It’s bush league. There’s a huge fuckin’ galaxy out there, and if they catch wind of your playbook, you’re done. Harru’s done. Your whole corporation’s done. And the worst part? You COULD just be paying the bitches in your tubes and you wouldn’t have to keep it underground. Your zaibatsu is a big fish in a small pond and the sharks are at your doorstep. Let the chem-cows go with enough credits in their pocket to make them think they signed up all along and then just go fishing for proper volunteers. It ain’t hard, if you’re not too fucking proud to recognize your own fuck-ups for what they are.”</i>",
     "translation": "",
-    "context": "<<POS:06765396>>"
+    "context": "<<POS:06765400>>"
   },
   {
-    "key": "output|n_nJaqui_Fassbin_listens_attentively_and_when_you_re_done_she|afaf6280fa3a",
-    "original": "\\n\\nJaqui Fassbin listens attentively, and when you’re done she nods. <i>“I will consider your suggestions,”</i> she replies, quite plainly. <i>“You make a number of valid points that ought to be weighed accordingly.”</i>\\n\\n<i>“What, just like that?”</i> you ask, in no small measure of disbelief.\\n\\n<i>“Well, what kind of scientist would I be if I ignored my test subjects?”</i> She shrugs. <i>“But for now, I think you should be on your way. We shall see what becomes of Bright Water afterwards. Farewell, Captain Steele.”</i>\\n\\nIt feels weird getting well-wishes from a mad monster like Maven Fassbin, but you take it and head out, Harru leading the way. It’d be great if things on Dhaal change, but you doubt it’s going to happen overnight. And anyway, you’ve been gone for a few days. You should make sure Feruze is alright.\\n\\nOh, and your cousin.\\n\\nYou guess.",
+    "key": "output|Jaqui_Fassbin_listens_attentively_and_when_you_re_done_she_nods|1570428e7196",
+    "original": "Jaqui Fassbin listens attentively, and when you’re done she nods. <i>“I will consider your suggestions,”</i> she replies, quite plainly. <i>“You make a number of valid points that ought to be weighed accordingly.”</i>\\n\\n<i>“What, just like that?”</i> you ask, in no small measure of disbelief.\\n\\n<i>“Well, what kind of scientist would I be if I ignored my test subjects?”</i> She shrugs. <i>“But for now, I think you should be on your way. We shall see what becomes of Bright Water afterwards. Farewell, Captain Steele.”</i>\\n\\nIt feels weird getting well-wishes from a mad monster like Maven Fassbin, but you take it and head out, Harru leading the way. It’d be great if things on Dhaal change, but you doubt it’s going to happen overnight. And anyway, you’ve been gone for a few days. You should make sure Feruze is alright.\\n\\nOh, and your cousin.\\n\\nYou guess.",
     "translation": "",
-    "context": "<<POS:06766286>>"
+    "context": "<<POS:06766290>>"
   },
   {
     "key": "button|Next|fa9ce39a4f73",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06767184>>"
+    "context": "<<POS:06767184>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "button|Leave|624c4177527d",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:06767283>>"
+    "context": "<<POS:06767283>> addButton(14,\"Leave\",mainGameMenu)"
   },
   {
     "key": "button.text|Fluid_Filling|8879aa76dcd8",
@@ -1218,16 +1746,16 @@
     "context": "<<POS:06767984>>"
   },
   {
-    "key": "output|n_nYou_re_pretty_fluid_filled_already_You_ask_if_that_s_going|910f64afd13d",
-    "original": "\\n\\nYou’re pretty fluid-filled already. You ask if that’s going to be a problem. Your big booty lab tech stares blankly at your chest for a minute, her glasses slowly fogging up. You snap your fingers to get her attention. <i>“Oh! Um, uh, n- no no. That’s... that’s okay. It’ll save us a step or two, actually. It’s good. It’s... good...”</i> She zones out again and you shake your head. Well anyway, you could use a good milking right about now, so might as well get on with it.",
+    "key": "output|You_re_pretty_fluid_filled_already_You_ask_if_that_s_going_to_b|3be9990276f1",
+    "original": "You’re pretty fluid-filled already. You ask if that’s going to be a problem. Your big booty lab tech stares blankly at your chest for a minute, her glasses slowly fogging up. You snap your fingers to get her attention. <i>“Oh! Um, uh, n- no no. That’s... that’s okay. It’ll save us a step or two, actually. It’s good. It’s... good...”</i> She zones out again and you shake your head. Well anyway, you could use a good milking right about now, so might as well get on with it.",
     "translation": "",
-    "context": "<<POS:06768873>>"
+    "context": "<<POS:06768877>>"
   },
   {
-    "key": "output|n_nHarru_gathers_herself_and_reviews_her_clipboard_i_First|4593fc680b44",
-    "original": "\\n\\nHarru gathers herself, and reviews her clipboard. <i>“First thing’s first: zaika skin has an elasticizing agent that makes breast growth less taxing. We wouldn’t want stretch marks ",
+    "key": "output|Harru_gathers_herself_and_reviews_her_clipboard_i_First_thin|64bac95e757f",
+    "original": "Harru gathers herself, and reviews her clipboard. <i>“First thing’s first: zaika skin has an elasticizing agent that makes breast growth less taxing. We wouldn’t want stretch marks ",
     "translation": "",
-    "context": "<<POS:06769363>>"
+    "context": "<<POS:06769367>>"
   },
   {
     "key": "output|on_that_pc_skinFurScales_of_yours|1b9e2d93293a",
@@ -1254,28 +1782,28 @@
     "context": "<<POS:06769873>>"
   },
   {
-    "key": "output|n_nYou_can_t_help_but_smile_i_Just_watch_i_You_take_the|99e7a222bb94",
-    "original": "\\n\\nYou can’t help but smile. <i>“Just watch.”</i> You take the cup from her and crane your head back. One by one, you drop the pills into your salivating maw and swallow them with exaggerated gulps that send a visible lump traveling down your throat. Harru’s eyebrows arch higher and higher as you put on your oral expertise demonstration and by the end her glasses are all fogged up. You hand her back the cup and lick your lips suggestively.",
+    "key": "output|You_can_t_help_but_smile_i_Just_watch_i_You_take_the_cup|07649d22247c",
+    "original": "You can’t help but smile. <i>“Just watch.”</i> You take the cup from her and crane your head back. One by one, you drop the pills into your salivating maw and swallow them with exaggerated gulps that send a visible lump traveling down your throat. Harru’s eyebrows arch higher and higher as you put on your oral expertise demonstration and by the end her glasses are all fogged up. You hand her back the cup and lick your lips suggestively.",
     "translation": "",
-    "context": "<<POS:06771255>>"
+    "context": "<<POS:06771259>>"
   },
   {
-    "key": "output|n_n_i_Well_you_know_what_they_say_a_cup_of_cum_helps_the_med|21bd44c05cde",
-    "original": "\\n\\n<i>“Well, you know what they say: a cup of cum helps the medicine go down!”</i> You wink suggestively at the girl. It takes Harru a moment to understand your implication. She blushes so hard you think she might pass out, but dutifully, the girl goes behind a privacy screen with the cup. You can hear some soft moans and more than a couple self-inflicted booty-slaps before she emerges, flustered and breathless. She’s down a cup-size and your pills are floating in an alabaster lake of yogurt-thick spunk. <i>“Thanks!”</i> you offer, snatching the cup from her and downing it all in a single gulp. <i>“Yummy! Vanilla-flavored!”</i> you cheer. A look of shock passes across your assistant’s face, her breasts slowly refilling at the sight.",
+    "key": "output|i_Well_you_know_what_they_say_a_cup_of_cum_helps_the_medicin|9f43775c89d0",
+    "original": "<i>“Well, you know what they say: a cup of cum helps the medicine go down!”</i> You wink suggestively at the girl. It takes Harru a moment to understand your implication. She blushes so hard you think she might pass out, but dutifully, the girl goes behind a privacy screen with the cup. You can hear some soft moans and more than a couple self-inflicted booty-slaps before she emerges, flustered and breathless. She’s down a cup-size and your pills are floating in an alabaster lake of yogurt-thick spunk. <i>“Thanks!”</i> you offer, snatching the cup from her and downing it all in a single gulp. <i>“Yummy! Vanilla-flavored!”</i> you cheer. A look of shock passes across your assistant’s face, her breasts slowly refilling at the sight.",
     "translation": "",
-    "context": "<<POS:06771751>>"
+    "context": "<<POS:06771755>>"
   },
   {
-    "key": "output|n_n_i_Some_water_maybe_i_you_suggest_eyeballing_the_exte|654c9bfdd34f",
-    "original": "\\n\\n<i>“Some water, maybe?”</i> you suggest, eyeballing the extensive cocktail she’s prepared. The zaika retrieves a cold glass for you and, one by one, you force the pills down. It’s not terribly pleasant, but not every part of mad science can be sexy, you suppose.",
+    "key": "output|i_Some_water_maybe_i_you_suggest_eyeballing_the_extensiv|c98908374320",
+    "original": "<i>“Some water, maybe?”</i> you suggest, eyeballing the extensive cocktail she’s prepared. The zaika retrieves a cold glass for you and, one by one, you force the pills down. It’s not terribly pleasant, but not every part of mad science can be sexy, you suppose.",
     "translation": "",
-    "context": "<<POS:06772505>>"
+    "context": "<<POS:06772509>>"
   },
   {
-    "key": "output|n_nThe_bootyful_pill_pusher_makes_a_checkmark_on_her_clipboard|4ca4a6b53645",
-    "original": "\\n\\nThe bootyful pill pusher makes a checkmark on her clipboard. <i>“Okay, the next step is... oh.”</i> She bites her lip nervously. <i>“Stimulation.”</i> She sets her paperwork to one side and closes her eyes with a huff of determination. Turning around, she flips up her skirt and wiggles her recently-enhanced pattycakes. <i>“P-please pay attention,”</i> she commands with a shaky voice.\\n\\nObviously inexperienced with her ballooned assets, the bottom-heavy girl’s titillating show is sadly pretty embarrassing. You stop her aimless wiggling with a sigh and just beckon her over. <i>“Lean over,”</i> you suggest. Confused, she does so, proffering her squishy moonpie to you.\\n\\nYou stretch your arms wide to grab hold of her flanks and lunge forward, burying your face between her booty scriptures. She gasps and squirms, but you continue motor-butting the girl’s ham hocks with the proficiency of a crevasse connoisseur. The girth of her fat clappers puts pillowy pressure on your face to such an extent that all your senses are compressed into a vision of endless waves of jiggling purple. Her tail reflexively winds down, rubbing up against the back of your head, as if coaxing you deeper into her warm, pudding-thick embrace.\\n\\n<i>“So, how long will this take to-”</i> she asks from above, her words floating down to you through the earmuffs you’ve made of her dump truck ass. Come to think of it, you are starting to feel something. A blossom of warmth sprouts in your [pc.chest] and you have to pull back from Harru’s lavishly thick face-helmet to catch your breath. A muscular spasm shoots through your upper body, jerking your spine straight as a pillar and leaving your fingertips tingling.\\n\\n<i>“O- oh, that fast? Um, maybe you should sit down,”</i> the purple girl suggests, guiding you to a milking station.",
+    "key": "output|The_bootyful_pill_pusher_makes_a_checkmark_on_her_clipboard_i|2ada4f608823",
+    "original": "The bootyful pill pusher makes a checkmark on her clipboard. <i>“Okay, the next step is... oh.”</i> She bites her lip nervously. <i>“Stimulation.”</i> She sets her paperwork to one side and closes her eyes with a huff of determination. Turning around, she flips up her skirt and wiggles her recently-enhanced pattycakes. <i>“P-please pay attention,”</i> she commands with a shaky voice.\\n\\nObviously inexperienced with her ballooned assets, the bottom-heavy girl’s titillating show is sadly pretty embarrassing. You stop her aimless wiggling with a sigh and just beckon her over. <i>“Lean over,”</i> you suggest. Confused, she does so, proffering her squishy moonpie to you.\\n\\nYou stretch your arms wide to grab hold of her flanks and lunge forward, burying your face between her booty scriptures. She gasps and squirms, but you continue motor-butting the girl’s ham hocks with the proficiency of a crevasse connoisseur. The girth of her fat clappers puts pillowy pressure on your face to such an extent that all your senses are compressed into a vision of endless waves of jiggling purple. Her tail reflexively winds down, rubbing up against the back of your head, as if coaxing you deeper into her warm, pudding-thick embrace.\\n\\n<i>“So, how long will this take to-”</i> she asks from above, her words floating down to you through the earmuffs you’ve made of her dump truck ass. Come to think of it, you are starting to feel something. A blossom of warmth sprouts in your [pc.chest] and you have to pull back from Harru’s lavishly thick face-helmet to catch your breath. A muscular spasm shoots through your upper body, jerking your spine straight as a pillar and leaving your fingertips tingling.\\n\\n<i>“O- oh, that fast? Um, maybe you should sit down,”</i> the purple girl suggests, guiding you to a milking station.",
     "translation": "",
-    "context": "<<POS:06772782>>"
+    "context": "<<POS:06772786>>"
   },
   {
     "key": "output|You_rest_your_lower_body_on_the_broad_cushioned_divan|d3c757cb56b9",
@@ -1302,33 +1830,33 @@
     "context": "<<POS:06774855>>"
   },
   {
-    "key": "output|n_nAs_if_on_cue_the_blossom_in_your_perfectly_flat_chest_bloom|b161d26258a1",
-    "original": "\\n\\nAs if on cue, the blossom in your perfectly flat chest blooms in a wave of heat and breathless pressure. You grab at your pectorals and before your eyes, a rush of flesh meets your palms. The taut, forward momentum rapidly fills the space between your fingers and pushes ever further forward. You wince and gasp at the sensation, bending under the heaviness that floods your upper torso. You can’t help but gasp as a general feeling of wobbliness floods your body.\\n\\n<i>“Don’t worry, that’s to be expected,”</i> your aide comforts, nodding encouragingly and making several ticks on her checklist.",
+    "key": "output|As_if_on_cue_the_blossom_in_your_perfectly_flat_chest_blooms_in|d8d68b35f8f5",
+    "original": "As if on cue, the blossom in your perfectly flat chest blooms in a wave of heat and breathless pressure. You grab at your pectorals and before your eyes, a rush of flesh meets your palms. The taut, forward momentum rapidly fills the space between your fingers and pushes ever further forward. You wince and gasp at the sensation, bending under the heaviness that floods your upper torso. You can’t help but gasp as a general feeling of wobbliness floods your body.\\n\\n<i>“Don’t worry, that’s to be expected,”</i> your aide comforts, nodding encouragingly and making several ticks on her checklist.",
     "translation": "",
-    "context": "<<POS:06775074>>"
+    "context": "<<POS:06775078>>"
   },
   {
-    "key": "output|n_nWhile_you_shift_uncomfortably_in_your_seat_another_blooming|3f8f4c746422",
-    "original": "\\n\\nWhile you shift uncomfortably in your seat, another blooming heat rises in your chest. But this time, it’s slightly lower than the first. Due to your topless dress code, both you and your zaika helper have a front-row seat to a second pair of breasts sprouting just below your first. [pc.Nipples \".concat(n,\"] poke out from your [pc.skinFurScales]. Gentle hills rise behind them, filling out your doubled bosom with startling speed. Tears of sensitivity well in the corners of your eyes, while your jaw tightens at the rush of pleasure surging within your mammaries.\\n\\nHarru’s big, round glasses drop to the tip of her nose and she looks on in slack-jawed shock. <i>“Th- that’s not supposed to happen!”</i> She blinks rapidly and pushes her glasses back up, scribbling furiously on her clipboard. <i>“Was this line supposed to be TAGC or TCGA? Shoot!”</i>\")",
+    "key": "output|While_you_shift_uncomfortably_in_your_seat_another_blooming_hea|5ab3d0e12aef",
+    "original": "While you shift uncomfortably in your seat, another blooming heat rises in your chest. But this time, it’s slightly lower than the first. Due to your topless dress code, both you and your zaika helper have a front-row seat to a second pair of breasts sprouting just below your first. [pc.Nipples \".concat(n,\"] poke out from your [pc.skinFurScales]. Gentle hills rise behind them, filling out your doubled bosom with startling speed. Tears of sensitivity well in the corners of your eyes, while your jaw tightens at the rush of pleasure surging within your mammaries.\\n\\nHarru’s big, round glasses drop to the tip of her nose and she looks on in slack-jawed shock. <i>“Th- that’s not supposed to happen!”</i> She blinks rapidly and pushes her glasses back up, scribbling furiously on her clipboard. <i>“Was this line supposed to be TAGC or TCGA? Shoot!”</i>\")",
     "translation": "",
-    "context": "<<POS:06775760>>"
+    "context": "<<POS:06775764>>"
   },
   {
-    "key": "output|n_nYour_smallish_breasts_concat_t_1_continue_to_grow|382686900778",
-    "original": "\\n\\nYour smallish breasts\".concat(t<1?\" continue to\":\"\",\" grow, completely out of control. The softball-sized orbs heaving in shuddering lurches, gaining mass while also filling with an inner pressure. The fluid-swelling weight on your chest gets so intense that you simply can’t keep your hands off of your nipples. Tugging and kneading the tender buds between your trembling digits almost immediately produces a rush of milky rivulets that run down your hands and over your volleyball-sized breasts. [pc.MilkColor] streams pour down with every touch and it’s all you can do to move your fingers from one set of udders to the next, trying to tap the copious kegs that just keep filling up!\\n\\n<i>“O-okay, don’t worry. The growth is a LITTLE bit faster than expected, but it’s all within parameters. Kind of. Sort of.”</i> Harru seems flustered, but her own expanding bust line suggests that she’s perfectly okay with some unexpected speed.\")",
+    "key": "output|Your_smallish_breasts_concat_t_1_continue_to_grow_comp|f5da81b2ac9c",
+    "original": "Your smallish breasts\".concat(t<1?\" continue to\":\"\",\" grow, completely out of control. The softball-sized orbs heaving in shuddering lurches, gaining mass while also filling with an inner pressure. The fluid-swelling weight on your chest gets so intense that you simply can’t keep your hands off of your nipples. Tugging and kneading the tender buds between your trembling digits almost immediately produces a rush of milky rivulets that run down your hands and over your volleyball-sized breasts. [pc.MilkColor] streams pour down with every touch and it’s all you can do to move your fingers from one set of udders to the next, trying to tap the copious kegs that just keep filling up!\\n\\n<i>“O-okay, don’t worry. The growth is a LITTLE bit faster than expected, but it’s all within parameters. Kind of. Sort of.”</i> Harru seems flustered, but her own expanding bust line suggests that she’s perfectly okay with some unexpected speed.\")",
     "translation": "",
-    "context": "<<POS:06776637>>"
+    "context": "<<POS:06776641>>"
   },
   {
-    "key": "output|n_nYour_hefty_melons_are_already_nearly_the_size_of_your_head_a|8cdc4b322802",
-    "original": "\\n\\nYour hefty melons are already nearly the size of your head and the arousal-induced growth seems intent on seeing them far, FAR larger. You fill your hands with the supple mass of your milk tanks, squeezing your teats tightly with every gasping breath. Your [pc.nipples] respond by squirting thickening arcs of warm cream into the air, several feet away. Though the self-milking should be giving you some sort of relief from the feeling of bloating fullness growing inside you, it feels like every spurting spray is replaced by twice as much when you take your next, deep breath. Your volleyballs grow to the size of basketballs and keep going as their lactic bounty just keeps multiplying.\\n\\nThe sole zaika in the room with you backs away, nervous. <i>“Oh oh oh... oh geez. U- um, we’re at the- the hypothetical upper bounds. Really shouldn’t be filling past-”</i> One of your milky sprays splashes her in the face, knocking her train of thought off the tracks. She tries rubbing the milk from her oversized glasses with one hand and make notes with the other, but the fact that her own breasts have grown to double D-cups tells you all you need to know about Harru’s state of mind.",
+    "key": "output|Your_hefty_melons_are_already_nearly_the_size_of_your_head_and_t|6f2eb54e33bf",
+    "original": "Your hefty melons are already nearly the size of your head and the arousal-induced growth seems intent on seeing them far, FAR larger. You fill your hands with the supple mass of your milk tanks, squeezing your teats tightly with every gasping breath. Your [pc.nipples] respond by squirting thickening arcs of warm cream into the air, several feet away. Though the self-milking should be giving you some sort of relief from the feeling of bloating fullness growing inside you, it feels like every spurting spray is replaced by twice as much when you take your next, deep breath. Your volleyballs grow to the size of basketballs and keep going as their lactic bounty just keeps multiplying.\\n\\nThe sole zaika in the room with you backs away, nervous. <i>“Oh oh oh... oh geez. U- um, we’re at the- the hypothetical upper bounds. Really shouldn’t be filling past-”</i> One of your milky sprays splashes her in the face, knocking her train of thought off the tracks. She tries rubbing the milk from her oversized glasses with one hand and make notes with the other, but the fact that her own breasts have grown to double D-cups tells you all you need to know about Harru’s state of mind.",
     "translation": "",
-    "context": "<<POS:06777594>>"
+    "context": "<<POS:06777598>>"
   },
   {
-    "key": "output|n_nYour_breasts_are_already_so_luscious_it_s_hard_to_imagine_t|e32c7fbdb393",
-    "original": "\\n\\nYour breasts are already so luscious, it’s hard to imagine them getting any bigger, but the milk flow just isn’t stopping. The elasticizing treatment you received earlier is getting put to the test as your jelly jugs balloon out of control. You’re forced to lean back as your nipple nog just keeps coming. Beads of sweat line your forehead and the peaks of your rotund beachballs from the sheer, heated pleasure of the inflation. You can barely reach your own nipples anymore, but it hardly matters: every inch of your positively-bovine tits is just as sensitive as your teats and they just won’t stop growing!",
+    "key": "output|Your_breasts_are_already_so_luscious_it_s_hard_to_imagine_them|b50168392ac6",
+    "original": "Your breasts are already so luscious, it’s hard to imagine them getting any bigger, but the milk flow just isn’t stopping. The elasticizing treatment you received earlier is getting put to the test as your jelly jugs balloon out of control. You’re forced to lean back as your nipple nog just keeps coming. Beads of sweat line your forehead and the peaks of your rotund beachballs from the sheer, heated pleasure of the inflation. You can barely reach your own nipples anymore, but it hardly matters: every inch of your positively-bovine tits is just as sensitive as your teats and they just won’t stop growing!",
     "translation": "",
-    "context": "<<POS:06778792>>"
+    "context": "<<POS:06778796>>"
   }
 ]

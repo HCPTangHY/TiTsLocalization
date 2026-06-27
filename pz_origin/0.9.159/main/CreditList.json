@@ -3,18 +3,30 @@
     "key": "button|Back|6f47528e7483",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:17783546>>"
+    "context": "<<POS:17783546>> addButton(4,\"Back\",(function(){return t.returnToArtGallery()}))"
   },
   {
     "key": "button|Back|8377b4609270",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:17783884>>"
+    "context": "<<POS:17783884>> addButton(4,\"Back\",(function(){return window.popUIState()}))"
   },
   {
     "key": "button|Lock_Image|e73065daba30",
     "original": "Lock Image",
     "translation": "",
-    "context": "<<POS:17785488>>"
+    "context": "<<POS:17785488>> addButton(2,\"Lock Image\",(function(){setButtonState(2,!1),window.removeDialog(),window.showDialog(El.iM.OPTIONS,'<span class=\"icon color-bad\">'.concat(svgIcon(\"warning\"),'</span> Lock Image <span class=\"icon color-bad\">').concat(svgIcon(\"warning\"),\"</span>\"),ParseText(\"This will reset the unlocked s..."
+  },
+  {
+    "key": "button.hover|Lock_Image|e73065daba30",
+    "original": "Lock Image",
+    "translation": "",
+    "context": "<<POS:17786447>> addButton(2,\"Lock Image\",(function(){setButtonState(2,!1),window.removeDialog(),window.showDialog(El.iM.OPTIONS,'<span class=\"icon color-bad\">'.concat(svgIcon(\"warning\"),'</span> Lock Image <span class=\"icon color-bad\">').concat(svgIcon(\"warning\"),\"</span>\"),ParseText(\"This will reset the unlocked s..."
+  },
+  {
+    "key": "button.tooltip|Lock_the_art_for|79035bf9ebc8",
+    "original": "Lock the art for ",
+    "translation": "",
+    "context": "<<POS:17786460>> addButton(2,\"Lock Image\",(function(){setButtonState(2,!1),window.removeDialog(),window.showDialog(El.iM.OPTIONS,'<span class=\"icon color-bad\">'.concat(svgIcon(\"warning\"),'</span> Lock Image <span class=\"icon color-bad\">').concat(svgIcon(\"warning\"),\"</span>\"),ParseText(\"This will reset the unlocked s..."
   }
 ]

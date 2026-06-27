@@ -15,64 +15,130 @@
     "key": "button|Eat_it|f41b01031b4a",
     "original": "Eat it",
     "translation": "",
-    "context": "<<POS:08102433>>"
+    "context": "<<POS:08102433>> addButton(0,\"Eat it\",(function(){return t.eatIt(e)}),\"Eat it\",\"This is supposed to make some part of your body less lubricated - if it’ll work at all.\")"
   },
   {
-    "key": "button|Vaginally|c984967b87be",
+    "key": "button.hover|Eat_it|f41b01031b4a",
+    "original": "Eat it",
+    "translation": "",
+    "context": "<<POS:08102474>> addButton(0,\"Eat it\",(function(){return t.eatIt(e)}),\"Eat it\",\"This is supposed to make some part of your body less lubricated - if it’ll work at all.\")"
+  },
+  {
+    "key": "button.tooltip|This_is_supposed_to_make_some_part_of_your_body_less_lubricated|ec68856f79ad",
+    "original": "This is supposed to make some part of your body less lubricated - if it’ll work at all.",
+    "translation": "",
+    "context": "<<POS:08102483>> addButton(0,\"Eat it\",(function(){return t.eatIt(e)}),\"Eat it\",\"This is supposed to make some part of your body less lubricated - if it’ll work at all.\")"
+  },
+  {
+    "key": "button|Vaginally|111130ad4923",
     "original": "Vaginally",
     "translation": "",
-    "context": "<<POS:08102734>>"
+    "context": "<<POS:08102734>> addButton(1,\"Vaginally\",(function(){return t.insertVaginaMenu(e)}),\"Insert Vaginally\",\"This is supposed to make your muff less slick.\")"
   },
   {
-    "key": "button|Vaginally|c6b3ae8041e7",
+    "key": "button.hover|Insert_Vaginally|a9fd9181cbe5",
+    "original": "Insert Vaginally",
+    "translation": "",
+    "context": "<<POS:08102789>> addButton(1,\"Vaginally\",(function(){return t.insertVaginaMenu(e)}),\"Insert Vaginally\",\"This is supposed to make your muff less slick.\")"
+  },
+  {
+    "key": "button.tooltip|This_is_supposed_to_make_your_muff_less_slick|65eecc3facd6",
+    "original": "This is supposed to make your muff less slick.",
+    "translation": "",
+    "context": "<<POS:08102808>> addButton(1,\"Vaginally\",(function(){return t.insertVaginaMenu(e)}),\"Insert Vaginally\",\"This is supposed to make your muff less slick.\")"
+  },
+  {
+    "key": "button|Vaginally|dcb612e3fdbb",
     "original": "Vaginally",
     "translation": "",
-    "context": "<<POS:08102878>>"
+    "context": "<<POS:08102878>> addDisabledButton(1,\"Vaginally\",\"Insert Vaginally\",\"Your muff is already dry!\")"
   },
   {
-    "key": "button|Vaginally|c6b3ae8041e7#1",
+    "key": "button.hover|Your_muff_is_already_dry|9aa4f78ce5a0",
+    "original": "Your muff is already dry!",
+    "translation": "",
+    "context": "<<POS:08102909>> addDisabledButton(1,\"Vaginally\",\"Insert Vaginally\",\"Your muff is already dry!\")"
+  },
+  {
+    "key": "button|Vaginally|e1f8a7b53c6f",
     "original": "Vaginally",
     "translation": "",
-    "context": "<<POS:08102982>>"
+    "context": "<<POS:08102982>> addButton(1,\"Vaginally\",(function(){return t.insertVaginaMenu(e)}),\"Insert Vaginally\",\"This is supposed to make your muff less slick.\")"
   },
   {
-    "key": "button|Vaginally|c6b3ae8041e7#2",
+    "key": "button.hover|Insert_Vaginally|80ca5cb5c9ca",
+    "original": "Insert Vaginally",
+    "translation": "",
+    "context": "<<POS:08103037>> addButton(1,\"Vaginally\",(function(){return t.insertVaginaMenu(e)}),\"Insert Vaginally\",\"This is supposed to make your muff less slick.\")"
+  },
+  {
+    "key": "button.tooltip|This_is_supposed_to_make_your_muff_less_slick|27b0c760ee8b",
+    "original": "This is supposed to make your muff less slick.",
+    "translation": "",
+    "context": "<<POS:08103056>> addButton(1,\"Vaginally\",(function(){return t.insertVaginaMenu(e)}),\"Insert Vaginally\",\"This is supposed to make your muff less slick.\")"
+  },
+  {
+    "key": "button|Vaginally|dcb612e3fdbb#1",
     "original": "Vaginally",
     "translation": "",
-    "context": "<<POS:08103126>>"
+    "context": "<<POS:08103126>> addDisabledButton(1,\"Vaginally\",\"Insert Vaginally\",\"Your muffs are all already dry!\")"
   },
   {
-    "key": "button|Vaginally|c6b3ae8041e7#3",
+    "key": "button.hover|Your_muffs_are_all_already_dry|a08c63c81d30",
+    "original": "Your muffs are all already dry!",
+    "translation": "",
+    "context": "<<POS:08103157>> addDisabledButton(1,\"Vaginally\",\"Insert Vaginally\",\"Your muffs are all already dry!\")"
+  },
+  {
+    "key": "button|Vaginally|1ef54a9b7001",
     "original": "Vaginally",
     "translation": "",
-    "context": "<<POS:08103212>>"
+    "context": "<<POS:08103212>> addDisabledButton(1,\"Vaginally\",\"Insert Vaginally\",\"You do not have a vagina to insert it into!\")"
   },
   {
-    "key": "button|Anally|b32764c204ca",
+    "key": "button.hover|You_do_not_have_a_vagina_to_insert_it_into|4ad54388d5b5",
+    "original": "You do not have a vagina to insert it into!",
+    "translation": "",
+    "context": "<<POS:08103243>> addDisabledButton(1,\"Vaginally\",\"Insert Vaginally\",\"You do not have a vagina to insert it into!\")"
+  },
+  {
+    "key": "button|Anally|7c7c2b082065",
     "original": "Anally",
     "translation": "",
-    "context": "<<POS:08103302>>"
+    "context": "<<POS:08103302>> addButton(2,\"Anally\",(function(){return t.insertAnal(e)}),\"Insert Anally\",\"This is supposed make your butthole less wet.\")"
   },
   {
-    "key": "output|n_nConsidering_the_fact_that_most_of_your_body_is_made_out_of_a|80a44815487e",
-    "original": "\\n\\nConsidering the fact that most of your body is made out of a slick gooey mass, odds are that the Dry Spell won’t affect it. You probably shouldn’t risk trying either. This is a <b>Jéjune</b> product after all!",
+    "key": "button.hover|Insert_Anally|11335c20bd71",
+    "original": "Insert Anally",
     "translation": "",
-    "context": "<<POS:08103851>>"
+    "context": "<<POS:08103348>> addButton(2,\"Anally\",(function(){return t.insertAnal(e)}),\"Insert Anally\",\"This is supposed make your butthole less wet.\")"
+  },
+  {
+    "key": "button.tooltip|This_is_supposed_make_your_butthole_less_wet|68e3730d9d58",
+    "original": "This is supposed make your butthole less wet.",
+    "translation": "",
+    "context": "<<POS:08103364>> addButton(2,\"Anally\",(function(){return t.insertAnal(e)}),\"Insert Anally\",\"This is supposed make your butthole less wet.\")"
+  },
+  {
+    "key": "output|Considering_the_fact_that_most_of_your_body_is_made_out_of_a_sli|9a4633ef8361",
+    "original": "Considering the fact that most of your body is made out of a slick gooey mass, odds are that the Dry Spell won’t affect it. You probably shouldn’t risk trying either. This is a <b>Jéjune</b> product after all!",
+    "translation": "",
+    "context": "<<POS:08103855>>"
   },
   {
     "key": "button|Next|324e78a7066f",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08104125>>"
+    "context": "<<POS:08104125>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
-    "key": "output|n_nYou_take_the_Dry_Spell_out_of_the_package_and|5b68d38d2899",
-    "original": "\\n\\nYou take the Dry Spell out of the package and",
+    "key": "output|You_take_the_Dry_Spell_out_of_the_package_and|1fa82cbfe01c",
+    "original": "You take the Dry Spell out of the package and",
     "translation": "",
-    "context": "<<POS:08104159>>"
+    "context": "<<POS:08104163>>"
   },
   {
-    "key": "output|b_EAT_IT_b|7b3c42f02b2a",
+    "key": "output|b_EAT_IT_b|91a22db894e3",
     "original": " <b>EAT IT!!!</b>",
     "translation": "",
     "context": "<<POS:08104240>>"
@@ -114,10 +180,10 @@
     "context": "<<POS:08104896>>"
   },
   {
-    "key": "output|n_nAfter_waiting_for_a_while_you_realize_nothing_s_gonna_happen|ef2930105365",
-    "original": "\\n\\nAfter waiting for a while you realize nothing’s gonna happen. Looks like it was a dud.",
+    "key": "output|After_waiting_for_a_while_you_realize_nothing_s_gonna_happen_Lo|8a245eca91c4",
+    "original": "After waiting for a while you realize nothing’s gonna happen. Looks like it was a dud.",
     "translation": "",
-    "context": "<<POS:08105024>>"
+    "context": "<<POS:08105028>>"
   },
   {
     "key": "output|RandomInCollection_n_nDamn_it_J_ejune_Can_t_you_do_anything_r|bc8975e23277",
@@ -126,10 +192,10 @@
     "context": "<<POS:08105146>>"
   },
   {
-    "key": "output|n_nA_moment_later_an_intense_heat_spreads_throughout_your_enti|2142cc005d76",
-    "original": "\\n\\nA moment later, an intense heat spreads throughout your entire body, and you feel copious sticky perspiration dripping from your every pore",
+    "key": "output|A_moment_later_an_intense_heat_spreads_throughout_your_entire_b|6e647a85576c",
+    "original": "A moment later, an intense heat spreads throughout your entire body, and you feel copious sticky perspiration dripping from your every pore",
     "translation": "",
-    "context": "<<POS:08105434>>"
+    "context": "<<POS:08105438>>"
   },
   {
     "key": "output|increasing_the_steady_flow_you_had_to_begin_with|4f49fa3efa17",
@@ -156,10 +222,10 @@
     "context": "<<POS:08106044>>"
   },
   {
-    "key": "output|n_nAs_this_desert_like_drought_continues_to_drain_at_your_fluid|9f0bfc72b0b9",
-    "original": "\\n\\nAs this desert-like drought continues to drain at your fluids, you start to feel almost electric, euphoric tingles in your skin and sparks of bliss in your crotch. You realize that the powder must’ve contained some form of aphrodisiac too",
+    "key": "output|As_this_desert_like_drought_continues_to_drain_at_your_fluids_y|cbec0a75dd07",
+    "original": "As this desert-like drought continues to drain at your fluids, you start to feel almost electric, euphoric tingles in your skin and sparks of bliss in your crotch. You realize that the powder must’ve contained some form of aphrodisiac too",
     "translation": "",
-    "context": "<<POS:08106320>>"
+    "context": "<<POS:08106324>>"
   },
   {
     "key": "output|because_what_doesn_t_these_days|b67dab953b28",
@@ -168,13 +234,13 @@
     "context": "<<POS:08106594>>"
   },
   {
-    "key": "output|n_n_pc_EachCock_begins_to_rise_up|c2d3547df874",
-    "original": "\\n\\n[pc.EachCock] begins to rise up",
+    "key": "output|pc_EachCock_begins_to_rise_up|3e3f50aa5467",
+    "original": "[pc.EachCock] begins to rise up",
     "translation": "",
-    "context": "<<POS:08106666>>"
+    "context": "<<POS:08106670>>"
   },
   {
-    "key": "output|swelling_more_and_more_until_you_re_completely_erect_beading|3fedcc892761",
+    "key": "output|swelling_more_and_more_until_you_re_completely_erect_beading|36648b9ecfa4",
     "original": ", swelling more and more until you’re completely erect, beading pre-cum.",
     "translation": "",
     "context": "<<POS:08106733>>"
@@ -258,13 +324,13 @@
     "context": "<<POS:08107371>>"
   },
   {
-    "key": "output|n_nYour|b89ec3bdaa74",
-    "original": "\\n\\nYour",
+    "key": "output|Your|e3ccc9fa1c11",
+    "original": "Your",
     "translation": "",
-    "context": "<<POS:08107438>>"
+    "context": "<<POS:08107442>>"
   },
   {
-    "key": "output|pc_vaginas|4a0a6ca7f715",
+    "key": "output|pc_vaginas|32869f36ec13",
     "original": " [pc.vaginas]",
     "translation": "",
     "context": "<<POS:08107478>>"
@@ -342,13 +408,13 @@
     "context": "<<POS:08107955>>"
   },
   {
-    "key": "output|n_nEventually_a_pc_girlCumColor|d361ad55fe58",
-    "original": "\\n\\nEventually, a [pc.girlCumColor]",
+    "key": "output|Eventually_a_pc_girlCumColor|acc3cf40bdf0",
+    "original": "Eventually, a [pc.girlCumColor]",
     "translation": "",
-    "context": "<<POS:08108050>>"
+    "context": "<<POS:08108054>>"
   },
   {
-    "key": "output|veritable_river|4f603e172f89",
+    "key": "output|veritable_river|017cc82195aa",
     "original": " veritable river",
     "translation": "",
     "context": "<<POS:08108125>>"
@@ -384,13 +450,13 @@
     "context": "<<POS:08108325>>"
   },
   {
-    "key": "output|n_nThe_heat|98d4d035e52e",
-    "original": "\\n\\nThe heat",
+    "key": "output|The_heat|230d9a2c8a2e",
+    "original": "The heat",
     "translation": "",
-    "context": "<<POS:08108395>>"
+    "context": "<<POS:08108399>>"
   },
   {
-    "key": "output|and_euphoria_leave|3bc679014ce4",
+    "key": "output|and_euphoria_leave|1e891338dfdb",
     "original": " and euphoria leave",
     "translation": "",
     "context": "<<POS:08108434>>"
@@ -429,19 +495,19 @@
     "key": "button|Next|421a8c7ac86c",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08108746>>"
+    "context": "<<POS:08108746>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
-    "key": "output|You_have_more_than_one_vagina_Which_one_will_you_insert_Dry_Spe|e47e690488c2",
-    "original": "You have more than one vagina. Which one will you insert Dry Spell into?\\n",
+    "key": "output|You_have_more_than_one_vagina_Which_one_will_you_insert_Dry_Spe|4fb95b99a239",
+    "original": "You have more than one vagina. Which one will you insert Dry Spell into?",
     "translation": "",
     "context": "<<POS:08108920>>"
   },
   {
-    "key": "output|nVagina_a_1_pc_vagina_a_wetness_e_vaginas_a|16feeaa4ec5e",
-    "original": "\\nVagina \"+(a+1)+\" - [pc.vagina \"+a+\"] - wetness: \"+e.vaginas[a].wetness()",
+    "key": "output|Vagina_a_1_pc_vagina_a_wetness_e_vaginas_a_w|b0fba644445c",
+    "original": "Vagina \"+(a+1)+\" - [pc.vagina \"+a+\"] - wetness: \"+e.vaginas[a].wetness()",
     "translation": "",
-    "context": "<<POS:08109039>>"
+    "context": "<<POS:08109041>>"
   },
   {
     "key": "output|Lubricated|16e1c222aefc",
@@ -459,31 +525,43 @@
     "key": "button|Vagina|de735958087a",
     "original": "Vagina ",
     "translation": "",
-    "context": "<<POS:08109371>>"
+    "context": "<<POS:08109371>> addButton(o,\"Vagina \"+(a+1),(function(){return t.vaginaTF(e,a)}),l.m.capitalize(l.m.numToOrdinal(a+1))+\" Vagina\",\"Use this on your [pc.vagina \"+a+\"].\")"
   },
   {
-    "key": "button|Vagina|e9177b2ddf10",
+    "key": "button.tooltip|Use_this_on_your_pc_vagina|f80c63cb72b1",
+    "original": "Use this on your [pc.vagina ",
+    "translation": "",
+    "context": "<<POS:08109472>> addButton(o,\"Vagina \"+(a+1),(function(){return t.vaginaTF(e,a)}),l.m.capitalize(l.m.numToOrdinal(a+1))+\" Vagina\",\"Use this on your [pc.vagina \"+a+\"].\")"
+  },
+  {
+    "key": "button|Vagina|ee4ca9cb8070",
     "original": "Vagina ",
     "translation": "",
-    "context": "<<POS:08109531>>"
+    "context": "<<POS:08109531>> addDisabledButton(o,\"Vagina \"+(a+1),l.m.capitalize(l.m.numToOrdinal(a+1))+\" Vagina\",\"Your [pc.vagina \"+a+\"] is already dry!\")"
   },
   {
-    "key": "output|n_nYou_take_the_Dry_Spell_out_of_it_s_packaging_and_proceed_by|821dcd670c94",
-    "original": "\\n\\nYou take the Dry Spell out of it’s packaging and proceed by inserting it in your [pc.asshole].",
+    "key": "button.hover|Your_pc_vagina|9c3c24bf9f08",
+    "original": "Your [pc.vagina ",
     "translation": "",
-    "context": "<<POS:08109888>>"
+    "context": "<<POS:08109595>> addDisabledButton(o,\"Vagina \"+(a+1),l.m.capitalize(l.m.numToOrdinal(a+1))+\" Vagina\",\"Your [pc.vagina \"+a+\"] is already dry!\")"
   },
   {
-    "key": "output|n_nYou_wiggle_out_from_your_pc_lowerGarments_to_give_yourself|4ec370ccbefd",
-    "original": "\\n\\nYou wiggle out from your [pc.lowerGarments] to give yourself access to your [pc.asshole], then proceed by taking the Dry Spell out of its packaging and inserting it anally.",
+    "key": "output|You_take_the_Dry_Spell_out_of_it_s_packaging_and_proceed_by_inse|2246f38be03f",
+    "original": "You take the Dry Spell out of it’s packaging and proceed by inserting it in your [pc.asshole].",
     "translation": "",
-    "context": "<<POS:08109997>>"
+    "context": "<<POS:08109892>>"
   },
   {
-    "key": "output|n_nAs_the_dry_white_stick_penetrates_your_dark_ring_and_slides|8ac2586491bb",
-    "original": "\\n\\nAs the dry, white stick penetrates your dark ring and slides deeper inside, you immediately get a taste of its absorbing effects.",
+    "key": "output|You_wiggle_out_from_your_pc_lowerGarments_to_give_yourself_acc|af15b1686b4e",
+    "original": "You wiggle out from your [pc.lowerGarments] to give yourself access to your [pc.asshole], then proceed by taking the Dry Spell out of its packaging and inserting it anally.",
     "translation": "",
-    "context": "<<POS:08110184>>"
+    "context": "<<POS:08110001>>"
+  },
+  {
+    "key": "output|As_the_dry_white_stick_penetrates_your_dark_ring_and_slides_dee|5957cf9fd934",
+    "original": "As the dry, white stick penetrates your dark ring and slides deeper inside, you immediately get a taste of its absorbing effects.",
+    "translation": "",
+    "context": "<<POS:08110188>>"
   },
   {
     "key": "output|Your_slick_lube_is_sucked_into_the_chalky_transformative_gradu|e47f0abf43a3",
@@ -498,46 +576,46 @@
     "context": "<<POS:08110774>>"
   },
   {
-    "key": "output|n_nIt_takes_a_short_while_before_anything_else_happens_but_sud|7a9580ba07f2",
-    "original": "\\n\\nIt takes a short while before anything else happens, but suddenly your [pc.butt] lights up. Like a matchstick, it’s intense but short lived, and the warmth fades away within a few seconds.",
+    "key": "output|It_takes_a_short_while_before_anything_else_happens_but_suddenl|eb8e17fe0566",
+    "original": "It takes a short while before anything else happens, but suddenly your [pc.butt] lights up. Like a matchstick, it’s intense but short lived, and the warmth fades away within a few seconds.",
     "translation": "",
-    "context": "<<POS:08111228>>"
+    "context": "<<POS:08111232>>"
   },
   {
-    "key": "output|n_nYou_re_about_to_leave_it_at_that_when_your_intruding_digits|55d4ae1a0443",
-    "original": "\\n\\nYou’re about to leave it at that when your intruding digits are suddenly greeted by a rush of lube. As if a dam has been broken, your pucker starts to gush out oily secretions at a rapid pace. It doesn’t take long before the torrent calms down, however, and soon enough your fluids begin to drip at their usual pace. <b>Looks like your biology ensures that your slick orifice is always lubricated. Maybe it’ll run dry if you insert more Dry Spell?</b>",
+    "key": "output|You_re_about_to_leave_it_at_that_when_your_intruding_digits_are|b9ea6d8a452a",
+    "original": "You’re about to leave it at that when your intruding digits are suddenly greeted by a rush of lube. As if a dam has been broken, your pucker starts to gush out oily secretions at a rapid pace. It doesn’t take long before the torrent calms down, however, and soon enough your fluids begin to drip at their usual pace. <b>Looks like your biology ensures that your slick orifice is always lubricated. Maybe it’ll run dry if you insert more Dry Spell?</b>",
     "translation": "",
-    "context": "<<POS:08111611>>"
+    "context": "<<POS:08111615>>"
   },
   {
-    "key": "output|n_nUsually_you_d_have_secreted_a_whole_lot_of_slick_fluids_by|1479c2f612c8",
-    "original": "\\n\\nUsually, you’d have secreted a whole lot of slick fluids by now. It appears that your once seemingly endless reservoir of lube has dried up some.",
+    "key": "output|Usually_you_d_have_secreted_a_whole_lot_of_slick_fluids_by_now|9fb41bfe123e",
+    "original": "Usually, you’d have secreted a whole lot of slick fluids by now. It appears that your once seemingly endless reservoir of lube has dried up some.",
     "translation": "",
-    "context": "<<POS:08112078>>"
+    "context": "<<POS:08112082>>"
   },
   {
-    "key": "output|n_nYou_re_about_to_leave_it_at_that_when_your_intruding_digits|3e820814a360",
-    "original": "\\n\\nYou’re about to leave it at that when your intruding digits are suddenly greeted by a rush of lube. As if a dam has been broken, your pucker starts to gush out oily secretions at a rapid pace. It doesn’t take long before the torrent calms down, however, and soon enough your fluids begin to drip at their usual pace. <b>Looks like your biology ensures that your slick orifice is always lubricated. Maybe it’ll run dry if you insert more Dry Spell?</b>",
+    "key": "output|You_re_about_to_leave_it_at_that_when_your_intruding_digits_are|f4a68bbdd150",
+    "original": "You’re about to leave it at that when your intruding digits are suddenly greeted by a rush of lube. As if a dam has been broken, your pucker starts to gush out oily secretions at a rapid pace. It doesn’t take long before the torrent calms down, however, and soon enough your fluids begin to drip at their usual pace. <b>Looks like your biology ensures that your slick orifice is always lubricated. Maybe it’ll run dry if you insert more Dry Spell?</b>",
     "translation": "",
-    "context": "<<POS:08112298>>"
+    "context": "<<POS:08112302>>"
   },
   {
-    "key": "output|n_nUsually_you_d_have_secreted_a_whole_lot_of_slick_fluids_by|4c2b948596d9",
-    "original": "\\n\\nUsually, you’d have secreted a whole lot of slick fluids by now. It appears that your once seemingly endless reservoir of lube has dried up. <b>Looks like your orifice is no longer lubricated.</b>",
+    "key": "output|Usually_you_d_have_secreted_a_whole_lot_of_slick_fluids_by_now|9f33eaf8b3e8",
+    "original": "Usually, you’d have secreted a whole lot of slick fluids by now. It appears that your once seemingly endless reservoir of lube has dried up. <b>Looks like your orifice is no longer lubricated.</b>",
     "translation": "",
-    "context": "<<POS:08112831>>"
+    "context": "<<POS:08112835>>"
   },
   {
-    "key": "output|n_nYou_re_about_to_leave_it_at_that_when_your_intruding_digits|20ec9599f335",
-    "original": "\\n\\nYou’re about to leave it at that when your intruding digits are suddenly greeted by a thick, slow trickle of sticky fluids that spread around your entire tunnel. After a short while, your entire pucker is once again coated with adhesives, and every motion of your fingers is met with a hint of tackiness. <b>Looks like your biology ensures that you´ve always got a sticky orifice. Maybe it’ll run dry if you insert more Dry Spell?</b>",
+    "key": "output|You_re_about_to_leave_it_at_that_when_your_intruding_digits_are|058e30a1696f",
+    "original": "You’re about to leave it at that when your intruding digits are suddenly greeted by a thick, slow trickle of sticky fluids that spread around your entire tunnel. After a short while, your entire pucker is once again coated with adhesives, and every motion of your fingers is met with a hint of tackiness. <b>Looks like your biology ensures that you´ve always got a sticky orifice. Maybe it’ll run dry if you insert more Dry Spell?</b>",
     "translation": "",
-    "context": "<<POS:08113152>>"
+    "context": "<<POS:08113156>>"
   },
   {
-    "key": "output|n_nUsually_your_backdoor_would_be_fully_coated_with_adhesive_l|1b3e4c9154a1",
-    "original": "\\n\\nUsually, your backdoor would be fully coated with adhesive-like fluids by now, but it seems like the Dry Spell has dried them up. Now, your fingers move swiftly and smoothly in and out of your pucker, without the regular tacky sensation, which feels rather good in its own right. <b>Looks like your orifice is no longer sticky.</b>",
+    "key": "output|Usually_your_backdoor_would_be_fully_coated_with_adhesive_like|928657cbc6af",
+    "original": "Usually, your backdoor would be fully coated with adhesive-like fluids by now, but it seems like the Dry Spell has dried them up. Now, your fingers move swiftly and smoothly in and out of your pucker, without the regular tacky sensation, which feels rather good in its own right. <b>Looks like your orifice is no longer sticky.</b>",
     "translation": "",
-    "context": "<<POS:08113602>>"
+    "context": "<<POS:08113606>>"
   },
   {
     "key": "output|However_you_don_t_feel_any_different_Gingerly_you_prod_the_i|f8a88648312f",
@@ -549,28 +627,28 @@
     "key": "button|Next|016a04fa90a3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08114350>>"
+    "context": "<<POS:08114350>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
-    "key": "output|n_nOn_second_thought_you_re_as_dry_and_smooth_as_can_be_so_the|02177869e3b3",
-    "original": "\\n\\nOn second thought, you’re as dry and smooth as can be so there’s no point in inserting the Dry Spell.",
+    "key": "output|On_second_thought_you_re_as_dry_and_smooth_as_can_be_so_there_s|cb8ac812e63c",
+    "original": "On second thought, you’re as dry and smooth as can be so there’s no point in inserting the Dry Spell.",
     "translation": "",
-    "context": "<<POS:08114383>>"
+    "context": "<<POS:08114387>>"
   },
   {
     "key": "button|Next|f0ea83d27347",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08114549>>"
+    "context": "<<POS:08114549>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
-    "key": "output|n_nYour_pc_skinFurScales_feels_a_whole_lot_less|daa440611381",
-    "original": "\\n\\nYour [pc.skinFurScales] feels a whole lot less",
+    "key": "output|Your_pc_skinFurScales_feels_a_whole_lot_less|2bea27c36196",
+    "original": "Your [pc.skinFurScales] feels a whole lot less",
     "translation": "",
-    "context": "<<POS:08114648>>"
+    "context": "<<POS:08114652>>"
   },
   {
-    "key": "output|slippery|1274985f7249",
+    "key": "output|slippery|13092c24a791",
     "original": " slippery",
     "translation": "",
     "context": "<<POS:08114715>>"
@@ -642,19 +720,19 @@
     "context": "<<POS:08115388>>"
   },
   {
-    "key": "output|n_nYou_re_about_to_leave_it_at_that_when_suddenly_your_skin_is|6759e8e23642",
-    "original": "\\n\\nYou´re about to leave it at that when suddenly your skin is soaked in that familiar strawberry-scented oil your mimbrane\".concat(1===o?\"\":\"s\",\" produce\").concat(1===o?\"s\":\"\",\". <b>You’ll probably have to tell your mimbrane\").concat(1===o?\"\":\"s\",\" to stop sweating if you want to stay dry!</b>\")",
+    "key": "output|You_re_about_to_leave_it_at_that_when_suddenly_your_skin_is_soak|18d54f2b12ca",
+    "original": "You´re about to leave it at that when suddenly your skin is soaked in that familiar strawberry-scented oil your mimbrane\".concat(1===o?\"\":\"s\",\" produce\").concat(1===o?\"s\":\"\",\". <b>You’ll probably have to tell your mimbrane\").concat(1===o?\"\":\"s\",\" to stop sweating if you want to stay dry!</b>\")",
     "translation": "",
-    "context": "<<POS:08115483>>"
+    "context": "<<POS:08115487>>"
   },
   {
-    "key": "output|n_nYour_mouth_feels_a_whole_lot_less|e1bbd0d6b05f",
-    "original": "\\n\\nYour mouth feels a whole lot less",
+    "key": "output|Your_mouth_feels_a_whole_lot_less|d17e5c461eb7",
+    "original": "Your mouth feels a whole lot less",
     "translation": "",
-    "context": "<<POS:08115860>>"
+    "context": "<<POS:08115864>>"
   },
   {
-    "key": "output|slick|e66731f2d748",
+    "key": "output|slick|960aa72d26cc",
     "original": " slick",
     "translation": "",
     "context": "<<POS:08115914>>"
@@ -708,13 +786,13 @@
     "context": "<<POS:08116603>>"
   },
   {
-    "key": "output|n_nYour_pc_cock_n_feels_a_whole_lot_less|7e37acabf60e",
-    "original": "\\n\\nYour [pc.cock \"+n+\"] feels a whole lot less",
+    "key": "output|Your_pc_cock_n_feels_a_whole_lot_less|7982a3e9b2bd",
+    "original": "Your [pc.cock \"+n+\"] feels a whole lot less",
     "translation": "",
-    "context": "<<POS:08116856>>"
+    "context": "<<POS:08116860>>"
   },
   {
-    "key": "output|slick|2f15dccb7574",
+    "key": "output|slick|dcb79dcd603c",
     "original": " slick",
     "translation": "",
     "context": "<<POS:08116920>>"
@@ -762,10 +840,10 @@
     "context": "<<POS:08117314>>"
   },
   {
-    "key": "output|n_nBesides_the_precum_occasionally_dripping_from_the_tip_of_you|418b4f1fe786",
-    "original": "\\n\\nBesides the precum occasionally dripping from the tip of your cock, there’s no hint of any fluid or",
+    "key": "output|Besides_the_precum_occasionally_dripping_from_the_tip_of_your_co|b7b28ecf591d",
+    "original": "Besides the precum occasionally dripping from the tip of your cock, there’s no hint of any fluid or",
     "translation": "",
-    "context": "<<POS:08117379>>"
+    "context": "<<POS:08117383>>"
   },
   {
     "key": "output|lubricant|d6436ce2b59f",
@@ -822,16 +900,16 @@
     "context": "<<POS:08117982>>"
   },
   {
-    "key": "output|n_nYou_take_the_Dry_Spell_out_of_the_packaging_and_proceed_by_i|acce0d3decce",
-    "original": "\\n\\nYou take the Dry Spell out of the packaging and proceed by inserting it in your [pc.vaginaNounSimple \"+t+\"].",
+    "key": "output|You_take_the_Dry_Spell_out_of_the_packaging_and_proceed_by_inser|be14e50530de",
+    "original": "You take the Dry Spell out of the packaging and proceed by inserting it in your [pc.vaginaNounSimple \"+t+\"].",
     "translation": "",
-    "context": "<<POS:08118105>>"
+    "context": "<<POS:08118109>>"
   },
   {
-    "key": "output|n_nYou_wiggle_out_from_your_pc_lowerGarments_to_give_yourself|48fac5aabfe7",
-    "original": "\\n\\nYou wiggle out from your [pc.lowerGarments] to give yourself access to your honeypot",
+    "key": "output|You_wiggle_out_from_your_pc_lowerGarments_to_give_yourself_acc|d68ef670218f",
+    "original": "You wiggle out from your [pc.lowerGarments] to give yourself access to your honeypot",
     "translation": "",
-    "context": "<<POS:08118229>>"
+    "context": "<<POS:08118233>>"
   },
   {
     "key": "output|s|b3fbd18b849a",
@@ -846,10 +924,10 @@
     "context": "<<POS:08118359>>"
   },
   {
-    "key": "output|n_nAs_the_dry_white_stick_penetrates_your_nether_lips_and_slid|b656f3a42c5a",
-    "original": "\\n\\nAs the dry, white stick penetrates your nether lips and slides inside your love tunnel, you immediately get a taste of its absorbing effects.",
+    "key": "output|As_the_dry_white_stick_penetrates_your_nether_lips_and_slides_i|815f144462e8",
+    "original": "As the dry, white stick penetrates your nether lips and slides inside your love tunnel, you immediately get a taste of its absorbing effects.",
     "translation": "",
-    "context": "<<POS:08118479>>"
+    "context": "<<POS:08118483>>"
   },
   {
     "key": "output|Your_pc_girlCum_is_sucked_into_the_chalk_like_transformative|3ee136a33592",
@@ -864,10 +942,10 @@
     "context": "<<POS:08119090>>"
   },
   {
-    "key": "output|n_nIt_takes_a_short_while_before_anything_else_happens_but_sud|1ce583f22e78",
-    "original": "\\n\\nIt takes a short while before anything else happens, but suddenly your crotch lights up. Like a matchstick, it’s intense but short-lived, and the warmth fades away within a few seconds.",
+    "key": "output|It_takes_a_short_while_before_anything_else_happens_but_suddenl|2d59665d6638",
+    "original": "It takes a short while before anything else happens, but suddenly your crotch lights up. Like a matchstick, it’s intense but short-lived, and the warmth fades away within a few seconds.",
     "translation": "",
-    "context": "<<POS:08119491>>"
+    "context": "<<POS:08119495>>"
   },
   {
     "key": "output|However_afterwards_you_feel_a_bit_parched_down_there_Gingerly|d8c20faf8434",
@@ -882,10 +960,10 @@
     "context": "<<POS:08120091>>"
   },
   {
-    "key": "output|n_nYou_re_about_to_leave_it_at_that_when_your_intruding_digits|72b717c53054",
-    "original": "\\n\\nYou’re about to leave it at that when your intruding digits are suddenly greeted by a rush of [pc.girlCum]. Like a dam that’s been broken, your vaginal secretions start gushing out of your [pc.cuntNoun \"+t+\"]. It doesn’t take long before the torrent calms down, however, and your fluids begin to drip at their usual pace before long. <b>Looks like your biology ensures that your soggy snatch always stays dripping",
+    "key": "output|You_re_about_to_leave_it_at_that_when_your_intruding_digits_are|a71156d9aa71",
+    "original": "You’re about to leave it at that when your intruding digits are suddenly greeted by a rush of [pc.girlCum]. Like a dam that’s been broken, your vaginal secretions start gushing out of your [pc.cuntNoun \"+t+\"]. It doesn’t take long before the torrent calms down, however, and your fluids begin to drip at their usual pace before long. <b>Looks like your biology ensures that your soggy snatch always stays dripping",
     "translation": "",
-    "context": "<<POS:08120144>>"
+    "context": "<<POS:08120148>>"
   },
   {
     "key": "output|like_a_broken_fridge|85c2c24bb5d4",
@@ -918,10 +996,10 @@
     "context": "<<POS:08120829>>"
   },
   {
-    "key": "output|n_nYou_re_about_to_leave_it_at_that_when_your_intruding_digits|72b717c53054#1",
-    "original": "\\n\\nYou’re about to leave it at that when your intruding digits are suddenly greeted by a rush of [pc.girlCum]. Like a dam that’s been broken, your vaginal secretions start gushing out of your [pc.cuntNoun \"+t+\"]. It doesn’t take long before the torrent calms down, however, and your fluids begin to drip at their usual pace before long. <b>Looks like your biology ensures that your soggy snatch always stays dripping",
+    "key": "output|You_re_about_to_leave_it_at_that_when_your_intruding_digits_are|a71156d9aa71#1",
+    "original": "You’re about to leave it at that when your intruding digits are suddenly greeted by a rush of [pc.girlCum]. Like a dam that’s been broken, your vaginal secretions start gushing out of your [pc.cuntNoun \"+t+\"]. It doesn’t take long before the torrent calms down, however, and your fluids begin to drip at their usual pace before long. <b>Looks like your biology ensures that your soggy snatch always stays dripping",
     "translation": "",
-    "context": "<<POS:08120882>>"
+    "context": "<<POS:08120886>>"
   },
   {
     "key": "output|like_a_broken_fridge|85c2c24bb5d4#1",
@@ -948,10 +1026,10 @@
     "context": "<<POS:08121519>>"
   },
   {
-    "key": "output|n_nUsually_even_without_being_aroused_you_d_have_secreted_a_wh|bfb1111ff4e3",
-    "original": "\\n\\nUsually, even without being aroused you’d have secreted a whole lot of [pc.girlCum] by now. It appears that your once seemingly endless reservoir has dried up. <b>Looks like your vagina is no longer constantly wet.</b>",
+    "key": "output|Usually_even_without_being_aroused_you_d_have_secreted_a_whole|763b30ceb326",
+    "original": "Usually, even without being aroused you’d have secreted a whole lot of [pc.girlCum] by now. It appears that your once seemingly endless reservoir has dried up. <b>Looks like your vagina is no longer constantly wet.</b>",
     "translation": "",
-    "context": "<<POS:08121572>>"
+    "context": "<<POS:08121576>>"
   },
   {
     "key": "output|b_your_vagina_is_not_as_sticky_anymore_b|0fb17b61ce32",
@@ -960,10 +1038,10 @@
     "context": "<<POS:08121930>>"
   },
   {
-    "key": "output|n_nYou_re_about_to_leave_it_at_that_when_your_intruding_digits|c357a140cfab",
-    "original": "\\n\\nYou’re about to leave it at that when your intruding digits are suddenly greeted by a thick, slow trickle of sticky fluids that spread around your entire tunnel. After a short while, your entire pussy is once again coated with adhesives, and every motion of your fingers is met with a hint of tackiness. <b>Looks like your biology ensures that you´ve always got a sticky muff. Maybe it’ll run dry if you insert more Dry Spell?</b>",
+    "key": "output|You_re_about_to_leave_it_at_that_when_your_intruding_digits_are|81142fcb94c5",
+    "original": "You’re about to leave it at that when your intruding digits are suddenly greeted by a thick, slow trickle of sticky fluids that spread around your entire tunnel. After a short while, your entire pussy is once again coated with adhesives, and every motion of your fingers is met with a hint of tackiness. <b>Looks like your biology ensures that you´ve always got a sticky muff. Maybe it’ll run dry if you insert more Dry Spell?</b>",
     "translation": "",
-    "context": "<<POS:08121986>>"
+    "context": "<<POS:08121990>>"
   },
   {
     "key": "output|b_your_vagina_is_not_as_sticky_anymore_b|a3110921c4c9",
@@ -972,10 +1050,10 @@
     "context": "<<POS:08122433>>"
   },
   {
-    "key": "output|n_nUsually_your_muff_would_be_fully_coated_with_adhesive_like|d330aff5a616",
-    "original": "\\n\\nUsually, your muff would be fully coated with adhesive-like fluids by now, but it seems like the Dry Spell has dried them up. Now, your fingers move swiftly and smoothly in and out of your pussy, without getting tacky, which feels rather good in its own right. <b>Looks like your vagina is no longer sticky.</b>",
+    "key": "output|Usually_your_muff_would_be_fully_coated_with_adhesive_like_flui|61d6a1f0ab14",
+    "original": "Usually, your muff would be fully coated with adhesive-like fluids by now, but it seems like the Dry Spell has dried them up. Now, your fingers move swiftly and smoothly in and out of your pussy, without getting tacky, which feels rather good in its own right. <b>Looks like your vagina is no longer sticky.</b>",
     "translation": "",
-    "context": "<<POS:08122489>>"
+    "context": "<<POS:08122493>>"
   },
   {
     "key": "output|However_you_don_t_feel_any_different_Gingerly_you_prod_the_i|eb93640b59fe",
@@ -987,6 +1065,6 @@
     "key": "button|Next|d053b17ce697",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08123241>>"
+    "context": "<<POS:08123241>> addButton(0,\"Next\",mainGameMenu)"
   }
 ]

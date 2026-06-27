@@ -9,16 +9,10 @@
     "key": "button|Next|23fd0fc4eb49",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06383318>>"
+    "context": "<<POS:06383318>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
-    "key": "output|n_n|bd607d7c0646",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:06383404>>"
-  },
-  {
-    "key": "output|You_put_the_spacesuit_back_where_you_found_it|3c4d6bfb1878",
+    "key": "output|You_put_the_spacesuit_back_where_you_found_it|097da5cacd13",
     "original": "You put the spacesuit back where you found it.",
     "translation": "",
     "context": "<<POS:06383550>>"
@@ -27,22 +21,34 @@
     "key": "button|Next|16b6e4b9e82d",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06383659>>"
+    "context": "<<POS:06383659>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
-    "key": "output|n_nA_pair_of_mousy_ears_peaks_out_over_the_bulk_of_a_busted_min|4c1626ec6e06",
-    "original": "\\n\\nA pair of mousy ears peaks out over the bulk of a busted mining robot. Half its circuits are splayed across the ground like spilled spaghetti, and more join the pile with each passing moment. The caustic curses coming from behind the ill-used metal could strip industrial paint.",
+    "key": "output|A_pair_of_mousy_ears_peaks_out_over_the_bulk_of_a_busted_mining|bf75467fe549",
+    "original": "A pair of mousy ears peaks out over the bulk of a busted mining robot. Half its circuits are splayed across the ground like spilled spaghetti, and more join the pile with each passing moment. The caustic curses coming from behind the ill-used metal could strip industrial paint.",
     "translation": "",
-    "context": "<<POS:06385717>>"
+    "context": "<<POS:06385721>>"
   },
   {
     "key": "button|Investigate|b056e02f4a8f",
     "original": "Investigate",
     "translation": "",
-    "context": "<<POS:06386015>>"
+    "context": "<<POS:06386015>> addButton(o,\"Investigate\",qw,\"Investigate\",\"This probably won’t lead to a fight. Probably. Maybe.\")"
   },
   {
-    "key": "output|blockHeader_SPAAAAACE|31e128348c0c",
+    "key": "button.hover|Investigate|b056e02f4a8f",
+    "original": "Investigate",
+    "translation": "",
+    "context": "<<POS:06386032>> addButton(o,\"Investigate\",qw,\"Investigate\",\"This probably won’t lead to a fight. Probably. Maybe.\")"
+  },
+  {
+    "key": "button.tooltip|This_probably_won_t_lead_to_a_fight_Probably_Maybe|74014f00406a",
+    "original": "This probably won’t lead to a fight. Probably. Maybe.",
+    "translation": "",
+    "context": "<<POS:06386046>> addButton(o,\"Investigate\",qw,\"Investigate\",\"This probably won’t lead to a fight. Probably. Maybe.\")"
+  },
+  {
+    "key": "output|blockHeader_SPAAAAACE|28196544b7c2",
     "original": "blockHeader(\"SPAAAAACE!\")",
     "translation": "",
     "context": "<<POS:06388557>>"
@@ -57,55 +63,61 @@
     "key": "button|Next|f3624c121f2e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06388934>>"
+    "context": "<<POS:06388934>> addButton(0,\"Next\",(function(){moveToRoom(\"HERISIOD.ZHENG SHI STATION.ZS L50\"),mainGameMenu()}))"
   },
   {
-    "key": "bust|MINING_ROBOT|7a86723832a6",
-    "original": "MINING_ROBOT",
-    "translation": "",
-    "context": "<<POS:06389042>>"
-  },
-  {
-    "key": "name.show|Mining_Bot|ff63b152266a",
+    "key": "name.show|Mining_Bot|ba3ea7aaef19",
     "original": "Mining ‘Bot",
     "translation": "",
-    "context": "<<POS:06389067>>"
+    "context": "<<POS:06389067>> showName(\"Mining ‘Bot\")"
   },
   {
-    "key": "output|n_nAs_you_wander_through_the_byzantine_sprawl_of_mine_tunnels|14b0738d3cc3",
-    "original": "\\n\\nAs you wander through the byzantine sprawl of mine tunnels, you hear a thunderous <i>stomp... stomp... stomp...</i> coming towards you from one of the side passages. You turn to face it, just in time to see a lumbering black mass of metal, cables, and flickering digital readouts. A robot, shoddily built and probably a thousand years out of date besides... but it’s got a massive drill in place of one of its arms, and you can see where several lasers have been bolted onto the droid’s head and shoulders.",
+    "key": "output|As_you_wander_through_the_byzantine_sprawl_of_mine_tunnels_you|25d10228c4c5",
+    "original": "As you wander through the byzantine sprawl of mine tunnels, you hear a thunderous <i>stomp... stomp... stomp...</i> coming towards you from one of the side passages. You turn to face it, just in time to see a lumbering black mass of metal, cables, and flickering digital readouts. A robot, shoddily built and probably a thousand years out of date besides... but it’s got a massive drill in place of one of its arms, and you can see where several lasers have been bolted onto the droid’s head and shoulders.",
     "translation": "",
-    "context": "<<POS:06389115>>"
+    "context": "<<POS:06389119>>"
   },
   {
-    "key": "output|n_nThe_droid_passes_you_by_however_stomping_away_towards_a_de|fd76f1035d47",
-    "original": "\\n\\nThe droid passes you by, however, stomping away towards a deposit it’s allowed to mine.",
+    "key": "output|The_droid_passes_you_by_however_stomping_away_towards_a_deposi|67b167e67ed0",
+    "original": "The droid passes you by, however, stomping away towards a deposit it’s allowed to mine.",
     "translation": "",
-    "context": "<<POS:06389716>>"
+    "context": "<<POS:06389720>>"
   },
   {
     "key": "button|Stake_a_claim|0858b8a48ac5",
     "original": "Stake a claim",
     "translation": "",
-    "context": "<<POS:06389823>>"
+    "context": "<<POS:06389823>> addButton(0,\"Stake a claim\",(function(){e(),ue.V.beginCombat()}),\"Fight\",\"Attack the peaceful robot\")"
   },
   {
-    "key": "output|n_nThe_robot_s_square_head_cranks_towards_you_flashing_a_scann|12956a1bfc7c",
-    "original": "\\n\\nThe robot’s square head cranks towards you, flashing a scanner that beeps menacingly as it passes over you. A deep, bass-heavy voice booms through the tunnel: <i>“New source of minerals detected! Beginning excavation process!”</i>",
+    "key": "button.hover|Fight|0630336ebc3a",
+    "original": "Fight",
     "translation": "",
-    "context": "<<POS:06389925>>"
+    "context": "<<POS:06389876>> addButton(0,\"Stake a claim\",(function(){e(),ue.V.beginCombat()}),\"Fight\",\"Attack the peaceful robot\")"
   },
   {
-    "key": "output|n_nUh_oh|3b1f5ac0076b",
-    "original": "\\n\\nUh oh...",
+    "key": "button.tooltip|Attack_the_peaceful_robot|fe7b5333e444",
+    "original": "Attack the peaceful robot",
     "translation": "",
-    "context": "<<POS:06390170>>"
+    "context": "<<POS:06389884>> addButton(0,\"Stake a claim\",(function(){e(),ue.V.beginCombat()}),\"Fight\",\"Attack the peaceful robot\")"
   },
   {
-    "key": "button|Next|5e94a3d3ab8d",
+    "key": "output|The_robot_s_square_head_cranks_towards_you_flashing_a_scanner_t|24d6e941551b",
+    "original": "The robot’s square head cranks towards you, flashing a scanner that beeps menacingly as it passes over you. A deep, bass-heavy voice booms through the tunnel: <i>“New source of minerals detected! Beginning excavation process!”</i>",
+    "translation": "",
+    "context": "<<POS:06389929>>"
+  },
+  {
+    "key": "output|Uh_oh|2a9a1e463068",
+    "original": "Uh oh...",
+    "translation": "",
+    "context": "<<POS:06390174>>"
+  },
+  {
+    "key": "button|Next|fc0527c575f3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06390214>>"
+    "context": "<<POS:06390214>> addButton(0,\"Next\",ue.V.beginCombat)"
   },
   {
     "key": "output|blockHeader_Victory|6faa7543a9b4",
@@ -126,13 +138,7 @@
     "context": "<<POS:06390772>>"
   },
   {
-    "key": "output|n_n|7a80c3dd8945",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:06390813>>"
-  },
-  {
-    "key": "output|blockHeader_Defeat|2444eb4e1f62",
+    "key": "output|blockHeader_Defeat|c14c2f91dd23",
     "original": "blockHeader(\"Defeat!\")",
     "translation": "",
     "context": "<<POS:06390882>>"
@@ -144,10 +150,10 @@
     "context": "<<POS:06391137>>"
   },
   {
-    "key": "output|n_nThe_last_thing_you_ever_see_is_the_tip_whirring_spinning_up|bb78de51ce99",
-    "original": "\\n\\nThe last thing you ever see is the tip whirring, spinning up.",
+    "key": "output|The_last_thing_you_ever_see_is_the_tip_whirring_spinning_up|a849a36b0ff5",
+    "original": "The last thing you ever see is the tip whirring, spinning up.",
     "translation": "",
-    "context": "<<POS:06391244>>"
+    "context": "<<POS:06391248>>"
   },
   {
     "key": "output|The_droid_backhands_you_sending_you_sprawling_back_on_your_ass|538bc55dfcfc",
@@ -168,22 +174,22 @@
     "context": "<<POS:06391759>>"
   },
   {
-    "key": "output|n_n_i_Valuable_minerals_detected_Efficiency_protocols_activat|82a3e4479b9a",
-    "original": "\\n\\n<i>“Valuable minerals detected. Efficiency protocols activated.”</i>",
+    "key": "output|i_Valuable_minerals_detected_Efficiency_protocols_activated|ca8992498a2b",
+    "original": "<i>“Valuable minerals detected. Efficiency protocols activated.”</i>",
     "translation": "",
-    "context": "<<POS:06391813>>"
+    "context": "<<POS:06391817>>"
   },
   {
-    "key": "output|n_nThe_robot_dumps_your_gems_into_a_cabinet_in_its_chest_and_tu|76e576e09bd8",
-    "original": "\\n\\nThe robot dumps your gems into a cabinet in its chest and turns, stomping off down another tunnel.",
+    "key": "output|The_robot_dumps_your_gems_into_a_cabinet_in_its_chest_and_turns|baee08e5aec1",
+    "original": "The robot dumps your gems into a cabinet in its chest and turns, stomping off down another tunnel.",
     "translation": "",
-    "context": "<<POS:06391896>>"
+    "context": "<<POS:06391900>>"
   },
   {
-    "key": "output|n_nGood_thing_you_had_something_to_distract_it_you_guess|623ecc977b05",
-    "original": "\\n\\nGood thing you had something to distract it, you guess...",
+    "key": "output|Good_thing_you_had_something_to_distract_it_you_guess|9b211505e258",
+    "original": "Good thing you had something to distract it, you guess...",
     "translation": "",
-    "context": "<<POS:06392009>>"
+    "context": "<<POS:06392013>>"
   },
   {
     "key": "output|You_quiver_with_the_impact_of_the_droid_s_last_punch_splatterin|00504c064282",
@@ -192,40 +198,28 @@
     "context": "<<POS:06392166>>"
   },
   {
-    "key": "output|n_n_i_No_i_you_yelp_flailing_helplessly_as_the_robot_yank|1e50518f7706",
-    "original": "\\n\\n<i>“No!”</i> you yelp, flailing helplessly as the robot yanks on your core. There’s a pulling sensation deep inside, like he’s grabbing at your formerly-fleshy heart, and then it’s out! You watch in horror as the droid rips your core out and chucks it into a cabinet in its chest - and as it does so, you can almost immediately feel your mind becoming hazy, your thoughts getting... hungrier!",
+    "key": "output|i_No_i_you_yelp_flailing_helplessly_as_the_robot_yanks_on|d35ee92afc23",
+    "original": "<i>“No!”</i> you yelp, flailing helplessly as the robot yanks on your core. There’s a pulling sensation deep inside, like he’s grabbing at your formerly-fleshy heart, and then it’s out! You watch in horror as the droid rips your core out and chucks it into a cabinet in its chest - and as it does so, you can almost immediately feel your mind becoming hazy, your thoughts getting... hungrier!",
     "translation": "",
-    "context": "<<POS:06392780>>"
+    "context": "<<POS:06392784>>"
   },
   {
-    "key": "output|n_nToo_bad_this_big_guy_doesn_t_have_a_dick_you_can_suck_while|b8a53b893440",
-    "original": "\\n\\nToo bad this big guy doesn’t have a dick you can suck while he takes your pretty core stone.",
+    "key": "output|Too_bad_this_big_guy_doesn_t_have_a_dick_you_can_suck_while_he_t|c0c6371d107f",
+    "original": "Too bad this big guy doesn’t have a dick you can suck while he takes your pretty core stone.",
     "translation": "",
-    "context": "<<POS:06393187>>"
+    "context": "<<POS:06393191>>"
   },
   {
-    "key": "output|n_nThe_robot_stalks_off_leaving_you_to_recongeal_yourself_and|b62d5d6ae8b5",
-    "original": "\\n\\nThe robot stalks off, leaving you to recongeal yourself and try to find your gear.",
+    "key": "output|The_robot_stalks_off_leaving_you_to_recongeal_yourself_and_try|6d5fe2ad6b31",
+    "original": "The robot stalks off, leaving you to recongeal yourself and try to find your gear.",
     "translation": "",
-    "context": "<<POS:06393294>>"
+    "context": "<<POS:06393298>>"
   },
   {
-    "key": "output|n_n|2c712c186b56",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:06393391>>"
-  },
-  {
-    "key": "bust|ZHENG_SHI|5eea44ee25fe",
-    "original": "ZHENG_SHI",
-    "translation": "",
-    "context": "<<POS:06393441>>"
-  },
-  {
-    "key": "name.show|Zh_ng_Shi|671121e46180",
+    "key": "name.show|Zh_ng_Shi|302b306fd124",
     "original": "Zhèng Shi",
     "translation": "",
-    "context": "<<POS:06393463>>"
+    "context": "<<POS:06393463>> showName(\"Zhèng Shi\")"
   },
   {
     "key": "output|As_you_approach_the_docking_bay_a_direct_beam_transmission_come|6b2465810172",
@@ -234,40 +228,40 @@
     "context": "<<POS:06393545>>"
   },
   {
-    "key": "output|n_n_i_This_is_Zh_ng_Shi_Docking_to_whoever_the_fuck_you_are|0c301744a764",
-    "original": "\\n\\n<i>“This is Zhèng Shi Docking to... whoever the fuck you are. This ship’s not on the roster. Cough up the password or you’re gonna get blown to space dust.”</i>",
+    "key": "output|i_This_is_Zh_ng_Shi_Docking_to_whoever_the_fuck_you_are_Th|f476f08f5d25",
+    "original": "<i>“This is Zhèng Shi Docking to... whoever the fuck you are. This ship’s not on the roster. Cough up the password or you’re gonna get blown to space dust.”</i>",
     "translation": "",
-    "context": "<<POS:06393972>>"
+    "context": "<<POS:06393976>>"
   },
   {
-    "key": "output|n_nWell_you_knew_this_wasn_t_going_to_be_easy|67f65d7969f7",
-    "original": "\\n\\nWell, you knew this wasn’t going to be easy....",
+    "key": "output|Well_you_knew_this_wasn_t_going_to_be_easy|9272e851c76b",
+    "original": "Well, you knew this wasn’t going to be easy....",
     "translation": "",
-    "context": "<<POS:06394147>>"
+    "context": "<<POS:06394151>>"
   },
   {
-    "key": "output|b_Several_hours_later_b|c1cd03af243a",
+    "key": "output|b_Several_hours_later_b|ef1e7480712e",
     "original": "<b>Several hours later...</b>",
     "translation": "",
     "context": "<<POS:06394306>>"
   },
   {
-    "key": "output|n_nYou_re_snapped_to_wakefulness_by_a_rhythmic_beeping_from_you|f80d3ab60944",
-    "original": "\\n\\nYou’re snapped to wakefulness by a rhythmic beeping from your ship’s sensor suite. You don’t remember having fallen asleep, only the passage of hours waiting for your sensors to fully scan an entire solar system.",
+    "key": "output|You_re_snapped_to_wakefulness_by_a_rhythmic_beeping_from_your_sh|3bc3b1a537ff",
+    "original": "You’re snapped to wakefulness by a rhythmic beeping from your ship’s sensor suite. You don’t remember having fallen asleep, only the passage of hours waiting for your sensors to fully scan an entire solar system.",
     "translation": "",
-    "context": "<<POS:06394346>>"
+    "context": "<<POS:06394350>>"
   },
   {
-    "key": "output|n_nThey_haven_t_found_the_probe_but_as_you_wipe_the_sleep_from|58b086c7789d",
-    "original": "\\n\\nThey haven’t found the probe, but as you wipe the sleep from your eyes, you see that your sensors have locked onto a ship puttering through the debris field on impulse power. She’s a big girl, too, practically bursting at the seams with hemispherical laser batteries and grappling cannons. She’s not flying any colors and her ID’s not pinging any databases you can access, so if you had to take a wild guess, you’d say she’s a pirate ship.",
+    "key": "output|They_haven_t_found_the_probe_but_as_you_wipe_the_sleep_from_you|2d3a27cbb6cd",
+    "original": "They haven’t found the probe, but as you wipe the sleep from your eyes, you see that your sensors have locked onto a ship puttering through the debris field on impulse power. She’s a big girl, too, practically bursting at the seams with hemispherical laser batteries and grappling cannons. She’s not flying any colors and her ID’s not pinging any databases you can access, so if you had to take a wild guess, you’d say she’s a pirate ship.",
     "translation": "",
-    "context": "<<POS:06394573>>"
+    "context": "<<POS:06394577>>"
   },
   {
-    "key": "output|n_nAnd_she_s_making_good_speed_somewhere_Curious_you_ease_you|11a4edbc4229",
-    "original": "\\n\\nAnd she’s making good speed somewhere. Curious, you ease yourself into the field after her, taking it nice and slow to avoid detection. ",
+    "key": "output|And_she_s_making_good_speed_somewhere_Curious_you_ease_yoursel|b7c010650505",
+    "original": "And she’s making good speed somewhere. Curious, you ease yourself into the field after her, taking it nice and slow to avoid detection. ",
     "translation": "",
-    "context": "<<POS:06395027>>"
+    "context": "<<POS:06395031>>"
   },
   {
     "key": "output|It_s_no_sweat_for_you_given_you_previous_occupation_You_know_a|3b25d95348bc",
@@ -288,34 +282,34 @@
     "context": "<<POS:06395587>>"
   },
   {
-    "key": "output|n_nAfter_about_an_hour_the_ship_seems_confident_it_isn_t_being|e3fa85403bfb",
-    "original": "\\n\\nAfter about an hour, the ship seems confident it isn’t being followed and takes a sharp turn towards one of the largest asteroids - indeed, <i>the</i> largest - in the field. You follow from a safe distance, watching the ship approach a structure you instantly recognize: a spacedock! The same kind as back on Tavros, with a huge metal opening, wide enough for a cruiser to slip through, projecting a permeable force field to keep the air in.",
+    "key": "output|After_about_an_hour_the_ship_seems_confident_it_isn_t_being_fol|bac00c67dd07",
+    "original": "After about an hour, the ship seems confident it isn’t being followed and takes a sharp turn towards one of the largest asteroids - indeed, <i>the</i> largest - in the field. You follow from a safe distance, watching the ship approach a structure you instantly recognize: a spacedock! The same kind as back on Tavros, with a huge metal opening, wide enough for a cruiser to slip through, projecting a permeable force field to keep the air in.",
     "translation": "",
-    "context": "<<POS:06395780>>"
+    "context": "<<POS:06395784>>"
   },
   {
-    "key": "output|n_nAnd_it_s_not_the_only_ship|88b81c55d5e5",
-    "original": "\\n\\nAnd it’s not the only ship.",
+    "key": "output|And_it_s_not_the_only_ship|468c32fbf797",
+    "original": "And it’s not the only ship.",
     "translation": "",
-    "context": "<<POS:06396237>>"
+    "context": "<<POS:06396241>>"
   },
   {
-    "key": "output|n_nIndeed_several_other_ships_are_coming_and_going_from_the_hi|57ae6bb2083d",
-    "original": "\\n\\nIndeed, several other ships are coming and going from the hidden port, all of different models but armed and painted in gregarious colors that suggest more pirates than you’ve ever seen gathered in one place before. <b>This must be some kind of pirate base!</b>",
+    "key": "output|Indeed_several_other_ships_are_coming_and_going_from_the_hidden|51be50eca7d8",
+    "original": "Indeed, several other ships are coming and going from the hidden port, all of different models but armed and painted in gregarious colors that suggest more pirates than you’ve ever seen gathered in one place before. <b>This must be some kind of pirate base!</b>",
     "translation": "",
-    "context": "<<POS:06396279>>"
+    "context": "<<POS:06396283>>"
   },
   {
-    "key": "output|n_nWell_shit_that_makes_finding_your_probe_in_this_system_a_lo|a81345dd9372",
-    "original": "\\n\\nWell shit, that makes finding your probe in this system a lot more challenging. Especially if it’s ended up in the pirates’ possession... and considering how many credi-hungry opportunists appear to be using this chunk of crust as a port of call, you wouldn’t be surprised. You wait until the ship’s gone in before easing forward again, trying to come up with a plan...",
+    "key": "output|Well_shit_that_makes_finding_your_probe_in_this_system_a_lot_mo|85e215314f46",
+    "original": "Well shit, that makes finding your probe in this system a lot more challenging. Especially if it’s ended up in the pirates’ possession... and considering how many credi-hungry opportunists appear to be using this chunk of crust as a port of call, you wouldn’t be surprised. You wait until the ship’s gone in before easing forward again, trying to come up with a plan...",
     "translation": "",
-    "context": "<<POS:06396555>>"
+    "context": "<<POS:06396559>>"
   },
   {
     "key": "button|Next|f74f7a1b4367",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06396972>>"
+    "context": "<<POS:06396972>> addButton(0,\"Next\",(function(){clearOutput(),Bw(),author(\"Savin\"),output(\"There are so many ships, each more ostentatious than the last. There’s no way they all belong to the same pirate group. Not the Black Void, certainly. No, the longer you watch, the more you become convinced that this is some k..."
   },
   {
     "key": "output|You_stretch_out_and_slap_the_main_breaker_listening_to_the_head|2b110ba390ca",
@@ -324,10 +318,10 @@
     "context": "<<POS:06398064>>"
   },
   {
-    "key": "output|n_nThe_Codex_s_warm_light_bathes_the_inside_of_your_now_dark_co|4afde0a204e1",
-    "original": "\\n\\nThe Codex’s warm light bathes the inside of your now-dark cockpit in its familiar glow as you tap into the system’s surviving comm buoy and make a high-priority holocall to your big-balled ",
+    "key": "output|The_Codex_s_warm_light_bathes_the_inside_of_your_now_dark_cockpi|778910a89215",
+    "original": "The Codex’s warm light bathes the inside of your now-dark cockpit in its familiar glow as you tap into the system’s surviving comm buoy and make a high-priority holocall to your big-balled ",
     "translation": "",
-    "context": "<<POS:06398271>>"
+    "context": "<<POS:06398275>>"
   },
   {
     "key": "output|girlfriend|f1bca495ff88",
@@ -342,136 +336,136 @@
     "context": "<<POS:06398516>>"
   },
   {
-    "key": "output|n_n_i_Heya_Angel_i_Kiro_drunkenly_slurs_Her_holographic|593cda95faf4",
-    "original": "\\n\\n<i>“Heya, Angel,”</i> Kiro drunkenly slurs. Her holographic image wobbles unsteadily. Judging by the background noise, she’s deep into her drinks in some scummy space bar. <i>“Usually I’m one the one in charge of makin’ booty calls! You wanna hook up?”</i> She props her head up on her arm and licks her lips.",
+    "key": "output|i_Heya_Angel_i_Kiro_drunkenly_slurs_Her_holographic_imag|4ec6c26e757b",
+    "original": "<i>“Heya, Angel,”</i> Kiro drunkenly slurs. Her holographic image wobbles unsteadily. Judging by the background noise, she’s deep into her drinks in some scummy space bar. <i>“Usually I’m one the one in charge of makin’ booty calls! You wanna hook up?”</i> She props her head up on her arm and licks her lips.",
     "translation": "",
-    "context": "<<POS:06398551>>"
+    "context": "<<POS:06398555>>"
   },
   {
-    "key": "output|n_nOoooh_you_so_like_totally_do_but_maybe_after_you_land_you|60ea49c68300",
-    "original": "\\n\\nOoooh, you so like, totally do, but maybe after you land your ship. <i>“Ummm, actually Kiro I’m at some pirate base, and they want a password or something. I think they might like, blow me up if I don’t give the right one! Ugh. Anyways, it’s called Zhèng Shi. You ever been there?”</i>",
+    "key": "output|Ooooh_you_so_like_totally_do_but_maybe_after_you_land_your_sh|681eb72e9a7b",
+    "original": "Ooooh, you so like, totally do, but maybe after you land your ship. <i>“Ummm, actually Kiro I’m at some pirate base, and they want a password or something. I think they might like, blow me up if I don’t give the right one! Ugh. Anyways, it’s called Zhèng Shi. You ever been there?”</i>",
     "translation": "",
-    "context": "<<POS:06398888>>"
+    "context": "<<POS:06398892>>"
   },
   {
-    "key": "output|n_n_i_Bitch_please_i_You_sigh_i_You_know_Zh_ng_Shi_Th|2196b12c1752",
-    "original": "\\n\\n<i>“Bitch, please!”</i> You sigh. <i>“You know Zhèng Shi? They want a password that I don’t have.”</i>",
+    "key": "output|i_Bitch_please_i_You_sigh_i_You_know_Zh_ng_Shi_They_w|c32a4d722663",
+    "original": "<i>“Bitch, please!”</i> You sigh. <i>“You know Zhèng Shi? They want a password that I don’t have.”</i>",
     "translation": "",
-    "context": "<<POS:06399199>>"
+    "context": "<<POS:06399203>>"
   },
   {
-    "key": "output|n_n_i_Maybe_later_i_you_answer_with_a_shake_of_your_head|f61b2a559f4f",
-    "original": "\\n\\n<i>“Maybe later,”</i> you answer with a shake of your head, <i>“I’m at a pirate base that goes by the name of Zhèng Shi. Ever been there? I could really use the password.”</i>",
+    "key": "output|i_Maybe_later_i_you_answer_with_a_shake_of_your_head_i|662e937c49ab",
+    "original": "<i>“Maybe later,”</i> you answer with a shake of your head, <i>“I’m at a pirate base that goes by the name of Zhèng Shi. Ever been there? I could really use the password.”</i>",
     "translation": "",
-    "context": "<<POS:06399328>>"
+    "context": "<<POS:06399332>>"
   },
   {
-    "key": "output|n_n_i_Assuming_the_pirates_at_Zh_ng_Shi_don_t_paste_me_in_spac|ab845c3d85f0",
-    "original": "\\n\\n<i>“Assuming the pirates at Zhèng Shi don’t paste me in space-dust, I might look into it.”</i> You say, <i>“I’m in a tight spot here, and if I don’t get them the right password in a minute or two, this is going to be a real short Rush for me.”</i>",
+    "key": "output|i_Assuming_the_pirates_at_Zh_ng_Shi_don_t_paste_me_in_space_du|961940a3fccf",
+    "original": "<i>“Assuming the pirates at Zhèng Shi don’t paste me in space-dust, I might look into it.”</i> You say, <i>“I’m in a tight spot here, and if I don’t get them the right password in a minute or two, this is going to be a real short Rush for me.”</i>",
     "translation": "",
-    "context": "<<POS:06399537>>"
+    "context": "<<POS:06399541>>"
   },
   {
-    "key": "output|n_n_i_Focus_up_Kiro_i_You_slam_your_fist_into_the_console|bb04ef3951d4",
-    "original": "\\n\\n<i>“Focus up, Kiro.”</i> You slam your fist into the console. <i>“These pirate assholes at Zhèng Shi want a password, and if I don’t guess the right one, I’m going to have to fight my way in. I’d rather not kill any of your friends.”</i>",
+    "key": "output|i_Focus_up_Kiro_i_You_slam_your_fist_into_the_console_i|111d22112d16",
+    "original": "<i>“Focus up, Kiro.”</i> You slam your fist into the console. <i>“These pirate assholes at Zhèng Shi want a password, and if I don’t guess the right one, I’m going to have to fight my way in. I’d rather not kill any of your friends.”</i>",
     "translation": "",
-    "context": "<<POS:06399799>>"
+    "context": "<<POS:06399803>>"
   },
   {
-    "key": "output|n_nKiro_facepalms_and_airily_giggles_i_Fuck_you_i|2028e2db27bf",
-    "original": "\\n\\nKiro facepalms and airily giggles, <i>“Fuck you!”</i>",
+    "key": "output|Kiro_facepalms_and_airily_giggles_i_Fuck_you_i|ab9883329d06",
+    "original": "Kiro facepalms and airily giggles, <i>“Fuck you!”</i>",
     "translation": "",
-    "context": "<<POS:06400051>>"
+    "context": "<<POS:06400055>>"
   },
   {
-    "key": "output|n_nWha|cb94d3b0a13d",
-    "original": "\\n\\nWha-?",
+    "key": "output|Wha|a9d94e7843c5",
+    "original": "Wha-?",
     "translation": "",
-    "context": "<<POS:06400119>>"
+    "context": "<<POS:06400123>>"
   },
   {
-    "key": "output|n_n_i_No_no_no_The_password_Just_tell_em_to_go_fuck_thems|f561eab37642",
-    "original": "\\n\\n<i>“No, no, no! The password. Just tell ‘em to go fuck themselves.”</i> She takes a swig of a mystery drink that doesn’t quite render in. <i>“That’s the thing about us pirates - the only thing we hate more than being ordered around is dealing with red tape and regulation. Fuck, you’re so naive sometimes, Angel.”</i>",
+    "key": "output|i_No_no_no_The_password_Just_tell_em_to_go_fuck_themselve|c6448fdda540",
+    "original": "<i>“No, no, no! The password. Just tell ‘em to go fuck themselves.”</i> She takes a swig of a mystery drink that doesn’t quite render in. <i>“That’s the thing about us pirates - the only thing we hate more than being ordered around is dealing with red tape and regulation. Fuck, you’re so naive sometimes, Angel.”</i>",
     "translation": "",
-    "context": "<<POS:06400139>>"
+    "context": "<<POS:06400143>>"
   },
   {
-    "key": "output|n_nYou_thank_her_for_the_help_and_end_the_call_watching_Kiro_s|bf7fafc2d918",
-    "original": "\\n\\nYou thank her for the help and end the call, watching Kiro’s smirking lips fade away into nothing.",
+    "key": "output|You_thank_her_for_the_help_and_end_the_call_watching_Kiro_s_smi|3236087da578",
+    "original": "You thank her for the help and end the call, watching Kiro’s smirking lips fade away into nothing.",
     "translation": "",
-    "context": "<<POS:06400471>>"
+    "context": "<<POS:06400475>>"
   },
   {
-    "key": "output|n_nA_few_presses_on_your_Codex_are_all_it_takes_to_summon_Kiro|ee7280721a19",
-    "original": "\\n\\nA few presses on your Codex are all it takes to summon Kiro to the cockpit.",
+    "key": "output|A_few_presses_on_your_Codex_are_all_it_takes_to_summon_Kiro_to_t|3569e9ac60a3",
+    "original": "A few presses on your Codex are all it takes to summon Kiro to the cockpit.",
     "translation": "",
-    "context": "<<POS:06400586>>"
+    "context": "<<POS:06400590>>"
   },
   {
-    "key": "output|n_n_i_Heya_Angel_i_Kiro_says_yawning_She_rubs_a_bit_of|589c764f8710",
-    "original": "\\n\\n<i>“Heya, Angel,”</i> Kiro says, yawning. She rubs a bit of sleep out of her eyes. <i>“Usually I’m one the one in charge of makin’ booty calls! Why’re the lights off? You wanted hook up or something? Fuck, you’re dirty.”</i> She leans against a bulkhead licks her lips.",
+    "key": "output|i_Heya_Angel_i_Kiro_says_yawning_She_rubs_a_bit_of_slee|18f02360f242",
+    "original": "<i>“Heya, Angel,”</i> Kiro says, yawning. She rubs a bit of sleep out of her eyes. <i>“Usually I’m one the one in charge of makin’ booty calls! Why’re the lights off? You wanted hook up or something? Fuck, you’re dirty.”</i> She leans against a bulkhead licks her lips.",
     "translation": "",
-    "context": "<<POS:06400676>>"
+    "context": "<<POS:06400680>>"
   },
   {
-    "key": "output|n_nOoooh_you_so_like_totally_do_but_maybe_after_you_land_you|6ec81cbc2d26",
-    "original": "\\n\\nOoooh, you so like, totally do, but maybe after you land your ship. <i>“Ummm, actually Kiro I’m at some pirate base, and they want a password or something. I think they might like, blow us up if I don’t give the right one! Ugh. Anyways, it’s called Zhèng Shi. You ever been here?”</i>",
+    "key": "output|Ooooh_you_so_like_totally_do_but_maybe_after_you_land_your_sh|3b93af0b6b49",
+    "original": "Ooooh, you so like, totally do, but maybe after you land your ship. <i>“Ummm, actually Kiro I’m at some pirate base, and they want a password or something. I think they might like, blow us up if I don’t give the right one! Ugh. Anyways, it’s called Zhèng Shi. You ever been here?”</i>",
     "translation": "",
-    "context": "<<POS:06400973>>"
+    "context": "<<POS:06400977>>"
   },
   {
-    "key": "output|n_n_i_Bitch_please_i_You_sigh_i_You_know_Zh_ng_Shi_Th|f063cbca7fc4",
-    "original": "\\n\\n<i>“Bitch, please!”</i> You sigh. <i>“You know Zhèng Shi? They want a password that I don’t have.”</i>",
+    "key": "output|i_Bitch_please_i_You_sigh_i_You_know_Zh_ng_Shi_They_w|c5b27fe6b57d",
+    "original": "<i>“Bitch, please!”</i> You sigh. <i>“You know Zhèng Shi? They want a password that I don’t have.”</i>",
     "translation": "",
-    "context": "<<POS:06401283>>"
+    "context": "<<POS:06401287>>"
   },
   {
-    "key": "output|n_n_i_Maybe_later_i_you_answer_with_a_shake_of_your_head|adc3a2822a0a",
-    "original": "\\n\\n<i>“Maybe later,”</i> you answer with a shake of your head, <i>“We’re at a pirate base - Zhèng Shi. Ever been there? I could really use the password.”</i>",
+    "key": "output|i_Maybe_later_i_you_answer_with_a_shake_of_your_head_i|5ba4d5a68ade",
+    "original": "<i>“Maybe later,”</i> you answer with a shake of your head, <i>“We’re at a pirate base - Zhèng Shi. Ever been there? I could really use the password.”</i>",
     "translation": "",
-    "context": "<<POS:06401412>>"
+    "context": "<<POS:06401416>>"
   },
   {
-    "key": "output|n_n_i_Assuming_the_pirates_here_don_t_paste_us_in_space_dust|5ab87f0134ac",
-    "original": "\\n\\n<i>“Assuming the pirates here don’t paste us in space-dust, I might look into it.”</i> You say, <i>“We’re in a tight spot here, and if I don’t get Zhèng Shi the right password in a minute or two, this is going to be a real short Rush for us.”</i>",
+    "key": "output|i_Assuming_the_pirates_here_don_t_paste_us_in_space_dust_I_mi|199ab316d0da",
+    "original": "<i>“Assuming the pirates here don’t paste us in space-dust, I might look into it.”</i> You say, <i>“We’re in a tight spot here, and if I don’t get Zhèng Shi the right password in a minute or two, this is going to be a real short Rush for us.”</i>",
     "translation": "",
-    "context": "<<POS:06401600>>"
+    "context": "<<POS:06401604>>"
   },
   {
-    "key": "output|n_n_i_Focus_up_Kiro_i_You_slam_your_fist_into_the_console|987a4a72722a",
-    "original": "\\n\\n<i>“Focus up, Kiro.”</i> You slam your fist into the console. <i>“These pirate assholes at Zhèng Shi want a password, and if I don’t guess the right one, we’re going to have to fight our way in. I’d rather not kill any of your friends.”</i>",
+    "key": "output|i_Focus_up_Kiro_i_You_slam_your_fist_into_the_console_i|cb9d1c0770bc",
+    "original": "<i>“Focus up, Kiro.”</i> You slam your fist into the console. <i>“These pirate assholes at Zhèng Shi want a password, and if I don’t guess the right one, we’re going to have to fight our way in. I’d rather not kill any of your friends.”</i>",
     "translation": "",
-    "context": "<<POS:06401861>>"
+    "context": "<<POS:06401865>>"
   },
   {
-    "key": "output|n_nKiro_facepalms_i_Fuck_you_i|5b333c6cf0ad",
-    "original": "\\n\\nKiro facepalms. <i>“Fuck you!”</i>",
+    "key": "output|Kiro_facepalms_i_Fuck_you_i|e97a4589c361",
+    "original": "Kiro facepalms. <i>“Fuck you!”</i>",
     "translation": "",
-    "context": "<<POS:06402116>>"
+    "context": "<<POS:06402120>>"
   },
   {
-    "key": "output|n_nWha|e1766d7366e0",
-    "original": "\\n\\nWha-?",
+    "key": "output|Wha|a76cc56e7fa9",
+    "original": "Wha-?",
     "translation": "",
-    "context": "<<POS:06402165>>"
+    "context": "<<POS:06402169>>"
   },
   {
-    "key": "output|n_n_i_No_no_no_The_password_Just_tell_em_to_go_fuck_thems|c7327048c22c",
-    "original": "\\n\\n<i>“No, no, no! The password. Just tell ‘em to go fuck themselves.”</i> She casually belches. <i>“That’s the thing about us pirates - the only thing we hate more than being ordered around is dealing with red tape and regulation. Fuck, you’re so naive sometimes, Angel.”</i>",
+    "key": "output|i_No_no_no_The_password_Just_tell_em_to_go_fuck_themselve|cb13e0adedb8",
+    "original": "<i>“No, no, no! The password. Just tell ‘em to go fuck themselves.”</i> She casually belches. <i>“That’s the thing about us pirates - the only thing we hate more than being ordered around is dealing with red tape and regulation. Fuck, you’re so naive sometimes, Angel.”</i>",
     "translation": "",
-    "context": "<<POS:06402185>>"
+    "context": "<<POS:06402189>>"
   },
   {
-    "key": "output|n_nYou_thank_her_for_the_help_and_dismiss_her_with_a_promise_th|d0ef40ae6481",
-    "original": "\\n\\nYou thank her for the help and dismiss her with a promise that you can play later.",
+    "key": "output|You_thank_her_for_the_help_and_dismiss_her_with_a_promise_that_y|094c96ac4f6b",
+    "original": "You thank her for the help and dismiss her with a promise that you can play later.",
     "translation": "",
-    "context": "<<POS:06402473>>"
+    "context": "<<POS:06402477>>"
   },
   {
     "key": "button|Next|11a1407c4301",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06402603>>"
+    "context": "<<POS:06402603>> addButton(0,\"Next\",t)"
   },
   {
     "key": "output|A_few_button_presses_later_power_hums_back_through_your_ship_a|064df73cac5c",
@@ -480,22 +474,22 @@
     "context": "<<POS:06402678>>"
   },
   {
-    "key": "output|n_nPirates_not_the_most_patient_bunch|2d3c692b4c44",
-    "original": "\\n\\nPirates: not the most patient bunch.",
+    "key": "output|Pirates_not_the_most_patient_bunch|7928c51736db",
+    "original": "Pirates: not the most patient bunch.",
     "translation": "",
-    "context": "<<POS:06402906>>"
+    "context": "<<POS:06402910>>"
   },
   {
-    "key": "button|Submit|95ce114324de",
+    "key": "button|Submit|63ed5c543065",
     "original": "Submit",
     "translation": "",
-    "context": "<<POS:06402987>>"
+    "context": "<<POS:06402987>> addButton(0,\"Submit\",n)"
   },
   {
     "key": "button|Run|b4ed13708963",
     "original": "Run!",
     "translation": "",
-    "context": "<<POS:06403011>>"
+    "context": "<<POS:06403011>> addButton(4,\"Run!\",o)"
   },
   {
     "key": "output|blockHeader_Steele_Out|df1d102cddbf",
@@ -510,28 +504,28 @@
     "context": "<<POS:06403125>>"
   },
   {
-    "key": "output|n_nSteele_out|25e2bae32562",
-    "original": "\\n\\nSteele out!",
+    "key": "output|Steele_out|448f5e24ec48",
+    "original": "Steele out!",
     "translation": "",
-    "context": "<<POS:06403233>>"
+    "context": "<<POS:06403237>>"
   },
   {
-    "key": "output|n_nYou_reverse_the_throttle_and_book_it_back_into_the_cover_of|296058afbcd6",
-    "original": "\\n\\nYou reverse the throttle and book it back into the cover of the asteroid belt. The station takes a couple parting shots at you, but nothing gets through the shields before you’re covered by another half-moon of broken planet.",
+    "key": "output|You_reverse_the_throttle_and_book_it_back_into_the_cover_of_the|5bd96843a101",
+    "original": "You reverse the throttle and book it back into the cover of the asteroid belt. The station takes a couple parting shots at you, but nothing gets through the shields before you’re covered by another half-moon of broken planet.",
     "translation": "",
-    "context": "<<POS:06403259>>"
+    "context": "<<POS:06403263>>"
   },
   {
-    "key": "output|n_nWell_now_you_need_to_find_a_pirate_to_coax_the_answer_out_o|c05c4560e31d",
-    "original": "\\n\\nWell, now you need to find a pirate to coax the answer out of... one way or another.",
+    "key": "output|Well_now_you_need_to_find_a_pirate_to_coax_the_answer_out_of|5c4c6a5a43a3",
+    "original": "Well, now you need to find a pirate to coax the answer out of... one way or another.",
     "translation": "",
-    "context": "<<POS:06403499>>"
+    "context": "<<POS:06403503>>"
   },
   {
     "key": "button|Next|e6bbaa87bb92",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06403678>>"
+    "context": "<<POS:06403678>> addButton(0,\"Next\",(function(){return window.flyToWrapper(\"Tarkus\")}))"
   },
   {
     "key": "output|i_Yeah_alright_alright_i_the_station_controller_s_voice|c0af5f10a651",
@@ -540,22 +534,22 @@
     "context": "<<POS:06403995>>"
   },
   {
-    "key": "output|n_nThe_target_locks_from_the_asteroid_subside_and_you_re_able|79d807a0355d",
-    "original": "\\n\\nThe target locks from the asteroid subside, and you’re able to bring your ship forward into the bay unmolested. You pass through the force field and into a sweeping hangar bay, big enough for twenty or so large ships - and countless little tramp freighters and scout ships like the old Z14.",
+    "key": "output|The_target_locks_from_the_asteroid_subside_and_you_re_able_to_b|dd16c068d397",
+    "original": "The target locks from the asteroid subside, and you’re able to bring your ship forward into the bay unmolested. You pass through the force field and into a sweeping hangar bay, big enough for twenty or so large ships - and countless little tramp freighters and scout ships like the old Z14.",
     "translation": "",
-    "context": "<<POS:06404235>>"
+    "context": "<<POS:06404239>>"
   },
   {
-    "key": "output|n_nNobody_s_paying_you_much_mind_now_that_you_re_docked_Indeed|3cc4c5796a64",
-    "original": "\\n\\nNobody’s paying you much mind now that you’re docked. Indeed, you manage to find a relatively isolated spot at the back of the hangar to land. The ship settles with a resounding <i>thud</i>, and you make your way to the airlock. Time to see where your probe’s gotten off to... assuming it’s really here.",
+    "key": "output|Nobody_s_paying_you_much_mind_now_that_you_re_docked_Indeed_yo|068f5d8cdd21",
+    "original": "Nobody’s paying you much mind now that you’re docked. Indeed, you manage to find a relatively isolated spot at the back of the hangar to land. The ship settles with a resounding <i>thud</i>, and you make your way to the airlock. Time to see where your probe’s gotten off to... assuming it’s really here.",
     "translation": "",
-    "context": "<<POS:06404540>>"
+    "context": "<<POS:06404544>>"
   },
   {
     "key": "button|Next|d81143d80086",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06405004>>"
+    "context": "<<POS:06405004>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|i_Yeah_nice_try_i_the_voice_says_over_the_radio_suddenly|c66f4a6fde66",
@@ -567,25 +561,25 @@
     "key": "perk|AGGRESSIVE_AI|0a06c3693c76",
     "original": "AGGRESSIVE_AI",
     "translation": "",
-    "context": "<<POS:06405477>>"
+    "context": "<<POS:06405477>> createPerk(\"AGGRESSIVE_AI\")"
   },
   {
     "key": "perk|PIRATE_GUN|df72721785e0",
     "original": "PIRATE_GUN",
     "translation": "",
-    "context": "<<POS:06405587>>"
+    "context": "<<POS:06405587>> createPerk(\"PIRATE_GUN\")"
   },
   {
     "key": "name.show|Pirates|9166e0629e67",
     "original": "Pirates",
     "translation": "",
-    "context": "<<POS:06405997>>"
+    "context": "<<POS:06405997>> showName(\"Pirates\")"
   },
   {
     "key": "button|Next|e3f4fde33b31",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06406715>>"
+    "context": "<<POS:06406715>> addButton(0,\"Next\",ue.V.beginCombat)"
   },
   {
     "key": "output|blockHeader_Defeat|b27bba817a1d",
@@ -600,13 +594,7 @@
     "context": "<<POS:06406860>>"
   },
   {
-    "key": "output|n_n|fe488d0a46f7",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:06407256>>"
-  },
-  {
-    "key": "output|While_core_system_after_core_system_fails_the_bombardment_conti|c44d60cdd12b",
+    "key": "output|While_core_system_after_core_system_fails_the_bombardment_conti|e716fe254ba5",
     "original": "While core system after core system fails, the bombardment continues. Simply disabling your ship isn’t enough for these pirates. Alarms blare as thunderous vibrations rattle through the deck beneath your [pc.legOrLegs]. You close your eyes, awaiting the inevitab-",
     "translation": "",
     "context": "<<POS:06407272>>"
@@ -624,70 +612,76 @@
     "context": "<<POS:06407641>>"
   },
   {
-    "key": "output|n_nThe_target_locks_from_the_asteroid_subside_and_you_re_able|b76cadf6d9bc",
-    "original": "\\n\\nThe target locks from the asteroid subside, and you’re able to bring your ship forward into the bay unmolested. You pass through the force field and into a sweeping hangar bay, big enough for twenty or so large ships - and countless little tramp freighters and scout ships like the old Z14.",
+    "key": "output|The_target_locks_from_the_asteroid_subside_and_you_re_able_to_b|c3f6e5fc29c6",
+    "original": "The target locks from the asteroid subside, and you’re able to bring your ship forward into the bay unmolested. You pass through the force field and into a sweeping hangar bay, big enough for twenty or so large ships - and countless little tramp freighters and scout ships like the old Z14.",
     "translation": "",
-    "context": "<<POS:06408125>>"
+    "context": "<<POS:06408129>>"
   },
   {
-    "key": "output|n_nNobody_s_paying_you_much_mind_now_that_you_re_docked_Indeed|3cc4c5796a64#1",
-    "original": "\\n\\nNobody’s paying you much mind now that you’re docked. Indeed, you manage to find a relatively isolated spot at the back of the hangar to land. The ship settles with a resounding <i>thud</i>, and you make your way to the airlock. Time to see where your probe’s gotten off to... assuming it’s really here.",
+    "key": "output|Nobody_s_paying_you_much_mind_now_that_you_re_docked_Indeed_yo|068f5d8cdd21#1",
+    "original": "Nobody’s paying you much mind now that you’re docked. Indeed, you manage to find a relatively isolated spot at the back of the hangar to land. The ship settles with a resounding <i>thud</i>, and you make your way to the airlock. Time to see where your probe’s gotten off to... assuming it’s really here.",
     "translation": "",
-    "context": "<<POS:06408430>>"
+    "context": "<<POS:06408434>>"
   },
   {
-    "key": "output|n_n|e64419ffb7ab",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:06408877>>"
-  },
-  {
-    "key": "button|Submit|3514181ea4b0",
+    "key": "button|Submit|67ccd692d79a",
     "original": "Submit",
     "translation": "",
-    "context": "<<POS:06408931>>"
+    "context": "<<POS:06408931>> addButton(0,\"Submit\",n)"
   },
   {
     "key": "button|Call_Kiro|a1aeacbfa749",
     "original": "Call Kiro",
     "translation": "",
-    "context": "<<POS:06408994>>"
+    "context": "<<POS:06408994>> addButton(1,\"Call Kiro\",(function(){return e(!0)}))"
   },
   {
     "key": "button|Call_Kiro|bffd09083f7a",
     "original": "Call Kiro",
     "translation": "",
-    "context": "<<POS:06409093>>"
+    "context": "<<POS:06409093>> addButton(1,\"Call Kiro\",e)"
   },
   {
     "key": "button|Locked|1aaf25382f35",
     "original": "Locked",
     "translation": "",
-    "context": "<<POS:06409128>>"
+    "context": "<<POS:06409128>> addDisabledButton(1,\"Locked\",\"Locked\",\"You haven’t met a character you could call in a favor from...\")"
   },
   {
-    "key": "button|Call_Paige|8fe43cffe365",
+    "key": "button.hover|You_haven_t_met_a_character_you_could_call_in_a_favor_from|152107339bc1",
+    "original": "You haven’t met a character you could call in a favor from...",
+    "translation": "",
+    "context": "<<POS:06409146>> addDisabledButton(1,\"Locked\",\"Locked\",\"You haven’t met a character you could call in a favor from...\")"
+  },
+  {
+    "key": "button|Call_Paige|ce4dc97fff29",
     "original": "Call Paige",
     "translation": "",
-    "context": "<<POS:06409238>>"
+    "context": "<<POS:06409238>> addButton(2,\"Call Paige\",(function(){removeInput(),clearOutput(),paige.header(),author(\"B\"),output(\"You stretch out and slap the main breaker, listening to the headset and nearly everything else go dead as you feign a power failure. Hopefully that’ll buy you a few seconds to phone a friend...\"),outp..."
   },
   {
     "key": "button|Locked|98361f73e426",
     "original": "Locked",
     "translation": "",
-    "context": "<<POS:06412510>>"
+    "context": "<<POS:06412510>> addDisabledButton(2,\"Locked\",\"Locked\",\"You need a specific character on your crew for this.\")"
   },
   {
-    "key": "button|Run|6ec1a1f19c2c",
+    "key": "button.hover|You_need_a_specific_character_on_your_crew_for_this|124f6848ed56",
+    "original": "You need a specific character on your crew for this.",
+    "translation": "",
+    "context": "<<POS:06412528>> addDisabledButton(2,\"Locked\",\"Locked\",\"You need a specific character on your crew for this.\")"
+  },
+  {
+    "key": "button|Run|d4533b30da0b",
     "original": "Run!",
     "translation": "",
-    "context": "<<POS:06412597>>"
+    "context": "<<POS:06412597>> addButton(14,\"Run!\",o)"
   },
   {
     "key": "name.show|Mechanic|2cff3a98693f",
     "original": "Mechanic",
     "translation": "",
-    "context": "<<POS:06412738>>"
+    "context": "<<POS:06412738>> showName(\"Mechanic\")"
   },
   {
     "key": "output|You_tell_her_that_you_re_a_pirate|7ebcc09ada32",
@@ -696,10 +690,10 @@
     "context": "<<POS:06412820>>"
   },
   {
-    "key": "output|n_nShe_nearly_hyperventilates_laughing_her_diaphragm_spasming|10402e1f9300",
-    "original": "\\n\\nShe nearly hyperventilates laughing, her diaphragm spasming with the forcefulness of her squeaking delight. <i>“So’s my left tit, but you don’t hear me bandying it about like some kind of title. Everybody ‘round these parts calls themself a pirate. Even the dumbshit dog in the hangar down here.”</i> She snorts. <i>“Yeah, you’re a real big pirate, asshole. Keep sitting on your ass and polishing real pirates’ ships.”</i> A burnt-out servo slams into the ground next to your [pc.foot]. <i>“So, \"+pc.mf(\"Mister\",\"Miss\")+\" pirate, how are you going to waste my time today?”</i>",
+    "key": "output|She_nearly_hyperventilates_laughing_her_diaphragm_spasming_with|64c79e49c123",
+    "original": "She nearly hyperventilates laughing, her diaphragm spasming with the forcefulness of her squeaking delight. <i>“So’s my left tit, but you don’t hear me bandying it about like some kind of title. Everybody ‘round these parts calls themself a pirate. Even the dumbshit dog in the hangar down here.”</i> She snorts. <i>“Yeah, you’re a real big pirate, asshole. Keep sitting on your ass and polishing real pirates’ ships.”</i> A burnt-out servo slams into the ground next to your [pc.foot]. <i>“So, \"+pc.mf(\"Mister\",\"Miss\")+\" pirate, how are you going to waste my time today?”</i>",
     "translation": "",
-    "context": "<<POS:06412865>>"
+    "context": "<<POS:06412869>>"
   },
   {
     "key": "output|You_protest_that_you_aren_t_a_slave|673af4969df5",
@@ -708,19 +702,19 @@
     "context": "<<POS:06413551>>"
   },
   {
-    "key": "output|n_nShe_shakes_her_head_dish_shaped_ears_wobbling_i_That_s_w|b857e2cdd9f7",
-    "original": "\\n\\nShe shakes her head, dish-shaped ears wobbling. <i>“That’s where you’re wrong. Everyone’s a slave. They’re just one bad day away from accepting it.”</i> A half-melted servo nearly smacks into your skull from a careless toss. <i>“One fucked up night partying with the wrong people. One businessman thoughtlessly crossed. One bad decision to sample an experimental drug.”</i> Her weary laughter cuts deeper than her burning torch. <i>“Might as well just find yourself a decent master before you stumble into one of the bad ones.”</i>",
+    "key": "output|She_shakes_her_head_dish_shaped_ears_wobbling_i_That_s_where|a004c14c8088",
+    "original": "She shakes her head, dish-shaped ears wobbling. <i>“That’s where you’re wrong. Everyone’s a slave. They’re just one bad day away from accepting it.”</i> A half-melted servo nearly smacks into your skull from a careless toss. <i>“One fucked up night partying with the wrong people. One businessman thoughtlessly crossed. One bad decision to sample an experimental drug.”</i> Her weary laughter cuts deeper than her burning torch. <i>“Might as well just find yourself a decent master before you stumble into one of the bad ones.”</i>",
     "translation": "",
-    "context": "<<POS:06413598>>"
+    "context": "<<POS:06413602>>"
   },
   {
-    "key": "output|n_nYou|8b9764d2314b",
-    "original": "\\n\\nYou ",
+    "key": "output|You|5427028198d7",
+    "original": "You ",
     "translation": "",
-    "context": "<<POS:06414144>>"
+    "context": "<<POS:06414148>>"
   },
   {
-    "key": "output|politely_decline_to_follow_her_advice|cc1cf4ab5948",
+    "key": "output|politely_decline_to_follow_her_advice|586750d0eade",
     "original": "politely decline to follow her advice.",
     "translation": "",
     "context": "<<POS:06414175>>"
@@ -738,76 +732,100 @@
     "context": "<<POS:06414340>>"
   },
   {
-    "key": "output|n_n_i_Look_if_you_aren_t_going_to_get_to_work_what_do_you_wa|54ee2703c60a",
-    "original": "\\n\\n<i>“Look, if you aren’t going to get to work, what do you want from me?”</i>",
+    "key": "output|i_Look_if_you_aren_t_going_to_get_to_work_what_do_you_want_f|e6129d4d668b",
+    "original": "<i>“Look, if you aren’t going to get to work, what do you want from me?”</i>",
     "translation": "",
-    "context": "<<POS:06414410>>"
+    "context": "<<POS:06414414>>"
   },
   {
     "key": "button|Mining_Robots|44faaa2238a4",
     "original": "Mining Robots",
     "translation": "",
-    "context": "<<POS:06414623>>"
+    "context": "<<POS:06414623>> addDisabledButton(0,\"Mining Robots\",\"You already have the RFID pass!\")"
   },
   {
     "key": "button|Mining_Robots|69e269ac5494",
     "original": "Mining Robots",
     "translation": "",
-    "context": "<<POS:06414686>>"
+    "context": "<<POS:06414686>> addButton(0,\"Mining Robots\",a)"
   },
   {
     "key": "button|Raiders|a7bda23d7be6",
     "original": "Raiders",
     "translation": "",
-    "context": "<<POS:06414827>>"
+    "context": "<<POS:06414827>> addButton(3,\"Raiders\",u)"
   },
   {
     "key": "button|Raiders|f81a1bf7d32a",
     "original": "Raiders",
     "translation": "",
-    "context": "<<POS:06414860>>"
+    "context": "<<POS:06414860>> addDisabledButton(3,\"Raiders\",\"Raiders\",\"You already had this discussion.\")"
   },
   {
-    "key": "button|Locked|08a2c95d0e3d",
+    "key": "button.hover|You_already_had_this_discussion|474bea6403e5",
+    "original": "You already had this discussion.",
+    "translation": "",
+    "context": "<<POS:06414880>> addDisabledButton(3,\"Raiders\",\"Raiders\",\"You already had this discussion.\")"
+  },
+  {
+    "key": "button|Locked|185c1cb0a5ea",
     "original": "Locked",
     "translation": "",
-    "context": "<<POS:06414936>>"
+    "context": "<<POS:06414936>> addDisabledButton(3,\"Locked\",\"Locked\",\"You don’t know enough for this.\")"
   },
   {
-    "key": "button|Her|b7f5bea7f2b1",
+    "key": "button.hover|You_don_t_know_enough_for_this|97cc790f3357",
+    "original": "You don’t know enough for this.",
+    "translation": "",
+    "context": "<<POS:06414954>> addDisabledButton(3,\"Locked\",\"Locked\",\"You don’t know enough for this.\")"
+  },
+  {
+    "key": "button|Her|4ae2b770552d",
     "original": "Her",
     "translation": "",
-    "context": "<<POS:06415034>>"
+    "context": "<<POS:06415034>> addButton(1,\"Her\",i)"
   },
   {
     "key": "button|Her|a926d69b2c9c",
     "original": "Her",
     "translation": "",
-    "context": "<<POS:06415063>>"
+    "context": "<<POS:06415063>> addDisabledButton(1,\"Her\",\"Her\",\"She didn’t seem very keen on sharing.\")"
   },
   {
-    "key": "button|Flirt|916a318f668e",
+    "key": "button.hover|She_didn_t_seem_very_keen_on_sharing|d756332dedfc",
+    "original": "She didn’t seem very keen on sharing.",
+    "translation": "",
+    "context": "<<POS:06415075>> addDisabledButton(1,\"Her\",\"Her\",\"She didn’t seem very keen on sharing.\")"
+  },
+  {
+    "key": "button|Flirt|19899b94e7fc",
     "original": "Flirt",
     "translation": "",
-    "context": "<<POS:06415165>>"
+    "context": "<<POS:06415165>> addButton(2,\"Flirt\",n)"
   },
   {
     "key": "button|Flirt|74787e69158c",
     "original": "Flirt",
     "translation": "",
-    "context": "<<POS:06415196>>"
+    "context": "<<POS:06415196>> addDisabledButton(2,\"Flirt\",\"Flirt\",\"You tried this. It didn’t work.\")"
   },
   {
-    "key": "button|Fight|d9abac10e4bf",
+    "key": "button.hover|You_tried_this_It_didn_t_work|1ee3a34817e2",
+    "original": "You tried this. It didn’t work.",
+    "translation": "",
+    "context": "<<POS:06415212>> addDisabledButton(2,\"Flirt\",\"Flirt\",\"You tried this. It didn’t work.\")"
+  },
+  {
+    "key": "button|Fight|30859dcbe31d",
     "original": "Fight",
     "translation": "",
-    "context": "<<POS:06415259>>"
+    "context": "<<POS:06415259>> addButton(4,\"Fight\",h)"
   },
   {
     "key": "button|Leave|15b20871ffbb",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:06415283>>"
+    "context": "<<POS:06415283>> addButton(14,\"Leave\",l)"
   },
   {
     "key": "output|You_suggest_that_you_d_be_happy_to_keep_her_company_if_she_wante|eac32f219e4c",
@@ -816,10 +834,10 @@
     "context": "<<POS:06415350>>"
   },
   {
-    "key": "output|n_nThe_mouse_girl_pauses_briefly_then_resumes_tossing_down_bit|75ad6183962b",
-    "original": "\\n\\nThe mouse-girl pauses briefly, then resumes tossing down bits of metal. <i>“Yeah, you’re either new to rodenians or an asshole. Either way, not interested. Already got a mate, and don’t need any new friends, with or without benefits.”</i> Her tail tosses a wrench into her toolbox angrily. <i>“But we both know that \"+pc.mf(\"guys\",\"girls\")+\" like you are all about those benefits. Don’t you have anything better to do than waste my time?”</i>",
+    "key": "output|The_mouse_girl_pauses_briefly_then_resumes_tossing_down_bits_of|9a60746ec411",
+    "original": "The mouse-girl pauses briefly, then resumes tossing down bits of metal. <i>“Yeah, you’re either new to rodenians or an asshole. Either way, not interested. Already got a mate, and don’t need any new friends, with or without benefits.”</i> Her tail tosses a wrench into her toolbox angrily. <i>“But we both know that \"+pc.mf(\"guys\",\"girls\")+\" like you are all about those benefits. Don’t you have anything better to do than waste my time?”</i>",
     "translation": "",
-    "context": "<<POS:06415443>>"
+    "context": "<<POS:06415447>>"
   },
   {
     "key": "output|You_ask_the_mouse_woman_her_name|0397ff5d2a86",
@@ -828,52 +846,52 @@
     "context": "<<POS:06415998>>"
   },
   {
-    "key": "output|n_n_i_Nope_You_don_t_need_it_and_I_m_not_giving_it_i|946c83db9bb9",
-    "original": "\\n\\n<i>“Nope. You don’t need it, and I’m not giving it.”</i>",
+    "key": "output|i_Nope_You_don_t_need_it_and_I_m_not_giving_it_i|3e6aa3bc16e8",
+    "original": "<i>“Nope. You don’t need it, and I’m not giving it.”</i>",
     "translation": "",
-    "context": "<<POS:06416042>>"
+    "context": "<<POS:06416046>>"
   },
   {
-    "key": "output|n_nMaybe_you_should_ask_something_else|cb3d508cebf6",
-    "original": "\\n\\nMaybe you should ask something else...",
+    "key": "output|Maybe_you_should_ask_something_else|937b516747da",
+    "original": "Maybe you should ask something else...",
     "translation": "",
-    "context": "<<POS:06416113>>"
+    "context": "<<POS:06416117>>"
   },
   {
-    "key": "output|You_ask_her_what_the_deal_is_with_the_mining_robots_and_why_the|eeabe48d5c43",
+    "key": "output|You_ask_her_what_the_deal_is_with_the_mining_robots_and_why_the|14262c891d48",
     "original": "You ask her what the deal is with the mining robots, and why they keep attacking you.",
     "translation": "",
     "context": "<<POS:06416296>>"
   },
   {
-    "key": "output|n_n_i_Oh_for_fuck_s_sake_i_The_rodenian_whirls_around_to|691d968e19a4",
-    "original": "\\n\\n<i>“Oh for fuck’s sake...”</i> The rodenian whirls around to stare down at you. <i>“You came down here without an RFID badge?”</i> Her eyes widen. <i>“You did. You fucking moron. Are you </i>trying<i> to get yourself killed? These things...”</i> She kicks the disabled robot in the head. <i>“They have the all the brainpower of the universe’s dumbest cockroach. Half of them think organic matter’s just some easily drillable rock. The other half might realize you’re a living thing and assume you’re a thief. Either way, the results are the same.”</i>",
+    "key": "output|i_Oh_for_fuck_s_sake_i_The_rodenian_whirls_around_to_sta|74f00b26bda3",
+    "original": "<i>“Oh for fuck’s sake...”</i> The rodenian whirls around to stare down at you. <i>“You came down here without an RFID badge?”</i> Her eyes widen. <i>“You did. You fucking moron. Are you </i>trying<i> to get yourself killed? These things...”</i> She kicks the disabled robot in the head. <i>“They have the all the brainpower of the universe’s dumbest cockroach. Half of them think organic matter’s just some easily drillable rock. The other half might realize you’re a living thing and assume you’re a thief. Either way, the results are the same.”</i>",
     "translation": "",
-    "context": "<<POS:06416392>>"
+    "context": "<<POS:06416396>>"
   },
   {
-    "key": "output|n_nYou_nod_That_s_about_in_line_with_your_experiences|f478597a5b0a",
-    "original": "\\n\\nYou nod. That’s about in line with your experiences.",
+    "key": "output|You_nod_That_s_about_in_line_with_your_experiences|daa5d8851cdf",
+    "original": "You nod. That’s about in line with your experiences.",
     "translation": "",
-    "context": "<<POS:06416958>>"
+    "context": "<<POS:06416962>>"
   },
   {
-    "key": "output|n_n_i_Those_dumb_fuck_bunnies_are_worse_at_running_this_place|5ede419a36b5",
-    "original": "\\n\\n<i>“Those dumb fuck-bunnies are worse at running this place than they are at taking showers.”</i> The sour mechanic sighs. <i>“Look, I might be an asshole, but I’m not gonna let you get yourself killed on your way out of here.”</i> She digs deep into her toolbox, spilling a few tiny screwdrivers into the cut-open diggerbot. <i>“Ah, here it is!”</i> A small alligator clip with skull and crossbones appears in her fuzzy hand. <i>“Pin this on somewhere, and they’ll leave you alone.”</i> It sails through the air into your hand.",
+    "key": "output|i_Those_dumb_fuck_bunnies_are_worse_at_running_this_place_than|189084081856",
+    "original": "<i>“Those dumb fuck-bunnies are worse at running this place than they are at taking showers.”</i> The sour mechanic sighs. <i>“Look, I might be an asshole, but I’m not gonna let you get yourself killed on your way out of here.”</i> She digs deep into her toolbox, spilling a few tiny screwdrivers into the cut-open diggerbot. <i>“Ah, here it is!”</i> A small alligator clip with skull and crossbones appears in her fuzzy hand. <i>“Pin this on somewhere, and they’ll leave you alone.”</i> It sails through the air into your hand.",
     "translation": "",
-    "context": "<<POS:06417025>>"
+    "context": "<<POS:06417029>>"
   },
   {
-    "key": "output|n_nYou_thank_the_mystery_mouse_for_her_help|01bbfc587984",
-    "original": "\\n\\nYou thank the mystery mouse for her help.",
+    "key": "output|You_thank_the_mystery_mouse_for_her_help|73c287764322",
+    "original": "You thank the mystery mouse for her help.",
     "translation": "",
-    "context": "<<POS:06417568>>"
+    "context": "<<POS:06417572>>"
   },
   {
-    "key": "output|n_n_i_Don_t_mention_it_And_smarten_up_Zh_ng_Shi_eats_up_idio|99b7e61f5a1f",
-    "original": "\\n\\n<i>“Don’t mention it. And smarten up! Zhèng Shi eats up idiots and spits out slaves. We already have too many of those if you ask me. Can’t even go up to the recreation deck without three pretty slaves trying to warm my bed.”</i> The mouse-girl waves dismissively. <i>“Now get out of my hair. I’m already behind on this repair job, and I am </i>not<i> going to waste anymore time in this hell-pit than I have to. Bad enough the other Raiders sent me down here in the first place.”</i>",
+    "key": "output|i_Don_t_mention_it_And_smarten_up_Zh_ng_Shi_eats_up_idiots_a|92c198b94c70",
+    "original": "<i>“Don’t mention it. And smarten up! Zhèng Shi eats up idiots and spits out slaves. We already have too many of those if you ask me. Can’t even go up to the recreation deck without three pretty slaves trying to warm my bed.”</i> The mouse-girl waves dismissively. <i>“Now get out of my hair. I’m already behind on this repair job, and I am </i>not<i> going to waste anymore time in this hell-pit than I have to. Bad enough the other Raiders sent me down here in the first place.”</i>",
     "translation": "",
-    "context": "<<POS:06417624>>"
+    "context": "<<POS:06417628>>"
   },
   {
     "key": "output|You_bring_up_the_robots_again_and_how_you_re_thinking_over_her|a421f1aa41e8",
@@ -882,28 +900,28 @@
     "context": "<<POS:06418125>>"
   },
   {
-    "key": "output|n_nThe_mouse_woman_rolls_her_eyes_i_Oh_so_now_you_want_my_he|430f70a5c19f",
-    "original": "\\n\\nThe mouse-woman rolls her eyes. <i>“Oh so now you want my help to keep your insides from being drilled into your outsides?”</i> She snorts disdainfully. <i>“Wise up before you get yourself killed. Here.”</i> She tosses a badge through the air.",
+    "key": "output|The_mouse_woman_rolls_her_eyes_i_Oh_so_now_you_want_my_help_t|54f605f1f7de",
+    "original": "The mouse-woman rolls her eyes. <i>“Oh so now you want my help to keep your insides from being drilled into your outsides?”</i> She snorts disdainfully. <i>“Wise up before you get yourself killed. Here.”</i> She tosses a badge through the air.",
     "translation": "",
-    "context": "<<POS:06418223>>"
+    "context": "<<POS:06418227>>"
   },
   {
-    "key": "output|n_n_b_Do_you_keep_the_RFID_badge_Doing_so_will_permanently_pre|2be886e9cd4a",
-    "original": "\\n\\n<b>Do you keep the RFID badge? Doing so will permanently prevent the mining robots from attacking you.</b> Of course, you could still pick a fight if you see one...",
+    "key": "output|b_Do_you_keep_the_RFID_badge_Doing_so_will_permanently_prevent|9082e5b117e4",
+    "original": "<b>Do you keep the RFID badge? Doing so will permanently prevent the mining robots from attacking you.</b> Of course, you could still pick a fight if you see one...",
     "translation": "",
-    "context": "<<POS:06418498>>"
+    "context": "<<POS:06418502>>"
   },
   {
     "key": "button|Yes|6d55e76a6472",
     "original": "Yes",
     "translation": "",
-    "context": "<<POS:06418694>>"
+    "context": "<<POS:06418694>> addButton(0,\"Yes\",s)"
   },
   {
     "key": "button|No|1c655db5490a",
     "original": "No",
     "translation": "",
-    "context": "<<POS:06418715>>"
+    "context": "<<POS:06418715>> addButton(1,\"No\",r)"
   },
   {
     "key": "output|b_Key_Item_Gained_b_Zh_ng_Shi_RFID_Badge_With_this_mining|84fbfcdffc6d",
@@ -918,16 +936,16 @@
     "context": "<<POS:06418999>>"
   },
   {
-    "key": "output|n_n_i_Suit_yourself_I_tried_i_The_mouse_eared_woman_shake|aa98d703060b",
-    "original": "\\n\\n<i>“Suit yourself. I tried.”</i> The mouse-eared woman shakes her head sadly. <i>“I tried.”</i> She waves you away, unwilling to speak any longer.",
+    "key": "output|i_Suit_yourself_I_tried_i_The_mouse_eared_woman_shakes_he|bf2370be6a47",
+    "original": "<i>“Suit yourself. I tried.”</i> The mouse-eared woman shakes her head sadly. <i>“I tried.”</i> She waves you away, unwilling to speak any longer.",
     "translation": "",
-    "context": "<<POS:06419064>>"
+    "context": "<<POS:06419068>>"
   },
   {
-    "key": "output|n_n_i_You_re_a_moron_When_you_die_it_won_t_be_my_fault_i|37de258e7aba",
-    "original": "\\n\\n<i>“You’re a moron. When you die, it won’t be my fault.”</i>",
+    "key": "output|i_You_re_a_moron_When_you_die_it_won_t_be_my_fault_i|ddf2d0459b61",
+    "original": "<i>“You’re a moron. When you die, it won’t be my fault.”</i>",
     "translation": "",
-    "context": "<<POS:06419248>>"
+    "context": "<<POS:06419252>>"
   },
   {
     "key": "output|i_Raiders_i_you_ask|63d229964820",
@@ -936,22 +954,22 @@
     "context": "<<POS:06419376>>"
   },
   {
-    "key": "output|n_n_i_Holy_titty_fucking_space_Jesus_no_wonder_you_didn_t_hav|df499dd1a6b2",
-    "original": "\\n\\n<i>“Holy titty-fucking space-Jesus, no wonder you didn’t have a badge. You don’t know anything, do you?”</i> The mouse-girl whistles. <i>“Guess they’re letting any idiot who calls [pc.himHer]self a pirate in nowadays. Whatever.”</i> With a slow wave and slower enunciation, she explains, <i>“Rat’s Raiders are one of the big gangs that runs Zhèng Shi. Unlike the rest of these degenerates, we’re not big ol’ dick-bags about it. See we aren’t in the game </i>entirely<i> to line our pockets. We’re in it to fuck with the status quo. Take from the jackasses at the top who can afford it and put it to better use helping out those of us at the bottom. That’s the idea anyway.”</i>",
+    "key": "output|i_Holy_titty_fucking_space_Jesus_no_wonder_you_didn_t_have_a|93013c9f57e4",
+    "original": "<i>“Holy titty-fucking space-Jesus, no wonder you didn’t have a badge. You don’t know anything, do you?”</i> The mouse-girl whistles. <i>“Guess they’re letting any idiot who calls [pc.himHer]self a pirate in nowadays. Whatever.”</i> With a slow wave and slower enunciation, she explains, <i>“Rat’s Raiders are one of the big gangs that runs Zhèng Shi. Unlike the rest of these degenerates, we’re not big ol’ dick-bags about it. See we aren’t in the game </i>entirely<i> to line our pockets. We’re in it to fuck with the status quo. Take from the jackasses at the top who can afford it and put it to better use helping out those of us at the bottom. That’s the idea anyway.”</i>",
     "translation": "",
-    "context": "<<POS:06419413>>"
+    "context": "<<POS:06419417>>"
   },
   {
-    "key": "output|n_n_i_Really_i|f1238ff6ea8c",
-    "original": "\\n\\n<i>“Really?”</i>",
+    "key": "output|i_Really_i|b37cd817975b",
+    "original": "<i>“Really?”</i>",
     "translation": "",
-    "context": "<<POS:06420105>>"
+    "context": "<<POS:06420109>>"
   },
   {
-    "key": "output|n_nSomething_approximating_a_smile_spreads_across_her_pointed_s|67dd6f07b8ee",
-    "original": "\\n\\nSomething approximating a smile spreads across her pointed snout. <i>“You betcha. Of course we’re not big enough to stick it to the people that matter on our own. That’s why we gotta put up with the asshole Vipers, the slut Jumpers, the machine fetishists, and those self-important corona-huffers.”</i> She shrugs. <i>“Anyway, I have work to do, and you...”</i> She points at you with her tail, not even bothering to look. <i>“...are bothering me.”</i>",
+    "key": "output|Something_approximating_a_smile_spreads_across_her_pointed_snout|79cf96859638",
+    "original": "Something approximating a smile spreads across her pointed snout. <i>“You betcha. Of course we’re not big enough to stick it to the people that matter on our own. That’s why we gotta put up with the asshole Vipers, the slut Jumpers, the machine fetishists, and those self-important corona-huffers.”</i> She shrugs. <i>“Anyway, I have work to do, and you...”</i> She points at you with her tail, not even bothering to look. <i>“...are bothering me.”</i>",
     "translation": "",
-    "context": "<<POS:06420136>>"
+    "context": "<<POS:06420140>>"
   },
   {
     "key": "output|You_pull_out_your_pc_weapon|bd9ecbbf3e81",
@@ -960,28 +978,28 @@
     "context": "<<POS:06420706>>"
   },
   {
-    "key": "output|n_n_i_Oh_fuck_this_i_The_mouse_girl_rolls_behind_the_bot_a|648000693a9c",
-    "original": "\\n\\n<i>“Oh fuck this.”</i> The mouse-girl rolls behind the bot and slaps it hard. <i>“Can’t even finish a repair job without some </i>ASSHOLE<i> trying to ear-fuck me into his pet puppet.”</i> The mining robot’s eyes light up. Even with its panels off and half its pieces on the floor, it’s still an impressive piece of tech. <i>“Fuck ‘em up, big guy.”</i>",
+    "key": "output|i_Oh_fuck_this_i_The_mouse_girl_rolls_behind_the_bot_and_s|759cef443798",
+    "original": "<i>“Oh fuck this.”</i> The mouse-girl rolls behind the bot and slaps it hard. <i>“Can’t even finish a repair job without some </i>ASSHOLE<i> trying to ear-fuck me into his pet puppet.”</i> The mining robot’s eyes light up. Even with its panels off and half its pieces on the floor, it’s still an impressive piece of tech. <i>“Fuck ‘em up, big guy.”</i>",
     "translation": "",
-    "context": "<<POS:06420747>>"
+    "context": "<<POS:06420751>>"
   },
   {
-    "key": "output|n_nThrough_the_robot_s_legs_you_see_the_sprinting_mouse_girl_f|6839579a4f67",
-    "original": "\\n\\nThrough the robot’s legs, you see the sprinting mouse-girl flipping you the bird.",
+    "key": "output|Through_the_robot_s_legs_you_see_the_sprinting_mouse_girl_flipp|dec3ab6e7fb1",
+    "original": "Through the robot’s legs, you see the sprinting mouse-girl flipping you the bird.",
     "translation": "",
-    "context": "<<POS:06421114>>"
+    "context": "<<POS:06421118>>"
   },
   {
-    "key": "output|n_nFuck|d7c640b990e5",
-    "original": "\\n\\nFuck.",
+    "key": "output|Fuck|b3d80fdce055",
+    "original": "Fuck.",
     "translation": "",
-    "context": "<<POS:06421210>>"
+    "context": "<<POS:06421214>>"
   },
   {
-    "key": "button|Next|cad752005f41",
+    "key": "button|Next|588db2fa8348",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06421473>>"
+    "context": "<<POS:06421473>> addButton(0,\"Next\",ue.V.beginCombat)"
   },
   {
     "key": "output|You_bid_your_farewells|405d4d9564c4",
@@ -990,16 +1008,16 @@
     "context": "<<POS:06421554>>"
   },
   {
-    "key": "output|n_n_i_Yeah_try_not_to_die_to_badly_If_they_send_me_down_to_c|239b80a04cfa",
-    "original": "\\n\\n<i>“Yeah, try not to die to badly. If they send me down to clean up the mess, I’m going to be </i>pissed<i>.”</i>",
+    "key": "output|i_Yeah_try_not_to_die_to_badly_If_they_send_me_down_to_clean|3413cc1dd57f",
+    "original": "<i>“Yeah, try not to die to badly. If they send me down to clean up the mess, I’m going to be </i>pissed<i>.”</i>",
     "translation": "",
-    "context": "<<POS:06421588>>"
+    "context": "<<POS:06421592>>"
   },
   {
     "key": "button|Next|27806bb1a424",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06421733>>"
+    "context": "<<POS:06421733>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|You_circle_around_the_disabled_bot_with_a_wary_step_and_a_hand|d30ee2fef333",
@@ -1008,34 +1026,34 @@
     "context": "<<POS:06421832>>"
   },
   {
-    "key": "output|n_nThe_slight_figure_that_comes_into_view_is_explicitly_almost|14ad5d7d5361",
-    "original": "\\n\\nThe slight figure that comes into view is explicitly, almost universally non-threatening. She’s a rodenian\"+(te.dI.entryUnlocked(\"Rodenians\")?\"\":\" (according to your Codex’s notification)\")+\" and barely over four feet tall - small for her race. Maybe if the grease stains were swapped for blood, she could look like some kind of petite berserker, but her armor consists of a breezy shirt and scuffed-up overalls. Her ‘weapons’ aren’t much better: a hand-sized plasma torch with a 1-inch flame and a purple-and-green painted toolbox.",
+    "key": "output|The_slight_figure_that_comes_into_view_is_explicitly_almost_uni|a6e33f4b7cb8",
+    "original": "The slight figure that comes into view is explicitly, almost universally non-threatening. She’s a rodenian\"+(te.dI.entryUnlocked(\"Rodenians\")?\"\":\" (according to your Codex’s notification)\")+\" and barely over four feet tall - small for her race. Maybe if the grease stains were swapped for blood, she could look like some kind of petite berserker, but her armor consists of a breezy shirt and scuffed-up overalls. Her ‘weapons’ aren’t much better: a hand-sized plasma torch with a 1-inch flame and a purple-and-green painted toolbox.",
     "translation": "",
-    "context": "<<POS:06421941>>"
+    "context": "<<POS:06421945>>"
   },
   {
-    "key": "output|n_nIt_s_the_mouse_girl_s_mouth_and_nimble_fingers_that_pose_the|185551dc2820",
-    "original": "\\n\\nIt’s the mouse-girl’s mouth and nimble fingers that pose the real threat. She effortlessly strips wires and charred circuit boards while uttering a litany of slurs so sinful they could score her some jail time on a more civilized planet.",
+    "key": "output|It_s_the_mouse_girl_s_mouth_and_nimble_fingers_that_pose_the_rea|ff3fc41b9e39",
+    "original": "It’s the mouse-girl’s mouth and nimble fingers that pose the real threat. She effortlessly strips wires and charred circuit boards while uttering a litany of slurs so sinful they could score her some jail time on a more civilized planet.",
     "translation": "",
-    "context": "<<POS:06422553>>"
+    "context": "<<POS:06422557>>"
   },
   {
-    "key": "output|n_nSo_long_as_the_rodenian_s_not_packing_some_secretive_mil_spe|f02218fdbcf8",
-    "original": "\\n\\nSo long as the rodenian’s not packing some secretive mil-spec cybernetics, you doubt you have much to fear from her. Do you get her attention?",
+    "key": "output|So_long_as_the_rodenian_s_not_packing_some_secretive_mil_spec_cy|7c2b522c2442",
+    "original": "So long as the rodenian’s not packing some secretive mil-spec cybernetics, you doubt you have much to fear from her. Do you get her attention?",
     "translation": "",
-    "context": "<<POS:06422805>>"
+    "context": "<<POS:06422809>>"
   },
   {
     "key": "button|Greet|19514afd39f0",
     "original": "Greet",
     "translation": "",
-    "context": "<<POS:06422994>>"
+    "context": "<<POS:06422994>> addButton(0,\"Greet\",(function(){clearOutput(),Nw(),author(\"Fenoxo\"),output(\"<i>“Hey!”</i> You wave at the swearing mouse-woman non-threateningly.\"),output(\"\\n\\nShe doesn’t look up. <i>“Whatever it is, I don’t have time for it. Why don’t you go hit some rocks or something and stop trying to bother th..."
   },
   {
     "key": "button|Leave|f12a2673760a",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:06423424>>"
+    "context": "<<POS:06423424>> addButton(14,\"Leave\",l)"
   },
   {
     "key": "output|You_approach_the_mouse_girl_once_more_This_time_the_rodenian_l|087e11bc979e",
@@ -1059,28 +1077,40 @@
     "key": "button|Airlock|f7560118df47",
     "original": "Airlock",
     "translation": "",
-    "context": "<<POS:06423929>>"
+    "context": "<<POS:06423929>> addButton(0,\"Airlock\",(function(){moveToRoom(\"HERISIOD.ZHENG SHI STATION.ZSM YY18\"),mainGameMenu()}))"
   },
   {
     "key": "button|Hangar|52f6c68db10c",
     "original": "Hangar",
     "translation": "",
-    "context": "<<POS:06424031>>"
+    "context": "<<POS:06424031>> addButton(1,\"Hangar\",Cw)"
   },
   {
-    "key": "output|n_nA_vial_of_something_called_SnakeByte_sits_on_the_desk|4e83834d33f6",
-    "original": "\\n\\nA vial of something called ‘SnakeByte’ sits on the desk.",
+    "key": "output|A_vial_of_something_called_SnakeByte_sits_on_the_desk|5935b45df04e",
+    "original": "A vial of something called ‘SnakeByte’ sits on the desk.",
     "translation": "",
-    "context": "<<POS:06424192>>"
+    "context": "<<POS:06424196>>"
   },
   {
     "key": "button|SnakeByte|70c4503f61b2",
     "original": "SnakeByte",
     "translation": "",
-    "context": "<<POS:06424268>>"
+    "context": "<<POS:06424268>> addButton(0,\"SnakeByte\",(function(){function e(){clearOutput(),showBust(\"\"),showName(\"SnakeByte\"),quickLoot(new Qf.Z)}clearOutput(),showBust(\"\"),showName(\"SnakeByte\"),flags.SNAKEBYTE_LOOTED=1,output(\"The injector is apparently some kind of hyper-specific gene-mod, designed to imbue the user with inh..."
   },
   {
-    "key": "output|A_dusty_fedora_rests_on_the_desk_next_to_it_put_down_and_never|80c5be56d641",
+    "key": "button.hover|SnakeByte|70c4503f61b2",
+    "original": "SnakeByte",
+    "translation": "",
+    "context": "<<POS:06424725>> addButton(0,\"SnakeByte\",(function(){function e(){clearOutput(),showBust(\"\"),showName(\"SnakeByte\"),quickLoot(new Qf.Z)}clearOutput(),showBust(\"\"),showName(\"SnakeByte\"),flags.SNAKEBYTE_LOOTED=1,output(\"The injector is apparently some kind of hyper-specific gene-mod, designed to imbue the user with inh..."
+  },
+  {
+    "key": "button.tooltip|Check_it_out|be5c6506887b",
+    "original": "Check it out.",
+    "translation": "",
+    "context": "<<POS:06424737>> addButton(0,\"SnakeByte\",(function(){function e(){clearOutput(),showBust(\"\"),showName(\"SnakeByte\"),quickLoot(new Qf.Z)}clearOutput(),showBust(\"\"),showName(\"SnakeByte\"),flags.SNAKEBYTE_LOOTED=1,output(\"The injector is apparently some kind of hyper-specific gene-mod, designed to imbue the user with inh..."
+  },
+  {
+    "key": "output|A_dusty_fedora_rests_on_the_desk_next_to_it_put_down_and_never|5396e5b7d97f",
     "original": " A dusty fedora rests on the desk next to it, put down and never picked back up. This guy really needs to get his shit together.",
     "translation": "",
     "context": "<<POS:06424913>>"
@@ -1089,7 +1119,7 @@
     "key": "button|Take_Fedora|e031b74f5eed",
     "original": "Take Fedora",
     "translation": "",
-    "context": "<<POS:06425094>>"
+    "context": "<<POS:06425094>> addButton(0,\"Take Fedora\",(function(){clearOutput(),showBust(\"\"),showName(\"A Fedora!\"),quickLoot(new mw.X),flags.TOOK_FEDORA=1}))"
   },
   {
     "key": "output|The_software_development_center_stretches_north_and_west|a7a6caf70fab",
@@ -1116,22 +1146,28 @@
     "context": "<<POS:06426093>>"
   },
   {
-    "key": "output|n_n_textify_hw_hw_0_a_Z_Near_the_exit_hatch_stands_a_bla|a2ed894ac4da",
-    "original": "\\n\\n\"+textify(hw||(hw=(0,a.Z)([\"Near the exit hatch stands a black-haired human woman with skin like she’s stood too close to a forge fire her entire life. The pirate’s affiliation is obvious from the emblems tattooed up and down her bare arm, marking her as a member of one Zhèng Shi’s top five.\"])))",
+    "key": "output|textify_hw_hw_0_a_Z_Near_the_exit_hatch_stands_a_black_h|ef3632b44e0c",
+    "original": "\"+textify(hw||(hw=(0,a.Z)([\"Near the exit hatch stands a black-haired human woman with skin like she’s stood too close to a forge fire her entire life. The pirate’s affiliation is obvious from the emblems tattooed up and down her bare arm, marking her as a member of one Zhèng Shi’s top five.\"])))",
     "translation": "",
-    "context": "<<POS:06426421>>"
+    "context": "<<POS:06426425>>"
   },
   {
     "key": "button|Give_Helmet|d18b00a5350d",
     "original": "Give Helmet",
     "translation": "",
-    "context": "<<POS:06426739>>"
+    "context": "<<POS:06426739>> addButton(e++,\"Give Helmet\",(function(){clearAll(),author(\"William\"),showName(\"Pirate\"),output(textify(lw||(lw=(0,a.Z)([\"\\n\\t<i>“Finally! Who the FUCK let’s that schizo moth run this place? Can’t drop a single fucking thing off herself and can’t run a tight ship. Not only was I stuck down here all f..."
   },
   {
-    "key": "output|n_nThere_s_a_bulky_black_space_suit_next_to_you_the_only_one_h|0352e6895bb4",
-    "original": "\\n\\nThere’s a bulky black space suit next to you, the only one hanging up on the racks. Somebody’s stenciled in a white skull and crossbones on the shoulders, and a smiley face smoking a cigar on the chest.",
+    "key": "button.hover|Give_Helmet|d18b00a5350d",
+    "original": "Give Helmet",
     "translation": "",
-    "context": "<<POS:06428082>>"
+    "context": "<<POS:06428018>> addButton(e++,\"Give Helmet\",(function(){clearAll(),author(\"William\"),showName(\"Pirate\"),output(textify(lw||(lw=(0,a.Z)([\"\\n\\t<i>“Finally! Who the FUCK let’s that schizo moth run this place? Can’t drop a single fucking thing off herself and can’t run a tight ship. Not only was I stuck down here all f..."
+  },
+  {
+    "key": "output|There_s_a_bulky_black_space_suit_next_to_you_the_only_one_hangi|7e3e54b0e4fd",
+    "original": "There’s a bulky black space suit next to you, the only one hanging up on the racks. Somebody’s stenciled in a white skull and crossbones on the shoulders, and a smiley face smoking a cigar on the chest.",
+    "translation": "",
+    "context": "<<POS:06428086>>"
   },
   {
     "key": "output|You_ve_got_a_replacement_helmet_for_the_broken_one_hanging_on_t|1d2c5877605e",
@@ -1149,43 +1185,61 @@
     "key": "button|Take_Suit|2bf484b8e630",
     "original": "Take Suit",
     "translation": "",
-    "context": "<<POS:06428731>>"
+    "context": "<<POS:06428731>> addButton(e++,\"Take Suit\",Iw)"
   },
   {
-    "key": "output|n_nThe_racks_for_storing_spacesuits_are_empty_and_have_been|3e792cf2f5e2",
-    "original": "\\n\\nThe racks for storing spacesuits are empty... and have been ever since you grabbed the last one.",
+    "key": "output|The_racks_for_storing_spacesuits_are_empty_and_have_been_ever|b3ce16e0007a",
+    "original": "The racks for storing spacesuits are empty... and have been ever since you grabbed the last one.",
     "translation": "",
-    "context": "<<POS:06428759>>"
+    "context": "<<POS:06428763>>"
   },
   {
-    "key": "output|n_n_b_You_re_all_ready_to_go_for_a_spacewalk_b|c026e782cabc",
-    "original": "\\n\\n<b>You’re all ready to go for a spacewalk!</b>",
+    "key": "output|b_You_re_all_ready_to_go_for_a_spacewalk_b|58ba5bf11771",
+    "original": "<b>You’re all ready to go for a spacewalk!</b>",
     "translation": "",
-    "context": "<<POS:06429035>>"
+    "context": "<<POS:06429039>>"
   },
   {
-    "key": "button|Spacewalk|f58b9ce6f866",
+    "key": "button|Spacewalk|62f87f444335",
     "original": "Spacewalk",
     "translation": "",
-    "context": "<<POS:06429103>>"
+    "context": "<<POS:06429103>> addButton(e++,\"Spacewalk\",window.spacewalkGoooo,\"Spacewalk\",\"Take a walk on the surface of the asteroid.\")"
   },
   {
-    "key": "output|n_n_b_If_you_misplaced_parts_of_the_space_suit_they_might_have|2da5ea4fe8fd",
-    "original": "\\n\\n<b>If you misplaced parts of the space suit, they might have found their way into Urbolg’s hands... for a price.</b>",
+    "key": "button.hover|Spacewalk|62f87f444335",
+    "original": "Spacewalk",
     "translation": "",
-    "context": "<<POS:06429278>>"
+    "context": "<<POS:06429137>> addButton(e++,\"Spacewalk\",window.spacewalkGoooo,\"Spacewalk\",\"Take a walk on the surface of the asteroid.\")"
+  },
+  {
+    "key": "button.tooltip|Take_a_walk_on_the_surface_of_the_asteroid|17bc00e154a1",
+    "original": "Take a walk on the surface of the asteroid.",
+    "translation": "",
+    "context": "<<POS:06429149>> addButton(e++,\"Spacewalk\",window.spacewalkGoooo,\"Spacewalk\",\"Take a walk on the surface of the asteroid.\")"
+  },
+  {
+    "key": "output|b_If_you_misplaced_parts_of_the_space_suit_they_might_have_fou|f89346466169",
+    "original": "<b>If you misplaced parts of the space suit, they might have found their way into Urbolg’s hands... for a price.</b>",
+    "translation": "",
+    "context": "<<POS:06429282>>"
   },
   {
     "key": "button|Spacewalk|bad7c34b7226",
     "original": "Spacewalk",
     "translation": "",
-    "context": "<<POS:06429424>>"
+    "context": "<<POS:06429424>> addDisabledButton(e++,\"Spacewalk\",\"Spacewalk\",\"Stepping into space without protection is a one-way ticket to a real quick death. You aren’t feeling particularly suicidal today.\")"
   },
   {
-    "key": "output|n_nWhile_your_current_choice_of_armor_is_airtight_without_magn|1599bd5f0f53",
-    "original": "\\n\\nWhile your current choice of armor is airtight, without magnetic boots or thrusters, you’ll be helpless in the void.",
+    "key": "button.hover|Stepping_into_space_without_protection_is_a_one_way_ticket_to_a|033adbb50cb7",
+    "original": "Stepping into space without protection is a one-way ticket to a real quick death. You aren’t feeling particularly suicidal today.",
     "translation": "",
-    "context": "<<POS:06429590>>"
+    "context": "<<POS:06429448>> addDisabledButton(e++,\"Spacewalk\",\"Spacewalk\",\"Stepping into space without protection is a one-way ticket to a real quick death. You aren’t feeling particularly suicidal today.\")"
+  },
+  {
+    "key": "output|While_your_current_choice_of_armor_is_airtight_without_magnetic|b8255770128f",
+    "original": "While your current choice of armor is airtight, without magnetic boots or thrusters, you’ll be helpless in the void.",
+    "translation": "",
+    "context": "<<POS:06429594>>"
   },
   {
     "key": "output|b_If_you_misplaced_parts_of_the_space_suit_they_might_have_fo|39f6afaa033e",
@@ -1197,10 +1251,16 @@
     "key": "button|Spacewalk|bad7c34b7226#1",
     "original": "Spacewalk",
     "translation": "",
-    "context": "<<POS:06429937>>"
+    "context": "<<POS:06429937>> addDisabledButton(e++,\"Spacewalk\",\"Spacewalk\",\"Bad idea.\")"
   },
   {
-    "key": "output|b_With_the_elevator_getting_power_again_you_have_no_need_to_p|d8f82713bf20",
+    "key": "button.hover|Bad_idea|247e243d5c3a",
+    "original": "Bad idea.",
+    "translation": "",
+    "context": "<<POS:06429961>> addDisabledButton(e++,\"Spacewalk\",\"Spacewalk\",\"Bad idea.\")"
+  },
+  {
+    "key": "output|b_With_the_elevator_getting_power_again_you_have_no_need_to_p|5cfeb5ebe9c0",
     "original": " <b>With the elevator getting power again, you have no need to perform a repair out in the void.</b>",
     "translation": "",
     "context": "<<POS:06430020>>"
@@ -1212,37 +1272,61 @@
     "context": "<<POS:06430131>>"
   },
   {
-    "key": "output|n_nYou_could_walk_around_the_outside_of_the_station_to_get_back|2c0349a02ed0",
-    "original": "\\n\\nYou could walk around the outside of the station to get back to the hangar without enemy interference....",
+    "key": "output|You_could_walk_around_the_outside_of_the_station_to_get_back_to|b8b996cc0217",
+    "original": "You could walk around the outside of the station to get back to the hangar without enemy interference....",
     "translation": "",
-    "context": "<<POS:06430297>>"
+    "context": "<<POS:06430301>>"
   },
   {
     "key": "button|Spacewalk|6035735e5aae",
     "original": "Spacewalk",
     "translation": "",
-    "context": "<<POS:06430424>>"
+    "context": "<<POS:06430424>> addButton(e++,\"Spacewalk\",Cw,\"Spacewalk\",\"Take a jaunt in the vacuum back to the hangar.\")"
   },
   {
-    "key": "button|Spacewalk|be111a0a667c",
+    "key": "button.hover|Spacewalk|6035735e5aae",
     "original": "Spacewalk",
     "translation": "",
-    "context": "<<POS:06430524>>"
+    "context": "<<POS:06430439>> addButton(e++,\"Spacewalk\",Cw,\"Spacewalk\",\"Take a jaunt in the vacuum back to the hangar.\")"
   },
   {
-    "key": "output|n_nWhile_your_current_choice_of_armor_is_airtight_without_magn|1599bd5f0f53#1",
-    "original": "\\n\\nWhile your current choice of armor is airtight, without magnetic boots or thrusters, you’ll be helpless in the void.",
+    "key": "button.tooltip|Take_a_jaunt_in_the_vacuum_back_to_the_hangar|bb78e44a30f8",
+    "original": "Take a jaunt in the vacuum back to the hangar.",
     "translation": "",
-    "context": "<<POS:06430689>>"
+    "context": "<<POS:06430451>> addButton(e++,\"Spacewalk\",Cw,\"Spacewalk\",\"Take a jaunt in the vacuum back to the hangar.\")"
+  },
+  {
+    "key": "button|Spacewalk|d4375b73eb87",
+    "original": "Spacewalk",
+    "translation": "",
+    "context": "<<POS:06430524>> addDisabledButton(e++,\"Spacewalk\",\"Spacewalk\",\"Stepping into space without protection is a one-way ticket to a real quick death. You aren’t feeling particularly suicidal today.\")"
+  },
+  {
+    "key": "button.hover|Stepping_into_space_without_protection_is_a_one_way_ticket_to_a|3f995a76cc65",
+    "original": "Stepping into space without protection is a one-way ticket to a real quick death. You aren’t feeling particularly suicidal today.",
+    "translation": "",
+    "context": "<<POS:06430548>> addDisabledButton(e++,\"Spacewalk\",\"Spacewalk\",\"Stepping into space without protection is a one-way ticket to a real quick death. You aren’t feeling particularly suicidal today.\")"
+  },
+  {
+    "key": "output|While_your_current_choice_of_armor_is_airtight_without_magnetic|b8255770128f#1",
+    "original": "While your current choice of armor is airtight, without magnetic boots or thrusters, you’ll be helpless in the void.",
+    "translation": "",
+    "context": "<<POS:06430693>>"
   },
   {
     "key": "button|Spacewalk|4d8ce610cd42",
     "original": "Spacewalk",
     "translation": "",
-    "context": "<<POS:06430835>>"
+    "context": "<<POS:06430835>> addDisabledButton(e++,\"Spacewalk\",\"Spacewalk\",\"Bad idea.\")"
   },
   {
-    "key": "output|blockHeader_SPAAAAAACE|1a4cb69ef22d",
+    "key": "button.hover|Bad_idea|38364da9ab89",
+    "original": "Bad idea.",
+    "translation": "",
+    "context": "<<POS:06430859>> addDisabledButton(e++,\"Spacewalk\",\"Spacewalk\",\"Bad idea.\")"
+  },
+  {
+    "key": "output|blockHeader_SPAAAAAACE|bf6310f505b0",
     "original": "blockHeader(\"SPAAAAAACE\")",
     "translation": "",
     "context": "<<POS:06430996>>"
@@ -1257,7 +1341,7 @@
     "key": "button|Next|d84ea9a9dc8e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06431325>>"
+    "context": "<<POS:06431325>> addButton(0,\"Next\",(function(){moveToRoom(\"HERISIOD.ZHENG SHI STATION.ZSM YY18\"),mainGameMenu()}))"
   },
   {
     "key": "output|Stepping_around_a_support_column_you_re_confronted_by_a_serious|a60834a019e1",
@@ -1284,46 +1368,64 @@
     "context": "<<POS:06431872>>"
   },
   {
-    "key": "output|n_nIndeed_you_can_see_several_dozen_shadowy_figures_shuffling|8fce850ce593",
-    "original": "\\n\\nIndeed, you can see several dozen shadowy figures shuffling around inside, trying to avoid your sight.",
+    "key": "output|Indeed_you_can_see_several_dozen_shadowy_figures_shuffling_arou|8c5314ca6e36",
+    "original": "Indeed, you can see several dozen shadowy figures shuffling around inside, trying to avoid your sight.",
     "translation": "",
-    "context": "<<POS:06432312>>"
+    "context": "<<POS:06432316>>"
   },
   {
-    "key": "output|n_nYou_can_t_get_inside_thanks_to_a_massive_metal_bar_running_a|669e6789a243",
-    "original": "\\n\\nYou can’t get inside thanks to a massive metal bar running across the door. It’s electronically locked and hardened against hacking; you can’t even see a seam or a plug to abuse. You’ll have to find the right keycard for this one.",
+    "key": "output|You_can_t_get_inside_thanks_to_a_massive_metal_bar_running_acros|9d4fb07bac35",
+    "original": "You can’t get inside thanks to a massive metal bar running across the door. It’s electronically locked and hardened against hacking; you can’t even see a seam or a plug to abuse. You’ll have to find the right keycard for this one.",
     "translation": "",
-    "context": "<<POS:06432429>>"
+    "context": "<<POS:06432433>>"
   },
   {
     "key": "button|Free_Slaves|0181ace117a5",
     "original": "Free Slaves",
     "translation": "",
-    "context": "<<POS:06432742>>"
+    "context": "<<POS:06432742>> addButton(e++,\"Free Slaves\",window.unlockTheSlavePen,\"Free Slaves\",\"Throw open the doors and let loose the men and women held captive by the pirates. Cry havoc, and let loose the slaves of... a giant rebellion!\")"
   },
   {
-    "key": "button|Free_Slaves|7b4afc826b5b",
+    "key": "button.hover|Free_Slaves|0181ace117a5",
     "original": "Free Slaves",
     "translation": "",
-    "context": "<<POS:06432963>>"
+    "context": "<<POS:06432781>> addButton(e++,\"Free Slaves\",window.unlockTheSlavePen,\"Free Slaves\",\"Throw open the doors and let loose the men and women held captive by the pirates. Cry havoc, and let loose the slaves of... a giant rebellion!\")"
   },
   {
-    "key": "output|n_nThe_door_is_hanging_open_almost_ripped_off_its_hinges_in_th|c7c9761b86ff",
-    "original": "\\n\\nThe door is hanging open, almost ripped off its hinges in the stampede of freed slaves. There’s nothing here for you anymore.",
+    "key": "button.tooltip|Throw_open_the_doors_and_let_loose_the_men_and_women_held_captiv|eba13654e681",
+    "original": "Throw open the doors and let loose the men and women held captive by the pirates. Cry havoc, and let loose the slaves of... a giant rebellion!",
     "translation": "",
-    "context": "<<POS:06433057>>"
+    "context": "<<POS:06432795>> addButton(e++,\"Free Slaves\",window.unlockTheSlavePen,\"Free Slaves\",\"Throw open the doors and let loose the men and women held captive by the pirates. Cry havoc, and let loose the slaves of... a giant rebellion!\")"
   },
   {
-    "key": "output|n_nAn_old_slave_jumpsuit_is_discarded_here|123e36c870e6",
-    "original": "\\n\\nAn old slave jumpsuit is discarded here.",
+    "key": "button|Free_Slaves|fede4d24388f",
+    "original": "Free Slaves",
     "translation": "",
-    "context": "<<POS:06433235>>"
+    "context": "<<POS:06432963>> addDisabledButton(e++,\"Free Slaves\",\"Free Slaves\",\"You don’t have any way to get the door open right now.\")"
   },
   {
-    "key": "button|Jumpsuit|d85e9c13a1b1",
+    "key": "button.hover|You_don_t_have_any_way_to_get_the_door_open_right_now|ed9f3c6d3a10",
+    "original": "You don’t have any way to get the door open right now.",
+    "translation": "",
+    "context": "<<POS:06432991>> addDisabledButton(e++,\"Free Slaves\",\"Free Slaves\",\"You don’t have any way to get the door open right now.\")"
+  },
+  {
+    "key": "output|The_door_is_hanging_open_almost_ripped_off_its_hinges_in_the_st|3dced9a65f10",
+    "original": "The door is hanging open, almost ripped off its hinges in the stampede of freed slaves. There’s nothing here for you anymore.",
+    "translation": "",
+    "context": "<<POS:06433061>>"
+  },
+  {
+    "key": "output|An_old_slave_jumpsuit_is_discarded_here|d4dac3ffbd60",
+    "original": "An old slave jumpsuit is discarded here.",
+    "translation": "",
+    "context": "<<POS:06433239>>"
+  },
+  {
+    "key": "button|Jumpsuit|45ddead452b1",
     "original": "Jumpsuit",
     "translation": "",
-    "context": "<<POS:06433297>>"
+    "context": "<<POS:06433297>> addButton(e++,\"Jumpsuit\",Yw)"
   },
   {
     "key": "output|blockHeader_Locked|057c3f514cc0",
@@ -1341,43 +1443,85 @@
     "key": "button|Use_Card|d00b4ddb7727",
     "original": "Use Card",
     "translation": "",
-    "context": "<<POS:06433811>>"
+    "context": "<<POS:06433811>> addButton(0,\"Use Card\",(function(){clearOutput(),clearBust(),clearName(),output(blockHeader(\"CLICK!\")),output(\"You slide Maike’s card through the reader, and are rewarded with a high-pitched beep and a flashing green light. It’s open!\"),flags.MAIKE_QUARTERS_UNLOCKED=1,clearMenu(),addButton(0,\"Next\",..."
   },
   {
-    "key": "button|Use_Card|5f105cb3780a",
+    "key": "button.hover|Use_Card|d00b4ddb7727",
     "original": "Use Card",
     "translation": "",
-    "context": "<<POS:06434215>>"
+    "context": "<<POS:06434115>> addButton(0,\"Use Card\",(function(){clearOutput(),clearBust(),clearName(),output(blockHeader(\"CLICK!\")),output(\"You slide Maike’s card through the reader, and are rewarded with a high-pitched beep and a flashing green light. It’s open!\"),flags.MAIKE_QUARTERS_UNLOCKED=1,clearMenu(),addButton(0,\"Next\",..."
   },
   {
-    "key": "button|Bypass|2ef27811d6ce",
+    "key": "button.tooltip|You_already_have_the_overseer_s_access_card_Go_ahead_and_use_it|fcde8734e667",
+    "original": "You already have the overseer’s access card. Go ahead and use it.",
+    "translation": "",
+    "context": "<<POS:06434126>> addButton(0,\"Use Card\",(function(){clearOutput(),clearBust(),clearName(),output(blockHeader(\"CLICK!\")),output(\"You slide Maike’s card through the reader, and are rewarded with a high-pitched beep and a flashing green light. It’s open!\"),flags.MAIKE_QUARTERS_UNLOCKED=1,clearMenu(),addButton(0,\"Next\",..."
+  },
+  {
+    "key": "button|Use_Card|e4ae82f10045",
+    "original": "Use Card",
+    "translation": "",
+    "context": "<<POS:06434215>> addDisabledButton(0,\"Use Card\",\"Use Card\",\"You’d need the overseer’s card for that!\")"
+  },
+  {
+    "key": "button.hover|You_d_need_the_overseer_s_card_for_that|422b249c80f3",
+    "original": "You’d need the overseer’s card for that!",
+    "translation": "",
+    "context": "<<POS:06434237>> addDisabledButton(0,\"Use Card\",\"Use Card\",\"You’d need the overseer’s card for that!\")"
+  },
+  {
+    "key": "button|Bypass|66c93f360b78",
     "original": "Bypass",
     "translation": "",
-    "context": "<<POS:06434293>>"
+    "context": "<<POS:06434293>> addButton(1,\"Bypass\",(function(){clearOutput(),clearBust(),clearName(),output(blockHeader(\"Hacking!\")),output(\"Well, you should be able to take care of this no problem. You wrench off the protective plastic casing and start dicking with the wiring inside...\"),clearMenu(),addButton(0,\"Next\",e)}),\"Byp..."
   },
   {
-    "key": "button|Leave|b8da5b227e7c",
+    "key": "button.hover|Bypass|66c93f360b78",
+    "original": "Bypass",
+    "translation": "",
+    "context": "<<POS:06434577>> addButton(1,\"Bypass\",(function(){clearOutput(),clearBust(),clearName(),output(blockHeader(\"Hacking!\")),output(\"Well, you should be able to take care of this no problem. You wrench off the protective plastic casing and start dicking with the wiring inside...\"),clearMenu(),addButton(0,\"Next\",e)}),\"Byp..."
+  },
+  {
+    "key": "button.tooltip|Embrace_your_inner_Hackerman|25eef8193494",
+    "original": "Embrace your inner Hackerman.",
+    "translation": "",
+    "context": "<<POS:06434586>> addButton(1,\"Bypass\",(function(){clearOutput(),clearBust(),clearName(),output(blockHeader(\"Hacking!\")),output(\"Well, you should be able to take care of this no problem. You wrench off the protective plastic casing and start dicking with the wiring inside...\"),clearMenu(),addButton(0,\"Next\",e)}),\"Byp..."
+  },
+  {
+    "key": "button|Leave|e307fb3543bf",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:06434632>>"
+    "context": "<<POS:06434632>> addButton(14,\"Leave\",mainGameMenu)"
   },
   {
-    "key": "output|n_nTivf_is_lounging_on_the_bed_and_perks_up_at_your_approach|116c0f7dc834",
-    "original": "\\n\\nTivf is lounging on the bed, and perks up at your approach.",
+    "key": "output|Tivf_is_lounging_on_the_bed_and_perks_up_at_your_approach|e2a181845ebc",
+    "original": "Tivf is lounging on the bed, and perks up at your approach.",
     "translation": "",
-    "context": "<<POS:06434764>>"
+    "context": "<<POS:06434768>>"
   },
   {
     "key": "button|Tivf|e8b2f4cc7141",
     "original": "Tivf",
     "translation": "",
-    "context": "<<POS:06434843>>"
+    "context": "<<POS:06434843>> addButton(0,\"Tivf\",window.repeatTivfApproach,\"Tivf\",\"Go talk to the zil boy slave.\")"
   },
   {
-    "key": "button|Sleep|5d42994043c6",
+    "key": "button.hover|Tivf|e8b2f4cc7141",
+    "original": "Tivf",
+    "translation": "",
+    "context": "<<POS:06434876>> addButton(0,\"Tivf\",window.repeatTivfApproach,\"Tivf\",\"Go talk to the zil boy slave.\")"
+  },
+  {
+    "key": "button.tooltip|Go_talk_to_the_zil_boy_slave|5e06fd1b4fb1",
+    "original": "Go talk to the zil boy slave.",
+    "translation": "",
+    "context": "<<POS:06434883>> addButton(0,\"Tivf\",window.repeatTivfApproach,\"Tivf\",\"Go talk to the zil boy slave.\")"
+  },
+  {
+    "key": "button|Sleep|cd8807315ce8",
     "original": "Sleep",
     "translation": "",
-    "context": "<<POS:06434935>>"
+    "context": "<<POS:06434935>> addButton(9,\"Sleep\",window.maikeRestOverride)"
   },
   {
     "key": "output|blockHeader_Failure|448d7653baa0",
@@ -1395,7 +1539,7 @@
     "key": "button|Next|80321ee56c56",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06435979>>"
+    "context": "<<POS:06435979>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|blockHeader_Success|04f7f74de1ca",
@@ -1413,7 +1557,7 @@
     "key": "button|Next|27a9129560d9",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06436363>>"
+    "context": "<<POS:06436363>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|You_re_surprised_it_doesn_t_have_a_combination_as_well|0c2e870420c2",
@@ -1422,22 +1566,22 @@
     "context": "<<POS:06436465>>"
   },
   {
-    "key": "output|n_nThe_brown_safe_Urbolg_mentioned_is_in_fact_under_his_desk_I|4e2c5ded4b26",
-    "original": "\\n\\nThe brown safe Urbolg mentioned is in fact under his desk. If you remember correctly, the combination is 7-8-9. You could pop it open, if you wanted to.",
+    "key": "output|The_brown_safe_Urbolg_mentioned_is_in_fact_under_his_desk_If_yo|1dc4632135a2",
+    "original": "The brown safe Urbolg mentioned is in fact under his desk. If you remember correctly, the combination is 7-8-9. You could pop it open, if you wanted to.",
     "translation": "",
-    "context": "<<POS:06436562>>"
+    "context": "<<POS:06436566>>"
   },
   {
     "key": "button|Open_Safe|7f30b35a9c20",
     "original": "Open Safe",
     "translation": "",
-    "context": "<<POS:06436734>>"
+    "context": "<<POS:06436734>> addButton(1,\"Open Safe\",window.collectUrbolgsSafe)"
   },
   {
-    "key": "output|n_nUrbolg_s_brown_safe_is_open_and_empty_like_you_left_it_How|a2d95be83202",
-    "original": "\\n\\nUrbolg’s brown safe is open and empty, like you left it. How nice of him to let you use his extra shield belt!",
+    "key": "output|Urbolg_s_brown_safe_is_open_and_empty_like_you_left_it_How_nic|2e9f336e5fc3",
+    "original": "Urbolg’s brown safe is open and empty, like you left it. How nice of him to let you use his extra shield belt!",
     "translation": "",
-    "context": "<<POS:06436811>>"
+    "context": "<<POS:06436815>>"
   },
   {
     "key": "output|You_punch_the_coordinates_you_got_from_Dad_s_last_probe_into_the|104fdb98c97a",
@@ -1446,52 +1590,52 @@
     "context": "<<POS:06437097>>"
   },
   {
-    "key": "output|n_nLuckily_your_shields_come_up_deflecting_the_worst_of_the_im|047e2eb81747",
-    "original": "\\n\\nLuckily your shields come up, deflecting the worst of the impacts, but the ship’s deck still rattles under your [pc.feet]. You grip the arm rests of your captain’s seat tight, trying to keep from being thrown across the bridge with the rapid impacts. Eventually, the meteor storm subsides, leaving you floating in space with your shields barely holding up and several breakers flipped all throughout the ship. But you’re alive, so there’s that.",
+    "key": "output|Luckily_your_shields_come_up_deflecting_the_worst_of_the_impact|0d9ee40690bc",
+    "original": "Luckily your shields come up, deflecting the worst of the impacts, but the ship’s deck still rattles under your [pc.feet]. You grip the arm rests of your captain’s seat tight, trying to keep from being thrown across the bridge with the rapid impacts. Eventually, the meteor storm subsides, leaving you floating in space with your shields barely holding up and several breakers flipped all throughout the ship. But you’re alive, so there’s that.",
     "translation": "",
-    "context": "<<POS:06437612>>"
+    "context": "<<POS:06437616>>"
   },
   {
-    "key": "output|n_nWith_the_immediate_catastrophe_dealt_with_you_send_out_a_sc|1959685434a7",
-    "original": "\\n\\nWith the immediate catastrophe dealt with, you send out a scanner ping to try and figure out where the hell you are - and where you’re supposed to go. According to the coordinates you received, the Warp Gate should have been orbiting your destination, but all you see are the tumbling brown hulks of shattered...",
+    "key": "output|With_the_immediate_catastrophe_dealt_with_you_send_out_a_scanne|0639dd8d502d",
+    "original": "With the immediate catastrophe dealt with, you send out a scanner ping to try and figure out where the hell you are - and where you’re supposed to go. According to the coordinates you received, the Warp Gate should have been orbiting your destination, but all you see are the tumbling brown hulks of shattered...",
     "translation": "",
-    "context": "<<POS:06438071>>"
+    "context": "<<POS:06438075>>"
   },
   {
-    "key": "output|n_n_hey_that_asteroid_has_a_building_on_it|0bfa7a6959b7",
-    "original": "\\n\\n...hey, that asteroid has a building on it!",
+    "key": "output|hey_that_asteroid_has_a_building_on_it|51ecb8ffa610",
+    "original": "...hey, that asteroid has a building on it!",
     "translation": "",
-    "context": "<<POS:06438398>>"
+    "context": "<<POS:06438402>>"
   },
   {
-    "key": "output|n_nYou_squint_out_the_forward_screen_commanding_it_to_zoom_in|dabf003eeb78",
-    "original": "\\n\\nYou squint out the forward screen, commanding it to zoom in as far as possible on a meandering chunk of earth about the size of Australia. That definitely is what’s left of a city, blasted and airless. Guess this <i>was</i> the planet you were sent to explore, but it clearly had an accident between the Warp Gates being launched and the Rush starting. There’s nothing left but debris.",
+    "key": "output|You_squint_out_the_forward_screen_commanding_it_to_zoom_in_as_f|b1e0fbf7f8be",
+    "original": "You squint out the forward screen, commanding it to zoom in as far as possible on a meandering chunk of earth about the size of Australia. That definitely is what’s left of a city, blasted and airless. Guess this <i>was</i> the planet you were sent to explore, but it clearly had an accident between the Warp Gates being launched and the Rush starting. There’s nothing left but debris.",
     "translation": "",
-    "context": "<<POS:06438456>>"
+    "context": "<<POS:06438460>>"
   },
   {
-    "key": "output|n_nShit_Now_what|5d4a4e8bfcbb",
-    "original": "\\n\\nShit. Now what?",
+    "key": "output|Shit_Now_what|6f04dc6a241f",
+    "original": "Shit. Now what?",
     "translation": "",
-    "context": "<<POS:06438856>>"
+    "context": "<<POS:06438860>>"
   },
   {
-    "key": "output|n_nThe_probe_s_gotta_be_in_the_field_somewhere|b2e836f1af2e",
-    "original": "\\n\\nThe probe’s gotta be in the field somewhere.",
+    "key": "output|The_probe_s_gotta_be_in_the_field_somewhere|bfaef29a6872",
+    "original": "The probe’s gotta be in the field somewhere.",
     "translation": "",
-    "context": "<<POS:06438886>>"
+    "context": "<<POS:06438890>>"
   },
   {
-    "key": "output|n_nThe_probes_you_ve_seen_so_far_are_rated_to_survive_just_abou|de0272ca36a8",
-    "original": "\\n\\nThe probes you’ve seen so far are rated to survive just about anything, hardened against impact and electronic tampering alike. No matter what happened to the planet, you’re pretty sure your objective remains the same - unless it drifted off into the binary stars flickering in the distance, anyway. Time to run some scans; try and find what happened to it...",
+    "key": "output|The_probes_you_ve_seen_so_far_are_rated_to_survive_just_about_an|bbb2de313de4",
+    "original": "The probes you’ve seen so far are rated to survive just about anything, hardened against impact and electronic tampering alike. No matter what happened to the planet, you’re pretty sure your objective remains the same - unless it drifted off into the binary stars flickering in the distance, anyway. Time to run some scans; try and find what happened to it...",
     "translation": "",
-    "context": "<<POS:06438945>>"
+    "context": "<<POS:06438949>>"
   },
   {
     "key": "button|Next|672c5677e8b8",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06439368>>"
+    "context": "<<POS:06439368>> addButton(0,\"Next\",zw)"
   },
   {
     "key": "output|Alright_maybe_this_time_will_go_smoother_You_take_yourself_bac|8b8492edd13b",
@@ -1500,16 +1644,16 @@
     "context": "<<POS:06439476>>"
   },
   {
-    "key": "output|n_nA_bored_voice_comes_over_the_short_wave_radio_once_again_i|d43a3d104adf",
-    "original": "\\n\\nA bored voice comes over the short-wave radio once again: <i>“This is Zhèng Shi Docking to... whoever the fuck you are. This ship’s not on the roster. Cough up the password or get blown to space dust.”</i>",
+    "key": "output|A_bored_voice_comes_over_the_short_wave_radio_once_again_i_Th|b9f442af1191",
+    "original": "A bored voice comes over the short-wave radio once again: <i>“This is Zhèng Shi Docking to... whoever the fuck you are. This ship’s not on the roster. Cough up the password or get blown to space dust.”</i>",
     "translation": "",
-    "context": "<<POS:06439791>>"
+    "context": "<<POS:06439795>>"
   },
   {
-    "key": "output|n_nLooks_like_whoever_s_on_the_other_end_doesn_t_remember_you|cd6074b81f0c",
-    "original": "\\n\\nLooks like whoever’s on the other end doesn’t remember you, at least...",
+    "key": "output|Looks_like_whoever_s_on_the_other_end_doesn_t_remember_you_at_l|f06593e6eb26",
+    "original": "Looks like whoever’s on the other end doesn’t remember you, at least...",
     "translation": "",
-    "context": "<<POS:06440011>>"
+    "context": "<<POS:06440015>>"
   },
   {
     "key": "output|You_set_course_for_the_pirate_base_at_Zh_ng_Shi_Now_that_you_kn|8d2ac93b87e9",
@@ -1518,13 +1662,13 @@
     "context": "<<POS:06440295>>"
   },
   {
-    "key": "output|n_nYou_grab_your_gear|a4fa9e154464",
-    "original": "\\n\\nYou grab your gear",
+    "key": "output|You_grab_your_gear|aa6a3cb76ce2",
+    "original": "You grab your gear",
     "translation": "",
-    "context": "<<POS:06440728>>"
+    "context": "<<POS:06440732>>"
   },
   {
-    "key": "output|and_head_onto_the_station|bc7b7d9de18c",
+    "key": "output|and_head_onto_the_station|f5237e94dfed",
     "original": " and head onto the station.",
     "translation": "",
     "context": "<<POS:06440784>>"
@@ -1533,13 +1677,13 @@
     "key": "button|Next|199747caf503",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06440878>>"
+    "context": "<<POS:06440878>> addButton(0,\"Next\",(function(){window.enterPCShip(!1,!0),window.snekWifeDropoffScene()}))"
   },
   {
     "key": "button|Next|35b9a3540cff",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06440968>>"
+    "context": "<<POS:06440968>> addButton(0,\"Next\",o?exitPCShip:mainGameMenu)"
   },
   {
     "key": "output|With_a_couch_and_plenty_of_nearby_cushions_it_s_clear_that_this|d48934aeeabc",
@@ -1560,13 +1704,13 @@
     "context": "<<POS:06441552>>"
   },
   {
-    "key": "output|n_nUnfortunately_it_s_bolted_to_the_floor|c1552581a889",
-    "original": "\\n\\nUnfortunately it’s bolted to the floor",
+    "key": "output|Unfortunately_it_s_bolted_to_the_floor|7fe4f1746da1",
+    "original": "Unfortunately it’s bolted to the floor",
     "translation": "",
-    "context": "<<POS:06441752>>"
+    "context": "<<POS:06441756>>"
   },
   {
-    "key": "output|but_nothing_s_stopping_you_from_snagging_a_copy_of_the_updated|72ea12b66653",
+    "key": "output|but_nothing_s_stopping_you_from_snagging_a_copy_of_the_updated|a378cf065f82",
     "original": ", but nothing’s stopping you from snagging a copy of the updated firmware to install on your own personal box. Custom pigmentation selection seems like quite the upgrade!",
     "translation": "",
     "context": "<<POS:06441862>>"
@@ -1575,10 +1719,22 @@
     "key": "button|Dong_Designer|1d73cafee84b",
     "original": "Dong Designer",
     "translation": "",
-    "context": "<<POS:06442060>>"
+    "context": "<<POS:06442060>> addButton(0,\"Dong Designer\",window.useInstalledDickBox,\"Dong Designer\",\"Take a closer look at this dick-customizing box!\")"
   },
   {
-    "key": "output|A_square_white_wall_stops_this_hallway_dead_in_its_eastward_trac|c29c9b72c791",
+    "key": "button.hover|Dong_Designer|1d73cafee84b",
+    "original": "Dong Designer",
+    "translation": "",
+    "context": "<<POS:06442103>> addButton(0,\"Dong Designer\",window.useInstalledDickBox,\"Dong Designer\",\"Take a closer look at this dick-customizing box!\")"
+  },
+  {
+    "key": "button.tooltip|Take_a_closer_look_at_this_dick_customizing_box|8f2708f59704",
+    "original": "Take a closer look at this dick-customizing box!",
+    "translation": "",
+    "context": "<<POS:06442119>> addButton(0,\"Dong Designer\",window.useInstalledDickBox,\"Dong Designer\",\"Take a closer look at this dick-customizing box!\")"
+  },
+  {
+    "key": "output|A_square_white_wall_stops_this_hallway_dead_in_its_eastward_trac|dee6998d9d53",
     "original": "A square white wall stops this hallway dead in its eastward tracks. You’re free to walk through the sterile alabaster passage westward instead, or step through the unlocked door to the north. The placard labels it as the Robotics Lab.",
     "translation": "",
     "context": "<<POS:06442226>>"
@@ -1629,7 +1785,7 @@
     "key": "button|Pull_Pipe|f953bca4225e",
     "original": "Pull Pipe",
     "translation": "",
-    "context": "<<POS:06443556>>"
+    "context": "<<POS:06443556>> addButton(0,\"Pull Pipe\",(function(){clearOutput(),clearBust(),clearName(),output(blockHeader(\"YOINK!\")),output(\"With a \"+(pc.PQ()>=50?\"mighty yank\":\"exhausting, straining pull\")+\", you dislodge the pipe and allow the elevator’s outer door to swing open. That’ll save you some time!\"),flags.ZHENG_SHI_..."
   },
   {
     "key": "output|You_suppose_they_ll_be_waiting_here_until_Peacekeepers_show_up|42d6b640f93c",
@@ -1647,7 +1803,7 @@
     "key": "button|Exit_Ship|846fa1d78d18",
     "original": "Exit Ship",
     "translation": "",
-    "context": "<<POS:06444352>>"
+    "context": "<<POS:06444352>> addButton(11,\"Exit Ship\",(function(){return moveToRoom(\"HERISIOD.ZHENG SHI STATION.ZSF V22\",!0)}))"
   },
   {
     "key": "output|With_your_stolen_credentials_unlocking_the_airlock_is_a_breeze|8030d514e7d5",
@@ -1659,49 +1815,49 @@
     "key": "button|Next|c3eeb98bb3a3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06444603>>"
+    "context": "<<POS:06444603>> addButton(0,\"Next\",(function(){return moveToRoom(\"HERISIOD.SHIP: SIDEWINDER.ZSF V20\",!0)}))"
   },
   {
-    "key": "output|You_tap_in_the_access_code_and_the_door_pops_open_You_flick_th|3fc16d857c27",
-    "original": "You tap in the access code, and the door pops open. You flick the lights on and step in, taking a quick glance around.\\n\\n",
+    "key": "output|You_tap_in_the_access_code_and_the_door_pops_open_You_flick_th|3e108bf6c625",
+    "original": "You tap in the access code, and the door pops open. You flick the lights on and step in, taking a quick glance around.",
     "translation": "",
     "context": "<<POS:06444767>>"
   },
   {
-    "key": "output|A_high_vaulted_ceiling_confirms_that_you_ve_entered_the_Sidewind|697743068f3d",
+    "key": "output|A_high_vaulted_ceiling_confirms_that_you_ve_entered_the_Sidewind|0fc97fd06c72",
     "original": "A high vaulted ceiling confirms that you’ve entered the Sidewinder’s cargohold (one of them, anyway). Still, it isn’t quite as roomy as you would expect from such a large vessel - only a little bigger than your old Casstech’s. The engines don’t just look big from the outside: they take up the majority of the ship’s volume. Even now, you can feel the idle thrum of its enormous power plants churning in a low-power state, ready to launch you past a Galactic Guard blockade like a ballistic missile.",
     "translation": "",
     "context": "<<POS:06444930>>"
   },
   {
-    "key": "output|n_nTucked_into_the_corner_is_your_father_s_probe_It_s_scuffed|d5d2667a9d05",
-    "original": "\\n\\nTucked into the corner is your father’s probe. It’s scuffed to all hell and scored from laser blasts where someone used it for target practice. The keypad is intact, though. It flickers to life when you approach, and when you make contact, <b>a new set of coordinates download onto your Codex.</b>",
+    "key": "output|Tucked_into_the_corner_is_your_father_s_probe_It_s_scuffed_to_a|2c1ac2ad8696",
+    "original": "Tucked into the corner is your father’s probe. It’s scuffed to all hell and scored from laser blasts where someone used it for target practice. The keypad is intact, though. It flickers to life when you approach, and when you make contact, <b>a new set of coordinates download onto your Codex.</b>",
     "translation": "",
-    "context": "<<POS:06445473>>"
+    "context": "<<POS:06445477>>"
   },
   {
-    "key": "output|n_nEat_that_rival_name|dd9b20626811",
-    "original": "\\n\\nEat that, [rival.name]!",
+    "key": "output|Eat_that_rival_name|99d695a4e9ef",
+    "original": "Eat that, [rival.name]!",
     "translation": "",
-    "context": "<<POS:06445785>>"
+    "context": "<<POS:06445789>>"
   },
   {
-    "key": "output|n_nSteele_Tech_salvage_won_t_be_able_to_retrieve_the_probe_from|9549c78df254",
-    "original": "\\n\\nSteele Tech salvage won’t be able to retrieve the probe from here, so you’ll have to leave it for the time being.",
+    "key": "output|Steele_Tech_salvage_won_t_be_able_to_retrieve_the_probe_from_her|8f8384cb1959",
+    "original": "Steele Tech salvage won’t be able to retrieve the probe from here, so you’ll have to leave it for the time being.",
     "translation": "",
-    "context": "<<POS:06445823>>"
+    "context": "<<POS:06445827>>"
   },
   {
-    "key": "output|n_nThe_probe_is_right_where_you_left_it_propped_in_the_corner|d200dad23979",
-    "original": "\\n\\nThe probe is right where you left it: propped in the corner and pockmarked by dozens of laser blasts from its time with careless pirate crews. <b>You already have the coordinates, so it has nothing more to offer you.</b>",
+    "key": "output|The_probe_is_right_where_you_left_it_propped_in_the_corner_and|e131a595dcbe",
+    "original": "The probe is right where you left it: propped in the corner and pockmarked by dozens of laser blasts from its time with careless pirate crews. <b>You already have the coordinates, so it has nothing more to offer you.</b>",
     "translation": "",
-    "context": "<<POS:06445977>>"
+    "context": "<<POS:06445981>>"
   },
   {
-    "key": "output|n_nAside_from_your_probe_the_hold_is_full_of_spare_parts_for_v|d6b112c4315c",
-    "original": "\\n\\nAside from your probe, the hold is full of spare parts for various systems onboard the Sidewinder. Cables, tools, and racks of armor plate patches are organized neatly against the back wall.",
+    "key": "output|Aside_from_your_probe_the_hold_is_full_of_spare_parts_for_vario|e9a8feb2a034",
+    "original": "Aside from your probe, the hold is full of spare parts for various systems onboard the Sidewinder. Cables, tools, and racks of armor plate patches are organized neatly against the back wall.",
     "translation": "",
-    "context": "<<POS:06446212>>"
+    "context": "<<POS:06446216>>"
   },
   {
     "key": "output|A_singular_vacuum_suit_in_the_Jumper_s_signature_style_hangs_fr|f7226ec96af9",
@@ -1713,7 +1869,7 @@
     "key": "button|J_Spacesuit|0c6be46e8d69",
     "original": "J.Spacesuit",
     "translation": "",
-    "context": "<<POS:06446562>>"
+    "context": "<<POS:06446562>> addButton(0,\"J.Spacesuit\",Mw)"
   },
   {
     "key": "output|Lastly_you_spot_an_expensive_looking_case_on_a_fold_out_table|95e0048d3875",
@@ -1725,7 +1881,7 @@
     "key": "button|Galomax|763030839334",
     "original": "Galomax",
     "translation": "",
-    "context": "<<POS:06446728>>"
+    "context": "<<POS:06446728>> addButton(1,\"Galomax\",Rw)"
   },
   {
     "key": "output|Nobody_could_stop_you_from_claiming_an_extra_trophy|93a2982d6758",
@@ -1746,10 +1902,10 @@
     "context": "<<POS:06447039>>"
   },
   {
-    "key": "output|n_nA_wide_door_to_the_west_offers_access_to_one_of_the_Sidewind|33d21bc070c2",
-    "original": "\\n\\nA wide door to the west offers access to one of the Sidewinder’s cargoholds, mirrored on the east with an additional <i>“Out of Order”</i> sign. ",
+    "key": "output|A_wide_door_to_the_west_offers_access_to_one_of_the_Sidewinder_s|89e4bc10ab97",
+    "original": "A wide door to the west offers access to one of the Sidewinder’s cargoholds, mirrored on the east with an additional <i>“Out of Order”</i> sign. ",
     "translation": "",
-    "context": "<<POS:06447392>>"
+    "context": "<<POS:06447396>>"
   },
   {
     "key": "output|b_The_security_terminal_alongside_indicates_you_ll_need_an_acce|1f7e5e4dfe18",
@@ -1779,7 +1935,7 @@
     "key": "button|Take_Bra|b92ab72d3649",
     "original": "Take Bra",
     "translation": "",
-    "context": "<<POS:06448278>>"
+    "context": "<<POS:06448278>> addButton(0,\"Take Bra\",(function(){clearOutput(),clearBust(),clearName(),output(blockHeader(\"YOINK!\")),quickLoot(new ww.Z),flags.ZHENG_SHI_LATEX_BRAD=1}))"
   },
   {
     "key": "output|a_leather_bra|8cfe58d7c989",
@@ -1797,7 +1953,7 @@
     "key": "button|Take_Panty|c0eb298b677b",
     "original": "Take Panty",
     "translation": "",
-    "context": "<<POS:06448590>>"
+    "context": "<<POS:06448590>> addButton(1,\"Take Panty\",(function(){clearOutput(),clearBust(),clearName(),output(blockHeader(\"YOINK!\")),quickLoot(new bw.e),flags.ZHENG_SHI_LATEX_THONGD=1}))"
   },
   {
     "key": "output|leather_panties|9e4982a30266",
@@ -1824,40 +1980,40 @@
     "context": "<<POS:06449280>>"
   },
   {
-    "key": "output|This_time_you_notice_there_s_no_software_lock_on_the_door_cont|438a1dc32cb3",
-    "original": "This time, you notice, there’s no software lock on the door controls. It would seem the Shock Hopper and L.D.C. gave up on pursuing you and let their crews go back to ‘recreation.’ As for what kinds of recreation they partake in... well, you’re about to find out.\\n\\n",
+    "key": "output|This_time_you_notice_there_s_no_software_lock_on_the_door_cont|1bbcb674a51a",
+    "original": "This time, you notice, there’s no software lock on the door controls. It would seem the Shock Hopper and L.D.C. gave up on pursuing you and let their crews go back to ‘recreation.’ As for what kinds of recreation they partake in... well, you’re about to find out.",
     "translation": "",
     "context": "<<POS:06449799>>"
   },
   {
-    "key": "output|Once_the_elevator_s_doors_grind_and_rattle_aside_you_re_blasted|58928ba84b33",
+    "key": "output|Once_the_elevator_s_doors_grind_and_rattle_aside_you_re_blasted|20defecd1283",
     "original": "Once the elevator’s doors grind and rattle aside, you’re blasted with a cacophony of noise and light the likes of which never expected to see beyond the digitized walls of a virtual reality simulation. It’s overwhelming, even to a hardened explorer like yourself. Everywhere you look there are blinking lights, gleaming hardlight barriers, and acts of debauchery wanton enough to shock a purer soul into unconsciousness.",
     "translation": "",
     "context": "<<POS:06450109>>"
   },
   {
-    "key": "output|n_nYou_blink_and_look_again_determined_to_take_in_this_new_loc|44cfd19d51cf",
-    "original": "\\n\\nYou blink and look again, determined to take in this new locale.",
+    "key": "output|You_blink_and_look_again_determined_to_take_in_this_new_locale|3465f243eedc",
+    "original": "You blink and look again, determined to take in this new locale.",
     "translation": "",
-    "context": "<<POS:06450540>>"
+    "context": "<<POS:06450544>>"
   },
   {
-    "key": "output|n_nThis_time_you_re_prepared_to_puzzle_out_the_deck_s_unique_g|0f24857d8ac3",
-    "original": "\\n\\nThis time, you’re prepared to puzzle out the deck’s unique geography: that of a hollow sphere. The shape allows you to see everything at once: shops, kiosks, pirates, scantily clad slaves, and even the glitz and glam of a packed casino. Looking up is a dizzying experience made all the more nauseating by the floating forms of dancing slaves, pirouetting in zero G around the center of the elevator shaft. All bound with gleaming, silvery collars, they are without a doubt the most attractive creatures you’ve seen on this entire station, chosen for their task on the sole basis of peerless bone structure and flawless skin. One favors you with a wink and a sensuously blown kiss.\\n\\nYou half-heartedly wave back but turn your attention aside, determined to get a feel for this place before indulging in its basest forms of entertainment.",
+    "key": "output|This_time_you_re_prepared_to_puzzle_out_the_deck_s_unique_geogr|65f418c9a716",
+    "original": "This time, you’re prepared to puzzle out the deck’s unique geography: that of a hollow sphere. The shape allows you to see everything at once: shops, kiosks, pirates, scantily clad slaves, and even the glitz and glam of a packed casino. Looking up is a dizzying experience made all the more nauseating by the floating forms of dancing slaves, pirouetting in zero G around the center of the elevator shaft. All bound with gleaming, silvery collars, they are without a doubt the most attractive creatures you’ve seen on this entire station, chosen for their task on the sole basis of peerless bone structure and flawless skin. One favors you with a wink and a sensuously blown kiss.\\n\\nYou half-heartedly wave back but turn your attention aside, determined to get a feel for this place before indulging in its basest forms of entertainment.",
     "translation": "",
-    "context": "<<POS:06450619>>"
+    "context": "<<POS:06450623>>"
   },
   {
-    "key": "output|n_nYou_aren_t_sure_what_history_lead_to_the_creation_of_this_pl|01e22014e1ef",
-    "original": "\\n\\nYou aren’t sure what history lead to the creation of this place - whether the pirates built it, or indeed, if they found it amongst the planet’s rubble, but you are sure that they’ve done a decent job of organizing the mind-boggling topography. Colorized paths drill through the chaotic mess of hedonistic pleasure-seeking and pure, unregulated capitalism. A gleaming green trail climbs straight up the wall that your Codex’s compass has chosen to designate as ‘north,’ mirrored by a crimson path to the south. Both come together at the apex of the chamber, forming a tight ring around the elevator shaft. Meanwhile, a luminous gold-floored alley winds east and west, reaching for the deck’s equator without quite reaching it. Where it meets with the brighter routes, it slides beneath into the caustic glow of simulated neon projections and dangerously dark corners only to emerge on the other side, brighter for the contrast.",
+    "key": "output|You_aren_t_sure_what_history_lead_to_the_creation_of_this_place|5d9054085001",
+    "original": "You aren’t sure what history lead to the creation of this place - whether the pirates built it, or indeed, if they found it amongst the planet’s rubble, but you are sure that they’ve done a decent job of organizing the mind-boggling topography. Colorized paths drill through the chaotic mess of hedonistic pleasure-seeking and pure, unregulated capitalism. A gleaming green trail climbs straight up the wall that your Codex’s compass has chosen to designate as ‘north,’ mirrored by a crimson path to the south. Both come together at the apex of the chamber, forming a tight ring around the elevator shaft. Meanwhile, a luminous gold-floored alley winds east and west, reaching for the deck’s equator without quite reaching it. Where it meets with the brighter routes, it slides beneath into the caustic glow of simulated neon projections and dangerously dark corners only to emerge on the other side, brighter for the contrast.",
     "translation": "",
-    "context": "<<POS:06451472>>"
+    "context": "<<POS:06451476>>"
   },
   {
-    "key": "output|n_nYou_d_best_watch_yourself_While_the_crowds_of_pirates_range|0dc43b03e93d",
-    "original": "\\n\\nYou’d best watch yourself. While the crowds of pirates range from amicable-looking to indifferent, it’s best to remember that these are all wanted men (and women) - every last one of them.",
+    "key": "output|You_d_best_watch_yourself_While_the_crowds_of_pirates_range_fro|8366be76d583",
+    "original": "You’d best watch yourself. While the crowds of pirates range from amicable-looking to indifferent, it’s best to remember that these are all wanted men (and women) - every last one of them.",
     "translation": "",
-    "context": "<<POS:06452414>>"
+    "context": "<<POS:06452418>>"
   },
   {
     "key": "output|The_elevator_doors_hang_open_exposing_the_interior_to_the_glari|6208f6e554fa",
@@ -1875,7 +2031,13 @@
     "key": "button|Next|a147f8ea0868",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06455422>>"
+    "context": "<<POS:06455422>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|a147f8ea0868",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06455442>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_dw_dw_0_a_Z_n_tIt_takes_you_by_surprise_just_how|d5801cf969fd",
@@ -1890,16 +2052,16 @@
     "context": "<<POS:06456190>>"
   },
   {
-    "key": "output|n_nYou_re_careful_not_to_trigger_the_trapped_hologram_emitter_o|cc11b72ef514",
-    "original": "\\n\\nYou’re careful not to trigger the trapped hologram emitter on your way through the area. You have no desire to be jumped by a gigantic holo-shark for these pirates’ amusement, nor do you wish a second look at the inside of its impressively rendered maw. The floor panel with a splotch of red paint never gets stepped on by anyone else, after all. Now that you know to tread carefully here, you won’t have to suffer again.\\n\\nThe yellow-hued pathway winds east and west through a forest of dividers and entertainments.",
+    "key": "output|You_re_careful_not_to_trigger_the_trapped_hologram_emitter_on_yo|04ef2e99abc0",
+    "original": "You’re careful not to trigger the trapped hologram emitter on your way through the area. You have no desire to be jumped by a gigantic holo-shark for these pirates’ amusement, nor do you wish a second look at the inside of its impressively rendered maw. The floor panel with a splotch of red paint never gets stepped on by anyone else, after all. Now that you know to tread carefully here, you won’t have to suffer again.\\n\\nThe yellow-hued pathway winds east and west through a forest of dividers and entertainments.",
     "translation": "",
-    "context": "<<POS:06456915>>"
+    "context": "<<POS:06456919>>"
   },
   {
-    "key": "output|n_nTo_the_south_you_spot_an_opening_that_winds_through_the_fla|94efb8bf8147",
-    "original": "\\n\\nTo the south, you spot an opening that winds through the flash, improvised constructions. The pirates entering seem excited. Those leaving stroll with relaxed, satisfied smiles.",
+    "key": "output|To_the_south_you_spot_an_opening_that_winds_through_the_flash|f6bd2b4e9695",
+    "original": "To the south, you spot an opening that winds through the flash, improvised constructions. The pirates entering seem excited. Those leaving stroll with relaxed, satisfied smiles.",
     "translation": "",
-    "context": "<<POS:06457447>>"
+    "context": "<<POS:06457451>>"
   },
   {
     "key": "output|Glasses_clink_and_voices_raise_in_celebration_of_victories_Astu|10d176c4c42d",
@@ -1908,16 +2070,10 @@
     "context": "<<POS:06457685>>"
   },
   {
-    "key": "bust|CASINO_SECURITY|f4bce54b2ac2",
-    "original": "CASINO_SECURITY",
-    "translation": "",
-    "context": "<<POS:06458446>>"
-  },
-  {
-    "key": "name.show|Casino_Security|e21c0b5bb9a2",
+    "key": "name.show|Casino_Security|ccb4eb206ad7",
     "original": "Casino Security",
     "translation": "",
-    "context": "<<POS:06458474>>"
+    "context": "<<POS:06458474>> showName(\"Casino Security\")"
   },
   {
     "key": "output|You_re_not_entirely_sure_it_s_a_smart_idea_patronizing_a_pirate|9a403b29c3a1",
@@ -1926,28 +2082,28 @@
     "context": "<<POS:06458518>>"
   },
   {
-    "key": "output|n_nBoth_bruisers_sport_obvious_augmentation_On_the_sides_of_th|b1a3c827ca59",
-    "original": "\\n\\nBoth bruisers sport obvious augmentation. On the sides of their oval-shaped heads sit square-shaped implants that summon visors of simmering green light across their field of vision. You don’t need to see their eyes to know that they are staring at you, one intently and the other aggressively.",
+    "key": "output|Both_bruisers_sport_obvious_augmentation_On_the_sides_of_their|2031ac88d41b",
+    "original": "Both bruisers sport obvious augmentation. On the sides of their oval-shaped heads sit square-shaped implants that summon visors of simmering green light across their field of vision. You don’t need to see their eyes to know that they are staring at you, one intently and the other aggressively.",
     "translation": "",
-    "context": "<<POS:06458957>>"
+    "context": "<<POS:06458961>>"
   },
   {
-    "key": "output|n_n_i_A_newbie_i_the_red_haired_one_says_apathetically_fo|482300326d7a",
-    "original": "\\n\\n<i>“A newbie,”</i> the red-haired one says apathetically, folding his trunk-like arms.",
+    "key": "output|i_A_newbie_i_the_red_haired_one_says_apathetically_foldin|a640971b1d1e",
+    "original": "<i>“A newbie,”</i> the red-haired one says apathetically, folding his trunk-like arms.",
     "translation": "",
-    "context": "<<POS:06459266>>"
+    "context": "<<POS:06459270>>"
   },
   {
-    "key": "output|n_n_i_Right_I_ll_handle_this_i_the_black_haired_one_respo|c0bc330375ce",
-    "original": "\\n\\n<i>“Right, I’ll handle this,”</i> the black-haired one responds brusquely, upturning his muscle-rippled palm and beckoning you to the side - can’t hold up traffic, after all.",
+    "key": "output|i_Right_I_ll_handle_this_i_the_black_haired_one_responds|1a9487ac31dd",
+    "original": "<i>“Right, I’ll handle this,”</i> the black-haired one responds brusquely, upturning his muscle-rippled palm and beckoning you to the side - can’t hold up traffic, after all.",
     "translation": "",
-    "context": "<<POS:06459367>>"
+    "context": "<<POS:06459371>>"
   },
   {
-    "key": "output|n_n_i_Welcome_to_Treasure_Nova_i_he_begins_in_a_profession|63293787d628",
-    "original": "\\n\\n<i>“Welcome to Treasure Nova,”</i> he begins in a professional oboe voice, interlocking his fingers behind his back. The same movement reveals the gun at his hip under the fancy jacket he wears. <i>“First, no weapons.”</i> ",
+    "key": "output|i_Welcome_to_Treasure_Nova_i_he_begins_in_a_professional_o|31556c1d37b5",
+    "original": "<i>“Welcome to Treasure Nova,”</i> he begins in a professional oboe voice, interlocking his fingers behind his back. The same movement reveals the gun at his hip under the fancy jacket he wears. <i>“First, no weapons.”</i> ",
     "translation": "",
-    "context": "<<POS:06459556>>"
+    "context": "<<POS:06459560>>"
   },
   {
     "key": "output|He_looks_down_at_you_hard_enough_that_his_scrunched_eyes_are_vis|8be79fbffd01",
@@ -1974,13 +2130,7 @@
     "context": "<<POS:06460192>>"
   },
   {
-    "key": "output|n_n|6fbc189aa79b",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:06460401>>"
-  },
-  {
-    "key": "output|Nodding_you_make_ready_to_disarm_Agitating_local_security_is_t|4718a50f489e",
+    "key": "output|Nodding_you_make_ready_to_disarm_Agitating_local_security_is_t|dbd59c96f83a",
     "original": "Nodding, you make ready to disarm. Agitating local security is the last thing you want on a crowded station.",
     "translation": "",
     "context": "<<POS:06460474>>"
@@ -1992,28 +2142,28 @@
     "context": "<<POS:06460593>>"
   },
   {
-    "key": "output|n_n_i_Lastly_you_will_respect_the_Dealers_and_adhere_to_the_r|368a030f5128",
-    "original": "\\n\\n<i>“Lastly, you will respect the Dealers and adhere to the rules of the game. Credits are to be presented up front. Bets will not be forfeited or surrendered. Take it from me, you would do well <b>not</b> to spend beyond your means.”</i> A light smirk crosses his olive features. <i>“Everything else should be self-explanatory.”</i>",
+    "key": "output|i_Lastly_you_will_respect_the_Dealers_and_adhere_to_the_rules|71841c548ab7",
+    "original": "<i>“Lastly, you will respect the Dealers and adhere to the rules of the game. Credits are to be presented up front. Bets will not be forfeited or surrendered. Take it from me, you would do well <b>not</b> to spend beyond your means.”</i> A light smirk crosses his olive features. <i>“Everything else should be self-explanatory.”</i>",
     "translation": "",
-    "context": "<<POS:06460749>>"
+    "context": "<<POS:06460753>>"
   },
   {
-    "key": "output|n_nHe_nods_once_cracking_his_neck_in_the_stiff_motion_before|76e8a899acf6",
-    "original": "\\n\\nHe nods once, cracking his neck in the stiff motion, before returning to his post and quashing a sprouted argument.",
+    "key": "output|He_nods_once_cracking_his_neck_in_the_stiff_motion_before_retu|86a0bc33c510",
+    "original": "He nods once, cracking his neck in the stiff motion, before returning to his post and quashing a sprouted argument.",
     "translation": "",
-    "context": "<<POS:06461096>>"
+    "context": "<<POS:06461100>>"
   },
   {
-    "key": "output|n_nIn_the_nearby_alcoves_not_too_unlike_a_set_of_keyed_lockers|6bcc78c97957",
-    "original": "\\n\\nIn the nearby alcoves, not too unlike a set of keyed lockers, you claim an unused rack and stash your [pc.rangedNoun] and whatever else on your personage that could be construed as a weapon, sealing them under magnetic clamps that will only open for the cardkey you take. You then [pc.move] unmolested through the cerulean forcefield, feeling the scanner bristle along your [pc.skinFurScalesNoun].",
+    "key": "output|In_the_nearby_alcoves_not_too_unlike_a_set_of_keyed_lockers_yo|2e6b5b5f046d",
+    "original": "In the nearby alcoves, not too unlike a set of keyed lockers, you claim an unused rack and stash your [pc.rangedNoun] and whatever else on your personage that could be construed as a weapon, sealing them under magnetic clamps that will only open for the cardkey you take. You then [pc.move] unmolested through the cerulean forcefield, feeling the scanner bristle along your [pc.skinFurScalesNoun].",
     "translation": "",
-    "context": "<<POS:06461226>>"
+    "context": "<<POS:06461230>>"
   },
   {
     "key": "button|Next|672ed260a51e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06461670>>"
+    "context": "<<POS:06461670>> addButton(0,\"Next\",(function(){clearOutput(),showBust(\"CASINO_SECURITY\"),showName(\"Casino Security\"),author(\"William\"),output(\"Weaponized glamor that could topple old Terran religions decorates the <i>Treasure Nova</i> interior - the opulence on display stabs you right in the eye. Behind the idolatr..."
   },
   {
     "key": "output|You_stand_square_in_the_center_of_the_station_s_foundry_level_a|f45bd34552f0",
@@ -2256,13 +2406,13 @@
     "context": "<<POS:06476778>>"
   },
   {
-    "key": "output|An_unhappy_looking_slave_dangles_above_second_i_Sidewinder_i|107e4c26c4af",
-    "original": "An unhappy-looking slave dangles above second <i>Sidewinder</i>’s exposed frame. In her hand, the sputtering plasma welder carefully traces the connection between metallic skeleton and sensor dish mounting bracket, merging two pieces of metal into one. Such equipment went out of style decades ago, but the reality of long distance detection has made them a practical necessity for dealing with pirates - and skirting the long arm of the law. This particular dish is quite large for a vessel of this size.\\n\\n",
+    "key": "output|An_unhappy_looking_slave_dangles_above_second_i_Sidewinder_i|9c532ae7e569",
+    "original": "An unhappy-looking slave dangles above second <i>Sidewinder</i>’s exposed frame. In her hand, the sputtering plasma welder carefully traces the connection between metallic skeleton and sensor dish mounting bracket, merging two pieces of metal into one. Such equipment went out of style decades ago, but the reality of long distance detection has made them a practical necessity for dealing with pirates - and skirting the long arm of the law. This particular dish is quite large for a vessel of this size.",
     "translation": "",
     "context": "<<POS:06477334>>"
   },
   {
-    "key": "output|Sensor_dishes_went_out_of_style_decades_ago_but_the_reality_of|ea7a6093648e",
+    "key": "output|Sensor_dishes_went_out_of_style_decades_ago_but_the_reality_of|6d5eb4bd3123",
     "original": "Sensor dishes went out of style decades ago, but the reality of long distance detection has made them a practical necessity for dealing with pirates - and skirting the long arm of the law. The one shading the top of the ship is quite large for a vessel of this size, and workmen with magsuits slowly crawl around the struts and folded metal of the bay of its hidden storage bay. ",
     "translation": "",
     "context": "<<POS:06477854>>"
@@ -2337,16 +2487,40 @@
     "key": "button|Join_In|c0713e43bb7c",
     "original": "Join In",
     "translation": "",
-    "context": "<<POS:06481077>>"
+    "context": "<<POS:06481077>> addButton(0,\"Join In\",(function(){clearAll(),author(\"Nonesuch\");var e=pc.libido()<=66;output(textify(yw||(yw=(0,a.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|You pause on the threshold, gazing out over the shifting, low lit, no-holds-barred terrain of sucking and fucking before you. Bass from messily wired sound syste..."
   },
   {
-    "key": "button|Jump_In|7ad7b931a188",
+    "key": "button.hover|Join_In|c0713e43bb7c",
+    "original": "Join In",
+    "translation": "",
+    "context": "<<POS:06484265>> addButton(0,\"Join In\",(function(){clearAll(),author(\"Nonesuch\");var e=pc.libido()<=66;output(textify(yw||(yw=(0,a.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|You pause on the threshold, gazing out over the shifting, low lit, no-holds-barred terrain of sucking and fucking before you. Bass from messily wired sound syste..."
+  },
+  {
+    "key": "button.tooltip|You_could_lose_yourself_in_this_dionysian_tableau_of_riotous_exc|48bdd1b76258",
+    "original": "You could lose yourself in this dionysian tableau of riotous excess easily. Nobody’s going to notice you aren’t a real slave.",
+    "translation": "",
+    "context": "<<POS:06484275>> addButton(0,\"Join In\",(function(){clearAll(),author(\"Nonesuch\");var e=pc.libido()<=66;output(textify(yw||(yw=(0,a.Z)([\"\\n\\t\\t[var0\\n\\t\\t\\t|You pause on the threshold, gazing out over the shifting, low lit, no-holds-barred terrain of sucking and fucking before you. Bass from messily wired sound syste..."
+  },
+  {
+    "key": "button|Jump_In|a385f5a94c05",
     "original": "Jump In",
     "translation": "",
-    "context": "<<POS:06484483>>"
+    "context": "<<POS:06484483>> addButton(e++,\"Jump In\",window.slaveLoungeJumpIn,\"Jump In\",\"All these unoccupied pleasure slaves, just for you? Well, you don’t have to be anywhere for the next couple of hours, do you?\")"
   },
   {
-    "key": "output|textify_Fw_Fw_0_a_Z_Your_ship_is_sitting_here_parked_away|bc23fa71d3c0",
+    "key": "button.hover|Jump_In|a385f5a94c05",
+    "original": "Jump In",
+    "translation": "",
+    "context": "<<POS:06484518>> addButton(e++,\"Jump In\",window.slaveLoungeJumpIn,\"Jump In\",\"All these unoccupied pleasure slaves, just for you? Well, you don’t have to be anywhere for the next couple of hours, do you?\")"
+  },
+  {
+    "key": "button.tooltip|All_these_unoccupied_pleasure_slaves_just_for_you_Well_you_do|ab90eef558e3",
+    "original": "All these unoccupied pleasure slaves, just for you? Well, you don’t have to be anywhere for the next couple of hours, do you?",
+    "translation": "",
+    "context": "<<POS:06484528>> addButton(e++,\"Jump In\",window.slaveLoungeJumpIn,\"Jump In\",\"All these unoccupied pleasure slaves, just for you? Well, you don’t have to be anywhere for the next couple of hours, do you?\")"
+  },
+  {
+    "key": "output|textify_Fw_Fw_0_a_Z_Your_ship_is_sitting_here_parked_away|e612caf5d5a2",
     "original": "textify(Fw||(Fw=(0,a.Z)([\"Your ship is sitting here, parked away from the larger pirate ships that call this place home. Though the hangar is pretty massive, it’s also pretty empty. The only way deeper into the base is a long, square hallway to the north.\"])))",
     "translation": "",
     "context": "<<POS:06485824>>"
@@ -2748,10 +2922,10 @@
     "context": "<<POS:06530325>>"
   },
   {
-    "key": "output|n_nA_strange_crystalline_device_lies_on_the_floor_At_a_glance|f378eb5ffd23",
-    "original": "\\n\\nA strange, crystalline device lies on the floor. At a glance, it seems like some kind of psi-reactive accessory. You could take it, if you wanted it.",
+    "key": "output|A_strange_crystalline_device_lies_on_the_floor_At_a_glance_it|ae98577a7f06",
+    "original": "A strange, crystalline device lies on the floor. At a glance, it seems like some kind of psi-reactive accessory. You could take it, if you wanted it.",
     "translation": "",
-    "context": "<<POS:06530928>>"
+    "context": "<<POS:06530932>>"
   },
   {
     "key": "output|textify_b_b_0_a_Z_Burrowing_deep_into_the_shattered_plan|bef570b8b508",
@@ -3408,16 +3582,16 @@
     "context": "<<POS:06658203>>"
   },
   {
-    "key": "output|n_n_i_Oh_i_Fluttering_her_long_lashes_the_galotian_girl_s|50fddc7fd5f4",
-    "original": "\\n\\n<i>“Oh!”</i> Fluttering her long lashes, the galotian girl seems to take notice of you. <i>“Oh my, aren’t you adorable. Say, haven’t I seen you around here before? Why yes, you’re that [pc.boyGirl] who has been sharing their bubbles with Cherry. Aren’t you just the sweetest!”</i> She leans in and plants a kiss so warm and soft that it brings a blush to your cheeks. <i>“I’m not very good with faces, but I never forget a taste,”</i> she confides with a wink.",
+    "key": "output|i_Oh_i_Fluttering_her_long_lashes_the_galotian_girl_seems|173002113bfb",
+    "original": "<i>“Oh!”</i> Fluttering her long lashes, the galotian girl seems to take notice of you. <i>“Oh my, aren’t you adorable. Say, haven’t I seen you around here before? Why yes, you’re that [pc.boyGirl] who has been sharing their bubbles with Cherry. Aren’t you just the sweetest!”</i> She leans in and plants a kiss so warm and soft that it brings a blush to your cheeks. <i>“I’m not very good with faces, but I never forget a taste,”</i> she confides with a wink.",
     "translation": "",
-    "context": "<<POS:06658729>>"
+    "context": "<<POS:06658733>>"
   },
   {
-    "key": "output|n_nYou_introduce_yourself_and_ask_if_she_s_got_a_moment_to_spar|1368304b97a6",
-    "original": "\\n\\nYou introduce yourself and ask if she’s got a moment to spare. Looking around for Cherry, she notes the rahn’s absence and narrows her eyes mischievously. <i>“Oh, I suppose so. Just don’t tell my boss.”</i>",
+    "key": "output|You_introduce_yourself_and_ask_if_she_s_got_a_moment_to_spare_L|9d68b89e668f",
+    "original": "You introduce yourself and ask if she’s got a moment to spare. Looking around for Cherry, she notes the rahn’s absence and narrows her eyes mischievously. <i>“Oh, I suppose so. Just don’t tell my boss.”</i>",
     "translation": "",
-    "context": "<<POS:06659204>>"
+    "context": "<<POS:06659208>>"
   },
   {
     "key": "output|You_move_toward_Molli_who_perks_up_at_your_approach_i_To_wha|7b3e95ab2375",
@@ -3429,43 +3603,109 @@
     "key": "button|Appearance|9ee20036b670",
     "original": "Appearance",
     "translation": "",
-    "context": "<<POS:06659672>>"
+    "context": "<<POS:06659672>> addButton(0,\"Appearance\",(function(){clearOutput(),molli.showAll(),author(\"Adjatha\"),output(\"Molli is a pink galotian of frankly titanic size. Rarely bothering to sculpt further down than mid-thigh, she still rises well past seven feet tall, with curves that make her nearly as wide. The gooey girl’s..."
   },
   {
-    "key": "button|Talk|ddabdde12809",
+    "key": "button.hover|Appearance|9ee20036b670",
+    "original": "Appearance",
+    "translation": "",
+    "context": "<<POS:06662113>> addButton(0,\"Appearance\",(function(){clearOutput(),molli.showAll(),author(\"Adjatha\"),output(\"Molli is a pink galotian of frankly titanic size. Rarely bothering to sculpt further down than mid-thigh, she still rises well past seven feet tall, with curves that make her nearly as wide. The gooey girl’s..."
+  },
+  {
+    "key": "button.tooltip|Take_in_the_full_size_of_this_huge_goo_girl|69c842d12cd7",
+    "original": "Take in the full size of this huge goo girl.",
+    "translation": "",
+    "context": "<<POS:06662126>> addButton(0,\"Appearance\",(function(){clearOutput(),molli.showAll(),author(\"Adjatha\"),output(\"Molli is a pink galotian of frankly titanic size. Rarely bothering to sculpt further down than mid-thigh, she still rises well past seven feet tall, with curves that make her nearly as wide. The gooey girl’s..."
+  },
+  {
+    "key": "button|Talk|91a8071f59c4",
     "original": "Talk",
     "translation": "",
-    "context": "<<POS:06662186>>"
+    "context": "<<POS:06662186>> addButton(1,\"Talk\",(function o(){clearOutput(),molli.showAll(),output(\"What do you want to talk to Molli about?\"),processTime(1),clearMenu(),addButton(0,\"Her\",n,\"Her\",\"Get to know her a little better.\"),addButton(1,\"Her Job\",i,\"Her Job\",\"How does she feel about being a janitor at the Tap-Hall?\"),add..."
   },
   {
-    "key": "button|Cleaning|d03051960db9",
+    "key": "button.hover|Talk|91a8071f59c4",
+    "original": "Talk",
+    "translation": "",
+    "context": "<<POS:06690466>> addButton(1,\"Talk\",(function o(){clearOutput(),molli.showAll(),output(\"What do you want to talk to Molli about?\"),processTime(1),clearMenu(),addButton(0,\"Her\",n,\"Her\",\"Get to know her a little better.\"),addButton(1,\"Her Job\",i,\"Her Job\",\"How does she feel about being a janitor at the Tap-Hall?\"),add..."
+  },
+  {
+    "key": "button.tooltip|Now_that_Cherry_s_away_you_can_get_to_know_her_partner|938bfca83403",
+    "original": "Now that Cherry’s away, you can get to know her partner.",
+    "translation": "",
+    "context": "<<POS:06690473>> addButton(1,\"Talk\",(function o(){clearOutput(),molli.showAll(),output(\"What do you want to talk to Molli about?\"),processTime(1),clearMenu(),addButton(0,\"Her\",n,\"Her\",\"Get to know her a little better.\"),addButton(1,\"Her Job\",i,\"Her Job\",\"How does she feel about being a janitor at the Tap-Hall?\"),add..."
+  },
+  {
+    "key": "button|Cleaning|25015bb1c157",
     "original": "Cleaning",
     "translation": "",
-    "context": "<<POS:06690545>>"
+    "context": "<<POS:06690545>> addButton(2,\"Cleaning\",(function(){if(clearOutput(),molli.showAll(),author(\"Adjatha\"),pc.hasKeyItem(\"Puss Pass\")){if(output(\"You know, all this running around and dealing with pirates has left you feeling a lot stickier than you’d like. Molli does such a good job cleaning everyone in the Tap-Hall, y..."
   },
   {
-    "key": "button|Sex|92e4d10d7b34",
+    "key": "button.hover|Cleaning|25015bb1c157",
+    "original": "Cleaning",
+    "translation": "",
+    "context": "<<POS:06704028>> addButton(2,\"Cleaning\",(function(){if(clearOutput(),molli.showAll(),author(\"Adjatha\"),pc.hasKeyItem(\"Puss Pass\")){if(output(\"You know, all this running around and dealing with pirates has left you feeling a lot stickier than you’d like. Molli does such a good job cleaning everyone in the Tap-Hall, y..."
+  },
+  {
+    "key": "button.tooltip|Get_a_full_body_cleanse_from_Zh_ng_Shi_s_most_avid_cleaning_staf|95221a59810d",
+    "original": "Get a full-body cleanse from Zhèng Shi’s most avid cleaning staff.",
+    "translation": "",
+    "context": "<<POS:06704039>> addButton(2,\"Cleaning\",(function(){if(clearOutput(),molli.showAll(),author(\"Adjatha\"),pc.hasKeyItem(\"Puss Pass\")){if(output(\"You know, all this running around and dealing with pirates has left you feeling a lot stickier than you’d like. Molli does such a good job cleaning everyone in the Tap-Hall, y..."
+  },
+  {
+    "key": "button|Sex|fc88f3a67ad9",
     "original": "Sex",
     "translation": "",
-    "context": "<<POS:06704170>>"
+    "context": "<<POS:06704170>> addButton(3,\"Sex\",(function(){clearOutput(),molli.showAll(),author(\"Adjatha\"),void 0===flags.SEXED_MOLLI?(output(\"You’re right at the edge of sensible caution. Cherry warned you not to mess with her galotian, but you just can’t help yourself from tasting the forbidden. Maybe it’s the thrumming, sub-..."
   },
   {
-    "key": "button|Push_It|7a321d284a28",
+    "key": "button.hover|Sex|fc88f3a67ad9",
+    "original": "Sex",
+    "translation": "",
+    "context": "<<POS:06811693>> addButton(3,\"Sex\",(function(){clearOutput(),molli.showAll(),author(\"Adjatha\"),void 0===flags.SEXED_MOLLI?(output(\"You’re right at the edge of sensible caution. Cherry warned you not to mess with her galotian, but you just can’t help yourself from tasting the forbidden. Maybe it’s the thrumming, sub-..."
+  },
+  {
+    "key": "button.tooltip|You_must_have_the_goo|1fe50b3c4fb5",
+    "original": "You must have the goo.",
+    "translation": "",
+    "context": "<<POS:06811699>> addButton(3,\"Sex\",(function(){clearOutput(),molli.showAll(),author(\"Adjatha\"),void 0===flags.SEXED_MOLLI?(output(\"You’re right at the edge of sensible caution. Cherry warned you not to mess with her galotian, but you just can’t help yourself from tasting the forbidden. Maybe it’s the thrumming, sub-..."
+  },
+  {
+    "key": "button|Push_It|8fc66c2c6ef1",
     "original": "Push It",
     "translation": "",
-    "context": "<<POS:06811737>>"
+    "context": "<<POS:06811737>> addButton(4,\"Push It\",(function(){clearOutput(),cherry.showAll(),author(\"Adjatha\"),output(\"As you give the giant galotian time to digest, you weigh your immediate future. You’re not about to be chased off by Cherry’s unreasonable over-protectiveness. You’re enjoying yourself, Molli’s enjoying hersel..."
   },
   {
-    "key": "button|Sex|661523795bf0",
+    "key": "button.hover|Push_It|8fc66c2c6ef1",
+    "original": "Push It",
+    "translation": "",
+    "context": "<<POS:06819738>> addButton(4,\"Push It\",(function(){clearOutput(),cherry.showAll(),author(\"Adjatha\"),output(\"As you give the giant galotian time to digest, you weigh your immediate future. You’re not about to be chased off by Cherry’s unreasonable over-protectiveness. You’re enjoying yourself, Molli’s enjoying hersel..."
+  },
+  {
+    "key": "button.tooltip|Damn_Cherry_s_rules_you_re_going_to_have_more_fun_with_Molli_an|46cdf3b0a72b",
+    "original": "Damn Cherry’s rules, you’re going to have more fun with Molli and you don’t care about the consequences!",
+    "translation": "",
+    "context": "<<POS:06819748>> addButton(4,\"Push It\",(function(){clearOutput(),cherry.showAll(),author(\"Adjatha\"),output(\"As you give the giant galotian time to digest, you weigh your immediate future. You’re not about to be chased off by Cherry’s unreasonable over-protectiveness. You’re enjoying yourself, Molli’s enjoying hersel..."
+  },
+  {
+    "key": "button|Sex|191c61f58dda",
     "original": "Sex",
     "translation": "",
-    "context": "<<POS:06819876>>"
+    "context": "<<POS:06819876>> addDisabledButton(3,\"Sex\",\"Sex\",\"You need genitals for sex, generally speaking.\")"
   },
   {
-    "key": "button|Leave|191966f105d2",
+    "key": "button.hover|You_need_genitals_for_sex_generally_speaking|771338de56a5",
+    "original": "You need genitals for sex, generally speaking.",
+    "translation": "",
+    "context": "<<POS:06819888>> addDisabledButton(3,\"Sex\",\"Sex\",\"You need genitals for sex, generally speaking.\")"
+  },
+  {
+    "key": "button|Leave|c69dd306fd6b",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:06820125>>"
+    "context": "<<POS:06820125>> addButton(14,\"Leave\",t)"
   },
   {
     "key": "output|Current_Status|f10cbd88e9b1",
@@ -3474,46 +3714,94 @@
     "context": "<<POS:06820202>>"
   },
   {
-    "key": "output|n_n_Chest_pc_inventory_armor_hasFlag_GLOBAL_ITEM_FLAG_EXPO|87c22eed5508",
-    "original": "\\n\\n* Chest: \"+(pc.inventory.armor.hasFlag(GLOBAL.ITEM_FLAG_EXPOSE_CHEST)?\"Unzipped\":\"Zipped\")",
+    "key": "output|Chest_pc_inventory_armor_hasFlag_GLOBAL_ITEM_FLAG_EXPOSE_C|78108adb4b7f",
+    "original": "* Chest: \"+(pc.inventory.armor.hasFlag(GLOBAL.ITEM_FLAG_EXPOSE_CHEST)?\"Unzipped\":\"Zipped\")",
     "translation": "",
-    "context": "<<POS:06820227>>"
+    "context": "<<POS:06820231>>"
   },
   {
-    "key": "output|n_n_Groin_pc_inventory_armor_hasFlag_GLOBAL_ITEM_FLAG_EXPO|6ee62e22fb8f",
-    "original": "\\n\\n* Groin: \"+(pc.inventory.armor.hasFlag(GLOBAL.ITEM_FLAG_EXPOSE_GROIN)?\"Unzipped\":\"Zipped\")",
+    "key": "output|Groin_pc_inventory_armor_hasFlag_GLOBAL_ITEM_FLAG_EXPOSE_G|c13a4ac2187e",
+    "original": "* Groin: \"+(pc.inventory.armor.hasFlag(GLOBAL.ITEM_FLAG_EXPOSE_GROIN)?\"Unzipped\":\"Zipped\")",
     "translation": "",
-    "context": "<<POS:06820331>>"
+    "context": "<<POS:06820335>>"
   },
   {
     "key": "button|Zip_Chest|963681f0a7ed",
     "original": "Zip Chest",
     "translation": "",
-    "context": "<<POS:06820510>>"
+    "context": "<<POS:06820510>> addButton(0,\"Zip Chest\",t,\"Zip Chest\",\"Zip the magzips on the techsuit's chest area.\")"
   },
   {
-    "key": "button|Unzip_Chest|637892692f99",
+    "key": "button.hover|Zip_Chest|963681f0a7ed",
+    "original": "Zip Chest",
+    "translation": "",
+    "context": "<<POS:06820524>> addButton(0,\"Zip Chest\",t,\"Zip Chest\",\"Zip the magzips on the techsuit's chest area.\")"
+  },
+  {
+    "key": "button.tooltip|Zip_the_magzips_on_the_techsuit_s_chest_area|75927a12db38",
+    "original": "Zip the magzips on the techsuit's chest area.",
+    "translation": "",
+    "context": "<<POS:06820536>> addButton(0,\"Zip Chest\",t,\"Zip Chest\",\"Zip the magzips on the techsuit's chest area.\")"
+  },
+  {
+    "key": "button|Unzip_Chest|00a675998d94",
     "original": "Unzip Chest",
     "translation": "",
-    "context": "<<POS:06820597>>"
+    "context": "<<POS:06820597>> addButton(0,\"Unzip Chest\",o,\"Unzip Chest\",\"Unzip the magzips on the techsuit's chest area.\")"
   },
   {
-    "key": "button|Zip_Groin|34f493964ca0",
+    "key": "button.hover|Unzip_Chest|00a675998d94",
+    "original": "Unzip Chest",
+    "translation": "",
+    "context": "<<POS:06820613>> addButton(0,\"Unzip Chest\",o,\"Unzip Chest\",\"Unzip the magzips on the techsuit's chest area.\")"
+  },
+  {
+    "key": "button.tooltip|Unzip_the_magzips_on_the_techsuit_s_chest_area|ac1fe2088cfb",
+    "original": "Unzip the magzips on the techsuit's chest area.",
+    "translation": "",
+    "context": "<<POS:06820627>> addButton(0,\"Unzip Chest\",o,\"Unzip Chest\",\"Unzip the magzips on the techsuit's chest area.\")"
+  },
+  {
+    "key": "button|Zip_Groin|e8709731d6fd",
     "original": "Zip Groin",
     "translation": "",
-    "context": "<<POS:06820748>>"
+    "context": "<<POS:06820748>> addButton(1,\"Zip Groin\",n,\"Zip Groin\",\"Zip the magzips on the techsuit's groin area.\")"
   },
   {
-    "key": "button|Unzip_Groin|53a03316043a",
+    "key": "button.hover|Zip_Groin|e8709731d6fd",
+    "original": "Zip Groin",
+    "translation": "",
+    "context": "<<POS:06820762>> addButton(1,\"Zip Groin\",n,\"Zip Groin\",\"Zip the magzips on the techsuit's groin area.\")"
+  },
+  {
+    "key": "button.tooltip|Zip_the_magzips_on_the_techsuit_s_groin_area|631d6f4a4118",
+    "original": "Zip the magzips on the techsuit's groin area.",
+    "translation": "",
+    "context": "<<POS:06820774>> addButton(1,\"Zip Groin\",n,\"Zip Groin\",\"Zip the magzips on the techsuit's groin area.\")"
+  },
+  {
+    "key": "button|Unzip_Groin|13fee7a480e0",
     "original": "Unzip Groin",
     "translation": "",
-    "context": "<<POS:06820835>>"
+    "context": "<<POS:06820835>> addButton(1,\"Unzip Groin\",i,\"Unzip Groin\",\"Unzip the magzips on the techsuit's groin area.\")"
   },
   {
-    "key": "button|Back|34fd0c163dc6",
+    "key": "button.hover|Unzip_Groin|13fee7a480e0",
+    "original": "Unzip Groin",
+    "translation": "",
+    "context": "<<POS:06820851>> addButton(1,\"Unzip Groin\",i,\"Unzip Groin\",\"Unzip the magzips on the techsuit's groin area.\")"
+  },
+  {
+    "key": "button.tooltip|Unzip_the_magzips_on_the_techsuit_s_groin_area|b0fd56a70b8e",
+    "original": "Unzip the magzips on the techsuit's groin area.",
+    "translation": "",
+    "context": "<<POS:06820865>> addButton(1,\"Unzip Groin\",i,\"Unzip Groin\",\"Unzip the magzips on the techsuit's groin area.\")"
+  },
+  {
+    "key": "button|Back|f90a5efb5aed",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:06820929>>"
+    "context": "<<POS:06820929>> addButton(14,\"Back\",(function(){return window.showInventory({force:!0})}))"
   },
   {
     "key": "output|You_rezip_the_suit_s_jacket|4cc5a04da9b5",
@@ -3522,16 +3810,16 @@
     "context": "<<POS:06821041>>"
   },
   {
-    "key": "output|n_n_b_2_Sexiness_2_Resolve_b|c632347d7487",
-    "original": "\\n\\n<b>-2 Sexiness, +2 Resolve.</b>",
+    "key": "output|b_2_Sexiness_2_Resolve_b|7082a90ffe37",
+    "original": "<b>-2 Sexiness, +2 Resolve.</b>",
     "translation": "",
-    "context": "<<POS:06821080>>"
+    "context": "<<POS:06821084>>"
   },
   {
-    "key": "button|Next|c1d199db0599",
+    "key": "button|Next|a2e933ab93dd",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06821265>>"
+    "context": "<<POS:06821265>> addButton(0,\"Next\",e)"
   },
   {
     "key": "output|You_unzip_the_suit_s_jacket_pc_isChestExposedByUpperUndergarme|d6b3a621be10",
@@ -3540,16 +3828,16 @@
     "context": "<<POS:06821325>>"
   },
   {
-    "key": "output|n_n_b_2_Sexiness_2_Resolve_b|d602b0852e34",
-    "original": "\\n\\n<b>+2 Sexiness, -2 Resolve.</b>",
+    "key": "output|b_2_Sexiness_2_Resolve_b|f53bbca4989a",
+    "original": "<b>+2 Sexiness, -2 Resolve.</b>",
     "translation": "",
-    "context": "<<POS:06821473>>"
+    "context": "<<POS:06821477>>"
   },
   {
-    "key": "button|Next|7154cbbf1945",
+    "key": "button|Next|5e65ae916c66",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06821655>>"
+    "context": "<<POS:06821655>> addButton(0,\"Next\",e)"
   },
   {
     "key": "output|You_redo_the_suit_s_groin_zip_pc_isCrotchExposedByLowerUnderga|72f28ddd744d",
@@ -3558,16 +3846,16 @@
     "context": "<<POS:06821715>>"
   },
   {
-    "key": "output|n_n_b_2_Sexiness_2_Resolve_b|d74133fb15d0",
-    "original": "\\n\\n<b>-2 Sexiness, +2 Resolve.</b>",
+    "key": "output|b_2_Sexiness_2_Resolve_b|f0c8e4032afa",
+    "original": "<b>-2 Sexiness, +2 Resolve.</b>",
     "translation": "",
-    "context": "<<POS:06821893>>"
+    "context": "<<POS:06821897>>"
   },
   {
-    "key": "button|Next|c1d199db0599#1",
+    "key": "button|Next|a2e933ab93dd#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06822078>>"
+    "context": "<<POS:06822078>> addButton(0,\"Next\",e)"
   },
   {
     "key": "output|You_undo_the_groin_zip_pc_isCrotchExposedByLowerUndergarment|e655e095f3db",
@@ -3576,15 +3864,15 @@
     "context": "<<POS:06822138>>"
   },
   {
-    "key": "output|n_n_b_2_Sexiness_2_Resolve_b|180e8f087543",
-    "original": "\\n\\n<b>+2 Sexiness, -2 Resolve.</b>",
+    "key": "output|b_2_Sexiness_2_Resolve_b|682fd3c8bc83",
+    "original": "<b>+2 Sexiness, -2 Resolve.</b>",
     "translation": "",
-    "context": "<<POS:06822358>>"
+    "context": "<<POS:06822362>>"
   },
   {
-    "key": "button|Next|7154cbbf1945#1",
+    "key": "button|Next|5e65ae916c66#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06822540>>"
+    "context": "<<POS:06822540>> addButton(0,\"Next\",e)"
   }
 ]

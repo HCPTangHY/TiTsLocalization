@@ -3,42 +3,48 @@
     "key": "perk|Nuki_Drunk|94e0053c8ae7",
     "original": "'Nuki Drunk",
     "translation": "",
-    "context": "<<POS:00903015>>"
+    "context": "<<POS:00903015>> createPerk(\"'Nuki Drunk\",0,0,0,0,\"\")"
   },
   {
     "key": "perk|Nuki_Nuts|b6fc2b3ab2f0",
     "original": "'Nuki Nuts",
     "translation": "",
-    "context": "<<POS:00903054>>"
+    "context": "<<POS:00903054>> createPerk(\"'Nuki Nuts\",0,0,0,0,\"\")"
   },
   {
     "key": "perk|MinCumQ|bf5cb920df5c",
     "original": "MinCumQ",
     "translation": "",
-    "context": "<<POS:00904041>>"
+    "context": "<<POS:00904041>> createPerk(\"MinCumQ\",2e3)"
   },
   {
     "key": "perk|Ever_Milk|18612e01572a",
     "original": "Ever-Milk",
     "translation": "",
-    "context": "<<POS:00904115>>"
+    "context": "<<POS:00904115>> createPerk(\"Ever-Milk\",5e3)"
   },
   {
     "key": "perk|Ditz_Speech|f296b5c34ded",
     "original": "Ditz Speech",
     "translation": "",
-    "context": "<<POS:00904574>>"
+    "context": "<<POS:00904574>> createPerk(\"Ditz Speech\")"
   },
   {
     "key": "button|Kiro|cb7050b47f8f",
     "original": "Kiro",
     "translation": "",
-    "context": "<<POS:00905752>>"
+    "context": "<<POS:00905752>> addDisabledButton(e,\"Kiro\",\"Kiro\",\"Kiro’s in no state to be interacted with right now. Check back later.\")"
   },
   {
-    "key": "button|Kiro|bf59febdfe25",
+    "key": "button.hover|Kiro_s_in_no_state_to_be_interacted_with_right_now_Check_back_l|e924f995b210",
+    "original": "Kiro’s in no state to be interacted with right now. Check back later.",
+    "translation": "",
+    "context": "<<POS:00905766>> addDisabledButton(e,\"Kiro\",\"Kiro\",\"Kiro’s in no state to be interacted with right now. Check back later.\")"
+  },
+  {
+    "key": "button|Kiro|efc0dec54ba4",
     "original": "Kiro",
     "translation": "",
-    "context": "<<POS:00909246>>"
+    "context": "<<POS:00909246>> addButton(e,\"Kiro\",window.approachKiro)"
   }
 ]

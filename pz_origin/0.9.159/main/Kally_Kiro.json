@@ -9,7 +9,7 @@
     "key": "button|Next|44981762625f",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20268426>>"
+    "context": "<<POS:20268426>> addButton(0,\"Next\",m)"
   },
   {
     "key": "output|blockHeader_Selecting|16cd48fa4443",
@@ -24,52 +24,70 @@
     "context": "<<POS:20268511>>"
   },
   {
-    "key": "output|n_n_b_u_Suitable_u_b|b7e66d8dfcb3",
-    "original": "\\n\\n<b><u>Suitable:</u></b>",
+    "key": "output|b_u_Suitable_u_b|f4b94c8c34ea",
+    "original": "<b><u>Suitable:</u></b>",
     "translation": "",
-    "context": "<<POS:20268615>>"
+    "context": "<<POS:20268619>>"
   },
   {
-    "key": "output|n_n_b_u_Unsuitable_u_b|6c43bbb6c3c0",
-    "original": "\\n\\n<b><u>Unsuitable:</u></b>",
+    "key": "output|b_u_Unsuitable_u_b|b2b5cac86fee",
+    "original": "<b><u>Unsuitable:</u></b>",
     "translation": "",
-    "context": "<<POS:20268714>>"
+    "context": "<<POS:20268718>>"
   },
   {
-    "key": "button|Anus|69ccea65e513",
+    "key": "button|Anus|6c01ebbda1c0",
     "original": "Anus",
     "translation": "",
-    "context": "<<POS:20268990>>"
+    "context": "<<POS:20268990>> addButton(e,\"Anus\",(function(){return w(d[e])}),\"Anus\",\"Use your anus.\")"
   },
   {
-    "key": "button|Vagina|1e393e936cbd",
+    "key": "button.hover|Anus|6c01ebbda1c0",
+    "original": "Anus",
+    "translation": "",
+    "context": "<<POS:20269026>> addButton(e,\"Anus\",(function(){return w(d[e])}),\"Anus\",\"Use your anus.\")"
+  },
+  {
+    "key": "button.tooltip|Use_your_anus|7ff8e5dc0a46",
+    "original": "Use your anus.",
+    "translation": "",
+    "context": "<<POS:20269033>> addButton(e,\"Anus\",(function(){return w(d[e])}),\"Anus\",\"Use your anus.\")"
+  },
+  {
+    "key": "button|Vagina|a0ce625bbedd",
     "original": "Vagina",
     "translation": "",
-    "context": "<<POS:20269084>>"
+    "context": "<<POS:20269084>> addButton(e,\"Vagina\",(function(){return w(d[e])}),\"Vagina\",ParseText(\"Use your [pc.vagina].\"))"
+  },
+  {
+    "key": "button.hover|Vagina|a0ce625bbedd",
+    "original": "Vagina",
+    "translation": "",
+    "context": "<<POS:20269122>> addButton(e,\"Vagina\",(function(){return w(d[e])}),\"Vagina\",ParseText(\"Use your [pc.vagina].\"))"
   },
   {
     "key": "button|Vagina|4b684161a60b",
     "original": "Vagina ",
     "translation": "",
-    "context": "<<POS:20269179>>"
+    "context": "<<POS:20269179>> addButton(e,\"Vagina \"+(d[e]+1),(function(){return w(d[e])}),Ot.m.capitalize(Ot.m.numToOrdinal(d[e]+1))+\" Vagina\",ParseText(\"Use your [pc.vagina \"+d[e]+\"].\"))"
   },
   {
-    "key": "output|n_b_Anus_concat_a_b_concat_f_e|d6f83639686c",
-    "original": "\\n<b>Anus\".concat(a,\":</b>\").concat(f_(e))",
+    "key": "output|b_Anus_concat_a_b_concat_f_e|21e8be6db41e",
+    "original": "<b>Anus\".concat(a,\":</b>\").concat(f_(e))",
     "translation": "",
-    "context": "<<POS:20270074>>"
+    "context": "<<POS:20270076>>"
   },
   {
-    "key": "output|n_b_Vagina_concat_a_b_concat_f_e|920fe01e8099",
-    "original": "\\n<b>Vagina\".concat(a,\":</b>\").concat(f_(e))",
+    "key": "output|b_Vagina_concat_a_b_concat_f_e|1c8fad5d51d1",
+    "original": "<b>Vagina\".concat(a,\":</b>\").concat(f_(e))",
     "translation": "",
-    "context": "<<POS:20270147>>"
+    "context": "<<POS:20270149>>"
   },
   {
-    "key": "output|n_b_concat_Ot_m_capitalize_Ot_m_numToOrdinal_e_1_Vagina|42a58ad552db",
-    "original": "\\n<b>\".concat(Ot.m.capitalize(Ot.m.numToOrdinal(e+1)),\" Vagina\").concat(a,\":</b>\").concat(f_(e))",
+    "key": "output|b_concat_Ot_m_capitalize_Ot_m_numToOrdinal_e_1_Vagina_c|442628d2841e",
+    "original": "<b>\".concat(Ot.m.capitalize(Ot.m.numToOrdinal(e+1)),\" Vagina\").concat(a,\":</b>\").concat(f_(e))",
     "translation": "",
-    "context": "<<POS:20270201>>"
+    "context": "<<POS:20270203>>"
   },
   {
     "key": "output|b_Stretch_Likely_b|0398d55c5116",
@@ -84,22 +102,22 @@
     "context": "<<POS:20270542>>"
   },
   {
-    "key": "output|n_b_Anus_concat_n_b_concat_f_e|3a5b2918f13a",
-    "original": "\\n<b>Anus\".concat(n,\":</b>\").concat(f_(e))",
+    "key": "output|b_Anus_concat_n_b_concat_f_e|d55c443159bf",
+    "original": "<b>Anus\".concat(n,\":</b>\").concat(f_(e))",
     "translation": "",
-    "context": "<<POS:20270699>>"
+    "context": "<<POS:20270701>>"
   },
   {
-    "key": "output|n_b_Vagina_concat_n_b_concat_f_e|cd66a8e8e7a7",
-    "original": "\\n<b>Vagina\".concat(n,\":</b>\").concat(f_(e))",
+    "key": "output|b_Vagina_concat_n_b_concat_f_e|ee81eaa59b1d",
+    "original": "<b>Vagina\".concat(n,\":</b>\").concat(f_(e))",
     "translation": "",
-    "context": "<<POS:20270772>>"
+    "context": "<<POS:20270774>>"
   },
   {
-    "key": "output|n_b_concat_Ot_m_capitalize_Ot_m_numToOrdinal_e_1_Vagina|ee2d985eb6c8",
-    "original": "\\n<b>\".concat(Ot.m.capitalize(Ot.m.numToOrdinal(e+1)),\" Vagina\").concat(n,\":</b>\").concat(f_(e))",
+    "key": "output|b_concat_Ot_m_capitalize_Ot_m_numToOrdinal_e_1_Vagina_c|e5d57f2700f6",
+    "original": "<b>\".concat(Ot.m.capitalize(Ot.m.numToOrdinal(e+1)),\" Vagina\").concat(n,\":</b>\").concat(f_(e))",
     "translation": "",
-    "context": "<<POS:20270826>>"
+    "context": "<<POS:20270828>>"
   },
   {
     "key": "output|b_concat_t_join_b|a724051d96c2",
@@ -126,64 +144,82 @@
     "context": "<<POS:20272261>>"
   },
   {
-    "key": "output|n_n_b_u_Suitable_u_b|0f3a0095d174",
-    "original": "\\n\\n<b><u>Suitable:</u></b>",
+    "key": "output|b_u_Suitable_u_b|1ab246904f4c",
+    "original": "<b><u>Suitable:</u></b>",
     "translation": "",
-    "context": "<<POS:20272346>>"
+    "context": "<<POS:20272350>>"
   },
   {
-    "key": "output|n_n_b_u_Unsuitable_u_b|6c43bbb6c3c0#1",
-    "original": "\\n\\n<b><u>Unsuitable:</u></b>",
+    "key": "output|b_u_Unsuitable_u_b|b2b5cac86fee#1",
+    "original": "<b><u>Unsuitable:</u></b>",
     "translation": "",
-    "context": "<<POS:20272432>>"
+    "context": "<<POS:20272436>>"
   },
   {
-    "key": "button|HL_Strapon|6e029791f812",
+    "key": "button|HL_Strapon|3d03d8715f06",
     "original": "HL Strapon",
     "translation": "",
-    "context": "<<POS:20272609>>"
+    "context": "<<POS:20272609>> addButton(e,\"HL Strapon\",(function(){return m(l[e])}),\"Hardlight Strap-On\",\"Use the dildo from \"+(r===pc?\"your [pc.lowerUndergarment].\":r.mf(\"his\",\"her\")+r.inventory.lowerUndergarment.longName+\".\"))"
   },
   {
-    "key": "button|Penis|de7d039de975",
+    "key": "button.hover|Hardlight_Strap_On|14bb0ed7462b",
+    "original": "Hardlight Strap-On",
+    "translation": "",
+    "context": "<<POS:20272651>> addButton(e,\"HL Strapon\",(function(){return m(l[e])}),\"Hardlight Strap-On\",\"Use the dildo from \"+(r===pc?\"your [pc.lowerUndergarment].\":r.mf(\"his\",\"her\")+r.inventory.lowerUndergarment.longName+\".\"))"
+  },
+  {
+    "key": "button.tooltip|Use_the_dildo_from|16a4c64f7d8f",
+    "original": "Use the dildo from ",
+    "translation": "",
+    "context": "<<POS:20272672>> addButton(e,\"HL Strapon\",(function(){return m(l[e])}),\"Hardlight Strap-On\",\"Use the dildo from \"+(r===pc?\"your [pc.lowerUndergarment].\":r.mf(\"his\",\"her\")+r.inventory.lowerUndergarment.longName+\".\"))"
+  },
+  {
+    "key": "button|Penis|1e746f9198d3",
     "original": "Penis",
     "translation": "",
-    "context": "<<POS:20272828>>"
+    "context": "<<POS:20272828>> addButton(e,\"Penis\",(function(){return m(l[e])}),\"Penis\",r===pc?ParseText(\"Use your [pc.cock].\"):\"Use \"+r.short+\"’s \"+r.cockDescript()+\".\")"
+  },
+  {
+    "key": "button.hover|Penis|1e746f9198d3",
+    "original": "Penis",
+    "translation": "",
+    "context": "<<POS:20272865>> addButton(e,\"Penis\",(function(){return m(l[e])}),\"Penis\",r===pc?ParseText(\"Use your [pc.cock].\"):\"Use \"+r.short+\"’s \"+r.cockDescript()+\".\")"
   },
   {
     "key": "button|Penis|13fa32dbc9b6",
     "original": "Penis ",
     "translation": "",
-    "context": "<<POS:20272968>>"
+    "context": "<<POS:20272968>> addButton(e,\"Penis \"+(l[e]+1),(function(){return m(l[e])}),Ot.m.capitalize(Ot.m.numToOrdinal(l[e]+1))+\" Penis\",r===pc?ParseText(\"Use your [pc.cock \"+l[e]+\"].\"):\"Use \"+r.short+\"’s \"+r.cockDescript(e)+\".\")"
   },
   {
-    "key": "output|n_b_Hardlight_Strap_On_b_Ot_m_toDisplayCase_pc_inventory_l|281e2d3ccebd",
-    "original": "\\n<b>Hardlight Strap-On:</b> \"+Ot.m.toDisplayCase(pc.inventory.lowerUndergarment.longName)",
+    "key": "output|b_Hardlight_Strap_On_b_Ot_m_toDisplayCase_pc_inventory_low|a3a2db6e0ef0",
+    "original": "<b>Hardlight Strap-On:</b> \"+Ot.m.toDisplayCase(pc.inventory.lowerUndergarment.longName)",
     "translation": "",
-    "context": "<<POS:20273831>>"
+    "context": "<<POS:20273833>>"
   },
   {
-    "key": "output|n_b_Penis_b_A_e|adce18761c15",
-    "original": "\\n<b>Penis:</b>\"+A_(e)",
+    "key": "output|b_Penis_b_A_e|d75c49e64f1f",
+    "original": "<b>Penis:</b>\"+A_(e)",
     "translation": "",
-    "context": "<<POS:20273951>>"
+    "context": "<<POS:20273953>>"
   },
   {
-    "key": "output|n_b_Ot_m_capitalize_Ot_m_numToOrdinal_e_1_Penis_b_A|e0dd5e188988",
-    "original": "\\n<b>\"+Ot.m.capitalize(Ot.m.numToOrdinal(e+1))+\" Penis:</b>\"+A_(e)",
+    "key": "output|b_Ot_m_capitalize_Ot_m_numToOrdinal_e_1_Penis_b_A_e|d1eab018a460",
+    "original": "<b>\"+Ot.m.capitalize(Ot.m.numToOrdinal(e+1))+\" Penis:</b>\"+A_(e)",
     "translation": "",
-    "context": "<<POS:20273983>>"
+    "context": "<<POS:20273985>>"
   },
   {
-    "key": "output|n_b_Penis_b_A_e|2f4109ecaa46",
-    "original": "\\n<b>Penis:</b>\"+A_(e)",
+    "key": "output|b_Penis_b_A_e|9dae307bb1bd",
+    "original": "<b>Penis:</b>\"+A_(e)",
     "translation": "",
-    "context": "<<POS:20274096>>"
+    "context": "<<POS:20274098>>"
   },
   {
-    "key": "output|n_b_Ot_m_capitalize_Ot_m_numToOrdinal_e_1_Penis_b_A|e0dd5e188988#1",
-    "original": "\\n<b>\"+Ot.m.capitalize(Ot.m.numToOrdinal(e+1))+\" Penis:</b>\"+A_(e)",
+    "key": "output|b_Ot_m_capitalize_Ot_m_numToOrdinal_e_1_Penis_b_A_e|d1eab018a460#1",
+    "original": "<b>\"+Ot.m.capitalize(Ot.m.numToOrdinal(e+1))+\" Penis:</b>\"+A_(e)",
     "translation": "",
-    "context": "<<POS:20274128>>"
+    "context": "<<POS:20274130>>"
   },
   {
     "key": "output|b_t_join_b|09053d20d1e7",
@@ -225,7 +261,7 @@
     "key": "button|Next|9593fa1d8f81",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20276611>>"
+    "context": "<<POS:20276611>> addButton(0,\"Next\",(function(){return e(0,a)}))"
   },
   {
     "key": "output|blockHeader_Selecting|16cd48fa4443#1",
@@ -240,13 +276,13 @@
     "context": "<<POS:20277172>>"
   },
   {
-    "key": "output|n_nThe_temperature_gradually_changes_around_you|f479077fe4fc",
-    "original": "\\n\\nThe temperature gradually changes around you.",
+    "key": "output|The_temperature_gradually_changes_around_you|8dd2ea2223a3",
+    "original": "The temperature gradually changes around you.",
     "translation": "",
-    "context": "<<POS:20279729>>"
+    "context": "<<POS:20279733>>"
   },
   {
-    "key": "output|With_relief_you_can_finally_take_some_time_to_defrost_and_enjo|7ddcced49e0f",
+    "key": "output|With_relief_you_can_finally_take_some_time_to_defrost_and_enjo|08d309d35521",
     "original": " With relief, you can finally take some time to defrost and enjoy the warmth!",
     "translation": "",
     "context": "<<POS:20279814>>"
@@ -255,145 +291,139 @@
     "key": "perk|Easy|3269c6ee83a3",
     "original": "Easy",
     "translation": "",
-    "context": "<<POS:20283517>>"
+    "context": "<<POS:20283517>> createPerk(\"Easy\",20,0,0,0,\"Gain 20% more lust from combat sources.\")"
   },
   {
     "key": "perk|Inhuman_Desire|4677d62297de",
     "original": "Inhuman Desire",
     "translation": "",
-    "context": "<<POS:20283620>>"
+    "context": "<<POS:20283620>> createPerk(\"Inhuman Desire\",15,0,0,0,\"Increases maximum lust by 15.\")"
   },
   {
     "key": "perk|Breed_Hungry|578816067347",
     "original": "Breed Hungry",
     "translation": "",
-    "context": "<<POS:20283721>>"
+    "context": "<<POS:20283721>> createPerk(\"Breed Hungry\",15,0,0,0,\"Increases speed that semen is created at and pregnancy speed.\")"
   },
   {
     "key": "perk|Ditz_Speech|29cb48c717d5",
     "original": "Ditz Speech",
     "translation": "",
-    "context": "<<POS:20283851>>"
+    "context": "<<POS:20283851>> createPerk(\"Ditz Speech\",0,0,0,0,\"Alters dialogue in certain scenes.\")"
   },
   {
-    "key": "bust|GRAY_GOO_PRIME|83ad5d399c70",
-    "original": "GRAY_GOO_PRIME",
-    "translation": "",
-    "context": "<<POS:20290529>>"
-  },
-  {
-    "key": "output|The_sound_of_talking_beckons_you_awake_You_blink_your_eyes_open|34adbee1bd7b",
+    "key": "output|The_sound_of_talking_beckons_you_awake_You_blink_your_eyes_open|2ac91c475dd3",
     "original": "The sound of talking beckons you awake. You blink your eyes open, and see that your cabin’s holoterminal is open, flashing brightly... and [gooarmor.name] is parked in your chair, her body molded in an even more human form than normal. She looks like the old [gooarmor.name] you encountered on Deck 13, complete with uniform and long hair pulled back in a ponytail, sitting on her legs and talking happily at the computer screen.",
     "translation": "",
     "context": "<<POS:20290603>>"
   },
   {
-    "key": "output|n_n_i_I_m_having_so_much_fun_i_she_grins_jiggling_excited|de71dc4e9ca4",
-    "original": "\\n\\n<i>“I’m having so much fun!”</i> she grins, jiggling excitedly at the screen. <i>“Space is amazing. There are so many cool people and weird places and adventures. So many adventures! I never thought I’d be, like, a real life adventurer. Well, kind of. [pc.name] is the real adventurer, but [pc.heShe]’s been nice enough to let me tag along.”</i>",
+    "key": "output|i_I_m_having_so_much_fun_i_she_grins_jiggling_excitedly_a|0d1b4434ba6e",
+    "original": "<i>“I’m having so much fun!”</i> she grins, jiggling excitedly at the screen. <i>“Space is amazing. There are so many cool people and weird places and adventures. So many adventures! I never thought I’d be, like, a real life adventurer. Well, kind of. [pc.name] is the real adventurer, but [pc.heShe]’s been nice enough to let me tag along.”</i>",
     "translation": "",
-    "context": "<<POS:20291043>>"
+    "context": "<<POS:20291047>>"
   },
   {
-    "key": "output|n_nYou_hear_a_noble_reserved_laugh_from_the_screen_and_a_woma|447c8dceb829",
-    "original": "\\n\\nYou hear a noble, reserved laugh from the screen, and a woman’s voice answer. <i>“That’s lovely, [gooarmor.name]. I’m glad you’re being taken care of.”</i>",
+    "key": "output|You_hear_a_noble_reserved_laugh_from_the_screen_and_a_woman_s|afde76280ad4",
+    "original": "You hear a noble, reserved laugh from the screen, and a woman’s voice answer. <i>“That’s lovely, [gooarmor.name]. I’m glad you’re being taken care of.”</i>",
     "translation": "",
-    "context": "<<POS:20291403>>"
+    "context": "<<POS:20291407>>"
   },
   {
-    "key": "output|n_n_i_How_s_the_new_body_Everything_where_it_s_supposed_to_be|5b081243f7f2",
-    "original": "\\n\\n<i>“How’s the new body? Everything where it’s supposed to be?”</i> [gooarmor.name] teases, making her big ol’ tits bounce.",
+    "key": "output|i_How_s_the_new_body_Everything_where_it_s_supposed_to_be|9fa85ceb0c78",
+    "original": "<i>“How’s the new body? Everything where it’s supposed to be?”</i> [gooarmor.name] teases, making her big ol’ tits bounce.",
     "translation": "",
-    "context": "<<POS:20291573>>"
+    "context": "<<POS:20291577>>"
   },
   {
-    "key": "output|n_n_i_I_am_fully_functional_yes_i_the_voice_says_with|d57ec62ef3b5",
-    "original": "\\n\\n<i>“I am... fully functional, yes,”</i> the voice says with another laugh. <i>“The new body’s quite nice, actually. I do admit, I miss the flexibility and convenience we used to have, but I shouldn’t complain. Sometimes I even forget that I’m not... me.”</i>",
+    "key": "output|i_I_am_fully_functional_yes_i_the_voice_says_with_anot|344dd48900e6",
+    "original": "<i>“I am... fully functional, yes,”</i> the voice says with another laugh. <i>“The new body’s quite nice, actually. I do admit, I miss the flexibility and convenience we used to have, but I shouldn’t complain. Sometimes I even forget that I’m not... me.”</i>",
     "translation": "",
-    "context": "<<POS:20291710>>"
+    "context": "<<POS:20291714>>"
   },
   {
-    "key": "output|n_n_gooarmor_name_pouts_i_Aww_don_t_be_like_that_You_re_g|07237c4c0f7a",
-    "original": "\\n\\n[gooarmor.name] pouts. <i>“Aww, don’t be like that. You’re gonna make </i>me<i> sad. Oh, didn’t you get that super duper awesome job, anyway?”</i>",
+    "key": "output|gooarmor_name_pouts_i_Aww_don_t_be_like_that_You_re_gonna|6df56c7fb076",
+    "original": "[gooarmor.name] pouts. <i>“Aww, don’t be like that. You’re gonna make </i>me<i> sad. Oh, didn’t you get that super duper awesome job, anyway?”</i>",
     "translation": "",
-    "context": "<<POS:20291983>>"
+    "context": "<<POS:20291987>>"
   },
   {
-    "key": "output|n_n_i_I_did_i_the_woman_says_her_tone_changing_immediatel|ee806c87cd93",
-    "original": "\\n\\n<i>“I did!”</i> the woman says, her tone changing immediately. <i>“Steele Tech offered me a captain’s post aboard one of their transports. They said I had sufficient ‘prior experience.’ Ha! Still, it’s something to do. Most of the crew is still in re-education classes to bring them up to speed on all the advances in the last few centuries.”</i>",
+    "key": "output|i_I_did_i_the_woman_says_her_tone_changing_immediately|060e36875f26",
+    "original": "<i>“I did!”</i> the woman says, her tone changing immediately. <i>“Steele Tech offered me a captain’s post aboard one of their transports. They said I had sufficient ‘prior experience.’ Ha! Still, it’s something to do. Most of the crew is still in re-education classes to bring them up to speed on all the advances in the last few centuries.”</i>",
     "translation": "",
-    "context": "<<POS:20292144>>"
+    "context": "<<POS:20292148>>"
   },
   {
-    "key": "output|n_n_gooarmor_name_beams_i_Super_cool_I_guess_I_can_still_c|17cd55c6bc3a",
-    "original": "\\n\\n[gooarmor.name] beams. <i>“Super cool! I guess I can still call you ‘captain,’ then?”</i>",
+    "key": "output|gooarmor_name_beams_i_Super_cool_I_guess_I_can_still_call|83bbad1643b7",
+    "original": "[gooarmor.name] beams. <i>“Super cool! I guess I can still call you ‘captain,’ then?”</i>",
     "translation": "",
-    "context": "<<POS:20292505>>"
+    "context": "<<POS:20292509>>"
   },
   {
-    "key": "output|n_n_i_I_suppose_you_can_i_the_woman_laughs_i_Ah_speaki|6c80ef085a19",
-    "original": "\\n\\n<i>“I suppose you can,”</i> the woman laughs. <i>“Ah, speaking of which, looks like my XO is at the door. I have to run, [gooarmor.name]. I’ll call you back soon.”</i>",
+    "key": "output|i_I_suppose_you_can_i_the_woman_laughs_i_Ah_speaking_o|58e72065a9ac",
+    "original": "<i>“I suppose you can,”</i> the woman laughs. <i>“Ah, speaking of which, looks like my XO is at the door. I have to run, [gooarmor.name]. I’ll call you back soon.”</i>",
     "translation": "",
-    "context": "<<POS:20292609>>"
+    "context": "<<POS:20292613>>"
   },
   {
-    "key": "output|n_n_i_Aw_Okay_See_you_later_Captain_Morrow_Love_you_Bye|79ea5e220123",
-    "original": "\\n\\n<i>“Aw. Okay! See you later, Captain Morrow. Love you. Bye.”</i>",
+    "key": "output|i_Aw_Okay_See_you_later_Captain_Morrow_Love_you_Bye_i|7af158645118",
+    "original": "<i>“Aw. Okay! See you later, Captain Morrow. Love you. Bye.”</i>",
     "translation": "",
-    "context": "<<POS:20292791>>"
+    "context": "<<POS:20292795>>"
   },
   {
-    "key": "output|n_nThe_screen_flicks_off_to_black_and_like_breathing_a_sigh|cdabc542c480",
-    "original": "\\n\\nThe screen flicks off to black, and like breathing a sigh, [gooarmor.name] resumes her less-human gooey form. She scoots back over to where you’ve dumped your equipment and collapses into an amorphous pile, awaiting you. Smiling to yourself, you roll back over and go to sleep again...",
+    "key": "output|The_screen_flicks_off_to_black_and_like_breathing_a_sigh_gooa|267b63d42525",
+    "original": "The screen flicks off to black, and like breathing a sigh, [gooarmor.name] resumes her less-human gooey form. She scoots back over to where you’ve dumped your equipment and collapses into an amorphous pile, awaiting you. Smiling to yourself, you roll back over and go to sleep again...",
     "translation": "",
-    "context": "<<POS:20292870>>"
+    "context": "<<POS:20292874>>"
   },
   {
     "key": "button|Next|d1b50f53bf8b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20293187>>"
+    "context": "<<POS:20293187>> addButton(0,\"Next\",(function(){var e=Fl.L.findPlayerShipBedroom();e&&skipToRoom(e),mainGameMenu()}))"
   },
   {
     "key": "button|Next|35b9a3540cff",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20294542>>"
+    "context": "<<POS:20294542>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "name.show|Kally_Kiro|d11630cb91d6",
     "original": "Kally & Kiro",
     "translation": "",
-    "context": "<<POS:20299249>>"
+    "context": "<<POS:20299249>> showName(\"Kally & Kiro\")"
   },
   {
     "key": "name.show|Kiro_Paige|3de7e4770cc0",
     "original": "Kiro & Paige",
     "translation": "",
-    "context": "<<POS:20299747>>"
+    "context": "<<POS:20299747>> showName(\"Kiro & Paige\")"
   },
   {
     "key": "name.show|Paige_Kiro|06aedcbd8710",
     "original": "Paige & Kiro",
     "translation": "",
-    "context": "<<POS:20299823>>"
+    "context": "<<POS:20299823>> showName(\"Paige & Kiro\")"
   },
   {
     "key": "name.show|Steph_Irson|c8ce6f9982f3",
     "original": "Steph Irson",
     "translation": "",
-    "context": "<<POS:20302079>>"
+    "context": "<<POS:20302079>> showName(\"Steph Irson\")"
   },
   {
     "key": "name.show|Goo_Armor|c04023d80c64",
     "original": "Goo Armor",
     "translation": "",
-    "context": "<<POS:20302669>>"
+    "context": "<<POS:20302669>> showName(\"Goo Armor\")"
   },
   {
     "key": "name.show|Gray_Goo|d79c0846045c",
     "original": "Gray Goo",
     "translation": "",
-    "context": "<<POS:20302691>>"
+    "context": "<<POS:20302691>> showName(\"Gray Goo\")"
   },
   {
     "key": "output|i_You_want_me_to|c4811ec914dd",
@@ -420,10 +450,10 @@
     "context": "<<POS:20306216>>"
   },
   {
-    "key": "output|n_nReaha_collects_her_things_and_skips_off_to_her_quarters_A_f|d1a406d42af6",
-    "original": "\\n\\nReaha collects her things and skips off to her quarters. A few moments later and she’s wandering the corridors",
+    "key": "output|Reaha_collects_her_things_and_skips_off_to_her_quarters_A_few_m|0ba6c3733303",
+    "original": "Reaha collects her things and skips off to her quarters. A few moments later and she’s wandering the corridors",
     "translation": "",
-    "context": "<<POS:20306302>>"
+    "context": "<<POS:20306306>>"
   },
   {
     "key": "output|trussed_up_in_her_reaha_gear|caa1f68d8c3d",
@@ -450,10 +480,10 @@
     "context": "<<POS:20306757>>"
   },
   {
-    "key": "output|n_n_i_Ooooh_Mitzi_has_a_lot_of_fun_with_that_one_She_ll_wear|e56b2fa88e75",
-    "original": "\\n\\n<i>“Ooooh, Mitzi has a lot of fun with that one. She’ll wear it around for days, [pc.Master], all for you.”</i> Her tail affectionately caresses your cheek",
+    "key": "output|i_Ooooh_Mitzi_has_a_lot_of_fun_with_that_one_She_ll_wear_it|39a86ff42beb",
+    "original": "<i>“Ooooh, Mitzi has a lot of fun with that one. She’ll wear it around for days, [pc.Master], all for you.”</i> Her tail affectionately caresses your cheek",
     "translation": "",
-    "context": "<<POS:20306792>>"
+    "context": "<<POS:20306796>>"
   },
   {
     "key": "output|and_you_can_t_help_but_give_it_a_quick_kiss|d5c7f00430fb",
@@ -492,13 +522,7 @@
     "context": "<<POS:20308082>>"
   },
   {
-    "key": "output|n|ec94b08fbec4",
-    "original": "\\n",
-    "translation": "",
-    "context": "<<POS:20308115>>"
-  },
-  {
-    "key": "output|b_u_concat_e_short_s_Available_Clothing_u_b|8d5f59ae1c77",
+    "key": "output|b_u_concat_e_short_s_Available_Clothing_u_b|c50ebe856578",
     "original": "<b><u>\".concat(e.short,\"’s Available Clothing</u></b>\")",
     "translation": "",
     "context": "<<POS:20308128>>"
@@ -513,10 +537,22 @@
     "key": "button|Wear_Clothes|559712e14ed8",
     "original": "Wear Clothes",
     "translation": "",
-    "context": "<<POS:20308551>>"
+    "context": "<<POS:20308551>> addButton(0,\"Wear Clothes\",(function a(){clearOutput(),e.header(),function(){if(\"Mitzi\"===e.getClassName())output(\"You inform Mitzi that you’re going to pick out something for her to wear.\"),output(\"\\n\\n<i>“Oooh, really? Mitzi has like, the best [pc.Master]! Who else would care enough to pretty up [..."
   },
   {
-    "key": "output|b_You_don_t_have_anything_to_give_concat_e_short_right_now|35df6c0d5fd4",
+    "key": "button.hover|Wear_Clothes|559712e14ed8",
+    "original": "Wear Clothes",
+    "translation": "",
+    "context": "<<POS:20311134>> addButton(0,\"Wear Clothes\",(function a(){clearOutput(),e.header(),function(){if(\"Mitzi\"===e.getClassName())output(\"You inform Mitzi that you’re going to pick out something for her to wear.\"),output(\"\\n\\n<i>“Oooh, really? Mitzi has like, the best [pc.Master]! Who else would care enough to pretty up [..."
+  },
+  {
+    "key": "button.tooltip|Change|1b25d419c1bc",
+    "original": "Change ",
+    "translation": "",
+    "context": "<<POS:20311149>> addButton(0,\"Wear Clothes\",(function a(){clearOutput(),e.header(),function(){if(\"Mitzi\"===e.getClassName())output(\"You inform Mitzi that you’re going to pick out something for her to wear.\"),output(\"\\n\\n<i>“Oooh, really? Mitzi has like, the best [pc.Master]! Who else would care enough to pretty up [..."
+  },
+  {
+    "key": "output|b_You_don_t_have_anything_to_give_concat_e_short_right_now|4346ebd1547b",
     "original": "<b>You don’t have anything to give \".concat(e.short,\" right now.</b>\\n\\n\")",
     "translation": "",
     "context": "<<POS:20311850>>"
@@ -531,13 +567,25 @@
     "key": "button|Outfits|a8877bb9be35",
     "original": "Outfits (",
     "translation": "",
-    "context": "<<POS:20312345>>"
+    "context": "<<POS:20312345>> addButton(u,\"Outfits (\".concat(h,\")\"),(function(){return l(e)}),\"Selection of Outfits: \".concat(s===r?s:\"\".concat(s,\" to \").concat(r)),a===i?\"\".concat(t,\".\"):\"\".concat(t,\" through \").concat(o,\".\"))"
   },
   {
-    "key": "button|Back|834b618e833a",
+    "key": "button.hover|Selection_of_Outfits|47edf6f419cd",
+    "original": "Selection of Outfits: ",
+    "translation": "",
+    "context": "<<POS:20312397>> addButton(u,\"Outfits (\".concat(h,\")\"),(function(){return l(e)}),\"Selection of Outfits: \".concat(s===r?s:\"\".concat(s,\" to \").concat(r)),a===i?\"\".concat(t,\".\"):\"\".concat(t,\" through \").concat(o,\".\"))"
+  },
+  {
+    "key": "button.hover|You_cannot_drop_this_item|96f205992a6d",
+    "original": "You cannot drop this item.",
+    "translation": "",
+    "context": "<<POS:20313074>> addDisabledButton(n++,i.shortName,Ot.m.toDisplayCase(i.longName),\"You cannot drop this item.\")"
+  },
+  {
+    "key": "button|Back|1ecfe7f3692b",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:20313180>>"
+    "context": "<<POS:20313180>> addButton(14,\"Back\",o)"
   },
   {
     "key": "output|i_I_ve_got_a_present_for_you_i|38aed546ddb8",
@@ -546,10 +594,10 @@
     "context": "<<POS:20313333>>"
   },
   {
-    "key": "output|n_n_i_Ooh_What_is_it_i_she_asks_looking_at_you_expectant|044c35ef3906",
-    "original": "\\n\\n<i>“Ooh! What is it?”</i> she asks, looking at you expectantly.",
+    "key": "output|i_Ooh_What_is_it_i_she_asks_looking_at_you_expectantly|833a7985273d",
+    "original": "<i>“Ooh! What is it?”</i> she asks, looking at you expectantly.",
     "translation": "",
-    "context": "<<POS:20313380>>"
+    "context": "<<POS:20313384>>"
   },
   {
     "key": "output|i_Oh_cute_i_Reaha_giggles_as_you_hand_over_a_descripti|afefa1d49f1e",
@@ -588,10 +636,10 @@
     "context": "<<POS:20314230>>"
   },
   {
-    "key": "output|n_n_i_Thanks_for_this_pc_name_i_she_adds_with_a_smile|a943632d7d50",
-    "original": "\\n\\n<i>“Thanks for this, [pc.name],”</i> she adds with a smile. <i>“It’ll keep me nice and safe!”</i>",
+    "key": "output|i_Thanks_for_this_pc_name_i_she_adds_with_a_smile_i|fac88ad494a9",
+    "original": "<i>“Thanks for this, [pc.name],”</i> she adds with a smile. <i>“It’ll keep me nice and safe!”</i>",
     "translation": "",
-    "context": "<<POS:20314474>>"
+    "context": "<<POS:20314478>>"
   },
   {
     "key": "output|i_Oh_i_she_says_the_excitement_fading_from_her_voice|49aa4a401025",
@@ -606,10 +654,10 @@
     "context": "<<POS:20314785>>"
   },
   {
-    "key": "output|n_nShe_catches_you_in_a_big_hug_squeezing_her_tits_tight_again|6b4419035edf",
-    "original": "\\n\\nShe catches you in a big hug, squeezing her tits tight against your [pc.chest]. <i>“I’ll go change. Be a shame if someone took advantage of me while I did,”</i> she adds with a lusty wink.",
+    "key": "output|She_catches_you_in_a_big_hug_squeezing_her_tits_tight_against_y|000bd8b88767",
+    "original": "She catches you in a big hug, squeezing her tits tight against your [pc.chest]. <i>“I’ll go change. Be a shame if someone took advantage of me while I did,”</i> she adds with a lusty wink.",
     "translation": "",
-    "context": "<<POS:20314991>>"
+    "context": "<<POS:20314995>>"
   },
   {
     "key": "output|i_Aww_thank_you_i_Reaha_says_taking_the_proffered_a_d|f539bf63cd31",
@@ -636,16 +684,16 @@
     "context": "<<POS:20315419>>"
   },
   {
-    "key": "output|n_n_i_Holyshitreally_i_Mitzi_hugs_your_pc_leg_crushingly|3c577c1ccbb1",
-    "original": "\\n\\n<i>“Holyshitreally?”</i> Mitzi hugs your [pc.leg] crushingly tight. Little bimbo tears streak down her cheeks. <i>“You’re the best, [pc.Master]. Mitzi is going to wear this for you right now!”</i>\\n\\nUnsurprisingly, she makes it look hot as hell.",
+    "key": "output|i_Holyshitreally_i_Mitzi_hugs_your_pc_leg_crushingly_tig|ad78c821ca9b",
+    "original": "<i>“Holyshitreally?”</i> Mitzi hugs your [pc.leg] crushingly tight. Little bimbo tears streak down her cheeks. <i>“You’re the best, [pc.Master]. Mitzi is going to wear this for you right now!”</i>\\n\\nUnsurprisingly, she makes it look hot as hell.",
     "translation": "",
-    "context": "<<POS:20315555>>"
+    "context": "<<POS:20315559>>"
   },
   {
     "key": "button|Next|81f572c42c00",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20316003>>"
+    "context": "<<POS:20316003>> addButton(0,\"Next\",o)"
   },
   {
     "key": "output|Are_you_sure_you_want_to_give_concat_e_short_concat_pc_in|94e6b4f6ad71",
@@ -657,34 +705,82 @@
     "key": "button|Yes|a526065367a5",
     "original": "Yes",
     "translation": "",
-    "context": "<<POS:20316171>>"
+    "context": "<<POS:20316171>> addButton(0,\"Yes\",(function(){return a(t)}),\"Yes\",\"Give \".concat(e.short,\" the clothes.\"))"
   },
   {
-    "key": "button|No|1c655db5490a",
+    "key": "button.hover|Yes|a526065367a5",
+    "original": "Yes",
+    "translation": "",
+    "context": "<<POS:20316203>> addButton(0,\"Yes\",(function(){return a(t)}),\"Yes\",\"Give \".concat(e.short,\" the clothes.\"))"
+  },
+  {
+    "key": "button.tooltip|Give|d7c99f9ee261",
+    "original": "Give ",
+    "translation": "",
+    "context": "<<POS:20316209>> addButton(0,\"Yes\",(function(){return a(t)}),\"Yes\",\"Give \".concat(e.short,\" the clothes.\"))"
+  },
+  {
+    "key": "button|No|92037e356faf",
     "original": "No",
     "translation": "",
-    "context": "<<POS:20316262>>"
+    "context": "<<POS:20316262>> addButton(1,\"No\",o,\"No\",\"Keep the clothes.\")"
   },
   {
-    "key": "button|Back|efdb07ce7d84",
+    "key": "button.hover|No|92037e356faf",
+    "original": "No",
+    "translation": "",
+    "context": "<<POS:20316269>> addButton(1,\"No\",o,\"No\",\"Keep the clothes.\")"
+  },
+  {
+    "key": "button.tooltip|Keep_the_clothes|d502599c23bd",
+    "original": "Keep the clothes.",
+    "translation": "",
+    "context": "<<POS:20316274>> addButton(1,\"No\",o,\"No\",\"Keep the clothes.\")"
+  },
+  {
+    "key": "button|Back|4d00659aa67e",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:20316308>>"
+    "context": "<<POS:20316308>> addButton(14,\"Back\",t)"
   },
   {
     "key": "button|Return_Clothes|b063560375ca",
     "original": "Return Clothes",
     "translation": "",
-    "context": "<<POS:20316546>>"
+    "context": "<<POS:20316546>> addButton(2,\"Return Clothes\",(function o(){clearOutput(),e.header(),output(\"What will you have \".concat(e.short,\" return to you?\\n\\n\")),s();var a=e.inventory.storage.sort((function(e,t){return e.shortName.localeCompare(t.shortName)}));if(a.length>14){clearMenu();for(var n=window.chunkUpAnArray(a,14)..."
   },
   {
-    "key": "button|Destroy_Clothes|d946347dec63",
+    "key": "button.hover|Return_Clothes|b063560375ca",
+    "original": "Return Clothes",
+    "translation": "",
+    "context": "<<POS:20318976>> addButton(2,\"Return Clothes\",(function o(){clearOutput(),e.header(),output(\"What will you have \".concat(e.short,\" return to you?\\n\\n\")),s();var a=e.inventory.storage.sort((function(e,t){return e.shortName.localeCompare(t.shortName)}));if(a.length>14){clearMenu();for(var n=window.chunkUpAnArray(a,14)..."
+  },
+  {
+    "key": "button.tooltip|Take_back_some_clothes_from|ea3c616e1c57",
+    "original": "Take back some clothes from ",
+    "translation": "",
+    "context": "<<POS:20318993>> addButton(2,\"Return Clothes\",(function o(){clearOutput(),e.header(),output(\"What will you have \".concat(e.short,\" return to you?\\n\\n\")),s();var a=e.inventory.storage.sort((function(e,t){return e.shortName.localeCompare(t.shortName)}));if(a.length>14){clearMenu();for(var n=window.chunkUpAnArray(a,14)..."
+  },
+  {
+    "key": "button|Destroy_Clothes|99b3248c1a97",
     "original": "Destroy Clothes",
     "translation": "",
-    "context": "<<POS:20319051>>"
+    "context": "<<POS:20319051>> addButton(3,\"Destroy Clothes\",(function o(){clearOutput(),e.header(),output(\"You cannot get clothing back from \".concat(e.short,\" once you ask \").concat(n,\" to get rid of it.\\n\\nWhat will you have \").concat(e.short,\" throw out?\\n\\n\")),s();var i=e.inventory.storage.sort((function(e,t){return e.shortN..."
   },
   {
-    "key": "output|blockHeader_Immobilized|efce802e78be",
+    "key": "button.hover|Destroy_Clothes|99b3248c1a97",
+    "original": "Destroy Clothes",
+    "translation": "",
+    "context": "<<POS:20321805>> addButton(3,\"Destroy Clothes\",(function o(){clearOutput(),e.header(),output(\"You cannot get clothing back from \".concat(e.short,\" once you ask \").concat(n,\" to get rid of it.\\n\\nWhat will you have \").concat(e.short,\" throw out?\\n\\n\")),s();var i=e.inventory.storage.sort((function(e,t){return e.shortN..."
+  },
+  {
+    "key": "button.tooltip|Get_rid_of_some_of|5f9260bb7aca",
+    "original": "Get rid of some of ",
+    "translation": "",
+    "context": "<<POS:20321823>> addButton(3,\"Destroy Clothes\",(function o(){clearOutput(),e.header(),output(\"You cannot get clothing back from \".concat(e.short,\" once you ask \").concat(n,\" to get rid of it.\\n\\nWhat will you have \").concat(e.short,\" throw out?\\n\\n\")),s();var i=e.inventory.storage.sort((function(e,t){return e.shortN..."
+  },
+  {
+    "key": "output|blockHeader_Immobilized|cbe3f0f786de",
     "original": "blockHeader(\"Immobilized!\")",
     "translation": "",
     "context": "<<POS:20338439>>"
@@ -699,37 +795,37 @@
     "key": "button|Next|d3c6c7fe754e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20338654>>"
+    "context": "<<POS:20338654>> addButton(0,\"Next\",(function(){return J_(\"bad end\")}))"
   },
   {
     "key": "button|Next|35b9a3540cff#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20338711>>"
+    "context": "<<POS:20338711>> addButton(0,\"Next\",(function(){return J_(\"help danger\")}))"
   },
   {
     "key": "button|Next|35b9a3540cff#2",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20338771>>"
+    "context": "<<POS:20338771>> addButton(0,\"Next\",(function(){return J_(\"emergency\")}))"
   },
   {
-    "key": "output|n_nMaybe_you_can_access_your_Inventory_to_find_something_you_ca|359152ed0916",
-    "original": "\\n\\nMaybe you can access your Inventory to find something you can use...",
+    "key": "output|Maybe_you_can_access_your_Inventory_to_find_something_you_can_us|f76a94cfc182",
+    "original": "Maybe you can access your Inventory to find something you can use...",
     "translation": "",
-    "context": "<<POS:20338830>>"
+    "context": "<<POS:20338834>>"
   },
   {
     "key": "button|Inventory|183cbf2a6f84",
     "original": "Inventory",
     "translation": "",
-    "context": "<<POS:20338918>>"
+    "context": "<<POS:20338918>> addButton(3,\"Inventory\",(function(){return J_(\"inventory\")}))"
   },
   {
     "key": "button|Never_Mind|991138294967",
     "original": "Never Mind",
     "translation": "",
-    "context": "<<POS:20338982>>"
+    "context": "<<POS:20338982>> addButton(14,\"Never Mind\",(function(){return J_(\"never mind\")}))"
   },
   {
     "key": "output|blockHeader_Relief|c2879374f862",
@@ -747,7 +843,7 @@
     "key": "button|Next|3e9a1fcfcd76",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20339140>>"
+    "context": "<<POS:20339140>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|blockHeader_Immobilized|7b9630e1a227",
@@ -765,31 +861,31 @@
     "key": "button|Stay|fc0d40858a22",
     "original": "Stay...",
     "translation": "",
-    "context": "<<POS:20339674>>"
+    "context": "<<POS:20339674>> addButton(0,\"Stay...\",(function(){return J_(\"stay\")}))"
   },
   {
     "key": "button|Help|63d89e13f6bd",
     "original": "Help!",
     "translation": "",
-    "context": "<<POS:20339729>>"
+    "context": "<<POS:20339729>> addButton(1,\"Help!\",(function(){return J_(\"help\")}))"
   },
   {
-    "key": "output|n_nOr_you_can_access_your_Inventory_to_find_something_you_can_u|e958bcb99c5e",
-    "original": "\\n\\nOr you can access your Inventory to find something you can use...",
+    "key": "output|Or_you_can_access_your_Inventory_to_find_something_you_can_use|5079d9313551",
+    "original": "Or you can access your Inventory to find something you can use...",
     "translation": "",
-    "context": "<<POS:20339784>>"
+    "context": "<<POS:20339788>>"
   },
   {
     "key": "button|Inventory|183cbf2a6f84#1",
     "original": "Inventory",
     "translation": "",
-    "context": "<<POS:20339869>>"
+    "context": "<<POS:20339869>> addButton(3,\"Inventory\",(function(){return J_(\"inventory\")}))"
   },
   {
     "key": "button|Never_Mind|991138294967#1",
     "original": "Never Mind",
     "translation": "",
-    "context": "<<POS:20339933>>"
+    "context": "<<POS:20339933>> addButton(14,\"Never Mind\",(function(){return J_(\"never mind\")}))"
   },
   {
     "key": "output|blockHeader_Medical_Emergency|4a68556c5ba4",
@@ -840,16 +936,16 @@
     "context": "<<POS:20340742>>"
   },
   {
-    "key": "output|n_n_concat_t|f438a32a6ef3",
-    "original": "\\n\\n\".concat(t)",
+    "key": "output|concat_t|9f53f58d8e32",
+    "original": "\".concat(t)",
     "translation": "",
-    "context": "<<POS:20341952>>"
+    "context": "<<POS:20341956>>"
   },
   {
-    "key": "button|Next|f8d4b7a5ffb8",
+    "key": "button|Next|4c61bef7a001",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20342030>>"
+    "context": "<<POS:20342030>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|You_decide_that_you_ll_figure_it_out_So_until_you_find_a_solu|ace3820209ac",
@@ -861,7 +957,7 @@
     "key": "button|Next|514629632e08",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20342408>>"
+    "context": "<<POS:20342408>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|blockHeader_Who_You_Gonna_Call|0ca8bad62369",
@@ -876,52 +972,46 @@
     "context": "<<POS:20342560>>"
   },
   {
-    "key": "output|Being_vulnerable_in_a_hazardous_location_is_not_ideal_n_n|dae30e4dc6e0",
-    "original": "Being vulnerable in a hazardous location is not ideal...\\n\\n",
+    "key": "output|Being_vulnerable_in_a_hazardous_location_is_not_ideal|de15fd575b61",
+    "original": "Being vulnerable in a hazardous location is not ideal...",
     "translation": "",
     "context": "<<POS:20342612>>"
   },
   {
-    "key": "output|You_decide_it_would_be_a_better_idea_to_ask_for_help_and_so_you|0e425022ec5a",
+    "key": "output|You_decide_it_would_be_a_better_idea_to_ask_for_help_and_so_you|216c46e58bdd",
     "original": "You decide it would be a better idea to ask for help and so you flip open your Codex and attempt to access your phone-a-friend speed dial list.",
     "translation": "",
     "context": "<<POS:20342683>>"
   },
   {
-    "key": "output|n_nWho_do_you_call|e4fedc8ec189",
-    "original": "\\n\\nWho do you call?",
+    "key": "output|Who_do_you_call|f8db451873b5",
+    "original": "Who do you call?",
     "translation": "",
-    "context": "<<POS:20342837>>"
+    "context": "<<POS:20342841>>"
   },
   {
-    "key": "output|n_nOr_would_you_rather_try_your_luck_with_something_from_your_i|8cedbf426066",
-    "original": "\\n\\nOr would you rather try your luck with something from your inventory?",
+    "key": "output|Or_would_you_rather_try_your_luck_with_something_from_your_inven|fe62d0f5d24d",
+    "original": "Or would you rather try your luck with something from your inventory?",
     "translation": "",
-    "context": "<<POS:20342883>>"
+    "context": "<<POS:20342887>>"
   },
   {
-    "key": "output|n_n|3143d0aa16d9",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:20342967>>"
-  },
-  {
-    "key": "button|Inventory|a18707ae9d1b",
+    "key": "button|Inventory|f9675a670978",
     "original": "Inventory",
     "translation": "",
-    "context": "<<POS:20343261>>"
+    "context": "<<POS:20343261>> addButton(10,\"Inventory\",(function(){return J_(\"inventory\")}))"
   },
   {
     "key": "button|Stay|5796dd51768a",
     "original": "Stay...",
     "translation": "",
-    "context": "<<POS:20343343>>"
+    "context": "<<POS:20343343>> addButton(13,\"Stay...\",(function(){return J_(\"stay\")}))"
   },
   {
     "key": "button|Never_Mind|baac0bb8bce1",
     "original": "Never Mind",
     "translation": "",
-    "context": "<<POS:20343399>>"
+    "context": "<<POS:20343399>> addButton(14,\"Never Mind\",(function(){return J_(\"never mind\")}))"
   },
   {
     "key": "output|blockHeader_Call_Steele_Tech|fe66d02664d4",
@@ -948,10 +1038,10 @@
     "context": "<<POS:20344041>>"
   },
   {
-    "key": "output|n_n_i_Oh_Uh_um_Steele_Tech_pick_up_crew_how_may_we_be_of|b1f4ebf90f2c",
-    "original": "\\n\\n<i>“Oh! Uh, um... Steele Tech pick-up crew, how may we be of service, \"+pc.mf(\"Mr.\",\"Ms.\")+\" Steele,”</i> a semi-nervous voice answers through audio... and after the video feed picks up, obviously female. You are greeted by her violet eyes and maroon lips on a chocolate-toned face, wearing a surprised expression.",
+    "key": "output|i_Oh_Uh_um_Steele_Tech_pick_up_crew_how_may_we_be_of_ser|e5948d9ace84",
+    "original": "<i>“Oh! Uh, um... Steele Tech pick-up crew, how may we be of service, \"+pc.mf(\"Mr.\",\"Ms.\")+\" Steele,”</i> a semi-nervous voice answers through audio... and after the video feed picks up, obviously female. You are greeted by her violet eyes and maroon lips on a chocolate-toned face, wearing a surprised expression.",
     "translation": "",
-    "context": "<<POS:20344070>>"
+    "context": "<<POS:20344074>>"
   },
   {
     "key": "output|It_s_Milly_and_upon_recognizing_you_she_flashes_a_bright_smil|ba95936ec92d",
@@ -966,16 +1056,16 @@
     "context": "<<POS:20344540>>"
   },
   {
-    "key": "output|n_nYou_smirk_i_Well_now_that_you_mention_it_I_have_1|fda47e81d1e2",
-    "original": "\\n\\nYou smirk. <i>“Well, now that you mention it, I have \"+(1===pc.balls?\"one big Steele Tech probe\":Ot.m.numToText(pc.balls)+\" big Steele Tech probes\")+\" I need help with...”</i> You try to pan and zoom your camera to reveal your [pc.ballsack] as much as possible. <i>“Do you think that is doable?”</i>",
+    "key": "output|You_smirk_i_Well_now_that_you_mention_it_I_have_1_pc_b|27577c0deed1",
+    "original": "You smirk. <i>“Well, now that you mention it, I have \"+(1===pc.balls?\"one big Steele Tech probe\":Ot.m.numToText(pc.balls)+\" big Steele Tech probes\")+\" I need help with...”</i> You try to pan and zoom your camera to reveal your [pc.ballsack] as much as possible. <i>“Do you think that is doable?”</i>",
     "translation": "",
-    "context": "<<POS:20344815>>"
+    "context": "<<POS:20344819>>"
   },
   {
-    "key": "output|n_nTaking_in_what_she_just_saw_the_girl_is_stunned_i_Oh_de|ec22c5a34adf",
-    "original": "\\n\\nTaking in what she just saw, the girl is stunned. <i>“Oh, dear...”</i> is her response, too shocked to follow up with another word.",
+    "key": "output|Taking_in_what_she_just_saw_the_girl_is_stunned_i_Oh_dear|fc0c6b6f2e07",
+    "original": "Taking in what she just saw, the girl is stunned. <i>“Oh, dear...”</i> is her response, too shocked to follow up with another word.",
     "translation": "",
-    "context": "<<POS:20345129>>"
+    "context": "<<POS:20345133>>"
   },
   {
     "key": "output|Is_is_that_drool_streaming_down_of_the_side_of_her_mouth|c64e9e1ff5e6",
@@ -984,46 +1074,40 @@
     "context": "<<POS:20345304>>"
   },
   {
-    "key": "output|n_nOut_of_the_corner_of_the_video_feed_you_spot_a_youthful_ka|6b518d97f043",
-    "original": "\\n\\nOut of the corner of the video feed, you spot a youthful, kaithrit male in the back, carelessly spinning by on his rolling chair. When his eyes meet the camera, you see him flinch and then, <i>“By the One--!”</i> His chair somehow flips from under him and \".concat(Ot.m.animateText(\"CRASH!\",\"shake\"),\" He is on the ground instantly.\")",
+    "key": "output|Out_of_the_corner_of_the_video_feed_you_spot_a_youthful_kaithr|2ab4875f3521",
+    "original": "Out of the corner of the video feed, you spot a youthful, kaithrit male in the back, carelessly spinning by on his rolling chair. When his eyes meet the camera, you see him flinch and then, <i>“By the One--!”</i> His chair somehow flips from under him and \".concat(Ot.m.animateText(\"CRASH!\",\"shake\"),\" He is on the ground instantly.\")",
     "translation": "",
-    "context": "<<POS:20345376>>"
+    "context": "<<POS:20345380>>"
   },
   {
-    "key": "output|n_nThe_noise_breaks_the_girl_s_trance_and_she_reflexively_hops|3e8e17032a81",
-    "original": "\\n\\nThe noise breaks the girl’s trance and she reflexively hops out of her seat, her hair whipping to the motion, so she can quickly tend to her co-worker. <i>“A--are you okay, Ringo?”</i>",
+    "key": "output|The_noise_breaks_the_girl_s_trance_and_she_reflexively_hops_out|18326199a812",
+    "original": "The noise breaks the girl’s trance and she reflexively hops out of her seat, her hair whipping to the motion, so she can quickly tend to her co-worker. <i>“A--are you okay, Ringo?”</i>",
     "translation": "",
-    "context": "<<POS:20345724>>"
+    "context": "<<POS:20345728>>"
   },
   {
-    "key": "output|n_n_i_Yeah_yeah_I_m_okay_I_m_okay_Thanks_i_he_groans|01922352b3df",
-    "original": "\\n\\n<i>“Yeah, yeah. I’m okay, I’m okay. Thanks,”</i> he groans, defeatedly.",
+    "key": "output|i_Yeah_yeah_I_m_okay_I_m_okay_Thanks_i_he_groans_defe|e8c2417a1023",
+    "original": "<i>“Yeah, yeah. I’m okay, I’m okay. Thanks,”</i> he groans, defeatedly.",
     "translation": "",
-    "context": "<<POS:20345923>>"
+    "context": "<<POS:20345927>>"
   },
   {
-    "key": "output|n_nConcluding_that_the_accident_wasn_t_anything_severe_but_sti|9f2a460e9708",
-    "original": "\\n\\nConcluding that the accident wasn’t anything severe, but still too flustered by the sudden mix of emotions, the girl darts back up toward the camera, one hand covering her eyes as if to be polite and splurting out a string of apologies with the blindly-aligned camera looking up at her chin. <i>“S-sorry. I’ll call a team nearby to give you a lift!”</i> The camera reangles itself again from being hand held and you are left with an image of her tight, cocoa-colored cleavage, and then a big silhouette of her hand blocks the view before tapping a button and finally the video and audio feed cuts out... Beep.",
+    "key": "output|Concluding_that_the_accident_wasn_t_anything_severe_but_still_t|b2f5ba063cde",
+    "original": "Concluding that the accident wasn’t anything severe, but still too flustered by the sudden mix of emotions, the girl darts back up toward the camera, one hand covering her eyes as if to be polite and splurting out a string of apologies with the blindly-aligned camera looking up at her chin. <i>“S-sorry. I’ll call a team nearby to give you a lift!”</i> The camera reangles itself again from being hand held and you are left with an image of her tight, cocoa-colored cleavage, and then a big silhouette of her hand blocks the view before tapping a button and finally the video and audio feed cuts out... Beep.",
     "translation": "",
-    "context": "<<POS:20346009>>"
+    "context": "<<POS:20346013>>"
   },
   {
-    "key": "output|n_nAs_innocent_as_she_is_she_void_0_flags_MHENGA_PROBE_CAS|a533ddf2eef9",
-    "original": "\\n\\nAs innocent as she is, she\"+(void 0!==flags.MHENGA_PROBE_CASH_GOT?\"’s\":\" seems to be\")+\" a good kid. Hopefully everything is okay over there. Anyway, it’s settled, you can now get out of your predicament.... somehow.",
+    "key": "output|As_innocent_as_she_is_she_void_0_flags_MHENGA_PROBE_CASH_GO|cfee39fe45da",
+    "original": "As innocent as she is, she\"+(void 0!==flags.MHENGA_PROBE_CASH_GOT?\"’s\":\" seems to be\")+\" a good kid. Hopefully everything is okay over there. Anyway, it’s settled, you can now get out of your predicament.... somehow.",
     "translation": "",
-    "context": "<<POS:20346633>>"
+    "context": "<<POS:20346637>>"
   },
   {
-    "key": "output|n_n|ab3c8d0a8049",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:20346864>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30",
+    "key": "button|Next|0bbc040953ff",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20346899>>"
+    "context": "<<POS:20346899>> addButton(0,\"Next\",(function(){return J_(\"success\")}))"
   },
   {
     "key": "output|blockHeader|7ad880886850",
@@ -1038,64 +1122,58 @@
     "context": "<<POS:20347020>>"
   },
   {
-    "key": "output|n_n_i_pc_name_be_careful_i_a_masked_voice_answers_witho|73124b7367ae",
-    "original": "\\n\\n<i>“[pc.name], be careful!”</i> a masked voice answers without a greeting, the video feed appears all black for you. <i>“There are Playmore Dongs around there.”</i> What? <i>“Use a Dong Detector!”</i>",
+    "key": "output|i_pc_name_be_careful_i_a_masked_voice_answers_without_a|5ff44a9d5264",
+    "original": "<i>“[pc.name], be careful!”</i> a masked voice answers without a greeting, the video feed appears all black for you. <i>“There are Playmore Dongs around there.”</i> What? <i>“Use a Dong Detector!”</i>",
     "translation": "",
-    "context": "<<POS:20347176>>"
+    "context": "<<POS:20347180>>"
   },
   {
-    "key": "output|n_n_i_Wh_who_are_you_i_you_respond|519d7ac1f4ab",
-    "original": "\\n\\n<i>“Wh...who are you?”</i> you respond.",
+    "key": "output|i_Wh_who_are_you_i_you_respond|c8b52b04f23c",
+    "original": "<i>“Wh...who are you?”</i> you respond.",
     "translation": "",
-    "context": "<<POS:20347391>>"
+    "context": "<<POS:20347395>>"
   },
   {
-    "key": "output|n_n_i_Just_call_me_DEEPTHROAT_i|4385caa433c2",
-    "original": "\\n\\n<i>“Just call me... ‘DEEPTHROAT’.”</i>",
+    "key": "output|i_Just_call_me_DEEPTHROAT_i|412424a5c2a1",
+    "original": "<i>“Just call me... ‘DEEPTHROAT’.”</i>",
     "translation": "",
-    "context": "<<POS:20347445>>"
+    "context": "<<POS:20347449>>"
   },
   {
-    "key": "output|n_n_i_Deepthroat_i_You_are_not_sure_if_this_is_a_joke_so|99c6170cf0f2",
-    "original": "\\n\\n<i>“Deepthroat?”</i> You are not sure if this is a joke, so you better make your situation clear. <i>“Listen, I just need help with my situation...”</i>",
+    "key": "output|i_Deepthroat_i_You_are_not_sure_if_this_is_a_joke_so_you|30053b66c29c",
+    "original": "<i>“Deepthroat?”</i> You are not sure if this is a joke, so you better make your situation clear. <i>“Listen, I just need help with my situation...”</i>",
     "translation": "",
-    "context": "<<POS:20347498>>"
+    "context": "<<POS:20347502>>"
   },
   {
-    "key": "output|n_nJust_before_you_provide_video_proof_the_voice_answers_i|c8ea18cc400f",
-    "original": "\\n\\nJust before you provide video proof, the voice answers, <i>“Already done.”</i> You could hear an audible grin.",
+    "key": "output|Just_before_you_provide_video_proof_the_voice_answers_i_Alre|8ff3defc83de",
+    "original": "Just before you provide video proof, the voice answers, <i>“Already done.”</i> You could hear an audible grin.",
     "translation": "",
-    "context": "<<POS:20347665>>"
+    "context": "<<POS:20347669>>"
   },
   {
-    "key": "output|n_n_i_What_do_you_want_in_return_i|ad38eb30a790",
-    "original": "\\n\\n<i>“What do you want in return?”</i>",
+    "key": "output|i_What_do_you_want_in_return_i|3d256861ea79",
+    "original": "<i>“What do you want in return?”</i>",
     "translation": "",
-    "context": "<<POS:20347790>>"
+    "context": "<<POS:20347794>>"
   },
   {
-    "key": "output|n_n_i_I_ve_waited_a_long_time_for_this_day_Now_I_want_to_enjo|36df39be39b5",
-    "original": "\\n\\n<i>“I’ve waited a long time for this day. Now I want to enjoy the moment.”</i> The audio and video then cut off... Beep.",
+    "key": "output|i_I_ve_waited_a_long_time_for_this_day_Now_I_want_to_enjoy_th|47e16193afc7",
+    "original": "<i>“I’ve waited a long time for this day. Now I want to enjoy the moment.”</i> The audio and video then cut off... Beep.",
     "translation": "",
-    "context": "<<POS:20347841>>"
+    "context": "<<POS:20347845>>"
   },
   {
-    "key": "output|n_nWhat_s_with_that_guy_Well_Let_s_hope_they_are_true_to_thei|5d5d752e0594",
-    "original": "\\n\\nWhat’s with that guy? Well, Let’s hope they are true to their word....",
+    "key": "output|What_s_with_that_guy_Well_Let_s_hope_they_are_true_to_their_wo|455dda18bcae",
+    "original": "What’s with that guy? Well, Let’s hope they are true to their word....",
     "translation": "",
-    "context": "<<POS:20347976>>"
+    "context": "<<POS:20347980>>"
   },
   {
-    "key": "output|n_n|6922d45202ae",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:20348061>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30#1",
+    "key": "button|Next|c5920a2f249b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20348096>>"
+    "context": "<<POS:20348096>> addButton(0,\"Next\",(function(){return J_(\"success\")}))"
   },
   {
     "key": "output|blockHeader_Call_Celise|67304ae0cbca",
@@ -1110,58 +1188,52 @@
     "context": "<<POS:20348217>>"
   },
   {
-    "key": "output|n_n_Beep|f1d4a86edd93",
-    "original": "\\n\\n... Beep.",
+    "key": "output|Beep|99f8821430ad",
+    "original": "... Beep.",
     "translation": "",
-    "context": "<<POS:20348323>>"
+    "context": "<<POS:20348327>>"
   },
   {
-    "key": "output|n_n_Beep|27fbd34424a6",
-    "original": "\\n\\n... Beep.",
+    "key": "output|Beep|7c81cdd9be90",
+    "original": "... Beep.",
     "translation": "",
-    "context": "<<POS:20348347>>"
+    "context": "<<POS:20348351>>"
   },
   {
-    "key": "output|n_nBeep_Beep|66548ae6b707",
-    "original": "\\n\\nBeep. Beep.",
+    "key": "output|Beep_Beep|a86304725f68",
+    "original": "Beep. Beep.",
     "translation": "",
-    "context": "<<POS:20348371>>"
+    "context": "<<POS:20348375>>"
   },
   {
-    "key": "output|n_n|0715680d8e98",
-    "original": "\\n\\n.....",
+    "key": "output|i_HELLOOOooo_i_is_the_greeting_with_some_irritable_cra|6875764f401a",
+    "original": "<i>“HELLOOOooo...!”</i> is the greeting, with some irritable crackling from exceeding the microphone’s audio levels. The video feed engages and all you see is a translucent green with the occasional bubbling.",
     "translation": "",
-    "context": "<<POS:20348397>>"
+    "context": "<<POS:20348421>>"
   },
   {
-    "key": "output|n_n_i_HELLOOOooo_i_is_the_greeting_with_some_irritable|345828159e6b",
-    "original": "\\n\\n<i>“HELLOOOooo...!”</i> is the greeting, with some irritable crackling from exceeding the microphone’s audio levels. The video feed engages and all you see is a translucent green with the occasional bubbling.",
+    "key": "output|i_Uh_Celise_i_you_ask|3c835538a929",
+    "original": "<i>“Uh, Celise...?”</i> you ask.",
     "translation": "",
-    "context": "<<POS:20348417>>"
+    "context": "<<POS:20348644>>"
   },
   {
-    "key": "output|n_n_i_Uh_Celise_i_you_ask|1778d16bc98e",
-    "original": "\\n\\n<i>“Uh, Celise...?”</i> you ask.",
+    "key": "output|i_Oh_hey_pc_name_i_she_answers_The_emerald_begins_to|84d59a56374e",
+    "original": "<i>“Oh, hey, [pc.name]!”</i> she answers. The emerald begins to shuffle away from the camera lens and a familiar face emerges.",
     "translation": "",
-    "context": "<<POS:20348640>>"
+    "context": "<<POS:20348691>>"
   },
   {
-    "key": "output|n_n_i_Oh_hey_pc_name_i_she_answers_The_emerald_begins|21aa2a2d52bd",
-    "original": "\\n\\n<i>“Oh, hey, [pc.name]!”</i> she answers. The emerald begins to shuffle away from the camera lens and a familiar face emerges.",
+    "key": "output|gooarmor_name_pokes_her_head_out_and_adds_i_Like_heeey_Ce|7b865abc7675",
+    "original": "[gooarmor.name] pokes her head out and adds, <i>“Like, heeey, Celise!”</i>",
     "translation": "",
-    "context": "<<POS:20348687>>"
+    "context": "<<POS:20348851>>"
   },
   {
-    "key": "output|n_n_gooarmor_name_pokes_her_head_out_and_adds_i_Like_heeey|829982ad85a5",
-    "original": "\\n\\n[gooarmor.name] pokes her head out and adds, <i>“Like, heeey, Celise!”</i>",
+    "key": "output|i_Hiya_gooarmor_name_i_Celise_responds_waving_excitedl|122dc4a64ef0",
+    "original": "<i>“Hiya, [gooarmor.name]!”</i> Celise responds, waving excitedly.",
     "translation": "",
-    "context": "<<POS:20348847>>"
-  },
-  {
-    "key": "output|n_n_i_Hiya_gooarmor_name_i_Celise_responds_waving_exci|22054c5ef314",
-    "original": "\\n\\n<i>“Hiya, [gooarmor.name]!”</i> Celise responds, waving excitedly.",
-    "translation": "",
-    "context": "<<POS:20348936>>"
+    "context": "<<POS:20348940>>"
   },
   {
     "key": "output|i_Do_ya_need_something_i|e1e7dce4efc4",
@@ -1170,10 +1242,10 @@
     "context": "<<POS:20349018>>"
   },
   {
-    "key": "output|n_n_i_Well_i_You_try_your_best_to_pan_and_zoom_the_camer|abc2c1299897",
-    "original": "\\n\\n<i>“Well...”</i> You try your best to pan and zoom the camera to capture the immensity of your [pc.balls]. <i>“I need some help",
+    "key": "output|i_Well_i_You_try_your_best_to_pan_and_zoom_the_camera_to|1d86af668898",
+    "original": "<i>“Well...”</i> You try your best to pan and zoom the camera to capture the immensity of your [pc.balls]. <i>“I need some help",
     "translation": "",
-    "context": "<<POS:20349060>>"
+    "context": "<<POS:20349064>>"
   },
   {
     "key": "output|emptying_1_pc_balls_this_these_or_at_least|25592b95cce3",
@@ -1188,70 +1260,64 @@
     "context": "<<POS:20349283>>"
   },
   {
-    "key": "output|n_nThe_green_goo_girl_lets_out_an_exaggerated_gasp_i_Wow_I|e7116c093676",
-    "original": "\\n\\nThe green goo girl lets out an exaggerated gasp. <i>“Wow! I wish I was there so I could drink it all myself!”</i>",
+    "key": "output|The_green_goo_girl_lets_out_an_exaggerated_gasp_i_Wow_I_wish|303206a42035",
+    "original": "The green goo girl lets out an exaggerated gasp. <i>“Wow! I wish I was there so I could drink it all myself!”</i>",
     "translation": "",
-    "context": "<<POS:20349365>>"
+    "context": "<<POS:20349369>>"
   },
   {
-    "key": "output|n_n_i_Ooo_Me_too_Me_too_i_gooarmor_name_adds|426180b112e7",
-    "original": "\\n\\n<i>“Ooo! Me too! Me too!”</i> [gooarmor.name] adds.",
+    "key": "output|i_Ooo_Me_too_Me_too_i_gooarmor_name_adds|e5a25c40ca40",
+    "original": "<i>“Ooo! Me too! Me too!”</i> [gooarmor.name] adds.",
     "translation": "",
-    "context": "<<POS:20349512>>"
+    "context": "<<POS:20349516>>"
   },
   {
-    "key": "output|n_nCelise_giggles_i_Of_course_we_can_share_i|c63378e72ccb",
-    "original": "\\n\\nCelise giggles, <i>“Of course, we can share!”</i>",
+    "key": "output|Celise_giggles_i_Of_course_we_can_share_i|fcee5630ee76",
+    "original": "Celise giggles, <i>“Of course, we can share!”</i>",
     "translation": "",
-    "context": "<<POS:20349578>>"
+    "context": "<<POS:20349582>>"
   },
   {
-    "key": "output|n_nYou_audibly_clear_your_throat|b4a25d6fcba9",
-    "original": "\\n\\nYou audibly clear your throat.",
+    "key": "output|You_audibly_clear_your_throat|15836d0f668e",
+    "original": "You audibly clear your throat.",
     "translation": "",
-    "context": "<<POS:20349643>>"
+    "context": "<<POS:20349647>>"
   },
   {
-    "key": "output|n_nCelise_s_face_crinkles_in_deep_concentration_i_Okay_I_wi|a8f217d21c4e",
-    "original": "\\n\\nCelise’s face crinkles in deep concentration. <i>“Okay, I will send out the call!”</i>",
+    "key": "output|Celise_s_face_crinkles_in_deep_concentration_i_Okay_I_will_s|2d0df7f4bbf0",
+    "original": "Celise’s face crinkles in deep concentration. <i>“Okay, I will send out the call!”</i>",
     "translation": "",
-    "context": "<<POS:20349688>>"
+    "context": "<<POS:20349692>>"
   },
   {
-    "key": "output|n_nWhat|ace9b063e2b9",
-    "original": "\\n\\nWhat?",
+    "key": "output|What|4b2dd50f5499",
+    "original": "What?",
     "translation": "",
-    "context": "<<POS:20349789>>"
+    "context": "<<POS:20349793>>"
   },
   {
-    "key": "output|n_nYou_see_her_vigorously_tapping_and_typing_on_the_keys_on_the|e2595d4bdede",
-    "original": "\\n\\nYou see her vigorously tapping and typing on the keys on the screen, supposedly, at least in her mind, putting together a team of experts to come and rescue you. However, in reality, the video display switches between color, grayscale, sepia tone, and fire and snow effects, while the sounds alternates between hyper girly, robot destroyer, auto-tune, and high-pitched and low-pitched. Basically, she’s just randomly changing the video and audio filters in her button mashing rampage.",
+    "key": "output|You_see_her_vigorously_tapping_and_typing_on_the_keys_on_the_scr|a454e175c0a4",
+    "original": "You see her vigorously tapping and typing on the keys on the screen, supposedly, at least in her mind, putting together a team of experts to come and rescue you. However, in reality, the video display switches between color, grayscale, sepia tone, and fire and snow effects, while the sounds alternates between hyper girly, robot destroyer, auto-tune, and high-pitched and low-pitched. Basically, she’s just randomly changing the video and audio filters in her button mashing rampage.",
     "translation": "",
-    "context": "<<POS:20349809>>"
+    "context": "<<POS:20349813>>"
   },
   {
-    "key": "output|n_nYou_are_about_to_suggest_something_but_the_audio_and_video_f|24e4fafa04a8",
-    "original": "\\n\\nYou are about to suggest something but the audio and video feed suddenly cut off with a static cue and then... Beep. The call has ended.",
+    "key": "output|You_are_about_to_suggest_something_but_the_audio_and_video_feed|6b77d63a9bed",
+    "original": "You are about to suggest something but the audio and video feed suddenly cut off with a static cue and then... Beep. The call has ended.",
     "translation": "",
-    "context": "<<POS:20350308>>"
+    "context": "<<POS:20350312>>"
   },
   {
-    "key": "output|n_nUh_perhaps_you_should_try_another_contact|c56aba852917",
-    "original": "\\n\\nUh... perhaps you should try another contact....",
+    "key": "output|Uh_perhaps_you_should_try_another_contact|45220b483ff2",
+    "original": "Uh... perhaps you should try another contact....",
     "translation": "",
-    "context": "<<POS:20350459>>"
+    "context": "<<POS:20350463>>"
   },
   {
-    "key": "output|n_n|82a9c3b88488",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:20350522>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30#2",
+    "key": "button|Next|4b5d823672ba",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20350557>>"
+    "context": "<<POS:20350557>> addButton(0,\"Next\",(function(){return J_(\"back\")}))"
   },
   {
     "key": "output|blockHeader_Call_Reaha|5e8e25a6219c",
@@ -1266,52 +1332,46 @@
     "context": "<<POS:20350672>>"
   },
   {
-    "key": "output|n_n_i_Hello_i_the_bovine_beauty_s_voice_answers|73661611f0d0",
-    "original": "\\n\\n<i>“Hello,”</i> the bovine beauty’s voice answers.",
+    "key": "output|i_Hello_i_the_bovine_beauty_s_voice_answers|7d29383c69ed",
+    "original": "<i>“Hello,”</i> the bovine beauty’s voice answers.",
     "translation": "",
-    "context": "<<POS:20350769>>"
+    "context": "<<POS:20350773>>"
   },
   {
-    "key": "output|n_nYou_reply_i_He_i|6f2c28566c95",
-    "original": "\\n\\nYou reply, <i>“He--”</i>",
+    "key": "output|You_reply_i_He_i|013e15b5980f",
+    "original": "You reply, <i>“He--”</i>",
     "translation": "",
-    "context": "<<POS:20350834>>"
+    "context": "<<POS:20350838>>"
   },
   {
-    "key": "output|n_n_i_You_ve_reached_the_voice_box_of_Reaha_Hayes_I_m_not|ec53728120c4",
-    "original": "\\n\\n<i>“...You’ve reached the voice box of Reaha Hayes. I’m not here right now but if you leave your name and number after the ‘moo’, I will try to get back to you as soon as I can. Thank you!”</i>",
+    "key": "output|i_You_ve_reached_the_voice_box_of_Reaha_Hayes_I_m_not_here|057c799acae1",
+    "original": "<i>“...You’ve reached the voice box of Reaha Hayes. I’m not here right now but if you leave your name and number after the ‘moo’, I will try to get back to you as soon as I can. Thank you!”</i>",
     "translation": "",
-    "context": "<<POS:20350873>>"
+    "context": "<<POS:20350877>>"
   },
   {
-    "key": "output|n_nGreat_well_she_s_probably_busy_at_the_mo|732036fa0461",
-    "original": "\\n\\nGreat, well, she’s probably busy at the mo--",
+    "key": "output|Great_well_she_s_probably_busy_at_the_mo|984f10d7a389",
+    "original": "Great, well, she’s probably busy at the mo--",
     "translation": "",
-    "context": "<<POS:20351081>>"
+    "context": "<<POS:20351085>>"
   },
   {
-    "key": "output|n_n_i_Moo_i|fe89d230afd1",
-    "original": "\\n\\n<i>“Moo!”</i>",
+    "key": "output|i_Moo_i|fa79a04eedd8",
+    "original": "<i>“Moo!”</i>",
     "translation": "",
-    "context": "<<POS:20351140>>"
+    "context": "<<POS:20351144>>"
   },
   {
-    "key": "output|n_nGuess_you_better_try_another_contact|01276684c57a",
-    "original": "\\n\\nGuess you better try another contact....",
+    "key": "output|Guess_you_better_try_another_contact|565b2daa1612",
+    "original": "Guess you better try another contact....",
     "translation": "",
-    "context": "<<POS:20351168>>"
+    "context": "<<POS:20351172>>"
   },
   {
-    "key": "output|n_n|40e35d9a91bc",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:20351223>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30#3",
+    "key": "button|Next|2329aa83a4c7",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20351258>>"
+    "context": "<<POS:20351258>> addButton(0,\"Next\",(function(){return J_(\"back\")}))"
   },
   {
     "key": "output|blockHeader_Waiting|fd8c729cbb68",
@@ -1326,28 +1386,22 @@
     "context": "<<POS:20351383>>"
   },
   {
-    "key": "output|n_nAnd_wait|d6b49f483267",
-    "original": "\\n\\nAnd wait...",
+    "key": "output|And_wait|46519d4142d7",
+    "original": "And wait...",
     "translation": "",
-    "context": "<<POS:20351408>>"
+    "context": "<<POS:20351412>>"
   },
   {
-    "key": "output|n_n_And_wait|e3e75968cddb",
-    "original": "\\n\\n...And wait.",
+    "key": "output|And_wait|5b4a18da9f99",
+    "original": "...And wait.",
     "translation": "",
-    "context": "<<POS:20351434>>"
+    "context": "<<POS:20351438>>"
   },
   {
-    "key": "output|n_n|251513b051c6",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:20351461>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30#4",
+    "key": "button|Next|e33e52cb2c0a",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20351497>>"
+    "context": "<<POS:20351497>> addButton(0,\"Next\",(function(){return J_(\"emergency\")}))"
   },
   {
     "key": "output|blockHeader_Waiting|fd8c729cbb68#1",
@@ -1362,16 +1416,10 @@
     "context": "<<POS:20351624>>"
   },
   {
-    "key": "output|n_n|a9c31f2d138b",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:20351685>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30#5",
+    "key": "button|Next|8de5769eb7ed",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20351720>>"
+    "context": "<<POS:20351720>> addButton(0,\"Next\",X_)"
   },
   {
     "key": "output|blockHeader_No_Response|0c336866c3d1",
@@ -1386,22 +1434,16 @@
     "context": "<<POS:20351811>>"
   },
   {
-    "key": "output|n_nPerhaps_you_should_try_a_different_number|717dafef55be",
-    "original": "\\n\\nPerhaps you should try a different number?",
+    "key": "output|Perhaps_you_should_try_a_different_number|f214e10fdb8c",
+    "original": "Perhaps you should try a different number?",
     "translation": "",
-    "context": "<<POS:20351859>>"
+    "context": "<<POS:20351863>>"
   },
   {
-    "key": "output|n_n|18ba3b03cf3f",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:20351916>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30#6",
+    "key": "button|Next|2f755facb655",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20351951>>"
+    "context": "<<POS:20351951>> addButton(0,\"Next\",(function(){return J_(\"back\")}))"
   },
   {
     "key": "output|blockHeader_All_Out_Balls_Out|e2e799380779",
@@ -1425,7 +1467,7 @@
     "key": "button|Next|9ecd28d11298",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20352833>>"
+    "context": "<<POS:20352833>> addButton(0,\"Next\",e[rand(e.length)])"
   },
   {
     "key": "output|Unfortunately_for_you_there_is_no_solution_for_your_current_co|8365ca131ee4",
@@ -1437,7 +1479,7 @@
     "key": "button|Next|0651512e11ac",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20352955>>"
+    "context": "<<POS:20352955>> addButton(0,\"Next\",window.popUIStateToMainText)"
   },
   {
     "key": "output|blockHeader_Priapism_Problems|04d0759ed18a",
@@ -1452,51 +1494,51 @@
     "context": "<<POS:20353626>>"
   },
   {
-    "key": "output|n_n_i_You_Halt_i|36c7e7d3e3e1",
-    "original": "\\n\\n<i>“You! Halt!”</i>",
+    "key": "output|i_You_Halt_i|5dbe2ca5ecb1",
+    "original": "<i>“You! Halt!”</i>",
     "translation": "",
-    "context": "<<POS:20354026>>"
+    "context": "<<POS:20354030>>"
   },
   {
-    "key": "output|n_nYou_blush_a_bit_flustered_and_giggly_inside_while_trying_to|161a8c61fd92",
-    "original": "\\n\\nYou blush, a bit flustered and giggly inside while trying to skip your way in the opposite direction.",
+    "key": "output|You_blush_a_bit_flustered_and_giggly_inside_while_trying_to_ski|e444feb0ae6a",
+    "original": "You blush, a bit flustered and giggly inside while trying to skip your way in the opposite direction.",
     "translation": "",
-    "context": "<<POS:20354073>>"
+    "context": "<<POS:20354077>>"
   },
   {
-    "key": "output|n_nYou_act_casual_and_straighten_out_your_back_to_stride_away_i|221a989a72d5",
-    "original": "\\n\\nYou act casual and straighten out your back to stride away in the opposite direction.",
+    "key": "output|You_act_casual_and_straighten_out_your_back_to_stride_away_in_th|71fde175a2c8",
+    "original": "You act casual and straighten out your back to stride away in the opposite direction.",
     "translation": "",
-    "context": "<<POS:20354200>>"
+    "context": "<<POS:20354204>>"
   },
   {
-    "key": "output|n_nYou_sigh_that_your_luck_was_so_bad_but_try_to_nervously_walk|0260050f77ab",
-    "original": "\\n\\nYou sigh that your luck was so bad but try to nervously walk away in the opposite direction.",
+    "key": "output|You_sigh_that_your_luck_was_so_bad_but_try_to_nervously_walk_awa|7f1918b91bbb",
+    "original": "You sigh that your luck was so bad but try to nervously walk away in the opposite direction.",
     "translation": "",
-    "context": "<<POS:20354312>>"
+    "context": "<<POS:20354316>>"
   },
   {
-    "key": "output|n_nYou_curse_under_your_breath_Despite_your_bad_luck_you_try|f4d35f48dcf2",
-    "original": "\\n\\nYou curse under your breath. Despite your bad luck, you try to inconspicuously stride away in the opposite direction.",
+    "key": "output|You_curse_under_your_breath_Despite_your_bad_luck_you_try_to_i|34faf601b34c",
+    "original": "You curse under your breath. Despite your bad luck, you try to inconspicuously stride away in the opposite direction.",
     "translation": "",
-    "context": "<<POS:20354438>>"
+    "context": "<<POS:20354442>>"
   },
   {
-    "key": "output|n_nYou_audibly_let_out_a_curse_and_rapidly_stomp_your_way_in_th|77b59c4c7aea",
-    "original": "\\n\\nYou audibly let out a curse and rapidly stomp your way in the opposite direction, hoping that the cop didn’t catch you.",
+    "key": "output|You_audibly_let_out_a_curse_and_rapidly_stomp_your_way_in_the_op|3a078f939b49",
+    "original": "You audibly let out a curse and rapidly stomp your way in the opposite direction, hoping that the cop didn’t catch you.",
     "translation": "",
-    "context": "<<POS:20354581>>"
+    "context": "<<POS:20354585>>"
   },
   {
-    "key": "output|n_nYou_pretend_not_to_see_the_police_officer_and_proceed_on_you|9b4cc9cf4560",
-    "original": "\\n\\nYou pretend not to see the police officer and proceed on your way in the opposite direction.",
+    "key": "output|You_pretend_not_to_see_the_police_officer_and_proceed_on_your_wa|47e59ebd8068",
+    "original": "You pretend not to see the police officer and proceed on your way in the opposite direction.",
     "translation": "",
-    "context": "<<POS:20354715>>"
+    "context": "<<POS:20354719>>"
   },
   {
     "key": "button|Next|438c121d9726",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:20354839>>"
+    "context": "<<POS:20354839>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearOutput(),author(\"Jacques00\");var t=0===rand(3),o=pc.biggestCockIndex(),a=pc.cumQ();showBust(\"UCG_\"+(e?\"MALE\":\"FEMALE\")+\"_\"+(t?\"2\":\"1\")),showName(\"UGC Officer\"),output(blockHeader(\"Pay ..."
   }
 ]

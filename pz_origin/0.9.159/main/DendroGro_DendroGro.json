@@ -3,7 +3,7 @@
     "key": "name.show|DendroGro|56171aec734f",
     "original": "DendroGro",
     "translation": "",
-    "context": "<<POS:08054793>>"
+    "context": "<<POS:08054793>> showName(\"DendroGro\")"
   },
   {
     "key": "output|You_take_out_and_fumble_the_medipen_in_your_hand_While_it_would|a44f064f5a6e",
@@ -12,10 +12,10 @@
     "context": "<<POS:08055045>>"
   },
   {
-    "key": "output|n_nDeciding_not_to_take_it_too_far_you_abide_by_the_warning_an|ab235f0740f1",
-    "original": "\\n\\nDeciding not to take it too far, you abide by the warning and put away the medipen.",
+    "key": "output|Deciding_not_to_take_it_too_far_you_abide_by_the_warning_and_pu|aa4708724a43",
+    "original": "Deciding not to take it too far, you abide by the warning and put away the medipen.",
     "translation": "",
-    "context": "<<POS:08055304>>"
+    "context": "<<POS:08055308>>"
   },
   {
     "key": "output|Unfortunately_you_do_not_have_any_valid_genitalia_to_use_this_o|b2246af5b111",
@@ -24,25 +24,25 @@
     "context": "<<POS:08055404>>"
   },
   {
-    "key": "output|n_nYou_put_the_item_back_in_your_inventory|366220cf4745",
-    "original": "\\n\\nYou put the item back in your inventory.",
+    "key": "output|You_put_the_item_back_in_your_inventory|d28fac774625",
+    "original": "You put the item back in your inventory.",
     "translation": "",
-    "context": "<<POS:08055481>>"
+    "context": "<<POS:08055485>>"
   },
   {
-    "key": "output|You_have_more_than_one_eligible_cock_Which_one_will_you_inject|5ac8549de95c",
-    "original": "You have more than one eligible cock. Which one will you inject with DendroGro?\\n",
+    "key": "output|You_have_more_than_one_eligible_cock_Which_one_will_you_inject|789b5bc6bc07",
+    "original": "You have more than one eligible cock. Which one will you inject with DendroGro?",
     "translation": "",
     "context": "<<POS:08055586>>"
   },
   {
-    "key": "output|n_b_concat_s_Cock_b|eece37e24d6d",
-    "original": "\\n<b>\".concat(s,\" Cock:</b>\")",
+    "key": "output|b_concat_s_Cock_b|67dce1d8dbbe",
+    "original": "<b>\".concat(s,\" Cock:</b>\")",
     "translation": "",
-    "context": "<<POS:08055778>>"
+    "context": "<<POS:08055780>>"
   },
   {
-    "key": "output|GLOBAL_FLAG_NAMES_e_cocks_n_flags_r|f21681c12032",
+    "key": "output|GLOBAL_FLAG_NAMES_e_cocks_n_flags_r|a399f2e6aeac",
     "original": " \"+GLOBAL.FLAG_NAMES[e.cocks[n].flags[r]]+\",",
     "translation": "",
     "context": "<<POS:08055885>>"
@@ -75,10 +75,16 @@
     "key": "button|Cock|c208fdafef58",
     "original": "Cock ",
     "translation": "",
-    "context": "<<POS:08056226>>"
+    "context": "<<POS:08056226>> addButton(o,\"Cock \"+(a[n]+1),(function(){return t.cockTF(e,a[n])}),\"\".concat(s,\" Cock\"),\"Use this on your [pc.cock \"+a[n]+\".\")"
   },
   {
-    "key": "output|e_capitalA_e_short_uses_the_medipen_but_to_no_effect|d8f2736f5100",
+    "key": "button.tooltip|Use_this_on_your_pc_cock|a85bf6ca6097",
+    "original": "Use this on your [pc.cock ",
+    "translation": "",
+    "context": "<<POS:08056302>> addButton(o,\"Cock \"+(a[n]+1),(function(){return t.cockTF(e,a[n])}),\"\".concat(s,\" Cock\"),\"Use this on your [pc.cock \"+a[n]+\".\")"
+  },
+  {
+    "key": "output|e_capitalA_e_short_uses_the_medipen_but_to_no_effect|132cc067f695",
     "original": "e.capitalA+e.short+\" uses the medipen but to no effect.",
     "translation": "",
     "context": "<<POS:08056392>>"
@@ -87,7 +93,7 @@
     "key": "name.show|DendroGro|891c8b3f6fb3",
     "original": "DendroGro",
     "translation": "",
-    "context": "<<POS:08056513>>"
+    "context": "<<POS:08056513>> showName(\"DendroGro\")"
   },
   {
     "key": "output|You|5f6c7255dc42",
@@ -108,15 +114,15 @@
     "context": "<<POS:08056622>>"
   },
   {
-    "key": "output|n_nAlmost_instantly_you_feel_a_pleasant_warmth_developing_at_t|af259b1d393c",
-    "original": "\\n\\nAlmost instantly, you feel a pleasant warmth developing at the injection spot, slowly spreading all the way up to the tip. Soon after, your [pc.cockNoun \"+t+\"] begins to rise in slow, throbbing fits to full mast, but it doesn’t stop there. The warmth is quickly replaced by an irritating, tingly feeling, and your [pc.cock \"+t+\"] begins fattening up, again starting at the base all the way to the tip. The tingling finally fades and you are left with a noticeably thicker wiener. You could stop here, or you could go for more; those holes ain’t gonna plug themselves--and what better to plug them with than a fat monster cock?",
+    "key": "output|Almost_instantly_you_feel_a_pleasant_warmth_developing_at_the_i|2183bd3102e3",
+    "original": "Almost instantly, you feel a pleasant warmth developing at the injection spot, slowly spreading all the way up to the tip. Soon after, your [pc.cockNoun \"+t+\"] begins to rise in slow, throbbing fits to full mast, but it doesn’t stop there. The warmth is quickly replaced by an irritating, tingly feeling, and your [pc.cock \"+t+\"] begins fattening up, again starting at the base all the way to the tip. The tingling finally fades and you are left with a noticeably thicker wiener. You could stop here, or you could go for more; those holes ain’t gonna plug themselves--and what better to plug them with than a fat monster cock?",
     "translation": "",
-    "context": "<<POS:08056771>>"
+    "context": "<<POS:08056775>>"
   },
   {
     "key": "button|Next|0b9945e6360b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08057480>>"
+    "context": "<<POS:08057480>> addButton(0,\"Next\",mainGameMenu)"
   }
 ]

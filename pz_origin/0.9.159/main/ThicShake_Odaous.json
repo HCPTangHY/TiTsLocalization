@@ -15,7 +15,7 @@
     "key": "name.show|Thicc_Shake|1ffadf1d24cf",
     "original": "Thicc&Shake",
     "translation": "",
-    "context": "<<POS:09849653>>"
+    "context": "<<POS:09849653>> showName(\"Thicc&Shake\")"
   },
   {
     "key": "output|blockHeader_e|8d905ed00248",
@@ -33,7 +33,7 @@
     "key": "button|Next|6d375198e745",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09853303>>"
+    "context": "<<POS:09853303>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|i_Its_not_enough_i_you_say_out_loud_to_yourself|4490b04e2753",
@@ -72,31 +72,31 @@
     "context": "<<POS:09858023>>"
   },
   {
-    "key": "output|n_nYou_breathe_from_the_past_effort_to_get_these_damn_Thicc_Sha|14c4214d54e0",
-    "original": "\\n\\nYou breathe from the past effort to get these damn Thicc&Shake machines to work! You brace your hands on your \"+(e.hasLegs()?\"legs\":\"[pc.legNoun]\")+\" and begin a slow rhythm of squats. It is so hard to do now - you’re so much heavier than you were before - but it just feels too fucking good!",
+    "key": "output|You_breathe_from_the_past_effort_to_get_these_damn_Thicc_Shake_m|823ef2d4058c",
+    "original": "You breathe from the past effort to get these damn Thicc&Shake machines to work! You brace your hands on your \"+(e.hasLegs()?\"legs\":\"[pc.legNoun]\")+\" and begin a slow rhythm of squats. It is so hard to do now - you’re so much heavier than you were before - but it just feels too fucking good!",
     "translation": "",
-    "context": "<<POS:09858146>>"
+    "context": "<<POS:09858150>>"
   },
   {
-    "key": "output|n_n_i_C_mon_C_mon_i_you_urge_yourself_squatting_fast|10be7c5f4ec6",
-    "original": "\\n\\n<i>“C’mon... C’mon...”</i> you urge yourself, squatting faster and faster and focusing your thoughts on the building pleasure. A small spark lights up your world, causing you to gasp and look back, only to see the ultimate display of \"+(e.fertility()>0?\"fertility\":\"femininity\")+\" that is your hips-and-ass.",
+    "key": "output|i_C_mon_C_mon_i_you_urge_yourself_squatting_faster_a|4e632462b16b",
+    "original": "<i>“C’mon... C’mon...”</i> you urge yourself, squatting faster and faster and focusing your thoughts on the building pleasure. A small spark lights up your world, causing you to gasp and look back, only to see the ultimate display of \"+(e.fertility()>0?\"fertility\":\"femininity\")+\" that is your hips-and-ass.",
     "translation": "",
-    "context": "<<POS:09858490>>"
+    "context": "<<POS:09858494>>"
   },
   {
-    "key": "output|n_nMore_sparks_go_off_nearly_knocking_you_to_the_ground_with_t|7b0ca5f36870",
-    "original": "\\n\\nMore sparks go off, nearly knocking you to the ground with their lustful fury. Then you feel it--the awesome weight of new flesh. With each squat, a pound of flesh swells from your ass. Dear god, it’s even better than before that you might...",
+    "key": "output|More_sparks_go_off_nearly_knocking_you_to_the_ground_with_their|327eb0b8e491",
+    "original": "More sparks go off, nearly knocking you to the ground with their lustful fury. Then you feel it--the awesome weight of new flesh. With each squat, a pound of flesh swells from your ass. Dear god, it’s even better than before that you might...",
     "translation": "",
-    "context": "<<POS:09858849>>"
+    "context": "<<POS:09858853>>"
   },
   {
-    "key": "output|n_nBoom|2db3a9d9a03e",
-    "original": "\\n\\nBoom,",
+    "key": "output|Boom|80bd4b4b8e4b",
+    "original": "Boom,",
     "translation": "",
-    "context": "<<POS:09859125>>"
+    "context": "<<POS:09859129>>"
   },
   {
-    "key": "output|your|93a9237f73b3",
+    "key": "output|your|f7ff26727087",
     "original": " your",
     "translation": "",
     "context": "<<POS:09859162>>"
@@ -156,10 +156,10 @@
     "context": "<<POS:09859502>>"
   },
   {
-    "key": "output|n_nPound_after_pound_of_flesh_builds_and_builds_The_pleasure_o|fc7f20a4da72",
-    "original": "\\n\\nPound after pound of flesh builds and builds. The pleasure of it all keeping you conscious. Then energy fills your body despite your fatigue. You brace your hands on the ground and begin assaulting the floor with your hips. Up and down, and up and down, your hips slam with such speed and force that even from a distance people could feel your efforts. Your hips ripen with each slam, gorgeous and delicious. Panting and gasping, nearly suffocating from the pleasure, but you can’t stop--<b>YOU WON’T STOP!</b>",
+    "key": "output|Pound_after_pound_of_flesh_builds_and_builds_The_pleasure_of_it|4ac63a683a9f",
+    "original": "Pound after pound of flesh builds and builds. The pleasure of it all keeping you conscious. Then energy fills your body despite your fatigue. You brace your hands on the ground and begin assaulting the floor with your hips. Up and down, and up and down, your hips slam with such speed and force that even from a distance people could feel your efforts. Your hips ripen with each slam, gorgeous and delicious. Panting and gasping, nearly suffocating from the pleasure, but you can’t stop--<b>YOU WON’T STOP!</b>",
     "translation": "",
-    "context": "<<POS:09859760>>"
+    "context": "<<POS:09859764>>"
   },
   {
     "key": "output|Your|b01801a75160",
@@ -198,16 +198,10 @@
     "context": "<<POS:09860525>>"
   },
   {
-    "key": "output|n_n|02910cde0207",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:09860668>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30",
+    "key": "button|Next|a595cc2892b6",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09860832>>"
+    "context": "<<POS:09860832>> addButton(0,\"Next\",(function(){return o.overdoseNext(e)}))"
   },
   {
     "key": "output|Your_brain_finally_reboots_from_your_slumber_and_your_surroundin|2d9326dd2bde",
@@ -216,10 +210,10 @@
     "context": "<<POS:09861066>>"
   },
   {
-    "key": "output|n_nYou_begin_to_investigate_and_your_eyes_fall_upon|db4f56d592c2",
-    "original": "\\n\\nYou begin to investigate and your eyes fall upon...",
+    "key": "output|You_begin_to_investigate_and_your_eyes_fall_upon|00377cbc1ed9",
+    "original": "You begin to investigate and your eyes fall upon...",
     "translation": "",
-    "context": "<<POS:09861260>>"
+    "context": "<<POS:09861264>>"
   },
   {
     "key": "output|i_By_the_stars_they_should_have_sent_a_poet_i_You_see|77814300424a",
@@ -258,10 +252,10 @@
     "context": "<<POS:09861665>>"
   },
   {
-    "key": "output|n_nYou_finally_stand_and_try_to_get_use_to_the_new_size|ea8e1842b305",
-    "original": "\\n\\nYou finally stand and try to get use to the new size.",
+    "key": "output|You_finally_stand_and_try_to_get_use_to_the_new_size|15529198c843",
+    "original": "You finally stand and try to get use to the new size.",
     "translation": "",
-    "context": "<<POS:09862051>>"
+    "context": "<<POS:09862055>>"
   },
   {
     "key": "output|You_have_be_careful_though_one_movement_too_fast_and_you_will|7a682b9c6750",
@@ -288,10 +282,10 @@
     "context": "<<POS:09862428>>"
   },
   {
-    "key": "output|n_nYou_are_shocked_by_a_spike_of_pleasure_as_you_apparently_hav|86436e7cbbb3",
-    "original": "\\n\\nYou are shocked by a spike of pleasure as you apparently have decided to play with your [pc.asshole]. The feeling is as great as",
+    "key": "output|You_are_shocked_by_a_spike_of_pleasure_as_you_apparently_have_de|593bd83dee5f",
+    "original": "You are shocked by a spike of pleasure as you apparently have decided to play with your [pc.asshole]. The feeling is as great as",
     "translation": "",
-    "context": "<<POS:09862986>>"
+    "context": "<<POS:09862990>>"
   },
   {
     "key": "output|if_not_more_than_if_you_were_playing_with_your|c7a1e1cf20e7",
@@ -342,43 +336,43 @@
     "context": "<<POS:09863618>>"
   },
   {
-    "key": "output|n_n_b_Perk_Gained_Buttslut_b_Ensures_your_ass_stays_large|2641eedb9e3d",
-    "original": "\\n\\n(<b>Perk Gained: Buttslut</b> - Ensures your ass stays large and in charge, and allows you to heal from anal cumshots.)",
+    "key": "output|b_Perk_Gained_Buttslut_b_Ensures_your_ass_stays_large_and|7ee21670377d",
+    "original": "(<b>Perk Gained: Buttslut</b> - Ensures your ass stays large and in charge, and allows you to heal from anal cumshots.)",
     "translation": "",
-    "context": "<<POS:09863730>>"
+    "context": "<<POS:09863734>>"
   },
   {
     "key": "perk|Buttslut|a7dbc5611c5b",
     "original": "Buttslut",
     "translation": "",
-    "context": "<<POS:09863870>>"
+    "context": "<<POS:09863870>> createPerk(\"Buttslut\",0,0,0,0,\"Ensures your ass always remains bubbly and that fluids shot inside will heal your injuries.\")"
   },
   {
-    "key": "output|n_nYou_notice_that_as_you_pc_walk_there_is_an_extra_sway_to|3f44ecdd67ba",
-    "original": "\\n\\nYou notice that as you [pc.walk], there is an extra sway to your walk cycle than normal. Yes, you have [pc.hips], but this feels different... You think for a moment why that would be and one word flashes into your consciousness <i>“Pregnancy”</i>. You coo as that thought fills your mind. Your [pc.hips] gyrate slowly and swell with sympathy. Maybe you should head to a local sperm bank or find a random stud in a back alley...",
+    "key": "output|You_notice_that_as_you_pc_walk_there_is_an_extra_sway_to_your|88e1d8d696d0",
+    "original": "You notice that as you [pc.walk], there is an extra sway to your walk cycle than normal. Yes, you have [pc.hips], but this feels different... You think for a moment why that would be and one word flashes into your consciousness <i>“Pregnancy”</i>. You coo as that thought fills your mind. Your [pc.hips] gyrate slowly and swell with sympathy. Maybe you should head to a local sperm bank or find a random stud in a back alley...",
     "translation": "",
-    "context": "<<POS:09864107>>"
+    "context": "<<POS:09864111>>"
   },
   {
-    "key": "output|n_n_b_Perk_Gained_Fecund_Figure_b_Gradually_your_hips_an|d6903d662fd5",
-    "original": "\\n\\n(<b>Perk Gained: Fecund Figure</b> - Gradually, your hips and ass will permanently increase in size during pregnancy. <i>Perk can be lost when losing all vaginas.</i>)",
+    "key": "output|b_Perk_Gained_Fecund_Figure_b_Gradually_your_hips_and_as|51c4b4eb6b49",
+    "original": "(<b>Perk Gained: Fecund Figure</b> - Gradually, your hips and ass will permanently increase in size during pregnancy. <i>Perk can be lost when losing all vaginas.</i>)",
     "translation": "",
-    "context": "<<POS:09864549>>"
+    "context": "<<POS:09864553>>"
   },
   {
     "key": "perk|Fecund_Figure|44155725c4a8",
     "original": "Fecund Figure",
     "translation": "",
-    "context": "<<POS:09864737>>"
+    "context": "<<POS:09864737>> createPerk(\"Fecund Figure\",1,1,0,0,\"Your broodmare body permanently changes you more into a fertility goddess while you are pregnant.\")"
   },
   {
-    "key": "output|n_nYou_rub_your_hand_over_your_newly_sized_behind|cabe515800f2",
-    "original": "\\n\\nYou rub your hand over your newly-sized behind.",
+    "key": "output|You_rub_your_hand_over_your_newly_sized_behind|e42df7bf88c4",
+    "original": "You rub your hand over your newly-sized behind.",
     "translation": "",
-    "context": "<<POS:09864904>>"
+    "context": "<<POS:09864908>>"
   },
   {
-    "key": "output|Despite_your_toned_body_your_ass_feels_fat|8a6d253facaf",
+    "key": "output|Despite_your_toned_body_your_ass_feels_fat|1d78e9477f04",
     "original": " Despite your toned body, your ass feels fat!",
     "translation": "",
     "context": "<<POS:09864978>>"
@@ -390,63 +384,57 @@
     "context": "<<POS:09865034>>"
   },
   {
-    "key": "output|n_n_b_Perk_Gained_Bubble_Butt_b_Ass_remains_soft_regardle|44fd20210552",
-    "original": "\\n\\n(<b>Perk Gained: Bubble Butt</b> - Ass remains soft regardless of muscle tone.)",
+    "key": "output|b_Perk_Gained_Bubble_Butt_b_Ass_remains_soft_regardless_o|f1df20b69fe2",
+    "original": "(<b>Perk Gained: Bubble Butt</b> - Ass remains soft regardless of muscle tone.)",
     "translation": "",
-    "context": "<<POS:09865241>>"
+    "context": "<<POS:09865245>>"
   },
   {
     "key": "perk|Bubble_Butt|62798961bd8c",
     "original": "Bubble Butt",
     "translation": "",
-    "context": "<<POS:09865341>>"
+    "context": "<<POS:09865341>> createPerk(\"Bubble Butt\",0,0,0,0,\"Your ass is always soft, regardless of tone.\")"
   },
   {
-    "key": "output|n_nYou_can_t_help_but_swing_your_pc_hips_around_The_weight|5712249b0ee1",
-    "original": "\\n\\nYou can’t help but swing your [pc.hips] around. The weight, the power, the appeal--all very intoxicating. You need find partner and give them the ride of the lifetime. Though you wonder, maybe you will be too much for them? Ah, who cares! These hips need to slam into something, what it is doesn’t matter!",
+    "key": "output|You_can_t_help_but_swing_your_pc_hips_around_The_weight_the|ba1b54a390c1",
+    "original": "You can’t help but swing your [pc.hips] around. The weight, the power, the appeal--all very intoxicating. You need find partner and give them the ride of the lifetime. Though you wonder, maybe you will be too much for them? Ah, who cares! These hips need to slam into something, what it is doesn’t matter!",
     "translation": "",
-    "context": "<<POS:09865456>>"
+    "context": "<<POS:09865460>>"
   },
   {
-    "key": "output|n_n_b_Perk_Gained_Hips_Don_t_Lie_b_Your_hips_don_t_quit_n|ea4d9e549f7b",
-    "original": "\\n\\n(<b>Perk Gained: Hips Don’t Lie</b> - Your hips don’t quit nor will they. Being any less fecund is an empty existence and your body will make certain to keep you looking like the fertile goddess you were meant to be.)",
+    "key": "output|b_Perk_Gained_Hips_Don_t_Lie_b_Your_hips_don_t_quit_nor_w|1c60490970be",
+    "original": "(<b>Perk Gained: Hips Don’t Lie</b> - Your hips don’t quit nor will they. Being any less fecund is an empty existence and your body will make certain to keep you looking like the fertile goddess you were meant to be.)",
     "translation": "",
-    "context": "<<POS:09865776>>"
+    "context": "<<POS:09865780>>"
   },
   {
     "key": "perk|Hips_Don_t_Lie|4d72ad9a62cc",
     "original": "Hips Don't Lie",
     "translation": "",
-    "context": "<<POS:09866014>>"
+    "context": "<<POS:09866014>> createPerk(\"Hips Don't Lie\",0,0,0,0,\"Your hips will always remain wide and girthy to give you the appearance of a fertility goddess.\")"
   },
   {
-    "key": "output|n_nA_shiver_runs_across_your_pc_butts_and_suddenly_they_don_t|34f12bf8375e",
-    "original": "\\n\\nA shiver runs across your [pc.butts] and suddenly they don’t feel as extra tight and firm as they did before... You suppose this is one of the side effects of the Thicc&Shake cream....",
+    "key": "output|A_shiver_runs_across_your_pc_butts_and_suddenly_they_don_t_fee|bb61cbcbe32c",
+    "original": "A shiver runs across your [pc.butts] and suddenly they don’t feel as extra tight and firm as they did before... You suppose this is one of the side effects of the Thicc&Shake cream....",
     "translation": "",
-    "context": "<<POS:09866182>>"
+    "context": "<<POS:09866186>>"
   },
   {
-    "key": "output|n_n_b_Perk_Lost_Buns_of_Steel_b|9066296bbd9d",
-    "original": "\\n\\n(<b>Perk Lost: Buns of Steel</b>)",
+    "key": "output|b_Perk_Lost_Buns_of_Steel_b|ad5dcd0457bd",
+    "original": "(<b>Perk Lost: Buns of Steel</b>)",
     "translation": "",
-    "context": "<<POS:09866381>>"
+    "context": "<<POS:09866385>>"
   },
   {
-    "key": "output|n_nERROR_Undefined_Perk_concat_s|77e7d422ef43",
-    "original": "\\n\\nERROR: Undefined Perk \"'.concat(s,'\".')",
+    "key": "output|ERROR_Undefined_Perk_concat_s|2757ba49b491",
+    "original": "ERROR: Undefined Perk \"'.concat(s,'\".')",
     "translation": "",
-    "context": "<<POS:09866473>>"
+    "context": "<<POS:09866477>>"
   },
   {
-    "key": "output|n_n|68cb53f78f7f",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:09866527>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30#1",
+    "key": "button|Next|3cfd1f2c9abc",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09866611>>"
+    "context": "<<POS:09866611>> addButton(0,\"Next\",mainGameMenu)"
   }
 ]

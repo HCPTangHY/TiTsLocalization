@@ -1,12 +1,12 @@
 [
   {
-    "key": "output|You_pull_the_eyedropper_out_of_its_packaging_and_turn_it_over_in|d2810e97547d",
-    "original": "You pull the eyedropper out of its packaging and turn it over in your hands, trying to decide what color you’d like.\\n\\n",
+    "key": "output|You_pull_the_eyedropper_out_of_its_packaging_and_turn_it_over_in|7fec28409e40",
+    "original": "You pull the eyedropper out of its packaging and turn it over in your hands, trying to decide what color you’d like.",
     "translation": "",
     "context": "<<POS:09261032>>"
   },
   {
-    "key": "output|e_capitalA_e_short_uses_the_Rainbow_Gaze_to_no_effect|3f0327f822bc",
+    "key": "output|e_capitalA_e_short_uses_the_Rainbow_Gaze_to_no_effect|c734a20ad494",
     "original": "e.capitalA+e.short+\" uses the Rainbow Gaze to no effect.",
     "translation": "",
     "context": "<<POS:09261188>>"
@@ -15,13 +15,13 @@
     "key": "name.show|Rainbow_Gaze|73e6c3eae84f",
     "original": "Rainbow Gaze",
     "translation": "",
-    "context": "<<POS:09261322>>"
+    "context": "<<POS:09261322>> showName(\"Rainbow Gaze\")"
   },
   {
     "key": "button|Back|f378b9f88363",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:09261522>>"
+    "context": "<<POS:09261522>> addButton(14,\"Back\",(function(){return o.rbgCancel(e,t)}))"
   },
   {
     "key": "output|blockHeader_l_m_toDisplayCase_t_Colors|ae4d46d8181b",
@@ -33,43 +33,61 @@
     "key": "button|Colors|205f75ef3b8e",
     "original": "Colors (",
     "translation": "",
-    "context": "<<POS:09262704>>"
+    "context": "<<POS:09262704>> addButton(s++,\"Colors (\".concat(s,\")\"),(function(){return a.rbgMakeAPage(e,t,n,o)}),\"Selection of Colors: \".concat(r===u?l.m.toDisplayCase(r):\"\".concat(l.m.toDisplayCase(r),\" to \").concat(l.m.toDisplayCase(u))),r===u?\"To \".concat(r,\".\"):\"From \".concat(r,\" to \").concat(u,\".\"))"
   },
   {
-    "key": "button|Back|9ee9ae3d14da",
-    "original": "Back",
+    "key": "button.hover|Selection_of_Colors|ee10bb6d6b70",
+    "original": "Selection of Colors: ",
     "translation": "",
-    "context": "<<POS:09263075>>"
+    "context": "<<POS:09262774>> addButton(s++,\"Colors (\".concat(s,\")\"),(function(){return a.rbgMakeAPage(e,t,n,o)}),\"Selection of Colors: \".concat(r===u?l.m.toDisplayCase(r):\"\".concat(l.m.toDisplayCase(r),\" to \").concat(l.m.toDisplayCase(u))),r===u?\"To \".concat(r,\".\"):\"From \".concat(r,\" to \").concat(u,\".\"))"
   },
   {
-    "key": "button|Back|8377b4609270",
+    "key": "button|Back|895f978397cb",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:09263548>>"
+    "context": "<<POS:09263075>> addButton(14,\"Back\",(function(){return a.rbgMenu(e,o)}))"
+  },
+  {
+    "key": "button.tooltip|Change_the_color_of_your_eyes_to|762fc873f8b6",
+    "original": "Change the color of your eyes to ",
+    "translation": "",
+    "context": "<<POS:09263339>> addButton(s,t[1],(function(){return n.rbgUse(e,t[0],a)}),l.m.toDisplayCase(t[0]),\"Change the color of your eyes to \"+t[0]+\".\")"
+  },
+  {
+    "key": "button.hover|Your_eyes_are_already|e48d8dbe51d7",
+    "original": "Your eyes are already ",
+    "translation": "",
+    "context": "<<POS:09263434>> addDisabledButton(s,t[1],l.m.toDisplayCase(t[0]),\"Your eyes are already \"+t[0]+\".\")"
+  },
+  {
+    "key": "button|Back|29d9ad0ee982",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:09263548>> addButton(14,\"Back\",(function(){return n.rbgSelColor(e,t,a)}))"
   },
   {
     "key": "name.show|Rainbow_Gaze|e4cec20eaee1",
     "original": "Rainbow Gaze",
     "translation": "",
-    "context": "<<POS:09263673>>"
+    "context": "<<POS:09263673>> showName(\"Rainbow Gaze\")"
   },
   {
-    "key": "output|You_put_the_eyedropper_back_into_your_inventory_n_n|a62dae89a5bd",
-    "original": "You put the eyedropper back into your inventory.\\n\\n",
+    "key": "output|You_put_the_eyedropper_back_into_your_inventory|03d72f3cce05",
+    "original": "You put the eyedropper back into your inventory.",
     "translation": "",
     "context": "<<POS:09263712>>"
   },
   {
-    "key": "button|Next|7ce77368ebcc",
+    "key": "button|Next|4a09b843f374",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09263809>>"
+    "context": "<<POS:09263809>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   },
   {
     "key": "name.show|Rainbow_Gaze|aaee06573fdc",
     "original": "Rainbow Gaze",
     "translation": "",
-    "context": "<<POS:09264001>>"
+    "context": "<<POS:09264001>> showName(\"Rainbow Gaze\")"
   },
   {
     "key": "output|You_set_the_dials_until_the_fluid_in_the_dropper_is_t_and_li|c5239b1306ee",
@@ -81,6 +99,6 @@
     "key": "button|Next|0dc8f3f2da0b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09264383>>"
+    "context": "<<POS:09264383>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))"
   }
 ]

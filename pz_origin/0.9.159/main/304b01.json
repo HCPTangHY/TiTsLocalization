@@ -1,15 +1,9 @@
 [
   {
-    "key": "bust|LAQUINE_EARS|51bd172d28c8",
-    "original": "LAQUINE_EARS",
-    "translation": "",
-    "context": "<<POS:08451027>>"
-  },
-  {
-    "key": "name.show|Laquine_Ears|6ff58bc4007e",
+    "key": "name.show|Laquine_Ears|81e8541b0b8b",
     "original": "Laquine Ears",
     "translation": "",
-    "context": "<<POS:08451052>>"
+    "context": "<<POS:08451052>> showName(\"Laquine Ears\")"
   },
   {
     "key": "output|You_re_already_wearing_one_set_of_Laquine_Ears_Any_more_would_l|88b26dd30ded",
@@ -30,10 +24,10 @@
     "context": "<<POS:08451371>>"
   },
   {
-    "key": "output|n_nYou_place_them_on_your_head_feeling_a_slight_prickle_as_the|99d91f81a5bd",
-    "original": "\\n\\nYou place them on your head, feeling a slight prickle as they begin to painlessly disperse their body-changing payload into your scalp. The directions say to keep them on for a full twenty-four hours for full effect. That shouldn’t be too hard. All you have to do now is wait",
+    "key": "output|You_place_them_on_your_head_feeling_a_slight_prickle_as_they_be|573208f9e66a",
+    "original": "You place them on your head, feeling a slight prickle as they begin to painlessly disperse their body-changing payload into your scalp. The directions say to keep them on for a full twenty-four hours for full effect. That shouldn’t be too hard. All you have to do now is wait",
     "translation": "",
-    "context": "<<POS:08451804>>"
+    "context": "<<POS:08451808>>"
   },
   {
     "key": "output|and_hope_you_don_t_look_too_silly_with_four_ears|6f706d2e5d24",
@@ -75,13 +69,13 @@
     "key": "perk|Musky_Pheromones|05bd645e144f",
     "original": "Musky Pheromones",
     "translation": "",
-    "context": "<<POS:08465917>>"
+    "context": "<<POS:08465917>> createPerk(\"Musky Pheromones\",0,0,0,0,\"Grants a +5 musk bonus to tease attacks.\")"
   },
   {
     "key": "name.show|Horny_Bunny|ed62107f237c",
     "original": "Horny Bunny",
     "translation": "",
-    "context": "<<POS:08563331>>"
+    "context": "<<POS:08563331>> showName(\"Horny Bunny\")"
   },
   {
     "key": "output|n|7822f667608b",
@@ -105,13 +99,13 @@
     "key": "button|Next|46982761768f",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08581535>>"
+    "context": "<<POS:08581535>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "name.show|Needy_Laquine|976da73165c3",
     "original": "Needy Laquine",
     "translation": "",
-    "context": "<<POS:08581889>>"
+    "context": "<<POS:08581889>> showName(\"Needy Laquine\")"
   },
   {
     "key": "output|a|ea4d75b892d3",
@@ -129,19 +123,13 @@
     "key": "button|Next|a477b2cc7220",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08599021>>"
+    "context": "<<POS:08599021>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
-    "key": "bust|LAQUINE_EARS|ef3043b30286",
-    "original": "LAQUINE_EARS",
-    "translation": "",
-    "context": "<<POS:08602210>>"
-  },
-  {
-    "key": "name.show|Laquine_Ears|6ff58bc4007e#1",
+    "key": "name.show|Laquine_Ears|a7d0a63b6ba1",
     "original": "Laquine Ears",
     "translation": "",
-    "context": "<<POS:08602235>>"
+    "context": "<<POS:08602235>> showName(\"Laquine Ears\")"
   },
   {
     "key": "output|Are_you_sure_you_want_to_remove_the_Laquine_Ears|a366d83fb203",
@@ -153,13 +141,13 @@
     "key": "button|Remove|0c169b31c9e0",
     "original": "Remove",
     "translation": "",
-    "context": "<<POS:08602351>>"
+    "context": "<<POS:08602351>> addButton(0,\"Remove\",(function(){return o.laquineEarsRemove(\"remove\")}))"
   },
   {
     "key": "button|Back|e947abcbc247",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:08602425>>"
+    "context": "<<POS:08602425>> addButton(14,\"Back\",window.popUIState)"
   },
   {
     "key": "output|By_the_moment_you_touch_them_the_Laquine_Ears_crackle_rapidly|9fc08b7a268d",
@@ -171,6 +159,6 @@
     "key": "button|Next|57c90faeb501",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08602749>>"
+    "context": "<<POS:08602749>> addButton(0,\"Next\",window.popUIState)"
   }
 ]

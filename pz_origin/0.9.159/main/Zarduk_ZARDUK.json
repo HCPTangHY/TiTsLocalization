@@ -3,43 +3,73 @@
     "key": "button|Zero_Plus|bb0e35df8984",
     "original": "Zero Plus",
     "translation": "",
-    "context": "<<POS:12007020>>"
+    "context": "<<POS:12007020>> addButton(arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,\"Zero Plus\",this.crewApproach)"
   },
   {
     "key": "perk|Fixed_MilkQ|350098248a84",
     "original": "Fixed MilkQ",
     "translation": "",
-    "context": "<<POS:12010055>>"
+    "context": "<<POS:12010055>> createPerk(\"Fixed MilkQ\",500,0,0,0)"
   },
   {
     "key": "button|Tika|42fb8d0dd1f0",
     "original": "Tika",
     "translation": "",
-    "context": "<<POS:12011710>>"
+    "context": "<<POS:12011710>> addButton(arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,\"Tika\",window.tikaEncounterPost14,\"Tika\",\"Spend some time with the blonde medbot.\")"
   },
   {
-    "key": "button|Sam|d5e43b1a4150",
+    "key": "button.hover|Tika|42fb8d0dd1f0",
+    "original": "Tika",
+    "translation": "",
+    "context": "<<POS:12011744>> addButton(arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,\"Tika\",window.tikaEncounterPost14,\"Tika\",\"Spend some time with the blonde medbot.\")"
+  },
+  {
+    "key": "button.tooltip|Spend_some_time_with_the_blonde_medbot|cffa2ca0c1f6",
+    "original": "Spend some time with the blonde medbot.",
+    "translation": "",
+    "context": "<<POS:12011751>> addButton(arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,\"Tika\",window.tikaEncounterPost14,\"Tika\",\"Spend some time with the blonde medbot.\")"
+  },
+  {
+    "key": "button|Sam|61e57329fb00",
     "original": "Sam",
     "translation": "",
-    "context": "<<POS:12019382>>"
+    "context": "<<POS:12019382>> addButton(arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,\"Sam\",window.samRoomApproach,\"Sam\",\"\")"
+  },
+  {
+    "key": "button.hover|Sam|61e57329fb00",
+    "original": "Sam",
+    "translation": "",
+    "context": "<<POS:12019411>> addButton(arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,\"Sam\",window.samRoomApproach,\"Sam\",\"\")"
   },
   {
     "key": "perk|Fixed_CumQ|966107dede52",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:12027639>>"
+    "context": "<<POS:12027639>> createPerk(\"Fixed CumQ\",5e3)"
   },
   {
     "key": "button|Dizzy|643177377b6d",
     "original": "Dizzy",
     "translation": "",
-    "context": "<<POS:12030600>>"
+    "context": "<<POS:12030600>> addButton(e,\"Dizzy\",window.DeziereCrewApproach,\"Dizzy\",\"\")"
+  },
+  {
+    "key": "button.hover|Dizzy|643177377b6d",
+    "original": "Dizzy",
+    "translation": "",
+    "context": "<<POS:12030635>> addButton(e,\"Dizzy\",window.DeziereCrewApproach,\"Dizzy\",\"\")"
   },
   {
     "key": "button|Dizzy|a98b9d6b80b7",
     "original": "Dizzy",
     "translation": "",
-    "context": "<<POS:12030667>>"
+    "context": "<<POS:12030667>> addButton(e,\"Dizzy\",window.ProvisionalDeziereApproach,\"Dizzy\",\"\")"
+  },
+  {
+    "key": "button.hover|Dizzy|a98b9d6b80b7",
+    "original": "Dizzy",
+    "translation": "",
+    "context": "<<POS:12030709>> addButton(e,\"Dizzy\",window.ProvisionalDeziereApproach,\"Dizzy\",\"\")"
   },
   {
     "key": "output|You_close_the_Omnisuit_s_collar_around_your_neck_once_more_deli|911f997b261b",
@@ -48,10 +78,10 @@
     "context": "<<POS:12035531>>"
   },
   {
-    "key": "output|n_nBest_of_all_everywhere_it_goes_sensation_is_heightened|203fbf247ab1",
-    "original": "\\n\\nBest of all, everywhere it goes, sensation is heightened",
+    "key": "output|Best_of_all_everywhere_it_goes_sensation_is_heightened|16f66b8d741e",
+    "original": "Best of all, everywhere it goes, sensation is heightened",
     "translation": "",
-    "context": "<<POS:12035977>>"
+    "context": "<<POS:12035981>>"
   },
   {
     "key": "output|so_much_so_that_you_can_t_help_but_paw_at_yourself_as_you_take|9aa3c5b85599",
@@ -72,28 +102,28 @@
     "context": "<<POS:12036354>>"
   },
   {
-    "key": "output|n_n_i_Thank_you_for_using_your_Omnisuit_Remember_the_Omnisui|6867aa6163b2",
-    "original": "\\n\\n<i>“Thank you for using your Omnisuit! Remember, the Omnisuit is the only clothing that can pander to your every desire, on the streets or in the sheets!”</i> a perky female voice chirps from inside your collar as you inspect the finished product.",
+    "key": "output|i_Thank_you_for_using_your_Omnisuit_Remember_the_Omnisuit_is|075da3cf1bfc",
+    "original": "<i>“Thank you for using your Omnisuit! Remember, the Omnisuit is the only clothing that can pander to your every desire, on the streets or in the sheets!”</i> a perky female voice chirps from inside your collar as you inspect the finished product.",
     "translation": "",
-    "context": "<<POS:12036606>>"
+    "context": "<<POS:12036610>>"
   },
   {
     "key": "button|Next|32c1255ba03b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:12037016>>"
+    "context": "<<POS:12037016>> addButton(0,\"Next\",window.omniSuitRepeatFinisher)"
   },
   {
     "key": "perk|Shield_Booster|588a4f355f94",
     "original": "Shield Booster",
     "translation": "",
-    "context": "<<POS:12039586>>"
+    "context": "<<POS:12039586>> createPerk(\"Shield Booster\")"
   },
   {
     "key": "perk|Appearance_Enabled|ac84eaa5d624",
     "original": "Appearance Enabled",
     "translation": "",
-    "context": "<<POS:12039658>>"
+    "context": "<<POS:12039658>> createPerk(\"Appearance Enabled\")"
   },
   {
     "key": "name.short|Sex_Crazed_Rusher|fadea4a6d6b6",
@@ -123,7 +153,7 @@
     "key": "perk|Fixed_CumQ|9cc33788d7d7",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:12045055>>"
+    "context": "<<POS:12045055>> createPerk(\"Fixed CumQ\",1e3)"
   },
   {
     "key": "name.short|Mutated_Rusher|b27fff92645b",
@@ -141,13 +171,13 @@
     "key": "perk|Fixed_CumQ|ef1076147c90",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:12048354>>"
+    "context": "<<POS:12048354>> createPerk(\"Fixed CumQ\",2e3)"
   },
   {
     "key": "perk|Musky_Pheromones|9ea992db17b4",
     "original": "Musky Pheromones",
     "translation": "",
-    "context": "<<POS:12048512>>"
+    "context": "<<POS:12048512>> createPerk(\"Musky Pheromones\",0,0,0,0,\"Grants a +5 musk bonus to tease attacks.\")"
   },
   {
     "key": "name.short|Tainted_Rusher|be19d3f89108",
@@ -165,22 +195,58 @@
     "key": "perk|Fixed_CumQ|b05d456de93e",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:12052691>>"
+    "context": "<<POS:12052691>> createPerk(\"Fixed CumQ\",1e4)"
   },
   {
     "key": "perk|Musky_Pheromones|9ea992db17b4#1",
     "original": "Musky Pheromones",
     "translation": "",
-    "context": "<<POS:12053136>>"
+    "context": "<<POS:12053136>> createPerk(\"Musky Pheromones\",0,0,0,0,\"Grants a +5 musk bonus to tease attacks.\")"
   },
   {
-    "key": "combat|n|67f767240f9f",
-    "original": "\\n",
+    "key": "textify|var2_n_t_t_t_Taking_a_wide_stance_the_rusher_s_rifle_begins_to|d9b9cdfc6ed3",
+    "original": "[var2\\n\\t\\t\\t|Taking a wide stance, the rusher’s rifle begins to glow. <i>“Wanna play rough, baby? Well let’s play rough!”</i> A overcharged bolt blasts from her rifle towards ",
     "translation": "",
-    "context": "<<POS:12057127>>"
+    "context": "<<POS:12055689>>"
   },
   {
-    "key": "combat|b_You_are_stunned_b|a6acd795fd2f",
+    "key": "textify|var0_n_t_t_t_t_her_aim_true_var1_n_t_t_t_t_t_knocking|dddb6ecacb2d",
+    "original": ", [var0\\n\\t\\t\\t\\t|her aim true, [var1\\n\\t\\t\\t\\t\\t|knocking ",
+    "translation": "",
+    "context": "<<POS:12055868>>"
+  },
+  {
+    "key": "textify|off_balance_n_t_t_t_t_t_connecting_hard_n_t_t_t_t_n_t_t_t_t|f34f2cdda4df",
+    "original": " off balance.\\n\\t\\t\\t\\t\\t|connecting hard.\\n\\t\\t\\t\\t]\\n\\t\\t\\t\\t|the kick of the weapon sending it harmlessly overhead.\\n\\t\\t\\t]\\n\\t\\t\\t|Taking a wide stance, the rusher’s rifle begins to glow. An overcharged bolt blasts from her rifle towards ",
+    "translation": "",
+    "context": "<<POS:12055930>>"
+  },
+  {
+    "key": "textify|var0_n_t_t_t_t_her_aim_true_var1_n_t_t_t_t_t_knocking|dddb6ecacb2d#1",
+    "original": ", [var0\\n\\t\\t\\t\\t|her aim true, [var1\\n\\t\\t\\t\\t\\t|knocking ",
+    "translation": "",
+    "context": "<<POS:12056176>>"
+  },
+  {
+    "key": "textify|off_balance_n_t_t_t_t_t_connecting_hard_n_t_t_t_t_n_t_t_t_t|f34f2cdda4df#1",
+    "original": " off balance.\\n\\t\\t\\t\\t\\t|connecting hard.\\n\\t\\t\\t\\t]\\n\\t\\t\\t\\t|the kick of the weapon sending it harmlessly overhead.\\n\\t\\t\\t]\\n\\t\\t\\t|Taking a wide stance, the rusher’s rifle begins to glow. An overcharged bolt blasts from her rifle towards ",
+    "translation": "",
+    "context": "<<POS:12056238>>"
+  },
+  {
+    "key": "textify|var0_n_t_t_t_t_her_aim_true_var1_n_t_t_t_t_t_knocking|dddb6ecacb2d#2",
+    "original": ", [var0\\n\\t\\t\\t\\t|her aim true, [var1\\n\\t\\t\\t\\t\\t|knocking ",
+    "translation": "",
+    "context": "<<POS:12056484>>"
+  },
+  {
+    "key": "textify|off_balance_n_t_t_t_t_t_connecting_hard_n_t_t_t_t_n_t_t_t_t|a6159aa01a01",
+    "original": " off balance.\\n\\t\\t\\t\\t\\t|connecting hard.\\n\\t\\t\\t\\t]\\n\\t\\t\\t\\t|the kick of the weapon sending it harmlessly overhead.\\n\\t\\t\\t]\\n\\t\\t]",
+    "translation": "",
+    "context": "<<POS:12056546>>"
+  },
+  {
+    "key": "combat|b_You_are_stunned_b|8be419d5ad17",
     "original": "<b>You are stunned!</b>",
     "translation": "",
     "context": "<<POS:12057148>>"
@@ -190,5 +256,335 @@
     "original": "<b>\"+Ot.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural?\"are\":\"is\")+\" stunned!</b>",
     "translation": "",
     "context": "<<POS:12057188>>"
+  },
+  {
+    "key": "textify|Smiling_the_rusher_swings_her_hips_around_sending_her_cord_lik|fef6b838a3f4",
+    "original": "Smiling, the rusher swings her hips around, sending her cord-like tail towards ",
+    "translation": "",
+    "context": "<<POS:12057486>>"
+  },
+  {
+    "key": "textify|with_a_crack_var0_n_t_t_t_Connecting_hard|add254e2232f",
+    "original": " with a crack. [var0\\n\\t\\t\\t|Connecting hard, ",
+    "translation": "",
+    "context": "<<POS:12057568>>"
+  },
+  {
+    "key": "textify|reel|9e505a3a4b61",
+    "original": " reel",
+    "translation": "",
+    "context": "<<POS:12057617>>"
+  },
+  {
+    "key": "textify|back_from_the_hit_the_sharp_sting_making|2ac913314b35",
+    "original": " back from the hit, the sharp sting making ",
+    "translation": "",
+    "context": "<<POS:12057625>>"
+  },
+  {
+    "key": "textify|heart_skip_a_beat_n_t_t_t_Swinging_short_it_barely_misses|699139f87cd7",
+    "original": " heart skip a beat.\\n\\t\\t\\t|Swinging short, it barely misses ",
+    "translation": "",
+    "context": "<<POS:12057671>>"
+  },
+  {
+    "key": "textify|the_woman_pouting_and_letting_out_an_audible_hmph_n_t_t|e31c955d3d98",
+    "original": ", the woman pouting and letting out an audible ‘hmph’.\\n\\t\\t]",
+    "translation": "",
+    "context": "<<POS:12057735>>"
+  },
+  {
+    "key": "textify|var2_n_t_t_t_Smiling_the_rusher_swings_her_hips_around_her_po|6684f358c1c0",
+    "original": "[var2\\n\\t\\t\\t|Smiling, the rusher swings her hips around, her powerful tail hurtling towards ",
+    "translation": "",
+    "context": "<<POS:12058283>>"
+  },
+  {
+    "key": "textify|var0_n_t_t_t_t_Connecting_hard|1c2d8df63c2e",
+    "original": ". [var0\\n\\t\\t\\t\\t|Connecting hard, ",
+    "translation": "",
+    "context": "<<POS:12058379>>"
+  },
+  {
+    "key": "textify|reel|f4d05c7afa83",
+    "original": " reel",
+    "translation": "",
+    "context": "<<POS:12058417>>"
+  },
+  {
+    "key": "textify|back_from_the_hit_var1_n_t_t_t_t_t_losing|64dc7bb9bfae",
+    "original": " back from the hit[var1\\n\\t\\t\\t\\t\\t|, losing ",
+    "translation": "",
+    "context": "<<POS:12058425>>"
+  },
+  {
+    "key": "textify|balance_n_t_t_t_t_t_n_t_t_t_t_n_t_t_t_t_Swinging_short_it_b|ccafe8f3aa44",
+    "original": " balance\\n\\t\\t\\t\\t\\t|\\n\\t\\t\\t\\t].\\n\\t\\t\\t\\t|Swinging short, it barely misses ",
+    "translation": "",
+    "context": "<<POS:12058473>>"
+  },
+  {
+    "key": "textify|the_woman_pouting_and_letting_out_an_audible_hmph_n_t_t_t|a555a1120b2a",
+    "original": ", the woman pouting and letting out an audible ‘hmph’.\\n\\t\\t\\t]\\n\\t\\t\\t|Smiling, the rusher swings her hips around, her powerful tail hurling towards ",
+    "translation": "",
+    "context": "<<POS:12058553>>"
+  },
+  {
+    "key": "textify|var0_n_t_t_t_t_Connecting_hard|1c2d8df63c2e#1",
+    "original": ". [var0\\n\\t\\t\\t\\t|Connecting hard, ",
+    "translation": "",
+    "context": "<<POS:12058706>>"
+  },
+  {
+    "key": "textify|reel|f4d05c7afa83#1",
+    "original": " reel",
+    "translation": "",
+    "context": "<<POS:12058744>>"
+  },
+  {
+    "key": "textify|back_from_the_hit_var1_n_t_t_t_t_t_losing|64dc7bb9bfae#1",
+    "original": " back from the hit[var1\\n\\t\\t\\t\\t\\t|, losing ",
+    "translation": "",
+    "context": "<<POS:12058752>>"
+  },
+  {
+    "key": "textify|balance_n_t_t_t_t_t_n_t_t_t_t_n_t_t_t_t_Swinging_short_it_b|ccafe8f3aa44#1",
+    "original": " balance\\n\\t\\t\\t\\t\\t|\\n\\t\\t\\t\\t].\\n\\t\\t\\t\\t|Swinging short, it barely misses ",
+    "translation": "",
+    "context": "<<POS:12058800>>"
+  },
+  {
+    "key": "textify|the_tainted_woman_pouting_and_letting_out_a_growl_of_frustrati|4f4589368bd3",
+    "original": ", the tainted woman pouting and letting out a growl of frustration.\\n\\t\\t\\t]\\n\\t\\t]",
+    "translation": "",
+    "context": "<<POS:12058880>>"
+  },
+  {
+    "key": "textify|Giggling_manically_the_rusher_leaps_towards|74a7fa09cd92",
+    "original": "Giggling manically, the rusher leaps towards ",
+    "translation": "",
+    "context": "<<POS:12059636>>"
+  },
+  {
+    "key": "textify|twisting_her_hips_in_the_air_Landing_close_she_swipes_at|bc9488b2b9ab",
+    "original": ", twisting her hips in the air. Landing close, she swipes at ",
+    "translation": "",
+    "context": "<<POS:12059684>>"
+  },
+  {
+    "key": "textify|with_her_engorged_prick_var0_n_t_t_t_smacking|51633a061e1b",
+    "original": " with her engorged prick, [var0\\n\\t\\t\\t|smacking ",
+    "translation": "",
+    "context": "<<POS:12059748>>"
+  },
+  {
+    "key": "textify|with_it_hard_While_it_doesn_t_hurt_in_the_slightest|b29717f9576b",
+    "original": " with it, hard. While it doesn’t hurt in the slightest, ",
+    "translation": "",
+    "context": "<<POS:12059800>>"
+  },
+  {
+    "key": "textify|feel|e6424ae85a43",
+    "original": " feel",
+    "translation": "",
+    "context": "<<POS:12059859>>"
+  },
+  {
+    "key": "textify|Giggling_maniacally_the_rusher_leaps_towards|0beb6490a237",
+    "original": "Giggling maniacally, the rusher leaps towards ",
+    "translation": "",
+    "context": "<<POS:12060619>>"
+  },
+  {
+    "key": "textify|twisting_her_hips_in_the_air_Landing_close_she_swipes_at|4125cdea55df",
+    "original": ", twisting her hips in the air. Landing close, she swipes at ",
+    "translation": "",
+    "context": "<<POS:12060668>>"
+  },
+  {
+    "key": "textify|with_both_of_her_engorged_pricks_var0_n_t_t_t_smacking|95dabd37941a",
+    "original": " with both of her engorged pricks, [var0\\n\\t\\t\\t|smacking ",
+    "translation": "",
+    "context": "<<POS:12060732>>"
+  },
+  {
+    "key": "textify|hard_var1_n_t_t_t_t_with_both_of_them_n_t_t_t_t_with_one_of_th|271c177769ce",
+    "original": " hard [var1\\n\\t\\t\\t\\t|with both of them\\n\\t\\t\\t\\t|with one of them\\n\\t\\t\\t]. While it doesn’t hurt in the slightest, ",
+    "translation": "",
+    "context": "<<POS:12060793>>"
+  },
+  {
+    "key": "textify|feel|113db6c5f13e",
+    "original": " feel",
+    "translation": "",
+    "context": "<<POS:12060913>>"
+  },
+  {
+    "key": "textify|Cutting_her_laughter_short_the_rusher_s_smile_shifts_into_a_sof|ca1cd0efbf58",
+    "original": "Cutting her laughter short, the rusher’s smile shifts into a softer one, her depraved expression suddenly inviting. Slowly, the tainted woman reaches for one of her heavy breasts, her lithe fingers running over the soft mound slowly. Just as ",
+    "translation": "",
+    "context": "<<POS:12061799>>"
+  },
+  {
+    "key": "textify|start|c819f44ea7cf",
+    "original": " start",
+    "translation": "",
+    "context": "<<POS:12062044>>"
+  },
+  {
+    "key": "textify|to_register_the_action_as_an_attempt_at_seduction_the_rusher_l|fc3280ace075",
+    "original": " to register the action as an attempt at seduction, the rusher lets out a loud, cackling laugh, squeezing her fat tit hard and forcing a stream of green liquid from her dripping nipple. [var0\\n\\t\\t\\t|Squirting all over ",
+    "translation": "",
+    "context": "<<POS:12062053>>"
+  },
+  {
+    "key": "textify|front|08f4c7c5eb97",
+    "original": " front, ",
+    "translation": "",
+    "context": "<<POS:12062275>>"
+  },
+  {
+    "key": "textify|immediately_feel|2db53a5c4377",
+    "original": " immediately feel",
+    "translation": "",
+    "context": "<<POS:12062286>>"
+  },
+  {
+    "key": "textify|the_heat_of_the_green_titty_juice_and_also_note_the_powerful_s|e7da3212dee5",
+    "original": " the heat of the green titty juice, and also note the powerful smell of the stuff attacking ",
+    "translation": "",
+    "context": "<<POS:12062306>>"
+  },
+  {
+    "key": "textify|nose_and_mouth_n_t_t_t_Thankfully_the_attack_comes_short_the|63988bbd8575",
+    "original": " nose and mouth.\\n\\t\\t\\t|Thankfully, the attack comes short, the thick fluid landing harmlessly in front of ",
+    "translation": "",
+    "context": "<<POS:12062401>>"
+  },
+  {
+    "key": "textify|n_t_t|2109cc665f72",
+    "original": ".\\n\\t\\t]",
+    "translation": "",
+    "context": "<<POS:12062512>>"
+  },
+  {
+    "key": "textify|var1_n_t_t_t_Breathing_hard_the_rusher_turns_her_attention_fro|01d9d6c54f54",
+    "original": "[var1\\n\\t\\t\\t|Breathing hard, the rusher turns her attention from ",
+    "translation": "",
+    "context": "<<POS:12063013>>"
+  },
+  {
+    "key": "textify|and_down_towards_her_twitching_manhood_Grasping_herself_roughl|609ab51917b8",
+    "original": " and down towards her twitching manhood. Grasping herself roughly, she starts to pound her mutated meat, giggling a gleeful tune as her hand works in a whirl. <i>“Hnnn, sooo fucking hot.”</i> she growls, her voice dripping with unrestrained desire. Seconds later, she lets out a throaty gasp as a thick rope of cum erupts from her flared crown. Purring with a satisfied expression capped by her long tongue running over her lips, she lets her sticky seed flow freely, most of it landing on the ground between ",
+    "translation": "",
+    "context": "<<POS:12063082>>"
+  },
+  {
+    "key": "textify|with_a_fair_amount_coming_to_rest_on_her_hand_Smiling_she_tu|82a96f9dded3",
+    "original": ", with a fair amount coming to rest on her hand. Smiling, she turns her attention back to ",
+    "translation": "",
+    "context": "<<POS:12063594>>"
+  },
+  {
+    "key": "textify|unceremoniously_wiping_her_cum_stained_hand_all_over_her_knott|6e03052e6c5b",
+    "original": ", unceremoniously wiping her cum-stained hand all over her knotted cock. <i>“Next one goes in you, baby.”</i>\\n\\t\\t\\t|Breathing hard, the rusher turns her attention from ",
+    "translation": "",
+    "context": "<<POS:12063687>>"
+  },
+  {
+    "key": "textify|and_down_towards_her_dual_manhoods_Grasping_each_with_one_hand|9ab03357095c",
+    "original": " and down towards her dual manhoods. Grasping each with one hand, she starts to pound both of her pricks hard and fast, giggling a gleeful tune as her hands work in a whirl. Panting hard, you can see her lips trying feebly to form words, only for them to escape her throat as needy gasps. Seconds later, she lets out a throaty rasp as both her cocks erupt at once, twin streams spurting out. Purring, with a satisfied expression capped by her long tongue running over her lips, she lets her sticky seed flow freely, most of it landing on the ground between ",
+    "translation": "",
+    "context": "<<POS:12063860>>"
+  },
+  {
+    "key": "textify|with_a_fair_amount_coming_to_rest_on_her_hands_Smiling_she_t|c44267a6e157",
+    "original": ", with a fair amount coming to rest on her hands. Smiling, she turns her attention back to ",
+    "translation": "",
+    "context": "<<POS:12064420>>"
+  },
+  {
+    "key": "textify|unceremoniously_wiping_her_cum_stained_hands_all_over_her_stil|414671531d17",
+    "original": ", unceremoniously wiping her cum-stained hands all over her still-twitching cocks.\\n\\t\\t] [var0\\n\\t\\t\\t|\\n\\t\\t\\t|You shrug off her advances.\\n\\t\\t]",
+    "translation": "",
+    "context": "<<POS:12064514>>"
+  },
+  {
+    "key": "textify|var1_n_t_t_rand_n_t_t_t_Pulling_down_on_her_zipper_slightly_t|9d89540c6585",
+    "original": "[var1\\n\\t\\t|[rand\\n\\t\\t\\t|Pulling down on her zipper slightly, the lusty woman reveals more of her soft, pale flesh. <i>“Come on,”</i> she tugs at the sides of her suit, her pert breasts threatening to pop out. <i>“Don’t you wanna touch me? Ravish me?”</i> she licks her lips, leaning forward. <i>“Suck on my titties?”</i> She presses her chest together for good measure, making sure ",
+    "translation": "",
+    "context": "<<POS:12065280>>"
+  },
+  {
+    "key": "textify|var1_n_t_t_t_Growling_the_slender_woman_starts_to_thrash_aroun|5d15137375a1",
+    "original": "[var1\\n\\t\\t\\t|Growling, the slender woman starts to thrash around, swinging her arms in wide arcs. <i>“You asshole! Just fuck me!”</i> [var0\\n\\t\\t\\t\\t|One of her hands decks ",
+    "translation": "",
+    "context": "<<POS:12072368>>"
+  },
+  {
+    "key": "textify|var2_n_t_t_t_t_t_hitting|8b9adb0ea667",
+    "original": ", [var2\\n\\t\\t\\t\\t\\t|hitting ",
+    "translation": "",
+    "context": "<<POS:12072545>>"
+  },
+  {
+    "key": "textify|square_in_the_face_and_knocking|1116a0837ecb",
+    "original": " square in the face and knocking ",
+    "translation": "",
+    "context": "<<POS:12072576>>"
+  },
+  {
+    "key": "textify|var1_n_t_t_t_i_Hmmm_i_the_rusher_gives|c3ad8cd49e9b",
+    "original": "[var1\\n\\t\\t\\t|<i>“Hmmm,”</i> the rusher gives ",
+    "translation": "",
+    "context": "<<POS:12074606>>"
+  },
+  {
+    "key": "textify|an_oddly_pensive_look_as_if_considering_a_non_lurid_topic_for|d5ed58d3edc0",
+    "original": " an oddly pensive look, as if considering a non lurid topic for the first time since you’ve met her. After a beat, she taps a small band on her wrist a few times, her lips curling into a devious smile. <i>“Aaand POOF!”</i> \\n\\t\\t\\t\\n\\t\\t\\tA crackle around ",
+    "translation": "",
+    "context": "<<POS:12074655>>"
+  },
+  {
+    "key": "textify|tips_you_off_to_what_she_did_She_hacked|adb524e21bb3",
+    "original": " tips you off to what she did. She hacked ",
+    "translation": "",
+    "context": "<<POS:12074914>>"
+  },
+  {
+    "key": "textify|shields_var0_n_t_t_t_t_nearly_n_t_t_t_taking_them_out_comple|78ed3ff35e9c",
+    "original": " shields,[var0\\n\\t\\t\\t\\t| nearly\\n\\t\\t\\t] taking them out completely with a few button pushes. Clearly very pleased with herself, your foe gives ",
+    "translation": "",
+    "context": "<<POS:12074959>>"
+  },
+  {
+    "key": "textify|a_playful_wink_i_Now_I_can_get_my_hands_ALL_over_you_i|d5d40bd0a335",
+    "original": " a playful wink. <i>“Now, I can get my hands ALL over you...”</i>\\n\\t\\t\\t|Stopping in her tracks, the rusher gives ",
+    "translation": "",
+    "context": "<<POS:12075107>>"
+  },
+  {
+    "key": "textify|an_oddly_pensive_look_as_if_considering_a_non_lurid_topic_for|13de76c2febb",
+    "original": " an oddly pensive look, as if considering a non-lurid topic for the first time since you’ve met her. After a beat, she taps a small band on her wrist a few times, her lips curling into a devious smile.\\n\\t\\t\\t\\n\\t\\t\\tA crackle around ",
+    "translation": "",
+    "context": "<<POS:12075225>>"
+  },
+  {
+    "key": "textify|tips_you_off_to_what_she_did_She_hacked|adb524e21bb3#1",
+    "original": " tips you off to what she did. She hacked ",
+    "translation": "",
+    "context": "<<POS:12075462>>"
+  },
+  {
+    "key": "textify|shields_var0_n_t_t_t_t_nearly_n_t_t_t_taking_them_out_comple|78ed3ff35e9c#1",
+    "original": " shields,[var0\\n\\t\\t\\t\\t| nearly\\n\\t\\t\\t] taking them out completely with a few button pushes. Clearly very pleased with herself, your foe gives ",
+    "translation": "",
+    "context": "<<POS:12075507>>"
+  },
+  {
+    "key": "textify|a_hungry_look_while_licking_her_lips_n_t_t|16dfd996eccb",
+    "original": " a hungry look while licking her lips.\\n\\t\\t]",
+    "translation": "",
+    "context": "<<POS:12075655>>"
   }
 ]

@@ -3,7 +3,7 @@
     "key": "name.show|Muffstick|b8f6e426dd01",
     "original": "Muffstick",
     "translation": "",
-    "context": "<<POS:08926959>>"
+    "context": "<<POS:08926959>> showName(\"Muffstick\")"
   },
   {
     "key": "output|When_you_grasp_the_package_your_codex_beeps_informing_you_of_e|74621986e504",
@@ -12,31 +12,43 @@
     "context": "<<POS:08927001>>"
   },
   {
-    "key": "output|n_nAre_you_sure_you_want_to_continue_to_use_the_item|e147de73acbf",
-    "original": "\\n\\nAre you sure you want to continue to use the item?",
+    "key": "output|Are_you_sure_you_want_to_continue_to_use_the_item|2c527b12b4c0",
+    "original": "Are you sure you want to continue to use the item?",
     "translation": "",
-    "context": "<<POS:08927197>>"
+    "context": "<<POS:08927201>>"
   },
   {
     "key": "button|Yes|8fdada2cd6b2",
     "original": "Yes",
     "translation": "",
-    "context": "<<POS:08927309>>"
+    "context": "<<POS:08927309>> addButton(0,\"Yes\",(function(){return t.useMenu(e,t)}))"
   },
   {
     "key": "button|No|1c655db5490a",
     "original": "No",
     "translation": "",
-    "context": "<<POS:08927364>>"
+    "context": "<<POS:08927364>> addButton(1,\"No\",(function(){return t.rbgCancel(e,t)}))"
   },
   {
     "key": "button|Codex|91b41cee8132",
     "original": "Codex",
     "translation": "",
-    "context": "<<POS:08927420>>"
+    "context": "<<POS:08927420>> addButton(4,\"Codex\",(function(){showCodex(),(0,y.x3)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),t.useMenu(e,t)})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.rbgCancel(e,t)}))}),\"Codex Entry\",\"View the Codex entry for Muffstick.\")"
   },
   {
-    "key": "output|e_capitalA_e_short_uses_the_Muffstick_tube_but_to_no_effect|4ac8024d0278",
+    "key": "button.hover|Codex_Entry|5e6f1989329b",
+    "original": "Codex Entry",
+    "translation": "",
+    "context": "<<POS:08927611>> addButton(4,\"Codex\",(function(){showCodex(),(0,y.x3)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),t.useMenu(e,t)})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.rbgCancel(e,t)}))}),\"Codex Entry\",\"View the Codex entry for Muffstick.\")"
+  },
+  {
+    "key": "button.tooltip|View_the_Codex_entry_for_Muffstick|8aad498e5091",
+    "original": "View the Codex entry for Muffstick.",
+    "translation": "",
+    "context": "<<POS:08927625>> addButton(4,\"Codex\",(function(){showCodex(),(0,y.x3)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),t.useMenu(e,t)})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.rbgCancel(e,t)}))}),\"Codex Entry\",\"View the Codex entry for Muffstick.\")"
+  },
+  {
+    "key": "output|e_capitalA_e_short_uses_the_Muffstick_tube_but_to_no_effect|2ba731bfe530",
     "original": "e.capitalA+e.short+\" uses the Muffstick tube but to no effect.",
     "translation": "",
     "context": "<<POS:08927689>>"
@@ -45,25 +57,25 @@
     "key": "name.show|Muffstick|d001a6c0cde3",
     "original": "Muffstick",
     "translation": "",
-    "context": "<<POS:08927834>>"
+    "context": "<<POS:08927834>> showName(\"Muffstick\")"
   },
   {
-    "key": "output|You_put_the_item_back_into_your_inventory_n_n|ea9e4ecb0d43",
-    "original": "You put the item back into your inventory.\\n\\n",
+    "key": "output|You_put_the_item_back_into_your_inventory|d86086a77af4",
+    "original": "You put the item back into your inventory.",
     "translation": "",
     "context": "<<POS:08927876>>"
   },
   {
-    "key": "button|Next|3dab0a32df2d",
+    "key": "button|Next|7265641ba0a6",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08927967>>"
+    "context": "<<POS:08927967>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   },
   {
     "key": "name.show|Muffstick|efea44b4f407",
     "original": "Muffstick",
     "translation": "",
-    "context": "<<POS:08928194>>"
+    "context": "<<POS:08928194>> showName(\"Muffstick\")"
   },
   {
     "key": "output|If_you_are_not_mistaken_you_ll_need_to_have_a_vagina_before_you|a2efc467fb61",
@@ -81,13 +93,13 @@
     "key": "button|Next|462860503fa9",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08928469>>"
+    "context": "<<POS:08928469>> addButton(0,\"Next\",(function(){return o.rbgCancel(e,t)}))"
   },
   {
     "key": "name.show|Muffstick|efea44b4f407#1",
     "original": "Muffstick",
     "translation": "",
-    "context": "<<POS:08928551>>"
+    "context": "<<POS:08928551>> showName(\"Muffstick\")"
   },
   {
     "key": "output|Despite_your_pc_crotch_being_laid_bare_brazenly_displayed_for|8598243222db",
@@ -114,40 +126,64 @@
     "context": "<<POS:08929473>>"
   },
   {
-    "key": "output|n_nOpening_the_package_you_take_out_the_pamphlet_and_begin_rea|e9cb724c3bae",
-    "original": "\\n\\nOpening the package, you take out the pamphlet and begin reading through it, finding a short step by step guide for each of the contained items. Afterwards, you remove a tube of Muffstick and FizzyFix pill from the box.",
+    "key": "output|Opening_the_package_you_take_out_the_pamphlet_and_begin_reading|4b51c173db4d",
+    "original": "Opening the package, you take out the pamphlet and begin reading through it, finding a short step by step guide for each of the contained items. Afterwards, you remove a tube of Muffstick and FizzyFix pill from the box.",
     "translation": "",
-    "context": "<<POS:08929628>>"
+    "context": "<<POS:08929632>>"
   },
   {
-    "key": "output|n_nAs_you_stare_down_at_your_crotch_you_realize_that_it_won_t|ee708f1416ea",
-    "original": "\\n\\nAs you stare down at your crotch, you realize that it won’t be easy to apply the lipstick correctly, let alone see the upcoming process. Getting a clear view of one’s own pussy is no simple task after all. Luckily, you’ve got the trusty Codex to help you out. By using its camera-display app, you’re able to see every little detail of your sexual equipment in ultra HD as you position the device a short distance away from you.",
+    "key": "output|As_you_stare_down_at_your_crotch_you_realize_that_it_won_t_be_e|e5df8bf4d567",
+    "original": "As you stare down at your crotch, you realize that it won’t be easy to apply the lipstick correctly, let alone see the upcoming process. Getting a clear view of one’s own pussy is no simple task after all. Luckily, you’ve got the trusty Codex to help you out. By using its camera-display app, you’re able to see every little detail of your sexual equipment in ultra HD as you position the device a short distance away from you.",
     "translation": "",
-    "context": "<<POS:08929862>>"
+    "context": "<<POS:08929866>>"
   },
   {
     "key": "button|Next|bf04678c4afe",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08930387>>"
+    "context": "<<POS:08930387>> addButton(0,\"Next\",(function(){return o.rbgSelColor(e,!1,t)}),\"Choose Color\",\"Choose a color of lipstick.\")"
   },
   {
-    "key": "button|Like_Next|33a2121ca08e",
+    "key": "button.hover|Choose_Color|da294ad7f298",
+    "original": "Choose Color",
+    "translation": "",
+    "context": "<<POS:08930437>> addButton(0,\"Next\",(function(){return o.rbgSelColor(e,!1,t)}),\"Choose Color\",\"Choose a color of lipstick.\")"
+  },
+  {
+    "key": "button.tooltip|Choose_a_color_of_lipstick|7aebf6afffd2",
+    "original": "Choose a color of lipstick.",
+    "translation": "",
+    "context": "<<POS:08930452>> addButton(0,\"Next\",(function(){return o.rbgSelColor(e,!1,t)}),\"Choose Color\",\"Choose a color of lipstick.\")"
+  },
+  {
+    "key": "button|Like_Next|d1c9c09b2775",
     "original": "Like, Next!",
     "translation": "",
-    "context": "<<POS:08930508>>"
+    "context": "<<POS:08930508>> addButton(5,\"Like, Next!\",(function(){return o.rbgSelColor(e,!0,t)}),\"*Choose Glitter*\",\"Like, totally choose a better color of lipstick.\")"
   },
   {
-    "key": "button|Cancel|362dda0f671c",
+    "key": "button.hover|Choose_Glitter|8c83f5969c32",
+    "original": "*Choose Glitter*",
+    "translation": "",
+    "context": "<<POS:08930565>> addButton(5,\"Like, Next!\",(function(){return o.rbgSelColor(e,!0,t)}),\"*Choose Glitter*\",\"Like, totally choose a better color of lipstick.\")"
+  },
+  {
+    "key": "button.tooltip|Like_totally_choose_a_better_color_of_lipstick|5d1e666d48dd",
+    "original": "Like, totally choose a better color of lipstick.",
+    "translation": "",
+    "context": "<<POS:08930584>> addButton(5,\"Like, Next!\",(function(){return o.rbgSelColor(e,!0,t)}),\"*Choose Glitter*\",\"Like, totally choose a better color of lipstick.\")"
+  },
+  {
+    "key": "button|Cancel|1a13e888e939",
     "original": "Cancel",
     "translation": "",
-    "context": "<<POS:08930649>>"
+    "context": "<<POS:08930649>> addButton(14,\"Cancel\",(function(){return o.rbgCancel(e,t)}))"
   },
   {
     "key": "name.show|Muffstick|53b1b92150cf",
     "original": "Muffstick",
     "translation": "",
-    "context": "<<POS:08930903>>"
+    "context": "<<POS:08930903>> showName(\"Muffstick\")"
   },
   {
     "key": "output|blockHeader_Choose_Colors|fc1c32c5994c",
@@ -165,25 +201,49 @@
     "key": "button|Colors|0ee456ee6954",
     "original": "Colors (",
     "translation": "",
-    "context": "<<POS:08931553>>"
+    "context": "<<POS:08931553>> addButton(r++,\"Colors (\".concat(r,\")\"),(function(){return t.rbgMakeAPage(e,o,n,a)}),\"Selection of Colors: \".concat(u===h?l.m.toDisplayCase(u):\"\".concat(l.m.toDisplayCase(u),\" to \").concat(l.m.toDisplayCase(h))),u===h?\"To \".concat(u,\".\"):\"From \".concat(u,\" to \").concat(h,\".\"))"
   },
   {
-    "key": "button|Back|9ee9ae3d14da",
-    "original": "Back",
+    "key": "button.hover|Selection_of_Colors|a9c9ea1a7124",
+    "original": "Selection of Colors: ",
     "translation": "",
-    "context": "<<POS:08931924>>"
+    "context": "<<POS:08931623>> addButton(r++,\"Colors (\".concat(r,\")\"),(function(){return t.rbgMakeAPage(e,o,n,a)}),\"Selection of Colors: \".concat(u===h?l.m.toDisplayCase(u):\"\".concat(l.m.toDisplayCase(u),\" to \").concat(l.m.toDisplayCase(h))),u===h?\"To \".concat(u,\".\"):\"From \".concat(u,\" to \").concat(h,\".\"))"
   },
   {
-    "key": "button|Back|8377b4609270",
+    "key": "button|Back|895f978397cb",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:08932434>>"
+    "context": "<<POS:08931924>> addButton(14,\"Back\",(function(){return t.rbgMenu(e,a)}))"
+  },
+  {
+    "key": "button.hover|No_Color_Change|45a6163e493b",
+    "original": "No Color Change",
+    "translation": "",
+    "context": "<<POS:08932161>> addButton(s,t[1],(function(){return n.vagMenu(e,t[0],a)}),\"No Color Change\",\"Keep your nether-lips the same color.\")"
+  },
+  {
+    "key": "button.tooltip|Keep_your_nether_lips_the_same_color|14860aa15d60",
+    "original": "Keep your nether-lips the same color.",
+    "translation": "",
+    "context": "<<POS:08932179>> addButton(s,t[1],(function(){return n.vagMenu(e,t[0],a)}),\"No Color Change\",\"Keep your nether-lips the same color.\")"
+  },
+  {
+    "key": "button.tooltip|Change_the_color_of_your_nether_lips_to|d6739235c6a3",
+    "original": "Change the color of your nether-lips to ",
+    "translation": "",
+    "context": "<<POS:08932302>> addButton(s,t[1],(function(){return n.vagMenu(e,t[0],a)}),l.m.toDisplayCase(t[0]),\"Change the color of your nether-lips to \"+t[0]+\".\")"
+  },
+  {
+    "key": "button|Back|3f6e3618c7b1",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:08932434>> addButton(14,\"Back\",(function(){return n.rbgSelColor(e,t,a)}))"
   },
   {
     "key": "name.show|Muffstick|e68932962ed8",
     "original": "Muffstick",
     "translation": "",
-    "context": "<<POS:08932595>>"
+    "context": "<<POS:08932595>> showName(\"Muffstick\")"
   },
   {
     "key": "output|blockHeader_Choose_Vagina|f277dbf9a16a",
@@ -192,16 +252,16 @@
     "context": "<<POS:08932614>>"
   },
   {
-    "key": "output|You_have_more_than_one_vagina_Which_one_will_you_smear_with_the|9c41337000dd",
-    "original": "You have more than one vagina. Which one will you smear with the Muffstick?\\n",
+    "key": "output|You_have_more_than_one_vagina_Which_one_will_you_smear_with_the|7e628bb16e31",
+    "original": "You have more than one vagina. Which one will you smear with the Muffstick?",
     "translation": "",
     "context": "<<POS:08932686>>"
   },
   {
-    "key": "output|n_b_l_m_capitalize_l_m_numToOrdinal_n_1_Vagina_b|aef91ef1d8fe",
-    "original": "\\n<b>\"+l.m.capitalize(l.m.numToOrdinal(n+1))+\" Vagina:</b>",
+    "key": "output|b_l_m_capitalize_l_m_numToOrdinal_n_1_Vagina_b|4b2db517fca6",
+    "original": "<b>\"+l.m.capitalize(l.m.numToOrdinal(n+1))+\" Vagina:</b>",
     "translation": "",
-    "context": "<<POS:08932799>>"
+    "context": "<<POS:08932801>>"
   },
   {
     "key": "output|GLOBAL_FLAG_NAMES_e_vaginas_n_flags_i|2a49c23180eb",
@@ -225,13 +285,19 @@
     "key": "button|Vagina|fddc1afe89db",
     "original": "Vagina ",
     "translation": "",
-    "context": "<<POS:08933142>>"
+    "context": "<<POS:08933142>> addButton(n,\"Vagina \"+(n+1),(function(){return a.rbgUse(e,t,n,o)}),l.m.capitalize(l.m.numToOrdinal(n+1))+\" Vagina\",\"Use this on your [pc.vagina \"+n+\"].\")"
   },
   {
-    "key": "name.show|Muffstick|9b3fef892595",
+    "key": "button.tooltip|Use_this_on_your_pc_vagina|e8033dd998f1",
+    "original": "Use this on your [pc.vagina ",
+    "translation": "",
+    "context": "<<POS:08933245>> addButton(n,\"Vagina \"+(n+1),(function(){return a.rbgUse(e,t,n,o)}),l.m.capitalize(l.m.numToOrdinal(n+1))+\" Vagina\",\"Use this on your [pc.vagina \"+n+\"].\")"
+  },
+  {
+    "key": "name.show|Muffstick|68baa5c0a5b2",
     "original": "Muffstick",
     "translation": "",
-    "context": "<<POS:08933419>>"
+    "context": "<<POS:08933419>> showName(\"Muffstick\")"
   },
   {
     "key": "output|After_choosing_the_desired_color|3e8b8ba0e6d7",
@@ -252,10 +318,10 @@
     "context": "<<POS:08933590>>"
   },
   {
-    "key": "output|n_nSoon_you_ve_covered_the_entirety_of_the_exterior_but_still|c6a7a79509b7",
-    "original": "\\n\\nSoon you’ve covered the entirety of the exterior, but still continue to smear away, like you’ve been instructed. The reason for doing so becomes apparent when the",
+    "key": "output|Soon_you_ve_covered_the_entirety_of_the_exterior_but_still_cont|18274426bbf1",
+    "original": "Soon you’ve covered the entirety of the exterior, but still continue to smear away, like you’ve been instructed. The reason for doing so becomes apparent when the",
     "translation": "",
-    "context": "<<POS:08933801>>"
+    "context": "<<POS:08933805>>"
   },
   {
     "key": "output|transparent|55b5c92aec46",
@@ -276,16 +342,16 @@
     "context": "<<POS:08934026>>"
   },
   {
-    "key": "output|n_nYou_get_but_a_moment_to_admire_the_slutty_makeup_you_ve_give|cce095cf7f1e",
-    "original": "\\n\\nYou get but a moment to admire the slutty makeup you’ve given your slit before your crotch suddenly feels like it’s been set on fire. Intense pleasure spreads throughout your honeypot, every inch of it now made several times more sensitive than a clit, forcing you to buck your hips in the air for relief. The combination of mind blowing pleasure and scorching heat simply becomes too much to bear, robbing you of your strength. As your [pc.legs] gradually give in, your motions slowly die down and you slump onto your back. After taking a moment to fetch your breath, you gather whatever energy you have left and prop yourself up on your elbows, directing your attention towards the Codex.",
+    "key": "output|You_get_but_a_moment_to_admire_the_slutty_makeup_you_ve_given_yo|0adca845a524",
+    "original": "You get but a moment to admire the slutty makeup you’ve given your slit before your crotch suddenly feels like it’s been set on fire. Intense pleasure spreads throughout your honeypot, every inch of it now made several times more sensitive than a clit, forcing you to buck your hips in the air for relief. The combination of mind blowing pleasure and scorching heat simply becomes too much to bear, robbing you of your strength. As your [pc.legs] gradually give in, your motions slowly die down and you slump onto your back. After taking a moment to fetch your breath, you gather whatever energy you have left and prop yourself up on your elbows, directing your attention towards the Codex.",
     "translation": "",
-    "context": "<<POS:08934234>>"
+    "context": "<<POS:08934238>>"
   },
   {
-    "key": "output|n_nIt_doesn_t_take_long_before_you_see_the_outer_lips_puffing_o|2f72079d4a2b",
-    "original": "\\n\\nIt doesn’t take long before you see the outer lips puffing out, melting together with the inner ones and slowly forming an undeniably mouth-like entrance. And what a mouth it is - a pair of plump lips frozen in a seductive",
+    "key": "output|It_doesn_t_take_long_before_you_see_the_outer_lips_puffing_out|23444cc63dc4",
+    "original": "It doesn’t take long before you see the outer lips puffing out, melting together with the inner ones and slowly forming an undeniably mouth-like entrance. And what a mouth it is - a pair of plump lips frozen in a seductive",
     "translation": "",
-    "context": "<<POS:08934939>>"
+    "context": "<<POS:08934943>>"
   },
   {
     "key": "output|O|cda1e2cc413d",
@@ -306,13 +372,7 @@
     "context": "<<POS:08935237>>"
   },
   {
-    "key": "output|n_n|8d44e69ccc9d",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08935305>>"
-  },
-  {
-    "key": "output|Meanwhile_your_pc_clit_gradually_develops_a_whole_new_metalli|81068d6f9ac1",
+    "key": "output|Meanwhile_your_pc_clit_gradually_develops_a_whole_new_metalli|f9833a8692e9",
     "original": "Meanwhile, your [pc.clit] gradually develops a whole new metallic sheen, before it suddenly splits off into two separate pleasure buttons that rearrange themselves into what looks like a set of studded piercings.",
     "translation": "",
     "context": "<<POS:08935343>>"
@@ -330,34 +390,34 @@
     "context": "<<POS:08935730>>"
   },
   {
-    "key": "output|n_nIf_you_had_any_strength_after_suffering_through_all_the_plea|7e893724fb06",
-    "original": "\\n\\nIf you had any strength after suffering through all the pleasure and the scorching heat in your shifting pussy, you would most likely be all over them by now; instead you can only lick your lips in the anticipation of what you can do with them later on...",
+    "key": "output|If_you_had_any_strength_after_suffering_through_all_the_pleasure|224fdd094880",
+    "original": "If you had any strength after suffering through all the pleasure and the scorching heat in your shifting pussy, you would most likely be all over them by now; instead you can only lick your lips in the anticipation of what you can do with them later on...",
     "translation": "",
-    "context": "<<POS:08935983>>"
+    "context": "<<POS:08935987>>"
   },
   {
-    "key": "output|n_nYou_spend_some_time_staring_at_this_sensual_display_of_your|0989eee44832",
-    "original": "\\n\\nYou spend some time staring at this sensual display of your hot tongue dancing around your newly formed lips, grazing the polished clits every now and then - which feels absolutely <i>amazing</i> - before you realize that you’re able to watch yourself lick your own mouth. Or, to be more precise, witness an erogenous tongue lolling out and circling the oversensitive, swollen lips of your muff.",
+    "key": "output|You_spend_some_time_staring_at_this_sensual_display_of_your_hot|b7e1e5c41d4f",
+    "original": "You spend some time staring at this sensual display of your hot tongue dancing around your newly formed lips, grazing the polished clits every now and then - which feels absolutely <i>amazing</i> - before you realize that you’re able to watch yourself lick your own mouth. Or, to be more precise, witness an erogenous tongue lolling out and circling the oversensitive, swollen lips of your muff.",
     "translation": "",
-    "context": "<<POS:08936253>>"
+    "context": "<<POS:08936257>>"
   },
   {
-    "key": "output|n_nInitially_quite_shocked_by_this_sudden_change_you_re_soon_t|af24f03db9fe",
-    "original": "\\n\\nInitially quite shocked by this sudden change, you’re soon too busy losing yourself in the mind-blowing pleasure it brings to even care. You have full control of the seductive licker and find yourself moving it with the same ease and precision as the one upstairs, sliding it rapidly along the sensitive rims, going from one clit to another with reckless abandon.",
+    "key": "output|Initially_quite_shocked_by_this_sudden_change_you_re_soon_too_b|43677efc97d9",
+    "original": "Initially quite shocked by this sudden change, you’re soon too busy losing yourself in the mind-blowing pleasure it brings to even care. You have full control of the seductive licker and find yourself moving it with the same ease and precision as the one upstairs, sliding it rapidly along the sensitive rims, going from one clit to another with reckless abandon.",
     "translation": "",
-    "context": "<<POS:08936663>>"
+    "context": "<<POS:08936667>>"
   },
   {
-    "key": "output|n_nAlready_flushed_and_turned_on_from_the_heat_inside_your_maw|d2b79488650b",
-    "original": "\\n\\nAlready flushed and turned on from the heat inside your maw, the added sensations from the erogenous tongue and the oh-so arousing show the Codex treats you to serve as the tipping point. The climax washes over you like a tsunami of euphoria, flooding your entire system with orgasmic ecstasy. The strong current reaches out all the way to your brain, completely overloading it with wave after wave of unparalleled pleasure, leaving you a quivering, moaning mess, with eyes rolled upwards and a classic O-face expression.",
+    "key": "output|Already_flushed_and_turned_on_from_the_heat_inside_your_maw_the|f8984e9113df",
+    "original": "Already flushed and turned on from the heat inside your maw, the added sensations from the erogenous tongue and the oh-so arousing show the Codex treats you to serve as the tipping point. The climax washes over you like a tsunami of euphoria, flooding your entire system with orgasmic ecstasy. The strong current reaches out all the way to your brain, completely overloading it with wave after wave of unparalleled pleasure, leaving you a quivering, moaning mess, with eyes rolled upwards and a classic O-face expression.",
     "translation": "",
-    "context": "<<POS:08937041>>"
+    "context": "<<POS:08937045>>"
   },
   {
-    "key": "output|n_nStreams_of_pc_girlcum_gush_out_from_your_mouthgina|cae982b2694d",
-    "original": "\\n\\nStreams of [pc.girlcum] gush out from your mouthgina",
+    "key": "output|Streams_of_pc_girlcum_gush_out_from_your_mouthgina|b5adead78fb8",
+    "original": "Streams of [pc.girlcum] gush out from your mouthgina",
     "translation": "",
-    "context": "<<POS:08937577>>"
+    "context": "<<POS:08937581>>"
   },
   {
     "key": "output|joined_in_by_the|df8342a7b933",
@@ -462,22 +522,22 @@
     "context": "<<POS:08938810>>"
   },
   {
-    "key": "output|n_nYou_come_to_a_while_later_feeling_quite_satisfied_and_refre|08157eb65dbf",
-    "original": "\\n\\nYou come to a while later, feeling quite satisfied and refreshed, realizing that the sensitivity of your nether lips has returned to normal and the intense heat you felt in your loins has finally subsided.",
+    "key": "output|You_come_to_a_while_later_feeling_quite_satisfied_and_refreshed|696109233f0c",
+    "original": "You come to a while later, feeling quite satisfied and refreshed, realizing that the sensitivity of your nether lips has returned to normal and the intense heat you felt in your loins has finally subsided.",
     "translation": "",
-    "context": "<<POS:08938878>>"
+    "context": "<<POS:08938882>>"
   },
   {
-    "key": "output|n_nNow_with_your_strength_back_and_your_lust_sated_you_re_fin|d477e37349ca",
-    "original": "\\n\\nNow, with your strength back and your lust sated, you’re finally able to fully explore your new mouth-gina.",
+    "key": "output|Now_with_your_strength_back_and_your_lust_sated_you_re_finally|d08d87056f8b",
+    "original": "Now, with your strength back and your lust sated, you’re finally able to fully explore your new mouth-gina.",
     "translation": "",
-    "context": "<<POS:08939098>>"
+    "context": "<<POS:08939102>>"
   },
   {
-    "key": "output|n_n_b_You_re_left_with_an_unmistakably_mouth_like_opening_with|ef78b12fbf19",
-    "original": "\\n\\n<b>You’re left with an unmistakably mouth-like opening, with plump",
+    "key": "output|b_You_re_left_with_an_unmistakably_mouth_like_opening_with_plu|eb9e86adc2cf",
+    "original": "<b>You’re left with an unmistakably mouth-like opening, with plump",
     "translation": "",
-    "context": "<<POS:08939220>>"
+    "context": "<<POS:08939224>>"
   },
   {
     "key": "output|pc_vaginaColor_o|643064587121",
@@ -498,16 +558,16 @@
     "context": "<<POS:08939360>>"
   },
   {
-    "key": "output|n_nYou_ponder_whether_or_not_those_thoughts_mean_your_libido_ha|ae56d63f0ceb",
-    "original": "\\n\\nYou ponder whether or not those thoughts mean your libido has spiked a bit.",
+    "key": "output|You_ponder_whether_or_not_those_thoughts_mean_your_libido_has_sp|7f9a758d135d",
+    "original": "You ponder whether or not those thoughts mean your libido has spiked a bit.",
     "translation": "",
-    "context": "<<POS:08940237>>"
+    "context": "<<POS:08940241>>"
   },
   {
-    "key": "output|n_nAfter_choosing_the_desired_color_you_smear_the_Muffstick_on|3c29ffed0669",
-    "original": "\\n\\nAfter choosing the desired color, you smear the Muffstick on the lips of your [pc.vagina \"+o+\"], finding it increasingly easier with a more mouth-like entrance. After you’ve prepared yourself for some intense heat and mind-numbing pleasure, you’re left thoroughly disappointed when the sensations fade away and nothing else seems to happen. <b>With nothing to modify, it seems like the Muffstick has done all it can for now.</b>",
+    "key": "output|After_choosing_the_desired_color_you_smear_the_Muffstick_on_the|0b9bfbfaf412",
+    "original": "After choosing the desired color, you smear the Muffstick on the lips of your [pc.vagina \"+o+\"], finding it increasingly easier with a more mouth-like entrance. After you’ve prepared yourself for some intense heat and mind-numbing pleasure, you’re left thoroughly disappointed when the sensations fade away and nothing else seems to happen. <b>With nothing to modify, it seems like the Muffstick has done all it can for now.</b>",
     "translation": "",
-    "context": "<<POS:08940816>>"
+    "context": "<<POS:08940820>>"
   },
   {
     "key": "output|After_choosing_the_desired_color_you_smear_the|ed32eb838f75",
@@ -552,22 +612,22 @@
     "context": "<<POS:08941699>>"
   },
   {
-    "key": "output|n_nSoon_you_can_see_a_tongue_peek_out_of_your_pc_vagina_o|5f74bd4d6f0a",
-    "original": "\\n\\nSoon, you can see a tongue peek out of your [pc.vagina \"+o+\"], and you don’t waste a single moment before you start mashing it against your nether lips. The experience is not nearly as mind-bogglingly intense as when you first got your mouth-shaped orifice, but you still find it incredibly enjoyable to feel the erogenous organ slide across the outside of your entrance.",
+    "key": "output|Soon_you_can_see_a_tongue_peek_out_of_your_pc_vagina_o_a|c302f733ff5e",
+    "original": "Soon, you can see a tongue peek out of your [pc.vagina \"+o+\"], and you don’t waste a single moment before you start mashing it against your nether lips. The experience is not nearly as mind-bogglingly intense as when you first got your mouth-shaped orifice, but you still find it incredibly enjoyable to feel the erogenous organ slide across the outside of your entrance.",
     "translation": "",
-    "context": "<<POS:08942011>>"
+    "context": "<<POS:08942015>>"
   },
   {
-    "key": "output|n_nEvery_detail_of_this_obscene_act_gets_reflected_through_the|495809992acd",
-    "original": "\\n\\nEvery detail of this obscene act gets reflected through the Codex, treating you to a deliciously arousing show, making you wet enough to see [pc.girlCum] drip down from the tip of your tongue. It’s almost like you’re drooling at the sight of this lewd display, something you find yourself checking, wiping your upper mouth just in case. Finding no saliva - not like that would’ve stopped you anyway - you continue to relish the experience of what can only be described as an odd form of autocunnilingus.",
+    "key": "output|Every_detail_of_this_obscene_act_gets_reflected_through_the_Code|1fe775e55a75",
+    "original": "Every detail of this obscene act gets reflected through the Codex, treating you to a deliciously arousing show, making you wet enough to see [pc.girlCum] drip down from the tip of your tongue. It’s almost like you’re drooling at the sight of this lewd display, something you find yourself checking, wiping your upper mouth just in case. Finding no saliva - not like that would’ve stopped you anyway - you continue to relish the experience of what can only be described as an odd form of autocunnilingus.",
     "translation": "",
-    "context": "<<POS:08942397>>"
+    "context": "<<POS:08942401>>"
   },
   {
-    "key": "output|n_nYou_get_to_enjoy_the_strange_spectacle_for_a_good_long_while|112ef3b90e0a",
-    "original": "\\n\\nYou get to enjoy the strange spectacle for a good long while, savoring every moment of this blissful reunion, before all too suddenly, your tongue cools down and retracts back into hiding. You’re left feeling a bit horny and slightly disappointed, but it’s reassuring to know the pussy-based licker is back to add to your pleasure whenever you feel like playing with yourself... or a brave enough partner.",
+    "key": "output|You_get_to_enjoy_the_strange_spectacle_for_a_good_long_while_sa|74c261b779d4",
+    "original": "You get to enjoy the strange spectacle for a good long while, savoring every moment of this blissful reunion, before all too suddenly, your tongue cools down and retracts back into hiding. You’re left feeling a bit horny and slightly disappointed, but it’s reassuring to know the pussy-based licker is back to add to your pleasure whenever you feel like playing with yourself... or a brave enough partner.",
     "translation": "",
-    "context": "<<POS:08942915>>"
+    "context": "<<POS:08942919>>"
   },
   {
     "key": "output|After_choosing_the_desired_color_you_smear_the_Muffstick_on_the|e82bba45cac3",
@@ -588,10 +648,10 @@
     "context": "<<POS:08943918>>"
   },
   {
-    "key": "output|n_nWas_that_it_You_had_hoped_for_some_greater_changes_like_in|20529d4b18a3",
-    "original": "\\n\\nWas that it? You had hoped for some greater changes, like increased sensitivity",
+    "key": "output|Was_that_it_You_had_hoped_for_some_greater_changes_like_increa|ff05e152471a",
+    "original": "Was that it? You had hoped for some greater changes, like increased sensitivity",
     "translation": "",
-    "context": "<<POS:08944003>>"
+    "context": "<<POS:08944007>>"
   },
   {
     "key": "output|for_instance|54628f81b1f2",
@@ -648,21 +708,15 @@
     "context": "<<POS:08945173>>"
   },
   {
-    "key": "output|n_nAfter_the_transformation_is_over_you_re_content_to_simply_ad|4ea7e59f4d21",
-    "original": "\\n\\nAfter the transformation is over you’re content to simply admire your new makeup for a while.",
+    "key": "output|After_the_transformation_is_over_you_re_content_to_simply_admire|be511a7f7758",
+    "original": "After the transformation is over you’re content to simply admire your new makeup for a while.",
     "translation": "",
-    "context": "<<POS:08945354>>"
+    "context": "<<POS:08945358>>"
   },
   {
     "key": "output|There_s_probably_a_way_to_pump_them_up_even_further_b_but_it|6f78b0853641",
     "original": " There’s probably a way to pump them up even further, <b>but it looks like this gene-mod has done all it can.</b> So you simply shake the thought away and decide to admire your new makeup instead.",
     "translation": "",
     "context": "<<POS:08945462>>"
-  },
-  {
-    "key": "output|n_n|b99b55abbbb3",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08945698>>"
   }
 ]

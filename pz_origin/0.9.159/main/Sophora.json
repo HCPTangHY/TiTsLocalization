@@ -1,30 +1,36 @@
 [
   {
-    "key": "combat|n_b_Critical_hit_b|988e14b251fa",
-    "original": "\\n<b>Critical hit!</b>",
+    "key": "combat|b_Critical_hit_b|48fe53e941c8",
+    "original": "<b>Critical hit!</b>",
     "translation": "",
-    "context": "<<POS:11181564>>"
+    "context": "<<POS:11181566>>"
   },
   {
-    "key": "combat|b_You_are_sundered_by_the_critical_strike_b|c6704e15c29c",
+    "key": "combat|b_You_are_sundered_by_the_critical_strike_b|3f1fb9c35af9",
     "original": " <b>You are sundered by the critical strike!</b>",
     "translation": "",
     "context": "<<POS:11181801>>"
   },
   {
-    "key": "combat|b_concat_d_m_capitalize_r_getCombatName_1_concat_r|a7048e726b66",
+    "key": "textify|i_Hrrgh_unngh_i_n_n_t_t_t_t_tSomething_s_happened_s|e6991df5aa03",
+    "original": "<i>“Hrrgh -- unngh!”</i>\\n\\n\\t\\t\\t\\t\\tSomething’s happened... [sophora.nameKnown|Sophora|the laquine] felt that. She shuffles backwards, shoulder clutched tight, blood spitting from her mouth. Smoldering eyes gaze at you like the eternal, unblinking judgment of a statue.\\n\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\tWell-struck; a decisive, powerful blow!",
+    "translation": "",
+    "context": "<<POS:11181918>>"
+  },
+  {
+    "key": "combat|b_concat_d_m_capitalize_r_getCombatName_1_concat_r|cbd78ffc11ab",
     "original": " <b>\".concat(d.m.capitalize(r.getCombatName(),!1),\" \").concat(r.isPlural?\"are\":\"is\",\" sundered by \").concat(\"PlayerCharacter\"===i.getClassName()?\"your\":\"the\",\" critical strike!</b>\")",
     "translation": "",
     "context": "<<POS:11182278>>"
   },
   {
-    "key": "combat|n_b_Deep_Impact_stun_b|99584d812400",
-    "original": "\\n<b>Deep Impact stun!</b>",
+    "key": "combat|b_Deep_Impact_stun_b|55007c6b174e",
+    "original": "<b>Deep Impact stun!</b>",
     "translation": "",
-    "context": "<<POS:11182584>>"
+    "context": "<<POS:11182586>>"
   },
   {
-    "key": "combat|concat_d_m_capitalize_d_m_possessive_r_getCombatName_1|823aa0a0c95e",
+    "key": "combat|concat_d_m_capitalize_d_m_possessive_r_getCombatName_1|2fb33f3b6610",
     "original": " \".concat(d.m.capitalize(d.m.possessive(r.getCombatName()),!1),\" shield\").concat(r.isPlural?\"s crackle but hold\":\" crackles but holds\",\".\")",
     "translation": "",
     "context": "<<POS:11182808>>"
@@ -126,13 +132,13 @@
     "context": "<<POS:11187185>>"
   },
   {
-    "key": "combat|n_b_Frost_shattered_b|f9ba4cda053f",
-    "original": "\\n<b>Frost shattered!</b>",
+    "key": "combat|b_Frost_shattered_b|01678bd88253",
+    "original": "<b>Frost shattered!</b>",
     "translation": "",
-    "context": "<<POS:11187252>>"
+    "context": "<<POS:11187254>>"
   },
   {
-    "key": "combat|b_You_are_stunned_b|9f8c93afaa27",
+    "key": "combat|b_You_are_stunned_b|bc4e273070cd",
     "original": " <b>You are stunned!</b>",
     "translation": "",
     "context": "<<POS:11187568>>"
@@ -180,25 +186,25 @@
     "context": "<<POS:11188751>>"
   },
   {
-    "key": "combat|n_b_The_flames_burning_d_m_possessive_r_getCombatName_bod|e31585c4324e",
-    "original": "\\n<b>The flames burning\"+d.m.possessive(r.getCombatName())+\" body have been extinguished!</b>",
+    "key": "combat|b_The_flames_burning_d_m_possessive_r_getCombatName_body|fb1eb6d8c86b",
+    "original": "<b>The flames burning\"+d.m.possessive(r.getCombatName())+\" body have been extinguished!</b>",
     "translation": "",
-    "context": "<<POS:11188923>>"
+    "context": "<<POS:11188925>>"
   },
   {
-    "key": "combat|n_n_F|c478bec69ede",
-    "original": "\\n\\n\"+F",
+    "key": "combat|F|9712bca979da",
+    "original": "\"+F",
     "translation": "",
-    "context": "<<POS:11189862>>"
+    "context": "<<POS:11189866>>"
   },
   {
-    "key": "combat|n_n_F|46c9a77eee3b",
-    "original": "\\n\\n\"+F",
+    "key": "combat|F|10883b430224",
+    "original": "\"+F",
     "translation": "",
-    "context": "<<POS:11190840>>"
+    "context": "<<POS:11190844>>"
   },
   {
-    "key": "combat|window_gooArmorTeaseBlurbs|739641f5c206",
+    "key": "combat|window_gooArmorTeaseBlurbs|dd0cc93d4bf8",
     "original": "window.gooArmorTeaseBlurbs()",
     "translation": "",
     "context": "<<POS:11190947>>"
@@ -252,10 +258,10 @@
     "context": "<<POS:11196179>>"
   },
   {
-    "key": "combat|n_n_i_An_attempt_to_confuse_and_overwhelm_an_enemy_with_an_ove|96ae1625f682",
-    "original": "\\n\\n<i>“An attempt to confuse and overwhelm an enemy with an overt display of sexual dominance,”</i> says So. She sounds genuinely interested. <i>“An unorthodox but effective strategy in many known organic cultures’ approach to war. I was unaware sentients of a human upbringing had any experience of such a thing, however. Perhaps that explains why you are attempting it against a foe that cannot in any way feel desire.”</i>",
+    "key": "combat|i_An_attempt_to_confuse_and_overwhelm_an_enemy_with_an_overt_d|dee4571b031b",
+    "original": "<i>“An attempt to confuse and overwhelm an enemy with an overt display of sexual dominance,”</i> says So. She sounds genuinely interested. <i>“An unorthodox but effective strategy in many known organic cultures’ approach to war. I was unaware sentients of a human upbringing had any experience of such a thing, however. Perhaps that explains why you are attempting it against a foe that cannot in any way feel desire.”</i>",
     "translation": "",
-    "context": "<<POS:11205638>>"
+    "context": "<<POS:11205642>>"
   },
   {
     "key": "combat|g|0e1d615a732f",
@@ -264,16 +270,16 @@
     "context": "<<POS:11206247>>"
   },
   {
-    "key": "combat|n_nYour_milk_goes_wide|2663f635c1ac",
-    "original": "\\n\\nYour milk goes wide.",
+    "key": "combat|Your_milk_goes_wide|7e88ad1b5e09",
+    "original": "Your milk goes wide.",
     "translation": "",
-    "context": "<<POS:11206278>>"
+    "context": "<<POS:11206282>>"
   },
   {
-    "key": "combat|n_nYour_foe_looks_more_annoyed_than_aroused_at_your_antics_as_t|3110c592d706",
-    "original": "\\n\\nYour foe looks more annoyed than aroused at your antics as they wipe your girl lube off.",
+    "key": "combat|Your_foe_looks_more_annoyed_than_aroused_at_your_antics_as_they|ec7a06e2ad92",
+    "original": "Your foe looks more annoyed than aroused at your antics as they wipe your girl lube off.",
     "translation": "",
-    "context": "<<POS:11206336>>"
+    "context": "<<POS:11206340>>"
   },
   {
     "key": "combat|You_pity_them_somewhat_Your_pc_cumNoun_has_a_lot_of_nutrient|9c4844e9808a",
@@ -282,16 +288,16 @@
     "context": "<<POS:11206467>>"
   },
   {
-    "key": "combat|n_n_textify_n_n_0_u_Z_You_charge_towards_target_combatN|fe8d0341757c",
-    "original": "\\n\\n\"+textify(n||(n=(0,u.Z)([\"You charge towards [target.combatName], but [target.combatHeShe] manages to get out of the way.\"])))",
+    "key": "combat|textify_n_n_0_u_Z_You_charge_towards_target_combatName|680f0c2d9dfb",
+    "original": "\"+textify(n||(n=(0,u.Z)([\"You charge towards [target.combatName], but [target.combatHeShe] manages to get out of the way.\"])))",
     "translation": "",
-    "context": "<<POS:11206581>>"
+    "context": "<<POS:11206585>>"
   },
   {
-    "key": "combat|n_n_textify_i_i_0_u_Z_You_don_t_manage_to_get_close_enou|0e76f9c34fa5",
-    "original": "\\n\\n\"+textify(i||(i=(0,u.Z)([\"You don’t manage to get close enough to your opponent this time.\"])))",
+    "key": "combat|textify_i_i_0_u_Z_You_don_t_manage_to_get_close_enough_t|2a45948770d2",
+    "original": "\"+textify(i||(i=(0,u.Z)([\"You don’t manage to get close enough to your opponent this time.\"])))",
     "translation": "",
-    "context": "<<POS:11206746>>"
+    "context": "<<POS:11206750>>"
   },
   {
     "key": "combat|g|ff07161a51ad",
@@ -300,55 +306,55 @@
     "context": "<<POS:11207028>>"
   },
   {
-    "key": "combat|n_n_0_f_PA_0_t|778a13d1ea0d",
-    "original": "\\n\\n\"+(0,f.PA)(0,t)",
+    "key": "combat|0_f_PA_0_t|976d491bb916",
+    "original": "\"+(0,f.PA)(0,t)",
     "translation": "",
-    "context": "<<POS:11207115>>"
+    "context": "<<POS:11207119>>"
   },
   {
-    "key": "combat|n_nThe_barbarian_girl_flashes_a_savage_grin_apparently_unfazed|1db54f9f715d",
-    "original": "\\n\\nThe barbarian girl flashes a savage grin, apparently unfazed.\"+(isSillyModeEnabled()?\" <i>“No. So no. Wow. Very no.”</i>\":\"\")",
+    "key": "combat|The_barbarian_girl_flashes_a_savage_grin_apparently_unfazed|11331ab58b59",
+    "original": "The barbarian girl flashes a savage grin, apparently unfazed.\"+(isSillyModeEnabled()?\" <i>“No. So no. Wow. Very no.”</i>\":\"\")",
     "translation": "",
-    "context": "<<POS:11207253>>"
+    "context": "<<POS:11207257>>"
   },
   {
-    "key": "combat|n_n_d_m_capitalize_t_getCombatName_1_didn_t_react_in_a_m|5149fc2bd063",
-    "original": "\\n\\n\"+d.m.capitalize(t.getCombatName(),!1)+\" didn’t react in a meaningful way.",
+    "key": "combat|d_m_capitalize_t_getCombatName_1_didn_t_react_in_a_meani|72b1ef9f9819",
+    "original": "\"+d.m.capitalize(t.getCombatName(),!1)+\" didn’t react in a meaningful way.",
     "translation": "",
-    "context": "<<POS:11207410>>"
+    "context": "<<POS:11207414>>"
   },
   {
-    "key": "combat|n_n_d_m_capitalize_t_getCombatName_1_appear_unimpressed|d329d242f4a8",
-    "original": "\\n\\n\"+d.m.capitalize(t.getCombatName(),!1)+\" appear unimpressed.",
+    "key": "combat|d_m_capitalize_t_getCombatName_1_appear_unimpressed|2b5ec0cd5956",
+    "original": "\"+d.m.capitalize(t.getCombatName(),!1)+\" appear unimpressed.",
     "translation": "",
-    "context": "<<POS:11207530>>"
+    "context": "<<POS:11207534>>"
   },
   {
-    "key": "combat|n_n_d_m_capitalize_t_getCombatName_1_appears_unimpressed|e52b05392ab0",
-    "original": "\\n\\n\"+d.m.capitalize(t.getCombatName(),!1)+\" appears unimpressed.",
+    "key": "combat|d_m_capitalize_t_getCombatName_1_appears_unimpressed|abc1125dfcf6",
+    "original": "\"+d.m.capitalize(t.getCombatName(),!1)+\" appears unimpressed.",
     "translation": "",
-    "context": "<<POS:11207611>>"
+    "context": "<<POS:11207615>>"
   },
   {
-    "key": "combat|n_n_d_m_capitalize_t_getCombatName_1_do_not_react_in_a_m|28af5e73a8a8",
-    "original": "\\n\\n\"+d.m.capitalize(t.getCombatName(),!1)+\" do not react in a meaningful way.",
+    "key": "combat|d_m_capitalize_t_getCombatName_1_do_not_react_in_a_meani|cde7eeb54608",
+    "original": "\"+d.m.capitalize(t.getCombatName(),!1)+\" do not react in a meaningful way.",
     "translation": "",
-    "context": "<<POS:11207735>>"
+    "context": "<<POS:11207739>>"
   },
   {
-    "key": "combat|n_n_d_m_capitalize_t_getCombatName_1_doesn_t_react_in_a|fa67649e7f78",
-    "original": "\\n\\n\"+d.m.capitalize(t.getCombatName(),!1)+\" doesn’t react in a meaningful way.",
+    "key": "combat|d_m_capitalize_t_getCombatName_1_doesn_t_react_in_a_mean|14bdb656541c",
+    "original": "\"+d.m.capitalize(t.getCombatName(),!1)+\" doesn’t react in a meaningful way.",
     "translation": "",
-    "context": "<<POS:11207830>>"
+    "context": "<<POS:11207834>>"
   },
   {
-    "key": "combat|n_n_d_m_capitalize_t_getCombatName_1|dd75bc252065",
-    "original": "\\n\\n\"+d.m.capitalize(t.getCombatName(),!1)",
+    "key": "combat|d_m_capitalize_t_getCombatName_1|2483aa053e41",
+    "original": "\"+d.m.capitalize(t.getCombatName(),!1)",
     "translation": "",
-    "context": "<<POS:11207927>>"
+    "context": "<<POS:11207931>>"
   },
   {
-    "key": "combat|resist|d5a03193e9c9",
+    "key": "combat|resist|09188c95d575",
     "original": " resist",
     "translation": "",
     "context": "<<POS:11207996>>"
@@ -372,13 +378,7 @@
     "context": "<<POS:11208109>>"
   },
   {
-    "key": "combat|n_n|6988428b7326",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:11209164>>"
-  },
-  {
-    "key": "combat|d_m_capitalize_t_getCombatName_1_aren_t_visible_but_it_so|af26cb436275",
+    "key": "combat|d_m_capitalize_t_getCombatName_1_aren_t_visible_but_it_so|9380eae5f771",
     "original": "d.m.capitalize(t.getCombatName(),!1)+\" aren’t visible, but it sounds like they liked what they saw.",
     "translation": "",
     "context": "<<POS:11209397>>"
@@ -498,22 +498,22 @@
     "context": "<<POS:11212967>>"
   },
   {
-    "key": "combat|n_n_d_m_capitalize_t_getCombatName_1_seem_t_isPlural|efcfb9e32ee9",
-    "original": "\\n\\n\"+d.m.capitalize(t.getCombatName(),!1)+\" seem\"+(t.isPlural?\"\":\"s\")+\" to have become a bit distracted after your display, \"+(t.isPlural?\"their\":t.mfn(\"his\",\"her\",\"its\"))+\" movements faltering and less precise.",
+    "key": "combat|d_m_capitalize_t_getCombatName_1_seem_t_isPlural_s|d1c8b10fbe90",
+    "original": "\"+d.m.capitalize(t.getCombatName(),!1)+\" seem\"+(t.isPlural?\"\":\"s\")+\" to have become a bit distracted after your display, \"+(t.isPlural?\"their\":t.mfn(\"his\",\"her\",\"its\"))+\" movements faltering and less precise.",
     "translation": "",
-    "context": "<<POS:11213314>>"
+    "context": "<<POS:11213318>>"
   },
   {
-    "key": "combat|n_nYour_display_appears_to_have_shaken_the_d_m_possessive_t_g|38f4b18bef6a",
-    "original": "\\n\\nYour display appears to have shaken the \"+d.m.possessive(t.getCombatName())+\" resolve and impaired \"+(t.isPlural?\"their\":t.mfn(\"his\",\"her\",\"its\"))+\" aim; you can sense some hesitation in \"+(t.isPlural?\"their\":t.mfn(\"his\",\"her\",\"its\"))+\" very stance.",
+    "key": "combat|Your_display_appears_to_have_shaken_the_d_m_possessive_t_getCo|3d88299d7f59",
+    "original": "Your display appears to have shaken the \"+d.m.possessive(t.getCombatName())+\" resolve and impaired \"+(t.isPlural?\"their\":t.mfn(\"his\",\"her\",\"its\"))+\" aim; you can sense some hesitation in \"+(t.isPlural?\"their\":t.mfn(\"his\",\"her\",\"its\"))+\" very stance.",
     "translation": "",
-    "context": "<<POS:11213543>>"
+    "context": "<<POS:11213547>>"
   },
   {
-    "key": "combat|n_n_d_m_capitalize_t_getCombatName_1_seem_t_isPlural|ce2e38c9b891",
-    "original": "\\n\\n\"+d.m.capitalize(t.getCombatName(),!1)+\" seem\"+(t.isPlural?\"\":\"s\")+\" to have become distracted after \"+d.m.possessive(e.getCombatName())+\" display, \"+(t.isPlural?\"their\":t.mfn(\"his\",\"her\",\"its\"))+\" movements faltering and less precise.",
+    "key": "combat|d_m_capitalize_t_getCombatName_1_seem_t_isPlural_s|c78799877b46",
+    "original": "\"+d.m.capitalize(t.getCombatName(),!1)+\" seem\"+(t.isPlural?\"\":\"s\")+\" to have become distracted after \"+d.m.possessive(e.getCombatName())+\" display, \"+(t.isPlural?\"their\":t.mfn(\"his\",\"her\",\"its\"))+\" movements faltering and less precise.",
     "translation": "",
-    "context": "<<POS:11213813>>"
+    "context": "<<POS:11213817>>"
   },
   {
     "key": "combat|b_You_are_staggered_by_the_tease_b|72b532f8f2d6",

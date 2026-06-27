@@ -39,7 +39,7 @@
     "key": "button|Next|dd86a3fb474b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:11417087>>"
+    "context": "<<POS:11417087>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|Nudity_is_illegal_in_that_location_You_ll_have_to_cover_up_if_y|6ab2d08eeab1",
@@ -48,49 +48,97 @@
     "context": "<<POS:11417910>>"
   },
   {
-    "key": "output|n_nYou_can_try_your_luck_and_sneak_back_to_your_ship_if_you_are|099c5fab6828",
-    "original": "\\n\\nYou can try your luck and sneak back to your ship if you are daring...",
+    "key": "output|You_can_try_your_luck_and_sneak_back_to_your_ship_if_you_are_dar|b841a32d94f7",
+    "original": "You can try your luck and sneak back to your ship if you are daring...",
     "translation": "",
-    "context": "<<POS:11419537>>"
+    "context": "<<POS:11419541>>"
   },
   {
     "key": "button|Sneak_Back|fba4ac1fc43a",
     "original": "Sneak Back",
     "translation": "",
-    "context": "<<POS:11419627>>"
+    "context": "<<POS:11419627>> addButton(0,\"Sneak Back\",window.sneakBackYouNudist,\"Sneak Back\",\"Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.\")"
   },
   {
-    "key": "output|n_nDue_to_your_lack_of_coverage_you_can_call_for_an_emergency|51083f40f050",
-    "original": "\\n\\nDue to your lack of coverage, you can call for an emergency clothing drop to help with your situation--though it may cost you some credits if you choose to do so.",
+    "key": "button.hover|Sneak_Back|fba4ac1fc43a",
+    "original": "Sneak Back",
     "translation": "",
-    "context": "<<POS:11419796>>"
+    "context": "<<POS:11419666>> addButton(0,\"Sneak Back\",window.sneakBackYouNudist,\"Sneak Back\",\"Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.\")"
+  },
+  {
+    "key": "button.tooltip|Sneak_back_to_the_ship_Fuckin_prudes_It_might_take_you_a_coup|45377d60ecba",
+    "original": "Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.",
+    "translation": "",
+    "context": "<<POS:11419679>> addButton(0,\"Sneak Back\",window.sneakBackYouNudist,\"Sneak Back\",\"Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.\")"
+  },
+  {
+    "key": "output|Due_to_your_lack_of_coverage_you_can_call_for_an_emergency_clot|a2b442bdb7d4",
+    "original": "Due to your lack of coverage, you can call for an emergency clothing drop to help with your situation--though it may cost you some credits if you choose to do so.",
+    "translation": "",
+    "context": "<<POS:11419800>>"
   },
   {
     "key": "button|Help|4b70e0285fbf",
     "original": "Help!",
     "translation": "",
-    "context": "<<POS:11419978>>"
+    "context": "<<POS:11419978>> addButton(1,\"Help!\",window.dropNewClothes,\"Emergency Clothing Drop\",\"Call a drone to retrieve a new set of clothes.\")"
   },
   {
-    "key": "button|Back|84912b8ebb4b",
-    "original": "Back",
+    "key": "button.hover|Emergency_Clothing_Drop|e1c656d77f8e",
+    "original": "Emergency Clothing Drop",
     "translation": "",
-    "context": "<<POS:11420103>>"
+    "context": "<<POS:11420008>> addButton(1,\"Help!\",window.dropNewClothes,\"Emergency Clothing Drop\",\"Call a drone to retrieve a new set of clothes.\")"
   },
   {
-    "key": "button|Back|8377b4609270",
+    "key": "button.tooltip|Call_a_drone_to_retrieve_a_new_set_of_clothes|d59da0abc7e7",
+    "original": "Call a drone to retrieve a new set of clothes.",
+    "translation": "",
+    "context": "<<POS:11420034>> addButton(1,\"Help!\",window.dropNewClothes,\"Emergency Clothing Drop\",\"Call a drone to retrieve a new set of clothes.\")"
+  },
+  {
+    "key": "button|Back|ff5c8ec996bc",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:11437700>>"
+    "context": "<<POS:11420103>> addButton(14,\"Back\",(function(){return window.enterPCShip(!0)}))"
+  },
+  {
+    "key": "button.hover|You_are_already_on|786b829f4bb1",
+    "original": "You are already on ",
+    "translation": "",
+    "context": "<<POS:11437220>> addDisabledButton(a++,l,c,\"You are already on \".concat(null!==(r=n[t].long)&&void 0!==r?r:\"this floor\",\".\"))"
+  },
+  {
+    "key": "button.hover|Unable_to_go_to|41fb6fa39473",
+    "original": "Unable to go to ",
+    "translation": "",
+    "context": "<<POS:11437446>> addDisabledButton(a++,l,c,\"Unable to go to \".concat(n[t].long,\".\"))"
+  },
+  {
+    "key": "button|Back|e1f4002942db",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:11437700>> addButton(14,\"Back\",mainGameMenu)"
   },
   {
     "key": "button|Floors|5d0dc6754df4",
     "original": "Floors",
     "translation": "",
-    "context": "<<POS:11437784>>"
+    "context": "<<POS:11437784>> addButton(e,\"Floors\",t,\"Control Panel\",\"Ride the elevator to a specific floor.\")"
   },
   {
-    "key": "output|p_b_ERROR_attempted_to_extend_a_Log_Event_but_no_log_event_fo|fbcc2470e0bc",
+    "key": "button.hover|Control_Panel|094c6788726d",
+    "original": "Control Panel",
+    "translation": "",
+    "context": "<<POS:11437795>> addButton(e,\"Floors\",t,\"Control Panel\",\"Ride the elevator to a specific floor.\")"
+  },
+  {
+    "key": "button.tooltip|Ride_the_elevator_to_a_specific_floor|e858c719a147",
+    "original": "Ride the elevator to a specific floor.",
+    "translation": "",
+    "context": "<<POS:11437811>> addButton(e,\"Floors\",t,\"Control Panel\",\"Ride the elevator to a specific floor.\")"
+  },
+  {
+    "key": "output|p_b_ERROR_attempted_to_extend_a_Log_Event_but_no_log_event_fo|3342491ae63c",
     "original": "<p><b>ERROR: attempted to extend a Log Event but no log event found</b></p>",
     "translation": "",
     "context": "<<POS:11438431>>"

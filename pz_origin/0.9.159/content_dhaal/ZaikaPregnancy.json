@@ -3,7 +3,7 @@
     "key": "perk|Evasive|ccf10722451d",
     "original": "Evasive",
     "translation": "",
-    "context": "<<POS:05564129>>"
+    "context": "<<POS:05564129>> createPerk(\"Evasive\",35,50)"
   },
   {
     "key": "combat|You_barely_avoid_getting_pinned_to_the_wall_nShe_recoils_back|0aef278b3aff",
@@ -24,19 +24,19 @@
     "context": "<<POS:05566685>>"
   },
   {
-    "key": "combat|n_b_You_are_staggered_b|962fd3a42b16",
-    "original": "\\n<b>You are staggered!</b>",
+    "key": "combat|b_You_are_staggered_b|e37d69af5f88",
+    "original": "<b>You are staggered!</b>",
     "translation": "",
-    "context": "<<POS:05566949>>"
+    "context": "<<POS:05566951>>"
   },
   {
-    "key": "combat|n_b_e_getCombatName_is_staggered_b|678bf11354aa",
-    "original": "\\n<b>\"+e.getCombatName()+\" is staggered!</b>",
+    "key": "combat|b_e_getCombatName_is_staggered_b|52cd89af45d6",
+    "original": "<b>\"+e.getCombatName()+\" is staggered!</b>",
     "translation": "",
-    "context": "<<POS:05566993>>"
+    "context": "<<POS:05566995>>"
   },
   {
-    "key": "combat|Miss|9637a29d3238",
+    "key": "combat|Miss|35e9931dbc40",
     "original": " Miss!",
     "translation": "",
     "context": "<<POS:05567312>>"
@@ -60,10 +60,16 @@
     "context": "<<POS:05567651>>"
   },
   {
-    "key": "combat|n_Ot_m_capitalize_n_getCombatName_1_reel_PlayerCharac|1f2b084c5b12",
-    "original": "\\n\"+Ot.m.capitalize(n.getCombatName(),!1)+\" reel\"+(\"PlayerCharacter\"===n.getClassName()||n.isPlural?\"\":\"s\")+\" from the heat!",
+    "key": "textify|The_hazard_suit_trooper_thumps_her_plasma_torch_against_her_thig|5fd62d1128cf",
+    "original": "The hazard suit trooper thumps her plasma torch against her thigh, one-handedly toggling a switch. <i>“Back off,”</i> she growls, lifting it to hose out a wash of staggeringly brilliant plasma.",
     "translation": "",
-    "context": "<<POS:05576181>>"
+    "context": "<<POS:05575677>>"
+  },
+  {
+    "key": "combat|Ot_m_capitalize_n_getCombatName_1_reel_PlayerCharacte|7c8de009a7fd",
+    "original": "\"+Ot.m.capitalize(n.getCombatName(),!1)+\" reel\"+(\"PlayerCharacter\"===n.getClassName()||n.isPlural?\"\":\"s\")+\" from the heat!",
+    "translation": "",
+    "context": "<<POS:05576183>>"
   },
   {
     "key": "combat|b_Ot_m_capitalize_n_getCombatPronoun_heshe_PlayerC|6f39c4a027fc",
@@ -72,16 +78,22 @@
     "context": "<<POS:05576498>>"
   },
   {
-    "key": "combat|nHot_metal_slams_into_a_getCombatName|d937294d99de",
-    "original": "\\nHot metal slams into \"+a.getCombatName()+\"!",
+    "key": "textify|Enraged_as_her_suit_s_seals_are_breached_the_hazard_suit_troope|c7f77ff97082",
+    "original": "Enraged as her suit’s seals are breached, the hazard suit trooper sweeps her rivet-gun around the room, unleashing an unavoidable spray!",
     "translation": "",
-    "context": "<<POS:05577181>>"
+    "context": "<<POS:05576803>>"
   },
   {
-    "key": "combat|n_nNo_amount_of_rivets_can_conceal_the_fact_that_b_she_s_breat|6b05ba4d2165",
-    "original": "\\n\\nNo amount of rivets can conceal the fact that <b>she’s breathing her own gas grenades</b> now...",
+    "key": "combat|Hot_metal_slams_into_a_getCombatName|f3162e345686",
+    "original": "Hot metal slams into \"+a.getCombatName()+\"!",
     "translation": "",
-    "context": "<<POS:05577415>>"
+    "context": "<<POS:05577183>>"
+  },
+  {
+    "key": "combat|No_amount_of_rivets_can_conceal_the_fact_that_b_she_s_breathing|52a0c825caed",
+    "original": "No amount of rivets can conceal the fact that <b>she’s breathing her own gas grenades</b> now...",
+    "translation": "",
+    "context": "<<POS:05577419>>"
   },
   {
     "key": "combat|b_Rivet_restrained_further_b|d71cf491929f",
@@ -90,10 +102,10 @@
     "context": "<<POS:05577767>>"
   },
   {
-    "key": "combat|n_b_Ot_m_capitalize_e_getCombatName_1_PlayerCharact|41d1bb1c7b9c",
-    "original": "\\n<b>\"+Ot.m.capitalize(e.getCombatName(),!1)+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"have \"+e.getCombatPronoun(\"hisher\"):\"has \"+e.getCombatPronoun(\"hisher\"))+\" evasion reduced by the embedded rivets!</b>",
+    "key": "combat|b_Ot_m_capitalize_e_getCombatName_1_PlayerCharacter|b3c4a3ec6449",
+    "original": "<b>\"+Ot.m.capitalize(e.getCombatName(),!1)+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"have \"+e.getCombatPronoun(\"hisher\"):\"has \"+e.getCombatPronoun(\"hisher\"))+\" evasion reduced by the embedded rivets!</b>",
     "translation": "",
-    "context": "<<POS:05577817>>"
+    "context": "<<POS:05577819>>"
   },
   {
     "key": "combat|She_misses_skidding_to_a_halt_in_frustration|3e873fe097d0",
@@ -102,13 +114,13 @@
     "context": "<<POS:05578328>>"
   },
   {
-    "key": "combat|n_nOuch|d11e7b243a8b",
-    "original": "\\n\\nOuch!",
+    "key": "combat|Ouch|a12902be16ad",
+    "original": "Ouch!",
     "translation": "",
-    "context": "<<POS:05578393>>"
+    "context": "<<POS:05578397>>"
   },
   {
-    "key": "combat|b_Ot_m_capitalize_e_getCombatPronoun_he_is_staggered|244c750fa1af",
+    "key": "combat|b_Ot_m_capitalize_e_getCombatPronoun_he_is_staggered|0a8decd50eec",
     "original": " <b>\"+Ot.m.capitalize(e.getCombatPronoun(\"he is\"))+\" staggered!</b>",
     "translation": "",
     "context": "<<POS:05578588>>"
@@ -120,16 +132,16 @@
     "context": "<<POS:05579088>>"
   },
   {
-    "key": "combat|n_b_It_burns_b|cde9b3bb3afc",
-    "original": "\\n<b>It burns!</b>",
+    "key": "combat|b_It_burns_b|b0e769d54ceb",
+    "original": "<b>It burns!</b>",
     "translation": "",
-    "context": "<<POS:05579469>>"
+    "context": "<<POS:05579471>>"
   },
   {
-    "key": "perk|Juggernaut|3fc3d499da74",
+    "key": "perk|Juggernaut|1ba4d2d4cc82",
     "original": "Juggernaut",
     "translation": "",
-    "context": "<<POS:05599693>>"
+    "context": "<<POS:05599693>> createPerk(\"Juggernaut\")"
   },
   {
     "key": "desc.long|Fabricator_Marshal_Rizzon_Zau_stands_before_you_or_her_body_a|0d97eb356ecc",
@@ -144,10 +156,10 @@
     "context": "<<POS:05601969>>"
   },
   {
-    "key": "combat|n_PlayerCharacter_e_getClassName_You_dive_e_getCombat|ba9e237076ca",
-    "original": "\\n\"+(\"PlayerCharacter\"===e.getClassName()?\"You dive\":e.getCombatName()+\" dives\")+\" through her legs at the last second.",
+    "key": "combat|PlayerCharacter_e_getClassName_You_dive_e_getCombatNa|7e6c546052da",
+    "original": "\"+(\"PlayerCharacter\"===e.getClassName()?\"You dive\":e.getCombatName()+\" dives\")+\" through her legs at the last second.",
     "translation": "",
-    "context": "<<POS:05604240>>"
+    "context": "<<POS:05604242>>"
   },
   {
     "key": "combat|She_hits|3092ecefbe8c",
@@ -156,37 +168,37 @@
     "context": "<<POS:05604377>>"
   },
   {
-    "key": "combat|n_PlayerCharacter_n_getClassName_Ow_Ot_m_capitalize|3d29cc1a6ea6",
-    "original": "\\n\"+(\"PlayerCharacter\"===n.getClassName()?\"Ow!\":Ot.m.capitalize(n.getCombatName())+\" can’t dodge Zau’s voice!\")",
+    "key": "combat|PlayerCharacter_n_getClassName_Ow_Ot_m_capitalize_n|a2f864d13f4b",
+    "original": "\"+(\"PlayerCharacter\"===n.getClassName()?\"Ow!\":Ot.m.capitalize(n.getCombatName())+\" can’t dodge Zau’s voice!\")",
     "translation": "",
-    "context": "<<POS:05604993>>"
+    "context": "<<POS:05604995>>"
   },
   {
-    "key": "combat|nThe_overheating_weapon_seizes_up_with_a_horrendous_screech_b|818747048d2d",
-    "original": "\\nThe overheating weapon seizes up with a horrendous screech. <b>Zau’s overloaded weapon can no longer fire!</b>",
+    "key": "combat|The_overheating_weapon_seizes_up_with_a_horrendous_screech_b_Z|fcb0f24d964a",
+    "original": "The overheating weapon seizes up with a horrendous screech. <b>Zau’s overloaded weapon can no longer fire!</b>",
     "translation": "",
-    "context": "<<POS:05606629>>"
+    "context": "<<POS:05606631>>"
   },
   {
-    "key": "combat|n_Ot_m_capitalize_n_getCombatName_PlayerCharacter|d11e60cc518b",
-    "original": "\\n\"+Ot.m.capitalize(n.getCombatName())+\" \"+(\"PlayerCharacter\"===n.getClassName()||n.isPlural?\"are\":\"is\")+\" shocked!",
+    "key": "combat|Ot_m_capitalize_n_getCombatName_PlayerCharacter_n|65c3fcd16b29",
+    "original": "\"+Ot.m.capitalize(n.getCombatName())+\" \"+(\"PlayerCharacter\"===n.getClassName()||n.isPlural?\"are\":\"is\")+\" shocked!",
     "translation": "",
-    "context": "<<POS:05607965>>"
+    "context": "<<POS:05607967>>"
   },
   {
-    "key": "combat|n_PlayerCharacter_e_getClassName_You_dodge_e_getComba|35d612bda201",
-    "original": "\\n\"+(\"PlayerCharacter\"===e.getClassName()?\"You dodge\":e.getCombatName()+\" dodges\")+\", and Zau pivots with the aid of back-mounted thrusters to face \"+e.getCombatName()+\" once more!",
+    "key": "combat|PlayerCharacter_e_getClassName_You_dodge_e_getCombatN|aef1facbde44",
+    "original": "\"+(\"PlayerCharacter\"===e.getClassName()?\"You dodge\":e.getCombatName()+\" dodges\")+\", and Zau pivots with the aid of back-mounted thrusters to face \"+e.getCombatName()+\" once more!",
     "translation": "",
-    "context": "<<POS:05609329>>"
+    "context": "<<POS:05609331>>"
   },
   {
-    "key": "combat|nShe_connects|93c006239bd2",
-    "original": "\\nShe connects!",
+    "key": "combat|She_connects|1327a70ba9ef",
+    "original": "She connects!",
     "translation": "",
-    "context": "<<POS:05609527>>"
+    "context": "<<POS:05609529>>"
   },
   {
-    "key": "combat|But_she_didn_t_count_on_slamming_into_an_even_stouter_foe_Z|5cc4bdf38b03",
+    "key": "combat|But_she_didn_t_count_on_slamming_into_an_even_stouter_foe_Z|9e8c4a9a92c6",
     "original": " ...But she didn’t count on slamming into an even stouter foe! Zau deflects off to one side with a wince, <b>staggered!</b>",
     "translation": "",
     "context": "<<POS:05609701>>"
@@ -204,87 +216,87 @@
     "context": "<<POS:05610081>>"
   },
   {
-    "key": "combat|n_Ot_m_capitalize_e_getCombatName_PlayerCharacter|3b135fad826b",
-    "original": "\\n\"+Ot.m.capitalize(e.getCombatName())+\" \"+(\"PlayerCharacter\"!==e.getClassName()&&e.isPlural?\"dodge\":\"dodges\")+\" aside. The microgrenade flashes into nothingness, robbed of its purpose.",
+    "key": "combat|Ot_m_capitalize_e_getCombatName_PlayerCharacter_e|6b9338a14ac4",
+    "original": "\"+Ot.m.capitalize(e.getCombatName())+\" \"+(\"PlayerCharacter\"!==e.getClassName()&&e.isPlural?\"dodge\":\"dodges\")+\" aside. The microgrenade flashes into nothingness, robbed of its purpose.",
     "translation": "",
-    "context": "<<POS:05610510>>"
+    "context": "<<POS:05610512>>"
   },
   {
-    "key": "combat|nIt_flies_true_flashing_with_fizzing_shield_obliterating_ligh|58a26916c735",
-    "original": "\\nIt flies true, flashing with fizzing, shield-obliterating light against \"+e.getCombatName()+\"!",
+    "key": "combat|It_flies_true_flashing_with_fizzing_shield_obliterating_light|2af05b705010",
+    "original": "It flies true, flashing with fizzing, shield-obliterating light against \"+e.getCombatName()+\"!",
     "translation": "",
-    "context": "<<POS:05610713>>"
+    "context": "<<POS:05610715>>"
   },
   {
-    "key": "combat|n_concat_Ot_m_capitalize_n_getCombatName_concat_Playe|c73e6efb8d66",
-    "original": "\\n\".concat(Ot.m.capitalize(n.getCombatName()),\" \").concat(\"PlayerCharacter\"===n.getClassName()||n.isPlural?\"are\":\"is\",\" immune from being blinded!\")",
+    "key": "combat|concat_Ot_m_capitalize_n_getCombatName_concat_PlayerC|bf5e943eed2d",
+    "original": "\".concat(Ot.m.capitalize(n.getCombatName()),\" \").concat(\"PlayerCharacter\"===n.getClassName()||n.isPlural?\"are\":\"is\",\" immune from being blinded!\")",
     "translation": "",
-    "context": "<<POS:05611309>>"
+    "context": "<<POS:05611311>>"
   },
   {
-    "key": "combat|n_Ot_m_capitalize_n_getCombatName_close_PlayerCharacte|13b27ed5e58f",
-    "original": "\\n\"+Ot.m.capitalize(n.getCombatName())+\" close\"+(\"PlayerCharacter\"===n.getClassName()?\" your\":\"s \"+n.getCombatPronoun(\"hisher\"))+\" eyes in time to prevent from being blinded!",
+    "key": "combat|Ot_m_capitalize_n_getCombatName_close_PlayerCharacter|89e4ae69ec20",
+    "original": "\"+Ot.m.capitalize(n.getCombatName())+\" close\"+(\"PlayerCharacter\"===n.getClassName()?\" your\":\"s \"+n.getCombatPronoun(\"hisher\"))+\" eyes in time to prevent from being blinded!",
     "translation": "",
-    "context": "<<POS:05611516>>"
+    "context": "<<POS:05611518>>"
   },
   {
-    "key": "combat|n_b_Ot_m_capitalize_n_getCombatName_PlayerCharacter|4f31f38fb2f4",
-    "original": "\\n<b>\"+Ot.m.capitalize(n.getCombatName())+\" \"+(\"PlayerCharacter\"===n.getClassName()||n.isPlural?\"are\":\"is\")+\" blinded</b> by the brilliant flashes!",
+    "key": "combat|b_Ot_m_capitalize_n_getCombatName_PlayerCharacter|54cc67e9b607",
+    "original": "<b>\"+Ot.m.capitalize(n.getCombatName())+\" \"+(\"PlayerCharacter\"===n.getClassName()||n.isPlural?\"are\":\"is\")+\" blinded</b> by the brilliant flashes!",
     "translation": "",
-    "context": "<<POS:05611708>>"
+    "context": "<<POS:05611710>>"
   },
   {
-    "key": "combat|n_Ot_m_capitalize_n_getCombatName_keep_n_getCombatPronou|e2f84b0f1345",
-    "original": "\\n\"+Ot.m.capitalize(n.getCombatName())+\" keep\"+n.getCombatPronoun(\"hisher\")+\" wits about \"+n.getCombatPronoun(\"himher\")+\".",
+    "key": "combat|Ot_m_capitalize_n_getCombatName_keep_n_getCombatPronoun|0385754847ed",
+    "original": "\"+Ot.m.capitalize(n.getCombatName())+\" keep\"+n.getCombatPronoun(\"hisher\")+\" wits about \"+n.getCombatPronoun(\"himher\")+\".",
     "translation": "",
-    "context": "<<POS:05611937>>"
+    "context": "<<POS:05611939>>"
   },
   {
-    "key": "combat|n_b_Ot_m_capitalize_n_getCombatName_PlayerCharacter|588387b22c91",
-    "original": "\\n<b>\"+Ot.m.capitalize(n.getCombatName())+\" \"+(\"PlayerCharacter\"===n.getClassName()?\"are\":\"is\")+\" stunned</b> by the concussive shockwaves!",
+    "key": "combat|b_Ot_m_capitalize_n_getCombatName_PlayerCharacter|24ea717b2667",
+    "original": "<b>\"+Ot.m.capitalize(n.getCombatName())+\" \"+(\"PlayerCharacter\"===n.getClassName()?\"are\":\"is\")+\" stunned</b> by the concussive shockwaves!",
     "translation": "",
-    "context": "<<POS:05612077>>"
+    "context": "<<POS:05612079>>"
   },
   {
-    "key": "combat|nMiraculously_e_getCombatName_manage_PlayerCharacter|d8bc5f085d7b",
-    "original": "\\nMiraculously, \"+e.getCombatName()+\" manage\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" to roll aside on the rapidly cratering floor, grazed by fragments of shattering concrete.",
+    "key": "combat|Miraculously_e_getCombatName_manage_PlayerCharacter|6dfaf550405a",
+    "original": "Miraculously, \"+e.getCombatName()+\" manage\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" to roll aside on the rapidly cratering floor, grazed by fragments of shattering concrete.",
     "translation": "",
-    "context": "<<POS:05613133>>"
+    "context": "<<POS:05613135>>"
   },
   {
-    "key": "combat|n_b_Ow_b|47a218f6a37c",
-    "original": "\\n<b>Ow.</b>",
+    "key": "combat|b_Ow_b|312da797734a",
+    "original": "<b>Ow.</b>",
     "translation": "",
-    "context": "<<POS:05613487>>"
+    "context": "<<POS:05613489>>"
   },
   {
-    "key": "combat|n_Ot_m_capitalize_e_getClassName_takes_the_hit_Ouch|acc93e9b6bac",
-    "original": "\\n\"+Ot.m.capitalize(e.getClassName())+\" takes the hit. Ouch!",
+    "key": "combat|Ot_m_capitalize_e_getClassName_takes_the_hit_Ouch|62187830b3dd",
+    "original": "\"+Ot.m.capitalize(e.getClassName())+\" takes the hit. Ouch!",
     "translation": "",
-    "context": "<<POS:05613516>>"
+    "context": "<<POS:05613518>>"
   },
   {
-    "key": "combat|nYou_wisely_hold_your_breath_before_the_gas_grenade_can_even_be|b89cb3f17e5d",
-    "original": "\\nYou wisely hold your breath before the gas grenade can even begin to spew its drugged payload, then kick it away to an empty corner.",
+    "key": "combat|You_wisely_hold_your_breath_before_the_gas_grenade_can_even_begi|217c9ef6a7fa",
+    "original": "You wisely hold your breath before the gas grenade can even begin to spew its drugged payload, then kick it away to an empty corner.",
     "translation": "",
-    "context": "<<POS:05613983>>"
+    "context": "<<POS:05613985>>"
   },
   {
-    "key": "combat|n_Ot_m_capitalize_e_getCombatName_smartly_hold_e_isPlur|de465ad9a2ba",
-    "original": "\\n\"+Ot.m.capitalize(e.getCombatName())+\" smartly hold\"+(e.isPlural?\" their\":\"s \"+e.mfn(\"his\",\"her\",\"its\"))+\" breath before the gas grenade can begin to spew its noxious payload, and kicks it away to a corner.",
+    "key": "combat|Ot_m_capitalize_e_getCombatName_smartly_hold_e_isPlural|6b5668817ff4",
+    "original": "\"+Ot.m.capitalize(e.getCombatName())+\" smartly hold\"+(e.isPlural?\" their\":\"s \"+e.mfn(\"his\",\"her\",\"its\"))+\" breath before the gas grenade can begin to spew its noxious payload, and kicks it away to a corner.",
     "translation": "",
-    "context": "<<POS:05614134>>"
+    "context": "<<POS:05614136>>"
   },
   {
-    "key": "combat|nYou_kick_away_the_obvious_grenade_but_not_before_accidentally|22d558d0cfb2",
-    "original": "\\nYou kick away the obvious grenade, but not before accidentally inhaling a bit of the tranquilizing gas it spews. <b>You are tranquilized!</b>",
+    "key": "combat|You_kick_away_the_obvious_grenade_but_not_before_accidentally_i|7274bddde4ed",
+    "original": "You kick away the obvious grenade, but not before accidentally inhaling a bit of the tranquilizing gas it spews. <b>You are tranquilized!</b>",
     "translation": "",
-    "context": "<<POS:05614397>>"
+    "context": "<<POS:05614399>>"
   },
   {
-    "key": "combat|n_Ot_m_capitalize_e_getCombatName_kick_e_isPlural_s|e038f892e111",
-    "original": "\\n\"+Ot.m.capitalize(e.getCombatName())+\" kick\"+(e.isPlural?\"\":\"s\")+\" away the grenade but still inhale\"+(e.isPlural?\"\":\"s\")+\" wisps of its spraying vapors. <b>\"+(e.isPlural?\"They are\":e.mfn(\"He\",\"She\",\"It\")+\" is\")+\" tranquilized!</b>",
+    "key": "combat|Ot_m_capitalize_e_getCombatName_kick_e_isPlural_s|c00a734cf9ab",
+    "original": "\"+Ot.m.capitalize(e.getCombatName())+\" kick\"+(e.isPlural?\"\":\"s\")+\" away the grenade but still inhale\"+(e.isPlural?\"\":\"s\")+\" wisps of its spraying vapors. <b>\"+(e.isPlural?\"They are\":e.mfn(\"He\",\"She\",\"It\")+\" is\")+\" tranquilized!</b>",
     "translation": "",
-    "context": "<<POS:05614557>>"
+    "context": "<<POS:05614559>>"
   }
 ]

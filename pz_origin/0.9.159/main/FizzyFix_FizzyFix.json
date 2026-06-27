@@ -3,7 +3,7 @@
     "key": "name.show|FizzyFix|a8e9a45d019c",
     "original": "FizzyFix",
     "translation": "",
-    "context": "<<POS:08164180>>"
+    "context": "<<POS:08164180>> showName(\"FizzyFix\")"
   },
   {
     "key": "output|When_you_grasp_the_pill_your_codex_beeps_informing_you_of_extr|7bafc7ed9b4f",
@@ -12,31 +12,43 @@
     "context": "<<POS:08164221>>"
   },
   {
-    "key": "output|n_nAre_you_sure_you_want_to_continue_to_use_the_item|2b954fe09b59",
-    "original": "\\n\\nAre you sure you want to continue to use the item?",
+    "key": "output|Are_you_sure_you_want_to_continue_to_use_the_item|afdbe82c6eab",
+    "original": "Are you sure you want to continue to use the item?",
     "translation": "",
-    "context": "<<POS:08164413>>"
+    "context": "<<POS:08164417>>"
   },
   {
     "key": "button|Yes|8fdada2cd6b2",
     "original": "Yes",
     "translation": "",
-    "context": "<<POS:08164524>>"
+    "context": "<<POS:08164524>> addButton(0,\"Yes\",(function(){return t.vagMenu(e,t)}))"
   },
   {
     "key": "button|No|1c655db5490a",
     "original": "No",
     "translation": "",
-    "context": "<<POS:08164579>>"
+    "context": "<<POS:08164579>> addButton(1,\"No\",(function(){return t.itemCancel(t)}))"
   },
   {
     "key": "button|Codex|91b41cee8132",
     "original": "Codex",
     "translation": "",
-    "context": "<<POS:08164634>>"
+    "context": "<<POS:08164634>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.yx)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),t.vagMenu(e,t)})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View the Codex entry for FizzyFix.\")"
   },
   {
-    "key": "output|e_capitalA_e_short_swallows_the_FizzyFix_pill_but_to_no_effect|42422c5b38ad",
+    "key": "button.hover|Codex_Entry|5e6f1989329b",
+    "original": "Codex Entry",
+    "translation": "",
+    "context": "<<POS:08164824>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.yx)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),t.vagMenu(e,t)})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View the Codex entry for FizzyFix.\")"
+  },
+  {
+    "key": "button.tooltip|View_the_Codex_entry_for_FizzyFix|b42c0a914f2e",
+    "original": "View the Codex entry for FizzyFix.",
+    "translation": "",
+    "context": "<<POS:08164838>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.yx)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),t.vagMenu(e,t)})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View the Codex entry for FizzyFix.\")"
+  },
+  {
+    "key": "output|e_capitalA_e_short_swallows_the_FizzyFix_pill_but_to_no_effect|3a7097ce95ab",
     "original": "e.capitalA+e.short+\" swallows the FizzyFix pill but to no effect.",
     "translation": "",
     "context": "<<POS:08164901>>"
@@ -45,25 +57,25 @@
     "key": "name.show|FizzyFix|4f2c6dce9e28",
     "original": "FizzyFix",
     "translation": "",
-    "context": "<<POS:08165048>>"
+    "context": "<<POS:08165048>> showName(\"FizzyFix\")"
   },
   {
-    "key": "output|You_put_the_pill_back_into_your_inventory_n_n|775a88c0e298",
-    "original": "You put the pill back into your inventory.\\n\\n",
+    "key": "output|You_put_the_pill_back_into_your_inventory|06a9214b3cdc",
+    "original": "You put the pill back into your inventory.",
     "translation": "",
     "context": "<<POS:08165089>>"
   },
   {
-    "key": "button|Next|37e601a2b5bc",
+    "key": "button|Next|5c2987c1c774",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08165180>>"
+    "context": "<<POS:08165180>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
   },
   {
     "key": "name.show|FizzyFix|806730f4422c",
     "original": "FizzyFix",
     "translation": "",
-    "context": "<<POS:08165407>>"
+    "context": "<<POS:08165407>> showName(\"FizzyFix\")"
   },
   {
     "key": "output|If_you_are_not_mistaken_you_ll_need_to_have_a_vagina_before_you|deeee906dd38",
@@ -81,13 +93,13 @@
     "key": "button|Next|462860503fa9",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08165681>>"
+    "context": "<<POS:08165681>> addButton(0,\"Next\",(function(){return o.itemCancel(t)}))"
   },
   {
     "key": "name.show|FizzyFix|806730f4422c#1",
     "original": "FizzyFix",
     "translation": "",
-    "context": "<<POS:08165787>>"
+    "context": "<<POS:08165787>> showName(\"FizzyFix\")"
   },
   {
     "key": "output|blockHeader_Choose_Vagina|95decece0d80",
@@ -96,16 +108,16 @@
     "context": "<<POS:08165805>>"
   },
   {
-    "key": "output|You_have_more_than_one_vagina_Which_one_will_you_insert_with_th|47a6d7a91df2",
-    "original": "You have more than one vagina. Which one will you insert with the FizzyFix?\\n",
+    "key": "output|You_have_more_than_one_vagina_Which_one_will_you_insert_with_th|1e60dac9a077",
+    "original": "You have more than one vagina. Which one will you insert with the FizzyFix?",
     "translation": "",
     "context": "<<POS:08165877>>"
   },
   {
-    "key": "output|n_b_l_m_capitalize_l_m_numToOrdinal_a_1_Vagina_b|9516accb457d",
-    "original": "\\n<b>\"+l.m.capitalize(l.m.numToOrdinal(a+1))+\" Vagina:</b>",
+    "key": "output|b_l_m_capitalize_l_m_numToOrdinal_a_1_Vagina_b|ea39fe001292",
+    "original": "<b>\"+l.m.capitalize(l.m.numToOrdinal(a+1))+\" Vagina:</b>",
     "translation": "",
-    "context": "<<POS:08165990>>"
+    "context": "<<POS:08165992>>"
   },
   {
     "key": "output|GLOBAL_FLAG_NAMES_e_vaginas_a_flags_n|02e49739a1b2",
@@ -129,19 +141,25 @@
     "key": "button|Vagina|2e582aa36237",
     "original": "Vagina ",
     "translation": "",
-    "context": "<<POS:08166333>>"
+    "context": "<<POS:08166333>> addButton(a,\"Vagina \"+(a+1),(function(){return o.useTF(e,a,t)}),l.m.capitalize(l.m.numToOrdinal(a+1))+\" Vagina\",\"Use this on your [pc.vagina \"+a+\"].\")"
   },
   {
-    "key": "button|Back|0ef15c846aee",
+    "key": "button.tooltip|Use_this_on_your_pc_vagina|26af953c5a2c",
+    "original": "Use this on your [pc.vagina ",
+    "translation": "",
+    "context": "<<POS:08166433>> addButton(a,\"Vagina \"+(a+1),(function(){return o.useTF(e,a,t)}),l.m.capitalize(l.m.numToOrdinal(a+1))+\" Vagina\",\"Use this on your [pc.vagina \"+a+\"].\")"
+  },
+  {
+    "key": "button|Back|e4e4d6d0df61",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:08166518>>"
+    "context": "<<POS:08166518>> addButton(14,\"Back\",(function(){return o.itemCancel(t)}))"
   },
   {
     "key": "name.show|FizzyFix|5e0ae6af7fb7",
     "original": "FizzyFix",
     "translation": "",
-    "context": "<<POS:08166659>>"
+    "context": "<<POS:08166659>> showName(\"FizzyFix\")"
   },
   {
     "key": "output|The_wonderfully_perverse_oral_muscle_that_the_Muffstick_gifted|13134063c622",
@@ -150,13 +168,7 @@
     "context": "<<POS:08166742>>"
   },
   {
-    "key": "output|n_n|f154567285ae",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08166894>>"
-  },
-  {
-    "key": "output|Before_you_begin_however_you_look_around_for_a_bit_searching|e23c1856fc8c",
+    "key": "output|Before_you_begin_however_you_look_around_for_a_bit_searching|c4d364f5a3ae",
     "original": "Before you begin, however, you look around for a bit, searching for someplace comfortable",
     "translation": "",
     "context": "<<POS:08166930>>"
@@ -192,22 +204,22 @@
     "context": "<<POS:08167292>>"
   },
   {
-    "key": "output|n_nAfter_finding_a_nice_spot_you_activate_the_codex_s_camera_d|820b364d489b",
-    "original": "\\n\\nAfter finding a nice spot, you activate the codex’s camera-display app and set it up on the ground, giving you an ultra HD view of your [pc.vagina \"+t+\"]. Next, you follow the simple instructions given by the Muffstick’s pamphlet and insert the gray pill in your pussy.",
+    "key": "output|After_finding_a_nice_spot_you_activate_the_codex_s_camera_displ|c49284bcdf1a",
+    "original": "After finding a nice spot, you activate the codex’s camera-display app and set it up on the ground, giving you an ultra HD view of your [pc.vagina \"+t+\"]. Next, you follow the simple instructions given by the Muffstick’s pamphlet and insert the gray pill in your pussy.",
     "translation": "",
-    "context": "<<POS:08167320>>"
+    "context": "<<POS:08167324>>"
   },
   {
-    "key": "output|n_nThe_FizzyFix_starts_melting_the_second_it_touches_your_tong|1c0db531401b",
-    "original": "\\n\\nThe FizzyFix starts melting the second it touches your ‘tongue’, quickly spreading its gray microsurgeons all over the perverse organ. In contrast to the scorching heat you felt when it was created, the process feels rather chilly, making you shiver a bit as the remainder of the licker gets covered. Afterwards, while waiting for the microsurgeons to begin their work, you wonder momentarily how they’re going to proceed this time before you register a fizzy sensation in your canal. Suddenly, your entire tongue feels like it’s been covered in cosmic candy, with tiny bubbles rapidly forming and popping throughout it. Slightly numbed by the gray coating, you’re only able to sense slight tingles along your usually extremely sensitive tongue. ",
+    "key": "output|The_FizzyFix_starts_melting_the_second_it_touches_your_tongue|70df0ef87eaf",
+    "original": "The FizzyFix starts melting the second it touches your ‘tongue’, quickly spreading its gray microsurgeons all over the perverse organ. In contrast to the scorching heat you felt when it was created, the process feels rather chilly, making you shiver a bit as the remainder of the licker gets covered. Afterwards, while waiting for the microsurgeons to begin their work, you wonder momentarily how they’re going to proceed this time before you register a fizzy sensation in your canal. Suddenly, your entire tongue feels like it’s been covered in cosmic candy, with tiny bubbles rapidly forming and popping throughout it. Slightly numbed by the gray coating, you’re only able to sense slight tingles along your usually extremely sensitive tongue. ",
     "translation": "",
-    "context": "<<POS:08167604>>"
+    "context": "<<POS:08167608>>"
   },
   {
-    "key": "output|n_nYou_can_see_it_gradually_melting_away_and_mixing_with_your|f1abe66e7daa",
-    "original": "\\n\\nYou can see it gradually melting away and mixing with your [pc.girlCum] before being expelled out of your ecstatically convulsing vagina. The strange sight reminds you of foam being washed away by the shore. It doesn’t even take a minute before your tongue has completely vanished. You briefly miss having an extra erogenous organ in your [pc.vagina \"+t+\"], but console yourself with the knowledge that should you ever feel the need to get it back, it’s but an application of Muffstick away.",
+    "key": "output|You_can_see_it_gradually_melting_away_and_mixing_with_your_pc_g|52ece010e43e",
+    "original": "You can see it gradually melting away and mixing with your [pc.girlCum] before being expelled out of your ecstatically convulsing vagina. The strange sight reminds you of foam being washed away by the shore. It doesn’t even take a minute before your tongue has completely vanished. You briefly miss having an extra erogenous organ in your [pc.vagina \"+t+\"], but console yourself with the knowledge that should you ever feel the need to get it back, it’s but an application of Muffstick away.",
     "translation": "",
-    "context": "<<POS:08168365>>"
+    "context": "<<POS:08168369>>"
   },
   {
     "key": "output|Nether_lips_already_fully_accessible_you|f95ca1c05a7d",
@@ -246,22 +258,22 @@
     "context": "<<POS:08169211>>"
   },
   {
-    "key": "output|n_nThe_gray_pill_melts_upon_first_contact_with_your_pc_girlCum|77f37b5a91b4",
-    "original": "\\n\\nThe gray pill melts upon first contact with your [pc.girlCum] and drips into your tunnel, swiftly coating it. A short while afterwards you suddenly feel all fizzy downstairs. The sensation is just like eating cosmic candy, if the point of those was experiencing some kind of perverse and slightly masochistic pleasure. With every pop you feel a slight almost electrical tingle that instantly develops into a short wave of pleasure.",
+    "key": "output|The_gray_pill_melts_upon_first_contact_with_your_pc_girlCum_an|336a1a8373b2",
+    "original": "The gray pill melts upon first contact with your [pc.girlCum] and drips into your tunnel, swiftly coating it. A short while afterwards you suddenly feel all fizzy downstairs. The sensation is just like eating cosmic candy, if the point of those was experiencing some kind of perverse and slightly masochistic pleasure. With every pop you feel a slight almost electrical tingle that instantly develops into a short wave of pleasure.",
     "translation": "",
-    "context": "<<POS:08169311>>"
+    "context": "<<POS:08169315>>"
   },
   {
-    "key": "output|n_nThe_sensations_of_tiny_explosions_of_ecstasy_rapidly_releasi|06ca410c176d",
-    "original": "\\n\\nThe sensations of tiny explosions of ecstasy rapidly releasing inside of you soon start to accumulate into larger waves of euphoria, spreading throughout your entire body all the way up to your head, filling it with cravings for more. Never have you thought that fizzing candy could sound so sexy, so delightful, as you let yourself be engulfed by the combined efforts of the increasingly active microsurgeons.",
+    "key": "output|The_sensations_of_tiny_explosions_of_ecstasy_rapidly_releasing_i|aff68215e1d0",
+    "original": "The sensations of tiny explosions of ecstasy rapidly releasing inside of you soon start to accumulate into larger waves of euphoria, spreading throughout your entire body all the way up to your head, filling it with cravings for more. Never have you thought that fizzing candy could sound so sexy, so delightful, as you let yourself be engulfed by the combined efforts of the increasingly active microsurgeons.",
     "translation": "",
-    "context": "<<POS:08169757>>"
+    "context": "<<POS:08169761>>"
   },
   {
-    "key": "output|n_nAs_the_bubbling_intensifies_fierce_pleasure_spreads_through|00b80c936506",
-    "original": "\\n\\nAs the bubbling intensifies, fierce pleasure spreads throughout your body, making you feel flushed and incredibly sensitive. You lose strength in your [pc.legs] and fall flat on your [pc.butt], a whorish moan escaping your lips as you feel a particularly loud crack",
+    "key": "output|As_the_bubbling_intensifies_fierce_pleasure_spreads_throughout|abcff6746109",
+    "original": "As the bubbling intensifies, fierce pleasure spreads throughout your body, making you feel flushed and incredibly sensitive. You lose strength in your [pc.legs] and fall flat on your [pc.butt], a whorish moan escaping your lips as you feel a particularly loud crack",
     "translation": "",
-    "context": "<<POS:08170182>>"
+    "context": "<<POS:08170186>>"
   },
   {
     "key": "output|near_your_pc_clit|bf10466e79d9",
@@ -282,15 +294,15 @@
     "context": "<<POS:08170555>>"
   },
   {
-    "key": "output|n_nYou_re_but_a_moment_from_reaching_your_climax_before_all_to|3b3e34a7e43f",
-    "original": "\\n\\nYou’re but a moment from reaching your climax, before all too suddenly, the fizzing sound stops and the sensations that came with it die down. You’re left incredibly horny, almost desperate for release.",
+    "key": "output|You_re_but_a_moment_from_reaching_your_climax_before_all_too_su|06c2d6f7254a",
+    "original": "You’re but a moment from reaching your climax, before all too suddenly, the fizzing sound stops and the sensations that came with it die down. You’re left incredibly horny, almost desperate for release.",
     "translation": "",
-    "context": "<<POS:08170691>>"
+    "context": "<<POS:08170695>>"
   },
   {
     "key": "button|Next|d6bee41c7cd0",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08170952>>"
+    "context": "<<POS:08170952>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))"
   }
 ]

@@ -15,7 +15,7 @@
     "key": "perk|Goop|7576c6b48551",
     "original": "Goop",
     "translation": "",
-    "context": "<<POS:05622551>>"
+    "context": "<<POS:05622551>> createPerk(\"Goop\",o)"
   },
   {
     "key": "desc.long|The_goopleganger_is_in_its_natural_form_a_blob_of_constantly_s|1ed5f1149932",
@@ -72,31 +72,31 @@
     "context": "<<POS:05629463>>"
   },
   {
-    "key": "combat|n_nDid_you_pull_away_or_1_e_legCount_was_your_pc_leg|c623895f3cc1",
-    "original": "\\n\\nDid you pull away, or \"+(1===e.legCount?\"was your [pc.leg]\":\"were your [pc.legs]\")+\" just wobbly? Either way <b>that was staggering!</b>",
+    "key": "combat|Did_you_pull_away_or_1_e_legCount_was_your_pc_leg_wer|3adf2dc440bb",
+    "original": "Did you pull away, or \"+(1===e.legCount?\"was your [pc.leg]\":\"were your [pc.legs]\")+\" just wobbly? Either way <b>that was staggering!</b>",
     "translation": "",
-    "context": "<<POS:05629773>>"
+    "context": "<<POS:05629777>>"
   },
   {
-    "key": "combat|n_nYou_yank_yourself_away_before_she_can_force_any_more_pleasur|37683a9e32d4",
-    "original": "\\n\\nYou yank yourself away before she can force any more pleasure upon you.",
+    "key": "combat|You_yank_yourself_away_before_she_can_force_any_more_pleasure_up|b5d16e4a1aeb",
+    "original": "You yank yourself away before she can force any more pleasure upon you.",
     "translation": "",
-    "context": "<<POS:05630042>>"
+    "context": "<<POS:05630046>>"
   },
   {
-    "key": "combat|n_nShe_stumbles_away_b_staggered_by_pleasure_b|cf96dcc7face",
-    "original": "\\n\\nShe stumbles away, <b>staggered by pleasure.</b>",
+    "key": "combat|She_stumbles_away_b_staggered_by_pleasure_b|a55590c65247",
+    "original": "She stumbles away, <b>staggered by pleasure.</b>",
     "translation": "",
-    "context": "<<POS:05630543>>"
+    "context": "<<POS:05630547>>"
   },
   {
-    "key": "combat|n_nFeruze_shoves_the_imposter_away|672b228f58c9",
-    "original": "\\n\\nFeruze shoves the imposter away!",
+    "key": "combat|Feruze_shoves_the_imposter_away|200c88deb45f",
+    "original": "Feruze shoves the imposter away!",
     "translation": "",
-    "context": "<<POS:05630724>>"
+    "context": "<<POS:05630728>>"
   },
   {
-    "key": "combat|pc_hip|405e7231e08d",
+    "key": "combat|pc_hip|52c01934c2f0",
     "original": "[pc.hip]",
     "translation": "",
     "context": "<<POS:05631831>>"
@@ -126,10 +126,10 @@
     "context": "<<POS:05632451>>"
   },
   {
-    "key": "combat|n_nYou_hold_back_from_allowing_it_to_affect_you_TOO_deeply|607c9e8ac241",
-    "original": "\\n\\nYou hold back from allowing it to affect you TOO deeply.",
+    "key": "combat|You_hold_back_from_allowing_it_to_affect_you_TOO_deeply|01331b1ce678",
+    "original": "You hold back from allowing it to affect you TOO deeply.",
     "translation": "",
-    "context": "<<POS:05634925>>"
+    "context": "<<POS:05634929>>"
   },
   {
     "key": "combat|The_shark_woman_isn_t_that_impressed|6a86c6782920",
@@ -147,28 +147,28 @@
     "key": "perk|Inhuman_Desire|1c13a9f976c9",
     "original": "Inhuman Desire",
     "translation": "",
-    "context": "<<POS:05649571>>"
+    "context": "<<POS:05649571>> createPerk(\"Inhuman Desire\",400)"
   },
   {
-    "key": "combat|nOuch|8702be3e8c5e",
-    "original": "\\nOuch!",
+    "key": "combat|Ouch|827d04800e19",
+    "original": "Ouch!",
     "translation": "",
-    "context": "<<POS:05651938>>"
+    "context": "<<POS:05651940>>"
   },
   {
-    "key": "combat|n_Ot_m_capitalize_n_getCombatName_1_impacts_loudly_enoug|4629ad316535",
-    "original": "\\n\"+Ot.m.capitalize(n.getCombatName(),!1)+\" impacts loudly enough to be heard two floors below.",
+    "key": "combat|Ot_m_capitalize_n_getCombatName_1_impacts_loudly_enough|8ab583736b3e",
+    "original": "\"+Ot.m.capitalize(n.getCombatName(),!1)+\" impacts loudly enough to be heard two floors below.",
     "translation": "",
-    "context": "<<POS:05651978>>"
+    "context": "<<POS:05651980>>"
   },
   {
-    "key": "combat|n_n_b_You_are_no_longer_flying_b|cf0758d93933",
-    "original": "\\n\\n<b>You are no longer flying.</b>",
+    "key": "combat|b_You_are_no_longer_flying_b|f796ae2023ef",
+    "original": "<b>You are no longer flying.</b>",
     "translation": "",
-    "context": "<<POS:05652216>>"
+    "context": "<<POS:05652220>>"
   },
   {
-    "key": "combat|It_wraps_around_PlayerCharacter_e_getClassName_your|f440ef56b2c2",
+    "key": "combat|It_wraps_around_PlayerCharacter_e_getClassName_your|2b3681b62895",
     "original": " It wraps around \"+(\"PlayerCharacter\"===e.getClassName()?\"your\":e.mfn(\"his\",\"her\",\"its\"))+\" neck to deliver a jolt of brain-scrambling energies!",
     "translation": "",
     "context": "<<POS:05652557>>"
@@ -192,34 +192,34 @@
     "context": "<<POS:05653461>>"
   },
   {
-    "key": "combat|n_nYou_feel_her_will_press_against_your_own_forcibly_pushing_y|e8c55e143c21",
-    "original": "\\n\\nYou feel her will press against your own, forcibly pushing your mind back from controlling your body, <b>paralyzing you!</b>",
+    "key": "combat|You_feel_her_will_press_against_your_own_forcibly_pushing_your|5bf1233d91f4",
+    "original": "You feel her will press against your own, forcibly pushing your mind back from controlling your body, <b>paralyzing you!</b>",
     "translation": "",
-    "context": "<<POS:05654930>>"
+    "context": "<<POS:05654934>>"
   },
   {
-    "key": "combat|nYou_feel_a_mental_intrusion_but_the_push_the_unwelcome_presen|b72ea26d1e86",
-    "original": "\\nYou feel a mental intrusion, but the push the unwelcome presence away in an act of sheer will!",
+    "key": "combat|You_feel_a_mental_intrusion_but_the_push_the_unwelcome_presence|203f1a0adf01",
+    "original": "You feel a mental intrusion, but the push the unwelcome presence away in an act of sheer will!",
     "translation": "",
-    "context": "<<POS:05655100>>"
+    "context": "<<POS:05655102>>"
   },
   {
-    "key": "combat|n_Ot_m_capitalize_e_getCombatName_1_staggers_once_befor|663ce7ccdc89",
-    "original": "\\n\"+Ot.m.capitalize(e.getCombatName(),!1)+\" staggers once, before standing stock-still with a grimace on \"+e.mfn(\"his\",\"her\",\"its\")+\" face. <b>\"+e.mfn(\"He\",\"She\",\"It\")+\" is paralyzed!</b>",
+    "key": "combat|Ot_m_capitalize_e_getCombatName_1_staggers_once_before|147a5278ebe4",
+    "original": "\"+Ot.m.capitalize(e.getCombatName(),!1)+\" staggers once, before standing stock-still with a grimace on \"+e.mfn(\"his\",\"her\",\"its\")+\" face. <b>\"+e.mfn(\"He\",\"She\",\"It\")+\" is paralyzed!</b>",
     "translation": "",
-    "context": "<<POS:05655263>>"
+    "context": "<<POS:05655265>>"
   },
   {
-    "key": "combat|n_Ot_m_capitalize_e_getCombatName_1_grimaces_as_if_pushi|0bb84fe7eb93",
-    "original": "\\n\"+Ot.m.capitalize(e.getCombatName(),!1)+\" grimaces as if pushing away an intrusive thought. Corellah seems disappointed.",
+    "key": "combat|Ot_m_capitalize_e_getCombatName_1_grimaces_as_if_pushing|922b64202b7a",
+    "original": "\"+Ot.m.capitalize(e.getCombatName(),!1)+\" grimaces as if pushing away an intrusive thought. Corellah seems disappointed.",
     "translation": "",
-    "context": "<<POS:05655492>>"
+    "context": "<<POS:05655494>>"
   },
   {
-    "key": "combat|n_n_b_Ot_m_capitalize_o_getCombatPronoun_he_is_sundered|41daa86bfadd",
-    "original": "\\n\\n<b>\"+Ot.m.capitalize(o.getCombatPronoun(\"he is\"))+\" sundered!</b>",
+    "key": "combat|b_Ot_m_capitalize_o_getCombatPronoun_he_is_sundered_b|d4cc70a6ee50",
+    "original": "<b>\"+Ot.m.capitalize(o.getCombatPronoun(\"he is\"))+\" sundered!</b>",
     "translation": "",
-    "context": "<<POS:05660811>>"
+    "context": "<<POS:05660815>>"
   },
   {
     "key": "output|Your_Chameleon_Armor_is_presently_transparent_showing_off_every|4dae35f13aeb",
@@ -231,10 +231,22 @@
     "key": "button|Pigment_Armor|453d8fba6542",
     "original": "Pigment Armor",
     "translation": "",
-    "context": "<<POS:05668181>>"
+    "context": "<<POS:05668181>> addButton(t++,\"Pigment Armor\",(function(){return e.zipChameleonButts()}),\"Pigment Armor\",\"Make your Chameleon Armor conceal your body.\")"
   },
   {
-    "key": "output|Your_Chameleon_Armor_is_currently_pigmented_concat_this_color|91e094916a7c",
+    "key": "button.hover|Pigment_Armor|453d8fba6542",
+    "original": "Pigment Armor",
+    "translation": "",
+    "context": "<<POS:05668240>> addButton(t++,\"Pigment Armor\",(function(){return e.zipChameleonButts()}),\"Pigment Armor\",\"Make your Chameleon Armor conceal your body.\")"
+  },
+  {
+    "key": "button.tooltip|Make_your_Chameleon_Armor_conceal_your_body|975d53cb8552",
+    "original": "Make your Chameleon Armor conceal your body.",
+    "translation": "",
+    "context": "<<POS:05668256>> addButton(t++,\"Pigment Armor\",(function(){return e.zipChameleonButts()}),\"Pigment Armor\",\"Make your Chameleon Armor conceal your body.\")"
+  },
+  {
+    "key": "output|Your_Chameleon_Armor_is_currently_pigmented_concat_this_color|55adbe1ee2f0",
     "original": "Your Chameleon Armor is currently pigmented \".concat(this.color,\", obscuring your genitals from view.\")",
     "translation": "",
     "context": "<<POS:05668313>>"
@@ -243,37 +255,61 @@
     "key": "button|Go_Transparent|8d47f16ccd39",
     "original": "Go Transparent",
     "translation": "",
-    "context": "<<POS:05668433>>"
+    "context": "<<POS:05668433>> addButton(t++,\"Go Transparent\",(function(){return e.unzipChameleonSuit()}),\"Go Transparent\",\"Make your Chameleon Armor transparent, to expose your body and enhance your ability to tease your foes into submission!\")"
   },
   {
-    "key": "output|n_n_b_Current_Sexiness_Bonus_b_this_sexiness|a2c60522f80c",
-    "original": "\\n\\n<b>Current Sexiness Bonus: </b>\"+this.sexiness",
+    "key": "button.hover|Go_Transparent|8d47f16ccd39",
+    "original": "Go Transparent",
     "translation": "",
-    "context": "<<POS:05668642>>"
+    "context": "<<POS:05668494>> addButton(t++,\"Go Transparent\",(function(){return e.unzipChameleonSuit()}),\"Go Transparent\",\"Make your Chameleon Armor transparent, to expose your body and enhance your ability to tease your foes into submission!\")"
   },
   {
-    "key": "output|n_n|8a5324a66370",
-    "original": "\\n\\n",
+    "key": "button.tooltip|Make_your_Chameleon_Armor_transparent_to_expose_your_body_and_e|44bb0e65a127",
+    "original": "Make your Chameleon Armor transparent, to expose your body and enhance your ability to tease your foes into submission!",
     "translation": "",
-    "context": "<<POS:05668702>>"
+    "context": "<<POS:05668511>> addButton(t++,\"Go Transparent\",(function(){return e.unzipChameleonSuit()}),\"Go Transparent\",\"Make your Chameleon Armor transparent, to expose your body and enhance your ability to tease your foes into submission!\")"
   },
   {
-    "key": "button|Reset|ee43f9f57182",
+    "key": "output|b_Current_Sexiness_Bonus_b_this_sexiness|c4d8b559c8f8",
+    "original": "<b>Current Sexiness Bonus: </b>\"+this.sexiness",
+    "translation": "",
+    "context": "<<POS:05668646>>"
+  },
+  {
+    "key": "button|Reset|03e9dd850d06",
     "original": "Reset",
     "translation": "",
-    "context": "<<POS:05668859>>"
+    "context": "<<POS:05668859>> addButton(13,\"Reset\",(function(){return e.resetSettings(e)}),\"Reset Color Scheme\",\"Revert back to the default color scheme. This will also reset the transparency settings.\")"
   },
   {
-    "key": "button|Reset|51550792ce7c",
+    "key": "button.hover|Reset_Color_Scheme|bc2f2b2342db",
+    "original": "Reset Color Scheme",
+    "translation": "",
+    "context": "<<POS:05668907>> addButton(13,\"Reset\",(function(){return e.resetSettings(e)}),\"Reset Color Scheme\",\"Revert back to the default color scheme. This will also reset the transparency settings.\")"
+  },
+  {
+    "key": "button.tooltip|Revert_back_to_the_default_color_scheme_This_will_also_reset_th|6c62af0c718d",
+    "original": "Revert back to the default color scheme. This will also reset the transparency settings.",
+    "translation": "",
+    "context": "<<POS:05668928>> addButton(13,\"Reset\",(function(){return e.resetSettings(e)}),\"Reset Color Scheme\",\"Revert back to the default color scheme. This will also reset the transparency settings.\")"
+  },
+  {
+    "key": "button|Reset|4675a159c3fc",
     "original": "Reset",
     "translation": "",
-    "context": "<<POS:05669041>>"
+    "context": "<<POS:05669041>> addDisabledButton(13,\"Reset\",\"Reset Color Scheme\",\"This item already has the default color scheme.\")"
   },
   {
-    "key": "button|Back|e91488433fc2",
+    "key": "button.hover|This_item_already_has_the_default_color_scheme|a14739a6d655",
+    "original": "This item already has the default color scheme.",
+    "translation": "",
+    "context": "<<POS:05669070>> addDisabledButton(13,\"Reset\",\"Reset Color Scheme\",\"This item already has the default color scheme.\")"
+  },
+  {
+    "key": "button|Back|b602291a696d",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:05669134>>"
+    "context": "<<POS:05669134>> addButton(14,\"Back\",(function(){return e.returnToInventory(e)}))"
   },
   {
     "key": "output|You_link_your_Codex_with_the_Utopian_Skies_control_interface_for|4259cda5f5ef",
@@ -285,7 +321,7 @@
     "key": "button|Next|5b40044f14b0",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:05669722>>"
+    "context": "<<POS:05669722>> addButton(0,\"Next\",this.chameleonOptionsDisplay)"
   },
   {
     "key": "output|You_tick_an_option_in_your_Codex_s_link_to_the_Utopian_Skies_Arm|086eebce8abd",
@@ -297,6 +333,6 @@
     "key": "button|Next|b39422eba28b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:05670057>>"
+    "context": "<<POS:05670057>> addButton(0,\"Next\",this.chameleonOptionsDisplay)"
   }
 ]

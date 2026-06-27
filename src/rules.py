@@ -181,6 +181,8 @@ def make_entry(ctx, category, original, pos, context_text=None):
 _CALL_EXTRACT = {
     "output": "output",
     "outputText": "output",
+    "outputB": "output",
+    "combatOutput": "combat",
     "combatAppend": "combat",
     "blockHeader": "header",
     "header": "header",
@@ -225,6 +227,36 @@ def _process_call_extract(ctx):
         _PASSTHROUGH = ('blockHeader', 'header', 'textify', 'ParseText')
         first_token = stripped.split('(')[0].strip()
         if first_token in _PASSTHROUGH:
+            ctx.end_pos = ctx.paren_pos + 1
+            return []
+        # 检测 webpack 混淆的 textify 调用：(0,X.zI)(VAR||(VAR=(0,Y.Z)(["..."
+        # .zI 是 textify 的统一混淆后缀，前缀字母是 webpack module 局部变量
+        # 直接在这里解析内部的字符串数组，因为 scanner 主循环无法识别 (0,X.zI)( 作为函数调用
+        if _re.match(r'\(0,[a-zA-Z_$]+\.zI\)', stripped):
+            # 手动提取内部的 textify 字符串数组
+            arr_start = inner.find('(["')
+            if arr_start < 0:
+                arr_start = inner.find("(['")
+            if arr_start >= 0:
+                arr_start += 1  # 跳过 (
+                results = []
+                i = arr_start + 1  # 跳过 [
+                while i < len(inner):
+                    ch = inner[i]
+                    if ch == ']':
+                        break
+                    if ch in ('"', "'"):
+                        str_content, end = parse_js_string(inner, i)
+                        if str_content is not None and str_content.strip():
+                            real_pos = ctx.paren_pos + 1 + i + 1
+                            textify_ctx = f"textify([{repr(str_content[:50])}...])"
+                            entry = make_entry(ctx, "textify", str_content, real_pos, context_text=textify_ctx)
+                            if entry:
+                                results.append(entry)
+                            i = end
+                            continue
+                    i += 1
+                return results
             ctx.end_pos = ctx.paren_pos + 1
             return []
         # 拼接/三目表达式：占位符化变量，保留字符串给译者

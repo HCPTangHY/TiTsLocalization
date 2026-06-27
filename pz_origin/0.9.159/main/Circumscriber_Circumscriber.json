@@ -3,7 +3,7 @@
     "key": "name.show|Circumscriber|623b891049d2",
     "original": "Circumscriber",
     "translation": "",
-    "context": "<<POS:08008303>>"
+    "context": "<<POS:08008303>> showName(\"Circumscriber\")"
   },
   {
     "key": "output|Unfortunately_you_do_not_have_any_penises_to_apply_this_on|278e55e755a9",
@@ -12,22 +12,22 @@
     "context": "<<POS:08008442>>"
   },
   {
-    "key": "output|n_nYou_put_the_item_back_in_your_inventory|5ac06de1716a",
-    "original": "\\n\\nYou put the item back in your inventory.",
+    "key": "output|You_put_the_item_back_in_your_inventory|b948a40cac43",
+    "original": "You put the item back in your inventory.",
     "translation": "",
-    "context": "<<POS:08008513>>"
+    "context": "<<POS:08008517>>"
   },
   {
-    "key": "output|You_have_more_than_one_penis_Which_one_will_you_apply_Circumscr|4766ebe2b851",
-    "original": "You have more than one penis. Which one will you apply Circumscriber to?\\n",
+    "key": "output|You_have_more_than_one_penis_Which_one_will_you_apply_Circumscr|dcee89186dae",
+    "original": "You have more than one penis. Which one will you apply Circumscriber to?",
     "translation": "",
     "context": "<<POS:08008628>>"
   },
   {
-    "key": "output|n_b_l_m_capitalize_l_m_numToOrdinal_a_1_Cock_b|cb6fbdce49f2",
-    "original": "\\n<b>\"+l.m.capitalize(l.m.numToOrdinal(a+1))+\" Cock:</b>",
+    "key": "output|b_l_m_capitalize_l_m_numToOrdinal_a_1_Cock_b|b91e723064c5",
+    "original": "<b>\"+l.m.capitalize(l.m.numToOrdinal(a+1))+\" Cock:</b>",
     "translation": "",
-    "context": "<<POS:08008750>>"
+    "context": "<<POS:08008752>>"
   },
   {
     "key": "output|GLOBAL_FLAG_NAMES_e_cocks_a_flags_n|0ddeaa394f8e",
@@ -63,10 +63,16 @@
     "key": "button|Cock|aa74da6a6952",
     "original": "Cock ",
     "translation": "",
-    "context": "<<POS:08009257>>"
+    "context": "<<POS:08009257>> addButton(o,\"Cock \"+(a+1),(function(){return t.cockTF(e,a)}),l.m.capitalize(l.m.numToOrdinal(a+1))+\" Cock\",\"Use this on your [pc.cock \"+a+\"].\")"
   },
   {
-    "key": "output|null_e_void_0_e_capitalA_e_short_applies_the_Circumscriber|80bbf4db909b",
+    "key": "button.tooltip|Use_this_on_your_pc_cock|9b79a9b2c96d",
+    "original": "Use this on your [pc.cock ",
+    "translation": "",
+    "context": "<<POS:08009352>> addButton(o,\"Cock \"+(a+1),(function(){return t.cockTF(e,a)}),l.m.capitalize(l.m.numToOrdinal(a+1))+\" Cock\",\"Use this on your [pc.cock \"+a+\"].\")"
+  },
+  {
+    "key": "output|null_e_void_0_e_capitalA_e_short_applies_the_Circumscriber|6d1543a43591",
     "original": "(null==e?void 0:e.capitalA)+e.short+\" applies the Circumscriber cream but to no effect.",
     "translation": "",
     "context": "<<POS:08009446>>"
@@ -75,7 +81,7 @@
     "key": "name.show|Circumscriber|4cc2cd774e32",
     "original": "Circumscriber",
     "translation": "",
-    "context": "<<POS:08009612>>"
+    "context": "<<POS:08009612>> showName(\"Circumscriber\")"
   },
   {
     "key": "output|You_read_the_instructions_and_open_the_scribe_themed_jar|a81bdf1d94a9",
@@ -168,16 +174,10 @@
     "context": "<<POS:08010965>>"
   },
   {
-    "key": "output|n_n|1f8d2605d7b6",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08011151>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30",
+    "key": "button|Next|bf0f723e8da0",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08011452>>"
+    "context": "<<POS:08011452>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|Aside_from_a_few_short_tingles_along_your_pc_cockNoun_t_n|bbb004850e0b",
@@ -192,19 +192,19 @@
     "context": "<<POS:08011686>>"
   },
   {
-    "key": "output|n_nThankfully_you_seem_to_become_less_sensitive_with_time_the|921b09ad8e79",
-    "original": "\\n\\nThankfully you seem to become less sensitive with time, the itchiness disappearing together with your extraneous nerves. The foreskin turns into a bump as they get closer to finishing their job, some of the rings already gathering at what remains of your frenulum and erasing the last bits of the elastic tissue. Soon there is nothing left but a straight line that runs across your cumvein to the urethra.",
+    "key": "output|Thankfully_you_seem_to_become_less_sensitive_with_time_the_itch|534fe6aa7c87",
+    "original": "Thankfully you seem to become less sensitive with time, the itchiness disappearing together with your extraneous nerves. The foreskin turns into a bump as they get closer to finishing their job, some of the rings already gathering at what remains of your frenulum and erasing the last bits of the elastic tissue. Soon there is nothing left but a straight line that runs across your cumvein to the urethra.",
     "translation": "",
-    "context": "<<POS:08012469>>"
+    "context": "<<POS:08012473>>"
   },
   {
-    "key": "output|n_nYou_are_left_with_a|4f503504ddf5",
-    "original": "\\n\\nYou are left with a ",
+    "key": "output|You_are_left_with_a|2aeaf54a6642",
+    "original": "You are left with a ",
     "translation": "",
-    "context": "<<POS:08012889>>"
+    "context": "<<POS:08012893>>"
   },
   {
-    "key": "output|two_toned_dick_the_vibrant_pc_cockColor_t_head_accentuate|c301a942cf9b",
+    "key": "output|two_toned_dick_the_vibrant_pc_cockColor_t_head_accentuate|641274d4de45",
     "original": "two-toned dick, the vibrant [pc.cockColor \"+t+\"] head accentuated by your [pc.skinColor]-colored shaft",
     "translation": "",
     "context": "<<POS:08013113>>"
@@ -222,10 +222,10 @@
     "context": "<<POS:08013291>>"
   },
   {
-    "key": "output|n_nAs_the_machines_flake_off_and_disappear_into_the_ground_belo|24d18b566ea5",
-    "original": "\\n\\nAs the machines flake off and disappear into the ground below, you sigh in relief, realizing you can now rub one out. You wrap your hands around your [pc.cock \"+t+\"] and try to masturbate, discovering the wonder of having a smooth, unblemished prick to play with, not having any extra skin to bunch up or require extra cleaning.",
+    "key": "output|As_the_machines_flake_off_and_disappear_into_the_ground_below_y|e3c1f00ee124",
+    "original": "As the machines flake off and disappear into the ground below, you sigh in relief, realizing you can now rub one out. You wrap your hands around your [pc.cock \"+t+\"] and try to masturbate, discovering the wonder of having a smooth, unblemished prick to play with, not having any extra skin to bunch up or require extra cleaning.",
     "translation": "",
-    "context": "<<POS:08013602>>"
+    "context": "<<POS:08013606>>"
   },
   {
     "key": "output|With_gentle_gliding_strokes_you_caress_your_shaft_trying_to|ae2d5315a51b",
@@ -306,10 +306,10 @@
     "context": "<<POS:08015799>>"
   },
   {
-    "key": "output|n_nWith_their_job_done_the_spent_machine_goo_falls_off_you_and|dac8d8bf6d43",
-    "original": "\\n\\nWith their job done the spent machine-goo falls off you and fades into dust, blowing away in the air. Your cock is left ",
+    "key": "output|With_their_job_done_the_spent_machine_goo_falls_off_you_and_fade|5e8f3086ec72",
+    "original": "With their job done the spent machine-goo falls off you and fades into dust, blowing away in the air. Your cock is left ",
     "translation": "",
-    "context": "<<POS:08016079>>"
+    "context": "<<POS:08016083>>"
   },
   {
     "key": "output|with_a_comforting_foreskin_around_it_With_no_distinct_line_divi|cc747ca78ad8",

@@ -15,85 +15,85 @@
     "key": "perk|Warm_Blooded|a77796691ae9",
     "original": "Warm Blooded",
     "translation": "",
-    "context": "<<POS:02883043>>"
+    "context": "<<POS:02883043>> createPerk(\"Warm Blooded\",0,0,0,0,\"You’re too libidinous to be ‘Ice Cold’ any longer.\")"
   },
   {
     "key": "perk|Ice_Cold|bfc19a0f9c32",
     "original": "Ice Cold",
     "translation": "",
-    "context": "<<POS:02883351>>"
+    "context": "<<POS:02883351>> createPerk(\"Ice Cold\",0,0,0,0,\"Slows lust gain over time and improves low libido teasing.\")"
   },
   {
-    "key": "output|n_n_a_rand_a_length|d97869fc3f58",
-    "original": "\\n\\n\"+a[rand(a.length)]",
+    "key": "output|a_rand_a_length|468de23dc913",
+    "original": "\"+a[rand(a.length)]",
     "translation": "",
-    "context": "<<POS:02927938>>"
+    "context": "<<POS:02927942>>"
   },
   {
-    "key": "perk|Heat_Cycle|44bd89aaecf9",
+    "key": "perk|Heat_Cycle|f6293769b4c9",
     "original": "Heat Cycle",
     "translation": "",
-    "context": "<<POS:02938964>>"
+    "context": "<<POS:02938964>> createPerk(\"Heat Cycle\",0,e,t,0,\"\")"
   },
   {
     "key": "perk|Rut_Cycle|9f0b6c59a5e5",
     "original": "Rut Cycle",
     "translation": "",
-    "context": "<<POS:02941498>>"
+    "context": "<<POS:02941498>> createPerk(\"Rut Cycle\",0,e,t,0,\"\")"
   },
   {
-    "key": "output|You_huff_in_discomfort_Your_recent_experiments_in_dick_morpholo|827e381268a0",
-    "original": "You huff in discomfort. Your recent experiments in dick-morphology have made you too big for the cock bell you’re wearing, the silken loop digging into your flesh. You unclip it and put it with the rest of your gear. You feel an uncertain mixture of pride and malaise at losing this badge of how much of a subby, small-dicked sissy you once were.\\n\\n",
+    "key": "textify|As_of_late_your_pc_cocks_pc_hasCocks_have_has_been_needier|f55b3f02cbcb",
+    "original": "As of late, your [pc.cocks][pc.hasCocks| have| has] been needier than normal, beading precum and[pc.isCrotchExposedByLowerUndergarment| standing half-erect most of the time| bulging your[pc.mfn| pants| clothes| clothes] with a constant half-erection], even when you’re not engaged in lewd thoughts or activities.",
+    "translation": "",
+    "context": "<<POS:02942477>>"
+  },
+  {
+    "key": "output|You_huff_in_discomfort_Your_recent_experiments_in_dick_morpholo|ec09c3215348",
+    "original": "You huff in discomfort. Your recent experiments in dick-morphology have made you too big for the cock bell you’re wearing, the silken loop digging into your flesh. You unclip it and put it with the rest of your gear. You feel an uncertain mixture of pride and malaise at losing this badge of how much of a subby, small-dicked sissy you once were.",
     "translation": "",
     "context": "<<POS:02960805>>"
   },
   {
-    "key": "output|The_cocksock_you_used_to_wear_on_your_pc_cockNoun_e_no_lon|7e4cabc62edf",
-    "original": "The cocksock you used to wear on your [pc.cockNoun \"+e+\"] no longer fits around it.\\n\\n",
+    "key": "output|The_cocksock_you_used_to_wear_on_your_pc_cockNoun_e_no_lon|8759437eb56c",
+    "original": "The cocksock you used to wear on your [pc.cockNoun \"+e+\"] no longer fits around it.",
     "translation": "",
     "context": "<<POS:02961166>>"
   },
   {
-    "key": "bust|GALOTIAN|6664f0842f9d",
-    "original": "GALOTIAN",
-    "translation": "",
-    "context": "<<POS:02973082>>"
-  },
-  {
-    "key": "name.show|Galotian|414a188c48c5",
+    "key": "name.show|Galotian|a4e5462f3332",
     "original": "Galotian",
     "translation": "",
-    "context": "<<POS:02973103>>"
+    "context": "<<POS:02973103>> showName(\"Galotian\")"
   },
   {
     "key": "button|Next|bf78e0e3096e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02974388>>"
+    "context": "<<POS:02974388>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "button|Next|35b9a3540cff",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02974695>>"
+    "context": "<<POS:02974695>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "button|Look|fb89d3ffc7b4",
     "original": "Look",
     "translation": "",
-    "context": "<<POS:02974728>>"
+    "context": "<<POS:02974728>> addButton(1,\"Look\",(function(){return window.appearance(pc)}))"
   },
   {
     "key": "button|Next|abf32ccd8cfa",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02975438>>"
+    "context": "<<POS:02975438>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "button|Look|fb89d3ffc7b4#1",
     "original": "Look",
     "translation": "",
-    "context": "<<POS:02975471>>"
+    "context": "<<POS:02975471>> addButton(1,\"Look\",(function(){return window.appearance(pc)}))"
   },
   {
     "key": "output|t|de5fa8101191",

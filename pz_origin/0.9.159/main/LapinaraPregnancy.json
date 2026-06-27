@@ -3,7 +3,7 @@
     "key": "perk|Musky_Pheromones|6096fdf20317",
     "original": "Musky Pheromones",
     "translation": "",
-    "context": "<<POS:36493154>>"
+    "context": "<<POS:36493154>> createPerk(\"Musky Pheromones\",0,0,0,0,\"Grants a +5 musk bonus to tease attacks.\")"
   },
   {
     "key": "output|blockHeader_Birthing|b4f3f852a480",
@@ -18,10 +18,10 @@
     "context": "<<POS:36511824>>"
   },
   {
-    "key": "output|n_n_i_Your_water_just_broke_i_Your_babies_are_coming_Pain_a|19ae474b8eb2",
-    "original": "\\n\\n<i>Your water just broke.</i> Your babies are coming. Pain and agony bursts across your middle like arcs of lightning. The ",
+    "key": "output|i_Your_water_just_broke_i_Your_babies_are_coming_Pain_and_a|df8ae564158d",
+    "original": "<i>Your water just broke.</i> Your babies are coming. Pain and agony bursts across your middle like arcs of lightning. The ",
     "translation": "",
-    "context": "<<POS:36512114>>"
+    "context": "<<POS:36512118>>"
   },
   {
     "key": "output|kicks_in_your_wombs_are|ef8c2adaa7f2",
@@ -42,22 +42,22 @@
     "context": "<<POS:36512322>>"
   },
   {
-    "key": "output|n_nAt_least_you_re_safe_on_your_ship_You_d_like_to_have_the_su|453ef94e29a8",
-    "original": "\\n\\nAt least you’re safe on your ship. You’d like to have the support of a doctor, but it’s just not possible right now.",
+    "key": "output|At_least_you_re_safe_on_your_ship_You_d_like_to_have_the_suppor|00aa65bfcc1b",
+    "original": "At least you’re safe on your ship. You’d like to have the support of a doctor, but it’s just not possible right now.",
     "translation": "",
-    "context": "<<POS:36512512>>"
+    "context": "<<POS:36512516>>"
   },
   {
-    "key": "output|n_nYou_re_afraid_and_angry_suddenly_realizing_that_you_re_nowh|0bb2d60e0d32",
-    "original": "\\n\\nYou’re afraid and angry, suddenly realizing that you’re nowhere near professional medical care. There’s no helping it... you must give birth alone.",
+    "key": "output|You_re_afraid_and_angry_suddenly_realizing_that_you_re_nowhere|c2da8eaa5389",
+    "original": "You’re afraid and angry, suddenly realizing that you’re nowhere near professional medical care. There’s no helping it... you must give birth alone.",
     "translation": "",
-    "context": "<<POS:36512671>>"
+    "context": "<<POS:36512675>>"
   },
   {
-    "key": "output|n_nAt_least_you_won_t_be_giving_birth_unassisted_Perhaps_ratio|6290c249d02e",
-    "original": "\\n\\nAt least you won’t be giving birth unassisted. Perhaps rationality, in the end, won out against the thought-depriving effects of your changed biology?",
+    "key": "output|At_least_you_won_t_be_giving_birth_unassisted_Perhaps_rationali|e72f49d64aeb",
+    "original": "At least you won’t be giving birth unassisted. Perhaps rationality, in the end, won out against the thought-depriving effects of your changed biology?",
     "translation": "",
-    "context": "<<POS:36512834>>"
+    "context": "<<POS:36512838>>"
   },
   {
     "key": "output|Some_part_of_you_really_hopes_you_don_t_get_cited_for_littering|139204122c21",
@@ -69,6 +69,6 @@
     "key": "button|Next|07d3bbab61c5",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:36513115>>"
+    "context": "<<POS:36513115>> addButton(0,\"Next\",(function(){return function(){clearOutput(),clearBust(),clearName(),output(blockHeader(\"Birthing!\")),author(\"William\");var e=getPlanetName().toLowerCase(),o=getCurrentLocation(),a=!0;pc.hipRating()>=14&&(a=!1);var n=0,i=flags.LAQUINE_PREGHAND_MULTIBIRTH;if(flags.LAQUINE_PREGHAND_M..."
   }
 ]

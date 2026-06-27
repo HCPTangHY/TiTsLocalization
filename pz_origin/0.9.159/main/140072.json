@@ -21,7 +21,7 @@
     "key": "perk|Bothrioc_Oil_Immunity|b2dfd06e793e",
     "original": "Bothrioc Oil Immunity",
     "translation": "",
-    "context": "<<POS:06259412>>"
+    "context": "<<POS:06259412>> createPerk(\"Bothrioc Oil Immunity\",0,0,0,0,\"Thanks to the efforts of Dr. Lessau, he has been able to bridge the biological and cultural gap between bothrioc and other aliens. You no longer gain addiction from bothrioc oil.\")"
   },
   {
     "key": "output|textify_i_i_0_r_Z_n_t_t_tShaking_the_vial_well_you_press|f210c2f6eb69",
@@ -33,7 +33,7 @@
     "key": "perk|Bothrioc_Oil_Immunity|b2dfd06e793e#1",
     "original": "Bothrioc Oil Immunity",
     "translation": "",
-    "context": "<<POS:06261303>>"
+    "context": "<<POS:06261303>> createPerk(\"Bothrioc Oil Immunity\",0,0,0,0,\"Thanks to the efforts of Dr. Lessau, he has been able to bridge the biological and cultural gap between bothrioc and other aliens. You no longer gain addiction from bothrioc oil.\")"
   },
   {
     "key": "output|textify_s_s_0_r_Z_n_t_t_tYou_re_not_exactly_sure_what_thi|7beb4ebe3bc3",
@@ -45,6 +45,12 @@
     "key": "button|Next|a79d3ac80736",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06261839>>"
+    "context": "<<POS:06261839>> addButton(0,\"Next\",this.returnToInventory,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|a79d3ac80736",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:06261869>> addButton(0,\"Next\",this.returnToInventory,\"Next\",\"\")"
   }
 ]

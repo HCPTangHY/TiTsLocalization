@@ -27,7 +27,13 @@
     "key": "button|Fight|f6ea2b7388c8",
     "original": "Fight!",
     "translation": "",
-    "context": "<<POS:33029238>>"
+    "context": "<<POS:33029238>> addButton(0,\"Fight!\",(function(){return E.V.beginCombat()}),\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|f6ea2b7388c8",
+    "original": "Fight!",
+    "translation": "",
+    "context": "<<POS:33029286>> addButton(0,\"Fight!\",(function(){return E.V.beginCombat()}),\"Fight!\",\"\")"
   },
   {
     "key": "output|textify_ome_ome_0_Ce_Z_n_tThe_patrol_bot_stumbles_back_fr|94c91fae3861",
@@ -63,13 +69,25 @@
     "key": "button|Next|92b2cce295e8",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:33031481>>"
+    "context": "<<POS:33031481>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|92b2cce295e8",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:33031501>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "button|Start|f275dc62d4b4",
     "original": "Start",
     "translation": "",
-    "context": "<<POS:33033087>>"
+    "context": "<<POS:33033087>> addButton(0,\"Start\",(function(){return window.showRotateMinigame(e)}),\"Start\",\"\")"
+  },
+  {
+    "key": "button.hover|Start|f275dc62d4b4",
+    "original": "Start",
+    "translation": "",
+    "context": "<<POS:33033145>> addButton(0,\"Start\",(function(){return window.showRotateMinigame(e)}),\"Start\",\"\")"
   },
   {
     "key": "output|textify_Vme_Vme_0_Ce_Z_n_tAs_soon_as_you_re_back_on_your|8e72f70423d8",
@@ -81,7 +99,13 @@
     "key": "button|Next|88e55a8808f6",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:33036156>>"
+    "context": "<<POS:33036156>> addButton(e++,\"Next\",(function(){clearAll(),author(\"Slab Bulkhead\"),showBust(\"KIKI\",\"JOSIE\",\"KARRAH\"),output(textify(Kme||(Kme=(0,Ce.Z)([\"\\n\\t\\tYou head into the Dhaal spaceport with the Mastodon and the towing crew behind you. Tamup Los calls you again once you’re through the warp gate, and gives y..."
+  },
+  {
+    "key": "button.hover|Next|88e55a8808f6",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:33046226>> addButton(e++,\"Next\",(function(){clearAll(),author(\"Slab Bulkhead\"),showBust(\"KIKI\",\"JOSIE\",\"KARRAH\"),output(textify(Kme||(Kme=(0,Ce.Z)([\"\\n\\t\\tYou head into the Dhaal spaceport with the Mastodon and the towing crew behind you. Tamup Los calls you again once you’re through the warp gate, and gives y..."
   },
   {
     "key": "output|textify_dme_dme_0_Ce_Z_n_t_flags_MASTODON_VISITED_n_t_t_Y|313fef9ca651",
@@ -93,7 +117,13 @@
     "key": "button|Next|6af44914f1f3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:33047276>>"
+    "context": "<<POS:33047276>> addButton(e++,\"Next\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(gme||(gme=(0,Ce.Z)([\"\\n\\t\\t[flags.MASTODON_VISITED\\n\\t\\t\\t|The Mastodon floats through space, and there’s no sign anyone else has been here. Debris clouds hover around the darkened thrusters, and lights still flicker ..."
+  },
+  {
+    "key": "button.hover|Next|6af44914f1f3",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:33050246>> addButton(e++,\"Next\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(gme||(gme=(0,Ce.Z)([\"\\n\\t\\t[flags.MASTODON_VISITED\\n\\t\\t\\t|The Mastodon floats through space, and there’s no sign anyone else has been here. Debris clouds hover around the darkened thrusters, and lights still flicker ..."
   },
   {
     "key": "output|textify_mme_mme_0_Ce_Z_n_tThe_Mastodon_s_starboard_airloc|cfc49b2cc393",
@@ -105,7 +135,13 @@
     "key": "button|Video|bbae95383cbd",
     "original": "Video",
     "translation": "",
-    "context": "<<POS:33051180>>"
+    "context": "<<POS:33051180>> addButton(e++,\"Video\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(fme||(fme=(0,Ce.Z)([\"\\n\\t\\tThe video flickers as it starts, then focuses on a red rahn woman. She’s tall and has a strong, sturdy figure, with modest curves and a stern face. Her ponytail is done in long spikes, and ..."
+  },
+  {
+    "key": "button.hover|Video|bbae95383cbd",
+    "original": "Video",
+    "translation": "",
+    "context": "<<POS:33055843>> addButton(e++,\"Video\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(fme||(fme=(0,Ce.Z)([\"\\n\\t\\tThe video flickers as it starts, then focuses on a red rahn woman. She’s tall and has a strong, sturdy figure, with modest curves and a stern face. Her ponytail is done in long spikes, and ..."
   },
   {
     "key": "output|textify_bme_bme_0_Ce_Z_n_tThe_Mastodon_s_cockpit_is_built|e7f79168be0d",
@@ -147,13 +183,25 @@
     "key": "button|Fight|d8d0c62f3d9c",
     "original": "Fight!",
     "translation": "",
-    "context": "<<POS:33060917>>"
+    "context": "<<POS:33060917>> addButton(0,\"Fight!\",(function(){return E.V.beginCombat()}),\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|d8d0c62f3d9c",
+    "original": "Fight!",
+    "translation": "",
+    "context": "<<POS:33060965>> addButton(0,\"Fight!\",(function(){return E.V.beginCombat()}),\"Fight!\",\"\")"
   },
   {
     "key": "button|Video|855e2ae8063f",
     "original": "Video",
     "translation": "",
-    "context": "<<POS:33061013>>"
+    "context": "<<POS:33061013>> addButton(e++,\"Video\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(kme||(kme=(0,Ce.Z)([\"\\n\\t\\tThe video blinks to life, and you see [flags.MASTODON_CAPTAIN_LOG\\n\\t\\t\\t|Redd, the rahn woman from the earlier video standing in front of a motley crew of fellow spacers.\\n\\t\\t\\t|a red rah..."
+  },
+  {
+    "key": "button.hover|Video|855e2ae8063f",
+    "original": "Video",
+    "translation": "",
+    "context": "<<POS:33066182>> addButton(e++,\"Video\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(kme||(kme=(0,Ce.Z)([\"\\n\\t\\tThe video blinks to life, and you see [flags.MASTODON_CAPTAIN_LOG\\n\\t\\t\\t|Redd, the rahn woman from the earlier video standing in front of a motley crew of fellow spacers.\\n\\t\\t\\t|a red rah..."
   },
   {
     "key": "output|textify_vme_vme_0_Ce_Z_n_tThis_is_the_ship_s_medbay_with|02f30cf16337",
@@ -177,7 +225,7 @@
     "key": "button|Datapad|7f255b29bf47",
     "original": "Datapad",
     "translation": "",
-    "context": "<<POS:33067951>>"
+    "context": "<<POS:33067951>> addButton(e++,\"Datapad\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(Tme||(Tme=(0,Ce.Z)([\"\\n\\t\\tThe computer screen displays line after line of code, scrolling past in an ongoing loop. The user interface seems pretty basic, and it only takes you a second to find the button to make t..."
   },
   {
     "key": "output|textify_Cme_Cme_0_Ce_Z_n_tA_short_hallway_holds_the_crew|93dfd81807a8",
@@ -189,7 +237,13 @@
     "key": "button|Investigate|a2a0533bed5c",
     "original": "Investigate",
     "translation": "",
-    "context": "<<POS:33072500>>"
+    "context": "<<POS:33072500>> addButton(e++,\"Investigate\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(Lme||(Lme=(0,Ce.Z)([\"\\n\\t\\tThis room is small, but somehow manages to be a complete mess. Holo-posters cover what little wall space there is, flipping between images of all kinds of people from all kinds of spe..."
+  },
+  {
+    "key": "button.hover|Investigate|a2a0533bed5c",
+    "original": "Investigate",
+    "translation": "",
+    "context": "<<POS:33073956>> addButton(e++,\"Investigate\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(Lme||(Lme=(0,Ce.Z)([\"\\n\\t\\tThis room is small, but somehow manages to be a complete mess. Holo-posters cover what little wall space there is, flipping between images of all kinds of people from all kinds of spe..."
   },
   {
     "key": "output|textify_Sme_Sme_0_Ce_Z_n_tThe_hallway_continues_through_t|98f97317b7d2",
@@ -237,7 +291,13 @@
     "key": "button|Fight|d8d0c62f3d9c#1",
     "original": "Fight!",
     "translation": "",
-    "context": "<<POS:33079080>>"
+    "context": "<<POS:33079080>> addButton(0,\"Fight!\",(function(){return E.V.beginCombat()}),\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|d8d0c62f3d9c#1",
+    "original": "Fight!",
+    "translation": "",
+    "context": "<<POS:33079128>> addButton(0,\"Fight!\",(function(){return E.V.beginCombat()}),\"Fight!\",\"\")"
   },
   {
     "key": "output|textify_Bme_Bme_0_Ce_Z_n_tThe_cargo_bay_narrows_to_a_hall|d448354f7788",
@@ -249,13 +309,25 @@
     "key": "button|Screen|42fb5e0d91ce",
     "original": "Screen",
     "translation": "",
-    "context": "<<POS:33080136>>"
+    "context": "<<POS:33080136>> addButton(e++,\"Screen\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(Nme||(Nme=(0,Ce.Z)([\"\\n\\t\\tThe video flickers to life. It looks like it was shot from a camera on the screen you’re looking at — you can see the cargo bay behind you on the screen. Also on the screen is an ausar wom..."
+  },
+  {
+    "key": "button.hover|Screen|42fb5e0d91ce",
+    "original": "Screen",
+    "translation": "",
+    "context": "<<POS:33084335>> addButton(e++,\"Screen\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(Nme||(Nme=(0,Ce.Z)([\"\\n\\t\\tThe video flickers to life. It looks like it was shot from a camera on the screen you’re looking at — you can see the cargo bay behind you on the screen. Also on the screen is an ausar wom..."
   },
   {
     "key": "button|Hack_Door|f00f0dd67eaf",
     "original": "Hack Door",
     "translation": "",
-    "context": "<<POS:33084385>>"
+    "context": "<<POS:33084385>> addButton(e++,\"Hack Door\",ofe,\"Hack Door\",\"\")"
+  },
+  {
+    "key": "button.hover|Hack_Door|f00f0dd67eaf",
+    "original": "Hack Door",
+    "translation": "",
+    "context": "<<POS:33084401>> addButton(e++,\"Hack Door\",ofe,\"Hack Door\",\"\")"
   },
   {
     "key": "output|textify_Rme_Rme_0_Ce_Z_n_tAn_airlock_large_enough_to_acco|1177f6c64f32",
@@ -333,7 +405,13 @@
     "key": "button|Video_Log|5b9b883e38e9",
     "original": "Video Log",
     "translation": "",
-    "context": "<<POS:33092242>>"
+    "context": "<<POS:33092242>> addButton(e++,\"Video Log\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(Ume||(Ume=(0,Ce.Z)([\"\\n\\t\\tWhen the video starts, all you see is a dark green blur, which resolves into green-skinned hands as they pull away. The camera focuses on the grinning face of a gabilani woman with brig..."
+  },
+  {
+    "key": "button.hover|Video_Log|5b9b883e38e9",
+    "original": "Video Log",
+    "translation": "",
+    "context": "<<POS:33096512>> addButton(e++,\"Video Log\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(Ume||(Ume=(0,Ce.Z)([\"\\n\\t\\tWhen the video starts, all you see is a dark green blur, which resolves into green-skinned hands as they pull away. The camera focuses on the grinning face of a gabilani woman with brig..."
   },
   {
     "key": "output|textify_qme_qme_0_Ce_Z_n_tThe_port_engine_a_powerful_pie|19997543a5e3",

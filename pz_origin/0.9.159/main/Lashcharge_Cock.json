@@ -12,25 +12,25 @@
     "context": "<<POS:07864941>>"
   },
   {
-    "key": "output|n_nYou_put_the_item_back_in_your_inventory|366220cf4745",
-    "original": "\\n\\nYou put the item back in your inventory.",
+    "key": "output|You_put_the_item_back_in_your_inventory|d28fac774625",
+    "original": "You put the item back in your inventory.",
     "translation": "",
-    "context": "<<POS:07865018>>"
+    "context": "<<POS:07865022>>"
   },
   {
-    "key": "output|You_have_more_than_one_eligible_genital_Which_one_will_you_inje|1b8eee26f8de",
-    "original": "You have more than one eligible genital. Which one will you inject with Bumpy Road?\\n",
+    "key": "output|You_have_more_than_one_eligible_genital_Which_one_will_you_inje|c5eeccb12b44",
+    "original": "You have more than one eligible genital. Which one will you inject with Bumpy Road?",
     "translation": "",
     "context": "<<POS:07865185>>"
   },
   {
-    "key": "output|n_b_Cock_b|a2f32e74f6fa",
-    "original": "\\n<b>Cock:</b>",
+    "key": "output|b_Cock_b|bfab8b42aabb",
+    "original": "<b>Cock:</b>",
     "translation": "",
-    "context": "<<POS:07865330>>"
+    "context": "<<POS:07865332>>"
   },
   {
-    "key": "output|GLOBAL_FLAG_NAMES_e_cocks_0_flags_u|83cdeb128436",
+    "key": "output|GLOBAL_FLAG_NAMES_e_cocks_0_flags_u|c20ec2f38e9e",
     "original": " \"+GLOBAL.FLAG_NAMES[e.cocks[0].flags[u]]+\",",
     "translation": "",
     "context": "<<POS:07865423>>"
@@ -51,13 +51,25 @@
     "key": "button|Cock|789776eb1812",
     "original": "Cock",
     "translation": "",
-    "context": "<<POS:07865614>>"
+    "context": "<<POS:07865614>> addButton(o,\"Cock\",(function(){return t.cockTF(e,0)}),\"Cock\",\"Use this on your [pc.cock 0].\")"
   },
   {
-    "key": "output|n_b_l_m_capitalize_l_m_numToOrdinal_a_n_1_Cock_b|a564b960d32e",
-    "original": "\\n<b>\"+l.m.capitalize(l.m.numToOrdinal(a[n]+1))+\" Cock:</b>",
+    "key": "button.hover|Cock|789776eb1812",
+    "original": "Cock",
     "translation": "",
-    "context": "<<POS:07865737>>"
+    "context": "<<POS:07865656>> addButton(o,\"Cock\",(function(){return t.cockTF(e,0)}),\"Cock\",\"Use this on your [pc.cock 0].\")"
+  },
+  {
+    "key": "button.tooltip|Use_this_on_your_pc_cock_0|d45b2736fea7",
+    "original": "Use this on your [pc.cock 0].",
+    "translation": "",
+    "context": "<<POS:07865663>> addButton(o,\"Cock\",(function(){return t.cockTF(e,0)}),\"Cock\",\"Use this on your [pc.cock 0].\")"
+  },
+  {
+    "key": "output|b_l_m_capitalize_l_m_numToOrdinal_a_n_1_Cock_b|7b5cdf1e950a",
+    "original": "<b>\"+l.m.capitalize(l.m.numToOrdinal(a[n]+1))+\" Cock:</b>",
+    "translation": "",
+    "context": "<<POS:07865739>>"
   },
   {
     "key": "output|GLOBAL_FLAG_NAMES_e_cocks_a_n_flags_i|ab9acf2a2361",
@@ -81,16 +93,22 @@
     "key": "button|Cock|ce1d3e153012",
     "original": "Cock ",
     "translation": "",
-    "context": "<<POS:07866084>>"
+    "context": "<<POS:07866084>> addButton(o,\"Cock \"+(a[n]+1),(function(){return t.cockTF(e,a[n])}),l.m.capitalize(l.m.numToOrdinal(a[n]+1))+\" Cock\",\"Use this on your [pc.cock \"+a[n]+\"].\")"
   },
   {
-    "key": "output|n_b_Vagina_b|f4e33676d689",
-    "original": "\\n<b>Vagina:</b>",
+    "key": "button.tooltip|Use_this_on_your_pc_cock|682a5d29e2ca",
+    "original": "Use this on your [pc.cock ",
     "translation": "",
-    "context": "<<POS:07866306>>"
+    "context": "<<POS:07866188>> addButton(o,\"Cock \"+(a[n]+1),(function(){return t.cockTF(e,a[n])}),l.m.capitalize(l.m.numToOrdinal(a[n]+1))+\" Cock\",\"Use this on your [pc.cock \"+a[n]+\"].\")"
   },
   {
-    "key": "output|GLOBAL_FLAG_NAMES_e_vaginas_0_flags_d|edff279a3214",
+    "key": "output|b_Vagina_b|2bc7dcf058e0",
+    "original": "<b>Vagina:</b>",
+    "translation": "",
+    "context": "<<POS:07866308>>"
+  },
+  {
+    "key": "output|GLOBAL_FLAG_NAMES_e_vaginas_0_flags_d|3c82dbb2326f",
     "original": " \"+GLOBAL.FLAG_NAMES[e.vaginas[0].flags[d]]+\",",
     "translation": "",
     "context": "<<POS:07866405>>"
@@ -111,13 +129,25 @@
     "key": "button|Vagina|3b92bb07aff3",
     "original": "Vagina",
     "translation": "",
-    "context": "<<POS:07866607>>"
+    "context": "<<POS:07866607>> addButton(o,\"Vagina\",(function(){return t.cuntTF(e,0)}),\"Vagina\",\"Use this on your [pc.vagina 0].\")"
   },
   {
-    "key": "output|n_b_l_m_capitalize_l_m_numToOrdinal_n_a_1_Vagina_b|9395ef9f9534",
-    "original": "\\n<b>\"+l.m.capitalize(l.m.numToOrdinal(n[a]+1))+\" Vagina:</b>",
+    "key": "button.hover|Vagina|3b92bb07aff3",
+    "original": "Vagina",
     "translation": "",
-    "context": "<<POS:07866736>>"
+    "context": "<<POS:07866651>> addButton(o,\"Vagina\",(function(){return t.cuntTF(e,0)}),\"Vagina\",\"Use this on your [pc.vagina 0].\")"
+  },
+  {
+    "key": "button.tooltip|Use_this_on_your_pc_vagina_0|81cdeda1e7bd",
+    "original": "Use this on your [pc.vagina 0].",
+    "translation": "",
+    "context": "<<POS:07866660>> addButton(o,\"Vagina\",(function(){return t.cuntTF(e,0)}),\"Vagina\",\"Use this on your [pc.vagina 0].\")"
+  },
+  {
+    "key": "output|b_l_m_capitalize_l_m_numToOrdinal_n_a_1_Vagina_b|b4a9e6366a73",
+    "original": "<b>\"+l.m.capitalize(l.m.numToOrdinal(n[a]+1))+\" Vagina:</b>",
+    "translation": "",
+    "context": "<<POS:07866738>>"
   },
   {
     "key": "output|GLOBAL_FLAG_NAMES_e_vaginas_n_a_flags_i|9260c6727735",
@@ -141,10 +171,16 @@
     "key": "button|Vagina|14139282aec1",
     "original": "Vagina ",
     "translation": "",
-    "context": "<<POS:07867100>>"
+    "context": "<<POS:07867100>> addButton(o,\"Vagina \"+(n[a]+1),(function(){return t.cuntTF(e,n[a])}),l.m.capitalize(l.m.numToOrdinal(n[a]+1))+\" Vagina\",\"Use this on your [pc.vagina \"+n[a]+\"].\")"
   },
   {
-    "key": "output|e_capitalA_e_short_injects_the_Bumpy_Road_transformative_but_t|c9073579d65d",
+    "key": "button.tooltip|Use_this_on_your_pc_vagina|4fdb8f7f76ba",
+    "original": "Use this on your [pc.vagina ",
+    "translation": "",
+    "context": "<<POS:07867208>> addButton(o,\"Vagina \"+(n[a]+1),(function(){return t.cuntTF(e,n[a])}),l.m.capitalize(l.m.numToOrdinal(n[a]+1))+\" Vagina\",\"Use this on your [pc.vagina \"+n[a]+\"].\")"
+  },
+  {
+    "key": "output|e_capitalA_e_short_injects_the_Bumpy_Road_transformative_but_t|bc8d376caf6f",
     "original": "e.capitalA+e.short+\" injects the Bumpy Road transformative but to no effect.",
     "translation": "",
     "context": "<<POS:07867301>>"
@@ -153,7 +189,7 @@
     "key": "name.show|Bumpy_Road|71dea7f33d5b",
     "original": "Bumpy Road",
     "translation": "",
-    "context": "<<POS:07867456>>"
+    "context": "<<POS:07867456>> showName(\"Bumpy Road\")"
   },
   {
     "key": "output|You|3b8216d8c3f1",
@@ -186,16 +222,16 @@
     "context": "<<POS:07867805>>"
   },
   {
-    "key": "output|n_nTeasing_your_pc_cockHead_t_to_make_sure_you_remain_at|cd4c54bc9c30",
-    "original": "\\n\\nTeasing your [pc.cockHead \"+t+\"] to make sure you remain at full mast, you wait a few good minutes before the first nub starts to appear. The spot where you initially injected suddenly grows painful, the flesh twisting and swelling into a small bump. It soon plumps up as more and more pulsating prickles begin sprouting all around your shaft. You sigh in relief as the pain stops and the lumps finish their growth. That’s as large as they’re gonna get.",
+    "key": "output|Teasing_your_pc_cockHead_t_to_make_sure_you_remain_at_full|4c3da48e9c7d",
+    "original": "Teasing your [pc.cockHead \"+t+\"] to make sure you remain at full mast, you wait a few good minutes before the first nub starts to appear. The spot where you initially injected suddenly grows painful, the flesh twisting and swelling into a small bump. It soon plumps up as more and more pulsating prickles begin sprouting all around your shaft. You sigh in relief as the pain stops and the lumps finish their growth. That’s as large as they’re gonna get.",
     "translation": "",
-    "context": "<<POS:07868318>>"
+    "context": "<<POS:07868322>>"
   },
   {
-    "key": "output|n_nTouching_one_of_the_nubs_leaves_you_frowning_realizing_that|cba6c39cfc01",
-    "original": "\\n\\nTouching one of the nubs leaves you frowning, realizing that you can’t feel anything through them. You were promised sensitive nubs... these are nothing more than balls of spongy meat! Before you can think of complaining any further, a sudden rush of blood fills your turgid length - more firm and plump than ever before. The nodules light up in pain as new nerves begin to grow within them. Bringing a finger to the first nub, you gently massage it against your shaft and it answers back with an overwhelming wave of pleasure. Each nub grows a set of nerve clusters and hot damn are they sensitive! You can’t hold it anymore and fully grab your meat, stroking it as gently as you can, feeling the receptive buds against the",
+    "key": "output|Touching_one_of_the_nubs_leaves_you_frowning_realizing_that_you|cd3fe440b6e3",
+    "original": "Touching one of the nubs leaves you frowning, realizing that you can’t feel anything through them. You were promised sensitive nubs... these are nothing more than balls of spongy meat! Before you can think of complaining any further, a sudden rush of blood fills your turgid length - more firm and plump than ever before. The nodules light up in pain as new nerves begin to grow within them. Bringing a finger to the first nub, you gently massage it against your shaft and it answers back with an overwhelming wave of pleasure. Each nub grows a set of nerve clusters and hot damn are they sensitive! You can’t hold it anymore and fully grab your meat, stroking it as gently as you can, feeling the receptive buds against the",
     "translation": "",
-    "context": "<<POS:07868786>>"
+    "context": "<<POS:07868790>>"
   },
   {
     "key": "output|pads|88bc2efff50f",
@@ -216,10 +252,10 @@
     "context": "<<POS:07869576>>"
   },
   {
-    "key": "output|n_nYou_reach_your_limit_and_shoot_the_first_load_of_your_newly|6bf0b132ccf0",
-    "original": "\\n\\nYou reach your limit and shoot the first load of your newly-modded dick. The bumps continue to entice you and you can’t even stop gently beating your dick as you cum, each string of [pc.cum] shooting from the cumslit onto the floor below.",
+    "key": "output|You_reach_your_limit_and_shoot_the_first_load_of_your_newly_modd|5ecc3bea2e28",
+    "original": "You reach your limit and shoot the first load of your newly-modded dick. The bumps continue to entice you and you can’t even stop gently beating your dick as you cum, each string of [pc.cum] shooting from the cumslit onto the floor below.",
     "translation": "",
-    "context": "<<POS:07869782>>"
+    "context": "<<POS:07869786>>"
   },
   {
     "key": "output|Once_your_climax_ends_you_pull_up_your_pc_lowerGarments_and_w|f670647fabc2",
@@ -249,13 +285,13 @@
     "key": "button|Next|680df3a7b427",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07870485>>"
+    "context": "<<POS:07870485>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "name.show|Bumpy_Road|b56eb1e38bfe",
     "original": "Bumpy Road",
     "translation": "",
-    "context": "<<POS:07870578>>"
+    "context": "<<POS:07870578>> showName(\"Bumpy Road\")"
   },
   {
     "key": "output|You|3b8216d8c3f1#1",
@@ -288,22 +324,22 @@
     "context": "<<POS:07870927>>"
   },
   {
-    "key": "output|n_nYou_continue_injecting_your_labia_until_you_are_satisfied_t|d1412aa12a9d",
-    "original": "\\n\\nYou continue injecting your labia until you are satisfied, then you aim the needle inside and guide it into your vulva. The tip rubs on the wall as you adjust the injector inside your [pc.vagina \"+t+\"], moving it around to find the right place to inject it. As you move the needle to the next spot, you grow more and more aroused with each injection and soon realize that you are also using the injector as a dildo. When the first few bumps begin to grow outside your vagina, you cum, releasing a few squirts of [pc.girlCum], covering your hands and the injector in it. You feel a sudden rush of pleasure as the affected spots on your lady lips begin to twist and swell into nodules. The friction of your hands against each nub triggers another wave of pleasure. If this keeps up, you’re not even sure if you can finish before cumming again.",
+    "key": "output|You_continue_injecting_your_labia_until_you_are_satisfied_then|de79f55fa06d",
+    "original": "You continue injecting your labia until you are satisfied, then you aim the needle inside and guide it into your vulva. The tip rubs on the wall as you adjust the injector inside your [pc.vagina \"+t+\"], moving it around to find the right place to inject it. As you move the needle to the next spot, you grow more and more aroused with each injection and soon realize that you are also using the injector as a dildo. When the first few bumps begin to grow outside your vagina, you cum, releasing a few squirts of [pc.girlCum], covering your hands and the injector in it. You feel a sudden rush of pleasure as the affected spots on your lady lips begin to twist and swell into nodules. The friction of your hands against each nub triggers another wave of pleasure. If this keeps up, you’re not even sure if you can finish before cumming again.",
     "translation": "",
-    "context": "<<POS:07871235>>"
+    "context": "<<POS:07871239>>"
   },
   {
-    "key": "output|n_nYou_inject_the_inside_of_your_pc_vaginaNoun_t_again_an|f50dd84216cc",
-    "original": "\\n\\nYou inject the inside of your [pc.vaginaNoun \"+t+\"] again and again, relishing the pleasurable prickles spreading all around its interior. As soon as you finish your work on the inside, you prepare to remove the injector, only to find that you can’t will your hand away despite your mind’s urgings. Falling on your back, you truly begin to use the injector as a dildo, putting your fingers in a V-shape and proceeding to rub them against the newly-nubbed lips. The next wave comes even stronger than before, triggered by the nerves growing inside each bud, becoming fatter and more sensitive with each passing second. <b>Your vagina is now covered in nubs.</b>",
+    "key": "output|You_inject_the_inside_of_your_pc_vaginaNoun_t_again_and_ag|8a12f8ccd4d5",
+    "original": "You inject the inside of your [pc.vaginaNoun \"+t+\"] again and again, relishing the pleasurable prickles spreading all around its interior. As soon as you finish your work on the inside, you prepare to remove the injector, only to find that you can’t will your hand away despite your mind’s urgings. Falling on your back, you truly begin to use the injector as a dildo, putting your fingers in a V-shape and proceeding to rub them against the newly-nubbed lips. The next wave comes even stronger than before, triggered by the nerves growing inside each bud, becoming fatter and more sensitive with each passing second. <b>Your vagina is now covered in nubs.</b>",
     "translation": "",
-    "context": "<<POS:07872091>>"
+    "context": "<<POS:07872095>>"
   },
   {
-    "key": "output|n_nYou_discard_the_needle_and_shove_your_hand_in_your_vagina_t|f2acfdc7e0c0",
-    "original": "\\n\\nYou discard the needle and shove your hand in your vagina, testing the new sensitivity of each protrusion. It’s not long before you reach another mind-blowing climax, squirting a big dose of [pc.girlcum] all over your arm and hands, and even the floor.",
+    "key": "output|You_discard_the_needle_and_shove_your_hand_in_your_vagina_testi|d836479cfee7",
+    "original": "You discard the needle and shove your hand in your vagina, testing the new sensitivity of each protrusion. It’s not long before you reach another mind-blowing climax, squirting a big dose of [pc.girlcum] all over your arm and hands, and even the floor.",
     "translation": "",
-    "context": "<<POS:07872766>>"
+    "context": "<<POS:07872770>>"
   },
   {
     "key": "output|Once_your_climax_ends_you_pull_up_your_pc_lowerGarments_the|c2ceaad11dcb",
@@ -333,6 +369,6 @@
     "key": "button|Next|f0ced0eeb7e8",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07873394>>"
+    "context": "<<POS:07873394>> addButton(0,\"Next\",mainGameMenu)"
   }
 ]

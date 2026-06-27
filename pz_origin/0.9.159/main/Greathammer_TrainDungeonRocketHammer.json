@@ -3,25 +3,25 @@
     "key": "perk|Can_Crit|5aa6231ac881",
     "original": "Can Crit",
     "translation": "",
-    "context": "<<POS:02992885>>"
+    "context": "<<POS:02992885>> createPerk(\"Can Crit\")"
   },
   {
     "key": "perk|Aimed_Shot|ccc764cbaf66",
     "original": "Aimed Shot",
     "translation": "",
-    "context": "<<POS:02992910>>"
+    "context": "<<POS:02992910>> createPerk(\"Aimed Shot\")"
   },
   {
     "key": "perk|Fixed_CumQ|b137da54124f",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:02992937>>"
+    "context": "<<POS:02992937>> createPerk(\"Fixed CumQ\",1e3)"
   },
   {
     "key": "perk|Appearance_Enabled|1e131553585f",
     "original": "Appearance Enabled",
     "translation": "",
-    "context": "<<POS:02992968>>"
+    "context": "<<POS:02992968>> createPerk(\"Appearance Enabled\")"
   },
   {
     "key": "output|Johana_twists_around_with_desperate_fury_b_escaping_the_grappl|984ad82dd14e",
@@ -87,16 +87,22 @@
     "key": "perk|Appearance_Enabled|fd5c55bfa67b",
     "original": "Appearance Enabled",
     "translation": "",
-    "context": "<<POS:03004997>>"
+    "context": "<<POS:03004997>> createPerk(\"Appearance Enabled\")"
   },
   {
     "key": "perk|Custom_Appearance|033e05d630a5",
     "original": "Custom Appearance",
     "translation": "",
-    "context": "<<POS:03005032>>"
+    "context": "<<POS:03005032>> createPerk(\"Custom Appearance\")"
   },
   {
-    "key": "combat|concat_v_m_capitalize_e_getCombatName_1_duck_concat_t|61e5fc5eaa85",
+    "key": "textify|As_you_take_a_moment_to_check_out_the_yeen_raider_the_first_thi|e4d52b6819c5",
+    "original": "As you take a moment to check out the yeen raider, the first thing that catches your attention are his massive balls. They’re so large that his crotch-flap utterly fails to conceal their underside. They spill into plain view with his slightest movement, and the only thing that gives him a semblance of decency is his dark underwear, whose color blends with the crotch-flap to create the appearance of something that passes for pants on a cursory glance.\\n\\n\\t\\tFollowing that, your gaze goes to his broad hips and ass. Looking at so many acres of bubblebutt, even a saint would be tempted to grab it, give it a smack, or preferably both.\\n\\t\\t\\n\\t\\tIt’s hard to pay attention to the rest of him when he’s got such whopping assets drawing the eye like magnets, but once you manage to stop staring at his waist level, you realize that the boy’s got a lot more going for him. For starters, his body is quite athletic, lined with muscles that are visible but not overly defined. His pecs, in particular, look quite beefy, and the yellow-gray fur on his forelimbs does a great job of framing his biceps and thighs.\\n\\t\\t\\n\\t\\tEven more impressive, however, is the fact that you can’t spot a single scar on his chocolate skin — for a raider, that would mean he’s either extremely good at his job, or extremely lucky. Or maybe hyraxi medicine is simply more advanced than you gave it credit for.\\n\\t\\t\\n\\t\\tLast but not least, your eyes fall on his visage: the raider’s face is androgynous and pretty, with a hint of masculinity on his jawline that gives him a slightly boyish look. It is framed by a purple mane of fashionably-shaggy hair reaching down to his neck, while bangs cover part of his brow and left eye, making the yeen look more like a pop idol than someone you would find on Phaedra.\\n\\t\\t\\n\\t\\tTo top it off, his big mouth is always curled into some kind of cocky smile, giving the raider a resting brat face that is thematically matched by his choker. It has the letters B.R.A.T. engraved on a golden plate, complete with a loop for someone to pass a leash through. For a self-proclaimed alpha, he has an... interesting taste in accessories.\\n\\t\\t\\n\\t\\tAs your gaze meets his vibrant light-green eyes, the boy gives you a wink and wiggles his hyena ears happily. <i>“Done looking? How about you[pc.isBiped| get on all fours for me| turn around and let me fuck you] now,[pc.mfn| handsome| cutie| cutie]?”</i>\\n\\t\\t\\n\\t\\t[pc.isSubby|[pc.hasCock|Your [pc.cocksNounSimple] twitch[s|es] at the invitation, and for a moment|For a moment,] you actually fantasize about letting this smug boy empty his huge balls in you...|[pc.isDommy|Damn, it’s like every time this brat opens his mouth, it makes you want to[pc.hasCock| bend him over| spank his smug ass]!]]",
+    "translation": "",
+    "context": "<<POS:03005206>>"
+  },
+  {
+    "key": "combat|concat_v_m_capitalize_e_getCombatName_1_duck_concat_t|ea8ca1af784d",
     "original": " \".concat(v.m.capitalize(e.getCombatName(),!1),\" duck\").concat(t?\"\":\"s\",\" out of the way at the last second, the blade screaming through the air with a thrum of rending energy.\")",
     "translation": "",
     "context": "<<POS:03009404>>"
@@ -150,34 +156,34 @@
     "context": "<<POS:03011856>>"
   },
   {
-    "key": "combat|nThe_real_attack_is_the_follow_up_a_brutally_thrown_pistol_whi|f2145429f11f",
-    "original": "\\nThe real attack is the follow-up: a brutally thrown pistol whip that grazes past \".concat(v.m.possessive(target.getCombatName()),\" [target.chest].\")",
+    "key": "combat|The_real_attack_is_the_follow_up_a_brutally_thrown_pistol_whip|097016d6e0c9",
+    "original": "The real attack is the follow-up: a brutally thrown pistol whip that grazes past \".concat(v.m.possessive(target.getCombatName()),\" [target.chest].\")",
     "translation": "",
-    "context": "<<POS:03012170>>"
+    "context": "<<POS:03012172>>"
   },
   {
-    "key": "combat|nThe_follow_up_pistol_whip_cracks_concat_target_isRobot_do|59047696786d",
-    "original": "\\nThe follow-up pistol-whip cracks \".concat(target.isRobot()?\"down hard\":\"into the top of \"+v.m.possessive(target.getCombatName())+\" sternum\",\" with sundering focus.\")",
+    "key": "combat|The_follow_up_pistol_whip_cracks_concat_target_isRobot_down|8f5fef0346d2",
+    "original": "The follow-up pistol-whip cracks \".concat(target.isRobot()?\"down hard\":\"into the top of \"+v.m.possessive(target.getCombatName())+\" sternum\",\" with sundering focus.\")",
     "translation": "",
-    "context": "<<POS:03012357>>"
+    "context": "<<POS:03012359>>"
   },
   {
-    "key": "combat|n_b_v_m_capitalize_target_getCombatName_1_o_are_i|96ea9cd7ea1e",
-    "original": "\\n<b>\"+v.m.capitalize(target.getCombatName(),!1)+\" \"+(o?\"are\":\"is\")+\" sundered!</b>",
+    "key": "combat|b_v_m_capitalize_target_getCombatName_1_o_are_is|6f3a802b638e",
+    "original": "<b>\"+v.m.capitalize(target.getCombatName(),!1)+\" \"+(o?\"are\":\"is\")+\" sundered!</b>",
     "translation": "",
-    "context": "<<POS:03012738>>"
+    "context": "<<POS:03012740>>"
   },
   {
-    "key": "combat|nYou_duck_low_slide_out_of_the_confining_pattern_before_the_fol|996892a13763",
-    "original": "\\nYou duck low slide out of the confining pattern before the follow-up strike arrives.",
+    "key": "combat|You_duck_low_slide_out_of_the_confining_pattern_before_the_follo|c113dc6469bf",
+    "original": "You duck low slide out of the confining pattern before the follow-up strike arrives.",
     "translation": "",
-    "context": "<<POS:03013404>>"
+    "context": "<<POS:03013406>>"
   },
   {
-    "key": "combat|n_concat_v_m_capitalize_target_getCombatName_1_duck_co|8501b427a621",
-    "original": "\\n\".concat(v.m.capitalize(target.getCombatName(),!1),\" duck\").concat(e?\"\":\"s\",\" out of the crowding pattern before the follow-up strike can arrive.\")",
+    "key": "combat|concat_v_m_capitalize_target_getCombatName_1_duck_conc|72cef6c9f858",
+    "original": "\".concat(v.m.capitalize(target.getCombatName(),!1),\" duck\").concat(e?\"\":\"s\",\" out of the crowding pattern before the follow-up strike can arrive.\")",
     "translation": "",
-    "context": "<<POS:03013507>>"
+    "context": "<<POS:03013509>>"
   },
   {
     "key": "combat|The_very_instant_there_s_nowhere_left_to_move_concat_this_get|2797a8553141",
@@ -186,46 +192,46 @@
     "context": "<<POS:03013673>>"
   },
   {
-    "key": "combat|nOne_of_the_rapid_shots_sails_wide_right_past_concat_target|201693584968",
-    "original": "\\nOne of the rapid shots sails wide, right past \".concat(target.getCombatName(),\"!\")",
+    "key": "combat|One_of_the_rapid_shots_sails_wide_right_past_concat_target_ge|f25a9ab194cc",
+    "original": "One of the rapid shots sails wide, right past \".concat(target.getCombatName(),\"!\")",
     "translation": "",
-    "context": "<<POS:03014567>>"
+    "context": "<<POS:03014569>>"
   },
   {
-    "key": "combat|nOne_of_the_rapidly_shot_energy_charges_hits_concat_target_ge|22357f067f01",
-    "original": "\\nOne of the rapidly shot energy charges hits \".concat(target.getCombatName(),\"!\")",
+    "key": "combat|One_of_the_rapidly_shot_energy_charges_hits_concat_target_getC|6e2c6ed351ed",
+    "original": "One of the rapidly shot energy charges hits \".concat(target.getCombatName(),\"!\")",
     "translation": "",
-    "context": "<<POS:03014668>>"
+    "context": "<<POS:03014670>>"
   },
   {
-    "key": "combat|n_concat_v_m_capitalize_e_getCombatName_1_concat_t_d|bfd53be92393",
-    "original": "\\n\".concat(v.m.capitalize(e.getCombatName(),!1),\" \").concat(t?\"duck and weave\":\"ducks and weaves\",\" past the flurry of hands trying to hit \").concat(e.getCombatPronoun(\"himher\"),\", avoiding the worst of the blur of hands.\")",
+    "key": "combat|concat_v_m_capitalize_e_getCombatName_1_concat_t_duc|ac89e3cbb602",
+    "original": "\".concat(v.m.capitalize(e.getCombatName(),!1),\" \").concat(t?\"duck and weave\":\"ducks and weaves\",\" past the flurry of hands trying to hit \").concat(e.getCombatPronoun(\"himher\"),\", avoiding the worst of the blur of hands.\")",
     "translation": "",
-    "context": "<<POS:03018012>>"
+    "context": "<<POS:03018014>>"
   },
   {
-    "key": "combat|nSlap_after_slap_catches_concat_e_getCombatPronoun_himher|ebfec17ea8fa",
-    "original": "\\nSlap after slap catches \".concat(e.getCombatPronoun(\"himher\"),\" off guard, but they prove more of a distraction than anything actually painful - until one last crashing paw-hand slams into \").concat(e.isRobot()?e.getCombatPronoun(\"himher\"):v.m.possessive(e.getCombatName())+\" face\",\"!\")",
+    "key": "combat|Slap_after_slap_catches_concat_e_getCombatPronoun_himher|cf4162905b99",
+    "original": "Slap after slap catches \".concat(e.getCombatPronoun(\"himher\"),\" off guard, but they prove more of a distraction than anything actually painful - until one last crashing paw-hand slams into \").concat(e.isRobot()?e.getCombatPronoun(\"himher\"):v.m.possessive(e.getCombatName())+\" face\",\"!\")",
     "translation": "",
-    "context": "<<POS:03018252>>"
+    "context": "<<POS:03018254>>"
   },
   {
-    "key": "combat|n_b_It_might_be_best_to_interrupt_concat_this_getCombatName|4fde9fd48f73",
-    "original": "\\n<b>It might be best to interrupt \".concat(this.getCombatName(),\" during the windup!</b>\")",
+    "key": "combat|b_It_might_be_best_to_interrupt_concat_this_getCombatName|53b5123d584a",
+    "original": "<b>It might be best to interrupt \".concat(this.getCombatName(),\" during the windup!</b>\")",
     "translation": "",
-    "context": "<<POS:03019796>>"
+    "context": "<<POS:03019798>>"
   },
   {
-    "key": "combat|n_concat_this_getCombatName_0_s_concentration_momentarily|57572b71c84c",
-    "original": "\\n\".concat(this.getCombatName(!0),\"’s concentration momentarily breaks, fumbling the windup of their hulking weapon!\")",
+    "key": "combat|concat_this_getCombatName_0_s_concentration_momentarily_br|0be145baabd3",
+    "original": "\".concat(this.getCombatName(!0),\"’s concentration momentarily breaks, fumbling the windup of their hulking weapon!\")",
     "translation": "",
-    "context": "<<POS:03020320>>"
+    "context": "<<POS:03020322>>"
   },
   {
-    "key": "combat|n_nHe_lands_before_target_getCombatName_can_react_stompi|2087c56fd75c",
-    "original": "\\n\\nHe lands before \"+target.getCombatName()+\" can react, stomping down hard and digging his talons into \"+target.getCombatPronoun(\"himher\")+\" for a moment before rearing back up to relentlessly kick \"+target.getCombatPronoun(\"himher\")+\" again and again.",
+    "key": "combat|He_lands_before_target_getCombatName_can_react_stomping_d|eaccd1066d8a",
+    "original": "He lands before \"+target.getCombatName()+\" can react, stomping down hard and digging his talons into \"+target.getCombatPronoun(\"himher\")+\" for a moment before rearing back up to relentlessly kick \"+target.getCombatPronoun(\"himher\")+\" again and again.",
     "translation": "",
-    "context": "<<POS:03020862>>"
+    "context": "<<POS:03020866>>"
   },
   {
     "key": "combat|You_manage_to_fight_him_off_and_clamber_to_your_pc_feet|e680c52fb478",
@@ -240,10 +246,10 @@
     "context": "<<POS:03021251>>"
   },
   {
-    "key": "combat|n_n_v_m_capitalize_target_getCombatName_1_roll_Player|4b434c313218",
-    "original": "\\n\\n\"+v.m.capitalize(target.getCombatName(),!1)+\" roll\"+(\"PlayerCharacter\"===target.getClassName()||target.isPlural?\"\":\"s\")+\" out of the way, letting him hit the sandy ground below. He tries to stomp again, but \"+target.getCombatName()+\" clamber\"+(\"PlayerCharacter\"===target.getClassName()||target.isPlural?\"\":\"s\")+\" to \"+target.getCombatPronoun(\"hisher\")+\" [pc.feet] just in time and scare him off.",
+    "key": "combat|v_m_capitalize_target_getCombatName_1_roll_PlayerChar|b68fe9837692",
+    "original": "\"+v.m.capitalize(target.getCombatName(),!1)+\" roll\"+(\"PlayerCharacter\"===target.getClassName()||target.isPlural?\"\":\"s\")+\" out of the way, letting him hit the sandy ground below. He tries to stomp again, but \"+target.getCombatName()+\" clamber\"+(\"PlayerCharacter\"===target.getClassName()||target.isPlural?\"\":\"s\")+\" to \"+target.getCombatPronoun(\"hisher\")+\" [pc.feet] just in time and scare him off.",
     "translation": "",
-    "context": "<<POS:03021438>>"
+    "context": "<<POS:03021442>>"
   },
   {
     "key": "combat|a_deft_little_hop_is_all_it_takes_for_concat_target_getComba|fe221bbe7085",
@@ -258,10 +264,10 @@
     "context": "<<POS:03022287>>"
   },
   {
-    "key": "combat|n_b_v_m_capitalize_target_getCombatName_1_e_are_is|0898de29f545",
-    "original": "\\n<b>\"+v.m.capitalize(target.getCombatName(),!1)+(e?\" are\":\" is\")+\" knocked down</b> by the impact!",
+    "key": "combat|b_v_m_capitalize_target_getCombatName_1_e_are_is|7f94ed18b8ef",
+    "original": "<b>\"+v.m.capitalize(target.getCombatName(),!1)+(e?\" are\":\" is\")+\" knocked down</b> by the impact!",
     "translation": "",
-    "context": "<<POS:03022589>>"
+    "context": "<<POS:03022591>>"
   },
   {
     "key": "combat|The_light_thuds_trigger_the_glowing_gem_nestled_at_the_head_to|d80164329fce",
@@ -306,16 +312,16 @@
     "context": "<<POS:03029367>>"
   },
   {
-    "key": "combat|nThe_sword_narrowly_misses_concat_e_getCombatName_and_sli|fc1b38697e05",
-    "original": "\\nThe sword narrowly misses \".concat(e.getCombatName(),\" and slices clean into the roof of the traincar under \").concat(e.getCombatPronoun(\"himher\"),\"!\")",
+    "key": "combat|The_sword_narrowly_misses_concat_e_getCombatName_and_slice|482ee61a3901",
+    "original": "The sword narrowly misses \".concat(e.getCombatName(),\" and slices clean into the roof of the traincar under \").concat(e.getCombatPronoun(\"himher\"),\"!\")",
     "translation": "",
-    "context": "<<POS:03038882>>"
+    "context": "<<POS:03038884>>"
   },
   {
-    "key": "combat|nA_backing_track_of_snarling_grunts_from_the_effort_of_bringing|90917ba31b72",
-    "original": "\\nA backing track of snarling grunts from the effort of bringing the sword down emerges from the warbitch. Every fibre of her bulging muscles pulls tight as she drives her weapon into \".concat(e.getCombatName())",
+    "key": "combat|A_backing_track_of_snarling_grunts_from_the_effort_of_bringing_t|b52a864fe5c2",
+    "original": "A backing track of snarling grunts from the effort of bringing the sword down emerges from the warbitch. Every fibre of her bulging muscles pulls tight as she drives her weapon into \".concat(e.getCombatName())",
     "translation": "",
-    "context": "<<POS:03039201>>"
+    "context": "<<POS:03039203>>"
   },
   {
     "key": "combat|unleashing_a_shower_of_escaping_plasma_across_the_traincar|10af7011c7ec",
@@ -348,13 +354,7 @@
     "context": "<<POS:03040411>>"
   },
   {
-    "key": "combat|n|d60199c569dc",
-    "original": "\\n",
-    "translation": "",
-    "context": "<<POS:03041120>>"
-  },
-  {
-    "key": "combat|The_endothermic_attack_sucks_the_stored_thermal_energy_straight|aea8f229dca7",
+    "key": "combat|The_endothermic_attack_sucks_the_stored_thermal_energy_straight|a73ec83c431d",
     "original": "The endothermic attack sucks the stored thermal energy straight out of the warbitch’s overheated thermal buffers, depleting their stored power!",
     "translation": "",
     "context": "<<POS:03041362>>"
@@ -366,28 +366,28 @@
     "context": "<<POS:03041522>>"
   },
   {
-    "key": "combat|nYou_blink_fast_enough_to_avoid_the_worst_of_the_effect|a304b635ea8d",
-    "original": "\\nYou blink fast enough to avoid the worst of the effect.",
+    "key": "combat|You_blink_fast_enough_to_avoid_the_worst_of_the_effect|5fe06cf83edf",
+    "original": "You blink fast enough to avoid the worst of the effect.",
     "translation": "",
-    "context": "<<POS:03043404>>"
+    "context": "<<POS:03043406>>"
   },
   {
-    "key": "combat|n_concat_v_m_capitalize_e_getCombatName_shake_concat_n|de4ac084c373",
-    "original": "\\n\".concat(v.m.capitalize(e.getCombatName()),\" shake\").concat(n?\"\":\"s\",\" off the brief flash and seem\").concat(n?\"\":\"s\",\" none the worse for it.\")",
+    "key": "combat|concat_v_m_capitalize_e_getCombatName_shake_concat_n|b10bfcb2a1b1",
+    "original": "\".concat(v.m.capitalize(e.getCombatName()),\" shake\").concat(n?\"\":\"s\",\" off the brief flash and seem\").concat(n?\"\":\"s\",\" none the worse for it.\")",
     "translation": "",
-    "context": "<<POS:03043478>>"
+    "context": "<<POS:03043480>>"
   },
   {
-    "key": "combat|nYou_can_t_help_but_bring_a_hand_to_your_face_and_rub_your_eyes|9f492477d71c",
-    "original": "\\nYou can’t help but bring a hand to your face and rub your eyes, lingering brightness washing out your vision. <b>You’re momentarily blind!</b>",
+    "key": "combat|You_can_t_help_but_bring_a_hand_to_your_face_and_rub_your_eyes|ddc076ee8df6",
+    "original": "You can’t help but bring a hand to your face and rub your eyes, lingering brightness washing out your vision. <b>You’re momentarily blind!</b>",
     "translation": "",
-    "context": "<<POS:03043654>>"
+    "context": "<<POS:03043656>>"
   },
   {
-    "key": "combat|n_concat_v_m_capitalize_a_getCombatName_concat_a_isRob|6feab1d4f582",
-    "original": "\\n\".concat(v.m.capitalize(a.getCombatName()),\" \").concat(a.isRobot()?\"whirs and clicks\":\"shake\".concat(n?\"\":\"s\",\" their head repeatedly\"),\", obviously struggling with the blinding flash \").concat(a.getCombatPronoun(\"himher\"),\"sel\").concat(n?\"ves\":\"f\",\"!\")",
+    "key": "combat|concat_v_m_capitalize_a_getCombatName_concat_a_isRobot|8fd9ef5052db",
+    "original": "\".concat(v.m.capitalize(a.getCombatName()),\" \").concat(a.isRobot()?\"whirs and clicks\":\"shake\".concat(n?\"\":\"s\",\" their head repeatedly\"),\", obviously struggling with the blinding flash \").concat(a.getCombatPronoun(\"himher\"),\"sel\").concat(n?\"ves\":\"f\",\"!\")",
     "translation": "",
-    "context": "<<POS:03043815>>"
+    "context": "<<POS:03043817>>"
   },
   {
     "key": "combat|br_The_bulk_of_the_flamejet_crashes_against_concat_e_getComba|a29ae812dda8",
@@ -396,13 +396,13 @@
     "context": "<<POS:03044608>>"
   },
   {
-    "key": "combat|nFlames_lick_at_concat_i_getCombatName|ecd04ddf9115",
-    "original": "\\nFlames lick at \".concat(i.getCombatName(),\"!\")",
+    "key": "combat|Flames_lick_at_concat_i_getCombatName|90fbb0ed6159",
+    "original": "Flames lick at \".concat(i.getCombatName(),\"!\")",
     "translation": "",
-    "context": "<<POS:03044871>>"
+    "context": "<<POS:03044873>>"
   },
   {
-    "key": "combat|concat_v_m_capitalize_e_getCombatName_1_roll_concat_t|1a1e06514c1d",
+    "key": "combat|concat_v_m_capitalize_e_getCombatName_1_roll_concat_t|ed41f9aa7fbb",
     "original": " \".concat(v.m.capitalize(e.getCombatName(),!1),\" roll\").concat(t?\"\":\"s\",\" out of the way at the last moment, energy lashing from the warbitch’s sword whilst it slices through the roof of the train car like butter!\")",
     "translation": "",
     "context": "<<POS:03045980>>"
@@ -414,19 +414,19 @@
     "context": "<<POS:03046216>>"
   },
   {
-    "key": "combat|n_b_v_m_capitalize_e_getCombatName_1_t_are_is|c7923020213e",
-    "original": "\\n<b>\"+v.m.capitalize(e.getCombatName(),!1)+\" \"+(t?\"are\":\"is\")+\" knocked down</b> by the impact!",
+    "key": "combat|b_v_m_capitalize_e_getCombatName_1_t_are_is_k|5643348541c5",
+    "original": "<b>\"+v.m.capitalize(e.getCombatName(),!1)+\" \"+(t?\"are\":\"is\")+\" knocked down</b> by the impact!",
     "translation": "",
-    "context": "<<POS:03046537>>"
+    "context": "<<POS:03046539>>"
   },
   {
-    "key": "combat|nYou_manage_to_keep_your_footing_barely|dffd504ec563",
-    "original": "\\nYou manage to keep your footing... barely!",
+    "key": "combat|You_manage_to_keep_your_footing_barely|1a6b255f0da6",
+    "original": "You manage to keep your footing... barely!",
     "translation": "",
-    "context": "<<POS:03046706>>"
+    "context": "<<POS:03046708>>"
   },
   {
-    "key": "combat|only_to_ricochet_right_past_the_side_of_concat_e_isPlayer|d183b4aaa22d",
+    "key": "combat|only_to_ricochet_right_past_the_side_of_concat_e_isPlayer|12f8a0bd1571",
     "original": " only to ricochet right past the side of \".concat(e.isPlayer()?\"your\":v.m.possessive(e.getCombatName()),\" head\").concat(e.isPlayer()?\", the whistle of air rushing past your [pc.ear] letting you know just how close the grenadier came to hitting the mark\":\"\",\".\")",
     "translation": "",
     "context": "<<POS:03052287>>"
@@ -438,10 +438,10 @@
     "context": "<<POS:03052569>>"
   },
   {
-    "key": "combat|n_b_v_m_capitalize_e_getCombatName_1_e_isPlural_e_isPla|33a2d511d850",
-    "original": "\\n<b>\"+v.m.capitalize(e.getCombatName(),!1)+(e.isPlural||e.isPlayer()?\" are\":\" is\")+\" stunned</b> by the impact!",
+    "key": "combat|b_v_m_capitalize_e_getCombatName_1_e_isPlural_e_isPlaye|36ebfa856c99",
+    "original": "<b>\"+v.m.capitalize(e.getCombatName(),!1)+(e.isPlural||e.isPlayer()?\" are\":\" is\")+\" stunned</b> by the impact!",
     "translation": "",
-    "context": "<<POS:03052882>>"
+    "context": "<<POS:03052884>>"
   },
   {
     "key": "combat|The_first_two_grenades_sail_wide_but_the_third_finds_its_mark|dbcc77691156",
@@ -462,10 +462,28 @@
     "context": "<<POS:03058040>>"
   },
   {
-    "key": "combat|n_nThey_have_plenty_of_opportunity_to_lavish_ever_more_risqu_k|d6f65a5c9a06",
-    "original": "\\n\\nThey have plenty of opportunity to lavish ever more risqué kisses across unprotected flesh, lathering tantalizing kisses far and wide.",
+    "key": "textify|The_drugmonger_saunters_right_up_to_you_without_a_care_in_the_wo|b3e669fd5c6f",
+    "original": "The drugmonger saunters right up to you without a care in the world, [pc.isBlind|though the first you know about it is when you feel] paws pulling at the seal between helmet and armor to break the protective environment contained within.",
     "translation": "",
-    "context": "<<POS:03059686>>"
+    "context": "<<POS:03058585>>"
+  },
+  {
+    "key": "textify|The_drugmonger_var0_saunters_sprints_up_to|ec044df4272c",
+    "original": "The drugmonger [var0|saunters|sprints] up to ",
+    "translation": "",
+    "context": "<<POS:03059210>>"
+  },
+  {
+    "key": "textify|a_quick_lash_of_tongue_across_their_own_lips_making_sure_the_l|b98499c21382",
+    "original": ", a quick lash of tongue across their own lips making sure the lipstick-laden plumpness is primed to deliver a fresh plethora of kisses. Some fall against equipment, but others find their mark against [target.skinFurScales], every one <b>leaving a thick-lipped imprint behind to ratchet up the salacious need building in [target.isPlayer|your|her] loins!</b>",
+    "translation": "",
+    "context": "<<POS:03059258>>"
+  },
+  {
+    "key": "combat|They_have_plenty_of_opportunity_to_lavish_ever_more_risqu_kisse|26ff92a6b20b",
+    "original": "They have plenty of opportunity to lavish ever more risqué kisses across unprotected flesh, lathering tantalizing kisses far and wide.",
+    "translation": "",
+    "context": "<<POS:03059690>>"
   },
   {
     "key": "combat|One_of_the_darts_finds_its_mark_the_vial_crashing_against_co|280a55d55f3b",
@@ -510,28 +528,22 @@
     "context": "<<POS:03062702>>"
   },
   {
-    "key": "combat|drenching_both_you_and_Johana_in_the_payload_n|d27c1e5b976c",
-    "original": ", drenching both you and Johana in the payload.\\n",
+    "key": "combat|drenching_both_you_and_Johana_in_the_payload|4b2f30e968ed",
+    "original": ", drenching both you and Johana in the payload.",
     "translation": "",
     "context": "<<POS:03062938>>"
   },
   {
-    "key": "combat|n|c12484b873c8",
-    "original": ".\\n",
+    "key": "combat|Flecks_of_gooey_jiggling_chemicals_spray_across_concat_l_getC|48a83b369231",
+    "original": "Flecks of gooey, jiggling chemicals spray across \".concat(l.getCombatName(),\", soaking in deep!\")",
     "translation": "",
-    "context": "<<POS:03063004>>"
+    "context": "<<POS:03063514>>"
   },
   {
-    "key": "combat|nFlecks_of_gooey_jiggling_chemicals_spray_across_concat_l_ge|d1f1948428a9",
-    "original": "\\nFlecks of gooey, jiggling chemicals spray across \".concat(l.getCombatName(),\", soaking in deep!\")",
+    "key": "combat|concat_l_getCombatName_get_concat_l_isPlayer_s|ba2876504ce0",
+    "original": "\".concat(l.getCombatName(),\" get\").concat(l.isPlayer()?\"\":\"s\",\" caught just as badly with overspray!\")",
     "translation": "",
-    "context": "<<POS:03063512>>"
-  },
-  {
-    "key": "combat|n_concat_l_getCombatName_get_concat_l_isPlayer_s|839b06cb530c",
-    "original": "\\n\".concat(l.getCombatName(),\" get\").concat(l.isPlayer()?\"\":\"s\",\" caught just as badly with overspray!\")",
-    "translation": "",
-    "context": "<<POS:03063628>>"
+    "context": "<<POS:03063630>>"
   },
   {
     "key": "combat|Thankfully_the_isolated_environment_inside_of_your_airtight_su|6159e2d875f0",
@@ -546,28 +558,28 @@
     "context": "<<POS:03064046>>"
   },
   {
-    "key": "combat|n_v_m_capitalize_e_o_getCombatName_1_flushes_hotly|aac8e234fc80",
-    "original": "\\n\"+v.m.capitalize(e[o].getCombatName(),!1)+\" flushes hotly!",
+    "key": "combat|v_m_capitalize_e_o_getCombatName_1_flushes_hotly|8c4f25e1c434",
+    "original": "\"+v.m.capitalize(e[o].getCombatName(),!1)+\" flushes hotly!",
     "translation": "",
-    "context": "<<POS:03068655>>"
+    "context": "<<POS:03068657>>"
   },
   {
-    "key": "combat|n_v_m_capitalize_t_a_getCombatName_1_flush_n_es|d0087d50f9ab",
-    "original": "\\n\"+v.m.capitalize(t[a].getCombatName(),!1)+\" flush\"+(n?\"es\":\"\")+\" hotly!",
+    "key": "combat|v_m_capitalize_t_a_getCombatName_1_flush_n_es|a9ead5cbd59f",
+    "original": "\"+v.m.capitalize(t[a].getCombatName(),!1)+\" flush\"+(n?\"es\":\"\")+\" hotly!",
     "translation": "",
-    "context": "<<POS:03068859>>"
+    "context": "<<POS:03068861>>"
   },
   {
-    "key": "combat|n_v_m_capitalize_e_t_getCombatName_1_is_healed|c635bb5e16cf",
-    "original": "\\n\"+v.m.capitalize(e[t].getCombatName(),!1)+\" is healed!",
+    "key": "combat|v_m_capitalize_e_t_getCombatName_1_is_healed|2fa7eac0a91d",
+    "original": "\"+v.m.capitalize(e[t].getCombatName(),!1)+\" is healed!",
     "translation": "",
-    "context": "<<POS:03069337>>"
+    "context": "<<POS:03069339>>"
   },
   {
-    "key": "combat|n_v_m_capitalize_e_t_getCombatName_1_is_energized|53588efd61f6",
-    "original": "\\n\"+v.m.capitalize(e[t].getCombatName(),!1)+\" is energized!",
+    "key": "combat|v_m_capitalize_e_t_getCombatName_1_is_energized|d73670568520",
+    "original": "\"+v.m.capitalize(e[t].getCombatName(),!1)+\" is energized!",
     "translation": "",
-    "context": "<<POS:03069658>>"
+    "context": "<<POS:03069660>>"
   },
   {
     "key": "desc.long|You_re_fighting_the_Warmistress_She_s_a_big_hunk_of_hyraxi_meat|9eebe1d1148d",
@@ -576,7 +588,31 @@
     "context": "<<POS:03074382>>"
   },
   {
-    "key": "combat|The_floor_under_your_pc_feet_quakes_with_the_impact_of_the_ha|6fa27f080537",
+    "key": "textify|The_hulking_hyraxi_squeezes_her_arms_tighter_around|3bb0d3525698",
+    "original": "The hulking hyraxi squeezes her arms tighter around ",
+    "translation": "",
+    "context": "<<POS:03076634>>"
+  },
+  {
+    "key": "textify|the_power_armor_clad_limbs_applying_crushing_breath_stealing|f1f381178061",
+    "original": ", the power-armor clad limbs applying crushing, breath-stealing pressure. With every second that passes, the Warmistress tightens her grasp further, squeezing the breath from ",
+    "translation": "",
+    "context": "<<POS:03076689>>"
+  },
+  {
+    "key": "textify|lungs_bones_creaking_audibly|3fa84612eb22",
+    "original": " lungs, bones creaking audibly.",
+    "translation": "",
+    "context": "<<POS:03076867>>"
+  },
+  {
+    "key": "textify|e_getCombatName_e_isPlayer|6eace9fec03c",
+    "original": "])),e.getCombatName(),e.isPlayer()?",
+    "translation": "",
+    "context": "<<POS:03076902>>"
+  },
+  {
+    "key": "combat|The_floor_under_your_pc_feet_quakes_with_the_impact_of_the_ha|28fb8cf4a3f8",
     "original": " The floor under your [pc.feet] quakes with the impact of the hammer crashing against it, just barely missing \".concat(e.getCombatName(),\".\")",
     "translation": "",
     "context": "<<POS:03077717>>"
@@ -588,22 +624,22 @@
     "context": "<<POS:03077996>>"
   },
   {
-    "key": "combat|n_b_v_m_capitalize_e_getCombatName_1_e_isPlural_e_i|1d18556ec298",
-    "original": "\\n<b>\"+v.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural||e.isPlayer()?\"are\":\"is\")+\" sundered!</b> ",
+    "key": "combat|b_v_m_capitalize_e_getCombatName_1_e_isPlural_e_isP|e36c7d2f9655",
+    "original": "<b>\"+v.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural||e.isPlayer()?\"are\":\"is\")+\" sundered!</b> ",
     "translation": "",
-    "context": "<<POS:03078124>>"
+    "context": "<<POS:03078126>>"
   },
   {
-    "key": "combat|nA_quick_hop_at_just_the_right_moment_lets_the_hammer_sail_unde|09fa0b8836fa",
-    "original": "\\nA quick hop at just the right moment lets the hammer sail under your [pc.feet] just barely!",
+    "key": "combat|A_quick_hop_at_just_the_right_moment_lets_the_hammer_sail_under|3fe9d37e92df",
+    "original": "A quick hop at just the right moment lets the hammer sail under your [pc.feet] just barely!",
     "translation": "",
-    "context": "<<POS:03079048>>"
+    "context": "<<POS:03079050>>"
   },
   {
-    "key": "combat|nJohana_demonstrates_her_deft_reflexes_backstepping_just_enoug|2eaa8d2037c4",
-    "original": "\\nJohana demonstrates her deft reflexes, backstepping just enough to avoid the arc of the hammer.",
+    "key": "combat|Johana_demonstrates_her_deft_reflexes_backstepping_just_enough|e79a44bf987b",
+    "original": "Johana demonstrates her deft reflexes, backstepping just enough to avoid the arc of the hammer.",
     "translation": "",
-    "context": "<<POS:03079158>>"
+    "context": "<<POS:03079160>>"
   },
   {
     "key": "combat|The_rocket_powered_hammer_crashes_into_your_pc_legOrLegs_c|074bddd5969f",
@@ -684,16 +720,16 @@
     "context": "<<POS:03081757>>"
   },
   {
-    "key": "combat|n_n_b_You_are_grappled_b|3160e8a5cd1b",
-    "original": "\\n\\n<b>You are grappled!</b>",
+    "key": "combat|b_You_are_grappled_b|807aaacca0b7",
+    "original": "<b>You are grappled!</b>",
     "translation": "",
-    "context": "<<POS:03082890>>"
+    "context": "<<POS:03082894>>"
   },
   {
-    "key": "combat|n_n_b_v_m_capitalize_e_getCombatName_1_is_grappled_b|760a5ebfdc45",
-    "original": "\\n\\n<b>\"+v.m.capitalize(e.getCombatName(),!1)+\" is grappled!</b>",
+    "key": "combat|b_v_m_capitalize_e_getCombatName_1_is_grappled_b|02f740bd6ee7",
+    "original": "<b>\"+v.m.capitalize(e.getCombatName(),!1)+\" is grappled!</b>",
     "translation": "",
-    "context": "<<POS:03082935>>"
+    "context": "<<POS:03082939>>"
   },
   {
     "key": "combat|Sprawled_across_the_floor_as_you_are_there_s_nothing_you_can_d|4768b50cb8ca",
@@ -702,10 +738,10 @@
     "context": "<<POS:03083565>>"
   },
   {
-    "key": "combat|nJohana_doesn_t_fare_any_better_her_chest_catching_the_hyraxi|6936c34bdb0d",
-    "original": "\\nJohana doesn’t fare any better, her chest catching the hyraxi warmistress’s other armor-clad boot.",
+    "key": "combat|Johana_doesn_t_fare_any_better_her_chest_catching_the_hyraxi_wa|ec76e73b7d29",
+    "original": "Johana doesn’t fare any better, her chest catching the hyraxi warmistress’s other armor-clad boot.",
     "translation": "",
-    "context": "<<POS:03083841>>"
+    "context": "<<POS:03083843>>"
   },
   {
     "key": "combat|The_sprawled_tangle_of_Johana_s_limbs_splayed_out_across_the_fl|83b1d7597352",

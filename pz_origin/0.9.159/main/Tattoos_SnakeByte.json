@@ -3,145 +3,355 @@
     "key": "button|Close_Cheats|bdd60c2430e7",
     "original": "Close Cheats",
     "translation": "",
-    "context": "<<POS:18469292>>"
+    "context": "<<POS:18469292>> addButton(0,\"Close Cheats\",(function(){o.setOptionMode(0),o.state.cheatPress=0,flags.CHEATS_ENABLED=void 0,o.popState()}),\"Close Cheat Menu\",\"Return to title and remove the Cheats category from the Options menu. Cheats can be re-accessed by the usual method.\")"
   },
   {
-    "key": "button|Back|99d621a144e5",
+    "key": "button.hover|Close_Cheat_Menu|fdda80f23613",
+    "original": "Close Cheat Menu",
+    "translation": "",
+    "context": "<<POS:18469402>> addButton(0,\"Close Cheats\",(function(){o.setOptionMode(0),o.state.cheatPress=0,flags.CHEATS_ENABLED=void 0,o.popState()}),\"Close Cheat Menu\",\"Return to title and remove the Cheats category from the Options menu. Cheats can be re-accessed by the usual method.\")"
+  },
+  {
+    "key": "button.tooltip|Return_to_title_and_remove_the_Cheats_category_from_the_Options|d8dcb3d6e5ff",
+    "original": "Return to title and remove the Cheats category from the Options menu. Cheats can be re-accessed by the usual method.",
+    "translation": "",
+    "context": "<<POS:18469421>> addButton(0,\"Close Cheats\",(function(){o.setOptionMode(0),o.state.cheatPress=0,flags.CHEATS_ENABLED=void 0,o.popState()}),\"Close Cheat Menu\",\"Return to title and remove the Cheats category from the Options menu. Cheats can be re-accessed by the usual method.\")"
+  },
+  {
+    "key": "button|Back|cb8bdad7b2b6",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:18470336>>"
+    "context": "<<POS:18470336>> addButton(4,\"Back\",(function(){return o.popState()}))"
   },
   {
     "key": "button|Tracking|4086cd0cca1d",
     "original": "Tracking: ",
     "translation": "",
-    "context": "<<POS:18480674>>"
+    "context": "<<POS:18480674>> addButton(0,\"Tracking: \".concat(a.disableArtGalleryTracking?\"OFF\":\"ON\"),(function(){e.setButtonState(0,!1),e.removeDialog(),e.showDialog(El.iM.OPTIONS,\"\".concat(a.disableArtGalleryTracking?\"Enable Art Gallery Tracking\":'<span class=\"icon color-bad\">'.concat(svgIcon(\"warning\"),'</span> Disable Art Ga..."
   },
   {
-    "key": "button|Clear_Art_Gallery|c1507c0e6978",
+    "key": "button.hover|Toggle_Art_Tracking|76f1452c3fd4",
+    "original": "Toggle Art Tracking",
+    "translation": "",
+    "context": "<<POS:18481704>> addButton(0,\"Tracking: \".concat(a.disableArtGalleryTracking?\"OFF\":\"ON\"),(function(){e.setButtonState(0,!1),e.removeDialog(),e.showDialog(El.iM.OPTIONS,\"\".concat(a.disableArtGalleryTracking?\"Enable Art Gallery Tracking\":'<span class=\"icon color-bad\">'.concat(svgIcon(\"warning\"),'</span> Disable Art Ga..."
+  },
+  {
+    "key": "button.tooltip|Toggle_whether_or_not_you_want_to_track_art_gallery_progress|69ac348bbd1e",
+    "original": "Toggle whether or not you want to track art gallery progress.",
+    "translation": "",
+    "context": "<<POS:18481726>> addButton(0,\"Tracking: \".concat(a.disableArtGalleryTracking?\"OFF\":\"ON\"),(function(){e.setButtonState(0,!1),e.removeDialog(),e.showDialog(El.iM.OPTIONS,\"\".concat(a.disableArtGalleryTracking?\"Enable Art Gallery Tracking\":'<span class=\"icon color-bad\">'.concat(svgIcon(\"warning\"),'</span> Disable Art Ga..."
+  },
+  {
+    "key": "button|Clear_Art_Gallery|57a47ce5c774",
     "original": "Clear Art Gallery",
     "translation": "",
-    "context": "<<POS:18481843>>"
+    "context": "<<POS:18481843>> addButton(3,\"Clear Art Gallery\",(function(){e.setButtonState(3,!1),e.removeDialog();var t=\"\";t+='This will reset the unlocked status for all art in the gallery (<span id=\"TotalArtUnlocks\">'.concat(n,\"</span> total).<br><br>Are you sure you want to do this?<br><i>You can also lock each individually.<..."
   },
   {
-    "key": "button|Clear_Art_Gallery|a19b37a1d6c5",
+    "key": "button.hover|Clear_Art_Gallery|57a47ce5c774",
     "original": "Clear Art Gallery",
     "translation": "",
-    "context": "<<POS:18483814>>"
+    "context": "<<POS:18483738>> addButton(3,\"Clear Art Gallery\",(function(){e.setButtonState(3,!1),e.removeDialog();var t=\"\";t+='This will reset the unlocked status for all art in the gallery (<span id=\"TotalArtUnlocks\">'.concat(n,\"</span> total).<br><br>Are you sure you want to do this?<br><i>You can also lock each individually.<..."
   },
   {
-    "key": "button|Back|d949d84d9170",
+    "key": "button.tooltip|Clear_the_art_gallery_list|ade86ab1df38",
+    "original": "Clear the art gallery list.",
+    "translation": "",
+    "context": "<<POS:18483758>> addButton(3,\"Clear Art Gallery\",(function(){e.setButtonState(3,!1),e.removeDialog();var t=\"\";t+='This will reset the unlocked status for all art in the gallery (<span id=\"TotalArtUnlocks\">'.concat(n,\"</span> total).<br><br>Are you sure you want to do this?<br><i>You can also lock each individually.<..."
+  },
+  {
+    "key": "button|Clear_Art_Gallery|0776f13c8421",
+    "original": "Clear Art Gallery",
+    "translation": "",
+    "context": "<<POS:18483814>> addDisabledButton(3,\"Clear Art Gallery\",\"Clear Art Gallery\",\"You have no unlocked art to clear.\")"
+  },
+  {
+    "key": "button.hover|You_have_no_unlocked_art_to_clear|900ac6725dee",
+    "original": "You have no unlocked art to clear.",
+    "translation": "",
+    "context": "<<POS:18483854>> addDisabledButton(3,\"Clear Art Gallery\",\"Clear Art Gallery\",\"You have no unlocked art to clear.\")"
+  },
+  {
+    "key": "button|Back|d36edcc9c004",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:18483909>>"
+    "context": "<<POS:18483909>> addButton(4,\"Back\",(function(){return e.popState()}))"
   },
   {
     "key": "button|Tracking|4086cd0cca1d#1",
     "original": "Tracking: ",
     "translation": "",
-    "context": "<<POS:18486882>>"
+    "context": "<<POS:18486882>> addButton(0,\"Tracking: \".concat(a.disableAchievementTracking?\"OFF\":\"ON\"),(function(){o.setButtonState(0,!1),o.removeDialog(),o.showDialog(El.iM.OPTIONS,\"\".concat(a.disableAchievementTracking?\"Enable Achievement Tracking\":'<span class=\"icon color-bad\">'.concat(svgIcon(\"warning\"),'</span> Disable Achi..."
   },
   {
-    "key": "button|Clear_Achievements|96a0e3bb23f2",
+    "key": "button.hover|Toggle_Tracking_Achievements|312aa8cdb881",
+    "original": "Toggle Tracking Achievements",
+    "translation": "",
+    "context": "<<POS:18487991>> addButton(0,\"Tracking: \".concat(a.disableAchievementTracking?\"OFF\":\"ON\"),(function(){o.setButtonState(0,!1),o.removeDialog(),o.showDialog(El.iM.OPTIONS,\"\".concat(a.disableAchievementTracking?\"Enable Achievement Tracking\":'<span class=\"icon color-bad\">'.concat(svgIcon(\"warning\"),'</span> Disable Achi..."
+  },
+  {
+    "key": "button.tooltip|Toggle_whether_or_not_you_want_to_track_achievement_progress|752fba7f6995",
+    "original": "Toggle whether or not you want to track achievement progress.",
+    "translation": "",
+    "context": "<<POS:18488022>> addButton(0,\"Tracking: \".concat(a.disableAchievementTracking?\"OFF\":\"ON\"),(function(){o.setButtonState(0,!1),o.removeDialog(),o.showDialog(El.iM.OPTIONS,\"\".concat(a.disableAchievementTracking?\"Enable Achievement Tracking\":'<span class=\"icon color-bad\">'.concat(svgIcon(\"warning\"),'</span> Disable Achi..."
+  },
+  {
+    "key": "button|Clear_Achievements|1f053fe65301",
     "original": "Clear Achievements",
     "translation": "",
-    "context": "<<POS:18488209>>"
+    "context": "<<POS:18488209>> addButton(3,\"Clear Achievements\",(function(){o.setButtonState(3,!1),o.removeDialog();var e='<span class=\"icon color-bad\">'.concat(svgIcon(\"warning\"),'</span> Clear Achievements <span class=\"icon color-bad\">').concat(svgIcon(\"warning\"),\"</span>\"),t=\"\";t+=ParseText(\"This will reset the unlocked status..."
   },
   {
-    "key": "button|Clear_Achievements|5a56240d63ca",
+    "key": "button.hover|Clear_Achievements|1f053fe65301",
     "original": "Clear Achievements",
     "translation": "",
-    "context": "<<POS:18490425>>"
+    "context": "<<POS:18490339>> addButton(3,\"Clear Achievements\",(function(){o.setButtonState(3,!1),o.removeDialog();var e='<span class=\"icon color-bad\">'.concat(svgIcon(\"warning\"),'</span> Clear Achievements <span class=\"icon color-bad\">').concat(svgIcon(\"warning\"),\"</span>\"),t=\"\";t+=ParseText(\"This will reset the unlocked status..."
   },
   {
-    "key": "button|Back|1d40ba9bd52b",
+    "key": "button.tooltip|Clear_the_unlocked_achievement_list|4622acce522f",
+    "original": "Clear the unlocked achievement list.",
+    "translation": "",
+    "context": "<<POS:18490360>> addButton(3,\"Clear Achievements\",(function(){o.setButtonState(3,!1),o.removeDialog();var e='<span class=\"icon color-bad\">'.concat(svgIcon(\"warning\"),'</span> Clear Achievements <span class=\"icon color-bad\">').concat(svgIcon(\"warning\"),\"</span>\"),t=\"\";t+=ParseText(\"This will reset the unlocked status..."
+  },
+  {
+    "key": "button|Clear_Achievements|19429d09615c",
+    "original": "Clear Achievements",
+    "translation": "",
+    "context": "<<POS:18490425>> addDisabledButton(3,\"Clear Achievements\",\"Clear Achievements\",\"There are no unlocked achievements to clear.\")"
+  },
+  {
+    "key": "button.hover|There_are_no_unlocked_achievements_to_clear|9587d9b8ca1a",
+    "original": "There are no unlocked achievements to clear.",
+    "translation": "",
+    "context": "<<POS:18490467>> addDisabledButton(3,\"Clear Achievements\",\"Clear Achievements\",\"There are no unlocked achievements to clear.\")"
+  },
+  {
+    "key": "button|Back|a8a1354293b3",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:18490532>>"
+    "context": "<<POS:18490532>> addButton(4,\"Back\",(function(){return o.popState()}))"
   },
   {
     "key": "button|New_Game|87a7b5780e8c",
     "original": "New Game",
     "translation": "",
-    "context": "<<POS:18492954>>"
+    "context": "<<POS:18492954>> addButton(0,\"New Game\",(function(){return function(){if(getGameState()){clearOutput(),output(window.getMainMenuText('<div class=\"text\">Are you sure you want to start a new game?</div>'));var e=document.getElementById(\"MainMenuInformation\");e&&(e.style.display=\"none\"),clearMenu(isSaveDisabled(!0)),ad..."
   },
   {
-    "key": "button|Data|045a0a3d503c",
+    "key": "button.hover|Start_a_New_Game|ea7ea04a9b4f",
+    "original": "Start a New Game",
+    "translation": "",
+    "context": "<<POS:18493342>> addButton(0,\"New Game\",(function(){return function(){if(getGameState()){clearOutput(),output(window.getMainMenuText('<div class=\"text\">Are you sure you want to start a new game?</div>'));var e=document.getElementById(\"MainMenuInformation\");e&&(e.style.display=\"none\"),clearMenu(isSaveDisabled(!0)),ad..."
+  },
+  {
+    "key": "button.tooltip|Create_a_new_character|82dbb54c4bcf",
+    "original": "Create a new character!",
+    "translation": "",
+    "context": "<<POS:18493361>> addButton(0,\"New Game\",(function(){return function(){if(getGameState()){clearOutput(),output(window.getMainMenuText('<div class=\"text\">Are you sure you want to start a new game?</div>'));var e=document.getElementById(\"MainMenuInformation\");e&&(e.style.display=\"none\"),clearMenu(isSaveDisabled(!0)),ad..."
+  },
+  {
+    "key": "button|Data|3c90d81119ad",
     "original": "Data",
     "translation": "",
-    "context": "<<POS:18493405>>"
+    "context": "<<POS:18493405>> addButton(1,\"Data\",(function(){return e.showSaveLoad()}),\"Data Menu\",\"View the data menu to manage your save games.\")"
   },
   {
-    "key": "button|Cancel_Download|5cebc6ef191e",
+    "key": "button.hover|Data_Menu|494d8e3daa15",
+    "original": "Data Menu",
+    "translation": "",
+    "context": "<<POS:18493450>> addButton(1,\"Data\",(function(){return e.showSaveLoad()}),\"Data Menu\",\"View the data menu to manage your save games.\")"
+  },
+  {
+    "key": "button.tooltip|View_the_data_menu_to_manage_your_save_games|841b130680fc",
+    "original": "View the data menu to manage your save games.",
+    "translation": "",
+    "context": "<<POS:18493462>> addButton(1,\"Data\",(function(){return e.showSaveLoad()}),\"Data Menu\",\"View the data menu to manage your save games.\")"
+  },
+  {
+    "key": "button|Cancel_Download|ca60aa8aec22",
     "original": "Cancel Download",
     "translation": "",
-    "context": "<<POS:18493955>>"
+    "context": "<<POS:18493955>> addButton(2,\"Cancel Download\",(function(){window.cancelImageDownload(),e.render()}),\"Cancel Imagepack Download\",\"Abort the download and save any progress already made.\")"
   },
   {
-    "key": "button|Download_Imagepack|4fe42decea19",
+    "key": "button.hover|Cancel_Imagepack_Download|3174ea5ec96e",
+    "original": "Cancel Imagepack Download",
+    "translation": "",
+    "context": "<<POS:18494027>> addButton(2,\"Cancel Download\",(function(){window.cancelImageDownload(),e.render()}),\"Cancel Imagepack Download\",\"Abort the download and save any progress already made.\")"
+  },
+  {
+    "key": "button.tooltip|Abort_the_download_and_save_any_progress_already_made|fae0ce7b752d",
+    "original": "Abort the download and save any progress already made.",
+    "translation": "",
+    "context": "<<POS:18494055>> addButton(2,\"Cancel Download\",(function(){window.cancelImageDownload(),e.render()}),\"Cancel Imagepack Download\",\"Abort the download and save any progress already made.\")"
+  },
+  {
+    "key": "button|Download_Imagepack|c6b4ec0d6173",
     "original": "Download Imagepack",
     "translation": "",
-    "context": "<<POS:18494130>>"
+    "context": "<<POS:18494130>> addButton(2,\"Download Imagepack\",(function(){window.triggerDownloadImages(),e.render()}),\"Download Imagepack\",\"Start downloading the image pack.\")"
   },
   {
-    "key": "button|Gallery|ac680333f846",
-    "original": "Gallery",
-    "translation": "",
-    "context": "<<POS:18494288>>"
-  },
-  {
-    "key": "button|Gallery|6a0ed99761a7",
-    "original": "Gallery",
-    "translation": "",
-    "context": "<<POS:18494412>>"
-  },
-  {
-    "key": "button|Download_Imagepack|0a62f5864511",
+    "key": "button.hover|Download_Imagepack|c6b4ec0d6173",
     "original": "Download Imagepack",
     "translation": "",
-    "context": "<<POS:18494524>>"
+    "context": "<<POS:18494207>> addButton(2,\"Download Imagepack\",(function(){window.triggerDownloadImages(),e.render()}),\"Download Imagepack\",\"Start downloading the image pack.\")"
   },
   {
-    "key": "button|Gallery|ac680333f846#1",
+    "key": "button.tooltip|Start_downloading_the_image_pack|b8eb1dc5eb04",
+    "original": "Start downloading the image pack.",
+    "translation": "",
+    "context": "<<POS:18494228>> addButton(2,\"Download Imagepack\",(function(){window.triggerDownloadImages(),e.render()}),\"Download Imagepack\",\"Start downloading the image pack.\")"
+  },
+  {
+    "key": "button|Gallery|8536aeff521f",
     "original": "Gallery",
     "translation": "",
-    "context": "<<POS:18494626>>"
+    "context": "<<POS:18494288>> addButton(2,\"Gallery\",(function(){return e.showImageGallery()}),\"Browse Art Gallery\",\"View unlocked artwork.\")"
   },
   {
-    "key": "button|Gallery|6a0ed99761a7#1",
+    "key": "button.hover|Browse_Art_Gallery|ffe08759fc28",
+    "original": "Browse Art Gallery",
+    "translation": "",
+    "context": "<<POS:18494340>> addButton(2,\"Gallery\",(function(){return e.showImageGallery()}),\"Browse Art Gallery\",\"View unlocked artwork.\")"
+  },
+  {
+    "key": "button.tooltip|View_unlocked_artwork|8e2b451442a9",
+    "original": "View unlocked artwork.",
+    "translation": "",
+    "context": "<<POS:18494361>> addButton(2,\"Gallery\",(function(){return e.showImageGallery()}),\"Browse Art Gallery\",\"View unlocked artwork.\")"
+  },
+  {
+    "key": "button|Gallery|28a6262dd59d",
     "original": "Gallery",
     "translation": "",
-    "context": "<<POS:18494750>>"
+    "context": "<<POS:18494412>> addDisabledButton(2,\"Gallery\",\"Browse Art Gallery\",\"The gallery is only available to backers at present.\")"
   },
   {
-    "key": "button|Options|77e604a87549",
+    "key": "button.hover|The_gallery_is_only_available_to_backers_at_present|7117f9f2d222",
+    "original": "The gallery is only available to backers at present.",
+    "translation": "",
+    "context": "<<POS:18494443>> addDisabledButton(2,\"Gallery\",\"Browse Art Gallery\",\"The gallery is only available to backers at present.\")"
+  },
+  {
+    "key": "button|Download_Imagepack|fdfaca8b405b",
+    "original": "Download Imagepack",
+    "translation": "",
+    "context": "<<POS:18494524>> addDisabledButton(2,\"Download Imagepack\",\"Download Imagepack\",\"Determining Image Pack Status...\")"
+  },
+  {
+    "key": "button.hover|Determining_Image_Pack_Status|9021406dfff4",
+    "original": "Determining Image Pack Status...",
+    "translation": "",
+    "context": "<<POS:18494566>> addDisabledButton(2,\"Download Imagepack\",\"Download Imagepack\",\"Determining Image Pack Status...\")"
+  },
+  {
+    "key": "button|Gallery|c86831860ae6",
+    "original": "Gallery",
+    "translation": "",
+    "context": "<<POS:18494626>> addButton(2,\"Gallery\",(function(){return e.showImageGallery()}),\"Browse Art Gallery\",\"View unlocked artwork.\")"
+  },
+  {
+    "key": "button.hover|Browse_Art_Gallery|f85c0dac3e93",
+    "original": "Browse Art Gallery",
+    "translation": "",
+    "context": "<<POS:18494678>> addButton(2,\"Gallery\",(function(){return e.showImageGallery()}),\"Browse Art Gallery\",\"View unlocked artwork.\")"
+  },
+  {
+    "key": "button.tooltip|View_unlocked_artwork|5f41c220773f",
+    "original": "View unlocked artwork.",
+    "translation": "",
+    "context": "<<POS:18494699>> addButton(2,\"Gallery\",(function(){return e.showImageGallery()}),\"Browse Art Gallery\",\"View unlocked artwork.\")"
+  },
+  {
+    "key": "button|Gallery|28a6262dd59d#1",
+    "original": "Gallery",
+    "translation": "",
+    "context": "<<POS:18494750>> addDisabledButton(2,\"Gallery\",\"Browse Art Gallery\",\"The gallery is only available to backers at present.\")"
+  },
+  {
+    "key": "button.hover|The_gallery_is_only_available_to_backers_at_present|7117f9f2d222#1",
+    "original": "The gallery is only available to backers at present.",
+    "translation": "",
+    "context": "<<POS:18494781>> addDisabledButton(2,\"Gallery\",\"Browse Art Gallery\",\"The gallery is only available to backers at present.\")"
+  },
+  {
+    "key": "button|Options|29313a45f90a",
     "original": "Options",
     "translation": "",
-    "context": "<<POS:18494854>>"
+    "context": "<<POS:18494854>> addButton(3,\"Options\",(function(){return e.showOptions()}),\"Options Menu\",\"Set the game options.\")"
   },
   {
-    "key": "button|Credits|e4574171c622",
+    "key": "button.hover|Options_Menu|27f479f9cca8",
+    "original": "Options Menu",
+    "translation": "",
+    "context": "<<POS:18494901>> addButton(3,\"Options\",(function(){return e.showOptions()}),\"Options Menu\",\"Set the game options.\")"
+  },
+  {
+    "key": "button.tooltip|Set_the_game_options|1c537b3f9e32",
+    "original": "Set the game options.",
+    "translation": "",
+    "context": "<<POS:18494916>> addButton(3,\"Options\",(function(){return e.showOptions()}),\"Options Menu\",\"Set the game options.\")"
+  },
+  {
+    "key": "button|Credits|52a0b8180e3c",
     "original": "Credits",
     "translation": "",
-    "context": "<<POS:18494958>>"
+    "context": "<<POS:18494958>> addButton(4,\"Credits\",(function(){return e.showCredits()}),\"View Credits\",\"View development & backer credits.\")"
   },
   {
-    "key": "button|Achievements|d427833456c6",
+    "key": "button.hover|View_Credits|704af3313f39",
+    "original": "View Credits",
+    "translation": "",
+    "context": "<<POS:18495005>> addButton(4,\"Credits\",(function(){return e.showCredits()}),\"View Credits\",\"View development & backer credits.\")"
+  },
+  {
+    "key": "button.tooltip|View_development_backer_credits|ccca9716a26a",
+    "original": "View development & backer credits.",
+    "translation": "",
+    "context": "<<POS:18495020>> addButton(4,\"Credits\",(function(){return e.showCredits()}),\"View Credits\",\"View development & backer credits.\")"
+  },
+  {
+    "key": "button|Achievements|8e7dddd2798a",
     "original": "Achievements",
     "translation": "",
-    "context": "<<POS:18495075>>"
+    "context": "<<POS:18495075>> addButton(7,\"Achievements\",(function(){return e.showAchievements()}),\"Achievements\",\"Achievements? Achievements!\")"
   },
   {
-    "key": "button|Back|1ddec829a759",
-    "original": "Back",
+    "key": "button.hover|Achievements|8e7dddd2798a",
+    "original": "Achievements",
     "translation": "",
-    "context": "<<POS:18495219>>"
+    "context": "<<POS:18495132>> addButton(7,\"Achievements\",(function(){return e.showAchievements()}),\"Achievements\",\"Achievements? Achievements!\")"
   },
   {
-    "key": "button|Back|8377b4609270",
+    "key": "button.tooltip|Achievements_Achievements|9747c2705cf6",
+    "original": "Achievements? Achievements!",
+    "translation": "",
+    "context": "<<POS:18495147>> addButton(7,\"Achievements\",(function(){return e.showAchievements()}),\"Achievements\",\"Achievements? Achievements!\")"
+  },
+  {
+    "key": "button|Back|64d4703b8e76",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:18495420>>"
+    "context": "<<POS:18495219>> addButton(14,\"Back\",(function(){return e.returnFromElement()}),\"Back\",\"Go Back to the game.\")"
+  },
+  {
+    "key": "button.hover|Back|64d4703b8e76",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:18495269>> addButton(14,\"Back\",(function(){return e.returnFromElement()}),\"Back\",\"Go Back to the game.\")"
+  },
+  {
+    "key": "button.tooltip|Go_Back_to_the_game|7376849395ce",
+    "original": "Go Back to the game.",
+    "translation": "",
+    "context": "<<POS:18495276>> addButton(14,\"Back\",(function(){return e.returnFromElement()}),\"Back\",\"Go Back to the game.\")"
+  },
+  {
+    "key": "button|Back|506be6ee2ac5",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:18495420>> addButton(4,\"Back\",(function(){return e.popState()}))"
   },
   {
     "key": "button.ttB|View_your_stat_point_allocation_and_class_perks|ed17507102a7",
@@ -150,10 +360,16 @@
     "context": "<<POS:18508996>>"
   },
   {
-    "key": "button|Back|642c7eb70239",
+    "key": "button.hover|You_are_unable_to_access_Mail_at_this_time|4069567d9b24",
+    "original": "You are unable to access Mail at this time.",
+    "translation": "",
+    "context": "<<POS:18510478>> addDisabledButton(a.idx,a.title,a.ttH,\"You are unable to access Mail at this time.\")"
+  },
+  {
+    "key": "button|Back|734e14bd9f73",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:18513084>>"
+    "context": "<<POS:18513084>> addButton(14,\"Back\",this.codexBack)"
   },
   {
     "key": "output|this_codexMainText|1152548b8156",
@@ -165,7 +381,7 @@
     "key": "button|Back|c29ab17278ed",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:18513312>>"
+    "context": "<<POS:18513312>> addButton(14,\"Back\",this.codexBack)"
   },
   {
     "key": "output|this_codexMainText|1152548b8156#1",
@@ -177,7 +393,7 @@
     "key": "button|Back|c29ab17278ed#1",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:18513545>>"
+    "context": "<<POS:18513545>> addButton(14,\"Back\",this.codexBack)"
   },
   {
     "key": "output|this_codexMainText|1152548b8156#2",
@@ -189,103 +405,151 @@
     "key": "button|Database|d217ded0764a",
     "original": "Database",
     "translation": "",
-    "context": "<<POS:18514012>>"
+    "context": "<<POS:18514012>> addButton(0,\"Database\",(function(){e.codexDatabaseFunction()}))"
   },
   {
     "key": "button|Fiction|4c94778abc8b",
     "original": "Fiction",
     "translation": "",
-    "context": "<<POS:18514081>>"
+    "context": "<<POS:18514081>> addButton(1,\"Fiction\",(function(){e.codexFictionFunction()}))"
   },
   {
     "key": "button|Extra|f0c43dd96eaf",
     "original": "Extra",
     "translation": "",
-    "context": "<<POS:18514188>>"
+    "context": "<<POS:18514188>> addDisabledButton(2,\"Extra\",\"Extra Functions\",\"You cannot use the CODEX’s extra functions at this time.\")"
   },
   {
-    "key": "button|Extra|36dcea7ed0f9",
+    "key": "button.hover|You_cannot_use_the_CODEX_s_extra_functions_at_this_time|c65e45da8ad2",
+    "original": "You cannot use the CODEX’s extra functions at this time.",
+    "translation": "",
+    "context": "<<POS:18514214>> addDisabledButton(2,\"Extra\",\"Extra Functions\",\"You cannot use the CODEX’s extra functions at this time.\")"
+  },
+  {
+    "key": "button|Extra|810f3298d621",
     "original": "Extra",
     "translation": "",
-    "context": "<<POS:18514291>>"
+    "context": "<<POS:18514291>> addButton(2,\"Extra\",(function(){window.showCodexExtra()}),\"Extra Functions\",\"Use various addons that have been installed in the CODEX.\")"
   },
   {
-    "key": "button|Stats|aa0e84faef43",
+    "key": "button.hover|Extra_Functions|d881aec01216",
+    "original": "Extra Functions",
+    "translation": "",
+    "context": "<<POS:18514337>> addButton(2,\"Extra\",(function(){window.showCodexExtra()}),\"Extra Functions\",\"Use various addons that have been installed in the CODEX.\")"
+  },
+  {
+    "key": "button.tooltip|Use_various_addons_that_have_been_installed_in_the_CODEX|7b38911b0d28",
+    "original": "Use various addons that have been installed in the CODEX.",
+    "translation": "",
+    "context": "<<POS:18514355>> addButton(2,\"Extra\",(function(){window.showCodexExtra()}),\"Extra Functions\",\"Use various addons that have been installed in the CODEX.\")"
+  },
+  {
+    "key": "button|Stats|9f3ad67eeb6b",
     "original": "Stats",
     "translation": "",
-    "context": "<<POS:18514433>>"
+    "context": "<<POS:18514433>> addButton(5,\"Stats\",(function(){window.statsScreen()}))"
   },
   {
     "key": "button|Log|e21bacefb5d3",
     "original": "Log",
     "translation": "",
-    "context": "<<POS:18514494>>"
+    "context": "<<POS:18514494>> addButton(6,\"Log\",(function(){window.updateCodexLogs(),window.displayQuestLog(flags.TOGGLE_MENU_LOG)}))"
   },
   {
     "key": "button|Encounters|9aa1666e8404",
     "original": "Encounters",
     "translation": "",
-    "context": "<<POS:18514603>>"
+    "context": "<<POS:18514603>> addButton(7,\"Encounters\",(function(){window.updateCodexLogs(),window.displayEncounterLog(flags.TOGGLE_MENU_LOG)}),\"Encounters\",\"Show the encounters and other miscellaneous information.\")"
   },
   {
-    "key": "button|Appearance|16307643a99f",
+    "key": "button.hover|Encounters|9aa1666e8404",
+    "original": "Encounters",
+    "translation": "",
+    "context": "<<POS:18514705>> addButton(7,\"Encounters\",(function(){window.updateCodexLogs(),window.displayEncounterLog(flags.TOGGLE_MENU_LOG)}),\"Encounters\",\"Show the encounters and other miscellaneous information.\")"
+  },
+  {
+    "key": "button.tooltip|Show_the_encounters_and_other_miscellaneous_information|dbc3a14c83d3",
+    "original": "Show the encounters and other miscellaneous information.",
+    "translation": "",
+    "context": "<<POS:18514718>> addButton(7,\"Encounters\",(function(){window.updateCodexLogs(),window.displayEncounterLog(flags.TOGGLE_MENU_LOG)}),\"Encounters\",\"Show the encounters and other miscellaneous information.\")"
+  },
+  {
+    "key": "button|Appearance|f42f5b0e5211",
     "original": "Appearance",
     "translation": "",
-    "context": "<<POS:18514815>>"
+    "context": "<<POS:18514815>> addButton(4,\"Appearance\",(function(){return e.showAppearance()}))"
   },
   {
     "key": "button|Back|d16104943c19",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:18514910>>"
+    "context": "<<POS:18514910>> addButton(14,\"Back\",(function(){return e.codexExit()}))"
   },
   {
     "key": "button|Appearance|9f04e745656c",
     "original": "Appearance",
     "translation": "",
-    "context": "<<POS:18515109>>"
+    "context": "<<POS:18515109>> addButton(0,\"Appearance\",(function(){return e.showAppearance()}))"
   },
   {
     "key": "button|Tattoos|55fa89be2eeb",
     "original": "Tattoos",
     "translation": "",
-    "context": "<<POS:18515180>>"
+    "context": "<<POS:18515180>> addButton(1,\"Tattoos\",(function(){return e.showTattoos()}))"
   },
   {
     "key": "button|Status_Effects|1da4d254a7d9",
     "original": "Status Effects",
     "translation": "",
-    "context": "<<POS:18515245>>"
+    "context": "<<POS:18515245>> addButton(2,\"Status Effects\",(function(){return e.showStatusEffects()}))"
   },
   {
     "key": "button|Perks|f8924d66ab2b",
     "original": "Perks",
     "translation": "",
-    "context": "<<POS:18515323>>"
+    "context": "<<POS:18515323>> addButton(3,\"Perks\",(function(){return e.showPerks()}))"
   },
   {
     "key": "button|Bust_Image|2c52a83e25d0",
     "original": "Bust Image",
     "translation": "",
-    "context": "<<POS:18515420>>"
+    "context": "<<POS:18515420>> addButton(4,\"Bust Image\",(function(){return e.editPCBust(t)}),\"Edit Bust Image\",\"Change your displayed bust artwork.\")"
   },
   {
-    "key": "button|Bust_Image|23d1eb810495",
+    "key": "button.hover|Edit_Bust_Image|e4860ab7512c",
+    "original": "Edit Bust Image",
+    "translation": "",
+    "context": "<<POS:18515470>> addButton(4,\"Bust Image\",(function(){return e.editPCBust(t)}),\"Edit Bust Image\",\"Change your displayed bust artwork.\")"
+  },
+  {
+    "key": "button.tooltip|Change_your_displayed_bust_artwork|5dff2c4199cf",
+    "original": "Change your displayed bust artwork.",
+    "translation": "",
+    "context": "<<POS:18515488>> addButton(4,\"Bust Image\",(function(){return e.editPCBust(t)}),\"Edit Bust Image\",\"Change your displayed bust artwork.\")"
+  },
+  {
+    "key": "button|Bust_Image|333fe9410f8a",
     "original": "Bust Image",
     "translation": "",
-    "context": "<<POS:18515552>>"
+    "context": "<<POS:18515552>> addDisabledButton(4,\"Bust Image\",\"Edit Bust Image\",\"Enable Bust Artwork in the Options to edit.\")"
   },
   {
-    "key": "button|Back|e17d56e5dea4",
-    "original": "Back",
+    "key": "button.hover|Enable_Bust_Artwork_in_the_Options_to_edit|f59041a47ee4",
+    "original": "Enable Bust Artwork in the Options to edit.",
     "translation": "",
-    "context": "<<POS:18515671>>"
+    "context": "<<POS:18515583>> addDisabledButton(4,\"Bust Image\",\"Edit Bust Image\",\"Enable Bust Artwork in the Options to edit.\")"
   },
   {
-    "key": "button|Back|8377b4609270#1",
+    "key": "button|Back|6dbaeb3f1768",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:18515813>>"
+    "context": "<<POS:18515671>> addButton(14,\"Back\",(function(){e.returnFromAppearance()}))"
+  },
+  {
+    "key": "button|Back|8377b4609270",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:18515813>> addButton(14,\"Back\",(function(){return e.popState()}))"
   },
   {
     "key": "output|JSXContent|3a3bba3adb76",
@@ -303,136 +567,352 @@
     "key": "button|Use_Gremlin_x|b3516b1a8142",
     "original": "Use Gremlin (x",
     "translation": "",
-    "context": "<<POS:18623875>>"
+    "context": "<<POS:18623875>> addButton(e,\"Use Gremlin (x\".concat(pc.inventory.itemQuantity(DE.h),\")\"),(function(){o.setButtonState(e,!1),o.useEntropyGremlinConfirm(\"prompt\",e,t)}),\"Use \".concat(a.longName),\"\".concat(a.tooltip))"
   },
   {
-    "key": "button|Use_Gremlin|d755e55b48c7",
+    "key": "button.hover|Use|f76b43e0fab6",
+    "original": "Use ",
+    "translation": "",
+    "context": "<<POS:18624014>> addButton(e,\"Use Gremlin (x\".concat(pc.inventory.itemQuantity(DE.h),\")\"),(function(){o.setButtonState(e,!1),o.useEntropyGremlinConfirm(\"prompt\",e,t)}),\"Use \".concat(a.longName),\"\".concat(a.tooltip))"
+  },
+  {
+    "key": "button|Use_Gremlin|b91809a85ff0",
     "original": "Use Gremlin",
     "translation": "",
-    "context": "<<POS:18624092>>"
+    "context": "<<POS:18624092>> addDisabledButton(e,\"Use Gremlin\",\"Use Entropy Gremlin\",\"Entropy Gremlins are illegal, one-shot hacking devices. If you had one, you might be able to use it to complete a puzzle for you.\")"
   },
   {
-    "key": "button|Blackjack|cd5d77d7ddcc",
+    "key": "button.hover|Entropy_Gremlins_are_illegal_one_shot_hacking_devices_If_you_h|2592858eb8a7",
+    "original": "Entropy Gremlins are illegal, one-shot hacking devices. If you had one, you might be able to use it to complete a puzzle for you.",
+    "translation": "",
+    "context": "<<POS:18624128>> addDisabledButton(e,\"Use Gremlin\",\"Use Entropy Gremlin\",\"Entropy Gremlins are illegal, one-shot hacking devices. If you had one, you might be able to use it to complete a puzzle for you.\")"
+  },
+  {
+    "key": "button|Blackjack|e40a62030640",
     "original": "Blackjack",
     "translation": "",
-    "context": "<<POS:18627162>>"
+    "context": "<<POS:18627162>> addDisabledButton(e,\"Blackjack\",\"Blackjack\",\"<i>There is already an active minigame!</i>\")"
   },
   {
-    "key": "button|Blackjack|e871e2bc0646",
+    "key": "button.hover|i_There_is_already_an_active_minigame_i|87c91a981528",
+    "original": "<i>There is already an active minigame!</i>",
+    "translation": "",
+    "context": "<<POS:18627186>> addDisabledButton(e,\"Blackjack\",\"Blackjack\",\"<i>There is already an active minigame!</i>\")"
+  },
+  {
+    "key": "button|Blackjack|9ff0ec7c81b7",
     "original": "Blackjack",
     "translation": "",
-    "context": "<<POS:18627245>>"
+    "context": "<<POS:18627245>> addButton(e,\"Blackjack\",(function(){game.gamestate||window.popUIStateToMainText(),window.showBlackjackMinigame(new md.MU((function(e,t,o){return(0,_e.Zb)(_e.WN.Core,_e.qS.Log,\"Played \".concat(e,\" Won \").concat(t,\" Lost \").concat(o))}),10,void 0,!0))}),\"Blackjack\",\"The hookers and blow come later.\")"
   },
   {
-    "key": "button|Save_To_Slot|f4bd53a65d29",
+    "key": "button.hover|Blackjack|9ff0ec7c81b7",
+    "original": "Blackjack",
+    "translation": "",
+    "context": "<<POS:18627485>> addButton(e,\"Blackjack\",(function(){game.gamestate||window.popUIStateToMainText(),window.showBlackjackMinigame(new md.MU((function(e,t,o){return(0,_e.Zb)(_e.WN.Core,_e.qS.Log,\"Played \".concat(e,\" Won \").concat(t,\" Lost \").concat(o))}),10,void 0,!0))}),\"Blackjack\",\"The hookers and blow come later.\")"
+  },
+  {
+    "key": "button.tooltip|The_hookers_and_blow_come_later|44eb40ee1277",
+    "original": "The hookers and blow come later.",
+    "translation": "",
+    "context": "<<POS:18627497>> addButton(e,\"Blackjack\",(function(){game.gamestate||window.popUIStateToMainText(),window.showBlackjackMinigame(new md.MU((function(e,t,o){return(0,_e.Zb)(_e.WN.Core,_e.qS.Log,\"Played \".concat(e,\" Won \").concat(t,\" Lost \").concat(o))}),10,void 0,!0))}),\"Blackjack\",\"The hookers and blow come later.\")"
+  },
+  {
+    "key": "button|Save_To_Slot|8a5e679b8b97",
     "original": "Save To Slot",
     "translation": "",
-    "context": "<<POS:18638953>>"
+    "context": "<<POS:18638953>> addDisabledButton(0,\"Save To Slot\",\"Save To Slot\",\"You cannot save your game \".concat(t,\".\"))"
   },
   {
-    "key": "button|Save_To_Slot|b16a1808e404",
+    "key": "button.hover|You_cannot_save_your_game|edc395cf9cda",
+    "original": "You cannot save your game ",
+    "translation": "",
+    "context": "<<POS:18638983>> addDisabledButton(0,\"Save To Slot\",\"Save To Slot\",\"You cannot save your game \".concat(t,\".\"))"
+  },
+  {
+    "key": "button|Save_To_Slot|3fa838512b83",
     "original": "Save To Slot",
     "translation": "",
-    "context": "<<POS:18639052>>"
+    "context": "<<POS:18639052>> addDisabledButton(0,\"Save To Slot\",\"Save To Slot\",\"Choose a slot to save to.\")"
   },
   {
-    "key": "button|Load_From_Slot|e703e0904482",
+    "key": "button.hover|Choose_a_slot_to_save_to|68588c5936b8",
+    "original": "Choose a slot to save to.",
+    "translation": "",
+    "context": "<<POS:18639082>> addDisabledButton(0,\"Save To Slot\",\"Save To Slot\",\"Choose a slot to save to.\")"
+  },
+  {
+    "key": "button|Load_From_Slot|2b6770987878",
     "original": "Load From Slot",
     "translation": "",
-    "context": "<<POS:18639136>>"
+    "context": "<<POS:18639136>> addDisabledButton(1,\"Load From Slot\",\"Load From Slot\",\"Choose a slot to load from.\")"
   },
   {
-    "key": "button|Save_To_File|c50f20c98805",
+    "key": "button.hover|Choose_a_slot_to_load_from|03552079aef2",
+    "original": "Choose a slot to load from.",
+    "translation": "",
+    "context": "<<POS:18639170>> addDisabledButton(1,\"Load From Slot\",\"Load From Slot\",\"Choose a slot to load from.\")"
+  },
+  {
+    "key": "button|Save_To_File|da31d4f8a333",
     "original": "Save To File",
     "translation": "",
-    "context": "<<POS:18639218>>"
+    "context": "<<POS:18639218>> addButton(2,\"Save To File\",(function(){e.setButtonState(2,!0),S.yq.saveToFilePrompt()}),\"Save To File\",\"Save your game to file.\")"
   },
   {
-    "key": "button|Load_From_File|a128ecd691a5",
+    "key": "button.hover|Save_To_File|da31d4f8a333",
+    "original": "Save To File",
+    "translation": "",
+    "context": "<<POS:18639294>> addButton(2,\"Save To File\",(function(){e.setButtonState(2,!0),S.yq.saveToFilePrompt()}),\"Save To File\",\"Save your game to file.\")"
+  },
+  {
+    "key": "button.tooltip|Save_your_game_to_file|3fede79723d8",
+    "original": "Save your game to file.",
+    "translation": "",
+    "context": "<<POS:18639309>> addButton(2,\"Save To File\",(function(){e.setButtonState(2,!0),S.yq.saveToFilePrompt()}),\"Save To File\",\"Save your game to file.\")"
+  },
+  {
+    "key": "button|Load_From_File|ebce275b7543",
     "original": "Load From File",
     "translation": "",
-    "context": "<<POS:18639471>>"
+    "context": "<<POS:18639471>> addButton(3,\"Load From File\",(function(){e.setButtonState(3,!0),S.yq.loadFromFilePrompt()}),\"Load From File\",\"Load your game from a file.\")"
   },
   {
-    "key": "button|Back|87cded55b6b9",
+    "key": "button.hover|Load_From_File|ebce275b7543",
+    "original": "Load From File",
+    "translation": "",
+    "context": "<<POS:18639551>> addButton(3,\"Load From File\",(function(){e.setButtonState(3,!0),S.yq.loadFromFilePrompt()}),\"Load From File\",\"Load your game from a file.\")"
+  },
+  {
+    "key": "button.tooltip|Load_your_game_from_a_file|8c19dea4f6ae",
+    "original": "Load your game from a file.",
+    "translation": "",
+    "context": "<<POS:18639568>> addButton(3,\"Load From File\",(function(){e.setButtonState(3,!0),S.yq.loadFromFilePrompt()}),\"Load From File\",\"Load your game from a file.\")"
+  },
+  {
+    "key": "button|Back|1af13b8defd6",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:18639616>>"
+    "context": "<<POS:18639616>> addButton(4,\"Back\",(function(){return e.returnFromElement()}),\"Back\",\"Back to whence you came.\")"
   },
   {
-    "key": "button|Autosaves|271c95ea53f0",
+    "key": "button.hover|Back|1af13b8defd6",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:18639666>> addButton(4,\"Back\",(function(){return e.returnFromElement()}),\"Back\",\"Back to whence you came.\")"
+  },
+  {
+    "key": "button.tooltip|Back_to_whence_you_came|3d1e55198d2b",
+    "original": "Back to whence you came.",
+    "translation": "",
+    "context": "<<POS:18639673>> addButton(4,\"Back\",(function(){return e.returnFromElement()}),\"Back\",\"Back to whence you came.\")"
+  },
+  {
+    "key": "button|Autosaves|e24fa7e986aa",
     "original": "Autosaves: ",
     "translation": "",
-    "context": "<<POS:18639922>>"
+    "context": "<<POS:18639922>> addButton(0,\"Autosaves: \".concat(o?\"On\":\"Off\"),(function(){t.autoSaves=!t.autoSaves,e.generateAutosaveMenuButtons(),t.autoSaves&&getGameState()&&(void 0===flags.LAST_AUTOSAVE||flags.LAST_AUTOSAVE+t.autosavePeriod<GetGameTimestamp())&&(flags.LAST_AUTOSAVE=GetGameTimestamp())}),\"Toggle Autosaves \".con..."
   },
   {
-    "key": "button|Save_More_Often|8b50efb7e193",
+    "key": "button.hover|Toggle_Autosaves|99008c5aec08",
+    "original": "Toggle Autosaves ",
+    "translation": "",
+    "context": "<<POS:18640187>> addButton(0,\"Autosaves: \".concat(o?\"On\":\"Off\"),(function(){t.autoSaves=!t.autoSaves,e.generateAutosaveMenuButtons(),t.autoSaves&&getGameState()&&(void 0===flags.LAST_AUTOSAVE||flags.LAST_AUTOSAVE+t.autosavePeriod<GetGameTimestamp())&&(flags.LAST_AUTOSAVE=GetGameTimestamp())}),\"Toggle Autosaves \".con..."
+  },
+  {
+    "key": "button.tooltip|Click_to_turn_autosaves|1f188efa531a",
+    "original": "Click to turn autosaves ",
+    "translation": "",
+    "context": "<<POS:18640228>> addButton(0,\"Autosaves: \".concat(o?\"On\":\"Off\"),(function(){t.autoSaves=!t.autoSaves,e.generateAutosaveMenuButtons(),t.autoSaves&&getGameState()&&(void 0===flags.LAST_AUTOSAVE||flags.LAST_AUTOSAVE+t.autosavePeriod<GetGameTimestamp())&&(flags.LAST_AUTOSAVE=GetGameTimestamp())}),\"Toggle Autosaves \".con..."
+  },
+  {
+    "key": "button|Save_More_Often|4c68e1033c0a",
     "original": "Save More Often",
     "translation": "",
-    "context": "<<POS:18640517>>"
+    "context": "<<POS:18640517>> addDisabledButton(1,\"Save More Often\",\"Save More Often\",\"The minimum save period is already selected.\")"
   },
   {
-    "key": "button|Save_More_Often|07566d096af2",
+    "key": "button.hover|The_minimum_save_period_is_already_selected|52620b4ae4eb",
+    "original": "The minimum save period is already selected.",
+    "translation": "",
+    "context": "<<POS:18640553>> addDisabledButton(1,\"Save More Often\",\"Save More Often\",\"The minimum save period is already selected.\")"
+  },
+  {
+    "key": "button|Save_More_Often|1b6cf47ccffc",
     "original": "Save More Often",
     "translation": "",
-    "context": "<<POS:18640618>>"
+    "context": "<<POS:18640618>> addButton(1,\"Save More Often\",(function(){var t=getGameOptions();t.autosavePeriod=a[i-1],t.SaveChanges(),e.generateAutosaveMenuButtons()}),\"Save More Often\",\"Save every \".concat(n[i-1].toLowerCase(),\" of in-game time.\"))"
   },
   {
-    "key": "button|Saving_Every|778f0e2540a5",
+    "key": "button.hover|Save_More_Often|1b6cf47ccffc",
+    "original": "Save More Often",
+    "translation": "",
+    "context": "<<POS:18640745>> addButton(1,\"Save More Often\",(function(){var t=getGameOptions();t.autosavePeriod=a[i-1],t.SaveChanges(),e.generateAutosaveMenuButtons()}),\"Save More Often\",\"Save every \".concat(n[i-1].toLowerCase(),\" of in-game time.\"))"
+  },
+  {
+    "key": "button.tooltip|Save_every|2e606ece83ef",
+    "original": "Save every ",
+    "translation": "",
+    "context": "<<POS:18640763>> addButton(1,\"Save More Often\",(function(){var t=getGameOptions();t.autosavePeriod=a[i-1],t.SaveChanges(),e.generateAutosaveMenuButtons()}),\"Save More Often\",\"Save every \".concat(n[i-1].toLowerCase(),\" of in-game time.\"))"
+  },
+  {
+    "key": "button|Saving_Every|63a2d203d837",
     "original": "Saving Every ",
     "translation": "",
-    "context": "<<POS:18640852>>"
+    "context": "<<POS:18640852>> addDisabledButton(2,\"Saving Every \".concat(n[i]),\"Autosave Period\",\"The autosave system will generate a save every \".concat(n[i].toLowerCase(),\" of in-game time.\"))"
   },
   {
-    "key": "button|Save_Less_Often|d9b0a81f9c35",
+    "key": "button.hover|The_autosave_system_will_generate_a_save_every|0b307ae23f2d",
+    "original": "The autosave system will generate a save every ",
+    "translation": "",
+    "context": "<<POS:18640899>> addDisabledButton(2,\"Saving Every \".concat(n[i]),\"Autosave Period\",\"The autosave system will generate a save every \".concat(n[i].toLowerCase(),\" of in-game time.\"))"
+  },
+  {
+    "key": "button|Save_Less_Often|81544900deaf",
     "original": "Save Less Often",
     "translation": "",
-    "context": "<<POS:18641036>>"
+    "context": "<<POS:18641036>> addDisabledButton(3,\"Save Less Often\",\"Save Less Often\",\"The maximum save period is already selected.\")"
   },
   {
-    "key": "button|Save_Less_Often|26853c042789",
+    "key": "button.hover|The_maximum_save_period_is_already_selected|d9b23b613b2c",
+    "original": "The maximum save period is already selected.",
+    "translation": "",
+    "context": "<<POS:18641072>> addDisabledButton(3,\"Save Less Often\",\"Save Less Often\",\"The maximum save period is already selected.\")"
+  },
+  {
+    "key": "button|Save_Less_Often|7c17a3654fca",
     "original": "Save Less Often",
     "translation": "",
-    "context": "<<POS:18641137>>"
+    "context": "<<POS:18641137>> addButton(3,\"Save Less Often\",(function(){var t=getGameOptions();t.autosavePeriod=a[i+1],t.SaveChanges(),e.generateAutosaveMenuButtons()}),\"Save Less Often\",\"Save every \".concat(n[i+1].toLowerCase(),\" of in-game time.\"))"
   },
   {
-    "key": "button|Back|e5fe597691f8",
+    "key": "button.hover|Save_Less_Often|7c17a3654fca",
+    "original": "Save Less Often",
+    "translation": "",
+    "context": "<<POS:18641264>> addButton(3,\"Save Less Often\",(function(){var t=getGameOptions();t.autosavePeriod=a[i+1],t.SaveChanges(),e.generateAutosaveMenuButtons()}),\"Save Less Often\",\"Save every \".concat(n[i+1].toLowerCase(),\" of in-game time.\"))"
+  },
+  {
+    "key": "button.tooltip|Save_every|2ed8d2c7c16c",
+    "original": "Save every ",
+    "translation": "",
+    "context": "<<POS:18641282>> addButton(3,\"Save Less Often\",(function(){var t=getGameOptions();t.autosavePeriod=a[i+1],t.SaveChanges(),e.generateAutosaveMenuButtons()}),\"Save Less Often\",\"Save every \".concat(n[i+1].toLowerCase(),\" of in-game time.\"))"
+  },
+  {
+    "key": "button|Back|6fdfdda92d73",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:18641363>>"
+    "context": "<<POS:18641363>> addButton(4,\"Back\",(function(){return e.returnFromElement()}),\"Back\",\"Back to whence you came.\")"
   },
   {
-    "key": "button|Save_To_Slot|cdeca976aac0",
+    "key": "button.hover|Back|6fdfdda92d73",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:18641413>> addButton(4,\"Back\",(function(){return e.returnFromElement()}),\"Back\",\"Back to whence you came.\")"
+  },
+  {
+    "key": "button.tooltip|Back_to_whence_you_came|963cfb4a4cdc",
+    "original": "Back to whence you came.",
+    "translation": "",
+    "context": "<<POS:18641420>> addButton(4,\"Back\",(function(){return e.returnFromElement()}),\"Back\",\"Back to whence you came.\")"
+  },
+  {
+    "key": "button|Save_To_Slot|9346d162c2ea",
     "original": "Save To Slot ",
     "translation": "",
-    "context": "<<POS:18646339>>"
+    "context": "<<POS:18646339>> addDisabledButton(0,\"Save To Slot \".concat(e+1),\"Save To Slot \".concat(e+1),l||\"You cannot save your current game data to Slot \".concat(e+1,\".\"))"
   },
   {
     "key": "button|Save_To_Slot|d17262e83d32",
     "original": "Save To Slot ",
     "translation": "",
-    "context": "<<POS:18646515>>"
+    "context": "<<POS:18646515>> addButton(0,\"Save To Slot \".concat(e+1),(function(){t.setButtonState(0,!0),t.handleSaveLoadAction(e,!0)}),\"Save To Slot \".concat(e+1),\"Your current game data will be saved to Slot \".concat(e+1,\".\"))"
   },
   {
-    "key": "button|Save_To_Slot|d17262e83d32#1",
+    "key": "button.hover|Save_To_Slot|d17262e83d32",
     "original": "Save To Slot ",
     "translation": "",
-    "context": "<<POS:18646727>>"
+    "context": "<<POS:18646609>> addButton(0,\"Save To Slot \".concat(e+1),(function(){t.setButtonState(0,!0),t.handleSaveLoadAction(e,!0)}),\"Save To Slot \".concat(e+1),\"Your current game data will be saved to Slot \".concat(e+1,\".\"))"
   },
   {
-    "key": "button|Load_From_Slot|40723d2477ce",
+    "key": "button.tooltip|Your_current_game_data_will_be_saved_to_Slot|a4090f3f5ace",
+    "original": "Your current game data will be saved to Slot ",
+    "translation": "",
+    "context": "<<POS:18646637>> addButton(0,\"Save To Slot \".concat(e+1),(function(){t.setButtonState(0,!0),t.handleSaveLoadAction(e,!0)}),\"Save To Slot \".concat(e+1),\"Your current game data will be saved to Slot \".concat(e+1,\".\"))"
+  },
+  {
+    "key": "button|Save_To_Slot|f32ee89fc156",
+    "original": "Save To Slot ",
+    "translation": "",
+    "context": "<<POS:18646727>> addDisabledButton(0,\"Save To Slot \".concat(e+1),\"Save To Slot \".concat(e+1),\"You cannot save your current game data to Slot \".concat(e+1,\".\"))"
+  },
+  {
+    "key": "button.hover|You_cannot_save_your_current_game_data_to_Slot|79825d7c1e65",
+    "original": "You cannot save your current game data to Slot ",
+    "translation": "",
+    "context": "<<POS:18646783>> addDisabledButton(0,\"Save To Slot \".concat(e+1),\"Save To Slot \".concat(e+1),\"You cannot save your current game data to Slot \".concat(e+1,\".\"))"
+  },
+  {
+    "key": "button|Load_From_Slot|82023c50f462",
     "original": "Load From Slot ",
     "translation": "",
-    "context": "<<POS:18646889>>"
+    "context": "<<POS:18646889>> addDisabledButton(1,\"Load From Slot \".concat(e+1),\"Load From Slot \".concat(e+1),\"There is no game data in Slot \".concat(e+1,\" to load.\"))"
   },
   {
-    "key": "button|Load_From_Slot|2488cea2ae50",
+    "key": "button.hover|There_is_no_game_data_in_Slot|4da4fda58c49",
+    "original": "There is no game data in Slot ",
+    "translation": "",
+    "context": "<<POS:18646949>> addDisabledButton(1,\"Load From Slot \".concat(e+1),\"Load From Slot \".concat(e+1),\"There is no game data in Slot \".concat(e+1,\" to load.\"))"
+  },
+  {
+    "key": "button|Load_From_Slot|742732bb1832",
     "original": "Load From Slot ",
     "translation": "",
-    "context": "<<POS:18647024>>"
+    "context": "<<POS:18647024>> addButton(1,\"Load From Slot \".concat(e+1),(function(){t.setButtonState(1,!0),t.handleSaveLoadAction(e,!1)}),\"Load From Slot \".concat(e+1),\"Your game data from Slot \".concat(e+1,\" will be loaded.\"))"
   },
   {
-    "key": "output|textify_GE_GE_0_Ce_Z_n_t_t_center_n_t_t_span_style_font|2f05341032cf",
+    "key": "button.hover|Load_From_Slot|742732bb1832",
+    "original": "Load From Slot ",
+    "translation": "",
+    "context": "<<POS:18647120>> addButton(1,\"Load From Slot \".concat(e+1),(function(){t.setButtonState(1,!0),t.handleSaveLoadAction(e,!1)}),\"Load From Slot \".concat(e+1),\"Your game data from Slot \".concat(e+1,\" will be loaded.\"))"
+  },
+  {
+    "key": "button.tooltip|Your_game_data_from_Slot|767ca2f53c72",
+    "original": "Your game data from Slot ",
+    "translation": "",
+    "context": "<<POS:18647150>> addButton(1,\"Load From Slot \".concat(e+1),(function(){t.setButtonState(1,!0),t.handleSaveLoadAction(e,!1)}),\"Load From Slot \".concat(e+1),\"Your game data from Slot \".concat(e+1,\" will be loaded.\"))"
+  },
+  {
+    "key": "textify|Message_n_t_t_t_code|02a0c5420a70",
+    "original": "Message:\\n\\t\\t\\t<code>",
+    "translation": "",
+    "context": "<<POS:18670741>>"
+  },
+  {
+    "key": "textify|code|d21d25ec7f38",
+    "original": "</code>",
+    "translation": "",
+    "context": "<<POS:18670766>>"
+  },
+  {
+    "key": "textify|Stack_n_t_t_t_code|b674bd8279f8",
+    "original": "Stack:\\n\\t\\t\\t<code>",
+    "translation": "",
+    "context": "<<POS:18671295>>"
+  },
+  {
+    "key": "textify|code|8168a9cb2d12",
+    "original": "</code>",
+    "translation": "",
+    "context": "<<POS:18671318>>"
+  },
+  {
+    "key": "textify|Stack_n_t_t_t_code_Stack_information_was_not_provided_by_the_br|cf03451c7339",
+    "original": "Stack:\\n\\t\\t\\t<code>Stack information was not provided by the browser.</code>",
+    "translation": "",
+    "context": "<<POS:18671410>>"
+  },
+  {
+    "key": "output|textify_GE_GE_0_Ce_Z_n_t_t_center_n_t_t_span_style_font|bff824a21cab",
     "original": "textify(GE||(GE=(0,Ce.Z)(['\\n\\t\\t<center>\\n\\t\\t<span style=\"font-weight:bold;color:red;font-size:200%;\">Critical Error</span>\\n\\t\\t</center>\\n\\t\\t<hr>\\n\\t\\tA critical error has occurred. Please create a bug report on the forums ',\".\\n\\t\\t\",\"\\n\\t\\t<b>Please include what you did before the error and a screen-shot or copy-paste of the error message below:</b>\\n\\n\\t\\t```\\n\\t\\tVersion: \",\"\\n\\n\\t\\t\",\"\\n\\n\\t\\t\",\"\\n\\n\\t\\t\",\";\\n\\n\\t\\tHash mismatches; may indicate a section of the save has been edited:\\n\\t\\t\",\"\\n\\n\\t\\t\",\"\\n\\t\\t```\"],['\\n\\t\\t<center>\\n\\t\\t<span style=\"font-weight:bold;color:red;font-size:200%;\">Critical Error</span>\\n\\t\\t</center>\\n\\t\\t<hr>\\n\\t\\tA critical error has occurred. Please create a bug report on the forums ',\".\\n\\t\\t\",\"\\n\\t\\t<b>Please include what you did before the error and a screen-shot or copy-paste of the error message below:</b>\\n\\n\\t\\t\\\\`\\\\`\\\\`\\n\\t\\tVersion: \",\"\\n\\n\\t\\t\",\"\\n\\n\\t\\t\",\"\\n\\n\\t\\t\",\";\\n\\n\\t\\tHash mismatches; may indicate a section of the save has been edited:\\n\\t\\t\",\"\\n\\n\\t\\t\",\"\\n\\t\\t\\\\`\\\\`\\\\`\"])),textHyperlink(\"here\",\"https://forum.fenoxo.com/forums/titsbugs/\"),window.game.lastUpdateCheckState?\"<b>You are running an out-of-date version of TiTS. It’s possible this issue has already been fixed. Please update if you continue to experience it!</b>\":\"\",this.versionIdent,n,i,document.querySelector('meta[http-equiv=\"X-Translated-To\"]')?\"Translation active.\":\"Translation not active.\",a,_e.ou.emit())",
     "translation": "",
     "context": "<<POS:18671505>>"
@@ -441,12 +921,24 @@
     "key": "button|Reload_Game|2d06b53c4f59",
     "original": "Reload Game",
     "translation": "",
-    "context": "<<POS:18672991>>"
+    "context": "<<POS:18672991>> addButton(0,\"Reload Game\",(function(){o.restartGame()}))"
   },
   {
     "key": "button|Submit_Error|f82c4ca29e91",
     "original": "Submit Error",
     "translation": "",
-    "context": "<<POS:18673104>>"
+    "context": "<<POS:18673104>> addButton(1,\"Submit Error\",(function(){FE.Tb(e),o.setButtonDisabled(1)}),\"Submit Error\",\"Submit an error to our internal error reporting system. This will provide the error message to us automatically and allow us to better keep track of this issue!\")"
+  },
+  {
+    "key": "button.hover|Submit_Error|f82c4ca29e91",
+    "original": "Submit Error",
+    "translation": "",
+    "context": "<<POS:18673165>> addButton(1,\"Submit Error\",(function(){FE.Tb(e),o.setButtonDisabled(1)}),\"Submit Error\",\"Submit an error to our internal error reporting system. This will provide the error message to us automatically and allow us to better keep track of this issue!\")"
+  },
+  {
+    "key": "button.tooltip|Submit_an_error_to_our_internal_error_reporting_system_This_wil|dcca9b3f6e78",
+    "original": "Submit an error to our internal error reporting system. This will provide the error message to us automatically and allow us to better keep track of this issue!",
+    "translation": "",
+    "context": "<<POS:18673180>> addButton(1,\"Submit Error\",(function(){FE.Tb(e),o.setButtonDisabled(1)}),\"Submit Error\",\"Submit an error to our internal error reporting system. This will provide the error message to us automatically and allow us to better keep track of this issue!\")"
   }
 ]

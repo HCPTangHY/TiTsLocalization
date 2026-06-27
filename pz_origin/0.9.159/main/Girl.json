@@ -3,37 +3,37 @@
     "key": "perk|Shield_Tweaks|22dd629e9820",
     "original": "Shield Tweaks",
     "translation": "",
-    "context": "<<POS:01525004>>"
+    "context": "<<POS:01525004>> createPerk(\"Shield Tweaks\")"
   },
   {
     "key": "perk|Shield_Booster|679ff43b5fdb",
     "original": "Shield Booster",
     "translation": "",
-    "context": "<<POS:01525034>>"
+    "context": "<<POS:01525034>> createPerk(\"Shield Booster\")"
   },
   {
     "key": "perk|Appearance_Enabled|ac84eaa5d624",
     "original": "Appearance Enabled",
     "translation": "",
-    "context": "<<POS:01531560>>"
+    "context": "<<POS:01531560>> createPerk(\"Appearance Enabled\")"
   },
   {
     "key": "perk|Inhuman_Desire|f9aba3b8e9ce",
     "original": "Inhuman Desire",
     "translation": "",
-    "context": "<<POS:01531595>>"
+    "context": "<<POS:01531595>> createPerk(\"Inhuman Desire\",25)"
   },
   {
     "key": "perk|Giant_Slayer|1020313beb24",
     "original": "Giant Slayer",
     "translation": "",
-    "context": "<<POS:01531629>>"
+    "context": "<<POS:01531629>> createPerk(\"Giant Slayer\",72,10)"
   },
   {
     "key": "perk|Get_Down|c9dbde316091",
     "original": "Get Down!",
     "translation": "",
-    "context": "<<POS:01531664>>"
+    "context": "<<POS:01531664>> createPerk(\"Get Down!\",50)"
   },
   {
     "key": "combat|You_dodge_backwards_just_in_time_watching_the_little_rodent_tw|e0fa2a84b5a4",
@@ -246,10 +246,10 @@
     "context": "<<POS:01541058>>"
   },
   {
-    "key": "combat|n_nThe_grenades_go_off_and_this_plane_of_existence_turns_blank|46d01331798f",
-    "original": "\\n\\nThe grenades go off and this plane of existence turns blank white. <b>You are blind!</b>",
+    "key": "combat|The_grenades_go_off_and_this_plane_of_existence_turns_blank_whit|d2cd655233a4",
+    "original": "The grenades go off and this plane of existence turns blank white. <b>You are blind!</b>",
     "translation": "",
-    "context": "<<POS:01541194>>"
+    "context": "<<POS:01541198>>"
   },
   {
     "key": "combat|You_sidestep_those_rapidly_unspindling_stingers_just_in_time_w|7cb3ae1b72ea",
@@ -312,19 +312,19 @@
     "context": "<<POS:01542996>>"
   },
   {
-    "key": "combat|n_n_i_Hold_still_hold_still_i_beckons_the_mouse_this_mf|9d49fdf9c3c7",
-    "original": "\\n\\n<i>“Hold still, hold still!”</i> beckons the mouse \"+this.mf(\"boy\",\"girl\")+\" clambering over \"+this.mf(\"his\",\"her\")+\" fallen friend. \"+this.mf(\"He\",\"She\")+\" produces a large needle filled with orange liquid and jams it in the writhing outlaw’s neck. A loud gasp precedes a frantic pawing; the once fallen rat stands and gathers \".concat(this.mf(\"his\",\"her\"),\" gear after a brief conniption fit, ready to face you down again!\")",
+    "key": "combat|i_Hold_still_hold_still_i_beckons_the_mouse_this_mf_bo|158af70733fa",
+    "original": "<i>“Hold still, hold still!”</i> beckons the mouse \"+this.mf(\"boy\",\"girl\")+\" clambering over \"+this.mf(\"his\",\"her\")+\" fallen friend. \"+this.mf(\"He\",\"She\")+\" produces a large needle filled with orange liquid and jams it in the writhing outlaw’s neck. A loud gasp precedes a frantic pawing; the once fallen rat stands and gathers \".concat(this.mf(\"his\",\"her\"),\" gear after a brief conniption fit, ready to face you down again!\")",
     "translation": "",
-    "context": "<<POS:01544085>>"
+    "context": "<<POS:01544089>>"
   },
   {
-    "key": "combat|n_nCrap|b19e9ed9bbe3",
-    "original": "\\n\\nCrap!",
+    "key": "combat|Crap|c4b1eb4c4a08",
+    "original": "Crap!",
     "translation": "",
-    "context": "<<POS:01544557>>"
+    "context": "<<POS:01544561>>"
   },
   {
-    "key": "combat|as_the_other|3aab69a599fc",
+    "key": "combat|as_the_other|d7faf0df8382",
     "original": " as the other",
     "translation": "",
     "context": "<<POS:01545349>>"
@@ -408,16 +408,16 @@
     "context": "<<POS:01551027>>"
   },
   {
-    "key": "combat|n_nWhilst_one_saucer_eared_thief_probes_your_vulnerable_belongi|39dec4afc633",
-    "original": "\\n\\nWhilst one saucer-eared thief probes your vulnerable belongings, the other plants \".concat(this.mf(\"his\",\"her\"),\" crotch on your neck, blinding you under \").concat(this.mf(\"his\",\"her\"),\" round butt, your protests muffled beneath \").concat(this.mf(\"his\",\"her\"),\" plump thighs. The rapacious rat can’t help but grope you in between countering your fleeting moments of limp resistance, forcing you to groan into indistinct nether regions with a mix of lust and pain.\")",
+    "key": "combat|Whilst_one_saucer_eared_thief_probes_your_vulnerable_belongings|c1844edccb8f",
+    "original": "Whilst one saucer-eared thief probes your vulnerable belongings, the other plants \".concat(this.mf(\"his\",\"her\"),\" crotch on your neck, blinding you under \").concat(this.mf(\"his\",\"her\"),\" round butt, your protests muffled beneath \").concat(this.mf(\"his\",\"her\"),\" plump thighs. The rapacious rat can’t help but grope you in between countering your fleeting moments of limp resistance, forcing you to groan into indistinct nether regions with a mix of lust and pain.\")",
     "translation": "",
-    "context": "<<POS:01551374>>"
+    "context": "<<POS:01551378>>"
   },
   {
-    "key": "combat|n_nTwo_mouse_pirates_pin_you_down_painfully_one_sitting_atop_y|2d050d8ee2c2",
-    "original": "\\n\\nTwo mouse pirates pin you down painfully, one sitting atop your groin and the other above your chin. Your face-sitter’s damp and quivering butt drags over your face, led by roaming hands and followed by happy chitters. No matter how hard you thrash, it’s all limp resistance to them, and worse, they can’t help but steal gropes at your body. You writhe feebly under their combined bodyweight, getting hit back and turned on in equal measure.",
+    "key": "combat|Two_mouse_pirates_pin_you_down_painfully_one_sitting_atop_your|7f53d4d68fa6",
+    "original": "Two mouse pirates pin you down painfully, one sitting atop your groin and the other above your chin. Your face-sitter’s damp and quivering butt drags over your face, led by roaming hands and followed by happy chitters. No matter how hard you thrash, it’s all limp resistance to them, and worse, they can’t help but steal gropes at your body. You writhe feebly under their combined bodyweight, getting hit back and turned on in equal measure.",
     "translation": "",
-    "context": "<<POS:01551859>>"
+    "context": "<<POS:01551863>>"
   },
   {
     "key": "combat|RandomInCollection_n_i|5b8839448498",
@@ -426,10 +426,10 @@
     "context": "<<POS:01554075>>"
   },
   {
-    "key": "combat|n_nAn_infuriating_ha_ha_escapes_the_cocksure_thief_s_mouth_a|63d7d7814654",
-    "original": "\\n\\nAn infuriating ‘ha-ha!’ escapes the cocksure thief’s mouth as they",
+    "key": "combat|An_infuriating_ha_ha_escapes_the_cocksure_thief_s_mouth_as_th|d08be1c0f2be",
+    "original": "An infuriating ‘ha-ha!’ escapes the cocksure thief’s mouth as they",
     "translation": "",
-    "context": "<<POS:01554120>>"
+    "context": "<<POS:01554124>>"
   },
   {
     "key": "combat|pool_your_gems_and_some_chits_into_one|da31df53fe33",
@@ -498,10 +498,10 @@
     "context": "<<POS:01555351>>"
   },
   {
-    "key": "combat|n_nThey_quickly_resume_their_search_Lewd_moans_are_coaxed_from|b8294bdd3d96",
-    "original": "\\n\\nThey quickly resume their search. Lewd moans are coaxed from you as a pair of dainty, adept paws travel down your sides. Pretentious laughs ring in your [pc.ears], fueling the indignant fire burning inside that makes every bounce and pushback stronger.",
+    "key": "combat|They_quickly_resume_their_search_Lewd_moans_are_coaxed_from_you|f17f9f909be1",
+    "original": "They quickly resume their search. Lewd moans are coaxed from you as a pair of dainty, adept paws travel down your sides. Pretentious laughs ring in your [pc.ears], fueling the indignant fire burning inside that makes every bounce and pushback stronger.",
     "translation": "",
-    "context": "<<POS:01555530>>"
+    "context": "<<POS:01555534>>"
   },
   {
     "key": "combat|one_rat_stomps_on_your_wrist_your_weapon_slipping_from_your_gr|fef6721eada1",
@@ -528,10 +528,10 @@
     "context": "<<POS:01556457>>"
   },
   {
-    "key": "combat|n_nYou_push_back_desperately_against_the_hands_holding_you_down|e870cbbed1ce",
-    "original": "\\n\\nYou push back desperately against the hands holding you down, still defiling the sanctity of your precious inventory and of your body too. Dainty, adept paws skip and jump across your [pc.skinFurScalesNoun], searching for plunder while pillaging your body. Strength gradually stokes the indignant fire inside, fueled by the pretentious laughter ringing in your [pc.ears].",
+    "key": "combat|You_push_back_desperately_against_the_hands_holding_you_down_st|719f7b67da47",
+    "original": "You push back desperately against the hands holding you down, still defiling the sanctity of your precious inventory and of your body too. Dainty, adept paws skip and jump across your [pc.skinFurScalesNoun], searching for plunder while pillaging your body. Strength gradually stokes the indignant fire inside, fueled by the pretentious laughter ringing in your [pc.ears].",
     "translation": "",
-    "context": "<<POS:01556645>>"
+    "context": "<<POS:01556649>>"
   },
   {
     "key": "combat|and_exchanging_knowing_looks_with_this_mf_his_her_a_1|7ee96bd15510",

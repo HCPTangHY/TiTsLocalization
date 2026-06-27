@@ -543,16 +543,28 @@
     "key": "button|Ticket_Shieldrock|10014955e0ca",
     "original": "Ticket: Shieldrock",
     "translation": "",
-    "context": "<<POS:00068255>>"
+    "context": "<<POS:00068255>> addButton(e++,\"Ticket: Shieldrock\",window.elcineUseTicketMachine,\"Ticket\",\"Purchase a ticket from the repaired kiosk, and head to the other side of the Shield Mountains.\")"
   },
   {
-    "key": "output|n_nAn_orange_skinned|db0328d4e0cf",
-    "original": "\\n\\nAn orange-skinned ",
+    "key": "button.hover|Ticket|8c66b752c3e3",
+    "original": "Ticket",
     "translation": "",
-    "context": "<<POS:00068508>>"
+    "context": "<<POS:00068306>> addButton(e++,\"Ticket: Shieldrock\",window.elcineUseTicketMachine,\"Ticket\",\"Purchase a ticket from the repaired kiosk, and head to the other side of the Shield Mountains.\")"
   },
   {
-    "key": "output|nuka|c512d8cea88d",
+    "key": "button.tooltip|Purchase_a_ticket_from_the_repaired_kiosk_and_head_to_the_other|e47352092f97",
+    "original": "Purchase a ticket from the repaired kiosk, and head to the other side of the Shield Mountains.",
+    "translation": "",
+    "context": "<<POS:00068315>> addButton(e++,\"Ticket: Shieldrock\",window.elcineUseTicketMachine,\"Ticket\",\"Purchase a ticket from the repaired kiosk, and head to the other side of the Shield Mountains.\")"
+  },
+  {
+    "key": "output|An_orange_skinned|70e9b86b60d8",
+    "original": "An orange-skinned ",
+    "translation": "",
+    "context": "<<POS:00068512>>"
+  },
+  {
+    "key": "output|nuka|ec1a67225e6d",
     "original": "nuka",
     "translation": "",
     "context": "<<POS:00068570>>"
@@ -573,22 +585,46 @@
     "key": "button|Nuka|9ffd166f7c69",
     "original": "Nuka",
     "translation": "",
-    "context": "<<POS:00068934>>"
+    "context": "<<POS:00068934>> addButton(e++,\"Nuka\",window.gayllShineGlassApproach,\"Nuka\",\"Approach the Nuka woman with the hoverbike.\")"
   },
   {
-    "key": "output|n_nGayll_is_here_resting_against_her_massive_gleaming_hoverbi|29c95b1590f7",
-    "original": "\\n\\nGayll is here, resting against her massive, gleaming hoverbike. She fiddles with a small, wrist-mounted computer to pass the time, sneaking glances at the station’s passersby.",
+    "key": "button.hover|Nuka|9ffd166f7c69",
+    "original": "Nuka",
     "translation": "",
-    "context": "<<POS:00069035>>"
+    "context": "<<POS:00068972>> addButton(e++,\"Nuka\",window.gayllShineGlassApproach,\"Nuka\",\"Approach the Nuka woman with the hoverbike.\")"
+  },
+  {
+    "key": "button.tooltip|Approach_the_Nuka_woman_with_the_hoverbike|5e103cef146c",
+    "original": "Approach the Nuka woman with the hoverbike.",
+    "translation": "",
+    "context": "<<POS:00068979>> addButton(e++,\"Nuka\",window.gayllShineGlassApproach,\"Nuka\",\"Approach the Nuka woman with the hoverbike.\")"
+  },
+  {
+    "key": "output|Gayll_is_here_resting_against_her_massive_gleaming_hoverbike|443cd8fc6865",
+    "original": "Gayll is here, resting against her massive, gleaming hoverbike. She fiddles with a small, wrist-mounted computer to pass the time, sneaking glances at the station’s passersby.",
+    "translation": "",
+    "context": "<<POS:00069039>>"
   },
   {
     "key": "button|Gayll|5046dcd6f67f",
     "original": "Gayll",
     "translation": "",
-    "context": "<<POS:00069232>>"
+    "context": "<<POS:00069232>> addButton(e++,\"Gayll\",window.gayllShineGlassApproach,\"Gayll\",\"Approach the Nuka woman with the hoverbike.\")"
   },
   {
-    "key": "output|0_it_zI_je_je_0_et_Z_Shieldrock_Station_is_a_long_raise|32217835d8d1",
+    "key": "button.hover|Gayll|5046dcd6f67f",
+    "original": "Gayll",
+    "translation": "",
+    "context": "<<POS:00069271>> addButton(e++,\"Gayll\",window.gayllShineGlassApproach,\"Gayll\",\"Approach the Nuka woman with the hoverbike.\")"
+  },
+  {
+    "key": "button.tooltip|Approach_the_Nuka_woman_with_the_hoverbike|4904e5b53a25",
+    "original": "Approach the Nuka woman with the hoverbike.",
+    "translation": "",
+    "context": "<<POS:00069279>> addButton(e++,\"Gayll\",window.gayllShineGlassApproach,\"Gayll\",\"Approach the Nuka woman with the hoverbike.\")"
+  },
+  {
+    "key": "output|0_it_zI_je_je_0_et_Z_Shieldrock_Station_is_a_long_raise|1694c69ee7de",
     "original": "(0,it.zI)(je||(je=(0,et.Z)([\"Shieldrock Station is a long, raised concrete platform with a paneled roof overtop it. It’s similar to Shineglass in terms of construction, though it’s in markedly better repair, with an open ticket counter and refreshment kiosk. Everything here’s manned by DEE-SLs, much larger and more heavily armed than those serving on the train &mdash; these are hulking warrior machines ready to defend the realm of the Evermind to the death if need be.\\n\\n\\t\\tThe armored train is parked here, currently undergoing rapid maintenance from a crew of cowled techno-clerics. Elcine is among their number, overseeing a crew working on the engine car.\\n\\t\\t\\n\\t\\t[flags.SHINEGLASS_ELYSTIEL_FREED|The birdy bard, Elystiel, is sitting more or less where you left her. She’s got her guitar out, strumming a much more peaceful, soothing melody than when you first met her. There’s a tin can in front of her, and every so often one of the passengers waiting by the train drops a bit of the local currency in with a satisfying clatter.]\"])))",
     "translation": "",
     "context": "<<POS:00069678>>"
@@ -597,16 +633,28 @@
     "key": "button|Ticket_Shineglass|db30a3930b1e",
     "original": "Ticket: Shineglass",
     "translation": "",
-    "context": "<<POS:00070752>>"
+    "context": "<<POS:00070752>> addButton(e++,\"Ticket: Shineglass\",(function(){clearOutput(),showBust(\"DEESL\"),output((0,it.zI)(De||(De=(0,et.Z)(['You approach the ticket kiosk, queuing up behind a [rand|divrani couple and their baby|another rusher like yourself|a nuka in biker’s leathers|a particularly large golden shalinae]. It ..."
   },
   {
-    "key": "output|n_nBeyond_the_ticket_kiosk_is_fare_dodger_detention|9bfbd97f48de",
-    "original": "\\n\\nBeyond the ticket kiosk is fare dodger detention.",
+    "key": "button.hover|Shineglass|90a4240da3cd",
+    "original": "Shineglass",
     "translation": "",
-    "context": "<<POS:00072105>>"
+    "context": "<<POS:00071965>> addButton(e++,\"Ticket: Shineglass\",(function(){clearOutput(),showBust(\"DEESL\"),output((0,it.zI)(De||(De=(0,et.Z)(['You approach the ticket kiosk, queuing up behind a [rand|divrani couple and their baby|another rusher like yourself|a nuka in biker’s leathers|a particularly large golden shalinae]. It ..."
   },
   {
-    "key": "output|It_is_empty_at_the_moment_since_you_freed_Hureya|3fbce9169184",
+    "key": "button.tooltip|Get_a_ticket_back_to_Shineglass_Station|874f94a344be",
+    "original": "Get a ticket back to Shineglass Station.",
+    "translation": "",
+    "context": "<<POS:00071978>> addButton(e++,\"Ticket: Shineglass\",(function(){clearOutput(),showBust(\"DEESL\"),output((0,it.zI)(De||(De=(0,et.Z)(['You approach the ticket kiosk, queuing up behind a [rand|divrani couple and their baby|another rusher like yourself|a nuka in biker’s leathers|a particularly large golden shalinae]. It ..."
+  },
+  {
+    "key": "output|Beyond_the_ticket_kiosk_is_fare_dodger_detention|8018c96fa2a7",
+    "original": "Beyond the ticket kiosk is fare dodger detention.",
+    "translation": "",
+    "context": "<<POS:00072109>>"
+  },
+  {
+    "key": "output|It_is_empty_at_the_moment_since_you_freed_Hureya|54d521c71f66",
     "original": " It is empty at the moment, since you freed Hureya.",
     "translation": "",
     "context": "<<POS:00072204>>"
@@ -618,10 +666,10 @@
     "context": "<<POS:00072266>>"
   },
   {
-    "key": "output|n_nAt_the_far_end_of_the_platform_is_a_bizarre_sight_that_takes|50e5656903fe",
-    "original": "\\n\\nAt the far end of the platform is a bizarre sight that takes you a few moments to get your head around. In a box demarcated in hazard yellow is some kind of metallic holding device, and bent over, head and paws trapped in it, is a big, naked hyrax. Her long, messy slice of blonde hair is vaguely familiar.",
+    "key": "output|At_the_far_end_of_the_platform_is_a_bizarre_sight_that_takes_you|92cdcada1e24",
+    "original": "At the far end of the platform is a bizarre sight that takes you a few moments to get your head around. In a box demarcated in hazard yellow is some kind of metallic holding device, and bent over, head and paws trapped in it, is a big, naked hyrax. Her long, messy slice of blonde hair is vaguely familiar.",
     "translation": "",
-    "context": "<<POS:00072498>>"
+    "context": "<<POS:00072502>>"
   },
   {
     "key": "button.text|Pillory|3a2a79ad0a30",
@@ -639,10 +687,22 @@
     "key": "button|Hureya_s_Ticket|2820df013d50",
     "original": "Hureya’s Ticket",
     "translation": "",
-    "context": "<<POS:00073094>>"
+    "context": "<<POS:00073094>> addButton(e++,\"Hureya’s Ticket\",(function(){clearOutput(),author(\"???\"),output((0,it.zI)(Me||(Me=(0,et.Z)([\"A ticket is already printing itself for you when you get to the front of the kiosk queue. You look back up the platform to the imprisoned hyrax. You suppose if you let the ex-raider queen go a..."
   },
   {
-    "key": "output|You_stand_outside_the_fortified_door_to_a_decades_old_pre_glass|28d24b1ed518",
+    "key": "button.hover|Hureya_s_Ticket|2820df013d50",
+    "original": "Hureya’s Ticket",
+    "translation": "",
+    "context": "<<POS:00073744>> addButton(e++,\"Hureya’s Ticket\",(function(){clearOutput(),author(\"???\"),output((0,it.zI)(Me||(Me=(0,et.Z)([\"A ticket is already printing itself for you when you get to the front of the kiosk queue. You look back up the platform to the imprisoned hyrax. You suppose if you let the ex-raider queen go a..."
+  },
+  {
+    "key": "button.tooltip|Get_a_ticket_for_Hureya|9690488f3682",
+    "original": "Get a ticket for Hureya.",
+    "translation": "",
+    "context": "<<POS:00073762>> addButton(e++,\"Hureya’s Ticket\",(function(){clearOutput(),author(\"???\"),output((0,it.zI)(Me||(Me=(0,et.Z)([\"A ticket is already printing itself for you when you get to the front of the kiosk queue. You look back up the platform to the imprisoned hyrax. You suppose if you let the ex-raider queen go a..."
+  },
+  {
+    "key": "output|You_stand_outside_the_fortified_door_to_a_decades_old_pre_glass|fd0cb3439d0a",
     "original": "You stand outside the fortified door to a decades old, pre-glass military base.",
     "translation": "",
     "context": "<<POS:00084302>>"
@@ -663,10 +723,22 @@
     "key": "button|Jump|b420ece525aa",
     "original": "Jump!",
     "translation": "",
-    "context": "<<POS:00088899>>"
+    "context": "<<POS:00088899>> addButton(0,\"Jump!\",(function(){skipToRoom(\"WAR_RIGS_2\",!1),processTime(1),mainGameMenu()}),\"Jump!\",\"Jump from one vehicle to the next!\")"
   },
   {
-    "key": "output|0_it_zI_Fe_Fe_0_et_Z_The_second_to_last_truck_in_the_cen|1518ef701092",
+    "key": "button.hover|Jump|b420ece525aa",
+    "original": "Jump!",
+    "translation": "",
+    "context": "<<POS:00088979>> addButton(0,\"Jump!\",(function(){skipToRoom(\"WAR_RIGS_2\",!1),processTime(1),mainGameMenu()}),\"Jump!\",\"Jump from one vehicle to the next!\")"
+  },
+  {
+    "key": "button.tooltip|Jump_from_one_vehicle_to_the_next|f5537fab17b4",
+    "original": "Jump from one vehicle to the next!",
+    "translation": "",
+    "context": "<<POS:00088987>> addButton(0,\"Jump!\",(function(){skipToRoom(\"WAR_RIGS_2\",!1),processTime(1),mainGameMenu()}),\"Jump!\",\"Jump from one vehicle to the next!\")"
+  },
+  {
+    "key": "output|0_it_zI_Fe_Fe_0_et_Z_The_second_to_last_truck_in_the_cen|2668ed82e802",
     "original": "(0,it.zI)(Fe||(Fe=(0,et.Z)([\"The second-to-last truck in the center convoy is a cargo hauler, an empty sheet metal container with a logo on the doors advertising the [silly|Pupperidge|Paleridge] Farms food company. The hyraxi raiders you defeated are sprawled out on the floor, submissively licking their wounds. \",\"\\n\\n\\t\\tThe container doesn’t have a proper door to the front, but somebody’s hacksawed a door into it anyway, just covering it up with a draped blanket nailed to the top.\"])),1===flags.WAR_RIGS_2_STATE?\"The boys have left some crates of supplies lying open, ripe for the picking.\":\"You’ve emptied out the crates here, leaving nothing for them to use against you.\")",
     "translation": "",
     "context": "<<POS:00089812>>"
@@ -675,19 +747,37 @@
     "key": "button|Loot_Supplies|d0c6f184b4d0",
     "original": "Loot Supplies",
     "translation": "",
-    "context": "<<POS:00090535>>"
+    "context": "<<POS:00090535>> addButton(0,\"Loot Supplies\",(function(){clearAll(),output((0,it.zI)(qe||(qe=(0,et.Z)([\"You quickly [silly|bogart|check through] the raiders’ supplies for anything of use to you. There’s some old plastic-case trauma kits that look old enough to have survived the Glass War, and there’s a six pack of e..."
   },
   {
-    "key": "button|Loot_Supplies|896cd9174561",
+    "key": "button.hover|Loot_Supplies|d0c6f184b4d0",
     "original": "Loot Supplies",
     "translation": "",
-    "context": "<<POS:00091316>>"
+    "context": "<<POS:00091235>> addButton(0,\"Loot Supplies\",(function(){clearAll(),output((0,it.zI)(qe||(qe=(0,et.Z)([\"You quickly [silly|bogart|check through] the raiders’ supplies for anything of use to you. There’s some old plastic-case trauma kits that look old enough to have survived the Glass War, and there’s a six pack of e..."
   },
   {
-    "key": "button|Jump|4407f5f69e7e",
+    "key": "button.tooltip|Check_the_supplies_for_anything_valuable|8b21c776d480",
+    "original": "Check the supplies for anything valuable.",
+    "translation": "",
+    "context": "<<POS:00091251>> addButton(0,\"Loot Supplies\",(function(){clearAll(),output((0,it.zI)(qe||(qe=(0,et.Z)([\"You quickly [silly|bogart|check through] the raiders’ supplies for anything of use to you. There’s some old plastic-case trauma kits that look old enough to have survived the Glass War, and there’s a six pack of e..."
+  },
+  {
+    "key": "button|Loot_Supplies|724716492eb9",
+    "original": "Loot Supplies",
+    "translation": "",
+    "context": "<<POS:00091316>> addDisabledButton(0,\"Loot Supplies\",\"Loot Supplies\",\"You’ve already looted the supplies!\")"
+  },
+  {
+    "key": "button.hover|You_ve_already_looted_the_supplies|b14392dcd186",
+    "original": "You’ve already looted the supplies!",
+    "translation": "",
+    "context": "<<POS:00091348>> addDisabledButton(0,\"Loot Supplies\",\"Loot Supplies\",\"You’ve already looted the supplies!\")"
+  },
+  {
+    "key": "button|Jump|e14f0d4818b6",
     "original": "Jump!",
     "translation": "",
-    "context": "<<POS:00091399>>"
+    "context": "<<POS:00091399>> addButton(1,\"Jump!\",(function(){skipToRoom(\"WAR_RIGS_3\",!1),processTime(1),mainGameMenu()}))"
   },
   {
     "key": "output|0_it_zI_We_We_0_et_Z_The_gap_between_vehicles_feels_larg|a8377baef548",
@@ -705,7 +795,7 @@
     "key": "button|Jump|c137f12c8f4a",
     "original": "Jump!",
     "translation": "",
-    "context": "<<POS:00093564>>"
+    "context": "<<POS:00093564>> addButton(0,\"Jump!\",(function(){skipToRoom(\"WAR_RIGS_4\",!1),processTime(1),mainGameMenu()}))"
   },
   {
     "key": "output|0_it_zI_Ue_Ue_0_et_Z_You_leap_from_the_artillery_truck_s|daf14a7784ee",

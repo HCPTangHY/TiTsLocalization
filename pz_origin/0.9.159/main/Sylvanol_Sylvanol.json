@@ -3,16 +3,16 @@
     "key": "name.show|Sylvanol|2af8cc5c85f1",
     "original": "Sylvanol",
     "translation": "",
-    "context": "<<POS:09758070>>"
+    "context": "<<POS:09758070>> showName(\"Sylvanol\")"
   },
   {
-    "key": "output|You_take_a_look_at_the_dial_on_the_medipen_and_compare_with_the|c9bb846d178e",
-    "original": "You take a look at the dial on the medipen and compare with the small instruction pamphlet. It looks like there’s six different settings available:\\n\\n",
+    "key": "output|You_take_a_look_at_the_dial_on_the_medipen_and_compare_with_the|0e57296a63a1",
+    "original": "You take a look at the dial on the medipen and compare with the small instruction pamphlet. It looks like there’s six different settings available:",
     "translation": "",
     "context": "<<POS:09758161>>"
   },
   {
-    "key": "output|l_m_createTable_a_Name_Description_text_label_text_lef|c6eb0113057e",
+    "key": "output|l_m_createTable_a_Name_Description_text_label_text_lef|68e6e0581099",
     "original": "l.m.createTable(a,[\"Name\",\"Description\"],[\"text-label\",\"text-left\"],\"\",\"Settings\",\"\")",
     "translation": "",
     "context": "<<POS:09759077>>"
@@ -21,7 +21,7 @@
     "key": "button|Cancel|ca59b49fcbf0",
     "original": "Cancel",
     "translation": "",
-    "context": "<<POS:09759178>>"
+    "context": "<<POS:09759178>> addButton(14,\"Cancel\",(function(){return t.itemCancel(t)}))"
   },
   {
     "key": "output|e_capitalA_e_short_injects_the_Sylvanol_to_no_effect|723cfde8ae0f",
@@ -33,28 +33,28 @@
     "key": "name.show|Sylvanol|3026a2b6f693",
     "original": "Sylvanol",
     "translation": "",
-    "context": "<<POS:09759377>>"
+    "context": "<<POS:09759377>> showName(\"Sylvanol\")"
   },
   {
-    "key": "output|You_put_the_medipen_back_into_your_inventory_n_n|0d4d54274912",
-    "original": "You put the medipen back into your inventory.\\n\\n",
+    "key": "output|You_put_the_medipen_back_into_your_inventory|23af59fbb5a3",
+    "original": "You put the medipen back into your inventory.",
     "translation": "",
     "context": "<<POS:09759396>>"
   },
   {
-    "key": "button|Next|94d7807ceea9",
+    "key": "button|Next|d1394c8557d7",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09759490>>"
+    "context": "<<POS:09759490>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
   },
   {
-    "key": "output|n_nYou_feel_your_ears_contort|268fbf4e940b",
-    "original": "\\n\\nYou feel your ears contort, ",
+    "key": "output|You_feel_your_ears_contort|04ed255be7b9",
+    "original": "You feel your ears contort, ",
     "translation": "",
-    "context": "<<POS:09759656>>"
+    "context": "<<POS:09759660>>"
   },
   {
-    "key": "output|adjusting_to|b2d1a319ded6",
+    "key": "output|adjusting_to|cccefdc50166",
     "original": "adjusting to",
     "translation": "",
     "context": "<<POS:09759855>>"
@@ -72,46 +72,46 @@
     "context": "<<POS:09759901>>"
   },
   {
-    "key": "output|n_n_This_isn_t_your_first_time_having_this_kind_of_ears_and_th|b437c70095a4",
-    "original": "\\n\\n This isn’t your first time having this kind of ears, and they seem to have remembered the experience, coming out at the \"+e.earLength+\" inches they used to be instead of the standard short ears for a first-time user. Nice.",
+    "key": "output|This_isn_t_your_first_time_having_this_kind_of_ears_and_they_s|4496ba07911e",
+    "original": " This isn’t your first time having this kind of ears, and they seem to have remembered the experience, coming out at the \"+e.earLength+\" inches they used to be instead of the standard short ears for a first-time user. Nice.",
     "translation": "",
-    "context": "<<POS:09760176>>"
+    "context": "<<POS:09760180>>"
   },
   {
-    "key": "output|n_nWhile_formerly_your_ears_could_have_been_mistaken_for_a_huma|4d654c38f797",
-    "original": "\\n\\nWhile formerly your ears could have been mistaken for a human’s at a glance, that soon fades as they stretch outward, gaining a much more visibly triangular shape that’s distinctively elven and much more sensitive to the air when it blows across them. <b>You now have one-inch elf ears!</b>",
+    "key": "output|While_formerly_your_ears_could_have_been_mistaken_for_a_human_s|73b97f17aabe",
+    "original": "While formerly your ears could have been mistaken for a human’s at a glance, that soon fades as they stretch outward, gaining a much more visibly triangular shape that’s distinctively elven and much more sensitive to the air when it blows across them. <b>You now have one-inch elf ears!</b>",
     "translation": "",
-    "context": "<<POS:09760586>>"
+    "context": "<<POS:09760590>>"
   },
   {
-    "key": "output|n_nYou_shudder_in_pleasure_as_the_Sylvanol_works_over_your_ears|ec14c7d9b9f3",
-    "original": "\\n\\nYou shudder in pleasure as the Sylvanol works over your ears, making them stretch out another \"+l.m.numToText(t)+\" inches before they stop growing, tingling with delicious new sensitivity.",
+    "key": "output|You_shudder_in_pleasure_as_the_Sylvanol_works_over_your_ears_ma|c7e4cca2c3f0",
+    "original": "You shudder in pleasure as the Sylvanol works over your ears, making them stretch out another \"+l.m.numToText(t)+\" inches before they stop growing, tingling with delicious new sensitivity.",
     "translation": "",
-    "context": "<<POS:09760946>>"
+    "context": "<<POS:09760950>>"
   },
   {
-    "key": "output|n_nYou_have_a_feeling_they_won_t_be_able_to_grow_much_more_than|ce45f16f47cc",
-    "original": "\\n\\nYou have a feeling they won’t be able to grow much more than this, though.",
+    "key": "output|You_have_a_feeling_they_won_t_be_able_to_grow_much_more_than_thi|3d3b13438927",
+    "original": "You have a feeling they won’t be able to grow much more than this, though.",
     "translation": "",
-    "context": "<<POS:09761166>>"
+    "context": "<<POS:09761170>>"
   },
   {
-    "key": "output|n_nA_sparkling_flash_of_e_eyeColor_fills_your_vision_leavi|4b72c0ec2477",
-    "original": "\\n\\nA sparkling flash of \"+e.eyeColor+\" fills your vision, leaving you briefly stunned. When you recover and check your vision, you discover that your eyes have shed their old hue in favor of \"+t+\".",
+    "key": "output|A_sparkling_flash_of_e_eyeColor_fills_your_vision_leaving_y|6b4f57a037ab",
+    "original": "A sparkling flash of \"+e.eyeColor+\" fills your vision, leaving you briefly stunned. When you recover and check your vision, you discover that your eyes have shed their old hue in favor of \"+t+\".",
     "translation": "",
-    "context": "<<POS:09761401>>"
+    "context": "<<POS:09761405>>"
   },
   {
-    "key": "output|n_nA_liquid_feeling_flows_down_your_hair_from_the_roots_as_if_s|aac27d7b4532",
-    "original": "\\n\\nA liquid feeling flows down your hair from the roots as if someone had poured a bucket of water over your head. You’re able to catch the trail end of the transformation that goes with this sensation, the last vestiges of \"+e.hairColor+\" disappearing from your hair in favor of a new lovely \"+t+\" shade.",
+    "key": "output|A_liquid_feeling_flows_down_your_hair_from_the_roots_as_if_someo|dc5598e87f6f",
+    "original": "A liquid feeling flows down your hair from the roots as if someone had poured a bucket of water over your head. You’re able to catch the trail end of the transformation that goes with this sensation, the last vestiges of \"+e.hairColor+\" disappearing from your hair in favor of a new lovely \"+t+\" shade.",
     "translation": "",
-    "context": "<<POS:09761769>>"
+    "context": "<<POS:09761773>>"
   },
   {
-    "key": "output|n_nA_delicious_tingle_washes_across_your_whole_body_a_splotch|6fa3219249b1",
-    "original": "\\n\\nA delicious tingle washes across your whole body, a splotch of \"+a+\" forming at the center of your chest before sweeping all across your body, replacing your old skin color entirely",
+    "key": "output|A_delicious_tingle_washes_across_your_whole_body_a_splotch_of|458d530f0224",
+    "original": "A delicious tingle washes across your whole body, a splotch of \"+a+\" forming at the center of your chest before sweeping all across your body, replacing your old skin color entirely",
     "translation": "",
-    "context": "<<POS:09762253>>"
+    "context": "<<POS:09762257>>"
   },
   {
     "key": "output|even_on_creature_eachCock|95db7303d6b7",
@@ -132,13 +132,13 @@
     "context": "<<POS:09763231>>"
   },
   {
-    "key": "output|n_nYou_can_feel_your_skin|80f9f83ed863",
-    "original": "\\n\\nYou can feel your skin ",
+    "key": "output|You_can_feel_your_skin|8f0ac46ed3c8",
+    "original": "You can feel your skin ",
     "translation": "",
-    "context": "<<POS:09763414>>"
+    "context": "<<POS:09763418>>"
   },
   {
-    "key": "output|underneath_your_e_skinNoun_1|28fb0a08d3f9",
+    "key": "output|underneath_your_e_skinNoun_1|ad3df6d35f4d",
     "original": " underneath your \"+e.skinNoun(!1)+\" ",
     "translation": "",
     "context": "<<POS:09763481>>"
@@ -150,34 +150,34 @@
     "context": "<<POS:09763528>>"
   },
   {
-    "key": "output|n_nThere_s_a_budding_sensation_at_your_back_an_odd_pressure_th|9bf3e14d7d5e",
-    "original": "\\n\\nThere’s a budding sensation at your back, an odd pressure that soon leads you to gasp at the sensation of something along your back splitting open like a cocoon to allow a quartet of light blue wings to unfold. Each is a magnificent gossamer beauty, together forming a set of radiant butterfly-like wings. <b>You now have fairy wings!</b>",
+    "key": "output|There_s_a_budding_sensation_at_your_back_an_odd_pressure_that_s|306dd500722f",
+    "original": "There’s a budding sensation at your back, an odd pressure that soon leads you to gasp at the sensation of something along your back splitting open like a cocoon to allow a quartet of light blue wings to unfold. Each is a magnificent gossamer beauty, together forming a set of radiant butterfly-like wings. <b>You now have fairy wings!</b>",
     "translation": "",
-    "context": "<<POS:09763878>>"
+    "context": "<<POS:09763882>>"
   },
   {
-    "key": "output|n_nYour_creature_wings_feel_strange_and_you_look_behind_you|e8c37bcdd445",
-    "original": "\\n\\nYour [creature.wings] feel strange, and you look behind you to see them melting into a new, delicate-looking form. By the time they finish transforming they’ve become a quartet of light blue gossamer wings, together forming a set of radiant butterfly-like wings. <b>You now have fairy wings!</b>",
+    "key": "output|Your_creature_wings_feel_strange_and_you_look_behind_you_to_s|386fbfb06cf5",
+    "original": "Your [creature.wings] feel strange, and you look behind you to see them melting into a new, delicate-looking form. By the time they finish transforming they’ve become a quartet of light blue gossamer wings, together forming a set of radiant butterfly-like wings. <b>You now have fairy wings!</b>",
     "translation": "",
-    "context": "<<POS:09764231>>"
+    "context": "<<POS:09764235>>"
   },
   {
-    "key": "output|n_nThere_s_a_budding_sensation_at_your_back_an_odd_pressure_th|afbb935f8f35",
-    "original": "\\n\\nThere’s a budding sensation at your back, an odd pressure that soon leads you to gasp at the sensation of something along your back splitting open like a cocoon to allow a quartet of glittering black wings to unfold. Each is a magnificent gossamer beauty, together forming a set of butterfly-like wings coated in what looks like wisps of shadow. <b>You now have shadowy fairy wings!</b>",
+    "key": "output|There_s_a_budding_sensation_at_your_back_an_odd_pressure_that_s|5b0720121642",
+    "original": "There’s a budding sensation at your back, an odd pressure that soon leads you to gasp at the sensation of something along your back splitting open like a cocoon to allow a quartet of glittering black wings to unfold. Each is a magnificent gossamer beauty, together forming a set of butterfly-like wings coated in what looks like wisps of shadow. <b>You now have shadowy fairy wings!</b>",
     "translation": "",
-    "context": "<<POS:09764704>>"
+    "context": "<<POS:09764708>>"
   },
   {
-    "key": "output|n_nYour_creature_wings_feel_strange_and_you_look_behind_you|7f62eebd26c4",
-    "original": "\\n\\nYour [creature.wings] feel strange, and you look behind you to see them melting into a new, delicate-looking form. By the time they finish transforming they’ve become a quartet of glittering black gossamer wings, together forming a set of butterfly-like wings coated in what looks like wisps of shadow. <b>You now have shadowy fairy wings!</b>",
+    "key": "output|Your_creature_wings_feel_strange_and_you_look_behind_you_to_s|e9d4272a9ed7",
+    "original": "Your [creature.wings] feel strange, and you look behind you to see them melting into a new, delicate-looking form. By the time they finish transforming they’ve become a quartet of glittering black gossamer wings, together forming a set of butterfly-like wings coated in what looks like wisps of shadow. <b>You now have shadowy fairy wings!</b>",
     "translation": "",
-    "context": "<<POS:09765105>>"
+    "context": "<<POS:09765109>>"
   },
   {
-    "key": "output|n_nYou_feel_a_tingle_like_the_medipen_is_going_to_change_your_s|c2868742e483",
-    "original": "\\n\\nYou feel a tingle like the medipen is going to change your skin, but suddenly it concentrates into just a few places",
+    "key": "output|You_feel_a_tingle_like_the_medipen_is_going_to_change_your_skin|3a1cecb5f0c7",
+    "original": "You feel a tingle like the medipen is going to change your skin, but suddenly it concentrates into just a few places",
     "translation": "",
-    "context": "<<POS:09765680>>"
+    "context": "<<POS:09765684>>"
   },
   {
     "key": "output|namely_your_concat_e_accentMarkingsDescript|1931c485766a",
@@ -222,16 +222,16 @@
     "context": "<<POS:09766372>>"
   },
   {
-    "key": "output|n_nYou_feel_an_odd_tingle_in_your_hair_feeling_as_if_it_s_bein|f36692d6de78",
-    "original": "\\n\\nYou feel an odd tingle in your hair, feeling as if it’s being blown about by an invisible wind and slowly dissolving. At first you think you’re going bald, but inspection reveals that your hair has instead been replaced by an aerogel-like material, retaining its former color but with a translucent, gaseous appearance and practically no weight to it at all. <b>You have ethereal hair!</b>",
+    "key": "output|You_feel_an_odd_tingle_in_your_hair_feeling_as_if_it_s_being_bl|bf09a94c8242",
+    "original": "You feel an odd tingle in your hair, feeling as if it’s being blown about by an invisible wind and slowly dissolving. At first you think you’re going bald, but inspection reveals that your hair has instead been replaced by an aerogel-like material, retaining its former color but with a translucent, gaseous appearance and practically no weight to it at all. <b>You have ethereal hair!</b>",
     "translation": "",
-    "context": "<<POS:09766767>>"
+    "context": "<<POS:09766771>>"
   },
   {
     "key": "name.show|Sylvanol_Au_Ronce|0c498cba14d3",
     "original": "Sylvanol Au Ronce",
     "translation": "",
-    "context": "<<POS:09767285>>"
+    "context": "<<POS:09767285>> showName(\"Sylvanol Au Ronce\")"
   },
   {
     "key": "output|You_apply_the_medipen_to_the_base_of_your_neck_as_instructed_a|eeb0042102fa",
@@ -240,22 +240,22 @@
     "context": "<<POS:09767313>>"
   },
   {
-    "key": "output|n_nDespite_applying_the_medipen_correctly_nothing_happens_asid|f74190d5629e",
-    "original": "\\n\\nDespite applying the medipen correctly, nothing happens aside from a brief tingle in your ears. It must have been a dud.",
+    "key": "output|Despite_applying_the_medipen_correctly_nothing_happens_aside_fr|508c2a4218ef",
+    "original": "Despite applying the medipen correctly, nothing happens aside from a brief tingle in your ears. It must have been a dud.",
     "translation": "",
-    "context": "<<POS:09768763>>"
+    "context": "<<POS:09768767>>"
   },
   {
     "key": "button|Next|ee377186d103",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09768915>>"
+    "context": "<<POS:09768915>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   },
   {
     "key": "name.show|Sylvanol_Au_Myrtille|5ebefba77206",
     "original": "Sylvanol Au Myrtille",
     "translation": "",
-    "context": "<<POS:09769051>>"
+    "context": "<<POS:09769051>> showName(\"Sylvanol Au Myrtille\")"
   },
   {
     "key": "output|You_apply_the_medipen_to_the_base_of_your_neck_as_instructed_a|0c5380416230",
@@ -264,22 +264,22 @@
     "context": "<<POS:09769082>>"
   },
   {
-    "key": "output|n_nDespite_applying_the_medipen_correctly_nothing_happens_asid|71c4bee10c68",
-    "original": "\\n\\nDespite applying the medipen correctly, nothing happens aside from a brief tingle in your ears. It must have been a dud.",
+    "key": "output|Despite_applying_the_medipen_correctly_nothing_happens_aside_fr|61a1b107fce7",
+    "original": "Despite applying the medipen correctly, nothing happens aside from a brief tingle in your ears. It must have been a dud.",
     "translation": "",
-    "context": "<<POS:09770431>>"
+    "context": "<<POS:09770435>>"
   },
   {
     "key": "button|Next|ee377186d103#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09770583>>"
+    "context": "<<POS:09770583>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   },
   {
     "key": "name.show|Sylvanol_Au_Chocolat|fc5b047a9d87",
     "original": "Sylvanol Au Chocolat",
     "translation": "",
-    "context": "<<POS:09770720>>"
+    "context": "<<POS:09770720>> showName(\"Sylvanol Au Chocolat\")"
   },
   {
     "key": "output|You_apply_the_medipen_to_the_base_of_your_neck_as_instructed_a|171492399f0b",
@@ -288,22 +288,22 @@
     "context": "<<POS:09770760>>"
   },
   {
-    "key": "output|n_nDespite_applying_the_medipen_correctly_nothing_happens_asid|fe75c015291e",
-    "original": "\\n\\nDespite applying the medipen correctly, nothing happens aside from a brief tingle in your ears. It must have been a dud.",
+    "key": "output|Despite_applying_the_medipen_correctly_nothing_happens_aside_fr|082f9c46b8e4",
+    "original": "Despite applying the medipen correctly, nothing happens aside from a brief tingle in your ears. It must have been a dud.",
     "translation": "",
-    "context": "<<POS:09771540>>"
+    "context": "<<POS:09771544>>"
   },
   {
     "key": "button|Next|ee377186d103#2",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09771692>>"
+    "context": "<<POS:09771692>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   },
   {
     "key": "name.show|Sylvanol_Au_Lait|44aa98173deb",
     "original": "Sylvanol Au Lait",
     "translation": "",
-    "context": "<<POS:09771826>>"
+    "context": "<<POS:09771826>> showName(\"Sylvanol Au Lait\")"
   },
   {
     "key": "output|You_apply_the_medipen_to_the_base_of_your_neck_as_instructed_a|37fa18b1d8dc",
@@ -312,22 +312,22 @@
     "context": "<<POS:09771862>>"
   },
   {
-    "key": "output|n_nDespite_applying_the_medipen_correctly_nothing_happens_asid|00aec2245c88",
-    "original": "\\n\\nDespite applying the medipen correctly, nothing happens aside from a brief tingle in your ears. It must have been a dud.",
+    "key": "output|Despite_applying_the_medipen_correctly_nothing_happens_aside_fr|92c8f7dfa95f",
+    "original": "Despite applying the medipen correctly, nothing happens aside from a brief tingle in your ears. It must have been a dud.",
     "translation": "",
-    "context": "<<POS:09772611>>"
+    "context": "<<POS:09772615>>"
   },
   {
     "key": "button|Next|ee377186d103#3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09772763>>"
+    "context": "<<POS:09772763>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   },
   {
     "key": "name.show|Sylvanol_Au_Franc|2a9972f505f5",
     "original": "Sylvanol Au Franc",
     "translation": "",
-    "context": "<<POS:09772886>>"
+    "context": "<<POS:09772886>> showName(\"Sylvanol Au Franc\")"
   },
   {
     "key": "output|You_apply_the_medipen_to_the_base_of_your_neck_as_instructed_a|e05ab0c1d6dc",
@@ -336,15 +336,15 @@
     "context": "<<POS:09772930>>"
   },
   {
-    "key": "output|n_nDespite_applying_the_medipen_correctly_nothing_happens_asid|b9cceac7c6a1",
-    "original": "\\n\\nDespite applying the medipen correctly, nothing happens aside from a brief tingle in your ears. You must have hit the limit of what Sylvanol can do for you.",
+    "key": "output|Despite_applying_the_medipen_correctly_nothing_happens_aside_fr|459fc7ab2eaf",
+    "original": "Despite applying the medipen correctly, nothing happens aside from a brief tingle in your ears. You must have hit the limit of what Sylvanol can do for you.",
     "translation": "",
-    "context": "<<POS:09773184>>"
+    "context": "<<POS:09773188>>"
   },
   {
     "key": "button|Next|751e48448df3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09773372>>"
+    "context": "<<POS:09773372>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   }
 ]

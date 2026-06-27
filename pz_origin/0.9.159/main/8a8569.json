@@ -3,7 +3,7 @@
     "key": "perk|Disarm_Immune|03a6d26cd363",
     "original": "Disarm Immune",
     "translation": "",
-    "context": "<<POS:10873796>>"
+    "context": "<<POS:10873796>> createPerk(\"Disarm Immune\")"
   },
   {
     "key": "combat|She_slaps_the_stim_into_the_k_m_possessive_e_t_getCombatName|53163d5e976d",
@@ -21,106 +21,202 @@
     "key": "button|Hold_Ground|f65777247a31",
     "original": "Hold Ground",
     "translation": "",
-    "context": "<<POS:10883354>>"
+    "context": "<<POS:10883354>> addButton(0,\"Hold Ground\",window.holdGroundBois,\"Hold Ground\",\"Stand and fire!\")"
   },
   {
-    "key": "button|Hold_Ground|4b4e682fc82b",
+    "key": "button.hover|Hold_Ground|f65777247a31",
     "original": "Hold Ground",
     "translation": "",
-    "context": "<<POS:10883443>>"
+    "context": "<<POS:10883390>> addButton(0,\"Hold Ground\",window.holdGroundBois,\"Hold Ground\",\"Stand and fire!\")"
   },
   {
-    "key": "button|Sprint|7ee2851aced4",
+    "key": "button.tooltip|Stand_and_fire|4eb6e3c97405",
+    "original": "Stand and fire!",
+    "translation": "",
+    "context": "<<POS:10883404>> addButton(0,\"Hold Ground\",window.holdGroundBois,\"Hold Ground\",\"Stand and fire!\")"
+  },
+  {
+    "key": "button|Hold_Ground|bd8843955f8b",
+    "original": "Hold Ground",
+    "translation": "",
+    "context": "<<POS:10883443>> addDisabledButton(0,\"Hold Ground\",\"Hold Ground\",\"That’s suicide!\")"
+  },
+  {
+    "key": "button.hover|That_s_suicide|099ee54cc609",
+    "original": "That’s suicide!",
+    "translation": "",
+    "context": "<<POS:10883471>> addDisabledButton(0,\"Hold Ground\",\"Hold Ground\",\"That’s suicide!\")"
+  },
+  {
+    "key": "button|Sprint|1751c9b2f54f",
     "original": "Sprint!",
     "translation": "",
-    "context": "<<POS:10883502>>"
+    "context": "<<POS:10883502>> addButton(1,\"Sprint!\",window.sprintToSafetyBois,\"Sprint!\",\"Run for it!\")"
   },
   {
-    "key": "button|Seduce|cbff2e636e38",
+    "key": "button.hover|Sprint|1751c9b2f54f",
+    "original": "Sprint!",
+    "translation": "",
+    "context": "<<POS:10883538>> addButton(1,\"Sprint!\",window.sprintToSafetyBois,\"Sprint!\",\"Run for it!\")"
+  },
+  {
+    "key": "button.tooltip|Run_for_it|29c789d0c140",
+    "original": "Run for it!",
+    "translation": "",
+    "context": "<<POS:10883548>> addButton(1,\"Sprint!\",window.sprintToSafetyBois,\"Sprint!\",\"Run for it!\")"
+  },
+  {
+    "key": "button|Seduce|4b60a50bd82f",
     "original": "Seduce",
     "translation": "",
-    "context": "<<POS:10883994>>"
+    "context": "<<POS:10883994>> addButton(0,\"Seduce\",window.seduceTheRaskvelAttackYaNerd,\"Seduce\",\"You could probably seduce your way out of this. These boys will be easy to manipulate...\")"
   },
   {
-    "key": "button|No_Fight|71b0fd8ad0d1",
+    "key": "button.hover|Seduce|4b60a50bd82f",
+    "original": "Seduce",
+    "translation": "",
+    "context": "<<POS:10884039>> addButton(0,\"Seduce\",window.seduceTheRaskvelAttackYaNerd,\"Seduce\",\"You could probably seduce your way out of this. These boys will be easy to manipulate...\")"
+  },
+  {
+    "key": "button.tooltip|You_could_probably_seduce_your_way_out_of_this_These_boys_will|000dd13052b9",
+    "original": "You could probably seduce your way out of this. These boys will be easy to manipulate...",
+    "translation": "",
+    "context": "<<POS:10884048>> addButton(0,\"Seduce\",window.seduceTheRaskvelAttackYaNerd,\"Seduce\",\"You could probably seduce your way out of this. These boys will be easy to manipulate...\")"
+  },
+  {
+    "key": "button|No_Fight|9ba93db42a5a",
     "original": "No, Fight!",
     "translation": "",
-    "context": "<<POS:10884152>>"
+    "context": "<<POS:10884152>> addButton(1,\"No, Fight!\",window.nopeGonnaFightCapn)"
   },
   {
-    "key": "combat|n_nSomehow_you_do_Feeling_dirty_and_enervated_by_that_crude|c4ecd33b79d0",
-    "original": "\\n\\nSomehow, you do. Feeling dirty and enervated by that crude, coarse treatment, you still have a chance to turn this around. Wiping off as much of her spooge as you can, you stagger to your feet and levy your [pc.weapon]. <i>“Damnit! I was SURE that would be enough! Oh well, you won’t be able to keep up with me anymore. Taking you down’s gonna be super E-Z!”</i>\\n\\n<b>You are no longer grappled!</b>",
+    "key": "combat|Somehow_you_do_Feeling_dirty_and_enervated_by_that_crude_coar|567430a1fe34",
+    "original": "Somehow, you do. Feeling dirty and enervated by that crude, coarse treatment, you still have a chance to turn this around. Wiping off as much of her spooge as you can, you stagger to your feet and levy your [pc.weapon]. <i>“Damnit! I was SURE that would be enough! Oh well, you won’t be able to keep up with me anymore. Taking you down’s gonna be super E-Z!”</i>\\n\\n<b>You are no longer grappled!</b>",
     "translation": "",
-    "context": "<<POS:10888443>>"
+    "context": "<<POS:10888447>>"
   },
   {
     "key": "button|Do_Nothing|be2a223af6d3",
     "original": "Do Nothing",
     "translation": "",
-    "context": "<<POS:10889071>>"
+    "context": "<<POS:10889071>> addButton(0,\"Do Nothing\",(function(){combatOutput((0,v.zI)(Ye||(Ye=(0,i.Z)([\"The goo gives you a pleading look, but after a moment her now more-solid fingers plunge into her empty cooch anyway, jilling the slavering hole with abandon. Her synthetic voice cries out as she teases her nub of a clit, ba..."
   },
   {
     "key": "button|Quickie|e802051e34e0",
     "original": "Quickie!",
     "translation": "",
-    "context": "<<POS:10890606>>"
+    "context": "<<POS:10890606>> addButton(1,\"Quickie!\",(function(){if(pc.hasCock()){var t=rand(pc.cocks.length);combatOutput((0,v.zI)(Me||(Me=(0,i.Z)([\"Well, shit, you’ve got some steam to blow off, too. You grab [pc.oneCock] and hop on the rock-hard cyber-girl, actually able to get a good enough grip on her many-faceted body to h..."
   },
   {
-    "key": "button|Quickie|46cec6dacf16",
+    "key": "button.hover|Quickie|90171064812c",
     "original": "Quickie",
     "translation": "",
-    "context": "<<POS:10893972>>"
+    "context": "<<POS:10893755>> addButton(1,\"Quickie!\",(function(){if(pc.hasCock()){var t=rand(pc.cocks.length);combatOutput((0,v.zI)(Me||(Me=(0,i.Z)([\"Well, shit, you’ve got some steam to blow off, too. You grab [pc.oneCock] and hop on the rock-hard cyber-girl, actually able to get a good enough grip on her many-faceted body to h..."
+  },
+  {
+    "key": "button.tooltip|Have_a_quickie_with_the_gray_goo_girl_resetting_both_of_your_lu|bb303c8a41f2",
+    "original": "Have a quickie with the gray goo girl, resetting both of your lust scores.",
+    "translation": "",
+    "context": "<<POS:10893765>> addButton(1,\"Quickie!\",(function(){if(pc.hasCock()){var t=rand(pc.cocks.length);combatOutput((0,v.zI)(Me||(Me=(0,i.Z)([\"Well, shit, you’ve got some steam to blow off, too. You grab [pc.oneCock] and hop on the rock-hard cyber-girl, actually able to get a good enough grip on her many-faceted body to h..."
+  },
+  {
+    "key": "button|Quickie|4a2d89160e24",
+    "original": "Quickie",
+    "translation": "",
+    "context": "<<POS:10893972>> addDisabledButton(1,\"Quickie\")"
   },
   {
     "key": "button|Resist|ff8f81a4a7b2",
     "original": "Resist",
     "translation": "",
-    "context": "<<POS:10894108>>"
+    "context": "<<POS:10894108>> addButton(0,\"Resist\",window.resistSeleneMindButting,\"Resist\",\"GET OUT OF MY HEAD!\")"
   },
   {
-    "key": "button|Submit|da7b3a4a2332",
+    "key": "button.hover|Resist|ff8f81a4a7b2",
+    "original": "Resist",
+    "translation": "",
+    "context": "<<POS:10894148>> addButton(0,\"Resist\",window.resistSeleneMindButting,\"Resist\",\"GET OUT OF MY HEAD!\")"
+  },
+  {
+    "key": "button.tooltip|GET_OUT_OF_MY_HEAD|70deca5ddb26",
+    "original": "GET OUT OF MY HEAD!",
+    "translation": "",
+    "context": "<<POS:10894157>> addButton(0,\"Resist\",window.resistSeleneMindButting,\"Resist\",\"GET OUT OF MY HEAD!\")"
+  },
+  {
+    "key": "button|Submit|ba97adbaa01d",
     "original": "Submit",
     "translation": "",
-    "context": "<<POS:10894192>>"
+    "context": "<<POS:10894192>> addButton(1,\"Submit\",window.surrenderToSeleneText,\"Submit\",\"Give up, and give yourself over to Selene...\")"
   },
   {
-    "key": "button|Yes|cd3d06f6d20d",
+    "key": "button.hover|Submit|ba97adbaa01d",
+    "original": "Submit",
+    "translation": "",
+    "context": "<<POS:10894230>> addButton(1,\"Submit\",window.surrenderToSeleneText,\"Submit\",\"Give up, and give yourself over to Selene...\")"
+  },
+  {
+    "key": "button.tooltip|Give_up_and_give_yourself_over_to_Selene|0fbaf2fb20ab",
+    "original": "Give up, and give yourself over to Selene...",
+    "translation": "",
+    "context": "<<POS:10894239>> addButton(1,\"Submit\",window.surrenderToSeleneText,\"Submit\",\"Give up, and give yourself over to Selene...\")"
+  },
+  {
+    "key": "button|Yes|3421eb77be36",
     "original": "Yes",
     "translation": "",
-    "context": "<<POS:10894395>>"
+    "context": "<<POS:10894395>> addButton(0,\"Yes\",(function(){combatOutput((0,v.zI)(Fe||(Fe=(0,i.Z)([\"<i>“Is your cum an aphrodisiac?”</i> you ask, eyeing her suspiciously.\\n\\t\\t\\t\\t\\n\\t\\t\\t\\t<i>“Oh, no, it’s just cum, silly,”</i> she giggles, taking a step towards you and then another when she sees you’re open to the idea. <i>“Do..."
   },
   {
-    "key": "button|Hell_No|dee275250265",
+    "key": "button.hover|Yes|3421eb77be36",
+    "original": "Yes",
+    "translation": "",
+    "context": "<<POS:10896556>> addButton(0,\"Yes\",(function(){combatOutput((0,v.zI)(Fe||(Fe=(0,i.Z)([\"<i>“Is your cum an aphrodisiac?”</i> you ask, eyeing her suspiciously.\\n\\t\\t\\t\\t\\n\\t\\t\\t\\t<i>“Oh, no, it’s just cum, silly,”</i> she giggles, taking a step towards you and then another when she sees you’re open to the idea. <i>“Do..."
+  },
+  {
+    "key": "button.tooltip|Fine_you_ll_get_on_your_knees_for_her|c97d36b0bd7a",
+    "original": "Fine, you’ll get on your knees for her.",
+    "translation": "",
+    "context": "<<POS:10896562>> addButton(0,\"Yes\",(function(){combatOutput((0,v.zI)(Fe||(Fe=(0,i.Z)([\"<i>“Is your cum an aphrodisiac?”</i> you ask, eyeing her suspiciously.\\n\\t\\t\\t\\t\\n\\t\\t\\t\\t<i>“Oh, no, it’s just cum, silly,”</i> she giggles, taking a step towards you and then another when she sees you’re open to the idea. <i>“Do..."
+  },
+  {
+    "key": "button|Hell_No|1e1ee6da9f61",
     "original": "Hell No!",
     "translation": "",
-    "context": "<<POS:10896617>>"
+    "context": "<<POS:10896617>> addButton(1,\"Hell No!\",(function(){combatOutput((0,v.zI)(De||(De=(0,i.Z)([\"<i>“And get filled with whatever aphrodisiac you have in stock? Not likely,”</i> you reply.\\n\\t\\t\\t\\t\\n\\t\\t\\t\\t<i>“Well, fine,”</i> she sighs, kicking her whip back up to her hands with dazzling speed, stretching it out exper..."
   },
   {
-    "key": "combat|n_nA_paragon_branded_police_officer_locally_known_as_an_XO_p|767f34dc1844",
-    "original": "\\n\\nA paragon-branded police officer, locally known as an ‘XO’ pulls up alongside the garbage truck on a speeding hoverbike. The heavily augmented zaika looks more robot than flesh, and when she speaks, it sounds like her voice is being broadcast through a bullhorn. <i>“<b>Cease illegal activities, law-breakers! You are in violation of 27 zaibatsu accords. Surrender swiftly, and your sentence may be reduced by two hundred thirty-seven years and six months - a fifty perfect reduction currently being offered to Rushers. Time will be served via imprisonment or mandatory cybernetic service.</b>”</i>",
+    "key": "button.hover|Hell_No|1e1ee6da9f61",
+    "original": "Hell No!",
     "translation": "",
-    "context": "<<POS:10898743>>"
+    "context": "<<POS:10897085>> addButton(1,\"Hell No!\",(function(){combatOutput((0,v.zI)(De||(De=(0,i.Z)([\"<i>“And get filled with whatever aphrodisiac you have in stock? Not likely,”</i> you reply.\\n\\t\\t\\t\\t\\n\\t\\t\\t\\t<i>“Well, fine,”</i> she sighs, kicking her whip back up to her hands with dazzling speed, stretching it out exper..."
   },
   {
-    "key": "combat|n_nFeruze_blinks_in_shock_then_looks_at_you_and_begins_to_madl|5abfe682532d",
-    "original": "\\n\\nFeruze blinks in shock, then looks at you and begins to madly cackle, <i>“What a fucking joke! WE DON’T HAVE TIME FOR YOUR BULLSHIT, BACKWATER BITCH!”</i> She hefts her pistol. <i>“We can finish up after we shake the tin can.”</i>",
+    "key": "button.tooltip|Hell_no|9aeb995a0da7",
+    "original": "Hell no.",
     "translation": "",
-    "context": "<<POS:10899362>>"
+    "context": "<<POS:10897096>> addButton(1,\"Hell No!\",(function(){combatOutput((0,v.zI)(De||(De=(0,i.Z)([\"<i>“And get filled with whatever aphrodisiac you have in stock? Not likely,”</i> you reply.\\n\\t\\t\\t\\t\\n\\t\\t\\t\\t<i>“Well, fine,”</i> she sighs, kicking her whip back up to her hands with dazzling speed, stretching it out exper..."
   },
   {
-    "key": "combat|n_nThat_makes_a_certain_amount_of_sense_You_can_t_claim_your_i|0f36d18e9527",
-    "original": "\\n\\nThat makes a certain amount of sense. You can’t claim your inheritance from inside a Rush-world jail. <b>For the moment, Feruze is your ally!</b>",
+    "key": "combat|A_paragon_branded_police_officer_locally_known_as_an_XO_pulls|febb0124f4b6",
+    "original": "A paragon-branded police officer, locally known as an ‘XO’ pulls up alongside the garbage truck on a speeding hoverbike. The heavily augmented zaika looks more robot than flesh, and when she speaks, it sounds like her voice is being broadcast through a bullhorn. <i>“<b>Cease illegal activities, law-breakers! You are in violation of 27 zaibatsu accords. Surrender swiftly, and your sentence may be reduced by two hundred thirty-seven years and six months - a fifty perfect reduction currently being offered to Rushers. Time will be served via imprisonment or mandatory cybernetic service.</b>”</i>",
     "translation": "",
-    "context": "<<POS:10899613>>"
+    "context": "<<POS:10898747>>"
   },
   {
-    "key": "bust|XO|ad026d9a9d1d",
-    "original": "XO",
+    "key": "combat|Feruze_blinks_in_shock_then_looks_at_you_and_begins_to_madly_ca|d953e69784d9",
+    "original": "Feruze blinks in shock, then looks at you and begins to madly cackle, <i>“What a fucking joke! WE DON’T HAVE TIME FOR YOUR BULLSHIT, BACKWATER BITCH!”</i> She hefts her pistol. <i>“We can finish up after we shake the tin can.”</i>",
     "translation": "",
-    "context": "<<POS:10899816>>"
+    "context": "<<POS:10899366>>"
   },
   {
-    "key": "combat|as_she_catches_a_second_wind|e850712bead7",
+    "key": "combat|That_makes_a_certain_amount_of_sense_You_can_t_claim_your_inher|b5a16d3f60ef",
+    "original": "That makes a certain amount of sense. You can’t claim your inheritance from inside a Rush-world jail. <b>For the moment, Feruze is your ally!</b>",
+    "translation": "",
+    "context": "<<POS:10899617>>"
+  },
+  {
+    "key": "combat|as_she_catches_a_second_wind|211bf0e69a3a",
     "original": "as she catches a second wind",
     "translation": "",
     "context": "<<POS:10900364>>"
@@ -132,13 +228,7 @@
     "context": "<<POS:10900503>>"
   },
   {
-    "key": "bust|FERUZE|9547f3779d39",
-    "original": "FERUZE",
-    "translation": "",
-    "context": "<<POS:10900724>>"
-  },
-  {
-    "key": "combat|The_sharkwoman_reappears_high_in_the_air_cursing_up_a_storm_as|8f74eb412687",
+    "key": "combat|The_sharkwoman_reappears_high_in_the_air_cursing_up_a_storm_as|f81608340b42",
     "original": "The sharkwoman reappears high in the air, cursing up a storm as she steadies her wobbling flight and zeroes in once more.",
     "translation": "",
     "context": "<<POS:10902006>>"
@@ -189,121 +279,307 @@
     "key": "button|Surrender|e0f2b10ffce9",
     "original": "Surrender",
     "translation": "",
-    "context": "<<POS:10909452>>"
+    "context": "<<POS:10909452>> addButton(13,\"Surrender\",window.queenOfTheDeepSurrenderCombat,\"Surrender\",\"Maybe you can still make it out of this alive. Throw down your weapons and surrender yourself to the lake monster. Maybe she’ll go easy on you...\")"
   },
   {
-    "key": "button|Climb|b8e2240ce721",
+    "key": "button.hover|Surrender|e0f2b10ffce9",
+    "original": "Surrender",
+    "translation": "",
+    "context": "<<POS:10909501>> addButton(13,\"Surrender\",window.queenOfTheDeepSurrenderCombat,\"Surrender\",\"Maybe you can still make it out of this alive. Throw down your weapons and surrender yourself to the lake monster. Maybe she’ll go easy on you...\")"
+  },
+  {
+    "key": "button.tooltip|Maybe_you_can_still_make_it_out_of_this_alive_Throw_down_your_w|61775813ccc6",
+    "original": "Maybe you can still make it out of this alive. Throw down your weapons and surrender yourself to the lake monster. Maybe she’ll go easy on you...",
+    "translation": "",
+    "context": "<<POS:10909513>> addButton(13,\"Surrender\",window.queenOfTheDeepSurrenderCombat,\"Surrender\",\"Maybe you can still make it out of this alive. Throw down your weapons and surrender yourself to the lake monster. Maybe she’ll go easy on you...\")"
+  },
+  {
+    "key": "button|Climb|c7db993c6343",
     "original": "Climb",
     "translation": "",
-    "context": "<<POS:10909716>>"
+    "context": "<<POS:10909716>> addButton(12,\"Climb\",window.queenOfTheDeepClimb,\"Climb\",\"If you’re quick and careful, you might be able to evade the monster woman’s deadly claws and legs long enough to climb up on her back. You’ll definitely have an easier time of it up there, though getting there’s going to be risky...\")"
   },
   {
-    "key": "button|Attack_Web|cb8bc31cb428",
+    "key": "button.hover|Climb|c7db993c6343",
+    "original": "Climb",
+    "translation": "",
+    "context": "<<POS:10909751>> addButton(12,\"Climb\",window.queenOfTheDeepClimb,\"Climb\",\"If you’re quick and careful, you might be able to evade the monster woman’s deadly claws and legs long enough to climb up on her back. You’ll definitely have an easier time of it up there, though getting there’s going to be risky...\")"
+  },
+  {
+    "key": "button.tooltip|If_you_re_quick_and_careful_you_might_be_able_to_evade_the_mons|9504d8d8b8aa",
+    "original": "If you’re quick and careful, you might be able to evade the monster woman’s deadly claws and legs long enough to climb up on her back. You’ll definitely have an easier time of it up there, though getting there’s going to be risky...",
+    "translation": "",
+    "context": "<<POS:10909759>> addButton(12,\"Climb\",window.queenOfTheDeepClimb,\"Climb\",\"If you’re quick and careful, you might be able to evade the monster woman’s deadly claws and legs long enough to climb up on her back. You’ll definitely have an easier time of it up there, though getting there’s going to be risky...\")"
+  },
+  {
+    "key": "button|Attack_Web|7959d38b4295",
     "original": "Attack Web",
     "translation": "",
-    "context": "<<POS:10910233>>"
+    "context": "<<POS:10910233>> addButton(10,\"Attack Web\",(function(){return t.attackWeb(pc)}),\"Attack Web\",\"Try and hack back the bothrioc’s webs so they don’t stick to you.\")"
   },
   {
-    "key": "button|Shoot_Jetpack|4c143e39e847",
+    "key": "button.hover|Attack_Web|7959d38b4295",
+    "original": "Attack Web",
+    "translation": "",
+    "context": "<<POS:10910283>> addButton(10,\"Attack Web\",(function(){return t.attackWeb(pc)}),\"Attack Web\",\"Try and hack back the bothrioc’s webs so they don’t stick to you.\")"
+  },
+  {
+    "key": "button.tooltip|Try_and_hack_back_the_bothrioc_s_webs_so_they_don_t_stick_to_you|0285c2dc5300",
+    "original": "Try and hack back the bothrioc’s webs so they don’t stick to you.",
+    "translation": "",
+    "context": "<<POS:10910296>> addButton(10,\"Attack Web\",(function(){return t.attackWeb(pc)}),\"Attack Web\",\"Try and hack back the bothrioc’s webs so they don’t stick to you.\")"
+  },
+  {
+    "key": "button|Shoot_Jetpack|31ad73b051eb",
     "original": "Shoot Jetpack",
     "translation": "",
-    "context": "<<POS:10910473>>"
+    "context": "<<POS:10910473>> addButton(11,\"Shoot Jetpack\",(function(){return o.jetpackShot(pc)}),\"Shoot Jetpack\",\"It’s possible you could shoot his jetpack from here. It’s a small target, he’s weaving around and the conditions are wretched, though...\")"
   },
   {
-    "key": "button|Submit|1aa61e166e09",
+    "key": "button.hover|Shoot_Jetpack|31ad73b051eb",
+    "original": "Shoot Jetpack",
+    "translation": "",
+    "context": "<<POS:10910528>> addButton(11,\"Shoot Jetpack\",(function(){return o.jetpackShot(pc)}),\"Shoot Jetpack\",\"It’s possible you could shoot his jetpack from here. It’s a small target, he’s weaving around and the conditions are wretched, though...\")"
+  },
+  {
+    "key": "button.tooltip|It_s_possible_you_could_shoot_his_jetpack_from_here_It_s_a_smal|79c62e8ba0b2",
+    "original": "It’s possible you could shoot his jetpack from here. It’s a small target, he’s weaving around and the conditions are wretched, though...",
+    "translation": "",
+    "context": "<<POS:10910544>> addButton(11,\"Shoot Jetpack\",(function(){return o.jetpackShot(pc)}),\"Shoot Jetpack\",\"It’s possible you could shoot his jetpack from here. It’s a small target, he’s weaving around and the conditions are wretched, though...\")"
+  },
+  {
+    "key": "button|Submit|68230449cabb",
     "original": "Submit",
     "translation": "",
-    "context": "<<POS:10910750>>"
+    "context": "<<POS:10910750>> addButton(10,\"Submit\",window.submitToLundBadEnd,\"Submit\",\"You’re tired of this. Of all of it. Fighting some spunky korgonne on an icy hellworld wasn’t what you expected when you set out on this journey...\")"
   },
   {
-    "key": "button|Free_Chief|6e64b1691c87",
+    "key": "button.hover|Submit|68230449cabb",
+    "original": "Submit",
+    "translation": "",
+    "context": "<<POS:10910785>> addButton(10,\"Submit\",window.submitToLundBadEnd,\"Submit\",\"You’re tired of this. Of all of it. Fighting some spunky korgonne on an icy hellworld wasn’t what you expected when you set out on this journey...\")"
+  },
+  {
+    "key": "button.tooltip|You_re_tired_of_this_Of_all_of_it_Fighting_some_spunky_korgonn|eaafa7c9570f",
+    "original": "You’re tired of this. Of all of it. Fighting some spunky korgonne on an icy hellworld wasn’t what you expected when you set out on this journey...",
+    "translation": "",
+    "context": "<<POS:10910794>> addButton(10,\"Submit\",window.submitToLundBadEnd,\"Submit\",\"You’re tired of this. Of all of it. Fighting some spunky korgonne on an icy hellworld wasn’t what you expected when you set out on this journey...\")"
+  },
+  {
+    "key": "button|Free_Chief|1be933ad2179",
     "original": "Free Chief",
     "translation": "",
-    "context": "<<POS:10911106>>"
+    "context": "<<POS:10911106>> addButton(10,\"Free Chief\",a.freeChief,\"Free Chief\",\"Get Chief Neykkar out of there! She might be able to lend a helping hand!\")"
   },
   {
-    "key": "button|Free_Chief|8f00488c5e51",
+    "key": "button.hover|Free_Chief|1be933ad2179",
     "original": "Free Chief",
     "translation": "",
-    "context": "<<POS:10911242>>"
+    "context": "<<POS:10911131>> addButton(10,\"Free Chief\",a.freeChief,\"Free Chief\",\"Get Chief Neykkar out of there! She might be able to lend a helping hand!\")"
   },
   {
-    "key": "button|Use_Cure|7ab9018b0dfe",
+    "key": "button.tooltip|Get_Chief_Neykkar_out_of_there_She_might_be_able_to_lend_a_help|519ef4b87414",
+    "original": "Get Chief Neykkar out of there! She might be able to lend a helping hand!",
+    "translation": "",
+    "context": "<<POS:10911144>> addButton(10,\"Free Chief\",a.freeChief,\"Free Chief\",\"Get Chief Neykkar out of there! She might be able to lend a helping hand!\")"
+  },
+  {
+    "key": "button|Free_Chief|dfcadea71443",
+    "original": "Free Chief",
+    "translation": "",
+    "context": "<<POS:10911242>> addDisabledButton(10,\"Free Chief\",\"Free Chief\",\"It’s way too dangerous to try this now! You’ve got to do something to buy yourself some time!\")"
+  },
+  {
+    "key": "button.hover|It_s_way_too_dangerous_to_try_this_now_You_ve_got_to_do_somethi|f76207c24452",
+    "original": "It’s way too dangerous to try this now! You’ve got to do something to buy yourself some time!",
+    "translation": "",
+    "context": "<<POS:10911268>> addDisabledButton(10,\"Free Chief\",\"Free Chief\",\"It’s way too dangerous to try this now! You’ve got to do something to buy yourself some time!\")"
+  },
+  {
+    "key": "button|Use_Cure|39522d25a87a",
     "original": "Use Cure",
     "translation": "",
-    "context": "<<POS:10911486>>"
+    "context": "<<POS:10911486>> addButton(11,\"Use Cure\",a.attemptCure,\"Use the Cure\",\"Use the cure you and Doc Vanderbilt made. You’ll have to get to the Fire Suppression system, access its internal supply, and then insert the cure spray. With any luck, that will start spreading the cure, and neutralize the infected.\")"
   },
   {
-    "key": "button|Fire_Alarm|60170e220071",
+    "key": "button.hover|Use_the_Cure|e4656c5c93bd",
+    "original": "Use the Cure",
+    "translation": "",
+    "context": "<<POS:10911511>> addButton(11,\"Use Cure\",a.attemptCure,\"Use the Cure\",\"Use the cure you and Doc Vanderbilt made. You’ll have to get to the Fire Suppression system, access its internal supply, and then insert the cure spray. With any luck, that will start spreading the cure, and neutralize the infected.\")"
+  },
+  {
+    "key": "button.tooltip|Use_the_cure_you_and_Doc_Vanderbilt_made_You_ll_have_to_get_to|1c552e94edb5",
+    "original": "Use the cure you and Doc Vanderbilt made. You’ll have to get to the Fire Suppression system, access its internal supply, and then insert the cure spray. With any luck, that will start spreading the cure, and neutralize the infected.",
+    "translation": "",
+    "context": "<<POS:10911526>> addButton(11,\"Use Cure\",a.attemptCure,\"Use the Cure\",\"Use the cure you and Doc Vanderbilt made. You’ll have to get to the Fire Suppression system, access its internal supply, and then insert the cure spray. With any luck, that will start spreading the cure, and neutralize the infected.\")"
+  },
+  {
+    "key": "button|Fire_Alarm|0d7c240fda3f",
     "original": "Fire Alarm",
     "translation": "",
-    "context": "<<POS:10911814>>"
+    "context": "<<POS:10911814>> addButton(11,\"Fire Alarm\",(function(){return a.triggerAlarm(!1)}),\"Trigger Fire Alarm\",\"Hit the alarm to release the cure!\")"
   },
   {
-    "key": "button|Use_Tranq|9aaad4fc2375",
+    "key": "button.hover|Trigger_Fire_Alarm|ec1fbc157a2c",
+    "original": "Trigger Fire Alarm",
+    "translation": "",
+    "context": "<<POS:10911867>> addButton(11,\"Fire Alarm\",(function(){return a.triggerAlarm(!1)}),\"Trigger Fire Alarm\",\"Hit the alarm to release the cure!\")"
+  },
+  {
+    "key": "button.tooltip|Hit_the_alarm_to_release_the_cure|72cbe2ae849f",
+    "original": "Hit the alarm to release the cure!",
+    "translation": "",
+    "context": "<<POS:10911888>> addButton(11,\"Fire Alarm\",(function(){return a.triggerAlarm(!1)}),\"Trigger Fire Alarm\",\"Hit the alarm to release the cure!\")"
+  },
+  {
+    "key": "button|Use_Tranq|e89a8e1ec9ad",
     "original": "Use Tranq",
     "translation": "",
-    "context": "<<POS:10912076>>"
+    "context": "<<POS:10912076>> addButton(10,\"Use Tranq\",n.attemptTranq,\"Use Tranquilizer\",\"See if the tranquilizer Lieve gave you will have any effect on the War Queen.\")"
   },
   {
-    "key": "button|Stay_Prone|100f1b1bc559",
+    "key": "button.hover|Use_Tranquilizer|ac205cae132a",
+    "original": "Use Tranquilizer",
+    "translation": "",
+    "context": "<<POS:10912103>> addButton(10,\"Use Tranq\",n.attemptTranq,\"Use Tranquilizer\",\"See if the tranquilizer Lieve gave you will have any effect on the War Queen.\")"
+  },
+  {
+    "key": "button.tooltip|See_if_the_tranquilizer_Lieve_gave_you_will_have_any_effect_on_t|803e93c80593",
+    "original": "See if the tranquilizer Lieve gave you will have any effect on the War Queen.",
+    "translation": "",
+    "context": "<<POS:10912122>> addButton(10,\"Use Tranq\",n.attemptTranq,\"Use Tranquilizer\",\"See if the tranquilizer Lieve gave you will have any effect on the War Queen.\")"
+  },
+  {
+    "key": "button|Stay_Prone|4d26a069b965",
     "original": "Stay Prone",
     "translation": "",
-    "context": "<<POS:10912586>>"
+    "context": "<<POS:10912586>> addButton(9,\"Stay Prone\",this.waitRound,\"Stay Prone\",\"Stay prone. Can’t let the overpass get you!\")"
   },
   {
-    "key": "button|Prone|385f5e72d060",
-    "original": "Prone",
-    "translation": "",
-    "context": "<<POS:10912686>>"
-  },
-  {
-    "key": "button|Stay_Prone|dd71e5c936c4",
+    "key": "button.hover|Stay_Prone|4d26a069b965",
     "original": "Stay Prone",
     "translation": "",
-    "context": "<<POS:10912935>>"
+    "context": "<<POS:10912614>> addButton(9,\"Stay Prone\",this.waitRound,\"Stay Prone\",\"Stay prone. Can’t let the overpass get you!\")"
   },
   {
-    "key": "button|Prone|385f5e72d060#1",
+    "key": "button.tooltip|Stay_prone_Can_t_let_the_overpass_get_you|0a8863461a51",
+    "original": "Stay prone. Can’t let the overpass get you!",
+    "translation": "",
+    "context": "<<POS:10912627>> addButton(9,\"Stay Prone\",this.waitRound,\"Stay Prone\",\"Stay prone. Can’t let the overpass get you!\")"
+  },
+  {
+    "key": "button|Prone|cf74d5def954",
     "original": "Prone",
     "translation": "",
-    "context": "<<POS:10913040>>"
+    "context": "<<POS:10912686>> addButton(9,\"Prone\",window.goProneForFeruze,\"Prone\",\"Go prone to avoid the oncoming overpass!\")"
   },
   {
-    "key": "button|Cage|041c28622d7a",
+    "key": "button.hover|Prone|cf74d5def954",
+    "original": "Prone",
+    "translation": "",
+    "context": "<<POS:10912718>> addButton(9,\"Prone\",window.goProneForFeruze,\"Prone\",\"Go prone to avoid the oncoming overpass!\")"
+  },
+  {
+    "key": "button.tooltip|Go_prone_to_avoid_the_oncoming_overpass|94a40b3dbb42",
+    "original": "Go prone to avoid the oncoming overpass!",
+    "translation": "",
+    "context": "<<POS:10912726>> addButton(9,\"Prone\",window.goProneForFeruze,\"Prone\",\"Go prone to avoid the oncoming overpass!\")"
+  },
+  {
+    "key": "button|Stay_Prone|f8fb7eceb250",
+    "original": "Stay Prone",
+    "translation": "",
+    "context": "<<POS:10912935>> addButton(9,\"Stay Prone\",this.waitRound,\"Stay Prone\",\"Stay prone. Can’t let the signal gantry get you!\")"
+  },
+  {
+    "key": "button.hover|Stay_Prone|f8fb7eceb250",
+    "original": "Stay Prone",
+    "translation": "",
+    "context": "<<POS:10912963>> addButton(9,\"Stay Prone\",this.waitRound,\"Stay Prone\",\"Stay prone. Can’t let the signal gantry get you!\")"
+  },
+  {
+    "key": "button.tooltip|Stay_prone_Can_t_let_the_signal_gantry_get_you|48b39941a431",
+    "original": "Stay prone. Can’t let the signal gantry get you!",
+    "translation": "",
+    "context": "<<POS:10912976>> addButton(9,\"Stay Prone\",this.waitRound,\"Stay Prone\",\"Stay prone. Can’t let the signal gantry get you!\")"
+  },
+  {
+    "key": "button|Prone|3fc24a56fa78",
+    "original": "Prone",
+    "translation": "",
+    "context": "<<POS:10913040>> addButton(9,\"Prone\",window.goProneForFeruze,\"Prone\",\"Go prone to avoid the oncoming signal gantry!\")"
+  },
+  {
+    "key": "button.hover|Prone|3fc24a56fa78",
+    "original": "Prone",
+    "translation": "",
+    "context": "<<POS:10913072>> addButton(9,\"Prone\",window.goProneForFeruze,\"Prone\",\"Go prone to avoid the oncoming signal gantry!\")"
+  },
+  {
+    "key": "button.tooltip|Go_prone_to_avoid_the_oncoming_signal_gantry|4659313d7b72",
+    "original": "Go prone to avoid the oncoming signal gantry!",
+    "translation": "",
+    "context": "<<POS:10913080>> addButton(9,\"Prone\",window.goProneForFeruze,\"Prone\",\"Go prone to avoid the oncoming signal gantry!\")"
+  },
+  {
+    "key": "button|Cage|902eb539ee68",
     "original": "Cage",
     "translation": "",
-    "context": "<<POS:10913188>>"
+    "context": "<<POS:10913188>> addButton(10,\"Cage\",(function(){window.enemy=e.hostiles[0],window.moveToCage(),window.enemy=null}),\"Cage\",\"Attempt to move closer to Dane and [rival.name]’s cage.\")"
   },
   {
-    "key": "button|Break_Cage|a3c46b3decb4",
+    "key": "button.hover|Cage|902eb539ee68",
+    "original": "Cage",
+    "translation": "",
+    "context": "<<POS:10913274>> addButton(10,\"Cage\",(function(){window.enemy=e.hostiles[0],window.moveToCage(),window.enemy=null}),\"Cage\",\"Attempt to move closer to Dane and [rival.name]’s cage.\")"
+  },
+  {
+    "key": "button.tooltip|Attempt_to_move_closer_to_Dane_and_rival_name_s_cage|b5c05b49a4fe",
+    "original": "Attempt to move closer to Dane and [rival.name]’s cage.",
+    "translation": "",
+    "context": "<<POS:10913281>> addButton(10,\"Cage\",(function(){window.enemy=e.hostiles[0],window.moveToCage(),window.enemy=null}),\"Cage\",\"Attempt to move closer to Dane and [rival.name]’s cage.\")"
+  },
+  {
+    "key": "button|Break_Cage|2a0b4e21dbd7",
     "original": "Break Cage",
     "translation": "",
-    "context": "<<POS:10913353>>"
+    "context": "<<POS:10913353>> addButton(10,\"Break Cage\",(function(){window.enemy=e.hostiles[0],window.breakOutDane(),window.enemy=null}),\"Break Cage\",\"Try and break Dane out - that big, burly ausar might just level the playing field!\")"
   },
   {
-    "key": "combat|n_concat_k_m_capitalize_O_getCombatName_1_concat_Pla|6c9d2cb3fe1a",
-    "original": "\\n\".concat(k.m.capitalize(O.getCombatName(),!1),\" \").concat(\"PlayerCharacter\"===O.getClassName()||O.isPlural?\"are\":\"is\",\" <b>sundered</b> by the unnatural forces!\")",
+    "key": "button.hover|Break_Cage|2a0b4e21dbd7",
+    "original": "Break Cage",
     "translation": "",
-    "context": "<<POS:10919758>>"
+    "context": "<<POS:10913447>> addButton(10,\"Break Cage\",(function(){window.enemy=e.hostiles[0],window.breakOutDane(),window.enemy=null}),\"Break Cage\",\"Try and break Dane out - that big, burly ausar might just level the playing field!\")"
   },
   {
-    "key": "combat|n_concat_k_m_capitalize_O_getCombatName_1_concat_Pla|fc2420693e8f",
-    "original": "\\n\".concat(k.m.capitalize(O.getCombatName(),!1),\" \").concat(\"PlayerCharacter\"===O.getClassName()||O.isPlural?\"are\":\"is\",\" wracked by the waves of entropy!\")",
+    "key": "button.tooltip|Try_and_break_Dane_out_that_big_burly_ausar_might_just_level|c6f1382821b2",
+    "original": "Try and break Dane out - that big, burly ausar might just level the playing field!",
     "translation": "",
-    "context": "<<POS:10919960>>"
+    "context": "<<POS:10913460>> addButton(10,\"Break Cage\",(function(){window.enemy=e.hostiles[0],window.breakOutDane(),window.enemy=null}),\"Break Cage\",\"Try and break Dane out - that big, burly ausar might just level the playing field!\")"
   },
   {
-    "key": "combat|n_M|da84d41dccd7",
-    "original": "\\n\"+M",
+    "key": "combat|concat_k_m_capitalize_O_getCombatName_1_concat_Playe|9784b8dc4eaf",
+    "original": "\".concat(k.m.capitalize(O.getCombatName(),!1),\" \").concat(\"PlayerCharacter\"===O.getClassName()||O.isPlural?\"are\":\"is\",\" <b>sundered</b> by the unnatural forces!\")",
     "translation": "",
-    "context": "<<POS:10920766>>"
+    "context": "<<POS:10919760>>"
   },
   {
-    "key": "combat|n_concat_k_m_capitalize_T_getCombatName_1_concat_Pla|38235aac5add",
-    "original": "\\n\".concat(k.m.capitalize(T.getCombatName(),!1),\" \").concat(\"PlayerCharacter\"===T.getClassName()||T.isPlural?\"are\":\"is\",\" struck\")",
+    "key": "combat|concat_k_m_capitalize_O_getCombatName_1_concat_Playe|c4fe2bc76827",
+    "original": "\".concat(k.m.capitalize(O.getCombatName(),!1),\" \").concat(\"PlayerCharacter\"===O.getClassName()||O.isPlural?\"are\":\"is\",\" wracked by the waves of entropy!\")",
     "translation": "",
-    "context": "<<POS:10926274>>"
+    "context": "<<POS:10919962>>"
+  },
+  {
+    "key": "combat|M|04280b8a04b0",
+    "original": "\"+M",
+    "translation": "",
+    "context": "<<POS:10920768>>"
+  },
+  {
+    "key": "combat|concat_k_m_capitalize_T_getCombatName_1_concat_Playe|bebe3d732a83",
+    "original": "\".concat(k.m.capitalize(T.getCombatName(),!1),\" \").concat(\"PlayerCharacter\"===T.getClassName()||T.isPlural?\"are\":\"is\",\" struck\")",
+    "translation": "",
+    "context": "<<POS:10926276>>"
   },
   {
     "key": "combat|b_and_blinded_b|407a510e890b",
@@ -312,16 +588,16 @@
     "context": "<<POS:10926539>>"
   },
   {
-    "key": "combat|n_target_GetCombatName_seem_target_isPlural_s_unaffected|fe3faee82dac",
-    "original": "\\n[target.GetCombatName] seem[target.isPlural||s] unaffected!",
+    "key": "combat|target_GetCombatName_seem_target_isPlural_s_unaffected|d0762001e33b",
+    "original": "[target.GetCombatName] seem[target.isPlural||s] unaffected!",
     "translation": "",
-    "context": "<<POS:10927187>>"
+    "context": "<<POS:10927189>>"
   },
   {
-    "key": "combat|n_target_GetCombatName_target_isPlural_are_is_aroused|27d59683cfd8",
-    "original": "\\n[target.GetCombatName] [target.isPlural|are|is] aroused",
+    "key": "combat|target_GetCombatName_target_isPlural_are_is_aroused|c9f99b0d4fc8",
+    "original": "[target.GetCombatName] [target.isPlural|are|is] aroused",
     "translation": "",
-    "context": "<<POS:10927270>>"
+    "context": "<<POS:10927272>>"
   },
   {
     "key": "combat|b_and_blinded_b|6e9dc294c3e1",
@@ -432,13 +708,13 @@
     "context": "<<POS:10959843>>"
   },
   {
-    "key": "combat|n_b_Its_duration_has_run_out_b|887b4d9798c7",
-    "original": "\\n<b>Its duration has run out!</b>",
+    "key": "combat|b_Its_duration_has_run_out_b|e434227bec67",
+    "original": "<b>Its duration has run out!</b>",
     "translation": "",
-    "context": "<<POS:10960455>>"
+    "context": "<<POS:10960457>>"
   },
   {
-    "key": "combat|pc_eachCock_straining_pc_isCrotchGarbed_against_your_underc|4ece3d304e16",
+    "key": "combat|pc_eachCock_straining_pc_isCrotchGarbed_against_your_underc|88f8052c4f01",
     "original": ", [pc.eachCock] straining [pc.isCrotchGarbed|against your underclothes|into the air][pc.hasVagina| and]",
     "translation": "",
     "context": "<<POS:10961377>>"
@@ -462,358 +738,838 @@
     "context": "<<POS:10966451>>"
   },
   {
-    "key": "button|Sense|e1d038f686c6",
+    "key": "button.hover|Melee_Attack|d88de30fd4c5",
+    "original": "Melee Attack",
+    "translation": "",
+    "context": "<<POS:10968120>> addButton(0,a,(function(){return e.selectSimpleAttack({func:g.P.MeleeAttack})}),\"Melee Attack\",\"Attack a single enemy with a melee strike. Damage is based on physique.\",n)"
+  },
+  {
+    "key": "button.tooltip|Attack_a_single_enemy_with_a_melee_strike_Damage_is_based_on_ph|35cfac4cf530",
+    "original": "Attack a single enemy with a melee strike. Damage is based on physique.",
+    "translation": "",
+    "context": "<<POS:10968135>> addButton(0,a,(function(){return e.selectSimpleAttack({func:g.P.MeleeAttack})}),\"Melee Attack\",\"Attack a single enemy with a melee strike. Damage is based on physique.\",n)"
+  },
+  {
+    "key": "button.hover|Ranged_Attack|d2ed95c174a5",
+    "original": "Ranged Attack",
+    "translation": "",
+    "context": "<<POS:10968774>> addButton(1,a,(function(){return e.selectSimpleAttack({func:g.P.RangedAttack})}),\"Ranged Attack\",\"Attack a single enemy with a ranged weapon. Damage is based on aim.\",n)"
+  },
+  {
+    "key": "button.tooltip|Attack_a_single_enemy_with_a_ranged_weapon_Damage_is_based_on_a|ca8183ef2e3d",
+    "original": "Attack a single enemy with a ranged weapon. Damage is based on aim.",
+    "translation": "",
+    "context": "<<POS:10968790>> addButton(1,a,(function(){return e.selectSimpleAttack({func:g.P.RangedAttack})}),\"Ranged Attack\",\"Attack a single enemy with a ranged weapon. Damage is based on aim.\",n)"
+  },
+  {
+    "key": "button|Sense|a8383572de66",
     "original": "Sense",
     "translation": "",
-    "context": "<<POS:10968883>>"
+    "context": "<<POS:10968883>> addDisabledButton(2,\"Sense\",\"Sense\",o)"
   },
   {
     "key": "button|Inventory|50ce66eba514",
     "original": "Inventory",
     "translation": "",
-    "context": "<<POS:10968922>>"
+    "context": "<<POS:10968922>> addDisabledButton(3,\"Inventory\",\"Inventory\",o)"
   },
   {
     "key": "button|Abilities|36b69cbfbaf4",
     "original": "Abilities",
     "translation": "",
-    "context": "<<POS:10968969>>"
+    "context": "<<POS:10968969>> addDisabledButton(4,\"Abilities\",\"Special Abilities\",o)"
   },
   {
     "key": "button|Tease|9802d1ee01ca",
     "original": "Tease",
     "translation": "",
-    "context": "<<POS:10969046>>"
+    "context": "<<POS:10969046>> addDisabledButton(5,\"Tease\",\"Tease Attack\",this.roundCounter>=4?\"You already tried this!\":o)"
   },
   {
     "key": "button|Tease|6ef35268cef3",
     "original": "Tease",
     "translation": "",
-    "context": "<<POS:10969131>>"
+    "context": "<<POS:10969131>> addButton(5,\"Tease\",(function(){pc.biggestTitSize()>2?e.chestTeaseText(e.hostiles[0]):e.crotchTeaseText(e.hostiles[0]),e.processCombat()}),\"Tease Attack\",\"Use the power of lust to entice your opponent.\")"
   },
   {
-    "key": "button|Special|f622e0e12217",
+    "key": "button.hover|Tease_Attack|bf6e4c49399d",
+    "original": "Tease Attack",
+    "translation": "",
+    "context": "<<POS:10969258>> addButton(5,\"Tease\",(function(){pc.biggestTitSize()>2?e.chestTeaseText(e.hostiles[0]):e.crotchTeaseText(e.hostiles[0]),e.processCombat()}),\"Tease Attack\",\"Use the power of lust to entice your opponent.\")"
+  },
+  {
+    "key": "button.tooltip|Use_the_power_of_lust_to_entice_your_opponent|9b88f20ec686",
+    "original": "Use the power of lust to entice your opponent.",
+    "translation": "",
+    "context": "<<POS:10969273>> addButton(5,\"Tease\",(function(){pc.biggestTitSize()>2?e.chestTeaseText(e.hostiles[0]):e.crotchTeaseText(e.hostiles[0]),e.processCombat()}),\"Tease Attack\",\"Use the power of lust to entice your opponent.\")"
+  },
+  {
+    "key": "button|Special|7daea0a9c9f1",
     "original": "Special",
     "translation": "",
-    "context": "<<POS:10969343>>"
+    "context": "<<POS:10969343>> addDisabledButton(6,\"Special\",\"Special Attacks\",o)"
   },
   {
     "key": "button|Closer_Look|641ba3cee0ec",
     "original": "Closer Look",
     "translation": "",
-    "context": "<<POS:10969386>>"
+    "context": "<<POS:10969386>> addButton(7,\"Closer Look\",(function(){return e.combatAppearance(7)}),\"Closer Look\",\"Take a closer look at your foe’s appearance.\\n\\nThis does not consume your action for this round.\")"
   },
   {
-    "key": "button|Fantasize|f093502cb901",
+    "key": "button.hover|Closer_Look|641ba3cee0ec",
+    "original": "Closer Look",
+    "translation": "",
+    "context": "<<POS:10969443>> addButton(7,\"Closer Look\",(function(){return e.combatAppearance(7)}),\"Closer Look\",\"Take a closer look at your foe’s appearance.\\n\\nThis does not consume your action for this round.\")"
+  },
+  {
+    "key": "button.tooltip|Take_a_closer_look_at_your_foe_s_appearance_n_nThis_does_not_co|8111736b171e",
+    "original": "Take a closer look at your foe’s appearance.\\n\\nThis does not consume your action for this round.",
+    "translation": "",
+    "context": "<<POS:10969457>> addButton(7,\"Closer Look\",(function(){return e.combatAppearance(7)}),\"Closer Look\",\"Take a closer look at your foe’s appearance.\\n\\nThis does not consume your action for this round.\")"
+  },
+  {
+    "key": "button|Fantasize|034948cfa2e4",
     "original": "Fantasize",
     "translation": "",
-    "context": "<<POS:10969578>>"
+    "context": "<<POS:10969578>> addDisabledButton(8,\"Fantasize\",\"Fantasize\",o)"
   },
   {
     "key": "button|Wait|a184b04a09a2",
     "original": "Wait",
     "translation": "",
-    "context": "<<POS:10969625>>"
+    "context": "<<POS:10969625>> addDisabledButton(9,\"Wait\",\"Wait\",o)"
   },
   {
     "key": "button|Run|008aaf46b16c",
     "original": "Run",
     "translation": "",
-    "context": "<<POS:10969668>>"
+    "context": "<<POS:10969668>> addDisabledButton(14,\"Run\",\"Run\",o)"
   },
   {
     "key": "button|Recover|9afd193a674b",
     "original": "Recover",
     "translation": "",
-    "context": "<<POS:10969812>>"
+    "context": "<<POS:10969812>> addButton(0,\"Recover\",(function(){return e.doStunRecover(pc)}))"
   },
   {
     "key": "button|Submit|9b0eda84b80f",
     "original": "Submit",
     "translation": "",
-    "context": "<<POS:10971920>>"
+    "context": "<<POS:10971920>> addButton(5,\"Submit\",(function(){return e.getEnemyOfClass(\"OverqueenYsolte\").submitToZeSnek(pc)}),\"Submit\",\"It’s what she wants, anyway.\")"
   },
   {
-    "key": "button|Struggle|d77685fdddf7",
+    "key": "button.hover|Submit|9b0eda84b80f",
+    "original": "Submit",
+    "translation": "",
+    "context": "<<POS:10972006>> addButton(5,\"Submit\",(function(){return e.getEnemyOfClass(\"OverqueenYsolte\").submitToZeSnek(pc)}),\"Submit\",\"It’s what she wants, anyway.\")"
+  },
+  {
+    "key": "button.tooltip|It_s_what_she_wants_anyway|20a933937d7a",
+    "original": "It’s what she wants, anyway.",
+    "translation": "",
+    "context": "<<POS:10972015>> addButton(5,\"Submit\",(function(){return e.getEnemyOfClass(\"OverqueenYsolte\").submitToZeSnek(pc)}),\"Submit\",\"It’s what she wants, anyway.\")"
+  },
+  {
+    "key": "button|Struggle|b07c511af135",
     "original": "Struggle",
     "translation": "",
-    "context": "<<POS:10972138>>"
+    "context": "<<POS:10972138>> addButton(0,\"Struggle\",(function(){return e.doStruggleRecover(pc)}))"
   },
   {
     "key": "button|Static_Burst|3cb40d5815c8",
     "original": "Static Burst",
     "translation": "",
-    "context": "<<POS:10972314>>"
+    "context": "<<POS:10972314>> addDisabledButton(3,\"Static Burst\",\"Static Burst\",\"Static burst would have no effect on a simple net!\")"
+  },
+  {
+    "key": "button.hover|Static_burst_would_have_no_effect_on_a_simple_net|c9af227a8b9f",
+    "original": "Static burst would have no effect on a simple net!",
+    "translation": "",
+    "context": "<<POS:10972344>> addDisabledButton(3,\"Static Burst\",\"Static Burst\",\"Static burst would have no effect on a simple net!\")"
+  },
+  {
+    "key": "button|Static_Burst|2d23844f5734",
+    "original": "Static Burst",
+    "translation": "",
+    "context": "<<POS:10972452>> addDisabledButton(3,\"Static Burst\",\"Static Burst\",\"You need shields available to overload in order for static burst to function.\")"
+  },
+  {
+    "key": "button.hover|You_need_shields_available_to_overload_in_order_for_static_burst|35560ee3e3c7",
+    "original": "You need shields available to overload in order for static burst to function.",
+    "translation": "",
+    "context": "<<POS:10972482>> addDisabledButton(3,\"Static Burst\",\"Static Burst\",\"You need shields available to overload in order for static burst to function.\")"
+  },
+  {
+    "key": "button|Static_Burst|0892c1ba0761",
+    "original": "Static Burst",
+    "translation": "",
+    "context": "<<POS:10972590>> addButton(3,\"Static Burst\",(function(){return e.doStaticBurst()}))"
   },
   {
     "key": "button|Static_Burst|d9c3a114b9ae",
     "original": "Static Burst",
     "translation": "",
-    "context": "<<POS:10972452>>"
-  },
-  {
-    "key": "button|Static_Burst|d9c3a114b9ae#1",
-    "original": "Static Burst",
-    "translation": "",
-    "context": "<<POS:10972590>>"
-  },
-  {
-    "key": "button|Static_Burst|d9c3a114b9ae#2",
-    "original": "Static Burst",
-    "translation": "",
-    "context": "<<POS:10972665>>"
+    "context": "<<POS:10972665>> addDisabledButton(3,\"Static Burst\")"
   },
   {
     "key": "button|Mind_Trick|c38bd0b52137",
     "original": "Mind Trick",
     "translation": "",
-    "context": "<<POS:10972737>>"
+    "context": "<<POS:10972737>> addButton(3,\"Mind Trick\",(function(){return e.doMindTrick()}),\"Mind Trick\",\"Use your willpower to mentally force an assailant off of you. As a kineticist, any kind of telepathy is a struggle, but you can manage this with great effort.\\n\\n<b>Requires 50 energy.</b>\")"
   },
   {
-    "key": "button|Mind_Trick|164c1aa35c79",
+    "key": "button.hover|Mind_Trick|c38bd0b52137",
     "original": "Mind Trick",
     "translation": "",
-    "context": "<<POS:10973012>>"
+    "context": "<<POS:10972787>> addButton(3,\"Mind Trick\",(function(){return e.doMindTrick()}),\"Mind Trick\",\"Use your willpower to mentally force an assailant off of you. As a kineticist, any kind of telepathy is a struggle, but you can manage this with great effort.\\n\\n<b>Requires 50 energy.</b>\")"
   },
   {
-    "key": "button|Nip_Pinch|3639b4ceb900",
+    "key": "button.tooltip|Use_your_willpower_to_mentally_force_an_assailant_off_of_you_As|c4422540420d",
+    "original": "Use your willpower to mentally force an assailant off of you. As a kineticist, any kind of telepathy is a struggle, but you can manage this with great effort.\\n\\n<b>Requires 50 energy.</b>",
+    "translation": "",
+    "context": "<<POS:10972800>> addButton(3,\"Mind Trick\",(function(){return e.doMindTrick()}),\"Mind Trick\",\"Use your willpower to mentally force an assailant off of you. As a kineticist, any kind of telepathy is a struggle, but you can manage this with great effort.\\n\\n<b>Requires 50 energy.</b>\")"
+  },
+  {
+    "key": "button|Mind_Trick|51e44ed950ee",
+    "original": "Mind Trick",
+    "translation": "",
+    "context": "<<POS:10973012>> addDisabledButton(3,\"Mind Trick\",\"Mind Trick\",\"This ability requires you to have 50 energy available.\")"
+  },
+  {
+    "key": "button.hover|This_ability_requires_you_to_have_50_energy_available|05f7af3ddff1",
+    "original": "This ability requires you to have 50 energy available.",
+    "translation": "",
+    "context": "<<POS:10973038>> addDisabledButton(3,\"Mind Trick\",\"Mind Trick\",\"This ability requires you to have 50 energy available.\")"
+  },
+  {
+    "key": "button|Nip_Pinch|2895fa6d7ed3",
     "original": "Nip-Pinch",
     "translation": "",
-    "context": "<<POS:10973141>>"
+    "context": "<<POS:10973141>> addButton(10,\"Nip-Pinch\",window.pinchKaskaNipple,\"Nip-Pinch\",\"Maybe pinching Kaska’s nipple will get her to release you.\")"
   },
   {
-    "key": "button|Retreat|2d643b6d1481",
+    "key": "button.hover|Nip_Pinch|2895fa6d7ed3",
+    "original": "Nip-Pinch",
+    "translation": "",
+    "context": "<<POS:10973177>> addButton(10,\"Nip-Pinch\",window.pinchKaskaNipple,\"Nip-Pinch\",\"Maybe pinching Kaska’s nipple will get her to release you.\")"
+  },
+  {
+    "key": "button.tooltip|Maybe_pinching_Kaska_s_nipple_will_get_her_to_release_you|fdf4153cb356",
+    "original": "Maybe pinching Kaska’s nipple will get her to release you.",
+    "translation": "",
+    "context": "<<POS:10973189>> addButton(10,\"Nip-Pinch\",window.pinchKaskaNipple,\"Nip-Pinch\",\"Maybe pinching Kaska’s nipple will get her to release you.\")"
+  },
+  {
+    "key": "button|Retreat|045aea745d47",
     "original": "Retreat",
     "translation": "",
-    "context": "<<POS:10973355>>"
+    "context": "<<POS:10973355>> addDisabledButton(10,\"Retreat\",\"Retreat\",\"You’ll need to shake off this blasted net before trying this!\")"
   },
   {
-    "key": "button|Do_Nothing|b278583c57e0",
+    "key": "button.hover|You_ll_need_to_shake_off_this_blasted_net_before_trying_this|4e181f45bf08",
+    "original": "You’ll need to shake off this blasted net before trying this!",
+    "translation": "",
+    "context": "<<POS:10973375>> addDisabledButton(10,\"Retreat\",\"Retreat\",\"You’ll need to shake off this blasted net before trying this!\")"
+  },
+  {
+    "key": "button|Do_Nothing|4ba8497b8582",
     "original": "Do Nothing",
     "translation": "",
-    "context": "<<POS:10973452>>"
+    "context": "<<POS:10973452>> addButton(9,\"Do Nothing\",(function(){return e.waitRound()}))"
   },
   {
     "key": "button|Grope|a366ef70625a",
     "original": "Grope",
     "translation": "",
-    "context": "<<POS:10973628>>"
+    "context": "<<POS:10973628>> addButton(9,\"Grope\",this.waitRound,\"Grope\",\"Surprise her with a grope.\")"
   },
   {
-    "key": "button|Break_Window|504f24861c62",
+    "key": "button.hover|Grope|a366ef70625a",
+    "original": "Grope",
+    "translation": "",
+    "context": "<<POS:10973651>> addButton(9,\"Grope\",this.waitRound,\"Grope\",\"Surprise her with a grope.\")"
+  },
+  {
+    "key": "button.tooltip|Surprise_her_with_a_grope|55100383fab5",
+    "original": "Surprise her with a grope.",
+    "translation": "",
+    "context": "<<POS:10973659>> addButton(9,\"Grope\",this.waitRound,\"Grope\",\"Surprise her with a grope.\")"
+  },
+  {
+    "key": "button|Break_Window|c246343a46ee",
     "original": "Break Window",
     "translation": "",
-    "context": "<<POS:10973958>>"
+    "context": "<<POS:10973958>> addButton(10,\"Break Window\",window.fedQuestOfficerBreakWindow,\"Break Window\",\"Maybe this’ll get rid of the smoke?\")"
   },
   {
-    "key": "button|Retreat|e1d9cfb64dd9",
+    "key": "button.hover|Break_Window|c246343a46ee",
+    "original": "Break Window",
+    "translation": "",
+    "context": "<<POS:10974007>> addButton(10,\"Break Window\",window.fedQuestOfficerBreakWindow,\"Break Window\",\"Maybe this’ll get rid of the smoke?\")"
+  },
+  {
+    "key": "button.tooltip|Maybe_this_ll_get_rid_of_the_smoke|1995ff7ad9c8",
+    "original": "Maybe this’ll get rid of the smoke?",
+    "translation": "",
+    "context": "<<POS:10974022>> addButton(10,\"Break Window\",window.fedQuestOfficerBreakWindow,\"Break Window\",\"Maybe this’ll get rid of the smoke?\")"
+  },
+  {
+    "key": "button|Retreat|c02b479a8f4c",
     "original": "Retreat",
     "translation": "",
-    "context": "<<POS:10974158>>"
+    "context": "<<POS:10974158>> addButton(10,\"Retreat\",window.bothriocQuestBetaNyreaRetreat,\"Retreat\",\"Retreat slowly in the direction of the Quadomme Bothrioc.\")"
   },
   {
-    "key": "button|Daydream|94accec7ffb4",
+    "key": "button.hover|Retreat|c02b479a8f4c",
+    "original": "Retreat",
+    "translation": "",
+    "context": "<<POS:10974205>> addButton(10,\"Retreat\",window.bothriocQuestBetaNyreaRetreat,\"Retreat\",\"Retreat slowly in the direction of the Quadomme Bothrioc.\")"
+  },
+  {
+    "key": "button.tooltip|Retreat_slowly_in_the_direction_of_the_Quadomme_Bothrioc|8e43d85b59aa",
+    "original": "Retreat slowly in the direction of the Quadomme Bothrioc.",
+    "translation": "",
+    "context": "<<POS:10974215>> addButton(10,\"Retreat\",window.bothriocQuestBetaNyreaRetreat,\"Retreat\",\"Retreat slowly in the direction of the Quadomme Bothrioc.\")"
+  },
+  {
+    "key": "button|Daydream|2af139d776d5",
     "original": "Daydream",
     "translation": "",
-    "context": "<<POS:10974462>>"
+    "context": "<<POS:10974462>> addButton(0,\"Daydream\",(function(){var t=2;pc.isSubmissive()&&(t+=5),pc.isBimbo()&&(t+=5),pc.isCumSlut()&&(t+=10),combatOutput((0,v.zI)(et||(et=(0,i.Z)([\"You watch him, waiting for an opening so you can throw yourself at the muscular bulwark of his chest and just beg him to take you. To fuck you lik..."
   },
   {
     "key": "button|Lasso|c37a9892285c",
     "original": "Lasso",
     "translation": "",
-    "context": "<<POS:10976063>>"
+    "context": "<<POS:10976063>> addButton(0,\"Lasso\",(function(){return e.selectSimpleAttack({func:window.lassoAVarmint})}),\"Lasso\",\"Use this lasso you’ve been provided with to properly down this varmint.\",u)"
   },
   {
-    "key": "button|Sense|7b68de2264a6",
+    "key": "button.hover|Lasso|c37a9892285c",
+    "original": "Lasso",
+    "translation": "",
+    "context": "<<POS:10976142>> addButton(0,\"Lasso\",(function(){return e.selectSimpleAttack({func:window.lassoAVarmint})}),\"Lasso\",\"Use this lasso you’ve been provided with to properly down this varmint.\",u)"
+  },
+  {
+    "key": "button.tooltip|Use_this_lasso_you_ve_been_provided_with_to_properly_down_this_v|bab590b7d49c",
+    "original": "Use this lasso you’ve been provided with to properly down this varmint.",
+    "translation": "",
+    "context": "<<POS:10976150>> addButton(0,\"Lasso\",(function(){return e.selectSimpleAttack({func:window.lassoAVarmint})}),\"Lasso\",\"Use this lasso you’ve been provided with to properly down this varmint.\",u)"
+  },
+  {
+    "key": "button.hover|You_can_t_bring_yourself_to_resort_to_using_a_weapon_right_now|927199a53811",
+    "original": "You can’t bring yourself to resort to using a weapon right now!",
+    "translation": "",
+    "context": "<<POS:10976698>> addDisabledButton(0,r,\"Melee Attack\",\"You can’t bring yourself to resort to using a weapon right now!\",u)"
+  },
+  {
+    "key": "button.hover|You_re_holding_something_but_can_t_quite_recall_what_it_s_used|2e399d2a04eb",
+    "original": "You’re holding something, but can’t quite recall what it’s used for.",
+    "translation": "",
+    "context": "<<POS:10976872>> addDisabledButton(0,r,\"Melee Attack\",\"You’re holding something, but can’t quite recall what it’s used for.\",u)"
+  },
+  {
+    "key": "button.hover|Your_melee_weapon_is_too_heavy_to_lift_and_use|bb5c8f4999b5",
+    "original": "Your melee weapon is too heavy to lift and use!",
+    "translation": "",
+    "context": "<<POS:10977076>> addDisabledButton(0,r,\"Melee Attack\",\"Your melee weapon is too heavy to lift and use!\",u)"
+  },
+  {
+    "key": "button.hover|Melee_Attack|0d30fc60777d",
+    "original": "Melee Attack",
+    "translation": "",
+    "context": "<<POS:10977206>> addButton(0,r,(function(){return e.selectSimpleAttack({func:l,isMelee:!0})}),\"Melee Attack\",\"Attack a single enemy with a melee strike. Damage is based on physique.\",u)"
+  },
+  {
+    "key": "button.tooltip|Attack_a_single_enemy_with_a_melee_strike_Damage_is_based_on_ph|b8a7e5cb76f3",
+    "original": "Attack a single enemy with a melee strike. Damage is based on physique.",
+    "translation": "",
+    "context": "<<POS:10977221>> addButton(0,r,(function(){return e.selectSimpleAttack({func:l,isMelee:!0})}),\"Melee Attack\",\"Attack a single enemy with a melee strike. Damage is based on physique.\",u)"
+  },
+  {
+    "key": "button.hover|You_can_t_bring_yourself_to_resort_to_using_a_weapon_right_now|064373b2f7e5",
+    "original": "You can’t bring yourself to resort to using a weapon right now!",
+    "translation": "",
+    "context": "<<POS:10977834>> addDisabledButton(1,r,\"Ranged Attack\",\"You can’t bring yourself to resort to using a weapon right now!\",u)"
+  },
+  {
+    "key": "button.hover|You_re_holding_something_but_can_t_quite_recall_what_it_s_used|2e399d2a04eb#1",
+    "original": "You’re holding something, but can’t quite recall what it’s used for.",
+    "translation": "",
+    "context": "<<POS:10978008>> addDisabledButton(1,r,\"Melee Attack\",\"You’re holding something, but can’t quite recall what it’s used for.\",u)"
+  },
+  {
+    "key": "button.hover|Your_ranged_weapon_is_too_heavy_to_lift_and_use|be9e1cd40758",
+    "original": "Your ranged weapon is too heavy to lift and use!",
+    "translation": "",
+    "context": "<<POS:10978214>> addDisabledButton(1,r,\"Ranged Attack\",\"Your ranged weapon is too heavy to lift and use!\",u)"
+  },
+  {
+    "key": "button.hover|You_lack_the_physique_necessary_to_use_such_a_weapon_You_need_a|dc9fb3f07dbd",
+    "original": "You lack the physique necessary to use such a weapon! You need at least ",
+    "translation": "",
+    "context": "<<POS:10978414>> addDisabledButton(1,r,\"Ranged Attack\",\"You lack the physique necessary to use such a weapon! You need at least \".concat(Math.ceil(66*pc.physiqueMax()/100),\" physique to use it.\"),u)"
+  },
+  {
+    "key": "button.hover|Ranged_Attack|40f6583558f3",
+    "original": "Ranged Attack",
+    "translation": "",
+    "context": "<<POS:10978636>> addButton(1,r,(function(){return e.selectSimpleAttack({func:h,isRanged:!0})}),\"Ranged Attack\",\"Attack a single enemy with a ranged weapon. Damage is based on aim.\",u)"
+  },
+  {
+    "key": "button.tooltip|Attack_a_single_enemy_with_a_ranged_weapon_Damage_is_based_on_a|08c2fb8aa932",
+    "original": "Attack a single enemy with a ranged weapon. Damage is based on aim.",
+    "translation": "",
+    "context": "<<POS:10978652>> addButton(1,r,(function(){return e.selectSimpleAttack({func:h,isRanged:!0})}),\"Ranged Attack\",\"Attack a single enemy with a ranged weapon. Damage is based on aim.\",u)"
+  },
+  {
+    "key": "button|Sense|a8383572de66#1",
     "original": "Sense",
     "translation": "",
-    "context": "<<POS:10978737>>"
+    "context": "<<POS:10978737>> addButton(2,\"Sense\",(function(){return e.selectSimpleAttack({func:e.generateSenseMenu})}),\"Sense\",\"Attempts to get a feel for a foe’s likes and dislikes. Absolutely critical for someone who plans on seducing \".concat(pc.mf(\"his\",\"her\"),\" way out of a fight.\\n\\nThis action is also useful for potentia..."
   },
   {
-    "key": "button|Inventory|50ce66eba514#1",
+    "key": "button.hover|Sense|a8383572de66",
+    "original": "Sense",
+    "translation": "",
+    "context": "<<POS:10978815>> addButton(2,\"Sense\",(function(){return e.selectSimpleAttack({func:e.generateSenseMenu})}),\"Sense\",\"Attempts to get a feel for a foe’s likes and dislikes. Absolutely critical for someone who plans on seducing \".concat(pc.mf(\"his\",\"her\"),\" way out of a fight.\\n\\nThis action is also useful for potentia..."
+  },
+  {
+    "key": "button.tooltip|Attempts_to_get_a_feel_for_a_foe_s_likes_and_dislikes_Absolutel|981f6bf6c5e7",
+    "original": "Attempts to get a feel for a foe’s likes and dislikes. Absolutely critical for someone who plans on seducing ",
+    "translation": "",
+    "context": "<<POS:10978823>> addButton(2,\"Sense\",(function(){return e.selectSimpleAttack({func:e.generateSenseMenu})}),\"Sense\",\"Attempts to get a feel for a foe’s likes and dislikes. Absolutely critical for someone who plans on seducing \".concat(pc.mf(\"his\",\"her\"),\" way out of a fight.\\n\\nThis action is also useful for potentia..."
+  },
+  {
+    "key": "button|Inventory|375de38f5c43",
     "original": "Inventory",
     "translation": "",
-    "context": "<<POS:10979134>>"
+    "context": "<<POS:10979134>> addDisabledButton(3,\"Inventory\",\"Inventory\",\"You can’t use your inventory!\")"
   },
   {
-    "key": "button|Inventory|12664f238b30",
+    "key": "button.hover|You_can_t_use_your_inventory|d8d5257e9033",
+    "original": "You can’t use your inventory!",
+    "translation": "",
+    "context": "<<POS:10979158>> addDisabledButton(3,\"Inventory\",\"Inventory\",\"You can’t use your inventory!\")"
+  },
+  {
+    "key": "button|Inventory|a651c3042f75",
     "original": "Inventory",
     "translation": "",
-    "context": "<<POS:10979233>>"
+    "context": "<<POS:10979233>> addButton(3,\"Inventory\",this.inventoryAccessFunctor,\"Inventory\",\"Use items in combat.\")"
   },
   {
-    "key": "button|Abilities|36b69cbfbaf4#1",
+    "key": "button.hover|Inventory|a651c3042f75",
+    "original": "Inventory",
+    "translation": "",
+    "context": "<<POS:10979273>> addButton(3,\"Inventory\",this.inventoryAccessFunctor,\"Inventory\",\"Use items in combat.\")"
+  },
+  {
+    "key": "button.tooltip|Use_items_in_combat|7a4afa74784a",
+    "original": "Use items in combat.",
+    "translation": "",
+    "context": "<<POS:10979285>> addButton(3,\"Inventory\",this.inventoryAccessFunctor,\"Inventory\",\"Use items in combat.\")"
+  },
+  {
+    "key": "button|Abilities|dbc85108937d",
     "original": "Abilities",
     "translation": "",
-    "context": "<<POS:10979393>>"
+    "context": "<<POS:10979393>> addDisabledButton(4,\"Abilities\",\"Special Abilities\",\"You can’t remember how to use your special abilities right now...\")"
   },
   {
-    "key": "button|Abilities|f08af1700041",
+    "key": "button.hover|You_can_t_remember_how_to_use_your_special_abilities_right_now|9295ad213eb6",
+    "original": "You can’t remember how to use your special abilities right now...",
+    "translation": "",
+    "context": "<<POS:10979425>> addDisabledButton(4,\"Abilities\",\"Special Abilities\",\"You can’t remember how to use your special abilities right now...\")"
+  },
+  {
+    "key": "button|Abilities|874be1c8811e",
     "original": "Abilities",
     "translation": "",
-    "context": "<<POS:10979582>>"
+    "context": "<<POS:10979582>> addDisabledButton(4,\"Abilities\",\"Special Abilities\",\"You can’t remember any of the battle skills and techniques you’d picked up over the years.\")"
   },
   {
-    "key": "button|Abilities|f08af1700041#1",
+    "key": "button.hover|You_can_t_remember_any_of_the_battle_skills_and_techniques_you_d|e0cf32719d0e",
+    "original": "You can’t remember any of the battle skills and techniques you’d picked up over the years.",
+    "translation": "",
+    "context": "<<POS:10979614>> addDisabledButton(4,\"Abilities\",\"Special Abilities\",\"You can’t remember any of the battle skills and techniques you’d picked up over the years.\")"
+  },
+  {
+    "key": "button|Abilities|9ad25ff83bd3",
     "original": "Abilities",
     "translation": "",
-    "context": "<<POS:10979720>>"
+    "context": "<<POS:10979720>> addButton(4,\"Abilities\",(function(){return e.generateSpecialsMenu()}),\"Special Abilities\",\"The special abilities you have available to you are listed in this menu.\")"
   },
   {
-    "key": "button|Tease|9802d1ee01ca#1",
+    "key": "button.hover|Special_Abilities|a1c5e9b64927",
+    "original": "Special Abilities",
+    "translation": "",
+    "context": "<<POS:10979778>> addButton(4,\"Abilities\",(function(){return e.generateSpecialsMenu()}),\"Special Abilities\",\"The special abilities you have available to you are listed in this menu.\")"
+  },
+  {
+    "key": "button.tooltip|The_special_abilities_you_have_available_to_you_are_listed_in_th|3360daa3f3d1",
+    "original": "The special abilities you have available to you are listed in this menu.",
+    "translation": "",
+    "context": "<<POS:10979798>> addButton(4,\"Abilities\",(function(){return e.generateSpecialsMenu()}),\"Special Abilities\",\"The special abilities you have available to you are listed in this menu.\")"
+  },
+  {
+    "key": "button|Tease|0ffacc7f1323",
     "original": "Tease",
     "translation": "",
-    "context": "<<POS:10979937>>"
+    "context": "<<POS:10979937>> addDisabledButton(5,\"Tease\",\"Tease\",\"Without the venom, teasing just seems... fruitless.\")"
   },
   {
-    "key": "button|Tease|6ef35268cef3#1",
+    "key": "button.hover|Without_the_venom_teasing_just_seems_fruitless|a2ecda84bbd7",
+    "original": "Without the venom, teasing just seems... fruitless.",
+    "translation": "",
+    "context": "<<POS:10979953>> addDisabledButton(5,\"Tease\",\"Tease\",\"Without the venom, teasing just seems... fruitless.\")"
+  },
+  {
+    "key": "button|Tease|94493279edcc",
     "original": "Tease",
     "translation": "",
-    "context": "<<POS:10980096>>"
+    "context": "<<POS:10980096>> addDisabledButton(5,\"Tease\",\"Tease\",\"You can’t remember the tempting motions you were going to use to defuse the fight.\")"
   },
   {
-    "key": "button|Tease|6ef35268cef3#2",
+    "key": "button.hover|You_can_t_remember_the_tempting_motions_you_were_going_to_use_to|c1789ec68109",
+    "original": "You can’t remember the tempting motions you were going to use to defuse the fight.",
+    "translation": "",
+    "context": "<<POS:10980112>> addDisabledButton(5,\"Tease\",\"Tease\",\"You can’t remember the tempting motions you were going to use to defuse the fight.\")"
+  },
+  {
+    "key": "button|Tease|00bb063abb59",
     "original": "Tease",
     "translation": "",
-    "context": "<<POS:10980251>>"
+    "context": "<<POS:10980251>> addDisabledButton(5,\"Tease\",\"Tease\",\"You can’t tease right now.\")"
   },
   {
-    "key": "button|Tease|6ef35268cef3#3",
+    "key": "button.hover|You_can_t_tease_right_now|ea02b7452a6b",
+    "original": "You can’t tease right now.",
+    "translation": "",
+    "context": "<<POS:10980267>> addDisabledButton(5,\"Tease\",\"Tease\",\"You can’t tease right now.\")"
+  },
+  {
+    "key": "button|Tease|467120fb7e98",
     "original": "Tease",
     "translation": "",
-    "context": "<<POS:10980309>>"
+    "context": "<<POS:10980309>> addButton(5,\"Tease\",(function(){return e.selectSimpleAttack({func:e.generateTeaseMenu})}),\"Tease Menu\",\"Opens up your menu of available lust-targeting attacks. It is recommended that the ‘Sense’ option be used beforehand.\")"
   },
   {
-    "key": "button|Special|f622e0e12217#1",
+    "key": "button.hover|Tease_Menu|1c22f4802897",
+    "original": "Tease Menu",
+    "translation": "",
+    "context": "<<POS:10980387>> addButton(5,\"Tease\",(function(){return e.selectSimpleAttack({func:e.generateTeaseMenu})}),\"Tease Menu\",\"Opens up your menu of available lust-targeting attacks. It is recommended that the ‘Sense’ option be used beforehand.\")"
+  },
+  {
+    "key": "button.tooltip|Opens_up_your_menu_of_available_lust_targeting_attacks_It_is_re|e7edffa12f36",
+    "original": "Opens up your menu of available lust-targeting attacks. It is recommended that the ‘Sense’ option be used beforehand.",
+    "translation": "",
+    "context": "<<POS:10980400>> addButton(5,\"Tease\",(function(){return e.selectSimpleAttack({func:e.generateTeaseMenu})}),\"Tease Menu\",\"Opens up your menu of available lust-targeting attacks. It is recommended that the ‘Sense’ option be used beforehand.\")"
+  },
+  {
+    "key": "button|Special|757ecfcb6029",
     "original": "Special",
     "translation": "",
-    "context": "<<POS:10980576>>"
+    "context": "<<POS:10980576>> addDisabledButton(6,\"Special\",\"Special Attacks\",\"You can’t remember how to use your special attacks right now...\")"
   },
   {
-    "key": "button|Special|dabd296578ba",
+    "key": "button.hover|You_can_t_remember_how_to_use_your_special_attacks_right_now|2c6512a13622",
+    "original": "You can’t remember how to use your special attacks right now...",
+    "translation": "",
+    "context": "<<POS:10980604>> addDisabledButton(6,\"Special\",\"Special Attacks\",\"You can’t remember how to use your special attacks right now...\")"
+  },
+  {
+    "key": "button|Special|20c3c9e4564f",
     "original": "Special",
     "translation": "",
-    "context": "<<POS:10980759>>"
+    "context": "<<POS:10980759>> addDisabledButton(6,\"Special\",\"Special Attacks\",\"You can’t remember any of the battle skills and techniques you’d picked up over the years.\")"
   },
   {
-    "key": "button|Special|dabd296578ba#1",
+    "key": "button.hover|You_can_t_remember_any_of_the_battle_skills_and_techniques_you_d|950b4b819629",
+    "original": "You can’t remember any of the battle skills and techniques you’d picked up over the years.",
+    "translation": "",
+    "context": "<<POS:10980787>> addDisabledButton(6,\"Special\",\"Special Attacks\",\"You can’t remember any of the battle skills and techniques you’d picked up over the years.\")"
+  },
+  {
+    "key": "button|Special|f7cd77bd4f83",
     "original": "Special",
     "translation": "",
-    "context": "<<POS:10980893>>"
+    "context": "<<POS:10980893>> addButton(6,\"Special\",(function(){return e.generateSpecialsMenu(!0)}),\"Special Attacks\",\"The special attacks you have available to you are listed in this menu.\")"
   },
   {
-    "key": "button|Closer_Look|641ba3cee0ec#1",
+    "key": "button.hover|Special_Attacks|5d2e127fe6b9",
+    "original": "Special Attacks",
+    "translation": "",
+    "context": "<<POS:10980951>> addButton(6,\"Special\",(function(){return e.generateSpecialsMenu(!0)}),\"Special Attacks\",\"The special attacks you have available to you are listed in this menu.\")"
+  },
+  {
+    "key": "button.tooltip|The_special_attacks_you_have_available_to_you_are_listed_in_this|37a589966cbc",
+    "original": "The special attacks you have available to you are listed in this menu.",
+    "translation": "",
+    "context": "<<POS:10980969>> addButton(6,\"Special\",(function(){return e.generateSpecialsMenu(!0)}),\"Special Attacks\",\"The special attacks you have available to you are listed in this menu.\")"
+  },
+  {
+    "key": "button|Closer_Look|a1ebd8dc12e8",
     "original": "Closer Look",
     "translation": "",
-    "context": "<<POS:10981079>>"
+    "context": "<<POS:10981079>> addButton(7,\"Closer Look\",(function(){return e.combatAppearance(7)}),\"Closer Look\",\"Take a closer look at your foe’s appearance.\\n\\nThis does not consume your action for this round.\")"
   },
   {
-    "key": "button|Fantasize|f093502cb901#1",
+    "key": "button.hover|Closer_Look|a1ebd8dc12e8",
+    "original": "Closer Look",
+    "translation": "",
+    "context": "<<POS:10981136>> addButton(7,\"Closer Look\",(function(){return e.combatAppearance(7)}),\"Closer Look\",\"Take a closer look at your foe’s appearance.\\n\\nThis does not consume your action for this round.\")"
+  },
+  {
+    "key": "button.tooltip|Take_a_closer_look_at_your_foe_s_appearance_n_nThis_does_not_co|1ee21a1ff5c6",
+    "original": "Take a closer look at your foe’s appearance.\\n\\nThis does not consume your action for this round.",
+    "translation": "",
+    "context": "<<POS:10981150>> addButton(7,\"Closer Look\",(function(){return e.combatAppearance(7)}),\"Closer Look\",\"Take a closer look at your foe’s appearance.\\n\\nThis does not consume your action for this round.\")"
+  },
+  {
+    "key": "button|Fantasize|034948cfa2e4#1",
     "original": "Fantasize",
     "translation": "",
-    "context": "<<POS:10981263>>"
+    "context": "<<POS:10981263>> addButton(8,\"Fantasize\",(function(){return e.fantasizeRound()}),\"Fantasize\",\"Fantasize about your foe until you’re helpless and on your [pc.knees] before them.\")"
   },
   {
-    "key": "button|Clean_Off|3122447bec41",
+    "key": "button.hover|Fantasize|034948cfa2e4",
+    "original": "Fantasize",
+    "translation": "",
+    "context": "<<POS:10981315>> addButton(8,\"Fantasize\",(function(){return e.fantasizeRound()}),\"Fantasize\",\"Fantasize about your foe until you’re helpless and on your [pc.knees] before them.\")"
+  },
+  {
+    "key": "button.tooltip|Fantasize_about_your_foe_until_you_re_helpless_and_on_your_pc_k|2114cc01a6a5",
+    "original": "Fantasize about your foe until you’re helpless and on your [pc.knees] before them.",
+    "translation": "",
+    "context": "<<POS:10981327>> addButton(8,\"Fantasize\",(function(){return e.fantasizeRound()}),\"Fantasize\",\"Fantasize about your foe until you’re helpless and on your [pc.knees] before them.\")"
+  },
+  {
+    "key": "button|Clean_Off|cb8c56bbaf1a",
     "original": "Clean Off",
     "translation": "",
-    "context": "<<POS:10981462>>"
+    "context": "<<POS:10981462>> addButton(9,\"Clean Off\",this.cleanSticky,\"Clean Off\",\"Clean off the blobs of yellow clinging to your body before your foe can take advantage of... whatever it is.\")"
   },
   {
-    "key": "button|Wait|2c5fa455f71f",
+    "key": "button.hover|Clean_Off|cb8c56bbaf1a",
+    "original": "Clean Off",
+    "translation": "",
+    "context": "<<POS:10981491>> addButton(9,\"Clean Off\",this.cleanSticky,\"Clean Off\",\"Clean off the blobs of yellow clinging to your body before your foe can take advantage of... whatever it is.\")"
+  },
+  {
+    "key": "button.tooltip|Clean_off_the_blobs_of_yellow_clinging_to_your_body_before_your|61fc43727c81",
+    "original": "Clean off the blobs of yellow clinging to your body before your foe can take advantage of... whatever it is.",
+    "translation": "",
+    "context": "<<POS:10981503>> addButton(9,\"Clean Off\",this.cleanSticky,\"Clean Off\",\"Clean off the blobs of yellow clinging to your body before your foe can take advantage of... whatever it is.\")"
+  },
+  {
+    "key": "button|Wait|cb5e2fb97ea3",
     "original": "Wait",
     "translation": "",
-    "context": "<<POS:10981627>>"
+    "context": "<<POS:10981627>> addButton(9,\"Wait\",(function(){return e.waitRound()}),\"Wait\",\"There’s no real reason to this unless you’re just dragging out combat to see what your enemy will do.\")"
   },
   {
-    "key": "button|Static_Burst|b52cf8bdbb21",
-    "original": "Static Burst",
+    "key": "button.hover|Wait|cb5e2fb97ea3",
+    "original": "Wait",
     "translation": "",
-    "context": "<<POS:10981938>>"
+    "context": "<<POS:10981669>> addButton(9,\"Wait\",(function(){return e.waitRound()}),\"Wait\",\"There’s no real reason to this unless you’re just dragging out combat to see what your enemy will do.\")"
   },
   {
-    "key": "button|Static_Burst|d9c3a114b9ae#3",
-    "original": "Static Burst",
+    "key": "button.tooltip|There_s_no_real_reason_to_this_unless_you_re_just_dragging_out_c|2c8af7427ade",
+    "original": "There’s no real reason to this unless you’re just dragging out combat to see what your enemy will do.",
     "translation": "",
-    "context": "<<POS:10982076>>"
+    "context": "<<POS:10981676>> addButton(9,\"Wait\",(function(){return e.waitRound()}),\"Wait\",\"There’s no real reason to this unless you’re just dragging out combat to see what your enemy will do.\")"
   },
   {
-    "key": "button|Static_Burst|d9c3a114b9ae#4",
+    "key": "button|Static_Burst|2fccfddfb96c",
     "original": "Static Burst",
     "translation": "",
-    "context": "<<POS:10982151>>"
+    "context": "<<POS:10981938>> addDisabledButton(3,\"Static Burst\",\"Static Burst\",\"You need shields available to overload in order for static burst to function.\")"
+  },
+  {
+    "key": "button.hover|You_need_shields_available_to_overload_in_order_for_static_burst|90e6b4fdae5f",
+    "original": "You need shields available to overload in order for static burst to function.",
+    "translation": "",
+    "context": "<<POS:10981968>> addDisabledButton(3,\"Static Burst\",\"Static Burst\",\"You need shields available to overload in order for static burst to function.\")"
+  },
+  {
+    "key": "button|Static_Burst|0892c1ba0761#1",
+    "original": "Static Burst",
+    "translation": "",
+    "context": "<<POS:10982076>> addButton(3,\"Static Burst\",(function(){return e.doStaticBurst()}))"
+  },
+  {
+    "key": "button|Static_Burst|d9c3a114b9ae#1",
+    "original": "Static Burst",
+    "translation": "",
+    "context": "<<POS:10982151>> addDisabledButton(3,\"Static Burst\")"
   },
   {
     "key": "button|Struggle|8b0e82876410",
     "original": "Struggle",
     "translation": "",
-    "context": "<<POS:10982181>>"
+    "context": "<<POS:10982181>> addButton(14,\"Struggle\",(function(){return window.adultCockvineStruggleOverride(pc)}),\"Struggle\",\"Struggle free of the Cockvines crushing grip.\")"
   },
   {
-    "key": "button|Stand_Up|85ab8b2f586b",
+    "key": "button.hover|Struggle|8b0e82876410",
+    "original": "Struggle",
+    "translation": "",
+    "context": "<<POS:10982254>> addButton(14,\"Struggle\",(function(){return window.adultCockvineStruggleOverride(pc)}),\"Struggle\",\"Struggle free of the Cockvines crushing grip.\")"
+  },
+  {
+    "key": "button.tooltip|Struggle_free_of_the_Cockvines_crushing_grip|db12ef31580c",
+    "original": "Struggle free of the Cockvines crushing grip.",
+    "translation": "",
+    "context": "<<POS:10982265>> addButton(14,\"Struggle\",(function(){return window.adultCockvineStruggleOverride(pc)}),\"Struggle\",\"Struggle free of the Cockvines crushing grip.\")"
+  },
+  {
+    "key": "button|Stand_Up|dcdbb9c5afe5",
     "original": "Stand Up",
     "translation": "",
-    "context": "<<POS:10982350>>"
+    "context": "<<POS:10982350>> addButton(14,\"Stand Up\",(function(){return e.standupRound()}),\"Stand Up\",\"Stand up, getting rid of the “Trip” status effect. This will consume your offensive action for this turn.\")"
   },
   {
-    "key": "button|Can_t_Run|b9b7d35e5c73",
+    "key": "button.hover|Stand_Up|dcdbb9c5afe5",
+    "original": "Stand Up",
+    "translation": "",
+    "context": "<<POS:10982399>> addButton(14,\"Stand Up\",(function(){return e.standupRound()}),\"Stand Up\",\"Stand up, getting rid of the “Trip” status effect. This will consume your offensive action for this turn.\")"
+  },
+  {
+    "key": "button.tooltip|Stand_up_getting_rid_of_the_Trip_status_effect_This_will_con|75ec952ab806",
+    "original": "Stand up, getting rid of the “Trip” status effect. This will consume your offensive action for this turn.",
+    "translation": "",
+    "context": "<<POS:10982410>> addButton(14,\"Stand Up\",(function(){return e.standupRound()}),\"Stand Up\",\"Stand up, getting rid of the “Trip” status effect. This will consume your offensive action for this turn.\")"
+  },
+  {
+    "key": "button|Can_t_Run|a5d2a9390199",
     "original": "Can’t Run!",
     "translation": "",
-    "context": "<<POS:10982592>>"
+    "context": "<<POS:10982592>> addDisabledButton(14,\"Can’t Run!\",\"Can’t Run!\",\"<b>You cannot escape from this fight!</b>\")"
   },
   {
-    "key": "button|Run|e3b08d38ae59",
+    "key": "button.hover|b_You_cannot_escape_from_this_fight_b|2edf928a389c",
+    "original": "<b>You cannot escape from this fight!</b>",
+    "translation": "",
+    "context": "<<POS:10982618>> addDisabledButton(14,\"Can’t Run!\",\"Can’t Run!\",\"<b>You cannot escape from this fight!</b>\")"
+  },
+  {
+    "key": "button|Run|ab06aee38413",
     "original": "Run",
     "translation": "",
-    "context": "<<POS:10982762>>"
+    "context": "<<POS:10982762>> addDisabledButton(14,\"Run\",\"Run\",\"You agreed to this, no turning back now.\")"
   },
   {
-    "key": "button|Surrender|3f8ce13a3da1",
+    "key": "button.hover|You_agreed_to_this_no_turning_back_now|7206211a8bbe",
+    "original": "You agreed to this, no turning back now.",
+    "translation": "",
+    "context": "<<POS:10982774>> addDisabledButton(14,\"Run\",\"Run\",\"You agreed to this, no turning back now.\")"
+  },
+  {
+    "key": "button|Surrender|125ba9a676ce",
     "original": "Surrender",
     "translation": "",
-    "context": "<<POS:10982905>>"
+    "context": "<<POS:10982905>> addButton(14,\"Surrender\",window.miloSparringIsCancelled)"
   },
   {
     "key": "button|Run|a63bea292538",
     "original": "Run",
     "translation": "",
-    "context": "<<POS:10983009>>"
+    "context": "<<POS:10983009>> addDisabledButton(14,\"Run\",\"Run\",\"Run? Why would you run? There is an uppity enemy here that needs learning a lesson, dammit! (Prevented by <b>Fearless</b>)\")"
   },
   {
-    "key": "button|Run|2e5813f57d26",
+    "key": "button.hover|Run_Why_would_you_run_There_is_an_uppity_enemy_here_that_needs|2d4fa58d48cc",
+    "original": "Run? Why would you run? There is an uppity enemy here that needs learning a lesson, dammit! (Prevented by <b>Fearless</b>)",
+    "translation": "",
+    "context": "<<POS:10983021>> addDisabledButton(14,\"Run\",\"Run\",\"Run? Why would you run? There is an uppity enemy here that needs learning a lesson, dammit! (Prevented by <b>Fearless</b>)\")"
+  },
+  {
+    "key": "button|Run|87f2e52b8e52",
     "original": "Run",
     "translation": "",
-    "context": "<<POS:10983234>>"
+    "context": "<<POS:10983234>> addDisabledButton(14,\"Run\",\"Run\",\"You can’t possibly bring yourself to run! (Prevented by <b>Signet of Bravery</b> accessory.)\")"
   },
   {
-    "key": "button|Run|2e5813f57d26#1",
+    "key": "button.hover|You_can_t_possibly_bring_yourself_to_run_Prevented_by_b_Signe|26c0b449d0e5",
+    "original": "You can’t possibly bring yourself to run! (Prevented by <b>Signet of Bravery</b> accessory.)",
+    "translation": "",
+    "context": "<<POS:10983246>> addDisabledButton(14,\"Run\",\"Run\",\"You can’t possibly bring yourself to run! (Prevented by <b>Signet of Bravery</b> accessory.)\")"
+  },
+  {
+    "key": "button|Run|40365b2e4df0",
     "original": "Run",
     "translation": "",
-    "context": "<<POS:10983386>>"
+    "context": "<<POS:10983386>> addDisabledButton(14,\"Run\",\"Run\",\"You’re way too drunk to consider running from a fight!\")"
   },
   {
-    "key": "button|Run|2e5813f57d26#2",
+    "key": "button.hover|You_re_way_too_drunk_to_consider_running_from_a_fight|4ad099e00277",
+    "original": "You’re way too drunk to consider running from a fight!",
+    "translation": "",
+    "context": "<<POS:10983398>> addDisabledButton(14,\"Run\",\"Run\",\"You’re way too drunk to consider running from a fight!\")"
+  },
+  {
+    "key": "button|Run|78ff6e90f041",
     "original": "Run",
     "translation": "",
-    "context": "<<POS:10983673>>"
+    "context": "<<POS:10983673>> addButton(0,\"Run\",(function(){return e.runAway()}),\"Run\",\"Attempt to run away from your enemy. Success is greatly dependent on reflexes.\")"
   },
   {
-    "key": "button|Run|2e5813f57d26#3",
+    "key": "button.hover|Run|78ff6e90f041",
     "original": "Run",
     "translation": "",
-    "context": "<<POS:10983813>>"
+    "context": "<<POS:10983712>> addButton(0,\"Run\",(function(){return e.runAway()}),\"Run\",\"Attempt to run away from your enemy. Success is greatly dependent on reflexes.\")"
   },
   {
-    "key": "button|Closer_Look|51db64d76aa7",
+    "key": "button.tooltip|Attempt_to_run_away_from_your_enemy_Success_is_greatly_dependen|2bf8fa9d6099",
+    "original": "Attempt to run away from your enemy. Success is greatly dependent on reflexes.",
+    "translation": "",
+    "context": "<<POS:10983718>> addButton(0,\"Run\",(function(){return e.runAway()}),\"Run\",\"Attempt to run away from your enemy. Success is greatly dependent on reflexes.\")"
+  },
+  {
+    "key": "button|Run|90c48d1e307a",
+    "original": "Run",
+    "translation": "",
+    "context": "<<POS:10983813>> addButton(14,\"Run\",(function(){return e.runAway()}),\"Run\",\"Attempt to run away from your enemy. Success is greatly dependent on reflexes. Immobilizing your enemy before attempting to run will increase the odds of success.\")"
+  },
+  {
+    "key": "button.hover|Run|90c48d1e307a",
+    "original": "Run",
+    "translation": "",
+    "context": "<<POS:10983852>> addButton(14,\"Run\",(function(){return e.runAway()}),\"Run\",\"Attempt to run away from your enemy. Success is greatly dependent on reflexes. Immobilizing your enemy before attempting to run will increase the odds of success.\")"
+  },
+  {
+    "key": "button.tooltip|Attempt_to_run_away_from_your_enemy_Success_is_greatly_dependen|e827d7cb9383",
+    "original": "Attempt to run away from your enemy. Success is greatly dependent on reflexes. Immobilizing your enemy before attempting to run will increase the odds of success.",
+    "translation": "",
+    "context": "<<POS:10983858>> addButton(14,\"Run\",(function(){return e.runAway()}),\"Run\",\"Attempt to run away from your enemy. Success is greatly dependent on reflexes. Immobilizing your enemy before attempting to run will increase the odds of success.\")"
+  },
+  {
+    "key": "button|Closer_Look|7972e34cd9e0",
     "original": "Closer Look",
     "translation": "",
-    "context": "<<POS:10984520>>"
+    "context": "<<POS:10984520>> addDisabledButton(a,\"Closer Look\",\"Closer Look\",\"You are already looking at \".concat(r.nameDisplay(),\".\"))"
   },
   {
-    "key": "button|Back|2eb4d5b8f113",
+    "key": "button.hover|You_are_already_looking_at|cb1515bf695c",
+    "original": "You are already looking at ",
+    "translation": "",
+    "context": "<<POS:10984548>> addDisabledButton(a,\"Closer Look\",\"Closer Look\",\"You are already looking at \".concat(r.nameDisplay(),\".\"))"
+  },
+  {
+    "key": "button.hover|You_are_already_looking_at|375466c1bd0b",
+    "original": "You are already looking at ",
+    "translation": "",
+    "context": "<<POS:10984773>> addDisabledButton(u,n,i,\"You are already looking at \".concat(t.nameDisplay(),\".\"))"
+  },
+  {
+    "key": "button.tooltip|Take_a_closer_look_at|515ae89b927e",
+    "original": "Take a closer look at ",
+    "translation": "",
+    "context": "<<POS:10985010>> addButton(u,n,t.hasPerk(\"Appearance Enabled\")?function(){combatOutput(window.appearanceText(t)),o.combatAppearance(e)}:function(){o.combatLongDisplay(t),o.combatAppearance(e)},i,\"Take a closer look at \".concat(t.nameDisplay(),\".\\n\\nThis does not consume your action for this round.\"))"
+  },
+  {
+    "key": "button|Back|54b06b5b7081",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:10985171>>"
+    "context": "<<POS:10985171>> addButton(14,\"Back\",(function(){return o.generateCombatMenu(!0)}))"
   },
   {
     "key": "combat|And_with_the_gryvain_obviously_chargin_concat_isSillyModeEnabl|b0b4450845a1",
@@ -960,28 +1716,28 @@
     "context": "<<POS:10997469>>"
   },
   {
-    "key": "combat|n_nAttempting_to_flee_in_an_area_full_of_jagged_ground_injures|16bb80f47d93",
-    "original": "\\n\\nAttempting to flee in an area full of jagged ground injures your [pc.legs]!",
+    "key": "combat|Attempting_to_flee_in_an_area_full_of_jagged_ground_injures_your|3eea961dcc88",
+    "original": "Attempting to flee in an area full of jagged ground injures your [pc.legs]!",
     "translation": "",
-    "context": "<<POS:10997975>>"
+    "context": "<<POS:10997979>>"
   },
   {
-    "key": "combat|n_nThe_naleen_s_tail_spasms_allowing_you_to_slip_free_while_th|f43bbe7b3756",
-    "original": "\\n\\nThe naleen’s tail spasms, allowing you to slip free while the alien shakes off your oh-so-crude suggestion.",
+    "key": "combat|The_naleen_s_tail_spasms_allowing_you_to_slip_free_while_the_al|de70aee109c8",
+    "original": "The naleen’s tail spasms, allowing you to slip free while the alien shakes off your oh-so-crude suggestion.",
     "translation": "",
-    "context": "<<POS:10998661>>"
+    "context": "<<POS:10998665>>"
   },
   {
-    "key": "combat|n_nThe_mimbrane_flops_away_but_halfway_through_the_air_it_make|741305a7761d",
-    "original": "\\n\\nThe mimbrane flops away, but halfway through the air it makes to turn around, already shaking off your crude suggestion.",
+    "key": "combat|The_mimbrane_flops_away_but_halfway_through_the_air_it_makes_to|cebfae4a009b",
+    "original": "The mimbrane flops away, but halfway through the air it makes to turn around, already shaking off your crude suggestion.",
     "translation": "",
-    "context": "<<POS:10998872>>"
+    "context": "<<POS:10998876>>"
   },
   {
-    "key": "combat|n_nYour_opponent_backs_off_just_long_enough_for_you_to_get_free|127fc72121cd",
-    "original": "\\n\\nYour opponent backs off just long enough for you to get free, but the suggestion has already faded.",
+    "key": "combat|Your_opponent_backs_off_just_long_enough_for_you_to_get_free_bu|d0dcafdb48ea",
+    "original": "Your opponent backs off just long enough for you to get free, but the suggestion has already faded.",
     "translation": "",
-    "context": "<<POS:10999117>>"
+    "context": "<<POS:10999121>>"
   },
   {
     "key": "combat|foes|f43e1f016129",
@@ -1002,40 +1758,40 @@
     "context": "<<POS:11000953>>"
   },
   {
-    "key": "combat|nThe_naleen_s_tail_spasms_as_you_easily_slip_out_of_its_coils|0ff5ed28bfa6",
-    "original": "\\nThe naleen’s tail spasms as you easily slip out of its coils.",
+    "key": "combat|The_naleen_s_tail_spasms_as_you_easily_slip_out_of_its_coils|1f82d3348a78",
+    "original": "The naleen’s tail spasms as you easily slip out of its coils.",
     "translation": "",
-    "context": "<<POS:11001061>>"
+    "context": "<<POS:11001063>>"
   },
   {
-    "key": "combat|nYou_manage_to_force_your_fingers_under_the_edge_of_the_Mimbran|ba98766d517f",
-    "original": "\\nYou manage to force your fingers under the edge of the Mimbrane smothering you, and easily pluck it off from your face.",
+    "key": "combat|You_manage_to_force_your_fingers_under_the_edge_of_the_Mimbrane|52248fd467dd",
+    "original": "You manage to force your fingers under the edge of the Mimbrane smothering you, and easily pluck it off from your face.",
     "translation": "",
-    "context": "<<POS:11001225>>"
+    "context": "<<POS:11001227>>"
   },
   {
-    "key": "combat|nIt_lurches_backward_and_squeals_disconnecting_the_grappling_l|0af3fb580c69",
-    "original": "\\nIt lurches backward and squeals, disconnecting the grappling line. The magnets deactivate, releasing you from the robot’s grasp.",
+    "key": "combat|It_lurches_backward_and_squeals_disconnecting_the_grappling_lin|204ca34fc99b",
+    "original": "It lurches backward and squeals, disconnecting the grappling line. The magnets deactivate, releasing you from the robot’s grasp.",
     "translation": "",
-    "context": "<<POS:11001742>>"
+    "context": "<<POS:11001744>>"
   },
   {
-    "key": "combat|nDespite_the_two_s_best_efforts_they_re_unable_to_keep_you_res|af4c5b3dff01",
-    "original": "\\nDespite the two’s best efforts, they’re unable to keep you restrained. You break out of their grip and leap away, leaving the two horny sluts to frot uselessly with each-other until they finish and paint themselves white with copious seed. Instead of calming them down, orgasming only seems to drive them crazier as they redouble their focus on you.",
+    "key": "combat|Despite_the_two_s_best_efforts_they_re_unable_to_keep_you_restr|a55b4d664656",
+    "original": "Despite the two’s best efforts, they’re unable to keep you restrained. You break out of their grip and leap away, leaving the two horny sluts to frot uselessly with each-other until they finish and paint themselves white with copious seed. Instead of calming them down, orgasming only seems to drive them crazier as they redouble their focus on you.",
     "translation": "",
-    "context": "<<POS:11001954>>"
+    "context": "<<POS:11001956>>"
   },
   {
-    "key": "combat|nYou_slip_free_of_the_grapple|98dbbe393470",
-    "original": "\\nYou slip free of the grapple.",
+    "key": "combat|You_slip_free_of_the_grapple|c62efcbe1cf0",
+    "original": "You slip free of the grapple.",
     "translation": "",
-    "context": "<<POS:11003451>>"
+    "context": "<<POS:11003453>>"
   },
   {
-    "key": "combat|n_n_i_Aww_why_do_you_have_to_be_that_way_i_she_pouts_wig|f821131ef211",
-    "original": "\\n\\n<i>“Aww, why do you have to be that way?”</i> she pouts, wiggling away from you.",
+    "key": "combat|i_Aww_why_do_you_have_to_be_that_way_i_she_pouts_wigglin|afac5978332a",
+    "original": "<i>“Aww, why do you have to be that way?”</i> she pouts, wiggling away from you.",
     "translation": "",
-    "context": "<<POS:11020298>>"
+    "context": "<<POS:11020302>>"
   },
   {
     "key": "combat|and_determined_you_howl_at_your_loudest_and_strongest_Veins_b|82a7ef587f0c",
@@ -1113,13 +1869,13 @@
     "key": "button|Back|fe613d0e0ba1",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:11045878>>"
+    "context": "<<POS:11045878>> addButton(14,\"Back\",(function(){return e.generateSpecialsMenu()}))"
   },
   {
     "key": "button|Next|6d18801ef4fb",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:11046461>>"
+    "context": "<<POS:11046461>> addButton(0,\"Next\",(function(){return n.generateCombatMenu(!0)}))"
   },
   {
     "key": "combat|b_You_are_no_longer_tripped_b|56f2d22883ca",
@@ -1131,166 +1887,394 @@
     "key": "button|Next|7e3e00a54f9b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:11047944>>"
+    "context": "<<POS:11047944>> addButton(0,\"Next\",(function(){return e.generateCombatMenu(!0)}))"
   },
   {
-    "key": "button|Auto|d4d512e194d1",
+    "key": "button.hover|Already_targeting|67d844607fd7",
+    "original": "Already targeting ",
+    "translation": "",
+    "context": "<<POS:11049216>> addDisabledButton(a,e.hostiles[o].buttonText,k.m.toDisplayCase(e.hostiles[o].getCombatName()),\"Already targeting \"+e.hostiles[o].getCombatName()+\".\")"
+  },
+  {
+    "key": "button.tooltip|Target|ba22cd5b56af",
+    "original": "Target ",
+    "translation": "",
+    "context": "<<POS:11049423>> addButton(a,e.hostiles[o].buttonText,(function(){return e.selectDroneTargetSpecial(t,e.hostiles[o])}),k.m.toDisplayCase(e.hostiles[o].getCombatName()),\"Target \"+e.hostiles[o].getCombatName()+\".\")"
+  },
+  {
+    "key": "button|Auto|c5991181cd87",
     "original": "Auto",
     "translation": "",
-    "context": "<<POS:11049567>>"
+    "context": "<<POS:11049567>> addButton(12,\"Auto\",(function(){return e.selectDroneTargetAuto(t)}),\"Automatic\",\"Automatically select the best target.\")"
   },
   {
-    "key": "button|Auto|410ff6f5bb06",
+    "key": "button.hover|Automatic|b09c031b7db2",
+    "original": "Automatic",
+    "translation": "",
+    "context": "<<POS:11049622>> addButton(12,\"Auto\",(function(){return e.selectDroneTargetAuto(t)}),\"Automatic\",\"Automatically select the best target.\")"
+  },
+  {
+    "key": "button.tooltip|Automatically_select_the_best_target|7b8591982df2",
+    "original": "Automatically select the best target.",
+    "translation": "",
+    "context": "<<POS:11049634>> addButton(12,\"Auto\",(function(){return e.selectDroneTargetAuto(t)}),\"Automatic\",\"Automatically select the best target.\")"
+  },
+  {
+    "key": "button|Auto|e82d9bb64449",
     "original": "Auto",
     "translation": "",
-    "context": "<<POS:11049696>>"
+    "context": "<<POS:11049696>> addDisabledButton(12,\"Auto\",\"Automatic\",\"Targeting is set to automatic.\")"
   },
   {
-    "key": "button|None|7e2b5b8bbe56",
+    "key": "button.hover|Targeting_is_set_to_automatic|f0574d3a5235",
+    "original": "Targeting is set to automatic.",
+    "translation": "",
+    "context": "<<POS:11049715>> addDisabledButton(12,\"Auto\",\"Automatic\",\"Targeting is set to automatic.\")"
+  },
+  {
+    "key": "button|None|192b97010bd7",
     "original": "None",
     "translation": "",
-    "context": "<<POS:11049826>>"
+    "context": "<<POS:11049826>> addDisabledButton(13,\"None\",\"No Target\",\"Currently not targeting anything.\")"
   },
   {
-    "key": "button|None|8f18ae9d93da",
+    "key": "button.hover|Currently_not_targeting_anything|de803af08b74",
+    "original": "Currently not targeting anything.",
+    "translation": "",
+    "context": "<<POS:11049845>> addDisabledButton(13,\"None\",\"No Target\",\"Currently not targeting anything.\")"
+  },
+  {
+    "key": "button|None|e6d2f233d6a2",
     "original": "None",
     "translation": "",
-    "context": "<<POS:11049895>>"
+    "context": "<<POS:11049895>> addButton(13,\"None\",(function(){return e.selectDroneTargetSpecial(t,null)}),\"No Target\",\"Don’t target anything.\")"
   },
   {
-    "key": "button|Target|9104692e605a",
+    "key": "button.hover|No_Target|ffbe694ae37a",
+    "original": "No Target",
+    "translation": "",
+    "context": "<<POS:11049958>> addButton(13,\"None\",(function(){return e.selectDroneTargetSpecial(t,null)}),\"No Target\",\"Don’t target anything.\")"
+  },
+  {
+    "key": "button.tooltip|Don_t_target_anything|e2c142d352c3",
+    "original": "Don’t target anything.",
+    "translation": "",
+    "context": "<<POS:11049970>> addButton(13,\"None\",(function(){return e.selectDroneTargetSpecial(t,null)}),\"No Target\",\"Don’t target anything.\")"
+  },
+  {
+    "key": "button|Target|d5cdc3ff003d",
     "original": "Target",
     "translation": "",
-    "context": "<<POS:11050057>>"
+    "context": "<<POS:11050057>> addButton(0,\"Target\",(function(){return e.selectDroneTargetAuto(t)}),\"Target\",\"Target the enemy.\")"
   },
   {
-    "key": "button|Target|f8207dbb6817",
+    "key": "button.hover|Target|d5cdc3ff003d",
     "original": "Target",
     "translation": "",
-    "context": "<<POS:11050164>>"
+    "context": "<<POS:11050114>> addButton(0,\"Target\",(function(){return e.selectDroneTargetAuto(t)}),\"Target\",\"Target the enemy.\")"
   },
   {
-    "key": "button|Withdraw|7fc9913fc732",
+    "key": "button.tooltip|Target_the_enemy|eb1ac3fad6d9",
+    "original": "Target the enemy.",
+    "translation": "",
+    "context": "<<POS:11050123>> addButton(0,\"Target\",(function(){return e.selectDroneTargetAuto(t)}),\"Target\",\"Target the enemy.\")"
+  },
+  {
+    "key": "button|Target|aa36914f0960",
+    "original": "Target",
+    "translation": "",
+    "context": "<<POS:11050164>> addDisabledButton(0,\"Target\",\"Target\",\"Currently targeting enemy.\")"
+  },
+  {
+    "key": "button.hover|Currently_targeting_enemy|5d798dffbadc",
+    "original": "Currently targeting enemy.",
+    "translation": "",
+    "context": "<<POS:11050182>> addDisabledButton(0,\"Target\",\"Target\",\"Currently targeting enemy.\")"
+  },
+  {
+    "key": "button|Withdraw|83815e7b965f",
     "original": "Withdraw",
     "translation": "",
-    "context": "<<POS:11050288>>"
+    "context": "<<POS:11050288>> addDisabledButton(1,\"Withdraw\",\"No Target\",\"Currently not targeting enemy.\")"
   },
   {
-    "key": "button|Withdraw|356834947687",
+    "key": "button.hover|Currently_not_targeting_enemy|f925be1f6f15",
+    "original": "Currently not targeting enemy.",
+    "translation": "",
+    "context": "<<POS:11050311>> addDisabledButton(1,\"Withdraw\",\"No Target\",\"Currently not targeting enemy.\")"
+  },
+  {
+    "key": "button|Withdraw|8c22f128a33a",
     "original": "Withdraw",
     "translation": "",
-    "context": "<<POS:11050357>>"
+    "context": "<<POS:11050357>> addButton(1,\"Withdraw\",(function(){return e.selectDroneTargetSpecial(t,null)}),\"No Target\",\"Don’t target enemy.\")"
   },
   {
-    "key": "button|Attack|a1e0a54eb81d",
+    "key": "button.hover|No_Target|f50b8a4dc569",
+    "original": "No Target",
+    "translation": "",
+    "context": "<<POS:11050424>> addButton(1,\"Withdraw\",(function(){return e.selectDroneTargetSpecial(t,null)}),\"No Target\",\"Don’t target enemy.\")"
+  },
+  {
+    "key": "button.tooltip|Don_t_target_enemy|5004b0837c46",
+    "original": "Don’t target enemy.",
+    "translation": "",
+    "context": "<<POS:11050436>> addButton(1,\"Withdraw\",(function(){return e.selectDroneTargetSpecial(t,null)}),\"No Target\",\"Don’t target enemy.\")"
+  },
+  {
+    "key": "button|Attack|314905b3722a",
     "original": "Attack:",
     "translation": "",
-    "context": "<<POS:11050747>>"
+    "context": "<<POS:11050747>> addButton(e,\"Attack:\".concat(a.short),(function(){pc.hasStatusEffect(\"Drone HP Attack\")||pc.hasStatusEffect(\"Drone Lust Attack\")?pc.hasStatusEffect(\"Drone Lust Attack\")||pc.droneTarget.isLustImmune?(pc.removeStatusEffect(\"Drone HP Attack\"),pc.removeStatusEffect(\"Drone Lust Attack\")):(pc.createStatus..."
   },
   {
-    "key": "button|Attack|9c28c04f88ca",
+    "key": "button.hover|Attack_Type|dd7732ca108b",
+    "original": "Attack Type: ",
+    "translation": "",
+    "context": "<<POS:11051383>> addButton(e,\"Attack:\".concat(a.short),(function(){pc.hasStatusEffect(\"Drone HP Attack\")||pc.hasStatusEffect(\"Drone Lust Attack\")?pc.hasStatusEffect(\"Drone Lust Attack\")||pc.droneTarget.isLustImmune?(pc.removeStatusEffect(\"Drone HP Attack\"),pc.removeStatusEffect(\"Drone Lust Attack\")):(pc.createStatus..."
+  },
+  {
+    "key": "button.tooltip|Toggle_the_attack_type|bcfe9393dc3e",
+    "original": "Toggle the attack type.",
+    "translation": "",
+    "context": "<<POS:11051414>> addButton(e,\"Attack:\".concat(a.short),(function(){pc.hasStatusEffect(\"Drone HP Attack\")||pc.hasStatusEffect(\"Drone Lust Attack\")?pc.hasStatusEffect(\"Drone Lust Attack\")||pc.droneTarget.isLustImmune?(pc.removeStatusEffect(\"Drone HP Attack\"),pc.removeStatusEffect(\"Drone Lust Attack\")):(pc.createStatus..."
+  },
+  {
+    "key": "button|Attack|baada91015e3",
     "original": "Attack:",
     "translation": "",
-    "context": "<<POS:11051462>>"
+    "context": "<<POS:11051462>> addDisabledButton(e,\"Attack:\".concat(a.short),\"Attack Type: \".concat(a.long),\"Toggle the attack type.\\n\\n<b>Need a valid drone target first.</b>\")"
   },
   {
-    "key": "button|Back|4baaa1132af9",
+    "key": "button.hover|Toggle_the_attack_type_n_n_b_Need_a_valid_drone_target_first|7a1ce5a662c1",
+    "original": "Toggle the attack type.\\n\\n<b>Need a valid drone target first.</b>",
+    "translation": "",
+    "context": "<<POS:11051519>> addDisabledButton(e,\"Attack:\".concat(a.short),\"Attack Type: \".concat(a.long),\"Toggle the attack type.\\n\\n<b>Need a valid drone target first.</b>\")"
+  },
+  {
+    "key": "button|Back|4826aeee703f",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:11051603>>"
+    "context": "<<POS:11051603>> addButton(14,\"Back\",(function(){return e.generateSpecialsMenu()}))"
   },
   {
-    "key": "button|Auto|83d5ce941388",
+    "key": "button.hover|Already_targeting|4e2432d246db",
+    "original": "Already targeting ",
+    "translation": "",
+    "context": "<<POS:11054423>> addDisabledButton(n,e.hostiles[a].buttonText,k.m.toDisplayCase(e.hostiles[a].getCombatName()),\"Already targeting \".concat(e.hostiles[a].getCombatName(),\".\"))"
+  },
+  {
+    "key": "button.tooltip|Target|ba22cd5b56af#1",
+    "original": "Target ",
+    "translation": "",
+    "context": "<<POS:11054639>> addButton(n,e.hostiles[a].buttonText,(function(){return e.selectTurretTargetSpecial(t,e.hostiles[a])}),k.m.toDisplayCase(e.hostiles[a].getCombatName()),\"Target \".concat(e.hostiles[a].getCombatName(),\".\"))"
+  },
+  {
+    "key": "button|Auto|c5991181cd87#1",
     "original": "Auto",
     "translation": "",
-    "context": "<<POS:11054782>>"
+    "context": "<<POS:11054782>> addDisabledButton(12,\"Auto\",\"Automatic\",\"Targeting is set to automatic.\")"
   },
   {
-    "key": "button|Auto|410ff6f5bb06#1",
+    "key": "button.hover|Targeting_is_set_to_automatic|6afaac4f9bed",
+    "original": "Targeting is set to automatic.",
+    "translation": "",
+    "context": "<<POS:11054801>> addDisabledButton(12,\"Auto\",\"Automatic\",\"Targeting is set to automatic.\")"
+  },
+  {
+    "key": "button|Auto|2a7f45a6e198",
     "original": "Auto",
     "translation": "",
-    "context": "<<POS:11054848>>"
+    "context": "<<POS:11054848>> addButton(12,\"Auto\",(function(){return e.selectTurretTargetAuto(t)}),\"Automatic\",\"Automatically select the best target.\")"
   },
   {
-    "key": "button|None|7e2b5b8bbe56#1",
+    "key": "button.hover|Automatic|b65b2cf326d6",
+    "original": "Automatic",
+    "translation": "",
+    "context": "<<POS:11054904>> addButton(12,\"Auto\",(function(){return e.selectTurretTargetAuto(t)}),\"Automatic\",\"Automatically select the best target.\")"
+  },
+  {
+    "key": "button.tooltip|Automatically_select_the_best_target|e45ec2dd7d81",
+    "original": "Automatically select the best target.",
+    "translation": "",
+    "context": "<<POS:11054916>> addButton(12,\"Auto\",(function(){return e.selectTurretTargetAuto(t)}),\"Automatic\",\"Automatically select the best target.\")"
+  },
+  {
+    "key": "button|None|eef151632522",
     "original": "None",
     "translation": "",
-    "context": "<<POS:11055001>>"
+    "context": "<<POS:11055001>> addDisabledButton(13,\"None\",\"No Target\",\"Currently not targeting anything.\")"
   },
   {
-    "key": "button|None|8f18ae9d93da#1",
+    "key": "button.hover|Currently_not_targeting_anything|f618803b92c8",
+    "original": "Currently not targeting anything.",
+    "translation": "",
+    "context": "<<POS:11055020>> addDisabledButton(13,\"None\",\"No Target\",\"Currently not targeting anything.\")"
+  },
+  {
+    "key": "button|None|e6d2f233d6a2#1",
     "original": "None",
     "translation": "",
-    "context": "<<POS:11055070>>"
+    "context": "<<POS:11055070>> addButton(13,\"None\",(function(){return e.selectTurretTargetSpecial(t,\"none\")}),\"No Target\",\"Don’t target anything.\")"
   },
   {
-    "key": "button|Target|9104692e605a#1",
+    "key": "button.hover|No_Target|ffbe694ae37a#1",
+    "original": "No Target",
+    "translation": "",
+    "context": "<<POS:11055136>> addButton(13,\"None\",(function(){return e.selectTurretTargetSpecial(t,\"none\")}),\"No Target\",\"Don’t target anything.\")"
+  },
+  {
+    "key": "button.tooltip|Don_t_target_anything|e2c142d352c3#1",
+    "original": "Don’t target anything.",
+    "translation": "",
+    "context": "<<POS:11055148>> addButton(13,\"None\",(function(){return e.selectTurretTargetSpecial(t,\"none\")}),\"No Target\",\"Don’t target anything.\")"
+  },
+  {
+    "key": "button|Target|d5cdc3ff003d#1",
     "original": "Target",
     "translation": "",
-    "context": "<<POS:11055226>>"
+    "context": "<<POS:11055226>> addDisabledButton(0,\"Target\",\"Target\",\"Currently targeting enemy.\")"
   },
   {
-    "key": "button|Target|f8207dbb6817#1",
+    "key": "button.hover|Currently_targeting_enemy|26868759260a",
+    "original": "Currently targeting enemy.",
+    "translation": "",
+    "context": "<<POS:11055244>> addDisabledButton(0,\"Target\",\"Target\",\"Currently targeting enemy.\")"
+  },
+  {
+    "key": "button|Target|7e20aaeb8014",
     "original": "Target",
     "translation": "",
-    "context": "<<POS:11055286>>"
+    "context": "<<POS:11055286>> addButton(0,\"Target\",(function(){return e.selectTurretTargetAuto(t)}),\"Target\",\"Target the enemy.\")"
   },
   {
-    "key": "button|Withdraw|7fc9913fc732#1",
+    "key": "button.hover|Target|7e20aaeb8014",
+    "original": "Target",
+    "translation": "",
+    "context": "<<POS:11055344>> addButton(0,\"Target\",(function(){return e.selectTurretTargetAuto(t)}),\"Target\",\"Target the enemy.\")"
+  },
+  {
+    "key": "button.tooltip|Target_the_enemy|e91fef3c7ff1",
+    "original": "Target the enemy.",
+    "translation": "",
+    "context": "<<POS:11055353>> addButton(0,\"Target\",(function(){return e.selectTurretTargetAuto(t)}),\"Target\",\"Target the enemy.\")"
+  },
+  {
+    "key": "button|Withdraw|fdfcc4367383",
     "original": "Withdraw",
     "translation": "",
-    "context": "<<POS:11055417>>"
+    "context": "<<POS:11055417>> addDisabledButton(1,\"Withdraw\",\"No Target\",\"Currently not targeting enemy.\")"
   },
   {
-    "key": "button|Withdraw|356834947687#1",
+    "key": "button.hover|Currently_not_targeting_enemy|c48f7220698a",
+    "original": "Currently not targeting enemy.",
+    "translation": "",
+    "context": "<<POS:11055440>> addDisabledButton(1,\"Withdraw\",\"No Target\",\"Currently not targeting enemy.\")"
+  },
+  {
+    "key": "button|Withdraw|8c22f128a33a#1",
     "original": "Withdraw",
     "translation": "",
-    "context": "<<POS:11055486>>"
+    "context": "<<POS:11055486>> addButton(1,\"Withdraw\",(function(){return e.selectTurretTargetSpecial(t,\"none\")}),\"No Target\",\"Don’t target enemy.\")"
   },
   {
-    "key": "button|Attack|a1e0a54eb81d#1",
+    "key": "button.hover|No_Target|f50b8a4dc569#1",
+    "original": "No Target",
+    "translation": "",
+    "context": "<<POS:11055556>> addButton(1,\"Withdraw\",(function(){return e.selectTurretTargetSpecial(t,\"none\")}),\"No Target\",\"Don’t target enemy.\")"
+  },
+  {
+    "key": "button.tooltip|Don_t_target_enemy|5004b0837c46#1",
+    "original": "Don’t target enemy.",
+    "translation": "",
+    "context": "<<POS:11055568>> addButton(1,\"Withdraw\",(function(){return e.selectTurretTargetSpecial(t,\"none\")}),\"No Target\",\"Don’t target enemy.\")"
+  },
+  {
+    "key": "button|Attack|314905b3722a#1",
     "original": "Attack:",
     "translation": "",
-    "context": "<<POS:11055828>>"
+    "context": "<<POS:11055828>> addDisabledButton(e,\"Attack:\".concat(n.short),\"Attack Type: \".concat(n.long),\"Toggle the attack type.\\n\\n<b>Need a valid turret target first.</b>\")"
   },
   {
-    "key": "button|Attack|9c28c04f88ca#1",
+    "key": "button.hover|Toggle_the_attack_type_n_n_b_Need_a_valid_turret_target_first|576a5cadfbb6",
+    "original": "Toggle the attack type.\\n\\n<b>Need a valid turret target first.</b>",
+    "translation": "",
+    "context": "<<POS:11055885>> addDisabledButton(e,\"Attack:\".concat(n.short),\"Attack Type: \".concat(n.long),\"Toggle the attack type.\\n\\n<b>Need a valid turret target first.</b>\")"
+  },
+  {
+    "key": "button|Attack|d09153b70e51",
     "original": "Attack:",
     "translation": "",
-    "context": "<<POS:11056089>>"
+    "context": "<<POS:11056089>> addButton(e,\"Attack:\".concat(n.short),(function(){o.attackMode===t.CANNON?o.attackMode=t.MINIGUN:(o.attackMode,o.attackMode=t.CANNON),r(e)}),\"Attack Type: \".concat(n.long),\"Toggle the attack type.\")"
   },
   {
-    "key": "button|Back|4baaa1132af9#1",
+    "key": "button.hover|Attack_Type|d1575e7caa7d",
+    "original": "Attack Type: ",
+    "translation": "",
+    "context": "<<POS:11056218>> addButton(e,\"Attack:\".concat(n.short),(function(){o.attackMode===t.CANNON?o.attackMode=t.MINIGUN:(o.attackMode,o.attackMode=t.CANNON),r(e)}),\"Attack Type: \".concat(n.long),\"Toggle the attack type.\")"
+  },
+  {
+    "key": "button.tooltip|Toggle_the_attack_type|4201af1ddb97",
+    "original": "Toggle the attack type.",
+    "translation": "",
+    "context": "<<POS:11056249>> addButton(e,\"Attack:\".concat(n.short),(function(){o.attackMode===t.CANNON?o.attackMode=t.MINIGUN:(o.attackMode,o.attackMode=t.CANNON),r(e)}),\"Attack Type: \".concat(n.long),\"Toggle the attack type.\")"
+  },
+  {
+    "key": "button|Back|ce9a8c0743c8",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:11056291>>"
+    "context": "<<POS:11056291>> addButton(14,\"Back\",(function(){return e.generateSpecialsMenu()}))"
+  },
+  {
+    "key": "button.tooltip|Use_b|12eac0695bf4",
+    "original": "Use <b>",
+    "translation": "",
+    "context": "<<POS:11057602>> addButton(o,a.buttonText,(function(){return t.executeAttack({attack:e,tar:a})}),k.m.toDisplayCase(\"target \".concat(\"PlayerCharacter\"===a.getClassName()?\"yourself\":a.getCombatName())),\"Use <b>\".concat(e.TooltipTitle,\"</b> on \").concat(\"PlayerCharacter\"===a.getClassName()?\"yourself\":a.nameDisplay(),\"...."
+  },
+  {
+    "key": "button|Back|25b3575c5a58",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:11057777>> addButton(14,\"Back\",(function(){return t.generateCombatMenu(!0)}))"
+  },
+  {
+    "key": "button.tooltip|Use_action_on|43ef2438cb11",
+    "original": "Use action on ",
+    "translation": "",
+    "context": "<<POS:11059042>> addButton(o,n.buttonText,function(e,o){return function(){e.tar=o,t.executeSimpleAttack(e)}}(e,n),k.m.toDisplayCase(\"target \".concat(\"PlayerCharacter\"===n.getClassName()?\"yourself\":n.getCombatName())),\"Use action on \".concat(\"PlayerCharacter\"===n.getClassName()?\"yourself\":n.nameDisplay(),\".\"))"
+  },
+  {
+    "key": "button|Back|3e311fd8f355",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:11059153>> addButton(14,\"Back\",(function(){return t.generateCombatMenu(!0)}))"
   },
   {
     "key": "button|Back|8377b4609270",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:11057777>>"
+    "context": "<<POS:11060211>> addButton(14,\"Back\",(function(){return a.showCombatMenu(!1,!1)}))"
   },
   {
     "key": "button|Back|8377b4609270#1",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:11059153>>"
+    "context": "<<POS:11064763>> addButton(14,\"Back\",(function(){return a.showCombatMenu(!1,!1)}),\"Back\",\"Back out. Remember that “Sense” can be used to determine a foes likes and dislikes!\")"
   },
   {
-    "key": "button|Back|8377b4609270#2",
+    "key": "button.hover|Back|8377b4609270",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:11060211>>"
+    "context": "<<POS:11064815>> addButton(14,\"Back\",(function(){return a.showCombatMenu(!1,!1)}),\"Back\",\"Back out. Remember that “Sense” can be used to determine a foes likes and dislikes!\")"
   },
   {
-    "key": "button|Back|8377b4609270#3",
-    "original": "Back",
+    "key": "button.tooltip|Back_out_Remember_that_Sense_can_be_used_to_determine_a_foes|11bca009e1e0",
+    "original": "Back out. Remember that “Sense” can be used to determine a foes likes and dislikes!",
     "translation": "",
-    "context": "<<POS:11064763>>"
+    "context": "<<POS:11064822>> addButton(14,\"Back\",(function(){return a.showCombatMenu(!1,!1)}),\"Back\",\"Back out. Remember that “Sense” can be used to determine a foes likes and dislikes!\")"
   },
   {
-    "key": "combat|compressToList_a|2aa1c16e9056",
+    "key": "combat|compressToList_a|99ffd8c80901",
     "original": "compressToList(a)+\".",
     "translation": "",
     "context": "<<POS:11074607>>"
@@ -1602,10 +2586,10 @@
     "context": "<<POS:11090150>>"
   },
   {
-    "key": "combat|n_nGrabbing_both_of_your_exposed_melons_you_jiggle_them_causi|f92f98b433d0",
-    "original": "\\n\\nGrabbing both of your exposed melons, you jiggle them, causing a hypnotizing earthquake of mammary delight while taking care to pinch your nipples. The stimulation is just enough to get you started. Your [pc.milk] flows out as you begin to rub it into your [pc.skinFurScales], the [pc.milkColor] liquid soaking into your [pc.chest]. It takes you a tremendous effort to stop yourself and cover your jugs up again. Licking your fingers clean with an <i>“Mmmmm...”</i> for show, you ready yourself, noting that you’ll have to clean up a little later.",
+    "key": "combat|Grabbing_both_of_your_exposed_melons_you_jiggle_them_causing_a|2f3d329b4ca0",
+    "original": "Grabbing both of your exposed melons, you jiggle them, causing a hypnotizing earthquake of mammary delight while taking care to pinch your nipples. The stimulation is just enough to get you started. Your [pc.milk] flows out as you begin to rub it into your [pc.skinFurScales], the [pc.milkColor] liquid soaking into your [pc.chest]. It takes you a tremendous effort to stop yourself and cover your jugs up again. Licking your fingers clean with an <i>“Mmmmm...”</i> for show, you ready yourself, noting that you’ll have to clean up a little later.",
     "translation": "",
-    "context": "<<POS:11091768>>"
+    "context": "<<POS:11091772>>"
   },
   {
     "key": "combat|There_s_just_so_much_breastflesh_there_it_feels_good_to_use_it|34165090a7e1",
@@ -1614,10 +2598,10 @@
     "context": "<<POS:11093960>>"
   },
   {
-    "key": "combat|n_n_i_Ooh_sorry_were_you_wanting_to_see_these_i_You_make|e9fb301ba8e2",
-    "original": "\\n\\n<i>“Ooh, sorry, were you wanting to see these?”</i> You make small circles with your tailtips, allowing your target glimpses of [pc.nippleColor] peeking out around the edges but nothing more. <i>“You could give up and maybe I’ll reward you with a real show.”</i> You pull your tails away just as your [pc.upperGarments] close back over your chest, giving another wink as you cover up.",
+    "key": "combat|i_Ooh_sorry_were_you_wanting_to_see_these_i_You_make_sma|9e2f31da11ff",
+    "original": "<i>“Ooh, sorry, were you wanting to see these?”</i> You make small circles with your tailtips, allowing your target glimpses of [pc.nippleColor] peeking out around the edges but nothing more. <i>“You could give up and maybe I’ll reward you with a real show.”</i> You pull your tails away just as your [pc.upperGarments] close back over your chest, giving another wink as you cover up.",
     "translation": "",
-    "context": "<<POS:11096479>>"
+    "context": "<<POS:11096483>>"
   },
   {
     "key": "combat|flex_your_arms_showing_off_the_bulging_biceps_After_a_bit_of|52186853c9d3",
@@ -1740,10 +2724,10 @@
     "context": "<<POS:11108319>>"
   },
   {
-    "key": "combat|n_nFinally_you_stop_and_take_a_moment_to_wipe_the_sweat_off_you|6d7790309910",
-    "original": "\\n\\nFinally you stop and take a moment to wipe the sweat off your brow",
+    "key": "combat|Finally_you_stop_and_take_a_moment_to_wipe_the_sweat_off_your_br|4fb67f46e048",
+    "original": "Finally you stop and take a moment to wipe the sweat off your brow",
     "translation": "",
-    "context": "<<POS:11108407>>"
+    "context": "<<POS:11108411>>"
   },
   {
     "key": "combat|before_putting_your_pc_armor_back_on|489ed6a1f2e6",
@@ -2358,10 +3342,10 @@
     "context": "<<POS:11135228>>"
   },
   {
-    "key": "combat|n_nYou_p_allow_your_fingers_to_rub_up_and_down_across_fle|ddbafff5723e",
-    "original": "\\n\\nYou \"+(p?\"allow your fingers to rub up and down across\":\"flex your kegel muscles to accentuate\")+\" your folds, showcasing it for your foe. <i>“I’ve gotta say, I’m really loving having a honeypot like this... maybe I’ll give you a taste, if you’re a good\"+e.mfn(\" boy\",\" girl\",\"... thing\")+\".”</i>",
+    "key": "combat|You_p_allow_your_fingers_to_rub_up_and_down_across_flex_yo|37b453e01769",
+    "original": "You \"+(p?\"allow your fingers to rub up and down across\":\"flex your kegel muscles to accentuate\")+\" your folds, showcasing it for your foe. <i>“I’ve gotta say, I’m really loving having a honeypot like this... maybe I’ll give you a taste, if you’re a good\"+e.mfn(\" boy\",\" girl\",\"... thing\")+\".”</i>",
     "translation": "",
-    "context": "<<POS:11135275>>"
+    "context": "<<POS:11135279>>"
   },
   {
     "key": "combat|You_adjust_your_thighs_back_to_their_normal_stance|a89130ae6da3",
@@ -2502,25 +3486,19 @@
     "context": "<<POS:11141016>>"
   },
   {
-    "key": "combat|n_b_Unfortunately_you_can_t_see_the_enemy_clearly_enough_for_i|c826de7efa96",
-    "original": "\\n<b>Unfortunately, you can’t see the enemy clearly enough for it to work!</b>",
+    "key": "combat|b_Unfortunately_you_can_t_see_the_enemy_clearly_enough_for_it|07e6ed4ce8fa",
+    "original": "<b>Unfortunately, you can’t see the enemy clearly enough for it to work!</b>",
     "translation": "",
-    "context": "<<POS:11146284>>"
+    "context": "<<POS:11146286>>"
   },
   {
-    "key": "combat|nYou_don_t_think_sexuality_can_win_this_fight|6b82157eee6f",
-    "original": "\\nYou don’t think sexuality can win this fight!",
+    "key": "combat|You_don_t_think_sexuality_can_win_this_fight|8002f8d8c05f",
+    "original": "You don’t think sexuality can win this fight!",
     "translation": "",
-    "context": "<<POS:11146725>>"
+    "context": "<<POS:11146727>>"
   },
   {
-    "key": "combat|n|98261bf0b119",
-    "original": "\\n",
-    "translation": "",
-    "context": "<<POS:11146911>>"
-  },
-  {
-    "key": "combat|o_Really_likes|b250bed78b33",
+    "key": "combat|o_Really_likes|ed9368b684c0",
     "original": "o+\": Really likes!",
     "translation": "",
     "context": "<<POS:11147006>>"
@@ -2556,13 +3534,13 @@
     "context": "<<POS:11147305>>"
   },
   {
-    "key": "combat|n_n_b_u_Lust_Resistances_u_b|01821664be0e",
-    "original": "\\n\\n<b><u>Lust Resistances</u></b>",
+    "key": "combat|b_u_Lust_Resistances_u_b|705f21074e18",
+    "original": "<b><u>Lust Resistances</u></b>",
     "translation": "",
-    "context": "<<POS:11147347>>"
+    "context": "<<POS:11147351>>"
   },
   {
-    "key": "combat|k_m_startList|3e40e586b8d5",
+    "key": "combat|k_m_startList|21601a6b9183",
     "original": "k.m.startList()",
     "translation": "",
     "context": "<<POS:11147397>>"
@@ -2580,31 +3558,31 @@
     "context": "<<POS:11147817>>"
   },
   {
-    "key": "combat|nWhilst_your_teases_have_some_effect_on_synthetics_designed_for|070a4e06caef",
-    "original": "\\nWhilst your teases have some effect on synthetics designed for sex, you sense there is no point whatsoever trying it on with what amounts to a bipedal forklift truck.",
+    "key": "combat|Whilst_your_teases_have_some_effect_on_synthetics_designed_for_s|6182d0077939",
+    "original": "Whilst your teases have some effect on synthetics designed for sex, you sense there is no point whatsoever trying it on with what amounts to a bipedal forklift truck.",
     "translation": "",
-    "context": "<<POS:11147877>>"
+    "context": "<<POS:11147879>>"
   },
   {
-    "key": "combat|nIt_seems_t_getCombatPronoun_pa_sexual_preferences_do_no|44b762fbd325",
-    "original": "\\nIt seems \"+t.getCombatPronoun(\"pa\")+\" sexual preferences do not sway strongly in one way or another...",
+    "key": "combat|It_seems_t_getCombatPronoun_pa_sexual_preferences_do_not|1840e13c113e",
+    "original": "It seems \"+t.getCombatPronoun(\"pa\")+\" sexual preferences do not sway strongly in one way or another...",
     "translation": "",
-    "context": "<<POS:11148085>>"
+    "context": "<<POS:11148087>>"
   },
   {
-    "key": "combat|n_nCasting_a_glance_over_k_m_possessive_t_getCombatName|73595991ea4d",
-    "original": "\\n\\nCasting a glance over \"+k.m.possessive(t.getCombatName())+\" equipment, you try and get some measure of \"+t.getCombatPronoun(\"pa\")+\" combat prowess.",
+    "key": "combat|Casting_a_glance_over_k_m_possessive_t_getCombatName_equi|d1ddda9269e9",
+    "original": "Casting a glance over \"+k.m.possessive(t.getCombatName())+\" equipment, you try and get some measure of \"+t.getCombatPronoun(\"pa\")+\" combat prowess.",
     "translation": "",
-    "context": "<<POS:11148268>>"
+    "context": "<<POS:11148272>>"
   },
   {
-    "key": "combat|n_n_b_u_Damage_Resistances_u_b|8263ef0d0d5e",
-    "original": "\\n\\n<b><u>Damage Resistances</u></b>",
+    "key": "combat|b_u_Damage_Resistances_u_b|6e3aae3d462b",
+    "original": "<b><u>Damage Resistances</u></b>",
     "translation": "",
-    "context": "<<POS:11148436>>"
+    "context": "<<POS:11148440>>"
   },
   {
-    "key": "combat|k_m_startList|09ee49d8df7d",
+    "key": "combat|k_m_startList|666c57a2ad29",
     "original": "k.m.startList()",
     "translation": "",
     "context": "<<POS:11148488>>"
@@ -2634,16 +3612,16 @@
     "context": "<<POS:11149743>>"
   },
   {
-    "key": "combat|n_nAdditionally_remember_that_you_should_have_at_least_one_cla|8e6cce4640cc",
-    "original": "\\n\\nAdditionally, remember that you should have at least one class ability to use as well as tease attacks. Several melee weapons are also available in Esbeth can be purchased for a reasonable amount of money - if you’d like a little extra punch.)",
+    "key": "combat|Additionally_remember_that_you_should_have_at_least_one_class_a|1b41aff3f252",
+    "original": "Additionally, remember that you should have at least one class ability to use as well as tease attacks. Several melee weapons are also available in Esbeth can be purchased for a reasonable amount of money - if you’d like a little extra punch.)",
     "translation": "",
-    "context": "<<POS:11150128>>"
+    "context": "<<POS:11150132>>"
   },
   {
     "key": "button|Next|3951a2a48fb6",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:11150403>>"
+    "context": "<<POS:11150403>> addButton(0,\"Next\",(function(){return e.postCombatReturnToMenu()}))"
   },
   {
     "key": "combat|Are_you_having_difficulty_winning_fights_If_so_select_yes_for|15919aa7ff30",
@@ -2655,13 +3633,13 @@
     "key": "button|Boost_Me|137eb8633335",
     "original": "Boost Me",
     "translation": "",
-    "context": "<<POS:11150723>>"
+    "context": "<<POS:11150723>> addButton(0,\"Boost Me\",(function(){return e.boostMeCaptain()}))"
   },
   {
     "key": "button|No|2b28fb18cb0a",
     "original": "No",
     "translation": "",
-    "context": "<<POS:11150787>>"
+    "context": "<<POS:11150787>> addButton(1,\"No\",(function(){return e.postCombatReturnToMenu()}))"
   },
   {
     "key": "combat|Electricity_arcs_all_over_PlayerCharacter_e_getClassName|f4f37cf90057",
@@ -2676,9 +3654,9 @@
     "context": "<<POS:11154239>>"
   },
   {
-    "key": "combat|n_b_PlayerCharacter_o_getClassName_Your_The_Cha|4904bc3c087d",
-    "original": "\\n<b>\"+(\"PlayerCharacter\"===o.getClassName()?\"Your\":\"The\")+\" Charged Shield effect has ended!</b>",
+    "key": "combat|b_PlayerCharacter_o_getClassName_Your_The_Charg|6f865cd6ffb8",
+    "original": "<b>\"+(\"PlayerCharacter\"===o.getClassName()?\"Your\":\"The\")+\" Charged Shield effect has ended!</b>",
     "translation": "",
-    "context": "<<POS:11154475>>"
+    "context": "<<POS:11154477>>"
   }
 ]

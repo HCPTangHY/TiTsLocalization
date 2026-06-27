@@ -9,7 +9,7 @@
     "key": "name.show|Uthra_Plus|05eb2c83fe9a",
     "original": "Uthra Plus",
     "translation": "",
-    "context": "<<POS:09919642>>"
+    "context": "<<POS:09919642>> showName(\"Uthra Plus\")"
   },
   {
     "key": "output|The_bottle_s_packaging_looks_clean_and_discreet_with_the_produc|05ec29887ff5",
@@ -33,67 +33,151 @@
     "key": "button|Cock|1db58eea4b40",
     "original": "Cock",
     "translation": "",
-    "context": "<<POS:09920178>>"
+    "context": "<<POS:09920178>> addButton(a++,\"Cock\",(function(){return o.uthraMenuCock(e,t)}),\"Male Genitalia\",\"Apply it on your male genitals.\")"
   },
   {
-    "key": "button|Cock|435ab387af21",
+    "key": "button.hover|Male_Genitalia|f01503120fb1",
+    "original": "Male Genitalia",
+    "translation": "",
+    "context": "<<POS:09920227>> addButton(a++,\"Cock\",(function(){return o.uthraMenuCock(e,t)}),\"Male Genitalia\",\"Apply it on your male genitals.\")"
+  },
+  {
+    "key": "button.tooltip|Apply_it_on_your_male_genitals|170a51880708",
+    "original": "Apply it on your male genitals.",
+    "translation": "",
+    "context": "<<POS:09920244>> addButton(a++,\"Cock\",(function(){return o.uthraMenuCock(e,t)}),\"Male Genitalia\",\"Apply it on your male genitals.\")"
+  },
+  {
+    "key": "button|Cock|9db32ecf0dc1",
     "original": "Cock",
     "translation": "",
-    "context": "<<POS:09920301>>"
+    "context": "<<POS:09920301>> addDisabledButton(a++,\"Cock\",\"Male Genitalia\",\"The leaflet says you need to have a cock or tailcock if you want to use Uthra+ on your masculine reproductive system.\")"
   },
   {
-    "key": "button|Vagina|763b82867d09",
+    "key": "button.hover|The_leaflet_says_you_need_to_have_a_cock_or_tailcock_if_you_want|fce12333daf8",
+    "original": "The leaflet says you need to have a cock or tailcock if you want to use Uthra+ on your masculine reproductive system.",
+    "translation": "",
+    "context": "<<POS:09920325>> addDisabledButton(a++,\"Cock\",\"Male Genitalia\",\"The leaflet says you need to have a cock or tailcock if you want to use Uthra+ on your masculine reproductive system.\")"
+  },
+  {
+    "key": "button|Vagina|47db8cf609b3",
     "original": "Vagina",
     "translation": "",
-    "context": "<<POS:09920474>>"
+    "context": "<<POS:09920474>> addButton(a++,\"Vagina\",(function(){return o.uthraMenuPussy(e,t)}),\"Female Genitalia\",\"Apply it on your female genitals.\")"
   },
   {
-    "key": "button|Vagina|5aecdc930f21",
+    "key": "button.hover|Female_Genitalia|49ed1f0c1b86",
+    "original": "Female Genitalia",
+    "translation": "",
+    "context": "<<POS:09920526>> addButton(a++,\"Vagina\",(function(){return o.uthraMenuPussy(e,t)}),\"Female Genitalia\",\"Apply it on your female genitals.\")"
+  },
+  {
+    "key": "button.tooltip|Apply_it_on_your_female_genitals|a0b273d1179c",
+    "original": "Apply it on your female genitals.",
+    "translation": "",
+    "context": "<<POS:09920545>> addButton(a++,\"Vagina\",(function(){return o.uthraMenuPussy(e,t)}),\"Female Genitalia\",\"Apply it on your female genitals.\")"
+  },
+  {
+    "key": "button|Vagina|1e5a652fae52",
     "original": "Vagina",
     "translation": "",
-    "context": "<<POS:09920604>>"
+    "context": "<<POS:09920604>> addDisabledButton(a++,\"Vagina\",\"Female Genitalia\",\"The leaflet says you need to have a vagina if you want to use Uthra+ on your feminine reproductive system.\")"
   },
   {
-    "key": "button|Butt|e03f1d075b3f",
+    "key": "button.hover|The_leaflet_says_you_need_to_have_a_vagina_if_you_want_to_use_Ut|0bc0df7aa69f",
+    "original": "The leaflet says you need to have a vagina if you want to use Uthra+ on your feminine reproductive system.",
+    "translation": "",
+    "context": "<<POS:09920632>> addDisabledButton(a++,\"Vagina\",\"Female Genitalia\",\"The leaflet says you need to have a vagina if you want to use Uthra+ on your feminine reproductive system.\")"
+  },
+  {
+    "key": "button|Butt|332031b09063",
     "original": "Butt",
     "translation": "",
-    "context": "<<POS:09920756>>"
+    "context": "<<POS:09920756>> addButton(a++,\"Butt\",(function(){return o.uthraUseButt(e,t)}),\"Backside\",\"Apply it on your buttocks.\")"
   },
   {
-    "key": "button|Chest|cd9f85140231",
+    "key": "button.hover|Backside|7ce2b5732259",
+    "original": "Backside",
+    "translation": "",
+    "context": "<<POS:09920804>> addButton(a++,\"Butt\",(function(){return o.uthraUseButt(e,t)}),\"Backside\",\"Apply it on your buttocks.\")"
+  },
+  {
+    "key": "button.tooltip|Apply_it_on_your_buttocks|9f38ab395fe6",
+    "original": "Apply it on your buttocks.",
+    "translation": "",
+    "context": "<<POS:09920815>> addButton(a++,\"Butt\",(function(){return o.uthraUseButt(e,t)}),\"Backside\",\"Apply it on your buttocks.\")"
+  },
+  {
+    "key": "button|Chest|d0168ebbab14",
     "original": "Chest",
     "translation": "",
-    "context": "<<POS:09920871>>"
+    "context": "<<POS:09920871>> addButton(a++,\"Chest\",(function(){return o.uthraMenuChest(e,t)}),\"Chest\",\"Apply it on your breasts.\")"
   },
   {
-    "key": "button|Chest|4e5b0528c4d1",
+    "key": "button.hover|Chest|d0168ebbab14",
     "original": "Chest",
     "translation": "",
-    "context": "<<POS:09920981>>"
+    "context": "<<POS:09920922>> addButton(a++,\"Chest\",(function(){return o.uthraMenuChest(e,t)}),\"Chest\",\"Apply it on your breasts.\")"
   },
   {
-    "key": "button|Muscles|cc6bd35ed437",
+    "key": "button.tooltip|Apply_it_on_your_breasts|a2b24b4ce4be",
+    "original": "Apply it on your breasts.",
+    "translation": "",
+    "context": "<<POS:09920930>> addButton(a++,\"Chest\",(function(){return o.uthraMenuChest(e,t)}),\"Chest\",\"Apply it on your breasts.\")"
+  },
+  {
+    "key": "button|Chest|383258e4a5f0",
+    "original": "Chest",
+    "translation": "",
+    "context": "<<POS:09920981>> addDisabledButton(a++,\"Chest\",\"Chest\",\"You need to have breasts if you want to use Uthra+ on them.\")"
+  },
+  {
+    "key": "button.hover|You_need_to_have_breasts_if_you_want_to_use_Uthra_on_them|969f04ed42f2",
+    "original": "You need to have breasts if you want to use Uthra+ on them.",
+    "translation": "",
+    "context": "<<POS:09920997>> addDisabledButton(a++,\"Chest\",\"Chest\",\"You need to have breasts if you want to use Uthra+ on them.\")"
+  },
+  {
+    "key": "button|Muscles|3cf3e2a618fc",
     "original": "Muscles",
     "translation": "",
-    "context": "<<POS:09921083>>"
+    "context": "<<POS:09921083>> addButton(a++,\"Muscles\",(function(){return o.uthraUseBody(e,t)}),\"Muscles\",\"Apply it on the more muscly parts of your body.\")"
   },
   {
-    "key": "button|Muscles|6c49b6eba3fe",
+    "key": "button.hover|Muscles|3cf3e2a618fc",
     "original": "Muscles",
     "translation": "",
-    "context": "<<POS:09921217>>"
+    "context": "<<POS:09921134>> addButton(a++,\"Muscles\",(function(){return o.uthraUseBody(e,t)}),\"Muscles\",\"Apply it on the more muscly parts of your body.\")"
   },
   {
-    "key": "button|Abort|24a316f319b0",
+    "key": "button.tooltip|Apply_it_on_the_more_muscly_parts_of_your_body|71de6935823d",
+    "original": "Apply it on the more muscly parts of your body.",
+    "translation": "",
+    "context": "<<POS:09921144>> addButton(a++,\"Muscles\",(function(){return o.uthraUseBody(e,t)}),\"Muscles\",\"Apply it on the more muscly parts of your body.\")"
+  },
+  {
+    "key": "button|Muscles|d999f29c8d19",
+    "original": "Muscles",
+    "translation": "",
+    "context": "<<POS:09921217>> addDisabledButton(a++,\"Muscles\",\"Muscles\",\"Your body is already too soft to benefit from this.\")"
+  },
+  {
+    "key": "button.hover|Your_body_is_already_too_soft_to_benefit_from_this|7d8ac765dd82",
+    "original": "Your body is already too soft to benefit from this.",
+    "translation": "",
+    "context": "<<POS:09921237>> addDisabledButton(a++,\"Muscles\",\"Muscles\",\"Your body is already too soft to benefit from this.\")"
+  },
+  {
+    "key": "button|Abort|56810160b0ad",
     "original": "Abort",
     "translation": "",
-    "context": "<<POS:09921305>>"
+    "context": "<<POS:09921305>> addButton(14,\"Abort\",(function(){return o.uthraAbort(t)}))"
   },
   {
     "key": "name.show|Uthra_Plus|b415be5b4f38",
     "original": "Uthra Plus",
     "translation": "",
-    "context": "<<POS:09921440>>"
+    "context": "<<POS:09921440>> showName(\"Uthra Plus\")"
   },
   {
     "key": "output|You_close_the_vial_of_Uthra_and_put_it_back_into_your_pack|c1782121ae31",
@@ -105,22 +189,22 @@
     "key": "button|Next|12ba7bbc5650",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09921591>>"
+    "context": "<<POS:09921591>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
   },
   {
     "key": "name.show|Uthra_Plus|6b6db413bee6",
     "original": "Uthra Plus",
     "translation": "",
-    "context": "<<POS:09921814>>"
+    "context": "<<POS:09921814>> showName(\"Uthra Plus\")"
   },
   {
-    "key": "output|Which_of_your_cocks_will_you_apply_the_nanogel_on_n|b43299f23a83",
-    "original": "Which of your cocks will you apply the nanogel on?\\n",
+    "key": "output|Which_of_your_cocks_will_you_apply_the_nanogel_on|506bcb63cb02",
+    "original": "Which of your cocks will you apply the nanogel on?",
     "translation": "",
     "context": "<<POS:09921906>>"
   },
   {
-    "key": "output|l_m_startList|054cfb83ba72",
+    "key": "output|l_m_startList|6eb365d48ce7",
     "original": "l.m.startList()",
     "translation": "",
     "context": "<<POS:09921968>>"
@@ -141,22 +225,22 @@
     "key": "button|Back|dde0262bd6e8",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:09922227>>"
+    "context": "<<POS:09922227>> addButton(14,\"Back\",(function(){return o.uthraMenuMain(e,t)}))"
   },
   {
     "key": "name.show|Uthra_Plus|8b66709801ea",
     "original": "Uthra Plus",
     "translation": "",
-    "context": "<<POS:09922384>>"
+    "context": "<<POS:09922384>> showName(\"Uthra Plus\")"
   },
   {
-    "key": "output|Which_of_your_vaginas_will_you_apply_the_nanogel_on_n|91f2f96d1de1",
-    "original": "Which of your vaginas will you apply the nanogel on?\\n",
+    "key": "output|Which_of_your_vaginas_will_you_apply_the_nanogel_on|ec7224dfe688",
+    "original": "Which of your vaginas will you apply the nanogel on?",
     "translation": "",
     "context": "<<POS:09922479>>"
   },
   {
-    "key": "output|l_m_startList|fa6ebc8833ba",
+    "key": "output|l_m_startList|be0bcd659e0b",
     "original": "l.m.startList()",
     "translation": "",
     "context": "<<POS:09922543>>"
@@ -177,22 +261,22 @@
     "key": "button|Back|dde0262bd6e8#1",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:09922796>>"
+    "context": "<<POS:09922796>> addButton(14,\"Back\",(function(){return o.uthraMenuMain(e,t)}))"
   },
   {
     "key": "name.show|Uthra_Plus|8b66709801ea#1",
     "original": "Uthra Plus",
     "translation": "",
-    "context": "<<POS:09922953>>"
+    "context": "<<POS:09922953>> showName(\"Uthra Plus\")"
   },
   {
-    "key": "output|Which_of_your_rows_of_breasts_will_you_apply_the_nanogel_on_n|a9f4bca3afc3",
-    "original": "Which of your rows of breasts will you apply the nanogel on?\\n",
+    "key": "output|Which_of_your_rows_of_breasts_will_you_apply_the_nanogel_on|2e7c3654e185",
+    "original": "Which of your rows of breasts will you apply the nanogel on?",
     "translation": "",
     "context": "<<POS:09923042>>"
   },
   {
-    "key": "output|l_m_startList|88b35ebf0b48",
+    "key": "output|l_m_startList|99e95fd63507",
     "original": "l.m.startList()",
     "translation": "",
     "context": "<<POS:09923114>>"
@@ -213,19 +297,19 @@
     "key": "button|Back|dde0262bd6e8#2",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:09923414>>"
+    "context": "<<POS:09923414>> addButton(14,\"Back\",(function(){return o.uthraMenuMain(e,t)}))"
   },
   {
     "key": "name.show|Uthra_Plus|8b66709801ea#2",
     "original": "Uthra Plus",
     "translation": "",
-    "context": "<<POS:09923557>>"
+    "context": "<<POS:09923557>> showName(\"Uthra Plus\")"
   },
   {
     "key": "button|Next|06688c6f4350",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09923608>>"
+    "context": "<<POS:09923608>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))"
   },
   {
     "key": "output|You_apply_the_nanogel_to_your|cefeca2dc42d",
@@ -264,10 +348,10 @@
     "context": "<<POS:09923874>>"
   },
   {
-    "key": "output|n_nYou_start_feeling_very_dizzy_all_of_a_sudden_and_finding_so|b8aa8059d6f8",
-    "original": "\\n\\nYou start feeling very dizzy all of a sudden, and finding somewhere to lie down is all you can do before you pass out. While unconscious, you have a strange dream in which you use a pumpkin to masturbate furiously, but you don’t cum enough and the evil pumpkin goddess decides to punish you by shrinking your cock. So weird! ",
+    "key": "output|You_start_feeling_very_dizzy_all_of_a_sudden_and_finding_somewh|21cc6025902c",
+    "original": "You start feeling very dizzy all of a sudden, and finding somewhere to lie down is all you can do before you pass out. While unconscious, you have a strange dream in which you use a pumpkin to masturbate furiously, but you don’t cum enough and the evil pumpkin goddess decides to punish you by shrinking your cock. So weird! ",
     "translation": "",
-    "context": "<<POS:09924494>>"
+    "context": "<<POS:09924498>>"
   },
   {
     "key": "output|b_You_wake_up_with_a_start_only_to_find_that_your_pc_cock_t|af040d6828b4",
@@ -276,22 +360,22 @@
     "context": "<<POS:09924834>>"
   },
   {
-    "key": "output|n_nSuddenly_you_feel_an_electric_like_tingling_in_your_crotch|f800374cf9b4",
-    "original": "\\n\\nSuddenly, you feel an electric-like tingling in your crotch. You look down alarmed only to see your [pc.balls] twitching wildly, almost as if it were alive! Thanks to the nanogel’s numbing effect, it’s not painful at all, so you just can’t help watching this bizarre spectacle. Eventually, your ball splits in two smaller ones that slowly settle into their newly expanded sack, and only then does it seem to calm down. <b>You find yourself with a pair of [pc.balls] in place of your single ball! </b>",
+    "key": "output|Suddenly_you_feel_an_electric_like_tingling_in_your_crotch_You|7af57bcdefa2",
+    "original": "Suddenly, you feel an electric-like tingling in your crotch. You look down alarmed only to see your [pc.balls] twitching wildly, almost as if it were alive! Thanks to the nanogel’s numbing effect, it’s not painful at all, so you just can’t help watching this bizarre spectacle. Eventually, your ball splits in two smaller ones that slowly settle into their newly expanded sack, and only then does it seem to calm down. <b>You find yourself with a pair of [pc.balls] in place of your single ball! </b>",
     "translation": "",
-    "context": "<<POS:09925169>>"
+    "context": "<<POS:09925173>>"
   },
   {
-    "key": "output|n_nSuddenly_you_feel_an_electric_like_tingling_in_your_crotch|d38253b04b50",
-    "original": "\\n\\nSuddenly, you feel an electric-like tingling in your crotch. You look down alarmed only to see your [pc.balls] twitching wildly, almost as if they were alive! Thanks to the nanogel’s numbing effect, it’s not painful at all, so you just can’t help watching this bizarre spectacle. Eventually, your balls calm down, and you notice there’s one less than before. <b>You find yourself with a total of \"+e.balls+\" [pc.balls]! </b>",
+    "key": "output|Suddenly_you_feel_an_electric_like_tingling_in_your_crotch_You|60b2aad50fe1",
+    "original": "Suddenly, you feel an electric-like tingling in your crotch. You look down alarmed only to see your [pc.balls] twitching wildly, almost as if they were alive! Thanks to the nanogel’s numbing effect, it’s not painful at all, so you just can’t help watching this bizarre spectacle. Eventually, your balls calm down, and you notice there’s one less than before. <b>You find yourself with a total of \"+e.balls+\" [pc.balls]! </b>",
     "translation": "",
-    "context": "<<POS:09925725>>"
+    "context": "<<POS:09925729>>"
   },
   {
-    "key": "output|n_nSuddenly_you_feel_an_electric_like_tingling_in_your_crotch|37fed6d6e71e",
-    "original": "\\n\\nSuddenly, you feel an electric-like tingling in your crotch. You look down alarmed only to see your [pc.balls] twitching and contracting, becoming tighter and denser. You try not to remind yourself that this nanogel is based on the Uthra sap’s mutagens, but now it’s a tad too late to feel regret. You watch with a mixture of expectation and apprehension as your ball slowly shrinks in size over the next few minutes, until the transformation finally stops, allowing you to breathe a sigh of relief. ",
+    "key": "output|Suddenly_you_feel_an_electric_like_tingling_in_your_crotch_You|b1762fcb7374",
+    "original": "Suddenly, you feel an electric-like tingling in your crotch. You look down alarmed only to see your [pc.balls] twitching and contracting, becoming tighter and denser. You try not to remind yourself that this nanogel is based on the Uthra sap’s mutagens, but now it’s a tad too late to feel regret. You watch with a mixture of expectation and apprehension as your ball slowly shrinks in size over the next few minutes, until the transformation finally stops, allowing you to breathe a sigh of relief. ",
     "translation": "",
-    "context": "<<POS:09926260>>"
+    "context": "<<POS:09926264>>"
   },
   {
     "key": "output|b_Your_ball_has_lost_about_u_inches_of_diameter_b|d04b11fe8d8d",
@@ -306,13 +390,13 @@
     "context": "<<POS:09926856>>"
   },
   {
-    "key": "output|n_nSuddenly_you_feel_a_tightness_inside_your|548fd808e731",
-    "original": "\\n\\nSuddenly, you feel a tightness inside your ",
+    "key": "output|Suddenly_you_feel_a_tightness_inside_your|c418bf48ff60",
+    "original": "Suddenly, you feel a tightness inside your ",
     "translation": "",
-    "context": "<<POS:09927161>>"
+    "context": "<<POS:09927165>>"
   },
   {
-    "key": "output|prostate_as_if_it_s_contracting|1079053cdaac",
+    "key": "output|prostate_as_if_it_s_contracting|934790b45d23",
     "original": "prostate, as if it’s contracting. ",
     "translation": "",
     "context": "<<POS:09927232>>"
@@ -390,13 +474,7 @@
     "context": "<<POS:09928297>>"
   },
   {
-    "key": "output|n_n|01e907101eb3",
-    "original": "\\n\\n ",
-    "translation": "",
-    "context": "<<POS:09928617>>"
-  },
-  {
-    "key": "output|pc_eachCock_actually_starts_to_feel_kinda_good_so_you_wrap_yo|6987990ffc09",
+    "key": "output|pc_eachCock_actually_starts_to_feel_kinda_good_so_you_wrap_yo|6f4409fa8dc7",
     "original": "[pc.eachCock] actually starts to feel kinda good, so you wrap your hand around [pc.oneCock] and give it a few tentative rubs. The pleasure intensifies disproportionately as your member engorges, it’s as if you were cumming nonstop, but not as overpowering as a real cumshot. ",
     "translation": "",
     "context": "<<POS:09928649>>"
@@ -462,16 +540,16 @@
     "context": "<<POS:09930323>>"
   },
   {
-    "key": "output|n_nYou_also_feel_slightly_less_virile_but_that_s_nothing_other|dedba46d7ed2",
-    "original": "\\n\\nYou also feel slightly less virile, but that’s nothing other mods can’t fix. ",
+    "key": "output|You_also_feel_slightly_less_virile_but_that_s_nothing_other_mod|dce0bd7b5ee3",
+    "original": "You also feel slightly less virile, but that’s nothing other mods can’t fix. ",
     "translation": "",
-    "context": "<<POS:09930539>>"
+    "context": "<<POS:09930543>>"
   },
   {
-    "key": "output|n_nWhen_the_nanogel_s_effects_are_finally_over_you_feel_kinda|1fdc60103bad",
-    "original": "\\n\\nWhen the nanogel’s effects are finally over, you feel kinda lazy, like you could really use a break, and your spent reproductive system totally agrees. Your balls feel totally empty and are barely making any effort to refill. You give your ",
+    "key": "output|When_the_nanogel_s_effects_are_finally_over_you_feel_kinda_lazy|29d69c0cc8b9",
+    "original": "When the nanogel’s effects are finally over, you feel kinda lazy, like you could really use a break, and your spent reproductive system totally agrees. Your balls feel totally empty and are barely making any effort to refill. You give your ",
     "translation": "",
-    "context": "<<POS:09930984>>"
+    "context": "<<POS:09930988>>"
   },
   {
     "key": "output|cock|a0b9331904e5",
@@ -522,64 +600,64 @@
     "context": "<<POS:09931700>>"
   },
   {
-    "key": "output|n_nIt_would_seem_your_sex_drive_has_waned_a_bit_too_On_the_fli|f52d94c8e6f0",
-    "original": "\\n\\nIt would seem your sex drive has waned a bit too. On the flip side that means you won’t be at the mercy of your partners so easily, and you can probably hold back your orgasm much longer, forcing them to cum before you. Or maybe you should try becoming a pleasure delayer. <b>Your libido has been slightly reduced. </b>",
+    "key": "output|It_would_seem_your_sex_drive_has_waned_a_bit_too_On_the_flip_si|3a0b396ca3b9",
+    "original": "It would seem your sex drive has waned a bit too. On the flip side that means you won’t be at the mercy of your partners so easily, and you can probably hold back your orgasm much longer, forcing them to cum before you. Or maybe you should try becoming a pleasure delayer. <b>Your libido has been slightly reduced. </b>",
     "translation": "",
-    "context": "<<POS:09931756>>"
+    "context": "<<POS:09931760>>"
   },
   {
-    "key": "output|n_nYou_wait_and_wait_and_wait_and_nothing_else_seems_to_re|fc2a2e97d48d",
-    "original": "\\n\\nYou wait, and wait, and wait... and nothing else seems to really happen. Eventually, the numbness subsides. Maybe you got unlucky, or maybe there just isn’t much the nanogel can still do for you.",
+    "key": "output|You_wait_and_wait_and_wait_and_nothing_else_seems_to_really|599eb432cada",
+    "original": "You wait, and wait, and wait... and nothing else seems to really happen. Eventually, the numbness subsides. Maybe you got unlucky, or maybe there just isn’t much the nanogel can still do for you.",
     "translation": "",
-    "context": "<<POS:09932107>>"
+    "context": "<<POS:09932111>>"
   },
   {
-    "key": "output|n_nYour_codex_establishes_a_connection_with_the_Uthra_nanomach|a05ef3eab077",
-    "original": "\\n\\nYour codex establishes a connection with the Uthra+ nanomachines and displays the following message: ",
+    "key": "output|Your_codex_establishes_a_connection_with_the_Uthra_nanomachines|ade398adc371",
+    "original": "Your codex establishes a connection with the Uthra+ nanomachines and displays the following message: ",
     "translation": "",
-    "context": "<<POS:09932318>>"
+    "context": "<<POS:09932322>>"
   },
   {
-    "key": "output|n_n_i_Cum_multiplier_e_cumMultiplierRaw_toFixed_1_i|7e54e82b8aae",
-    "original": "\\n\\n<i>Cum multiplier: \"+e.cumMultiplierRaw.toFixed(1)+\" </i>",
+    "key": "output|i_Cum_multiplier_e_cumMultiplierRaw_toFixed_1_i|d943a41a78d5",
+    "original": "<i>Cum multiplier: \"+e.cumMultiplierRaw.toFixed(1)+\" </i>",
     "translation": "",
-    "context": "<<POS:09932434>>"
+    "context": "<<POS:09932438>>"
   },
   {
-    "key": "output|n_i_Cum_storage_efficiency_e_ballEfficiency_toFixed_1_i|65bb3f7c38bc",
-    "original": "\\n<i>Cum storage efficiency: \"+e.ballEfficiency.toFixed(1)+\" </i>",
+    "key": "output|i_Cum_storage_efficiency_e_ballEfficiency_toFixed_1_i|601649843a70",
+    "original": "<i>Cum storage efficiency: \"+e.ballEfficiency.toFixed(1)+\" </i>",
     "translation": "",
-    "context": "<<POS:09932506>>"
+    "context": "<<POS:09932508>>"
   },
   {
-    "key": "output|n_i_Cum_refractory_rate_e_refractoryRate_toFixed_1_i|45204a62a271",
-    "original": "\\n<i>Cum refractory rate: \"+e.refractoryRate.toFixed(1)+\" </i>",
+    "key": "output|i_Cum_refractory_rate_e_refractoryRate_toFixed_1_i|77e5bf08c406",
+    "original": "<i>Cum refractory rate: \"+e.refractoryRate.toFixed(1)+\" </i>",
     "translation": "",
-    "context": "<<POS:09932582>>"
+    "context": "<<POS:09932584>>"
   },
   {
-    "key": "output|n_i_Cum_quality_100_e_cumQualityRaw_toFixed_0_i|ecce53712d30",
-    "original": "\\n<i>Cum quality: \"+(100*e.cumQualityRaw).toFixed(0)+\"% </i>",
+    "key": "output|i_Cum_quality_100_e_cumQualityRaw_toFixed_0_i|05f30b949c2e",
+    "original": "<i>Cum quality: \"+(100*e.cumQualityRaw).toFixed(0)+\"% </i>",
     "translation": "",
-    "context": "<<POS:09932655>>"
+    "context": "<<POS:09932657>>"
   },
   {
-    "key": "output|n_nYou_re_not_sure_what_those_numbers_mean_exactly_but_at_leas|f3565271e80c",
-    "original": "\\n\\nYou’re not sure what those numbers mean exactly, but at least they give you a baseline. ",
+    "key": "output|You_re_not_sure_what_those_numbers_mean_exactly_but_at_least_th|af058e0d3504",
+    "original": "You’re not sure what those numbers mean exactly, but at least they give you a baseline. ",
     "translation": "",
-    "context": "<<POS:09932726>>"
+    "context": "<<POS:09932730>>"
   },
   {
     "key": "name.show|Uthra_Plus|6c16eb88c0ae",
     "original": "Uthra Plus",
     "translation": "",
-    "context": "<<POS:09932916>>"
+    "context": "<<POS:09932916>> showName(\"Uthra Plus\")"
   },
   {
     "key": "button|Next|06688c6f4350#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09932967>>"
+    "context": "<<POS:09932967>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))"
   },
   {
     "key": "output|You_apply_the_nanogel_to_your_pc_pussy_t_making_sure_to_s|d5da91ad0140",
@@ -588,10 +666,10 @@
     "context": "<<POS:09933081>>"
   },
   {
-    "key": "output|n_nYour_fingers_go_down_to_your_clitoral_region_of_their_own_vo|06635e75c1e0",
-    "original": "\\n\\nYour fingers go down to your clitoral region of their own volition. With how much your [pc.clits] are itching, you just can’t help it. ",
+    "key": "output|Your_fingers_go_down_to_your_clitoral_region_of_their_own_voliti|db89e91d323e",
+    "original": "Your fingers go down to your clitoral region of their own volition. With how much your [pc.clits] are itching, you just can’t help it. ",
     "translation": "",
-    "context": "<<POS:09933712>>"
+    "context": "<<POS:09933716>>"
   },
   {
     "key": "output|One_of_them_however_is_itching_far_more_than_the_others_so_yo|4ffb19339d11",
@@ -612,10 +690,10 @@
     "context": "<<POS:09934230>>"
   },
   {
-    "key": "output|n_nThe_contractions_in_your_burning_canal_intensify_but_at_the|a9e999f6437d",
-    "original": "\\n\\nThe contractions in your burning canal intensify, but at the same time the region starts feeling very, very good. Your vagina is literally rubbing itself from the inside, and it’s turning out to be a unique and delightful experience! Intent on not wasting this rare chance, you reach for your [pc.pussy \"+t+\"] with both hands – one massages the labia and clitoral regions, while the other penetrates your folds. You feel both helpless and amazed at how much your squirming walls are clenching your fingers, and in this overly sensitive state, it doesn’t take long before you reach a mind-shattering orgasm that causes you to blank out for a moment, moaning in uncontained pleasure as the [pc.girlCumNoun] drenches your hand and thighs. ",
+    "key": "output|The_contractions_in_your_burning_canal_intensify_but_at_the_sam|bcf1238fbc86",
+    "original": "The contractions in your burning canal intensify, but at the same time the region starts feeling very, very good. Your vagina is literally rubbing itself from the inside, and it’s turning out to be a unique and delightful experience! Intent on not wasting this rare chance, you reach for your [pc.pussy \"+t+\"] with both hands – one massages the labia and clitoral regions, while the other penetrates your folds. You feel both helpless and amazed at how much your squirming walls are clenching your fingers, and in this overly sensitive state, it doesn’t take long before you reach a mind-shattering orgasm that causes you to blank out for a moment, moaning in uncontained pleasure as the [pc.girlCumNoun] drenches your hand and thighs. ",
     "translation": "",
-    "context": "<<POS:09934593>>"
+    "context": "<<POS:09934597>>"
   },
   {
     "key": "output|pc_eachCock_joins_your_pussy_in_a_sympathetic_orgasm_splashin|de5381506f05",
@@ -636,10 +714,10 @@
     "context": "<<POS:09935611>>"
   },
   {
-    "key": "output|n_nYour_pc_pussy_t_starts_to_squirm_uncomfortably_The_co|aaedbbc3e3bb",
-    "original": "\\n\\nYour [pc.pussy \"+t+\"] starts to squirm uncomfortably. The contractions last for a good ten minutes and then suddenly stop. When you’re sure all of the Uthra plus’ effects have subsided, you insert a probing finger inside. ",
+    "key": "output|Your_pc_pussy_t_starts_to_squirm_uncomfortably_The_contra|eba695adade2",
+    "original": "Your [pc.pussy \"+t+\"] starts to squirm uncomfortably. The contractions last for a good ten minutes and then suddenly stop. When you’re sure all of the Uthra plus’ effects have subsided, you insert a probing finger inside. ",
     "translation": "",
-    "context": "<<POS:09935979>>"
+    "context": "<<POS:09935983>>"
   },
   {
     "key": "output|b_To_your_surprise_you_find_that_your_entrance_is_somewhat_tig|85515875b8dc",
@@ -648,10 +726,10 @@
     "context": "<<POS:09936216>>"
   },
   {
-    "key": "output|n_nYour_probing_suddenly_stops_when_you_reach_a_barrier_Wait|ddac4aca9f79",
-    "original": "\\n\\nYour probing suddenly stops when you reach a barrier. Wait, is that what you think it is? No doubt about it, your [pc.pussy \"+t+\"] has grown a new hymen! Purity may be old-fashioned, but you can already think of some exciting ways to lose your new ‘virginity’. ",
+    "key": "output|Your_probing_suddenly_stops_when_you_reach_a_barrier_Wait_is_t|2bf84ecf8e9c",
+    "original": "Your probing suddenly stops when you reach a barrier. Wait, is that what you think it is? No doubt about it, your [pc.pussy \"+t+\"] has grown a new hymen! Purity may be old-fashioned, but you can already think of some exciting ways to lose your new ‘virginity’. ",
     "translation": "",
-    "context": "<<POS:09936411>>"
+    "context": "<<POS:09936415>>"
   },
   {
     "key": "output|b_You_are_now_a_faux_virgin_b|029296ec1a11",
@@ -660,10 +738,10 @@
     "context": "<<POS:09936687>>"
   },
   {
-    "key": "output|n_nYou_re_about_to_get_up_when_you_feel_something_strange_insid|31e13810dfd8",
-    "original": "\\n\\nYou’re about to get up when you feel something strange inside you. You press a finger into your [pc.pussy \"+t+\"] with some apprehension, only to find the passage is a bit rougher than expected. After thinking for a moment, you conclude that nothing much has changed, your inside is just not quite as slick as it used to be. ",
+    "key": "output|You_re_about_to_get_up_when_you_feel_something_strange_inside_yo|64f6a2ac255d",
+    "original": "You’re about to get up when you feel something strange inside you. You press a finger into your [pc.pussy \"+t+\"] with some apprehension, only to find the passage is a bit rougher than expected. After thinking for a moment, you conclude that nothing much has changed, your inside is just not quite as slick as it used to be. ",
     "translation": "",
-    "context": "<<POS:09936868>>"
+    "context": "<<POS:09936872>>"
   },
   {
     "key": "output|b_Your_pc_pussy_t_has_become_slightly_less_lubricated|766299bd9d95",
@@ -672,10 +750,10 @@
     "context": "<<POS:09937207>>"
   },
   {
-    "key": "output|n_nYour_gaze_wanders_down_and_you_notice_your_pc_clits|79527cf1e302",
-    "original": "\\n\\nYour gaze wanders down, and you notice your [pc.clits] ",
+    "key": "output|Your_gaze_wanders_down_and_you_notice_your_pc_clits|4c68a779b592",
+    "original": "Your gaze wanders down, and you notice your [pc.clits] ",
     "translation": "",
-    "context": "<<POS:09937414>>"
+    "context": "<<POS:09937418>>"
   },
   {
     "key": "output|are|275c4160b353",
@@ -720,10 +798,10 @@
     "context": "<<POS:09937996>>"
   },
   {
-    "key": "output|n_nYour_sex_drive_seems_to_have_waned_a_bit_too_Well_it_s_not|78d3d8459dc8",
-    "original": "\\n\\nYour sex drive seems to have waned a bit too. Well, it’s not like it will prevent you from reaching orgasms. If anything, it means you won’t be at the mercy of your partners so easily, and you can probably hold back your orgasm much longer, forcing them to cum before you. Or maybe you could try becoming a pleasure delayer. ",
+    "key": "output|Your_sex_drive_seems_to_have_waned_a_bit_too_Well_it_s_not_lik|5d4610c1b340",
+    "original": "Your sex drive seems to have waned a bit too. Well, it’s not like it will prevent you from reaching orgasms. If anything, it means you won’t be at the mercy of your partners so easily, and you can probably hold back your orgasm much longer, forcing them to cum before you. Or maybe you could try becoming a pleasure delayer. ",
     "translation": "",
-    "context": "<<POS:09938108>>"
+    "context": "<<POS:09938112>>"
   },
   {
     "key": "output|b_Your_libido_has_diminished_slightly_b|f13a8de83141",
@@ -738,46 +816,46 @@
     "context": "<<POS:09938538>>"
   },
   {
-    "key": "output|n_nYour_codex_establishes_a_connection_with_the_Uthra_nanomach|a05ef3eab077#1",
-    "original": "\\n\\nYour codex establishes a connection with the Uthra+ nanomachines and displays the following message: ",
+    "key": "output|Your_codex_establishes_a_connection_with_the_Uthra_nanomachines|ade398adc371#1",
+    "original": "Your codex establishes a connection with the Uthra+ nanomachines and displays the following message: ",
     "translation": "",
-    "context": "<<POS:09938745>>"
+    "context": "<<POS:09938749>>"
   },
   {
-    "key": "output|n_n_i_Vagina_s_extra_capacity_e_vaginas_t_bonusCapacity_toF|16026f382e01",
-    "original": "\\n\\n<i>Vagina’s extra capacity: \"+e.vaginas[t].bonusCapacity.toFixed(0)+\" </i>",
+    "key": "output|i_Vagina_s_extra_capacity_e_vaginas_t_bonusCapacity_toFixed|361eb742e30a",
+    "original": "<i>Vagina’s extra capacity: \"+e.vaginas[t].bonusCapacity.toFixed(0)+\" </i>",
     "translation": "",
-    "context": "<<POS:09938861>>"
+    "context": "<<POS:09938865>>"
   },
   {
-    "key": "output|n_i_Vagina_s_looseness_rating_e_vaginas_t_loosenessRaw_toFi|bc32e20867ab",
-    "original": "\\n<i>Vagina’s looseness rating: \"+e.vaginas[t].loosenessRaw.toFixed(1)+\" </i>",
+    "key": "output|i_Vagina_s_looseness_rating_e_vaginas_t_loosenessRaw_toFixe|ff24c2704863",
+    "original": "<i>Vagina’s looseness rating: \"+e.vaginas[t].loosenessRaw.toFixed(1)+\" </i>",
     "translation": "",
-    "context": "<<POS:09938950>>"
+    "context": "<<POS:09938952>>"
   },
   {
-    "key": "output|n_i_Vagina_s_wetness_e_vaginas_t_wetnessRaw_toFixed_1|94359721a913",
-    "original": "\\n<i>Vagina’s wetness: \"+e.vaginas[t].wetnessRaw.toFixed(1)+\" </i>",
+    "key": "output|i_Vagina_s_wetness_e_vaginas_t_wetnessRaw_toFixed_1_i|a664a25ead3e",
+    "original": "<i>Vagina’s wetness: \"+e.vaginas[t].wetnessRaw.toFixed(1)+\" </i>",
     "translation": "",
-    "context": "<<POS:09939038>>"
+    "context": "<<POS:09939040>>"
   },
   {
-    "key": "output|n_nYou_re_not_sure_what_those_numbers_mean_exactly_but_at_leas|9b3019b52a1a",
-    "original": "\\n\\nYou’re not sure what those numbers mean exactly, but at least they give you a baseline. ",
+    "key": "output|You_re_not_sure_what_those_numbers_mean_exactly_but_at_least_th|cc9dcc896e19",
+    "original": "You’re not sure what those numbers mean exactly, but at least they give you a baseline. ",
     "translation": "",
-    "context": "<<POS:09939115>>"
+    "context": "<<POS:09939119>>"
   },
   {
     "key": "name.show|Uthra_Plus|6c16eb88c0ae#1",
     "original": "Uthra Plus",
     "translation": "",
-    "context": "<<POS:09939305>>"
+    "context": "<<POS:09939305>> showName(\"Uthra Plus\")"
   },
   {
     "key": "button|Next|06688c6f4350#2",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09939356>>"
+    "context": "<<POS:09939356>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))"
   },
   {
     "key": "output|You_spread_the_nanogel_over_your_chest_massaging_the_region_tho|99d4ac0518ba",
@@ -786,10 +864,10 @@
     "context": "<<POS:09939469>>"
   },
   {
-    "key": "output|n_nAfter_a_while_the_numbness_subsides_Your_gaze_wanders_down|364e300999e8",
-    "original": "\\n\\nAfter a while, the numbness subsides. Your gaze wanders down and you notice the volume on your chest has diminished somewhat. Well, this medicine is based on the Uthra sap’s mutagens, so you shouldn’t be surprised. ",
+    "key": "output|After_a_while_the_numbness_subsides_Your_gaze_wanders_down_and|f77691dd1bc0",
+    "original": "After a while, the numbness subsides. Your gaze wanders down and you notice the volume on your chest has diminished somewhat. Well, this medicine is based on the Uthra sap’s mutagens, so you shouldn’t be surprised. ",
     "translation": "",
-    "context": "<<POS:09940106>>"
+    "context": "<<POS:09940110>>"
   },
   {
     "key": "output|b_Your_pc_breasts_t_have_shrunk_in_size_settling_on_pc|0e09720ae97c",
@@ -798,10 +876,10 @@
     "context": "<<POS:09940336>>"
   },
   {
-    "key": "output|n_nSuddenly_you_feel_a_tightness_inside_your_breasts_as_if_th|e26de57db876",
-    "original": "\\n\\nSuddenly, you feel a tightness inside your breasts, as if they’re contracting of their own volition. Whatever is happening forces the remaining [pc.milkNoun] out of you, causing your breasts to momentarily gush like geysers. All you can do is try to aim them in a generally harmless direction. When it finally stops, they feel very empty, but also very comfortable, as if their insides had been rearranged in a lighter configuration. With a touch, you confirm that they feel smoother, more pliable and tiny a bit perkier too! You can’t help but let out a content sigh. ",
+    "key": "output|Suddenly_you_feel_a_tightness_inside_your_breasts_as_if_they_r|3a5af7bf3962",
+    "original": "Suddenly, you feel a tightness inside your breasts, as if they’re contracting of their own volition. Whatever is happening forces the remaining [pc.milkNoun] out of you, causing your breasts to momentarily gush like geysers. All you can do is try to aim them in a generally harmless direction. When it finally stops, they feel very empty, but also very comfortable, as if their insides had been rearranged in a lighter configuration. With a touch, you confirm that they feel smoother, more pliable and tiny a bit perkier too! You can’t help but let out a content sigh. ",
     "translation": "",
-    "context": "<<POS:09940775>>"
+    "context": "<<POS:09940779>>"
   },
   {
     "key": "output|b_Your_body_s_capacity_to_store_pc_milkNoun_has_diminished|03c9e783bf95",
@@ -810,10 +888,10 @@
     "context": "<<POS:09941359>>"
   },
   {
-    "key": "output|n_nTo_your_relief_the_strange_liquid_is_soon_replaced_by_what|adc2655d67f6",
-    "original": "\\n\\nTo your relief, the strange liquid is soon replaced by what is clearly your [pc.milkNoun], which leaks freely even though you’re applying no pressure. You decide to speed up the process by gently grabbing your breasts and giving them a good, slow massage. The numbness gradually subsides, replaced by a slight tingling that’s actually rather pleasant. The more [pc.milkNoun] comes out, the better it gets. You lose track of time draining your chest, until it stops leaking completely. You feel as if you’ve put out enough [pc.milkNoun] to feed a battalion, probably losing quite a few mammary glands in the process, whether you realize this or not. ",
+    "key": "output|To_your_relief_the_strange_liquid_is_soon_replaced_by_what_is_c|656e7b61b178",
+    "original": "To your relief, the strange liquid is soon replaced by what is clearly your [pc.milkNoun], which leaks freely even though you’re applying no pressure. You decide to speed up the process by gently grabbing your breasts and giving them a good, slow massage. The numbness gradually subsides, replaced by a slight tingling that’s actually rather pleasant. The more [pc.milkNoun] comes out, the better it gets. You lose track of time draining your chest, until it stops leaking completely. You feel as if you’ve put out enough [pc.milkNoun] to feed a battalion, probably losing quite a few mammary glands in the process, whether you realize this or not. ",
     "translation": "",
-    "context": "<<POS:09941718>>"
+    "context": "<<POS:09941722>>"
   },
   {
     "key": "output|b_You_have_a_feeling_your_pc_milkNoun_output_has_b|882ae2559dd5",
@@ -846,10 +924,10 @@
     "context": "<<POS:09942596>>"
   },
   {
-    "key": "output|n_nWhen_the_nanogel_s_effects_are_finally_over_your_breasts_fe|ced0ab0e6113",
-    "original": "\\n\\nWhen the nanogel’s effects are finally over, your breasts feel painfully spent, practically begging for some rest. You don’t have much energy left either, so you grab something to eat and plop down to rest for a few minutes, after which you touch your breasts and wonder if they are even trying to refill. Well, at least you won’t have to contend with that chest tightness so soon. ",
+    "key": "output|When_the_nanogel_s_effects_are_finally_over_your_breasts_feel_p|d2ef5b0cd8ad",
+    "original": "When the nanogel’s effects are finally over, your breasts feel painfully spent, practically begging for some rest. You don’t have much energy left either, so you grab something to eat and plop down to rest for a few minutes, after which you touch your breasts and wonder if they are even trying to refill. Well, at least you won’t have to contend with that chest tightness so soon. ",
     "translation": "",
-    "context": "<<POS:09942885>>"
+    "context": "<<POS:09942889>>"
   },
   {
     "key": "output|b_Your_chest_is_refilling_b|ad3e63172e00",
@@ -876,10 +954,10 @@
     "context": "<<POS:09943439>>"
   },
   {
-    "key": "output|n_nYou_wait_and_wait_and_wait_and_nothing_else_seems_to_re|9810c9a83e53",
-    "original": "\\n\\nYou wait, and wait, and wait... and nothing else seems to really happen. Eventually, the numbness subsides. Maybe you got unlucky, or maybe there just isn’t much the nanogel can still do for you. ",
+    "key": "output|You_wait_and_wait_and_wait_and_nothing_else_seems_to_really|b5962316e1b5",
+    "original": "You wait, and wait, and wait... and nothing else seems to really happen. Eventually, the numbness subsides. Maybe you got unlucky, or maybe there just isn’t much the nanogel can still do for you. ",
     "translation": "",
-    "context": "<<POS:09943508>>"
+    "context": "<<POS:09943512>>"
   },
   {
     "key": "output|b_If_you_re_lactating_perhaps_you_should_wait_for_your_breasts|99256a385e26",
@@ -888,52 +966,52 @@
     "context": "<<POS:09943719>>"
   },
   {
-    "key": "output|n_nYour_codex_establishes_a_connection_with_the_Uthra_nanomach|2e2faf619f53",
-    "original": "\\n\\nYour codex establishes a connection with the Uthra+ nanomachines and displays the following message: ",
+    "key": "output|Your_codex_establishes_a_connection_with_the_Uthra_nanomachines|9c5500029529",
+    "original": "Your codex establishes a connection with the Uthra+ nanomachines and displays the following message: ",
     "translation": "",
-    "context": "<<POS:09943832>>"
+    "context": "<<POS:09943836>>"
   },
   {
-    "key": "output|n_n_i_Breast_productivity_multiplier_e_milkMultiplier_toFixe|266b8e0c54e9",
-    "original": "\\n\\n<i>Breast productivity multiplier: \"+e.milkMultiplier.toFixed(1)+\" </i>",
+    "key": "output|i_Breast_productivity_multiplier_e_milkMultiplier_toFixed_1|7fb651421e99",
+    "original": "<i>Breast productivity multiplier: \"+e.milkMultiplier.toFixed(1)+\" </i>",
     "translation": "",
-    "context": "<<POS:09943948>>"
+    "context": "<<POS:09943952>>"
   },
   {
-    "key": "output|n_i_Breast_storage_efficiency_e_milkStorageMultiplier_toFixe|7ae6405896a1",
-    "original": "\\n<i>Breast storage efficiency: \"+e.milkStorageMultiplier.toFixed(1)+\" </i>",
+    "key": "output|i_Breast_storage_efficiency_e_milkStorageMultiplier_toFixed|23a3942986fc",
+    "original": "<i>Breast storage efficiency: \"+e.milkStorageMultiplier.toFixed(1)+\" </i>",
     "translation": "",
-    "context": "<<POS:09944034>>"
+    "context": "<<POS:09944036>>"
   },
   {
-    "key": "output|n_i_Breast_refractory_rate_e_milkRate_toFixed_1_i|35ec85a6589b",
-    "original": "\\n<i>Breast refractory rate: \"+e.milkRate.toFixed(1)+\" </i>",
+    "key": "output|i_Breast_refractory_rate_e_milkRate_toFixed_1_i|82707a951c4d",
+    "original": "<i>Breast refractory rate: \"+e.milkRate.toFixed(1)+\" </i>",
     "translation": "",
-    "context": "<<POS:09944120>>"
+    "context": "<<POS:09944122>>"
   },
   {
-    "key": "output|n_i_Breast_size_rating_pc_breastCupSize_t_i|745a6775684e",
-    "original": "\\n<i>Breast size rating: [pc.breastCupSize \"+t+\"] </i>",
+    "key": "output|i_Breast_size_rating_pc_breastCupSize_t_i|66ac16a3b650",
+    "original": "<i>Breast size rating: [pc.breastCupSize \"+t+\"] </i>",
     "translation": "",
-    "context": "<<POS:09944190>>"
+    "context": "<<POS:09944192>>"
   },
   {
-    "key": "output|n_nYou_re_not_sure_what_those_numbers_mean_exactly_but_at_leas|94cd5dbd7f09",
-    "original": "\\n\\nYou’re not sure what those numbers mean exactly, but at least they give you a baseline. ",
+    "key": "output|You_re_not_sure_what_those_numbers_mean_exactly_but_at_least_th|16967cccc501",
+    "original": "You’re not sure what those numbers mean exactly, but at least they give you a baseline. ",
     "translation": "",
-    "context": "<<POS:09944255>>"
+    "context": "<<POS:09944259>>"
   },
   {
     "key": "name.show|Uthra_Plus|6c16eb88c0ae#2",
     "original": "Uthra Plus",
     "translation": "",
-    "context": "<<POS:09944442>>"
+    "context": "<<POS:09944442>> showName(\"Uthra Plus\")"
   },
   {
     "key": "button|Next|06688c6f4350#3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09944493>>"
+    "context": "<<POS:09944493>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   },
   {
     "key": "output|You_spread_the_nanogel_over_your_buttocks_and_rear_entrance_the|28e11d5070b9",
@@ -942,10 +1020,10 @@
     "context": "<<POS:09944606>>"
   },
   {
-    "key": "output|n_nFor_some_reason_the_sensations_are_getting_very_good_as_if|2020cedc3cc5",
-    "original": "\\n\\nFor some reason, the sensations are getting very good, as if your [pc.butt] was getting an expert massage! You grope it tentatively and notice your backside is getting leaner by the minute, but also more sensitive! ",
+    "key": "output|For_some_reason_the_sensations_are_getting_very_good_as_if_you|f5402dfbc3f2",
+    "original": "For some reason, the sensations are getting very good, as if your [pc.butt] was getting an expert massage! You grope it tentatively and notice your backside is getting leaner by the minute, but also more sensitive! ",
     "translation": "",
-    "context": "<<POS:09945171>>"
+    "context": "<<POS:09945175>>"
   },
   {
     "key": "output|b_Your_pc_asshole_has_lost_b|164f3c0ca24e",
@@ -972,10 +1050,10 @@
     "context": "<<POS:09945553>>"
   },
   {
-    "key": "output|n_nAfter_a_couple_of_minutes_your_rectal_cavity_starts_to_twit|37d420929237",
-    "original": "\\n\\nAfter a couple of minutes, your rectal cavity starts to twitch and contract as well, slowly reconfiguring itself into a less voluminous passage. ",
+    "key": "output|After_a_couple_of_minutes_your_rectal_cavity_starts_to_twitch_a|7f64fe789efa",
+    "original": "After a couple of minutes, your rectal cavity starts to twitch and contract as well, slowly reconfiguring itself into a less voluminous passage. ",
     "translation": "",
-    "context": "<<POS:09945746>>"
+    "context": "<<POS:09945750>>"
   },
   {
     "key": "output|b_When_it_s_all_over_the_inside_of_your_pc_butt_feels_less_r|120187d55437",
@@ -984,10 +1062,10 @@
     "context": "<<POS:09945906>>"
   },
   {
-    "key": "output|n_nYour_rear_entrance_starts_to_squirm_uncomfortably_The_contr|5ca50a04ab2e",
-    "original": "\\n\\nYour rear entrance starts to squirm uncomfortably. The contractions last for a good twenty minutes and stop suddenly. When you’re sure the Uthra plus’ effects are over, you insert a probing finger inside. ",
+    "key": "output|Your_rear_entrance_starts_to_squirm_uncomfortably_The_contracti|54ac559fe5ed",
+    "original": "Your rear entrance starts to squirm uncomfortably. The contractions last for a good twenty minutes and stop suddenly. When you’re sure the Uthra plus’ effects are over, you insert a probing finger inside. ",
     "translation": "",
-    "context": "<<POS:09946226>>"
+    "context": "<<POS:09946230>>"
   },
   {
     "key": "output|b_To_your_surprise_you_find_that_your_rear_entrance_is_a_bit_t|4ced3984595b",
@@ -1002,10 +1080,10 @@
     "context": "<<POS:09946612>>"
   },
   {
-    "key": "output|n_nYou_re_about_to_get_up_when_you_feel_something_is_off_with_y|27f58a455c88",
-    "original": "\\n\\nYou’re about to get up when you feel something is off with your [pc.butt]. You press a finger inside with some apprehension, only to find the passage is a bit rougher than expected. After probing for a moment, you conclude that nothing much has changed, it’s just that your inside is not quite as slick as it used to be. ",
+    "key": "output|You_re_about_to_get_up_when_you_feel_something_is_off_with_your|c1a2061f53f7",
+    "original": "You’re about to get up when you feel something is off with your [pc.butt]. You press a finger inside with some apprehension, only to find the passage is a bit rougher than expected. After probing for a moment, you conclude that nothing much has changed, it’s just that your inside is not quite as slick as it used to be. ",
     "translation": "",
-    "context": "<<POS:09946844>>"
+    "context": "<<POS:09946848>>"
   },
   {
     "key": "output|b_Your_pc_butt_has_become_slightly_less_lubricated_b|be9701ae4054",
@@ -1014,64 +1092,64 @@
     "context": "<<POS:09947180>>"
   },
   {
-    "key": "output|n_nYou_wait_and_wait_and_wait_and_nothing_else_seems_to_re|2f430865d86a",
-    "original": "\\n\\nYou wait, and wait, and wait... and nothing else seems to really happen. Eventually, the sensations subside. Maybe you got unlucky, or maybe there just isn’t much the nanogel can still do for you. ",
+    "key": "output|You_wait_and_wait_and_wait_and_nothing_else_seems_to_really|1b6c2433b760",
+    "original": "You wait, and wait, and wait... and nothing else seems to really happen. Eventually, the sensations subside. Maybe you got unlucky, or maybe there just isn’t much the nanogel can still do for you. ",
     "translation": "",
-    "context": "<<POS:09947268>>"
+    "context": "<<POS:09947272>>"
   },
   {
-    "key": "output|n_nYour_codex_establishes_a_connection_with_the_Uthra_nanomach|ce875b53942b",
-    "original": "\\n\\nYour codex establishes a connection with the Uthra+ nanomachines and displays the following message: ",
+    "key": "output|Your_codex_establishes_a_connection_with_the_Uthra_nanomachines|cbc91ec43367",
+    "original": "Your codex establishes a connection with the Uthra+ nanomachines and displays the following message: ",
     "translation": "",
-    "context": "<<POS:09947481>>"
+    "context": "<<POS:09947485>>"
   },
   {
-    "key": "output|n_n_i_Anal_extra_capacity_e_ass_bonusCapacity_toFixed_0|d81e719711b4",
-    "original": "\\n\\n<i>Anal extra capacity: \"+e.ass.bonusCapacity.toFixed(0)+\" </i>",
+    "key": "output|i_Anal_extra_capacity_e_ass_bonusCapacity_toFixed_0_i|bdcacfac0225",
+    "original": "<i>Anal extra capacity: \"+e.ass.bonusCapacity.toFixed(0)+\" </i>",
     "translation": "",
-    "context": "<<POS:09947597>>"
+    "context": "<<POS:09947601>>"
   },
   {
-    "key": "output|n_i_Anal_looseness_rating_e_ass_loosenessRaw_toFixed_1|7f343a76b504",
-    "original": "\\n<i>Anal looseness rating: \"+e.ass.loosenessRaw.toFixed(1)+\" </i>",
+    "key": "output|i_Anal_looseness_rating_e_ass_loosenessRaw_toFixed_1_i|2ffb21412811",
+    "original": "<i>Anal looseness rating: \"+e.ass.loosenessRaw.toFixed(1)+\" </i>",
     "translation": "",
-    "context": "<<POS:09947675>>"
+    "context": "<<POS:09947677>>"
   },
   {
-    "key": "output|n_i_Anal_wetness_e_ass_wetnessRaw_toFixed_1_i|7b7c9a6977a5",
-    "original": "\\n<i>Anal wetness: \"+e.ass.wetnessRaw.toFixed(1)+\" </i>",
+    "key": "output|i_Anal_wetness_e_ass_wetnessRaw_toFixed_1_i|7ce5d303be8b",
+    "original": "<i>Anal wetness: \"+e.ass.wetnessRaw.toFixed(1)+\" </i>",
     "translation": "",
-    "context": "<<POS:09947752>>"
+    "context": "<<POS:09947754>>"
   },
   {
-    "key": "output|n_i_Butt_size_rating_e_buttRatingRaw_toFixed_1_i|1d93df6d8679",
-    "original": "\\n<i>Butt size rating: \"+e.buttRatingRaw.toFixed(1)+\" </i>",
+    "key": "output|i_Butt_size_rating_e_buttRatingRaw_toFixed_1_i|e455bd4d6b8d",
+    "original": "<i>Butt size rating: \"+e.buttRatingRaw.toFixed(1)+\" </i>",
     "translation": "",
-    "context": "<<POS:09947818>>"
+    "context": "<<POS:09947820>>"
   },
   {
-    "key": "output|n_i_Orifice_elasticity_e_elasticity_toFixed_1_i|c27c5ac6bc98",
-    "original": "\\n<i>Orifice elasticity: \"+e.elasticity.toFixed(1)+\" </i>",
+    "key": "output|i_Orifice_elasticity_e_elasticity_toFixed_1_i|3951ba026eb0",
+    "original": "<i>Orifice elasticity: \"+e.elasticity.toFixed(1)+\" </i>",
     "translation": "",
-    "context": "<<POS:09947887>>"
+    "context": "<<POS:09947889>>"
   },
   {
-    "key": "output|n_nYou_re_not_sure_what_those_numbers_mean_exactly_but_at_leas|57e99cda7a25",
-    "original": "\\n\\nYou’re not sure what those numbers mean exactly, but at least they give you a baseline. ",
+    "key": "output|You_re_not_sure_what_those_numbers_mean_exactly_but_at_least_th|a4b7f429207e",
+    "original": "You’re not sure what those numbers mean exactly, but at least they give you a baseline. ",
     "translation": "",
-    "context": "<<POS:09947955>>"
+    "context": "<<POS:09947959>>"
   },
   {
     "key": "name.show|Uthra_Plus|6c16eb88c0ae#3",
     "original": "Uthra Plus",
     "translation": "",
-    "context": "<<POS:09948142>>"
+    "context": "<<POS:09948142>> showName(\"Uthra Plus\")"
   },
   {
     "key": "button|Next|06688c6f4350#4",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09948193>>"
+    "context": "<<POS:09948193>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   },
   {
     "key": "output|You_spread_the_nanogel_over_your_arms_abs_and_other_muscly_part|234b8a955139",
@@ -1092,27 +1170,27 @@
     "context": "<<POS:09948883>>"
   },
   {
-    "key": "output|n_nYour_codex_establishes_a_connection_with_the_Uthra_nanomach|70d1664646de",
-    "original": "\\n\\nYour codex establishes a connection with the Uthra+ nanomachines and displays the following message: ",
+    "key": "output|Your_codex_establishes_a_connection_with_the_Uthra_nanomachines|c21abc3c5f82",
+    "original": "Your codex establishes a connection with the Uthra+ nanomachines and displays the following message: ",
     "translation": "",
-    "context": "<<POS:09948946>>"
+    "context": "<<POS:09948950>>"
   },
   {
-    "key": "output|n_n_i_Current_tone_rating_e_tone_toFixed_0_i|675d92654be6",
-    "original": "\\n\\n<i>Current tone rating: \"+e.tone.toFixed(0)+\" </i>",
+    "key": "output|i_Current_tone_rating_e_tone_toFixed_0_i|cbbbc68742d3",
+    "original": "<i>Current tone rating: \"+e.tone.toFixed(0)+\" </i>",
     "translation": "",
-    "context": "<<POS:09949062>>"
+    "context": "<<POS:09949066>>"
   },
   {
-    "key": "output|n_i_Current_thickness_rating_e_thickness_toFixed_0_i|b44cd264f622",
-    "original": "\\n<i>Current thickness rating: \"+e.thickness.toFixed(0)+\" </i>",
+    "key": "output|i_Current_thickness_rating_e_thickness_toFixed_0_i|4bb0a68ca3d1",
+    "original": "<i>Current thickness rating: \"+e.thickness.toFixed(0)+\" </i>",
     "translation": "",
-    "context": "<<POS:09949127>>"
+    "context": "<<POS:09949129>>"
   },
   {
-    "key": "output|n_nYou_re_not_sure_what_those_numbers_mean_exactly_but_at_leas|411ee4e2d089",
-    "original": "\\n\\nYou’re not sure what those numbers mean exactly, but at least they give you a baseline. ",
+    "key": "output|You_re_not_sure_what_those_numbers_mean_exactly_but_at_least_th|9136f36eecf5",
+    "original": "You’re not sure what those numbers mean exactly, but at least they give you a baseline. ",
     "translation": "",
-    "context": "<<POS:09949200>>"
+    "context": "<<POS:09949204>>"
   }
 ]

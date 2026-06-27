@@ -48,52 +48,52 @@
     "context": "<<POS:05691337>>"
   },
   {
-    "key": "output|n_n_b_Current_Sexiness_Bonus_b_this_sexiness|2d41346622c2",
-    "original": "\\n\\n<b>Current Sexiness Bonus: </b>\"+this.sexiness",
+    "key": "output|b_Current_Sexiness_Bonus_b_this_sexiness|71a17ac810fe",
+    "original": "<b>Current Sexiness Bonus: </b>\"+this.sexiness",
     "translation": "",
-    "context": "<<POS:05691404>>"
+    "context": "<<POS:05691408>>"
   },
   {
-    "key": "button|Zip_Chest|ea5a4f55460b",
+    "key": "button|Zip_Chest|69193e9c0c8f",
     "original": "Zip Chest",
     "translation": "",
-    "context": "<<POS:05691508>>"
+    "context": "<<POS:05691508>> addButton(0,\"Zip Chest\",(function(){return e.zipSlavesuit(\"chest\")}))"
   },
   {
     "key": "button|Unzip_Chest|637892692f99",
     "original": "Unzip Chest",
     "translation": "",
-    "context": "<<POS:05691578>>"
+    "context": "<<POS:05691578>> addButton(0,\"Unzip Chest\",(function(){return e.unzipSlavesuit(\"chest\")}))"
   },
   {
     "key": "button|Zip_Crotch|34d0b66c2cf0",
     "original": "Zip Crotch",
     "translation": "",
-    "context": "<<POS:05691680>>"
+    "context": "<<POS:05691680>> addButton(1,\"Zip Crotch\",(function(){return e.zipSlavesuit(\"crotch\")}))"
   },
   {
     "key": "button|Unzip_Crotch|5f1bfcfe1e4f",
     "original": "Unzip Crotch",
     "translation": "",
-    "context": "<<POS:05691752>>"
+    "context": "<<POS:05691752>> addButton(1,\"Unzip Crotch\",(function(){return e.unzipSlavesuit(\"crotch\")}))"
   },
   {
     "key": "button|Zip_Butt|8b900dadda07",
     "original": "Zip Butt",
     "translation": "",
-    "context": "<<POS:05691853>>"
+    "context": "<<POS:05691853>> addButton(2,\"Zip Butt\",(function(){return e.zipSlavesuit(\"ass\")}))"
   },
   {
     "key": "button|Unzip_Butt|285ef4b70557",
     "original": "Unzip Butt",
     "translation": "",
-    "context": "<<POS:05691920>>"
+    "context": "<<POS:05691920>> addButton(2,\"Unzip Butt\",(function(){return e.unzipSlavesuit(\"ass\")}))"
   },
   {
     "key": "button|Back|cbca8e24f232",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:05691992>>"
+    "context": "<<POS:05691992>> addButton(14,\"Back\",(function(){return e.returnToInventory(e)}))"
   },
   {
     "key": "output|You_pull_open_the_top_zippers_open_to_expose_your_pc_chest|5e16ada3b6d4",
@@ -153,7 +153,7 @@
     "key": "button|Next|72742ac0feb3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:05693324>>"
+    "context": "<<POS:05693324>> addButton(0,\"Next\",this.slavesuitOptionsDisplay)"
   },
   {
     "key": "output|You_zip_up_the_chest_of_your_slave_uniform|c09916b3fd7b",
@@ -183,6 +183,6 @@
     "key": "button|Next|8779b5a2e988",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:05694167>>"
+    "context": "<<POS:05694167>> addButton(0,\"Next\",this.slavesuitOptionsDisplay)"
   }
 ]

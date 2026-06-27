@@ -12,19 +12,13 @@
     "context": "<<POS:07928900>>"
   },
   {
-    "key": "output|n_n_i_Detected_feedback_compatible_Biosign_Monitor_device_Abo|4a9536b6aa2c",
-    "original": "\\n\\n<i>“Detected feedback-compatible Biosign Monitor device. Aborting automated route. Debug mode activated. The system is awaiting input. Please select a specific route or confirm default settings. Please note: targeted route is less effective than automated since it forces an override of the optimization algorithm.”</i>",
+    "key": "output|i_Detected_feedback_compatible_Biosign_Monitor_device_Abortin|7dbbf67366f7",
+    "original": "<i>“Detected feedback-compatible Biosign Monitor device. Aborting automated route. Debug mode activated. The system is awaiting input. Please select a specific route or confirm default settings. Please note: targeted route is less effective than automated since it forces an override of the optimization algorithm.”</i>",
     "translation": "",
-    "context": "<<POS:07929255>>"
+    "context": "<<POS:07929259>>"
   },
   {
-    "key": "output|n_n|092c074a4f13",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:07929610>>"
-  },
-  {
-    "key": "output|e_capitalA_e_short_injects_the_Catnip_to_no_effect|402577490e4c",
+    "key": "output|e_capitalA_e_short_injects_the_Catnip_to_no_effect|c924050e98fb",
     "original": "e.capitalA+e.short+\" injects the Catnip to no effect.",
     "translation": "",
     "context": "<<POS:07929647>>"
@@ -45,100 +39,280 @@
     "key": "button|Safe|be7bbec7f952",
     "original": "Safe",
     "translation": "",
-    "context": "<<POS:07929976>>"
+    "context": "<<POS:07929976>> addButton(13,\"Safe\",(function(){clearOutput(),t.routeMenu(e,!1)}),\"Safe\",\"Enable safe mode. The system would check route availability before executing it.\")"
   },
   {
-    "key": "button|Override|68646822d013",
+    "key": "button.hover|Safe|be7bbec7f952",
+    "original": "Safe",
+    "translation": "",
+    "context": "<<POS:07930029>> addButton(13,\"Safe\",(function(){clearOutput(),t.routeMenu(e,!1)}),\"Safe\",\"Enable safe mode. The system would check route availability before executing it.\")"
+  },
+  {
+    "key": "button.tooltip|Enable_safe_mode_The_system_would_check_route_availability_befo|a4fc1966e4ff",
+    "original": "Enable safe mode. The system would check route availability before executing it.",
+    "translation": "",
+    "context": "<<POS:07930036>> addButton(13,\"Safe\",(function(){clearOutput(),t.routeMenu(e,!1)}),\"Safe\",\"Enable safe mode. The system would check route availability before executing it.\")"
+  },
+  {
+    "key": "button|Override|a53a1e6e9715",
     "original": "Override",
     "translation": "",
-    "context": "<<POS:07930134>>"
+    "context": "<<POS:07930134>> addButton(13,\"Override\",(function(){clearOutput(),t.routeMenu(e,!0)}),\"Override\",\"Enable override mode. The system would attempt to execute route without checking its availability.\\n<b>Warning:</b> This menu is for authorized personnel only.\\n<b>Warning:</b> Bypassing of safety protocols is not advi..."
   },
   {
-    "key": "button|Abort|a9b044548811",
+    "key": "button.hover|Override|a53a1e6e9715",
+    "original": "Override",
+    "translation": "",
+    "context": "<<POS:07930191>> addButton(13,\"Override\",(function(){clearOutput(),t.routeMenu(e,!0)}),\"Override\",\"Enable override mode. The system would attempt to execute route without checking its availability.\\n<b>Warning:</b> This menu is for authorized personnel only.\\n<b>Warning:</b> Bypassing of safety protocols is not advi..."
+  },
+  {
+    "key": "button.tooltip|Enable_override_mode_The_system_would_attempt_to_execute_route|d43a1c537395",
+    "original": "Enable override mode. The system would attempt to execute route without checking its availability.\\n<b>Warning:</b> This menu is for authorized personnel only.\\n<b>Warning:</b> Bypassing of safety protocols is not advised, those functions are called unsafe for a reason.",
+    "translation": "",
+    "context": "<<POS:07930202>> addButton(13,\"Override\",(function(){clearOutput(),t.routeMenu(e,!0)}),\"Override\",\"Enable override mode. The system would attempt to execute route without checking its availability.\\n<b>Warning:</b> This menu is for authorized personnel only.\\n<b>Warning:</b> Bypassing of safety protocols is not advi..."
+  },
+  {
+    "key": "button|Abort|7d55b1e9fb0b",
     "original": "Abort",
     "translation": "",
-    "context": "<<POS:07930489>>"
+    "context": "<<POS:07930489>> addButton(14,\"Abort\",(function(){return t.returnToInventory(t)}))"
   },
   {
     "key": "button|Minor|51038286ee37",
     "original": "Minor",
     "translation": "",
-    "context": "<<POS:07930649>>"
+    "context": "<<POS:07930649>> addButton(a++,\"Minor\",(function(){return t.routeGeneral(e)}),\"Minor\",\"Set of minor changes in body complexion.\")"
   },
   {
-    "key": "button|Ears|917bb56f8a95",
+    "key": "button.hover|Minor|51038286ee37",
+    "original": "Minor",
+    "translation": "",
+    "context": "<<POS:07930696>> addButton(a++,\"Minor\",(function(){return t.routeGeneral(e)}),\"Minor\",\"Set of minor changes in body complexion.\")"
+  },
+  {
+    "key": "button.tooltip|Set_of_minor_changes_in_body_complexion|b420e818bed1",
+    "original": "Set of minor changes in body complexion.",
+    "translation": "",
+    "context": "<<POS:07930704>> addButton(a++,\"Minor\",(function(){return t.routeGeneral(e)}),\"Minor\",\"Set of minor changes in body complexion.\")"
+  },
+  {
+    "key": "button|Ears|53f0b5225a96",
     "original": "Ears",
     "translation": "",
-    "context": "<<POS:07930894>>"
+    "context": "<<POS:07930894>> addButton(a++,\"Ears\",(function(){return t.routeEars(e)}),\"Ears\",\"Concentrate on ears.\")"
   },
   {
-    "key": "button|Tail|911f56d8690f",
+    "key": "button.hover|Ears|53f0b5225a96",
+    "original": "Ears",
+    "translation": "",
+    "context": "<<POS:07930937>> addButton(a++,\"Ears\",(function(){return t.routeEars(e)}),\"Ears\",\"Concentrate on ears.\")"
+  },
+  {
+    "key": "button.tooltip|Concentrate_on_ears|546e6d9d2675",
+    "original": "Concentrate on ears.",
+    "translation": "",
+    "context": "<<POS:07930944>> addButton(a++,\"Ears\",(function(){return t.routeEars(e)}),\"Ears\",\"Concentrate on ears.\")"
+  },
+  {
+    "key": "button|Tail|68374fb4bd83",
     "original": "Tail",
     "translation": "",
-    "context": "<<POS:07931111>>"
+    "context": "<<POS:07931111>> addButton(a++,\"Tail\",(function(){return t.routeTail(e)}),\"Tail\",\"Concentrate on tail.\")"
   },
   {
-    "key": "button|Genitals|fd68e929742b",
+    "key": "button.hover|Tail|68374fb4bd83",
+    "original": "Tail",
+    "translation": "",
+    "context": "<<POS:07931154>> addButton(a++,\"Tail\",(function(){return t.routeTail(e)}),\"Tail\",\"Concentrate on tail.\")"
+  },
+  {
+    "key": "button.tooltip|Concentrate_on_tail|7d70c5603ddf",
+    "original": "Concentrate on tail.",
+    "translation": "",
+    "context": "<<POS:07931161>> addButton(a++,\"Tail\",(function(){return t.routeTail(e)}),\"Tail\",\"Concentrate on tail.\")"
+  },
+  {
+    "key": "button|Genitals|22918b1b5348",
     "original": "Genitals",
     "translation": "",
-    "context": "<<POS:07931336>>"
+    "context": "<<POS:07931336>> addButton(a++,\"Genitals\",(function(){return t.routeGenitals(e)}),\"Genitals\",\"Concentrate on breasts and genitals.\")"
   },
   {
-    "key": "button|Eyes|678593e1b5f6",
+    "key": "button.hover|Genitals|22918b1b5348",
+    "original": "Genitals",
+    "translation": "",
+    "context": "<<POS:07931387>> addButton(a++,\"Genitals\",(function(){return t.routeGenitals(e)}),\"Genitals\",\"Concentrate on breasts and genitals.\")"
+  },
+  {
+    "key": "button.tooltip|Concentrate_on_breasts_and_genitals|599104422452",
+    "original": "Concentrate on breasts and genitals.",
+    "translation": "",
+    "context": "<<POS:07931398>> addButton(a++,\"Genitals\",(function(){return t.routeGenitals(e)}),\"Genitals\",\"Concentrate on breasts and genitals.\")"
+  },
+  {
+    "key": "button|Eyes|5e8b2707b002",
     "original": "Eyes",
     "translation": "",
-    "context": "<<POS:07931585>>"
+    "context": "<<POS:07931585>> addButton(a++,\"Eyes\",(function(){return t.routeEyes(e)}),\"Eyes\",\"Concentrate on eyes.\")"
   },
   {
-    "key": "button|Arms|92166406ae70",
+    "key": "button.hover|Eyes|5e8b2707b002",
+    "original": "Eyes",
+    "translation": "",
+    "context": "<<POS:07931628>> addButton(a++,\"Eyes\",(function(){return t.routeEyes(e)}),\"Eyes\",\"Concentrate on eyes.\")"
+  },
+  {
+    "key": "button.tooltip|Concentrate_on_eyes|1308fb68e8b7",
+    "original": "Concentrate on eyes.",
+    "translation": "",
+    "context": "<<POS:07931635>> addButton(a++,\"Eyes\",(function(){return t.routeEyes(e)}),\"Eyes\",\"Concentrate on eyes.\")"
+  },
+  {
+    "key": "button|Arms|35e26546e0e8",
     "original": "Arms",
     "translation": "",
-    "context": "<<POS:07931833>>"
+    "context": "<<POS:07931833>> addButton(a++,\"Arms\",(function(){return t.routeArms(e)}),\"Arms\",\"Concentrate on arms.\")"
   },
   {
-    "key": "button|Skin|298e470f2646",
+    "key": "button.hover|Arms|35e26546e0e8",
+    "original": "Arms",
+    "translation": "",
+    "context": "<<POS:07931876>> addButton(a++,\"Arms\",(function(){return t.routeArms(e)}),\"Arms\",\"Concentrate on arms.\")"
+  },
+  {
+    "key": "button.tooltip|Concentrate_on_arms|8aec24b6896d",
+    "original": "Concentrate on arms.",
+    "translation": "",
+    "context": "<<POS:07931883>> addButton(a++,\"Arms\",(function(){return t.routeArms(e)}),\"Arms\",\"Concentrate on arms.\")"
+  },
+  {
+    "key": "button|Skin|89af45979f43",
     "original": "Skin",
     "translation": "",
-    "context": "<<POS:07932113>>"
+    "context": "<<POS:07932113>> addButton(a++,\"Skin\",(function(){return t.routeSkin(e)}),\"Skin\",\"Concentrate on skin.\")"
   },
   {
-    "key": "button|Legs|0f6b062a263a",
+    "key": "button.hover|Skin|89af45979f43",
+    "original": "Skin",
+    "translation": "",
+    "context": "<<POS:07932156>> addButton(a++,\"Skin\",(function(){return t.routeSkin(e)}),\"Skin\",\"Concentrate on skin.\")"
+  },
+  {
+    "key": "button.tooltip|Concentrate_on_skin|97536f1c566c",
+    "original": "Concentrate on skin.",
+    "translation": "",
+    "context": "<<POS:07932163>> addButton(a++,\"Skin\",(function(){return t.routeSkin(e)}),\"Skin\",\"Concentrate on skin.\")"
+  },
+  {
+    "key": "button|Legs|3fbf6bc0ec75",
     "original": "Legs",
     "translation": "",
-    "context": "<<POS:07932568>>"
+    "context": "<<POS:07932568>> addButton(a++,\"Legs\",(function(){return t.routeLegs(e)}),\"Legs\",\"Concentrate on legs.\")"
   },
   {
-    "key": "button|2_Legs|d02ef5a309a4",
+    "key": "button.hover|Legs|3fbf6bc0ec75",
+    "original": "Legs",
+    "translation": "",
+    "context": "<<POS:07932611>> addButton(a++,\"Legs\",(function(){return t.routeLegs(e)}),\"Legs\",\"Concentrate on legs.\")"
+  },
+  {
+    "key": "button.tooltip|Concentrate_on_legs|94845630defa",
+    "original": "Concentrate on legs.",
+    "translation": "",
+    "context": "<<POS:07932618>> addButton(a++,\"Legs\",(function(){return t.routeLegs(e)}),\"Legs\",\"Concentrate on legs.\")"
+  },
+  {
+    "key": "button|2_Legs|19a475d02c85",
     "original": "2 Legs",
     "translation": "",
-    "context": "<<POS:07932848>>"
+    "context": "<<POS:07932848>> addButton(a++,\"2 Legs\",(function(){return t.routeLegs(e)}),\"Two Legs\",\"Concentrate on legs. Default bipedal humanoid stance route.\")"
   },
   {
-    "key": "button|4_Legs|45cb33bf6ea9",
+    "key": "button.hover|Two_Legs|b59081e40c97",
+    "original": "Two Legs",
+    "translation": "",
+    "context": "<<POS:07932893>> addButton(a++,\"2 Legs\",(function(){return t.routeLegs(e)}),\"Two Legs\",\"Concentrate on legs. Default bipedal humanoid stance route.\")"
+  },
+  {
+    "key": "button.tooltip|Concentrate_on_legs_Default_bipedal_humanoid_stance_route|a52a634acd7d",
+    "original": "Concentrate on legs. Default bipedal humanoid stance route.",
+    "translation": "",
+    "context": "<<POS:07932904>> addButton(a++,\"2 Legs\",(function(){return t.routeLegs(e)}),\"Two Legs\",\"Concentrate on legs. Default bipedal humanoid stance route.\")"
+  },
+  {
+    "key": "button|4_Legs|1874d0d14574",
     "original": "4 Legs",
     "translation": "",
-    "context": "<<POS:07933089>>"
+    "context": "<<POS:07933089>> addButton(a++,\"4 Legs\",(function(){return t.routeLegs4(e)}),\"Four Legs\",\"Concentrate on legs. Legacy quadripedal tauric stance route.\")"
   },
   {
-    "key": "button|6_Legs|aa1708713ce8",
+    "key": "button.hover|Four_Legs|5e9b4452a7c9",
+    "original": "Four Legs",
+    "translation": "",
+    "context": "<<POS:07933135>> addButton(a++,\"4 Legs\",(function(){return t.routeLegs4(e)}),\"Four Legs\",\"Concentrate on legs. Legacy quadripedal tauric stance route.\")"
+  },
+  {
+    "key": "button.tooltip|Concentrate_on_legs_Legacy_quadripedal_tauric_stance_route|d0171e8515b9",
+    "original": "Concentrate on legs. Legacy quadripedal tauric stance route.",
+    "translation": "",
+    "context": "<<POS:07933147>> addButton(a++,\"4 Legs\",(function(){return t.routeLegs4(e)}),\"Four Legs\",\"Concentrate on legs. Legacy quadripedal tauric stance route.\")"
+  },
+  {
+    "key": "button|6_Legs|10a79a285a5a",
     "original": "6 Legs",
     "translation": "",
-    "context": "<<POS:07933281>>"
+    "context": "<<POS:07933281>> addButton(a++,\"6 Legs\",(function(){return t.routeLegs6(e)}),\"Six Legs\",\"Concentrate on legs. Hexapedal version of legacy tauric stance route.\")"
   },
   {
-    "key": "button|Face|006963b2dfb6",
+    "key": "button.hover|Six_Legs|01a48022fff3",
+    "original": "Six Legs",
+    "translation": "",
+    "context": "<<POS:07933327>> addButton(a++,\"6 Legs\",(function(){return t.routeLegs6(e)}),\"Six Legs\",\"Concentrate on legs. Hexapedal version of legacy tauric stance route.\")"
+  },
+  {
+    "key": "button.tooltip|Concentrate_on_legs_Hexapedal_version_of_legacy_tauric_stance_r|dc400d0e10e2",
+    "original": "Concentrate on legs. Hexapedal version of legacy tauric stance route.",
+    "translation": "",
+    "context": "<<POS:07933338>> addButton(a++,\"6 Legs\",(function(){return t.routeLegs6(e)}),\"Six Legs\",\"Concentrate on legs. Hexapedal version of legacy tauric stance route.\")"
+  },
+  {
+    "key": "button|Face|74bb46b07cce",
     "original": "Face",
     "translation": "",
-    "context": "<<POS:07933521>>"
+    "context": "<<POS:07933521>> addButton(a++,\"Face\",(function(){return t.routeFace(e)}),\"Face\",\"Concentrate on face.\")"
   },
   {
-    "key": "button|Default|5ce8a8796ecb",
+    "key": "button.hover|Face|74bb46b07cce",
+    "original": "Face",
+    "translation": "",
+    "context": "<<POS:07933564>> addButton(a++,\"Face\",(function(){return t.routeFace(e)}),\"Face\",\"Concentrate on face.\")"
+  },
+  {
+    "key": "button.tooltip|Concentrate_on_face|ad8f6b0f24a6",
+    "original": "Concentrate on face.",
+    "translation": "",
+    "context": "<<POS:07933571>> addButton(a++,\"Face\",(function(){return t.routeFace(e)}),\"Face\",\"Concentrate on face.\")"
+  },
+  {
+    "key": "button|Default|3fa94bd04899",
     "original": "Default",
     "translation": "",
-    "context": "<<POS:07933784>>"
+    "context": "<<POS:07933784>> addButton(0,\"Default\",(function(){return t.routeDefault(e)}),\"Default Route\",\"Let it detect and execute most efficient route.\")"
   },
   {
-    "key": "output|n|8627eec8c200",
+    "key": "button.hover|Default_Route|314dfd925391",
+    "original": "Default Route",
+    "translation": "",
+    "context": "<<POS:07933833>> addButton(0,\"Default\",(function(){return t.routeDefault(e)}),\"Default Route\",\"Let it detect and execute most efficient route.\")"
+  },
+  {
+    "key": "button.tooltip|Let_it_detect_and_execute_most_efficient_route|69151b1724af",
+    "original": "Let it detect and execute most efficient route.",
+    "translation": "",
+    "context": "<<POS:07933849>> addButton(0,\"Default\",(function(){return t.routeDefault(e)}),\"Default Route\",\"Let it detect and execute most efficient route.\")"
+  },
+  {
+    "key": "output|n|d2ff8e21a8c0",
     "original": "n",
     "translation": "",
     "context": "<<POS:07933909>>"
@@ -150,10 +324,10 @@
     "context": "<<POS:07934466>>"
   },
   {
-    "key": "output|n_nSomething_is_shifting_inside_you_and_you_suddenly_feel_you|12cfa51f90e4",
-    "original": "\\n\\nSomething is shifting inside you, and you suddenly feel you can move with less effort. <b>It looks like you lose some weight!</b> ",
+    "key": "output|Something_is_shifting_inside_you_and_you_suddenly_feel_you_can|8475ff695e6f",
+    "original": "Something is shifting inside you, and you suddenly feel you can move with less effort. <b>It looks like you lose some weight!</b> ",
     "translation": "",
-    "context": "<<POS:07934557>>"
+    "context": "<<POS:07934561>>"
   },
   {
     "key": "output|It_doesn_t_look_like_your_muscles_are_affected_though_if_anyt|1f71368a4303",
@@ -162,58 +336,58 @@
     "context": "<<POS:07934738>>"
   },
   {
-    "key": "output|n_nA_sudden_tightness_overtakes_your_midsection_A_searing_pain|24dc154dd6cb",
-    "original": "\\n\\nA sudden tightness overtakes your midsection. A searing pain flashes through you, as though your bones themselves were changing. Your hips reshape themselves, becoming more slender, leaving you <b>a little less curvy.</b>",
+    "key": "output|A_sudden_tightness_overtakes_your_midsection_A_searing_pain_fla|5bdae8a05915",
+    "original": "A sudden tightness overtakes your midsection. A searing pain flashes through you, as though your bones themselves were changing. Your hips reshape themselves, becoming more slender, leaving you <b>a little less curvy.</b>",
     "translation": "",
-    "context": "<<POS:07934898>>"
+    "context": "<<POS:07934902>>"
   },
   {
-    "key": "output|n_nYour_butt_all_of_a_sudden_feels_tight_as_though_you_were_we|aaf2d465b769",
-    "original": "\\n\\nYour butt all of a sudden feels tight, as though you were wearing a pair of pants two sizes too small. You wince and grip your buttocks, and feel it losing mass under your hand. After a moment, you’re left with a much <b>smaller, less curvy butt.</b>",
+    "key": "output|Your_butt_all_of_a_sudden_feels_tight_as_though_you_were_wearin|89acbfa83e74",
+    "original": "Your butt all of a sudden feels tight, as though you were wearing a pair of pants two sizes too small. You wince and grip your buttocks, and feel it losing mass under your hand. After a moment, you’re left with a much <b>smaller, less curvy butt.</b>",
     "translation": "",
-    "context": "<<POS:07935347>>"
+    "context": "<<POS:07935351>>"
   },
   {
-    "key": "output|n_nYou_feel_a_slight_change_in_your_facial_structure_When_they|3059fd37544c",
-    "original": "\\n\\nYou feel a slight change in your facial structure. When they finish, <b>your gender traits are less pronounced</b>!",
+    "key": "output|You_feel_a_slight_change_in_your_facial_structure_When_they_fin|f77b7888144c",
+    "original": "You feel a slight change in your facial structure. When they finish, <b>your gender traits are less pronounced</b>!",
     "translation": "",
-    "context": "<<POS:07935927>>"
+    "context": "<<POS:07935931>>"
   },
   {
-    "key": "output|n_nYou_feel_your_pc_lips_pucker_reflexively_relaxing_only_to|f22e2d0b915f",
-    "original": "\\n\\nYou feel your [pc.lips] pucker reflexively, relaxing only to feel thinner and less pouty than before. <b>Your lips are less pronounced.</b>",
+    "key": "output|You_feel_your_pc_lips_pucker_reflexively_relaxing_only_to_fee|b9362fe2b84d",
+    "original": "You feel your [pc.lips] pucker reflexively, relaxing only to feel thinner and less pouty than before. <b>Your lips are less pronounced.</b>",
     "translation": "",
-    "context": "<<POS:07936105>>"
+    "context": "<<POS:07936109>>"
   },
   {
-    "key": "output|n_nYour_pc_face_is_now_very_confusing_it_would_work_on_eith|526bb317aeb8",
-    "original": "\\n\\nYour [pc.face] is now very confusing — it would work on either a male or a female. And, according to your Codex, your microsurgeons are now attuned to keep it so.",
+    "key": "output|Your_pc_face_is_now_very_confusing_it_would_work_on_either_a|f85978cfa6a6",
+    "original": "Your [pc.face] is now very confusing — it would work on either a male or a female. And, according to your Codex, your microsurgeons are now attuned to keep it so.",
     "translation": "",
-    "context": "<<POS:07936426>>"
+    "context": "<<POS:07936430>>"
   },
   {
     "key": "perk|Feline_Androgyny|0f86141a5584",
     "original": "Feline Androgyny",
     "translation": "",
-    "context": "<<POS:07936609>>"
+    "context": "<<POS:07936609>> createPerk(\"Feline Androgyny\",0,0,0,0,\"Your face is always androgynous.\")"
   },
   {
-    "key": "output|n_n_b_Perk_Gained_Androgyny_b|2d8bfa66c80f",
-    "original": "\\n\\n(<b>Perk Gained: Androgyny</b>)",
+    "key": "output|b_Perk_Gained_Androgyny_b|155137f508f2",
+    "original": "(<b>Perk Gained: Androgyny</b>)",
     "translation": "",
-    "context": "<<POS:07936679>>"
+    "context": "<<POS:07936683>>"
   },
   {
-    "key": "output|n_nYou_shudder_violently_as_waves_of_pleasure_suddenly_shoot_up|ce4b62a994f1",
-    "original": "\\n\\nYou shudder violently as waves of pleasure suddenly shoot up in your [pc.vagOrAss]. You guide your fingers inside, finding that <b>you can stretch your insides more than ever before without discomfort</b> despite unaltered tightness.",
+    "key": "output|You_shudder_violently_as_waves_of_pleasure_suddenly_shoot_up_in|cee6520bd5a1",
+    "original": "You shudder violently as waves of pleasure suddenly shoot up in your [pc.vagOrAss]. You guide your fingers inside, finding that <b>you can stretch your insides more than ever before without discomfort</b> despite unaltered tightness.",
     "translation": "",
-    "context": "<<POS:07936778>>"
+    "context": "<<POS:07936782>>"
   },
   {
-    "key": "output|n_nYou_feel_a_rumbling_in_your_gut_and_a_strange_half_pleasure|72a2bba2dcb7",
-    "original": "\\n\\nYou feel a rumbling in your gut and a strange half-pleasure sensation spreading up from your [pc.asshole]. <b>After giving your backdoor an experimental poke, your find it ",
+    "key": "output|You_feel_a_rumbling_in_your_gut_and_a_strange_half_pleasure_sens|86ca83bc5b75",
+    "original": "You feel a rumbling in your gut and a strange half-pleasure sensation spreading up from your [pc.asshole]. <b>After giving your backdoor an experimental poke, your find it ",
     "translation": "",
-    "context": "<<POS:07937150>>"
+    "context": "<<POS:07937154>>"
   },
   {
     "key": "output|compressToList_n_b_than_it_was_before|8fc3cd408102",
@@ -222,22 +396,22 @@
     "context": "<<POS:07937660>>"
   },
   {
-    "key": "output|n_nYou_feel_something_odd_in_your_joints_After_some_experiment|5638f63e2777",
-    "original": "\\n\\nYou feel something odd in your joints. After some experimental stretching you’ve found yourself able to fold in entirely unnatural ways - you can effortlessly touch the base of your tail with your nose, folding both forward and backward alike! You already have kinky ideas of putting this into some use.",
+    "key": "output|You_feel_something_odd_in_your_joints_After_some_experimental_s|04629b2df7a2",
+    "original": "You feel something odd in your joints. After some experimental stretching you’ve found yourself able to fold in entirely unnatural ways - you can effortlessly touch the base of your tail with your nose, folding both forward and backward alike! You already have kinky ideas of putting this into some use.",
     "translation": "",
-    "context": "<<POS:07937894>>"
+    "context": "<<POS:07937898>>"
   },
   {
-    "key": "output|n_n_b_Perk_Gained_Flexibility_b_You_can_bend_and_stretch|62f347c8b9b1",
-    "original": "\\n\\n(<b>Perk Gained: Flexibility</b> - You can bend and stretch more than most other creatures.)",
+    "key": "output|b_Perk_Gained_Flexibility_b_You_can_bend_and_stretch_more|87191e851066",
+    "original": "(<b>Perk Gained: Flexibility</b> - You can bend and stretch more than most other creatures.)",
     "translation": "",
-    "context": "<<POS:07938212>>"
+    "context": "<<POS:07938216>>"
   },
   {
     "key": "perk|Flexibility|585853b3b9c1",
     "original": "Flexibility",
     "translation": "",
-    "context": "<<POS:07938325>>"
+    "context": "<<POS:07938325>> createPerk(\"Flexibility\",0,0,0,0,\"You can bend and stretch more easily than normal.\")"
   },
   {
     "key": "output|Executing_route_genitals|6d7debb7c4aa",
@@ -246,10 +420,10 @@
     "context": "<<POS:07939669>>"
   },
   {
-    "key": "output|n_nA_tickling_teasing_sensation_flutters_across_your_nether_li|41d2ea322c40",
-    "original": "\\n\\nA tickling, teasing sensation flutters across your nether-lips",
+    "key": "output|A_tickling_teasing_sensation_flutters_across_your_nether_lips|b839775af2d6",
+    "original": "A tickling, teasing sensation flutters across your nether-lips",
     "translation": "",
-    "context": "<<POS:07939870>>"
+    "context": "<<POS:07939874>>"
   },
   {
     "key": "output|both_sets|7666441aa453",
@@ -318,10 +492,10 @@
     "context": "<<POS:07940666>>"
   },
   {
-    "key": "output|n_nYou_feel_a_strange_pleasure_sensation_spreading_up_from_your|68b7893d4004",
-    "original": "\\n\\nYou feel a strange pleasure sensation spreading up from your [pc.vagina \"+o+\"]. <b>After giving your muff an experimental poke, you find it ",
+    "key": "output|You_feel_a_strange_pleasure_sensation_spreading_up_from_your_pc|a93f3ea95cf1",
+    "original": "You feel a strange pleasure sensation spreading up from your [pc.vagina \"+o+\"]. <b>After giving your muff an experimental poke, you find it ",
     "translation": "",
-    "context": "<<POS:07940995>>"
+    "context": "<<POS:07940999>>"
   },
   {
     "key": "output|compressToList_a_b_than_it_was_before|eb57abce1f57",
@@ -330,10 +504,10 @@
     "context": "<<POS:07941637>>"
   },
   {
-    "key": "output|n_nTipping_backward_you_flail_your_arms_frantically_to_keep_yo|54d7f173ddea",
-    "original": "\\n\\nTipping backward, you flail your arms frantically to keep your balance. Once you right, you realize what happened; <b>your [pc.chest] have lost a bit of weight, dropping you down to ",
+    "key": "output|Tipping_backward_you_flail_your_arms_frantically_to_keep_your_b|2da00eb5d717",
+    "original": "Tipping backward, you flail your arms frantically to keep your balance. Once you right, you realize what happened; <b>your [pc.chest] have lost a bit of weight, dropping you down to ",
     "translation": "",
-    "context": "<<POS:07942097>>"
+    "context": "<<POS:07942101>>"
   },
   {
     "key": "output|e_breastRows_0_breastRating_0_0_e_breastCup_0_flat_s|c31e4e421efd",
@@ -354,10 +528,10 @@
     "context": "<<POS:07942941>>"
   },
   {
-    "key": "output|n_nAn_unpleasant_twinge_of_nerves_brings_your_attention_to_your|62b85c4f3a8a",
-    "original": "\\n\\nAn unpleasant twinge of nerves brings your attention to your nipples.",
+    "key": "output|An_unpleasant_twinge_of_nerves_brings_your_attention_to_your_nip|1730ea810949",
+    "original": "An unpleasant twinge of nerves brings your attention to your nipples.",
     "translation": "",
-    "context": "<<POS:07943224>>"
+    "context": "<<POS:07943228>>"
   },
   {
     "key": "output|You_quickly_undress_to_investigate|b276f0f47a78",
@@ -378,16 +552,16 @@
     "context": "<<POS:07943709>>"
   },
   {
-    "key": "output|n_n_e_nippleTypeLockedMessage|dab3268da1b1",
-    "original": "\\n\\n\"+e.nippleTypeLockedMessage()",
+    "key": "output|e_nippleTypeLockedMessage|62310779dd8e",
+    "original": "\"+e.nippleTypeLockedMessage()",
     "translation": "",
-    "context": "<<POS:07943756>>"
+    "context": "<<POS:07943760>>"
   },
   {
-    "key": "output|n_nYour_pc_cock_g_tingles_making_your_groin_feel_a_littl|7132144cd913",
-    "original": "\\n\\nYour [pc.cock \"+g+\"] tingles, making your groin feel a little lighter. ",
+    "key": "output|Your_pc_cock_g_tingles_making_your_groin_feel_a_little_li|e183f5fb8e70",
+    "original": "Your [pc.cock \"+g+\"] tingles, making your groin feel a little lighter. ",
     "translation": "",
-    "context": "<<POS:07944118>>"
+    "context": "<<POS:07944122>>"
   },
   {
     "key": "output|It_b_dwindles_in_size_b_shrinking_to_its_new_length_of_b|b92f0b891d54",
@@ -420,13 +594,13 @@
     "context": "<<POS:07944971>>"
   },
   {
-    "key": "output|n_nYour_pc_cock_g_throbs_suddenly|061c815469f9",
-    "original": "\\n\\nYour [pc.cock \"+g+\"] throbs suddenly ",
+    "key": "output|Your_pc_cock_g_throbs_suddenly|2962fa5841a6",
+    "original": "Your [pc.cock \"+g+\"] throbs suddenly ",
     "translation": "",
-    "context": "<<POS:07945169>>"
+    "context": "<<POS:07945173>>"
   },
   {
-    "key": "output|in_it_s_sheath|9b4f6fe44bb9",
+    "key": "output|in_it_s_sheath|b52513fa45f0",
     "original": "in it’s sheath",
     "translation": "",
     "context": "<<POS:07945259>>"
@@ -504,10 +678,10 @@
     "context": "<<POS:07947094>>"
   },
   {
-    "key": "output|n_nYou_spend_a_few_moments_collecting_yourself_cleaning_the_sp|f8623b9e0812",
-    "original": "\\n\\nYou spend a few moments collecting yourself, cleaning the spunk off your <b>\"+(e.cocks[g].cType!==GLOBAL.TYPE_FELINE?\"new\":\"improved\")+\" kitty pecker</b>.",
+    "key": "output|You_spend_a_few_moments_collecting_yourself_cleaning_the_spunk|75cba3cb7bea",
+    "original": "You spend a few moments collecting yourself, cleaning the spunk off your <b>\"+(e.cocks[g].cType!==GLOBAL.TYPE_FELINE?\"new\":\"improved\")+\" kitty pecker</b>.",
     "translation": "",
-    "context": "<<POS:07947215>>"
+    "context": "<<POS:07947219>>"
   },
   {
     "key": "output|e_cockTypeLockedMessage|1bc8b9a91768",
@@ -516,10 +690,10 @@
     "context": "<<POS:07947589>>"
   },
   {
-    "key": "output|n_nSomething_pinches_your_pc_balls_through_your_pc_sack_bu|ae65b3618e01",
-    "original": "\\n\\nSomething pinches your [pc.balls] through your [pc.sack], but you can’t seem to see anything that could possibly be hurting you down there. That riddle is solved when ",
+    "key": "output|Something_pinches_your_pc_balls_through_your_pc_sack_but_yo|4015c6b196f3",
+    "original": "Something pinches your [pc.balls] through your [pc.sack], but you can’t seem to see anything that could possibly be hurting you down there. That riddle is solved when ",
     "translation": "",
-    "context": "<<POS:07947845>>"
+    "context": "<<POS:07947849>>"
   },
   {
     "key": "output|they_start|20f008219faf",
@@ -600,10 +774,10 @@
     "context": "<<POS:07948590>>"
   },
   {
-    "key": "output|n_nYou_gasp_and_bunch_your_fists_as_what_feels_like_a_soft_vice|f85de4211c41",
-    "original": "\\n\\nYou gasp and bunch your fists as what feels like a soft vice clamps down on your balls, pushing them upwards and inwards. It’s not painful exactly but whatever is happening to them is intense enough for sweat to stand out on your brow. When the sensation dissipates somewhat, you slide a hand downstairs uncertainly. <b>You’ve grown a tight-fitting pouch</b> which holds your [pc.balls] up to the back of your thighs.",
+    "key": "output|You_gasp_and_bunch_your_fists_as_what_feels_like_a_soft_vice_cla|06e6cedc6cde",
+    "original": "You gasp and bunch your fists as what feels like a soft vice clamps down on your balls, pushing them upwards and inwards. It’s not painful exactly but whatever is happening to them is intense enough for sweat to stand out on your brow. When the sensation dissipates somewhat, you slide a hand downstairs uncertainly. <b>You’ve grown a tight-fitting pouch</b> which holds your [pc.balls] up to the back of your thighs.",
     "translation": "",
-    "context": "<<POS:07948680>>"
+    "context": "<<POS:07948684>>"
   },
   {
     "key": "output|Exception_Route_has_no_targets_available_Requesting_instructi|d5c4499267de",
@@ -612,13 +786,13 @@
     "context": "<<POS:07949181>>"
   },
   {
-    "key": "output|n_nA_swollen_lump_of_flesh_appears|10768fba4d7e",
-    "original": "\\n\\nA swollen lump of flesh appears ",
+    "key": "output|A_swollen_lump_of_flesh_appears|15fba1e2dd4b",
+    "original": "A swollen lump of flesh appears ",
     "translation": "",
-    "context": "<<POS:07949397>>"
+    "context": "<<POS:07949401>>"
   },
   {
-    "key": "output|right_above_your_pc_sack|0da06450e2fa",
+    "key": "output|right_above_your_pc_sack|89a92a126ad5",
     "original": "right above your [pc.sack]",
     "translation": "",
     "context": "<<POS:07949454>>"
@@ -648,10 +822,10 @@
     "context": "<<POS:07950215>>"
   },
   {
-    "key": "output|n_nA_flash_of_sickening_sensation_ripples_through_your_pc_sack|094c7b82dfd3",
-    "original": "\\n\\nA flash of sickening sensation ripples through your [pc.sack], and you can feel the skin pulling upward. The discomfort rises as you close your eyes and realize with some trepidation that your testicle",
+    "key": "output|A_flash_of_sickening_sensation_ripples_through_your_pc_sack_a|f8759eefe702",
+    "original": "A flash of sickening sensation ripples through your [pc.sack], and you can feel the skin pulling upward. The discomfort rises as you close your eyes and realize with some trepidation that your testicle",
     "translation": "",
-    "context": "<<POS:07950394>>"
+    "context": "<<POS:07950398>>"
   },
   {
     "key": "output|s_are|9da8905d4919",
@@ -708,16 +882,16 @@
     "context": "<<POS:07950906>>"
   },
   {
-    "key": "output|n_nSweat_beads_on_your_suddenly_overheated_brow_Your_heart_is|6da6bc3ed2e3",
-    "original": "\\n\\nSweat beads on your suddenly overheated brow. Your heart is pounding, and the air seems obscenely humid. Groaning in discomfort, you press your moist palms against your [pc.belly], feeling your body temperature rise even higher. Swaying uncertainly, you sink to the ground, confused and uncomfortable.",
+    "key": "output|Sweat_beads_on_your_suddenly_overheated_brow_Your_heart_is_poun|c6e30a2d509b",
+    "original": "Sweat beads on your suddenly overheated brow. Your heart is pounding, and the air seems obscenely humid. Groaning in discomfort, you press your moist palms against your [pc.belly], feeling your body temperature rise even higher. Swaying uncertainly, you sink to the ground, confused and uncomfortable.",
     "translation": "",
-    "context": "<<POS:07951134>>"
+    "context": "<<POS:07951138>>"
   },
   {
-    "key": "output|n_nThen_you_feel_it_an_unmistakable_pleasant_wetness_It_is|439a8d39dc6d",
-    "original": "\\n\\nThen, you feel it - an unmistakable, pleasant wetness. It isn’t your seemingly omnipresent sweat either, but something else, something altogether slipperier. New-grown nerves revel in your new, slickened state, unveiling a whole new palette of exquisite feelings, revealing a fleshy, sensitive crease ",
+    "key": "output|Then_you_feel_it_an_unmistakable_pleasant_wetness_It_isn_t|f3b64c5133da",
+    "original": "Then, you feel it - an unmistakable, pleasant wetness. It isn’t your seemingly omnipresent sweat either, but something else, something altogether slipperier. New-grown nerves revel in your new, slickened state, unveiling a whole new palette of exquisite feelings, revealing a fleshy, sensitive crease ",
     "translation": "",
-    "context": "<<POS:07951450>>"
+    "context": "<<POS:07951454>>"
   },
   {
     "key": "output|just_behind_your_pc_balls|1a9c80bb58ff",
@@ -744,10 +918,10 @@
     "context": "<<POS:07951893>>"
   },
   {
-    "key": "output|n_nFeeling_much_better_you_gingerly_remove_your_pc_girlCumNou|214e3149136d",
-    "original": "\\n\\nFeeling much better, you gingerly remove your [pc.girlCumNoun]-soaked digits from yourself and give the feminine addition a serious look.",
+    "key": "output|Feeling_much_better_you_gingerly_remove_your_pc_girlCumNoun_s|fc76658671b0",
+    "original": "Feeling much better, you gingerly remove your [pc.girlCumNoun]-soaked digits from yourself and give the feminine addition a serious look.",
     "translation": "",
-    "context": "<<POS:07952009>>"
+    "context": "<<POS:07952013>>"
   },
   {
     "key": "output|b_You_ve_got_a_pretty_pink_little_pussy_b_You_ll_have_to|54d3c5f669c6",
@@ -756,10 +930,10 @@
     "context": "<<POS:07952316>>"
   },
   {
-    "key": "output|n_nAn_odd_sensation_overtakes_you_Your_entire_body_shivers_as|baeaaee5b004",
-    "original": "\\n\\nAn odd sensation overtakes you. Your entire body shivers, as flesh is rippling around your [pc.crotch], forming a new... slit? After some experiments with internal muscles, you’ve found that you can pull your genitals in and push them out at will.",
+    "key": "output|An_odd_sensation_overtakes_you_Your_entire_body_shivers_as_fle|bfdba8da7114",
+    "original": "An odd sensation overtakes you. Your entire body shivers, as flesh is rippling around your [pc.crotch], forming a new... slit? After some experiments with internal muscles, you’ve found that you can pull your genitals in and push them out at will.",
     "translation": "",
-    "context": "<<POS:07952513>>"
+    "context": "<<POS:07952517>>"
   },
   {
     "key": "output|Strangely_enough_you_still_have_an_animalistic_sheath_that_of|d6f7b663195b",
@@ -780,10 +954,10 @@
     "context": "<<POS:07953059>>"
   },
   {
-    "key": "output|n_nWhat_the_hell_Looks_like_bypassing_safety_is_not_always_a_g|9a40c3536fcc",
-    "original": "\\n\\nWhat the hell? Looks like bypassing safety is not always a good idea... Well, this isn’t the worst thing which can happen. At least this surprise is not really unpleasant.",
+    "key": "output|What_the_hell_Looks_like_bypassing_safety_is_not_always_a_good|6e8f7ba82359",
+    "original": "What the hell? Looks like bypassing safety is not always a good idea... Well, this isn’t the worst thing which can happen. At least this surprise is not really unpleasant.",
     "translation": "",
-    "context": "<<POS:07953187>>"
+    "context": "<<POS:07953191>>"
   },
   {
     "key": "output|Executing_route_tail|c08d8140e0eb",
@@ -792,22 +966,22 @@
     "context": "<<POS:07953603>>"
   },
   {
-    "key": "output|n_nYou_feel_something_itching_on_your_pc_tail_Twisting_aroun|a968f5a6e575",
-    "original": "\\n\\nYou feel something itching on your [pc.tail]. Twisting around, you watch in a mix of horror and excitement as [pc.furColor] bristles, the beginnings of a thin coat of fur, sprout up across the length of your reforming posterior appendage. It starts curling and twisting as the change completes, leaving you with a <b>feline tail.</b>",
+    "key": "output|You_feel_something_itching_on_your_pc_tail_Twisting_around_y|44b295b06fed",
+    "original": "You feel something itching on your [pc.tail]. Twisting around, you watch in a mix of horror and excitement as [pc.furColor] bristles, the beginnings of a thin coat of fur, sprout up across the length of your reforming posterior appendage. It starts curling and twisting as the change completes, leaving you with a <b>feline tail.</b>",
     "translation": "",
-    "context": "<<POS:07953758>>"
+    "context": "<<POS:07953762>>"
   },
   {
-    "key": "output|n_nYour_pc_tails_knot_together_torturing_you_with_brief_conv|15ffc13e7b55",
-    "original": "\\n\\nYour [pc.tails] knot together, torturing you with brief convulsions. A kind of numb heat spreads through them, forcing you to twist about for a visual inspection. They’re merging together into a single, narrow entity. The flesh crawls eerily, as it assumes its new shape. Hairs sprout out of it while you watch, thickening into a coat of [pc.furColor] fur. <b>Your [pc.tails] have combined into a single feline tail.</b>",
+    "key": "output|Your_pc_tails_knot_together_torturing_you_with_brief_convulsi|c5b4ff990f81",
+    "original": "Your [pc.tails] knot together, torturing you with brief convulsions. A kind of numb heat spreads through them, forcing you to twist about for a visual inspection. They’re merging together into a single, narrow entity. The flesh crawls eerily, as it assumes its new shape. Hairs sprout out of it while you watch, thickening into a coat of [pc.furColor] fur. <b>Your [pc.tails] have combined into a single feline tail.</b>",
     "translation": "",
-    "context": "<<POS:07954120>>"
+    "context": "<<POS:07954124>>"
   },
   {
-    "key": "output|n_nOuch_A_knot_of_discomfort_forms_just_above_your_pc_butt_a|047850a7bc3f",
-    "original": "\\n\\nOuch! A knot of discomfort forms just above your [pc.butt] as if it had suffered a nasty sting or bite, but no such injury occurred. You twist for a look at it",
+    "key": "output|Ouch_A_knot_of_discomfort_forms_just_above_your_pc_butt_as_if|910d2b4e71e5",
+    "original": "Ouch! A knot of discomfort forms just above your [pc.butt] as if it had suffered a nasty sting or bite, but no such injury occurred. You twist for a look at it",
     "translation": "",
-    "context": "<<POS:07954556>>"
+    "context": "<<POS:07954560>>"
   },
   {
     "key": "output|peeling_back_your_pc_underGarments|4363ecaf69d9",
@@ -858,16 +1032,16 @@
     "context": "<<POS:07956613>>"
   },
   {
-    "key": "output|n_nYour_pc_tails_suddenly_start_e_tailCount_1_s_cur|e390e14c8d73",
-    "original": "\\n\\nYour [pc.tails] suddenly start\"+(e.tailCount>1?\"\":\"s\")+\" curling and twisting, growing even longer and notably thicker. <b>Your [pc.tails] \"+(e.tailCount>1?\"are\":\"is\")+\" now prehensile.</b>",
+    "key": "output|Your_pc_tails_suddenly_start_e_tailCount_1_s_curling|d21bcb241c4d",
+    "original": "Your [pc.tails] suddenly start\"+(e.tailCount>1?\"\":\"s\")+\" curling and twisting, growing even longer and notably thicker. <b>Your [pc.tails] \"+(e.tailCount>1?\"are\":\"is\")+\" now prehensile.</b>",
     "translation": "",
-    "context": "<<POS:07956781>>"
+    "context": "<<POS:07956785>>"
   },
   {
-    "key": "output|n_nIt_looks_like_bypassing_safety_can_be_a_good_idea_sometimes|4e1c0c4403b1",
-    "original": "\\n\\nIt looks like bypassing safety can be a good idea sometimes! Your appendage\"+(e.tailCount>1?\"s are\":\" is\")+\" definitely better now.",
+    "key": "output|It_looks_like_bypassing_safety_can_be_a_good_idea_sometimes_You|647265330c04",
+    "original": "It looks like bypassing safety can be a good idea sometimes! Your appendage\"+(e.tailCount>1?\"s are\":\" is\")+\" definitely better now.",
     "translation": "",
-    "context": "<<POS:07957128>>"
+    "context": "<<POS:07957132>>"
   },
   {
     "key": "output|Executing_route_ears|3062ce3740dd",
@@ -876,19 +1050,13 @@
     "context": "<<POS:07957443>>"
   },
   {
-    "key": "output|n_nThe_skin_on_the_sides_of_your_pc_face_stretches_painfully|ce83338d651f",
-    "original": "\\n\\nThe skin on the sides of your [pc.face] stretches painfully as your ears migrate upwards, towards the top of your head. ",
+    "key": "output|The_skin_on_the_sides_of_your_pc_face_stretches_painfully_as_y|5ed0a82cc03f",
+    "original": "The skin on the sides of your [pc.face] stretches painfully as your ears migrate upwards, towards the top of your head. ",
     "translation": "",
-    "context": "<<POS:07957592>>"
+    "context": "<<POS:07957596>>"
   },
   {
-    "key": "output|n_n|1c718d1b323b",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:07957727>>"
-  },
-  {
-    "key": "output|Your_ears_begin_to_tingle_You_reach_up_with_one_hand_and_gently|c9982696bd4b",
+    "key": "output|Your_ears_begin_to_tingle_You_reach_up_with_one_hand_and_gently|5627134252c1",
     "original": "Your ears begin to tingle. You reach up with one hand and gently rub them. Your ears twist and morph, growing a thin layer of \"+e.furColor+\" fur as they reshape into a pair of points, towering over your head. You experimentally move them, feeling them swivel about at your command. And you can hear so much better than before, every slight creak and rustle around you is so clear now! <b>You now have feline ears!</b>",
     "translation": "",
     "context": "<<POS:07957742>>"
@@ -900,13 +1068,7 @@
     "context": "<<POS:07958520>>"
   },
   {
-    "key": "output|n_n|5ff36ea21271",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:07958585>>"
-  },
-  {
-    "key": "output|You_feel_a_powerful_itch_spread_across_your_arms_You_clutch_at|2db842ded701",
+    "key": "output|You_feel_a_powerful_itch_spread_across_your_arms_You_clutch_at|429e335c48d6",
     "original": "You feel a powerful itch spread across your arms. You clutch at them, scratching violently as your hair grows and thickens, spreading out into a dark mat across your [pc.skin]. Within a few minutes, your arms are utterly covered in a thick, silky-smooth \"+e.furColor+\" fur! ",
     "translation": "",
     "context": "<<POS:07958646>>"
@@ -918,16 +1080,16 @@
     "context": "<<POS:07958931>>"
   },
   {
-    "key": "output|n_nYou_feel_a_powerful_itch_spread_across_your_arms_You_clutch|c4d802ef03a9",
-    "original": "\\n\\nYou feel a powerful itch spread across your arms. You clutch at them, scratching violently as your hair grows and thickens, spreading out into a dark mat across your [pc.skin]. Within a few minutes, <b>your arms are utterly covered in a thick, silky-smooth \"+e.furColor+\" fur!</b> ",
+    "key": "output|You_feel_a_powerful_itch_spread_across_your_arms_You_clutch_at|4c96425c74ff",
+    "original": "You feel a powerful itch spread across your arms. You clutch at them, scratching violently as your hair grows and thickens, spreading out into a dark mat across your [pc.skin]. Within a few minutes, <b>your arms are utterly covered in a thick, silky-smooth \"+e.furColor+\" fur!</b> ",
     "translation": "",
-    "context": "<<POS:07959541>>"
+    "context": "<<POS:07959545>>"
   },
   {
-    "key": "output|n_nOpening_your_digits_you_marvel_at_the_appearance_of_small|da84c197a2de",
-    "original": "\\n\\nOpening your digits, you marvel at the appearance of small, [pc.skinTone] pads on the tips of your fingers. A larger one stretches across the top of your palm. They’re soft, sensitive and might feel pretty good in certain... tender areas. <b>You’ve got paw-like, padded feline arms!</b>",
+    "key": "output|Opening_your_digits_you_marvel_at_the_appearance_of_small_pc|c27b3af7ea7b",
+    "original": "Opening your digits, you marvel at the appearance of small, [pc.skinTone] pads on the tips of your fingers. A larger one stretches across the top of your palm. They’re soft, sensitive and might feel pretty good in certain... tender areas. <b>You’ve got paw-like, padded feline arms!</b>",
     "translation": "",
-    "context": "<<POS:07959904>>"
+    "context": "<<POS:07959908>>"
   },
   {
     "key": "output|Executing_route_legs|1d0b8d24d992",
@@ -936,22 +1098,22 @@
     "context": "<<POS:07960764>>"
   },
   {
-    "key": "output|n_nYou_feel_a_powerful_itch_spread_across_your_pc_legs_You_c|c5c96f86e423",
-    "original": "\\n\\nYou feel a powerful itch spread across your [pc.legs]. You clutch at them, scratching violently as your hair grows and thickens, spreading out into a [pc.furColor] mat across your [pc.skin]. Within a few minutes, your legs are utterly covered in a thick, silky-smooth [pc.furColor] fur! ",
+    "key": "output|You_feel_a_powerful_itch_spread_across_your_pc_legs_You_clutc|2e8eba1f0189",
+    "original": "You feel a powerful itch spread across your [pc.legs]. You clutch at them, scratching violently as your hair grows and thickens, spreading out into a [pc.furColor] mat across your [pc.skin]. Within a few minutes, your legs are utterly covered in a thick, silky-smooth [pc.furColor] fur! ",
     "translation": "",
-    "context": "<<POS:07960924>>"
+    "context": "<<POS:07960928>>"
   },
   {
-    "key": "output|n_nYour_pc_leg_wobbles_then_fold_dropping_you_onto_your_pc|bed5627aab2c",
-    "original": "\\n\\nYour [pc.leg] wobbles then fold, dropping you onto your [pc.butt]. It thrashes wildly around, uncontrolled and spasmatic. Something inside is changing, and you’re helpless to do anything but clench your fists and hold on for the ride. A seam appears in your [pc.leg] a moment before it divides into <b>two leg-like shapes.</b>",
+    "key": "output|Your_pc_leg_wobbles_then_fold_dropping_you_onto_your_pc_butt|0e24793f9fc6",
+    "original": "Your [pc.leg] wobbles then fold, dropping you onto your [pc.butt]. It thrashes wildly around, uncontrolled and spasmatic. Something inside is changing, and you’re helpless to do anything but clench your fists and hold on for the ride. A seam appears in your [pc.leg] a moment before it divides into <b>two leg-like shapes.</b>",
     "translation": "",
-    "context": "<<POS:07961240>>"
+    "context": "<<POS:07961244>>"
   },
   {
-    "key": "output|n_nTwitching_wildly_your_pc_legs_give_out_dumping_you_to_th|92929d6cb3a3",
-    "original": "\\n\\nTwitching wildly, your [pc.legs] give out, dumping you to the floor in a heap of uncoordinated, splayed limbs. They shudder wildly as they reform, starting at your waist and spreading down. Their bones melt like butter as they flow into new shapes.",
+    "key": "output|Twitching_wildly_your_pc_legs_give_out_dumping_you_to_the_fl|0fcba5253a98",
+    "original": "Twitching wildly, your [pc.legs] give out, dumping you to the floor in a heap of uncoordinated, splayed limbs. They shudder wildly as they reform, starting at your waist and spreading down. Their bones melt like butter as they flow into new shapes.",
     "translation": "",
-    "context": "<<POS:07961609>>"
+    "context": "<<POS:07961613>>"
   },
   {
     "key": "output|The_front_four_do_anyway_b_Your_body_shortens_up_behind_them|74af8d005c26",
@@ -978,28 +1140,28 @@
     "context": "<<POS:07962405>>"
   },
   {
-    "key": "output|n_nYou_drop_to_the_ground_as_your_pc_legs_go_boneless_The_ja|eccd488ab024",
-    "original": "\\n\\nYou drop to the ground as your [pc.legs] go boneless. The jarring impact is enough to make you wince, but of far more concern is what’s happening below your bruised bottom. Your [pc.legs] are changing!",
+    "key": "output|You_drop_to_the_ground_as_your_pc_legs_go_boneless_The_jarrin|b067c6679d71",
+    "original": "You drop to the ground as your [pc.legs] go boneless. The jarring impact is enough to make you wince, but of far more concern is what’s happening below your bruised bottom. Your [pc.legs] are changing!",
     "translation": "",
-    "context": "<<POS:07962664>>"
+    "context": "<<POS:07962668>>"
   },
   {
-    "key": "output|n_nYour_joints_feel_very_odd_and_your_soles_reform_into_padded|2cd63c388d37",
-    "original": "\\n\\nYour joints feel very odd, and your soles reform into padded paws with toes tipped by sharp-looking claws. It’ll take a little bit of practice to get used to walking with these. After few steps you’ve found pads of your new paws incredibly sensitive, almost like your tongue - even just feeling ground texture under you is exquisite. <b>You’ve got digitigrade feline legs, complete with soft paw pads and retractable claws!</b>",
+    "key": "output|Your_joints_feel_very_odd_and_your_soles_reform_into_padded_paw|8ded22b74db5",
+    "original": "Your joints feel very odd, and your soles reform into padded paws with toes tipped by sharp-looking claws. It’ll take a little bit of practice to get used to walking with these. After few steps you’ve found pads of your new paws incredibly sensitive, almost like your tongue - even just feeling ground texture under you is exquisite. <b>You’ve got digitigrade feline legs, complete with soft paw pads and retractable claws!</b>",
     "translation": "",
-    "context": "<<POS:07962880>>"
+    "context": "<<POS:07962884>>"
   },
   {
-    "key": "output|n_nAfter_taking_a_moment_to_get_used_to_your_new_body_you_noti|1f886add84a6",
-    "original": "\\n\\nAfter taking a moment to get used to your new body, you notice that your genitals now reside between the hind legs of your [pc.lowerBody].",
+    "key": "output|After_taking_a_moment_to_get_used_to_your_new_body_you_notice_t|5d032bd5800c",
+    "original": "After taking a moment to get used to your new body, you notice that your genitals now reside between the hind legs of your [pc.lowerBody].",
     "translation": "",
-    "context": "<<POS:07963522>>"
+    "context": "<<POS:07963526>>"
   },
   {
-    "key": "output|n_nAfter_taking_a_moment_to_get_used_to_your_new_body_you_noti|9031d004c9b0",
-    "original": "\\n\\nAfter taking a moment to get used to your new body, you notice that your genitals now reside below your waist, between your [pc.thighs].",
+    "key": "output|After_taking_a_moment_to_get_used_to_your_new_body_you_notice_t|05afbc7f398f",
+    "original": "After taking a moment to get used to your new body, you notice that your genitals now reside below your waist, between your [pc.thighs].",
     "translation": "",
-    "context": "<<POS:07963745>>"
+    "context": "<<POS:07963749>>"
   },
   {
     "key": "output|e_legTypeLockedMessage|09ab9a22a36a",
@@ -1008,16 +1170,16 @@
     "context": "<<POS:07963917>>"
   },
   {
-    "key": "output|n_nYou_feel_a_powerful_itch_spread_across_your_pc_legs_You_c|a75b99a50902",
-    "original": "\\n\\nYou feel a powerful itch spread across your [pc.legs]. You clutch at them, scratching violently as your hair grows and thickens, spreading out into a [pc.furColor] mat across your [pc.skin]. Within a few minutes, your legs are utterly covered in a thick, silky-smooth [pc.furColor] fur! ",
+    "key": "output|You_feel_a_powerful_itch_spread_across_your_pc_legs_You_clutc|d3ac234755a1",
+    "original": "You feel a powerful itch spread across your [pc.legs]. You clutch at them, scratching violently as your hair grows and thickens, spreading out into a [pc.furColor] mat across your [pc.skin]. Within a few minutes, your legs are utterly covered in a thick, silky-smooth [pc.furColor] fur! ",
     "translation": "",
-    "context": "<<POS:07964135>>"
+    "context": "<<POS:07964139>>"
   },
   {
-    "key": "output|n_nYour_joints_feel_very_odd_and_your_soles_reform_into_padded|13f5b6334ddf",
-    "original": "\\n\\nYour joints feel very odd, and your soles reform into padded paws with toes tipped by sharp-looking claws. It’ll take a little bit of practice to get used to walking with these. <b>You’ve got digitigrade feline legs, complete with soft paw pads and retractable claws!</b>",
+    "key": "output|Your_joints_feel_very_odd_and_your_soles_reform_into_padded_paw|d8b1b2d1ace1",
+    "original": "Your joints feel very odd, and your soles reform into padded paws with toes tipped by sharp-looking claws. It’ll take a little bit of practice to get used to walking with these. <b>You’ve got digitigrade feline legs, complete with soft paw pads and retractable claws!</b>",
     "translation": "",
-    "context": "<<POS:07964508>>"
+    "context": "<<POS:07964512>>"
   },
   {
     "key": "output|Exception_Route_has_no_targets_available_Requesting_instructi|0f5e96b573ef",
@@ -1026,10 +1188,10 @@
     "context": "<<POS:07965018>>"
   },
   {
-    "key": "output|n_nTerror_overtakes_you_as_you_feel_your_backbone_snap_It_does|0ff936c294ae",
-    "original": "\\n\\nTerror overtakes you as you feel your backbone snap. It doesn’t stop, as you feel your spine lengthens, growing with new flesh from your backside as the bones of your legs flex and twist. Muscle groups shift and rearrange themselves as the change completes. <b>You now have tauric lower half!</b>",
+    "key": "output|Terror_overtakes_you_as_you_feel_your_backbone_snap_It_doesn_t|e107a54edcf6",
+    "original": "Terror overtakes you as you feel your backbone snap. It doesn’t stop, as you feel your spine lengthens, growing with new flesh from your backside as the bones of your legs flex and twist. Muscle groups shift and rearrange themselves as the change completes. <b>You now have tauric lower half!</b>",
     "translation": "",
-    "context": "<<POS:07965186>>"
+    "context": "<<POS:07965190>>"
   },
   {
     "key": "output|After_taking_a_moment_to_get_used_to_your_new_body_you_notice|49b27be3e636",
@@ -1038,16 +1200,16 @@
     "context": "<<POS:07965622>>"
   },
   {
-    "key": "output|n_nYour_forelegs_aren_t_just_legs_while_not_exactly_prehensil|34991956fde1",
-    "original": "\\n\\nYour forelegs aren’t just legs - while not exactly prehensile, your toes are quite long and nimble, providing you with a fair portion of manual-like dexterity.",
+    "key": "output|Your_forelegs_aren_t_just_legs_while_not_exactly_prehensile_y|deef10b2007a",
+    "original": "Your forelegs aren’t just legs - while not exactly prehensile, your toes are quite long and nimble, providing you with a fair portion of manual-like dexterity.",
     "translation": "",
-    "context": "<<POS:07965939>>"
+    "context": "<<POS:07965943>>"
   },
   {
-    "key": "output|n_nThat_part_of_your_body_between_pairs_of_your_legs_is_not_ove|7dab2168d9e0",
-    "original": "\\n\\nThat part of your body between pairs of your legs is not overly long, so you can sit on your butt comfortably while ‘standing’ on your forelegs.",
+    "key": "output|That_part_of_your_body_between_pairs_of_your_legs_is_not_overly|2d9d3f2bece2",
+    "original": "That part of your body between pairs of your legs is not overly long, so you can sit on your butt comfortably while ‘standing’ on your forelegs.",
     "translation": "",
-    "context": "<<POS:07966113>>"
+    "context": "<<POS:07966117>>"
   },
   {
     "key": "output|You_can_t_help_but_smile_seeing_your_pc_tails_instinctively_w|ccd669546890",
@@ -1056,16 +1218,16 @@
     "context": "<<POS:07966318>>"
   },
   {
-    "key": "output|n_nThe_joint_point_of_your_humanoid_and_tauric_parts_is_very_fl|7b286ad31407",
-    "original": "\\n\\nThe joint point of your humanoid and tauric parts is very flexible, as well as your spine generally - you can effortlessly reach any part of your body... And not just with your hands, by the way.",
+    "key": "output|The_joint_point_of_your_humanoid_and_tauric_parts_is_very_flexib|2cef4507d7f1",
+    "original": "The joint point of your humanoid and tauric parts is very flexible, as well as your spine generally - you can effortlessly reach any part of your body... And not just with your hands, by the way.",
     "translation": "",
-    "context": "<<POS:07966470>>"
+    "context": "<<POS:07966474>>"
   },
   {
-    "key": "output|n_nLooks_like_bypassing_safety_is_not_always_a_good_idea_Wel|c60805a8ebac",
-    "original": "\\n\\nLooks like bypassing safety is not always a good idea... Well, at least you are not reduced to a puddle of goo, right?",
+    "key": "output|Looks_like_bypassing_safety_is_not_always_a_good_idea_Well_a|572df5396c0d",
+    "original": "Looks like bypassing safety is not always a good idea... Well, at least you are not reduced to a puddle of goo, right?",
     "translation": "",
-    "context": "<<POS:07966684>>"
+    "context": "<<POS:07966688>>"
   },
   {
     "key": "output|Executing_route_eyes|d5d52c42541a",
@@ -1074,10 +1236,10 @@
     "context": "<<POS:07967027>>"
   },
   {
-    "key": "output|n_nYour_pc_eyes_start_to_water_and_no_matter_how_much_you_bl|1ebaac20e4d4",
-    "original": "\\n\\nYour [pc.eyes] start to water, and no matter how much you blink, your vision just grows fuzzier and fuzzier for several moments before seeming to become incredibly clear and bright all of a sudden. You pull your Codex out and check your reflection: <b>a pair of [pc.eyeColor] cat-eyes stare back at you, slitted and brilliantly bright!</b>",
+    "key": "output|Your_pc_eyes_start_to_water_and_no_matter_how_much_you_blink|49918b51f569",
+    "original": "Your [pc.eyes] start to water, and no matter how much you blink, your vision just grows fuzzier and fuzzier for several moments before seeming to become incredibly clear and bright all of a sudden. You pull your Codex out and check your reflection: <b>a pair of [pc.eyeColor] cat-eyes stare back at you, slitted and brilliantly bright!</b>",
     "translation": "",
-    "context": "<<POS:07967380>>"
+    "context": "<<POS:07967384>>"
   },
   {
     "key": "output|e_eyeTypeLockedMessage|eaa005020be2",
@@ -1092,22 +1254,22 @@
     "context": "<<POS:07968017>>"
   },
   {
-    "key": "output|n_nYou_idly_scratch_at_a_loose_scale_feeling_it_come_loose_und|49bd1eab086b",
-    "original": "\\n\\nYou idly scratch at a loose scale, feeling it come loose under your fingers, but the one alongside it is also loose now. You flick it off just before you become aware that the sensation is spreading; scales are dropping like rain now, even without you touching them. Underneath, a lush carpet is springing up from your [pc.skin].",
+    "key": "output|You_idly_scratch_at_a_loose_scale_feeling_it_come_loose_under_y|a9ee92e9b97c",
+    "original": "You idly scratch at a loose scale, feeling it come loose under your fingers, but the one alongside it is also loose now. You flick it off just before you become aware that the sensation is spreading; scales are dropping like rain now, even without you touching them. Underneath, a lush carpet is springing up from your [pc.skin].",
     "translation": "",
-    "context": "<<POS:07968487>>"
+    "context": "<<POS:07968491>>"
   },
   {
-    "key": "output|n_nYou_idly_scratch_at_a_loose_feather_feeling_it_come_loose_u|3d188a3a5f5c",
-    "original": "\\n\\nYou idly scratch at a loose feather, feeling it come loose under your fingers, but the one alongside it is also loose now. You flick it off just before you become aware that the sensation is spreading; feathers are dropping like rain now, even without you touching them. Underneath, a lush carpet is springing up from your [pc.skin].",
+    "key": "output|You_idly_scratch_at_a_loose_feather_feeling_it_come_loose_under|729eaeea963f",
+    "original": "You idly scratch at a loose feather, feeling it come loose under your fingers, but the one alongside it is also loose now. You flick it off just before you become aware that the sensation is spreading; feathers are dropping like rain now, even without you touching them. Underneath, a lush carpet is springing up from your [pc.skin].",
     "translation": "",
-    "context": "<<POS:07968870>>"
+    "context": "<<POS:07968874>>"
   },
   {
-    "key": "output|n_nYou_idly_scratch_at_your_arm_but_find_yourself_catching_on_s|2b29f945e6aa",
-    "original": "\\n\\nYou idly scratch at your arm but find yourself catching on something. Looking closer, you see a single hair growing from a normally hairless part of your body. A second later, another pops out alongside it... then another, and another... and another. They’re everywhere! Tiny hairs are surfacing all across your body, thickening into a layer of fur before your eyes.",
+    "key": "output|You_idly_scratch_at_your_arm_but_find_yourself_catching_on_somet|ef15a83f673b",
+    "original": "You idly scratch at your arm but find yourself catching on something. Looking closer, you see a single hair growing from a normally hairless part of your body. A second later, another pops out alongside it... then another, and another... and another. They’re everywhere! Tiny hairs are surfacing all across your body, thickening into a layer of fur before your eyes.",
     "translation": "",
-    "context": "<<POS:07969218>>"
+    "context": "<<POS:07969222>>"
   },
   {
     "key": "output|b_You_re_growing_e_skinFurScales_0_0_b_You_pet_yours|f34285bb7616",
@@ -1134,37 +1296,37 @@
     "context": "<<POS:07970152>>"
   },
   {
-    "key": "output|n_nYou_suddenly_feel_your_facial_flesh_and_bones_melting_and_re|868ffeead019",
-    "original": "\\n\\nYou suddenly feel your facial flesh and bones melting and rearranging, reforming into something... different. You check your appearance with your codex’s holocorder. <b>You’ve got a feline muzzle, complete with whiskers and moist nose!</b>",
+    "key": "output|You_suddenly_feel_your_facial_flesh_and_bones_melting_and_rearra|8e8936dac421",
+    "original": "You suddenly feel your facial flesh and bones melting and rearranging, reforming into something... different. You check your appearance with your codex’s holocorder. <b>You’ve got a feline muzzle, complete with whiskers and moist nose!</b>",
     "translation": "",
-    "context": "<<POS:07970229>>"
+    "context": "<<POS:07970233>>"
   },
   {
-    "key": "output|n_nYou_suddenly_feel_your_facial_flesh_and_bones_elongating_and|f548c423379f",
-    "original": "\\n\\nYou suddenly feel your facial flesh and bones elongating and protruding forward. You check your appearance with your codex’s holocorder. <b>You’ve got a feline muzzle, complete with whiskers and moist nose!</b>",
+    "key": "output|You_suddenly_feel_your_facial_flesh_and_bones_elongating_and_pro|ca1206a30e86",
+    "original": "You suddenly feel your facial flesh and bones elongating and protruding forward. You check your appearance with your codex’s holocorder. <b>You’ve got a feline muzzle, complete with whiskers and moist nose!</b>",
     "translation": "",
-    "context": "<<POS:07970642>>"
+    "context": "<<POS:07970646>>"
   },
   {
-    "key": "output|n_nAn_irritating_sensation_centers_on_your_chin_and_you_can_t|1e0e9c4aa9f4",
-    "original": "\\n\\nAn irritating sensation centers on your chin, and you can’t help but scratch the itch with your [pc.fingers]. You notice that pieces of what was once your [pc.beard] are now littering your hands and falling to your [pc.feet]. <b>You no longer have a beard!</b>",
+    "key": "output|An_irritating_sensation_centers_on_your_chin_and_you_can_t_help|8ef6063f065e",
+    "original": "An irritating sensation centers on your chin, and you can’t help but scratch the itch with your [pc.fingers]. You notice that pieces of what was once your [pc.beard] are now littering your hands and falling to your [pc.feet]. <b>You no longer have a beard!</b>",
     "translation": "",
-    "context": "<<POS:07970956>>"
+    "context": "<<POS:07970960>>"
   },
   {
-    "key": "output|n_nAn_irritating_sensation_centers_on_your_chin_and_you_can_t|c3e232e1e138",
-    "original": "\\n\\nAn irritating sensation centers on your chin, and you can’t help but scratch the itch with your [pc.fingers]. It looks like <b>you have lynx-like sideburns instead of your [pc.beard]!</b>",
+    "key": "output|An_irritating_sensation_centers_on_your_chin_and_you_can_t_help|2e4f4e6c2936",
+    "original": "An irritating sensation centers on your chin, and you can’t help but scratch the itch with your [pc.fingers]. It looks like <b>you have lynx-like sideburns instead of your [pc.beard]!</b>",
     "translation": "",
-    "context": "<<POS:07971305>>"
+    "context": "<<POS:07971309>>"
   },
   {
-    "key": "output|n_nYour_tongue_feels_strange|c2f4f38ca339",
-    "original": "\\n\\nYour tongue feels strange. ",
+    "key": "output|Your_tongue_feels_strange|13621985eea8",
+    "original": "Your tongue feels strange. ",
     "translation": "",
-    "context": "<<POS:07971653>>"
+    "context": "<<POS:07971657>>"
   },
   {
-    "key": "output|It_definitely_changes_towards_a_humanoid_shape|22603c159c57",
+    "key": "output|It_definitely_changes_towards_a_humanoid_shape|71a53703a606",
     "original": "It definitely changes towards a humanoid shape. ",
     "translation": "",
     "context": "<<POS:07971733>>"
@@ -1206,27 +1368,21 @@
     "context": "<<POS:07972645>>"
   },
   {
-    "key": "output|n_nYour_pc_tongue_suddenly_falls_out_of_your_mouth_and_begins|2d12a2b25e78",
-    "original": "\\n\\nYour [pc.tongue] suddenly falls out of your mouth and begins undulating as it grows longer. For a moment it swings wildly, completely out of control; but then settles down and you find you can control it at will, almost like a limb. You’re able to stretch it to nearly 4 feet and retract it back into your mouth to the point it looks like a normal tongue. <b>You now have long, prehensile tongue.</b>",
+    "key": "output|Your_pc_tongue_suddenly_falls_out_of_your_mouth_and_begins_und|28c06f4ccb76",
+    "original": "Your [pc.tongue] suddenly falls out of your mouth and begins undulating as it grows longer. For a moment it swings wildly, completely out of control; but then settles down and you find you can control it at will, almost like a limb. You’re able to stretch it to nearly 4 feet and retract it back into your mouth to the point it looks like a normal tongue. <b>You now have long, prehensile tongue.</b>",
     "translation": "",
-    "context": "<<POS:07972813>>"
+    "context": "<<POS:07972817>>"
   },
   {
-    "key": "output|n_nWell_this_isn_t_the_worst_thing_which_can_happen_you_alre|be0f3a12233b",
-    "original": "\\n\\nWell, this isn’t the worst thing which can happen - you already have some kinky ideas how to make use of this new ‘limb’...",
+    "key": "output|Well_this_isn_t_the_worst_thing_which_can_happen_you_already|856fb604bb9a",
+    "original": "Well, this isn’t the worst thing which can happen - you already have some kinky ideas how to make use of this new ‘limb’...",
     "translation": "",
-    "context": "<<POS:07973306>>"
+    "context": "<<POS:07973310>>"
   },
   {
-    "key": "output|n_n|4b18834b0372",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:07973734>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30",
+    "key": "button|Next|e7127d3574eb",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07973789>>"
+    "context": "<<POS:07973789>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   }
 ]

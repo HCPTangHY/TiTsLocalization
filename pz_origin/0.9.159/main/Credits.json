@@ -9,36 +9,30 @@
     "key": "button|Next|aa819b647721",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:12636998>>"
+    "context": "<<POS:12636998>> addButton(0,\"Next\",(function(){window.showInventory({force:!0})}))"
   },
   {
     "key": "button|Next|35b9a3540cff",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:12638202>>"
+    "context": "<<POS:12638202>> addButton(0,\"Next\",(function(){window.showInventory({force:!0})}))"
   },
   {
     "key": "button|Next|35b9a3540cff#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:12639371>>"
+    "context": "<<POS:12639371>> addButton(0,\"Next\",(function(){e&&e.quantity<=0&&(t.selectedItem=null,t.autoSortItems()),window.showInventory({force:!0})}))"
   },
   {
-    "key": "button|Back|eca0a6ead26e",
+    "key": "button.tooltip|Use|bfc918a9747c",
+    "original": "Use ",
+    "translation": "",
+    "context": "<<POS:12640306>> addButton(c++,o.buttonText,(function(){window.target=o,t.useItem(e,!1)}),Ot.m.toDisplayCase(\"target \".concat(\"PlayerCharacter\"===o.getClassName()?\"yourself\":o.getCombatName())),\"Use \".concat(e.description,\" on \").concat(\"PlayerCharacter\"===o.getClassName()?\"yourself\":o.nameDisplay(),\".\"))"
+  },
+  {
+    "key": "button|Back|36725f5360e0",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:12640494>>"
-  },
-  {
-    "key": "button.ttB|Toggle_descriptions|28a8dae88e42",
-    "original": "Toggle descriptions ",
-    "translation": "",
-    "context": "<<POS:12645896>>"
-  },
-  {
-    "key": "button.ttB|You_have_no_key_items_to_view|61f351857473",
-    "original": "You have no key items to view.",
-    "translation": "",
-    "context": "<<POS:12646499>>"
+    "context": "<<POS:12640494>> addButton(14,\"Back\",(function(){window.target=null,window.popUIState()}))"
   }
 ]

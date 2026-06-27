@@ -30,37 +30,85 @@
     "context": "<<POS:08174556>>"
   },
   {
-    "key": "output|n_n_b_You_are_already_under_effect_of_i_Frostfire_Foxfire|cd7f10e6e3c9",
-    "original": "\\n\\n<b>You are already under effect of \"+(i?\"Frostfire\":\"Foxfire\")+\", so using \"+(n===i?\"another\":\"this\")+\" would be a waste.</b>",
+    "key": "output|b_You_are_already_under_effect_of_i_Frostfire_Foxfire|89f1e894486f",
+    "original": "<b>You are already under effect of \"+(i?\"Frostfire\":\"Foxfire\")+\", so using \"+(n===i?\"another\":\"this\")+\" would be a waste.</b>",
     "translation": "",
-    "context": "<<POS:08174668>>"
+    "context": "<<POS:08174672>>"
   },
   {
     "key": "button|Use|e1bfaa875f95",
     "original": "Use",
     "translation": "",
-    "context": "<<POS:08174835>>"
+    "context": "<<POS:08174835>> addButton(0,\"Use\",(function(){return o.onHead(e,t,a)}),\"Use\",\"Use it according to the instructions.\")"
   },
   {
-    "key": "button|On_Tail|7a0c18c7375e",
+    "key": "button.hover|Use|e1bfaa875f95",
+    "original": "Use",
+    "translation": "",
+    "context": "<<POS:08174878>> addButton(0,\"Use\",(function(){return o.onHead(e,t,a)}),\"Use\",\"Use it according to the instructions.\")"
+  },
+  {
+    "key": "button.tooltip|Use_it_according_to_the_instructions|7f86cc3778ef",
+    "original": "Use it according to the instructions.",
+    "translation": "",
+    "context": "<<POS:08174884>> addButton(0,\"Use\",(function(){return o.onHead(e,t,a)}),\"Use\",\"Use it according to the instructions.\")"
+  },
+  {
+    "key": "button|On_Tail|094293a274ef",
     "original": "On Tail",
     "translation": "",
-    "context": "<<POS:08174949>>"
+    "context": "<<POS:08174949>> addButton(1,\"On Tail\",(function(){return o.onTail(e,t,a)}),\"Use On Tail\",\"Use it on your [pc.tails].\")"
   },
   {
-    "key": "button|On_Tail|d050dad7647e",
+    "key": "button.hover|Use_On_Tail|5ab48d8e3621",
+    "original": "Use On Tail",
+    "translation": "",
+    "context": "<<POS:08174996>> addButton(1,\"On Tail\",(function(){return o.onTail(e,t,a)}),\"Use On Tail\",\"Use it on your [pc.tails].\")"
+  },
+  {
+    "key": "button.tooltip|Use_it_on_your_pc_tails|98b0e224eb74",
+    "original": "Use it on your [pc.tails].",
+    "translation": "",
+    "context": "<<POS:08175010>> addButton(1,\"On Tail\",(function(){return o.onTail(e,t,a)}),\"Use On Tail\",\"Use it on your [pc.tails].\")"
+  },
+  {
+    "key": "button|On_Tail|659345f7416c",
     "original": "On Tail",
     "translation": "",
-    "context": "<<POS:08175052>>"
+    "context": "<<POS:08175052>> addButton(1,\"On Tail\",(function(){return o.onTail(e,t,a)}),\"Use On Tail\",\"Use it on a place where a tail would normally grow. What could go wrong? You want that glorious fluffy tail ASAP!\")"
   },
   {
-    "key": "button|Don_t_Use|7c941bbfa48b",
+    "key": "button.hover|Use_On_Tail|bf207555282d",
+    "original": "Use On Tail",
+    "translation": "",
+    "context": "<<POS:08175099>> addButton(1,\"On Tail\",(function(){return o.onTail(e,t,a)}),\"Use On Tail\",\"Use it on a place where a tail would normally grow. What could go wrong? You want that glorious fluffy tail ASAP!\")"
+  },
+  {
+    "key": "button.tooltip|Use_it_on_a_place_where_a_tail_would_normally_grow_What_could_g|2bc2d72553fb",
+    "original": "Use it on a place where a tail would normally grow. What could go wrong? You want that glorious fluffy tail ASAP!",
+    "translation": "",
+    "context": "<<POS:08175113>> addButton(1,\"On Tail\",(function(){return o.onTail(e,t,a)}),\"Use On Tail\",\"Use it on a place where a tail would normally grow. What could go wrong? You want that glorious fluffy tail ASAP!\")"
+  },
+  {
+    "key": "button|Don_t_Use|dd4e27563a8b",
     "original": "Don’t Use",
     "translation": "",
-    "context": "<<POS:08175242>>"
+    "context": "<<POS:08175242>> addButton(4,\"Don’t Use\",(function(){return a.returnToInventory(a)}),\"Don’t Use\",\"You decide to put the vial back into your inventory.\")"
   },
   {
-    "key": "output|You_apply_the_solution_onto_your_latex_e_hairNoun_accordin|f347c598ad46",
+    "key": "button.hover|Don_t_Use|dd4e27563a8b",
+    "original": "Don’t Use",
+    "translation": "",
+    "context": "<<POS:08175298>> addButton(4,\"Don’t Use\",(function(){return a.returnToInventory(a)}),\"Don’t Use\",\"You decide to put the vial back into your inventory.\")"
+  },
+  {
+    "key": "button.tooltip|You_decide_to_put_the_vial_back_into_your_inventory|0f8ca71a8cf2",
+    "original": "You decide to put the vial back into your inventory.",
+    "translation": "",
+    "context": "<<POS:08175310>> addButton(4,\"Don’t Use\",(function(){return a.returnToInventory(a)}),\"Don’t Use\",\"You decide to put the vial back into your inventory.\")"
+  },
+  {
+    "key": "output|You_apply_the_solution_onto_your_latex_e_hairNoun_accordin|a91a646d40c3",
     "original": "You apply the solution onto your latex \"+e.hairNoun()+\" according to instructions. The results will be questionable at best, but what’s the worst that could happen?",
     "translation": "",
     "context": "<<POS:08175559>>"
@@ -126,13 +174,7 @@
     "context": "<<POS:08177333>>"
   },
   {
-    "key": "output|n_n|24ec953cb4f9",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08177466>>"
-  },
-  {
-    "key": "output|You_apply_the_solution_onto_your_e_tailsDescript_The_inst|e02018015ad9",
+    "key": "output|You_apply_the_solution_onto_your_e_tailsDescript_The_inst|ea16bbaf946d",
     "original": "You apply the solution onto your \"+e.tailsDescript()+\". The instructions mentioned nothing about tail application, but what’s the worst that could happen?",
     "translation": "",
     "context": "<<POS:08177791>>"
@@ -144,15 +186,9 @@
     "context": "<<POS:08177956>>"
   },
   {
-    "key": "output|n_n|0ed5e3dac91a",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08178127>>"
-  },
-  {
-    "key": "perk|Icy_Veins|7d6b2c33a2ce",
+    "key": "perk|Icy_Veins|27f8da990c4e",
     "original": "Icy Veins",
     "translation": "",
-    "context": "<<POS:08217148>>"
+    "context": "<<POS:08217148>> createPerk(\"Icy Veins\",1,0,0,0,\"Your body has adapted to winter weather.\")"
   }
 ]

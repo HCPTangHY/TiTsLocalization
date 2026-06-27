@@ -1,18 +1,24 @@
 [
   {
-    "key": "button|Paulette|10f260234d3f",
+    "key": "textify|Paulette_surely_made_progress_with_the_Steele_Tech_Disabled_Supp|d1e16cc07972",
+    "original": "Paulette surely made progress with the Steele Tech Disabled Support Project. You should check on her at the Steele Tech Research Facility.",
+    "translation": "",
+    "context": "<<POS:01372324>>"
+  },
+  {
+    "key": "button|Paulette|f6d5a27edbe9",
     "original": "Paulette",
     "translation": "",
-    "context": "<<POS:01372638>>"
+    "context": "<<POS:01372638>> addButton(arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,\"Paulette\",this.crewApproach)"
   },
   {
-    "key": "combat|n_n_b_She_is_no_longer_tripped_b|5cc711beb0f7",
-    "original": "\\n\\n<b>She is no longer tripped!</b>",
+    "key": "combat|b_She_is_no_longer_tripped_b|5c1f7e2dfc4d",
+    "original": "<b>She is no longer tripped!</b>",
     "translation": "",
-    "context": "<<POS:01375747>>"
+    "context": "<<POS:01375751>>"
   },
   {
-    "key": "combat|Some_of_her_glowing_bullets_manage_to_connect_with_e_getComba|1ef90f4b6d19",
+    "key": "combat|Some_of_her_glowing_bullets_manage_to_connect_with_e_getComba|c61823d01f90",
     "original": " Some of her glowing bullets manage to connect with \"+e.getCombatName()+\".",
     "translation": "",
     "context": "<<POS:01376279>>"
@@ -42,16 +48,16 @@
     "context": "<<POS:01377112>>"
   },
   {
-    "key": "combat|n_n_H_m_capitalize_e_getCombatName_1_evade_e_isPlayer|a5b098fa3be4",
-    "original": "\\n\\n\"+H.m.capitalize(e.getCombatName(),!1)+\" evade\"+(e.isPlayer()||e.isPlural?\"\":\"s\")+\" her tail’s powerful hit.",
+    "key": "combat|H_m_capitalize_e_getCombatName_1_evade_e_isPlayer_e|3a49496fc4b0",
+    "original": "\"+H.m.capitalize(e.getCombatName(),!1)+\" evade\"+(e.isPlayer()||e.isPlural?\"\":\"s\")+\" her tail’s powerful hit.",
     "translation": "",
-    "context": "<<POS:01377462>>"
+    "context": "<<POS:01377466>>"
   },
   {
-    "key": "combat|n_nDespite_e_getCombatPronoun_hisher_best_efforts_the_s|0f9c7e4fecca",
-    "original": "\\n\\nDespite \"+e.getCombatPronoun(\"hisher\")+\" best efforts, the strong tail hits \"+e.getCombatName()+\" right on the head. ",
+    "key": "combat|Despite_e_getCombatPronoun_hisher_best_efforts_the_stron|92a7ab671779",
+    "original": "Despite \"+e.getCombatPronoun(\"hisher\")+\" best efforts, the strong tail hits \"+e.getCombatName()+\" right on the head. ",
     "translation": "",
-    "context": "<<POS:01377592>>"
+    "context": "<<POS:01377596>>"
   },
   {
     "key": "combat|Fortunately_e_getCombatPronoun_hisher_sealed_armor_preve|d5adac3d38c0",
@@ -120,7 +126,13 @@
     "context": "<<POS:01379942>>"
   },
   {
-    "key": "combat|Taking_hold_of_e_getCombatName_the_flying_amazon_roughly|d814cbf7198b",
+    "key": "textify|The_cyborg_places_her_left_hand_over_her_Annihilator_cannon_as_t|1d2ee722aa3c",
+    "original": "The cyborg places her left hand over her Annihilator cannon as the light surging from it reaches a blinding intensity. <b>You must stop her now before it’s too late</b>.",
+    "translation": "",
+    "context": "<<POS:01380381>>"
+  },
+  {
+    "key": "combat|Taking_hold_of_e_getCombatName_the_flying_amazon_roughly|d2a00579b86b",
     "original": "Taking hold of \"+e.getCombatName()+\", the flying amazon roughly drags \"+e.getCombatPronoun(\"himher\")+\" across and over the ragged granite wall. After a dozen painful seconds, she sends \"+e.getCombatName()+\" flying at a stray armor plate.",
     "translation": "",
     "context": "<<POS:01381560>>"
@@ -144,46 +156,70 @@
     "context": "<<POS:01382049>>"
   },
   {
-    "key": "combat|n_n_textify_s_s_0_T_Z_The_former_XO_hits_Strict_9_square|082cc0f9069d",
-    "original": "\\n\\n\"+textify(s||(s=(0,T.Z)([\"The former XO hits Strict-9 square in the chest. The sheer force of the blow knocks her back, releasing you from her crushing grasp!\"])))",
+    "key": "textify|i_Get_off_pc_himHer_you_goon_i_Paulette_screams|b25fa7c591fb",
+    "original": "<i>“Get off [pc.himHer] you goon!”</i> Paulette screams.",
     "translation": "",
-    "context": "<<POS:01382912>>"
+    "context": "<<POS:01382822>>"
   },
   {
-    "key": "combat|n_n_textify_r_r_0_T_Z_Strict_9_tightens_her_grip_on_you|f09708361fbf",
-    "original": "\\n\\n\"+textify(r||(r=(0,T.Z)([\"Strict-9 tightens her grip on you. She nimbly dodges Paulette’s attack, crushing you with her powerful thighs as she leaps out of reach!\"])))",
+    "key": "combat|textify_s_s_0_T_Z_The_former_XO_hits_Strict_9_square_in|4201f358c66a",
+    "original": "\"+textify(s||(s=(0,T.Z)([\"The former XO hits Strict-9 square in the chest. The sheer force of the blow knocks her back, releasing you from her crushing grasp!\"])))",
     "translation": "",
-    "context": "<<POS:01383232>>"
+    "context": "<<POS:01382916>>"
   },
   {
-    "key": "combat|n_textify_l_l_0_T_Z_The_hits_her_square_in_the_chest|40ddb084916b",
-    "original": "\\n\"+textify(l||(l=(0,T.Z)([\"The \",\" hits her square in the chest!\"])),t[o][1])",
+    "key": "combat|textify_r_r_0_T_Z_Strict_9_tightens_her_grip_on_you_She|c7533e581c73",
+    "original": "\"+textify(r||(r=(0,T.Z)([\"Strict-9 tightens her grip on you. She nimbly dodges Paulette’s attack, crushing you with her powerful thighs as she leaps out of reach!\"])))",
     "translation": "",
-    "context": "<<POS:01383772>>"
+    "context": "<<POS:01383236>>"
   },
   {
-    "key": "combat|n_n_textify_h_h_0_T_Z_Strict_9_evades_the_energy_blast|3a0fdf894579",
-    "original": "\\n\\n\"+textify(h||(h=(0,T.Z)([\"Strict-9 evades the energy blast!\"])))",
+    "key": "textify|Paulette_fires_her_Pyrexxx_Annihilator_at_target_CombatName|fed664402e05",
+    "original": "Paulette fires her Pyrexxx Annihilator at [target.CombatName]!",
     "translation": "",
-    "context": "<<POS:01384000>>"
+    "context": "<<POS:01383481>>"
   },
   {
-    "key": "combat|n_textify_d_d_0_T_Z_Her_charged_hit_squeezes_a_pained_gr|20dc74bdb214",
-    "original": "\\n\"+textify(d||(d=(0,T.Z)([\"Her charged hit squeezes a pained groan out of \",\"!\"])),e.getCombatName())",
+    "key": "combat|textify_l_l_0_T_Z_The_hits_her_square_in_the_chest|697ce7d8a42f",
+    "original": "\"+textify(l||(l=(0,T.Z)([\"The \",\" hits her square in the chest!\"])),t[o][1])",
     "translation": "",
-    "context": "<<POS:01384304>>"
+    "context": "<<POS:01383774>>"
   },
   {
-    "key": "combat|n_n_textify_g_g_0_T_Z_Her_daring_strike_goes_wide|1710e10891d6",
-    "original": "\\n\\n\"+textify(g||(g=(0,T.Z)([\"Her daring strike goes wide!\"])))",
+    "key": "combat|textify_h_h_0_T_Z_Strict_9_evades_the_energy_blast|f0fcc02734d6",
+    "original": "\"+textify(h||(h=(0,T.Z)([\"Strict-9 evades the energy blast!\"])))",
     "translation": "",
-    "context": "<<POS:01384593>>"
+    "context": "<<POS:01384004>>"
   },
   {
-    "key": "combat|n_n_textify_y_y_0_T_Z_Paulette_s_sharp_glowing_tail_cap|c9bcbee883d7",
-    "original": "\\n\\n\"+textify(y||(y=(0,T.Z)([\"Paulette’s sharp, glowing tail-cap hits Strict-9 square in the chest!\"])))",
+    "key": "textify|Paulette_charges_forward_claws_sparkling_with_electricity|973824072305",
+    "original": "Paulette charges forward, claws sparkling with electricity!",
     "translation": "",
-    "context": "<<POS:01384870>>"
+    "context": "<<POS:01384145>>"
+  },
+  {
+    "key": "combat|textify_d_d_0_T_Z_Her_charged_hit_squeezes_a_pained_groa|88d8567d3c7f",
+    "original": "\"+textify(d||(d=(0,T.Z)([\"Her charged hit squeezes a pained groan out of \",\"!\"])),e.getCombatName())",
+    "translation": "",
+    "context": "<<POS:01384306>>"
+  },
+  {
+    "key": "combat|textify_g_g_0_T_Z_Her_daring_strike_goes_wide|66e23e2cca0e",
+    "original": "\"+textify(g||(g=(0,T.Z)([\"Her daring strike goes wide!\"])))",
+    "translation": "",
+    "context": "<<POS:01384597>>"
+  },
+  {
+    "key": "textify|i_Eat_this_i_Paulette_groans_spinning_her_hardlight_tippe|c5d7b3e61189",
+    "original": "<i>“Eat this!”</i> Paulette groans, spinning her hardlight-tipped tail!",
+    "translation": "",
+    "context": "<<POS:01384764>>"
+  },
+  {
+    "key": "combat|textify_y_y_0_T_Z_Paulette_s_sharp_glowing_tail_cap_hit|aae73f9e356a",
+    "original": "\"+textify(y||(y=(0,T.Z)([\"Paulette’s sharp, glowing tail-cap hits Strict-9 square in the chest!\"])))",
+    "translation": "",
+    "context": "<<POS:01384874>>"
   },
   {
     "key": "combat|b_The_powerful_lunge_staggers_Strict_9_b|f65a7240f354",
@@ -192,21 +228,51 @@
     "context": "<<POS:01385153>>"
   },
   {
-    "key": "combat|n_n_textify_m_m_0_T_Z_Strict_9_effortlessly_deflects_the|ecdde98b5ca3",
-    "original": "\\n\\n\"+textify(m||(m=(0,T.Z)([\"Strict-9 effortlessly deflects the attack with her own tail!\"])))",
+    "key": "combat|textify_m_m_0_T_Z_Strict_9_effortlessly_deflects_the_att|9ba531b6c3fa",
+    "original": "\"+textify(m||(m=(0,T.Z)([\"Strict-9 effortlessly deflects the attack with her own tail!\"])))",
     "translation": "",
-    "context": "<<POS:01385238>>"
+    "context": "<<POS:01385242>>"
   },
   {
-    "key": "combat|n_n_textify_w_w_0_T_Z_The_former_XO_strikes_Strict_9_s_b|f75eb16a09bc",
-    "original": "\\n\\n\"+textify(w||(w=(0,T.Z)([\"The former XO strikes Strict-9’s belly with earth-rending force! The zaika mercenary screams in pain as Paulette lifts her off the ground and throws her across the room!\\n\\nStrict-9 slowly stands back up, holding her fuming middle with a hand. <i>“You dirty tailsucker! I’ll make you pay for this!”</i>\"],[\"The former XO strikes Strict-9’s belly with earth-rending force! The zaika mercenary screams in pain as Paulette lifts her off the ground and throws her across the room!\\\\n\\\\nStrict-9 slowly stands back up, holding her fuming middle with a hand. <i>“You dirty tailsucker! I’ll make you pay for this!”</i>\"])))",
+    "key": "textify|Your_crewmate_flips_a_hidden_switch_in_her_chest_A_cloud_of_glo|cebe3ea810cd",
+    "original": "Your crewmate flips a hidden switch in her chest. A cloud of glowing green nanomachines engulfs you! In the blink of an eye, the tiny machines stitch your wounds close and clear your mind from Strict-9’s poisons!\\n\\n\\t\\t<i>“Round two, bitch!”</i>",
     "translation": "",
-    "context": "<<POS:01386214>>"
+    "context": "<<POS:01385481>>"
   },
   {
-    "key": "combat|n_n_textify_k_k_0_T_Z_i_You_re_too_slow_i_Strict_9|4cf2ba565525",
-    "original": "\\n\\n\"+textify(k||(k=(0,T.Z)([\"<i>“You’re too slow!”</i> Strict-9 barks, swirling out of reach!\"])))",
+    "key": "textify|Paulette_opens_her_wings_and_soars_through_the_air_She_closes_h|d87eacd14f43",
+    "original": "Paulette opens her wings and soars through the air! She closes her fist, making it crackle with ball lightning as she channels unstable plasma inside her very palm!",
     "translation": "",
-    "context": "<<POS:01387009>>"
+    "context": "<<POS:01386016>>"
+  },
+  {
+    "key": "combat|textify_w_w_0_T_Z_The_former_XO_strikes_Strict_9_s_belly|472027f5733c",
+    "original": "\"+textify(w||(w=(0,T.Z)([\"The former XO strikes Strict-9’s belly with earth-rending force! The zaika mercenary screams in pain as Paulette lifts her off the ground and throws her across the room!\\n\\nStrict-9 slowly stands back up, holding her fuming middle with a hand. <i>“You dirty tailsucker! I’ll make you pay for this!”</i>\"],[\"The former XO strikes Strict-9’s belly with earth-rending force! The zaika mercenary screams in pain as Paulette lifts her off the ground and throws her across the room!\\\\n\\\\nStrict-9 slowly stands back up, holding her fuming middle with a hand. <i>“You dirty tailsucker! I’ll make you pay for this!”</i>\"])))",
+    "translation": "",
+    "context": "<<POS:01386218>>"
+  },
+  {
+    "key": "combat|textify_k_k_0_T_Z_i_You_re_too_slow_i_Strict_9_bar|ad1c4062b706",
+    "original": "\"+textify(k||(k=(0,T.Z)([\"<i>“You’re too slow!”</i> Strict-9 barks, swirling out of reach!\"])))",
+    "translation": "",
+    "context": "<<POS:01387013>>"
+  },
+  {
+    "key": "textify|i_Time_to_finish_this_i_Paulette_says_charging_her_arm_ca|0c8f2a940cd2",
+    "original": "<i>“Time to finish this!”</i> Paulette says, charging her arm cannon with destructive power!",
+    "translation": "",
+    "context": "<<POS:01387259>>"
+  },
+  {
+    "key": "textify|Dreadful_light_sparks_through_Paulette_s_Pyrexxx_Annihilator_Sh|af13149702ce",
+    "original": "Dreadful light sparks through Paulette’s Pyrexxx Annihilator! She’s preparing a big load!",
+    "translation": "",
+    "context": "<<POS:01387517>>"
+  },
+  {
+    "key": "textify|i_Disappear_i_Paulettte_shouts_before_unleashing_all_she_s|f44eeff124ca",
+    "original": "<i>“Disappear!”</i> Paulettte shouts before unleashing all she’s got into one devastating shot! Strict-9 screams as a ball of pure plasma engulfs her!",
+    "translation": "",
+    "context": "<<POS:01387752>>"
   }
 ]

@@ -9,7 +9,7 @@
     "key": "name.show|Skin_Clear|4252f4799da5",
     "original": "Skin Clear",
     "translation": "",
-    "context": "<<POS:09472239>>"
+    "context": "<<POS:09472239>> showName(\"Skin Clear\")"
   },
   {
     "key": "output|You_take_out_a_small_bottle_of_Skin_Clear_Turning_it_over_you|00712fe00e74",
@@ -18,52 +18,76 @@
     "context": "<<POS:09472276>>"
   },
   {
-    "key": "output|n_nHow_would_you_like_to_use_this_item|c5ca7716f415",
-    "original": "\\n\\nHow would you like to use this item?",
+    "key": "output|How_would_you_like_to_use_this_item|238ade86276e",
+    "original": "How would you like to use this item?",
     "translation": "",
-    "context": "<<POS:09472523>>"
+    "context": "<<POS:09472527>>"
   },
   {
-    "key": "button|Skin|e9b6ef92353c",
+    "key": "button|Skin|12ab053661fc",
     "original": "Skin",
     "translation": "",
-    "context": "<<POS:09472591>>"
+    "context": "<<POS:09472591>> addButton(0,\"Skin\",(function(){return o.useSkin(e,t)}),\"Apply to Skin\",\"Apply the lotion to your skin.\")"
   },
   {
-    "key": "button|Ingest|f38f4c3db290",
+    "key": "button.hover|Apply_to_Skin|7df27d36be87",
+    "original": "Apply to Skin",
+    "translation": "",
+    "context": "<<POS:09472634>> addButton(0,\"Skin\",(function(){return o.useSkin(e,t)}),\"Apply to Skin\",\"Apply the lotion to your skin.\")"
+  },
+  {
+    "key": "button.tooltip|Apply_the_lotion_to_your_skin|bc024d7c4a02",
+    "original": "Apply the lotion to your skin.",
+    "translation": "",
+    "context": "<<POS:09472650>> addButton(0,\"Skin\",(function(){return o.useSkin(e,t)}),\"Apply to Skin\",\"Apply the lotion to your skin.\")"
+  },
+  {
+    "key": "button|Ingest|dd0ef5693ece",
     "original": "Ingest",
     "translation": "",
-    "context": "<<POS:09472696>>"
+    "context": "<<POS:09472696>> addButton(1,\"Ingest\",(function(){return o.useIngest(e,t)}),\"Ingest Lotion\",\"Ignore the warning....\")"
   },
   {
-    "key": "button|Back|de555f7cd915",
+    "key": "button.hover|Ingest_Lotion|25aa07365421",
+    "original": "Ingest Lotion",
+    "translation": "",
+    "context": "<<POS:09472743>> addButton(1,\"Ingest\",(function(){return o.useIngest(e,t)}),\"Ingest Lotion\",\"Ignore the warning....\")"
+  },
+  {
+    "key": "button.tooltip|Ignore_the_warning|88b24bae32b8",
+    "original": "Ignore the warning....",
+    "translation": "",
+    "context": "<<POS:09472759>> addButton(1,\"Ingest\",(function(){return o.useIngest(e,t)}),\"Ingest Lotion\",\"Ignore the warning....\")"
+  },
+  {
+    "key": "button|Back|a5b3198d7082",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:09472798>>"
+    "context": "<<POS:09472798>> addButton(14,\"Back\",(function(){return o.useCancel(t)}))"
   },
   {
     "key": "name.show|Skin_Clear|2a62f1905d4d",
     "original": "Skin Clear",
     "translation": "",
-    "context": "<<POS:09472915>>"
+    "context": "<<POS:09472915>> showName(\"Skin Clear\")"
   },
   {
-    "key": "output|You_put_the_bottle_back_into_your_inventory_n_n|3e442b6a2c6c",
-    "original": "You put the bottle back into your inventory.\\n\\n",
+    "key": "output|You_put_the_bottle_back_into_your_inventory|d08317d3f154",
+    "original": "You put the bottle back into your inventory.",
     "translation": "",
     "context": "<<POS:09472952>>"
   },
   {
-    "key": "button|Next|c051103f4cd8",
+    "key": "button|Next|8f138d3b9daa",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09473045>>"
+    "context": "<<POS:09473045>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
   },
   {
     "key": "name.show|Skin_Clear|8bfa2f8c4868",
     "original": "Skin Clear",
     "translation": "",
-    "context": "<<POS:09473247>>"
+    "context": "<<POS:09473247>> showName(\"Skin Clear\")"
   },
   {
     "key": "output|e_isNude_Y_After_undressing_quickly_y_ou_squirt_the_co|ae8ca41da3ce",
@@ -75,13 +99,13 @@
     "key": "button|Next|52b6eeaf109e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09473999>>"
+    "context": "<<POS:09473999>> addButton(0,\"Next\",(function(){return o.skinTF(e,t)}))"
   },
   {
     "key": "name.show|Skin_Clear|8bfa2f8c4868#1",
     "original": "Skin Clear",
     "translation": "",
-    "context": "<<POS:09474117>>"
+    "context": "<<POS:09474117>> showName(\"Skin Clear\")"
   },
   {
     "key": "output|After_waiting_a_good_while_nothing_happens_You_even_check_y|5ff1e7523d88",
@@ -93,7 +117,7 @@
     "key": "button|Next|7715c5ff28a0",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09474630>>"
+    "context": "<<POS:09474630>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   },
   {
     "key": "output|While_waiting_for_the_lotion_to_have_an_effect_you_notice_that|1b26f2db84e3",
@@ -102,16 +126,16 @@
     "context": "<<POS:09474746>>"
   },
   {
-    "key": "output|n_nWorried_that_you_might_be_having_an_allergic_reaction_to_the|2f0fc912bf9c",
-    "original": "\\n\\nWorried that you might be having an allergic reaction to the cream, you rub idly at your neck, hoping to wipe off some of the moisture dripping down your back. To your surprise, you feel something rip, pulling your hand away to reveal a clump of your [pc.skinFurScales] clutched between your fingers. Dropping the wet patch of dead [pc.skinFurScales] in shock, your hand darts back to your neck, only to feel normal skin in its place. Hesitantly, you pick at the edge, feeling another wet strip of skin peel away with a damp tearing sound.",
+    "key": "output|Worried_that_you_might_be_having_an_allergic_reaction_to_the_cre|5014a636aa46",
+    "original": "Worried that you might be having an allergic reaction to the cream, you rub idly at your neck, hoping to wipe off some of the moisture dripping down your back. To your surprise, you feel something rip, pulling your hand away to reveal a clump of your [pc.skinFurScales] clutched between your fingers. Dropping the wet patch of dead [pc.skinFurScales] in shock, your hand darts back to your neck, only to feel normal skin in its place. Hesitantly, you pick at the edge, feeling another wet strip of skin peel away with a damp tearing sound.",
     "translation": "",
-    "context": "<<POS:09475317>>"
+    "context": "<<POS:09475321>>"
   },
   {
-    "key": "output|n_nSoon_both_hands_are_working_to_remove_your_former_layer_of|8a7d0e760c23",
-    "original": "\\n\\nSoon, both hands are working to remove your former layer of [pc.skinFurScalesNoun], revealing more and more of your [pc.skinColor] skin underneath. When finished, you’re standing in a pile of damp, dead flakes that used to be your outer layer, and are admiring your brand new <b>[pc.skinColor] skin!</b>",
+    "key": "output|Soon_both_hands_are_working_to_remove_your_former_layer_of_pc|0a6c3fbe2957",
+    "original": "Soon, both hands are working to remove your former layer of [pc.skinFurScalesNoun], revealing more and more of your [pc.skinColor] skin underneath. When finished, you’re standing in a pile of damp, dead flakes that used to be your outer layer, and are admiring your brand new <b>[pc.skinColor] skin!</b>",
     "translation": "",
-    "context": "<<POS:09475923>>"
+    "context": "<<POS:09475927>>"
   },
   {
     "key": "output|You_re_not_exactly_sure_what_will_happen_by_applying_the_liquid|227470b071d8",
@@ -120,25 +144,19 @@
     "context": "<<POS:09476318>>"
   },
   {
-    "key": "output|n_nThe_only_thing_you_find_is_shilling_for_more_of_J_ejune_prod|3e6b508ee70a",
-    "original": "\\n\\nThe only thing you find is shilling for more of J’ejune products. Figures, the cheapskates. Tossing the bottle aside, you sink to the ground, feeling a little lightheaded. You’re still sweating, but it looks like it’s slowed down, allowing you to dry yourself a bit. Soon, your pores close up, and you can towel off completely. Upon finishing, you realize that something about your skin has changed: <b>It’s now totally flawless!</b>",
+    "key": "output|The_only_thing_you_find_is_shilling_for_more_of_J_ejune_products|bef4c2ad21e8",
+    "original": "The only thing you find is shilling for more of J’ejune products. Figures, the cheapskates. Tossing the bottle aside, you sink to the ground, feeling a little lightheaded. You’re still sweating, but it looks like it’s slowed down, allowing you to dry yourself a bit. Soon, your pores close up, and you can towel off completely. Upon finishing, you realize that something about your skin has changed: <b>It’s now totally flawless!</b>",
     "translation": "",
-    "context": "<<POS:09476972>>"
+    "context": "<<POS:09476976>>"
   },
   {
-    "key": "output|n_nAs_you_set_about_donning_your_gear_you_notice_there_s_a_bit|dc0c15516597",
-    "original": "\\n\\nAs you set about donning your gear, you notice there’s a bit of residual heat reaming. It seems the lotion has made you just a bit more sensitive....",
+    "key": "output|As_you_set_about_donning_your_gear_you_notice_there_s_a_bit_of|365cb6904c75",
+    "original": "As you set about donning your gear, you notice there’s a bit of residual heat reaming. It seems the lotion has made you just a bit more sensitive....",
     "translation": "",
-    "context": "<<POS:09477501>>"
+    "context": "<<POS:09477505>>"
   },
   {
-    "key": "output|n_n|6ef6af697b63",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:09477880>>"
-  },
-  {
-    "key": "output|Without_warning_your_pc_skin_starts_to_change_color_shifting|ce243bb695f2",
+    "key": "output|Without_warning_your_pc_skin_starts_to_change_color_shifting|b2ff9c43a323",
     "original": "Without warning, your [pc.skin] starts to change color, shifting from its normal [pc.skinColor] to a radically different coloration. Once it finishes, your new skin color is a",
     "translation": "",
     "context": "<<POS:09477895>>"
@@ -195,13 +213,13 @@
     "key": "button|Next|9e1a14f5fe78",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09478617>>"
+    "context": "<<POS:09478617>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   },
   {
     "key": "name.show|Skin_Clear|8bfa2f8c4868#2",
     "original": "Skin Clear",
     "translation": "",
-    "context": "<<POS:09478755>>"
+    "context": "<<POS:09478755>> showName(\"Skin Clear\")"
   },
   {
     "key": "output|No_stupid_label_tells_you_what_to_do_Ripping_the_cap_off_the_bo|5b02463c6541",
@@ -225,13 +243,13 @@
     "key": "button|Next|9876ae7d42ed",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09481221>>"
+    "context": "<<POS:09481221>> addButton(0,\"Next\",(function(){return o.ingestTF(e,t)}))"
   },
   {
     "key": "name.show|Skin_Clear|8bfa2f8c4868#3",
     "original": "Skin Clear",
     "translation": "",
-    "context": "<<POS:09481389>>"
+    "context": "<<POS:09481389>> showName(\"Skin Clear\")"
   },
   {
     "key": "output|After_a_few_minutes_of_jack_squat_happening_you_feel_your_body|ac5e8ad3884e",
@@ -240,10 +258,10 @@
     "context": "<<POS:09481951>>"
   },
   {
-    "key": "output|n_nEventually_the_heat_suffusing_your_body_dies_down_and_you|449bf9f9f542",
-    "original": "\\n\\nEventually, the heat suffusing your body dies down, and you’re able to relax. Your limbs feel like you might have over flexed them, so worried were you about the creepy liquid pouring out of ya. Speaking of which... you give yourself a once over, checking out all your major bodyparts. Seems like everything is still where it’s supposed to be. ‘Cept, everywhere you look, your [pc.skinFurScalesNoun] is shiny. Like, really fucking shiny, man. <b>Seems that cream made you permanently glisten like an oiled Adonis, Hell yeah!</b> You snort, totally checking yourself out, no homo. Screw warning labels man, you should try this shit again!",
+    "key": "output|Eventually_the_heat_suffusing_your_body_dies_down_and_you_re_a|ebc666a7565c",
+    "original": "Eventually, the heat suffusing your body dies down, and you’re able to relax. Your limbs feel like you might have over flexed them, so worried were you about the creepy liquid pouring out of ya. Speaking of which... you give yourself a once over, checking out all your major bodyparts. Seems like everything is still where it’s supposed to be. ‘Cept, everywhere you look, your [pc.skinFurScalesNoun] is shiny. Like, really fucking shiny, man. <b>Seems that cream made you permanently glisten like an oiled Adonis, Hell yeah!</b> You snort, totally checking yourself out, no homo. Screw warning labels man, you should try this shit again!",
     "translation": "",
-    "context": "<<POS:09482772>>"
+    "context": "<<POS:09482776>>"
   },
   {
     "key": "output|There_s_a_gurgling_in_your_tummy_sounding_rather_unpleasant_Ho|6780dd2387c5",
@@ -252,22 +270,22 @@
     "context": "<<POS:09483426>>"
   },
   {
-    "key": "output|n_nThe_gurgling_becomes_more_pronounced_and_you_notice_that_be|3e0e0153a88b",
-    "original": "\\n\\nThe gurgling becomes more pronounced, and you notice that beads of sweat have started forming on your skin. Gross! \"+(e.isNude()?\"Attempting to groom yourself\":\"Stripping off your [pc.gear] so that it doesn’t get stinky\")+\", you rub your belly with one hand while wiping the perspiration away with your other. It doesn’t help, and soon you are drenched in sticky sweat drops. You shiver as they roll down your spine, trickling into all your secret places. You let out a gasp of surprise, feeling the viscous layer all over your body slowly starting to warm up.",
+    "key": "output|The_gurgling_becomes_more_pronounced_and_you_notice_that_beads|ea31293f5877",
+    "original": "The gurgling becomes more pronounced, and you notice that beads of sweat have started forming on your skin. Gross! \"+(e.isNude()?\"Attempting to groom yourself\":\"Stripping off your [pc.gear] so that it doesn’t get stinky\")+\", you rub your belly with one hand while wiping the perspiration away with your other. It doesn’t help, and soon you are drenched in sticky sweat drops. You shiver as they roll down your spine, trickling into all your secret places. You let out a gasp of surprise, feeling the viscous layer all over your body slowly starting to warm up.",
     "translation": "",
-    "context": "<<POS:09483674>>"
+    "context": "<<POS:09483678>>"
   },
   {
-    "key": "output|n_nWithin_minutes_you_re_constantly_dripping_covered_in_a_thi|687a771471d5",
-    "original": "\\n\\nWithin minutes, you’re constantly dripping, covered in a thin sheen of sticky clear liquid. No matter what you do, it doesn’t stop, and you \"+(e.hasFeet()?\"stamp your [pc.foot]\":\"wriggle\")+\" in frustration. You don’t want to be covered in icky sweat all the time! There’s little time for your tantrum, however, because your slimy cover is changing, starting to smell faintly of peaches! Surprised, you watch as the icky, sticky stuff stops flowing so fast, and instead becomes a glistening layer all over your body. It’s making you sparkle!",
+    "key": "output|Within_minutes_you_re_constantly_dripping_covered_in_a_thin_sh|080b4656b7ca",
+    "original": "Within minutes, you’re constantly dripping, covered in a thin sheen of sticky clear liquid. No matter what you do, it doesn’t stop, and you \"+(e.hasFeet()?\"stamp your [pc.foot]\":\"wriggle\")+\" in frustration. You don’t want to be covered in icky sweat all the time! There’s little time for your tantrum, however, because your slimy cover is changing, starting to smell faintly of peaches! Surprised, you watch as the icky, sticky stuff stops flowing so fast, and instead becomes a glistening layer all over your body. It’s making you sparkle!",
     "translation": "",
-    "context": "<<POS:09484249>>"
+    "context": "<<POS:09484253>>"
   },
   {
-    "key": "output|n_nWith_that_the_gurgling_in_your_belly_ceases_as_well_and_yo|9fd0eab0127d",
-    "original": "\\n\\nWith that, the gurgling in your belly ceases as well, and you spend a few minutes looking at your reflection in your shiny, constantly lubed skin. You giggle. Now that it’s no longer sticky, it would feel pretty good to rub against someone, just gliding all over their body as your frictionless skin heats up... oh, that’s something you’re going to have to try.",
+    "key": "output|With_that_the_gurgling_in_your_belly_ceases_as_well_and_you_sp|6a888bf654ed",
+    "original": "With that, the gurgling in your belly ceases as well, and you spend a few minutes looking at your reflection in your shiny, constantly lubed skin. You giggle. Now that it’s no longer sticky, it would feel pretty good to rub against someone, just gliding all over their body as your frictionless skin heats up... oh, that’s something you’re going to have to try.",
     "translation": "",
-    "context": "<<POS:09484804>>"
+    "context": "<<POS:09484808>>"
   },
   {
     "key": "output|Pulling_your_pc_gear_back_on_you_notice_right_away_that_you|342c44d250b9",
@@ -282,16 +300,16 @@
     "context": "<<POS:09485396>>"
   },
   {
-    "key": "output|n_nWithin_minutes_the_ground_around_you_is_damp_and_your_pore|a61bb02ede91",
-    "original": "\\n\\nWithin minutes, the ground around you is damp, and your pores are still gushing liquid. Surprisingly, you don’t feel dehydrated. On the contrary, you feel pretty great, despite the continuous stream of sweat soaking your [pc.skinFurScales]. Looking yourself over, you notice that the sweat has started to change. Instead of regular moisture, it’s now... shinier, for lack of a better word. Additionally, it’s started to smell faintly of peaches, just like the Skin Clear lotion you used. <b>Soon, your whole body is coated in layer of clear liquid, leaving you with glistening, lubricated skin.</b>",
+    "key": "output|Within_minutes_the_ground_around_you_is_damp_and_your_pores_ar|a3d47008ed81",
+    "original": "Within minutes, the ground around you is damp, and your pores are still gushing liquid. Surprisingly, you don’t feel dehydrated. On the contrary, you feel pretty great, despite the continuous stream of sweat soaking your [pc.skinFurScales]. Looking yourself over, you notice that the sweat has started to change. Instead of regular moisture, it’s now... shinier, for lack of a better word. Additionally, it’s started to smell faintly of peaches, just like the Skin Clear lotion you used. <b>Soon, your whole body is coated in layer of clear liquid, leaving you with glistening, lubricated skin.</b>",
     "translation": "",
-    "context": "<<POS:09485880>>"
+    "context": "<<POS:09485884>>"
   },
   {
-    "key": "output|n_nShortly_after_your_pc_skinNoun_begins_to_glimmer_the_tor|02c437a8dcbe",
-    "original": "\\n\\nShortly after, your [pc.skinNoun] begins to glimmer, the torrential output of liquid slows to a crawl. It doesn’t stop, though, continuing to cover you in a perpetual layer of slickness. Shrugging, you \"+(e.isNude()?\"experimentally brush a hand across the surface of your body\":\"pull your [pc.gear] back on\")+\", shivering as it slides across your newly lubed [pc.skin].",
+    "key": "output|Shortly_after_your_pc_skinNoun_begins_to_glimmer_the_torrent|80354cfda5b6",
+    "original": "Shortly after, your [pc.skinNoun] begins to glimmer, the torrential output of liquid slows to a crawl. It doesn’t stop, though, continuing to cover you in a perpetual layer of slickness. Shrugging, you \"+(e.isNude()?\"experimentally brush a hand across the surface of your body\":\"pull your [pc.gear] back on\")+\", shivering as it slides across your newly lubed [pc.skin].",
     "translation": "",
-    "context": "<<POS:09486493>>"
+    "context": "<<POS:09486497>>"
   },
   {
     "key": "output|The_drug_seems_to_have_increased_your_sensitivity_as_well|3231cb72a07e",
@@ -342,22 +360,22 @@
     "context": "<<POS:09488470>>"
   },
   {
-    "key": "output|n_nYou_grunt_perturbed_by_this_sudden_development_But_fuck_ti|f8377b2d87ba",
-    "original": "\\n\\nYou grunt, perturbed by this sudden development. But fuck time is go time, and you have a clear objective, man: to take care of this hard-on by jerking it like there’s no tomorrow. To that end, you grab your [pc.cock \"+u+\"] firmly, ignoring the strange, sticky covering, and begin to beat your meat. Surprisingly, the goop seems to be acting like some sort of lubricant, letting you deal with your penis\"+(r?\"\":\"es\")+\"’ problem. Awesome.",
+    "key": "output|You_grunt_perturbed_by_this_sudden_development_But_fuck_time_i|d391aa47a16a",
+    "original": "You grunt, perturbed by this sudden development. But fuck time is go time, and you have a clear objective, man: to take care of this hard-on by jerking it like there’s no tomorrow. To that end, you grab your [pc.cock \"+u+\"] firmly, ignoring the strange, sticky covering, and begin to beat your meat. Surprisingly, the goop seems to be acting like some sort of lubricant, letting you deal with your penis\"+(r?\"\":\"es\")+\"’ problem. Awesome.",
     "translation": "",
-    "context": "<<POS:09488768>>"
+    "context": "<<POS:09488772>>"
   },
   {
-    "key": "output|n_nIn_no_time_at_all_your_well_oiled_fuck_machine_body_comes|78da21011ecb",
-    "original": "\\n\\nIn no time at all, your well-oiled, fuck-machine body comes crashing into the station with an explosive climax. From your \"+(r?\"[pc.cockhead], a blast of [pc.cum] shots out, splattering across the ground in front of you as your arm movements slow down\":\"[pc.cockHeads], streams of [pc.cum] launch in all directions, painting a work of modern art on the ground in front of you. Too bad you ain’t no artist, bro\")+\". Finished with your impromptu wank, you once again examine your solid snake\"+(r?\"\":\"s\")+\". The surface of your dong is still shining, prompting you to scratch your head. <b>Shiiit, looks like you’re going to constantly have a lubed up dick, man</b>. Man, that’s gonna be a pain. Able to jerk one off whenever you want, being constantly ready to slip right into any chick you come across, and needing no prep time to get sufficiently lubed...",
+    "key": "output|In_no_time_at_all_your_well_oiled_fuck_machine_body_comes_cras|1dc3d3b62aee",
+    "original": "In no time at all, your well-oiled, fuck-machine body comes crashing into the station with an explosive climax. From your \"+(r?\"[pc.cockhead], a blast of [pc.cum] shots out, splattering across the ground in front of you as your arm movements slow down\":\"[pc.cockHeads], streams of [pc.cum] launch in all directions, painting a work of modern art on the ground in front of you. Too bad you ain’t no artist, bro\")+\". Finished with your impromptu wank, you once again examine your solid snake\"+(r?\"\":\"s\")+\". The surface of your dong is still shining, prompting you to scratch your head. <b>Shiiit, looks like you’re going to constantly have a lubed up dick, man</b>. Man, that’s gonna be a pain. Able to jerk one off whenever you want, being constantly ready to slip right into any chick you come across, and needing no prep time to get sufficiently lubed...",
     "translation": "",
-    "context": "<<POS:09489220>>"
+    "context": "<<POS:09489224>>"
   },
   {
-    "key": "output|n_nWait_that_actually_sounds_pretty_awesome_Fuck_yeah_You|34cf96b3281c",
-    "original": "\\n\\nWait... that actually sounds pretty awesome. Fuck yeah! You high five your member\"+(r?\"\":\"s\")",
+    "key": "output|Wait_that_actually_sounds_pretty_awesome_Fuck_yeah_You_high|985511acd7f4",
+    "original": "Wait... that actually sounds pretty awesome. Fuck yeah! You high five your member\"+(r?\"\":\"s\")",
     "translation": "",
-    "context": "<<POS:09490090>>"
+    "context": "<<POS:09490094>>"
   },
   {
     "key": "output|wincing_as_you_slap_the_tender_dick_flesh_Seems_like_you_re_a|69054364d908",
@@ -426,19 +444,19 @@
     "context": "<<POS:09491285>>"
   },
   {
-    "key": "output|n_nAs_soon_as_you_get_e_isCrotchExposed_a_better_view|4b144abd65c7",
-    "original": "\\n\\nAs soon as you get\"+(e.isCrotchExposed()?\" a better view\":\" your [pc.lowerGarments] out of the way\")+\", you are quickly able to identify the source of your unnatural dampness: \"+(r?\"your [pc.cock] has begun to drip a clear liquid from every inch of its surface\":\"all of your [pc.cocks] have begun to secrete a clear liquid along its length\")+\". Your first thought is that you should see a doctor, since it looks like your dick\"+(r?\" is\":\"s are\")+\" melting into clear slime. However, you notice that nothing bad seems to be happening to your cock\"+(r?\" itself\":\"s themselves\")+\". In fact, a subtle, pulsing heat has begun to play up and down your shaft\"+(r?\"\":\"s\")+\", and the \"+(r?\"it has\":\"they have\")+\" begun to rise in response.",
+    "key": "output|As_soon_as_you_get_e_isCrotchExposed_a_better_view_your|b29cab3a3c29",
+    "original": "As soon as you get\"+(e.isCrotchExposed()?\" a better view\":\" your [pc.lowerGarments] out of the way\")+\", you are quickly able to identify the source of your unnatural dampness: \"+(r?\"your [pc.cock] has begun to drip a clear liquid from every inch of its surface\":\"all of your [pc.cocks] have begun to secrete a clear liquid along its length\")+\". Your first thought is that you should see a doctor, since it looks like your dick\"+(r?\" is\":\"s are\")+\" melting into clear slime. However, you notice that nothing bad seems to be happening to your cock\"+(r?\" itself\":\"s themselves\")+\". In fact, a subtle, pulsing heat has begun to play up and down your shaft\"+(r?\"\":\"s\")+\", and the \"+(r?\"it has\":\"they have\")+\" begun to rise in response.",
     "translation": "",
-    "context": "<<POS:09491363>>"
+    "context": "<<POS:09491367>>"
   },
   {
-    "key": "output|n_nWithin_in_minutes|4f7e5618a383",
-    "original": "\\n\\nWithin in minutes",
+    "key": "output|Within_in_minutes|dfe657676ac5",
+    "original": "Within in minutes",
     "translation": "",
-    "context": "<<POS:09492108>>"
+    "context": "<<POS:09492112>>"
   },
   {
-    "key": "output|of_being_freed_from_the_confines_of_your_wet_underwear|77af69a93fa3",
+    "key": "output|of_being_freed_from_the_confines_of_your_wet_underwear|d060bba50403",
     "original": " of being freed from the confines of your wet underwear",
     "translation": "",
     "context": "<<POS:09492161>>"
@@ -450,10 +468,10 @@
     "context": "<<POS:09492227>>"
   },
   {
-    "key": "output|n_nRealization_dawns_on_you_and_you_slap_your_free_hand_to_your|8350a888ba1f",
-    "original": "\\n\\nRealization dawns on you and you slap your free hand to your forehead. Of course, as if you were using lubricant. <b>The lotion has made it so that your dick is now constantly dripping clear lube</b>. The source of the fluid now identified, you push it out of your mind, instead focusing on bringing your [pc.cock \"+u+\"] to climax. The speed at which you’re moving your arm would give you friction burns if not for the grease coating you’ve been using, but you don’t care: you <i>need</i> to get off. Pre has started to drip from your cock-head\"+(r?\"\":\"s\")+\", mixing into the fluid already coating your \"+(r?\"[pc.cock]\":\"[pc.multiCocks]\")+\".",
+    "key": "output|Realization_dawns_on_you_and_you_slap_your_free_hand_to_your_for|f02c1947cfc0",
+    "original": "Realization dawns on you and you slap your free hand to your forehead. Of course, as if you were using lubricant. <b>The lotion has made it so that your dick is now constantly dripping clear lube</b>. The source of the fluid now identified, you push it out of your mind, instead focusing on bringing your [pc.cock \"+u+\"] to climax. The speed at which you’re moving your arm would give you friction burns if not for the grease coating you’ve been using, but you don’t care: you <i>need</i> to get off. Pre has started to drip from your cock-head\"+(r?\"\":\"s\")+\", mixing into the fluid already coating your \"+(r?\"[pc.cock]\":\"[pc.multiCocks]\")+\".",
     "translation": "",
-    "context": "<<POS:09493292>>"
+    "context": "<<POS:09493296>>"
   },
   {
     "key": "output|It_seems_the_cream_also_jacked_your_sensitivity_up_a_notch_as|299713c4939b",
@@ -468,16 +486,16 @@
     "context": "<<POS:09494136>>"
   },
   {
-    "key": "output|n_nFinally_you_a_tingling_sensation_works_its_way_up_your_spin|d31168ac848b",
-    "original": "\\n\\nFinally, you a tingling sensation works its way up your spine, the sure sign that you’ve reached climax. Unable to keep up your pace, you stop, feeling a load of [pc.cum] push its way out of your [pc.balls] and up your flailing cock\"+(r?\"\":\"s\")+\". Flopping backwards, your body cums without your assistance, \"+(r?\"your single shaft pulses, pushing the whole load straight up in a tiny fountain spray that arcs over you, splattering down in large drops as you close your eyes in exhaustion\":\"each cock head spasms as it shoots streamers of [pc.cumNoun] into the air, falling back to coat you in hot stripes of your own jizz\")+\".",
+    "key": "output|Finally_you_a_tingling_sensation_works_its_way_up_your_spine_t|c5d97c8c7157",
+    "original": "Finally, you a tingling sensation works its way up your spine, the sure sign that you’ve reached climax. Unable to keep up your pace, you stop, feeling a load of [pc.cum] push its way out of your [pc.balls] and up your flailing cock\"+(r?\"\":\"s\")+\". Flopping backwards, your body cums without your assistance, \"+(r?\"your single shaft pulses, pushing the whole load straight up in a tiny fountain spray that arcs over you, splattering down in large drops as you close your eyes in exhaustion\":\"each cock head spasms as it shoots streamers of [pc.cumNoun] into the air, falling back to coat you in hot stripes of your own jizz\")+\".",
     "translation": "",
-    "context": "<<POS:09494295>>"
+    "context": "<<POS:09494299>>"
   },
   {
-    "key": "output|n_nWhen_you_ve_recovered_enough_to_sit_back_up_you_find_that_y|a18c26f33f94",
-    "original": "\\n\\nWhen you’ve recovered enough to sit back up, you find that your \"+(r?\"[pc.cock] is\":\"[pc.multiCocks] are\")+\" still covered in the shiny lubricant that your body seems to naturally produce now. Your hand, too, is covered in the stuff, trailing streamers between it and your drenched groin. You wipe as much jizz and lube off yourself as you can",
+    "key": "output|When_you_ve_recovered_enough_to_sit_back_up_you_find_that_your|f626ffeba15d",
+    "original": "When you’ve recovered enough to sit back up, you find that your \"+(r?\"[pc.cock] is\":\"[pc.multiCocks] are\")+\" still covered in the shiny lubricant that your body seems to naturally produce now. Your hand, too, is covered in the stuff, trailing streamers between it and your drenched groin. You wipe as much jizz and lube off yourself as you can",
     "translation": "",
-    "context": "<<POS:09494937>>"
+    "context": "<<POS:09494941>>"
   },
   {
     "key": "output|Adjusting_yourself_you_sigh|ea337f16ee81",
@@ -516,10 +534,10 @@
     "context": "<<POS:09496078>>"
   },
   {
-    "key": "output|n_nToo_weirded_out_by_your_dribbling_lower_mouth_h_s|2428146b6d41",
-    "original": "\\n\\nToo weirded out by your dribbling lower mouth\"+(h?\"\":\"s\")+\" to continue playing with yourself, you settle down to watch what looks like a gallon of liquid seep out of you. The cream must be doing something inside of your tummy, since it doesn’t feel icky despite losing so much liquid. In fact, you begin to enjoy the feeling, slapping your hand against the \"+(e.hasPlumpPussy(c)?\"puffy pussy\":\"dainty nether\")+\" lips and watching as thick streams of clear, gooey liquid stretch from your fingers to the surface of your twat. However, the deluge only lasts for a little while, and soon it all but stops. You pout, watching as your soaked pussy lets out a few half hearted dribbles, before patting it gingerly.",
+    "key": "output|Too_weirded_out_by_your_dribbling_lower_mouth_h_s_to_c|37f6bdca7a7a",
+    "original": "Too weirded out by your dribbling lower mouth\"+(h?\"\":\"s\")+\" to continue playing with yourself, you settle down to watch what looks like a gallon of liquid seep out of you. The cream must be doing something inside of your tummy, since it doesn’t feel icky despite losing so much liquid. In fact, you begin to enjoy the feeling, slapping your hand against the \"+(e.hasPlumpPussy(c)?\"puffy pussy\":\"dainty nether\")+\" lips and watching as thick streams of clear, gooey liquid stretch from your fingers to the surface of your twat. However, the deluge only lasts for a little while, and soon it all but stops. You pout, watching as your soaked pussy lets out a few half hearted dribbles, before patting it gingerly.",
     "translation": "",
-    "context": "<<POS:09496869>>"
+    "context": "<<POS:09496873>>"
   },
   {
     "key": "output|While_your_were_playing_around_the_lotion_jacked_up_your_sensi|9b65f2d7f922",
@@ -528,10 +546,10 @@
     "context": "<<POS:09497596>>"
   },
   {
-    "key": "output|n_nYou_moan_unintentionally_having_snuck_a_finger_or_two_back|8ba68a33d26d",
-    "original": "\\n\\nYou moan unintentionally, having snuck a finger or two back into your [pc.vagina \"+c+\"]",
+    "key": "output|You_moan_unintentionally_having_snuck_a_finger_or_two_back_into|6768ce1557f6",
+    "original": "You moan unintentionally, having snuck a finger or two back into your [pc.vagina \"+c+\"]",
     "translation": "",
-    "context": "<<POS:09497731>>"
+    "context": "<<POS:09497735>>"
   },
   {
     "key": "output|enjoying_the_increased_sensitivity_more_than_you_should|312c3e6b8e09",
@@ -564,10 +582,10 @@
     "context": "<<POS:09498937>>"
   },
   {
-    "key": "output|n_nThe_deluge_of_liquid_abates_as_quickly_as_it_began_and_you|ed989f8d4f47",
-    "original": "\\n\\nThe deluge of liquid abates as quickly as it began, and you shakily rise to your feet. Gingerly, you poke at the still dripping surface of [pc.oneVagina], relieved to find that it’s mostly normal aside from the constant drooling. In fact, the inside is glistening from the outpouring, thoroughly coated in the mixture. As you ponder where exactly all this stuff came from, you finally notice the faint smell of peaches wafting in the air. Of course, the lotion you drank. Probably not your brightest idea after all, <b>since it has left your [pc.vaginas] permanently lubricated and dripping</b>.",
+    "key": "output|The_deluge_of_liquid_abates_as_quickly_as_it_began_and_you_shak|63a4f938bf48",
+    "original": "The deluge of liquid abates as quickly as it began, and you shakily rise to your feet. Gingerly, you poke at the still dripping surface of [pc.oneVagina], relieved to find that it’s mostly normal aside from the constant drooling. In fact, the inside is glistening from the outpouring, thoroughly coated in the mixture. As you ponder where exactly all this stuff came from, you finally notice the faint smell of peaches wafting in the air. Of course, the lotion you drank. Probably not your brightest idea after all, <b>since it has left your [pc.vaginas] permanently lubricated and dripping</b>.",
     "translation": "",
-    "context": "<<POS:09499781>>"
+    "context": "<<POS:09499785>>"
   },
   {
     "key": "output|You_sigh_feeling_the_tingles_of_lust_that_foreshadow_another_w|cf246e6d6c50",
@@ -600,16 +618,16 @@
     "context": "<<POS:09501274>>"
   },
   {
-    "key": "output|n_nYou_lose_control_of_your_lower_body_as_your_hands_hit_the_fl|3c7d9ad27b23",
-    "original": "\\n\\nYou lose control of your lower body as your hands hit the floor and your [pc.butt] sticks straight up in the air, bobbing and bouncing in some kind of strange erotic dance. Your head follows soon after, laying against the floor as your ass stands as tall atop your [pc.legOrLegs] as possible.",
+    "key": "output|You_lose_control_of_your_lower_body_as_your_hands_hit_the_floor|f4436665b05f",
+    "original": "You lose control of your lower body as your hands hit the floor and your [pc.butt] sticks straight up in the air, bobbing and bouncing in some kind of strange erotic dance. Your head follows soon after, laying against the floor as your ass stands as tall atop your [pc.legOrLegs] as possible.",
     "translation": "",
-    "context": "<<POS:09501757>>"
+    "context": "<<POS:09501761>>"
   },
   {
-    "key": "output|n_nThe_burning_sensation_turns_into_an_intense_inferno_that_bui|1314aaaced05",
-    "original": "\\n\\nThe burning sensation turns into an intense inferno that builds higher and higher. Your [pc.asshole] tenses tighter and tighter. Your face flushes red as the internal pressure fills you more and more that you might want to explode. Then, as soon as you’ve reached the peak, the fire is suddenly doused with an extremely cool liquid. Relief... You almost coo at the feeling. The liquid spooge pouring out from between your [pc.butts] continues to trickle down your",
+    "key": "output|The_burning_sensation_turns_into_an_intense_inferno_that_builds|9a5ef3ec1edd",
+    "original": "The burning sensation turns into an intense inferno that builds higher and higher. Your [pc.asshole] tenses tighter and tighter. Your face flushes red as the internal pressure fills you more and more that you might want to explode. Then, as soon as you’ve reached the peak, the fire is suddenly doused with an extremely cool liquid. Relief... You almost coo at the feeling. The liquid spooge pouring out from between your [pc.butts] continues to trickle down your",
     "translation": "",
-    "context": "<<POS:09502064>>"
+    "context": "<<POS:09502068>>"
   },
   {
     "key": "output|pc_crotch_and|9cf5e8831cea",
@@ -624,10 +642,10 @@
     "context": "<<POS:09502586>>"
   },
   {
-    "key": "output|n_nWith_your_butt_still_in_the_air_you_attempt_to_explore_your|05d8aaa96eb6",
-    "original": "\\n\\nWith your butt still in the air, you attempt to explore your rectum with your hands",
+    "key": "output|With_your_butt_still_in_the_air_you_attempt_to_explore_your_rec|3e900270bae4",
+    "original": "With your butt still in the air, you attempt to explore your rectum with your hands",
     "translation": "",
-    "context": "<<POS:09502668>>"
+    "context": "<<POS:09502672>>"
   },
   {
     "key": "output|Y|0c80d6afa1bd",
@@ -666,10 +684,10 @@
     "context": "<<POS:09503091>>"
   },
   {
-    "key": "output|n_nWhen_you_think_your_butt_has_finally_calmed_you_get_yoursel|609c275cc9a4",
-    "original": "\\n\\nWhen you think your butt has finally calmed, you get yourself up off the floor and on your [pc.feet]. As you do, however, you notice a strong, sweet scent of peaches and cream flow from your ass.",
+    "key": "output|When_you_think_your_butt_has_finally_calmed_you_get_yourself_up|d1710b4f78d8",
+    "original": "When you think your butt has finally calmed, you get yourself up off the floor and on your [pc.feet]. As you do, however, you notice a strong, sweet scent of peaches and cream flow from your ass.",
     "translation": "",
-    "context": "<<POS:09503302>>"
+    "context": "<<POS:09503306>>"
   },
   {
     "key": "output|Great_now_your_butt_smells_lovely|a95f0ce3668a",
@@ -693,13 +711,13 @@
     "key": "button|Next|17ef94c225f3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09504198>>"
+    "context": "<<POS:09504198>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   },
   {
     "key": "name.show|Skin_Clear|8bfa2f8c4868#4",
     "original": "Skin Clear",
     "translation": "",
-    "context": "<<POS:09504747>>"
+    "context": "<<POS:09504747>> showName(\"Skin Clear\")"
   },
   {
     "key": "output|You_make_yourself_comfortable_used_to_the_transformation_taking|ace001dad709",
@@ -708,16 +726,16 @@
     "context": "<<POS:09504794>>"
   },
   {
-    "key": "output|n_nIt_s_probably_a_good_thing_that_you_let_sleep_claim_you_as|9676d6f7b47a",
-    "original": "\\n\\nIt’s probably a good thing that you let sleep claim you, as you are not awake to see the changes that take place. Your subconscious notices, though, and your sleep is plagued by half glimpses of what is becoming of your body as the nanomachines inside of you work to adapt your biology to the strange chemical you have continuously imbibed. Fitfully, you toss and turn, chased by a never ending, cascading roar of liquid. Whenever a drop lands on your naked body - of course you’re naked, that’s just perfect - it clings, suffusing the surrounding skin with an overwhelming, lusting heat. Soon, the beads have grown larger, more splatters clumping together to form rivulets that drip down your back as you flee, heating your body up so much that smoke starts to pour from your skin.",
+    "key": "output|It_s_probably_a_good_thing_that_you_let_sleep_claim_you_as_you|59f7dfe1a27a",
+    "original": "It’s probably a good thing that you let sleep claim you, as you are not awake to see the changes that take place. Your subconscious notices, though, and your sleep is plagued by half glimpses of what is becoming of your body as the nanomachines inside of you work to adapt your biology to the strange chemical you have continuously imbibed. Fitfully, you toss and turn, chased by a never ending, cascading roar of liquid. Whenever a drop lands on your naked body - of course you’re naked, that’s just perfect - it clings, suffusing the surrounding skin with an overwhelming, lusting heat. Soon, the beads have grown larger, more splatters clumping together to form rivulets that drip down your back as you flee, heating your body up so much that smoke starts to pour from your skin.",
     "translation": "",
-    "context": "<<POS:09505560>>"
+    "context": "<<POS:09505564>>"
   },
   {
-    "key": "output|n_nThe_smoke_is_white_a_clinging_fog_that_wraps_itself_around|1dc00df373a7",
-    "original": "\\n\\nThe smoke is white, a clinging fog that wraps itself around your head, invading through your nose, ears, eyes, and mouth. It smells of peaches and cream, a cloying scent that wiggles into your brain as you struggle to breath through the fog pouring off of you. What’s worse, it obscures your vision, making it impossible to see a foot in front of you. Blissfully, the roar is muted by the fog, but you can feel it behind you, pressing in as your body slows. Soon, you are deprived of all of your senses, and the ground recedes away from you, leaving you falling in white mist. Then the impact, as you fall head first into the wall of rushing liquid. You scream, but your voice is snatched away as the fog and sticky fluid rush in, filling your lungs with their essence. You struggle, feeling the surrounding fluid flex with your movements, containing you as you choke. Tears bead up, floating in the gooey, sticky mess that surrounds you. There’s a burning inside your chest, radiating outward. A deep, intrinsic need that beats in time with your heart, blanking out everything else in your mind. And just as the white begins to darken, you feel like you’re going to pass out....",
+    "key": "output|The_smoke_is_white_a_clinging_fog_that_wraps_itself_around_your|ec3713e539bd",
+    "original": "The smoke is white, a clinging fog that wraps itself around your head, invading through your nose, ears, eyes, and mouth. It smells of peaches and cream, a cloying scent that wiggles into your brain as you struggle to breath through the fog pouring off of you. What’s worse, it obscures your vision, making it impossible to see a foot in front of you. Blissfully, the roar is muted by the fog, but you can feel it behind you, pressing in as your body slows. Soon, you are deprived of all of your senses, and the ground recedes away from you, leaving you falling in white mist. Then the impact, as you fall head first into the wall of rushing liquid. You scream, but your voice is snatched away as the fog and sticky fluid rush in, filling your lungs with their essence. You struggle, feeling the surrounding fluid flex with your movements, containing you as you choke. Tears bead up, floating in the gooey, sticky mess that surrounds you. There’s a burning inside your chest, radiating outward. A deep, intrinsic need that beats in time with your heart, blanking out everything else in your mind. And just as the white begins to darken, you feel like you’re going to pass out....",
     "translation": "",
-    "context": "<<POS:09506357>>"
+    "context": "<<POS:09506361>>"
   },
   {
     "key": "output|You_wake_up_And_nothing_has_changed_Only_now_you_don_t_feel_t|8a765b019479",
@@ -732,16 +750,16 @@
     "context": "<<POS:09509357>>"
   },
   {
-    "key": "output|n_nYou_come_across_another_rusher_dressed_in_skintight_catsuit|7c1f82623db4",
-    "original": "\\n\\nYou come across another rusher, dressed in skintight catsuit that shows off her curves. Without your codex, you have no clue to her race, but she seems to be some sort of reptilian. She has her back turned to you, observing something on the ground as you stealthily approach, taking in the wide expanse of her ass hovering just inches off the ground. You hesitate for a moment, but the need burns inside of you, pushing away all other thoughts. The only warning she gets is the sound of you pouncing, and then you’re on her, wrapping your gooey limbs around her chest as she falls forward in surprise. <i>“Wha--”</i> is all she gets to say before you turn her around to face you and close off her lips in a gooey kiss, pressing your lips into hers gently as one arm slips down to pull her big behind tightly into your gooey frame. Breaking apart, she gasps, eyes slightly askew as you smile reassuringly, hand slipping down to her crotch. To your delight, you find that she’s already soaked, her sexy suit squelching as you close your sticky digits around the outside. She blushes as her senses slowly return to her. Allowing her a second to respond, she gives you a slight nod and grins. Looks like you’ve caught quite a horny one!.",
+    "key": "output|You_come_across_another_rusher_dressed_in_skintight_catsuit_tha|3c1193190996",
+    "original": "You come across another rusher, dressed in skintight catsuit that shows off her curves. Without your codex, you have no clue to her race, but she seems to be some sort of reptilian. She has her back turned to you, observing something on the ground as you stealthily approach, taking in the wide expanse of her ass hovering just inches off the ground. You hesitate for a moment, but the need burns inside of you, pushing away all other thoughts. The only warning she gets is the sound of you pouncing, and then you’re on her, wrapping your gooey limbs around her chest as she falls forward in surprise. <i>“Wha--”</i> is all she gets to say before you turn her around to face you and close off her lips in a gooey kiss, pressing your lips into hers gently as one arm slips down to pull her big behind tightly into your gooey frame. Breaking apart, she gasps, eyes slightly askew as you smile reassuringly, hand slipping down to her crotch. To your delight, you find that she’s already soaked, her sexy suit squelching as you close your sticky digits around the outside. She blushes as her senses slowly return to her. Allowing her a second to respond, she gives you a slight nod and grins. Looks like you’ve caught quite a horny one!.",
     "translation": "",
-    "context": "<<POS:09509445>>"
+    "context": "<<POS:09509449>>"
   },
   {
-    "key": "output|n_nFrom_your_crotch_a_gooey_pseudo_phallus_pushes_outward|85df8e54cd9d",
-    "original": "\\n\\nFrom your crotch, a gooey pseudo phallus pushes outward",
+    "key": "output|From_your_crotch_a_gooey_pseudo_phallus_pushes_outward|4c4bc62ad18a",
+    "original": "From your crotch, a gooey pseudo phallus pushes outward",
     "translation": "",
-    "context": "<<POS:09510693>>"
+    "context": "<<POS:09510697>>"
   },
   {
     "key": "output|mimicking_your_own_dick_1_e_cocks_length_s_from_be|c4007bd17c5b",
@@ -756,16 +774,16 @@
     "context": "<<POS:09510855>>"
   },
   {
-    "key": "output|n_nBut_it_s_not_enough_More_than_ever_the_burning_need_inside|237cbc7cdf9b",
-    "original": "\\n\\nBut it’s not enough. More than ever, the burning need inside of you is blazing, and you look down at the tired girl hungrily. She watches, nervously, as your member slides out of her and rises back to pseudo-erection as you gaze at her, grinning much less friendly now. Slowly, she shakes her head, inching backwards. <i>“O-once was enough, wasn’t it?”</i> You shake your head no in return, your goo-phallus shivering as it splits down the length into two larger dicks. Her eyes bug out, and she turns to run from your fuck hungry cocks, but you lash out one gooey tendrils, wrapping around her feet and tripping her. You pull her back, placing a hand on that massive ass as you press both heads against her cushiony derriere. She glances over her shoulder at you, tears in her eyes and whispers <i>“Please--”</i>",
+    "key": "output|But_it_s_not_enough_More_than_ever_the_burning_need_inside_of|b0cf694a81a4",
+    "original": "But it’s not enough. More than ever, the burning need inside of you is blazing, and you look down at the tired girl hungrily. She watches, nervously, as your member slides out of her and rises back to pseudo-erection as you gaze at her, grinning much less friendly now. Slowly, she shakes her head, inching backwards. <i>“O-once was enough, wasn’t it?”</i> You shake your head no in return, your goo-phallus shivering as it splits down the length into two larger dicks. Her eyes bug out, and she turns to run from your fuck hungry cocks, but you lash out one gooey tendrils, wrapping around her feet and tripping her. You pull her back, placing a hand on that massive ass as you press both heads against her cushiony derriere. She glances over her shoulder at you, tears in her eyes and whispers <i>“Please--”</i>",
     "translation": "",
-    "context": "<<POS:09512184>>"
+    "context": "<<POS:09512188>>"
   },
   {
-    "key": "output|n_nThat_s_all_she_gets_out_before_you_plunge_yourself_through_t|a71b643fbe02",
-    "original": "\\n\\nThat’s all she gets out before you plunge yourself through the catsuit, punching a hole with the force of your thrust. This time she screams, tears freely flowing as you pound her brutally, twin cocks ramming her as hard as you can physically move. Soon, you feel yourself crest again, and blast more sweet goop into her insides, watching as her stomach bloats a little from your liquid load. You pause for a second, wondering if that’s enough for now. Inside your chest, the familiar heat, the need to fuck, pulses, and you grin in response. The girl below you voiceless gasps as your cocks multiply again, two in each hole, and you resume fucking her, enjoying the feeling of pumping her full of your peachy seed.",
+    "key": "output|That_s_all_she_gets_out_before_you_plunge_yourself_through_the_c|98aedf17c6b6",
+    "original": "That’s all she gets out before you plunge yourself through the catsuit, punching a hole with the force of your thrust. This time she screams, tears freely flowing as you pound her brutally, twin cocks ramming her as hard as you can physically move. Soon, you feel yourself crest again, and blast more sweet goop into her insides, watching as her stomach bloats a little from your liquid load. You pause for a second, wondering if that’s enough for now. Inside your chest, the familiar heat, the need to fuck, pulses, and you grin in response. The girl below you voiceless gasps as your cocks multiply again, two in each hole, and you resume fucking her, enjoying the feeling of pumping her full of your peachy seed.",
     "translation": "",
-    "context": "<<POS:09513151>>"
+    "context": "<<POS:09513155>>"
   },
   {
     "key": "output|b_Time_passes_b|f9bf02cecd3d",
@@ -774,10 +792,10 @@
     "context": "<<POS:09514105>>"
   },
   {
-    "key": "output|n_nYou_pause_to_admire_your_handiwork_It_s_been_a_full_three_d|a4cf123ee817",
-    "original": "\\n\\nYou pause to admire your handiwork. It’s been a full three days, and the alien girl is now gone. In her place is a gooey slime creature, similar to you. You noticed the changes after about a day, that her skin was glistening like yours had after ingesting the Skin Clear stuff. After two days, she was practically see through, and now she’s exactly like you, totally made of shiny, liquid goop. You smile down at her, and she gives you a smile in return. You’re currently hilted on her massive dong, enjoying the feeling of her member stirring up your insides as you contemplate what to do next. As you fuck her, you see snippets of her past life, probably due to her becoming part of whatever you are now. So you know where she and her crewmates landed, and that the three of them should still be there. A predatory smile creeps onto your face and you look down at your partner, seeing your expression mirrored. Perhaps the two of you should pay them a visit?",
+    "key": "output|You_pause_to_admire_your_handiwork_It_s_been_a_full_three_days|9b5d16776f31",
+    "original": "You pause to admire your handiwork. It’s been a full three days, and the alien girl is now gone. In her place is a gooey slime creature, similar to you. You noticed the changes after about a day, that her skin was glistening like yours had after ingesting the Skin Clear stuff. After two days, she was practically see through, and now she’s exactly like you, totally made of shiny, liquid goop. You smile down at her, and she gives you a smile in return. You’re currently hilted on her massive dong, enjoying the feeling of her member stirring up your insides as you contemplate what to do next. As you fuck her, you see snippets of her past life, probably due to her becoming part of whatever you are now. So you know where she and her crewmates landed, and that the three of them should still be there. A predatory smile creeps onto your face and you look down at your partner, seeing your expression mirrored. Perhaps the two of you should pay them a visit?",
     "translation": "",
-    "context": "<<POS:09514210>>"
+    "context": "<<POS:09514214>>"
   },
   {
     "key": "output|b_Time_passes_b|9610802284f0",
@@ -786,10 +804,10 @@
     "context": "<<POS:09515198>>"
   },
   {
-    "key": "output|n_nYou_groan_cumming_again_as_you_stuff_the_kaithrit_girl_on_y|e2c3dc54f4e2",
-    "original": "\\n\\nYou groan, cumming again as you stuff the kaithrit girl on your dick full with your odd, peachy cum. Gooey tentacles from your back are restraining the other two crew members, a human male and some sort of snake lady as their former crewmate fucks them at the same time. Below you, the kaithrit looks fit to burst, her belly bloating from the load you dumped down her throat. Looks like it’s time to rotate her. Behind you, you hear your goo partner giggle at your mental joke, the connection between you apparently growing stronger. Whatever is happening, you’re loving every minute of it.",
+    "key": "output|You_groan_cumming_again_as_you_stuff_the_kaithrit_girl_on_your|48cbe1ed3847",
+    "original": "You groan, cumming again as you stuff the kaithrit girl on your dick full with your odd, peachy cum. Gooey tentacles from your back are restraining the other two crew members, a human male and some sort of snake lady as their former crewmate fucks them at the same time. Below you, the kaithrit looks fit to burst, her belly bloating from the load you dumped down her throat. Looks like it’s time to rotate her. Behind you, you hear your goo partner giggle at your mental joke, the connection between you apparently growing stronger. Whatever is happening, you’re loving every minute of it.",
     "translation": "",
-    "context": "<<POS:09515288>>"
+    "context": "<<POS:09515292>>"
   },
   {
     "key": "output|b_Time_passes_b|6b4ea815307e",
@@ -798,16 +816,16 @@
     "context": "<<POS:09515982>>"
   },
   {
-    "key": "output|n_nThere_s_a_knock_of_the_door_of_the_spaceship_You_grunt_in_f|d45f76ca3c2a",
-    "original": "\\n\\nThere’s a knock of the door of the spaceship. You grunt in frustration, stopping what you are doing and walking over to the door. Opening it, you are face to face with a plumed, avian biped. He - you assume it’s a he - blinks at the sight of you. <i>“Miss, your ship has been stationed here for a month. You need to leave. The other spaceport attendants have told you the same thing!”</i> He squawks, arms crossed over his chest. You grin slowly, leaning to one side, dick swinging between the two of you. Oh, yes, the station attendants. You were just finishing with one now. Maybe he’s likely to come and see? He blinks again, nervously, then nods, stepping through the door. As it slides closed behind him, you grin, dick hardening as you begin to fantasize about what you are going to do to his bony ass.",
+    "key": "output|There_s_a_knock_of_the_door_of_the_spaceship_You_grunt_in_frust|c3d3599476a7",
+    "original": "There’s a knock of the door of the spaceship. You grunt in frustration, stopping what you are doing and walking over to the door. Opening it, you are face to face with a plumed, avian biped. He - you assume it’s a he - blinks at the sight of you. <i>“Miss, your ship has been stationed here for a month. You need to leave. The other spaceport attendants have told you the same thing!”</i> He squawks, arms crossed over his chest. You grin slowly, leaning to one side, dick swinging between the two of you. Oh, yes, the station attendants. You were just finishing with one now. Maybe he’s likely to come and see? He blinks again, nervously, then nods, stepping through the door. As it slides closed behind him, you grin, dick hardening as you begin to fantasize about what you are going to do to his bony ass.",
     "translation": "",
-    "context": "<<POS:09516059>>"
+    "context": "<<POS:09516063>>"
   },
   {
-    "key": "output|n_nYou_follow_him_as_he_walks_through_your_ship_sniffing_dispa|b36e05d001ee",
-    "original": "\\n\\nYou follow him as he walks through your ship, sniffing disparagingly at the thin coating of slime on everything. You apologize, saying it makes you and the crew feel more comfortable. When he gets to the opening in the next room, he freezes, eyes widening in shock. You’re on him in a moment, pushing him forward and tearing off his pants. He shrieks, trying to claw at you, but your body simply grabs his flailing limbs, holding him in place as your massive dick pokes gently at his back door. <i>“When I finish, the other attendants get a turn with you. They say that you’re kind of a prick,”</i> you whisper to him. The gooey attendants in front of him begin to giggle, dicks hardening as you slide him down your pseudo-penis.",
+    "key": "output|You_follow_him_as_he_walks_through_your_ship_sniffing_disparagi|7ce2a2e0d94d",
+    "original": "You follow him as he walks through your ship, sniffing disparagingly at the thin coating of slime on everything. You apologize, saying it makes you and the crew feel more comfortable. When he gets to the opening in the next room, he freezes, eyes widening in shock. You’re on him in a moment, pushing him forward and tearing off his pants. He shrieks, trying to claw at you, but your body simply grabs his flailing limbs, holding him in place as your massive dick pokes gently at his back door. <i>“When I finish, the other attendants get a turn with you. They say that you’re kind of a prick,”</i> you whisper to him. The gooey attendants in front of him begin to giggle, dicks hardening as you slide him down your pseudo-penis.",
     "translation": "",
-    "context": "<<POS:09516882>>"
+    "context": "<<POS:09516886>>"
   },
   {
     "key": "output|b_Time_passes_b|2a47bca6c705",
@@ -816,10 +834,10 @@
     "context": "<<POS:09517696>>"
   },
   {
-    "key": "output|n_nIt_s_been_almost_a_year_now_You_sit_at_your_desk_typing_at|7a87cf0536e6",
-    "original": "\\n\\nIt’s been almost a year now. You sit at your desk, typing at an old terminal. Below, one of your extras is giving you a blowjob, deep throating your dick as you work, helping you to focus on the important tasks of running the small spaceport. The door to your office opens, and you look up in annoyance. It’s your secretary, the first one you turned. She has a new batch of off-worlders, seeking landing permits. Your annoyance evaporates, turning into a lusty grin that spreads across all three of your faces. You cum, filling up the gooey girl under the desk as you straighten, shutting off the terminal. You love greeting new arrivals. It’s always so... personal. The cum filled girl giggles at your joke, and your secretary chuckles lustily, her own dick rising alongside yours. Together, the two you prepare to induct the newcomers into your fold. After all, you want to be welcoming.",
+    "key": "output|It_s_been_almost_a_year_now_You_sit_at_your_desk_typing_at_an|be4f3eac6bcd",
+    "original": "It’s been almost a year now. You sit at your desk, typing at an old terminal. Below, one of your extras is giving you a blowjob, deep throating your dick as you work, helping you to focus on the important tasks of running the small spaceport. The door to your office opens, and you look up in annoyance. It’s your secretary, the first one you turned. She has a new batch of off-worlders, seeking landing permits. Your annoyance evaporates, turning into a lusty grin that spreads across all three of your faces. You cum, filling up the gooey girl under the desk as you straighten, shutting off the terminal. You love greeting new arrivals. It’s always so... personal. The cum filled girl giggles at your joke, and your secretary chuckles lustily, her own dick rising alongside yours. Together, the two you prepare to induct the newcomers into your fold. After all, you want to be welcoming.",
     "translation": "",
-    "context": "<<POS:09517803>>"
+    "context": "<<POS:09517807>>"
   },
   {
     "key": "output|b_Time_passes_b|b020ba00fed8",
@@ -828,22 +846,22 @@
     "context": "<<POS:09518755>>"
   },
   {
-    "key": "output|n_nYou_re_now_the_ruler_of_your_own_little_planet_everyone_els|6b2e91e43620",
-    "original": "\\n\\nYou’re now the ruler of your own little planet, everyone else another one of you. You sit at your old desk, your chair now a quivering on your throne of goo. The girls below you struggle, trying to fill you as they endlessly cum into your body, but many have fallen off in exhaustion. The burning desire inside of you is never sated, even when you sink to the highest forms of debauchery. Indeed, the western continent is still locked in perpetual orgasm after your last attempt to sate your lusts. You sigh in annoyance, standing up so suddenly that the dicks buried in you pull out with a squelch. The girls try and apologize to you, but you brush them off. Shooting you worried looks, they turn to each other and begin to fuck amongst themselves as you leave the room, unsatisfied.",
+    "key": "output|You_re_now_the_ruler_of_your_own_little_planet_everyone_else_an|aad2251ed7f7",
+    "original": "You’re now the ruler of your own little planet, everyone else another one of you. You sit at your old desk, your chair now a quivering on your throne of goo. The girls below you struggle, trying to fill you as they endlessly cum into your body, but many have fallen off in exhaustion. The burning desire inside of you is never sated, even when you sink to the highest forms of debauchery. Indeed, the western continent is still locked in perpetual orgasm after your last attempt to sate your lusts. You sigh in annoyance, standing up so suddenly that the dicks buried in you pull out with a squelch. The girls try and apologize to you, but you brush them off. Shooting you worried looks, they turn to each other and begin to fuck amongst themselves as you leave the room, unsatisfied.",
     "translation": "",
-    "context": "<<POS:09518864>>"
+    "context": "<<POS:09518868>>"
   },
   {
-    "key": "output|n_nAs_you_walk_through_what_is_now_the_capital_the_citizens_ar|c4bdd79ebc97",
-    "original": "\\n\\nAs you walk through what is now the capital, the citizens around you are constantly fucking each other. You can feel them through the link between you all, and in essence, you are constantly fucking and being fucked by everyone around you. Yet, there’s never any release anymore. The only thing that makes you even remotely satisfied is turning things into goo by coming on them over and over, but it’s only a brief relief. Adding more people to your collective is the only thing that can sate your desires now, you know it. Because the U.G.C. put a blockade on the planet five years ago, no one has been able to enter, and since you’ve conquered all the remaining people in that time, there’s no one to ease your ever growing lust. To that end, you have one recourse.",
+    "key": "output|As_you_walk_through_what_is_now_the_capital_the_citizens_around|dbe6c8a6c6fb",
+    "original": "As you walk through what is now the capital, the citizens around you are constantly fucking each other. You can feel them through the link between you all, and in essence, you are constantly fucking and being fucked by everyone around you. Yet, there’s never any release anymore. The only thing that makes you even remotely satisfied is turning things into goo by coming on them over and over, but it’s only a brief relief. Adding more people to your collective is the only thing that can sate your desires now, you know it. Because the U.G.C. put a blockade on the planet five years ago, no one has been able to enter, and since you’ve conquered all the remaining people in that time, there’s no one to ease your ever growing lust. To that end, you have one recourse.",
     "translation": "",
-    "context": "<<POS:09519663>>"
+    "context": "<<POS:09519667>>"
   },
   {
-    "key": "output|n_nYou_enter_the_hangar_approaching_your_Vice_Ruler_The_title|5c3e90c93c03",
-    "original": "\\n\\nYou enter the hangar, approaching your Vice Ruler. The title is meaningless, since she’s also you, but it’s fun to give her nicknames. She smiles at you, kissing you on the cheek in greeting as you slap her on her ass. She giggles, jiggling from the gesture, then turns to direct your attention to the ground below. All the starcrafts you could collect are assembled below and you’re loading them with dozens upon dozens of yourself. They all turn to look at you, saluting before resuming to board the multitude of ships. You grimace, gooey fists clenching the railings. The only option you have left is to try and reach for the stars, or sit here and go crazy. Your lover wraps her arms around you, trying to console you, but you can’t even return her affection. As the engines fire up below you, the burning need pushes all other thoughts from your mind.",
+    "key": "output|You_enter_the_hangar_approaching_your_Vice_Ruler_The_title_is|8d3aec3fc869",
+    "original": "You enter the hangar, approaching your Vice Ruler. The title is meaningless, since she’s also you, but it’s fun to give her nicknames. She smiles at you, kissing you on the cheek in greeting as you slap her on her ass. She giggles, jiggling from the gesture, then turns to direct your attention to the ground below. All the starcrafts you could collect are assembled below and you’re loading them with dozens upon dozens of yourself. They all turn to look at you, saluting before resuming to board the multitude of ships. You grimace, gooey fists clenching the railings. The only option you have left is to try and reach for the stars, or sit here and go crazy. Your lover wraps her arms around you, trying to console you, but you can’t even return her affection. As the engines fire up below you, the burning need pushes all other thoughts from your mind.",
     "translation": "",
-    "context": "<<POS:09520446>>"
+    "context": "<<POS:09520450>>"
   },
   {
     "key": "output|Oh_no_something_unexpected_happened|112ff45b7dff",
@@ -855,12 +873,12 @@
     "key": "button|Next|02e503f593d3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09521452>>"
+    "context": "<<POS:09521452>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))"
   },
   {
     "key": "button|Next|35b9a3540cff",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09521533>>"
+    "context": "<<POS:09521533>> addButton(0,\"Next\",(function(){return a.badEndTF(e,t+1,o)}))"
   }
 ]

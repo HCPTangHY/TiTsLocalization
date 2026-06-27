@@ -3,7 +3,7 @@
     "key": "button|Back|6f47528e7483",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:07781471>>"
+    "context": "<<POS:07781471>> addButton(14,\"Back\",(function(){return t.areoloveCancel(e,t)}))"
   },
   {
     "key": "output|The_medipen_has_a_number_of_symbol_shaped_buttons_on_it_You_can|a6c6494527db",
@@ -18,19 +18,19 @@
     "context": "<<POS:07781714>>"
   },
   {
-    "key": "output|n_nWhat_do_you_choose|5909d804118e",
-    "original": "\\n\\nWhat do you choose?",
+    "key": "output|What_do_you_choose|7b1aaca5d726",
+    "original": "What do you choose?",
     "translation": "",
-    "context": "<<POS:07781798>>"
+    "context": "<<POS:07781802>>"
   },
   {
-    "key": "output|n_nYou_currently_have_e_areolaSizeDescript|3dd7920414f3",
-    "original": "\\n\\nYou currently have \"+e.areolaSizeDescript()",
+    "key": "output|You_currently_have_e_areolaSizeDescript|39ebe52dacad",
+    "original": "You currently have \"+e.areolaSizeDescript()",
     "translation": "",
-    "context": "<<POS:07781861>>"
+    "context": "<<POS:07781865>>"
   },
   {
-    "key": "output|n|467695b13538",
+    "key": "output|n|b33949d0166b",
     "original": ", \"+n",
     "translation": "",
     "context": "<<POS:07781926>>"
@@ -45,52 +45,124 @@
     "key": "button|Increase|1709a4b80346",
     "original": "Increase",
     "translation": "",
-    "context": "<<POS:07782102>>"
+    "context": "<<POS:07782102>> addDisabledButton(o++,\"Increase\",\"Increase Size\",\"Your areolae are already as large as this transformative can make them.\")"
   },
   {
-    "key": "button|Increase|7ce38b2b6c6e",
+    "key": "button.hover|Your_areolae_are_already_as_large_as_this_transformative_can_mak|0eb791d4b70d",
+    "original": "Your areolae are already as large as this transformative can make them.",
+    "translation": "",
+    "context": "<<POS:07782129>> addDisabledButton(o++,\"Increase\",\"Increase Size\",\"Your areolae are already as large as this transformative can make them.\")"
+  },
+  {
+    "key": "button|Increase|40bcc693ecec",
     "original": "Increase",
     "translation": "",
-    "context": "<<POS:07782218>>"
+    "context": "<<POS:07782218>> addButton(o++,\"Increase\",(function(){return t.changeThemBoobHats(-2,e,t)}),\"Increase Size\",\"Increases the size of your areola.\")"
   },
   {
-    "key": "button|Decrease|904c5b01cc45",
+    "key": "button.hover|Increase_Size|f0547afd087e",
+    "original": "Increase Size",
+    "translation": "",
+    "context": "<<POS:07782279>> addButton(o++,\"Increase\",(function(){return t.changeThemBoobHats(-2,e,t)}),\"Increase Size\",\"Increases the size of your areola.\")"
+  },
+  {
+    "key": "button.tooltip|Increases_the_size_of_your_areola|3a57e5e4bf6f",
+    "original": "Increases the size of your areola.",
+    "translation": "",
+    "context": "<<POS:07782295>> addButton(o++,\"Increase\",(function(){return t.changeThemBoobHats(-2,e,t)}),\"Increase Size\",\"Increases the size of your areola.\")"
+  },
+  {
+    "key": "button|Decrease|8891f101bbf6",
     "original": "Decrease",
     "translation": "",
-    "context": "<<POS:07782378>>"
+    "context": "<<POS:07782378>> addDisabledButton(o++,\"Decrease\",\"Decrease Size\",\"Your areolae are already as small as this transformative can make them.\")"
   },
   {
-    "key": "button|Decrease|da833926cf93",
+    "key": "button.hover|Your_areolae_are_already_as_small_as_this_transformative_can_mak|889c52e4a641",
+    "original": "Your areolae are already as small as this transformative can make them.",
+    "translation": "",
+    "context": "<<POS:07782405>> addDisabledButton(o++,\"Decrease\",\"Decrease Size\",\"Your areolae are already as small as this transformative can make them.\")"
+  },
+  {
+    "key": "button|Decrease|fdd9ebed115e",
     "original": "Decrease",
     "translation": "",
-    "context": "<<POS:07782494>>"
+    "context": "<<POS:07782494>> addButton(o++,\"Decrease\",(function(){return t.changeThemBoobHats(-3,e,t)}),\"Decrease Size\",\"Decreases the size of your areola.\")"
   },
   {
-    "key": "button|Puffy|2fd138edaff3",
+    "key": "button.hover|Decrease_Size|7d76237b7794",
+    "original": "Decrease Size",
+    "translation": "",
+    "context": "<<POS:07782555>> addButton(o++,\"Decrease\",(function(){return t.changeThemBoobHats(-3,e,t)}),\"Decrease Size\",\"Decreases the size of your areola.\")"
+  },
+  {
+    "key": "button.tooltip|Decreases_the_size_of_your_areola|289ac21a2a16",
+    "original": "Decreases the size of your areola.",
+    "translation": "",
+    "context": "<<POS:07782571>> addButton(o++,\"Decrease\",(function(){return t.changeThemBoobHats(-3,e,t)}),\"Decrease Size\",\"Decreases the size of your areola.\")"
+  },
+  {
+    "key": "button|Puffy|ebacc87f3f8b",
     "original": "Puffy",
     "translation": "",
-    "context": "<<POS:07782654>>"
+    "context": "<<POS:07782654>> addDisabledButton(o++,\"Puffy\",\"Puffy\",\"Your areolae are already puffy.\")"
   },
   {
-    "key": "button|Puffy|5b47cb93ccd7",
+    "key": "button.hover|Your_areolae_are_already_puffy|974b22406461",
+    "original": "Your areolae are already puffy.",
+    "translation": "",
+    "context": "<<POS:07782670>> addDisabledButton(o++,\"Puffy\",\"Puffy\",\"Your areolae are already puffy.\")"
+  },
+  {
+    "key": "button|Puffy|b2ced687a200",
     "original": "Puffy",
     "translation": "",
-    "context": "<<POS:07782719>>"
+    "context": "<<POS:07782719>> addButton(o++,\"Puffy\",(function(){return t.changeThemBoobHats(GLOBAL.FLAG_PUMPED,e,t)}),\"Puffy\",\"Makes your areolae puffy.\")"
   },
   {
-    "key": "button|Flat|ae69a5c9484d",
+    "key": "button.hover|Puffy|b2ced687a200",
+    "original": "Puffy",
+    "translation": "",
+    "context": "<<POS:07782793>> addButton(o++,\"Puffy\",(function(){return t.changeThemBoobHats(GLOBAL.FLAG_PUMPED,e,t)}),\"Puffy\",\"Makes your areolae puffy.\")"
+  },
+  {
+    "key": "button.tooltip|Makes_your_areolae_puffy|7c514a1af0e8",
+    "original": "Makes your areolae puffy.",
+    "translation": "",
+    "context": "<<POS:07782801>> addButton(o++,\"Puffy\",(function(){return t.changeThemBoobHats(GLOBAL.FLAG_PUMPED,e,t)}),\"Puffy\",\"Makes your areolae puffy.\")"
+  },
+  {
+    "key": "button|Flat|d72f0d476761",
     "original": "Flat",
     "translation": "",
-    "context": "<<POS:07782875>>"
+    "context": "<<POS:07782875>> addDisabledButton(o++,\"Flat\",\"Flat\",\"Your areolae are already flat.\")"
   },
   {
-    "key": "button|Flat|597285cb0d3e",
+    "key": "button.hover|Your_areolae_are_already_flat|d7950560fe2f",
+    "original": "Your areolae are already flat.",
+    "translation": "",
+    "context": "<<POS:07782889>> addDisabledButton(o++,\"Flat\",\"Flat\",\"Your areolae are already flat.\")"
+  },
+  {
+    "key": "button|Flat|aa5aa4894f69",
     "original": "Flat",
     "translation": "",
-    "context": "<<POS:07782937>>"
+    "context": "<<POS:07782937>> addButton(o++,\"Flat\",(function(){return t.changeThemBoobHats(-1,e,t)}),\"Flat\",\"Makes your areolae flat.\")"
   },
   {
-    "key": "button.ttB|Changes_the_shape_of_your_areolae_to_be|8a73f7106b64",
+    "key": "button.hover|Flat|aa5aa4894f69",
+    "original": "Flat",
+    "translation": "",
+    "context": "<<POS:07782994>> addButton(o++,\"Flat\",(function(){return t.changeThemBoobHats(-1,e,t)}),\"Flat\",\"Makes your areolae flat.\")"
+  },
+  {
+    "key": "button.tooltip|Makes_your_areolae_flat|0ca3b8b5cdc7",
+    "original": "Makes your areolae flat.",
+    "translation": "",
+    "context": "<<POS:07783001>> addButton(o++,\"Flat\",(function(){return t.changeThemBoobHats(-1,e,t)}),\"Flat\",\"Makes your areolae flat.\")"
+  },
+  {
+    "key": "button.ttB|Changes_the_shape_of_your_areolae_to_be|78ff6d686136",
     "original": "Changes the shape of your areolae to be ",
     "translation": "",
     "context": "<<POS:07783196>>"
@@ -123,7 +195,7 @@
     "key": "button|Next|a4a318c35d61",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07784027>>"
+    "context": "<<POS:07784027>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))"
   },
   {
     "key": "output|You_peek_down_your_top_to_get_a_look_at_the_changes_as_they_unf|43684712f6a4",
@@ -138,40 +210,40 @@
     "context": "<<POS:07784300>>"
   },
   {
-    "key": "output|n_nA_slight_sensation_of_pins_and_needles_buds_in_your_areolae|8689db7ce46a",
-    "original": "\\n\\nA slight sensation of pins and needles buds in your areolae, then it rapidly builds to the point where you let out a small gasp at the intensity. As the feeling reaches its peak, each individual pinprick takes on a laser-like feeling of heat, there and gone almost too quickly to notice were it not for the staggering number of them. Your breath occasionally hitching in your throat, you watch as the transformation begins.",
+    "key": "output|A_slight_sensation_of_pins_and_needles_buds_in_your_areolae_the|13c915217112",
+    "original": "A slight sensation of pins and needles buds in your areolae, then it rapidly builds to the point where you let out a small gasp at the intensity. As the feeling reaches its peak, each individual pinprick takes on a laser-like feeling of heat, there and gone almost too quickly to notice were it not for the staggering number of them. Your breath occasionally hitching in your throat, you watch as the transformation begins.",
     "translation": "",
-    "context": "<<POS:07784416>>"
+    "context": "<<POS:07784420>>"
   },
   {
-    "key": "output|n_nThe_sensations_focus_themselves_around_the_edges_of_your_are|2b5fe59d3996",
-    "original": "\\n\\nThe sensations focus themselves around the edges of your areolae as they slowly grow. <b>Your areolae are now larger!</b>",
+    "key": "output|The_sensations_focus_themselves_around_the_edges_of_your_areolae|2c4fe6d6e494",
+    "original": "The sensations focus themselves around the edges of your areolae as they slowly grow. <b>Your areolae are now larger!</b>",
     "translation": "",
-    "context": "<<POS:07784864>>"
+    "context": "<<POS:07784868>>"
   },
   {
-    "key": "output|n_nThe_sensations_focus_themselves_around_the_edges_of_your_are|663f2c5c0227",
-    "original": "\\n\\nThe sensations focus themselves around the edges of your areolae as they slowly contract. <b>Your areolae are now smaller!</b>",
+    "key": "output|The_sensations_focus_themselves_around_the_edges_of_your_areolae|588125d7914c",
+    "original": "The sensations focus themselves around the edges of your areolae as they slowly contract. <b>Your areolae are now smaller!</b>",
     "translation": "",
-    "context": "<<POS:07785081>>"
+    "context": "<<POS:07785085>>"
   },
   {
-    "key": "output|n_nThe_sensations_diffuse_evenly_throughout_your_areolae_incre|0623abe9b24a",
-    "original": "\\n\\nThe sensations diffuse evenly throughout your areolae, increasing the amount of tissue to reach your desired shape. <b>Your areolae are now puffy!</b>",
+    "key": "output|The_sensations_diffuse_evenly_throughout_your_areolae_increasin|904e27058e3e",
+    "original": "The sensations diffuse evenly throughout your areolae, increasing the amount of tissue to reach your desired shape. <b>Your areolae are now puffy!</b>",
     "translation": "",
-    "context": "<<POS:07785322>>"
+    "context": "<<POS:07785326>>"
   },
   {
-    "key": "output|n_nThe_sensations_diffuse_evenly_throughout_your_areolae_incre|7aec2100bce2",
-    "original": "\\n\\nThe sensations diffuse evenly throughout your areolae, increasing the amount of tissue to reach your desired shape. <b>Your areolae are no longer puffy.</b>",
+    "key": "output|The_sensations_diffuse_evenly_throughout_your_areolae_increasin|78bdddc7fe5b",
+    "original": "The sensations diffuse evenly throughout your areolae, increasing the amount of tissue to reach your desired shape. <b>Your areolae are no longer puffy.</b>",
     "translation": "",
-    "context": "<<POS:07785598>>"
+    "context": "<<POS:07785602>>"
   },
   {
-    "key": "output|n_nThe_sensations_focus_themselves_around_the_edges_of_your_are|7b1ab9f3d2ce",
-    "original": "\\n\\nThe sensations focus themselves around the edges of your areolae, reshaping the outline into a much more exciting shape. <b>Your areolae are now \".concat(b.get(e).toLowerCase(),\"-shaped!</b>\")",
+    "key": "output|The_sensations_focus_themselves_around_the_edges_of_your_areolae|05da54909eeb",
+    "original": "The sensations focus themselves around the edges of your areolae, reshaping the outline into a much more exciting shape. <b>Your areolae are now \".concat(b.get(e).toLowerCase(),\"-shaped!</b>\")",
     "translation": "",
-    "context": "<<POS:07785898>>"
+    "context": "<<POS:07785902>>"
   },
   {
     "key": "output|Shivering_a_bit_from_the_lingering_tingling_you_put_your_gear|79f8e584954a",
@@ -183,24 +255,24 @@
     "key": "button|Next|4398b5eda0f2",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07786404>>"
+    "context": "<<POS:07786404>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))"
   },
   {
-    "key": "output|You_need_nipples_to_use_this_item_n_n|b210bd99c97a",
-    "original": "You need nipples to use this item.\\n\\n",
+    "key": "output|You_need_nipples_to_use_this_item|89db349c6957",
+    "original": "You need nipples to use this item.",
     "translation": "",
     "context": "<<POS:07786561>>"
   },
   {
-    "key": "output|You_put_the_Areolove_back_into_your_inventory_n_n|c29b5396db2b",
-    "original": "You put the Areolove back into your inventory.\\n\\n",
+    "key": "output|You_put_the_Areolove_back_into_your_inventory|a75d2650d35b",
+    "original": "You put the Areolove back into your inventory.",
     "translation": "",
     "context": "<<POS:07786610>>"
   },
   {
-    "key": "button|Next|3ee96bc6347d",
+    "key": "button|Next|2f123de867d4",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07786705>>"
+    "context": "<<POS:07786705>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   }
 ]

@@ -3,7 +3,7 @@
     "key": "perk|Fixed_MilkQ|5a09117ace0a",
     "original": "Fixed MilkQ",
     "translation": "",
-    "context": "<<POS:11667477>>"
+    "context": "<<POS:11667477>> createPerk(\"Fixed MilkQ\",5e3)"
   },
   {
     "key": "combat|n|3a7ff1f1ce87",
@@ -18,10 +18,10 @@
     "context": "<<POS:11672308>>"
   },
   {
-    "key": "combat|n_nEw_It_s_sticky_void_0_flags_GABCHEM_DETTED_b_Ot_m|b46b20dc7791",
-    "original": "\\n\\nEw! It’s sticky! \"+(void 0!==flags.GABCHEM_DETTED?\"<b>\"+Ot.m.capitalize(e.getCombatName(),!1)+\" better wipe it off before she detonates it again!</b>\":\"...but that’s it?\")",
+    "key": "combat|Ew_It_s_sticky_void_0_flags_GABCHEM_DETTED_b_Ot_m_cap|0d109e597f90",
+    "original": "Ew! It’s sticky! \"+(void 0!==flags.GABCHEM_DETTED?\"<b>\"+Ot.m.capitalize(e.getCombatName(),!1)+\" better wipe it off before she detonates it again!</b>\":\"...but that’s it?\")",
     "translation": "",
-    "context": "<<POS:11672912>>"
+    "context": "<<POS:11672916>>"
   },
   {
     "key": "combat|Ot_m_capitalize_e_getCombatName_1_barely_sidestep_Pl|9a9c2933dbb4",
@@ -84,10 +84,10 @@
     "context": "<<POS:11676359>>"
   },
   {
-    "key": "combat|n_Ot_m_capitalize_o_getCombatName_1_o_isPlural_Play|45d12caaec69",
-    "original": "\\n\"+Ot.m.capitalize(o.getCombatName(),!1)+\" \"+(o.isPlural||\"PlayerCharacter\"===o.getClassName()?\"are\":\"is\")+\" hit!",
+    "key": "combat|Ot_m_capitalize_o_getCombatName_1_o_isPlural_Player|c7b675e22347",
+    "original": "\"+Ot.m.capitalize(o.getCombatName(),!1)+\" \"+(o.isPlural||\"PlayerCharacter\"===o.getClassName()?\"are\":\"is\")+\" hit!",
     "translation": "",
-    "context": "<<POS:11676513>>"
+    "context": "<<POS:11676515>>"
   },
   {
     "key": "combat|b_Error_no_target_creatures_found|ba36df16269f",
@@ -102,28 +102,28 @@
     "context": "<<POS:11677062>>"
   },
   {
-    "key": "combat|n_nCan_you_even_hurt_her_through_all_those_combat_stims|72c75a0c0030",
-    "original": "\\n\\nCan you even hurt her through all those combat stims?",
+    "key": "combat|Can_you_even_hurt_her_through_all_those_combat_stims|183817ffe70e",
+    "original": "Can you even hurt her through all those combat stims?",
     "translation": "",
-    "context": "<<POS:11677976>>"
+    "context": "<<POS:11677980>>"
   },
   {
-    "key": "combat|n_n_Ot_m_capitalize_e_getCombatName_1_e_isPlural_Pl|9cb524488be6",
-    "original": "\\n\\n\"+Ot.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural||\"PlayerCharacter\"===e.getClassName()?\"are\":\"is\")+\" too strong-willed to be aroused by such an obvious ploy!",
+    "key": "combat|Ot_m_capitalize_e_getCombatName_1_e_isPlural_Player|b008e7fcbaa5",
+    "original": "\"+Ot.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural||\"PlayerCharacter\"===e.getClassName()?\"are\":\"is\")+\" too strong-willed to be aroused by such an obvious ploy!",
     "translation": "",
-    "context": "<<POS:11678728>>"
+    "context": "<<POS:11678732>>"
   },
   {
-    "key": "combat|n_nIs_the_alley_getting_hotter_or_is_that_just_you|58cc9efc2da4",
-    "original": "\\n\\nIs the alley getting hotter, or is that just you?",
+    "key": "combat|Is_the_alley_getting_hotter_or_is_that_just_you|b799dbe2bf26",
+    "original": "Is the alley getting hotter, or is that just you?",
     "translation": "",
-    "context": "<<POS:11678952>>"
+    "context": "<<POS:11678956>>"
   },
   {
-    "key": "combat|n_n_Ot_m_capitalize_e_getCombatName_1_e_isPlural_Pl|e1f99ac9c112",
-    "original": "\\n\\n\"+Ot.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural||\"PlayerCharacter\"===e.getClassName()?\"are\":\"is\")+\" too strong-willed to be aroused by such an obvious ploy!",
+    "key": "combat|Ot_m_capitalize_e_getCombatName_1_e_isPlural_Player|6cbf0410dcef",
+    "original": "\"+Ot.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural||\"PlayerCharacter\"===e.getClassName()?\"are\":\"is\")+\" too strong-willed to be aroused by such an obvious ploy!",
     "translation": "",
-    "context": "<<POS:11679890>>"
+    "context": "<<POS:11679894>>"
   },
   {
     "key": "combat|Two_shells_roll_into_the_chemist_s_weapon_as_she_stabs_it_in|6208d1fad5ba",
@@ -156,10 +156,10 @@
     "context": "<<POS:11681683>>"
   },
   {
-    "key": "combat|n_nOh_That_didn_t_hurt_as_badly_as_it_could_have_In_fact_the|b28b99b91a39",
-    "original": "\\n\\nOh. That didn’t hurt as badly as it could have. In fact, the warm flush spreading through \"+e.getCombatName()+\" feels... wonderful. Relaxing. If this slovenly trollop wasn’t here, \"+e.getCombatPronoun(\"heshe\")+\" could be finding somebody hotter to seduce. Someone with a nice, big dick.",
+    "key": "combat|Oh_That_didn_t_hurt_as_badly_as_it_could_have_In_fact_the_war|1278f18c1a94",
+    "original": "Oh. That didn’t hurt as badly as it could have. In fact, the warm flush spreading through \"+e.getCombatName()+\" feels... wonderful. Relaxing. If this slovenly trollop wasn’t here, \"+e.getCombatPronoun(\"heshe\")+\" could be finding somebody hotter to seduce. Someone with a nice, big dick.",
     "translation": "",
-    "context": "<<POS:11681843>>"
+    "context": "<<POS:11681847>>"
   },
   {
     "key": "combat|b_Ot_m_capitalize_e_getCombatName_1_e_isPlural_Pl|34098069d335",
@@ -174,31 +174,31 @@
     "context": "<<POS:11682828>>"
   },
   {
-    "key": "combat|n_n_i_Fuuuuck_I_need_to_stop_coming_up_with_excuses_to_gas_my|0ffebfcb8658",
-    "original": "\\n\\n<i>“Fuuuuck, I need to stop coming up with excuses to gas myself with this...”</i>",
+    "key": "combat|i_Fuuuuck_I_need_to_stop_coming_up_with_excuses_to_gas_myself|d889aee8bfd8",
+    "original": "<i>“Fuuuuck, I need to stop coming up with excuses to gas myself with this...”</i>",
     "translation": "",
-    "context": "<<POS:11682899>>"
+    "context": "<<POS:11682903>>"
   },
   {
-    "key": "combat|n_b_Ot_m_capitalize_o_getCombatName_1_o_isPlural_P|cf3941b79dbe",
-    "original": "\\n<b>\"+Ot.m.capitalize(o.getCombatName(),!1)+\" \"+(o.isPlural||\"PlayerCharacter\"===o.getClassName()?\"are\":\"is\")+\" aphro gassed!</b>",
+    "key": "combat|b_Ot_m_capitalize_o_getCombatName_1_o_isPlural_Pla|e993ffb2faca",
+    "original": "<b>\"+Ot.m.capitalize(o.getCombatName(),!1)+\" \"+(o.isPlural||\"PlayerCharacter\"===o.getClassName()?\"are\":\"is\")+\" aphro gassed!</b>",
     "translation": "",
-    "context": "<<POS:11683079>>"
+    "context": "<<POS:11683081>>"
   },
   {
-    "key": "combat|n_b_The_chemist_is_aphro_gassed_b|becbc75f376b",
-    "original": "\\n<b>The chemist is aphro gassed!</b>",
+    "key": "combat|b_The_chemist_is_aphro_gassed_b|d2910e6beec0",
+    "original": "<b>The chemist is aphro gassed!</b>",
     "translation": "",
-    "context": "<<POS:11683283>>"
+    "context": "<<POS:11683285>>"
   },
   {
-    "key": "combat|n_nIt_s_hard_to_tell_who_enjoyed_that_more_You|a6913c194634",
-    "original": "\\n\\nIt’s hard to tell who enjoyed that more. You?",
+    "key": "combat|It_s_hard_to_tell_who_enjoyed_that_more_You|241f3404e48e",
+    "original": "It’s hard to tell who enjoyed that more. You?",
     "translation": "",
-    "context": "<<POS:11683937>>"
+    "context": "<<POS:11683941>>"
   },
   {
-    "key": "combat|Or_Her|88a71ecf0ac9",
+    "key": "combat|Or_Her|f1fb4d613c4e",
     "original": " Or Her?",
     "translation": "",
     "context": "<<POS:11684101>>"
@@ -222,22 +222,22 @@
     "context": "<<POS:11684810>>"
   },
   {
-    "key": "combat|n_nThe_goblin_looks_more_than_a_little_cock_drunk|931d742a3d81",
-    "original": "\\n\\nThe goblin looks more than a little cock-drunk",
+    "key": "combat|The_goblin_looks_more_than_a_little_cock_drunk|e24f2ac3b8e2",
+    "original": "The goblin looks more than a little cock-drunk",
     "translation": "",
-    "context": "<<POS:11684933>>"
+    "context": "<<POS:11684937>>"
   },
   {
-    "key": "combat|but_you_can_t_say_you_didn_t_enjoy_it_yourself|b16935f8bc29",
+    "key": "combat|but_you_can_t_say_you_didn_t_enjoy_it_yourself|7bfe158f8af6",
     "original": ", but you can’t say you didn’t enjoy it yourself.",
     "translation": "",
     "context": "<<POS:11685153>>"
   },
   {
-    "key": "combat|n_n_Ot_m_capitalize_e_getCombatName_1_e_isPlural_Pl|a170c9dfd892",
-    "original": "\\n\\n\"+Ot.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural||\"PlayerCharacter\"===e.getClassName()?\"are\":\"is\")+\" too strong willed to let it affect \"+e.getCombatPronoun(\"himher\")+\".",
+    "key": "combat|Ot_m_capitalize_e_getCombatName_1_e_isPlural_Player|a98eda196ad3",
+    "original": "\"+Ot.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural||\"PlayerCharacter\"===e.getClassName()?\"are\":\"is\")+\" too strong willed to let it affect \"+e.getCombatPronoun(\"himher\")+\".",
     "translation": "",
-    "context": "<<POS:11685626>>"
+    "context": "<<POS:11685630>>"
   },
   {
     "key": "name.short|Geoff|4758115493a5",
@@ -249,24 +249,24 @@
     "key": "button|Gianna|71bd7564c373",
     "original": "Gianna",
     "translation": "",
-    "context": "<<POS:11696187>>"
+    "context": "<<POS:11696187>> addButton(e,\"Gianna\",window.giannaShipCrewMeeting)"
   },
   {
     "key": "button|Gianna|8a0f4f69cfca",
     "original": "Gianna",
     "translation": "",
-    "context": "<<POS:11696361>>"
+    "context": "<<POS:11696361>> addButton(e,\"Gianna\",window.giannaCrewApproach)"
   },
   {
     "key": "perk|Fixed_CumQ|8a7cf6613f9b",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:11706859>>"
+    "context": "<<POS:11706859>> createPerk(\"Fixed CumQ\",5e5,0,0,0)"
   },
   {
     "key": "perk|Fixed_CumQ|ae8de53faa1a",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:11712057>>"
+    "context": "<<POS:11712057>> createPerk(\"Fixed CumQ\",1e4)"
   }
 ]

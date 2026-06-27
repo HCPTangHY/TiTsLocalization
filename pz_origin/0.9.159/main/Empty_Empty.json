@@ -3,7 +3,7 @@
     "key": "name.show|Ship_Storage|68cda17dc00a",
     "original": "Ship Storage",
     "translation": "",
-    "context": "<<POS:10434441>>"
+    "context": "<<POS:10434441>> showName(\"Ship Storage\")"
   },
   {
     "key": "output|b_Available_Storage_b_e_availableSpace_n|129484e9cb0d",
@@ -12,13 +12,13 @@
     "context": "<<POS:10434487>>"
   },
   {
-    "key": "output|n_n_b_u_Stored_Vessels_u_b|81cb0cc32538",
-    "original": "\\n\\n<b><u>Stored Vessels</u>:</b>",
+    "key": "output|b_u_Stored_Vessels_u_b|3965fef1149e",
+    "original": "<b><u>Stored Vessels</u>:</b>",
     "translation": "",
-    "context": "<<POS:10434617>>"
+    "context": "<<POS:10434621>>"
   },
   {
-    "key": "output|u_m_startList|0589e2a192d1",
+    "key": "output|u_m_startList|d59913eb387d",
     "original": "u.m.startList()",
     "translation": "",
     "context": "<<POS:10434660>>"
@@ -39,10 +39,16 @@
     "key": "button|Empty|5cc7697c6729",
     "original": "Empty",
     "translation": "",
-    "context": "<<POS:10435134>>"
+    "context": "<<POS:10435134>> addDisabledButton(i,\"Empty\",\"Empty\",\"There is no ship stored here.\")"
   },
   {
-    "key": "output|u_m_endList|0201a6c0fe38",
+    "key": "button.hover|There_is_no_ship_stored_here|4bed9ae6ed0e",
+    "original": "There is no ship stored here.",
+    "translation": "",
+    "context": "<<POS:10435150>> addDisabledButton(i,\"Empty\",\"Empty\",\"There is no ship stored here.\")"
+  },
+  {
+    "key": "output|u_m_endList|db2135d35cd6",
     "original": "u.m.endList()",
     "translation": "",
     "context": "<<POS:10435211>>"
@@ -51,85 +57,163 @@
     "key": "button|Current_Ship|7503bde26976",
     "original": "Current Ship",
     "translation": "",
-    "context": "<<POS:10435240>>"
+    "context": "<<POS:10435240>> addButton(13,\"Current Ship\",(function(){return e.statistics(pc_ship,(function(){return e.storedShipsMenu(t,o,a)}))}),\"Current Ship Stats\",\"Look over your ship and its equipped modules.\",void 0,pc_ship)"
   },
   {
-    "key": "button|Back|83bdd490ab84",
+    "key": "button.hover|Current_Ship_Stats|89a7170a3914",
+    "original": "Current Ship Stats",
+    "translation": "",
+    "context": "<<POS:10435344>> addButton(13,\"Current Ship\",(function(){return e.statistics(pc_ship,(function(){return e.storedShipsMenu(t,o,a)}))}),\"Current Ship Stats\",\"Look over your ship and its equipped modules.\",void 0,pc_ship)"
+  },
+  {
+    "key": "button.tooltip|Look_over_your_ship_and_its_equipped_modules|5af1e809012a",
+    "original": "Look over your ship and its equipped modules.",
+    "translation": "",
+    "context": "<<POS:10435365>> addButton(13,\"Current Ship\",(function(){return e.statistics(pc_ship,(function(){return e.storedShipsMenu(t,o,a)}))}),\"Current Ship Stats\",\"Look over your ship and its equipped modules.\",void 0,pc_ship)"
+  },
+  {
+    "key": "button|Back|d98738b8010b",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:10435442>>"
+    "context": "<<POS:10435442>> addButton(14,\"Back\",(function(){resetItemSelector(),e.returnFunction()}))"
   },
   {
     "key": "button|Buy|c60ff89d05c9",
     "original": "Buy",
     "translation": "",
-    "context": "<<POS:10435599>>"
+    "context": "<<POS:10435599>> addDisabledButton(0,\"Buy\",\"Buy\",\"Since there isn’t any storage available for your ships in Novahome, you’ll have to make your purchase with a trade-in.\")"
   },
   {
-    "key": "button|Buy|146a94c1debe",
+    "key": "button.hover|Since_there_isn_t_any_storage_available_for_your_ships_in_Novaho|bbeaf7aa8307",
+    "original": "Since there isn’t any storage available for your ships in Novahome, you’ll have to make your purchase with a trade-in.",
+    "translation": "",
+    "context": "<<POS:10435611>> addDisabledButton(0,\"Buy\",\"Buy\",\"Since there isn’t any storage available for your ships in Novahome, you’ll have to make your purchase with a trade-in.\")"
+  },
+  {
+    "key": "button|Buy|a3e7f53caf4f",
     "original": "Buy",
     "translation": "",
-    "context": "<<POS:10435778>>"
+    "context": "<<POS:10435778>> addDisabledButton(0,\"Buy\",\"Buy\",\"Since there isn’t any storage available for your ships in Myrellion, you’ll have to make your purchase with a trade-in.\")"
   },
   {
-    "key": "button|Buy|146a94c1debe#1",
+    "key": "button.hover|Since_there_isn_t_any_storage_available_for_your_ships_in_Myrell|56672f9c535c",
+    "original": "Since there isn’t any storage available for your ships in Myrellion, you’ll have to make your purchase with a trade-in.",
+    "translation": "",
+    "context": "<<POS:10435790>> addDisabledButton(0,\"Buy\",\"Buy\",\"Since there isn’t any storage available for your ships in Myrellion, you’ll have to make your purchase with a trade-in.\")"
+  },
+  {
+    "key": "button|Buy|a3e7f53caf4f#1",
     "original": "Buy",
     "translation": "",
-    "context": "<<POS:10435984>>"
+    "context": "<<POS:10435984>> addButton(0,\"Buy\",(function(){window.popUIStateToMainText(),e.shipActionConfirmPrompt(o,pc_ship,(function(){return e.purchaseShip(t,o,a)}),a,\"Are you sure you want to buy <i>\".concat(o.a).concat(o.short,\"</i> for \").concat(n.toLocaleString(),\" credits?\"))}),\"Buy\",\"Buy \".concat(o.a).concat(o.short,\"...."
   },
   {
-    "key": "button|Buy|146a94c1debe#2",
+    "key": "button.hover|Buy|a3e7f53caf4f",
     "original": "Buy",
     "translation": "",
-    "context": "<<POS:10436359>>"
+    "context": "<<POS:10436230>> addButton(0,\"Buy\",(function(){window.popUIStateToMainText(),e.shipActionConfirmPrompt(o,pc_ship,(function(){return e.purchaseShip(t,o,a)}),a,\"Are you sure you want to buy <i>\".concat(o.a).concat(o.short,\"</i> for \").concat(n.toLocaleString(),\" credits?\"))}),\"Buy\",\"Buy \".concat(o.a).concat(o.short,\"...."
   },
   {
-    "key": "button|Buy|146a94c1debe#3",
+    "key": "button.tooltip|Buy|1bee476aa30c",
+    "original": "Buy ",
+    "translation": "",
+    "context": "<<POS:10436236>> addButton(0,\"Buy\",(function(){window.popUIStateToMainText(),e.shipActionConfirmPrompt(o,pc_ship,(function(){return e.purchaseShip(t,o,a)}),a,\"Are you sure you want to buy <i>\".concat(o.a).concat(o.short,\"</i> for \").concat(n.toLocaleString(),\" credits?\"))}),\"Buy\",\"Buy \".concat(o.a).concat(o.short,\"...."
+  },
+  {
+    "key": "button|Buy|9acdaf74d221",
     "original": "Buy",
     "translation": "",
-    "context": "<<POS:10436485>>"
+    "context": "<<POS:10436359>> addDisabledButton(0,\"Buy\",\"Buy\",\"You can’t afford that!\\n\\n<b><u>Price</u>:</b> \".concat(n.toLocaleString(),\" Credits\"))"
   },
   {
-    "key": "button|Buy_Trade|5f00e96e0053",
+    "key": "button.hover|You_can_t_afford_that_n_n_b_u_Price_u_b|951dc7bd8a32",
+    "original": "You can’t afford that!\\n\\n<b><u>Price</u>:</b> ",
+    "translation": "",
+    "context": "<<POS:10436371>> addDisabledButton(0,\"Buy\",\"Buy\",\"You can’t afford that!\\n\\n<b><u>Price</u>:</b> \".concat(n.toLocaleString(),\" Credits\"))"
+  },
+  {
+    "key": "button|Buy|97d80ae8684f",
+    "original": "Buy",
+    "translation": "",
+    "context": "<<POS:10436485>> addDisabledButton(0,\"Buy\",\"Buy\",\"You don’t have room to place your current ship in storage. You’ll have to sell one of your stored ships (or trade this one in with the purchase).\")"
+  },
+  {
+    "key": "button.hover|You_don_t_have_room_to_place_your_current_ship_in_storage_You_l|14aaf27a29a4",
+    "original": "You don’t have room to place your current ship in storage. You’ll have to sell one of your stored ships (or trade this one in with the purchase).",
+    "translation": "",
+    "context": "<<POS:10436497>> addDisabledButton(0,\"Buy\",\"Buy\",\"You don’t have room to place your current ship in storage. You’ll have to sell one of your stored ships (or trade this one in with the purchase).\")"
+  },
+  {
+    "key": "button|Buy_Trade|e7ffb2565b08",
     "original": "Buy+Trade",
     "translation": "",
-    "context": "<<POS:10436753>>"
+    "context": "<<POS:10436753>> addDisabledButton(1,\"Buy+Trade\",\"Buy and Trade\",\"You cannot trade in your Casstech. Vahn won’t take it.\")"
   },
   {
-    "key": "button|Buy_Trade|b28026d55769",
+    "key": "button.hover|You_cannot_trade_in_your_Casstech_Vahn_won_t_take_it|b5942616c2db",
+    "original": "You cannot trade in your Casstech. Vahn won’t take it.",
+    "translation": "",
+    "context": "<<POS:10436781>> addDisabledButton(1,\"Buy+Trade\",\"Buy and Trade\",\"You cannot trade in your Casstech. Vahn won’t take it.\")"
+  },
+  {
+    "key": "button|Buy_Trade|630640f62a4f",
     "original": "Buy+Trade",
     "translation": "",
-    "context": "<<POS:10436891>>"
+    "context": "<<POS:10436891>> addButton(1,\"Buy+Trade\",(function(){window.popUIStateToMainText(),e.shipActionConfirmPrompt(o,pc_ship,(function(){return e.tradeInPurchaseShip(t,o,a)}),a,\"Are you sure you want to sell <i>\".concat(pc_ship.theName,\"</i> in exchange for <i>\").concat(o.theName,\"</i> and \").concat(s.toLocaleString(),\" c..."
   },
   {
-    "key": "button|Buy_Trade|b28026d55769#1",
+    "key": "button.hover|Buy_and_Trade|d3aad449e7b3",
+    "original": "Buy and Trade",
+    "translation": "",
+    "context": "<<POS:10437192>> addButton(1,\"Buy+Trade\",(function(){window.popUIStateToMainText(),e.shipActionConfirmPrompt(o,pc_ship,(function(){return e.tradeInPurchaseShip(t,o,a)}),a,\"Are you sure you want to sell <i>\".concat(pc_ship.theName,\"</i> in exchange for <i>\").concat(o.theName,\"</i> and \").concat(s.toLocaleString(),\" c..."
+  },
+  {
+    "key": "button.tooltip|Trade_in_your_current_ship_to_help_you_pay_for_the_new_one_n_n|2381bcab5374",
+    "original": "Trade in your current ship to help you pay for the new one.\\n\\n<b><u>Trade-In Price</u>:</b> ",
+    "translation": "",
+    "context": "<<POS:10437208>> addButton(1,\"Buy+Trade\",(function(){window.popUIStateToMainText(),e.shipActionConfirmPrompt(o,pc_ship,(function(){return e.tradeInPurchaseShip(t,o,a)}),a,\"Are you sure you want to sell <i>\".concat(pc_ship.theName,\"</i> in exchange for <i>\").concat(o.theName,\"</i> and \").concat(s.toLocaleString(),\" c..."
+  },
+  {
+    "key": "button|Buy_Trade|c90f64869630",
     "original": "Buy+Trade",
     "translation": "",
-    "context": "<<POS:10437363>>"
+    "context": "<<POS:10437363>> addDisabledButton(1,\"Buy+Trade\",\"Buy and Trade\",\"You still can’t afford the ship this way.\\n\\n<b><u>Trade-In Price</u>:</b> \".concat(s.toLocaleString(),\" Credits\"))"
   },
   {
-    "key": "button|Buy_Trade|b28026d55769#2",
+    "key": "button.hover|You_still_can_t_afford_the_ship_this_way_n_n_b_u_Trade_In_Pric|a6ddc35e25b6",
+    "original": "You still can’t afford the ship this way.\\n\\n<b><u>Trade-In Price</u>:</b> ",
+    "translation": "",
+    "context": "<<POS:10437391>> addDisabledButton(1,\"Buy+Trade\",\"Buy and Trade\",\"You still can’t afford the ship this way.\\n\\n<b><u>Trade-In Price</u>:</b> \".concat(s.toLocaleString(),\" Credits\"))"
+  },
+  {
+    "key": "button|Buy_Trade|74cb2af898eb",
     "original": "Buy+Trade",
     "translation": "",
-    "context": "<<POS:10437528>>"
+    "context": "<<POS:10437528>> addDisabledButton(1,\"Buy+Trade\",\"Buy and Trade\",\"You cannot trade this ship.\")"
   },
   {
-    "key": "output|Once_you_fully_commit_t_short_informs_you_that_it_s_station|1838dc18eeb7",
+    "key": "button.hover|You_cannot_trade_this_ship|2cf2bdb3689c",
+    "original": "You cannot trade this ship.",
+    "translation": "",
+    "context": "<<POS:10437556>> addDisabledButton(1,\"Buy+Trade\",\"Buy and Trade\",\"You cannot trade this ship.\")"
+  },
+  {
+    "key": "output|Once_you_fully_commit_t_short_informs_you_that_it_s_station|d32f7c3def2f",
     "original": "Once you fully commit, \"+t.short+\" informs you that it’s station policy to ensure that inactivated ships have their storage completely emptied out. Ever since the entire deck got infested with grubthakks a few years back, it’s been something of a sore spot. <i>“Don’t worry too hard about it. Bolted-in upgrades are fine, and I’ll have your smaller things delivered to the new ship.”</i>",
     "translation": "",
     "context": "<<POS:10437709>>"
   },
   {
-    "key": "output|n_n_b_You_pay_n_toLocaleString_credits_for_i_o_a_o_sho|c9ef1b651d12",
-    "original": "\\n\\n<b>You pay \"+n.toLocaleString()+\" credits for <i>\"+o.a+o.short+\"</i>!</b>",
+    "key": "output|b_You_pay_n_toLocaleString_credits_for_i_o_a_o_short|aad01778ed33",
+    "original": "<b>You pay \"+n.toLocaleString()+\" credits for <i>\"+o.a+o.short+\"</i>!</b>",
     "translation": "",
-    "context": "<<POS:10438107>>"
+    "context": "<<POS:10438111>>"
   },
   {
     "key": "button|Next|a89737a9ee9a",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:10438369>>"
+    "context": "<<POS:10438369>> addButton(0,\"Next\",(function(){resetItemSelector(),a()}))"
   },
   {
     "key": "output|Once_you_fully_commit_t_short_informs_you_that_your_stored|2b2579449854",
@@ -138,22 +222,34 @@
     "context": "<<POS:10438529>>"
   },
   {
-    "key": "output|n_n_b_New_Ship_Cost_b_o_cost_Credits_n_b_Old_Ship_Valu|e7c0965e38da",
-    "original": "\\n\\n<b>New Ship Cost: </b>\"+o.cost()+\" Credits\\n<b>Old Ship Value: </b>\"+n+\" Credits\\n<b>Total Cost: </b>\"+i.toLocaleString()+\" Credits\\n\\nDo you trade it in? (<b>Warning:</b> This cannot be reversed.)",
+    "key": "output|b_New_Ship_Cost_b_o_cost_Credits_n_b_Old_Ship_Value|5e153b9d2fdd",
+    "original": "<b>New Ship Cost: </b>\"+o.cost()+\" Credits\\n<b>Old Ship Value: </b>\"+n+\" Credits\\n<b>Total Cost: </b>\"+i.toLocaleString()+\" Credits\\n\\nDo you trade it in? (<b>Warning:</b> This cannot be reversed.)",
     "translation": "",
-    "context": "<<POS:10438779>>"
+    "context": "<<POS:10438783>>"
   },
   {
     "key": "button|Trade_In|51d4e41b9364",
     "original": "Trade In",
     "translation": "",
-    "context": "<<POS:10439008>>"
+    "context": "<<POS:10439008>> addButton(0,\"Trade In\",(function(){return e.executeTradeIn(t,o,a)}),\"Trade In\",\"Get you a new ship!\")"
   },
   {
-    "key": "button|Back|94dd72fd6f4f",
+    "key": "button.hover|Trade_In|51d4e41b9364",
+    "original": "Trade In",
+    "translation": "",
+    "context": "<<POS:10439064>> addButton(0,\"Trade In\",(function(){return e.executeTradeIn(t,o,a)}),\"Trade In\",\"Get you a new ship!\")"
+  },
+  {
+    "key": "button.tooltip|Get_you_a_new_ship|e4b47f3da993",
+    "original": "Get you a new ship!",
+    "translation": "",
+    "context": "<<POS:10439075>> addButton(0,\"Trade In\",(function(){return e.executeTradeIn(t,o,a)}),\"Trade In\",\"Get you a new ship!\")"
+  },
+  {
+    "key": "button|Back|506ee381782a",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:10439111>>"
+    "context": "<<POS:10439111>> addButton(14,\"Back\",(function(){resetItemSelector(),a()}))"
   },
   {
     "key": "output|b_You_make_a_profit_of_Math_abs_n_off_of_the_trade_in_b|fc9b5fccfaff",
@@ -177,25 +273,25 @@
     "key": "button|Next|5d15647af369",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:10439841>>"
+    "context": "<<POS:10439841>> addButton(0,\"Next\",(function(){return window.raskvelDockmaster(!0)}))"
   },
   {
     "key": "button|Back|eca0a6ead26e",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:10439929>>"
+    "context": "<<POS:10439929>> addButton(14,\"Back\",window.focalorApproach)"
   },
   {
     "key": "button|Next|6d18801ef4fb",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:10439972>>"
+    "context": "<<POS:10439972>> addButton(0,\"Next\",a)"
   },
   {
     "key": "name.show|Sell_Ship|3010e34cd61d",
     "original": "Sell Ship",
     "translation": "",
-    "context": "<<POS:10440224>>"
+    "context": "<<POS:10440224>> showName(\"Sell Ship\")"
   },
   {
     "key": "output|What_ship_would_you_like_to_sell|6555ee3e7d50",
@@ -204,13 +300,13 @@
     "context": "<<POS:10440244>>"
   },
   {
-    "key": "output|n_n_b_u_Owned_Vessels_u_b|a5e763900e58",
-    "original": "\\n\\n<b><u>Owned Vessels</u>:</b>",
+    "key": "output|b_u_Owned_Vessels_u_b|0a84f3433fed",
+    "original": "<b><u>Owned Vessels</u>:</b>",
     "translation": "",
-    "context": "<<POS:10440327>>"
+    "context": "<<POS:10440331>>"
   },
   {
-    "key": "output|u_m_startList|940c6f622dc3",
+    "key": "output|u_m_startList|0f41e99e69f7",
     "original": "u.m.startList()",
     "translation": "",
     "context": "<<POS:10440369>>"
@@ -222,7 +318,13 @@
     "context": "<<POS:10440393>>"
   },
   {
-    "key": "output|u_m_endList|7fe1e133360d",
+    "key": "button.hover|You_can_t_sell_your_ship_without_first_lining_up_a_replacement|3267848afc42",
+    "original": "You can’t sell your ship without first lining up a replacement.",
+    "translation": "",
+    "context": "<<POS:10440534>> addDisabledButton(i++,pc_ship.short,\"<i>\".concat(pc_ship.theName,\"</i>\"),\"You can’t sell your ship without first lining up a replacement.\",void 0,pc_ship)"
+  },
+  {
+    "key": "output|u_m_endList|8d5345cc3d4e",
     "original": "u.m.endList()",
     "translation": "",
     "context": "<<POS:10440673>>"
@@ -231,13 +333,25 @@
     "key": "button|Current_Ship|7503bde26976#1",
     "original": "Current Ship",
     "translation": "",
-    "context": "<<POS:10440702>>"
+    "context": "<<POS:10440702>> addButton(13,\"Current Ship\",(function(){return e.statistics(pc_ship,(function(){return e.generateShipSellMenu(t,o,a,n)}))}),\"Current Ship Stats\",\"Look over your ship and its equipped modules.\",void 0,pc_ship)"
   },
   {
-    "key": "button|Back|83bdd490ab84#1",
+    "key": "button.hover|Current_Ship_Stats|89a7170a3914#1",
+    "original": "Current Ship Stats",
+    "translation": "",
+    "context": "<<POS:10440813>> addButton(13,\"Current Ship\",(function(){return e.statistics(pc_ship,(function(){return e.generateShipSellMenu(t,o,a,n)}))}),\"Current Ship Stats\",\"Look over your ship and its equipped modules.\",void 0,pc_ship)"
+  },
+  {
+    "key": "button.tooltip|Look_over_your_ship_and_its_equipped_modules|5af1e809012a#1",
+    "original": "Look over your ship and its equipped modules.",
+    "translation": "",
+    "context": "<<POS:10440834>> addButton(13,\"Current Ship\",(function(){return e.statistics(pc_ship,(function(){return e.generateShipSellMenu(t,o,a,n)}))}),\"Current Ship Stats\",\"Look over your ship and its equipped modules.\",void 0,pc_ship)"
+  },
+  {
+    "key": "button|Back|d98738b8010b#1",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:10440911>>"
+    "context": "<<POS:10440911>> addButton(14,\"Back\",(function(){resetItemSelector(),o()}))"
   },
   {
     "key": "output|textify_a_a_0_n_Z_You_swap_i_i_for_i_i|2dc6e8cee678",
@@ -249,31 +363,61 @@
     "key": "button|Next|0c22d9d839de",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:10441990>>"
+    "context": "<<POS:10441990>> addButton(0,\"Next\",(function(){return e.storedShipsMenu(o,i,s)}))"
   },
   {
-    "key": "output|n_nYour_old_vessel_i_t_theName_i_is_placed_into_storag|6955422433ef",
-    "original": "\\n\\nYour old vessel, <i>\"+t.theName+\"</i>, is placed into storage.",
+    "key": "output|Your_old_vessel_i_t_theName_i_is_placed_into_storage|a56759aae2e9",
+    "original": "Your old vessel, <i>\"+t.theName+\"</i>, is placed into storage.",
     "translation": "",
-    "context": "<<POS:10442212>>"
+    "context": "<<POS:10442216>>"
   },
   {
     "key": "button|Edit_Weapons|ef4904e04b50",
     "original": "Edit Weapons",
     "translation": "",
-    "context": "<<POS:10442583>>"
+    "context": "<<POS:10442583>> addButton(l,\"Edit Weapons\",(function(){window.ui.createReorganizationListMenu(pc_ship.inventory.equippedItems.weapons,\"Reorganize Weapons\",\"Use the menu to change the order of your ship’s installed weaponry.\\n(Top-most is first-most.)\\n\\n<i>Note that this will also affect the attack order of weapons..."
   },
   {
-    "key": "button|Edit_Weapons|54b260fb33e2",
+    "key": "button.hover|Reorganize_Weapons|cea9960d0361",
+    "original": "Reorganize Weapons",
+    "translation": "",
+    "context": "<<POS:10442955>> addButton(l,\"Edit Weapons\",(function(){window.ui.createReorganizationListMenu(pc_ship.inventory.equippedItems.weapons,\"Reorganize Weapons\",\"Use the menu to change the order of your ship’s installed weaponry.\\n(Top-most is first-most.)\\n\\n<i>Note that this will also affect the attack order of weapons..."
+  },
+  {
+    "key": "button.tooltip|Change_the_order_of_installed_weapons_Also_affects_the_attack|68982d7d1b05",
+    "original": "Change the order of installed weapons. (Also affects the attack order of weapons in combat.)",
+    "translation": "",
+    "context": "<<POS:10442976>> addButton(l,\"Edit Weapons\",(function(){window.ui.createReorganizationListMenu(pc_ship.inventory.equippedItems.weapons,\"Reorganize Weapons\",\"Use the menu to change the order of your ship’s installed weaponry.\\n(Top-most is first-most.)\\n\\n<i>Note that this will also affect the attack order of weapons..."
+  },
+  {
+    "key": "button|Edit_Weapons|15da15a3effa",
     "original": "Edit Weapons",
     "translation": "",
-    "context": "<<POS:10443092>>"
+    "context": "<<POS:10443092>> addDisabledButton(l,\"Edit Weapons\",\"Reorganize Weapons\",\"You do not have enough installed weapons to change the order of.\")"
   },
   {
-    "key": "button|Back|659ee2e7c6f5",
+    "key": "button.hover|You_do_not_have_enough_installed_weapons_to_change_the_order_of|70083b0b17bb",
+    "original": "You do not have enough installed weapons to change the order of.",
+    "translation": "",
+    "context": "<<POS:10443128>> addDisabledButton(l,\"Edit Weapons\",\"Reorganize Weapons\",\"You do not have enough installed weapons to change the order of.\")"
+  },
+  {
+    "key": "button.tooltip|View_the_list_of_installed|a91ac032b7cc",
+    "original": "View the list of installed ",
+    "translation": "",
+    "context": "<<POS:10443497>> addButton(n,u.m.toDisplayCase(i),(function(){makeButtonMenuFromList(s,(function(e,t){return addItemButton(e,t,(function(){window.showInspectItem(t,null,o)}))}),(function(){return e.equipmentMenu(t,o,a)}),0,u.m.toDisplayCase(i))}),u.m.toDisplayCase(\"installed \".concat(i)),\"View the list of installed ..."
+  },
+  {
+    "key": "button.hover|This_ship_has_no_installed|320a05c6c76d",
+    "original": "This ship has no installed ",
+    "translation": "",
+    "context": "<<POS:10443625>> addDisabledButton(n,u.m.toDisplayCase(i),u.m.toDisplayCase(\"installed \".concat(i)),\"This ship has no installed \".concat(i,\" to view.\"))"
+  },
+  {
+    "key": "button|Back|90f677abb294",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:10443707>>"
+    "context": "<<POS:10443707>> addButton(14,\"Back\",(function(){resetItemSelector(),a()}))"
   },
   {
     "key": "output|e_generateCompareString_t_t|e73975cb1d96",
@@ -282,16 +426,10 @@
     "context": "<<POS:10443947>>"
   },
   {
-    "key": "output|n_n|64f259e08be4",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:10443985>>"
-  },
-  {
-    "key": "button|Back|849b7654f0c1",
+    "key": "button|Back|62920a859dd4",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:10444029>>"
+    "context": "<<POS:10444029>> addButton(14,\"Back\",(function(){resetItemSelector(),o()}))"
   },
   {
     "key": "output|i|d206574d7026",
@@ -300,69 +438,75 @@
     "context": "<<POS:10455011>>"
   },
   {
-    "key": "output|n_n_e_generateCompareString_o_t_1_0|67aabd5bd01b",
-    "original": "\\n\\n\"+e.generateCompareString(o,t,!1,!0)",
+    "key": "output|e_generateCompareString_o_t_1_0|a0eb246d71bc",
+    "original": "\"+e.generateCompareString(o,t,!1,!0)",
     "translation": "",
-    "context": "<<POS:10455022>>"
+    "context": "<<POS:10455026>>"
   },
   {
-    "key": "output|n_n|8da6ee59aa6a",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:10455072>>"
-  },
-  {
-    "key": "button|Yes|7277fb82b795",
+    "key": "button|Yes|63de64b43a75",
     "original": "Yes",
     "translation": "",
-    "context": "<<POS:10455117>>"
+    "context": "<<POS:10455117>> addButton(0,\"Yes\",(function(){return a()}))"
   },
   {
     "key": "button|No|1c655db5490a",
     "original": "No",
     "translation": "",
-    "context": "<<POS:10455161>>"
+    "context": "<<POS:10455161>> addButton(1,\"No\",(function(){return n()}))"
   },
   {
     "key": "button|Equipment|c735303ad523",
     "original": "Equipment",
     "translation": "",
-    "context": "<<POS:10455204>>"
+    "context": "<<POS:10455204>> addButton(4,\"Equipment\",(function(){return e.equipmentMenu(t,o,(function(){i()}))}),\"Ship Equipment\",\"Review the ship’s equipment.\")"
   },
   {
-    "key": "output|Buying_a_module_will_result_in_it_being_immediately_installed_on|367619a57bcc",
-    "original": "Buying a module will result in it being immediately installed on your ship. They’re too large to carry or transport in any other way. The cost of installation is included in the price.\\n\\n",
+    "key": "button.hover|Ship_Equipment|2483aa0cb4ba",
+    "original": "Ship Equipment",
+    "translation": "",
+    "context": "<<POS:10455276>> addButton(4,\"Equipment\",(function(){return e.equipmentMenu(t,o,(function(){i()}))}),\"Ship Equipment\",\"Review the ship’s equipment.\")"
+  },
+  {
+    "key": "button.tooltip|Review_the_ship_s_equipment|33b708f3f123",
+    "original": "Review the ship’s equipment.",
+    "translation": "",
+    "context": "<<POS:10455293>> addButton(4,\"Equipment\",(function(){return e.equipmentMenu(t,o,(function(){i()}))}),\"Ship Equipment\",\"Review the ship’s equipment.\")"
+  },
+  {
+    "key": "output|Buying_a_module_will_result_in_it_being_immediately_installed_on|176aaad32410",
+    "original": "Buying a module will result in it being immediately installed on your ship. They’re too large to carry or transport in any other way. The cost of installation is included in the price.",
     "translation": "",
     "context": "<<POS:10455668>>"
   },
   {
-    "key": "output|b_Unused_Upgrade_Slots_b_pc_ship_capacity_pc_ship_inven|5a41a4e14993",
+    "key": "output|b_Unused_Upgrade_Slots_b_pc_ship_capacity_pc_ship_inven|352765a829ba",
     "original": "<b>Unused Upgrade Slots:</b> \"+(pc_ship.capacity()-pc_ship.inventory.storage.length)",
     "translation": "",
     "context": "<<POS:10455867>>"
   },
   {
-    "key": "output|n_b_Unused_Weapon_Hardpoints_b_pc_ship_gunCapacity_pc_s|694ed6e4b600",
-    "original": "\\n<b>Unused Weapon Hardpoints:</b> \"+(pc_ship.gunCapacity()-pc_ship.listShipWeapons().length)",
+    "key": "output|b_Unused_Weapon_Hardpoints_b_pc_ship_gunCapacity_pc_shi|eb622f92949b",
+    "original": "<b>Unused Weapon Hardpoints:</b> \"+(pc_ship.gunCapacity()-pc_ship.listShipWeapons().length)",
     "translation": "",
-    "context": "<<POS:10455961>>"
+    "context": "<<POS:10455963>>"
   },
   {
-    "key": "output|n_b_Current_Crew_Capacity_b_pc_ship_crewCapacity|8f753dec55cd",
-    "original": "\\n<b>Current Crew Capacity:</b> \"+pc_ship.crewCapacity()",
+    "key": "output|b_Current_Crew_Capacity_b_pc_ship_crewCapacity|e3358b201289",
+    "original": "<b>Current Crew Capacity:</b> \"+pc_ship.crewCapacity()",
     "translation": "",
-    "context": "<<POS:10456064>>"
+    "context": "<<POS:10456066>>"
   },
   {
-    "key": "output|n_n_b_Warning_b_Your_ship_has_no_more_hardpoints_to_equip_we|f8c1566641e5",
-    "original": "\\n\\n<b>Warning:</b> Your ship has no more hardpoints to equip weapons to.",
+    "key": "output|b_Warning_b_Your_ship_has_no_more_hardpoints_to_equip_weapon|4ae9b2bf6ac8",
+    "original": "<b>Warning:</b> Your ship has no more hardpoints to equip weapons to.",
     "translation": "",
-    "context": "<<POS:10456186>>"
+    "context": "<<POS:10456190>>"
   },
   {
-    "key": "output|n_n_b_u_Modules_For_Sale_Fit_u_b|76a0ba62c823",
-    "original": "\\n\\n<b><u>Modules For Sale & Fit:</u></b>",
+    "key": "output|b_u_Modules_For_Sale_Fit_u_b|70d133ab3069",
+    "original": "<b><u>Modules For Sale & Fit:</u></b>",
     "translation": "",
-    "context": "<<POS:10456270>>"
+    "context": "<<POS:10456274>>"
   }
 ]

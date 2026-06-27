@@ -12,22 +12,22 @@
     "context": "<<POS:09124402>>"
   },
   {
-    "key": "output|n_nPeaking_at_the_inside_of_the_wrapper_you_spot_something_wri|b5b29079d6cb",
-    "original": "\\n\\nPeaking at the inside of the wrapper, you spot something written along its length: <i>“\"+RandomInCollection([\"With those silver scales, it ain’t bad to stick out like a </i>saur<i> thumb!\",\"No </i>saur<i> loser here, if we can help it!\",\"We came, we </i>saur<i>, we conquered!\",\"The more shards you eat, the more your awesomeness </i>scales<i> with you!\",\"Don’t miss out on any new Xenogen products, or you’ll be </i>saur-y<i>!\",\"Be careful when talking about Molis, they say it’s quite the </i>saur<i> spot!\",\"When a Grand Matron was asked if she was thirsty for anything, she replied ‘I’ll have a martian; </i>scaled<i>, not furred.’\",\"Avoid using other gene mods with this product. That could result in a </i>reptile<i> dysfunction!\",\"Respect your matrons! Even if they’re a little </i>ore-nery<i>.\"])+\"”</i>",
+    "key": "output|Peaking_at_the_inside_of_the_wrapper_you_spot_something_written|f329f275b9c0",
+    "original": "Peaking at the inside of the wrapper, you spot something written along its length: <i>“\"+RandomInCollection([\"With those silver scales, it ain’t bad to stick out like a </i>saur<i> thumb!\",\"No </i>saur<i> loser here, if we can help it!\",\"We came, we </i>saur<i>, we conquered!\",\"The more shards you eat, the more your awesomeness </i>scales<i> with you!\",\"Don’t miss out on any new Xenogen products, or you’ll be </i>saur-y<i>!\",\"Be careful when talking about Molis, they say it’s quite the </i>saur<i> spot!\",\"When a Grand Matron was asked if she was thirsty for anything, she replied ‘I’ll have a martian; </i>scaled<i>, not furred.’\",\"Avoid using other gene mods with this product. That could result in a </i>reptile<i> dysfunction!\",\"Respect your matrons! Even if they’re a little </i>ore-nery<i>.\"])+\"”</i>",
     "translation": "",
-    "context": "<<POS:09124889>>"
+    "context": "<<POS:09124893>>"
   },
   {
-    "key": "output|n_nCute|bf317edbb7fc",
-    "original": "\\n\\nCute.",
+    "key": "output|Cute|1aefcbb724cf",
+    "original": "Cute.",
     "translation": "",
-    "context": "<<POS:09125715>>"
+    "context": "<<POS:09125719>>"
   },
   {
-    "key": "button|Next|cc89cfbb3176",
+    "key": "button|Next|ec9230470d08",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09125740>>"
+    "context": "<<POS:09125740>> addButton(0,\"Next\",(function(){return o.useFunctionPartII(e)}))"
   },
   {
     "key": "output|You_wince_as_heat_abruptly_flashes_through_your_ears_and_hearin|77c6eb7a3cd6",
@@ -36,19 +36,19 @@
     "context": "<<POS:09126081>>"
   },
   {
-    "key": "output|n_nGingerly_feeling_around_you_find_at_first_what_appears_to_b|a0fcfc923097",
-    "original": "\\n\\nGingerly feeling around, you find at first what appears to be a normal reptilian ear. Partially covering the small, round opening, however, is a convex [pc.skinFurScalesColor] scale; almost acting like a shield. The same can be felt on the other side of your head. <b>You’ve grown a pair of saurmorian ears!</b>",
+    "key": "output|Gingerly_feeling_around_you_find_at_first_what_appears_to_be_a|bdd602babfe1",
+    "original": "Gingerly feeling around, you find at first what appears to be a normal reptilian ear. Partially covering the small, round opening, however, is a convex [pc.skinFurScalesColor] scale; almost acting like a shield. The same can be felt on the other side of your head. <b>You’ve grown a pair of saurmorian ears!</b>",
     "translation": "",
-    "context": "<<POS:09126578>>"
+    "context": "<<POS:09126582>>"
   },
   {
-    "key": "output|Your_vision_momentarily_flickers_and_you_have_the_strange_sensa|26871b2a4c70",
-    "original": "Your vision momentarily flickers, and you have the strange sensation of your eyes going numb. Once your sight completely goes dark, you force yourself not to panic as you try to maintain your balance. You wait for your eyes to work again, though you’re not quite prepared when - as if a switch were flipped - you can see once more. Something’s off, though... Feeling around your [pc.face], it would seem you have \"+(1===e.eyeCount()?\"more\":\"fewer\")+\" eyes now.\\n\\n",
+    "key": "output|Your_vision_momentarily_flickers_and_you_have_the_strange_sensa|464876b3462d",
+    "original": "Your vision momentarily flickers, and you have the strange sensation of your eyes going numb. Once your sight completely goes dark, you force yourself not to panic as you try to maintain your balance. You wait for your eyes to work again, though you’re not quite prepared when - as if a switch were flipped - you can see once more. Something’s off, though... Feeling around your [pc.face], it would seem you have \"+(1===e.eyeCount()?\"more\":\"fewer\")+\" eyes now.",
     "translation": "",
     "context": "<<POS:09127310>>"
   },
   {
-    "key": "output|You_gasp_as_colors_seem_to_swap_shifting_and_changing_with_a_pu|b2ba94c47964",
+    "key": "output|You_gasp_as_colors_seem_to_swap_shifting_and_changing_with_a_pu|260caec2277c",
     "original": "You gasp as colors seem to swap, shifting and changing with a pulsating beat. You blink several times - as if that would somehow fix everything - but that just causes each eye to see different hues. Just as you’re starting to feel quite nauseous a bright flash forces your eyes shut, the pulsating gradually receding. When you open your eyes again, everything seems back to normal - except metals seem to catch your attention more easily (or is that just your imagination?). Checking your Codex, you notice your eyes are different; vertically slitted, reptilian pupils bordered by slight - almost imperceptible - \"+n+\" irises, sclera similarly colored. <b>You have saurmorian eyes!</b>",
     "translation": "",
     "context": "<<POS:09127785>>"
@@ -60,16 +60,16 @@
     "context": "<<POS:09128865>>"
   },
   {
-    "key": "output|n_nAt_first_you_grasp_your_cheeks_in_an_attempt_to_soothe_your|329d15e3878a",
-    "original": "\\n\\nAt first you grasp your cheeks in an attempt to soothe your strained muscles, but instead simply follow them as they shift - some expanding, others receding. All the while, bones painlessly reshape into an imposing reptilian snout. The moment these changes settle, intense heat flares up along the top of your snout and along your jaw as you feel scales across your head move and harden. The warmth feels incredibly pleasant as it soothes your sore muscles, and a steamy breath of relief hisses past your teeth.",
+    "key": "output|At_first_you_grasp_your_cheeks_in_an_attempt_to_soothe_your_stra|67327005fe92",
+    "original": "At first you grasp your cheeks in an attempt to soothe your strained muscles, but instead simply follow them as they shift - some expanding, others receding. All the while, bones painlessly reshape into an imposing reptilian snout. The moment these changes settle, intense heat flares up along the top of your snout and along your jaw as you feel scales across your head move and harden. The warmth feels incredibly pleasant as it soothes your sore muscles, and a steamy breath of relief hisses past your teeth.",
     "translation": "",
-    "context": "<<POS:09129136>>"
+    "context": "<<POS:09129140>>"
   },
   {
-    "key": "output|n_nAfter_waiting_for_the_heat_to_wane_and_you_re_almost_certa|54f0c234bcc8",
-    "original": "\\n\\nAfter waiting for the heat to wane - and you’re almost certain nothing else is going to change - your [pc.fingers] are exploring your new face; most obvious are the metallic scales now covering your jaw and the top of your muzzle, running over your head and down your neck to join the rest of your [pc.skinFurScales]. Your Codex confirms this, and shows similar scales along the sides of your face - though less dense, and showing pebbly [pc.skinColor] hide underneath. Your smile, meanwhile, contains a mouthful of sharp teeth. <b>You have the proud visage of a saurmorian!</b>",
+    "key": "output|After_waiting_for_the_heat_to_wane_and_you_re_almost_certain_n|4e37b388b694",
+    "original": "After waiting for the heat to wane - and you’re almost certain nothing else is going to change - your [pc.fingers] are exploring your new face; most obvious are the metallic scales now covering your jaw and the top of your muzzle, running over your head and down your neck to join the rest of your [pc.skinFurScales]. Your Codex confirms this, and shows similar scales along the sides of your face - though less dense, and showing pebbly [pc.skinColor] hide underneath. Your smile, meanwhile, contains a mouthful of sharp teeth. <b>You have the proud visage of a saurmorian!</b>",
     "translation": "",
-    "context": "<<POS:09129662>>"
+    "context": "<<POS:09129666>>"
   },
   {
     "key": "output|Your_tongue_starts_to_wriggle_in_your_mouth_feeling_rather_odd|4952dc3e8f46",
@@ -156,10 +156,10 @@
     "context": "<<POS:09138490>>"
   },
   {
-    "key": "output|n_nOnce_the_shifting_seems_to_cease_you_re_allowed_a_moment_to|b6232716c3c8",
-    "original": "\\n\\nOnce the shifting seems to cease, you’re allowed a moment to breathe - only to grit your teeth as your fused scales virtually break apart in a shower of sparks. Though the sensation of shattering metal is jarring beyond measure, you find you can move your armored appendages just about as freely as before. Working the feeling back into your nerves, you marvel that the scales have separated seamlessly to resemble plated armor down your arms to your clawed gauntlets for hands. <b>You now have the arms of a saurmorian.</b>",
+    "key": "output|Once_the_shifting_seems_to_cease_you_re_allowed_a_moment_to_bre|8669f90e9322",
+    "original": "Once the shifting seems to cease, you’re allowed a moment to breathe - only to grit your teeth as your fused scales virtually break apart in a shower of sparks. Though the sensation of shattering metal is jarring beyond measure, you find you can move your armored appendages just about as freely as before. Working the feeling back into your nerves, you marvel that the scales have separated seamlessly to resemble plated armor down your arms to your clawed gauntlets for hands. <b>You now have the arms of a saurmorian.</b>",
     "translation": "",
-    "context": "<<POS:09138906>>"
+    "context": "<<POS:09138910>>"
   },
   {
     "key": "output|You_let_out_a_yelp_as_you_fall_face_first_to_the_ground_legs_he|b4c993f767d1",
@@ -180,10 +180,10 @@
     "context": "<<POS:09140286>>"
   },
   {
-    "key": "output|n_nAs_things_seem_to_settle_you_start_to_worry_that_your_legs|d6a62bcf0c3c",
-    "original": "\\n\\nAs things seem to settle, you start to worry that your legs may be stuck in the metal scales indefinitely. When you instinctively clench, you’re stunned as the merged plating breaks apart in a hail of sparks.Though the sensation of shattering metal is jarring beyond measure, you find you can move your armored appendages just about as freely as before. Working the feeling back into your nerves, you marvel that the scales have separated seamlessly to resemble plated armor from your hips to your clawed feet, with four toes each. <b>You now have the legs of a saurmorian.</b>",
+    "key": "output|As_things_seem_to_settle_you_start_to_worry_that_your_legs_may|baca8c104c07",
+    "original": "As things seem to settle, you start to worry that your legs may be stuck in the metal scales indefinitely. When you instinctively clench, you’re stunned as the merged plating breaks apart in a hail of sparks.Though the sensation of shattering metal is jarring beyond measure, you find you can move your armored appendages just about as freely as before. Working the feeling back into your nerves, you marvel that the scales have separated seamlessly to resemble plated armor from your hips to your clawed feet, with four toes each. <b>You now have the legs of a saurmorian.</b>",
     "translation": "",
-    "context": "<<POS:09140436>>"
+    "context": "<<POS:09140440>>"
   },
   {
     "key": "output|You_start_to_wobble_unsteadily_as_your_pc_legOrLegs_e_legCo|47017d476474",
@@ -210,16 +210,16 @@
     "context": "<<POS:09142683>>"
   },
   {
-    "key": "output|n_nYou_also_notice_your_pc_crotch_sitting_between_your_legs|8daa3178d224",
-    "original": "\\n\\nYou also notice your [pc.crotch], sitting between your legs.",
+    "key": "output|You_also_notice_your_pc_crotch_sitting_between_your_legs|53e765ef6404",
+    "original": "You also notice your [pc.crotch], sitting between your legs.",
     "translation": "",
-    "context": "<<POS:09143205>>"
+    "context": "<<POS:09143209>>"
   },
   {
-    "key": "output|n_nSomehow_though_you_ve_managed_to_keep_your_pc_tails_sit|756ade0d1e7f",
-    "original": "\\n\\nSomehow, though, you’ve managed to keep your [pc.tails], sitting just above your [pc.ass].",
+    "key": "output|Somehow_though_you_ve_managed_to_keep_your_pc_tails_sitting|eaf75322a346",
+    "original": "Somehow, though, you’ve managed to keep your [pc.tails], sitting just above your [pc.ass].",
     "translation": "",
-    "context": "<<POS:09143294>>"
+    "context": "<<POS:09143298>>"
   },
   {
     "key": "output|You_gasp_as_a_shock_sends_your_hand_spasming_then_bolts_up_your|f1944722037e",
@@ -330,10 +330,10 @@
     "context": "<<POS:09149661>>"
   },
   {
-    "key": "output|n_nIt_only_grows_more_intense_as_each_pulse_of_ecstasy_is_foll|87348a47b87a",
-    "original": "\\n\\nIt only grows more intense, as each pulse of ecstasy is followed by what feels like molten claws squeezing and massaging your insides. You groan, sides lurching in rhythm while you grind your thighs together. You don’t fully know what’s happening, but you can’t take it anymore; with a mind of its own, your hand slips",
+    "key": "output|It_only_grows_more_intense_as_each_pulse_of_ecstasy_is_followed|0d15cbc93709",
+    "original": "It only grows more intense, as each pulse of ecstasy is followed by what feels like molten claws squeezing and massaging your insides. You groan, sides lurching in rhythm while you grind your thighs together. You don’t fully know what’s happening, but you can’t take it anymore; with a mind of its own, your hand slips",
     "translation": "",
-    "context": "<<POS:09149775>>"
+    "context": "<<POS:09149779>>"
   },
   {
     "key": "output|under_your_pc_crotchCovers_and|364244e751d2",
@@ -348,10 +348,10 @@
     "context": "<<POS:09150174>>"
   },
   {
-    "key": "output|n_nIt_s_not_until_you_re_left_panting_cooling_down_from_the_br|4a8eacb79d2b",
-    "original": "\\n\\nIt’s not until you’re left panting, cooling down from the breathtaking ordeal, that you dimly start to realize something is off.\\n\\nTaking a closer look, you notice your labia are still quite plump, even while your arousal recedes; they also look incredibly glossy and smooth. Upon stirring your fingers within your honeypot, you feel odd bulges lining it within - your cunt is ribbed!\\n\\nChecking in with your Codex confirms it; <b>you’ve got a saurmorian vagina!</b>",
+    "key": "output|It_s_not_until_you_re_left_panting_cooling_down_from_the_breath|7ae0ca71dce2",
+    "original": "It’s not until you’re left panting, cooling down from the breathtaking ordeal, that you dimly start to realize something is off.\\n\\nTaking a closer look, you notice your labia are still quite plump, even while your arousal recedes; they also look incredibly glossy and smooth. Upon stirring your fingers within your honeypot, you feel odd bulges lining it within - your cunt is ribbed!\\n\\nChecking in with your Codex confirms it; <b>you’ve got a saurmorian vagina!</b>",
     "translation": "",
-    "context": "<<POS:09150393>>"
+    "context": "<<POS:09150397>>"
   },
   {
     "key": "output|You_let_out_a_gasp_as_your_pc_vagina_L_abruptly_clamps_tig|00d8babdf178",
@@ -372,22 +372,22 @@
     "context": "<<POS:09153613>>"
   },
   {
-    "key": "output|n_nThe_flesh_around_the_base_of_your_shaft_begins_to_swell_cre|a21ba679bbe1",
-    "original": "\\n\\nThe flesh around the base of your shaft begins to swell, creating a bloated ring. It shifts inward while bunching closely to your prick, [pc.skin] flushed and hot as it forms what can only be a thick sheath. You hardly need to touch to feel how sensitive it is, but you do anyways, letting out a pleased groan as you probe the musky folds.",
+    "key": "output|The_flesh_around_the_base_of_your_shaft_begins_to_swell_creatin|c1acd845d7c3",
+    "original": "The flesh around the base of your shaft begins to swell, creating a bloated ring. It shifts inward while bunching closely to your prick, [pc.skin] flushed and hot as it forms what can only be a thick sheath. You hardly need to touch to feel how sensitive it is, but you do anyways, letting out a pleased groan as you probe the musky folds.",
     "translation": "",
-    "context": "<<POS:09154139>>"
+    "context": "<<POS:09154143>>"
   },
   {
-    "key": "output|n_nYour_cock_lurches_in_your_hand_pulling_free_of_your_grasp_a|de6acad4958c",
-    "original": "\\n\\nYour cock lurches in your hand, pulling free of your grasp and disappearing into its sheath - though not entirely unpleasant, the sense of fullness has you gritting your teeth - and searing rings of heat bind it from base to tip; you can almost feel them enlarge, bulging against your insides with extra mass. You’re unsure how to handle the alien feeling of being full of your own hard meat, only able to grunt while your hips lurch and twitch from the stimulation.",
+    "key": "output|Your_cock_lurches_in_your_hand_pulling_free_of_your_grasp_and_d|f084a93c7177",
+    "original": "Your cock lurches in your hand, pulling free of your grasp and disappearing into its sheath - though not entirely unpleasant, the sense of fullness has you gritting your teeth - and searing rings of heat bind it from base to tip; you can almost feel them enlarge, bulging against your insides with extra mass. You’re unsure how to handle the alien feeling of being full of your own hard meat, only able to grunt while your hips lurch and twitch from the stimulation.",
     "translation": "",
-    "context": "<<POS:09154493>>"
+    "context": "<<POS:09154497>>"
   },
   {
-    "key": "output|n_nJust_as_your_gut_clenches_and_you_worry_you_ll_cum_within_y|d622f3990407",
-    "original": "\\n\\nJust as your gut clenches, and you worry you’ll cum within your own sheath, your cock bursts forth vigorously",
+    "key": "output|Just_as_your_gut_clenches_and_you_worry_you_ll_cum_within_your|e8721caa9bd7",
+    "original": "Just as your gut clenches, and you worry you’ll cum within your own sheath, your cock bursts forth vigorously",
     "translation": "",
-    "context": "<<POS:09154974>>"
+    "context": "<<POS:09154978>>"
   },
   {
     "key": "output|as_if_it_had_just_come_up_with_a_new_recipe|7d5b49180929",
@@ -414,10 +414,10 @@
     "context": "<<POS:09155409>>"
   },
   {
-    "key": "output|n_nOnce_you_re_able_to_uncross_your_eyes_you_look_down_at_your|9301094a586c",
-    "original": "\\n\\nOnce you’re able to uncross your eyes, you look down at your prick; Thick, fattened ridges ring its \"+B+\" length - giving it a ribbed appearance - from the sheath to just under the blunt, almost equine head. And just like that, <b>your cock has become that of a saurmorian!</b>",
+    "key": "output|Once_you_re_able_to_uncross_your_eyes_you_look_down_at_your_pri|f34f6da5f2e3",
+    "original": "Once you’re able to uncross your eyes, you look down at your prick; Thick, fattened ridges ring its \"+B+\" length - giving it a ribbed appearance - from the sheath to just under the blunt, almost equine head. And just like that, <b>your cock has become that of a saurmorian!</b>",
     "translation": "",
-    "context": "<<POS:09155516>>"
+    "context": "<<POS:09155520>>"
   },
   {
     "key": "output|You_groan_as_you_feel_a_pulsing_tide_of_heat_flow_onto_your_pc|28b6bda97734",
@@ -528,22 +528,22 @@
     "context": "<<POS:09164765>>"
   },
   {
-    "key": "output|n_nWhat_sways_behind_you_looks_much_less_unwieldy_now_that_it_s|a2e53d082bd2",
-    "original": "\\n\\nWhat sways behind you looks much less unwieldy now that it’s free of confinement; a long and \"+(U===GLOBAL.FLAG_THICK?\"wide\":\"lithe\")+\" reptilian tail, covered in [pc.skinFurScalesColor] scales from base to tapered tip - as hard and metallic as before, but no longer melded together. Instead, they glide smoothly and harmlessly along each other with each movement. The soft underside of your tail, however, reveals a smooth, pebbly hide. <b>Your tail is now a saurmorian tail,</b> you muse while idly swaying the armored appendage to and fro.",
+    "key": "output|What_sways_behind_you_looks_much_less_unwieldy_now_that_it_s_fre|b0ff43c33a21",
+    "original": "What sways behind you looks much less unwieldy now that it’s free of confinement; a long and \"+(U===GLOBAL.FLAG_THICK?\"wide\":\"lithe\")+\" reptilian tail, covered in [pc.skinFurScalesColor] scales from base to tapered tip - as hard and metallic as before, but no longer melded together. Instead, they glide smoothly and harmlessly along each other with each movement. The soft underside of your tail, however, reveals a smooth, pebbly hide. <b>Your tail is now a saurmorian tail,</b> you muse while idly swaying the armored appendage to and fro.",
     "translation": "",
-    "context": "<<POS:09165366>>"
+    "context": "<<POS:09165370>>"
   },
   {
-    "key": "output|n_nWait_What_the_n_nInstead_of_the_long_majestic_limb_you|e692ffd0f7da",
-    "original": "\\n\\nWait. What the...\\n\\nInstead of the long, majestic limb you were expecting, what greets your gaze is a small, plump version. The metal scales - no longer stuck together, but gliding smoothly against each other - run from base to tip, but don’t quite reach the bottom of your saurmorian tail, leaving the soft, pebbly skin more exposed than on a normal one. That’s the only thing this can be, after all; <b>your tail is a saurmorian tail, but a much shorter, incredibly plump one.</b> It bounces along with every movement of your [pc.ass], sure to draw the occasional eye. You can’t help but admire it as you give it a wiggle.\\n\\nIt’s... It’s so <i>cute!</i>",
+    "key": "output|Wait_What_the_n_nInstead_of_the_long_majestic_limb_you_were|c112e2681a7f",
+    "original": "Wait. What the...\\n\\nInstead of the long, majestic limb you were expecting, what greets your gaze is a small, plump version. The metal scales - no longer stuck together, but gliding smoothly against each other - run from base to tip, but don’t quite reach the bottom of your saurmorian tail, leaving the soft, pebbly skin more exposed than on a normal one. That’s the only thing this can be, after all; <b>your tail is a saurmorian tail, but a much shorter, incredibly plump one.</b> It bounces along with every movement of your [pc.ass], sure to draw the occasional eye. You can’t help but admire it as you give it a wiggle.\\n\\nIt’s... It’s so <i>cute!</i>",
     "translation": "",
-    "context": "<<POS:09165923>>"
+    "context": "<<POS:09165927>>"
   },
   {
-    "key": "output|n_nYou_sigh_recalling_the_sparks_and_metal_breaking_off_and_s|6a7196a2b66b",
-    "original": "\\n\\nYou sigh, recalling the sparks and metal breaking off, and scan the ground in search of the inevitable debris. To your surprise, however, there appears to be nothing on the ground",
+    "key": "output|You_sigh_recalling_the_sparks_and_metal_breaking_off_and_scan|ec56666840c8",
+    "original": "You sigh, recalling the sparks and metal breaking off, and scan the ground in search of the inevitable debris. To your surprise, however, there appears to be nothing on the ground",
     "translation": "",
-    "context": "<<POS:09166595>>"
+    "context": "<<POS:09166599>>"
   },
   {
     "key": "output|nor_any_damages|5b3d7bebf961",
@@ -558,19 +558,13 @@
     "context": "<<POS:09166834>>"
   },
   {
-    "key": "output|n_n|58d45fcf854a",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:09167065>>"
-  },
-  {
-    "key": "output|a_splice_rand_a_length_1_0_n_n|b801e1e05d24",
-    "original": "a.splice(rand(a.length),1)[0]()+\"\\n\\n",
+    "key": "output|a_splice_rand_a_length_1_0|0f56331abafd",
+    "original": "a.splice(rand(a.length),1)[0]()+\"",
     "translation": "",
     "context": "<<POS:09167104>>"
   },
   {
-    "key": "output|And_Nothing_You_feel_no_change_as_you_swallow_the_last_of_th|ca54d203d7f7",
+    "key": "output|And_Nothing_You_feel_no_change_as_you_swallow_the_last_of_th|bf153d32ac5d",
     "original": "And... Nothing. You feel no change as you swallow the last of the treat. Looks like this one was a bust. Oh well, at least it tasted nice.",
     "translation": "",
     "context": "<<POS:09167159>>"
@@ -579,6 +573,6 @@
     "key": "button|Next|2fe2729af516",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09167313>>"
+    "context": "<<POS:09167313>> addButton(0,\"Next\",mainGameMenu)"
   }
 ]

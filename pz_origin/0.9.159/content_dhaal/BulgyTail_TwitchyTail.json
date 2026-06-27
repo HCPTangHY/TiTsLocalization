@@ -36,10 +36,10 @@
     "context": "<<POS:05506838>>"
   },
   {
-    "key": "combat|nYou_re_too_focused_to_be_distracted_by_such_a_display|ef346a9d1332",
-    "original": "\\nYou’re too focused to be distracted by such a display.",
+    "key": "combat|You_re_too_focused_to_be_distracted_by_such_a_display|d55cbfb11f1f",
+    "original": "You’re too focused to be distracted by such a display.",
     "translation": "",
-    "context": "<<POS:05507347>>"
+    "context": "<<POS:05507349>>"
   },
   {
     "key": "combat|And_you_just_can_t_seem_to_look_away|91e3885b4b83",
@@ -48,13 +48,13 @@
     "context": "<<POS:05507438>>"
   },
   {
-    "key": "combat|nFeruze_is_too_single_minded_to_care|9982e42d6dd8",
-    "original": "\\nFeruze is too single-minded to care!",
+    "key": "combat|Feruze_is_too_single_minded_to_care|54e70e77da0f",
+    "original": "Feruze is too single-minded to care!",
     "translation": "",
-    "context": "<<POS:05507617>>"
+    "context": "<<POS:05507619>>"
   },
   {
-    "key": "combat|Feruze_shifts_uncomfortably_as_she_watches|969cb1f74a56",
+    "key": "combat|Feruze_shifts_uncomfortably_as_she_watches|03820b0ebc03",
     "original": " Feruze shifts uncomfortably as she watches.",
     "translation": "",
     "context": "<<POS:05507690>>"
@@ -123,22 +123,22 @@
     "key": "perk|Juggernaut|febc80ca7bca",
     "original": "Juggernaut",
     "translation": "",
-    "context": "<<POS:05513472>>"
+    "context": "<<POS:05513472>> createPerk(\"Juggernaut\")"
   },
   {
-    "key": "combat|nA_miss|1d4a8821b46d",
-    "original": "\\nA miss!",
+    "key": "combat|A_miss|9a2011e589cd",
+    "original": "A miss!",
     "translation": "",
-    "context": "<<POS:05517128>>"
+    "context": "<<POS:05517130>>"
   },
   {
-    "key": "combat|n_b_Whap_b|56d378a4f5c8",
-    "original": "\\n<b>Whap!</b>",
+    "key": "combat|b_Whap_b|999fc9b3266e",
+    "original": "<b>Whap!</b>",
     "translation": "",
-    "context": "<<POS:05517155>>"
+    "context": "<<POS:05517157>>"
   },
   {
-    "key": "combat|The_tail_falls_limp_after_such_a_display_and_slowly_recedes_int|941138c91c45",
+    "key": "combat|The_tail_falls_limp_after_such_a_display_and_slowly_recedes_int|ff4cc6c75eef",
     "original": " The tail falls limp after such a display and slowly recedes into her body, mutagens spent.",
     "translation": "",
     "context": "<<POS:05517813>>"
@@ -147,55 +147,55 @@
     "key": "perk|Disarm_Immune|8a3ae06ba133",
     "original": "Disarm Immune",
     "translation": "",
-    "context": "<<POS:05522164>>"
+    "context": "<<POS:05522164>> createPerk(\"Disarm Immune\")"
   },
   {
     "key": "perk|Inhuman_Desire|80d5854109fd",
     "original": "Inhuman Desire",
     "translation": "",
-    "context": "<<POS:05522194>>"
+    "context": "<<POS:05522194>> createPerk(\"Inhuman Desire\",300)"
   },
   {
-    "key": "combat|nYou_don_t_mind_The_gas_can_t_touch_you_in_your_airtight_equip|711b9e4d9983",
-    "original": "\\nYou don’t mind. The gas can’t touch you in your airtight equipment.",
+    "key": "combat|You_don_t_mind_The_gas_can_t_touch_you_in_your_airtight_equipme|dd0742f9dfd2",
+    "original": "You don’t mind. The gas can’t touch you in your airtight equipment.",
     "translation": "",
-    "context": "<<POS:05523932>>"
+    "context": "<<POS:05523934>>"
   },
   {
-    "key": "combat|nThe_gas_can_t_touch_concat_e_t_getCombatName_in_conc|e30ba24fd078",
-    "original": "\\nThe gas can’t touch \".concat(e[t].getCombatName(),\" in \").concat(e[t].getCombatPronoun(\"hisher\"),\" airtight equipment.\")",
+    "key": "combat|The_gas_can_t_touch_concat_e_t_getCombatName_in_concat|8f8d42916253",
+    "original": "The gas can’t touch \".concat(e[t].getCombatName(),\" in \").concat(e[t].getCombatPronoun(\"hisher\"),\" airtight equipment.\")",
     "translation": "",
-    "context": "<<POS:05524018>>"
+    "context": "<<POS:05524020>>"
   },
   {
-    "key": "combat|nYou_hold_your_breath_and_o_endure_close_your_eyes_a|3f1591a342f0",
-    "original": "\\nYou hold your breath and \"+(o?\"endure\":\"close your eyes\")+\", avoiding the worst of the effects!",
+    "key": "combat|You_hold_your_breath_and_o_endure_close_your_eyes_avo|23ec1f327e7b",
+    "original": "You hold your breath and \"+(o?\"endure\":\"close your eyes\")+\", avoiding the worst of the effects!",
     "translation": "",
-    "context": "<<POS:05524227>>"
+    "context": "<<POS:05524229>>"
   },
   {
-    "key": "combat|n_Ot_m_capitalize_e_t_getCombatName_sprints_through_the|c5567a59c654",
-    "original": "\\n\"+Ot.m.capitalize(e[t].getCombatName())+\" sprints through the cloud and comes out the other side, angrier, screamier, and no worse for the wear.",
+    "key": "combat|Ot_m_capitalize_e_t_getCombatName_sprints_through_the_cl|339ccb840096",
+    "original": "\"+Ot.m.capitalize(e[t].getCombatName())+\" sprints through the cloud and comes out the other side, angrier, screamier, and no worse for the wear.",
     "translation": "",
-    "context": "<<POS:05524341>>"
+    "context": "<<POS:05524343>>"
   },
   {
-    "key": "combat|n_concat_PlayerCharacter_e_t_getClassName_Your_Ot_m_p|2487467c2a4a",
-    "original": "\\n\".concat(\"PlayerCharacter\"===e[t].getClassName()?\"Your\":Ot.m.possessive(Ot.m.capitalize(e[t].getCombatName())),\" vision is spared from being blinded by the gas.\")",
+    "key": "combat|concat_PlayerCharacter_e_t_getClassName_Your_Ot_m_pos|e510c0a1e70e",
+    "original": "\".concat(\"PlayerCharacter\"===e[t].getClassName()?\"Your\":Ot.m.possessive(Ot.m.capitalize(e[t].getCombatName())),\" vision is spared from being blinded by the gas.\")",
     "translation": "",
-    "context": "<<POS:05524507>>"
+    "context": "<<POS:05524509>>"
   },
   {
-    "key": "combat|n_b_You_are_blind_b|505a02002c46",
-    "original": "\\n<b>You are blind!</b>",
+    "key": "combat|b_You_are_blind_b|75974b2373bb",
+    "original": "<b>You are blind!</b>",
     "translation": "",
-    "context": "<<POS:05524727>>"
+    "context": "<<POS:05524729>>"
   },
   {
-    "key": "combat|n_b_Ot_m_capitalize_e_t_getCombatName_is_blinded_by_the|6fc2578f8252",
-    "original": "\\n<b>\"+Ot.m.capitalize(e[t].getCombatName())+\" is blinded by the gas!</b>",
+    "key": "combat|b_Ot_m_capitalize_e_t_getCombatName_is_blinded_by_the_g|62320af2174f",
+    "original": "<b>\"+Ot.m.capitalize(e[t].getCombatName())+\" is blinded by the gas!</b>",
     "translation": "",
-    "context": "<<POS:05524767>>"
+    "context": "<<POS:05524769>>"
   },
   {
     "key": "combat|The_toxic_fumes_take_their_toll|b7cf3e2c14d7",
@@ -204,19 +204,19 @@
     "context": "<<POS:05524857>>"
   },
   {
-    "key": "combat|nFeruze_dodges|397fee23d274",
-    "original": "\\nFeruze dodges!",
+    "key": "combat|Feruze_dodges|d41de430b7c3",
+    "original": "Feruze dodges!",
     "translation": "",
-    "context": "<<POS:05525553>>"
+    "context": "<<POS:05525555>>"
   },
   {
-    "key": "combat|nA_hit|e03c5b6fcba3",
-    "original": "\\nA hit!",
+    "key": "combat|A_hit|a5fa344c3c16",
+    "original": "A hit!",
     "translation": "",
-    "context": "<<POS:05525587>>"
+    "context": "<<POS:05525589>>"
   },
   {
-    "key": "combat|b_The_suula_is_stunned_b|021cc5b2f7ea",
+    "key": "combat|b_The_suula_is_stunned_b|a89b70261eb8",
     "original": " <b>The suula is stunned!</b>",
     "translation": "",
     "context": "<<POS:05525779>>"
@@ -225,49 +225,49 @@
     "key": "perk|Disarm_Immune|dd74bb703435",
     "original": "Disarm Immune",
     "translation": "",
-    "context": "<<POS:05530131>>"
+    "context": "<<POS:05530131>> createPerk(\"Disarm Immune\")"
   },
   {
-    "key": "combat|nMiss|3863d4ee4c70",
-    "original": "\\nMiss!",
+    "key": "combat|Miss|a9362afd54ba",
+    "original": "Miss!",
     "translation": "",
-    "context": "<<POS:05531493>>"
+    "context": "<<POS:05531495>>"
   },
   {
-    "key": "combat|nHit|3d073ae107dc",
-    "original": "\\nHit!",
+    "key": "combat|Hit|29736f134d1e",
+    "original": "Hit!",
     "translation": "",
-    "context": "<<POS:05531518>>"
+    "context": "<<POS:05531520>>"
   },
   {
-    "key": "combat|nThe_ground_craters_to_the_side_a_miss|1999a543f7b1",
-    "original": "\\nThe ground craters to the side - a miss!",
+    "key": "combat|The_ground_craters_to_the_side_a_miss|5b4e8e6308c5",
+    "original": "The ground craters to the side - a miss!",
     "translation": "",
-    "context": "<<POS:05534833>>"
+    "context": "<<POS:05534835>>"
   },
   {
-    "key": "combat|nThe_shock_of_it_firing_rattles_your_bones_and_does_worse_to|885d971115c3",
-    "original": "\\nThe shock of it firing rattles your bones - and does worse to its target.",
+    "key": "combat|The_shock_of_it_firing_rattles_your_bones_and_does_worse_to_it|8dbf96b70e70",
+    "original": "The shock of it firing rattles your bones - and does worse to its target.",
     "translation": "",
-    "context": "<<POS:05534930>>"
+    "context": "<<POS:05534932>>"
   },
   {
-    "key": "combat|nIt_hits_dead_on|1b98548b3af8",
-    "original": "\\nIt hits, dead-on!",
+    "key": "combat|It_hits_dead_on|94c2792c9761",
+    "original": "It hits, dead-on!",
     "translation": "",
-    "context": "<<POS:05535022>>"
+    "context": "<<POS:05535024>>"
   },
   {
-    "key": "perk|Inhuman_Desire|58593eb360c5",
+    "key": "perk|Inhuman_Desire|6dc9aa830337",
     "original": "Inhuman Desire",
     "translation": "",
-    "context": "<<POS:05539231>>"
+    "context": "<<POS:05539231>> createPerk(\"Inhuman Desire\",100)"
   },
   {
-    "key": "combat|n_n_i_Much_better_Now_subdue_the_off_worlder_Chop_chop_i|bcc2b99fd9d2",
-    "original": "\\n\\n<i>“Much better. Now, subdue the off-worlder. Chop-chop.”</i> \"+Ot.m.capitalize(e.getCombatName(),!1)+\" yanks the plug, much more composed than a moment ago.",
+    "key": "combat|i_Much_better_Now_subdue_the_off_worlder_Chop_chop_i|5028fe605bcb",
+    "original": "<i>“Much better. Now, subdue the off-worlder. Chop-chop.”</i> \"+Ot.m.capitalize(e.getCombatName(),!1)+\" yanks the plug, much more composed than a moment ago.",
     "translation": "",
-    "context": "<<POS:05541024>>"
+    "context": "<<POS:05541028>>"
   },
   {
     "key": "combat|She_misses_e_getCombatName|ba06b545919c",
@@ -276,16 +276,16 @@
     "context": "<<POS:05542674>>"
   },
   {
-    "key": "combat|n_n_Her_lips_are_so_b_soft_b_and_moist_and_is_your_h|3901da415398",
-    "original": "\\n\\n...Her lips are so <b>soft</b>... and moist... and is your heart beating faster? Mmm you could kiss her again...",
+    "key": "combat|Her_lips_are_so_b_soft_b_and_moist_and_is_your_heart|27a3fa6a5385",
+    "original": "...Her lips are so <b>soft</b>... and moist... and is your heart beating faster? Mmm you could kiss her again...",
     "translation": "",
-    "context": "<<POS:05542763>>"
+    "context": "<<POS:05542767>>"
   },
   {
-    "key": "combat|n_n_Ot_m_capitalize_e_getCombatName_1_steps_back_breath|c804c09ac4f1",
-    "original": "\\n\\n\"+Ot.m.capitalize(e.getCombatName(),!1)+\" steps back, breathing heavily.",
+    "key": "combat|Ot_m_capitalize_e_getCombatName_1_steps_back_breathing|d932624005a6",
+    "original": "\"+Ot.m.capitalize(e.getCombatName(),!1)+\" steps back, breathing heavily.",
     "translation": "",
-    "context": "<<POS:05542896>>"
+    "context": "<<POS:05542900>>"
   },
   {
     "key": "combat|Her_lipstick_must_be_laced_with_aphrodisiacs|8a9f3128174e",
@@ -321,25 +321,25 @@
     "key": "perk|Sneak_Attack|672296e42aa2",
     "original": "Sneak Attack",
     "translation": "",
-    "context": "<<POS:05554799>>"
+    "context": "<<POS:05554799>> createPerk(\"Sneak Attack\")"
   },
   {
     "key": "perk|Multiple_Attacks|a3fa7399e7db",
     "original": "Multiple Attacks",
     "translation": "",
-    "context": "<<POS:05554828>>"
+    "context": "<<POS:05554828>> createPerk(\"Multiple Attacks\",2)"
   },
   {
     "key": "perk|Multiple_Shots|1bc3cdfb7f67",
     "original": "Multiple Shots",
     "translation": "",
-    "context": "<<POS:05554863>>"
+    "context": "<<POS:05554863>> createPerk(\"Multiple Shots\",2)"
   },
   {
     "key": "perk|Evasive|ff983df28d24",
     "original": "Evasive",
     "translation": "",
-    "context": "<<POS:05554896>>"
+    "context": "<<POS:05554896>> createPerk(\"Evasive\",75,75)"
   },
   {
     "key": "desc.long|All_the_confidence_has_slipped_out_of_the_spy_s_crimson_eyes_In|40c1e09f0941",
@@ -354,21 +354,21 @@
     "context": "<<POS:05556747>>"
   },
   {
-    "key": "combat|n_n_b_She_can_t_handle_another_one_of_those_b|7ae03e1d2959",
-    "original": "\\n\\n<b>She can’t handle another one of those!</b>",
+    "key": "combat|b_She_can_t_handle_another_one_of_those_b|adb6f01a0f58",
+    "original": "<b>She can’t handle another one of those!</b>",
     "translation": "",
-    "context": "<<POS:05558002>>"
+    "context": "<<POS:05558006>>"
   },
   {
-    "key": "combat|She_shakes_her_head_mutters_something_under_her_breath_that_so|8dbd6ccd821d",
+    "key": "combat|She_shakes_her_head_mutters_something_under_her_breath_that_so|3a89a10bcc4c",
     "original": " She shakes her head, mutters something under her breath that sounds like, <i>“Fuckin’ tainted meds...”</i> and tries to get in a combat-ready pose once more, though her movements are more awkward. Her legs keep drifting too far apart...",
     "translation": "",
     "context": "<<POS:05558696>>"
   },
   {
-    "key": "combat|n_n_i_Eyes_up_here_Rusher_i_The_spy_tosses_her_hair_Are|a6b4e6172b39",
-    "original": "\\n\\n<i>“Eyes up here, Rusher.”</i> The spy tosses her hair. Are her cheeks flushed?",
+    "key": "combat|i_Eyes_up_here_Rusher_i_The_spy_tosses_her_hair_Are_her|469c338bf3bc",
+    "original": "<i>“Eyes up here, Rusher.”</i> The spy tosses her hair. Are her cheeks flushed?",
     "translation": "",
-    "context": "<<POS:05559793>>"
+    "context": "<<POS:05559797>>"
   }
 ]

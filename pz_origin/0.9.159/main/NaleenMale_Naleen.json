@@ -3,13 +3,13 @@
     "key": "button|Next|43c1e187e1b0",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:10782923>>"
+    "context": "<<POS:10782923>> addButton(0,\"Next\",(function(){return t.helpDumbPCsOut()}))"
   },
   {
     "key": "button|Next|35b9a3540cff",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:10782983>>"
+    "context": "<<POS:10782983>> addButton(0,\"Next\",(function(){return t.postCombatReturnToMenu()}))"
   },
   {
     "key": "combat|That_foe_was_unsuitable_for_a_character_of_your_level_Consider|7cf682c53419",
@@ -21,7 +21,7 @@
     "key": "button|Next|b0cd5b50c6a5",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:10783681>>"
+    "context": "<<POS:10783681>> addButton(0,\"Next\",(function(){return e.postCombatReturnToMenu()}))"
   },
   {
     "key": "combat|ready_to_swing_your_lasso|a66516f19100",
@@ -96,67 +96,67 @@
     "context": "<<POS:10786900>>"
   },
   {
-    "key": "combat|n_n_concat_e_long|3471d84fa546",
-    "original": "\\n\\n\".concat(e.long)",
+    "key": "combat|concat_e_long|9743ac3b3fa0",
+    "original": "\".concat(e.long)",
     "translation": "",
-    "context": "<<POS:10792985>>"
+    "context": "<<POS:10792989>>"
   },
   {
-    "key": "combat|n_i_The_enemy_vessel_is_practically_invisible_to_you_i|0de9c794b9ea",
-    "original": "\\n<i>The enemy vessel is practically invisible to you!</i>",
+    "key": "combat|i_The_enemy_vessel_is_practically_invisible_to_you_i|63ff8e2853a4",
+    "original": "<i>The enemy vessel is practically invisible to you!</i>",
     "translation": "",
-    "context": "<<POS:10794209>>"
+    "context": "<<POS:10794211>>"
   },
   {
-    "key": "combat|n_concat_e_long|980c5324baa1",
-    "original": "\\n\".concat(e.long)",
+    "key": "combat|concat_e_long|5ccb8602597b",
+    "original": "\".concat(e.long)",
     "translation": "",
-    "context": "<<POS:10794321>>"
+    "context": "<<POS:10794323>>"
   },
   {
-    "key": "combat|n_i_Nothing_in_particular_to_take_note_of_i|66893bd985af",
-    "original": "\\n<i>Nothing in particular to take note of.</i>",
+    "key": "combat|i_Nothing_in_particular_to_take_note_of_i|501d16bcf58d",
+    "original": "<i>Nothing in particular to take note of.</i>",
     "translation": "",
-    "context": "<<POS:10794355>>"
+    "context": "<<POS:10794357>>"
   },
   {
-    "key": "combat|n_i_The_enemy_is_practically_invisible_to_you_i|7a7d53e85242",
-    "original": "\\n<i>The enemy is practically invisible to you!</i>",
+    "key": "combat|i_The_enemy_is_practically_invisible_to_you_i|51bc1420e3df",
+    "original": "<i>The enemy is practically invisible to you!</i>",
     "translation": "",
-    "context": "<<POS:10796412>>"
+    "context": "<<POS:10796414>>"
   },
   {
-    "key": "combat|n_e_long|83e938bb9781",
-    "original": "\\n\"+e.long",
+    "key": "combat|e_long|6337d1b1521a",
+    "original": "\"+e.long",
     "translation": "",
-    "context": "<<POS:10796496>>"
+    "context": "<<POS:10796498>>"
   },
   {
-    "key": "combat|n_i_Nothing_in_particular_to_take_note_of_i|222bc3a7bd10",
-    "original": "\\n<i>Nothing in particular to take note of.</i>",
+    "key": "combat|i_Nothing_in_particular_to_take_note_of_i|e5489c623506",
+    "original": "<i>Nothing in particular to take note of.</i>",
     "translation": "",
-    "context": "<<POS:10796555>>"
+    "context": "<<POS:10796557>>"
   },
   {
-    "key": "combat|nYou_can_see_her_breath_quickening_her_massive_chest_heaving_w|bddf6ff2ba98",
-    "original": "\\nYou can see her breath quickening, her massive chest heaving with nipples as hard as diamonds. She looks almost ready to cum just from your confrontation...",
+    "key": "combat|You_can_see_her_breath_quickening_her_massive_chest_heaving_wit|bf3c8cbeae77",
+    "original": "You can see her breath quickening, her massive chest heaving with nipples as hard as diamonds. She looks almost ready to cum just from your confrontation...",
     "translation": "",
-    "context": "<<POS:10796851>>"
+    "context": "<<POS:10796853>>"
   },
   {
-    "key": "combat|n_i_The_enemy_is_practically_invisible_to_you_i|f139dee0a6a0",
-    "original": "\\n<i>The enemy is practically invisible to you!</i>",
+    "key": "combat|i_The_enemy_is_practically_invisible_to_you_i|ab4f5555d607",
+    "original": "<i>The enemy is practically invisible to you!</i>",
     "translation": "",
-    "context": "<<POS:10797314>>"
+    "context": "<<POS:10797316>>"
   },
   {
-    "key": "combat|n_i_Nothing_in_particular_to_take_note_of_i|f04e597825bd",
-    "original": "\\n<i>Nothing in particular to take note of.</i>",
+    "key": "combat|i_Nothing_in_particular_to_take_note_of_i|9bb94d5b0fac",
+    "original": "<i>Nothing in particular to take note of.</i>",
     "translation": "",
-    "context": "<<POS:10797415>>"
+    "context": "<<POS:10797417>>"
   },
   {
-    "key": "combat|defeated|fc8fc002b5bf",
+    "key": "combat|defeated|5966b75d1f41",
     "original": " defeated.",
     "translation": "",
     "context": "<<POS:10803691>>"
@@ -201,7 +201,7 @@
     "key": "button|Next|714db01db563",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:10804885>>"
+    "context": "<<POS:10804885>> addButton(0,\"Next\",(function(){return t.processHostileGroupActions()}))"
   },
   {
     "key": "combat|powered_down_and_vulnerable|1a0418cbb1f0",
@@ -243,34 +243,28 @@
     "key": "button|Next|2fe35bcbd5e6",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:10809008>>"
+    "context": "<<POS:10809008>> addButton(0,\"Next\",(function(){return e.showCombatMenu()}))"
   },
   {
     "key": "button|Defeat|0f1e1a4ff680",
     "original": "Defeat",
     "translation": "",
-    "context": "<<POS:10809497>>"
+    "context": "<<POS:10809497>> addButton(0,\"Defeat\",(o=t,a=this.lossFunction,function(){n._inventoryAvailable=!1,n._combatCompleted=!0,window.enemy=o,n.showMainUI(),clearOutput(),a()}))"
   },
   {
     "key": "button|Defeat|8f4810a044e5",
     "original": "Defeat",
     "translation": "",
-    "context": "<<POS:10809805>>"
+    "context": "<<POS:10809805>> addButton(0,\"Defeat\",function(e,t){return function(){clearOutput(),(pc.lust()>=pc.lustMax()||pc.HP()<=0)&&(pc.HP()<=0?n.multipleEnemies()?combatOutput(\"<b>Your enemies have knocked you off your \"+pc.feet()+\"!</b>\\n\\n\",null,pc):combatOutput(\"<b>\"+e.capitalA+e.short+\" has knocked you off your \"+pc.fee..."
   },
   {
     "key": "button|Victory|7775b9b3e915",
     "original": "Victory",
     "translation": "",
-    "context": "<<POS:10810867>>"
+    "context": "<<POS:10810867>> addButton(0,\"Victory\",(o=t,function(){window.enemy=o,a._inventoryAvailable=!1,a._combatCompleted=!0,a.showMainUI(),clearOutput(),a.victoryFunction()}))"
   },
   {
-    "key": "output|n_n|15fa9960b9f1",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:10813858>>"
-  },
-  {
-    "key": "output|div_class_combat_report_msg_You_defeated|3e50e0214756",
+    "key": "output|div_class_combat_report_msg_You_defeated|326a7fa7d0c5",
     "original": "<div class=\"combat_report_msg\">You defeated ",
     "translation": "",
     "context": "<<POS:10813873>>"
@@ -288,15 +282,15 @@
     "context": "<<POS:10814123>>"
   },
   {
-    "key": "output|n_div_class_combat_report_credits_concat_this_multipleEnemi|caaf4e7b1319",
-    "original": "\\n<div class=\"combat_report_credits\">'.concat(this.multipleEnemies()?\"They\":u.m.capitalize(this.hostiles[0].getCombatPronoun(\"heshe\")),\" had \").concat(n.toLocaleString(),\" credit\").concat(n>1?\"s\":\"\",\" loaded on \").concat(this.multipleEnemies()?\"anonymous credit chits\":\"an anonymous credit chit\",\" that you appropriate.</div>\")",
+    "key": "output|div_class_combat_report_credits_concat_this_multipleEnemies|1a06d3aad74b",
+    "original": "<div class=\"combat_report_credits\">'.concat(this.multipleEnemies()?\"They\":u.m.capitalize(this.hostiles[0].getCombatPronoun(\"heshe\")),\" had \").concat(n.toLocaleString(),\" credit\").concat(n>1?\"s\":\"\",\" loaded on \").concat(this.multipleEnemies()?\"anonymous credit chits\":\"an anonymous credit chit\",\" that you appropriate.</div>\")",
     "translation": "",
-    "context": "<<POS:10814216>>"
+    "context": "<<POS:10814218>>"
   },
   {
     "key": "button|Next|a642587eaf69",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:10814653>>"
+    "context": "<<POS:10814653>> addButton(0,\"Next\",(function(){return e.postCombatReturnToMenu()}))"
   }
 ]

@@ -3,49 +3,31 @@
     "key": "perk|DEFENSIVE_AI|89aa0de81b71",
     "original": "DEFENSIVE_AI",
     "translation": "",
-    "context": "<<POS:24452465>>"
+    "context": "<<POS:24452465>> createPerk(\"DEFENSIVE_AI\")"
   },
   {
     "key": "perk|PIRATE|5d5d1966a88f",
     "original": "PIRATE",
     "translation": "",
-    "context": "<<POS:24452494>>"
+    "context": "<<POS:24452494>> createPerk(\"PIRATE\")"
   },
   {
     "key": "perk|No_Shield_Allies_Surrenders|e7b8334d3ec4",
     "original": "No Shield & Allies Surrenders",
     "translation": "",
-    "context": "<<POS:24452517>>"
+    "context": "<<POS:24452517>> createPerk(\"No Shield & Allies Surrenders\")"
   },
   {
-    "key": "bust|CHEETAH_PIRATE_THROBBED|930fcbefbbc2",
-    "original": "CHEETAH_PIRATE_THROBBED",
-    "translation": "",
-    "context": "<<POS:24454600>>"
-  },
-  {
-    "key": "bust|CHEETAH_PIRATE|3254f8cbf601",
-    "original": "CHEETAH_PIRATE",
-    "translation": "",
-    "context": "<<POS:24454636>>"
-  },
-  {
-    "key": "name.show|Cyber_Punk|8418fa4c90cd",
+    "key": "name.show|Cyber_Punk|64e4e1cb6dd1",
     "original": "Cyber Punk",
     "translation": "",
-    "context": "<<POS:24454663>>"
+    "context": "<<POS:24454663>> showName(\"Cyber Punk\")"
   },
   {
-    "key": "bust|CHEETAH_PIRATE|96e001a359bf",
-    "original": "CHEETAH_PIRATE",
-    "translation": "",
-    "context": "<<POS:24454717>>"
-  },
-  {
-    "key": "name.show|Cyber_Punk_Penny|a796c36cabdc",
+    "key": "name.show|Cyber_Punk_Penny|44525ce9a718",
     "original": "Cyber Punk & Penny",
     "translation": "",
-    "context": "<<POS:24454765>>"
+    "context": "<<POS:24454765>> showName(\"Cyber Punk & Penny\")"
   },
   {
     "key": "output|blockHeader_Defeat|06e184f75f61",
@@ -60,16 +42,10 @@
     "context": "<<POS:24454969>>"
   },
   {
-    "key": "output|n_n|f4a988b06b98",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:24455196>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30",
+    "key": "button|Next|2f49ac87486f",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:24455233>>"
+    "context": "<<POS:24455233>> addButton(0,\"Next\",(function(){clearOutput(),VV(!1)}))"
   },
   {
     "key": "output|blockHeader_Defeat|b27bba817a1d",
@@ -96,82 +72,118 @@
     "context": "<<POS:24455901>>"
   },
   {
-    "key": "output|n_n|2094ef0cfb29",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:24456092>>"
-  },
-  {
-    "key": "output|textify_wV_wV_0_Ce_Z_n_tYou_accept_the_pirate_s_hail_n_n|9e0e53192c96",
+    "key": "output|textify_wV_wV_0_Ce_Z_n_tYou_accept_the_pirate_s_hail_n_n|dea20292c8b2",
     "original": "textify(wV||(wV=(0,Ce.Z)([\"\\n\\tYou accept the pirate’s hail.\\n\\n\\t<i>“Scag me, I yield, I yield!”</i> The audio blasts through your speakers before the damaged vessel’s transmission materializes into a greasy-spotted cheetah-girl’s panicked face. <i>“Stop shootin - I’ll make it worth your while!”</i>\"])))",
     "translation": "",
     "context": "<<POS:24456175>>"
   },
   {
-    "key": "output|n_nYou_bet_she_will_Her_new_addition_courtesy_of_some_forcefu|7cf5ea289c59",
-    "original": "\\n\\nYou bet she will. Her new addition (courtesy of some forcefully-applied Throbb) still hangs between her legs. Even shrink-wrapped against her thigh by her emergency suit, it makes for an imposing length of sausage. You smile back at her, happy to have emerged victorious once more.",
+    "key": "output|You_bet_she_will_Her_new_addition_courtesy_of_some_forcefully|9e7bc2e55d30",
+    "original": "You bet she will. Her new addition (courtesy of some forcefully-applied Throbb) still hangs between her legs. Even shrink-wrapped against her thigh by her emergency suit, it makes for an imposing length of sausage. You smile back at her, happy to have emerged victorious once more.",
     "translation": "",
-    "context": "<<POS:24456498>>"
+    "context": "<<POS:24456502>>"
   },
   {
-    "key": "output|n_nShe_rakes_her_clawed_digits_through_her_hair_tapping_one_on|fd75f178c9e1",
-    "original": "\\n\\nShe rakes her clawed digits through her hair, tapping one on the chromed cybernetic half-dome of her head in consternation. Burning crimson peaks through a gap in her fingertips to fix you in her view. A smile slowly blooms across the cat-woman’s fanged features. <i>“You <b>gave</b> me this monster cock.”</i> Rearing back, she gestures at the bulge in her groin off-handedly. Its taut curve balloons a little larger. <i>“You wouldn’t to do something awful to me after investing so heavily my... fuckability, would you?”</i>",
+    "key": "output|She_rakes_her_clawed_digits_through_her_hair_tapping_one_on_the|abd79681d958",
+    "original": "She rakes her clawed digits through her hair, tapping one on the chromed cybernetic half-dome of her head in consternation. Burning crimson peaks through a gap in her fingertips to fix you in her view. A smile slowly blooms across the cat-woman’s fanged features. <i>“You <b>gave</b> me this monster cock.”</i> Rearing back, she gestures at the bulge in her groin off-handedly. Its taut curve balloons a little larger. <i>“You wouldn’t to do something awful to me after investing so heavily my... fuckability, would you?”</i>",
     "translation": "",
-    "context": "<<POS:24456794>>"
+    "context": "<<POS:24456798>>"
   },
   {
-    "key": "output|n_nYou_glance_at_your_sensor_readings_in_disbelief_i_I_ve_ba|dde47351e1e3",
-    "original": "\\n\\nYou glance at your sensor readings in disbelief. <i>“I’ve barely scratched your armor.”</i>\\n\\n<i>“And the paint job wasn’t cheap...”</i> the feline mutters, brushing her fingers across the silver dome of cybernetics occupying a quarter of her skull. She winces, then looks back into the holocam, slitted eye and mechanical iris focusing fiercely. <i>“Point is, you win. I pounced you, you slapped me down, and I’m gonna make you a deal to get your jaws off of my throat.”</i>",
+    "key": "output|You_glance_at_your_sensor_readings_in_disbelief_i_I_ve_barely|8f48ce2b1fea",
+    "original": "You glance at your sensor readings in disbelief. <i>“I’ve barely scratched your armor.”</i>\\n\\n<i>“And the paint job wasn’t cheap...”</i> the feline mutters, brushing her fingers across the silver dome of cybernetics occupying a quarter of her skull. She winces, then looks back into the holocam, slitted eye and mechanical iris focusing fiercely. <i>“Point is, you win. I pounced you, you slapped me down, and I’m gonna make you a deal to get your jaws off of my throat.”</i>",
     "translation": "",
-    "context": "<<POS:24457364>>"
+    "context": "<<POS:24457368>>"
   },
   {
-    "key": "output|n_nYou_glance_at_your_sensor_readings_The_feline_s_ship_is_sti|84002c645742",
-    "original": "\\n\\nYou glance at your sensor readings. The feline’s ship is still in fighting shape, if only barely. <i>“I didn’t expect you to give up this easily.”</i>\\n\\n<i>“And I didn’t expect you to win at all...”</i> the pirate mutters, brushing her fingers across the silver dome of cybernetics occupying a quarter of her skull. She winces, then looks back into the holocam, slitted eye and mechanical iris focusing fiercely. <i>“Look, you win, alright. I pounced you, you knocked me on my ass, and now I’m gonna give you whatever it takes to keep your proverbial jaws off of my throat.”</i>",
+    "key": "output|You_glance_at_your_sensor_readings_The_feline_s_ship_is_still_i|a88cd110dff3",
+    "original": "You glance at your sensor readings. The feline’s ship is still in fighting shape, if only barely. <i>“I didn’t expect you to give up this easily.”</i>\\n\\n<i>“And I didn’t expect you to win at all...”</i> the pirate mutters, brushing her fingers across the silver dome of cybernetics occupying a quarter of her skull. She winces, then looks back into the holocam, slitted eye and mechanical iris focusing fiercely. <i>“Look, you win, alright. I pounced you, you knocked me on my ass, and now I’m gonna give you whatever it takes to keep your proverbial jaws off of my throat.”</i>",
     "translation": "",
-    "context": "<<POS:24457868>>"
+    "context": "<<POS:24457872>>"
   },
   {
-    "key": "output|n_nBehind_the_pirate_sparks_erupt_from_multiple_consoles_and_c|f7cabf79199a",
-    "original": "\\n\\nBehind the pirate, sparks erupt from multiple consoles and conduits. The reflections of alarm lights dance across the chromed implants occupying the upper left quarter of her skull. She couldn’t keep fighting if she wanted to. You smile broadly.\\n\\n<i>“Yeah, you win, and ruined my fekkin’ paint job...”</i> the feline mutters, raking her clawed fingers through the oily, unkempt lengths of her hair. <i>“...that I’m still babblin’ means you aren’t the type for scratchin’ off everyone what robs you, but you aren’t leaving yet neither, so whaddya want?”</i> She turns around when a gout of fire-suppressing foam washes a handfull of sparks off of the deck behind her. <i>“What’s it gonna take to get your jaws offa my throat?”</i>",
+    "key": "output|Behind_the_pirate_sparks_erupt_from_multiple_consoles_and_condu|0c8a9e0d98f1",
+    "original": "Behind the pirate, sparks erupt from multiple consoles and conduits. The reflections of alarm lights dance across the chromed implants occupying the upper left quarter of her skull. She couldn’t keep fighting if she wanted to. You smile broadly.\\n\\n<i>“Yeah, you win, and ruined my fekkin’ paint job...”</i> the feline mutters, raking her clawed fingers through the oily, unkempt lengths of her hair. <i>“...that I’m still babblin’ means you aren’t the type for scratchin’ off everyone what robs you, but you aren’t leaving yet neither, so whaddya want?”</i> She turns around when a gout of fire-suppressing foam washes a handfull of sparks off of the deck behind her. <i>“What’s it gonna take to get your jaws offa my throat?”</i>",
     "translation": "",
-    "context": "<<POS:24458462>>"
+    "context": "<<POS:24458466>>"
   },
   {
-    "key": "output|n_nYou_stroke_your_chin_and_consider_your_options_What_s_it_wo|adbe8306cfac",
-    "original": "\\n\\nYou stroke your chin and consider your options. What’s it worth to her to remain alive and unincarcerated? You could ask for almost anything...",
+    "key": "output|You_stroke_your_chin_and_consider_your_options_What_s_it_worth|4114979cc27e",
+    "original": "You stroke your chin and consider your options. What’s it worth to her to remain alive and unincarcerated? You could ask for almost anything...",
     "translation": "",
-    "context": "<<POS:24459208>>"
+    "context": "<<POS:24459212>>"
   },
   {
     "key": "button|Credits|4009b18a1785",
     "original": "Credits",
     "translation": "",
-    "context": "<<POS:24459425>>"
+    "context": "<<POS:24459425>> addButton(0,\"Credits\",JV,\"Credits\",\"She wanted your credits, but the tables have turned. Collect a payment for your trouble.\")"
   },
   {
-    "key": "button|Tech|10d24671cc5a",
+    "key": "button.hover|Credits|4009b18a1785",
+    "original": "Credits",
+    "translation": "",
+    "context": "<<POS:24459438>> addButton(0,\"Credits\",JV,\"Credits\",\"She wanted your credits, but the tables have turned. Collect a payment for your trouble.\")"
+  },
+  {
+    "key": "button.tooltip|She_wanted_your_credits_but_the_tables_have_turned_Collect_a_p|743b8d92fa4e",
+    "original": "She wanted your credits, but the tables have turned. Collect a payment for your trouble.",
+    "translation": "",
+    "context": "<<POS:24459448>> addButton(0,\"Credits\",JV,\"Credits\",\"She wanted your credits, but the tables have turned. Collect a payment for your trouble.\")"
+  },
+  {
+    "key": "button|Tech|17ab422d69b1",
     "original": "Tech",
     "translation": "",
-    "context": "<<POS:24459552>>"
+    "context": "<<POS:24459552>> addButton(1,\"Tech\",XV,\"Tech\",\"This pirate seems to be packing some pretty impressive tech. Collect a useful gadget.\")"
   },
   {
-    "key": "button|Sex|f3d71a385a0b",
+    "key": "button.hover|Tech|17ab422d69b1",
+    "original": "Tech",
+    "translation": "",
+    "context": "<<POS:24459562>> addButton(1,\"Tech\",XV,\"Tech\",\"This pirate seems to be packing some pretty impressive tech. Collect a useful gadget.\")"
+  },
+  {
+    "key": "button.tooltip|This_pirate_seems_to_be_packing_some_pretty_impressive_tech_Col|513b2db6133f",
+    "original": "This pirate seems to be packing some pretty impressive tech. Collect a useful gadget.",
+    "translation": "",
+    "context": "<<POS:24459569>> addButton(1,\"Tech\",XV,\"Tech\",\"This pirate seems to be packing some pretty impressive tech. Collect a useful gadget.\")"
+  },
+  {
+    "key": "button|Sex|6963067d98d4",
     "original": "Sex",
     "translation": "",
-    "context": "<<POS:24459670>>"
+    "context": "<<POS:24459670>> addButton(2,\"Sex\",tK,\"Sex\",\"Get the pirate to spacewalk over, shake down her weapons, and have some fun before you go on your separate ways. Honestly, it’s the most civilized way to make up after a fight.\")"
   },
   {
-    "key": "button|Call_Peacekeepers|95d03ea1d7b2",
+    "key": "button.hover|Sex|6963067d98d4",
+    "original": "Sex",
+    "translation": "",
+    "context": "<<POS:24459679>> addButton(2,\"Sex\",tK,\"Sex\",\"Get the pirate to spacewalk over, shake down her weapons, and have some fun before you go on your separate ways. Honestly, it’s the most civilized way to make up after a fight.\")"
+  },
+  {
+    "key": "button.tooltip|Get_the_pirate_to_spacewalk_over_shake_down_her_weapons_and_ha|d5aaa6fc6a26",
+    "original": "Get the pirate to spacewalk over, shake down her weapons, and have some fun before you go on your separate ways. Honestly, it’s the most civilized way to make up after a fight.",
+    "translation": "",
+    "context": "<<POS:24459685>> addButton(2,\"Sex\",tK,\"Sex\",\"Get the pirate to spacewalk over, shake down her weapons, and have some fun before you go on your separate ways. Honestly, it’s the most civilized way to make up after a fight.\")"
+  },
+  {
+    "key": "button|Call_Peacekeepers|e1874b927485",
     "original": "Call Peacekeepers",
     "translation": "",
-    "context": "<<POS:24459940>>"
+    "context": "<<POS:24459940>> addButton(4,\"Call Peacekeepers\"+(3===e?\"(<b>*</b>)\":\"\"),$V,\"Call Peacekeepers\"+(3===e?\"(<b>*</b>)\":\"\"),(3===e?\"<b>* Reporting her again will remove your ability to encounter this pirate again.</b>\\n\":\"\")+\"Do your part to clean up the starways, Narc.\"+(e<3?\"\\n\\nReporting a pirate to the U.G.C. Peacek..."
+  },
+  {
+    "key": "button.hover|Call_Peacekeepers|e1874b927485",
+    "original": "Call Peacekeepers",
+    "translation": "",
+    "context": "<<POS:24459987>> addButton(4,\"Call Peacekeepers\"+(3===e?\"(<b>*</b>)\":\"\"),$V,\"Call Peacekeepers\"+(3===e?\"(<b>*</b>)\":\"\"),(3===e?\"<b>* Reporting her again will remove your ability to encounter this pirate again.</b>\\n\":\"\")+\"Do your part to clean up the starways, Narc.\"+(e<3?\"\\n\\nReporting a pirate to the U.G.C. Peacek..."
   },
   {
     "key": "button|Leave|0dd37b9934c1",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:24460357>>"
+    "context": "<<POS:24460357>> addButton(14,\"Leave\",eK)"
   },
   {
     "key": "output|You_hold_up_a_hand_and_rub_your_thumb_against_your_forefingers|2f650fd02c73",
@@ -204,16 +216,16 @@
     "context": "<<POS:24460742>>"
   },
   {
-    "key": "output|n_nThe_Cyber_Punk_slowly_starts_to_smile_i_jV_Credits|94d1bad4f776",
-    "original": "\\n\\nThe Cyber Punk slowly starts to smile. <i>“\"+(jV()?\"Credits... aren’t what I was expecting, but it’s a deal I can still respect. It’s the deal I’d offer you if our places were swapped... probably. You did leave me with a surplus of sausage on this ship... but on my honor. Credits.\":\"Credits... I can handle - I can respect. It’s the deal I’d offer you if our places were swapped. Pirate’s honor!\")+\"”</i> The corner of her mouth lifts ever so slightly.",
+    "key": "output|The_Cyber_Punk_slowly_starts_to_smile_i_jV_Credits_a|3a71ee54e251",
+    "original": "The Cyber Punk slowly starts to smile. <i>“\"+(jV()?\"Credits... aren’t what I was expecting, but it’s a deal I can still respect. It’s the deal I’d offer you if our places were swapped... probably. You did leave me with a surplus of sausage on this ship... but on my honor. Credits.\":\"Credits... I can handle - I can respect. It’s the deal I’d offer you if our places were swapped. Pirate’s honor!\")+\"”</i> The corner of her mouth lifts ever so slightly.",
     "translation": "",
-    "context": "<<POS:24460758>>"
+    "context": "<<POS:24460762>>"
   },
   {
-    "key": "output|n_nSomehow_you_doubt_she_has_much_in_the_way_of_honor|20ed666594ac",
-    "original": "\\n\\nSomehow you doubt she has much in the way of honor. ",
+    "key": "output|Somehow_you_doubt_she_has_much_in_the_way_of_honor|e530ebb18ee0",
+    "original": "Somehow you doubt she has much in the way of honor. ",
     "translation": "",
-    "context": "<<POS:24461226>>"
+    "context": "<<POS:24461230>>"
   },
   {
     "key": "output|You_grunt_dismissively_i_Credits_Now_i_Having_to_repeat|3b10a4cd9381",
@@ -252,40 +264,40 @@
     "context": "<<POS:24462011>>"
   },
   {
-    "key": "output|n_nYour_Codex_pings_with_an_announcement_of_a_fresh_deposit|2bb420af174f",
-    "original": "\\n\\nYour Codex pings with an announcement of a fresh deposit. \"+e+\" credits arrive in your account.",
+    "key": "output|Your_Codex_pings_with_an_announcement_of_a_fresh_deposit_e|8c50c66e47f7",
+    "original": "Your Codex pings with an announcement of a fresh deposit. \"+e+\" credits arrive in your account.",
     "translation": "",
-    "context": "<<POS:24462090>>"
+    "context": "<<POS:24462094>>"
   },
   {
-    "key": "output|n_nTime_to_go_before_any_friends_of_hers_arrive_n_n|2ef675824588",
-    "original": "\\n\\nTime to go before any friends of hers arrive...\\n\\n",
+    "key": "output|Time_to_go_before_any_friends_of_hers_arrive|1ee3863a089c",
+    "original": "Time to go before any friends of hers arrive...",
     "translation": "",
-    "context": "<<POS:24462257>>"
+    "context": "<<POS:24462261>>"
   },
   {
-    "key": "output|i_All_right_I_ll_let_you_live_for_your_finest_gadget_i|0b52636b6bfd",
+    "key": "output|i_All_right_I_ll_let_you_live_for_your_finest_gadget_i|474ee0c1681d",
     "original": "<i>“All right, I’ll let you live for... your finest gadget.”</i> With a grandiose wave, you clarify, <i>“Person-portable, I mean. I’d hate to have to repair one of the smoking modules on your ship.”</i>",
     "translation": "",
     "context": "<<POS:24462393>>"
   },
   {
-    "key": "output|n_nThe_cheetah_pirate_growls_low_in_her_throat_Her_fur_bristle|f5e4b90addb8",
-    "original": "\\n\\nThe cheetah-pirate growls low in her throat. Her fur bristles, rising like a battered boxer before flattening back down into obedience. <i>“Fine. I was saving this for a job, but...”</i> She produces an Entropy Gremlin from somewhere out of frame. <i>“This little bastard can crack almost any security system the UGC can come up with. I’ll vent it out the back, and you can scoop it up along with my pride while my inertia carries me on my merry way.”</i>",
+    "key": "output|The_cheetah_pirate_growls_low_in_her_throat_Her_fur_bristles_r|c6f6d73e34a4",
+    "original": "The cheetah-pirate growls low in her throat. Her fur bristles, rising like a battered boxer before flattening back down into obedience. <i>“Fine. I was saving this for a job, but...”</i> She produces an Entropy Gremlin from somewhere out of frame. <i>“This little bastard can crack almost any security system the UGC can come up with. I’ll vent it out the back, and you can scoop it up along with my pride while my inertia carries me on my merry way.”</i>",
     "translation": "",
-    "context": "<<POS:24462606>>"
+    "context": "<<POS:24462610>>"
   },
   {
-    "key": "output|n_nYou_nod_that_works_for_you|4097f3caf0f4",
-    "original": "\\n\\nYou nod - that works for you.",
+    "key": "output|You_nod_that_works_for_you|b452bd8ee650",
+    "original": "You nod - that works for you.",
     "translation": "",
-    "context": "<<POS:24463076>>"
+    "context": "<<POS:24463080>>"
   },
   {
-    "key": "output|n_nThe_feed_cuts_and_true_to_her_word_the_pirate_s_vessel_dis|2a0ce4747004",
-    "original": "\\n\\nThe feed cuts, and true to her word, the pirate’s vessel discharges a small electronic device. ",
+    "key": "output|The_feed_cuts_and_true_to_her_word_the_pirate_s_vessel_dischar|5b3eb23b57dd",
+    "original": "The feed cuts, and true to her word, the pirate’s vessel discharges a small electronic device. ",
     "translation": "",
-    "context": "<<POS:24463120>>"
+    "context": "<<POS:24463124>>"
   },
   {
     "key": "output|She_had_a_nice_face_so_you_scoop_it_up_without_running_any_scan|095fe102d8d1",
@@ -300,31 +312,25 @@
     "context": "<<POS:24463368>>"
   },
   {
-    "key": "output|n_n|c183deefab4a",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:24463535>>"
-  },
-  {
-    "key": "output|i_Let_me_think_about_it_i_you_answer_cutting_the_holofeed|dd438d0cb50f",
+    "key": "output|i_Let_me_think_about_it_i_you_answer_cutting_the_holofeed|e6b6197395c4",
     "original": "<i>“Let me think about it,”</i> you answer, cutting the holofeed. You pull up the address for the nearest UGC Peacekeeper station and wire in an anonymous report. A patrol vessel shows up on your sensor grid not long after, but your light drive is already spun up and ready to go. You leap away at near lightspeed while doing your best to ignore the pirate’s repeated hails.",
     "translation": "",
     "context": "<<POS:24463656>>"
   },
   {
-    "key": "output|n_nSucks_to_be_her|b9a45ae3e13d",
-    "original": "\\n\\nSucks to be her.",
+    "key": "output|Sucks_to_be_her|1179730232b5",
+    "original": "Sucks to be her.",
     "translation": "",
-    "context": "<<POS:24464041>>"
+    "context": "<<POS:24464045>>"
   },
   {
-    "key": "output|i_Nah_I_m_done_wasting_time_on_you_i_n_nYou_leave_n_n|8c67108ccf74",
-    "original": "<i>“Nah, I’m done wasting time on you.”</i>\\n\\nYou leave.\\n\\n",
+    "key": "output|i_Nah_I_m_done_wasting_time_on_you_i_n_nYou_leave|1ff2c9467700",
+    "original": "<i>“Nah, I’m done wasting time on you.”</i>\\n\\nYou leave.",
     "translation": "",
     "context": "<<POS:24464585>>"
   },
   {
-    "key": "output|You_look_at_the_rapscallion_s_three_dimensional_projection_up_an|a56c83266084",
+    "key": "output|You_look_at_the_rapscallion_s_three_dimensional_projection_up_an|63b284cef041",
     "original": "You look at the rapscallion’s three-dimensional projection up and down. <i>“I can think of a way to square up your debts.”</i>",
     "translation": "",
     "context": "<<POS:24464711>>"
@@ -336,112 +342,214 @@
     "context": "<<POS:24464854>>"
   },
   {
-    "key": "output|n_nWell_her_attitude_has_certainly_changed_for_the_better_n_n|b1db79760e26",
-    "original": "\\n\\nWell, her attitude has certainly changed for the better.\\n\\n",
+    "key": "output|Well_her_attitude_has_certainly_changed_for_the_better|387db2c17667",
+    "original": "Well, her attitude has certainly changed for the better.",
     "translation": "",
-    "context": "<<POS:24465330>>"
+    "context": "<<POS:24465334>>"
   },
   {
-    "key": "output|n_n_i_Oh_What_s_tha_oh_i_The_cat_girl_roars_a_boisterous|dcbe76b3eb62",
-    "original": "\\n\\n<i>“Oh? What’s tha- oh.”</i> The cat-girl roars a boisterous laugh. <i>“Why didn’t ya just say so? Coulda saved me some ammunition! Give me a minute to put out any fires, and I’ll EVA on over to give you some relief.",
+    "key": "output|i_Oh_What_s_tha_oh_i_The_cat_girl_roars_a_boisterous_lau|4e4099c5deef",
+    "original": "<i>“Oh? What’s tha- oh.”</i> The cat-girl roars a boisterous laugh. <i>“Why didn’t ya just say so? Coulda saved me some ammunition! Give me a minute to put out any fires, and I’ll EVA on over to give you some relief.",
     "translation": "",
-    "context": "<<POS:24465407>>"
+    "context": "<<POS:24465411>>"
   },
   {
-    "key": "output|n_nOne_condition_though_i_She_raises_a_clawed_fingertip_w|26ef597f8e04",
-    "original": "\\n\\nOne condition, though.”</i> She raises a clawed fingertip, wiggling it playfully. <i>“No real sex. Mouth or hands only.”</i>",
+    "key": "output|One_condition_though_i_She_raises_a_clawed_fingertip_wiggl|49fc4c80601c",
+    "original": "One condition, though.”</i> She raises a clawed fingertip, wiggling it playfully. <i>“No real sex. Mouth or hands only.”</i>",
     "translation": "",
-    "context": "<<POS:24465638>>"
+    "context": "<<POS:24465642>>"
   },
   {
-    "key": "output|n_nWell_conditions_or_not_she_s_liable_to_be_the_only_crew|d707b0538436",
-    "original": "\\n\\nWell, conditions or not, she’s liable to be the only \"+(crew(!0)>0?\"new\":\"available\")+\" partner in the surrounding hundred-thousand miles or so of space...\\n\\n",
+    "key": "output|Well_conditions_or_not_she_s_liable_to_be_the_only_crew_0|dcc54f80f688",
+    "original": "Well, conditions or not, she’s liable to be the only \"+(crew(!0)>0?\"new\":\"available\")+\" partner in the surrounding hundred-thousand miles or so of space...",
     "translation": "",
-    "context": "<<POS:24465777>>"
+    "context": "<<POS:24465781>>"
   },
   {
-    "key": "button|Get_BJ|5d484bdf0c84",
+    "key": "button|Get_BJ|ae0b21f317e4",
     "original": "Get BJ",
     "translation": "",
-    "context": "<<POS:24465993>>"
+    "context": "<<POS:24465993>> addButton(0,\"Get BJ\",(function(){return penisRouterObj({scene:oK,maxVolume:80085,minVolume:0,straponAllowed:!1})}),\"Get BJ\",\"She’s got a real mouth on her, put it to use - on your penis.\")"
   },
   {
-    "key": "button|Get_BJ|264cd53554e1",
+    "key": "button.hover|Get_BJ|ae0b21f317e4",
     "original": "Get BJ",
     "translation": "",
-    "context": "<<POS:24466190>>"
+    "context": "<<POS:24466096>> addButton(0,\"Get BJ\",(function(){return penisRouterObj({scene:oK,maxVolume:80085,minVolume:0,straponAllowed:!1})}),\"Get BJ\",\"She’s got a real mouth on her, put it to use - on your penis.\")"
   },
   {
-    "key": "button|Get_Licked|9b78efd83cd8",
+    "key": "button.tooltip|She_s_got_a_real_mouth_on_her_put_it_to_use_on_your_penis|0da76d388ccb",
+    "original": "She’s got a real mouth on her, put it to use - on your penis.",
+    "translation": "",
+    "context": "<<POS:24466105>> addButton(0,\"Get BJ\",(function(){return penisRouterObj({scene:oK,maxVolume:80085,minVolume:0,straponAllowed:!1})}),\"Get BJ\",\"She’s got a real mouth on her, put it to use - on your penis.\")"
+  },
+  {
+    "key": "button|Get_BJ|720a5a95baef",
+    "original": "Get BJ",
+    "translation": "",
+    "context": "<<POS:24466190>> addDisabledButton(0,\"Get BJ\",\"Get BJ\",\"You need a penis for this.\")"
+  },
+  {
+    "key": "button.hover|You_need_a_penis_for_this|c8bea526ee71",
+    "original": "You need a penis for this.",
+    "translation": "",
+    "context": "<<POS:24466208>> addDisabledButton(0,\"Get BJ\",\"Get BJ\",\"You need a penis for this.\")"
+  },
+  {
+    "key": "button|Get_Licked|ea2a97fa0e2e",
     "original": "Get Licked",
     "translation": "",
-    "context": "<<POS:24466265>>"
+    "context": "<<POS:24466265>> addButton(1,\"Get Licked\",(function(){return vaginaRouterObj({scene:aK})}),\"Get Licked\",\"You have a pussy; she is a pussy(cat). It’s a match made in heaven, or at least the starry heavens. Put her to work licking!\")"
   },
   {
-    "key": "button|Get_Licked|8dec9bac4415",
+    "key": "button.hover|Get_Licked|ea2a97fa0e2e",
     "original": "Get Licked",
     "translation": "",
-    "context": "<<POS:24466488>>"
+    "context": "<<POS:24466327>> addButton(1,\"Get Licked\",(function(){return vaginaRouterObj({scene:aK})}),\"Get Licked\",\"You have a pussy; she is a pussy(cat). It’s a match made in heaven, or at least the starry heavens. Put her to work licking!\")"
   },
   {
-    "key": "button|Call_Penny|b823f616894a",
+    "key": "button.tooltip|You_have_a_pussy_she_is_a_pussy_cat_It_s_a_match_made_in_heav|0d6f21f505e5",
+    "original": "You have a pussy; she is a pussy(cat). It’s a match made in heaven, or at least the starry heavens. Put her to work licking!",
+    "translation": "",
+    "context": "<<POS:24466340>> addButton(1,\"Get Licked\",(function(){return vaginaRouterObj({scene:aK})}),\"Get Licked\",\"You have a pussy; she is a pussy(cat). It’s a match made in heaven, or at least the starry heavens. Put her to work licking!\")"
+  },
+  {
+    "key": "button|Get_Licked|17ae206daa78",
+    "original": "Get Licked",
+    "translation": "",
+    "context": "<<POS:24466488>> addDisabledButton(1,\"Get Licked\",\"Get Licked\",\"You need a vagina for lickin’\")"
+  },
+  {
+    "key": "button.hover|You_need_a_vagina_for_lickin|688a2ae0bf71",
+    "original": "You need a vagina for lickin’",
+    "translation": "",
+    "context": "<<POS:24466514>> addDisabledButton(1,\"Get Licked\",\"Get Licked\",\"You need a vagina for lickin’\")"
+  },
+  {
+    "key": "button|Call_Penny|04e79284411e",
     "original": "Call Penny",
     "translation": "",
-    "context": "<<POS:24466629>>"
+    "context": "<<POS:24466629>> addButton(2,\"Call Penny\",uK,\"Call Penny\",\"It’s time to share your good fortune with your favorite \"+(penny.isBimbo()?\"bimbo-fox\":\"slut-fox\")+\".\")"
   },
   {
-    "key": "button|Locked|29dd8e273073",
+    "key": "button.hover|Call_Penny|04e79284411e",
+    "original": "Call Penny",
+    "translation": "",
+    "context": "<<POS:24466645>> addButton(2,\"Call Penny\",uK,\"Call Penny\",\"It’s time to share your good fortune with your favorite \"+(penny.isBimbo()?\"bimbo-fox\":\"slut-fox\")+\".\")"
+  },
+  {
+    "key": "button.tooltip|It_s_time_to_share_your_good_fortune_with_your_favorite|3269cb9fe74e",
+    "original": "It’s time to share your good fortune with your favorite ",
+    "translation": "",
+    "context": "<<POS:24466658>> addButton(2,\"Call Penny\",uK,\"Call Penny\",\"It’s time to share your good fortune with your favorite \"+(penny.isBimbo()?\"bimbo-fox\":\"slut-fox\")+\".\")"
+  },
+  {
+    "key": "button|Locked|e60dd6a3b257",
     "original": "Locked",
     "translation": "",
-    "context": "<<POS:24466783>>"
+    "context": "<<POS:24466783>> addDisabledButton(2,\"Locked\",\"Locked\",penny.isCrew()?\"Your vulpine companion needs to be a bimbo or cumslut to do this.\":\"You need a certain vulpine companion for this - and for her to be a bimbo or cumslut.\")"
   },
   {
     "key": "button|Throbb_Her|bdc5d8204688",
     "original": "Throbb Her",
     "translation": "",
-    "context": "<<POS:24467030>>"
+    "context": "<<POS:24467030>> addDisabledButton(3,\"Throbb Her\",\"Throbb Her\",\"You already did this!\")"
   },
   {
-    "key": "button|Throbb_Her|33ce67d63cb9",
+    "key": "button.hover|You_already_did_this|8264fb1897a1",
+    "original": "You already did this!",
+    "translation": "",
+    "context": "<<POS:24467056>> addDisabledButton(3,\"Throbb Her\",\"Throbb Her\",\"You already did this!\")"
+  },
+  {
+    "key": "button|Throbb_Her|ad0c41a902a8",
     "original": "Throbb Her",
     "translation": "",
-    "context": "<<POS:24467106>>"
+    "context": "<<POS:24467106>> addDisabledButton(3,\"Throbb Her\",\"Throbb Her\",\"Not needed--she already has a cock!\")"
   },
   {
-    "key": "button|Throbb_Her|33ce67d63cb9#1",
+    "key": "button.hover|Not_needed_she_already_has_a_cock|1ab8f98cbb6e",
+    "original": "Not needed--she already has a cock!",
+    "translation": "",
+    "context": "<<POS:24467132>> addDisabledButton(3,\"Throbb Her\",\"Throbb Her\",\"Not needed--she already has a cock!\")"
+  },
+  {
+    "key": "button|Throbb_Her|790f37f91c63",
     "original": "Throbb Her",
     "translation": "",
-    "context": "<<POS:24467210>>"
+    "context": "<<POS:24467210>> addButton(3,\"Throbb Her\",gK,\"Throbb Her\",\"Dose her with Throbb to make her grow a big ol’ dick.\")"
   },
   {
-    "key": "button|Throbb_Her|33ce67d63cb9#2",
+    "key": "button.hover|Throbb_Her|790f37f91c63",
     "original": "Throbb Her",
     "translation": "",
-    "context": "<<POS:24467316>>"
+    "context": "<<POS:24467226>> addButton(3,\"Throbb Her\",gK,\"Throbb Her\",\"Dose her with Throbb to make her grow a big ol’ dick.\")"
   },
   {
-    "key": "button|Fuck_Her|f66beff3afff",
+    "key": "button.tooltip|Dose_her_with_Throbb_to_make_her_grow_a_big_ol_dick|5a6e9053a4a9",
+    "original": "Dose her with Throbb to make her grow a big ol’ dick.",
+    "translation": "",
+    "context": "<<POS:24467239>> addButton(3,\"Throbb Her\",gK,\"Throbb Her\",\"Dose her with Throbb to make her grow a big ol’ dick.\")"
+  },
+  {
+    "key": "button|Throbb_Her|d9f81a4f73c1",
+    "original": "Throbb Her",
+    "translation": "",
+    "context": "<<POS:24467316>> addDisabledButton(3,\"Throbb Her\",\"Throbb Her\",\"You need Throbb in your inventory to do this.\")"
+  },
+  {
+    "key": "button.hover|You_need_Throbb_in_your_inventory_to_do_this|94502004b9e4",
+    "original": "You need Throbb in your inventory to do this.",
+    "translation": "",
+    "context": "<<POS:24467342>> addDisabledButton(3,\"Throbb Her\",\"Throbb Her\",\"You need Throbb in your inventory to do this.\")"
+  },
+  {
+    "key": "button|Fuck_Her|2bec11b61a49",
     "original": "Fuck Her",
     "translation": "",
-    "context": "<<POS:24467421>>"
+    "context": "<<POS:24467421>> addButton(4,\"Fuck Her\",(function(){return penisRouterObj({scene:nK,maxVolume:e.vaginalCapacity(0),minVolume:0,straponAllowed:!0})}),\"Fuck Her\",\"Fuck her. Fuck her hard.\")"
   },
   {
-    "key": "button|Fuck_Her|eddc77350674",
+    "key": "button.hover|Fuck_Her|2bec11b61a49",
     "original": "Fuck Her",
     "translation": "",
-    "context": "<<POS:24467600>>"
+    "context": "<<POS:24467541>> addButton(4,\"Fuck Her\",(function(){return penisRouterObj({scene:nK,maxVolume:e.vaginalCapacity(0),minVolume:0,straponAllowed:!0})}),\"Fuck Her\",\"Fuck her. Fuck her hard.\")"
   },
   {
-    "key": "button|Fuck_Her|eddc77350674#1",
+    "key": "button.tooltip|Fuck_her_Fuck_her_hard|75a9e03c288e",
+    "original": "Fuck her. Fuck her hard.",
+    "translation": "",
+    "context": "<<POS:24467552>> addButton(4,\"Fuck Her\",(function(){return penisRouterObj({scene:nK,maxVolume:e.vaginalCapacity(0),minVolume:0,straponAllowed:!0})}),\"Fuck Her\",\"Fuck her. Fuck her hard.\")"
+  },
+  {
+    "key": "button|Fuck_Her|d332b7c9600e",
     "original": "Fuck Her",
     "translation": "",
-    "context": "<<POS:24467674>>"
+    "context": "<<POS:24467600>> addDisabledButton(4,\"Fuck Her\",\"Fuck Her\",\"You need a penis to do this!\")"
   },
   {
-    "key": "button|Leave|76f3e1826eb0",
+    "key": "button.hover|You_need_a_penis_to_do_this|de3f952bb0d8",
+    "original": "You need a penis to do this!",
+    "translation": "",
+    "context": "<<POS:24467622>> addDisabledButton(4,\"Fuck Her\",\"Fuck Her\",\"You need a penis to do this!\")"
+  },
+  {
+    "key": "button|Fuck_Her|f79d65f16775",
+    "original": "Fuck Her",
+    "translation": "",
+    "context": "<<POS:24467674>> addDisabledButton(4,\"Fuck Her\",\"Fuck Her\",\"Something would need to happen to make her re-consider her “no real sex” demand first.\")"
+  },
+  {
+    "key": "button.hover|Something_would_need_to_happen_to_make_her_re_consider_her_no_r|cc18ceb7a8e2",
+    "original": "Something would need to happen to make her re-consider her “no real sex” demand first.",
+    "translation": "",
+    "context": "<<POS:24467696>> addDisabledButton(4,\"Fuck Her\",\"Fuck Her\",\"Something would need to happen to make her re-consider her “no real sex” demand first.\")"
+  },
+  {
+    "key": "button|Leave|4e1fcf2ec597",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:24467799>>"
+    "context": "<<POS:24467799>> addButton(14,\"Leave\",eK)"
   },
   {
     "key": "output|You_wait_for_the_cheetah_girl_just_inside_the_airlock_You_aren|6909efa3500b",
@@ -450,52 +558,52 @@
     "context": "<<POS:24468045>>"
   },
   {
-    "key": "output|n_nThen_you_allow_the_inner_seal_to_wush_open|df1d6e2e4e67",
-    "original": "\\n\\nThen you allow the inner seal to ‘wush’ open.",
+    "key": "output|Then_you_allow_the_inner_seal_to_wush_open|271913cf32ad",
+    "original": "Then you allow the inner seal to ‘wush’ open.",
     "translation": "",
-    "context": "<<POS:24468490>>"
+    "context": "<<POS:24468494>>"
   },
   {
-    "key": "output|Your_fly_opens_nearly_as_rapidly_unleashing_your_pc_multiCock|58deff848b3b",
+    "key": "output|Your_fly_opens_nearly_as_rapidly_unleashing_your_pc_multiCock|721f6dc117ac",
     "original": " Your fly opens nearly as rapidly, unleashing your [pc.multiCocks].",
     "translation": "",
     "context": "<<POS:24468601>>"
   },
   {
-    "key": "output|n_n_i_Stars_glow_i_the_wide_eyed_cheetah_mouths_as_she_tr|ba399c6d5493",
-    "original": "\\n\\n<i>“Stars’ glow!”</i> the wide-eyed cheetah mouths as she tries to make sense of the sheer, unbridled weight and virility hanging from your loins. <i>“I might need your number after this.”</i> Her eyes race up and down your \".concat(Ot.m.numToText(Math.round(t)),\" inch length. <i>“Maybe your email too. Just in case.”</i> She licks her chops, favoring the non-cyberized side of her face.\")",
+    "key": "output|i_Stars_glow_i_the_wide_eyed_cheetah_mouths_as_she_tries|8d5fdc37dc90",
+    "original": "<i>“Stars’ glow!”</i> the wide-eyed cheetah mouths as she tries to make sense of the sheer, unbridled weight and virility hanging from your loins. <i>“I might need your number after this.”</i> Her eyes race up and down your \".concat(Ot.m.numToText(Math.round(t)),\" inch length. <i>“Maybe your email too. Just in case.”</i> She licks her chops, favoring the non-cyberized side of her face.\")",
     "translation": "",
-    "context": "<<POS:24468712>>"
+    "context": "<<POS:24468716>>"
   },
   {
-    "key": "output|n_n_i_Shhhhiiiit_don_t_let_a_Slyveren_see_you_packing_that|8a54d4477e67",
-    "original": "\\n\\n<i>“Shhhhiiiit, don’t let a Slyveren see you packing that.”</i> The grinning cheetah licks her lips so quickly you could blink and miss it. (You didn’t.) <i>“A hung Rusher like you gettin’ sucked off by a strange pirate?”</i> A faint purr ripples through her. <i>“She’d have you smiling and in the Tap Hall in no time. You’re lucky you got me instead.”</i> Her eyes cross, fixated on [pc.oneCock].",
+    "key": "output|i_Shhhhiiiit_don_t_let_a_Slyveren_see_you_packing_that_i|d69028653b14",
+    "original": "<i>“Shhhhiiiit, don’t let a Slyveren see you packing that.”</i> The grinning cheetah licks her lips so quickly you could blink and miss it. (You didn’t.) <i>“A hung Rusher like you gettin’ sucked off by a strange pirate?”</i> A faint purr ripples through her. <i>“She’d have you smiling and in the Tap Hall in no time. You’re lucky you got me instead.”</i> Her eyes cross, fixated on [pc.oneCock].",
     "translation": "",
-    "context": "<<POS:24469122>>"
+    "context": "<<POS:24469126>>"
   },
   {
-    "key": "output|n_n_i_Awww_lookit_this_lil_guy_i_The_cheetah_churs_happil|ff98d5ff9f66",
-    "original": "\\n\\n<i>“Awww, lookit this lil guy!”</i> The cheetah churs happily as she spots your pretty [pc.guyGirl]’s pocket pistol. <i>“I guess I won’t have to worry about my gag reflex with you. So considerate!”</i> She flutters her eyelashes, though the effect is ruined somewhat by the angry glow of her cybernetic eye. <i>“It’s been soooo long since I’ve gotten to enjoy a bite-sized treat like this.”</i>",
+    "key": "output|i_Awww_lookit_this_lil_guy_i_The_cheetah_churs_happily_as|07b12bdf6c63",
+    "original": "<i>“Awww, lookit this lil guy!”</i> The cheetah churs happily as she spots your pretty [pc.guyGirl]’s pocket pistol. <i>“I guess I won’t have to worry about my gag reflex with you. So considerate!”</i> She flutters her eyelashes, though the effect is ruined somewhat by the angry glow of her cybernetic eye. <i>“It’s been soooo long since I’ve gotten to enjoy a bite-sized treat like this.”</i>",
     "translation": "",
-    "context": "<<POS:24469538>>"
+    "context": "<<POS:24469542>>"
   },
   {
-    "key": "output|n_n_i_By_the_void_finally_something_normal_i_The_cheet|b3b60e5ef551",
-    "original": "\\n\\n<i>“By the void, finally something... normal!”</i> The cheetah flutters her eyelashes as she ganders at the fullness of your groin. <i>“You never know what you’re gonna find, hooking up out here on the rim.”</i> She slowly licks her lips. <i>“I’d tell you a horror story, but honestly... I’m ready to get my lips on this dick and get back to plying the stars with a nice, warm meal in my belly.”</i>",
+    "key": "output|i_By_the_void_finally_something_normal_i_The_cheetah_f|0985a8422aa2",
+    "original": "<i>“By the void, finally something... normal!”</i> The cheetah flutters her eyelashes as she ganders at the fullness of your groin. <i>“You never know what you’re gonna find, hooking up out here on the rim.”</i> She slowly licks her lips. <i>“I’d tell you a horror story, but honestly... I’m ready to get my lips on this dick and get back to plying the stars with a nice, warm meal in my belly.”</i>",
     "translation": "",
-    "context": "<<POS:24469947>>"
+    "context": "<<POS:24469951>>"
   },
   {
-    "key": "output|n_n_i_Flatterer_i_you_observe_pc_isErect_throbbing|61f1677b7639",
-    "original": "\\n\\n<i>“Flatterer,”</i> you observe, \"+(pc.isErect()?\"throbbing with seemingly perpetual arousal.\":\"harder by the second.\")",
+    "key": "output|i_Flatterer_i_you_observe_pc_isErect_throbbing_with|dff8a9389e1a",
+    "original": "<i>“Flatterer,”</i> you observe, \"+(pc.isErect()?\"throbbing with seemingly perpetual arousal.\":\"harder by the second.\")",
     "translation": "",
-    "context": "<<POS:24470361>>"
+    "context": "<<POS:24470365>>"
   },
   {
-    "key": "output|n_nSinking_to_her_knees_the_space_suited_pirate_pops_off_her_h|369dd46d854a",
-    "original": "\\n\\nSinking to her knees, the space-suited pirate pops off her helmet and places it to the side. She sniffs a few times, testing your ship’s air. Then she leans closer to your dick and does it again.",
+    "key": "output|Sinking_to_her_knees_the_space_suited_pirate_pops_off_her_helme|5e32b572e530",
+    "original": "Sinking to her knees, the space-suited pirate pops off her helmet and places it to the side. She sniffs a few times, testing your ship’s air. Then she leans closer to your dick and does it again.",
     "translation": "",
-    "context": "<<POS:24470494>>"
+    "context": "<<POS:24470498>>"
   },
   {
     "key": "output|Her_pupils_dilate_and_she_goes_back_for_more_smashing_her_nos|816b3f781818",
@@ -510,16 +618,16 @@
     "context": "<<POS:24470892>>"
   },
   {
-    "key": "output|n_nGloves_thump_onto_the_floor_and_hands_join_on_Soft_pads_pr|55f58a6a99a0",
-    "original": "\\n\\nGloves thump onto the floor, and hands join on. Soft pads press against the [pc.knotOrBase \"+e+\"]. At first, it’s the small ovals near her clawtips feeling like cushions of pleasure, but then her palms join in, cupping and cradling, angling your [pc.cockHead \"+e+\"] straight out and up at her mouth. The cheetah purrs faintly, her cheek vibrating your tender skin to tease a moan out of you.",
+    "key": "output|Gloves_thump_onto_the_floor_and_hands_join_on_Soft_pads_press|d58d7ea4849d",
+    "original": "Gloves thump onto the floor, and hands join on. Soft pads press against the [pc.knotOrBase \"+e+\"]. At first, it’s the small ovals near her clawtips feeling like cushions of pleasure, but then her palms join in, cupping and cradling, angling your [pc.cockHead \"+e+\"] straight out and up at her mouth. The cheetah purrs faintly, her cheek vibrating your tender skin to tease a moan out of you.",
     "translation": "",
-    "context": "<<POS:24471173>>"
+    "context": "<<POS:24471177>>"
   },
   {
-    "key": "output|n_n_i_Hold_it_together_Captain_i_she_coos_moments_before|0ab1d19368c8",
-    "original": "\\n\\n<i>“Hold it together, Captain,”</i> she coos, moments before opening wide and licking the entire exposed length of your [pc.cockNoun \"+e+\"] with a tongue that’s a little rougher than a Terran’s but a lot wider and a whole lot wetter. Her saliva’s strangely viscous too, like high-grade lube, making the act of sliding into the cat’s mouth feel vanishing into a galotian’s liquid folds.",
+    "key": "output|i_Hold_it_together_Captain_i_she_coos_moments_before_ope|54fe7aa0525f",
+    "original": "<i>“Hold it together, Captain,”</i> she coos, moments before opening wide and licking the entire exposed length of your [pc.cockNoun \"+e+\"] with a tongue that’s a little rougher than a Terran’s but a lot wider and a whole lot wetter. Her saliva’s strangely viscous too, like high-grade lube, making the act of sliding into the cat’s mouth feel vanishing into a galotian’s liquid folds.",
     "translation": "",
-    "context": "<<POS:24471579>>"
+    "context": "<<POS:24471583>>"
   },
   {
     "key": "output|She_devours_your_entirety_in_one_fell_swoop_chasing_her_hands|20ce681c7279",
@@ -540,37 +648,31 @@
     "context": "<<POS:24472307>>"
   },
   {
-    "key": "output|n_nYou_see_stars_pc_mf_Groans_Moans_begin_to_drown_out_the_m|7d1c83450dd3",
-    "original": "\\n\\nYou see stars. [pc.mf|Groans|Moans] begin to drown out the muted sound of your vessel’s heavy machinery. There’s only you and the cat on your [pc.cockNoun \"+e+\"]. Your hand falls on the back of her head as she pulls up, not to stop her but to encourage her.",
+    "key": "output|You_see_stars_pc_mf_Groans_Moans_begin_to_drown_out_the_muted|6133e1ca4da7",
+    "original": "You see stars. [pc.mf|Groans|Moans] begin to drown out the muted sound of your vessel’s heavy machinery. There’s only you and the cat on your [pc.cockNoun \"+e+\"]. Your hand falls on the back of her head as she pulls up, not to stop her but to encourage her.",
     "translation": "",
-    "context": "<<POS:24472817>>"
+    "context": "<<POS:24472821>>"
   },
   {
-    "key": "output|n_nShe_likes_it_As_she_s_gasping_in_fresh_air_she_brushes_the|6640927b0442",
-    "original": "\\n\\nShe likes it. As she’s gasping in fresh air, she brushes the hair out of her way and winks her organic eye at you, then she’s right back to work, kissing and slobbering on your [pc.cockHead \"+e+\"]. Her paws gently squeeze, forcing a little more blood into your [pc.mf|man|herm]hood, swelling you to your limit. Then she releases and sucks with her mouth, gleefully swallowing your pre-cum. Her gulps come through loudly while you gently push her downward, encouraging her to \"+(t<8?\"bottom out\":\"go a little deeper\")+\" with each suck.",
+    "key": "output|She_likes_it_As_she_s_gasping_in_fresh_air_she_brushes_the_hai|496edd7f78e9",
+    "original": "She likes it. As she’s gasping in fresh air, she brushes the hair out of her way and winks her organic eye at you, then she’s right back to work, kissing and slobbering on your [pc.cockHead \"+e+\"]. Her paws gently squeeze, forcing a little more blood into your [pc.mf|man|herm]hood, swelling you to your limit. Then she releases and sucks with her mouth, gleefully swallowing your pre-cum. Her gulps come through loudly while you gently push her downward, encouraging her to \"+(t<8?\"bottom out\":\"go a little deeper\")+\" with each suck.",
     "translation": "",
-    "context": "<<POS:24473089>>"
+    "context": "<<POS:24473093>>"
   },
   {
-    "key": "output|n_nThe_cat_pops_back_up_Her_handjob_fills_the_void_in_sensatio|30d64ace6e0d",
-    "original": "\\n\\nThe cat pops back up. Her handjob fills the void in sensation. Her lips return to your [pc.cockHead \"+e+\"], and your eyes are rolling back. It’s hard not to stand there with your head tipped back, your eyes sightless, and your mouth making sounds like an ausar bitch in heat.",
+    "key": "output|The_cat_pops_back_up_Her_handjob_fills_the_void_in_sensation_H|14fa4810e66b",
+    "original": "The cat pops back up. Her handjob fills the void in sensation. Her lips return to your [pc.cockHead \"+e+\"], and your eyes are rolling back. It’s hard not to stand there with your head tipped back, your eyes sightless, and your mouth making sounds like an ausar bitch in heat.",
     "translation": "",
-    "context": "<<POS:24473638>>"
+    "context": "<<POS:24473642>>"
   },
   {
-    "key": "output|n_n_i_You_taste_good_Captain_i_she_pants_before_plunging|9876668e10de",
-    "original": "\\n\\n<i>“You taste good, Captain,”</i> she pants before plunging back down. Her tongue slips out past her lips, delighting in your flavor. Up again, she asks, <i>“Are you ready?”</i> Her hands pump faster. <i>“Are you ready to give me allll your treasure?”</i> A gentle kiss lands on your glans this time, smeared with pre. <i>“Are you ready to feed the pirate pussy all the cum she’d ever want?”</i>",
+    "key": "output|i_You_taste_good_Captain_i_she_pants_before_plunging_back|28baaf2005ac",
+    "original": "<i>“You taste good, Captain,”</i> she pants before plunging back down. Her tongue slips out past her lips, delighting in your flavor. Up again, she asks, <i>“Are you ready?”</i> Her hands pump faster. <i>“Are you ready to give me allll your treasure?”</i> A gentle kiss lands on your glans this time, smeared with pre. <i>“Are you ready to feed the pirate pussy all the cum she’d ever want?”</i>",
     "translation": "",
-    "context": "<<POS:24473928>>"
+    "context": "<<POS:24473932>>"
   },
   {
-    "key": "output|n_n|6f2cfd87530d",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:24474338>>"
-  },
-  {
-    "key": "output|She_s_in_for_a_bit_of_surprise_given_your_modded_splooge|395bb80107a1",
+    "key": "output|She_s_in_for_a_bit_of_surprise_given_your_modded_splooge|6da7b88177f2",
     "original": "She’s in for a bit of surprise, given your modded splooge. ",
     "translation": "",
     "context": "<<POS:24474389>>"
@@ -582,34 +684,34 @@
     "context": "<<POS:24474459>>"
   },
   {
-    "key": "output|n_nShe_does_The_pirate_plunges_down_faster_and_harder_than_ev|5a649d31bf81",
-    "original": "\\n\\nShe does. The pirate plunges down, faster and harder than ever before, and she <b>purrs</b> hard enough to rattle you from crotch to psyche. Your [pc.cockNoun \"+e+\"] swells - one long throb that only seems to intensify. Your cock balloons in the kitten’s oral cavern, suckled and shaken mercilessly. Her throat gulps, and the suction kicks up another knot. You can feel the molten knot of orgasm grow inside you onto to immediately leap forward, flowing through your dick like stormsurge through a stream bed.",
+    "key": "output|She_does_The_pirate_plunges_down_faster_and_harder_than_ever_b|ff4be197bdca",
+    "original": "She does. The pirate plunges down, faster and harder than ever before, and she <b>purrs</b> hard enough to rattle you from crotch to psyche. Your [pc.cockNoun \"+e+\"] swells - one long throb that only seems to intensify. Your cock balloons in the kitten’s oral cavern, suckled and shaken mercilessly. Her throat gulps, and the suction kicks up another knot. You can feel the molten knot of orgasm grow inside you onto to immediately leap forward, flowing through your dick like stormsurge through a stream bed.",
     "translation": "",
-    "context": "<<POS:24474570>>"
+    "context": "<<POS:24474574>>"
   },
   {
-    "key": "output|n_nYou_hear_your_orgasm_more_than_feel_it_The_cat_girl_s_sucki|0ec197b27f30",
-    "original": "\\n\\nYou hear your orgasm more than feel it. The cat-girl’s sucking you so fiercely that any [pc.cum] you manage to produce is instantly wicked into her throat and down into her belly. You don’t need to feel your fluids emerge to know that they are. The pleasure tells you that. Each apex of the feline fellatrix’s purrs is like a burst of ecstasy buffeting you, almost a mini-orgasm in its own right. Together with her tongue, and her lips, and the hot breath bathing you, the sensations blend together into nirvana. You close your eyes and savor it.",
+    "key": "output|You_hear_your_orgasm_more_than_feel_it_The_cat_girl_s_sucking_y|70b6f3bb52be",
+    "original": "You hear your orgasm more than feel it. The cat-girl’s sucking you so fiercely that any [pc.cum] you manage to produce is instantly wicked into her throat and down into her belly. You don’t need to feel your fluids emerge to know that they are. The pleasure tells you that. Each apex of the feline fellatrix’s purrs is like a burst of ecstasy buffeting you, almost a mini-orgasm in its own right. Together with her tongue, and her lips, and the hot breath bathing you, the sensations blend together into nirvana. You close your eyes and savor it.",
     "translation": "",
-    "context": "<<POS:24475115>>"
+    "context": "<<POS:24475119>>"
   },
   {
-    "key": "output|n_nYour_orgasm_pours_straight_into_her_throat_and_she_s_ready|e9ccd71177e1",
-    "original": "\\n\\nYour orgasm pours straight into her throat, and she’s ready for it. Gulping straight-away, the cat-girl devours your seed with gusto. Your [pc.cumNoun] was the meal she was waiting for. Her lips are taut, vacuum-sealed, and her ability to continue purring <b>while swallowing</b> leaves you breathless and addled. You can’t think with pleasure like this. You can’t even keep your fingers seated against her chromed cap. Your hand slides away and leaves her to suck you however she likes, milking you for spurt after spurt of rich, [pc.cumVisc] load.\"+(o<2e3?\" By the time your vision starts to clear, she’s burping and milking the last few drops into her hand - to lick up later, you presume.\":\"\")",
+    "key": "output|Your_orgasm_pours_straight_into_her_throat_and_she_s_ready_for|3d01dc0086b5",
+    "original": "Your orgasm pours straight into her throat, and she’s ready for it. Gulping straight-away, the cat-girl devours your seed with gusto. Your [pc.cumNoun] was the meal she was waiting for. Her lips are taut, vacuum-sealed, and her ability to continue purring <b>while swallowing</b> leaves you breathless and addled. You can’t think with pleasure like this. You can’t even keep your fingers seated against her chromed cap. Your hand slides away and leaves her to suck you however she likes, milking you for spurt after spurt of rich, [pc.cumVisc] load.\"+(o<2e3?\" By the time your vision starts to clear, she’s burping and milking the last few drops into her hand - to lick up later, you presume.\":\"\")",
     "translation": "",
-    "context": "<<POS:24475676>>"
+    "context": "<<POS:24475680>>"
   },
   {
-    "key": "output|n_nEven_the_sluttiest_pirates_have_limits_Her_gulps_slow_down|c01ec6ef54e7",
-    "original": "\\n\\nEven the sluttiest pirates have limits. Her gulps slow down long before you do. Her belly rounds, picking up a distinctive paunch that you’d be proud of, if you weren’t busy frying your synapses with the seemingly ceaseless glories of her vibrating throat. The cheetah gurgles warningly before pulling back\"+(pc.balls>0?\", but her hands find your [pc.balls], gently squeezing as if to encourage you to keep going\":\"\")+\". She pops off, and you grant her a facial to remember you by, throwing web after web of [pc.cumNoun] across her muzzle and into her hair. She takes it like a champ, smiling under the thickening mask, still working her hands. It’s as if she’s taking every rope you sling as proof of her attractiveness. The bath she gets is the highest compliment she could receive.",
+    "key": "output|Even_the_sluttiest_pirates_have_limits_Her_gulps_slow_down_long|5c5d2ea07849",
+    "original": "Even the sluttiest pirates have limits. Her gulps slow down long before you do. Her belly rounds, picking up a distinctive paunch that you’d be proud of, if you weren’t busy frying your synapses with the seemingly ceaseless glories of her vibrating throat. The cheetah gurgles warningly before pulling back\"+(pc.balls>0?\", but her hands find your [pc.balls], gently squeezing as if to encourage you to keep going\":\"\")+\". She pops off, and you grant her a facial to remember you by, throwing web after web of [pc.cumNoun] across her muzzle and into her hair. She takes it like a champ, smiling under the thickening mask, still working her hands. It’s as if she’s taking every rope you sling as proof of her attractiveness. The bath she gets is the highest compliment she could receive.",
     "translation": "",
-    "context": "<<POS:24476395>>"
+    "context": "<<POS:24476399>>"
   },
   {
-    "key": "output|n_nSpent_you_lean_against_the_wall_for_support_while_the_pirat|3ce46885ffbd",
-    "original": "\\n\\nSpent, you lean against the wall for support while the pirate straps her suit’s gloves back on.",
+    "key": "output|Spent_you_lean_against_the_wall_for_support_while_the_pirate_st|a8fcfe05d6ef",
+    "original": "Spent, you lean against the wall for support while the pirate straps her suit’s gloves back on.",
     "translation": "",
-    "context": "<<POS:24477194>>"
+    "context": "<<POS:24477198>>"
   },
   {
     "key": "output|Long_ignored_her_own_erection_throbs_sympathethically_rock_ha|bcbe6276411f",
@@ -636,58 +738,58 @@
     "context": "<<POS:24477774>>"
   },
   {
-    "key": "output|n_nThe_airlock_ushers_your_foe_turned_fuckbuddy_back_into_the_v|5418ac43d01e",
-    "original": "\\n\\nThe airlock ushers your foe-turned-fuckbuddy back into the void, leaving you with [pc.hasBalls|empty balls|satisfaction] and a well-deserved sense of triumph. Today, you came out ahead.\\n\\n",
+    "key": "output|The_airlock_ushers_your_foe_turned_fuckbuddy_back_into_the_void|2b1f686dbef1",
+    "original": "The airlock ushers your foe-turned-fuckbuddy back into the void, leaving you with [pc.hasBalls|empty balls|satisfaction] and a well-deserved sense of triumph. Today, you came out ahead.",
     "translation": "",
-    "context": "<<POS:24478029>>"
+    "context": "<<POS:24478033>>"
   },
   {
-    "key": "output|textify_kV_kV_0_Ce_Z_pc_isCrotchExposed_n_t_t_Your_pc_va|6c2a3606b815",
+    "key": "output|textify_kV_kV_0_Ce_Z_pc_isCrotchExposed_n_t_t_Your_pc_va|e3f7bd784cda",
     "original": "textify(kV||(kV=(0,Ce.Z)([\"[pc.isCrotchExposed\\n\\t\\t|Your [pc.vaginas] await[s|s], bare and ready.\\n\\t\\t|Your clothing follows suit, yanked open to expose your [pc.vaginas].\\n\\t]\"])))",
     "translation": "",
     "context": "<<POS:24478425>>"
   },
   {
-    "key": "output|n_n_i_Oh_one_of_these_i_the_feline_vagabond_remarks_as_sh|e63b273510fe",
-    "original": "\\n\\n<i>“Oh, one of these?”</i> the feline vagabond remarks as she drops to her knees and removes her suit’s helmet. Slitted eyes flit between your [pc.vaginaNoun \"+e+\"] and [pc.face], like the cat’s not sure which one to address. <i>“I like these. You know there’s a whole gang of bunny-girls like this? Big swinging horse-dicks and the puffiest, cushiest pussies ready to take them.”</i> She licks her lips, polishing them to an onyx gloss in anticipation. <i>“I’m gonna eat you up.”</i>",
+    "key": "output|i_Oh_one_of_these_i_the_feline_vagabond_remarks_as_she_dr|d290aa8e9ca3",
+    "original": "<i>“Oh, one of these?”</i> the feline vagabond remarks as she drops to her knees and removes her suit’s helmet. Slitted eyes flit between your [pc.vaginaNoun \"+e+\"] and [pc.face], like the cat’s not sure which one to address. <i>“I like these. You know there’s a whole gang of bunny-girls like this? Big swinging horse-dicks and the puffiest, cushiest pussies ready to take them.”</i> She licks her lips, polishing them to an onyx gloss in anticipation. <i>“I’m gonna eat you up.”</i>",
     "translation": "",
-    "context": "<<POS:24478658>>"
+    "context": "<<POS:24478662>>"
   },
   {
-    "key": "output|n_nThe_feline_vagabond_s_nose_wrinkles_slightly_under_her_helme|aa0ed45bfc86",
-    "original": "\\n\\nThe feline vagabond’s nose wrinkles slightly under her helmet. <i>“That’s a canine cunt, ain’t it?”</i> She looks at your crotch like it’s going to bite her, slowly removing the protective bubble and her gloves. <i>“Can’t say I have a lot of experience with one of these, but...”</i> She leans a little closer, nostrils flaring with hesitant sniffs. <i>“What kind of kaithrit would I be if a bitch-pussy like this had me beat.”</i> With her hands on your thighs, she leans a little closer. <i>“Yeah, I’m gonna make you cum.”</i>",
+    "key": "output|The_feline_vagabond_s_nose_wrinkles_slightly_under_her_helmet|9af05737b998",
+    "original": "The feline vagabond’s nose wrinkles slightly under her helmet. <i>“That’s a canine cunt, ain’t it?”</i> She looks at your crotch like it’s going to bite her, slowly removing the protective bubble and her gloves. <i>“Can’t say I have a lot of experience with one of these, but...”</i> She leans a little closer, nostrils flaring with hesitant sniffs. <i>“What kind of kaithrit would I be if a bitch-pussy like this had me beat.”</i> With her hands on your thighs, she leans a little closer. <i>“Yeah, I’m gonna make you cum.”</i>",
     "translation": "",
-    "context": "<<POS:24479197>>"
+    "context": "<<POS:24479201>>"
   },
   {
-    "key": "output|n_nSmiling_under_her_helmet_the_feline_vagabond_rapidly_remove|92477f72cfd9",
-    "original": "\\n\\nSmiling under her helmet, the feline vagabond rapidly removes her gloves, and the protective bubble swiftly follows suit. <i>“I should have known you’d be all about the cat-dick, after going through all the trouble of making me sprout this behemoth.”</i> She leans close, nostrils flaring with anticipatory sniffs. Her dreamy sigh slips out like melted butter in auditory form. <i>“And I’m going to love tasting you, pleasing, and rewarding you for being such an... aggressive ace.”</i> Licking her chops, your former foe nuzzles in.",
+    "key": "output|Smiling_under_her_helmet_the_feline_vagabond_rapidly_removes_he|ac40fae87c1d",
+    "original": "Smiling under her helmet, the feline vagabond rapidly removes her gloves, and the protective bubble swiftly follows suit. <i>“I should have known you’d be all about the cat-dick, after going through all the trouble of making me sprout this behemoth.”</i> She leans close, nostrils flaring with anticipatory sniffs. Her dreamy sigh slips out like melted butter in auditory form. <i>“And I’m going to love tasting you, pleasing, and rewarding you for being such an... aggressive ace.”</i> Licking her chops, your former foe nuzzles in.",
     "translation": "",
-    "context": "<<POS:24479785>>"
+    "context": "<<POS:24479789>>"
   },
   {
-    "key": "output|n_nSmiling_under_her_helmet_the_feline_vagabond_rapidly_remove|3170d327e88c",
-    "original": "\\n\\nSmiling under her helmet, the feline vagabond rapidly removes her gloves, and the protective bubble swiftly follows suit. <i>“I knew a pilot that could outfly me would have good taste.”</i> She leans close, nostrils flaring with anticipatory sniffs. Her dreamy sigh slips out like melted butter in auditory form. <i>“And I’m going to love tasting you, pleasing, and rewarding you for being such an absolute ace.”</i> Licking her chops, your former foe nuzzles in.",
+    "key": "output|Smiling_under_her_helmet_the_feline_vagabond_rapidly_removes_he|7258520b115f",
+    "original": "Smiling under her helmet, the feline vagabond rapidly removes her gloves, and the protective bubble swiftly follows suit. <i>“I knew a pilot that could outfly me would have good taste.”</i> She leans close, nostrils flaring with anticipatory sniffs. Her dreamy sigh slips out like melted butter in auditory form. <i>“And I’m going to love tasting you, pleasing, and rewarding you for being such an absolute ace.”</i> Licking her chops, your former foe nuzzles in.",
     "translation": "",
-    "context": "<<POS:24480333>>"
+    "context": "<<POS:24480337>>"
   },
   {
-    "key": "output|n_n_i_Oh_shit_i_the_feline_vagabond_murmurs_at_the_sight|ef9cf064d8b5",
-    "original": "\\n\\n<i>“Oh shit,”</i> the feline vagabond murmurs at the sight. <i>“I didn’t... shiiiiiit.”</i> She fiddles nervously with her gloves. They come off on the second try, and the helmet follows. <i>“I wasn’t expecting to tangle with suula-puss.”</i> Her fur bristles weakly. <i>“But a deal’s a deal. A lil’ venom ain’t shit.”</i> The trembles in her voice make it clear she doesn’t believe her own words, but her hands come to rest on your thighs all the same. <i>“This suit needed washed anyway.”</i>",
+    "key": "output|i_Oh_shit_i_the_feline_vagabond_murmurs_at_the_sight_i|0ca4b589670f",
+    "original": "<i>“Oh shit,”</i> the feline vagabond murmurs at the sight. <i>“I didn’t... shiiiiiit.”</i> She fiddles nervously with her gloves. They come off on the second try, and the helmet follows. <i>“I wasn’t expecting to tangle with suula-puss.”</i> Her fur bristles weakly. <i>“But a deal’s a deal. A lil’ venom ain’t shit.”</i> The trembles in her voice make it clear she doesn’t believe her own words, but her hands come to rest on your thighs all the same. <i>“This suit needed washed anyway.”</i>",
     "translation": "",
-    "context": "<<POS:24480832>>"
+    "context": "<<POS:24480836>>"
   },
   {
-    "key": "output|n_n_i_Whoah_i_murmurs_the_muffled_vagabond_as_she_removes|64812e0e4172",
-    "original": "\\n\\n<i>“Whoah,”</i> murmurs the muffled vagabond as she removes her helmet. <i>“\"+(2===pc.vaginas[e].clits?\"Dual wielding clitorii? Now I’ve seen it all.\":\"That’s a lot of clit!\")+\"”</i> Loud snaps ring through your vessel. The feline’s gloves clank onto the deck. <i>“And here I was worrying you’d off me if I couldn’t get you off.”</i> She brushes a hank of bedraggled hair back over her cybernetically-augmented skull. <i>“You’re gonna go off like an antimatter bomb.”</i> Placing her hands on your thighs, she leans in close enough for her hot breath to flood you with tingles.",
+    "key": "output|i_Whoah_i_murmurs_the_muffled_vagabond_as_she_removes_her|c8f53f6cacec",
+    "original": "<i>“Whoah,”</i> murmurs the muffled vagabond as she removes her helmet. <i>“\"+(2===pc.vaginas[e].clits?\"Dual wielding clitorii? Now I’ve seen it all.\":\"That’s a lot of clit!\")+\"”</i> Loud snaps ring through your vessel. The feline’s gloves clank onto the deck. <i>“And here I was worrying you’d off me if I couldn’t get you off.”</i> She brushes a hank of bedraggled hair back over her cybernetically-augmented skull. <i>“You’re gonna go off like an antimatter bomb.”</i> Placing her hands on your thighs, she leans in close enough for her hot breath to flood you with tingles.",
     "translation": "",
-    "context": "<<POS:24481363>>"
+    "context": "<<POS:24481367>>"
   },
   {
-    "key": "output|n_n_i_Oh_straight_to_it_i_the_feline_vagabond_remarks_as|1c4e484d7183",
-    "original": "\\n\\n<i>“Oh, straight to it,”</i> the feline vagabond remarks as she removes her helmet and gloves, gently setting them on the deck beside her. She rubs her hands together, friction warming her paws for your comfort. <i>“I can work with this.”</i> The soft pads on her fingertips feel nice on your thighs. <i>“I’ll have you yowling in no time, hun. Just wait.”</i>",
+    "key": "output|i_Oh_straight_to_it_i_the_feline_vagabond_remarks_as_she|661f87124d62",
+    "original": "<i>“Oh, straight to it,”</i> the feline vagabond remarks as she removes her helmet and gloves, gently setting them on the deck beside her. She rubs her hands together, friction warming her paws for your comfort. <i>“I can work with this.”</i> The soft pads on her fingertips feel nice on your thighs. <i>“I’ll have you yowling in no time, hun. Just wait.”</i>",
     "translation": "",
-    "context": "<<POS:24481955>>"
+    "context": "<<POS:24481959>>"
   },
   {
     "key": "output|textify_vV_vV_0_Ce_Z_n_tYou_reach_out_and_place_one_hand|56cf521af5ee",
@@ -696,10 +798,10 @@
     "context": "<<POS:24482328>>"
   },
   {
-    "key": "output|n_nLurid_warmth_spreads_across_your_outer_lips_in_a_flash_The|3c82ab38d6a0",
-    "original": "\\n\\nLurid warmth spreads across your outer lips in a flash. The cheetah’s tongue isn’t just long; it’s nice and wide, able to smear against the ",
+    "key": "output|Lurid_warmth_spreads_across_your_outer_lips_in_a_flash_The_chee|ca396205dbf2",
+    "original": "Lurid warmth spreads across your outer lips in a flash. The cheetah’s tongue isn’t just long; it’s nice and wide, able to smear against the ",
     "translation": "",
-    "context": "<<POS:24483361>>"
+    "context": "<<POS:24483365>>"
   },
   {
     "key": "output|entire_exterior_of_your_pc_vaginaNoun_e|96d546b8cb28",
@@ -726,22 +828,22 @@
     "context": "<<POS:24483813>>"
   },
   {
-    "key": "output|n_n_i_Mmmph_i_Wet_pussy_muffles_the_cat_girl_s_complaints|4d0a376ca368",
-    "original": "\\n\\n<i>“Mmmph!”</i> Wet pussy muffles the cat-girl’s complaints at first, and your venomous juices finish the job. Further complaints morph into cunt-shaking moans as your genitalia-mounted aphrodisiacs kick in. Her tongue stabs deep - as deep as it can, burrowing snake-like through your glistening folds to the painful limits of the cat’s biology in a quest for more. Caution vanishes as raw enthusiasm takes over. The feline licks in a frenzy. Her tongue thrashes inside you, swirling through [pc.girlCumNoun] and sweeping up as much of your lurid distillations as possible. You don’t have to push the cat any longer - your drugged twat has put her under its spell. Her suit’s fasteners come apart in a cacophony of uncoordinated yanking and zipping, chased by the audible squelching of fervent masturbation.\\n\\nDazed by the frenzied cunnilingus, you don’t resist allowing the cheetah to pull back and gasp for air - or slam herself face-first back into your [pc.vagina \"+e+\"] to worship as her own personal altar of pleasure. Soon, she’s dripping on the floor, leaking everywhere as she quests for oral treasure in your twat. That strangely textured, lube-slickened tongue searches out your most private, most sensitive nooks to stimulate - and catch a fresh dose of aphrodisiac from. She’s out of control - ravenous. If you wanted to stop now, you’d have to fight her off.\\n\\nLuckily for you, you don’t.\\n\\n[pc.Thighs] shaking, you hang on for dear life. <i>“That’s it!”</i> you cry, rocking your [pc.hips] hard, pushing the pirate against the wall. If she minds, she doesn’t show her. Her slurping carries on relentlessly, strumming you like an instrument. Tighter and tighter, her unrestrained affections stretch your consciousness to the absolute limit. Your back wants to arch of its own volition\"+(pc.biggestTitSize()>=1?\", to say nothing of the urge to maul your tits like a horny fratboy\":\"\")+\". The ship and space itself seem to fall away from your awareness. There’s only room for you, the cat-girl, and what her tongue can do to you, making you sweat and squirm. Each like is a spark on dry tinder. At almost any moment you could... expl-",
+    "key": "output|i_Mmmph_i_Wet_pussy_muffles_the_cat_girl_s_complaints_at_f|23e69c908de9",
+    "original": "<i>“Mmmph!”</i> Wet pussy muffles the cat-girl’s complaints at first, and your venomous juices finish the job. Further complaints morph into cunt-shaking moans as your genitalia-mounted aphrodisiacs kick in. Her tongue stabs deep - as deep as it can, burrowing snake-like through your glistening folds to the painful limits of the cat’s biology in a quest for more. Caution vanishes as raw enthusiasm takes over. The feline licks in a frenzy. Her tongue thrashes inside you, swirling through [pc.girlCumNoun] and sweeping up as much of your lurid distillations as possible. You don’t have to push the cat any longer - your drugged twat has put her under its spell. Her suit’s fasteners come apart in a cacophony of uncoordinated yanking and zipping, chased by the audible squelching of fervent masturbation.\\n\\nDazed by the frenzied cunnilingus, you don’t resist allowing the cheetah to pull back and gasp for air - or slam herself face-first back into your [pc.vagina \"+e+\"] to worship as her own personal altar of pleasure. Soon, she’s dripping on the floor, leaking everywhere as she quests for oral treasure in your twat. That strangely textured, lube-slickened tongue searches out your most private, most sensitive nooks to stimulate - and catch a fresh dose of aphrodisiac from. She’s out of control - ravenous. If you wanted to stop now, you’d have to fight her off.\\n\\nLuckily for you, you don’t.\\n\\n[pc.Thighs] shaking, you hang on for dear life. <i>“That’s it!”</i> you cry, rocking your [pc.hips] hard, pushing the pirate against the wall. If she minds, she doesn’t show her. Her slurping carries on relentlessly, strumming you like an instrument. Tighter and tighter, her unrestrained affections stretch your consciousness to the absolute limit. Your back wants to arch of its own volition\"+(pc.biggestTitSize()>=1?\", to say nothing of the urge to maul your tits like a horny fratboy\":\"\")+\". The ship and space itself seem to fall away from your awareness. There’s only room for you, the cat-girl, and what her tongue can do to you, making you sweat and squirm. Each like is a spark on dry tinder. At almost any moment you could... expl-",
     "translation": "",
-    "context": "<<POS:24484542>>"
+    "context": "<<POS:24484546>>"
   },
   {
-    "key": "output|n_n_i_Mmmmmmm_i_the_purr_becomes_a_cunt_rippling_exulta|c6d6b2f3e8df",
-    "original": "\\n\\n<i>“Mmmmmmm....”</i> the purr becomes a cunt-rippling exultation of pleasure and delight at your taste. The pirate’s muffled moans make it clear that she’s found the treasure she was seeking all along, and her tongue starts to dig for it. Plunging forward, it slips through your juicy lips to explore the secret passage beyond. Warm muscle wriggles through your tender nooks. It strokes your buzzing nerves, and sets your mind alight with pleasure. <i>“Stars!”</i> you gasp when the cheetah shifts her grip to your [pc.butts], sinking her clawed digits deep into your [pc.skinFurScales] to pull you closer. Tighter, she squeezes, tongue fluttering and stroking, simultaneously opening up your womanhood yet filling it to the brink with ecstatic desire.",
+    "key": "output|i_Mmmmmmm_i_the_purr_becomes_a_cunt_rippling_exultation|63c26afc4770",
+    "original": "<i>“Mmmmmmm....”</i> the purr becomes a cunt-rippling exultation of pleasure and delight at your taste. The pirate’s muffled moans make it clear that she’s found the treasure she was seeking all along, and her tongue starts to dig for it. Plunging forward, it slips through your juicy lips to explore the secret passage beyond. Warm muscle wriggles through your tender nooks. It strokes your buzzing nerves, and sets your mind alight with pleasure. <i>“Stars!”</i> you gasp when the cheetah shifts her grip to your [pc.butts], sinking her clawed digits deep into your [pc.skinFurScales] to pull you closer. Tighter, she squeezes, tongue fluttering and stroking, simultaneously opening up your womanhood yet filling it to the brink with ecstatic desire.",
     "translation": "",
-    "context": "<<POS:24486706>>"
+    "context": "<<POS:24486710>>"
   },
   {
-    "key": "output|n_nRadiant_bliss_bursts_apart_your_thoughts_like_a_star_going_s|04b8bdba1ab2",
-    "original": "\\n\\nRadiant bliss bursts apart your thoughts like a star going supernova. Your [pc.vaginas] juice\"+(1===pc.vaginas.length?\"s\":\"\")+\".",
+    "key": "output|Radiant_bliss_bursts_apart_your_thoughts_like_a_star_going_super|2b3ff35e4f25",
+    "original": "Radiant bliss bursts apart your thoughts like a star going supernova. Your [pc.vaginas] juice\"+(1===pc.vaginas.length?\"s\":\"\")+\".",
     "translation": "",
-    "context": "<<POS:24487473>>"
+    "context": "<<POS:24487477>>"
   },
   {
     "key": "output|Splatters_of_excessive_lubricant_drench_the_feline_s_face_all|db9e4e127963",
@@ -762,10 +864,10 @@
     "context": "<<POS:24487887>>"
   },
   {
-    "key": "output|n_n_i_Mmmm_y_y_yeaAHH_i_cries_the_cheetah_woman_as_her|c4c337ca5590",
-    "original": "\\n\\n<i>“Mmmm... y-y-yeaAHH!”</i> cries the cheetah-woman as her own orgasm rips into her. Licking you is too hard when she’s shaking like a redlining ship drive. Her boneless legs won’t even support her crouch, and she spills onto ",
+    "key": "output|i_Mmmm_y_y_yeaAHH_i_cries_the_cheetah_woman_as_her_own|7512033e26e1",
+    "original": "<i>“Mmmm... y-y-yeaAHH!”</i> cries the cheetah-woman as her own orgasm rips into her. Licking you is too hard when she’s shaking like a redlining ship drive. Her boneless legs won’t even support her crouch, and she spills onto ",
     "translation": "",
-    "context": "<<POS:24488396>>"
+    "context": "<<POS:24488400>>"
   },
   {
     "key": "output|the_mixed_juices_still_spraying_her_own_Fragrant_gouts_of_pent|2035d67cd785",
@@ -780,16 +882,16 @@
     "context": "<<POS:24489476>>"
   },
   {
-    "key": "output|n_nYou_step_back_and_watch_catching_your_breath_through_two_so|d6340009c128",
-    "original": "\\n\\nYou step back and watch, catching your breath through two solid minutes of feline orgasm. By the time she recovers her wits, you’ve had time to clean up and collect her scattered gloves and helmet, piling them neatly beside her on one of the drier plates.",
+    "key": "output|You_step_back_and_watch_catching_your_breath_through_two_solid|d0c9c6571f56",
+    "original": "You step back and watch, catching your breath through two solid minutes of feline orgasm. By the time she recovers her wits, you’ve had time to clean up and collect her scattered gloves and helmet, piling them neatly beside her on one of the drier plates.",
     "translation": "",
-    "context": "<<POS:24489855>>"
+    "context": "<<POS:24489859>>"
   },
   {
-    "key": "output|n_nThe_exhausted_rogue_pants_i_Th_thanks_i_as_she_shakil|81b00d7a49ee",
-    "original": "\\n\\nThe exhausted rogue pants, <i>“Th-thanks,”</i> as she shakily collects them. The latches won’t work right with her shuddery fingers",
+    "key": "output|The_exhausted_rogue_pants_i_Th_thanks_i_as_she_shakily_co|ee8d620cf406",
+    "original": "The exhausted rogue pants, <i>“Th-thanks,”</i> as she shakily collects them. The latches won’t work right with her shuddery fingers",
     "translation": "",
-    "context": "<<POS:24490125>>"
+    "context": "<<POS:24490129>>"
   },
   {
     "key": "output|so_you_help_her_get_everything_into_place_She_blushes_so_cute|ce498e114d10",
@@ -804,13 +906,13 @@
     "context": "<<POS:24490462>>"
   },
   {
-    "key": "output|n_nYou_chalk_another_victory_up_in_your_books|cb73a44781e7",
-    "original": "\\n\\nYou chalk another victory up in your books.",
+    "key": "output|You_chalk_another_victory_up_in_your_books|de6abc36df31",
+    "original": "You chalk another victory up in your books.",
     "translation": "",
-    "context": "<<POS:24490985>>"
+    "context": "<<POS:24490989>>"
   },
   {
-    "key": "output|i_oooo_you_are_b_tasty_b_Almost_worth_ignoring_my_dick|bfcbddaff8b8",
+    "key": "output|i_oooo_you_are_b_tasty_b_Almost_worth_ignoring_my_dick|c51aded2fa77",
     "original": "<i>“...oooo, you are <b>tasty</b>. Almost worth ignoring my dick for. <b>Almost</b>,”</i> the cheetah quips a moment later, panting hotly. <i>“One of these times I’m gonna have you go down on me for a change.”</i> Her eyes lock yours while you catch your breath, almost gloating as she licks your residue from her ink-black lips.",
     "translation": "",
     "context": "<<POS:24491050>>"
@@ -828,16 +930,10 @@
     "context": "<<POS:24491621>>"
   },
   {
-    "key": "output|n_n|b74de04afd2e",
-    "original": "\\n\\n",
+    "key": "output|The_feline_predator_follows_hips_swaying_suit_distended_danger|c6309b62f6fc",
+    "original": "The feline predator follows, hips swaying, suit distended dangerously. She pops one seal, then another, halfway disrobed she’s taken her first steps in your corridors. She looks at you with a face full an anticipation, the glare of her artificial eye like a targeting laser locked straight onto you. Prowling forward, the hermified outlaw licks her chops and boldly strokes herself, polishing the gift you gave her. Her nostrils flare, and she drinks deeply of your scent.",
     "translation": "",
-    "context": "<<POS:24492153>>"
-  },
-  {
-    "key": "output|n_nThe_feline_predator_follows_hips_swaying_suit_distended_da|2ce8ba0f7e45",
-    "original": "\\n\\nThe feline predator follows, hips swaying, suit distended dangerously. She pops one seal, then another, halfway disrobed she’s taken her first steps in your corridors. She looks at you with a face full an anticipation, the glare of her artificial eye like a targeting laser locked straight onto you. Prowling forward, the hermified outlaw licks her chops and boldly strokes herself, polishing the gift you gave her. Her nostrils flare, and she drinks deeply of your scent.",
-    "translation": "",
-    "context": "<<POS:24492241>>"
+    "context": "<<POS:24492245>>"
   },
   {
     "key": "output|The_feline_pirate_can_t_be_mistaken_for_anything_less_than_a_bea|5c915d7d76f1",
@@ -846,10 +942,10 @@
     "context": "<<POS:24492741>>"
   },
   {
-    "key": "output|n_nAny_female_would_be_magnetized_by_the_intoxicating_aroma_you|a010729f53e2",
-    "original": "\\n\\nAny female would be magnetized by the intoxicating aroma you emit, but this pirate’s got something more, something turbo-juicing her runaway sex drive: ",
+    "key": "output|Any_female_would_be_magnetized_by_the_intoxicating_aroma_you_emi|9cca470ee7cd",
+    "original": "Any female would be magnetized by the intoxicating aroma you emit, but this pirate’s got something more, something turbo-juicing her runaway sex drive: ",
     "translation": "",
-    "context": "<<POS:24493184>>"
+    "context": "<<POS:24493188>>"
   },
   {
     "key": "output|that_huge_fucking_dick_you_weighed_her_down_with_It_s_too_big_f|ad37933c34c9",
@@ -864,16 +960,16 @@
     "context": "<<POS:24493571>>"
   },
   {
-    "key": "output|n_nShe_grips_her_cock_as_though_it_pains_her_with_its_throbbing|3b020954a786",
-    "original": "\\n\\nShe grips her cock as though it pains her with its throbbing presence",
+    "key": "output|She_grips_her_cock_as_though_it_pains_her_with_its_throbbing_pre|9788c082e7d8",
+    "original": "She grips her cock as though it pains her with its throbbing presence",
     "translation": "",
-    "context": "<<POS:24493937>>"
+    "context": "<<POS:24493941>>"
   },
   {
-    "key": "output|n_nShe_paws_at_her_flush_slit_as_though_every_waking_second_she|165ce9232b19",
-    "original": "\\n\\nShe paws at her flush slit as though every waking second she spends unfilled is pure agony",
+    "key": "output|She_paws_at_her_flush_slit_as_though_every_waking_second_she_spe|3056ff08b643",
+    "original": "She paws at her flush slit as though every waking second she spends unfilled is pure agony",
     "translation": "",
-    "context": "<<POS:24494021>>"
+    "context": "<<POS:24494025>>"
   },
   {
     "key": "output|giving_in_to_undeniable_lust_with_warm_hisses_and_timeless_gro|c739817890ac",
@@ -900,49 +996,49 @@
     "context": "<<POS:24494449>>"
   },
   {
-    "key": "output|n_nWhen_did_her_hips_begin_to_gyrate_Begin_to_beckon_you_As_h|0edfd509d666",
-    "original": "\\n\\nWhen did her hips begin to gyrate? Begin to beckon you? As her senses are engulfed by your potent musk her body writhes in a pattern of seduction, a mate already subjugated by her chosen one’s gravity. Every fiber within you buzzes with an urgent desire to spread your seed; your opponent has succumbed to the basest of her impulses. All semblance of calculated control melts away as she <i>pleads</i> for you to pounce on her.",
+    "key": "output|When_did_her_hips_begin_to_gyrate_Begin_to_beckon_you_As_her_s|d09bd1a51ae4",
+    "original": "When did her hips begin to gyrate? Begin to beckon you? As her senses are engulfed by your potent musk her body writhes in a pattern of seduction, a mate already subjugated by her chosen one’s gravity. Every fiber within you buzzes with an urgent desire to spread your seed; your opponent has succumbed to the basest of her impulses. All semblance of calculated control melts away as she <i>pleads</i> for you to pounce on her.",
     "translation": "",
-    "context": "<<POS:24494554>>"
+    "context": "<<POS:24494558>>"
   },
   {
-    "key": "output|n_nYour_gaze_lingers_on_the_impressive_bulk_of_her_pulsating_fe|a37495ca7366",
-    "original": "\\n\\nYour gaze lingers on the impressive bulk of her pulsating feline cock, a beacon signaling the height of a savage mating fever, overflowing with unmistakable eagerness. Yet it’s what lies beneath that you desire.",
+    "key": "output|Your_gaze_lingers_on_the_impressive_bulk_of_her_pulsating_feline|9309c847a56e",
+    "original": "Your gaze lingers on the impressive bulk of her pulsating feline cock, a beacon signaling the height of a savage mating fever, overflowing with unmistakable eagerness. Yet it’s what lies beneath that you desire.",
     "translation": "",
-    "context": "<<POS:24495001>>"
+    "context": "<<POS:24495005>>"
   },
   {
-    "key": "output|n_nWhimpers_laden_with_need_draw_you_in_even_closer_You_can_t|fcf9eeaf5589",
-    "original": "\\n\\nWhimpers laden with need draw you in even closer. You can’t ravage her swiftly enough.",
+    "key": "output|Whimpers_laden_with_need_draw_you_in_even_closer_You_can_t_rava|7705c1bdbf1d",
+    "original": "Whimpers laden with need draw you in even closer. You can’t ravage her swiftly enough.",
     "translation": "",
-    "context": "<<POS:24495227>>"
+    "context": "<<POS:24495231>>"
   },
   {
-    "key": "output|n_nEven_if_the_jV_cum_tap_cat_fecund_feline_s_on_so|6709483f4d81",
-    "original": "\\n\\nEven if the \"+(jV()?\"cum tap cat\":\"fecund feline\")+\"’s on some Sterilex, you will fill her to bursting with life. <b>You crave it too much for your propagative lusts to be denied.</b>. You bested her, put her in her place, turned her into a sexed-out kitten begging you with every wag of her puffed-out tail. <i>It was fate that your paths crossed so that her womb may cradle your progeny.</i> You envision many bright futures and \"+(isSillyModeEnabled()?\"deep, dark fantasies\":\"all-night orgies\")+\" of your \"+(jV()?\"‘cum tap cat’\":\"pet pirate\")+\" having no choice but to give up her life of crime and be another healthy breeding bitch...!",
+    "key": "output|Even_if_the_jV_cum_tap_cat_fecund_feline_s_on_some_S|a72bdece0825",
+    "original": "Even if the \"+(jV()?\"cum tap cat\":\"fecund feline\")+\"’s on some Sterilex, you will fill her to bursting with life. <b>You crave it too much for your propagative lusts to be denied.</b>. You bested her, put her in her place, turned her into a sexed-out kitten begging you with every wag of her puffed-out tail. <i>It was fate that your paths crossed so that her womb may cradle your progeny.</i> You envision many bright futures and \"+(isSillyModeEnabled()?\"deep, dark fantasies\":\"all-night orgies\")+\" of your \"+(jV()?\"‘cum tap cat’\":\"pet pirate\")+\" having no choice but to give up her life of crime and be another healthy breeding bitch...!",
     "translation": "",
-    "context": "<<POS:24495328>>"
+    "context": "<<POS:24495332>>"
   },
   {
-    "key": "output|n_nAssuming_direct_control_over_the_cum_tap_cat_you_savor_a_mo|249dd9bc77de",
-    "original": "\\n\\nAssuming direct control over the cum tap cat, you savor a moment of raw, animalistic hunger, as if every cell in your body were suddenly infused with an overwhelming need to dominate. \"+(jV()?\"The intoxicating scent of fresh hermaphrodite arousal mingles with the primitive enjoyment of triumph over an opponent - a triumph now so complete and thorough her body and mind are weighed down so heavily by her cock she can only thrust into open air as a form of begging.\":\"The fresh scent of female need adds a tincture of primitive urge to the enjoyment of triumphing over an opponent - a triumph so explicit that your conquest can only arch in your direction as a form of begging.\")",
+    "key": "output|Assuming_direct_control_over_the_cum_tap_cat_you_savor_a_moment|afbe8cd30902",
+    "original": "Assuming direct control over the cum tap cat, you savor a moment of raw, animalistic hunger, as if every cell in your body were suddenly infused with an overwhelming need to dominate. \"+(jV()?\"The intoxicating scent of fresh hermaphrodite arousal mingles with the primitive enjoyment of triumph over an opponent - a triumph now so complete and thorough her body and mind are weighed down so heavily by her cock she can only thrust into open air as a form of begging.\":\"The fresh scent of female need adds a tincture of primitive urge to the enjoyment of triumphing over an opponent - a triumph so explicit that your conquest can only arch in your direction as a form of begging.\")",
     "translation": "",
-    "context": "<<POS:24495982>>"
+    "context": "<<POS:24495986>>"
   },
   {
-    "key": "output|n_nA_devilish_smirk_tugs_the_corners_of_your_lips_as_your_finge|e6122b1ac9ef",
-    "original": "\\n\\nA devilish smirk tugs the corners of your lips as your fingers breach the soggy folds of her tender, quivering sex. This succulent felinid pirate, slick and supple beneath your touch, could not be readier for a dicking down. <i>Listening to the <i>sounds</i> she makes...!</i> The ‘mreows’, the delicate purrs and harsh little hisses.",
+    "key": "output|A_devilish_smirk_tugs_the_corners_of_your_lips_as_your_fingers_b|7c41b626e4e2",
+    "original": "A devilish smirk tugs the corners of your lips as your fingers breach the soggy folds of her tender, quivering sex. This succulent felinid pirate, slick and supple beneath your touch, could not be readier for a dicking down. <i>Listening to the <i>sounds</i> she makes...!</i> The ‘mreows’, the delicate purrs and harsh little hisses.",
     "translation": "",
-    "context": "<<POS:24496676>>"
+    "context": "<<POS:24496680>>"
   },
   {
-    "key": "output|n_nEvery_part_of_her_yields_in_ravenous_anticipation_Soon_enou|ba4f218b0a74",
-    "original": "\\n\\nEvery part of her yields in ravenous anticipation. Soon enough, she’ll yield to your eagerness much more literally.\\n\\n",
+    "key": "output|Every_part_of_her_yields_in_ravenous_anticipation_Soon_enough|88a60a362c9c",
+    "original": "Every part of her yields in ravenous anticipation. Soon enough, she’ll yield to your eagerness much more literally.",
     "translation": "",
-    "context": "<<POS:24497025>>"
+    "context": "<<POS:24497029>>"
   },
   {
-    "key": "output|You_ve_got_this_feisty_feline_right_where_you_want_her_She_may|871b97ba0365",
+    "key": "output|You_ve_got_this_feisty_feline_right_where_you_want_her_She_may|073506cd4cef",
     "original": "You’ve got this feisty feline right where you want her. She may be a ",
     "translation": "",
     "context": "<<POS:24497173>>"
@@ -966,22 +1062,22 @@
     "context": "<<POS:24497320>>"
   },
   {
-    "key": "output|n_nHow_kind_of_her_to_adjust_her_hips_for_you|c50bb1e5b643",
-    "original": "\\n\\nHow kind of her to adjust her hips for you.",
+    "key": "output|How_kind_of_her_to_adjust_her_hips_for_you|6873eaa58ee4",
+    "original": "How kind of her to adjust her hips for you.",
     "translation": "",
-    "context": "<<POS:24497666>>"
+    "context": "<<POS:24497670>>"
   },
   {
-    "key": "output|n_n_i_Thought_I_d_be_a_passive_pussy_Nah_love_the_game_s_ju|c604803b7166",
-    "original": "\\n\\n<i>“Thought I’d be a passive pussy? Nah, love, the game’s just gettin’ started. I wanna feel that wild side of yours.”</i> She beckons with a crooked claw. <i>“Pin me down, show me that beastly strength! Or are you scared of a little cat scratch?”</i>",
+    "key": "output|i_Thought_I_d_be_a_passive_pussy_Nah_love_the_game_s_just_g|9f650a0d6394",
+    "original": "<i>“Thought I’d be a passive pussy? Nah, love, the game’s just gettin’ started. I wanna feel that wild side of yours.”</i> She beckons with a crooked claw. <i>“Pin me down, show me that beastly strength! Or are you scared of a little cat scratch?”</i>",
     "translation": "",
-    "context": "<<POS:24497724>>"
+    "context": "<<POS:24497728>>"
   },
   {
-    "key": "output|n_nThere_s_something_divine_about_brushing_up_against_her_dripp|7323cf17c38c",
-    "original": "\\n\\nThere’s something divine about brushing up against her dripping honeypot, teasing at that flushed entrance that winks back at you like it knows all your darkest fantasies. The heavy scent of her arousal is like a drug, and it’s got you as <b>high</b> as she is ",
+    "key": "output|There_s_something_divine_about_brushing_up_against_her_dripping|f87666329fd1",
+    "original": "There’s something divine about brushing up against her dripping honeypot, teasing at that flushed entrance that winks back at you like it knows all your darkest fantasies. The heavy scent of her arousal is like a drug, and it’s got you as <b>high</b> as she is ",
     "translation": "",
-    "context": "<<POS:24497990>>"
+    "context": "<<POS:24497994>>"
   },
   {
     "key": "output|on_throbb_induced_ecstasy|a1cc0680cccb",
@@ -1002,10 +1098,10 @@
     "context": "<<POS:24498349>>"
   },
   {
-    "key": "output|n_nShe_s_i_mreowling_underneath_you_now_a_delectable_purr_th|2ffe4917867a",
-    "original": "\\n\\nShe’s <i>mreowling’ underneath you now, a delectable purr that vibrates against your [pc.skinFurScalesNoun]. Your [pc.cockOrStrapon \"+e+\"] strains at the closeness of flesh swollen in need and slick with <b>want</b>. You can’t resist rubbing it in just a little before sinking deep inside its molten embrace.",
+    "key": "output|She_s_i_mreowling_underneath_you_now_a_delectable_purr_that_v|be224feb7194",
+    "original": "She’s <i>mreowling’ underneath you now, a delectable purr that vibrates against your [pc.skinFurScalesNoun]. Your [pc.cockOrStrapon \"+e+\"] strains at the closeness of flesh swollen in need and slick with <b>want</b>. You can’t resist rubbing it in just a little before sinking deep inside its molten embrace.",
     "translation": "",
-    "context": "<<POS:24498505>>"
+    "context": "<<POS:24498509>>"
   },
   {
     "key": "output|As_you_encircle_your_prey_in_serpentine_coils_her_thick_thighs|ec4327d7dbf3",
@@ -1014,16 +1110,16 @@
     "context": "<<POS:24498864>>"
   },
   {
-    "key": "output|n_n_i_You_want_to_take_charge_huh_Well_then_pounce_already|a2da0ca5b862",
-    "original": "\\n\\n<i>“You want to take charge, huh? Well then, pounce already. Show me how you handle a wild cat like me.”</i> She smirks devilishly, locking her golden eyes with yours. <i>“Come on,”</i> she taunts, wiggling closer in your enveloping embrace. <i>“I’m not gonna bite or scratch, ‘less you’re into that...”</i>",
+    "key": "output|i_You_want_to_take_charge_huh_Well_then_pounce_already_Sho|2ba4af1801f8",
+    "original": "<i>“You want to take charge, huh? Well then, pounce already. Show me how you handle a wild cat like me.”</i> She smirks devilishly, locking her golden eyes with yours. <i>“Come on,”</i> she taunts, wiggling closer in your enveloping embrace. <i>“I’m not gonna bite or scratch, ‘less you’re into that...”</i>",
     "translation": "",
-    "context": "<<POS:24499385>>"
+    "context": "<<POS:24499389>>"
   },
   {
-    "key": "output|n_nYou_can_practically_hear_her_inner_walls_clench_in_thirsty_a|c965f9416166",
-    "original": "\\n\\nYou can practically hear her inner walls clench in thirsty anticipation, their slick warmth clamping around you even before you’ve fully sheathed yourself within a silken vise. Every inch thrust forward is met with an intimate caress from her hot passage.",
+    "key": "output|You_can_practically_hear_her_inner_walls_clench_in_thirsty_antic|41a9752289b4",
+    "original": "You can practically hear her inner walls clench in thirsty anticipation, their slick warmth clamping around you even before you’ve fully sheathed yourself within a silken vise. Every inch thrust forward is met with an intimate caress from her hot passage.",
     "translation": "",
-    "context": "<<POS:24499707>>"
+    "context": "<<POS:24499711>>"
   },
   {
     "key": "output|Your_pleasure_is_amplified_by_the_absence_of_resistance_Oh_yes|7a7694ae1781",
@@ -1032,118 +1128,118 @@
     "context": "<<POS:24500001>>"
   },
   {
-    "key": "output|n_nA_smug_grin_lifts_the_corners_of_her_mouth_i_You_gonna_do|9ce2600f704f",
-    "original": "\\n\\nA smug grin lifts the corners of her mouth. <i>“You gonna dom this kitty? Gonna claim your prize and use my body for your pleasure? I’m purring already just thinkin’ about what you’re gonna do to me. Don’t make me wait too long... this pirate pussy ain’t used to begging, but for you? I’ll make an exception.”</i>",
+    "key": "output|A_smug_grin_lifts_the_corners_of_her_mouth_i_You_gonna_dom_th|520d3fe790ba",
+    "original": "A smug grin lifts the corners of her mouth. <i>“You gonna dom this kitty? Gonna claim your prize and use my body for your pleasure? I’m purring already just thinkin’ about what you’re gonna do to me. Don’t make me wait too long... this pirate pussy ain’t used to begging, but for you? I’ll make an exception.”</i>",
     "translation": "",
-    "context": "<<POS:24500424>>"
+    "context": "<<POS:24500428>>"
   },
   {
-    "key": "output|n_nYou_revel_in_the_act_of_dominating_her_pinning_her_down_wit|43844cc4c6da",
-    "original": "\\n\\nYou revel in the act of dominating her, pinning her down with your hands pressed against her soft fur. Spreading her slick, ready folds with your [pc.cockOrStraponHead \"+e+\"] is a spectacle you commit to memory. Her \"+(jV()?\"plush testes contract\":\"taut muscles clench\")+\" at the moment of first penetration, the fervid heat between you two like being in a sauna on a sun. You almost don’t have time to savor the tightness enveloping you before she bucks her way down your [pc.cockOrStraponNoun \"+e+\"], growling raspy cat sounds that stir you to fuck her hard and good.",
+    "key": "output|You_revel_in_the_act_of_dominating_her_pinning_her_down_with_yo|7bf83ea0e23a",
+    "original": "You revel in the act of dominating her, pinning her down with your hands pressed against her soft fur. Spreading her slick, ready folds with your [pc.cockOrStraponHead \"+e+\"] is a spectacle you commit to memory. Her \"+(jV()?\"plush testes contract\":\"taut muscles clench\")+\" at the moment of first penetration, the fervid heat between you two like being in a sauna on a sun. You almost don’t have time to savor the tightness enveloping you before she bucks her way down your [pc.cockOrStraponNoun \"+e+\"], growling raspy cat sounds that stir you to fuck her hard and good.",
     "translation": "",
-    "context": "<<POS:24500752>>"
+    "context": "<<POS:24500756>>"
   },
   {
-    "key": "output|n_nCatgirls_are_built_for_breeding_isSillyModeEnabled_se|220dcefc7ed9",
-    "original": "\\n\\nCatgirls are built for breeding\"+(isSillyModeEnabled()?\", second only to laquines of course\":\"\")+\", and as you shove your [pc.cockNoun \"+e+\"] into the narrow depths, you are delighted by how perfectly your girth is accommodated. Her girlcum is so thick and warm that when it slathers you, it feels like every inch of your plunge is being greedily swallowed by a salivating mouth. Squeezing her hips, the pirate wriggles gleefully on your every thrust, her plush insides craving all the dick you have to spare.",
+    "key": "output|Catgirls_are_built_for_breeding_isSillyModeEnabled_second|4b6cda8eee1f",
+    "original": "Catgirls are built for breeding\"+(isSillyModeEnabled()?\", second only to laquines of course\":\"\")+\", and as you shove your [pc.cockNoun \"+e+\"] into the narrow depths, you are delighted by how perfectly your girth is accommodated. Her girlcum is so thick and warm that when it slathers you, it feels like every inch of your plunge is being greedily swallowed by a salivating mouth. Squeezing her hips, the pirate wriggles gleefully on your every thrust, her plush insides craving all the dick you have to spare.",
     "translation": "",
-    "context": "<<POS:24501401>>"
+    "context": "<<POS:24501405>>"
   },
   {
-    "key": "output|n_nSlamming_your_pulsing_cock_into_the_hungry_embrace_of_feline|3d4052487644",
-    "original": "\\n\\nSlamming your pulsing cock into the hungry embrace of feline folds offers a rush like no other; a primal corner of your brain ignites with animal pleasure. First, the clinched narrowness of her juicy cunt parts for your oversized girth with lurid sounds. Every inch inside her is earned through sheer force. It takes several thrusts to claim new ground, and with every ramming motion, her hefty breasts sway and bounce in an obscene applause, to say nothing of her own cock bobbing up and down and smacking her own tits.",
+    "key": "output|Slamming_your_pulsing_cock_into_the_hungry_embrace_of_feline_fol|ddaee77d6176",
+    "original": "Slamming your pulsing cock into the hungry embrace of feline folds offers a rush like no other; a primal corner of your brain ignites with animal pleasure. First, the clinched narrowness of her juicy cunt parts for your oversized girth with lurid sounds. Every inch inside her is earned through sheer force. It takes several thrusts to claim new ground, and with every ramming motion, her hefty breasts sway and bounce in an obscene applause, to say nothing of her own cock bobbing up and down and smacking her own tits.",
     "translation": "",
-    "context": "<<POS:24501930>>"
+    "context": "<<POS:24501934>>"
   },
   {
-    "key": "output|n_nNormally_you_d_have_to_take_your_time_spreading_a_bitch_aro|bc2c51dc225d",
-    "original": "\\n\\nNormally, you’d have to take your time spreading a bitch around your [pc.cock \"+e+\"], but this big girl’s demands are even bigger: nothing less than everything you’re packing. You bury your girth in one jackhammer motion, <b>owning</b> her lubed-up fuck-tunnel like no one else. The heat pouring off her wet pussy sears right through all those nerve endings you’ve got, ramping up your body to a fever-pitch. Beading sweat drips from your brow as you pull back and slam home again almost to the hilt. Breath comes out your lips in shuddering gasps as you battle her clenching channel as well as hypersexual exhaustion. She growls giddily through gritted fangs, yet each rebound squelches with impossibly tight wetness that wrings your rod dry on every withdrawal.",
+    "key": "output|Normally_you_d_have_to_take_your_time_spreading_a_bitch_around|764febe82d5c",
+    "original": "Normally, you’d have to take your time spreading a bitch around your [pc.cock \"+e+\"], but this big girl’s demands are even bigger: nothing less than everything you’re packing. You bury your girth in one jackhammer motion, <b>owning</b> her lubed-up fuck-tunnel like no one else. The heat pouring off her wet pussy sears right through all those nerve endings you’ve got, ramping up your body to a fever-pitch. Beading sweat drips from your brow as you pull back and slam home again almost to the hilt. Breath comes out your lips in shuddering gasps as you battle her clenching channel as well as hypersexual exhaustion. She growls giddily through gritted fangs, yet each rebound squelches with impossibly tight wetness that wrings your rod dry on every withdrawal.",
     "translation": "",
-    "context": "<<POS:24502465>>"
+    "context": "<<POS:24502469>>"
   },
   {
-    "key": "output|n_nYour_outlaw_porn_star_s_cunt_is_a_haven_of_instinctual_desir|4b95b5bc2d7e",
-    "original": "\\n\\nYour outlaw porn-star’s cunt is a haven of instinctual desire that eagerly engulfs your hardlight stiffness. It’s a warm, wet paradise tailored for pleasure, its velvet walls stretching to accommodate in a snug, silky <b>clench</b>. Her inner walls pulse around your tool, a relentless grip designed to milk \"+(jV()?\"real \":\"\")+\"cocks dry. Backed by feline agility, her powerful thighs clamp down to lock you in place, the lithe muscles taut in their determination to challenge you for every inch in an undulating playground where every throb and pulse sends ripples of ecstasy through your artificial member and straight into your brain.\\n\\nYou thought your strapon was too sensitive before, but this is sensory overload. Each ripple inside her feels augmented tenfold, a symphony of pleasure orchestrated by her love-starved pussy.",
+    "key": "output|Your_outlaw_porn_star_s_cunt_is_a_haven_of_instinctual_desire_th|0dce3ba9ef37",
+    "original": "Your outlaw porn-star’s cunt is a haven of instinctual desire that eagerly engulfs your hardlight stiffness. It’s a warm, wet paradise tailored for pleasure, its velvet walls stretching to accommodate in a snug, silky <b>clench</b>. Her inner walls pulse around your tool, a relentless grip designed to milk \"+(jV()?\"real \":\"\")+\"cocks dry. Backed by feline agility, her powerful thighs clamp down to lock you in place, the lithe muscles taut in their determination to challenge you for every inch in an undulating playground where every throb and pulse sends ripples of ecstasy through your artificial member and straight into your brain.\\n\\nYou thought your strapon was too sensitive before, but this is sensory overload. Each ripple inside her feels augmented tenfold, a symphony of pleasure orchestrated by her love-starved pussy.",
     "translation": "",
-    "context": "<<POS:24503243>>"
+    "context": "<<POS:24503247>>"
   },
   {
-    "key": "output|n_n_i_Make_me_arch_my_back_and_yowl_You_ll_b_love_b_how_I|5595f3f3399d",
-    "original": "\\n\\n<i>“Make me arch my back and yowl! You’ll <b>love</b> how I say thank you.”</i>",
+    "key": "output|i_Make_me_arch_my_back_and_yowl_You_ll_b_love_b_how_I_say|2ba47e293386",
+    "original": "<i>“Make me arch my back and yowl! You’ll <b>love</b> how I say thank you.”</i>",
     "translation": "",
-    "context": "<<POS:24504091>>"
+    "context": "<<POS:24504095>>"
   },
   {
-    "key": "output|n_nYou_re_hammering_into_your_jV_cum_tap_slut_cat|baf5bfdf2ea7",
-    "original": "\\n\\nYou’re hammering into your \"+(jV()?\"cum tap \":\"slut-\")+\"cat, turning the tender intimacy of sex into an all-out fuckfest where only one of you is gonna tap out. Your hips slam forward, melding hard [pc.cockOrStraponNoun \"+e+\"] with the gooey excitement of wet and willing pirate snatch. A sliver of you questions if this is all a rich dream, but her muffled moans \"+(jV()?\"from behind cock-flailing delight \":\"\")+\"drag you back to the delicious truth.",
+    "key": "output|You_re_hammering_into_your_jV_cum_tap_slut_cat_tur|ff2e48a9b944",
+    "original": "You’re hammering into your \"+(jV()?\"cum tap \":\"slut-\")+\"cat, turning the tender intimacy of sex into an all-out fuckfest where only one of you is gonna tap out. Your hips slam forward, melding hard [pc.cockOrStraponNoun \"+e+\"] with the gooey excitement of wet and willing pirate snatch. A sliver of you questions if this is all a rich dream, but her muffled moans \"+(jV()?\"from behind cock-flailing delight \":\"\")+\"drag you back to the delicious truth.",
     "translation": "",
-    "context": "<<POS:24504185>>"
+    "context": "<<POS:24504189>>"
   },
   {
-    "key": "output|n_nAnd_there_s_no_ignoring_the_hefty_drag_of_her_own_meat_slidi|8180d638bdeb",
-    "original": "\\n\\nAnd there’s no ignoring the hefty drag of her own meat sliding slick between her heaving tits. Even as she’s pinned down and getting railed, her chest is buzzing from the friction of her dong bouncing and rubbing between them.\"+(pc.biggestTitSize()>=1?\" Sure, she’s a small-time space gangster, but damn if this doesn’t make your own nips painfully stiff.\":\"\")",
+    "key": "output|And_there_s_no_ignoring_the_hefty_drag_of_her_own_meat_sliding_s|d432a5c87323",
+    "original": "And there’s no ignoring the hefty drag of her own meat sliding slick between her heaving tits. Even as she’s pinned down and getting railed, her chest is buzzing from the friction of her dong bouncing and rubbing between them.\"+(pc.biggestTitSize()>=1?\" Sure, she’s a small-time space gangster, but damn if this doesn’t make your own nips painfully stiff.\":\"\")",
     "translation": "",
-    "context": "<<POS:24504657>>"
+    "context": "<<POS:24504661>>"
   },
   {
-    "key": "output|n_nMesmerized_by_her_creamy_innards_you_give_it_everything_eve|ad30d632c55e",
-    "original": "\\n\\nMesmerized by her creamy innards, you give it everything even as your surroundings blur. It’s jam-packed with as much dick as it is dripping with her \"+(jV()?\"dual lusts\":\"lust\")+\". No shocker that her desire’s cranked to max by \"+(jV()?\"all that unbidden testosterone jet-fueling through her\":\"all the excitement coursing through her\")+\". She’s a girl made for rough banging, every sinew straining back against you; snapping teeth, guttural mews, counterthrusts...",
+    "key": "output|Mesmerized_by_her_creamy_innards_you_give_it_everything_even_as|8288fc3457b2",
+    "original": "Mesmerized by her creamy innards, you give it everything even as your surroundings blur. It’s jam-packed with as much dick as it is dripping with her \"+(jV()?\"dual lusts\":\"lust\")+\". No shocker that her desire’s cranked to max by \"+(jV()?\"all that unbidden testosterone jet-fueling through her\":\"all the excitement coursing through her\")+\". She’s a girl made for rough banging, every sinew straining back against you; snapping teeth, guttural mews, counterthrusts...",
     "translation": "",
-    "context": "<<POS:24505031>>"
+    "context": "<<POS:24505035>>"
   },
   {
-    "key": "output|n_nBut_you_re_not_backing_down_You_keep_drilling_into_your_fel|6617661370b5",
-    "original": "\\n\\nBut you’re not backing down. You keep drilling into your feline fucktoy as primal ecstasy clouds your mind with each punishing stroke into that hot-as-hell puss. If breathing wasn’t a chore right now you might’ve spit out some sweet nothing to tease her.",
+    "key": "output|But_you_re_not_backing_down_You_keep_drilling_into_your_feline|4f6cd0f60e82",
+    "original": "But you’re not backing down. You keep drilling into your feline fucktoy as primal ecstasy clouds your mind with each punishing stroke into that hot-as-hell puss. If breathing wasn’t a chore right now you might’ve spit out some sweet nothing to tease her.",
     "translation": "",
-    "context": "<<POS:24505511>>"
+    "context": "<<POS:24505515>>"
   },
   {
-    "key": "output|n_nYou_realize_then_hilt_deep_in_the_sweltering_squeeze_of_her|8c3a9738eef0",
-    "original": "\\n\\nYou realize then, hilt-deep in the sweltering squeeze of her cunt, almost laughing from the irony... this is what makes the fuck so perfect. \"+(pc.balls>0?\"The heavy sway of your full sack smacks right against her fluffy bottom, rising breeding urge leaving you extra light-headed. \":\"\")+\"Her quaking pussy grips and gushes - <b>orgasm</b>. She’s riding your shaft like it’s her only purpose in life, wringing you within an inch\"+(e>=0?\" of spraying life inside her\":\" losing all control\")+\".",
+    "key": "output|You_realize_then_hilt_deep_in_the_sweltering_squeeze_of_her_cun|6716333de55f",
+    "original": "You realize then, hilt-deep in the sweltering squeeze of her cunt, almost laughing from the irony... this is what makes the fuck so perfect. \"+(pc.balls>0?\"The heavy sway of your full sack smacks right against her fluffy bottom, rising breeding urge leaving you extra light-headed. \":\"\")+\"Her quaking pussy grips and gushes - <b>orgasm</b>. She’s riding your shaft like it’s her only purpose in life, wringing you within an inch\"+(e>=0?\" of spraying life inside her\":\" losing all control\")+\".",
     "translation": "",
-    "context": "<<POS:24505780>>"
+    "context": "<<POS:24505784>>"
   },
   {
-    "key": "output|n_nYou_can_t_help_but_relish_the_way_she_arches_back_into_you|ed1ab6523f3d",
-    "original": "\\n\\nYou can’t help but relish the way she arches back into you, her tail flicking a lascivious challenge. A single pause is all the warning you give before hefting your second dick up and breaching the meek loop of her anus.\\n\\n<i>“Oooh? Feelin’ adventurous, stud?”</i>\\n\\nThat yelp as you pierce her is like music to your ears – it’s crude, it’s guttural, and damn if it doesn’t turn you on even more.\"+(jV()?\" Maybe you can find her prostate?\":\"\")",
+    "key": "output|You_can_t_help_but_relish_the_way_she_arches_back_into_you_her|139c612f232e",
+    "original": "You can’t help but relish the way she arches back into you, her tail flicking a lascivious challenge. A single pause is all the warning you give before hefting your second dick up and breaching the meek loop of her anus.\\n\\n<i>“Oooh? Feelin’ adventurous, stud?”</i>\\n\\nThat yelp as you pierce her is like music to your ears – it’s crude, it’s guttural, and damn if it doesn’t turn you on even more.\"+(jV()?\" Maybe you can find her prostate?\":\"\")",
     "translation": "",
-    "context": "<<POS:24506423>>"
+    "context": "<<POS:24506427>>"
   },
   {
-    "key": "output|n_nThe_plunge_into_her_backdoor_immerses_you_in_the_snug_pinch|b40e21aa17d9",
-    "original": "\\n\\nThe plunge into her backdoor immerses you in the snug pinch of her rear passage. It’s an unholy fit, each pulse of your [pc.cockNoun \"+a+\"] felt intimately by her sphincter. The pressure against her smooth pucker elicits a sound that perfectly underscores the depravity of this moment. This feline vixen isn’t just being double-filled with relentless fervor; oh no, she’s fast becoming your lewd trophy. With each messy thrust, with every potent drive deep into both her holes, you’re marking her body as a testament to your absolute authority.",
+    "key": "output|The_plunge_into_her_backdoor_immerses_you_in_the_snug_pinch_of_h|1ac348e016c5",
+    "original": "The plunge into her backdoor immerses you in the snug pinch of her rear passage. It’s an unholy fit, each pulse of your [pc.cockNoun \"+a+\"] felt intimately by her sphincter. The pressure against her smooth pucker elicits a sound that perfectly underscores the depravity of this moment. This feline vixen isn’t just being double-filled with relentless fervor; oh no, she’s fast becoming your lewd trophy. With each messy thrust, with every potent drive deep into both her holes, you’re marking her body as a testament to your absolute authority.",
     "translation": "",
-    "context": "<<POS:24506882>>"
+    "context": "<<POS:24506886>>"
   },
   {
-    "key": "output|n_nNot_wasting_anymore_time_you_barge_into_her_from_behind_lik|875d11e3189c",
-    "original": "\\n\\nNot wasting anymore time, you barge into her from behind like a beast unleashed, your mind spinning with raw, carnal thoughts of flooding her womb and claiming her as one of many more to come. Her back arches and she looks back at you with lust-blown eyes, her tail twitching in rhythm as you take charge of her very being. You can almost hear the purrs of submission mix with whimpers of surrender as your thrusts deepen.",
+    "key": "output|Not_wasting_anymore_time_you_barge_into_her_from_behind_like_a|59f62db97cd6",
+    "original": "Not wasting anymore time, you barge into her from behind like a beast unleashed, your mind spinning with raw, carnal thoughts of flooding her womb and claiming her as one of many more to come. Her back arches and she looks back at you with lust-blown eyes, her tail twitching in rhythm as you take charge of her very being. You can almost hear the purrs of submission mix with whimpers of surrender as your thrusts deepen.",
     "translation": "",
-    "context": "<<POS:24507455>>"
+    "context": "<<POS:24507459>>"
   },
   {
-    "key": "output|n_nYou_barely_notice_the_wetness_splashing_against_your_pc_ski|99eea23bbbb5",
-    "original": "\\n\\nYou barely notice the wetness splashing against your [pc.skinFurScalesNoun] as she climaxes hard on <i>your cock</i>. She’s a mess beneath you, gasping, moaning, practically worshiping you with the way she calls out for more. Her words become white noise; all that matters is the sweet friction lighting up every vein in your body in every urgent stroke.",
+    "key": "output|You_barely_notice_the_wetness_splashing_against_your_pc_skinFur|675b241e99e3",
+    "original": "You barely notice the wetness splashing against your [pc.skinFurScalesNoun] as she climaxes hard on <i>your cock</i>. She’s a mess beneath you, gasping, moaning, practically worshiping you with the way she calls out for more. Her words become white noise; all that matters is the sweet friction lighting up every vein in your body in every urgent stroke.",
     "translation": "",
-    "context": "<<POS:24507892>>"
+    "context": "<<POS:24507896>>"
   },
   {
-    "key": "output|n_nWith_each_forceful_plow_of_your_hips_you_re_branding_her_in|39a9b9c27c33",
-    "original": "\\n\\nWith each forceful plow of your hips, you’re branding her insides with a primal need, a desire so intense for offspring that it verges on outright mania. The heat inside of you redirects every ounce of your willpower as you become an avatar of virility, an irrepressible entity solely focused on propagation. As she quivers around your hardness, begging mindlessly for your seed, your instincts possess you entirely. No longer are you simply [pc.name], you are a living symbol of fertility.",
+    "key": "output|With_each_forceful_plow_of_your_hips_you_re_branding_her_inside|9503e6e7b50c",
+    "original": "With each forceful plow of your hips, you’re branding her insides with a primal need, a desire so intense for offspring that it verges on outright mania. The heat inside of you redirects every ounce of your willpower as you become an avatar of virility, an irrepressible entity solely focused on propagation. As she quivers around your hardness, begging mindlessly for your seed, your instincts possess you entirely. No longer are you simply [pc.name], you are a living symbol of fertility.",
     "translation": "",
-    "context": "<<POS:24508261>>"
+    "context": "<<POS:24508265>>"
   },
   {
-    "key": "output|n_nYou_revel_in_this_primitive_mating_powering_forward_between|113910a2832c",
-    "original": "\\n\\nYou revel in this primitive mating, powering forward between walls that were never meant to withstand a ravaging like this, walls that are remolding to fit every inch of you perfectly as if her very nerves themselves recognized your supremacy in this animalistic coupling. Finally at your apex, ecstasy pooling in your gut, you unleash yourself inside her, cum gorging your inner plumbing. She’s utterly yours now, a vessel to your legacy. And in this frenzy, she doesn’t just accept it; she yearns for it.",
+    "key": "output|You_revel_in_this_primitive_mating_powering_forward_between_wal|01b117b060b1",
+    "original": "You revel in this primitive mating, powering forward between walls that were never meant to withstand a ravaging like this, walls that are remolding to fit every inch of you perfectly as if her very nerves themselves recognized your supremacy in this animalistic coupling. Finally at your apex, ecstasy pooling in your gut, you unleash yourself inside her, cum gorging your inner plumbing. She’s utterly yours now, a vessel to your legacy. And in this frenzy, she doesn’t just accept it; she yearns for it.",
     "translation": "",
-    "context": "<<POS:24508766>>"
+    "context": "<<POS:24508770>>"
   },
   {
-    "key": "output|n_nYou_drive_yourself_deep_into_your_favorite_feline_arching_y|ed32859fe5d4",
-    "original": "\\n\\nYou drive yourself deep into your favorite feline, arching your back as hues of pink and crimson infringe on your sight. You growl back at her feral provocations, the frenetic overstimulation crashing down upon you like relentless waves. Your climax builds to a bone-rattling intensity. As the peak approaches, the base of your crotch mashes against her womanhood.",
+    "key": "output|You_drive_yourself_deep_into_your_favorite_feline_arching_your|b49ac3d68232",
+    "original": "You drive yourself deep into your favorite feline, arching your back as hues of pink and crimson infringe on your sight. You growl back at her feral provocations, the frenetic overstimulation crashing down upon you like relentless waves. Your climax builds to a bone-rattling intensity. As the peak approaches, the base of your crotch mashes against her womanhood.",
     "translation": "",
-    "context": "<<POS:24509289>>"
+    "context": "<<POS:24509293>>"
   },
   {
     "key": "output|You_seal_the_deal_with_one_more_firm_impact_driving_your_knot|cfbcda0be0dc",
@@ -1158,10 +1254,10 @@
     "context": "<<POS:24509845>>"
   },
   {
-    "key": "output|n_nYour_mind_is_nothing_but_a_lust_hazed_maelstrom_as_pc_cum|0528f509dade",
-    "original": "\\n\\nYour mind is nothing but a lust-hazed maelstrom as [pc.cum] pumps into the pirate. [pc.CumVisc] ropes of hot seed blast deep, staining her inner walls with every flash of release. You can feel each throbbing pulse of your cock as it spurts, drenching her quivering pussy in what she most needs \"+(a>=0?\"while splitting the payload halfway to flood her rectum\":\"\")+\".",
+    "key": "output|Your_mind_is_nothing_but_a_lust_hazed_maelstrom_as_pc_cum_pump|b835ca807567",
+    "original": "Your mind is nothing but a lust-hazed maelstrom as [pc.cum] pumps into the pirate. [pc.CumVisc] ropes of hot seed blast deep, staining her inner walls with every flash of release. You can feel each throbbing pulse of your cock as it spurts, drenching her quivering pussy in what she most needs \"+(a>=0?\"while splitting the payload halfway to flood her rectum\":\"\")+\".",
     "translation": "",
-    "context": "<<POS:24509973>>"
+    "context": "<<POS:24509977>>"
   },
   {
     "key": "output|You_feel_your_sack_tighten_each_rhythmic_contraction_churning|f6dde8addd42",
@@ -1176,40 +1272,40 @@
     "context": "<<POS:24510485>>"
   },
   {
-    "key": "output|n_nMeanwhile_her_own_spooge_sprays_out_of_control_bloating_im|fb35d113b02b",
-    "original": "\\n\\nMeanwhile, her own spooge sprays out of control, bloating imaginary pussies and throats in fountains of cum, almost as if she were spraying out everything you jerkily work into her.",
+    "key": "output|Meanwhile_her_own_spooge_sprays_out_of_control_bloating_imagin|30eb6cf1cbff",
+    "original": "Meanwhile, her own spooge sprays out of control, bloating imaginary pussies and throats in fountains of cum, almost as if she were spraying out everything you jerkily work into her.",
     "translation": "",
-    "context": "<<POS:24510828>>"
+    "context": "<<POS:24510832>>"
   },
   {
-    "key": "output|n_nGasping_for_air_as_a_veritable_tsunami_of_jizz_rushes_forth|b1e32802bba6",
-    "original": "\\n\\nGasping for air as a veritable tsunami of jizz rushes forth, you feel as though you’re nutting enough to kickstart a new genesis. You slam into the feline bombshell, your ejaculative fervor so far undiminished, watching her plush physique lose any semblance of tightness to the bloating tides of [pc.cumNoun]. She absorbs it all, every last drop. With each thrust, more spills out than goes in, but you can be certain of one thing: her womb is <i>swimming in sperm.</i> A creeping fatigue wraps around your muscles like chains, your lust dimming under the weight of exhaustion. You’re on the downhill now, and yet, the draw to pull out seems like a distant thought, overruled by the need to fill her even more.",
+    "key": "output|Gasping_for_air_as_a_veritable_tsunami_of_jizz_rushes_forth_you|d3ea365822ee",
+    "original": "Gasping for air as a veritable tsunami of jizz rushes forth, you feel as though you’re nutting enough to kickstart a new genesis. You slam into the feline bombshell, your ejaculative fervor so far undiminished, watching her plush physique lose any semblance of tightness to the bloating tides of [pc.cumNoun]. She absorbs it all, every last drop. With each thrust, more spills out than goes in, but you can be certain of one thing: her womb is <i>swimming in sperm.</i> A creeping fatigue wraps around your muscles like chains, your lust dimming under the weight of exhaustion. You’re on the downhill now, and yet, the draw to pull out seems like a distant thought, overruled by the need to fill her even more.",
     "translation": "",
-    "context": "<<POS:24511041>>"
+    "context": "<<POS:24511045>>"
   },
   {
-    "key": "output|n_nThe_cock_you_ve_lodged_deep_in_her_now_cum_gaped_ass_throbs|4f56e864f7da",
-    "original": "\\n\\nThe cock you’ve lodged deep in her now-cum-gaped ass throbs with the same ardor, and pretty soon, you see your [pc.cumNoun] launching from her mouth as you cum <b>all the way through.</b> Fuck...",
+    "key": "output|The_cock_you_ve_lodged_deep_in_her_now_cum_gaped_ass_throbs_with|263d67483bb4",
+    "original": "The cock you’ve lodged deep in her now-cum-gaped ass throbs with the same ardor, and pretty soon, you see your [pc.cumNoun] launching from her mouth as you cum <b>all the way through.</b> Fuck...",
     "translation": "",
-    "context": "<<POS:24511772>>"
+    "context": "<<POS:24511776>>"
   },
   {
-    "key": "output|n_nYour_cyber_rod_thrums_with_raw_electrifying_sensations_eac|27bdaa23a169",
-    "original": "\\n\\nYour cyber-rod thrums with raw, electrifying sensations, each pulse threatening to rewire your whole damn pleasure matrix. The feline vixen’s stranglehold on you milks your techno-shaft. The relentless intensity and unabating pressure has you spiraling down a wormhole of sensory overload from which your only salvation is the off switch. You’re left gasping as if you were a porn star caterwauling mid-money shot; as if your brain just rebooted and dumped you in the climax without any buildup.",
+    "key": "output|Your_cyber_rod_thrums_with_raw_electrifying_sensations_each_pu|20fee0bb1050",
+    "original": "Your cyber-rod thrums with raw, electrifying sensations, each pulse threatening to rewire your whole damn pleasure matrix. The feline vixen’s stranglehold on you milks your techno-shaft. The relentless intensity and unabating pressure has you spiraling down a wormhole of sensory overload from which your only salvation is the off switch. You’re left gasping as if you were a porn star caterwauling mid-money shot; as if your brain just rebooted and dumped you in the climax without any buildup.",
     "translation": "",
-    "context": "<<POS:24511985>>"
+    "context": "<<POS:24511989>>"
   },
   {
-    "key": "output|n_nYou_are_twitching_uncontrollably|32e4f00ec60f",
-    "original": "\\n\\nYou are twitching... uncontrollably.",
+    "key": "output|You_are_twitching_uncontrollably|815a795d3b9a",
+    "original": "You are twitching... uncontrollably.",
     "translation": "",
-    "context": "<<POS:24512495>>"
+    "context": "<<POS:24512499>>"
   },
   {
-    "key": "button|Next|3d8e9183dbb5",
+    "key": "button|Next|aa3b0d1e2e4b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:24512696>>"
+    "context": "<<POS:24512696>> addButton(0,\"Next\",fK)"
   },
   {
     "key": "output|textify_AV_AV_0_Ce_Z_If_you_take_another_hit_like_that_yo|3ad4c5f75274",
@@ -1221,7 +1317,7 @@
     "key": "button|Next|e3294619c37b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:24514980>>"
+    "context": "<<POS:24514980>> addButton(0,\"Next\",rK)"
   },
   {
     "key": "output|textify_EV_EV_0_Ce_Z_The_hand_teasing_your_chest_suddenly|7b91e93153e8",
@@ -1242,10 +1338,10 @@
     "context": "<<POS:24516229>>"
   },
   {
-    "key": "output|n_n_textify_CV_CV_0_Ce_Z_i_Mmmf_you_ve_got_some_talen|1c8e19fc3696",
-    "original": "\\n\\n\"+textify(CV||(CV=(0,Ce.Z)([\"<i>“Mmmf, you’ve got some talent,”</i> the kitty murmurs, rocking her hips on your face. <i>“I can tell - I’m a regular connoisseur of mouth stuff. So show me what you can do, and maybe I’ll just [silly|cum|come] away satisfied...”</i>\\n\\n\\tWell if that means you get a discount on the robbery, that’s some real encouragement. You sink your fingers into her bodysuit’s thighs, pulling her down and pushing \"])))",
+    "key": "output|textify_CV_CV_0_Ce_Z_i_Mmmf_you_ve_got_some_talent|9929368734f7",
+    "original": "\"+textify(CV||(CV=(0,Ce.Z)([\"<i>“Mmmf, you’ve got some talent,”</i> the kitty murmurs, rocking her hips on your face. <i>“I can tell - I’m a regular connoisseur of mouth stuff. So show me what you can do, and maybe I’ll just [silly|cum|come] away satisfied...”</i>\\n\\n\\tWell if that means you get a discount on the robbery, that’s some real encouragement. You sink your fingers into her bodysuit’s thighs, pulling her down and pushing \"])))",
     "translation": "",
-    "context": "<<POS:24516731>>"
+    "context": "<<POS:24516735>>"
   },
   {
     "key": "output|her_into_your_maw_You_suckle_gently|7dd5d0284652",
@@ -1290,13 +1386,13 @@
     "context": "<<POS:24518970>>"
   },
   {
-    "key": "output|n_n_i_That_s_a_good_suckslut_i_the_futanari_feline_purrs_h|1a40b2757324",
-    "original": "\\n\\n<i>“That’s a good suckslut,”</i> the futanari feline purrs huskily. She gets harsh again, yanking your head around in small circles to press herself against as much of your mouth as she can. <i>“Mmmmph that’s a hot little throat.”</i> She yanks you back\"+(pc.hasHair()&&pc.hairLength>2?\" by your hair\":\"\")+\" until it’s like you’re kissing at her crown once more, furtively stealing breaths of fresh air while you can. <i>“You wanted this, didn’tcha? It’s why you gave it to me in the first place, right? You wanted the big bad pirate kitten to turn your uvula into a pancake and put you in your place.”</i>\\n\\n",
+    "key": "output|i_That_s_a_good_suckslut_i_the_futanari_feline_purrs_huski|060b2931dc5d",
+    "original": "<i>“That’s a good suckslut,”</i> the futanari feline purrs huskily. She gets harsh again, yanking your head around in small circles to press herself against as much of your mouth as she can. <i>“Mmmmph that’s a hot little throat.”</i> She yanks you back\"+(pc.hasHair()&&pc.hairLength>2?\" by your hair\":\"\")+\" until it’s like you’re kissing at her crown once more, furtively stealing breaths of fresh air while you can. <i>“You wanted this, didn’tcha? It’s why you gave it to me in the first place, right? You wanted the big bad pirate kitten to turn your uvula into a pancake and put you in your place.”</i>",
     "translation": "",
-    "context": "<<POS:24519164>>"
+    "context": "<<POS:24519168>>"
   },
   {
-    "key": "output|textify_LV_LV_0_Ce_Z_You_nod_cheeks_carefully_hollowed_wi|5389d9ade1a2",
+    "key": "output|textify_LV_LV_0_Ce_Z_You_nod_cheeks_carefully_hollowed_wi|6d1fa0ff94c8",
     "original": "textify(LV||(LV=(0,Ce.Z)([\"You nod, cheeks carefully hollowed with vacuum. It wouldn’t do to let your eager assent distract you from the yummy treat you’re sucking. It might offend the pirate! Instead you look up at her, batting your eyelashes as you vigorously nod, feathering your tongue along her tip to the tempo of your up-and-down bob. Does more and more of that virile feline dick slip into you with each nod? Probably. Your body sucks cock on automatic. Letting more dick slide into your throat feels as natural as breathing, more even.\\n\\n\\t\\t\\tYour eyes roll back, and you forget all about what she was saying.\\n\\n\\t\\t\\t<i>This dick has 100% of your focus.</i> You drool a little harder . <i>Maybe she’ll fuck your face more.</i>\"])))",
     "translation": "",
     "context": "<<POS:24519801>>"
@@ -1308,40 +1404,40 @@
     "context": "<<POS:24520554>>"
   },
   {
-    "key": "output|n_nThe_cybernetic_cheetah_gasps_in_sudden_pleasure_i_Stars_t|23ae9e636729",
-    "original": "\\n\\nThe cybernetic cheetah gasps in sudden pleasure. <i>“Stars that’s it... I’m keeping this dick,”</i> she announces. Her tail whips back and forth in agitation as she resets her two-handed grip on your head. <i>“And I’m gonna find you and fuck a load into your face again... and again.”</i> She yanks you down. It’s easier now, with your throat carpetted by her a soup of spit and pre. <i>“Gonna fuck so many loads into you... feed you so much cum you don’t even head into port to restock.”</i> She scissors you up and down, faster and faster. Flecks of spit fly from the corners of your mouth as you’re roughly used. <i>“You’re gonna come out and find me next time you’re hungry, eh?”</i>",
+    "key": "output|The_cybernetic_cheetah_gasps_in_sudden_pleasure_i_Stars_that|3927227024a1",
+    "original": "The cybernetic cheetah gasps in sudden pleasure. <i>“Stars that’s it... I’m keeping this dick,”</i> she announces. Her tail whips back and forth in agitation as she resets her two-handed grip on your head. <i>“And I’m gonna find you and fuck a load into your face again... and again.”</i> She yanks you down. It’s easier now, with your throat carpetted by her a soup of spit and pre. <i>“Gonna fuck so many loads into you... feed you so much cum you don’t even head into port to restock.”</i> She scissors you up and down, faster and faster. Flecks of spit fly from the corners of your mouth as you’re roughly used. <i>“You’re gonna come out and find me next time you’re hungry, eh?”</i>",
     "translation": "",
-    "context": "<<POS:24521610>>"
+    "context": "<<POS:24521614>>"
   },
   {
-    "key": "output|n_nYou_gurgle_a_half_breath_half_assent_during_one_of_the_back|2c04ee450fae",
-    "original": "\\n\\nYou gurgle a half-breath, half-assent during one of the backstrokes.\"+(pc.isBimbo()?\" Stars that sounds so fucking... yummy!\":\" Did you mean to do that?\")",
+    "key": "output|You_gurgle_a_half_breath_half_assent_during_one_of_the_backstro|ff7c532cbb00",
+    "original": "You gurgle a half-breath, half-assent during one of the backstrokes.\"+(pc.isBimbo()?\" Stars that sounds so fucking... yummy!\":\" Did you mean to do that?\")",
     "translation": "",
-    "context": "<<POS:24522312>>"
+    "context": "<<POS:24522316>>"
   },
   {
-    "key": "output|n_nCackling_like_the_a_hyena_your_captor_stops_trying_to_hold|5812a53c6f88",
-    "original": "\\n\\nCackling like the a hyena, your captor stops trying to hold any semblance of conversation with you. She uses you. Savagely pounding against your [pc.lips], she makes a mess of you. Drool smears your cheeks. Tears run freely from the corners of your eyes\"+(pc.isBimbo()?\" - tears of joy. This is heaven - how you wish every encounter out here on the rim could end. Life is a parade of dicks waiting to be sucked! Why would you avoid it when it feels this good?!\":\".\")",
+    "key": "output|Cackling_like_the_a_hyena_your_captor_stops_trying_to_hold_any|2e16c40da54e",
+    "original": "Cackling like the a hyena, your captor stops trying to hold any semblance of conversation with you. She uses you. Savagely pounding against your [pc.lips], she makes a mess of you. Drool smears your cheeks. Tears run freely from the corners of your eyes\"+(pc.isBimbo()?\" - tears of joy. This is heaven - how you wish every encounter out here on the rim could end. Life is a parade of dicks waiting to be sucked! Why would you avoid it when it feels this good?!\":\".\")",
     "translation": "",
-    "context": "<<POS:24522480>>"
+    "context": "<<POS:24522484>>"
   },
   {
-    "key": "output|n_nAside_from_the_stuttering_thrum_of_your_vessel_s_reactor_th|84dad21a91c6",
-    "original": "\\n\\nAside from the stuttering thrum of your vessel’s reactor, the only sounds in the hallway are the pirate’s pants of exertion and the lurid slaps of your abused maw clapping into her slobbery thighs. You’ve seen vids like this on the extranet - girls with their mascara streaming down their face while someone fucks their face raw and hard, pounding an arm-sized cock so deep into their body that it looks like it should hurt.\\n\\nIt doesn’t. It feels full. Satisfying in a way.\\n\\nYou gurgle happily - dizzily? How long has it been since you breathed. Your sopping lips brush the cat’s fur five or six more times. Concern floats away. She’s throbbing hard. Her flesh is rock-solid, and ribbons of sweet pre grace your tastebuds on her backstrokes.\\n\\nAnd then your cheeks are full of jism. Your throat stretches around a dickhead that’s suddenly a full half-inch thicker as it rams in, sealing itself into your stomach. While ribbons of white roll down your chin, a deluge of spermy goodness puddles in your gut. Each ejaculation is a shotglass full of the hottiest, spunkiest drink you could ask for, and the fuzzy bartender is feeding you the whole bottle.\\n\\nYour eyes closed, warm. It feels like you’re soaking in her satisfaction. Those heavy, belly-distending spurts are liquid proof of a job well done. Whatever your failures as a starfighter, you’ll always be a top-class cum-dump.",
+    "key": "output|Aside_from_the_stuttering_thrum_of_your_vessel_s_reactor_the_on|072682d81b03",
+    "original": "Aside from the stuttering thrum of your vessel’s reactor, the only sounds in the hallway are the pirate’s pants of exertion and the lurid slaps of your abused maw clapping into her slobbery thighs. You’ve seen vids like this on the extranet - girls with their mascara streaming down their face while someone fucks their face raw and hard, pounding an arm-sized cock so deep into their body that it looks like it should hurt.\\n\\nIt doesn’t. It feels full. Satisfying in a way.\\n\\nYou gurgle happily - dizzily? How long has it been since you breathed. Your sopping lips brush the cat’s fur five or six more times. Concern floats away. She’s throbbing hard. Her flesh is rock-solid, and ribbons of sweet pre grace your tastebuds on her backstrokes.\\n\\nAnd then your cheeks are full of jism. Your throat stretches around a dickhead that’s suddenly a full half-inch thicker as it rams in, sealing itself into your stomach. While ribbons of white roll down your chin, a deluge of spermy goodness puddles in your gut. Each ejaculation is a shotglass full of the hottiest, spunkiest drink you could ask for, and the fuzzy bartender is feeding you the whole bottle.\\n\\nYour eyes closed, warm. It feels like you’re soaking in her satisfaction. Those heavy, belly-distending spurts are liquid proof of a job well done. Whatever your failures as a starfighter, you’ll always be a top-class cum-dump.",
     "translation": "",
-    "context": "<<POS:24522960>>"
+    "context": "<<POS:24522964>>"
   },
   {
-    "key": "output|n_n_i_Take_it_all_i_the_fluffy_scoundrel_growls_grinding|aec4ce291e3d",
-    "original": "\\n\\n<i>“Take it all!”</i> the fluffy scoundrel growls, grinding her pubic mound against your chin.\\n\\nYou revel in it, luxuriating in the fervent press of her straining urethra against your tongue, delighting in the feeling of it stretching something inside you before the blossoming of belly-filling, sticky heat suffuses you. Your hands collapse to your belly, stroking it, feeling it bulge. Maybe you shouldn’t be delighting in feeling it wobble from having your stomach so thoroughly impregnated, but here you are: a dizzy \"+pc.mf(\"tool\",\"slut\")+\" cradling your middle like it’s the best treat in the galaxy.\\n\\nYou barely feel her push you off - and she has to push you off. Semi-conscious, some part of you was determined to keep smushing half-kisses into her sodden pubic hairs. You slide off with a gurgle and a heavy thump, barely feeling the floor.\\n\\nSweet, sweet oxygen fills your lungs, stained with the sinful aroma of freebooter dick. Its taste lingers on your tongue, and its texture flutters through your brain, seared into the synapses. You kind of want to kiss it again, but <i>you’re so full...</i>",
+    "key": "output|i_Take_it_all_i_the_fluffy_scoundrel_growls_grinding_her|3d10634dbf4d",
+    "original": "<i>“Take it all!”</i> the fluffy scoundrel growls, grinding her pubic mound against your chin.\\n\\nYou revel in it, luxuriating in the fervent press of her straining urethra against your tongue, delighting in the feeling of it stretching something inside you before the blossoming of belly-filling, sticky heat suffuses you. Your hands collapse to your belly, stroking it, feeling it bulge. Maybe you shouldn’t be delighting in feeling it wobble from having your stomach so thoroughly impregnated, but here you are: a dizzy \"+pc.mf(\"tool\",\"slut\")+\" cradling your middle like it’s the best treat in the galaxy.\\n\\nYou barely feel her push you off - and she has to push you off. Semi-conscious, some part of you was determined to keep smushing half-kisses into her sodden pubic hairs. You slide off with a gurgle and a heavy thump, barely feeling the floor.\\n\\nSweet, sweet oxygen fills your lungs, stained with the sinful aroma of freebooter dick. Its taste lingers on your tongue, and its texture flutters through your brain, seared into the synapses. You kind of want to kiss it again, but <i>you’re so full...</i>",
     "translation": "",
-    "context": "<<POS:24524362>>"
+    "context": "<<POS:24524366>>"
   },
   {
-    "key": "output|n_n_i_Mmm_I_guess_I_ll_let_you_off_with_a_warning_this_time|eac3d990f8e1",
-    "original": "\\n\\n<i>“Mmm, I guess I’ll let you off with a warning this time,”</i> the kitty murmurs, licking her fingers clean. <i>“Better watch your ass next time, or who knows what might happen.”</i>\\n\\nShe flicks your nose and rises up into a stretch. You’re left laid out on the deck, too dizzy and full to care that she’s emptying out your fridge before zipping back up and leaping back out your airlock.\\n\\nIt takes a few minutes to work up the energy to get off the floor and get cleaned up. By then, the cheetah-slut’s ship is long gone.",
+    "key": "output|i_Mmm_I_guess_I_ll_let_you_off_with_a_warning_this_time_i|3951c1b8ad07",
+    "original": "<i>“Mmm, I guess I’ll let you off with a warning this time,”</i> the kitty murmurs, licking her fingers clean. <i>“Better watch your ass next time, or who knows what might happen.”</i>\\n\\nShe flicks your nose and rises up into a stretch. You’re left laid out on the deck, too dizzy and full to care that she’s emptying out your fridge before zipping back up and leaping back out your airlock.\\n\\nIt takes a few minutes to work up the energy to get off the floor and get cleaned up. By then, the cheetah-slut’s ship is long gone.",
     "translation": "",
-    "context": "<<POS:24525491>>"
+    "context": "<<POS:24525495>>"
   },
   {
     "key": "output|your_tongue_up_into_her_folds_You_lick_her_thoroughly|99853c7f07fe",
@@ -1386,10 +1482,10 @@
     "context": "<<POS:24527209>>"
   },
   {
-    "key": "output|n_n_textify_IV_IV_0_Ce_Z_So_she_s_looking_for_mutual_sat|43d96c37f0de",
-    "original": "\\n\\n\"+textify(IV||(IV=(0,Ce.Z)([\"So she’s looking for mutual satisfaction, now? You can’t say you mind - being lip-locked with her \"])))",
+    "key": "output|textify_IV_IV_0_Ce_Z_So_she_s_looking_for_mutual_satisfa|c77fb29a3873",
+    "original": "\"+textify(IV||(IV=(0,Ce.Z)([\"So she’s looking for mutual satisfaction, now? You can’t say you mind - being lip-locked with her \"])))",
     "translation": "",
-    "context": "<<POS:24527252>>"
+    "context": "<<POS:24527256>>"
   },
   {
     "key": "output|textify_BV_BV_0_Ce_Z_twat_s_got_you_steaming_hot_yourself|2b7ba3511552",
@@ -1398,28 +1494,22 @@
     "context": "<<POS:24527397>>"
   },
   {
-    "key": "output|n_n_textify_NV_NV_0_Ce_Z_Right_wasn_t_she_the_one_that|fd52b0df2323",
-    "original": "\\n\\n\"+textify(NV||(NV=(0,Ce.Z)([\"Right, wasn’t she the one that attacked you first? You give her thighs a petulant squeeze, but that only makes her fingerfuck you harder - and push more ass down on you, momentarily suffocating you in booty. When she relents, your face smells inescapably of musky beast-pussy, and your lips are slathered in her juices. It’s enough to make your mind feel like a warm, numb nothing. All there is to think about is eating her out.\\n\\n\\t\\tAnd so you do so with gusto, thrusting your tongue up all the more devotedly. The perky pirate’s pussy welcomes you with quickening contractions, and more juice with every passing minute. Your tongue’s gliding through her before long, and you can hear her breath quickening - when she’s not muffling your whole face in her ass, anyway. She [pc.hasCock|pumps your dick|fingers your quim] and grinds her hips in your [pc.face], bringing both of you rocketing closer to climax by the second.\\n\\t\\n\\t\\tShe cums first, as befits the victor, throwing her head back with a feral yowl and drenching your cheeks in pussyjuices. Her muscles tense wildly around your [pc.tongue], overbearing your senses with her earthy taste. Your own hips buck against her hands, [pc.hasCock|thrusting your dick into her hand|humping against her fingers] - and she responds in kind, moving her hand more vigorously until you’re gasping into her muff and all the muscles in your [pc.legOrLegs] are spasming wildly. You cum all over her gloved hands, and she outright rewards you with a pleased purr you can feel all the way through her vaginal walls. Her hands don’t stop moving until you’ve spent yourself all over them, and your own face is glistening - when it’s not smothered in her fluffy ass.\\n\\t\\n\\t\\t<i>“Mmm, I guess I’ll let you off with a warning this time,”</i> the kitty murmurs, licking her fingers clean. <i>“Better watch your ass next time, or who knows what might happen.”</i>\\n\\t\\n\\t\\tShe flicks a wet finger between your asscheeks and pulls herself to her feet. You’re left laid out on the deck, covered in musk and effluvia, as the pirate babe helps herself to the contents of your fridge before zipping back up and leaping back out your airlock.\\n\\t\\t\\n\\t\\tIt takes a few minutes to work up the energy to get off the floor and get cleaned up. By then, the cheetah-slut’s ship is long gone.\"])))",
+    "key": "output|textify_NV_NV_0_Ce_Z_Right_wasn_t_she_the_one_that_atta|87b70eaada26",
+    "original": "\"+textify(NV||(NV=(0,Ce.Z)([\"Right, wasn’t she the one that attacked you first? You give her thighs a petulant squeeze, but that only makes her fingerfuck you harder - and push more ass down on you, momentarily suffocating you in booty. When she relents, your face smells inescapably of musky beast-pussy, and your lips are slathered in her juices. It’s enough to make your mind feel like a warm, numb nothing. All there is to think about is eating her out.\\n\\n\\t\\tAnd so you do so with gusto, thrusting your tongue up all the more devotedly. The perky pirate’s pussy welcomes you with quickening contractions, and more juice with every passing minute. Your tongue’s gliding through her before long, and you can hear her breath quickening - when she’s not muffling your whole face in her ass, anyway. She [pc.hasCock|pumps your dick|fingers your quim] and grinds her hips in your [pc.face], bringing both of you rocketing closer to climax by the second.\\n\\t\\n\\t\\tShe cums first, as befits the victor, throwing her head back with a feral yowl and drenching your cheeks in pussyjuices. Her muscles tense wildly around your [pc.tongue], overbearing your senses with her earthy taste. Your own hips buck against her hands, [pc.hasCock|thrusting your dick into her hand|humping against her fingers] - and she responds in kind, moving her hand more vigorously until you’re gasping into her muff and all the muscles in your [pc.legOrLegs] are spasming wildly. You cum all over her gloved hands, and she outright rewards you with a pleased purr you can feel all the way through her vaginal walls. Her hands don’t stop moving until you’ve spent yourself all over them, and your own face is glistening - when it’s not smothered in her fluffy ass.\\n\\t\\n\\t\\t<i>“Mmm, I guess I’ll let you off with a warning this time,”</i> the kitty murmurs, licking her fingers clean. <i>“Better watch your ass next time, or who knows what might happen.”</i>\\n\\t\\n\\t\\tShe flicks a wet finger between your asscheeks and pulls herself to her feet. You’re left laid out on the deck, covered in musk and effluvia, as the pirate babe helps herself to the contents of your fridge before zipping back up and leaping back out your airlock.\\n\\t\\t\\n\\t\\tIt takes a few minutes to work up the energy to get off the floor and get cleaned up. By then, the cheetah-slut’s ship is long gone.\"])))",
     "translation": "",
-    "context": "<<POS:24528174>>"
+    "context": "<<POS:24528178>>"
   },
   {
-    "key": "output|n_n|c512cd780689",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:24530612>>"
-  },
-  {
-    "key": "perk|Fixed_CumQ|8a565f38a9b5",
+    "key": "perk|Fixed_CumQ|9da4791c5b4c",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:24530681>>"
+    "context": "<<POS:24530681>> createPerk(\"Fixed CumQ\",42069)"
   },
   {
     "key": "name.show|Penny|85f26e867e5e",
     "original": "Penny...",
     "translation": "",
-    "context": "<<POS:24530936>>"
+    "context": "<<POS:24530936>> showName(\"Penny...\")"
   },
   {
     "key": "output|While_you_wait_at_the_airlock_for_the_pirate_s_short_spacewalk_t|39144cc117fe",
@@ -1428,22 +1518,22 @@
     "context": "<<POS:24530955>>"
   },
   {
-    "key": "output|n_nYou_gleefully_rub_the_fennec_cum_slut_s_ass_and_ogle_how_her|6715dc4757ab",
-    "original": "\\n\\nYou gleefully rub the fennec cum-slut’s ass and ogle how her tits bounce, unbound and as free as the love Penny so gleefully dispenses. <i>“Nah, I’m gonna have this pirate slut suck your cock.”</i>\\n\\nPenny throbs. <i>“Really?”</i> Dribbles impact between the fox’s paws at first, but increasing forward, slinging hot ropes of steaming pre at the base of the wall. Your pet jizz-junkie’s eyelids flutter while she sucks on one \"+(penny.isBimbo()?\"bimbo-fattened lip\":\"of her inky onyx lips\")+\". <i>“What a lucky girl! She must have been\"+(penny.isBimbo()?\" like,\":\"\")+\" really good to get to drink this much cum.”</i> She can’t keep her hands off of herself, stroking down her silk-furred tummy to her loins. One hand massages the border of the sensitive sheath. The other squeezes slowly from medial ring to flaring tip, milking out thicker and thicker flows of pre-cum into her expanding puddle. <i>“I fuckin’ love cum! Promise me I’ll get to drink a huge fucking load of it later, ‘kay?”</i>",
+    "key": "output|You_gleefully_rub_the_fennec_cum_slut_s_ass_and_ogle_how_her_tit|7e63dfb774a7",
+    "original": "You gleefully rub the fennec cum-slut’s ass and ogle how her tits bounce, unbound and as free as the love Penny so gleefully dispenses. <i>“Nah, I’m gonna have this pirate slut suck your cock.”</i>\\n\\nPenny throbs. <i>“Really?”</i> Dribbles impact between the fox’s paws at first, but increasing forward, slinging hot ropes of steaming pre at the base of the wall. Your pet jizz-junkie’s eyelids flutter while she sucks on one \"+(penny.isBimbo()?\"bimbo-fattened lip\":\"of her inky onyx lips\")+\". <i>“What a lucky girl! She must have been\"+(penny.isBimbo()?\" like,\":\"\")+\" really good to get to drink this much cum.”</i> She can’t keep her hands off of herself, stroking down her silk-furred tummy to her loins. One hand massages the border of the sensitive sheath. The other squeezes slowly from medial ring to flaring tip, milking out thicker and thicker flows of pre-cum into her expanding puddle. <i>“I fuckin’ love cum! Promise me I’ll get to drink a huge fucking load of it later, ‘kay?”</i>",
     "translation": "",
-    "context": "<<POS:24531451>>"
+    "context": "<<POS:24531455>>"
   },
   {
-    "key": "output|n_nYou_chuckle_sensibly_and_nod_i_Sure_thing_Penny_After_t|963995ac82ca",
-    "original": "\\n\\nYou chuckle sensibly and nod. <i>“Sure thing, Penny. After this Cyber Punk finishes slurping up your load, why don’t yo- actually no.”</i> You clear your throat. <i>“Your Captain <b>commands</b> you to suck a huge loud out of yourself. Be messy. Get it all over yourself - into your fur, even.”</i> You grab the giggling cumslut’s left tit and squeeze, making her squeak in alarm and dribble a bit more pre. <i>“And send me a video of you doing it. Make it good.”</i>\\n\\nPenny whimpers, <i>“Y-y-yessssss!”</i> Her knees knock together, and she leans into you, pressing her cupped breast deeper into your palm. <i>“I’ll send it as soon as I can, so you’ll know the instant I do.”</i>\\n\\nThe airlock chimes.",
+    "key": "output|You_chuckle_sensibly_and_nod_i_Sure_thing_Penny_After_this|9ec61b0acd73",
+    "original": "You chuckle sensibly and nod. <i>“Sure thing, Penny. After this Cyber Punk finishes slurping up your load, why don’t yo- actually no.”</i> You clear your throat. <i>“Your Captain <b>commands</b> you to suck a huge loud out of yourself. Be messy. Get it all over yourself - into your fur, even.”</i> You grab the giggling cumslut’s left tit and squeeze, making her squeak in alarm and dribble a bit more pre. <i>“And send me a video of you doing it. Make it good.”</i>\\n\\nPenny whimpers, <i>“Y-y-yessssss!”</i> Her knees knock together, and she leans into you, pressing her cupped breast deeper into your palm. <i>“I’ll send it as soon as I can, so you’ll know the instant I do.”</i>\\n\\nThe airlock chimes.",
     "translation": "",
-    "context": "<<POS:24532460>>"
+    "context": "<<POS:24532464>>"
   },
   {
     "key": "button|Next|3e62147bd74b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:24533229>>"
+    "context": "<<POS:24533229>> addButton(0,\"Next\",lK)"
   },
   {
     "key": "output|You_don_t_take_any_chances_with_the_feline_scallywag_punching_i|affeff9789e8",
@@ -1452,22 +1542,22 @@
     "context": "<<POS:24533280>>"
   },
   {
-    "key": "output|n_nYou_grunt_and_flash_a_thumbs_up_The_dumb_bitch_couldn_t_eve|d1c77e8c6f60",
-    "original": "\\n\\nYou grunt and flash a thumbs up. The dumb bitch couldn’t even smell your assent. She’d be better off Treated.",
+    "key": "output|You_grunt_and_flash_a_thumbs_up_The_dumb_bitch_couldn_t_even_sm|c7262c26c254",
+    "original": "You grunt and flash a thumbs up. The dumb bitch couldn’t even smell your assent. She’d be better off Treated.",
     "translation": "",
-    "context": "<<POS:24535434>>"
+    "context": "<<POS:24535438>>"
   },
   {
-    "key": "output|n_n_i_She_can_i_pc_isBimbo_You_titter_gleefully_so|b499ef93d0ae",
-    "original": "\\n\\n<i>“She can.”</i>\"+(pc.isBimbo()?\" You titter gleefully, so proud to be \".concat(pc.mf(\"king\",\"queen\"),\" of this sucky-fucky meeting among the stars.\"):\"\")",
+    "key": "output|i_She_can_i_pc_isBimbo_You_titter_gleefully_so_prou|a65761a4e45b",
+    "original": "<i>“She can.”</i>\"+(pc.isBimbo()?\" You titter gleefully, so proud to be \".concat(pc.mf(\"king\",\"queen\"),\" of this sucky-fucky meeting among the stars.\"):\"\")",
     "translation": "",
-    "context": "<<POS:24535558>>"
+    "context": "<<POS:24535562>>"
   },
   {
     "key": "button|Next|e8d45fc260b3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:24535759>>"
+    "context": "<<POS:24535759>> addButton(0,\"Next\",hK)"
   },
   {
     "key": "output|At_your_cue_the_feline_freebooter_crosses_the_distance_to_Penny|2ba5612f097b",
@@ -1476,46 +1566,46 @@
     "context": "<<POS:24535810>>"
   },
   {
-    "key": "output|n_nStruggling_against_the_mass_of_fur_flesh_and_need_that_is|766b9999c954",
-    "original": "\\n\\nStruggling against the mass of fur, flesh, and need that is Penny Inoue, the cat-woman manages to get her knees back under her with a flash of irritation in her eye. <i>“Settle it, slut,”</i> she growls, pushing back on the fox, flattening the floofy tail between Penny and the wall. She’s virtually pinned, pressed against the wall by powerful muscles, immobilized by the steady grip on her cock.\\n\\nPenny stills but doesn’t stop whining. She’s not even trying to speak, just whining imploringly. Her cock oozes, pouring pre over the pirate’s knuckles.",
+    "key": "output|Struggling_against_the_mass_of_fur_flesh_and_need_that_is_Penn|8a3eca211775",
+    "original": "Struggling against the mass of fur, flesh, and need that is Penny Inoue, the cat-woman manages to get her knees back under her with a flash of irritation in her eye. <i>“Settle it, slut,”</i> she growls, pushing back on the fox, flattening the floofy tail between Penny and the wall. She’s virtually pinned, pressed against the wall by powerful muscles, immobilized by the steady grip on her cock.\\n\\nPenny stills but doesn’t stop whining. She’s not even trying to speak, just whining imploringly. Her cock oozes, pouring pre over the pirate’s knuckles.",
     "translation": "",
-    "context": "<<POS:24536692>>"
+    "context": "<<POS:24536696>>"
   },
   {
-    "key": "output|n_n_i_Better_i_The_spotted_raider_finishes_taking_control|69305244d540",
-    "original": "\\n\\n<i>“Better.”</i> The spotted raider finishes taking control with her hands, beginning to stroke the fox slowly and deliberately. Her film grip has the vixen’s motions slowing, forcing her to stay steady if she wants to get her pole polished after all. It looks a lot less like a blowjob and a lot more like a milking. Indeed, with each slow squeeze, your pet fuckslut’s phallus releases more pre, slick and sticky, spreading in semi-transparent webs to everything it touches - even the pirate’s nose when she leans down slurp up the tasty bubble at the tip. <i>“Mmmmm...”</i>",
+    "key": "output|i_Better_i_The_spotted_raider_finishes_taking_control_with|7587c8964915",
+    "original": "<i>“Better.”</i> The spotted raider finishes taking control with her hands, beginning to stroke the fox slowly and deliberately. Her film grip has the vixen’s motions slowing, forcing her to stay steady if she wants to get her pole polished after all. It looks a lot less like a blowjob and a lot more like a milking. Indeed, with each slow squeeze, your pet fuckslut’s phallus releases more pre, slick and sticky, spreading in semi-transparent webs to everything it touches - even the pirate’s nose when she leans down slurp up the tasty bubble at the tip. <i>“Mmmmm...”</i>",
     "translation": "",
-    "context": "<<POS:24537260>>"
+    "context": "<<POS:24537264>>"
   },
   {
-    "key": "output|n_nIt_sounds_like_she_likes_the_taste|1627cff367bc",
-    "original": "\\n\\nIt sounds like she likes the taste.",
+    "key": "output|It_sounds_like_she_likes_the_taste|97ad0c61f1e3",
+    "original": "It sounds like she likes the taste.",
     "translation": "",
-    "context": "<<POS:24537850>>"
+    "context": "<<POS:24537854>>"
   },
   {
-    "key": "output|n_nPenny_s_head_lolls_back_as_she_sags_against_the_wall_limply|c609b2c658fa",
-    "original": "\\n\\nPenny’s head lolls back as she sags against the wall, limply giving herself over the playful paws of her spotted partner. <i>“M-more,”</i> she stutter-pants. The pirate’s digits playfully circle Penny’ sheath, and the fox-girl’s tongue lolls out like a red carpet being unfurled, as long as the red carpet is soaked with spit and dripping, wagging back and forth as if asking to be put to work on something. The pleasure makes mer molten, hot and oh-so-malleable. She barely reacts when the feline finally deigns to begin kissing the underside of the fox’s cock, slurping up dribbles of free-flowing pre along the way. It’s like the harder her cock gets, the limper the rest of her becomes.\\n\\n<i>“Mmmm!”</i> the pirate echoes after a wet-sound gulp. <i>“Foxy’s got a tasty dick!”</i>\\n\\n<i>So she REALLY likes the taste.</i>",
+    "key": "output|Penny_s_head_lolls_back_as_she_sags_against_the_wall_limply_giv|3fa0de51d8ac",
+    "original": "Penny’s head lolls back as she sags against the wall, limply giving herself over the playful paws of her spotted partner. <i>“M-more,”</i> she stutter-pants. The pirate’s digits playfully circle Penny’ sheath, and the fox-girl’s tongue lolls out like a red carpet being unfurled, as long as the red carpet is soaked with spit and dripping, wagging back and forth as if asking to be put to work on something. The pleasure makes mer molten, hot and oh-so-malleable. She barely reacts when the feline finally deigns to begin kissing the underside of the fox’s cock, slurping up dribbles of free-flowing pre along the way. It’s like the harder her cock gets, the limper the rest of her becomes.\\n\\n<i>“Mmmm!”</i> the pirate echoes after a wet-sound gulp. <i>“Foxy’s got a tasty dick!”</i>\\n\\n<i>So she REALLY likes the taste.</i>",
     "translation": "",
-    "context": "<<POS:24537900>>"
+    "context": "<<POS:24537904>>"
   },
   {
-    "key": "output|n_nShe_dives_right_back_in_penny_cocks_0_hasFlag_GLOBAL_FL|de08c3577b3f",
-    "original": "\\n\\nShe dives right back in, \"+(penny.cocks[0].hasFlag(GLOBAL.FLAG_FLARED)?\"stretching her mouth wide to seal up Penny’s entire flare.\":\"slurping up Penny’s [penny.cockHead].\")+\" With her left hand, the cybernetic feline \"+(penny.balls>0?\"cups her prey’s quaking ballsack\":\"teases the sensitive skin just inside her prey’s sheath\")+\". With her right, strokes and pumps, palm freely sliding over the slickened shaft, milking more fattened blobs of pre into her thirsty maw.",
+    "key": "output|She_dives_right_back_in_penny_cocks_0_hasFlag_GLOBAL_FLAG_F|eef44773fcad",
+    "original": "She dives right back in, \"+(penny.cocks[0].hasFlag(GLOBAL.FLAG_FLARED)?\"stretching her mouth wide to seal up Penny’s entire flare.\":\"slurping up Penny’s [penny.cockHead].\")+\" With her left hand, the cybernetic feline \"+(penny.balls>0?\"cups her prey’s quaking ballsack\":\"teases the sensitive skin just inside her prey’s sheath\")+\". With her right, strokes and pumps, palm freely sliding over the slickened shaft, milking more fattened blobs of pre into her thirsty maw.",
     "translation": "",
-    "context": "<<POS:24538740>>"
+    "context": "<<POS:24538744>>"
   },
   {
-    "key": "output|n_nYou_watch_the_squirming_pair_with_delight_enjoying_the_writ|d3b0281a9fd4",
-    "original": "\\n\\nYou watch the squirming pair with delight, enjoying the writhing fur and chrome. It brings a warm flush to your cheeks\"+(pc.hasCock()?\" and an impure thought to your mind: these two would look so much hotter covered in your cum\":\"\")+\".\"+(pc.hasGenitals()?\" You touch yourself while you watch, casually tending to your own needs while your fluffy cumslut gets her treat.\":\"\")",
+    "key": "output|You_watch_the_squirming_pair_with_delight_enjoying_the_writhing|ba8abf1c0ff0",
+    "original": "You watch the squirming pair with delight, enjoying the writhing fur and chrome. It brings a warm flush to your cheeks\"+(pc.hasCock()?\" and an impure thought to your mind: these two would look so much hotter covered in your cum\":\"\")+\".\"+(pc.hasGenitals()?\" You touch yourself while you watch, casually tending to your own needs while your fluffy cumslut gets her treat.\":\"\")",
     "translation": "",
-    "context": "<<POS:24539223>>"
+    "context": "<<POS:24539227>>"
   },
   {
     "key": "button|Next|a3013635ae11",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:24539662>>"
+    "context": "<<POS:24539662>> addButton(0,\"Next\",cK)"
   },
   {
     "key": "output|i_I_love_i_Penny_moans_i_I_love_this_caawwwwwk_i|5dcff5a03663",
@@ -1542,13 +1632,13 @@
     "context": "<<POS:24540062>>"
   },
   {
-    "key": "output|n_nYou_nod|4e1046e72268",
-    "original": "\\n\\nYou nod",
+    "key": "output|You_nod|e5e1431b94f5",
+    "original": "You nod",
     "translation": "",
-    "context": "<<POS:24540442>>"
+    "context": "<<POS:24540446>>"
   },
   {
-    "key": "output|mid_stroke|c9327238dab8",
+    "key": "output|mid_stroke|f5a13885bae8",
     "original": ", mid-stroke",
     "translation": "",
     "context": "<<POS:24540477>>"
@@ -1572,10 +1662,10 @@
     "context": "<<POS:24540590>>"
   },
   {
-    "key": "output|n_nYou_hear_the_muted_burble_of_Penny_s_cum_surging_The_semi_e|96e35436aa20",
-    "original": "\\n\\nYou hear the muted burble of Penny’s cum surging. The semi-elastic <i>“vein”</i> along the underside of her shaft bulges obscenely, puffing out between the cat-girl’s stroking fingers, almost prying her pinky off entirely. Your resident cum-slut gasps and yanks the pirate down the fullness of her spasming length, jamming her [penny.cockHead] deep into the cyborg’s throat. Instead of gagging, the chrome-cat sucks. Her checks hollow with the fading, vacuum-tight seal of her lips, now mated to \"+(penny.isBimbo()?\"Penny’s\":\"your mate’s\")+\" sheath. Impossible purrs rumble through the wild woman <i>while</i> she swallows. It shouldn’t even be possible, but here she is, purring up a storm while your pet prick-vixen plumbs the depths of her esophagus with juicy, stomach-",
+    "key": "output|You_hear_the_muted_burble_of_Penny_s_cum_surging_The_semi_elast|d1178a7c7dbd",
+    "original": "You hear the muted burble of Penny’s cum surging. The semi-elastic <i>“vein”</i> along the underside of her shaft bulges obscenely, puffing out between the cat-girl’s stroking fingers, almost prying her pinky off entirely. Your resident cum-slut gasps and yanks the pirate down the fullness of her spasming length, jamming her [penny.cockHead] deep into the cyborg’s throat. Instead of gagging, the chrome-cat sucks. Her checks hollow with the fading, vacuum-tight seal of her lips, now mated to \"+(penny.isBimbo()?\"Penny’s\":\"your mate’s\")+\" sheath. Impossible purrs rumble through the wild woman <i>while</i> she swallows. It shouldn’t even be possible, but here she is, purring up a storm while your pet prick-vixen plumbs the depths of her esophagus with juicy, stomach-",
     "translation": "",
-    "context": "<<POS:24540652>>"
+    "context": "<<POS:24540656>>"
   },
   {
     "key": "output|painting|3a48886fcc1d",
@@ -1602,22 +1692,22 @@
     "context": "<<POS:24541554>>"
   },
   {
-    "key": "output|n_nFor_a_second_Penny_manages_to_drag_her_blown_out_pupils_to|c319adc26b9e",
-    "original": "\\n\\nFor a second, Penny manages to drag her blown-out pupils to meet your own, communicating a torrent of unfiltered, orgasm-enhanced thankfulness while she does her level-best to inflate the pirate, and then she’s gone, eyes rolled the whole way back into the surging sea of bliss within her own mind. The sounds coming out of her are gutteral and inhuman, more a result of her modded animal DNA than her Terran upbringing. Instinctively she pumps the gulping cat-woman up and down her pole, a fast and rough. Jism squirts out around the corner’s of the kitten’s mouth, but only narrow strands of it. The bulk goes where it’s intended, a well-earned meal for a wannabe thief. The prick-vixen makes sure of it.",
+    "key": "output|For_a_second_Penny_manages_to_drag_her_blown_out_pupils_to_meet|bebf5fefc326",
+    "original": "For a second, Penny manages to drag her blown-out pupils to meet your own, communicating a torrent of unfiltered, orgasm-enhanced thankfulness while she does her level-best to inflate the pirate, and then she’s gone, eyes rolled the whole way back into the surging sea of bliss within her own mind. The sounds coming out of her are gutteral and inhuman, more a result of her modded animal DNA than her Terran upbringing. Instinctively she pumps the gulping cat-woman up and down her pole, a fast and rough. Jism squirts out around the corner’s of the kitten’s mouth, but only narrow strands of it. The bulk goes where it’s intended, a well-earned meal for a wannabe thief. The prick-vixen makes sure of it.",
     "translation": "",
-    "context": "<<POS:24541571>>"
+    "context": "<<POS:24541575>>"
   },
   {
-    "key": "output|n_nYou_cum_yourself_pc_hasCock_wringing_a_satisfying_cli|a631f6a290ae",
-    "original": "\\n\\nYou cum yourself\"+(pc.hasCock()?\", wringing a satisfying climax out onto the floor\":\", coaxing out an orgasm with cleverly stroking fingertips\")+\". You even get a little on the pirate. You’ve earned it. She knows it.",
+    "key": "output|You_cum_yourself_pc_hasCock_wringing_a_satisfying_climax|15fc596bf95f",
+    "original": "You cum yourself\"+(pc.hasCock()?\", wringing a satisfying climax out onto the floor\":\", coaxing out an orgasm with cleverly stroking fingertips\")+\". You even get a little on the pirate. You’ve earned it. She knows it.",
     "translation": "",
-    "context": "<<POS:24542310>>"
+    "context": "<<POS:24542314>>"
   },
   {
     "key": "button|Next|030ff7ac8372",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:24542601>>"
+    "context": "<<POS:24542601>> addButton(0,\"Next\",dK)"
   },
   {
     "key": "output|Once_Penny_s_hips_stop_quaking_and_her_climax_finally_settles_in|536193ccac0e",
@@ -1626,19 +1716,19 @@
     "context": "<<POS:24542652>>"
   },
   {
-    "key": "output|n_nIt_s_a_miracle_she_isn_t_gagging_and_coughing_Most_women_wo|48063042cfe2",
-    "original": "\\n\\nIt’s a miracle she isn’t gagging and coughing. Most women would, but this smug feline whorls her tongue around her maw with the business-like manner of a workman with a broom, just cleaning up after a big job. <i>“You got a fine fucking dick, Foxxy.”</i> She pushes herself more upright and begins to go over the seals on her spacesuit to make sure they’re still ready for another vacuum-tight jaunt. <i>“Trust me, I’ve sucked off more than half the laquines on Zhèng Shi and those buns are packing more heat than gatling cannons.”</i> She pauses as she scoops her helmet up, glancing up your way. <i>“Seriously \"+pc.mf(\"dude\",\"lady\")+\" - take care of this one - or some pirate might have to come along and poach her.”</i>",
+    "key": "output|It_s_a_miracle_she_isn_t_gagging_and_coughing_Most_women_would|3c40c9ee58d1",
+    "original": "It’s a miracle she isn’t gagging and coughing. Most women would, but this smug feline whorls her tongue around her maw with the business-like manner of a workman with a broom, just cleaning up after a big job. <i>“You got a fine fucking dick, Foxxy.”</i> She pushes herself more upright and begins to go over the seals on her spacesuit to make sure they’re still ready for another vacuum-tight jaunt. <i>“Trust me, I’ve sucked off more than half the laquines on Zhèng Shi and those buns are packing more heat than gatling cannons.”</i> She pauses as she scoops her helmet up, glancing up your way. <i>“Seriously \"+pc.mf(\"dude\",\"lady\")+\" - take care of this one - or some pirate might have to come along and poach her.”</i>",
     "translation": "",
-    "context": "<<POS:24542882>>"
+    "context": "<<POS:24542886>>"
   },
   {
-    "key": "output|n_nYou_laugh|c14cf31903ab",
-    "original": "\\n\\nYou laugh",
+    "key": "output|You_laugh|3c28762d9dd8",
+    "original": "You laugh",
     "translation": "",
-    "context": "<<POS:24543619>>"
+    "context": "<<POS:24543623>>"
   },
   {
-    "key": "output|warmly_Penny_s_going_to_be_well_taken_care_of|fc0893a02cbc",
+    "key": "output|warmly_Penny_s_going_to_be_well_taken_care_of|edf0d515cde5",
     "original": " warmly. Penny’s going to be well taken care of.",
     "translation": "",
     "context": "<<POS:24543655>>"
@@ -1656,25 +1746,19 @@
     "context": "<<POS:24543822>>"
   },
   {
-    "key": "output|n_nMeanwhile_the_fox_futa_drunkenly_giggles_on_the_floor_regai|f4f5089228a0",
-    "original": "\\n\\nMeanwhile the fox-futa drunkenly giggles on the floor, regaining a bit of consciousness a titter at a time. Her dick shines with spit but not an errand droplet of cum. She reaches down to grasp her slickened member, moaning without a hint of shame. Then she starts to pump with her eyes locked on the pirate’s lips. Energy seems to fizzle in the air, though who’s to say it isn’t your ship’s battle-stressed electrical systems. Penny wants more, but the pirate, for all her playful banter, slaps her helmet back onto the neck of her suit, severing whatever phantasmal connection they shared.\\n\\nThe sealed-up feline laughs, <i>“Tata for now!”</i>\\n\\nPenny moans back, <i>“Don’t gooooo!”</i>\\n\\nBut the buccaneer just laughs. <i>“Sorry Foxxy. It’s time to burn. Do me a favor and stay sweet though.”</i> She gives the two of you off-angle ‘thumbs up’s and steps up into the airlock, not waiting to be dismissed. <i>“Maybe I’ll lose on purpose next time.”</i> The airlock door ‘wooshes’ closed and begins to cycle. Her final message crackles through the ship’s radio: <i>“Don’t bet on it though.”</i>",
+    "key": "output|Meanwhile_the_fox_futa_drunkenly_giggles_on_the_floor_regaining|e12917b78ab6",
+    "original": "Meanwhile the fox-futa drunkenly giggles on the floor, regaining a bit of consciousness a titter at a time. Her dick shines with spit but not an errand droplet of cum. She reaches down to grasp her slickened member, moaning without a hint of shame. Then she starts to pump with her eyes locked on the pirate’s lips. Energy seems to fizzle in the air, though who’s to say it isn’t your ship’s battle-stressed electrical systems. Penny wants more, but the pirate, for all her playful banter, slaps her helmet back onto the neck of her suit, severing whatever phantasmal connection they shared.\\n\\nThe sealed-up feline laughs, <i>“Tata for now!”</i>\\n\\nPenny moans back, <i>“Don’t gooooo!”</i>\\n\\nBut the buccaneer just laughs. <i>“Sorry Foxxy. It’s time to burn. Do me a favor and stay sweet though.”</i> She gives the two of you off-angle ‘thumbs up’s and steps up into the airlock, not waiting to be dismissed. <i>“Maybe I’ll lose on purpose next time.”</i> The airlock door ‘wooshes’ closed and begins to cycle. Her final message crackles through the ship’s radio: <i>“Don’t bet on it though.”</i>",
     "translation": "",
-    "context": "<<POS:24543953>>"
+    "context": "<<POS:24543957>>"
   },
   {
-    "key": "output|n_nYou_won_t|28d820ccfbcf",
-    "original": "\\n\\nYou won’t.",
+    "key": "output|You_won_t|a7057dc40f4e",
+    "original": "You won’t.",
     "translation": "",
-    "context": "<<POS:24545066>>"
+    "context": "<<POS:24545070>>"
   },
   {
-    "key": "output|n_n|55c73143da8d",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:24545184>>"
-  },
-  {
-    "key": "output|textify_RV_RV_0_Ce_Z_You_wait_inside_the_airlock_twirling|5f64484ba64e",
+    "key": "output|textify_RV_RV_0_Ce_Z_You_wait_inside_the_airlock_twirling|3e329347328c",
     "original": "textify(RV||(RV=(0,Ce.Z)([\"You wait inside the airlock, twirling the vial of Throbb behind your back while you wait.\\n\\n\\tTrue to her word, the feline scoundrel soon arrives in your airlock. Not taking any chances, you put her through a few scans and force her to discard a small armory’s worth of hidden weapons - even the micropistol conceiled in her cybernetics.\\n\\n\\t<i>“Tch, you’re no fun.”</i> Respect glimmers in her organic eye through her bubble-helm while the airlock finishes cycling. Disarmament does nothing for her confidence. The cat-woman swaggers through the door with sashaying hips, looking every bit like she’s the one in control of the situation, not you. Typical cat - even at the height of her own foolishness she tries to play it cool. <i>“So how are we doin this?”</i> she purrs, feigning a stretch whose true purpose seems to be highlighting her curves through her spacesuit.\\n\\n\\t<i>“Pop out that bean,”</i> you order, <i>“I want a taste.”</i>\\n\\n\\tThe captive cat jolts at the initial order, fur bristling, but the clarification that you’re wanting a snack rather than a bang seems to soothe her ruffled fluff. She smirks through her protective glass, then pops it off with a hiss.\\n\\t\\n\\tA grin that wide should be illegal.\\n\\t\\n\\t<i>“Why, I didn’t take you for such a thirsty submissive,”</i> the pirate gloats, picking at the seals on the bottom of her suit. Latches click noisily as she dutifully releases a half-dozen safeties to grant you access to her loins. Anticipation thickens apace with the growing scent of fertile womanhood.\\n\\n\\tYou wait, patiently, Throbb barely out of sight.\\n\\n\\tLike an actor revealed by receding curtains, the feline’s feminine delta emerges, much to the pleasure of its audience. The dewy alien snatch shines beneath a radiant coat of once-contained arousal, now free to drool its fragrant lube down the cat-woman’s thighs. Her once luxurious fur looks more painted-on by the second, a glossy tableau laid out for the feminine feast inches above.\\n\\n\\tYou lick your [pc.lipsChaste].\\n\\n\\tThe scallywag’s smile grows ever more smug, too pleased with the effect her genitals are having on you.\\n\\n\\tYou have just the thing for that, but first, a little treat. You lean forward take a breath, admiring the scent of her pheromonal musk\",\". You brace your hand against the wall, stick out your tongue, and glance up, more as warning than request for permission.\\n\\n\\tOne of the cat-girl’s fangs threatens to tear a rent in her lip, so hard is she biting. Under the fur, she must look like a blushing virgin.\\n\\n\\tYou take a lick, long and slow, dragging your curious muscle along her entrance, pushing just enough to part her outer gates and glimpse the flavor within. Her ardor flows down the center of your tongue, a tasty treat for later, but you keep smearing your muscle higher and harder, slipping a little deeper before you close in on your target: the thickened bulb at the top of her twat. Caressing the pirate’s proud clit feels like handling a precious, one-of-kind artifact... and you’re about to wreck all that.\\n\\n\\tYou pull back, sneaking a final glance at your predator-turned-prey’s face. It’s blissed out. Her eyes are basically closed, her mouth open. It’s the perfect moment.\\n\\n\\tYou jab the drug into her and dispense its payload, emptying the medipen’s contents before she can jerk away.\\n\\n\\t<i>“WHAT THE FUCK?!”</i>\"])),pc.isBro()||pc.isBimbo()?\", easily noting exactly how far along on her monthly cycle she is, just how turned on she is, and how much milk she’d be likely to produce if pregnant - not very much, by your estimate\".concat(pc.isTreated()?\". She should try the treatment\":\"\"):\"\")",
     "translation": "",
     "context": "<<POS:24545271>>"
@@ -1683,7 +1767,7 @@
     "key": "button|Next|c8af64b09a59",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:24549063>>"
+    "context": "<<POS:24549063>> addButton(0,\"Next\",pK)"
   },
   {
     "key": "output|textify_OV_OV_0_Ce_Z_i_WHAT_THE_FUCK_i_the_pirate_y|408265112c64",
@@ -1707,16 +1791,40 @@
     "key": "button|Suck_Her|be7dec5e4656",
     "original": "Suck Her",
     "translation": "",
-    "context": "<<POS:24555075>>"
+    "context": "<<POS:24555075>> addButton(0,\"Suck Her\",mK,\"Suck Her\",\"Suck a snack out of the new-grown cum cannon.\")"
   },
   {
-    "key": "button|Ride_That_Dick|668cb413ea17",
+    "key": "button.hover|Suck_Her|be7dec5e4656",
+    "original": "Suck Her",
+    "translation": "",
+    "context": "<<POS:24555089>> addButton(0,\"Suck Her\",mK,\"Suck Her\",\"Suck a snack out of the new-grown cum cannon.\")"
+  },
+  {
+    "key": "button.tooltip|Suck_a_snack_out_of_the_new_grown_cum_cannon|5736be1d5ed3",
+    "original": "Suck a snack out of the new-grown cum cannon.",
+    "translation": "",
+    "context": "<<POS:24555100>> addButton(0,\"Suck Her\",mK,\"Suck Her\",\"Suck a snack out of the new-grown cum cannon.\")"
+  },
+  {
+    "key": "button|Ride_That_Dick|f60448062594",
     "original": "Ride That Dick",
     "translation": "",
-    "context": "<<POS:24555161>>"
+    "context": "<<POS:24555161>> addButton(1,\"Ride That Dick\",(function(){return vaginaRouter(yK,800,1,0)}),\"Ride That Dick\",\"Take her new meatpole for a ride in the vagina or butthole of your choice.\")"
   },
   {
-    "key": "output|textify_PV_PV_0_Ce_Z_Now_that_you_ve_turned_the_pirate_fro|13067aa4ca68",
+    "key": "button.hover|Ride_That_Dick|f60448062594",
+    "original": "Ride That Dick",
+    "translation": "",
+    "context": "<<POS:24555224>> addButton(1,\"Ride That Dick\",(function(){return vaginaRouter(yK,800,1,0)}),\"Ride That Dick\",\"Take her new meatpole for a ride in the vagina or butthole of your choice.\")"
+  },
+  {
+    "key": "button.tooltip|Take_her_new_meatpole_for_a_ride_in_the_vagina_or_butthole_of_yo|af1aba1ad6cc",
+    "original": "Take her new meatpole for a ride in the vagina or butthole of your choice.",
+    "translation": "",
+    "context": "<<POS:24555241>> addButton(1,\"Ride That Dick\",(function(){return vaginaRouter(yK,800,1,0)}),\"Ride That Dick\",\"Take her new meatpole for a ride in the vagina or butthole of your choice.\")"
+  },
+  {
+    "key": "output|textify_PV_PV_0_Ce_Z_Now_that_you_ve_turned_the_pirate_fro|d3202b665f25",
     "original": "textify(PV||(PV=(0,Ce.Z)([\"Now that you’ve turned the pirate from fearsome predator to purring sex-kitten, it’s time to collect your reward for a job well done.\"])))",
     "translation": "",
     "context": "<<POS:24555378>>"
@@ -1740,10 +1848,10 @@
     "context": "<<POS:24555648>>"
   },
   {
-    "key": "output|n_n_textify_YV_YV_0_Ce_Z_i_Wowwwww_i_you_moan_as_y|b3fe82eef7e3",
-    "original": "\\n\\n\"+textify(YV||(YV=(0,Ce.Z)([\"<i>“Wowwwww,”</i> you moan as you slide down, stroked by flaring nubs that feel like they’re trying to massage you from the inside out. She’s so... thick, and rigid, and <i>wet</i>. You can feel her urethra flexing, feel the hot blooms of cum bursting inside you, making you slicker, wetter, and able to take even more of her \"])))",
+    "key": "output|textify_YV_YV_0_Ce_Z_i_Wowwwww_i_you_moan_as_you_s|1e8aea026c55",
+    "original": "\"+textify(YV||(YV=(0,Ce.Z)([\"<i>“Wowwwww,”</i> you moan as you slide down, stroked by flaring nubs that feel like they’re trying to massage you from the inside out. She’s so... thick, and rigid, and <i>wet</i>. You can feel her urethra flexing, feel the hot blooms of cum bursting inside you, making you slicker, wetter, and able to take even more of her \"])))",
     "translation": "",
-    "context": "<<POS:24556294>>"
+    "context": "<<POS:24556298>>"
   },
   {
     "key": "output|pussy_breaking|a33e154a7550",
@@ -1764,40 +1872,34 @@
     "context": "<<POS:24556723>>"
   },
   {
-    "key": "output|n_nYou_can_t_help_it_anymore_You_lean_forward_and_kiss_the_pir|79375198fba9",
-    "original": "\\n\\nYou can’t help it anymore. You lean forward and kiss the pirate, bouncing your hips against hers, spraying spooge every which way once your [pc.vagOrAss \"+e+\"] gets packed to capacity. This is the best reward a [pc.guyGirl] could ask for: a beautiful cat-girl with the galaxy’s fattest, most delicious, most orgasmically pleasurable cock basting their innards in her alien spooge! You mewl with her in between kisses, slurping her tongue until the fullness starts to get uncomfortable.",
+    "key": "output|You_can_t_help_it_anymore_You_lean_forward_and_kiss_the_pirate|3bad2eb86f1e",
+    "original": "You can’t help it anymore. You lean forward and kiss the pirate, bouncing your hips against hers, spraying spooge every which way once your [pc.vagOrAss \"+e+\"] gets packed to capacity. This is the best reward a [pc.guyGirl] could ask for: a beautiful cat-girl with the galaxy’s fattest, most delicious, most orgasmically pleasurable cock basting their innards in her alien spooge! You mewl with her in between kisses, slurping her tongue until the fullness starts to get uncomfortable.",
     "translation": "",
-    "context": "<<POS:24556946>>"
+    "context": "<<POS:24556950>>"
   },
   {
-    "key": "output|n_nYour_pc_belly_wobbles_pc_bellyRating_30_more_than_n|b31bf482c68a",
-    "original": "\\n\\nYour [pc.belly] wobbles\"+(pc.bellyRating()>=30?\" more than normal\":\"\")+\". Everything feels taut and straining. It’s getting harder to keep up. You roll to the side, and the cat comes with. She doesn’t even seem to notice or care. Her cock’s still going wild, spraying spooge like a keg with the tap smashed off - which you suppose she sort of is. It’s easier to let the burgeoning pressure push her out of your [pc.vagOrAss \"+e+\"] than pull yourself away.",
+    "key": "output|Your_pc_belly_wobbles_pc_bellyRating_30_more_than_norma|3f6992824fcd",
+    "original": "Your [pc.belly] wobbles\"+(pc.bellyRating()>=30?\" more than normal\":\"\")+\". Everything feels taut and straining. It’s getting harder to keep up. You roll to the side, and the cat comes with. She doesn’t even seem to notice or care. Her cock’s still going wild, spraying spooge like a keg with the tap smashed off - which you suppose she sort of is. It’s easier to let the burgeoning pressure push her out of your [pc.vagOrAss \"+e+\"] than pull yourself away.",
     "translation": "",
-    "context": "<<POS:24557446>>"
+    "context": "<<POS:24557450>>"
   },
   {
-    "key": "output|n_nYou_scooch_back_through_the_creamy_puddle_cradling_your_stu|5a13f37b0085",
-    "original": "\\n\\nYou scooch back through the creamy puddle, cradling your stuffed middle.\\n\\n",
+    "key": "output|You_scooch_back_through_the_creamy_puddle_cradling_your_stuffed|25f52d93ce0f",
+    "original": "You scooch back through the creamy puddle, cradling your stuffed middle.",
     "translation": "",
-    "context": "<<POS:24557916>>"
+    "context": "<<POS:24557920>>"
   },
   {
-    "key": "output|textify_MV_MV_0_Ce_Z_The_pirate_girl_mews_disappointedly|2b804d7666a9",
+    "key": "output|textify_MV_MV_0_Ce_Z_The_pirate_girl_mews_disappointedly|691969214584",
     "original": "textify(MV||(MV=(0,Ce.Z)([\"The pirate-girl mews disappointedly. <i>“Mmmmore?”</i> A spotted ear twitches as her hands return to her shaft with immediacy, the mixed juices themselves an irresistible lure. <i>“It feels sooooooo goood, I could fuck forever... like the girls at the Tap-Hall... mmm...”</i> The cum-fountain kitty giggles. <i>“Gonna... fill more bellies. Bloat those girls so they gotta shut down the stalls. Beg Cherry to let me turn her into a condom...”</i>\\n\\n\\tYour foe-turned fuck-friend staggers up to her feet, half-stroking herself, half-figuring out how to squeeze her drizzling shaft into her protective suit. Somehow, it fits - with a loud squelch. <i>“I’ll... get rid of the dick later.”</i> She rubs it through the suit, a hungry, feral grin on her face. <i>“After I finish having fun with it. After I make some babies.”</i> Her body shivers, and the bubble helm snaps closed. You hear her muffled remark through the seal, <i>“Could just be the gang’s cum tap again...”</i>\"])))",
     "translation": "",
     "context": "<<POS:24558006>>"
   },
   {
-    "key": "output|n_n|9d4035fb5e22",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:24559020>>"
-  },
-  {
-    "key": "perk|Fixed_CumQ|8a565f38a9b5#1",
+    "key": "perk|Fixed_CumQ|3d63c6984bf7",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:24559167>>"
+    "context": "<<POS:24559167>> createPerk(\"Fixed CumQ\",2e4,0,0,0)"
   },
   {
     "key": "output|Without_another_word_you_lean_down_and_wrap_your_pc_lips_arou|38d5602f28e4",
@@ -1812,10 +1914,10 @@
     "context": "<<POS:24559604>>"
   },
   {
-    "key": "output|n_n_textify_GV_GV_0_Ce_Z_Contact_with_you_is_all_it_take|e0af7478f788",
-    "original": "\\n\\n\"+textify(GV||(GV=(0,Ce.Z)([\"Contact with you is all it takes to set her off again. Her stroking, no matter how urgent or skillfull, cannot compete with the brush of your maw, the slickened friction of your tongue. She cums... well, like a cum spigot - a cum tap cat. It’s a deserved nickname. It’s like she’s wired to cum on cue. When you \"])))",
+    "key": "output|textify_GV_GV_0_Ce_Z_Contact_with_you_is_all_it_takes_to|58945818b010",
+    "original": "\"+textify(GV||(GV=(0,Ce.Z)([\"Contact with you is all it takes to set her off again. Her stroking, no matter how urgent or skillfull, cannot compete with the brush of your maw, the slickened friction of your tongue. She cums... well, like a cum spigot - a cum tap cat. It’s a deserved nickname. It’s like she’s wired to cum on cue. When you \"])))",
     "translation": "",
-    "context": "<<POS:24559751>>"
+    "context": "<<POS:24559755>>"
   },
   {
     "key": "output|hollow_your_cheeks_and_suckle|7a69f6f30e62",
@@ -1839,7 +1941,7 @@
     "key": "perk|Fixed_CumQ|0e3e3dca74f9",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:24564556>>"
+    "context": "<<POS:24564556>> createPerk(\"Fixed CumQ\",1e4,0,0,0)"
   },
   {
     "key": "output|textify_DV_DV_0_Ce_Z_i_I_m_gonna_be_floating_back_bow_le|c37a547a7296",
@@ -1848,31 +1950,25 @@
     "context": "<<POS:24564717>>"
   },
   {
-    "key": "output|n_n_i_So_you_liked_it_i_n_nThe_cheetah_pirate_pauses_with|ce4c01bbb037",
-    "original": "\\n\\n<i>“So you liked it?”</i>\\n\\nThe cheetah-pirate pauses with a hand on the airlock door. <i>“Yeah. I did.”</i>\\n\\nYou smile as she sees herself out.",
+    "key": "output|i_So_you_liked_it_i_n_nThe_cheetah_pirate_pauses_with_a_ha|cff4078c7460",
+    "original": "<i>“So you liked it?”</i>\\n\\nThe cheetah-pirate pauses with a hand on the airlock door. <i>“Yeah. I did.”</i>\\n\\nYou smile as she sees herself out.",
     "translation": "",
-    "context": "<<POS:24565024>>"
+    "context": "<<POS:24565028>>"
   },
   {
-    "key": "output|n_n_i_Yeah_but_you_liked_it_i_n_nThe_cheetah_pirate_pause|996660d66019",
-    "original": "\\n\\n<i>“Yeah, but you liked it.”</i>\\n\\nThe cheetah-pirate pauses with a hand on the airlock door. <i>“Yeah. I did.”</i>\\n\\nYou blow her a kiss before she sees herself out.",
+    "key": "output|i_Yeah_but_you_liked_it_i_n_nThe_cheetah_pirate_pauses_wi|5651ea6fa1cb",
+    "original": "<i>“Yeah, but you liked it.”</i>\\n\\nThe cheetah-pirate pauses with a hand on the airlock door. <i>“Yeah. I did.”</i>\\n\\nYou blow her a kiss before she sees herself out.",
     "translation": "",
-    "context": "<<POS:24565205>>"
+    "context": "<<POS:24565209>>"
   },
   {
-    "key": "output|n_n_i_You_knew_what_you_were_getting_into_i_n_nThe_cheetah|b341f477d304",
-    "original": "\\n\\n<i>“You knew what you were getting into.”</i>\\n\\nThe cheetah-pirate pauses with a hand on the airlock door. <i>“And you didn’t know who you were getting into.”</i>\\n\\n<i>“I’ll just have to get to know you better the next time.”</i>\\n\\nShe snorts, disembarking in a hurry, tail wagging ever-so-slightly.",
+    "key": "output|i_You_knew_what_you_were_getting_into_i_n_nThe_cheetah_pir|e1c2bde5da63",
+    "original": "<i>“You knew what you were getting into.”</i>\\n\\nThe cheetah-pirate pauses with a hand on the airlock door. <i>“And you didn’t know who you were getting into.”</i>\\n\\n<i>“I’ll just have to get to know you better the next time.”</i>\\n\\nShe snorts, disembarking in a hurry, tail wagging ever-so-slightly.",
     "translation": "",
-    "context": "<<POS:24565388>>"
+    "context": "<<POS:24565392>>"
   },
   {
-    "key": "output|n_n|b6dc25d67438",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:24565705>>"
-  },
-  {
-    "key": "output|textify_HV_HV_0_Ce_Z_Automatic_shutdowns_activate_across_a|e389670c9124",
+    "key": "output|textify_HV_HV_0_Ce_Z_Automatic_shutdowns_activate_across_a|1da1dd7997f7",
     "original": "textify(HV||(HV=(0,Ce.Z)([\"Automatic shutdowns activate across all vessel’s your systems, trying desperately to keep the runaway reactor from overloading - and rendering you utterly helpless in the face of your foe. You slap the emergency broadcast button and gasp out, <i>“Cease fire! I yield, I yield!”</i>\\n\\n\\tThere’s a moment of silence that hangs after that, during which you have no choice but to clench and white-knuckle your captain’s chair while you wait for the pirate to either blast you to hell or accept your surrender. Luckily, you aren’t left waiting long. It’s just a few seconds before a hologram flickers laboriously into being on your failing comms system, showing off a sporty cheetah-girl with a lot of chrome - including a quarter of her head, covering up what must have been a near-terminal trauma.\\n\\n\\t<i>“About time you recognized the inevitable,”</i> she says, her voice a mix of flirtatiousness and haughty self-assurance. <i>“Power down and secure your weapons. I’m coming over to take my victory lap.”</i>\\n\\n\\tThe hologram cuts out, and you’re left to scramble in an attempt to be a non-threatening as possible while the still very-much deadly Cyber Punk vessel closes and docks with you. There’s little fanfare to the boarding action: your airlock hisses open at her command, letting the cheetah-punk saunter onboard like she owns the place. She might as well, after the beating she just put down on you, and she knows it. The smug smirk on her feline face tells all.\\n\\n\\t<i>“Well, Captain, I’d say ‘nice digs’ but it’s seen better days.”</i>\\n\\n\\t<i>“I wonder why,”</i> you answer flatly.\\n\\n\\tShe makes a particularly catty face as she saunters over. <i>“Probably because a certain captain has more looks than brains. And now that she’s made me go through all this trouble, I think I’ll do more than just excise a little cash...”</i>\"])))",
     "translation": "",
     "context": "<<POS:24565961>>"
@@ -1881,16 +1977,16 @@
     "key": "button|Next|32a834294c0d",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:24567877>>"
+    "context": "<<POS:24567877>> addButton(0,\"Next\",(function(){return function(e){clearOutput(),qV(!0),author(\"William\");var t=pc.ass.wetness();e>=0&&(t=pc.vaginas[e].wetness());output(\"The cheetah pirate’s eyes gleam with a predatory hunger as she circles you. Then, she shoves into you, sheds her coverings\"+(pc.isCrotchExposed()?..."
   },
   {
-    "key": "output|True_to_her_promise_the_cheetah_pirate_carried_on_until_you_did|d8b329b645ea",
-    "original": "True to her promise, the cheetah pirate carried on until you did indeed <b>tap out</b>. The security bulkheads kept the impromptu tryst confined to the hangar... and also protected your privacy. You’re absolutely drenched in that punky cat’s spend, but she’s gone, at any rate. Now you have to figure out what it’ll cost to get <i>[pc_ship.theName]</i> fixed up. Hopefully the battle damage left the showers intact.\\n\\nGlancing down, you see your belly bulged out with a sloshing paunch. <i>She didn’t hold back.</i> Better watch your step or you’ll trip over this temporary new weight.\\n\\n",
+    "key": "output|True_to_her_promise_the_cheetah_pirate_carried_on_until_you_did|69da05fbf646",
+    "original": "True to her promise, the cheetah pirate carried on until you did indeed <b>tap out</b>. The security bulkheads kept the impromptu tryst confined to the hangar... and also protected your privacy. You’re absolutely drenched in that punky cat’s spend, but she’s gone, at any rate. Now you have to figure out what it’ll cost to get <i>[pc_ship.theName]</i> fixed up. Hopefully the battle damage left the showers intact.\\n\\nGlancing down, you see your belly bulged out with a sloshing paunch. <i>She didn’t hold back.</i> Better watch your step or you’ll trip over this temporary new weight.",
     "translation": "",
     "context": "<<POS:24577973>>"
   },
   {
-    "key": "output|Another_vessel_shows_up_on_your_scanners_a_Steele_Tech_K7_of|ac6d61d227f4",
+    "key": "output|Another_vessel_shows_up_on_your_scanners_a_Steele_Tech_K7_of|3c6b7f69e8dc",
     "original": "Another vessel shows up on your scanners - a Steele Tech K7, of the Clydesdale series. They may be marketed as bulk haulers, but they’re popular conversion ships too - modified by their owners to fit nearly any role into the bulky superstructure. This one falls firmly into the latter category. Aftermarket antennae hang from extra armor plates like chitinous hairs on a hunting beast. You suppose it’s only fitting that the nose is painted to resemble a terran cheetah’s face with extra-long, sensor-laden whiskers. A pirate logo proudly shimmers on its flank, declaring allegiance to the <b>Cyber Punks</b> - a gang known for its technology fetishism and love of cybernetic augmentation. No wonder the Clydesdale had its engines replaced with something bigger, shinier, and spewing a trail of glowing ultraviolet across the starways. It has got to be illegal. An automatic EM Turret and Coilgun track your own vessel’s movements, though this foe surely has additional tricks up her sleeves...\\n\\nThey respond to your attempts at hailing by charging up their weapons systems. <b>It’s a fight!</b>",
     "translation": "",
     "context": "<<POS:24579132>>"
@@ -1899,12 +1995,12 @@
     "key": "name.show|Cyber_Punk|9de02c7d60d7",
     "original": "Cyber Punk",
     "translation": "",
-    "context": "<<POS:24580320>>"
+    "context": "<<POS:24580320>> showName(\"Cyber Punk\")"
   },
   {
     "key": "button|Next|b6c7255dce82",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:24580627>>"
+    "context": "<<POS:24580627>> addButton(0,\"Next\",E.V.beginCombat)"
   }
 ]

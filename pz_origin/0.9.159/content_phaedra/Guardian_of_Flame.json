@@ -3,13 +3,13 @@
     "key": "perk|AGGRESSIVE_AI|1355e515686a",
     "original": "AGGRESSIVE_AI",
     "translation": "",
-    "context": "<<POS:01993951>>"
+    "context": "<<POS:01993951>> createPerk(\"AGGRESSIVE_AI\")"
   },
   {
     "key": "name.show|Guardian_of_Flame|058268d5b4ba",
     "original": "Guardian of Flame",
     "translation": "",
-    "context": "<<POS:01994279>>"
+    "context": "<<POS:01994279>> showName(\"Guardian of Flame\")"
   },
   {
     "key": "output|Phaedra_orbits_a_pair_of_bright_orange_suns_incandescent_hammer|76d68194d8d2",
@@ -24,22 +24,22 @@
     "context": "<<POS:01995628>>"
   },
   {
-    "key": "output|n_nYou_can_fight_or_flee_but_that_drone_ship_s_between_you_and|ac8272817bc5",
-    "original": "\\n\\nYou can fight or flee, but that drone ship’s between you and the planet below - between you and the next probe!",
+    "key": "output|You_can_fight_or_flee_but_that_drone_ship_s_between_you_and_the|da3aada67c1a",
+    "original": "You can fight or flee, but that drone ship’s between you and the planet below - between you and the next probe!",
     "translation": "",
-    "context": "<<POS:01995712>>"
+    "context": "<<POS:01995716>>"
   },
   {
     "key": "button|Fight|38dd602ac013",
     "original": "Fight",
     "translation": "",
-    "context": "<<POS:01995870>>"
+    "context": "<<POS:01995870>> addButton(0,\"Fight\",(function(){return function(e){e||(e=new zp);showBust(e.bustDisplay),showName(\"Guardian of Flame\"),CombatManager.newShipCombat(),CombatManager.setHostileActors(e),CombatManager.setFriendlyActors(pc_ship),CombatManager.lossCondition(CombatManager.SPECIFIC_TARGET_DEFEATED,pc_ship),..."
   },
   {
     "key": "button|Flee|b89170052530",
     "original": "Flee",
     "translation": "",
-    "context": "<<POS:01996306>>"
+    "context": "<<POS:01996306>> addButton(1,\"Flee\",(function(){return function(e){clearOutput(),author(\"Savin\"),showBust(e.bustDisplay),showName(\"Guardian of Flame\"),output(\"Discretion is the better part of valor, and you know full well you aren’t kitted out to fighting a paramilitary ship of that size. Better to come back to Phae..."
   },
   {
     "key": "output|Momentarily_distracted_by_your_request_you_find_your_opening|c71139b47409",
@@ -66,34 +66,34 @@
     "context": "<<POS:01997219>>"
   },
   {
-    "key": "output|n_nYou_barely_beat_a_tail_of_missiles_to_the_gate_zipping_thro|8accdbe5605e",
-    "original": "\\n\\nYou barely beat a tail of missiles to the gate, zipping through as they impact on its shields.",
+    "key": "output|You_barely_beat_a_tail_of_missiles_to_the_gate_zipping_through|2177ae36ee2b",
+    "original": "You barely beat a tail of missiles to the gate, zipping through as they impact on its shields.",
     "translation": "",
-    "context": "<<POS:01997311>>"
+    "context": "<<POS:01997315>>"
   },
   {
-    "key": "output|n_nPerhaps_when_you_re_better_equipped_for_such_a_fight_you_can|0f67309ead0e",
-    "original": "\\n\\nPerhaps when you’re better equipped for such a fight you can come back and try again...\\n\\n",
+    "key": "output|Perhaps_when_you_re_better_equipped_for_such_a_fight_you_can_com|d6098fe59709",
+    "original": "Perhaps when you’re better equipped for such a fight you can come back and try again...",
     "translation": "",
-    "context": "<<POS:01997420>>"
+    "context": "<<POS:01997424>>"
   },
   {
-    "key": "output|There_s_a_flash_of_explosive_fire_from_inside_the_i_Guardian_i|db3d9dd8cb12",
+    "key": "output|There_s_a_flash_of_explosive_fire_from_inside_the_i_Guardian_i|86b917d25943",
     "original": "There’s a flash of explosive fire from inside the <i>Guardian</i>, a detonation inside the hull that sends visible ripples through its armor plating. Scrap code floods your sensor readouts, some last anguished cry from the corrupted V.I. piloting that silent killer before the black of space is momentarily whited out by its reactor blowing. Your ship’s viewscreen tints automatically, saving your eyes from the worst of it.\\n\\nWhen your instruments finally recover, all that’s left of the <i>Guardian of Flame</i> are a few scraps of its outer hull. One, still bearing the brilliant crimson logo of KihaCrop, drifts past your prow before finally glancing off your navigation shields.\\n\\nYou breathe a sigh of relief, slumping back in the captain’s chair\"+(crew(!0)>0?\" while your crew cheers around you\":\"\")+\". Thank fuck that’s over. With the corvette destroyed, there’s nothing preventing you from heading towards the arid, irradiated surface of Phaedra.",
     "translation": "",
     "context": "<<POS:01997653>>"
   },
   {
-    "key": "output|n_nYou_or_anyone_else_While_you_re_still_catching_your_breath|540cee4071df",
-    "original": "\\n\\nYou, or anyone else. While you’re still catching your breath, another contact appears on your sensors from the middle of the debris field, its engines and shields flaring to life from silent running. MaxCorp idents flick onto your screen, followed closely by a radio call with a familiar, familial voice:",
+    "key": "output|You_or_anyone_else_While_you_re_still_catching_your_breath_an|6680d10882bf",
+    "original": "You, or anyone else. While you’re still catching your breath, another contact appears on your sensors from the middle of the debris field, its engines and shields flaring to life from silent running. MaxCorp idents flick onto your screen, followed closely by a radio call with a familiar, familial voice:",
     "translation": "",
-    "context": "<<POS:01998621>>"
+    "context": "<<POS:01998625>>"
   },
   {
-    "key": "output|n_n_i_Thanks_for_clearing_the_way_loser_i_your_cousin_lau|d4ab9a081ea4",
-    "original": "\\n\\n<i>“Thanks for clearing the way, loser!”</i> your cousin laughs, blasting past you towards the surface. <i>“And while you were busy fighting, my passive scans picked up where the probe is! Hahaha, I’m a damn genius.”</i>\\n\\nFucking hell [rival.hisHer] ship is <b>fast</b> for such a little yacht. You grab the controls and kick the engines up, chasing after [rival.himHer].",
+    "key": "output|i_Thanks_for_clearing_the_way_loser_i_your_cousin_laughs|5c13dd6b0ce3",
+    "original": "<i>“Thanks for clearing the way, loser!”</i> your cousin laughs, blasting past you towards the surface. <i>“And while you were busy fighting, my passive scans picked up where the probe is! Hahaha, I’m a damn genius.”</i>\\n\\nFucking hell [rival.hisHer] ship is <b>fast</b> for such a little yacht. You grab the controls and kick the engines up, chasing after [rival.himHer].",
     "translation": "",
-    "context": "<<POS:01998940>>"
+    "context": "<<POS:01998944>>"
   },
   {
     "key": "output|Damn_it_after_all_this_and_rival_heShe_s_still_trying_to_be|854201ffa6be",
@@ -114,22 +114,22 @@
     "context": "<<POS:01999704>>"
   },
   {
-    "key": "output|n_n_rival_name_s_shields_suddenly_flare_crackling_white_hot_a|b0bd14357807",
-    "original": "\\n\\n[rival.name]’s shields suddenly flare, crackling white-hot as [rival.heShe] enters the atmosphere - that’s not just re-entry heat. You pull the stick to the side, breaking off your own chase just a split second before your cousin’s shields collapse, and several armor plates buckle under impact. <i>“Oh, no!”</i> [rival.heShe] screams, and then the comm line goes dead. Black smoke streaks from the stricken ship’s engines, and you can see flames billowing from aft compartments. [rival.name] keeps taking hits from the surface until [rival.heShe] has no choice but to veer off course, arcing away from the oasis and into the desert - deep into one of the zones your own sensors had flagged as dangerously radioactive.",
+    "key": "output|rival_name_s_shields_suddenly_flare_crackling_white_hot_as_r|79c2bc7daee4",
+    "original": "[rival.name]’s shields suddenly flare, crackling white-hot as [rival.heShe] enters the atmosphere - that’s not just re-entry heat. You pull the stick to the side, breaking off your own chase just a split second before your cousin’s shields collapse, and several armor plates buckle under impact. <i>“Oh, no!”</i> [rival.heShe] screams, and then the comm line goes dead. Black smoke streaks from the stricken ship’s engines, and you can see flames billowing from aft compartments. [rival.name] keeps taking hits from the surface until [rival.heShe] has no choice but to veer off course, arcing away from the oasis and into the desert - deep into one of the zones your own sensors had flagged as dangerously radioactive.",
     "translation": "",
-    "context": "<<POS:01999950>>"
+    "context": "<<POS:01999954>>"
   },
   {
-    "key": "output|n_nYou_hit_the_comms_shouting_i_rival_name_Are_you_okay|5c3c96bfbd04",
-    "original": "\\n\\nYou hit the comms, shouting <i>“[rival.name]! Are you okay?”</i> over the open waves. Silence. <i>“Shit!”</i>",
+    "key": "output|You_hit_the_comms_shouting_i_rival_name_Are_you_okay_i|f7568cf5bb53",
+    "original": "You hit the comms, shouting <i>“[rival.name]! Are you okay?”</i> over the open waves. Silence. <i>“Shit!”</i>",
     "translation": "",
-    "context": "<<POS:02000734>>"
+    "context": "<<POS:02000738>>"
   },
   {
-    "key": "output|n_nNo_way_you_can_land_down_there_rival_name_s_going_to_be_l|7d1e1ccc5dbb",
-    "original": "\\n\\nNo way you can land down there. [rival.name]’s going to be lucky if [rival.heShe] doesn’t grow a third arm or something down there; even your microsurgeons aren’t a guarantee of safety.",
+    "key": "output|No_way_you_can_land_down_there_rival_name_s_going_to_be_lucky|3c5a9c3f9c41",
+    "original": "No way you can land down there. [rival.name]’s going to be lucky if [rival.heShe] doesn’t grow a third arm or something down there; even your microsurgeons aren’t a guarantee of safety.",
     "translation": "",
-    "context": "<<POS:02000858>>"
+    "context": "<<POS:02000862>>"
   },
   {
     "key": "output|i_That_s_for_the_sabotage_on_Tavros_i_you_laugh_watching|189d315f579b",
@@ -138,16 +138,16 @@
     "context": "<<POS:02001060>>"
   },
   {
-    "key": "output|n_nWith_a_heavy_sigh_you_scan_for_the_best_landing_site_outsid|73436c6f28c1",
-    "original": "\\n\\nWith a heavy sigh, you scan for the best landing site outside the red zone and head for it.",
+    "key": "output|With_a_heavy_sigh_you_scan_for_the_best_landing_site_outside_th|efa95f445c81",
+    "original": "With a heavy sigh, you scan for the best landing site outside the red zone and head for it.",
     "translation": "",
-    "context": "<<POS:02001384>>"
+    "context": "<<POS:02001388>>"
   },
   {
     "key": "button|Next|48fe197895a6",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02001524>>"
+    "context": "<<POS:02001524>> addButton(0,\"Next\",qp)"
   },
   {
     "key": "output|As_if_the_Kiha_corvette_wasn_t_bad_enough_now_there_s_anti_airc|5ee5d406dd25",
@@ -156,22 +156,16 @@
     "context": "<<POS:02001586>>"
   },
   {
-    "key": "output|n_nThe_ground_outside_is_dusty_and_dry_windswept_thanks_to_the|52e36ca2eede",
-    "original": "\\n\\nThe ground outside is dusty and dry, windswept thanks to the lack of vegetation to break it; there’s only rock and low-clinging grass as far as the eye can see. Well, that and sand. So, so much sand. You heave up from the captain’s seat and collect your kit. At the very least, if [rival.name] survived that crash, you’ve got plenty of time to catch up to [rival.hisHer] lead.\\n\\n",
+    "key": "output|The_ground_outside_is_dusty_and_dry_windswept_thanks_to_the_lac|8b5151a6a061",
+    "original": "The ground outside is dusty and dry, windswept thanks to the lack of vegetation to break it; there’s only rock and low-clinging grass as far as the eye can see. Well, that and sand. So, so much sand. You heave up from the captain’s seat and collect your kit. At the very least, if [rival.name] survived that crash, you’ve got plenty of time to catch up to [rival.hisHer] lead.",
     "translation": "",
-    "context": "<<POS:02001938>>"
+    "context": "<<POS:02001942>>"
   },
   {
-    "key": "bust|DIVRANI_CULTIST|681142a6e478",
-    "original": "DIVRANI_CULTIST",
-    "translation": "",
-    "context": "<<POS:02002538>>"
-  },
-  {
-    "key": "name.show|Kihan_Cultist|20fba69463c5",
+    "key": "name.show|Kihan_Cultist|1d5abee99f0e",
     "original": "Kihan Cultist",
     "translation": "",
-    "context": "<<POS:02002566>>"
+    "context": "<<POS:02002566>> showName(\"Kihan Cultist\")"
   },
   {
     "key": "output|There_s_a_cloaked_figure_standing_next_to_your_ship_carrying_a|382999a69fb4",
@@ -180,22 +174,22 @@
     "context": "<<POS:02002606>>"
   },
   {
-    "key": "output|n_nThat_hooded_cloak_is_also_just_about_all_she_s_wearing_besid|b111a1a9a023",
-    "original": "\\n\\nThat hooded cloak is also just about all she’s wearing besides some linen wraps around her hands and feet, giving you a good look at everything the strange techno-cultist has on offer: she’s about five and a half feet tall, with pale green... not skin, but rather full body scales that cover her from her clawed toes to the tiny hint of a snout cresting her face, fringed by ash-colored hair. The woman’s <b>incredibly</b> voluptuous, with tremendously broad hips that sit well past her shoulders, pendulous breasts each capped with a blooming crimson flower where a human would have a nipple, and... well, that’s certainly <b>something</b> hanging between her legs, but you honestly can’t be sure it’s a cock per se. It looks like a pinecone but made of flower petals, and it’s positively soaked through with moisture that trickles up from a juicy stalk in its center and out between its myriad lush petals. A long, thick tail sprouts from above her plump behind, swishing to and fro excitedly as she continues to crack her tool-staff against the side of your ship.",
+    "key": "output|That_hooded_cloak_is_also_just_about_all_she_s_wearing_besides_s|b265f69e8026",
+    "original": "That hooded cloak is also just about all she’s wearing besides some linen wraps around her hands and feet, giving you a good look at everything the strange techno-cultist has on offer: she’s about five and a half feet tall, with pale green... not skin, but rather full body scales that cover her from her clawed toes to the tiny hint of a snout cresting her face, fringed by ash-colored hair. The woman’s <b>incredibly</b> voluptuous, with tremendously broad hips that sit well past her shoulders, pendulous breasts each capped with a blooming crimson flower where a human would have a nipple, and... well, that’s certainly <b>something</b> hanging between her legs, but you honestly can’t be sure it’s a cock per se. It looks like a pinecone but made of flower petals, and it’s positively soaked through with moisture that trickles up from a juicy stalk in its center and out between its myriad lush petals. A long, thick tail sprouts from above her plump behind, swishing to and fro excitedly as she continues to crack her tool-staff against the side of your ship.",
     "translation": "",
-    "context": "<<POS:02003104>>"
+    "context": "<<POS:02003108>>"
   },
   {
-    "key": "output|n_nYou_pc_nmh_clear_your_throat_whistle_crack_your_pc_weapon|418993fa2c96",
-    "original": "\\n\\nYou [pc.nmh|clear your throat|whistle|crack your [pc.weapon] against the airlock] to get her attention, giving the cloaked woman such a start that she nearly drops her tool. She yelps, fumbling to catch it before it drops, and then turns to you with a lopsided grin full of triangular teeth.",
+    "key": "output|You_pc_nmh_clear_your_throat_whistle_crack_your_pc_weapon_aga|2adf47c1c894",
+    "original": "You [pc.nmh|clear your throat|whistle|crack your [pc.weapon] against the airlock] to get her attention, giving the cloaked woman such a start that she nearly drops her tool. She yelps, fumbling to catch it before it drops, and then turns to you with a lopsided grin full of triangular teeth.",
     "translation": "",
-    "context": "<<POS:02004185>>"
+    "context": "<<POS:02004189>>"
   },
   {
-    "key": "output|n_n_i_Your_airship_is_magnificent_i_she_says_running_a_ha|fc1cf01e8fea",
-    "original": "\\n\\n<i>“Your airship is magnificent!”</i> she says, running a hand through her ashen hair. Several strands of it wrap themselves around her wrist, trailing after her as if with a will of their own. <i>“",
+    "key": "output|i_Your_airship_is_magnificent_i_she_says_running_a_hand_t|20ab1a523a72",
+    "original": "<i>“Your airship is magnificent!”</i> she says, running a hand through her ashen hair. Several strands of it wrap themselves around her wrist, trailing after her as if with a will of their own. <i>“",
     "translation": "",
-    "context": "<<POS:02004491>>"
+    "context": "<<POS:02004495>>"
   },
   {
     "key": "output|In_good_condition_too_We_haven_t_been_getting_many_of_these_th|5192df544529",
@@ -222,22 +216,22 @@
     "context": "<<POS:02005067>>"
   },
   {
-    "key": "output|n_n_i_First_what_i_you_echo_back_i_pc_isAss_And_w|4a9f2cb4c99b",
-    "original": "\\n\\n<i>“First what?”</i> you echo back. <i>“\"+(pc.isAss()?\"And why are you hitting my ship if you like it so much?\":\"Stop hitting my ship!\")+\"”</i>\\n\\nShe glances between you and the hull, biting her azure lip. <i>“Sorry, I couldn’t help myself. She’s got a beautiful resonance, like a dragon’s purring. Mmm. Makes a girl get all leaky just hearing her sing.”</i>",
+    "key": "output|i_First_what_i_you_echo_back_i_pc_isAss_And_why_a|2c9d54f5056f",
+    "original": "<i>“First what?”</i> you echo back. <i>“\"+(pc.isAss()?\"And why are you hitting my ship if you like it so much?\":\"Stop hitting my ship!\")+\"”</i>\\n\\nShe glances between you and the hull, biting her azure lip. <i>“Sorry, I couldn’t help myself. She’s got a beautiful resonance, like a dragon’s purring. Mmm. Makes a girl get all leaky just hearing her sing.”</i>",
     "translation": "",
-    "context": "<<POS:02005083>>"
+    "context": "<<POS:02005087>>"
   },
   {
-    "key": "output|n_nShe_is_not_exaggerating_in_the_slightest_you_can_see_honey|a64d6c4bdbb5",
-    "original": "\\n\\nShe is not exaggerating in the slightest, you can see: honeysuckle amber trickles from her flowering nipples, and gooey white beads up between the petals of what you’re now entirely sure is a penis of some alien kind hanging softly between her prodigious thighs. If anything, your bewildered examination of her body sends an extra tremor through the appendage rather than giving her the slightest hint of shame.\"+(pc.isNude()?\" Finally, a place that <b>gets</b> you!\":\"\")",
+    "key": "output|She_is_not_exaggerating_in_the_slightest_you_can_see_honeysuck|363d9b4c1b77",
+    "original": "She is not exaggerating in the slightest, you can see: honeysuckle amber trickles from her flowering nipples, and gooey white beads up between the petals of what you’re now entirely sure is a penis of some alien kind hanging softly between her prodigious thighs. If anything, your bewildered examination of her body sends an extra tremor through the appendage rather than giving her the slightest hint of shame.\"+(pc.isNude()?\" Finally, a place that <b>gets</b> you!\":\"\")",
     "translation": "",
-    "context": "<<POS:02005457>>"
+    "context": "<<POS:02005461>>"
   },
   {
-    "key": "output|n_nThe_plush_scaly_girl_hefts_her_tool_up_i_Oh_Hmm_I_don_t|529ede7eea5c",
-    "original": "\\n\\nThe plush scaly-girl hefts her tool up. <i>“Oh. Hmm. I don’t think I’ve ever seen one of your species before.",
+    "key": "output|The_plush_scaly_girl_hefts_her_tool_up_i_Oh_Hmm_I_don_t_thi|f77c478d5b8b",
+    "original": "The plush scaly-girl hefts her tool up. <i>“Oh. Hmm. I don’t think I’ve ever seen one of your species before.",
     "translation": "",
-    "context": "<<POS:02005942>>"
+    "context": "<<POS:02005946>>"
   },
   {
     "key": "output|I_took_you_for_a_hyrax_at_first_but_that_s_not_quiiiiite_right|bf5e548a69a2",
@@ -255,25 +249,43 @@
     "key": "button|Sure|ba19e1cec40b",
     "original": "Sure",
     "translation": "",
-    "context": "<<POS:02006801>>"
+    "context": "<<POS:02006801>> addButton(0,\"Sure\",Vp,\"Sure\",\"You guess there’s no harm in it, right? In exchange, you might be able to pry some information out of her.\")"
   },
   {
-    "key": "button|No|e89a6ba8f0d4",
+    "key": "button.hover|Sure|ba19e1cec40b",
+    "original": "Sure",
+    "translation": "",
+    "context": "<<POS:02006811>> addButton(0,\"Sure\",Vp,\"Sure\",\"You guess there’s no harm in it, right? In exchange, you might be able to pry some information out of her.\")"
+  },
+  {
+    "key": "button.tooltip|You_guess_there_s_no_harm_in_it_right_In_exchange_you_might_b|50b0e11c5bc4",
+    "original": "You guess there’s no harm in it, right? In exchange, you might be able to pry some information out of her.",
+    "translation": "",
+    "context": "<<POS:02006818>> addButton(0,\"Sure\",Vp,\"Sure\",\"You guess there’s no harm in it, right? In exchange, you might be able to pry some information out of her.\")"
+  },
+  {
+    "key": "button|No|32cdc82b56d1",
     "original": "No",
     "translation": "",
-    "context": "<<POS:02006940>>"
+    "context": "<<POS:02006940>> addButton(1,\"No\",Up,\"No\",\"You don’t know who this woman works for or what she’ll do with those pics. It’s bad enough she was already banging on your hull!\")"
   },
   {
-    "key": "bust|DIVRANI_CULTIST|3eea03ca50f5",
-    "original": "DIVRANI_CULTIST",
+    "key": "button.hover|No|32cdc82b56d1",
+    "original": "No",
     "translation": "",
-    "context": "<<POS:02007122>>"
+    "context": "<<POS:02006948>> addButton(1,\"No\",Up,\"No\",\"You don’t know who this woman works for or what she’ll do with those pics. It’s bad enough she was already banging on your hull!\")"
   },
   {
-    "key": "name.show|Kihan_Cultist|20fba69463c5#1",
+    "key": "button.tooltip|You_don_t_know_who_this_woman_works_for_or_what_she_ll_do_with_t|15570b7e17d8",
+    "original": "You don’t know who this woman works for or what she’ll do with those pics. It’s bad enough she was already banging on your hull!",
+    "translation": "",
+    "context": "<<POS:02006953>> addButton(1,\"No\",Up,\"No\",\"You don’t know who this woman works for or what she’ll do with those pics. It’s bad enough she was already banging on your hull!\")"
+  },
+  {
+    "key": "name.show|Kihan_Cultist|aea8fd38aaf5",
     "original": "Kihan Cultist",
     "translation": "",
-    "context": "<<POS:02007150>>"
+    "context": "<<POS:02007150>> showName(\"Kihan Cultist\")"
   },
   {
     "key": "output|blockHeader_Cultist_Selfies|dcc0f10cb727",
@@ -288,58 +300,52 @@
     "context": "<<POS:02007229>>"
   },
   {
-    "key": "output|n_nShe_fiddles_with_the_computer_on_her_wrist_tail_wagging_har|33fefaa465e5",
-    "original": "\\n\\nShe fiddles with the computer on her wrist, tail wagging hard enough to kick up a sandcloud behind her. <i>“Perfect! I will tell all my sisters that Emberians are very friendly! Much friendlier than the bunch of xenos that dropped on First Skyfall. Whew, they were real pieces of work...”</i>",
+    "key": "output|She_fiddles_with_the_computer_on_her_wrist_tail_wagging_hard_en|b128a4055d14",
+    "original": "She fiddles with the computer on her wrist, tail wagging hard enough to kick up a sandcloud behind her. <i>“Perfect! I will tell all my sisters that Emberians are very friendly! Much friendlier than the bunch of xenos that dropped on First Skyfall. Whew, they were real pieces of work...”</i>",
     "translation": "",
-    "context": "<<POS:02007343>>"
+    "context": "<<POS:02007347>>"
   },
   {
-    "key": "output|n_nMight_as_well_take_the_opportunity_to_work_her_for_some_info|a9708f8ad02c",
-    "original": "\\n\\nMight as well take the opportunity to work her for some information, right? <i>“What’s First Skyfall, anyway? Your planet’s first contact with aliens?”</i>\\n\\n<i>“Uh-huh! Was about, oh, six months ago? Bunches of exoplanetary airships descended from the firmament, coming with alien technology, but also with wicked lies and collars of slavery. So the Evermind summoned all of her paladins and sent them out to reclaim the skylances of our ancestors, from before the Glass. She lit up the night with lances of atomic fire and hammers of holy tungsten, and tore the aliens to pieces.”</i>\\n\\nThe woman pauses to make a cogwheel symbol with both hands, a gesture she has to cut short to catch her tool before it falls over under its own weight. <i>“Ah, but once they left, the goddess said that she would unleash a great dragon in the heavens to defend us from any other evil xenos; that only her chosen would be allowed to land. And so you <b>must</b> be chosen by the Evermind as worthy.”</i>\\n\\nShe nods emphatically at her own proclamation, finally snapping a few photographs from her wrist device.\\n\\nA dragon in the heavens... that KihaCorp drone ship? Could this Evermind, whatever that is, have hacked the V.I.-controlled ship and turned it on the Rushers coming through? It’s hard to tell where religious fervor ends and science begins with her, if she even understands the difference.\\n\\n<i>“Who is this Evermind?”</i> you ask.\\n\\nIf there’s one thing a cultist can be relied on to do, it’s proselytize. <i>“Our goddess! The only one of the ancient deities to have survived the Glass War, or at least to return to us again after the nukas and hyraxi nearly scoured the world with fire. She is the goddess of technology and wisdom, of progress and of innovation - but not too much! Mmm, we all suffered from unbridled techno-sorcery in the Glass War. Now the goddess has taught us wisdom; wisdom to learn from the past, and not repeat our mistakes. She is also the mistress of the Radwood, the last great bastion of untainted life on the planet, held safe beneath the Curtain of Light.”</i>\\n\\n<i>“The Radwood?”</i> [rival.name] was heading for a forest before [rival.hisHer] ship was shot down; said that was where the probe was located. Sounds like your cousin got slapped down by the same atomic lances that the first Rushers did. <i>“Is that somewhere I could go?”</i>",
+    "key": "output|Might_as_well_take_the_opportunity_to_work_her_for_some_informat|cafac9bc012f",
+    "original": "Might as well take the opportunity to work her for some information, right? <i>“What’s First Skyfall, anyway? Your planet’s first contact with aliens?”</i>\\n\\n<i>“Uh-huh! Was about, oh, six months ago? Bunches of exoplanetary airships descended from the firmament, coming with alien technology, but also with wicked lies and collars of slavery. So the Evermind summoned all of her paladins and sent them out to reclaim the skylances of our ancestors, from before the Glass. She lit up the night with lances of atomic fire and hammers of holy tungsten, and tore the aliens to pieces.”</i>\\n\\nThe woman pauses to make a cogwheel symbol with both hands, a gesture she has to cut short to catch her tool before it falls over under its own weight. <i>“Ah, but once they left, the goddess said that she would unleash a great dragon in the heavens to defend us from any other evil xenos; that only her chosen would be allowed to land. And so you <b>must</b> be chosen by the Evermind as worthy.”</i>\\n\\nShe nods emphatically at her own proclamation, finally snapping a few photographs from her wrist device.\\n\\nA dragon in the heavens... that KihaCorp drone ship? Could this Evermind, whatever that is, have hacked the V.I.-controlled ship and turned it on the Rushers coming through? It’s hard to tell where religious fervor ends and science begins with her, if she even understands the difference.\\n\\n<i>“Who is this Evermind?”</i> you ask.\\n\\nIf there’s one thing a cultist can be relied on to do, it’s proselytize. <i>“Our goddess! The only one of the ancient deities to have survived the Glass War, or at least to return to us again after the nukas and hyraxi nearly scoured the world with fire. She is the goddess of technology and wisdom, of progress and of innovation - but not too much! Mmm, we all suffered from unbridled techno-sorcery in the Glass War. Now the goddess has taught us wisdom; wisdom to learn from the past, and not repeat our mistakes. She is also the mistress of the Radwood, the last great bastion of untainted life on the planet, held safe beneath the Curtain of Light.”</i>\\n\\n<i>“The Radwood?”</i> [rival.name] was heading for a forest before [rival.hisHer] ship was shot down; said that was where the probe was located. Sounds like your cousin got slapped down by the same atomic lances that the first Rushers did. <i>“Is that somewhere I could go?”</i>",
     "translation": "",
-    "context": "<<POS:02007650>>"
+    "context": "<<POS:02007654>>"
   },
   {
-    "key": "output|n_nThe_cultist_gasps_nearly_dropping_her_staff_again_i_Of_c|5264f713bc9b",
-    "original": "\\n\\nThe cultist gasps, nearly dropping her staff again. <i>“Of course! A chosen must pay homage to the Evermind; you wish to meet the goddess! Well, you can’t fly there - the Curtain of Light protects her domain from anything that flies, be it airship or missiles - but there’s a great train that still runs from the nuka cities and through the Shield Mountains. Shineglass Station isn’t that far off; you can probably make it before you die of radtaint or get enslaved by hyraxi warbois.”</i>",
+    "key": "output|The_cultist_gasps_nearly_dropping_her_staff_again_i_Of_cours|ad2f1c15e7be",
+    "original": "The cultist gasps, nearly dropping her staff again. <i>“Of course! A chosen must pay homage to the Evermind; you wish to meet the goddess! Well, you can’t fly there - the Curtain of Light protects her domain from anything that flies, be it airship or missiles - but there’s a great train that still runs from the nuka cities and through the Shield Mountains. Shineglass Station isn’t that far off; you can probably make it before you die of radtaint or get enslaved by hyraxi warbois.”</i>",
     "translation": "",
-    "context": "<<POS:02010044>>"
+    "context": "<<POS:02010048>>"
   },
   {
-    "key": "output|n_n_i_Before_I_b_what_b_i|b356541ed07c",
-    "original": "\\n\\n<i>“Before I <b>what</b>?”</i>",
+    "key": "output|i_Before_I_b_what_b_i|93979af9765e",
+    "original": "<i>“Before I <b>what</b>?”</i>",
     "translation": "",
-    "context": "<<POS:02010548>>"
+    "context": "<<POS:02010552>>"
   },
   {
-    "key": "output|n_n_i_Thanks_for_the_pics_i_the_girl_grins_tapping_a_few|867527d5d518",
-    "original": "\\n\\n<i>“Thanks for the pics!”</i> the girl grins, tapping a few more buttons on her wrist device. <i>“I have to run these back to a satlink before the radtaint fries my cogitator again. May the goddess’s wings shadow your steps, Emberian!”</i>",
+    "key": "output|i_Thanks_for_the_pics_i_the_girl_grins_tapping_a_few_more|7ba0f46b7208",
+    "original": "<i>“Thanks for the pics!”</i> the girl grins, tapping a few more buttons on her wrist device. <i>“I have to run these back to a satlink before the radtaint fries my cogitator again. May the goddess’s wings shadow your steps, Emberian!”</i>",
     "translation": "",
-    "context": "<<POS:02010593>>"
+    "context": "<<POS:02010597>>"
   },
   {
-    "key": "output|n_nShe_sketches_a_bow_drooling_gold_and_white_goo_into_a_growi|15b4ef543d08",
-    "original": "\\n\\nShe sketches a bow, drooling gold and white goo into a growing pool at her feet, before turning on a heel and dashing off with a mad giggle.",
+    "key": "output|She_sketches_a_bow_drooling_gold_and_white_goo_into_a_growing_p|65d64b6b245d",
+    "original": "She sketches a bow, drooling gold and white goo into a growing pool at her feet, before turning on a heel and dashing off with a mad giggle.",
     "translation": "",
-    "context": "<<POS:02010847>>"
+    "context": "<<POS:02010851>>"
   },
   {
     "key": "button|Next|3ab211bcc7ff",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02011105>>"
+    "context": "<<POS:02011105>> addButton(0,\"Next\",Zp)"
   },
   {
-    "key": "bust|DIVRANI_CULTIST|047873e5223f",
-    "original": "DIVRANI_CULTIST",
-    "translation": "",
-    "context": "<<POS:02011153>>"
-  },
-  {
-    "key": "name.show|Kihan_Cultist|20fba69463c5#2",
+    "key": "name.show|Kihan_Cultist|1513402e37f1",
     "original": "Kihan Cultist",
     "translation": "",
-    "context": "<<POS:02011181>>"
+    "context": "<<POS:02011181>> showName(\"Kihan Cultist\")"
   },
   {
     "key": "output|blockHeader_No_Flash_Photography_Please|d42220cc8e13",
@@ -354,16 +360,16 @@
     "context": "<<POS:02011274>>"
   },
   {
-    "key": "output|n_nThe_red_robed_nudist_s_blue_lip_quivers_i_B_but_it_s_so_C|57b9912d048c",
-    "original": "\\n\\nThe red-robed nudist’s blue lip quivers. <i>“B-but it’s so COOL! Aliens and an airship, all chosen for landing by the Evermind! I mean, she could have melted you out of the sky with her skylances, or devoured you with her dragon of heaven, but she let you land! That means you must be cool too! C’moooon.”</i>\\n\\nYou scowl and take a step forward. <i>“Fuck off.”</i>\\n\\nShe throws her hands up in exasperation. <i>“Maybe the goddess needs her circuits rechecked with you. Jerk!”</i> With a huff, she picks up her tool-staff and whirls her cloak around her, departing with a muttered series of curses on your motherboards. You keep watching until she vanishes over the horizon, making well sure that she’s gone before hopping down from the boarding ramp and rolling your shoulders. Alright, time to find your way towards that huge forest your cousin tried to land in. Even if it’s got anti-air that solid, maybe you can just walk in...",
+    "key": "output|The_red_robed_nudist_s_blue_lip_quivers_i_B_but_it_s_so_COOL|39e59f0160c6",
+    "original": "The red-robed nudist’s blue lip quivers. <i>“B-but it’s so COOL! Aliens and an airship, all chosen for landing by the Evermind! I mean, she could have melted you out of the sky with her skylances, or devoured you with her dragon of heaven, but she let you land! That means you must be cool too! C’moooon.”</i>\\n\\nYou scowl and take a step forward. <i>“Fuck off.”</i>\\n\\nShe throws her hands up in exasperation. <i>“Maybe the goddess needs her circuits rechecked with you. Jerk!”</i> With a huff, she picks up her tool-staff and whirls her cloak around her, departing with a muttered series of curses on your motherboards. You keep watching until she vanishes over the horizon, making well sure that she’s gone before hopping down from the boarding ramp and rolling your shoulders. Alright, time to find your way towards that huge forest your cousin tried to land in. Even if it’s got anti-air that solid, maybe you can just walk in...",
     "translation": "",
-    "context": "<<POS:02011373>>"
+    "context": "<<POS:02011377>>"
   },
   {
     "key": "button|Next|2d1288e15250",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02012426>>"
+    "context": "<<POS:02012426>> addButton(0,\"Next\",Zp)"
   },
   {
     "key": "output|With_a_quick_sequence_of_beeps_your_codex_chirps_i_Divrani_e|38e07d1aea73",
@@ -372,31 +378,19 @@
     "context": "<<POS:02012537>>"
   },
   {
-    "key": "output|n_nHm_it_took_while_but_at_least_you_have_more_information_on|6f0fd0fd883d",
-    "original": "\\n\\nHm, it took while, but at least you have more information on that mystery woman.",
+    "key": "output|Hm_it_took_while_but_at_least_you_have_more_information_on_tha|d36a5f7fb5f8",
+    "original": "Hm, it took while, but at least you have more information on that mystery woman.",
     "translation": "",
-    "context": "<<POS:02012628>>"
+    "context": "<<POS:02012632>>"
   },
   {
-    "key": "output|n_n|0cf73ad581f3",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:02012723>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30",
+    "key": "button|Next|a90f8527a096",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02012789>>"
+    "context": "<<POS:02012789>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
-    "key": "bust|DIVRANI_CULTIST|047873e5223f#1",
-    "original": "DIVRANI_CULTIST",
-    "translation": "",
-    "context": "<<POS:02012859>>"
-  },
-  {
-    "key": "output|textify_np_np_0_et_Z_n_t_flags_ELCINE_APPROACH_n_t_t_Elci|7640a428122a",
+    "key": "output|textify_np_np_0_et_Z_n_t_flags_ELCINE_APPROACH_n_t_t_Elci|31b80647e000",
     "original": "textify(np||(np=(0,et.Z)(['\\n\\t[flags.ELCINE_APPROACH\\n\\t\\t|Elcine [var1\\n\\t\\t\\t|bounces on her heels\\n\\t\\t\\t|glances up from her prayerful work\\n\\t\\t] as you approach. <i>“Greetings again, Emberian! Have you come to [var1\\n\\t\\t\\t|purchase a ticket?\\n\\t\\t\\t|try your hand at repairing this holy artifice?\\n\\t\\t]”</i> \\n\\t\\t|You make your way over to the ticket booth at the end of the platform, where the robed reptilian is bent over a machine swinging an aspergillum with her tail and chanting while she ratchets something inside it with her combi-tool staff. There’s no doubt its the same girl that you met when you first landed — there’s no mistaking a [silly\\n\\t\\t\\t|thiccness\\n\\t\\t\\t|figure\\n\\t\\t] like hers, venusian like a dzaan matriarch and better fed than most everyone you’ve seen on this planet combined.\\n\\t\\t\\n\\t\\tShe gasps when your shadow falls over her, straightening up in a hurry. Her crimson robe has once again come entirely unbound, hanging off her shoulders to expose the huge swells of her breasts, a plump tummy, and a floral cock wobbling between plush thighs. \\n\\t\\t\\n\\t\\t[var0\\n\\t\\t\\t|<i>“It’s you!”</i> the lizard-woman chirps excitedly, chubby tail swishing behind her. Incense-laden smoke billows from the ritual implement still wrapped around it, causing her to cough and splutter until she remembers to set it aside. She flashes you a toothy smile and inclines her head to you. <i>“I’m glad you made it, Emberian! The Evermind clearly <b>has</b> blessed you, that you’ve made it so far through the cursed lands. Be at ease, you are on neutral ground now: no one will dare accost you here!”</i>\\n\\t\\t\\t|<i>“So, you made it all the way here!”</i> the lizard-woman huffs, crossing her arms and flicking incense at you with her tail. <i>“Perhaps the Evermind’s blessing applies even to you, Emberian, despite your... you-ness. Still, we’re on neutral ground, so everyone will be civil as long as you are. No one dare accosts another on the Evermind’s sacred train stations.”</i>\\n\\t\\t]\\n\\t\\t\\n\\t\\t<i>“This place is some kind of neutral ground?”</i> you ask, glancing from the tech-priestess to the crater on the other end of the platform. \\n\\t\\t\\n\\t\\tShe follows your gaze, and titters. <i>“Sorta! The Phaedran Railway Corporation, blessed be its name, left behind powerful defenses at its stations before the war. Look.”</i>\\n\\t\\t\\n\\t\\tThe lizard-woman grabs the shutter on the ticket kiosk and lifts it up, revealing a small, featureless white cubical inside, in which six humanoid armatures are standing statue-like, gazing at you with faintly glowing crimson eyes. Each of them has long tail with a wickedly-barbed mace head attachment, and you can see holstered energy pistols on their hips.\\n\\t\\t\\n\\t\\t<i>“As long as everyone’s civil here, so are the holy guardians!”</i> she says, lowering the shutter again. <i>“Unfortunately that doesn’t apply to the wasteland, or even the electro-conveyance tracks connecting this station to the Radwood. All sorts of awful barbarians prey on the trains, and sometimes they’ll hit the station from afar by accident. But nobody is stupid enough to pick a fight here themselves! That’d be suicide.”</i>\\n\\t\\t\\n\\t\\t<i>“Uh-huh,”</i> you say, glancing warily between her and the kiosk. <i>“But the trains <b>do</b> still run?”</i>\\n\\t\\t\\n\\t\\tShe nods emphatically. <i>“Yep yep! It’s basically the only way to get around. The Radwood’s a thousand kloms from here, y’know, not to mention on the other side of the Shield Mountains. That’s a pilgrimage that takes a lifetime! I’d never survive that walk by myself, but the divine conveyance lets me commute out here to tend to the poor machines beyond the Evermind’s direct touch.”</i>\\n\\t\\t\\n\\t\\tRadwood... that’d be where [rival.name] tried to land. \\n\\t\\t\\n\\t\\t<i>“We Sisters of the Volt have to bless and sanctify all technology, even if it’s too big or important to where it is for us to take it under the Curtain of Light for safekeeping. It’s our holy mission!”</i> the lizard rambles on proudly, puffing out her prodigious chest. The flowering teats atop them release a particularly fragrant scent, mixing pleasantly with her incense. <i>“Unfortunately, some are more obstinate than others. Like this little one here. All the prayers and rites I know can’t seem to assuage its grumpy spirit.”</i>\\n\\t\\t\\n\\t\\tYou look at what you assume is the ticket machine, with a monochrome CRT screen that’s currently reading: \\n\\t\\t\\n\\t\\t<span class=\"text-center\"><b>++ERROR++\\n\\t\\t++CODE 404: SERVER CONNECTION NOT FOUND++\\n\\t\\t++PLEASE CONTACT AN EMPLOYEE FOR ASSISTANCE++\\n\\t\\t</b></span>\\n\\t\\t\\n\\t\\tBeneath the error is a stylized emblem of a sleek electric train cresting a globe, underneath a crest proudly proclaiming <i>“Phaedran Railway Corporation: Connecting the World Since 1725!”</i>\\n\\t\\t\\n\\t\\tThe lizard-girl pats the top of the machine like it’s a pouty child, and flicks some more incense-smoke at it. <i>“Don’t worry little one. Your big sister Elcine will make it all better. Somehow. After all, I’m kinda stuck here until I do!”</i>\\n\\t\\t\\n\\t\\t<i>“Stuck here?”</i> you ask. <i>“Can you not just buy a ticket on the train?”</i>\\n\\t\\t\\n\\t\\t<i>“Eheh, yeah, that’s the problem!”</i> She glances out onto the prairie waste, and the tracks stretching out to the horizon. <i>“The whole system is a work of glorious divine automation... that doesn’t stop the train at any stations where nobody’s bought a ticket. So until this machine’s error is placated, the trains will never, ever stop at Shineglass Station ever again! At least not until somebody from Radwood buys a ticket <b>to here</b> but I’m the only Sister assigned out here, soooo that’ll probably be a while before somebody realizes I’m actually stranded and not just playing with the locals longer than I should again. Mmm, actually, High Sister Selphine diiiid kinda say she wasn’t gonna send anybody to come get me if I got distracted by hyraxi boys again, soooo maybe nobody’ll ever come!”</i>\\n\\t\\t\\n\\t\\t<i>“Oh, great.”</i> You sigh. <i>“So how do we fix this thing?”</i>\\n\\t\\t\\n\\t\\t<i>“With devoted prayer and the ritual of reconnection, of course!”</i> The lizard — Elcine, you suppose — insists. <i>“It will work... eventually! But perhaps the Emberian would like to try? I would love to see your kind’s technical skills in action, for surely one blessed by the Evermind must have brilliance beyond compare[var0\\n\\t\\t\\t|\\n\\t\\t\\t| to make up for that attitude\\n\\t\\t].”</i>\\n\\t]\\n\\t']))),[function(){return window.kihanReputation()>0},function(){return!!flags.SHINEGLASS_TICKETMACHINE_FIXED}]",
     "translation": "",
     "context": "<<POS:02012975>>"
@@ -405,37 +399,103 @@
     "key": "button|Fix_Machine|6a3247789f27",
     "original": "Fix Machine",
     "translation": "",
-    "context": "<<POS:02019698>>"
+    "context": "<<POS:02019698>> addButton(e++,\"Fix Machine\",om,\"Fix Machine\",\"Try your hand at repairing the machine, since Elcine clearly isn’t making much progress on her own...\")"
   },
   {
-    "key": "button|Buy_a_ticket|1c756bd83310",
+    "key": "button.hover|Fix_Machine|6a3247789f27",
+    "original": "Fix Machine",
+    "translation": "",
+    "context": "<<POS:02019715>> addButton(e++,\"Fix Machine\",om,\"Fix Machine\",\"Try your hand at repairing the machine, since Elcine clearly isn’t making much progress on her own...\")"
+  },
+  {
+    "key": "button.tooltip|Try_your_hand_at_repairing_the_machine_since_Elcine_clearly_isn|968a99a1287a",
+    "original": "Try your hand at repairing the machine, since Elcine clearly isn’t making much progress on her own...",
+    "translation": "",
+    "context": "<<POS:02019729>> addButton(e++,\"Fix Machine\",om,\"Fix Machine\",\"Try your hand at repairing the machine, since Elcine clearly isn’t making much progress on her own...\")"
+  },
+  {
+    "key": "button|Buy_a_ticket|11704b817c90",
     "original": "Buy a ticket",
     "translation": "",
-    "context": "<<POS:02019848>>"
+    "context": "<<POS:02019848>> addButton(e++,\"Buy a ticket\",cm,\"Buy a ticket\",\"Get a ticket back to Shieldrock Station.\")"
   },
   {
-    "key": "button|Ask_Sisters|667dbb627337",
+    "key": "button.hover|Buy_a_ticket|11704b817c90",
+    "original": "Buy a ticket",
+    "translation": "",
+    "context": "<<POS:02019866>> addButton(e++,\"Buy a ticket\",cm,\"Buy a ticket\",\"Get a ticket back to Shieldrock Station.\")"
+  },
+  {
+    "key": "button.tooltip|Get_a_ticket_back_to_Shieldrock_Station|a3fe8d9bc516",
+    "original": "Get a ticket back to Shieldrock Station.",
+    "translation": "",
+    "context": "<<POS:02019881>> addButton(e++,\"Buy a ticket\",cm,\"Buy a ticket\",\"Get a ticket back to Shieldrock Station.\")"
+  },
+  {
+    "key": "button|Ask_Sisters|fafe3056e89d",
     "original": "Ask: Sisters",
     "translation": "",
-    "context": "<<POS:02020257>>"
+    "context": "<<POS:02020257>> addButton(5,\"Ask: Sisters\",$p,\"Ask: Sisters\",\"Elcine mentioned she belonged to a religious sisterhood?\")"
   },
   {
-    "key": "button|Ask_Evermind|c5f31bfad1df",
+    "key": "button.hover|Ask_Sisters|fafe3056e89d",
+    "original": "Ask: Sisters",
+    "translation": "",
+    "context": "<<POS:02020275>> addButton(5,\"Ask: Sisters\",$p,\"Ask: Sisters\",\"Elcine mentioned she belonged to a religious sisterhood?\")"
+  },
+  {
+    "key": "button.tooltip|Elcine_mentioned_she_belonged_to_a_religious_sisterhood|9c345c0e4e28",
+    "original": "Elcine mentioned she belonged to a religious sisterhood?",
+    "translation": "",
+    "context": "<<POS:02020290>> addButton(5,\"Ask: Sisters\",$p,\"Ask: Sisters\",\"Elcine mentioned she belonged to a religious sisterhood?\")"
+  },
+  {
+    "key": "button|Ask_Evermind|e5d0de031601",
     "original": "Ask: Evermind",
     "translation": "",
-    "context": "<<POS:02020362>>"
+    "context": "<<POS:02020362>> addButton(6,\"Ask: Evermind\",em,\"Ask: Evermind\",\"So what can she tell you about this Evermind, really?\")"
   },
   {
-    "key": "button|Ask_Trains|e94faefed1eb",
+    "key": "button.hover|Ask_Evermind|e5d0de031601",
+    "original": "Ask: Evermind",
+    "translation": "",
+    "context": "<<POS:02020381>> addButton(6,\"Ask: Evermind\",em,\"Ask: Evermind\",\"So what can she tell you about this Evermind, really?\")"
+  },
+  {
+    "key": "button.tooltip|So_what_can_she_tell_you_about_this_Evermind_really|4b572460b7b7",
+    "original": "So what can she tell you about this Evermind, really?",
+    "translation": "",
+    "context": "<<POS:02020397>> addButton(6,\"Ask: Evermind\",em,\"Ask: Evermind\",\"So what can she tell you about this Evermind, really?\")"
+  },
+  {
+    "key": "button|Ask_Trains|e77fa007cf8a",
     "original": "Ask: Trains",
     "translation": "",
-    "context": "<<POS:02020466>>"
+    "context": "<<POS:02020466>> addButton(7,\"Ask: Trains\",tm,\"Ask: Trains\",\"So what’s the big deal with the choo-choos?\")"
   },
   {
-    "key": "button|Leave|a9b224fab89f",
+    "key": "button.hover|Ask_Trains|e77fa007cf8a",
+    "original": "Ask: Trains",
+    "translation": "",
+    "context": "<<POS:02020483>> addButton(7,\"Ask: Trains\",tm,\"Ask: Trains\",\"So what’s the big deal with the choo-choos?\")"
+  },
+  {
+    "key": "button.tooltip|So_what_s_the_big_deal_with_the_choo_choos|1bbd956edf3b",
+    "original": "So what’s the big deal with the choo-choos?",
+    "translation": "",
+    "context": "<<POS:02020497>> addButton(7,\"Ask: Trains\",tm,\"Ask: Trains\",\"So what’s the big deal with the choo-choos?\")"
+  },
+  {
+    "key": "button|Leave|723d3350b850",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:02020557>>"
+    "context": "<<POS:02020557>> addButton(14,\"Leave\",mainGameMenu,\"Leave\",\"\")"
+  },
+  {
+    "key": "button.hover|Leave|723d3350b850",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:02020578>> addButton(14,\"Leave\",mainGameMenu,\"Leave\",\"\")"
   },
   {
     "key": "output|textify_ap_ap_0_et_Z_n_tYou_lean_against_the_kiosk_next_t|f501924bf38c",
@@ -471,52 +531,124 @@
     "key": "button|Kinetic_Fix|fb43d2607027",
     "original": "Kinetic Fix",
     "translation": "",
-    "context": "<<POS:02031306>>"
+    "context": "<<POS:02031306>> addButton(0,\"Kinetic Fix\",nm,\"Kinetic Fix\",\"Give it a good ol’ bonk.\")"
   },
   {
-    "key": "button|Kinetic_Fix|74539d7ddbaa",
+    "key": "button.hover|Kinetic_Fix|fb43d2607027",
     "original": "Kinetic Fix",
     "translation": "",
-    "context": "<<POS:02031385>>"
+    "context": "<<POS:02031323>> addButton(0,\"Kinetic Fix\",nm,\"Kinetic Fix\",\"Give it a good ol’ bonk.\")"
   },
   {
-    "key": "button|Bypass|1f8afc360eca",
+    "key": "button.tooltip|Give_it_a_good_ol_bonk|9533e7a99b1e",
+    "original": "Give it a good ol’ bonk.",
+    "translation": "",
+    "context": "<<POS:02031337>> addButton(0,\"Kinetic Fix\",nm,\"Kinetic Fix\",\"Give it a good ol’ bonk.\")"
+  },
+  {
+    "key": "button|Kinetic_Fix|20bb48caddd6",
+    "original": "Kinetic Fix",
+    "translation": "",
+    "context": "<<POS:02031385>> addDisabledButton(0,\"Kinetic Fix\",\"Kinetic Fix\",\"You’re not strong enough to attempt percussive maintenance on such an advanced machine.\")"
+  },
+  {
+    "key": "button.hover|You_re_not_strong_enough_to_attempt_percussive_maintenance_on_su|19ffa149d927",
+    "original": "You’re not strong enough to attempt percussive maintenance on such an advanced machine.",
+    "translation": "",
+    "context": "<<POS:02031413>> addDisabledButton(0,\"Kinetic Fix\",\"Kinetic Fix\",\"You’re not strong enough to attempt percussive maintenance on such an advanced machine.\")"
+  },
+  {
+    "key": "button|Bypass|96e1b3261225",
     "original": "Bypass",
     "translation": "",
-    "context": "<<POS:02031591>>"
+    "context": "<<POS:02031591>> addButton(1,\"Bypass\",im,\"Bypass\",\"It could be a problem with the wires. If you bypass the damage, maybe you could reconnect to the server?\")"
   },
   {
-    "key": "button|Bypass|cd26444af4b3",
+    "key": "button.hover|Bypass|96e1b3261225",
     "original": "Bypass",
     "translation": "",
-    "context": "<<POS:02031782>>"
+    "context": "<<POS:02031603>> addButton(1,\"Bypass\",im,\"Bypass\",\"It could be a problem with the wires. If you bypass the damage, maybe you could reconnect to the server?\")"
   },
   {
-    "key": "button|Bypass|cd26444af4b3#1",
+    "key": "button.tooltip|It_could_be_a_problem_with_the_wires_If_you_bypass_the_damage|abb9baf4f07d",
+    "original": "It could be a problem with the wires. If you bypass the damage, maybe you could reconnect to the server?",
+    "translation": "",
+    "context": "<<POS:02031612>> addButton(1,\"Bypass\",im,\"Bypass\",\"It could be a problem with the wires. If you bypass the damage, maybe you could reconnect to the server?\")"
+  },
+  {
+    "key": "button|Bypass|e216af3ecf3d",
     "original": "Bypass",
     "translation": "",
-    "context": "<<POS:02031940>>"
+    "context": "<<POS:02031782>> addDisabledButton(1,\"Bypass\",\"Bypass\",\"You’ve got a better idea to bypass the damage than by messing with the hardware....\")"
   },
   {
-    "key": "button|Bypass|cd26444af4b3#2",
+    "key": "button.hover|You_ve_got_a_better_idea_to_bypass_the_damage_than_by_messing_wi|b013965f8f58",
+    "original": "You’ve got a better idea to bypass the damage than by messing with the hardware....",
+    "translation": "",
+    "context": "<<POS:02031800>> addDisabledButton(1,\"Bypass\",\"Bypass\",\"You’ve got a better idea to bypass the damage than by messing with the hardware....\")"
+  },
+  {
+    "key": "button|Bypass|30752cf0dc97",
     "original": "Bypass",
     "translation": "",
-    "context": "<<POS:02032042>>"
+    "context": "<<POS:02031940>> addButton(1,\"Bypass\",am,\"Bypass\",\"Perhaps a jiggle in a place beyond where hands can reach?\")"
   },
   {
-    "key": "button|Software_Fix|7e1934dca12f",
+    "key": "button.hover|Bypass|30752cf0dc97",
+    "original": "Bypass",
+    "translation": "",
+    "context": "<<POS:02031952>> addButton(1,\"Bypass\",am,\"Bypass\",\"Perhaps a jiggle in a place beyond where hands can reach?\")"
+  },
+  {
+    "key": "button.tooltip|Perhaps_a_jiggle_in_a_place_beyond_where_hands_can_reach|bb7872c737f3",
+    "original": "Perhaps a jiggle in a place beyond where hands can reach?",
+    "translation": "",
+    "context": "<<POS:02031961>> addButton(1,\"Bypass\",am,\"Bypass\",\"Perhaps a jiggle in a place beyond where hands can reach?\")"
+  },
+  {
+    "key": "button|Bypass|dd3bd829c344",
+    "original": "Bypass",
+    "translation": "",
+    "context": "<<POS:02032042>> addDisabledButton(1,\"Bypass\",\"Bypass\",\"You’ve got no experience with the damaged hardware to figure out how to bypass it.\")"
+  },
+  {
+    "key": "button.hover|You_ve_got_no_experience_with_the_damaged_hardware_to_figure_out|ae08b853d4ca",
+    "original": "You’ve got no experience with the damaged hardware to figure out how to bypass it.",
+    "translation": "",
+    "context": "<<POS:02032060>> addDisabledButton(1,\"Bypass\",\"Bypass\",\"You’ve got no experience with the damaged hardware to figure out how to bypass it.\")"
+  },
+  {
+    "key": "button|Software_Fix|585866ae4e6b",
     "original": "Software Fix",
     "translation": "",
-    "context": "<<POS:02032200>>"
+    "context": "<<POS:02032200>> addButton(2,\"Software Fix\",um,\"Software Fix\",\"Maybe you can just reboot the damn thing.\")"
   },
   {
-    "key": "button|Software_Fix|8db54c9818d9",
+    "key": "button.hover|Software_Fix|585866ae4e6b",
     "original": "Software Fix",
     "translation": "",
-    "context": "<<POS:02032298>>"
+    "context": "<<POS:02032218>> addButton(2,\"Software Fix\",um,\"Software Fix\",\"Maybe you can just reboot the damn thing.\")"
   },
   {
-    "key": "button.text|Lewd_Repair|c7a090efc551",
+    "key": "button.tooltip|Maybe_you_can_just_reboot_the_damn_thing|e0ac2e2c1693",
+    "original": "Maybe you can just reboot the damn thing.",
+    "translation": "",
+    "context": "<<POS:02032233>> addButton(2,\"Software Fix\",um,\"Software Fix\",\"Maybe you can just reboot the damn thing.\")"
+  },
+  {
+    "key": "button|Software_Fix|5dc021efa93b",
+    "original": "Software Fix",
+    "translation": "",
+    "context": "<<POS:02032298>> addDisabledButton(2,\"Software Fix\",\"Software Fix\",\"You don’t have the technical knowledge to attempt messing with the software.\")"
+  },
+  {
+    "key": "button.hover|You_don_t_have_the_technical_knowledge_to_attempt_messing_with_t|41e33741424a",
+    "original": "You don’t have the technical knowledge to attempt messing with the software.",
+    "translation": "",
+    "context": "<<POS:02032328>> addDisabledButton(2,\"Software Fix\",\"Software Fix\",\"You don’t have the technical knowledge to attempt messing with the software.\")"
+  },
+  {
+    "key": "button.text|Lewd_Repair|916e2226800b",
     "original": "Lewd Repair",
     "translation": "",
     "context": "<<POS:02032441>>"
@@ -543,7 +675,7 @@
     "key": "button|Next|78f7b2fade9d",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02034687>>"
+    "context": "<<POS:02034687>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|textify_lp_lp_0_et_Z_You_aren_t_strong_enough_to_wrestle_w|d9c945073f48",
@@ -555,7 +687,7 @@
     "key": "button|Next|78f7b2fade9d#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02035597>>"
+    "context": "<<POS:02035597>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|textify_dp_dp_0_et_Z_You_step_past_the_lizard_girl_and_rol|64269aec73fb",
@@ -567,7 +699,7 @@
     "key": "button|Start|41c6b9803292",
     "original": "Start",
     "translation": "",
-    "context": "<<POS:02035885>>"
+    "context": "<<POS:02035885>> addButton(0,\"Start\",sm)"
   },
   {
     "key": "output|textify_cp_cp_0_et_Z_i_That_s_it_You_re_doing_it_i|500398716503",
@@ -579,7 +711,7 @@
     "key": "button|Next|78f7b2fade9d#2",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02037890>>"
+    "context": "<<POS:02037890>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|textify_gp_gp_0_et_Z_A_shower_of_sparks_and_a_plume_of_smo|23783261e88d",
@@ -591,13 +723,13 @@
     "key": "button|Restart_Circuit|282cc3d47c9d",
     "original": "Restart Circuit",
     "translation": "",
-    "context": "<<POS:02038598>>"
+    "context": "<<POS:02038598>> addButton(0,\"Restart Circuit\",sm)"
   },
   {
     "key": "button|Leave_It|971819ffa60c",
     "original": "Leave It",
     "translation": "",
-    "context": "<<POS:02038632>>"
+    "context": "<<POS:02038632>> addButton(1,\"Leave It\",mainGameMenu)"
   },
   {
     "key": "output|textify_yp_yp_0_et_Z_This_may_be_a_machine_built_by_the_ha|5ff5eb94a978",
@@ -609,7 +741,7 @@
     "key": "button|Next|78f7b2fade9d#3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02040295>>"
+    "context": "<<POS:02040295>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|textify_pp_pp_0_et_Z_i_I_m_sure_you_can_figure_it_out_wi|885ccb0181d3",
@@ -621,7 +753,7 @@
     "key": "button|Next|953e5e6344b5",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02044557>>"
+    "context": "<<POS:02044557>> addButton(0,\"Next\",dm)"
   },
   {
     "key": "output|textify_mp_mp_0_et_Z_Elcine_makes_an_awkward_show_of_grabb|20f216156c81",
@@ -633,7 +765,7 @@
     "key": "button|Next|8bdec8f5357e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02048604>>"
+    "context": "<<POS:02048604>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|textify_fp_fp_0_et_Z_You_approach_the_ticket_machine_queu|a6f031d03f51",
@@ -645,7 +777,7 @@
     "key": "button|Next|f3062df66050",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02049293>>"
+    "context": "<<POS:02049293>> addButton(0,\"Next\",(function(){clearOutput(),output(textify(wp||(wp=(0,et.Z)([\"A few hours later, your train arrives at Shieldrock station. Under the watchful eyes of the DEE-SL crew, you and the other passengers disembark back into the vibrant forest...\"])))),processTime(240+rand(30)),skipToRoom(\"V..."
   },
   {
     "key": "output|textify_kp_kp_0_et_Z_n_t_i_Hey_Elcine_i_you_say_f|8251d22bc798",
@@ -657,37 +789,67 @@
     "key": "button|Ask_Sisters|f28d053b3289",
     "original": "Ask: Sisters",
     "translation": "",
-    "context": "<<POS:02050537>>"
+    "context": "<<POS:02050537>> addButton(e++,\"Ask: Sisters\",(function(){$p(),ym(),setButtonDisabled(\"Ask: Sisters\")}))"
   },
   {
-    "key": "button|Ask_Evermind|c5f31bfad1df#1",
+    "key": "button|Ask_Evermind|c5f31bfad1df",
     "original": "Ask: Evermind",
     "translation": "",
-    "context": "<<POS:02050625>>"
+    "context": "<<POS:02050625>> addButton(e++,\"Ask: Evermind\",(function(){em(),ym(),setButtonDisabled(\"Ask: Evermind\")}))"
   },
   {
-    "key": "button|Ask_Trains|e94faefed1eb#1",
+    "key": "button|Ask_Trains|e94faefed1eb",
     "original": "Ask: Trains",
     "translation": "",
-    "context": "<<POS:02050715>>"
+    "context": "<<POS:02050715>> addButton(e++,\"Ask: Trains\",(function(){tm(),ym(),setButtonDisabled(\"Ask: Trains\")}))"
   },
   {
     "key": "button|Ask_Raiders|20129c7ab7c4",
     "original": "Ask: Raiders",
     "translation": "",
-    "context": "<<POS:02050801>>"
+    "context": "<<POS:02050801>> addButton(e++,\"Ask: Raiders\",pm,\"Ask: Raiders\",\"The raiders you encountered -- was that a normal occurrence out here?\")"
   },
   {
-    "key": "button|Ask_Forest|dd64ade2db02",
+    "key": "button.hover|Ask_Raiders|20129c7ab7c4",
+    "original": "Ask: Raiders",
+    "translation": "",
+    "context": "<<POS:02050819>> addButton(e++,\"Ask: Raiders\",pm,\"Ask: Raiders\",\"The raiders you encountered -- was that a normal occurrence out here?\")"
+  },
+  {
+    "key": "button.tooltip|The_raiders_you_encountered_was_that_a_normal_occurrence_out|f71b576c0f3b",
+    "original": "The raiders you encountered -- was that a normal occurrence out here?",
+    "translation": "",
+    "context": "<<POS:02050834>> addButton(e++,\"Ask: Raiders\",pm,\"Ask: Raiders\",\"The raiders you encountered -- was that a normal occurrence out here?\")"
+  },
+  {
+    "key": "button|Ask_Forest|cf29fe33f60b",
     "original": "Ask: Forest",
     "translation": "",
-    "context": "<<POS:02050921>>"
+    "context": "<<POS:02050921>> addButton(e++,\"Ask: Forest\",mm,\"Ask: Forest\",\"Ask Elcine about the forest beyond the mountains. She’s a native, so what can she tell you?\")"
   },
   {
-    "key": "button|Leave|4a60eb9c9d72",
+    "key": "button.hover|Ask_Forest|cf29fe33f60b",
+    "original": "Ask: Forest",
+    "translation": "",
+    "context": "<<POS:02050938>> addButton(e++,\"Ask: Forest\",mm,\"Ask: Forest\",\"Ask Elcine about the forest beyond the mountains. She’s a native, so what can she tell you?\")"
+  },
+  {
+    "key": "button.tooltip|Ask_Elcine_about_the_forest_beyond_the_mountains_She_s_a_native|1d6860f068fe",
+    "original": "Ask Elcine about the forest beyond the mountains. She’s a native, so what can she tell you?",
+    "translation": "",
+    "context": "<<POS:02050952>> addButton(e++,\"Ask: Forest\",mm,\"Ask: Forest\",\"Ask Elcine about the forest beyond the mountains. She’s a native, so what can she tell you?\")"
+  },
+  {
+    "key": "button|Leave|119eb3b6e361",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:02051411>>"
+    "context": "<<POS:02051411>> addButton(14,\"Leave\",mainGameMenu,\"Leave\",\"\")"
+  },
+  {
+    "key": "button.hover|Leave|119eb3b6e361",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:02051432>> addButton(14,\"Leave\",mainGameMenu,\"Leave\",\"\")"
   },
   {
     "key": "output|textify_vp_vp_0_et_Z_n_t_i_Do_attacks_like_the_one_we_ex|d7d3358af4e2",
@@ -711,22 +873,58 @@
     "key": "button|Drown_in_Ass|140f7b80c712",
     "original": "Drown in Ass",
     "translation": "",
-    "context": "<<POS:02059997>>"
+    "context": "<<POS:02059997>> addButton(e++,\"Drown in Ass\",wm,\"Drown in Ass\",\"Bury your face in all that immensity, licking and kissing all over the lizard-girl’s titanic dumptruck while giving her a handy.\")"
   },
   {
-    "key": "button|Flower_Ride|5fbd4546c418",
+    "key": "button.hover|Drown_in_Ass|140f7b80c712",
+    "original": "Drown in Ass",
+    "translation": "",
+    "context": "<<POS:02060015>> addButton(e++,\"Drown in Ass\",wm,\"Drown in Ass\",\"Bury your face in all that immensity, licking and kissing all over the lizard-girl’s titanic dumptruck while giving her a handy.\")"
+  },
+  {
+    "key": "button.tooltip|Bury_your_face_in_all_that_immensity_licking_and_kissing_all_ov|bf42d9c62f1e",
+    "original": "Bury your face in all that immensity, licking and kissing all over the lizard-girl’s titanic dumptruck while giving her a handy.",
+    "translation": "",
+    "context": "<<POS:02060030>> addButton(e++,\"Drown in Ass\",wm,\"Drown in Ass\",\"Bury your face in all that immensity, licking and kissing all over the lizard-girl’s titanic dumptruck while giving her a handy.\")"
+  },
+  {
+    "key": "button|Flower_Ride|b6ab4a3b9bdc",
     "original": "Flower Ride",
     "translation": "",
-    "context": "<<POS:02060355>>"
+    "context": "<<POS:02060355>> addButton(e++,\"Flower Ride\",km,\"Flower Ride\",\"Give Elcine a thorough fingerbanging to get her nice and hard for you -- or at least as hard as a flower-cock can get -- and then climb into her lap and try to ride her squishy dick.\")"
   },
   {
-    "key": "button|Tail_Peg|fb9cf43894f1",
+    "key": "button.hover|Flower_Ride|b6ab4a3b9bdc",
+    "original": "Flower Ride",
+    "translation": "",
+    "context": "<<POS:02060372>> addButton(e++,\"Flower Ride\",km,\"Flower Ride\",\"Give Elcine a thorough fingerbanging to get her nice and hard for you -- or at least as hard as a flower-cock can get -- and then climb into her lap and try to ride her squishy dick.\")"
+  },
+  {
+    "key": "button.tooltip|Give_Elcine_a_thorough_fingerbanging_to_get_her_nice_and_hard_fo|5824d82cb944",
+    "original": "Give Elcine a thorough fingerbanging to get her nice and hard for you -- or at least as hard as a flower-cock can get -- and then climb into her lap and try to ride her squishy dick.",
+    "translation": "",
+    "context": "<<POS:02060386>> addButton(e++,\"Flower Ride\",km,\"Flower Ride\",\"Give Elcine a thorough fingerbanging to get her nice and hard for you -- or at least as hard as a flower-cock can get -- and then climb into her lap and try to ride her squishy dick.\")"
+  },
+  {
+    "key": "button|Tail_Peg|342f952a0f56",
     "original": "Tail Peg",
     "translation": "",
-    "context": "<<POS:02060586>>"
+    "context": "<<POS:02060586>> addButton(e++,\"Tail Peg\",vm,\"Tail Peg\",\"Elcine’s got a big, fat, wriggly tail. Lube it up and get the excitable lizard to pound you out with it.\")"
   },
   {
-    "key": "output|textify_Sp_Sp_0_et_Z_n_tYou_dig_your_hands_into_the_divra|874e7104dc4a",
+    "key": "button.hover|Tail_Peg|342f952a0f56",
+    "original": "Tail Peg",
+    "translation": "",
+    "context": "<<POS:02060600>> addButton(e++,\"Tail Peg\",vm,\"Tail Peg\",\"Elcine’s got a big, fat, wriggly tail. Lube it up and get the excitable lizard to pound you out with it.\")"
+  },
+  {
+    "key": "button.tooltip|Elcine_s_got_a_big_fat_wriggly_tail_Lube_it_up_and_get_the_ex|71a800ec4d1f",
+    "original": "Elcine’s got a big, fat, wriggly tail. Lube it up and get the excitable lizard to pound you out with it.",
+    "translation": "",
+    "context": "<<POS:02060611>> addButton(e++,\"Tail Peg\",vm,\"Tail Peg\",\"Elcine’s got a big, fat, wriggly tail. Lube it up and get the excitable lizard to pound you out with it.\")"
+  },
+  {
+    "key": "output|textify_Sp_Sp_0_et_Z_n_tYou_dig_your_hands_into_the_divra|0f26149853fa",
     "original": "textify(Sp||(Sp=(0,et.Z)([\"\\n\\tYou dig your hands into the divrani’s immense, smoothly-scaled rear end, watching gleefully as your fingers disappear into a sea of jiggling green. Elcine’s tail curls ever upward, inviting you to get as close as you’d like to her. <i>“I am glad to see Emberians are just as able to appreciate a shapely rear as anyone!”</i> She gives her hips a slight sway, which butterflies into a tremendous wobble around your hands. <i>“Go ahead, do whatever comes naturally.”</i>\\n\\t\\n\\tShe’s a little more than <b>shapely</b>, but she seems to know what’ll come to mind when she’s thrusting all of that back at you. You slip down on your [pc.knees], nuzzling into Elcine’s plump rump and using your hands to squish her around your [pc.face]. The outermost rim of the divrani’s thick cloaca brushes your [pc.lips], leaving the faintest hint of a sweet taste clinging to them. \\n\\t\\n\\t<i>“You’re nice and wet for me,”</i> you muse, slipping a finger into the lizard’s pink slit. \\n\\t\\n\\tYou feel her muscles tighten around you in surprise, but that momentary resistance melts away in a blink. <i>“Well <b>yeah</b>. Have you seen you?”</i>\\n\\t\\n\\tFair point. You give Elcine a spank and push your face <b>deep</b> into her cleavage, giving it a vigorous motorboating. Her tail curls around your shoulders, helping force you so deep that your entire face is consumed in tush. You thrust your [pc.tongue] out blindly, searching out the lips of Elcine’s sex to lap up that sweet dew. Her entrance is soft, almost spongy, and it carries a delightfully fruity taste that perfectly befits the floral lizard-girl. You greedily kiss her lips, licking up her juices, before finally driving her tongue into her. \\n\\t\\n\\t<i>“A-ah! You like it that much?”</i> Elcine moans, rocking forward against the bed. \\n\\t\\n\\tOh, you do. You let her know it in the best way you can: by hungrily eating her out, shaking your head between licks to send her callipygian rear jiggling like crazy. She squeals and rocks her hips right back, slapping your cheek with uncounted pounds of assmeat while her insides squeeze your tongue — but all that does is bathe you in her taste! You barely even notice how little you can breathe this way, as every gulp of air is thick with Elcine’s scent, the sweet mix of desire and sweat that drives you wild.\\n\\t\\n\\tJust as you’re driving her wild, too. Elcine’s thighs are too thick for you to be able to see it even if she were standing, but you can certainly smell the virile flower-cock starting to leak around the other end of her. With some effort, you’re able to reach a hand ‘round her door-blocker hips and get your hands around it. The divrani’s cock is soft as silk, each petal delicate and wet in your hand. You grip it gently and stroke downwards just the once, and are rewarded by a throaty cry from your lover and a deluge of juices spilling across your fingers. It’s watery and oily, more like lube than cum, and it clings to your fingers like a glove. You wipe it away on Elcine’s thigh, and then go in for another stroke, savoring the way your squeezes immediately milk out a whole orgasm’s worth of juices from between her folds. Every flick of your wrist sends ripples through the plump lizard’s body, splashing your lips with her rising excitement while a mix of juices pitter-patter into a growing puddle between her dainty green feet. \\n\\t\\n\\tShe gasps, lifting a hand off the bedside to bite her knuckle. <i>“Be gentle with it!”</i>\\n\\t\\n\\t<i>“Just this?”</i> you manage to say, giving her soft prick another squeeze. Streams of oily goo spill out between your fingers, painting her thighs. \\n\\t\\n\\t<i>“Just that part!”</i> Elcine says. <i>“You can get as rough as you want with the rest, Emberian, but my penis is very delicate!”</i> \\n\\t\\n\\tYou grip your way down her shaft, making Elcine gasp and moan and leak all over. <i>“Mmhm...”</i> \\n\\t\\n\\tShe actually trembles, back arching and tail gripping you tight. <i>“P-please, Emberian, I’ll-”</i>\\n\\t\\n\\tYou thrust your tongue deep grip her dick in both hands, wringing the floral fuckstick until she screams your name. Her legs tremble, sending ripples through her ass almost as intense as those caused by your motorboating. You hardly notice, until Elcine yelps again, and one of her little feet slips on the sea of spooge pooled around them. \\n\\t\\n\\tIn the blink of an eye you go from sitting on your [pc.knees] eating divrani fuckhole to lying on your back, the wind knocked from your lungs, with the world blacked out completely. There’s an unbearable weight pressing down on your [pc.face], accompanied by fragrant wetness spilling over your cheeks and squirting onto your neck and chest. Elcine gasps, bracing her hands on your hips, but that only serves to bury your face deeper into her crotch; your nose disappears into her slit, giving you such a waft of flowery fuckscent that your whole body starts flushing with arousal. \\n\\t\\n\\t<i>“Are you okay, Emberian?”</i> Elcine asks. Your reply is drowned out in cloacal meat, but she takes your resumed licks and kisses in her folds as an affirmation. <i>“Good! I was afraid I would break your neck!”</i>\\n\\t\\n\\tIf [pc.name] Steele is ever going to die, it probably <b>is</b> going to be by being smashed flat by an enormous ass — but thankfully not today. You wrap your arms around Elcine’s broad middle and hug her tight, reassuring her that you’re just fine, while you thrust your tongue into her. From this angle, you’re able to drive your tongue all the way to the flower-lizard’s deepest reaches. She arches her back and moans, all restraint bleeding away into a chorus of sweet, orgasmic noises. Her hips rock violently, grinding you into the carpet under titanic ass. Her inner walls grip your [pc.tongue], but they’re unable to stop you from continuing your oral assault. \\n\\t\\n\\tYour [pc.face] is flattened so hard that you can’t even move it anymore, squished into place by what feels like a hundred pounds of smooth, scaly ass, but your tongue more than makes up for it, eagerly searching out Elcine’s most sensitive reaches until the trickle of floral cum becomes a deluge. Your face is painted by her juices, even as Elcine leans forward until her flower-cock’s [pc.hasBreasts\\n\\t\\t|wedged between your breasts\\n\\t\\t|grinding against your chest\\n\\t], pumping those mighty flanks of hers to try and wring out a little more pleasure. Oily plant-cum smears across your [pc.skinFurScales] with every thrust in the throes of orgasm, drooling from between her petals like a thousand waterfalls. You could happily drown in it.\\n\\t\\n\\t<i>“O-oh-oh goddess!”</i> Elcine says, shuddering from snout to tail. She slumps forward on her knees, tits and tummy squishing your body flat but finally lifting her hips off your face. Ropes of sticky, sweet-smelling slime connect her lower lips to yours until you lick them away, though the floral bouquet endures. <i>“That was so <b>vigorous!</b>”</i>\\n\\t\\n\\t<i>“How could I hold back?”</i> you manage to laugh, sinking your hand into Elcine’s butt. <i>“You’ve got an amazing body.”</i>\\n\\t\\n\\tShe giggles and wiggles her hips. <i>“I’m glad you think so. I need a breather after that, but I’d be delighted to let you investigate it further. If you aren’t afraid of me falling on you again.”</i>\\n\\t\\n\\t<i>“Looking forward to it.”</i>\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:02060749>>"
@@ -735,7 +933,13 @@
     "key": "button|Next|47a9c47e916f",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02068148>>"
+    "context": "<<POS:02068148>> addButton(e++,\"Next\",Tm,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|47a9c47e916f",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:02068158>> addButton(e++,\"Next\",Tm,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Ip_Ip_0_et_Z_n_tYou_take_one_look_at_Elcine_s_eno|81e9b2cc3f78",
@@ -747,7 +951,13 @@
     "key": "button|Next|a9bbbccef5d1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02076523>>"
+    "context": "<<POS:02076523>> addButton(e++,\"Next\",Tm,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|a9bbbccef5d1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:02076533>> addButton(e++,\"Next\",Tm,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Yp_Yp_0_et_Z_n_tYou_come_up_behind_the_plump_rear|2e497f5b3a84",
@@ -759,7 +969,13 @@
     "key": "button|Next|44acacbb7b87",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02085424>>"
+    "context": "<<POS:02085424>> addButton(e++,\"Next\",Tm,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|44acacbb7b87",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:02085434>> addButton(e++,\"Next\",Tm,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Ep_Ep_0_et_Z_n_tYou_step_forward_running_your_ha|12fb4581586b",
@@ -771,7 +987,13 @@
     "key": "button|Next|3f60a9ea0003",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02093747>>"
+    "context": "<<POS:02093747>> addButton(e++,\"Next\",Tm,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|3f60a9ea0003",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:02093757>> addButton(e++,\"Next\",Tm,\"Next\",\"\")"
   },
   {
     "key": "output|textify_xp_xp_0_et_Z_n_tThough_you_re_both_a_wet_and_swea|b08ded0eb695",
@@ -783,19 +1005,19 @@
     "key": "button|Next|80036140151e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02094945>>"
+    "context": "<<POS:02094945>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
-    "key": "bust|PHAEDRA|9aba6b5a1610",
-    "original": "PHAEDRA",
+    "key": "button.hover|Next|80036140151e",
+    "original": "Next",
     "translation": "",
-    "context": "<<POS:02095574>>"
+    "context": "<<POS:02094965>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
-    "key": "name.show|Phaedra_II|d6150dab6d43",
+    "key": "name.show|Phaedra_II|27085680863e",
     "original": "Phaedra II",
     "translation": "",
-    "context": "<<POS:02095594>>"
+    "context": "<<POS:02095594>> showName(\"Phaedra II\")"
   },
   {
     "key": "output|You_ve_barely_made_it_through_the_other_end_of_the_Warp_Gate_bef|8deeb1a4cf12",
@@ -804,46 +1026,46 @@
     "context": "<<POS:02095631>>"
   },
   {
-    "key": "output|n_nWith_a_yelp_of_surprise_you_grab_the_controls_and_pull_back|de23891830da",
-    "original": "\\n\\nWith a yelp of surprise, you grab the controls and pull back hard, scanning through the incoming data just as fast as <i>[pc_ship.theName]</i>’s sensors can process it. At first glance it looks like you’re in the middle of a meteor shower, surrounded by countless thousands of fast-moving objects crashing against your ship’s shields. You bank into the stream, trying to minimize how much of your hull is exposed to impacts before they tear through your defenses. The flashes of light cascading across your shields slowly ease off, giving you a few seconds to catch your breath.",
+    "key": "output|With_a_yelp_of_surprise_you_grab_the_controls_and_pull_back_har|b9565abe4924",
+    "original": "With a yelp of surprise, you grab the controls and pull back hard, scanning through the incoming data just as fast as <i>[pc_ship.theName]</i>’s sensors can process it. At first glance it looks like you’re in the middle of a meteor shower, surrounded by countless thousands of fast-moving objects crashing against your ship’s shields. You bank into the stream, trying to minimize how much of your hull is exposed to impacts before they tear through your defenses. The flashes of light cascading across your shields slowly ease off, giving you a few seconds to catch your breath.",
     "translation": "",
-    "context": "<<POS:02095805>>"
+    "context": "<<POS:02095809>>"
   },
   {
-    "key": "output|n_n_i_Boss_i_Anno_calls_over_i_Just_finished_composite|095df8c80469",
-    "original": "\\n\\n<i>“Boss!”</i> Anno calls over. <i>“Just finished composite analysis on what hit us. We’re looking at high densities of plastics, tungsten, steel alloys... the stuff that makes up starships.”</i>",
+    "key": "output|i_Boss_i_Anno_calls_over_i_Just_finished_composite_anal|965b7a51b09b",
+    "original": "<i>“Boss!”</i> Anno calls over. <i>“Just finished composite analysis on what hit us. We’re looking at high densities of plastics, tungsten, steel alloys... the stuff that makes up starships.”</i>",
     "translation": "",
-    "context": "<<POS:02096412>>"
+    "context": "<<POS:02096416>>"
   },
   {
-    "key": "output|n_n_i_Captain_i_Shekka_calls_up_i_I_m_taking_readings_o|ea474a82566c",
-    "original": "\\n\\n<i>“Captain!”</i> Shekka calls up. <i>“I’m taking readings on what’s been slamming our shields. Looks like high densities of plastics, tungsten, steel alloys... same stuff Novahome’s made out of.”</i>",
+    "key": "output|i_Captain_i_Shekka_calls_up_i_I_m_taking_readings_on_wh|8fa15761ffff",
+    "original": "<i>“Captain!”</i> Shekka calls up. <i>“I’m taking readings on what’s been slamming our shields. Looks like high densities of plastics, tungsten, steel alloys... same stuff Novahome’s made out of.”</i>",
     "translation": "",
-    "context": "<<POS:02096638>>"
+    "context": "<<POS:02096642>>"
   },
   {
-    "key": "output|n_n_i_Captain_i_Olympia_s_voice_comes_sultry_over_comms_fr|1ed135890bb8",
-    "original": "\\n\\n<i>“Captain,”</i> Olympia’s voice comes sultry over comms from engineering. <i>“The </i>Sidewinder<i>’s sensors are picking up high densities of plastics, tungsten, and steel alloys from the impacts on our shields. Hypothesis: starship components, from a number of different vessels.”</i>",
+    "key": "output|i_Captain_i_Olympia_s_voice_comes_sultry_over_comms_from_e|7fbd6fb7cbf2",
+    "original": "<i>“Captain,”</i> Olympia’s voice comes sultry over comms from engineering. <i>“The </i>Sidewinder<i>’s sensors are picking up high densities of plastics, tungsten, and steel alloys from the impacts on our shields. Hypothesis: starship components, from a number of different vessels.”</i>",
     "translation": "",
-    "context": "<<POS:02096870>>"
+    "context": "<<POS:02096874>>"
   },
   {
-    "key": "output|n_nYou_run_a_quick_spectral_analysis_on_what_s_been_hitting_you|f7b9d7c07853",
-    "original": "\\n\\nYou run a quick spectral analysis on what’s been hitting you. The sensors are picking up high densities of plastics, tungsten, and steel alloys... the same things starships are made of.",
+    "key": "output|You_run_a_quick_spectral_analysis_on_what_s_been_hitting_you_Th|4299cae4e067",
+    "original": "You run a quick spectral analysis on what’s been hitting you. The sensors are picking up high densities of plastics, tungsten, and steel alloys... the same things starships are made of.",
     "translation": "",
-    "context": "<<POS:02097173>>"
+    "context": "<<POS:02097177>>"
   },
   {
-    "key": "output|n_nOh_God_Did_you_just_warp_into_a_graveyard_n_nAfter_a_few|6e833ddb4a39",
-    "original": "\\n\\nOh, God. Did you just warp into a graveyard?\\n\\nAfter a few more long, tense moments, you’re able to navigate your way out of the debris field. Your long range sensors finally spool back up once you’re clear, painting you a picture of the planet below: it’s a dry desert, and seems to have <b>an unusually high radiation index</b> - enough to be dangerous with prolonged exposure, though not so much that it would penetrate your shields or a hardened structure. There’s life down there, but much less than any Rush world you’ve visited before, and hardly any of the Q-COMM traffic that would indicate a presence of other Rushers. Considering the plethora of wrecks drifting in orbit, it’s easy to guess why: your predecessors never made it to the surface. But what happened to them?",
+    "key": "output|Oh_God_Did_you_just_warp_into_a_graveyard_n_nAfter_a_few_more|ef8ec3dfbf2d",
+    "original": "Oh, God. Did you just warp into a graveyard?\\n\\nAfter a few more long, tense moments, you’re able to navigate your way out of the debris field. Your long range sensors finally spool back up once you’re clear, painting you a picture of the planet below: it’s a dry desert, and seems to have <b>an unusually high radiation index</b> - enough to be dangerous with prolonged exposure, though not so much that it would penetrate your shields or a hardened structure. There’s life down there, but much less than any Rush world you’ve visited before, and hardly any of the Q-COMM traffic that would indicate a presence of other Rushers. Considering the plethora of wrecks drifting in orbit, it’s easy to guess why: your predecessors never made it to the surface. But what happened to them?",
     "translation": "",
-    "context": "<<POS:02097373>>"
+    "context": "<<POS:02097377>>"
   },
   {
     "key": "button|Next|10c8d58f101b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02098203>>"
+    "context": "<<POS:02098203>> addButton(0,\"Next\",Mp)"
   },
   {
     "key": "output|blockHeader_Attack|7737c6e4365a",
@@ -858,22 +1080,22 @@
     "context": "<<POS:02098329>>"
   },
   {
-    "key": "output|n_n_b_BONK_b_n_nYou_recoil_back_into_the_airlock_palming_yo|63c46e0358c6",
-    "original": "\\n\\n<b>BONK</b>!\\n\\nYou recoil back into the airlock, palming your [pc.weapon] as something impacts <i>[pc_ship.theName]</i>’s hull. It’s not enough to flare your shields, but the echo of the hit jolts your bones.",
+    "key": "output|b_BONK_b_n_nYou_recoil_back_into_the_airlock_palming_your|948156097d55",
+    "original": "<b>BONK</b>!\\n\\nYou recoil back into the airlock, palming your [pc.weapon] as something impacts <i>[pc_ship.theName]</i>’s hull. It’s not enough to flare your shields, but the echo of the hit jolts your bones.",
     "translation": "",
-    "context": "<<POS:02098711>>"
+    "context": "<<POS:02098715>>"
   },
   {
-    "key": "output|n_n_b_BONK_b_n_nAgain_You_peer_out_warily_looking_for_the|22f74ab0b57d",
-    "original": "\\n\\n<b>BONK</b>!\\n\\nAgain! You peer out, warily looking for the source of the attack. You find her far quicker than expected, however...",
+    "key": "output|b_BONK_b_n_nAgain_You_peer_out_warily_looking_for_the_sour|8128a5dc9a39",
+    "original": "<b>BONK</b>!\\n\\nAgain! You peer out, warily looking for the source of the attack. You find her far quicker than expected, however...",
     "translation": "",
-    "context": "<<POS:02098935>>"
+    "context": "<<POS:02098939>>"
   },
   {
     "key": "button|Next|703e72df46af",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:02099114>>"
+    "context": "<<POS:02099114>> addButton(0,\"Next\",Wp)"
   },
   {
     "key": "output|textify_op_op_0_et_Z_n_n_n_t_flags_ELCINE_APPROACH_n_t_t|c7f40ca87e6b",
@@ -885,10 +1107,22 @@
     "key": "button|flags_ELCINE_APPROACH_Elcine_Divrani_Tech|e3091076e280",
     "original": "[flags.ELCINE_APPROACH|Elcine|Divrani Tech]",
     "translation": "",
-    "context": "<<POS:02100988>>"
+    "context": "<<POS:02100988>> addButton(e++,\"[flags.ELCINE_APPROACH|Elcine|Divrani Tech]\",Jp,\"[flags.ELCINE_APPROACH|Elcine|Divrani Tech]\",\"[flags.ELCINE_APPROACH|Have a chat with the techno-lizard cleric.|Investigate the lizardy tech-enthusiast.]\")"
   },
   {
-    "key": "output|textify_bp_bp_0_et_Z_n_t_n_nElcine_is_still_here_at_Shiel|4674d80add3d",
+    "key": "button.hover|flags_ELCINE_APPROACH_Elcine_Divrani_Tech|e3091076e280",
+    "original": "[flags.ELCINE_APPROACH|Elcine|Divrani Tech]",
+    "translation": "",
+    "context": "<<POS:02101037>> addButton(e++,\"[flags.ELCINE_APPROACH|Elcine|Divrani Tech]\",Jp,\"[flags.ELCINE_APPROACH|Elcine|Divrani Tech]\",\"[flags.ELCINE_APPROACH|Have a chat with the techno-lizard cleric.|Investigate the lizardy tech-enthusiast.]\")"
+  },
+  {
+    "key": "button.tooltip|flags_ELCINE_APPROACH_Have_a_chat_with_the_techno_lizard_cleric|a740663001aa",
+    "original": "[flags.ELCINE_APPROACH|Have a chat with the techno-lizard cleric.|Investigate the lizardy tech-enthusiast.]",
+    "translation": "",
+    "context": "<<POS:02101083>> addButton(e++,\"[flags.ELCINE_APPROACH|Elcine|Divrani Tech]\",Jp,\"[flags.ELCINE_APPROACH|Elcine|Divrani Tech]\",\"[flags.ELCINE_APPROACH|Have a chat with the techno-lizard cleric.|Investigate the lizardy tech-enthusiast.]\")"
+  },
+  {
+    "key": "output|textify_bp_bp_0_et_Z_n_t_n_nElcine_is_still_here_at_Shiel|d066966ca181",
     "original": "textify(bp||(bp=(0,et.Z)([\"\\n\\t\\n\\nElcine is still here at Shieldrock Station, along with a group of other red-robed techno-clergy who’re tending to the massive armored train as it recovers from its last sojourn across the wasteland. The pudgy divrani’s treated with a measure of respect and deference not just among the crimson priests, but the commonfolk among the natives too. She seems in her element, relatively speaking, leading the team of engineers with a smile on her face. \\n\\t\"],[\"\\n\\t\\\\n\\\\nElcine is still here at Shieldrock Station, along with a group of other red-robed techno-clergy who’re tending to the massive armored train as it recovers from its last sojourn across the wasteland. The pudgy divrani’s treated with a measure of respect and deference not just among the crimson priests, but the commonfolk among the natives too. She seems in her element, relatively speaking, leading the team of engineers with a smile on her face. \\n\\t\"])))",
     "translation": "",
     "context": "<<POS:02101337>>"
@@ -897,6 +1131,18 @@
     "key": "button|Elcine|8be15e32292b",
     "original": "Elcine",
     "translation": "",
-    "context": "<<POS:02102311>>"
+    "context": "<<POS:02102311>> addButton(e,\"Elcine\",gm,\"Elcine\",\"See if you can get some private time with the techno-cleric.\")"
+  },
+  {
+    "key": "button.hover|Elcine|8be15e32292b",
+    "original": "Elcine",
+    "translation": "",
+    "context": "<<POS:02102323>> addButton(e,\"Elcine\",gm,\"Elcine\",\"See if you can get some private time with the techno-cleric.\")"
+  },
+  {
+    "key": "button.tooltip|See_if_you_can_get_some_private_time_with_the_techno_cleric|79e2fd383178",
+    "original": "See if you can get some private time with the techno-cleric.",
+    "translation": "",
+    "context": "<<POS:02102332>> addButton(e,\"Elcine\",gm,\"Elcine\",\"See if you can get some private time with the techno-cleric.\")"
   }
 ]

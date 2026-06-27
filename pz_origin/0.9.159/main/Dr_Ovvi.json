@@ -63,7 +63,7 @@
     "key": "perk|DEFENSIVE_AI|ee58f169bafb",
     "original": "DEFENSIVE_AI",
     "translation": "",
-    "context": "<<POS:28063997>>"
+    "context": "<<POS:28063997>> createPerk(\"DEFENSIVE_AI\")"
   },
   {
     "key": "combat|It_roars_unleashing_it_in_your_direction_n_nYou_dodge_the_pla|c0306c203320",
@@ -72,91 +72,55 @@
     "context": "<<POS:28065152>>"
   },
   {
-    "key": "combat|n_nThe_Space_Leviathan_roars_unleashing_a_nuclear_firestorm_on|c4f9aedc6246",
-    "original": "\\n\\nThe Space Leviathan roars, unleashing a nuclear firestorm on you! Plasma waves engulf your ship, melting its sensors and roasting the hull with infernal tongues of flame!",
+    "key": "combat|The_Space_Leviathan_roars_unleashing_a_nuclear_firestorm_on_you|a118c836b0be",
+    "original": "The Space Leviathan roars, unleashing a nuclear firestorm on you! Plasma waves engulf your ship, melting its sensors and roasting the hull with infernal tongues of flame!",
     "translation": "",
-    "context": "<<POS:28065322>>"
+    "context": "<<POS:28065326>>"
   },
   {
     "key": "name.show|Strict_9|1ab78471339d",
     "original": "Strict-9",
     "translation": "",
-    "context": "<<POS:28066370>>"
+    "context": "<<POS:28066370>> showName(\"Strict-9\")"
   },
   {
-    "key": "bust|STRICT9|6efa0d1044a1",
-    "original": "STRICT9",
-    "translation": "",
-    "context": "<<POS:28066391>>"
-  },
-  {
-    "key": "name.show|T4L0N|e17fe7c51abd",
+    "key": "name.show|T4L0N|1b61234aa9de",
     "original": "T4L0N",
     "translation": "",
-    "context": "<<POS:28066483>>"
-  },
-  {
-    "key": "bust|T4L0N|fcb7d687d6db",
-    "original": "T4L0N",
-    "translation": "",
-    "context": "<<POS:28066501>>"
+    "context": "<<POS:28066483>> showName(\"T4L0N\")"
   },
   {
     "key": "name.show|Sci_Koh|48aa23266d6a",
     "original": "Sci’Koh",
     "translation": "",
-    "context": "<<POS:28066632>>"
+    "context": "<<POS:28066632>> showName(\"Sci’Koh\")"
   },
   {
-    "key": "bust|SCIKOH|912d11c49ae7",
-    "original": "SCIKOH",
-    "translation": "",
-    "context": "<<POS:28066652>>"
-  },
-  {
-    "key": "name.show|BL00M|8d5773172459",
+    "key": "name.show|BL00M|25f2705cfa4c",
     "original": "BL00M",
     "translation": "",
-    "context": "<<POS:28066805>>"
-  },
-  {
-    "key": "bust|BL00M|15a4aef96d61",
-    "original": "BL00M",
-    "translation": "",
-    "context": "<<POS:28066823>>"
+    "context": "<<POS:28066805>> showName(\"BL00M\")"
   },
   {
     "key": "name.show|BRAT|3bac390a533e",
     "original": "BRAT",
     "translation": "",
-    "context": "<<POS:28066913>>"
-  },
-  {
-    "key": "bust|BRAT|e43ee078bdad",
-    "original": "BRAT",
-    "translation": "",
-    "context": "<<POS:28066930>>"
+    "context": "<<POS:28066913>> showName(\"BRAT\")"
   },
   {
     "key": "name.show|Dr_Ovvi|190890b37faa",
     "original": "Dr. Ovvi",
     "translation": "",
-    "context": "<<POS:28067073>>"
+    "context": "<<POS:28067073>> showName(\"Dr. Ovvi\")"
   },
   {
     "key": "name.show|PA_X|da554f1feddd",
     "original": "PA-X",
     "translation": "",
-    "context": "<<POS:28067120>>"
+    "context": "<<POS:28067120>> showName(\"PA-X\")"
   },
   {
-    "key": "bust|PAX|03389aef9f69",
-    "original": "PAX",
-    "translation": "",
-    "context": "<<POS:28067137>>"
-  },
-  {
-    "key": "output|blockHeader_Logging_Out|7426e1c04935",
+    "key": "output|blockHeader_Logging_Out|7706347974d4",
     "original": "blockHeader(\"Logging Out...\")",
     "translation": "",
     "context": "<<POS:28067219>>"
@@ -171,7 +135,13 @@
     "key": "button|Next|c9a8153be661",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28067428>>"
+    "context": "<<POS:28067428>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|c9a8153be661",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28067448>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_dee_dee_0_Ce_Z_n_t_var0_n_t_t_You_load_the_progra|a68cdc1212a1",
@@ -183,7 +153,7 @@
     "key": "button|Next|16940c2cd913",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28069583>>"
+    "context": "<<POS:28069583>> addButton(0,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];window.pauletteClear(),author(\"Magenta Needle\"),output(textify(gee||(gee=(0,Ce.Z)([\"You crouch down, following the cover you can find on your way to the crimson factory. All the buildings e..."
   },
   {
     "key": "output|textify_yee_yee_0_Ce_Z_n_tStrict_9_chambers_a_uniquely_he|147ae0b559d9",
@@ -195,7 +165,13 @@
     "key": "button|Next|3cf5534a557e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28079042>>"
+    "context": "<<POS:28079042>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];coe(),output(textify(mee||(mee=(0,Ce.Z)([\"\\n\\tStars, everything’s so fun out here! You’ve been playing with these cool girls for hours, rolling in the grass, playing catch, joking. They a..."
+  },
+  {
+    "key": "button.hover|Next|3cf5534a557e",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28087955>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];coe(),output(textify(mee||(mee=(0,Ce.Z)([\"\\n\\tStars, everything’s so fun out here! You’ve been playing with these cool girls for hours, rolling in the grass, playing catch, joking. They a..."
   },
   {
     "key": "output|textify_bee_bee_0_Ce_Z_n_tYour_pc_isNaga_n_t_t_rubbery_c|2c2ff7c4b660",
@@ -207,7 +183,13 @@
     "key": "button|Next|b984dd3dc73d",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28100764>>"
+    "context": "<<POS:28100764>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|b984dd3dc73d",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28100775>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "output|textify_wee_wee_0_Ce_Z_n_tThe_bounty_hunter_falls_to_her|75d811a7777f",
@@ -219,10 +201,22 @@
     "key": "button|Ride_Tail|df8faf173118",
     "original": "Ride Tail",
     "translation": "",
-    "context": "<<POS:28102844>>"
+    "context": "<<POS:28102844>> addButton(t++,\"Ride Tail\",(function(){return vaginaRouter((function(){return(e?Ioe:Boe)()}),70,!0,0)}),\"Ride Tail\",\"Take her big, flared tailcock.\")"
   },
   {
-    "key": "output|textify_Cee_Cee_0_Ce_Z_n_tA_weird_hitch_takes_your_tail_o|ce0e89e197ca",
+    "key": "button.hover|Ride_Tail|df8faf173118",
+    "original": "Ride Tail",
+    "translation": "",
+    "context": "<<POS:28102933>> addButton(t++,\"Ride Tail\",(function(){return vaginaRouter((function(){return(e?Ioe:Boe)()}),70,!0,0)}),\"Ride Tail\",\"Take her big, flared tailcock.\")"
+  },
+  {
+    "key": "button.tooltip|Take_her_big_flared_tailcock|9f6d060a4b54",
+    "original": "Take her big, flared tailcock.",
+    "translation": "",
+    "context": "<<POS:28102945>> addButton(t++,\"Ride Tail\",(function(){return vaginaRouter((function(){return(e?Ioe:Boe)()}),70,!0,0)}),\"Ride Tail\",\"Take her big, flared tailcock.\")"
+  },
+  {
+    "key": "output|textify_Cee_Cee_0_Ce_Z_n_tA_weird_hitch_takes_your_tail_o|9b6446f7b1d9",
     "original": "textify(Cee||(Cee=(0,Ce.Z)([\"\\n\\tA weird hitch takes your tail over. All you can focus on it Strict-9’s gushing tip, which weakly bucks left and right, desperate [pc.hasTailCock\\n\\t\\t|to be filled\\n\\t\\t|for a hole to fill\\n\\t].\\n\\t\\n\\t<i>“I think she needs a hand. Just look at these: they are so huge and full,”</i> you say, poking her boobs.\\n\\t\\n\\tStrict-9 grunts. <i>“Strap yourself to my back and I’ll walk you to the Zaibatsu myself, see if I don’t!”</i>\\n\\t\\n\\tPaulette shuts her down by ramming with her flared tailcock into the other woman’s mouth. <i>“Watch your tone, tailsucker!”</i>\\n\\t\\n\\tYou [pc.isAss\\n\\t\\t|rashly\\n\\t\\t|gently\\n\\t] pat the defeated zaika, tussling her locks all over her cock-stretched cheeks while you wrap your tail around hers. Your [pc.hasTailCock\\n\\t\\t|[pc.tailCock]\\n\\t\\t|[pc.cuntTail]\\n\\t] slowly slithers around her drooling bulb. A guilty gasp crosses your lips as your [pc.hasTailCock\\n\\t\\t|tip smooches her whorish labia\\n\\t\\t|whorish pussylips smooch her throbbing pecker\\n\\t]. Raw pleasure rocks your spine again and again, fueling the growing fire in your loins. Stars, you can’t wait to play with her fiery fucktoy!\\n\\t\\n\\tMeanwhile, your crewmate roughly facefucks Strict-9, choking her with her ravenous dicktail before pulling it out with a drool-gushing pop. Without warning, she steps on the other zaika’s chest. The bounty hunter’s fat bosom swallows the orange-metal foot whole, wobbling and shaking like a yoga ball full of jelly!\\n\\t\\n\\t<i>“B-Bitch!”</i> Strict-9 yelps in a half-pained, half-moaned hiss. Someone’s a shameless painslut.\\n\\t\\n\\t<i>“[pc.name]? Do you know what Rak’Sheer is?”</i> Paulette asks.\\n\\t\\n\\tThe bounty hunter suddenly tenses. <i>“Don’t you d-”</i>Your companion gags her once more with her greedy genitail. Strict-9 gurgles foam-laced splooge, choking on Paulette’s mast.\\n\\t\\n\\t<i>“Never heard of it,”</i> you confess. <i>“Is this a zaika thing?”</i>\\n\\t\\n\\tThe former XO smirks. <i>“Indeed. It’s an ancestral tradition that survived in the deepest cutthroats of the Gyre. A rite of dominance and forgiveness only performed by the kinkiest of zaika.”</i>\\n\\t\\n\\tAnd what does it entail?\\n\\t\\n\\t<i>“Hot, steamy sex with intense boob fondling,”</i> she murmurs in your ear.\\n\\t\\n\\tHum... that’s something you can get behind — or rather, in front of. After all, her boobs look so big and plump: two huge, swelling pillows sloshing with creamy goodness. Just looking at them makes your heart race. Dominating her will be fun.\\n\\t\\n\\tWithout further ado, you reach for her violet honkers and burrow your face into her jiggly cleavage. Tides of purple plushness wobble against your flesh, smothering you in warm, sweaty skin. You smooch and slurp her opulent jugs, greedily worshiping her chest[silly\\n\\t\\t|icles\\n\\t\\t|-mounted gonads\\n\\t] while your tails messily rub against one another. [pc.hasTailCock\\n\\t\\t|Your [pc.tailCock] stretches her flowery slit, loosening it one rub at a time\\n\\t\\t|[pc.cuntTail] squirts all over her veiny length, lubing it one rub at a time\\n\\t] for the rough ride to come. Stars, you can’t wait to feel it [pc.hasTailCock\\n\\t\\t|around your saucy tail\\n\\t\\t|inside you\\n\\t]!\\n\\t\\n\\tPaulette releases Strict-9’s bust, leaving you free reign over her supple mounds before crawling behind you. Her hands settle on your rear, reaching for your vulnerable [pc.cockVagBothNeither\\n\\t\\t|[pc.cocksNoun][pc.hasBalls\\n\\t\\t\\t| and [pc.balls]\\n\\t\\t]\\n\\t\\t|[pc.vaginasNoun]\\n\\t\\t|sexes\\n\\t\\t|asshole\\n\\t].\\n\\t\\n\\t<i>“Don’t mind if I do,”</i> she teases, poking at your sensitive bits while her tail frenetically facefucks the defeated mercenary. She runs her tongue along your [pc.cockVagBothNeither\\n\\t\\t|shaft[pc.hasCocks 2|s]\\n\\t\\t|pussylips\\n\\t\\t|shaft[pc.hasCocks 2|s] and pussylips\\n\\t\\t|taint\\n\\t], making you moan and shiver as you praise Strict-9’s purple watermelons. Your partner’s wet lips sloppily savor you, squeezing succulent juices out of you with feline slurps. Trapped between the former XO and the lustfully-inflated guard, there’s only one way you can escape: by going deeper!\\n\\t\\n\\tYou dive head-first into Strict-9’s ballooning boobs, plunging into an exotic realm of sweaty bounciness. A sharp jolt of bliss sears your mind a moment later as your [pc.hasTailCock\\n\\t\\t|[pc.tailCock] slips inside its rightful sheathe\\n\\t\\t|[pc.cuntTail] swallows her fat taildick\\n\\t]. Your alien sexes dock together, whorishly kissing in a sultry mating ball of writhing, cum-glazed tail-fucking. You moan into her breasts, struggling to withstand the waves of raw pleasure rocking your world from all sides. \\n\\t\\n\\tPaulette and Strict-9 lick and [pc.hasTailCock\\n\\t\\t|squeeze\\n\\t\\t|thrust\\n\\t] you with a guilty eagerness, the former out of love, the latter out of spite. Your crewmate slobbers on your [pc.cockVagBothNeither\\n\\t\\t|[pc.cocks]\\n\\t\\t|[pc.vaginas]\\n\\t\\t|paired genitalia\\n\\t\\t|cake\\n\\t], spreading a pleasant warmth through your veins with each kiss, with each lap, each grope, and each fondle. She’s relentless, gurgling and drooling [pc.cockVagBothNeither\\n\\t\\t|all over your turgid mast[pc.hasCocks 2|s]\\n\\t\\t|all over your love tunnel\\n\\t\\t|all over your love tunnel\\n\\t\\t|all over your [pc.asshole]\\n\\t] while her bubbling cock splurts so much pre into Strict-9’s cheeks that it becomes to overflow ont her face. She thrusts it deep inside her gob, force-feeding her premium <i>“milk”</i> in warm, sticky loads.\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:28103116>>"
@@ -231,13 +225,25 @@
     "key": "button|Next|59f80dd2c7a8",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28108589>>"
+    "context": "<<POS:28108589>> addButton(t++,\"Next\",(function(){return Noe(e)}),\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|59f80dd2c7a8",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28108624>> addButton(t++,\"Next\",(function(){return Noe(e)}),\"Next\",\"\")"
   },
   {
     "key": "button|Cuff_Her|c35ccf3dd3c1",
     "original": "Cuff Her",
     "translation": "",
-    "context": "<<POS:28108750>>"
+    "context": "<<POS:28108750>> addButton(14,\"Cuff Her\",(function(){return _oe(e)}),\"Cuff Her\",\"\")"
+  },
+  {
+    "key": "button.hover|Cuff_Her|c35ccf3dd3c1",
+    "original": "Cuff Her",
+    "translation": "",
+    "context": "<<POS:28108789>> addButton(14,\"Cuff Her\",(function(){return _oe(e)}),\"Cuff Her\",\"\")"
   },
   {
     "key": "output|textify_kee_kee_0_Ce_Z_n_t_i_She_s_stunned_but_she_can|b237104edefe",
@@ -249,7 +255,13 @@
     "key": "button|Next|51e9dbc5cf1d",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28110138>>"
+    "context": "<<POS:28110138>> addButton(t++,\"Next\",e?boe:Roe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|51e9dbc5cf1d",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28110155>> addButton(t++,\"Next\",e?boe:Roe,\"Next\",\"\")"
   },
   {
     "key": "output|textify_vee_vee_0_Ce_Z_n_t_i_I_think_she_needs_to_be_tau|8625d6306911",
@@ -261,7 +273,13 @@
     "key": "button|Next|e6c24aee0359",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28117653>>"
+    "context": "<<POS:28117653>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];coe(!0),output(textify(Aee||(Aee=(0,Ce.Z)([\"\\n\\t<i>“Coochie coochy coo,”</i> Paulette whistles, spreading her target’s faux-pussy wide.\\n\\t\\n\\tStrict-9 hisses as the knot-like breeder bul..."
+  },
+  {
+    "key": "button.hover|Next|e6c24aee0359",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28125605>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];coe(!0),output(textify(Aee||(Aee=(0,Ce.Z)([\"\\n\\t<i>“Coochie coochy coo,”</i> Paulette whistles, spreading her target’s faux-pussy wide.\\n\\t\\n\\tStrict-9 hisses as the knot-like breeder bul..."
   },
   {
     "key": "output|textify_Eee_Eee_0_Ce_Z_n_t_i_We_should_teach_her_how_to|5a64cf92ae94",
@@ -273,7 +291,13 @@
     "key": "button|Next|5e919281ef92",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28132996>>"
+    "context": "<<POS:28132996>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];coe(!0),output(textify(Tee||(Tee=(0,Ce.Z)([\"\\n\\tThe former XO smiles. She squirts milk all over the poor girl’s face, turning it into a gooey mess before fountaining sapphire droplets dir..."
+  },
+  {
+    "key": "button.hover|Next|5e919281ef92",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28141528>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];coe(!0),output(textify(Tee||(Tee=(0,Ce.Z)([\"\\n\\tThe former XO smiles. She squirts milk all over the poor girl’s face, turning it into a gooey mess before fountaining sapphire droplets dir..."
   },
   {
     "key": "output|textify_Lee_Lee_0_Ce_Z_n_tThe_harder_she_goes_the_softer|b87478385108",
@@ -285,7 +309,13 @@
     "key": "button|Next|51e9dbc5cf1d#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28147876>>"
+    "context": "<<POS:28147876>> addButton(t++,\"Next\",e?boe:Roe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|51e9dbc5cf1d#1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28147893>> addButton(t++,\"Next\",e?boe:Roe,\"Next\",\"\")"
   },
   {
     "key": "output|textify_ee_ee_0_Ce_Z_n_tYou_check_Strict_9_s_bindings_b|cbde763a8a31",
@@ -297,13 +327,25 @@
     "key": "button|Next|edb0c6c7ac6c",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28150924>>"
+    "context": "<<POS:28150924>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|edb0c6c7ac6c",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28150935>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28150958>>"
+    "context": "<<POS:28150958>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28150978>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Bee_Bee_0_Ce_Z_n_tThe_insectile_cyborgs_pin_you_t|a9387f5c3661",
@@ -315,7 +357,13 @@
     "key": "button|Next|373ff2f3d0a1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28152272>>"
+    "context": "<<POS:28152272>> addButton(t++,\"Next\",(function(){return Moe(e)}),\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|373ff2f3d0a1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28152307>> addButton(t++,\"Next\",(function(){return Moe(e)}),\"Next\",\"\")"
   },
   {
     "key": "output|textify_Nee_Nee_0_Ce_Z_n_tYou_awaken_in_a_bright_metalli|c375314755f0",
@@ -327,7 +375,13 @@
     "key": "button|Next|66aa62ea2033",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28164513>>"
+    "context": "<<POS:28164513>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|66aa62ea2033",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28164524>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Ree_Ree_0_Ce_Z_n_tYour_steel_shod_gelatinous_lip|4f54117cdc45",
@@ -339,13 +393,25 @@
     "key": "button|Get_Eaten_Out|b45ed7aa45e4",
     "original": "Get Eaten Out",
     "translation": "",
-    "context": "<<POS:28166029>>"
+    "context": "<<POS:28166029>> addButton(t++,\"Get Eaten Out\",(function(){return zoe(e)}),\"Get Eaten Out\",\"\")"
+  },
+  {
+    "key": "button.hover|Get_Eaten_Out|b45ed7aa45e4",
+    "original": "Get Eaten Out",
+    "translation": "",
+    "context": "<<POS:28166073>> addButton(t++,\"Get Eaten Out\",(function(){return zoe(e)}),\"Get Eaten Out\",\"\")"
   },
   {
     "key": "button|Leave|f9f904999a7b",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:28166261>>"
+    "context": "<<POS:28166261>> addButton(14,\"Leave\",(function(){return joe(e)}),\"Leave\",\"\")"
+  },
+  {
+    "key": "button.hover|Leave|f9f904999a7b",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:28166297>> addButton(14,\"Leave\",(function(){return joe(e)}),\"Leave\",\"\")"
   },
   {
     "key": "output|textify_Oee_Oee_0_Ce_Z_n_tYou_step_closer_to_the_defeated|eb86caab82ca",
@@ -357,13 +423,25 @@
     "key": "button|Next|c13752c5b59d",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28176046>>"
+    "context": "<<POS:28176046>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|c13752c5b59d",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28176057>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28176095>>"
+    "context": "<<POS:28176095>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28176115>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Pee_Pee_0_Ce_Z_n_tYou_step_closer_to_the_defeated|f6aa12487807",
@@ -375,13 +453,25 @@
     "key": "button|Next|c13752c5b59d#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28184772>>"
+    "context": "<<POS:28184772>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|c13752c5b59d#1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28184783>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#2",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28184821>>"
+    "context": "<<POS:28184821>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#2",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28184841>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Yee_Yee_0_Ce_Z_n_tYou_feel_pity_for_the_defeated|c37d2c600bc4",
@@ -393,13 +483,25 @@
     "key": "button|Next|d5f890639abb",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28193362>>"
+    "context": "<<POS:28193362>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|d5f890639abb",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28193373>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28193411>>"
+    "context": "<<POS:28193411>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#3",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28193431>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Mee_Mee_0_Ce_Z_n_t_i_There_s_nothing_we_can_do_t|14a87c70c948",
@@ -411,13 +513,25 @@
     "key": "button|Next|063544d59591",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28194800>>"
+    "context": "<<POS:28194800>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|063544d59591",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28194811>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#4",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28194849>>"
+    "context": "<<POS:28194849>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#4",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28194869>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Fee_Fee_0_Ce_Z_n_t_i_How_do_we_open_it_i_n_t|35e2446b9063",
@@ -429,7 +543,13 @@
     "key": "button|Next|96724fa4e595",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28205867>>"
+    "context": "<<POS:28205867>> addButton(e++,\"Next\",qoe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|96724fa4e595",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28205878>> addButton(e++,\"Next\",qoe,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Dee_Dee_0_Ce_Z_n_tPaulette_Dabbebieth_Zero_Plus|a949d1ea866c",
@@ -441,7 +561,13 @@
     "key": "button|Next|4aa559262cee",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28211309>>"
+    "context": "<<POS:28211309>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|4aa559262cee",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28211329>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_zee_zee_0_Ce_Z_n_tYour_defenses_slowly_crumble_u|8e70acbb7b79",
@@ -453,7 +579,13 @@
     "key": "button|Next|35913720ede6",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28220660>>"
+    "context": "<<POS:28220660>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];if(goe(!0),output(textify(Zee||(Zee=(0,Ce.Z)([\"\\n\\tA deep hiss resonates through the room as a long, oily tongue slithers inside your [pc.vagOrAss]. It thrusts deep inside you, stretching..."
+  },
+  {
+    "key": "button.hover|Next|35913720ede6",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28229469>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];if(goe(!0),output(textify(Zee||(Zee=(0,Ce.Z)([\"\\n\\tA deep hiss resonates through the room as a long, oily tongue slithers inside your [pc.vagOrAss]. It thrusts deep inside you, stretching..."
   },
   {
     "key": "output|textify_jee_jee_0_Ce_Z_n_tSci_Koh_weakly_falls_to_the_gro|793568fc3e28",
@@ -465,22 +597,58 @@
     "key": "button|Suck_Cock|b8d6c8b6dca2",
     "original": "Suck Cock",
     "translation": "",
-    "context": "<<POS:28231189>>"
+    "context": "<<POS:28231189>> addButton(t++,\"Suck Cock\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];goe(!0),output(textify(Kee||(Kee=(0,Ce.Z)([\"\\n\\t<i>“We should teach her a lesson,”</i> you concur. \\n\\t\\n\\tYou take her peculiar headphones and rest them on your neck. The glowing gr..."
   },
   {
-    "key": "button|Standing_Fuck|91d43a10a3a5",
+    "key": "button.hover|Suck_Cock|b8d6c8b6dca2",
+    "original": "Suck Cock",
+    "translation": "",
+    "context": "<<POS:28245716>> addButton(t++,\"Suck Cock\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];goe(!0),output(textify(Kee||(Kee=(0,Ce.Z)([\"\\n\\t<i>“We should teach her a lesson,”</i> you concur. \\n\\t\\n\\tYou take her peculiar headphones and rest them on your neck. The glowing gr..."
+  },
+  {
+    "key": "button.tooltip|Service_her_while_Paulette_ruins_her_ears|e192ec03c323",
+    "original": "Service her while Paulette ruins her ears",
+    "translation": "",
+    "context": "<<POS:28245728>> addButton(t++,\"Suck Cock\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];goe(!0),output(textify(Kee||(Kee=(0,Ce.Z)([\"\\n\\t<i>“We should teach her a lesson,”</i> you concur. \\n\\t\\n\\tYou take her peculiar headphones and rest them on your neck. The glowing gr..."
+  },
+  {
+    "key": "button|Standing_Fuck|8cd2e1424a31",
     "original": "Standing Fuck",
     "translation": "",
-    "context": "<<POS:28245787>>"
+    "context": "<<POS:28245787>> addButton(t++,\"Standing Fuck\",(function(){return vaginaRouter((function(){return(e?oae:aae)()}),106,!0,0)}),\"Standing Fuck\",\"Ride her cock while Paulette takes her in a Full Nelson.\")"
   },
   {
-    "key": "button|Leave|58772520eb2d",
+    "key": "button.hover|Standing_Fuck|8cd2e1424a31",
+    "original": "Standing Fuck",
+    "translation": "",
+    "context": "<<POS:28245881>> addButton(t++,\"Standing Fuck\",(function(){return vaginaRouter((function(){return(e?oae:aae)()}),106,!0,0)}),\"Standing Fuck\",\"Ride her cock while Paulette takes her in a Full Nelson.\")"
+  },
+  {
+    "key": "button.tooltip|Ride_her_cock_while_Paulette_takes_her_in_a_Full_Nelson|5213d57022bb",
+    "original": "Ride her cock while Paulette takes her in a Full Nelson.",
+    "translation": "",
+    "context": "<<POS:28245897>> addButton(t++,\"Standing Fuck\",(function(){return vaginaRouter((function(){return(e?oae:aae)()}),106,!0,0)}),\"Standing Fuck\",\"Ride her cock while Paulette takes her in a Full Nelson.\")"
+  },
+  {
+    "key": "button|Leave|cefeab6e9b2b",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:28245970>>"
+    "context": "<<POS:28245970>> addButton(14,\"Leave\",(function(){return Joe(e)}),\"Leave\",\"Pacify Sci’Koh.\")"
   },
   {
-    "key": "output|textify_Uee_Uee_0_Ce_Z_n_tYou_place_a_hand_on_Paulette_s|9b2456b5b173",
+    "key": "button.hover|Leave|cefeab6e9b2b",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:28246006>> addButton(14,\"Leave\",(function(){return Joe(e)}),\"Leave\",\"Pacify Sci’Koh.\")"
+  },
+  {
+    "key": "button.tooltip|Pacify_Sci_Koh|d061bcb544f9",
+    "original": "Pacify Sci’Koh.",
+    "translation": "",
+    "context": "<<POS:28246014>> addButton(14,\"Leave\",(function(){return Joe(e)}),\"Leave\",\"Pacify Sci’Koh.\")"
+  },
+  {
+    "key": "output|textify_Uee_Uee_0_Ce_Z_n_tYou_place_a_hand_on_Paulette_s|b6f82bcf1077",
     "original": "textify(Uee||(Uee=(0,Ce.Z)([\"\\n\\tYou place a hand on Paulette’s shoulder. <i>“I think she had enough. And besides, we still have a ship to stop.”</i>\\n\\t\\n\\t<i>“Agreed.”</i>\\n\\t\\n\\tIn the blink of an eye, your chromed crewmate firmly ties the furry telepath to a stray chair. Dabbebieth and Zero Plus shake their heads. They seem lost, confused. <i>“W-Where are we?”</i>\\n\\t\\n\\t<i>“Woooooah! My head feels all fuzzy!”</i>\\n\\t\\n\\tThe shy leyak floats your way. <i>“What happened? Everything went black after we entered the room.”</i>\\n\\t\\n\\tDoes he remember anything?\\n\\t\\n\\tDabbebieth shrugs. Zero Plus imitates him with her arms and tail. <i>“I don’t remember anything, except...”</i>Oh! I know! A voice told me to go sleepies and I dozed off! Gosh, I had the weirdest dream!”</i> she says, walking toward you. <i>“I was like, looming over Paullie, but she wasn’t really Paullie Pally — more like a grayer, duller version without the cool wings and arm. And there was this voice telling me to put her down before she hurts anyone else! It’s like, crazy! I’m already dreaming of her. We truly are besties!”</i>\\n\\t\\n\\tShe didn’t give them lasting damage at least. <i>“Sci’Koh attacked us by surprise. She took you down with her powers before Paulette could stop her.”</i>\\n\\t\\n\\tThey both gasp in surprise. <i>“Unbelievable! Is my mind that easy to control?”</i>\\n\\t\\n\\t<i>“Woooah! Taking a girl to funland without saying hi? Rude!”</i>\\n\\t\\n\\tBehind you, Paulette finishes her knots, securing the bratty vulpatra to a steel chair. She stuffed Sci’Koh’s bulbous pecker between her tits and placed the savicite dildos in her pussy and ass. The fox girl is shaking, gushing from all sides, overwhelmed by raw pleasure. <i>“All done! She won’t disturb us any longer.”</i>\\n\\t\\n\\tZero Plus squints at the tightly-tied fox. <i>“Gosh! She looks so fluffy and cute! Can we keep her?”</i>\\n\\t\\n\\t<i>“I don’t think she’d like that,”</i> you reply. <i>“Is it safe to leave her here like this?”</i>\\n\\t\\n\\tThe bimbo nurse taps her glasses, activating hidden scanners in her frame. <i>“She should be fine... but she’s all dehy- deha- dry.”</i>\\n\\t\\n\\tPaulette recovers a mask-like faceplate and fits it over Sci’Koh’s face. She connects it to a two gallon canister of water with a rubber funnel and turns the valve on. The clear liquid slowly drips in the telepath’s mouth, soothing her sore throat and fiery mind, one drop at a time.\\n\\t\\n\\t<i>“That should do. She’ll have lots of fun on her own,”</i> Paulette devilishly hisses. <i>“What’s the next step, Zero Plus?”</i> \\n\\t\\n\\t<i>“The elevator! It’s like, two doors away. We’ll be there in a minute,”</i> Zero Plus smiles. She places a soft kiss on the vulpatra’s forehead before hopping toward the exit, making her boobs and ass bounce madly.\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:28246125>>"
@@ -489,13 +657,25 @@
     "key": "button|Next|6a8a4acca824",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28248951>>"
+    "context": "<<POS:28248951>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|6a8a4acca824",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28248962>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#5",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28249000>>"
+    "context": "<<POS:28249000>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#5",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28249020>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_qee_qee_0_Ce_Z_n_t_i_I_think_this_brat_needs_to|630172293695",
@@ -507,7 +687,13 @@
     "key": "button|Next|f5f81a295397",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28256919>>"
+    "context": "<<POS:28256919>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];goe(!0),output(textify(Wee||(Wee=(0,Ce.Z)([\"\\n\\tSomeone’s angry. After a particularly vicious buck, your ex-XO’s flared tip slides into Sci’Koh’s earmuff. The poor girl coos, eyes rolled ..."
+  },
+  {
+    "key": "button.hover|Next|f5f81a295397",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28263121>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];goe(!0),output(textify(Wee||(Wee=(0,Ce.Z)([\"\\n\\tSomeone’s angry. After a particularly vicious buck, your ex-XO’s flared tip slides into Sci’Koh’s earmuff. The poor girl coos, eyes rolled ..."
   },
   {
     "key": "output|textify_Vee_Vee_0_Ce_Z_n_tBehind_you_Dabbebieth_and_Zero|ded05f4f2914",
@@ -519,13 +705,25 @@
     "key": "button|Next|d987ce7d7db5",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28265061>>"
+    "context": "<<POS:28265061>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|d987ce7d7db5",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28265072>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#6",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28265110>>"
+    "context": "<<POS:28265110>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#6",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28265130>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Jee_Jee_0_Ce_Z_n_tBehind_you_Dabbebieth_and_Zero|38db59d15b0c",
@@ -537,13 +735,25 @@
     "key": "button|Next|d987ce7d7db5#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28267117>>"
+    "context": "<<POS:28267117>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|d987ce7d7db5#1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28267128>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#7",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28267166>>"
+    "context": "<<POS:28267166>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#7",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28267186>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Xee_Xee_0_Ce_Z_n_t_i_I_know_exactly_what_a_littl|b2f0e122e8f3",
@@ -555,7 +765,13 @@
     "key": "button|Next|28b8c40eb41d",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28274153>>"
+    "context": "<<POS:28274153>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];goe(!0),output(textify($ee||($ee=(0,Ce.Z)([\"\\n\\tThe purple cyborg raises the dazzled vulpatra to your level, aiming her torso-sized, extra fat red rocket at your [pc.vagOrAss]. <i>“Alrigh..."
+  },
+  {
+    "key": "button.hover|Next|28b8c40eb41d",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28284258>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];goe(!0),output(textify($ee||($ee=(0,Ce.Z)([\"\\n\\tThe purple cyborg raises the dazzled vulpatra to your level, aiming her torso-sized, extra fat red rocket at your [pc.vagOrAss]. <i>“Alrigh..."
   },
   {
     "key": "output|textify_ote_ote_0_Ce_Z_n_t_var0_n_t_t_You_load_the_progra|aec035ac91d3",
@@ -567,7 +783,13 @@
     "key": "button|Fight|0ce2e81acbfa",
     "original": "Fight!",
     "translation": "",
-    "context": "<<POS:28288270>>"
+    "context": "<<POS:28288270>> addButton(t++,\"Fight!\",(function(){return iae(e)}),\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|0ce2e81acbfa",
+    "original": "Fight!",
+    "translation": "",
+    "context": "<<POS:28288307>> addButton(t++,\"Fight!\",(function(){return iae(e)}),\"Fight!\",\"\")"
   },
   {
     "key": "output|textify_ate_ate_0_Ce_Z_n_tYou_fight_tooth_and_nails_again|2ae29678310f",
@@ -579,7 +801,13 @@
     "key": "button|Next|dfe2de88410e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28297940>>"
+    "context": "<<POS:28297940>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];if(poe(),output(textify(nte||(nte=(0,Ce.Z)([\"\\n\\tA strange unfamiliar warmth spreads through you, bringing a debilitating numbness with it as a new girl sprouts from behind the Goddess. S..."
+  },
+  {
+    "key": "button.hover|Next|dfe2de88410e",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28305741>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];if(poe(),output(textify(nte||(nte=(0,Ce.Z)([\"\\n\\tA strange unfamiliar warmth spreads through you, bringing a debilitating numbness with it as a new girl sprouts from behind the Goddess. S..."
   },
   {
     "key": "output|textify_ite_ite_0_Ce_Z_n_tThe_viridian_zaika_gasps_Her_e|2b036ded7d62",
@@ -591,19 +819,49 @@
     "key": "button|Take_Her_Tentacles|d747b2c61f67",
     "original": "Take Her Tentacles",
     "translation": "",
-    "context": "<<POS:28307332>>"
+    "context": "<<POS:28307332>> addButton(t++,\"Take Her Tentacles\",(function(){return dae(e)}),\"Take Her Tentacles\",\"Harvest her seed.\")"
   },
   {
-    "key": "button|Pheromone_Overdose|98aa7b790988",
+    "key": "button.hover|Take_Her_Tentacles|d747b2c61f67",
+    "original": "Take Her Tentacles",
+    "translation": "",
+    "context": "<<POS:28307381>> addButton(t++,\"Take Her Tentacles\",(function(){return dae(e)}),\"Take Her Tentacles\",\"Harvest her seed.\")"
+  },
+  {
+    "key": "button.tooltip|Harvest_her_seed|a4f5ee8458b0",
+    "original": "Harvest her seed.",
+    "translation": "",
+    "context": "<<POS:28307402>> addButton(t++,\"Take Her Tentacles\",(function(){return dae(e)}),\"Take Her Tentacles\",\"Harvest her seed.\")"
+  },
+  {
+    "key": "button|Pheromone_Overdose|0f10096912e7",
     "original": "Pheromone Overdose",
     "translation": "",
-    "context": "<<POS:28307437>>"
+    "context": "<<POS:28307437>> addButton(t++,\"Pheromone Overdose\",(function(){return gae(e)}),\"Pheromone Overdose\",\"Get loaded on her intoxicating scent.\")"
   },
   {
-    "key": "button|Leave|bb63d4ece1d4",
+    "key": "button.hover|Pheromone_Overdose|0f10096912e7",
+    "original": "Pheromone Overdose",
+    "translation": "",
+    "context": "<<POS:28307486>> addButton(t++,\"Pheromone Overdose\",(function(){return gae(e)}),\"Pheromone Overdose\",\"Get loaded on her intoxicating scent.\")"
+  },
+  {
+    "key": "button.tooltip|Get_loaded_on_her_intoxicating_scent|d426cb164924",
+    "original": "Get loaded on her intoxicating scent.",
+    "translation": "",
+    "context": "<<POS:28307507>> addButton(t++,\"Pheromone Overdose\",(function(){return gae(e)}),\"Pheromone Overdose\",\"Get loaded on her intoxicating scent.\")"
+  },
+  {
+    "key": "button|Leave|bb99965935ab",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:28307561>>"
+    "context": "<<POS:28307561>> addButton(14,\"Leave\",(function(){return pae(e)}),\"Leave\",\"\")"
+  },
+  {
+    "key": "button.hover|Leave|bb99965935ab",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:28307597>> addButton(14,\"Leave\",(function(){return pae(e)}),\"Leave\",\"\")"
   },
   {
     "key": "output|textify_ste_ste_0_Ce_Z_n_t_i_Gosh_the_poor_flowwie_s_al|66fadbc31aae",
@@ -615,7 +873,13 @@
     "key": "button|Next|5a36c4349d79",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28316029>>"
+    "context": "<<POS:28316029>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];poe(!0),output(textify(rte||(rte=(0,Ce.Z)([\"\\n\\tIn the blink of an eye, Zero Plus’s tail slithers around BL00M’s waist and sneaks between her bountiful buttcheeks. The curvaceous zaika wh..."
+  },
+  {
+    "key": "button.hover|Next|5a36c4349d79",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28325486>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];poe(!0),output(textify(rte||(rte=(0,Ce.Z)([\"\\n\\tIn the blink of an eye, Zero Plus’s tail slithers around BL00M’s waist and sneaks between her bountiful buttcheeks. The curvaceous zaika wh..."
   },
   {
     "key": "output|textify_ute_ute_0_Ce_Z_n_t_i_Woah_She_s_got_so_many_tai|8e167e01c600",
@@ -627,7 +891,13 @@
     "key": "button|Next|d0e120c837d1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28333053>>"
+    "context": "<<POS:28333053>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];poe(!0),output(textify(lte||(lte=(0,Ce.Z)([\"\\n\\tFeeling extra saucy, Zero Plus butts in, breaking your kiss,, the flared pride of her tail finding its way to BL00M’s lips. She pecks the o..."
+  },
+  {
+    "key": "button.hover|Next|d0e120c837d1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28341182>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];poe(!0),output(textify(lte||(lte=(0,Ce.Z)([\"\\n\\tFeeling extra saucy, Zero Plus butts in, breaking your kiss,, the flared pride of her tail finding its way to BL00M’s lips. She pecks the o..."
   },
   {
     "key": "output|textify_hte_hte_0_Ce_Z_n_t_i_Gosh_she_smells_gorgeous|b06f79f5d1ca",
@@ -639,7 +909,13 @@
     "key": "button|Next|423c85f81628",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28348504>>"
+    "context": "<<POS:28348504>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];poe(!0),output(textify(cte||(cte=(0,Ce.Z)([\"\\n\\tThe harder you fondle and finger her, the more pleasure BL00M gives you in return. Her godly scent ravishes your mind, cooking your mushy b..."
+  },
+  {
+    "key": "button.hover|Next|423c85f81628",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28354700>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];poe(!0),output(textify(cte||(cte=(0,Ce.Z)([\"\\n\\tThe harder you fondle and finger her, the more pleasure BL00M gives you in return. Her godly scent ravishes your mind, cooking your mushy b..."
   },
   {
     "key": "output|textify_dte_dte_0_Ce_Z_n_t_i_We_don_t_have_time_to_waste|528e7a5f1812",
@@ -651,13 +927,25 @@
     "key": "button|Next|32f82100778c",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28356889>>"
+    "context": "<<POS:28356889>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|32f82100778c",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28356900>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#8",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28356938>>"
+    "context": "<<POS:28356938>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#8",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28356958>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_pte_pte_0_Ce_Z_n_t_i_Yeah_She_escaped_the_chrom|4cbd0c6fb720",
@@ -669,7 +957,13 @@
     "key": "button|Next|93dfdc03af3c",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28359206>>"
+    "context": "<<POS:28359206>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|93dfdc03af3c",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28359226>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_yte_yte_0_Ce_Z_n_tYou_set_your_eyes_on_hers_i|21f25bcd2cf6",
@@ -681,7 +975,13 @@
     "key": "button|Next|a7fb3c6d1522",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28362452>>"
+    "context": "<<POS:28362452>> addButton(o++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|a7fb3c6d1522",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28362472>> addButton(o++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_kte_kte_0_Ce_Z_n_t_b_Day_043_b_n_t_n_t_i_Fin|9676a48ccf1c",
@@ -693,7 +993,13 @@
     "key": "button|Next|ba5204865f82",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28364512>>"
+    "context": "<<POS:28364512>> addButton(e++,\"Next\",bae,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|ba5204865f82",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28364523>> addButton(e++,\"Next\",bae,\"Next\",\"\")"
   },
   {
     "key": "output|textify_vte_vte_0_Ce_Z_n_tThe_last_entry_doesn_t_have_a_d|f5c8c74a9cf4",
@@ -705,7 +1011,13 @@
     "key": "button|Next|697f8e04cae5",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28365811>>"
+    "context": "<<POS:28365811>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|697f8e04cae5",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28365831>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Tte_Tte_0_Ce_Z_n_t_i_pc_name_I_can_t_find_any|130a0c4248eb",
@@ -717,7 +1029,13 @@
     "key": "button|Next|e4d288188eba",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28370818>>"
+    "context": "<<POS:28370818>> addButton(e++,\"Next\",kae,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|e4d288188eba",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28370829>> addButton(e++,\"Next\",kae,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Cte_Cte_0_Ce_Z_Zero_Plus_hops_into_the_nearby_e|fd269984d9de",
@@ -729,7 +1047,13 @@
     "key": "button|Next|a02e2554a1ac",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28376055>>"
+    "context": "<<POS:28376055>> addButton(e++,\"Next\",vae,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|a02e2554a1ac",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28376066>> addButton(e++,\"Next\",vae,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Lte_Lte_0_Ce_Z_var0_n_t_t_You_load_the_program|7f9b05e65b05",
@@ -741,7 +1065,13 @@
     "key": "button|Fight|b25a0ce475fc",
     "original": "Fight!",
     "translation": "",
-    "context": "<<POS:28392511>>"
+    "context": "<<POS:28392511>> addButton(t++,\"Fight!\",(function(){return Aae(e)}),\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|b25a0ce475fc",
+    "original": "Fight!",
+    "translation": "",
+    "context": "<<POS:28392548>> addButton(t++,\"Fight!\",(function(){return Aae(e)}),\"Fight!\",\"\")"
   },
   {
     "key": "output|textify_te_te_0_Ce_Z_n_tYou_fought_bravely_but_Ovvi_s|38c53ec48309",
@@ -753,7 +1083,13 @@
     "key": "button|Next|d23c3b0a6541",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28402568>>"
+    "context": "<<POS:28402568>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|d23c3b0a6541",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28402579>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Ste_Ste_0_Ce_Z_n_tThe_Bio_Regenerative_Armored_Ti|8af4baa605ed",
@@ -765,16 +1101,40 @@
     "key": "button|Genitails_Galore|8aabec22f13f",
     "original": "Genitails Galore",
     "translation": "",
-    "context": "<<POS:28404717>>"
+    "context": "<<POS:28404717>> addButton(t++,\"Genitails Galore\",(function(){return xae(e)}),\"Genitails Galore\",\"Relieve the poor thing.\")"
   },
   {
-    "key": "button|Leave|c14473a8ebe3",
+    "key": "button.hover|Genitails_Galore|8aabec22f13f",
+    "original": "Genitails Galore",
+    "translation": "",
+    "context": "<<POS:28404764>> addButton(t++,\"Genitails Galore\",(function(){return xae(e)}),\"Genitails Galore\",\"Relieve the poor thing.\")"
+  },
+  {
+    "key": "button.tooltip|Relieve_the_poor_thing|e56ae352a8cc",
+    "original": "Relieve the poor thing.",
+    "translation": "",
+    "context": "<<POS:28404783>> addButton(t++,\"Genitails Galore\",(function(){return xae(e)}),\"Genitails Galore\",\"Relieve the poor thing.\")"
+  },
+  {
+    "key": "button|Leave|6033ac268644",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:28404823>>"
+    "context": "<<POS:28404823>> addButton(14,\"Leave\",(function(){return Iae(e)}),\"Leave\",\"Ovvi must be stopped now!\")"
   },
   {
-    "key": "output|textify_xte_xte_0_Ce_Z_n_tThe_huge_zaika_helplessly_wiggl|c8853f438844",
+    "key": "button.hover|Leave|6033ac268644",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:28404859>> addButton(14,\"Leave\",(function(){return Iae(e)}),\"Leave\",\"Ovvi must be stopped now!\")"
+  },
+  {
+    "key": "button.tooltip|Ovvi_must_be_stopped_now|48d4656086c3",
+    "original": "Ovvi must be stopped now!",
+    "translation": "",
+    "context": "<<POS:28404867>> addButton(14,\"Leave\",(function(){return Iae(e)}),\"Leave\",\"Ovvi must be stopped now!\")"
+  },
+  {
+    "key": "output|textify_xte_xte_0_Ce_Z_n_tThe_huge_zaika_helplessly_wiggl|112153a1dc77",
     "original": "textify(xte||(xte=(0,Ce.Z)([\"\\n\\tThe huge zaika helplessly wiggles her weakened legs. Without any power left to fuel them, her tauric body is nothing but a dead weight. She whines softly, overwhelmed by her pent up lust and supercharged libido. The poor thing needs help, and you know exactly what to do to make a zaika like her bust a gigantic nut!\\n\\t\\n\\tYou shed your gear and [pc.cockHardlight\\n\\t\\t|reach for your hardening cock\\n\\t\\t|activate your hardlight-equipped underwears. In the blink of an eye, a fat, crackling mast rises over your [pc.cockVagBothNeither\\n\\t\\t\\t|other prick[pc.hasCocks 2\\n\\t\\t\\t\\t|s\\n\\t\\t\\t]\\n\\t\\t\\t|gushing pussylips\\n\\t\\t\\t|paired genitalia\\n\\t\\t\\t|smooth groin\\n\\t\\t]\\n\\t]. It twitches and throbs, as if it had a will of its own. Your pride yearns for the BRAT’s massive honkers, to feel the pillowy, cum-sloshing, soft hug of her bosom, from tip to [pc.hasKnot\\n\\t\\t|knot\\n\\t\\t|base\\n\\t].\\n\\t\\n\\tThe zaika titan slowly sets her modded eyes on you. She gasps softly, releasing a saurian bellow at the sight of your alien anatomy. You can see how much she’s already drooling, how tense her viciously-remodeled body is, and how much her excitement-ravaged brain wishes to cum. Oh! It’s gonna be fun.\\n\\t\\n\\tNot wasting a second, you climb up the inactive cyber lower body and close the distance between the giantess and yourself. You reach up and wrap your arms around her topmost rack to give them a squeeze. The violet creature moans, shivering from stem to stern as your digits sink into her immense [silly\\n\\t\\t|chestpillows\\n\\t\\t|breasts\\n\\t]. At the touch of your palms against her mammoth orbs, her writhing tails splurt excess jizz all around the lab, glazing old machines with waves of sticky splooge. If that’s what you get with a little teasing, then you can only imagine the creamy tides that your boobjob and titfuck will release!\\n\\t\\n\\t<i>“You tortured soul. I’ll end your suffering.”</i>\\n\\t\\n\\tThe BRAT whimpers, cognitive functions practically submerged by boob-induced delight. You grope and fondle her gigantic udders, coaxing fat ropes of jizz out of her with each caress. She might be a cybernetic monster — an abomination of flesh and metal — but it doesn’t mean that she doesn’t have needs. That she doesn’t have feelings or that she doesn’t deserve to be happy. Her taut skin is so sensitive, so plump... as glistening as freshly-baked buns and nearly as warm and soft. She could very well be a weird hyperpornstar, if it weren’t for the forced modifications and cybernetic butchery she went through.\\n\\t\\n\\tYou kiss and lick her sweaty rack, spit-shining her wobbling curves one torso-sized breast at a time. The poor thing moans and quivers, pushing forward to smother you in her bouncy, cushioned mounds. Waves of purple plushness wash over your [pc.skinFurScales], battering your sanity away harder than any mind-control device could! The more vigorously her tits wobble, the stronger you knead them, milking more thick, oozing juices out of her chest-mounted genitals.\\n\\t\\n\\tOn the left, you notice Dabbebieth rummaging through stuff. The little leyak recovers a makeshift bowl, fills it with water, then brings it to the flipped behemoth. The BRAT whines softly as he carefully hydrates her sore, chromed mouth and wipes the sweat out of her face with a somewhat smooth rag.\\n\\t\\n\\t<i>“Hold on big girl. You’ll soon feel better.”</i>\\n\\t\\n\\tDamn right she will! Without further teasing, you dive head first into her heavenly warmth. The giant zaika mewls, purring her lungs out as you rub your face, [pc.hasBreasts|[pc.boobs]|chest], [pc.hips],[pc.hasTail\\n\\t\\t| [pc.tails],\\n\\t] and groin against her whorish mounds. It’s like being smooshed by a bouncy castle, a big, sweaty, sloshing castle that churns and wobbles with the slightest move. You hold onto her tight, squeezing her topmost bosom for support as you start fucking every taut seam between her swelling racks.\\n\\t\\n\\tHer yoga ball-sized hills grow steadily, becoming bigger and warmer as you breed her into submission. You groan and gasp, savoring her sweet mammaries between fierce thrusts. Your hips buck up and down, showering your minds with saucy pleasure. Fresh spunk arcs all the way from her rear tails to her front end, raining down her opulent cleavages and glazing your surroundings with tasty, modded juices. Thanks to this slick lubricant, you can generously fuck her flawless canyons with your [pc.cockHardlight\\n\\t\\t|[pc.cocks]\\n\\t\\t|hardlight strapon\\n\\t] even as they balloon, pressing tighter even as the purple swallows you up. She bucks and writhe, struggling to withstand how your throbbing [pc.hasCocks 2\\n\\t\\t|rods grind\\n\\t\\t|rod grinds\\n\\t] against her slippery slopes. No matter how slowly or how weakly you go, however, she roars and squirts as if you were relieving her of a deep heat, torrents of boob-induced bliss submerging her already-ruined mind. \\n\\t\\n\\tHearing her moans makes you incredibly [pc.hasVagina\\n\\t\\t|wet and hard\\n\\t\\t|hard\\n\\t]. Maybe somebody might say you shouldn’t take advantage of this failed experiment as your personal cocksleeve, but here you are, driving your [pc.cockOrHardlight] between her slutty, swollen jugs and both of you can’t imagine how horrible it would’ve been if you’d walked away. Her spunk-covered plushness presses against you from every side, drenching your face with mauve skin while you rock her oversensitive cleavage with raw bliss. Your shaft[pc.hasCocks 2|s wetly slide| wetly slides] inside her tropical creases, making her breasts wobble and shake like olympic swimming pools of quaking jelly with each brain-frying thrust. Her downed body twitches and shivers under your unrelenting assaults. \\n\\t\\n\\tYou pant and sweat, rocking her cushioned front and augmented muscles with fierce pumps. Your leyak sidekick struggles to soothe the giant zaika beast as you relieve her from days, if not months of denied release. Her tails are gushing nonstop, painting your surroundings with [silly\\n\\t\\t|zaikalabaster\\n\\t\\t|alabaster\\n\\t] while you breed her most sensitive assets. And even at constant orgasm, she’s still not draining her breasts faster than they’re filling with her lust. They feel so soft, so plump, so juicy; ripe melons about to burst under the pressure. You lick, kiss, and fondle her generous body, making her gasp and coo with pleasure as your loins flare with a primal lust. [pc.cockVagBothNeither\\n\\t\\t|Fresh pre bubbles from your [pc.cocks]\\n\\t\\t|Rivers of [pc.girlCum] flow down your [pc.vaginas]\\n\\t\\t|Fresh pre bubbles from your [pc.cocks] and rivers of [pc.girlCum] flow down your [pc.vaginas]\\n\\t\\t|Sweatdrops rain down your forehead\\n\\t], adding your own juices to the squished cocoon of her breasts’ intoxicating murkiness.\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:28405008>>"
@@ -783,7 +1143,13 @@
     "key": "button|Next|6315d84e861c",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28411817>>"
+    "context": "<<POS:28411817>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];yoe(),output(textify(Ite||(Ite=(0,Ce.Z)([\"\\n\\tWithout a warning, you stop the frenzied fucking and reach an arm out of the marshmallow entombment to caress the BRAT’s cheeks. She melts at..."
+  },
+  {
+    "key": "button.hover|Next|6315d84e861c",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28419556>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];yoe(),output(textify(Ite||(Ite=(0,Ce.Z)([\"\\n\\tWithout a warning, you stop the frenzied fucking and reach an arm out of the marshmallow entombment to caress the BRAT’s cheeks. She melts at..."
   },
   {
     "key": "output|textify_Bte_Bte_0_Ce_Z_n_tThe_huge_zaika_helplessly_wiggl|bb7f0c1965d7",
@@ -795,7 +1161,13 @@
     "key": "button|Next|74d81e7f9657",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28425637>>"
+    "context": "<<POS:28425637>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];yoe(),output(textify(Nte||(Nte=(0,Ce.Z)([\"\\n\\tThe BRAT never stops. Her tails relentlessly ram your gaping holes, milking lurid moans out of you. You can feel the raw bliss rocking her sp..."
+  },
+  {
+    "key": "button.hover|Next|74d81e7f9657",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28432996>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];yoe(),output(textify(Nte||(Nte=(0,Ce.Z)([\"\\n\\tThe BRAT never stops. Her tails relentlessly ram your gaping holes, milking lurid moans out of you. You can feel the raw bliss rocking her sp..."
   },
   {
     "key": "output|textify_Rte_Rte_0_Ce_Z_n_t_i_We_must_press_on_i_you|5e9a7e0b3264",
@@ -807,13 +1179,25 @@
     "key": "button|Next|4778f147cb25",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28434040>>"
+    "context": "<<POS:28434040>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|4778f147cb25",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28434051>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#9",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28434089>>"
+    "context": "<<POS:28434089>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#9",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28434109>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Pte_Pte_0_Ce_Z_n_t_i_Here_goes_nothing_i_n_t|b429a6f072a6",
@@ -825,7 +1209,13 @@
     "key": "button|Next|59c3bc080dd9",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28434916>>"
+    "context": "<<POS:28434916>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|59c3bc080dd9",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28434936>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Yte_Yte_0_Ce_Z_n_tAfter_careful_consideration_yo|e34ab69441fd",
@@ -837,7 +1227,13 @@
     "key": "button|Next|a7f47e567762",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28435664>>"
+    "context": "<<POS:28435664>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|a7f47e567762",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28435684>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Gte_Gte_0_Ce_Z_n_tAre_you_sure_you_want_to_do_thi|207901efad1f",
@@ -849,13 +1245,25 @@
     "key": "button|Yes|89eeccbef883",
     "original": "Yes",
     "translation": "",
-    "context": "<<POS:28435906>>"
+    "context": "<<POS:28435906>> addButton(e++,\"Yes\",Oae,\"Yes\",\"\")"
+  },
+  {
+    "key": "button.hover|Yes|89eeccbef883",
+    "original": "Yes",
+    "translation": "",
+    "context": "<<POS:28435916>> addButton(e++,\"Yes\",Oae,\"Yes\",\"\")"
   },
   {
     "key": "button|No|1c655db5490a",
     "original": "No",
     "translation": "",
-    "context": "<<POS:28435940>>"
+    "context": "<<POS:28435940>> addButton(e++,\"No\",Yae,\"No\",\"\")"
+  },
+  {
+    "key": "button.hover|No|1c655db5490a",
+    "original": "No",
+    "translation": "",
+    "context": "<<POS:28435949>> addButton(e++,\"No\",Yae,\"No\",\"\")"
   },
   {
     "key": "output|textify_Fte_Fte_0_Ce_Z_n_tDabbebieth_gasps_in_shock_i|4d775b1e2fa0",
@@ -867,7 +1275,13 @@
     "key": "button|Next|7c77cb24e1f7",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28441028>>"
+    "context": "<<POS:28441028>> addButton(e++,\"Next\",Pae,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|7c77cb24e1f7",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28441039>> addButton(e++,\"Next\",Pae,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Dte_Dte_0_Ce_Z_n_tYou_barely_have_the_time_to_do|664e2fbdd058",
@@ -879,7 +1293,13 @@
     "key": "button|Next|fc813e754297",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28441882>>"
+    "context": "<<POS:28441882>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|fc813e754297",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28441902>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Hte_Hte_0_Ce_Z_n_t_var0_n_t_t_You_load_the_progra|0f4657afb5b0",
@@ -891,7 +1311,13 @@
     "key": "button|Fight|0ce2e81acbfa#1",
     "original": "Fight!",
     "translation": "",
-    "context": "<<POS:28445861>>"
+    "context": "<<POS:28445861>> addButton(t++,\"Fight!\",(function(){return Mae(e)}),\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|0ce2e81acbfa#1",
+    "original": "Fight!",
+    "translation": "",
+    "context": "<<POS:28445898>> addButton(t++,\"Fight!\",(function(){return Mae(e)}),\"Fight!\",\"\")"
   },
   {
     "key": "output|textify_zte_zte_0_Ce_Z_No_matter_how_hard_you_strike_or|00060dda1358",
@@ -903,7 +1329,13 @@
     "key": "button|Next|87561d264af6",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28455097>>"
+    "context": "<<POS:28455097>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearOutput(),showName(\"Dr. Ovvi\"),showBust(zp.bustString(!1,!0),paulette.bustString()),author(\"Magenta Needle\"),output(textify(Zte||(Zte=(0,Ce.Z)([\"\",\"A powerful shockwave blasts the roo..."
+  },
+  {
+    "key": "button.hover|Next|87561d264af6",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28460656>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];clearOutput(),showName(\"Dr. Ovvi\"),showBust(zp.bustString(!1,!0),paulette.bustString()),author(\"Magenta Needle\"),output(textify(Zte||(Zte=(0,Ce.Z)([\"\",\"A powerful shockwave blasts the roo..."
   },
   {
     "key": "output|textify_jte_jte_0_Ce_Z_n_tYou_shake_your_head_i_Paulet|fe135fb46683",
@@ -915,16 +1347,34 @@
     "key": "button|Creamy_Ride|c717392a8efa",
     "original": "Creamy Ride",
     "translation": "",
-    "context": "<<POS:28462764>>"
+    "context": "<<POS:28462764>> addButton(t++,\"Creamy Ride\",(function(){return vaginaRouter((function(){return(e?jae:Uae)()}),70,!0,0)}),\"Creamy Ride\",\"\")"
+  },
+  {
+    "key": "button.hover|Creamy_Ride|c717392a8efa",
+    "original": "Creamy Ride",
+    "translation": "",
+    "context": "<<POS:28462855>> addButton(t++,\"Creamy Ride\",(function(){return vaginaRouter((function(){return(e?jae:Uae)()}),70,!0,0)}),\"Creamy Ride\",\"\")"
   },
   {
     "key": "button|Call_Steele_Tech|3783ec536131",
     "original": "Call Steele Tech",
     "translation": "",
-    "context": "<<POS:28462887>>"
+    "context": "<<POS:28462887>> addButton(t++,\"Call Steele Tech\",e?boe:Wae,\"Call Steele Tech\",\"Let’s get this over with.\")"
   },
   {
-    "key": "output|textify_Ute_Ute_0_Ce_Z_n_t_flags_ZERO_PLUS_RESTORE_n_t_t|36bfc8b414be",
+    "key": "button.hover|Call_Steele_Tech|3783ec536131",
+    "original": "Call Steele Tech",
+    "translation": "",
+    "context": "<<POS:28462916>> addButton(t++,\"Call Steele Tech\",e?boe:Wae,\"Call Steele Tech\",\"Let’s get this over with.\")"
+  },
+  {
+    "key": "button.tooltip|Let_s_get_this_over_with|ab7b621aece6",
+    "original": "Let’s get this over with.",
+    "translation": "",
+    "context": "<<POS:28462935>> addButton(t++,\"Call Steele Tech\",e?boe:Wae,\"Call Steele Tech\",\"Let’s get this over with.\")"
+  },
+  {
+    "key": "output|textify_Ute_Ute_0_Ce_Z_n_t_flags_ZERO_PLUS_RESTORE_n_t_t|89ca95d65d5a",
     "original": "textify(Ute||(Ute=(0,Ce.Z)([\"\\n\\t[flags.ZERO_PLUS_RESTORE\\n\\t\\t|You smile. <i>“We could use some emergency healing. I feel so sore and Paulette is very tense. Do you know a treatment for this?”</i>\\n\\t\\t\\n\\t\\tThe albino bimbo giggles. <i>“Well duh! Boob rubbies and tail smoochies for Paullie Pally and extra sloppy alien massagey for [pc.mf\\n\\t\\t\\t|handsome\\n\\t\\t\\t|sweet\\n\\t\\t] cuties! Dabbidoo? You coming too?”</i>\\n\\t\\t\\n\\t\\tThe cobalt jellyfish shakes his head. <i>“I’m fine, thank you. I’ll just... take a breather,”</i> he replies, floating down the desk’s cushioned chair.\\n\\t\\t|<i>“Her PA-X gave us a run for our money — and I know a good way for her to pay back,”</i> you reply, looking at her flared hips and puffy pussylips.\\n\\t\\t\\n\\t\\tPaulette cocks an eyebrow. <i>“Don’t mind if I do. I’ve got some scores to settle with the Dr.”</i>\\n\\t\\t\\n\\t\\tThe former XO releases Ovvi’s neck from her serrated grasp. The albino zaika coughs, breathing some fresh air before you swarm her from both sides!\\n\\t]\\n\\t\\n\\tWithout further ado, Paulette deactivates her hardlight tail protection and fishes for [flags.ZERO_PLUS_RESTORE\\n\\t\\t|Zero Plus\\n\\t\\t|Ovvi\\n\\t]’s medical pump. She wraps her flexible tail around the other zaika’s peak, squeezing it in ways that are completely alien to you. In the blink of an eye, the metallic shell opens, revealing her extra wet tailcunt!\\n\\t\\n\\t<i>“[flags.ZERO_PLUS_RESTORE\\n\\t\\t|Gosh, you’re sooooooo big Paullie Pally!\\n\\t\\t|Oh fuck! It’s bigger than Oriann’s!\\n\\t]”</i>\\n\\t\\n\\tYour crewmate smiles wryly, reaching for her swelling rack. <i>“Don’t worry, it’ll fit. Now, open wide!”</i>\\n\\t\\n\\tShe squeezes her hair-trigger nipples and torrents of glowing blue milk shower the dollified doctor’s face! Her eyes go wide as intoxicating droplets sneak into her mouth and rain down her gullet. Even for someone as modded as her, it doesn’t take more than a few jets to turn the pearl zaika into a mooing mess. She shivers and gasps, rubbing her tail-mounted slit against Paulette’s flared tip and fondling her own rapidly-growing udders while you get rid of your gear and prepare your [pc.cockOrHardlight] for a bumpy ride.\\n\\t\\n\\tCompletely entranced by your friend’s lactic bounty, she doesn’t see you coming at all! You squish her boobs together, making her gelatinous mounds quake hypnotically. [flags.ZERO_PLUS_RESTORE\\n\\t\\t|Zero Plus\\n\\t\\t|Ovvi\\n\\t] releases a lurid moan as tides of pure pleasure rock her chest and milk-drunk brains. She melts in your hands, drooling spit-laced cream as you play with her watermelon-sized [silly\\n\\t\\t|chesticles\\n\\t\\t|jugs\\n\\t]. She looks so pure and innocent now, so sweet and kind[flags.ZERO_PLUS_RESTORE\\n\\t\\t|\\n\\t\\t| - far from the genius of evil who designed this cursed place\\n\\t]. She dutifully collects Paulette’s juices, giggling and shaking as you stimulate her ‘Pharmacy Tits’. Her tail weakly battles the former XO’s sinuous tentacle prick. Her gushing slit wetly molds around Paulette’s greedy tip, doing its best to please her as they desperately fight for dominance.\\n\\t\\n\\tYour [pc.cockOrHardlight] throbs against her thighs, yearning to ravish her sinfully-tight slit. Your [pc.cockVagBothNeither\\n\\t\\t|tip[pc.hasCocks 2\\n\\t\\t\\t|s are\\n\\t\\t\\t| is\\n\\t\\t] already bubbling pre, ready to paint her insides [pc.cumColor]\\n\\t\\t|folds are already wet, drooling [pc.girlCum] all over your [pc.isNaga\\n\\t\\t\\t|coils\\n\\t\\t\\t|legs\\n\\t\\t]\\n\\t\\t|paired genitalia are already oozing pre and [pc.girlCum], ready to give her an extra-slick makeover\\n\\t\\t|body’s on fire, ready to fuck her silly\\n\\t]. Her boobs are so full, they look firm, yet are so soft to the touch. The poor zaika wails, overwhelmed by masochistic bliss whenever you pinch or suckle on her massively-ballooned, sensitive and flawless bosom, wails that quickly become gurgling babbles as Paulette doses her with more of her sweetly intoxicating milk. Light blue rivulets slowly trickle down [flags.ZERO_PLUS_RESTORE\\n\\t\\t|Zero Plus\\n\\t\\t|Ovvi\\n\\t]’s chin. They flow down her cleavage in steady streams, turning it into a steamy hot canyon. Hum... this is giving you an idea.\\n\\t\\n\\tYou place a soft kiss on her boobs, making her shiver softly. Her snow-white skin warmly wobbles against your [pc.lips], almost kissing you back with their jiggly plushness. Without a warning, you [pc.isTaur\\n\\t\\t|mount her, squeezing her breasts together\\n\\t\\t|squeeze her breasts together and straddle her\\n\\t]. The albino zaika whorishly groans as you drive your [pc.cockOrHardlight] between her colossal, damp orbs. You rock your hips back and forth, making her yoga ball-sized tits bounce with each thrust. [flags.ZERO_PLUS_RESTORE\\n\\t\\t|Zero Plus\\n\\t\\t|Ovvi\\n\\t] gushes, unable to withstand your lewd titfuck and Paulette’s tail teasing at the same time. \\n\\t\\n\\tYou slowly pound into her sticky slide, making her supple skin shiver and quake as you piston your shaft in-and-out of her salacious vale. Her spit-shined flesh smoothly rubs against your length, lubing it up in a salacious mix of milk and slobber. Her mountainous mounds massage your crotch with a delightful, rippling clench. Strong waves of pleasure rock your spine, slowly erasing your thoughts as you ruin the kinky nurse’s over-filled and sloshing cleavage one thrust at a time. The poor thing moans and bucks under you. Dozens of blissful jolts sear her modded body each time your loins clap against her immobilizingly vast, expanding breasts, annihilating what little brainpower she had left with raw, exhilarating ecstasy.\\n\\t\\n\\t<i>“She’s tight,”</i> Paulette comments, struggling to dock her plus-sized tail bulb into [flags.ZERO_PLUS_RESTORE\\n\\t\\t|Zero Plus\\n\\t\\t|Ovvi\\n\\t]’s shockingly tight tail slit.\\n\\t\\n\\t<i>“Do you think she’s tighter down there?”</i> you ask, breeding her boobs.\\n\\t\\n\\tThe purple cyborg shrugs. <i>“I didn’t bed enough zaika egg-slits to be sure. It’ll be snugger than her front, maybe?”</i> she replies, sweating and unsteady. She’s struggling to stay upright herself, weighed down by her cowish udders that fill with lust even as she squeezes more milk onto the gleeful other girl. She steadily drains them but nothing seems to stop her taps from growing larger and larger. If you don’t speed up, you’ll have two breast-monsters to take care of!\\n\\t\\n\\tYou thrust a couple more times into the doc’s cleavage before switching positions. You slowly withdraw your [pc.cockOrHardlight] from her sinful depths. Oozing curtains of spit-laced milk cling to your glistening rod as you [pc.isTaur\\n\\t\\t|shift your weight on her breasts and\\n\\t\\t|take a hold on her handlebars and\\n\\t] aim your tip at her modded egg-chute. The busty [flags.ZERO_PLUS_RESTORE\\n\\t\\t|bimbo\\n\\t\\t|Peer\\n\\t] gasps meekly, too high on Paulette’s milk to articulate how much she needs this.\\n\\t\\n\\tStars, her pseudo pussy is so tight! Your [pc.cockOrStraponHead] struggles to part her rubbery lips, even with all the glistening lube coating it. Her augmented muscles slowly yield against your repeated assaults, giving you a hint of how warm and cozy they are with each probing. Meanwhile, Paulette continues her own fight against [flags.ZERO_PLUS_RESTORE\\n\\t\\t|Zero Plus\\n\\t\\t|Ovvi\\n\\t]’s practically virginal tailslit. Her powerful sex battles fiercely against the white zaika’s shy sex in looping, writhing coils that resembles the mating dance of snakes. They wetly rub against one another, staining the ground with a thick mixture of very different sorts of gooey semen.\\n\\t\\n\\t<i>“Yesh. Yesh! YESH!”</i>\\n\\t\\n\\t<i>“You want more?”</i>\\n\\t\\n\\tPaulette smirks. <i>“Then she’ll have more!”</i>\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:28463124>>"
@@ -933,7 +1383,13 @@
     "key": "button|Next|3f66170614f8",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28470781>>"
+    "context": "<<POS:28470781>> addButton(t++,\"Next\",(function(){return Zae(e)}),\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|3f66170614f8",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28470816>> addButton(t++,\"Next\",(function(){return Zae(e)}),\"Next\",\"\")"
   },
   {
     "key": "output|textify_qte_qte_0_Ce_Z_n_tThe_former_XO_passes_in_front_o|dbd7610068d2",
@@ -945,13 +1401,25 @@
     "key": "button|Next|406bd6c1bff1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28478701>>"
+    "context": "<<POS:28478701>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|406bd6c1bff1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28478712>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#10",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28478750>>"
+    "context": "<<POS:28478750>> addButton(t++,\"Next\",(function(){return Wae(e)}),\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#10",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28478785>> addButton(t++,\"Next\",(function(){return Wae(e)}),\"Next\",\"\")"
   },
   {
     "key": "output|textify_Wte_Wte_0_Ce_Z_n_t_flags_ZERO_PLUS_RESTORE_n_t_t|87effa96ff8a",
@@ -963,7 +1431,13 @@
     "key": "button|Next|3f66170614f8#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28486598>>"
+    "context": "<<POS:28486598>> addButton(t++,\"Next\",(function(){return qae(e)}),\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|3f66170614f8#1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28486633>> addButton(t++,\"Next\",(function(){return qae(e)}),\"Next\",\"\")"
   },
   {
     "key": "output|textify_Vte_Vte_0_Ce_Z_n_tWell_if_that_s_what_she_want|8be4b9309811",
@@ -975,13 +1449,25 @@
     "key": "button|Next|406bd6c1bff1#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28494418>>"
+    "context": "<<POS:28494418>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|406bd6c1bff1#1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28494429>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#11",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28494467>>"
+    "context": "<<POS:28494467>> addButton(t++,\"Next\",(function(){return Wae(e)}),\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#11",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28494502>> addButton(t++,\"Next\",(function(){return Wae(e)}),\"Next\",\"\")"
   },
   {
     "key": "output|textify_Kte_Kte_0_Ce_Z_n_tWith_Ovvi_out_of_the_way_you_c|52043ca0172a",
@@ -993,7 +1479,13 @@
     "key": "button|Next|904635ae8448",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28499075>>"
+    "context": "<<POS:28499075>> addButton(t++,\"Next\",(function(){return Vae(e)}),\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|904635ae8448",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28499110>> addButton(t++,\"Next\",(function(){return Vae(e)}),\"Next\",\"\")"
   },
   {
     "key": "output|textify_Qte_Qte_0_Ce_Z_n_t_flags_ZERO_PLUS_RESTORE_n_t_t|42cbf8df5510",
@@ -1005,7 +1497,13 @@
     "key": "button|Next|8096b75b076c",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28508657>>"
+    "context": "<<POS:28508657>> addButton(t++,\"Next\",(function(){return Kae(e)}),\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|8096b75b076c",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28508692>> addButton(t++,\"Next\",(function(){return Kae(e)}),\"Next\",\"\")"
   },
   {
     "key": "output|textify_Jte_Jte_0_Ce_Z_n_tThe_screen_turns_back_online_t|cc3f8d106513",
@@ -1017,7 +1515,13 @@
     "key": "button|Next|9a5da432ff5b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28511305>>"
+    "context": "<<POS:28511305>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];window.pauletteClear(),output(textify(Xte||(Xte=(0,Ce.Z)([\"\",\"The screen flickers to life again. This time, Past Paulette’s crossing a narrow tunnel. You have a sort of deja vu. Yes, you’..."
+  },
+  {
+    "key": "button.hover|Next|9a5da432ff5b",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28522970>> addButton(t++,\"Next\",(function(){return function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];window.pauletteClear(),output(textify(Xte||(Xte=(0,Ce.Z)([\"\",\"The screen flickers to life again. This time, Past Paulette’s crossing a narrow tunnel. You have a sort of deja vu. Yes, you’..."
   },
   {
     "key": "output|textify_toe_toe_0_Ce_Z_n_t_i_Dhaal_s_landing_site_is_in|c945fed50fef",
@@ -1029,19 +1533,37 @@
     "key": "button|Find_Job|bc5f7575c35e",
     "original": "Find Job",
     "translation": "",
-    "context": "<<POS:28529025>>"
+    "context": "<<POS:28529025>> addButton(t++,\"Find Job\",(function(){return Jae(e)}),\"Find Job\",\"\")"
+  },
+  {
+    "key": "button.hover|Find_Job|bc5f7575c35e",
+    "original": "Find Job",
+    "translation": "",
+    "context": "<<POS:28529064>> addButton(t++,\"Find Job\",(function(){return Jae(e)}),\"Find Job\",\"\")"
   },
   {
     "key": "button|Next|e84f32d45ae9",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28529113>>"
+    "context": "<<POS:28529113>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|e84f32d45ae9",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28529124>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#12",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28529149>>"
+    "context": "<<POS:28529149>> addButton(t++,\"Next\",(function(){skipToRoom(getShipRoom()),mainGameMenu(),flags.EGG_END_TS=GetGameTimestamp()}),\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#12",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28529247>> addButton(t++,\"Next\",(function(){skipToRoom(getShipRoom()),mainGameMenu(),flags.EGG_END_TS=GetGameTimestamp()}),\"Next\",\"\")"
   },
   {
     "key": "output|textify_ooe_ooe_0_Ce_Z_n_t_i_What_do_you_like_to_do_If|49ae2e236084",
@@ -1053,13 +1575,25 @@
     "key": "button|Next|322f036a6617",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28531808>>"
+    "context": "<<POS:28531808>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|322f036a6617",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28531819>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#13",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28531857>>"
+    "context": "<<POS:28531857>> addButton(t++,\"Next\",(function(){skipToRoom(getShipRoom()),mainGameMenu(),flags.EGG_END_TS=GetGameTimestamp()}),\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#13",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28531955>> addButton(t++,\"Next\",(function(){skipToRoom(getShipRoom()),mainGameMenu(),flags.EGG_END_TS=GetGameTimestamp()}),\"Next\",\"\")"
   },
   {
     "key": "output|textify_aoe_aoe_0_Ce_Z_n_t_i_There_s_room_on_the_pc_shi|a7985dd35481",
@@ -1071,13 +1605,25 @@
     "key": "button|Next|254499e5232b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28535415>>"
+    "context": "<<POS:28535415>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|254499e5232b",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28535426>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#14",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28535464>>"
+    "context": "<<POS:28535464>> addButton(t++,\"Next\",(function(){skipToRoom(getShipRoom()),mainGameMenu(),flags.EGG_END_TS=GetGameTimestamp()}),\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#14",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28535562>> addButton(t++,\"Next\",(function(){skipToRoom(getShipRoom()),mainGameMenu(),flags.EGG_END_TS=GetGameTimestamp()}),\"Next\",\"\")"
   },
   {
     "key": "output|textify_noe_noe_0_Ce_Z_n_t_i_We_don_t_need_to_neutralize|6adde38c4b72",
@@ -1089,16 +1635,34 @@
     "key": "button|Creamy_Ride|8e4cac421cbe",
     "original": "Creamy Ride",
     "translation": "",
-    "context": "<<POS:28539658>>"
+    "context": "<<POS:28539658>> addButton(t++,\"Creamy Ride\",(function(){return vaginaRouter((function(){return(e?jae:Uae)()}),70,!0,0)}),\"Creamy Ride\",\"\")"
+  },
+  {
+    "key": "button.hover|Creamy_Ride|8e4cac421cbe",
+    "original": "Creamy Ride",
+    "translation": "",
+    "context": "<<POS:28539749>> addButton(t++,\"Creamy Ride\",(function(){return vaginaRouter((function(){return(e?jae:Uae)()}),70,!0,0)}),\"Creamy Ride\",\"\")"
   },
   {
     "key": "button|Call_Steele_Tech|3783ec536131#1",
     "original": "Call Steele Tech",
     "translation": "",
-    "context": "<<POS:28539781>>"
+    "context": "<<POS:28539781>> addButton(t++,\"Call Steele Tech\",e?boe:Wae,\"Call Steele Tech\",\"Let’s get this over with.\")"
   },
   {
-    "key": "output|textify_ioe_ioe_0_Ce_Z_n_tThe_PA_X_s_amorphous_arms_surge|d085c1567f6b",
+    "key": "button.hover|Call_Steele_Tech|3783ec536131#1",
+    "original": "Call Steele Tech",
+    "translation": "",
+    "context": "<<POS:28539810>> addButton(t++,\"Call Steele Tech\",e?boe:Wae,\"Call Steele Tech\",\"Let’s get this over with.\")"
+  },
+  {
+    "key": "button.tooltip|Let_s_get_this_over_with|ab7b621aece6#1",
+    "original": "Let’s get this over with.",
+    "translation": "",
+    "context": "<<POS:28539829>> addButton(t++,\"Call Steele Tech\",e?boe:Wae,\"Call Steele Tech\",\"Let’s get this over with.\")"
+  },
+  {
+    "key": "output|textify_ioe_ioe_0_Ce_Z_n_tThe_PA_X_s_amorphous_arms_surge|ed8cb20bf9e0",
     "original": "textify(ioe||(ioe=(0,Ce.Z)([\"\\n\\tThe PA-X’s amorphous arms surge forward, pinning you to the wall. You try to writhe out of its shifting grasp but the fight took its toll on you.\\n\\t\\n\\t<i>“[pc.name]! Noooooooooooo!”</i> Dabbebieth wails. A second later, the [silly\\n\\t\\t|Ultimate Lifeform\\n\\t\\t|PA-X\\n\\t] captures him in an electromagnetic bubble. The cobalt alien shakes in his crackling prison, doing everything he can to escape. Ovvi chuckles from her desk.\\n\\t\\n\\t<i>“Impressive! I expected you to go down faster,”</i> the albino snarls, reaching for the captured leyak. <i>“My <i>Subjugator</i> could use a determined pilot like you. As for your friend, let’s see if the <i>assimilation directive</i> functions as intended.”</i>\\n\\t\\n\\tThe what?\\n\\t\\n\\tThe PA-X wobbles. The magma-bright orange amorph leaves its armor, coalescing in front of you into a giant blob. In the blink of an eye, it swallows you whole! Warm, amber tides thrash against your skin, conquering your muscles and curves. The artificial compound casually discards your gear, leaving you disarmed and naked against its infernal plumpness. You desperately battle it, striking and shaking in the hope of getting rid of it, but it sticks to you like honey! Whenever you push it away, it comes back stronger and warmer in another place.\\n\\t\\n\\tOvvi giggles. <i>“Still resisting? How cute. You two will make perfect bedwarmers.”</i>\\n\\t\\n\\tHer fiery, artificial goo girl swallows you whole, submerging your face, chest, belly, hips, and [pc.isNaga\\n\\t\\t|coils\\n\\t\\t|legs\\n\\t] inside its core! You try to breathe, only to inhale a mix of nanosurgeon-laced slime. The minuscule constructs sip into your flesh, invade your cells, infect your lungs, and overtake your veins with their fiendish warmth. An artificial heat rages through your brain, urging you to surrender and rub one off with the [silly\\n\\t\\t|Ultimate Lifeform\\n\\t\\t|devilish blob\\n\\t]!\\n\\t\\n\\tMiraculously, you manage to raise your head over the troubled seas only to helplessly watch in shock as Ovvi seals Dabbebieth into a huge exoskeleton all his own. The little leyak screams in its tight cell as chromed interfaces, buzzing electrodes, and weird tubes connect to his tiny body. The control panel seals in a hiss of pneumatics. A second later, his new cybernetic shell roars to life. Dozens of lashing tendrils writhe to life as the biomechanical contraption lovingly rubs its face against the dollified doctor’s cheeks.\\n\\t\\n\\t<i>“OOH! You’re gonna be my personal bootyguard,”</i> she giggles, reaching for its venom-laced tentacles. Her eyes dilate and her pearl white breasts swell as intoxicating loads enter her bloodstream. She happily lets her new toy play with her whorish assets. It gropes her from all sides, fondling her [silly\\n\\t\\t|chesticles\\n\\t\\t|mountainous mounds\\n\\t], hips, and gushing slits while its dexterous maw eats her gelatinous ass out.\\n\\t\\n\\tYour vision is taken as the [silly\\n\\t\\t|Ultimate Lifeform\\n\\t\\t|PA-X\\n\\t] covers your face with amorphous arms, filling your eyes with topaz goo. Its liquid body sips into you, caressing you from all sides with impossible motions, rubbing you in places that no hand should reach. Despite yourself, you moan, betraying how aroused you are. The more tides thrash against you, the brighter the lustfire in your core flares. Little by little, the supernatural inferno consumes your sanity, devouring your consciousness and leaving nothing but ardent desires and lurid thoughts.\\n\\t\\n\\tNot giving you a second of respite, the greedy living-lava assaults your [pc.lips], crotch, and [pc.ass]. You gasp and gurgle as the vile monster aggressively smooches you, thrusting its tentacular limbs deep inside your mouth while hundreds of tiny tongues lick your most sensitive places. Shiny pseudopods wriggles roughly [pc.hasBreasts|cup your [pc.boobs]. They slap and rub your front, showering your brain with searing bliss while devilish tendrils [pc.hasFuckableNipples\\n\\t\\t\\t|stretch\\n\\t\\t\\t|pinch\\n\\t\\t] your [pc.nipples]. You groan and squirm, overwhelmed by pain-laced pleasure.[pc.hasTailCunt\\n\\t\\t\\t| Gelatinous pricks grind your [pc.tailCunt]. They impishly make out with your rubbery lips, making you gush like a rabid beast as more exhilarating tides submerge your mind.\\n\\t\\t\\t|[pc.hasTailCock\\n\\t\\t\\t\\t| Gooey vulvas grind your [pc.tailCockNoun]. They impishly make out with your [pc.tailCockHead], making you foam like a rabid beast as more exhilarating tides submerge your mind.\\n\\t\\t\\t]\\n\\t\\t]|ensnare your torso]\\n\\t\\n\\tNext, the fiendish creature reaches for your [pc.cockVagBothNeither\\n\\t\\t|[pc.cocks]. Its malleable core swallows your rod[pc.hasCocks 2|s] whole, trapping [pc.hasCocks 2|them|it] in a moist, rippling cocksheathe[pc.hasBalls\\n\\t\\t\\t| while millions of tiny feelers tickle your balls, squeezing creamy pre out of your engorged gonads\\n\\t\\t]\\n\\t\\t|quivering folds. Its malleable core stretches your dewy pussylips wide, slithering inside you with hundreds of feelers that start an internal mating ball inside you\\n\\t\\t|sexes. Its malleable core swallows them whole, trapping your [pc.cocks] into a wet, rippling cocksheathe and stretching your pussywalls wide. Millions of tiny feelers dance across your vulnerable flesh in an infernal mating ball, coaxing dirty juices out of you\\n\\t\\t|smooth groin. Its malleable core swallows you whole. Millions of tiny feelers dance across your flesh in an infernal mating ball, turning your otherwise numb body into a clit-sensitive mush\\n\\t].\\n\\t\\n\\t<i>“Yes — give in to the pleasure.”</i>\\n\\t\\n\\tWhat little resistance you pose is immediately shattered by the [silly\\n\\t\\t|Ultimate Lifeform\\n\\t\\t|PA-X\\n\\t]’s brutal pumps. Its gooey limbs swell your guts, filling your [pc.hasVagina\\n\\t\\t|[pc.vaginas] and [pc.asshole]\\n\\t\\t|[pc.asshole]\\n\\t] to the brim with the magmatic goop of its cum-like body. You sweat profusely, panting madly as the tentacular shafts fuck you from both ends, relentlessly stuffing your stomach with a suffocating facefucking and spine-straightening buttfucking. Tides of bliss rock your flesh, turning your mind and body into a smoldering mess. You’re feeling yourself slip away, disappearing, taken away by the creature’s lustful vigor and virile might. [pc.cockVagBothNeither\\n\\t\\t|Your snugly-squeezed [pc.cocksNoun] bubble with pre, twitching and oozing\\n\\t\\t|Your stretched [pc.vaginasNoun] squirt sticky juices, twitching and oozing\\n\\t\\t|Your paired genitalia squirt sticky juices, twitching and oozing\\n\\t\\t|Your entire body tenses and quivers, twitching and quivering\\n\\t] as it scrapes your sense of self away one thrust at a time.\\n\\t\\n\\tThe ribbed feelers ravish your depths, writhing and wriggling together, squeezing lurid moans out of your molested mouth. They quake and twist inside you, rolling against your sore [pc.hasVagina\\n\\t\\t|pussywalls and colon\\n\\t\\t|guts\\n\\t], splattering nanosurgeon-laced goop all over your oversensitive muscles. Fiery loads sip into your veins, altering you from the bottom up. You feel lighter, softer, smoother, as if [pc.isGoo\\n\\t\\t|bits of your goo were dissolving\\n\\t\\t|you were made out of jelly\\n\\t]. Viscous tides batter against your toppled willpower, remodeling your organs into a form more fitting for your new position as Ovvi’s personal toy.\\n\\t\\n\\tPiping hot living-sludge bulges your belly. Volcanic streams submerge you from top to bottom, soaking your [pc.skinFurScales] in bright orange jelly as rivers of artificial jizz flow down your throat and up your gaping love tunnel[pc.hasVagina\\n\\t\\t|s\\n\\t]. Weak, choked-out moans cross your plugged lips as [pc.cockVagBothNeither\\n\\t\\t|you glaze the [silly\\n\\t\\t\\t|Ultimate Lifeform\\n\\t\\t\\t|PA-X\\n\\t\\t]’s ribbed cocksleeve with stringy ropes of [pc.cum]\\n\\t\\t|you splurt [pc.girlCum] all over the [silly\\n\\t\\t\\t|Ultimate Lifeform\\n\\t\\t\\t|PA-X\\n\\t\\t]’s ribbed dicks\\n\\t\\t|you glaze the [silly\\n\\t\\t\\t|Ultimate Lifeform\\n\\t\\t\\t|PA-X\\n\\t\\t]’s ribbed cocksleeve and bumpy dicks with [pc.cum] and [pc.girlCum]\\n\\t\\t|the inferno in your loins flares, searing your veins with a melting warmth\\n\\t]. Everything that you’ve been — everything that you would have been — disappears in an instant, wiped out by a tsunami of pure ecstasy.\\n\\t\\n\\t<i>“Almost done,”</i> Ovvi says, reaching for a snug latex bodysuit.\\n\\t\\n\\tThe amber spunk dumped inside you changes you at the molecular level like the sentient genemod that it is. Your [pc.isGoo\\n\\t\\t|gooey body ripples, becoming the same warm, bright orange as your hand-crafted sister\\n\\t\\t|flesh melts into a warm, bright orange goop\\n\\t]. Pulled by a gravity from within, the loose goo tightens and flexes into a shape resembling a Dhaal native, albeit quite a bit drippier. Everything feels so good on your remodeled, membranous slime skin. It’s as if every inch of your new, zaika-esque curves, from brow down to your toes, were as sensitive as a clit! Your slimy bits wobble, struggling to keep a coherent shape without the PA-X’s support.\\n\\t\\n\\tDr. [silly\\n\\t\\t|Positorii\\n\\t\\t|Hellitrix\\n\\t] throws the squeaky uniform your way. As soon as the clingy fabric touches your gooey outside, your liquid form instinctively slides inside, plumpening the whorish costume’s rear, sides, and front with your genetically-engineered assets. Stars, it’s a miracle it doesn’t burst from the sheer amount of gelatinous goodness stuffed inside its delightfully-soft fabric!\\n\\t\\n\\t<i>“You look gorgeous,”</i> the doctor praises, wrapping an arm around your pinched waist. She impishly squeezes your eye-popping bubble butt, literally making your entire body shiver with ripples. Stars, it’s like a Big Bang burst into your core! Her chromed tail merges with your new pseudopod zaika-appendage a moment later, frying your new neurons with masochistic pleasure. <i>“Wanna try this new body of yours before conquering the galaxy, [var0]S-X?”</i>\\n\\t\\n\\tYou nod. <i>“I’d like that, Mistress.”</i>\\n\\t\\n\\tPA-X and her roboticized leyak pet approach you. The former smothers you with her topaz mounds while the latter reaches for your feelers-lined holes with its chromed pseudopods. \\n\\t\\n\\t<i>“First to cum will be my new assistant — and must blow the others,”</i> your genius mistress announces.\\n\\t\\n\\tWithout further ado, you reach for PA-X’s lips and snuggle against her, making your bodysuits squeak as hundreds of writhing tendrils from the mecha-leyak spear you both wide open. An overwhelming happiness rocks your gelatinous cells as you realize that her dream came true: you are the embodiment of her search for perfection — a malleable being capable of thriving in any environment. One that can reproduce with anything and everything, only limited by her boundless imagination.\\n\\t\\n\\t<i>“Looks like we’re getting some company,”</i> your albino goddess giggles, pressing her right boob against your latex-clad jug. You follow her finger to see a flash in the sky outside of the window, right where Paulette’s pod exploded. A split second later, the same flash lights up the interior of the chamber.\\n\\t\\n\\tThe steam fades and the bracelet on her wrist falls to the floor with a clunk. She’s back! Somehow Paulette survived! And just in time to join you!\\n\\t\\n\\t[var0]S-X closes her eyes, surrendering her mind and body to Dr. [silly\\n\\t\\t|Positorii\\n\\t\\t|Hellitrix\\n\\t], happy to be her busty, bubbly plaything right as the PA-X leaps on the stunned zaika.\\n\\t\"]))),[function(){return pc.short[0].toUpperCase()}]",
     "translation": "",
     "context": "<<POS:28539970>>"
@@ -1107,7 +1671,13 @@
     "key": "button|Next|d07851dacac3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28551447>>"
+    "context": "<<POS:28551447>> addButton(0,\"Next\",boe,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|d07851dacac3",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:28551458>> addButton(0,\"Next\",boe,\"Next\",\"\")"
   },
   {
     "key": "output|textify_soe_soe_0_Ce_Z_An_alert_chirps_on_your_Codex_T|332da8f652df",
@@ -1119,7 +1689,7 @@
     "key": "button|Next|b36830f66825",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28553389>>"
+    "context": "<<POS:28553389>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|textify_roe_roe_0_Ce_Z_The_stars_twinkle_in_front_of_yo|988e1c7d7a21",
@@ -1131,13 +1701,13 @@
     "key": "name.show|Space_Leviathan|d6115a1a5d06",
     "original": "Space Leviathan",
     "translation": "",
-    "context": "<<POS:28554517>>"
+    "context": "<<POS:28554517>> showName(\"Space Leviathan\")"
   },
   {
     "key": "button|Next|b8d391e53cbc",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28554836>>"
+    "context": "<<POS:28554836>> addButton(0,\"Next\",E.V.beginCombat)"
   },
   {
     "key": "output|textify_uoe_uoe_0_Ce_Z_The_Space_Leviathan_careens_It|0d300edbd2f4",
@@ -1149,22 +1719,46 @@
     "key": "button|Call_Peacekeepers|6c316aaedb6d",
     "original": "Call Peacekeepers",
     "translation": "",
-    "context": "<<POS:28555775>>"
+    "context": "<<POS:28555775>> addButton(0,\"Call Peacekeepers\",sne,\"Call Peacekeepers\",\"Perhaps the Peacekeepers can contain it for good! Maybe you can get a reward?\")"
   },
   {
-    "key": "button|Leave|0dd37b9934c1",
+    "key": "button.hover|Call_Peacekeepers|6c316aaedb6d",
+    "original": "Call Peacekeepers",
+    "translation": "",
+    "context": "<<POS:28555799>> addButton(0,\"Call Peacekeepers\",sne,\"Call Peacekeepers\",\"Perhaps the Peacekeepers can contain it for good! Maybe you can get a reward?\")"
+  },
+  {
+    "key": "button.tooltip|Perhaps_the_Peacekeepers_can_contain_it_for_good_Maybe_you_can|088844bf4dbf",
+    "original": "Perhaps the Peacekeepers can contain it for good! Maybe you can get a reward?",
+    "translation": "",
+    "context": "<<POS:28555819>> addButton(0,\"Call Peacekeepers\",sne,\"Call Peacekeepers\",\"Perhaps the Peacekeepers can contain it for good! Maybe you can get a reward?\")"
+  },
+  {
+    "key": "button|Leave|389fd8c81862",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:28555913>>"
+    "context": "<<POS:28555913>> addButton(14,\"Leave\",ine,\"Leave\",\"Nah.\")"
   },
   {
-    "key": "output|You_don_t_want_anything_more_to_do_with_this_You_get_away_while|abc605e04600",
-    "original": "You don’t want anything more to do with this. You get away while the getting is good!\\n\\n",
+    "key": "button.hover|Leave|389fd8c81862",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:28555925>> addButton(14,\"Leave\",ine,\"Leave\",\"Nah.\")"
+  },
+  {
+    "key": "button.tooltip|Nah|b93f0074b5d0",
+    "original": "Nah.",
+    "translation": "",
+    "context": "<<POS:28555933>> addButton(14,\"Leave\",ine,\"Leave\",\"Nah.\")"
+  },
+  {
+    "key": "output|You_don_t_want_anything_more_to_do_with_this_You_get_away_while|77ae911efb2e",
+    "original": "You don’t want anything more to do with this. You get away while the getting is good!",
     "translation": "",
     "context": "<<POS:28555977>>"
   },
   {
-    "key": "output|textify_loe_loe_0_Ce_Z_You_reach_for_the_QCOMMs_and_dia|4d2e44a7fb94",
+    "key": "output|textify_loe_loe_0_Ce_Z_You_reach_for_the_QCOMMs_and_dia|3b05da60e36f",
     "original": "textify(loe||(loe=(0,Ce.Z)([\"\",\"You reach for the QCOMMs and dial the nearest Peacekeeper outpost.\\n\\n\\t\\t<i>“U.G.C cruisers, do you hear me?”</i>\\n\\n\\t\\tThe loudspeakers crackle. <i>“Good day citizen. What’s your emergency?”</i>\\n\\n\\t\\tYou activate your ship’s sensors and link the live feed to the communication system. <i>“I came across the Space Leviathan from the news. It’s stunned and weakened right now, but it’s only a matter of time until it disappears back into the void. If you want to tame it, it’s now or never!”</i>\\n\\n\\t\\tA moment passes before the buzzing voice answers. <i>“An interception fleet is heading to your coordinates. Leave the sector immediately - we’ll handle the rest ourselves. We owe you a big one, Captain Steele.”</i>\\n\\n\\t\\tYou take a picture of the stunned beast as a souvenir before steering out of range. Pfffew! That was a close one! You don’t know if it’s bad luck or if it’s got something against you in particular, but the leviathan was particularly furious and stubborn in your presence. Maybe it’s karma biting you back in the ass for your past cowardice? In the end, it doesn’t matter. You survived insurmountable odds once again!\"])),blockHeader(\"Peacekeepers Arrive\"))",
     "translation": "",
     "context": "<<POS:28556191>>"
@@ -1173,7 +1767,7 @@
     "key": "button|Next|df07d4390c2b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:28557449>>"
+    "context": "<<POS:28557449>> addButton(0,\"Next\",rne)"
   },
   {
     "key": "output|blockHeader_Peacekeeper_Results|4e81788ff013",
@@ -1182,13 +1776,13 @@
     "context": "<<POS:28557496>>"
   },
   {
-    "key": "output|A_short_while_later_you_receive_a_notice_from_the_Peacekeepers|6a4bf8ded526",
-    "original": "A short while later, you receive a notice from the Peacekeepers:\\n\\n",
+    "key": "output|A_short_while_later_you_receive_a_notice_from_the_Peacekeepers|c47a9b86a8eb",
+    "original": "A short while later, you receive a notice from the Peacekeepers:",
     "translation": "",
     "context": "<<POS:28557540>>"
   },
   {
-    "key": "output|i_b_Caution_advised_b_the_leviathan_has_escaped_containment|617a7ad4aa56",
+    "key": "output|i_b_Caution_advised_b_the_leviathan_has_escaped_containment|6279f395fcb0",
     "original": "<i><b>Caution advised:</b> the leviathan has escaped containment. Additional resources have been allocated by central command for future capture attempts.\\n\\nFor your bravery, a stipend of \".concat(e.toLocaleString(),\" credits have been awarded.</i>\")",
     "translation": "",
     "context": "<<POS:28557698>>"
@@ -1210,11 +1804,5 @@
     "original": "<i><b>Success!</b> The leviathan has been contained! Peacekeeper command is pleased to report that a major threat has been eliminated thanks to the bravery of [pc.name] Steele.\\n\\nAs a reward for your tireless efforts, you have been awarded \".concat(e.toLocaleString(),\" credits!</i>\")",
     "translation": "",
     "context": "<<POS:28558435>>"
-  },
-  {
-    "key": "output|n_n|40fb7d3ced5a",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:28558752>>"
   }
 ]

@@ -3,7 +3,7 @@
     "key": "perk|Fixed_CumQ|9becd7a6288b",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:03468290>>"
+    "context": "<<POS:03468290>> createPerk(\"Fixed CumQ\",3e3)"
   },
   {
     "key": "desc.long|The_divrani_gardener_stands_across_you_She_is_a_slender_lady_we|3a54798ec8da",
@@ -12,40 +12,58 @@
     "context": "<<POS:03468874>>"
   },
   {
-    "key": "combat|The_glowing_blue_projectile_hits_target_combatName_target_isP|7aeec2f40d81",
+    "key": "textify|The_divrani_gardener_reaches_for_a_big_cock_shaped_mushroom_and|769cf0d57361",
+    "original": "The divrani gardener reaches for a big, cock-shaped mushroom and aims [target.isPlayer|for [target.combatHisHer] head|at [target.combatName]]!",
+    "translation": "",
+    "context": "<<POS:03471196>>"
+  },
+  {
+    "key": "combat|The_glowing_blue_projectile_hits_target_combatName_target_isP|b0c82749e49f",
     "original": " The glowing blue projectile hits [target.combatName][target.isPlayer| square in the chest, splattering sticky goop all over [target.combatHisHer] front]! Strong roots tangle [target.isPlayer|[target.combatHisHer] [target.hasBreasts|[target.boobs]|torso]|[target.combatName]] as slick, spongy cocks sprout from the main one and batter [target.isPlayer|[target.combatHisHer] [target.face]|[target.combatName]] with their pungent masts!",
     "translation": "",
     "context": "<<POS:03471372>>"
   },
   {
-    "key": "combat|n_nThe_glowing_blue_cap_misses_target_combatName_and_weakly_b|023f98f250de",
-    "original": "\\n\\nThe glowing blue cap misses [target.combatName] and weakly bounces on the floor!",
+    "key": "combat|The_glowing_blue_cap_misses_target_combatName_and_weakly_bounc|8b2348c85797",
+    "original": "The glowing blue cap misses [target.combatName] and weakly bounces on the floor!",
     "translation": "",
-    "context": "<<POS:03472088>>"
+    "context": "<<POS:03472092>>"
   },
   {
-    "key": "combat|n_nThe_flower_like_bulb_hits_target_combatName_target_isPlaye|6982d230ff3a",
-    "original": "\\n\\nThe flower-like bulb hits [target.combatName][target.isPlayer| square in the head]! It slowly swells like a giant balloon that tightly fits on [target.isPlayer|[target.combatHisHer] skull|[target.combatName]] like a latex gimp hood, blinding [target.combatName] and suffocating [target.combatName] in its wet, pheromone-laced folds![target.hasAirtightSuit| Thanks to [target.combatHisHer] airtight gear, the tainted pollen fails to arouse [target.combatName]!]",
+    "key": "textify|The_divrani_gardener_reaches_for_a_big_bulb_like_flower_i_Ta|d101b86a4960",
+    "original": "The divrani gardener reaches for a big, bulb-like flower. <i>“Take that!”</i>",
     "translation": "",
-    "context": "<<POS:03472402>>"
+    "context": "<<POS:03472291>>"
   },
   {
-    "key": "combat|n_nThe_bulbous_projectile_goes_wide_of_target_combatName|5b2c1f322f87",
-    "original": "\\n\\nThe bulbous projectile goes wide of [target.combatName]!",
+    "key": "combat|The_flower_like_bulb_hits_target_combatName_target_isPlayer_s|5abbee3dc046",
+    "original": "The flower-like bulb hits [target.combatName][target.isPlayer| square in the head]! It slowly swells like a giant balloon that tightly fits on [target.isPlayer|[target.combatHisHer] skull|[target.combatName]] like a latex gimp hood, blinding [target.combatName] and suffocating [target.combatName] in its wet, pheromone-laced folds![target.hasAirtightSuit| Thanks to [target.combatHisHer] airtight gear, the tainted pollen fails to arouse [target.combatName]!]",
     "translation": "",
-    "context": "<<POS:03473079>>"
+    "context": "<<POS:03472406>>"
   },
   {
-    "key": "combat|n_n_target_CombatName_evade_s_s_the_gooey_assault_i_b_Mis|976f615d9dc1",
-    "original": "\\n\\n[target.CombatName] evade[s|s] the gooey assault! (<i><b>Miss x4!</b></i>)",
+    "key": "combat|The_bulbous_projectile_goes_wide_of_target_combatName|6d04a23225a1",
+    "original": "The bulbous projectile goes wide of [target.combatName]!",
     "translation": "",
-    "context": "<<POS:03473595>>"
+    "context": "<<POS:03473083>>"
   },
   {
-    "key": "combat|n_nThe_gooey_vines_strike_target_combatName_The_alien_stalks|9138e53f120a",
-    "original": "\\n\\nThe gooey vines strike [target.combatName]! The alien stalks clench tightly and spurt fresh nectar all over [target.combatName]! It quickly caramelizes on [target.isPlayer|[target.combatHisHer] [pc.skinFurScales]|[target.combatName]], turning [target.combatName] into a slow, sticky mess!",
+    "key": "textify|i_You_won_t_escape_me_i_The_divrani_gardener_reaps_long_s|6943f84b9d27",
+    "original": "<i>“You won‘t escape me!”</i> The divrani gardener reaps long, sticky stalks from the ground. She swiftly bends them into a makeshift flogger before hurling it [target.isPlayer|your way|towards [target.combatName]]!",
     "translation": "",
-    "context": "<<POS:03473695>>"
+    "context": "<<POS:03473229>>"
+  },
+  {
+    "key": "combat|target_CombatName_evade_s_s_the_gooey_assault_i_b_Miss_x4|e9f020592207",
+    "original": "[target.CombatName] evade[s|s] the gooey assault! (<i><b>Miss x4!</b></i>)",
+    "translation": "",
+    "context": "<<POS:03473599>>"
+  },
+  {
+    "key": "combat|The_gooey_vines_strike_target_combatName_The_alien_stalks_cle|2e2ebad1faa9",
+    "original": "The gooey vines strike [target.combatName]! The alien stalks clench tightly and spurt fresh nectar all over [target.combatName]! It quickly caramelizes on [target.isPlayer|[target.combatHisHer] [pc.skinFurScales]|[target.combatName]], turning [target.combatName] into a slow, sticky mess!",
+    "translation": "",
+    "context": "<<POS:03473699>>"
   },
   {
     "key": "combat|i_b_Miss_b_i|9ad7c22ed2ac",
@@ -54,61 +72,91 @@
     "context": "<<POS:03474180>>"
   },
   {
-    "key": "combat|n_nShe_hits_target_combatName_square_in_the_chest_knocking|a7c35d98ed18",
-    "original": "\\n\\nShe hits [target.combatName] square in the chest, knocking [target.combatName] prone! The symbiotic vine comes alive and latches onto [target.combatHisHer] [pc.hasBreasts|[pc.boobs] and pelvis, titfucking and dry-humping|crotch, dry-humping] you for long, violent seconds. Despite yourself, you release loud, pained moans! Once it’s done with you, it squirts glowing pink nectar all over your face, chest, and belly before weakly rolling out of reach. You are left bruised and aroused by the merciless ordeal!",
+    "key": "textify|In_a_shocking_display_of_hidden_strength_the_divrani_gardener_u|fe3190dac5d1",
+    "original": "In a shocking display of hidden strength, the divrani gardener uproots a large, tree trunk-like vine from the ground and levels it like a pike. Its interior pulses with life, ready to latch onto an unexpecting target! <i>“The bigger they are, the louder they moan!”</i>",
     "translation": "",
-    "context": "<<POS:03474749>>"
+    "context": "<<POS:03474446>>"
   },
   {
-    "key": "combat|n_n_b_yt_m_capitalize_e_getCombatName_1_e_isPlayer|11fce7b695d9",
-    "original": "\\n\\n<b>\"+yt.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\" tripped!</b>",
+    "key": "combat|She_hits_target_combatName_square_in_the_chest_knocking_targ|5cdffcf0b1a8",
+    "original": "She hits [target.combatName] square in the chest, knocking [target.combatName] prone! The symbiotic vine comes alive and latches onto [target.combatHisHer] [pc.hasBreasts|[pc.boobs] and pelvis, titfucking and dry-humping|crotch, dry-humping] you for long, violent seconds. Despite yourself, you release loud, pained moans! Once it’s done with you, it squirts glowing pink nectar all over your face, chest, and belly before weakly rolling out of reach. You are left bruised and aroused by the merciless ordeal!",
     "translation": "",
-    "context": "<<POS:03475427>>"
+    "context": "<<POS:03474753>>"
   },
   {
-    "key": "combat|n_nYou_nimbly_dodge_the_makeshift_spear_The_pulsing_stalk_land|815af31303a7",
-    "original": "\\n\\nYou nimbly dodge the makeshift spear. The pulsing stalk lands into a vibrant bush and spreads its roots deep into the ground! She won’t be able to swing it again anytime soon!",
+    "key": "combat|b_yt_m_capitalize_e_getCombatName_1_e_isPlayer_e|f3a442b4c6ed",
+    "original": "<b>\"+yt.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\" tripped!</b>",
     "translation": "",
-    "context": "<<POS:03475587>>"
+    "context": "<<POS:03475431>>"
   },
   {
-    "key": "combat|n_nThe_ripe_projectile_wetly_hits_target_combatName_staggeri|b612cc6f9f9c",
-    "original": "\\n\\nThe ripe projectile wetly hits [target.combatName], staggering [target.combatName][target.isPlayer| and splattering gooey nectar all over [target.combatHisHer] [target.hasBreasts|[pc.boobs]|chest]]![target.isPlayer| The sticky, oily liquid quickly seeps past [target.combatHisHer] gear and into [target.combatHisHer] flesh, spiking [target.combatHisHer] sensitivity and lust to new highs!]",
+    "key": "combat|You_nimbly_dodge_the_makeshift_spear_The_pulsing_stalk_lands_in|367e12ca6196",
+    "original": "You nimbly dodge the makeshift spear. The pulsing stalk lands into a vibrant bush and spreads its roots deep into the ground! She won’t be able to swing it again anytime soon!",
     "translation": "",
-    "context": "<<POS:03476101>>"
+    "context": "<<POS:03475591>>"
   },
   {
-    "key": "combat|n_nThe_lightning_fast_seed_misses_target_combatName_and_wetly|c1b60578c3c7",
-    "original": "\\n\\nThe lightning fast seed misses [target.combatName] and wetly spatters on the ground![silly| That’s some fast rooting if you’ve seen some!]",
+    "key": "textify|i_Time_to_even_the_odds_i_The_divrani_gardener_reaches_for|e7fa586bcbb4",
+    "original": "<i>“Time to even the odds!”</i> The divrani gardener reaches for her pockets and recovers a telescopic blowpipe. She then loads it with a blooming seed and aims it at [target.combatName].",
     "translation": "",
-    "context": "<<POS:03476666>>"
+    "context": "<<POS:03475880>>"
   },
   {
-    "key": "combat|n_nThe_divrani_gardener_takes_target_combatName_in_a_strong_b|b5cb66d60a85",
-    "original": "\\n\\nThe divrani gardener takes [target.combatName] in a strong bear hug, spraying creamy juices all over [target.combatName]. [target.CombatName] fight[s|s] her for a handful of seconds, but her full lips and prickish tongue find their way through to [target.combatHisHers]! She sloppily makes out with [target.combatName], penetrating [target.combatName] with her large, flared tongue. [target.CombatName] fight[s|s] back with [target.combatHisHer] [pc.tongue] but she’s far too big and dexterous to be outmatched.\\n\\n\\t\\t\\tThe divrani gardener humps [target.combatName] fondly, bending [target.combatName] backwards to better molest [target.combatHisHer] [target.hasSnakeByte|ribbed|vulnerable] gullet. Her spittle-oozing tongue goes deep, choking [target.combatName] out just like a sizable pecker would. Meanwhile, she greedily suckles [target.combatHisHer] [pc.lips]. Her ravenous kisses glaze [target.combatHisHer] [pc.hasMuzzle|snout|face], sampling [target.combatName] like a juicy piece of meat. A strong saltiness slowly settles on [target.combatHisHer] taste buds as she manhandles [target.combatName]. The more she foams, the more pungent the rich fluids become. It’s as if she’s coming in [target.combatHisHer] mouth with each thrust of her oral tendril. \\n\\n\\t\\t\\tShe goes on for long, intense moments that feel like minutes, throat fucking [target.combatName] with her long, flared tongue and suffocating [target.combatName] with her [silly\\n\\t\\t\\t\\t|dickpillows\\n\\t\\t\\t\\t|glossy smackers] before breaking the kiss. She places a warm peck on [target.combatHisHer] cheek, splattering more pearlescent spittle onto [target.combatName]!\\n\\n\\t\\t\\t<i>“You Emberians are so tasty. I could kiss [target.combatName] all day.”</i>\\n\\n\\t\\t\\tHer kinky assault left [target.combatName] hot under the collar!",
+    "key": "combat|The_ripe_projectile_wetly_hits_target_combatName_staggering|449a3df54db5",
+    "original": "The ripe projectile wetly hits [target.combatName], staggering [target.combatName][target.isPlayer| and splattering gooey nectar all over [target.combatHisHer] [target.hasBreasts|[pc.boobs]|chest]]![target.isPlayer| The sticky, oily liquid quickly seeps past [target.combatHisHer] gear and into [target.combatHisHer] flesh, spiking [target.combatHisHer] sensitivity and lust to new highs!]",
     "translation": "",
-    "context": "<<POS:03477160>>"
+    "context": "<<POS:03476105>>"
   },
   {
-    "key": "combat|n_n_target_CombatName_hop_s_s_sideways_at_the_last_moment_do|6ddcbbf16ec6",
-    "original": "\\n\\n[target.CombatName] hop[s|s] sideways at the last moment, dodging the gardener by a hair’s breadth! She quickly turns around and childishly pouts. She truly wanted to kiss [target.combatName].",
+    "key": "combat|The_lightning_fast_seed_misses_target_combatName_and_wetly_spa|08fe4d952d12",
+    "original": "The lightning fast seed misses [target.combatName] and wetly spatters on the ground![silly| That’s some fast rooting if you’ve seen some!]",
     "translation": "",
-    "context": "<<POS:03479125>>"
+    "context": "<<POS:03476670>>"
   },
   {
-    "key": "combat|n_nThe_venomous_stinger_hits_target_combatName_target_isPlaye|69133e62e194",
-    "original": "\\n\\nThe venomous stinger hits [target.combatName][target.isPlayer| square in the chest]! It injects noxious particles into [target.combatHisHer] bloodstream, plaguing [target.combatHisHer] veins with a lustful, fiery warmth!",
+    "key": "textify|Come_here_sweetie_give_me_a_kiss_She_surges_target_combatHi|99f5f7529c36",
+    "original": "\"Come here sweetie, give me a kiss!\" She surges [target.combatHisHer] way with arms wide open, ready to give [target.combatName] a spontaneous makeout session!",
     "translation": "",
-    "context": "<<POS:03479675>>"
+    "context": "<<POS:03476967>>"
   },
   {
-    "key": "combat|n_nThe_fiendish_stinger_goes_wide|ca4015a25de2",
-    "original": "\\n\\nThe fiendish stinger goes wide!",
+    "key": "combat|The_divrani_gardener_takes_target_combatName_in_a_strong_bear|6e232939f3f6",
+    "original": "The divrani gardener takes [target.combatName] in a strong bear hug, spraying creamy juices all over [target.combatName]. [target.CombatName] fight[s|s] her for a handful of seconds, but her full lips and prickish tongue find their way through to [target.combatHisHers]! She sloppily makes out with [target.combatName], penetrating [target.combatName] with her large, flared tongue. [target.CombatName] fight[s|s] back with [target.combatHisHer] [pc.tongue] but she’s far too big and dexterous to be outmatched.\\n\\n\\t\\t\\tThe divrani gardener humps [target.combatName] fondly, bending [target.combatName] backwards to better molest [target.combatHisHer] [target.hasSnakeByte|ribbed|vulnerable] gullet. Her spittle-oozing tongue goes deep, choking [target.combatName] out just like a sizable pecker would. Meanwhile, she greedily suckles [target.combatHisHer] [pc.lips]. Her ravenous kisses glaze [target.combatHisHer] [pc.hasMuzzle|snout|face], sampling [target.combatName] like a juicy piece of meat. A strong saltiness slowly settles on [target.combatHisHer] taste buds as she manhandles [target.combatName]. The more she foams, the more pungent the rich fluids become. It’s as if she’s coming in [target.combatHisHer] mouth with each thrust of her oral tendril. \\n\\n\\t\\t\\tShe goes on for long, intense moments that feel like minutes, throat fucking [target.combatName] with her long, flared tongue and suffocating [target.combatName] with her [silly\\n\\t\\t\\t\\t|dickpillows\\n\\t\\t\\t\\t|glossy smackers] before breaking the kiss. She places a warm peck on [target.combatHisHer] cheek, splattering more pearlescent spittle onto [target.combatName]!\\n\\n\\t\\t\\t<i>“You Emberians are so tasty. I could kiss [target.combatName] all day.”</i>\\n\\n\\t\\t\\tHer kinky assault left [target.combatName] hot under the collar!",
     "translation": "",
-    "context": "<<POS:03480053>>"
+    "context": "<<POS:03477164>>"
   },
   {
-    "key": "output|textify_lR_lR_0_et_Z_n_tThe_divrani_gardener_pouts_i_H|d72b6958d748",
+    "key": "combat|target_CombatName_hop_s_s_sideways_at_the_last_moment_dodgin|b07a6e7ce7e7",
+    "original": "[target.CombatName] hop[s|s] sideways at the last moment, dodging the gardener by a hair’s breadth! She quickly turns around and childishly pouts. She truly wanted to kiss [target.combatName].",
+    "translation": "",
+    "context": "<<POS:03479129>>"
+  },
+  {
+    "key": "textify|The_divrani_gardener_s_tail_writhes_building_the_momentum_requi|d61af4c12e42",
+    "original": "The divrani gardener’s tail writhes, building the momentum required for an armor-piercing strike. <i>“Get a load of this!”</i> the alien botanist screams, hurling her sharp tail [target.combatHisHer] way!",
+    "translation": "",
+    "context": "<<POS:03479437>>"
+  },
+  {
+    "key": "combat|The_venomous_stinger_hits_target_combatName_target_isPlayer_s|fe8dc3a84759",
+    "original": "The venomous stinger hits [target.combatName][target.isPlayer| square in the chest]! It injects noxious particles into [target.combatHisHer] bloodstream, plaguing [target.combatHisHer] veins with a lustful, fiery warmth!",
+    "translation": "",
+    "context": "<<POS:03479679>>"
+  },
+  {
+    "key": "combat|The_fiendish_stinger_goes_wide|b6c636521438",
+    "original": "The fiendish stinger goes wide!",
+    "translation": "",
+    "context": "<<POS:03480057>>"
+  },
+  {
+    "key": "textify|i_You_are_a_tough_one_i_she_groans_reaching_for_a_pair_of|4afa081532aa",
+    "original": "<i>“You are a tough one,”</i> she groans, reaching for a pair of glowing cherries. She casually gulps them down. Her body starts glowing with ominous purple light and her many bruises swiftly disappear under a new layer of seemingly thicker scales that look hard as bark. As her injuries disappear, you notice a change in her body. Her alien skin sweats profusely, her fuckable tits leak liberal amounts of plant-milk, and her pinecone of a cock oozes thic[silly|c|k] droplets. Her medicine left her greatly aroused!\\n\\n<i>“Right! Time for round two, [pc.mf|motherfucker|bitch]!”</i>",
+    "translation": "",
+    "context": "<<POS:03480225>>"
+  },
+  {
+    "key": "output|textify_lR_lR_0_et_Z_n_tThe_divrani_gardener_pouts_i_H|b680dfccba30",
     "original": "textify(lR||(lR=(0,et.Z)([\"\\n\\tThe divrani gardener pouts. <i>“H-How dare? You travel this wonderful land and refuse to give back? No no no no, that won’t do!”</i>\\n\\t\\n\\tYou take a fighting stance and get ready. The exotic girl’s eyes dance along the arsenal of her verdant garden and raises her scorpion tail. You won’t get away without a fight!\\n\\t\\n\\t<i>“Hallowed spirits of the woods, give me the strength to punish this unbeliever!”</i>\\n\\t\\n\\t<b>It’s a fight!</b>\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:03481228>>"
@@ -117,7 +165,13 @@
     "key": "button|Fight|3304b2d6d2db",
     "original": "Fight!",
     "translation": "",
-    "context": "<<POS:03481747>>"
+    "context": "<<POS:03481747>> addButton(e++,\"Fight!\",MR,\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|3304b2d6d2db",
+    "original": "Fight!",
+    "translation": "",
+    "context": "<<POS:03481759>> addButton(e++,\"Fight!\",MR,\"Fight!\",\"\")"
   },
   {
     "key": "output|textify_dR_dR_0_et_Z_n_t_i_I_d_like_to_receive_your_gift|0e8277699753",
@@ -129,55 +183,127 @@
     "key": "button|Nipples|c6dbbd90aa85",
     "original": "Nipples",
     "translation": "",
-    "context": "<<POS:03484996>>"
+    "context": "<<POS:03484996>> addButton(e++,\"Nipples\",KR,\"Nipples\",\"[pc.hasFuckableNipples|Let her play with your penetrable nipples more|Get divrani nipples].\")"
   },
   {
-    "key": "button|Nipples|e53b1c23466e",
+    "key": "button.hover|Nipples|c6dbbd90aa85",
     "original": "Nipples",
     "translation": "",
-    "context": "<<POS:03485136>>"
+    "context": "<<POS:03485009>> addButton(e++,\"Nipples\",KR,\"Nipples\",\"[pc.hasFuckableNipples|Let her play with your penetrable nipples more|Get divrani nipples].\")"
   },
   {
-    "key": "button|Cock|c8261175a120",
+    "key": "button.tooltip|pc_hasFuckableNipples_Let_her_play_with_your_penetrable_nipples|166b17f7b387",
+    "original": "[pc.hasFuckableNipples|Let her play with your penetrable nipples more|Get divrani nipples].",
+    "translation": "",
+    "context": "<<POS:03485019>> addButton(e++,\"Nipples\",KR,\"Nipples\",\"[pc.hasFuckableNipples|Let her play with your penetrable nipples more|Get divrani nipples].\")"
+  },
+  {
+    "key": "button|Nipples|28d12538f942",
+    "original": "Nipples",
+    "translation": "",
+    "context": "<<POS:03485136>> addDisabledButton(e++,\"Nipples\",\"Nipples\",\"Something about your body would reject the blessing! (Nipple type locked!)\")"
+  },
+  {
+    "key": "button.hover|Something_about_your_body_would_reject_the_blessing_Nipple_typ|3980366de611",
+    "original": "Something about your body would reject the blessing! (Nipple type locked!)",
+    "translation": "",
+    "context": "<<POS:03485156>> addDisabledButton(e++,\"Nipples\",\"Nipples\",\"Something about your body would reject the blessing! (Nipple type locked!)\")"
+  },
+  {
+    "key": "button|Cock|3f3f6b042395",
     "original": "Cock",
     "translation": "",
-    "context": "<<POS:03485253>>"
+    "context": "<<POS:03485253>> addButton(e++,\"Cock\",tN,\"Cock\",\"[pc.hasCock|Let her ride your divrani length again|Receive the gift of divrani virility].\")"
   },
   {
-    "key": "button|Cock|435ab387af21",
+    "key": "button.hover|Cock|3f3f6b042395",
     "original": "Cock",
     "translation": "",
-    "context": "<<POS:03485385>>"
+    "context": "<<POS:03485263>> addButton(e++,\"Cock\",tN,\"Cock\",\"[pc.hasCock|Let her ride your divrani length again|Receive the gift of divrani virility].\")"
   },
   {
-    "key": "button|Pussy|2723bc433885",
+    "key": "button.tooltip|pc_hasCock_Let_her_ride_your_divrani_length_again_Receive_the_g|83cf223535ad",
+    "original": "[pc.hasCock|Let her ride your divrani length again|Receive the gift of divrani virility].",
+    "translation": "",
+    "context": "<<POS:03485270>> addButton(e++,\"Cock\",tN,\"Cock\",\"[pc.hasCock|Let her ride your divrani length again|Receive the gift of divrani virility].\")"
+  },
+  {
+    "key": "button|Cock|b2bee04f5147",
+    "original": "Cock",
+    "translation": "",
+    "context": "<<POS:03485385>> addDisabledButton(e++,\"Cock\",\"Cock\",\"Something about your body prevents it from receiving this kind of blessing. (Penis transformation locked!)\")"
+  },
+  {
+    "key": "button.hover|Something_about_your_body_prevents_it_from_receiving_this_kind_o|1aad7588d8ba",
+    "original": "Something about your body prevents it from receiving this kind of blessing. (Penis transformation locked!)",
+    "translation": "",
+    "context": "<<POS:03485399>> addDisabledButton(e++,\"Cock\",\"Cock\",\"Something about your body prevents it from receiving this kind of blessing. (Penis transformation locked!)\")"
+  },
+  {
+    "key": "button|Pussy|35944588878b",
     "original": "Pussy",
     "translation": "",
-    "context": "<<POS:03485528>>"
+    "context": "<<POS:03485528>> addButton(e++,\"Pussy\",$R,\"Pussy\",\"[pc.hasVagina|Get loaded with radglow spunk with her|Receive the gift of divrani fertility].\")"
   },
   {
-    "key": "button|Pussy|7828fcf67098",
+    "key": "button.hover|Pussy|35944588878b",
     "original": "Pussy",
     "translation": "",
-    "context": "<<POS:03485665>>"
+    "context": "<<POS:03485539>> addButton(e++,\"Pussy\",$R,\"Pussy\",\"[pc.hasVagina|Get loaded with radglow spunk with her|Receive the gift of divrani fertility].\")"
   },
   {
-    "key": "button|Tongue|1fc3412920f5",
+    "key": "button.tooltip|pc_hasVagina_Get_loaded_with_radglow_spunk_with_her_Receive_the|2f4fa872e378",
+    "original": "[pc.hasVagina|Get loaded with radglow spunk with her|Receive the gift of divrani fertility].",
+    "translation": "",
+    "context": "<<POS:03485547>> addButton(e++,\"Pussy\",$R,\"Pussy\",\"[pc.hasVagina|Get loaded with radglow spunk with her|Receive the gift of divrani fertility].\")"
+  },
+  {
+    "key": "button|Pussy|6aed6b54f437",
+    "original": "Pussy",
+    "translation": "",
+    "context": "<<POS:03485665>> addDisabledButton(e++,\"Pussy\",\"Pussy\",\"Your body would reject the gift!\")"
+  },
+  {
+    "key": "button.hover|Your_body_would_reject_the_gift|a19ebf234198",
+    "original": "Your body would reject the gift!",
+    "translation": "",
+    "context": "<<POS:03485681>> addDisabledButton(e++,\"Pussy\",\"Pussy\",\"Your body would reject the gift!\")"
+  },
+  {
+    "key": "button|Tongue|80956961e2e7",
     "original": "Tongue",
     "translation": "",
-    "context": "<<POS:03485731>>"
+    "context": "<<POS:03485731>> addButton(e++,\"Tongue\",nN,\"Tongue\",pc.tongueType===GLOBAL.TYPE_MOTHRINE?\"Sloppily make out and worship each other again.\":\"Get a tongue fitting an ascended divrani.\")"
+  },
+  {
+    "key": "button.hover|Tongue|80956961e2e7",
+    "original": "Tongue",
+    "translation": "",
+    "context": "<<POS:03485743>> addButton(e++,\"Tongue\",nN,\"Tongue\",pc.tongueType===GLOBAL.TYPE_MOTHRINE?\"Sloppily make out and worship each other again.\":\"Get a tongue fitting an ascended divrani.\")"
   },
   {
     "key": "button|Random|696912deb6c1",
     "original": "Random",
     "translation": "",
-    "context": "<<POS:03486035>>"
+    "context": "<<POS:03486035>> addButton(e++,\"Random\",randomInCollection(t),\"Random\",\"\")"
+  },
+  {
+    "key": "button.hover|Random|696912deb6c1",
+    "original": "Random",
+    "translation": "",
+    "context": "<<POS:03486066>> addButton(e++,\"Random\",randomInCollection(t),\"Random\",\"\")"
   },
   {
     "key": "button|Actually_No|09b4239e70fb",
     "original": "Actually, No!",
     "translation": "",
-    "context": "<<POS:03486093>>"
+    "context": "<<POS:03486093>> addButton(e++,\"Actually, No!\",(function(){vt.P.applyDisarm(pc,2),DR()}),\"Actually, No!\",\"\")"
+  },
+  {
+    "key": "button.hover|Actually_No|09b4239e70fb",
+    "original": "Actually, No!",
+    "translation": "",
+    "context": "<<POS:03486151>> addButton(e++,\"Actually, No!\",(function(){vt.P.applyDisarm(pc,2),DR()}),\"Actually, No!\",\"\")"
   },
   {
     "key": "output|textify_cR_cR_0_et_Z_n_tThe_defeated_divrani_trips_on_an|b15d9f3adf8f",
@@ -189,19 +315,49 @@
     "key": "button|Ride_Her|de05cd78b2e6",
     "original": "Ride Her",
     "translation": "",
-    "context": "<<POS:03487599>>"
+    "context": "<<POS:03487599>> addButton(e++,\"Ride Her\",(function(){return vaginaRouter(WR,0,!0)}),\"Ride Her\",\"Squeeze her pinecone cock dry.\")"
   },
   {
-    "key": "button|Drugged_Sex|86ed9e4d0489",
+    "key": "button.hover|Ride_Her|de05cd78b2e6",
+    "original": "Ride Her",
+    "translation": "",
+    "context": "<<POS:03487653>> addButton(e++,\"Ride Her\",(function(){return vaginaRouter(WR,0,!0)}),\"Ride Her\",\"Squeeze her pinecone cock dry.\")"
+  },
+  {
+    "key": "button.tooltip|Squeeze_her_pinecone_cock_dry|e70801cddf82",
+    "original": "Squeeze her pinecone cock dry.",
+    "translation": "",
+    "context": "<<POS:03487664>> addButton(e++,\"Ride Her\",(function(){return vaginaRouter(WR,0,!0)}),\"Ride Her\",\"Squeeze her pinecone cock dry.\")"
+  },
+  {
+    "key": "button|Drugged_Sex|540d371ef576",
     "original": "Drugged Sex",
     "translation": "",
-    "context": "<<POS:03487712>>"
+    "context": "<<POS:03487712>> addButton(e++,\"Drugged Sex\",VR,\"Drugged Sex\",\"Get loaded with aphrodisiacs and fool around.\")"
   },
   {
-    "key": "button|Leave|dcb56a2b2b25",
+    "key": "button.hover|Drugged_Sex|540d371ef576",
+    "original": "Drugged Sex",
+    "translation": "",
+    "context": "<<POS:03487729>> addButton(e++,\"Drugged Sex\",VR,\"Drugged Sex\",\"Get loaded with aphrodisiacs and fool around.\")"
+  },
+  {
+    "key": "button.tooltip|Get_loaded_with_aphrodisiacs_and_fool_around|5aba220bf56d",
+    "original": "Get loaded with aphrodisiacs and fool around.",
+    "translation": "",
+    "context": "<<POS:03487743>> addButton(e++,\"Drugged Sex\",VR,\"Drugged Sex\",\"Get loaded with aphrodisiacs and fool around.\")"
+  },
+  {
+    "key": "button|Leave|bc8a3254ece2",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:03488195>>"
+    "context": "<<POS:03488195>> addButton(14,\"Leave\",(function(){inCombat()?CombatManager.genericVictory():mainGameMenu()}),\"Leave\",\"\")"
+  },
+  {
+    "key": "button.hover|Leave|bc8a3254ece2",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:03488274>> addButton(14,\"Leave\",(function(){inCombat()?CombatManager.genericVictory():mainGameMenu()}),\"Leave\",\"\")"
   },
   {
     "key": "output|textify_gR_gR_0_et_Z_n_tA_strong_whip_strike_puts_you_out|808a46d03c75",
@@ -213,7 +369,7 @@
     "key": "button|Next|582bc818149b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03490342>>"
+    "context": "<<POS:03490342>> addButton(0,\"Next\",t[0].f)"
   },
   {
     "key": "output|textify_yR_yR_0_et_Z_n_tThere_s_lots_of_things_you_could|860807f25c42",
@@ -225,7 +381,7 @@
     "key": "button|Next|6ba67bfde136",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03504152>>"
+    "context": "<<POS:03504152>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
   },
   {
     "key": "output|textify_pR_pR_0_et_Z_n_tThe_downed_divrani_pants_heavily|a81a8030f2e5",
@@ -237,7 +393,7 @@
     "key": "button|Next|1898b805c856",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03516681>>"
+    "context": "<<POS:03516681>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
   },
   {
     "key": "output|textify_mR_mR_0_et_Z_The_downed_gardener_shivers_Her_pene|61a50ce8c28f",
@@ -249,7 +405,7 @@
     "key": "button|Next|53dd33202b62",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03532442>>"
+    "context": "<<POS:03532442>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
   },
   {
     "key": "output|textify_fR_fR_0_et_Z_n_tLooking_at_the_downed_divrani_s_f|85c88c114850",
@@ -261,7 +417,7 @@
     "key": "button|Next|1898b805c856#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03548594>>"
+    "context": "<<POS:03548594>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
   },
   {
     "key": "output|i_Oh_I_know_You_ll_look_so_good_when_I_m_done_with_you_i|498d62fd6e90",
@@ -270,34 +426,34 @@
     "context": "<<POS:03548690>>"
   },
   {
-    "key": "output|n_nShe_picks_a_handful_of_berries_and_squeezes_the_ripe_fruits|b58e61992beb",
-    "original": "\\n\\nShe picks a handful of berries and squeezes the ripe fruits’ into a small jar. The reddish liquid looks sticky, blood-like, a bit like a crimson honey. She then grinds a couple of seeds and adds it to the juice. It starts bubbling, as if she put it to the fire. She shakes it, then reaches for one of her pouches and spices the concoction with a glowing [pc.hasFuckableNipples|greenish|blueish tincture].",
+    "key": "output|She_picks_a_handful_of_berries_and_squeezes_the_ripe_fruits_int|a3a55697875c",
+    "original": "She picks a handful of berries and squeezes the ripe fruits’ into a small jar. The reddish liquid looks sticky, blood-like, a bit like a crimson honey. She then grinds a couple of seeds and adds it to the juice. It starts bubbling, as if she put it to the fire. She shakes it, then reaches for one of her pouches and spices the concoction with a glowing [pc.hasFuckableNipples|greenish|blueish tincture].",
     "translation": "",
-    "context": "<<POS:03548862>>"
+    "context": "<<POS:03548866>>"
   },
   {
-    "key": "output|n_nA_cloud_of_purple_smoke_rises_from_the_bottleneck_The_garde|7a569d904e21",
-    "original": "\\n\\nA cloud of purple smoke rises from the bottleneck. The gardener stirs it a little more before kneeling in front of you.",
+    "key": "output|A_cloud_of_purple_smoke_rises_from_the_bottleneck_The_gardener|3e39f0d7118d",
+    "original": "A cloud of purple smoke rises from the bottleneck. The gardener stirs it a little more before kneeling in front of you.",
     "translation": "",
-    "context": "<<POS:03549281>>"
+    "context": "<<POS:03549285>>"
   },
   {
-    "key": "output|n_n_i_Relax_Emberian_Soon_you_ll_be_closer_to_the_truth|4f38b6daa976",
-    "original": "\\n\\n<i>“Relax, Emberian. Soon, you’ll be closer to the truth.”</i>",
+    "key": "output|i_Relax_Emberian_Soon_you_ll_be_closer_to_the_truth_i|3c9fbfcdd3ab",
+    "original": "<i>“Relax, Emberian. Soon, you’ll be closer to the truth.”</i>",
     "translation": "",
-    "context": "<<POS:03549415>>"
+    "context": "<<POS:03549419>>"
   },
   {
-    "key": "output|n_nBefore_you_can_ask_her_what_she_means_by_this_she_splatters|c32c5107c405",
-    "original": "\\n\\nBefore you can ask her what she means by this, she splatters the jar’s luminous contents on your [pc.hasBreasts|[pc.boobs]|chest]. A supernatural fire lights inside you as the alien droplets seep into your flesh. It feels like thousands of new nervous connections were activated at once. Just feeling her palms rub the mixture in, ravishes your mind with debilitating pleasure. You can feel it change you, knead your body into a new, lurid form.",
+    "key": "output|Before_you_can_ask_her_what_she_means_by_this_she_splatters_the|7dced3c62d25",
+    "original": "Before you can ask her what she means by this, she splatters the jar’s luminous contents on your [pc.hasBreasts|[pc.boobs]|chest]. A supernatural fire lights inside you as the alien droplets seep into your flesh. It feels like thousands of new nervous connections were activated at once. Just feeling her palms rub the mixture in, ravishes your mind with debilitating pleasure. You can feel it change you, knead your body into a new, lurid form.",
     "translation": "",
-    "context": "<<POS:03549492>>"
+    "context": "<<POS:03549496>>"
   },
   {
-    "key": "output|n_nYou_moan_and_foam_as_fiery_ripples_overtake_your_pc_nipples|6b2fb3d451b9",
-    "original": "\\n\\nYou moan and foam as fiery ripples overtake your [pc.nipples]. ",
+    "key": "output|You_moan_and_foam_as_fiery_ripples_overtake_your_pc_nipples|197b8a7bb01c",
+    "original": "You moan and foam as fiery ripples overtake your [pc.nipples]. ",
     "translation": "",
-    "context": "<<POS:03549952>>"
+    "context": "<<POS:03549956>>"
   },
   {
     "key": "output|Second_by_second_they_become_warmer_plumper_glossier_as_if_t|929c2b0e5b1e",
@@ -336,28 +492,28 @@
     "context": "<<POS:03550804>>"
   },
   {
-    "key": "output|n_n_i_Almost_there_We_just_need_to_smoothen_the_edges_i|94cbe725442e",
-    "original": "\\n\\n<i>“Almost there. We just need to smoothen the edges.”</i>",
+    "key": "output|i_Almost_there_We_just_need_to_smoothen_the_edges_i|27d6bb43f1c9",
+    "original": "<i>“Almost there. We just need to smoothen the edges.”</i>",
     "translation": "",
-    "context": "<<POS:03550874>>"
+    "context": "<<POS:03550878>>"
   },
   {
-    "key": "output|n_nYou_are_trying_but_it_s_deceptively_hard_to_withstand_her_o|bb68487cb504",
-    "original": "\\n\\nYou are trying, but it’s deceptively hard to withstand her oily gropes. Her peculiar prick and jugs ooze milky fluids all over your chest and belly, adding more thic[silly|c|k] creaminess to you. The divrani’s sugary secretions mix with the caramelized nectar and arousing balm into a hot, fiendish goop. She applies a lot of it then mashes your flesh like a baker working dough. Her fingers spread your [pc.nipples] wide. Her knuckles sink deep into you, coaxing whorish gasps out of you as she coats your penetrable passage with her aphrodisiac-laced lube. Stars, it feels so good!",
+    "key": "output|You_are_trying_but_it_s_deceptively_hard_to_withstand_her_oily|61b913d2bd1e",
+    "original": "You are trying, but it’s deceptively hard to withstand her oily gropes. Her peculiar prick and jugs ooze milky fluids all over your chest and belly, adding more thic[silly|c|k] creaminess to you. The divrani’s sugary secretions mix with the caramelized nectar and arousing balm into a hot, fiendish goop. She applies a lot of it then mashes your flesh like a baker working dough. Her fingers spread your [pc.nipples] wide. Her knuckles sink deep into you, coaxing whorish gasps out of you as she coats your penetrable passage with her aphrodisiac-laced lube. Stars, it feels so good!",
     "translation": "",
-    "context": "<<POS:03550947>>"
+    "context": "<<POS:03550951>>"
   },
   {
-    "key": "output|n_nBefore_you_can_climax_however_she_withdraws_her_magic_fing|77bf680acd62",
-    "original": "\\n\\nBefore you can climax, however, she withdraws her magic fingers from you and jams them into your mouth. A mix of sweet, mango-flavours dance on your taste buds. She doesn’t need to tell you to suck them; your entranced body knows what to do. You lap and slobber on her delicious hands with glee. The zealous divrani pridefully smirks. She controls you: she gives you pleasure, so she gets to decide how and when you’ll experience heavenly blessings. She’s your Mistress, your leader, and she doesn’t intend to let you go that easily.",
+    "key": "output|Before_you_can_climax_however_she_withdraws_her_magic_fingers|199241f5eeef",
+    "original": "Before you can climax, however, she withdraws her magic fingers from you and jams them into your mouth. A mix of sweet, mango-flavours dance on your taste buds. She doesn’t need to tell you to suck them; your entranced body knows what to do. You lap and slobber on her delicious hands with glee. The zealous divrani pridefully smirks. She controls you: she gives you pleasure, so she gets to decide how and when you’ll experience heavenly blessings. She’s your Mistress, your leader, and she doesn’t intend to let you go that easily.",
     "translation": "",
-    "context": "<<POS:03551545>>"
+    "context": "<<POS:03551549>>"
   },
   {
-    "key": "output|n_nThe_dazing_thunderstorm_rocking_your_front_slowly_calms_down|73265a5fd44c",
-    "original": "\\n\\nThe dazing thunderstorm rocking your front slowly calms down. You feel so warm... so sensitive... so loose. Your engorged ",
+    "key": "output|The_dazing_thunderstorm_rocking_your_front_slowly_calms_down_Yo|a9e2518efc44",
+    "original": "The dazing thunderstorm rocking your front slowly calms down. You feel so warm... so sensitive... so loose. Your engorged ",
     "translation": "",
-    "context": "<<POS:03552093>>"
+    "context": "<<POS:03552097>>"
   },
   {
     "key": "output|lipples_look_like_whorish_O_rings_rather_than_sweet_lips_right|a92e111fd1d1",
@@ -372,16 +528,16 @@
     "context": "<<POS:03552490>>"
   },
   {
-    "key": "output|n_n_i_All_done_i_the_gardener_says_cupping_your_pc_hasBr|46a2c974030e",
-    "original": "\\n\\n<i>“All done,”</i> the gardener says, cupping your [pc.hasBreasts|[pc.boobs]|chest]. <i>“Your fecund body is more than ready to be fertilized and blessed by my anointed seed and by the Radwoods’ guardians. Now, Emberian, ready yourself to experience pleasure like you’ve never seen before.”</i>",
+    "key": "output|i_All_done_i_the_gardener_says_cupping_your_pc_hasBreast|da59f6f3a000",
+    "original": "<i>“All done,”</i> the gardener says, cupping your [pc.hasBreasts|[pc.boobs]|chest]. <i>“Your fecund body is more than ready to be fertilized and blessed by my anointed seed and by the Radwoods’ guardians. Now, Emberian, ready yourself to experience pleasure like you’ve never seen before.”</i>",
     "translation": "",
-    "context": "<<POS:03552815>>"
+    "context": "<<POS:03552819>>"
   },
   {
-    "key": "output|n_nAn_alien_force_melts_and_reshapes_them_from_the_inside_Your|b59e8626d546",
-    "original": "\\n\\nAn alien force melts and reshapes them from the inside. Your [pc.hasBreasts|[pc.boobs]|torso] burns as she rubs the unguent into your changing flesh. It stings so much, but it feels so good. Each new, firm, circular grope ",
+    "key": "output|An_alien_force_melts_and_reshapes_them_from_the_inside_Your_pc|06f99c597556",
+    "original": "An alien force melts and reshapes them from the inside. Your [pc.hasBreasts|[pc.boobs]|torso] burns as she rubs the unguent into your changing flesh. It stings so much, but it feels so good. Each new, firm, circular grope ",
     "translation": "",
-    "context": "<<POS:03553126>>"
+    "context": "<<POS:03553130>>"
   },
   {
     "key": "output|makes_your_pc_cocks_and_pc_vaginas_pulse_with_anticipation|3638c715d558",
@@ -414,52 +570,52 @@
     "context": "<<POS:03554131>>"
   },
   {
-    "key": "output|n_n_i_Almost_there_Soon_your_body_will_be_fit_to_welcome_the|e7b18c6a9dba",
-    "original": "\\n\\n<i>“Almost there. Soon, your body will be fit to welcome the Radwoods’ spirits.”</i>",
+    "key": "output|i_Almost_there_Soon_your_body_will_be_fit_to_welcome_the_Rad|0303f5755ce0",
+    "original": "<i>“Almost there. Soon, your body will be fit to welcome the Radwoods’ spirits.”</i>",
     "translation": "",
-    "context": "<<POS:03554201>>"
+    "context": "<<POS:03554205>>"
   },
   {
-    "key": "output|n_nShe_makes_it_look_easy_but_it_s_far_from_the_truth_The_har|b17344d6570c",
-    "original": "\\n\\nShe makes it look easy, but it’s far from the truth. The harder she kneads your front, the more sensitive it becomes. Her magic, oiled fingers rub the tainted mixture deep into you, remodeling you with firm cupping gropes. Second by second, your nervous connections change, your areola shifts, and your mass moves nearer to your [pc.nipples]. You feel them swell and plumpen, as if she injected biosilicone directly into your teats. A sinful warmth slowly builds up into you, a debilitating inferno that chokes your minds out and turns the slightest caress into a whirlwind of pleasure.",
+    "key": "output|She_makes_it_look_easy_but_it_s_far_from_the_truth_The_harder|ce5beb806599",
+    "original": "She makes it look easy, but it’s far from the truth. The harder she kneads your front, the more sensitive it becomes. Her magic, oiled fingers rub the tainted mixture deep into you, remodeling you with firm cupping gropes. Second by second, your nervous connections change, your areola shifts, and your mass moves nearer to your [pc.nipples]. You feel them swell and plumpen, as if she injected biosilicone directly into your teats. A sinful warmth slowly builds up into you, a debilitating inferno that chokes your minds out and turns the slightest caress into a whirlwind of pleasure.",
     "translation": "",
-    "context": "<<POS:03554300>>"
+    "context": "<<POS:03554304>>"
   },
   {
-    "key": "output|n_nTied_down_and_drenched_in_caramelized_nectar_there_s_nothin|dcc3194e0dd1",
-    "original": "\\n\\nTied down and drenched in caramelized nectar, there’s nothing you can do to stop her. A whorish gasp crosses your [pc.lips] as her knuckles dig into your nipples. You shiver and groan as the aphrodisiac-laced balm coats your tendermost spots. Your tight muscles contract and ripple maniacally, fighting the vicious invaders and the molding mixture at the same time. She presses her fertile jugs and spongy cock against you, splattering milky juices all over your drugged [pc.hasBreasts|boobs|torso]. They mix with the sticky fluids into a warm, sticky gunk that she uses to bake your rack. Stars, it feels so good!",
+    "key": "output|Tied_down_and_drenched_in_caramelized_nectar_there_s_nothing_yo|7214337f9467",
+    "original": "Tied down and drenched in caramelized nectar, there’s nothing you can do to stop her. A whorish gasp crosses your [pc.lips] as her knuckles dig into your nipples. You shiver and groan as the aphrodisiac-laced balm coats your tendermost spots. Your tight muscles contract and ripple maniacally, fighting the vicious invaders and the molding mixture at the same time. She presses her fertile jugs and spongy cock against you, splattering milky juices all over your drugged [pc.hasBreasts|boobs|torso]. They mix with the sticky fluids into a warm, sticky gunk that she uses to bake your rack. Stars, it feels so good!",
     "translation": "",
-    "context": "<<POS:03554901>>"
+    "context": "<<POS:03554905>>"
   },
   {
-    "key": "output|n_nBefore_you_can_climax_however_she_withdraws_her_magic_fing|16c79188d4c4",
-    "original": "\\n\\nBefore you can climax, however, she withdraws her magic fingers from you and jams them into your mouth. A mix of sweet, mango-flavours dance on your taste buds. She doesn’t need to tell you to suck them; your entranced body knows what to do. You lap and slobber on her delicious hands with glee. The zealous divrani pridefully smirks. She controls you: she gives you pleasure, so she gets to decide how and when you’ll have enough. She’s your Mistress, your leader, and she doesn’t intend to let you go that easily.",
+    "key": "output|Before_you_can_climax_however_she_withdraws_her_magic_fingers|3862112b15f8",
+    "original": "Before you can climax, however, she withdraws her magic fingers from you and jams them into your mouth. A mix of sweet, mango-flavours dance on your taste buds. She doesn’t need to tell you to suck them; your entranced body knows what to do. You lap and slobber on her delicious hands with glee. The zealous divrani pridefully smirks. She controls you: she gives you pleasure, so she gets to decide how and when you’ll have enough. She’s your Mistress, your leader, and she doesn’t intend to let you go that easily.",
     "translation": "",
-    "context": "<<POS:03555530>>"
+    "context": "<<POS:03555534>>"
   },
   {
-    "key": "output|n_n_i_All_done_i_the_gardener_says_cupping_your_chest_i|9a0020c21933",
-    "original": "\\n\\n<i>“All done,”</i> the gardener says, cupping your chest. <i>“Your fecund body is more than ready to be fertilized and blessed by my anointed seed and by the Radwoods’ guardians. Now, Emberian, ready yourself to experience pleasure like you’ve never seen before.”</i>",
+    "key": "output|i_All_done_i_the_gardener_says_cupping_your_chest_i_Yo|135ed1abdff7",
+    "original": "<i>“All done,”</i> the gardener says, cupping your chest. <i>“Your fecund body is more than ready to be fertilized and blessed by my anointed seed and by the Radwoods’ guardians. Now, Emberian, ready yourself to experience pleasure like you’ve never seen before.”</i>",
     "translation": "",
-    "context": "<<POS:03556060>>"
+    "context": "<<POS:03556064>>"
   },
   {
-    "key": "output|n_nThe_dazing_thunderstorm_rocking_your_front_slowly_calms_down|94c26c823495",
-    "original": "\\n\\nThe dazing thunderstorm rocking your front slowly calms down. You feel so warm... so sensitive... so loose. The cheeky botanist produces a polished piece of metal from her apron and angles it like a mirror, so that you can see for yourself the result of her intense massage. You breathe deeply before looking at her work.",
+    "key": "output|The_dazing_thunderstorm_rocking_your_front_slowly_calms_down_Yo|8b1bc45018d7",
+    "original": "The dazing thunderstorm rocking your front slowly calms down. You feel so warm... so sensitive... so loose. The cheeky botanist produces a polished piece of metal from her apron and angles it like a mirror, so that you can see for yourself the result of her intense massage. You breathe deeply before looking at her work.",
     "translation": "",
-    "context": "<<POS:03556342>>"
+    "context": "<<POS:03556346>>"
   },
   {
-    "key": "output|n_nWhere_your_nipples_used_to_be_there_s_now_bulging_engorged|d0348f49360e",
-    "original": "\\n\\nWhere your nipples used to be, there’s now bulging, engorged innies, pert slits swollen enough to hint at petal-lined passages. They look like obscene parodies of pussies, steamy hot passages yearning to be filled. They quiver like real ones too, while sweet, pink milk trickles down your pseudo labia like femcum would cascade down a regular vagina. Just breathing makes them swell and burn, which sears your mind with dazing bliss.\\n\\n<b>She turned your nipples into floral, fuckable chestcunts!</b>",
+    "key": "output|Where_your_nipples_used_to_be_there_s_now_bulging_engorged_inn|c3498151bb4d",
+    "original": "Where your nipples used to be, there’s now bulging, engorged innies, pert slits swollen enough to hint at petal-lined passages. They look like obscene parodies of pussies, steamy hot passages yearning to be filled. They quiver like real ones too, while sweet, pink milk trickles down your pseudo labia like femcum would cascade down a regular vagina. Just breathing makes them swell and burn, which sears your mind with dazing bliss.\\n\\n<b>She turned your nipples into floral, fuckable chestcunts!</b>",
     "translation": "",
-    "context": "<<POS:03556678>>"
+    "context": "<<POS:03556682>>"
   },
   {
     "key": "button|Next|006580ea71f9",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03557458>>"
+    "context": "<<POS:03557458>> addButton(0,\"Next\",(function(){return JR(e,t)}))"
   },
   {
     "key": "output|textify_wR_wR_0_et_Z_The_gardener_lets_you_gawk_at_your_mo|efe7d19265ce",
@@ -468,13 +624,13 @@
     "context": "<<POS:03557526>>"
   },
   {
-    "key": "output|n_n_i_They_look_so_ripe_and_comfy|c7d2d0882f1a",
-    "original": "\\n\\n<i>“They look so ripe and comfy. ",
+    "key": "output|i_They_look_so_ripe_and_comfy|faf3cd73865e",
+    "original": "<i>“They look so ripe and comfy. ",
     "translation": "",
-    "context": "<<POS:03558222>>"
+    "context": "<<POS:03558226>>"
   },
   {
-    "key": "output|You_d_pc_hasLipples_n_t_t_t_put_a_nuka_to_shame_n_t_t_t_make_a|22a21d7c3015",
+    "key": "output|You_d_pc_hasLipples_n_t_t_t_put_a_nuka_to_shame_n_t_t_t_make_a|e694f419b6c2",
     "original": "You’d [pc.hasLipples\\n\\t\\t\\t|put a nuka to shame\\n\\t\\t\\t|make a perfect divrani wife\\n\\t\\t],”</i> she giggles, aiming her tip at your left [pc.nipple]. <i>“Don’t mind if I do.”</i>",
     "translation": "",
     "context": "<<POS:03558298>>"
@@ -486,19 +642,19 @@
     "context": "<<POS:03558489>>"
   },
   {
-    "key": "output|n_nWithout_waiting_for_your_answer_she_tightens_her_grip_on_yo|3a3a3a31793b",
-    "original": "\\n\\nWithout waiting for your answer, she tightens her grip on your side and probes your engorged lips with her tip. It feels so hot and wet against your tender skin, like an oozing bulb eager to spear you wide open. She plays with you a little. You gasp and shiver as the soft prick caresses your strange areola and plays with your stretchiness. Thanks to her chemical foreplay[pc.isLactating| and to your [pc.milk]], the experience is rather enjoyable. Her tapered end skillfully dances on your saucy entrance. It doesn’t slide in proper but it coaxes sharp coos out of you when your [pc.hasBreasts|tit|modded torso] molds over its slick head.",
+    "key": "output|Without_waiting_for_your_answer_she_tightens_her_grip_on_your_s|998a00a30fe4",
+    "original": "Without waiting for your answer, she tightens her grip on your side and probes your engorged lips with her tip. It feels so hot and wet against your tender skin, like an oozing bulb eager to spear you wide open. She plays with you a little. You gasp and shiver as the soft prick caresses your strange areola and plays with your stretchiness. Thanks to her chemical foreplay[pc.isLactating| and to your [pc.milk]], the experience is rather enjoyable. Her tapered end skillfully dances on your saucy entrance. It doesn’t slide in proper but it coaxes sharp coos out of you when your [pc.hasBreasts|tit|modded torso] molds over its slick head.",
     "translation": "",
-    "context": "<<POS:03558723>>"
+    "context": "<<POS:03558727>>"
   },
   {
-    "key": "output|n_nOnce_enough_of_her_spunk_glazes_your|63c4210636b8",
-    "original": "\\n\\nOnce enough of her spunk glazes your ",
+    "key": "output|Once_enough_of_her_spunk_glazes_your|5fb8c17a0ca0",
+    "original": "Once enough of her spunk glazes your ",
     "translation": "",
-    "context": "<<POS:03559378>>"
+    "context": "<<POS:03559382>>"
   },
   {
-    "key": "output|pc_hasLipples_n_t_t_t_lipple_n_t_t_t_fuckable_teat|bcd0e318fe12",
+    "key": "output|pc_hasLipples_n_t_t_t_lipple_n_t_t_t_fuckable_teat|e8931e6e58be",
     "original": "[pc.hasLipples\\n\\t\\t\\t|lipple\\n\\t\\t\\t|fuckable teat]",
     "translation": "",
     "context": "<<POS:03559458>>"
@@ -534,10 +690,10 @@
     "context": "<<POS:03564713>>"
   },
   {
-    "key": "output|n_nIt_s_certainly_not_the_last_time_you_ll_encounter_this_zealo|5fbc65a04bd8",
-    "original": "\\n\\nIt’s certainly not the last time you’ll encounter this zealous gardener, and she’ll surely lure you in with another of her ‘gifts.’ You breathe deeply and move on, fondling your sensitive rack and engorged [pc.hasLipples|lipples|cuntnips].",
+    "key": "output|It_s_certainly_not_the_last_time_you_ll_encounter_this_zealous_g|1a8a174db88b",
+    "original": "It’s certainly not the last time you’ll encounter this zealous gardener, and she’ll surely lure you in with another of her ‘gifts.’ You breathe deeply and move on, fondling your sensitive rack and engorged [pc.hasLipples|lipples|cuntnips].",
     "translation": "",
-    "context": "<<POS:03567102>>"
+    "context": "<<POS:03567106>>"
   },
   {
     "key": "output|You_will_have_to_get_used_to_b_having_fuckable_nipples_b|bc7155f40d72",
@@ -561,13 +717,13 @@
     "key": "perk|Hypermilky|89e48107ccdd",
     "original": "Hypermilky",
     "translation": "",
-    "context": "<<POS:03567766>>"
+    "context": "<<POS:03567766>> createPerk(\"Hypermilky\",0,0,0,0,\"Lactation will not decrease from disuse or overfilling.\")"
   },
   {
-    "key": "output|n_n_b_Perk_Gained_Hypermilky_b_Lactation_will_not_decrea|14830de53c57",
-    "original": "\\n\\n(<b>Perk Gained: Hypermilky!</b> - Lactation will not decrease from disuse or overfilling.)",
+    "key": "output|b_Perk_Gained_Hypermilky_b_Lactation_will_not_decrease_f|f1dc0376fc69",
+    "original": "(<b>Perk Gained: Hypermilky!</b> - Lactation will not decrease from disuse or overfilling.)",
     "translation": "",
-    "context": "<<POS:03567853>>"
+    "context": "<<POS:03567857>>"
   },
   {
     "key": "output|b_It_feels_like_there_s_more_room_inside_your_pc_fullChest_f|44faac902c63",
@@ -579,7 +735,7 @@
     "key": "button|Next|b02fec326ebc",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03568248>>"
+    "context": "<<POS:03568248>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
   },
   {
     "key": "output|textify_TR_TR_0_et_Z_The_scaly_gardener_looks_at_you_with|18225a0d6cc2",
@@ -588,10 +744,10 @@
     "context": "<<POS:03568934>>"
   },
   {
-    "key": "output|n_nWithout_warning_multiple_fat_flared_lengths_find_their_way|b5ccaad237bf",
-    "original": "\\n\\nWithout warning, multiple fat, flared lengths find their way through your [pc.lips], ",
+    "key": "output|Without_warning_multiple_fat_flared_lengths_find_their_way_thr|1f18e9ca640d",
+    "original": "Without warning, multiple fat, flared lengths find their way through your [pc.lips], ",
     "translation": "",
-    "context": "<<POS:03581961>>"
+    "context": "<<POS:03581965>>"
   },
   {
     "key": "output|lipples|73a6208cc51a",
@@ -618,13 +774,7 @@
     "context": "<<POS:03582199>>"
   },
   {
-    "key": "output|n_n|21cdc17b7d58",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:03583260>>"
-  },
-  {
-    "key": "output|textify_SR_SR_0_et_Z_The_viscous_horsecock_like_shafts_pi|e1871da02aaa",
+    "key": "output|textify_SR_SR_0_et_Z_The_viscous_horsecock_like_shafts_pi|bf72d58f458b",
     "original": "textify(SR||(SR=(0,et.Z)([\"The viscous, horsecock-like shafts piston in and out of you in a slow but purposeful pace. Your body bucks back-and-forth, up-and-down as their tentacular grasp tighten on your bulging neck, [pc.hasBreasts\\n\\t\\t|[pc.boobs]\\n\\t\\t|chest\\n\\t], [pc.isTaur\\n\\t\\t|tauric hind\\n\\t\\t|[pc.hips]\\n\\t], and [pc.ass]. They squeeze lurid whines out of you, whines that turn into delirious whimpers whenever they caress one of your many sweet spots. They bubble with nectar. With each new mind-stopping spearing, they apply more of the sap-like liquid to your clenched muscles. The more they spunk out, the more you relax and the more sensitive you become — a vicious feedback loop that tips you closer and closer to the edge. [pc.hasCock\\n\\t\\t|Your [pc.cocks] and flowery muff ooze with kinky juices\\n\\t\\t|Your floral muff oozes with kinky juices\\n\\t]. Your droplets wetly rain down the muddy ground, turning it into a salacious mire.\\n\\t\\n\\t<i>“Mthoo Hmtuch!”</i>\\n\\t\\n\\t<i>“Yesh. YESH. YESH! Feelsh the Rhadwood’s difhvine embrashe!”</i> the gardener screams in a cock-filled voice.\\n\\t\\n\\tMore veiny masts find their way into you. Two, then three of them enter your mouth,[pc.hasFuckableNipples\\n\\t\\t| [pc.hasLipples\\n\\t\\t\\t|lipples\\n\\t\\t\\t|[pc.nipples]\\n\\t\\t],\\n\\t] pussy, and [pc.asshole]. Others rub against your [pc.hips], cheeks, [pc.ass], and [pc.isTaur\\n\\t\\t|tauric undercarriage\\n\\t\\t|[pc.isNaga\\n\\t\\t\\t|serpentine coils\\n\\t\\t\\t|[pc.legs]\\n\\t\\t]\\n\\t], some even settle in your palm to be jerked to climax. There’s far too many for you to keep track of all of them. Their nectar-oozing lengths turn your [pc.skinFurScales] into an oily mess, while their heads make your spine ripple with pleasure. \\n\\t\\n\\tYou can barely clench over their girths. You have no chance of overcoming this mating ball, especially with how gaped and sensitive your inner walls are. It doesn’t stop you from trying though. Hundreds of blissful jolts sear your muscles. The flared pricks spear you like rutting horsecocks. They mark your tender passages and juicy folds with sweet, honeyed juices. No matter how hard you fight, they always manage to press your cum buzzers, thrashing your crumbling mind with ecstatic tides. You are melting in their grasp, becoming nothing but a cooing seedbed for their writhing offspring. What little air you can breathe is tainted with arousing pheromones and musky scents that bathe the fire of your loins in the whorish inferno of the planet’s corrupt flora.\\n\\t\\n\\tUnable to resist, you surrender to the devilishly unrelenting sprouts. Your body moves on its own, stroking, milking, and shaking to better please your throbbing cultivators. They gape you from all sides, drowning your gushing folds, ruined sphincter, and [pc.hasSnakeByte|augmented, erogenous|sore] throat with rivers of piping hot splooge. [pc.hasCock|Liberal amounts of pre and girlcum leak from your floral sexes|Liberal amounts of girlcum leak from your floral sex]. Each new, merciless pump drives you closer to your limits in a cacophony of wet, whorish noises and muffled moans.\\n\\t\\n\\tYour body strokes, grinds, and clenches desperately. There’s so many flared shafts pumping into you, bulging your belly and throat to obscene proportions. Tainted lumps of air weakly inflate your suffocating lungs as more and more creamy sap lubricates your sore gullet, pussywalls, and [pc.asshole]. You are but fertile soil to them, a plot they can plant and seed with extreme prejudice. Hot tides of pleasure shake your bound, soaked flesh. The harder they ram into you, the louder you whine. You helplessly writhe in your tightening cocoon while the brutal pricks tenderize your cum buttons. The floral landscaping ball slowly swells you, straining your muscles, veins, and brains with mind-erasing bliss. \\n\\t\\n\\tEverything feels so warm, so steamy, so moist, as if you were trapped in an exotic sauna with a tentacle beast — and an extra ravenous one at that! If it keeps going on like this, it’ll break your mind and body, not that you’d care about being an eternally-happy seedbed for parasitic plants and corrupted cultists. Your moans disappear in a chaotic mess of wet, gurgling noises and thic[silly|c|k], fountaining pre. Soon, they’ll shower you with their hottest, most holy waters.\\n\\t\\n\\tThe virile flares slide deep inside you. They stretch you to your limits, spearing your sweet spots with earth-rending force before dumping their gushing, creamy loads into you. Rivers of alien spunk glaze your sore pussywalls, throat,[pc.hasFuckableNipples\\n\\t\\t| [pc.hasLipples\\n\\t\\t\\t|lipples\\n\\t\\t\\t|[pc.nipples]\\n\\t\\t],\\n\\t] and [pc.asshole], turning your middle into a round, sloshing balloon. Pungent droplets spill from your [pc.lips], nostrils, rear, and honeypot, fertilizing the soil while their brethren shower your face, [pc.hasBreasts\\n\\t\\t|[pc.boobs]\\n\\t\\t|bust\\n\\t], [pc.hasCock\\n\\t\\t|[pc.cocks][pc.hasBalls\\n\\t\\t\\t|, [pc.balls]\\n\\t\\t]\\n\\t\\t|crotch\\n\\t], and [pc.thighs] with stringy jizz. You release a gargling whine as the full force of a toe-curling orgasm overtakes your body. Your gaping holes clench tightly over the pseudo horsecocks, milking them dry while your [pc.hasCock\\n\\t\\t|[pc.cocks] and dryad vagina spurt [pc.cum] and girlcum\\n\\t\\t|dryad vagina squirts girlcum\\n\\t] all over the tainted glade.\\n\\t\\n\\tYou chug as much of their divine essence as you can. Taking advantage of their relieved torpor, you inhale deeply and prepare yourself for what’s next. Burning lumps of pheromone-laced air inflate your fiery lungs with a volcanic warmth as the veiny vines shift. The dry bulbs flop out of you, splattering more plant goop on your [pc.skinFurScales] before being replaced by the next crop of firm, throbbing masts. Stars, it’s gonna be a very long day.\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:03583274>>"
@@ -633,7 +783,13 @@
     "key": "button|Next|02b364115912",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03589149>>"
+    "context": "<<POS:03589149>> addButton(n++,\"Next\",(function(){return eN(e,0)}),\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|02b364115912",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03589185>> addButton(n++,\"Next\",(function(){return eN(e,0)}),\"Next\",\"\")"
   },
   {
     "key": "output|textify_IR_IR_0_et_Z_n_tAfter_what_felt_like_hours_to_you|72f99a11abc0",
@@ -642,40 +798,34 @@
     "context": "<<POS:03589227>>"
   },
   {
-    "key": "output|n|a624c03768ae",
-    "original": "\\n",
+    "key": "output|b_Your_feminine_fluids_have_changed_now_more_like_like_fruit_j|345cf9aada73",
+    "original": "<b>Your feminine fluids have changed, now more like like fruit juice than feminine secretions!</b> The blessing truly made you a tasty treat....",
     "translation": "",
-    "context": "<<POS:03591379>>"
+    "context": "<<POS:03591557>>"
   },
   {
-    "key": "output|n_b_Your_feminine_fluids_have_changed_now_more_like_like_fruit|ddc82ab6c17a",
-    "original": "\\n<b>Your feminine fluids have changed, now more like like fruit juice than feminine secretions!</b> The blessing truly made you a tasty treat....",
+    "key": "output|b_Your_pc_vaginaNoun_t_got_wetter_b_You_re_so_juicy_no|653b1da12d52",
+    "original": "<b>Your [pc.vaginaNoun \"+t+\"] got wetter!</b> You’re so juicy now, just like the divrani intended...",
     "translation": "",
-    "context": "<<POS:03591555>>"
+    "context": "<<POS:03591784>>"
   },
   {
-    "key": "output|n_b_Your_pc_vaginaNoun_t_got_wetter_b_You_re_so_juicy|cc2f01c6bc97",
-    "original": "\\n<b>Your [pc.vaginaNoun \"+t+\"] got wetter!</b> You’re so juicy now, just like the divrani intended...",
+    "key": "output|b_Those_juices_made_your_whole_body_slightly_more_elastic_b|0084ed5ec147",
+    "original": "<b>Those juices made your whole body slightly more elastic!</b>",
     "translation": "",
-    "context": "<<POS:03591782>>"
+    "context": "<<POS:03592004>>"
   },
   {
-    "key": "output|n_b_Those_juices_made_your_whole_body_slightly_more_elastic_b|1228c5e56d55",
-    "original": "\\n<b>Those juices made your whole body slightly more elastic!</b>",
+    "key": "output|b_You_feel_like_your_pc_vaginaNoun_t_got_a_little_bit_dee|e9a621ae9a96",
+    "original": "<b>You feel like your [pc.vaginaNoun \"+t+\"] got a little bit deeper</b> - like you can take more without any external change.",
     "translation": "",
-    "context": "<<POS:03592002>>"
-  },
-  {
-    "key": "output|n_b_You_feel_like_your_pc_vaginaNoun_t_got_a_little_bit_d|13ef1fce00b3",
-    "original": "\\n<b>You feel like your [pc.vaginaNoun \"+t+\"] got a little bit deeper</b> - like you can take more without any external change.",
-    "translation": "",
-    "context": "<<POS:03592159>>"
+    "context": "<<POS:03592161>>"
   },
   {
     "key": "button|Next|f7cccd5befc2",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03592361>>"
+    "context": "<<POS:03592361>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
   },
   {
     "key": "output|textify_YR_YR_0_et_Z_n_tThe_scaly_gardener_gazes_at_her_t|cb544d92f8cd",
@@ -684,40 +834,40 @@
     "context": "<<POS:03592604>>"
   },
   {
-    "key": "output|n_nShe_leans_closer_to_you_Her_hot_breath_washes_over_you_ont|a1e9c4d0c4a7",
-    "original": "\\n\\nShe leans closer to you. Her hot breath washes over you, onto your cock.",
+    "key": "output|She_leans_closer_to_you_Her_hot_breath_washes_over_you_onto_yo|0d3d9e21b6a2",
+    "original": "She leans closer to you. Her hot breath washes over you, onto your cock.",
     "translation": "",
-    "context": "<<POS:03593356>>"
+    "context": "<<POS:03593360>>"
   },
   {
-    "key": "output|n_n_i_This_body_isn_t_quite_fit_to_revere_our_glorious_glades|a8ae1bf07e8e",
-    "original": "\\n\\n<i>“This body isn’t quite fit to revere our glorious glades just yet. Luckily, the Radwoods’ spirits have the right gift for you. Isn’t that wonderful? You’ll experience pleasures unlike any others! Aren’t you excited?”</i>",
+    "key": "output|i_This_body_isn_t_quite_fit_to_revere_our_glorious_glades_just|0f502e8e0786",
+    "original": "<i>“This body isn’t quite fit to revere our glorious glades just yet. Luckily, the Radwoods’ spirits have the right gift for you. Isn’t that wonderful? You’ll experience pleasures unlike any others! Aren’t you excited?”</i>",
     "translation": "",
-    "context": "<<POS:03593443>>"
+    "context": "<<POS:03593447>>"
   },
   {
-    "key": "output|n_nBefore_you_can_answer_she_bounces_away_and_reaches_for_an_a|89a7f7656d6c",
-    "original": "\\n\\nBefore you can answer, she bounces away and reaches for an alien maple tree. She gathers some of its lightly glowing sap into a little vial then minces an onion-like bulb into little morsels that she adds to the mix. Then, she squeezes a carmine zucchini’s nectar into the bottle. You can see the tincture bubbling from here. The floral divrani firmly shakes the liquid, turning it from blood red to leaf green before adding her fresh spittle to it. The moment the droplets land into the concoction, it starts fuming and turns navy blue. She checks its viscosity then walks back to you, a wry smile on her face.",
+    "key": "output|Before_you_can_answer_she_bounces_away_and_reaches_for_an_alien|dc110412efe5",
+    "original": "Before you can answer, she bounces away and reaches for an alien maple tree. She gathers some of its lightly glowing sap into a little vial then minces an onion-like bulb into little morsels that she adds to the mix. Then, she squeezes a carmine zucchini’s nectar into the bottle. You can see the tincture bubbling from here. The floral divrani firmly shakes the liquid, turning it from blood red to leaf green before adding her fresh spittle to it. The moment the droplets land into the concoction, it starts fuming and turns navy blue. She checks its viscosity then walks back to you, a wry smile on her face.",
     "translation": "",
-    "context": "<<POS:03593681>>"
+    "context": "<<POS:03593685>>"
   },
   {
-    "key": "output|n_n_i_Rejoice_Emberian_To_dayNight_day_night_you_step_clos|b373f8fad660",
-    "original": "\\n\\n<i>“Rejoice, Emberian! To[dayNight|day|night], you step closer to godhood!”</i>",
+    "key": "output|i_Rejoice_Emberian_To_dayNight_day_night_you_step_closer_t|2fd464759d7e",
+    "original": "<i>“Rejoice, Emberian! To[dayNight|day|night], you step closer to godhood!”</i>",
     "translation": "",
-    "context": "<<POS:03594307>>"
+    "context": "<<POS:03594311>>"
   },
   {
-    "key": "output|n_nYou_gasp_as_the_warm_sticky_liquid_seeps_into_your_throbbin|864e7d451e73",
-    "original": "\\n\\nYou gasp as the warm, sticky liquid seeps into your throbbing flesh. It bubbles and fumes like acid, but it doesn’t hurt — quite the contrary! A debilitating, arousing warmth spreads through your veins. The magmatic flow slowly corrupts your cells, spiking your sensitivity to unnatural levels. Just feeling the breeze on your [pc.skinFurScales] drowns your brains with raw bliss.",
+    "key": "output|You_gasp_as_the_warm_sticky_liquid_seeps_into_your_throbbing_fl|76338a5be60c",
+    "original": "You gasp as the warm, sticky liquid seeps into your throbbing flesh. It bubbles and fumes like acid, but it doesn’t hurt — quite the contrary! A debilitating, arousing warmth spreads through your veins. The magmatic flow slowly corrupts your cells, spiking your sensitivity to unnatural levels. Just feeling the breeze on your [pc.skinFurScales] drowns your brains with raw bliss.",
     "translation": "",
-    "context": "<<POS:03594401>>"
+    "context": "<<POS:03594405>>"
   },
   {
-    "key": "output|n_nYou_whine_and_shake_in_your_restraints_The_caramelized_nect|1ba7a2e4212c",
-    "original": "\\n\\nYou whine and shake in your restraints. The caramelized nectar and sturdy roots keep you in place, completely at the fiendish substance’s mercy. As soon as it stops bubbling, the floral lizard tightens her grip on you and places her hands on your ",
+    "key": "output|You_whine_and_shake_in_your_restraints_The_caramelized_nectar_a|9cfcdcce6f23",
+    "original": "You whine and shake in your restraints. The caramelized nectar and sturdy roots keep you in place, completely at the fiendish substance’s mercy. As soon as it stops bubbling, the floral lizard tightens her grip on you and places her hands on your ",
     "translation": "",
-    "context": "<<POS:03594796>>"
+    "context": "<<POS:03594800>>"
   },
   {
     "key": "output|drugged_shaft_Pleasant_moans_fill_the_glade_as_she_coats_it_wit|0c028b0b93d8",
@@ -738,16 +888,16 @@
     "context": "<<POS:03595439>>"
   },
   {
-    "key": "output|n_n_i_Almost_there_Soon_you_ll_grace_pilgrims_with_the_holie|14c06f3cc389",
-    "original": "\\n\\n<i>“Almost there. Soon, you’ll grace pilgrims with the holiest of essence!”</i>",
+    "key": "output|i_Almost_there_Soon_you_ll_grace_pilgrims_with_the_holiest_o|626c06111300",
+    "original": "<i>“Almost there. Soon, you’ll grace pilgrims with the holiest of essence!”</i>",
     "translation": "",
-    "context": "<<POS:03595841>>"
+    "context": "<<POS:03595845>>"
   },
   {
-    "key": "output|n_nA_throaty_whimper_is_all_you_can_monster_to_answer_the_cheek|9e12396c28dd",
-    "original": "\\n\\nA throaty whimper is all you can monster to answer the cheeky zealot. She smirks and continues to shape your hot, pulsing organ. She jerks it from tip to base, making sure ",
+    "key": "output|A_throaty_whimper_is_all_you_can_monster_to_answer_the_cheeky_ze|20b82ec28b92",
+    "original": "A throaty whimper is all you can monster to answer the cheeky zealot. She smirks and continues to shape your hot, pulsing organ. She jerks it from tip to base, making sure ",
     "translation": "",
-    "context": "<<POS:03595935>>"
+    "context": "<<POS:03595939>>"
   },
   {
     "key": "output|your_pride_is_completely_coated_in_arousing_nectar_Not_a_single|11d3916c7763",
@@ -768,25 +918,19 @@
     "context": "<<POS:03597002>>"
   },
   {
-    "key": "output|n_nA_minute_of_kneading_later_she_finally_removes_her_hand_fro|03b53c0738e0",
-    "original": "\\n\\nA minute of kneading later, she finally removes her hand from you and admires her work. She smiles then produces a polished piece of metal and angles it to show you the result.",
+    "key": "output|A_minute_of_kneading_later_she_finally_removes_her_hand_from_yo|9b6c12af6a81",
+    "original": "A minute of kneading later, she finally removes her hand from you and admires her work. She smiles then produces a polished piece of metal and angles it to show you the result.",
     "translation": "",
-    "context": "<<POS:03597096>>"
+    "context": "<<POS:03597100>>"
   },
   {
-    "key": "output|n_n_i_Not_bad_don_t_you_think_You_might_be_my_greatest_work|65ff0136858c",
-    "original": "\\n\\n<i>“Not bad, don’t you think? You might be my greatest work thus far!”</i>",
+    "key": "output|i_Not_bad_don_t_you_think_You_might_be_my_greatest_work_thus|fbbba17bc99b",
+    "original": "<i>“Not bad, don’t you think? You might be my greatest work thus far!”</i>",
     "translation": "",
-    "context": "<<POS:03597287>>"
+    "context": "<<POS:03597291>>"
   },
   {
-    "key": "output|n_n|bb952a118995",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:03597376>>"
-  },
-  {
-    "key": "output|textify_ER_ER_0_et_Z_You_gawk_in_shock_at_the_sight_of_you|a145da7bcd14",
+    "key": "output|textify_ER_ER_0_et_Z_You_gawk_in_shock_at_the_sight_of_you|5f4746be1ef8",
     "original": "textify(ER||(ER=(0,et.Z)([\"You gawk in shock at the sight of your altered prick. Its tapered, veiny length throbs slightly. From the bestially tapered tip, down the feline-nubbed length, and at the swollen, canine knot at its base, your phallus pulses with a feeling of virile power and bubbles with pre-cum. Torrents of pleasure rock your mind as the wind gently hugs your pumped, twitching [pc.mf|manhood|girlcock].\"])))",
     "translation": "",
     "context": "<<POS:03597390>>"
@@ -804,13 +948,7 @@
     "context": "<<POS:03597951>>"
   },
   {
-    "key": "output|n_n|957ff75b06a5",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:03598056>>"
-  },
-  {
-    "key": "output|textify_xR_xR_0_et_Z_She_leans_closer_to_you_Her_warm_bre|4f6321e5b673",
+    "key": "output|textify_xR_xR_0_et_Z_She_leans_closer_to_you_Her_warm_bre|8ad7f3c84fcb",
     "original": "textify(xR||(xR=(0,et.Z)([\"She leans closer to you. Her warm breath washes over your [pc.hasVagina|wet folds|pelvis]. You shiver, doing your best not to look too aroused as she examines your groin. <i>“No, that won’t do. This body isn’t fit to revere our glorious glades. Luckily, the Radwoods’ spirits have the right gift for you. Isn’t that wonderful? You’ll experience pleasures unlike any others! Aren’t you excited?”</i>\\n\\t\\t\\n\\t\\tBefore you can answer, she bounces away and reaches for an alien maple tree. She gathers some of its lightly glowing sap into a little vial then minces an onion-like bulb into little morsels that she adds to the mix. Then, she squeezes a carmine zucchini’s nectar into the bottle. You can see the tincture bubbling from here. The floral divrani firmly shakes the liquid, turning it from blood red to leaf green before adding her fresh spittle to it. The moment the droplets land into the concoction, it starts fuming and turns navy blue. She checks its viscosity then walks back to you, a wry smile on her face.\\n\\t\\t\\n\\t\\t<i>“Rejoice, Emberian! To[dayNight\\n\\t\\t\\t|day\\n\\t\\t\\t|night\\n\\t\\t], you step closer to godhood!”</i>\\n\\t\\t\\n\\t\\tShe steals a kiss. Her flared, radglow tongue parts your [pc.lips] and thrusts deep inside your throat. She sloppily smooches you into submission, choking you out with her intense frenching. Her alien jugs press against your [pc.hasBreasts\\n\\t\\t\\t|[pc.boobs]\\n\\t\\t\\t|bust\\n\\t\\t]. They leak hot, alien milk [pc.hasBreasts\\n\\t\\t\\t|into your cleavage\\n\\t\\t\\t|all over your pecs\\n\\t\\t] while her chitinous tail wraps around your [pc.isTaur\\n\\t\\t\\t|tauric undercarriage\\n\\t\\t\\t|[pc.isNaga\\n\\t\\t\\t\\t|coils\\n\\t\\t\\t\\t|[pc.legs]\\n\\t\\t\\t]\\n\\t\\t]. Firmly locked into place by her powerful limb and threatened by her venomous stinger, there’s nothing you can do to fight her back!\\n\\t\\t\\n\\t\\tThe cheeky divrani ends the kiss with a ravenous lick. She splatters slobber all over your face before uncorking her vial. The gardener casually pours it [pc.hasVagina\\n\\t\\t\\t|above your [pc.vaginas]\\n\\t\\t\\t|onto your crotch\\n\\t\\t]. You gasp as the warm, sticky liquid seeps into your flesh. It bubbles and fumes like acid, but it doesn’t hurt — quite the contrary! A debilitating, arousing warmth spreads through your veins. The magmatic flow slowly corrupts your cells, spiking your sensitivity to unnatural levels. Just feeling the breeze on your [pc.skinFurScales] drowns your brains with raw bliss.\\n\\t\\t\\n\\t\\tYou whine and shake in your restraints. The caramelized nectar and sturdy roots keep you in place, completely at the fiendish substance’s mercy. As soon as it stops bubbling, the floral lizard tightens her grip on you and places her hands on your shifting crotch. Pleasant moans fill the glade as she starts kneading your flesh into a shape fit to serve her tainted spirits. Her knuckles mold the growing slab into a long, tapered girth with a rounded base and pointy tip. Nervous connections slowly begin to link the sensitive mast to your brain. Strong waves of pleasure ripple through you as apparent veins swell here and there along this new part of your anatomy.\\n\\t\\t\\n\\t\\t<i>“Almost there. Soon, you’ll grace pilgrims with the holiest of essence!”</i>\\n\\t\\t\\n\\t\\tA throaty whimper is all you can muster to answer the cheeky zealot. She smirks and continues to shape your newly hot, pulsing organ. She jerks it from tip to base, making sure the bumpy protrusions forming across your length are just as sensitive as your crest. Once she’s satisfied, she leaves the rest to the transformative liquid and grasp some leftover flesh near your crotch. You release an exhilarated bellow as she starts molding it into two big, apple-sized orbs. The slightest rub on their supple skin fires up your neurons. She firmly cups and squeezes them, knocking the fight out of you and kindling your inner fire into a lustful wildfire. If she keeps going on like this, she’s gonna make you cum with her intense gropes!\\n\\t\\t\\n\\t\\tA minute of kneading later, she finally withdraws her hands and admires her work. She smiles then produces a polished piece of metal and angles it to show you the result.\\n\\t\\t\\n\\t\\t<i>“Not bad, don’t you think? You might be my greatest work thus far!”</i>\\n\\t\\t\\n\\t\\tYou gawk in shock at the sight of your new prick. Its veiny, dark chocolate surface throbs slightly. From the bestially tapered tip, down the feline-nubbed length, and at the swollen, canine knot at its base, your phallus pulses with a feeling of virile power and bubbles with pre-cum. Down below, your taut gonads already prepare a sticky present for the busty botanist. Musky clouds rise from them, filling your lungs with a warm, salty potency. Torrents of pleasure rock your mind as the wind gently hugs your twitching [pc.mf\\n\\t\\t\\t|manhood\\n\\t\\t\\t|girlcock\\n\\t\\t]. <b>It’ll take some time to get accustomed to your new hard, hyena dick and taut balls!</b> \\n\\t]\"])))",
     "translation": "",
     "context": "<<POS:03598070>>"
@@ -819,7 +957,7 @@
     "key": "button|Next|19574af7a8b6",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03603059>>"
+    "context": "<<POS:03603059>> addButton(0,\"Next\",(function(){return oN(e)}))"
   },
   {
     "key": "output|textify_HR_HR_0_et_Z_The_two_of_you_stare_at_your_meaty_m|cb0665277992",
@@ -840,13 +978,7 @@
     "context": "<<POS:03604418>>"
   },
   {
-    "key": "output|n_n|3b710fb11856",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:03604583>>"
-  },
-  {
-    "key": "output|textify_CR_CR_0_et_Z_Her_salacious_foreplay_makes_you_whin|b14ed19c01ad",
+    "key": "output|textify_CR_CR_0_et_Z_Her_salacious_foreplay_makes_you_whin|9cf593a82db5",
     "original": "textify(CR||(CR=(0,et.Z)([\"Her salacious foreplay makes you whine and squirm. Tidal waves of bliss batter your willpower into submission. Soon, you’ll be naught but a fancy dildo: a free-use toy for the Radwoods’ tainted denizens.\\n\\t\\n\\tShe deepthroats you like a beast in heat. Her mouth wetly swallows you from tip to knot, sucking and foaming onto your delicious treat like a tasty lollipop. Her radglow tongue presses hard against your prick. The harder she goes, the closer she brings you to the edge. Your intoxicated body struggles to keep up with her ravenous blowjob. Just feeling her lips on your cock fries your brain with joyful, dazing jolts. The more you writhe, the tighter the bonding vines become. Between the caramelized nectar, your sweat, her milky droplets, and her slick spittle, she’s slowly turning you into a wet, sludgy mess. Your [pc.mf\\n\\t\\t|manhood\\n\\t\\t|girldick\\n\\t]’s musky scent and her flowery perfume plague your choked out lungs with arousing clouds, finishing the job of corrupting you with supernatural arousal.\\n\\t\\n\\tWith a last, whorish slurp, she polishes off her intense cock worship. She slowly releases your shaft, letting it flop out of her mouth. Stringy ropes of saliva link her lush lips to your tip as she gives you a deep, parting kiss.\\n\\t\\n\\t<i>“That’ll do,”</i> the gardener whispers before aligning your pointy cockhead to her gushing womanhood. She squeezes some spunk out of her spongy pride and coats her labia with it. After applying two[silly\\n\\t\\t| thin\\n\\t] coats of jizzy glaze on her rubbery folds, she presses them against your canine spear. Her pleasant warmth washes over your skin, making you shiver with delight. <i>“Now, stay nice and hard as I sanctify your holy rod, Emberian. If you behave, the spirits will reward you with heavenly bliss!”</i>\\n\\t\\n\\tShe rubs her drooling sex against yours before impaling herself onto you. Her sharp moans fill the corrupted woods as she lowers herself on your animalistic bitchbreaker!\"])))",
     "translation": "",
     "context": "<<POS:03604597>>"
@@ -906,13 +1038,13 @@
     "context": "<<POS:03611284>>"
   },
   {
-    "key": "output|n_nYou_take_stock_of_the_permanent_changes|ed487c7f143e",
-    "original": "\\n\\nYou take stock of the permanent changes.",
+    "key": "output|You_take_stock_of_the_permanent_changes|56ab27056a0b",
+    "original": "You take stock of the permanent changes.",
     "translation": "",
-    "context": "<<POS:03614113>>"
+    "context": "<<POS:03614117>>"
   },
   {
-    "key": "output|b_You_have_a_new_Math_round_10_pc_cocks_e_cLengthRaw_10|413c3dd427a5",
+    "key": "output|b_You_have_a_new_Math_round_10_pc_cocks_e_cLengthRaw_10|37de6b7b7258",
     "original": "<b> You have a new \"+Math.round(10*pc.cocks[e].cLengthRaw)/10+\"-inch long hyena dick.</b>",
     "translation": "",
     "context": "<<POS:03614192>>"
@@ -957,7 +1089,7 @@
     "key": "button|Next|ff4ad6900ac7",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03614902>>"
+    "context": "<<POS:03614902>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
   },
   {
     "key": "output|textify_LR_LR_0_et_Z_n_tThe_scaly_gardener_licks_her_lips|37f7a83118a9",
@@ -969,7 +1101,7 @@
     "key": "button|Next|be0aeb1f9650",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03634293>>"
+    "context": "<<POS:03634293>> addButton(0,\"Next\",mainGameMenu,\"\",\"\")"
   },
   {
     "key": "output|textify_OR_OR_0_et_Z_n_tThe_gardener_gazes_at_you_with_ad|84dc40d5f99d",
@@ -981,7 +1113,13 @@
     "key": "button|Next|8e92a23be7d9",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03643274>>"
+    "context": "<<POS:03643274>> addButton(e++,\"Next\",iN,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|8e92a23be7d9",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03643284>> addButton(e++,\"Next\",iN,\"Next\",\"\")"
   },
   {
     "key": "output|textify_R_R_0_et_Z_n_t_i_You_sure_it_s_here_i_n_t|ad2d31888916",
@@ -993,7 +1131,13 @@
     "key": "button|Next|bd84c10a1feb",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03651200>>"
+    "context": "<<POS:03651200>> addButton(e++,\"Next\",sN,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|bd84c10a1feb",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03651210>> addButton(e++,\"Next\",sN,\"Next\",\"\")"
   },
   {
     "key": "output|textify_GR_GR_0_et_Z_n_t_i_Hum_what_have_we_here_i|4876668e2f6c",
@@ -1002,16 +1146,10 @@
     "context": "<<POS:03651249>>"
   },
   {
-    "key": "bust|DIVRANI_GARDENER|22961ec7badd",
-    "original": "DIVRANI_GARDENER",
-    "translation": "",
-    "context": "<<POS:03659848>>"
-  },
-  {
-    "key": "name.show|Divrani_Gardener|eaf9ee1a8786",
+    "key": "name.show|Divrani_Gardener|7b90b3769725",
     "original": "Divrani Gardener",
     "translation": "",
-    "context": "<<POS:03659898>>"
+    "context": "<<POS:03659898>> showName(\"Divrani Gardener\")"
   },
   {
     "key": "output|textify_uR_uR_0_et_Z_n_t_flags_DIV_GARD_ENCOUNTER_n_t_t_Y|3c7970033bfa",

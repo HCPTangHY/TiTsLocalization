@@ -3,7 +3,7 @@
     "key": "name.show|Illumorpheme|8768e1b3a30a",
     "original": "Illumorpheme",
     "translation": "",
-    "context": "<<POS:08388584>>"
+    "context": "<<POS:08388584>> showName(\"Illumorpheme\")"
   },
   {
     "key": "output|You_distinctly_remember_that_the_items_warning_label_implied_tha|bab6724cc0aa",
@@ -12,16 +12,10 @@
     "context": "<<POS:08388661>>"
   },
   {
-    "key": "output|n_n|899f9ce67cc6",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08388845>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30",
+    "key": "button|Next|bd8c2cdc6a51",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08388894>>"
+    "context": "<<POS:08388894>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   },
   {
     "key": "output|You_open_the_anodyne_black_box_of_Illumorpheme_Bearing_the_warn|694a1956c0ad",
@@ -30,25 +24,19 @@
     "context": "<<POS:08389057>>"
   },
   {
-    "key": "output|n_nAlong_the_way_you_look_over_the_contents_inside_Ooh_choic|eff4138e35c9",
-    "original": "\\n\\nAlong the way, you look over the contents inside. Ooh, choices!",
+    "key": "output|Along_the_way_you_look_over_the_contents_inside_Ooh_choices|04ab4357c977",
+    "original": "Along the way, you look over the contents inside. Ooh, choices!",
     "translation": "",
-    "context": "<<POS:08389208>>"
+    "context": "<<POS:08389212>>"
   },
   {
-    "key": "output|n_nSetting_yourself_down_on_your_bed_you_give_it_all_a_thoroug|2dc00b381814",
-    "original": "\\n\\nSetting yourself down on your bed, you give it all a thorough inspection. There’s a singular slot for a vial, so It seems you’re limited to only one selection. Which do you go for?",
+    "key": "output|Setting_yourself_down_on_your_bed_you_give_it_all_a_thorough_in|cc863a7b6aba",
+    "original": "Setting yourself down on your bed, you give it all a thorough inspection. There’s a singular slot for a vial, so It seems you’re limited to only one selection. Which do you go for?",
     "translation": "",
-    "context": "<<POS:08389286>>"
+    "context": "<<POS:08389290>>"
   },
   {
-    "key": "output|n_n|f3fc0936de71",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08389481>>"
-  },
-  {
-    "key": "output|l_m_createTable_n_Name_Description_text_label_text_lef|5663f8558040",
+    "key": "output|l_m_createTable_n_Name_Description_text_label_text_lef|83839568120b",
     "original": "l.m.createTable(n,[\"Name\",\"Description\"],[\"text-label\",\"text-left\"],\"\",\"Options\",\"\")",
     "translation": "",
     "context": "<<POS:08390002>>"
@@ -57,10 +45,22 @@
     "key": "button|Actually|0d6cdb47a023",
     "original": "Actually...",
     "translation": "",
-    "context": "<<POS:08390102>>"
+    "context": "<<POS:08390102>> addButton(14,\"Actually...\",(function(){return t.illumorpheneCancel(t)}),\"Never Mind\",\"Not quite ready to do this yet.\")"
   },
   {
-    "key": "output|e_capitalA_e_short_cannot_use_the_case_of_Illumorpheme|2df993f52727",
+    "key": "button.hover|Never_Mind|5ebd3fb5ecf2",
+    "original": "Never Mind",
+    "translation": "",
+    "context": "<<POS:08390161>> addButton(14,\"Actually...\",(function(){return t.illumorpheneCancel(t)}),\"Never Mind\",\"Not quite ready to do this yet.\")"
+  },
+  {
+    "key": "button.tooltip|Not_quite_ready_to_do_this_yet|7cb0b73a313f",
+    "original": "Not quite ready to do this yet.",
+    "translation": "",
+    "context": "<<POS:08390174>> addButton(14,\"Actually...\",(function(){return t.illumorpheneCancel(t)}),\"Never Mind\",\"Not quite ready to do this yet.\")"
+  },
+  {
+    "key": "output|e_capitalA_e_short_cannot_use_the_case_of_Illumorpheme|6d15f33c2909",
     "original": "e.capitalA+e.short+\" cannot use the case of Illumorpheme.",
     "translation": "",
     "context": "<<POS:08390225>>"
@@ -102,46 +102,40 @@
     "context": "<<POS:08390651>>"
   },
   {
-    "key": "output|n_nUpon_considering_that_the_other_vials_are_now_useless_to_you|1a932d8168f8",
-    "original": "\\n\\nUpon considering that the other vials are now useless to you, you discard the rest and the box itself.",
+    "key": "output|Upon_considering_that_the_other_vials_are_now_useless_to_you_yo|f9864b10b1a2",
+    "original": "Upon considering that the other vials are now useless to you, you discard the rest and the box itself.",
     "translation": "",
-    "context": "<<POS:08390800>>"
+    "context": "<<POS:08390804>>"
   },
   {
-    "key": "output|n_nWith_the_apparatus_lined_up_and_after_delicately_dabbling_w|139269598de7",
-    "original": "\\n\\nWith the apparatus lined up, and after delicately dabbling with putting the vial and injector together, you align the base of the injector to the side of your neck. The small, circular surface that hovers over your [pc.skinFurScales] has no obvious transfer method. Must be one of those high-tech, fancy nanoneedles. How in the hell did the Seer get her hands on this stuff...?",
+    "key": "output|With_the_apparatus_lined_up_and_after_delicately_dabbling_with|022179bc58cd",
+    "original": "With the apparatus lined up, and after delicately dabbling with putting the vial and injector together, you align the base of the injector to the side of your neck. The small, circular surface that hovers over your [pc.skinFurScales] has no obvious transfer method. Must be one of those high-tech, fancy nanoneedles. How in the hell did the Seer get her hands on this stuff...?",
     "translation": "",
-    "context": "<<POS:08390917>>"
+    "context": "<<POS:08390921>>"
   },
   {
-    "key": "output|n_nWithout_an_extra_thought_you_press_the_injector_to_your_nec|ae9c5a4d9560",
-    "original": "\\n\\nWithout an extra thought, you press the injector to your neck. Immediately, your nerves tense and tingle in response as a several hundred infinitesimal pinpricks fill your blood vessels with the combined serum. It’s not painful but you involuntarily wince all the same.",
+    "key": "output|Without_an_extra_thought_you_press_the_injector_to_your_neck_I|3b5dab31aa7f",
+    "original": "Without an extra thought, you press the injector to your neck. Immediately, your nerves tense and tingle in response as a several hundred infinitesimal pinpricks fill your blood vessels with the combined serum. It’s not painful but you involuntarily wince all the same.",
     "translation": "",
-    "context": "<<POS:08391309>>"
+    "context": "<<POS:08391313>>"
   },
   {
-    "key": "output|n_nA_few_seconds_of_holding_it_is_interrupted_by_a_i_bee_buh_b|4e452bcafa3e",
-    "original": "\\n\\nA few seconds of holding it is interrupted by a <i>bee-buh beep</i> from the injector. Looks like it’s finished!",
+    "key": "output|A_few_seconds_of_holding_it_is_interrupted_by_a_i_bee_buh_beep|352568e05133",
+    "original": "A few seconds of holding it is interrupted by a <i>bee-buh beep</i> from the injector. Looks like it’s finished!",
     "translation": "",
-    "context": "<<POS:08391593>>"
+    "context": "<<POS:08391597>>"
   },
   {
-    "key": "output|n_nAnd_not_a_second_too_soon_as_your_limbs_become_stiff_though|9e4a373a5096",
-    "original": "\\n\\nAnd not a second too soon as your limbs become stiff, thoughts become sluggish, and that bed you’re on has gotten... mighty... comfy right now... <i>zzz...</i>",
+    "key": "output|And_not_a_second_too_soon_as_your_limbs_become_stiff_thoughts_b|07943aa7a036",
+    "original": "And not a second too soon as your limbs become stiff, thoughts become sluggish, and that bed you’re on has gotten... mighty... comfy right now... <i>zzz...</i>",
     "translation": "",
-    "context": "<<POS:08391720>>"
+    "context": "<<POS:08391724>>"
   },
   {
-    "key": "output|n_n|e71b179c4fff",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08391894>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30#1",
+    "key": "button|Next|4502be4dfbb1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08391926>>"
+    "context": "<<POS:08391926>> addButton(0,\"Next\",(function(){return a.illumorpheneNext(e,t,o)}))"
   },
   {
     "key": "output|But_you_re_not_quite_asleep_just_barely_hanging_on_to_conscious|bf724a2ccf66",
@@ -150,10 +144,10 @@
     "context": "<<POS:08392112>>"
   },
   {
-    "key": "output|n_nThe_pc_skinFurScales_covering_your_body_is_the_first_thing|36aac99fb86a",
-    "original": "\\n\\nThe [pc.skinFurScales] covering your body is the first thing to experience change. It all crinkles and dries out, forming visible cracks! It doesn’t hurt in the slightest. Rather, you feel a sense of weight being lifted as it degrades. Some time passes and your old dermis has completely dissolved, revealing the new <b>",
+    "key": "output|The_pc_skinFurScales_covering_your_body_is_the_first_thing_to|9995a06341fc",
+    "original": "The [pc.skinFurScales] covering your body is the first thing to experience change. It all crinkles and dries out, forming visible cracks! It doesn’t hurt in the slightest. Rather, you feel a sense of weight being lifted as it degrades. Some time passes and your old dermis has completely dissolved, revealing the new <b>",
     "translation": "",
-    "context": "<<POS:08392436>>"
+    "context": "<<POS:08392440>>"
   },
   {
     "key": "output|black_carapace|35a14c22d8ec",
@@ -186,10 +180,10 @@
     "context": "<<POS:08393460>>"
   },
   {
-    "key": "output|n_nYour_limbs_and_bones_feel_something_similar_a_loss_of_mass|03a92d7a1ae5",
-    "original": "\\n\\nYour limbs and bones feel something similar: a loss of mass coinciding with the sensation of lightness. Your limbs, body and [pc.face] pulse and twitch as they’re all morphed at the base level into something new and unfamiliar. You close your eyes as the changes overtake you, realizing that they also ache with the promise of change! Even your nose feels odd to breathe through but it’s something you can adjust to quickly. After a few minutes, the intense palsy in your body subsides, so you take a glance to inspect your skinny, lithe <b>moth-like legs and arms!</b> Placing a freshly remodeled hand where you think your nose is, you feel for your <b>mothrine face!</b> On top of that, <b>you’re also \"+(e.tallness<a?\"taller\":\"shorter\")+\"!</b>",
+    "key": "output|Your_limbs_and_bones_feel_something_similar_a_loss_of_mass_coin|59bd589c634c",
+    "original": "Your limbs and bones feel something similar: a loss of mass coinciding with the sensation of lightness. Your limbs, body and [pc.face] pulse and twitch as they’re all morphed at the base level into something new and unfamiliar. You close your eyes as the changes overtake you, realizing that they also ache with the promise of change! Even your nose feels odd to breathe through but it’s something you can adjust to quickly. After a few minutes, the intense palsy in your body subsides, so you take a glance to inspect your skinny, lithe <b>moth-like legs and arms!</b> Placing a freshly remodeled hand where you think your nose is, you feel for your <b>mothrine face!</b> On top of that, <b>you’re also \"+(e.tallness<a?\"taller\":\"shorter\")+\"!</b>",
     "translation": "",
-    "context": "<<POS:08393504>>"
+    "context": "<<POS:08393508>>"
   },
   {
     "key": "output|However_It_appears_the_rest_of_your_legs_have_dissolved_away|2003bef785de",
@@ -198,16 +192,16 @@
     "context": "<<POS:08394279>>"
   },
   {
-    "key": "output|n_nThere_s_an_altogether_weirder_feeling_in_your_e_hasNipple|f24f566ee33c",
-    "original": "\\n\\nThere’s an altogether weirder feeling in your \"+(e.hasNippleCocks()?\"[pc.dickNipples]\":\"[pc.nipples]\")+\". Before your eyes, they appear to meld into the surface of your [pc.chest], becoming a color-blended patch of sensitive flesh. Your areola appear to have essentially vanished, leaving a discolored, protudent patch where your nipples should be. You now have <b>membranous \"+p+\" nipples!</b>",
+    "key": "output|There_s_an_altogether_weirder_feeling_in_your_e_hasNippleCock|658d518ebb6d",
+    "original": "There’s an altogether weirder feeling in your \"+(e.hasNippleCocks()?\"[pc.dickNipples]\":\"[pc.nipples]\")+\". Before your eyes, they appear to meld into the surface of your [pc.chest], becoming a color-blended patch of sensitive flesh. Your areola appear to have essentially vanished, leaving a discolored, protudent patch where your nipples should be. You now have <b>membranous \"+p+\" nipples!</b>",
     "translation": "",
-    "context": "<<POS:08395102>>"
+    "context": "<<POS:08395106>>"
   },
   {
-    "key": "output|n_nYour_pc_breasts_aren_t_left_out_of_this_a_soothing_flush|a3a2283901af",
-    "original": "\\n\\nYour [pc.breasts] aren’t left out of this, a soothing flush in your milkers tells you they’ve certainly changed. <b>They’ve \"+(e.breastRows[e.biggestTitRow()].breastRatingRaw>s?\"shrunk\":\"grown\")+\" to",
+    "key": "output|Your_pc_breasts_aren_t_left_out_of_this_a_soothing_flush_in_y|2939384976df",
+    "original": "Your [pc.breasts] aren’t left out of this, a soothing flush in your milkers tells you they’ve certainly changed. <b>They’ve \"+(e.breastRows[e.biggestTitRow()].breastRatingRaw>s?\"shrunk\":\"grown\")+\" to",
     "translation": "",
-    "context": "<<POS:08395678>>"
+    "context": "<<POS:08395682>>"
   },
   {
     "key": "output|e_breastCup_e_biggestTitRow_s_b|12de40040931",
@@ -216,10 +210,10 @@
     "context": "<<POS:08395964>>"
   },
   {
-    "key": "output|n_nYour_pc_cock_twitches_and_tenses_on_its_own_accord_the_su|b4b93b0f11ab",
-    "original": "\\n\\nYour [pc.cock] twitches and tenses on its own accord, the surface and inner muscle tissue hardening, but not with arousal! The consistent sense of mass-loss is present but thankfully, you can tell that it’s not in length and width. Instead, <b>you’ve now got a semi-hollow, solid and flexible mothipositor!</b> It softens and retracts, returning to a shrunken state.",
+    "key": "output|Your_pc_cock_twitches_and_tenses_on_its_own_accord_the_surfac|50356599d01f",
+    "original": "Your [pc.cock] twitches and tenses on its own accord, the surface and inner muscle tissue hardening, but not with arousal! The consistent sense of mass-loss is present but thankfully, you can tell that it’s not in length and width. Instead, <b>you’ve now got a semi-hollow, solid and flexible mothipositor!</b> It softens and retracts, returning to a shrunken state.",
     "translation": "",
-    "context": "<<POS:08396032>>"
+    "context": "<<POS:08396036>>"
   },
   {
     "key": "output|Not_only_that_but_your_other_cock_follows_suit_and_transforms|16ac82613021",
@@ -234,40 +228,40 @@
     "context": "<<POS:08396546>>"
   },
   {
-    "key": "output|n_nYou_feel_a_slight_bloating_sensation_in_your_mid_section_and|6c91e275c5ab",
-    "original": "\\n\\nYou feel a slight bloating sensation in your mid section and a tightening tension in your [pc.sack]. Looking at your groin, you discover your [pc.balls] shrinking smaller and smaller until there is nothing left besides flat skin... It looks like <b>your testicles have now become internal!</b>",
+    "key": "output|You_feel_a_slight_bloating_sensation_in_your_mid_section_and_a_t|60f7c1899709",
+    "original": "You feel a slight bloating sensation in your mid section and a tightening tension in your [pc.sack]. Looking at your groin, you discover your [pc.balls] shrinking smaller and smaller until there is nothing left besides flat skin... It looks like <b>your testicles have now become internal!</b>",
     "translation": "",
-    "context": "<<POS:08396769>>"
+    "context": "<<POS:08396773>>"
   },
   {
-    "key": "output|n_n_e_ballsLockedMessage|f8285af98e3a",
-    "original": "\\n\\n\"+e.ballsLockedMessage()",
+    "key": "output|e_ballsLockedMessage|980204a43fec",
+    "original": "\"+e.ballsLockedMessage()",
     "translation": "",
-    "context": "<<POS:08397100>>"
+    "context": "<<POS:08397104>>"
   },
   {
-    "key": "output|n_nThere_s_a_strange_numbness_at_the_lowest_point_of_your_back|2b8a1b89296a",
-    "original": "\\n\\nThere’s a strange numbness at the lowest point of your back, right on your coccyx. Uh oh, your [pc.tails]! There’s so little physical feedback remaining that you can only assume that \"+(1===e.tailCount?\"it has\":\"they have\")+\" been removed entirely!",
+    "key": "output|There_s_a_strange_numbness_at_the_lowest_point_of_your_back_rig|36ef74364789",
+    "original": "There’s a strange numbness at the lowest point of your back, right on your coccyx. Uh oh, your [pc.tails]! There’s so little physical feedback remaining that you can only assume that \"+(1===e.tailCount?\"it has\":\"they have\")+\" been removed entirely!",
     "translation": "",
-    "context": "<<POS:08397177>>"
+    "context": "<<POS:08397181>>"
   },
   {
-    "key": "output|n_n_e_tailCountLockedMessage|775b998ff1d3",
-    "original": "\\n\\n\"+e.tailCountLockedMessage()",
+    "key": "output|e_tailCountLockedMessage|e0804b15a4a5",
+    "original": "\"+e.tailCountLockedMessage()",
     "translation": "",
-    "context": "<<POS:08397457>>"
+    "context": "<<POS:08397461>>"
   },
   {
-    "key": "output|n_nOdd_and_uncomfortable_sensations_flow_through_the_pc_wings|6ec6093a5276",
-    "original": "\\n\\nOdd and uncomfortable sensations flow through the [pc.wings] on your back. As you’re on said back, it’s hard to tell exactly what’s happening to them but they feel... softer? In an effort to stop the discomfort",
+    "key": "output|Odd_and_uncomfortable_sensations_flow_through_the_pc_wings_on|9d8f053ef4ca",
+    "original": "Odd and uncomfortable sensations flow through the [pc.wings] on your back. As you’re on said back, it’s hard to tell exactly what’s happening to them but they feel... softer? In an effort to stop the discomfort",
     "translation": "",
-    "context": "<<POS:08397513>>"
+    "context": "<<POS:08397517>>"
   },
   {
-    "key": "output|n_nThe_spaces_between_your_spine_and_shoulders_tingle_and_burn|0b626e7a9a5f",
-    "original": "\\n\\nThe spaces between your spine and shoulders tingle and burn with the feeling of new matter sprouting forth. In an effort to stop the discomfort",
+    "key": "output|The_spaces_between_your_spine_and_shoulders_tingle_and_burn_with|e4543c74ad41",
+    "original": "The spaces between your spine and shoulders tingle and burn with the feeling of new matter sprouting forth. In an effort to stop the discomfort",
     "translation": "",
-    "context": "<<POS:08397738>>"
+    "context": "<<POS:08397742>>"
   },
   {
     "key": "output|you_push_your_upper_body_forward_just_enough_to_make_room_for|7d1af62f8995",
@@ -276,58 +270,52 @@
     "context": "<<POS:08397896>>"
   },
   {
-    "key": "output|n_nAn_ache_in_your_pc_eyes_grows_all_of_a_sudden_You_can_fee|d2bf94e4ace5",
-    "original": "\\n\\nAn ache in your [pc.eyes] grows all of a sudden. You can feel them pressing against your eyelids as they close involuntarily. In just as sudden a motion, the ache fades and you reactively open your eyelids. Does everything seem a little bit brighter or... richer in color? It seems that you now have <b>bulgy \"+y+\" moth eyes!</b>",
+    "key": "output|An_ache_in_your_pc_eyes_grows_all_of_a_sudden_You_can_feel_th|eec72b406b64",
+    "original": "An ache in your [pc.eyes] grows all of a sudden. You can feel them pressing against your eyelids as they close involuntarily. In just as sudden a motion, the ache fades and you reactively open your eyelids. Does everything seem a little bit brighter or... richer in color? It seems that you now have <b>bulgy \"+y+\" moth eyes!</b>",
     "translation": "",
-    "context": "<<POS:08398064>>"
+    "context": "<<POS:08398068>>"
   },
   {
-    "key": "output|n_nAround_your_neck_new_follicles_and_feelings_clamber_through|7b49bbf10e93",
-    "original": "\\n\\nAround your neck, new follicles and feelings clamber through your [pc.skinFurScales]. A few moments of flesh irritation give way to soft, unbelievably light strands of fuzzy down. <b>It’s formed \"+l.m.indefiniteArticle(d)+\" feather boa around your neck!</b>",
+    "key": "output|Around_your_neck_new_follicles_and_feelings_clamber_through_you|b5cf2a215a89",
+    "original": "Around your neck, new follicles and feelings clamber through your [pc.skinFurScales]. A few moments of flesh irritation give way to soft, unbelievably light strands of fuzzy down. <b>It’s formed \"+l.m.indefiniteArticle(d)+\" feather boa around your neck!</b>",
     "translation": "",
-    "context": "<<POS:08398452>>"
+    "context": "<<POS:08398456>>"
   },
   {
-    "key": "output|n_nThe_swirling_chemicals_biomass_and_biological_feedback_with|e3e5e0206ff0",
-    "original": "\\n\\nThe swirling chemicals, biomass and biological feedback within you seems to be subsiding. There’s one more focal point of pain left, however.",
+    "key": "output|The_swirling_chemicals_biomass_and_biological_feedback_within_y|7f0eecaed936",
+    "original": "The swirling chemicals, biomass and biological feedback within you seems to be subsiding. There’s one more focal point of pain left, however.",
     "translation": "",
-    "context": "<<POS:08398765>>"
+    "context": "<<POS:08398769>>"
   },
   {
-    "key": "output|n_nA_sharp_spike_of_discomfort_zips_through_your_pc_antennae|eb9746101897",
-    "original": "\\n\\nA sharp spike of discomfort zips through your [pc.antennae] and they start to feel heavier! You can feel your head lurch slightly forward as their new mass comes into existence. Looking up, you can see that you have a beautiful <b>set of moth antennae!</b>",
+    "key": "output|A_sharp_spike_of_discomfort_zips_through_your_pc_antennae_and|e341fa99e062",
+    "original": "A sharp spike of discomfort zips through your [pc.antennae] and they start to feel heavier! You can feel your head lurch slightly forward as their new mass comes into existence. Looking up, you can see that you have a beautiful <b>set of moth antennae!</b>",
     "translation": "",
-    "context": "<<POS:08398937>>"
+    "context": "<<POS:08398941>>"
   },
   {
-    "key": "output|n_nRight_on_top_of_your_isSillyModeEnabled_4_head_foreh|3cc3146c4f88",
-    "original": "\\n\\nRight on top of your \"+(isSillyModeEnabled()?\"4-head\":\"forehead\")+\", the pain seems to bloom outwards into material weight! The new mass makes your head bend forward and you’re inclined to eyeball what has changed: You’ve grown a beautiful <b>set of moth antennae!</b>",
+    "key": "output|Right_on_top_of_your_isSillyModeEnabled_4_head_forehead|b2ecf0fa865c",
+    "original": "Right on top of your \"+(isSillyModeEnabled()?\"4-head\":\"forehead\")+\", the pain seems to bloom outwards into material weight! The new mass makes your head bend forward and you’re inclined to eyeball what has changed: You’ve grown a beautiful <b>set of moth antennae!</b>",
     "translation": "",
-    "context": "<<POS:08399208>>"
+    "context": "<<POS:08399212>>"
   },
   {
-    "key": "output|n_nAfter_the_changes_you_give_yourself_a_final_once_over_befor|695d99ea60fd",
-    "original": "\\n\\nAfter the changes, you give yourself a final once-over before continuing your day.",
+    "key": "output|After_the_changes_you_give_yourself_a_final_once_over_before_co|f68272660b37",
+    "original": "After the changes, you give yourself a final once-over before continuing your day.",
     "translation": "",
-    "context": "<<POS:08399559>>"
+    "context": "<<POS:08399563>>"
   },
   {
-    "key": "output|n_n|4022c583bed4",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08399656>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30#2",
+    "key": "button|Next|1363d1f26e93",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08399705>>"
+    "context": "<<POS:08399705>> addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))"
   },
   {
     "key": "name.show|Illumorpheme|b87df889978b",
     "original": "Illumorpheme",
     "translation": "",
-    "context": "<<POS:08399839>>"
+    "context": "<<POS:08399839>> showName(\"Illumorpheme\")"
   },
   {
     "key": "output|On_second_thought_you_re_not_quite_prepared_to_do_this_thing_no|8d0d0f72c0cf",
@@ -336,15 +324,9 @@
     "context": "<<POS:08399880>>"
   },
   {
-    "key": "output|n_n|cb1ed3dc582d",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08400019>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30#3",
+    "key": "button|Next|881156b63c88",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08400068>>"
+    "context": "<<POS:08400068>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
   }
 ]

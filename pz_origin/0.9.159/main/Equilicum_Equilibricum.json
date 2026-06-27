@@ -3,7 +3,7 @@
     "key": "name.show|Equilibricum|afc9ddce5810",
     "original": "Equilibricum",
     "translation": "",
-    "context": "<<POS:08132966>>"
+    "context": "<<POS:08132966>> showName(\"Equilibricum\")"
   },
   {
     "key": "output|After_carefully_studying_the_label_you_decide_that_it_would_be_a|1f6bc825c408",
@@ -21,7 +21,7 @@
     "key": "name.show|Equilibricum|a6f9cc19e7b8",
     "original": "Equilibricum",
     "translation": "",
-    "context": "<<POS:08133343>>"
+    "context": "<<POS:08133343>> showName(\"Equilibricum\")"
   },
   {
     "key": "output|With_much_anticipation_you_carefully_inject_the_small_needle_st|33408e747d91",
@@ -48,13 +48,7 @@
     "context": "<<POS:08133883>>"
   },
   {
-    "key": "output|n_n|be220e3d03f7",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08134418>>"
-  },
-  {
-    "key": "output|A_short_while_after_taking_the_dose_of_Equilibricum_your_pc_ba|d1caacf9e9f6",
+    "key": "output|A_short_while_after_taking_the_dose_of_Equilibricum_your_pc_ba|e24a30a3917b",
     "original": "A short while after taking the dose of Equilibricum, your [pc.balls] churn",
     "translation": "",
     "context": "<<POS:08134445>>"
@@ -123,13 +117,13 @@
     "key": "button|Masturbate|ed31b055f27d",
     "original": "Masturbate",
     "translation": "",
-    "context": "<<POS:08136067>>"
+    "context": "<<POS:08136067>> addButton(0,\"Masturbate\",(function(){return t.forceMasturbation(e)}))"
   },
   {
     "key": "button|Next|1eba33f168a4",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08136630>>"
+    "context": "<<POS:08136630>> addButton(0,\"Next\",(function(){return t.postMasturbation(e)}))"
   },
   {
     "key": "output|After_your_powerful_orgasm_you_look_down_at_your_crotch_wonderi|c0aa56be2973",
@@ -471,6 +465,6 @@
     "key": "button|Next|e07c7ad1dd4f",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08140646>>"
+    "context": "<<POS:08140646>> addButton(0,\"Next\",mainGameMenu)"
   }
 ]

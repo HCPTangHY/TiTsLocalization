@@ -3,25 +3,25 @@
     "key": "button|Kase|4c118aa93d99",
     "original": "Kase",
     "translation": "",
-    "context": "<<POS:00790471>>"
+    "context": "<<POS:00790471>> addButton(t,\"Kase\",(function(){return e.kaseApproachCrew(1)}))"
   },
   {
     "key": "button|Kase|6f8365df245f",
     "original": "Kase",
     "translation": "",
-    "context": "<<POS:00790689>>"
+    "context": "<<POS:00790689>> addButton(t,\"Kase\",(function(){return e.kaseApproachCrew(2)}))"
   },
   {
     "key": "button|Kase|6f8365df245f#1",
     "original": "Kase",
     "translation": "",
-    "context": "<<POS:00790922>>"
+    "context": "<<POS:00790922>> addButton(t,\"Kase\",(function(){return e.kaseApproachCrew(3)}))"
   },
   {
     "key": "button|Kase|6f8365df245f#2",
     "original": "Kase",
     "translation": "",
-    "context": "<<POS:00791176>>"
+    "context": "<<POS:00791176>> addButton(t,\"Kase\",(function(){return e.kaseApproachCrew(1)}))"
   },
   {
     "key": "output|You_enter_Kase_s_quarters_quickly_getting_him_to_look_up_from_h|865ff4d0ff84",
@@ -30,10 +30,10 @@
     "context": "<<POS:00791605>>"
   },
   {
-    "key": "output|n_n_i_Ah_hello_Captain_i_he_says_happily_i_I_was_just|aa4ca08f5fe1",
-    "original": "\\n\\n<i>“Ah, hello, Captain,”</i> he says happily, <i>“I was just running some calculations on our fuel consumption, but if you need something, I can stop.”</i>",
+    "key": "output|i_Ah_hello_Captain_i_he_says_happily_i_I_was_just_run|aa7d9bc73a4c",
+    "original": "<i>“Ah, hello, Captain,”</i> he says happily, <i>“I was just running some calculations on our fuel consumption, but if you need something, I can stop.”</i>",
     "translation": "",
-    "context": "<<POS:00791729>>"
+    "context": "<<POS:00791733>>"
   },
   {
     "key": "output|pc_Walk_ing_into_his_quarters_Kase_doesn_t_seem_to_notice_you|7238e6cdd1b1",
@@ -42,10 +42,10 @@
     "context": "<<POS:00791912>>"
   },
   {
-    "key": "output|n_n_i_Oh_my_apologies_captain_i_he_says_taking_out_his|c90c22e01838",
-    "original": "\\n\\n<i>“Oh, my apologies, captain,”</i> he says, taking out his headphones and putting them aside, <i>“I couldn’t hear you over my music, something new one of my old friends from Pyrite sent me. Anyway, did you need something from me, \"+pc.mf(\"sir\",\"ma’am\")+\"?”</i>",
+    "key": "output|i_Oh_my_apologies_captain_i_he_says_taking_out_his_head|4f4eb2a31ab8",
+    "original": "<i>“Oh, my apologies, captain,”</i> he says, taking out his headphones and putting them aside, <i>“I couldn’t hear you over my music, something new one of my old friends from Pyrite sent me. Anyway, did you need something from me, \"+pc.mf(\"sir\",\"ma’am\")+\"?”</i>",
     "translation": "",
-    "context": "<<POS:00792092>>"
+    "context": "<<POS:00792096>>"
   },
   {
     "key": "output|Kase_isn_t_quite_asleep_by_the_time_you_enter_his_room_and_he_s|100cfb9b2e3d",
@@ -54,10 +54,10 @@
     "context": "<<POS:00792381>>"
   },
   {
-    "key": "output|n_n_i_Oh_sorry_captain_i_he_says_sleepily_i_I_wasn_t|8d0600042bef",
-    "original": "\\n\\n<i>“Oh, sorry, captain,”</i> he says sleepily, <i>“I wasn’t expecting you. Did you need anything?”</i>",
+    "key": "output|i_Oh_sorry_captain_i_he_says_sleepily_i_I_wasn_t_expe|f1bfbd20c921",
+    "original": "<i>“Oh, sorry, captain,”</i> he says sleepily, <i>“I wasn’t expecting you. Did you need anything?”</i>",
     "translation": "",
-    "context": "<<POS:00792515>>"
+    "context": "<<POS:00792519>>"
   },
   {
     "key": "output|b_KASE_CREW_APPROACH_SWITCH_BORKED_b|8c6db4a05fa2",
@@ -81,22 +81,34 @@
     "key": "button|Yes|c29dc4b1cbaf",
     "original": "Yes",
     "translation": "",
-    "context": "<<POS:00793517>>"
+    "context": "<<POS:00793517>> addButton(0,\"Yes\",this.yesStoryTake)"
   },
   {
     "key": "button|No|1c655db5490a",
     "original": "No",
     "translation": "",
-    "context": "<<POS:00793554>>"
+    "context": "<<POS:00793554>> addButton(1,\"No\",this.noStoryFind)"
   },
   {
     "key": "button|Heck_No|c101e8e59bf1",
     "original": "Heck No!",
     "translation": "",
-    "context": "<<POS:00793589>>"
+    "context": "<<POS:00793589>> addButton(2,\"Heck No!\",(function(){return e.noStoryFind(!0)}),\"Heck No!\",\"You never want to have this option again.\")"
   },
   {
-    "key": "output|You_leave_the_story_where_it_is_and_head_back_to_consider_your_n|11ee399ab5b8",
+    "key": "button.hover|Heck_No|c101e8e59bf1",
+    "original": "Heck No!",
+    "translation": "",
+    "context": "<<POS:00793639>> addButton(2,\"Heck No!\",(function(){return e.noStoryFind(!0)}),\"Heck No!\",\"You never want to have this option again.\")"
+  },
+  {
+    "key": "button.tooltip|You_never_want_to_have_this_option_again|ee036910e55d",
+    "original": "You never want to have this option again.",
+    "translation": "",
+    "context": "<<POS:00793650>> addButton(2,\"Heck No!\",(function(){return e.noStoryFind(!0)}),\"Heck No!\",\"You never want to have this option again.\")"
+  },
+  {
+    "key": "output|You_leave_the_story_where_it_is_and_head_back_to_consider_your_n|b53d5270830b",
     "original": "You leave the story where it is and head back to consider your next move. While you’re waiting, the cat-boy finishes his business and returns, closing up the story in a hurry.",
     "translation": "",
     "context": "<<POS:00793841>>"
@@ -105,7 +117,7 @@
     "key": "button|Next|b38710740170",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00794044>>"
+    "context": "<<POS:00794044>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|blockHeader_Downloading|4be7046c55d4",
@@ -123,7 +135,7 @@
     "key": "button|Next|d5a287142dc9",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00794387>>"
+    "context": "<<POS:00794387>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|A_plaintive_hiss_cuts_through_the_opened_door_to_Kase_s_quarters|2320b2fecb8f",
@@ -132,13 +144,7 @@
     "context": "<<POS:00794549>>"
   },
   {
-    "key": "output|n_n|f80d13d15a8b",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:00794912>>"
-  },
-  {
-    "key": "output|Seeing_your_cute_little_kitty_in_obvious_distress_elicits_a_hea|535bb797f051",
+    "key": "output|Seeing_your_cute_little_kitty_in_obvious_distress_elicits_a_hea|d78f3a830320",
     "original": " Seeing your cute little kitty in obvious distress elicits a healthy sense of sympathy. You hurry over and dole out the ear scritches, much to his surprise. <i>“What’s wrong?”</i> you ask worriedly.",
     "translation": "",
     "context": "<<POS:00794940>>"
@@ -168,19 +174,13 @@
     "context": "<<POS:00795446>>"
   },
   {
-    "key": "output|n_nKase_s_pine_green_tails_jut_out_in_surprise_i_C_Captain|b101b9cedbab",
-    "original": "\\n\\nKase’s pine-green tails jut out in surprise. <i>“C-Captain! I’m sorry, I didn’t mean to cause any disturbance,”</i> he replies exasperatedly, wiping a few drops of sweat from his brow. Knowing what this looks like, he moves to explain, holding up his device and pointing at it. <i>“I was recently contacted by a Steele Tech Distribution and Supply Chain Manager for help in orchestrating and overseeing the establishment of a new series of trade and mining routes in and out of the current Rush frontier.”</i>",
+    "key": "output|Kase_s_pine_green_tails_jut_out_in_surprise_i_C_Captain_I_m|08599e04b532",
+    "original": "Kase’s pine-green tails jut out in surprise. <i>“C-Captain! I’m sorry, I didn’t mean to cause any disturbance,”</i> he replies exasperatedly, wiping a few drops of sweat from his brow. Knowing what this looks like, he moves to explain, holding up his device and pointing at it. <i>“I was recently contacted by a Steele Tech Distribution and Supply Chain Manager for help in orchestrating and overseeing the establishment of a new series of trade and mining routes in and out of the current Rush frontier.”</i>",
     "translation": "",
-    "context": "<<POS:00795515>>"
+    "context": "<<POS:00795519>>"
   },
   {
-    "key": "output|n_n|b7dd81fb5869",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:00796039>>"
-  },
-  {
-    "key": "output|Good_for_him_More_scritches_and_purrs_Good_kitties_get_pets|277b6d40ef09",
+    "key": "output|Good_for_him_More_scritches_and_purrs_Good_kitties_get_pets|d14292047217",
     "original": "Good for him! More scritches - and purrs. Good kitties get pets. Still, what’s to be so upset about?",
     "translation": "",
     "context": "<<POS:00796067>>"
@@ -198,16 +198,16 @@
     "context": "<<POS:00796282>>"
   },
   {
-    "key": "output|n_n_i_W_Well_it_s_i_His_fingers_curl_stressfully_around|449ac5b98a6e",
-    "original": "\\n\\n<i>“W-Well, it’s...”</i> His fingers curl stressfully around the pad. <i>“I can’t wrap my head around it!”</i> he admits, ears folding. <i>“I tried to explain to her that I wasn’t cut out for organization on this scale, but she insisted, a-and... so I tried. Even if it was a bit beyond what I do for the company, I figured it would have only taken a few days... but I’ve been stuck on this for a week now and I don’t have much to show for it. Nothing’s really clicking, and when I feel like I’ve had a breakthrough, it turns out I’ve missed a number of crucial schedules, routings, and then that leads to failed projections, loss of profit...”</i>",
+    "key": "output|i_W_Well_it_s_i_His_fingers_curl_stressfully_around_the|bf5233c99b60",
+    "original": "<i>“W-Well, it’s...”</i> His fingers curl stressfully around the pad. <i>“I can’t wrap my head around it!”</i> he admits, ears folding. <i>“I tried to explain to her that I wasn’t cut out for organization on this scale, but she insisted, a-and... so I tried. Even if it was a bit beyond what I do for the company, I figured it would have only taken a few days... but I’ve been stuck on this for a week now and I don’t have much to show for it. Nothing’s really clicking, and when I feel like I’ve had a breakthrough, it turns out I’ve missed a number of crucial schedules, routings, and then that leads to failed projections, loss of profit...”</i>",
     "translation": "",
-    "context": "<<POS:00796356>>"
+    "context": "<<POS:00796360>>"
   },
   {
-    "key": "output|n_nYou_wrap_the_anxious_kaithrit_in_a_comfy_super_tight_hug|9e1dbef4f5e3",
-    "original": "\\n\\nYou wrap the anxious kaithrit in a comfy, super-tight hug",
+    "key": "output|You_wrap_the_anxious_kaithrit_in_a_comfy_super_tight_hug|0d341f6c487d",
+    "original": "You wrap the anxious kaithrit in a comfy, super-tight hug",
     "translation": "",
-    "context": "<<POS:00797034>>"
+    "context": "<<POS:00797038>>"
   },
   {
     "key": "output|smushing_his_face_into_your_pc_breasts|81645bceddad",
@@ -222,31 +222,25 @@
     "context": "<<POS:00797176>>"
   },
   {
-    "key": "output|n_n_i_Uhh_umm_errr_i_he_stammers_arms_trembling_i_I_I|d452ea2e4c71",
-    "original": "\\n\\n<i>“Uhh umm, errr,”</i> he stammers, arms trembling. <i>“I-I’m grateful for the offer, Captain [pc.name], b-but it’s a significant undertaking and I don’t want to get distracted...”</i>",
+    "key": "output|i_Uhh_umm_errr_i_he_stammers_arms_trembling_i_I_I_m_g|e550d7e7aeae",
+    "original": "<i>“Uhh umm, errr,”</i> he stammers, arms trembling. <i>“I-I’m grateful for the offer, Captain [pc.name], b-but it’s a significant undertaking and I don’t want to get distracted...”</i>",
     "translation": "",
-    "context": "<<POS:00797541>>"
+    "context": "<<POS:00797545>>"
   },
   {
-    "key": "output|n_nBoys_that_play_hard_to_get_are_so_cute_Nevertheless_his_in|b80e847653c9",
-    "original": "\\n\\nBoys that play hard to get are so cute! Nevertheless, his insistence on pulling away does eventually give you a sense for how important this is to him. You give him a playful headpat. <i>“I’m so glad I’ve got a smarty-cat around to handle all this tough stuff! But it seems to me like you aren’t having any fun at all, so why not take a break?”</i> You try to start his motor with another casual grope of his swollen bulge and a few smooches. Big brains need lots of love, and that’s what <i>your</i> brain understands!",
+    "key": "output|Boys_that_play_hard_to_get_are_so_cute_Nevertheless_his_insist|f84dcc6c2084",
+    "original": "Boys that play hard to get are so cute! Nevertheless, his insistence on pulling away does eventually give you a sense for how important this is to him. You give him a playful headpat. <i>“I’m so glad I’ve got a smarty-cat around to handle all this tough stuff! But it seems to me like you aren’t having any fun at all, so why not take a break?”</i> You try to start his motor with another casual grope of his swollen bulge and a few smooches. Big brains need lots of love, and that’s what <i>your</i> brain understands!",
     "translation": "",
-    "context": "<<POS:00797741>>"
+    "context": "<<POS:00797745>>"
   },
   {
-    "key": "output|n_n_i_I_I_suppose_it_wouldn_t_be_so_bad_but_i_Kase_shak|64503ea44659",
-    "original": "\\n\\n<i>“I-I suppose it wouldn’t be so bad, but...”</i> Kase shakes his head. <i>“No, no. I really can’t ask for that.”</i> When the concerned kitten stares up at your big moist eyes, he feels instant regret. <i>“B-But, I mean, if you can help in any way, two heads are better than one.”</i>",
+    "key": "output|i_I_I_suppose_it_wouldn_t_be_so_bad_but_i_Kase_shakes_h|9abb543614a4",
+    "original": "<i>“I-I suppose it wouldn’t be so bad, but...”</i> Kase shakes his head. <i>“No, no. I really can’t ask for that.”</i> When the concerned kitten stares up at your big moist eyes, he feels instant regret. <i>“B-But, I mean, if you can help in any way, two heads are better than one.”</i>",
     "translation": "",
-    "context": "<<POS:00798275>>"
+    "context": "<<POS:00798279>>"
   },
   {
-    "key": "output|n_n|51e08ec8e638",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:00798576>>"
-  },
-  {
-    "key": "output|i_That_s_so_true_i_you_beam_inspiration_firing_between_yo|2bc05aaf8ea6",
+    "key": "output|i_That_s_so_true_i_you_beam_inspiration_firing_between_yo|09529db7ec16",
     "original": "<i>“That’s so true!”</i> you beam, inspiration firing between your sexualized synapses. <i>“Did I ever tell you how I saw a big goo girl with two heads!? Imagine getting a blowjob from THAT whenever you wanted! It’d be awesome!”</i>",
     "translation": "",
     "context": "<<POS:00798615>>"
@@ -270,121 +264,115 @@
     "context": "<<POS:00799242>>"
   },
   {
-    "key": "output|n_n_i_T_That_s_not_what_I_meant_Captain_i_Kase_sighs|9bb6a61f0496",
-    "original": "\\n\\n<i>“T-That’s not what I meant, Captain...”</i> Kase sighs.",
+    "key": "output|i_T_That_s_not_what_I_meant_Captain_i_Kase_sighs|5568c43941d7",
+    "original": "<i>“T-That’s not what I meant, Captain...”</i> Kase sighs.",
     "translation": "",
-    "context": "<<POS:00799259>>"
+    "context": "<<POS:00799263>>"
   },
   {
-    "key": "output|n_nYou_scratch_your_pc_face_in_confusion_but_eventually_put_t|17afbb509c9b",
-    "original": "\\n\\nYou scratch your [pc.face] in confusion but eventually put together he really needs some help. Maybe you <i>could</i> take a look at that planning pad thingie, ugh. All work and no play. That’s why his shoulders are so tight! There’s gotta be a better way than <i>that!</i>",
+    "key": "output|You_scratch_your_pc_face_in_confusion_but_eventually_put_toget|23819e796d66",
+    "original": "You scratch your [pc.face] in confusion but eventually put together he really needs some help. Maybe you <i>could</i> take a look at that planning pad thingie, ugh. All work and no play. That’s why his shoulders are so tight! There’s gotta be a better way than <i>that!</i>",
     "translation": "",
-    "context": "<<POS:00799332>>"
+    "context": "<<POS:00799336>>"
   },
   {
-    "key": "output|n_nSounds_like_he_s_thinking_too_hard_about_this_You_tap_your|6e70966480e1",
-    "original": "\\n\\nSounds like he’s thinking too hard about this. You tap your chin and offer a solution. <i>“You need some sex.”</i>",
+    "key": "output|Sounds_like_he_s_thinking_too_hard_about_this_You_tap_your_chin|2232e852903a",
+    "original": "Sounds like he’s thinking too hard about this. You tap your chin and offer a solution. <i>“You need some sex.”</i>",
     "translation": "",
-    "context": "<<POS:00799633>>"
+    "context": "<<POS:00799637>>"
   },
   {
-    "key": "output|n_n_i_Bwhuh_i_Kase_blurts_covering_his_face_i_I_think|4a03d48ce627",
-    "original": "\\n\\n<i>“Bwhuh,”</i> Kase blurts, covering his face. <i>“I think that’s the last thing I need.”</i> His twin tails wrap around his leg as he holds up the feedpad. <i>“Captain, you should take a look at this. Perhaps you can help me make sense of it. You’ll see - it’s a significant project and if I get distracted then it won’t get done. Besides, I’m well-rested; this is just a higher challenge than what I’m used to.”</i>",
+    "key": "output|i_Bwhuh_i_Kase_blurts_covering_his_face_i_I_think_that|82e569b365a2",
+    "original": "<i>“Bwhuh,”</i> Kase blurts, covering his face. <i>“I think that’s the last thing I need.”</i> His twin tails wrap around his leg as he holds up the feedpad. <i>“Captain, you should take a look at this. Perhaps you can help me make sense of it. You’ll see - it’s a significant project and if I get distracted then it won’t get done. Besides, I’m well-rested; this is just a higher challenge than what I’m used to.”</i>",
     "translation": "",
-    "context": "<<POS:00799762>>"
+    "context": "<<POS:00799766>>"
   },
   {
-    "key": "output|n_nYou_take_the_square_gadget_from_your_kitten_and_make_a_convi|24900bc90054",
-    "original": "\\n\\nYou take the square gadget from your kitten and make a convincing show of regarding it. At least fourteen different colored lines network and intersect a bunch of checkpoints, covered up in a whole lot of numbers, and there’s just too many names for a single [pc.raceShort] to remember. After a few seconds you’re visually twisting the presented data into a statistical orgy. One man’s lines going through another girl’s loops. <i>“Makes sense to me,”</i> you grunt, handing it back. Kase lights up just in time for you to turn him off again: <i>“Tube A in Slot B, or something like that.”</i>",
+    "key": "output|You_take_the_square_gadget_from_your_kitten_and_make_a_convincin|88b6578b9dc3",
+    "original": "You take the square gadget from your kitten and make a convincing show of regarding it. At least fourteen different colored lines network and intersect a bunch of checkpoints, covered up in a whole lot of numbers, and there’s just too many names for a single [pc.raceShort] to remember. After a few seconds you’re visually twisting the presented data into a statistical orgy. One man’s lines going through another girl’s loops. <i>“Makes sense to me,”</i> you grunt, handing it back. Kase lights up just in time for you to turn him off again: <i>“Tube A in Slot B, or something like that.”</i>",
     "translation": "",
-    "context": "<<POS:00800195>>"
+    "context": "<<POS:00800199>>"
   },
   {
-    "key": "output|n_n_i_R_Right_i_he_sighs_in_defeat_i_But_I_ve_got_to|05c5a6881ec1",
-    "original": "\\n\\n<i>“R-Right...”</i> he sighs in defeat. <i>“But I’ve got to focus on this. I won’t be able to get anything else done until then. Unless... maybe... you can help me figure this out? Two heads are always better than one.”</i>",
+    "key": "output|i_R_Right_i_he_sighs_in_defeat_i_But_I_ve_got_to_focu|7fe6d828da91",
+    "original": "<i>“R-Right...”</i> he sighs in defeat. <i>“But I’ve got to focus on this. I won’t be able to get anything else done until then. Unless... maybe... you can help me figure this out? Two heads are always better than one.”</i>",
     "translation": "",
-    "context": "<<POS:00800803>>"
+    "context": "<<POS:00800807>>"
   },
   {
-    "key": "output|n_nDamn_right_A_blowjob_is_always_better_when_the_slut_has_a_f|2656a852be36",
-    "original": "\\n\\nDamn right. A blowjob is always better when the slut has a friend. Oh, it seems like Kase still needs something. Rubbing your temples, you faintly recall the information he showed you. Complicated stuff. Lot more complicated than cumming. Maybe you <i>could</i> help, even if it does make your head ache.",
+    "key": "output|Damn_right_A_blowjob_is_always_better_when_the_slut_has_a_frien|852d8bdcf700",
+    "original": "Damn right. A blowjob is always better when the slut has a friend. Oh, it seems like Kase still needs something. Rubbing your temples, you faintly recall the information he showed you. Complicated stuff. Lot more complicated than cumming. Maybe you <i>could</i> help, even if it does make your head ache.",
     "translation": "",
-    "context": "<<POS:00801041>>"
+    "context": "<<POS:00801045>>"
   },
   {
-    "key": "output|n_n_i_Let_me_see_i_Kase_hands_you_the_feedpad_and_you_care|277a1128e379",
-    "original": "\\n\\n<i>“Let me see.”</i> Kase hands you the feedpad and you carefully scan the grid. A list of names, subsidiaries, and contractors can be found on the right - a sea of sensitive information. The routes that each one could, theoretically, take originates from Tavros. A mind-boggling network of destinations are routed through public and VIP warp gates towards Core space and the Frontier. It sort of reminds you what a subway control office deals with, but far, <i>far</i> more complicated. If any other company got their hands on this information, Steele Tech would lose untold billions, as well as be at increased risk of piracy.",
+    "key": "output|i_Let_me_see_i_Kase_hands_you_the_feedpad_and_you_carefull|39c83056c832",
+    "original": "<i>“Let me see.”</i> Kase hands you the feedpad and you carefully scan the grid. A list of names, subsidiaries, and contractors can be found on the right - a sea of sensitive information. The routes that each one could, theoretically, take originates from Tavros. A mind-boggling network of destinations are routed through public and VIP warp gates towards Core space and the Frontier. It sort of reminds you what a subway control office deals with, but far, <i>far</i> more complicated. If any other company got their hands on this information, Steele Tech would lose untold billions, as well as be at increased risk of piracy.",
     "translation": "",
-    "context": "<<POS:00801362>>"
+    "context": "<<POS:00801366>>"
   },
   {
-    "key": "output|n_nAlready_though_you_can_see_the_problems_Each_pilot_contr|386daa7f174b",
-    "original": "\\n\\nAlready, though, you can see the problems. Each pilot, contractor, destination, and route needs to be used, and there needs to be a solid loop between the haulers, which are required to make round trips in order to ferry raw materials, finished goods, and so much more in their respective areas. The mining and salvage crews seem to have been the easiest to place and pay accordingly, but you can see how managing no less than fifteen different groups to maximize productivity and efficiency is proving to be a daunting task.",
+    "key": "output|Already_though_you_can_see_the_problems_Each_pilot_contracto|68929b34151f",
+    "original": "Already, though, you can see the problems. Each pilot, contractor, destination, and route needs to be used, and there needs to be a solid loop between the haulers, which are required to make round trips in order to ferry raw materials, finished goods, and so much more in their respective areas. The mining and salvage crews seem to have been the easiest to place and pay accordingly, but you can see how managing no less than fifteen different groups to maximize productivity and efficiency is proving to be a daunting task.",
     "translation": "",
-    "context": "<<POS:00802005>>"
+    "context": "<<POS:00802009>>"
   },
   {
-    "key": "output|n_n_i_I_m_glad_you_understand_Captain_i_Kase_sighs_setti|d21f7ee3cd09",
-    "original": "\\n\\n<i>“I’m glad you understand, Captain,”</i> Kase sighs, setting the pad on his desk and slouching in the chair. <i>“It was a lot easier in Pyrite...”</i>",
+    "key": "output|i_I_m_glad_you_understand_Captain_i_Kase_sighs_setting_t|41dc17220dbc",
+    "original": "<i>“I’m glad you understand, Captain,”</i> Kase sighs, setting the pad on his desk and slouching in the chair. <i>“It was a lot easier in Pyrite...”</i>",
     "translation": "",
-    "context": "<<POS:00802545>>"
+    "context": "<<POS:00802549>>"
   },
   {
-    "key": "output|n_nStaring_at_the_kaithrit_sympathetically_you_offer_your_supp|886a81fca4a0",
-    "original": "\\n\\nStaring at the kaithrit sympathetically, you offer your support. <i>“What can I do to help?”</i> Besides, it’d be neat to see some of the inner workings of Steele Tech.",
+    "key": "output|Staring_at_the_kaithrit_sympathetically_you_offer_your_support|b1004a1ed6c3",
+    "original": "Staring at the kaithrit sympathetically, you offer your support. <i>“What can I do to help?”</i> Besides, it’d be neat to see some of the inner workings of Steele Tech.",
     "translation": "",
-    "context": "<<POS:00802712>>"
+    "context": "<<POS:00802716>>"
   },
   {
-    "key": "output|n_nFeline_ears_perk_up_i_Oh_I_couldn_t_ask_for_that_i|4d5caceaf21f",
-    "original": "\\n\\nFeline ears perk up. <i>“Oh - I couldn’t ask for that.”</i> If anything, he looks a lot calmer than before. <i>“I was trusted to help with this and I’d feel dishonest to go to anyone else.”</i>",
+    "key": "output|Feline_ears_perk_up_i_Oh_I_couldn_t_ask_for_that_i_If_a|9ac2e15b9fc8",
+    "original": "Feline ears perk up. <i>“Oh - I couldn’t ask for that.”</i> If anything, he looks a lot calmer than before. <i>“I was trusted to help with this and I’d feel dishonest to go to anyone else.”</i>",
     "translation": "",
-    "context": "<<POS:00802895>>"
+    "context": "<<POS:00802899>>"
   },
   {
-    "key": "output|n_n_i_Really_i_You_smirk_i_Corporations_are_made_up_ent|f8c11b68c129",
-    "original": "\\n\\n<i>“Really?”</i> You smirk. <i>“Corporations are made up entirely of people. If you can’t rely on your coworkers, can they rely on you?”</i>",
+    "key": "output|i_Really_i_You_smirk_i_Corporations_are_made_up_entirel|826cbec8d5f2",
+    "original": "<i>“Really?”</i> You smirk. <i>“Corporations are made up entirely of people. If you can’t rely on your coworkers, can they rely on you?”</i>",
     "translation": "",
-    "context": "<<POS:00803103>>"
+    "context": "<<POS:00803107>>"
   },
   {
-    "key": "output|n_nKase_blinks_blushing_tails_twitching_A_smile_crawls_up_hi|9ed9599787bc",
-    "original": "\\n\\nKase blinks, blushing, tails twitching. A smile crawls up his face. <i>“You’re right. Again, I’m sorry. If we put our heads together, then we can figure this out. I’m positive!”</i>",
+    "key": "output|Kase_blinks_blushing_tails_twitching_A_smile_crawls_up_his_fa|8adef062d6de",
+    "original": "Kase blinks, blushing, tails twitching. A smile crawls up his face. <i>“You’re right. Again, I’m sorry. If we put our heads together, then we can figure this out. I’m positive!”</i>",
     "translation": "",
-    "context": "<<POS:00803258>>"
+    "context": "<<POS:00803262>>"
   },
   {
-    "key": "output|n_nThat_s_the_spirit_Although_come_to_think_there_are_certai|3394931a0aa0",
-    "original": "\\n\\nThat’s the spirit! Although, come to think, there are certainly other ways to resolve this problem. It’s abundantly clear that Kase is overworked, stressed, and perhaps a bit tired. You could order him to take five (days off) and get back to it with a clear head, but nothing boosts one’s mental faculties better than some sexual relief. Hopeful, mismatched eyes gaze forward, patiently awaiting your decision.",
+    "key": "output|That_s_the_spirit_Although_come_to_think_there_are_certainly|958986af266a",
+    "original": "That’s the spirit! Although, come to think, there are certainly other ways to resolve this problem. It’s abundantly clear that Kase is overworked, stressed, and perhaps a bit tired. You could order him to take five (days off) and get back to it with a clear head, but nothing boosts one’s mental faculties better than some sexual relief. Hopeful, mismatched eyes gaze forward, patiently awaiting your decision.",
     "translation": "",
-    "context": "<<POS:00803454>>"
+    "context": "<<POS:00803458>>"
   },
   {
-    "key": "output|n_nHow_will_you_help_if_at_all|cabf7c4c8252",
-    "original": "\\n\\nHow will you help, if at all?",
+    "key": "output|How_will_you_help_if_at_all|742321f53a60",
+    "original": "How will you help, if at all?",
     "translation": "",
-    "context": "<<POS:00803879>>"
+    "context": "<<POS:00803883>>"
   },
   {
-    "key": "output|The_door_to_Kase_s_quarters_has_been_left_ajar_and_he_s_at_his|fb2ce0084fbd",
+    "key": "output|The_door_to_Kase_s_quarters_has_been_left_ajar_and_he_s_at_his|dc1fc17fa069",
     "original": "The door to Kase’s quarters has been left ajar, and he’s at his desk, claws running through messy green hair. Looks like he hasn’t made any progress on that logistical concern from before. Stepping inside elicits the usual response from your shy logistics officer.",
     "translation": "",
     "context": "<<POS:00803941>>"
   },
   {
-    "key": "output|n_n_i_C_Captain_Ah_sorry_things_are_still_hectic_I_ve_yet|535ffb0593db",
-    "original": "\\n\\n<i>“C-Captain! Ah, sorry, things are still hectic. I’ve yet to complete my assigned task for Distribution Management. I don’t want to use it as an excuse if I seem a little out of it, but...”</i>",
+    "key": "output|i_C_Captain_Ah_sorry_things_are_still_hectic_I_ve_yet_to_c|12621604230e",
+    "original": "<i>“C-Captain! Ah, sorry, things are still hectic. I’ve yet to complete my assigned task for Distribution Management. I don’t want to use it as an excuse if I seem a little out of it, but...”</i>",
     "translation": "",
-    "context": "<<POS:00804216>>"
+    "context": "<<POS:00804220>>"
   },
   {
-    "key": "output|n_n|b0f210e40b71",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:00804426>>"
-  },
-  {
-    "key": "output|N_aw_he_s_fiiine|22563b197a1e",
+    "key": "output|N_aw_he_s_fiiine|d9aede67e162",
     "original": "N’aw, he’s fiiine!",
     "translation": "",
     "context": "<<POS:00804454>>"
@@ -402,28 +390,46 @@
     "context": "<<POS:00804512>>"
   },
   {
-    "key": "output|n_n_i_Perhaps_you_could_help_me_with_this_if_you_have_time|254537769cfe",
-    "original": "\\n\\n<i>“Perhaps you could help me with this, if you have time?”</i> He smiles hopefully. <i>“I know you were busy last time... but anything could lead to an epiphany!”</i>",
+    "key": "output|i_Perhaps_you_could_help_me_with_this_if_you_have_time_i|83892ff8a053",
+    "original": "<i>“Perhaps you could help me with this, if you have time?”</i> He smiles hopefully. <i>“I know you were busy last time... but anything could lead to an epiphany!”</i>",
     "translation": "",
-    "context": "<<POS:00804538>>"
+    "context": "<<POS:00804542>>"
   },
   {
     "key": "button|Help_Him|a7ab07cec659",
     "original": "Help Him",
     "translation": "",
-    "context": "<<POS:00804974>>"
+    "context": "<<POS:00804974>> addButton(0,\"Help Him\",this.helpPoorKaseSolveHisProblem,\"Help Him\",e)"
+  },
+  {
+    "key": "button.hover|Help_Him|a7ab07cec659",
+    "original": "Help Him",
+    "translation": "",
+    "context": "<<POS:00805018>> addButton(0,\"Help Him\",this.helpPoorKaseSolveHisProblem,\"Help Him\",e)"
   },
   {
     "key": "button|Help_Him|f3b5a3be2c6a",
     "original": "“Help Him”",
     "translation": "",
-    "context": "<<POS:00805346>>"
+    "context": "<<POS:00805346>> addButton(1,\"“Help Him”\",this.helpKaseSolveHisProblemButSexyOWO,\"‘Help’ Him\",t)"
   },
   {
-    "key": "button|Can_t_Help|758310fe9195",
+    "key": "button.hover|Help_Him|02ac6a683432",
+    "original": "‘Help’ Him",
+    "translation": "",
+    "context": "<<POS:00805398>> addButton(1,\"“Help Him”\",this.helpKaseSolveHisProblemButSexyOWO,\"‘Help’ Him\",t)"
+  },
+  {
+    "key": "button|Can_t_Help|f77ce6ecf77e",
     "original": "Can’t Help",
     "translation": "",
-    "context": "<<POS:00805487>>"
+    "context": "<<POS:00805487>> addButton(2,\"Can’t Help\",this.noHelpPoorKaseYouMeanieHesSoPreciousHowCouldYouNotHelpHim,\"Can’t Help\",o)"
+  },
+  {
+    "key": "button.hover|Can_t_Help|f77ce6ecf77e",
+    "original": "Can’t Help",
+    "translation": "",
+    "context": "<<POS:00805563>> addButton(2,\"Can’t Help\",this.noHelpPoorKaseYouMeanieHesSoPreciousHowCouldYouNotHelpHim,\"Can’t Help\",o)"
   },
   {
     "key": "output|i_Aaaalright_I_guess_I_can_take_a_look_too_i_you_declare|d84bb00e8043",
@@ -480,25 +486,19 @@
     "context": "<<POS:00806357>>"
   },
   {
-    "key": "output|n_nLeant_back_against_the_bed_you_watch_the_screen_reshape_und|674bea5d6386",
-    "original": "\\n\\nLeant back against the bed, you watch the screen reshape under his touch. Multiple lines adjust at once, swinging through the gridspace like octopus tentacles, connecting to one place after the other without that annoying error message that’d keep popping up earlier. You think it said something about being unable to afford this or that.",
+    "key": "output|Leant_back_against_the_bed_you_watch_the_screen_reshape_under_h|7497bcd202f8",
+    "original": "Leant back against the bed, you watch the screen reshape under his touch. Multiple lines adjust at once, swinging through the gridspace like octopus tentacles, connecting to one place after the other without that annoying error message that’d keep popping up earlier. You think it said something about being unable to afford this or that.",
     "translation": "",
-    "context": "<<POS:00806436>>"
+    "context": "<<POS:00806440>>"
   },
   {
-    "key": "output|n_n_i_I_can_t_believe_it_i_Kase_jumps_out_of_his_seat_i|1c373c98bfbb",
-    "original": "\\n\\n<i>“I can’t believe it!”</i> Kase jumps out of his seat. <i>“I-It’s done! We did it!”</i>",
+    "key": "output|i_I_can_t_believe_it_i_Kase_jumps_out_of_his_seat_i_I_I|8455c152340f",
+    "original": "<i>“I can’t believe it!”</i> Kase jumps out of his seat. <i>“I-It’s done! We did it!”</i>",
     "translation": "",
-    "context": "<<POS:00806789>>"
+    "context": "<<POS:00806793>>"
   },
   {
-    "key": "output|n_n|49f1900a0508",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:00806893>>"
-  },
-  {
-    "key": "output|You_re_not_sure_what_you_did_but_his_infectious_enthusiasm_leads|48ac126c281d",
+    "key": "output|You_re_not_sure_what_you_did_but_his_infectious_enthusiasm_leads|ce17cd06c362",
     "original": "You’re not sure what you did but his infectious enthusiasm leads to you smiling and cheering anyway. Yay for positivity!",
     "translation": "",
     "context": "<<POS:00806921>>"
@@ -534,112 +534,124 @@
     "context": "<<POS:00807318>>"
   },
   {
-    "key": "output|n_nCollaborating_with_Kase_on_one_of_his_projects_is_infusing_y|b6aaf381a171",
-    "original": "\\n\\nCollaborating with Kase on one of his projects is infusing you with all-new appreciation for the things he - and his peers - are doing in the background. Zooming around on the Rush makes it easy to forget there are intelligent men and women like him maintaining the vital routes you’re now trying to logically connect. Words are exchanged; grumbles are spat more than a few times. Once or twice a flashing-red error pops up, <i>Cannot Arrange; Expenditure Exceeds Allotment</i>. Fuck, this is really particular, isn’t it?",
+    "key": "output|Collaborating_with_Kase_on_one_of_his_projects_is_infusing_you_w|9fc2220700b1",
+    "original": "Collaborating with Kase on one of his projects is infusing you with all-new appreciation for the things he - and his peers - are doing in the background. Zooming around on the Rush makes it easy to forget there are intelligent men and women like him maintaining the vital routes you’re now trying to logically connect. Words are exchanged; grumbles are spat more than a few times. Once or twice a flashing-red error pops up, <i>Cannot Arrange; Expenditure Exceeds Allotment</i>. Fuck, this is really particular, isn’t it?",
     "translation": "",
-    "context": "<<POS:00807420>>"
+    "context": "<<POS:00807424>>"
   },
   {
-    "key": "output|n_n_i_Somtaaw_needs_to_haul_from_the_Sindathu_belt_here_i|999a669afb59",
-    "original": "\\n\\n<i>“Somtaaw needs to haul from the Sindathu belt here,”</i> Kase explains. <i>“It starts there, then they go from here...”</i> Lines move on screen as he explains, and you look for where things went wrong last time. <i>“But that’s where I...”</i>",
+    "key": "output|i_Somtaaw_needs_to_haul_from_the_Sindathu_belt_here_i_Kase|b7e972fd71bd",
+    "original": "<i>“Somtaaw needs to haul from the Sindathu belt here,”</i> Kase explains. <i>“It starts there, then they go from here...”</i> Lines move on screen as he explains, and you look for where things went wrong last time. <i>“But that’s where I...”</i>",
     "translation": "",
-    "context": "<<POS:00807956>>"
+    "context": "<<POS:00807960>>"
   },
   {
-    "key": "output|n_nIt_s_not_making_sense_still_and_now_you_re_feeling_frazzled|da46deb60f0f",
-    "original": "\\n\\nIt’s not making sense still, and now you’re feeling frazzled. When you win the company you’re giving these people a raise because <i>damn</i> this is rough. And they’re doing work like this <i>every day!?</i> In a small, cathartic outburst, you drag Somtaaw’s line from one failed planning down to a local Mhen’ga distributor in the grid.",
+    "key": "output|It_s_not_making_sense_still_and_now_you_re_feeling_frazzled_Wh|6a1153fc2bbe",
+    "original": "It’s not making sense still, and now you’re feeling frazzled. When you win the company you’re giving these people a raise because <i>damn</i> this is rough. And they’re doing work like this <i>every day!?</i> In a small, cathartic outburst, you drag Somtaaw’s line from one failed planning down to a local Mhen’ga distributor in the grid.",
     "translation": "",
-    "context": "<<POS:00808230>>"
+    "context": "<<POS:00808234>>"
   },
   {
-    "key": "output|n_n_i_W_Woah_i_Kase_blurts_i_Wait_why_did_i|bb97cad6aaf5",
-    "original": "\\n\\n<i>“W-Woah!”</i> Kase blurts. <i>“Wait, why did-”</i>",
+    "key": "output|i_W_Woah_i_Kase_blurts_i_Wait_why_did_i|46e8bd5b20ea",
+    "original": "<i>“W-Woah!”</i> Kase blurts. <i>“Wait, why did-”</i>",
     "translation": "",
-    "context": "<<POS:00808583>>"
+    "context": "<<POS:00808587>>"
   },
   {
-    "key": "output|n_nYou_perk_up_Huh_That_does_kind_of_make_more_sense_And_the|44843e176688",
-    "original": "\\n\\nYou perk up. Huh. That does kind of make more sense. And then the others can go...",
+    "key": "output|You_perk_up_Huh_That_does_kind_of_make_more_sense_And_then_th|a2c8ecbbae8a",
+    "original": "You perk up. Huh. That does kind of make more sense. And then the others can go...",
     "translation": "",
-    "context": "<<POS:00808651>>"
+    "context": "<<POS:00808655>>"
   },
   {
-    "key": "output|n_n_i_pc_name_that_s_incredible_i_Kase_all_but_shouts|788352250db0",
-    "original": "\\n\\n<i>“[pc.name], that’s incredible!”</i> Kase all but shouts. Turning away from the screen, blinking, and then looking back, you’re finally seeing this puzzle from a much different angle. Somtaaw is rerouted directly to Tavros and beyond, leaving the rest of your haulers to zig-zag their way through the approved Frontier space lanes. By the end of it, everything is lined up.",
+    "key": "output|i_pc_name_that_s_incredible_i_Kase_all_but_shouts_Turn|b6dabf14cd03",
+    "original": "<i>“[pc.name], that’s incredible!”</i> Kase all but shouts. Turning away from the screen, blinking, and then looking back, you’re finally seeing this puzzle from a much different angle. Somtaaw is rerouted directly to Tavros and beyond, leaving the rest of your haulers to zig-zag their way through the approved Frontier space lanes. By the end of it, everything is lined up.",
     "translation": "",
-    "context": "<<POS:00808748>>"
+    "context": "<<POS:00808752>>"
   },
   {
-    "key": "output|n_n_i_We_did_it_We_did_it_i_The_kitty_boy_bursts_from_his|3982cd08d591",
-    "original": "\\n\\n<i>“We did it! We did it!”</i> The kitty boy bursts from his chair, running over to where you sit on his bed to offer gratitude in the form of a tight hug. Fortunately, you’re not too drained to give the purring boy one back.",
+    "key": "output|i_We_did_it_We_did_it_i_The_kitty_boy_bursts_from_his_cha|40e57db6f030",
+    "original": "<i>“We did it! We did it!”</i> The kitty boy bursts from his chair, running over to where you sit on his bed to offer gratitude in the form of a tight hug. Fortunately, you’re not too drained to give the purring boy one back.",
     "translation": "",
-    "context": "<<POS:00809138>>"
+    "context": "<<POS:00809142>>"
   },
   {
-    "key": "output|n_nBack_in_his_chair_Kase_leans_back_absolutely_ready_for_a_c|296c5e67433f",
-    "original": "\\n\\nBack in his chair, Kase leans back, absolutely ready for a cat nap. <i>“Captain - I can’t describe how difficult I was finding that. Thank you very much.”</i>",
+    "key": "output|Back_in_his_chair_Kase_leans_back_absolutely_ready_for_a_cat_n|37d13892ba98",
+    "original": "Back in his chair, Kase leans back, absolutely ready for a cat nap. <i>“Captain - I can’t describe how difficult I was finding that. Thank you very much.”</i>",
     "translation": "",
-    "context": "<<POS:00809378>>"
+    "context": "<<POS:00809382>>"
   },
   {
-    "key": "output|n_n_i_Hold_up_i_you_call|fad3e91924a7",
-    "original": "\\n\\n<i>“Hold up,”</i> you call.",
+    "key": "output|i_Hold_up_i_you_call|40e07e882bab",
+    "original": "<i>“Hold up,”</i> you call.",
     "translation": "",
-    "context": "<<POS:00809553>>"
+    "context": "<<POS:00809557>>"
   },
   {
-    "key": "output|n_nThere_it_was_i_Somtaaw_needs_to_go_through_here_to_here|81fa35067c2f",
-    "original": "\\n\\nThere it was. <i>“Somtaaw needs to go through here, to here...”</i> You drag their green line straight to Tavros. That’s it. Moving Somtaaw straight to Tavros opens up a zig-zag pattern for the remaining unset groups to efficiently travel. Damn, you’ve got to give yourself a pat on the back here. Profit expectations shoot up instantly based on the route you draw, almost doing the work for Kase!",
+    "key": "output|There_it_was_i_Somtaaw_needs_to_go_through_here_to_here|4cd88085d086",
+    "original": "There it was. <i>“Somtaaw needs to go through here, to here...”</i> You drag their green line straight to Tavros. That’s it. Moving Somtaaw straight to Tavros opens up a zig-zag pattern for the remaining unset groups to efficiently travel. Damn, you’ve got to give yourself a pat on the back here. Profit expectations shoot up instantly based on the route you draw, almost doing the work for Kase!",
     "translation": "",
-    "context": "<<POS:00809595>>"
+    "context": "<<POS:00809599>>"
   },
   {
-    "key": "output|n_n_i_Wow_pc_name_you_re_a_genius_i|f3fcfda7a88e",
-    "original": "\\n\\n<i>“Wow! [pc.name], you’re a genius!”</i>",
+    "key": "output|i_Wow_pc_name_you_re_a_genius_i|dc3a0abb038a",
+    "original": "<i>“Wow! [pc.name], you’re a genius!”</i>",
     "translation": "",
-    "context": "<<POS:00810007>>"
+    "context": "<<POS:00810011>>"
   },
   {
-    "key": "output|n_nYou_laugh_it_off_Just_because_this_isn_t_your_field_of_expe|d3dfb2f779c4",
-    "original": "\\n\\nYou laugh it off. Just because this isn’t your field of expertise doesn’t mean you can’t see something he didn’t. Everybody needs a second pair of eyes sometimes.",
+    "key": "output|You_laugh_it_off_Just_because_this_isn_t_your_field_of_expertis|c2fb8e35fc7c",
+    "original": "You laugh it off. Just because this isn’t your field of expertise doesn’t mean you can’t see something he didn’t. Everybody needs a second pair of eyes sometimes.",
     "translation": "",
-    "context": "<<POS:00810063>>"
+    "context": "<<POS:00810067>>"
   },
   {
-    "key": "output|n_n_i_No_that_s_not_fair_Look_at_the_expected_projections_W|5eedb8b40309",
-    "original": "\\n\\n<i>“No, that’s not fair! Look at the expected projections! What you’ve figured out is far in excess of those. I’ll make sure to tell the manager all about this.”</i>",
+    "key": "output|i_No_that_s_not_fair_Look_at_the_expected_projections_What|cf43bfde11f0",
+    "original": "<i>“No, that’s not fair! Look at the expected projections! What you’ve figured out is far in excess of those. I’ll make sure to tell the manager all about this.”</i>",
     "translation": "",
-    "context": "<<POS:00810240>>"
+    "context": "<<POS:00810244>>"
   },
   {
-    "key": "output|n_nIf_he_says_so_Wouldn_t_hurt_to_build_a_rapport_with_the_peo|1b32b4499df7",
-    "original": "\\n\\nIf he says so. Wouldn’t hurt to build a rapport with the people you intend to boss around one day. Before anything else, Kase rams himself into you for a grateful hug that you immediately return. Back in his chair, Kase leans back like a cat desperately in need of a nap. <i>“Captain - [pc.name]. Thank you very much for your help. I can’t express how difficult that was for me. It’s certainly opened my eyes to future projects.”</i>",
+    "key": "output|If_he_says_so_Wouldn_t_hurt_to_build_a_rapport_with_the_people|a5d2a4a1afbd",
+    "original": "If he says so. Wouldn’t hurt to build a rapport with the people you intend to boss around one day. Before anything else, Kase rams himself into you for a grateful hug that you immediately return. Back in his chair, Kase leans back like a cat desperately in need of a nap. <i>“Captain - [pc.name]. Thank you very much for your help. I can’t express how difficult that was for me. It’s certainly opened my eyes to future projects.”</i>",
     "translation": "",
-    "context": "<<POS:00810420>>"
+    "context": "<<POS:00810424>>"
   },
   {
-    "key": "output|n_nYour_chest_swells_with_pride_as_he_compliments_you_so_direct|b7a6544a7740",
-    "original": "\\n\\nYour chest swells with pride as he compliments you so directly, but what’s really eye-catching is that endearing smile on his face. He’s yet to figure out that the way he slouches thrusts out his ample bulge. Hmm. Maybe he deserves a reward for getting that done. Sure, you helped, but only because it was necessary - it was still Kase that did the legwork and took on a challenge like that for days on end. Now that he’s gotten past that, he can start thinking about a little R&R.",
+    "key": "output|Your_chest_swells_with_pride_as_he_compliments_you_so_directly|9976b7188357",
+    "original": "Your chest swells with pride as he compliments you so directly, but what’s really eye-catching is that endearing smile on his face. He’s yet to figure out that the way he slouches thrusts out his ample bulge. Hmm. Maybe he deserves a reward for getting that done. Sure, you helped, but only because it was necessary - it was still Kase that did the legwork and took on a challenge like that for days on end. Now that he’s gotten past that, he can start thinking about a little R&R.",
     "translation": "",
-    "context": "<<POS:00810870>>"
+    "context": "<<POS:00810874>>"
   },
   {
-    "key": "output|n_nMaybe_it_ll_start_with_you|edbb6469370a",
-    "original": "\\n\\nMaybe it’ll start with you?",
+    "key": "output|Maybe_it_ll_start_with_you|9e34c2505bc9",
+    "original": "Maybe it’ll start with you?",
     "translation": "",
-    "context": "<<POS:00811366>>"
+    "context": "<<POS:00811370>>"
   },
   {
-    "key": "button|Spoil_Him|4f4ba0d82d73",
+    "key": "button|Spoil_Him|042e10acdc6d",
     "original": "Spoil Him",
     "translation": "",
-    "context": "<<POS:00811467>>"
+    "context": "<<POS:00811467>> addButton(0,\"Spoil Him\",this.spoilKaseHesAGoodBoy,\"Spoil Him\",\"Kase is a hard worker. He definitely deserves something extra for this.\")"
   },
   {
-    "key": "button|Leave|d3a57bdf63d0",
+    "key": "button.hover|Spoil_Him|042e10acdc6d",
+    "original": "Spoil Him",
+    "translation": "",
+    "context": "<<POS:00811505>> addButton(0,\"Spoil Him\",this.spoilKaseHesAGoodBoy,\"Spoil Him\",\"Kase is a hard worker. He definitely deserves something extra for this.\")"
+  },
+  {
+    "key": "button.tooltip|Kase_is_a_hard_worker_He_definitely_deserves_something_extra_fo|24b65eb4f2ac",
+    "original": "Kase is a hard worker. He definitely deserves something extra for this.",
+    "translation": "",
+    "context": "<<POS:00811517>> addButton(0,\"Spoil Him\",this.spoilKaseHesAGoodBoy,\"Spoil Him\",\"Kase is a hard worker. He definitely deserves something extra for this.\")"
+  },
+  {
+    "key": "button|Leave|4faa46ea9618",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:00811605>>"
+    "context": "<<POS:00811605>> addButton(14,\"Leave\",mainGameMenu)"
   },
   {
     "key": "output|You_proudly_puff_your_pc_fullChest_i_I_ll_help_You_just_fo|8409de01a9cb",
@@ -648,40 +660,40 @@
     "context": "<<POS:00811766>>"
   },
   {
-    "key": "output|n_nKase_stares_with_raised_eyebrows_his_blush_deepening_i_U|acc72998f228",
-    "original": "\\n\\nKase stares with raised eyebrows, his blush deepening. <i>“Uh o-okay...”</i>",
+    "key": "output|Kase_stares_with_raised_eyebrows_his_blush_deepening_i_Uh_o|d8953c230b78",
+    "original": "Kase stares with raised eyebrows, his blush deepening. <i>“Uh o-okay...”</i>",
     "translation": "",
-    "context": "<<POS:00811900>>"
+    "context": "<<POS:00811904>>"
   },
   {
-    "key": "output|n_nCollecting_himself_he_takes_his_seat_and_tries_to_pick_up_o|b0aafe5ce7de",
-    "original": "\\n\\nCollecting himself, he takes his seat and tries to pick up on a loose thread. That’s your cue to move in, start hovering, surprise him with giggling headpats and helpful(?) questions. You’re here for, like, moral support! And emotional support. And sexual support, that too, definitely. You massage his shoulders, run your [pc.hands] across his lithe chest, whimsically place your [pc.hips], [pc.thighs], and [pc.ass] in his periphery.... Every time he looks up, he’s a shade red darker, coloring from sangria to dark crimson. There’s noise coming from his crotch where his throbbingly swelling boner stretches his smart-cloth uniform. Now that’s cool! You hadn’t even touched him there yet, but now you’ve gotta!",
+    "key": "output|Collecting_himself_he_takes_his_seat_and_tries_to_pick_up_on_a|86a4d70adbf3",
+    "original": "Collecting himself, he takes his seat and tries to pick up on a loose thread. That’s your cue to move in, start hovering, surprise him with giggling headpats and helpful(?) questions. You’re here for, like, moral support! And emotional support. And sexual support, that too, definitely. You massage his shoulders, run your [pc.hands] across his lithe chest, whimsically place your [pc.hips], [pc.thighs], and [pc.ass] in his periphery.... Every time he looks up, he’s a shade red darker, coloring from sangria to dark crimson. There’s noise coming from his crotch where his throbbingly swelling boner stretches his smart-cloth uniform. Now that’s cool! You hadn’t even touched him there yet, but now you’ve gotta!",
     "translation": "",
-    "context": "<<POS:00811991>>"
+    "context": "<<POS:00811995>>"
   },
   {
-    "key": "output|n_n_i_C_Captain_i_Kase_stammers_covering_his_groin_i_I|c48c8e71f7af",
-    "original": "\\n\\n<i>“C-Captain!”</i> Kase stammers, covering his groin. <i>“I thought you were trying to help me!”</i>",
+    "key": "output|i_C_Captain_i_Kase_stammers_covering_his_groin_i_I_tho|06d2440f521e",
+    "original": "<i>“C-Captain!”</i> Kase stammers, covering his groin. <i>“I thought you were trying to help me!”</i>",
     "translation": "",
-    "context": "<<POS:00812719>>"
+    "context": "<<POS:00812723>>"
   },
   {
-    "key": "output|n_n_i_But_I_am_i_If_anyone_other_than_Kase_had_said_that|0ed84d3f8d61",
-    "original": "\\n\\n<i>“But I am!”</i> If anyone other than Kase had said that, you might feel a bit frustrated by that, but super smart people always get so wound up. You can forgive it! Well, you would be able to, but as soon as you lay a [pc.finger] on his cock the thought flutters away like your eyelashes would when presented with a big fat horsecock. <i>“Ooohhh. Looks like you’re really distracted, huh?”</i> You give him an envious glance. Why’s he keeping you from his penis?",
+    "key": "output|i_But_I_am_i_If_anyone_other_than_Kase_had_said_that_you|752e038018d1",
+    "original": "<i>“But I am!”</i> If anyone other than Kase had said that, you might feel a bit frustrated by that, but super smart people always get so wound up. You can forgive it! Well, you would be able to, but as soon as you lay a [pc.finger] on his cock the thought flutters away like your eyelashes would when presented with a big fat horsecock. <i>“Ooohhh. Looks like you’re really distracted, huh?”</i> You give him an envious glance. Why’s he keeping you from his penis?",
     "translation": "",
-    "context": "<<POS:00812835>>"
+    "context": "<<POS:00812839>>"
   },
   {
-    "key": "output|n_nBurningly_red_the_kaithrit_s_tremulous_lips_finally_give_vo|ddced7448b54",
-    "original": "\\n\\nBurningly-red, the kaithrit’s tremulous lips finally give voice to what you want to hear. <i>“Because you keep...! Ah please... [pc.name]... I’m too horny to focus now!”</i> His hands pull away to show the peak of his erection pulsing and wet, rubbing against the fabric. Your groping turns yet lewder and more depraved, building his hardness up to the full nine inches.",
+    "key": "output|Burningly_red_the_kaithrit_s_tremulous_lips_finally_give_voice|3a2f38a29ca2",
+    "original": "Burningly-red, the kaithrit’s tremulous lips finally give voice to what you want to hear. <i>“Because you keep...! Ah please... [pc.name]... I’m too horny to focus now!”</i> His hands pull away to show the peak of his erection pulsing and wet, rubbing against the fabric. Your groping turns yet lewder and more depraved, building his hardness up to the full nine inches.",
     "translation": "",
-    "context": "<<POS:00813315>>"
+    "context": "<<POS:00813319>>"
   },
   {
-    "key": "output|n_nYour_kitty_boy_s_leaned_back_in_the_chair_shudderingly_arou|c72fa44af86e",
-    "original": "\\n\\nYour kitty boy’s leaned back in the chair, shudderingly aroused and ready to go. Could slip under the desk, encourage him to keep working with a good, long suck... or maybe just ride him in the chair. Hopefully it won’t break!",
+    "key": "output|Your_kitty_boy_s_leaned_back_in_the_chair_shudderingly_aroused|951416a5993f",
+    "original": "Your kitty boy’s leaned back in the chair, shudderingly aroused and ready to go. Could slip under the desk, encourage him to keep working with a good, long suck... or maybe just ride him in the chair. Hopefully it won’t break!",
     "translation": "",
-    "context": "<<POS:00813700>>"
+    "context": "<<POS:00813704>>"
   },
   {
     "key": "output|i_I_ll_figure_something_out_i_you_offer_with_a_smirk_i|7b78bbe67242",
@@ -690,28 +702,28 @@
     "context": "<<POS:00813954>>"
   },
   {
-    "key": "output|n_nAn_eyebrow_raises_on_Kase_s_tilted_head_i_If_you_say_so|4b722f656e00",
-    "original": "\\n\\nAn eyebrow raises on Kase’s tilted head. <i>“If you say so, Captain.”</i>",
+    "key": "output|An_eyebrow_raises_on_Kase_s_tilted_head_i_If_you_say_so_Capt|198a97c3d2a7",
+    "original": "An eyebrow raises on Kase’s tilted head. <i>“If you say so, Captain.”</i>",
     "translation": "",
-    "context": "<<POS:00814060>>"
+    "context": "<<POS:00814064>>"
   },
   {
-    "key": "output|n_nThe_kitty_boy_grasps_at_loose_threads_in_an_effort_to_recove|0e36269065f3",
-    "original": "\\n\\nThe kitty-boy grasps at loose threads in an effort to recover his train of thought. In the meantime, you’re looking over his shoulder, looming uncomfortably close, half looking at what he’s doing and what’s between his legs. As much as Kase tries to concentrate, your proximity, your occasional lewd suggestions, and your winning strategy of reconnecting two lines because they shaped into a vague approximation of a phallus eventually splinter his resolve. A thick, bulbous bulge swells the cloth blanketing his crotch, turning damp from a nervous beading of precum.",
+    "key": "output|The_kitty_boy_grasps_at_loose_threads_in_an_effort_to_recover_hi|b4cabca3d91c",
+    "original": "The kitty-boy grasps at loose threads in an effort to recover his train of thought. In the meantime, you’re looking over his shoulder, looming uncomfortably close, half looking at what he’s doing and what’s between his legs. As much as Kase tries to concentrate, your proximity, your occasional lewd suggestions, and your winning strategy of reconnecting two lines because they shaped into a vague approximation of a phallus eventually splinter his resolve. A thick, bulbous bulge swells the cloth blanketing his crotch, turning damp from a nervous beading of precum.",
     "translation": "",
-    "context": "<<POS:00814148>>"
+    "context": "<<POS:00814152>>"
   },
   {
-    "key": "output|n_n_i_C_C_Captain_this_isn_t_really_working_out_i_The_pal|479799998af1",
-    "original": "\\n\\n<i>“C-C-Captain, this isn’t really working out.”</i> The pale boy’s cheeks flush a dark red. <i>“I-I’m too distracted now.”</i>",
+    "key": "output|i_C_C_Captain_this_isn_t_really_working_out_i_The_pale_bo|942ed7be13ef",
+    "original": "<i>“C-C-Captain, this isn’t really working out.”</i> The pale boy’s cheeks flush a dark red. <i>“I-I’m too distracted now.”</i>",
     "translation": "",
-    "context": "<<POS:00814730>>"
+    "context": "<<POS:00814734>>"
   },
   {
-    "key": "output|n_nYeah_you_can_see_that_And_feel_it_Every_groping_squeeze_e|7bee2ae5f4fb",
-    "original": "\\n\\nYeah, you can see that. And feel it. Every groping squeeze elicits a ‘mew’ from the shudderingly-horny kitty. <i>“This’ll help,”</i> you insist. Now that you’ve got him where you want him, bullied and teased into complete helplessness, how are you going to help your crew member relax?",
+    "key": "output|Yeah_you_can_see_that_And_feel_it_Every_groping_squeeze_elici|56fa702f8b0c",
+    "original": "Yeah, you can see that. And feel it. Every groping squeeze elicits a ‘mew’ from the shudderingly-horny kitty. <i>“This’ll help,”</i> you insist. Now that you’ve got him where you want him, bullied and teased into complete helplessness, how are you going to help your crew member relax?",
     "translation": "",
-    "context": "<<POS:00814872>>"
+    "context": "<<POS:00814876>>"
   },
   {
     "key": "output|i_I_ll_stick_around_and_help_if_I_can_You_stay_focused_on_it|7cf94b01116c",
@@ -732,22 +744,22 @@
     "context": "<<POS:00815556>>"
   },
   {
-    "key": "output|n_nKase_stretches_before_planting_himself_in_his_chair_and_tapp|28d8bae5e0fc",
-    "original": "\\n\\nKase stretches before planting himself in his chair and tapping a new route into his digital gridspace. One [pc.hand] on the back of his chair, you lean over and keep your eyes on what he’s doing, listening raptly to his explanations, his woes, and the things that have, frankly, angered him. It’s pretty tough. Having to meet the projected profits, make sure everyone’s getting paid what they’re owed... it’s a game of corporate min-maxing, the kind played by megacorps all day every day.",
+    "key": "output|Kase_stretches_before_planting_himself_in_his_chair_and_tapping|7f82b0816648",
+    "original": "Kase stretches before planting himself in his chair and tapping a new route into his digital gridspace. One [pc.hand] on the back of his chair, you lean over and keep your eyes on what he’s doing, listening raptly to his explanations, his woes, and the things that have, frankly, angered him. It’s pretty tough. Having to meet the projected profits, make sure everyone’s getting paid what they’re owed... it’s a game of corporate min-maxing, the kind played by megacorps all day every day.",
     "translation": "",
-    "context": "<<POS:00815700>>"
+    "context": "<<POS:00815704>>"
   },
   {
-    "key": "output|n_nYou_re_here_to_help_him_but_burning_your_brain_over_some_co|261200540822",
-    "original": "\\n\\nYou’re here to help him, but burning your brain over some colorful lines and things like ‘profit margins’ sounds really fucking boring. He can worry about that after a thorough teasing.",
+    "key": "output|You_re_here_to_help_him_but_burning_your_brain_over_some_colorf|fada803a986f",
+    "original": "You’re here to help him, but burning your brain over some colorful lines and things like ‘profit margins’ sounds really fucking boring. He can worry about that after a thorough teasing.",
     "translation": "",
-    "context": "<<POS:00816204>>"
+    "context": "<<POS:00816208>>"
   },
   {
-    "key": "output|n_nThings_take_a_turn_for_the_lewder_you_reach_in_feigning_an|132ee76af162",
-    "original": "\\n\\nThings take a turn for the lewder; you reach in, feigning an idea, only to grab his thigh and crotch by complete happenstance. <i>“C-Captain!”</i> Kase whimpers, squeezing his thighs together. Sorry, your bad. Instead of leaning over the chair, you massage his shoulders",
+    "key": "output|Things_take_a_turn_for_the_lewder_you_reach_in_feigning_an_ide|77cf9fb00101",
+    "original": "Things take a turn for the lewder; you reach in, feigning an idea, only to grab his thigh and crotch by complete happenstance. <i>“C-Captain!”</i> Kase whimpers, squeezing his thighs together. Sorry, your bad. Instead of leaning over the chair, you massage his shoulders",
     "translation": "",
-    "context": "<<POS:00816404>>"
+    "context": "<<POS:00816408>>"
   },
   {
     "key": "output|and_simultaneously_rest_your_pc_breasts_on_his_head|615dcf21fa3c",
@@ -762,19 +774,13 @@
     "context": "<<POS:00816778>>"
   },
   {
-    "key": "output|n_nHe_shakes_his_head_but_the_blush_says_it_all_Well_that_a|978e05781cf3",
-    "original": "\\n\\nHe shakes his head, but the blush says it all. Well, that, and the leaking boner he’s popped under his uniform.",
+    "key": "output|He_shakes_his_head_but_the_blush_says_it_all_Well_that_and_t|c13730b4c867",
+    "original": "He shakes his head, but the blush says it all. Well, that, and the leaking boner he’s popped under his uniform.",
     "translation": "",
-    "context": "<<POS:00816860>>"
+    "context": "<<POS:00816864>>"
   },
   {
-    "key": "output|n_n|f4b5f4cde482",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:00816986>>"
-  },
-  {
-    "key": "output|i_Look_you_really_need_to_relax_i_you_lean_in_stroking_h|5f331279650d",
+    "key": "output|i_Look_you_really_need_to_relax_i_you_lean_in_stroking_h|3034e7e5053d",
     "original": "<i>“Look, you really need to relax,”</i> you lean in, stroking his thigh comfortingly. <i>“This is an order.”</i>",
     "translation": "",
     "context": "<<POS:00817013>>"
@@ -792,31 +798,55 @@
     "context": "<<POS:00817295>>"
   },
   {
-    "key": "output|n_nThe_pressure_of_your_authority_against_his_face_causes_Kase|470511e29dbd",
-    "original": "\\n\\nThe pressure of your authority against his face causes Kase to wince and pull back. Pure desire swells his shaft into nine narrow inches of kaithrit girth, steadily-beading precum sopping his groin coverings. Fuck, he’s adorable.",
+    "key": "output|The_pressure_of_your_authority_against_his_face_causes_Kase_to_w|5935c8b85ad8",
+    "original": "The pressure of your authority against his face causes Kase to wince and pull back. Pure desire swells his shaft into nine narrow inches of kaithrit girth, steadily-beading precum sopping his groin coverings. Fuck, he’s adorable.",
     "translation": "",
-    "context": "<<POS:00817435>>"
+    "context": "<<POS:00817439>>"
   },
   {
-    "key": "output|n_nHow_are_you_going_to_take_his_mind_off_work|7c5fef8c15fd",
-    "original": "\\n\\nHow are you going to take his mind off work?",
+    "key": "output|How_are_you_going_to_take_his_mind_off_work|e6b8f42ad9e7",
+    "original": "How are you going to take his mind off work?",
     "translation": "",
-    "context": "<<POS:00817679>>"
+    "context": "<<POS:00817683>>"
   },
   {
-    "key": "button|Lap_Ride|6eec85670451",
+    "key": "button|Lap_Ride|8e608a74b131",
     "original": "Lap Ride",
     "translation": "",
-    "context": "<<POS:00817797>>"
+    "context": "<<POS:00817797>> addButton(0,\"Lap Ride\",(function(){return vaginaRouter(e.giveKaseALapRideHeDeservesIt,e.cockVolume(0),1,0,!0)}),\"Lap Ride\",\"Ride Kase’s lap, giving him some thigh sex and something more.\")"
   },
   {
-    "key": "button|Blowjob|4ca3a0d57573",
+    "key": "button.hover|Lap_Ride|8e608a74b131",
+    "original": "Lap Ride",
+    "translation": "",
+    "context": "<<POS:00817897>> addButton(0,\"Lap Ride\",(function(){return vaginaRouter(e.giveKaseALapRideHeDeservesIt,e.cockVolume(0),1,0,!0)}),\"Lap Ride\",\"Ride Kase’s lap, giving him some thigh sex and something more.\")"
+  },
+  {
+    "key": "button.tooltip|Ride_Kase_s_lap_giving_him_some_thigh_sex_and_something_more|0ec40f1a2601",
+    "original": "Ride Kase’s lap, giving him some thigh sex and something more.",
+    "translation": "",
+    "context": "<<POS:00817908>> addButton(0,\"Lap Ride\",(function(){return vaginaRouter(e.giveKaseALapRideHeDeservesIt,e.cockVolume(0),1,0,!0)}),\"Lap Ride\",\"Ride Kase’s lap, giving him some thigh sex and something more.\")"
+  },
+  {
+    "key": "button|Blowjob|b03b71862348",
     "original": "Blowjob",
     "translation": "",
-    "context": "<<POS:00817986>>"
+    "context": "<<POS:00817986>> addButton(1,\"Blowjob\",this.giveKaseAHelpfulBlowjob,\"Give Blowjob\",\"A blowjob is every good kitty boy’s reward.\")"
   },
   {
-    "key": "output|Mehhhh_Against_your_better_sexier_judgment_you_ll_come_back_l|4a1f2bd46eae",
+    "key": "button.hover|Give_Blowjob|6b20893fddae",
+    "original": "Give Blowjob",
+    "translation": "",
+    "context": "<<POS:00818025>> addButton(1,\"Blowjob\",this.giveKaseAHelpfulBlowjob,\"Give Blowjob\",\"A blowjob is every good kitty boy’s reward.\")"
+  },
+  {
+    "key": "button.tooltip|A_blowjob_is_every_good_kitty_boy_s_reward|db2b79c1bd20",
+    "original": "A blowjob is every good kitty boy’s reward.",
+    "translation": "",
+    "context": "<<POS:00818040>> addButton(1,\"Blowjob\",this.giveKaseAHelpfulBlowjob,\"Give Blowjob\",\"A blowjob is every good kitty boy’s reward.\")"
+  },
+  {
+    "key": "output|Mehhhh_Against_your_better_sexier_judgment_you_ll_come_back_l|58e1e6847b10",
     "original": "Mehhhh. Against your better, sexier judgment, you’ll come back later. Something tells you he’s gonna ruin the mood if you try right now. <i>“Can’t help, sorrryyy!”</i>",
     "translation": "",
     "context": "<<POS:00818238>>"
@@ -834,22 +864,22 @@
     "context": "<<POS:00818477>>"
   },
   {
-    "key": "output|n_n_i_Oh_okay_i_Kase_smiles_immediately_refocusing_on_hi|90ea151141e9",
-    "original": "\\n\\n<i>“Oh, okay,”</i> Kase smiles, immediately refocusing on his job. You can almost see the weight on his shoulders from here. <i>“Hopefully I’ll get this done soon. If not, I may just have to take a break.”</i>",
+    "key": "output|i_Oh_okay_i_Kase_smiles_immediately_refocusing_on_his_jo|79b43a789af3",
+    "original": "<i>“Oh, okay,”</i> Kase smiles, immediately refocusing on his job. You can almost see the weight on his shoulders from here. <i>“Hopefully I’ll get this done soon. If not, I may just have to take a break.”</i>",
     "translation": "",
-    "context": "<<POS:00818610>>"
+    "context": "<<POS:00818614>>"
   },
   {
-    "key": "output|n_nLeaving_him_to_it_you_step_out|7cb02808493e",
-    "original": "\\n\\nLeaving him to it, you step out.",
+    "key": "output|Leaving_him_to_it_you_step_out|84b9b48264d2",
+    "original": "Leaving him to it, you step out.",
     "translation": "",
-    "context": "<<POS:00818834>>"
+    "context": "<<POS:00818838>>"
   },
   {
-    "key": "button|Next|21b88901a9a0",
+    "key": "button|Next|d69340872a1f",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00818982>>"
+    "context": "<<POS:00818982>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|Kase_s_slitted_eyes_follow_your_approaching_sashay_with_great_in|1ebf744805f8",
@@ -894,10 +924,10 @@
     "context": "<<POS:00819818>>"
   },
   {
-    "key": "output|n_n_i_O_Oh_I_understand_Captain_i_He_starts_to_blush|aeff6786f6a5",
-    "original": "\\n\\n<i>“O-Oh... I understand, Captain.”</i> He starts to blush, fiercely; his slim arms tense. Arousal coalesces in his groin, forming into a prominent bulge of leaking kitty-meat. Led on by your control, Kase locks tongues with you, purring instantly, ears twitching, tails swishing around for a handhold. With the taste of effete kaithrit on your [pc.lipsChaste], you give him a strip tease, bending and twisting as your [pc.gear] comes off in single pieces, gradually revealing the bare \"+pc.mf(\"expanse\",\"beauty\")+\" of your [pc.skinFurScales].",
+    "key": "output|i_O_Oh_I_understand_Captain_i_He_starts_to_blush_fier|ab8d11dc2a81",
+    "original": "<i>“O-Oh... I understand, Captain.”</i> He starts to blush, fiercely; his slim arms tense. Arousal coalesces in his groin, forming into a prominent bulge of leaking kitty-meat. Led on by your control, Kase locks tongues with you, purring instantly, ears twitching, tails swishing around for a handhold. With the taste of effete kaithrit on your [pc.lipsChaste], you give him a strip tease, bending and twisting as your [pc.gear] comes off in single pieces, gradually revealing the bare \"+pc.mf(\"expanse\",\"beauty\")+\" of your [pc.skinFurScales].",
     "translation": "",
-    "context": "<<POS:00819912>>"
+    "context": "<<POS:00819916>>"
   },
   {
     "key": "output|Most_of_his_time_is_spent_gazing_at_your_pc_breasts_watching|63d3dfefb3ec",
@@ -930,10 +960,10 @@
     "context": "<<POS:00821147>>"
   },
   {
-    "key": "output|n_n_i_T_T_That_s_really_nice_i_Kase_praises_in_that_famili|0d8d270d516b",
-    "original": "\\n\\n<i>“T-T-That’s really nice,”</i> Kase praises in that familiar bashful tone; he gets more into the show. Fidgety fingers relax at his sides, opening up new teasing potential. [pc.Walking] forward and pivoting, you abruptly seat your [pc.butts] on his lap, rubbing against the top of his knees, peeking over to memorize every adorable face he makes",
+    "key": "output|i_T_T_That_s_really_nice_i_Kase_praises_in_that_familiar_b|584c86b59e58",
+    "original": "<i>“T-T-That’s really nice,”</i> Kase praises in that familiar bashful tone; he gets more into the show. Fidgety fingers relax at his sides, opening up new teasing potential. [pc.Walking] forward and pivoting, you abruptly seat your [pc.butts] on his lap, rubbing against the top of his knees, peeking over to memorize every adorable face he makes",
     "translation": "",
-    "context": "<<POS:00821290>>"
+    "context": "<<POS:00821294>>"
   },
   {
     "key": "output|as_your_pc_tails_weave_pc_hasTails_s_about_his_to|ced6f8f97f44",
@@ -942,10 +972,10 @@
     "context": "<<POS:00821676>>"
   },
   {
-    "key": "output|n_n_i_A_Ah_i_he_reflexively_grabs_hold_of_your_backside_h|4c4c7e5f1bdb",
-    "original": "\\n\\n<i>“A-Ah!”</i> he reflexively grabs hold of your backside, hands",
+    "key": "output|i_A_Ah_i_he_reflexively_grabs_hold_of_your_backside_hands|ae815ba1e129",
+    "original": "<i>“A-Ah!”</i> he reflexively grabs hold of your backside, hands",
     "translation": "",
-    "context": "<<POS:00821847>>"
+    "context": "<<POS:00821851>>"
   },
   {
     "key": "output|digging|8fd5ca8aa80c",
@@ -990,10 +1020,10 @@
     "context": "<<POS:00822663>>"
   },
   {
-    "key": "output|n_n_i_pc_name_i_He_elongates_every_letter_of_your_name|1bf1eadfea0e",
-    "original": "\\n\\n<i>“[pc.name]...”</i> He elongates every letter of your name in a blissful daze, hardening against your [pc.skinFurScalesNoun]. A couple moments later, he’s panting and gasping. Both of his sage-green tails ring your [pc.thigh], gripping tight. <i>“I-If you...”</i> Fangs glint as he bites back orgasm for the second time.",
+    "key": "output|i_pc_name_i_He_elongates_every_letter_of_your_name_in|662ac17d3ce6",
+    "original": "<i>“[pc.name]...”</i> He elongates every letter of your name in a blissful daze, hardening against your [pc.skinFurScalesNoun]. A couple moments later, he’s panting and gasping. Both of his sage-green tails ring your [pc.thigh], gripping tight. <i>“I-If you...”</i> Fangs glint as he bites back orgasm for the second time.",
     "translation": "",
-    "context": "<<POS:00823107>>"
+    "context": "<<POS:00823111>>"
   },
   {
     "key": "output|Lifting_your_faun_half_from_his_body_you_twist_around_and_lay|03f52e52b183",
@@ -1008,10 +1038,10 @@
     "context": "<<POS:00823698>>"
   },
   {
-    "key": "output|n_nFinding_the_zipper_to_his_suit_you_yank_the_fastener_unvei|78826157084f",
-    "original": "\\n\\nFinding the zipper to his suit, you yank the fastener, unveiling his understated frame in all its sweat-slick detail. Black cloth peels away from the eye-catching curves of his hips and thighs, releasing the nine turgid inches of his spined cock and all the sexual musk you’d coaxed out of him up ‘til now.",
+    "key": "output|Finding_the_zipper_to_his_suit_you_yank_the_fastener_unveiling|14a022a6f184",
+    "original": "Finding the zipper to his suit, you yank the fastener, unveiling his understated frame in all its sweat-slick detail. Black cloth peels away from the eye-catching curves of his hips and thighs, releasing the nine turgid inches of his spined cock and all the sexual musk you’d coaxed out of him up ‘til now.",
     "translation": "",
-    "context": "<<POS:00823898>>"
+    "context": "<<POS:00823902>>"
   },
   {
     "key": "output|You_breathe_deeply_of_it_letting_out_a_dreamy_moan_as_you_fina|e576ebd4dd3d",
@@ -1032,31 +1062,55 @@
     "context": "<<POS:00824543>>"
   },
   {
-    "key": "output|n_nKase_s_soulful_eyes_are_on_yours_mustering_up_the_strength|c9a90184f56c",
-    "original": "\\n\\nKase’s soulful eyes are on yours, mustering up the strength to respond. <i>“Y-Yes, please. Whatever you’d like C-Captain...”</i> As quickly as they concentrated, they glaze over, rolling back along with his head. The subby, petite boy in your embrace purrs and whimpers his approval. He’d be happy with a handie, but you can do better than that.",
+    "key": "output|Kase_s_soulful_eyes_are_on_yours_mustering_up_the_strength_to_r|9d67eee2a133",
+    "original": "Kase’s soulful eyes are on yours, mustering up the strength to respond. <i>“Y-Yes, please. Whatever you’d like C-Captain...”</i> As quickly as they concentrated, they glaze over, rolling back along with his head. The subby, petite boy in your embrace purrs and whimpers his approval. He’d be happy with a handie, but you can do better than that.",
     "translation": "",
-    "context": "<<POS:00824770>>"
+    "context": "<<POS:00824774>>"
   },
   {
-    "key": "output|n_nThe_question_is_what_will_you_do|09fc4e25906f",
-    "original": "\\n\\nThe question is - what will you do?",
+    "key": "output|The_question_is_what_will_you_do|1386fb6a531a",
+    "original": "The question is - what will you do?",
     "translation": "",
-    "context": "<<POS:00825130>>"
+    "context": "<<POS:00825134>>"
   },
   {
-    "key": "button|Lap_Ride|50e123f09ce6",
+    "key": "button|Lap_Ride|2302c2f7c2e4",
     "original": "Lap Ride",
     "translation": "",
-    "context": "<<POS:00825213>>"
+    "context": "<<POS:00825213>> addButton(0,\"Lap Ride\",(function(){return vaginaRouter(e.giveKaseALapRideHeDeservesIt,e.cockVolume(0),1,0,!0)}),\"Lap Ride\",\"Ride Kase’s lap, giving him some thigh sex and something more.\")"
   },
   {
-    "key": "button|Blowjob|4ca3a0d57573#1",
+    "key": "button.hover|Lap_Ride|2302c2f7c2e4",
+    "original": "Lap Ride",
+    "translation": "",
+    "context": "<<POS:00825313>> addButton(0,\"Lap Ride\",(function(){return vaginaRouter(e.giveKaseALapRideHeDeservesIt,e.cockVolume(0),1,0,!0)}),\"Lap Ride\",\"Ride Kase’s lap, giving him some thigh sex and something more.\")"
+  },
+  {
+    "key": "button.tooltip|Ride_Kase_s_lap_giving_him_some_thigh_sex_and_something_more|8d73e6364f04",
+    "original": "Ride Kase’s lap, giving him some thigh sex and something more.",
+    "translation": "",
+    "context": "<<POS:00825324>> addButton(0,\"Lap Ride\",(function(){return vaginaRouter(e.giveKaseALapRideHeDeservesIt,e.cockVolume(0),1,0,!0)}),\"Lap Ride\",\"Ride Kase’s lap, giving him some thigh sex and something more.\")"
+  },
+  {
+    "key": "button|Blowjob|b03b71862348#1",
     "original": "Blowjob",
     "translation": "",
-    "context": "<<POS:00825402>>"
+    "context": "<<POS:00825402>> addButton(1,\"Blowjob\",this.giveKaseAHelpfulBlowjob,\"Give Blowjob\",\"A blowjob is every good kitty boy’s reward.\")"
   },
   {
-    "key": "output|As_your_pc_butts_caress_the_warm_slickness_of_Kase_s_cock_hot|9954ae0f8ad0",
+    "key": "button.hover|Give_Blowjob|6b20893fddae#1",
+    "original": "Give Blowjob",
+    "translation": "",
+    "context": "<<POS:00825441>> addButton(1,\"Blowjob\",this.giveKaseAHelpfulBlowjob,\"Give Blowjob\",\"A blowjob is every good kitty boy’s reward.\")"
+  },
+  {
+    "key": "button.tooltip|A_blowjob_is_every_good_kitty_boy_s_reward|db2b79c1bd20#1",
+    "original": "A blowjob is every good kitty boy’s reward.",
+    "translation": "",
+    "context": "<<POS:00825456>> addButton(1,\"Blowjob\",this.giveKaseAHelpfulBlowjob,\"Give Blowjob\",\"A blowjob is every good kitty boy’s reward.\")"
+  },
+  {
+    "key": "output|As_your_pc_butts_caress_the_warm_slickness_of_Kase_s_cock_hot|992b3f5ec66d",
     "original": "As your [pc.butts] caress the warm slickness of Kase’s cock, hot precum",
     "translation": "",
     "context": "<<POS:00825676>>"
@@ -1086,16 +1140,16 @@
     "context": "<<POS:00825957>>"
   },
   {
-    "key": "output|n_nIf_that_s_the_case_you_re_happy_to_slow_it_down|e2bc993a4beb",
-    "original": "\\n\\nIf that’s the case, you’re happy to slow it down.",
+    "key": "output|If_that_s_the_case_you_re_happy_to_slow_it_down|f43ea43632a2",
+    "original": "If that’s the case, you’re happy to slow it down.",
     "translation": "",
-    "context": "<<POS:00826172>>"
+    "context": "<<POS:00826176>>"
   },
   {
-    "key": "output|n_nAnd_give_him_something_else_to_think_about_Straddling_him_i|b86f5b9d0df6",
-    "original": "\\n\\nAnd give him something else to think about. Straddling him is out of the question, but you can still ride his lap. Twisting your ‘tauric form around, you smush Kase’s crotch under your [pc.ass], watching him wiggle in delight as he adjusts to the sudden pressure of your ",
+    "key": "output|And_give_him_something_else_to_think_about_Straddling_him_is_ou|0b5f3da4c7ff",
+    "original": "And give him something else to think about. Straddling him is out of the question, but you can still ride his lap. Twisting your ‘tauric form around, you smush Kase’s crotch under your [pc.ass], watching him wiggle in delight as he adjusts to the sudden pressure of your ",
     "translation": "",
-    "context": "<<POS:00826249>>"
+    "context": "<<POS:00826253>>"
   },
   {
     "key": "output|firm_backside|d3b48c793d92",
@@ -1134,10 +1188,10 @@
     "context": "<<POS:00827069>>"
   },
   {
-    "key": "output|n_nAnd_simultaneously_raise_the_stakes_Lifting_up_and_spreadin|1c1963fff924",
-    "original": "\\n\\nAnd simultaneously raise the stakes. Lifting up and spreading your [pc.thighs], you thread the kitty-boy’s shaft between the ",
+    "key": "output|And_simultaneously_raise_the_stakes_Lifting_up_and_spreading_yo|105b6d0205f4",
+    "original": "And simultaneously raise the stakes. Lifting up and spreading your [pc.thighs], you thread the kitty-boy’s shaft between the ",
     "translation": "",
-    "context": "<<POS:00827441>>"
+    "context": "<<POS:00827445>>"
   },
   {
     "key": "output|firm|1a211f198898",
@@ -1206,10 +1260,10 @@
     "context": "<<POS:00828661>>"
   },
   {
-    "key": "output|n_nHis_inhibitions_completely_gone_and_your_pc_isTaur_ass|66621883e36a",
-    "original": "\\n\\nHis inhibitions completely gone and your \"+(pc.isTaur()?\"ass crack\":\"inner thighs\")+\" curtained in pre, the subdued kaithrit lets out a gasping sigh. Shifting around, swinging your hips up, you present the boy with your [pc.vagOrAss \"+e+\"], polished with his own gloopy anticipation. With a gentle rock, you signal your desire and he complies, burying his face into your \"+(e>=0?\"muff\":\"taint\")+\". The slightly-rough texture of his tongue drags over your hole",
+    "key": "output|His_inhibitions_completely_gone_and_your_pc_isTaur_ass_cra|35445d8e34e2",
+    "original": "His inhibitions completely gone and your \"+(pc.isTaur()?\"ass crack\":\"inner thighs\")+\" curtained in pre, the subdued kaithrit lets out a gasping sigh. Shifting around, swinging your hips up, you present the boy with your [pc.vagOrAss \"+e+\"], polished with his own gloopy anticipation. With a gentle rock, you signal your desire and he complies, burying his face into your \"+(e>=0?\"muff\":\"taint\")+\". The slightly-rough texture of his tongue drags over your hole",
     "translation": "",
-    "context": "<<POS:00828971>>"
+    "context": "<<POS:00828975>>"
   },
   {
     "key": "output|smoothing_out_the_wrinkles_of_your_sphincter_his_drooling_org|702209b971e5",
@@ -1242,13 +1296,7 @@
     "context": "<<POS:00830183>>"
   },
   {
-    "key": "output|n_n|c6a77a035646",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:00830524>>"
-  },
-  {
-    "key": "output|i_Aaaalrighty_i_you_announce_pulling_yourself_off_the_hun|93e475130c9f",
+    "key": "output|i_Aaaalrighty_i_you_announce_pulling_yourself_off_the_hun|b56c2639bc9f",
     "original": "<i>“Aaaalrighty,”</i> you announce, pulling yourself off the hungry cat. <i>“Ready for the ride of a lifetime?”</i>",
     "translation": "",
     "context": "<<POS:00830552>>"
@@ -1266,16 +1314,16 @@
     "context": "<<POS:00830823>>"
   },
   {
-    "key": "output|n_nKase_s_cock_tip_kisses_the_intense_heat_of_your_pc_vagOrAss|b4eee47d810f",
-    "original": "\\n\\nKase’s cock-tip kisses the intense heat of your [pc.vagOrAssNoun \"+e+\"], sliding slowly against the soft, lust-slick surface. At your mercy, he’s panting and twitching all the harder; restless animal pleasure overwhelms his nervous system as you delight in his defenseless, spasming closeness. <i>“Please...”</i> he begs, his voice lilting subserviently.",
+    "key": "output|Kase_s_cock_tip_kisses_the_intense_heat_of_your_pc_vagOrAssNoun|bf47d781b45c",
+    "original": "Kase’s cock-tip kisses the intense heat of your [pc.vagOrAssNoun \"+e+\"], sliding slowly against the soft, lust-slick surface. At your mercy, he’s panting and twitching all the harder; restless animal pleasure overwhelms his nervous system as you delight in his defenseless, spasming closeness. <i>“Please...”</i> he begs, his voice lilting subserviently.",
     "translation": "",
-    "context": "<<POS:00830998>>"
+    "context": "<<POS:00831002>>"
   },
   {
-    "key": "output|n_nNot_quite_yet_Plapping_against_his_shaft_your_pc_pussy|34e92b7d140b",
-    "original": "\\n\\nNot quite yet. ‘Plapping’ against his shaft, your [pc.pussy \"+e+\"] soaks his girth in its torrid juices, sliding up and down the full length until he’s thoroughly sopped.",
+    "key": "output|Not_quite_yet_Plapping_against_his_shaft_your_pc_pussy_e|84bf75861677",
+    "original": "Not quite yet. ‘Plapping’ against his shaft, your [pc.pussy \"+e+\"] soaks his girth in its torrid juices, sliding up and down the full length until he’s thoroughly sopped.",
     "translation": "",
-    "context": "<<POS:00831373>>"
+    "context": "<<POS:00831377>>"
   },
   {
     "key": "output|Your_extra_chubby_vulva_swallows_him_up_into_the_rubby_engorge|276e40c809b0",
@@ -1290,10 +1338,10 @@
     "context": "<<POS:00831793>>"
   },
   {
-    "key": "output|n_n_i_pc_name_i_Kase_quavers_his_flexing_cock_sliding|4e26cd33fc02",
-    "original": "\\n\\n<i>“[pc.name]...”</i> Kase quavers, his flexing cock sliding right through your [pc.pussyNoun \"+e+\"] and into a [pc.vaginaColor \"+e+\"] channel of copious slickness.",
+    "key": "output|i_pc_name_i_Kase_quavers_his_flexing_cock_sliding_rig|e2c1a27ab2d1",
+    "original": "<i>“[pc.name]...”</i> Kase quavers, his flexing cock sliding right through your [pc.pussyNoun \"+e+\"] and into a [pc.vaginaColor \"+e+\"] channel of copious slickness.",
     "translation": "",
-    "context": "<<POS:00831935>>"
+    "context": "<<POS:00831939>>"
   },
   {
     "key": "output|Heavenly_barbs_intrude_into_your_deliciously_tight_fuck_pocket|5d08a8dcb66e",
@@ -1320,16 +1368,16 @@
     "context": "<<POS:00833251>>"
   },
   {
-    "key": "output|n_nMore_teasing_is_in_order_There_s_no_point_in_doing_a_cute_t|848cbdc77ca3",
-    "original": "\\n\\nMore teasing is in order. There’s no point in doing a cute twink if he’s not bright red with absolute embarrassment. The smooth head of his cock shifts over your \".concat(pc.hasPlumpAsshole?\"donut\":\"rosette\",\", filling your crack with hot, bubbling pre. Kase’s barbs rub lusciously against the skin of your rear valley, flooding your mind with endorphins and his body with colon-flooding potential. Sliding up and into position, you take a breath, savoring the intensity of his erection, then letting gravity take over.\")",
+    "key": "output|More_teasing_is_in_order_There_s_no_point_in_doing_a_cute_twink|6b29efb8de89",
+    "original": "More teasing is in order. There’s no point in doing a cute twink if he’s not bright red with absolute embarrassment. The smooth head of his cock shifts over your \".concat(pc.hasPlumpAsshole?\"donut\":\"rosette\",\", filling your crack with hot, bubbling pre. Kase’s barbs rub lusciously against the skin of your rear valley, flooding your mind with endorphins and his body with colon-flooding potential. Sliding up and into position, you take a breath, savoring the intensity of his erection, then letting gravity take over.\")",
     "translation": "",
-    "context": "<<POS:00833337>>"
+    "context": "<<POS:00833341>>"
   },
   {
-    "key": "output|n_nKase_s_long_inches_sink_into_your_pc_asshole_the_barrier|c2c70756dbfd",
-    "original": "\\n\\nKase’s long inches sink into your [pc.asshole], the barrier yielding to a combination of ample lubrication and insistent pressure. <i>“Mmfngh...”</i> The kitty-boy’s sweaty body shudders, practically vibrating in the clamp of your rectum. His back arches, flexing his manhood with such enthusiasm that an image of him rutting you doggystyle comes to mind.",
+    "key": "output|Kase_s_long_inches_sink_into_your_pc_asshole_the_barrier_yiel|565477acd701",
+    "original": "Kase’s long inches sink into your [pc.asshole], the barrier yielding to a combination of ample lubrication and insistent pressure. <i>“Mmfngh...”</i> The kitty-boy’s sweaty body shudders, practically vibrating in the clamp of your rectum. His back arches, flexing his manhood with such enthusiasm that an image of him rutting you doggystyle comes to mind.",
     "translation": "",
-    "context": "<<POS:00833872>>"
+    "context": "<<POS:00833876>>"
   },
   {
     "key": "output|The_slender_breeding_mass_shimmying_into_your_backside_is_utter|00fdeb185333",
@@ -1356,34 +1404,34 @@
     "context": "<<POS:00835026>>"
   },
   {
-    "key": "output|n_nDense_bulging_meat_steadily_pumps_your_pc_vagOrAssNoun_e|90db44119f07",
-    "original": "\\n\\nDense, bulging meat steadily pumps your [pc.vagOrAssNoun \"+e+\"], the peak oozing a thickening outflow. You can feel his feline fatness gliding between rippling, suckling walls, awash in reproductive bliss. <i>“It’s too good...”</i> Kase whines, surging forward on a strength and will not his own, and then again, thrusting fiercely home, making you sing with joy and provoke him with more twisting and writhing. Getting filled with a thick, twitching dick is wonderful, but there’s an unnameable sensation about it being Kase’s.",
+    "key": "output|Dense_bulging_meat_steadily_pumps_your_pc_vagOrAssNoun_e|ffa6069bcb05",
+    "original": "Dense, bulging meat steadily pumps your [pc.vagOrAssNoun \"+e+\"], the peak oozing a thickening outflow. You can feel his feline fatness gliding between rippling, suckling walls, awash in reproductive bliss. <i>“It’s too good...”</i> Kase whines, surging forward on a strength and will not his own, and then again, thrusting fiercely home, making you sing with joy and provoke him with more twisting and writhing. Getting filled with a thick, twitching dick is wonderful, but there’s an unnameable sensation about it being Kase’s.",
     "translation": "",
-    "context": "<<POS:00835292>>"
+    "context": "<<POS:00835296>>"
   },
   {
-    "key": "output|n_nEcstasy_tingles_up_your_spine_syrupy_wetness_dribbles_form|570462a3d773",
-    "original": "\\n\\nEcstasy tingles up your spine; syrupy wetness dribbles form your \"+(e>=0?\"quim\":\"rectum\")+\". <i>“Hey,”</i> you call, peeking back, [pc.fingers] finding his cute ears. <i>“Spank me.”</i>",
+    "key": "output|Ecstasy_tingles_up_your_spine_syrupy_wetness_dribbles_form_your|59fd9f0e6f85",
+    "original": "Ecstasy tingles up your spine; syrupy wetness dribbles form your \"+(e>=0?\"quim\":\"rectum\")+\". <i>“Hey,”</i> you call, peeking back, [pc.fingers] finding his cute ears. <i>“Spank me.”</i>",
     "translation": "",
-    "context": "<<POS:00835835>>"
+    "context": "<<POS:00835839>>"
   },
   {
-    "key": "output|n_n_i_W_What_i_he_blurts|c61c4ce60b67",
-    "original": "\\n\\n<i>“W-What?”</i> he blurts.",
+    "key": "output|i_W_What_i_he_blurts|9ba26fd8b6a4",
+    "original": "<i>“W-What?”</i> he blurts.",
     "translation": "",
-    "context": "<<POS:00836064>>"
+    "context": "<<POS:00836068>>"
   },
   {
-    "key": "output|n_nHe_s_already_got_his_hands_on_your_pc_ass_It_ll_be_fine|c18ef15e6a3f",
-    "original": "\\n\\nHe’s already got his hands on your [pc.ass]. It’ll be fine. One warm, tiny hand smacking into your [pc.skinFurScales] will feel better than he could ever know.",
+    "key": "output|He_s_already_got_his_hands_on_your_pc_ass_It_ll_be_fine_One|a4f3e0ed96c6",
+    "original": "He’s already got his hands on your [pc.ass]. It’ll be fine. One warm, tiny hand smacking into your [pc.skinFurScales] will feel better than he could ever know.",
     "translation": "",
-    "context": "<<POS:00836106>>"
+    "context": "<<POS:00836110>>"
   },
   {
-    "key": "output|n_n_i_I_If_you_say_so_pc_name_i_he_murmurs_working_up|244a84134626",
-    "original": "\\n\\n<i>“I-If you say so, [pc.name],”</i> he murmurs, working up the courage to give you what you want. Blunt-clawed nails rake across your",
+    "key": "output|i_I_If_you_say_so_pc_name_i_he_murmurs_working_up_the|a74026a4547d",
+    "original": "<i>“I-If you say so, [pc.name],”</i> he murmurs, working up the courage to give you what you want. Blunt-clawed nails rake across your",
     "translation": "",
-    "context": "<<POS:00836280>>"
+    "context": "<<POS:00836284>>"
   },
   {
     "key": "output|thumping|e104c62e2e7b",
@@ -1422,22 +1470,22 @@
     "context": "<<POS:00837069>>"
   },
   {
-    "key": "output|n_n_i_A_Again_i_he_asks|bac947836034",
-    "original": "\\n\\n<i>“A-Again?”</i> he asks.",
+    "key": "output|i_A_Again_i_he_asks|0417dbdf3e19",
+    "original": "<i>“A-Again?”</i> he asks.",
     "translation": "",
-    "context": "<<POS:00837205>>"
+    "context": "<<POS:00837209>>"
   },
   {
-    "key": "output|n_nWhy_not_He_loved_it_the_first_time_and_he_knows_it_s_i_ex|a3315eebb0af",
-    "original": "\\n\\nWhy not? He loved it the first time, and he knows it’s <i>exactly</i> what you like. The acquiescent kaithrit rubs a palm over the fattest part of your [pc.ass], his logistics training having given him an eye for where you’re most sensitive.",
+    "key": "output|Why_not_He_loved_it_the_first_time_and_he_knows_it_s_i_exactl|e191f4981e23",
+    "original": "Why not? He loved it the first time, and he knows it’s <i>exactly</i> what you like. The acquiescent kaithrit rubs a palm over the fattest part of your [pc.ass], his logistics training having given him an eye for where you’re most sensitive.",
     "translation": "",
-    "context": "<<POS:00837246>>"
+    "context": "<<POS:00837250>>"
   },
   {
-    "key": "output|n_n_i_I_hope_it_s_okay_i_he_smiles_raising_an_open_palmed|41db4e16d0c4",
-    "original": "\\n\\n<i>“I hope it’s okay,”</i> he smiles, raising an open-palmed hand and cracking you in <i>that</i> spot. The blow sends waves of pure, orgasmic feedback through your nervous system, robbing your [pc.hips] of muscle control and triggering a",
+    "key": "output|i_I_hope_it_s_okay_i_he_smiles_raising_an_open_palmed_han|dee69c758f3a",
+    "original": "<i>“I hope it’s okay,”</i> he smiles, raising an open-palmed hand and cracking you in <i>that</i> spot. The blow sends waves of pure, orgasmic feedback through your nervous system, robbing your [pc.hips] of muscle control and triggering a",
     "translation": "",
-    "context": "<<POS:00837502>>"
+    "context": "<<POS:00837506>>"
   },
   {
     "key": "output|deluge_of_pc_girlCum|83da74028079",
@@ -1458,10 +1506,10 @@
     "context": "<<POS:00837885>>"
   },
   {
-    "key": "output|n_nYou_train_him_to_slap_you_square_on_the_pc_butts_if_you_te|51f1238d7cc1",
-    "original": "\\n\\nYou train him to slap you square on the [pc.butts] if you tease him, and so you condition the response: he paws at your flanks like a cat playing with yarn before surprising you with a slap of fervent intent, the vibrations feeding into his pistoning member. Trickles of delight shimmer out of your reshaped passage, packed wonderfully by formidable boy’s dick. He’s lovely, he really is.",
+    "key": "output|You_train_him_to_slap_you_square_on_the_pc_butts_if_you_tease|eae42fa0e1e7",
+    "original": "You train him to slap you square on the [pc.butts] if you tease him, and so you condition the response: he paws at your flanks like a cat playing with yarn before surprising you with a slap of fervent intent, the vibrations feeding into his pistoning member. Trickles of delight shimmer out of your reshaped passage, packed wonderfully by formidable boy’s dick. He’s lovely, he really is.",
     "translation": "",
-    "context": "<<POS:00838311>>"
+    "context": "<<POS:00838315>>"
   },
   {
     "key": "output|He_gets_far_more_into_the_act_of_owning_your_cunt_after_its_ven|dd0516a9edde",
@@ -1488,16 +1536,16 @@
     "context": "<<POS:00839755>>"
   },
   {
-    "key": "output|n_nDizzy_from_the_pressure_of_riding_a_kitty_boy_s_lap_of_bein|ac6c4eb7b9c4",
-    "original": "\\n\\nDizzy from the pressure of riding a kitty boy’s lap, of being spanked by your own subby crew-boy when you act out, your [pc.tongue] emerges from your mouth, slathering meat lolling as you get ready for a Tamani-flavored photoshoot. The way Kase slaps your rump isn’t even forceful, it’s playful. Like the soft, anticipatory caress of a riding crop across vulnerable flesh... but it’s his energy, how it nicely complements the non-stop \"+(e>=0?\"fucking\":\"reaming\")+\" you’re taking.",
+    "key": "output|Dizzy_from_the_pressure_of_riding_a_kitty_boy_s_lap_of_being_sp|771b06342cd3",
+    "original": "Dizzy from the pressure of riding a kitty boy’s lap, of being spanked by your own subby crew-boy when you act out, your [pc.tongue] emerges from your mouth, slathering meat lolling as you get ready for a Tamani-flavored photoshoot. The way Kase slaps your rump isn’t even forceful, it’s playful. Like the soft, anticipatory caress of a riding crop across vulnerable flesh... but it’s his energy, how it nicely complements the non-stop \"+(e>=0?\"fucking\":\"reaming\")+\" you’re taking.",
     "translation": "",
-    "context": "<<POS:00840147>>"
+    "context": "<<POS:00840151>>"
   },
   {
-    "key": "output|n_nLosing_feel_in_your_pc_legOrLegs_you_slouch_back_and_sett|1bd3480c5282",
-    "original": "\\n\\nLosing feel in your [pc.legOrLegs], you slouch back and settle your [pc.hips] onto Kase’s lap. The hot glow of your ass makes you wiggle in delight as you adjust to the prickling smush. The quick-witted kitten throws his arms around your waist, keeping the chair from tipping. <i>“Captain...”</i> he purrs - literally. Humping is cast aside for long moments of balls-deep grinding, and already you love this more, making out passionately with your lover, his dick stuffed so deep in there, his heartbeat throbbing through your pelvis.",
+    "key": "output|Losing_feel_in_your_pc_legOrLegs_you_slouch_back_and_settle_y|b4e1f0786176",
+    "original": "Losing feel in your [pc.legOrLegs], you slouch back and settle your [pc.hips] onto Kase’s lap. The hot glow of your ass makes you wiggle in delight as you adjust to the prickling smush. The quick-witted kitten throws his arms around your waist, keeping the chair from tipping. <i>“Captain...”</i> he purrs - literally. Humping is cast aside for long moments of balls-deep grinding, and already you love this more, making out passionately with your lover, his dick stuffed so deep in there, his heartbeat throbbing through your pelvis.",
     "translation": "",
-    "context": "<<POS:00840642>>"
+    "context": "<<POS:00840646>>"
   },
   {
     "key": "output|Ambitious_palms_find_your_pc_breasts_discover_their_softness|e70a2ef52f37",
@@ -1518,22 +1566,22 @@
     "context": "<<POS:00841447>>"
   },
   {
-    "key": "output|n_nFollowing_a_gasp_Kase_hisses_into_your_neck_i_I_m_going|2d948ce1a9fc",
-    "original": "\\n\\nFollowing a gasp, Kase hisses into your neck, <i>“I’m going to cum... [pc.name]...”</i>",
+    "key": "output|Following_a_gasp_Kase_hisses_into_your_neck_i_I_m_going_to_c|c25d319bf904",
+    "original": "Following a gasp, Kase hisses into your neck, <i>“I’m going to cum... [pc.name]...”</i>",
     "translation": "",
-    "context": "<<POS:00841577>>"
+    "context": "<<POS:00841581>>"
   },
   {
-    "key": "output|n_nEncased_in_your_soft_and_slippery_pc_vagOrAssNoun_e_K|8ccd75982801",
-    "original": "\\n\\nEncased in your soft and slippery [pc.vagOrAssNoun \"+e+\"], Kase’s lust is about to crown. His seed is about to pour into you. Curling forwards, you <i>’thwap!’</i> your bobbling buttocks atop his lap, determined to pound the two of you towards the peak. He would never say it, but he wants you to go faster. From the red look of lusty joy on his face, he wants it <i>harder.</i> Heaving back, you plant his mast inside once more, launching into a sustained velocity that only ends when you feel the initial spurt of cum.",
+    "key": "output|Encased_in_your_soft_and_slippery_pc_vagOrAssNoun_e_Kase|4fb5ae90ba13",
+    "original": "Encased in your soft and slippery [pc.vagOrAssNoun \"+e+\"], Kase’s lust is about to crown. His seed is about to pour into you. Curling forwards, you <i>’thwap!’</i> your bobbling buttocks atop his lap, determined to pound the two of you towards the peak. He would never say it, but he wants you to go faster. From the red look of lusty joy on his face, he wants it <i>harder.</i> Heaving back, you plant his mast inside once more, launching into a sustained velocity that only ends when you feel the initial spurt of cum.",
     "translation": "",
-    "context": "<<POS:00841679>>"
+    "context": "<<POS:00841683>>"
   },
   {
-    "key": "output|n_nEverything_slows_down_you_gasp_that_pulsing_cock_bowing_an|dd270003a51a",
-    "original": "\\n\\nEverything slows down; you gasp, that pulsing cock bowing and then flexing, firing out ropes of kaithrit jizz into your \"+(e>=0?\"womb\":\"intestines\")+\". The tips of Kase’s claws dig into your [pc.butts], lavishing your quivering form with utmost affection, spurting and crying out at the top of his lungs, his head thrown all the way back. Boiling jism floods into your slickened \"+(e>=0?\"vagina\":\"cavern\")+\", feeding your desires with splashing gouts of seed, nestled so deep that you can feel the cushiony contractions of his nutsack.",
+    "key": "output|Everything_slows_down_you_gasp_that_pulsing_cock_bowing_and_th|abacbfe75447",
+    "original": "Everything slows down; you gasp, that pulsing cock bowing and then flexing, firing out ropes of kaithrit jizz into your \"+(e>=0?\"womb\":\"intestines\")+\". The tips of Kase’s claws dig into your [pc.butts], lavishing your quivering form with utmost affection, spurting and crying out at the top of his lungs, his head thrown all the way back. Boiling jism floods into your slickened \"+(e>=0?\"vagina\":\"cavern\")+\", feeding your desires with splashing gouts of seed, nestled so deep that you can feel the cushiony contractions of his nutsack.",
     "translation": "",
-    "context": "<<POS:00842214>>"
+    "context": "<<POS:00842218>>"
   },
   {
     "key": "output|You_re_immediately_lost_to_delirium_when_a_lance_of_spoo_smashe|712d86941a27",
@@ -1548,10 +1596,10 @@
     "context": "<<POS:00843022>>"
   },
   {
-    "key": "output|n_nKase_pulls_out_but_only_a_quarter_of_an_inch_just_enough_to|e96ae0cfd69f",
-    "original": "\\n\\nKase pulls out but only a quarter of an inch, just enough to slip a finger into the gap and press your button. A single tap to the [pc.clit] turns a gradual, juicy orgasm into a sudden explosion of [pc.girlCum].",
+    "key": "output|Kase_pulls_out_but_only_a_quarter_of_an_inch_just_enough_to_sli|f33b59e920f1",
+    "original": "Kase pulls out but only a quarter of an inch, just enough to slip a finger into the gap and press your button. A single tap to the [pc.clit] turns a gradual, juicy orgasm into a sudden explosion of [pc.girlCum].",
     "translation": "",
-    "context": "<<POS:00843346>>"
+    "context": "<<POS:00843350>>"
   },
   {
     "key": "output|Dribbles_of_excitement_turn_into_tiny_pc_girlCumColor_strings|51366460e119",
@@ -1578,10 +1626,10 @@
     "context": "<<POS:00844066>>"
   },
   {
-    "key": "output|n_n_i_Ahh_ah_i_Kase_huffs_already_softened_and_slump|26779de47637",
-    "original": "\\n\\n<i>“Ahh... ah...”</i> Kase huffs, already softened and slumped in the chair. As you slowly turn, a final strand lands on your chin.",
+    "key": "output|i_Ahh_ah_i_Kase_huffs_already_softened_and_slumped_i|03fb7b0c10dd",
+    "original": "<i>“Ahh... ah...”</i> Kase huffs, already softened and slumped in the chair. As you slowly turn, a final strand lands on your chin.",
     "translation": "",
-    "context": "<<POS:00844496>>"
+    "context": "<<POS:00844500>>"
   },
   {
     "key": "output|Yum|c85562400007",
@@ -1590,16 +1638,16 @@
     "context": "<<POS:00844658>>"
   },
   {
-    "key": "output|n_n_i_T_T_Thank_you_so_much_pc_name_hff_i_The_ti|b5a314dc283c",
-    "original": "\\n\\n<i>“T-T-Thank you so much... [pc.name]... hff...”</i> The tired kitty closes his eyes, purring in his sleep. In your cloudy state of mind, all you think of doing is hefting him out of the chair and taking him to bed, guiding his his head to your [pc.chest]\"+(pc.hasBreasts()?\", your cleavage squishing over his every feature as you become his pillow and his blanket\":\"\")+\". Rest is easy to find afterward.",
+    "key": "output|i_T_T_Thank_you_so_much_pc_name_hff_i_The_tired|3bfdf50f5ede",
+    "original": "<i>“T-T-Thank you so much... [pc.name]... hff...”</i> The tired kitty closes his eyes, purring in his sleep. In your cloudy state of mind, all you think of doing is hefting him out of the chair and taking him to bed, guiding his his head to your [pc.chest]\"+(pc.hasBreasts()?\", your cleavage squishing over his every feature as you become his pillow and his blanket\":\"\")+\". Rest is easy to find afterward.",
     "translation": "",
-    "context": "<<POS:00844674>>"
+    "context": "<<POS:00844678>>"
   },
   {
     "key": "button|Next|4e065f248eff",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00845243>>"
+    "context": "<<POS:00845243>> addButton(0,\"Next\",this.kaseLapRideAfterMath)"
   },
   {
     "key": "output|You_re_the_first_to_wake_up_then_Kase_The_pleasure_of_keeping|6737c77ef67c",
@@ -1620,31 +1668,31 @@
     "context": "<<POS:00845542>>"
   },
   {
-    "key": "output|n_n_i_C_Cap_pc_name_i_Kase_whispers_hugging_you_be|0b0a9f5b071c",
-    "original": "\\n\\n<i>“C-Cap... [pc.name]...”</i> Kase whispers, hugging you before the words have even left his mouth. Forest-green tails wrap around\"+(pc.hasTail()?\" yours, squeezing with maximum pressure\":\" your torso, squeezing with desperate pressure\")+\". <i>“Thank you for staying with me; I hope I didn’t -”</i>",
+    "key": "output|i_C_Cap_pc_name_i_Kase_whispers_hugging_you_before|c217933ffc59",
+    "original": "<i>“C-Cap... [pc.name]...”</i> Kase whispers, hugging you before the words have even left his mouth. Forest-green tails wrap around\"+(pc.hasTail()?\" yours, squeezing with maximum pressure\":\" your torso, squeezing with desperate pressure\")+\". <i>“Thank you for staying with me; I hope I didn’t -”</i>",
     "translation": "",
-    "context": "<<POS:00845927>>"
+    "context": "<<POS:00845931>>"
   },
   {
-    "key": "output|n_n_i_Nothing_s_wrong_i_you_say_silencing_him_with_a_kiss|8c2393c1066a",
-    "original": "\\n\\n<i>“Nothing’s wrong,”</i> you say, silencing him with a kiss.",
+    "key": "output|i_Nothing_s_wrong_i_you_say_silencing_him_with_a_kiss|30e9b56c06f2",
+    "original": "<i>“Nothing’s wrong,”</i> you say, silencing him with a kiss.",
     "translation": "",
-    "context": "<<POS:00846241>>"
+    "context": "<<POS:00846245>>"
   },
   {
-    "key": "output|n_nAs_you_re_not_quite_ready_to_leave_yet_you_gently_usher_Kas|b772271bc6f0",
-    "original": "\\n\\nAs you’re not quite ready to leave yet, you gently usher Kase into the milkiness of your erect tap. The kitty-boy picks up eagerly on the proffered treat, taking long drags of your [pc.nipples], quietly slurping down modest gulps of nutritional [pc.milkNoun] while you pet the back of his head. Small lips suckle on the source of your liquid sustenance, splashing his taste buds in soothing cream, the kaithrit they’re attached to intoxicated by the emotional gravity. He sups from \"+(2===pc.totalNipples()?\"both nipples\":\"every nipple\")+\" before the inevitable comes to pass.",
+    "key": "output|As_you_re_not_quite_ready_to_leave_yet_you_gently_usher_Kase_in|ff6fa69fe702",
+    "original": "As you’re not quite ready to leave yet, you gently usher Kase into the milkiness of your erect tap. The kitty-boy picks up eagerly on the proffered treat, taking long drags of your [pc.nipples], quietly slurping down modest gulps of nutritional [pc.milkNoun] while you pet the back of his head. Small lips suckle on the source of your liquid sustenance, splashing his taste buds in soothing cream, the kaithrit they’re attached to intoxicated by the emotional gravity. He sups from \"+(2===pc.totalNipples()?\"both nipples\":\"every nipple\")+\" before the inevitable comes to pass.",
     "translation": "",
-    "context": "<<POS:00846335>>"
+    "context": "<<POS:00846339>>"
   },
   {
-    "key": "output|n_nHopping_out_of_bed|f9c4c66ca970",
-    "original": "\\n\\nHopping out of bed",
+    "key": "output|Hopping_out_of_bed|d26f1e0a92eb",
+    "original": "Hopping out of bed",
     "translation": "",
-    "context": "<<POS:00846926>>"
+    "context": "<<POS:00846930>>"
   },
   {
-    "key": "output|you_choose_to_slap_your_belongings_back_on_without_wiping_up|d7a1d939ca32",
+    "key": "output|you_choose_to_slap_your_belongings_back_on_without_wiping_up|d6c636c7ca0b",
     "original": ", you choose to slap your belongings back on without wiping up. Kase starts to throb when you make a slutty show of wearing his sperm like an extra layer of gear.",
     "translation": "",
     "context": "<<POS:00846988>>"
@@ -1656,22 +1704,22 @@
     "context": "<<POS:00847161>>"
   },
   {
-    "key": "output|n_nJust_before_you_leave_the_room_he_hugs_you_from_behind_i|e697c1ccce4c",
-    "original": "\\n\\nJust before you leave the room, he hugs you from behind. <i>“Thank you so much, [pc.name].”</i>",
+    "key": "output|Just_before_you_leave_the_room_he_hugs_you_from_behind_i_Tha|946f19d65d8e",
+    "original": "Just before you leave the room, he hugs you from behind. <i>“Thank you so much, [pc.name].”</i>",
     "translation": "",
-    "context": "<<POS:00847409>>"
+    "context": "<<POS:00847413>>"
   },
   {
-    "key": "output|n_nOne_more_headpat_and_it_s_back_to_business|e2ee4b721dd9",
-    "original": "\\n\\nOne more headpat, and it’s back to business.",
+    "key": "output|One_more_headpat_and_it_s_back_to_business|a1cae452904a",
+    "original": "One more headpat, and it’s back to business.",
     "translation": "",
-    "context": "<<POS:00847519>>"
+    "context": "<<POS:00847523>>"
   },
   {
-    "key": "button|Next|4e9a55a8ac87",
+    "key": "button|Next|0ef790b9083a",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00847618>>"
+    "context": "<<POS:00847618>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|Mouth_watering_you_slide_from_your_perch_atop_Kase_s_legs_to_th|10fb6b4b185e",
@@ -1704,13 +1752,7 @@
     "context": "<<POS:00848148>>"
   },
   {
-    "key": "output|n_n|9561cde6025f",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:00848322>>"
-  },
-  {
-    "key": "output|i_Awww_jus_enjoy_it_i_you_interrupt|f8934aaf0c73",
+    "key": "output|i_Awww_jus_enjoy_it_i_you_interrupt|adbb812efad0",
     "original": "<i>“Awww jus’ enjoy it!”</i> you interrupt.",
     "translation": "",
     "context": "<<POS:00848350>>"
@@ -1728,16 +1770,16 @@
     "context": "<<POS:00848476>>"
   },
   {
-    "key": "output|n_nKase_s_large_boner_despite_its_distinctly_svelte_width_sti|2d20fd8760f8",
-    "original": "\\n\\nKase’s large boner, despite its distinctly svelte width, still requires both [pc.hands] to satisfy. As your [pc.tongue] slithers up and down the taut shaft, mindful of your careful jerks, there’s the familiar salty taste of masculine spooge. Behind that is the dainty redolence of a femboy. Overlaying the two flavors is something else, something loamy and earthy tinged with something indescribably sweet - something that makes your [pc.thighs] quiver and your throat crave more of his smooth taste.",
+    "key": "output|Kase_s_large_boner_despite_its_distinctly_svelte_width_still_r|1c7dcf023181",
+    "original": "Kase’s large boner, despite its distinctly svelte width, still requires both [pc.hands] to satisfy. As your [pc.tongue] slithers up and down the taut shaft, mindful of your careful jerks, there’s the familiar salty taste of masculine spooge. Behind that is the dainty redolence of a femboy. Overlaying the two flavors is something else, something loamy and earthy tinged with something indescribably sweet - something that makes your [pc.thighs] quiver and your throat crave more of his smooth taste.",
     "translation": "",
-    "context": "<<POS:00848526>>"
+    "context": "<<POS:00848530>>"
   },
   {
-    "key": "output|n_nWringing_out_more_of_that_bubbly_goodness_is_easy_with_so_lo|699fa1884910",
-    "original": "\\n\\nWringing out more of that bubbly goodness is easy with so long a tongue. Stretched to a slavering limit, your [pc.tongue] weaves around almost the entirety of Kase’s barbed dick like a sleeve of fuckable meat. <i>“W-Wow - !!”</i> is all he can say before you squirm and tug, jerking him off only with that needy muscle, pumping fat ropes of goo into your mouth, carpeting your taste buds and drenching your palate in a kaithrit’s endless arousal.",
+    "key": "output|Wringing_out_more_of_that_bubbly_goodness_is_easy_with_so_long_a|ed5c73d6740a",
+    "original": "Wringing out more of that bubbly goodness is easy with so long a tongue. Stretched to a slavering limit, your [pc.tongue] weaves around almost the entirety of Kase’s barbed dick like a sleeve of fuckable meat. <i>“W-Wow - !!”</i> is all he can say before you squirm and tug, jerking him off only with that needy muscle, pumping fat ropes of goo into your mouth, carpeting your taste buds and drenching your palate in a kaithrit’s endless arousal.",
     "translation": "",
-    "context": "<<POS:00849086>>"
+    "context": "<<POS:00849090>>"
   },
   {
     "key": "output|i_I_I_ve_never_had_someone_do_that_for_me_before_you_re_re|2417464237bc",
@@ -1752,16 +1794,16 @@
     "context": "<<POS:00849777>>"
   },
   {
-    "key": "output|n_n_i_Uh_coursh_i_you_reply_pumping_him_with_brisk_bobs_o|bda42620ce5c",
-    "original": "\\n\\n<i>“Uh coursh!”</i> you reply, pumping him with brisk bobs of your head, squeezing him to a state of pleasant agony.",
+    "key": "output|i_Uh_coursh_i_you_reply_pumping_him_with_brisk_bobs_of_yo|72dad31ae453",
+    "original": "<i>“Uh coursh!”</i> you reply, pumping him with brisk bobs of your head, squeezing him to a state of pleasant agony.",
     "translation": "",
-    "context": "<<POS:00849954>>"
+    "context": "<<POS:00849958>>"
   },
   {
-    "key": "output|n_nIt_s_not_long_before_you_turn_your_oral_attentions_to_his_ba|cf23eb388830",
-    "original": "\\n\\nIt’s not long before you turn your oral attentions to his ballsack, the taut, moist skin begging to be slurped. Spreading your [pc.lips] into a suckling ‘O’ against one of the plump orbs, you plant a string of warm kisses on the surface of his pale pouch, glutting your cheeks on fresh sweat and minutes-old pre in noisy gulps. Lapping at his churning nuts fills your senses with an almost gourmet thrill, the samplings you’ve had of his penis blending with the relish of his weighty jewels to create a thirst-provoking savoriness that makes you \"+pc.mf(\"groan\",\"moan\")+\" into his seed-swollen ‘nads and shift gears into a long sequence of delirious ball worship.",
+    "key": "output|It_s_not_long_before_you_turn_your_oral_attentions_to_his_ballsa|1b3c9060f528",
+    "original": "It’s not long before you turn your oral attentions to his ballsack, the taut, moist skin begging to be slurped. Spreading your [pc.lips] into a suckling ‘O’ against one of the plump orbs, you plant a string of warm kisses on the surface of his pale pouch, glutting your cheeks on fresh sweat and minutes-old pre in noisy gulps. Lapping at his churning nuts fills your senses with an almost gourmet thrill, the samplings you’ve had of his penis blending with the relish of his weighty jewels to create a thirst-provoking savoriness that makes you \"+pc.mf(\"groan\",\"moan\")+\" into his seed-swollen ‘nads and shift gears into a long sequence of delirious ball worship.",
     "translation": "",
-    "context": "<<POS:00850086>>"
+    "context": "<<POS:00850090>>"
   },
   {
     "key": "output|Your_tongue_snakes_out_to_e_drag_push_the_whole_of_hi|c7f64990f704",
@@ -1770,10 +1812,10 @@
     "context": "<<POS:00850784>>"
   },
   {
-    "key": "output|n_nKitty_meat_flexes_against_the_brushing_ascent_of_your_pc_li|7d84615935ca",
-    "original": "\\n\\nKitty-meat flexes against the brushing ascent of your [pc.lips], giving him a feel for their texture. You meet his stare, wink, and set yourself at the slightly-tapered crown, pursing your mouth and sinking down.",
+    "key": "output|Kitty_meat_flexes_against_the_brushing_ascent_of_your_pc_lips|20c257804fde",
+    "original": "Kitty-meat flexes against the brushing ascent of your [pc.lips], giving him a feel for their texture. You meet his stare, wink, and set yourself at the slightly-tapered crown, pursing your mouth and sinking down.",
     "translation": "",
-    "context": "<<POS:00851119>>"
+    "context": "<<POS:00851123>>"
   },
   {
     "key": "output|For_any_cock_larger_than_Kase_s_your_lips_would_be_strained_in|c29b8cc21533",
@@ -1800,10 +1842,10 @@
     "context": "<<POS:00852768>>"
   },
   {
-    "key": "output|n_nYou_slide_him_deep_into_one_of_your_cheeks_eyelashes_flutte|0c1f76ded855",
-    "original": "\\n\\nYou slide him deep into one of your cheeks, eyelashes fluttering as he bulges it outwards, then the other side. Freely-dribbled precum leaks out of your mouth and you can’t help but wetly gurgle on a rush of new saliva,",
+    "key": "output|You_slide_him_deep_into_one_of_your_cheeks_eyelashes_fluttering|b8c491f3d335",
+    "original": "You slide him deep into one of your cheeks, eyelashes fluttering as he bulges it outwards, then the other side. Freely-dribbled precum leaks out of your mouth and you can’t help but wetly gurgle on a rush of new saliva,",
     "translation": "",
-    "context": "<<POS:00852882>>"
+    "context": "<<POS:00852886>>"
   },
   {
     "key": "output|combined_lubricants_also_dripping_from_your_pc_cocksLight_and|48450d0de1ef",
@@ -1830,34 +1872,34 @@
     "context": "<<POS:00853461>>"
   },
   {
-    "key": "output|n_nAphrodisiacs_saturate_Kase_s_delicate_member_from_all_angles|e3a632cf87d5",
-    "original": "\\n\\nAphrodisiacs saturate Kase’s delicate member from all angles, your venom seeping into and imbuing his hot club with the firestorm of a rutting male. <i>“[pc.name]! A-Are you... that’s n-not...! You’re using v-venom on me a-a-aren’t you... nnnghhh!”</i> Correct! And quite a bit! He husks raggedly now, sounding more like a male than his race would have onlookers otherwise believe. If only it could convince him to take charge, screw your face to relieve the provocation pumping through his bloodstream, but, ah well. Right now he’s harder than he’s ever been, and it’s the extra firmness of his desire that’s going to swell your soon-to-be-fucked suck-hole to a pleasant, aching width.",
+    "key": "output|Aphrodisiacs_saturate_Kase_s_delicate_member_from_all_angles_yo|2f318f010297",
+    "original": "Aphrodisiacs saturate Kase’s delicate member from all angles, your venom seeping into and imbuing his hot club with the firestorm of a rutting male. <i>“[pc.name]! A-Are you... that’s n-not...! You’re using v-venom on me a-a-aren’t you... nnnghhh!”</i> Correct! And quite a bit! He husks raggedly now, sounding more like a male than his race would have onlookers otherwise believe. If only it could convince him to take charge, screw your face to relieve the provocation pumping through his bloodstream, but, ah well. Right now he’s harder than he’s ever been, and it’s the extra firmness of his desire that’s going to swell your soon-to-be-fucked suck-hole to a pleasant, aching width.",
     "translation": "",
-    "context": "<<POS:00853583>>"
+    "context": "<<POS:00853587>>"
   },
   {
-    "key": "output|n_nThis_is_the_best_feeling_Suckling_a_juicy_cock_down_your_th|6c69764ad934",
-    "original": "\\n\\nThis is the best feeling. Suckling a juicy cock down your throat without any traitorous bodily functions trying to obstruct it. There’s a physical enjoyment, absolutely, but the <i>emotional</i> fulfillment you get from taking all the big, hard dick someone has to offer without any discomfort is inexpressible. You hum to vibrate Kase’s pheromone-soaked length as it spreads your walls, dribbles pearly pre into your constantly vacuuming depths, feeling the purest joy at his inexorable advance. <i>“Ooohhh...”</i> he groans, unable to take his eyes off this fluid motion, of his balls bumping thickly to your chin, adhering to your [pc.skinFurScalesNoun] by the stickiness covering them. <i>“Y-You really know what you’re doing...”</i> he murmurs, immediately covering his face in shame at what he said.",
+    "key": "output|This_is_the_best_feeling_Suckling_a_juicy_cock_down_your_throat|ca69dbd80ade",
+    "original": "This is the best feeling. Suckling a juicy cock down your throat without any traitorous bodily functions trying to obstruct it. There’s a physical enjoyment, absolutely, but the <i>emotional</i> fulfillment you get from taking all the big, hard dick someone has to offer without any discomfort is inexpressible. You hum to vibrate Kase’s pheromone-soaked length as it spreads your walls, dribbles pearly pre into your constantly vacuuming depths, feeling the purest joy at his inexorable advance. <i>“Ooohhh...”</i> he groans, unable to take his eyes off this fluid motion, of his balls bumping thickly to your chin, adhering to your [pc.skinFurScalesNoun] by the stickiness covering them. <i>“Y-You really know what you’re doing...”</i> he murmurs, immediately covering his face in shame at what he said.",
     "translation": "",
-    "context": "<<POS:00854304>>"
+    "context": "<<POS:00854308>>"
   },
   {
-    "key": "output|n_nHis_unintentional_dirty_talk_turns_you_on_even_more|497febdba52a",
-    "original": "\\n\\nHis unintentional dirty talk turns you on even more.",
+    "key": "output|His_unintentional_dirty_talk_turns_you_on_even_more|a4ca934f57aa",
+    "original": "His unintentional dirty talk turns you on even more.",
     "translation": "",
-    "context": "<<POS:00855124>>"
+    "context": "<<POS:00855128>>"
   },
   {
-    "key": "output|n_nMost_species_throats_didn_t_evolve_to_take_deep_dickings_b|ce939b87bae6",
-    "original": "\\n\\nMost species’ throats didn’t evolve to take deep dickings, but your gag reflex doesn’t stand a chance against this slippery length. Feline barbs rake over your uvula, triggering the body’s instinct to close up. <i>“Ahh... - [pc.name] it’s not a big deal, you don’t have to - mmff...”</i> No, you <i>will.</i> Refreshing your muscles, you withdraw and press forward again, his concentrated scent aiding your efforts. The spurting warmth of fresh pre in your gullet lubricates the tender passage, enabling you to swallow him past the seizing resistance. Soon, you’re not gagging, and even sooner, you’re glowing with bliss when his balls bump against your chin, victorious thrills tingle down your spine at the knowledge you’ve taken your lover so deep in your drooling gob.",
+    "key": "output|Most_species_throats_didn_t_evolve_to_take_deep_dickings_but_y|280f397f9dd4",
+    "original": "Most species’ throats didn’t evolve to take deep dickings, but your gag reflex doesn’t stand a chance against this slippery length. Feline barbs rake over your uvula, triggering the body’s instinct to close up. <i>“Ahh... - [pc.name] it’s not a big deal, you don’t have to - mmff...”</i> No, you <i>will.</i> Refreshing your muscles, you withdraw and press forward again, his concentrated scent aiding your efforts. The spurting warmth of fresh pre in your gullet lubricates the tender passage, enabling you to swallow him past the seizing resistance. Soon, you’re not gagging, and even sooner, you’re glowing with bliss when his balls bump against your chin, victorious thrills tingle down your spine at the knowledge you’ve taken your lover so deep in your drooling gob.",
     "translation": "",
-    "context": "<<POS:00855192>>"
+    "context": "<<POS:00855196>>"
   },
   {
-    "key": "output|n_n_i_W_Wait_i_The_massaging_ridges_of_your_exquisitely|348b76dc0d9d",
-    "original": "\\n\\n<i>“W-Wait...!”</i> The massaging ridges of your exquisitely-enhanced throat allowed for easy entry, but even half an inch of withdrawal is proving to be a mind-obliterating experience for Kase. ",
+    "key": "output|i_W_Wait_i_The_massaging_ridges_of_your_exquisitely_enh|9ba1a618f7c3",
+    "original": "<i>“W-Wait...!”</i> The massaging ridges of your exquisitely-enhanced throat allowed for easy entry, but even half an inch of withdrawal is proving to be a mind-obliterating experience for Kase. ",
     "translation": "",
-    "context": "<<POS:00855999>>"
+    "context": "<<POS:00856003>>"
   },
   {
     "key": "output|i_H_How_do_you_that_s_what_are_those_i_he_whines_s|0c0983dfc5c6",
@@ -1878,37 +1920,37 @@
     "context": "<<POS:00856579>>"
   },
   {
-    "key": "output|n_nFellatio_heaven_in_all_its_glory|e6d747bb73bc",
-    "original": "\\n\\nFellatio heaven, in all its glory.",
+    "key": "output|Fellatio_heaven_in_all_its_glory|49156ca3b525",
+    "original": "Fellatio heaven, in all its glory.",
     "translation": "",
-    "context": "<<POS:00856779>>"
+    "context": "<<POS:00856783>>"
   },
   {
-    "key": "output|n_nUp_and_down_your_head_bobbles_for_a_whole_wonderful_minute|1de0d2bd18ce",
-    "original": "\\n\\nUp and down your head bobbles, for a whole wonderful minute of blowing and sucking Kase’s dick. You move a hand to his sack and fondly rub the warm silk-flesh, rolling the contents between your fingers. Lewd noises echo through the room: squelches, pops, balls-deep sucks. He’s happy to lean back, try to keep his eyes open, let you see how much he’s enjoying it. After lavishing the crown with a swirling tongue-bath, you inhale through your nostrils and go deep again, head and lungs full of his aroma.",
+    "key": "output|Up_and_down_your_head_bobbles_for_a_whole_wonderful_minute_of_b|66fe4c80afdc",
+    "original": "Up and down your head bobbles, for a whole wonderful minute of blowing and sucking Kase’s dick. You move a hand to his sack and fondly rub the warm silk-flesh, rolling the contents between your fingers. Lewd noises echo through the room: squelches, pops, balls-deep sucks. He’s happy to lean back, try to keep his eyes open, let you see how much he’s enjoying it. After lavishing the crown with a swirling tongue-bath, you inhale through your nostrils and go deep again, head and lungs full of his aroma.",
     "translation": "",
-    "context": "<<POS:00856829>>"
+    "context": "<<POS:00856833>>"
   },
   {
-    "key": "output|n_nA_body_can_only_take_so_much_teasing_before_it_acts_on_its_o|51f737154937",
-    "original": "\\n\\nA body can only take so much teasing before it acts on its own. Kase is no different. Girly hips buck against your face the more he arches and the faster you ramp up. <i>“A-Ah! S-Sorry!”</i> he rushes to apologize despite the fact he’s ramming fat globs of prenut into your stomach. Pretty soon he understands this is how it should be: you, looking up and smiling around his throbbing kitty-cock, the squishy confines of your throat compressing down on its plentiful meal, and him, flexing in the aching tracts of your throat, hilting himself in single, orgasm-worthy motions.",
+    "key": "output|A_body_can_only_take_so_much_teasing_before_it_acts_on_its_own|fe27fb008c83",
+    "original": "A body can only take so much teasing before it acts on its own. Kase is no different. Girly hips buck against your face the more he arches and the faster you ramp up. <i>“A-Ah! S-Sorry!”</i> he rushes to apologize despite the fact he’s ramming fat globs of prenut into your stomach. Pretty soon he understands this is how it should be: you, looking up and smiling around his throbbing kitty-cock, the squishy confines of your throat compressing down on its plentiful meal, and him, flexing in the aching tracts of your throat, hilting himself in single, orgasm-worthy motions.",
     "translation": "",
-    "context": "<<POS:00857348>>"
+    "context": "<<POS:00857352>>"
   },
   {
-    "key": "output|n_nEuphoria_There_s_no_other_way_to_describe_this_feeling_thi|34a60d44bd73",
-    "original": "\\n\\nEuphoria. There’s no other way to describe this feeling, this moment. Few would believe it’s even possible, taking something this big and this hard into your narrow throat, stretching your neck into a curve around it. Your body clenches deliciously around it, the suction of your bloated fuck-socket tugging on his pelvis. Groans ripple up through the lining of your pliant esophagus, swabbed to swollen bliss by alien dickmeat. They feed directly into the kitty-boy’s loins, setting off the most intense urges anyone with a penis can possibly have.",
+    "key": "output|Euphoria_There_s_no_other_way_to_describe_this_feeling_this_mo|de6c8a6c41ce",
+    "original": "Euphoria. There’s no other way to describe this feeling, this moment. Few would believe it’s even possible, taking something this big and this hard into your narrow throat, stretching your neck into a curve around it. Your body clenches deliciously around it, the suction of your bloated fuck-socket tugging on his pelvis. Groans ripple up through the lining of your pliant esophagus, swabbed to swollen bliss by alien dickmeat. They feed directly into the kitty-boy’s loins, setting off the most intense urges anyone with a penis can possibly have.",
     "translation": "",
-    "context": "<<POS:00857939>>"
+    "context": "<<POS:00857943>>"
   },
   {
-    "key": "output|n_nSo_that_s_how_you_finally_goaded_him_into|b64747bb4048",
-    "original": "\\n\\nSo that’s how you finally goaded him into",
+    "key": "output|So_that_s_how_you_finally_goaded_him_into|ff916712657a",
+    "original": "So that’s how you finally goaded him into",
     "translation": "",
-    "context": "<<POS:00858503>>"
+    "context": "<<POS:00858507>>"
   },
   {
-    "key": "output|grabbing_you_by_the_pc_horns_and_screwing_your_mouth_like_the|9df5fbde3baf",
+    "key": "output|grabbing_you_by_the_pc_horns_and_screwing_your_mouth_like_the|ced64e896837",
     "original": " grabbing you by the [pc.horns] and screwing your mouth like the hottest, wettest fuck in a New Texan gloryhole",
     "translation": "",
     "context": "<<POS:00858728>>"
@@ -1926,19 +1968,13 @@
     "context": "<<POS:00859106>>"
   },
   {
-    "key": "output|n_nThis_taste_ah_Void_the_taste_Was_he_this_sweet_before|5270b49a8271",
-    "original": "\\n\\nThis taste... ah, Void, the taste! Was he this sweet before? Sweeter than a chocolate-covered kiss. Giving a blowjob is a lot like giving a kiss. It requires sensual ministry, devoted intimacy, and voracious engagement; it requires technique and a lot of sloppiness. Closing your eyes to savor the shifting, oiled texture sliding through your ardent lips, you can almost empathize with how <i>good</i> Kase feels right now. Ecstatic enough to move on his own, and unable to cope with the way you tie your [pc.tongue] to his artless thrusting. He’s easy to learn and easy to match, which, you think, is exactly what makes him quite the delectable facefucker.",
+    "key": "output|This_taste_ah_Void_the_taste_Was_he_this_sweet_before_Swe|e5835da98410",
+    "original": "This taste... ah, Void, the taste! Was he this sweet before? Sweeter than a chocolate-covered kiss. Giving a blowjob is a lot like giving a kiss. It requires sensual ministry, devoted intimacy, and voracious engagement; it requires technique and a lot of sloppiness. Closing your eyes to savor the shifting, oiled texture sliding through your ardent lips, you can almost empathize with how <i>good</i> Kase feels right now. Ecstatic enough to move on his own, and unable to cope with the way you tie your [pc.tongue] to his artless thrusting. He’s easy to learn and easy to match, which, you think, is exactly what makes him quite the delectable facefucker.",
     "translation": "",
-    "context": "<<POS:00859513>>"
+    "context": "<<POS:00859517>>"
   },
   {
-    "key": "output|n_n|67dbe6053a2b",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:00860230>>"
-  },
-  {
-    "key": "output|Every_obscene_insertion_of_fellatio_lacquered_prick_slowly_refor|9433d38c7a8b",
+    "key": "output|Every_obscene_insertion_of_fellatio_lacquered_prick_slowly_refor|bc6c88f2b098",
     "original": "Every obscene insertion of fellatio-lacquered prick slowly reforms the pupils of your eyes into bright [pc.eyeColor] hearts. Seeing his cute head thrown back, feeling the raw, sloppy enthusiasm with which he uses to fuck you desperately. Suddenly you’re cumming, no longer able to bear the luscious tension.",
     "translation": "",
     "context": "<<POS:00860258>>"
@@ -2028,16 +2064,16 @@
     "context": "<<POS:00862336>>"
   },
   {
-    "key": "output|n_n_i_I_I_m_cumming_capt_cap_pc_name_i_Thick_rope|399c88dbc265",
-    "original": "\\n\\n<i>“I-I’m cumming, capt... cap... [pc.name]!”</i> Thick ropes of kaithrit seed vent past your [pc.lips], gloopy ambrosia spilling into your throat, painting it white with a viscosity not unlike the texture of an extra creamy shake. Sperm-packed boi-jism coat your esophagus on the way down, forming into lumps that your body reflexively swallows, depositing the fluid heat in your gut. Because he’s mashed himself to your [pc.face], you don’t get a proper taste; his teeming balls pulse out the reservoir of his hot burden to another one. Hilted on Kase’s cock, you can feel the pounding of his heartbeat as your two bodies give and take respectively.",
+    "key": "output|i_I_I_m_cumming_capt_cap_pc_name_i_Thick_ropes_of|8d2dbfe6531e",
+    "original": "<i>“I-I’m cumming, capt... cap... [pc.name]!”</i> Thick ropes of kaithrit seed vent past your [pc.lips], gloopy ambrosia spilling into your throat, painting it white with a viscosity not unlike the texture of an extra creamy shake. Sperm-packed boi-jism coat your esophagus on the way down, forming into lumps that your body reflexively swallows, depositing the fluid heat in your gut. Because he’s mashed himself to your [pc.face], you don’t get a proper taste; his teeming balls pulse out the reservoir of his hot burden to another one. Hilted on Kase’s cock, you can feel the pounding of his heartbeat as your two bodies give and take respectively.",
     "translation": "",
-    "context": "<<POS:00862426>>"
+    "context": "<<POS:00862430>>"
   },
   {
-    "key": "output|n_nThe_seemingly_endless_cascade_of_his_weighty_outpour_eventua|37dcdff40649",
-    "original": "\\n\\nThe seemingly-endless cascade of his weighty outpour eventually comes to an end - outside. Kase withdraws, cum erupting in your mouth, and then splattering across your [pc.face].",
+    "key": "output|The_seemingly_endless_cascade_of_his_weighty_outpour_eventually|81d511a6af8f",
+    "original": "The seemingly-endless cascade of his weighty outpour eventually comes to an end - outside. Kase withdraws, cum erupting in your mouth, and then splattering across your [pc.face].",
     "translation": "",
-    "context": "<<POS:00863092>>"
+    "context": "<<POS:00863096>>"
   },
   {
     "key": "output|Like_a_frog_catching_its_prey_you_whip_out_your_tongue_and_rav|e26a62e1e59e",
@@ -2052,16 +2088,16 @@
     "context": "<<POS:00863450>>"
   },
   {
-    "key": "output|n_nDrooping_from_an_exhaustive_keening_orgasm_Kase_slumps_lik|b99f50e11bc6",
-    "original": "\\n\\nDrooping from an exhaustive, keening orgasm, Kase slumps like a stick in the mud, mewling the whole time you suck his softened tool clean. <i>“[pc.name]... thank you, thank you so much,”</i> he huffs, hair-thin irises rolling back into a post-coital paradise. <i>“I think I need to rest...”</i>",
+    "key": "output|Drooping_from_an_exhaustive_keening_orgasm_Kase_slumps_like_a|5c3deb23c6e9",
+    "original": "Drooping from an exhaustive, keening orgasm, Kase slumps like a stick in the mud, mewling the whole time you suck his softened tool clean. <i>“[pc.name]... thank you, thank you so much,”</i> he huffs, hair-thin irises rolling back into a post-coital paradise. <i>“I think I need to rest...”</i>",
     "translation": "",
-    "context": "<<POS:00863674>>"
+    "context": "<<POS:00863678>>"
   },
   {
-    "key": "output|n_nNot_like_that_if_you_have_anything_to_say_about_it_Hoistin|e80b60d098d7",
-    "original": "\\n\\nNot like that, if you have anything to say about it. Hoisting the frail boy up, you haul him over to the bed and lay him down, throwing a blanket over him.",
+    "key": "output|Not_like_that_if_you_have_anything_to_say_about_it_Hoisting_th|6f058850c569",
+    "original": "Not like that, if you have anything to say about it. Hoisting the frail boy up, you haul him over to the bed and lay him down, throwing a blanket over him.",
     "translation": "",
-    "context": "<<POS:00863983>>"
+    "context": "<<POS:00863987>>"
   },
   {
     "key": "output|A_box_of_tissues_sits_on_the_nearby_stand_but_you_don_t_need|680234e20d6a",
@@ -2079,7 +2115,7 @@
     "key": "button|Next|ca02f4fc369d",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00864846>>"
+    "context": "<<POS:00864846>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|You_d_guess_the_pale_skinned_Kase_is_about_5_5_which_is_pret|b87b49af8964",
@@ -2088,124 +2124,166 @@
     "context": "<<POS:00864978>>"
   },
   {
-    "key": "output|n_nBeyond_that_his_face_possesses_soft_smooth_curves_adorned|2ab2755b2e02",
-    "original": "\\n\\nBeyond that, his face possesses soft, smooth curves adorned by freckles that further enhance his effeminate appearance. Short, messy hair hangs all around his head, colored a deep pine and parted by his pointy, feline ears. It’s also apparent Kase has inherited heterochromia from one (or maybe both) of his parents, leaving one of his eyes a dark green like his hair, and his other a bright, eye-catching golden-yellow, both with slitted feline pupils.",
+    "key": "output|Beyond_that_his_face_possesses_soft_smooth_curves_adorned_by_f|69aff185a2c9",
+    "original": "Beyond that, his face possesses soft, smooth curves adorned by freckles that further enhance his effeminate appearance. Short, messy hair hangs all around his head, colored a deep pine and parted by his pointy, feline ears. It’s also apparent Kase has inherited heterochromia from one (or maybe both) of his parents, leaving one of his eyes a dark green like his hair, and his other a bright, eye-catching golden-yellow, both with slitted feline pupils.",
     "translation": "",
-    "context": "<<POS:00865328>>"
+    "context": "<<POS:00865332>>"
   },
   {
-    "key": "output|n_nEven_though_Kase_can_easily_be_classified_as_a_femboy_he_do|aef426107fa3",
-    "original": "\\n\\nEven though Kase can easily be classified as a femboy, he doesn’t seem to accentuate his femininity beyond its natural bounds.",
+    "key": "output|Even_though_Kase_can_easily_be_classified_as_a_femboy_he_doesn|feb4470df795",
+    "original": "Even though Kase can easily be classified as a femboy, he doesn’t seem to accentuate his femininity beyond its natural bounds.",
     "translation": "",
-    "context": "<<POS:00865796>>"
+    "context": "<<POS:00865800>>"
   },
   {
-    "key": "output|n_nThe_last_hallmark_of_his_race_visible_to_you_is_his_two_preh|25a404f2b9b0",
-    "original": "\\n\\nThe last hallmark of his race visible to you is his two prehensile tails, covered in soft, pine-colored fur and swishing and swaying subconsciously.",
+    "key": "output|The_last_hallmark_of_his_race_visible_to_you_is_his_two_prehensi|4b265d2de50d",
+    "original": "The last hallmark of his race visible to you is his two prehensile tails, covered in soft, pine-colored fur and swishing and swaying subconsciously.",
     "translation": "",
-    "context": "<<POS:00865937>>"
+    "context": "<<POS:00865941>>"
   },
   {
-    "key": "output|n_nRight_now_Kase_is_wearing_a_Pyrite_field_suit_It_hugs_his|99207254af7f",
-    "original": "\\n\\nRight now, Kase is wearing a Pyrite field-suit. It hugs his frame tightly, despite the lightly-armoured plating laden across gold and maroon latex, surely put in place to protect employees on Rush planets like Mhen’ga.",
+    "key": "output|Right_now_Kase_is_wearing_a_Pyrite_field_suit_It_hugs_his_fram|e401f2fa375e",
+    "original": "Right now, Kase is wearing a Pyrite field-suit. It hugs his frame tightly, despite the lightly-armoured plating laden across gold and maroon latex, surely put in place to protect employees on Rush planets like Mhen’ga.",
     "translation": "",
-    "context": "<<POS:00866122>>"
+    "context": "<<POS:00866126>>"
   },
   {
-    "key": "output|n_nKase_is_now_dressed_in_a_standard_issue_Steele_Tech_jumpsuit|404e05dd715d",
-    "original": "\\n\\nKase is now dressed in a standard-issue Steele Tech jumpsuit. The black latex hugs at his frame tightly, showing off all his curves (and his bulge) as light shines across the yellow and black of his outfit.",
+    "key": "output|Kase_is_now_dressed_in_a_standard_issue_Steele_Tech_jumpsuit_Th|6a1d054b38ef",
+    "original": "Kase is now dressed in a standard-issue Steele Tech jumpsuit. The black latex hugs at his frame tightly, showing off all his curves (and his bulge) as light shines across the yellow and black of his outfit.",
     "translation": "",
-    "context": "<<POS:00866355>>"
+    "context": "<<POS:00866359>>"
   },
   {
-    "key": "output|n_nUnderneath_his_clothes_however_rests_a_thick_and_sizable_n|b2c6058a8b88",
-    "original": "\\n\\nUnderneath his clothes, however, rests a thick and sizable nine-inch kitty cock, covered in sinfully soft barbs, perfect for scratching a guy’s or girl’s very specific itch, along with a plump pair of balls. Opposite that rests a tight tailhole right between his big, squeezable butt. ",
+    "key": "output|Underneath_his_clothes_however_rests_a_thick_and_sizable_nine|a03f97d1184d",
+    "original": "Underneath his clothes, however, rests a thick and sizable nine-inch kitty cock, covered in sinfully soft barbs, perfect for scratching a guy’s or girl’s very specific itch, along with a plump pair of balls. Opposite that rests a tight tailhole right between his big, squeezable butt. ",
     "translation": "",
-    "context": "<<POS:00866576>>"
+    "context": "<<POS:00866580>>"
   },
   {
-    "key": "output|n_nA_cute_kitty_if_you_ve_ever_seen_one|d4b72efcdbe2",
-    "original": "\\n\\nA cute kitty if you’ve ever seen one.",
+    "key": "output|A_cute_kitty_if_you_ve_ever_seen_one|6c9149af81df",
+    "original": "A cute kitty if you’ve ever seen one.",
     "translation": "",
-    "context": "<<POS:00866876>>"
+    "context": "<<POS:00866880>>"
   },
   {
-    "key": "button|Appearance|4d25a5c5f37e",
+    "key": "button|Appearance|2c739e2c09be",
     "original": "Appearance",
     "translation": "",
-    "context": "<<POS:00867008>>"
+    "context": "<<POS:00867008>> addDisabledButton(0,\"Appearance\",\"Appearance\",\"You’re looking at him right now.\")"
   },
   {
-    "key": "output|i_Me_Well_as_you_already_know_I_this_isCrew_used_to|bed814987889",
+    "key": "button.hover|You_re_looking_at_him_right_now|b1b97c3a68ed",
+    "original": "You’re looking at him right now.",
+    "translation": "",
+    "context": "<<POS:00867034>> addDisabledButton(0,\"Appearance\",\"Appearance\",\"You’re looking at him right now.\")"
+  },
+  {
+    "key": "output|i_Me_Well_as_you_already_know_I_this_isCrew_used_to|72addb6147ff",
     "original": "<i>“Me? Well, as you already know I \"+(this.isCrew()?\"used to \":\"\")+\"work for Pyrite, but beyond that I guess I could tell you a bit about myself. That is, of course, if you want to hear,”</i> Kase explains, keeping his straight posture and looking at you expectantly.",
     "translation": "",
     "context": "<<POS:00867178>>"
   },
   {
-    "key": "output|n_nYou_tell_the_pretty_kitty_pc_isNice_you_d_love_to_lear|0405e6aba948",
-    "original": "\\n\\nYou tell the pretty kitty \"+(pc.isNice()?\"you’d love to learn some more about him, giving him an inviting smile as you do so\":\"you wouldn’t have asked if you didn’t want to hear, rolling your eyes as you do so\")+\".",
+    "key": "output|You_tell_the_pretty_kitty_pc_isNice_you_d_love_to_learn_so|9ebf1a1e4ec0",
+    "original": "You tell the pretty kitty \"+(pc.isNice()?\"you’d love to learn some more about him, giving him an inviting smile as you do so\":\"you wouldn’t have asked if you didn’t want to hear, rolling your eyes as you do so\")+\".",
     "translation": "",
-    "context": "<<POS:00867457>>"
+    "context": "<<POS:00867461>>"
   },
   {
-    "key": "output|n_n_i_Right_then_i_Kase_begins_ready_to_delve_into_his_st|b9404dd0a506",
-    "original": "\\n\\n<i>“Right then,”</i> Kase begins, ready to delve into his stories, <i>“I was born on a colony, and a diverse one at that. So I grew up alongside many core races, ausar and humans especially. My parents, of course, were both kaithrit.”</i> His posture seems to slump a bit through explaining that, which he quickly notices and corrects, sitting up straight again before he continues, <i>“Growing up, I found I always had a knack for math and organization, and I enjoyed them both quite a bit. So, when the time finally came, I ended up getting a job working in that field. You see, Pyrite Industries was very influential on our planet, and some of my family worked for them, so it was relatively easy for me to get work in their logistics division.”</i> Kase\"+(this.isCrew()?\"’s posture seems to stiffen with confidence, <i>“And that’s how I ended up on Mhen’ga, and how I ended up on your crew.”</i>\":\" once again seems to shrink in his seat, <i>“And that’s how I ended up here, and why I’m </i>still<i> here, with a broken arm.”</i>\")",
+    "key": "output|i_Right_then_i_Kase_begins_ready_to_delve_into_his_storie|0466b4547586",
+    "original": "<i>“Right then,”</i> Kase begins, ready to delve into his stories, <i>“I was born on a colony, and a diverse one at that. So I grew up alongside many core races, ausar and humans especially. My parents, of course, were both kaithrit.”</i> His posture seems to slump a bit through explaining that, which he quickly notices and corrects, sitting up straight again before he continues, <i>“Growing up, I found I always had a knack for math and organization, and I enjoyed them both quite a bit. So, when the time finally came, I ended up getting a job working in that field. You see, Pyrite Industries was very influential on our planet, and some of my family worked for them, so it was relatively easy for me to get work in their logistics division.”</i> Kase\"+(this.isCrew()?\"’s posture seems to stiffen with confidence, <i>“And that’s how I ended up on Mhen’ga, and how I ended up on your crew.”</i>\":\" once again seems to shrink in his seat, <i>“And that’s how I ended up here, and why I’m </i>still<i> here, with a broken arm.”</i>\")",
     "translation": "",
-    "context": "<<POS:00867686>>"
+    "context": "<<POS:00867690>>"
   },
   {
-    "key": "output|n_nHe_smiles_warmly_after_saying_that_seems_like_Kase_is_prett|5fa696366909",
-    "original": "\\n\\nHe smiles warmly after saying that, seems like Kase is pretty happy with his new job.",
+    "key": "output|He_smiles_warmly_after_saying_that_seems_like_Kase_is_pretty_ha|c6bb49c60c45",
+    "original": "He smiles warmly after saying that, seems like Kase is pretty happy with his new job.",
     "translation": "",
-    "context": "<<POS:00868749>>"
+    "context": "<<POS:00868753>>"
   },
   {
-    "key": "output|n_n_pc_isAss_Eh_you_ve_been_through_worse_Wow_sounds|ccbde868b2fc",
-    "original": "\\n\\n\"+(pc.isAss()?\"Eh, you’ve been through worse. \":\"Wow, sounds like a bad deal to you. \")+\"Maybe you could ask him about his work later.",
+    "key": "output|pc_isAss_Eh_you_ve_been_through_worse_Wow_sounds_lik|1e22fe13c9cb",
+    "original": "\"+(pc.isAss()?\"Eh, you’ve been through worse. \":\"Wow, sounds like a bad deal to you. \")+\"Maybe you could ask him about his work later.",
     "translation": "",
-    "context": "<<POS:00868849>>"
+    "context": "<<POS:00868853>>"
   },
   {
-    "key": "output|n_n_i_But_other_than_that_I_don_t_believe_I_m_all_that_inter|261d42129504",
-    "original": "\\n\\n<i>“But, other than that, I don’t believe I’m all that interesting,”</i> he continues, \"+(void 0===flags.KASE_HEALED?\"gesturing with his one good arm, \":\"\")+\"<i>“I like to run calculations and organize in my spare time, normally with some music. Slow and melodic songs help me to think more clearly.”</i>",
+    "key": "output|i_But_other_than_that_I_don_t_believe_I_m_all_that_interesti|8b988d2ac60a",
+    "original": "<i>“But, other than that, I don’t believe I’m all that interesting,”</i> he continues, \"+(void 0===flags.KASE_HEALED?\"gesturing with his one good arm, \":\"\")+\"<i>“I like to run calculations and organize in my spare time, normally with some music. Slow and melodic songs help me to think more clearly.”</i>",
     "translation": "",
-    "context": "<<POS:00868998>>"
+    "context": "<<POS:00869002>>"
   },
   {
     "key": "button|Next|3d5335cd8c2b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00869372>>"
+    "context": "<<POS:00869372>> addButton(0,\"Next\",window.kaseCrewTalkMenu)"
   },
   {
     "key": "button|Next|35b9a3540cff",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00869430>>"
+    "context": "<<POS:00869430>> addButton(0,\"Next\",this.kaseTalkMenu)"
   },
   {
     "key": "button|Him|68cf9f08ac31",
     "original": "Him",
     "translation": "",
-    "context": "<<POS:00869508>>"
+    "context": "<<POS:00869508>> addButton(0,\"Him\",this.kaseTalkHim,\"Him\",\"Learn a bit about the enigmatic Kase Bokiil.\")"
   },
   {
-    "key": "button|Work|ce83bda4fb16",
+    "key": "button.hover|Him|68cf9f08ac31",
+    "original": "Him",
+    "translation": "",
+    "context": "<<POS:00869531>> addButton(0,\"Him\",this.kaseTalkHim,\"Him\",\"Learn a bit about the enigmatic Kase Bokiil.\")"
+  },
+  {
+    "key": "button.tooltip|Learn_a_bit_about_the_enigmatic_Kase_Bokiil|c5792ea7e357",
+    "original": "Learn a bit about the enigmatic Kase Bokiil.",
+    "translation": "",
+    "context": "<<POS:00869537>> addButton(0,\"Him\",this.kaseTalkHim,\"Him\",\"Learn a bit about the enigmatic Kase Bokiil.\")"
+  },
+  {
+    "key": "button|Work|7283c44512b1",
     "original": "Work",
     "translation": "",
-    "context": "<<POS:00869597>>"
+    "context": "<<POS:00869597>> addButton(1,\"Work\",this.kaseTalkWork,\"Work\",\"Figure out what’s got the kaithrit so bummed out. \")"
   },
   {
-    "key": "button|Arm|219e1aa1401a",
+    "key": "button.hover|Work|7283c44512b1",
+    "original": "Work",
+    "translation": "",
+    "context": "<<POS:00869622>> addButton(1,\"Work\",this.kaseTalkWork,\"Work\",\"Figure out what’s got the kaithrit so bummed out. \")"
+  },
+  {
+    "key": "button.tooltip|Figure_out_what_s_got_the_kaithrit_so_bummed_out|e08185fdcb69",
+    "original": "Figure out what’s got the kaithrit so bummed out. ",
+    "translation": "",
+    "context": "<<POS:00869629>> addButton(1,\"Work\",this.kaseTalkWork,\"Work\",\"Figure out what’s got the kaithrit so bummed out. \")"
+  },
+  {
+    "key": "button|Arm|dd4a5962c5f3",
     "original": "Arm",
     "translation": "",
-    "context": "<<POS:00869695>>"
+    "context": "<<POS:00869695>> addButton(2,\"Arm\",this.kaseTalkArm,\"Arm\",\"Ask him how his arm is doing.\")"
   },
   {
-    "key": "button|Back|6dcb0c60db8d",
+    "key": "button.hover|Arm|dd4a5962c5f3",
+    "original": "Arm",
+    "translation": "",
+    "context": "<<POS:00869718>> addButton(2,\"Arm\",this.kaseTalkArm,\"Arm\",\"Ask him how his arm is doing.\")"
+  },
+  {
+    "key": "button.tooltip|Ask_him_how_his_arm_is_doing|2b7bd153c82f",
+    "original": "Ask him how his arm is doing.",
+    "translation": "",
+    "context": "<<POS:00869724>> addButton(2,\"Arm\",this.kaseTalkArm,\"Arm\",\"Ask him how his arm is doing.\")"
+  },
+  {
+    "key": "button|Back|aa359926e056",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:00869770>>"
+    "context": "<<POS:00869770>> addButton(14,\"Back\",this.kaseMenu)"
   },
   {
     "key": "output|i_Working_for_Pyrite_wasn_t_terrible_at_first_anyway_i_Ka|fec7af2c429d",
@@ -2214,40 +2292,40 @@
     "context": "<<POS:00869901>>"
   },
   {
-    "key": "output|n_nHe_lets_out_a_long_sigh_and_rubs_his_broken_arm_for_a_moment|3752e51b85a0",
-    "original": "\\n\\nHe lets out a long sigh and rubs his broken arm for a moment, leading you to ask him if he’s thought of getting work anywhere else.",
+    "key": "output|He_lets_out_a_long_sigh_and_rubs_his_broken_arm_for_a_moment_le|f8ed412e0589",
+    "original": "He lets out a long sigh and rubs his broken arm for a moment, leading you to ask him if he’s thought of getting work anywhere else.",
     "translation": "",
-    "context": "<<POS:00871045>>"
+    "context": "<<POS:00871049>>"
   },
   {
-    "key": "output|n_n_i_Oh_believe_me_I_have_i_the_Kaithrit_continues_stra|12f9b5b2e887",
-    "original": "\\n\\n<i>“Oh, believe me I have,”</i> the Kaithrit continues, straightening his posture, <i>“But I’m under contract, and until I find someone who is willing to buy that contract, or this contract ends, I am stuck with Pyrite and their... wonderful medical policies.”</i>",
+    "key": "output|i_Oh_believe_me_I_have_i_the_Kaithrit_continues_straight|dc425a74de89",
+    "original": "<i>“Oh, believe me I have,”</i> the Kaithrit continues, straightening his posture, <i>“But I’m under contract, and until I find someone who is willing to buy that contract, or this contract ends, I am stuck with Pyrite and their... wonderful medical policies.”</i>",
     "translation": "",
-    "context": "<<POS:00871191>>"
+    "context": "<<POS:00871195>>"
   },
   {
-    "key": "output|n_nYou_ask_him_what_he_means_by_that|ec32b63fa222",
-    "original": "\\n\\nYou ask him what he means by that.",
+    "key": "output|You_ask_him_what_he_means_by_that|4a4c5f445e22",
+    "original": "You ask him what he means by that.",
     "translation": "",
-    "context": "<<POS:00871470>>"
+    "context": "<<POS:00871474>>"
   },
   {
-    "key": "output|n_n_i_It_means_each_time_I_enter_a_Rush_system_I_have_to_sign|74dc5cf454b4",
-    "original": "\\n\\n<i>“It means each time I enter a Rush-system, I have to sign a waiver that renders Pyrite’s health incapable of covering any injuries I receive while out in the field, leaving me nursing this poor arm on my payroll,”</i> he explains, emphasizing his injured limb. ",
+    "key": "output|i_It_means_each_time_I_enter_a_Rush_system_I_have_to_sign_a_w|e9eafd66d17b",
+    "original": "<i>“It means each time I enter a Rush-system, I have to sign a waiver that renders Pyrite’s health incapable of covering any injuries I receive while out in the field, leaving me nursing this poor arm on my payroll,”</i> he explains, emphasizing his injured limb. ",
     "translation": "",
-    "context": "<<POS:00871519>>"
+    "context": "<<POS:00871523>>"
   },
   {
-    "key": "output|n_nSounds_like_a_pretty_shit_deal|1aca47e811c5",
-    "original": "\\n\\nSounds like a pretty shit deal.",
+    "key": "output|Sounds_like_a_pretty_shit_deal|db28ffa2ace2",
+    "original": "Sounds like a pretty shit deal.",
     "translation": "",
-    "context": "<<POS:00871798>>"
+    "context": "<<POS:00871802>>"
   },
   {
-    "key": "button|Work|9f1eb458a5bb",
+    "key": "button|Work|08884825dd26",
     "original": "Work",
     "translation": "",
-    "context": "<<POS:00871917>>"
+    "context": "<<POS:00871917>> addDisabledButton(1,\"Work\")"
   },
   {
     "key": "output|i_Oh_i_he_says_gently_rubbing_his_injured_appendage_i|cade8af82515",
@@ -2274,64 +2352,118 @@
     "context": "<<POS:00872799>>"
   },
   {
-    "key": "output|n_n_i_All_better_i_Kase_exclaims_this_isCrew_i_An|d5639d20d23b",
-    "original": "\\n\\n<i>“All better!”</i> Kase exclaims, \"+(this.isCrew()?\"<i>“And now I can do my job to the fullest of my abilities, Captain.”</i>\":\"<i>“Why, I feel like I could have gone after that satellite myself!”</i>\")",
+    "key": "output|i_All_better_i_Kase_exclaims_this_isCrew_i_And_no|a35c1091f788",
+    "original": "<i>“All better!”</i> Kase exclaims, \"+(this.isCrew()?\"<i>“And now I can do my job to the fullest of my abilities, Captain.”</i>\":\"<i>“Why, I feel like I could have gone after that satellite myself!”</i>\")",
     "translation": "",
-    "context": "<<POS:00872944>>"
+    "context": "<<POS:00872948>>"
   },
   {
-    "key": "output|n_nYou_smile_and_tell_him_you_re_glad_his_arm_s_okay|3b2efea4d670",
-    "original": "\\n\\nYou smile and tell him you’re glad his arm’s okay.",
+    "key": "output|You_smile_and_tell_him_you_re_glad_his_arm_s_okay|0a3c60062c4a",
+    "original": "You smile and tell him you’re glad his arm’s okay.",
     "translation": "",
-    "context": "<<POS:00873162>>"
+    "context": "<<POS:00873166>>"
   },
   {
     "key": "button|Next|206c77270e9d",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00873318>>"
+    "context": "<<POS:00873318>> addButton(0,\"Next\",window.kaseCrewTalkMenu)"
   },
   {
     "key": "button|Next|35b9a3540cff#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00873376>>"
+    "context": "<<POS:00873376>> addButton(0,\"Next\",this.kaseTalkMenu)"
   },
   {
     "key": "button|Appearance|af485afe2d63",
     "original": "Appearance",
     "translation": "",
-    "context": "<<POS:00873462>>"
+    "context": "<<POS:00873462>> addButton(0,\"Appearance\",this.kaseAppearance,\"Appearance\",\"Take a look at Kase.\")"
   },
   {
-    "key": "button|Talk|ddabdde12809",
+    "key": "button.hover|Appearance|af485afe2d63",
+    "original": "Appearance",
+    "translation": "",
+    "context": "<<POS:00873495>> addButton(0,\"Appearance\",this.kaseAppearance,\"Appearance\",\"Take a look at Kase.\")"
+  },
+  {
+    "key": "button.tooltip|Take_a_look_at_Kase|92eaca0bb6ed",
+    "original": "Take a look at Kase.",
+    "translation": "",
+    "context": "<<POS:00873508>> addButton(0,\"Appearance\",this.kaseAppearance,\"Appearance\",\"Take a look at Kase.\")"
+  },
+  {
+    "key": "button|Talk|d4a539a2fdbb",
     "original": "Talk",
     "translation": "",
-    "context": "<<POS:00873544>>"
+    "context": "<<POS:00873544>> addButton(1,\"Talk\",this.kaseTalk,\"Talk\",\"Have a chat with the kaithrit.\")"
   },
   {
-    "key": "button|Stress_Relief|e18bd290b965",
+    "key": "button.hover|Talk|d4a539a2fdbb",
+    "original": "Talk",
+    "translation": "",
+    "context": "<<POS:00873565>> addButton(1,\"Talk\",this.kaseTalk,\"Talk\",\"Have a chat with the kaithrit.\")"
+  },
+  {
+    "key": "button.tooltip|Have_a_chat_with_the_kaithrit|aeeba60c0ed9",
+    "original": "Have a chat with the kaithrit.",
+    "translation": "",
+    "context": "<<POS:00873572>> addButton(1,\"Talk\",this.kaseTalk,\"Talk\",\"Have a chat with the kaithrit.\")"
+  },
+  {
+    "key": "button|Stress_Relief|ebcc21199431",
     "original": "Stress Relief",
     "translation": "",
-    "context": "<<POS:00873640>>"
+    "context": "<<POS:00873640>> addButton(2,\"Stress Relief\",this.kaseStressRelief,\"Stress Relief\",\"Help the kitty feel a bit better, with your hands.\")"
   },
   {
-    "key": "button|Stress_Relief|7a29ad5d7215",
+    "key": "button.hover|Stress_Relief|ebcc21199431",
     "original": "Stress Relief",
     "translation": "",
-    "context": "<<POS:00873768>>"
+    "context": "<<POS:00873678>> addButton(2,\"Stress Relief\",this.kaseStressRelief,\"Stress Relief\",\"Help the kitty feel a bit better, with your hands.\")"
   },
   {
-    "key": "button|Join_Crew|3bdd46f91db0",
+    "key": "button.tooltip|Help_the_kitty_feel_a_bit_better_with_your_hands|2bca0a9f6b57",
+    "original": "Help the kitty feel a bit better, with your hands.",
+    "translation": "",
+    "context": "<<POS:00873694>> addButton(2,\"Stress Relief\",this.kaseStressRelief,\"Stress Relief\",\"Help the kitty feel a bit better, with your hands.\")"
+  },
+  {
+    "key": "button|Stress_Relief|8df152d5bacc",
+    "original": "Stress Relief",
+    "translation": "",
+    "context": "<<POS:00873768>> addDisabledButton(2,\"Stress Relief\",\"Stress Relief\",\"You already eased his tension.\")"
+  },
+  {
+    "key": "button.hover|You_already_eased_his_tension|c14afc1e62c4",
+    "original": "You already eased his tension.",
+    "translation": "",
+    "context": "<<POS:00873800>> addDisabledButton(2,\"Stress Relief\",\"Stress Relief\",\"You already eased his tension.\")"
+  },
+  {
+    "key": "button|Join_Crew|dd808eaaebdd",
     "original": "Join Crew",
     "translation": "",
-    "context": "<<POS:00873871>>"
+    "context": "<<POS:00873871>> addButton(3,\"Join Crew\",this.kaseJoinCrew,\"Join Crew\",\"Kase is looking for a new job, seems like a good opportunity to get him on your crew.\")"
   },
   {
-    "key": "button|Leave|19138fc2b44d",
+    "key": "button.hover|Join_Crew|dd808eaaebdd",
+    "original": "Join Crew",
+    "translation": "",
+    "context": "<<POS:00873901>> addButton(3,\"Join Crew\",this.kaseJoinCrew,\"Join Crew\",\"Kase is looking for a new job, seems like a good opportunity to get him on your crew.\")"
+  },
+  {
+    "key": "button.tooltip|Kase_is_looking_for_a_new_job_seems_like_a_good_opportunity_to|b3f168a5fa1b",
+    "original": "Kase is looking for a new job, seems like a good opportunity to get him on your crew.",
+    "translation": "",
+    "context": "<<POS:00873913>> addButton(3,\"Join Crew\",this.kaseJoinCrew,\"Join Crew\",\"Kase is looking for a new job, seems like a good opportunity to get him on your crew.\")"
+  },
+  {
+    "key": "button|Leave|102781a2e59e",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:00874015>>"
+    "context": "<<POS:00874015>> addButton(14,\"Leave\",mainGameMenu)"
   },
   {
     "key": "output|What_should_you_and_Kase_talk_about|e5b70cdf27d5",
@@ -2346,94 +2478,94 @@
     "context": "<<POS:00874315>>"
   },
   {
-    "key": "output|n_n_i_Oh_uhm_i_he_stammers_for_a_moment_i_did_you_need|3c3674349842",
-    "original": "\\n\\n<i>“Oh, uhm,”</i> he stammers for a moment, <i>“did you need something, \"+pc.mf(\"sir\",\"ma’am\")+\"?”</i>",
+    "key": "output|i_Oh_uhm_i_he_stammers_for_a_moment_i_did_you_need_som|13527510aa03",
+    "original": "<i>“Oh, uhm,”</i> he stammers for a moment, <i>“did you need something, \"+pc.mf(\"sir\",\"ma’am\")+\"?”</i>",
     "translation": "",
-    "context": "<<POS:00874451>>"
+    "context": "<<POS:00874455>>"
   },
   {
-    "key": "output|n_nYou_tell_him_that_you_don_t_need_anything_from_him_but_you|95571e2079b9",
-    "original": "\\n\\nYou tell him that you don’t need anything from him, but you thought you could give him a little something to make his arm feel a bit better, and quickly reach a hand down to grab at the visible bulge in his armor’s groin.",
+    "key": "output|You_tell_him_that_you_don_t_need_anything_from_him_but_you_thou|ca5159682f33",
+    "original": "You tell him that you don’t need anything from him, but you thought you could give him a little something to make his arm feel a bit better, and quickly reach a hand down to grab at the visible bulge in his armor’s groin.",
     "translation": "",
-    "context": "<<POS:00874568>>"
+    "context": "<<POS:00874572>>"
   },
   {
-    "key": "output|n_nHe_gasps_with_surprise_as_your_hand_makes_contact_with_his_s|03e20d13cee0",
-    "original": "\\n\\nHe gasps with surprise as your hand makes contact with his still clothed cock, shoulders jumping before he settles down, slumping a bit in his seat.",
+    "key": "output|He_gasps_with_surprise_as_your_hand_makes_contact_with_his_still|ff2084d9c50a",
+    "original": "He gasps with surprise as your hand makes contact with his still clothed cock, shoulders jumping before he settles down, slumping a bit in his seat.",
     "translation": "",
-    "context": "<<POS:00874804>>"
+    "context": "<<POS:00874808>>"
   },
   {
-    "key": "output|n_n_i_Y_yes_i_he_stutters_breathing_heavy_i_I_I_think|8f31f805ce18",
-    "original": "\\n\\n<i>“Y-yes,”</i> he stutters, breathing heavy, <i>“I-I think the release of endorphins from some intimate contact should dilute the pain...”</i>",
+    "key": "output|i_Y_yes_i_he_stutters_breathing_heavy_i_I_I_think_the|4cab9099bdd3",
+    "original": "<i>“Y-yes,”</i> he stutters, breathing heavy, <i>“I-I think the release of endorphins from some intimate contact should dilute the pain...”</i>",
     "translation": "",
-    "context": "<<POS:00874967>>"
+    "context": "<<POS:00874971>>"
   },
   {
-    "key": "output|n_nYou_smile_wondering_if_Kase_s_sudden_loss_of_composure_is_d|51b07b10eece",
-    "original": "\\n\\nYou smile, wondering if Kase’s sudden loss of composure is due to lust or surprise, but all the same, you put an arm over his shoulder and reach up to the zipper of his armoured suit with another.",
+    "key": "output|You_smile_wondering_if_Kase_s_sudden_loss_of_composure_is_due_t|3d2f6ddeec03",
+    "original": "You smile, wondering if Kase’s sudden loss of composure is due to lust or surprise, but all the same, you put an arm over his shoulder and reach up to the zipper of his armoured suit with another.",
     "translation": "",
-    "context": "<<POS:00875125>>"
+    "context": "<<POS:00875129>>"
   },
   {
-    "key": "output|n_nThe_kaithrit_s_breath_goes_ragged_as_you_start_to_pull_downw|0b89a7b61b2d",
-    "original": "\\n\\nThe kaithrit’s breath goes ragged as you start to pull downward, parting his clothing and revealing the pale skin of his smooth chest all the way down to his svelte tummy until the zipper reaches his groin. Then it’s just a little trip south before you finally free Kase’s cat-cock, letting his slowly stiffening tool pop free of its confines with a relieved sigh, already radiating warmth onto your palm and pulsing with each beat of the kitty’s heart. ",
+    "key": "output|The_kaithrit_s_breath_goes_ragged_as_you_start_to_pull_downward|39a057b81279",
+    "original": "The kaithrit’s breath goes ragged as you start to pull downward, parting his clothing and revealing the pale skin of his smooth chest all the way down to his svelte tummy until the zipper reaches his groin. Then it’s just a little trip south before you finally free Kase’s cat-cock, letting his slowly stiffening tool pop free of its confines with a relieved sigh, already radiating warmth onto your palm and pulsing with each beat of the kitty’s heart. ",
     "translation": "",
-    "context": "<<POS:00875336>>"
+    "context": "<<POS:00875340>>"
   },
   {
-    "key": "output|n_nIt_s_hard_to_tell_his_length_now_but_you_re_sure_Kase_has_a|532d94fc8772",
-    "original": "\\n\\nIt’s hard to tell his length now, but you’re sure Kase has a thick shaft, one you quickly wrap your fingers around, drawing quivering and stuttering noises from the kaithrit. You lean into him, and once you’ve got a good grip on his manhood, you start to stroke, gently fondling his cock to hardness. Grinning, you look at his face, getting a good look at his beet-red and lust-ridden visage, but he keeps his gaze downwards, focusing on the hand jerking him off.",
+    "key": "output|It_s_hard_to_tell_his_length_now_but_you_re_sure_Kase_has_a_thi|3a9d098e9312",
+    "original": "It’s hard to tell his length now, but you’re sure Kase has a thick shaft, one you quickly wrap your fingers around, drawing quivering and stuttering noises from the kaithrit. You lean into him, and once you’ve got a good grip on his manhood, you start to stroke, gently fondling his cock to hardness. Grinning, you look at his face, getting a good look at his beet-red and lust-ridden visage, but he keeps his gaze downwards, focusing on the hand jerking him off.",
     "translation": "",
-    "context": "<<POS:00875805>>"
+    "context": "<<POS:00875809>>"
   },
   {
-    "key": "output|n_nYou_take_a_moment_to_enjoy_the_feeling_of_his_soft_kaithrit|33e341e04510",
-    "original": "\\n\\nYou take a moment to enjoy the feeling of his soft kaithrit bristles against your palm, so different than a human’s dick. Regardless, you speed up the movement of your hand, up and down, up and down at a steady pace, watching Kase bite at his lip and make the cutest faces as he tries to quiet himself. His efforts are for naught, though; his voice breaks into quiet little moans at increasingly short intervals. Luckily for Kase, though, you’re in a dark enough, and empty enough corner of the bar that no one seems to notice.",
+    "key": "output|You_take_a_moment_to_enjoy_the_feeling_of_his_soft_kaithrit_bris|cc640d36c975",
+    "original": "You take a moment to enjoy the feeling of his soft kaithrit bristles against your palm, so different than a human’s dick. Regardless, you speed up the movement of your hand, up and down, up and down at a steady pace, watching Kase bite at his lip and make the cutest faces as he tries to quiet himself. His efforts are for naught, though; his voice breaks into quiet little moans at increasingly short intervals. Luckily for Kase, though, you’re in a dark enough, and empty enough corner of the bar that no one seems to notice.",
     "translation": "",
-    "context": "<<POS:00876283>>"
+    "context": "<<POS:00876287>>"
   },
   {
-    "key": "output|n_nHis_back_arches_sporadically_his_fists_clenching_in_an_atte|94580eb66250",
-    "original": "\\n\\nHis back arches sporadically, his fists clenching in an attempt to quell the pleasure of your steady handjob. Then, you’re not sure what it is, but you feel compelled to kiss the cute femboy on his cheek, and you do so, pressing your lips to the soft flesh of his face and letting them linger there. ",
+    "key": "output|His_back_arches_sporadically_his_fists_clenching_in_an_attempt|2d546099c2b3",
+    "original": "His back arches sporadically, his fists clenching in an attempt to quell the pleasure of your steady handjob. Then, you’re not sure what it is, but you feel compelled to kiss the cute femboy on his cheek, and you do so, pressing your lips to the soft flesh of his face and letting them linger there. ",
     "translation": "",
-    "context": "<<POS:00876825>>"
+    "context": "<<POS:00876829>>"
   },
   {
-    "key": "output|n_nIt_seems_that_was_all_Kase_needed_to_put_him_over_his_edge|2e67236779dc",
-    "original": "\\n\\nIt seems that was all Kase needed to put him over his edge. He grunts and thrust his hips upwards against your palm, cock spasming in your grip. You smile as the kaithrit reaches his climax, and quickly move your hand upward to cup it around his engorging tip, letting him splatter your hand and fingers with his thick kitty-spooge and preventing most of the mess.",
+    "key": "output|It_seems_that_was_all_Kase_needed_to_put_him_over_his_edge_He_g|779c777d519e",
+    "original": "It seems that was all Kase needed to put him over his edge. He grunts and thrust his hips upwards against your palm, cock spasming in your grip. You smile as the kaithrit reaches his climax, and quickly move your hand upward to cup it around his engorging tip, letting him splatter your hand and fingers with his thick kitty-spooge and preventing most of the mess.",
     "translation": "",
-    "context": "<<POS:00877140>>"
+    "context": "<<POS:00877144>>"
   },
   {
-    "key": "output|n_nKase_comes_down_from_his_orgasm_with_his_chest_heaving_slow|96b53c18c6c0",
-    "original": "\\n\\nKase comes down from his orgasm with his chest heaving, slowly-softening dick leaking a couple drops of cum onto the thigh of his suit. He takes a few deep breaths in an attempt to compose himself.",
+    "key": "output|Kase_comes_down_from_his_orgasm_with_his_chest_heaving_slowly_s|dc37ea01d8de",
+    "original": "Kase comes down from his orgasm with his chest heaving, slowly-softening dick leaking a couple drops of cum onto the thigh of his suit. He takes a few deep breaths in an attempt to compose himself.",
     "translation": "",
-    "context": "<<POS:00877519>>"
+    "context": "<<POS:00877523>>"
   },
   {
-    "key": "output|n_nBefore_he_can_though_you_use_your_free_hand_to_cup_Kase_s|dd32c5b73dbe",
-    "original": "\\n\\nBefore he can, though, you use your free hand to cup Kase’s cheek and turn him towards you. He looks at you with what seems to be embarrassment, even a bit of shame, but you smile at him all the same and lift your spunk-covered hand to your lips and lick. Kase blushes hard and his eyes go wide as you lick up his load, letting his flavor roll around your tongue until you’ve gotten your fingers good and clean.",
+    "key": "output|Before_he_can_though_you_use_your_free_hand_to_cup_Kase_s_chee|c4402479427a",
+    "original": "Before he can, though, you use your free hand to cup Kase’s cheek and turn him towards you. He looks at you with what seems to be embarrassment, even a bit of shame, but you smile at him all the same and lift your spunk-covered hand to your lips and lick. Kase blushes hard and his eyes go wide as you lick up his load, letting his flavor roll around your tongue until you’ve gotten your fingers good and clean.",
     "translation": "",
-    "context": "<<POS:00877759>>"
+    "context": "<<POS:00877763>>"
   },
   {
-    "key": "output|n_nBefore_he_can_though_you_lift_up_your_spunk_covered_hand_a|635c07414218",
-    "original": "\\n\\nBefore he can, though, you lift up your spunk-covered hand and present it to Kase. He looks at you and blushes hard, his mien riddled with embarrassment, and even a bit of shame, but all it takes is a nod from you for the kitty to start licking at your palm. He hesitatingly lets his tongue loll from his mouth and flicks it against your palm, and you’re almost surprised at what you feel: bristles! His tongue is nubby like his cock, tickling your skin as he slowly licks away at his own cum until your hand is good and clean.",
+    "key": "output|Before_he_can_though_you_lift_up_your_spunk_covered_hand_and_p|877ca0e12e91",
+    "original": "Before he can, though, you lift up your spunk-covered hand and present it to Kase. He looks at you and blushes hard, his mien riddled with embarrassment, and even a bit of shame, but all it takes is a nod from you for the kitty to start licking at your palm. He hesitatingly lets his tongue loll from his mouth and flicks it against your palm, and you’re almost surprised at what you feel: bristles! His tongue is nubby like his cock, tickling your skin as he slowly licks away at his own cum until your hand is good and clean.",
     "translation": "",
-    "context": "<<POS:00878185>>"
+    "context": "<<POS:00878189>>"
   },
   {
-    "key": "output|n_nOnce_that_s_all_said_and_done_Kase_goes_to_zip_his_suit_bac|dad1b6b1d521",
-    "original": "\\n\\nOnce that’s all said and done, Kase goes to zip his suit back up before turning to you can giving you a very shaky <i>“Thank you, \"+pc.mf(\"sir\",\"ma’am\")+\".”</i>",
+    "key": "output|Once_that_s_all_said_and_done_Kase_goes_to_zip_his_suit_back_up|96358978b4e5",
+    "original": "Once that’s all said and done, Kase goes to zip his suit back up before turning to you can giving you a very shaky <i>“Thank you, \"+pc.mf(\"sir\",\"ma’am\")+\".”</i>",
     "translation": "",
-    "context": "<<POS:00878727>>"
+    "context": "<<POS:00878731>>"
   },
   {
-    "key": "output|n_nYou_smile_and_tell_him_he_s_welcome_then_slip_out_from_his|4bc165c2a98c",
-    "original": "\\n\\nYou smile and tell him he’s welcome, then slip out from his side of the table and back to yours, leaving the kitty boy with a red face, heaving chest, and hopefully a better-feeling arm.",
+    "key": "output|You_smile_and_tell_him_he_s_welcome_then_slip_out_from_his_side|ab38c8941d48",
+    "original": "You smile and tell him he’s welcome, then slip out from his side of the table and back to yours, leaving the kitty boy with a red face, heaving chest, and hopefully a better-feeling arm.",
     "translation": "",
-    "context": "<<POS:00878902>>"
+    "context": "<<POS:00878906>>"
   },
   {
     "key": "output|Looking_at_Kase_s_situation_you_wonder_if_you_could_buy_his_con|6ca085f3ef73",
@@ -2442,40 +2574,76 @@
     "context": "<<POS:00879311>>"
   },
   {
-    "key": "output|n_nHis_eyes_widen_at_the_suggestion_i_R_really_i_he_excl|307d445eabb1",
-    "original": "\\n\\nHis eyes widen at the suggestion. <i>“R-really?”</i> he exclaims in shock, right before his surprise turns to disappointment, <i>“I would love to get out of Pyrite and off this planet more than anything else, but that unfortunately doesn’t change the fact that I’m still under contract...”</i>",
+    "key": "output|His_eyes_widen_at_the_suggestion_i_R_really_i_he_exclaims|44ff46d72b8d",
+    "original": "His eyes widen at the suggestion. <i>“R-really?”</i> he exclaims in shock, right before his surprise turns to disappointment, <i>“I would love to get out of Pyrite and off this planet more than anything else, but that unfortunately doesn’t change the fact that I’m still under contract...”</i>",
     "translation": "",
-    "context": "<<POS:00879520>>"
+    "context": "<<POS:00879524>>"
   },
   {
     "key": "button|Buy_Contract|bd57612d06f7",
     "original": "Buy Contract",
     "translation": "",
-    "context": "<<POS:00879849>>"
+    "context": "<<POS:00879849>> addButton(0,\"Buy Contract\",this.kaseBuyContract,\"Buy Contract\",\"Offer to buy his contract. It’ll probably cost you about 5000 credits.\")"
   },
   {
-    "key": "button|Buy_Contract|8925c1c77122",
+    "key": "button.hover|Buy_Contract|bd57612d06f7",
     "original": "Buy Contract",
     "translation": "",
-    "context": "<<POS:00879994>>"
+    "context": "<<POS:00879885>> addButton(0,\"Buy Contract\",this.kaseBuyContract,\"Buy Contract\",\"Offer to buy his contract. It’ll probably cost you about 5000 credits.\")"
   },
   {
-    "key": "button|Steele_Tech|14f1bc80a3b8",
+    "key": "button.tooltip|Offer_to_buy_his_contract_It_ll_probably_cost_you_about_5000_cr|f7040f9a68df",
+    "original": "Offer to buy his contract. It’ll probably cost you about 5000 credits.",
+    "translation": "",
+    "context": "<<POS:00879900>> addButton(0,\"Buy Contract\",this.kaseBuyContract,\"Buy Contract\",\"Offer to buy his contract. It’ll probably cost you about 5000 credits.\")"
+  },
+  {
+    "key": "button|Buy_Contract|7840e0001231",
+    "original": "Buy Contract",
+    "translation": "",
+    "context": "<<POS:00879994>> addDisabledButton(0,\"Buy Contract\",\"Buy Contract\",\"You don’t have the 5000 credits needed for the buy out.\")"
+  },
+  {
+    "key": "button.hover|You_don_t_have_the_5000_credits_needed_for_the_buy_out|f7abe447f78e",
+    "original": "You don’t have the 5000 credits needed for the buy out.",
+    "translation": "",
+    "context": "<<POS:00880024>> addDisabledButton(0,\"Buy Contract\",\"Buy Contract\",\"You don’t have the 5000 credits needed for the buy out.\")"
+  },
+  {
+    "key": "button|Steele_Tech|29038c7bc7a8",
     "original": "Steele Tech",
     "translation": "",
-    "context": "<<POS:00880109>>"
+    "context": "<<POS:00880109>> addButton(1,\"Steele Tech\",this.kaseHireSteeleTech,\"Steele Tech\",\"Ask him if he’s up for joining Steele Tech. Anno can probably help with all the paperwork and bureaucratic aspects.\")"
   },
   {
-    "key": "button|Steele_Tech|26089aae350a",
+    "key": "button.hover|Steele_Tech|29038c7bc7a8",
     "original": "Steele Tech",
     "translation": "",
-    "context": "<<POS:00880300>>"
+    "context": "<<POS:00880147>> addButton(1,\"Steele Tech\",this.kaseHireSteeleTech,\"Steele Tech\",\"Ask him if he’s up for joining Steele Tech. Anno can probably help with all the paperwork and bureaucratic aspects.\")"
   },
   {
-    "key": "button|Never_Mind|7753751dfe69",
+    "key": "button.tooltip|Ask_him_if_he_s_up_for_joining_Steele_Tech_Anno_can_probably_he|a54208190278",
+    "original": "Ask him if he’s up for joining Steele Tech. Anno can probably help with all the paperwork and bureaucratic aspects.",
+    "translation": "",
+    "context": "<<POS:00880161>> addButton(1,\"Steele Tech\",this.kaseHireSteeleTech,\"Steele Tech\",\"Ask him if he’s up for joining Steele Tech. Anno can probably help with all the paperwork and bureaucratic aspects.\")"
+  },
+  {
+    "key": "button|Steele_Tech|132e317eed2e",
+    "original": "Steele Tech",
+    "translation": "",
+    "context": "<<POS:00880300>> addDisabledButton(1,\"Steele Tech\",\"Steele Tech\",\"You probably don’t have the authority to hire for your dad’s company on your own.\")"
+  },
+  {
+    "key": "button.hover|You_probably_don_t_have_the_authority_to_hire_for_your_dad_s_com|aecd3c9775c8",
+    "original": "You probably don’t have the authority to hire for your dad’s company on your own.",
+    "translation": "",
+    "context": "<<POS:00880328>> addDisabledButton(1,\"Steele Tech\",\"Steele Tech\",\"You probably don’t have the authority to hire for your dad’s company on your own.\")"
+  },
+  {
+    "key": "button|Never_Mind|7447a4ba28cb",
     "original": "Never Mind",
     "translation": "",
-    "context": "<<POS:00880425>>"
+    "context": "<<POS:00880425>> addButton(2,\"Never Mind\",this.kaseNevermind)"
   },
   {
     "key": "output|You_smile_and_pull_out_your_Codex_and_get_ready_to_fill_out_some|10bdb3ca21ea",
@@ -2484,52 +2652,52 @@
     "context": "<<POS:00880570>>"
   },
   {
-    "key": "output|n_n_i_You_re_You_re_being_serious_aren_t_you_i_he_asks|ab72732388b1",
-    "original": "\\n\\n<i>“You’re... You’re being serious aren’t you?”</i> he asks, slitted pupils wide and fluffy green ears perking up.",
+    "key": "output|i_You_re_You_re_being_serious_aren_t_you_i_he_asks_sli|8aa21f4066ba",
+    "original": "<i>“You’re... You’re being serious aren’t you?”</i> he asks, slitted pupils wide and fluffy green ears perking up.",
     "translation": "",
-    "context": "<<POS:00880730>>"
+    "context": "<<POS:00880734>>"
   },
   {
-    "key": "output|n_nGiving_him_a_nod_you_gesture_towards_his_datapad_which_has|fd25714ab225",
-    "original": "\\n\\nGiving him a nod, you gesture towards his datapad, which has Kase scrambling for the small holographic.",
+    "key": "output|Giving_him_a_nod_you_gesture_towards_his_datapad_which_has_Kas|4c9149bda366",
+    "original": "Giving him a nod, you gesture towards his datapad, which has Kase scrambling for the small holographic.",
     "translation": "",
-    "context": "<<POS:00880859>>"
+    "context": "<<POS:00880863>>"
   },
   {
-    "key": "output|n_n_i_Here_i_he_says_turning_the_holopad_on_and_looking_d|fd7b4308bb6a",
-    "original": "\\n\\n<i>“Here,”</i> he says, turning the holopad on and looking down at it, <i>“I’ll forward you some forms you’ll need to fill out, and then we can get to the nitty-gritty with the credits.”</i>",
+    "key": "output|i_Here_i_he_says_turning_the_holopad_on_and_looking_down|e9b1854cba05",
+    "original": "<i>“Here,”</i> he says, turning the holopad on and looking down at it, <i>“I’ll forward you some forms you’ll need to fill out, and then we can get to the nitty-gritty with the credits.”</i>",
     "translation": "",
-    "context": "<<POS:00880977>>"
+    "context": "<<POS:00880981>>"
   },
   {
-    "key": "output|n_n_b_Some_amount_of_paperwork_later_b|df02f001bafc",
-    "original": "\\n\\n<b>Some amount of paperwork later...</b>",
+    "key": "output|b_Some_amount_of_paperwork_later_b|dfb9bd18c565",
+    "original": "<b>Some amount of paperwork later...</b>",
     "translation": "",
-    "context": "<<POS:00881182>>"
+    "context": "<<POS:00881186>>"
   },
   {
-    "key": "output|n_n_i_And_that_s_everything_i_Kase_says_finally_putting_d|193dcc49bda1",
-    "original": "\\n\\n<i>“And that’s everything,”</i> Kase says, finally putting down his datapad, <i>“That’s it then, isn’t it? I’m finally done with Pyrite... it’s honestly hard to believe after all these years.”</i> He closes his eyes and takes a deep breath, remaining silent for a moment before opening his eyes again and looking at you, <i>“Alright, I I’ll pack my things and head off to your ship straight away.”</i>",
+    "key": "output|i_And_that_s_everything_i_Kase_says_finally_putting_down|b9a012f77ace",
+    "original": "<i>“And that’s everything,”</i> Kase says, finally putting down his datapad, <i>“That’s it then, isn’t it? I’m finally done with Pyrite... it’s honestly hard to believe after all these years.”</i> He closes his eyes and takes a deep breath, remaining silent for a moment before opening his eyes again and looking at you, <i>“Alright, I I’ll pack my things and head off to your ship straight away.”</i>",
     "translation": "",
-    "context": "<<POS:00881237>>"
+    "context": "<<POS:00881241>>"
   },
   {
-    "key": "output|n_nWith_that_he_stands_from_his_seat_and_goes_to_make_his_way|f279ca2a3b3d",
-    "original": "\\n\\nWith that, he stands from his seat and goes to make his way out of the bar. Before he does, though, he turns back to you, and raises his good arm to you in a salute, <i>“Captain...”</i> Then, he’s off again, back to your ship...",
+    "key": "output|With_that_he_stands_from_his_seat_and_goes_to_make_his_way_out|459a5fd2c7aa",
+    "original": "With that, he stands from his seat and goes to make his way out of the bar. Before he does, though, he turns back to you, and raises his good arm to you in a salute, <i>“Captain...”</i> Then, he’s off again, back to your ship...",
     "translation": "",
-    "context": "<<POS:00881653>>"
+    "context": "<<POS:00881657>>"
   },
   {
-    "key": "output|n_n_b_Kase_has_joined_your_crew_b|214b39ee3888",
-    "original": "\\n\\n(<b>Kase has joined your crew!</b>)",
+    "key": "output|b_Kase_has_joined_your_crew_b|f0f5c9e95286",
+    "original": "(<b>Kase has joined your crew!</b>)",
     "translation": "",
-    "context": "<<POS:00881896>>"
+    "context": "<<POS:00881900>>"
   },
   {
-    "key": "button|Next|5b07b782f707",
+    "key": "button|Next|cf3a6f76b64e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00882010>>"
+    "context": "<<POS:00882010>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|You_lean_forward_and_ask_him_if_he_d_like_to_work_for_Steele_Tec|615677673488",
@@ -2538,52 +2706,52 @@
     "context": "<<POS:00882146>>"
   },
   {
-    "key": "output|n_n_i_Steele_Tech_i_he_says_slitted_pupils_wide_looking|f1f3b3d59b05",
-    "original": "\\n\\n<i>“Steele Tech?”</i> he says, slitted pupils wide, looking almost bewildered, <i>“You could get me a job with Steele Tech? I mean their health policy alone makes them a better employer than Pyrite...”</i>",
+    "key": "output|i_Steele_Tech_i_he_says_slitted_pupils_wide_looking_almo|a4a41c058d03",
+    "original": "<i>“Steele Tech?”</i> he says, slitted pupils wide, looking almost bewildered, <i>“You could get me a job with Steele Tech? I mean their health policy alone makes them a better employer than Pyrite...”</i>",
     "translation": "",
-    "context": "<<POS:00882237>>"
+    "context": "<<POS:00882241>>"
   },
   {
-    "key": "output|n_nGrinning_you_tell_him_you_have_quite_the_in_with_Steele_Tec|07ddc9b0214f",
-    "original": "\\n\\nGrinning, you tell him you have quite the in with Steele Tech, and one of their employees on your ship.",
+    "key": "output|Grinning_you_tell_him_you_have_quite_the_in_with_Steele_Tech_a|268f116b6328",
+    "original": "Grinning, you tell him you have quite the in with Steele Tech, and one of their employees on your ship.",
     "translation": "",
-    "context": "<<POS:00882457>>"
+    "context": "<<POS:00882461>>"
   },
   {
-    "key": "output|n_n_i_You_re_You_re_being_serious_aren_t_you_i_he_asks|ae094a27801b",
-    "original": "\\n\\n<i>“You’re... You’re being serious aren’t you?”</i> he asks, fluffy green ears perking up.",
+    "key": "output|i_You_re_You_re_being_serious_aren_t_you_i_he_asks_flu|7d7ad3dfbcf2",
+    "original": "<i>“You’re... You’re being serious aren’t you?”</i> he asks, fluffy green ears perking up.",
     "translation": "",
-    "context": "<<POS:00882575>>"
+    "context": "<<POS:00882579>>"
   },
   {
-    "key": "output|n_nYou_tell_him_that_if_he_s_interested_he_should_head_to_your|f9e1bf9c24c5",
-    "original": "\\n\\nYou tell him that if he’s interested he should head to your ship at the docks and talk to the white-haired ausar aboard your craft, Anno Dorna.",
+    "key": "output|You_tell_him_that_if_he_s_interested_he_should_head_to_your_ship|6f07cad0eb60",
+    "original": "You tell him that if he’s interested he should head to your ship at the docks and talk to the white-haired ausar aboard your craft, Anno Dorna.",
     "translation": "",
-    "context": "<<POS:00882680>>"
+    "context": "<<POS:00882684>>"
   },
   {
-    "key": "output|n_nThe_kaithrit_hurriedly_stands_out_of_his_seat_i_Yes_I_ll|945eb27ec8a6",
-    "original": "\\n\\nThe kaithrit hurriedly stands out of his seat, <i>“Yes, I’ll gather my things and head there right now! I thank you from the depths of my heart for this opportunity, \"+pc.mf(\"sir\",\"ma’am\")+\".”</i>",
+    "key": "output|The_kaithrit_hurriedly_stands_out_of_his_seat_i_Yes_I_ll_gat|520c90b923f6",
+    "original": "The kaithrit hurriedly stands out of his seat, <i>“Yes, I’ll gather my things and head there right now! I thank you from the depths of my heart for this opportunity, \"+pc.mf(\"sir\",\"ma’am\")+\".”</i>",
     "translation": "",
-    "context": "<<POS:00882838>>"
+    "context": "<<POS:00882842>>"
   },
   {
-    "key": "output|n_nWith_that_he_goes_to_make_his_way_out_of_the_bar_Before_he|03a37a1dacf8",
-    "original": "\\n\\nWith that, he goes to make his way out of the bar. Before he does, though, he turns back to you, and raises his good arm to you in a salute, <i>“Captain...”</i> Then, he’s off again, back to your ship...",
+    "key": "output|With_that_he_goes_to_make_his_way_out_of_the_bar_Before_he_doe|670f649691cb",
+    "original": "With that, he goes to make his way out of the bar. Before he does, though, he turns back to you, and raises his good arm to you in a salute, <i>“Captain...”</i> Then, he’s off again, back to your ship...",
     "translation": "",
-    "context": "<<POS:00883049>>"
+    "context": "<<POS:00883053>>"
   },
   {
-    "key": "output|n_n_b_Kase_has_joined_your_crew_b|214b39ee3888#1",
-    "original": "\\n\\n(<b>Kase has joined your crew!</b>)",
+    "key": "output|b_Kase_has_joined_your_crew_b|f0f5c9e95286#1",
+    "original": "(<b>Kase has joined your crew!</b>)",
     "translation": "",
-    "context": "<<POS:00883267>>"
+    "context": "<<POS:00883271>>"
   },
   {
-    "key": "button|Next|5b07b782f707#1",
+    "key": "button|Next|cf3a6f76b64e#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00883388>>"
+    "context": "<<POS:00883388>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|You_figure_you_probably_shouldn_t_go_around_buying_employee_cont|a1f05bdd85bd",
@@ -2592,22 +2760,22 @@
     "context": "<<POS:00883519>>"
   },
   {
-    "key": "output|n_n_i_That_s_quite_alright_pc_mf_sir_ma_am_i_he|49e075285750",
-    "original": "\\n\\n<i>“That’s quite alright, \"+pc.mf(\"sir\",\"ma’am\")+\",”</i> he says with a warm smile.",
+    "key": "output|i_That_s_quite_alright_pc_mf_sir_ma_am_i_he_says|104f6a4e3174",
+    "original": "<i>“That’s quite alright, \"+pc.mf(\"sir\",\"ma’am\")+\",”</i> he says with a warm smile.",
     "translation": "",
-    "context": "<<POS:00883699>>"
+    "context": "<<POS:00883703>>"
   },
   {
     "key": "button|Next|19cba9bef612",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00883817>>"
+    "context": "<<POS:00883817>> addButton(0,\"Next\",this.kaseMenu)"
   },
   {
     "key": "button|Next|35b9a3540cff#2",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00884034>>"
+    "context": "<<POS:00884034>> addButton(0,\"Next\",this.approachKase)"
   },
   {
     "key": "output|You_begin_to_make_your_way_up_to_the_sad_looking_kaithrit_takin|efc172921f82",
@@ -2616,40 +2784,40 @@
     "context": "<<POS:00884170>>"
   },
   {
-    "key": "output|n_n_i_Oh_i_he_exclaims_looking_up_from_his_holopad_and_br|3e584397b1bb",
-    "original": "\\n\\n<i>“Oh!”</i> he exclaims, looking up from his holopad and brushing some green locks from his eyes, voice sounding as poised and proper as the last time you met, <i>“Wait a moment, I remember you, \"+pc.mf(\"sir\",\"ma’am\")+\". You’re the one that retrieved the hard drive from the fallen satellite.”</i> He shifts a bit in his seat, picking up his posture to look more proper and professional. <i>“I’m afraid I have no more work for you at the present, though. In fact, I’m a bit at a loss for labor too, at the moment.”</i>",
+    "key": "output|i_Oh_i_he_exclaims_looking_up_from_his_holopad_and_brushi|28643fcb6d28",
+    "original": "<i>“Oh!”</i> he exclaims, looking up from his holopad and brushing some green locks from his eyes, voice sounding as poised and proper as the last time you met, <i>“Wait a moment, I remember you, \"+pc.mf(\"sir\",\"ma’am\")+\". You’re the one that retrieved the hard drive from the fallen satellite.”</i> He shifts a bit in his seat, picking up his posture to look more proper and professional. <i>“I’m afraid I have no more work for you at the present, though. In fact, I’m a bit at a loss for labor too, at the moment.”</i>",
     "translation": "",
-    "context": "<<POS:00884461>>"
+    "context": "<<POS:00884465>>"
   },
   {
-    "key": "output|n_nYou_smile_and_take_a_seat_across_from_the_kitty_which_seems|fe5bd4d79570",
-    "original": "\\n\\nYou smile and take a seat across from the kitty, which seems to surprise him a bit, and tell him that you just thought he looked \"+(pc.isMischievous()?\"lonely\":\"a bit down\")+\" and that you thought he could use some company.",
+    "key": "output|You_smile_and_take_a_seat_across_from_the_kitty_which_seems_to|096f8c15c570",
+    "original": "You smile and take a seat across from the kitty, which seems to surprise him a bit, and tell him that you just thought he looked \"+(pc.isMischievous()?\"lonely\":\"a bit down\")+\" and that you thought he could use some company.",
     "translation": "",
-    "context": "<<POS:00884995>>"
+    "context": "<<POS:00884999>>"
   },
   {
-    "key": "output|n_n_i_Oh_well_i_he_stammers_letting_his_holopad_fall_fla|e93e2c229741",
-    "original": "\\n\\n<i>“Oh, well,”</i> he stammers, letting his holopad fall flat onto the table, <i>“I guess I could engage in some friendly conversation. I haven’t had much of it since I arrived here on Mhen’ga, and it’d probably help in keeping my mind off things.”</i>",
+    "key": "output|i_Oh_well_i_he_stammers_letting_his_holopad_fall_flat_on|a4a0bef3ef07",
+    "original": "<i>“Oh, well,”</i> he stammers, letting his holopad fall flat onto the table, <i>“I guess I could engage in some friendly conversation. I haven’t had much of it since I arrived here on Mhen’ga, and it’d probably help in keeping my mind off things.”</i>",
     "translation": "",
-    "context": "<<POS:00885233>>"
+    "context": "<<POS:00885237>>"
   },
   {
-    "key": "output|n_nThere_s_a_short_silence_after_that_before_he_nearly_jumps_ou|f0c1112f5cdd",
-    "original": "\\n\\nThere’s a short silence after that before he nearly jumps out of his seat. <i>“Ah! That’s right!”</i> he says, extending his one good arm forward and offering a handshake, <i>“My name is Kase, Kase Bokiil, a pleasure to meet you, \"+pc.mf(\"mister\",\"miss\")+\"...?”</i>",
+    "key": "output|There_s_a_short_silence_after_that_before_he_nearly_jumps_out_of|879a87044fd9",
+    "original": "There’s a short silence after that before he nearly jumps out of his seat. <i>“Ah! That’s right!”</i> he says, extending his one good arm forward and offering a handshake, <i>“My name is Kase, Kase Bokiil, a pleasure to meet you, \"+pc.mf(\"mister\",\"miss\")+\"...?”</i>",
     "translation": "",
-    "context": "<<POS:00885500>>"
+    "context": "<<POS:00885504>>"
   },
   {
-    "key": "output|n_nNoting_that_his_other_arm_is_still_injured_or_broken_you_ta|87eaa9ca7344",
-    "original": "\\n\\nNoting that his other arm is still injured or broken, you take his hand and shake it, introducing yourself as “[pc.name]” resulting in a warm smile from Kase.",
+    "key": "output|Noting_that_his_other_arm_is_still_injured_or_broken_you_take_h|af8fef69672f",
+    "original": "Noting that his other arm is still injured or broken, you take his hand and shake it, introducing yourself as “[pc.name]” resulting in a warm smile from Kase.",
     "translation": "",
-    "context": "<<POS:00885780>>"
+    "context": "<<POS:00885784>>"
   },
   {
-    "key": "output|n_nOnce_your_introductions_are_done_you_re_both_left_sitting_a|5946b054ea47",
-    "original": "\\n\\nOnce your introductions are done, you’re both left sitting across from each other and your new friend seems a bit happier than he was before you came over. Then, after another short period of silence, Kase speaks up, <i>“So, [pc.name], was there anything in particular you wanted to discuss?”</i>",
+    "key": "output|Once_your_introductions_are_done_you_re_both_left_sitting_acros|8f9daa6798d4",
+    "original": "Once your introductions are done, you’re both left sitting across from each other and your new friend seems a bit happier than he was before you came over. Then, after another short period of silence, Kase speaks up, <i>“So, [pc.name], was there anything in particular you wanted to discuss?”</i>",
     "translation": "",
-    "context": "<<POS:00885953>>"
+    "context": "<<POS:00885957>>"
   },
   {
     "key": "output|Kase_notices_your_approach_looking_up_from_his_datapad_to_smile|0bdf68975dd9",
@@ -2658,15 +2826,15 @@
     "context": "<<POS:00886321>>"
   },
   {
-    "key": "output|n_nTaking_a_seat_across_from_the_kaithrit_you_notice_that_his|b6d9e1eaa32a",
-    "original": "\\n\\nTaking a seat across from the kaithrit, you notice that his face seems a lot brighter and happier at your presence. You quickly give him a hello and get comfortable in your seat, while Kase once again takes up a more proper, taller posture.",
+    "key": "output|Taking_a_seat_across_from_the_kaithrit_you_notice_that_his_face|423a346c74bc",
+    "original": "Taking a seat across from the kaithrit, you notice that his face seems a lot brighter and happier at your presence. You quickly give him a hello and get comfortable in your seat, while Kase once again takes up a more proper, taller posture.",
     "translation": "",
-    "context": "<<POS:00886459>>"
+    "context": "<<POS:00886463>>"
   },
   {
-    "key": "output|n_n_i_So_i_he_says_i_What_brought_you_over_here_today|d1a2db9d251d",
-    "original": "\\n\\n<i>“So,”</i> he says, <i>“What brought you over here today, friend?”</i>",
+    "key": "output|i_So_i_he_says_i_What_brought_you_over_here_today_frie|e52af77ed4ed",
+    "original": "<i>“So,”</i> he says, <i>“What brought you over here today, friend?”</i>",
     "translation": "",
-    "context": "<<POS:00886714>>"
+    "context": "<<POS:00886718>>"
   }
 ]

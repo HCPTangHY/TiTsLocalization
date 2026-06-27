@@ -6,22 +6,22 @@
     "context": "<<POS:06345160>>"
   },
   {
-    "key": "output|n_n_b_Do_you_take_this_pill_b|0e9bc57fcf5f",
-    "original": "\\n\\n<b>Do you take this pill?</b>",
+    "key": "output|b_Do_you_take_this_pill_b|d3b87b12e0bf",
+    "original": "<b>Do you take this pill?</b>",
     "translation": "",
-    "context": "<<POS:06345684>>"
+    "context": "<<POS:06345688>>"
   },
   {
-    "key": "button|Take_It|4e8166cd4e48",
+    "key": "button|Take_It|d6f6ca77fa5e",
     "original": "Take It",
     "translation": "",
-    "context": "<<POS:06345745>>"
+    "context": "<<POS:06345745>> addButton(0,\"Take It\",window.goAheadAndDumbfuck)"
   },
   {
     "key": "button|Don_t_Take|11fe9a948267",
     "original": "Don’t Take",
     "translation": "",
-    "context": "<<POS:06345794>>"
+    "context": "<<POS:06345794>> addButton(1,\"Don’t Take\",(function(){return t.dontTakeThePill(t)}))"
   },
   {
     "key": "output|You_decide_that_you_re_having_a_lot_of_fun_amping_up_your_sex_dr|6b6c8f0cd0c7",
@@ -33,13 +33,13 @@
     "key": "button|Take_It|23b25ae244da",
     "original": "Take It",
     "translation": "",
-    "context": "<<POS:06346170>>"
+    "context": "<<POS:06346170>> addButton(0,\"Take It\",window.goAheadAndDumbfuck)"
   },
   {
     "key": "button|Don_t_Take|11fe9a948267#1",
     "original": "Don’t Take",
     "translation": "",
-    "context": "<<POS:06346219>>"
+    "context": "<<POS:06346219>> addButton(1,\"Don’t Take\",(function(){return t.dontTakeThePill(t)}))"
   },
   {
     "key": "output|Ohhh_another_round_with_the_happy_purple_pink_pill_and_its_pl|00f7b7bae11b",
@@ -60,22 +60,22 @@
     "context": "<<POS:06346635>>"
   },
   {
-    "key": "output|n_nDo_you_take_another|32aae0ce4a5d",
-    "original": "\\n\\nDo you take another?",
+    "key": "output|Do_you_take_another|397ada3842b7",
+    "original": "Do you take another?",
     "translation": "",
-    "context": "<<POS:06346854>>"
+    "context": "<<POS:06346858>>"
   },
   {
-    "key": "button|Take_It|9ea288456117",
+    "key": "button|Take_It|3b3aa98ce30d",
     "original": "Take It",
     "translation": "",
-    "context": "<<POS:06346906>>"
+    "context": "<<POS:06346906>> addButton(0,\"Take It\",window.goAheadAndDumbfuck)"
   },
   {
     "key": "button|Don_t_Take|11fe9a948267#2",
     "original": "Don’t Take",
     "translation": "",
-    "context": "<<POS:06346955>>"
+    "context": "<<POS:06346955>> addButton(1,\"Don’t Take\",(function(){return t.dontTakeThePill(t)}))"
   },
   {
     "key": "output|Yay_Like_another_one_of_those_yummy_pinkie_funfun_pills_You_e|46ae2301cc97",
@@ -99,7 +99,7 @@
     "key": "button|Next|6d0f0ad55c5f",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06347355>>"
+    "context": "<<POS:06347355>> addButton(0,\"Next\",window.goAheadAndDumbfuck)"
   },
   {
     "key": "output|You_ve_heard_this_stuff_is_pretty_intense_You_had_better_look_u|e2f5562cc290",
@@ -111,22 +111,34 @@
     "key": "button|Use|69aa85c13668",
     "original": "Use",
     "translation": "",
-    "context": "<<POS:06347545>>"
+    "context": "<<POS:06347545>> addDisabledButton(0,\"Use\")"
   },
   {
     "key": "button|Don_t_Use|0be660b7f3f7",
     "original": "Don’t Use",
     "translation": "",
-    "context": "<<POS:06347564>>"
+    "context": "<<POS:06347564>> addButton(1,\"Don’t Use\",(function(){return t.dontTakeThePill(t)}))"
   },
   {
     "key": "button|Codex|ca0d49eb9299",
     "original": "Codex",
     "translation": "",
-    "context": "<<POS:06347631>>"
+    "context": "<<POS:06347631>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.kB)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),window.goAheadAndDumbfuck()})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.dontTakeThePill(t)}))}),\"Codex Entry\",\"View the Codex entry for Dumbfuck.\")"
   },
   {
-    "key": "output|e_capitalA_e_short_will_not_take_the_pill|c82b7a008824",
+    "key": "button.hover|Codex_Entry|24493e4f06cb",
+    "original": "Codex Entry",
+    "translation": "",
+    "context": "<<POS:06347839>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.kB)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),window.goAheadAndDumbfuck()})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.dontTakeThePill(t)}))}),\"Codex Entry\",\"View the Codex entry for Dumbfuck.\")"
+  },
+  {
+    "key": "button.tooltip|View_the_Codex_entry_for_Dumbfuck|d024ffbfdfe4",
+    "original": "View the Codex entry for Dumbfuck.",
+    "translation": "",
+    "context": "<<POS:06347853>> addButton(4,\"Codex\",(function(){showCodex(),(0,g.kB)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),window.goAheadAndDumbfuck()})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.dontTakeThePill(t)}))}),\"Codex Entry\",\"View the Codex entry for Dumbfuck.\")"
+  },
+  {
+    "key": "output|e_capitalA_e_short_will_not_take_the_pill|ad41714416f9",
     "original": "e.capitalA+e.short+\" will not take the pill.",
     "translation": "",
     "context": "<<POS:06347917>>"
@@ -141,6 +153,6 @@
     "key": "button|Next|b12b0715f315",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06348132>>"
+    "context": "<<POS:06348132>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
   }
 ]

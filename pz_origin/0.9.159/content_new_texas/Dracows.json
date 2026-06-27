@@ -3,109 +3,121 @@
     "key": "button|Next|43c1e187e1b0",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00944277>>"
+    "context": "<<POS:00944277>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "button|Appearance|af485afe2d63",
     "original": "Appearance",
     "translation": "",
-    "context": "<<POS:00944322>>"
+    "context": "<<POS:00944322>> addButton(0,\"Appearance\",(function(){clearOutput(),author(\"Night Trap\"),Mt(),output(\"Ciaran Eildean is a Treated ausar, colloquially known as a hellhound. He stands seven feet, eight inches tall without counting his unusual horns, which are far more vertical than those of most Treated humans. He has..."
   },
   {
     "key": "button|Talk|ddabdde12809",
     "original": "Talk",
     "translation": "",
-    "context": "<<POS:00947815>>"
+    "context": "<<POS:00947815>> addButton(1,\"Talk\",(function(){clearOutput(),author(\"Night Trap\"),Mt(),clearMenu(),output(\"He leans his chair onto its back legs again, flicking his hat back to show more of his face. <i>“I’d love a conversation, provided you’re the one doing the talking. I hear myself jaw plenty; it’s a whole lot m..."
   },
   {
     "key": "button|Sex|d14a44d11b7b",
     "original": "Sex",
     "translation": "",
-    "context": "<<POS:00949006>>"
+    "context": "<<POS:00949006>> addButton(2,\"Sex\",n,\"Sex\",\"Seduce the studly older man. Or more likely get dominated and pounded bareback in front of the whole saloon. Either one.\")"
   },
   {
-    "key": "button|Sex|a1a1a54fce26",
+    "key": "button.hover|Sex|d14a44d11b7b",
     "original": "Sex",
     "translation": "",
-    "context": "<<POS:00949185>>"
+    "context": "<<POS:00949014>> addButton(2,\"Sex\",n,\"Sex\",\"Seduce the studly older man. Or more likely get dominated and pounded bareback in front of the whole saloon. Either one.\")"
   },
   {
-    "key": "button|Sex|a1a1a54fce26#1",
+    "key": "button.tooltip|Seduce_the_studly_older_man_Or_more_likely_get_dominated_and_po|b75bc739e66c",
+    "original": "Seduce the studly older man. Or more likely get dominated and pounded bareback in front of the whole saloon. Either one.",
+    "translation": "",
+    "context": "<<POS:00949020>> addButton(2,\"Sex\",n,\"Sex\",\"Seduce the studly older man. Or more likely get dominated and pounded bareback in front of the whole saloon. Either one.\")"
+  },
+  {
+    "key": "button|Sex|15892b2170fe",
     "original": "Sex",
     "translation": "",
-    "context": "<<POS:00949377>>"
+    "context": "<<POS:00949185>> addButton(2,\"Sex\",o,\"Sex\",\"Seduce the studly older man. Or more likely get dominated and pounded bareback in front of the whole saloon. Either one.\")"
   },
   {
-    "key": "button|Sex|a1a1a54fce26#2",
+    "key": "button.hover|Sex|15892b2170fe",
     "original": "Sex",
     "translation": "",
-    "context": "<<POS:00949540>>"
+    "context": "<<POS:00949193>> addButton(2,\"Sex\",o,\"Sex\",\"Seduce the studly older man. Or more likely get dominated and pounded bareback in front of the whole saloon. Either one.\")"
   },
   {
-    "key": "button|Leave|191966f105d2",
+    "key": "button.tooltip|Seduce_the_studly_older_man_Or_more_likely_get_dominated_and_po|44920283a1e8",
+    "original": "Seduce the studly older man. Or more likely get dominated and pounded bareback in front of the whole saloon. Either one.",
+    "translation": "",
+    "context": "<<POS:00949199>> addButton(2,\"Sex\",o,\"Sex\",\"Seduce the studly older man. Or more likely get dominated and pounded bareback in front of the whole saloon. Either one.\")"
+  },
+  {
+    "key": "button|Sex|15892b2170fe#1",
+    "original": "Sex",
+    "translation": "",
+    "context": "<<POS:00949377>> addButton(2,\"Sex\",(function(){return a(!0)}),\"Sex\",\"Ciaran looks restless. Maybe he’d be willing to make an exception for you as long as you’re in heat?\")"
+  },
+  {
+    "key": "button.hover|Sex|15892b2170fe#1",
+    "original": "Sex",
+    "translation": "",
+    "context": "<<POS:00949410>> addButton(2,\"Sex\",(function(){return a(!0)}),\"Sex\",\"Ciaran looks restless. Maybe he’d be willing to make an exception for you as long as you’re in heat?\")"
+  },
+  {
+    "key": "button.tooltip|Ciaran_looks_restless_Maybe_he_d_be_willing_to_make_an_exceptio|f56f14e9ed37",
+    "original": "Ciaran looks restless. Maybe he’d be willing to make an exception for you as long as you’re in heat?",
+    "translation": "",
+    "context": "<<POS:00949416>> addButton(2,\"Sex\",(function(){return a(!0)}),\"Sex\",\"Ciaran looks restless. Maybe he’d be willing to make an exception for you as long as you’re in heat?\")"
+  },
+  {
+    "key": "button|Sex|bf6acd000113",
+    "original": "Sex",
+    "translation": "",
+    "context": "<<POS:00949540>> addDisabledButton(2,\"Sex\",\"Sex\",\"Ciaran already turned you down once, and judging from how he looks at you, you’re still not girly enough for his tastes. Don’t make it awkward for both of you.\")"
+  },
+  {
+    "key": "button.hover|Ciaran_already_turned_you_down_once_and_judging_from_how_he_loo|e9f0da841703",
+    "original": "Ciaran already turned you down once, and judging from how he looks at you, you’re still not girly enough for his tastes. Don’t make it awkward for both of you.",
+    "translation": "",
+    "context": "<<POS:00949552>> addDisabledButton(2,\"Sex\",\"Sex\",\"Ciaran already turned you down once, and judging from how he looks at you, you’re still not girly enough for his tastes. Don’t make it awkward for both of you.\")"
+  },
+  {
+    "key": "button|Leave|73a1badf68b5",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:00949728>>"
+    "context": "<<POS:00949728>> addButton(14,\"Leave\",mainGameMenu,\"\",\"\")"
   },
   {
-    "key": "bust|NIDDHY|3ba5d6c9e47e",
-    "original": "NIDDHY",
-    "translation": "",
-    "context": "<<POS:00949973>>"
-  },
-  {
-    "key": "bust|CHIA|ed63f04a0a89",
-    "original": "CHIA",
-    "translation": "",
-    "context": "<<POS:00950143>>"
-  },
-  {
-    "key": "name.show|Chia|5b4c41dabe36",
+    "key": "name.show|Chia|8b40267023fe",
     "original": "Chia",
     "translation": "",
-    "context": "<<POS:00950160>>"
+    "context": "<<POS:00950160>> showName(\"Chia\")"
   },
   {
-    "key": "bust|YZI|aad3b945def8",
-    "original": "YZI",
-    "translation": "",
-    "context": "<<POS:00950234>>"
-  },
-  {
-    "key": "name.show|Yzi|c90cddbea000",
+    "key": "name.show|Yzi|ce144339db36",
     "original": "Yzi",
     "translation": "",
-    "context": "<<POS:00950250>>"
+    "context": "<<POS:00950250>> showName(\"Yzi\")"
   },
   {
-    "key": "bust|BIXIA|ea32a7d0d351",
-    "original": "BIXIA",
-    "translation": "",
-    "context": "<<POS:00950323>>"
-  },
-  {
-    "key": "name.show|Bixia|3546b5578434",
+    "key": "name.show|Bixia|850440026360",
     "original": "Bixia",
     "translation": "",
-    "context": "<<POS:00950341>>"
+    "context": "<<POS:00950341>> showName(\"Bixia\")"
   },
   {
-    "key": "bust|SUNMI|506c44f1fa2c",
-    "original": "SUNMI",
-    "translation": "",
-    "context": "<<POS:00950416>>"
-  },
-  {
-    "key": "name.show|Sunmi|77a325b254f4",
+    "key": "name.show|Sunmi|7def3839e245",
     "original": "Sunmi",
     "translation": "",
-    "context": "<<POS:00950434>>"
+    "context": "<<POS:00950434>> showName(\"Sunmi\")"
   },
   {
     "key": "name.show|Dracows|406e4aa66299",
     "original": "Dracows",
     "translation": "",
-    "context": "<<POS:00950883>>"
+    "context": "<<POS:00950883>> showName(\"Dracows\")"
   },
   {
     "key": "output|textify_Lt_Lt_0_ze_Z_n_tRight_You_d_love_to_help_but_yo|7aad0b17dd78",
@@ -117,19 +129,19 @@
     "key": "button|Next|6fc9499230f4",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00951803>>"
+    "context": "<<POS:00951803>> addButton(e++,\"Next\",Ao,\"Next\",\"\")"
   },
   {
-    "key": "bust|CHIA|eb1cc9564955",
-    "original": "CHIA",
+    "key": "button.hover|Next|6fc9499230f4",
+    "original": "Next",
     "translation": "",
-    "context": "<<POS:00951858>>"
+    "context": "<<POS:00951813>> addButton(e++,\"Next\",Ao,\"Next\",\"\")"
   },
   {
-    "key": "name.show|Dracows|e00b97aa3454",
+    "key": "name.show|Dracows|5a024fe84fd7",
     "original": "Dracows",
     "translation": "",
-    "context": "<<POS:00951889>>"
+    "context": "<<POS:00951889>> showName(\"Dracows\")"
   },
   {
     "key": "output|textify_Rt_Rt_0_ze_Z_n_tWell_screw_it_You_can_t_just_ru|82f51151739e",
@@ -141,19 +153,19 @@
     "key": "button|Next|1754ded09128",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00963222>>"
+    "context": "<<POS:00963222>> addButton(e++,\"Next\",Oo,\"Next\",\"\")"
   },
   {
-    "key": "bust|SUNMI|4346e5e81164",
-    "original": "SUNMI",
+    "key": "button.hover|Next|1754ded09128",
+    "original": "Next",
     "translation": "",
-    "context": "<<POS:00963277>>"
+    "context": "<<POS:00963232>> addButton(e++,\"Next\",Oo,\"Next\",\"\")"
   },
   {
-    "key": "name.show|Dracows|a52a8a7801f8",
+    "key": "name.show|Dracows|5a024fe84fd7#1",
     "original": "Dracows",
     "translation": "",
-    "context": "<<POS:00963309>>"
+    "context": "<<POS:00963309>> showName(\"Dracows\")"
   },
   {
     "key": "output|textify_zt_zt_0_ze_Z_n_tYou_wake_up_some_time_later_with|33dcf2bf5189",
@@ -165,91 +177,187 @@
     "key": "button|Next|53b508dd8b4e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00971639>>"
+    "context": "<<POS:00971639>> addButton(e++,\"Next\",Ao,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|53b508dd8b4e",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:00971649>> addButton(e++,\"Next\",Ao,\"Next\",\"\")"
   },
   {
     "key": "button|Solo|e9d8089636b2",
     "original": "Solo",
     "translation": "",
-    "context": "<<POS:00971859>>"
+    "context": "<<POS:00971859>> addButton(e++,\"Solo\",Ro,\"Solo\",\"\")"
+  },
+  {
+    "key": "button.hover|Solo|e9d8089636b2",
+    "original": "Solo",
+    "translation": "",
+    "context": "<<POS:00971869>> addButton(e++,\"Solo\",Ro,\"Solo\",\"\")"
   },
   {
     "key": "button|Appearance|648287f6ff5b",
     "original": "Appearance",
     "translation": "",
-    "context": "<<POS:00971894>>"
+    "context": "<<POS:00971894>> addButton(e++,\"Appearance\",Wo,\"Appearance\",\"\")"
+  },
+  {
+    "key": "button.hover|Appearance|648287f6ff5b",
+    "original": "Appearance",
+    "translation": "",
+    "context": "<<POS:00971910>> addButton(e++,\"Appearance\",Wo,\"Appearance\",\"\")"
   },
   {
     "key": "button|Leave|d86e60d41cae",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:00971940>>"
+    "context": "<<POS:00971940>> addButton(14,\"Leave\",Ao,\"Leave\",\"\")"
+  },
+  {
+    "key": "button.hover|Leave|d86e60d41cae",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:00971951>> addButton(14,\"Leave\",Ao,\"Leave\",\"\")"
   },
   {
     "key": "button|Sub|6f9560c1f2cf",
     "original": "Sub",
     "translation": "",
-    "context": "<<POS:00972457>>"
+    "context": "<<POS:00972457>> addButton(e++,\"Sub\",Do,\"Sub\",\"Let’s ride or die! Or well, be ridden and try not to die.\")"
   },
   {
-    "key": "button|Back|7ff888235474",
+    "key": "button.hover|Sub|6f9560c1f2cf",
+    "original": "Sub",
+    "translation": "",
+    "context": "<<POS:00972466>> addButton(e++,\"Sub\",Do,\"Sub\",\"Let’s ride or die! Or well, be ridden and try not to die.\")"
+  },
+  {
+    "key": "button.tooltip|Let_s_ride_or_die_Or_well_be_ridden_and_try_not_to_die|577ae4cc16e4",
+    "original": "Let’s ride or die! Or well, be ridden and try not to die.",
+    "translation": "",
+    "context": "<<POS:00972472>> addButton(e++,\"Sub\",Do,\"Sub\",\"Let’s ride or die! Or well, be ridden and try not to die.\")"
+  },
+  {
+    "key": "button|Back|d9a1444e46fd",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:00972546>>"
+    "context": "<<POS:00972546>> addButton(14,\"Back\",Lo,\"Back\",\"\")"
+  },
+  {
+    "key": "button.hover|Back|d9a1444e46fd",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:00972556>> addButton(14,\"Back\",Lo,\"Back\",\"\")"
   },
   {
     "key": "button|Chia|d63b1b03bae9",
     "original": "Chia",
     "translation": "",
-    "context": "<<POS:00972615>>"
+    "context": "<<POS:00972615>> addButton(e++,\"Chia\",zo,\"Chia\",\"\")"
+  },
+  {
+    "key": "button.hover|Chia|d63b1b03bae9",
+    "original": "Chia",
+    "translation": "",
+    "context": "<<POS:00972625>> addButton(e++,\"Chia\",zo,\"Chia\",\"\")"
   },
   {
     "key": "button|Yzi|ce144339db36",
     "original": "Yzi",
     "translation": "",
-    "context": "<<POS:00972650>>"
+    "context": "<<POS:00972650>> addButton(e++,\"Yzi\",_o,\"Chia\",\"\")"
   },
   {
-    "key": "button|Bixia|850440026360",
+    "key": "button.hover|Chia|0c18bea96907",
+    "original": "Chia",
+    "translation": "",
+    "context": "<<POS:00972659>> addButton(e++,\"Yzi\",_o,\"Chia\",\"\")"
+  },
+  {
+    "key": "button|Bixia|6c7c1dc0f7dc",
     "original": "Bixia",
     "translation": "",
-    "context": "<<POS:00972684>>"
+    "context": "<<POS:00972684>> addButton(e++,\"Bixia\",qo,\"Chia\",\"\")"
   },
   {
-    "key": "button|Sunmi|7def3839e245",
+    "key": "button.hover|Chia|0c18bea96907#1",
+    "original": "Chia",
+    "translation": "",
+    "context": "<<POS:00972695>> addButton(e++,\"Bixia\",qo,\"Chia\",\"\")"
+  },
+  {
+    "key": "button|Sunmi|be24193b5d5f",
     "original": "Sunmi",
     "translation": "",
-    "context": "<<POS:00972720>>"
+    "context": "<<POS:00972720>> addButton(e++,\"Sunmi\",Go,\"Chia\",\"\")"
   },
   {
-    "key": "button|Back|1225e77f66ff",
+    "key": "button.hover|Chia|0c18bea96907#2",
+    "original": "Chia",
+    "translation": "",
+    "context": "<<POS:00972731>> addButton(e++,\"Sunmi\",Go,\"Chia\",\"\")"
+  },
+  {
+    "key": "button|Back|2a1371ff6cc3",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:00972924>>"
+    "context": "<<POS:00972924>> addButton(14,\"Back\",Lo,\"Back\",\"\")"
+  },
+  {
+    "key": "button.hover|Back|2a1371ff6cc3",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:00972934>> addButton(14,\"Back\",Lo,\"Back\",\"\")"
   },
   {
     "key": "button|Back|8377b4609270",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:00973754>>"
+    "context": "<<POS:00973754>> addButton(14,\"Back\",Ro,\"Back\",\"\")"
+  },
+  {
+    "key": "button.hover|Back|8377b4609270",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:00973764>> addButton(14,\"Back\",Ro,\"Back\",\"\")"
   },
   {
     "key": "button|Back|8377b4609270#1",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:00974678>>"
+    "context": "<<POS:00974678>> addButton(14,\"Back\",Ro,\"Back\",\"\")"
+  },
+  {
+    "key": "button.hover|Back|8377b4609270#1",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:00974688>> addButton(14,\"Back\",Ro,\"Back\",\"\")"
   },
   {
     "key": "button|Back|8377b4609270#2",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:00975534>>"
+    "context": "<<POS:00975534>> addButton(14,\"Back\",Ro,\"Back\",\"\")"
+  },
+  {
+    "key": "button.hover|Back|8377b4609270#2",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:00975544>> addButton(14,\"Back\",Ro,\"Back\",\"\")"
   },
   {
     "key": "button|Back|8377b4609270#3",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:00976446>>"
+    "context": "<<POS:00976446>> addButton(14,\"Back\",Ro,\"Back\",\"\")"
+  },
+  {
+    "key": "button.hover|Back|8377b4609270#3",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:00976456>> addButton(14,\"Back\",Ro,\"Back\",\"\")"
   },
   {
     "key": "output|textify_qt_qt_0_ze_Z_n_tYou_cautiously_tiptoe_to_the_door|4ae346fda470",
@@ -267,7 +375,13 @@
     "key": "button|Next|61936c4d0048",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00988211>>"
+    "context": "<<POS:00988211>> addButton(e++,\"Next\",Fo,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|61936c4d0048",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:00988221>> addButton(e++,\"Next\",Fo,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Wt_Wt_0_ze_Z_n_tBlackness_n_t_n_tYou_re_not_sure|e748eca11b98",
@@ -279,10 +393,22 @@
     "key": "button|Rest|ea41d39de4e4",
     "original": "Rest",
     "translation": "",
-    "context": "<<POS:00990224>>"
+    "context": "<<POS:00990224>> addButton(e++,\"Rest\",Po,\"Rest\",\"Let’s be reasonable and stop here.\")"
   },
   {
-    "key": "output|textify_Dt_Dt_0_ze_Z_n_tYou_assure_them_you_re_not_tha|3d66614bf0e1",
+    "key": "button.hover|Rest|ea41d39de4e4",
+    "original": "Rest",
+    "translation": "",
+    "context": "<<POS:00990234>> addButton(e++,\"Rest\",Po,\"Rest\",\"Let’s be reasonable and stop here.\")"
+  },
+  {
+    "key": "button.tooltip|Let_s_be_reasonable_and_stop_here|430aa5cc241e",
+    "original": "Let’s be reasonable and stop here.",
+    "translation": "",
+    "context": "<<POS:00990241>> addButton(e++,\"Rest\",Po,\"Rest\",\"Let’s be reasonable and stop here.\")"
+  },
+  {
+    "key": "output|textify_Dt_Dt_0_ze_Z_n_tYou_assure_them_you_re_not_tha|49d7834500c6",
     "original": "textify(Dt||(Dt=(0,ze.Z)([\"\\n\\tYou assure them you’re... not that bad, but still tired. \\n\\t\\n\\t<i>“Aw, sorry we pushed you so much,”</i> Sunmi apologizes, looking glum. She fidgets on the spot and adds, <i>“Are you sure you’re too tired for another go...? No, no, nevermind, forget I said anything.”</i>\\n\\t\\n\\tFor the sake of your own survival, you will. You do feel a little bad, seeing the gentle giantess fidget awkwardly, still clearly burning up with need. But if everything you did barely even scratched the itch... You’re not sure you’d be able to last until she’s done, let alone all of them. And she’s clearly not the only one. The others are still surreptitiously trying to convince you to change your mind by rubbing their tits on you and gently groping you. Well, gentle for amazons.\\n\\t\\n\\t<i>“It’s quite alright, you did a lot,”</i> Chia agrees with her little sister, though the needy way she bites her lips and gropes your butt makes her far less convincing.\\n\\t\\n\\t<i>“You girls sure you don’t want to just jump [pc.himHer]?”</i> Yzi bluntly asks her sisters, and the thoughtful pause that follows is enough to convince you that you should probably leave about now.\\n\\t\\n\\tYou excuse yourself, carefully slipping out of the boob-cocoon you’re trapped in, gently prying off the hands not-so-subtly trying to keep hold of you, and ignoring the disappointed whines. It’s a struggle, for more than one reason, but you eventually manage. And to your surprise, no hand suddenly grabs on to you to pull you back in.\\n\\t\\n\\tYou walk away from the puddle of horny dracows with the slow, careful gait of someone backing away from a wild animal, slowly waving at them and telling them you’ll come back some other time. Thankfully it works, and they just wave at you and tell you goodbye as you leave, before you exit the living room and let out a big breath.\\n\\t\\n\\tYou jump when you hear a giggle, but it’s only Niddhy, who’s been watching you. <i>“They’re a bit intense, aren’t they? Thank you for doing your best to play with them sweetie, we all appreciate it,”</i> the cumcow mother smiles warmly at you, making you relax some more.\\n\\t\\n\\tYou walk with her to the entrance, and she opens up the door for you — or at least the first one, letting you step through and wait before the second. You wave her goodbye too, and she waves back before the door closes. Then the second door opens, and you gasp at the fresh air that comes rushing in.\\n\\t\\n\\tYou step out, feeling like you escaped a tiger’s cage, and you take a big breath of pure air, feeling pretty happy with yourself. You walk back towards the town, giving the house behind you one last glance, wondering if you could manage to last longer next time.\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:00990309>>"
@@ -291,7 +417,13 @@
     "key": "button|Next|4cc94a01d3bf",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00993157>>"
+    "context": "<<POS:00993157>> addButton(e++,\"Next\",Ao,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|4cc94a01d3bf",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:00993167>> addButton(e++,\"Next\",Ao,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Ft_Ft_0_ze_Z_n_tWell_alright_you_have_to_admit_y|be63d6139912",
@@ -303,7 +435,13 @@
     "key": "button|Next|61936c4d0048#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01003186>>"
+    "context": "<<POS:01003186>> addButton(e++,\"Next\",Uo,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|61936c4d0048#1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01003196>> addButton(e++,\"Next\",Uo,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Pt_Pt_0_ze_Z_n_tYou_awake_with_a_start_and_a_groa|9a25d4649657",
@@ -315,10 +453,22 @@
     "key": "button|Rest|a04097fcff41",
     "original": "Rest!",
     "translation": "",
-    "context": "<<POS:01006765>>"
+    "context": "<<POS:01006765>> addButton(e++,\"Rest!\",Ko,\"Rest!\",\"You’ve <i>really</i> done more than enough for now.\")"
   },
   {
-    "key": "output|textify_Vt_Vt_0_ze_Z_n_tYou_d_say_you_earned_yourself_som|a41d2dfddc8f",
+    "key": "button.hover|Rest|a04097fcff41",
+    "original": "Rest!",
+    "translation": "",
+    "context": "<<POS:01006776>> addButton(e++,\"Rest!\",Ko,\"Rest!\",\"You’ve <i>really</i> done more than enough for now.\")"
+  },
+  {
+    "key": "button.tooltip|You_ve_i_really_i_done_more_than_enough_for_now|f7b80035c364",
+    "original": "You’ve <i>really</i> done more than enough for now.",
+    "translation": "",
+    "context": "<<POS:01006784>> addButton(e++,\"Rest!\",Ko,\"Rest!\",\"You’ve <i>really</i> done more than enough for now.\")"
+  },
+  {
+    "key": "output|textify_Vt_Vt_0_ze_Z_n_tYou_d_say_you_earned_yourself_som|3ad14995d598",
     "original": "textify(Vt||(Vt=(0,ze.Z)([\"\\n\\tYou’d say you earned yourself some rest at this point, and the girls seem to agree. When you tell them you’d like to relax with them - <i>actually</i> relax, they smile and nod with a look of understanding.\\n\\t\\n\\t<i>“Of course, you did more than enough! I’m pretty sure we’re all clear-headed enough that none of us will jump you for a while,”</i> Chia laughs, patting your head, before she frowns and sniffs. <i>“Though maybe not if you smell like that. I’ll be the first to relax with you then!”</i>\\n\\t\\n\\tThe plump amazon grabs you and picks you up, easily carrying you to another room as her sisters laugh and tell you two to have fun. You’re swiftly carried down a corridor and into a bathroom, with a pretty impressive bath. It nearly looks like a swimming pool! She gently sits you down in it before she taps a nearby console and gets the water to flow out of several taps. She asks you about the water a few times, switching the temperature as you ask, and once done she slips inside the bath and next to you, sighing happily. Turns out the sisters prefer to hang out separately at times, and Chia wants to hang out by bathing with you. As promised, it remains a perfectly wholesome affair. She does help wash your body, as you’re a bit too sore to do it yourself, but nothing more. You simply enjoy the water together for a while.\\n\\t\\n\\tYou stay in the bath for some time, but Chia eventually remembers she should share you with her sisters before they barge in, and she helps you dry off before carrying you back to the living room. When you arrive there, it’s Sunmi who gently picks you up from Chia’s grasp and carries you off to a colorful mountain at the foot of the far wall. A mountain of plushies!\\n\\t\\n\\tSunmi insists on [flags.DRACOW_GANGBANG_REPEATS\\n\\t\\t|re-\\n\\t\\t|\\n\\t]introducing you to each and every one of her plushies. There’s every kind: cats, bears, seals, warmints, bees, and animals you’re not sure you know about. And they all have their own name, though they all end in “y” for some reason. After saying hello to Foxy, Bluey, Bumbley, Terry, and a few dozen more, you just have a nice comfy chat with Sunmi, both covered in plushies.\\n\\t\\n\\tAfter that, you notice Bixia sitting not too far, in front of a similarly colorful display. You suppose it’s about time you leave Sunmi to her things, and she waves you off happily as you approach the bodybuilder.\\n\\t\\n\\t[flags.DRACOW_GANGBANG_REPEATS\\n\\t\\t|Like last time\\n\\t\\t|Surprisingly\\n\\t], Bixia doesn’t offer to join her for a workout but instead invites you to sit and admire her collection of gemstones with her. She becomes almost as still as her stones as she sits and watches them, sometimes picking one up to look at it from other angles and watch the way the light changes its colors. She doesn’t say anything, and neither do you. You both just sit and admire these colorful rocks’ silent beauty together for a while.\\n\\t\\n\\tThat silent time is interrupted, however, when Yzi suddenly yells out in triumph. You look over in surprise, and see she’s in the middle of playing some game on the big screen again. She notices your gaze and waves you closer, and when you look at Bixia she merely nods, so you go ahead and join her.\\n\\t\\n\\tYzi invites you to play some games with you, sitting you down on the couch to play Alleyway Fighter 19. You play a few matches, during which she’s incredibly obnoxious, distracting you with her tail and using all sorts of infinite combos, but you can’t deny it’s at least a little fun. Especially when you return the favor and use her combos on her!\\n\\t\\n\\tYou don’t see the time go by, and you’re surprised when you look to the side and see Sunmi smiling at you, with Chia and Bixia next to her. <i>“We thought we might do something all together for once,”</i> she tells you, and seeing Yzi grin you shrug and agree.\\n\\t\\n\\t[rand\\n\\t\\t|Then they drag you to a table to play some tabletop games of all things. They have a wide collection, mostly classics, and you all have a fun time playing a few of them. You laugh together, cheering and booing when one has a good dice roll. You watch the sisters bicker over which house rules you’re playing with this time. And you end up winning a few games yourself. It’s a fairly surreal experience, playing old family games with four massive and very naked amazons who just destroyed your pelvis mere moments ago.\\n\\t\\t|They sit you down in front of the big screen to watch some movies together. At first they all bicker over what to watch: one wants to watch a nostalgic kid’s movie, another wants to watch some B-horror movie, another would prefer a romantic movie, the last one doesn’t care, and in the end you manage to convince them to settle down for some wholesome animated movie about an old fantasy story. They’re a bit restless at first, all trying to wrap their arm around your shoulder at once, but everyone quickly gets engrossed and relaxed. It’s quite an interesting experience, lying back, enjoying the moment, alongside four naked amazons who very recently destroyed your pelvis.\\n\\t]\\n\\t\\n\\tYour time with the girls comes to an end when their mother enters the room, clapping her hands. <i>“Alright girls, [pc.name] is going to have to go back home at some point~”</i> she tells them, and the chorus of <i>“Aww”</i>s is heartwarming.\\n\\t\\n\\tShe does have a point though, and you give each girl a goodbye hug and kiss — which naturally ends up with a bit more groping and tongue than you intended, but it was to be expected. Then you make your way to the entrance, and you wave goodbye to the girls who wave back together, all smiles.\\n\\t\\n\\t<i>“Thank you again for your help sweetie, do come again whenever you like!”</i> Niddhy tells you with a hug and kiss of her own, before opening the heavy doors for you.\\n\\t\\n\\tYou smile and wave her goodbye too before the doors close, and you finally make your way back out. Feeling the fresh wind, you take a big breath and only now realize you’ve been smelling their amazonian musk for so long you stopped paying attention to it. You chuckle and stretch, groaning at your soreness before you make your way back out.\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:01006869>>"
@@ -327,7 +477,13 @@
     "key": "button|Next|9026fe9a3b7e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01013247>>"
+    "context": "<<POS:01013247>> addButton(e++,\"Next\",Ao,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|9026fe9a3b7e",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01013257>> addButton(e++,\"Next\",Ao,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Ut_Ut_0_ze_Z_n_tYou_cough_and_catch_the_sisters|0c5959b13edc",
@@ -339,7 +495,13 @@
     "key": "button|Next|328add097b96",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01019900>>"
+    "context": "<<POS:01019900>> addButton(e++,\"Next\",Qo,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|328add097b96",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01019910>> addButton(e++,\"Next\",Qo,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Kt_Kt_0_ze_Z_n_t_n_t_n_tMh_Did_you_fall_aslee|0a1b80f9e771",
@@ -351,7 +513,13 @@
     "key": "button|Next|55296b35d214",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01023149>>"
+    "context": "<<POS:01023149>> addButton(e++,\"Next\",Jo,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|55296b35d214",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01023159>> addButton(e++,\"Next\",Jo,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Zt_Zt_0_ze_Z_n_tYou_wake_up_for_what_feels_like|00f26b1ede45",
@@ -363,7 +531,13 @@
     "key": "button|Next|936156e69002",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01026632>>"
+    "context": "<<POS:01026632>> addButton(e++,\"Next\",Ao,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|936156e69002",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01026642>> addButton(e++,\"Next\",Ao,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Qt_Qt_0_ze_Z_n_tActually_rather_than_getting_rid|04f0cef0aa72",
@@ -375,7 +549,13 @@
     "key": "button|Next|fb4a12a2187b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01038677>>"
+    "context": "<<POS:01038677>> addButton(e++,\"Next\",$o,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|fb4a12a2187b",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01038687>> addButton(e++,\"Next\",$o,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Jt_Jt_0_ze_Z_n_tYou_wake_up_with_a_groan_feeling|ff93a96af2eb",
@@ -393,13 +573,25 @@
     "key": "button|Fuck_Me|c4ae61ff327e",
     "original": "Fuck Me",
     "translation": "",
-    "context": "<<POS:01042833>>"
+    "context": "<<POS:01042833>> addButton(e++,\"Fuck Me\",on,\"Fuck Me\",\"\")"
+  },
+  {
+    "key": "button.hover|Fuck_Me|c4ae61ff327e",
+    "original": "Fuck Me",
+    "translation": "",
+    "context": "<<POS:01042846>> addButton(e++,\"Fuck Me\",on,\"Fuck Me\",\"\")"
   },
   {
     "key": "button|Bail|1ecd4a1573e7",
     "original": "Bail",
     "translation": "",
-    "context": "<<POS:01042874>>"
+    "context": "<<POS:01042874>> addButton(e++,\"Bail\",tn,\"Bail\",\"\")"
+  },
+  {
+    "key": "button.hover|Bail|1ecd4a1573e7",
+    "original": "Bail",
+    "translation": "",
+    "context": "<<POS:01042884>> addButton(e++,\"Bail\",tn,\"Bail\",\"\")"
   },
   {
     "key": "output|textify_t_t_0_ze_Z_n_tYou_know_maybe_this_is_a_bit_mor|da99ba33b464",
@@ -417,7 +609,13 @@
     "key": "button|Next|61936c4d0048#2",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01050931>>"
+    "context": "<<POS:01050931>> addButton(e++,\"Next\",nn,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|61936c4d0048#2",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01050941>> addButton(e++,\"Next\",nn,\"Next\",\"\")"
   },
   {
     "key": "output|textify_to_to_0_ze_Z_n_tYou_wake_up_with_a_start_feeling|f704e3c53217",
@@ -435,25 +633,49 @@
     "key": "button|Thighs|1db008ed5598",
     "original": "Thighs",
     "translation": "",
-    "context": "<<POS:01065236>>"
+    "context": "<<POS:01065236>> addButton(e++,\"Thighs\",(function(){return sn(0)}),\"Thighs\",\"\")"
+  },
+  {
+    "key": "button.hover|Thighs|1db008ed5598",
+    "original": "Thighs",
+    "translation": "",
+    "context": "<<POS:01065272>> addButton(e++,\"Thighs\",(function(){return sn(0)}),\"Thighs\",\"\")"
   },
   {
     "key": "button|Abs|00e791abb968",
     "original": "Abs",
     "translation": "",
-    "context": "<<POS:01065299>>"
+    "context": "<<POS:01065299>> addButton(e++,\"Abs\",(function(){return sn(1)}),\"Abs\",\"\")"
+  },
+  {
+    "key": "button.hover|Abs|00e791abb968",
+    "original": "Abs",
+    "translation": "",
+    "context": "<<POS:01065332>> addButton(e++,\"Abs\",(function(){return sn(1)}),\"Abs\",\"\")"
   },
   {
     "key": "button|Elbow|907416dcb45f",
     "original": "Elbow",
     "translation": "",
-    "context": "<<POS:01065356>>"
+    "context": "<<POS:01065356>> addButton(e++,\"Elbow\",(function(){return sn(2)}),\"Elbow\",\"\")"
+  },
+  {
+    "key": "button.hover|Elbow|907416dcb45f",
+    "original": "Elbow",
+    "translation": "",
+    "context": "<<POS:01065391>> addButton(e++,\"Elbow\",(function(){return sn(2)}),\"Elbow\",\"\")"
   },
   {
     "key": "button|Floor|6407705e49ff",
     "original": "Floor",
     "translation": "",
-    "context": "<<POS:01065417>>"
+    "context": "<<POS:01065417>> addButton(e++,\"Floor\",(function(){return sn(3)}),\"Floor\",\"\")"
+  },
+  {
+    "key": "button.hover|Floor|6407705e49ff",
+    "original": "Floor",
+    "translation": "",
+    "context": "<<POS:01065452>> addButton(e++,\"Floor\",(function(){return sn(3)}),\"Floor\",\"\")"
   },
   {
     "key": "output|textify_no_no_0_ze_Z_n_t_var0_n_t_t_i_Sure_i_she_sh|cc5b9680acfa",
@@ -465,7 +687,13 @@
     "key": "button|Next|b0d159299e00",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01070114>>"
+    "context": "<<POS:01070114>> addButton(t++,\"Next\",rn,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|b0d159299e00",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01070124>> addButton(t++,\"Next\",rn,\"Next\",\"\")"
   },
   {
     "key": "output|textify_ao_ao_0_ze_Z_n_tYou_thrust_a_few_times_mostly_ou|0e0c71feda29",
@@ -483,7 +711,13 @@
     "key": "button|Next|61936c4d0048#3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01084623>>"
+    "context": "<<POS:01084623>> addButton(e++,\"Next\",hn,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|61936c4d0048#3",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01084633>> addButton(e++,\"Next\",hn,\"Next\",\"\")"
   },
   {
     "key": "output|textify_so_so_0_ze_Z_n_tSunmi_gently_carries_you_to_her_b|2d5864a9a63d",
@@ -501,25 +735,55 @@
     "key": "button|Missionary|5b7c859d639d",
     "original": "Missionary",
     "translation": "",
-    "context": "<<POS:01093719>>"
+    "context": "<<POS:01093719>> addButton(e++,\"Missionary\",dn,\"Missionary\",\"\")"
+  },
+  {
+    "key": "button.hover|Missionary|5b7c859d639d",
+    "original": "Missionary",
+    "translation": "",
+    "context": "<<POS:01093735>> addButton(e++,\"Missionary\",dn,\"Missionary\",\"\")"
   },
   {
     "key": "button|Titfrot|870a8d4f0eb6",
     "original": "Titfrot",
     "translation": "",
-    "context": "<<POS:01093766>>"
+    "context": "<<POS:01093766>> addButton(e++,\"Titfrot\",cn,\"Titfrot\",\"\")"
+  },
+  {
+    "key": "button.hover|Titfrot|870a8d4f0eb6",
+    "original": "Titfrot",
+    "translation": "",
+    "context": "<<POS:01093779>> addButton(e++,\"Titfrot\",cn,\"Titfrot\",\"\")"
   },
   {
     "key": "button|Get_Pressed|3aaec5e82dc2",
     "original": "Get Pressed",
     "translation": "",
-    "context": "<<POS:01093814>>"
+    "context": "<<POS:01093814>> addButton(e++,\"Get Pressed\",(function(){return vaginaRouter(gn,0,!0,0,!1)}),\"Get Pressed\",\"Her cock is hard to ignore, why not find out how hard it can get inside of you\")"
   },
   {
-    "key": "button|Back|cb3d29cb74db",
+    "key": "button.hover|Get_Pressed|3aaec5e82dc2",
+    "original": "Get Pressed",
+    "translation": "",
+    "context": "<<POS:01093876>> addButton(e++,\"Get Pressed\",(function(){return vaginaRouter(gn,0,!0,0,!1)}),\"Get Pressed\",\"Her cock is hard to ignore, why not find out how hard it can get inside of you\")"
+  },
+  {
+    "key": "button.tooltip|Her_cock_is_hard_to_ignore_why_not_find_out_how_hard_it_can_get|44399e7adcb9",
+    "original": "Her cock is hard to ignore, why not find out how hard it can get inside of you",
+    "translation": "",
+    "context": "<<POS:01093890>> addButton(e++,\"Get Pressed\",(function(){return vaginaRouter(gn,0,!0,0,!1)}),\"Get Pressed\",\"Her cock is hard to ignore, why not find out how hard it can get inside of you\")"
+  },
+  {
+    "key": "button|Back|8b3f4287ec71",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:01093985>>"
+    "context": "<<POS:01093985>> addButton(14,\"Back\",(function(){So(),Lo()}),\"Back\",\"\")"
+  },
+  {
+    "key": "button.hover|Back|8b3f4287ec71",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:01094016>> addButton(14,\"Back\",(function(){So(),Lo()}),\"Back\",\"\")"
   },
   {
     "key": "output|textify_uo_uo_0_ze_Z_n_tWell_can_t_beat_the_classics_p|e56e22d4fe05",
@@ -531,7 +795,13 @@
     "key": "button|Next|61936c4d0048#4",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01102116>>"
+    "context": "<<POS:01102116>> addButton(e++,\"Next\",yn,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|61936c4d0048#4",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01102126>> addButton(e++,\"Next\",yn,\"Next\",\"\")"
   },
   {
     "key": "output|textify_ho_ho_0_ze_Z_n_tFirst_things_first_you_need_to_t|49c35c2b0726",
@@ -543,7 +813,13 @@
     "key": "button|Next|bdebffefcad3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01110555>>"
+    "context": "<<POS:01110555>> addButton(e++,\"Next\",yn,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|bdebffefcad3",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01110565>> addButton(e++,\"Next\",yn,\"Next\",\"\")"
   },
   {
     "key": "output|textify_lo_lo_0_ze_Z_n_tLooking_at_her_own_cock_throbbin|767f1f3fdec8",
@@ -555,7 +831,13 @@
     "key": "button|Next|079f99f12eb6",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01118587>>"
+    "context": "<<POS:01118587>> addButton(t++,\"Next\",yn,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|079f99f12eb6",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01118597>> addButton(t++,\"Next\",yn,\"Next\",\"\")"
   },
   {
     "key": "output|textify_co_co_0_ze_Z_n_tWhen_you_wake_up_you_feel_amazin|eefdb94d8488",
@@ -573,10 +855,22 @@
     "key": "button|Bail|f0047de206fb",
     "original": "Bail",
     "translation": "",
-    "context": "<<POS:01125973>>"
+    "context": "<<POS:01125973>> addButton(e++,\"Bail\",Ho,\"Bail\",\"You can come back once you’re prepared.\")"
   },
   {
-    "key": "output|textify_t_t_0_ze_Z_n_tFull_of_bravery_you_make_your_wa|79054ba4c982",
+    "key": "button.hover|Bail|f0047de206fb",
+    "original": "Bail",
+    "translation": "",
+    "context": "<<POS:01125983>> addButton(e++,\"Bail\",Ho,\"Bail\",\"You can come back once you’re prepared.\")"
+  },
+  {
+    "key": "button.tooltip|You_can_come_back_once_you_re_prepared|22d1db53b756",
+    "original": "You can come back once you’re prepared.",
+    "translation": "",
+    "context": "<<POS:01125990>> addButton(e++,\"Bail\",Ho,\"Bail\",\"You can come back once you’re prepared.\")"
+  },
+  {
+    "key": "output|textify_t_t_0_ze_Z_n_tFull_of_bravery_you_make_your_wa|353612d529d1",
     "original": "textify(_t||(_t=(0,ze.Z)([\"\\n\\tFull of bravery, you make your way back to the Dracow ranch, heading towards what might be doom for your pelvis. The path is fairly long, but it’s also rather pleasant, vast fields sprawling all around you and crops languidly waving in the breeze. You enjoy the quiet walk in the middle of nature and the house is there in front of you before you know it.\\n\\t\\n\\tYou fidget outside for a bit, your natural instincts doing their best to stop you from ringing that bell, but you eventually manage. As you wait, that instinctual part of you is still telling you to run while you still can, but the rest of you firmly tells that coward to shut up. If you’re going to die by being ridden to death by an amazonian support group, so be it. Or as they themselves prefer to put it, by a group of sisters — even though their sisterhood is built on friendship rather than blood.\\n\\t\\n\\tAnd in the same way, Niddhy isn’t their real mother, but she might as well be. When the video intercom lights up and you see the cumcow’s warm smile, which only grows warmer when she recognizes you, even that scared part of you is soothed. <i>“Oh, if it isn’t our favorite [pc.boyGirl]! Come in, come in!”</i> she says excitedly, bouncing up and down and covering most of the screen in jiggly tits.\\n\\t\\n\\tYou do as she says and walk up to the door, watching the huge, steel security door slide slowly open before you can slip in. Waiting in the small room beyond as it closes behind you, before the other door in front of you can open, does remind you that this level of security is meant to protect the <i>outside</i> from what is within.\\n\\t\\n\\tAnd you’re reminded of it even more when the final door opens and you’re hit by the smell. The air feels burning hot, and is so filled with pheromones that the overpowering musk makes you stagger for a moment. If you didn’t know there were only four women in heat in this house, you’d have assumed there was a <i>hundred</i>. You feel your [pc.cockBiggest] twitch instinctively, the smell of pure female arousal telling your body to do its biological duty and breed already. You take a deep breath, almost tasting frustrated femcum and sweat on your tongue, and you shudder in excitement — and not a little dread.\\n\\t\\n\\tYou really feel like you’re entering a wild beast’s enclosure. That said, the bubbly, curvy, giggly woman that beams at you when you go past the second door still manages to make you feel warm and welcome. No cage would feel like a prison with someone like her in it.\\n\\t\\n\\t<i>“Welcome! C’mere, let me kiss you hun! And take those silly clothes off!”</i> she chirps, grabbing you in the softest of hugs before she kisses you right on the mouth, her DSLs smacking loudly when she pulls back. <i>“How have you been? Been, like, on any adventures? Had a good rest? Ate well?”</i>\\n\\t\\n\\tYou try to answer the motherly cumcow as best you can while still buried in her curves. After answering a plethora of questions about your wellbeing and what you got up to lately, she finally lets you go — but not before she’s stripped you entirely of your [pc.gear], somehow.\\n\\t\\n\\t<i>“Oh, but I shouldn’t hog you!”</i> she giggles, turning around and gently nudging you towards the living room. <i>“Go ahead and say hi to the girls, they’ll be very happy to see you!”</i>\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:01126118>>"
@@ -591,7 +885,13 @@
     "key": "button|Bail_Again|5247493bf9a7",
     "original": "Bail Again",
     "translation": "",
-    "context": "<<POS:01131215>>"
+    "context": "<<POS:01131215>> addButton(e++,\"Bail Again\",Ao,\"Bail Again\",\"\")"
+  },
+  {
+    "key": "button.hover|Bail_Again|5247493bf9a7",
+    "original": "Bail Again",
+    "translation": "",
+    "context": "<<POS:01131231>> addButton(e++,\"Bail Again\",Ao,\"Bail Again\",\"\")"
   },
   {
     "key": "output|textify_yo_yo_0_ze_Z_n_tThe_next_hours_are_spent_fucking|a0761cbf337b",
@@ -603,7 +903,13 @@
     "key": "button|Next|3a1327b2c2c4",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01134651>>"
+    "context": "<<POS:01134651>> addButton(e++,\"Next\",mn,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|3a1327b2c2c4",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01134661>> addButton(e++,\"Next\",mn,\"Next\",\"\")"
   },
   {
     "key": "output|textify_po_po_0_ze_Z_n_tYou_wake_up_for_what_feels_like|9992641457ff",
@@ -615,7 +921,13 @@
     "key": "button|Next|936156e69002#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01138183>>"
+    "context": "<<POS:01138183>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|936156e69002#1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01138203>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_fo_fo_0_ze_Z_n_tWhen_you_wake_up_it_s_with_your|84d54f7afa03",
@@ -651,7 +963,13 @@
     "key": "button|Next|897170fff81f",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01159953>>"
+    "context": "<<POS:01159953>> addButton(e++,\"Next\",pn,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|897170fff81f",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01159963>> addButton(e++,\"Next\",pn,\"Next\",\"\")"
   },
   {
     "key": "output|textify_mo_mo_0_ze_Z_n_tActually_rather_than_getting_rid|ba49c1c57401",
@@ -663,7 +981,13 @@
     "key": "button|Next|3647d019d423",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01169847>>"
+    "context": "<<POS:01169847>> addButton(e++,\"Next\",fn,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|3647d019d423",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01169857>> addButton(e++,\"Next\",fn,\"Next\",\"\")"
   },
   {
     "key": "output|textify_wo_wo_0_ze_Z_n_tActually_rather_than_getting_rid|a51ade56bed8",
@@ -675,7 +999,13 @@
     "key": "button|Next|61936c4d0048#5",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01179693>>"
+    "context": "<<POS:01179693>> addButton(e++,\"Next\",wn,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|61936c4d0048#5",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01179703>> addButton(e++,\"Next\",wn,\"Next\",\"\")"
   },
   {
     "key": "output|textify_ko_ko_0_ze_Z_n_tActually_rather_than_getting_rid|05c3673a1c3f",
@@ -687,7 +1017,13 @@
     "key": "button|Next|61936c4d0048#6",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:01188114>>"
+    "context": "<<POS:01188114>> addButton(e++,\"Next\",bn,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|61936c4d0048#6",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:01188124>> addButton(e++,\"Next\",bn,\"Next\",\"\")"
   },
   {
     "key": "output|textify_To_To_0_ze_Z_n_tActually_rather_than_getting_rid|fe86e5dc6c1e",

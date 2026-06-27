@@ -12,25 +12,37 @@
     "context": "<<POS:06251149>>"
   },
   {
-    "key": "output|You_have_more_than_one_row_of_breasts_Which_one_will_get_the_Bo|a79923e7aeac",
-    "original": "You have more than one row of breasts. Which one will get the Boobswell pads?\\n",
+    "key": "output|You_have_more_than_one_row_of_breasts_Which_one_will_get_the_Bo|64d53c5a347b",
+    "original": "You have more than one row of breasts. Which one will get the Boobswell pads?",
     "translation": "",
     "context": "<<POS:06251259>>"
   },
   {
-    "key": "output|n_b_u_Breast_Rows_u_b|164d43c9edb3",
-    "original": "\\n<b><u>Breast Rows</u></b>",
+    "key": "output|b_u_Breast_Rows_u_b|73f10881d6e5",
+    "original": "<b><u>Breast Rows</u></b>",
     "translation": "",
-    "context": "<<POS:06251349>>"
+    "context": "<<POS:06251351>>"
   },
   {
-    "key": "output|h_m_startList|516070cc64f7",
+    "key": "output|h_m_startList|3607f8676210",
     "original": "h.m.startList()",
     "translation": "",
     "context": "<<POS:06251529>>"
   },
   {
-    "key": "output|h_m_li_h_m_toDisplayCase_h_m_numToOrdinal_e_1_Breast_Row_o|48e7d49ee096",
+    "key": "button.hover|This_row_is_already_using_Boobswell_pads|9f587566bf33",
+    "original": "This row is already using Boobswell pads.",
+    "translation": "",
+    "context": "<<POS:06251702>> addDisabledButton(e,h.m.numToText(e+1),h.m.numToText(e+1),\"This row is already using Boobswell pads.\")"
+  },
+  {
+    "key": "button.tooltip|Place_the_pads_on_your|821fa4f489ed",
+    "original": "Place the pads on your ",
+    "translation": "",
+    "context": "<<POS:06251901>> addButton(e,h.m.toDisplayCase(h.m.numToOrdinal(e+1)),(function(){return t.multiBoobPadRouter(e)}),h.m.toDisplayCase(h.m.numToOrdinal(e+1)+\" Breast Row\"),\"Place the pads on your \"+h.m.numToOrdinal(e+1)+\" row.\")"
+  },
+  {
+    "key": "output|h_m_li_h_m_toDisplayCase_h_m_numToOrdinal_e_1_Breast_Row_o|7fe77cc2fdd7",
     "original": "h.m.li(h.m.toDisplayCase(h.m.numToOrdinal(e+1))+\" Breast Row\",o)",
     "translation": "",
     "context": "<<POS:06251964>>"
@@ -51,7 +63,7 @@
     "key": "button|Next|adfa1f967af8",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:06252354>>"
+    "context": "<<POS:06252354>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|You_pull_the_set_of_sticky_form_adhering_pads_out_of_their_pack|67ec9bd59e52",

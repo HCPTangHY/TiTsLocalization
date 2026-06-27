@@ -1,15 +1,21 @@
 [
   {
-    "key": "bust|KEROKORAS_VENOM|a926fa795d7c",
-    "original": "KEROKORAS_VENOM",
+    "key": "textify|A_vial_of|a2fa73e96041",
+    "original": "A vial of ",
     "translation": "",
-    "context": "<<POS:08405230>>"
+    "context": "<<POS:08404690>>"
   },
   {
-    "key": "name.show|Kerokoras_Venom|b9eb7963245d",
+    "key": "textify|oncentrated_kerokoras_venom_The_liquid_sloshes_around_as_you_mo|0e71d2b9b772",
+    "original": "oncentrated kerokoras venom. The liquid sloshes around as you move the bottle, and smells like sweet syrup. The volatile chemistry of the kerokoras will probably affect your body. Given your nanomachine laced immune system, you imagine it’ll have you looking like them in no time.\\n\\t\\t\\n\\t\\t<b>Known to cause moderate amounts of taint. Check your Codex for details.</b>",
+    "translation": "",
+    "context": "<<POS:08404703>>"
+  },
+  {
+    "key": "name.show|Kerokoras_Venom|fabd66a8885c",
     "original": "Kerokoras Venom",
     "translation": "",
-    "context": "<<POS:08405258>>"
+    "context": "<<POS:08405258>> showName(\"Kerokoras Venom\")"
   },
   {
     "key": "output|You_uncork_the_vial_of_viscous_venom_treating_your_nose_to_a_ru|addad7127ca9",
@@ -18,13 +24,13 @@
     "context": "<<POS:08405304>>"
   },
   {
-    "key": "output|n_nA_sudden_bout_of_vertigo_and_a_hot_panging_flash|86e798ec0777",
-    "original": "\\n\\nA sudden bout of vertigo and a hot panging flash",
+    "key": "output|A_sudden_bout_of_vertigo_and_a_hot_panging_flash|3bbdc6275291",
+    "original": "A sudden bout of vertigo and a hot panging flash",
     "translation": "",
-    "context": "<<POS:08406147>>"
+    "context": "<<POS:08406151>>"
   },
   {
-    "key": "output|between_your_pc_legs|787bf075c5f7",
+    "key": "output|between_your_pc_legs|457307bc4ba3",
     "original": " between your [pc.legs]",
     "translation": "",
     "context": "<<POS:08406226>>"
@@ -102,34 +108,34 @@
     "context": "<<POS:08406753>>"
   },
   {
-    "key": "output|n_n_e_createVaginaLockedMessage|ae6f052f13e6",
-    "original": "\\n\\n\"+e.createVaginaLockedMessage()",
+    "key": "output|e_createVaginaLockedMessage|3d5d45f68563",
+    "original": "\"+e.createVaginaLockedMessage()",
     "translation": "",
-    "context": "<<POS:08406865>>"
+    "context": "<<POS:08406869>>"
   },
   {
-    "key": "output|n_nYou_feel_your_facial_structure_begin_to_shift_and_soften_At|9fa72d2790d8",
-    "original": "\\n\\nYou feel your facial structure begin to shift and soften. At first the feeling comes with a sharp stinging, but soon it fades to a dull ache as your features change slightly. <b>You feel much more feminine now!</b>",
+    "key": "output|You_feel_your_facial_structure_begin_to_shift_and_soften_At_fir|409a536468fd",
+    "original": "You feel your facial structure begin to shift and soften. At first the feeling comes with a sharp stinging, but soon it fades to a dull ache as your features change slightly. <b>You feel much more feminine now!</b>",
     "translation": "",
-    "context": "<<POS:08407052>>"
+    "context": "<<POS:08407056>>"
   },
   {
-    "key": "output|n_n_e_femininityLockedMessage|9e69351e0750",
-    "original": "\\n\\n\"+e.femininityLockedMessage()",
+    "key": "output|e_femininityLockedMessage|3c5fc024908d",
+    "original": "\"+e.femininityLockedMessage()",
     "translation": "",
-    "context": "<<POS:08407302>>"
+    "context": "<<POS:08407306>>"
   },
   {
-    "key": "output|n_nThe_first_thing_you_feel_after_swallowing_the_sticky_concoct|1c22735aed76",
-    "original": "\\n\\nThe first thing you feel after swallowing the sticky concoction is a giddy lightheadedness. You feel like jumping in the trees and finding something to lick, maybe all the things to lick! You shake your head, clearing the silly thoughts from it.",
+    "key": "output|The_first_thing_you_feel_after_swallowing_the_sticky_concoction|041bbbb0d3d1",
+    "original": "The first thing you feel after swallowing the sticky concoction is a giddy lightheadedness. You feel like jumping in the trees and finding something to lick, maybe all the things to lick! You shake your head, clearing the silly thoughts from it.",
     "translation": "",
-    "context": "<<POS:08407354>>"
+    "context": "<<POS:08407358>>"
   },
   {
-    "key": "output|n_nYou_feel_an_unnatural_heat_begin_to_spread_throughout_your|87c9e274952f",
-    "original": "\\n\\nYou feel an unnatural heat begin to spread throughout your [pc.skinFurScales]. It starts in a few small areas, but swiftly spreads across your entire body.",
+    "key": "output|You_feel_an_unnatural_heat_begin_to_spread_throughout_your_pc_s|a335ae5f8add",
+    "original": "You feel an unnatural heat begin to spread throughout your [pc.skinFurScales]. It starts in a few small areas, but swiftly spreads across your entire body.",
     "translation": "",
-    "context": "<<POS:08407694>>"
+    "context": "<<POS:08407698>>"
   },
   {
     "key": "output|Noticing_the_change_you_quickly_remove_your_pc_upperGarments|c875d6b184a2",
@@ -162,19 +168,13 @@
     "context": "<<POS:08408779>>"
   },
   {
-    "key": "output|n_n_e_skinTypeLockedMessage|2d90d61f6ab7",
-    "original": "\\n\\n\"+e.skinTypeLockedMessage()",
+    "key": "output|e_skinTypeLockedMessage|3695869a6a67",
+    "original": "\"+e.skinTypeLockedMessage()",
     "translation": "",
-    "context": "<<POS:08409078>>"
+    "context": "<<POS:08409082>>"
   },
   {
-    "key": "output|n_n|01a0374b07c7",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08409351>>"
-  },
-  {
-    "key": "output|Detecting_a_change_you_quickly_remove_your_pc_armor|ff0ea3bae486",
+    "key": "output|Detecting_a_change_you_quickly_remove_your_pc_armor|fd5f72d22c1a",
     "original": "Detecting a change, you quickly remove your [pc.armor]... ",
     "translation": "",
     "context": "<<POS:08409391>>"
@@ -210,28 +210,28 @@
     "context": "<<POS:08409879>>"
   },
   {
-    "key": "output|n_n_e_eyeTypeLockedMessage|46a3fa7c8402",
-    "original": "\\n\\n\"+e.eyeTypeLockedMessage()",
+    "key": "output|e_eyeTypeLockedMessage|913067f6528e",
+    "original": "\"+e.eyeTypeLockedMessage()",
     "translation": "",
-    "context": "<<POS:08410098>>"
+    "context": "<<POS:08410102>>"
   },
   {
-    "key": "output|n_nYou_feel_a_sudden_tightness_in_your_chest_causing_your_hear|dfc6d5059196",
-    "original": "\\n\\nYou feel a sudden tightness in your chest, causing your heart to beat faster as your hands go to your [pc.chest]. You grit your teeth and then finally suck in a gasp of air. Your breasts inflate with the inhalation, swelling to almost twice their size, the skin stretched like a drum and aching with need of release. You open your mouth to cry out, only to have a loud and inhuman <i>“CROOOOOOOOAK....”</i> escape your lips, your breasts deflating to push out the echoing sound. By the time it is finished your breasts have more than just deflated, they seem smaller than they were before.",
+    "key": "output|You_feel_a_sudden_tightness_in_your_chest_causing_your_heart_to|c7f42a97c98e",
+    "original": "You feel a sudden tightness in your chest, causing your heart to beat faster as your hands go to your [pc.chest]. You grit your teeth and then finally suck in a gasp of air. Your breasts inflate with the inhalation, swelling to almost twice their size, the skin stretched like a drum and aching with need of release. You open your mouth to cry out, only to have a loud and inhuman <i>“CROOOOOOOOAK....”</i> escape your lips, your breasts deflating to push out the echoing sound. By the time it is finished your breasts have more than just deflated, they seem smaller than they were before.",
     "translation": "",
-    "context": "<<POS:08410540>>"
+    "context": "<<POS:08410544>>"
   },
   {
-    "key": "output|n_n_e_breastRatingLockedMessage|5f7a45026bd9",
-    "original": "\\n\\n\"+e.breastRatingLockedMessage()",
+    "key": "output|e_breastRatingLockedMessage|2bad7ebfeffb",
+    "original": "\"+e.breastRatingLockedMessage()",
     "translation": "",
-    "context": "<<POS:08411152>>"
+    "context": "<<POS:08411156>>"
   },
   {
-    "key": "output|n_nAn_unpleasant_twinge_of_nerves_brings_your_attention_to_your|84c69a0c0d39",
-    "original": "\\n\\nAn unpleasant twinge of nerves brings your attention to your nipples.",
+    "key": "output|An_unpleasant_twinge_of_nerves_brings_your_attention_to_your_nip|bf292fd4feed",
+    "original": "An unpleasant twinge of nerves brings your attention to your nipples.",
     "translation": "",
-    "context": "<<POS:08411652>>"
+    "context": "<<POS:08411656>>"
   },
   {
     "key": "output|You_quickly_undress_to_investigate|b276f0f47a78",
@@ -246,19 +246,13 @@
     "context": "<<POS:08411816>>"
   },
   {
-    "key": "output|n_n_e_nippleTypeLockedMessage|d93e3b410d7c",
-    "original": "\\n\\n\"+e.nippleTypeLockedMessage()",
+    "key": "output|e_nippleTypeLockedMessage|a52f68b597de",
+    "original": "\"+e.nippleTypeLockedMessage()",
     "translation": "",
-    "context": "<<POS:08412224>>"
+    "context": "<<POS:08412228>>"
   },
   {
-    "key": "output|n_n|e1bc435c9425",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08412500>>"
-  },
-  {
-    "key": "output|An_odd_feeling_in_your_chest_makes_you_remove_your_pc_upperGar|e8be09480194",
+    "key": "output|An_odd_feeling_in_your_chest_makes_you_remove_your_pc_upperGar|8d6eca27eb55",
     "original": " An odd feeling in your chest makes you remove your [pc.upperGarments]. ",
     "translation": "",
     "context": "<<POS:08412540>>"
@@ -294,16 +288,16 @@
     "context": "<<POS:08413698>>"
   },
   {
-    "key": "output|n_n_e_nippleTypeLockedMessage|b181d6f4a11f",
-    "original": "\\n\\n\"+e.nippleTypeLockedMessage()",
+    "key": "output|e_nippleTypeLockedMessage|299c05d44807",
+    "original": "\"+e.nippleTypeLockedMessage()",
     "translation": "",
-    "context": "<<POS:08413962>>"
+    "context": "<<POS:08413966>>"
   },
   {
-    "key": "output|n_nA_tingling_sensation_in_your_pc_nipples_causes_them_to_sti|4fbbab0e6b26",
-    "original": "\\n\\nA tingling sensation in your [pc.nipples] causes them to stiffen fully erect for a moment, before they seem to regress, shrinking to a slightly smaller size on your [pc.chest]. A touch",
+    "key": "output|A_tingling_sensation_in_your_pc_nipples_causes_them_to_stiffen|f0dc3a7b84cb",
+    "original": "A tingling sensation in your [pc.nipples] causes them to stiffen fully erect for a moment, before they seem to regress, shrinking to a slightly smaller size on your [pc.chest]. A touch",
     "translation": "",
-    "context": "<<POS:08414267>>"
+    "context": "<<POS:08414271>>"
   },
   {
     "key": "output|against_your|510d325c62ab",
@@ -330,19 +324,13 @@
     "context": "<<POS:08414593>>"
   },
   {
-    "key": "output|n_n_e_nippleLengthRatioLockedMessage|75c81af1b0a1",
-    "original": "\\n\\n\"+e.nippleLengthRatioLockedMessage()",
+    "key": "output|e_nippleLengthRatioLockedMessage|35c8aa14a536",
+    "original": "\"+e.nippleLengthRatioLockedMessage()",
     "translation": "",
-    "context": "<<POS:08414693>>"
+    "context": "<<POS:08414697>>"
   },
   {
-    "key": "output|n_n|6aef1a62dbf9",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08414957>>"
-  },
-  {
-    "key": "output|Detecting_a_change_you_quickly_remove_your_pc_armor|ff0ea3bae486#1",
+    "key": "output|Detecting_a_change_you_quickly_remove_your_pc_armor|9ff8af773d9a",
     "original": "Detecting a change, you quickly remove your [pc.armor]... ",
     "translation": "",
     "context": "<<POS:08414997>>"
@@ -354,19 +342,13 @@
     "context": "<<POS:08415072>>"
   },
   {
-    "key": "output|n_n_e_hairLengthLockedMessage|5dd68a07372c",
-    "original": "\\n\\n\"+e.hairLengthLockedMessage()",
+    "key": "output|e_hairLengthLockedMessage|66c9a35a070f",
+    "original": "\"+e.hairLengthLockedMessage()",
     "translation": "",
-    "context": "<<POS:08415368>>"
+    "context": "<<POS:08415372>>"
   },
   {
-    "key": "output|n_n|d74f5f9bd2a3",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08415461>>"
-  },
-  {
-    "key": "output|Detecting_a_change_you_quickly_remove_your_pc_armor|ff0ea3bae486#2",
+    "key": "output|Detecting_a_change_you_quickly_remove_your_pc_armor|aa58f18d42eb",
     "original": "Detecting a change, you quickly remove your [pc.armor]... ",
     "translation": "",
     "context": "<<POS:08415501>>"
@@ -378,10 +360,10 @@
     "context": "<<POS:08415576>>"
   },
   {
-    "key": "output|n_nYour_vision_goes_dark_and_for_a_second_you_re_worried_that|7a927a3a0065",
-    "original": "\\n\\nYour vision goes dark, and for a second you’re worried that you may be going blind. Light comes back a few seconds later, and you rush for your codex’s mirror function. Your irises are still the same as before, but your pupils have been replaced with",
+    "key": "output|Your_vision_goes_dark_and_for_a_second_you_re_worried_that_you|9238a95f9253",
+    "original": "Your vision goes dark, and for a second you’re worried that you may be going blind. Light comes back a few seconds later, and you rush for your codex’s mirror function. Your irises are still the same as before, but your pupils have been replaced with",
     "translation": "",
-    "context": "<<POS:08415972>>"
+    "context": "<<POS:08415976>>"
   },
   {
     "key": "output|blocky_almost_digital_looking_iridescent_plus_signs|ef7ea54abb3c",
@@ -402,19 +384,13 @@
     "context": "<<POS:08416356>>"
   },
   {
-    "key": "output|n_n_e_eyeTypeLockedMessage|da086fd9dd9b",
-    "original": "\\n\\n\"+e.eyeTypeLockedMessage()",
+    "key": "output|e_eyeTypeLockedMessage|ee4ec755c833",
+    "original": "\"+e.eyeTypeLockedMessage()",
     "translation": "",
-    "context": "<<POS:08416431>>"
+    "context": "<<POS:08416435>>"
   },
   {
-    "key": "output|n_n|494ff827f8ea",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08416505>>"
-  },
-  {
-    "key": "output|Detecting_a_change_you_quickly_remove_your_pc_armor|ff0ea3bae486#3",
+    "key": "output|Detecting_a_change_you_quickly_remove_your_pc_armor|7b82207b39b4",
     "original": "Detecting a change, you quickly remove your [pc.armor]... ",
     "translation": "",
     "context": "<<POS:08416545>>"
@@ -426,25 +402,19 @@
     "context": "<<POS:08416620>>"
   },
   {
-    "key": "output|n_nYour_lips_tingle_and_you_lick_them_finding_them_to_be_slig|5d6d600b3eff",
-    "original": "\\n\\nYour lips tingle, and you lick them, finding them to be slightly fuller than they were before. The tingling sensation quickly fades, leaving you with a slightly more kissable mouth.",
+    "key": "output|Your_lips_tingle_and_you_lick_them_finding_them_to_be_slightly|f79ac0268702",
+    "original": "Your lips tingle, and you lick them, finding them to be slightly fuller than they were before. The tingling sensation quickly fades, leaving you with a slightly more kissable mouth.",
     "translation": "",
-    "context": "<<POS:08416877>>"
+    "context": "<<POS:08416881>>"
   },
   {
-    "key": "output|n_n_e_lipModLockedMessage|a2734bb20e42",
-    "original": "\\n\\n\"+e.lipModLockedMessage()",
+    "key": "output|e_lipModLockedMessage|6eac669d287d",
+    "original": "\"+e.lipModLockedMessage()",
     "translation": "",
-    "context": "<<POS:08417089>>"
+    "context": "<<POS:08417093>>"
   },
   {
-    "key": "output|n_n|2571d27f655a",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08417226>>"
-  },
-  {
-    "key": "output|Sensing_a_change_coming_on_you_hastily_remove_your_pc_lowerGar|7a845da87dae",
+    "key": "output|Sensing_a_change_coming_on_you_hastily_remove_your_pc_lowerGar|0a178aaacb96",
     "original": "Sensing a change coming on, you hastily remove your [pc.lowerGarments]... ",
     "translation": "",
     "context": "<<POS:08417245>>"
@@ -456,22 +426,22 @@
     "context": "<<POS:08417336>>"
   },
   {
-    "key": "output|n_n_e_tailTypeLockedMessage|9c335669e698",
-    "original": "\\n\\n\"+e.tailTypeLockedMessage()",
+    "key": "output|e_tailTypeLockedMessage|3a7024ede7b0",
+    "original": "\"+e.tailTypeLockedMessage()",
     "translation": "",
-    "context": "<<POS:08417711>>"
+    "context": "<<POS:08417715>>"
   },
   {
-    "key": "output|n_n_e_tailCountLockedMessage|ae49e79b8b2c",
-    "original": "\\n\\n\"+e.tailCountLockedMessage()",
+    "key": "output|e_tailCountLockedMessage|1805c1207a2d",
+    "original": "\"+e.tailCountLockedMessage()",
     "translation": "",
-    "context": "<<POS:08417752>>"
+    "context": "<<POS:08417756>>"
   },
   {
-    "key": "output|n_nYou_feel_your_pc_tail_tighten_and_constrict_losing|3f816575d8d5",
-    "original": "\\n\\nYou feel your [pc.tail] tighten and constrict, losing",
+    "key": "output|You_feel_your_pc_tail_tighten_and_constrict_losing|6547195b29a1",
+    "original": "You feel your [pc.tail] tighten and constrict, losing",
     "translation": "",
-    "context": "<<POS:08417864>>"
+    "context": "<<POS:08417868>>"
   },
   {
     "key": "output|a_few_inches_of_length|22033952c56d",
@@ -498,19 +468,13 @@
     "context": "<<POS:08418160>>"
   },
   {
-    "key": "output|n_n_e_tailTypeLockedMessage|b5b537530385",
-    "original": "\\n\\n\"+e.tailTypeLockedMessage()",
+    "key": "output|e_tailTypeLockedMessage|eb71d780f94c",
+    "original": "\"+e.tailTypeLockedMessage()",
     "translation": "",
-    "context": "<<POS:08418324>>"
+    "context": "<<POS:08418328>>"
   },
   {
-    "key": "output|n_n|5be2c302fc52",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08418484>>"
-  },
-  {
-    "key": "output|Sensing_a_change_coming_on_you_hastily_remove_your_pc_lowerGar|7a845da87dae#1",
+    "key": "output|Sensing_a_change_coming_on_you_hastily_remove_your_pc_lowerGar|a0790b3db32e",
     "original": "Sensing a change coming on, you hastily remove your [pc.lowerGarments]... ",
     "translation": "",
     "context": "<<POS:08418519>>"
@@ -546,43 +510,37 @@
     "context": "<<POS:08418796>>"
   },
   {
-    "key": "output|n_n_e_legTypeLockedMessage|2d2b6a74bbe8",
-    "original": "\\n\\n\"+e.legTypeLockedMessage()",
+    "key": "output|e_legTypeLockedMessage|d864298c1d2f",
+    "original": "\"+e.legTypeLockedMessage()",
     "translation": "",
-    "context": "<<POS:08419194>>"
+    "context": "<<POS:08419198>>"
   },
   {
-    "key": "output|n_nYou_fall_flat_on_your_pc_butt_as_your_pc_feet_tense_and|7956201594cc",
-    "original": "\\n\\nYou fall flat on your [pc.butt] as your [pc.feet] tense and spasm, slowly rearranging until they become three-toed webbed feet, exactly like the kerokoras. You wiggle and stretch your new digits, getting used to them before continuing on your way.",
+    "key": "output|You_fall_flat_on_your_pc_butt_as_your_pc_feet_tense_and_spas|12372d9c7113",
+    "original": "You fall flat on your [pc.butt] as your [pc.feet] tense and spasm, slowly rearranging until they become three-toed webbed feet, exactly like the kerokoras. You wiggle and stretch your new digits, getting used to them before continuing on your way.",
     "translation": "",
-    "context": "<<POS:08419287>>"
+    "context": "<<POS:08419291>>"
   },
   {
-    "key": "output|n_n_e_legTypeLockedMessage|f35a02e98596",
-    "original": "\\n\\n\"+e.legTypeLockedMessage()",
+    "key": "output|e_legTypeLockedMessage|4b161156a873",
+    "original": "\"+e.legTypeLockedMessage()",
     "translation": "",
-    "context": "<<POS:08419703>>"
+    "context": "<<POS:08419707>>"
   },
   {
-    "key": "output|n_nA_sudden_flush_makes_you_raise_your_arms_in_surprise_Spotti|3969a1966935",
-    "original": "\\n\\nA sudden flush makes you raise your arms in surprise. Spotting your hands, you find that they sweat a viscous, gooey substance, making them glisten in the light. Your trembling fingers begin elongating ever-so-slightly, the nails soften as each tip bulges out into a bulbous shape, and new skin expands between each digit. When your arm transformation completes, you find that <b>you now have sticky, webbed hands!</b>",
+    "key": "output|A_sudden_flush_makes_you_raise_your_arms_in_surprise_Spotting_y|d990b996ba0e",
+    "original": "A sudden flush makes you raise your arms in surprise. Spotting your hands, you find that they sweat a viscous, gooey substance, making them glisten in the light. Your trembling fingers begin elongating ever-so-slightly, the nails soften as each tip bulges out into a bulbous shape, and new skin expands between each digit. When your arm transformation completes, you find that <b>you now have sticky, webbed hands!</b>",
     "translation": "",
-    "context": "<<POS:08419795>>"
+    "context": "<<POS:08419799>>"
   },
   {
-    "key": "output|n_nYou_suddenly_lose_your_sense_of_taste_feeling_an_uncomforta|01ffe311a099",
-    "original": "\\n\\nYou suddenly lose your sense of taste, feeling an uncomfortable tingle in your mouth. The sensation passes quickly however, and when you stick out your tongue, you find it to be coated in a gooey sticky substance - and also a great deal longer than before. You have the sudden urge to eat insects, but dismiss the thought with an embarrassed shake of your head.",
+    "key": "output|You_suddenly_lose_your_sense_of_taste_feeling_an_uncomfortable|6ad7b4d5325a",
+    "original": "You suddenly lose your sense of taste, feeling an uncomfortable tingle in your mouth. The sensation passes quickly however, and when you stick out your tongue, you find it to be coated in a gooey sticky substance - and also a great deal longer than before. You have the sudden urge to eat insects, but dismiss the thought with an embarrassed shake of your head.",
     "translation": "",
-    "context": "<<POS:08420396>>"
+    "context": "<<POS:08420400>>"
   },
   {
-    "key": "output|n_n|ee7ee2a384d8",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08421032>>"
-  },
-  {
-    "key": "output|A_major_change_courses_through_you_and_you_quickly_undress_yours|ad64e3f7642d",
+    "key": "output|A_major_change_courses_through_you_and_you_quickly_undress_yours|d05483f8348d",
     "original": "A major change courses through you and you quickly undress yourself. ",
     "translation": "",
     "context": "<<POS:08421056>>"
@@ -648,19 +606,13 @@
     "context": "<<POS:08422043>>"
   },
   {
-    "key": "output|n_n_e_skinToneLockedMessage|a2b1cd1cea30",
-    "original": "\\n\\n\"+e.skinToneLockedMessage()",
+    "key": "output|e_skinToneLockedMessage|9bdcd4f34847",
+    "original": "\"+e.skinToneLockedMessage()",
     "translation": "",
-    "context": "<<POS:08422212>>"
+    "context": "<<POS:08422216>>"
   },
   {
-    "key": "output|n_n|f1c07e1f44a0",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08422360>>"
-  },
-  {
-    "key": "output|A_major_change_courses_through_you_and_you_quickly_undress_yours|ad64e3f7642d#1",
+    "key": "output|A_major_change_courses_through_you_and_you_quickly_undress_yours|e065040ab03b",
     "original": "A major change courses through you and you quickly undress yourself. ",
     "translation": "",
     "context": "<<POS:08422384>>"
@@ -678,13 +630,7 @@
     "context": "<<POS:08422675>>"
   },
   {
-    "key": "output|n_n|0b67dc3faab7",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:08423007>>"
-  },
-  {
-    "key": "output|Detecting_a_change_you_quickly_remove_your_pc_armor|ff0ea3bae486#4",
+    "key": "output|Detecting_a_change_you_quickly_remove_your_pc_armor|e403fd232a51",
     "original": "Detecting a change, you quickly remove your [pc.armor]... ",
     "translation": "",
     "context": "<<POS:08423047>>"
@@ -696,46 +642,46 @@
     "context": "<<POS:08423122>>"
   },
   {
-    "key": "output|n_nYour_muscles_shift_and_ripple_beneath_your_pc_skin_shrink|13337a20afed",
-    "original": "\\n\\nYour muscles shift and ripple beneath your [pc.skin], shrinking and losing raw strength as you watch.",
+    "key": "output|Your_muscles_shift_and_ripple_beneath_your_pc_skin_shrinking|f88d035fc865",
+    "original": "Your muscles shift and ripple beneath your [pc.skin], shrinking and losing raw strength as you watch.",
     "translation": "",
-    "context": "<<POS:08423769>>"
+    "context": "<<POS:08423773>>"
   },
   {
-    "key": "output|n_nYour_muscles_shift_and_ripple_beneath_your_pc_skin_becomi|29c083aa7f30",
-    "original": "\\n\\nYour muscles shift and ripple beneath your [pc.skin], becoming more compact and quicker. You feel like you could run faster, jump higher, and... lick things?",
+    "key": "output|Your_muscles_shift_and_ripple_beneath_your_pc_skin_becoming_m|d5b153a5087e",
+    "original": "Your muscles shift and ripple beneath your [pc.skin], becoming more compact and quicker. You feel like you could run faster, jump higher, and... lick things?",
     "translation": "",
-    "context": "<<POS:08423941>>"
+    "context": "<<POS:08423945>>"
   },
   {
-    "key": "output|n_nA_sudden_warmth_invades_your_pc_hips_and_you_feel_them_bec|bcea47897820",
-    "original": "\\n\\nA sudden warmth invades your [pc.hips] and you feel them become slightly more expansive. You’re suddenly hit by an urge to jump as high as you can into the air, but shake it off with a smile.",
+    "key": "output|A_sudden_warmth_invades_your_pc_hips_and_you_feel_them_become|164015aebc76",
+    "original": "A sudden warmth invades your [pc.hips] and you feel them become slightly more expansive. You’re suddenly hit by an urge to jump as high as you can into the air, but shake it off with a smile.",
     "translation": "",
-    "context": "<<POS:08424237>>"
+    "context": "<<POS:08424241>>"
   },
   {
-    "key": "output|n_nA_rush_of_warmth_flows_into_your_butt_and_you_feel_a_slight|e2d025206a29",
-    "original": "\\n\\nA rush of warmth flows into your butt, and you feel a slight tingling as it increases in size. You squeeze the cheeks between your hands, sighing with pleasure as the warmth redistributes through your whole body.",
+    "key": "output|A_rush_of_warmth_flows_into_your_butt_and_you_feel_a_slight_tin|8e2b5c9b4f17",
+    "original": "A rush of warmth flows into your butt, and you feel a slight tingling as it increases in size. You squeeze the cheeks between your hands, sighing with pleasure as the warmth redistributes through your whole body.",
     "translation": "",
-    "context": "<<POS:08424602>>"
+    "context": "<<POS:08424606>>"
   },
   {
-    "key": "output|n_n_e_buttRatingLockedMessage|068137858595",
-    "original": "\\n\\n\"+e.buttRatingLockedMessage()",
+    "key": "output|e_buttRatingLockedMessage|c00a2514356e",
+    "original": "\"+e.buttRatingLockedMessage()",
     "translation": "",
-    "context": "<<POS:08424853>>"
+    "context": "<<POS:08424857>>"
   },
   {
-    "key": "output|n_nYou_feel_a_sudden_warm_tugging_in_your_nethers_and_the_thou|abdccb63a6b1",
-    "original": "\\n\\nYou feel a sudden warm tugging in your nethers, and the thought of breeding with the largest nearby male temporarily invades your thoughts. You shake your head, but the thought has done its job getting you hot.",
+    "key": "output|You_feel_a_sudden_warm_tugging_in_your_nethers_and_the_thought|0533afcf60ef",
+    "original": "You feel a sudden warm tugging in your nethers, and the thought of breeding with the largest nearby male temporarily invades your thoughts. You shake your head, but the thought has done its job getting you hot.",
     "translation": "",
-    "context": "<<POS:08424971>>"
+    "context": "<<POS:08424975>>"
   },
   {
-    "key": "output|n_nA_trickling_warmth_works_its_way_through_your_stomach_and_y|846a502ba169",
-    "original": "\\n\\nA trickling warmth works its way through your stomach, and you feel like everything in your life",
+    "key": "output|A_trickling_warmth_works_its_way_through_your_stomach_and_you_f|8193ec670659",
+    "original": "A trickling warmth works its way through your stomach, and you feel like everything in your life",
     "translation": "",
-    "context": "<<POS:08425466>>"
+    "context": "<<POS:08425470>>"
   },
   {
     "key": "output|is_perfect|5110b8abb0d6",
@@ -756,16 +702,16 @@
     "context": "<<POS:08425670>>"
   },
   {
-    "key": "output|n_nYou_grasp_your_pc_butt_as_a_shudder_runs_through_it_feeli|5c0b8d1a78ee",
-    "original": "\\n\\nYou grasp your [pc.butt] as a shudder runs through it, feeling as if your insides have become looser than they were before. You’ll probably be able to fit larger insertions now.",
+    "key": "output|You_grasp_your_pc_butt_as_a_shudder_runs_through_it_feeling_a|900c0b3966ac",
+    "original": "You grasp your [pc.butt] as a shudder runs through it, feeling as if your insides have become looser than they were before. You’ll probably be able to fit larger insertions now.",
     "translation": "",
-    "context": "<<POS:08425897>>"
+    "context": "<<POS:08425901>>"
   },
   {
-    "key": "output|n_n_Aside_from_a_slight_bout_of_dizziness_it_looks_like_the|05f648a82a58",
-    "original": "\\n\\n... Aside from a slight bout of dizziness, it looks like the venom didn’t have any affect on you after all...",
+    "key": "output|Aside_from_a_slight_bout_of_dizziness_it_looks_like_the_ven|d977454a3d8a",
+    "original": "... Aside from a slight bout of dizziness, it looks like the venom didn’t have any affect on you after all...",
     "translation": "",
-    "context": "<<POS:08426248>>"
+    "context": "<<POS:08426252>>"
   },
   {
     "key": "output|i_It_seems_you_are_already_as_much_of_a_kerokoras_as_you_re_go|c80131c1e1e9",
@@ -774,10 +720,10 @@
     "context": "<<POS:08426401>>"
   },
   {
-    "key": "output|n_nAfter_the_getting_used_to_your_new_changes_you_redress_and|7c44b922cc54",
-    "original": "\\n\\nAfter the getting used to your new changes, you redress and get on your way.",
+    "key": "output|After_the_getting_used_to_your_new_changes_you_redress_and_get|65e32d49bb70",
+    "original": "After the getting used to your new changes, you redress and get on your way.",
     "translation": "",
-    "context": "<<POS:08426510>>"
+    "context": "<<POS:08426514>>"
   },
   {
     "key": "output|e_capitalA_e_short_opens_the_vial_and_drinks_the_venom_to_no_e|53a68dd2e931",

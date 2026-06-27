@@ -3,37 +3,67 @@
     "key": "perk|Mega_Milk|90056af66a70",
     "original": "Mega Milk",
     "translation": "",
-    "context": "<<POS:11509311>>"
+    "context": "<<POS:11509311>> createPerk(\"Mega Milk\",0,0,0,0,\"\")"
   },
   {
     "key": "perk|Multiple_Attacks|b9dc9f8772a5",
     "original": "Multiple Attacks",
     "translation": "",
-    "context": "<<POS:11517946>>"
+    "context": "<<POS:11517946>> createPerk(\"Multiple Attacks\",1,0,0,0,\"\")"
   },
   {
     "key": "button|Paige|9e24adc2623f",
     "original": "Paige",
     "translation": "",
-    "context": "<<POS:11519195>>"
+    "context": "<<POS:11519195>> addDisabledButton(e,\"Paige\",\"Paige\",\"Paige very specifically told you that she will let you know when she’s ready to take the next step with you and her newest piece of equipment. She hasn’t given you the okay just yet, so, you’d best give her the space she needs.\")"
   },
   {
-    "key": "button|Paige|71e6f1c2fe47",
+    "key": "button.hover|Paige_very_specifically_told_you_that_she_will_let_you_know_when|e5fed4cfb1f7",
+    "original": "Paige very specifically told you that she will let you know when she’s ready to take the next step with you and her newest piece of equipment. She hasn’t given you the okay just yet, so, you’d best give her the space she needs.",
+    "translation": "",
+    "context": "<<POS:11519211>> addDisabledButton(e,\"Paige\",\"Paige\",\"Paige very specifically told you that she will let you know when she’s ready to take the next step with you and her newest piece of equipment. She hasn’t given you the okay just yet, so, you’d best give her the space she needs.\")"
+  },
+  {
+    "key": "button|Paige|a2acc8270026",
     "original": "Paige",
     "translation": "",
-    "context": "<<POS:11519454>>"
+    "context": "<<POS:11519454>> addButton(e,\"Paige\",window.paigeCrewApproach)"
   },
   {
     "key": "perk|Fixed_CumQ|f7b84f78c2f5",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:11521180>>"
+    "context": "<<POS:11521180>> createPerk(\"Fixed CumQ\",2500)"
   },
   {
-    "key": "button|Syri|3509777261e7",
+    "key": "button.tooltip|Interact_with_your_silvery_shape_shifting_crew_member|77800c61912b",
+    "original": "Interact with your silvery shape-shifting crew member.",
+    "translation": "",
+    "context": "<<POS:11525936>> addButton(e,gooarmor.short,(function(){return window.approachGooArmorCrew(!0,o)}),gooarmor.short,\"Interact with your silvery shape-shifting crew member.\")"
+  },
+  {
+    "key": "button.hover|You_can_t_right_now_you_re_in_combat|958bcd0d2552",
+    "original": "You can’t right now--you’re in combat!",
+    "translation": "",
+    "context": "<<POS:11526320>> addDisabledButton(e,gooarmor.short,gooarmor.short,\"You can’t right now--you’re in combat!\")"
+  },
+  {
+    "key": "button.tooltip|Interact_with_your_silvery_shape_shifting_armor|e546bb794ecb",
+    "original": "Interact with your silvery shape-shifting armor.",
+    "translation": "",
+    "context": "<<POS:11526459>> addButton(e,gooarmor.short,(function(){return window.approachGooArmorCrew(!0,o)}),gooarmor.short,\"Interact with your silvery shape-shifting armor.\")"
+  },
+  {
+    "key": "button.hover|You_can_t_do_anything_with_her_while_she_is_stored_away|4ac665bce79b",
+    "original": "You can’t do anything with her while she is stored away.",
+    "translation": "",
+    "context": "<<POS:11526957>> addDisabledButton(e,gooarmor.short,gooarmor.short,\"You can’t do anything with her while she is stored away.\")"
+  },
+  {
+    "key": "button|Syri|3b0113993fb8",
     "original": "Syri",
     "translation": "",
-    "context": "<<POS:11533811>>"
+    "context": "<<POS:11533811>> addButton(arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,\"Syri\",this.crewApproach)"
   },
   {
     "key": "output|textify_Ee_Ee_0_Ce_Z_n_t_t_var0_n_t_t_t_You_wander_over_t|f4ddace6da01",
@@ -45,30 +75,30 @@
     "key": "perk|Musky_Pheromones|7c424d962072",
     "original": "Musky Pheromones",
     "translation": "",
-    "context": "<<POS:11540123>>"
+    "context": "<<POS:11540123>> createPerk(\"Musky Pheromones\")"
   },
   {
     "key": "button|Yammi|bdf15ade20da",
     "original": "Yammi",
     "translation": "",
-    "context": "<<POS:11544317>>"
+    "context": "<<POS:11544317>> addButton(e,\"Yammi\",window.pippaYammiThreesomeIntro)"
   },
   {
     "key": "button|Yammi|5f293b117aa7",
     "original": "Yammi",
     "translation": "",
-    "context": "<<POS:11544370>>"
+    "context": "<<POS:11544370>> addButton(e,\"Yammi\",window.yammiInTheKitchen)"
   },
   {
     "key": "perk|Fixed_CumQ|5db90459260a",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:11547238>>"
+    "context": "<<POS:11547238>> createPerk(\"Fixed CumQ\",350,0,0,0)"
   },
   {
     "key": "button|Olympia|3266c073a402",
     "original": "Olympia",
     "translation": "",
-    "context": "<<POS:11549114>>"
+    "context": "<<POS:11549114>> addButton(e,\"Olympia\",window.approachOlympia)"
   }
 ]

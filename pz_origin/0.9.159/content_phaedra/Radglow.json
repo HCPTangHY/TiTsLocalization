@@ -1,6 +1,18 @@
 [
   {
-    "key": "combat|yanking_you_out_of_the_sky_and_slapping_your_face_onto_the_sap|60d51d49cef0",
+    "key": "textify|From_the_corner_of_your_vision_you_spot_the_amorous_plant_s_ten|88b5b3ec081d",
+    "original": "From the corner of your vision, you spot the amorous plant’s tentacles sneaking towards your [pc.legOrLegsNoun]. Fortunately, your [pc.ra kaithrit half_kaithrit|kaithrit|swift] reflexes allow you to deftly avoid the radglow’s attack before you’re swept off your [pc.feet] in the least romantic way possible!",
+    "translation": "",
+    "context": "<<POS:00369280>>"
+  },
+  {
+    "key": "textify|As_you_maneuver_your_way_around_the_horny_shrubbery_you_fail_to|70824b9c896e",
+    "original": "As you maneuver your way around the horny shrubbery, you fail to notice a sweeping tentacle snaking all the way around to attack from your blind spot. It grabs hold of [pc.hasLegs|one of your [pc.legsNoun]|your [pc.legNoun]]",
+    "translation": "",
+    "context": "<<POS:00369645>>"
+  },
+  {
+    "key": "combat|yanking_you_out_of_the_sky_and_slapping_your_face_onto_the_sap|3f820edbe8df",
     "original": ", yanking you out of the sky and slapping your face onto the sap-laden floor, leaving you to stew in pure, unadulterated pheromones.",
     "translation": "",
     "context": "<<POS:00369903>>"
@@ -36,7 +48,13 @@
     "context": "<<POS:00370710>>"
   },
   {
-    "key": "combat|textify_Gn_Gn_0_et_Z_However_you_parry_the_painfully_tele|42be63851e0c",
+    "key": "textify|e_isTripped|16614102564c",
+    "original": "])),e.isTripped()?",
+    "translation": "",
+    "context": "<<POS:00370920>>"
+  },
+  {
+    "key": "combat|textify_Gn_Gn_0_et_Z_However_you_parry_the_painfully_tele|2223c1bc3de2",
     "original": "textify(Gn||(Gn=(0,et.Z)([\"However, you parry the painfully telegraphed attack with your [pc.weaponMelee]!\"])))",
     "translation": "",
     "context": "<<POS:00371082>>"
@@ -48,22 +66,46 @@
     "context": "<<POS:00371231>>"
   },
   {
-    "key": "combat|n_n_b_You_ve_been_blinded_b|bd9d8ff3195f",
-    "original": "\\n\\n<b>You’ve been blinded!</b>",
+    "key": "textify|The_alien_s_glowing_tentacles_begin_to_dance_hypnotically_before|4ba1d83615f3",
+    "original": "The alien’s glowing tentacles begin to dance hypnotically before your mesmerized eyes, and that strangely soothing song starts to play again in your head. Your vision blurs for a moment, replaced with fantasies of submitting to this lascivious creature and getting every hole in your body filled with those thick cocks, your belly gradually swelling from the sheer amount of--\\n\\n\\t\\tYou shake your head and try to focus on the fight, but you can’t completely shake off the allure of those visions. Your mouth salivates at the thought of sucking those cocks, and your [pc.butthole] winks needily[pc.isCrotchExposed|| behind your[pc.isCrotchExposedByLowerUndergarment| gear| underwear]].",
     "translation": "",
-    "context": "<<POS:00374005>>"
+    "context": "<<POS:00371720>>"
   },
   {
-    "key": "bust|RADGLOW|a85c8be351bf",
-    "original": "RADGLOW",
+    "key": "textify|t|522d9cc7c0ab",
+    "original": "])),t?",
     "translation": "",
-    "context": "<<POS:00375068>>"
+    "context": "<<POS:00372693>>"
   },
   {
-    "key": "name.show|Radglow|9e9155cd7b5f",
+    "key": "combat|b_You_ve_been_blinded_b|32b0401d8eab",
+    "original": "<b>You’ve been blinded!</b>",
+    "translation": "",
+    "context": "<<POS:00374009>>"
+  },
+  {
+    "key": "textify|The_plant_s_cock_tipped_tentacles_begin_to_flare_up_each_one_gl|f62d079a4b04",
+    "original": "The plant’s cock-tipped tentacles begin to flare up, each one glowing with a far brighter light than they have had in the past few minutes. It’s for the best that you act with caution this turn...",
+    "translation": "",
+    "context": "<<POS:00374281>>"
+  },
+  {
+    "key": "textify|You_notice_that_the_radglow_is_not_regenerating_its_wounds_anymo|0f9a47ba408c",
+    "original": "You notice that the radglow is not regenerating its wounds anymore. It would seem your toxic attacks are wreaking havoc on its cells.",
+    "translation": "",
+    "context": "<<POS:00374645>>"
+  },
+  {
+    "key": "textify|The_radglow_rapidly_regrows_its_various_stems_and_tentacles_befo|a8c0b0bd8297",
+    "original": "The radglow rapidly regrows its various stems and tentacles before your eyes!",
+    "translation": "",
+    "context": "<<POS:00374833>>"
+  },
+  {
+    "key": "name.show|Radglow|6e663ece739d",
     "original": "Radglow",
     "translation": "",
-    "context": "<<POS:00375088>>"
+    "context": "<<POS:00375088>> showName(\"Radglow\")"
   },
   {
     "key": "output|textify_Kn_Kn_0_et_Z_n_tThe_obscene_alien_member_begins_t|e6777a998476",
@@ -75,16 +117,40 @@
     "key": "button|One_More|2c5b9b64acf6",
     "original": "One More...",
     "translation": "",
-    "context": "<<POS:00390192>>"
+    "context": "<<POS:00390192>> addButton(n++,\"One More...\",(function(){ga(!0),output(textify(Jn||(Jn=(0,et.Z)([\"\\n\\t\\t\\tYou waste no time in latching onto another cockvine. As your [pc.lipsChaste] wrap around the tentacle’s flare, the radglow’s phalluses light back up all at once, taking on a bright yellow hue, as if the plant ha..."
   },
   {
-    "key": "button|Stop_Here|5879aecb502b",
+    "key": "button.hover|One_More|2c5b9b64acf6",
+    "original": "One More...",
+    "translation": "",
+    "context": "<<POS:00391940>> addButton(n++,\"One More...\",(function(){ga(!0),output(textify(Jn||(Jn=(0,et.Z)([\"\\n\\t\\t\\tYou waste no time in latching onto another cockvine. As your [pc.lipsChaste] wrap around the tentacle’s flare, the radglow’s phalluses light back up all at once, taking on a bright yellow hue, as if the plant ha..."
+  },
+  {
+    "key": "button.tooltip|You_know_it_s_not_going_to_be_just_one|144069f92950",
+    "original": "You know it’s not going to be just one.",
+    "translation": "",
+    "context": "<<POS:00391954>> addButton(n++,\"One More...\",(function(){ga(!0),output(textify(Jn||(Jn=(0,et.Z)([\"\\n\\t\\t\\tYou waste no time in latching onto another cockvine. As your [pc.lipsChaste] wrap around the tentacle’s flare, the radglow’s phalluses light back up all at once, taking on a bright yellow hue, as if the plant ha..."
+  },
+  {
+    "key": "button|Stop_Here|d4fdef1faa2a",
     "original": "Stop Here",
     "translation": "",
-    "context": "<<POS:00392011>>"
+    "context": "<<POS:00392011>> addButton(n++,\"Stop Here\",mainGameMenu,\"Stop Here\",\"You could always come back for another feeding after your body has had time to recover from this one.\")"
   },
   {
-    "key": "output|textify_Qn_Qn_0_et_Z_n_tThe_radglow_keeps_trying_to_entic|5a1acc1a751e",
+    "key": "button.hover|Stop_Here|d4fdef1faa2a",
+    "original": "Stop Here",
+    "translation": "",
+    "context": "<<POS:00392036>> addButton(n++,\"Stop Here\",mainGameMenu,\"Stop Here\",\"You could always come back for another feeding after your body has had time to recover from this one.\")"
+  },
+  {
+    "key": "button.tooltip|You_could_always_come_back_for_another_feeding_after_your_body_h|3e767d932027",
+    "original": "You could always come back for another feeding after your body has had time to recover from this one.",
+    "translation": "",
+    "context": "<<POS:00392048>> addButton(n++,\"Stop Here\",mainGameMenu,\"Stop Here\",\"You could always come back for another feeding after your body has had time to recover from this one.\")"
+  },
+  {
+    "key": "output|textify_Qn_Qn_0_et_Z_n_tThe_radglow_keeps_trying_to_entic|42382fb6c443",
     "original": "textify(Qn||(Qn=(0,et.Z)([\"\\n\\tThe radglow keeps trying to entice you to suck one of those juicy cocks, but what if you were to make an offer of your own? As far as you know, cunt tails aren’t a feature of this planet, so it shouldn’t be too hard to trick the radglow into thinking it’s just a different kind of mouth...\\n\\t\\n\\tSmiling with mischief, you raise [pc.oneTailCunt] and spread its lips open. No sooner have you done it than a string of [pc.girlCumVisc] lube dribbles down, giving away just how eager this thing is. Not that you’re not excited yourself — [pc.hasCock\\n\\t\\t|your [pc.cocksNoun] throb with [pc.lnhLibido||\\n\\t\\t\\t|lascivious \\n\\t\\t] anticipation[pc.isCrotchExposed\\n\\t\\t\\t| even though you have no intention of using [s\\n\\t\\t\\t\\t|it\\n\\t\\t\\t\\t|them\\n\\t\\t\\t] for now.\\n\\t\\t\\t| against the[pc.isCrotchExposedByLowerUndergarment\\n\\t\\t\\t\\t| confines of your [pc.armor].\\n\\t\\t\\t\\t| fabric of your [pc.lowerUndergarment].\\n\\t\\t\\t]\\n\\t\\t]\\n\\t\\t|the [pc.lnhLibido||\\n\\t\\t\\t|lascivious \\n\\t\\t]anticipation is making your [pc.vaginasNoun] just as wet, to the point where moisture starts to[pc.isCrotchExposed\\n\\t\\t\\t| trickle freely down your thighs.\\n\\t\\t\\t| soak your [pc.lowerUndergarment].\\n\\t\\t]\\n\\t\\t\\n\\t]\\n\\t\\n\\tOne of the plant’s phalluses inches closer. It glows with a lavender hue, turning pink when it’s mere inches away from your cum-hungry slit, but then it stops and shifts back to lavender. For some reason, you know the radglow is hesitating, as if it’s not entirely sure about this strange new hole that you’re presenting.\\n\\t\\n\\tIt takes considerable willpower to stop your tail-cunt from just gobbling the indecisive dong. Instead, you settle for cooing encouragements: <i>“Don’t be shy...”</i> Somehow, you have a feeling that the alien plant understands you, at least on a surface level. <i>“It’s okay, give it a try...”</i> The alien flare shifts to a neon pink as it tentatively touches the lips of your pussy and starts to press against your entrance, sending a spark of pleasure up your spine. <i>“Ahhh~~ that’s it, keep going...”</i>\\n\\t\\n\\tThe radglow’s prong might be squishy, but it’s still quite big, so you decide to give it a little help. Flexing the powerful muscles of your tail, you begin to apply pressure of your own, until your slit finally gives way to the girthy flare. A throaty[pc.mfn\\n\\t\\t| groan\\n\\t\\t| moan\\n\\t\\t| moan\\n\\t] escapes your lips, and your [pc.legsNoun] quiver with pleasure as your [pc.tailCunt] stretches around the thick insertion.\\n\\t\\n\\tA strange mix of pride and euphoria wells in your heart as you watch your tail bloat with inch after inch of alien dick. You can feel the medial ring stroking your walls with every centimeter of glowing cock that the creature pushes inside you, until the last speck of light disappears, completely enveloped by your pussy.\\n\\t\\n\\t[pc.hasTails\\n\\t\\t|But of course you wouldn’t be satisfied with just one tail, would you?\\n\\t\\t\\n\\t\\tBringing your [pc.tailsRange 0 3\\n\\t\\t\\t|other\\n\\t\\t\\t|next\\n\\t\\t] tail-cunt up, you repeat the process, enticing another of the plant’s phalluses to fill it up. Thankfully the radglow is far less hesitant now. In fact, it’s so eager to get inside you that you’re forced to suck in a sharp breath as the thick shaft penetrates your tail in one go, using way more force than before. Luckily, your appendage is slick and flexible enough to take it with only minor discomfort — and the pleasure is disproportionately larger.[pc.tailsRange 0 3\\n\\t\\t\\t|\\n\\t\\t\\t| Rinse, repeat.\\n\\t\\t] Once each of your tails is properly paired with a tentacular cock, you decide it’s time for the real fun to start.\\n\\t]\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:00392302>>"
@@ -93,7 +159,13 @@
     "key": "button|Next|2cfde02fd10f",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00395980>>"
+    "context": "<<POS:00395980>> addButton(o++,\"Next\",(function(){ga(!0),output(textify(Xn||(Xn=(0,et.Z)([\"\\n\\t\\tThe radglow doesn’t wait for you — it starts moving its stem[pc.hasTails\\n\\t\\t\\t|s\\n\\t\\t] back and forth in an attempt to fuck your hole[pc.hasTails\\n\\t\\t\\t|s\\n\\t\\t], but since your tail[pc.hasTails\\n\\t\\t\\t|s are\\n\\t\\t\\t..."
+  },
+  {
+    "key": "button.hover|Next|2cfde02fd10f",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:00404965>> addButton(o++,\"Next\",(function(){ga(!0),output(textify(Xn||(Xn=(0,et.Z)([\"\\n\\t\\tThe radglow doesn’t wait for you — it starts moving its stem[pc.hasTails\\n\\t\\t\\t|s\\n\\t\\t] back and forth in an attempt to fuck your hole[pc.hasTails\\n\\t\\t\\t|s\\n\\t\\t], but since your tail[pc.hasTails\\n\\t\\t\\t|s are\\n\\t\\t\\t..."
   },
   {
     "key": "output|textify_ea_ea_0_et_Z_n_tAfter_this_creepy_greenery_s_repe|39463601117b",
@@ -105,16 +177,40 @@
     "key": "button|Struggle|d40c97a8b82e",
     "original": "Struggle",
     "translation": "",
-    "context": "<<POS:00406729>>"
+    "context": "<<POS:00406729>> addButton(n++,\"Struggle\",(function(){return wa(o,e)}),\"Struggle\",\"Take a turn to automatically free yourself.\")"
   },
   {
-    "key": "button|Give_In|415f8f31a873",
+    "key": "button.hover|Struggle|d40c97a8b82e",
+    "original": "Struggle",
+    "translation": "",
+    "context": "<<POS:00406769>> addButton(n++,\"Struggle\",(function(){return wa(o,e)}),\"Struggle\",\"Take a turn to automatically free yourself.\")"
+  },
+  {
+    "key": "button.tooltip|Take_a_turn_to_automatically_free_yourself|b3be47965dcd",
+    "original": "Take a turn to automatically free yourself.",
+    "translation": "",
+    "context": "<<POS:00406780>> addButton(n++,\"Struggle\",(function(){return wa(o,e)}),\"Struggle\",\"Take a turn to automatically free yourself.\")"
+  },
+  {
+    "key": "button|Give_In|16922ba5ad5d",
     "original": "Give In",
     "translation": "",
-    "context": "<<POS:00406841>>"
+    "context": "<<POS:00406841>> addButton(n++,\"Give In\",(function(){qn.V.newGroundCombat();var e=new ca;qn.V.setHostileActors(e),qn.V.setFriendlyActors(pc),window.enemy=e,ka()}),\"Give In\",\"On second thought, those shiny cocks actually look kinda hot...\")"
   },
   {
-    "key": "output|textify_ta_ta_0_et_Z_n_t_var0_n_t_t_Even_now_the_radglow|a5f1a78eb1f5",
+    "key": "button.hover|Give_In|16922ba5ad5d",
+    "original": "Give In",
+    "translation": "",
+    "context": "<<POS:00406973>> addButton(n++,\"Give In\",(function(){qn.V.newGroundCombat();var e=new ca;qn.V.setHostileActors(e),qn.V.setFriendlyActors(pc),window.enemy=e,ka()}),\"Give In\",\"On second thought, those shiny cocks actually look kinda hot...\")"
+  },
+  {
+    "key": "button.tooltip|On_second_thought_those_shiny_cocks_actually_look_kinda_hot|22666ceab42c",
+    "original": "On second thought, those shiny cocks actually look kinda hot...",
+    "translation": "",
+    "context": "<<POS:00406983>> addButton(n++,\"Give In\",(function(){qn.V.newGroundCombat();var e=new ca;qn.V.setHostileActors(e),qn.V.setFriendlyActors(pc),window.enemy=e,ka()}),\"Give In\",\"On second thought, those shiny cocks actually look kinda hot...\")"
+  },
+  {
+    "key": "output|textify_ta_ta_0_et_Z_n_t_var0_n_t_t_Even_now_the_radglow|0ebd8e08cd0e",
     "original": "textify(ta||(ta=(0,et.Z)([\"\\n\\t[var0\\n\\t\\t|Even now, the radglow continues to regenerate the damage you inflicted, but its movements have become languid, and the phalluses’ glow has dimmed back to gentle pastel hues. Somehow, you know that this radglow acknowledges your power and won’t try to fight you anymore. You could use it to sate your lust, if you are so inclined.\\n\\t\\t|Little by little, the radglow’s movements become languid and alluring, its phalluses’ glowing in gentle pastel hues as they sway to and fro. Somehow, you get a sense that this plant stands in awe of your raw sensuality and is trying to court you. More importantly, you know that it won’t complain too much about anything you decide to to.\\n\\t]\\n\\t\"]))),[function(){return t}]",
     "translation": "",
     "context": "<<POS:00408234>>"
@@ -123,16 +219,40 @@
     "key": "button|Dildo_Play|b5146af41b75",
     "original": "Dildo Play",
     "translation": "",
-    "context": "<<POS:00409028>>"
+    "context": "<<POS:00409028>> addButton(o++,\"Dildo Play\",(function(){return vaginaRouter((function(){return Ia(e)}),0,0,0,!1)}),\"Dildo Play\",\"That flared crown and thick medial ring could give your pleasure spots a really good massage...\")"
   },
   {
-    "key": "button|Leave|a4fddfbe5c39",
+    "key": "button.hover|Dildo_Play|b5146af41b75",
+    "original": "Dildo Play",
+    "translation": "",
+    "context": "<<POS:00409112>> addButton(o++,\"Dildo Play\",(function(){return vaginaRouter((function(){return Ia(e)}),0,0,0,!1)}),\"Dildo Play\",\"That flared crown and thick medial ring could give your pleasure spots a really good massage...\")"
+  },
+  {
+    "key": "button.tooltip|That_flared_crown_and_thick_medial_ring_could_give_your_pleasure|5f31eacbae23",
+    "original": "That flared crown and thick medial ring could give your pleasure spots a really good massage...",
+    "translation": "",
+    "context": "<<POS:00409125>> addButton(o++,\"Dildo Play\",(function(){return vaginaRouter((function(){return Ia(e)}),0,0,0,!1)}),\"Dildo Play\",\"That flared crown and thick medial ring could give your pleasure spots a really good massage...\")"
+  },
+  {
+    "key": "button|Leave|7c53789bf938",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:00409823>>"
+    "context": "<<POS:00409823>> addButton(o++,\"Leave\",(function(){ga(),output(\"Now that you’ve shown it who the boss is, you have no more need for this radglow.\"),qn.V.genericVictory()}),\"Leave\",\"Leave the defeated radglow.\")"
   },
   {
-    "key": "output|textify_oa_oa_0_et_Z_n_t_var0_n_t_t_Your_body_laced_with|78dfa34ef1d7",
+    "key": "button.hover|Leave|7c53789bf938",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:00409964>> addButton(o++,\"Leave\",(function(){ga(),output(\"Now that you’ve shown it who the boss is, you have no more need for this radglow.\"),qn.V.genericVictory()}),\"Leave\",\"Leave the defeated radglow.\")"
+  },
+  {
+    "key": "button.tooltip|Leave_the_defeated_radglow|0eae5ab4b27f",
+    "original": "Leave the defeated radglow.",
+    "translation": "",
+    "context": "<<POS:00409972>> addButton(o++,\"Leave\",(function(){ga(),output(\"Now that you’ve shown it who the boss is, you have no more need for this radglow.\"),qn.V.genericVictory()}),\"Leave\",\"Leave the defeated radglow.\")"
+  },
+  {
+    "key": "output|textify_oa_oa_0_et_Z_n_t_var0_n_t_t_Your_body_laced_with|3bcaf473559d",
     "original": "textify(oa||(oa=(0,et.Z)([\"\\n\\t[var0\\n\\t\\t|Your body, laced with physical wounds as well as the residual lust left behind by the plant’s lascivious attacks, falls to its knees, forcing you to surrender to the plant’s whims. Because you aimed to assert your dominance towards the plant and failed, it’s surely going to repay that effort tenfold...\\n\\t\\t|Despite your best efforts, the radglow brought you to your knees from a mighty need for release. You[var1\\n\\t\\t\\t| lay down your arms,\\n\\t\\t] unclench your butthole and begin to fondle the plant’s many vines with both of your [pc.hands]. You two had a battle for dominance, and it’s clear who won this bout.\\n\\t]\\n\\t\\n\\t[pc.isNude\\n\\t\\t|\\n\\t\\t|Just as you’re thinking what to do next, a psychic suggestion installs itself in your head: absent-mindedly, you start stripping out of your gear. You know this is probably not the wisest idea, but you feel like you have to do it. After all, you lost, and the loser has to submit to the winner. It’s the way of the world.\\n\\t\\t\\n\\t\\tA corner of your mind recognizes this thought as extraneous, but you’re powerless to stop. For a moment, it’s like you’re watching yourself from a third-person perspective, except that it’s all happening inside your head. Once you’re completely nude, you humbly present yourself to the radglow.\\n\\t]\\n\\t\\n\\tYou can only hope it will be a benevolent dom...\\n\\t\\n\\tThe radglow grabs your [pc.hasLegs\\n\\t\\t|legs with a massive tentacle each, forcing them apart\\n\\t\\t|[pc.legOrLegsNoun] with a pair of massive tentacles\\n\\t] to hold you in place and keep you stable. It opts to leave your arms unrestrained, instead caressing them gently as a particularly large vinecock trails its way up your [pc.chest], leaving behind residual pre-sap as it moves.\\n\\t\\n\\tEventually, the cock finds its way into your [pc.hand], urging you to place it somewhere. Pointedly, it seems to motion for your mouth, but the radglow seems to be giving you the chance to make an offer of your own — so generous! At least, if the plant also agrees with what you want...\\n\\t\"]))),[function(){return t},function(){return pc.inventory.hasRangedWeapon}]",
     "translation": "",
     "context": "<<POS:00410108>>"
@@ -141,16 +261,40 @@
     "key": "button|Suck_It|2b949a1edb61",
     "original": "Suck It",
     "translation": "",
-    "context": "<<POS:00412298>>"
+    "context": "<<POS:00412298>> addButton(o++,\"Suck It\",(function(){return pa(!0,!0,e)}),\"Suck It\",\"Well, you have to admit that this cock looks mighty suckable, so why not just give the radglow what it wants?\")"
   },
   {
-    "key": "button|Spitroast|21aa7d6dfc46",
+    "key": "button.hover|Suck_It|2b949a1edb61",
+    "original": "Suck It",
+    "translation": "",
+    "context": "<<POS:00412341>> addButton(o++,\"Suck It\",(function(){return pa(!0,!0,e)}),\"Suck It\",\"Well, you have to admit that this cock looks mighty suckable, so why not just give the radglow what it wants?\")"
+  },
+  {
+    "key": "button.tooltip|Well_you_have_to_admit_that_this_cock_looks_mighty_suckable_so|37a65b5bc9a0",
+    "original": "Well, you have to admit that this cock looks mighty suckable, so why not just give the radglow what it wants?",
+    "translation": "",
+    "context": "<<POS:00412351>> addButton(o++,\"Suck It\",(function(){return pa(!0,!0,e)}),\"Suck It\",\"Well, you have to admit that this cock looks mighty suckable, so why not just give the radglow what it wants?\")"
+  },
+  {
+    "key": "button|Spitroast|2c1be3ca7c39",
     "original": "Spitroast",
     "translation": "",
-    "context": "<<POS:00412478>>"
+    "context": "<<POS:00412478>> addButton(o++,\"Spitroast\",(function(){return va(e)}),\"Spitroast\",\"Perhaps you can make things more interesting by getting some backdoor action to go with the blowjob.\")"
   },
   {
-    "key": "button.text|SuckAndFrot|272e748fb3d8",
+    "key": "button.hover|Spitroast|2c1be3ca7c39",
+    "original": "Spitroast",
+    "translation": "",
+    "context": "<<POS:00412517>> addButton(o++,\"Spitroast\",(function(){return va(e)}),\"Spitroast\",\"Perhaps you can make things more interesting by getting some backdoor action to go with the blowjob.\")"
+  },
+  {
+    "key": "button.tooltip|Perhaps_you_can_make_things_more_interesting_by_getting_some_bac|c3d81684e3df",
+    "original": "Perhaps you can make things more interesting by getting some backdoor action to go with the blowjob.",
+    "translation": "",
+    "context": "<<POS:00412529>> addButton(o++,\"Spitroast\",(function(){return va(e)}),\"Spitroast\",\"Perhaps you can make things more interesting by getting some backdoor action to go with the blowjob.\")"
+  },
+  {
+    "key": "button.text|SuckAndFrot|8cdbc2aeaf4b",
     "original": "SuckAndFrot",
     "translation": "",
     "context": "<<POS:00412668>>"
@@ -189,7 +333,13 @@
     "key": "button|Next|d2eddf15fc84",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00432648>>"
+    "context": "<<POS:00432648>> addButton(e++,\"Next\",(function(){ga(!0),output(textify(sa||(sa=(0,et.Z)([\"\\n\\t\\t[pc.hasVaginaFlags tongued\\n\\t\\t\\t|You wanted to make a show of typical mouthplay for this plant, but as it fucks you, you find yourself overcome with a spontaneous urge to experiment with it for your own pleasure. Its c..."
+  },
+  {
+    "key": "button.hover|Next|d2eddf15fc84",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:00441825>> addButton(e++,\"Next\",(function(){ga(!0),output(textify(sa||(sa=(0,et.Z)([\"\\n\\t\\t[pc.hasVaginaFlags tongued\\n\\t\\t\\t|You wanted to make a show of typical mouthplay for this plant, but as it fucks you, you find yourself overcome with a spontaneous urge to experiment with it for your own pleasure. Its c..."
   },
   {
     "key": "output|textify_ra_ra_0_et_Z_n_tWell_if_your_alien_dom_is_giving|5435dd5e887e",
@@ -207,7 +357,7 @@
     "key": "button|Next|fffca8b674dd",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00460076>>"
+    "context": "<<POS:00460076>> addButton(e++,\"Next\",(function(){ga(!0),output(textify(ua||(ua=(0,et.Z)([\"\\n\\t\\tEventually, even your aphrodisiac-boosted orgasm winds down, and you let out a proud huff, pulling the plant’s length out of your[pc.vagAss\\n\\t\\t\\t| [pc.pussyNounComplex]\\n\\t\\t\\t| ass\\n\\t\\t] with a squishy wet sound. The..."
   },
   {
     "key": "output|textify_la_la_0_et_Z_n_tThe_radglow_s_tentacle_phalluses|676f9af75672",
@@ -219,7 +369,13 @@
     "key": "button|Next|e8e3a9333c7e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00467907>>"
+    "context": "<<POS:00467907>> addButton(e++,\"Next\",(function(){ga(!0),output(textify(da||(da=(0,et.Z)([\"\\n\\t\\tIt’s hard to keep to the same pace when it feels so good — you could easily get addicted to this. Over the next couple of minutes, your masturbation grows faster and faster, to the point where [pc.toneRange 0 70\\n\\t\\t\\t|..."
+  },
+  {
+    "key": "button.hover|Next|e8e3a9333c7e",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:00472936>> addButton(e++,\"Next\",(function(){ga(!0),output(textify(da||(da=(0,et.Z)([\"\\n\\t\\tIt’s hard to keep to the same pace when it feels so good — you could easily get addicted to this. Over the next couple of minutes, your masturbation grows faster and faster, to the point where [pc.toneRange 0 70\\n\\t\\t\\t|..."
   },
   {
     "key": "output|textify_Un_Un_0_et_Z_n_t_flags_RADGLOW_ENCOUNTER_n_t_t_As|a92428000c36",
@@ -231,37 +387,73 @@
     "key": "button|Suck_It|850106816a30",
     "original": "Suck It",
     "translation": "",
-    "context": "<<POS:00478514>>"
+    "context": "<<POS:00478514>> addButton(n++,\"Suck It\",(function(){return pa(!1,!0,e)}),\"Suck It\",\"You are a person of simple needs — someone offers you a cock, you suck it. Yes, even if it’s a plant.\")"
   },
   {
-    "key": "button|Fight|f761e897e000",
+    "key": "button.hover|Suck_It|850106816a30",
+    "original": "Suck It",
+    "translation": "",
+    "context": "<<POS:00478557>> addButton(n++,\"Suck It\",(function(){return pa(!1,!0,e)}),\"Suck It\",\"You are a person of simple needs — someone offers you a cock, you suck it. Yes, even if it’s a plant.\")"
+  },
+  {
+    "key": "button.tooltip|You_are_a_person_of_simple_needs_someone_offers_you_a_cock_yo|9c4d02f9538c",
+    "original": "You are a person of simple needs — someone offers you a cock, you suck it. Yes, even if it’s a plant.",
+    "translation": "",
+    "context": "<<POS:00478567>> addButton(n++,\"Suck It\",(function(){return pa(!1,!0,e)}),\"Suck It\",\"You are a person of simple needs — someone offers you a cock, you suck it. Yes, even if it’s a plant.\")"
+  },
+  {
+    "key": "button|Fight|09efb0ff6361",
     "original": "Fight",
     "translation": "",
-    "context": "<<POS:00478870>>"
+    "context": "<<POS:00478870>> addButton(n++,\"Fight\",(function(){return fa(e)}),\"Fight\",\"No, you did not consent to hypnosex. If this plant wants to fuck, it will have to be on <i>your</i> terms or not at all.\")"
   },
   {
-    "key": "button|Back_Off|76cd2d0e1b0e",
+    "key": "button.hover|Fight|09efb0ff6361",
+    "original": "Fight",
+    "translation": "",
+    "context": "<<POS:00478905>> addButton(n++,\"Fight\",(function(){return fa(e)}),\"Fight\",\"No, you did not consent to hypnosex. If this plant wants to fuck, it will have to be on <i>your</i> terms or not at all.\")"
+  },
+  {
+    "key": "button.tooltip|No_you_did_not_consent_to_hypnosex_If_this_plant_wants_to_fuck|662f9832a2c2",
+    "original": "No, you did not consent to hypnosex. If this plant wants to fuck, it will have to be on <i>your</i> terms or not at all.",
+    "translation": "",
+    "context": "<<POS:00478913>> addButton(n++,\"Fight\",(function(){return fa(e)}),\"Fight\",\"No, you did not consent to hypnosex. If this plant wants to fuck, it will have to be on <i>your</i> terms or not at all.\")"
+  },
+  {
+    "key": "button|Back_Off|7d1dc81cccce",
     "original": "Back Off",
     "translation": "",
-    "context": "<<POS:00479051>>"
+    "context": "<<POS:00479051>> addButton(n++,\"Back Off\",mainGameMenu,\"Back Off\",\"Nope nope nope nope nope! Time to get out of here before you give in to whatever this plant is doing to your brain.\")"
   },
   {
-    "key": "button|Next|b7f6296894f6",
+    "key": "button.hover|Back_Off|7d1dc81cccce",
+    "original": "Back Off",
+    "translation": "",
+    "context": "<<POS:00479075>> addButton(n++,\"Back Off\",mainGameMenu,\"Back Off\",\"Nope nope nope nope nope! Time to get out of here before you give in to whatever this plant is doing to your brain.\")"
+  },
+  {
+    "key": "button.tooltip|Nope_nope_nope_nope_nope_Time_to_get_out_of_here_before_you_giv|c0710ceec0a4",
+    "original": "Nope nope nope nope nope! Time to get out of here before you give in to whatever this plant is doing to your brain.",
+    "translation": "",
+    "context": "<<POS:00479086>> addButton(n++,\"Back Off\",mainGameMenu,\"Back Off\",\"Nope nope nope nope nope! Time to get out of here before you give in to whatever this plant is doing to your brain.\")"
+  },
+  {
+    "key": "button|Next|db9d012afa51",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00479220>>"
+    "context": "<<POS:00479220>> addButton(n++,\"Next\",(function(){ga(),output(textify(Zn||(Zn=(0,et.Z)([\"\\n\\t\\t\\tYou blink once, twice... What were you even thinking; of course you’re going to suck it. Just looking at this juicy cock mere inches away from your face is making you[pc.hasGenitals\\n\\t\\t\\t\\t| so hot and bothered down th..."
   },
   {
-    "key": "bust|NUKA|5dae9b259ec7",
-    "original": "NUKA",
+    "key": "button.hover|Next|db9d012afa51",
+    "original": "Next",
     "translation": "",
-    "context": "<<POS:00480524>>"
+    "context": "<<POS:00479917>> addButton(n++,\"Next\",(function(){ga(),output(textify(Zn||(Zn=(0,et.Z)([\"\\n\\t\\t\\tYou blink once, twice... What were you even thinking; of course you’re going to suck it. Just looking at this juicy cock mere inches away from your face is making you[pc.hasGenitals\\n\\t\\t\\t\\t| so hot and bothered down th..."
   },
   {
-    "key": "name.show|Nuka_Psyker|fa7d7acd1a3a",
+    "key": "name.show|Nuka_Psyker|a0b102ebeff9",
     "original": "Nuka Psyker",
     "translation": "",
-    "context": "<<POS:00480586>>"
+    "context": "<<POS:00480586>> showName(\"Nuka Psyker\")"
   },
   {
     "key": "output|textify_xa_xa_0_et_Z_nWhat_will_you_do_n|07ee203f9d25",
@@ -273,19 +465,49 @@
     "key": "button|Spray|ba832a7658ed",
     "original": "Spray",
     "translation": "",
-    "context": "<<POS:00480740>>"
+    "context": "<<POS:00480740>> addButton(e++,\"Spray\",qa,\"Spray\",\"Hose her down with the aphrodisiacs in that chem sprayer.\")"
   },
   {
-    "key": "button|Breastplay|89ced9c8f6a1",
+    "key": "button.hover|Spray|ba832a7658ed",
+    "original": "Spray",
+    "translation": "",
+    "context": "<<POS:00480751>> addButton(e++,\"Spray\",qa,\"Spray\",\"Hose her down with the aphrodisiacs in that chem sprayer.\")"
+  },
+  {
+    "key": "button.tooltip|Hose_her_down_with_the_aphrodisiacs_in_that_chem_sprayer|8d784c802135",
+    "original": "Hose her down with the aphrodisiacs in that chem sprayer.",
+    "translation": "",
+    "context": "<<POS:00480759>> addButton(e++,\"Spray\",qa,\"Spray\",\"Hose her down with the aphrodisiacs in that chem sprayer.\")"
+  },
+  {
+    "key": "button|Breastplay|41bd4b4b6cc4",
     "original": "Breastplay",
     "translation": "",
-    "context": "<<POS:00481265>>"
+    "context": "<<POS:00481265>> addButton(e++,\"Breastplay\",Za,\"Breastplay\",\"Play with those pretty lipples of hers[pc.hasCock| while fucking her cleavage].\")"
   },
   {
-    "key": "button|Leave|16b46639eec8",
+    "key": "button.hover|Breastplay|41bd4b4b6cc4",
+    "original": "Breastplay",
+    "translation": "",
+    "context": "<<POS:00481281>> addButton(e++,\"Breastplay\",Za,\"Breastplay\",\"Play with those pretty lipples of hers[pc.hasCock| while fucking her cleavage].\")"
+  },
+  {
+    "key": "button.tooltip|Play_with_those_pretty_lipples_of_hers_pc_hasCock_while_fucking|443c452df740",
+    "original": "Play with those pretty lipples of hers[pc.hasCock| while fucking her cleavage].",
+    "translation": "",
+    "context": "<<POS:00481294>> addButton(e++,\"Breastplay\",Za,\"Breastplay\",\"Play with those pretty lipples of hers[pc.hasCock| while fucking her cleavage].\")"
+  },
+  {
+    "key": "button|Leave|aeb5229598ca",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:00481390>>"
+    "context": "<<POS:00481390>> addButton(14,\"Leave\",(function(){inCombat()?qn.V.genericVictory():mainGameMenu()}),\"Leave\",\"\")"
+  },
+  {
+    "key": "button.hover|Leave|aeb5229598ca",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:00481460>> addButton(14,\"Leave\",(function(){inCombat()?qn.V.genericVictory():mainGameMenu()}),\"Leave\",\"\")"
   },
   {
     "key": "output|textify_Ha_Ha_0_et_Z_nYou_slump_down_feeling_var0_n_t_s|325257a036b8",
@@ -309,7 +531,13 @@
     "key": "button|Next|f04aabaeee68",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00525298>>"
+    "context": "<<POS:00525298>> addButton(0,\"Next\",Wa,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|f04aabaeee68",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:00525308>> addButton(0,\"Next\",Wa,\"Next\",\"\")"
   },
   {
     "key": "output|textify_Na_Na_0_et_Z_n_t_pc_kmhbb_n_t_t_i_That_s_defini|aa4cf6dfc0b1",
@@ -321,13 +549,25 @@
     "key": "button|Next|f04aabaeee68#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:00531036>>"
+    "context": "<<POS:00531036>> addButton(0,\"Next\",Wa,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|f04aabaeee68#1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:00531046>> addButton(0,\"Next\",Wa,\"Next\",\"\")"
   },
   {
     "key": "button|Leave|624c4177527d",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:00531155>>"
+    "context": "<<POS:00531155>> addButton(14,\"Leave\",(function(){Ma(!0),output(textify(Ba||(Ba=(0,et.Z)([\"\\n\\t<i>“I dunno, I’m just not convinced you need me. You seem to be doing just fine by yourself. I’ll just take my credits and be on my way.”</i>\\n\\t\\n\\tThe nuka woman gives a grunt of affirmation at the noise, but you don’t k..."
+  },
+  {
+    "key": "button.hover|Leave|624c4177527d",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:00531676>> addButton(14,\"Leave\",(function(){Ma(!0),output(textify(Ba||(Ba=(0,et.Z)([\"\\n\\t<i>“I dunno, I’m just not convinced you need me. You seem to be doing just fine by yourself. I’ll just take my credits and be on my way.”</i>\\n\\t\\n\\tThe nuka woman gives a grunt of affirmation at the noise, but you don’t k..."
   },
   {
     "key": "output|textify_La_La_0_et_Z_n_i_You_would_make_a_good_mate_Hav|3b1ffb682e12",
@@ -354,13 +594,7 @@
     "context": "<<POS:00553236>>"
   },
   {
-    "key": "bust|NUKA_TAINTED|a60bf9ba1d45",
-    "original": "NUKA_TAINTED",
-    "translation": "",
-    "context": "<<POS:00562577>>"
-  },
-  {
-    "key": "output|textify_Ea_Ea_0_et_Z_n_flags_NUKA_TECH_ENCOUNTER_n_t_As_y|7c7db10e3b24",
+    "key": "output|textify_Ea_Ea_0_et_Z_n_flags_NUKA_TECH_ENCOUNTER_n_t_As_y|9f8efbe676e1",
     "original": "textify(Ea||(Ea=(0,et.Z)([\"\\n[flags.NUKA_TECH_ENCOUNTER\\n\\t|As you traverse the Phaedran Glasslands, you come upon a familiar sight. A beat up drone left right in the middle of the safest path near a sparse patch of rocky spikes. You idly wonder if this is a commonly successful tactic as you pull out your weapons and prepare for a fight.\\n\\t\\n\\t<i>“Aww, how’d you see through the trap?”</i> comes the voice of a colorful nuka woman stepping out from behind the sparse cover. <i>“No matter! Taking your stuff won’t be difficult after I douse you with this bad boy.”</i>\\n\\t\\n\\t[var0\\n\\t\\t|This one is different. Instead of the usual glistening purple, this one is much darker, with stripes of cyan that glow with natural bioluminescence. Her plush breasts strain at the hardlight covering generated by her top, with lips that are much plumper than the other nuka you’ve seen. She doesn’t seem to be <b>acting</b> much different from normal, but she’s definitely not a normal nuka.\\n\\t]\\n\\t\\n\\tShe taps the tip of her chem-sprayer to her hand before pointing it at you. The chunky little drone she’d been using as a lure sputters up to float behind her, readying its nanites for battle.\\n\\t|As you traverse the Phaedran Glasslands, you see a boxy hunk of metal on the ground a few hundred feet in front of you. When you get closer, you realize that what you’re looking at is some sort of bulky drone. It looks quite beaten up at a glance, but not completely destroyed. In fact, it might be something worth keeping if it got some love and repairs! A new paint job and a little work to fix the dents, and this thing could be good as new.\\n\\t\\n\\tAs you reach down to inspect it further, however, it starts flashing green lights and sounds a blaring klaxon. Immediately after that, it shoots into the air, and you scramble back to avoid a potential explosion. Instead, you hear someone call out from behind a glassy stone spike nearby.\\n\\t\\n\\t<i>“Good job lil’ drone! You’re proving your worth every day! Hands where I can see them, [pc.race]. Unless you want to do this the hard way, I suggest not making any sudden moves!”</i>\\n\\t\\n\\tStepping out from the bare spattering of cover, a [var1\\n\\t\\t|purple-skinned nuka woman\\n\\t\\t|purple-skinned woman (whom your codex identifies as a nuka)\\n\\t] wielding a bright, long-barreled chem-sprayer affixes you with an inquisitive stare. She’s decked out in an utter mismatch of scavenged parts, but your eyes are immediately drawn to the hardlight top she’s wearing. It’s fully transparent, enough to reveal her otherwise bare breasts and the luscious \",\" lipples that tip them.\\n\\t\\n\\t<i>“I’ll check you over for good stuff, and then you can be free to go on your way! I wonder, do you have any credit chits on you? Those things trade like crazy in the city with people who want to visit the stars.”</i>\\n\\t\\n\\tShe wants your stuff, and it looks like she wants to take it by force.\\n]\\n\"])),t.nippleColor),[function(){return e},function(){return tt.dI.entryUnlocked(\"Nukas\")}]",
     "translation": "",
     "context": "<<POS:00562617>>"
@@ -369,6 +603,12 @@
     "key": "button|Fight|4ac087e30be2",
     "original": "Fight!",
     "translation": "",
-    "context": "<<POS:00565747>>"
+    "context": "<<POS:00565747>> addButton(o++,\"Fight!\",(function(){return function(e){qn.V.newGroundCombat(),qn.V.setFriendlyActors(pc),qn.V.setHostileActors(e,new Da.o),qn.V.victoryScene(Pa),qn.V.lossScene(Fa),qn.V.victoryCondition(qn.V.SPECIFIC_TARGET_DEFEATED,e),qn.V.encounterTextGenerator((function(){var e,t;return 1===qn.V.ge..."
+  },
+  {
+    "key": "button.hover|Next|76a8418f0e4a",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:00566719>> addButton(o++,\"Fight!\",(function(){return function(e){qn.V.newGroundCombat(),qn.V.setFriendlyActors(pc),qn.V.setHostileActors(e,new Da.o),qn.V.victoryScene(Pa),qn.V.lossScene(Fa),qn.V.victoryCondition(qn.V.SPECIFIC_TARGET_DEFEATED,e),qn.V.encounterTextGenerator((function(){var e,t;return 1===qn.V.ge..."
   }
 ]

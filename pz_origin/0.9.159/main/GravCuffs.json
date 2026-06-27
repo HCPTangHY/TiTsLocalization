@@ -21,22 +21,46 @@
     "key": "button|Cuff_Fuck|580f189570f7",
     "original": "Cuff&Fuck",
     "translation": "",
-    "context": "<<POS:07669412>>"
+    "context": "<<POS:07669412>> addButton(t,\"Cuff&Fuck\",o.cuffNFuck,\"Cuff & Fuck\",\"Use your grav-cuffs to pin down [enemy.name] and have your way with [enemy.hisHer] [enemy.vagOrAss]! Requires Grav-cuffs and a penis.\")"
   },
   {
-    "key": "button|Cuff_Fuck|555c2ffc7463",
+    "key": "button.hover|Cuff_Fuck|b0c50a661987",
+    "original": "Cuff & Fuck",
+    "translation": "",
+    "context": "<<POS:07669436>> addButton(t,\"Cuff&Fuck\",o.cuffNFuck,\"Cuff & Fuck\",\"Use your grav-cuffs to pin down [enemy.name] and have your way with [enemy.hisHer] [enemy.vagOrAss]! Requires Grav-cuffs and a penis.\")"
+  },
+  {
+    "key": "button.tooltip|Use_your_grav_cuffs_to_pin_down_enemy_name_and_have_your_way_w|7156dc3e08ea",
+    "original": "Use your grav-cuffs to pin down [enemy.name] and have your way with [enemy.hisHer] [enemy.vagOrAss]! Requires Grav-cuffs and a penis.",
+    "translation": "",
+    "context": "<<POS:07669450>> addButton(t,\"Cuff&Fuck\",o.cuffNFuck,\"Cuff & Fuck\",\"Use your grav-cuffs to pin down [enemy.name] and have your way with [enemy.hisHer] [enemy.vagOrAss]! Requires Grav-cuffs and a penis.\")"
+  },
+  {
+    "key": "button|Cuff_Fuck|0340657ae0e7",
     "original": "Cuff&Fuck",
     "translation": "",
-    "context": "<<POS:07669620>>"
+    "context": "<<POS:07669620>> addDisabledButton(t,\"Cuff&Fuck\",\"Cuff & Fuck\",\"You can cuff [enemy.himHer] down, but you wouldn’t be able to fit inside.\")"
   },
   {
-    "key": "button|Cuff_Fuck|555c2ffc7463#1",
+    "key": "button.hover|You_can_cuff_enemy_himHer_down_but_you_wouldn_t_be_able_to_fi|4f5570e68f04",
+    "original": "You can cuff [enemy.himHer] down, but you wouldn’t be able to fit inside.",
+    "translation": "",
+    "context": "<<POS:07669646>> addDisabledButton(t,\"Cuff&Fuck\",\"Cuff & Fuck\",\"You can cuff [enemy.himHer] down, but you wouldn’t be able to fit inside.\")"
+  },
+  {
+    "key": "button|Cuff_Fuck|8b2169c47b1d",
     "original": "Cuff&Fuck",
     "translation": "",
-    "context": "<<POS:07669743>>"
+    "context": "<<POS:07669743>> addDisabledButton(t,\"Cuff&Fuck\",\"Cuff & Fuck\",\"You need a penis to make use of your grav-cuffs this way.\")"
   },
   {
-    "key": "output|Now_that_you_ve_defeated_enemy_name_you_know_exactly_what_to|fa0ebe9a441c",
+    "key": "button.hover|You_need_a_penis_to_make_use_of_your_grav_cuffs_this_way|92cc141dd059",
+    "original": "You need a penis to make use of your grav-cuffs this way.",
+    "translation": "",
+    "context": "<<POS:07669769>> addDisabledButton(t,\"Cuff&Fuck\",\"Cuff & Fuck\",\"You need a penis to make use of your grav-cuffs this way.\")"
+  },
+  {
+    "key": "output|Now_that_you_ve_defeated_enemy_name_you_know_exactly_what_to|affac18b4d1b",
     "original": "Now that you’ve defeated [enemy.name], you know exactly what to do with [enemy.himHer]. As [enemy.heShe] reels from the effects your battle, you pull out your grav-cuffs. With a commanding whistle, you toss them up and out in front of you. They immediately hone in and clamp on your felled opponent’s wrists and ",
     "translation": "",
     "context": "<<POS:07669916>>"
@@ -60,16 +84,16 @@
     "context": "<<POS:07670311>>"
   },
   {
-    "key": "output|n_n_i_W_what_s_going_on_i_enemy_name_stammers_enemy|6aa3a3451979",
-    "original": "\\n\\n<i>“W-what’s going on--?”</i> [enemy.name] stammers. [enemy.HeShe] tries to pull [enemy.hisHer] [enemy.skinColor] hands off the ground, but [enemy.heShe] can’t budge an inch.",
+    "key": "output|i_W_what_s_going_on_i_enemy_name_stammers_enemy_HeSh|20351c7c03f3",
+    "original": "<i>“W-what’s going on--?”</i> [enemy.name] stammers. [enemy.HeShe] tries to pull [enemy.hisHer] [enemy.skinColor] hands off the ground, but [enemy.heShe] can’t budge an inch.",
     "translation": "",
-    "context": "<<POS:07670448>>"
+    "context": "<<POS:07670452>>"
   },
   {
-    "key": "output|n_nStriding_up_to_your_prostrate_opponent_you_stroke_enemy_hi|d86030813243",
-    "original": "\\n\\nStriding up to your prostrate opponent, you stroke [enemy.hisHer] butt and give it a ",
+    "key": "output|Striding_up_to_your_prostrate_opponent_you_stroke_enemy_hisHer|a3a2466e9949",
+    "original": "Striding up to your prostrate opponent, you stroke [enemy.hisHer] butt and give it a ",
     "translation": "",
-    "context": "<<POS:07670637>>"
+    "context": "<<POS:07670641>>"
   },
   {
     "key": "output|playful_pat|47e8e9416e30",
@@ -90,22 +114,22 @@
     "context": "<<POS:07670812>>"
   },
   {
-    "key": "output|n_n_i_Winners_get_to_set_the_rules_You_re_following_mine_now|55d41d29ab1e",
-    "original": "\\n\\n<i>“Winners get to set the rules. You’re following mine now, hon.”</i>",
+    "key": "output|i_Winners_get_to_set_the_rules_You_re_following_mine_now_hon|5bd2534560b3",
+    "original": "<i>“Winners get to set the rules. You’re following mine now, hon.”</i>",
     "translation": "",
-    "context": "<<POS:07670845>>"
+    "context": "<<POS:07670849>>"
   },
   {
-    "key": "output|n_n_i_Wha_what_did_you_do_to_me_i_enemy_name_splutters|37e96386c7eb",
-    "original": "\\n\\n<i>“Wha-what did you do to me?!”</i> [enemy.name] splutters. [enemy.HisHer] [enemy.ass] wiggles about enticingly as [enemy.heShe] tries to tug free of the cuffs to no avail.",
+    "key": "output|i_Wha_what_did_you_do_to_me_i_enemy_name_splutters_en|ba67da2177d0",
+    "original": "<i>“Wha-what did you do to me?!”</i> [enemy.name] splutters. [enemy.HisHer] [enemy.ass] wiggles about enticingly as [enemy.heShe] tries to tug free of the cuffs to no avail.",
     "translation": "",
-    "context": "<<POS:07670944>>"
+    "context": "<<POS:07670948>>"
   },
   {
-    "key": "output|n_nStriding_up_to_your_prostrate_opponent_you_stroke_enemy_hi|59f60a84cc7e",
-    "original": "\\n\\nStriding up to your prostrate opponent, you stroke [enemy.hisHer] butt and give it a ",
+    "key": "output|Striding_up_to_your_prostrate_opponent_you_stroke_enemy_hisHer|1b42e8c36058",
+    "original": "Striding up to your prostrate opponent, you stroke [enemy.hisHer] butt and give it a ",
     "translation": "",
-    "context": "<<POS:07671132>>"
+    "context": "<<POS:07671136>>"
   },
   {
     "key": "output|playful_pat|47e8e9416e30#1",
@@ -126,19 +150,19 @@
     "context": "<<POS:07671307>>"
   },
   {
-    "key": "output|n_n_i_You_dear_aren_t_going_anywhere_From_now_until_I_decid|48a356d66cdb",
-    "original": "\\n\\n<i>“You, dear, aren’t going anywhere. From now until I decide otherwise, this ass belongs to me.”</i>",
+    "key": "output|i_You_dear_aren_t_going_anywhere_From_now_until_I_decide_ot|e674c733f84a",
+    "original": "<i>“You, dear, aren’t going anywhere. From now until I decide otherwise, this ass belongs to me.”</i>",
     "translation": "",
-    "context": "<<POS:07671340>>"
+    "context": "<<POS:07671344>>"
   },
   {
-    "key": "output|n_n_i_My_wrists_my|39af9c212845",
-    "original": "\\n\\n<i>“My wrists, my ",
+    "key": "output|i_My_wrists_my|12ea205629fe",
+    "original": "<i>“My wrists, my ",
     "translation": "",
-    "context": "<<POS:07671458>>"
+    "context": "<<POS:07671462>>"
   },
   {
-    "key": "output|enemy_legNoun|5a349a20ef46",
+    "key": "output|enemy_legNoun|698c0e8a1951",
     "original": "[enemy.legNoun]",
     "translation": "",
     "context": "<<POS:07671510>>"
@@ -156,10 +180,10 @@
     "context": "<<POS:07671563>>"
   },
   {
-    "key": "output|n_nStriding_up_to_your_prostrate_opponent_you_stroke_enemy_hi|bfdac39bd5da",
-    "original": "\\n\\nStriding up to your prostrate opponent, you stroke [enemy.hisHer] butt and give it a ",
+    "key": "output|Striding_up_to_your_prostrate_opponent_you_stroke_enemy_hisHer|71256ebedc5e",
+    "original": "Striding up to your prostrate opponent, you stroke [enemy.hisHer] butt and give it a ",
     "translation": "",
-    "context": "<<POS:07671701>>"
+    "context": "<<POS:07671705>>"
   },
   {
     "key": "output|playful_pat|47e8e9416e30#2",
@@ -180,19 +204,13 @@
     "context": "<<POS:07671876>>"
   },
   {
-    "key": "output|n_n_i_Got_a_complaint_You_should_have_thought_of_that_before|75a86d1fea3c",
-    "original": "\\n\\n<i>“Got a complaint? You should have thought of that before turning your [enemy.weapon] on me.”</i>",
+    "key": "output|i_Got_a_complaint_You_should_have_thought_of_that_before_turn|5a07c3579d7c",
+    "original": "<i>“Got a complaint? You should have thought of that before turning your [enemy.weapon] on me.”</i>",
     "translation": "",
-    "context": "<<POS:07671909>>"
+    "context": "<<POS:07671913>>"
   },
   {
-    "key": "output|n_n|7e3698d7dca3",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:07672024>>"
-  },
-  {
-    "key": "output|Once_you_re_ready_you|7e4652499d84",
+    "key": "output|Once_you_re_ready_you|0eefe14a2310",
     "original": "Once you’re ready, you",
     "translation": "",
     "context": "<<POS:07672060>>"
@@ -210,10 +228,10 @@
     "context": "<<POS:07672133>>"
   },
   {
-    "key": "output|n_n_enemy_capitalA_enemy_short_gasps_and_arches_enemy_hisHe|fd8fc0298ac6",
-    "original": "\\n\\n\"+enemy.capitalA+enemy.short+\" gasps and arches [enemy.hisHer] back, trembling at your sudden entry. [enemy.HisHer] insides clench tightly around the foreign intruder suddenly ",
+    "key": "output|enemy_capitalA_enemy_short_gasps_and_arches_enemy_hisHer_b|7e0d758883b5",
+    "original": "\"+enemy.capitalA+enemy.short+\" gasps and arches [enemy.hisHer] back, trembling at your sudden entry. [enemy.HisHer] insides clench tightly around the foreign intruder suddenly ",
     "translation": "",
-    "context": "<<POS:07672450>>"
+    "context": "<<POS:07672454>>"
   },
   {
     "key": "output|wiggling_around_inside_of_enemy_himHer|c8700fa29f7c",
@@ -246,25 +264,25 @@
     "context": "<<POS:07672981>>"
   },
   {
-    "key": "output|n_nA_thin_line_of_red_runs_down_enemy_hisHer_enemy_thigh_Y|902e2be25ee3",
-    "original": "\\n\\nA thin line of red runs down [enemy.hisHer] [enemy.thigh]. You pause as [enemy.heShe] hangs [enemy.hisHer] head, quivering around your length buried in her unsullied depths. [enemy.HeShe] was a virgin!",
+    "key": "output|A_thin_line_of_red_runs_down_enemy_hisHer_enemy_thigh_You_p|aff72823d672",
+    "original": "A thin line of red runs down [enemy.hisHer] [enemy.thigh]. You pause as [enemy.heShe] hangs [enemy.hisHer] head, quivering around your length buried in her unsullied depths. [enemy.HeShe] was a virgin!",
     "translation": "",
-    "context": "<<POS:07673066>>"
+    "context": "<<POS:07673070>>"
   },
   {
-    "key": "output|n_nOnce_enemy_heShe_s_adjusted_to_the_strange_new_thing_burie|86ee7073b5df",
-    "original": "\\n\\nOnce [enemy.heShe]’s adjusted to the strange new thing buried in [enemy.hisHer] [enemy.pussy],",
+    "key": "output|Once_enemy_heShe_s_adjusted_to_the_strange_new_thing_buried_in|82ad98ff732f",
+    "original": "Once [enemy.heShe]’s adjusted to the strange new thing buried in [enemy.hisHer] [enemy.pussy],",
     "translation": "",
-    "context": "<<POS:07673282>>"
+    "context": "<<POS:07673286>>"
   },
   {
-    "key": "output|n_nSlowly|74adc089caf0",
-    "original": "\\n\\nSlowly,",
+    "key": "output|Slowly|87268cc88f0e",
+    "original": "Slowly,",
     "translation": "",
-    "context": "<<POS:07673392>>"
+    "context": "<<POS:07673396>>"
   },
   {
-    "key": "output|you_begin_to_slap_your_hips_against_enemy_name_s_rear_end_e|3d6d1416669b",
+    "key": "output|you_begin_to_slap_your_hips_against_enemy_name_s_rear_end_e|3ecfa8c5a15b",
     "original": " you begin to slap your hips against [enemy.name]’s rear end. [enemy.HisHer] ",
     "translation": "",
     "context": "<<POS:07673414>>"
@@ -288,25 +306,25 @@
     "context": "<<POS:07673575>>"
   },
   {
-    "key": "output|n_n_i_RandomInCollection_Oh_so_you_re_enjoying_it_Was|38953f8f4b42",
-    "original": "\\n\\n<i>“\"+RandomInCollection([\"Oh, so you’re enjoying it?\",\"Was that a moan I heard?\",\"Oh, that good, huh?\",\"Like my [pc.cockNoun \"+t+\"], do you?\",\"Oh, so you like your [enemy.vagOrAss] being fucked?\"])+\"”</i>",
+    "key": "output|i_RandomInCollection_Oh_so_you_re_enjoying_it_Was_that|0522b47fcfb5",
+    "original": "<i>“\"+RandomInCollection([\"Oh, so you’re enjoying it?\",\"Was that a moan I heard?\",\"Oh, that good, huh?\",\"Like my [pc.cockNoun \"+t+\"], do you?\",\"Oh, so you like your [enemy.vagOrAss] being fucked?\"])+\"”</i>",
     "translation": "",
-    "context": "<<POS:07673746>>"
+    "context": "<<POS:07673750>>"
   },
   {
-    "key": "output|n_n_i_N_no_i_enemy_capitalA_enemy_short_blurts_out_De|c9ae1c96a642",
-    "original": "\\n\\n<i>“N-no!”</i> \"+enemy.capitalA+enemy.short+\" blurts out. Despite [enemy.hisHer] words, [enemy.hisHer] [enemy.ass] is instinctively slapping back against your [pc.hips], [enemy.hisHer] own lifting to allow you deeper access.",
+    "key": "output|i_N_no_i_enemy_capitalA_enemy_short_blurts_out_Despit|929e71fe77a3",
+    "original": "<i>“N-no!”</i> \"+enemy.capitalA+enemy.short+\" blurts out. Despite [enemy.hisHer] words, [enemy.hisHer] [enemy.ass] is instinctively slapping back against your [pc.hips], [enemy.hisHer] own lifting to allow you deeper access.",
     "translation": "",
-    "context": "<<POS:07673966>>"
+    "context": "<<POS:07673970>>"
   },
   {
-    "key": "output|n_nGrinning_in_amusement_you|301396fc980d",
-    "original": "\\n\\nGrinning in amusement, you ",
+    "key": "output|Grinning_in_amusement_you|208bf0d6e5b7",
+    "original": "Grinning in amusement, you ",
     "translation": "",
-    "context": "<<POS:07674205>>"
+    "context": "<<POS:07674209>>"
   },
   {
-    "key": "output|grab_enemy_hisHer_enemy_tails|e5d4d67e56cf",
+    "key": "output|grab_enemy_hisHer_enemy_tails|d3eced92fed9",
     "original": "grab [enemy.hisHer] [enemy.tails]",
     "translation": "",
     "context": "<<POS:07674265>>"
@@ -342,16 +360,16 @@
     "context": "<<POS:07674802>>"
   },
   {
-    "key": "output|n_n_i_RandomInCollection_Did_you_just_cum_Funny_I_swea|56cb9b97322d",
-    "original": "\\n\\n<i>“\"+RandomInCollection([\"Did you just cum?\",\"Funny, I swear you just came just then.\",\"Weren’t you just saying you weren’t enjoying yourself? Such a liar!\",\"You just came around my [pc.cockNoun \"+t+\"] - how did it feel?\",\"Cumming around my [pc.cockNoun \"+t+\"] - what a naughty \"+enemy.mf(\"boy\",\"girl\")+\"!\"])+\"”</i>",
+    "key": "output|i_RandomInCollection_Did_you_just_cum_Funny_I_swear_yo|eaff6f28fecd",
+    "original": "<i>“\"+RandomInCollection([\"Did you just cum?\",\"Funny, I swear you just came just then.\",\"Weren’t you just saying you weren’t enjoying yourself? Such a liar!\",\"You just came around my [pc.cockNoun \"+t+\"] - how did it feel?\",\"Cumming around my [pc.cockNoun \"+t+\"] - what a naughty \"+enemy.mf(\"boy\",\"girl\")+\"!\"])+\"”</i>",
     "translation": "",
-    "context": "<<POS:07674882>>"
+    "context": "<<POS:07674886>>"
   },
   {
-    "key": "output|n_n_enemy_capitalA_enemy_short_flushes_at_your_words_loweri|e55a2a83a833",
-    "original": "\\n\\n\"+enemy.capitalA+enemy.short+\" flushes at your words, lowering [enemy.hisHer] head, [enemy.hisHer] ",
+    "key": "output|enemy_capitalA_enemy_short_flushes_at_your_words_lowering|bdd803f7d5b5",
+    "original": "\"+enemy.capitalA+enemy.short+\" flushes at your words, lowering [enemy.hisHer] head, [enemy.hisHer] ",
     "translation": "",
-    "context": "<<POS:07675213>>"
+    "context": "<<POS:07675217>>"
   },
   {
     "key": "output|pussy|1bc7a6d98230",
@@ -372,10 +390,10 @@
     "context": "<<POS:07675378>>"
   },
   {
-    "key": "output|n_nThe_third_time_enemy_name_cums_you_finally_reach_your_own|f779ee06fa1d",
-    "original": "\\n\\nThe third time [enemy.name] cums you finally reach your own peak, groaning and ",
+    "key": "output|The_third_time_enemy_name_cums_you_finally_reach_your_own_peak|3b07b77f42ea",
+    "original": "The third time [enemy.name] cums you finally reach your own peak, groaning and ",
     "translation": "",
-    "context": "<<POS:07675752>>"
+    "context": "<<POS:07675756>>"
   },
   {
     "key": "output|dribbling|24d1969254f5",
@@ -510,10 +528,10 @@
     "context": "<<POS:07677036>>"
   },
   {
-    "key": "output|n_nAfterwards_you_pull_your_pc_cockNoun_t_from_enemy_hi|3a33fa186154",
-    "original": "\\n\\nAfterwards, you pull your [pc.cockNoun \"+t+\"] from [enemy.hisHer] [enemy.vagOrAss] and snap your fingers. The cuffs undo around [enemy.name]’s wrists and [enemy.legs]. \"+enemy.capitalA+enemy.short+\" immediately falls to [enemy.hisHer] side, a dreamy look on [enemy.hisHer] [enemy.face]",
+    "key": "output|Afterwards_you_pull_your_pc_cockNoun_t_from_enemy_hisHer|5cfd8f574e98",
+    "original": "Afterwards, you pull your [pc.cockNoun \"+t+\"] from [enemy.hisHer] [enemy.vagOrAss] and snap your fingers. The cuffs undo around [enemy.name]’s wrists and [enemy.legs]. \"+enemy.capitalA+enemy.short+\" immediately falls to [enemy.hisHer] side, a dreamy look on [enemy.hisHer] [enemy.face]",
     "translation": "",
-    "context": "<<POS:07677118>>"
+    "context": "<<POS:07677122>>"
   },
   {
     "key": "output|and_a_stream_of_enemy_cum_dribbling|d7cef1fdbe99",
@@ -534,15 +552,9 @@
     "context": "<<POS:07677539>>"
   },
   {
-    "key": "output|n_n|ec9a0673d7eb",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:07677933>>"
-  },
-  {
-    "key": "button|Next|d1251d40dc30",
+    "key": "button|Next|675d5eb4658d",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07678013>>"
+    "context": "<<POS:07678013>> addButton(0,\"Next\",mainGameMenu)"
   }
 ]

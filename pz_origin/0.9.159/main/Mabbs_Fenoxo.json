@@ -3,88 +3,76 @@
     "key": "perk|Fixed_CumQ|9becd7a6288b",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:11823089>>"
+    "context": "<<POS:11823089>> createPerk(\"Fixed CumQ\",2500)"
   },
   {
     "key": "button|Mitzi|6ccc49e95a91",
     "original": "Mitzi",
     "translation": "",
-    "context": "<<POS:11842594>>"
+    "context": "<<POS:11842594>> addDisabledButton(e,\"Mitzi\",\"Mitzi\",\"Maybe let her recover from that Gush, huh?\")"
   },
   {
-    "key": "button|Mitzi|c8d3e806a48b",
-    "original": "Mitzi",
+    "key": "button.hover|Maybe_let_her_recover_from_that_Gush_huh|89c4453f914a",
+    "original": "Maybe let her recover from that Gush, huh?",
     "translation": "",
-    "context": "<<POS:11842713>>"
+    "context": "<<POS:11842610>> addDisabledButton(e,\"Mitzi\",\"Mitzi\",\"Maybe let her recover from that Gush, huh?\")"
   },
   {
-    "key": "button|Mitzi|c8d3e806a48b#1",
+    "key": "button|Mitzi|c58e7f68c2f8",
     "original": "Mitzi",
     "translation": "",
-    "context": "<<POS:11842849>>"
+    "context": "<<POS:11842713>> addDisabledButton(e,\"Mitzi\",\"Mitzi\",\"Mitzi’s not around at the moment.\"+(amber.isCrew()?\" She’s probably getting into trouble with Amber.\":\"\"))"
+  },
+  {
+    "key": "button.hover|Mitzi_s_not_around_at_the_moment|d592d726fec2",
+    "original": "Mitzi’s not around at the moment.",
+    "translation": "",
+    "context": "<<POS:11842729>> addDisabledButton(e,\"Mitzi\",\"Mitzi\",\"Mitzi’s not around at the moment.\"+(amber.isCrew()?\" She’s probably getting into trouble with Amber.\":\"\"))"
+  },
+  {
+    "key": "button|Mitzi|747e25315722",
+    "original": "Mitzi",
+    "translation": "",
+    "context": "<<POS:11842849>> addButton(e,\"Mitzi\",window.approachCrewMitzi)"
   },
   {
     "key": "perk|Fixed_CumQ|82c1310bde0c",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:11845620>>"
+    "context": "<<POS:11845620>> createPerk(\"Fixed CumQ\",25e3)"
   },
   {
     "key": "perk|No_Cum_Leakage|67693978de18",
     "original": "No Cum Leakage",
     "translation": "",
-    "context": "<<POS:11846665>>"
+    "context": "<<POS:11846665>> createPerk(\"No Cum Leakage\")"
   },
   {
     "key": "perk|Can_Crit|e47b97295f55",
     "original": "Can Crit",
     "translation": "",
-    "context": "<<POS:11850473>>"
+    "context": "<<POS:11850473>> createPerk(\"Can Crit\",0,0,0,0)"
   },
   {
-    "key": "combat|n_n|3811288f6f8a",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:11852035>>"
-  },
-  {
-    "key": "combat|She_comes_up_short_the_blade_cutting_the_air_in_front_of_conc|3df7e8d18947",
+    "key": "combat|She_comes_up_short_the_blade_cutting_the_air_in_front_of_conc|7b97e92e8468",
     "original": "She comes up short, the blade cutting the air in front of \".concat(e.getCombatName(),\"!\")",
     "translation": "",
     "context": "<<POS:11852056>>"
   },
   {
-    "key": "combat|n_n|328df9747af6",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:11852163>>"
-  },
-  {
-    "key": "combat|concat_Ot_m_capitalize_e_getCombatName_1_can_t_dodge_in|a58bcfa77bd8",
+    "key": "combat|concat_Ot_m_capitalize_e_getCombatName_1_can_t_dodge_in|1ebfd5f01afd",
     "original": "\".concat(Ot.m.capitalize(e.getCombatName(),!1),\" can’t dodge in time, the blade dragging across \").concat(e.getCombatPronoun(\"hisher\"),\" \").concat(pc.shields()>0?\"shielded\":\"unshielded\",\" body!\")",
     "translation": "",
     "context": "<<POS:11852184>>"
   },
   {
-    "key": "combat|n_n|eb8050e766d4",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:11852793>>"
-  },
-  {
-    "key": "combat|Despite_her_efforts_concat_e_getCombatName_manage_conca|196561acd321",
+    "key": "combat|Despite_her_efforts_concat_e_getCombatName_manage_conca|0898e4a1b065",
     "original": "Despite her efforts, \".concat(e.getCombatName(),\" manage\").concat(e.isPlural||e.isPlayer()?\"\":\"s\",\" to slip to the side, dodging the wicked attack!\")",
     "translation": "",
     "context": "<<POS:11852814>>"
   },
   {
-    "key": "combat|n_n|523a57e9ab5a",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:11852981>>"
-  },
-  {
-    "key": "combat|The_tip_of_the_blade_concat_connects|8f6ff94ff4ab",
+    "key": "combat|The_tip_of_the_blade_concat_connects|8bae64329694",
     "original": "The tip of the blade \".concat(\"\",\"connects, \")",
     "translation": "",
     "context": "<<POS:11853002>>"
@@ -102,25 +90,13 @@
     "context": "<<POS:11853160>>"
   },
   {
-    "key": "combat|n_n|2695ca92a40a",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:11853660>>"
-  },
-  {
-    "key": "combat|On_instinct_concat_e_getCombatName_swing_concat_e_isPlu|a4cd9e7e12cf",
+    "key": "combat|On_instinct_concat_e_getCombatName_swing_concat_e_isPlu|8857cffe2b02",
     "original": "On instinct, \".concat(e.getCombatName(),\" swing\").concat(e.isPlural||e.isPlayer()?\"\":\"s\",\" \").concat(e.getCombatPronoun(\"hisher\"),\" [pc.weaponMain], deflecting the wicked missile!\")",
     "translation": "",
     "context": "<<POS:11853681>>"
   },
   {
-    "key": "combat|n_n|eedab353c82d",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:11853880>>"
-  },
-  {
-    "key": "combat|The_wicked_missile_strikes_concat_e_getCombatName_hard|592c3c870bea",
+    "key": "combat|The_wicked_missile_strikes_concat_e_getCombatName_hard|528ed3f6bf12",
     "original": "The wicked missile strikes \".concat(e.getCombatName(),\" hard\")",
     "translation": "",
     "context": "<<POS:11853901>>"
@@ -132,31 +108,19 @@
     "context": "<<POS:11853993>>"
   },
   {
-    "key": "combat|n_n_b_She_disarmed_herself_b|5e910d001f2b",
-    "original": "\\n\\n<b>She disarmed herself!</b>",
+    "key": "combat|b_She_disarmed_herself_b|832b5787c2f4",
+    "original": "<b>She disarmed herself!</b>",
     "translation": "",
-    "context": "<<POS:11854307>>"
+    "context": "<<POS:11854311>>"
   },
   {
-    "key": "combat|n_n|cc883a153acc",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:11854691>>"
-  },
-  {
-    "key": "combat|You_manage_to_evade_her_the_droid_no_match_for_your_speed|fd755ec0b693",
+    "key": "combat|You_manage_to_evade_her_the_droid_no_match_for_your_speed|49f73a3781e1",
     "original": "You manage to evade her, the droid no match for your speed!",
     "translation": "",
     "context": "<<POS:11854712>>"
   },
   {
-    "key": "combat|n_n|a5d6e80c9748",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:11854793>>"
-  },
-  {
-    "key": "combat|She_catches_you|b5e749aec6fd",
+    "key": "combat|She_catches_you|c4e55a33066a",
     "original": "She catches you, ",
     "translation": "",
     "context": "<<POS:11854814>>"
@@ -180,31 +144,13 @@
     "context": "<<POS:11855118>>"
   },
   {
-    "key": "combat|n_n|accc0812b02a",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:11856003>>"
-  },
-  {
-    "key": "combat|Trapped_in_her_grasp_there_is_no_escape_as_she_jabs_concat_e|0324d4a2bacb",
+    "key": "combat|Trapped_in_her_grasp_there_is_no_escape_as_she_jabs_concat_e|9c8a7ddf2f22",
     "original": "Trapped in her grasp, there is no escape as she jabs \".concat(e.getCombatName(),\" with the oversized needle!\")",
     "translation": "",
     "context": "<<POS:11856024>>"
   },
   {
-    "key": "combat|n_n|ea9729ee2a1f",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:11856257>>"
-  },
-  {
-    "key": "combat|n_n|a9cf636dcdb1",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:11856285>>"
-  },
-  {
-    "key": "combat|Leveling_the_syringe_the_nursedroid_leaps_towards_concat_e_ge|659cf384c956",
+    "key": "combat|Leveling_the_syringe_the_nursedroid_leaps_towards_concat_e_ge|c972e7dff39d",
     "original": "Leveling the syringe, the nursedroid leaps towards \".concat(e.getCombatName(),\", \")",
     "translation": "",
     "context": "<<POS:11856306>>"
@@ -222,34 +168,28 @@
     "context": "<<POS:11856626>>"
   },
   {
-    "key": "combat|n_n|ea9729ee2a1f#1",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:11856921>>"
-  },
-  {
-    "key": "combat|Compressing_the_plunger_the_droid_shoots_concat_e_getCombatPr|9b23b167dcaf",
+    "key": "combat|Compressing_the_plunger_the_droid_shoots_concat_e_getCombatPr|ba4ee185ec24",
     "original": "Compressing the plunger, the droid shoots \".concat(e.getCombatPronoun(\"himher\"),\" full of the ominous contents of her makeshift weapon. \").concat(Ot.m.capitalize(e.getCombatName(),!1),\" flesh starts burning as the chemicals fill \").concat(e.getCombatPronoun(\"hisher\"),\" veins.\")",
     "translation": "",
     "context": "<<POS:11856952>>"
   },
   {
-    "key": "combat|Pushing_her_away_you_clench_the_point_of_injection_your_body|a12a2e4f57d0",
-    "original": " Pushing her away, you clench the point of injection, your body already feeling the effects!\\n",
+    "key": "combat|Pushing_her_away_you_clench_the_point_of_injection_your_body|ef66a5930314",
+    "original": " Pushing her away, you clench the point of injection, your body already feeling the effects!",
     "translation": "",
     "context": "<<POS:11857261>>"
   },
   {
-    "key": "combat|n_b_You_are_no_longer_grappled_b|0c88081897cc",
-    "original": "\\n<b>You are no longer grappled!</b>",
+    "key": "combat|b_You_are_no_longer_grappled_b|52a199b8abc3",
+    "original": "<b>You are no longer grappled!</b>",
     "translation": "",
-    "context": "<<POS:11857389>>"
+    "context": "<<POS:11857391>>"
   },
   {
-    "key": "combat|n_t_t_t_t_tThe_spreading_burning_sensation_under_concat_Ot_m|9155d9a83328",
-    "original": "\\n\\t\\t\\t\\t\\tThe spreading burning sensation under \".concat(Ot.m.possessive(e.getCombatName()),\" [pc.skinFurScales] can only mean one thing: \")",
+    "key": "combat|t_t_t_t_tThe_spreading_burning_sensation_under_concat_Ot_m_po|85f404288153",
+    "original": "\\t\\t\\t\\t\\tThe spreading burning sensation under \".concat(Ot.m.possessive(e.getCombatName()),\" [pc.skinFurScales] can only mean one thing: \")",
     "translation": "",
-    "context": "<<POS:11857679>>"
+    "context": "<<POS:11857681>>"
   },
   {
     "key": "combat|b_e_getCombatName_e_isPlayer_e_isPlural_are_is|4931b44b67fd",
@@ -258,10 +198,10 @@
     "context": "<<POS:11857837>>"
   },
   {
-    "key": "combat|n_t_t_t_t_tThe_world_starts_to_dim_despite_concat_Ot_m_posse|a9dd235f3479",
-    "original": "\\n\\t\\t\\t\\t\\tThe world starts to dim, despite \".concat(Ot.m.possessive(e.getCombatName()),\" attempts to blink it back to light: \")",
+    "key": "combat|t_t_t_t_tThe_world_starts_to_dim_despite_concat_Ot_m_possess|a41fef1be19f",
+    "original": "\\t\\t\\t\\t\\tThe world starts to dim, despite \".concat(Ot.m.possessive(e.getCombatName()),\" attempts to blink it back to light: \")",
     "translation": "",
-    "context": "<<POS:11857969>>"
+    "context": "<<POS:11857971>>"
   },
   {
     "key": "combat|b_e_getCombatName_e_isPlayer_e_isPlural_are_is|05844dc82e1e",
@@ -270,10 +210,10 @@
     "context": "<<POS:11858114>>"
   },
   {
-    "key": "combat|n_t_t_t_t_t_concat_Ot_m_capitalize_Ot_m_possessive_e_getCombat|9aa645a7f231",
-    "original": "\\n\\t\\t\\t\\t\\t\".concat(Ot.m.capitalize(Ot.m.possessive(e.getCombatName()),!1),\" body feels heavy, muscles slowing, and nerves numbing: \")",
+    "key": "combat|t_t_t_t_t_concat_Ot_m_capitalize_Ot_m_possessive_e_getCombatNa|06ebaf96508f",
+    "original": "\\t\\t\\t\\t\\t\".concat(Ot.m.capitalize(Ot.m.possessive(e.getCombatName()),!1),\" body feels heavy, muscles slowing, and nerves numbing: \")",
     "translation": "",
-    "context": "<<POS:11858240>>"
+    "context": "<<POS:11858242>>"
   },
   {
     "key": "combat|b_e_getCombatName_e_isPlayer_e_isPlural_are_is|25907d5e3079",
@@ -282,10 +222,10 @@
     "context": "<<POS:11858391>>"
   },
   {
-    "key": "combat|n_t_t_t_t_t_concat_Ot_m_capitalize_Ot_m_possessive_e_getCombat|d1e32071d3ae",
-    "original": "\\n\\t\\t\\t\\t\\t\".concat(Ot.m.capitalize(Ot.m.possessive(e.getCombatName()),!1),\" heart pounds and \").concat(e.getCombatPronoun(\"hisher\"),\" crotch aches, salacious daydreams cascading through \").concat(e.getCombatPronoun(\"hisher\"),\" brain: \")",
+    "key": "combat|t_t_t_t_t_concat_Ot_m_capitalize_Ot_m_possessive_e_getCombatNa|43042d75a3d6",
+    "original": "\\t\\t\\t\\t\\t\".concat(Ot.m.capitalize(Ot.m.possessive(e.getCombatName()),!1),\" heart pounds and \").concat(e.getCombatPronoun(\"hisher\"),\" crotch aches, salacious daydreams cascading through \").concat(e.getCombatPronoun(\"hisher\"),\" brain: \")",
     "translation": "",
-    "context": "<<POS:11858527>>"
+    "context": "<<POS:11858529>>"
   },
   {
     "key": "combat|b_e_getCombatName_e_isPlayer_e_isPlural_are_is|379d284be16d",
@@ -297,18 +237,24 @@
     "key": "perk|Fixed_CumQ|152e9048dd1d",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:11867706>>"
+    "context": "<<POS:11867706>> createPerk(\"Fixed CumQ\",100,0,0,0)"
   },
   {
     "key": "button|Ramis|3a99b0cbd71c",
     "original": "Ramis",
     "translation": "",
-    "context": "<<POS:11874317>>"
+    "context": "<<POS:11874317>> addDisabledButton(e,\"Ramis\",\"Ramis\",\"The female kaithrit is out in Tavros, pulverizing the station’s drinking holes no doubt.\\n\\nShe’ll be back tomorrow.\")"
   },
   {
-    "key": "button|Ramis|79f472df59fa",
+    "key": "button.hover|The_female_kaithrit_is_out_in_Tavros_pulverizing_the_station_s|ba1525b41880",
+    "original": "The female kaithrit is out in Tavros, pulverizing the station’s drinking holes no doubt.\\n\\nShe’ll be back tomorrow.",
+    "translation": "",
+    "context": "<<POS:11874333>> addDisabledButton(e,\"Ramis\",\"Ramis\",\"The female kaithrit is out in Tavros, pulverizing the station’s drinking holes no doubt.\\n\\nShe’ll be back tomorrow.\")"
+  },
+  {
+    "key": "button|Ramis|85ea1f347aff",
     "original": "Ramis",
     "translation": "",
-    "context": "<<POS:11875609>>"
+    "context": "<<POS:11875609>> addButton(e,\"Ramis\",window.ramisCrewApproach)"
   }
 ]

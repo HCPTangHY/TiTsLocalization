@@ -9,7 +9,7 @@
     "key": "name.show|Lip_Tease|d6248a666b09",
     "original": "Lip Tease",
     "translation": "",
-    "context": "<<POS:08799311>>"
+    "context": "<<POS:08799311>> showName(\"Lip Tease\")"
   },
   {
     "key": "output|You_hold_the_applicator_in_your_palm|b394f25e663b",
@@ -18,76 +18,112 @@
     "context": "<<POS:08799351>>"
   },
   {
-    "key": "output|Before_using_it_what_lips_do_you_want_to_use_it_on_n_n|c278f9874567",
-    "original": "Before using it, what lips do you want to use it on?\\n\\n",
+    "key": "output|Before_using_it_what_lips_do_you_want_to_use_it_on|9ab5869ee6ca",
+    "original": "Before using it, what lips do you want to use it on?",
     "translation": "",
     "context": "<<POS:08799518>>"
   },
   {
-    "key": "button|Lips|19d5d724f7cf",
+    "key": "button|Lips|16d0a334cf61",
     "original": "Lips",
     "translation": "",
-    "context": "<<POS:08799604>>"
+    "context": "<<POS:08799604>> addButton(a++,\"Lips\",(function(){return o.rbgMenu(e,\"lip\",!0,-1,t)}))"
   },
   {
     "key": "button|Lipples|e665cab9f08d",
     "original": "Lipples",
     "translation": "",
-    "context": "<<POS:08799700>>"
+    "context": "<<POS:08799700>> addButton(a++,\"Lipples\",(function(){return o.rbgMenu(e,\"lipple\",!0,-1,t)}))"
   },
   {
     "key": "button|Mouthgina|2d1acd2f6d71",
     "original": "Mouthgina",
     "translation": "",
-    "context": "<<POS:08799805>>"
+    "context": "<<POS:08799805>> addButton(a++,\"Mouthgina\",(function(){return o.vagMenu(e,\"mouthgina\",t)}))"
   },
   {
     "key": "button|Back|c72ab86f5f2a",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:08799879>>"
+    "context": "<<POS:08799879>> addButton(14,\"Back\",(function(){return o.rbgCancel(e,t)}))"
   },
   {
-    "key": "output|The_directions_say_you_have_to_pick_a_color_before_shaking_it_D|7141d47d15ff",
-    "original": "The directions say you have to pick a color before shaking it. Do you want to change the color of your \"+this.lipTypeString(t)+\"?\\n\\n",
+    "key": "output|The_directions_say_you_have_to_pick_a_color_before_shaking_it_D|d6793f61e456",
+    "original": "The directions say you have to pick a color before shaking it. Do you want to change the color of your \"+this.lipTypeString(t)+\"?",
     "translation": "",
     "context": "<<POS:08800211>>"
   },
   {
-    "key": "button|Yes|11b4746dd2ef",
+    "key": "button|Yes|5a4d268af33f",
     "original": "Yes",
     "translation": "",
-    "context": "<<POS:08800372>>"
+    "context": "<<POS:08800372>> addButton(0,\"Yes\",(function(){return o.rbgSelColor(e,t,!1,a,n)}),\"Choose Color\",\"Choose a color for your \"+this.lipTypeString(t)+\".\")"
   },
   {
-    "key": "button|No|1c655db5490a",
+    "key": "button.hover|Choose_Color|d25627625d57",
+    "original": "Choose Color",
+    "translation": "",
+    "context": "<<POS:08800425>> addButton(0,\"Yes\",(function(){return o.rbgSelColor(e,t,!1,a,n)}),\"Choose Color\",\"Choose a color for your \"+this.lipTypeString(t)+\".\")"
+  },
+  {
+    "key": "button.tooltip|Choose_a_color_for_your|a3312f7ca445",
+    "original": "Choose a color for your ",
+    "translation": "",
+    "context": "<<POS:08800440>> addButton(0,\"Yes\",(function(){return o.rbgSelColor(e,t,!1,a,n)}),\"Choose Color\",\"Choose a color for your \"+this.lipTypeString(t)+\".\")"
+  },
+  {
+    "key": "button|No|3fbe0f98d472",
     "original": "No",
     "translation": "",
-    "context": "<<POS:08800506>>"
+    "context": "<<POS:08800506>> addButton(1,\"No\",(function(){return o.sizeMenu(e,t,\"null\",a)}),\"No Color\",\"Don’t change the color of your \"+this.lipTypeString(t)+\".\")"
   },
   {
-    "key": "button|Like_Ya|44453823629b",
+    "key": "button.hover|No_Color|feef1075c930",
+    "original": "No Color",
+    "translation": "",
+    "context": "<<POS:08800557>> addButton(1,\"No\",(function(){return o.sizeMenu(e,t,\"null\",a)}),\"No Color\",\"Don’t change the color of your \"+this.lipTypeString(t)+\".\")"
+  },
+  {
+    "key": "button.tooltip|Don_t_change_the_color_of_your|7beb1851f7cb",
+    "original": "Don’t change the color of your ",
+    "translation": "",
+    "context": "<<POS:08800568>> addButton(1,\"No\",(function(){return o.sizeMenu(e,t,\"null\",a)}),\"No Color\",\"Don’t change the color of your \"+this.lipTypeString(t)+\".\")"
+  },
+  {
+    "key": "button|Like_Ya|a4078d7d2061",
     "original": "Like, Ya!",
     "translation": "",
-    "context": "<<POS:08800654>>"
+    "context": "<<POS:08800654>> addButton(5,\"Like, Ya!\",(function(){return o.rbgSelColor(e,t,!0,a,n)}),\"*Choose Glitter*\",\"Like, totally choose a better color for your \"+this.lipTypeString(t)+\".\")"
   },
   {
-    "key": "button|Back|a8e79a05adf4",
+    "key": "button.hover|Choose_Glitter|678c12581567",
+    "original": "*Choose Glitter*",
+    "translation": "",
+    "context": "<<POS:08800713>> addButton(5,\"Like, Ya!\",(function(){return o.rbgSelColor(e,t,!0,a,n)}),\"*Choose Glitter*\",\"Like, totally choose a better color for your \"+this.lipTypeString(t)+\".\")"
+  },
+  {
+    "key": "button.tooltip|Like_totally_choose_a_better_color_for_your|a3536138ceff",
+    "original": "Like, totally choose a better color for your ",
+    "translation": "",
+    "context": "<<POS:08800732>> addButton(5,\"Like, Ya!\",(function(){return o.rbgSelColor(e,t,!0,a,n)}),\"*Choose Glitter*\",\"Like, totally choose a better color for your \"+this.lipTypeString(t)+\".\")"
+  },
+  {
+    "key": "button|Back|8a5bdeb8ae0b",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:08800830>>"
+    "context": "<<POS:08800830>> addButton(14,\"Back\",(function(){return o.lipMenu(e,n)}))"
   },
   {
     "key": "button|Back|8377b4609270",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:08800887>>"
+    "context": "<<POS:08800887>> addButton(14,\"Back\",(function(){return o.rbgCancel(e,n)}))"
   },
   {
     "key": "name.show|Lip_Tease|869fd3c9d9ea",
     "original": "Lip Tease",
     "translation": "",
-    "context": "<<POS:08801044>>"
+    "context": "<<POS:08801044>> showName(\"Lip Tease\")"
   },
   {
     "key": "output|blockHeader_Choose_Vagina|a6edfeaf3184",
@@ -96,16 +132,16 @@
     "context": "<<POS:08801063>>"
   },
   {
-    "key": "output|You_have_more_than_one_vagina_Which_one_will_you_apply_the_Lip|04a70d56a15c",
-    "original": "You have more than one vagina. Which one will you apply the Lip Tease to?\\n",
+    "key": "output|You_have_more_than_one_vagina_Which_one_will_you_apply_the_Lip|f2a162aa0d6c",
+    "original": "You have more than one vagina. Which one will you apply the Lip Tease to?",
     "translation": "",
     "context": "<<POS:08801133>>"
   },
   {
-    "key": "output|n_b_l_m_capitalize_l_m_numToOrdinal_n_1_Vagina_b|a4560ef5ce97",
-    "original": "\\n<b>\"+l.m.capitalize(l.m.numToOrdinal(n+1))+\" Vagina:</b>",
+    "key": "output|b_l_m_capitalize_l_m_numToOrdinal_n_1_Vagina_b|3771346958ec",
+    "original": "<b>\"+l.m.capitalize(l.m.numToOrdinal(n+1))+\" Vagina:</b>",
     "translation": "",
-    "context": "<<POS:08801244>>"
+    "context": "<<POS:08801246>>"
   },
   {
     "key": "output|GLOBAL_FLAG_NAMES_e_vaginas_n_flags_i|2a49c23180eb",
@@ -129,61 +165,103 @@
     "key": "button|Vagina|fddc1afe89db",
     "original": "Vagina ",
     "translation": "",
-    "context": "<<POS:08801629>>"
+    "context": "<<POS:08801629>> addButton(n,\"Vagina \"+(n+1),(function(){return a.rbgMenu(e,t,!0,n,o)}),l.m.capitalize(l.m.numToOrdinal(n+1))+\" Vagina\",\"Use this on your [pc.vagina \"+n+\"].\")"
   },
   {
-    "key": "button|Vagina|e9177b2ddf10",
+    "key": "button.tooltip|Use_this_on_your_pc_vagina|e8033dd998f1",
+    "original": "Use this on your [pc.vagina ",
+    "translation": "",
+    "context": "<<POS:08801736>> addButton(n,\"Vagina \"+(n+1),(function(){return a.rbgMenu(e,t,!0,n,o)}),l.m.capitalize(l.m.numToOrdinal(n+1))+\" Vagina\",\"Use this on your [pc.vagina \"+n+\"].\")"
+  },
+  {
+    "key": "button|Vagina|ee4ca9cb8070",
     "original": "Vagina ",
     "translation": "",
-    "context": "<<POS:08801795>>"
+    "context": "<<POS:08801795>> addDisabledButton(n,\"Vagina \"+(n+1),l.m.capitalize(l.m.numToOrdinal(n+1))+\" Vagina\",\"This vagina is not a valid type for this item!\")"
   },
   {
-    "key": "button|Back|0ef15c846aee",
+    "key": "button.hover|This_vagina_is_not_a_valid_type_for_this_item|3d23885b1c58",
+    "original": "This vagina is not a valid type for this item!",
+    "translation": "",
+    "context": "<<POS:08801859>> addDisabledButton(n,\"Vagina \"+(n+1),l.m.capitalize(l.m.numToOrdinal(n+1))+\" Vagina\",\"This vagina is not a valid type for this item!\")"
+  },
+  {
+    "key": "button|Back|079b1437c21f",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:08801955>>"
+    "context": "<<POS:08801955>> addButton(14,\"Back\",(function(){return a.rbgCancel(e,o)}))"
   },
   {
     "key": "name.show|Lip_Tease|869fd3c9d9ea#1",
     "original": "Lip Tease",
     "translation": "",
-    "context": "<<POS:08802106>>"
+    "context": "<<POS:08802106>> showName(\"Lip Tease\")"
   },
   {
-    "key": "output|You_put_the_lip_balm_back_into_your_inventory_n_n|f76358339dad",
-    "original": "You put the lip balm back into your inventory.\\n\\n",
+    "key": "output|You_put_the_lip_balm_back_into_your_inventory|2f3353dbc4d1",
+    "original": "You put the lip balm back into your inventory.",
     "translation": "",
     "context": "<<POS:08802146>>"
   },
   {
-    "key": "button|Next|b01de5b71c07",
+    "key": "button|Next|8a5eac5a1562",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08802241>>"
+    "context": "<<POS:08802241>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   },
   {
-    "key": "output|What_color_do_you_choose_n_n|6c27179162a4",
-    "original": "What color do you choose?\\n\\n",
+    "key": "output|What_color_do_you_choose|e76a8e0b81d8",
+    "original": "What color do you choose?",
     "translation": "",
     "context": "<<POS:08802733>>"
   },
   {
-    "key": "button|Colors|62dbfb1a9f65",
+    "key": "button|Colors|e791be21c6cc",
     "original": "Colors (",
     "translation": "",
-    "context": "<<POS:08802942>>"
+    "context": "<<POS:08802942>> addButton(c++,\"Colors (\".concat(c,\")\"),(function(){return a.rgbMakeAPage(e,t,n,i,o,s)}),\"Selection of Colors: \".concat(u===d?l.m.toDisplayCase(u):\"\".concat(l.m.toDisplayCase(u),\" to \").concat(l.m.toDisplayCase(d))),u===d?\"To \".concat(u,\".\"):\"From \".concat(u,\" to \").concat(d,\".\"))"
   },
   {
-    "key": "button|Back|9ee9ae3d14da",
-    "original": "Back",
+    "key": "button.hover|Selection_of_Colors|5f731849e5f3",
+    "original": "Selection of Colors: ",
     "translation": "",
-    "context": "<<POS:08803321>>"
+    "context": "<<POS:08803016>> addButton(c++,\"Colors (\".concat(c,\")\"),(function(){return a.rgbMakeAPage(e,t,n,i,o,s)}),\"Selection of Colors: \".concat(u===d?l.m.toDisplayCase(u):\"\".concat(l.m.toDisplayCase(u),\" to \").concat(l.m.toDisplayCase(d))),u===d?\"To \".concat(u,\".\"):\"From \".concat(u,\" to \").concat(d,\".\"))"
   },
   {
-    "key": "button|Back|8377b4609270#1",
+    "key": "button|Back|895f978397cb",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:08804200>>"
+    "context": "<<POS:08803321>> addButton(14,\"Back\",(function(){return a.rbgMenu(e,t,!0,i,s)}))"
+  },
+  {
+    "key": "button.tooltip|Change_the_color_of_your_lips_to|b5a20115c66f",
+    "original": "Change the color of your lips to ",
+    "translation": "",
+    "context": "<<POS:08803609>> addButton(u,o[1],(function(){return s.sizeMenu(e,t,o[0])}),l.m.toDisplayCase(o[0]),\"Change the color of your lips to \"+o[0]+\".\")"
+  },
+  {
+    "key": "button.tooltip|Change_the_color_of_your_lipples_to|50e253837afb",
+    "original": "Change the color of your lipples to ",
+    "translation": "",
+    "context": "<<POS:08803773>> addButton(u,o[1],(function(){return s.sizeMenu(e,t,o[0])}),l.m.toDisplayCase(o[0]),\"Change the color of your lipples to \"+o[0]+\".\")"
+  },
+  {
+    "key": "button.tooltip|Change_the_color_of_your_pc_vaginaNoun|36ce7c66e7d1",
+    "original": "Change the color of your [pc.vaginaNoun ",
+    "translation": "",
+    "context": "<<POS:08803956>> addButton(u,o[1],(function(){return s.sizeMenu(e,t,o[0],a)}),l.m.toDisplayCase(o[0]),\"Change the color of your [pc.vaginaNoun \"+a+\"] to \"+o[0]+\".\")"
+  },
+  {
+    "key": "button.hover|Your|98dce8d72aca",
+    "original": "Your ",
+    "translation": "",
+    "context": "<<POS:08804068>> addDisabledButton(u,o[1],l.m.toDisplayCase(o[0]),\"Your \"+s.lipTypeString(t)+\" are already \"+o[0]+\".\")"
+  },
+  {
+    "key": "button|Back|a2050e464505",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:08804200>> addButton(14,\"Back\",(function(){return s.rbgSelColor(e,t,o,a,i)}))"
   },
   {
     "key": "output|You_make_your_selection_and_give_the_cylinder_a_good_shake_hear|32392290b8c3",
@@ -195,19 +273,19 @@
     "key": "button|Increase|c9c3b6a7984b",
     "original": "Increase",
     "translation": "",
-    "context": "<<POS:08804722>>"
+    "context": "<<POS:08804722>> addButton(0,\"Increase\",(function(){return a.rbgUse(e,t,o,\"increase\",n)}))"
   },
   {
     "key": "button|Decrease|904c5b01cc45",
     "original": "Decrease",
     "translation": "",
-    "context": "<<POS:08804796>>"
+    "context": "<<POS:08804796>> addButton(1,\"Decrease\",(function(){return a.rbgUse(e,t,o,\"decrease\",n)}))"
   },
   {
     "key": "name.show|Lip_Tease|c8ee8fc6b33d",
     "original": "Lip Tease",
     "translation": "",
-    "context": "<<POS:08805287>>"
+    "context": "<<POS:08805287>> showName(\"Lip Tease\")"
   },
   {
     "key": "output|You_pull_off_the_cap_and_pucker_your_s_liberally_applying_t|cddcb70a9faf",
@@ -216,16 +294,16 @@
     "context": "<<POS:08805327>>"
   },
   {
-    "key": "output|n_nAt_first_there_s_no_sensation_beyond_a_nondescript_warmth|bc10dd472e59",
-    "original": "\\n\\nAt first, there’s no sensation beyond a nondescript warmth, until your \"+this.lipTypeString(t)+\" purse and tighten involuntarily. You feel them begin to stretch and grow larger, and you pull out your Codex to get a better look at what’s happening.",
+    "key": "output|At_first_there_s_no_sensation_beyond_a_nondescript_warmth_unti|3c56a360088d",
+    "original": "At first, there’s no sensation beyond a nondescript warmth, until your \"+this.lipTypeString(t)+\" purse and tighten involuntarily. You feel them begin to stretch and grow larger, and you pull out your Codex to get a better look at what’s happening.",
     "translation": "",
-    "context": "<<POS:08806123>>"
+    "context": "<<POS:08806127>>"
   },
   {
-    "key": "output|n_nThe_process_is_over_fairly_quickly_but_there_s_no_denying_t|94d6b2629071",
-    "original": "\\n\\nThe process is over fairly quickly, but there’s no denying that your \"+(\"lip\"===t?\"lips are fuller and more shapely\":s+\" are larger\")+\" than they were before",
+    "key": "output|The_process_is_over_fairly_quickly_but_there_s_no_denying_that|0f528a842977",
+    "original": "The process is over fairly quickly, but there’s no denying that your \"+(\"lip\"===t?\"lips are fuller and more shapely\":s+\" are larger\")+\" than they were before",
     "translation": "",
-    "context": "<<POS:08806385>>"
+    "context": "<<POS:08806389>>"
   },
   {
     "key": "output|not_to_mention_the_fact_that_they_ve_become_a_stunning_new_sha|2704f602e125",
@@ -264,10 +342,10 @@
     "context": "<<POS:08806866>>"
   },
   {
-    "key": "output|n_nAt_first_there_s_no_sensation_beyond_a_cool_dampness_until|38f80bba114a",
-    "original": "\\n\\nAt first, there’s no sensation beyond a cool dampness, until your \"+this.lipTypeString(t)+\" suddenly go numb. An uncomfortable tingling passes over",
+    "key": "output|At_first_there_s_no_sensation_beyond_a_cool_dampness_until_you|12d652f90083",
+    "original": "At first, there’s no sensation beyond a cool dampness, until your \"+this.lipTypeString(t)+\" suddenly go numb. An uncomfortable tingling passes over",
     "translation": "",
-    "context": "<<POS:08806996>>"
+    "context": "<<POS:08807000>>"
   },
   {
     "key": "output|your_chest|be84ce4f3ae3",
@@ -306,10 +384,10 @@
     "context": "<<POS:08807608>>"
   },
   {
-    "key": "output|n_nYou_wait_a_few_moments_but_nothing_happens_You_pull_out_yo|577188e79838",
-    "original": "\\n\\nYou wait a few moments, but nothing happens. You pull out your Codex and take a look at your reflection. Your \"+this.lipTypeString(t)+\" seem to be the same size",
+    "key": "output|You_wait_a_few_moments_but_nothing_happens_You_pull_out_your_C|9cf28e78937a",
+    "original": "You wait a few moments, but nothing happens. You pull out your Codex and take a look at your reflection. Your \"+this.lipTypeString(t)+\" seem to be the same size",
     "translation": "",
-    "context": "<<POS:08807676>>"
+    "context": "<<POS:08807680>>"
   },
   {
     "key": "output|They_have_changed_color_though_and_are_now_a_lightly_glisten|a11aa585ddd3",
@@ -327,6 +405,6 @@
     "key": "button|Next|28aa396d2b17",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:08808255>>"
+    "context": "<<POS:08808255>> addButton(0,\"Next\",(function(){return n.returnToInventory(n)}))"
   }
 ]

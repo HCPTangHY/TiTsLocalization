@@ -3,7 +3,7 @@
     "key": "name.show|Suma_Cream|baa5463c95f4",
     "original": "Suma Cream",
     "translation": "",
-    "context": "<<POS:09705497>>"
+    "context": "<<POS:09705497>> showName(\"Suma Cream\")"
   },
   {
     "key": "output|You_use_the_pill_to_no_effect|018eb1c3ac7d",
@@ -24,28 +24,28 @@
     "context": "<<POS:09705668>>"
   },
   {
-    "key": "output|You_put_the_capsule_back_into_your_inventory_n_n|0de1eaf14fda",
-    "original": "You put the capsule back into your inventory.\\n\\n",
+    "key": "output|You_put_the_capsule_back_into_your_inventory|9f50595d00be",
+    "original": "You put the capsule back into your inventory.",
     "translation": "",
     "context": "<<POS:09705843>>"
   },
   {
-    "key": "button|Next|c369ed8276c3",
+    "key": "button|Next|987d882c5a8d",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09706015>>"
+    "context": "<<POS:09706015>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   },
   {
     "key": "button|Next|35b9a3540cff",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09706280>>"
+    "context": "<<POS:09706280>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
   },
   {
     "key": "name.show|Suma_Cream|177f94a3df22",
     "original": "Suma Cream",
     "translation": "",
-    "context": "<<POS:09706599>>"
+    "context": "<<POS:09706599>> showName(\"Suma Cream\")"
   },
   {
     "key": "output|Are_you_sure_you_want_to_use_the_Suma_Cream_capsule_before_looki|81a698c93f46",
@@ -57,22 +57,34 @@
     "key": "button|Yes|536b964cdfe2",
     "original": "Yes",
     "translation": "",
-    "context": "<<POS:09706771>>"
+    "context": "<<POS:09706771>> addButton(0,\"Yes\",(function(){clearMenu(),o.sumaEffects(e,t,a,!0)}))"
   },
   {
     "key": "button|No|1c655db5490a",
     "original": "No",
     "translation": "",
-    "context": "<<POS:09706840>>"
+    "context": "<<POS:09706840>> addButton(1,\"No\",(function(){return o.itemCancel(t,a)}))"
   },
   {
     "key": "button|Codex|91b41cee8132",
     "original": "Codex",
     "translation": "",
-    "context": "<<POS:09706902>>"
+    "context": "<<POS:09706902>> addButton(4,\"Codex\",(function(){showCodex(),(0,d.cY)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),o.sumaEffects(e,t,a)})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),o.itemCancel(t,a)}))}),\"Codex Entry\",\"View the Codex entry for ClearYu.\")"
   },
   {
-    "key": "output|You_look_at_the_cream_filled_sphere_and_contemplate_giving_it_a|810a7281b73c",
+    "key": "button.hover|Codex_Entry|5e6f1989329b",
+    "original": "Codex Entry",
+    "translation": "",
+    "context": "<<POS:09707112>> addButton(4,\"Codex\",(function(){showCodex(),(0,d.cY)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),o.sumaEffects(e,t,a)})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),o.itemCancel(t,a)}))}),\"Codex Entry\",\"View the Codex entry for ClearYu.\")"
+  },
+  {
+    "key": "button.tooltip|View_the_Codex_entry_for_ClearYu|011a7d2b56a1",
+    "original": "View the Codex entry for ClearYu.",
+    "translation": "",
+    "context": "<<POS:09707126>> addButton(4,\"Codex\",(function(){showCodex(),(0,d.cY)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),o.sumaEffects(e,t,a)})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),o.itemCancel(t,a)}))}),\"Codex Entry\",\"View the Codex entry for ClearYu.\")"
+  },
+  {
+    "key": "output|You_look_at_the_cream_filled_sphere_and_contemplate_giving_it_a|14eaf859b2c2",
     "original": "You look at the cream-filled sphere and contemplate giving it a try despite not having",
     "translation": "",
     "context": "<<POS:09707210>>"
@@ -96,13 +108,7 @@
     "context": "<<POS:09707369>>"
   },
   {
-    "key": "output|n_n|791367773371",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:09707625>>"
-  },
-  {
-    "key": "output|Flexing_the_tiny_ball_of_cream_between_your_fingers_you_take_a|d0c173a73454",
+    "key": "output|Flexing_the_tiny_ball_of_cream_between_your_fingers_you_take_a|e7c1ec9ff465",
     "original": "Flexing the tiny ball of cream between your fingers, you take a moment to think about your situation. The cream has to be spread onto your",
     "translation": "",
     "context": "<<POS:09707725>>"
@@ -129,7 +135,7 @@
     "key": "button|Next|f627161ab905",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09708297>>"
+    "context": "<<POS:09708297>> addButton(0,\"Next\",(function(){return a.returnToInventory(a)}))"
   },
   {
     "key": "output|Flexing_the_tiny_ball_of_cream_between_your_fingers_you_recall|49ff58c0c7ea",
@@ -177,7 +183,7 @@
     "key": "button|Next|1137d4b2a51f",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09709693>>"
+    "context": "<<POS:09709693>> addButton(0,\"Next\",(function(){return a.returnToInventory(a)}))"
   },
   {
     "key": "output|Rolling_the_small_bead_around_in_your_palm_you_begin_to_wonder|c90be2f6fb78",
@@ -228,34 +234,34 @@
     "context": "<<POS:09710777>>"
   },
   {
-    "key": "output|n_nSomething_strange_happens_as_your_body_trembles_and_vibrates|e7f5290e892e",
-    "original": "\\n\\nSomething strange happens as your body trembles and vibrates with an unfamiliar pressure... You feel your sack shrink slightly underneath you... Wait, that’s not supposed to happen is it? Could your kui-tan genes be preventing you from growing any larger?",
+    "key": "output|Something_strange_happens_as_your_body_trembles_and_vibrates_wit|eb1058b6314b",
+    "original": "Something strange happens as your body trembles and vibrates with an unfamiliar pressure... You feel your sack shrink slightly underneath you... Wait, that’s not supposed to happen is it? Could your kui-tan genes be preventing you from growing any larger?",
     "translation": "",
-    "context": "<<POS:09711127>>"
+    "context": "<<POS:09711131>>"
   },
   {
-    "key": "output|n_nAs_if_answering_your_question_your_body_is_immediately_stru|3f0956c1b1a0",
-    "original": "\\n\\nAs if answering your question, your body is immediately struck with the feeling of orgasm! Strangely enough, nothing comes of it--not from your [pc.cocks], nothing. What--",
+    "key": "output|As_if_answering_your_question_your_body_is_immediately_struck_w|61908b0485ec",
+    "original": "As if answering your question, your body is immediately struck with the feeling of orgasm! Strangely enough, nothing comes of it--not from your [pc.cocks], nothing. What--",
     "translation": "",
-    "context": "<<POS:09711514>>"
+    "context": "<<POS:09711518>>"
   },
   {
-    "key": "output|n_nAnother_wave_hits_you_And_another_i_And_another_i_b_W|afb731d5eaad",
-    "original": "\\n\\nAnother wave hits you. And another. <i>And another!</i> <b>What the Void is going on?!</b>",
+    "key": "output|Another_wave_hits_you_And_another_i_And_another_i_b_What|b8d85e7254f2",
+    "original": "Another wave hits you. And another. <i>And another!</i> <b>What the Void is going on?!</b>",
     "translation": "",
-    "context": "<<POS:09711700>>"
+    "context": "<<POS:09711704>>"
   },
   {
-    "key": "output|n_nUnable_to_stall_the_simultaneous_rapid_fire_not_orgasms_yo|0b4c0bf4edf6",
-    "original": "\\n\\nUnable to stall the simultaneous, rapid-fire not-orgasms, you let the feelings surge through you and hope that your microsurgeons are able to fix whatever you ended up doing to yourself; to which you quickly feel the results of... The shrinking sensation you had earlier is now replaced by an increased bloating--in your nuts, that is.",
+    "key": "output|Unable_to_stall_the_simultaneous_rapid_fire_not_orgasms_you_le|189b21c57892",
+    "original": "Unable to stall the simultaneous, rapid-fire not-orgasms, you let the feelings surge through you and hope that your microsurgeons are able to fix whatever you ended up doing to yourself; to which you quickly feel the results of... The shrinking sensation you had earlier is now replaced by an increased bloating--in your nuts, that is.",
     "translation": "",
-    "context": "<<POS:09711805>>"
+    "context": "<<POS:09711809>>"
   },
   {
-    "key": "output|n_nWave_after_overlapping_wave_you_shudder_as_your_testicles_i|dfc4f17bf690",
-    "original": "\\n\\nWave after overlapping wave, you shudder as your testicles inflate and expand to maximum fullness with each progressive rush, filling with what you know is your seed, your fat sack hanging freely into the open air",
+    "key": "output|Wave_after_overlapping_wave_you_shudder_as_your_testicles_infla|85b76fff40be",
+    "original": "Wave after overlapping wave, you shudder as your testicles inflate and expand to maximum fullness with each progressive rush, filling with what you know is your seed, your fat sack hanging freely into the open air",
     "translation": "",
-    "context": "<<POS:09712189>>"
+    "context": "<<POS:09712193>>"
   },
   {
     "key": "output|for_everyone_to_see|259a35934da0",
@@ -300,10 +306,10 @@
     "context": "<<POS:09713007>>"
   },
   {
-    "key": "output|n_nThe_feeling_of_expansion_and_having_your_talented_balls_conv|be69edca9032",
-    "original": "\\n\\nThe feeling of expansion and having your talented balls convert the extra testicular mass into [pc.cumNoun] volume has set your arousal on fire...",
+    "key": "output|The_feeling_of_expansion_and_having_your_talented_balls_convert|d7dd3c57b165",
+    "original": "The feeling of expansion and having your talented balls convert the extra testicular mass into [pc.cumNoun] volume has set your arousal on fire...",
     "translation": "",
-    "context": "<<POS:09713039>>"
+    "context": "<<POS:09713043>>"
   },
   {
     "key": "output|Well_at_least_it_wasn_t_bone_wiggles|3fb7cfc23583",
@@ -321,7 +327,7 @@
     "key": "button|Next|aa1ee0543633",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09713368>>"
+    "context": "<<POS:09713368>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|blockHeader_UH_OH|8df6cb4a83fe",
@@ -330,52 +336,46 @@
     "context": "<<POS:09713530>>"
   },
   {
-    "key": "output|n_nYour_body_trembles_and_vibrates_with_an_unfamiliar_pressure|6ff92d580be0",
-    "original": "\\n\\nYour body trembles and vibrates with an unfamiliar pressure. Your heart races and your mouth waters as moist tears brim at the periphery of your [pc.eyes]. Something’s wrong, that much is obvious. A bad reaction or a bad batch of Suma Cream? As panic starts rising in your [pc.chest], an equally intense pressure builds in your [pc.balls], your [pc.cocks] throbbing with what promises to be the most intense orgasm you’ve ever experienced.",
+    "key": "output|Your_body_trembles_and_vibrates_with_an_unfamiliar_pressure_You|61604865b689",
+    "original": "Your body trembles and vibrates with an unfamiliar pressure. Your heart races and your mouth waters as moist tears brim at the periphery of your [pc.eyes]. Something’s wrong, that much is obvious. A bad reaction or a bad batch of Suma Cream? As panic starts rising in your [pc.chest], an equally intense pressure builds in your [pc.balls], your [pc.cocks] throbbing with what promises to be the most intense orgasm you’ve ever experienced.",
     "translation": "",
-    "context": "<<POS:09713561>>"
+    "context": "<<POS:09713565>>"
   },
   {
-    "key": "output|n_nYou_could_rush_to_get_help_or_ride_it_out_and_go_for_broke|9f877dafce5a",
-    "original": "\\n\\nYou could rush to get help, or ride it out and go for broke. Just how much do you want big balls?",
+    "key": "output|You_could_rush_to_get_help_or_ride_it_out_and_go_for_broke_Jus|112a4bc5747e",
+    "original": "You could rush to get help, or ride it out and go for broke. Just how much do you want big balls?",
     "translation": "",
-    "context": "<<POS:09714015>>"
+    "context": "<<POS:09714019>>"
   },
   {
     "key": "button|Get_Help|c45349c3055e",
     "original": "Get Help",
     "translation": "",
-    "context": "<<POS:09714144>>"
+    "context": "<<POS:09714144>> addButton(0,\"Get Help\",(function(){return o.sumaBadEnd(\"help\")}))"
   },
   {
     "key": "button|Let_em_Grow|c6b66ee2c945",
     "original": "Let em Grow",
     "translation": "",
-    "context": "<<POS:09714210>>"
+    "context": "<<POS:09714210>> addButton(1,\"Let em Grow\",(function(){return o.sumaBadEnd(\"grow\")}))"
   },
   {
-    "key": "output|n_n|c7d505cafb96",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:09714286>>"
-  },
-  {
-    "key": "output|As_the_cream_settles_into_your_pc_balls_a_cold_numbness_sprea|abf51e9912a4",
+    "key": "output|As_the_cream_settles_into_your_pc_balls_a_cold_numbness_sprea|c7c18d934756",
     "original": "As the cream settles into your [pc.balls], a cold numbness spreads through your lower body. Your [pc.crotch] seems to be throbbing, but you can’t feel a thing. A nervous tightness slowly wraps around your chest, air coming in short, labored breaths as tiny prickles of sensation creep along the back of your neck. Is it working?",
     "translation": "",
     "context": "<<POS:09714334>>"
   },
   {
-    "key": "output|n_nYou_cup_a_palm_at_crotch_level_and_try_to_feel_out_the_heft|81623bd33eff",
-    "original": "\\n\\nYou cup a palm at crotch level and try to feel out the heft of your scrotum. Despite your fears, you’re gratified when you find that indeed, bit by bit, your pouch does seem to be expanding. The tightness eases, spreading sweet relief through your body. Stress and exhaustion fades from you as if your body is being massaged by the waves of cold radiating through your body.",
+    "key": "output|You_cup_a_palm_at_crotch_level_and_try_to_feel_out_the_heft_of_y|2ce86cee6627",
+    "original": "You cup a palm at crotch level and try to feel out the heft of your scrotum. Despite your fears, you’re gratified when you find that indeed, bit by bit, your pouch does seem to be expanding. The tightness eases, spreading sweet relief through your body. Stress and exhaustion fades from you as if your body is being massaged by the waves of cold radiating through your body.",
     "translation": "",
-    "context": "<<POS:09714673>>"
+    "context": "<<POS:09714677>>"
   },
   {
-    "key": "output|n_nYou_try_to_move_but_nearly_fall_over_finding_that_your_pc|392b879d5e49",
-    "original": "\\n\\nYou try to move, but nearly fall over, finding that your [pc.legOrLegs]",
+    "key": "output|You_try_to_move_but_nearly_fall_over_finding_that_your_pc_leg|22dcac75fc2a",
+    "original": "You try to move, but nearly fall over, finding that your [pc.legOrLegs]",
     "translation": "",
-    "context": "<<POS:09715062>>"
+    "context": "<<POS:09715066>>"
   },
   {
     "key": "output|has|51fc0a0e9eaa",
@@ -402,10 +402,10 @@
     "context": "<<POS:09715598>>"
   },
   {
-    "key": "output|n_nThe_heat_compresses_itself_pulling_the_warmth_of_your_body|c1fae44c7209",
-    "original": "\\n\\nThe heat compresses itself, pulling the warmth of your body firmly into your [pc.cocksLight]. The flesh of your member",
+    "key": "output|The_heat_compresses_itself_pulling_the_warmth_of_your_body_firm|1a20f397c2c8",
+    "original": "The heat compresses itself, pulling the warmth of your body firmly into your [pc.cocksLight]. The flesh of your member",
     "translation": "",
-    "context": "<<POS:09715994>>"
+    "context": "<<POS:09715998>>"
   },
   {
     "key": "output|s|c76bb6be2104",
@@ -444,10 +444,10 @@
     "context": "<<POS:09716743>>"
   },
   {
-    "key": "output|n_nWhen_the_heat_finally_fades_you_re_left_gasping_sweat_roll|7af22c7653d1",
-    "original": "\\n\\nWhen the heat finally fades, you’re left gasping, sweat rolling down your [pc.skinFurScales]. That was more intense than you were expecting for a beauty cream. Glancing down, you can tell at once that the balm did its job - your nuts are appreciably bigger, the taut globes seemingly begging for more.",
+    "key": "output|When_the_heat_finally_fades_you_re_left_gasping_sweat_rolling|1d86744367dd",
+    "original": "When the heat finally fades, you’re left gasping, sweat rolling down your [pc.skinFurScales]. That was more intense than you were expecting for a beauty cream. Glancing down, you can tell at once that the balm did its job - your nuts are appreciably bigger, the taut globes seemingly begging for more.",
     "translation": "",
-    "context": "<<POS:09716785>>"
+    "context": "<<POS:09716789>>"
   },
   {
     "key": "output|There_s_hardly_enough_salve_to_cover_much_more_than_a_small_frac|750fd5d549cb",
@@ -468,10 +468,10 @@
     "context": "<<POS:09717703>>"
   },
   {
-    "key": "output|n_nYour_balls_bloat_fattening_with_each_passing_second_as_if_b|94c88c06a90a",
-    "original": "\\n\\nYour balls bloat, fattening with each passing second as if ballooning from raw lust. The seemingly insignificant blob of beauty cream seems to have sent your body into overdrive as your swollen sack plumps with mounting speed. Vision blurring from the gurgling weight of your expansion, your [pc.chest] heaves with the needful gravity building between your [pc.thighs]. Your [pc.cocks] stiffen",
+    "key": "output|Your_balls_bloat_fattening_with_each_passing_second_as_if_ballo|0eb602f17e97",
+    "original": "Your balls bloat, fattening with each passing second as if ballooning from raw lust. The seemingly insignificant blob of beauty cream seems to have sent your body into overdrive as your swollen sack plumps with mounting speed. Vision blurring from the gurgling weight of your expansion, your [pc.chest] heaves with the needful gravity building between your [pc.thighs]. Your [pc.cocks] stiffen",
     "translation": "",
-    "context": "<<POS:09717941>>"
+    "context": "<<POS:09717945>>"
   },
   {
     "key": "output|s|cb17ed336faa",
@@ -516,16 +516,16 @@
     "context": "<<POS:09718567>>"
   },
   {
-    "key": "output|n_nAs_your_pouch_gains_inch_after_inch_you_just_can_t_help_but|8bcf696f613e",
-    "original": "\\n\\nAs your pouch gains inch after inch, you just can’t help but stroke your [pc.cocks], the [pc.cockHeads] dilating as your billowing load audibly churns within you. Running a hand nervously over your [pc.hair], you buck your [pc.hips] in time with your pumps. The noisome slapping of your [pc.balls] against the [pc.skinFurScales] of your thighs is just loud enough to drown out the moaning gasps that thoughtlessly slip from your trembling [pc.lips].",
+    "key": "output|As_your_pouch_gains_inch_after_inch_you_just_can_t_help_but_str|83bdf9c39605",
+    "original": "As your pouch gains inch after inch, you just can’t help but stroke your [pc.cocks], the [pc.cockHeads] dilating as your billowing load audibly churns within you. Running a hand nervously over your [pc.hair], you buck your [pc.hips] in time with your pumps. The noisome slapping of your [pc.balls] against the [pc.skinFurScales] of your thighs is just loud enough to drown out the moaning gasps that thoughtlessly slip from your trembling [pc.lips].",
     "translation": "",
-    "context": "<<POS:09718651>>"
+    "context": "<<POS:09718655>>"
   },
   {
-    "key": "output|n_nAs_your_orgasm_builds_to_the_point_of_inevitable_release_yo|c306c2a54907",
-    "original": "\\n\\nAs your orgasm builds to the point of inevitable release, you slide both hands to the weighty surface of your bloating balls. Fingers massaging and caressing your monumental cum-factories, the climax hits you like a kick in the chest. Gouts of [pc.cumColor] spoo arc up from your [pc.cocks], filling the air with your [pc.cumVisc] seed. Your testes lurch in your grip, their surface writhing with the rapture of production. Ropey strands splatter around you, some even splashing against your",
+    "key": "output|As_your_orgasm_builds_to_the_point_of_inevitable_release_you_sl|e3d96dd2620d",
+    "original": "As your orgasm builds to the point of inevitable release, you slide both hands to the weighty surface of your bloating balls. Fingers massaging and caressing your monumental cum-factories, the climax hits you like a kick in the chest. Gouts of [pc.cumColor] spoo arc up from your [pc.cocks], filling the air with your [pc.cumVisc] seed. Your testes lurch in your grip, their surface writhing with the rapture of production. Ropey strands splatter around you, some even splashing against your",
     "translation": "",
-    "context": "<<POS:09719115>>"
+    "context": "<<POS:09719119>>"
   },
   {
     "key": "output|pc_chest|230e382765d4",
@@ -546,10 +546,10 @@
     "context": "<<POS:09719691>>"
   },
   {
-    "key": "output|n_nWhen_finally_your_load_is_spent_you_take_stock_of_your_en|3fd28cfdb404",
-    "original": "\\n\\nWhen, finally, your load is spent, you take stock of your endowments. Empty Void, that’s a lot of growth! Somebody at J’ejune apparently didn’t bother trying their product on a test subject who already had massive testicles. With orbs like these, you’re likely to be mistaken for a series of small moons. At this size, you might want to think hard before trying another Suma Cream.",
+    "key": "output|When_finally_your_load_is_spent_you_take_stock_of_your_endowm|9384fc467239",
+    "original": "When, finally, your load is spent, you take stock of your endowments. Empty Void, that’s a lot of growth! Somebody at J’ejune apparently didn’t bother trying their product on a test subject who already had massive testicles. With orbs like these, you’re likely to be mistaken for a series of small moons. At this size, you might want to think hard before trying another Suma Cream.",
     "translation": "",
-    "context": "<<POS:09719758>>"
+    "context": "<<POS:09719762>>"
   },
   {
     "key": "output|It_takes_quite_a_bit_of_time_but_you_barely_manage_to_squeeze|fe2ed9582aac",
@@ -576,10 +576,10 @@
     "context": "<<POS:09720907>>"
   },
   {
-    "key": "output|n_nWith_deep_hot_breaths_you_begin_massaging_the_seemingly_un|2caa67e1d872",
-    "original": "\\n\\nWith deep, hot breaths, you begin massaging the seemingly unresponsive spheres between your [pc.thighs].",
+    "key": "output|With_deep_hot_breaths_you_begin_massaging_the_seemingly_unresp|7ba4b713514b",
+    "original": "With deep, hot breaths, you begin massaging the seemingly unresponsive spheres between your [pc.thighs].",
     "translation": "",
-    "context": "<<POS:09721128>>"
+    "context": "<<POS:09721132>>"
   },
   {
     "key": "output|The_pc_nipples_atop_your_pc_breasts_stiffen_inflamed_by_a|2204dd7fcb52",
@@ -600,16 +600,16 @@
     "context": "<<POS:09721558>>"
   },
   {
-    "key": "output|n_nWith_a_gulp_you_wrap_your_fingers_around_the_mass_of_your|14b8c8333f0e",
-    "original": "\\n\\nWith a gulp, you wrap your fingers around the mass of your [pc.cockBiggest] and immediately orgasm. A spout of [pc.cumVisc] cum shoots from the tender tip and with it, a small portion of the numbness fades. Your [pc.balls] swell before your eyes, growing with every arcing rope of [pc.cumColor] jizz that pumps from your body. Using both hands now, you eagerly seize your [pc.cocks] with renewed fervor, stroking the hyper-sensitive flesh to milk fresh gouts of [pc.cum], your testes ballooning with every clenching jet.",
+    "key": "output|With_a_gulp_you_wrap_your_fingers_around_the_mass_of_your_pc_c|3ce434870143",
+    "original": "With a gulp, you wrap your fingers around the mass of your [pc.cockBiggest] and immediately orgasm. A spout of [pc.cumVisc] cum shoots from the tender tip and with it, a small portion of the numbness fades. Your [pc.balls] swell before your eyes, growing with every arcing rope of [pc.cumColor] jizz that pumps from your body. Using both hands now, you eagerly seize your [pc.cocks] with renewed fervor, stroking the hyper-sensitive flesh to milk fresh gouts of [pc.cum], your testes ballooning with every clenching jet.",
     "translation": "",
-    "context": "<<POS:09721885>>"
+    "context": "<<POS:09721889>>"
   },
   {
-    "key": "output|n_nYou_get_light_headed_from_the_volume_of_your_rolling_climax|416b3c2d2234",
-    "original": "\\n\\nYou get light-headed from the volume of your rolling climax, wringing each thrilling [pc.cumGem] load from your [pc.groin] with dazed delight. Only when your [pc.cocks] seem",
+    "key": "output|You_get_light_headed_from_the_volume_of_your_rolling_climax_wri|f90d76b4003b",
+    "original": "You get light-headed from the volume of your rolling climax, wringing each thrilling [pc.cumGem] load from your [pc.groin] with dazed delight. Only when your [pc.cocks] seem",
     "translation": "",
-    "context": "<<POS:09722621>>"
+    "context": "<<POS:09722625>>"
   },
   {
     "key": "output|s|215e3cc77469",
@@ -636,13 +636,7 @@
     "context": "<<POS:09723443>>"
   },
   {
-    "key": "output|n_n|aae74fd28cb7",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:09723511>>"
-  },
-  {
-    "key": "output|Standing_up|fe437e377e4c",
+    "key": "output|Standing_up|d1ad4053d1bc",
     "original": "Standing up",
     "translation": "",
     "context": "<<POS:09723546>>"
@@ -669,7 +663,7 @@
     "key": "button|Next|51d83e4868a7",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09723866>>"
+    "context": "<<POS:09723866>> addButton(0,\"Next\",(function(){return a.returnToInventory(a)}))"
   },
   {
     "key": "output|blockHeader_Medical_Attention|a4c80701c75a",
@@ -684,40 +678,40 @@
     "context": "<<POS:09724125>>"
   },
   {
-    "key": "output|n_nYou_re_put_under_for_the_operation_and_when_you_awaken_your|5534e97d9ced",
-    "original": "\\n\\nYou’re put under for the operation and when you awaken, your mouth has a coppery tang in it and your head feels stuffed with ausar fluff. Your muscles are sluggish and unresponsive from the anaesthesia. <i>“Mirror,”</i> you mutter, weakly.",
+    "key": "output|You_re_put_under_for_the_operation_and_when_you_awaken_your_mou|3d35af0d291c",
+    "original": "You’re put under for the operation and when you awaken, your mouth has a coppery tang in it and your head feels stuffed with ausar fluff. Your muscles are sluggish and unresponsive from the anaesthesia. <i>“Mirror,”</i> you mutter, weakly.",
     "translation": "",
-    "context": "<<POS:09724640>>"
+    "context": "<<POS:09724644>>"
   },
   {
-    "key": "output|n_nThe_nursedroid_at_your_side_affects_an_apologetic_tone_i|d1b94d5d5fd7",
-    "original": "\\n\\nThe nursedroid at your side affects an apologetic tone. <i>“\"+pc.mf(\"Sir\",\"Madam\")+\", you must understand - the nerves were completely saturated...”</i> You cut her off before she can launch into a torrent of medical jargon.",
+    "key": "output|The_nursedroid_at_your_side_affects_an_apologetic_tone_i_pc|75f1e00c6a15",
+    "original": "The nursedroid at your side affects an apologetic tone. <i>“\"+pc.mf(\"Sir\",\"Madam\")+\", you must understand - the nerves were completely saturated...”</i> You cut her off before she can launch into a torrent of medical jargon.",
     "translation": "",
-    "context": "<<POS:09724894>>"
+    "context": "<<POS:09724898>>"
   },
   {
-    "key": "output|n_n_i_Mirror_i_you_demand_with_surprising_heat_as_your_bod|633b3fcdcaa3",
-    "original": "\\n\\n<i>“Mirror!”</i> you demand with surprising heat as your body gradually regains feeling. The physician hands you a small square of silvered glass and you wrap strengthening fingers around it to investigate your body. A groan rises from your chest as you see that your testicles are gone.",
+    "key": "output|i_Mirror_i_you_demand_with_surprising_heat_as_your_body_gr|f0226dabe5d5",
+    "original": "<i>“Mirror!”</i> you demand with surprising heat as your body gradually regains feeling. The physician hands you a small square of silvered glass and you wrap strengthening fingers around it to investigate your body. A groan rises from your chest as you see that your testicles are gone.",
     "translation": "",
-    "context": "<<POS:09725133>>"
+    "context": "<<POS:09725137>>"
   },
   {
-    "key": "output|n_n_i_This_isn_t_Terra_i_the_droid_whines_i_look_at_wha|2033345ad036",
-    "original": "\\n\\n<i>“This isn’t Terra,”</i> the droid whines, <i>“look at what I have to work with...”</i> you cut her off again by slamming the mirror down on a nearby tray, the mirror shattering. Pulling yourself unsteadily to your feet, you stagger off the operating table and weakly step away.",
+    "key": "output|i_This_isn_t_Terra_i_the_droid_whines_i_look_at_what_I|39f24adaa54a",
+    "original": "<i>“This isn’t Terra,”</i> the droid whines, <i>“look at what I have to work with...”</i> you cut her off again by slamming the mirror down on a nearby tray, the mirror shattering. Pulling yourself unsteadily to your feet, you stagger off the operating table and weakly step away.",
     "translation": "",
-    "context": "<<POS:09725435>>"
+    "context": "<<POS:09725439>>"
   },
   {
-    "key": "output|n_nYour_best_efforts_to_give_yourself_huge_thick_balls_ended_w|8eae57ff3fc2",
-    "original": "\\n\\nYour best efforts to give yourself huge, thick balls ended with nothing but smooth skin below your [pc.cocksLight]. It’s so ridiculous, you can’t help but laugh.",
+    "key": "output|Your_best_efforts_to_give_yourself_huge_thick_balls_ended_with|c0aced6b177a",
+    "original": "Your best efforts to give yourself huge, thick balls ended with nothing but smooth skin below your [pc.cocksLight]. It’s so ridiculous, you can’t help but laugh.",
     "translation": "",
-    "context": "<<POS:09725730>>"
+    "context": "<<POS:09725734>>"
   },
   {
     "key": "button|Next|989e2998be07",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09726023>>"
+    "context": "<<POS:09726023>> addButton(0,\"Next\",mainGameMenu)"
   },
   {
     "key": "output|blockHeader_Side_Effects|80f8efdf66d3",
@@ -738,22 +732,22 @@
     "context": "<<POS:09726576>>"
   },
   {
-    "key": "output|n_nYour_swollen_spheres_have_already_gained_two_inches_and_are|74956f79ed8a",
-    "original": "\\n\\nYour swollen spheres have already gained two inches and are still growing as your first orgasm begins building in your gut. Using both hands to squeeze your [pc.cockBiggest] to its sweltering climax, you rock your [pc.hips], bloated balls slapping your [pc.thighs] as your body tenses. The orgasm hits and you clench your eyes in rapture as your muscles spasm and clench, fingertips prickling with the intensity of your feverish release.",
+    "key": "output|Your_swollen_spheres_have_already_gained_two_inches_and_are_stil|37a51a9564fb",
+    "original": "Your swollen spheres have already gained two inches and are still growing as your first orgasm begins building in your gut. Using both hands to squeeze your [pc.cockBiggest] to its sweltering climax, you rock your [pc.hips], bloated balls slapping your [pc.thighs] as your body tenses. The orgasm hits and you clench your eyes in rapture as your muscles spasm and clench, fingertips prickling with the intensity of your feverish release.",
     "translation": "",
-    "context": "<<POS:09726727>>"
+    "context": "<<POS:09726731>>"
   },
   {
-    "key": "output|n_nYou_stand_trembling_for_a_moment_before_you_notice_somethin|1cb0028627d9",
-    "original": "\\n\\nYou stand, trembling for a moment before you notice something’s off. You open your eyes, mid-release and find that nothing is actually coming out of your [pc.cockHeadBiggest]. The distended tip twitches and throbs in the throes of ecstasy, but there is no cum! You blink, trying to focus through the orgasm and glance down. Your balls have gained another four inches, the orbs hanging heavily and yet still churning. You’ve heard of shooting blanks, but this is absurd.",
+    "key": "output|You_stand_trembling_for_a_moment_before_you_notice_something_s|4ac004dd5205",
+    "original": "You stand, trembling for a moment before you notice something’s off. You open your eyes, mid-release and find that nothing is actually coming out of your [pc.cockHeadBiggest]. The distended tip twitches and throbs in the throes of ecstasy, but there is no cum! You blink, trying to focus through the orgasm and glance down. Your balls have gained another four inches, the orbs hanging heavily and yet still churning. You’ve heard of shooting blanks, but this is absurd.",
     "translation": "",
-    "context": "<<POS:09727179>>"
+    "context": "<<POS:09727183>>"
   },
   {
-    "key": "output|n_nFiguring_the_first_take_was_just_the_latest_in_J_ejune_s_wei|fc8e73c10a6a",
-    "original": "\\n\\nFiguring the first take was just the latest in J’ejune’s weird side effects, you resolve to keep pumping until that [pc.cumColor] spunk finds its way out of your inflating body. Wrapping your fingers around the swollen cumvein of your tender member",
+    "key": "output|Figuring_the_first_take_was_just_the_latest_in_J_ejune_s_weird_s|12e916440d8c",
+    "original": "Figuring the first take was just the latest in J’ejune’s weird side effects, you resolve to keep pumping until that [pc.cumColor] spunk finds its way out of your inflating body. Wrapping your fingers around the swollen cumvein of your tender member",
     "translation": "",
-    "context": "<<POS:09727663>>"
+    "context": "<<POS:09727667>>"
   },
   {
     "key": "output|s|7b29a4fa1a21",
@@ -789,7 +783,7 @@
     "key": "button|Next|2793b50be950",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09728498>>"
+    "context": "<<POS:09728498>> addButton(0,\"Next\",(function(){return o.sumaBadEnd(\"growing\")}))"
   },
   {
     "key": "output|blockHeader_Side_Effects|80f8efdf66d3#1",
@@ -804,22 +798,22 @@
     "context": "<<POS:09728614>>"
   },
   {
-    "key": "output|n_nThe_weight_of_your_body_against_your_balls_should_by_all_ri|0b3e70cb91e1",
-    "original": "\\n\\nThe weight of your body against your balls should, by all rights, leave you in agony, but they’re far too massive to be inconvenienced by something as slight as your [pc.height] frame. The pressure actually feels more pleasurable than it ought to and you find that squirming atop your titanic balls is enough to provoke another phantom orgasm, even without touching your [pc.cocks]. It’s just as well, you’re too tired to keep pumping. Surrendering to the cascade of juiceless spasms that accompany your impotent peaks, time seems to lose all meaning. Minutes, hours pass while you writhe atop an ever expanding pouch as large now as a speeder.",
+    "key": "output|The_weight_of_your_body_against_your_balls_should_by_all_rights|6431d8a110b4",
+    "original": "The weight of your body against your balls should, by all rights, leave you in agony, but they’re far too massive to be inconvenienced by something as slight as your [pc.height] frame. The pressure actually feels more pleasurable than it ought to and you find that squirming atop your titanic balls is enough to provoke another phantom orgasm, even without touching your [pc.cocks]. It’s just as well, you’re too tired to keep pumping. Surrendering to the cascade of juiceless spasms that accompany your impotent peaks, time seems to lose all meaning. Minutes, hours pass while you writhe atop an ever expanding pouch as large now as a speeder.",
     "translation": "",
-    "context": "<<POS:09729102>>"
+    "context": "<<POS:09729106>>"
   },
   {
-    "key": "output|n_nYour_mind_wanders_amid_the_lusty_haze_that_threatens_to_obli|fcaa35fc8117",
-    "original": "\\n\\nYour mind wanders amid the lusty haze that threatens to obliterate your capacity for higher thought and a vague idea floats into your head. Reaching an arm down, you snake your fingers around to your [pc.pussyOrAsshole]. You’ve been so focused on your [pc.cocks] and tapping the glutted bounty of your over-fattened sack, that you’d nearly forgotten the rest of your body entirely! Fingertips dancing around fleshy inlet to your inner depths, you waste no time before inserting one finger and then another. The too-tense pressure of your globes eases off for a moment as fresh bliss weaves up your spine.",
+    "key": "output|Your_mind_wanders_amid_the_lusty_haze_that_threatens_to_oblitera|5d9319d4f1a5",
+    "original": "Your mind wanders amid the lusty haze that threatens to obliterate your capacity for higher thought and a vague idea floats into your head. Reaching an arm down, you snake your fingers around to your [pc.pussyOrAsshole]. You’ve been so focused on your [pc.cocks] and tapping the glutted bounty of your over-fattened sack, that you’d nearly forgotten the rest of your body entirely! Fingertips dancing around fleshy inlet to your inner depths, you waste no time before inserting one finger and then another. The too-tense pressure of your globes eases off for a moment as fresh bliss weaves up your spine.",
     "translation": "",
-    "context": "<<POS:09729761>>"
+    "context": "<<POS:09729765>>"
   },
   {
-    "key": "output|n_nWith_the_pressure_removed_your_long_delayed_discharge_final|b395a51833a0",
-    "original": "\\n\\nWith the pressure removed, your long-delayed discharge finally peaks. The sore girth of your [pc.cocks] flood",
+    "key": "output|With_the_pressure_removed_your_long_delayed_discharge_finally_p|89badc8db8b6",
+    "original": "With the pressure removed, your long-delayed discharge finally peaks. The sore girth of your [pc.cocks] flood",
     "translation": "",
-    "context": "<<POS:09730380>>"
+    "context": "<<POS:09730384>>"
   },
   {
     "key": "output|s|d3879acad121",
@@ -837,7 +831,7 @@
     "key": "button|Next|b30a6400a159",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09731604>>"
+    "context": "<<POS:09731604>> addButton(0,\"Next\",(function(){return o.sumaBadEnd(\"bad end\")}))"
   },
   {
     "key": "output|blockHeader_Cream_Filled|811476d48417",
@@ -852,22 +846,22 @@
     "context": "<<POS:09731740>>"
   },
   {
-    "key": "output|n_nYour_cousin_sends_a_sympathetic_though_obviously_gloating_me|bda6754aee3e",
-    "original": "\\n\\nYour cousin sends a sympathetic though obviously gloating message, assuring you that you’ll be very well provided for. You can even help your father’s company, the note assures you. For one, Steele Tech has a very good case against J’ejune Pharmaceuticals. The lawyers think they can get so much that the suit should put the beauty products mogul under for good. So at least you’ll have some measure of justice.",
+    "key": "output|Your_cousin_sends_a_sympathetic_though_obviously_gloating_messag|b1c4a9b9994a",
+    "original": "Your cousin sends a sympathetic though obviously gloating message, assuring you that you’ll be very well provided for. You can even help your father’s company, the note assures you. For one, Steele Tech has a very good case against J’ejune Pharmaceuticals. The lawyers think they can get so much that the suit should put the beauty products mogul under for good. So at least you’ll have some measure of justice.",
     "translation": "",
-    "context": "<<POS:09732392>>"
+    "context": "<<POS:09732396>>"
   },
   {
-    "key": "output|n_nPlus_the_note_goes_on_the_limitless_spunk_factories_that_i|e3e808428506",
-    "original": "\\n\\nPlus, the note goes on, the limitless spunk factories that immobilize you will be helpful in providing a steady stream of raw genetic material. Other companies like Xenogen will pay top dollar for such plentiful samples and maybe - one day - they’ll reverse engineer something to fix your condition. In the meantime, a special ship-sized cockmilker is in production, just for you.",
+    "key": "output|Plus_the_note_goes_on_the_limitless_spunk_factories_that_immob|25ea0eae14a7",
+    "original": "Plus, the note goes on, the limitless spunk factories that immobilize you will be helpful in providing a steady stream of raw genetic material. Other companies like Xenogen will pay top dollar for such plentiful samples and maybe - one day - they’ll reverse engineer something to fix your condition. In the meantime, a special ship-sized cockmilker is in production, just for you.",
     "translation": "",
-    "context": "<<POS:09732818>>"
+    "context": "<<POS:09732822>>"
   },
   {
-    "key": "output|n_nYou_feel_like_you_should_be_more_upset_than_you_are_but_hon|255648bf3920",
-    "original": "\\n\\nYou feel like you should be more upset than you are, but honestly, you’re really looking forward to that milker. The thought of endless gallons being pumped out of your room-sized testes is enough to send you into another lusty haze.",
+    "key": "output|You_feel_like_you_should_be_more_upset_than_you_are_but_honestl|a18df5e2d731",
+    "original": "You feel like you should be more upset than you are, but honestly, you’re really looking forward to that milker. The thought of endless gallons being pumped out of your room-sized testes is enough to send you into another lusty haze.",
     "translation": "",
-    "context": "<<POS:09733213>>"
+    "context": "<<POS:09733217>>"
   },
   {
     "key": "output|ERROR_The_response_concat_e_not_found|7d3812969c02",

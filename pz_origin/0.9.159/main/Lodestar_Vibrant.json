@@ -9,7 +9,7 @@
     "key": "name.show|Pleasure_Palette|568b3036a1fa",
     "original": "Pleasure Palette",
     "translation": "",
-    "context": "<<POS:09217894>>"
+    "context": "<<POS:09217894>> showName(\"Pleasure Palette\")"
   },
   {
     "key": "output|You_retrieve_the_canister_from_your_inventory_and_give_it_a_quic|cc787dd81513",
@@ -27,55 +27,55 @@
     "key": "button|Terran|fde8d2418012",
     "original": "“Terran”",
     "translation": "",
-    "context": "<<POS:09218428>>"
+    "context": "<<POS:09218428>> addButton(0,\"“Terran”\",(function(){return window.rbgSelColor(e,\"terran\",void 0,t.partMenu,t.backMenu,null,\"\",t)}))"
   },
   {
     "key": "button|Vibrant|24acd9ab72ee",
     "original": "Vibrant",
     "translation": "",
-    "context": "<<POS:09218543>>"
+    "context": "<<POS:09218543>> addButton(1,\"Vibrant\",(function(){return window.rbgSelColor(e,\"rainbow\",void 0,t.partMenu,t.backMenu,null,\"\",t)}))"
   },
   {
     "key": "button|Metallic|60635ec5722b",
     "original": "Metallic",
     "translation": "",
-    "context": "<<POS:09218658>>"
+    "context": "<<POS:09218658>> addButton(2,\"Metallic\",(function(){return window.rbgSelColor(e,\"metallic\",void 0,t.partMenu,t.backMenu,null,\"\",t)}))"
   },
   {
     "key": "button|Glowing|429d796eb23f",
     "original": "Glowing",
     "translation": "",
-    "context": "<<POS:09218775>>"
+    "context": "<<POS:09218775>> addButton(3,\"Glowing\",(function(){return window.rbgSelColor(e,\"glowing\",void 0,t.partMenu,t.backMenu,null,\"\",t)}))"
   },
   {
     "key": "button|Gem|21bde52b1c80",
     "original": "Gem",
     "translation": "",
-    "context": "<<POS:09218890>>"
+    "context": "<<POS:09218890>> addButton(4,\"Gem\",(function(){return window.rbgSelColor(e,\"gemstone\",void 0,t.partMenu,t.backMenu,null,\"\",t)}))"
   },
   {
     "key": "button|Back|19adb4e0953c",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:09219003>>"
+    "context": "<<POS:09219003>> addButton(14,\"Back\",(function(){return t.rbgCancel(t)}))"
   },
   {
     "key": "name.show|Pleasure_Palette|22a688393c08",
     "original": "Pleasure Palette",
     "translation": "",
-    "context": "<<POS:09219120>>"
+    "context": "<<POS:09219120>> showName(\"Pleasure Palette\")"
   },
   {
-    "key": "output|You_put_the_permapaint_back_into_your_inventory_n_n|5b7b0baaa3a5",
-    "original": "You put the permapaint back into your inventory.\\n\\n",
+    "key": "output|You_put_the_permapaint_back_into_your_inventory|967e08c67d57",
+    "original": "You put the permapaint back into your inventory.",
     "translation": "",
     "context": "<<POS:09219166>>"
   },
   {
-    "key": "button|Next|bc6e5dc51d3b",
+    "key": "button|Next|739a0dafcb4d",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09219263>>"
+    "context": "<<POS:09219263>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
   },
   {
     "key": "output|blockHeader_Select_Part|0e2efcc3c4c3",
@@ -93,91 +93,211 @@
     "key": "button|Nipples|25700f316ae5",
     "original": "Nipples",
     "translation": "",
-    "context": "<<POS:09219686>>"
+    "context": "<<POS:09219686>> addDisabledButton(0,\"Nipples\",\"Nipples\",\"Your [pc.nipplesNoun] are already \"+o+\"!\")"
   },
   {
-    "key": "button|Nipples|e53b1c23466e",
+    "key": "button.hover|Your_pc_nipplesNoun_are_already|76946f24113e",
+    "original": "Your [pc.nipplesNoun] are already ",
+    "translation": "",
+    "context": "<<POS:09219706>> addDisabledButton(0,\"Nipples\",\"Nipples\",\"Your [pc.nipplesNoun] are already \"+o+\"!\")"
+  },
+  {
+    "key": "button|Nipples|9195bbfb81a1",
     "original": "Nipples",
     "translation": "",
-    "context": "<<POS:09219762>>"
+    "context": "<<POS:09219762>> addButton(0,\"Nipples\",(function(){return n.permaPaintNipples(e,t,o,n)}),\"Nipples\",\"Change the color of your [pc.nipplesNoun] to \"+o+\".\")"
   },
   {
-    "key": "button|Nipples|e53b1c23466e#1",
+    "key": "button.hover|Nipples|9195bbfb81a1",
     "original": "Nipples",
     "translation": "",
-    "context": "<<POS:09219907>>"
+    "context": "<<POS:09219822>> addButton(0,\"Nipples\",(function(){return n.permaPaintNipples(e,t,o,n)}),\"Nipples\",\"Change the color of your [pc.nipplesNoun] to \"+o+\".\")"
   },
   {
-    "key": "button|Penis|f4ca5170f87c",
+    "key": "button.tooltip|Change_the_color_of_your_pc_nipplesNoun_to|06543ceebecf",
+    "original": "Change the color of your [pc.nipplesNoun] to ",
+    "translation": "",
+    "context": "<<POS:09219832>> addButton(0,\"Nipples\",(function(){return n.permaPaintNipples(e,t,o,n)}),\"Nipples\",\"Change the color of your [pc.nipplesNoun] to \"+o+\".\")"
+  },
+  {
+    "key": "button|Nipples|68236a6d88e0",
+    "original": "Nipples",
+    "translation": "",
+    "context": "<<POS:09219907>> addDisabledButton(0,\"Nipples\",\"Nipples\",\"You need nipples for this.\")"
+  },
+  {
+    "key": "button.hover|You_need_nipples_for_this|671834d6274d",
+    "original": "You need nipples for this.",
+    "translation": "",
+    "context": "<<POS:09219927>> addDisabledButton(0,\"Nipples\",\"Nipples\",\"You need nipples for this.\")"
+  },
+  {
+    "key": "button|Penis|e520bcf2b252",
     "original": "Penis",
     "translation": "",
-    "context": "<<POS:09220033>>"
+    "context": "<<POS:09220033>> addDisabledButton(1,\"Penis\",\"Penis\",\"Your [pc.cockNoun 0] is already \"+o+\"!\")"
   },
   {
-    "key": "button|Penis|6af7f47158d5",
+    "key": "button.hover|Your_pc_cockNoun_0_is_already|7c795a3a0057",
+    "original": "Your [pc.cockNoun 0] is already ",
+    "translation": "",
+    "context": "<<POS:09220049>> addDisabledButton(1,\"Penis\",\"Penis\",\"Your [pc.cockNoun 0] is already \"+o+\"!\")"
+  },
+  {
+    "key": "button|Penis|c973c4ff140b",
     "original": "Penis",
     "translation": "",
-    "context": "<<POS:09220103>>"
+    "context": "<<POS:09220103>> addButton(1,\"Penis\",(function(){return n.permaPaintPenis(e,t,o,0,n)}),\"Penis\",\"Change the color of your [pc.cockNoun 0] to \"+o+\".\")"
   },
   {
-    "key": "button|Penis|6af7f47158d5#1",
+    "key": "button.hover|Penis|c973c4ff140b",
     "original": "Penis",
     "translation": "",
-    "context": "<<POS:09220235>>"
+    "context": "<<POS:09220161>> addButton(1,\"Penis\",(function(){return n.permaPaintPenis(e,t,o,0,n)}),\"Penis\",\"Change the color of your [pc.cockNoun 0] to \"+o+\".\")"
   },
   {
-    "key": "button|Penis|6af7f47158d5#2",
+    "key": "button.tooltip|Change_the_color_of_your_pc_cockNoun_0_to|af15aa48c61e",
+    "original": "Change the color of your [pc.cockNoun 0] to ",
+    "translation": "",
+    "context": "<<POS:09220169>> addButton(1,\"Penis\",(function(){return n.permaPaintPenis(e,t,o,0,n)}),\"Penis\",\"Change the color of your [pc.cockNoun 0] to \"+o+\".\")"
+  },
+  {
+    "key": "button|Penis|120b8301bae4",
     "original": "Penis",
     "translation": "",
-    "context": "<<POS:09220349>>"
+    "context": "<<POS:09220235>> addButton(1,\"Penis\",(function(){return n.penisSelect(e,t,o,n)}),\"Penis\",\"Select which penis to recolor.\")"
   },
   {
-    "key": "button|Vagina|c05977cfd0ec",
+    "key": "button.hover|Penis|120b8301bae4",
+    "original": "Penis",
+    "translation": "",
+    "context": "<<POS:09220287>> addButton(1,\"Penis\",(function(){return n.penisSelect(e,t,o,n)}),\"Penis\",\"Select which penis to recolor.\")"
+  },
+  {
+    "key": "button.tooltip|Select_which_penis_to_recolor|9617e2ed6fc7",
+    "original": "Select which penis to recolor.",
+    "translation": "",
+    "context": "<<POS:09220295>> addButton(1,\"Penis\",(function(){return n.penisSelect(e,t,o,n)}),\"Penis\",\"Select which penis to recolor.\")"
+  },
+  {
+    "key": "button|Penis|77935ee9bc23",
+    "original": "Penis",
+    "translation": "",
+    "context": "<<POS:09220349>> addDisabledButton(1,\"Penis\",\"Penis\",\"You need a penis for this.\")"
+  },
+  {
+    "key": "button.hover|You_need_a_penis_for_this|12f1b277012e",
+    "original": "You need a penis for this.",
+    "translation": "",
+    "context": "<<POS:09220365>> addDisabledButton(1,\"Penis\",\"Penis\",\"You need a penis for this.\")"
+  },
+  {
+    "key": "button|Vagina|9adb815ff741",
     "original": "Vagina",
     "translation": "",
-    "context": "<<POS:09220479>>"
+    "context": "<<POS:09220479>> addDisabledButton(2,\"Vagina\",\"Vagina\",\"Your [pc.vaginaNoun 0] is already \"+o+\"!\")"
   },
   {
-    "key": "button|Vagina|5aecdc930f21",
+    "key": "button.hover|Your_pc_vaginaNoun_0_is_already|f1e759934dae",
+    "original": "Your [pc.vaginaNoun 0] is already ",
+    "translation": "",
+    "context": "<<POS:09220497>> addDisabledButton(2,\"Vagina\",\"Vagina\",\"Your [pc.vaginaNoun 0] is already \"+o+\"!\")"
+  },
+  {
+    "key": "button|Vagina|a0e7b1974045",
     "original": "Vagina",
     "translation": "",
-    "context": "<<POS:09220553>>"
+    "context": "<<POS:09220553>> addButton(2,\"Vagina\",(function(){return n.permaPaintVagina(e,t,o,0,n)}),\"Vagina\",\"Change the color of your [pc.vaginaNoun 0] to \"+o+\".\")"
   },
   {
-    "key": "button|Vagina|5aecdc930f21#1",
+    "key": "button.hover|Vagina|a0e7b1974045",
     "original": "Vagina",
     "translation": "",
-    "context": "<<POS:09220690>>"
+    "context": "<<POS:09220613>> addButton(2,\"Vagina\",(function(){return n.permaPaintVagina(e,t,o,0,n)}),\"Vagina\",\"Change the color of your [pc.vaginaNoun 0] to \"+o+\".\")"
   },
   {
-    "key": "button|Vagina|5aecdc930f21#2",
+    "key": "button.tooltip|Change_the_color_of_your_pc_vaginaNoun_0_to|5ade291dd520",
+    "original": "Change the color of your [pc.vaginaNoun 0] to ",
+    "translation": "",
+    "context": "<<POS:09220622>> addButton(2,\"Vagina\",(function(){return n.permaPaintVagina(e,t,o,0,n)}),\"Vagina\",\"Change the color of your [pc.vaginaNoun 0] to \"+o+\".\")"
+  },
+  {
+    "key": "button|Vagina|8e78fc2ab0a2",
     "original": "Vagina",
     "translation": "",
-    "context": "<<POS:09220808>>"
+    "context": "<<POS:09220690>> addButton(2,\"Vagina\",(function(){return n.vaginaSelect(e,t,o,n)}),\"Vagina\",\"Select which vagina to recolor.\")"
   },
   {
-    "key": "button|Tail_Genital|85da353d2910",
+    "key": "button.hover|Vagina|8e78fc2ab0a2",
+    "original": "Vagina",
+    "translation": "",
+    "context": "<<POS:09220744>> addButton(2,\"Vagina\",(function(){return n.vaginaSelect(e,t,o,n)}),\"Vagina\",\"Select which vagina to recolor.\")"
+  },
+  {
+    "key": "button.tooltip|Select_which_vagina_to_recolor|98ed5561f810",
+    "original": "Select which vagina to recolor.",
+    "translation": "",
+    "context": "<<POS:09220753>> addButton(2,\"Vagina\",(function(){return n.vaginaSelect(e,t,o,n)}),\"Vagina\",\"Select which vagina to recolor.\")"
+  },
+  {
+    "key": "button|Vagina|84e67147af7f",
+    "original": "Vagina",
+    "translation": "",
+    "context": "<<POS:09220808>> addDisabledButton(2,\"Vagina\",\"Vagina\",\"You need a vagina for this.\")"
+  },
+  {
+    "key": "button.hover|You_need_a_vagina_for_this|f4983b8e4556",
+    "original": "You need a vagina for this.",
+    "translation": "",
+    "context": "<<POS:09220826>> addDisabledButton(2,\"Vagina\",\"Vagina\",\"You need a vagina for this.\")"
+  },
+  {
+    "key": "button|Tail_Genital|93947caf405c",
     "original": "Tail Genital",
     "translation": "",
-    "context": "<<POS:09220998>>"
+    "context": "<<POS:09220998>> addDisabledButton(3,\"Tail Genital\",\"Tail Genital\",\"Your tail genital\"+(1===e.tailCount?\" is\":\"ia are\")+\" already \"+o+\"!\")"
   },
   {
-    "key": "button|Tail_Genital|663f9fdc4bd1",
+    "key": "button.hover|Your_tail_genital|05c78c5a44e6",
+    "original": "Your tail genital",
+    "translation": "",
+    "context": "<<POS:09221028>> addDisabledButton(3,\"Tail Genital\",\"Tail Genital\",\"Your tail genital\"+(1===e.tailCount?\" is\":\"ia are\")+\" already \"+o+\"!\")"
+  },
+  {
+    "key": "button|Tail_Genital|7b6d8b71a619",
     "original": "Tail Genital",
     "translation": "",
-    "context": "<<POS:09221112>>"
+    "context": "<<POS:09221112>> addButton(3,\"Tail Genital\",(function(){return n.permaPaintTailGenital(e,t,o,n)}),\"Tail Genital\",\"Change the color of your tail genital\"+(1===e.tailCount?\"\":\"ia\")+\" to \"+o+\".\")"
   },
   {
-    "key": "button|Tail_Genital|663f9fdc4bd1#1",
+    "key": "button.hover|Tail_Genital|7b6d8b71a619",
     "original": "Tail Genital",
     "translation": "",
-    "context": "<<POS:09221301>>"
+    "context": "<<POS:09221181>> addButton(3,\"Tail Genital\",(function(){return n.permaPaintTailGenital(e,t,o,n)}),\"Tail Genital\",\"Change the color of your tail genital\"+(1===e.tailCount?\"\":\"ia\")+\" to \"+o+\".\")"
   },
   {
-    "key": "button|Back|3878104793c4",
+    "key": "button.tooltip|Change_the_color_of_your_tail_genital|1e6cac67098c",
+    "original": "Change the color of your tail genital",
+    "translation": "",
+    "context": "<<POS:09221196>> addButton(3,\"Tail Genital\",(function(){return n.permaPaintTailGenital(e,t,o,n)}),\"Tail Genital\",\"Change the color of your tail genital\"+(1===e.tailCount?\"\":\"ia\")+\" to \"+o+\".\")"
+  },
+  {
+    "key": "button|Tail_Genital|83443bce7f4a",
+    "original": "Tail Genital",
+    "translation": "",
+    "context": "<<POS:09221301>> addDisabledButton(3,\"Tail Genital\",\"Tail Genital\",\"You need a tail genital for this.\")"
+  },
+  {
+    "key": "button.hover|You_need_a_tail_genital_for_this|e34f9bde575c",
+    "original": "You need a tail genital for this.",
+    "translation": "",
+    "context": "<<POS:09221331>> addDisabledButton(3,\"Tail Genital\",\"Tail Genital\",\"You need a tail genital for this.\")"
+  },
+  {
+    "key": "button|Back|5f4366b85c87",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:09221381>>"
+    "context": "<<POS:09221381>> addButton(14,\"Back\",(function(){return window.rbgSelColor(e,t,void 0,n.partMenu,n.backMenu,null,\"\",n)}))"
   },
   {
     "key": "output|blockHeader_Select_Penis|a5949f328205",
@@ -186,22 +306,22 @@
     "context": "<<POS:09221546>>"
   },
   {
-    "key": "output|Which_penis_do_you_choose_n|65bce2cc9541",
-    "original": "Which penis do you choose?\\n",
+    "key": "output|Which_penis_do_you_choose|dd436e750184",
+    "original": "Which penis do you choose?",
     "translation": "",
     "context": "<<POS:09221602>>"
   },
   {
-    "key": "button|Back|831f9ff01243",
+    "key": "button|Back|c68f28165efd",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:09221704>>"
+    "context": "<<POS:09221704>> addButton(n,\"Back\",(function(){return a.partMenu(e,t,o,-1,a)}))"
   },
   {
-    "key": "output|n_b_h_m_capitalize_h_m_numToOrdinal_i_1_Cock_b|809b8b4463a5",
-    "original": "\\n<b>\"+h.m.capitalize(h.m.numToOrdinal(i+1))+\" Cock:</b>",
+    "key": "output|b_h_m_capitalize_h_m_numToOrdinal_i_1_Cock_b|94f8041d4ab6",
+    "original": "<b>\"+h.m.capitalize(h.m.numToOrdinal(i+1))+\" Cock:</b>",
     "translation": "",
-    "context": "<<POS:09221768>>"
+    "context": "<<POS:09221770>>"
   },
   {
     "key": "output|GLOBAL_FLAG_NAMES_e_cocks_i_flags_s|768cf93c5cd5",
@@ -225,25 +345,37 @@
     "key": "button|Cock|847e2ba0b2ab",
     "original": "Cock ",
     "translation": "",
-    "context": "<<POS:09222130>>"
+    "context": "<<POS:09222130>> addDisabledButton(n,\"Cock \"+(i+1),h.m.capitalize(h.m.numToOrdinal(i+1))+\" Cock\",\"Your [pc.cockNoun \"+i+\"] is already \"+o+\"!\")"
   },
   {
-    "key": "button|Cock|16b77d5860da",
+    "key": "button.hover|Your_pc_cockNoun|544eedf3861c",
+    "original": "Your [pc.cockNoun ",
+    "translation": "",
+    "context": "<<POS:09222190>> addDisabledButton(n,\"Cock \"+(i+1),h.m.capitalize(h.m.numToOrdinal(i+1))+\" Cock\",\"Your [pc.cockNoun \"+i+\"] is already \"+o+\"!\")"
+  },
+  {
+    "key": "button|Cock|59e8c6a403f2",
     "original": "Cock ",
     "translation": "",
-    "context": "<<POS:09222248>>"
+    "context": "<<POS:09222248>> addButton(n,\"Cock \"+(i+1),(function(){return a.permaPaintPenis(e,t,o,i,a)}),h.m.capitalize(h.m.numToOrdinal(i+1))+\" Cock\",\"Change the color of your [pc.cockNoun \"+i+\"] to \"+o+\".\")"
   },
   {
-    "key": "button|Back|c883e11ccf57",
+    "key": "button.tooltip|Change_the_color_of_your_pc_cockNoun|95d0c5738d1c",
+    "original": "Change the color of your [pc.cockNoun ",
+    "translation": "",
+    "context": "<<POS:09222358>> addButton(n,\"Cock \"+(i+1),(function(){return a.permaPaintPenis(e,t,o,i,a)}),h.m.capitalize(h.m.numToOrdinal(i+1))+\" Cock\",\"Change the color of your [pc.cockNoun \"+i+\"] to \"+o+\".\")"
+  },
+  {
+    "key": "button|Back|e8250e32a7ac",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:09222495>>"
+    "context": "<<POS:09222495>> addButton(n,\"Back\",(function(){return a.partMenu(e,t,o,-1,a)}))"
   },
   {
     "key": "button|Back|8377b4609270",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:09222592>>"
+    "context": "<<POS:09222592>> addButton(14,\"Back\",(function(){return a.partMenu(e,t,o,-1,a)}))"
   },
   {
     "key": "output|blockHeader_Select_Vagina|9e60df129362",
@@ -252,22 +384,22 @@
     "context": "<<POS:09222718>>"
   },
   {
-    "key": "output|Which_vagina_do_you_choose_n|89258c4e65d5",
-    "original": "Which vagina do you choose?\\n",
+    "key": "output|Which_vagina_do_you_choose|0ab23d36005d",
+    "original": "Which vagina do you choose?",
     "translation": "",
     "context": "<<POS:09222775>>"
   },
   {
-    "key": "button|Back|118adbaa5054",
+    "key": "button|Back|58aff7c7ecc1",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:09222878>>"
+    "context": "<<POS:09222878>> addButton(n,\"Back\",(function(){return a.partMenu(e,t,o,-1,a)}))"
   },
   {
-    "key": "output|n_b_h_m_capitalize_h_m_numToOrdinal_i_1_Vagina_b|1a62e7a5904a",
-    "original": "\\n<b>\"+h.m.capitalize(h.m.numToOrdinal(i+1))+\" Vagina:</b>",
+    "key": "output|b_h_m_capitalize_h_m_numToOrdinal_i_1_Vagina_b|f11c00b24298",
+    "original": "<b>\"+h.m.capitalize(h.m.numToOrdinal(i+1))+\" Vagina:</b>",
     "translation": "",
-    "context": "<<POS:09222942>>"
+    "context": "<<POS:09222944>>"
   },
   {
     "key": "output|GLOBAL_FLAG_NAMES_e_vaginas_i_flags_s|32b3d8bd312c",
@@ -291,31 +423,43 @@
     "key": "button|Vagina|fb765ed9ca6b",
     "original": "Vagina ",
     "translation": "",
-    "context": "<<POS:09223325>>"
+    "context": "<<POS:09223325>> addDisabledButton(n,\"Vagina \"+(i+1),h.m.capitalize(h.m.numToOrdinal(i+1))+\" Vagina\",\"Your [pc.vaginaNoun \"+i+\"] is already \"+o+\"!\")"
   },
   {
-    "key": "button|Vagina|e9177b2ddf10",
+    "key": "button.hover|Your_pc_vaginaNoun|3813750c1d0f",
+    "original": "Your [pc.vaginaNoun ",
+    "translation": "",
+    "context": "<<POS:09223389>> addDisabledButton(n,\"Vagina \"+(i+1),h.m.capitalize(h.m.numToOrdinal(i+1))+\" Vagina\",\"Your [pc.vaginaNoun \"+i+\"] is already \"+o+\"!\")"
+  },
+  {
+    "key": "button|Vagina|3671a8885cea",
     "original": "Vagina ",
     "translation": "",
-    "context": "<<POS:09223449>>"
+    "context": "<<POS:09223449>> addButton(n,\"Vagina \"+(i+1),(function(){return a.permaPaintVagina(e,t,o,i,a)}),h.m.capitalize(h.m.numToOrdinal(i+1))+\" Vagina\",\"Change the color of your [pc.vaginaNoun \"+i+\"] to \"+o+\".\")"
   },
   {
-    "key": "button|Back|0ef15c846aee",
+    "key": "button.tooltip|Change_the_color_of_your_pc_vaginaNoun|f25aa7eb18ea",
+    "original": "Change the color of your [pc.vaginaNoun ",
+    "translation": "",
+    "context": "<<POS:09223564>> addButton(n,\"Vagina \"+(i+1),(function(){return a.permaPaintVagina(e,t,o,i,a)}),h.m.capitalize(h.m.numToOrdinal(i+1))+\" Vagina\",\"Change the color of your [pc.vaginaNoun \"+i+\"] to \"+o+\".\")"
+  },
+  {
+    "key": "button|Back|8a55f3a6a540",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:09223707>>"
+    "context": "<<POS:09223707>> addButton(n,\"Back\",(function(){return a.partMenu(e,t,o,-1,a)}))"
   },
   {
     "key": "button|Back|8377b4609270#1",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:09223806>>"
+    "context": "<<POS:09223806>> addButton(14,\"Back\",(function(){return a.partMenu(e,t,o,-1,a)}))"
   },
   {
     "key": "button|Next|6d18801ef4fb",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:09223916>>"
+    "context": "<<POS:09223916>> addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
   },
   {
     "key": "output|blockHeader_Permapaint_Nipples|af322624a2b4",
@@ -342,10 +486,10 @@
     "context": "<<POS:09224792>>"
   },
   {
-    "key": "output|n_nWhile_you_re_hardly_surprised_you_can_t_help_but_shake_your|148fe7c59afe",
-    "original": "\\n\\nWhile you’re hardly surprised, you can’t help but shake your head as [pc.milkNoun] begins to bead upon your [pc.nipples]. Smirking, you continue to play with your [pc.milkyNipples],",
+    "key": "output|While_you_re_hardly_surprised_you_can_t_help_but_shake_your_hea|fe25a7552680",
+    "original": "While you’re hardly surprised, you can’t help but shake your head as [pc.milkNoun] begins to bead upon your [pc.nipples]. Smirking, you continue to play with your [pc.milkyNipples],",
     "translation": "",
-    "context": "<<POS:09225084>>"
+    "context": "<<POS:09225088>>"
   },
   {
     "key": "output|fingering|ba86a2ec762b",
@@ -384,10 +528,10 @@
     "context": "<<POS:09225760>>"
   },
   {
-    "key": "output|n_nYour_ministrations_only_grow_more_fierce_as_the_warmth_radia|0fdd9d78bd12",
-    "original": "\\n\\nYour ministrations only grow more fierce as the warmth radiating through your [pc.fullChest] grows stronger, matching the pace at which your",
+    "key": "output|Your_ministrations_only_grow_more_fierce_as_the_warmth_radiating|046a811aeaa3",
+    "original": "Your ministrations only grow more fierce as the warmth radiating through your [pc.fullChest] grows stronger, matching the pace at which your",
     "translation": "",
-    "context": "<<POS:09226022>>"
+    "context": "<<POS:09226026>>"
   },
   {
     "key": "output|gradually_scintillating|8f20e45d2d2e",
@@ -426,10 +570,10 @@
     "context": "<<POS:09226518>>"
   },
   {
-    "key": "output|n_nAlthough_ignored_due_to_your_nipple_related_attentions_your|dc1f0adee657",
-    "original": "\\n\\nAlthough ignored due to your nipple-related attentions, your",
+    "key": "output|Although_ignored_due_to_your_nipple_related_attentions_your|eb91c7de2596",
+    "original": "Although ignored due to your nipple-related attentions, your",
     "translation": "",
-    "context": "<<POS:09226607>>"
+    "context": "<<POS:09226611>>"
   },
   {
     "key": "output|pc_cunts|c8a3eb2f8d7e",
@@ -528,16 +672,16 @@
     "context": "<<POS:09227696>>"
   },
   {
-    "key": "output|n_nHowever_much_as_you_try_you_re_left_frustrated_as_you_real|8f89af061be5",
-    "original": "\\n\\nHowever, much as you try, you’re left frustrated as you realize that your nipples by themselves aren’t enough for you to find release.",
+    "key": "output|However_much_as_you_try_you_re_left_frustrated_as_you_realize|8c6ca62a7950",
+    "original": "However, much as you try, you’re left frustrated as you realize that your nipples by themselves aren’t enough for you to find release.",
     "translation": "",
-    "context": "<<POS:09227802>>"
+    "context": "<<POS:09227806>>"
   },
   {
-    "key": "output|n_nOnce_your_pc_nipples_have_finally_settled_into_their_new_c|e47e6854f502",
-    "original": "\\n\\nOnce your [pc.nipples] have finally settled into their new color, you",
+    "key": "output|Once_your_pc_nipples_have_finally_settled_into_their_new_color|54420691a0ac",
+    "original": "Once your [pc.nipples] have finally settled into their new color, you",
     "translation": "",
-    "context": "<<POS:09227951>>"
+    "context": "<<POS:09227955>>"
   },
   {
     "key": "output|give_them_a_few_final_strokes|c52f890edcc4",
@@ -606,10 +750,10 @@
     "context": "<<POS:09229519>>"
   },
   {
-    "key": "output|n_nAll_the_while_you_ve_been_furiously_jerking_yourself_off_u|ba48ba2a660b",
-    "original": "\\n\\nAll the while, you’ve been furiously jerking yourself off, uncaring if anyone sees or hears you. Your climax and the settling of your cock’s new \"+o+\" finish come simultaneously,",
+    "key": "output|All_the_while_you_ve_been_furiously_jerking_yourself_off_uncar|6d99050d1caf",
+    "original": "All the while, you’ve been furiously jerking yourself off, uncaring if anyone sees or hears you. Your climax and the settling of your cock’s new \"+o+\" finish come simultaneously,",
     "translation": "",
-    "context": "<<POS:09229618>>"
+    "context": "<<POS:09229622>>"
   },
   {
     "key": "output|and_you_angle_your_pc_cock_a_towards_your_pc_lips_dete|3ab144841111",
@@ -624,10 +768,10 @@
     "context": "<<POS:09230186>>"
   },
   {
-    "key": "output|n_nPanting_you_wipe_the_sweat_from_your_brow_as_you_admire_you|db081426037f",
-    "original": "\\n\\nPanting, you wipe the sweat from your brow as you admire your <b>new, \"+o+\" cock!</b>",
+    "key": "output|Panting_you_wipe_the_sweat_from_your_brow_as_you_admire_your_b|f11da9abbe6e",
+    "original": "Panting, you wipe the sweat from your brow as you admire your <b>new, \"+o+\" cock!</b>",
     "translation": "",
-    "context": "<<POS:09230357>>"
+    "context": "<<POS:09230361>>"
   },
   {
     "key": "output|blockHeader_Permapaint_Vagina|fde6f00ee5e8",
@@ -642,10 +786,10 @@
     "context": "<<POS:09230651>>"
   },
   {
-    "key": "output|n_n_pc_GirlCum_i_gushes_drips_from_your_pc_vaginaNo|082ca2030ca9",
-    "original": "\\n\\n[pc.GirlCum] \"+(i?\"gushes\":\"drips\")+\" from your [pc.vaginaNoun \"+a+\"] as you vigorously frig yourself under the auspices of making sure you’ve coated yourself as thoroughly as you can. Your climax hits just as your [pc.vagina]",
+    "key": "output|pc_GirlCum_i_gushes_drips_from_your_pc_vaginaNoun|06d32a5d8264",
+    "original": "[pc.GirlCum] \"+(i?\"gushes\":\"drips\")+\" from your [pc.vaginaNoun \"+a+\"] as you vigorously frig yourself under the auspices of making sure you’ve coated yourself as thoroughly as you can. Your climax hits just as your [pc.vagina]",
     "translation": "",
-    "context": "<<POS:09231143>>"
+    "context": "<<POS:09231147>>"
   },
   {
     "key": "output|s_metallic_o_settles_in_glistening_with_a_coating_of_femsl|67c3d298cdbc",
@@ -696,10 +840,10 @@
     "context": "<<POS:09232028>>"
   },
   {
-    "key": "output|n_nBasking_in_the_afterglow_of_your_release_you_give_your_b_n|41bb85396532",
-    "original": "\\n\\nBasking in the afterglow of your release, you give your <b>new \"+o+\" pussy</b> a few parting pets, excited for when you’ll get to give it a proper unveiling.",
+    "key": "output|Basking_in_the_afterglow_of_your_release_you_give_your_b_new|14606e6f48e9",
+    "original": "Basking in the afterglow of your release, you give your <b>new \"+o+\" pussy</b> a few parting pets, excited for when you’ll get to give it a proper unveiling.",
     "translation": "",
-    "context": "<<POS:09232066>>"
+    "context": "<<POS:09232070>>"
   },
   {
     "key": "output|blockHeader_Permapaint_Tail_n_cock_cunt|89c1a5035c2a",
@@ -714,25 +858,25 @@
     "context": "<<POS:09232477>>"
   },
   {
-    "key": "output|n_nYou_re_flummoxed_for_a_moment_by_your_alien_appendage_s_refu|7cad054d5479",
-    "original": "\\n\\nYou’re flummoxed for a moment by your alien appendage’s refusal to sit still, although it isn’t long before you’ve wrangled the tricky little bugger into a proper position. Satisfied that you will see no more squirming out of your [pc.tail] for now, you promptly apply the gel to the \"+(n?\"[pc.tailCock]\":\"[pc.tailCunt]\")+\". Almost as soon as the \"+o+\" permapaint is applied, your parasitic appendage threatens to break free of the hold you’ve placed on it. You try your best to rub the gel into it before it finally slips from your grasp, \"+(n?\"spraying jizz\":\"fountaining femcum\")+\" into the air as it whips about.",
+    "key": "output|You_re_flummoxed_for_a_moment_by_your_alien_appendage_s_refusal|c19e362db0ea",
+    "original": "You’re flummoxed for a moment by your alien appendage’s refusal to sit still, although it isn’t long before you’ve wrangled the tricky little bugger into a proper position. Satisfied that you will see no more squirming out of your [pc.tail] for now, you promptly apply the gel to the \"+(n?\"[pc.tailCock]\":\"[pc.tailCunt]\")+\". Almost as soon as the \"+o+\" permapaint is applied, your parasitic appendage threatens to break free of the hold you’ve placed on it. You try your best to rub the gel into it before it finally slips from your grasp, \"+(n?\"spraying jizz\":\"fountaining femcum\")+\" into the air as it whips about.",
     "translation": "",
-    "context": "<<POS:09232774>>"
+    "context": "<<POS:09232778>>"
   },
   {
-    "key": "output|n_nYou_re_flummoxed_for_a_moment_by_your_alien_appendages_refu|e31071070b2d",
-    "original": "\\n\\nYou’re flummoxed for a moment by your alien appendages’ refusal to sit still, although it isn’t long before you’ve wrangled the tricky little buggers into a proper position. Satisfied that you will see no more squirming out of your [pc.tails] for now, you promptly apply the gel to the \"+(n?\"[pc.tailCocks]\":\"[pc.tailCunts]\")+\". Almost as soon as the \"+o+\" permapaint is applied, your parasitic appendages threaten to break free of the hold you’ve placed on them. You try your best to rub the gel into them before they finally slip from your grasp, \"+(n?\"spraying jizz\":\"fountaining femcum\")+\" into the air as they whip about.",
+    "key": "output|You_re_flummoxed_for_a_moment_by_your_alien_appendages_refusal|2cde7435c4d2",
+    "original": "You’re flummoxed for a moment by your alien appendages’ refusal to sit still, although it isn’t long before you’ve wrangled the tricky little buggers into a proper position. Satisfied that you will see no more squirming out of your [pc.tails] for now, you promptly apply the gel to the \"+(n?\"[pc.tailCocks]\":\"[pc.tailCunts]\")+\". Almost as soon as the \"+o+\" permapaint is applied, your parasitic appendages threaten to break free of the hold you’ve placed on them. You try your best to rub the gel into them before they finally slip from your grasp, \"+(n?\"spraying jizz\":\"fountaining femcum\")+\" into the air as they whip about.",
     "translation": "",
-    "context": "<<POS:09233405>>"
+    "context": "<<POS:09233409>>"
   },
   {
-    "key": "output|n_nTaking|c7d59c9cb38c",
-    "original": "\\n\\nTaking",
+    "key": "output|Taking|226e47fecd14",
+    "original": "Taking",
     "translation": "",
-    "context": "<<POS:09234047>>"
+    "context": "<<POS:09234051>>"
   },
   {
-    "key": "output|one_of|141838999356",
+    "key": "output|one_of|cd0db27f4ea0",
     "original": " one of",
     "translation": "",
     "context": "<<POS:09234083>>"
@@ -774,13 +918,7 @@
     "context": "<<POS:09234604>>"
   },
   {
-    "key": "output|n_n|55cfddf4031e",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:09234694>>"
-  },
-  {
-    "key": "output|After_witnessing_your_parasitic_tail_1_e_tailCount_s_s|61ac9ec918af",
+    "key": "output|After_witnessing_your_parasitic_tail_1_e_tailCount_s_s|4b249af3f8b6",
     "original": "After witnessing your parasitic tail\"+(1===e.tailCount?\"’s\":\"s’\")+\" frenzied eruption, y",
     "translation": "",
     "context": "<<POS:09234711>>"

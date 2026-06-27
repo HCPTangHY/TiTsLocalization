@@ -3,7 +3,7 @@
     "key": "name.show|ArcticRescueNurseOutfit|5415f40275f3",
     "original": "ArcticRescueNurseOutfit",
     "translation": "",
-    "context": "<<POS:05769465>>"
+    "context": "<<POS:05769465>> showName(\"ArcticRescueNurseOutfit\")"
   },
   {
     "key": "output|textify_a_a_0_s_Z_n_t_t_var0_Traces_of_previously_used_dr|1e0c54494140",
@@ -15,7 +15,13 @@
     "key": "button|Back|d2b04484198b",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:05770459>>"
+    "context": "<<POS:05770459>> addButton(14,\"Back\",window.showCodexExtra,\"Back\",\"\")"
+  },
+  {
+    "key": "button.hover|Back|d2b04484198b",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:05770488>> addButton(14,\"Back\",window.showCodexExtra,\"Back\",\"\")"
   },
   {
     "key": "output|textify_n_n_0_s_Z_n_t_tYou_fiddle_with_the_settings_of_yo|d33731e7d72c",

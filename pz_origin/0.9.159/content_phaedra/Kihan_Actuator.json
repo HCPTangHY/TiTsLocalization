@@ -3,7 +3,13 @@
     "key": "button|Next|43c1e187e1b0",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03043124>>"
+    "context": "<<POS:03043124>> addButton(e++,\"Next\",randomInCollection(t),\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|43c1e187e1b0",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03043153>> addButton(e++,\"Next\",randomInCollection(t),\"Next\",\"\")"
   },
   {
     "key": "output|b_16_b_So_I_say_to_you_wandering_cogs_who_go_now_to_the_rive|4471128e49d5",
@@ -12,13 +18,7 @@
     "context": "<<POS:03044694>>"
   },
   {
-    "key": "output|n_n|d2872630064f",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:03046210>>"
-  },
-  {
-    "key": "output|e_capitalA_e_short_has_no_use_for_this|5ffbbfc4a9c6",
+    "key": "output|e_capitalA_e_short_has_no_use_for_this|9f991f140c5d",
     "original": "e.capitalA+e.short+\" has no use for this.",
     "translation": "",
     "context": "<<POS:03046238>>"
@@ -30,13 +30,7 @@
     "context": "<<POS:03047638>>"
   },
   {
-    "key": "output|n_n|9ca1b3433401",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:03049268>>"
-  },
-  {
-    "key": "output|e_capitalA_e_short_has_no_use_for_this|5ffbbfc4a9c6#1",
+    "key": "output|e_capitalA_e_short_has_no_use_for_this|913b248be304",
     "original": "e.capitalA+e.short+\" has no use for this.",
     "translation": "",
     "context": "<<POS:03049296>>"
@@ -48,28 +42,16 @@
     "context": "<<POS:03050691>>"
   },
   {
-    "key": "output|n_n|6040b1e45466",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:03051833>>"
-  },
-  {
-    "key": "output|e_capitalA_e_short_has_no_use_for_this|5ffbbfc4a9c6#2",
+    "key": "output|e_capitalA_e_short_has_no_use_for_this|ed4b7a50aa87",
     "original": "e.capitalA+e.short+\" has no use for this.",
     "translation": "",
     "context": "<<POS:03051861>>"
   },
   {
-    "key": "bust|ACTUATOR|2432b40da9f1",
-    "original": "ACTUATOR",
-    "translation": "",
-    "context": "<<POS:03056217>>"
-  },
-  {
-    "key": "name.show|Kihan_Actuator|4cff5857ee3d",
+    "key": "name.show|Kihan_Actuator|808100982aad",
     "original": "Kihan Actuator",
     "translation": "",
-    "context": "<<POS:03056259>>"
+    "context": "<<POS:03056259>> showName(\"Kihan Actuator\")"
   },
   {
     "key": "output|textify_iS_iS_0_et_Z_n_t_var0_n_t_t_var1_n_t_t_t_After_a|663f499f4968",
@@ -81,7 +63,13 @@
     "key": "button|Next|710706b8c44f",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03058122>>"
+    "context": "<<POS:03058122>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|710706b8c44f",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03058142>> addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_uS_uS_0_et_Z_n_tSteeling_yourself_you_wade_back|828e40df2d6f",
@@ -93,13 +81,25 @@
     "key": "button|Fight|6670896ea612",
     "original": "Fight",
     "translation": "",
-    "context": "<<POS:03060044>>"
+    "context": "<<POS:03060044>> addButton(t++,\"Fight\",(function(){window.shalinHunterDoCombat(),getEventQueue().safeAddEvent(au._.NinthManualPickup)}),\"Fight\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|6670896ea612",
+    "original": "Fight",
+    "translation": "",
+    "context": "<<POS:03060149>> addButton(t++,\"Fight\",(function(){window.shalinHunterDoCombat(),getEventQueue().safeAddEvent(au._.NinthManualPickup)}),\"Fight\",\"\")"
   },
   {
     "key": "button|Don_t_Fight|542170dcb00e",
     "original": "Don’t Fight",
     "translation": "",
-    "context": "<<POS:03060175>>"
+    "context": "<<POS:03060175>> addButton(t++,\"Don’t Fight\",(function(){window.shalinHunterDefeat(),getEventQueue().safeAddEvent(au._.NinthManualPickup)}),\"Don’t Fight\",\"\")"
+  },
+  {
+    "key": "button.hover|Don_t_Fight|542170dcb00e",
+    "original": "Don’t Fight",
+    "translation": "",
+    "context": "<<POS:03060284>> addButton(t++,\"Don’t Fight\",(function(){window.shalinHunterDefeat(),getEventQueue().safeAddEvent(au._.NinthManualPickup)}),\"Don’t Fight\",\"\")"
   },
   {
     "key": "output|textify_lS_lS_0_et_Z_n_tWith_the_shalin_gone_you_guess_t|539068cf3341",
@@ -117,52 +117,136 @@
     "key": "button|The_Sceptre|4c6f454a893e",
     "original": "The Sceptre?",
     "translation": "",
-    "context": "<<POS:03064091>>"
+    "context": "<<POS:03064091>> addButton(e++,\"The Sceptre?\",oI,\"The Sceptre?\",\"Can you maybe borrow it for a minute or so?\")"
   },
   {
-    "key": "button|I_Am_Threaded|73110949c9b1",
+    "key": "button.hover|The_Sceptre|4c6f454a893e",
+    "original": "The Sceptre?",
+    "translation": "",
+    "context": "<<POS:03064109>> addButton(e++,\"The Sceptre?\",oI,\"The Sceptre?\",\"Can you maybe borrow it for a minute or so?\")"
+  },
+  {
+    "key": "button.tooltip|Can_you_maybe_borrow_it_for_a_minute_or_so|b38c44401d26",
+    "original": "Can you maybe borrow it for a minute or so?",
+    "translation": "",
+    "context": "<<POS:03064124>> addButton(e++,\"The Sceptre?\",oI,\"The Sceptre?\",\"Can you maybe borrow it for a minute or so?\")"
+  },
+  {
+    "key": "button|I_Am_Threaded|aa570310ddf2",
     "original": "I Am Threaded.",
     "translation": "",
-    "context": "<<POS:03064209>>"
+    "context": "<<POS:03064209>> addButton(e++,\"I Am Threaded.\",nI,\"I Am Threaded.\",\"Tell him that you are in fact a higher devotee of Kiha, and wish to access the lower levels.\")"
   },
   {
-    "key": "button|Of_Use|c51c25e9f66b",
+    "key": "button.hover|I_Am_Threaded|aa570310ddf2",
+    "original": "I Am Threaded.",
+    "translation": "",
+    "context": "<<POS:03064229>> addButton(e++,\"I Am Threaded.\",nI,\"I Am Threaded.\",\"Tell him that you are in fact a higher devotee of Kiha, and wish to access the lower levels.\")"
+  },
+  {
+    "key": "button.tooltip|Tell_him_that_you_are_in_fact_a_higher_devotee_of_Kiha_and_wish|50c1b44408c6",
+    "original": "Tell him that you are in fact a higher devotee of Kiha, and wish to access the lower levels.",
+    "translation": "",
+    "context": "<<POS:03064246>> addButton(e++,\"I Am Threaded.\",nI,\"I Am Threaded.\",\"Tell him that you are in fact a higher devotee of Kiha, and wish to access the lower levels.\")"
+  },
+  {
+    "key": "button|Of_Use|aad3adcbee99",
     "original": "Of Use?",
     "translation": "",
-    "context": "<<POS:03064380>>"
+    "context": "<<POS:03064380>> addButton(e++,\"Of Use?\",fI,\"Of Use?\",\"Perhaps there’s some other way of getting that sceptre.\")"
   },
   {
-    "key": "button|Fight|4629933f36a5",
+    "key": "button.hover|Of_Use|aad3adcbee99",
+    "original": "Of Use?",
+    "translation": "",
+    "context": "<<POS:03064393>> addButton(e++,\"Of Use?\",fI,\"Of Use?\",\"Perhaps there’s some other way of getting that sceptre.\")"
+  },
+  {
+    "key": "button.tooltip|Perhaps_there_s_some_other_way_of_getting_that_sceptre|105a4022da23",
+    "original": "Perhaps there’s some other way of getting that sceptre.",
+    "translation": "",
+    "context": "<<POS:03064403>> addButton(e++,\"Of Use?\",fI,\"Of Use?\",\"Perhaps there’s some other way of getting that sceptre.\")"
+  },
+  {
+    "key": "button|Fight|539f69f3aa27",
     "original": "Fight",
     "translation": "",
-    "context": "<<POS:03064500>>"
+    "context": "<<POS:03064500>> addButton(e++,\"Fight\",mI,\"Fight\",\"You are surrounded on all sides by scores of highly devout divrani who have access to mind-altering substances. <b>This seems like it would be a very bad idea.</b>\")"
   },
   {
-    "key": "button|Blow_Him|976916951b19",
+    "key": "button.hover|Fight|539f69f3aa27",
+    "original": "Fight",
+    "translation": "",
+    "context": "<<POS:03064511>> addButton(e++,\"Fight\",mI,\"Fight\",\"You are surrounded on all sides by scores of highly devout divrani who have access to mind-altering substances. <b>This seems like it would be a very bad idea.</b>\")"
+  },
+  {
+    "key": "button.tooltip|You_are_surrounded_on_all_sides_by_scores_of_highly_devout_divra|ea5d0151d52c",
+    "original": "You are surrounded on all sides by scores of highly devout divrani who have access to mind-altering substances. <b>This seems like it would be a very bad idea.</b>",
+    "translation": "",
+    "context": "<<POS:03064519>> addButton(e++,\"Fight\",mI,\"Fight\",\"You are surrounded on all sides by scores of highly devout divrani who have access to mind-altering substances. <b>This seems like it would be a very bad idea.</b>\")"
+  },
+  {
+    "key": "button|Blow_Him|e71096f1474e",
     "original": "Blow Him",
     "translation": "",
-    "context": "<<POS:03064726>>"
+    "context": "<<POS:03064726>> addButton(e++,\"Blow Him\",HI,\"Blow Him\",\"Suck some cock for money, but actually it’s not that, it’s spiritual communion and stuff.\")"
   },
   {
-    "key": "button|Manuals|da6b0b8b5400",
+    "key": "button.hover|Blow_Him|e71096f1474e",
+    "original": "Blow Him",
+    "translation": "",
+    "context": "<<POS:03064740>> addButton(e++,\"Blow Him\",HI,\"Blow Him\",\"Suck some cock for money, but actually it’s not that, it’s spiritual communion and stuff.\")"
+  },
+  {
+    "key": "button.tooltip|Suck_some_cock_for_money_but_actually_it_s_not_that_it_s_spiri|daeb3ef1e794",
+    "original": "Suck some cock for money, but actually it’s not that, it’s spiritual communion and stuff.",
+    "translation": "",
+    "context": "<<POS:03064751>> addButton(e++,\"Blow Him\",HI,\"Blow Him\",\"Suck some cock for money, but actually it’s not that, it’s spiritual communion and stuff.\")"
+  },
+  {
+    "key": "button|Manuals|bf7284bd1829",
     "original": "Manuals",
     "translation": "",
-    "context": "<<POS:03065001>>"
+    "context": "<<POS:03065001>> addButton(e++,\"Manuals\",tI,\"Manuals\",\"Ask him about the ‘Manuals of Use’ that you found in the forest.\")"
   },
   {
-    "key": "button|Leave|88c26da73ce5",
+    "key": "button.hover|Manuals|bf7284bd1829",
+    "original": "Manuals",
+    "translation": "",
+    "context": "<<POS:03065014>> addButton(e++,\"Manuals\",tI,\"Manuals\",\"Ask him about the ‘Manuals of Use’ that you found in the forest.\")"
+  },
+  {
+    "key": "button.tooltip|Ask_him_about_the_Manuals_of_Use_that_you_found_in_the_forest|aaf06d7aef60",
+    "original": "Ask him about the ‘Manuals of Use’ that you found in the forest.",
+    "translation": "",
+    "context": "<<POS:03065024>> addButton(e++,\"Manuals\",tI,\"Manuals\",\"Ask him about the ‘Manuals of Use’ that you found in the forest.\")"
+  },
+  {
+    "key": "button|Leave|47e9bc5118c8",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:03065128>>"
+    "context": "<<POS:03065128>> addButton(14,\"Leave\",mainGameMenu,\"Leave\",\"\")"
+  },
+  {
+    "key": "button.hover|Leave|47e9bc5118c8",
+    "original": "Leave",
+    "translation": "",
+    "context": "<<POS:03065149>> addButton(14,\"Leave\",mainGameMenu,\"Leave\",\"\")"
   },
   {
     "key": "button|Leave|a446a59a4581",
     "original": "Leave",
     "translation": "",
-    "context": "<<POS:03065174>>"
+    "context": "<<POS:03065174>> addButton(14,\"Leave\",eI,\"Back Off\",\"\")"
   },
   {
-    "key": "output|textify_yS_yS_0_et_Z_n_tThis_is_a_breakroom_isn_t_it_We|7362585e539c",
+    "key": "button.hover|Back_Off|0b6ad65882ac",
+    "original": "Back Off",
+    "translation": "",
+    "context": "<<POS:03065185>> addButton(14,\"Leave\",eI,\"Back Off\",\"\")"
+  },
+  {
+    "key": "output|textify_yS_yS_0_et_Z_n_tThis_is_a_breakroom_isn_t_it_We|79256cd40e7c",
     "original": "textify(yS||(yS=(0,et.Z)([\"\\n\\tThis is a breakroom, isn’t it? Well, you’re just here catching a break, with everyone else. You’ll get back to him about the whole ‘of Use’ thing in just a minute.\\n\\t\\n\\t<i>“Hmm.”</i> The actuator eyes you beadily. You have just enough time to appreciate your fate rests on whether this puffed-up boy brat is assed enough to raise the alarm over you, before he reveals that he isn’t. <i>“Run along then yes! Commingle, intermesh, exhaust, all these things Kiha exhorts you to do, while your circuit is open. But come back right back when you’re closed. I’m not done with you, hmm yes no.”</i>\\n\\t\\n\\tYou quickly head back into the midst of the divrani.\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:03065226>>"
@@ -171,7 +255,13 @@
     "key": "button|Next|bea184f4cb7d",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03065959>>"
+    "context": "<<POS:03065959>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|bea184f4cb7d",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03065979>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_pS_pS_0_et_Z_n_t_i_Ah_yes_The_twenty_four_sacre|abb781c6a757",
@@ -183,7 +273,13 @@
     "key": "button|Next|b7befb8db9c1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03067738>>"
+    "context": "<<POS:03067738>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|b7befb8db9c1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03067758>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_mS_mS_0_et_Z_n_t_i_My_Gear_of_Inner_Artifice|c27ab9694b84",
@@ -201,16 +297,40 @@
     "key": "button|Agree|52b6f4337f17",
     "original": "Agree",
     "translation": "",
-    "context": "<<POS:03070550>>"
+    "context": "<<POS:03070550>> addButton(e++,\"Agree\",rI,\"Agree\",\"Of course not.\")"
   },
   {
-    "key": "button|Disagree|324dcc9a880b",
+    "key": "button.hover|Agree|52b6f4337f17",
+    "original": "Agree",
+    "translation": "",
+    "context": "<<POS:03070561>> addButton(e++,\"Agree\",rI,\"Agree\",\"Of course not.\")"
+  },
+  {
+    "key": "button.tooltip|Of_course_not|cb1a620d4e19",
+    "original": "Of course not.",
+    "translation": "",
+    "context": "<<POS:03070569>> addButton(e++,\"Agree\",rI,\"Agree\",\"Of course not.\")"
+  },
+  {
+    "key": "button|Disagree|50ced49d0af7",
     "original": "Disagree",
     "translation": "",
-    "context": "<<POS:03070601>>"
+    "context": "<<POS:03070601>> addButton(e++,\"Disagree\",aI,\"Disagree\",\"On second thought...\")"
   },
   {
-    "key": "output|textify_wS_wS_0_et_Z_n_tYou_need_to_review_Her_teachings|5175d4642d8b",
+    "key": "button.hover|Disagree|50ced49d0af7",
+    "original": "Disagree",
+    "translation": "",
+    "context": "<<POS:03070615>> addButton(e++,\"Disagree\",aI,\"Disagree\",\"On second thought...\")"
+  },
+  {
+    "key": "button.tooltip|On_second_thought|57fa203b63b1",
+    "original": "On second thought...",
+    "translation": "",
+    "context": "<<POS:03070626>> addButton(e++,\"Disagree\",aI,\"Disagree\",\"On second thought...\")"
+  },
+  {
+    "key": "output|textify_wS_wS_0_et_Z_n_tYou_need_to_review_Her_teachings|cb5fd41ccacc",
     "original": "textify(wS||(wS=(0,et.Z)([\"\\n\\tYou need to review Her teachings first. Not that you don’t know them off by heart, of course, but... you didn’t realize you were stepping into a weighty discussion with as razor sharp an intellect as him.\\n\\t\\n\\t<i>“Oh, I wouldn’t say that, no, razor sharp, you seek to flatter me!”</i> the hyraxi cries, writhing around on his throne in pleasure. <i>“Still, your modesty, respectful, becoming. Perhaps, once you <i>have</i> reviewed her teachings, you’ll come to the conclusion you’re better suited to more outward-facing duties, hmm, yes.”</i>\\n\\t\\n\\tHe’s eyeing you up without shame, reminding you that behind the actuator’s professed reverence is a horny, over-stimulated hyena boy. There’s maybe a dirtier but less risky way of getting that sceptre.\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:03070676>>"
@@ -219,7 +339,13 @@
     "key": "button|Next|6df08551147f",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03071510>>"
+    "context": "<<POS:03071510>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|6df08551147f",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03071530>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_bS_bS_0_et_Z_n_tYou_need_to_review_Her_teachings|e899e8d341e0",
@@ -237,16 +363,40 @@
     "key": "button|I_m_Certain|075962221eb1",
     "original": "I’m Certain",
     "translation": "",
-    "context": "<<POS:03072911>>"
+    "context": "<<POS:03072911>> addButton(e++,\"I’m Certain\",rI,\"I’m Certain\",\"You are certain of this.\")"
   },
   {
-    "key": "button|Reconsider|15df3e00bb3e",
+    "key": "button.hover|I_m_Certain|075962221eb1",
+    "original": "I’m Certain",
+    "translation": "",
+    "context": "<<POS:03072928>> addButton(e++,\"I’m Certain\",rI,\"I’m Certain\",\"You are certain of this.\")"
+  },
+  {
+    "key": "button.tooltip|You_are_certain_of_this|c59496c68f2e",
+    "original": "You are certain of this.",
+    "translation": "",
+    "context": "<<POS:03072942>> addButton(e++,\"I’m Certain\",rI,\"I’m Certain\",\"You are certain of this.\")"
+  },
+  {
+    "key": "button|Reconsider|51a1267d0207",
     "original": "Reconsider",
     "translation": "",
-    "context": "<<POS:03072984>>"
+    "context": "<<POS:03072984>> addButton(e++,\"Reconsider\",iI,\"Reconsider\",\"On second thought...\")"
   },
   {
-    "key": "output|textify_vS_vS_0_et_Z_n_t_var0_n_t_t_i_Hmm_i_The_hyr|509bbd3b5b89",
+    "key": "button.hover|Reconsider|51a1267d0207",
+    "original": "Reconsider",
+    "translation": "",
+    "context": "<<POS:03073000>> addButton(e++,\"Reconsider\",iI,\"Reconsider\",\"On second thought...\")"
+  },
+  {
+    "key": "button.tooltip|On_second_thought|4354cb161ef5",
+    "original": "On second thought...",
+    "translation": "",
+    "context": "<<POS:03073013>> addButton(e++,\"Reconsider\",iI,\"Reconsider\",\"On second thought...\")"
+  },
+  {
+    "key": "output|textify_vS_vS_0_et_Z_n_t_var0_n_t_t_i_Hmm_i_The_hyr|aa906c2eec75",
     "original": "textify(vS||(vS=(0,et.Z)([\"\\n\\t[var0\\n\\t\\t|<i>“Hmm.”</i> The hyraxi’s eyes slide to the outfit you’re wearing, which roughly resembles his own. <i>“You are appropriately dressed for such a quizzing, one actuator to another, this is proper, good! Mindful. But we don’t judge a chassis by its paint, do we? Not in such a world as this, no, when decent threaded have their vestments torn from them by evildoers, as we are having many reports of. So tell me...”</i>\\n\\t\\t\\n\\t\\tYou breathe a silent sigh of relief at clearing this first hurdle, and listen closely.\\n\\t\\t|<i>“And yet you aren’t even dressed as an actuator!”</i> the hyraxi yelps, slapping the arm of the throne hysterically. <i>“No ascended threaded would approach me in such a manner without wearing [pc.his] vestments! Liar! Wrench-thrower! <b>Seize [pc.him]!</b>”</i>\\n\\t]\\n\\t\"]))),[function(){return e}]",
     "translation": "",
     "context": "<<POS:03073124>>"
@@ -255,13 +405,25 @@
     "key": "button|Next|13b0552bf07a",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03074034>>"
+    "context": "<<POS:03074034>> addButton(t++,\"Next\",hI,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|13b0552bf07a",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03074044>> addButton(t++,\"Next\",hI,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03074069>>"
+    "context": "<<POS:03074069>> addButton(t++,\"Next\",CI,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03074079>> addButton(t++,\"Next\",CI,\"Next\",\"\")"
   },
   {
     "key": "output|textify_TS_TS_0_et_Z_n_t_i_When_you_were_risen_up_in_the|8f1f13ee0dd9",
@@ -273,34 +435,94 @@
     "key": "button|To_Proselytize|1b7ddf6c135f",
     "original": "To Proselytize",
     "translation": "",
-    "context": "<<POS:03074395>>"
+    "context": "<<POS:03074395>> addButton(e++,\"To Proselytize\",(function(){return uI(0)}),\"To Proselytize\",\"To proselytize.\")"
   },
   {
-    "key": "button|To_Lead|aec354afa373",
+    "key": "button.hover|To_Proselytize|1b7ddf6c135f",
+    "original": "To Proselytize",
+    "translation": "",
+    "context": "<<POS:03074439>> addButton(e++,\"To Proselytize\",(function(){return uI(0)}),\"To Proselytize\",\"To proselytize.\")"
+  },
+  {
+    "key": "button.tooltip|To_proselytize|aeeaf54233f7",
+    "original": "To proselytize.",
+    "translation": "",
+    "context": "<<POS:03074456>> addButton(e++,\"To Proselytize\",(function(){return uI(0)}),\"To Proselytize\",\"To proselytize.\")"
+  },
+  {
+    "key": "button|To_Lead|ef201787eb17",
     "original": "To Lead",
     "translation": "",
-    "context": "<<POS:03074489>>"
+    "context": "<<POS:03074489>> addButton(e++,\"To Lead\",(function(){return uI(1)}),\"To Lead\",\"To lead.\")"
   },
   {
-    "key": "button|To_Study|e32a2e21a570",
+    "key": "button.hover|To_Lead|ef201787eb17",
+    "original": "To Lead",
+    "translation": "",
+    "context": "<<POS:03074526>> addButton(e++,\"To Lead\",(function(){return uI(1)}),\"To Lead\",\"To lead.\")"
+  },
+  {
+    "key": "button.tooltip|To_lead|40ec451b3bee",
+    "original": "To lead.",
+    "translation": "",
+    "context": "<<POS:03074536>> addButton(e++,\"To Lead\",(function(){return uI(1)}),\"To Lead\",\"To lead.\")"
+  },
+  {
+    "key": "button|To_Study|cbb00029d243",
     "original": "To Study",
     "translation": "",
-    "context": "<<POS:03074562>>"
+    "context": "<<POS:03074562>> addButton(e++,\"To Study\",(function(){return uI(2)}),\"To Study\",\"To study.\")"
   },
   {
-    "key": "button|To_Guard|6379582faa20",
+    "key": "button.hover|To_Study|cbb00029d243",
+    "original": "To Study",
+    "translation": "",
+    "context": "<<POS:03074600>> addButton(e++,\"To Study\",(function(){return uI(2)}),\"To Study\",\"To study.\")"
+  },
+  {
+    "key": "button.tooltip|To_study|3445dc8ad3e7",
+    "original": "To study.",
+    "translation": "",
+    "context": "<<POS:03074611>> addButton(e++,\"To Study\",(function(){return uI(2)}),\"To Study\",\"To study.\")"
+  },
+  {
+    "key": "button|To_Guard|e19bcae7fdf6",
     "original": "To Guard",
     "translation": "",
-    "context": "<<POS:03074638>>"
+    "context": "<<POS:03074638>> addButton(e++,\"To Guard\",(function(){return uI(3)}),\"To Guard\",\"To guard.\")"
   },
   {
-    "key": "button|To_Guide|d3b4f7627e61",
+    "key": "button.hover|To_Guard|e19bcae7fdf6",
+    "original": "To Guard",
+    "translation": "",
+    "context": "<<POS:03074676>> addButton(e++,\"To Guard\",(function(){return uI(3)}),\"To Guard\",\"To guard.\")"
+  },
+  {
+    "key": "button.tooltip|To_guard|2d981ebd4518",
+    "original": "To guard.",
+    "translation": "",
+    "context": "<<POS:03074687>> addButton(e++,\"To Guard\",(function(){return uI(3)}),\"To Guard\",\"To guard.\")"
+  },
+  {
+    "key": "button|To_Guide|bb0253e8a7e4",
     "original": "To Guide",
     "translation": "",
-    "context": "<<POS:03074714>>"
+    "context": "<<POS:03074714>> addButton(e++,\"To Guide\",(function(){return uI(4)}),\"To Guide\",\"To guide.\")"
   },
   {
-    "key": "output|textify_AS_AS_0_et_Z_n_t_var0_n_t_t_i_No_i_the_hyra|c63d1a01a5b6",
+    "key": "button.hover|To_Guide|bb0253e8a7e4",
+    "original": "To Guide",
+    "translation": "",
+    "context": "<<POS:03074752>> addButton(e++,\"To Guide\",(function(){return uI(4)}),\"To Guide\",\"To guide.\")"
+  },
+  {
+    "key": "button.tooltip|To_guide|1ea39849b11b",
+    "original": "To guide.",
+    "translation": "",
+    "context": "<<POS:03074763>> addButton(e++,\"To Guide\",(function(){return uI(4)}),\"To Guide\",\"To guide.\")"
+  },
+  {
+    "key": "output|textify_AS_AS_0_et_Z_n_t_var0_n_t_t_i_No_i_the_hyra|462721183c26",
     "original": "textify(AS||(AS=(0,et.Z)([\"\\n\\t[var0\\n\\t\\t|<i>“No!”</i> the hyraxi cries. <i>“That is the duty of the wandering cogs, as any threaded would know!”</i> He points the sceptre at you accusingly. <i>“Imposter! Interloper! <b>Seize [pc.him]!</b>”</i>\\n\\t\\t|<i>“You’ve failed to properly imbibe the teachings of Kiha,”</i> the hyraxi says with a sad shake of his mitre. <i>“Only a bad actuator would be so prideful as to say they <b>lead.</b> Or you’re just lying and you’re not really an actuator at all, hmm. Either way.”</i> He points the sceptre at you accusingly. <i>“Imposter! Interloper! <b>Seize [pc.him]!</b>”</i>\\n\\t\\t|<i>“Our days of fully immersing ourselves in the hidden workings of Kiha are behind us. Sad!”</i> the hyraxi says with a theatrical sigh. <i>“We will return to them at the proper turning of the turbine. But this is not the role of the actuator, as any real one would know, and so YOU are an imposter!”</i> He points the sceptre at you accusingly. <i>“Wrench-thrower! Interloper! <b>Seize [pc.him]!</b>”</i>\\n\\t\\t|<i>“Yes, I can see why you would think that, hmm.”</i> The hyraxi smile widens into a cruel leer. <i>“Because all you desire is untrammeled access to Her, and you see me as an impediment, impatience. You’ve shown your heart, and it isn’t that of an actuator. It is that of an INTRUDER!”</i> He points the sceptre at you accusingly. <i>“Wrench-thrower! Interloper! <b>Seize [pc.him]!</b>”</i>\\n\\t\\t|<i>“Indeed yes. This is the way of the actuator,”</i> the hyraxi says. He closes his eyes and is still for a moment. <i>“We feel Kiha working through us, Her divine gears turning, and having spent our lives aligning with her we move with them... and our differential translates outwards to many threaded turning with us. This is the working of the golden machine, and though as flawed parts, devices, we may only feel it sometimes, go wayward — when we do feel it, know Her grace, it is a thing of wonder and beauty.”</i>\\n\\t\\t\\n\\t\\tThe divrani nearby who are paying attention sigh with beatific joy, mouthing ‘beauty’ and ‘golden light’ to themselves. You wait for the hyraxi’s cold blue eyes to open and fix themselves on you again.\\n\\t]\\n\\t\"]))),[function(){return e}]",
     "translation": "",
     "context": "<<POS:03074865>>"
@@ -309,13 +531,25 @@
     "key": "button|Next|d650703d6631",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03077116>>"
+    "context": "<<POS:03077116>> addButton(t++,\"Next\",lI,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|d650703d6631",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03077126>> addButton(t++,\"Next\",lI,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03077151>>"
+    "context": "<<POS:03077151>> addButton(t++,\"Next\",CI,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03077161>> addButton(t++,\"Next\",CI,\"Next\",\"\")"
   },
   {
     "key": "output|textify_SS_SS_0_et_Z_n_t_i_Kiha_bids_us_to_collect_the_d|15ac35e8760a",
@@ -327,28 +561,76 @@
     "key": "button|I_Don_t_Know|ce954d79116e",
     "original": "I Don’t Know",
     "translation": "",
-    "context": "<<POS:03077556>>"
+    "context": "<<POS:03077556>> addButton(e++,\"I Don’t Know\",(function(){return dI(0)}),\"I Don’t Know\",\"It is a divine mystery.\")"
   },
   {
-    "key": "button|We_Are_Inferior|13557a1e8f54",
+    "key": "button.hover|I_Don_t_Know|ce954d79116e",
+    "original": "I Don’t Know",
+    "translation": "",
+    "context": "<<POS:03077598>> addButton(e++,\"I Don’t Know\",(function(){return dI(0)}),\"I Don’t Know\",\"It is a divine mystery.\")"
+  },
+  {
+    "key": "button.tooltip|It_is_a_divine_mystery|885f60de8cb7",
+    "original": "It is a divine mystery.",
+    "translation": "",
+    "context": "<<POS:03077613>> addButton(e++,\"I Don’t Know\",(function(){return dI(0)}),\"I Don’t Know\",\"It is a divine mystery.\")"
+  },
+  {
+    "key": "button|We_Are_Inferior|2b579b531f9c",
     "original": "We Are Inferior",
     "translation": "",
-    "context": "<<POS:03077654>>"
+    "context": "<<POS:03077654>> addButton(e++,\"We Are Inferior\",(function(){return dI(1)}),\"We Are Inferior\",\"[silly|From the moment I understood the weakness of my flesh, it disgusted me.|The flesh is weak and the machine is divine. One day we will discard our mortal shells for unageing forms of golden light, Kiha willing.]\")"
   },
   {
-    "key": "button|We_Are_the_Same|b668b8cdb024",
+    "key": "button.hover|We_Are_Inferior|2b579b531f9c",
+    "original": "We Are Inferior",
+    "translation": "",
+    "context": "<<POS:03077699>> addButton(e++,\"We Are Inferior\",(function(){return dI(1)}),\"We Are Inferior\",\"[silly|From the moment I understood the weakness of my flesh, it disgusted me.|The flesh is weak and the machine is divine. One day we will discard our mortal shells for unageing forms of golden light, Kiha willing.]\")"
+  },
+  {
+    "key": "button.tooltip|silly_From_the_moment_I_understood_the_weakness_of_my_flesh_it|b04d052ce3da",
+    "original": "[silly|From the moment I understood the weakness of my flesh, it disgusted me.|The flesh is weak and the machine is divine. One day we will discard our mortal shells for unageing forms of golden light, Kiha willing.]",
+    "translation": "",
+    "context": "<<POS:03077717>> addButton(e++,\"We Are Inferior\",(function(){return dI(1)}),\"We Are Inferior\",\"[silly|From the moment I understood the weakness of my flesh, it disgusted me.|The flesh is weak and the machine is divine. One day we will discard our mortal shells for unageing forms of golden light, Kiha willing.]\")"
+  },
+  {
+    "key": "button|We_Are_the_Same|7445b1937b09",
     "original": "We Are the Same",
     "translation": "",
-    "context": "<<POS:03077951>>"
+    "context": "<<POS:03077951>> addButton(e++,\"We Are the Same\",(function(){return dI(2)}),\"We Are the Same\",\"All of us are parts in the golden machine, turned to Kiha’s divine purpose.\")"
   },
   {
-    "key": "button|We_Are_Superior|229db488dbed",
+    "key": "button.hover|We_Are_the_Same|7445b1937b09",
+    "original": "We Are the Same",
+    "translation": "",
+    "context": "<<POS:03077996>> addButton(e++,\"We Are the Same\",(function(){return dI(2)}),\"We Are the Same\",\"All of us are parts in the golden machine, turned to Kiha’s divine purpose.\")"
+  },
+  {
+    "key": "button.tooltip|All_of_us_are_parts_in_the_golden_machine_turned_to_Kiha_s_divi|befa92978dd8",
+    "original": "All of us are parts in the golden machine, turned to Kiha’s divine purpose.",
+    "translation": "",
+    "context": "<<POS:03078014>> addButton(e++,\"We Are the Same\",(function(){return dI(2)}),\"We Are the Same\",\"All of us are parts in the golden machine, turned to Kiha’s divine purpose.\")"
+  },
+  {
+    "key": "button|We_Are_Superior|9dca5a5946d9",
     "original": "We Are Superior",
     "translation": "",
-    "context": "<<POS:03078107>>"
+    "context": "<<POS:03078107>> addButton(e++,\"We Are Superior\",(function(){return dI(3)}),\"We Are Superior\",\"The tool is a lump of metal; it is the hand that gives it purpose. It is through us, not the machines, that Kiha spreads her love.\")"
   },
   {
-    "key": "output|textify_IS_IS_0_et_Z_n_t_var0_n_t_t_i_You_don_t_i_know|7852bf158b9d",
+    "key": "button.hover|We_Are_Superior|9dca5a5946d9",
+    "original": "We Are Superior",
+    "translation": "",
+    "context": "<<POS:03078152>> addButton(e++,\"We Are Superior\",(function(){return dI(3)}),\"We Are Superior\",\"The tool is a lump of metal; it is the hand that gives it purpose. It is through us, not the machines, that Kiha spreads her love.\")"
+  },
+  {
+    "key": "button.tooltip|The_tool_is_a_lump_of_metal_it_is_the_hand_that_gives_it_purpos|37cb0c6936e6",
+    "original": "The tool is a lump of metal; it is the hand that gives it purpose. It is through us, not the machines, that Kiha spreads her love.",
+    "translation": "",
+    "context": "<<POS:03078170>> addButton(e++,\"We Are Superior\",(function(){return dI(3)}),\"We Are Superior\",\"The tool is a lump of metal; it is the hand that gives it purpose. It is through us, not the machines, that Kiha spreads her love.\")"
+  },
+  {
+    "key": "output|textify_IS_IS_0_et_Z_n_t_var0_n_t_t_i_You_don_t_i_know|70ad2225fa7b",
     "original": "textify(IS||(IS=(0,et.Z)([\"\\n\\t[var0\\n\\t\\t|<i>“You don’t <i>know?</i>”</i> replies the actuator incredulously. <i>“You, a supposed ascended disciple of Kiha, don’t know of the precise relationship between us mortal threaded and the devices we study protect?”</i>\\n\\t\\t\\n\\t\\tHe raises his clear tones so they echo around the room.\\n\\t\\t\\n\\t\\t<i>“You see, my threaded? You see the humility, hmm faithfulness that an actuator displays? When I <b>say</b> that even those to whom the inner workings of Kiha have been revealed don’t fully understand how the golden machine works, only that it does, it is the <b>truth</b> yes! That is why we collect, that is why we study, that is why we pray, because we know by showing our faith Kiha reveals the truth to us, part by glorious part!”</i>\\n\\t\\t\\n\\t\\tThe surrounding divrani gasp and murmur in appreciation, swaying slightly, ‘golden machine’ and ‘the truth’ echoing over the green mass. [pc.intelligenceRange 40| You think the bar to impressing this crowd is low, honestly.]\\n\\t\\t|<i>“Hmm, so you’re one of <i>those</i> actuators, hmm?”</i> The hyraxi’s eyes glint. <i>“Though you know this dogma to be destructive heresy, you are so fervent you cannot help but say it out loud when challenged? No, admirable, almost. At least you will go on serving Her, in some capacity.”</i> He raises his voice. <i>“Wrench-thrower! Infidel! Seize [pc.him]!”</i>\\n\\t\\t|<i>“Base level, yes, to the unthreaded, we explain this, kept simple,”</i> the hyraxi says, fidgeting agitatedly. <i>“For an actuator to say this: no. No no no no! For we observe we are clearly different from the machines, yes? And Kiha teaches us to love and explore our forms, divine in their own way yes? So we cannot say we are the same! It is part of Her mystery, inner workings, how her devices differ! And you! Are! An! Imposter!”</i> He points the sceptre at you furiously. <i>“Seize [pc.him]!”</i>\\n\\t\\t|<i>“What is this nonsense?!”</i> scoffs the actuator, clanging the sceptre against the throne’s arm. <i>“We <b>worship</b> a machine, idiot fool slut! Well, if you do genuinely believe the flesh is superior, I can certainly think of a place for you...”</i> He raises his voice. <i>“Intruder! Imposter! Seize [pc.him]!”</i>\\n\\t]\\n\\t\"]))),[function(){return e},function(){return t}]",
     "translation": "",
     "context": "<<POS:03078437>>"
@@ -357,13 +639,25 @@
     "key": "button|Next|1a1714e9213e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03080775>>"
+    "context": "<<POS:03080775>> addButton(o++,\"Next\",cI,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|1a1714e9213e",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03080785>> addButton(o++,\"Next\",cI,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#2",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03080810>>"
+    "context": "<<POS:03080810>> addButton(o++,\"Next\",CI,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#2",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03080820>> addButton(o++,\"Next\",CI,\"Next\",\"\")"
   },
   {
     "key": "output|textify_YS_YS_0_et_Z_n_t_i_Now_then_i_The_sceptre_to|6d52540174c8",
@@ -375,28 +669,76 @@
     "key": "button|The_Forest|61d50732aec7",
     "original": "The Forest",
     "translation": "",
-    "context": "<<POS:03081469>>"
+    "context": "<<POS:03081469>> addButton(e++,\"The Forest\",(function(){return gI(0)}),\"The Forest\",\"The divine intermeshing of nature and technology cannot be properly understood outside the Radwoods.\")"
   },
   {
-    "key": "button|The_Land|5e21cdf85b9f",
+    "key": "button.hover|The_Forest|61d50732aec7",
+    "original": "The Forest",
+    "translation": "",
+    "context": "<<POS:03081509>> addButton(e++,\"The Forest\",(function(){return gI(0)}),\"The Forest\",\"The divine intermeshing of nature and technology cannot be properly understood outside the Radwoods.\")"
+  },
+  {
+    "key": "button.tooltip|The_divine_intermeshing_of_nature_and_technology_cannot_be_prope|8cf7ca7ab6a0",
+    "original": "The divine intermeshing of nature and technology cannot be properly understood outside the Radwoods.",
+    "translation": "",
+    "context": "<<POS:03081522>> addButton(e++,\"The Forest\",(function(){return gI(0)}),\"The Forest\",\"The divine intermeshing of nature and technology cannot be properly understood outside the Radwoods.\")"
+  },
+  {
+    "key": "button|The_Land|93dc1aaa69ab",
     "original": "The Land",
     "translation": "",
-    "context": "<<POS:03081640>>"
+    "context": "<<POS:03081640>> addButton(e++,\"The Land\",(function(){return gI(1)}),\"The Land\",\"All of the forest and the dusty plains, unto the seas themselves. Thus and no further does Kiha bid.\")"
   },
   {
-    "key": "button|The_Planet|5c56e058e674",
+    "key": "button.hover|The_Land|93dc1aaa69ab",
+    "original": "The Land",
+    "translation": "",
+    "context": "<<POS:03081678>> addButton(e++,\"The Land\",(function(){return gI(1)}),\"The Land\",\"All of the forest and the dusty plains, unto the seas themselves. Thus and no further does Kiha bid.\")"
+  },
+  {
+    "key": "button.tooltip|All_of_the_forest_and_the_dusty_plains_unto_the_seas_themselves|e3b674a1d5f3",
+    "original": "All of the forest and the dusty plains, unto the seas themselves. Thus and no further does Kiha bid.",
+    "translation": "",
+    "context": "<<POS:03081689>> addButton(e++,\"The Land\",(function(){return gI(1)}),\"The Land\",\"All of the forest and the dusty plains, unto the seas themselves. Thus and no further does Kiha bid.\")"
+  },
+  {
+    "key": "button|The_Planet|e9381b24a837",
     "original": "The Planet",
     "translation": "",
-    "context": "<<POS:03081807>>"
+    "context": "<<POS:03081807>> addButton(e++,\"The Planet\",(function(){return gI(2)}),\"The Planet\",\"Phaedra shall be Kiha, and Kiha shall be Phaedra. And it will be beautiful.\")"
   },
   {
-    "key": "button|The_Galaxy|cc6febc9b2c8",
+    "key": "button.hover|The_Planet|e9381b24a837",
+    "original": "The Planet",
+    "translation": "",
+    "context": "<<POS:03081847>> addButton(e++,\"The Planet\",(function(){return gI(2)}),\"The Planet\",\"Phaedra shall be Kiha, and Kiha shall be Phaedra. And it will be beautiful.\")"
+  },
+  {
+    "key": "button.tooltip|Phaedra_shall_be_Kiha_and_Kiha_shall_be_Phaedra_And_it_will_be|fdbae2d7d519",
+    "original": "Phaedra shall be Kiha, and Kiha shall be Phaedra. And it will be beautiful.",
+    "translation": "",
+    "context": "<<POS:03081860>> addButton(e++,\"The Planet\",(function(){return gI(2)}),\"The Planet\",\"Phaedra shall be Kiha, and Kiha shall be Phaedra. And it will be beautiful.\")"
+  },
+  {
+    "key": "button|The_Galaxy|f4e305e622ce",
     "original": "The Galaxy",
     "translation": "",
-    "context": "<<POS:03081953>>"
+    "context": "<<POS:03081953>> addButton(e++,\"The Galaxy\",(function(){return gI(3)}),\"The Galaxy\",\"Would we deny offworlders Kiha’s salvation? There is no frontier Her light cannot be spread to!\")"
   },
   {
-    "key": "output|textify_ES_ES_0_et_Z_n_t_var0_n_t_t_i_We_would_not_surv|80ff3f85fad4",
+    "key": "button.hover|The_Galaxy|f4e305e622ce",
+    "original": "The Galaxy",
+    "translation": "",
+    "context": "<<POS:03081993>> addButton(e++,\"The Galaxy\",(function(){return gI(3)}),\"The Galaxy\",\"Would we deny offworlders Kiha’s salvation? There is no frontier Her light cannot be spread to!\")"
+  },
+  {
+    "key": "button.tooltip|Would_we_deny_offworlders_Kiha_s_salvation_There_is_no_frontier|f9be148a280d",
+    "original": "Would we deny offworlders Kiha’s salvation? There is no frontier Her light cannot be spread to!",
+    "translation": "",
+    "context": "<<POS:03082006>> addButton(e++,\"The Galaxy\",(function(){return gI(3)}),\"The Galaxy\",\"Would we deny offworlders Kiha’s salvation? There is no frontier Her light cannot be spread to!\")"
+  },
+  {
+    "key": "output|textify_ES_ES_0_et_Z_n_t_var0_n_t_t_i_We_would_not_surv|6a983f65d785",
     "original": "textify(ES||(ES=(0,et.Z)([\"\\n\\t[var0\\n\\t\\t|<i>“We would not survive long if that was as far as She bid us reach!”</i> The hyraxi writhes around in pleasure at having finally caught you out. <i>“No real actuator would harbor such callow ambitions! You are an imposter, an intruder! Seize him!”</i>\\n\\t\\t|<i>“No! Explicitly She tells us to go further, if we are to claim everlasting peace as our reward!”</i> The hyraxi writhes around in pleasure at having finally caught you out. <i>“Explicitly She teaches this! Explicitly yes you are an imposter yes! A wrench-thrower! Seize [pc.him]!”</i>\\n\\t\\t|<i>“Yes, indeed, yes,”</i> the hyraxi murmurs. He stares at the cog-cum-passcard at the top of his brass sceptre ruminatively. <i>“Kiha bids us work to bring all of the world into Her golden circuit, such that Her light can resist the great darkness without.”</i>\\n\\t\\t\\n\\t\\t<i>“The great darkness...”</i> A divrani nearby groans in shiversome fear.\\n\\t\\t\\n\\t\\t<i>“It is interesting, testing, is it not though, that from the darkness you offworlders come, and though She bids us to shun you, you can understand Her word and even become threaded? Apparently. It seems.”</i> The hyraxi peers at you keenly, a slightly crooked smile on his dark lips, and leans in closer. <i>“I’ve one last question for you.”</i>\\n\\t\\t\\n\\t\\tA traitorous bead of sweat works its way down the back of your neck.\\n\\t\\t|<i>“Hmm, an offworlder’s answer to the question, yes.”</i> The hyraxi’s smile turns cruel. <i>“And precisely why an offworlder can <b>never</b> be an actuator. You come from the darkness and seek to corrupt Her divine will! Wrench-thrower! Apostate! Seize [pc.him]!”</i>\\n\\t]\\n\\t\"]))),[function(){return e}]",
     "translation": "",
     "context": "<<POS:03082194>>"
@@ -405,13 +747,25 @@
     "key": "button|Next|48db78468d33",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03083940>>"
+    "context": "<<POS:03083940>> addButton(t++,\"Next\",yI,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|48db78468d33",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03083950>> addButton(t++,\"Next\",yI,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#3",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03083975>>"
+    "context": "<<POS:03083975>> addButton(t++,\"Next\",CI,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#3",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03083985>> addButton(t++,\"Next\",CI,\"Next\",\"\")"
   },
   {
     "key": "output|textify_xS_xS_0_et_Z_n_t_i_Between_us_just_us_us_learn|af4acb342af8",
@@ -423,43 +777,79 @@
     "key": "button|I_Believe|afcb1bbbad77",
     "original": "I Believe",
     "translation": "",
-    "context": "<<POS:03084962>>"
+    "context": "<<POS:03084962>> addButton(e++,\"I Believe\",(function(){return pI(0)}),\"I Believe\",\"I believe.\")"
   },
   {
-    "key": "button|I_Don_t|2a573110cf76",
+    "key": "button.hover|I_Believe|afcb1bbbad77",
+    "original": "I Believe",
+    "translation": "",
+    "context": "<<POS:03085001>> addButton(e++,\"I Believe\",(function(){return pI(0)}),\"I Believe\",\"I believe.\")"
+  },
+  {
+    "key": "button.tooltip|I_believe|207f89d03ba5",
+    "original": "I believe.",
+    "translation": "",
+    "context": "<<POS:03085013>> addButton(e++,\"I Believe\",(function(){return pI(0)}),\"I Believe\",\"I believe.\")"
+  },
+  {
+    "key": "button|I_Don_t|867ae1142a65",
     "original": "I Don’t",
     "translation": "",
-    "context": "<<POS:03085041>>"
+    "context": "<<POS:03085041>> addButton(e++,\"I Don’t\",(function(){return pI(1)}),\"I Don’t\",\"I don’t.\")"
   },
   {
-    "key": "output|textify_HS_HS_0_et_Z_n_t_var0_n_t_t_With_all_the_sincerit|f5a0e606c79f",
+    "key": "button.hover|I_Don_t|867ae1142a65",
+    "original": "I Don’t",
+    "translation": "",
+    "context": "<<POS:03085078>> addButton(e++,\"I Don’t\",(function(){return pI(1)}),\"I Don’t\",\"I don’t.\")"
+  },
+  {
+    "key": "button.tooltip|I_don_t|256fbcb36864",
+    "original": "I don’t.",
+    "translation": "",
+    "context": "<<POS:03085088>> addButton(e++,\"I Don’t\",(function(){return pI(1)}),\"I Don’t\",\"I don’t.\")"
+  },
+  {
+    "key": "output|textify_HS_HS_0_et_Z_n_t_var0_n_t_t_With_all_the_sincerit|15de5aba00b8",
     "original": "textify(HS||(HS=(0,et.Z)([\"\\n\\t[var0\\n\\t\\t|With all the sincerity you can muster, you tell him you believe. The mission of Kiha to rescue the machines of the ancients and turn them to greater purpose, to thread every being on Phaedra into Her golden mechanism, to live in perfect synchronicity with both machine and living being — all of it. You are here to serve Her.\\n\\t\\t\\n\\t\\t<i>“You are,”</i> murmurs the hyraxi actuator. He looks genuinely awed. <i>“You’re a true believer, yes, gold in your eyes, hmm. Such a thing is dangerous giving out orders, creeping around down below... making me look bad. No yes no, you must be here, spreading your love and light to the threaded. Yes!”</i> He bangs the sceptre on a throne arm firmly and raises his voice to fill the room. <i>“Rejoice, my dear threaded! Such is this actuator’s devotion, they are surrendering their robe and taking up the raiments of the Blessed Anointment! Permanently!”</i>\\n\\t\\t\\n\\t\\tWait! No! Fuck!\\n\\t\\t|You shoot him a confiding smile and whisper to him that of course you don’t believe in this mumbo jumbo. You’re here for good tech, good sex, and the ability to lord it over all these other poor fools, just like him. But you’re not here to oust anyone. There’s no reason the pair of you can’t keep making out like bandits for many years to come, right? If he has your back, you have his.\\n\\t\\t\\n\\t\\tThe hyraxi nods slowly, his twitching stilled at last. You see a flicker of disappointment in his eyes. But he does grin back.\\n\\t\\t\\n\\t\\t<i>“Yes, hmm, I thought as much. I wonder if it was smart to thread an offworlder? You must have seen many gods machines stars, up there in the darkness. Pretend stars. Pretend gods.”</i> He considers the sceptre with a deep sigh, and then tosses you it with a wink. <i>“It’ll be good yes, to have someone around here who gets it understands. Go with my blessing, friend.”</i> He raises his voice sharply. <i>“Stand aside for the actuator! Hmm yes! [pc.he] goes descends now to receive communion with Kiha Herself, and when [pc.he] returns golden light shall be in [pc.his] eyes! Attend, yes, marvel at [pc.his] noble gait!”</i>\\n\\t\\t\\n\\t\\tYou do your best to appear dignified and grand as you part the green, awestruck sea and leave the break room with the sceptre in hand — a little tough in the extremely revealing garb of an actuator, admittedly.\\n\\t]\\n\\t\"]))),[function(){return e}]",
     "translation": "",
     "context": "<<POS:03085189>>"
   },
   {
-    "key": "output|n_n_b_Maybe_you_should_explore_the_base_and_figure_out_where_th|3c06a338b15f",
-    "original": "\\n\\n<b>Maybe you should explore the base and figure out where this keycard goes now, before anyone has any second thoughts...</b>",
+    "key": "output|b_Maybe_you_should_explore_the_base_and_figure_out_where_this_k|341d2992ba13",
+    "original": "<b>Maybe you should explore the base and figure out where this keycard goes now, before anyone has any second thoughts...</b>",
     "translation": "",
-    "context": "<<POS:03087629>>"
+    "context": "<<POS:03087633>>"
   },
   {
-    "key": "output|n_n_b_Key_Item_Gained_b_Kihan_Actuator_s_Keycard|b4e3eb949f88",
-    "original": "\\n\\n(<b>Key Item Gained:</b> Kihan Actuator’s Keycard)",
+    "key": "output|b_Key_Item_Gained_b_Kihan_Actuator_s_Keycard|46ec699fdb35",
+    "original": "(<b>Key Item Gained:</b> Kihan Actuator’s Keycard)",
     "translation": "",
-    "context": "<<POS:03087889>>"
+    "context": "<<POS:03087893>>"
   },
   {
     "key": "button|Next|29ce20b6cda5",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03088010>>"
+    "context": "<<POS:03088010>> addButton(t++,\"Next\",(function(){return quickLoot(new US)}),\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|29ce20b6cda5",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03088056>> addButton(t++,\"Next\",(function(){return quickLoot(new US)}),\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#4",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03088082>>"
+    "context": "<<POS:03088082>> addButton(t++,\"Next\",CI,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#4",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03088092>> addButton(t++,\"Next\",CI,\"Next\",\"\")"
   },
   {
     "key": "output|textify_CS_CS_0_et_Z_n_tTo_hell_with_this_you_ll_just_be|1aa246c90324",
@@ -471,7 +861,13 @@
     "key": "button|Next|0bf0339f5d2b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03088580>>"
+    "context": "<<POS:03088580>> addButton(e++,\"Next\",(function(){return CI(!0)}),\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|0bf0339f5d2b",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03088615>> addButton(e++,\"Next\",(function(){return CI(!0)}),\"Next\",\"\")"
   },
   {
     "key": "output|textify_RS_RS_0_et_Z_n_t_flags_ACTUATOR_OF_USE_i_So_you|2f97b398a273",
@@ -483,16 +879,34 @@
     "key": "button|I_m_In|0ef667dae003",
     "original": "I’m In",
     "translation": "",
-    "context": "<<POS:03092613>>"
+    "context": "<<POS:03092613>> addButton(e++,\"I’m In\",bI,\"I’m In\",\"\")"
+  },
+  {
+    "key": "button.hover|I_m_In|0ef667dae003",
+    "original": "I’m In",
+    "translation": "",
+    "context": "<<POS:03092625>> addButton(e++,\"I’m In\",bI,\"I’m In\",\"\")"
   },
   {
     "key": "button|Nope|8430289a0b7a",
     "original": "Nope",
     "translation": "",
-    "context": "<<POS:03092652>>"
+    "context": "<<POS:03092652>> addButton(e++,\"Nope\",wI,\"Nope\",\"Surely you can get by this guy without becoming the cult’s cumdump.\")"
   },
   {
-    "key": "output|textify_NS_NS_0_et_Z_n_t_i_That_s_a_shame_very_much_so|bf770edc7bc3",
+    "key": "button.hover|Nope|8430289a0b7a",
+    "original": "Nope",
+    "translation": "",
+    "context": "<<POS:03092662>> addButton(e++,\"Nope\",wI,\"Nope\",\"Surely you can get by this guy without becoming the cult’s cumdump.\")"
+  },
+  {
+    "key": "button.tooltip|Surely_you_can_get_by_this_guy_without_becoming_the_cult_s_cumdu|f05574d6361a",
+    "original": "Surely you can get by this guy without becoming the cult’s cumdump.",
+    "translation": "",
+    "context": "<<POS:03092669>> addButton(e++,\"Nope\",wI,\"Nope\",\"Surely you can get by this guy without becoming the cult’s cumdump.\")"
+  },
+  {
+    "key": "output|textify_NS_NS_0_et_Z_n_t_i_That_s_a_shame_very_much_so|b00c0a6fd09f",
     "original": "textify(NS||(NS=(0,et.Z)([\"\\n\\t<i>“That’s a shame, very much so yes,”</i> sighs the actuator, deliberately patting the sceptre in the palm of his large paw. <i>“Both from the standpoint of my poor threaded, squeaking and shrilling from a lack of anointment, and from that of your wish to descend to the lower levels. Ah, it does seem as if...”</i> he knots his claws together fretfully. <i>“...as if there’s some way of everyone getting what they want here. Shame oh well pity yes!”</i>\\n\\t\\n\\tHe dismisses you with a wave of the brazen rod.\\n\\t\"])))",
     "translation": "",
     "context": "<<POS:03092766>>"
@@ -501,7 +915,13 @@
     "key": "button|Next|629bdf9b4326",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03093356>>"
+    "context": "<<POS:03093356>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|629bdf9b4326",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03093376>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_BS_BS_0_et_Z_n_t_flags_ACTUATOR_OF_USE_n_t_t_Well|44905b544c1e",
@@ -513,19 +933,37 @@
     "key": "button|Next|573637534d33",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03095664>>"
+    "context": "<<POS:03095664>> addButton(t++,\"Next\",YI,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|573637534d33",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03095674>> addButton(t++,\"Next\",YI,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#5",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03095704>>"
+    "context": "<<POS:03095704>> addButton(t++,\"Next\",AI,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#5",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03095714>> addButton(t++,\"Next\",AI,\"Next\",\"\")"
   },
   {
     "key": "button|Next|35b9a3540cff#6",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03095739>>"
+    "context": "<<POS:03095739>> addButton(t++,\"Next\",kI,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|35b9a3540cff#6",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03095749>> addButton(t++,\"Next\",kI,\"Next\",\"\")"
   },
   {
     "key": "output|textify_LS_LS_0_et_Z_n_tYou_sink_to_your_pc_knees_amids|669cf2e5a1a6",
@@ -537,7 +975,13 @@
     "key": "button|Next|52d523e53bdc",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03100877>>"
+    "context": "<<POS:03100877>> addButton(e++,\"Next\",vI,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|52d523e53bdc",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03100887>> addButton(e++,\"Next\",vI,\"Next\",\"\")"
   },
   {
     "key": "output|textify_OS_OS_0_et_Z_n_tYou_do_your_best_You_wring_the_l|fd4910f345ea",
@@ -549,7 +993,13 @@
     "key": "button|Next|fcb6c5a197fd",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03103962>>"
+    "context": "<<POS:03103962>> addButton(e++,\"Next\",TI,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|fcb6c5a197fd",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03103972>> addButton(e++,\"Next\",TI,\"Next\",\"\")"
   },
   {
     "key": "output|textify_S_S_0_et_Z_n_tYou_are_yanked_suddenly_out_of_th|7931a1f3578b",
@@ -561,7 +1011,13 @@
     "key": "button|Next|423447f954f9",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03106771>>"
+    "context": "<<POS:03106771>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|423447f954f9",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03106791>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_GS_GS_0_et_Z_n_tYou_sink_to_your_pc_knees_amids|c0d7da34f317",
@@ -573,7 +1029,13 @@
     "key": "button|Next|52d523e53bdc#1",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03113057>>"
+    "context": "<<POS:03113057>> addButton(e++,\"Next\",SI,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|52d523e53bdc#1",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03113067>> addButton(e++,\"Next\",SI,\"Next\",\"\")"
   },
   {
     "key": "output|textify_jS_jS_0_et_Z_n_tYou_try_your_best_to_let_go_and_j|96d31678161c",
@@ -585,7 +1047,13 @@
     "key": "button|Next|33f974c45f2b",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03116813>>"
+    "context": "<<POS:03116813>> addButton(e++,\"Next\",II,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|33f974c45f2b",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03116823>> addButton(e++,\"Next\",II,\"Next\",\"\")"
   },
   {
     "key": "output|textify_DS_DS_0_et_Z_n_tYou_are_yanked_suddenly_out_of_th|d34da93aa61a",
@@ -597,7 +1065,13 @@
     "key": "button|Next|bd6c9f0d0668",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03119859>>"
+    "context": "<<POS:03119859>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|bd6c9f0d0668",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03119879>> addButton(e++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_zS_zS_0_et_Z_n_tYou_sink_to_your_pc_knees_amids|93d142113c5c",
@@ -609,7 +1083,13 @@
     "key": "button|Next|b2166cebe994",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03126318>>"
+    "context": "<<POS:03126318>> addButton(e++,\"Next\",EI,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|b2166cebe994",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03126328>> addButton(e++,\"Next\",EI,\"Next\",\"\")"
   },
   {
     "key": "output|textify_MS_MS_0_et_Z_n_tThe_way_you_ve_laid_down_your_swo|55b946b643e8",
@@ -621,7 +1101,13 @@
     "key": "button|Next|1811518085be",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03130803>>"
+    "context": "<<POS:03130803>> addButton(e++,\"Next\",xI,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|1811518085be",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03130813>> addButton(e++,\"Next\",xI,\"Next\",\"\")"
   },
   {
     "key": "output|textify_PS_PS_0_et_Z_n_tIt_could_be_an_hour_later_It_cou|9bee0c5aa67b",
@@ -630,10 +1116,10 @@
     "context": "<<POS:03130850>>"
   },
   {
-    "key": "output|n_n_b_Key_Item_Gained_b_Kihan_Actuator_s_Keycard|a6a0dc2faa10",
-    "original": "\\n\\n(<b>Key Item Gained:</b> Kihan Actuator’s Keycard)",
+    "key": "output|b_Key_Item_Gained_b_Kihan_Actuator_s_Keycard|016117c5152c",
+    "original": "(<b>Key Item Gained:</b> Kihan Actuator’s Keycard)",
     "translation": "",
-    "context": "<<POS:03135846>>"
+    "context": "<<POS:03135850>>"
   },
   {
     "key": "output|textify_FS_FS_0_et_Z_n_tYou_bestow_upon_the_fidgety_hyrax|5bb2fb60c17f",
@@ -645,7 +1131,13 @@
     "key": "button|Next|dae716423b79",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03142893>>"
+    "context": "<<POS:03142893>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|dae716423b79",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03142913>> addButton(t++,\"Next\",mainGameMenu,\"Next\",\"\")"
   },
   {
     "key": "output|textify_qS_qS_0_et_Z_n_tBefore_you_can_do_anything_you_a|1947c8666376",
@@ -657,19 +1149,37 @@
     "key": "button|Apologize|4ec5558e4307",
     "original": "Apologize",
     "translation": "",
-    "context": "<<POS:03149996>>"
+    "context": "<<POS:03149996>> addButton(t++,\"Apologize\",(function(){return RI(0,e)}),\"Apologize\",\"\")"
+  },
+  {
+    "key": "button.hover|Apologize|4ec5558e4307",
+    "original": "Apologize",
+    "translation": "",
+    "context": "<<POS:03150037>> addButton(t++,\"Apologize\",(function(){return RI(0,e)}),\"Apologize\",\"\")"
   },
   {
     "key": "button|Submit|58aef7ab931c",
     "original": "Submit",
     "translation": "",
-    "context": "<<POS:03150067>>"
+    "context": "<<POS:03150067>> addButton(t++,\"Submit\",(function(){return RI(1,e)}),\"Submit\",\"\")"
+  },
+  {
+    "key": "button.hover|Submit|58aef7ab931c",
+    "original": "Submit",
+    "translation": "",
+    "context": "<<POS:03150105>> addButton(t++,\"Submit\",(function(){return RI(1,e)}),\"Submit\",\"\")"
   },
   {
     "key": "button|Fuck_You|cb0ac59d1441",
     "original": "Fuck You.",
     "translation": "",
-    "context": "<<POS:03150132>>"
+    "context": "<<POS:03150132>> addButton(t++,\"Fuck You.\",(function(){return RI(2,e)}),\"Fuck You.\",\"\")"
+  },
+  {
+    "key": "button.hover|Fuck_You|cb0ac59d1441",
+    "original": "Fuck You.",
+    "translation": "",
+    "context": "<<POS:03150173>> addButton(t++,\"Fuck You.\",(function(){return RI(2,e)}),\"Fuck You.\",\"\")"
   },
   {
     "key": "output|textify_WS_WS_0_et_Z_n_t_var0_n_t_t_Ok_fine_if_it_ll|b80552d30e3a",
@@ -681,7 +1191,13 @@
     "key": "button|Next|c7ea62e950bf",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:03157238>>"
+    "context": "<<POS:03157238>> addButton(o++,\"Next\",(function(){return NI(t)}),\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|c7ea62e950bf",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:03157272>> addButton(o++,\"Next\",(function(){return NI(t)}),\"Next\",\"\")"
   },
   {
     "key": "output|textify_VS_VS_0_et_Z_n_t_var0_n_t_t_When_you_awake_in_a_p|acdf8fe28da2",
@@ -699,7 +1215,13 @@
     "key": "button|Scavenge|fc6f5a9f5921",
     "original": "Scavenge",
     "translation": "",
-    "context": "<<POS:03161535>>"
+    "context": "<<POS:03161535>> addButton(e,\"Scavenge\",KS,\"Scavenge\",\"\")"
+  },
+  {
+    "key": "button.hover|Scavenge|fc6f5a9f5921",
+    "original": "Scavenge",
+    "translation": "",
+    "context": "<<POS:03161549>> addButton(e,\"Scavenge\",KS,\"Scavenge\",\"\")"
   },
   {
     "key": "output|textify_sS_sS_0_et_Z_n_tYou_notice_a_rectangular_piece_of|8ca75205561a",
@@ -717,22 +1239,28 @@
     "key": "button|Retrieve|3a8ea23b4097",
     "original": "Retrieve",
     "translation": "",
-    "context": "<<POS:03163132>>"
+    "context": "<<POS:03163132>> addButton(e++,\"Retrieve\",JS,\"Retrieve\",\"\")"
+  },
+  {
+    "key": "button.hover|Retrieve|3a8ea23b4097",
+    "original": "Retrieve",
+    "translation": "",
+    "context": "<<POS:03163146>> addButton(e++,\"Retrieve\",JS,\"Retrieve\",\"\")"
   },
   {
     "key": "button|Nah|52a46a0d1444",
     "original": "Nah",
     "translation": "",
-    "context": "<<POS:03163175>>"
+    "context": "<<POS:03163175>> addButton(e++,\"Nah\",(function(){clearAll(),author(\"Nonesuch\"),output(textify(hS||(hS=(0,et.Z)([\"\\n\\t\\tGet absolutely covered in black, radioactive shit for what, some scrap metal? No thank you. You leave the bog behind you.\\n\\t\\t\"])))),processTime(5),flags.RAD_NINTH_MAN=1,addButton(0,\"Next\",mainGame..."
   },
   {
-    "key": "output|n_n|841605175fee",
-    "original": "\\n\\n",
+    "key": "button.hover|Nah|52a46a0d1444",
+    "original": "Nah",
     "translation": "",
-    "context": "<<POS:03163704>>"
+    "context": "<<POS:03163479>> addButton(e++,\"Nah\",(function(){clearAll(),author(\"Nonesuch\"),output(textify(hS||(hS=(0,et.Z)([\"\\n\\t\\tGet absolutely covered in black, radioactive shit for what, some scrap metal? No thank you. You leave the bog behind you.\\n\\t\\t\"])))),processTime(5),flags.RAD_NINTH_MAN=1,addButton(0,\"Next\",mainGame..."
   },
   {
-    "key": "output|textify_dS_dS_0_et_Z_flags_ACTUATOR_ROOM_n_t_t_var0_n_t|63bf4d11f814",
+    "key": "output|textify_dS_dS_0_et_Z_flags_ACTUATOR_ROOM_n_t_t_var0_n_t|472b115f566c",
     "original": "textify(dS||(dS=(0,et.Z)([\"[flags.ACTUATOR_ROOM\\n\\t\\t|[var0\\n\\t\\t\\t|The hyraxi actuator is still here, gazing out over his throng of threaded from his privileged position. He eyes you hopefully, fidgeting in endless agitation.\\n\\t\\t\\t|The hyraxi actuator is still here, lounging on his throne of polished scrap. He gives you a cold, brilliant smile when he sees you looking, and tosses and catches his brazen sceptre in one hand.\\n\\t\\t]\\n\\t\\t|At the back of the room, lounging on a tall throne of ornate, interwoven plates of steel and brass is a silvery-haired male hyraxi. He is dressed in the wide sleeves, collar and long, central stripe of a red-and-black chasuble, a mitre, and not much else. He taps the arm of his throne with a cog-adorned sceptre as he gazes out over a crowd of assembled faithful, seemingly lost in thought.\\n\\t]\\n\\t\"]))),[function(){return!!flags.ACTUATOR_SCEPTRE}]",
     "translation": "",
     "context": "<<POS:03163718>>"
@@ -741,7 +1269,13 @@
     "key": "button|flags_ACTUATOR_MET_Actuator_Hyraxi|bff94766d948",
     "original": "[flags.ACTUATOR_MET|Actuator|Hyraxi]",
     "translation": "",
-    "context": "<<POS:03164643>>"
+    "context": "<<POS:03164643>> addButton(e++,\"[flags.ACTUATOR_MET|Actuator|Hyraxi]\",XS,\"[flags.ACTUATOR_MET|Actuator|Hyraxi]\",\"\")"
+  },
+  {
+    "key": "button.hover|flags_ACTUATOR_MET_Actuator_Hyraxi|bff94766d948",
+    "original": "[flags.ACTUATOR_MET|Actuator|Hyraxi]",
+    "translation": "",
+    "context": "<<POS:03164685>> addButton(e++,\"[flags.ACTUATOR_MET|Actuator|Hyraxi]\",XS,\"[flags.ACTUATOR_MET|Actuator|Hyraxi]\",\"\")"
   },
   {
     "key": "output|textify_gS_gS_0_et_Z_n_t_flags_ACTUATOR_SCEPTRE_n_t_t_fl|cfce887f13ec",

@@ -9,10 +9,22 @@
     "key": "button|Pigment_Cock_Sock|2402918e4c34",
     "original": "Pigment Cock Sock",
     "translation": "",
-    "context": "<<POS:07333394>>"
+    "context": "<<POS:07333394>> addButton(t++,\"Pigment Cock Sock\",(function(){return e.camouflageSock()}),\"Pigment Cock Sock\",\"Make your Chameleon Cock Sock conceal your cock.\")"
   },
   {
-    "key": "output|Your_Chameleon_Cock_Sock_is_currently_pigmented_concat_this_co|f873bea5f695",
+    "key": "button.hover|Pigment_Cock_Sock|2402918e4c34",
+    "original": "Pigment Cock Sock",
+    "translation": "",
+    "context": "<<POS:07333454>> addButton(t++,\"Pigment Cock Sock\",(function(){return e.camouflageSock()}),\"Pigment Cock Sock\",\"Make your Chameleon Cock Sock conceal your cock.\")"
+  },
+  {
+    "key": "button.tooltip|Make_your_Chameleon_Cock_Sock_conceal_your_cock|b168076d1245",
+    "original": "Make your Chameleon Cock Sock conceal your cock.",
+    "translation": "",
+    "context": "<<POS:07333474>> addButton(t++,\"Pigment Cock Sock\",(function(){return e.camouflageSock()}),\"Pigment Cock Sock\",\"Make your Chameleon Cock Sock conceal your cock.\")"
+  },
+  {
+    "key": "output|Your_Chameleon_Cock_Sock_is_currently_pigmented_concat_this_co|b06ecc415af3",
     "original": "Your Chameleon Cock Sock is currently pigmented \".concat(this.color,\", obscuring your genitals from view.\")",
     "translation": "",
     "context": "<<POS:07333535>>"
@@ -21,37 +33,61 @@
     "key": "button|Go_Transparent|8d47f16ccd39",
     "original": "Go Transparent",
     "translation": "",
-    "context": "<<POS:07333659>>"
+    "context": "<<POS:07333659>> addButton(t++,\"Go Transparent\",(function(){return e.cockSockColor()}),\"Go Transparent\",\"Make your Chameleon Cock Sock transparent to expose your cock.\")"
   },
   {
-    "key": "output|n_n_b_Current_Sexiness_Bonus_b_this_sexiness|a2c60522f80c",
-    "original": "\\n\\n<b>Current Sexiness Bonus: </b>\"+this.sexiness",
+    "key": "button.hover|Go_Transparent|8d47f16ccd39",
+    "original": "Go Transparent",
     "translation": "",
-    "context": "<<POS:07333806>>"
+    "context": "<<POS:07333715>> addButton(t++,\"Go Transparent\",(function(){return e.cockSockColor()}),\"Go Transparent\",\"Make your Chameleon Cock Sock transparent to expose your cock.\")"
   },
   {
-    "key": "output|n_n|8a5324a66370",
-    "original": "\\n\\n",
+    "key": "button.tooltip|Make_your_Chameleon_Cock_Sock_transparent_to_expose_your_cock|d3036148bb46",
+    "original": "Make your Chameleon Cock Sock transparent to expose your cock.",
     "translation": "",
-    "context": "<<POS:07333866>>"
+    "context": "<<POS:07333732>> addButton(t++,\"Go Transparent\",(function(){return e.cockSockColor()}),\"Go Transparent\",\"Make your Chameleon Cock Sock transparent to expose your cock.\")"
   },
   {
-    "key": "button|Reset|ee43f9f57182",
+    "key": "output|b_Current_Sexiness_Bonus_b_this_sexiness|eda2456870cb",
+    "original": "<b>Current Sexiness Bonus: </b>\"+this.sexiness",
+    "translation": "",
+    "context": "<<POS:07333810>>"
+  },
+  {
+    "key": "button|Reset|03e9dd850d06",
     "original": "Reset",
     "translation": "",
-    "context": "<<POS:07334051>>"
+    "context": "<<POS:07334051>> addDisabledButton(13,\"Reset\",\"Reset Color Scheme\",\"This item already has the default color scheme.\")"
   },
   {
-    "key": "button|Reset|51550792ce7c",
+    "key": "button.hover|This_item_already_has_the_default_color_scheme|9282b0fbd8c5",
+    "original": "This item already has the default color scheme.",
+    "translation": "",
+    "context": "<<POS:07334080>> addDisabledButton(13,\"Reset\",\"Reset Color Scheme\",\"This item already has the default color scheme.\")"
+  },
+  {
+    "key": "button|Reset|6aae52089c82",
     "original": "Reset",
     "translation": "",
-    "context": "<<POS:07334144>>"
+    "context": "<<POS:07334144>> addButton(13,\"Reset\",(function(){return e.resetSettings(e)}),\"Reset Color Scheme\",\"Revert back to the default color scheme. This will also reset the transparency settings.\")"
   },
   {
-    "key": "button|Back|e91488433fc2",
+    "key": "button.hover|Reset_Color_Scheme|d0af0f3b1819",
+    "original": "Reset Color Scheme",
+    "translation": "",
+    "context": "<<POS:07334192>> addButton(13,\"Reset\",(function(){return e.resetSettings(e)}),\"Reset Color Scheme\",\"Revert back to the default color scheme. This will also reset the transparency settings.\")"
+  },
+  {
+    "key": "button.tooltip|Revert_back_to_the_default_color_scheme_This_will_also_reset_th|f8a7fbeea8be",
+    "original": "Revert back to the default color scheme. This will also reset the transparency settings.",
+    "translation": "",
+    "context": "<<POS:07334213>> addButton(13,\"Reset\",(function(){return e.resetSettings(e)}),\"Reset Color Scheme\",\"Revert back to the default color scheme. This will also reset the transparency settings.\")"
+  },
+  {
+    "key": "button|Back|7c121e69e138",
     "original": "Back",
     "translation": "",
-    "context": "<<POS:07334318>>"
+    "context": "<<POS:07334318>> addButton(14,\"Back\",(function(){return e.returnToInventory(e)}))"
   },
   {
     "key": "output|You_link_your_Codex_with_the_Utopian_Skies_control_interface_for|caeb66054b50",
@@ -63,7 +99,7 @@
     "key": "button|Next|4bbe8b05e473",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07334917>>"
+    "context": "<<POS:07334917>> addButton(0,\"Next\",(function(){return e.chameleonOptionsDisplay()}))"
   },
   {
     "key": "output|You_tick_an_option_in_your_Codex_s_link_to_the_Utopian_Skies_Coc|d8ccb40f8e76",
@@ -75,6 +111,6 @@
     "key": "button|Next|a9a6b3d11d76",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07335240>>"
+    "context": "<<POS:07335240>> addButton(0,\"Next\",(function(){return e.chameleonOptionsDisplay()}))"
   }
 ]

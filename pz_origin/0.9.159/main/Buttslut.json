@@ -15,16 +15,16 @@
     "key": "button|Next|0080404a5c5e",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07807775>>"
+    "context": "<<POS:07807775>> addButton(0,\"Next\",this.returnToInventory,\"Next\",\"\")"
   },
   {
-    "key": "output|n_n|bd607d7c0646",
-    "original": "\\n\\n",
+    "key": "button.hover|Next|0080404a5c5e",
+    "original": "Next",
     "translation": "",
-    "context": "<<POS:07810777>>"
+    "context": "<<POS:07807805>> addButton(0,\"Next\",this.returnToInventory,\"Next\",\"\")"
   },
   {
-    "key": "output|textify_n_n_0_C_Z_n_t_tYou_feel_a_sensation_of_spiders_H|e9ba6566a9ac",
+    "key": "output|textify_n_n_0_C_Z_n_t_tYou_feel_a_sensation_of_spiders_H|d20a1189e766",
     "original": "textify(n||(n=(0,C.Z)([\"\\n\\t\\tYou feel a sensation of spiders. Hundreds quickly scuttle over your [pc.face], trampling the tissue and contouring more tightly against your skull. When it’s over, you pull out your trusty Codex and notice that <b>your face is more angular and masculine than it used to be</b>.\\n\\t\\t\"])))",
     "translation": "",
     "context": "<<POS:07810926>>"
@@ -144,13 +144,7 @@
     "context": "<<POS:07829996>>"
   },
   {
-    "key": "output|n_n|f10246712a18",
-    "original": "\\n\\n",
-    "translation": "",
-    "context": "<<POS:07830749>>"
-  },
-  {
-    "key": "output|textify_T_T_0_C_Z_You_continue_waiting_patiently_for_about|e50de3d2b4b5",
+    "key": "output|textify_T_T_0_C_Z_You_continue_waiting_patiently_for_about|11b32978080c",
     "original": "textify(T||(T=(0,C.Z)([\"You continue waiting patiently for about 15 minutes. Every itch and errant twitch in your body is a possible sign of an oncoming change. However, nothing happens. \",\"t least you know now that the only way to be closer to a natural bothrioc, would mean capturing Myr in caves.\"])),this.fromHaswell()?\"Looks like you might have wasted your money, but a\":\"A\")",
     "translation": "",
     "context": "<<POS:07830763>>"
@@ -159,6 +153,12 @@
     "key": "button|Next|d0f88860926d",
     "original": "Next",
     "translation": "",
-    "context": "<<POS:07831170>>"
+    "context": "<<POS:07831170>> addButton(0,\"Next\",this.returnToInventory,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|d0f88860926d",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:07831200>> addButton(0,\"Next\",this.returnToInventory,\"Next\",\"\")"
   }
 ]

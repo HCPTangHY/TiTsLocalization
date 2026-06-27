@@ -3,7 +3,7 @@
     "key": "button|Celise|d401fe8fab57",
     "original": "Celise",
     "translation": "",
-    "context": "<<POS:11460727>>"
+    "context": "<<POS:11460727>> addButton(e,\"Celise\",window.celiseFollowerInteractions)"
   },
   {
     "key": "combat|i_wrap_myself_around_your_o_cocksDescript_i|d3dce26410dd",
@@ -45,36 +45,54 @@
     "key": "perk|Fixed_CumQ|db19cd818783",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:11476604>>"
+    "context": "<<POS:11476604>> createPerk(\"Fixed CumQ\",5e4,0,0,0)"
   },
   {
     "key": "perk|Fixed_CumQ|ae8de53faa1a",
     "original": "Fixed CumQ",
     "translation": "",
-    "context": "<<POS:11489507>>"
+    "context": "<<POS:11489507>> createPerk(\"Fixed CumQ\",15e3)"
   },
   {
     "key": "button|Reaha|40c27bac7530",
     "original": "Reaha",
     "translation": "",
-    "context": "<<POS:11490284>>"
+    "context": "<<POS:11490284>> addButton(e,\"Reaha\",window.approachShipBoardReahaWhyDidntSavinCodeThisHeWasntExhaustedYesterday)"
   },
   {
     "key": "button|Reaha|9f6312467574",
     "original": "Reaha",
     "translation": "",
-    "context": "<<POS:11491642>>"
+    "context": "<<POS:11491642>> addButton(e,\"Reaha\",window.curedReahaApproach)"
   },
   {
     "key": "button|Sera|52bba0de2467",
     "original": "Sera",
     "translation": "",
-    "context": "<<POS:11499387>>"
+    "context": "<<POS:11499387>> addDisabledButton(e,\"Sera\",\"Sera\",\"She seems to be sick or something...\")"
   },
   {
-    "key": "button|Sera|e90e7c0f7786",
+    "key": "button.hover|She_seems_to_be_sick_or_something|2d6f5d5511ed",
+    "original": "She seems to be sick or something...",
+    "translation": "",
+    "context": "<<POS:11499401>> addDisabledButton(e,\"Sera\",\"Sera\",\"She seems to be sick or something...\")"
+  },
+  {
+    "key": "button|Sera|3af29c6b4800",
     "original": "Sera",
     "translation": "",
-    "context": "<<POS:11499695>>"
+    "context": "<<POS:11499695>> addButton(e,\"Sera\",(function(){return window.approachServantSera(!0)}),\"Sera\",\"Visit the demoness.\")"
+  },
+  {
+    "key": "button.hover|Sera|3af29c6b4800",
+    "original": "Sera",
+    "translation": "",
+    "context": "<<POS:11499754>> addButton(e,\"Sera\",(function(){return window.approachServantSera(!0)}),\"Sera\",\"Visit the demoness.\")"
+  },
+  {
+    "key": "button.tooltip|Visit_the_demoness|4a719551a003",
+    "original": "Visit the demoness.",
+    "translation": "",
+    "context": "<<POS:11499761>> addButton(e,\"Sera\",(function(){return window.approachServantSera(!0)}),\"Sera\",\"Visit the demoness.\")"
   }
 ]
