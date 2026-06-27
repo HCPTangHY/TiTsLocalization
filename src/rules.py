@@ -500,6 +500,10 @@ _FIELD = {
     'text': 'button.text',
     'ttB':  'button.ttB',
     'dttB': 'button.dttB',
+    'title': 'ui.title',
+    'statName': 'ui.stat',
+    'statTitle': 'ui.stat.title',
+    'placeholder': 'ui.placeholder',
 }
 
 
