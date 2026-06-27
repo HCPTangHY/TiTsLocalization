@@ -7,12 +7,24 @@ on:
         description: 'Chinese version label (e.g. 0.1.0)'
         required: false
         default: 'nightly'
+      source_tag:
+        description: 'Source release tag (e.g. source-0.9.159-d7896009). Leave empty for latest.'
+        required: false
+        default: ''
 
+# The workflow is split by platform so Electron, Web, and APK packaging can run
+# in parallel after one shared translation replacement pass. Artifacts carry the
+# verified JS and source tarball forward so every platform uses the same input.
 jobs:
-  build:
+  prepare:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
+    outputs:
+      version: ${{ steps.source.outputs.version }}
+      main_hash: ${{ steps.source.outputs.main_hash }}
+      chs_version: ${{ steps.meta.outputs.chs_version }}
+      source_tag: ${{ steps.source.outputs.tag }}
     env:
       PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
       PARATRANZ_PROJECT: ${{ secrets.PARATRANZ_PROJECT }}
@@ -25,79 +37,148 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install requests
-
+      # Node.js is installed only in prepare because acorn-based JS syntax
+      # verification is the only step that needs Node.
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      # ── 1. Get baseline source from latest source-* release ──
+      - name: Install Python dependencies
+        run: pip install requests
+
+      - name: Resolve Chinese version label
+        id: meta
+        run: |
+          CHS="${{ github.event.inputs.chinese_version }}"
+          if [ -z "$CHS" ]; then
+            CHS="nightly"
+          fi
+          echo "chs_version=$CHS" >> "$GITHUB_OUTPUT"
+
+      - name: Download translations
+        id: translations
+        run: |
+          python src/pz_download.py --output trans_origin/current/
+
       - name: Download source release
         id: source
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          # Find latest source-* release
-          TAG=$(gh release list --limit 50 --json tagName -q '.[].tagName' | grep '^source-' | head -1)
+          INPUT_TAG="${{ github.event.inputs.source_tag }}"
+          PZ_VER="${{ steps.translations.outputs.pz_version }}"
+          TAG=""
+
+          if [ -n "$INPUT_TAG" ]; then
+            TAG="$INPUT_TAG"
+            echo "Using specified source tag: $TAG"
+          elif [ -n "$PZ_VER" ]; then
+            TAG=$(gh release list --limit 50 --json tagName -q '.[].tagName' | grep "^source-${PZ_VER}-" | head -1 || true)
+            echo "Matched source tag by PZ version ($PZ_VER): $TAG"
+          fi
+
           if [ -z "$TAG" ]; then
-            echo "❌ No source release found. Run check-update workflow first."
+            TAG=$(gh release list --limit 50 --json tagName -q '.[].tagName' | grep '^source-' | sort -rV | head -1 || true)
+            echo "Fallback to latest source tag: $TAG"
+          fi
+
+          if [ -z "$TAG" ]; then
+            echo "No source release found. Run check-update workflow first."
             exit 1
           fi
-          echo "Using source release: $TAG"
-          echo "tag=$TAG" >> $GITHUB_OUTPUT
 
-          # Extract version and hash from tag: source-{version}-{hash}
-          VERSION=$(echo "$TAG" | sed 's/source-//;s/-[a-f0-9]*$//')
-          MAIN_HASH=$(echo "$TAG" | grep -oP '[a-f0-9]+$')
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
-          echo "main_hash=$MAIN_HASH" >> $GITHUB_OUTPUT
+          VERSION=$(echo "$TAG" | sed -E 's/^source-//;s/-[a-f0-9]+$//')
+          MAIN_HASH=$(echo "$TAG" | grep -oE '[a-f0-9]+$' || true)
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "main_hash=$MAIN_HASH" >> "$GITHUB_OUTPUT"
+          echo "Using source release: $TAG"
           echo "Version: $VERSION, Hash: $MAIN_HASH"
 
-          # Download source archive
-          gh release download "$TAG" --pattern "tits-source-*.tar.gz"
-          mkdir -p source/$VERSION
-          tar xzf tits-source-*.tar.gz -C source/$VERSION/
-          echo "Extracted $(ls source/$VERSION/*.js | wc -l) JS files"
-
-      # ── 2. Download translations from ParaTranz ──
-      - name: Download translations
-        run: |
-          VERSION=${{ steps.source.outputs.version }}
-          python src/pz_download.py --output trans_origin/$VERSION/
-
-      # ── 3. Run replacer ──
-      - name: Replace translations
-        id: replace
-        run: |
-          VERSION=${{ steps.source.outputs.version }}
-          python src/pipeline.py -v $VERSION replace --root .
-
-      # ── 4. Syntax check ──
-      - name: Verify JS syntax
-        run: |
-          VERSION=${{ steps.source.outputs.version }}
-          ERRORS=0
-          for f in dist/$VERSION/*.js; do
-            if ! node --check "$f" 2>/dev/null; then
-              echo "❌ Syntax error in $(basename $f)"
-              # Find which translation broke it
-              COL=$(node --check "$f" 2>&1 | grep -oP ':\d+' | tail -1 | tr -d ':')
-              if [ -n "$COL" ]; then
-                echo "  Error near byte offset $COL"
-              fi
-              ERRORS=$((ERRORS + 1))
-            fi
-          done
-          if [ $ERRORS -gt 0 ]; then
-            echo "❌ $ERRORS files have syntax errors"
+          mkdir -p source-release "source/$VERSION"
+          gh release download "$TAG" --pattern "tits-source-*.tar.gz" --dir source-release
+          TARBALL=$(find source-release -maxdepth 1 -name 'tits-source-*.tar.gz' -print -quit)
+          if [ -z "$TARBALL" ]; then
+            echo "No source tarball downloaded from $TAG"
             exit 1
           fi
-          echo "✅ All JS files pass syntax check"
+          tar xzf "$TARBALL" -C "source/$VERSION/"
+          JS_COUNT=$(find "source/$VERSION" -maxdepth 1 -name '*.js' | wc -l)
+          echo "Extracted $JS_COUNT JS files"
 
-      # ── 5. Package for each platform ──
-      - name: Download Electron packages
+          # Download pz_origin for whitelist filtering
+          PZ_TARBALL=$(gh release download "$TAG" --pattern "tits-pz-origin-*.tar.gz" --dir source-release 2>&1 &&             find source-release -maxdepth 1 -name 'tits-pz-origin-*.tar.gz' -print -quit || true)
+          PZ_TARBALL=$(find source-release -maxdepth 1 -name 'tits-pz-origin-*.tar.gz' -print -quit)
+          if [ -n "$PZ_TARBALL" ]; then
+            mkdir -p "pz_origin/$VERSION"
+            tar xzf "$PZ_TARBALL" -C "pz_origin/$VERSION/"
+            PZ_COUNT=$(find "pz_origin/$VERSION" -name '*.json' | wc -l)
+            echo "Extracted $PZ_COUNT pz_origin JSON files for whitelist"
+          else
+            echo "WARNING: No pz_origin tarball in release, whitelist filtering disabled"
+          fi
+
+      # The original source tarball is uploaded as an artifact so downstream
+      # jobs can inspect the same baseline JS without reselecting a release.
+      - name: Upload source tarball artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-tarball
+          path: source-release/tits-source-*.tar.gz
+          retention-days: 3
+
+      - name: Replace translations
+        run: |
+          VERSION="${{ steps.source.outputs.version }}"
+          if [ -d "trans_origin/current" ] && [ "$VERSION" != "current" ]; then
+            mkdir -p "trans_origin/$VERSION"
+            cp -r trans_origin/current/. "trans_origin/$VERSION/"
+          fi
+          python src/pipeline.py -v "$VERSION" replace --root .
+
+      - name: Verify JS syntax
+        run: |
+          VERSION="${{ steps.source.outputs.version }}"
+          npm install --no-save acorn
+          node src/verify_js.js dist/$VERSION/*.js
+
+      # Dist JS is uploaded only after syntax verification so every build job
+      # consumes the same verified translated Electron bundle.
+      - name: Upload dist JS artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-js
+          path: dist/${{ steps.source.outputs.version }}/*.js
+          retention-days: 3
+
+  build-electron:
+    needs: prepare
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Download dist JS artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: dist-js
+          path: dist-js
+
+      - name: Download source tarball artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: source-tarball
+          path: source-release
+
+      - name: Extract source artifact
+        run: |
+          VERSION="${{ needs.prepare.outputs.version }}"
+          mkdir -p "source/$VERSION"
+          tar xzf source-release/tits-source-*.tar.gz -C "source/$VERSION/"
+          JS_COUNT=$(find "source/$VERSION" -maxdepth 1 -name '*.js' | wc -l)
+          echo "Source JS available: $JS_COUNT files"
+
+      - name: Download official Electron packages
         run: |
           mkdir -p packages
           echo "Downloading Electron Windows..."
@@ -106,135 +187,345 @@ jobs:
           echo "Downloading Electron Linux..."
           curl -sL -A 'Mozilla/5.0' -o packages/electron-linux.tar.gz \
             'https://www.fenoxo.com/play/latest_tits_electron_linux.php'
-          echo "Downloading Android APK..."
-          curl -sL -A 'Mozilla/5.0' -o packages/android.apk \
-            'https://www.fenoxo.com/play/latest_tits_android.php'
           ls -lh packages/
 
-      - name: Build Electron Windows package
+      - name: Build Electron packages
         run: |
-          VERSION=${{ steps.source.outputs.version }}
-          CHS="${{ github.event.inputs.chinese_version || 'nightly' }}"
-          cd packages
-          unzip -q electron-win.zip -d electron-win/
-          # Find resources/app/ and replace JS files
-          APP_DIR=$(find electron-win -type d -name app -path '*/resources/app' | head -1)
-          if [ -z "$APP_DIR" ]; then
-            echo "❌ Cannot find resources/app/ in Electron package"
+          VERSION="${{ needs.prepare.outputs.version }}"
+          CHS="${{ needs.prepare.outputs.chs_version }}"
+
+          replace_js() {
+            APP_DIR="$1"
+            COUNT=0
+            while IFS= read -r f; do
+              BASE=$(basename "$f")
+              PREFIX="${BASE%%.*}"
+              MATCH=$(find "$APP_DIR" -type f -name "$BASE" | head -1)
+              if [ -z "$MATCH" ]; then
+                MATCH=$(find "$APP_DIR" -type f -name "${PREFIX}.*.js" | head -1)
+              fi
+              if [ -n "$MATCH" ]; then
+                cp "$f" "$MATCH"
+                COUNT=$((COUNT + 1))
+                echo "  Replaced: ${MATCH#$APP_DIR/}"
+              else
+                echo "  WARN: no match for $BASE"
+              fi
+            done < <(find dist-js -type f -name '*.js' | sort)
+
+            if [ "$COUNT" -eq 0 ]; then
+              echo "No translated JS files were injected into $APP_DIR"
+              exit 1
+            fi
+          }
+
+          # Prefix matching keeps replacement stable when official packages use
+          # different hashed JS filenames from the source artifact.
+          mkdir -p packages/electron-win
+          unzip -q packages/electron-win.zip -d packages/electron-win/
+          WIN_APP_DIR=$(find packages/electron-win -type d -name app -path '*/resources/app' | head -1)
+          if [ -z "$WIN_APP_DIR" ]; then
+            echo "Cannot find resources/app/ in Electron Windows package"
             exit 1
           fi
-          echo "Found app dir: $APP_DIR"
-          for f in ../dist/$VERSION/*.js; do
-            BASE=$(basename "$f")
-            # Find matching file (same name prefix, possibly different hash)
-            MATCH=$(find "$APP_DIR" -name "${BASE%%.*}.*" -name '*.js' | head -1)
-            if [ -n "$MATCH" ]; then
-              cp "$f" "$MATCH"
-              echo "  Replaced: $(basename $MATCH)"
-            fi
-          done
-          # Repackage
-          cd electron-win
-          zip -qr "../../TiTS-CHS-${VERSION}-${CHS}-win.zip" .
-          cd ..
-          echo "✅ Windows package ready"
+          replace_js "$WIN_APP_DIR"
+          (cd packages/electron-win && zip -qr "../../TiTS-CHS-${VERSION}-${CHS}-win.zip" .)
 
-      - name: Build Electron Linux package
-        run: |
-          VERSION=${{ steps.source.outputs.version }}
-          CHS="${{ github.event.inputs.chinese_version || 'nightly' }}"
-          cd packages
-          mkdir electron-linux
-          tar xzf electron-linux.tar.gz -C electron-linux/
-          APP_DIR=$(find electron-linux -type d -name app -path '*/resources/app' | head -1)
-          if [ -z "$APP_DIR" ]; then
-            echo "❌ Cannot find resources/app/ in Electron package"
+          mkdir -p packages/electron-linux
+          tar xzf packages/electron-linux.tar.gz -C packages/electron-linux/
+          LINUX_APP_DIR=$(find packages/electron-linux -type d -name app -path '*/resources/app' | head -1)
+          if [ -z "$LINUX_APP_DIR" ]; then
+            echo "Cannot find resources/app/ in Electron Linux package"
             exit 1
           fi
-          for f in ../dist/$VERSION/*.js; do
+          replace_js "$LINUX_APP_DIR"
+          (cd packages/electron-linux && tar czf "../../TiTS-CHS-${VERSION}-${CHS}-linux.tar.gz" .)
+
+      - name: Upload Electron package artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: package-electron
+          path: |
+            TiTS-CHS-*-win.zip
+            TiTS-CHS-*-linux.tar.gz
+          retention-days: 3
+
+  build-web:
+    needs: prepare
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download dist JS artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: dist-js
+          path: dist-js
+
+      - name: Download source tarball artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: source-tarball
+          path: source-release
+
+      - name: Extract source artifact
+        run: |
+          VERSION="${{ needs.prepare.outputs.version }}"
+          mkdir -p "source/$VERSION"
+          tar xzf source-release/tits-source-*.tar.gz -C "source/$VERSION/"
+          JS_COUNT=$(find "source/$VERSION" -maxdepth 1 -name '*.js' | wc -l)
+          echo "Source JS available: $JS_COUNT files"
+
+      - name: Download official Electron Linux package
+        run: |
+          mkdir -p packages
+          curl -sL -A 'Mozilla/5.0' -o packages/electron-linux.tar.gz \
+            'https://www.fenoxo.com/play/latest_tits_electron_linux.php'
+          ls -lh packages/
+
+      - name: Build Web package
+        run: |
+          VERSION="${{ needs.prepare.outputs.version }}"
+          CHS="${{ needs.prepare.outputs.chs_version }}"
+
+          mkdir -p packages/electron-linux
+          tar xzf packages/electron-linux.tar.gz -C packages/electron-linux/
+          APP_DIR=$(find packages/electron-linux -type d -name app -path '*/resources/app' | head -1)
+          if [ -z "$APP_DIR" ]; then
+            echo "Cannot find resources/app/ in Electron Linux package"
+            exit 1
+          fi
+          cp -r "$APP_DIR" web-build
+
+          COUNT=0
+          while IFS= read -r f; do
             BASE=$(basename "$f")
-            MATCH=$(find "$APP_DIR" -name "${BASE%%.*}.*" -name '*.js' | head -1)
+            PREFIX="${BASE%%.*}"
+            MATCH=$(find web-build -type f -name "$BASE" | head -1)
+            if [ -z "$MATCH" ]; then
+              MATCH=$(find web-build -type f -name "${PREFIX}.*.js" | head -1)
+            fi
             if [ -n "$MATCH" ]; then
               cp "$f" "$MATCH"
-              echo "  Replaced: $(basename $MATCH)"
+              COUNT=$((COUNT + 1))
+              echo "  Replaced: ${MATCH#web-build/}"
+            else
+              echo "  WARN: no match for $BASE"
             fi
-          done
-          cd electron-linux
-          tar czf "../../TiTS-CHS-${VERSION}-${CHS}-linux.tar.gz" .
-          cd ..
-          echo "✅ Linux package ready"
+          done < <(find dist-js -type f -name '*.js' | sort)
 
-      - name: Build Android package
-        run: |
-          VERSION=${{ steps.source.outputs.version }}
-          CHS="${{ github.event.inputs.chinese_version || 'nightly' }}"
-          cd packages
-          mkdir android-tmp
-          cp android.apk android-tmp/game.apk
-          cd android-tmp
-          # APK is a zip — inject translated JS
-          # First find where JS files live in the APK
-          JS_PATH=$(unzip -l game.apk | grep -oP '\S+main\.[a-f0-9]+\.js' | head -1)
-          if [ -z "$JS_PATH" ]; then
-            echo "⚠️ Cannot locate JS in APK, skipping Android build"
-            cd ../..
-            exit 0
+          if [ "$COUNT" -eq 0 ]; then
+            echo "No translated JS files were injected into web-build"
+            exit 1
           fi
-          JS_DIR=$(dirname "$JS_PATH")
-          echo "JS dir in APK: $JS_DIR"
-          mkdir -p inject/$JS_DIR
-          for f in ../../dist/$VERSION/*.js; do
+
+          # Web uses its own patch script so the browser package gets a
+          # localStorage-backed electronAPI shim rather than APK file storage.
+          python3 src/patch_web.py web-build/index.html "$VERSION"
+          (cd web-build && zip -qr "../TiTS-CHS-${VERSION}-${CHS}-web.zip" .)
+
+      - name: Upload Web package artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: package-web
+          path: TiTS-CHS-*-web.zip
+          retention-days: 3
+
+  build-apk:
+    needs: prepare
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Android signing tools are installed only here because no other platform
+      # needs zipalign or apksigner.
+      - name: Install Android signing tools
+        run: sudo apt-get update && sudo apt-get install -y zipalign apksigner
+
+      - name: Download dist JS artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: dist-js
+          path: dist-js
+
+      - name: Download source tarball artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: source-tarball
+          path: source-release
+
+      - name: Extract source artifact
+        run: |
+          VERSION="${{ needs.prepare.outputs.version }}"
+          mkdir -p "source/$VERSION"
+          tar xzf source-release/tits-source-*.tar.gz -C "source/$VERSION/"
+          JS_COUNT=$(find "source/$VERSION" -maxdepth 1 -name '*.js' | wc -l)
+          echo "Source JS available: $JS_COUNT files"
+
+      - name: Download official Android APK
+        run: |
+          mkdir -p packages
+          curl -sL -A 'Mozilla/5.0' -o packages/android.apk \
+            'https://www.fenoxo.com/play/latest_tits_android.php'
+          ls -lh packages/android.apk
+
+      - name: Build and sign Android APK
+        run: |
+          VERSION="${{ needs.prepare.outputs.version }}"
+          CHS="${{ needs.prepare.outputs.chs_version }}"
+          UNSIGNED="TiTS-CHS-${VERSION}-${CHS}-android-unsigned.apk"
+          ALIGNED="TiTS-CHS-${VERSION}-${CHS}-android-aligned.apk"
+          SIGNED="TiTS-CHS-${VERSION}-${CHS}-android.apk"
+
+          # Copy APK, then inject Electron JS files directly with their own filenames
+          cp packages/android.apk game.apk
+
+          # Find APK app directory
+          APK_INDEX=$(unzip -l game.apk | grep -oP '\S+index\.html' | head -1)
+          if [ -z "$APK_INDEX" ]; then
+            echo "Cannot locate index.html in APK"
+            exit 1
+          fi
+          APK_APP_DIR=$(dirname "$APK_INDEX")
+          echo "APK index: $APK_INDEX (app dir: $APK_APP_DIR)"
+
+          # Inject Electron JS files using their original names (not APK's hash names)
+          # Runtime contains chunk hash mappings that must match the JS filenames
+          mkdir -p "inject/$APK_APP_DIR"
+          COUNT=0
+          while IFS= read -r f; do
             BASE=$(basename "$f")
-            # Find matching file in APK
-            MATCH=$(unzip -l game.apk | grep -oP "\S+${BASE%%.*}\.[a-f0-9]+\.js" | head -1)
-            if [ -n "$MATCH" ]; then
-              cp "$f" "inject/$MATCH"
-              echo "  Prepared: $MATCH"
-            fi
-          done
-          # Inject files into APK
+            cp "$f" "inject/$APK_APP_DIR/$BASE"
+            COUNT=$((COUNT + 1))
+            echo "  Injected: $APK_APP_DIR/$BASE"
+          done < <(find dist-js -type f -name '*.js' | sort)
+          echo "Injected $COUNT JS files"
+
+          # Extract and patch index.html
+          unzip -o game.apk "$APK_INDEX" -d inject/
+          # Update script references to use Electron filenames
+          RUNTIME_JS=$(ls inject/$APK_APP_DIR/runtime.*.js 2>/dev/null | head -1 | xargs basename)
+          VENDORS_JS=$(ls inject/$APK_APP_DIR/vendors.*.js 2>/dev/null | head -1 | xargs basename)
+          MAIN_JS=$(ls inject/$APK_APP_DIR/main.*.js 2>/dev/null | grep -v 'main\.js$' | head -1 | xargs basename)
+          echo "Electron JS: runtime=$RUNTIME_JS vendors=$VENDORS_JS main=$MAIN_JS"
+
+          # Replace script src references in index.html
+          if [ -n "$RUNTIME_JS" ]; then
+            sed -i "s|src=\"\./runtime\.[a-f0-9]*\.js\"|src=\"./$RUNTIME_JS\"|g" "inject/$APK_INDEX"
+          fi
+          if [ -n "$VENDORS_JS" ]; then
+            sed -i "s|src=\"\./vendors\.[a-f0-9]*\.js\"|src=\"./$VENDORS_JS\"|g" "inject/$APK_INDEX"
+          fi
+          if [ -n "$MAIN_JS" ]; then
+            sed -i "s|src=\"\./main\.[a-f0-9]*\.js\"|src=\"./$MAIN_JS\"|g" "inject/$APK_INDEX"
+          fi
+
+          # Apply Cordova patch
+          python3 src/patch_apk.py "inject/$APK_INDEX" "$VERSION"
+
+          # Inject all files into APK using zip -u
           cd inject
-          zip -u ../game.apk $(find . -name '*.js' -printf '%P\n')
+          find . -type f | while read file; do
+            zip -u ../game.apk "${file#./}"
+          done
           cd ..
+
           # Remove old signature
           zip -d game.apk 'META-INF/*' 2>/dev/null || true
-          mv game.apk "../../TiTS-CHS-${VERSION}-${CHS}-android-unsigned.apk"
-          cd ../..
-          echo "✅ Android package ready (unsigned)"
+          mv game.apk "$UNSIGNED" 
 
-      # ── 6. Release ──
+          if [ -z "${{ secrets.APK_KEYSTORE_BASE64 }}" ]; then
+            echo "Missing APK_KEYSTORE_BASE64 secret"
+            exit 1
+          fi
+          echo "${{ secrets.APK_KEYSTORE_BASE64 }}" | base64 -d > signing.keystore
+          zipalign -p -f 4 "$UNSIGNED" "$ALIGNED"
+          apksigner sign --ks signing.keystore \
+            --ks-pass "pass:${{ secrets.APK_KEYSTORE_PASSWORD }}" \
+            --ks-key-alias "${{ secrets.APK_KEY_ALIAS }}" \
+            --key-pass "pass:${{ secrets.APK_KEY_PASSWORD }}" \
+            --out "$SIGNED" "$ALIGNED"
+          apksigner verify "$SIGNED"
+          rm -f "$UNSIGNED" "$ALIGNED" signing.keystore
+
+      - name: Upload Android package artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: package-apk
+          path: TiTS-CHS-*-android.apk
+          retention-days: 3
+
+  release:
+    needs: [prepare, build-electron, build-web, build-apk]
+    if: always()
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # The release job always starts, then downloads whichever platform
+      # artifacts exist so one failed platform does not block successful ones.
+      - name: Download package artifacts
+        if: ${{ needs.prepare.result == 'success' && (needs.build-electron.result == 'success' || needs.build-web.result == 'success' || needs.build-apk.result == 'success') }}
+        uses: actions/download-artifact@v4
+        with:
+          pattern: package-*
+          path: release-assets
+          merge-multiple: true
+
+      - name: Collect release assets
+        id: assets
+        if: ${{ needs.prepare.result == 'success' && (needs.build-electron.result == 'success' || needs.build-web.result == 'success' || needs.build-apk.result == 'success') }}
+        run: |
+          find release-assets -maxdepth 1 -type f -print | sort
+          COUNT=$(find release-assets -maxdepth 1 -type f | wc -l)
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          if [ "$COUNT" -gt 0 ]; then
+            echo "has_assets=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_assets=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Get current date
         id: date
-        run: echo "date=$(date +'%Y%m%d')" >> $GITHUB_OUTPUT
+        if: ${{ steps.assets.outputs.has_assets == 'true' }}
+        run: echo "date=$(date +'%Y%m%d')" >> "$GITHUB_OUTPUT"
 
       - name: Cleanup old build releases
+        if: ${{ steps.assets.outputs.has_assets == 'true' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          VERSION=${{ steps.source.outputs.version }}
-          CHS="${{ github.event.inputs.chinese_version || 'nightly' }}"
-          # Clean up previous release with same version
+          VERSION="${{ needs.prepare.outputs.version }}"
           gh release list --limit 50 --json tagName -q '.[].tagName' \
             | grep "^${VERSION}-chs" \
-            | while read tag; do
+            | while read -r tag; do
                 echo "Deleting old release: $tag"
                 gh release delete "$tag" -y --cleanup-tag || true
               done || true
 
       - name: Create release
+        if: ${{ steps.assets.outputs.has_assets == 'true' }}
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ steps.source.outputs.version }}-chs-${{ github.event.inputs.chinese_version || 'nightly' }}
-          name: "TiTS ${{ steps.source.outputs.version }} 汉化 ${{ github.event.inputs.chinese_version || 'nightly' }}"
+          tag_name: ${{ needs.prepare.outputs.version }}-chs-${{ needs.prepare.outputs.chs_version }}
+          name: "TiTS ${{ needs.prepare.outputs.version }} CHS ${{ needs.prepare.outputs.chs_version }}"
           body: |
-            游戏版本: ${{ steps.source.outputs.version }}
-            汉化版本: ${{ github.event.inputs.chinese_version || 'nightly' }}
-            基准 hash: ${{ steps.source.outputs.main_hash }}
-            构建日期: ${{ steps.date.outputs.date }}
-            
-            ⚠️ Android 包未签名，需要自行签名后安装
+            Game version: ${{ needs.prepare.outputs.version }}
+            Chinese version: ${{ needs.prepare.outputs.chs_version }}
+            Baseline hash: ${{ needs.prepare.outputs.main_hash }}
+            Build date: ${{ steps.date.outputs.date }}
+
+            Electron build: ${{ needs.build-electron.result }}
+            Web build: ${{ needs.build-web.result }}
+            APK build: ${{ needs.build-apk.result }}
           files: |
-            TiTS-CHS-*.zip
-            TiTS-CHS-*.tar.gz
-            TiTS-CHS-*.apk
+            release-assets/TiTS-CHS-*.zip
+            release-assets/TiTS-CHS-*.tar.gz
+            release-assets/TiTS-CHS-*.apk
           prerelease: true
