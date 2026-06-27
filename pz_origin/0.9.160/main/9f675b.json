@@ -1,1 +1,68 @@
-[{"key": "assign|Aphro_Daisy|701697b76442", "original": "Aphro Daisy", "translation": "", "context": "<<POS:05903926>> shortName=\"AphroD.\",e.longName='Aphro Daisy'"}, {"key": "assign|an_Aphro_Daisy|8090c6ada24c", "original": "an Aphro Daisy", "translation": "", "context": "<<POS:05904011>> ase(e.longName)),e.description='an Aphro Daisy'"}, {"key": "assign|This_gentle_flower_with_wavy_pink_petals_emits_a_scent_that_remi|30eb56cbdf3e", "original": "This gentle flower with wavy pink petals emits a scent that reminds you of the lust-inducing pheromones of the female korgonne. One whiff of this is guaranteed to force any opponent to think about something else.\\n\\n40 lust damage.", "translation": "", "context": "<<POS:05904038>> ion=\"an Aphro Daisy\",e.tooltip='This gentle flower with wavy pink petals emits a scent that '"}, {"key": "output|You_don_t_have_anyone_to_use_this_on_right_now|917d1e2eec16", "original": "You don’t have anyone to use this on right now.", "translation": "", "context": "<<POS:05904768>> output(\"You don’t have anyone to use this on right now.\\n\")"}, {"key": "output.expr|var0_var1_considers_it_unwise_to_waste_the_flower_outside|0b1214cd938d", "original": "{var0}+{var1}+\" considers it unwise to waste the flower outside of combat.", "translation": "", "context": "<<POS:05904828>> <<VARS:var0=t.capitalA,var1=t.short>> output(t.capitalA+t.short+\" considers it unwise to waste the flower outside of combat.\\n\")"}, {"key": "combat|It_seems_you_have_no_target_to_use_your_Aphro_Daisy_on_null_t|569e665270f6", "original": "It seems you have no target to use your Aphro Daisy on.\",null,t", "translation": "", "context": "<<POS:05905103>> combatOutput(\"It seems you have no target to use your Aphro Daisy on.\",null,t)"}, {"key": "combat.expr|var1_capitalize_var0_produces_an_Aphro_Daisy_but_with_n|9b6a706f5a2d", "original": "{var1}.capitalize({var0})+\" produces an Aphro Daisy - but with no target to use it on, \"+{var2}.mfn(\"he\",\"she\",\"it\")+\" puts it away.\",null,t", "translation": "", "context": "<<POS:05905181>> <<VARS:var0=t.getCombatName(),!1,var1=h.m,var2=t>> combatOutput(h.m.capitalize(t.getCombatName(),!1)+\" produces an Aphro Daisy - but with no target to use it on, \"+t.mfn(\"he\",\"she\",\"it\")+\" puts it away.\",null,t)"}, {"key": "combat.expr|You_pull_out_an_Aphro_Daisy_and_huck_it_in_the_direction_of_v|e53273392673", "original": "You pull out an Aphro Daisy and huck it in the direction of \"+{var0}.getCombatName()+\".\",null,t", "translation": "", "context": "<<POS:05905419>> <<VARS:var0=n>> combatOutput(\"You pull out an Aphro Daisy and huck it in the direction of \"+n.getCombatName()+\".\",null,t)"}, {"key": "output.expr|var1_capitalize_var0_produces_an_Aphro_Daisy_and_hucks_it|1e7b510b2861", "original": "{var1}.capitalize({var0})+\" produces an Aphro Daisy and hucks it in your direction!", "translation": "", "context": "<<POS:05905555>> <<VARS:var0=t.getCombatName(),!1,var1=h.m>> output(h.m.capitalize(t.getCombatName(),!1)+\" produces an Aphro Daisy and hucks it in your direction!\")"}, {"key": "combat.expr|var1_capitalize_var0_produces_an_Aphro_Daisy_and_hucks_it|9f9edcbb3d81", "original": "{var1}.capitalize({var0})+\" produces an Aphro Daisy and hucks it in the direction of \"+{var2}.getCombatName()+\"!\",null,t", "translation": "", "context": "<<POS:05905665>> <<VARS:var0=t.getCombatName(),!1,var1=h.m,var2=n>> combatOutput(h.m.capitalize(t.getCombatName(),!1)+\" produces an Aphro Daisy and hucks it in the direction of \"+n.getCombatName()+\"!\",null,t)"}, {"key": "combat.expr|var0_var1_var2_are_is_caught_in_the_explosi|f59b7ca2f449", "original": " \"+{var0}+{var1}+\" \"+({var2}?\"are\":\"is\")+\" caught in the explosion of pink mist!\",null,e", "translation": "", "context": "<<POS:05905945>> <<VARS:var0=e.capitalA,var1=e.uniqueName,var2=e.isPlural>> combatOutput(\" \"+e.capitalA+e.uniqueName+\" \"+(e.isPlural?\"are\":\"is\")+\" caught in the explosion of pink mist!\",null,e)"}]
+[
+  {
+    "key": "assign|Aphro_Daisy|701697b76442",
+    "original": "Aphro Daisy",
+    "translation": "",
+    "context": "<<POS:05903926>> shortName=\"AphroD.\",e.longName='Aphro Daisy'"
+  },
+  {
+    "key": "assign|an_Aphro_Daisy|8090c6ada24c",
+    "original": "an Aphro Daisy",
+    "translation": "",
+    "context": "<<POS:05904011>> ase(e.longName)),e.description='an Aphro Daisy'"
+  },
+  {
+    "key": "assign|This_gentle_flower_with_wavy_pink_petals_emits_a_scent_that_remi|30eb56cbdf3e",
+    "original": "This gentle flower with wavy pink petals emits a scent that reminds you of the lust-inducing pheromones of the female korgonne. One whiff of this is guaranteed to force any opponent to think about something else.\\n\\n40 lust damage.",
+    "translation": "",
+    "context": "<<POS:05904038>> ion=\"an Aphro Daisy\",e.tooltip='This gentle flower with wavy pink petals emits a scent that '"
+  },
+  {
+    "key": "output|You_don_t_have_anyone_to_use_this_on_right_now|917d1e2eec16",
+    "original": "You don’t have anyone to use this on right now.",
+    "translation": "",
+    "context": "<<POS:05904768>> output(\"You don’t have anyone to use this on right now.\\n\")"
+  },
+  {
+    "key": "output.expr|var0_var1_considers_it_unwise_to_waste_the_flower_outside|0b1214cd938d",
+    "original": "{var0}+{var1}+\" considers it unwise to waste the flower outside of combat.",
+    "translation": "",
+    "context": "<<POS:05904828>> <<VARS:var0=t.capitalA,var1=t.short>> output(t.capitalA+t.short+\" considers it unwise to waste the flower outside of combat.\\n\")"
+  },
+  {
+    "key": "combat|It_seems_you_have_no_target_to_use_your_Aphro_Daisy_on|708ff0aaf20b",
+    "original": "It seems you have no target to use your Aphro Daisy on.",
+    "translation": "",
+    "context": "<<POS:05905103>> combatOutput(\"It seems you have no target to use your Aphro Daisy on.\",null,t)"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_produces_an_Aphro_Daisy_but_with_n|2756ba76c05a",
+    "original": "{var1}.capitalize({var0})+\" produces an Aphro Daisy - but with no target to use it on, \"+{var2}.mfn(\"he\",\"she\",\"it\")+\" puts it away.",
+    "translation": "",
+    "context": "<<POS:05905181>> <<VARS:var0=t.getCombatName(),!1,var1=h.m,var2=t>> combatOutput(h.m.capitalize(t.getCombatName(),!1)+\" produces an Aphro Daisy - but with no target to use it on, \"+t.mfn(\"he\",\"she\",\"it\")+\" puts it away.\",null,t)"
+  },
+  {
+    "key": "combat.expr|You_pull_out_an_Aphro_Daisy_and_huck_it_in_the_direction_of_v|e2c18dbfc253",
+    "original": "You pull out an Aphro Daisy and huck it in the direction of \"+{var0}.getCombatName()+\".",
+    "translation": "",
+    "context": "<<POS:05905419>> <<VARS:var0=n>> combatOutput(\"You pull out an Aphro Daisy and huck it in the direction of \"+n.getCombatName()+\".\",null,t)"
+  },
+  {
+    "key": "output.expr|var1_capitalize_var0_produces_an_Aphro_Daisy_and_hucks_it|fabf446aca14",
+    "original": "{var1}.capitalize({var0})+\" produces an Aphro Daisy and hucks it in your direction!",
+    "translation": "",
+    "context": "<<POS:05905555>> <<VARS:var0=t.getCombatName(),!1,var1=h.m>> output(h.m.capitalize(t.getCombatName(),!1)+\" produces an Aphro Daisy and hucks it in your direction!\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_produces_an_Aphro_Daisy_and_hucks_it|0bc2364a5b9f",
+    "original": "{var1}.capitalize({var0})+\" produces an Aphro Daisy and hucks it in the direction of \"+{var2}.getCombatName()+\"!",
+    "translation": "",
+    "context": "<<POS:05905665>> <<VARS:var0=t.getCombatName(),!1,var1=h.m,var2=n>> combatOutput(h.m.capitalize(t.getCombatName(),!1)+\" produces an Aphro Daisy and hucks it in the direction of \"+n.getCombatName()+\"!\",null,t)"
+  },
+  {
+    "key": "combat.expr|var0_var1_var2_are_is_caught_in_the_explosi|ff2a40765d66",
+    "original": " \"+{var0}+{var1}+\" \"+({var2}?\"are\":\"is\")+\" caught in the explosion of pink mist!",
+    "translation": "",
+    "context": "<<POS:05905945>> <<VARS:var0=e.capitalA,var1=e.uniqueName,var2=e.isPlural>> combatOutput(\" \"+e.capitalA+e.uniqueName+\" \"+(e.isPlural?\"are\":\"is\")+\" caught in the explosion of pink mist!\",null,e)"
+  }
+]

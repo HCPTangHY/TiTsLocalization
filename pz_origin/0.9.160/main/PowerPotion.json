@@ -1,1 +1,56 @@
-[{"key": "assign|Power_Potion|fe5010ebd443", "original": "Power Potion", "translation": "", "context": "<<POS:07528750>> hortName=\"P.Potion\",e.longName='Power Potion'"}, {"key": "assign|a_power_potion|2574709b0654", "original": "a power potion", "translation": "", "context": "<<POS:07528836>> ase(e.longName)),e.description='a power potion'"}, {"key": "assign|JoyCo_Power_Potion_gives_you_wangs_n_JoyCo_power_potion_does_no|99ead0e7b1ab", "original": "JoyCo Power Potion gives you wangs!\\n(JoyCo power potion does not actually give you wangs, except it might, that one time, but it’s not a guarantee.)", "translation": "", "context": "<<POS:07528863>> ion=\"a power potion\",e.tooltip='JoyCo Power Potion gives you wangs!\\\\n(JoyCo power potion doe'"}, {"key": "assign|You_take_it_and_crack_the_tab_open_and_are_instantly_overwhelme|0e78c5af1ffc", "original": "You take it and crack the tab open, and are instantly overwhelmed by the too-sweet taste of the sugary drink. The can is small enough to knock back its contents in a matter of moments, leaving a slightly burning aftertaste in your mouth as the “potion” goes down.", "translation": "", "context": "<<POS:07529335>> ter\"===e.getClassName()){var o='You take it and crack the tab open, and are instantly overwh'"}, {"key": "combat.expr|var0|cb7fabe859d7", "original": "{var0}", "translation": "", "context": "<<POS:07529903>> <<VARS:var0=o,null,e>> combatOutput(o,null,e)"}, {"key": "output.expr|var0|682b08bd06d1", "original": "{var0}", "translation": "", "context": "<<POS:07529935>> <<VARS:var0=o>> output(o)"}, {"key": "button|Next|648f6a4c46f8", "original": "Next", "translation": "", "context": "<<POS:07529997>> addButton(0,\"Next\",(function(){(new d.z).useFunction(e),window.inCombat()||addButton(0,\"Next\",mainGameMenu)}))"}, {"key": "combat.expr|var0|725f50c68bae", "original": "{var0}", "translation": "", "context": "<<POS:07530271>> <<VARS:var0=a,null,e>> combatOutput(a,null,e)"}, {"key": "output.expr|var0|682b08bd06d1#1", "original": "{var0}", "translation": "", "context": "<<POS:07530303>> <<VARS:var0=a>> output(a)"}]
+[
+  {
+    "key": "assign|Power_Potion|fe5010ebd443",
+    "original": "Power Potion",
+    "translation": "",
+    "context": "<<POS:07528750>> hortName=\"P.Potion\",e.longName='Power Potion'"
+  },
+  {
+    "key": "assign|a_power_potion|2574709b0654",
+    "original": "a power potion",
+    "translation": "",
+    "context": "<<POS:07528836>> ase(e.longName)),e.description='a power potion'"
+  },
+  {
+    "key": "assign|JoyCo_Power_Potion_gives_you_wangs_n_JoyCo_power_potion_does_no|99ead0e7b1ab",
+    "original": "JoyCo Power Potion gives you wangs!\\n(JoyCo power potion does not actually give you wangs, except it might, that one time, but it’s not a guarantee.)",
+    "translation": "",
+    "context": "<<POS:07528863>> ion=\"a power potion\",e.tooltip='JoyCo Power Potion gives you wangs!\\\\n(JoyCo power potion doe'"
+  },
+  {
+    "key": "assign|You_take_it_and_crack_the_tab_open_and_are_instantly_overwhelme|0e78c5af1ffc",
+    "original": "You take it and crack the tab open, and are instantly overwhelmed by the too-sweet taste of the sugary drink. The can is small enough to knock back its contents in a matter of moments, leaving a slightly burning aftertaste in your mouth as the “potion” goes down.",
+    "translation": "",
+    "context": "<<POS:07529335>> ter\"===e.getClassName()){var o='You take it and crack the tab open, and are instantly overwh'"
+  },
+  {
+    "key": "combat.expr|var0|cb7fabe859d7",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:07529903>> <<VARS:var0=o>> combatOutput(o,null,e)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:07529935>> <<VARS:var0=o>> output(o)"
+  },
+  {
+    "key": "button|Next|648f6a4c46f8",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:07529997>> addButton(0,\"Next\",(function(){(new d.z).useFunction(e),window.inCombat()||addButton(0,\"Next\",mainGameMenu)}))"
+  },
+  {
+    "key": "combat.expr|var0|725f50c68bae",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:07530271>> <<VARS:var0=a>> combatOutput(a,null,e)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:07530303>> <<VARS:var0=a>> output(a)"
+  }
+]

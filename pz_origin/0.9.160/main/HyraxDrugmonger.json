@@ -1,1 +1,98 @@
-[{"key": "assign|ero_gas_grenade|c28e235e8cc7", "original": "ero gas grenade", "translation": "", "context": "<<POS:05914277>> Name=\"E.GasGrenade\",e.longName='ero gas grenade'"}, {"key": "assign|an_Ero_gas_grenade|6d82593276e0", "original": "an Ero gas grenade", "translation": "", "context": "<<POS:05914366>> ase(e.longName)),e.description='an Ero gas grenade'"}, {"key": "assign|The_pharmaceutical_zaibatsu_Bright_Water_a_Limited_Liability_Co|bad92d5d9ca0", "original": "The pharmaceutical zaibatsu Bright Water (a Limited Liability Company) is better known for their medical services than their weapon production, but Ero Gas is one notable exception. Originally developed as an aerosol painkiller, the gas was found to produce an intense and pervasive sexual stimulation on the volunteered test subjects. Due to its (relatively) harmless collateral damage, Peacekeepers are known to toss belts full of Ero Gas at mobs and let them fuck themselves into compliance.\\n\\n45 lust damage.\\nPossible 6 damage/turn DoT.\\n\\tLasts 3 turns.", "translation": "", "context": "<<POS:05914397>> \"an Ero gas grenade\",e.tooltip='The pharmaceutical zaibatsu Bright Water (a Limited Liabilit'"}, {"key": "output|You_don_t_have_anyone_to_use_this_on_right_now|55cad4ab3249", "original": "You don’t have anyone to use this on right now.", "translation": "", "context": "<<POS:05915591>> output(\"You don’t have anyone to use this on right now.\\n\")"}, {"key": "output.expr|var0_var1_considers_it_unwise_to_waste_the_grenade_outside|9d9e43183801", "original": "{var0}+{var1}+\" considers it unwise to waste the grenade outside of combat.", "translation": "", "context": "<<POS:05915652>> <<VARS:var0=t.capitalA,var1=t.short>> output(t.capitalA+t.short+\" considers it unwise to waste the grenade outside of combat.\\n\")"}, {"key": "combat|It_seems_you_have_no_target_to_use_your_Ero_gas_grenade_on_nul|fb5478e1c095", "original": "It seems you have no target to use your Ero gas grenade on.\",null,t", "translation": "", "context": "<<POS:05915983>> combatOutput(\"It seems you have no target to use your Ero gas grenade on.\",null,t)"}, {"key": "combat.expr|var1_capitalize_var0_produces_an_Ero_gas_grenade_but_wi|d045c91e1775", "original": "{var1}.capitalize({var0})+\" produces an Ero gas grenade - but with no target to use it on, \"+{var2}.mfn(\"he\",\"she\",\"it\")+\" puts it away.\",null,t", "translation": "", "context": "<<POS:05916065>> <<VARS:var0=t.getCombatName(),!1,var1=d.m,var2=t>> combatOutput(d.m.capitalize(t.getCombatName(),!1)+\" produces an Ero gas grenade - but with no target to use it on, \"+t.mfn(\"he\",\"she\",\"it\")+\" puts it away.\",null,t)"}, {"key": "combat.expr|You_pull_out_an_Ero_gas_grenade_and_huck_it_in_the_direction_of|b9f2facf536a", "original": "You pull out an Ero gas grenade and huck it in the direction of \"+{var0}.getCombatName()+\".\",null,t", "translation": "", "context": "<<POS:05916307>> <<VARS:var0=s>> combatOutput(\"You pull out an Ero gas grenade and huck it in the direction of \"+s.getCombatName()+\".\",null,t)"}, {"key": "combat.expr|var1_capitalize_var0_produces_an_Ero_gas_grenade_and_huck|29c01c5753be", "original": "{var1}.capitalize({var0})+\" produces an Ero gas grenade and hucks it in your direction!\",null,t", "translation": "", "context": "<<POS:05916453>> <<VARS:var0=t.getCombatName(),!1,var1=d.m>> combatOutput(d.m.capitalize(t.getCombatName(),!1)+\" produces an Ero gas grenade and hucks it in your direction!\",null,t)"}, {"key": "combat.expr|var1_capitalize_var0_produces_an_Ero_gas_grenade_and_huck|e2ee6a994d30", "original": "{var1}.capitalize({var0})+\" produces an Ero gas grenade and hucks it in the direction of \"+{var2}.getCombatName()+\"!\",null,t", "translation": "", "context": "<<POS:05916574>> <<VARS:var0=t.getCombatName(),!1,var1=d.m,var2=s>> combatOutput(d.m.capitalize(t.getCombatName(),!1)+\" produces an Ero gas grenade and hucks it in the direction of \"+s.getCombatName()+\"!\",null,t)"}, {"key": "combat.expr|var1_capitalize_var0_var2_are_is_caught_in|54f6eb91189f", "original": " \"+{var1}.capitalize({var0})+\" \"+({var2}?\"are\":\"is\")+\" caught in the explosion, but <b>due to wearing airtight armor</b>, \"+{var3}.getCombatPronoun(\"s\")+\" \"+({var4}?\"are\":\"is\")+\" unaffected by the pink fog of lust!", "translation": "", "context": "<<POS:05916804>> <<VARS:var0=u.getCombatName(),!1,var1=d.m,var2=u.isPlural,var3=u,var4=u.isPlural>> combatAppend(\" \"+d.m.capitalize(u.getCombatName(),!1)+\" \"+(u.isPlural?\"are\":\"is\")+\" caught in the explosion, but <b>due to wearing airtight armor</b>, \"+u.getCombatPronoun(\"s\")+\" \"+(u.isPlural?\"are\":\"is\")+\" unaffected by the pink fog of lust!\")"}, {"key": "textify|Any_thrown_object_in_a_fight_that_looks_small_and_round_would_se|7476a452732c", "original": "Any thrown object in a fight that looks small and round would send anyone hustling for cover, but not [sophora.nameKnown|Sophora|this Jumper]. No, she knows that what you’ve thrown isn’t immediately dangerous; it’s obvious from your own lack of urgency; however, as you see her eyes flicker like the console of a supercomputer crunching a gorillion numbers, a diffusing, plum-pink mist hisses out from the sphere, swirling in the vicinity!\\n\\n\\t\\t\\t\\tChemical warfare is no less than what a pirate deserves. She plants an arm over her face, bites down, and leaps from the cloud of lust toxin, holding her breath until the erotic aerosol abates. \\n\\t\\t\\t\\t\\n\\t\\t\\t\\t<i>“Krhh...”</i> She hacks, looking slightly disoriented.\\n\\t\\t\\t\\t\\n\\t\\t\\t\\tDon’t count your chickens: her ire smolders anew.", "translation": "", "context": "<<POS:05917109>> textify(['Any thrown object in a fight that looks small and '...])"}, {"key": "combat.expr|var1_capitalize_var0_var2_isPlayer_have_has|ea9e57a34323", "original": "\"+{var1}.capitalize({var0})+\" \"+({var2}.isPlayer()?\"have\":\"has\")+\" no reaction to the pink mist.", "translation": "", "context": "<<POS:05917947>> <<VARS:var0=u.getCombatName(),!1,var1=d.m,var2=u.isPlural||u>> combatAppend(\"\\n\"+d.m.capitalize(u.getCombatName(),!1)+\" \"+(u.isPlural||u.isPlayer()?\"have\":\"has\")+\" no reaction to the pink mist.\")"}, {"key": "combat.expr|var1_capitalize_var0_var2_isPlayer_are_is|f8119354301f", "original": "\"+{var1}.capitalize({var0})+\" \"+({var2}.isPlayer()?\"are\":\"is\")+\" caught in the explosion of pink mist!", "translation": "", "context": "<<POS:05918089>> <<VARS:var0=u.getCombatName(),!1,var1=d.m,var2=u.isPlural||u>> combatAppend(\"\\n\"+d.m.capitalize(u.getCombatName(),!1)+\" \"+(u.isPlural||u.isPlayer()?\"are\":\"is\")+\" caught in the explosion of pink mist!\")"}, {"key": "combat|b_You_are_surrounded_by_clinging_aphrodisiac_gas_b|270eede60e8c", "original": " <b>You are surrounded by clinging, aphrodisiac gas!</b>", "translation": "", "context": "<<POS:05918494>> combatAppend(\" <b>You are surrounded by clinging, aphrodisiac gas!</b>\")"}, {"key": "combat.expr|b_The_gas_clings_to_var0_var1_b|9916e7bb6615", "original": " <b>The gas clings to \"+{var0}+{var1}+\"</b>.", "translation": "", "context": "<<POS:05918567>> <<VARS:var0=u.capitalA,var1=u.uniqueName>> combatAppend(\" <b>The gas clings to \"+u.capitalA+u.uniqueName+\"</b>.\")"}]
+[
+  {
+    "key": "assign|ero_gas_grenade|c28e235e8cc7",
+    "original": "ero gas grenade",
+    "translation": "",
+    "context": "<<POS:05914277>> Name=\"E.GasGrenade\",e.longName='ero gas grenade'"
+  },
+  {
+    "key": "assign|an_Ero_gas_grenade|6d82593276e0",
+    "original": "an Ero gas grenade",
+    "translation": "",
+    "context": "<<POS:05914366>> ase(e.longName)),e.description='an Ero gas grenade'"
+  },
+  {
+    "key": "assign|The_pharmaceutical_zaibatsu_Bright_Water_a_Limited_Liability_Co|bad92d5d9ca0",
+    "original": "The pharmaceutical zaibatsu Bright Water (a Limited Liability Company) is better known for their medical services than their weapon production, but Ero Gas is one notable exception. Originally developed as an aerosol painkiller, the gas was found to produce an intense and pervasive sexual stimulation on the volunteered test subjects. Due to its (relatively) harmless collateral damage, Peacekeepers are known to toss belts full of Ero Gas at mobs and let them fuck themselves into compliance.\\n\\n45 lust damage.\\nPossible 6 damage/turn DoT.\\n\\tLasts 3 turns.",
+    "translation": "",
+    "context": "<<POS:05914397>> \"an Ero gas grenade\",e.tooltip='The pharmaceutical zaibatsu Bright Water (a Limited Liabilit'"
+  },
+  {
+    "key": "output|You_don_t_have_anyone_to_use_this_on_right_now|55cad4ab3249",
+    "original": "You don’t have anyone to use this on right now.",
+    "translation": "",
+    "context": "<<POS:05915591>> output(\"You don’t have anyone to use this on right now.\\n\")"
+  },
+  {
+    "key": "output.expr|var0_var1_considers_it_unwise_to_waste_the_grenade_outside|9d9e43183801",
+    "original": "{var0}+{var1}+\" considers it unwise to waste the grenade outside of combat.",
+    "translation": "",
+    "context": "<<POS:05915652>> <<VARS:var0=t.capitalA,var1=t.short>> output(t.capitalA+t.short+\" considers it unwise to waste the grenade outside of combat.\\n\")"
+  },
+  {
+    "key": "combat|It_seems_you_have_no_target_to_use_your_Ero_gas_grenade_on|1ca18d4dbf0e",
+    "original": "It seems you have no target to use your Ero gas grenade on.",
+    "translation": "",
+    "context": "<<POS:05915983>> combatOutput(\"It seems you have no target to use your Ero gas grenade on.\",null,t)"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_produces_an_Ero_gas_grenade_but_wi|3557ed326ded",
+    "original": "{var1}.capitalize({var0})+\" produces an Ero gas grenade - but with no target to use it on, \"+{var2}.mfn(\"he\",\"she\",\"it\")+\" puts it away.",
+    "translation": "",
+    "context": "<<POS:05916065>> <<VARS:var0=t.getCombatName(),!1,var1=d.m,var2=t>> combatOutput(d.m.capitalize(t.getCombatName(),!1)+\" produces an Ero gas grenade - but with no target to use it on, \"+t.mfn(\"he\",\"she\",\"it\")+\" puts it away.\",null,t)"
+  },
+  {
+    "key": "combat.expr|You_pull_out_an_Ero_gas_grenade_and_huck_it_in_the_direction_of|fd1e3f43aaf0",
+    "original": "You pull out an Ero gas grenade and huck it in the direction of \"+{var0}.getCombatName()+\".",
+    "translation": "",
+    "context": "<<POS:05916307>> <<VARS:var0=s>> combatOutput(\"You pull out an Ero gas grenade and huck it in the direction of \"+s.getCombatName()+\".\",null,t)"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_produces_an_Ero_gas_grenade_and_huck|9a9b11379f49",
+    "original": "{var1}.capitalize({var0})+\" produces an Ero gas grenade and hucks it in your direction!",
+    "translation": "",
+    "context": "<<POS:05916453>> <<VARS:var0=t.getCombatName(),!1,var1=d.m>> combatOutput(d.m.capitalize(t.getCombatName(),!1)+\" produces an Ero gas grenade and hucks it in your direction!\",null,t)"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_produces_an_Ero_gas_grenade_and_huck|5b8b356bea75",
+    "original": "{var1}.capitalize({var0})+\" produces an Ero gas grenade and hucks it in the direction of \"+{var2}.getCombatName()+\"!",
+    "translation": "",
+    "context": "<<POS:05916574>> <<VARS:var0=t.getCombatName(),!1,var1=d.m,var2=s>> combatOutput(d.m.capitalize(t.getCombatName(),!1)+\" produces an Ero gas grenade and hucks it in the direction of \"+s.getCombatName()+\"!\",null,t)"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_var2_are_is_caught_in|12a0acd619e7",
+    "original": " \"+{var1}.capitalize({var0})+\" \"+({var2}?\"are\":\"is\")+\" caught in the explosion, but <b>due to wearing airtight armor</b>, \"+{var3}.getCombatPronoun(\"s\")+\" \"+({var4}?\"are\":\"is\")+\" unaffected by the pink fog of lust!",
+    "translation": "",
+    "context": "<<POS:05916804>> <<VARS:var0=u.getCombatName(),!1,var1=d.m,var2=u.isPlural,var3=u,var4=u.isPlural>> combatAppend(\" \"+d.m.capitalize(u.getCombatName(),!1)+\" \"+(u.isPlural?\"are\":\"is\")+\" caught in the explosion, but <b>due to wearing airtight armor</b>, \"+u.getCombatPronoun(\"s\")+\" \"+(u.isPlural?\"are\":\"is\")+\" unaffected by the pink fog of lust!\")"
+  },
+  {
+    "key": "textify|Any_thrown_object_in_a_fight_that_looks_small_and_round_would_se|7476a452732c",
+    "original": "Any thrown object in a fight that looks small and round would send anyone hustling for cover, but not [sophora.nameKnown|Sophora|this Jumper]. No, she knows that what you’ve thrown isn’t immediately dangerous; it’s obvious from your own lack of urgency; however, as you see her eyes flicker like the console of a supercomputer crunching a gorillion numbers, a diffusing, plum-pink mist hisses out from the sphere, swirling in the vicinity!\\n\\n\\t\\t\\t\\tChemical warfare is no less than what a pirate deserves. She plants an arm over her face, bites down, and leaps from the cloud of lust toxin, holding her breath until the erotic aerosol abates. \\n\\t\\t\\t\\t\\n\\t\\t\\t\\t<i>“Krhh...”</i> She hacks, looking slightly disoriented.\\n\\t\\t\\t\\t\\n\\t\\t\\t\\tDon’t count your chickens: her ire smolders anew.",
+    "translation": "",
+    "context": "<<POS:05917109>> textify(['Any thrown object in a fight that looks small and '...])"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_var2_isPlayer_have_has|ea9e57a34323",
+    "original": "\"+{var1}.capitalize({var0})+\" \"+({var2}.isPlayer()?\"have\":\"has\")+\" no reaction to the pink mist.",
+    "translation": "",
+    "context": "<<POS:05917947>> <<VARS:var0=u.getCombatName(),!1,var1=d.m,var2=u.isPlural||u>> combatAppend(\"\\n\"+d.m.capitalize(u.getCombatName(),!1)+\" \"+(u.isPlural||u.isPlayer()?\"have\":\"has\")+\" no reaction to the pink mist.\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_var2_isPlayer_are_is|f8119354301f",
+    "original": "\"+{var1}.capitalize({var0})+\" \"+({var2}.isPlayer()?\"are\":\"is\")+\" caught in the explosion of pink mist!",
+    "translation": "",
+    "context": "<<POS:05918089>> <<VARS:var0=u.getCombatName(),!1,var1=d.m,var2=u.isPlural||u>> combatAppend(\"\\n\"+d.m.capitalize(u.getCombatName(),!1)+\" \"+(u.isPlural||u.isPlayer()?\"are\":\"is\")+\" caught in the explosion of pink mist!\")"
+  },
+  {
+    "key": "combat|b_You_are_surrounded_by_clinging_aphrodisiac_gas_b|270eede60e8c",
+    "original": " <b>You are surrounded by clinging, aphrodisiac gas!</b>",
+    "translation": "",
+    "context": "<<POS:05918494>> combatAppend(\" <b>You are surrounded by clinging, aphrodisiac gas!</b>\")"
+  },
+  {
+    "key": "combat.expr|b_The_gas_clings_to_var0_var1_b|9916e7bb6615",
+    "original": " <b>The gas clings to \"+{var0}+{var1}+\"</b>.",
+    "translation": "",
+    "context": "<<POS:05918567>> <<VARS:var0=u.capitalA,var1=u.uniqueName>> combatAppend(\" <b>The gas clings to \"+u.capitalA+u.uniqueName+\"</b>.\")"
+  }
+]

@@ -1,1 +1,74 @@
-[{"key": "assign|Ice_Grenade|2a0aeef0e9a0", "original": "Ice Grenade", "translation": "", "context": "<<POS:06502269>> rarity=GLOBAL.RARE,e.shortName='Ice Grenade'"}, {"key": "assign|Experimental_KihaCorp_Entropy_Grenade|6982409142e0", "original": "Experimental KihaCorp Entropy Grenade", "translation": "", "context": "<<POS:06502294>> tName=\"Ice Grenade\",e.longName='Experimental KihaCorp Entropy Grenade'"}, {"key": "assign|an_ice_grenade|f25895114c22", "original": "an ice grenade", "translation": "", "context": "<<POS:06502405>> ase(e.longName)),e.description='an ice grenade'"}, {"key": "assign|A_brand_new_weapon_fresh_from_Kihacorp_s_range_and_a_firefight|0c910f215ec3", "original": "A brand new weapon fresh from Kihacorp’s range - and a firefighters’ favorite. With a single press on the detonator, they can snuff the heat out of any flames or power source in a heartbeat. They come in smooth, chromed spheres for ergonomic use and with a wireless safety pin to ensure its user isn’t in the radius of the ice blast.", "translation": "", "context": "<<POS:06502432>> ion=\"an ice grenade\",e.tooltip='A brand new weapon fresh from Kihacorp’s range - and a firef'"}, {"key": "output|Pulling_the_pin_on_a_grenade_without_a_target_to_throw_it_at_wou|3243739fa2ba", "original": "Pulling the pin on a grenade without a target to throw it at would be pretty dumb now, wouldn’t it?", "translation": "", "context": "<<POS:06503285>> output(\"Pulling the pin on a grenade without a target to throw it at would be pretty dumb now, wouldn’t it?\\n\")"}, {"key": "output|concat_t_capitalA_t_short_considers_it_unwise_to_use_a_grena|842eeb2b46de", "original": "\".concat(t.capitalA+t.short,\" considers it unwise to use a grenade outside of combat.\\n\")", "translation": "", "context": "<<POS:06503399>> output(\"\".concat(t.capitalA+t.short,\" considers it unwise to use a grenade outside of combat.\\n\"))"}, {"key": "combat|It_seems_you_have_no_target_to_use_your_ice_grenade_on_null_t|3409538b5f03", "original": "It seems you have no target to use your ice grenade on.\",null,t", "translation": "", "context": "<<POS:06503681>> combatOutput(\"It seems you have no target to use your ice grenade on.\",null,t)"}, {"key": "combat|concat_h_m_capitalize_t_getCombatName_1_produces_an_ice|3a3a10f64c41", "original": "\".concat(h.m.capitalize(t.getCombatName(),!1),\" produces an ice grenade--but with no target to use it on, \").concat(t.mfn(\"he\",\"she\",\"it\"),\" puts it away.\"),null,t", "translation": "", "context": "<<POS:06503760>> combatOutput(\"\".concat(h.m.capitalize(t.getCombatName(),!1),\" produces an ice grenade--but with no target to use it on, \").concat(t.mfn(\"he\",\"she\",\"it\"),\" puts it away.\"),null,t)"}, {"key": "combat|You_press_the_ice_grenade_s_detonator_and_throw_it_in_the_direct|06120a76d599", "original": "You press the ice grenade’s detonator and throw it in the direction of \".concat(n.getCombatName(),\".\"),null,t", "translation": "", "context": "<<POS:06504015>> combatOutput(\"You press the ice grenade’s detonator and throw it in the direction of \".concat(n.getCombatName(),\".\"),null,t)"}, {"key": "combat|concat_h_m_capitalize_t_getCombatName_1_produces_an_ice|2be35609da31", "original": "\".concat(h.m.capitalize(t.getCombatName(),!1),\" produces an ice grenade and hucks it in your direction!\"),null,t", "translation": "", "context": "<<POS:06504177>> combatOutput(\"\".concat(h.m.capitalize(t.getCombatName(),!1),\" produces an ice grenade and hucks it in your direction!\"),null,t)"}, {"key": "combat|concat_h_m_capitalize_t_getCombatName_1_produces_an_ice|caa928432ec4", "original": "\".concat(h.m.capitalize(t.getCombatName(),!1),\" produces an ice grenade and hucks it in the direction of \").concat(n.getCombatName(),\"!\"),null,t", "translation": "", "context": "<<POS:06504305>> combatOutput(\"\".concat(h.m.capitalize(t.getCombatName(),!1),\" produces an ice grenade and hucks it in the direction of \").concat(n.getCombatName(),\"!\"),null,t)"}, {"key": "combat|concat_e_capitalA_concat_e_uniqueName_concat_e_isPlural|bc8e1b5de3e8", "original": " \".concat(e.capitalA).concat(e.uniqueName,\" \").concat(e.isPlural?\"are\":\"is\",\" engulfed in a bone-chilling maelstrom!\")", "translation": "", "context": "<<POS:06504603>> combatAppend(\" \".concat(e.capitalA).concat(e.uniqueName,\" \").concat(e.isPlural?\"are\":\"is\",\" engulfed in a bone-chilling maelstrom!\"))"}]
+[
+  {
+    "key": "assign|Ice_Grenade|2a0aeef0e9a0",
+    "original": "Ice Grenade",
+    "translation": "",
+    "context": "<<POS:06502269>> rarity=GLOBAL.RARE,e.shortName='Ice Grenade'"
+  },
+  {
+    "key": "assign|Experimental_KihaCorp_Entropy_Grenade|6982409142e0",
+    "original": "Experimental KihaCorp Entropy Grenade",
+    "translation": "",
+    "context": "<<POS:06502294>> tName=\"Ice Grenade\",e.longName='Experimental KihaCorp Entropy Grenade'"
+  },
+  {
+    "key": "assign|an_ice_grenade|f25895114c22",
+    "original": "an ice grenade",
+    "translation": "",
+    "context": "<<POS:06502405>> ase(e.longName)),e.description='an ice grenade'"
+  },
+  {
+    "key": "assign|A_brand_new_weapon_fresh_from_Kihacorp_s_range_and_a_firefight|0c910f215ec3",
+    "original": "A brand new weapon fresh from Kihacorp’s range - and a firefighters’ favorite. With a single press on the detonator, they can snuff the heat out of any flames or power source in a heartbeat. They come in smooth, chromed spheres for ergonomic use and with a wireless safety pin to ensure its user isn’t in the radius of the ice blast.",
+    "translation": "",
+    "context": "<<POS:06502432>> ion=\"an ice grenade\",e.tooltip='A brand new weapon fresh from Kihacorp’s range - and a firef'"
+  },
+  {
+    "key": "output|Pulling_the_pin_on_a_grenade_without_a_target_to_throw_it_at_wou|3243739fa2ba",
+    "original": "Pulling the pin on a grenade without a target to throw it at would be pretty dumb now, wouldn’t it?",
+    "translation": "",
+    "context": "<<POS:06503285>> output(\"Pulling the pin on a grenade without a target to throw it at would be pretty dumb now, wouldn’t it?\\n\")"
+  },
+  {
+    "key": "output|concat_t_capitalA_t_short_considers_it_unwise_to_use_a_grena|842eeb2b46de",
+    "original": "\".concat(t.capitalA+t.short,\" considers it unwise to use a grenade outside of combat.\\n\")",
+    "translation": "",
+    "context": "<<POS:06503399>> output(\"\".concat(t.capitalA+t.short,\" considers it unwise to use a grenade outside of combat.\\n\"))"
+  },
+  {
+    "key": "combat|It_seems_you_have_no_target_to_use_your_ice_grenade_on|212cdbd94fc6",
+    "original": "It seems you have no target to use your ice grenade on.",
+    "translation": "",
+    "context": "<<POS:06503681>> combatOutput(\"It seems you have no target to use your ice grenade on.\",null,t)"
+  },
+  {
+    "key": "combat|concat_h_m_capitalize_t_getCombatName_1_produces_an_ice|ae0d6725d5cd",
+    "original": "\".concat(h.m.capitalize(t.getCombatName(),!1),\" produces an ice grenade--but with no target to use it on, \").concat(t.mfn(\"he\",\"she\",\"it\"),\" puts it away.\")",
+    "translation": "",
+    "context": "<<POS:06503760>> combatOutput(\"\".concat(h.m.capitalize(t.getCombatName(),!1),\" produces an ice grenade--but with no target to use it on, \").concat(t.mfn(\"he\",\"she\",\"it\"),\" puts it away.\"),null,t)"
+  },
+  {
+    "key": "combat|You_press_the_ice_grenade_s_detonator_and_throw_it_in_the_direct|4ddcb9eb5d90",
+    "original": "You press the ice grenade’s detonator and throw it in the direction of \".concat(n.getCombatName(),\".\")",
+    "translation": "",
+    "context": "<<POS:06504015>> combatOutput(\"You press the ice grenade’s detonator and throw it in the direction of \".concat(n.getCombatName(),\".\"),null,t)"
+  },
+  {
+    "key": "combat|concat_h_m_capitalize_t_getCombatName_1_produces_an_ice|f5f6671f22db",
+    "original": "\".concat(h.m.capitalize(t.getCombatName(),!1),\" produces an ice grenade and hucks it in your direction!\")",
+    "translation": "",
+    "context": "<<POS:06504177>> combatOutput(\"\".concat(h.m.capitalize(t.getCombatName(),!1),\" produces an ice grenade and hucks it in your direction!\"),null,t)"
+  },
+  {
+    "key": "combat|concat_h_m_capitalize_t_getCombatName_1_produces_an_ice|346f6aa3ab68",
+    "original": "\".concat(h.m.capitalize(t.getCombatName(),!1),\" produces an ice grenade and hucks it in the direction of \").concat(n.getCombatName(),\"!\")",
+    "translation": "",
+    "context": "<<POS:06504305>> combatOutput(\"\".concat(h.m.capitalize(t.getCombatName(),!1),\" produces an ice grenade and hucks it in the direction of \").concat(n.getCombatName(),\"!\"),null,t)"
+  },
+  {
+    "key": "combat|concat_e_capitalA_concat_e_uniqueName_concat_e_isPlural|e589ec5f32c0",
+    "original": " \".concat(e.capitalA).concat(e.uniqueName,\" \").concat(e.isPlural?\"are\":\"is\",\" engulfed in a bone-chilling maelstrom!\")",
+    "translation": "",
+    "context": "<<POS:06504603>> combatAppend(\" \".concat(e.capitalA).concat(e.uniqueName,\" \").concat(e.isPlural?\"are\":\"is\",\" engulfed in a bone-chilling maelstrom!\"))"
+  }
+]

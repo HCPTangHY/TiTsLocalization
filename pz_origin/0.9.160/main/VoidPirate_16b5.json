@@ -1,1 +1,116 @@
-[{"key": "assign|void_pirate|4cd86a95fbea", "original": "void pirate", "translation": "", "context": "<<POS:01597043>> e),e.neverSerialize=!0,e.short='void pirate'"}, {"key": "assign|the|73d6b69a9126", "original": "the ", "translation": "", "context": "<<POS:01597113>> te\",e.originalRace=\"human\",e.a='the '"}, {"key": "assign|The|63f2e902a6e1", "original": "The ", "translation": "", "context": "<<POS:01597131>> =\"human\",e.a=\"the \",e.capitalA='The '"}, {"key": "assign|A_man_in_black_and_red_armor_armed_with_machine_pistol|2774b9718c61", "original": "A man in black-and-red armor, armed with machine pistol.", "translation": "", "context": "<<POS:01597145>> the \",e.capitalA=\"The \",e.long='A man in black-and-red armor, armed with machine pistol.'"}, {"key": "assign|The_pirate_s_armor_deflects_your_attack_with_alarming_ease|5b847c5c4ea9", "original": "The pirate’s armor deflects your attack with alarming ease.", "translation": "", "context": "<<POS:01597218>> machine pistol.\",e.customBlock='The pirate’s armor deflects your attack with alarming ease.'"}, {"key": "assign|machine_pistol|d19b215f48a0", "original": "machine pistol", "translation": "", "context": "<<POS:01597411>> nventory.rangedWeapon.longName='machine pistol'"}, {"key": "assign|black_void_armor|eeb42cb3a59b", "original": "black void armor", "translation": "", "context": "<<POS:01597837>> .T4,e.inventory.armor.longName='black void armor'"}, {"key": "perk|Multiple_Attacks|2208cf7deae4", "original": "Multiple Attacks", "translation": "", "context": "<<POS:01598144>> createPerk(\"Multiple Attacks\",1,0,0,0,\"\")"}, {"key": "combat.expr|var1_capitalize_var0_var2_isStunned_is_unable_to_att|610b556f6acc", "original": "{var1}.capitalize({var0})+({var2}.isStunned()?\" is unable to attack!\":\" goes scrambling for his dropped weapon.\"),null,this", "translation": "", "context": "<<POS:01600070>> <<VARS:var0=this.uniqueName,!1,var1=y.m,var2=this>> combatOutput(y.m.capitalize(this.uniqueName,!1)+(this.isStunned()?\" is unable to attack!\":\" goes scrambling for his dropped weapon.\"),null,this)"}, {"key": "combat.expr|One_of_the_assassins_brings_his_machine_pistol_to_bear_firing_a|ebf14bc24544", "original": "One of the assassins brings his machine pistol to bear, firing a burst of toward \"+(\"PlayerCharacter\"===e.getClassName()?\"you\":{var0}+{var1})+\"!\",null,this", "translation": "", "context": "<<POS:01600323>> <<VARS:var0=e.a,var1=e.short>> combatOutput(\"One of the assassins brings his machine pistol to bear, firing a burst of toward \"+(\"PlayerCharacter\"===e.getClassName()?\"you\":e.a+e.short)+\"!\",null,this)"}, {"key": "combat|The_burst_misses|553efaf72cbd", "original": " The burst misses!", "translation": "", "context": "<<POS:01600513>> combatAppend(\" The burst misses!\")"}, {"key": "combat|The_burst_hits|465c4d5b2ca1", "original": " The burst hits!", "translation": "", "context": "<<POS:01600549>> combatAppend(\" The burst hits!\")"}, {"key": "combat.expr|One_of_the_assassins_pulls_another_disk_like_grenade_from_his_be|674b2e4111ac", "original": "One of the assassins pulls another disk-like grenade from his belt and slides it across the deck, placing it between you\"+({var0}?\" and Saendra\":\"\")+\"! The flashbang detonates with deafening force,\",null,this", "translation": "", "context": "<<POS:01600928>> <<VARS:var0=o>> combatOutput(\"One of the assassins pulls another disk-like grenade from his belt and slides it across the deck, placing it between you\"+(o?\" and Saendra\":\"\")+\"! The flashbang detonates with deafening force,\",null,this)"}, {"key": "combat|blinding_you_and_Saendra|d4f98bb5852e", "original": " blinding you and Saendra.", "translation": "", "context": "<<POS:01601159>> combatAppend(\" blinding you and Saendra.\")"}, {"key": "combat.expr|blinding_Saendra_var0_though_you_manage_to_avoid_any_ser|743f72c5575a", "original": " blinding Saendra\"+({var0}?\", though you manage to avoid any serious effect\":\"\")+\".", "translation": "", "context": "<<POS:01601253>> <<VARS:var0=t>> combatAppend(\" blinding Saendra\"+(t?\", though you manage to avoid any serious effect\":\"\")+\".\")"}, {"key": "combat.expr|blinding_you_var0_as_Saendra_moves_to_avoid_the_blast|f7eade5f4187", "original": " blinding you\"+({var0}?\", as Saendra moves to avoid the blast\":\"\")+\".", "translation": "", "context": "<<POS:01601379>> <<VARS:var0=o>> combatAppend(\" blinding you\"+(o?\", as Saendra moves to avoid the blast\":\"\")+\".\")"}, {"key": "combat|though_both_you_and_Saendra_manage_to_avoid_any_serious_effect|2b7b566bed33", "original": " though both you and Saendra manage to avoid any serious effect.", "translation": "", "context": "<<POS:01601481>> combatAppend(\" though both you and Saendra manage to avoid any serious effect.\")"}, {"key": "combat|One_of_the_assassins_pulls_a_cylindrical_grenade_from_his_belt_a|36f6d1cf50e0", "original": "One of the assassins pulls a cylindrical grenade from his belt and hurls it between you and him. Smoke billows out of the grenade after a loud POP, making it almost impossible to see. <b>Aim reduced!</b>\",null,this", "translation": "", "context": "<<POS:01601653>> combatOutput(\"One of the assassins pulls a cylindrical grenade from his belt and hurls it between you and him. Smoke billows out of the grenade after a loud POP, making it almost impossible to see. <b>Aim reduced!</b>\",null,this)"}, {"key": "combat|One_of_the_assassins_grabs_a_red_grenade_off_of_his_belt_and_hur|6ef9297cc30e", "original": "One of the assassins grabs a red grenade off of his belt and hurls it at you. A second later, the grenade detonates in a rib-crushing wave of kinetic force that nearly knocks you on your ass!\",null,this", "translation": "", "context": "<<POS:01602103>> combatOutput(\"One of the assassins grabs a red grenade off of his belt and hurls it at you. A second later, the grenade detonates in a rib-crushing wave of kinetic force that nearly knocks you on your ass!\",null,this)"}]
+[
+  {
+    "key": "assign|void_pirate|4cd86a95fbea",
+    "original": "void pirate",
+    "translation": "",
+    "context": "<<POS:01597043>> e),e.neverSerialize=!0,e.short='void pirate'"
+  },
+  {
+    "key": "assign|the|73d6b69a9126",
+    "original": "the ",
+    "translation": "",
+    "context": "<<POS:01597113>> te\",e.originalRace=\"human\",e.a='the '"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": "",
+    "context": "<<POS:01597131>> =\"human\",e.a=\"the \",e.capitalA='The '"
+  },
+  {
+    "key": "assign|A_man_in_black_and_red_armor_armed_with_machine_pistol|2774b9718c61",
+    "original": "A man in black-and-red armor, armed with machine pistol.",
+    "translation": "",
+    "context": "<<POS:01597145>> the \",e.capitalA=\"The \",e.long='A man in black-and-red armor, armed with machine pistol.'"
+  },
+  {
+    "key": "assign|The_pirate_s_armor_deflects_your_attack_with_alarming_ease|5b847c5c4ea9",
+    "original": "The pirate’s armor deflects your attack with alarming ease.",
+    "translation": "",
+    "context": "<<POS:01597218>> machine pistol.\",e.customBlock='The pirate’s armor deflects your attack with alarming ease.'"
+  },
+  {
+    "key": "assign|machine_pistol|d19b215f48a0",
+    "original": "machine pistol",
+    "translation": "",
+    "context": "<<POS:01597411>> nventory.rangedWeapon.longName='machine pistol'"
+  },
+  {
+    "key": "assign|black_void_armor|eeb42cb3a59b",
+    "original": "black void armor",
+    "translation": "",
+    "context": "<<POS:01597837>> .T4,e.inventory.armor.longName='black void armor'"
+  },
+  {
+    "key": "perk|Multiple_Attacks|2208cf7deae4",
+    "original": "Multiple Attacks",
+    "translation": "",
+    "context": "<<POS:01598144>> createPerk(\"Multiple Attacks\",1,0,0,0,\"\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_var2_isStunned_is_unable_to_att|a39067201587",
+    "original": "{var1}.capitalize({var0})+({var2}.isStunned()?\" is unable to attack!\":\" goes scrambling for his dropped weapon.\")",
+    "translation": "",
+    "context": "<<POS:01600070>> <<VARS:var0=this.uniqueName,!1,var1=y.m,var2=this>> combatOutput(y.m.capitalize(this.uniqueName,!1)+(this.isStunned()?\" is unable to attack!\":\" goes scrambling for his dropped weapon.\"),null,this)"
+  },
+  {
+    "key": "combat.expr|One_of_the_assassins_brings_his_machine_pistol_to_bear_firing_a|179940ecd83a",
+    "original": "One of the assassins brings his machine pistol to bear, firing a burst of toward \"+(\"PlayerCharacter\"===e.getClassName()?\"you\":{var0}+{var1})+\"!",
+    "translation": "",
+    "context": "<<POS:01600323>> <<VARS:var0=e.a,var1=e.short>> combatOutput(\"One of the assassins brings his machine pistol to bear, firing a burst of toward \"+(\"PlayerCharacter\"===e.getClassName()?\"you\":e.a+e.short)+\"!\",null,this)"
+  },
+  {
+    "key": "combat|The_burst_misses|82962a479924",
+    "original": " The burst misses!",
+    "translation": "",
+    "context": "<<POS:01600513>> combatAppend(\" The burst misses!\")"
+  },
+  {
+    "key": "combat|The_burst_hits|465c4d5b2ca1",
+    "original": " The burst hits!",
+    "translation": "",
+    "context": "<<POS:01600549>> combatAppend(\" The burst hits!\")"
+  },
+  {
+    "key": "combat.expr|One_of_the_assassins_pulls_another_disk_like_grenade_from_his_be|ea6619e755cd",
+    "original": "One of the assassins pulls another disk-like grenade from his belt and slides it across the deck, placing it between you\"+({var0}?\" and Saendra\":\"\")+\"! The flashbang detonates with deafening force,",
+    "translation": "",
+    "context": "<<POS:01600928>> <<VARS:var0=o>> combatOutput(\"One of the assassins pulls another disk-like grenade from his belt and slides it across the deck, placing it between you\"+(o?\" and Saendra\":\"\")+\"! The flashbang detonates with deafening force,\",null,this)"
+  },
+  {
+    "key": "combat|blinding_you_and_Saendra|979a74b618e1",
+    "original": " blinding you and Saendra.",
+    "translation": "",
+    "context": "<<POS:01601159>> combatAppend(\" blinding you and Saendra.\")"
+  },
+  {
+    "key": "combat.expr|blinding_Saendra_var0_though_you_manage_to_avoid_any_ser|743f72c5575a",
+    "original": " blinding Saendra\"+({var0}?\", though you manage to avoid any serious effect\":\"\")+\".",
+    "translation": "",
+    "context": "<<POS:01601253>> <<VARS:var0=t>> combatAppend(\" blinding Saendra\"+(t?\", though you manage to avoid any serious effect\":\"\")+\".\")"
+  },
+  {
+    "key": "combat.expr|blinding_you_var0_as_Saendra_moves_to_avoid_the_blast|f7eade5f4187",
+    "original": " blinding you\"+({var0}?\", as Saendra moves to avoid the blast\":\"\")+\".",
+    "translation": "",
+    "context": "<<POS:01601379>> <<VARS:var0=o>> combatAppend(\" blinding you\"+(o?\", as Saendra moves to avoid the blast\":\"\")+\".\")"
+  },
+  {
+    "key": "combat|though_both_you_and_Saendra_manage_to_avoid_any_serious_effect|2b7b566bed33",
+    "original": " though both you and Saendra manage to avoid any serious effect.",
+    "translation": "",
+    "context": "<<POS:01601481>> combatAppend(\" though both you and Saendra manage to avoid any serious effect.\")"
+  },
+  {
+    "key": "combat|One_of_the_assassins_pulls_a_cylindrical_grenade_from_his_belt_a|b2ef6ce60093",
+    "original": "One of the assassins pulls a cylindrical grenade from his belt and hurls it between you and him. Smoke billows out of the grenade after a loud POP, making it almost impossible to see. <b>Aim reduced!</b>",
+    "translation": "",
+    "context": "<<POS:01601653>> combatOutput(\"One of the assassins pulls a cylindrical grenade from his belt and hurls it between you and him. Smoke billows out of the grenade after a loud POP, making it almost impossible to see. <b>Aim reduced!</b>\",null,this)"
+  },
+  {
+    "key": "combat|One_of_the_assassins_grabs_a_red_grenade_off_of_his_belt_and_hur|adf61192baea",
+    "original": "One of the assassins grabs a red grenade off of his belt and hurls it at you. A second later, the grenade detonates in a rib-crushing wave of kinetic force that nearly knocks you on your ass!",
+    "translation": "",
+    "context": "<<POS:01602103>> combatOutput(\"One of the assassins grabs a red grenade off of his belt and hurls it at you. A second later, the grenade detonates in a rib-crushing wave of kinetic force that nearly knocks you on your ass!\",null,this)"
+  }
+]

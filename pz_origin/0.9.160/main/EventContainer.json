@@ -1,1 +1,536 @@
-[{"key": "assign|ERROR_Log_Event_modTimestamp_is_NaN|3d8ad7b52cf7", "original": "ERROR: Log Event modTimestamp is NaN: \"", "translation": "", "context": "<<POS:11485095>> ==typeof e){if(isNaN(o)){var a='ERROR: Log Event modTimestamp is NaN: \"'"}, {"key": "output|p_b_concat_a_b_p|0a27fd7a9b9d", "original": "<p><b>\".concat(a,\"</b></p>\")", "translation": "", "context": "<<POS:11485154>> output(\"<p><b>\".concat(a,\"</b></p>\"))"}, {"key": "assign|ERROR_attempted_to_create_a_Log_Event_but_eventMessage_was_set|eddfb4839c9a", "original": "ERROR: attempted to create a Log Event but eventMessage was set to \"", "translation": "", "context": "<<POS:11485197>> cat(a,\"</b></p>\"))}}else{var n='ERROR: attempted to create a Log Event but eventMessage was '"}, {"key": "output|p_b_concat_n_b_p|def3c8ae3336", "original": "<p><b>\".concat(n,\"</b></p>\")", "translation": "", "context": "<<POS:11485289>> output(\"<p><b>\".concat(n,\"</b></p>\"))"}, {"key": "output|A_nearby_whistle_blows_before_a_visible_cloud_of_steam_briefly_a|940d1475769b", "original": "A nearby whistle blows before a visible cloud of steam briefly appears around you. You hear the gears cranking and axles turning before feeling the metal floor beneath you move. Not long after, the clacking clockwork mechanisms quickly carry the car across the impressive view of Gildenmere, then gradually slows to a stop before an audible woosh sounds, marking your arrival to your destination.", "translation": "", "context": "<<POS:11488441>> output(\"A nearby whistle blows before a visible cloud of steam briefly appears around you. You hear the gears cranking and axles turning before feeling the metal floor beneath you move. Not long after, the clacking clockwork mechanisms quickly carry the car across the impressive view of Gildenmere, ..."}, {"key": "output|The_glass_chamber_closes_and_muffles_the_sounds_around_you_leav|f6fd1f44be1a", "original": "The glass chamber closes and muffles the sounds around you, leaving you with the faint noises of steam-powered hydraulics and turning gears--and an incredible view of Kressia. Before you know it, the elevator practically glides to its destination and you arrive with little fanfare. The doors open and the sounds of the busy populace instantly hit you once again.", "translation": "", "context": "<<POS:11488868>> output(\"The glass chamber closes and muffles the sounds around you, leaving you with the faint noises of steam-powered hydraulics and turning gears--and an incredible view of Kressia. Before you know it, the elevator practically glides to its destination and you arrive with little fanfare. The doors..."}, {"key": "output|With_audible_hydraulic_presses_whirring_gears_and_a_mechanical|0c8a8bdb3a32", "original": "With audible hydraulic presses, whirring gears and a mechanical hum, the cargo elevator powers up and shifts you towards the direction of your destination, then it slows down and quiets once you arrive.", "translation": "", "context": "<<POS:11489263>> output(\"With audible hydraulic presses, whirring gears and a mechanical hum, the cargo elevator powers up and shifts you towards the direction of your destination, then it slows down and quiets once you arrive.\")"}, {"key": "output|Your_stomach_drops_as_the_lift_kicks_into_gear_The_gentle_stea|10475076be23", "original": "Your stomach drops as the lift kicks into gear. The gentle, steady thrum of powerful machinery fills the metallic tube as you are brought to your destination, slowly decelerating when you arrive.", "translation": "", "context": "<<POS:11489537>> output(\"Your stomach drops as the lift kicks into gear. The gentle, steady thrum of powerful machinery fills the metallic tube as you are brought to your destination, slowly decelerating when you arrive.\")"}, {"key": "button|Next|dd86a3fb474b", "original": "Next", "translation": "继续", "context": "<<POS:11489756>> addButton(0,\"Next\",mainGameMenu)", "stage": 1}, {"key": "output|Nudity_is_illegal_in_that_location_You_ll_have_to_cover_up_if_y|6ab2d08eeab1", "original": "Nudity is illegal in that location! You’ll have to cover up if you want to go there.", "translation": "", "context": "<<POS:11490579>> output(\"Nudity is illegal in that location! You’ll have to cover up if you want to go there.\")"}, {"key": "output|You_can_try_your_luck_and_sneak_back_to_your_ship_if_you_are_dar|b841a32d94f7", "original": "You can try your luck and sneak back to your ship if you are daring...", "translation": "", "context": "<<POS:11492210>> output(\"\\n\\nYou can try your luck and sneak back to your ship if you are daring...\")"}, {"key": "button|Sneak_Back|fba4ac1fc43a", "original": "Sneak Back", "translation": "", "context": "<<POS:11492296>> addButton(0,\"Sneak Back\",window.sneakBackYouNudist,\"Sneak Back\",\"Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.\")"}, {"key": "button.hover|Sneak_Back|fba4ac1fc43a", "original": "Sneak Back", "translation": "", "context": "<<POS:11492335>> addButton(0,\"Sneak Back\",window.sneakBackYouNudist,\"Sneak Back\",\"Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.\")"}, {"key": "button.tooltip|Sneak_back_to_the_ship_Fuckin_prudes_It_might_take_you_a_coup|45377d60ecba", "original": "Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.", "translation": "", "context": "<<POS:11492348>> addButton(0,\"Sneak Back\",window.sneakBackYouNudist,\"Sneak Back\",\"Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.\")"}, {"key": "output|Due_to_your_lack_of_coverage_you_can_call_for_an_emergency_clot|a2b442bdb7d4", "original": "Due to your lack of coverage, you can call for an emergency clothing drop to help with your situation--though it may cost you some credits if you choose to do so.", "translation": "", "context": "<<POS:11492469>> output(\"\\n\\nDue to your lack of coverage, you can call for an emergency clothing drop to help with your situation--though it may cost you some credits if you choose to do so.\")"}, {"key": "button|Help|4b70e0285fbf", "original": "Help!", "translation": "", "context": "<<POS:11492647>> addButton(1,\"Help!\",window.dropNewClothes,\"Emergency Clothing Drop\",\"Call a drone to retrieve a new set of clothes.\")"}, {"key": "button.hover|Emergency_Clothing_Drop|e1c656d77f8e", "original": "Emergency Clothing Drop", "translation": "", "context": "<<POS:11492677>> addButton(1,\"Help!\",window.dropNewClothes,\"Emergency Clothing Drop\",\"Call a drone to retrieve a new set of clothes.\")"}, {"key": "button.tooltip|Call_a_drone_to_retrieve_a_new_set_of_clothes|d59da0abc7e7", "original": "Call a drone to retrieve a new set of clothes.", "translation": "", "context": "<<POS:11492703>> addButton(1,\"Help!\",window.dropNewClothes,\"Emergency Clothing Drop\",\"Call a drone to retrieve a new set of clothes.\")"}, {"key": "button|Back|ff5c8ec996bc", "original": "Back", "translation": "返回", "context": "<<POS:11492772>> addButton(14,\"Back\",(function(){return window.enterPCShip(!0)}))", "stage": 1}, {"key": "string.array|null_January_February_March_April_May_June_July|3227162611b0", "original": "[\"null\",\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\"]", "translation": "", "context": "<<POS:11504098>> '[\"null\",\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"Septe'..."}, {"key": "string.array|null_Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_O|180d8a27d17f", "original": "[\"null\",\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"]", "translation": "", "context": "<<POS:11504237>> '[\"null\",\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"]'"}, {"key": "string.array|null_Sunday_Monday_Tuesday_Wednesday_Thursday_Frid|0eb21b19596f", "original": "[\"null\",\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"]", "translation": "", "context": "<<POS:11504688>> '[\"null\",\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"]'"}, {"key": "string.array|null_Sun_Mon_Tue_Wed_Thu_Fri_Sat|ebc420b0133c", "original": "[\"null\",\"Sun\",\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\"]", "translation": "", "context": "<<POS:11504788>> '[\"null\",\"Sun\",\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\"]'"}, {"key": "string.array|Su_Mo_Tu_We_Th_Fr_Sa|1200cbd1fb20", "original": "[\"--\",\"Su\",\"Mo\",\"Tu\",\"We\",\"Th\",\"Fr\",\"Sa\"]", "translation": "", "context": "<<POS:11504859>> '[\"--\",\"Su\",\"Mo\",\"Tu\",\"We\",\"Th\",\"Fr\",\"Sa\"]'"}, {"key": "string.array|calendar_none_calendar_sunday_calendar_monday_calendar_t|fb31dde3f59b", "original": "[\"calendar_none\",\"calendar_sunday\",\"calendar_monday\",\"calendar_tuesday\",\"calendar_wednesday\",\"calendar_thursday\",\"calendar_friday\",\"calendar_saturday\"]", "translation": "", "context": "<<POS:11504922>> '[\"calendar_none\",\"calendar_sunday\",\"calendar_monday\",\"calendar_tuesday\",\"calenda'..."}, {"key": "output.expr|var0|06dbd1b4460f", "original": "{var0}", "translation": "", "context": "<<POS:11507323>> <<VARS:var0=e.longName>> ParseText(e.longName)"}, {"key": "output.expr|var0|682b08bd06d1", "original": "{var0}", "translation": "", "context": "<<POS:11507359>> <<VARS:var0=t.longName>> ParseText(t.longName)"}, {"key": "output.expr|var0|682b08bd06d1#1", "original": "{var0}", "translation": "", "context": "<<POS:11508169>> <<VARS:var0=v.longName>> ParseText(v.longName)"}, {"key": "button.expr|var0|682b08bd06d1", "original": "{var0}", "translation": "", "context": "<<POS:11509884>> <<VARS:var0=l>> addDisabledButton(a++,l,c,\"You are already on \".concat(null!==(r=n[t].long)&&void 0!==r?r:\"this floor\",\".\"))"}, {"key": "button.hover.expr|You_are_already_on_concat_null_r_n_t_long_void_0_r_r|587ffa1f78e7", "original": "\"You are already on \".concat(null!==(r=n[t].long)&&void 0!==r?r:\"this floor\",\".\")", "translation": "", "context": "<<POS:11509888>> <<VARS:>> addDisabledButton(a++,l,c,\"You are already on \".concat(null!==(r=n[t].long)&&void 0!==r?r:\"this floor\",\".\"))"}, {"key": "button.expr|var0|5418c7f1e41f", "original": "{var0}", "translation": "", "context": "<<POS:11509999>> <<VARS:var0=l>> addButton(a++,l,h,c,d)"}, {"key": "button.hover.expr|var0|5418c7f1e41f", "original": "{var0}", "translation": "", "context": "<<POS:11510003>> <<VARS:var0=c>> addButton(a++,l,h,c,d)"}, {"key": "button.tooltip.expr|var0|5418c7f1e41f", "original": "{var0}", "translation": "", "context": "<<POS:11510005>> <<VARS:var0=d>> addButton(a++,l,h,c,d)"}, {"key": "button.expr|var0|682b08bd06d1#1", "original": "{var0}", "translation": "", "context": "<<POS:11510110>> <<VARS:var0=l>> addDisabledButton(a++,l,c,\"Unable to go to \".concat(n[t].long,\".\"))"}, {"key": "button.hover.expr|Unable_to_go_to_concat_n_t_long|2ef60e17408a", "original": "\"Unable to go to \".concat(n[t].long,\".\")", "translation": "", "context": "<<POS:11510114>> <<VARS:>> addDisabledButton(a++,l,c,\"Unable to go to \".concat(n[t].long,\".\"))"}, {"key": "button.expr|var0|d1db3b6de186", "original": "{var0}", "translation": "", "context": "<<POS:11510170>> <<VARS:var0=l>> addButton(a++,l,(function(){return function(e,t){var o=e.loc,a=e.mins;a>0&&processTime(a);V(o,t)}({loc:u,mins:Math.abs(n[o].sumMins-n[t].sumMins)-n[t].moveMins},e)}),c,d,g)"}, {"key": "button.hover.expr|var0|d1db3b6de186", "original": "{var0}", "translation": "", "context": "<<POS:11510322>> <<VARS:var0=c>> addButton(a++,l,(function(){return function(e,t){var o=e.loc,a=e.mins;a>0&&processTime(a);V(o,t)}({loc:u,mins:Math.abs(n[o].sumMins-n[t].sumMins)-n[t].moveMins},e)}),c,d,g)"}, {"key": "button.tooltip.expr|var0|d1db3b6de186", "original": "{var0}", "translation": "", "context": "<<POS:11510324>> <<VARS:var0=d>> addButton(a++,l,(function(){return function(e,t){var o=e.loc,a=e.mins;a>0&&processTime(a);V(o,t)}({loc:u,mins:Math.abs(n[o].sumMins-n[t].sumMins)-n[t].moveMins},e)}),c,d,g)"}, {"key": "button|Back|aed8e0c1db1d", "original": "Back", "translation": "", "context": "<<POS:11510369>> addButton(14,\"Back\",mainGameMenu)"}, {"key": "button|Floors|5d0dc6754df4", "original": "Floors", "translation": "", "context": "<<POS:11510453>> addButton(e,\"Floors\",t,\"Control Panel\",\"Ride the elevator to a specific floor.\")"}, {"key": "button.hover|Control_Panel|094c6788726d", "original": "Control Panel", "translation": "", "context": "<<POS:11510464>> addButton(e,\"Floors\",t,\"Control Panel\",\"Ride the elevator to a specific floor.\")"}, {"key": "button.tooltip|Ride_the_elevator_to_a_specific_floor|e858c719a147", "original": "Ride the elevator to a specific floor.", "translation": "", "context": "<<POS:11510480>> addButton(e,\"Floors\",t,\"Control Panel\",\"Ride the elevator to a specific floor.\")"}, {"key": "output|p_b_ERROR_attempted_to_extend_a_Log_Event_but_no_log_event_fo|3342491ae63c", "original": "<p><b>ERROR: attempted to extend a Log Event but no log event found</b></p>", "translation": "", "context": "<<POS:11511100>> output(\"<p><b>ERROR: attempted to extend a Log Event but no log event found</b></p>\")"}, {"key": "assign|Your_cover_is_still_in_pristine_condition|1780b6bfe78f", "original": "Your cover is still in pristine condition!", "translation": "", "context": "<<POS:11512122>> a=Math.round(10*a)/10)>=100?o+='Your cover is still in pristine condition!'"}, {"key": "assign|The_cover_is_largely_intact|b405ab22dd2a", "original": "The cover is largely intact.", "translation": "", "context": "<<POS:11512176>> pristine condition!\":a>=75?o+='The cover is largely intact.'"}, {"key": "assign|The_cover_is_in_pretty_rough_shape|4e7bd32060c8", "original": "The cover is in pretty rough shape.", "translation": "", "context": "<<POS:11512216>> r is largely intact.\":a>=50?o+='The cover is in pretty rough shape.'"}, {"key": "assign|Cover_is_getting_pretty_sparse|f94f07c7c2ee", "original": "Cover is getting pretty sparse.", "translation": "", "context": "<<POS:11512263>> pretty rough shape.\":a>=25?o+='Cover is getting pretty sparse.'"}, {"key": "assign|There_s_barely_anything_to_hide_behind_at_this_point|bf7850439587", "original": "There’s barely anything to hide behind at this point!", "translation": "", "context": "<<POS:11512304>> getting pretty sparse.\":a>0?o+='There’s barely anything to hide behind at this point!'"}, {"key": "assign|b_There_isn_t_a_scrap_of_cover_to_be_found|3509e8f8be01", "original": "<b>There isn’t a scrap of cover to be found!", "translation": "", "context": "<<POS:11512364>> ide behind at this point!\":(o+='<b>There isn’t a scrap of cover to be found!'"}, {"key": "assign|You_need_to_move|e55776930001", "original": " You need to move!", "translation": "", "context": "<<POS:11512443>> SINGLE_COVER\"!==e.current&&(o+=' You need to move!'"}, {"key": "assign|b|e5237fe14db9", "original": "</b>", "translation": "", "context": "<<POS:11512468>> &&(o+=\" You need to move!\"),o+='</b>'"}, {"key": "assign|span_class_statChange_b|5da5b3881ec7", "original": " <span class=\"statChange\">(<b>", "translation": "", "context": "<<POS:11512479>> need to move!\"),o+=\"</b>\"),o+=' <span class=\"statChange\">(<b>'"}, {"key": "assign|div_class_combat_cover_stats|63b577b57849", "original": "<div class=\"combat_cover_stats\">", "translation": "", "context": "<<POS:11512578>> )</span>\"),o+=\"\\n\\n\"}return o+='<div class=\"combat_cover_stats\">'"}, {"key": "assign|span_class_combat_cover_stat_active_b_Cover_b|07a2b7a7cc5b", "original": "<span class=\"combat_cover_stat active\"><b>Cover</b>", "translation": "", "context": "<<POS:11512643>> ,\"SINGLE_COVER\"===e.current?o+='<span class=\"combat_cover_stat active\"><b>Cover</b>'"}, {"key": "assign|span_class_combat_cover_stat|8762dbf34651", "original": "<span class=\"combat_cover_stat", "translation": "", "context": "<<POS:11512788>> \"</span>\"):(null!==e.left&&(o+='<span class=\"combat_cover_stat'"}, {"key": "assign|span_class_combat_cover_stat|f9cbc055adb0", "original": "<span class=\"combat_cover_stat", "translation": "", "context": "<<POS:11512974>> /span>\")),null!==e.center&&(o+='<span class=\"combat_cover_stat'"}, {"key": "assign|span_class_combat_cover_stat|f9cbc055adb0#1", "original": "<span class=\"combat_cover_stat", "translation": "", "context": "<<POS:11513165>> </span>\")),null!==e.right&&(o+='<span class=\"combat_cover_stat'"}, {"key": "assign|div|04682e38a2d4", "original": "</div>", "translation": "", "context": "<<POS:11513337>> e.valueMax,!0),\"</span>\"))),o+='</div>'"}, {"key": "assign|lesser_panda|7017262bc47b", "original": "lesser panda", "translation": "", "context": "<<POS:11515592>> ,[\"red panda\"].includes(e)&&(e='lesser panda'"}, {"key": "string.array|horse_alicorn_unicorn_pegasus_terran|f266895d4a77", "original": "[\"horse\",\"alicorn\",\"unicorn\",\"pegasus\",\"terran\"]", "translation": "", "context": "<<POS:11515959>> '[\"horse\",\"alicorn\",\"unicorn\",\"pegasus\",\"terran\"]'"}, {"key": "assign|and|e99513d902f0", "original": " and ", "translation": "", "context": "<<POS:11517021>> ;c++)0!==c&&(c===n.length-1?a+=' and '"}, {"key": "assign|div_class_inlinePercentBar|4a795bdc79bf", "original": "<div class=\"inlinePercentBar\">", "translation": "", "context": "<<POS:11518984>> t>0?a[h]/t*100:0);l.push(c)}n+='<div class=\"inlinePercentBar\">'"}, {"key": "assign|div_class_statBarContainer_title|fadc9baf7085", "original": "<div class=\"statBarContainer\" title=\"", "translation": "", "context": "<<POS:11519020>> class=\"inlinePercentBar\">',n+='<div class=\"statBarContainer\" title=\"'"}, {"key": "assign|div_class_statBarBG_div|9bb0cb49cc90", "original": "<div class=\"statBarBG\"></div>", "translation": "", "context": "<<POS:11519078>> er\" title=\"'.concat(u,'\">'),n+='<div class=\"statBarBG\"></div>'"}, {"key": "assign|div_class_statBar_style_width|977621eeff22", "original": "<div class=\"statBar\" style=\"width: ", "translation": "", "context": "<<POS:11519113>> v class=\"statBarBG\"></div>',n+='<div class=\"statBar\" style=\"width: '"}, {"key": "assign|div_class_statBarMin_style_width|b091ec7b8ac5", "original": "<div class=\"statBarMin\" style=\"width: ", "translation": "", "context": "<<POS:11519177>> h: '.concat(s,'%;\"></div>'),n+='<div class=\"statBarMin\" style=\"width: '"}, {"key": "assign|div_class_statMarker_style_left|9d9fa2dbd663", "original": "<div class=\"statMarker\" style=\"left: ", "translation": "", "context": "<<POS:11519287>> ;d<g.length;d++){var p=g[d];n+='<div class=\"statMarker\" style=\"left: '"}, {"key": "assign|div|2a2448b9895a", "original": "</div>", "translation": "", "context": "<<POS:11519360>> ncat(p,'%;\"></div>')}return n+='</div>'"}, {"key": "assign|span_class_statValue|372e7425a5eb", "original": "<span class=\"statValue\"> ", "translation": "", "context": "<<POS:11519376>> v>')}return n+=\"</div>\",o&&(n+='<span class=\"statValue\"> '"}, {"key": "assign|div|4fcf6ffedf4f", "original": "</div>", "translation": "", "context": "<<POS:11519428>> ue\"> '.concat(u,\"</span>\")),n+='</div>'"}, {"key": "assign|span_class_time_day|902373b68387", "original": "<span class=\"time_day\"> ", "translation": "", "context": "<<POS:11520933>> s=!0):e>12?(e-=12,s=!1):s=!0,r='<span class=\"time_day\"> '"}, {"key": "assign|span_class_digital_clock|364956d68a49", "original": "<span class=\"digital_clock\">", "translation": "", "context": "<<POS:11521172>> at(t))}if(\"digital\"===o){var h='<span class=\"digital_clock\">'"}, {"key": "assign|div_class_clock_display_day_indicator|e4f63cb9b9a7", "original": "<div class=\"clock_display_day_indicator\">", "translation": "", "context": "<<POS:11521296>> Digital(i)));return\"\"!==r&&(h+='<div class=\"clock_display_day_indicator\">'"}, {"key": "assign|div_class_indicator_time_day_style_opacity|af3705b9eeaf", "original": "<div class=\"indicator time_day\" style=\"opacity: ", "translation": "", "context": "<<POS:11521343>> ck_display_day_indicator\">',h+='<div class=\"indicator time_day\" style=\"opacity: '"}, {"key": "assign|div_class_indicator_divider_style_opacity_0_1_div|a287eee10984", "original": "<div class=\"indicator divider\" style=\"opacity: 0.1\">−</div>", "translation": "", "context": "<<POS:11521425>> concat(s?1:.1,'\">AM</div>'),h+='<div class=\"indicator divider\" style=\"opacity: 0.1\">−</div>'"}, {"key": "assign|div_class_indicator_time_day_style_opacity|0e508ff042f8", "original": "<div class=\"indicator time_day\" style=\"opacity: ", "translation": "", "context": "<<POS:11521490>> yle=\"opacity: 0.1\">−</div>',h+='<div class=\"indicator time_day\" style=\"opacity: '"}, {"key": "assign|div|5a907fd206b6", "original": "</div>", "translation": "", "context": "<<POS:11521572>> concat(s?.1:1,'\">PM</div>'),h+='</div>'"}, {"key": "assign|span|98ee78f5dfbf", "original": "</span>", "translation": "", "context": "<<POS:11521585>> ,'\">PM</div>'),h+=\"</div>\"),h+='</span>'"}, {"key": "assign|b_Please_avoid_using_a_space_as_the_first_character_b|13adbc88e521", "original": "<b>Please avoid using a space as the first character.</b>", "translation": "", "context": "<<POS:11523497>> ;return e?0===e.indexOf(\" \")?t='<b>Please avoid using a space as the first character.</b>'"}, {"key": "assign|b_To_prevent_complications_please_avoid_using_code_in_the_name|c0121b2c229a", "original": "<b>To prevent complications, please avoid using code in the name.</b>", "translation": "", "context": "<<POS:11523565>> first character.</b>\":fe(e)?t='<b>To prevent complications, please avoid using code in the '"}, {"key": "assign|b_You_must_enter_a_name_no_more_than|b616ffa14228", "original": "<b>You must enter a name no more than ", "translation": "", "context": "<<POS:11523661>> .</b>\":e.length>me(\"name\")&&(t='<b>You must enter a name no more than '"}, {"key": "assign|b_You_must_input_a_name_b|2ac309e3f71a", "original": "<b>You must input a name.</b>", "translation": "", "context": "<<POS:11523763>> )),\" characters long.</b>\")):t='<b>You must input a name.</b>'"}, {"key": "assign|b_You_ve_crossed_over_the_threshold_to_having_a_seven_inch_dick|b6a2c5d1953d", "original": "<b>You’ve crossed over the threshold to having a seven inch dick - average for Terrans in this galaxy.</b>", "translation": "", "context": "<<POS:11527075>> 3]:\"\",n=\"\";return e<7&&t>=7?n+='<b>You’ve crossed over the threshold to having a seven inch '"}, {"key": "assign|b_You_re_nearly_a_foot_long_It_ll_be_almost_impossible_to_hide|469a673cdba7", "original": "<b>You’re nearly a foot long. It’ll be almost impossible to hide, but on the flipside, there’s so much more of you to please. You can only imagine how good sinking all these inches in is going to feel.</b>", "translation": "", "context": "<<POS:11527199>> is galaxy.</b>\":e<11&&t>=11?n+='<b>You’re nearly a foot long. It’ll be almost impossible to '"}, {"key": "assign|b_You_re_big_enough_to_match_the_length_of_many_races_forearms|ce5e066add2a", "original": "<b>You’re big enough to match the length of many races’ forearms. Big enough to put a bulge in almost anyone’s belly.</b>", "translation": "", "context": "<<POS:11527422>> g to feel.</b>\":e<14&&t>=14?n+='<b>You’re big enough to match the length of many races’ fore'"}, {"key": "assign|b_You_d_better_be_careful_now_that_your_dick_is_this_big_An_er|4b93e8a0a1e6", "original": "<b>You’d better be careful now that your dick is this big. An errant boner could easily rip right through cheap underwear. On the flipside, you’re fairly certain you can please a centaur with ease.</b>", "translation": "", "context": "<<POS:11527561>> e’s belly.</b>\":e<18&&t>=18?n+='<b>You’d better be careful now that your dick is this big. A'"}, {"key": "assign|b_A_full_two_feet_of_cock_is_a_lot_to_drag_around_and_even_mo|3e7d674f5bb9", "original": "<b>A full two feet of cock is a lot to drag around - and even more to shove inside of someone. Leithans must love you.</b>", "translation": "", "context": "<<POS:11527780>> with ease.</b>\":e<24&&t>=24?n+='<b>A full two feet of cock is a lot to drag around - and eve'"}, {"key": "assign|b_You_re_packing_a_three_foot_long_pole_now_which_means_you_ll|bd3afc8498bc", "original": "<b>You’re packing a three foot long pole now, which means you’ll have to be careful about walking naked near shorter folks - or comfortable with cockslapping them into unconsciousness.</b>", "translation": "", "context": "<<POS:11527920>> love you.</b>\":e<36&&t>=36?n+='<b>You’re packing a three foot long pole now, which means yo'"}, {"key": "assign|b_Four_feet_of_dick_is_big_really_truly_next_level_big_Dra|e440e527429c", "original": "<b>Four feet of dick is big - really, truly, next-level big. Dragging this much dick around isn’t going to make you popular with anyone but size-queens, but when you find one, well, you’ve got enough cock for their whole body to love.</b>", "translation": "", "context": "<<POS:11528128>> ousness.</b>\":e<48&&t>=48&&(n+='<b>Four feet of dick is big - really, truly, next-level big.'"}]
+[
+  {
+    "key": "assign|ERROR_Log_Event_modTimestamp_is_NaN|3d8ad7b52cf7",
+    "original": "ERROR: Log Event modTimestamp is NaN: \"",
+    "translation": "",
+    "context": "<<POS:11485095>> ==typeof e){if(isNaN(o)){var a='ERROR: Log Event modTimestamp is NaN: \"'"
+  },
+  {
+    "key": "output|p_b_concat_a_b_p|0a27fd7a9b9d",
+    "original": "<p><b>\".concat(a,\"</b></p>\")",
+    "translation": "",
+    "context": "<<POS:11485154>> output(\"<p><b>\".concat(a,\"</b></p>\"))"
+  },
+  {
+    "key": "assign|ERROR_attempted_to_create_a_Log_Event_but_eventMessage_was_set|eddfb4839c9a",
+    "original": "ERROR: attempted to create a Log Event but eventMessage was set to \"",
+    "translation": "",
+    "context": "<<POS:11485197>> cat(a,\"</b></p>\"))}}else{var n='ERROR: attempted to create a Log Event but eventMessage was '"
+  },
+  {
+    "key": "output|p_b_concat_n_b_p|def3c8ae3336",
+    "original": "<p><b>\".concat(n,\"</b></p>\")",
+    "translation": "",
+    "context": "<<POS:11485289>> output(\"<p><b>\".concat(n,\"</b></p>\"))"
+  },
+  {
+    "key": "output|A_nearby_whistle_blows_before_a_visible_cloud_of_steam_briefly_a|940d1475769b",
+    "original": "A nearby whistle blows before a visible cloud of steam briefly appears around you. You hear the gears cranking and axles turning before feeling the metal floor beneath you move. Not long after, the clacking clockwork mechanisms quickly carry the car across the impressive view of Gildenmere, then gradually slows to a stop before an audible woosh sounds, marking your arrival to your destination.",
+    "translation": "",
+    "context": "<<POS:11488441>> output(\"A nearby whistle blows before a visible cloud of steam briefly appears around you. You hear the gears cranking and axles turning before feeling the metal floor beneath you move. Not long after, the clacking clockwork mechanisms quickly carry the car across the impressive view of Gildenmere, ..."
+  },
+  {
+    "key": "output|The_glass_chamber_closes_and_muffles_the_sounds_around_you_leav|f6fd1f44be1a",
+    "original": "The glass chamber closes and muffles the sounds around you, leaving you with the faint noises of steam-powered hydraulics and turning gears--and an incredible view of Kressia. Before you know it, the elevator practically glides to its destination and you arrive with little fanfare. The doors open and the sounds of the busy populace instantly hit you once again.",
+    "translation": "",
+    "context": "<<POS:11488868>> output(\"The glass chamber closes and muffles the sounds around you, leaving you with the faint noises of steam-powered hydraulics and turning gears--and an incredible view of Kressia. Before you know it, the elevator practically glides to its destination and you arrive with little fanfare. The doors..."
+  },
+  {
+    "key": "output|With_audible_hydraulic_presses_whirring_gears_and_a_mechanical|0c8a8bdb3a32",
+    "original": "With audible hydraulic presses, whirring gears and a mechanical hum, the cargo elevator powers up and shifts you towards the direction of your destination, then it slows down and quiets once you arrive.",
+    "translation": "",
+    "context": "<<POS:11489263>> output(\"With audible hydraulic presses, whirring gears and a mechanical hum, the cargo elevator powers up and shifts you towards the direction of your destination, then it slows down and quiets once you arrive.\")"
+  },
+  {
+    "key": "output|Your_stomach_drops_as_the_lift_kicks_into_gear_The_gentle_stea|10475076be23",
+    "original": "Your stomach drops as the lift kicks into gear. The gentle, steady thrum of powerful machinery fills the metallic tube as you are brought to your destination, slowly decelerating when you arrive.",
+    "translation": "",
+    "context": "<<POS:11489537>> output(\"Your stomach drops as the lift kicks into gear. The gentle, steady thrum of powerful machinery fills the metallic tube as you are brought to your destination, slowly decelerating when you arrive.\")"
+  },
+  {
+    "key": "button|Next|dd86a3fb474b",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:11489756>> addButton(0,\"Next\",mainGameMenu)"
+  },
+  {
+    "key": "output|Nudity_is_illegal_in_that_location_You_ll_have_to_cover_up_if_y|6ab2d08eeab1",
+    "original": "Nudity is illegal in that location! You’ll have to cover up if you want to go there.",
+    "translation": "",
+    "context": "<<POS:11490579>> output(\"Nudity is illegal in that location! You’ll have to cover up if you want to go there.\")"
+  },
+  {
+    "key": "output|You_can_try_your_luck_and_sneak_back_to_your_ship_if_you_are_dar|b841a32d94f7",
+    "original": "You can try your luck and sneak back to your ship if you are daring...",
+    "translation": "",
+    "context": "<<POS:11492210>> output(\"\\n\\nYou can try your luck and sneak back to your ship if you are daring...\")"
+  },
+  {
+    "key": "button|Sneak_Back|fba4ac1fc43a",
+    "original": "Sneak Back",
+    "translation": "",
+    "context": "<<POS:11492296>> addButton(0,\"Sneak Back\",window.sneakBackYouNudist,\"Sneak Back\",\"Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.\")"
+  },
+  {
+    "key": "button.hover|Sneak_Back|fba4ac1fc43a",
+    "original": "Sneak Back",
+    "translation": "",
+    "context": "<<POS:11492335>> addButton(0,\"Sneak Back\",window.sneakBackYouNudist,\"Sneak Back\",\"Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.\")"
+  },
+  {
+    "key": "button.tooltip|Sneak_back_to_the_ship_Fuckin_prudes_It_might_take_you_a_coup|45377d60ecba",
+    "original": "Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.",
+    "translation": "",
+    "context": "<<POS:11492348>> addButton(0,\"Sneak Back\",window.sneakBackYouNudist,\"Sneak Back\",\"Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.\")"
+  },
+  {
+    "key": "output|Due_to_your_lack_of_coverage_you_can_call_for_an_emergency_clot|a2b442bdb7d4",
+    "original": "Due to your lack of coverage, you can call for an emergency clothing drop to help with your situation--though it may cost you some credits if you choose to do so.",
+    "translation": "",
+    "context": "<<POS:11492469>> output(\"\\n\\nDue to your lack of coverage, you can call for an emergency clothing drop to help with your situation--though it may cost you some credits if you choose to do so.\")"
+  },
+  {
+    "key": "button|Help|4b70e0285fbf",
+    "original": "Help!",
+    "translation": "",
+    "context": "<<POS:11492647>> addButton(1,\"Help!\",window.dropNewClothes,\"Emergency Clothing Drop\",\"Call a drone to retrieve a new set of clothes.\")"
+  },
+  {
+    "key": "button.hover|Emergency_Clothing_Drop|e1c656d77f8e",
+    "original": "Emergency Clothing Drop",
+    "translation": "",
+    "context": "<<POS:11492677>> addButton(1,\"Help!\",window.dropNewClothes,\"Emergency Clothing Drop\",\"Call a drone to retrieve a new set of clothes.\")"
+  },
+  {
+    "key": "button.tooltip|Call_a_drone_to_retrieve_a_new_set_of_clothes|d59da0abc7e7",
+    "original": "Call a drone to retrieve a new set of clothes.",
+    "translation": "",
+    "context": "<<POS:11492703>> addButton(1,\"Help!\",window.dropNewClothes,\"Emergency Clothing Drop\",\"Call a drone to retrieve a new set of clothes.\")"
+  },
+  {
+    "key": "button|Back|ff5c8ec996bc",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:11492772>> addButton(14,\"Back\",(function(){return window.enterPCShip(!0)}))"
+  },
+  {
+    "key": "string.array|null_January_February_March_April_May_June_July|3227162611b0",
+    "original": "[\"null\",\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\"]",
+    "translation": "",
+    "context": "<<POS:11504098>> '[\"null\",\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"Septe'..."
+  },
+  {
+    "key": "string.array|null_Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_O|180d8a27d17f",
+    "original": "[\"null\",\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"]",
+    "translation": "",
+    "context": "<<POS:11504237>> '[\"null\",\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"]'"
+  },
+  {
+    "key": "string.array|null_Sunday_Monday_Tuesday_Wednesday_Thursday_Frid|0eb21b19596f",
+    "original": "[\"null\",\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"]",
+    "translation": "",
+    "context": "<<POS:11504688>> '[\"null\",\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"]'"
+  },
+  {
+    "key": "string.array|null_Sun_Mon_Tue_Wed_Thu_Fri_Sat|ebc420b0133c",
+    "original": "[\"null\",\"Sun\",\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\"]",
+    "translation": "",
+    "context": "<<POS:11504788>> '[\"null\",\"Sun\",\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\"]'"
+  },
+  {
+    "key": "string.array|Su_Mo_Tu_We_Th_Fr_Sa|1200cbd1fb20",
+    "original": "[\"--\",\"Su\",\"Mo\",\"Tu\",\"We\",\"Th\",\"Fr\",\"Sa\"]",
+    "translation": "",
+    "context": "<<POS:11504859>> '[\"--\",\"Su\",\"Mo\",\"Tu\",\"We\",\"Th\",\"Fr\",\"Sa\"]'"
+  },
+  {
+    "key": "string.array|calendar_none_calendar_sunday_calendar_monday_calendar_t|fb31dde3f59b",
+    "original": "[\"calendar_none\",\"calendar_sunday\",\"calendar_monday\",\"calendar_tuesday\",\"calendar_wednesday\",\"calendar_thursday\",\"calendar_friday\",\"calendar_saturday\"]",
+    "translation": "",
+    "context": "<<POS:11504922>> '[\"calendar_none\",\"calendar_sunday\",\"calendar_monday\",\"calendar_tuesday\",\"calenda'..."
+  },
+  {
+    "key": "output.expr|var0|06dbd1b4460f",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11507323>> <<VARS:var0=e.longName>> ParseText(e.longName)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11507359>> <<VARS:var0=t.longName>> ParseText(t.longName)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11508169>> <<VARS:var0=v.longName>> ParseText(v.longName)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11509884>> <<VARS:var0=l>> addDisabledButton(a++,l,c,\"You are already on \".concat(null!==(r=n[t].long)&&void 0!==r?r:\"this floor\",\".\"))"
+  },
+  {
+    "key": "button.hover.expr|You_are_already_on_concat_null_r_n_t_long_void_0_r_r|587ffa1f78e7",
+    "original": "\"You are already on \".concat(null!==(r=n[t].long)&&void 0!==r?r:\"this floor\",\".\")",
+    "translation": "",
+    "context": "<<POS:11509888>> <<VARS:>> addDisabledButton(a++,l,c,\"You are already on \".concat(null!==(r=n[t].long)&&void 0!==r?r:\"this floor\",\".\"))"
+  },
+  {
+    "key": "button.expr|var0|5418c7f1e41f",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11509999>> <<VARS:var0=l>> addButton(a++,l,h,c,d)"
+  },
+  {
+    "key": "button.hover.expr|var0|5418c7f1e41f",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11510003>> <<VARS:var0=c>> addButton(a++,l,h,c,d)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|5418c7f1e41f",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11510005>> <<VARS:var0=d>> addButton(a++,l,h,c,d)"
+  },
+  {
+    "key": "button.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11510110>> <<VARS:var0=l>> addDisabledButton(a++,l,c,\"Unable to go to \".concat(n[t].long,\".\"))"
+  },
+  {
+    "key": "button.hover.expr|Unable_to_go_to_concat_n_t_long|2ef60e17408a",
+    "original": "\"Unable to go to \".concat(n[t].long,\".\")",
+    "translation": "",
+    "context": "<<POS:11510114>> <<VARS:>> addDisabledButton(a++,l,c,\"Unable to go to \".concat(n[t].long,\".\"))"
+  },
+  {
+    "key": "button.expr|var0|d1db3b6de186",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11510170>> <<VARS:var0=l>> addButton(a++,l,(function(){return function(e,t){var o=e.loc,a=e.mins;a>0&&processTime(a);V(o,t)}({loc:u,mins:Math.abs(n[o].sumMins-n[t].sumMins)-n[t].moveMins},e)}),c,d,g)"
+  },
+  {
+    "key": "button.hover.expr|var0|d1db3b6de186",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11510322>> <<VARS:var0=c>> addButton(a++,l,(function(){return function(e,t){var o=e.loc,a=e.mins;a>0&&processTime(a);V(o,t)}({loc:u,mins:Math.abs(n[o].sumMins-n[t].sumMins)-n[t].moveMins},e)}),c,d,g)"
+  },
+  {
+    "key": "button.tooltip.expr|var0|d1db3b6de186",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:11510324>> <<VARS:var0=d>> addButton(a++,l,(function(){return function(e,t){var o=e.loc,a=e.mins;a>0&&processTime(a);V(o,t)}({loc:u,mins:Math.abs(n[o].sumMins-n[t].sumMins)-n[t].moveMins},e)}),c,d,g)"
+  },
+  {
+    "key": "button|Back|aed8e0c1db1d",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:11510369>> addButton(14,\"Back\",mainGameMenu)"
+  },
+  {
+    "key": "button|Floors|5d0dc6754df4",
+    "original": "Floors",
+    "translation": "",
+    "context": "<<POS:11510453>> addButton(e,\"Floors\",t,\"Control Panel\",\"Ride the elevator to a specific floor.\")"
+  },
+  {
+    "key": "button.hover|Control_Panel|094c6788726d",
+    "original": "Control Panel",
+    "translation": "",
+    "context": "<<POS:11510464>> addButton(e,\"Floors\",t,\"Control Panel\",\"Ride the elevator to a specific floor.\")"
+  },
+  {
+    "key": "button.tooltip|Ride_the_elevator_to_a_specific_floor|e858c719a147",
+    "original": "Ride the elevator to a specific floor.",
+    "translation": "",
+    "context": "<<POS:11510480>> addButton(e,\"Floors\",t,\"Control Panel\",\"Ride the elevator to a specific floor.\")"
+  },
+  {
+    "key": "output|p_b_ERROR_attempted_to_extend_a_Log_Event_but_no_log_event_fo|3342491ae63c",
+    "original": "<p><b>ERROR: attempted to extend a Log Event but no log event found</b></p>",
+    "translation": "",
+    "context": "<<POS:11511100>> output(\"<p><b>ERROR: attempted to extend a Log Event but no log event found</b></p>\")"
+  },
+  {
+    "key": "assign|Your_cover_is_still_in_pristine_condition|1780b6bfe78f",
+    "original": "Your cover is still in pristine condition!",
+    "translation": "",
+    "context": "<<POS:11512122>> a=Math.round(10*a)/10)>=100?o+='Your cover is still in pristine condition!'"
+  },
+  {
+    "key": "assign|The_cover_is_largely_intact|b405ab22dd2a",
+    "original": "The cover is largely intact.",
+    "translation": "",
+    "context": "<<POS:11512176>> pristine condition!\":a>=75?o+='The cover is largely intact.'"
+  },
+  {
+    "key": "assign|The_cover_is_in_pretty_rough_shape|4e7bd32060c8",
+    "original": "The cover is in pretty rough shape.",
+    "translation": "",
+    "context": "<<POS:11512216>> r is largely intact.\":a>=50?o+='The cover is in pretty rough shape.'"
+  },
+  {
+    "key": "assign|Cover_is_getting_pretty_sparse|f94f07c7c2ee",
+    "original": "Cover is getting pretty sparse.",
+    "translation": "",
+    "context": "<<POS:11512263>> pretty rough shape.\":a>=25?o+='Cover is getting pretty sparse.'"
+  },
+  {
+    "key": "assign|There_s_barely_anything_to_hide_behind_at_this_point|bf7850439587",
+    "original": "There’s barely anything to hide behind at this point!",
+    "translation": "",
+    "context": "<<POS:11512304>> getting pretty sparse.\":a>0?o+='There’s barely anything to hide behind at this point!'"
+  },
+  {
+    "key": "assign|b_There_isn_t_a_scrap_of_cover_to_be_found|3509e8f8be01",
+    "original": "<b>There isn’t a scrap of cover to be found!",
+    "translation": "",
+    "context": "<<POS:11512364>> ide behind at this point!\":(o+='<b>There isn’t a scrap of cover to be found!'"
+  },
+  {
+    "key": "assign|You_need_to_move|e55776930001",
+    "original": " You need to move!",
+    "translation": "",
+    "context": "<<POS:11512443>> SINGLE_COVER\"!==e.current&&(o+=' You need to move!'"
+  },
+  {
+    "key": "assign|b|e5237fe14db9",
+    "original": "</b>",
+    "translation": "",
+    "context": "<<POS:11512468>> &&(o+=\" You need to move!\"),o+='</b>'"
+  },
+  {
+    "key": "assign|span_class_statChange_b|5da5b3881ec7",
+    "original": " <span class=\"statChange\">(<b>",
+    "translation": "",
+    "context": "<<POS:11512479>> need to move!\"),o+=\"</b>\"),o+=' <span class=\"statChange\">(<b>'"
+  },
+  {
+    "key": "assign|div_class_combat_cover_stats|63b577b57849",
+    "original": "<div class=\"combat_cover_stats\">",
+    "translation": "",
+    "context": "<<POS:11512578>> )</span>\"),o+=\"\\n\\n\"}return o+='<div class=\"combat_cover_stats\">'"
+  },
+  {
+    "key": "assign|span_class_combat_cover_stat_active_b_Cover_b|07a2b7a7cc5b",
+    "original": "<span class=\"combat_cover_stat active\"><b>Cover</b>",
+    "translation": "",
+    "context": "<<POS:11512643>> ,\"SINGLE_COVER\"===e.current?o+='<span class=\"combat_cover_stat active\"><b>Cover</b>'"
+  },
+  {
+    "key": "assign|span_class_combat_cover_stat|8762dbf34651",
+    "original": "<span class=\"combat_cover_stat",
+    "translation": "",
+    "context": "<<POS:11512788>> \"</span>\"):(null!==e.left&&(o+='<span class=\"combat_cover_stat'"
+  },
+  {
+    "key": "assign|span_class_combat_cover_stat|f9cbc055adb0",
+    "original": "<span class=\"combat_cover_stat",
+    "translation": "",
+    "context": "<<POS:11512974>> /span>\")),null!==e.center&&(o+='<span class=\"combat_cover_stat'"
+  },
+  {
+    "key": "assign|span_class_combat_cover_stat|f9cbc055adb0#1",
+    "original": "<span class=\"combat_cover_stat",
+    "translation": "",
+    "context": "<<POS:11513165>> </span>\")),null!==e.right&&(o+='<span class=\"combat_cover_stat'"
+  },
+  {
+    "key": "assign|div|04682e38a2d4",
+    "original": "</div>",
+    "translation": "",
+    "context": "<<POS:11513337>> e.valueMax,!0),\"</span>\"))),o+='</div>'"
+  },
+  {
+    "key": "assign|lesser_panda|7017262bc47b",
+    "original": "lesser panda",
+    "translation": "",
+    "context": "<<POS:11515592>> ,[\"red panda\"].includes(e)&&(e='lesser panda'"
+  },
+  {
+    "key": "string.array|horse_alicorn_unicorn_pegasus_terran|f266895d4a77",
+    "original": "[\"horse\",\"alicorn\",\"unicorn\",\"pegasus\",\"terran\"]",
+    "translation": "",
+    "context": "<<POS:11515959>> '[\"horse\",\"alicorn\",\"unicorn\",\"pegasus\",\"terran\"]'"
+  },
+  {
+    "key": "assign|and|e99513d902f0",
+    "original": " and ",
+    "translation": "",
+    "context": "<<POS:11517021>> ;c++)0!==c&&(c===n.length-1?a+=' and '"
+  },
+  {
+    "key": "assign|div_class_inlinePercentBar|4a795bdc79bf",
+    "original": "<div class=\"inlinePercentBar\">",
+    "translation": "",
+    "context": "<<POS:11518984>> t>0?a[h]/t*100:0);l.push(c)}n+='<div class=\"inlinePercentBar\">'"
+  },
+  {
+    "key": "assign|div_class_statBarContainer_title|fadc9baf7085",
+    "original": "<div class=\"statBarContainer\" title=\"",
+    "translation": "",
+    "context": "<<POS:11519020>> class=\"inlinePercentBar\">',n+='<div class=\"statBarContainer\" title=\"'"
+  },
+  {
+    "key": "assign|div_class_statBarBG_div|9bb0cb49cc90",
+    "original": "<div class=\"statBarBG\"></div>",
+    "translation": "",
+    "context": "<<POS:11519078>> er\" title=\"'.concat(u,'\">'),n+='<div class=\"statBarBG\"></div>'"
+  },
+  {
+    "key": "assign|div_class_statBar_style_width|977621eeff22",
+    "original": "<div class=\"statBar\" style=\"width: ",
+    "translation": "",
+    "context": "<<POS:11519113>> v class=\"statBarBG\"></div>',n+='<div class=\"statBar\" style=\"width: '"
+  },
+  {
+    "key": "assign|div_class_statBarMin_style_width|b091ec7b8ac5",
+    "original": "<div class=\"statBarMin\" style=\"width: ",
+    "translation": "",
+    "context": "<<POS:11519177>> h: '.concat(s,'%;\"></div>'),n+='<div class=\"statBarMin\" style=\"width: '"
+  },
+  {
+    "key": "assign|div_class_statMarker_style_left|9d9fa2dbd663",
+    "original": "<div class=\"statMarker\" style=\"left: ",
+    "translation": "",
+    "context": "<<POS:11519287>> ;d<g.length;d++){var p=g[d];n+='<div class=\"statMarker\" style=\"left: '"
+  },
+  {
+    "key": "assign|div|2a2448b9895a",
+    "original": "</div>",
+    "translation": "",
+    "context": "<<POS:11519360>> ncat(p,'%;\"></div>')}return n+='</div>'"
+  },
+  {
+    "key": "assign|span_class_statValue|372e7425a5eb",
+    "original": "<span class=\"statValue\"> ",
+    "translation": "",
+    "context": "<<POS:11519376>> v>')}return n+=\"</div>\",o&&(n+='<span class=\"statValue\"> '"
+  },
+  {
+    "key": "assign|div|4fcf6ffedf4f",
+    "original": "</div>",
+    "translation": "",
+    "context": "<<POS:11519428>> ue\"> '.concat(u,\"</span>\")),n+='</div>'"
+  },
+  {
+    "key": "assign|span_class_time_day|902373b68387",
+    "original": "<span class=\"time_day\"> ",
+    "translation": "",
+    "context": "<<POS:11520933>> s=!0):e>12?(e-=12,s=!1):s=!0,r='<span class=\"time_day\"> '"
+  },
+  {
+    "key": "assign|span_class_digital_clock|364956d68a49",
+    "original": "<span class=\"digital_clock\">",
+    "translation": "",
+    "context": "<<POS:11521172>> at(t))}if(\"digital\"===o){var h='<span class=\"digital_clock\">'"
+  },
+  {
+    "key": "assign|div_class_clock_display_day_indicator|e4f63cb9b9a7",
+    "original": "<div class=\"clock_display_day_indicator\">",
+    "translation": "",
+    "context": "<<POS:11521296>> Digital(i)));return\"\"!==r&&(h+='<div class=\"clock_display_day_indicator\">'"
+  },
+  {
+    "key": "assign|div_class_indicator_time_day_style_opacity|af3705b9eeaf",
+    "original": "<div class=\"indicator time_day\" style=\"opacity: ",
+    "translation": "",
+    "context": "<<POS:11521343>> ck_display_day_indicator\">',h+='<div class=\"indicator time_day\" style=\"opacity: '"
+  },
+  {
+    "key": "assign|div_class_indicator_divider_style_opacity_0_1_div|a287eee10984",
+    "original": "<div class=\"indicator divider\" style=\"opacity: 0.1\">−</div>",
+    "translation": "",
+    "context": "<<POS:11521425>> concat(s?1:.1,'\">AM</div>'),h+='<div class=\"indicator divider\" style=\"opacity: 0.1\">−</div>'"
+  },
+  {
+    "key": "assign|div_class_indicator_time_day_style_opacity|0e508ff042f8",
+    "original": "<div class=\"indicator time_day\" style=\"opacity: ",
+    "translation": "",
+    "context": "<<POS:11521490>> yle=\"opacity: 0.1\">−</div>',h+='<div class=\"indicator time_day\" style=\"opacity: '"
+  },
+  {
+    "key": "assign|div|5a907fd206b6",
+    "original": "</div>",
+    "translation": "",
+    "context": "<<POS:11521572>> concat(s?.1:1,'\">PM</div>'),h+='</div>'"
+  },
+  {
+    "key": "assign|span|98ee78f5dfbf",
+    "original": "</span>",
+    "translation": "",
+    "context": "<<POS:11521585>> ,'\">PM</div>'),h+=\"</div>\"),h+='</span>'"
+  },
+  {
+    "key": "assign|b_Please_avoid_using_a_space_as_the_first_character_b|13adbc88e521",
+    "original": "<b>Please avoid using a space as the first character.</b>",
+    "translation": "",
+    "context": "<<POS:11523497>> ;return e?0===e.indexOf(\" \")?t='<b>Please avoid using a space as the first character.</b>'"
+  },
+  {
+    "key": "assign|b_To_prevent_complications_please_avoid_using_code_in_the_name|c0121b2c229a",
+    "original": "<b>To prevent complications, please avoid using code in the name.</b>",
+    "translation": "",
+    "context": "<<POS:11523565>> first character.</b>\":fe(e)?t='<b>To prevent complications, please avoid using code in the '"
+  },
+  {
+    "key": "assign|b_You_must_enter_a_name_no_more_than|b616ffa14228",
+    "original": "<b>You must enter a name no more than ",
+    "translation": "",
+    "context": "<<POS:11523661>> .</b>\":e.length>me(\"name\")&&(t='<b>You must enter a name no more than '"
+  },
+  {
+    "key": "assign|b_You_must_input_a_name_b|2ac309e3f71a",
+    "original": "<b>You must input a name.</b>",
+    "translation": "",
+    "context": "<<POS:11523763>> )),\" characters long.</b>\")):t='<b>You must input a name.</b>'"
+  },
+  {
+    "key": "assign|b_You_ve_crossed_over_the_threshold_to_having_a_seven_inch_dick|b6a2c5d1953d",
+    "original": "<b>You’ve crossed over the threshold to having a seven inch dick - average for Terrans in this galaxy.</b>",
+    "translation": "",
+    "context": "<<POS:11527075>> 3]:\"\",n=\"\";return e<7&&t>=7?n+='<b>You’ve crossed over the threshold to having a seven inch '"
+  },
+  {
+    "key": "assign|b_You_re_nearly_a_foot_long_It_ll_be_almost_impossible_to_hide|469a673cdba7",
+    "original": "<b>You’re nearly a foot long. It’ll be almost impossible to hide, but on the flipside, there’s so much more of you to please. You can only imagine how good sinking all these inches in is going to feel.</b>",
+    "translation": "",
+    "context": "<<POS:11527199>> is galaxy.</b>\":e<11&&t>=11?n+='<b>You’re nearly a foot long. It’ll be almost impossible to '"
+  },
+  {
+    "key": "assign|b_You_re_big_enough_to_match_the_length_of_many_races_forearms|ce5e066add2a",
+    "original": "<b>You’re big enough to match the length of many races’ forearms. Big enough to put a bulge in almost anyone’s belly.</b>",
+    "translation": "",
+    "context": "<<POS:11527422>> g to feel.</b>\":e<14&&t>=14?n+='<b>You’re big enough to match the length of many races’ fore'"
+  },
+  {
+    "key": "assign|b_You_d_better_be_careful_now_that_your_dick_is_this_big_An_er|4b93e8a0a1e6",
+    "original": "<b>You’d better be careful now that your dick is this big. An errant boner could easily rip right through cheap underwear. On the flipside, you’re fairly certain you can please a centaur with ease.</b>",
+    "translation": "",
+    "context": "<<POS:11527561>> e’s belly.</b>\":e<18&&t>=18?n+='<b>You’d better be careful now that your dick is this big. A'"
+  },
+  {
+    "key": "assign|b_A_full_two_feet_of_cock_is_a_lot_to_drag_around_and_even_mo|3e7d674f5bb9",
+    "original": "<b>A full two feet of cock is a lot to drag around - and even more to shove inside of someone. Leithans must love you.</b>",
+    "translation": "",
+    "context": "<<POS:11527780>> with ease.</b>\":e<24&&t>=24?n+='<b>A full two feet of cock is a lot to drag around - and eve'"
+  },
+  {
+    "key": "assign|b_You_re_packing_a_three_foot_long_pole_now_which_means_you_ll|bd3afc8498bc",
+    "original": "<b>You’re packing a three foot long pole now, which means you’ll have to be careful about walking naked near shorter folks - or comfortable with cockslapping them into unconsciousness.</b>",
+    "translation": "",
+    "context": "<<POS:11527920>> love you.</b>\":e<36&&t>=36?n+='<b>You’re packing a three foot long pole now, which means yo'"
+  },
+  {
+    "key": "assign|b_Four_feet_of_dick_is_big_really_truly_next_level_big_Dra|e440e527429c",
+    "original": "<b>Four feet of dick is big - really, truly, next-level big. Dragging this much dick around isn’t going to make you popular with anyone but size-queens, but when you find one, well, you’ve got enough cock for their whole body to love.</b>",
+    "translation": "",
+    "context": "<<POS:11528128>> ousness.</b>\":e<48&&t>=48&&(n+='<b>Four feet of dick is big - really, truly, next-level big.'"
+  }
+]

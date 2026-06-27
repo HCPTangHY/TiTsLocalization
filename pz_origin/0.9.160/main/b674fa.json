@@ -1,1 +1,104 @@
-[{"key": "assign|silver_wrapped_Kalocrunch|f9d9fbb654cf", "original": "silver-wrapped Kalocrunch", "translation": "", "context": "<<POS:06510476>> hortName=\"K.Crunch\",e.longName='silver-wrapped Kalocrunch'"}, {"key": "assign|a_silver_wrapped_Kalocrunch|7a358c20227f", "original": "a silver-wrapped Kalocrunch", "translation": "", "context": "<<POS:06510575>> ase(e.longName)),e.description='a silver-wrapped Kalocrunch'"}, {"key": "assign|This_Camarilla_brand_high_calorie_snack_food_might_be_delicious|fa336a74d55e", "original": "This Camarilla-brand high-calorie snack food might be delicious, but is probably terrible for you. The silver packet displays a picture of a happy kui-tan stuffing her cheeks with tiny shapes. The “crunch” comes from the fact that it’s a blend of salt, solidified fat, and crystallized sugar. <b>Now in Teriyaki!</b>", "translation": "", "context": "<<POS:06510615>> -wrapped Kalocrunch\",e.tooltip='This Camarilla-brand high-calorie snack food might be delici'"}, {"key": "combat|You_crunch_down_on_a_mouthful_of_geometrically_shaped_Kalocrunch|79b016fe1fb5", "original": "You crunch down on a mouthful of geometrically-shaped Kalocrunch, moderately surprised at the burst of flavor across your tongue. You wouldn’t say it’s delicious - it’s salty and sweet and crunchy at the same time. But despite that, you keep eating until you’ve finished the bag. You’re not particularly proud of yourself, and that probably wasn’t good for you, but you are immensely satisfied.\",null,e", "translation": "", "context": "<<POS:06511298>> combatOutput(\"You crunch down on a mouthful of geometrically-shaped Kalocrunch, moderately surprised at the burst of flavor across your tongue. You wouldn’t say it’s delicious - it’s salty and sweet and crunchy at the same time. But despite that, you keep eating until you’ve finished the bag. You’re..."}, {"key": "combat|You_even_feel_like_you_could_go_longer_before_needing_to_sleep|394391153683", "original": " You even feel like you could go longer before needing to sleep. Is there caffeine in this stuff?\",null,e", "translation": "", "context": "<<POS:06511721>> combatOutput(\" You even feel like you could go longer before needing to sleep. Is there caffeine in this stuff?\",null,e)"}, {"key": "output.expr|var1_modTone_var0|95b04b01cbd8", "original": "{var1}.modTone({var0})", "translation": "", "context": "<<POS:06511835>> <<VARS:var0=-2,!0,var1=e>> output(e.modTone(-2,!0))"}, {"key": "output.expr|var0_modThickness_2_0|093aed3203cc", "original": "{var0}.modThickness(2,!0)", "translation": "", "context": "<<POS:06511860>> <<VARS:var0=e>> output(e.modThickness(2,!0))"}, {"key": "output|You_crunch_down_on_a_mouthful_of_geometrically_shaped_Kalocrunch|07c681f6b3db", "original": "You crunch down on a mouthful of geometrically-shaped Kalocrunch, moderately surprised at the burst of flavor across your tongue. You wouldn’t say it’s delicious - it’s salty and sweet and crunchy at the same time. But despite that, you keep eating until you’ve finished the bag. You’re not particularly proud of yourself, and that probably wasn’t good for you, but you are immensely satisfied.", "translation": "", "context": "<<POS:06511892>> output(\"You crunch down on a mouthful of geometrically-shaped Kalocrunch, moderately surprised at the burst of flavor across your tongue. You wouldn’t say it’s delicious - it’s salty and sweet and crunchy at the same time. But despite that, you keep eating until you’ve finished the bag. You’re not p..."}, {"key": "output|You_even_feel_like_you_could_go_longer_before_needing_to_sleep|26da390ac004", "original": "You even feel like you could go longer before needing to sleep. Is there caffeine in this stuff?", "translation": "", "context": "<<POS:06512306>> output(\"\\n\\nYou even feel like you could go longer before needing to sleep. Is there caffeine in this stuff?\")"}, {"key": "output.expr|var1_modTone_var0|c058c486f1f6", "original": "{var1}.modTone({var0})", "translation": "", "context": "<<POS:06512412>> <<VARS:var0=-2,!0,var1=e>> output(e.modTone(-2,!0))"}, {"key": "output.expr|var0_modThickness_2_0|093aed3203cc#1", "original": "{var0}.modThickness(2,!0)", "translation": "", "context": "<<POS:06512437>> <<VARS:var0=e>> output(e.modThickness(2,!0))"}, {"key": "combat.expr|var1_capitalize_var0_opens_the_Kalocrunch_and_downs_it|aacc64e545d0", "original": "{var1}.capitalize({var0})+\" opens the Kalocrunch and downs it.\",null,e", "translation": "", "context": "<<POS:06512525>> <<VARS:var0=e.getCombatName(),!1,var1=h.m>> combatOutput(h.m.capitalize(e.getCombatName(),!1)+\" opens the Kalocrunch and downs it.\",null,e)"}, {"key": "output.expr|var0_var1_opens_the_Kalocrunch_and_downs_it|7f958c9a8b4c", "original": "{var0}+{var1}+\" opens the Kalocrunch and downs it.", "translation": "", "context": "<<POS:06512615>> <<VARS:var0=e.capitalA,var1=e.short>> output(e.capitalA+e.short+\" opens the Kalocrunch and downs it.\")"}, {"key": "combat|getting_a_quick_energy_boost|cb4b0ff2cd48", "original": ", getting a quick energy boost.", "translation": "", "context": "<<POS:06512709>> combatAppend(\", getting a quick energy boost.\")"}, {"key": "combat|to_no_effect|1a76192218ca", "original": " to no effect.", "translation": "", "context": "<<POS:06512757>> combatAppend(\" to no effect.\")"}, {"key": "output|getting_a_quick_energy_boost|0c806b2424f6", "original": ", getting a quick energy boost.", "translation": "", "context": "<<POS:06512786>> output(\", getting a quick energy boost.\")"}, {"key": "output|to_no_effect|1a76192218ca", "original": " to no effect.", "translation": "", "context": "<<POS:06512828>> output(\" to no effect.\")"}]
+[
+  {
+    "key": "assign|silver_wrapped_Kalocrunch|f9d9fbb654cf",
+    "original": "silver-wrapped Kalocrunch",
+    "translation": "",
+    "context": "<<POS:06510476>> hortName=\"K.Crunch\",e.longName='silver-wrapped Kalocrunch'"
+  },
+  {
+    "key": "assign|a_silver_wrapped_Kalocrunch|7a358c20227f",
+    "original": "a silver-wrapped Kalocrunch",
+    "translation": "",
+    "context": "<<POS:06510575>> ase(e.longName)),e.description='a silver-wrapped Kalocrunch'"
+  },
+  {
+    "key": "assign|This_Camarilla_brand_high_calorie_snack_food_might_be_delicious|fa336a74d55e",
+    "original": "This Camarilla-brand high-calorie snack food might be delicious, but is probably terrible for you. The silver packet displays a picture of a happy kui-tan stuffing her cheeks with tiny shapes. The “crunch” comes from the fact that it’s a blend of salt, solidified fat, and crystallized sugar. <b>Now in Teriyaki!</b>",
+    "translation": "",
+    "context": "<<POS:06510615>> -wrapped Kalocrunch\",e.tooltip='This Camarilla-brand high-calorie snack food might be delici'"
+  },
+  {
+    "key": "combat|You_crunch_down_on_a_mouthful_of_geometrically_shaped_Kalocrunch|f20baf426d83",
+    "original": "You crunch down on a mouthful of geometrically-shaped Kalocrunch, moderately surprised at the burst of flavor across your tongue. You wouldn’t say it’s delicious - it’s salty and sweet and crunchy at the same time. But despite that, you keep eating until you’ve finished the bag. You’re not particularly proud of yourself, and that probably wasn’t good for you, but you are immensely satisfied.",
+    "translation": "",
+    "context": "<<POS:06511298>> combatOutput(\"You crunch down on a mouthful of geometrically-shaped Kalocrunch, moderately surprised at the burst of flavor across your tongue. You wouldn’t say it’s delicious - it’s salty and sweet and crunchy at the same time. But despite that, you keep eating until you’ve finished the bag. You’re..."
+  },
+  {
+    "key": "combat|You_even_feel_like_you_could_go_longer_before_needing_to_sleep|37d8800dffa7",
+    "original": " You even feel like you could go longer before needing to sleep. Is there caffeine in this stuff?",
+    "translation": "",
+    "context": "<<POS:06511721>> combatOutput(\" You even feel like you could go longer before needing to sleep. Is there caffeine in this stuff?\",null,e)"
+  },
+  {
+    "key": "output.expr|var1_modTone_var0|c058c486f1f6",
+    "original": "{var1}.modTone({var0})",
+    "translation": "",
+    "context": "<<POS:06511835>> <<VARS:var0=-2,!0,var1=e>> output(e.modTone(-2,!0))"
+  },
+  {
+    "key": "output.expr|var0_modThickness_2_0|093aed3203cc",
+    "original": "{var0}.modThickness(2,!0)",
+    "translation": "",
+    "context": "<<POS:06511860>> <<VARS:var0=e>> output(e.modThickness(2,!0))"
+  },
+  {
+    "key": "output|You_crunch_down_on_a_mouthful_of_geometrically_shaped_Kalocrunch|07c681f6b3db",
+    "original": "You crunch down on a mouthful of geometrically-shaped Kalocrunch, moderately surprised at the burst of flavor across your tongue. You wouldn’t say it’s delicious - it’s salty and sweet and crunchy at the same time. But despite that, you keep eating until you’ve finished the bag. You’re not particularly proud of yourself, and that probably wasn’t good for you, but you are immensely satisfied.",
+    "translation": "",
+    "context": "<<POS:06511892>> output(\"You crunch down on a mouthful of geometrically-shaped Kalocrunch, moderately surprised at the burst of flavor across your tongue. You wouldn’t say it’s delicious - it’s salty and sweet and crunchy at the same time. But despite that, you keep eating until you’ve finished the bag. You’re not p..."
+  },
+  {
+    "key": "output|You_even_feel_like_you_could_go_longer_before_needing_to_sleep|26da390ac004",
+    "original": "You even feel like you could go longer before needing to sleep. Is there caffeine in this stuff?",
+    "translation": "",
+    "context": "<<POS:06512306>> output(\"\\n\\nYou even feel like you could go longer before needing to sleep. Is there caffeine in this stuff?\")"
+  },
+  {
+    "key": "output.expr|var1_modTone_var0|c058c486f1f6#1",
+    "original": "{var1}.modTone({var0})",
+    "translation": "",
+    "context": "<<POS:06512412>> <<VARS:var0=-2,!0,var1=e>> output(e.modTone(-2,!0))"
+  },
+  {
+    "key": "output.expr|var0_modThickness_2_0|093aed3203cc#1",
+    "original": "{var0}.modThickness(2,!0)",
+    "translation": "",
+    "context": "<<POS:06512437>> <<VARS:var0=e>> output(e.modThickness(2,!0))"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_opens_the_Kalocrunch_and_downs_it|813a78b66108",
+    "original": "{var1}.capitalize({var0})+\" opens the Kalocrunch and downs it.",
+    "translation": "",
+    "context": "<<POS:06512525>> <<VARS:var0=e.getCombatName(),!1,var1=h.m>> combatOutput(h.m.capitalize(e.getCombatName(),!1)+\" opens the Kalocrunch and downs it.\",null,e)"
+  },
+  {
+    "key": "output.expr|var0_var1_opens_the_Kalocrunch_and_downs_it|59a99d823a09",
+    "original": "{var0}+{var1}+\" opens the Kalocrunch and downs it.",
+    "translation": "",
+    "context": "<<POS:06512615>> <<VARS:var0=e.capitalA,var1=e.short>> output(e.capitalA+e.short+\" opens the Kalocrunch and downs it.\")"
+  },
+  {
+    "key": "combat|getting_a_quick_energy_boost|cb4b0ff2cd48",
+    "original": ", getting a quick energy boost.",
+    "translation": "",
+    "context": "<<POS:06512709>> combatAppend(\", getting a quick energy boost.\")"
+  },
+  {
+    "key": "combat|to_no_effect|1a76192218ca",
+    "original": " to no effect.",
+    "translation": "",
+    "context": "<<POS:06512757>> combatAppend(\" to no effect.\")"
+  },
+  {
+    "key": "output|getting_a_quick_energy_boost|0c806b2424f6",
+    "original": ", getting a quick energy boost.",
+    "translation": "",
+    "context": "<<POS:06512786>> output(\", getting a quick energy boost.\")"
+  },
+  {
+    "key": "output|to_no_effect|1a76192218ca",
+    "original": " to no effect.",
+    "translation": "",
+    "context": "<<POS:06512828>> output(\" to no effect.\")"
+  }
+]

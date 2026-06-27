@@ -1,1 +1,38 @@
-[{"key": "assign|Sydian_P|f63c1e1fa0d7", "original": "Sydian P.", "translation": "", "context": "<<POS:06697694>> type=GLOBAL.POTION,e.shortName='Sydian P.'"}, {"key": "assign|sydian_prophylactic|46ca2e093769", "original": "sydian prophylactic", "translation": "", "context": "<<POS:06697717>> ortName=\"Sydian P.\",e.longName='sydian prophylactic'"}, {"key": "assign|a_prophylactic_designed_to_repel_sydians|b55f3d6b3a41", "original": "a prophylactic designed to repel sydians", "translation": "", "context": "<<POS:06697810>> ase(e.longName)),e.description='a prophylactic designed to repel sydians'"}, {"key": "assign|A_tubular_aerosol_canister_with_the_outline_of_a_sydian_on_it_O|60fc9795546c", "original": "A tubular aerosol canister with the outline of a sydian on it. Once sprayed on, it should detract any sydians from approaching you for a time. It doesn’t feel particularly full; you suspect you’ll only get one use out of it.", "translation": "", "context": "<<POS:06697863>> ed to repel sydians\",e.tooltip='A tubular aerosol canister with the outline of a sydian on i'"}, {"key": "output|You_take_out_the_aerosol_canister_and_spray_yourself_all_over_wi|a516a12fc8a4", "original": "You take out the aerosol canister and spray yourself all over with it. It doesn’t smell of anything but wet solvent... but then, you aren’t a sydian.", "translation": "", "context": "<<POS:06698329>> output(\"You take out the aerosol canister and spray yourself all over with it. It doesn’t smell of anything but wet solvent... but then, you aren’t a sydian.\")"}, {"key": "output.expr|var0_var1_seems_uninterested_in_the_spray|ee7e41454f53", "original": "{var0}+{var1}+\" seems uninterested in the spray.", "translation": "", "context": "<<POS:06698755>> <<VARS:var0=e.capitalA,var1=e.short>> output(e.capitalA+e.short+\" seems uninterested in the spray.\")"}]
+[
+  {
+    "key": "assign|Sydian_P|f63c1e1fa0d7",
+    "original": "Sydian P.",
+    "translation": "",
+    "context": "<<POS:06697694>> type=GLOBAL.POTION,e.shortName='Sydian P.'"
+  },
+  {
+    "key": "assign|sydian_prophylactic|46ca2e093769",
+    "original": "sydian prophylactic",
+    "translation": "",
+    "context": "<<POS:06697717>> ortName=\"Sydian P.\",e.longName='sydian prophylactic'"
+  },
+  {
+    "key": "assign|a_prophylactic_designed_to_repel_sydians|b55f3d6b3a41",
+    "original": "a prophylactic designed to repel sydians",
+    "translation": "",
+    "context": "<<POS:06697810>> ase(e.longName)),e.description='a prophylactic designed to repel sydians'"
+  },
+  {
+    "key": "assign|A_tubular_aerosol_canister_with_the_outline_of_a_sydian_on_it_O|60fc9795546c",
+    "original": "A tubular aerosol canister with the outline of a sydian on it. Once sprayed on, it should detract any sydians from approaching you for a time. It doesn’t feel particularly full; you suspect you’ll only get one use out of it.",
+    "translation": "",
+    "context": "<<POS:06697863>> ed to repel sydians\",e.tooltip='A tubular aerosol canister with the outline of a sydian on i'"
+  },
+  {
+    "key": "output|You_take_out_the_aerosol_canister_and_spray_yourself_all_over_wi|a516a12fc8a4",
+    "original": "You take out the aerosol canister and spray yourself all over with it. It doesn’t smell of anything but wet solvent... but then, you aren’t a sydian.",
+    "translation": "",
+    "context": "<<POS:06698329>> output(\"You take out the aerosol canister and spray yourself all over with it. It doesn’t smell of anything but wet solvent... but then, you aren’t a sydian.\")"
+  },
+  {
+    "key": "output.expr|var0_var1_seems_uninterested_in_the_spray|ee7e41454f53",
+    "original": "{var0}+{var1}+\" seems uninterested in the spray.",
+    "translation": "",
+    "context": "<<POS:06698755>> <<VARS:var0=e.capitalA,var1=e.short>> output(e.capitalA+e.short+\" seems uninterested in the spray.\")"
+  }
+]

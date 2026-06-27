@@ -201,7 +201,12 @@ def _process_call_extract(ctx):
     ctx.end_pos = after
     if not inner:
         return []
-    stripped = inner.strip()
+    # 只取第一个参数（combatOutput("text",null,pc) → 只要 "text"）
+    args = s.split_args(inner)
+    if not args:
+        return []
+    first_arg, first_offset = args[0]
+    stripped = first_arg.strip()
     if not stripped:
         return []
     # 判断是纯字符串还是拼接表达式
@@ -214,8 +219,8 @@ def _process_call_extract(ctx):
         call_ctx = call_ctx[:300] + "..."
     if is_pure_string:
         # 纯字符串字面量
-        content_pos = ctx.paren_pos + 1 + (len(inner) - len(inner.lstrip()))  # 跳过前导空白
-        content_pos += 1  # 跳过开头引号
+        leading = len(first_arg) - len(first_arg.lstrip())
+        content_pos = ctx.paren_pos + 1 + first_offset + leading + 1  # +1 跳过开头引号
         text = stripped[1:]
         if text and text[-1] in ('"', "'"):
             text = text[:-1]
@@ -260,7 +265,8 @@ def _process_call_extract(ctx):
             ctx.end_pos = ctx.paren_pos + 1
             return []
         # 拼接/三目表达式：占位符化变量，保留字符串给译者
-        real_pos = ctx.paren_pos + 1 + (len(inner) - len(inner.lstrip()))
+        leading = len(first_arg) - len(first_arg.lstrip())
+        real_pos = ctx.paren_pos + 1 + first_offset + leading
         placeholder, var_map = _placeholderize_expr(stripped)
         # 剥离 expr 最外层的引号和 \n：
         # "\n\nThe "+... → The "+...  (去掉开头 "\n\n)

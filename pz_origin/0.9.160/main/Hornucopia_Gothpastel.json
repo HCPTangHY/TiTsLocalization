@@ -1,1 +1,320 @@
-[{"key": "assign|a_color_changing_bottle_labeled_Hornucopia|c76c715d32b9", "original": "a color-changing bottle labeled “Hornucopia”", "translation": "", "context": "<<POS:08410994>> ase(e.longName)),e.description='a color-changing bottle labeled “Hornucopia”'"}, {"key": "assign|A_varnish_created_by_Xenogen_Biotech_after_the_success_of_their|b83060de1053", "original": "A varnish created by Xenogen Biotech after the success of their Pickmentation product, this time designed to change the color and material of the user’s horns - its particular focus being on metallic or gem-like properties. There’s a brush included with a color picker on it, allowing for easy application.", "translation": "", "context": "<<POS:08411051>> abeled “Hornucopia”\",e.tooltip='A varnish created by Xenogen Biotech after the success of th'"}, {"key": "output|You_pull_the_bottle_out_but_remember_that_you_need_to_have_horns|31f784b258ca", "original": "You pull the bottle out but remember that you need to have horns in order use it!", "translation": "", "context": "<<POS:08411664>> output(\"You pull the bottle out but remember that you need to have horns in order use it!\\n\\n\")"}, {"key": "button|Next|c3f2bbbd4a8b", "original": "Next", "translation": "继续", "context": "<<POS:08411777>> addButton(0,\"Next\",(function(){return t.itemCancel(e,t)}))", "stage": 1}, {"key": "output|You_pull_the_bottle_out_and_turn_it_over_in_your_hands_trying_t|baaf8a0aa4b8", "original": "You pull the bottle out and turn it over in your hands, trying to decide what color you’d like.", "translation": "", "context": "<<POS:08411833>> output(\"You pull the bottle out and turn it over in your hands, trying to decide what color you’d like.\\n\\n\")"}, {"key": "output.expr|var0_var1_uses_the_Hornucopia_but_to_no_effect|03d2ac685ba0", "original": "{var0}+{var1}+\" uses the Hornucopia but to no effect.", "translation": "", "context": "<<POS:08411969>> <<VARS:var0=e.capitalA,var1=e.short>> output(e.capitalA+e.short+\" uses the Hornucopia but to no effect.\")"}, {"key": "name.show|Hornucopia|6a291f96659f", "original": "Hornucopia", "translation": "", "context": "<<POS:08412105>> showName(\"Hornucopia\")"}, {"key": "button|Regular|3f45dc08b715", "original": "Regular", "translation": "", "context": "<<POS:08412286>> addButton(0,\"Regular\",(function(){return o.rbgSelColor(e,\"regular\",t)}),\"Regular\",\"Just change the color of your \"+n+\".\")"}, {"key": "button.hover|Regular|3f45dc08b715", "original": "Regular", "translation": "", "context": "<<POS:08412346>> addButton(0,\"Regular\",(function(){return o.rbgSelColor(e,\"regular\",t)}),\"Regular\",\"Just change the color of your \"+n+\".\")"}, {"key": "button.tooltip.expr|Just_change_the_color_of_your_var0|cfb9e4b4d570", "original": "\"Just change the color of your \"+{var0}+\".\"", "translation": "", "context": "<<POS:08412355>> <<VARS:var0=n>> addButton(0,\"Regular\",(function(){return o.rbgSelColor(e,\"regular\",t)}),\"Regular\",\"Just change the color of your \"+n+\".\")"}, {"key": "button|Metal|0c9e29ed31d1", "original": "Metal", "translation": "", "context": "<<POS:08412408>> addButton(1,\"Metal\",(function(){return o.rbgSelColor(e,\"metal\",t)}),\"Metal\",\"Change your \"+n+\" to look like ornamental metal.\")"}, {"key": "button.hover|Metal|0c9e29ed31d1", "original": "Metal", "translation": "", "context": "<<POS:08412464>> addButton(1,\"Metal\",(function(){return o.rbgSelColor(e,\"metal\",t)}),\"Metal\",\"Change your \"+n+\" to look like ornamental metal.\")"}, {"key": "button.tooltip.expr|Change_your_var0_to_look_like_ornamental_metal|359ce9f00546", "original": "\"Change your \"+{var0}+\" to look like ornamental metal.\"", "translation": "", "context": "<<POS:08412471>> <<VARS:var0=n>> addButton(1,\"Metal\",(function(){return o.rbgSelColor(e,\"metal\",t)}),\"Metal\",\"Change your \"+n+\" to look like ornamental metal.\")"}, {"key": "button|Gem|b877e172a329", "original": "Gem", "translation": "", "context": "<<POS:08412536>> addButton(2,\"Gem\",(function(){return o.rbgSelColor(e,\"gem\",t)}),\"Gem\",\"Change your \"+n+\" to look like\"+(1===a?\" an\":\"\")+\" ornamental gemstone\"+(1===a?\"\":\"s\")+\".\")"}, {"key": "button.hover|Gem|b877e172a329", "original": "Gem", "translation": "", "context": "<<POS:08412588>> addButton(2,\"Gem\",(function(){return o.rbgSelColor(e,\"gem\",t)}),\"Gem\",\"Change your \"+n+\" to look like\"+(1===a?\" an\":\"\")+\" ornamental gemstone\"+(1===a?\"\":\"s\")+\".\")"}, {"key": "button.tooltip.expr|Change_your_var0_to_look_like_1_a_an_ornamen|412c8450a4c6", "original": "\"Change your \"+{var0}+\" to look like\"+(1===a?\" an\":\"\")+\" ornamental gemstone\"+(1===a?\"\":\"s\")+\".\"", "translation": "", "context": "<<POS:08412593>> <<VARS:var0=n>> addButton(2,\"Gem\",(function(){return o.rbgSelColor(e,\"gem\",t)}),\"Gem\",\"Change your \"+n+\" to look like\"+(1===a?\" an\":\"\")+\" ornamental gemstone\"+(1===a?\"\":\"s\")+\".\")"}, {"key": "button|Natural|6dfbdddb45cb", "original": "Natural", "translation": "", "context": "<<POS:08412720>> addDisabledButton(3,\"Natural\",\"Natural\",\"Your \"+n+\" \"+(1===a?\"is\":\"are\")+\" already in \"+(1===a?\"its\":\"their\")+\" natural appearance.\")"}, {"key": "button.hover.expr|Your_var0_1_a_is_are_already_in_1_a_its|5a19fb31fdeb", "original": "\"Your \"+{var0}+\" \"+(1===a?\"is\":\"are\")+\" already in \"+(1===a?\"its\":\"their\")+\" natural appearance.\"", "translation": "", "context": "<<POS:08412739>> <<VARS:var0=n>> addDisabledButton(3,\"Natural\",\"Natural\",\"Your \"+n+\" \"+(1===a?\"is\":\"are\")+\" already in \"+(1===a?\"its\":\"their\")+\" natural appearance.\")"}, {"key": "button|Natural|fd6f06159884", "original": "Natural", "translation": "", "context": "<<POS:08412846>> addButton(3,\"Natural\",(function(){return o.rbgSelColor(e,\"natural\",t)}),\"Natural\",\"Restore your \"+n+\" to \"+(1===a?\"its\":\"their\")+\" natural appearance.\")"}, {"key": "button.hover|Natural|fd6f06159884", "original": "Natural", "translation": "", "context": "<<POS:08412906>> addButton(3,\"Natural\",(function(){return o.rbgSelColor(e,\"natural\",t)}),\"Natural\",\"Restore your \"+n+\" to \"+(1===a?\"its\":\"their\")+\" natural appearance.\")"}, {"key": "button.tooltip.expr|Restore_your_var0_to_1_a_its_their_natural_ap|285420568ad8", "original": "\"Restore your \"+{var0}+\" to \"+(1===a?\"its\":\"their\")+\" natural appearance.\"", "translation": "", "context": "<<POS:08412915>> <<VARS:var0=n>> addButton(3,\"Natural\",(function(){return o.rbgSelColor(e,\"natural\",t)}),\"Natural\",\"Restore your \"+n+\" to \"+(1===a?\"its\":\"their\")+\" natural appearance.\")"}, {"key": "button|Back|ea8b25108b7c", "original": "Back", "translation": "", "context": "<<POS:08413000>> addButton(14,\"Back\",(function(){return o.itemCancel(e,t)}))"}, {"key": "name.show.expr|var1_toDisplayCase_var0_Colors|e581bfe20f2e", "original": "{var1}.toDisplayCase({var0})+\" Colors\"", "translation": "", "context": "<<POS:08413419>> <<VARS:var0=t,var1=l.m>> showName(l.m.toDisplayCase(t)+\" Colors\")"}, {"key": "button.expr|Colors_concat_u|9dd3725c47a5", "original": "\"Colors (\".concat(u,\")\")", "translation": "", "context": "<<POS:08413597>> <<VARS:>> addButton(u++,\"Colors (\".concat(u,\")\"),(function(){return a.rbgMakeAPage(e,t,n,i,s,o)}),\"Selection of Colors: \".concat(h===c?l.m.toDisplayCase(h):\"\".concat(l.m.toDisplayCase(h),\" to \").concat(l.m.toDisplayCase(c))),h===c?\"To \".concat(h,\".\"):\"From \".concat(h,\" to \").concat(c,\".\"))"}, {"key": "button.hover.expr|Selection_of_Colors_concat_h_c_l_m_toDisplayCase_h_con|e2e0573ffd89", "original": "\"Selection of Colors: \".concat(h===c?l.m.toDisplayCase(h):\"\".concat(l.m.toDisplayCase(h),\" to \").concat(l.m.toDisplayCase(c)))", "translation": "", "context": "<<POS:08413671>> <<VARS:>> addButton(u++,\"Colors (\".concat(u,\")\"),(function(){return a.rbgMakeAPage(e,t,n,i,s,o)}),\"Selection of Colors: \".concat(h===c?l.m.toDisplayCase(h):\"\".concat(l.m.toDisplayCase(h),\" to \").concat(l.m.toDisplayCase(c))),h===c?\"To \".concat(h,\".\"):\"From \".concat(h,\" to \").concat(c,\".\"))"}, {"key": "button.tooltip.expr|var0_To_concat_h_From_concat_h_to_concat_c|507d85bbda4b", "original": "{var0}?\"To \".concat(h,\".\"):\"From \".concat(h,\" to \").concat(c,\".\")", "translation": "", "context": "<<POS:08413798>> <<VARS:var0=h===c>> addButton(u++,\"Colors (\".concat(u,\")\"),(function(){return a.rbgMakeAPage(e,t,n,i,s,o)}),\"Selection of Colors: \".concat(h===c?l.m.toDisplayCase(h):\"\".concat(l.m.toDisplayCase(h),\" to \").concat(l.m.toDisplayCase(c))),h===c?\"To \".concat(h,\".\"):\"From \".concat(h,\" to \").concat(c,\".\"))"}, {"key": "button|Back|c1a2d017d615", "original": "Back", "translation": "返回", "context": "<<POS:08413977>> addButton(14,\"Back\",(function(){return a.rbgMenu(e,o)}))", "stage": 1}, {"key": "button.expr|var0|47fa7bde0a8a", "original": "{var0}", "translation": "", "context": "<<POS:08414193>> <<VARS:var0=t[1]>> addButton(u,t[1],(function(){return s.rbgUse(e,t[0],n,i)}),l.m.toDisplayCase(t[0]),\"Change the color of your \"+e.hornsNoun()+\" to \"+t[0]+\".\")"}, {"key": "button.hover.expr|var1_toDisplayCase_var0|7ee32967072f", "original": "{var1}.toDisplayCase({var0})", "translation": "", "context": "<<POS:08414240>> <<VARS:var0=t[0],var1=l.m>> addButton(u,t[1],(function(){return s.rbgUse(e,t[0],n,i)}),l.m.toDisplayCase(t[0]),\"Change the color of your \"+e.hornsNoun()+\" to \"+t[0]+\".\")"}, {"key": "button.tooltip.expr|Change_the_color_of_your_var0_hornsNoun_to_var1|288844a24018", "original": "\"Change the color of your \"+{var0}.hornsNoun()+\" to \"+{var1}+\".\"", "translation": "", "context": "<<POS:08414264>> <<VARS:var0=e,var1=t[0]>> addButton(u,t[1],(function(){return s.rbgUse(e,t[0],n,i)}),l.m.toDisplayCase(t[0]),\"Change the color of your \"+e.hornsNoun()+\" to \"+t[0]+\".\")"}, {"key": "button.expr|var0|4bd2532ec7d8", "original": "{var0}", "translation": "", "context": "<<POS:08414343>> <<VARS:var0=o[1]>> addDisabledButton(u,o[1],l.m.toDisplayCase(o[0]),\"Your \"+e.hornsNoun()+\" \"+(1===e.horns?\"is\":\"are\")+\" already \"+o[0]+\".\")"}, {"key": "button.hover.expr|Your_var0_hornsNoun_1_e_horns_is_are_alread|9c1e367c6c1c", "original": "\"Your \"+{var0}.hornsNoun()+\" \"+(1===e.horns?\"is\":\"are\")+\" already \"+{var1}+\".\"", "translation": "", "context": "<<POS:08414372>> <<VARS:var0=e,var1=o[0]>> addDisabledButton(u,o[1],l.m.toDisplayCase(o[0]),\"Your \"+e.hornsNoun()+\" \"+(1===e.horns?\"is\":\"are\")+\" already \"+o[0]+\".\")"}, {"key": "button|Back|7c9bd6b1bbb9", "original": "Back", "translation": "", "context": "<<POS:08414525>> addButton(14,\"Back\",(function(){return s.rbgSelColor(e,t,i)}))"}, {"key": "name.show|Hornucopia|d828a5109fe3", "original": "Hornucopia", "translation": "", "context": "<<POS:08414651>> showName(\"Hornucopia\")"}, {"key": "output|You_put_the_bottle_back_into_your_inventory|b7248d0e2be7", "original": "You put the bottle back into your inventory.", "translation": "", "context": "<<POS:08414693>> output(\"You put the bottle back into your inventory.\\n\\n\")"}, {"key": "button|Next|8f138d3b9daa", "original": "Next", "translation": "", "context": "<<POS:08414786>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"}, {"key": "name.show|Hornucopia|d36263b96a8d", "original": "Hornucopia", "translation": "", "context": "<<POS:08415017>> showName(\"Hornucopia\")"}, {"key": "output|You_flick_the_color_picker_to_the_natural_option_swirling_the|b0e943d6c946", "original": "You flick the color picker to the ‘natural’ option, swirling the brush around in the bottle of varnish. It starts to take on a thinner consistency, the color leaving it.", "translation": "", "context": "<<POS:08415065>> output(\"You flick the color picker to the ‘natural’ option, swirling the brush around in the bottle of varnish. It starts to take on a thinner consistency, the color leaving it.\")"}, {"key": "output|You_flick_the_color_picker_to_your_chosen_color_swirling_the_br|f0f8b808b764", "original": "You flick the color picker to your chosen color, swirling the brush around in the bottle of varnish until the color takes.", "translation": "", "context": "<<POS:08415245>> output(\"You flick the color picker to your chosen color, swirling the brush around in the bottle of varnish until the color takes.\")"}, {"key": "output.expr|You_take_out_your_codex_turning_on_the_camera_application_and_m|25d040710b18", "original": "You take out your codex, turning on the camera application and making sure to angle it so you can see your \"+{var0}+\" properly - you don’t want to miss a spot!", "translation": "", "context": "<<POS:08415382>> <<VARS:var0=i>> output(\"\\n\\nYou take out your codex, turning on the camera application and making sure to angle it so you can see your \"+i+\" properly - you don’t want to miss a spot!\")"}, {"key": "output|Painting_the_varnish_on_takes_quite_a_while_with_how_small_the_b|0b5c10bea598", "original": "Painting the varnish on takes quite a while with how small the brush is, but you’re eventually done. You sit back, letting it do it’s work.", "translation": "", "context": "<<POS:08415551>> output(\"\\n\\nPainting the varnish on takes quite a while with how small the brush is, but you’re eventually done. You sit back, letting it do it’s work.\")"}, {"key": "output.expr|As_you_watch_the_var0_toned_varnish_you_applied_seems_to|3755b72e0120", "original": "As you watch, the \"+{var0}+\" toned varnish you applied seems to be soaking into your \"+{var1}+\", the color no longer just surface deep. Once you’re sure that you’re not going to rub anything off, you reach your hand up to touch your \"+{var2}+\".", "translation": "", "context": "<<POS:08415715>> <<VARS:var0=t,var1=i,var2=i>> output(\"\\n\\nAs you watch, the \"+t+\" toned varnish you applied seems to be soaking into your \"+i+\", the color no longer just surface deep. Once you’re sure that you’re not going to rub anything off, you reach your hand up to touch your \"+i+\".\")"}, {"key": "output.expr|1_n_It_feels_They_feel_the_same_as_ever_no_feeling|df16ef06c682", "original": "\"+(1===n?\"It feels\":\"They feel\")+\" the same as ever - no feeling of sticky or set varnish left on \"+(1===n?\"it\":\"them\")+\", and you’re satisfied that <b>you now have \"+(1===n?{var1}.indefiniteArticle({var0}):{var2})+\" \"+{var3}.toLowerCase()+\" \"+{var4}+\"!</b>", "translation": "", "context": "<<POS:08415959>> <<VARS:var0=t,var1=l.m,var2=t,var3=GLOBAL.TYPE_NAMES[e.hornType],var4=i>> output(\"\\n\\n\"+(1===n?\"It feels\":\"They feel\")+\" the same as ever - no feeling of sticky or set varnish left on \"+(1===n?\"it\":\"them\")+\", and you’re satisfied that <b>you now have \"+(1===n?l.m.indefiniteArticle(t):t)+\" \"+GLOBAL.TYPE_NAMES[e.hornType].toLowerCase()+\" \"+i+\"!</b>\")"}, {"key": "output.expr|As_you_watch_your_var0_seem_1_n_s_to_visibly|f8c215abf8c0", "original": "As you watch, your \"+{var0}+\" seem\"+(1===n?\"s\":\"\")+\" to visibly harden, becoming slightly more angular in appearance. The \"+{var1}+\" toned varnish you applied seems to be soaking into your \"+{var2}+\" too, the color no longer just surface deep. Once you’re sure that you’re not going to rub anything off, you reach your hand up to touch your \"+{var3}+\".", "translation": "", "context": "<<POS:08416249>> <<VARS:var0=i,var1=t,var2=i,var3=i>> output(\"\\n\\nAs you watch, your \"+i+\" seem\"+(1===n?\"s\":\"\")+\" to visibly harden, becoming slightly more angular in appearance. The \"+t+\" toned varnish you applied seems to be soaking into your \"+i+\" too, the color no longer just surface deep. Once you’re sure that you’re not going to rub anything off, you reach your hand up to touch your \"+i+\".\")"}, {"key": "output.expr|Oh_1_n_It_s_They_re_cold|d4431c8163cc", "original": "Oh! \"+(1===n?\"It’s\":\"They’re\")+\" cold!", "translation": "", "context": "<<POS:08416596>>  output(\"\\n\\nOh! \"+(1===n?\"It’s\":\"They’re\")+\" cold!\")"}, {"key": "output.expr|You_were_expecting_a_simple_color_change_but_feeling_this_it_s|036e020079ab", "original": "You were expecting a simple color change, but feeling this, it’s almost like your \"+{var0}+\" have been coated, or maybe even replaced, with an actual metal! Looking at your codex, \"+(1===n?\"it’s\":\"they’re\")+\" even subtly reflective.", "translation": "", "context": "<<POS:08416649>> <<VARS:var0=i>> output(\"\\n\\nYou were expecting a simple color change, but feeling this, it’s almost like your \"+i+\" have been coated, or maybe even replaced, with an actual metal! Looking at your codex, \"+(1===n?\"it’s\":\"they’re\")+\" even subtly reflective.\")"}, {"key": "output.expr|b_You_now_have_1_n_var1_indefiniteArticle_var0_var2|8772aebf1f1e", "original": "<b>You now have \"+(1===n?{var1}.indefiniteArticle({var0}):{var2})+\" \"+{var3}.toLowerCase()+\" \"+{var4}+\"!<b>", "translation": "", "context": "<<POS:08416891>> <<VARS:var0=t,var1=l.m,var2=t,var3=GLOBAL.TYPE_NAMES[e.hornType],var4=i>> output(\"\\n\\n<b>You now have \"+(1===n?l.m.indefiniteArticle(t):t)+\" \"+GLOBAL.TYPE_NAMES[e.hornType].toLowerCase()+\" \"+i+\"!<b>\")"}, {"key": "output|A_check_of_your_codex_confirms_that_it_s_not_i_quite_i_the_sa|e80556dcd219", "original": "A check of your codex confirms that it’s not <i>quite</i> the same as real metal, though, so you won’t have to worry about getting electrocuted any more than usual.", "translation": "", "context": "<<POS:08417018>> output(\"\\n\\nA check of your codex confirms that it’s not <i>quite</i> the same as real metal, though, so you won’t have to worry about getting electrocuted any more than usual.\")"}, {"key": "output.expr|As_you_watch_your_var0_seem_1_n_s_to_visibly|8fa9e93ef3f7", "original": "As you watch, your \"+{var0}+\" seem\"+(1===n?\"s\":\"\")+\" to visibly harden, becoming slightly more smooth in appearance. The \"+{var1}+\" toned varnish you applied seems to be soaking into your \"+{var2}+\" too, the color no longer just surface deep. The change is more pronounced than just the color though, your \"+{var3}+\" seem\"+(1===n?\"s\":\"\")+\" to be changing in density, even becoming slightly translucent. You were expecting just a color change, but once the transformation stops, a quick touch of your \"+{var4}+\" confirms that it really is like your \"+{var5}+\" \"+(1===n?\"has\":\"have\")+\" been turned completely into gemstone!", "translation": "", "context": "<<POS:08417210>> <<VARS:var0=i,var1=t,var2=i,var3=i,var4=i,var5=i>> output(\"\\n\\nAs you watch, your \"+i+\" seem\"+(1===n?\"s\":\"\")+\" to visibly harden, becoming slightly more smooth in appearance. The \"+t+\" toned varnish you applied seems to be soaking into your \"+i+\" too, the color no longer just surface deep. The change is more pronounced than just the color though, your \"+i+\" seem\"+(1===n?\"s\":\"\")+\" to be changing in density, even becoming slightly translucent. You were expecting just a color change, but once the transformation stops, a quick touch of your \"+i+\" confirms that it really is like your \"+i+\" \"+(1===n?\"has\":\"have\")+\" been turned completely into gemstone!\")"}, {"key": "output.expr|b_You_now_have_1_n_var1_indefiniteArticle_var0_var2|06a688d24943", "original": "<b>You now have \"+(1===n?{var1}.indefiniteArticle({var0}):{var2})+\" \"+{var3}.toLowerCase()+\" \"+{var4}+\"!</b>", "translation": "", "context": "<<POS:08417816>> <<VARS:var0=t,var1=l.m,var2=t,var3=GLOBAL.TYPE_NAMES[e.hornType],var4=i>> output(\"\\n\\n<b>You now have \"+(1===n?l.m.indefiniteArticle(t):t)+\" \"+GLOBAL.TYPE_NAMES[e.hornType].toLowerCase()+\" \"+i+\"!</b>\")"}, {"key": "output.expr|A_check_of_your_codex_confirms_that_it_s_not_i_quite_i_the_sa|d29c1ee2cbc0", "original": "A check of your codex confirms that it’s not <i>quite</i> the same as real gemstone, though, so you won’t have to worry about someone trying to saw \"+(1===n?\"it\":\"them\")+\" off for profit.", "translation": "", "context": "<<POS:08417944>>  output(\"\\n\\nA check of your codex confirms that it’s not <i>quite</i> the same as real gemstone, though, so you won’t have to worry about someone trying to saw \"+(1===n?\"it\":\"them\")+\" off for profit.\")"}, {"key": "output.expr|As_you_watch_the_unnatural_coloration_of_your_var0_begins|8fa328840ea2", "original": "As you watch, the unnatural coloration of your \"+{var0}+\" begins to fade, leaving behind traditional \"+{var1}.toLowerCase()+\" \"+{var2}+\". After a while, the varnish has completely wicked away, and <b>your \"+{var3}+\" \"+(1===n?\"is\":\"are\")+\" now \"+(1===n?\"its\":\"their\")+\" natural color and appearance!</b>", "translation": "", "context": "<<POS:08418160>> <<VARS:var0=i,var1=GLOBAL.TYPE_NAMES[e.hornType],var2=i,var3=i>> output(\"\\n\\nAs you watch, the unnatural coloration of your \"+i+\" begins to fade, leaving behind traditional \"+GLOBAL.TYPE_NAMES[e.hornType].toLowerCase()+\" \"+i+\". After a while, the varnish has completely wicked away, and <b>your \"+i+\" \"+(1===n?\"is\":\"are\")+\" now \"+(1===n?\"its\":\"their\")+\" natural color and appearance!</b>\")"}, {"key": "button|Next|bdbb4ab977e5", "original": "Next", "translation": "继续", "context": "<<POS:08418762>> addButton(0,\"Next\",(function(){return a.returnToInventory(a)}))", "stage": 1}]
+[
+  {
+    "key": "assign|a_color_changing_bottle_labeled_Hornucopia|c76c715d32b9",
+    "original": "a color-changing bottle labeled “Hornucopia”",
+    "translation": "",
+    "context": "<<POS:08410994>> ase(e.longName)),e.description='a color-changing bottle labeled “Hornucopia”'"
+  },
+  {
+    "key": "assign|A_varnish_created_by_Xenogen_Biotech_after_the_success_of_their|b83060de1053",
+    "original": "A varnish created by Xenogen Biotech after the success of their Pickmentation product, this time designed to change the color and material of the user’s horns - its particular focus being on metallic or gem-like properties. There’s a brush included with a color picker on it, allowing for easy application.",
+    "translation": "",
+    "context": "<<POS:08411051>> abeled “Hornucopia”\",e.tooltip='A varnish created by Xenogen Biotech after the success of th'"
+  },
+  {
+    "key": "output|You_pull_the_bottle_out_but_remember_that_you_need_to_have_horns|31f784b258ca",
+    "original": "You pull the bottle out but remember that you need to have horns in order use it!",
+    "translation": "",
+    "context": "<<POS:08411664>> output(\"You pull the bottle out but remember that you need to have horns in order use it!\\n\\n\")"
+  },
+  {
+    "key": "button|Next|c3f2bbbd4a8b",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:08411777>> addButton(0,\"Next\",(function(){return t.itemCancel(e,t)}))"
+  },
+  {
+    "key": "output|You_pull_the_bottle_out_and_turn_it_over_in_your_hands_trying_t|baaf8a0aa4b8",
+    "original": "You pull the bottle out and turn it over in your hands, trying to decide what color you’d like.",
+    "translation": "",
+    "context": "<<POS:08411833>> output(\"You pull the bottle out and turn it over in your hands, trying to decide what color you’d like.\\n\\n\")"
+  },
+  {
+    "key": "output.expr|var0_var1_uses_the_Hornucopia_but_to_no_effect|03d2ac685ba0",
+    "original": "{var0}+{var1}+\" uses the Hornucopia but to no effect.",
+    "translation": "",
+    "context": "<<POS:08411969>> <<VARS:var0=e.capitalA,var1=e.short>> output(e.capitalA+e.short+\" uses the Hornucopia but to no effect.\")"
+  },
+  {
+    "key": "name.show|Hornucopia|6a291f96659f",
+    "original": "Hornucopia",
+    "translation": "",
+    "context": "<<POS:08412105>> showName(\"Hornucopia\")"
+  },
+  {
+    "key": "button|Regular|3f45dc08b715",
+    "original": "Regular",
+    "translation": "",
+    "context": "<<POS:08412286>> addButton(0,\"Regular\",(function(){return o.rbgSelColor(e,\"regular\",t)}),\"Regular\",\"Just change the color of your \"+n+\".\")"
+  },
+  {
+    "key": "button.hover|Regular|3f45dc08b715",
+    "original": "Regular",
+    "translation": "",
+    "context": "<<POS:08412346>> addButton(0,\"Regular\",(function(){return o.rbgSelColor(e,\"regular\",t)}),\"Regular\",\"Just change the color of your \"+n+\".\")"
+  },
+  {
+    "key": "button.tooltip.expr|Just_change_the_color_of_your_var0|cfb9e4b4d570",
+    "original": "\"Just change the color of your \"+{var0}+\".\"",
+    "translation": "",
+    "context": "<<POS:08412355>> <<VARS:var0=n>> addButton(0,\"Regular\",(function(){return o.rbgSelColor(e,\"regular\",t)}),\"Regular\",\"Just change the color of your \"+n+\".\")"
+  },
+  {
+    "key": "button|Metal|0c9e29ed31d1",
+    "original": "Metal",
+    "translation": "",
+    "context": "<<POS:08412408>> addButton(1,\"Metal\",(function(){return o.rbgSelColor(e,\"metal\",t)}),\"Metal\",\"Change your \"+n+\" to look like ornamental metal.\")"
+  },
+  {
+    "key": "button.hover|Metal|0c9e29ed31d1",
+    "original": "Metal",
+    "translation": "",
+    "context": "<<POS:08412464>> addButton(1,\"Metal\",(function(){return o.rbgSelColor(e,\"metal\",t)}),\"Metal\",\"Change your \"+n+\" to look like ornamental metal.\")"
+  },
+  {
+    "key": "button.tooltip.expr|Change_your_var0_to_look_like_ornamental_metal|359ce9f00546",
+    "original": "\"Change your \"+{var0}+\" to look like ornamental metal.\"",
+    "translation": "",
+    "context": "<<POS:08412471>> <<VARS:var0=n>> addButton(1,\"Metal\",(function(){return o.rbgSelColor(e,\"metal\",t)}),\"Metal\",\"Change your \"+n+\" to look like ornamental metal.\")"
+  },
+  {
+    "key": "button|Gem|b877e172a329",
+    "original": "Gem",
+    "translation": "",
+    "context": "<<POS:08412536>> addButton(2,\"Gem\",(function(){return o.rbgSelColor(e,\"gem\",t)}),\"Gem\",\"Change your \"+n+\" to look like\"+(1===a?\" an\":\"\")+\" ornamental gemstone\"+(1===a?\"\":\"s\")+\".\")"
+  },
+  {
+    "key": "button.hover|Gem|b877e172a329",
+    "original": "Gem",
+    "translation": "",
+    "context": "<<POS:08412588>> addButton(2,\"Gem\",(function(){return o.rbgSelColor(e,\"gem\",t)}),\"Gem\",\"Change your \"+n+\" to look like\"+(1===a?\" an\":\"\")+\" ornamental gemstone\"+(1===a?\"\":\"s\")+\".\")"
+  },
+  {
+    "key": "button.tooltip.expr|Change_your_var0_to_look_like_1_a_an_ornamen|412c8450a4c6",
+    "original": "\"Change your \"+{var0}+\" to look like\"+(1===a?\" an\":\"\")+\" ornamental gemstone\"+(1===a?\"\":\"s\")+\".\"",
+    "translation": "",
+    "context": "<<POS:08412593>> <<VARS:var0=n>> addButton(2,\"Gem\",(function(){return o.rbgSelColor(e,\"gem\",t)}),\"Gem\",\"Change your \"+n+\" to look like\"+(1===a?\" an\":\"\")+\" ornamental gemstone\"+(1===a?\"\":\"s\")+\".\")"
+  },
+  {
+    "key": "button|Natural|6dfbdddb45cb",
+    "original": "Natural",
+    "translation": "",
+    "context": "<<POS:08412720>> addDisabledButton(3,\"Natural\",\"Natural\",\"Your \"+n+\" \"+(1===a?\"is\":\"are\")+\" already in \"+(1===a?\"its\":\"their\")+\" natural appearance.\")"
+  },
+  {
+    "key": "button.hover.expr|Your_var0_1_a_is_are_already_in_1_a_its|5a19fb31fdeb",
+    "original": "\"Your \"+{var0}+\" \"+(1===a?\"is\":\"are\")+\" already in \"+(1===a?\"its\":\"their\")+\" natural appearance.\"",
+    "translation": "",
+    "context": "<<POS:08412739>> <<VARS:var0=n>> addDisabledButton(3,\"Natural\",\"Natural\",\"Your \"+n+\" \"+(1===a?\"is\":\"are\")+\" already in \"+(1===a?\"its\":\"their\")+\" natural appearance.\")"
+  },
+  {
+    "key": "button|Natural|fd6f06159884",
+    "original": "Natural",
+    "translation": "",
+    "context": "<<POS:08412846>> addButton(3,\"Natural\",(function(){return o.rbgSelColor(e,\"natural\",t)}),\"Natural\",\"Restore your \"+n+\" to \"+(1===a?\"its\":\"their\")+\" natural appearance.\")"
+  },
+  {
+    "key": "button.hover|Natural|fd6f06159884",
+    "original": "Natural",
+    "translation": "",
+    "context": "<<POS:08412906>> addButton(3,\"Natural\",(function(){return o.rbgSelColor(e,\"natural\",t)}),\"Natural\",\"Restore your \"+n+\" to \"+(1===a?\"its\":\"their\")+\" natural appearance.\")"
+  },
+  {
+    "key": "button.tooltip.expr|Restore_your_var0_to_1_a_its_their_natural_ap|285420568ad8",
+    "original": "\"Restore your \"+{var0}+\" to \"+(1===a?\"its\":\"their\")+\" natural appearance.\"",
+    "translation": "",
+    "context": "<<POS:08412915>> <<VARS:var0=n>> addButton(3,\"Natural\",(function(){return o.rbgSelColor(e,\"natural\",t)}),\"Natural\",\"Restore your \"+n+\" to \"+(1===a?\"its\":\"their\")+\" natural appearance.\")"
+  },
+  {
+    "key": "button|Back|ea8b25108b7c",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:08413000>> addButton(14,\"Back\",(function(){return o.itemCancel(e,t)}))"
+  },
+  {
+    "key": "name.show.expr|var1_toDisplayCase_var0_Colors|e581bfe20f2e",
+    "original": "{var1}.toDisplayCase({var0})+\" Colors\"",
+    "translation": "",
+    "context": "<<POS:08413419>> <<VARS:var0=t,var1=l.m>> showName(l.m.toDisplayCase(t)+\" Colors\")"
+  },
+  {
+    "key": "button.expr|Colors_concat_u|9dd3725c47a5",
+    "original": "\"Colors (\".concat(u,\")\")",
+    "translation": "",
+    "context": "<<POS:08413597>> <<VARS:>> addButton(u++,\"Colors (\".concat(u,\")\"),(function(){return a.rbgMakeAPage(e,t,n,i,s,o)}),\"Selection of Colors: \".concat(h===c?l.m.toDisplayCase(h):\"\".concat(l.m.toDisplayCase(h),\" to \").concat(l.m.toDisplayCase(c))),h===c?\"To \".concat(h,\".\"):\"From \".concat(h,\" to \").concat(c,\".\"))"
+  },
+  {
+    "key": "button.hover.expr|Selection_of_Colors_concat_h_c_l_m_toDisplayCase_h_con|e2e0573ffd89",
+    "original": "\"Selection of Colors: \".concat(h===c?l.m.toDisplayCase(h):\"\".concat(l.m.toDisplayCase(h),\" to \").concat(l.m.toDisplayCase(c)))",
+    "translation": "",
+    "context": "<<POS:08413671>> <<VARS:>> addButton(u++,\"Colors (\".concat(u,\")\"),(function(){return a.rbgMakeAPage(e,t,n,i,s,o)}),\"Selection of Colors: \".concat(h===c?l.m.toDisplayCase(h):\"\".concat(l.m.toDisplayCase(h),\" to \").concat(l.m.toDisplayCase(c))),h===c?\"To \".concat(h,\".\"):\"From \".concat(h,\" to \").concat(c,\".\"))"
+  },
+  {
+    "key": "button.tooltip.expr|var0_To_concat_h_From_concat_h_to_concat_c|507d85bbda4b",
+    "original": "{var0}?\"To \".concat(h,\".\"):\"From \".concat(h,\" to \").concat(c,\".\")",
+    "translation": "",
+    "context": "<<POS:08413798>> <<VARS:var0=h===c>> addButton(u++,\"Colors (\".concat(u,\")\"),(function(){return a.rbgMakeAPage(e,t,n,i,s,o)}),\"Selection of Colors: \".concat(h===c?l.m.toDisplayCase(h):\"\".concat(l.m.toDisplayCase(h),\" to \").concat(l.m.toDisplayCase(c))),h===c?\"To \".concat(h,\".\"):\"From \".concat(h,\" to \").concat(c,\".\"))"
+  },
+  {
+    "key": "button|Back|c1a2d017d615",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:08413977>> addButton(14,\"Back\",(function(){return a.rbgMenu(e,o)}))"
+  },
+  {
+    "key": "button.expr|var0|47fa7bde0a8a",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08414193>> <<VARS:var0=t[1]>> addButton(u,t[1],(function(){return s.rbgUse(e,t[0],n,i)}),l.m.toDisplayCase(t[0]),\"Change the color of your \"+e.hornsNoun()+\" to \"+t[0]+\".\")"
+  },
+  {
+    "key": "button.hover.expr|var1_toDisplayCase_var0|7ee32967072f",
+    "original": "{var1}.toDisplayCase({var0})",
+    "translation": "",
+    "context": "<<POS:08414240>> <<VARS:var0=t[0],var1=l.m>> addButton(u,t[1],(function(){return s.rbgUse(e,t[0],n,i)}),l.m.toDisplayCase(t[0]),\"Change the color of your \"+e.hornsNoun()+\" to \"+t[0]+\".\")"
+  },
+  {
+    "key": "button.tooltip.expr|Change_the_color_of_your_var0_hornsNoun_to_var1|288844a24018",
+    "original": "\"Change the color of your \"+{var0}.hornsNoun()+\" to \"+{var1}+\".\"",
+    "translation": "",
+    "context": "<<POS:08414264>> <<VARS:var0=e,var1=t[0]>> addButton(u,t[1],(function(){return s.rbgUse(e,t[0],n,i)}),l.m.toDisplayCase(t[0]),\"Change the color of your \"+e.hornsNoun()+\" to \"+t[0]+\".\")"
+  },
+  {
+    "key": "button.expr|var0|4bd2532ec7d8",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:08414343>> <<VARS:var0=o[1]>> addDisabledButton(u,o[1],l.m.toDisplayCase(o[0]),\"Your \"+e.hornsNoun()+\" \"+(1===e.horns?\"is\":\"are\")+\" already \"+o[0]+\".\")"
+  },
+  {
+    "key": "button.hover.expr|Your_var0_hornsNoun_1_e_horns_is_are_alread|9c1e367c6c1c",
+    "original": "\"Your \"+{var0}.hornsNoun()+\" \"+(1===e.horns?\"is\":\"are\")+\" already \"+{var1}+\".\"",
+    "translation": "",
+    "context": "<<POS:08414372>> <<VARS:var0=e,var1=o[0]>> addDisabledButton(u,o[1],l.m.toDisplayCase(o[0]),\"Your \"+e.hornsNoun()+\" \"+(1===e.horns?\"is\":\"are\")+\" already \"+o[0]+\".\")"
+  },
+  {
+    "key": "button|Back|7c9bd6b1bbb9",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:08414525>> addButton(14,\"Back\",(function(){return s.rbgSelColor(e,t,i)}))"
+  },
+  {
+    "key": "name.show|Hornucopia|d828a5109fe3",
+    "original": "Hornucopia",
+    "translation": "",
+    "context": "<<POS:08414651>> showName(\"Hornucopia\")"
+  },
+  {
+    "key": "output|You_put_the_bottle_back_into_your_inventory|b7248d0e2be7",
+    "original": "You put the bottle back into your inventory.",
+    "translation": "",
+    "context": "<<POS:08414693>> output(\"You put the bottle back into your inventory.\\n\\n\")"
+  },
+  {
+    "key": "button|Next|8f138d3b9daa",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:08414786>> addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))"
+  },
+  {
+    "key": "name.show|Hornucopia|d36263b96a8d",
+    "original": "Hornucopia",
+    "translation": "",
+    "context": "<<POS:08415017>> showName(\"Hornucopia\")"
+  },
+  {
+    "key": "output|You_flick_the_color_picker_to_the_natural_option_swirling_the|b0e943d6c946",
+    "original": "You flick the color picker to the ‘natural’ option, swirling the brush around in the bottle of varnish. It starts to take on a thinner consistency, the color leaving it.",
+    "translation": "",
+    "context": "<<POS:08415065>> output(\"You flick the color picker to the ‘natural’ option, swirling the brush around in the bottle of varnish. It starts to take on a thinner consistency, the color leaving it.\")"
+  },
+  {
+    "key": "output|You_flick_the_color_picker_to_your_chosen_color_swirling_the_br|f0f8b808b764",
+    "original": "You flick the color picker to your chosen color, swirling the brush around in the bottle of varnish until the color takes.",
+    "translation": "",
+    "context": "<<POS:08415245>> output(\"You flick the color picker to your chosen color, swirling the brush around in the bottle of varnish until the color takes.\")"
+  },
+  {
+    "key": "output.expr|You_take_out_your_codex_turning_on_the_camera_application_and_m|25d040710b18",
+    "original": "You take out your codex, turning on the camera application and making sure to angle it so you can see your \"+{var0}+\" properly - you don’t want to miss a spot!",
+    "translation": "",
+    "context": "<<POS:08415382>> <<VARS:var0=i>> output(\"\\n\\nYou take out your codex, turning on the camera application and making sure to angle it so you can see your \"+i+\" properly - you don’t want to miss a spot!\")"
+  },
+  {
+    "key": "output|Painting_the_varnish_on_takes_quite_a_while_with_how_small_the_b|0b5c10bea598",
+    "original": "Painting the varnish on takes quite a while with how small the brush is, but you’re eventually done. You sit back, letting it do it’s work.",
+    "translation": "",
+    "context": "<<POS:08415551>> output(\"\\n\\nPainting the varnish on takes quite a while with how small the brush is, but you’re eventually done. You sit back, letting it do it’s work.\")"
+  },
+  {
+    "key": "output.expr|As_you_watch_the_var0_toned_varnish_you_applied_seems_to|3755b72e0120",
+    "original": "As you watch, the \"+{var0}+\" toned varnish you applied seems to be soaking into your \"+{var1}+\", the color no longer just surface deep. Once you’re sure that you’re not going to rub anything off, you reach your hand up to touch your \"+{var2}+\".",
+    "translation": "",
+    "context": "<<POS:08415715>> <<VARS:var0=t,var1=i,var2=i>> output(\"\\n\\nAs you watch, the \"+t+\" toned varnish you applied seems to be soaking into your \"+i+\", the color no longer just surface deep. Once you’re sure that you’re not going to rub anything off, you reach your hand up to touch your \"+i+\".\")"
+  },
+  {
+    "key": "output.expr|1_n_It_feels_They_feel_the_same_as_ever_no_feeling|df16ef06c682",
+    "original": "\"+(1===n?\"It feels\":\"They feel\")+\" the same as ever - no feeling of sticky or set varnish left on \"+(1===n?\"it\":\"them\")+\", and you’re satisfied that <b>you now have \"+(1===n?{var1}.indefiniteArticle({var0}):{var2})+\" \"+{var3}.toLowerCase()+\" \"+{var4}+\"!</b>",
+    "translation": "",
+    "context": "<<POS:08415959>> <<VARS:var0=t,var1=l.m,var2=t,var3=GLOBAL.TYPE_NAMES[e.hornType],var4=i>> output(\"\\n\\n\"+(1===n?\"It feels\":\"They feel\")+\" the same as ever - no feeling of sticky or set varnish left on \"+(1===n?\"it\":\"them\")+\", and you’re satisfied that <b>you now have \"+(1===n?l.m.indefiniteArticle(t):t)+\" \"+GLOBAL.TYPE_NAMES[e.hornType].toLowerCase()+\" \"+i+\"!</b>\")"
+  },
+  {
+    "key": "output.expr|As_you_watch_your_var0_seem_1_n_s_to_visibly|f8c215abf8c0",
+    "original": "As you watch, your \"+{var0}+\" seem\"+(1===n?\"s\":\"\")+\" to visibly harden, becoming slightly more angular in appearance. The \"+{var1}+\" toned varnish you applied seems to be soaking into your \"+{var2}+\" too, the color no longer just surface deep. Once you’re sure that you’re not going to rub anything off, you reach your hand up to touch your \"+{var3}+\".",
+    "translation": "",
+    "context": "<<POS:08416249>> <<VARS:var0=i,var1=t,var2=i,var3=i>> output(\"\\n\\nAs you watch, your \"+i+\" seem\"+(1===n?\"s\":\"\")+\" to visibly harden, becoming slightly more angular in appearance. The \"+t+\" toned varnish you applied seems to be soaking into your \"+i+\" too, the color no longer just surface deep. Once you’re sure that you’re not going to rub anything off, you reach your hand up to touch your \"+i+\".\")"
+  },
+  {
+    "key": "output.expr|Oh_1_n_It_s_They_re_cold|d4431c8163cc",
+    "original": "Oh! \"+(1===n?\"It’s\":\"They’re\")+\" cold!",
+    "translation": "",
+    "context": "<<POS:08416596>>  output(\"\\n\\nOh! \"+(1===n?\"It’s\":\"They’re\")+\" cold!\")"
+  },
+  {
+    "key": "output.expr|You_were_expecting_a_simple_color_change_but_feeling_this_it_s|036e020079ab",
+    "original": "You were expecting a simple color change, but feeling this, it’s almost like your \"+{var0}+\" have been coated, or maybe even replaced, with an actual metal! Looking at your codex, \"+(1===n?\"it’s\":\"they’re\")+\" even subtly reflective.",
+    "translation": "",
+    "context": "<<POS:08416649>> <<VARS:var0=i>> output(\"\\n\\nYou were expecting a simple color change, but feeling this, it’s almost like your \"+i+\" have been coated, or maybe even replaced, with an actual metal! Looking at your codex, \"+(1===n?\"it’s\":\"they’re\")+\" even subtly reflective.\")"
+  },
+  {
+    "key": "output.expr|b_You_now_have_1_n_var1_indefiniteArticle_var0_var2|8772aebf1f1e",
+    "original": "<b>You now have \"+(1===n?{var1}.indefiniteArticle({var0}):{var2})+\" \"+{var3}.toLowerCase()+\" \"+{var4}+\"!<b>",
+    "translation": "",
+    "context": "<<POS:08416891>> <<VARS:var0=t,var1=l.m,var2=t,var3=GLOBAL.TYPE_NAMES[e.hornType],var4=i>> output(\"\\n\\n<b>You now have \"+(1===n?l.m.indefiniteArticle(t):t)+\" \"+GLOBAL.TYPE_NAMES[e.hornType].toLowerCase()+\" \"+i+\"!<b>\")"
+  },
+  {
+    "key": "output|A_check_of_your_codex_confirms_that_it_s_not_i_quite_i_the_sa|e80556dcd219",
+    "original": "A check of your codex confirms that it’s not <i>quite</i> the same as real metal, though, so you won’t have to worry about getting electrocuted any more than usual.",
+    "translation": "",
+    "context": "<<POS:08417018>> output(\"\\n\\nA check of your codex confirms that it’s not <i>quite</i> the same as real metal, though, so you won’t have to worry about getting electrocuted any more than usual.\")"
+  },
+  {
+    "key": "output.expr|As_you_watch_your_var0_seem_1_n_s_to_visibly|8fa9e93ef3f7",
+    "original": "As you watch, your \"+{var0}+\" seem\"+(1===n?\"s\":\"\")+\" to visibly harden, becoming slightly more smooth in appearance. The \"+{var1}+\" toned varnish you applied seems to be soaking into your \"+{var2}+\" too, the color no longer just surface deep. The change is more pronounced than just the color though, your \"+{var3}+\" seem\"+(1===n?\"s\":\"\")+\" to be changing in density, even becoming slightly translucent. You were expecting just a color change, but once the transformation stops, a quick touch of your \"+{var4}+\" confirms that it really is like your \"+{var5}+\" \"+(1===n?\"has\":\"have\")+\" been turned completely into gemstone!",
+    "translation": "",
+    "context": "<<POS:08417210>> <<VARS:var0=i,var1=t,var2=i,var3=i,var4=i,var5=i>> output(\"\\n\\nAs you watch, your \"+i+\" seem\"+(1===n?\"s\":\"\")+\" to visibly harden, becoming slightly more smooth in appearance. The \"+t+\" toned varnish you applied seems to be soaking into your \"+i+\" too, the color no longer just surface deep. The change is more pronounced than just the color though, your \"+i+\" seem\"+(1===n?\"s\":\"\")+\" to be changing in density, even becoming slightly translucent. You were expecting just a color change, but once the transformation stops, a quick touch of your \"+i+\" confirms that it really is like your \"+i+\" \"+(1===n?\"has\":\"have\")+\" been turned completely into gemstone!\")"
+  },
+  {
+    "key": "output.expr|b_You_now_have_1_n_var1_indefiniteArticle_var0_var2|06a688d24943",
+    "original": "<b>You now have \"+(1===n?{var1}.indefiniteArticle({var0}):{var2})+\" \"+{var3}.toLowerCase()+\" \"+{var4}+\"!</b>",
+    "translation": "",
+    "context": "<<POS:08417816>> <<VARS:var0=t,var1=l.m,var2=t,var3=GLOBAL.TYPE_NAMES[e.hornType],var4=i>> output(\"\\n\\n<b>You now have \"+(1===n?l.m.indefiniteArticle(t):t)+\" \"+GLOBAL.TYPE_NAMES[e.hornType].toLowerCase()+\" \"+i+\"!</b>\")"
+  },
+  {
+    "key": "output.expr|A_check_of_your_codex_confirms_that_it_s_not_i_quite_i_the_sa|d29c1ee2cbc0",
+    "original": "A check of your codex confirms that it’s not <i>quite</i> the same as real gemstone, though, so you won’t have to worry about someone trying to saw \"+(1===n?\"it\":\"them\")+\" off for profit.",
+    "translation": "",
+    "context": "<<POS:08417944>>  output(\"\\n\\nA check of your codex confirms that it’s not <i>quite</i> the same as real gemstone, though, so you won’t have to worry about someone trying to saw \"+(1===n?\"it\":\"them\")+\" off for profit.\")"
+  },
+  {
+    "key": "output.expr|As_you_watch_the_unnatural_coloration_of_your_var0_begins|8fa328840ea2",
+    "original": "As you watch, the unnatural coloration of your \"+{var0}+\" begins to fade, leaving behind traditional \"+{var1}.toLowerCase()+\" \"+{var2}+\". After a while, the varnish has completely wicked away, and <b>your \"+{var3}+\" \"+(1===n?\"is\":\"are\")+\" now \"+(1===n?\"its\":\"their\")+\" natural color and appearance!</b>",
+    "translation": "",
+    "context": "<<POS:08418160>> <<VARS:var0=i,var1=GLOBAL.TYPE_NAMES[e.hornType],var2=i,var3=i>> output(\"\\n\\nAs you watch, the unnatural coloration of your \"+i+\" begins to fade, leaving behind traditional \"+GLOBAL.TYPE_NAMES[e.hornType].toLowerCase()+\" \"+i+\". After a while, the varnish has completely wicked away, and <b>your \"+i+\" \"+(1===n?\"is\":\"are\")+\" now \"+(1===n?\"its\":\"their\")+\" natural color and appearance!</b>\")"
+  },
+  {
+    "key": "button|Next|bdbb4ab977e5",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:08418762>> addButton(0,\"Next\",(function(){return a.returnToInventory(a)}))"
+  }
+]

@@ -1,1 +1,104 @@
-[{"key": "assign|Motor_XO|b49a4a19712c", "original": "Motor XO", "translation": "", "context": "<<POS:02071868>> 0,e.short=\"XO\",e.btnTargetText='Motor XO'"}, {"key": "assign|an|a1040eb2dcdd", "original": "an ", "translation": "", "context": "<<POS:02071883>> e.btnTargetText=\"Motor XO\",e.a='an '"}, {"key": "assign|An|8c295878e01b", "original": "An ", "translation": "", "context": "<<POS:02071900>> Motor XO\",e.a=\"an \",e.capitalA='An '"}, {"key": "assign|She_swerves_aside|f913dd439c39", "original": "She swerves aside!", "translation": "", "context": "<<POS:02072871>> \"ZaikaPregnancy\",e.customDodge='She swerves aside!'"}, {"key": "assign|An_XO_a_member_of_Dhaal_s_ubiquitous_heavily_cybernetically_a|644ecface942", "original": "An XO - a member of Dhaal’s ubiquitous, heavily cybernetically augmented police force - speeds along on a hoverbike next to your ride. She drives with such precise movements that you could have mistaken the alien woman for a robot were it not for her exposed thighs and the glossy sheen of sweat coating them. She brandishes a menacing-looking baton with who-knows-what built into its glowing surface while a heavily augmented mechanical occupies her other side - not a foe to be trifled with.", "translation": "", "context": "<<POS:02072899>> ge=\"She swerves aside!\",e.long='An XO - a member of Dhaal’s ubiquitous, heavily cybernetical'"}, {"key": "assign|standard_issue_XO_baton|bed31305733b", "original": "standard-issue XO baton", "translation": "", "context": "<<POS:02073504>> eValue=5,n.attack=0,n.longName='standard-issue XO baton'"}, {"key": "assign|standard_issue_XO_gun_baton|9519718ffead", "original": "standard-issue XO gun-baton", "translation": "", "context": "<<POS:02073696>> eValue=1,s.attack=0,s.longName='standard-issue XO gun-baton'"}, {"key": "assign|subdermal_plating|2a481bf5556c", "original": "subdermal plating", "translation": "", "context": "<<POS:02073881>> r r=new d.T4;return r.longName='subdermal plating'"}, {"key": "combat.expr|The_zaika_looks_directly_at_0_rand_2_t_Feruze_you|d11e61b9622b", "original": "The zaika looks directly at \"+(0===rand(2)&&t?\"Feruze\":\"you\")+\" and proclaims with a voice that buzzes like a bullhorn, <i>“\",null,this", "translation": "", "context": "<<POS:02075791>>  combatOutput(\"The zaika looks directly at \"+(0===rand(2)&&t?\"Feruze\":\"you\")+\" and proclaims with a voice that buzzes like a bullhorn, <i>“\",null,this)"}, {"key": "combat|Resistance_only_intensifies_your_punishment|52f81585d8fc", "original": "Resistance only intensifies your punishment.", "translation": "", "context": "<<POS:02075948>> combatAppend(\"Resistance only intensifies your punishment.\")"}, {"key": "combat|A_world_without_law_is_a_world_without_civilization_Surrender_i|c67ab1121d88", "original": "A world without law is a world without civilization. Surrender is your civic duty.", "translation": "", "context": "<<POS:02076015>> combatAppend(\"A world without law is a world without civilization. Surrender is your civic duty.\")"}, {"key": "combat|Infractions_now_sufficient_for_consecutive_life_sentences|1e65bbe93f25", "original": "Infractions now sufficient for consecutive life sentences.", "translation": "", "context": "<<POS:02076120>> combatAppend(\"Infractions now sufficient for consecutive life sentences.\")"}, {"key": "combat|Paragon_Inc_cares_about_your_safety_This_unit_has_been_equippe|9ba52779d102", "original": "Paragon Inc. cares about your safety! This unit has been equipped with rounds 25% less likely to induce target death.", "translation": "", "context": "<<POS:02076201>> combatAppend(\"Paragon Inc. cares about your safety! This unit has been equipped with rounds 25% less likely to induce target death.\")"}, {"key": "combat|Submit_criminal_scum|21ffec55d72d", "original": "Submit, criminal scum.", "translation": "", "context": "<<POS:02076341>> combatAppend(\"Submit, criminal scum.\")"}, {"key": "combat|Persistence_is_a_useful_trait_Efforts_will_be_made_to_preserve|cfce64bb8b5e", "original": "Persistence is a useful trait. Efforts will be made to preserve your body for mandatory cybernetic service.", "translation": "", "context": "<<POS:02076386>> combatAppend(\"Persistence is a useful trait. Efforts will be made to preserve your body for mandatory cybernetic service.\")"}, {"key": "combat|Error_sentence_length_maximum|5c1cd045733e", "original": "Error: sentence length maximum.", "translation": "", "context": "<<POS:02076510>> combatAppend(\"Error: sentence length maximum.\")"}, {"key": "combat|i|6653fb3e72e0", "original": "”</i>", "translation": "", "context": "<<POS:02076558>> combatAppend(\"”</i>\")"}]
+[
+  {
+    "key": "assign|Motor_XO|b49a4a19712c",
+    "original": "Motor XO",
+    "translation": "",
+    "context": "<<POS:02071868>> 0,e.short=\"XO\",e.btnTargetText='Motor XO'"
+  },
+  {
+    "key": "assign|an|a1040eb2dcdd",
+    "original": "an ",
+    "translation": "",
+    "context": "<<POS:02071883>> e.btnTargetText=\"Motor XO\",e.a='an '"
+  },
+  {
+    "key": "assign|An|8c295878e01b",
+    "original": "An ",
+    "translation": "",
+    "context": "<<POS:02071900>> Motor XO\",e.a=\"an \",e.capitalA='An '"
+  },
+  {
+    "key": "assign|She_swerves_aside|f913dd439c39",
+    "original": "She swerves aside!",
+    "translation": "",
+    "context": "<<POS:02072871>> \"ZaikaPregnancy\",e.customDodge='She swerves aside!'"
+  },
+  {
+    "key": "assign|An_XO_a_member_of_Dhaal_s_ubiquitous_heavily_cybernetically_a|644ecface942",
+    "original": "An XO - a member of Dhaal’s ubiquitous, heavily cybernetically augmented police force - speeds along on a hoverbike next to your ride. She drives with such precise movements that you could have mistaken the alien woman for a robot were it not for her exposed thighs and the glossy sheen of sweat coating them. She brandishes a menacing-looking baton with who-knows-what built into its glowing surface while a heavily augmented mechanical occupies her other side - not a foe to be trifled with.",
+    "translation": "",
+    "context": "<<POS:02072899>> ge=\"She swerves aside!\",e.long='An XO - a member of Dhaal’s ubiquitous, heavily cybernetical'"
+  },
+  {
+    "key": "assign|standard_issue_XO_baton|bed31305733b",
+    "original": "standard-issue XO baton",
+    "translation": "",
+    "context": "<<POS:02073504>> eValue=5,n.attack=0,n.longName='standard-issue XO baton'"
+  },
+  {
+    "key": "assign|standard_issue_XO_gun_baton|9519718ffead",
+    "original": "standard-issue XO gun-baton",
+    "translation": "",
+    "context": "<<POS:02073696>> eValue=1,s.attack=0,s.longName='standard-issue XO gun-baton'"
+  },
+  {
+    "key": "assign|subdermal_plating|2a481bf5556c",
+    "original": "subdermal plating",
+    "translation": "",
+    "context": "<<POS:02073881>> r r=new d.T4;return r.longName='subdermal plating'"
+  },
+  {
+    "key": "combat.expr|The_zaika_looks_directly_at_0_rand_2_t_Feruze_you|6330b8ab52c1",
+    "original": "The zaika looks directly at \"+(0===rand(2)&&t?\"Feruze\":\"you\")+\" and proclaims with a voice that buzzes like a bullhorn, <i>“",
+    "translation": "",
+    "context": "<<POS:02075791>>  combatOutput(\"The zaika looks directly at \"+(0===rand(2)&&t?\"Feruze\":\"you\")+\" and proclaims with a voice that buzzes like a bullhorn, <i>“\",null,this)"
+  },
+  {
+    "key": "combat|Resistance_only_intensifies_your_punishment|0c20582a3023",
+    "original": "Resistance only intensifies your punishment.",
+    "translation": "",
+    "context": "<<POS:02075948>> combatAppend(\"Resistance only intensifies your punishment.\")"
+  },
+  {
+    "key": "combat|A_world_without_law_is_a_world_without_civilization_Surrender_i|c67ab1121d88",
+    "original": "A world without law is a world without civilization. Surrender is your civic duty.",
+    "translation": "",
+    "context": "<<POS:02076015>> combatAppend(\"A world without law is a world without civilization. Surrender is your civic duty.\")"
+  },
+  {
+    "key": "combat|Infractions_now_sufficient_for_consecutive_life_sentences|1e65bbe93f25",
+    "original": "Infractions now sufficient for consecutive life sentences.",
+    "translation": "",
+    "context": "<<POS:02076120>> combatAppend(\"Infractions now sufficient for consecutive life sentences.\")"
+  },
+  {
+    "key": "combat|Paragon_Inc_cares_about_your_safety_This_unit_has_been_equippe|9ba52779d102",
+    "original": "Paragon Inc. cares about your safety! This unit has been equipped with rounds 25% less likely to induce target death.",
+    "translation": "",
+    "context": "<<POS:02076201>> combatAppend(\"Paragon Inc. cares about your safety! This unit has been equipped with rounds 25% less likely to induce target death.\")"
+  },
+  {
+    "key": "combat|Submit_criminal_scum|21ffec55d72d",
+    "original": "Submit, criminal scum.",
+    "translation": "",
+    "context": "<<POS:02076341>> combatAppend(\"Submit, criminal scum.\")"
+  },
+  {
+    "key": "combat|Persistence_is_a_useful_trait_Efforts_will_be_made_to_preserve|cfce64bb8b5e",
+    "original": "Persistence is a useful trait. Efforts will be made to preserve your body for mandatory cybernetic service.",
+    "translation": "",
+    "context": "<<POS:02076386>> combatAppend(\"Persistence is a useful trait. Efforts will be made to preserve your body for mandatory cybernetic service.\")"
+  },
+  {
+    "key": "combat|Error_sentence_length_maximum|5c1cd045733e",
+    "original": "Error: sentence length maximum.",
+    "translation": "",
+    "context": "<<POS:02076510>> combatAppend(\"Error: sentence length maximum.\")"
+  },
+  {
+    "key": "combat|i|6653fb3e72e0",
+    "original": "”</i>",
+    "translation": "",
+    "context": "<<POS:02076558>> combatAppend(\"”</i>\")"
+  }
+]

@@ -1,1 +1,158 @@
-[{"key": "assign|the|0e3057607fb9", "original": "the ", "translation": "", "context": "<<POS:00174806>> na\",e.originalRace=\"robot\",e.a='the '"}, {"key": "assign|The|63f2e902a6e1", "original": "The ", "translation": "", "context": "<<POS:00174824>> =\"robot\",e.a=\"the \",e.capitalA='The '"}, {"key": "assign|The_robot_hovers_in_the_air_spindly_arms_twitching_and_flicking|3e3d592f13d6", "original": "The robot hovers in the air, spindly arms twitching and flicking in the air at every moment. Its steel-gray dome has lost its shine from both combat and the fatigue of the jungle, though it still looks fully operational and, at the moment, lethal. Each of its many tools are pointed at you, threateningly. You’re in for it now!", "translation": "", "context": "<<POS:00174838>> the \",e.capitalA=\"The \",e.long='The robot hovers in the air, spindly arms twitching and flic'"}, {"key": "assign|The_machina_lazily_lists_to_the_side_causing_your_attack_to_go|2c52333e4771", "original": "The machina lazily lists to the side, causing your attack to go wayward!", "translation": "", "context": "<<POS:00175182>> in for it now!\",e.customDodge='The machina lazily lists to the side, causing your attack to'"}, {"key": "assign|The_machina_s_thick_plates_cause_the_attack_to_glance_off_into_t|432f66ca6887", "original": "The machina’s thick plates cause the attack to glance off into the wilderness!", "translation": "", "context": "<<POS:00175271>> to go wayward!\",e.customBlock='The machina’s thick plates cause the attack to glance off in'"}, {"key": "assign|metal_plates|6e5665d4a090", "original": "metal plates", "translation": "", "context": "<<POS:00175617>> r s=new m.T4;return s.longName='metal plates'"}, {"key": "combat|Rattled_and_damaged_even_smoking_somewhere_the_machina_wobbles|f5af0e2574a1", "original": "Rattled and damaged, even smoking somewhere, the machina wobbles closer to the earth. You relax a bit, thinking that this might be the robot’s final ‘death throes’. You’re quick to go back on the alert as the machine reaches into the brush with a grasping appendage, pulling out... a weapon?! You are not sure what sort it is, too dirty and masked by plants, but you don’t have a lot of time to figure out. The thick firearm explodes out in short order, sending a massive pellet your way!\\n\\n\",null,this", "translation": "", "context": "<<POS:00177685>> combatOutput(\"Rattled and damaged, even smoking somewhere, the machina wobbles closer to the earth. You relax a bit, thinking that this might be the robot’s final ‘death throes’. You’re quick to go back on the alert as the machine reaches into the brush with a grasping appendage, pulling out... a we..."}, {"key": "combat|You_dodge_out_of_the_way|ad5042fbad4e", "original": "You dodge out of the way!", "translation": "", "context": "<<POS:00178221>> combatAppend(\"You dodge out of the way!\")"}, {"key": "combat.expr|var0_var2_possessive_var1_blinded_shots_fail_to_connect|a3d87a2d2e12", "original": "{var0}+{var2}.possessive({var1})+\" blinded shots fail to connect!", "translation": "", "context": "<<POS:00178297>> <<VARS:var0=this.capitalA,var1=this.short,var2=f.m>> combatAppend(this.capitalA+f.m.possessive(this.short)+\" blinded shots fail to connect!\")"}, {"key": "combat.expr|var0_var1_connects_with_var2_mfn_his_her_its|65fe1bbb9666", "original": "{var0}+{var1}+\" connects with \"+{var2}.mfn(\"his\",\"her\",\"its\")+\" massive gun!", "translation": "", "context": "<<POS:00178391>> <<VARS:var0=this.capitalA,var1=this.short,var2=this>> combatAppend(this.capitalA+this.short+\" connects with \"+this.mfn(\"his\",\"her\",\"its\")+\" massive gun!\")"}, {"key": "combat|Your_shield_crackles_but_holds|156900170825", "original": " Your shield crackles but holds.", "translation": "", "context": "<<POS:00178654>> combatAppend(\" Your shield crackles but holds.\")"}, {"key": "combat|There_is_a_concussive_boom_and_tingling_aftershock_of_energy_as|d753f27ee126", "original": " There is a concussive boom and tingling aftershock of energy as your shield is breached.", "translation": "", "context": "<<POS:00178703>> combatAppend(\" There is a concussive boom and tingling aftershock of energy as your shield is breached.\")"}, {"key": "combat|The_hit_carries_on_through_to_damage_you|0d605b9031f6", "original": " The hit carries on through to damage you!", "translation": "", "context": "<<POS:00178824>> combatAppend(\" The hit carries on through to damage you!\")"}, {"key": "combat|Seeing_its_failure_the_machine_prepares_to_fire_again_this_ti|722039a9b805", "original": "Seeing its failure, the machine prepares to fire again - this time, though, the weapon explodes in a <i>different</i> way; you manage to duck as shrapnel goes flying over your head from the faulty firearm, and it’s the machina that takes the brunt of the blast. As you rise back up, you hear a pathetic sounding whir, petering out to nothing in short order. You’re left with a crumpled heap of a machine on the jungle floor.", "translation": "", "context": "<<POS:00178934>> combatAppend(\"\\n\\nSeeing its failure, the machine prepares to fire again - this time, though, the weapon explodes in a <i>different</i> way; you manage to duck as shrapnel goes flying over your head from the faulty firearm, and it’s the machina that takes the brunt of the blast. As you rise back up,..."}, {"key": "combat|Seeing_its_success_the_machine_tosses_away_the_firearm_in_short|270dacb351f2", "original": "Seeing its success the machine tosses away the firearm in short order, though as you fall backwards in pain you’re not really in the mindset to care.", "translation": "", "context": "<<POS:00179394>> combatAppend(\"\\n\\nSeeing its success the machine tosses away the firearm in short order, though as you fall backwards in pain you’re not really in the mindset to care.\")"}, {"key": "combat|Your_attack_causes_the_machine_to_bounce_severely_and_the_tool|31c863296ab9", "original": "Your attack causes the machine to bounce severely, and the tool-appendages fall away from the chassis. You prevented it from repairing!\",null,this", "translation": "", "context": "<<POS:00179686>> combatOutput(\"Your attack causes the machine to bounce severely, and the tool-appendages fall away from the chassis. You prevented it from repairing!\",null,this)"}, {"key": "combat|You_were_unable_to_shake_the_robot_up_enough_to_interrupt_it_so|6954d7739556", "original": "You were unable to shake the robot up enough to interrupt it, so now you can only watch as the holes of damage and scarred metal are mended before your very eyes, showing just how vain your progress was.\",null,this", "translation": "", "context": "<<POS:00179891>> combatOutput(\"You were unable to shake the robot up enough to interrupt it, so now you can only watch as the holes of damage and scarred metal are mended before your very eyes, showing just how vain your progress was.\",null,this)"}, {"key": "combat|As_it_attacks_the_spare_appendages_race_up_its_form_and_begin_t|19d67d0440a7", "original": "As it attacks, the spare appendages race up its form and begin to mend the damage to its structure! You’ll have to jostle it if you want to stop it before it completes!\",null,this", "translation": "", "context": "<<POS:00180200>> combatOutput(\"As it attacks, the spare appendages race up its form and begin to mend the damage to its structure! You’ll have to jostle it if you want to stop it before it completes!\",null,this)"}, {"key": "combat|One_of_the_machine_s_appendages_raises_upwards_and_flattens_out|71a10deeb99f", "original": "One of the machine’s appendages raises upwards and flattens out in the span of half a second, and molten-red flames burst out and fly across the arena at you! The intense heat only lasts for a moment, however, as the modified welder immediately overheats.\",null,this", "translation": "", "context": "<<POS:00180508>> combatOutput(\"One of the machine’s appendages raises upwards and flattens out in the span of half a second, and molten-red flames burst out and fly across the arena at you! The intense heat only lasts for a moment, however, as the modified welder immediately overheats.\",null,this)"}, {"key": "combat|You_hear_a_loud_whir_from_the_corrupt_machine_before_it_jerks_fo|9f2fc3993dc3", "original": "You hear a loud whir from the corrupt machine before it jerks forwards, coming at you as the main body starts to rotate. Not too soon after it is spinning at a blur of a pace, appendages sprawled outwards and in range of you! Watch out!\\n\",null,this", "translation": "", "context": "<<POS:00180914>> combatOutput(\"You hear a loud whir from the corrupt machine before it jerks forwards, coming at you as the main body starts to rotate. Not too soon after it is spinning at a blur of a pace, appendages sprawled outwards and in range of you! Watch out!\\n\",null,this)"}, {"key": "combat.expr|You_manage_to_avoid_var0_var2_possessive_var1_var3|5c1207c47a4a", "original": "You manage to avoid \"+{var0}+{var2}.possessive({var1})+\" \"+{var3}+\".", "translation": "", "context": "<<POS:00181357>> <<VARS:var0=this.a,var1=this.short,var2=f.m,var3=this.inventory.meleeWeapon.attackVerb>> combatAppend(\"You manage to avoid \"+this.a+f.m.possessive(this.short)+\" \"+this.inventory.meleeWeapon.attackVerb+\".\")"}, {"key": "combat.expr|var0|6a95f593a8a4", "original": "{var0}", "translation": "", "context": "<<POS:00181530>> <<VARS:var0=e.customDodge>> combatAppend(e.customDodge)"}, {"key": "combat.expr|You_manage_to_avoid_var0_var2_possessive_var1_var3|2ddf37559f9f", "original": "You manage to avoid \"+{var0}+{var2}.possessive({var1})+\" \"+{var3}+\".", "translation": "", "context": "<<POS:00181559>> <<VARS:var0=this.a,var1=this.short,var2=f.m,var3=this.inventory.meleeWeapon.attackVerb>> combatAppend(\"You manage to avoid \"+this.a+f.m.possessive(this.short)+\" \"+this.inventory.meleeWeapon.attackVerb+\".\")"}, {"key": "combat.expr|var0_mimbraneFeetBonusEvadeBonus|383c76124b6c", "original": "{var0}.mimbraneFeetBonusEvadeBonus()", "translation": "", "context": "<<POS:00181713>> <<VARS:var0=window>> combatAppend(window.mimbraneFeetBonusEvadeBonus())"}, {"key": "combat.expr|var0_var1_connects_with_var2_mfn_his_her_its|9c4e64104974", "original": "{var0}+{var1}+\" connects with \"+{var2}.mfn(\"his\",\"her\",\"its\")+\" \"+{var3}+\"!", "translation": "", "context": "<<POS:00181765>> <<VARS:var0=this.capitalA,var1=this.short,var2=this,var3=this.inventory.meleeWeapon.longName>> combatAppend(this.capitalA+this.short+\" connects with \"+this.mfn(\"his\",\"her\",\"its\")+\" \"+this.inventory.meleeWeapon.longName+\"!\")"}, {"key": "combat|The_machine_jerks_towards_you_zig_zagging_unexpectedly_as_it_cl|bd78df08ba93", "original": "The machine jerks towards you, zig-zagging unexpectedly as it closes in - one of the grasping appendages reaches out to club at you!\\n\",null,this", "translation": "", "context": "<<POS:00182019>> combatOutput(\"The machine jerks towards you, zig-zagging unexpectedly as it closes in - one of the grasping appendages reaches out to club at you!\\n\",null,this)"}]
+[
+  {
+    "key": "assign|the|0e3057607fb9",
+    "original": "the ",
+    "translation": "",
+    "context": "<<POS:00174806>> na\",e.originalRace=\"robot\",e.a='the '"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": "",
+    "context": "<<POS:00174824>> =\"robot\",e.a=\"the \",e.capitalA='The '"
+  },
+  {
+    "key": "assign|The_robot_hovers_in_the_air_spindly_arms_twitching_and_flicking|3e3d592f13d6",
+    "original": "The robot hovers in the air, spindly arms twitching and flicking in the air at every moment. Its steel-gray dome has lost its shine from both combat and the fatigue of the jungle, though it still looks fully operational and, at the moment, lethal. Each of its many tools are pointed at you, threateningly. You’re in for it now!",
+    "translation": "",
+    "context": "<<POS:00174838>> the \",e.capitalA=\"The \",e.long='The robot hovers in the air, spindly arms twitching and flic'"
+  },
+  {
+    "key": "assign|The_machina_lazily_lists_to_the_side_causing_your_attack_to_go|2c52333e4771",
+    "original": "The machina lazily lists to the side, causing your attack to go wayward!",
+    "translation": "",
+    "context": "<<POS:00175182>> in for it now!\",e.customDodge='The machina lazily lists to the side, causing your attack to'"
+  },
+  {
+    "key": "assign|The_machina_s_thick_plates_cause_the_attack_to_glance_off_into_t|432f66ca6887",
+    "original": "The machina’s thick plates cause the attack to glance off into the wilderness!",
+    "translation": "",
+    "context": "<<POS:00175271>> to go wayward!\",e.customBlock='The machina’s thick plates cause the attack to glance off in'"
+  },
+  {
+    "key": "assign|metal_plates|6e5665d4a090",
+    "original": "metal plates",
+    "translation": "",
+    "context": "<<POS:00175617>> r s=new m.T4;return s.longName='metal plates'"
+  },
+  {
+    "key": "combat|Rattled_and_damaged_even_smoking_somewhere_the_machina_wobbles|8c8362017b3f",
+    "original": "Rattled and damaged, even smoking somewhere, the machina wobbles closer to the earth. You relax a bit, thinking that this might be the robot’s final ‘death throes’. You’re quick to go back on the alert as the machine reaches into the brush with a grasping appendage, pulling out... a weapon?! You are not sure what sort it is, too dirty and masked by plants, but you don’t have a lot of time to figure out. The thick firearm explodes out in short order, sending a massive pellet your way!",
+    "translation": "",
+    "context": "<<POS:00177685>> combatOutput(\"Rattled and damaged, even smoking somewhere, the machina wobbles closer to the earth. You relax a bit, thinking that this might be the robot’s final ‘death throes’. You’re quick to go back on the alert as the machine reaches into the brush with a grasping appendage, pulling out... a we..."
+  },
+  {
+    "key": "combat|You_dodge_out_of_the_way|c3b3688ad8be",
+    "original": "You dodge out of the way!",
+    "translation": "",
+    "context": "<<POS:00178221>> combatAppend(\"You dodge out of the way!\")"
+  },
+  {
+    "key": "combat.expr|var0_var2_possessive_var1_blinded_shots_fail_to_connect|a3d87a2d2e12",
+    "original": "{var0}+{var2}.possessive({var1})+\" blinded shots fail to connect!",
+    "translation": "",
+    "context": "<<POS:00178297>> <<VARS:var0=this.capitalA,var1=this.short,var2=f.m>> combatAppend(this.capitalA+f.m.possessive(this.short)+\" blinded shots fail to connect!\")"
+  },
+  {
+    "key": "combat.expr|var0_var1_connects_with_var2_mfn_his_her_its|65fe1bbb9666",
+    "original": "{var0}+{var1}+\" connects with \"+{var2}.mfn(\"his\",\"her\",\"its\")+\" massive gun!",
+    "translation": "",
+    "context": "<<POS:00178391>> <<VARS:var0=this.capitalA,var1=this.short,var2=this>> combatAppend(this.capitalA+this.short+\" connects with \"+this.mfn(\"his\",\"her\",\"its\")+\" massive gun!\")"
+  },
+  {
+    "key": "combat|Your_shield_crackles_but_holds|156900170825",
+    "original": " Your shield crackles but holds.",
+    "translation": "",
+    "context": "<<POS:00178654>> combatAppend(\" Your shield crackles but holds.\")"
+  },
+  {
+    "key": "combat|There_is_a_concussive_boom_and_tingling_aftershock_of_energy_as|d753f27ee126",
+    "original": " There is a concussive boom and tingling aftershock of energy as your shield is breached.",
+    "translation": "",
+    "context": "<<POS:00178703>> combatAppend(\" There is a concussive boom and tingling aftershock of energy as your shield is breached.\")"
+  },
+  {
+    "key": "combat|The_hit_carries_on_through_to_damage_you|0d605b9031f6",
+    "original": " The hit carries on through to damage you!",
+    "translation": "",
+    "context": "<<POS:00178824>> combatAppend(\" The hit carries on through to damage you!\")"
+  },
+  {
+    "key": "combat|Seeing_its_failure_the_machine_prepares_to_fire_again_this_ti|722039a9b805",
+    "original": "Seeing its failure, the machine prepares to fire again - this time, though, the weapon explodes in a <i>different</i> way; you manage to duck as shrapnel goes flying over your head from the faulty firearm, and it’s the machina that takes the brunt of the blast. As you rise back up, you hear a pathetic sounding whir, petering out to nothing in short order. You’re left with a crumpled heap of a machine on the jungle floor.",
+    "translation": "",
+    "context": "<<POS:00178934>> combatAppend(\"\\n\\nSeeing its failure, the machine prepares to fire again - this time, though, the weapon explodes in a <i>different</i> way; you manage to duck as shrapnel goes flying over your head from the faulty firearm, and it’s the machina that takes the brunt of the blast. As you rise back up,..."
+  },
+  {
+    "key": "combat|Seeing_its_success_the_machine_tosses_away_the_firearm_in_short|270dacb351f2",
+    "original": "Seeing its success the machine tosses away the firearm in short order, though as you fall backwards in pain you’re not really in the mindset to care.",
+    "translation": "",
+    "context": "<<POS:00179394>> combatAppend(\"\\n\\nSeeing its success the machine tosses away the firearm in short order, though as you fall backwards in pain you’re not really in the mindset to care.\")"
+  },
+  {
+    "key": "combat|Your_attack_causes_the_machine_to_bounce_severely_and_the_tool|3f1be82b218c",
+    "original": "Your attack causes the machine to bounce severely, and the tool-appendages fall away from the chassis. You prevented it from repairing!",
+    "translation": "",
+    "context": "<<POS:00179686>> combatOutput(\"Your attack causes the machine to bounce severely, and the tool-appendages fall away from the chassis. You prevented it from repairing!\",null,this)"
+  },
+  {
+    "key": "combat|You_were_unable_to_shake_the_robot_up_enough_to_interrupt_it_so|8bdf9ba02139",
+    "original": "You were unable to shake the robot up enough to interrupt it, so now you can only watch as the holes of damage and scarred metal are mended before your very eyes, showing just how vain your progress was.",
+    "translation": "",
+    "context": "<<POS:00179891>> combatOutput(\"You were unable to shake the robot up enough to interrupt it, so now you can only watch as the holes of damage and scarred metal are mended before your very eyes, showing just how vain your progress was.\",null,this)"
+  },
+  {
+    "key": "combat|As_it_attacks_the_spare_appendages_race_up_its_form_and_begin_t|421b97c109d9",
+    "original": "As it attacks, the spare appendages race up its form and begin to mend the damage to its structure! You’ll have to jostle it if you want to stop it before it completes!",
+    "translation": "",
+    "context": "<<POS:00180200>> combatOutput(\"As it attacks, the spare appendages race up its form and begin to mend the damage to its structure! You’ll have to jostle it if you want to stop it before it completes!\",null,this)"
+  },
+  {
+    "key": "combat|One_of_the_machine_s_appendages_raises_upwards_and_flattens_out|72e49ff5ce5d",
+    "original": "One of the machine’s appendages raises upwards and flattens out in the span of half a second, and molten-red flames burst out and fly across the arena at you! The intense heat only lasts for a moment, however, as the modified welder immediately overheats.",
+    "translation": "",
+    "context": "<<POS:00180508>> combatOutput(\"One of the machine’s appendages raises upwards and flattens out in the span of half a second, and molten-red flames burst out and fly across the arena at you! The intense heat only lasts for a moment, however, as the modified welder immediately overheats.\",null,this)"
+  },
+  {
+    "key": "combat|You_hear_a_loud_whir_from_the_corrupt_machine_before_it_jerks_fo|e0017069652e",
+    "original": "You hear a loud whir from the corrupt machine before it jerks forwards, coming at you as the main body starts to rotate. Not too soon after it is spinning at a blur of a pace, appendages sprawled outwards and in range of you! Watch out!",
+    "translation": "",
+    "context": "<<POS:00180914>> combatOutput(\"You hear a loud whir from the corrupt machine before it jerks forwards, coming at you as the main body starts to rotate. Not too soon after it is spinning at a blur of a pace, appendages sprawled outwards and in range of you! Watch out!\\n\",null,this)"
+  },
+  {
+    "key": "combat.expr|You_manage_to_avoid_var0_var2_possessive_var1_var3|2c80f0e46172",
+    "original": "You manage to avoid \"+{var0}+{var2}.possessive({var1})+\" \"+{var3}+\".",
+    "translation": "",
+    "context": "<<POS:00181357>> <<VARS:var0=this.a,var1=this.short,var2=f.m,var3=this.inventory.meleeWeapon.attackVerb>> combatAppend(\"You manage to avoid \"+this.a+f.m.possessive(this.short)+\" \"+this.inventory.meleeWeapon.attackVerb+\".\")"
+  },
+  {
+    "key": "combat.expr|var0|6a95f593a8a4",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:00181530>> <<VARS:var0=e.customDodge>> combatAppend(e.customDodge)"
+  },
+  {
+    "key": "combat.expr|You_manage_to_avoid_var0_var2_possessive_var1_var3|2ddf37559f9f",
+    "original": "You manage to avoid \"+{var0}+{var2}.possessive({var1})+\" \"+{var3}+\".",
+    "translation": "",
+    "context": "<<POS:00181559>> <<VARS:var0=this.a,var1=this.short,var2=f.m,var3=this.inventory.meleeWeapon.attackVerb>> combatAppend(\"You manage to avoid \"+this.a+f.m.possessive(this.short)+\" \"+this.inventory.meleeWeapon.attackVerb+\".\")"
+  },
+  {
+    "key": "combat.expr|var0_mimbraneFeetBonusEvadeBonus|383c76124b6c",
+    "original": "{var0}.mimbraneFeetBonusEvadeBonus()",
+    "translation": "",
+    "context": "<<POS:00181713>> <<VARS:var0=window>> combatAppend(window.mimbraneFeetBonusEvadeBonus())"
+  },
+  {
+    "key": "combat.expr|var0_var1_connects_with_var2_mfn_his_her_its|9c4e64104974",
+    "original": "{var0}+{var1}+\" connects with \"+{var2}.mfn(\"his\",\"her\",\"its\")+\" \"+{var3}+\"!",
+    "translation": "",
+    "context": "<<POS:00181765>> <<VARS:var0=this.capitalA,var1=this.short,var2=this,var3=this.inventory.meleeWeapon.longName>> combatAppend(this.capitalA+this.short+\" connects with \"+this.mfn(\"his\",\"her\",\"its\")+\" \"+this.inventory.meleeWeapon.longName+\"!\")"
+  },
+  {
+    "key": "combat|The_machine_jerks_towards_you_zig_zagging_unexpectedly_as_it_cl|dccc47a5925d",
+    "original": "The machine jerks towards you, zig-zagging unexpectedly as it closes in - one of the grasping appendages reaches out to club at you!",
+    "translation": "",
+    "context": "<<POS:00182019>> combatOutput(\"The machine jerks towards you, zig-zagging unexpectedly as it closes in - one of the grasping appendages reaches out to club at you!\\n\",null,this)"
+  }
+]

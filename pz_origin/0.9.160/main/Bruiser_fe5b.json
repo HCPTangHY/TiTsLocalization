@@ -1,1 +1,128 @@
-[{"key": "assign|zaika_bruiser|5e193ec63922", "original": "zaika bruiser", "translation": "", "context": "<<POS:02007674>> e),e.neverSerialize=!0,e.short='zaika bruiser'"}, {"key": "assign|the|b8d4af01aec9", "original": "the ", "translation": "", "context": "<<POS:02007743>> er\",e.originalRace=\"zaika\",e.a='the '"}, {"key": "assign|The|63f2e902a6e1", "original": "The ", "translation": "", "context": "<<POS:02007761>> =\"zaika\",e.a=\"the \",e.capitalA='The '"}, {"key": "assign|This_girl_is_big_all_over_Every_aspect_of_her_from_height_to|36cb205dfeca", "original": "This girl is big all over. Every aspect of her, from height, to muscle tone, to personality, screams “I will fuck you up and have fun doing it!” Sporting a heavy crowbar and a metal-augmented fist, she’s ready to dish out a beating to anyone who dares to get in the way of the riot, and right now, that’s you.", "translation": "", "context": "<<POS:02007775>> the \",e.capitalA=\"The \",e.long='This girl is big all over. Every aspect of her, from height,'"}, {"key": "assign|The_bruiser_lunges_out_of_the_way|a74eccc98ed8", "original": "The bruiser lunges out of the way!", "translation": "", "context": "<<POS:02008118>> e.customBlock=\"\",e.customDodge='The bruiser lunges out of the way!'"}, {"key": "assign|defensive_augmentations|e5f92b7eaef3", "original": "defensive augmentations", "translation": "", "context": "<<POS:02008828>> .T4,e.inventory.armor.longName='defensive augmentations'"}, {"key": "assign|deep_purple|0393ce20860b", "original": "deep purple", "translation": "", "context": "<<POS:02009409>> ink\",e.hairLength=9,e.lipColor='deep purple'"}, {"key": "perk|Juggernaut|f7e13ef6732c", "original": "Juggernaut", "translation": "", "context": "<<POS:02010931>> createPerk(\"Juggernaut\")"}, {"key": "combat.expr|The_var0_getCombatName_takes_advantage_of_your_proned_st|e99835dbddf6", "original": "The \"+{var0}.getCombatName()+\" takes advantage of your proned state to wail a hail of blows down on \"+{var1}.getCombatName()+\"!\",null,this", "translation": "", "context": "<<POS:02012358>> <<VARS:var0=this,var1=e>> combatOutput(\"The \"+this.getCombatName()+\" takes advantage of your proned state to wail a hail of blows down on \"+e.getCombatName()+\"!\",null,this)"}, {"key": "combat.expr|The_var0_getCombatName_makes_a_cautious_strike_at_var|9e8b9d360ee0", "original": "The \"+{var0}.getCombatName()+\" makes a cautious strike at \"+{var1}.getCombatName()+\" with her crowbar.\",null,this", "translation": "", "context": "<<POS:02012658>> <<VARS:var0=this,var1=e>> combatOutput(\"The \"+this.getCombatName()+\" makes a cautious strike at \"+e.getCombatName()+\" with her crowbar.\",null,this)"}, {"key": "combat|it_misses|8b3eef02de42", "original": " it misses!", "translation": "", "context": "<<POS:02012797>> combatAppend(\" it misses!\")"}, {"key": "combat.expr|The_var0_getCombatName_swings_wildly_at_every_target_she|37f4bc330aa2", "original": "The \"+{var0}.getCombatName()+\" swings wildly at every target she can reach!\",null,this", "translation": "", "context": "<<POS:02012956>> <<VARS:var0=this>> combatOutput(\"The \"+this.getCombatName()+\" swings wildly at every target she can reach!\",null,this)"}, {"key": "combat.expr|She_misses_var0_getCombatName|569ffe8a0ea7", "original": "She misses \"+{var0}.getCombatName()+\"!", "translation": "", "context": "<<POS:02013105>> <<VARS:var0=t[o]>> combatAppend(\"\\nShe misses \"+t[o].getCombatName()+\"!\")"}, {"key": "combat.expr|She_hits_var0_getCombatName|4821bc5ca8b7", "original": "She hits \"+{var0}.getCombatName()+\"!", "translation": "", "context": "<<POS:02013161>> <<VARS:var0=t[o]>> combatAppend(\"\\nShe hits \"+t[o].getCombatName()+\"!\")"}, {"key": "combat.expr|The_var0_getCombatName_hucks_a_rock_at_var1_getComba|2bace8b57216", "original": "The \"+{var0}.getCombatName()+\" hucks a rock at \"+{var1}.getCombatName()+\"!\",null,this", "translation": "", "context": "<<POS:02013358>> <<VARS:var0=this,var1=e>> combatOutput(\"The \"+this.getCombatName()+\" hucks a rock at \"+e.getCombatName()+\"!\",null,this)"}, {"key": "combat|It_misses|49cb17653f28", "original": "It misses!", "translation": "", "context": "<<POS:02013471>> combatAppend(\"\\nIt misses!\")"}, {"key": "combat.expr|Worry_creases_var1_possessive_var0_getCombatName_brow|73fa126ea4d7", "original": "Worry creases \"+{var1}.possessive({var0}.getCombatName())+\" brow as she notes that her side has more casualties than yours.", "translation": "", "context": "<<POS:02013634>> <<VARS:var0=this,var1=m.m>> combatOutput(\"Worry creases \"+m.m.possessive(this.getCombatName())+\" brow as she notes that her side has more casualties than yours.\")"}, {"key": "combat.expr|The_var0_getCombatName_pulls_a_bottle_out_from_behind_he|09144559fa12", "original": "The \"+{var0}.getCombatName()+\" pulls a bottle out from behind her back, and sparks a light on the cloth stuffed into the end. She lobs the molly at \"+{var1}.getCombatName()+\"!\",null,this", "translation": "", "context": "<<POS:02013838>> <<VARS:var0=this,var1=e>> combatOutput(\"The \"+this.getCombatName()+\" pulls a bottle out from behind her back, and sparks a light on the cloth stuffed into the end. She lobs the molly at \"+e.getCombatName()+\"!\",null,this)"}, {"key": "combat|Miss|47338eafaabf", "original": "Miss!", "translation": "", "context": "<<POS:02014052>> combatAppend(\"\\nMiss!\")"}, {"key": "combat|b_She_s_burning_b|a750501d9135", "original": "<b>She’s burning!</b>", "translation": "", "context": "<<POS:02014258>> combatAppend(\"\\n<b>She’s burning!</b>\")"}, {"key": "combat.expr|b_var0_Ya_burnt_You_re_burning_b|4e5a6ea3a8f0", "original": "<b>\"+({var0}()?\"Ya burnt!\":\"You’re burning!\")+\"</b>", "translation": "", "context": "<<POS:02014298>> <<VARS:var0=isSillyModeEnabled>> combatAppend(\"\\n<b>\"+(isSillyModeEnabled()?\"Ya burnt!\":\"You’re burning!\")+\"</b>\")"}]
+[
+  {
+    "key": "assign|zaika_bruiser|5e193ec63922",
+    "original": "zaika bruiser",
+    "translation": "",
+    "context": "<<POS:02007674>> e),e.neverSerialize=!0,e.short='zaika bruiser'"
+  },
+  {
+    "key": "assign|the|b8d4af01aec9",
+    "original": "the ",
+    "translation": "",
+    "context": "<<POS:02007743>> er\",e.originalRace=\"zaika\",e.a='the '"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": "",
+    "context": "<<POS:02007761>> =\"zaika\",e.a=\"the \",e.capitalA='The '"
+  },
+  {
+    "key": "assign|This_girl_is_big_all_over_Every_aspect_of_her_from_height_to|36cb205dfeca",
+    "original": "This girl is big all over. Every aspect of her, from height, to muscle tone, to personality, screams “I will fuck you up and have fun doing it!” Sporting a heavy crowbar and a metal-augmented fist, she’s ready to dish out a beating to anyone who dares to get in the way of the riot, and right now, that’s you.",
+    "translation": "",
+    "context": "<<POS:02007775>> the \",e.capitalA=\"The \",e.long='This girl is big all over. Every aspect of her, from height,'"
+  },
+  {
+    "key": "assign|The_bruiser_lunges_out_of_the_way|a74eccc98ed8",
+    "original": "The bruiser lunges out of the way!",
+    "translation": "",
+    "context": "<<POS:02008118>> e.customBlock=\"\",e.customDodge='The bruiser lunges out of the way!'"
+  },
+  {
+    "key": "assign|defensive_augmentations|e5f92b7eaef3",
+    "original": "defensive augmentations",
+    "translation": "",
+    "context": "<<POS:02008828>> .T4,e.inventory.armor.longName='defensive augmentations'"
+  },
+  {
+    "key": "assign|deep_purple|0393ce20860b",
+    "original": "deep purple",
+    "translation": "",
+    "context": "<<POS:02009409>> ink\",e.hairLength=9,e.lipColor='deep purple'"
+  },
+  {
+    "key": "perk|Juggernaut|f7e13ef6732c",
+    "original": "Juggernaut",
+    "translation": "",
+    "context": "<<POS:02010931>> createPerk(\"Juggernaut\")"
+  },
+  {
+    "key": "combat.expr|The_var0_getCombatName_takes_advantage_of_your_proned_st|553c80cf55cb",
+    "original": "The \"+{var0}.getCombatName()+\" takes advantage of your proned state to wail a hail of blows down on \"+{var1}.getCombatName()+\"!",
+    "translation": "",
+    "context": "<<POS:02012358>> <<VARS:var0=this,var1=e>> combatOutput(\"The \"+this.getCombatName()+\" takes advantage of your proned state to wail a hail of blows down on \"+e.getCombatName()+\"!\",null,this)"
+  },
+  {
+    "key": "combat.expr|The_var0_getCombatName_makes_a_cautious_strike_at_var|b149e89179a3",
+    "original": "The \"+{var0}.getCombatName()+\" makes a cautious strike at \"+{var1}.getCombatName()+\" with her crowbar.",
+    "translation": "",
+    "context": "<<POS:02012658>> <<VARS:var0=this,var1=e>> combatOutput(\"The \"+this.getCombatName()+\" makes a cautious strike at \"+e.getCombatName()+\" with her crowbar.\",null,this)"
+  },
+  {
+    "key": "combat|it_misses|8f8485e8d76c",
+    "original": " it misses!",
+    "translation": "",
+    "context": "<<POS:02012797>> combatAppend(\" it misses!\")"
+  },
+  {
+    "key": "combat.expr|The_var0_getCombatName_swings_wildly_at_every_target_she|fa02b8b827b4",
+    "original": "The \"+{var0}.getCombatName()+\" swings wildly at every target she can reach!",
+    "translation": "",
+    "context": "<<POS:02012956>> <<VARS:var0=this>> combatOutput(\"The \"+this.getCombatName()+\" swings wildly at every target she can reach!\",null,this)"
+  },
+  {
+    "key": "combat.expr|She_misses_var0_getCombatName|2b1f6fc7407d",
+    "original": "She misses \"+{var0}.getCombatName()+\"!",
+    "translation": "",
+    "context": "<<POS:02013105>> <<VARS:var0=t[o]>> combatAppend(\"\\nShe misses \"+t[o].getCombatName()+\"!\")"
+  },
+  {
+    "key": "combat.expr|She_hits_var0_getCombatName|4821bc5ca8b7",
+    "original": "She hits \"+{var0}.getCombatName()+\"!",
+    "translation": "",
+    "context": "<<POS:02013161>> <<VARS:var0=t[o]>> combatAppend(\"\\nShe hits \"+t[o].getCombatName()+\"!\")"
+  },
+  {
+    "key": "combat.expr|The_var0_getCombatName_hucks_a_rock_at_var1_getComba|0ee9ba3981f7",
+    "original": "The \"+{var0}.getCombatName()+\" hucks a rock at \"+{var1}.getCombatName()+\"!",
+    "translation": "",
+    "context": "<<POS:02013358>> <<VARS:var0=this,var1=e>> combatOutput(\"The \"+this.getCombatName()+\" hucks a rock at \"+e.getCombatName()+\"!\",null,this)"
+  },
+  {
+    "key": "combat|It_misses|efae813393e5",
+    "original": "It misses!",
+    "translation": "",
+    "context": "<<POS:02013471>> combatAppend(\"\\nIt misses!\")"
+  },
+  {
+    "key": "combat.expr|Worry_creases_var1_possessive_var0_getCombatName_brow|73fa126ea4d7",
+    "original": "Worry creases \"+{var1}.possessive({var0}.getCombatName())+\" brow as she notes that her side has more casualties than yours.",
+    "translation": "",
+    "context": "<<POS:02013634>> <<VARS:var0=this,var1=m.m>> combatOutput(\"Worry creases \"+m.m.possessive(this.getCombatName())+\" brow as she notes that her side has more casualties than yours.\")"
+  },
+  {
+    "key": "combat.expr|The_var0_getCombatName_pulls_a_bottle_out_from_behind_he|20852991ab0e",
+    "original": "The \"+{var0}.getCombatName()+\" pulls a bottle out from behind her back, and sparks a light on the cloth stuffed into the end. She lobs the molly at \"+{var1}.getCombatName()+\"!",
+    "translation": "",
+    "context": "<<POS:02013838>> <<VARS:var0=this,var1=e>> combatOutput(\"The \"+this.getCombatName()+\" pulls a bottle out from behind her back, and sparks a light on the cloth stuffed into the end. She lobs the molly at \"+e.getCombatName()+\"!\",null,this)"
+  },
+  {
+    "key": "combat|Miss|eefbb4afae5c",
+    "original": "Miss!",
+    "translation": "",
+    "context": "<<POS:02014052>> combatAppend(\"\\nMiss!\")"
+  },
+  {
+    "key": "combat|b_She_s_burning_b|a750501d9135",
+    "original": "<b>She’s burning!</b>",
+    "translation": "",
+    "context": "<<POS:02014258>> combatAppend(\"\\n<b>She’s burning!</b>\")"
+  },
+  {
+    "key": "combat.expr|b_var0_Ya_burnt_You_re_burning_b|4e5a6ea3a8f0",
+    "original": "<b>\"+({var0}()?\"Ya burnt!\":\"You’re burning!\")+\"</b>",
+    "translation": "",
+    "context": "<<POS:02014298>> <<VARS:var0=isSillyModeEnabled>> combatAppend(\"\\n<b>\"+(isSillyModeEnabled()?\"Ya burnt!\":\"You’re burning!\")+\"</b>\")"
+  }
+]
