@@ -206,6 +206,10 @@ def _process_call_extract(ctx):
     # 纯字符串：引号开头且内部没有 "+ 拼接
     is_pure_string = (stripped[0] in ('"', "'") and
                       '"+' not in stripped and "'+" not in stripped)
+    # 调用上下文（截断避免过长）
+    call_ctx = f"{ctx.identifier}({inner})"
+    if len(call_ctx) > 300:
+        call_ctx = call_ctx[:300] + "..."
     if is_pure_string:
         # 纯字符串字面量
         content_pos = ctx.paren_pos + 1 + (len(inner) - len(inner.lstrip()))  # 跳过前导空白
@@ -213,7 +217,7 @@ def _process_call_extract(ctx):
         text = stripped[1:]
         if text and text[-1] in ('"', "'"):
             text = text[:-1]
-        entry = make_entry(ctx, category, text, content_pos)
+        entry = make_entry(ctx, category, text, content_pos, context_text=call_ctx)
         return [entry] if entry else []
     else:
         # 穿透白名单：这些函数已有专用规则，不要被 output 吐掉2
@@ -311,13 +315,19 @@ def _process_arg_extract(ctx):
             continue
 
         if stripped[0] in ('"', "'"):
-            # 纯字符串字面量：提取内容
-            content, _ = parse_js_string(stripped, 0)
-            if content is None:
-                continue
-            # 参数在 inner 中的精确起始偏移 = arg_offset + 前导空白 + 1（跳引号）
-            real_pos = ctx.paren_pos + 1 + arg_offset + leading + 1
-            entry = make_entry(ctx, category, content, real_pos, context_text=full_call)
+            # 检查是否为纯字符串（无拼接）还是表达式
+            content, end = parse_js_string(stripped, 0)
+            if content is not None and not stripped[end:].strip():
+                # 纯字符串字面量：提取内容
+                real_pos = ctx.paren_pos + 1 + arg_offset + leading + 1
+                entry = make_entry(ctx, category, content, real_pos, context_text=full_call)
+            else:
+                # 以引号开头但后面有拼接（如 "text"+var），走 expr
+                real_pos = ctx.paren_pos + 1 + arg_offset + leading
+                placeholder, var_map = _placeholderize_expr(stripped)
+                vars_tag = '<<VARS:' + ','.join(f'{k}={v}' for k, v in var_map.items()) + '>>'
+                expr_context = f"{vars_tag} {full_call}"
+                entry = make_entry(ctx, category + ".expr", placeholder, real_pos, context_text=expr_context)
         else:
             # 非字符串参数（纯变量、表达式、拼接等）：
             # 全部走 placeholderize，让译者决定是否翻译/包装
@@ -375,7 +385,9 @@ def _process_assign(ctx):
             str_content, end = parse_js_string(s.content, ctx.pos)
             if str_content is not None:
                 ctx.end_pos = end
-                entry = make_entry(ctx, category, str_content, ctx.pos + 1)
+                # 上下文：赋值语句 + 值前80字符
+                assign_ctx = f"{pattern}=" + repr(str_content[:60])
+                entry = make_entry(ctx, category, str_content, ctx.pos + 1, context_text=assign_ctx)
                 return [entry] if entry else []
     return []
 
@@ -424,7 +436,13 @@ def _process_generic_assign(ctx):
     if ' ' not in str_content and '<' not in str_content:
         return []
     ctx.end_pos = end
-    entry = make_entry(ctx, 'assign', str_content, ctx.pos + 1)
+    # 上下文：赋值左侧
+    prefix = ctx.prefix.rstrip()
+    # 取 = 前的变量名
+    eq_idx = prefix.rfind('=')
+    assign_lhs = prefix[max(0, eq_idx-30):eq_idx+1] if eq_idx >= 0 else prefix[-30:]
+    assign_ctx = assign_lhs.strip() + repr(str_content[:60])
+    entry = make_entry(ctx, 'assign', str_content, ctx.pos + 1, context_text=assign_ctx)
     return [entry] if entry else []
 
 
@@ -465,7 +483,8 @@ def _process_field(ctx):
             str_content, end = parse_js_string(s.content, ctx.pos)
             if str_content is not None:
                 ctx.end_pos = end
-                entry = make_entry(ctx, category, str_content, ctx.pos + 1)
+                field_ctx = f"{f}:" + repr(str_content[:60])
+                entry = make_entry(ctx, category, str_content, ctx.pos + 1, context_text=field_ctx)
                 return [entry] if entry else []
     return []
 
@@ -527,7 +546,8 @@ def _process_textify(ctx):
             if str_content is not None and str_content.strip():
                 # 计算在原始文件中的位置
                 real_pos = ctx.paren_pos + 1 + i + 1  # +1 for (, +1 for quote
-                entry = make_entry(ctx, "textify", str_content, real_pos)
+                textify_ctx = f"textify([{repr(str_content[:50])}...])"
+                entry = make_entry(ctx, "textify", str_content, real_pos, context_text=textify_ctx)
                 if entry:
                     results.append(entry)
                 i = end
@@ -586,7 +606,8 @@ def _process_create_element(ctx):
         if content is None:
             continue
         real_pos = ctx.paren_pos + 1 + arg_offset + leading + 1
-        entry = make_entry(ctx, "ui.element", content, real_pos)
+        ce_ctx = f"createElement({args[0][0].strip()}, ..., {repr(content[:50])})"
+        entry = make_entry(ctx, "ui.element", content, real_pos, context_text=ce_ctx)
         if entry:
             results.append(entry)
 
@@ -712,7 +733,8 @@ def _process_string_array(ctx):
         return []
     # 整个数组作为一条词条，original = [内容]
     # POS 指向 [ 的位置
-    entry = make_entry(ctx, "string.array", arr_content, bracket_pos)
+    arr_ctx = repr(arr_content[:80]) + ("..." if len(arr_content) > 80 else "")
+    entry = make_entry(ctx, "string.array", arr_content, bracket_pos, context_text=arr_ctx)
     return [entry] if entry else []
 
 

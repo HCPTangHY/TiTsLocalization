@@ -80,6 +80,15 @@ def check_quote_safety(original: str, translation: str, wrapper: str = None) -> 
         delta = trans_count - orig_count
         if delta % 2 != 0:
             return False
+
+    # 检查半角引号夹在汉字之间 — 译者误用半角引号当中文标点
+    # 汉字"汉字 或 汉字" 汉字 或 汉字 "汉字（两侧都是汉字才拦）
+    # 汉字"+var 这种一侧是 JS 符号的不拦
+    import re
+    CJK = '\u4e00-\u9fff\u3000-\u303f\uff00-\uffef'
+    if re.search(rf'[{CJK}]\s*["\']\s*[{CJK}]', translation):
+        return False
+
     return True
 
 
