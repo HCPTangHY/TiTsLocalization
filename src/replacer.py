@@ -52,12 +52,12 @@ def resolve_vars(text: str, var_map: dict) -> str:
     return text
 
 
-def check_quote_safety(original: str, translation: str) -> bool:
+def check_quote_safety(original: str, translation: str, wrapper: str = None) -> bool:
     """检查译文的引号结构是否安全。
 
-    规则：译文中每种引号的净变化量必须为偶数（成对出现）。
-    允许译文比原文多或少成对引号，但不允许落单的引号破坏JS语法。
-    同时检查反斜杠转义的引号（\\" 和 \\'）不被计入。
+    如果提供了 wrapper（JS 字符串的包裹引号类型），只检查 wrapper 引号的变化。
+    非 wrapper 引号属于文本内容，变化不影响 JS 语法结构。
+    如果没有 wrapper 信息，退回检查两种引号（保守策略）。
     """
     def count_unescaped(s, ch):
         """计算未转义的引号数量"""
@@ -72,10 +72,11 @@ def check_quote_safety(original: str, translation: str) -> bool:
             i += 1
         return count
 
-    for ch in ('"', "'"):
+    # 只检查 wrapper 引号；非 wrapper 引号是内容，不影响 JS 结构
+    check_chars = [wrapper] if wrapper in ('"', "'") else ['"', "'"]
+    for ch in check_chars:
         orig_count = count_unescaped(original, ch)
         trans_count = count_unescaped(translation, ch)
-        # 净变化必须是偶数（成对增减）
         delta = trans_count - orig_count
         if delta % 2 != 0:
             return False
@@ -118,9 +119,15 @@ def replace_file(source_path: str, trans_json_path: str, output_path: str):
             # expr 类型：还原 original 和 translation 中的 {var} 占位符
             original = resolve_vars(original, var_map)
             translation = resolve_vars(translation, var_map)
-        # 引号安全检查
-        if not check_quote_safety(original, translation):
-            logger.warning(f"Quote mismatch, skip: key={key[:60]}")
+        # 找 wrapper 引号：从 pos0 往前扫到最近的引号字符
+        wrapper = None
+        for i in range(pos0 - 1, max(0, pos0 - 20), -1):
+            if content[i] in ('"', "'"):
+                wrapper = content[i]
+                break
+        # 引号安全检查（只检查 wrapper 引号）
+        if not check_quote_safety(original, translation, wrapper):
+            logger.warning(f"Quote mismatch (wrapper={wrapper}), skip: key={key[:60]}")
             logger.warning(f"  orig: {repr(original[:80])}")
             logger.warning(f"  trans: {repr(translation[:80])}")
             continue
