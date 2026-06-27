@@ -72,13 +72,24 @@ def check_quote_safety(original: str, translation: str, wrapper: str = None) -> 
             i += 1
         return count
 
-    # 只检查 wrapper 引号；非 wrapper 引号是内容，不影响 JS 结构
+    # 状态机检查：模拟 JS 引擎解析引号状态
+    # 初始状态 inside=True（POS-1 处的 wrapper 引号已打开字符串）
+    # 分别扫描 original 和 translation，记录各自的结束状态
+    # 两者结束状态必须一致 → 替换后源码尾部的引号状态不被破坏
     check_chars = [wrapper] if wrapper in ('"', "'") else ['"', "'"]
     for ch in check_chars:
-        orig_count = count_unescaped(original, ch)
-        trans_count = count_unescaped(translation, ch)
-        delta = trans_count - orig_count
-        if delta % 2 != 0:
+        def scan_end_state(text):
+            inside = True  # 从引号内部开始
+            i = 0
+            while i < len(text):
+                if text[i] == '\\':
+                    i += 2
+                    continue
+                if text[i] == ch:
+                    inside = not inside
+                i += 1
+            return inside
+        if scan_end_state(original) != scan_end_state(translation):
             return False
 
     # 检查半角引号夹在汉字之间 — 译者误用半角引号当中文标点
