@@ -11,6 +11,8 @@ process 必须设置 ctx.end_pos 告诉 scanner 跳到哪里。
 process 通过 ctx.scanner 访问工具方法（match_paren / split_args 等）。
 """
 
+import re
+
 from util import parse_js_string, semantic_key, format_pos, context_hash
 
 RULES = []
@@ -237,7 +239,7 @@ def _process_call_extract(ctx):
         # 检测 webpack 混淆的 textify 调用：(0,X.zI)(VAR||(VAR=(0,Y.Z)(["..."
         # .zI 是 textify 的统一混淆后缀，前缀字母是 webpack module 局部变量
         # 直接在这里解析内部的字符串数组，因为 scanner 主循环无法识别 (0,X.zI)( 作为函数调用
-        if _re.match(r'\(0,[a-zA-Z_$]+\.zI\)', stripped):
+        if re.match(r'\(0,[a-zA-Z_$]+\.zI\)', stripped):
             # 手动提取内部的 textify 字符串数组
             arr_start = inner.find('(["')
             if arr_start < 0:
@@ -286,7 +288,6 @@ def _process_call_extract(ctx):
         while expr_text.endswith('\\n') or expr_text.endswith('\\t'):
             expr_text = expr_text[:-2]
         real_pos += pos_adjust
-        # 修改记录：VARS 标记改为逗号分隔，并由 replacer.parse_vars 按 varN= 边界解析；这样做是为了避免旧管道符分隔和表达式内容冲突，目的在于让表达式回写时保持变量映射稳定。
         vars_tag = '<<VARS:' + ','.join(f'{k}={v}' for k, v in var_map.items()) + '>>' if var_map else ''
         expr_ctx = f"{vars_tag} {ctx.identifier}({inner})"
         entry = make_entry(ctx, category + ".expr", expr_text, real_pos, context_text=expr_ctx)
@@ -311,8 +312,9 @@ _ARG_EXTRACT = {
     "addDisabledButton": [(1, "button"), (3, "button.hover"), (4, "button.tooltip")],
     "showName":          [(0, "name.show")],
     "createPerk":        [(0, "perk")],
-    # 修改记录：成就分类标题由 renderAchievementType 的首参数生成；加入 header 提取规则，是为了让 Story Missions 等界面标题进入 ParaTranz，避免本地包中仍保留英文标题。
     "renderAchievementType": [(0, "header")],
+    # showDialog(type, header, body, buttons) — arg0 是类型常量不翻，arg1 header 和 arg2 body 需要翻
+    "showDialog":        [(1, "dialog.header"), (2, "dialog.body")],
 
     "author":            [(0, "_skip")],
 }
@@ -338,7 +340,13 @@ def _process_arg_extract(ctx):
     # 不跳过整个 addButton(...)，只跳到第三个参数之前，让 scanner 深入 callback。
     args = s.split_args(inner)
     if ctx.identifier in ('addButton', 'addDisabledButton') and len(args) > 2:
-        # end_pos 设到第三个参数开始位置，scanner 会从这里继续扫描
+        # end_pos 设到第三个参数开始位置，scanner 会从这里继续扫描 callback
+        _, third_arg_offset = args[2]
+        ctx.end_pos = ctx.paren_pos + 1 + third_arg_offset
+    elif ctx.identifier == 'showDialog' and len(args) > 2:
+        # end_pos 设到第三个参数（body）开始位置，让 scanner 深入扫描：
+        # - body 如果是 ParseText/textify 调用，scanner 会进入提取
+        # - body 后面的 buttons 数组里的 txt: 字段也会被 field 规则捕获
         _, third_arg_offset = args[2]
         ctx.end_pos = ctx.paren_pos + 1 + third_arg_offset
     else:
@@ -349,7 +357,9 @@ def _process_arg_extract(ctx):
     if len(full_call) > 300:
         full_call = full_call[:300] + "..."
 
-    # args 已在上面 split 过，直接复用
+    # 穿透白名单：这些函数有专用规则，arg_extract 不提取，让 scanner 深入
+    _ARG_PASSTHROUGH = {'ParseText', 'textify', 'blockHeader', 'header'}
+
     results = []
 
     for arg_idx, category in extractions:
@@ -363,6 +373,11 @@ def _process_arg_extract(ctx):
         leading = len(arg_text) - len(arg_text.lstrip())
         stripped = arg_text.strip()
         if not stripped:
+            continue
+
+        # 穿透：如果参数是已有规则的函数调用，跳过让 scanner 深入
+        first_token = stripped.split('(')[0].strip()
+        if first_token in _ARG_PASSTHROUGH:
             continue
 
         if stripped[0] in ('"', "'"):
@@ -390,7 +405,6 @@ def _process_arg_extract(ctx):
                 while expr_text.endswith('\\n') or expr_text.endswith('\\t'):
                     expr_text = expr_text[:-2]
                 real_pos += pos_adjust
-                # 修改记录：这里和 call_extract 使用同一 VARS 格式；通过逗号分隔和边界解析保存变量表，目的是让字符串拼接表达式在翻译后可以安全回写。
                 vars_tag = '<<VARS:' + ','.join(f'{k}={v}' for k, v in var_map.items()) + '>>'
                 expr_context = f"{vars_tag} {full_call}"
                 entry = make_entry(ctx, category + ".expr", expr_text, real_pos, context_text=expr_context)
@@ -401,8 +415,6 @@ def _process_arg_extract(ctx):
             # 变量占位符化：非字符串非数字的 token 替换为 {var0} {var1}...
             placeholder, var_map = _placeholderize_expr(stripped)
             # <<VARS:...>> 是 replacer 需要解析的占位符映射。
-            # 修改记录：这里使用逗号分隔，并依赖 replacer.parse_vars 的边界扫描，目的是避免变量值里的管道符或逗号导致回写时变量错位。
-            # 后面的是给译者看的参考上下文。
             vars_tag = '<<VARS:' + ','.join(f'{k}={v}' for k, v in var_map.items()) + '>>'
             expr_context = f"{vars_tag} {full_call}"
             entry = make_entry(ctx, category + ".expr", placeholder, real_pos, context_text=expr_context)
@@ -475,11 +487,7 @@ RULES.append({
 
 # ================================================================
 #   Rule: 通用变量赋值 — e="..." / e+="..."
-#   提取 变量= 或 变量+= 后的字符串字面量
-#   过滤条件：字符串包含空格（自然语言）或包含 HTML 标签
 # ================================================================
-
-import re as _assign_re
 
 
 def _is_generic_assign(ctx):
@@ -491,7 +499,7 @@ def _is_generic_assign(ctx):
     # 不匹配: === / !== (比较运算符)
     if prefix.endswith('===') or prefix.endswith('!==') or prefix.endswith('=='):
         return False
-    if _assign_re.search(r'[a-zA-Z_$][a-zA-Z0-9_$]*\s*\+?=$', prefix):
+    if re.search(r'[a-zA-Z_$][a-zA-Z0-9_$]*\s*\+?=$', prefix):
         # 确保不是已有 assign 规则覆盖的 this.xxx
         for pattern in _ASSIGN:
             if prefix.endswith(pattern + ' =') or prefix.endswith(pattern + '='):
@@ -538,6 +546,7 @@ _FIELD = {
     'statTitle': 'ui.stat.title',
     'placeholder': 'ui.placeholder',
     'label': 'ui.label',
+    'txt':   'dialog.button',
 }
 
 
@@ -610,9 +619,6 @@ RULES.append({
 #   textify(VAR||(VAR=(0,Ce.Z)(["str1","str2",...])), interp1, interp2, ...)
 #   提取字符串数组中的所有文本
 # ================================================================
-
-import re as _re
-
 
 def _is_textify(ctx):
     return ctx.event == "call" and ctx.identifier == "textify"
@@ -748,7 +754,7 @@ RULES.append({
 _PRESCAN_ANCHORS = [
     {
         # 菜单按钮函数：对象里有 buttonHeader + buttonText 字段
-        "pattern": _re.compile(r'buttonHeader:\w+.*?buttonText:\w+'),
+        "pattern": re.compile(r'buttonHeader:\w+.*?buttonText:\w+'),
         "args": [(2, 'menu.button'), (3, 'menu.tooltip')],
         "backtrack": 1000,
     },
@@ -762,7 +768,7 @@ def prescan(content):
     不会被 webpack 混淆。通过它们定位到包含它们的函数定义，
     反向推出函数的混淆名。
     """
-    func_def_re = _re.compile(r'([a-zA-Z_$][a-zA-Z0-9_$]*)\s*=\s*function\s*\(')
+    func_def_re = re.compile(r'([a-zA-Z_$][a-zA-Z0-9_$]*)\s*=\s*function\s*\(')
 
     for anchor in _PRESCAN_ANCHORS:
         for m in anchor['pattern'].finditer(content):

@@ -41,7 +41,7 @@ def parse_vars(context: str) -> dict:
     if not m:
         return {}
     raw = m.group(1)
-    # 修改记录：这里必须和 rules.py 生成的逗号分隔格式配套；只在 depth=0 且后面是 varN= 时切分，目的是避免表达式内部的逗号破坏变量映射。
+    # 按 depth=0 的 ,varN= 边界切分，兼容表达式内嵌逗号
     pairs = []
     start = 0
     depth = 0
