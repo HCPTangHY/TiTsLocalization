@@ -286,7 +286,8 @@ def _process_call_extract(ctx):
         while expr_text.endswith('\\n') or expr_text.endswith('\\t'):
             expr_text = expr_text[:-2]
         real_pos += pos_adjust
-        vars_tag = '<<VARS:' + '|'.join(f'{k}={v}' for k, v in var_map.items()) + '>>' if var_map else ''
+        # 修改记录：VARS 标记改为逗号分隔，并由 replacer.parse_vars 按 varN= 边界解析；这样做是为了避免旧管道符分隔和表达式内容冲突，目的在于让表达式回写时保持变量映射稳定。
+        vars_tag = '<<VARS:' + ','.join(f'{k}={v}' for k, v in var_map.items()) + '>>' if var_map else ''
         expr_ctx = f"{vars_tag} {ctx.identifier}({inner})"
         entry = make_entry(ctx, category + ".expr", expr_text, real_pos, context_text=expr_ctx)
         return [entry] if entry else []
@@ -310,6 +311,8 @@ _ARG_EXTRACT = {
     "addDisabledButton": [(1, "button"), (3, "button.hover"), (4, "button.tooltip")],
     "showName":          [(0, "name.show")],
     "createPerk":        [(0, "perk")],
+    # 修改记录：成就分类标题由 renderAchievementType 的首参数生成；加入 header 提取规则，是为了让 Story Missions 等界面标题进入 ParaTranz，避免本地包中仍保留英文标题。
+    "renderAchievementType": [(0, "header")],
 
     "author":            [(0, "_skip")],
 }
@@ -387,7 +390,8 @@ def _process_arg_extract(ctx):
                 while expr_text.endswith('\\n') or expr_text.endswith('\\t'):
                     expr_text = expr_text[:-2]
                 real_pos += pos_adjust
-                vars_tag = '<<VARS:' + '|'.join(f'{k}={v}' for k, v in var_map.items()) + '>>'
+                # 修改记录：这里和 call_extract 使用同一 VARS 格式；通过逗号分隔和边界解析保存变量表，目的是让字符串拼接表达式在翻译后可以安全回写。
+                vars_tag = '<<VARS:' + ','.join(f'{k}={v}' for k, v in var_map.items()) + '>>'
                 expr_context = f"{vars_tag} {full_call}"
                 entry = make_entry(ctx, category + ".expr", expr_text, real_pos, context_text=expr_context)
         else:
@@ -396,9 +400,10 @@ def _process_arg_extract(ctx):
             real_pos = ctx.paren_pos + 1 + arg_offset + leading
             # 变量占位符化：非字符串非数字的 token 替换为 {var0} {var1}...
             placeholder, var_map = _placeholderize_expr(stripped)
-            # <<VARS:...>> 是 replacer 需要解析的占位符映射
-            # 后面的是给译者看的参考上下文
-            vars_tag = '<<VARS:' + '|'.join(f'{k}={v}' for k, v in var_map.items()) + '>>'
+            # <<VARS:...>> 是 replacer 需要解析的占位符映射。
+            # 修改记录：这里使用逗号分隔，并依赖 replacer.parse_vars 的边界扫描，目的是避免变量值里的管道符或逗号导致回写时变量错位。
+            # 后面的是给译者看的参考上下文。
+            vars_tag = '<<VARS:' + ','.join(f'{k}={v}' for k, v in var_map.items()) + '>>'
             expr_context = f"{vars_tag} {full_call}"
             entry = make_entry(ctx, category + ".expr", placeholder, real_pos, context_text=expr_context)
 
@@ -426,6 +431,12 @@ _ASSIGN = {
     'this.description':  'desc',
     'this.ButtonName':   'ui.button',
     'this.TooltipTitle': 'ui.tooltip',
+    'e.shortName':       'item.short',
+    'e.longName':        'item.long',
+    'e.description':     'item.desc',
+    'e.tooltip':         'item.tooltip',
+    'e.attackVerb':      'item.attackVerb',
+    'e.attackNoun':      'item.attackNoun',
 }
 
 
@@ -494,9 +505,7 @@ def _process_generic_assign(ctx):
     str_content, end = parse_js_string(s.content, ctx.pos)
     if str_content is None:
         return []
-    # 过滤：只提取包含空格的自然语言文本，或包含 HTML 标签的
-    if ' ' not in str_content and '<' not in str_content:
-        return []
+    # 过滤已关闭：短字符串（HP、Unisex 等）也需要提取
     ctx.end_pos = end
     # 上下文：赋值左侧
     prefix = ctx.prefix.rstrip()
@@ -528,6 +537,7 @@ _FIELD = {
     'statName': 'ui.stat',
     'statTitle': 'ui.stat.title',
     'placeholder': 'ui.placeholder',
+    'label': 'ui.label',
 }
 
 

@@ -31,26 +31,32 @@ def parse_pos(context: str) -> int:
 
 
 def parse_vars(context: str) -> dict:
-    """从 context 解析 <<VARS:var0=a|var1=Ot.m>> 映射表。
-    兼容旧格式逗号分隔（当值里不含逗号时）。"""
+    """从 context 解析 <<VARS:var0=a,var1=b>> 映射表。
+    修改原因：提取端统一生成逗号分隔的 VARS 标记，变量值里仍可能出现逗号或管道符。
+    修改方式：按括号深度扫描，并且只在 varN= 边界切分变量对。
+    修改目的：避免变量映射被误拆，保证回写表达式时能还原原始变量。"""
     if not context:
         return {}
     m = re.search(r'<<VARS:([^>]+)>>', context)
     if not m:
         return {}
     raw = m.group(1)
-    # 新格式用 | 分隔（值里可能含逗号）
-    if '|' in raw:
-        pairs = raw.split('|')
-    else:
-        # 旧格式兼容：找 ,varN= 边界手动切分
-        pairs = []
-        start = 0
-        for i in range(len(raw)):
-            if raw[i] == ',' and raw[i+1:i+4].startswith('var') and '=' in raw[i+1:i+8]:
+    # 修改记录：这里必须和 rules.py 生成的逗号分隔格式配套；只在 depth=0 且后面是 varN= 时切分，目的是避免表达式内部的逗号破坏变量映射。
+    pairs = []
+    start = 0
+    depth = 0
+    for i, ch in enumerate(raw):
+        if ch in ('(', '[', '{'):
+            depth += 1
+        elif ch in (')', ']', '}'):
+            depth = max(0, depth - 1)
+        elif ch == ',' and depth == 0:
+            # depth=0 的逗号：检查后面是否是 varN= 开头
+            rest = raw[i+1:]
+            if rest.startswith('var') and '=' in rest[:8]:
                 pairs.append(raw[start:i])
                 start = i + 1
-        pairs.append(raw[start:])
+    pairs.append(raw[start:])
     result = {}
     for pair in pairs:
         eq = pair.find('=')
