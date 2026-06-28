@@ -4,11 +4,11 @@ source/
 # 中间产物
 split/
 
-# 产出（pz_origin 要入库）
-# pz_origin/
+# 产出（PZ 平台已有，不入库）
+pz_origin/
 
-# 翻译结果（从PZ下载，要入库）
-# trans_origin/
+# 翻译结果（从PZ下载）
+trans_origin/
 
 # 最终产物
 dist/
@@ -21,4 +21,7 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
-data/tmp/
+data/
+node_modules/
+*.tar.gz
+pz_origin_old_backup/
