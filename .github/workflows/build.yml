@@ -146,6 +146,7 @@ jobs:
       - name: Verify JS syntax
         run: |
           VERSION="${{ steps.source.outputs.version }}"
+          rm -rf node_modules
           npm install --no-save acorn
           node src/verify_js.js dist/$VERSION/*.js
 
