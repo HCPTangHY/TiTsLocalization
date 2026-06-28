@@ -1,0 +1,338 @@
+[
+  {
+    "key": "button|Stakes|ea0b9080f88a",
+    "original": "Stakes",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17562192&gt;&gt; addButton(1,\"Stakes\",(function(){return t.generateMenu()}))"
+  },
+  {
+    "key": "button|Stand|ddacd292763c",
+    "original": "Stand",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17562252&gt;&gt; addButton(2,\"Stand\",(function(){return t.generateMenu()}))"
+  },
+  {
+    "key": "button|Next|6e7e402188fb",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:17565686&gt;&gt; addButton(0,\"Next\",this.processAction)"
+  },
+  {
+    "key": "button|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:17569264&gt;&gt; addButton(n++,\"Next\",(function(){var e;a.clearAnnouncement(),clearMenu(),a.cachePuzzleState(!0),ui.state.tempBlackjackState=((e=ui.state.puzzleStateSnapshot).data.playerCards=[],e.data.dealerCards=[],e.data.isPlayerFirst=!1,e.data.isPlayerTurn=!1,e.data.isRoundOver=!0,e.data.roundsWon=l.win,e.data.r..."
+  },
+  {
+    "key": "button|Deal|a54e26a49926",
+    "original": "Deal",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17569803&gt;&gt; addButton(n++,\"Deal\",(function(){a.clearAnnouncement(),clearMenu(),a.triggerDrawCardAnimation(),a.setState({gameStarted:!0,playerCards:[],dealerCards:[],isPlayerFirst:!1,isPlayerTurn:!1,isRoundOver:!0},a.processAction)}),\"Deal\",\"Get dealt a new hand.\")"
+  },
+  {
+    "key": "button|Deal|a54e26a49926#1",
+    "original": "Deal",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17574599&gt;&gt; addButton(0,\"Deal\",(function(){e.triggerDrawCardAnimation(),e.processAction()}),\"Deal\",\"Get dealt a new hand.\")"
+  },
+  {
+    "key": "button.hover|Deal|a54e26a49926",
+    "original": "Deal",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17570010&gt;&gt; addButton(n++,\"Deal\",(function(){a.clearAnnouncement(),clearMenu(),a.triggerDrawCardAnimation(),a.setState({gameStarted:!0,playerCards:[],dealerCards:[],isPlayerFirst:!1,isPlayerTurn:!1,isRoundOver:!0},a.processAction)}),\"Deal\",\"Get dealt a new hand.\")"
+  },
+  {
+    "key": "button.tooltip|Get_dealt_a_new_hand|f60c548984d1",
+    "original": "Get dealt a new hand.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17570017&gt;&gt; addButton(n++,\"Deal\",(function(){a.clearAnnouncement(),clearMenu(),a.triggerDrawCardAnimation(),a.setState({gameStarted:!0,playerCards:[],dealerCards:[],isPlayerFirst:!1,isPlayerTurn:!1,isRoundOver:!0},a.processAction)}),\"Deal\",\"Get dealt a new hand.\")"
+  },
+  {
+    "key": "button|Done|cd5364d989d7",
+    "original": "Done",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17570059&gt;&gt; addButton(n++,\"Done\",(function(){a.clearAnnouncement(),a.onFinishedPlaying()}),\"Done\",\"You are finished playing the card game.\")"
+  },
+  {
+    "key": "button.hover|Done|cd5364d989d7",
+    "original": "Done",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17570124&gt;&gt; addButton(n++,\"Done\",(function(){a.clearAnnouncement(),a.onFinishedPlaying()}),\"Done\",\"You are finished playing the card game.\")"
+  },
+  {
+    "key": "button.tooltip|You_are_finished_playing_the_card_game|cc2889b1a00c",
+    "original": "You are finished playing the card game.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17570131&gt;&gt; addButton(n++,\"Done\",(function(){a.clearAnnouncement(),a.onFinishedPlaying()}),\"Done\",\"You are finished playing the card game.\")"
+  },
+  {
+    "key": "button|New_Game|3302c29543d9",
+    "original": "New Game",
+    "translation": "新游戏",
+    "stage": 1,
+    "context": "&lt;&lt;POS:17573049&gt;&gt; addButton(0,\"New Game\",(function(){return e.initGame(!0)}),\"New Card Game\",\"Begin a new game of blackjack.\")"
+  },
+  {
+    "key": "button.hover|New_Card_Game|e33d69b6974e",
+    "original": "New Card Game",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17573096&gt;&gt; addButton(0,\"New Game\",(function(){return e.initGame(!0)}),\"New Card Game\",\"Begin a new game of blackjack.\")"
+  },
+  {
+    "key": "button.tooltip|Begin_a_new_game_of_blackjack|4682d41661b4",
+    "original": "Begin a new game of blackjack.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17573112&gt;&gt; addButton(0,\"New Game\",(function(){return e.initGame(!0)}),\"New Card Game\",\"Begin a new game of blackjack.\")"
+  },
+  {
+    "key": "button|Deck_Settings|058f24f7d53e",
+    "original": "Deck Settings",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17573209&gt;&gt; addButton(2,\"Deck Settings\",(function(){return Up(2)}),\"Deck Settings\",\"Customize the deck of cards.\")"
+  },
+  {
+    "key": "button.hover|Deck_Settings|058f24f7d53e",
+    "original": "Deck Settings",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17573252&gt;&gt; addButton(2,\"Deck Settings\",(function(){return Up(2)}),\"Deck Settings\",\"Customize the deck of cards.\")"
+  },
+  {
+    "key": "button.tooltip|Customize_the_deck_of_cards|6b315b2c5909",
+    "original": "Customize the deck of cards.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17573268&gt;&gt; addButton(2,\"Deck Settings\",(function(){return Up(2)}),\"Deck Settings\",\"Customize the deck of cards.\")"
+  },
+  {
+    "key": "button|Help|455935940a6c",
+    "original": "Help",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17573455&gt;&gt; addButton(3,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_BLACKJACK_PROMPT&&(flags.TUTORIAL_BLACKJACK_PROMPT=2),e.generateTutorialBoard()}),\"Blackjack Tutorial\",\"Get an explanation of this game mode.\")"
+  },
+  {
+    "key": "button.hover|Blackjack_Tutorial|d0621a4b906a",
+    "original": "Blackjack Tutorial",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17573647&gt;&gt; addButton(3,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_BLACKJACK_PROMPT&&(flags.TUTORIAL_BLACKJACK_PROMPT=2),e.generateTutorialBoard()}),\"Blackjack Tutorial\",\"Get an explanation of this game mode.\")"
+  },
+  {
+    "key": "button.tooltip|Get_an_explanation_of_this_game_mode|a07a255ca0e3",
+    "original": "Get an explanation of this game mode.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17573668&gt;&gt; addButton(3,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_BLACKJACK_PROMPT&&(flags.TUTORIAL_BLACKJACK_PROMPT=2),e.generateTutorialBoard()}),\"Blackjack Tutorial\",\"Get an explanation of this game mode.\")"
+  },
+  {
+    "key": "button|Exit_Game|c72493389ba6",
+    "original": "Exit Game",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17573729&gt;&gt; addButton(4,\"Exit Game\",(function(){window.removeBlackjackMinigame(),window.returnFromElement(),window.getGameState()&&!0!==e.props.testGame||showMainMenu(!0,!0,!0),e.props.onFailure()}),\"Exit Card Game\",\"Do not play blackjack.\")"
+  },
+  {
+    "key": "button.hover|Exit_Card_Game|14d5c7de653c",
+    "original": "Exit Card Game",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17573904&gt;&gt; addButton(4,\"Exit Game\",(function(){window.removeBlackjackMinigame(),window.returnFromElement(),window.getGameState()&&!0!==e.props.testGame||showMainMenu(!0,!0,!0),e.props.onFailure()}),\"Exit Card Game\",\"Do not play blackjack.\")"
+  },
+  {
+    "key": "button.tooltip|Do_not_play_blackjack|a78ad645b538",
+    "original": "Do not play blackjack.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17573921&gt;&gt; addButton(4,\"Exit Game\",(function(){window.removeBlackjackMinigame(),window.returnFromElement(),window.getGameState()&&!0!==e.props.testGame||showMainMenu(!0,!0,!0),e.props.onFailure()}),\"Exit Card Game\",\"Do not play blackjack.\")"
+  },
+  {
+    "key": "button|Hit|0ad84ab67839",
+    "original": "Hit",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17574030&gt;&gt; addDisabledButton(0,\"Hit\",\"Hit\",\"No point hitting when you’re already bust...\")"
+  },
+  {
+    "key": "button.hover|No_point_hitting_when_you_re_already_bust|77c9f607e2ea",
+    "original": "No point hitting when you’re already bust...",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17574042&gt;&gt; addDisabledButton(0,\"Hit\",\"Hit\",\"No point hitting when you’re already bust...\")"
+  },
+  {
+    "key": "button|Continue|9d04c156a158",
+    "original": "Continue",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:17574102&gt;&gt; addButton(2,\"Continue\",(function(){return e.stand()}),\"Continue\",\"Not much to do when you’re already bust...\")"
+  },
+  {
+    "key": "button.hover|Continue|9d04c156a158",
+    "original": "Continue",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:17574144&gt;&gt; addButton(2,\"Continue\",(function(){return e.stand()}),\"Continue\",\"Not much to do when you’re already bust...\")"
+  },
+  {
+    "key": "button.tooltip|Not_much_to_do_when_you_re_already_bust|b152d30ed072",
+    "original": "Not much to do when you’re already bust...",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17574155&gt;&gt; addButton(2,\"Continue\",(function(){return e.stand()}),\"Continue\",\"Not much to do when you’re already bust...\")"
+  },
+  {
+    "key": "button|Hit|f61f462312ae",
+    "original": "Hit",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17574230&gt;&gt; addDisabledButton(0,\"Hit\",\"Hit\",\"You’ve already got 21, doofus!\")"
+  },
+  {
+    "key": "button.hover|You_ve_already_got_21_doofus|db071c48565b",
+    "original": "You’ve already got 21, doofus!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17574242&gt;&gt; addDisabledButton(0,\"Hit\",\"Hit\",\"You’ve already got 21, doofus!\")"
+  },
+  {
+    "key": "button|Hit|48cccc1e7322",
+    "original": "Hit",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17574288&gt;&gt; addButton(0,\"Hit\",(function(){return e.hit()}),\"Hit\",\"Draw another card...\")"
+  },
+  {
+    "key": "button.hover|Hit|48cccc1e7322",
+    "original": "Hit",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17574323&gt;&gt; addButton(0,\"Hit\",(function(){return e.hit()}),\"Hit\",\"Draw another card...\")"
+  },
+  {
+    "key": "button.tooltip|Draw_another_card|0da2b6696aa2",
+    "original": "Draw another card...",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17574329&gt;&gt; addButton(0,\"Hit\",(function(){return e.hit()}),\"Hit\",\"Draw another card...\")"
+  },
+  {
+    "key": "button|Stand|1b01231f93a6",
+    "original": "Stand",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17574365&gt;&gt; addButton(2,\"Stand\",(function(){return e.stand()}),\"Stand\",\"Stick with what you’ve got already...\")"
+  },
+  {
+    "key": "button.hover|Stand|1b01231f93a6",
+    "original": "Stand",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17574404&gt;&gt; addButton(2,\"Stand\",(function(){return e.stand()}),\"Stand\",\"Stick with what you’ve got already...\")"
+  },
+  {
+    "key": "button.tooltip|Stick_with_what_you_ve_got_already|5c7836b6e640",
+    "original": "Stick with what you’ve got already...",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17574412&gt;&gt; addButton(2,\"Stand\",(function(){return e.stand()}),\"Stand\",\"Stick with what you’ve got already...\")"
+  },
+  {
+    "key": "button|Next|6675188dc933",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:17574523&gt;&gt; addButton(0,\"Next\",this.processAction)"
+  },
+  {
+    "key": "button.hover|Deal|a54e26a49926#1",
+    "original": "Deal",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17574667&gt;&gt; addButton(0,\"Deal\",(function(){e.triggerDrawCardAnimation(),e.processAction()}),\"Deal\",\"Get dealt a new hand.\")"
+  },
+  {
+    "key": "button.tooltip|Get_dealt_a_new_hand|f60c548984d1#1",
+    "original": "Get dealt a new hand.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17574674&gt;&gt; addButton(0,\"Deal\",(function(){e.triggerDrawCardAnimation(),e.processAction()}),\"Deal\",\"Get dealt a new hand.\")"
+  },
+  {
+    "key": "string.array|spade_heart_club_diamond|7403bb5be2c3",
+    "original": "[\"spade\",\"heart\",\"club\",\"diamond\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17561277&gt;&gt;"
+  },
+  {
+    "key": "button|Hit|528ee92459d2",
+    "original": "Hit",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17562110&gt;&gt; addButton(0,\"Hit\",(function(){return t.generateMenu()}))"
+  },
+  {
+    "key": "string.array|a_2_3_4_5_6_7_8_9_10_j_q_k|d6a4074ded21",
+    "original": "[\"a\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"j\",\"q\",\"k\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17583507&gt;&gt;"
+  },
+  {
+    "key": "output.expr|var0|3d893ecc194b",
+    "original": "{var0}",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:17571137&gt;&gt; &lt;&lt;VARS:var0=h&gt;&gt; ParseText(h)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:17571778&gt;&gt; &lt;&lt;VARS:var0=h&gt;&gt; ParseText(h)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:17572059&gt;&gt; &lt;&lt;VARS:var0=h&gt;&gt; ParseText(h)"
+  },
+  {
+    "key": "button|Stakes|03bf98a9b6d9",
+    "original": "Stakes",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17572621&gt;&gt; addButton(t,\"Stakes\",(function(){return e.viewBets(t)}),\"View Stakes\",\"View the amount of Credits you are betting.\")"
+  },
+  {
+    "key": "button.hover|View_Stakes|1bb5b56c2c2c",
+    "original": "View Stakes",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17572665&gt;&gt; addButton(t,\"Stakes\",(function(){return e.viewBets(t)}),\"View Stakes\",\"View the amount of Credits you are betting.\")"
+  },
+  {
+    "key": "button.tooltip|View_the_amount_of_Credits_you_are_betting|e2f6f6f1e975",
+    "original": "View the amount of Credits you are betting.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:17572679&gt;&gt; addButton(t,\"Stakes\",(function(){return e.viewBets(t)}),\"View Stakes\",\"View the amount of Credits you are betting.\")"
+  }
+]

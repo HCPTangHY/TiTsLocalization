@@ -1,0 +1,135 @@
+[
+  {
+    "key": "name.show|Vernacola|a88f70c35247",
+    "original": "Vernacola",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10003469&gt;&gt; showName(\"Vernacola\")"
+  },
+  {
+    "key": "name.show|Vernacola|a88f70c35247#1",
+    "original": "Vernacola",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10005662&gt;&gt; showName(\"Vernacola\")"
+  },
+  {
+    "key": "output|You_grab_the_can_from_your_pack_and_look_at_the_small_screen_T|ad7e26a0239f",
+    "original": "You grab the can from your pack, and look at the small screen. The display has a blue background with white text displaying the type of races available to choose from. These include: Human, Canine, Kaithrit, Leithan, Gryvain, Zil, Raskvel, and Snake. You touch the arrows on the side of the panel and browse your choices.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10001375&gt;&gt;"
+  },
+  {
+    "key": "output|You_put_the_can_back_into_your_inventory|6394c78a0219",
+    "original": "You put the can back into your inventory.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10003174&gt;&gt;"
+  },
+  {
+    "key": "button|Next|526898c09c08",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:10003264&gt;&gt; addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+  },
+  {
+    "key": "output|After_a_few_moments_you_look_at_your_codex_to_check_how_much_ti|49f5153d5979",
+    "original": "After a few moments, you look at your codex to check how much time has elapsed since you drank the cola. It’s only been about a minute, but it feels like it’s been longer... Was it a dud? Suddenly, your tongue wiggles around involuntarily in your mouth, catching you off guard. You can feel it gradually heating up, like you just ate something spicy. The urge to open your lips for relief is overwhelming, but that might not be the best idea while the microsurgeons are doing their work.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10003762&gt;&gt;"
+  },
+  {
+    "key": "output|You_put_the_Vernacola_back_into_your_inventory|cfaa3d643e5c",
+    "original": "You put the Vernacola back into your inventory.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10005716&gt;&gt;"
+  },
+  {
+    "key": "button|Next|a844b275fe4f",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:10005812&gt;&gt; addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+  },
+  {
+    "key": "header.expr|var1_toTitleCase_var0|7ef37ddabd53",
+    "original": "{var1}.toTitleCase({var0})",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10003500&gt;&gt; &lt;&lt;VARS:var0=t,var1=l.m&gt;&gt; blockHeader(l.m.toTitleCase(t))"
+  },
+  {
+    "key": "output|After_choosing_your_new_tongue_type_you_crack_open_the_can_Bot|3895a39c60f6",
+    "original": "After choosing your new tongue type, you crack open the can. Bottoms up! The drink tastes like a knockoff cola, though admittedly it’s pretty tasty. Once the can is empty, you toss it.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10003563&gt;&gt;"
+  },
+  {
+    "key": "output.expr|var1_createTable_var0|7f44b675a890",
+    "original": "{var1}.createTable({var0})",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10002853&gt;&gt; &lt;&lt;VARS:var0=a,[\"Name\",\"Description\"],[\"text-label\",\"text-left\"],\"\",\"Settings\",\"\",var1=l.m&gt;&gt; output(l.m.createTable(a,[\"Name\",\"Description\"],[\"text-label\",\"text-left\"],\"\",\"Settings\",\"\"))"
+  },
+  {
+    "key": "button|Back|1ed803b7bfaf",
+    "original": "Back",
+    "translation": "返回",
+    "stage": 1,
+    "context": "&lt;&lt;POS:10002954&gt;&gt; addButton(14,\"Back\",(function(){return t.vernacolaCancel(t)}))"
+  },
+  {
+    "key": "output.expr|var0_var1_cannot_use_the_can_of_Vernacola|26834f65ab9b",
+    "original": "{var0}+{var1}+\" cannot use the can of Vernacola.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10003020&gt;&gt; &lt;&lt;VARS:var0=e.capitalA,var1=e.short&gt;&gt; output(e.capitalA+e.short+\" cannot use the can of Vernacola.\")"
+  },
+  {
+    "key": "name.show|Vernacola|d17bc1f2d097",
+    "original": "Vernacola",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10003154&gt;&gt; showName(\"Vernacola\")"
+  },
+  {
+    "key": "output.expr|Once_the_odd_sensation_fades_away_you_turn_on_your_Codex_s_came|9c96d881946c",
+    "original": "Once the odd sensation fades away, you turn on your Codex’s camera and stick your tongue out at it, taking in its new form! <b>You now have a \"+{var0}+\" tongue.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10004264&gt;&gt; &lt;&lt;VARS:var0=t&gt;&gt; output(\"\\n\\nOnce the odd sensation fades away, you turn on your Codex’s camera and stick your tongue out at it, taking in its new form! <b>You now have a \"+t+\" tongue.</b>\")"
+  },
+  {
+    "key": "button|Next|1acec8f10d95",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:10005531&gt;&gt; addButton(0,\"Next\",(function(){return o.returnToInventory(o)}))"
+  },
+  {
+    "key": "assign|a_can_of_Vernacola|92d0ac9823ee",
+    "original": "a can of Vernacola",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10000453&gt;&gt;"
+  },
+  {
+    "key": "assign|The_package_is_shaped_much_like_a_soda_can_but_with_a_small_scr|51d099771ef8",
+    "original": "The package is shaped much like a soda can, but with a small screen and slider to select the tongue of your choice. It has a Xenogen Logo on the side. Looking over the other side of the can, it reads: <i>“Speak in your native tongue! Or better yet speak with a new one. With the miracle of science and the funding of Xenogen, you, yes you, can get the tongue of your dreams! Simply choose a tongue from the screen, then crack open the can and bottoms up!”</i> The mod currently has the following available races: Human, Canine, Kaithrit, Leithan, Gryvain, Zil, and Raskvel.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10000484&gt;&gt;"
+  },
+  {
+    "key": "name.show|Vernacola|42632bf67260",
+    "original": "Vernacola",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10001355&gt;&gt; showName(\"Vernacola\")"
+  }
+]

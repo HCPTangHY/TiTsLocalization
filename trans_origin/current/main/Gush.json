@@ -1,0 +1,1115 @@
+[
+  {
+    "key": "output|There_s_no_way_a_Treated_pc_boy_like_you_could_miss_that_scen|6aa736f60397",
+    "original": " There’s no way a Treated [pc.boy] like you could miss that scent, though. A marvelously musky bull must have picked you up on his way back from the fields, judging by the delightful sheen of sweat he’s covered in.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08345440&gt;&gt;"
+  },
+  {
+    "key": "output|There_s_no_ignoring_that_pernicious_scent_though_marvelously|460bc7ac6732",
+    "original": " There’s no ignoring that pernicious scent, though: marvelously musky with just a hint of some kind of wood. Maybe ceder? Best of all, the hunk carrying you radiates it from every sweat-soaked pore. He must have just come in from the fields.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08345665&gt;&gt;"
+  },
+  {
+    "key": "output|steadfastly_ignoring_your_drizzling_pc_cocks|cd3f72e4d24e",
+    "original": ", steadfastly ignoring your drizzling [pc.cocks]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08346317&gt;&gt;"
+  },
+  {
+    "key": "output|his_thick_finger_daring_to_prod_at_a_needy_slit|ac5def43f66a",
+    "original": ", his thick finger daring to prod at a needy slit",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08346392&gt;&gt;"
+  },
+  {
+    "key": "output|i_Got_a_man_somewhere_Or_you_one_of_those_milk_barn_girls|2eea924c8d4e",
+    "original": ". <i>“Got a man somewhere? Or you one of those milk barn girls?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08346452&gt;&gt;"
+  },
+  {
+    "key": "output|this_time_openly_squeezing_and_fondling_at_your_pc_butt|ecb8a596f511",
+    "original": ", this time openly squeezing and fondling at your [pc.butt]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08346960&gt;&gt;"
+  },
+  {
+    "key": "output|i_Milk_barn_it_is_then_Don_t_you_worry_we_ll_get_you_back|abe27d00f565",
+    "original": ". <i>“Milk barn it is then. Don’t you worry, we’ll get you back in a proper stall and make sure you have all the food and water you need to milk yourself as much as you want.”</i> He pauses and adjusts a very insistent looking bulge beneath his overalls. <i>“I’ll even visit you. How’s that sound, girl?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08347030&gt;&gt;"
+  },
+  {
+    "key": "output|good_enough_to_make_your_pc_nipples_squirt_onto_your_host_s_bu|0945b2343ae2",
+    "original": "good enough to make your [pc.nipples] squirt onto your host’s bulge. You wonder if he’ll use your [pc.milk] as lube and titfuck you after he gets you hooked up. It’s almost enough to make you cum on the spot.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08347422&gt;&gt;"
+  },
+  {
+    "key": "output|How_long_you_spent_laying_there_in_a_pool_of_your_own_milk_lowi|e2f3366857f5",
+    "original": "How long you spent laying there in a pool of your own milk, lowing like some kind brainless sow, you don’t know. What you do know is that the pleasure from Gush never seemed to go away. Sure, the euphoria diminished, but your breasts are just so big and so wonderful that you never really saw a reason to stop tugging on them. Heck, after a while, your sore tits started leaking [pc.milk] again.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08347643&gt;&gt;"
+  },
+  {
+    "key": "button|Next|d2dd76ec5f89",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:08349129&gt;&gt; addButton(0,\"Next\",(function(){clearOutput();var e=getCurrentRoom();if(\"New Texas\"===e.planet){showBust(\"BRYNN_NUDE\",\"CAMERON_NUDE\"),showName((brynn.introduced()?\"Brynn\":\"Bull-Stud\")+\" & \"+(void 0===flags.MET_CAMERON?\"Farmboy\":\"Cameron\")),output(\"The milking chair is really soft and cushiony. It eve..."
+  },
+  {
+    "key": "output|You_got_warned_about_this_stuff_back_in_the_S_C_A_R_E_program_t|6a9c6f74334a",
+    "original": "You got warned about this stuff back in the S.C.A.R.E. program they subjected you to in school. Maybe you should at least look it up on the codex and make sure that it won’t turn you into a sentient boob or anything crazy - just to be sure.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08354389&gt;&gt;"
+  },
+  {
+    "key": "button|Use|649f707b6a41",
+    "original": "Use",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08354653&gt;&gt; addDisabledButton(0,\"Use\")"
+  },
+  {
+    "key": "button|Don_t_Use|0be660b7f3f7",
+    "original": "Don’t Use",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08354672&gt;&gt; addButton(1,\"Don’t Use\",(function(){return t.itemCancel(t)}))"
+  },
+  {
+    "key": "button|Codex|ca0d49eb9299",
+    "original": "Codex",
+    "translation": "智典",
+    "stage": 1,
+    "context": "&lt;&lt;POS:08354734&gt;&gt; addButton(4,\"Codex\",(function(){showCodex(),(0,p.Oz)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View..."
+  },
+  {
+    "key": "output|Gingerly_removing_your_pc_upperGarments|09b94f8806d0",
+    "original": " Gingerly removing your [pc.upperGarments]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08355282&gt;&gt;"
+  },
+  {
+    "key": "output|Gingerly_holding_it_in_front_of_your_bare_pc_skinFurScalesNoun|606c820e43d5",
+    "original": " Gingerly holding it in front of your bare [pc.skinFurScalesNoun]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08355335&gt;&gt;"
+  },
+  {
+    "key": "output|you_aim_and_spray_across_your_vulnerable_flesh_The_gel_feels|2fe61f0e8099",
+    "original": ", you aim and spray across your vulnerable flesh. The gel feels cool and slick against you at first, but goes warm and tingly within the span of a few seconds. You drop the spent spraypen and watch, feeling the pinpricks radiating through your [pc.chest].",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08355411&gt;&gt;"
+  },
+  {
+    "key": "output|You_try_hard_to_keep_yourself_from_panting_in_excitement_at_the|e9998de07bbb",
+    "original": "You try hard to keep yourself from panting in excitement at the thought of taking another dose of gush. Your hands are shaking",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08355679&gt;&gt;"
+  },
+  {
+    "key": "output|making_removing_your_pc_upperGarments_harder_than_it_ought_t|098483c42357",
+    "original": ", making removing your [pc.upperGarments] harder than it ought to be",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08355835&gt;&gt;"
+  },
+  {
+    "key": "output|making_it_harder_than_it_ought_to_be_to_thumb_off_the_safety_o|a800016b0542",
+    "original": ", making it harder than it ought to be to thumb off the safety on the spraypen",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08355914&gt;&gt;"
+  },
+  {
+    "key": "output|Licking_your_lips_excitedly_you_point_the_tip_at_your_right|6ba9c0067968",
+    "original": ". Licking your lips excitedly, you point the tip at your right",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08356003&gt;&gt;"
+  },
+  {
+    "key": "output|most|fb4a92b0ece8",
+    "original": "most",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08356099&gt;&gt;"
+  },
+  {
+    "key": "output|pc_nipple_and_begin_unload_the_illicit_contents_across_your_c|8feed68e2072",
+    "original": " [pc.nipple] and begin unload the illicit contents across your chest, soaking your [pc.skinFurScalesNoun] in cool, moist gel that goes warm and tingly in seconds.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08356114&gt;&gt;"
+  },
+  {
+    "key": "output|chest|1ed5611a9072",
+    "original": "chest",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08356663&gt;&gt;"
+  },
+  {
+    "key": "output|boobs|9663903368b0",
+    "original": "boobs",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08356679&gt;&gt;"
+  },
+  {
+    "key": "output|your_breath_sounding_entirely_too_hot_and_excited_to_your_ears|554fa335187e",
+    "original": ", your breath sounding entirely too hot and excited to your ears. When is it going to kick in? You don’t recall the Codex listing a delay before the Gush would kick in. Isn’t it supposed to be instantaneous?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08356695&gt;&gt;"
+  },
+  {
+    "key": "output|out_a_pair_of_tits_all_on_its_own|902414268a78",
+    "original": "out a pair of tits all on its own",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08357048&gt;&gt;"
+  },
+  {
+    "key": "output|even_more_breast_out_of_your_body|9b205bed0606",
+    "original": "even more breast out of your body",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08357092&gt;&gt;"
+  },
+  {
+    "key": "output|You_fan_at_yourself_in_a_vain_attempt_to_deal_with_the_prickly|27d64c83908f",
+    "original": ". You fan at yourself in a vain attempt to deal with the prickly sensation of molten potential pouring into your [pc.chest] and clap a hand over the quivering muscle; a mistake, you realize, all too late.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08357136&gt;&gt;"
+  },
+  {
+    "key": "output|out_a_pair_of_tits_all_on_its_own|902414268a78#1",
+    "original": "out a pair of tits all on its own",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08357730&gt;&gt;"
+  },
+  {
+    "key": "output|even_more_breast_out_of_your_body|9b205bed0606#1",
+    "original": "even more breast out of your body",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08357774&gt;&gt;"
+  },
+  {
+    "key": "output|You_fan_at_yourself_in_a_vain_attempt_to_deal_with_the_prickly|27d64c83908f#1",
+    "original": ". You fan at yourself in a vain attempt to deal with the prickly sensation of molten potential pouring into your [pc.chest] and clap a hand over the quivering muscle; a mistake, you realize, all too late.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08357818&gt;&gt;"
+  },
+  {
+    "key": "output|There_s_more_than_there_used_to_be_too_a_wonderful_softness_th|5ae9e609f013",
+    "original": " There’s more than there used to be too, a wonderful softness that can only be the beginnings of a decent rack.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08358255&gt;&gt;"
+  },
+  {
+    "key": "output|There_s_so_much_to_hold_on_to_a_marvelous_new_softness_that_ca|fe8767ebb5d1",
+    "original": " There’s so much to hold on to, a marvelous new softness that can only be evidence of a perfectly swelling rack.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08358377&gt;&gt;"
+  },
+  {
+    "key": "output|A_throaty_pc_mf_growl_purr_escapes_your_throat_as_you|355103c9341e",
+    "original": " A throaty \"+pc.mf(\"growl\",\"purr\")+\" escapes your throat as you give yourself over to the sensations, aware for the first time that Gush has well and truly kicked in.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08358500&gt;&gt;"
+  },
+  {
+    "key": "output|Y|7d149ce42e0e",
+    "original": "Y",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08358747&gt;&gt;"
+  },
+  {
+    "key": "output|ou_find_your_sweater_puppies_practically_purring_They_irresisti|3266e7b7cefa",
+    "original": "ou find your sweater-puppies practically purring. They irresistibly demand your attention, suddenly the most important thing in the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08358759&gt;&gt;"
+  },
+  {
+    "key": "output|room|832f7ae43964",
+    "original": "room",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08358940&gt;&gt;"
+  },
+  {
+    "key": "output|area|d43349a60fff",
+    "original": "area",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08358955&gt;&gt;"
+  },
+  {
+    "key": "output|How_could_you_have_ignored_them_for_so_long_The_regret_inside|3ad7561d9067",
+    "original": ". How could you have ignored them for so long? The regret inside you is soon replaced by delight, washed away by a need to live in the moment, worshipping your ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08358970&gt;&gt;"
+  },
+  {
+    "key": "output|new_grown|140806cd608e",
+    "original": "new-grown",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08359163&gt;&gt;"
+  },
+  {
+    "key": "output|expanding|b4f830e30dd5",
+    "original": "expanding",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08359183&gt;&gt;"
+  },
+  {
+    "key": "output|boobs_with_both_hands_You_almost_wonder_when_the_second_joined|0048bca786dc",
+    "original": " boobs with both hands. You almost wonder when the second joined the first in pawing at your expanded assets, but feeling the [pc.milk] begin to drip from your [pc.nipples] banishes such wasted musings.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08359203&gt;&gt;"
+  },
+  {
+    "key": "output|two_of_your|1afd9c8bee88",
+    "original": "two of your",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08359479&gt;&gt;"
+  },
+  {
+    "key": "output|pc_nipples_now_you_collapse_to_the_ground|eb67fdaecbb9",
+    "original": " [pc.nipples] now, you collapse to the ground",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08359501&gt;&gt;"
+  },
+  {
+    "key": "output|briefly_wondering_what_happened_to_your_pc_upperGarments|ca3451365596",
+    "original": ", briefly wondering what happened to your [pc.upperGarments]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08359578&gt;&gt;"
+  },
+  {
+    "key": "output|It_s_almost_impossible_to_keep_the_ecstasy_from_rolling_back_y|8142f28c9c95",
+    "original": ". It’s almost impossible to keep the ecstasy from rolling back your eyes, let alone to remember that you’ve got ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08359649&gt;&gt;"
+  },
+  {
+    "key": "output|other_erogenous_zones_to_pleasure|ac5b977b1da6",
+    "original": "other erogenous zones to pleasure",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08359801&gt;&gt;"
+  },
+  {
+    "key": "output|another_erogenous_zone_available|1ba6ad489e73",
+    "original": "another erogenous zone available",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08359845&gt;&gt;"
+  },
+  {
+    "key": "output|evidenced_by_the_pc_cumVisc_discharge_flooding_the_ground|9f6a09fa892c",
+    "original": ", evidenced by the [pc.cumVisc] discharge flooding the ground",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08359937&gt;&gt;"
+  },
+  {
+    "key": "output|evidenced_by_the_pc_cumVisc_discharge_flooding_your_pc_lowe|b23332ab8174",
+    "original": ", evidenced by the [pc.cumVisc] discharge flooding your [pc.lowerGarment]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08360009&gt;&gt;"
+  },
+  {
+    "key": "output|evidenced_by_the|5824640e1f11",
+    "original": ", evidenced by the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08360131&gt;&gt;"
+  },
+  {
+    "key": "output|pc_girlCum_splattering_against_your|a795f46d7429",
+    "original": "[pc.girlCum] splattering against your",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08360177&gt;&gt;"
+  },
+  {
+    "key": "output|dampness_in_your|d8f77f5a5764",
+    "original": "dampness in your",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08360225&gt;&gt;"
+  },
+  {
+    "key": "output|pc_lowerGarment|7b6cabf74f3b",
+    "original": " [pc.lowerGarment]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08360252&gt;&gt;"
+  },
+  {
+    "key": "output|back|af84a2817f7b",
+    "original": "back",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08360828&gt;&gt;"
+  },
+  {
+    "key": "output|you_mindlessly_milk_huge_squirts_of_pc_milk_onto|f556a6edbcbb",
+    "original": ", you mindlessly milk huge squirts of [pc.milk] onto ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08360843&gt;&gt;"
+  },
+  {
+    "key": "output|yourself_and|eec2c99daa5d",
+    "original": "yourself and ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08360920&gt;&gt;"
+  },
+  {
+    "key": "output|the_ground|86bbe07917da",
+    "original": "the ground",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08360944&gt;&gt;"
+  },
+  {
+    "key": "output|where_it_can_mix_with_your_pc_cum|68f64b05b16c",
+    "original": " where it can mix with your [pc.cum]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08360995&gt;&gt;"
+  },
+  {
+    "key": "output|There_s_so_much|c3e6b11d3ea7",
+    "original": ". There’s so much!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08361042&gt;&gt;"
+  },
+  {
+    "key": "output|You_were_so_empty_before_but_somehow_Gush_has_made_you_wel|b7b9f921d929",
+    "original": " You were so empty before, but somehow, Gush has made you... well, gush.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08361092&gt;&gt;"
+  },
+  {
+    "key": "output|Rivers_of_it_wash_down_the_sides_of_your_growing_tits_coating|3ff6e3d04616",
+    "original": " Rivers of it wash down the sides of your growing tits, coating your hands until you might as well be wearing [pc.milkColor] gloves.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08361175&gt;&gt;"
+  },
+  {
+    "key": "output|chest|1ed5611a9072#1",
+    "original": "chest",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08361733&gt;&gt;"
+  },
+  {
+    "key": "output|boobs|9663903368b0#1",
+    "original": "boobs",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08361749&gt;&gt;"
+  },
+  {
+    "key": "output|your_breath_sounding_entirely_too_hot_and_excited_to_your_ears|554fa335187e#1",
+    "original": ", your breath sounding entirely too hot and excited to your ears. When is it going to kick in? You don’t recall the Codex listing a delay before the Gush would kick in. Isn’t it supposed to be instantaneous?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08361765&gt;&gt;"
+  },
+  {
+    "key": "output|Even_though_they_aren_t_that_big_that_feels_like_the_right_wor|4cdb66472f0e",
+    "original": " Even though they aren’t that big, that feels like the right word for them, right? They’re just young tits, waiting to bloom into big, juicy tittymelons.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08362509&gt;&gt;"
+  },
+  {
+    "key": "output|You_know_that_objectively_they_must_be_considered_huge_tits_b|f3c8fb104cb9",
+    "original": " You know that objectively, they must be considered huge tits, but right now, they look almost... too small, like plants that are waiting to be watered and ripen into lusciously massive melon-mammaries.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08362673&gt;&gt;"
+  },
+  {
+    "key": "output|right_boobs_is_the_proper_word|f9214c27b15c",
+    "original": " - right, boobs is the proper word -",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08363035&gt;&gt;"
+  },
+  {
+    "key": "output|that_drowns_out_all_your_other_concerns_There_s_just_something|fe2838bf9b6c",
+    "original": " that drowns out all your other concerns. There’s just something fascinating about them, the way they seem to pulse in your hands, the way your [pc.nipples] are all pebbly and sensitive. When did you grab them? How could you think about anything besides the delightful tingles in your chest?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08363082&gt;&gt;"
+  },
+  {
+    "key": "output|You_re_getting_real_tits_now_They_re_at_least_B_cups_already|41c0b795b28e",
+    "original": " You’re getting real tits now! They’re at least B-cups already",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08363551&gt;&gt;"
+  },
+  {
+    "key": "output|Your_titties_are_getting_pretty_big_now_They_re_a_cup_size_or|aba03e86791b",
+    "original": " Your titties are getting pretty big now! They’re a cup size or two bigger already",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08363624&gt;&gt;"
+  },
+  {
+    "key": "output|and_swelling_larger_by_the_second_visibly_pulsing_with_new_gro|a972e82ada95",
+    "original": " and swelling larger by the second, visibly pulsing with new growth. Moaning in excitement, you realize that one hand has reached back up to caress a sensitive [pc.nippleNoun]. You don’t try to stop it. How could you when they beg to be touched, tugged, and pinched? How could you do anything but maul your own all-important tits and worship at the altar of your bountiful bust?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08363717&gt;&gt;"
+  },
+  {
+    "key": "output|Your_pc_cocks_twitch|de46ce7d66f2",
+    "original": " Your [pc.cocks] twitch",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08365035&gt;&gt;"
+  },
+  {
+    "key": "output|es|f0e0f3f62278",
+    "original": "es",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08365089&gt;&gt;"
+  },
+  {
+    "key": "output|wildly_squirting_your_meager_reserves|09202ead722a",
+    "original": " wildly, squirting your meager reserves ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08365102&gt;&gt;"
+  },
+  {
+    "key": "output|into_your_pc_lowerGarment|86f66de11b42",
+    "original": "into your [pc.lowerGarment]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08365173&gt;&gt;"
+  },
+  {
+    "key": "output|onto_the_ground|865e0cb0ad06",
+    "original": "onto the ground",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08365211&gt;&gt;"
+  },
+  {
+    "key": "output|in_a_hands_free_orgasm_that_pales_next_to_the_pleasure_of_expre|34c2dbc6141d",
+    "original": " in a hands-free orgasm that pales next to the pleasure of expressing a single droplet of [pc.milk].",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08365237&gt;&gt;"
+  },
+  {
+    "key": "output|Your_pc_cocks_dump|f1f4d48f51c6",
+    "original": " Your [pc.cocks] dump",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08365370&gt;&gt;"
+  },
+  {
+    "key": "output|s|8b69670ea020",
+    "original": "s",
+    "translation": "​",
+    "stage": 1,
+    "context": "&lt;&lt;POS:08365422&gt;&gt;"
+  },
+  {
+    "key": "output|a_thick_load_of_pc_cumNoun_directly_into_your_pc_lowerGarmen|d84efe3f4a23",
+    "original": " a thick load of [pc.cumNoun] directly into your [pc.lowerGarment]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08365434&gt;&gt;"
+  },
+  {
+    "key": "output|enough_to_run_down_your_pc_legOrLegs_and_puddle_on_the_groun|99abf19a0f84",
+    "original": ", enough to run down your [pc.legOrLegs] and puddle on the ground",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08365527&gt;&gt;"
+  },
+  {
+    "key": "output|but_the_pleasure_of_that_hands_free_orgasm_is_nothing_next_to|31de2475d147",
+    "original": ", but the pleasure of that hands-free orgasm is nothing next to the ecstasy of expressing a single droplet of [pc.milk].",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08365603&gt;&gt;"
+  },
+  {
+    "key": "output|Your_pc_cocks_dump|0ecf2dd1e322",
+    "original": " Your [pc.cocks] dump",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08365736&gt;&gt;"
+  },
+  {
+    "key": "output|s|8b69670ea020#1",
+    "original": "s",
+    "translation": "​",
+    "stage": 1,
+    "context": "&lt;&lt;POS:08365788&gt;&gt;"
+  },
+  {
+    "key": "output|a_thick_load_of_pc_cumNoun_onto_the_ground_in_front_of_you_p|69b2b6b4c781",
+    "original": " a thick load of [pc.cumNoun] onto the ground in front of you, pulsing in perfect time with the leakages from your nipples, yet the hands-free pleasure in your crotch is nothing compared to the titillating bliss radiating from your nipples with every fresh drop.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08365800&gt;&gt;"
+  },
+  {
+    "key": "output|And_pc_eachVagina_aches_for_something_inside_of_it_not_as_ba|323657f37fa2",
+    "original": " And [pc.eachVagina] aches for something inside of it, not as badly as your chest needs to be caressed and squeezed, but enough to penetrate the drippy haze in your mind. If only you had the flexibility to bend double and cram your aching nips inside yourself!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08366105&gt;&gt;"
+  },
+  {
+    "key": "output|Your_pc_vaginas_clench|a148fc1078bb",
+    "original": " Your [pc.vaginas] clench",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08366377&gt;&gt;"
+  },
+  {
+    "key": "output|and_squirt|69eb96d78a8a",
+    "original": " and squirt",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08366430&gt;&gt;"
+  },
+  {
+    "key": "output|into_your_pc_lowerGarment|bc36373dc583",
+    "original": " into your [pc.lowerGarment]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08366473&gt;&gt;"
+  },
+  {
+    "key": "output|heedlessly_cumming_without_so_much_as_a_brush_against_your_pc|29ae347bc8ec",
+    "original": ", heedlessly cumming without so much as a brush against your [pc.clits]. The orgasm pales in intensity next to the pleasure of expressing a single drop of [pc.milk]. Still, you find yourself idly considering if it’d be possible to bend double and cram a [pc.nippleNoun] into [pc.oneVagina], if only to satisfy both aches at once.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08366512&gt;&gt;"
+  },
+  {
+    "key": "output|Your_pc_asshole_clenches_in_a_sudden_full_body_orgasm_but_t|f0257cf8d583",
+    "original": " Your [pc.asshole] clenches in a sudden, full-body orgasm, but the pleasure of the climax pales next to the bliss you get from expressing even a single droplet of [pc.milk].",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08366884&gt;&gt;"
+  },
+  {
+    "key": "button|Next|2d8e32ebe061",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:08367563&gt;&gt; addButton(0,\"Next\",this.gushBadEndPartI)"
+  },
+  {
+    "key": "button|Next|35b9a3540cff",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:08367621&gt;&gt; addButton(0,\"Next\",this.notBadEndEpilogue4Gush)"
+  },
+  {
+    "key": "output|You_lose_track_of_time_under_the_psychosensory_assault_blasting|d4eba9ea62b3",
+    "original": "You lose track of time under the psychosensory assault blasting out of your plentiful boobs. Thoughts of delight and pleasure bounce around, unattached to any sort of linear progression or chain of cognition as if they’re the only thing your brain has room for, and in a way, that’s true. Your beautiful bosom has monopolized your mind for its own ends, forcing your hands to endlessly worship your [pc.nipples]. Who are you to stop it, and why would you want to? It feels so good to pinch and tug and squirt!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08368075&gt;&gt;"
+  },
+  {
+    "key": "output|A_simple_squeeze_of_b_your_pc_breastCupSize_s_b_confirms_tha|f2c1c2eea7cd",
+    "original": "A simple squeeze of <b>your [pc.breastCupSize]s</b> confirms that you’ve got a decent size rack now.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08370587&gt;&gt;"
+  },
+  {
+    "key": "output|A_two_handed_squeeze_of_b_your_pc_breastCupSize_s_b_is_all_i|3b5d51c29a06",
+    "original": "A two-handed squeeze of <b>your [pc.breastCupSize]s</b> is all it takes for you to come to grips with your even larger bosom. Not that you can complain; your gaze keeps being drawn into your own cleavage again and again.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08370722&gt;&gt;"
+  },
+  {
+    "key": "output|Your_hands_sink_right_into_b_your_pc_breastCupSize_s_b_when|6ee610f95a26",
+    "original": "Your hands sink right into <b>your [pc.breastCupSize]s</b> when you try to weight them. No doubt about it, you’ve got more boob than any one person can properly handle. Maybe you can find a 4-armed lover to give you a proper milking.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08370977&gt;&gt;"
+  },
+  {
+    "key": "output|Your_hands_seem_so_small_next_to_b_your_pc_breastCupSize_s_b|4a3a69bd9235",
+    "original": "Your hands seem so small next to <b>your [pc.breastCupSize]s</b>, practically disappearing into their squishy mass as soon as you touch them. A shiver of delight races up your spine at the realization of just how giant your mammaries have become. They’ll stop traffic even if you keep them covered, and they’ll definitely stop traffic once your [pc.milk] gets backed up and leaks through your top.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08371221&gt;&gt;"
+  },
+  {
+    "key": "output|What_s_more_you_realize_now_that_your_pc_fullChest_aren_t_ju|8cf8ea099eb8",
+    "original": " What’s more, you realize now that your [pc.fullChest] aren’t just ornaments. They can be instruments of pleasure when you decide to play them that way, and you do so want to play with them again.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08371686&gt;&gt;"
+  },
+  {
+    "key": "output|Your_heart_beats_faster_just_remembering_the_experience_your|19f45ca2354d",
+    "original": " Your heart beats faster just remembering the experience, your [pc.nipples] now hard enough to cut glass. Part of you hopes someone will notice and dare to tease you about them. Another hopes someone will be daring enough to reach out and squeeze one. <b>Your libido is definitely higher.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08371908&gt;&gt;"
+  },
+  {
+    "key": "output|Still_more_than_a_little_wet_from_your_adventures_with_Gush_yo|12438895286a",
+    "original": " Still more than a little wet from your adventures with Gush, you dip a finger inside yourself and coo happily, imagining how everyone will react to your new, bigger titties and how they jut out so proudly from your chest. A messy cum later, you conclude that <b>you’re getting really libidinous.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08372284&gt;&gt;"
+  },
+  {
+    "key": "output|Still_hard_and_wreathed_in_a_halo_of|e7f498f9e167",
+    "original": " Still hard and wreathed in a halo of ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08373002&gt;&gt;"
+  },
+  {
+    "key": "output|its|d93e7c7e7a4c",
+    "original": "its",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08373070&gt;&gt;"
+  },
+  {
+    "key": "output|their|88c9279b1b82",
+    "original": "their",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08373084&gt;&gt;"
+  },
+  {
+    "key": "output|own_pc_cum_your_pc_cocks_are_more_than_a_little_thrilled_b|fe4722df33d5",
+    "original": " own [pc.cum], your [pc.cocks] are more than a little thrilled by the memories Gush has left you with. Maybe... maybe you’ll be able to bend low enough to titfuck your [pc.cocks]... as a reward for being so good. You blink at the stray thought. <b>You’re definitely getting more libidinous!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08373100&gt;&gt;"
+  },
+  {
+    "key": "output|Your_pc_vaginas_clench|52a8ab4dcd40",
+    "original": " Your [pc.vaginas] clench",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08374884&gt;&gt;"
+  },
+  {
+    "key": "output|es|841df50a19e2",
+    "original": "es",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08374942&gt;&gt;"
+  },
+  {
+    "key": "output|sympathetically_oozing_pc_girlCum|d4d19226176b",
+    "original": " sympathetically, oozing [pc.girlCum].",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08374955&gt;&gt;"
+  },
+  {
+    "key": "button|Next|32c8fe03907e",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:08376124&gt;&gt; addButton(0,\"Next\",mainGameMenu)"
+  },
+  {
+    "key": "button.hover|Codex_Entry|24493e4f06cb",
+    "original": "Codex Entry",
+    "translation": "智典入口",
+    "stage": 1,
+    "context": "&lt;&lt;POS:08355003&gt;&gt; addButton(4,\"Codex\",(function(){showCodex(),(0,p.Oz)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View..."
+  },
+  {
+    "key": "button.tooltip|View_the_Codex_entry_for_Gush|9e94ae3d4884",
+    "original": "View the Codex entry for Gush.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08355017&gt;&gt; addButton(4,\"Codex\",(function(){showCodex(),(0,p.Oz)(),clearMenu(),addButton(0,\"Use\",(function(){ui.codexExit(),clearMenu(),t.useFunction(e)||addButton(0,\"Next\",(function(){return t.returnToInventory(t)}))})),addButton(1,\"Don’t Use\",(function(){ui.codexExit(),t.itemCancel(t)}))}),\"Codex Entry\",\"View..."
+  },
+  {
+    "key": "output|You_turn_the_subdermal_spraypen_over_in_your_hands_Supposedly_a|35f8c6d74b2f",
+    "original": "You turn the subdermal spraypen over in your hands. Supposedly all you need to do is mist your [pc.fullChest] with it and the chemicals will do the rest.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08355099&gt;&gt;"
+  },
+  {
+    "key": "output|It_s_only_been_four_hours_since_then_and_you_re_still_leaking|18300b34e2a9",
+    "original": "It’s only been four hours since then, and you’re still leaking, still dribbling your marvelous [pc.milkNoun] all over yourself. You lick some off your fingers and hum in wonder at the taste, aware that at some point you should probably seek sustenance, but your fluid-filled boobs are just too heavy to lift. Maybe, just maybe, you could crawl if you really tried, but imagining your perfect [pc.nipplesNoun] dragging across the rough ground just seems wrong. They deserve to be in fingers... or milkers.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08344580&gt;&gt;"
+  },
+  {
+    "key": "output|You_cum_at_the_thought_not_that_you_aren_t_awash_in_a_sea_of_la|0ba82392af89",
+    "original": "You cum at the thought, not that you aren’t awash in a sea of lactic bliss at this very moment, but the upsurge in blissed-out milkiness is enough for you to notice. It’s almost enough to let you ignore the calloused hands grabbing you under the shoulders and lifting you up and over a broad, well-muscled shoulder.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08345099&gt;&gt;"
+  },
+  {
+    "key": "output|You_re_way_too_busy_playing_with_your_nipples_and_sniffing_at_th|3e7c4dd71f78",
+    "original": "You’re way too busy playing with your nipples and sniffing at the air to pay attention to his ramblings, but the bass of his voice absolutely demands your full, attention, momentarily overpowering the throbbing tingles in your tits.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08345921&gt;&gt;"
+  },
+  {
+    "key": "output|i_Cows_like_you_shouldn_t_be_left_alone_to_get_in_trouble_like|ffc00f156876",
+    "original": "<i>“Cows like you shouldn’t be left alone to get in trouble like that.”</i> His firm hand squeezes your buns",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08346168&gt;&gt;"
+  },
+  {
+    "key": "output|You_fish_around_for_the_words_to_answer_but_each_time_you_do_y|65d0b24b5ea8",
+    "original": "You fish around for the words to answer, but each time you do, your [pc.nipples] light up like buzzers and scatter all the letters apart into happy frissons of lactic delight. Instead, you let out a plaintive little moan.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08346535&gt;&gt;"
+  },
+  {
+    "key": "output|The_bull_man_pats_you_comfortingly_once_more|a64cd4bc22de",
+    "original": "The bull man pats you comfortingly once more",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08346771&gt;&gt;"
+  },
+  {
+    "key": "output|this_time_openly_fingering_you_while_he_walks_He_even_pulls_o|d8e700d6eaae",
+    "original": ", this time openly fingering you while he walks. He even pulls out his moistened digit to sample your flavor",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08346841&gt;&gt;"
+  },
+  {
+    "key": "output|It_sounds|920363c4c2c2",
+    "original": "It sounds ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08347353&gt;&gt;"
+  },
+  {
+    "key": "output|panty_creamingly_good|bf01cd0a786c",
+    "original": "panty-creamingly good.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08347389&gt;&gt;"
+  },
+  {
+    "key": "output|It_s_only_been_four_hours_since_then_and_you_re_still_leaking|18300b34e2a9#1",
+    "original": "It’s only been four hours since then, and you’re still leaking, still dribbling your marvelous [pc.milkNoun] all over yourself. You lick some off your fingers and hum in wonder at the taste, aware that at some point you should probably seek sustenance, but your fluid-filled boobs are just too heavy to lift. Maybe, just maybe, you could crawl if you really tried, but imagining your perfect [pc.nipplesNoun] dragging across the rough ground just seems wrong. They deserve to be in fingers... or milkers.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08348053&gt;&gt;"
+  },
+  {
+    "key": "output|You_cum_at_the_thought_not_that_you_aren_t_awash_in_a_sea_of_la|056c38423873",
+    "original": "You cum at the thought, not that you aren’t awash in a sea of lactic bliss at this very moment, but the upsurge in blissed-out milkiness is enough for you to notice. Maybe you could get someone to milk you? You call out, your voice harsh from your parched throat. Funny how thirsty you’ve gotten, and how easy it is to ignore with boobs like this. Again and again you call out, each time a little more deliriously. Sometimes you just bleat out a moo. Whatever. At least you’ve got your perfect titties.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08348572&gt;&gt;"
+  },
+  {
+    "key": "output|It_takes_a_little_longer_for_your_body_to_fully_absorb_the_liqui|289e7f9ace1e",
+    "original": "It takes a little longer for your body to fully absorb the liquid and for your brain to digest the enormity of what you’ve just done. You’re going to get leakier tits from this stuff - boobs that squirt [pc.milk] at the slightest provocation. One of your hands idly begins to paw at your drying ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08356335&gt;&gt;"
+  },
+  {
+    "key": "output|You_can_feel_yourself_blush_your_heart_thudding_against_your_ri|6231d1fd2935",
+    "original": "You can feel yourself blush, your heart thudding against your ribcage as if it wants to help push ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08356917&gt;&gt;"
+  },
+  {
+    "key": "output|You_remember_the_cool_chilly_feeling_all_too_well_enjoying_it|e190b7fe2435",
+    "original": "You remember the cool, chilly feeling all too well, enjoying it for the brief seconds it lasts before it’s wicked up by your [pc.skinFurScales] and converted into that warm, blessed tingling that tells you the drug is doing its job. Already, you can feel yourself blush, your heart thudding against your ribcage as if it wants to help push ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08357357&gt;&gt;"
+  },
+  {
+    "key": "output|The_flesh_under_your_palm_feels_i_good_i_and_right_like_i|4f0410624352",
+    "original": "The flesh under your palm feels <i>good</i> and... right, like it was molded to support the firm press of your digits, to feel every nook and cranny of your hand cup it and support it.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08358038&gt;&gt;"
+  },
+  {
+    "key": "output|Just_like_before_y|8a3615193793",
+    "original": "Just like before, y",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08358717&gt;&gt;"
+  },
+  {
+    "key": "output|Tugging_on|4c9046407224",
+    "original": "Tugging on ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08359420&gt;&gt;"
+  },
+  {
+    "key": "output|both|19a696a4e4e2",
+    "original": "both",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08359464&gt;&gt;"
+  },
+  {
+    "key": "output|There_s_no_stopping_the_tidal_wave_of_backed_up_bliss_you_can_f|b4224ec2862a",
+    "original": "There’s no stopping the tidal wave of backed-up bliss; you can feel it pushing against your [pc.nipples] from the inside, released in squirts and sprays more orgasmic than any climax amidst your nethers. You tug at them in a wild frenzy, too delirious to register pain or discomfort. Any sensation at all from your blessed breasts might as well be ambrosia on your tongue, too godly to question or even understand, the sensations beyond your mind’s ability to conceive.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08360298&gt;&gt;"
+  },
+  {
+    "key": "output|On_your|30087149675f",
+    "original": "On your ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08360782&gt;&gt;"
+  },
+  {
+    "key": "output|side|e29cd5da38f6",
+    "original": "side",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08360813&gt;&gt;"
+  },
+  {
+    "key": "output|It_takes_a_little_longer_for_your_body_to_fully_absorb_the_liqui|47318a4f497e",
+    "original": "It takes a little longer for your body to fully absorb the liquid and for your brain to digest the enormity of what you’ve just done. You’re going to get big, leaky tits from this stuff - boobs that squirt [pc.milk] at the slightest provocation. One of your hands idly begins to paw at your drying ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08361402&gt;&gt;"
+  },
+  {
+    "key": "output|You_know_from_experience_that_it_takes_a_little_while_for_the_Gu|113a23e8ee0f",
+    "original": "You know from experience that it takes a little while for the Gush to be fully absorbed by your body. While you wait, you wonder just why you ever let yourself stop lactating. How could you have given up such a marvelous gift, even if it was a bit cumbersome to deal with while sober?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08361988&gt;&gt;"
+  },
+  {
+    "key": "output|You_look_back_down_at_your_tits|f8908abb2997",
+    "original": "You look back down at your tits.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08362287&gt;&gt;"
+  },
+  {
+    "key": "output|Even_when_a_flat_chest_that_seems_like_the_right_word_for_your|8c7887cace9a",
+    "original": " Even when a flat chest, that seems like the right word for your pecs. They’re like titty seeds, and you just watered them!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08362352&gt;&gt;"
+  },
+  {
+    "key": "output|That_tingling_warmth_is_getting_worse_making_it_hard_to_think_o|f914e231bc93",
+    "original": "That tingling warmth is getting worse, making it hard to think of anything else. It’s like a buzz in your boobs",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08362890&gt;&gt;"
+  },
+  {
+    "key": "output|It_s_almost_impossible_to_pull_your_hands_away_but_you_make_do|51f3a203fc6c",
+    "original": "It’s almost impossible to pull your hands away, but you make do, if only so you can better view your burgeoning bosom as it grows.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08363388&gt;&gt;"
+  },
+  {
+    "key": "output|Best_of_all_the_sensations_grow_hotter_and_more_potent_moment_b|8a7441d82b54",
+    "original": "Best of all, the sensations grow hotter and more potent moment by moment. Your chest isn’t just buzzing and throbbing with sensuous delight anymore, it’s demanding your undivided attention, guiding your fingers to press and rub at too-sensitive nipples, demanding your eyes remain locked on the top of an expansive boob-shelf. It’s so beautiful, so perfect, and only growing more alluring by the second. The rest of the world has fallen away behind their curve. Your past lovers? They couldn’t hold a candle next to the magnificence of your own hot, glistening teats.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08364110&gt;&gt;"
+  },
+  {
+    "key": "output|Your_busily_tugging_fingers_grow_wet_while_they_work_coated_in|2f8c29ef38d4",
+    "original": "Your busily tugging fingers grow wet while they work, coated in a thin sheen of [pc.milkColor] from their efforts. You’re lactating already? The thought sends a delicious thrill through your body and, most importantly, your [pc.nipples]. You tug one and focus in on that thought. <b>You’re lactating.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08364692&gt;&gt;"
+  },
+  {
+    "key": "output|You_need_to_find_someone_to_fuck_you_and_suckle_the_pc_milk_th|b0d664647eea",
+    "original": "You need to find someone to fuck you and suckle the [pc.milk] that’s pouring out in streams!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08367072&gt;&gt;"
+  },
+  {
+    "key": "button|Next|dd483f466125",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:08367887&gt;&gt; addButton(0,\"Next\",(function(){return e.returnToInventory(e)}))"
+  },
+  {
+    "key": "output|Seconds_minutes_and_maybe_even_hours_are_passing_but_they_re|0112add3cc57",
+    "original": "Seconds, minutes, and maybe even hours are passing, but they’re of little consequence to you. You’re lead, squirming and moaning, from one [pc.milk]-dripping orgasm to the next, coating yourself so thickly in the [pc.milkVisc] fluid that its all you can smell anymore. Even if a whole crowd of aliens were to stop and stare, you wouldn’t be aware of them; your eyes are rolled back too far, and if they weren’t, you wouldn’t be looking at anything but your own fecund chest, drooling over how mind-meltingly sensual the very act of lactation has become.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08368599&gt;&gt;"
+  },
+  {
+    "key": "output|Squirt_Gasp_Dribble_Moan_and_quiver_On_and_on_the_cascades|c4131d19ab81",
+    "original": "Squirt. Gasp. Dribble. Moan and quiver. On and on, the cascades of ecstasy wash over you, exuded from your [pc.nipples] as easily as the constant streams, but eventually, even seemingly timeless pleasure must abate. You dimly become aware that your [pc.milkNoun] has stopped flowing, your reserves exhausted.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08369167&gt;&gt;"
+  },
+  {
+    "key": "output|Your_pc_nipples_still_feel_amazing_of_course_so_you_continue|b385e46f784e",
+    "original": "Your [pc.nipples] still feel amazing, of course, so you continue to gently tug at them, begging them to give you a few last drops of [pc.milkNoun], but all they give is gradually fading delight. You manage to drag your eyes out from behind half-closed lids to look down and sigh in disappointment. Your [pc.chest] are no longer quite so mesmerizing.... Yes, they’re absolutely gorgeous, but you’re sure that you could look away or stop milking them... if you wanted to.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08369490&gt;&gt;"
+  },
+  {
+    "key": "output|After_a_few_more_minutes_of_raptly_watching_your_finger_s_attemp|b193d77adcb0",
+    "original": "After a few more minutes of raptly watching your finger’s attempts, you manage to stop yourself and catch your breath. What a trip! You still feel a wondrous kind of kinship with your [pc.chest] too, less like they’re a part of you and more like you’ve become a part of them, but that’s okay. There are worse things than having an enhanced portion of your body become so important.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08369974&gt;&gt;"
+  },
+  {
+    "key": "output|Now_that_you_ve_had_a_chance_to_breathe_you_suppose_you_ought_t|016501b96b49",
+    "original": "Now that you’ve had a chance to breathe, you suppose you ought to see what the Gush did to you. ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08370457&gt;&gt;"
+  },
+  {
+    "key": "output|Sore_and_aching_your_pc_nipples_are_nevertheless_hard_and_jut|096c44c872a4",
+    "original": "Sore and aching, your [pc.nipples] are nevertheless hard and jutting proudly forward. Even if you covered them, everyone would probably see how lewd your tits have gotten, and honestly, you couldn’t blame them. You have some randy, slutty teats now, and you hope someone will notice... or give them the squeezing they deserve. <b>By the void, this stuff is going to turn you into a slut!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08372599&gt;&gt;"
+  },
+  {
+    "key": "output|Still_tingling_with_residual_afterglow_your_pc_nipples_should|5a5d7426cdf4",
+    "original": "Still tingling with residual afterglow, your [pc.nipples] should be raw and sore, but all you feel radiating from them is a desire for more. You wish they’d fill back up right now so that you could lie here and milk yourself all over again, painting yourself [pc.milkColor] in your excitement. And then... then you could get a crowd and let them drink from you one after another. You’d probably cum four or five times just from that. <b>Fuck! You’d better lay off this stuff if you want to stay out of trouble...</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08373425&gt;&gt;"
+  },
+  {
+    "key": "output|Ugh_the_comedown_afterward_is_always_the_worst_part_Sure_you|02898ad9d759",
+    "original": "Ugh, the comedown afterward is always the worst part. Sure, you’ve got the aftershocks of dozens of orgasms swaddling your thoughts in endorphins, but you also know that it’s over. Leaking [pc.milk] isn’t going to have you writhing on the floor all on its own. You’ll need hungry hotties to nurse at your titties if you want to feel anywhere near that good again. You catch yourself brushing your agonizingly sensitive [pc.nipplesNoun] and wonder just how soon you’ll have more [pc.milk] to give. <b>Is there anything better than getting milked? No, definitely not.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08373956&gt;&gt;"
+  },
+  {
+    "key": "output|Residual_warmth_lingers_deep_inside_your_pc_fullChest_carryin|22a73da3d419",
+    "original": "Residual warmth lingers deep inside your [pc.fullChest], carrying a certain sense of... plenty with it. Already, the soreness of being completely empty is fading. Did it make you able to <b>fill your breasts even faster?</b> Oh, you’re going to have to milk yourself even more often now!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08374569&gt;&gt;"
+  },
+  {
+    "key": "output|After_a_workout_like_that_you_re_pretty_confident_b_your_pc_c|a15df6acc9a0",
+    "original": "After a workout like that, you’re pretty confident <b>your [pc.chest] are going to be even better at holding milk</b>, something about more elastic mammary and duct tissue and fat deposit conversion. You remember reading it in your codex before, but it can’t compare to knowing you’re turning into a [pc.milkNoun]-squirting machine who could win milking competitions while cumming nonstop.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08375083&gt;&gt;"
+  },
+  {
+    "key": "output|Whoah_fuck_Your_hand_was_just_kind_of_idly_tugging_at_one_of_y|0aac660cd449",
+    "original": "Whoah, fuck! Your hand was just kind of idly tugging at one of your [pc.nipples] when your knuckle brushed another one... one that shouldn’t be there. You look down in shock and arousal, suddenly and totally aware that <b>your tips have doubled into multiple teats connected by enlarged areolae!</b> And with twice the milkspouts comes twice the pleasure. You can barely resist tugging on them at this very moment. It’d feel sooo good.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08375573&gt;&gt;"
+  },
+  {
+    "key": "header|TITTIES|087c2326d44b",
+    "original": "TITTIES!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08344111&gt;&gt;"
+  },
+  {
+    "key": "output|How_long_you_spent_laying_there_in_a_pool_of_your_own_milk_lowi|a3deecef64bf",
+    "original": "How long you spent laying there in a pool of your own milk, lowing like some kind brainless sow, you don’t know. What you do know is that the pleasure from Gush never seemed to go away. Sure, the euphoria diminished, but your breasts are just so big and so wonderful that you never really saw a reason to stop tugging on them. Heck, after a while, your sore tits started leaking [pc.milk] again.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08344170&gt;&gt;"
+  },
+  {
+    "key": "output|You_put_the_spraypen_back_into_your_inventory|fd3b6b3c28e6",
+    "original": "You put the spraypen back into your inventory.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08367792&gt;&gt;"
+  }
+]

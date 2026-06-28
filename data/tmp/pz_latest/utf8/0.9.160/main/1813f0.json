@@ -1,0 +1,121 @@
+[
+  {
+    "key": "assign|Nuka_Poisoned_Darts|3c8744c66117",
+    "original": "Nuka-Poisoned Darts",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06588446&gt;&gt; ortName=\"Nuka Dart\",e.longName='Nuka-Poisoned Darts'"
+  },
+  {
+    "key": "assign|a_pouch_with_a_number_of_variously_poisoned_throwing_darts|f00161df4360",
+    "original": "a pouch with a number of variously poisoned throwing darts",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06588564&gt;&gt; ase(e.longName)),e.description='a pouch with a number of variously poisoned throwing darts'"
+  },
+  {
+    "key": "assign|Purloined_from_a_nuka_raider_in_the_Radwoods_this_small_pouch_h|3a00c20513c7",
+    "original": "Purloined from a nuka raider in the Radwoods, this small pouch has a number of slender throwing darts with small, needle-like tips of the type she uses in battle. Unfortunately, the poison has been on them for a while, so it’s likely not as potent as when they were used against you. Even less fortunately: none of the darts are labeled, so it’s anyone’s guess which of her various poisons each one is coated in.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06588635&gt;&gt; oned throwing darts\",e.tooltip='Purloined from a nuka raider in the Radwoods, this small pou'"
+  },
+  {
+    "key": "output|You_don_t_have_a_target|9fd591f6e776",
+    "original": "You don’t have a target.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06589570&gt;&gt; output(\"You don’t have a target.\\n\")"
+  },
+  {
+    "key": "output.expr|var0_var1_considers_it_unwise_to_use_a_grenade_outside_of|45f2e2c7c97e",
+    "original": "{var0}+{var1}+\" considers it unwise to use a grenade outside of combat.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06589608&gt;&gt; &lt;&lt;VARS:var0=t.capitalA,var1=t.short&gt;&gt; output(t.capitalA+t.short+\" considers it unwise to use a grenade outside of combat.\\n\")"
+  },
+  {
+    "key": "combat|The_dart_hits_home_and_even_weakened_by_time_the_toxin_coating|dbd9985c2ce7",
+    "original": "The dart hits home and, even weakened by time, the toxin-coating goes to work!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06590835&gt;&gt; combatAppend(\"\\n\\nThe dart hits home and, even weakened by time, the toxin-coating goes to work!\")"
+  },
+  {
+    "key": "combat|b_Staggered_b|113c32f66c8c",
+    "original": " <b>Staggered!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06591332&gt;&gt; combatAppend(\" <b>Staggered!</b>\")"
+  },
+  {
+    "key": "combat|b_Stunned_b|3cbe1978b0ef",
+    "original": " <b>Stunned!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06591402&gt;&gt; combatAppend(\" <b>Stunned!</b>\")"
+  },
+  {
+    "key": "combat|b_Lust_Weakness_duration_increased_b|6cb579f72119",
+    "original": " <b>Lust Weakness duration increased!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06591472&gt;&gt; combatAppend(\" <b>Lust Weakness duration increased!</b>\")"
+  },
+  {
+    "key": "combat|b_Lust_weakened_b|f0bfed68ad37",
+    "original": " <b>Lust-weakened!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06591530&gt;&gt; combatAppend(\" <b>Lust-weakened!</b>\")"
+  },
+  {
+    "key": "assign|Nuka_Dart|2ad3cd9ea581",
+    "original": "Nuka Dart",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06588423&gt;&gt; XPLOSIVECONSUMABLE,e.shortName='Nuka Dart'"
+  },
+  {
+    "key": "combat|It_seems_you_have_no_target_to_use_your_Nuka_Dart_on|79ba9493ed91",
+    "original": "It seems you have no target to use your Nuka Dart on.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06589812&gt;&gt; combatOutput(\"It seems you have no target to use your Nuka Dart on.\",null,t)"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_produces_a_nuka_dart_but_with_no_tar|15f7a02a5da6",
+    "original": "{var1}.capitalize({var0})+\" produces a nuka dart but with no target to use it on, \"+{var2}.mfn(\"he\",\"she\",\"it\")+\" puts it away.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06589888&gt;&gt; &lt;&lt;VARS:var0=t.getCombatName(),!1,var1=h.m,var2=t&gt;&gt; combatOutput(h.m.capitalize(t.getCombatName(),!1)+\" produces a nuka dart but with no target to use it on, \"+t.mfn(\"he\",\"she\",\"it\")+\" puts it away.\",null,t)"
+  },
+  {
+    "key": "combat.expr|You_pull_one_of_the_nuka_raider_s_poisoned_darts_from_its_slende|59d84dc19a3c",
+    "original": "You pull one of the nuka raider’s poisoned darts from its slender case very carefully and aim it carefully before sending the projectile soaring toward \"+{var0}.getCombatName()+\".",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06590124&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatOutput(\"You pull one of the nuka raider’s poisoned darts from its slender case very carefully and aim it carefully before sending the projectile soaring toward \"+e.getCombatName()+\".\",null,t)"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_pulls_one_of_the_nuka_raider_s_poiso|3c4bf4cb8350",
+    "original": "{var1}.capitalize({var0})+\" pulls one of the nuka raider’s poisoned darts from its slender case very carefully and aim it carefully before sending the projectile soaring toward its target!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06590358&gt;&gt; &lt;&lt;VARS:var0=t.getCombatName(),!1,var1=h.m&gt;&gt; combatOutput(h.m.capitalize(t.getCombatName(),!1)+\" pulls one of the nuka raider’s poisoned darts from its slender case very carefully and aim it carefully before sending the projectile soaring toward its target!\",null,t)"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_produces_one_of_the_nuka_raider_s_po|edc7a3cf8c9f",
+    "original": "{var1}.capitalize({var0})+\" produces one of the nuka raider’s poisoned darts and carefully sends it in the direction of \"+{var2}.getCombatName()+\"!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06590580&gt;&gt; &lt;&lt;VARS:var0=t.getCombatName(),!1,var1=h.m,var2=e&gt;&gt; combatOutput(h.m.capitalize(t.getCombatName(),!1)+\" produces one of the nuka raider’s poisoned darts and carefully sends it in the direction of \"+e.getCombatName()+\"!\",null,t)"
+  },
+  {
+    "key": "combat|The_dart_sails_wide_Damnit|5e99d638bd83",
+    "original": "The dart sails wide. Damnit!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06590778&gt;&gt; combatAppend(\"\\n\\nThe dart sails wide. Damnit!\")"
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "key": "case.assign|S|89c479d6293a",
+    "original": "S",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10424706&gt;&gt; case\"shield\":a.label="
+  },
+  {
+    "key": "case.assign|shieldHeal|0f5f20216cba",
+    "original": "shieldHeal",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10424727&gt;&gt; case\"shield\":a.label=\"S\",a.gainColorClass="
+  },
+  {
+    "key": "case.assign|shield|6cd80e694263",
+    "original": "shield",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10424757&gt;&gt; case\"shield\":a.label=\"S\",a.gainColorClass=\"shieldHeal\",a.lossColorClass="
+  },
+  {
+    "key": "case.assign|H|4fc7f5da355d",
+    "original": "H",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10424862&gt;&gt; case\"hp\":a.label="
+  },
+  {
+    "key": "case.assign|hpHeal|7ca5ef37c1bf",
+    "original": "hpHeal",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10424883&gt;&gt; case\"hp\":a.label=\"H\",a.gainColorClass="
+  },
+  {
+    "key": "case.assign|hp|2b6081ac25d8",
+    "original": "hp",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10424909&gt;&gt; case\"hp\":a.label=\"H\",a.gainColorClass=\"hpHeal\",a.lossColorClass="
+  },
+  {
+    "key": "case.assign|E|38925c5c2be6",
+    "original": "E",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10425004&gt;&gt; case\"energy\":a.label="
+  },
+  {
+    "key": "case.assign|energyHeal|b065ac5419ac",
+    "original": "energyHeal",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10425025&gt;&gt; case\"energy\":a.label=\"E\",a.gainColorClass="
+  },
+  {
+    "key": "case.assign|energy|b7f5f70992ee",
+    "original": "energy",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10425055&gt;&gt; case\"energy\":a.label=\"E\",a.gainColorClass=\"energyHeal\",a.lossColorClass="
+  },
+  {
+    "key": "combat.expr|var0|6289bc7381ff",
+    "original": "{var0}",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:10425355&gt;&gt; &lt;&lt;VARS:var0=s&gt;&gt; combatAppend(s)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:10425365&gt;&gt; &lt;&lt;VARS:var0=s&gt;&gt; output(s)"
+  },
+  {
+    "key": "button|Drones|52582a28af78",
+    "original": "Drones: ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10430720&gt;&gt; addButton(e++,\"Drones: \".concat(t.mode?\"Attack\":\"Defense\"),(function(){return t.toggleMode(!0)}),\"Drones: \".concat(t.mode?\"Attack\":\"Defense\",\" Mode\"),\"Set your drones to \".concat(t.mode?\"Defense\":\"Attack\",\" Mode!\"))"
+  },
+  {
+    "key": "button.hover|Drones|52582a28af78",
+    "original": "Drones: ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10430803&gt;&gt; addButton(e++,\"Drones: \".concat(t.mode?\"Attack\":\"Defense\"),(function(){return t.toggleMode(!0)}),\"Drones: \".concat(t.mode?\"Attack\":\"Defense\",\" Mode\"),\"Set your drones to \".concat(t.mode?\"Defense\":\"Attack\",\" Mode!\"))"
+  },
+  {
+    "key": "button.tooltip|Set_your_drones_to|e953bf622160",
+    "original": "Set your drones to ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10430856&gt;&gt; addButton(e++,\"Drones: \".concat(t.mode?\"Attack\":\"Defense\"),(function(){return t.toggleMode(!0)}),\"Drones: \".concat(t.mode?\"Attack\":\"Defense\",\" Mode\"),\"Set your drones to \".concat(t.mode?\"Defense\":\"Attack\",\" Mode!\"))"
+  }
+]

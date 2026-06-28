@@ -1,0 +1,51 @@
+[
+  {
+    "key": "assign|Strawberry_Shortcake|0eaa5921ef9d",
+    "original": "Strawberry Shortcake",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09752840&gt;&gt;"
+  },
+  {
+    "key": "assign|a_foil_wrapped_strawberry_shortcake_roll|a54ab930100d",
+    "original": "a foil-wrapped strawberry shortcake roll",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09752877&gt;&gt;"
+  },
+  {
+    "key": "name.show|Strawberry_Shortcake|ea11890350a1",
+    "original": "Strawberry Shortcake",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09753423&gt;&gt; showName(\"Strawberry Shortcake\")"
+  },
+  {
+    "key": "output|You_unwrap_the_cake_roll_from_its_foil_pouch_resting_on_an_inne|3c781f4c65e6",
+    "original": "You unwrap the cake roll from its foil pouch, resting on an inner paper backing that reads “Eat Me!”. The roll goes down in just a few bites, leaving the taste of strawberries in your mouth while you wait for the results.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09753470&gt;&gt;"
+  },
+  {
+    "key": "output.expr|The_world_briefly_spins_as_you_suffer_a_bout_of_disorientation|d1a0eadfb6de",
+    "original": "The world briefly spins as you suffer a bout of disorientation. When you come to, the ground seems \"+{var1}.numToText({var0})+\" inch\"+(1===t?\"\":\"es\")+\" closer than before.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09753796&gt;&gt; &lt;&lt;VARS:var0=t,var1=u.m&gt;&gt; output(\"\\n\\nThe world briefly spins as you suffer a bout of disorientation. When you come to, the ground seems \"+u.m.numToText(t)+\" inch\"+(1===t?\"\":\"es\")+\" closer than before.\")"
+  },
+  {
+    "key": "output|You_wait_and_wait_but_nothing_happens_You_must_not_be_able_to|c6f508414ca5",
+    "original": "You wait and wait, but nothing happens. You must not be able to get any shorter.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09753988&gt;&gt;"
+  },
+  {
+    "key": "output.expr|var0_var1_eats_the_shortcake_to_no_effect|61d7417ac271",
+    "original": "{var0}+{var1}+\" eats the shortcake to no effect.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09754083&gt;&gt; &lt;&lt;VARS:var0=e.capitalA,var1=e.short&gt;&gt; output(e.capitalA+e.short+\" eats the shortcake to no effect.\")"
+  }
+]

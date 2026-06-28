@@ -1,0 +1,338 @@
+[
+  {
+    "key": "assign|Jezzy_s_blaster|d539eb30d1fc",
+    "original": "Jezzy’s blaster",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00688600&gt;&gt; e=\"Jezzy’s Blaster\",e.longName='Jezzy’s blaster'"
+  },
+  {
+    "key": "assign|a_blaster_pistol_taken_from_Jezzy|3d80ddb2a565",
+    "original": "a blaster pistol taken from Jezzy",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00688689&gt;&gt; ase(e.longName)),e.description='a blaster pistol taken from Jezzy'"
+  },
+  {
+    "key": "assign|This_pistol_once_belonged_to_Jezzy_but_after_the_defeat_of_the|74bf83681973",
+    "original": "This pistol once belonged to Jezzy, but after the defeat of the drugged-up gabilani, it’s fallen into your service. At a glance, it resembles common laser weapons found throughout the rim, but it’s been upgraded with an aftermarket power-supply and custom-cut refraction crystals to put out far more power than its off-the-shelf cousins. A lightweight composite frame keeps it extra-light in the hand - easy enough for a slight girl to hold onto in battle. It won’t slow down your attempts to dodge.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00688735&gt;&gt; ol taken from Jezzy\",e.tooltip='This pistol once belonged to Jezzy, but after the defeat of '"
+  },
+  {
+    "key": "assign|laser_beam|13e3f2587cc7",
+    "original": "laser beam",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00689271&gt;&gt; ttackVerb=\"shoot\",e.attackNoun='laser beam'"
+  },
+  {
+    "key": "assign|Jezzy_s_Hat|ed52960bfd55",
+    "original": "Jezzy’s Hat",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00690399&gt;&gt; AL.RARE,e.level=11,e.shortName='Jezzy’s Hat'"
+  },
+  {
+    "key": "assign|Jezzy_s_hat|a109cd822f1d",
+    "original": "Jezzy’s hat",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00690424&gt;&gt; tName=\"Jezzy’s Hat\",e.longName='Jezzy’s hat'"
+  },
+  {
+    "key": "assign|a_hat_taken_from_Jezzy|8e70a974c469",
+    "original": "a hat taken from Jezzy",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00690509&gt;&gt; ase(e.longName)),e.description='a hat taken from Jezzy'"
+  },
+  {
+    "key": "assign|This_loose_fitting_stocking_cap_sometimes_known_as_a_toque_onc|5624bfb8dd73",
+    "original": "This loose-fitting stocking cap, sometimes known as a toque, once belonged to the infamous Gabilani drug-runner Jezzy. Now it’s yours: proof of victory over the short-stacked drug-dealer. Maybe it will help you handle illicit substances a little better?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00690544&gt;&gt; at taken from Jezzy\",e.tooltip='This loose-fitting stocking cap, sometimes known as a toque,'"
+  },
+  {
+    "key": "assign|Short_but_definitely_not_sweet_the_foul_mouthed_gabilani_stands|efee9503feee",
+    "original": "Short but definitely not sweet, the foul-mouthed gabilani stands closer to three feet tall than four - short by the standards of her sex. Her true height, however, is hard to parse, as her head is covered with a loose toque, with holes cut out for her many-times-over pierced ears to poke through. Half naked, she’s wearing an oversized hoodie, unzipped and shrugged down off her shoulders, with it sagging down to her waist. Underneath, she’s stuffed into a white tank top a few sizes too small, the overburdened fabric barely covering her titanic titties. Her nipples strain against the fabric, revealing them to both be pierced with fat studs.\\n\\nJezzy’s bottom half is completely bare, exposing (and showing off) her very round and well-shaped hips and butt. Between her sinfully thick thighs stands a mighty - and very clearly modded - cock. The massive slab of meat is vaguely equine in shape, with two heavy balls hanging below to fuel it. The sight of it almost distracts you from the blaster she’s holding in one hand, and an oversized club she wields in the other. A belt slung around her waist carries a wide array of threats and dangers, which she seems eager to test on you.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00691927&gt;&gt; y\",e.a=\"\",e.capitalA=\"\",e.long='Short but definitely not sweet, the foul-mouthed gabilani st'"
+  },
+  {
+    "key": "assign|a_claw|18939b0f7933",
+    "original": "a claw",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00693280&gt;&gt; .longName=\"claw\",n.description='a claw'"
+  },
+  {
+    "key": "perk|Fixed_CumQ|74296bdab92a",
+    "original": "Fixed CumQ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00694094&gt;&gt; createPerk(\"Fixed CumQ\",3912)"
+  },
+  {
+    "key": "perk|Juggernaut|0f827c3b9140",
+    "original": "Juggernaut",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00694181&gt;&gt; createPerk(\"Juggernaut\")"
+  },
+  {
+    "key": "combat.expr|The_makeshift_club_bashes_against_var0_getCombatPronoun_his|56d780666ccb",
+    "original": "The makeshift club bashes against \"+{var0}.getCombatPronoun(\"hisher\")+\" \"+({var1}?\"shielded\":\"unshielded\")+\" shoulder!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00695850&gt;&gt; &lt;&lt;VARS:var0=e,var1=pc.shields()&gt;0&gt;&gt; combatAppend(\"\\n\\nThe makeshift club bashes against \"+e.getCombatPronoun(\"hisher\")+\" \"+(pc.shields()&gt;0?\"shielded\":\"unshielded\")+\" shoulder!\")"
+  },
+  {
+    "key": "combat.expr|Her_aim_true_she_wings_var0_getCombatName_with_a_powerf|db1f62965fca",
+    "original": "Her aim true, she wings \"+{var0}.getCombatName()+\" with a powerful bolt, cackling at her success!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00696363&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\"\\n\\nHer aim true, she wings \"+e.getCombatName()+\" with a powerful bolt, cackling at her success!\")"
+  },
+  {
+    "key": "combat.expr|Unable_to_dodge_it_in_time_it_connects_hard_with_var1_posse|c60aa3eb9f88",
+    "original": "Unable to dodge it in time, it connects hard with \"+{var1}.possessive({var0}.getCombatName())+\" face!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00696907&gt;&gt; &lt;&lt;VARS:var0=e,var1=g.m&gt;&gt; combatAppend(\"\\n\\nUnable to dodge it in time, it connects hard with \"+g.m.possessive(e.getCombatName())+\" face!\")"
+  },
+  {
+    "key": "combat.expr|Swaying_slightly_var0_getCombatPronoun_heshe_lose|22541e0dee64",
+    "original": " Swaying slightly, \"+{var0}.getCombatPronoun(\"heshe\")+\" lose\"+({var1}.isPlayer()?\"\":\"s\")+\" \"+{var2}.getCombatPronoun(\"hisher\")+\" balance, then tumble\"+({var3}.isPlayer()?\"\":\"s\")+\" to the floor awkwardly!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00697206&gt;&gt; &lt;&lt;VARS:var0=e,var1=e.isPlural||e,var2=e,var3=e.isPlural||e&gt;&gt; combatAppend(\" Swaying slightly, \"+e.getCombatPronoun(\"heshe\")+\" lose\"+(e.isPlural||e.isPlayer()?\"\":\"s\")+\" \"+e.getCombatPronoun(\"hisher\")+\" balance, then tumble\"+(e.isPlural||e.isPlayer()?\"\":\"s\")+\" to the floor awkwardly!\")"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_var2_are_is_tripped|7134e98b9c98",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+({var2}?\"are\":\"is\")+\" tripped!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00697434&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=g.m,var2=e.isPlayer()||e.isPlural&gt;&gt; combatAppend(\"\\n\\n<b>\"+g.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\" tripped!</b>\")"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_var2_are_is_stunned|9ada4ebdbab1",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+({var2}?\"are\":\"is\")+\" stunned!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00697572&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=g.m,var2=e.isPlayer()||e.isPlural&gt;&gt; combatAppend(\"\\n\\n<b>\"+g.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\" stunned!</b>\")"
+  },
+  {
+    "key": "combat.expr|Her_solid_mast_slaps_hard_against_var0_getCombatName_th|c3b4c2e1ed1e",
+    "original": "Her solid mast slaps hard against \"+{var0}.getCombatName()+\", the weight of it catching you by surprise!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00698070&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\"\\n\\nHer solid mast slaps hard against \"+e.getCombatName()+\", the weight of it catching you by surprise!\")"
+  },
+  {
+    "key": "combat|i_Like_that_huh_bitch_i|96694f848ee2",
+    "original": "<i>“Like that, huh, bitch?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00698190&gt;&gt; combatAppend(\"\\n\\n<i>“Like that, huh, bitch?”</i>\")"
+  },
+  {
+    "key": "combat.expr|The_metal_lash_cracks_hard_against_var1_possessive_var0_ge|0479be026069",
+    "original": "The metal lash cracks hard against \"+{var1}.possessive({var0}.getCombatName())+\" chest, subjecting \"+{var2}.getCombatPronoun(\"himher\")+\" to a nasty jolt!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00699702&gt;&gt; &lt;&lt;VARS:var0=e,var1=g.m,var2=e&gt;&gt; combatAppend(\"\\n\\nThe metal lash cracks hard against \"+g.m.possessive(e.getCombatName())+\" chest, subjecting \"+e.getCombatPronoun(\"himher\")+\" to a nasty jolt!\")"
+  },
+  {
+    "key": "combat|i_Fuck_yeah_Wire_is_the_best_conductor_i|38203af01334",
+    "original": "<i>“Fuck yeah! Wire is the best conductor!”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00700016&gt;&gt; combatAppend(\"\\n\\n<i>“Fuck yeah! Wire is the best conductor!”</i>\")"
+  },
+  {
+    "key": "combat.expr|The_sudden_shock_stuns_var0_getCombatPronoun_hisher_ne|e2df9235aedd",
+    "original": " The sudden shock stuns \"+{var0}.getCombatPronoun(\"hisher\")+\" nerves for a brief moment, breaking \"+{var2}.possessive({var1}.getCombatName())+\" balance!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00700081&gt;&gt; &lt;&lt;VARS:var0=e,var1=e,var2=g.m&gt;&gt; combatAppend(\" The sudden shock stuns \"+e.getCombatPronoun(\"hisher\")+\" nerves for a brief moment, breaking \"+g.m.possessive(e.getCombatName())+\" balance!\")"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_var2_are_is_tripped|619005eec703",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+({var2}?\"are\":\"is\")+\" tripped!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00700241&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=g.m,var2=e.isPlayer()||e.isPlural&gt;&gt; combatAppend(\"\\n\\n<b>\"+g.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\" tripped!</b>\")"
+  },
+  {
+    "key": "combat.expr|The_grenade_falls_short_of_hitting_var0_getCombatName_l|5fcdf6e1cd76",
+    "original": "The grenade falls short of hitting \"+{var0}.getCombatName()+\", landing a foot short, then starts to hiss and release a thick pink cloud!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00700919&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\"\\n\\nThe grenade falls short of hitting \"+e.getCombatName()+\", landing a foot short, then starts to hiss and release a thick pink cloud!\")"
+  },
+  {
+    "key": "combat.expr|Lucky_for_var0_getCombatPronoun_himher_the_the_gas_is|ddbb4493e69f",
+    "original": " Lucky for \"+{var0}.getCombatPronoun(\"himher\")+\", the the gas is outside!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00701088&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\" Lucky for \"+e.getCombatPronoun(\"himher\")+\", the the gas is outside!\")"
+  },
+  {
+    "key": "combat.expr|The_gas_fills_var0_getCombatPronoun_hisher_nostrils_an|05df3ba79219",
+    "original": " The gas fills \"+{var0}.getCombatPronoun(\"hisher\")+\" nostrils and mouth before \"+{var1}.getCombatPronoun(\"heshe\")+\" can shield them, sending \"+{var2}.getCombatPronoun(\"himher\")+\" into a coughing fit!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00701178&gt;&gt; &lt;&lt;VARS:var0=e,var1=e,var2=e&gt;&gt; combatAppend(\" The gas fills \"+e.getCombatPronoun(\"hisher\")+\" nostrils and mouth before \"+e.getCombatPronoun(\"heshe\")+\" can shield them, sending \"+e.getCombatPronoun(\"himher\")+\" into a coughing fit!\")"
+  },
+  {
+    "key": "combat|Simultaneously_you_notice_your_blood_starting_to_heat_up_your|542a8d8eba94",
+    "original": " Simultaneously, you notice your blood starting to heat up, your heart pumping faster!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00701393&gt;&gt; combatAppend(\" Simultaneously, you notice your blood starting to heat up, your heart pumping faster!\")"
+  },
+  {
+    "key": "assign|Jezzy_s_Blaster|22760397eb69",
+    "original": "Jezzy’s Blaster",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00688571&gt;&gt; APON,e.isUsable=!1,e.shortName='Jezzy’s Blaster'"
+  },
+  {
+    "key": "combat|With_a_grunt_Jezzy_swings_her_club_at_concat_e_getCombatName|f086e941cfa4",
+    "original": "With a grunt, Jezzy swings her club at \".concat(e.getCombatName(),\"!\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00695624&gt;&gt; combatOutput(\"With a grunt, Jezzy swings her club at \".concat(e.getCombatName(),\"!\"),null,this)"
+  },
+  {
+    "key": "combat|Whizzing_past_concat_e_getCombatPronoun_himher_the_weapo|52e27e6e6bc3",
+    "original": "Whizzing past \".concat(e.getCombatPronoun(\"himher\"),\", the weapon comes up short, missing!\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00695737&gt;&gt; combatAppend(\"Whizzing past \".concat(e.getCombatPronoun(\"himher\"),\", the weapon comes up short, missing!\"))"
+  },
+  {
+    "key": "combat|i_Hold_still_bitch_i_Jezzy_aims_her_blaster_closing_an_e|fd3765d34d1a",
+    "original": "<i>“Hold still, bitch!”</i> Jezzy aims her blaster, closing an eye for good measure!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00696135&gt;&gt; combatOutput(\"\\n\\n<i>“Hold still, bitch!”</i> Jezzy aims her blaster, closing an eye for good measure!\",null,this)"
+  },
+  {
+    "key": "combat.expr|She_shoots_wide_the_bolt_missing_var0_getCombatName_by|2b43ced23752",
+    "original": "She shoots wide, the bolt missing \"+{var0}.getCombatName()+\" by a mile!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00696275&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\"\\n\\nShe shoots wide, the bolt missing \"+e.getCombatName()+\" by a mile!\")"
+  },
+  {
+    "key": "combat|Growling_Jezzy_takes_up_her_club_with_both_hands_then_swings_a|95fc97e75d31",
+    "original": "Growling, Jezzy takes up her club with both hands, then swings at \".concat(e.getCombatName(),\" with a visceral cry!\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00696620&gt;&gt; combatOutput(\"Growling, Jezzy takes up her club with both hands, then swings at \".concat(e.getCombatName(),\" with a visceral cry!\"),null,this)"
+  },
+  {
+    "key": "combat.expr|She_barely_misses_only_the_rush_of_air_catching_var0_getCom|bf068dfd1051",
+    "original": "She barely misses, only the rush of air catching \"+{var0}.getCombatName()+\" in the face as it shoots past!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00696784&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\"\\n\\nShe barely misses, only the rush of air catching \"+e.getCombatName()+\" in the face as it shoots past!\")"
+  },
+  {
+    "key": "combat|Jezzy_twists_her_hips_then_suddenly_leaps_forward_seemingly_at|f035499364d8",
+    "original": "Jezzy twists her hips, then suddenly leaps forward, seemingly attempting to use her cock as a weapon!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00697791&gt;&gt; combatOutput(\"Jezzy twists her hips, then suddenly leaps forward, seemingly attempting to use her cock as a weapon!\",null,this)"
+  },
+  {
+    "key": "combat.expr|She_misses_var0_getCombatName_barely_her_cock_sailing|e34ad923cea4",
+    "original": "She misses \"+{var0}.getCombatName()+\", barely, her cock sailing harmlessly through the air. <i>“Fuck!”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00697943&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\"\\n\\nShe misses \"+e.getCombatName()+\", barely, her cock sailing harmlessly through the air. <i>“Fuck!”</i>\")"
+  },
+  {
+    "key": "combat.expr|Reaching_towards_her_left_wrist_Jezzy_taps_a_button_n_nSuddenl|a6ae469ec335",
+    "original": "Reaching towards her left wrist, Jezzy taps a button.\\n\\nSuddenly, a shimmer of light surrounds her, and, bizarrely, \"+{var1}.possessive({var0}.getCombatName())+\" arms start to raise. No, not \"+{var2}.getCombatPronoun(\"hisher\")+\" arms, you realize, \"+{var3}.getCombatPronoun(\"hisher\")+\" weapons! Before \"+{var4}.getCombatName()+\" can grip them tight enough to hold on, they’re ripped from \"+{var5}.getCombatPronoun(\"hisher\")+\" grasp, hovering uselessly in the air around Jezzy for a moment before she taps the button again - they clatter roughly to the ground!\\n\\n<i>“Fuck yeah! Magnets!”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00698418&gt;&gt; &lt;&lt;VARS:var0=e,var1=g.m,var2=e,var3=e,var4=e,var5=e&gt;&gt; combatOutput(\"Reaching towards her left wrist, Jezzy taps a button.\\n\\nSuddenly, a shimmer of light surrounds her, and, bizarrely, \"+g.m.possessive(e.getCombatName())+\" arms start to raise. No, not \"+e.getCombatPronoun(\"hisher\")+\" arms, you realize, \"+e.getCombatPronoun(\"hisher\")+\" weapons! Before \"+e.getCombatName()+\" can grip them tight enough to hold on, they’re ripped from \"+e.getCombatPronoun(\"hisher\")+\" grasp, hovering uselessly in the air around Jezzy for a moment before she taps the button again - they clatter roughly to the ground!\\n\\n<i>“Fuck yeah! Magnets!”</i>\",null,this)"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_var2_are_is_disarme|9151f872e8e8",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+({var2}?\"are\":\"is\")+\" disarmed!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00699013&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=g.m,var2=e.isPlayer()||e.isPlural&gt;&gt; combatAppend(\"\\n\\n<b>\"+g.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\" disarmed!</b>\")"
+  },
+  {
+    "key": "combat.expr|Reaching_towards_her_right_wrist_Jezzy_taps_a_button_n_nSnappi|5dc51bea9f56",
+    "original": "Reaching towards her right wrist, Jezzy taps a button.\\n\\nSnapping her arm out, a long wire shoots out from her cuff, crackling with dangerous blue energy. Whipping it around, she swings it wide, then turns it on \"+{var0}.getCombatName()+\" with a crack!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00699206&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatOutput(\"Reaching towards her right wrist, Jezzy taps a button.\\n\\nSnapping her arm out, a long wire shoots out from her cuff, crackling with dangerous blue energy. Whipping it around, she swings it wide, then turns it on \"+e.getCombatName()+\" with a crack!\",null,this)"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_barely_dodge_var2_s_th|35749c954c9c",
+    "original": "\"+{var1}.capitalize({var0})+\" barely dodge\"+({var2}?\"\":\"s\")+\" the crackling lash, wincing when it snaps hard against the floor!\\n\\n<i>“Fuck!”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00699502&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=g.m,var2=e.isPlayer()||e.isPLural&gt;&gt; combatAppend(\"\\n\\n\"+g.m.capitalize(e.getCombatName(),!1)+\" barely dodge\"+(e.isPlayer()||e.isPLural?\"\":\"s\")+\" the crackling lash, wincing when it snaps hard against the floor!\\n\\n<i>“Fuck!”</i>\")"
+  },
+  {
+    "key": "combat|Reaching_down_to_her_waist_Jezzy_plucks_a_grenade_off_of_her_be|c2f26bdaed5a",
+    "original": "Reaching down to her waist, Jezzy plucks a grenade off of her belt like a ripe berry. <i>“See how ya like this, bitch!”</i> With a grunt, she tosses it right at \".concat(e.getCombatName(),\"!\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00700434&gt;&gt; combatOutput(\"Reaching down to her waist, Jezzy plucks a grenade off of her belt like a ripe berry. <i>“See how ya like this, bitch!”</i> With a grunt, she tosses it right at \".concat(e.getCombatName(),\"!\"),null,this)"
+  },
+  {
+    "key": "combat.expr|Thinking_fast_var0_getCombatName_swing_var1_s|7f3bdcd3079c",
+    "original": "Thinking fast, \"+{var0}.getCombatName()+\" swing\"+({var1}?\"\":\"s\")+\" \"+{var2}.getCombatPronoun(\"hisher\")+\" [pc.weaponMain] at the soaring missile, sending it sailing harmlessly over Jezzy’s stunned face!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00700681&gt;&gt; &lt;&lt;VARS:var0=e,var1=e.isPlayer()||e.isPlural,var2=e&gt;&gt; combatAppend(\"\\n\\nThinking fast, \"+e.getCombatName()+\" swing\"+(e.isPlayer()||e.isPlural?\"\":\"s\")+\" \"+e.getCombatPronoun(\"hisher\")+\" [pc.weaponMain] at the soaring missile, sending it sailing harmlessly over Jezzy’s stunned face!\")"
+  },
+  {
+    "key": "combat.expr|Smiling_Jezzy_takes_a_few_steps_back_i_Oh_I_got_you_now_bi|03906b2ace1f",
+    "original": "Smiling, Jezzy takes a few steps back. <i>“Oh, I got you now, bitch...”</i>\\n\\nWith a giggle on her lips, she starts to dash forward, and before you know it she takes to the air with a powerful leap! Looking up at her, her massive ass blots out the light from the ceiling as she assumes the cannonball position, the dark shadow growing impossibly large as it falls upon \"+{var1}.possessive({var0}.getCombatName())+\" stunned face!\\n\\nWhen it connects, \"+{var2}.getCombatName()+\" feel\"+({var3}?\"\":\"s\")+\" an intense, impossible softness for about a quarter of a second before the force of her body drives \"+{var5}.possessive({var4}.getCombatName())+\" head hard into the cold floor!\\n\\nCackling, Jezzy tauntingly grinds her fat ass against your face before rolling off, clambering back up to her feet!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00701670&gt;&gt; &lt;&lt;VARS:var0=e,var1=g.m,var2=e,var3=e.isPlayer()||e.isPlural,var4=e,var5=g.m&gt;&gt; combatOutput(\"Smiling, Jezzy takes a few steps back. <i>“Oh, I got you now, bitch...”</i>\\n\\nWith a giggle on her lips, she starts to dash forward, and before you know it she takes to the air with a powerful leap! Looking up at her, her massive ass blots out the light from the ceiling as she assumes the cannonball position, the dark shadow growing impossibly large as it falls upon \"+g.m.possessive(e.getCombatName())+\" stunned face!\\n\\nWhen it connects, \"+e.getCombatName()+\" feel\"+(e.isPlayer()||e.isPlural?\"\":\"s\")+\" an intense, impossible softness for about a quarter of a second before the force of her body drives \"+g.m.possessive(e.getCombatName())+\" head hard into the cold floor!\\n\\nCackling, Jezzy tauntingly grinds her fat ass against your face before rolling off, clambering back up to her feet!\",null,this)"
+  },
+  {
+    "key": "combat|Swaying_slightly_Jezzy_lets_out_an_annoyed_huff_i_Fucking_a|45c5b113408d",
+    "original": "Swaying slightly, Jezzy lets out an annoyed huff. <i>“Fucking, asshole...”</i> she reaches towards her belt, slipping something off from it. <i>“Making me sweat...”</i>\\n\\nYou notice a small syringe in her hand, and before you can wonder what she plans to do with it she raises it up and roughly jabs it in the side of her neck!\\n\\n<i>“Oh, fuck yeah....”</i> Jezzy groans, her body trembling.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00702684&gt;&gt; combatOutput(\"Swaying slightly, Jezzy lets out an annoyed huff. <i>“Fucking, asshole...”</i> she reaches towards her belt, slipping something off from it. <i>“Making me sweat...”</i>\\n\\nYou notice a small syringe in her hand, and before you can wonder what she plans to do with it she raises it up an..."
+  },
+  {
+    "key": "combat|You_watch_her_eyes_go_wide_as_saucers_and_a_moment_later_she_y|bc57cb5c70e1",
+    "original": " You watch her eyes go wide as saucers, and a moment later she yanks out the syringe and tosses it unceremoniously to the side. You’re not sure what happened, but it can’t be good!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00703165&gt;&gt; combatAppend(\" You watch her eyes go wide as saucers, and a moment later she yanks out the syringe and tosses it unceremoniously to the side. You’re not sure what happened, but it can’t be good!\",null,this)"
+  },
+  {
+    "key": "combat|i_Fucking_Bitch_i_Jezzy_reaches_back_towards_her_belt|d7c781543a23",
+    "original": "<i>“Fucking... Bitch...”</i> Jezzy reaches back towards her belt, her hand shaking clumsily. Producing another syringe, she raises up to her neck again, jabbing herself in the same spot as before.\\n\\t\\t\\t\\n\\t\\t\\t<i>“Hnnnnn,”</i> Jezzy shudders, her jaw going slack. You notice her skin starting to prickle, covered in goosebumps. Her eyes flutter and dilate once more, gazing off into the distance awkwardly as the drug courses through her. Lazily, she tosses the syringe aside, turning her attention back to you.\\n\\n\\t\\t\\t<i>“I’m... gonna kick... both your asses...”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00704130&gt;&gt; combatOutput(\"<i>“Fucking... Bitch...”</i> Jezzy reaches back towards her belt, her hand shaking clumsily. Producing another syringe, she raises up to her neck again, jabbing herself in the same spot as before.\\n\\t\\t\\t\\n\\t\\t\\t<i>“Hnnnnn,”</i> Jezzy shudders, her jaw going slack. You notice her skin ..."
+  },
+  {
+    "key": "combat|i_You_Are_So_i_Jezzy_s_quivering_hand_fiddles_awkw|04b27ca00bf8",
+    "original": "<i>“You... Are... So...”</i> Jezzy’s quivering hand fiddles awkwardly with a syringe on her belt, but it drops to the floor and bounces away with a tinkling sound. <i>“Fuck,”</i> she licks her lips, swaying slightly as she reaches for another one. Getting a hold of it, then slowly raising it up to her neck, you can see her hand is quivering with the effort. You think to yourself she’s shaking so hard, there’s no way she’s going to find the vein.\\n\\n\\t\\t\\tIt takes three jabs before she does.\\n\\n\\t\\t\\t<i>“HNNNNNN, FUUUUU-CK MEEEEE,”</i> the voluptuous gabilani almost doubles over, her head swinging about roughly. After a beat, she jerks upright, staring at you with the widest eyes you’ve ever seen. She’s tweaking out, every muscle in her face twitching, her green flesh flushed and sweaty. Licking her lips, she rasps over to you. <i>“Oh fuck, you’re fucking glowing...”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00705522&gt;&gt; combatOutput(\"<i>“You... Are... So...”</i> Jezzy’s quivering hand fiddles awkwardly with a syringe on her belt, but it drops to the floor and bounces away with a tinkling sound. <i>“Fuck,”</i> she licks her lips, swaying slightly as she reaches for another one. Getting a hold of it, then slowly rais..."
+  }
+]

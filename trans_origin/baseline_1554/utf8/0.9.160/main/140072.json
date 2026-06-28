@@ -1,0 +1,86 @@
+[
+  {
+    "key": "textify|You_start_shaking_the_vial_as_per_instructions_but_then_stop_a|5654642808df",
+    "original": "You start shaking the vial, as per instructions, but then stop as you truly consider what you’re doing. You have no idea what havoc this serum can potentially wreak on your body and mind. Surely, it would just be easier to just accept yourself for what you are now rather than taking that unnecessary risk. After all, you’ve been incubating plenty of bothrioc eggs and you’re mostly fine. Happier even. Eventually, you stop shaking the bottle, instead shaking your head dismissively. Better the devil you know than the devil you don’t. <b>You’re too hopelessly addicted to use this!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06296366&gt;&gt;"
+  },
+  {
+    "key": "textify|Shaking_the_vial_well_you_press_the_syringe_into_your_side_and|33ca6365dd87",
+    "original": "Shaking the vial well, you press the syringe into your side and inject the anti-oil. You don’t know what to expect and wonder how long this is going to take. Just in case, you make your way to your bedroom and have a seat.\\n\\n\\t\\t\\tAfter quite a while, you start thinking about getting up and going about your business, until you start feeling rather feverish. You feel tired and excited, itchy and tender, all at the same time. You wind up taking off your [pc.armor] and [pc.upperUndergarment] and lie down on your bed.\\n\\n\\t\\t\\tYou don’t remember when you lost consciousness, only when the sounds grew distant and dim, while the lights burned shades of brown and yellow. You also remember waking up in a quagmire of your own sweat and blood. You roll slowly out of bed, shaky and unsure but managing to stand on your [pc.feet]. Despite everything, you seem acutely aware of your own thoughts and feelings. More than you probably ever did before. Maybe it’s purely psychological, physical, or some combination in between, but the pain of what you just went through has implanted you with a real and tangible grasp on the reality of life. You cannot go through life blissfully unaware or hoping that you will never get hurt like that again. Nodding to yourself, you leave the room, knowing that that warm bliss and promise of sweet surrender from bothrioc oils will have no staying power on you.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06297060&gt;&gt;"
+  },
+  {
+    "key": "perk|Bothrioc_Oil_Immunity|d87955646d13",
+    "original": "Bothrioc Oil Immunity",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06298541&gt;&gt; createPerk(\"Bothrioc Oil Immunity\",0,0,0,0,\"Thanks to the efforts of Dr. Lessau, he has been able to bridge the biological and cultural gap between bothrioc and other aliens. You no longer gain addiction from bothrioc oil.\")"
+  },
+  {
+    "key": "textify|Shaking_the_vial_well_you_press_the_syringe_into_your_side_and|ba7c44a82eb5",
+    "original": "Shaking the vial well, you press the syringe into your side and inject the anti-oil. You don’t know what to expect, so you tell Bridget that you’re going to be staying in the nursery for a little while.\\n\\n\\t\\t\\tAfter quite a while, you start thinking about getting up and going about your business, until you start feeling rather feverish. You feel tired and excited, itchy and tender, all at the same time. You wind up taking off your [pc.armor] and [pc.upperUndergarment] and lie down on your bed. During your malaise and nausea, you remember Bridget coming into your room to check on you. Placing an ice pack on your forehead and sitting beside you in bed.\\n\\n\\t\\t\\tYou don’t remember when you lost consciousness, only when the sounds grew distant and dim, while the lights burned shades of brown and yellow. You also remember waking up in a quagmire of your own sweat and blood. You roll slowly out of bed, shaky and unsure but managing to stand on your [pc.feet]. Despite everything, you seem acutely aware of your own thoughts and feelings. More than you probably ever did before. Maybe it’s purely psychological, physical, or some combination in between, but the pain of what you just went through has implanted you with a real and tangible grasp on the reality of life. You cannot go through life blissfully unaware or hoping that you will never get hurt like that again. Nodding to yourself, you leave the room, knowing that that warm bliss and promise of sweet surrender from bothrioc oils will have no staying power on you.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06298814&gt;&gt;"
+  },
+  {
+    "key": "perk|Bothrioc_Oil_Immunity|d87955646d13#1",
+    "original": "Bothrioc Oil Immunity",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06300432&gt;&gt; createPerk(\"Bothrioc Oil Immunity\",0,0,0,0,\"Thanks to the efforts of Dr. Lessau, he has been able to bridge the biological and cultural gap between bothrioc and other aliens. You no longer gain addiction from bothrioc oil.\")"
+  },
+  {
+    "key": "textify|You_re_not_exactly_sure_what_this_will_do_or_how_much_it_might_i|4bb990d490f9",
+    "original": "You’re not exactly sure what this will do or how much it might incapacitate you. You should get back to somewhere with medical staff, like your Nursery, or at least inside you Ship before trying the Anti-Oil.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06300686&gt;&gt;"
+  },
+  {
+    "key": "button|Next|4ed160de3ffd",
+    "original": "Next",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06300968&gt;&gt; addButton(0,\"Next\",this.returnToInventory,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|4ed160de3ffd",
+    "original": "Next",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06300998&gt;&gt; addButton(0,\"Next\",this.returnToInventory,\"Next\",\"\")"
+  },
+  {
+    "key": "assign|Bothrioc_Anti_Oil|def4f9d410c0",
+    "original": "Bothrioc Anti-Oil",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06295374&gt;&gt;"
+  },
+  {
+    "key": "assign|a_small_vial_labeled_anti_oil|18ab39bda7e8",
+    "original": "a small vial labeled “anti-oil”",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06295483&gt;&gt;"
+  },
+  {
+    "key": "assign|A_small_vial_and_syringe_containing_the_cure_to_Bothrioc_Oil_Add|0e6591c3955a",
+    "original": "A small vial and syringe containing the cure to Bothrioc Oil Addiction. Just one dose, and you will never have to worry about abandoning everything to join a quadomme’s harem. The antivenom itself is incredibly clear, to the point where you are almost unsure if it is actually there in the vial.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06295527&gt;&gt;"
+  },
+  {
+    "key": "output.expr|var0_var1_uses_the_syringe_to_no_effect|840493c0e275",
+    "original": "{var0}+{var1}+\" uses the syringe to no effect.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06296069&gt;&gt; &lt;&lt;VARS:var0=e.capitalA,var1=e.short&gt;&gt; output(e.capitalA+e.short+\" uses the syringe to no effect.\")"
+  }
+]

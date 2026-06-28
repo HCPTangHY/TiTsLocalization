@@ -1,0 +1,44 @@
+[
+  {
+    "key": "assign|a_shoulder_grunch_leash|f04561baeffa",
+    "original": "a shoulder grunch leash",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05410903&gt;&gt; ase(e.longName)),e.description='a shoulder grunch leash'"
+  },
+  {
+    "key": "assign|This_leash_leads_back_to_the_small_shoulder_mounted_acid_spitte|49bfbae45392",
+    "original": "This leash leads back to the small, shoulder-mounted acid-spitter you rented from Maja. So long as you equip it in your accessory slot, it will do what it can to assist you in combat, even if its idea of assistance is vomiting acid everywhere.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05410939&gt;&gt; oulder grunch leash\",e.tooltip='This leash leads back to the small, shoulder-mounted acid-sp'"
+  },
+  {
+    "key": "assign|shoulder_grunch_leash|9f56e8ff9565",
+    "original": "shoulder grunch leash",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05410808&gt;&gt; hortName=\"SG.Leash\",e.longName='shoulder grunch leash'"
+  },
+  {
+    "key": "combat|concat_o_Your_h_m_capitalize_h_m_possessive_e_getCombatName|b4e9d253e490",
+    "original": "\".concat(o?\"Your\":h.m.capitalize(h.m.possessive(e.getCombatName()),!1),\" tiny grunch rears back before spraying acid on \").concat(o?\"you\":t.getCombatName(),\".\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05411770&gt;&gt; combatOutput(\"\".concat(o?\"Your\":h.m.capitalize(h.m.possessive(e.getCombatName()),!1),\" tiny grunch rears back before spraying acid on \").concat(o?\"you\":t.getCombatName(),\".\"),null,e)"
+  },
+  {
+    "key": "combat|b_concat_isSillyModeEnabled_Such_Sunder_Wow_This_sunde|89917dbb7b9d",
+    "original": "<b>\".concat(isSillyModeEnabled()?\"Such Sunder! Wow!\":\"This sunders \".concat(t.getCombatName(),\".\"),\"</b>\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05412098&gt;&gt; combatAppend(\"\\n<b>\".concat(isSillyModeEnabled()?\"Such Sunder! Wow!\":\"This sunders \".concat(t.getCombatName(),\".\"),\"</b>\"))"
+  },
+  {
+    "key": "combat|The_grunch_whips_its_head_around_and_belches_brewing_up_another|b499608017b7",
+    "original": "The grunch whips its head around and belches, brewing up another vat of acid.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05412247&gt;&gt; combatOutput(\"The grunch whips its head around and belches, brewing up another vat of acid.\",null,e)"
+  }
+]

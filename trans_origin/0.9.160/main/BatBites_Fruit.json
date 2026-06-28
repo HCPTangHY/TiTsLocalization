@@ -1,0 +1,443 @@
+[
+  {
+    "key": "assign|Box_of_Night_Bites|c495fc7c732a",
+    "original": "Box of Night Bites",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09048488&gt;&gt;"
+  },
+  {
+    "key": "assign|a_box_of_Night_Bites|7b21b45b707a",
+    "original": "a box of Night Bites",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09048580&gt;&gt;"
+  },
+  {
+    "key": "assign|Originally_designed_as_a_party_favor_for_Halloween_celebrations|7e5767993652",
+    "original": "Originally designed as a party favor for Halloween celebrations, this bat-themed transformative proved popular enough to be sold year-round. These transformative chocolates are presented in a box, rather than the individual format better suited to mixing into a bowl for unsuspecting partygoers. [isHalloweenish|This particular box is themed to the season, striped in black and orange and decorated with cheesy- and risque- pictures of busty, corseted vampire batgirls and muscular man-bats with suggestive fruit censors.]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09048613&gt;&gt;"
+  },
+  {
+    "key": "output.expr|var0_var1_consumes_the_Night_Bites_box_to_no_effect|1a27bd96eb44",
+    "original": "{var0}+{var1}+\" consumes the Night Bites box to no effect.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09049433&gt;&gt; &lt;&lt;VARS:var0=e.capitalA,var1=e.short&gt;&gt; output(e.capitalA+e.short+\" consumes the Night Bites box to no effect.\")"
+  },
+  {
+    "key": "textify|Which_flavor_will_you_choose|e0dcaacbe64a",
+    "original": "Which flavor will you choose?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09049620&gt;&gt;"
+  },
+  {
+    "key": "button|Fruit|c394f45d7aef",
+    "original": "Fruit",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09049687&gt;&gt; addButton(0,\"Fruit\",(function(){return t.useText(e,0)}),\"Fruit\",\"For those looking to become a fruit bat, a white chocolate bonbon with dried mango and cashews in the shape of a banana bunch.\")"
+  },
+  {
+    "key": "button.hover|Fruit|c394f45d7aef",
+    "original": "Fruit",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09049731&gt;&gt; addButton(0,\"Fruit\",(function(){return t.useText(e,0)}),\"Fruit\",\"For those looking to become a fruit bat, a white chocolate bonbon with dried mango and cashews in the shape of a banana bunch.\")"
+  },
+  {
+    "key": "button.tooltip|For_those_looking_to_become_a_fruit_bat_a_white_chocolate_bonbo|a4fb22016754",
+    "original": "For those looking to become a fruit bat, a white chocolate bonbon with dried mango and cashews in the shape of a banana bunch.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09049739&gt;&gt; addButton(0,\"Fruit\",(function(){return t.useText(e,0)}),\"Fruit\",\"For those looking to become a fruit bat, a white chocolate bonbon with dried mango and cashews in the shape of a banana bunch.\")"
+  },
+  {
+    "key": "button|Vamp|56a243e6eeb9",
+    "original": "Vamp",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09049881&gt;&gt; addButton(1,\"Vamp\",(function(){return t.useText(e,1)}),\"Vamp\",\"For those seeking the vampire bat look, an iron-rich, droplet-shaped dark chocolate filled with a syrup of blood orange and blackstrap molasses.\")"
+  },
+  {
+    "key": "button.hover|Vamp|56a243e6eeb9",
+    "original": "Vamp",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09049924&gt;&gt; addButton(1,\"Vamp\",(function(){return t.useText(e,1)}),\"Vamp\",\"For those seeking the vampire bat look, an iron-rich, droplet-shaped dark chocolate filled with a syrup of blood orange and blackstrap molasses.\")"
+  },
+  {
+    "key": "button.tooltip|For_those_seeking_the_vampire_bat_look_an_iron_rich_droplet_sh|88a99e391ec1",
+    "original": "For those seeking the vampire bat look, an iron-rich, droplet-shaped dark chocolate filled with a syrup of blood orange and blackstrap molasses.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09049931&gt;&gt; addButton(1,\"Vamp\",(function(){return t.useText(e,1)}),\"Vamp\",\"For those seeking the vampire bat look, an iron-rich, droplet-shaped dark chocolate filled with a syrup of blood orange and blackstrap molasses.\")"
+  },
+  {
+    "key": "button|Generic|f1b425ef771c",
+    "original": "Generic",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09050091&gt;&gt; addButton(2,\"Generic\",(function(){return t.useText(e,2)}),\"Generic\",\"No preference? No problem! This grub-shaped milk chocolate comes mixed with bug-shaped gummies...\")"
+  },
+  {
+    "key": "button.hover|Generic|f1b425ef771c",
+    "original": "Generic",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09050137&gt;&gt; addButton(2,\"Generic\",(function(){return t.useText(e,2)}),\"Generic\",\"No preference? No problem! This grub-shaped milk chocolate comes mixed with bug-shaped gummies...\")"
+  },
+  {
+    "key": "button.tooltip|No_preference_No_problem_This_grub_shaped_milk_chocolate_comes|15981c73482b",
+    "original": "No preference? No problem! This grub-shaped milk chocolate comes mixed with bug-shaped gummies...",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09050147&gt;&gt; addButton(2,\"Generic\",(function(){return t.useText(e,2)}),\"Generic\",\"No preference? No problem! This grub-shaped milk chocolate comes mixed with bug-shaped gummies...\")"
+  },
+  {
+    "key": "textify|There_s_a_feeling_at_your_back_like_your_shoulders_tightening_t|b1d4ef409697",
+    "original": "There’s a feeling at your back like your shoulders tightening, the skin and muscle extending out behind you as it divests from the bulk of your body. The growths smooth out as they stretch away and soon your <b>newly grown bat wings</b> are fully formed and functional, with leathery membranes spread between delicate finger-bones.[var0| After a moment, the [pc.skinTone] skin begins to itch, heralding the spread of fur over your wing backs. The silky fluff keeps the delicate arms’s dorsal sides nice and warm.] They’re not large enough to fly with, but a few more of these candies ought to take care of things... should you want them to be.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09053635&gt;&gt;"
+  },
+  {
+    "key": "textify|The_surface_of_your_pc_wings_begins_to_itch_and_peel_scales_c|090af695cfa9",
+    "original": "The surface of your [pc.wings] begins to itch and peel, scales curling up at their edges and fraying apart into thin filaments as you shift them about. Your <b>new bat wings</b> aren’t all that different from their previous iteration, including their size; the main difference is[var0| the layer of silky fluff spread over the bulk of the ‘hand’ portion and] their newborn lack of scales, the membranes smooth and leathery. You flex them once or twice, grinning.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09054471&gt;&gt;"
+  },
+  {
+    "key": "textify|With_a_sound_like_several_dozen_knuckles_cracking_the_bones_of|b3ed3d59499b",
+    "original": "With a sound like several dozen knuckles cracking, the bones of your wings flex and expand, going from miniature to massive in the span of a minute. The skin spread between them extends at the same pace until your wingspan is more than triple what it used to be! [var0|Proportionally less of them is furred now, leaving your now full-sized bat wings much less cuddly|Your now full-sized bat wings are much less cutesy] but <i>much</i> more useful - a single, full-length flap from them is [pc.isTaur|enough to lift your forelegs into the air with ease, although your backmost set remains firmly planted on the ground. With such a significant counterbalance, you’re probably going to need some practice if you want to actually fly straight... <b>You have large bat wings!</b>|enough to lift your feet from the ground with ease. You might need some practice, but you’ll definitely be able to fly with these babies! <b>You have large bat wings!</b>]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09055120&gt;&gt;"
+  },
+  {
+    "key": "textify|Your_pc_wings_feel_var0_s_i_sick_i_all_of_a_sudden_lim|c2916cc85b03",
+    "original": "Your [pc.wings] feel[var0|s]... <i>sick</i> all of a sudden, limp and listless where [var0|it sits|they sit] on your back. Any attempt to move [var0|it|else] gets more fruitless by the moment as [var1|the poor fin can no longer support its own cartilaginous weight and slumps,|the poor things start shedding their feathers with even the slightest movement,|scales start to flake away from their delicate tops, dissolving into dust,|the lengths of your back tentacles spool out from their concealment, still flaccid and yet already shrivelling,|[var0|the poor thing grows numb,|the poor things grow numb,]] and just as you consider finding yourself a doctor, [var0|it sloughs|they slough] right off!\\n\\t\\t\\n\\t\\tThe process is thankfully painless and your unfortunate [pc.wings] dissolve into nothingness shortly after, but <b>you’re still wingless now!</b>\\n\\n\\t\\tOut with the old and in with the new, you guess....",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09056238&gt;&gt;"
+  },
+  {
+    "key": "textify|var0_n_t_t_t_After_a_couple_seconds_of_nothing_your_pc_tongue|20cb4f25b47f",
+    "original": "[var0\\n\\t\\t\\t|After a couple seconds of nothing, your [pc.tongue] starts to feel thick where it sits, heavy and unresponsive between your teeth in spite of any attempts to move it left or right. Your jaw works just fine however, and when your mouth opens the reason for that numbness unfurls in dramatic fashion.\\n\\t\\t\\t\\n\\t\\t\\tThe serpentine length of your <b>freshly-modded bat tongue</b> comes spilling forth from between your [pc.lipColor] lips, pink and pointed and long enough to brush your thighs when fully extended. It takes another half-minute for the nerves to right themselves and respond to your attempts at moving the thing, sending its sinuous length swinging before it slips back into your mouth while the majority rests in the back of your throat.\\n\\t\\t\\t\\n\\t\\t\\t[pc.willpowerRange 75\\n\\t\\t\\t\\t|Your good sense wins out before you can succumb to the urge to [pc.hasCock\\n\\t\\t\\t\\t\\t|suck yourself off\\n\\t\\t\\t\\t\\t|eat yourself out\\n\\t\\t\\t\\t] where you stand, no matter how tempting the idea might be.\\n\\t\\t\\t\\t|The thought of your new appendage [var1\\n\\t\\t\\t\\t\\t|wrapped around your [pc.cock][pc.hasBalls\\n\\t\\t\\t\\t\\t\\t| and sack,\\n\\t\\t\\t\\t\\t] milking out thick ropes of liquid excitement while simultaneously massaging your g-spot and [pc.clit] until you gush from both sets of organs\\n\\t\\t\\t\\t\\t|wrapped around your [pc.cock][pc.hasBalls\\n\\t\\t\\t\\t\\t\\t| and sack simultaneously\\n\\t\\t\\t\\t\\t], milking out thick ropes of liquid excitement\\n\\t\\t\\t\\t\\t|slurping your [pc.clit] and massaging your g-spot simultaneously, streams of liquid pleasure drooling down your thighs\\n\\t\\t\\t\\t\\t|plunging itself deep into your ass, hands-free and standing,\\n\\t\\t\\t\\t] drives you absolutely wild, kicking your lust up to a fever pitch. It’s nearly impossible to keep yourself from stripping here and now!\\n\\t\\t\\t]\\n\\t\\t\\t\\n\\t\\t\\t[pc.isBimbo\\n\\t\\t\\t\\t|Ooh, but it’s so tempting! And if it makes ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09057681&gt;&gt;"
+  },
+  {
+    "key": "textify|then_it_d_only_be_right_to_give_them_a_turn_too_n_t_t_t_n_t|58c66872cc75",
+    "original": ", then it’d only be right to give them a turn too!\\n\\t\\t\\t]\\n\\t\\t\\t|After a couple seconds of nothing, your [pc.tongue] starts to feel numb where it sits, limp and sluggish no matter how you attempt to direct it to move about. Your jaw works just fine however, and when your mouth falls open you stumble backward in alarm.\\n\\t\\t\\t\\n\\t\\t\\tA veritable waterfall of drool cascades from between your [pc.lips] and beneath it juts your newly-modified <b>bat tongue</b>, wide, pink and pointed, staying slick and silky even as your unexpected salivary deluge tapers off. The return of natural lubrication to your oral orifice feels... different somehow; less soothing. Unexpected heat builds in the back of your throat and along your lips where any residual drool remains, coating your mouth and especially your freshly changed tongue in a warm, tingly liquid.\\n\\t\\t\\t\\n\\t\\t\\t[var4\\n\\t\\t\\t\\t|The familiar sensation registers between your legs before your brain fully processes it — your mouth is producing a potent aphrodisiac just like that of a red myr!\\n\\t\\t\\t\\t|[var3\\n\\t\\t\\t\\t\\t|It sounds similar to the myr venom their Codex page mentioned — perhaps some kind of aphrodisiac? Do bats have that? Does it matter?\\n\\t\\t\\t\\t\\t|The longer you leave it, the more it lingers, quickening your breath and causing a flutter low in your stomach but not progressing much further. It seems your new tongue comes with an aphrodisiac twist.\\n\\t\\t\\t\\t]\\n\\t\\t\\t]\\n\\t\\t\\t\\n\\t\\t\\t[pc.willpowerRange 75\\n\\t\\t\\t\\t|Your good sense asserts itself before you get the chance to see just how high your own supply is able to take you, no matter how tempting the idea might be.\\n\\t\\t\\t\\t|You stand there for a while, first drawing more of the salacious fluid from whatever new gland is producing it out of curiosity, then out of lust as direct consumption fogs your mind further. The arousal pounding in your [pc.crotch] is already at a fever pitch; it takes everything you have to keep from playing with yourself here and now!\\n\\t\\t\\t]\\n\\t\\t\\t\\n\\t\\t\\t[pc.isBimbo\\n\\t\\t\\t\\t|Ohh, but it’s sooo hard! Why <i>shouldn’t</i> you suck down as much as you can and ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09059576&gt;&gt;"
+  },
+  {
+    "key": "textify|Just_thinking_about_it_is_making_you_thirsty_n_t_t_t_n_t_t|40980a4adeb3",
+    "original": " Just thinking about it is making you thirsty!\\n\\t\\t\\t]\\n\\t\\t]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09061708&gt;&gt;"
+  },
+  {
+    "key": "textify|There_s_a_feeling_at_your_lower_back_like_something_tickling_dow|181e7008d0fc",
+    "original": "There’s a feeling at your lower back like something tickling down your spine and you shiver reflexively. [var0| Your [var1|tails seize|tail seizes] up at the same time, going limp. The muscles clench tight and curl in on themselves, condensing into a miniscule nub from which sprouts new growth.|The flesh at the base of your spine bunches up into a miniscule nub, and from this sprouts new growth - the start of your brand new tail!]\\n\\t\\t\\n\\t\\t[var2|The fresh appendage grows long and thin like that of a Terran mouse, although the resemblance is lessened as a fine coat of fuzz spreads down its length. This is not the only change coming to your new limb, either: just above your butt, the skin stretches and spreads on either side of your tail, expanding down along the sides until it forms the shape of a <b>proper bat tail</b>. Although, with a tail as long as yours, the membrane only reaches about halfway down, forming a small pair of sails to catch the air.|The fresh appendage grows long and thin, similar to that of a Terran mouse. As you attempt to move it, just above your [pc.buttDescript] the skin stretches and spreads on either side of your tail, expanding down along the sides until it forms the triangular shape of a <b>proper bat tail</b>. Although, with a tail as long as yours the membrane only reaches about halfway down, forming a small pair of sails to catch the air.|The thing is fairly short and conical, barely visible as you twist your head around to look. A light layer of silky fluff spreads down its stubby length as well, but that isn’t the only change coming to your new limb. Just above your [pc.butt] the skin stretches and spreads on either side of your tail, expanding down along the sides until it forms the shape of a <b>proper bat tail</b>. The membranes trail all the way to the end, being composed of bare, leathery skin unlike the main body of your appendage.\\n\\n\\t\\tDespite the way it covers your [pc.butt], the skin is flexible enough that it doesn’t get in the way.|The thing is fairly short and conical, barely visible as you twist your head around to look. The bare skin looks naked and incomplete, but it doesn’t stay that way for long. Just above your [pc.buttDescript], the skin stretches and spreads on either side of your tail, growing down along the sides until it forms the shape of a <b>proper bat tail</b>. The membranes trail all the way to the end, the whole thing uniformly leathery with the flaps coming off the sides being a bit darker than the center.\\n\\t\\t\\n\\t\\tDespite the way it covers your [pc.butt], the skin is flexible enough that it doesn’t get in the way.]\\n\\t\\t\\n\\t\\t[pc.isBimbo|If anything, when laid flat over your backside, the lighter center and triangular membranes accent your rear-cleavage almost like a natural thong! Who needs silly <i>underwear</i> when your body already has it covered?]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09063010&gt;&gt;"
+  },
+  {
+    "key": "textify|The_warmth_in_your_throat_moves_up_into_your_mouth_mainly_focus|1fad2052089c",
+    "original": "The warmth in your throat moves up into your mouth, mainly focusing on your teeth as the canines grow longer and more pointed, sticking out from the corners of your lips as little fangs. It’s not <i>quite</i> the same as a bat’s face, but it’s certainly the start to a newer, more chiropteran you! <b>You now have ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09066276&gt;&gt;"
+  },
+  {
+    "key": "textify|a_bat_b|ab2433721165",
+    "original": " a bat!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09066593&gt;&gt;"
+  },
+  {
+    "key": "textify|Over_the_course_of_a_couple_seconds_an_itch_develops_throughout|dfa43992ed2e",
+    "original": "Over the course of a couple seconds an itch develops throughout your beak, burrowing down into the bone and tickling up into the depths of your nose like a sneeze that refuses to come. The sensation takes over the front of your face and pushes <i>inward</i>, forcing you to clench your watery eyes shut. There is an aggressive twist across the surface of your poor beak, digging into it like determined hands kneading at stubborn clay. While the sensation only lasts for about a minute in reality, it certainly <i>feels</i> like it takes much longer. Once it’s over, you check your reflection in your Codex, apprehensive about what you might find.\\n\\n\\t\\tThe face that peers back at you from the screen is flat and perfectly human, like you never had a beak at all! <b>You have a normal, human face!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09066843&gt;&gt;"
+  },
+  {
+    "key": "textify|For_a_moment_it_feels_like_you_re_about_to_sneeze_and_you_brace|49dc95c282a4",
+    "original": "For a moment it feels like you’re about to sneeze and you brace accordingly - but the actual sneeze never comes. Instead, the tension is transferred from the interior of your nose to the <i>exterior</i>. Cartilage and bone shift around beneath the skin like clay, your nose being tugged upward and outward with pressure building behind your teeth. Examining yourself in the reflection of your Codex reveals that your nose is [var0|shaped much like an inverse heart, with prominent nostrils below a fleshy peak.|almost but not quite canid - too round and wide in the nostrils to truly look vulpine rather than pteropine.] Your mouth is also the slightest bit more protrusive, forming a small muzzle as your canine teeth elongate and peek out over the edges of your [pc.lip]. <b>You now have a cute, bat-like face!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09067884&gt;&gt;"
+  },
+  {
+    "key": "textify|The_familiar_sense_of_a_sneeze_coming_on_once_again_wells_up_in|a00dc741e939",
+    "original": "The familiar sense of a sneeze coming on once again wells up in your nostrils and your mouth opens reflexively, only for the pressure to suddenly redirect. Your open mouth extends several inches out from your head, canine teeth elongating into sharp prominence as the rest taper into more rounded points. Your nostrils gradually upsize to match the dimensions of <b>your new bat snout</b>, [pc.hasFur|a light coat of fluff|velvety fuzz] softening the edges of your exotic visage.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09068976&gt;&gt;"
+  },
+  {
+    "key": "string.array|black_brown_red_blood_red_yellow_jet_black_onyx|51d64077381e",
+    "original": "[\"black\",\"brown\",\"red\",\"blood red\",\"yellow\",\"jet-black\",\"onyx\",\"sable\",\"bronze\",\"crimson\",\"ruby\",\"gold\",\"glowing red\",\"glowing gold\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09069543&gt;&gt;"
+  },
+  {
+    "key": "textify|What_the_Your_eyes_feel_like_they_re_bugging_out_of_your_head|52e0ea3c3c7c",
+    "original": "What the-?! Your eyes feel like they’re bugging out of your head! The swelling is overwhelming, your too-tight eyelids squeezing themselves shut around the inflating orbs and locking you into blind darkness for the moment. Panic wells up in your throat as your [pc.hands] scramble for your Codex — terrified you’ve developed some kind of allergic reaction to these candies — when the itchy, pins-and-needles sensation begins receding from your face almost as quickly as it began. Able to retract once more, your eyelids pop open easily... and looking at your reflection on the screen, what eyes they were hiding!\\n\\t\\t\\n\\t\\t[var0\\n\\t\\t\\t|Your glossy, new bat eyes are completely and utterly black, so much so that you can’t even find your own pupils in the Codex’s mirrored image. The shine from the display makes them look like nothing more than massive marbles, impenetrable and alien even to yourself. You rush to turn the brightness down a couple notches, now far more sensitive to that glow than you once were. And when they catch the light in just the right manner, their dark surface glows an eerie, solid red.\\n\\t\\t\\t|Your glossy new [pc.eyeColor] bat eyes look much wider than they feel, with large irises and tiny pupils, the effect landing somewhere between puppy-dog and disturbing depending on how you move your head. The screen glow coming off your Codex reflects in them like a mirror... and you rush to turn the brightness down a couple notches, now far more sensitive to that light than you once were. When the dimmed backlight catches them in the right manner, they gleam a solid, pupil-less [pc.eyeColor].\\n\\t\\t]\\n\\t\\t\\n\\t\\t[pc.nmh\\n\\t\\t\\t|You resolve to be more careful at night, lest you give [var1\\n\\t\\t\\t\\t|one of your crewmembers\\n\\t\\t\\t\\t|some poor passerby\\n\\t\\t\\t] a real fright in the dark. Although a smile might not be the way to disarm the impact of your eyes, with teeth like these... <b>You have eyes like a bat! </b>\\n\\t\\t\\t|A little intimidation factor never hurt anyone directly, did it? Besides, an edge of danger can often be quite enticing to a potential partner, even erotic. Danger like a set of bright, gleaming eyes and smirking set of fangs in the night. <b>You have eyes like a bat! </b>\\n\\t\\t\\t|With an otherworldly glare like yours, potential foes should definitely be thinking twice about waylaying you in the dark if they know what’s good for them. The flash of fang through a smirk or sneer should only enhance the effect. <b>You have eyes like a bat! </b>\\n\\t\\t]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09069900&gt;&gt;"
+  },
+  {
+    "key": "string.array|black_jet_black_dark_gray_silver_gray_gray_chocolate|baed75018404",
+    "original": "[\"black\",\"jet black\",\"dark gray\",\"silver-gray\",\"gray\",\"chocolate\",\"brown\",\"caramel\",\"orange\",\"white\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09072636&gt;&gt;"
+  },
+  {
+    "key": "output|The_skin_beneath_your_feathers_starts_to_prickle_then_tingle_ag|66295f9c6531",
+    "original": "The skin beneath your feathers starts to prickle, then tingle aggressively, then itch like crazy. Before you get the chance to start scratching at yourself though, your beautiful plumage begins to crumble into dust! Your skin does not become bare, however — the ragged, sagging remnants of your feather shafts soften and separate, and soon after your body is covered in a ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09072929&gt;&gt;"
+  },
+  {
+    "key": "output|silky_luxuriant_coat|92923119dfd7",
+    "original": "silky, luxuriant coat",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09073314&gt;&gt;"
+  },
+  {
+    "key": "output|soft_velveteen_coating|449555c8512a",
+    "original": "soft, velveteen coating",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09073346&gt;&gt;"
+  },
+  {
+    "key": "output|of_pc_furColor_fur_b_You_have_pc_furColor_fur_just_like|8373c2fe5363",
+    "original": " of [pc.furColor] fur! <b>You have [pc.furColor] fur, just like a bat!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09073380&gt;&gt;"
+  },
+  {
+    "key": "output|Your_pc_scaleColor_scales_rapidly_begin_to_lose_their_luster|bea8ddafb14c",
+    "original": "Your [pc.scaleColor] scales rapidly begin to lose their luster, becoming more and more drab and matte as the hidden skin beneath starts to itch up a storm. At the slightest movement they begin tumbling off to the ground, peeling away as your increasingly-bare flesh puffs painlessly outward, and with a ‘pop’ the spontaneous growth ends!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09073482&gt;&gt;"
+  },
+  {
+    "key": "output.expr|What_you_took_for_bare_skin_was_in_fact_var0_a_large_amo|10dfef98ba91",
+    "original": "What you took for bare skin was, in fact, \"+({var0}?\"a large amount of silky, luxurious\":\"an unexpected new layer of velveteen\")+\" [pc.furColor] fur! <b>You have [pc.furColor] fur, just like a bat!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09073834&gt;&gt; &lt;&lt;VARS:var0=t&gt;&gt; output(\"\\n\\nWhat you took for bare skin was, in fact, \"+(t?\"a large amount of silky, luxurious\":\"an unexpected new layer of velveteen\")+\" [pc.furColor] fur! <b>You have [pc.furColor] fur, just like a bat!</b>\")"
+  },
+  {
+    "key": "output|There_s_a_strange_sort_of_pressure_coming_from_under_your|d203b5813272",
+    "original": "There’s a strange sort of pressure coming from under your ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09074043&gt;&gt;"
+  },
+  {
+    "key": "output|pc_scaleColor|523bdc9e8a7a",
+    "original": "[pc.scaleColor]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09074127&gt;&gt;"
+  },
+  {
+    "key": "output|pc_skinTone|0ab7dd9b8345",
+    "original": "[pc.skinTone]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09074153&gt;&gt;"
+  },
+  {
+    "key": "output.expr|pc_skinFurScalesNoun_an_uncomfortable_and_unrelenting_sensat|30393e871006",
+    "original": " [pc.skinFurScalesNoun], an uncomfortable and unrelenting sensation pushing its way out from just beneath the surface. <i>Literally</i> pushing its way out, it would seem — a quantity of little hairs are sprouting out from almost every inch of your [pc.skinFurScalesNoun]! They elongate until you’re covered in \"+({var0}?\"a lengthy, silken coat of\":\"an even coating of velvety\")+\" [pc.furColor] fur from head to [pc.feet]! <b>You have [pc.furColor] fur, just like a bat!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09074177&gt;&gt; &lt;&lt;VARS:var0=t&gt;&gt; output(\" [pc.skinFurScalesNoun], an uncomfortable and unrelenting sensation pushing its way out from just beneath the surface. <i>Literally</i> pushing its way out, it would seem — a quantity of little hairs are sprouting out from almost every inch of your [pc.skinFurScalesNoun]! They elongate until you’re covered in \"+(t?\"a lengthy, silken coat of\":\"an even coating of velvety\")+\" [pc.furColor] fur from head to [pc.feet]! <b>You have [pc.furColor] fur, just like a bat!</b>\")"
+  },
+  {
+    "key": "textify|Your_ears_sink_into_your_head_the_world_around_you_going_muffle|693c6f4d458e",
+    "original": "Your ears sink into your head, the world around you going muffled in the process. There’s a stretching sensation at the sides of your head like someone pulling taffy as they grow back out and reshape, becoming [var0\\n\\t\\t\\t|wide\\n\\t\\t\\t|wide-set, a bit stubby\\n\\t\\t\\t|tall\\n\\t\\t] and pointed, [var1\\n\\t\\t\\t|as well as gaining a soft new coating of fur\\n\\t\\t\\t|as well as gaining a thin coating of velveteen fuzz\\n\\t\\t].\\n\\t\\t\\n\\t\\t[var2\\n\\t\\t\\t|Despite their prim and pointed shape, for some reason your ears’ triangular tips soon begin sagging lower and lower. Your ears are losing their rigidity, falling down and behind your head until they hang [var3\\n\\t\\t\\t\\t|down to the middle of your back, slightly in the way of your [pc.hasWings\\n\\t\\t\\t\\t\\t|wings\\n\\t\\t\\t\\t\\t|shoulders\\n\\t\\t\\t\\t].\\n\\t\\t\\t\\t|to your waist, creating something of a turning hazard.\\n\\t\\t\\t\\t|all the way to your thighs, presenting something of an obstacle to your[pc.hasWings\\n\\t\\t\\t\\t\\t|\\n\\t\\t\\t\\t\\t| potential\\n\\t\\t\\t\\t] flying ability.\\n\\t\\t\\t\\t|huge and heavy all the way to the floor, just barely clear from being trampled by passers-by.\\n\\t\\t\\t\\t|down by your shoulders, wobbling horizontally when you move your head.\\n\\t\\t\\t] You stroke the length of your unusual <b>lop-bat ears</b> in wonder, marvelling at the size of them. They <i>are</i> still powerful aural appendages like you’d expect; the world around you is well amplified, as they catch sound from farther than ever... so long as you can keep them from flopping in front of your actual ear holes, that is.\\n\\t\\t\\t\\n\\t\\t\\t[pc.isBimbo\\n\\t\\t\\t\\t|Why, your hearing is so good you could find a hard dick or juicy pussy in an empty room with your eyes closed and your nose plugged — guided only by the throb of its pulse painting lurid pictures directly into your mind’s eye. Hell, you could probably pick up the sound of pants tenting (or panties juicing) before their owner even knows how ready they are to <i>fuck</i>.\\n\\t\\t\\t\\t\\n\\t\\t\\t\\tAnd best of all? Huge, heavy, low-hangers like yours are <i>totally</i> perfect for playing with! Grabbing, pulling, pinching, caressing... whether you’re being dragged down into some cutie’s musky crotch or having your pointed pinnae used as handlebars during doggy, you’re as fuckable as they come, baby!\\n\\t\\t\\t]\\n\\t\\t\\t|[pc.isBimbo\\n\\t\\t\\t\\t|Your <b>totally cute new bat ears</b> are super-duper good at hearing! The softest whimpers and the neediest moans... all that and more could be delivered straight to your brain’s pleasure centers with haste by your perfectly-crafted aural appendages. You could probably find a hard dick or juicy pussy in an empty room with your eyes closed and your nose plugged — guided only by the throb of its pulse painting lurid pictures directly into your mind’s eye.\\n\\t\\t\\t\\t\\n\\t\\t\\t\\tBrushing over the silky surfaces in wonder, you tweak their tips, [pc.tongue] poking out in excitement. With prime listeners like these, you could even pick up the sound of pants tenting (or panties juicing) before their owner even knows how ready they are to <i>fuck</i>! You can’t wait to put your newfound skills to the test....\\n\\t\\t\\t\\t|Your <b>new bat ears</b> seem much more sensitive to the world around you, picking up on all kinds of new sounds and amplifying the ones you’ve always heard. If nothing else, you’ll probably never bump into a table or doorframe again, thanks to the increase in passive proprioception. Being able to sense the world around you with your eyes closed might take a bit of getting used to, though....\\n\\t\\t\\t]\\n\\t\\t]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09074890&gt;&gt;"
+  },
+  {
+    "key": "textify|var1_n_t_t_t_var0_n_t_t_t_t_Your_pc_fingers_suddenly_seize_u|52d4c272d5f0",
+    "original": "[var1\\n\\t\\t\\t|[var0\\n\\t\\t\\t\\t|Your [pc.fingers] suddenly seize up, the Night Bites box falling away from your frozen [pc.hands] as the muscles in your arms twitch and shift. [pc.hasFur\\n\\t\\t\\t\\t\\t|The [pc.furColor] coat spread over your [pc.fingers] softens, thick filaments growing smooth and silky before your very eyes as your digits slim down into a newer, gentler shape. Each digit is cutesy and delicate, tipped with a plush pad and a small, rounded claw.\\n\\t\\t\\t\\t\\t|Thin, luxuriant filaments spring forth from your [pc.arms] and trail down from shoulder to fingertips, wrapping your newly-slimmed digits in a coat of [pc.furColor] fur. They’ve compressed down into delicate points, topped with blunt little claws and lined with delicate pads on each finger and on the palm.\\n\\t\\t\\t\\t]\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\tYour <b>dainty new bat paws</b> barely look like they could swat a fly, let alone grip a gun or swing a weapon!\\n\\t\\t\\t\\t|Your [pc.fingers] suddenly seize up, the Night Bites box falling away from your frozen [pc.hands] as the muscles in your arms twitch and shift.\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t[pc.hasFur\\n\\t\\t\\t\\t\\t|The [pc.furColor] coat spread over your [pc.fingers] grows dry and brittle, flaking off before your very eyes as your digits slim down into a newer, gentler shape. Each digit is cutesy and delicate, tipped with a plush pad and a small, rounded claw.\\n\\t\\t\\t\\t\\t|The [pc.skinFurScalesNoun] spread over your digits smooths and flattens, growing a shade darker than the rest of your [pc.skin] as a tightness grips the ends of your [pc.fingers]. They compress down into delicate points topped with blunt little claws. Soft, gentle pads dot the underside of each finger and the palm.\\n\\t\\t\\t\\t]\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\tYour <b>dainty new bat paws</b> barely look like they could swat a fly, let alone grip a gun or swing a weapon!\\n\\t\\t\\t]\\n\\t\\t\\t\\t\\t\\n\\t\\t\\t[pc.isBimbo\\n\\t\\t\\t\\t|Not that something like that <i>worries</i> you. Smooth fingers and soft pads aren’t for punchy-shooty stuff. They’re for teasing all the fattest cocks and neediest clits... for pinching plump, milky teats and slipping into a needy cutie’s booty, duh! You won’t even have to trim your nails first! Having cute little batty paws will be, like, totally great!\\n\\t\\t\\t]\\n\\t\\t\\t|[var0\\n\\t\\t\\t\\t|Your [pc.fingers] suddenly seize up, the Night Bites box falling away from your frozen [pc.hands] as the muscles in your arms twitch and shift. [pc.hasFur\\n\\t\\t\\t\\t\\t|The [pc.furColor] coat on your [pc.arms] thickens, becoming coarse and wiry as your digits contort and expand into a newer, more powerful form. The hand itself remains bare and leathery, matched by a set of thick fingers ending in huge, hooked claws.\\n\\t\\t\\t\\t\\t|The [pc.skinFurScalesNoun] spread over your digits smooths and flattens, growing a shade darker than the rest of your [pc.skin] as the rest of your arm sprouts a thick, wiry coat of fur from the newly bared skin. A powerful heat grips your [pc.fingers] as they expand into huge, leathery things, your nails growing out into formidable talons.\\n\\t\\t\\t\\t]\\n\\t\\t\\t\\t|Your [pc.fingers] suddenly seize up, the Night Bites box falling away from your frozen [pc.hands] as the muscles in your arms twitch and shift. [pc.hasFur\\n\\t\\t\\t\\t\\t|The [pc.furColor] coat spread over your [pc.fingers] grows dry and brittle, flaking off before your very eyes as your digits contort and expand into a newer, more powerful form. Each arm is bare and leathery, matched by a set of thick fingers ending in huge, hooked claws.\\n\\t\\t\\t\\t\\t|The [pc.skinFurScalesNoun] spread over your digits smooths and flattens, growing a shade darker than the rest of your [pc.skin] as a powerful heat grips your [pc.fingers]. They contort and expand, becoming huge, leathery mitts as your nails grow out into formidable hooked talons.\\n\\t\\t\\t\\t]\\n\\t\\t\\t] You’re going to have to be careful with your <b>bulky new bat claws</b>- they look like they could do some serious damage if you’re not, to your gear and yourself.\\n\\t\\t]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09079092&gt;&gt;"
+  },
+  {
+    "key": "textify|var0_n_t_t_t_Very_abruptly_your_beastly_lower_half_goes_weak|739fc2de83d8",
+    "original": "[var0\\n\\t\\t\\t|Very abruptly, your beastly lower half goes weak, forcing you to your knees and then onto your secondary belly, lest you keel over and crack your head on an errant surface. While the frontmost set remains strong, your back set[pc.hasLegs 6\\n\\t\\t\\t\\t|s\\n\\t\\t\\t] of legs shudder and shake, pins and needles crawling up their bulk as you undergo whatever transformation these chocolates have in store for you.\\n\\t\\t\\t\\n\\t\\t\\tIt turns out to be quite the drastic one: there’s a grinding in your lower half’s back and sensation all but stops in [pc.hasLegs 6\\n\\t\\t\\t\\t|[pc.hasTail\\n\\t\\t\\t\\t\\t|your back sets of limbs, tail[pc.hasTails\\n\\t\\t\\t\\t\\t\\t|s\\n\\t\\t\\t\\t\\t] included!\\n\\t\\t\\t\\t\\t|your back sets of limbs!\\n\\t\\t\\t\\t]\\n\\t\\t\\t\\t|[pc.hasTail\\n\\t\\t\\t\\t\\t|your back limbs, tail[pc.hasTails\\n\\t\\t\\t\\t\\t\\t|s\\n\\t\\t\\t\\t\\t] included!\\n\\t\\t\\t\\t\\t|your back limbs!\\n\\t\\t\\t\\t]\\n\\t\\t\\t] Partial mobility at least remains in the front two legs, for all the good it does you. It certainly doesn’t make it easier to watch your back half shudder and seize, deadened nerves misfiring as the [pc.tailsRange 6\\n\\t\\t\\t\\t|mess\\n\\t\\t\\t\\t|pair\\n\\t\\t\\t] of limbs shucks off your body like a shed skin.\\n\\t\\t\\t\\n\\t\\t\\tYour microsurgeons set to work deconstructing it, using the raw material to change your [pc.legs] into a new set of bipedal limbs, [pc.hasTail\\n\\t\\t\\t\\t|as well as a copy of the tail[pc.hasTails\\n\\t\\t\\t\\t\\t|s\\n\\t\\t\\t\\t]\\n\\t\\t\\t\\t|as well as a copy of the [pc.ass]\\n\\t\\t\\t] that once resided on your tauric half.\\n\\t\\t\\t|The [var1\\n\\t\\t\\t\\t|leviathan\\n\\t\\t\\t\\t|serpentine\\n\\t\\t\\t] mass of your lower body shudders, going numb from tailtip to [pc.hip]. Tethered as you are to its weight, you have no choice but to sink to the ground once it becomes unresponsive. Scales rattle and shiver, rippling as the skin beneath seizes and twitches to the rhythm of some unknown transformative beat.\\n\\t\\t\\t\\n\\t\\t\\tMuch to your horror, that beat culminates in your serpent length splitting down its spine-line like a cocoon, revealing the newly formed shape of two distinct limbs amidst the dissipating scale-mass as your microsurgeons scrap your naga tail for the raw material to form a set of biped legs.\\n\\t\\t\\t|An inauspicious shiver ripples through your [pc.leg], one that makes your form bubble and writhe below the waist. The roiling continues as whatever transformation is taking place makes your lower body thoroughly unhappy before, to your shock, it splits down the middle!\\n\\t\\t\\t\\n\\t\\t\\tThe separated halves do not remain gooey, but begin to darken, becoming dry and opaque as your amoebic form loses its external malleability and condenses into a pair of solid lower limbs.\\n\\t\\t\\t|A tremor ripples its way down your legs, leaving you weak at the knees and numb in the [pc.feet]. Catching yourself on the nearest surface so you don’t tip over, you struggle to maintain balance as pins and needles rush through your lower limbs and they begin shifting before your very eyes.\\n\\t\\t\\t\\n\\t\\t\\t[var2\\n\\t\\t\\t\\t|There is a loud ‘crack’ as the keratin forming your hooves snaps and bends out of shape, molded and reshaped like clay by the transformative you’ve consumed.\\n\\t\\t\\t\\t|Your translucent limbs fold in on themselves, wedged like unwieldy clay into a uniform blob until they’re extruded back out into limbs by the transformative you’ve consumed.\\n\\t\\t\\t\\t|Each digit shifts under the skin, twitching and seizing in rippling motions until the involuntary movements peter out.\\n\\t\\t\\t]\\n\\t\\t]\\n\\t\\t\\n\\t\\t[var3\\n\\t\\t\\t|Your old [pc.feet] assume[pc.hasLegs 2\\n\\t\\t\\t\\t|\\n\\t\\t\\t\\t|s\\n\\t\\t\\t] the form of a small, almost doll-like set of paws. Your <b>new bat footpaws</b> are utterly non-threatening, furnished with plush pads and manicured claws that are completely at odds with your rough-and-tumble rusher lifestyle. These new limbs are [var4\\n\\t\\t\\t\\t|quite soft, having been covered in a coat of plush fuzz\\n\\t\\t\\t\\t|smooth and velveteen; your [pc.legFurScales] must have softened up\\n\\t\\t\\t] while you were busy trying to remain upright.\\n\\t\\t\\t\\n\\t\\t\\t[pc.isBimbo\\n\\t\\t\\t\\t|Your itty-bitty paws are soooo super cute! Maybe you should start wearing, like, bottomless shoes or something. You bet some hung stud out there would totally love to stick their fat, musky cock between a pair of snuggly little steppers like yours — they’re every bit as built for being fucked as the rest of you!\\n\\t\\t\\t]\\n\\t\\t\\t|Your old [pc.feet] assume[pc.hasLegs 2\\n\\t\\t\\t\\t|\\n\\t\\t\\t\\t|s\\n\\t\\t\\t] the form of a wicked set of sickle-shaped talons, sprouting from the altered bulk that now forms your <b>new set of bat footclaws</b>. Your paws are devoid of any other decoration, covered only by leathery skin [var4\\n\\t\\t\\t\\t|from ankle to toe. The rest of the leg has further shifted, a sparse pelt of coarse fur having sprouted\\n\\t\\t\\t\\t|all the way up to your [pc.hip]; your [pc.legFurScales] must have smoothed out while you were busy trying to remain upright.\\n\\t\\t\\t]\\n\\t\\t\\t\\n\\t\\t\\t[pc.isAmazon\\n\\t\\t\\t\\t|You flex your clawed toes, smirking to yourself. Honestly, you can’t wait to see the look on some simpering beta-bitch’s face when you trap his pathetic cock between your talons... a dominant thrill runs up your spine and rushes down to your [pc.crotch]. Dusting someone’s hips is all well and good, but it’s nice to add a step or two for variety — and ‘a step or two’ is exactly what you plan to do.\\n\\t\\t\\t\\t\\n\\t\\t\\t\\tHe’d cream himself stupid about it, of course; it’s what subby bitch-boy sluts are good for.\\n\\t\\t\\t]\\n\\t\\t]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09083455&gt;&gt;"
+  },
+  {
+    "key": "textify|The_nerves_in_your_tongue_spark_hot_and_bright_inside_your_mouth|4e743c4fd1e2",
+    "original": "The nerves in your tongue spark hot and bright inside your mouth, still covered in the lingering taste of delicious fruit and cream. Like a curious pet sniffing for treats it comes poking out through your lips in search of more, spooling its pointed, flexible length out until it dangles past [pc.isGoo|the base of your throat|your clavicles]. The way it is now is already akin to an extra limb, capable of reaching down past your [pc.chest] to your [pc.groin], but something in the back of your mind tells you you can go <i>further</i>.\\n\\t\\t\\n\\t\\tWithout thinking, [pc.isNaga\\n\\t\\t\\t|your [var0\\n\\t\\t\\t\\t|leviathan\\n\\t\\t\\t\\t|serpentine\\n\\t\\t\\t] length arches, curling up behind your upper body as your face travels south and nestles up against the point where humanoid meets [var0\\n\\t\\t\\t\\t|shark\\n\\t\\t\\t\\t|snake\\n\\t\\t\\t]. The motion is effortless, upper spine curving as easily as your tail. Not only could you[pc.hasCock\\n\\t\\t\\t\\t| suck your own dick[pc.hasCocks 2\\n\\t\\t\\t\\t\\t|s\\n\\t\\t\\t\\t]\\n\\t\\t\\t\\t|[pc.hasVagina\\n\\t\\t\\t\\t\\t| lick your own cunt[pc.hasCocks 2\\n\\t\\t\\t\\t\\t\\t|s\\n\\t\\t\\t\\t\\t]\\n\\t\\t\\t\\t\\t| eat your own ass\\n\\t\\t\\t\\t]\\n\\t\\t\\t] like this, you could probably do the same to someone else while they fucked you from behind!\\n\\t\\t\\t|[pc.isBiped|your knees lock, supporting your torso as your [pc.hasMuzzle|snout|face] follows the trail blazed by your tongue until your head is upside down, face-to-crotch with your own groin. The motion is as effortless as looking down. Not only could you [pc.hasCock|suck your own dick[pc.hasCocks 2|s]|[pc.hasVagina|lick your own cunt[pc.hasVaginas 2|s]|eat your own ass]], you could probably do the same to someone else while they fucked you from behind!|your cephalopodic limbs firm themselves, supporting your torso as [pc.mouth] follows the trail blazed by your tongue until your head is upside down, face-to-crotch with your own groin. The motion is as effortless as looking down. Not only could you [pc.hasCock|suck your own dick[pc.hasCocks 2|s]|[pc.hasVagina|lick your own cunt[pc.hasVaginas 2|s]|eat your own ass]], you could probably do the same to someone else while they fucked you from behind!]\\n\\t\\t] With your newfound unnatural flexibility and a tongue like this? You could reach any cock or cunt from any angle! You manage to master yourself and stand straight again before the urge to act on those thoughts overpowers your self-control. However, ideas for how to make use of your newfound flexibility are already forming in your mind...\\n\\n\\t\\t(<b>Perk Gained: Flexibility</b> - You can bend and stretch more than most other creatures.)",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09089601&gt;&gt;"
+  },
+  {
+    "key": "perk|Flexibility|585853b3b9c1",
+    "original": "Flexibility",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09092281&gt;&gt; createPerk(\"Flexibility\",0,0,0,0,\"You can bend and stretch more easily than normal.\")"
+  },
+  {
+    "key": "textify|The_inside_of_your_throat_feels_odd_hot_dry_and_itchy_like_t|aedc922cba4f",
+    "original": "The inside of your throat feels odd — hot, dry and itchy, like these chocolates somehow managed to suck every last drop of moisture from your esophagus. When you go to take a sip of water however, you nearly spit it out in disgust then and there — it tastes <i>awful</i>. You might as well have taken a swig of pure sand, [var0\\n\\t\\t\\t|or a long, rust-laden sip from the oil seas of Tarkus.\\n\\t\\t\\t|or sucked the silt from the bottom of some stagnant Mhen’ghan pool.\\n\\t\\t\\t|or licked the bare, dusty decks of FIRST-14.\\n\\t\\t] You know logically that it has to be fine, that it’s just water, but every time you try to take a drink it’s like nothing has ever tasted worse in your life!\\n\\t\\t\\n\\t\\t[var0\\n\\t\\t\\t|Your [pc.tongue] slips out from between your lips as you start panting, thirst still unfulfilled. The heat spreads down through your chest, and the thirst becomes first and foremost in your thoughts. Even the idea of suckling on some busty New Texan cow’s fat teats until she’s squirting all over the place makes you grimace in disgust. It doesn’t make any sense!\\n\\t\\t\\t\\n\\t\\t\\t...Well. The tip of your tongue flicks out and slides across your [pc.lip] as you mentally replay the thought another couple times. The milk part definitely makes you screw your face up, anyway. The thought of some cow-girl squirting... now <i>that</i> gets the drool back in your mouth. Water, milk, booze, and juice might all be non-starters, but <i>pussy</i> juice? Now, that’s another story entirely. Tonguing an oozy, gooey, drooly pussy until its owner squirted directly into your mouth would <i>really</i> hit the spot right now. Or milking some tense, throbbing prick until it plasters the back of your throat with a thick, creamy load. Either one would work, so long as the end result was the same — you going down on them until they paint your throat with their fluids.\\n\\t\\t\\t\\n\\t\\t\\t[pc.isBimbo\\n\\t\\t\\t\\t|Going a WHOLE day without any cum in your tummy is, like, already pretty hard for you! It’d be so much easier if you just opened your mouth and started slurping on whatever cocks and pussies people put in front of you, but what else is new? After all, no one can resist a babe with a set of [pc.lips] like yours — you’ll have all the cummies you need if you just do what comes easiest and start flashing that talented tongue these yummy candies gave you to all the babes and studs out there!\\n\\t\\t\\t\\t\\n\\t\\t\\t\\tOoh, you <i>toootally</i> need a cum-snack, like, super-duper soon. You’re not sure you could say no to all the big, mean baddies out there if you don’t get one....You want to do that, right? It’s, like, getting really hard to remember other stuff besides cum exists. \\n\\t\\t\\t\\t\\n\\t\\t\\t\\tBut honestly, what could be more important than you getting more cum in your mouth? Nothing, that’s what!\\n\\t\\t\\t\\t|[pc.isBro\\n\\t\\t\\t\\t\\t|Dick isn’t usually your thing, but you’re no bitch and you’re no coward — you’ll own any dick you swallow the same way you own any [pc.cockVagBothNeither\\n\\t\\t\\t\\t\\t\\t|hole\\n\\t\\t\\t\\t\\t\\t|mouth, hand or pole\\n\\t\\t\\t\\t\\t\\t|mouth, hand, pole or hole\\n\\t\\t\\t\\t\\t\\t|mouth, hand or pole\\n\\t\\t\\t\\t\\t] you fuck. You can suck and tongue all the sluts of the galaxy stupid with your mouth and throat the same way you do with your[pc.hasGenitals\\n\\t\\t\\t\\t\\t\\t| [pc.crotch]\\n\\t\\t\\t\\t\\t\\t| [pc.asshole]\\n\\t\\t\\t\\t\\t]. And if anyone has something smug to say about it, you can introduce their smartass face to the business end of your [pc.weaponMain].\\n\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\tAnd then introduce their junk to the business end of your throat. You may be the one doing the slurping, but they’ll be the one moaning and whimpering like a slut once you’re through with ‘em. A cummed-out cow makes the best milker, after all — turning some hung stud into the same just makes you the better bull. All that other shit you normally think about is just distracting you from your potential as the hottest stud this side of the galaxy.\\n\\t\\t\\t\\t\\t|The idea of keeping a stable of cunts and cocks on tap — to eat out or throatfuck until they’re squirting nothing but air and begging you for mercy — is suddenly just that much more appealing than usual. All the simpering sluts and limp-dicked bottom bitches of the galaxy better watch out; between that and your ever present need for a groundshaking, brain-breaking fuck, you just might end up ruining them for good if they’re not careful.\\n\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\tA big, tough [pc.guyGirl] like you has nothing to worry about, cum thirst or no cum thirst. The only thing that’ll change about how you spend your time is how often you feel the need to grace some beta bitch with your oral skills before you break their bed and bruise their hips. Who cares if cum is a higher priority for you than it used to be now? You’re just wasting less time on other, dumber pursuits. It’s win-win.\\n\\t\\t\\t\\t]\\n\\t\\t\\t]\\n\\t\\t\\t|Of course, it’s not really all that much of a mystery when you think about it — you already <i>have</i> a cum dependency. The only thing that’s really changed is how far you’re willing to go to satisfy it[var2\\n\\t\\t\\t\\t| and the kind of cum that works\\n\\t\\t\\t]. Just waiting for the next crotch to come around won’t be enough for you anymore.\\n\\t\\t\\t\\n\\t\\t\\tYour mind strays to images of your worst enemies and least favorite people, to thoughts of the loathsome lowlifes and criminal scum of the galactic underbelly. So long as they were soaking wet or dripping precum... your [pc.tongue] swipes across your lips as you shudder, [var3\\n\\t\\t\\t\\t|stiffening and dripping into your [pc.crotchCoverUnder]\\n\\t\\t\\t\\t|stiffening in your [pc.crotchCoverUnder]\\n\\t\\t\\t\\t|drooling wetness into your [pc.crotchCoverUnder]\\n\\t\\t\\t\\t|stiffening in the open air and drooling wetness onto the ground\\n\\t\\t\\t\\t|stiffening in the open air\\n\\t\\t\\t\\t|drooling wetness onto the ground between your feet\\n\\t\\t\\t\\t|unbidden arousal burning its way up your spine and down your limbs\\n\\t\\t\\t]. You’re not actually sure you’d be able to say no to a single one, in your current state.\\n\\t\\t\\t\\n\\t\\t\\tTruth be told, you were already struggling to go a full 24 hours without jizz in your greedy [pc.isCumSlut\\n\\t\\t\\t\\t|gullet\\n\\t\\t\\t\\t|holes\\n\\t\\t\\t]... What’s another incentive to suck more dick on top of that? In fact, why are you thinking about anything BUT eating pussy and sucking more dick? Being full of cum is already your ideal state, [var4\\n\\t\\t\\t\\t|now that you’re a hopeless oral addict.\\n\\t\\t\\t\\t|after all, it’s the only way you can think about pretty much anything but the next load to coat your throat and pack your stomach.\\n\\t\\t\\t\\t|all blissed-out and needy, ready to take whatever anyone will give and get your fix yourself... whenever you’ve got the gumption to do anything but swallow, that is.\\n\\t\\t\\t]\\n\\t\\t\\t\\n\\t\\t\\tSpending the rest of your life in a cum-and-girlcum-soaked bliss would be the ideal. [pc.isCumSlut\\n\\t\\t\\t\\t|Nothing about that has changed, not really. It’s fine. You’re fine. And you’ll continue to be fine, so long as you get a nice throat-filling as soon as possible.\\n\\t\\t\\t\\t|You slip into a reverie of cunts and cocks, eyes lidding and tongue drooling, stumbling instead of falling to your knees in your cum-hungry trance.\\n\\t\\t\\t]\\n\\t\\t\\t\\n\\t\\t\\t...Maybe you should start planning out regular oral breaks in advance. For your own sake.\\n\\t\\t\\t|Your breath drags dry through your mouth as you exhale, catching on the surface of your tongue. Despite the omnipresent thirst, your tongue is somehow still soft and silky with its unnatural lubrication, lolling out between your lips. Trying to retract it proves fruitless, but not because of any physical difficulty; you simply can’t bring yourself to bother. Why should you? There’s nothing inside your mouth that’s worth having your tongue on it.\\n\\t\\t\\t\\n\\t\\t\\t[var5\\n\\t\\t\\t\\t|Now, your [pc.cock]? With its juicy, succulent length and girth, and a load ready to baste the back of your throat whenever you’re ready to bend forward and take it between your greedy lips? You could mod it even bigger, or boost your ball size so they’re always huge, full and brimming, ready to flood your gut and paint it [pc.cumColor] the first moment thoughts of cum even strike your mind. You stand there drooling, smiling vacantly as the thirsty appendage flicks, almost as if the mere idea of your shaft could control it better than your brain and nerve endings ever could. Just thinking about sucking and slurping and swallowing fills your head with a [pc.cumFlavor], [pc.cumGem] haze — one that becomes increasingly difficult to think past the longer it stays in your brain, veiling your thoughts one by one until you’re too hard to think about anything besides the needful ache in your seed-packed [pc.hasBalls|sack|prostate].\\n\\t\\t\\t\\t|Now, if you only had a bigger, juicier fuckstick to suck and slurp, that would certainly be worth your tongue’s attention. The thirsty appendage flicks, as if in agreement, the mere thought of a juicy, throbbing dick to suck controlling it better than your brain and nerve endings ever could. A score of aliens passes through your mind: kui-tan, with huge backed-up sacks and aching rods, ausar knots to lock in and breed your hungry throat, more and more until you’re daydreaming of hung leithans plundering your mouth and emptying a bugpony’s worth of steaming jizz into your belly. Just thinking about sucking and slurping and swallowing fills your head with a musky, white haze — one that becomes increasingly difficult to think past the longer it stays in your brain, veiling your thoughts one by one until you’re too hard to think about anything besides the needful ache in your seed-packed [pc.hasBalls|sack|prostate].\\n\\t\\t\\t\\t|Now, if you were to bend yourself low enough to get your greedy cunt-swabber down between your legs and lap up all the [pc.girlCumNoun] you’re starting to drool, tracing the succulent slopes of your aching ingress until you gush? That’d be something worth moving your tongue around for. You could get mods to make it even longer, juicier, the venomous drool provided by the transformative employed for the best possible purpose: making your lavish mound squirt directly into your own mouth. You stand there drooling, smiling vacantly as the thirsty appendage flicks, almost as if the mere idea of your pussy could control it better than your brain and nerve endings ever could. Just thinking about tongue-polishing, slurping and swallowing fills your head with a [pc.girlCumFlavor], [pc.girlCumGem] haze — one that becomes increasingly difficult to think past the longer it stays in your brain, veiling your thoughts one by one until you’re too hard to think about anything besides the needful ache in your flushed, [pc.isSquirter|weeping|beading] slit.\\n\\t\\t\\t\\t|Now, if you were flexible enough to get face-to-cunt and tongue-polish your pussy until it shined? That’d be something worth moving your tongue around for. The thirsty appendage flicks, as if in agreement, the mere thought of a peachy, lust-puffed cunt to tongue controlling it better than your brain and nerve endings ever could. A score of aliens passes through your mind: tender, glossy gryvain slits studded inside with a hundred needy clits, musky leithan bugpony holes so wet you could drown in their waterfalling juices, more and more until you’re daydreaming of squirting suulas hooking you on their aphrodisiac venom and going lust-crazy from your own, gushing all over your face and into your throat. Just thinking about tongue-polishing, slurping and swallowing fills your head with a tangy, glossy haze — one that becomes increasingly difficult to think past the longer it stays in your brain, veiling your thoughts one by one until you’re too hard to think about anything besides the needful ache in your flushed, [pc.isSquirter|weeping|beading] slit.\\n\\t\\t\\t\\t|No, a wide-open mouth and a lolling tongue are one thing and one thing only: an invitation. You shouldn’t waste such a thing by trying to suppress it, you should be finding a glory hole to set up at to show it off, an alien’s harem of sluts in need of thirsty-tongued relief while their master or mistress is away, some other alien in desperate need of a live-in cock-warmer, anything! The thirsty appendage flicks as if in agreement, the mere thought of putting tongue-to-genitals — letting them slip and slide and <i>gush</i> over it, coat it so thick it sticks to the roof of your mouth — control it better than your brain and nerve endings ever could. It doesn’t matter who, where, when or how... if you just had a cunt to lap clean or a cock to suck dry...\\n\\t\\t\\t\\n\\t\\t\\tYou shudder in ecstasy. Just thinking about tongue-polishing, cock-sucking, slurping and swallowing fills your head with a gooey white haze, one that becomes increasingly difficult to think past the longer it stays in your brain. It veils your thoughts one by one, as the inexpressible lust building in your neutered form puckers your [pc.hasPlumpAsshole|greedy donut|tender rosette] with needful sympathy.\\n\\t\\t\\t]\\n\\t\\t\\t\\n\\t\\t\\t...You blink, slowly, tongue drawing back into your mouth. Have these chocolates done something to your head? It’s difficult to tell much of anything now, when you’re feeling so very, very thirsty. Even considering it requires you to swim through an endless sea of horny, overheated thoughts. Whatever you were thinking about doesn’t feel worth worrying over right now. With a belly full of thick, gooey cum, everything will become that much clearer.\\n\\t\\t\\t\\n\\t\\t\\tYou’re sure of it.\\n\\t\\t]\\n\\t\\t\\n\\t\\t(<b>Perk gained: Cumpire</b> - Grants extra willpower after acquiring cum, but reduces it otherwise.)",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09092431&gt;&gt;"
+  },
+  {
+    "key": "perk|Cumpire|26c26796a380",
+    "original": "Cumpire",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09106766&gt;&gt; createPerk(\"Cumpire\",0,0,0,0,\"Grants extra willpower after acquiring cum, but reduces it otherwise.\")"
+  },
+  {
+    "key": "textify|There_s_a_sudden_twinge_in_your_pc_crotch_as_the_warmth_in_you|1300b88db3f0",
+    "original": "There’s a sudden twinge in your [pc.crotch] as the warmth in your throat suffuses through the rest of you, gently stoking your libido.\\n\\t\\t\\n\\t\\t[var0\\n\\t\\t\\t|[var1\\n\\t\\t\\t\\t|Unbidden, the image of an extremely ripe peach comes to mind. The fruit is soft and yielding, drooling sticky-sweet juice down the velvety curve of its crease as you delve greedily in with your tongue. [pc.isBro\\n\\t\\t\\t\\t\\t|Once you’re done with that, you can cut to the chase and find a puffy pussy to tongue-swab for a while instead. Slake your cunt-thirst and then get your dick wet as a reward, just like usual- none of that metaphorical shit.\\n\\t\\t\\t\\t\\t|[pc.isBimbo\\n\\t\\t\\t\\t\\t\\t|Yummy! Then all you’d need is a puffy, drooly, <i>needy</i> pussy to tongue-polish until its owner squirts down your throat instead. There’s no juice better for a [pc.guyGirl] like you than pussy juice, duh! The babe you eat out shouldn’t mind a little thank-you facesitting afterward.\\n\\t\\t\\t\\t\\t\\t|You shake your head and go about your business, but the craving remains... as does the heat in your loins.\\n\\t\\t\\t\\t\\t]\\n\\t\\t\\t\\t]\\n\\t\\t\\t\\t|Unbidden, the image of a firm, ripe banana comes to mind, a large one with a thick peel. It easily parts around your [pc.lips] and allows you to sample the creamy delight hidden within, your greedy throat swallowing the entire thing in one go. [pc.isBro\\n\\t\\t\\t\\t\\t|Once you’re done with that, you can cut to the chase and find a thick dick to suck down instead. Slake your cum-thirst and then ream its owner as a reward, just like usual- none of that metaphorical shit.\\n\\t\\t\\t\\t\\t|[pc.isBimbo\\n\\t\\t\\t\\t\\t\\t|Yummy! Then all you’d need is a big, thick, <i>musky</i> cock to suck on until its owner hoses down your throat with jizz. There’s no cream better for a [pc.guyGirl] like you than cum, duh! The stud you blow shouldn’t mind giving you a little thank-you fuck afterward.\\n\\t\\t\\t\\t\\t\\t|You shake your head and go about your business, but the craving remains... as does the heat in your loins.\\n\\t\\t\\t\\t\\t]\\n\\t\\t\\t\\t]\\n\\t\\t\\t\\t|Your bare pelvic mound thrums with sub-orgasmic intensity, enough to remind yourself of the genitalia you gave up but no more. A second pulse comes and makes your [pc.asshole] clench and spasm before relaxing. You sigh, [var2\\n\\t\\t\\t\\t\\t|brazenly\\n\\t\\t\\t\\t\\t|covertly\\n\\t\\t\\t\\t] stroking across your crotch. The heat in your featureless loins remains however... and you’re suddenly craving a fruit smoothie.\\n\\t\\t\\t\\t\\n\\t\\t\\t\\tYou may not have anything with which to be <i>fruitful</i> yourself but that hasn’t stopped you so far, and you aren’t about to let it start.\\n\\t\\t\\t]\\n\\t\\t\\t|[var1|Despite the transformative snack you just had, you’ve suddenly got a desire for a fresh, rare steak. Something that’ll really <i>gush</i> when you bite into it to satisfy your sudden protein craving. You’re hungry enough that you could eat up the whole thing, lick the plate clean, and still want more. [pc.isBro|Once you’re done with that, you can cut to the chase and find a puffy pussy to tongue-swab for a while instead. Slake your cunt-thirst and then get your dick wet as a reward, just like usual- none of that metaphorical shit.|[pc.isBimbo|Yummy! Then all you’d need is a puffy, drooly, <i>needy</i> pussy to tongue-polish until its owner squirts down your throat instead. There’s no better juice for a [pc.guyGirl] like you than pussy juice, duh! The babe you eat out shouldn’t mind a little thank-you facesitting afterward.|You shake your head and go about your business, but the craving remains... as does the heat in your loins.]]|Despite the transformative snack you just had, you’ve suddenly got a desire for a big, fat sausage. Something really thick and juicy that you could really split your [pc.lips] around to satisfy your sudden protein craving. You’re hungry enough you could take the whole thing in one go. [pc.isBro|Once you’re done with that, you can cut to the chase and find a thick dick to suck down instead. Slake your cum-thirst and then ream its owner as a reward, just like usual- none of that metaphorical shit.|[pc.isBimbo|Yummy! Then all you’d need is a big, thick, <i>musky</i> cock to suck on until its owner hoses down your throat with jizz. There’s no better protein for a [pc.guyGirl] like you than cum, duh! The stud you blow shouldn’t mind giving you a little thank-you fuck afterward.|You shake your head and go about your business, but the craving remains... as does the heat in your loins.]]|Your bare pelvic mound thrums with sub-orgasmic intensity, enough to remind yourself of the genitalia you gave up but no more. A second pulse comes and makes your [pc.asshole] clench and spasm before relaxing. The way these chocolates rile your blood up... mmm. You [var2|brazenly|covertly] stroke over your crotch. Not having genitals certainly won’t stop an enterprising sapient like yourself from draining something- or <i>someone</i>- utterly dry. Not in the least.\\n\\n\\t\\t\\tYou suddenly find yourself craving something rich in iron... or protein, better yet.]\\n\\t\\t]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09106939&gt;&gt;"
+  },
+  {
+    "key": "textify|pc_isBimbo_n_t_t_t_The_heat_spreads_across_your_chest_heating|1751bfccb2c3",
+    "original": "[pc.isBimbo\\n\\t\\t\\t|The heat spreads across your chest, heating your [pc.breasts] from the outside in. The warmth travelling inward shrinks your tits in kind, [pc.nipples] going stiff as all of their nerves get packed into a smaller space. It is <i>so</i> not fair that your boobies have to get smaller for something as silly and boring as aer- uh, as airy— <i>ugh</i>, for flying good! Who cares about all that silly stuff when your [pc.chest] could be jiggling and bouncing all over the place with every flap instead?!\\n\\t\\t\\t\\n\\t\\t\\tBut no, matter how much you pout about it, once all’s said and done you’ve got a whole lot less boob-per-boob weighing your front down.\\n\\t\\t\\t|The burn travels down your throat towards your chest, and your [pc.breasts] grow warm as a pressure overtakes them. They begin to deflate before your very eyes, a portion of their mass sinking back into your torso with every breath. You suppose it makes sense that breasts that large would make it harder for you to fly[pc.hasWings|| if you were to grow wings]. <b>You now have [pc.breastCupSize] breasts.</b>\\n\\t\\t]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09112303&gt;&gt;"
+  },
+  {
+    "key": "textify|That_strange_prickling_heat_doesn_t_stop_at_your_throat_travell|4d9236a7d972",
+    "original": "That strange prickling heat doesn’t stop at your throat, travelling down towards your variety of [pc.breasts] and filling them with a sharp pins-and-needles sensation until the lower set[pc.breastRowsRange 3|s] almost feel[pc.breastRowsRange 3||s] like they’re on fire! The burning dulls only once they begin to sink backward into your torso, stopping in full once any trace of your other [pc.breasts] have disappeared entirely! <b>You now have only one row of [pc.breasts]!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09113650&gt;&gt;"
+  },
+  {
+    "key": "textify|var0_n_t_t_t_Your_pc_hair_shivers_against_your_head_as_though|540fc1e8eba1",
+    "original": "[var0\\n\\t\\t\\t|Your [pc.hair] shivers against your head as though possessed, the individual [pc.hairs] peeling apart down the middle before dissolving into filaments of loose pelage. <b>You have normal, humanoid hair!</b>\\n\\t\\t\\t|Your [pc.hair] rustle, each [pc.hair] suddenly splitting apart down their lengths, the [pc.hairs] softening and separating into discrete, follicular filaments. <b>You now have normal, humanoid hair!</b>\\n\\t\\t\\t|The thick spines crowning your head suddenly feel limp, their rigidity rapidly diminishing before they split apart from tips to roots like brittle straw. In the end, you’re left with <b>normal, humanoid hair!</b> At least your [pc.hairStyle] is fine.\\n\\t\\t\\t|Your [pc.hair] is shrinking, folding into itself. In its place, soft strands of human hair begin to grow, sliding over your shoulders where smooth scales once gleamed.\\n\\t\\t]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09114251&gt;&gt;"
+  },
+  {
+    "key": "textify|var0_n_t_t_t_You_pick_out_the_small_handful_of_white_chocolates|4f222539bffe",
+    "original": "[var0\\n\\t\\t\\t|You pick out the small handful of white chocolates, tossing them one by one into your mouth. Sweet, tangy mango and rich, nutty cashew mix, filling your mouth with smooth tropical flavors, making you hum in enjoyment as you chew.\\n\\t\\t\\t|You pick out the small handful of dark chocolates, tossing them one by one into your mouth. The syrup inside is sharp and tart, almost metallic in its bitterness, before the two distinct flavors mellow out into a dark, tangy sweetness.\\n\\t\\t\\t|You pick out the small handful of milk chocolates, tossing them one by one into your mouth. If you keep your eyes closed and chew quickly, [silly\\n\\t\\t\\t\\t|you can pretend it’s just pure, unadulterated dried bugs... ugh.\\n\\t\\t\\t\\t|you can pretend it’s just sweet, lightly salted chocolate and puffed rice... ugh.\\n\\t\\t\\t]\\n\\t\\t] Before long, you’ve finished the entire thing and warmth begins to rise in your throat as something changes....",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09115672&gt;&gt;"
+  },
+  {
+    "key": "button|Next|05063868134c",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:09116702&gt;&gt; addButton(0,\"Next\",this.returnToInventory,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|05063868134c",
+    "original": "Next",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09116732&gt;&gt; addButton(0,\"Next\",this.returnToInventory,\"Next\",\"\")"
+  },
+  {
+    "key": "textify|Other_than_the_passing_flavor_on_your_tongue_nothing_changes_a|8e0b5d1e4c3c",
+    "original": "Other than the passing flavor on your tongue, nothing changes: a dud. At least it tasted nice.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09116822&gt;&gt;"
+  },
+  {
+    "key": "button|Next|2de0999864e9",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:09116948&gt;&gt; addButton(0,\"Next\",this.returnToInventory,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|2de0999864e9",
+    "original": "Next",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09116978&gt;&gt; addButton(0,\"Next\",this.returnToInventory,\"Next\",\"\")"
+  },
+  {
+    "key": "output|With_the_warm_feeling_of_reproductive_juices_in_your_body_you_f|efd95556be1f",
+    "original": "With the warm feeling of reproductive juices in your body, you find you’re able to think clearly once more.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09117322&gt;&gt;"
+  },
+  {
+    "key": "output|You_lick_your_lips_vividly_imagining_what_b_cum_b_would_tast|cee95e296eee",
+    "original": "You lick your lips, vividly imagining what <b>cum</b> would taste like on your tongue. You shake your head, wondering why you wouldn’t just drink some cum right now.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09117830&gt;&gt;"
+  },
+  {
+    "key": "output|You_instinctively_roll_your_aphrodisiac_laced_tongue_along_your|d60cba6640c2",
+    "original": "You instinctively roll your aphrodisiac-laced tongue along your [pc.lipChaste]. For a brief moment, you imagine what the texture of <b>cum</b> would feel like on them. You could go for a snack...",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09118073&gt;&gt;"
+  },
+  {
+    "key": "output|Ugh_it_s_starting_to_feel_like_your_self_control_is_slipping_L|dc60ac760ac2",
+    "original": "Ugh, it’s starting to feel like your self-control is slipping. Like one minute, you’re focusing on a task, but the second it stops appealing for even a moment, you realize you could really go for a sip of <b>cum</b>. Or a slurp. Or one huge fucking <b>cum</b>shot, straight down the center of your tongue...",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09118346&gt;&gt;"
+  },
+  {
+    "key": "output|Fuuuck_you_want_some_cum_No_you_need_some_b_cum_b_It_s_m|9f22f9575b0c",
+    "original": "Fuuuck, you want some cum. No - you need some <b>cum</b>! It’s more than desire, it’s a compulsion! You’re a cumpire now, and you need some <b>fucking spunk</b>! On your face, on your [pc.fullChest], in your [pc.asshole] - you don’t care, as long as you can scoop some into your mouth to swallow for that delicious, salty... heavenly flavor! <b>You need some cum.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09118731&gt;&gt;"
+  },
+  {
+    "key": "output|You_can_t_seem_to_go_more_than_a_minute_without_thinking_of_gett|46fbd1c14599",
+    "original": "You can’t seem to go more than a minute without thinking of getting fucked or sucking someone off. When you close your eyes, all you can think about is sucking <b>spunk straight from the nut</b>. When someone asks you a question, you have to pause for a few seconds, dragging your thoughts through a melange of pink-tinged <b>cum</b>-sucking. <b>You need some cum.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09119224&gt;&gt;"
+  }
+]

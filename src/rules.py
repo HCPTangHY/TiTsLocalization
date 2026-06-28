@@ -690,9 +690,10 @@ def _process_create_element(ctx):
         ctx.end_pos = ctx.paren_pos + 1  # tag不匹配时不跳过，让scanner深入扫描内层
         return []
 
-    ctx.end_pos = close + 1  # 只有匹配成功才跳过整个括号
+    # 不跳过整个括号，让 scanner 深入扫描嵌套的 createElement
+    ctx.end_pos = ctx.paren_pos + 1
 
-    # 提取第3个及之后的参数中的字符串
+    # 提取当前层第3个及之后的纯字符串参数
     results = []
     for idx in range(2, len(args)):
         arg_text, arg_offset = args[idx]

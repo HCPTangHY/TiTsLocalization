@@ -1,0 +1,240 @@
+[
+  {
+    "key": "assign|a_wedge_of_Mousearella_Cheese|be288d573341",
+    "original": "a wedge of Mousearella Cheese",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08964992&gt;&gt; ase(e.longName)),e.description='a wedge of Mousearella Cheese'"
+  },
+  {
+    "key": "assign|A_cheesy_snack_covered_in_a_thin_plastic_wrapper_with_the_image|7f47d9424386",
+    "original": "A cheesy snack covered in a thin plastic wrapper with the image of a cartoon mouse nibbling on an oversized wedge of Swiss cheese. To the side in fine print is a warning about this product’s mutative properties.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08965034&gt;&gt; Mousearella Cheese\",e.tooltip='A cheesy snack covered in a thin plastic wrapper with the im'"
+  },
+  {
+    "key": "string.array|black_gray_white_ivory_brown_blonde_tan|fd851ddd1c4e",
+    "original": "[\"black\",\"gray\",\"white\",\"ivory\",\"brown\",\"blonde\",\"tan\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08965458&gt;&gt; '[\"black\",\"gray\",\"white\",\"ivory\",\"brown\",\"blonde\",\"tan\"]'"
+  },
+  {
+    "key": "output.expr|You_unwrap_the_bite_sized_snack_and_quickly_toss_it_into_your_mo|4fbc91eae388",
+    "original": "You unwrap the bite-sized snack and quickly toss it into your mouth, spending a minute to enjoy the dense, creamy taste before it slides down your throat.\"+({var1}.includes({var0}.raceShort())?\" You can’t help but shiver in delight as the tasty treat hits with a hard shot of pleasure...\":\"\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08965649&gt;&gt; &lt;&lt;VARS:var0=n,var1=[\"mouse\",\"rodenian\",\"rat\"]&gt;&gt; output(\"You unwrap the bite-sized snack and quickly toss it into your mouth, spending a minute to enjoy the dense, creamy taste before it slides down your throat.\"+([\"mouse\",\"rodenian\",\"rat\"].includes(n.raceShort())?\" You can’t help but shiver in delight as the tasty treat hits with a hard shot of pleasure...\":\"\"))"
+  },
+  {
+    "key": "output|You_suddenly_stumble_towards_support_as_vertigo_strikes_After_a|c96f9ba36dbe",
+    "original": "You suddenly stumble towards support as vertigo strikes. After a moment of confusion you reorient yourself, <b>albeit at a smaller size than before.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08966072&gt;&gt; output(\"\\n\\nYou suddenly stumble towards support as vertigo strikes. After a moment of confusion you reorient yourself, <b>albeit at a smaller size than before.</b>\")"
+  },
+  {
+    "key": "output|An_uncomfortably_strange_feeling_you_cannot_describe_with_words|83bf6affe744",
+    "original": "An uncomfortably strange feeling you cannot describe with words washes over your [pc.legOrLegs], investigating the source you realize <b>your hips have become slightly narrower than before!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08966431&gt;&gt; ParseText(\"\\n\\nAn uncomfortably strange feeling you cannot describe with words washes over your [pc.legOrLegs], investigating the source you realize <b>your hips have become slightly narrower than before!</b>\")"
+  },
+  {
+    "key": "output|A_few_seconds_after_swallowing_the_wedge_your_pc_ass_goes_num|0a6c70d4dab5",
+    "original": "A few seconds after swallowing the wedge, your [pc.ass] goes numb as if you’d sat on it the wrong way too long. Massaging your cheeks to regain feeling, you realize <b>your ass has shrunk!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08966807&gt;&gt; ParseText(\"\\n\\nA few seconds after swallowing the wedge, your [pc.ass] goes numb as if you’d sat on it the wrong way too long. Massaging your cheeks to regain feeling, you realize <b>your ass has shrunk!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_buttRatingLockedMessage|faad3a07017a",
+    "original": "\"+{var0}.buttRatingLockedMessage()",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08967114&gt;&gt; &lt;&lt;VARS:var0=n&gt;&gt; output(\"\\n\\n\"+n.buttRatingLockedMessage())"
+  },
+  {
+    "key": "output.expr|A_chilling_sensation_runs_across_your_pc_balls_var0_isCr|b44516caa39a",
+    "original": "A chilling sensation runs across your [pc.balls]. \"+({var0}.isCrotchExposed()?\"Y\":\"Undoing your [pc.crotchCovers], y\")+\"ou watch as your [pc.sack] tightens and shrinks, as the feeling fades you notice <b>your ball\"+({var1}?\"s have\":\" have\")+\" shrunk in size!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08967238&gt;&gt; &lt;&lt;VARS:var0=n,var1=n.balls&gt;1&gt;&gt; ParseText(\"\\n\\nA chilling sensation runs across your [pc.balls]. \"+(n.isCrotchExposed()?\"Y\":\"Undoing your [pc.crotchCovers], y\")+\"ou watch as your [pc.sack] tightens and shrinks, as the feeling fades you notice <b>your ball\"+(n.balls&gt;1?\"s have\":\" have\")+\" shrunk in size!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_ballSizeLockedMessage|f0fad6e03f6a",
+    "original": "\"+{var0}.ballSizeLockedMessage()",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08967773&gt;&gt; &lt;&lt;VARS:var0=n&gt;&gt; output(\"\\n\\n\"+n.ballSizeLockedMessage())"
+  },
+  {
+    "key": "output|A_warm_sensation_washes_over_your_chest_as_your_pc_breasts_slo|76ef3d3ed86c",
+    "original": "A warm sensation washes over your chest as your [pc.breasts] slowly shrink, begging you to give your soft mounds the attention they crave. However, you force your hands to your back and wait for the warmth to die down, <b>leaving you a cup size smaller than before.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08967896&gt;&gt; ParseText(\"\\n\\nA warm sensation washes over your chest as your [pc.breasts] slowly shrink, begging you to give your soft mounds the attention they crave. However, you force your hands to your back and wait for the warmth to die down, <b>leaving you a cup size smaller than before.</b>\")"
+  },
+  {
+    "key": "output.expr|var0_breastRatingLockedMessage|7b4186c15ab6",
+    "original": "\"+{var0}.breastRatingLockedMessage()",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08968498&gt;&gt; &lt;&lt;VARS:var0=n&gt;&gt; output(\"\\n\\n\"+n.breastRatingLockedMessage())"
+  },
+  {
+    "key": "output.expr|var0_legCountLockedMessage|d0b36b4119b6",
+    "original": "\"+{var0}.legCountLockedMessage()",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08968693&gt;&gt; &lt;&lt;VARS:var0=n&gt;&gt; output(\"\\n\\n\"+n.legCountLockedMessage())"
+  },
+  {
+    "key": "output.expr|You_suddenly_collapse_to_the_ground_in_agony_watching_as_your_b|2a8cb59ba22e",
+    "original": "You suddenly collapse to the ground in agony, watching as your bestial lower body shifts and writhes, reshaping itself into a more... rodent-like form. By the time the process completes, you’re left with <b>a gigantic version of a mouse’s body</b>.\"+({var0}.hasGenitals()?\" Fortunately, your genitalia remains more or less where you would expect it, unaltered.\":\"\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08968783&gt;&gt; &lt;&lt;VARS:var0=n&gt;&gt; output(\"\\n\\nYou suddenly collapse to the ground in agony, watching as your bestial lower body shifts and writhes, reshaping itself into a more... rodent-like form. By the time the process completes, you’re left with <b>a gigantic version of a mouse’s body</b>.\"+(n.hasGenitals()?\" Fortunately, your genitalia remains more or less where you would expect it, unaltered.\":\"\"))"
+  },
+  {
+    "key": "output.expr|You_suddenly_collapse_to_the_ground_in_agony_watching_as_your|b9159d75281a",
+    "original": "You suddenly collapse to the ground in agony, watching as your [pc.legOrLegs] \"+(1!==n.legCount?\"rearrange themselves into <b>anthropomorphized, mouse-like shape.</b>\":\"splits apart and shortens into <b>something akin to a Terran Mouse.</b>\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08969158&gt;&gt;  output(\"\\n\\nYou suddenly collapse to the ground in agony, watching as your [pc.legOrLegs] \"+(1!==n.legCount?\"rearrange themselves into <b>anthropomorphized, mouse-like shape.</b>\":\"splits apart and shortens into <b>something akin to a Terran Mouse.</b>\"))"
+  },
+  {
+    "key": "output.expr|var0_legTypeLockedMessage|1cc4a42ec504",
+    "original": "\"+{var0}.legTypeLockedMessage()",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08969550&gt;&gt; &lt;&lt;VARS:var0=n&gt;&gt; output(\"\\n\\n\"+n.legTypeLockedMessage())"
+  },
+  {
+    "key": "output|Moments_after_munching_down_on_the_bite_sized_wedge|3c12513777aa",
+    "original": "Moments after munching down on the bite sized wedge, ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08969806&gt;&gt; output(\"\\n\\nMoments after munching down on the bite sized wedge, \")"
+  },
+  {
+    "key": "output.expr|your_pc_skinFurScalesNoun_var0_hasChitin_fall_falls|03ef71d879b9",
+    "original": "your [pc.skinFurScalesNoun] \"+({var0}.hasChitin()?\"fall\":\"falls\")+\" to the ground in heavy clumps, the raw skin across your body sprouting <b>tufts of \"+{var1}+\" fur</b> that cover you in short order.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08969916&gt;&gt; &lt;&lt;VARS:var0=n,var1=c&gt;&gt; output(\"your [pc.skinFurScalesNoun] \"+(n.hasChitin()?\"fall\":\"falls\")+\" to the ground in heavy clumps, the raw skin across your body sprouting <b>tufts of \"+c+\" fur</b> that cover you in short order.\")"
+  },
+  {
+    "key": "output.expr|your_skin_crawls_as_you_watch_sprouts_of_hair_shoot_out_little|e6c4f2f89ed7",
+    "original": " your skin crawls as you watch sprouts of hair shoot out, little by little blanketing your entire body in a <b>coat of \"+{var0}+\" fur!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08970117&gt;&gt; &lt;&lt;VARS:var0=c&gt;&gt; output(\" your skin crawls as you watch sprouts of hair shoot out, little by little blanketing your entire body in a <b>coat of \"+c+\" fur!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_skinTypeLockedMessage|705857dd0022",
+    "original": "\"+{var0}.skinTypeLockedMessage()",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08970338&gt;&gt; &lt;&lt;VARS:var0=n&gt;&gt; output(\"\\n\\n\"+n.skinTypeLockedMessage())"
+  },
+  {
+    "key": "output|A_numb_tingling_sensation_develops_at_the_base_of_your_spine_Lo|ff21a03a07b1",
+    "original": "A numb tingling sensation develops at the base of your spine. Looking towards a reflective surface nearby, you notice a pink, ropey tail sprouting out from your behind that barely reaches your ankles. As sensation returns, <b>so it does to your new mouse tail.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08970545&gt;&gt; output(\"\\n\\nA numb tingling sensation develops at the base of your spine. Looking towards a reflective surface nearby, you notice a pink, ropey tail sprouting out from your behind that barely reaches your ankles. As sensation returns, <b>so it does to your new mouse tail.</b>\")"
+  },
+  {
+    "key": "output|With_a_sudden_twinge_of_pain_followed_by_nothing_you_watch_in_a|d98b85ba72e7",
+    "original": "With a sudden twinge of pain followed by nothing, you watch in a nearby reflection as your [pc.tails] merge and shift, shedding excess material as they form into <b>a single ropey, pink mouse tail!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08970848&gt;&gt; ParseText(\"\\n\\nWith a sudden twinge of pain followed by nothing, you watch in a nearby reflection as your [pc.tails] merge and shift, shedding excess material as they form into <b>a single ropey, pink mouse tail!</b>\")"
+  },
+  {
+    "key": "output.expr|You_watch_with_a_hint_of_curiosity_as_your_numbing_pc_tail_shi|4863d2a03fd6",
+    "original": "You watch with a hint of curiosity as your numbing [pc.tail] shifts in shape and sheds any excess material, slowly warping into <b>a ropey, pink mouse’s tail</b> that reaches down to your \"+({var0}.hasFeet()?\"ankles\":\"[pc.foot]\")+\".",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08971075&gt;&gt; &lt;&lt;VARS:var0=n&gt;&gt; ParseText(\"\\n\\nYou watch with a hint of curiosity as your numbing [pc.tail] shifts in shape and sheds any excess material, slowly warping into <b>a ropey, pink mouse’s tail</b> that reaches down to your \"+(n.hasFeet()?\"ankles\":\"[pc.foot]\")+\".\")"
+  },
+  {
+    "key": "output.expr|var0_tailCountLockedMessage|ba74ed71b4cd",
+    "original": "\"+{var0}.tailCountLockedMessage()",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08971356&gt;&gt; &lt;&lt;VARS:var0=n&gt;&gt; output(\"\\n\\n\"+n.tailCountLockedMessage())"
+  },
+  {
+    "key": "output.expr|var0_tailTypeLockedMessage|0dceb49e7622",
+    "original": "\"+{var0}.tailTypeLockedMessage()",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08971398&gt;&gt; &lt;&lt;VARS:var0=n&gt;&gt; output(\"\\n\\n\"+n.tailTypeLockedMessage())"
+  },
+  {
+    "key": "output|With_an_odd_buzzing_sensation_you_feel_the_auricle_of_your_e|9fe33adaa8fb",
+    "original": "With an odd... buzzing sensation, you feel the auricle of your ear growing larger by the second, and when it finally settles down <b>you find a large pair of [pc.skinColor], dish-like mouse ears in their place.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08971490&gt;&gt; output(\"\\n\\nWith an odd... buzzing sensation, you feel the auricle of your ear growing larger by the second, and when it finally settles down <b>you find a large pair of [pc.skinColor], dish-like mouse ears in their place.</b>\")"
+  },
+  {
+    "key": "output|You_feel_an_escalating_tingle_in_your_mouth_and_you_know_a_conc|a3b42b2aeea9",
+    "original": "You feel an escalating tingle in your mouth and you know a\".concat(o>1?\"nother\":\"\",\" change is coming... but the sensation is mostly concentrated on your gums though. Curious, you approach the nearest mirror to observe the ongoing transformation. Sure enough, you spot\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08971929&gt;&gt; output(\"\\n\\nYou feel an escalating tingle in your mouth and you know a\".concat(o&gt;1?\"nother\":\"\",\" change is coming... but the sensation is mostly concentrated on your gums though. Curious, you approach the nearest mirror to observe the ongoing transformation. Sure enough, you spot\"))"
+  },
+  {
+    "key": "output|your_fearsome_fangs_retract_as|7cf3c1b83276",
+    "original": " your fearsome fangs retract as",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08972227&gt;&gt; output(\" your fearsome fangs retract as\")"
+  },
+  {
+    "key": "output|your_two_front_teeth_grow_larger_taking_up_more_space_and_crea|b356d16a0c81",
+    "original": " your two front teeth grow larger, taking up more space and creating quite the overbite. To an unknowing observer, you suppose the new mousey buckteeth makes you look cute. <b>You now have the face of a half-human, half-mouse!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08972269&gt;&gt; output(\" your two front teeth grow larger, taking up more space and creating quite the overbite. To an unknowing observer, you suppose the new mousey buckteeth makes you look cute. <b>You now have the face of a half-human, half-mouse!</b>\")"
+  },
+  {
+    "key": "output|Heat_ripples_outwards_from_your_pc_face_as_it_rearranges_itsel|a2b3884a9c94",
+    "original": "Heat ripples outwards from your [pc.face] as it rearranges itself in a manner that, to an onlooker, would appear utterly unnatural, [pc.skinFurScales] oscillating. After a moment of light-headedness the warmth seems to simply dissipate. Looking into a reflective surface you realize <b>your new face now resembles a Terran mouse’s, complete with whiskers.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08972577&gt;&gt; ParseText(\"\\n\\nHeat ripples outwards from your [pc.face] as it rearranges itself in a manner that, to an onlooker, would appear utterly unnatural, [pc.skinFurScales] oscillating. After a moment of light-headedness the warmth seems to simply dissipate. Looking into a reflective surface you realize &lt;b..."
+  },
+  {
+    "key": "output.expr|As_you_scratch_your_itchy_arms_you_realize_that_they_seem_to_be|41229ec6433e",
+    "original": "As you scratch your itchy arms, you realize that they seem to be growing \"+{var0}+\" fur, your [pc.arms] shifting towards a new form. By the time it’s finished changing you have <b>fuzzy mouse limbs, complete with paws.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08973177&gt;&gt; &lt;&lt;VARS:var0=d&gt;&gt; ParseText(\"\\n\\nAs you scratch your itchy arms, you realize that they seem to be growing \"+d+\" fur, your [pc.arms] shifting towards a new form. By the time it’s finished changing you have <b>fuzzy mouse limbs, complete with paws.</b>\")"
+  },
+  {
+    "key": "output.expr|You_wait_but_nothing_seems_to_happen_Maybe_it_was_a_dud_var|973388f1fa18",
+    "original": "You wait but nothing seems to happen. Maybe it was a dud?\"+({var0}?\" Or maybe you just can’t become more mouse-like...\":\"\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08973511&gt;&gt; &lt;&lt;VARS:var0=n.armType===GLOBAL.TYPE_MOUSE&&n.legType===GLOBAL.TYPE_MOUSE&&n.tailType===GLOBAL.TYPE_MOUSE&&n.tailCount&gt;0&&n.hasFur()&&n.earType===GLOBAL.TYPE_MOUSE&&n.faceType===GLOBAL.TYPE_MOUSE&gt;&gt; output(\"\\n\\nYou wait but nothing seems to happen. Maybe it was a dud?\"+(n.armType===GLOBAL.TYPE_MOUSE&&n.legType===GLOBAL.TYPE_MOUSE&&n.tailType===GLOBAL.TYPE_MOUSE&&n.tailCount&gt;0&&n.hasFur()&&n.earType===GLOBAL.TYPE_MOUSE&&n.faceType===GLOBAL.TYPE_MOUSE?\" Or maybe you just can’t become more mouse-like...\":\"\"))"
+  },
+  {
+    "key": "output.expr|var0_var1_eats_the_cheese_to_no_effect|15f367630678",
+    "original": "{var0}+{var1}+\" eats the cheese to no effect.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08973824&gt;&gt; &lt;&lt;VARS:var0=e.capitalA,var1=e.short&gt;&gt; output(e.capitalA+e.short+\" eats the cheese to no effect.\")"
+  },
+  {
+    "key": "assign|Mousearella_Cheese|725d7afbbcb3",
+    "original": "Mousearella Cheese",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:08964900&gt;&gt; shortName=\"MouseCh\",e.longName='Mousearella Cheese'"
+  }
+]

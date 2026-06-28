@@ -1,0 +1,135 @@
+[
+  {
+    "key": "assign|Janeria_Spawn|97ab31a77cff",
+    "original": "Janeria Spawn",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00655764&gt;&gt; janeria spawn\",e.btnTargetText='Janeria Spawn'"
+  },
+  {
+    "key": "assign|the|2133949d309c",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00655809&gt;&gt; \",e.originalRace=\"janeria\",e.a='the '"
+  },
+  {
+    "key": "assign|This_bizarre_creature_strongly_resembles_a_jellyfish_with_a_bod|8f3ef16ccbf2",
+    "original": "This bizarre creature strongly resembles a jellyfish, with a body that glows an eerie mix of blue and green. Electricity crackles along the six tentacles that hang under its umbrella-shaped body. Occasionally its entire body ripples with an odd vibration as its glow briefly intensifies.\\n\\nDespite lacking any visible eyes, it has no problem with focusing its attention on you. You really don’t want to find out what will happen if it beats you.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00655855&gt;&gt; lA=\"The \",e.tallness=36,e.long='This bizarre creature strongly resembles a jellyfish, with a'"
+  },
+  {
+    "key": "combat|The_slap_connects_with_a_sharp_whip_crack_sending_you_briefly|b126fc14474e",
+    "original": " The slap connects with a sharp whip crack, sending you briefly staggering before you recover your stance.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00659507&gt;&gt; combatAppend(\" The slap connects with a sharp whip crack, sending you briefly staggering before you recover your stance.\")"
+  },
+  {
+    "key": "assign|b_Steele_b|82277298915b",
+    "original": " <b>Steele:</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00660470&gt;&gt; nge(\"H\",-t,\"hpHeal\",\"hp\"))),a+=' <b>Steele:</b>'"
+  },
+  {
+    "key": "combat.expr|The_lightning_leaves_a_black_scorch_mark_on_the_wall_as_you_rol|01a40e66501c",
+    "original": " The lightning leaves a black scorch mark on the wall as you roll out of the way just in time. You notice the jellyfish wobbling a little in the aftermath of the attack, its glow visibly dimmed.\"+({var0}?\" Cracks have even formed on its tentacles.\":\"\")+{var1}",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00660518&gt;&gt; &lt;&lt;VARS:var0=t&gt;0,var1=a&gt;&gt; combatAppend(\" The lightning leaves a black scorch mark on the wall as you roll out of the way just in time. You notice the jellyfish wobbling a little in the aftermath of the attack, its glow visibly dimmed.\"+(t&gt;0?\" Cracks have even formed on its tentacles.\":\"\")+a)"
+  },
+  {
+    "key": "combat.expr|You_feel_the_searing_heat_of_the_electric_blast_wrack_your_body|3703bab1fe89",
+    "original": " You feel the searing heat of the electric blast wrack your body as it connects. It’s a small comfort that unleashing such an attack has left the alien looking noticeably drained.\"+({var0}?\" Spiderweb cracks have formed on its dome.\":\"\")+{var1}",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00660790&gt;&gt; &lt;&lt;VARS:var0=t&gt;0,var1=a&gt;&gt; combatAppend(\" You feel the searing heat of the electric blast wrack your body as it connects. It’s a small comfort that unleashing such an attack has left the alien looking noticeably drained.\"+(t&gt;0?\" Spiderweb cracks have formed on its dome.\":\"\")+a)"
+  },
+  {
+    "key": "combat|You_find_yourself_caught_in_the_tendrils_A_painful_shock_wrack|ea9409f50c42",
+    "original": " You find yourself caught in the tendrils. A painful shock wracks your body, accompanied by a draining sensation. It’s sucking out your energy! <b>You’ve been grappled!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00661528&gt;&gt; combatAppend(\" You find yourself caught in the tendrils. A painful shock wracks your body, accompanied by a draining sensation. It’s sucking out your energy! <b>You’ve been grappled!</b>\")"
+  },
+  {
+    "key": "assign|janeria_spawn|4cb48c05b2e2",
+    "original": "janeria spawn",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00655732&gt;&gt; e),e.neverSerialize=!0,e.short='janeria spawn'"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00655827&gt;&gt; janeria\",e.a=\"the \",e.capitalA='The '"
+  },
+  {
+    "key": "combat.expr|var0|ffdd7051d0e4",
+    "original": "{var0}",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:00658780&gt;&gt; &lt;&lt;VARS:var0=this.OnTakeDamageOutput&gt;&gt; combatOutput(this.OnTakeDamageOutput,null,this)"
+  },
+  {
+    "key": "combat|One_of_the_jellyfish_s_tendrils_elongates_as_it_sweeps_out_towar|43c141550b46",
+    "original": "One of the jellyfish’s tendrils elongates as it sweeps out towards you, stretching from four feet long to dozens in a heartbeat.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00659232&gt;&gt; combatOutput(\"One of the jellyfish’s tendrils elongates as it sweeps out towards you, stretching from four feet long to dozens in a heartbeat.\",null,this)"
+  },
+  {
+    "key": "combat|You_manage_to_duck_under_the_tentacle_which_swiftly_returns_to|5a6ca80d5603",
+    "original": " You manage to duck under the tentacle, which swiftly returns to its normal size.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00659404&gt;&gt; combatAppend(\" You manage to duck under the tentacle, which swiftly returns to its normal size.\")"
+  },
+  {
+    "key": "combat|The_electricity_wreathing_the_monster_gathers_towards_a_point_at|f2559fdc4474",
+    "original": "The electricity wreathing the monster gathers towards a point at the front of its dome, forming a bright pinprick of light. Suddenly the point flashes as a lightning bolt erupts towards you with a loud thundercrack!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00659824&gt;&gt; combatOutput(\"The electricity wreathing the monster gathers towards a point at the front of its dome, forming a bright pinprick of light. Suddenly the point flashes as a lightning bolt erupts towards you with a loud thundercrack!\",null,this)"
+  },
+  {
+    "key": "assign|b_JaneriaSpawn_b|165347e0506d",
+    "original": " <b>JaneriaSpawn:</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00660063&gt;&gt; ercrack!\",null,this);var t=0,a=' <b>JaneriaSpawn:</b>'"
+  },
+  {
+    "key": "combat|The_alien_lashes_out_with_a_tentacle_Just_before_it_reaches_you|f8fc990bf964",
+    "original": "The alien lashes out with a tentacle. Just before it reaches you, what was a flat pad explodes into an array of smaller tentacles that reach to grab you.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00661207&gt;&gt; combatOutput(\"The alien lashes out with a tentacle. Just before it reaches you, what was a flat pad explodes into an array of smaller tentacles that reach to grab you.\",null,this)"
+  },
+  {
+    "key": "combat|You_manage_to_duck_down_under_the_mass_of_writhing_tendrils_wh|ed25dfb41e2f",
+    "original": " You manage to duck down under the mass of writhing tendrils, which soon retract. How can it do that?!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00661404&gt;&gt; combatAppend(\" You manage to duck down under the mass of writhing tendrils, which soon retract. How can it do that?!\")"
+  },
+  {
+    "key": "combat|The_jellyfish_continues_to_drain_you_of_your_energy_even_as_it_s|23d32f1656b4",
+    "original": "The jellyfish continues to drain you of your energy even as it subjects you to further painful shocks.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00662020&gt;&gt; combatOutput(\"The jellyfish continues to drain you of your energy even as it subjects you to further painful shocks.\",null,this)"
+  },
+  {
+    "key": "assign|As_your_attack_connects_the_jellyfish_glows_brighter_sucking_i|a8c8a2452468",
+    "original": "As your attack connects, the jellyfish glows brighter, sucking in the electricity like a sponge soaking up water. If anything it seems more energized than before!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00662431&gt;&gt; TakeDamageOutput=\"\":o+=\"\\n\",o+='As your attack connects, the jellyfish glows brighter, sucki'"
+  }
+]

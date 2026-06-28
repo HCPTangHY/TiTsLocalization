@@ -1,0 +1,914 @@
+[
+  {
+    "key": "assign|Amber_Seed|a49638970993",
+    "original": "Amber Seed",
+    "translation": "",
+    "context": "<<POS:07796460>>"
+  },
+  {
+    "key": "assign|a_blister_pack_of_Amber_Seed|c48b8b99513f",
+    "original": "a blister pack of “Amber Seed”",
+    "translation": "",
+    "context": "<<POS:07796544>>"
+  },
+  {
+    "key": "assign|Conventional_avian_transformative_in_the_form_of_a_large_nut|2f57134b1dae",
+    "original": "Conventional avian transformative in the form of a large... nut? You can only guess at whether it was grown naturally, or through a synthetic process. A big, flashy label says “Brand new FluidShift technology! Quick and painless!” You spot a line of fine print at the back stating: “May cancel lactation in mammalian species.”",
+    "translation": "",
+    "context": "<<POS:07796587>>"
+  },
+  {
+    "key": "output|It_is_not_difficult_to_figure_out_what_to_do_with_the_amber_seed|9a05f541e87f",
+    "original": "It is not difficult to figure out what to do with the amber seed. Strangely enough, it dissolves inside your mouth almost immediately. Is it a pill after all?",
+    "translation": "",
+    "context": "<<POS:07797284>>"
+  },
+  {
+    "key": "output|Nothing_happens_to_you_It_seems|8d575275d332",
+    "original": "Nothing happens to you. It seems ",
+    "translation": "",
+    "context": "<<POS:07797556>>"
+  },
+  {
+    "key": "output|you_are_as_avian_as_you_are_going_to_get|70cf4bda5646",
+    "original": "you are as avian as you are going to get.",
+    "translation": "",
+    "context": "<<POS:07797626>>"
+  },
+  {
+    "key": "output|the_pill_had_no_effect_on_your_body_after_all|b51c18148064",
+    "original": " the pill had no effect on your body after all.",
+    "translation": "",
+    "context": "<<POS:07797678>>"
+  },
+  {
+    "key": "output.expr|var0_var1_doesn_t_seem_interested_in_using_this_item|e9b97376771b",
+    "original": "{var0}+{var1}+\" doesn’t seem interested in using this item...",
+    "translation": "",
+    "context": "<<POS:07797741>> <<VARS:var0=e.capitalA,var1=e.short>> output(e.capitalA+e.short+\" doesn’t seem interested in using this item...\")"
+  },
+  {
+    "key": "string.array|white_gray_brown_tawny_black_light_brown_brown_and|f60d8806511e",
+    "original": "[\"white\",\"gray\",\"brown\",\"tawny\",\"black\",\"light brown\",\"brown and white\",\"black and white\",\"straw\"]",
+    "translation": "",
+    "context": "<<POS:07797860>>"
+  },
+  {
+    "key": "string.array|yellow_gray_black|940ecb2d5146",
+    "original": "[\"yellow\",\"gray\",\"black\"]",
+    "translation": "",
+    "context": "<<POS:07797961>>"
+  },
+  {
+    "key": "output|A_sudden_shiver_overtakes_you_as_you_feel_a_strange_sensation_th|c69cf220f909",
+    "original": "A sudden shiver overtakes you as you feel a strange sensation throughout your [pc.skinFurScales]. In a matter of seconds, you are covered in an odd goo-like substance.",
+    "translation": "",
+    "context": "<<POS:07798313>>"
+  },
+  {
+    "key": "output|You_briefly_panic_and_quickly_brush_it_off_revealing_smooth|adf2eb757439",
+    "original": " You briefly panic and quickly brush it off, revealing smooth, [pc.skinTone] skin. Strange...",
+    "translation": "",
+    "context": "<<POS:07798557>>"
+  },
+  {
+    "key": "output|It_does_not_appear_like_your_skin_s_composition_has_changed|04d4a1b02ef0",
+    "original": " It does not appear like your skin’s composition has changed.",
+    "translation": "",
+    "context": "<<POS:07798696>>"
+  },
+  {
+    "key": "output|Huh_You_kinda_expected_to_obtain_feathers_not_plain_human_lik|4daf18dfd952",
+    "original": " Huh. You kinda expected to obtain feathers, not plain human-like skin.",
+    "translation": "",
+    "context": "<<POS:07798768>>"
+  },
+  {
+    "key": "output.expr|When_you_think_it_is_all_over_a_second_wave_of_changes_washes_o|94b4fbdce8f0",
+    "original": "When you think it is all over, a second wave of changes washes over your newly-regrown skin. Its texture changes to become thick, almost scale-like, [pc.skinTone] avian hide. Soon after a soft layer of feathers begins to sprout, covering your body in a coat of [pc.furColor] feathers! You pause for a moment to admire your new plumage. <b>You have \"+{var1}.skinFurScales({var0})+\" and \"+{var3}.skinFurScales({var2})+\".</b>",
+    "translation": "",
+    "context": "<<POS:07799198>> <<VARS:var0=!0,!0,var1=e,var2=!0,!0,!0,var3=e>> output(\"\\n\\nWhen you think it is all over, a second wave of changes washes over your newly-regrown skin. Its texture changes to become thick, almost scale-like, [pc.skinTone] avian hide. Soon after a soft layer of feathers begins to sprout, covering your body in a coat of [pc.furColor] feathers! You pause for a moment to admire your new plumage. <b>You have \"+e.skinFurScales(!0,!0)+\" and \"+e.skinFurScales(!0,!0,!0)+\".</b>\")"
+  },
+  {
+    "key": "output.expr|b_You_have_var1_skinFurScales_var0_b|73619871959f",
+    "original": " <b>You have \"+{var1}.skinFurScales({var0})+\".</b>",
+    "translation": "",
+    "context": "<<POS:07799623>> <<VARS:var0=!0,!0,var1=e>> output(\" <b>You have \"+e.skinFurScales(!0,!0)+\".</b>\")"
+  },
+  {
+    "key": "output.expr|Your_pc_tails_1_e_tailCount_goes_go_limp_var1|8dbfccecb298",
+    "original": "Your [pc.tails] \"+(1===e.tailCount?\"goes\":\"go\")+\" limp\"+({var1}.hasTailFlag({var0})?\"\":\", turning into shapeless goo\")+\" before being pulled inside and reabsorbed into your body, leaving no trace to show you ever had \"+(1===e.tailCount?\"one\":\"any\")+\". <b>You have lost your [pc.tails]!</b>",
+    "translation": "",
+    "context": "<<POS:07800079>> <<VARS:var0=GLOBAL.FLAG_GOOEY,var1=e>> output(\"\\n\\nYour [pc.tails] \"+(1===e.tailCount?\"goes\":\"go\")+\" limp\"+(e.hasTailFlag(GLOBAL.FLAG_GOOEY)?\"\":\", turning into shapeless goo\")+\" before being pulled inside and reabsorbed into your body, leaving no trace to show you ever had \"+(1===e.tailCount?\"one\":\"any\")+\". <b>You have lost your [pc.tails]!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_tailTypeLockedMessage|b78386701fb8",
+    "original": "\"+{var0}.tailTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:07800406>> <<VARS:var0=e>> output(\"\\n\\n\"+e.tailTypeLockedMessage())"
+  },
+  {
+    "key": "output|You_feel_a_peculiar_pressure_growing_from_your_tailbone_Before|1557a895439d",
+    "original": "You feel a peculiar pressure growing from your tailbone. Before you are able to check it out, it becomes all too evident: you are growing a brand new tail! It comes out quite short, but a foldable ",
+    "translation": "",
+    "context": "<<POS:07800533>>"
+  },
+  {
+    "key": "output|gooey|25e01490574a",
+    "original": "gooey",
+    "translation": "",
+    "context": "<<POS:07800743>>"
+  },
+  {
+    "key": "output|feathery|22878dbc1c80",
+    "original": "feathery",
+    "translation": "",
+    "context": "<<POS:07800759>>"
+  },
+  {
+    "key": "output|fan_quickly_grows_out_to_compensate_for_the_lack_of_length|cafbff7d161c",
+    "original": " fan quickly grows out to compensate for the lack of length.",
+    "translation": "",
+    "context": "<<POS:07800778>>"
+  },
+  {
+    "key": "output|You_feel_like_flying_would_be_much_easier_with_such_convenient|56e9a449d402",
+    "original": " You feel like flying would be much easier with such convenient empennage!",
+    "translation": "",
+    "context": "<<POS:07800861>>"
+  },
+  {
+    "key": "output|b_You_now_have_an_avian_tail_b|b92a106ed666",
+    "original": " <b>You now have an avian tail!</b>",
+    "translation": "",
+    "context": "<<POS:07800946>>"
+  },
+  {
+    "key": "output.expr|var0_tailTypeLockedMessage|5a75b6f13279",
+    "original": "\"+{var0}.tailTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:07801110>> <<VARS:var0=e>> output(\"\\n\\n\"+e.tailTypeLockedMessage())"
+  },
+  {
+    "key": "output|Your_pc_wing_twitches_strangely_losing_all_resemblance_of_str|a9a3ea6e78f8",
+    "original": "Your [pc.wing] twitches strangely, losing all resemblance of structure before quickly receding into your body, leaving only smooth [pc.skinFurScalesNoun] behind.",
+    "translation": "",
+    "context": "<<POS:07801298>>"
+  },
+  {
+    "key": "output|Your_pc_wings_suddenly_go_limp_as_if_stripped_of_any_inner_st|b06136ffde5f",
+    "original": "Your [pc.wings] suddenly go limp, as if stripped of any inner structure. A few seconds later they begin melting, turning into goo before being reabsorbed into your body.",
+    "translation": "",
+    "context": "<<POS:07801474>>"
+  },
+  {
+    "key": "output.expr|b_Your_pc_wings_1_e_wingCount_is_are_gone_b|7992fb1c6044",
+    "original": " <b>Your [pc.wings] \"+(1===e.wingCount?\"is\":\"are\")+\" gone!</b>",
+    "translation": "",
+    "context": "<<POS:07801654>>  output(\" <b>Your [pc.wings] \"+(1===e.wingCount?\"is\":\"are\")+\" gone!</b>\")"
+  },
+  {
+    "key": "output|You_suddenly_feel_an_unbearable_itch_on_your_back_but_before_yo|6776369f9a6f",
+    "original": "You suddenly feel an unbearable itch on your back, but before you can reach to scratch at it, two semi-solid nubs of goo burst out from behind your shoulders and reach out, expanding rapidly. After reaching a few feet in length they begin to solidify, and within moments hundreds of tiny feather-needles form and push out from underneath the skin. Your wings are quickly coated with a thick layer of small, downy feathers, and much larger and stronger ones begin pushing out to form the bulk of your new avian limbs. As the growth ceases, you give your new wings an experimental flex, and you can easily feel the force they create when pushing against the wind. <b>You now have large avian wings!</b>",
+    "translation": "",
+    "context": "<<POS:07801802>>"
+  },
+  {
+    "key": "output|Ripples_forms_along_the_surface_of_your_amorphous_goo_legs_as|dc2ec42860b8",
+    "original": "Ripples forms along the surface of your amorphous “goo-legs” as it starts to shift and wobble strangely, before suddenly melting into a lifeless pool beneath you.",
+    "translation": "",
+    "context": "<<POS:07802755>>"
+  },
+  {
+    "key": "output|Ripples_form_along_the_surface_of_your_pc_leg_as_it_starts_to|e51e035a4f19",
+    "original": "Ripples form along the surface of your [pc.leg] as it starts to shift and wobble strangely, before suddenly melting into a lifeless pool beneath you.",
+    "translation": "",
+    "context": "<<POS:07802947>>"
+  },
+  {
+    "key": "output|Your_pc_legs_feel_wobbly_as_they_suddenly_soften_into_a_noodle|b21e5287ea23",
+    "original": "Your [pc.legs] feel wobbly as they suddenly soften into a noodle-like consistency.",
+    "translation": "",
+    "context": "<<POS:07803111>>"
+  },
+  {
+    "key": "output.expr|Thankfully_it_is_not_permanent_and_in_a_few_moments_1_e_l|37cce1c89b49",
+    "original": " Thankfully it is not permanent, and in a few moments \"+(1===e.legCount?\"it reforms\":\"they reform\")+\" into thin, bird-like legs",
+    "translation": "",
+    "context": "<<POS:07803204>>  output(\" Thankfully it is not permanent, and in a few moments \"+(1===e.legCount?\"it reforms\":\"they reform\")+\" into thin, bird-like legs\")"
+  },
+  {
+    "key": "output|complete_with_rough_almost_scale_like_skin|0bba2d60ba09",
+    "original": " complete with rough, almost scale-like skin",
+    "translation": "",
+    "context": "<<POS:07803397>>"
+  },
+  {
+    "key": "output|long_prehensile_padded_toes_and_short_but_rather_sharp_avia|ed7b42846e63",
+    "original": " — long, prehensile padded toes and short, but rather sharp avian claws.",
+    "translation": "",
+    "context": "<<POS:07803452>>"
+  },
+  {
+    "key": "output|Feather_shaped_shingles_of_goo|a47d426f71be",
+    "original": " Feather-shaped shingles of goo",
+    "translation": "",
+    "context": "<<POS:07803537>>"
+  },
+  {
+    "key": "output|A_feathery_fringe|73f33b9bf31b",
+    "original": " A feathery fringe",
+    "translation": "",
+    "context": "<<POS:07803579>>"
+  },
+  {
+    "key": "output|covers_them_down_to_your|da732ab0c497",
+    "original": " covers them down to your ",
+    "translation": "",
+    "context": "<<POS:07803608>>"
+  },
+  {
+    "key": "output|ankles|3381aea795fe",
+    "original": "ankles",
+    "translation": "",
+    "context": "<<POS:07803679>>"
+  },
+  {
+    "key": "output|knees|64a62061967b",
+    "original": "knees",
+    "translation": "",
+    "context": "<<POS:07803696>>"
+  },
+  {
+    "key": "output|leaving_your_clawed_feet_bare_b_You_now_have_bird_like_legs|dc31330d4990",
+    "original": ", leaving your clawed feet bare. <b>You now have bird-like legs!</b>",
+    "translation": "",
+    "context": "<<POS:07803712>>"
+  },
+  {
+    "key": "output.expr|var0_legCountLockedMessage|4ddeb5d75095",
+    "original": "\"+{var0}.legCountLockedMessage()",
+    "translation": "",
+    "context": "<<POS:07804191>> <<VARS:var0=e>> output(\"\\n\\n\"+e.legCountLockedMessage())"
+  },
+  {
+    "key": "output.expr|var0_legTypeLockedMessage|0062f621f9a2",
+    "original": "\"+{var0}.legTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:07804232>> <<VARS:var0=e>> output(\"\\n\\n\"+e.legTypeLockedMessage())"
+  },
+  {
+    "key": "output|A_strange_sensation_of_shifting_mass_in_your_arms_draws_your_att|6e516b0220b0",
+    "original": "A strange sensation of shifting mass in your arms draws your attention. After a few seconds of what feels like snakes slithering under your skin, you’re left with thin, but surprisingly strong arms with",
+    "translation": "",
+    "context": "<<POS:07804325>>"
+  },
+  {
+    "key": "output|rough_almost_scale_like_skin|5109a038c33e",
+    "original": " rough, almost scale-like skin,",
+    "translation": "",
+    "context": "<<POS:07804593>>"
+  },
+  {
+    "key": "output|short_palms_and_long_clawed_and_padded_fingers|b5a24e389b76",
+    "original": " short palms and long, clawed and padded fingers. ",
+    "translation": "",
+    "context": "<<POS:07804635>>"
+  },
+  {
+    "key": "output|Feather_shaped_shingles_of_goo|f9448e5b7661",
+    "original": " Feather-shaped shingles of goo",
+    "translation": "",
+    "context": "<<POS:07804698>>"
+  },
+  {
+    "key": "output|A_feathery_fringe|73f33b9bf31b#1",
+    "original": " A feathery fringe",
+    "translation": "",
+    "context": "<<POS:07804740>>"
+  },
+  {
+    "key": "output|covers_them_down_to_your|da732ab0c497#1",
+    "original": " covers them down to your ",
+    "translation": "",
+    "context": "<<POS:07804769>>"
+  },
+  {
+    "key": "output|wrists|b0e5819c9925",
+    "original": "wrists",
+    "translation": "",
+    "context": "<<POS:07804840>>"
+  },
+  {
+    "key": "output|elbows|5e7dee3b96b3",
+    "original": "elbows",
+    "translation": "",
+    "context": "<<POS:07804857>>"
+  },
+  {
+    "key": "output|leaving_your_hands_bare_b_You_now_have_bird_like_arms_b|60b0812b9b6b",
+    "original": ", leaving your hands bare. <b>You now have bird-like arms!</b>",
+    "translation": "",
+    "context": "<<POS:07804874>>"
+  },
+  {
+    "key": "output|You_are_distracted_by_a_strange_sensation_on_top_of_your_head_A|db9d5cdf6043",
+    "original": "You are distracted by a strange sensation on top of your head. A quick check-up reveals that your [pc.hairNoun] has changed. <b>You now have a feathery plume on your head!</b>",
+    "translation": "",
+    "context": "<<POS:07805373>>"
+  },
+  {
+    "key": "output|Your_scalp_briefly_tingles_but_your_pc_hair_remains_unchanged|5fa2b22caea3",
+    "original": "Your scalp briefly tingles, but your [pc.hair] remains unchanged.",
+    "translation": "",
+    "context": "<<POS:07805563>>"
+  },
+  {
+    "key": "output.expr|var0_hairTypeLockedMessage|2d276ed9de2b",
+    "original": "\"+{var0}.hairTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:07805700>> <<VARS:var0=e>> output(\"\\n\\n\"+e.hairTypeLockedMessage())"
+  },
+  {
+    "key": "output|Your_ears_start_to_tingle_making_you_want_to_reach_up_and_scrat|09abd33606e6",
+    "original": "Your ears start to tingle, making you want to reach up and scratch them - but as you do, they begin to twist and morph beneath your touch, reshaping into a pair of pointy tips, towering over your head. You experimentally try wiggling them, feeling them swivel about at your command.",
+    "translation": "",
+    "context": "<<POS:07805986>>"
+  },
+  {
+    "key": "output|b_You_now_have_feline_ears_b|7dbed0218489",
+    "original": " <b>You now have feline ears!</b>",
+    "translation": "",
+    "context": "<<POS:07806311>>"
+  },
+  {
+    "key": "output|b_You_now_have_equine_ears_b|20fb6718e024",
+    "original": " <b>You now have equine ears!</b>",
+    "translation": "",
+    "context": "<<POS:07806387>>"
+  },
+  {
+    "key": "output|You_feel_a_nagging_itch_at_your_ears_Eventually_you_reach_up_to|9b90911bd2c1",
+    "original": "You feel a nagging itch at your ears. Eventually you reach up to scratch it, only to discover that your ears have been replaced by a pair of small holes, complete with",
+    "translation": "",
+    "context": "<<POS:07806524>>"
+  },
+  {
+    "key": "output|fin_like_protrusions|c6ff9520e82f",
+    "original": " fin-like protrusions",
+    "translation": "",
+    "context": "<<POS:07806704>>"
+  },
+  {
+    "key": "output|tufts_of_feathers|85c86ec894a2",
+    "original": " tufts of feathers",
+    "translation": "",
+    "context": "<<POS:07806736>>"
+  },
+  {
+    "key": "output|that_act_as_auricles_b_You_now_have_avian_looking_ears_b|8485427d742c",
+    "original": " that act as auricles. <b>You now have avian-looking ears!</b>",
+    "translation": "",
+    "context": "<<POS:07806765>>"
+  },
+  {
+    "key": "output|A_strange_sensation_overtakes_you_as_something_pulls_at_your_pc|a9f090494642",
+    "original": "A strange sensation overtakes you as something pulls at your [pc.face].",
+    "translation": "",
+    "context": "<<POS:07806943>>"
+  },
+  {
+    "key": "output|It_feels_like_the_outer_parts_of_your_muzzle_are_being_polished|a7b13f85043e",
+    "original": " It feels like the outer parts of your muzzle are being polished smooth.",
+    "translation": "",
+    "context": "<<POS:07807060>>"
+  },
+  {
+    "key": "output|Your_whole_face_flows_forward_like_molten_wax_forming_a_single|04642230db69",
+    "original": " Your whole face flows forward like molten wax, forming a single, smooth structure from your nose and mouth.",
+    "translation": "",
+    "context": "<<POS:07807143>>"
+  },
+  {
+    "key": "output|After_all_has_settled_down_you_re_left_with_a_beak_Except|9d7bd135921f",
+    "original": " After all has settled down, you’re left with a... beak? Except it doesn’t feel like one at all. Checking it out, you discover that what at first glance appear to be sharp, menacing edges, are in fact thin, yet soft lips and you still have teeth, even if they are hidden from view. Convenient - while looking like a proper beak, it won’t impede your ability to do things with your mouth! <b>You now have a beak-like muzzle!</b>",
+    "translation": "",
+    "context": "<<POS:07807262>>"
+  },
+  {
+    "key": "output|Your_vision_grows_dark_for_a_moment_but_before_you_can_reach_up|11a79bd72ed0",
+    "original": "Your vision grows dark for a moment, but before you can reach up to rub your eyes, your sight returns to normal. After a closer inspection, you discover that your eyes have changed!",
+    "translation": "",
+    "context": "<<POS:07808012>>"
+  },
+  {
+    "key": "output|b_You_now_have_pc_eyeColor_avian_eyes_complete_with_fully_f|64d48639cc37",
+    "original": " <b>You now have [pc.eyeColor] avian eyes, complete with fully functional nictitating membranes, acting like a set of secondary eyelids!</b>",
+    "translation": "",
+    "context": "<<POS:07808547>>"
+  },
+  {
+    "key": "output.expr|var0_eyeTypeLockedMessage|47b9e6f6dc86",
+    "original": "\"+{var0}.eyeTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:07808703>> <<VARS:var0=e>> output(\"\\n\\n\"+e.eyeTypeLockedMessage())"
+  },
+  {
+    "key": "output|You_almost_choke_on_a_ball_of_goo_as_it_suddenly_fills_your|324a64f1742e",
+    "original": "You almost choke on a ball of goo as it suddenly fills your",
+    "translation": "",
+    "context": "<<POS:07808799>>"
+  },
+  {
+    "key": "output|beak|ede0c23c39ee",
+    "original": " beak",
+    "translation": "",
+    "context": "<<POS:07808901>>"
+  },
+  {
+    "key": "output|mouth|18f2e2fff855",
+    "original": " mouth",
+    "translation": "",
+    "context": "<<POS:07808917>>"
+  },
+  {
+    "key": "output|You_gag_and_try_to_spit_it_out_but_to_no_avail_After_few_sec|8c51cadfbbc0",
+    "original": ". You gag and try to spit it out, but to no avail. After few seconds it re-solidifies into a new long and prehensile tongue. Creepy. <b>You now have an avian tongue!</b>",
+    "translation": "",
+    "context": "<<POS:07808934>>"
+  },
+  {
+    "key": "output.expr|In_a_single_sucking_movement_your_sheath_1_e_cockTotal|d32ed41bc945",
+    "original": "In a single sucking movement, your sheath\"+(1===e.cockTotal()?\" is\":\"s are\")+\" retracted fully into your body, taking your dick\"+(1===e.cockTotal()?\" with it\":\"s with them\")+\"!",
+    "translation": "",
+    "context": "<<POS:07809369>>  output(\"\\n\\nIn a single sucking movement, your sheath\"+(1===e.cockTotal()?\" is\":\"s are\")+\" retracted fully into your body, taking your dick\"+(1===e.cockTotal()?\" with it\":\"s with them\")+\"!\")"
+  },
+  {
+    "key": "output.expr|In_a_single_sucking_movement_your_cock_1_e_cockTotal_is|ddc962b54107",
+    "original": "In a single sucking movement, your cock\"+(1===e.cockTotal()?\" is\":\"s are\")+\" pulled into your body!",
+    "translation": "",
+    "context": "<<POS:07809560>>  output(\"\\n\\nIn a single sucking movement, your cock\"+(1===e.cockTotal()?\" is\":\"s are\")+\" pulled into your body!\")"
+  },
+  {
+    "key": "output.expr|Upon_closer_inspection_and_a_bit_of_poking_around_you_discover|d79b8a4375f7",
+    "original": " Upon closer inspection and a bit of poking around, you discover that your dick\"+(1===e.cockTotal()?\"\":\"s\")+\" now reside\"+(1===e.cockTotal()?\"s\":\"\")+\" inside a shallow slit, only poking \"+(1===e.cockTotal()?\"itself\":\"themselves\")+\" out when you are aroused. Neat. <b>You now have a genital slit!</b>",
+    "translation": "",
+    "context": "<<POS:07809670>>  output(\" Upon closer inspection and a bit of poking around, you discover that your dick\"+(1===e.cockTotal()?\"\":\"s\")+\" now reside\"+(1===e.cockTotal()?\"s\":\"\")+\" inside a shallow slit, only poking \"+(1===e.cockTotal()?\"itself\":\"themselves\")+\" out when you are aroused. Neat. <b>You now have a genital slit!</b>\")"
+  },
+  {
+    "key": "output.expr|Your_pc_balls_1_e_balls_is_are_suddenly_pulled_up|6704ddae2989",
+    "original": "Your [pc.balls] \"+(1===e.balls?\"is\":\"are\")+\" suddenly pulled up, just like before the peak of an orgasm, but instead of dropping back down, \"+(1===e.balls?\"it\":\"they\")+\" continue \"+(1===e.balls?\"its\":\"their\")+\" journey up, before being fully absorbed into your body. <b>You now have internal testicles!</b>",
+    "translation": "",
+    "context": "<<POS:07810122>>  output(\"\\n\\nYour [pc.balls] \"+(1===e.balls?\"is\":\"are\")+\" suddenly pulled up, just like before the peak of an orgasm, but instead of dropping back down, \"+(1===e.balls?\"it\":\"they\")+\" continue \"+(1===e.balls?\"its\":\"their\")+\" journey up, before being fully absorbed into your body. <b>You now have internal testicles!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_ballsLockedMessage|56ac4b951d17",
+    "original": "\"+{var0}.ballsLockedMessage()",
+    "translation": "",
+    "context": "<<POS:07810466>> <<VARS:var0=e>> output(\"\\n\\n\"+e.ballsLockedMessage())"
+  },
+  {
+    "key": "output.expr|A_sudden_inward_pressure_erupts_inside_your_pc_sack_drawing_a|b827aa04c226",
+    "original": "A sudden inward pressure erupts inside your [pc.sack], drawing a gasp from you. It is painless, but certainly discomforting. <b>Your [pc.balls] \"+(1===e.balls?\"has\":\"have\")+\" shrunk!</b>",
+    "translation": "",
+    "context": "<<POS:07810679>>  output(\"\\n\\nA sudden inward pressure erupts inside your [pc.sack], drawing a gasp from you. It is painless, but certainly discomforting. <b>Your [pc.balls] \"+(1===e.balls?\"has\":\"have\")+\" shrunk!</b>\")"
+  },
+  {
+    "key": "output.expr|Your_pc_cocks_throb_1_r_s_streams_of_pre_cum_erup|7148a74069d9",
+    "original": "Your [pc.cocks] throb\"+(1===r?\"s\":\"\")+\", streams of pre-cum erupt in waves from your cock-slit\"+(1===r?\"\":\"s\")+\" as your \"+(1===r?\"malehood begins\":\"dicks begin\")+\" to twist and morph in front of your eyes! The sensation nearly makes you explode in a gush of jizz as your ",
+    "translation": "",
+    "context": "<<POS:07811300>>  output(\"\\n\\nYour [pc.cocks] throb\"+(1===r?\"s\":\"\")+\", streams of pre-cum erupt in waves from your cock-slit\"+(1===r?\"\":\"s\")+\" as your \"+(1===r?\"malehood begins\":\"dicks begin\")+\" to twist and morph in front of your eyes! The sensation nearly makes you explode in a gush of jizz as your \")"
+  },
+  {
+    "key": "output.expr|cock_1_r_s_shift_1_r_s_becoming_long_an|9863985ad8af",
+    "original": "cock\"+(1===r?\"\":\"s\")+\" shift\"+(1===r?\"s\":\"\")+\", becoming long and thin, ending in a smooth tapered tip\"+(1===r?\"\":\"s\")+\", much like that of an avian. Able to slip into, and reach even the depths of the tightest of holes. <b>You now have\"+(1===r?\" an\":\"\")+\" avian cock\"+(1===r?\"\":\"s\")+\"!</b>",
+    "translation": "",
+    "context": "<<POS:07811583>>  output(\"cock\"+(1===r?\"\":\"s\")+\" shift\"+(1===r?\"s\":\"\")+\", becoming long and thin, ending in a smooth tapered tip\"+(1===r?\"\":\"s\")+\", much like that of an avian. Able to slip into, and reach even the depths of the tightest of holes. <b>You now have\"+(1===r?\" an\":\"\")+\" avian cock\"+(1===r?\"\":\"s\")+\"!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_cockTypeLockedMessage|6cffe9662fbb",
+    "original": "\"+{var0}.cockTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:07812188>> <<VARS:var0=e>> output(\"\\n\\n\"+e.cockTypeLockedMessage())"
+  },
+  {
+    "key": "output.expr|Your_pc_cocks_throb_1_r_s_streams_of_pre_cum_erup|607da2c30332",
+    "original": "Your [pc.cocks] throb\"+(1===r?\"s\":\"\")+\", streams of pre-cum erupt in waves from your cock-slit\"+(1===r?\"\":\"s\")+\" as your \"+(1===r?\"malehood begins\":\"dicks begin\")+\" to twist and morph in front of your eyes! The sensation nearly makes you explode in a gush of jizz as your ",
+    "translation": "",
+    "context": "<<POS:07812627>>  output(\"\\n\\nYour [pc.cocks] throb\"+(1===r?\"s\":\"\")+\", streams of pre-cum erupt in waves from your cock-slit\"+(1===r?\"\":\"s\")+\" as your \"+(1===r?\"malehood begins\":\"dicks begin\")+\" to twist and morph in front of your eyes! The sensation nearly makes you explode in a gush of jizz as your \")"
+  },
+  {
+    "key": "output.expr|dick_1_r_s_shift_1_r_s_to_become_slightl|d813fd148359",
+    "original": "dick\"+(1===r?\"\":\"s\")+\" shift\"+(1===r?\"s\":\"\")+\" to become slightly undulating with a tapered tip\"+(1===r?\"\":\"s\")+\", soft feline barbs forming to cover \"+(1===r?\"its\":\"their\")+\" length\"+(1===r?\"\":\"s\")+\". Finally a thick canine-like knot\"+(1===r?\"\":\"s\")+\" balloon\"+(1===r?\"s\":\"\")+\" out at the base\"+(1===r?\"\":\"s\")+\" of your \"+(1===r?\"shaft\":\"multiple shafts\")+\", completing the look. <b>You now have\"+(1===r?\" a\":\"\")+\" chimerical griffin cock\"+(1===r?\"\":\"s\")+\"!</b>",
+    "translation": "",
+    "context": "<<POS:07812910>>  output(\"dick\"+(1===r?\"\":\"s\")+\" shift\"+(1===r?\"s\":\"\")+\" to become slightly undulating with a tapered tip\"+(1===r?\"\":\"s\")+\", soft feline barbs forming to cover \"+(1===r?\"its\":\"their\")+\" length\"+(1===r?\"\":\"s\")+\". Finally a thick canine-like knot\"+(1===r?\"\":\"s\")+\" balloon\"+(1===r?\"s\":\"\")+\" out at the base\"+(1===r?\"\":\"s\")+\" of your \"+(1===r?\"shaft\":\"multiple shafts\")+\", completing the look. <b>You now have\"+(1===r?\" a\":\"\")+\" chimerical griffin cock\"+(1===r?\"\":\"s\")+\"!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_cockTypeLockedMessage|a0703b580030",
+    "original": "\"+{var0}.cockTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:07814128>> <<VARS:var0=e>> output(\"\\n\\n\"+e.cockTypeLockedMessage())"
+  },
+  {
+    "key": "output.expr|Your_pc_cocks_throb_1_r_s_streams_of_pre_cum_erup|607da2c30332#1",
+    "original": "Your [pc.cocks] throb\"+(1===r?\"s\":\"\")+\", streams of pre-cum erupt in waves from your cock-slit\"+(1===r?\"\":\"s\")+\" as your \"+(1===r?\"malehood begins\":\"dicks begin\")+\" to twist and morph in front of your eyes! The sensation nearly makes you explode in a gush of jizz as your ",
+    "translation": "",
+    "context": "<<POS:07814414>>  output(\"\\n\\nYour [pc.cocks] throb\"+(1===r?\"s\":\"\")+\", streams of pre-cum erupt in waves from your cock-slit\"+(1===r?\"\":\"s\")+\" as your \"+(1===r?\"malehood begins\":\"dicks begin\")+\" to twist and morph in front of your eyes! The sensation nearly makes you explode in a gush of jizz as your \")"
+  },
+  {
+    "key": "output.expr|dick_1_r_s_grow_1_r_s_and_swell_1_r|226c59d156bb",
+    "original": "dick\"+(1===r?\"\":\"s\")+\" grow\"+(1===r?\"s\":\"\")+\" and swell\"+(1===r?\"s\":\"\")+\" obscenely, becoming thick and veiny with\"+(1===r?\" a\":\"\")+\" large flared head\"+(1===r?\"\":\"s\")+\" that would look just at home on your standard issue stallion. <b>You now have\"+(1===r?\" an\":\"\")+\" equine cock\"+(1===r?\"\":\"s\")+\"!</b>",
+    "translation": "",
+    "context": "<<POS:07814697>>  output(\"dick\"+(1===r?\"\":\"s\")+\" grow\"+(1===r?\"s\":\"\")+\" and swell\"+(1===r?\"s\":\"\")+\" obscenely, becoming thick and veiny with\"+(1===r?\" a\":\"\")+\" large flared head\"+(1===r?\"\":\"s\")+\" that would look just at home on your standard issue stallion. <b>You now have\"+(1===r?\" an\":\"\")+\" equine cock\"+(1===r?\"\":\"s\")+\"!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_cockTypeLockedMessage|e3de961c34ef",
+    "original": "\"+{var0}.cockTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:07815203>> <<VARS:var0=e>> output(\"\\n\\n\"+e.cockTypeLockedMessage())"
+  },
+  {
+    "key": "output.expr|Your_pc_cocks_throb_1_r_s_streams_of_pre_cum_erup|607da2c30332#2",
+    "original": "Your [pc.cocks] throb\"+(1===r?\"s\":\"\")+\", streams of pre-cum erupt in waves from your cock-slit\"+(1===r?\"\":\"s\")+\" as your \"+(1===r?\"malehood begins\":\"dicks begin\")+\" to twist and morph in front of your eyes! The sensation nearly makes you explode in a gush of jizz as your ",
+    "translation": "",
+    "context": "<<POS:07815509>>  output(\"\\n\\nYour [pc.cocks] throb\"+(1===r?\"s\":\"\")+\", streams of pre-cum erupt in waves from your cock-slit\"+(1===r?\"\":\"s\")+\" as your \"+(1===r?\"malehood begins\":\"dicks begin\")+\" to twist and morph in front of your eyes! The sensation nearly makes you explode in a gush of jizz as your \")"
+  },
+  {
+    "key": "output.expr|dick_1_r_s_shift_1_r_s|9337cdd0a545",
+    "original": "dick\"+(1===r?\"\":\"s\")+\" shift\"+(1===r?\"s\":\"\")",
+    "translation": "",
+    "context": "<<POS:07815792>>  output(\"dick\"+(1===r?\"\":\"s\")+\" shift\"+(1===r?\"s\":\"\"))"
+  },
+  {
+    "key": "output|into_a_purple_tone|d263697f08b0",
+    "original": " into a purple tone,",
+    "translation": "",
+    "context": "<<POS:07815849>>"
+  },
+  {
+    "key": "output.expr|becoming_1_r_a_bulbous_reptilian_shaft_1_r|1159aa25d337",
+    "original": " becoming\"+(1===r?\" a\":\"\")+\" bulbous reptilian shaft\"+(1===r?\"\":\"s\")+\" complete with\"+(1===r?\" a\":\"\")+\" smooth tapered tip\"+(1===r?\"\":\"s\")+\". <b>You now have\"+(1===r?\" a\":\"\")+\" naga cock\"+(1===r?\"\":\"s\")+\"!</b>",
+    "translation": "",
+    "context": "<<POS:07815880>>  output(\" becoming\"+(1===r?\" a\":\"\")+\" bulbous reptilian shaft\"+(1===r?\"\":\"s\")+\" complete with\"+(1===r?\" a\":\"\")+\" smooth tapered tip\"+(1===r?\"\":\"s\")+\". <b>You now have\"+(1===r?\" a\":\"\")+\" naga cock\"+(1===r?\"\":\"s\")+\"!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_cockTypeLockedMessage|9c37abfd1e6a",
+    "original": "\"+{var0}.cockTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:07816286>> <<VARS:var0=e>> output(\"\\n\\n\"+e.cockTypeLockedMessage())"
+  },
+  {
+    "key": "output.expr|You_feel_a_hot_sensation_washing_over_your_nether_region_causin|dfb83a4b3fd1",
+    "original": "You feel a hot sensation washing over your nether region, causing you to clench your thighs tightly together and moan out in pleasure, as your [pc.vaginas] erupt\"+(1===r?\"s\":\"\")+\" in a sudden gush of [pc.girlCumNoun]! ... Wait. Did you just have a orgasm? You reach down to cup [pc.oneVagina] with a hand, only to realize it has changed! Upon closer inspection you discover ",
+    "translation": "",
+    "context": "<<POS:07816675>>  output(\"\\n\\nYou feel a hot sensation washing over your nether region, causing you to clench your thighs tightly together and moan out in pleasure, as your [pc.vaginas] erupt\"+(1===r?\"s\":\"\")+\" in a sudden gush of [pc.girlCumNoun]! ... Wait. Did you just have a orgasm? You reach down to cup [pc.oneVagina] with a hand, only to realize it has changed! Upon closer inspection you discover \")"
+  },
+  {
+    "key": "output.expr|that_your_vagina_1_r_s_now_resemble_1_r_s|3e42a65569b9",
+    "original": "that your vagina\"+(1===r?\"\":\"s\")+\" now resemble\"+(1===r?\"s\":\"\")+\" a bird’s cloaca, with thin exterior lips around a mostly featureless opening",
+    "translation": "",
+    "context": "<<POS:07817060>>  output(\"that your vagina\"+(1===r?\"\":\"s\")+\" now resemble\"+(1===r?\"s\":\"\")+\" a bird’s cloaca, with thin exterior lips around a mostly featureless opening\")"
+  },
+  {
+    "key": "output|that_is_barely_visible_under_your_fur|9845a6cf0394",
+    "original": ", that is barely visible under your fur",
+    "translation": "",
+    "context": "<<POS:07817282>>"
+  },
+  {
+    "key": "output.expr|that_is_barely_visible_under_your_var1_skinFurScales_var0|0ffd3b372c50",
+    "original": ", that is barely visible under your \"+{var1}.skinFurScales({var0})",
+    "translation": "",
+    "context": "<<POS:07817332>> <<VARS:var0=!1,!1,!1,!0,var1=e>> output(\", that is barely visible under your \"+e.skinFurScales(!1,!1,!1,!0))"
+  },
+  {
+    "key": "output.expr|b_You_now_have_1_r_an_avian_vagina_1_r_s|08c833bc12e2",
+    "original": ". <b>You now have\"+(1===r?\" an\":\"\")+\" avian vagina\"+(1===r?\"\":\"s\")+\"!</b>",
+    "translation": "",
+    "context": "<<POS:07817409>>  output(\". <b>You now have\"+(1===r?\" an\":\"\")+\" avian vagina\"+(1===r?\"\":\"s\")+\"!</b>\")"
+  },
+  {
+    "key": "output.expr|Your_new_vagina_1_r_s_seem_1_r_s_to_be_s|7402d72e3f57",
+    "original": "Your new vagina\"+(1===r?\"\":\"s\")+\" seem\"+(1===r?\"s\":\"\")+\" to be specially designed for oviposition, being both tight and stretchy at the same time. <b>Your elasticity has considerably increased!</b>",
+    "translation": "",
+    "context": "<<POS:07817878>>  output(\"\\n\\nYour new vagina\"+(1===r?\"\":\"s\")+\" seem\"+(1===r?\"s\":\"\")+\" to be specially designed for oviposition, being both tight and stretchy at the same time. <b>Your elasticity has considerably increased!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_vaginaTypeLockedMessage|df4273f76d51",
+    "original": "\"+{var0}.vaginaTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:07818107>> <<VARS:var0=e>> output(\"\\n\\n\"+e.vaginaTypeLockedMessage())"
+  },
+  {
+    "key": "output.expr|You_feel_a_hot_sensation_washing_over_your_nether_region_causin|ae3d2a388418",
+    "original": "You feel a hot sensation washing over your nether region, causing you to clench your thighs tightly together and moan out in pleasure, as your [pc.vaginas] erupt\"+(1===r?\"s\":\"\")+\" in a sudden gush of [pc.girlCumNoun]! ... Wait. Did you just have a orgasm? You reach down to cup [pc.oneVagina] with a hand, only to realize it has changed! Upon closer inspection you discover ",
+    "translation": "",
+    "context": "<<POS:07818406>>  output(\"\\n\\nYou feel a hot sensation washing over your nether region, causing you to clench your thighs tightly together and moan out in pleasure, as your [pc.vaginas] erupt\"+(1===r?\"s\":\"\")+\" in a sudden gush of [pc.girlCumNoun]! ... Wait. Did you just have a orgasm? You reach down to cup [pc.oneVagina] with a hand, only to realize it has changed! Upon closer inspection you discover \")"
+  },
+  {
+    "key": "output.expr|that_you_now_have_1_r_an_var1_numToText_var0_almo|e44f18b52ff3",
+    "original": "that you now have \"+(1===r?\"an\":{var1}.numToText({var0}))+\" almost featureless hole\"+(1===r?\"\":\"s\")+\" with a vestigial labia",
+    "translation": "",
+    "context": "<<POS:07818791>> <<VARS:var0=r,var1=l.m>> output(\"that you now have \"+(1===r?\"an\":l.m.numToText(r))+\" almost featureless hole\"+(1===r?\"\":\"s\")+\" with a vestigial labia\")"
+  },
+  {
+    "key": "output|that_can_be_easily_hidden_under_your_fur|fb307b08ef4c",
+    "original": " that can be easily hidden under your fur",
+    "translation": "",
+    "context": "<<POS:07818987>>"
+  },
+  {
+    "key": "output.expr|that_can_be_easily_hidden_under_your_var1_skinFurScales_va|aa7d42ca6e26",
+    "original": " that can be easily hidden under your \"+{var1}.skinFurScales({var0})",
+    "translation": "",
+    "context": "<<POS:07819039>> <<VARS:var0=!1,!1,!1,!0,var1=e>> output(\" that can be easily hidden under your \"+e.skinFurScales(!1,!1,!1,!0))"
+  },
+  {
+    "key": "output.expr|b_You_now_have_1_r_a_feline_vagina_1_r_s|9202eff54f92",
+    "original": ". <b>You now have\"+(1===r?\" a\":\"\")+\" feline vagina\"+(1===r?\"\":\"s\")+\"!</b>",
+    "translation": "",
+    "context": "<<POS:07819118>>  output(\". <b>You now have\"+(1===r?\" a\":\"\")+\" feline vagina\"+(1===r?\"\":\"s\")+\"!</b>\")"
+  },
+  {
+    "key": "output.expr|Your_new_vagina_1_r_s_seem_1_r_s_to_be_s|d640ea7d8de5",
+    "original": "Your new vagina\"+(1===r?\"\":\"s\")+\" seem\"+(1===r?\"s\":\"\")+\" to be specially designed for oviposition, being both tight and stretchy at the same time. <b>Your elasticity has considerably increased!</b>",
+    "translation": "",
+    "context": "<<POS:07819472>>  output(\"\\n\\nYour new vagina\"+(1===r?\"\":\"s\")+\" seem\"+(1===r?\"s\":\"\")+\" to be specially designed for oviposition, being both tight and stretchy at the same time. <b>Your elasticity has considerably increased!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_vaginaTypeLockedMessage|df4273f76d51#1",
+    "original": "\"+{var0}.vaginaTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:07819701>> <<VARS:var0=e>> output(\"\\n\\n\"+e.vaginaTypeLockedMessage())"
+  },
+  {
+    "key": "output.expr|You_feel_a_hot_sensation_washing_over_your_nether_region_causin|ae3d2a388418#1",
+    "original": "You feel a hot sensation washing over your nether region, causing you to clench your thighs tightly together and moan out in pleasure, as your [pc.vaginas] erupt\"+(1===r?\"s\":\"\")+\" in a sudden gush of [pc.girlCumNoun]! ... Wait. Did you just have a orgasm? You reach down to cup [pc.oneVagina] with a hand, only to realize it has changed! Upon closer inspection you discover ",
+    "translation": "",
+    "context": "<<POS:07820015>>  output(\"\\n\\nYou feel a hot sensation washing over your nether region, causing you to clench your thighs tightly together and moan out in pleasure, as your [pc.vaginas] erupt\"+(1===r?\"s\":\"\")+\" in a sudden gush of [pc.girlCumNoun]! ... Wait. Did you just have a orgasm? You reach down to cup [pc.oneVagina] with a hand, only to realize it has changed! Upon closer inspection you discover \")"
+  },
+  {
+    "key": "output.expr|that_your_puss_1_r_y_is_ies_are_now_fat_and_swollen|37e1cc79aee5",
+    "original": "that your puss\"+(1===r?\"y is\":\"ies are\")+\" now fat and swollen, with thick, \"+{var0}+\" rubbery lips that feel leathery to the touch and a triangular clit. Giving a distinct equine bent to it. <b>You now have\"+(1===r?\" an\":\"\")+\" equine vagina\"+(1===r?\"\":\"s\")+\"!</b>",
+    "translation": "",
+    "context": "<<POS:07820400>> <<VARS:var0=h>> output(\"that your puss\"+(1===r?\"y is\":\"ies are\")+\" now fat and swollen, with thick, \"+h+\" rubbery lips that feel leathery to the touch and a triangular clit. Giving a distinct equine bent to it. <b>You now have\"+(1===r?\" an\":\"\")+\" equine vagina\"+(1===r?\"\":\"s\")+\"!</b>\")"
+  },
+  {
+    "key": "output.expr|Your_new_vagina_1_r_s_seem_1_r_s_to_be_s|e4ff8e277e01",
+    "original": "Your new vagina\"+(1===r?\"\":\"s\")+\" seem\"+(1===r?\"s\":\"\")+\" to be specially designed for oviposition, being both tight and stretchy at the same time. <b>Your elasticity has considerably increased!</b>",
+    "translation": "",
+    "context": "<<POS:07820935>>  output(\"\\n\\nYour new vagina\"+(1===r?\"\":\"s\")+\" seem\"+(1===r?\"s\":\"\")+\" to be specially designed for oviposition, being both tight and stretchy at the same time. <b>Your elasticity has considerably increased!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_vaginaTypeLockedMessage|df4273f76d51#2",
+    "original": "\"+{var0}.vaginaTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:07821164>> <<VARS:var0=e>> output(\"\\n\\n\"+e.vaginaTypeLockedMessage())"
+  },
+  {
+    "key": "output.expr|You_feel_a_hot_sensation_washing_over_your_nether_region_causin|ae3d2a388418#2",
+    "original": "You feel a hot sensation washing over your nether region, causing you to clench your thighs tightly together and moan out in pleasure, as your [pc.vaginas] erupt\"+(1===r?\"s\":\"\")+\" in a sudden gush of [pc.girlCumNoun]! ... Wait. Did you just have a orgasm? You reach down to cup [pc.oneVagina] with a hand, only to realize it has changed! Upon closer inspection you discover ",
+    "translation": "",
+    "context": "<<POS:07821440>>  output(\"\\n\\nYou feel a hot sensation washing over your nether region, causing you to clench your thighs tightly together and moan out in pleasure, as your [pc.vaginas] erupt\"+(1===r?\"s\":\"\")+\" in a sudden gush of [pc.girlCumNoun]! ... Wait. Did you just have a orgasm? You reach down to cup [pc.oneVagina] with a hand, only to realize it has changed! Upon closer inspection you discover \")"
+  },
+  {
+    "key": "output.expr|that_you_now_possess_1_r_a_var1_numToText_var0_mo|e9c448e09497",
+    "original": "that you now possess \"+(1===r?\"a\":{var1}.numToText({var0}))+\" modest reptilian slit\"+(1===r?\"s\":\"\")+\", with narrow lips around a mostly featureless opening",
+    "translation": "",
+    "context": "<<POS:07821825>> <<VARS:var0=r,var1=l.m>> output(\"that you now possess \"+(1===r?\"a\":l.m.numToText(r))+\" modest reptilian slit\"+(1===r?\"s\":\"\")+\", with narrow lips around a mostly featureless opening\")"
+  },
+  {
+    "key": "output|surrounded_by_soft_scales|c0e50a5b3e14",
+    "original": ", surrounded by soft scales",
+    "translation": "",
+    "context": "<<POS:07822017>>"
+  },
+  {
+    "key": "output.expr|b_You_now_have_1_r_a_reptilian_vagina_1_r|6f553c0de257",
+    "original": ". <b>You now have\"+(1===r?\" a\":\"\")+\" reptilian vagina\"+(1===r?\"\":\"s\")+\"!</b>",
+    "translation": "",
+    "context": "<<POS:07822055>>  output(\". <b>You now have\"+(1===r?\" a\":\"\")+\" reptilian vagina\"+(1===r?\"\":\"s\")+\"!</b>\")"
+  },
+  {
+    "key": "output.expr|Your_new_vagina_1_r_s_seem_1_r_s_to_be_s|9555a1a4d57b",
+    "original": "Your new vagina\"+(1===r?\"\":\"s\")+\" seem\"+(1===r?\"s\":\"\")+\" to be specially designed for oviposition, being both tight and stretchy at the same time. <b>Your elasticity has considerably increased!</b>",
+    "translation": "",
+    "context": "<<POS:07822409>>  output(\"\\n\\nYour new vagina\"+(1===r?\"\":\"s\")+\" seem\"+(1===r?\"s\":\"\")+\" to be specially designed for oviposition, being both tight and stretchy at the same time. <b>Your elasticity has considerably increased!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_vaginaTypeLockedMessage|df4273f76d51#3",
+    "original": "\"+{var0}.vaginaTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:07822638>> <<VARS:var0=e>> output(\"\\n\\n\"+e.vaginaTypeLockedMessage())"
+  },
+  {
+    "key": "output|You_feel_a_sudden_sloshing_sensation_inside_of_your_pc_fullChes|ad5ebd349701",
+    "original": "You feel a sudden sloshing sensation inside of your [pc.fullChest], that is quickly replaced with a mild feeling of nausea, as your mass is being redistributed around your body. In a matter of seconds, only a set of ",
+    "translation": "",
+    "context": "<<POS:07823185>>"
+  },
+  {
+    "key": "output.expr|var1_var0_nipples_reminds_you_of_your_mammalian_origin|6f9a289dac2b",
+    "original": "{var1}({var0})+\" nipples reminds you of your mammalian origin.",
+    "translation": "",
+    "context": "<<POS:07823535>> <<VARS:var0=a,var1=compressToList>> output(compressToList(a)+\" nipples reminds you of your mammalian origin.\")"
+  },
+  {
+    "key": "output|You_wonder_if_this_is_like_how_Atlas_felt_when_the_weight_of_th|4461f50f8303",
+    "original": " You wonder if this is like how Atlas felt when the weight of the sky was lifted from his back...",
+    "translation": "",
+    "context": "<<POS:07823616>>"
+  },
+  {
+    "key": "output|Oh_You_feel_much_lighter_now_with_your_center_of_mass_is_in|6407b9414031",
+    "original": " Oh... You feel much lighter now with your center of mass is in the right place.",
+    "translation": "",
+    "context": "<<POS:07823730>>"
+  },
+  {
+    "key": "output|b_Your_chest_is_now_completely_flat_b|22659608f911",
+    "original": " <b>Your chest is now completely flat!</b>",
+    "translation": "",
+    "context": "<<POS:07823821>>"
+  },
+  {
+    "key": "output.expr|var0_breastRatingLockedMessage|27d1dc992b7b",
+    "original": "\"+{var0}.breastRatingLockedMessage()",
+    "translation": "",
+    "context": "<<POS:07823883>> <<VARS:var0=e>> output(\"\\n\\n\"+e.breastRatingLockedMessage())"
+  },
+  {
+    "key": "output|You_d_thought_that_nothing_could_stop_your_lactation_but_you_we|d8edc5c7053b",
+    "original": "You’d thought that nothing could stop your lactation, but you were wrong! It seems you’ve finally dried up. Part of you feel relieved.",
+    "translation": "",
+    "context": "<<POS:07824119>>"
+  },
+  {
+    "key": "output|You_give_your_pc_nipples_an_experimental_squeeze_only_to_disc|d3dddd731837",
+    "original": "You give your [pc.nipples] an experimental squeeze, only to discover that your mammaries has dried up! You guess that birds do not really lactate, anyway. Oh well...",
+    "translation": "",
+    "context": "<<POS:07824399>>"
+  },
+  {
+    "key": "output|You_feel_like_your|d419ade990f3",
+    "original": "You feel like your ",
+    "translation": "",
+    "context": "<<POS:07824660>>"
+  },
+  {
+    "key": "output|fat_deposits|57cb8f5b5543",
+    "original": "fat deposits",
+    "translation": "",
+    "context": "<<POS:07824701>>"
+  },
+  {
+    "key": "output|muscles|8d806d115deb",
+    "original": "muscles",
+    "translation": "",
+    "context": "<<POS:07824724>>"
+  },
+  {
+    "key": "output|have_all_of_sudden_been_turned_into_snakes_or_something_of_tha|69e5defa428f",
+    "original": " have all of sudden been turned into snakes, or something of that nature. Your flesh begins to flow awkwardly under your [pc.skinNoun]. The sensation fades almost as soon as it begins, leaving you somehow with an extremely light body, much better suited for flight. You can only begin to wonder where all your mass has gone.",
+    "translation": "",
+    "context": "<<POS:07824742>>"
+  },
+  {
+    "key": "output|After_some_brief_shifting_underneath_your_pc_skinNoun_you_are|cadec8d821c6",
+    "original": "After some brief shifting underneath your [pc.skinNoun], you are left with a considerably more lithe build.",
+    "translation": "",
+    "context": "<<POS:07825082>>"
+  },
+  {
+    "key": "output|After_feeling_up_your_changed_body_for_a_moment_you_discover_th|9595d238b0d1",
+    "original": "After feeling up your changed body for a moment, you discover that it is now tightly bound in sleek yet strong muscles.",
+    "translation": "",
+    "context": "<<POS:07825235>>"
+  },
+  {
+    "key": "output|You_feel_strange_sensation_of_something_shifting_beneath_your_p|119566756e0d",
+    "original": "You feel strange sensation of something shifting beneath your [pc.skinNoun], flowing through your body. When it finally settles down, you end up finding yourself covered in powerful muscles that are sleek yet taut.",
+    "translation": "",
+    "context": "<<POS:07825383>>"
+  },
+  {
+    "key": "output|Your_muscles_are_like_taut_strings_you_can_almost_hear_them_vib|729dd86f824d",
+    "original": "Your muscles are like taut strings; you can almost hear them vibrating. Feeling yourself up, you discover that they are now notably more defined.",
+    "translation": "",
+    "context": "<<POS:07825612>>"
+  },
+  {
+    "key": "output|You_feel_your_pc_ass_sagging_down|3de7fa925874",
+    "original": "You feel your [pc.ass] sagging down",
+    "translation": "",
+    "context": "<<POS:07826198>>"
+  },
+  {
+    "key": "output|even_more_than_usual|2710f83e8f08",
+    "original": " even more than usual",
+    "translation": "",
+    "context": "<<POS:07826263>>"
+  },
+  {
+    "key": "output|before_being_absorbed_into_your_body_In_a_matter_of_seconds_y|ee9b5f95b66f",
+    "original": " before being absorbed into your body. In a matter of seconds, you are left",
+    "translation": "",
+    "context": "<<POS:07826295>>"
+  },
+  {
+    "key": "output|without_nearly_any_bottom_padding_at_all_It_certainly_does_wel|7ac80ebf128c",
+    "original": " without nearly any bottom padding at all! It certainly does well for your aerodynamics, but you will definitely have to invest in a softer seat.",
+    "translation": "",
+    "context": "<<POS:07826387>>"
+  },
+  {
+    "key": "output|with_a_firm_tight_butt_perfectly_matching_your_lean_body|26b32004d74d",
+    "original": " with a firm, tight butt, perfectly matching your lean body.",
+    "translation": "",
+    "context": "<<POS:07826547>>"
+  },
+  {
+    "key": "output|with_a_shapely_yet_firm_ass|03b9c73e8588",
+    "original": " with a shapely, yet firm ass.",
+    "translation": "",
+    "context": "<<POS:07826618>>"
+  },
+  {
+    "key": "output.expr|var0_buttRatingLockedMessage|86be10339f86",
+    "original": "\"+{var0}.buttRatingLockedMessage()",
+    "translation": "",
+    "context": "<<POS:07826683>> <<VARS:var0=e>> output(\"\\n\\n\"+e.buttRatingLockedMessage())"
+  },
+  {
+    "key": "output|You_do_not_feel_the_change_but_you_can_definitely_hear_it_With|ec589fa8654e",
+    "original": "You do not feel the change, but you can definitely hear it. With a sickening crackling your [pc.hips] bloom wider until they have a distinct broodmother shape, obviously preparing you to push out something big.",
+    "translation": "",
+    "context": "<<POS:07826866>>"
+  },
+  {
+    "key": "output|You_shudder_in_a_strange_mixture_of_anticipation_and_doubtful_a|de211c5c33b7",
+    "original": " You shudder in a strange mixture of anticipation and doubtful anxiety.",
+    "translation": "",
+    "context": "<<POS:07827101>>"
+  },
+  {
+    "key": "output|You_are_not_sure_how_it_applies_to_males_though|19f7dc993794",
+    "original": " You are not sure how it applies to males, though.",
+    "translation": "",
+    "context": "<<POS:07827212>>"
+  },
+  {
+    "key": "output|You_vaguely_ponder_if_to_get_a_change_in_the_lower_department_t|ffadee318911",
+    "original": " You vaguely ponder if to get a change in the lower department to make proper use of this addition...",
+    "translation": "",
+    "context": "<<POS:07827273>>"
+  },
+  {
+    "key": "output|You_feel_somehow_weightless_You_were_already_very_light_but|c948c3577329",
+    "original": "You feel somehow... weightless. You were already very light, but this is something on a whole different level. After scanning yourself with your codex, you discover that your bones are now almost hollow, with a honeycomb structure keeping them strong yet light. Flying will be much easier with a body like this!",
+    "translation": "",
+    "context": "<<POS:07827690>>"
+  },
+  {
+    "key": "output|b_Perk_Gained_Hollow_Bones_b_Your_body_weighs_less_than_i|d238377a43d1",
+    "original": "(<b>Perk Gained: Hollow Bones</b> - Your body weighs less than it should.)",
+    "translation": "",
+    "context": "<<POS:07828016>>"
+  },
+  {
+    "key": "perk|Hollow_Bones|750d7486a691",
+    "original": "Hollow Bones",
+    "translation": "",
+    "context": "<<POS:07828107>> createPerk(\"Hollow Bones\",10,0,0,0,\"Your body weighs less than it should.\")"
+  },
+  {
+    "key": "output|Your_Codex_beeps_notifying_you_about_some_hidden_changes_to_you|80cc4da7dbee",
+    "original": "Your Codex beeps, notifying you about some hidden changes to your womb",
+    "translation": "",
+    "context": "<<POS:07828321>>"
+  },
+  {
+    "key": "output|s|f1b924f89c1b",
+    "original": "s",
+    "translation": "",
+    "context": "<<POS:07828422>>"
+  },
+  {
+    "key": "output|According_to_it_you_are_now_oviparous_Better_get_the_hen|3702ca5c3ee2",
+    "original": ". According to it, you are now... oviparous. Better get the hen house ready -- It seems your body is so used to being pregnant with bird-like eggs that you’ve become an egg-laying mother yourself!",
+    "translation": "",
+    "context": "<<POS:07828434>>"
+  },
+  {
+    "key": "output|b_Perk_Gained_Oviposition_b_Causes_you_to_regularly_lay_e|e3ad56ead00c",
+    "original": "(<b>Perk Gained: Oviposition</b> - Causes you to regularly lay eggs when not otherwise pregnant.)",
+    "translation": "",
+    "context": "<<POS:07828645>>"
+  },
+  {
+    "key": "perk|Oviposition|17492e589100",
+    "original": "Oviposition",
+    "translation": "",
+    "context": "<<POS:07828759>> createPerk(\"Oviposition\",0,0,0,GetGameTimestamp(),\"Causes you to regularly lay eggs when not otherwise pregnant.\")"
+  }
+]

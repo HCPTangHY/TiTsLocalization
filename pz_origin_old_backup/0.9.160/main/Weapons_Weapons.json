@@ -1,0 +1,680 @@
+[
+  {
+    "key": "button|Weapons|16ec46311dc6",
+    "original": "Weapons",
+    "translation": "",
+    "context": "<<POS:10896310>> addDisabledButton(0,\"Weapons\",\"Weapons\",\"Your ship has no weapons equipped.\")"
+  },
+  {
+    "key": "button.hover|Your_ship_has_no_weapons_equipped|0f0a756894f6",
+    "original": "Your ship has no weapons equipped.",
+    "translation": "",
+    "context": "<<POS:10896330>> addDisabledButton(0,\"Weapons\",\"Weapons\",\"Your ship has no weapons equipped.\")"
+  },
+  {
+    "key": "button|Weapons|20721142bd08",
+    "original": "Weapons",
+    "translation": "",
+    "context": "<<POS:10896420>> addDisabledButton(0,\"Weapons\",\"Weapons\",\"Your ships weapon systems have been disabled.\")"
+  },
+  {
+    "key": "button.hover|Your_ships_weapon_systems_have_been_disabled|ea4a16cc4c10",
+    "original": "Your ships weapon systems have been disabled.",
+    "translation": "",
+    "context": "<<POS:10896440>> addDisabledButton(0,\"Weapons\",\"Weapons\",\"Your ships weapon systems have been disabled.\")"
+  },
+  {
+    "key": "button|Weapons|e7707d7b11ba",
+    "original": "Weapons",
+    "translation": "",
+    "context": "<<POS:10896501>> addButton(0,\"Weapons\",(function(){return e.manageWeapons(e.friendlies[0])}),\"Weapons\",\"Manage which weapons will be firing during this engagement.\")"
+  },
+  {
+    "key": "button.hover|Weapons|e7707d7b11ba",
+    "original": "Weapons",
+    "translation": "",
+    "context": "<<POS:10896565>> addButton(0,\"Weapons\",(function(){return e.manageWeapons(e.friendlies[0])}),\"Weapons\",\"Manage which weapons will be firing during this engagement.\")"
+  },
+  {
+    "key": "button.tooltip|Manage_which_weapons_will_be_firing_during_this_engagement|3c4f9d625087",
+    "original": "Manage which weapons will be firing during this engagement.",
+    "translation": "",
+    "context": "<<POS:10896575>> addButton(0,\"Weapons\",(function(){return e.manageWeapons(e.friendlies[0])}),\"Weapons\",\"Manage which weapons will be firing during this engagement.\")"
+  },
+  {
+    "key": "button|Gadgets|804b53753bae",
+    "original": "Gadgets",
+    "translation": "",
+    "context": "<<POS:10896685>> addButton(1,\"Gadgets\",(function(){return e.shipGadgetMenu()}),\"Gadgets\",\"Look over your equipped gadgetry for a device that might swing the battle in your favor.\")"
+  },
+  {
+    "key": "button.hover|Gadgets|804b53753bae",
+    "original": "Gadgets",
+    "translation": "",
+    "context": "<<POS:10896735>> addButton(1,\"Gadgets\",(function(){return e.shipGadgetMenu()}),\"Gadgets\",\"Look over your equipped gadgetry for a device that might swing the battle in your favor.\")"
+  },
+  {
+    "key": "button.tooltip|Look_over_your_equipped_gadgetry_for_a_device_that_might_swing_t|595e20ee9b65",
+    "original": "Look over your equipped gadgetry for a device that might swing the battle in your favor.",
+    "translation": "",
+    "context": "<<POS:10896745>> addButton(1,\"Gadgets\",(function(){return e.shipGadgetMenu()}),\"Gadgets\",\"Look over your equipped gadgetry for a device that might swing the battle in your favor.\")"
+  },
+  {
+    "key": "button|Gadgets|7ba0b338efbb",
+    "original": "Gadgets",
+    "translation": "",
+    "context": "<<POS:10896857>> addDisabledButton(1,\"Gadgets\",\"Gadgets\",\"You have no gadgets equipped.\")"
+  },
+  {
+    "key": "button.hover|You_have_no_gadgets_equipped|9632aa2df4d5",
+    "original": "You have no gadgets equipped.",
+    "translation": "",
+    "context": "<<POS:10896877>> addDisabledButton(1,\"Gadgets\",\"Gadgets\",\"You have no gadgets equipped.\")"
+  },
+  {
+    "key": "button|Special|42eb0c9d56c5",
+    "original": "Special",
+    "translation": "",
+    "context": "<<POS:10896922>> addButton(2,\"Special\",this.shipSpecialMenu,\"Special Actions\",\"The special actions you have available to you are listed in this menu.\")"
+  },
+  {
+    "key": "button.hover|Special_Actions|af6ac491abc1",
+    "original": "Special Actions",
+    "translation": "",
+    "context": "<<POS:10896953>> addButton(2,\"Special\",this.shipSpecialMenu,\"Special Actions\",\"The special actions you have available to you are listed in this menu.\")"
+  },
+  {
+    "key": "button.tooltip|The_special_actions_you_have_available_to_you_are_listed_in_this|346af45a999f",
+    "original": "The special actions you have available to you are listed in this menu.",
+    "translation": "",
+    "context": "<<POS:10896971>> addButton(2,\"Special\",this.shipSpecialMenu,\"Special Actions\",\"The special actions you have available to you are listed in this menu.\")"
+  },
+  {
+    "key": "button|Evade|843b44c191b5",
+    "original": "Evade!",
+    "translation": "",
+    "context": "<<POS:10897057>> addButton(3,\"Evade!\",(function(){return e.evadeWithYoShip()}),\"Evade!\",\"Focus on evasion rather than firing any weapon systems. Dodge, duck, dip, dive, and aileron roll!\\n\\n(+50 evasion.)\")"
+  },
+  {
+    "key": "button.hover|Evade|843b44c191b5",
+    "original": "Evade!",
+    "translation": "",
+    "context": "<<POS:10897107>> addButton(3,\"Evade!\",(function(){return e.evadeWithYoShip()}),\"Evade!\",\"Focus on evasion rather than firing any weapon systems. Dodge, duck, dip, dive, and aileron roll!\\n\\n(+50 evasion.)\")"
+  },
+  {
+    "key": "button.tooltip|Focus_on_evasion_rather_than_firing_any_weapon_systems_Dodge_d|b62d1e71e4cb",
+    "original": "Focus on evasion rather than firing any weapon systems. Dodge, duck, dip, dive, and aileron roll!\\n\\n(+50 evasion.)",
+    "translation": "",
+    "context": "<<POS:10897116>> addButton(3,\"Evade!\",(function(){return e.evadeWithYoShip()}),\"Evade!\",\"Focus on evasion rather than firing any weapon systems. Dodge, duck, dip, dive, and aileron roll!\\n\\n(+50 evasion.)\")"
+  },
+  {
+    "key": "button|Battle|e465405efa04",
+    "original": "Battle!",
+    "translation": "",
+    "context": "<<POS:10897247>> addButton(4,\"Battle!\",(function(){return e.selectSimpleAttack({func:p.B.ShipAttack})}),\"Battle!\",\"Fight with your presently powered weapons!\")"
+  },
+  {
+    "key": "button.hover|Battle|e465405efa04",
+    "original": "Battle!",
+    "translation": "",
+    "context": "<<POS:10897322>> addButton(4,\"Battle!\",(function(){return e.selectSimpleAttack({func:p.B.ShipAttack})}),\"Battle!\",\"Fight with your presently powered weapons!\")"
+  },
+  {
+    "key": "button.tooltip|Fight_with_your_presently_powered_weapons|3debd82c0fde",
+    "original": "Fight with your presently powered weapons!",
+    "translation": "",
+    "context": "<<POS:10897332>> addButton(4,\"Battle!\",(function(){return e.selectSimpleAttack({func:p.B.ShipAttack})}),\"Battle!\",\"Fight with your presently powered weapons!\")"
+  },
+  {
+    "key": "button|Edit_Weapons|920779d7030e",
+    "original": "Edit Weapons",
+    "translation": "",
+    "context": "<<POS:10897470>> addButton(5,\"Edit Weapons\",(function(){window.ui.createReorganizationListMenu(pc_ship.inventory.equippedItems.weapons,\"Reorganize Weapons\",\"Use the menu to change the order of your ship’s installed weaponry.\\n(Top-most is first-most.)\\n\\n<i>Note that this will also affect the attack order of weapons..."
+  },
+  {
+    "key": "button.hover|Reorganize_Weapons|eaae9bd43397",
+    "original": "Reorganize Weapons",
+    "translation": "",
+    "context": "<<POS:10897880>> addButton(5,\"Edit Weapons\",(function(){window.ui.createReorganizationListMenu(pc_ship.inventory.equippedItems.weapons,\"Reorganize Weapons\",\"Use the menu to change the order of your ship’s installed weaponry.\\n(Top-most is first-most.)\\n\\n<i>Note that this will also affect the attack order of weapons..."
+  },
+  {
+    "key": "button.tooltip|Change_the_attack_order_of_weapons_in_battle|4e15fc2d84b6",
+    "original": "Change the attack order of weapons in battle.",
+    "translation": "",
+    "context": "<<POS:10897901>> addButton(5,\"Edit Weapons\",(function(){window.ui.createReorganizationListMenu(pc_ship.inventory.equippedItems.weapons,\"Reorganize Weapons\",\"Use the menu to change the order of your ship’s installed weaponry.\\n(Top-most is first-most.)\\n\\n<i>Note that this will also affect the attack order of weapons..."
+  },
+  {
+    "key": "button|Edit_Weapons|3fe1e7150d9f",
+    "original": "Edit Weapons",
+    "translation": "",
+    "context": "<<POS:10897970>> addDisabledButton(5,\"Edit Weapons\",\"Reorganize Weapons\",\"You do not have enough installed weapons to change the order of.\")"
+  },
+  {
+    "key": "button.hover|You_do_not_have_enough_installed_weapons_to_change_the_order_of|eecb1448f0dc",
+    "original": "You do not have enough installed weapons to change the order of.",
+    "translation": "",
+    "context": "<<POS:10898006>> addDisabledButton(5,\"Edit Weapons\",\"Reorganize Weapons\",\"You do not have enough installed weapons to change the order of.\")"
+  },
+  {
+    "key": "button|Scan|f387561fc99f",
+    "original": "Scan",
+    "translation": "",
+    "context": "<<POS:10898087>> addButton(6,\"Scan\",(function(){return e.selectSimpleAttack({func:e.generateScanMenu})}),\"Scan\",\"Attempts to identify the enemy vessel’s equipment and elemental resistances.\")"
+  },
+  {
+    "key": "button.hover|Scan|f387561fc99f",
+    "original": "Scan",
+    "translation": "",
+    "context": "<<POS:10898163>> addButton(6,\"Scan\",(function(){return e.selectSimpleAttack({func:e.generateScanMenu})}),\"Scan\",\"Attempts to identify the enemy vessel’s equipment and elemental resistances.\")"
+  },
+  {
+    "key": "button.tooltip|Attempts_to_identify_the_enemy_vessel_s_equipment_and_elemental|b3a79779a285",
+    "original": "Attempts to identify the enemy vessel’s equipment and elemental resistances.",
+    "translation": "",
+    "context": "<<POS:10898170>> addButton(6,\"Scan\",(function(){return e.selectSimpleAttack({func:e.generateScanMenu})}),\"Scan\",\"Attempts to identify the enemy vessel’s equipment and elemental resistances.\")"
+  },
+  {
+    "key": "button|Surrender|f94e0d75d31a",
+    "original": "Surrender",
+    "translation": "",
+    "context": "<<POS:10898332>> addDisabledButton(8,\"Surrender\",\"Surrender\",\"You’ve already given up the battle!\")"
+  },
+  {
+    "key": "button.hover|You_ve_already_given_up_the_battle|24cc51386544",
+    "original": "You’ve already given up the battle!",
+    "translation": "",
+    "context": "<<POS:10898356>> addDisabledButton(8,\"Surrender\",\"Surrender\",\"You’ve already given up the battle!\")"
+  },
+  {
+    "key": "button|Surrender|7333c0bcd976",
+    "original": "Surrender!",
+    "translation": "",
+    "context": "<<POS:10898407>> addButton(8,\"Surrender!\",(function(){return e.surrender(8,e.friendlies[0])}),\"Surrender!\",\"Cut your losses and turn your ship over to the opponent.\")"
+  },
+  {
+    "key": "button.hover|Surrender|7333c0bcd976",
+    "original": "Surrender!",
+    "translation": "",
+    "context": "<<POS:10898472>> addButton(8,\"Surrender!\",(function(){return e.surrender(8,e.friendlies[0])}),\"Surrender!\",\"Cut your losses and turn your ship over to the opponent.\")"
+  },
+  {
+    "key": "button.tooltip|Cut_your_losses_and_turn_your_ship_over_to_the_opponent|e75fb099d4fb",
+    "original": "Cut your losses and turn your ship over to the opponent.",
+    "translation": "",
+    "context": "<<POS:10898485>> addButton(8,\"Surrender!\",(function(){return e.surrender(8,e.friendlies[0])}),\"Surrender!\",\"Cut your losses and turn your ship over to the opponent.\")"
+  },
+  {
+    "key": "button|Surrender|ababbcbe6c14",
+    "original": "Surrender",
+    "translation": "",
+    "context": "<<POS:10898565>> addDisabledButton(8,\"Surrender\",\"Surrender\",\"Your vessel is already beyond saving at this point.\")"
+  },
+  {
+    "key": "button.hover|Your_vessel_is_already_beyond_saving_at_this_point|fb2a09779fbc",
+    "original": "Your vessel is already beyond saving at this point.",
+    "translation": "",
+    "context": "<<POS:10898589>> addDisabledButton(8,\"Surrender\",\"Surrender\",\"Your vessel is already beyond saving at this point.\")"
+  },
+  {
+    "key": "button|Recharge|8c22afbb1412",
+    "original": "Recharge!",
+    "translation": "",
+    "context": "<<POS:10898656>> addButton(9,\"Recharge!\",(function(){return e.rechargeYoShipBoooost(e.friendlies[0])}),\"Recharge!\",\"Focus on recharging your ship’s capacitors instead of fighting back. Note that this happens automatically if you select “Battle!” without any weapons enabled.\\n\\n(Double energy gain.)\")"
+  },
+  {
+    "key": "button.hover|Recharge|8c22afbb1412",
+    "original": "Recharge!",
+    "translation": "",
+    "context": "<<POS:10898730>> addButton(9,\"Recharge!\",(function(){return e.rechargeYoShipBoooost(e.friendlies[0])}),\"Recharge!\",\"Focus on recharging your ship’s capacitors instead of fighting back. Note that this happens automatically if you select “Battle!” without any weapons enabled.\\n\\n(Double energy gain.)\")"
+  },
+  {
+    "key": "button.tooltip|Focus_on_recharging_your_ship_s_capacitors_instead_of_fighting_b|4a18639fc041",
+    "original": "Focus on recharging your ship’s capacitors instead of fighting back. Note that this happens automatically if you select “Battle!” without any weapons enabled.\\n\\n(Double energy gain.)",
+    "translation": "",
+    "context": "<<POS:10898742>> addButton(9,\"Recharge!\",(function(){return e.rechargeYoShipBoooost(e.friendlies[0])}),\"Recharge!\",\"Focus on recharging your ship’s capacitors instead of fighting back. Note that this happens automatically if you select “Battle!” without any weapons enabled.\\n\\n(Double energy gain.)\")"
+  },
+  {
+    "key": "button|Escape|f311f382132b",
+    "original": "Escape!",
+    "translation": "",
+    "context": "<<POS:10899001>> addButton(14,\"Escape!\",(function(){return e.runAway()}),\"Escape!\",\"Now that you’ve charged your light drive, you can escape with the flip of a switch!\")"
+  },
+  {
+    "key": "button.hover|Escape|f311f382132b",
+    "original": "Escape!",
+    "translation": "",
+    "context": "<<POS:10899044>> addButton(14,\"Escape!\",(function(){return e.runAway()}),\"Escape!\",\"Now that you’ve charged your light drive, you can escape with the flip of a switch!\")"
+  },
+  {
+    "key": "button.tooltip|Now_that_you_ve_charged_your_light_drive_you_can_escape_with_th|908a3875a439",
+    "original": "Now that you’ve charged your light drive, you can escape with the flip of a switch!",
+    "translation": "",
+    "context": "<<POS:10899054>> addButton(14,\"Escape!\",(function(){return e.runAway()}),\"Escape!\",\"Now that you’ve charged your light drive, you can escape with the flip of a switch!\")"
+  },
+  {
+    "key": "button|Escape|1e19d6d6642c",
+    "original": "Escape!",
+    "translation": "",
+    "context": "<<POS:10899228>> addButton(14,\"Escape!\",(function(){return e.runAway()}),\"Escape!\",\"Attempt to escape from your enemy. Success is greatly dependent on reflexes. Immobilizing your enemy before attempting to run will increase the odds of success.\")"
+  },
+  {
+    "key": "button.hover|Escape|1e19d6d6642c",
+    "original": "Escape!",
+    "translation": "",
+    "context": "<<POS:10899271>> addButton(14,\"Escape!\",(function(){return e.runAway()}),\"Escape!\",\"Attempt to escape from your enemy. Success is greatly dependent on reflexes. Immobilizing your enemy before attempting to run will increase the odds of success.\")"
+  },
+  {
+    "key": "button.tooltip|Attempt_to_escape_from_your_enemy_Success_is_greatly_dependent|ece6047094eb",
+    "original": "Attempt to escape from your enemy. Success is greatly dependent on reflexes. Immobilizing your enemy before attempting to run will increase the odds of success.",
+    "translation": "",
+    "context": "<<POS:10899281>> addButton(14,\"Escape!\",(function(){return e.runAway()}),\"Escape!\",\"Attempt to escape from your enemy. Success is greatly dependent on reflexes. Immobilizing your enemy before attempting to run will increase the odds of success.\")"
+  },
+  {
+    "key": "button|Escape|ea2a1be49fbb",
+    "original": "Escape",
+    "translation": "",
+    "context": "<<POS:10899466>> addDisabledButton(14,\"Escape\",\"Escape\",\"You don’t have enough energy to charge your light drive.\\n\\n<b>Energy Required:</b> \"+Math.floor(this.friendlies[0].energyMax()/2))"
+  },
+  {
+    "key": "button.hover|You_don_t_have_enough_energy_to_charge_your_light_drive_n_n_b_E|a0789a29c6d8",
+    "original": "You don’t have enough energy to charge your light drive.\\n\\n<b>Energy Required:</b> ",
+    "translation": "",
+    "context": "<<POS:10899484>> addDisabledButton(14,\"Escape\",\"Escape\",\"You don’t have enough energy to charge your light drive.\\n\\n<b>Energy Required:</b> \"+Math.floor(this.friendlies[0].energyMax()/2))"
+  },
+  {
+    "key": "combat.expr|var0_startList|cc7cff09ec42",
+    "original": "{var0}.startList()",
+    "translation": "",
+    "context": "<<POS:10899846>> <<VARS:var0=m.m>> combatAppend(m.m.startList())"
+  },
+  {
+    "key": "combat.expr|var0_li_Shield_Defense_t_shieldDefense|08b3d491febe",
+    "original": "{var0}.li(\"Shield Defense\",t.shieldDefense())",
+    "translation": "",
+    "context": "<<POS:10899876>> <<VARS:var0=m.m>> combatAppend(m.m.li(\"Shield Defense\",t.shieldDefense()))"
+  },
+  {
+    "key": "combat.expr|var0_li_Shield_Resistances_n|34c5142a5560",
+    "original": "{var0}.li(\"Shield Resistances\",n)",
+    "translation": "",
+    "context": "<<POS:10900391>> <<VARS:var0=m.m>> combatAppend(m.m.li(\"Shield Resistances\",n))"
+  },
+  {
+    "key": "combat.expr|var0_endList|9090eec72ce9",
+    "original": "{var0}.endList()",
+    "translation": "",
+    "context": "<<POS:10900441>> <<VARS:var0=m.m>> combatAppend(m.m.endList())"
+  },
+  {
+    "key": "combat.expr|var0_startList|01bfc6b49e0b",
+    "original": "{var0}.startList()",
+    "translation": "",
+    "context": "<<POS:10900469>> <<VARS:var0=m.m>> combatAppend(m.m.startList())"
+  },
+  {
+    "key": "combat.expr|var0_li_Armor_Defense_t_defense|d469a9d985f2",
+    "original": "{var0}.li(\"Armor Defense\",t.defense())",
+    "translation": "",
+    "context": "<<POS:10900499>> <<VARS:var0=m.m>> combatAppend(m.m.li(\"Armor Defense\",t.defense()))"
+  },
+  {
+    "key": "combat.expr|var0_li_Armor_Resistances_n|9ccff6b1ba77",
+    "original": "{var0}.li(\"Armor Resistances\",n)",
+    "translation": "",
+    "context": "<<POS:10901005>> <<VARS:var0=m.m>> combatAppend(m.m.li(\"Armor Resistances\",n))"
+  },
+  {
+    "key": "combat.expr|var0_endList|dc8180c1aacd",
+    "original": "{var0}.endList()",
+    "translation": "",
+    "context": "<<POS:10901054>> <<VARS:var0=m.m>> combatAppend(m.m.endList())"
+  },
+  {
+    "key": "button|Back|202fe93f2acf",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:10903411>> addButton(14,\"Back\",(function(){t.manageWeapons(e,!1),t.generateCombatMenu(!0)}))"
+  },
+  {
+    "key": "button|Back|8377b4609270",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:10904100>> addButton(14,\"Back\",(function(){return e.generateCombatMenu(!0)}))"
+  },
+  {
+    "key": "button|Back|8377b4609270#1",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:10904273>> addButton(14,\"Back\",(function(){return e.generateCombatMenu(!0)}),\"Back\",\"Return to the previous menu.\")"
+  },
+  {
+    "key": "button.hover|Back|8377b4609270",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:10904326>> addButton(14,\"Back\",(function(){return e.generateCombatMenu(!0)}),\"Back\",\"Return to the previous menu.\")"
+  },
+  {
+    "key": "button.tooltip|Return_to_the_previous_menu|e14287d991b2",
+    "original": "Return to the previous menu.",
+    "translation": "",
+    "context": "<<POS:10904333>> addButton(14,\"Back\",(function(){return e.generateCombatMenu(!0)}),\"Back\",\"Return to the previous menu.\")"
+  },
+  {
+    "key": "assign|span_class_icon_caution|a76420e3db69",
+    "original": "<span class=\"icon caution\">",
+    "translation": "",
+    "context": "<<POS:10905520>>"
+  },
+  {
+    "key": "assign|Are_you_sure_you_want_to_give_up_the_fight_now|0fa0931931c0",
+    "original": "Are you sure you want to give up the fight now?",
+    "translation": "",
+    "context": "<<POS:10905669>>"
+  },
+  {
+    "key": "assign|Choosing_to_do_so_will_have_you_power_down_your_ship_for_a_turn|242029e7e65e",
+    "original": "Choosing to do so will have you power down your ship for a turn, allowing your opponent to respond. While you will incur a loss, and any consequences of that loss, your ship",
+    "translation": "",
+    "context": "<<POS:10905726>>"
+  },
+  {
+    "key": "assign|i_The_enemy_may_still_attack_you_before_or_after_receiving_the|86da27689322",
+    "original": "<i>The enemy may still attack you before or after receiving the signal.</i>",
+    "translation": "",
+    "context": "<<POS:10906027>>"
+  },
+  {
+    "key": "assign|make_the_decision_to_power_down_your_ship|baab7bcdd14e",
+    "original": " make the decision to power down your ship",
+    "translation": "",
+    "context": "<<POS:10906460>>"
+  },
+  {
+    "key": "assign|defensive_shields|d6d82bbf9d34",
+    "original": " defensive shields",
+    "translation": "",
+    "context": "<<POS:10906536>>"
+  },
+  {
+    "key": "assign|and|0e47690eae5e",
+    "original": " and",
+    "translation": "",
+    "context": "<<POS:10906572>>"
+  },
+  {
+    "key": "assign|energy_generators|8293510880d0",
+    "original": " energy generators",
+    "translation": "",
+    "context": "<<POS:10906589>>"
+  },
+  {
+    "key": "assign|and_launch_an_emergency_flare_with_a_U_G_C_certified_surrender|324fe978a7eb",
+    "original": " and launch an emergency flare with a U.G.C.-certified surrender beacon towards your enemy.",
+    "translation": "",
+    "context": "<<POS:10906614>>"
+  },
+  {
+    "key": "assign|much_to_your_crew_member|03fe4a636c1f",
+    "original": ".. much to your crew member",
+    "translation": "",
+    "context": "<<POS:10906717>>"
+  },
+  {
+    "key": "combat|concat_a_r|be20cc8dc483",
+    "original": "\".concat(a[r])",
+    "translation": "",
+    "context": "<<POS:10907015>>"
+  },
+  {
+    "key": "combat|Now_all_you_can_do_is_wait_until_the_message_is_received|451b4b926168",
+    "original": "Now all you can do is wait until the message is received...",
+    "translation": "",
+    "context": "<<POS:10907049>>"
+  },
+  {
+    "key": "output.expr|var0|f16d698b5d0b",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:10907259>> <<VARS:var0=h>> ParseText(h)"
+  },
+  {
+    "key": "button.hover.expr|var0_toDisplayCase_target_concat_n_pc_ship_yourself_n_g|2bd70de1dfe4",
+    "original": "{var0}.toDisplayCase(\"target \".concat(n===pc_ship?\"yourself\":n.getCombatName()))",
+    "translation": "",
+    "context": "<<POS:10907885>> <<VARS:var0=m.m>> addButton(o,n.buttonText,function(e,o){return function(){e.tar=o,t.executeSimpleAttack(e)}}(e,n),m.m.toDisplayCase(\"target \".concat(n===pc_ship?\"yourself\":n.getCombatName())),\"Use action on \".concat(n===pc_ship?\"your own vessel\":n.nameDisplay(),\".\"))"
+  },
+  {
+    "key": "button.tooltip|Use_action_on|fc366b62e12b",
+    "original": "Use action on ",
+    "translation": "",
+    "context": "<<POS:10907964>> addButton(o,n.buttonText,function(e,o){return function(){e.tar=o,t.executeSimpleAttack(e)}}(e,n),m.m.toDisplayCase(\"target \".concat(n===pc_ship?\"yourself\":n.getCombatName())),\"Use action on \".concat(n===pc_ship?\"your own vessel\":n.nameDisplay(),\".\"))"
+  },
+  {
+    "key": "button|Back|3e311fd8f355",
+    "original": "Back",
+    "translation": "",
+    "context": "<<POS:10908057>> addButton(14,\"Back\",this.generateCombatMenu)"
+  },
+  {
+    "key": "button|Next|6d18801ef4fb",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:10914793>> addButton(0,\"Next\",(function(){clearCombatOutput(),e.combatContainer&&(e.combatContainer.showMainUI(),e.combatContainer.doCombatCleanup(),e.combatContainer=null),t()}))"
+  },
+  {
+    "key": "assign|Defeat_Team|16e5c93e07b1",
+    "original": "Defeat Team",
+    "translation": "",
+    "context": "<<POS:10919845>>"
+  },
+  {
+    "key": "assign|All_members|553bb8ba256c",
+    "original": "All members ",
+    "translation": "",
+    "context": "<<POS:10919861>>"
+  },
+  {
+    "key": "assign|Defeat_Target|efcbe867bdfc",
+    "original": "Defeat Target",
+    "translation": "",
+    "context": "<<POS:10919959>>"
+  },
+  {
+    "key": "assign|Defeat_Any_Target|10356fc1984a",
+    "original": "Defeat Any Target",
+    "translation": "",
+    "context": "<<POS:10920222>>"
+  },
+  {
+    "key": "assign|Any_target|a7bc0b83f47f",
+    "original": "Any target ",
+    "translation": "",
+    "context": "<<POS:10920244>>"
+  },
+  {
+    "key": "assign|Survive_Waves|666641595222",
+    "original": "Survive Waves",
+    "translation": "",
+    "context": "<<POS:10920329>>"
+  },
+  {
+    "key": "assign|Endure|af51cda0bc16",
+    "original": "Endure ",
+    "translation": "",
+    "context": "<<POS:10920347>>"
+  },
+  {
+    "key": "assign|There_are_no_victory_or_defeat_conditions_for_this_battle|72f55069e1e8",
+    "original": "There are no victory or defeat conditions for this battle.",
+    "translation": "",
+    "context": "<<POS:10921395>>"
+  },
+  {
+    "key": "assign|i_Unknown_i|28e4db412532",
+    "original": "<i>Unknown</i>",
+    "translation": "",
+    "context": "<<POS:10921472>>"
+  },
+  {
+    "key": "assign|No_description_for_the_ruleset|e8084c6f85a4",
+    "original": "(No description for the ruleset \"",
+    "translation": "",
+    "context": "<<POS:10921491>>"
+  },
+  {
+    "key": "assign|div_class_stat_span_class_name|a9a025357233",
+    "original": "<div class=\"stat\"><span class=\"name\">",
+    "translation": "",
+    "context": "<<POS:10921562>>"
+  },
+  {
+    "key": "assign|div_class_stat_span_class_desc|d256805e35f7",
+    "original": "<div class=\"stat\"><span class=\"desc\">",
+    "translation": "",
+    "context": "<<POS:10921631>>"
+  },
+  {
+    "key": "assign|div_class_stat_div_class_refs|974456690aec",
+    "original": "<div class=\"stat\"><div class=\"refs\">",
+    "translation": "",
+    "context": "<<POS:10921700>>"
+  },
+  {
+    "key": "assign|div_class_team_list|28a9453ed625",
+    "original": "<div class=\"team_list\">",
+    "translation": "",
+    "context": "<<POS:10922049>>"
+  },
+  {
+    "key": "assign|div_class_member|0cc5711f9811",
+    "original": "<div class=\"member ",
+    "translation": "",
+    "context": "<<POS:10922280>>"
+  },
+  {
+    "key": "assign|div_class_image|a7dda380aba2",
+    "original": "<div class=\"image\">",
+    "translation": "",
+    "context": "<<POS:10922383>>"
+  },
+  {
+    "key": "assign|div_class_thumbnail|3f306f1b88b4",
+    "original": "<div class=\"thumbnail\">",
+    "translation": "",
+    "context": "<<POS:10922408>>"
+  },
+  {
+    "key": "assign|div|2cb783e6b01f",
+    "original": "</div>",
+    "translation": "",
+    "context": "<<POS:10922820>>"
+  },
+  {
+    "key": "assign|div|b7b3a40632ab",
+    "original": "</div>",
+    "translation": "",
+    "context": "<<POS:10922832>>"
+  },
+  {
+    "key": "assign|div_class_title|227c3e5d46b3",
+    "original": "<div class=\"title\">",
+    "translation": "",
+    "context": "<<POS:10922844>>"
+  },
+  {
+    "key": "assign|div_class_text|8cb6234a4764",
+    "original": "<div class=\"text\">",
+    "translation": "",
+    "context": "<<POS:10922888>>"
+  },
+  {
+    "key": "assign|div|8fe57fb1e216",
+    "original": "</div>",
+    "translation": "",
+    "context": "<<POS:10922951>>"
+  },
+  {
+    "key": "assign|div|b7b3a40632ab#1",
+    "original": "</div>",
+    "translation": "",
+    "context": "<<POS:10922971>>"
+  },
+  {
+    "key": "assign|div_class_combat_condition_main|c1beb034c41c",
+    "original": "<div class=\"combat_condition_main\">",
+    "translation": "",
+    "context": "<<POS:10923583>>"
+  },
+  {
+    "key": "assign|div_class_column_col_victory|e5c0fc1999a4",
+    "original": "<div class=\"column col_victory\">",
+    "translation": "",
+    "context": "<<POS:10923628>>"
+  },
+  {
+    "key": "assign|h1_class_col_title_Victory_h1|e093addc7519",
+    "original": "<h1 class=\"col_title\">Victory</h1>",
+    "translation": "",
+    "context": "<<POS:10923666>>"
+  },
+  {
+    "key": "assign|div|bf2144fde2a6",
+    "original": "</div>",
+    "translation": "",
+    "context": "<<POS:10923719>>"
+  },
+  {
+    "key": "assign|div_class_hr_vert_alt_div|ebfde4a2c5a0",
+    "original": "<div class=\"hr vert alt\"></div>",
+    "translation": "",
+    "context": "<<POS:10923739>>"
+  },
+  {
+    "key": "assign|div_class_column_col_defeat|efb5532e7d7b",
+    "original": "<div class=\"column col_defeat\">",
+    "translation": "",
+    "context": "<<POS:10923781>>"
+  },
+  {
+    "key": "assign|h1_class_col_title_Defeat_h1|8a327bb78a02",
+    "original": "<h1 class=\"col_title\">Defeat</h1>",
+    "translation": "",
+    "context": "<<POS:10923818>>"
+  },
+  {
+    "key": "assign|div|45d940c6eb60",
+    "original": "</div>",
+    "translation": "",
+    "context": "<<POS:10923870>>"
+  },
+  {
+    "key": "assign|div_class_column_col_none|0324286403e1",
+    "original": "<div class=\"column col_none\">",
+    "translation": "",
+    "context": "<<POS:10923890>>"
+  },
+  {
+    "key": "assign|h1_class_col_title_Victory_Defeat_h1|61159e159edf",
+    "original": "<h1 class=\"col_title\">Victory/Defeat</h1>",
+    "translation": "",
+    "context": "<<POS:10923925>>"
+  },
+  {
+    "key": "assign|div|55b2faef428b",
+    "original": "</div>",
+    "translation": "",
+    "context": "<<POS:10923995>>"
+  },
+  {
+    "key": "assign|div|b7b3a40632ab#2",
+    "original": "</div>",
+    "translation": "",
+    "context": "<<POS:10924008>>"
+  },
+  {
+    "key": "assign|b_ERROR_b_No_valid_combatContainer_defined|8fa8e2a3d361",
+    "original": "<b>ERROR:</b> No valid combatContainer defined!",
+    "translation": "",
+    "context": "<<POS:10924024>>"
+  }
+]

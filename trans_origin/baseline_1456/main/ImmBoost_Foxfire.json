@@ -1,0 +1,100 @@
+[
+  {
+    "key": "output|You_inject_yourself_with_the_Immuno_Booster_medipen|95ce8c39f7e9",
+    "original": "You inject yourself with the Immuno-Booster medipen.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06506257&gt;&gt;"
+  },
+  {
+    "key": "output|and_nothing_happens|a4d144f49705",
+    "original": ".. and nothing happens.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06509389&gt;&gt;"
+  },
+  {
+    "key": "output|Your_pc_tails_become_limp_as_if_suddenly_paralyzed_then_proce|920230b0b533",
+    "original": "Your [pc.tails] become limp as if suddenly paralyzed, then proceed to crumble to dust before your eyes as they disintegrate completely, leaving no trace anything was ever attached to you. Your parasitic tails are gone!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06508081&gt;&gt;"
+  },
+  {
+    "key": "output|Your_mimbrane_parasite_turns_a_sickly_pale_as_it_suddenly_releas|82c54a0c248f",
+    "original": "Your mimbrane parasite turns a sickly pale as it suddenly releases your [pc.skin], slumping to the ground lifelessly. You almost feel sorry for the poor creature as it shrivels up and crumbles to dust before your eyes. <b>Your mimbrane is gone!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06508381&gt;&gt;"
+  },
+  {
+    "key": "output|Your_mimbrane_parasites_turn_a_sickly_pale_as_they_suddenly_let|19f879f204da",
+    "original": "Your mimbrane parasites turn a sickly pale as they suddenly let go of your [pc.skin], slumping to the ground lifelessly. You almost feel sorry for the poor creatures as they shrivel up and crumble to dust before your eyes. <b>Your mimbranes are gone!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06508644&gt;&gt;"
+  },
+  {
+    "key": "output|Your_codex_beeps_informing_you_that_your_immune_system_has_noth|a242afd89da8",
+    "original": "Your codex beeps, informing you that your immune system has nothing abnormal to combat.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06509427&gt;&gt;"
+  },
+  {
+    "key": "output.expr|You_shiver_as_a_sudden_chill_clings_to_your_var0_skin_T|50018c5a8f31",
+    "original": "You shiver as a sudden chill clings to your \"+{var0}.skin()+\". The effects of \"+({var1}?\"Frostfire\":\"Foxfire\")+\" has faded!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06506490&gt;&gt; &lt;&lt;VARS:var0=e,var1=o&gt;&gt; output(\"\\n\\nYou shiver as a sudden chill clings to your \"+e.skin()+\". The effects of \"+(o?\"Frostfire\":\"Foxfire\")+\" has faded!\")"
+  },
+  {
+    "key": "output.expr|The_glow_on_your_fur_begins_to_fade_with_your_var0_hairNoun|18d685812895",
+    "original": "The glow on your fur begins to fade, with your \"+{var0}.hairNoun()+\" following suit - settling for a plainer \"+{var1}+\". <b>Your fur and hair are now \"+{var2}+\"!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06506998&gt;&gt; &lt;&lt;VARS:var0=e,var1=n,var2=n&gt;&gt; output(\"\\n\\nThe glow on your fur begins to fade, with your \"+e.hairNoun()+\" following suit - settling for a plainer \"+n+\". <b>Your fur and hair are now \"+n+\"!</b>\")"
+  },
+  {
+    "key": "output.expr|Your_var1_hairDescript_var0_grows_dim_losing_its_lumin|0a7294d93533",
+    "original": "Your \"+{var1}.hairDescript({var0})+\" grows dim, losing its luminosity as it becomes regular \"+{var2}+\" hair. <b>Your hair is now \"+{var3}+\"!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06507165&gt;&gt; &lt;&lt;VARS:var0=!1,!0,var1=e,var2=n,var3=n&gt;&gt; output(\"\\n\\nYour \"+e.hairDescript(!1,!0)+\" grows dim, losing its luminosity as it becomes regular \"+n+\" hair. <b>Your hair is now \"+n+\"!</b>\")"
+  },
+  {
+    "key": "output.expr|The_glow_on_your_var1_skinFurScales_var0_begins_to_fade|57f73ad6dbf2",
+    "original": "The glow on your \"+{var1}.skinFurScales({var0})+\" begins to fade, settling for a plainer \"+{var2}+\". <b>Your fur is now \"+{var3}+\"!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06507311&gt;&gt; &lt;&lt;VARS:var0=!0,!0,!1,var1=e,var2=n,var3=n&gt;&gt; output(\"\\n\\nThe glow on your \"+e.skinFurScales(!0,!0,!1)+\" begins to fade, settling for a plainer \"+n+\". <b>Your fur is now \"+n+\"!</b>\")"
+  },
+  {
+    "key": "output.expr|Your_markings_previously_intense_glow_turn_dim_as_it_takes_on_a|a5d2a3da3012",
+    "original": "Your markings previously intense glow turn dim as it takes on a softer, less prominent tone. <b>Your markings are now \"+{var0}+\"!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06507648&gt;&gt; &lt;&lt;VARS:var0=s&gt;&gt; output(\"\\n\\nYour markings previously intense glow turn dim as it takes on a softer, less prominent tone. <b>Your markings are now \"+s+\"!</b>\")"
+  },
+  {
+    "key": "output|Your_pc_tail_becomes_limp_as_if_suddenly_paralyzed_then_proce|f47e7605ad8d",
+    "original": "Your [pc.tail] becomes limp as if suddenly paralyzed, then proceeds to crumble to dust before your eyes as it disintegrates completely, leaving no trace anything was ever attached to you. Your parasitic tail is gone!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06507850&gt;&gt;"
+  },
+  {
+    "key": "output.expr|There_is_a_slight_tingle_on_your_head_most_notably_at_the_base|a0cdd0cd686e",
+    "original": "There is a slight tingle on your head--most notably at the base of \"+({var0}?\"the huge orchid attached to it\":\"your huge orchids\")+\". Nothing seems to happen afterwards but your codex beeps, notifying you that something has indeed changed...",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06509062&gt;&gt; &lt;&lt;VARS:var0=e.statusEffectv1(\"Hair Flower\")&lt;=1&gt;&gt; output(\"\\n\\nThere is a slight tingle on your head--most notably at the base of \"+(e.statusEffectv1(\"Hair Flower\")&lt;=1?\"the huge orchid attached to it\":\"your huge orchids\")+\". Nothing seems to happen afterwards but your codex beeps, notifying you that something has indeed changed...\")"
+  },
+  {
+    "key": "output.expr|var0_var1_injects_the_Immuno_Booster_with_no_effect|6377deb6c01d",
+    "original": "{var0}+{var1}+\" injects the Immuno-Booster with no effect.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06509530&gt;&gt; &lt;&lt;VARS:var0=e.capitalA,var1=e.short&gt;&gt; output(e.capitalA+e.short+\" injects the Immuno-Booster with no effect.\")"
+  }
+]

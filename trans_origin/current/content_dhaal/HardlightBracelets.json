@@ -1,0 +1,156 @@
+[
+  {
+    "key": "output|As_you_approach_the_shopkeeper_you_hear_her_let_out_the_galaxy|57a875a95363",
+    "original": "As you approach the shopkeeper, you hear her let out the galaxy’s heaviest sigh.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03240023&gt;&gt;"
+  },
+  {
+    "key": "button|Appearance|79a78ebe960e",
+    "original": "Appearance",
+    "translation": "外貌",
+    "stage": 1,
+    "context": "&lt;&lt;POS:03241684&gt;&gt; addButton(t++,\"Appearance\",(function(){clearOutput(),author(\"Adjatha\"),output(\"Gwon is a blue-skinned gabilani, extensively augmented with a cybernetic, arachnid lower body. The gab herself has remarkably long ears and a surprisingly petite chest. Her shoulder-length, black hair is arranged in a sha..."
+  },
+  {
+    "key": "button|Talk|ddabdde12809",
+    "original": "Talk",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03243446&gt;&gt; addButton(t++,\"Talk\",(function(){clearOutput(),author(\"Adjatha\"),output(\"You try to strike up a conversation with the ever-bustling tailor.\\n\\nThe cyber-drider tilts her head and leans back. <i>“Oh sweetness, aren’t you adorable? Want to find out about little ol’ me? Goodness, what’s to tell?”</i> H..."
+  },
+  {
+    "key": "button|Shop|92b64975a7ac",
+    "original": "Shop",
+    "translation": "商店",
+    "stage": 1,
+    "context": "&lt;&lt;POS:03246570&gt;&gt; addButton(t++,\"Shop\",(function(){var e=[Fy.O,Vy.H,Zy.l,Ky.P,Ry.B,qy.t,Uy.$,_y.U,Dy.J,Ly.H,Gy.k,Wy.a,Hy.j,jy.r,Py.G,My.Q,Qy,Xy.t,$y.g,tp];window.showShop({items:e,shopkeeper:gwon})}),\"Shop\",\"Let’s get <b>fabulous</b>!\")"
+  },
+  {
+    "key": "button|Loom|f6a0b8510ae5",
+    "original": "Loom",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03311719&gt;&gt; addButton(t++,\"Loom\",(function(){clearOutput(),author(\"Adjatha\"),void 0===flags.GWON_LOOM?(output(\"Browsing through the shop’s selection, you can’t help but remark on the diverse materials Gwon uses for her works. There’s silk, as you’d expect, but also lycra, plastics, rubber, leather, and others y..."
+  },
+  {
+    "key": "button|Leave|95d9dfa934cf",
+    "original": "Leave",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03316441&gt;&gt; addButton(14,\"Leave\",mainGameMenu)"
+  },
+  {
+    "key": "button|Drider_Gob|a6a6c8178188",
+    "original": "Drider Gob",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03316833&gt;&gt; addButton(0,\"Drider Gob\",e,\"Drider Gob\",\"Approach the mechanical drider-goblin and see what she has for sale.\")"
+  },
+  {
+    "key": "button|Gwon|11f5e0547772",
+    "original": "Gwon",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03317092&gt;&gt; addButton(0,\"Gwon\",e,\"Gwon Kahendrys\",\"Gwon has wares if you have credits.\")"
+  },
+  {
+    "key": "button.hover|Shop|92b64975a7ac",
+    "original": "Shop",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03246738&gt;&gt; addButton(t++,\"Shop\",(function(){var e=[Fy.O,Vy.H,Zy.l,Ky.P,Ry.B,qy.t,Uy.$,_y.U,Dy.J,Ly.H,Gy.k,Wy.a,Hy.j,jy.r,Py.G,My.Q,Qy,Xy.t,$y.g,tp];window.showShop({items:e,shopkeeper:gwon})}),\"Shop\",\"Let’s get <b>fabulous</b>!\")"
+  },
+  {
+    "key": "button.tooltip|Let_s_get_b_fabulous_b|1bf47b4d6175",
+    "original": "Let’s get <b>fabulous</b>!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03246745&gt;&gt; addButton(t++,\"Shop\",(function(){var e=[Fy.O,Vy.H,Zy.l,Ky.P,Ry.B,qy.t,Uy.$,_y.U,Dy.J,Ly.H,Gy.k,Wy.a,Hy.j,jy.r,Py.G,My.Q,Qy,Xy.t,$y.g,tp];window.showShop({items:e,shopkeeper:gwon})}),\"Shop\",\"Let’s get <b>fabulous</b>!\")"
+  },
+  {
+    "key": "button|Flirt|8770eb6930b3",
+    "original": "Flirt",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03246805&gt;&gt; addButton(t++,\"Flirt\",(function(){var e,t;clearOutput(),author(\"Adjatha\"),gwon.showAll(!0),null!==(e=window.game.gamestate.statStorage.characters)&&void 0!==e&&null!==(t=e.Gwon)&&void 0!==t&&t.orgasms?output(\"You’re right behind her and into the gab’s backroom in seconds. Her elaborate work space ha..."
+  },
+  {
+    "key": "button.hover|Drider_Gob|a6a6c8178188",
+    "original": "Drider Gob",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03316848&gt;&gt; addButton(0,\"Drider Gob\",e,\"Drider Gob\",\"Approach the mechanical drider-goblin and see what she has for sale.\")"
+  },
+  {
+    "key": "button.tooltip|Approach_the_mechanical_drider_goblin_and_see_what_she_has_for_s|e51e6d3304eb",
+    "original": "Approach the mechanical drider-goblin and see what she has for sale.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03316861&gt;&gt; addButton(0,\"Drider Gob\",e,\"Drider Gob\",\"Approach the mechanical drider-goblin and see what she has for sale.\")"
+  },
+  {
+    "key": "button.hover|Gwon_Kahendrys|9a02d0c1af0d",
+    "original": "Gwon Kahendrys",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03317101&gt;&gt; addButton(0,\"Gwon\",e,\"Gwon Kahendrys\",\"Gwon has wares if you have credits.\")"
+  },
+  {
+    "key": "button.tooltip|Gwon_has_wares_if_you_have_credits|035fe943cd22",
+    "original": "Gwon has wares if you have credits.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03317118&gt;&gt; addButton(0,\"Gwon\",e,\"Gwon Kahendrys\",\"Gwon has wares if you have credits.\")"
+  },
+  {
+    "key": "output|i_I_ll_tell_you_what_I_told_the_last_one_I_m_not_paying_anybo|b547bd4c0b9b",
+    "original": "<i>“I’ll tell you what I told the last one. I’m not paying anybody protection money. The moment someone fucks with my store, I will find them, flay their skin apart faster than I slice through this chameleon silk, and force-feed them their own entrails while immortalizing my view of the act in a new embroidered rug.”</i> The blue-skinned gabilani glares up with a wicked scowl... that falls apart the moment she sees your face. <i>“Oh, you’re a customer! Sorry. We’re still teaching some of the zaika gangs that nobody does greed like goblins.”</i> She places her current project into a nearby drawer and folds her hands across her petite chest while her robotic body’s forelegs do the same in front of her groin. <i>“Name’s Gwon Kahendrys, the only tailor on Dhaal with a lick of sense.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03240118&gt;&gt;"
+  },
+  {
+    "key": "output|i_pc_name_i_you_say_in_introduction|7bd49abbbb7e",
+    "original": "<i>“[pc.name],”</i> you say in introduction.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03240927&gt;&gt;"
+  },
+  {
+    "key": "output|i_Grand_Now_tell_me_pc_name_are_you_ready_to_become_b_fa|c7ca6c050d6b",
+    "original": "<i>“Grand. Now tell me, [pc.name], are you ready to become <b>fabulous</b>?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03240986&gt;&gt;"
+  },
+  {
+    "key": "output|That_s_a_good_question_Are_you|07ed31b61d84",
+    "original": "That’s a good question. Are you?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03241081&gt;&gt;"
+  },
+  {
+    "key": "output|Gwon_the_gabilani_cyber_drider_puts_away_her_current_project_whe|3409f5c24cb9",
+    "original": "Gwon the gabilani cyber-drider puts away her current project when you approach. The blue-skinned tailor flashes a winning smile and cheerfully greets you, <i>“[pc.name]! I’d recognize my favorite customer to be anywhere, and not just because of the co-processor I got installed.”</i> She tucks a stray strand of hair behind a pointed ear and gestures at her wall-obscuring inventory. <i>“I take it you’re ready to make some enhancements to your wardrobe, and you came to just the right place for it.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03241142&gt;&gt;"
+  },
+  {
+    "key": "output|A_blue_skinned_gabilani_of_impressive_vertical_stature_lounges_a|042d50a6f3be",
+    "original": "A blue-skinned gabilani of impressive vertical stature lounges against the shop’s luminous countertop, idly weaving new garments with the assistance of numerous metal limbs from below her waist. <b>She’s a drider!</b> - or a robotic one, at least. Everything from the waist down might as well be made of glossy chrome.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03316499&gt;&gt;"
+  },
+  {
+    "key": "output|Gwon_Kahendrys_idly_weaves_new_inventory_for_her_shop_from_behin|19c355b86767",
+    "original": "Gwon Kahendrys idly weaves new inventory for her shop from behind the glowing countertop, leaving you the privacy to browse a bit.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03316946&gt;&gt;"
+  }
+]

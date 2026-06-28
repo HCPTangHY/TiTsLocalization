@@ -1,0 +1,905 @@
+[
+  {
+    "key": "assign|hyraxi_raider|39236a0eebca",
+    "original": "hyraxi raider",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00724370&gt;&gt;"
+  },
+  {
+    "key": "assign|Hyraxi_Raider|deb8f51968a8",
+    "original": "Hyraxi Raider",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00724402&gt;&gt;"
+  },
+  {
+    "key": "assign|the|38e206446bec",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00724445&gt;&gt;"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "stage": 1,
+    "context": "&lt;&lt;POS:00724463&gt;&gt;"
+  },
+  {
+    "key": "assign|With_his_bike_totaled_the_hyraxi_man_has_chosen_to_fight_you_ma|07c024c47bc4",
+    "original": "With his bike totaled, the hyraxi man has chosen to fight you mano a mano! He’s a lithe, feminine man with dark brown hair that’s surprisingly luscious given how far removed he must be from shampoo. His slender, muscular chest is covered by rugged leather straps and rusty metal plates adorned with spikes. Across the dark skin of his human torso and face are a mural of tattoos, various tribal symbols and swirling shapes leading all across his skin. His arms and legs are covered in spotted fur, terminating in large, beast-like paws. One of said claws is holding a wicked-looking hand axe while the other is held at his side, ready to reach into his large tool belt for anything he might need to fight you with.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00724477&gt;&gt;"
+  },
+  {
+    "key": "assign|primitive_axe|6977cc09322f",
+    "original": "primitive axe",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00725279&gt;&gt;"
+  },
+  {
+    "key": "assign|a_primitive_axe|784b9a2df417",
+    "original": "a primitive axe",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00725309&gt;&gt;"
+  },
+  {
+    "key": "assign|leather_straps|51b6b9a62c57",
+    "original": "leather straps",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00725556&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|The_jagged_metal_pummels_var0_getCombatName_ripping_dow|984c0f5372ab",
+    "original": "The jagged metal pummels \"+{var0}.getCombatName()+\", ripping down \"+{var1}.getCombatPronoun(\"hisher\")+\" defenses and putting \"+{var2}.getCombatPronoun(\"himher\")+\" in a world of pain.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00728132&gt;&gt; &lt;&lt;VARS:var0=e,var1=e,var2=e&gt;&gt; combatAppend(\"\\n\\nThe jagged metal pummels \"+e.getCombatName()+\", ripping down \"+e.getCombatPronoun(\"hisher\")+\" defenses and putting \"+e.getCombatPronoun(\"himher\")+\" in a world of pain.\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_dodge_PlayerCharacter_e_getC|0c9a459e82c3",
+    "original": "\"+{var1}.capitalize({var0})+\" dodge\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" out of the way just in time, letting the buckshot sail right passed and pepper the sand behind \"+{var2}.getCombatPronoun(\"himher\")+\".",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00728320&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=yt.m,var2=e&gt;&gt; combatAppend(\"\\n\\n\"+yt.m.capitalize(e.getCombatName(),!1)+\" dodge\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" out of the way just in time, letting the buckshot sail right passed and pepper the sand behind \"+e.getCombatPronoun(\"himher\")+\".\")"
+  },
+  {
+    "key": "combat|The_beast_man_growls_in_anger_as_he_paws_around_his_belt_lookin|34e8b7c454a9",
+    "original": "The beast-man growls in anger as he paws around his belt, looking for something. After a few seconds of that, he throws his gun to the ground in anger. <b>He’s probably out of ammo.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00728698&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_PlayerCharacter_e_getClassN|c00d78833b48",
+    "original": "\"+{var1}.capitalize({var0})+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"try\":\"tries\")+\" to dodge, but the bola still manages to hook \"+{var2}.getCombatPronoun(\"himher\")+\". The balls’ small size is deceiving, and the two orbs are more than enough to weigh \"+{var3}.getCombatPronoun(\"himher\")+\" down, sending \"+{var4}.getCombatName()+\" tumbling to the floor when they seem to magnetize together.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00729378&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=yt.m,var2=e,var3=e,var4=e&gt;&gt; combatAppend(\"\\n\\n\"+yt.m.capitalize(e.getCombatName(),!1)+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"try\":\"tries\")+\" to dodge, but the bola still manages to hook \"+e.getCombatPronoun(\"himher\")+\". The balls’ small size is deceiving, and the two orbs are more than enough to weigh \"+e.getCombatPronoun(\"himher\")+\" down, sending \"+e.getCombatName()+\" tumbling to the floor when they seem to magnetize together.\")"
+  },
+  {
+    "key": "combat|b_It_will_take_more_than_that_to_trip_you_b|006a392c50af",
+    "original": "<b>It will take more than that to trip you!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00729940&gt;&gt;"
+  },
+  {
+    "key": "combat|b_You_are_tripped_b|cdaf34e1210b",
+    "original": "<b>You are tripped!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00730046&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_PlayerCharacter_e_getCla|f2fa571aea24",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"are\":\"is\")+\" tripped!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00730090&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=yt.m&gt;&gt; combatAppend(\"\\n\\n<b>\"+yt.m.capitalize(e.getCombatName(),!1)+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"are\":\"is\")+\" tripped!</b>\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_PlayerCharacter_e_getClassN|06b9e9007f44",
+    "original": "\"+{var1}.capitalize({var0})+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"hop\":\"hops\")+\" out of the way just in time, watching the balls slam together and clatter to the ground with a hefty thud.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00730258&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=yt.m&gt;&gt; combatAppend(\"\\n\\n\"+yt.m.capitalize(e.getCombatName(),!1)+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"hop\":\"hops\")+\" out of the way just in time, watching the balls slam together and clatter to the ground with a hefty thud.\")"
+  },
+  {
+    "key": "combat.expr|He_lands_before_var0_getCombatName_can_react_stomping_d|d2a08ee954b3",
+    "original": "He lands before \"+{var0}.getCombatName()+\" can react, stomping down hard and digging his talons into \"+{var1}.getCombatPronoun(\"himher\")+\" for a moment before rearing back up to relentlessly kick \"+{var2}.getCombatPronoun(\"himher\")+\" again and again.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00730778&gt;&gt; &lt;&lt;VARS:var0=e,var1=e,var2=e&gt;&gt; combatAppend(\"\\n\\nHe lands before \"+e.getCombatName()+\" can react, stomping down hard and digging his talons into \"+e.getCombatPronoun(\"himher\")+\" for a moment before rearing back up to relentlessly kick \"+e.getCombatPronoun(\"himher\")+\" again and again.\")"
+  },
+  {
+    "key": "combat|You_manage_to_fight_him_off_and_clamber_to_your_pc_feet|53276f628160",
+    "original": " You manage to fight him off and clamber to your [pc.feet].",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00731067&gt;&gt;"
+  },
+  {
+    "key": "combat|The_hyrax_leaps_off_with_a_feral_grin_ready_for_more|8d2aba93630e",
+    "original": " The hyrax leaps off with a feral grin, ready for more.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00731143&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_roll_PlayerCharacter_e_getCl|4f4d3a95e4d1",
+    "original": "\"+{var1}.capitalize({var0})+\" roll\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" out of the way, letting him hit the sandy ground below. He tries to stomp again, but \"+{var2}.getCombatName()+\" clamber\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" to \"+{var3}.getCombatPronoun(\"hisher\")+\" [pc.feet] just in time and scare him off.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00731321&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=yt.m,var2=e,var3=e&gt;&gt; combatAppend(\"\\n\\n\"+yt.m.capitalize(e.getCombatName(),!1)+\" roll\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" out of the way, letting him hit the sandy ground below. He tries to stomp again, but \"+e.getCombatName()+\" clamber\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" to \"+e.getCombatPronoun(\"hisher\")+\" [pc.feet] just in time and scare him off.\")"
+  },
+  {
+    "key": "combat|His_blow_connects_digging_deep_before_he_drives_it_on_through|9c1c2555aa8c",
+    "original": "His blow connects, digging deep before he drives it on through.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00731917&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_dodge_PlayerCharacter_e_getC|0af0e3aa7bf5",
+    "original": "\"+{var1}.capitalize({var0})+\" dodge\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" out of the way, letting his swing go wide.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00732092&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=yt.m&gt;&gt; combatAppend(\"\\n\"+yt.m.capitalize(e.getCombatName(),!1)+\" dodge\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" out of the way, letting his swing go wide.\")"
+  },
+  {
+    "key": "assign|glowing_hyraxi_raider|96535901b0ce",
+    "original": "glowing hyraxi raider",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00732502&gt;&gt;"
+  },
+  {
+    "key": "assign|Hyraxi_Raider|3fe33dfd8266",
+    "original": "Hyraxi Raider",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00732542&gt;&gt;"
+  },
+  {
+    "key": "assign|the|38e206446bec#1",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00732585&gt;&gt;"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#1",
+    "original": "The ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00732603&gt;&gt;"
+  },
+  {
+    "key": "assign|The_mutated_hyrax_is_a_strange_example_of_his_species_He_s_tall|0b4b5efc0ace",
+    "original": "The mutated hyrax is a strange example of his species. He’s taller than the typical male, standing a bit over seven foot. His hair is longer and wilder than the other males, but it’s still just as soft and luscious. The eerie glow from his eyes and his elongated fangs make him look much more intimidating despite sharing the same soft features as the others. His upper half is built similarly to his brethren, slender, muscular, and slightly feminine. The only differences are his larger paws with longer, more fearsome claws, and a slight bioluminescent glow from his tattoos. From the waist down is a different story. His legs are massively thick and muscular, looking both sensual and frighteningly strong. Between them is a gigantic, constantly throbbing bulge in a pair of horribly torn and stained jeans.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00732617&gt;&gt;"
+  },
+  {
+    "key": "assign|primitive_axe|09f5be159524",
+    "original": "primitive axe",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00733516&gt;&gt;"
+  },
+  {
+    "key": "assign|a_primitive_axe|784b9a2df417#1",
+    "original": "a primitive axe",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00733546&gt;&gt;"
+  },
+  {
+    "key": "assign|leather_straps|51b6b9a62c57#1",
+    "original": "leather straps",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00733793&gt;&gt;"
+  },
+  {
+    "key": "combat|His_swollen_cock_is_absolutely_pouring_cum_draining_out_of_his|d054974d8dd3",
+    "original": "His swollen cock is absolutely pouring cum, draining out of his straining balls and onto the parched sand below. Before you can react, he thrusts forward and blows his load right at you!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00736769&gt;&gt;"
+  },
+  {
+    "key": "combat|His_cock_is_swelling_and_bulging_even_more_than_usual_straining|3b6a848386b2",
+    "original": "His cock is swelling and bulging even more than usual, straining the remaining seams of his pants. Before they burst, his hefty cock slips free, pushing itself upright against its own immense weight, cum already pouring out of his tapered tip. As soon as it tastes the warm air, the hyrax screams in pleasure, firing volleys of cum straight at you!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00736976&gt;&gt;"
+  },
+  {
+    "key": "combat|You_lean_forward_and_open_wide_as_the_deluge_of_yummy_white_stuf|50a4f9e43c32",
+    "original": "You lean forward and open wide as the deluge of yummy white stuff flies at you. It lands all over your face and in your mouth, giving you a nice snack to eat for the rest of the fight! Ooo, it’s warm and tingly in your mouth, yum!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00737385&gt;&gt;"
+  },
+  {
+    "key": "combat|The_white_liquid_hits_you_straight_in_the_pc_face_tingling_an|d4e151f767a3",
+    "original": "The white liquid hits you straight in the [pc.face], tingling and getting warmer on your [pc.skinFurScales]. The heat spreads throughout your body as more layers plaster onto you, pooling down into your [pc.crotch]. Uh oh!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00737648&gt;&gt;"
+  },
+  {
+    "key": "combat|Spying_a_wave_of_yummy_cummy_goodness_heading_your_way_you_inst|9596b8bbc82e",
+    "original": "Spying a wave of yummy cummy goodness heading your way, you instinctively move forward to catch it, only to snag your [pc.foot] on a rock and trip. You watch on as the white stuff flies completely over your head, a tear in your eye and a rumble in your tummy.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00738016&gt;&gt;"
+  },
+  {
+    "key": "combat|You_duck_out_of_the_way_letting_his_load_sail_right_over_you_wh|902b03c6ad75",
+    "original": "You duck out of the way, letting his load sail right over you while he twitches uselessly in orgasm.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00738313&gt;&gt;"
+  },
+  {
+    "key": "combat|The_mutated_yeen_pounces_on_you_pinning_you_to_the_ground_with|da248f9361d3",
+    "original": "The mutated yeen pounces on you, pinning you to the ground with his massive paws as he starts to take swipes at you!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00738661&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|At_the_same_time_his_huge_cock_var0_bumps_against_your_c|049076469db8",
+    "original": " At the same time, his huge cock \"+({var0}?\"bumps against your crotch as he starts to grind against you.\":\"flops out of his pants and he immediately starts grinding it against your crotch.\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00738890&gt;&gt; &lt;&lt;VARS:var0=o&gt;&gt; combatAppend(\" At the same time, his huge cock \"+(o?\"bumps against your crotch as he starts to grind against you.\":\"flops out of his pants and he immediately starts grinding it against your crotch.\"))"
+  },
+  {
+    "key": "combat|You_barely_manage_to_heave_him_off_and_scrabble_free|6906b28c4cd1",
+    "original": " You barely manage to heave him off and scrabble free!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00739221&gt;&gt;"
+  },
+  {
+    "key": "combat|b_You_are_grappled_b|b62aa913d667",
+    "original": " <b>You are grappled!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00739293&gt;&gt;"
+  },
+  {
+    "key": "combat|The_crazed_yeen_leaps_at_you_but_you_dodge_out_of_the_way_letti|b344edfa5f32",
+    "original": "The crazed yeen leaps at you but you dodge out of the way, letting him faceplant into the sand. He clambers at you and tries to take a swipe but you back away, making him growl in anger and retreat.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00739369&gt;&gt;"
+  },
+  {
+    "key": "combat|as_he_soaks_you_with_his_tainted_fluids|0dd9bd5a5135",
+    "original": " as he soaks you with his tainted fluids!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00739937&gt;&gt;"
+  },
+  {
+    "key": "combat|His_blow_connects_digging_deep_before_he_drives_it_on_through|789f996586e3",
+    "original": "His blow connects, digging deep before he drives it on through.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00740324&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_dodge_PlayerCharacter_e_getC|0af0e3aa7bf5#1",
+    "original": "\"+{var1}.capitalize({var0})+\" dodge\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" out of the way, letting his swing go wide.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00740499&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=yt.m&gt;&gt; combatAppend(\"\\n\"+yt.m.capitalize(e.getCombatName(),!1)+\" dodge\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" out of the way, letting his swing go wide.\")"
+  },
+  {
+    "key": "textify|The_hyraxi_man_doubles_over_his_huge_cock_b_bursting_through_h|164afe956bf2",
+    "original": "The hyraxi man doubles over, his huge cock <b>bursting through his pants</b> and drooling onto the sand below. He almost seems ready to give in to his lust, but he pulls himself together and comes at you again! <b>He’s holding out, for now, but you doubt he could keep going if you teased him down again.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00740730&gt;&gt;"
+  },
+  {
+    "key": "perk|Inhuman_Desire|cb24c343940c",
+    "original": "Inhuman Desire",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00741070&gt;&gt; createPerk(\"Inhuman Desire\",60)"
+  },
+  {
+    "key": "assign|hyraxi_bike_raider|48d7dd9808f3",
+    "original": "hyraxi bike raider",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00741467&gt;&gt;"
+  },
+  {
+    "key": "assign|Hyraxi_Raider|38de6813970a",
+    "original": "Hyraxi Raider",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00741504&gt;&gt;"
+  },
+  {
+    "key": "assign|the|38e206446bec#2",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00741547&gt;&gt;"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#2",
+    "original": "The ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00741565&gt;&gt;"
+  },
+  {
+    "key": "assign|The_hyraxi_raider_is_circling_you_on_his_rocket_bike_twirling_h|cc901f3cda53",
+    "original": "The hyraxi raider is circling you on his rocket bike, twirling his flail and laughing maniacally. He’s lightly armored, but you’re going to have a hell of a time hitting him when he’s on the move like this. <b>It’d also be safe to assume he has a few tricks tucked away in his bike.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00741579&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|The_mounted_hyrax_closes_in_faster_than_PlayerCharacter_e|287b0e17f02a",
+    "original": "The mounted hyrax closes in faster than \"+(\"PlayerCharacter\"===e.getClassName()?\"you\":\"his target\")+\" can dodge, bashing \"+{var0}.getCombatPronoun(\"himher\")+\" square in the face with the heavy head of his flail!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00744266&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\"\\n\\nThe mounted hyrax closes in faster than \"+(\"PlayerCharacter\"===e.getClassName()?\"you\":\"his target\")+\" can dodge, bashing \"+e.getCombatPronoun(\"himher\")+\" square in the face with the heavy head of his flail!\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_PlayerCharacter_e_getClassN|af48876e4d7c",
+    "original": "\"+{var1}.capitalize({var0})+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"roll\":\"rolls\")+\" out of the way, letting him fly past you, swinging at air with an irritated growl.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00744594&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=yt.m&gt;&gt; combatAppend(\"\\n\\n\"+yt.m.capitalize(e.getCombatName(),!1)+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"roll\":\"rolls\")+\" out of the way, letting him fly past you, swinging at air with an irritated growl.\")"
+  },
+  {
+    "key": "combat.expr|The_flames_lick_at_your_var0_shields_var2_skinNoun_var|d9bf9e07c9b2",
+    "original": "The flames lick at your \"+({var0}?\"shields\":{var2}.skinNoun({var1}))+\", doing relatively little damage.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00745328&gt;&gt; &lt;&lt;VARS:var0=e.shields()&gt;0,var1=!1,var2=e&gt;&gt; combatAppend(\"\\n\\nThe flames lick at your \"+(e.shields()&gt;0?\"shields\":e.skinNoun(!1))+\", doing relatively little damage.\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_PlayerCharacter_e_getClassN|eb6cac29bc12",
+    "original": "\"+{var1}.capitalize({var0})+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"identify\":\"identifies\")+\" the flames as a distraction and \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"shield\":\"shields\")+\" \"+{var2}.getCombatPronoun(\"hisher\")+\" eyes in the knick of time to avoid being blinded by the bike’s star-bright luminance!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00745605&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=yt.m,var2=e&gt;&gt; combatAppend(\"\\n\\n\"+yt.m.capitalize(e.getCombatName(),!1)+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"identify\":\"identifies\")+\" the flames as a distraction and \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"shield\":\"shields\")+\" \"+e.getCombatPronoun(\"hisher\")+\" eyes in the knick of time to avoid being blinded by the bike’s star-bright luminance!\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_PlayerCharacter_e_getClassN|3a0313e6a750",
+    "original": "\"+{var1}.capitalize({var0})+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"try\":\"tries\")+\" to back away, only to realize too late that the flamethrowers are only a distraction. Blinding light flashes out from the bike as the flames stop, <b>searing \"+{var3}.possessive({var2}.getCombatName())+\" eyes and blinding \"+{var4}.getCombatPronoun(\"himher\")+\"!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00745972&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=yt.m,var2=e,var3=yt.m,var4=e&gt;&gt; combatAppend(\"\\n\\n\"+yt.m.capitalize(e.getCombatName(),!1)+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"try\":\"tries\")+\" to back away, only to realize too late that the flamethrowers are only a distraction. Blinding light flashes out from the bike as the flames stop, <b>searing \"+yt.m.possessive(e.getCombatName())+\" eyes and blinding \"+e.getCombatPronoun(\"himher\")+\"!</b>\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_PlayerCharacter_e_getClassN|feb89739f6c3",
+    "original": "\"+{var1}.capitalize({var0})+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"dodge\":\"dodges\")+\" out of the way before the flames reach \"+{var2}.getCombatPronoun(\"himher\")+\", leaving the hyrax growling in rage. He tries to turn, but the hunk of junk he’s riding can’t quite manage it and nearly tips over before barely regaining his balance and driving off.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00746383&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=yt.m,var2=e&gt;&gt; combatAppend(\"\\n\\n\"+yt.m.capitalize(e.getCombatName(),!1)+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"dodge\":\"dodges\")+\" out of the way before the flames reach \"+e.getCombatPronoun(\"himher\")+\", leaving the hyrax growling in rage. He tries to turn, but the hunk of junk he’s riding can’t quite manage it and nearly tips over before barely regaining his balance and driving off.\")"
+  },
+  {
+    "key": "combat.expr|As_he_swoops_by_he_swipes_at_you_slapping_the_metal_device_ar|96e8c2fc5d79",
+    "original": " As he swoops by, he swipes at you, slapping the metal device around \"+{var0}.getCombatPronoun(\"hisher\")+\" neck. \"+{var2}.capitalize({var1})+\" grab\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" at it only to be met by a painful electric shock!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00747062&gt;&gt; &lt;&lt;VARS:var0=e,var1=e.getCombatName(),!1,var2=yt.m&gt;&gt; combatAppend(\" As he swoops by, he swipes at you, slapping the metal device around \"+e.getCombatPronoun(\"hisher\")+\" neck. \"+yt.m.capitalize(e.getCombatName(),!1)+\" grab\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" at it only to be met by a painful electric shock!\")"
+  },
+  {
+    "key": "combat|Before_you_can_recover_from_that_one_another_surges_through_yo|7d3c44c7a26b",
+    "original": " Before you can recover from that one, another surges through you, sapping the strength from your limbs. <b>He put a shock collar on you! It’s going to sting until it runs out of charge or combat ends...</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00747382&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_getCombatPronoun_heshe_side_st|653e08497405",
+    "original": " \"+{var1}.capitalize({var0}.getCombatPronoun(\"heshe\"))+\" side-step\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" the hyrax as he swoops by. He swings the device towards where \"+{var2}.getCombatName()+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"were\":\"was\")+\", accidentally tossing it to the ground.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00747608&gt;&gt; &lt;&lt;VARS:var0=e,var1=yt.m,var2=e&gt;&gt; combatAppend(\" \"+yt.m.capitalize(e.getCombatPronoun(\"heshe\"))+\" side-step\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" the hyrax as he swoops by. He swings the device towards where \"+e.getCombatName()+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"were\":\"was\")+\", accidentally tossing it to the ground.\")"
+  },
+  {
+    "key": "combat|You_watch_as_it_sparks_and_smokes_before_catching_fire_Good_th|1bf4e6a6f66f",
+    "original": " You watch as it sparks and smokes before catching fire. Good thing that wasn’t on you!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00747975&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|The_shelling_hits_dead_on_bombarding_var0_getCombatName|67eb7cb140f6",
+    "original": "The shelling hits dead-on, bombarding \"+{var0}.getCombatName()+\" with a flurry of colorful blasts! Fireworks, homemade explosives, and even a few pieces of short-circuiting electronics rain down on \"+{var1}.getCombatPronoun(\"himher\")+\", beating \"+{var2}.getCombatPronoun(\"himher\")+\" around like a pinball. One powerful blast hits right at \"+{var3}.getCombatPronoun(\"hisher\")+\" \"+{var4}.feet()+\"!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00748720&gt;&gt; &lt;&lt;VARS:var0=e,var1=e,var2=e,var3=e,var4=e&gt;&gt; combatAppend(\"The shelling hits dead-on, bombarding \"+e.getCombatName()+\" with a flurry of colorful blasts! Fireworks, homemade explosives, and even a few pieces of short-circuiting electronics rain down on \"+e.getCombatPronoun(\"himher\")+\", beating \"+e.getCombatPronoun(\"himher\")+\" around like a pinball. One powerful blast hits right at \"+e.getCombatPronoun(\"hisher\")+\" \"+e.feet()+\"!\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_barely_manage_PlayerCharacter|e2dafbd371de",
+    "original": " \"+{var1}.capitalize({var0})+\" barely manage\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" to keep \"+{var2}.getCombatPronoun(\"hisher\")+\" footing!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00749298&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=yt.m,var2=e&gt;&gt; combatAppend(\" \"+yt.m.capitalize(e.getCombatName(),!1)+\" barely manage\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" to keep \"+e.getCombatPronoun(\"hisher\")+\" footing!\")"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_PlayerCharacter_e_getCla|626e02702d10",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"are\":\"is\")+\" knocked to the ground, tripped!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00749487&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=yt.m&gt;&gt; combatAppend(\"\\n\\n<b>\"+yt.m.capitalize(e.getCombatName(),!1)+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"are\":\"is\")+\" knocked to the ground, tripped!</b>\")"
+  },
+  {
+    "key": "combat.expr|The_volley_goes_wide_giving_var0_getCombatName_plenty|341558d8206c",
+    "original": " The volley goes wide, giving \"+{var0}.getCombatName()+\" plenty of room to dodge out of the way of the major payload. It seems like he loaded anything he could find that would make even a slight boom. Everything from actual explosives, to fireworks, to various electronics that burst into flames on contact with the ground.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00749674&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\" The volley goes wide, giving \"+e.getCombatName()+\" plenty of room to dodge out of the way of the major payload. It seems like he loaded anything he could find that would make even a slight boom. Everything from actual explosives, to fireworks, to various electronics that burst into flames on contact with the ground.\")"
+  },
+  {
+    "key": "name.show|Hyraxi_Raider|cc3f057db20f",
+    "original": "Hyraxi Raider",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00750464&gt;&gt; showName(\"Hyraxi Raider\")"
+  },
+  {
+    "key": "name.show|Hyraxi_Raider|39c38ab334cc",
+    "original": "Hyraxi Raider",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00750652&gt;&gt; showName(\"Hyraxi Raider\")"
+  },
+  {
+    "key": "textify|A_low_rumble_hits_your_pc_ears_as_you_traverse_the_wastes_You|915ba8356019",
+    "original": "A low rumble hits your [pc.ears] as you traverse the wastes. You ready yourself, scanning the dunes and rocks around you as you keep your hand close to your [pc.weapon], ready to draw at a moment’s notice. The sound stays distant, to the point where you aren’t even sure if it’s something coming at you, until it suddenly blares behind you. You turn, only to get a face full of sand as your assailant ramps over a dune, hollering wildly.\\n\\nYou turn around, rubbing the sand out of your eyes, so you can see who the Void just did that. It’s a[flags.HYRAX_RAIDER_ENCOUNTER\\n\\t|nother\\n] ragged-looking ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00750730&gt;&gt;"
+  },
+  {
+    "key": "textify|man_clad_in_nothing_more_than_leather_straps_jagged_metal_an|22511b2c8bda",
+    "original": " man, clad in nothing more than leather straps, jagged metal, and torn denim and riding a jury-rigged rocket bike.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00751334&gt;&gt;"
+  },
+  {
+    "key": "output|Your_Codex_beeps_i_Hyrax_detected_Warning_males_may_exhibi|1d9ee9caed17",
+    "original": " Your Codex beeps, <i>“Hyrax detected. Warning, males may exhibit overly-aggressive behavior when their ‘rides’ are disrespected.”</i> <b>Hyraxi Codex entry unlocked.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00751540&gt;&gt;"
+  },
+  {
+    "key": "output|Despite_his_poor_attempt_to_paint_it_all_a_single_color_it_s_s|e0a5c0d51a83",
+    "original": " Despite his poor attempt to paint it all a single color, it’s still clearly made from almost half-a-dozen different vehicles.\\n\\n<i>“Don’t get fresh meat like you down here too often!”</i> he yells from across the wastes before revving his bike and pulling out a wicked-looking flail, twirling it around as he cackles, <i>“SCREAM NICE AN’ LOUD, FUCKMEAT, I WANNA REMEMBER THIS!”</i>\\n\\nLooks like you’re not getting away without a fight!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00751750&gt;&gt;"
+  },
+  {
+    "key": "button|Fight|44eab9e4c19a",
+    "original": "Fight!",
+    "translation": "战斗！",
+    "stage": 1,
+    "context": "&lt;&lt;POS:00752259&gt;&gt; addButton(0,\"Fight!\",Cs,\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|44eab9e4c19a",
+    "original": "Fight!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00752271&gt;&gt; addButton(0,\"Fight!\",Cs,\"Fight!\",\"\")"
+  },
+  {
+    "key": "assign|wrecked_motorbike|8a9a2e7813a6",
+    "original": "wrecked motorbike",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00752732&gt;&gt;"
+  },
+  {
+    "key": "assign|With_his_bike_totaled_the_hyraxi_man_has_chosen_to_fight_you_ma|dd5129f43a79",
+    "original": "With his bike totaled, the hyraxi man has chosen to fight you mano a mano! He’s a lithe, feminine man with dark brown hair that’s surprisingly luscious given how far removed he must be from shampoo. His slender, muscular chest is covered by rugged leather straps and rusty metal plates adorned with spikes. Across the dark skin of his human torso and face are a mural of tattoos, various tribal symbols and swirling shapes leading all across his skin. His arms and legs are covered in spotted fur, terminating in large, beast-like paws. One of said claws is holding a wicked-looking hand axe while the other is held at his side, ready to reach into his large tool belt for anything he might need to fight you with.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00753399&gt;&gt;"
+  },
+  {
+    "key": "textify|The_hyraxi_raider_is_circling_you_on_his_rocket_bike_twirling_h|ef2090bb8a5b",
+    "original": "The hyraxi raider is circling you on his rocket bike, twirling his flail and laughing maniacally. He’s lightly armored, but you’re going to have a hell of a time hitting him when he’s on the move like this. <b>It’d also be safe to assume he has a few tricks tucked away in his bike.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00754183&gt;&gt;"
+  },
+  {
+    "key": "textify|The_hyraxi_man_staggers_back_trying_desperately_to_stay_up_only|6e23bec71732",
+    "original": "The hyraxi man staggers back, trying desperately to stay up only to wind up almost flat on his ass when his legs give out. With no fight left, he bows his head submissively and leaves himself at your mercy with his only act of resistance being an irritated growl.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00755054&gt;&gt;"
+  },
+  {
+    "key": "output.expr|var2_var1_var0_0_et_Z_For_the_moment_you_pay_him_no|0d1a9dd74d00",
+    "original": "\"+{var2}({var1}({var0}(0,et.Z)([\"For the moment, you pay him no mind. <b>Gayll is where your focus is.</b> You rush to the fallen nuka’s side. She’s already pushing herself up onto her elbows and rooting in one of her surviving pockets for a healing stim. She grunts in annoyance. <i>“Clever bastard was waiting for me. I must be getting too predictable.”</i> She stabs the healing hypo into her own thigh and sighs with sudden relief, wounds closing by the second, leaving angry red lines that could scar if not properly seen to. <i>“Just give me a second. I’ll radio Rummi and she’ll be here with the hoversled to haul me home and lecture me about bike repairs the entire way.”</i> She laughs morosely. <i>“So stupid I let this happen. Never again.”</i>\\n\\n\\t\\t\\tYou ask her if there’s anything you can do for her while she’s waiting.\\n\\n\\t\\t\\t<i>“Keep that bike-bitch busy so he doesn’t get any ideas. If you do a good job, I’ll be on my way home before you finish up... and I’ll have to start figuring out how to thank you once I’m back at Rummi’s. Deal?”</i>\\n\\n\\t\\t\\tA reward is just the thing to sweeten the pot. <i>“Deal.”</i>\\n\\n\\t\\t\\t(<b>Gayll is going to be fine, thanks to your intervention. You can follow-up with her at Rummi’s later.</b>)\"])))",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00755375&gt;&gt; &lt;&lt;VARS:var0=as=,var1=as||,var2=textify&gt;&gt; output(\"\\n\\n\"+textify(as||(as=(0,et.Z)([\"For the moment, you pay him no mind. <b>Gayll is where your focus is.</b> You rush to the fallen nuka’s side. She’s already pushing herself up onto her elbows and rooting in one of her surviving pockets for a healing stim. She grunts in annoyance. <i>“Clever bastard was waiting for me. I must be getting too predictable.”</i> She stabs the healing hypo into her own thigh and sighs with sudden relief, wounds closing by the second, leaving angry red lines that could scar if not properly seen to. <i>“Just give me a second. I’ll radio Rummi and she’ll be here with the hoversled to haul me home and lecture me about bike repairs the entire way.”</i> She laughs morosely. <i>“So stupid I let this happen. Never again.”</i>\\n\\n\\t\\t\\tYou ask her if there’s anything you can do for her while she’s waiting.\\n\\n\\t\\t\\t<i>“Keep that bike-bitch busy so he doesn’t get any ideas. If you do a good job, I’ll be on my way home before you finish up... and I’ll have to start figuring out how to thank you once I’m back at Rummi’s. Deal?”</i>\\n\\n\\t\\t\\tA reward is just the thing to sweeten the pot. <i>“Deal.”</i>\\n\\n\\t\\t\\t(<b>Gayll is going to be fine, thanks to your intervention. You can follow-up with her at Rummi’s later.</b>)\"]))))"
+  },
+  {
+    "key": "output|What_do_you_do_with_him|c8398a6aec04",
+    "original": "What do you do with him?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00756675&gt;&gt;"
+  },
+  {
+    "key": "button.text|Pussydom|9ebabe61b998",
+    "original": "Pussydom",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00756761&gt;&gt;"
+  },
+  {
+    "key": "button.ttB|Use_your_more_feminine_bits_to_really_show_the_hyena_boy_his_pla|350ecca1f545",
+    "original": "Use your more feminine bits to really show the hyena boy his place!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00756838&gt;&gt;"
+  },
+  {
+    "key": "button.ttB|If_you_had_one_of_those_this_would_probably_be_a_good_idea|d46122dd8ebf",
+    "original": "If you had one of those, this would probably be a good idea!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00756933&gt;&gt;"
+  },
+  {
+    "key": "button|Buttfuck|3dee46677b85",
+    "original": "Buttfuck",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00757067&gt;&gt; addButton(e++,\"Buttfuck\",(function(){return penisRouter(Ms,enemy.analCapacity(),!1)}),\"Buttfuck\",\"Take his big ol’ boy booty for a spin!\")"
+  },
+  {
+    "key": "button.hover|Buttfuck|3dee46677b85",
+    "original": "Buttfuck",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00757139&gt;&gt; addButton(e++,\"Buttfuck\",(function(){return penisRouter(Ms,enemy.analCapacity(),!1)}),\"Buttfuck\",\"Take his big ol’ boy booty for a spin!\")"
+  },
+  {
+    "key": "button.tooltip|Take_his_big_ol_boy_booty_for_a_spin|a1be16bf86e6",
+    "original": "Take his big ol’ boy booty for a spin!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00757150&gt;&gt; addButton(e++,\"Buttfuck\",(function(){return penisRouter(Ms,enemy.analCapacity(),!1)}),\"Buttfuck\",\"Take his big ol’ boy booty for a spin!\")"
+  },
+  {
+    "key": "button|Buttfuck|d0361358b03f",
+    "original": "Buttfuck",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00757214&gt;&gt; addDisabledButton(e++,\"Buttfuck\",\"Buttfuck\",\"Sadly, air and the sheer power of imagination can’t fuck an ass.\")"
+  },
+  {
+    "key": "button.hover|Sadly_air_and_the_sheer_power_of_imagination_can_t_fuck_an_ass|c581286c6446",
+    "original": "Sadly, air and the sheer power of imagination can’t fuck an ass.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00757236&gt;&gt; addDisabledButton(e++,\"Buttfuck\",\"Buttfuck\",\"Sadly, air and the sheer power of imagination can’t fuck an ass.\")"
+  },
+  {
+    "key": "button.text|Lactaid|93f32b6c81cd",
+    "original": "Lactaid",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00757339&gt;&gt;"
+  },
+  {
+    "key": "button.ttB|You_ve_got_a_nice_dose_of_Lactaid_Overdrive_burning_a_hole_in_yo|29c91fdaecd4",
+    "original": "You’ve got a nice dose of Lactaid Overdrive burning a hole in your pack and a subdued hyena man right in front of you. Clearly, these are two things that need to be put together!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00757358&gt;&gt;"
+  },
+  {
+    "key": "button.ttB|You_d_need_a_pretty_potent_variety_of_Lactaid_to_do_this_right|cacdd61a4050",
+    "original": "You’d need a pretty potent variety of Lactaid to do this right.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00757576&gt;&gt;"
+  },
+  {
+    "key": "button|Leave|10c09d9fb512",
+    "original": "Leave",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00757657&gt;&gt; addButton(14,\"Leave\",(function(){Es(),output(textify(is||(is=(0,et.Z)([\"\\n\\tYou turn your back on the hyrax, deciding you have better things to do than sit here and fuck some total stranger. He huffs in anger as you leave, dragging himself over to his bike in order to work on fixing it.\\n\\t\"])))),pr..."
+  },
+  {
+    "key": "button.hover|Leave|10c09d9fb512",
+    "original": "Leave",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00757990&gt;&gt; addButton(14,\"Leave\",(function(){Es(),output(textify(is||(is=(0,et.Z)([\"\\n\\tYou turn your back on the hyrax, deciding you have better things to do than sit here and fuck some total stranger. He huffs in anger as you leave, dragging himself over to his bike in order to work on fixing it.\\n\\t\"])))),pr..."
+  },
+  {
+    "key": "button|Bonk_Him|0d012399ff9f",
+    "original": "Bonk Him",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00758081&gt;&gt; addButton(13,\"Bonk Him\",Ls,\"Bonk Him\",\"Ehh, you can just bonk the hyena raider.\")"
+  },
+  {
+    "key": "button.hover|Bonk_Him|0d012399ff9f",
+    "original": "Bonk Him",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00758095&gt;&gt; addButton(13,\"Bonk Him\",Ls,\"Bonk Him\",\"Ehh, you can just bonk the hyena raider.\")"
+  },
+  {
+    "key": "button.tooltip|Ehh_you_can_just_bonk_the_hyena_raider|409a78320821",
+    "original": "Ehh, you can just bonk the hyena raider.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00758106&gt;&gt; addButton(13,\"Bonk Him\",Ls,\"Bonk Him\",\"Ehh, you can just bonk the hyena raider.\")"
+  },
+  {
+    "key": "textify|You_can_t_think_of_anything_you_d_rather_do_than_bonk_the_sil|be529bbae153",
+    "original": "You can’t think of anything you’d rather do... than bonk the silly boy on the head and knock his ass out. You have a seat against his wrecked bike and munch on a ration from your pack while you wait on Gayll’s pick-up.\\n\\n\\t\\tOnce Rummi’s there, nestled snugly in a floating pod built from an escape pod and manouvering thrusters, they load damaged hoverbike on a cargo-sled and set off with a friendly wave. You’ll have to pay them a visit sometime soon.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00758220&gt;&gt;"
+  },
+  {
+    "key": "textify|You_fall_to_the_ground_var0_n_t_the_resistance_beaten_thorough|27e3c82c94bc",
+    "original": "You fall to the ground, [var0\\n\\t|the resistance beaten thoroughly out of you\\n\\t|too turned on to continue\\n]. The hyraxi man [var1\\n\\t|stops his bike and gets off\\n\\t|walks over\\n], looming over you with a big, toothy grin. He quickly strips you bare before pulling out a loose ball of belts and starts to pick them individually. The gnoll man grabs your arms and wraps a few around them. You gasp when you feel them tighten down by themselves, getting just short of cutting off your circulation. The hyena man cackles before slapping another pair around your [pc.legs] and one more around your neck, though, thankfully, that one doesn’t compress as tightly. Your relief is short-lived when he clips a small device onto the belt and pulls a hardlight leash out of it.\\n\\nThe man cackles. <i>“There ya go, meat, nice and tight! Gotta keep that pretty mouth of yours open, though. When I said I wanted to hear you scream, I meant it!”</i> He gives your [pc.ass] a rough slap just to make his point.[pc.buttRange 12\\n\\t| He watches your mass of ass continue to sway from the impact, letting out an impressed grunt. <i>“Damn, really making this worth my while, aren’t ya?”</i>\\n] The hyrax manhandles you, contorting you until you’re in prime position for him to use, face against the rough sand and ass high in the air. You can already guess what he has in mind, but he seems to have a few steps planned between now and then. His flat, rough tongue presses against your backdoor and starts to move, running along your rim before diving straight in.\\n\\nYou squirm at his tongue and hot breath assail your backside, warming you up for what’s about to come. He goes on for just a few more moments before pulling away and wiping his lips. <i>“Nice and ready now, aren’t ya? Got appointments to keep, so I gotta do this quick!”</i> he says as you feel the weight of his body press down on you and his thin tip press against your [pc.anus]. You struggle against your restraints, only to feel them tighten against you in response. The hyena man cackles at your resistance before thrusting in.\\n\\n[pc.isButtslut\\n\\t|The second you feel him enter you, your natural instincts kick in and your muscles start to relax aside from the actually important ones that need to work over this lovely cock that’s in you. He might not be the biggest guy out there, but his enthusiasm sure makes up for it!\\n\\t|Your inner muscles tighten in response to the foreign insertion, trying to expel him to no avail. If anything, the extra pressure is only egging him on!\\n] He wastes no time getting up to speed, using his strong legs to thrust himself into you with savage force. [var3]\\n\\n[pc.isButtslut\\n\\t|You stay mostly quiet, moaning meekly while your body submits to its true purpose. This displeases the hyrax. He brings down a heavy paw on your [pc.ass], making a deep, red mark [pc.hasFur\\n\\t\\t|beneath your\\n\\t\\t|on your\\n\\t] [pc.skinFurScales]. You think he’s just enjoying you until you remember what he said earlier; he wants you to scream for him. You do so as soon as your mouth muscles can fire back up. He smiles when he hears you yell out, giving you another smack immediately after, screaming <i>“more!”</i> You obey, wanting only to please your partner and not caring how much it strains your vocal cords.\\n\\t|You grit your teeth together, trying not to give him the satisfaction of hearing you moan. Of course, he’s not willing to take no for an answer. He brings down one of his surprisingly-heavy paws on your rear, hitting it hard enough to leave a mark. He does it again and again, going harder every time you resist. <i>“COME ON, OPEN THAT PRETTY MOUTH OF YOURS!”</i> he screams while continuing to savage you. Eventually, your will gives out and you open your mouth to let it all out. He cackles and keeps going. <i>“LOUDER!”</i> he yells, gaining a burst of energy from your submission.\\n]\\n\\nWith you finally giving him what he wants, the hyrax starts running wild on you. He grabs the leash and yanks it tight, putting it between his sharp teeth so he can keep both of his hands focused on your [pc.hips]. It’s a good thing he did, otherwise, the manic pace he’s going at would probably send you flying! He absolutely slams into you, hammering your booty like a jackhammer and kicking up a cloud of sand behind him.\\n\\nDrool leaks out from the hyena man’s lolling tongue and onto your back. His yelling has completely devolved into a manic mix of cackling, howling, and screaming that can probably be heard for miles around! The only thing you can hear over him is the wet ‘pop’ sound every time he bottoms out and his swelling knot forces its way into your [pc.anus] only to be yanked out just as quickly. Your limbs twitch in response, causing the restraints to pull even tighter to keep you down. He pulls harder on your leash at the same time, bringing the pressure on your body to a breaking point.\\n\\nYou cum hard, [pc.isHerm\\n\\t|your mixed sex organs doing their best to add some moisture to this dry, inhospitable land[var2\\n\\t\\t|, and doing a very good job of it!\\n\\t\\t|.\\n\\t]\\n\\t|[pc.hasCock\\n\\t\\t|your [pc.cocks] uncontrollably spraying into the now-damp sand below.\\n\\t\\t|[pc.hasVagina\\n\\t\\t\\t|your [pc.pussy] clenching and drooling[pc.wetnessRange 2\\n\\t\\t\\t\\t|, soaking the sand below you until it almost resembles mud.\\n\\t\\t\\t\\t|, dripping onto the dry sand below.\\n\\t\\t\\t]\\n\\t\\t]\\n\\t]\\n]\\n\\nThe hyraxi man pulls even harder on your leash, making it so tight that you can barely breathe! At the same time, he redoubles his efforts to tenderize your [pc.ass], giving it smack after smack while his screams become even wilder. You feel his knot increasingly struggle to fit in your backdoor, which does nothing to deter him. If anything, the increasing pressure only eggs him on more. As his moaning and screaming reach a fever pitch, the hyena man suddenly drops the leash and lunges down at your neck, latching on and lightly sinking his fangs into it.\\n\\nHis yelling settles down into a husky purr, broken occasionally by a grunt or moan as he gets close. You feel his fully-swollen knot press against your rear, mashing itself against your entrance to try and fit in before he blows. To his delight, he manages to shove his knot into you right as he goes off. His orgasm isn’t the most impressive, though it’s larger than you’d expect from someone his size. He fills your backdoor with thick seed, greasing your insides while his teeth continue to dig into your neck and his hand keeps slapping your [pc.ass].\\n\\nHe keeps you there for a few minutes, holding you hostage on his knot in addition to the bindings already around your limbs. Every movement you make is met with either your bindings tightening or the hyrax biting down or spanking you harder, so all you can do is lay there and take it, face in the sand.\\n\\nBy the time he softens and gets off of you, you’re spent, barely able to moan as he pulls out. Your restraints fall off, letting your limbs fall to the ground limply. The poor circulation has left them numb and uncomfortably tingly as blood rushes back into them. [var1\\n\\t|While you’re incapacitated, you hear the sound of the hyrax repairing his bike. Somehow, he manages to get it working again\\n\\t|You hear the hyena man laugh as he hops on his bike, revs it a few times,\\n] and races off, leaving you to pick yourself up off the dunes and get your things back together.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00758858&gt;&gt;"
+  },
+  {
+    "key": "textify|As_you_fall_to_the_ground_the_hyraxi_man_wastes_no_time_leaping|cd56699c05b2",
+    "original": "As you fall to the ground, the hyraxi man wastes no time leaping onto you and [pc.isNude\\n\\t|groping all over your nude form\\n\\t|ripping your clothes off\\n]. As soon as he gets to your [pc.chest], though, he stops and takes note of the milky [pc.milkColor]ness beading out of your [pc.nipples]. He keeps squeezing at them until you feel the pressure release and your lactic load start to coat his fingers.[pc.isTreatedCow\\n\\t| Your natural instincts kick in and you find yourself relaxing in the man’s grip. All worries about what this wild man might do to you melt away, replaced with excitement about how he’ll ravish you while drinking down your tasty, tasty [pc.milkNoun]!\\n] From the way he’s drooling, you think he’s about to start drinking straight from the tap, but he seems to have other plans.\\n\\nFrom his [silly\\n\\t|belt of seemingly-infinite novelty items that suit almost any situation\\n\\t|tool belt\\n], the hyraxi man pulls out a few large bottles and jingles them in front of you. <i>“Offworlder milk’s pretty rare out here, ya know. Fetches a nice price at the markets. Hells, maybe I’ll keep a few bottles for myself if I can squeeze enough out of ya!”</i> He doesn’t waste any time starting either, pressing a bottle straight to one of your nips and squeezing your tit to get you going.\\n\\n[pc.isTreatedCow\\n\\t|There’s a pleasant buzzing in your brain when he mentions his plans. This is what you have these things for, right? Getting drained by handsome, thirsty strangers so they can enjoy your tasty milkies? And if he’s going to be sharing it with his friends, then all the better! You lie back in total submission, offering yourself completely and utterly to the hyena man as he has his way with you. He even puts a nice, shiny collar around your neck while he’s working. It’s so pretty!\\n\\t|As distracting as being milked is, it doesn’t leave you completely helpless. While he’s working, you try and slip your hand to where you might be able to get the upper... hand on him, but he’s more than ready for you. The hyrax slaps your hand away and pulls something metallic out of his belt before forcing it around your neck. It’s a shock collar!\\n] The collar starts to deliver small, regular shocks that surge through your body. They’re not powerful enough to really hurt, but they are strong enough to get your [pc.breasts] going!\\n\\nEvery pulse sends another surge of [pc.milk] firing out of your tips. Fortunately, the wild man has two bottles at the ready![var0\\n\\t| <b>Un</b>fortunately, he only has two, leaving the rest of your leaky buds to drool uselessly on the sand.\\n] He presses them up to [var0\\n\\t|as many of your nipples as he can\\n\\t|your nipples\\n] and starts to milk you. [pc.milkVol 1 1000 3000 5000\\n\\t|It takes almost all you have to give to fill the first two rather sizable bottles he’s brought with him. Still, the shocks combined with the surprisingly tender treatment from his meaty paws manages to draw another full bottle out of you before all you can muster is slightly damp air.\\n\\t|You let out enough to fill his bottles and then some. It’s a good thing he’s got quick hands... or paws, you suppose, because your buds ain’t stopping! He gets the next two lined up before you can spill too much of his prize. By the time you finish that set, you’re feeling pretty empty, but he’s determined to get every last drop. You only have enough for another bottle or so before you run completely dry. Even after that, he keeps milking and shocking you, for his own pleasure, you’re sure.The hyena man’s eyes go wide when you manage to fill his two bottles in seconds. He fumbles to try and cap off those and get the next ones in place. In the meantime, you continue to spray freely, painting the hyrax [pc.milkColor] with pump after pump of [pc.milk]. The wild man finally gets another pair of bottles ready, only for you to fill those too in short order. This time he’s more prepared, getting the next ones ready much faster, though still not quite fast enough to get everything. It takes longer for you to finish this pair, owing to your massive production finally slowing down. He still runs out of bottles before you run out of [pc.milk] though, so the hyena man uses his mouth to finish you off.\\n\\t|The hyena man stares in disbelief as your massive production almost shoots his bottles straight out of his paws! He fumbles for his next set, dropping it multiple times as you utterly spray him down with [pc.milk]. He ends up bringing all of the bottles he has out at once, hoping desperately to stem the tide of your lactic flood. It doesn’t do much to help. You chuckle as he hurriedly shoves each bottle into your spraying buds, getting them filled almost instantly before fiddling a cap on each. He runs out of bottles long before you’ve even begun to run dry! Even if he stopped the shocks now, your [pc.breasts] have already gone into overdrive, determined to empty themselves of every last drop regardless of where it goes or who objects. Faced with the daunting sight of relentlessly-spraying titties, the gnoll boy does what any god-fearing man would and shoves [var0\\n\\t\\t|two\\n\\t\\t|both\\n\\t] of your [pc.nipples] right into his mouth! He chokes and sputters at the strain of swallowing it all. You worry that he’s about to drown at several points, but he always manages to pull through. He taps out just when you feel yourself slowing down, the hyena man laying backwards and letting out a loud belch.\\n]\\n\\nDone with you, the hyrax packs his bottles away and clicks something on his belt. Before you can even think about what he’s doing, the shocks intensify, bolting through you until your ears ring and your vision starts going white.\\n\\nYou’re not sure if you actually pass out or how much time has passed, but when your senses come back to you, the gnoll man is long gone, along with your milk and a decent handful of your credits.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00766601&gt;&gt;"
+  },
+  {
+    "key": "textify|As_you_re_falling_to_the_ground_you_see_the_mutant_gnoll_man_ru|9981af8fc3d6",
+    "original": "As you’re falling to the ground, you see the mutant gnoll man running up to you at a breakneck pace. Before you even hit the ground, you feel a pair of big, fluffy paws grasp your head and pull you upright. Immediately, a massive, warm slab of meat slams right into your cheek, leaving a throbbing mark on your face. It takes him a second to wind up again, but he comes back around and gives you another smack! He keeps going, gripping the base of his massive log of a cock and swinging it back into you from wherever its immense mass happens to fly. It doesn’t hurt nearly as much as you thought it would, given the sheer size, but it does mark you completely and utterly with his musk, letting his essence seep into all of your senses.\\n\\nBy the time he thrusts his fat, pulsing cockhead up to your [pc.lips], the only response you can muster is to lazily lick along the salty surface, your mouth already limp. Your brain is mush[pc.isBimbo\\n\\t|, which is normal, but it feels extra mushy now\\n]; your nostrils are plugged with musk, unable to sense anything beyond the raw smell of sex and cum, your eyes are glued to his massive cock, tracing every thick vein keeping the behemoth filled, and your tastebuds are flooded with the scent of his masculinity, even the ones not touching it!\\n\\nHis grip relaxes until he’s only cradling your head, not even trying to guide you, moreso just enjoying your submissiveness, reveling in how quickly he’s broken you down. His narrow tip pushes further and further into your mouth, easing in at first, until his girth starts to strain your jaw. [pc.hasSnakeByte\\n\\t|Of course, your maw is easily capable of stretching to accommodate such massive members, drawing a pleased purr from the hyena man as he slides several inches of cock into your throat.\\n\\t|He keeps going, clearly unwilling to give you any time to adjust. Inch after inch goes in, stretching your mouth wider and wider. The hyena man grunts in pleasure and irritation as he constantly has to struggle against you to fit more in.\\n] Redoubling his grip, the gnoll man rams another half-foot of his member down your throat. Impatient and deciding that only getting half his member wet is good enough, the mutant hyrax starts thrusting, burying a little over a foot of dog cock into your throat.\\n\\nDespite the rough treatment, you don’t feel any pain or discomfort, only a warm, tingling sensation. That feeling spreads through the rest of your body, dulling your already shaken mind and numbing your lagging limbs. Through it all, you feel <i>something</i> seeping into you, something [var0\\n\\t|bad\\n\\t|<i>goooood</i>\\n\\t|wonderful\\n]! He continues to use you, barely giving you a second to breathe between thrusts. He’s not even putting his full length into your mouth, but his sack is swinging so wildly that you can feel it almost hitting your chin!\\n\\nThe hyrax growls and hilts himself in your mouth, howling loudly and drooling onto your face. It doesn’t take a genius to guess what he’s doing, but his swelling cumvein and subsequent warm flood in your stomach put any doubts to rest. He floods your gut to the brim and then some, sending a flood of warm, white seed flowing down your chin and onto your [pc.chest]. He holds for a moment before yanking back, leaving you hacking and gasping to try and get your breath back, all the while, the hyena man painting you with the rest of his orgasm all the while.\\n\\nBefore you can get your wits back, the gnoll man jumps you, tossing you on your back, tearing off your [pc.gear], and lifting your [pc.ass] up to his rock-hard member so he can hump through your cheeks. The seed spilling over your back almost burns, the heat seeping into you and building on top of the warmth already spreading from your cum-filled gut. He holds you like that for a few minutes, riding out the afterglow of his first orgasm. The hyena man lets out a growl before hooking his arms around your [pc.legs] and hoisting you up against his chest[pc.isHeight 72\\n\\t| with great difficulty\\n]. He huffs as he lines himself up with your [pc.vagOrAss], his cock still drooling cum straight into your [pc.vagAss\\n\\t|honeypot\\n\\t|rectum\\n].\\n\\nYour head is still swimming, barely able to adjust to the movement without getting dizzy. Your body is so shaken that you don’t even notice he’s started fucking you again until he’s already half-way in! His thick, powerful legs put in work, letting him fuck you at a wild pace without slowing down a bit. You moan and scream in shock and pleasure, but your shouts are drowned out by the mutant gnoll’s almost-feral growls. He’s simultaneously blowing your eardrums out and coating your shoulder in slobber while he plows you!\\n\\nThe combined screams echo across the empty dunes loud enough to be heard for miles around. You even swear you can see the glint of a pair of binoculars in the distance as you bounce. His massive cock distends your [pc.belly] with every mighty thrust. It’s something you don’t really notice but that he revels in, rubbing it as it travels up and down your gut. At the same time, his fat balls crash into your crotch hard enough to leave a light bruise. You’d think the pain would slow him down but, if anything, it only encourages him to go faster.\\n\\nAs he hammers you harder and harder, you feel his hot breath getting closer to your neck. Without warning, he bites lightly into you, giving you a slightly painful hickey. His spit tingles as it runs down your neck, spreading an almost burning heat into you that crawls into your [pc.crotch]. You feel <i>something</i> building and building until one thrust from the hyena man sends your mind into orbit! You cum hard enough that it almost hurts, every nerve in your body going off like a firework. Every thrust after that feels like being tased, just a surge of overwhelming energy that causes you to jerk wildly to try and adjust.\\n\\nA strange connection forms in that moment between you and the mutated beast man. Through his tainted fluids, you’re feeling an echo of what it’s like to be the bestial raider. Only, for him, it never stops. You feel pity, but also a rising sense of envy. Wandering the wastes, abandoning everything, and mindlessly longing only for your next fuck sounds horrible, and yet...\\n\\nBefore you can finish that thought, the hyrax bloats your [pc.belly] with a fresh load of corrupted cum, his knot swelling massively to make sure it all stays right where he wants it to. Your ears ring, your vision starts going white, and your whole body gets so hot that you feel like you’re melting into him.\\n\\nEverything fades.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00772824&gt;&gt;"
+  },
+  {
+    "key": "button|Next|e1a92d49f2ce",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:00779611&gt;&gt; addButton(0,\"Next\",(function(){xs(!0),output(textify(ls||(ls=(0,et.Z)([\"\\n\\tYou wake up face-down in the sand, barely able to lift your limbs. When you manage to shake off the exhaustion and look around, you see that the hyrax is long gone, though his handiwork certainly isn’t. Cum is still drooling..."
+  },
+  {
+    "key": "button.hover|Next|e1a92d49f2ce",
+    "original": "Next",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00780239&gt;&gt; addButton(0,\"Next\",(function(){xs(!0),output(textify(ls||(ls=(0,et.Z)([\"\\n\\tYou wake up face-down in the sand, barely able to lift your limbs. When you manage to shake off the exhaustion and look around, you see that the hyrax is long gone, though his handiwork certainly isn’t. Cum is still drooling..."
+  },
+  {
+    "key": "textify|The_mutant_hyrax_leaps_onto_you_as_you_go_down_pc_isNude_n_t_g|ebad2b0bba02",
+    "original": "The mutant hyrax leaps onto you as you go down, [pc.isNude\\n\\t|groping at your nude form possessively\\n\\t|grabbing at your clothes and almost tearing them straight off of you\\n]. You think he’s about to go wild on you until he hits your [pc.cockBiggest]. He seems mesmerized by the sheer size of your meat, staring at it with wide, almost gleeful eyes. The entranced hyena man lazily drags his tongue across your length, smearing his glowing spit all across it. The tainted fluid tingles as it seeps down your many inches, getting you hard in record time.\\n\\nThe sudden shift in behavior stuns you almost as much as the pleasure radiating from your cock. From trying to gore you like a wild animal to submissively lapping at your [pc.cock] in the span of a minute! As you’re trying to process it, he even starts purring, adding whole new levels of confusion and pleasure. He still makes it very clear who’s in charge here. You reach out a [pc.hand] towards the hyrax and are met with a threatening growl that puts you right back in your place.\\n\\nYou’re a passive observer to everything the gnoll man is doing, unable to meaningfully act without drawing his ire. He toys with your pillar for a few more minutes, drooling more and more as he does. His own sizable cock is also rock-hard and pulsing in time with his increasingly-rapid heartbeat. The mutated man moves up to your [pc.cockHead] and starts to stretch his jaw around it. He’s surprisingly successful, making it a few inches down before starting to bob up and down, coating your pole in even more of his tingly, glowing saliva.\\n\\nHe only spends a few moments doing that before he pulls away and stands up. The thick hyena man turns around, sending his fat cheeks bouncing as he positions himself right above your rigid rod. This isn’t exactly how you expected this to turn out, but you’re not complaining so far! At least, not until he actually starts to move. The hyrax slams down so hard that it creates an audible slap when his rear impacts with your crotch. He howls in sheer pleasure and rubs the outline of your [pc.cock] in his belly. You hear his paws digging into the sand in preparation for what’s about to come.\\n\\nHe rises back up, dragging his body up your length, twitching and spasming the whole way up, and yet not wavering for a second. He slams back down as soon as he gets about a foot up and then starts rising again. Every time he goes up, he comes down at a different time. Sometimes he gets almost all the way off, sometimes he barely goes a few inches; either way, he comes back down just as hard. The mutated savage may not be trying to eat you, but he’s sure as void making you feel like a piece of meat with how hard he’s tenderizing you!\\n\\nHis rapid movements bring you to your brink <i>very</i> quickly. [pc.cumSNVH\\n\\t|You cum on the spot, but the fruits of your orgasm are quickly swept away into his depths or smeared across your length as the wild man continues to bounce on you.\\n\\t|You cum on the spot, but the fruits of your orgasm are quickly swept away into his depths or smeared across your length as the wild man continues to bounce on you.\\n\\t|You unload into him, firing out enough to bloat his stomach out from the sheer amount of [pc.cum] you have to give. Despite that, he keeps going through it, just as fast and frantic as before.\\n\\t|You unload into him, firing out enough to bloat his stomach out from the sheer amount of [pc.cum] you have to give. Despite that, he keeps going through it, just as fast and frantic as before.\\n] Sensitive to the fact that you’ve reached your own peak, the hyena man clearly feels left behind and starts to jerk off, putting both of his fluffy paws to work polishing his impressive cock. Still not missing a beat, he cums, firing off in the distance while he growls in pleasure.\\n\\nAfter you both finish, the hyrax begins his long trek up and off your [pc.cock], causing you to moan out from the post-orgasm sensitivity combined with just how much dick meat he’s stimulating. But even when he gets off, you realize that the pleasure doesn’t stop! Even after such a thorough fucking, the insidious taint from his saliva still remains. While you’re wrestling with that, the hyena man decides that it isn’t enough. He leans down and lazily slobbers his tongue across your length again, washing it in a fresh coat of corrupted spittle.\\n\\nYour head starts to feel light from the lack of blood. Your [pc.cock] has been hogging the bulk of it this entire time and now it’s only demanding more! You can barely keep up with the gnoll man as he climbs on top of you, positioning his butt above your prick once again and slapping his own dick into your [pc.chest], butting the tapered head right up against your [pc.lips]. In no time, he’s back to business mashing his crotch into yours. There’s an added element as he bounces, his massive cock and fat balls slamming down on your chest! Every time he comes down it knocks all of the air out of your lungs, only for them to be immediately filled with his cum when it squirts out from the impact.\\n\\nYou sit on the verge of suffocating for a few, terrifying moments before you hastily manage to adjust to the pattern. Even with him pummeling you with his entire lower body, you think you might still be enjoying it! Your nerves flick between pleasure and pain like a light switch, either one or the other with no other sensation even perceptible. Drinking down his near-constant blasts of cum only muddles things further, each drop of the sinful liquid sending tingles from your tongue straight up to your brain. But in the end, it hardly matters what you think; the hyrax is the one in charge and he couldn’t give a crap if you were in pain or ecstasy! He’s gonna keep bouncing until he’s satisfied. Speaking of which...\\n\\nYour vision is suddenly painted white, a warm feeling pouring over your face and neck. He’s cumming, and he’s not holding back! The warmth seeps into your brain as you feel yourself cumming alongside him, finally shorting your nerves enough that your body shuts down.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00780306&gt;&gt;"
+  },
+  {
+    "key": "button|Next|0f32ad702a7f",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:00786500&gt;&gt; addButton(0,\"Next\",(function(){xs(!0),output(textify(cs||(cs=(0,et.Z)([\"\\n\\tYou wake up sometime later... or at least you think you do. You barely have the strength to lift your eyelids, especially with how much, what you assume to be, caked-on cum is on them. Trying to even move is a challenge with..."
+  },
+  {
+    "key": "button.hover|Next|0f32ad702a7f",
+    "original": "Next",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00787115&gt;&gt; addButton(0,\"Next\",(function(){xs(!0),output(textify(cs||(cs=(0,et.Z)([\"\\n\\tYou wake up sometime later... or at least you think you do. You barely have the strength to lift your eyelids, especially with how much, what you assume to be, caked-on cum is on them. Trying to even move is a challenge with..."
+  },
+  {
+    "key": "textify|The_sight_of_the_submissive_little_man_sitting_in_front_of_you_s|2510a521b5fb",
+    "original": "The sight of the submissive little man sitting in front of you stirs something up in your [pc.pussy]. You strut around him, [pc.hasLowerGarment\\n\\t|slowly sliding off your [pc.lowerGarments]\\n\\t|sensually running your hands across your [pc.hips] and down to your honeypot\\n]. His cute ears perk up despite his attempts to maintain a defiant demeanor. You grab one and rub it gently, sending a shiver down his spine. The way he bends to your touch makes you almost giddy at the prospects. You grab his head and mash him against your crotch, putting his nose against your outer lips[pc.hasCock\\n\\t| while your [pc.cock][pc.hasBalls\\n\\t\\t| and [pc.balls]\\n\\t] rest on top of his head\\n]. He feigns resistance, but you can feel just how fervently he’s sniffing you!\\n\\nHis muscles slacken, making your job a lot easier. You pull him up just enough that his tongue can reach your snatch and the little yeen man immediately goes for it. A moan escapes your mouth when his tongue slithers past your flower. Any resistance the hyrax had left fades away instantly, turning him to putty in your hands. You pet him gently, causing him to purr meekly and continue to pleasure you. It’s a little surprising just how quickly you made him like this. You knew the males could be pretty submissive, but you assumed this one would take a <i>bit</i> more effort considering he was trying to beat the shit out of you just a minute ago!\\n\\nThose thoughts fade quickly, lapped away by the hyena man’s rough tongue as it digs deeper into your [pc.pussy]. You bring him up further so that he can fully reach your nethers. He gives an appreciative murmur before you push him against your snatch, making sure his whole mouth is right up against your snatch. He briefly tongues your [pc.clit] before diving in deeper, stretching his impressively-long oral organ into your sensitive passage. The surprisingly-talented gnoll boy gets you close a lot sooner than you thought he would. Instead of letting him get you off that easily, you thrust your whole body down on him, pinning him down on the sandy ground, his head between your thighs and his mouth still up against your [pc.pussy]. To his credit, he takes it like a champ, not missing a beat even as his head impacts the ground. He must be used to this kind of treatment...\\n\\nHis hands come up and gently squeeze your [pc.ass], twitching madly as lust courses through his whole body. Looking back, you see his cock straining against his pants, a small wet patch forming at the tip. Clearly, the man has a thing for eating pussy, one could even say he craves cunnilingus, and you’re happy to indulge him! His oral motions become quicker and more direct. He hits your sensitive spots in sequence, almost like he’s been studying which parts of your pussy passage make you purr with pleasure the most! You grit your teeth and exhale hoarsely, feeling yourself flying towards the edge.\\n\\nYou could stop him if you wanted to, savor your first orgasm for a little bit longer, but, frankly, you don’t care! The hyena man slows down when he feels your inner walls start to throb. His motions are timed to your contractions, trying to, and succeeding in, amplifying your orgasm. You splatter his face in [pc.girlCum], [pc.wetnessRange 2\\n\\t|drenching him completely with steaming liquid love\\n\\t|coating him in drops and sputters of your liquid love\\n].[pc.hasCock\\n\\t| Your [pc.cock] goes off at the same time, jealously plastering [pc.cum] across the dry dessert sands.\\n] You grind your [pc.hips] against him for the duration of your orgasm, mashing more sand into his soft mane. While you’re coming down, you feel the submissive hyrax purring gently into your snatch, slowly lolling his tongue back and forth inside of you.\\n\\nYou stand up and look down at the fluffy guy. He looks back up at you, eyes wide, mouth still open and trembling. He timidly tries to speak, stuttering out every word. <i>“Have I-I p-pleased you? M-may we b-b-breed now... [pc.mistress]?”</i>\\n\\nHis voice is laced with desire and desperation and judging by the state of his crotch, he’s clearly near his limit. You shake your head and plant a [pc.foot] on his chest, causing his breath to quicken. You feel his heart trying to beat its way out of his chest. It’s almost adorable how meek he is now that he’s beaten and had a nice taste of [pc.pussy]! You almost want to pick him up right now and take him to your ship as a personal, live-in sex slave; he’d probably even like that. For now, though, you’ll settle with just giving him what he, hell, both of you want!\\n\\nYou drag your [pc.foot] down and down until you hit his straining bulge, giving the throbbing time bomb a few quick taps before reaching down and just ripping the already-ragged garment off. His pre-slicked doggy cock thrusts straight up into the air, presenting itself for your inspection. Deeming his offer acceptable, you squat down and plant your soaking [pc.pussy] right against the narrow tip. The hyrax gives you an expression of almost childlike glee, ecstatic that you’re pleased enough with him that you’ve decided to mate with him. His fluffy fingers fidget in the sand in anticipation, kicking up sand along with his excitedly wagging tail.\\n\\nHis head flies back the second your lips close in around the first inch. His hips twitch, but he keeps himself contained so as to not anger you. You lower down slowly, taking his modest cock bit by bit so you can savor it. You bottom out pretty quickly, rubbing your crotch against his for a few moments before bringing yourself back up. The hyena man grits his teeth, trying desperately to hold back despite how close he’d gotten just from eating you out. That’s his problem, of course, you’re not about to temper <i>your</i> enjoyment for his sake! You bounce at a steady pace, hearing the ‘slap’ of your wet crotches repeatedly over the soft wind of the dunes. [var0]\\n\\nAfter just a few minutes, you can see just how exhausting this whole ordeal is for him. He’s absolutely soaked in sweat, limbs tensed, muscles twitching, jaw clenched. To give him even a bit of comfort, you brush a hand across his chin, causing the poor yeen boy to purr and at least somewhat relax. His comfort is short-lived, however. After a few seconds, he tenses back up again, almost freezing in place as he hits his limit. Preemptively, you pull yourself up a bit, keeping his knot out of you as it inflates. For someone who, by the standards of cocks you’ve seen, is pretty small, he manages to put out a lot of cum! [pc.isPregnant|Unfortunately for him, your womb is already occupied, leaving his load with nowhere to go but straight back out. You’re sure he knows that, but he still seems to be enjoying the fantasy of knocking you up.|Your womb feels warm and stuffed by the time he’s done unloading, his little swimmers spreading out in hopes of getting lucky!]\\n\\nWith the hyena boy sated, and you still not quite having your second orgasm, you move back up to his face, slamming your cum-filled [pc.pussy] right back down. Even as exhausted as he is, the hyrax still does an admirable job, not just hitting the same sensitive spots he memorized before, but also cleaning as he goes, unashamedly swallowing his own cum just to make sure you’re fully satisfied. It works wonders, getting you right up against your limit within seconds. You mash your full crotch against his face as you cum again, making sure he really drinks in what a good job he’s done.\\n\\nAs you get up and gather your things, the hyraxi man curls up and seems to pass out, a happy grin spreading across his face while his tail happily sways back and forth. Cute.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00787182&gt;&gt;"
+  },
+  {
+    "key": "textify|You_circle_the_prone_predator_taking_in_every_detail_of_the_sup|40b25eb05014",
+    "original": "You circle the prone predator, taking in every detail of the supple hyena boy’s form. Your eyes fixate on his supple booty. He grunts and shuffles in place when he feels you descending on it, grabbing and groping his soft cheeks through his pants. Your [pc.cock] strains in [pc.hasLowerGarment\\n\\t|your [pc.lowerGarments]\\n\\t|the open air\\n], eager to feel the hyraxi’s delicious-looking butt first-hand. He’s surprisingly amicable to the situation, thrusting his butt into your grip and even undoing his fly to give you an easier time. Despite that, his face is oddly dispassionate, like this is just par for the course.\\n\\nIt doesn’t matter to you, of course. You finish what he started, yanking his pants completely off and exposing his juicy cheeks and hard cock. The hyena man murmurs something under his breath when you walk around and plant your crotch against his face. [pc.isCrotchGarbed\\n\\t|You strip down, letting your [pc.cock] flop onto his face\\n\\t|You flop your [pc.cock] right into the hyena man’s face\\n][pc.hasCocks 2\\n\\t| while your other member[pc.hasCocks 3\\n\\t\\t|s\\n\\t] smack against his cheek\\n].\\n\\nHe sucks down your length almost instinctively, not even realizing what he’s doing until a moment after your member is in his maw. Despite glaring daggers at you, you feel him purring around your cock while his tongue works you over. It only takes a few moments for you to feel lubed up enough to take him, but you keep yourself in for a bit longer, just savoring his eager mouth.\\n\\nYou pull out soon enough and give him a gentle pat on the head before returning to his backside. You spit into your palms and rub them together before laying them on the hyena man’s supple cheeks and banging on them softly like a pair of drums. Your strikes slow down but gradually increase in intensity until you’re striking him hard enough that the wet slaps echo across the dunes. Despite the harshness, he still seems to be enjoying himself.\\n\\n<i>“You’re into this sort of thing, aren’t you?”</i> you ask, curious.\\n\\n<i>“This? This ain’t shit compared to what some of the women have put me through. I ain’t even bleedin’ yet!”</i>\\n\\nThat’s... a little worrying, but not something relevant to you, for the moment. You grab his tail and pull hard, using it to help keep him steady while you line yourself up. You press against his rear entrance for a brief moment, only to slip right in without any resistance[var1\\n\\t| despite your large size\\n]. The man clearly has experience! [pc.cockSNVH\\n\\t|Probably enough experience that you didn’t need the lube...\\n\\t|Probably enough experience that you didn’t need the lube...\\n\\t|Enough that even your considerable size doesn’t seem to phase him.\\n\\t|Enough that even your considerable size doesn’t seem to phase him.\\n] You push in all the way, feeling your [pc.hasBalls\\n\\t|[pc.balls]\\n\\t|crotch\\n] slap against his. His tail sways lightly in your grip while the man himself grunts and moans submissively, bending even further forward and arching his back up to give you better access to him. [var0]\\n\\nYou run a finger along his spine, giving him the closest thing you can to a pet at this angle. He purrs and tightens up in response, trapping your [pc.cock] in a warm, vice-like grip,[pc.hasCocks 2\\n\\t| your other member[pc.hasCocks 3\\n\\t\\t|s make themselves\\n\\t\\t| makes itself\\n\\t] at home in the crack of his ass, nestled between the warm domes.\\n] You swap back to slapping him which loosens him up quickly. Pulling back, you still feel the hyrax trying to squeeze you on the way out. It’s not enough to stop you, but it’s enough to show you that he’s going to be a brat about this!\\n\\nHe holds to that over the next few thrusts. Every movement is met with some kind of odd squeeze or spasm that tries to throw you off. It gets annoying enough that you start smacking him every time it happens, which stops him but also draws out a muffled moan from the hyena man. You’re starting to think he’s doing this just to egg you into going harder, and the little smirk you catch when he looks back at you only reinforces that. Well, if that’s what he wants...\\n\\nYou rear back to your tip, give him a firm crack across the ass, and slam back in, feeling the ‘slap’ from your hips as they impact at high speed. He seems to enjoy it, and you certainly do! The hyena man’s talented rear keeps the experience enjoyable. Instead of squeezing to mess with you, his surprisingly-strong muscles guide you in and out with almost machine-like smoothness. You have to admit, the women he was talking about earlier train a damn good buttslut! Even if the bleeding part is still a bit concerning.\\n\\nThe gnoll buttslut grips the sand for what little support it can provide. It doesn’t stop him from sliding slightly forward every time you slam into him. Even as the sand grinds into his paws, though, he takes it, and he enjoys it! You continue to bring your hands down until his butt is so red that it’s almost glowing before needing to grab his hips for support. You’re so into it that you don’t even notice when you’ve pushed him far enough that he’s within arm’s reach of his discarded tool belt. Luckily for you, his plans are a little different than what you’d expect.\\n\\nRight when you see him rummage through his belt, the crafty hyrax finds what he’s looking for. You panic when he throws something from it straight at you, instinctively ripping your hands from his butt and somehow fumbling a last-second catch. What you thought at the moment was going to be a knife or a bomb turns out to actually be just a small, shoddily-made remote. In the second it takes you to parse that, the hyena man grabs something else and you hear a metallic ‘snap’. Quickly investigating, you see that he’s put a metal collar around his own neck!\\n\\n<i>“Just isn’t the same without it...”</i> he says with a tremble in his voice.\\n\\nConfused, but still wanting to finish this, you grab on again, holding the remote between your hand and his ass, thumbing across the mismatched buttons while you ramp back up to full speed. As your pace approaches its apex, the hyrax seems disappointed, clearly desiring something a bit more. Your curiosity wins out and you push a button, causing the collar around his neck to whir to life. Sparks fly out of the metal ring and his body suddenly goes rigid.\\n\\nDrool leaks from the sides of his mouth and he starts panting. Even after the shock fades, his entire demeanor has changed, becoming much more feral and desperate. <i>“Again!”</i> he yells, demanding that you give him another jolt.\\n\\nWell, if he insists! You press the buttons at random, cycling through different levels of electrocution, from light shocks to ones so strong that he actually jumps, forcing you to grip harder to try and keep him from flying away. You almost stop several times, but the hyraxi’s constant cries of pleasure keep you going despite how strange it seems. You manage to keep up a rough pace despite his howling and spasming. The thing that makes it hard is his spasming rear muscles constantly pushing and pulling in different directions. It keeps you constantly adjusting but you can’t say it doesn’t feel good!\\n\\nThe pleasure never lets up, it simply can’t. The hyena slut is so firmly engrossed in the erratic shock therapy you’re delivering that you doubt he’d slow down even if you stopped. Hell, you’re not even sure if the collar is still working at this point! The only sound you hear coming from it now are faint crackles and you swear, in the moments when you slow down, you see smoke coming from it. It doesn’t matter to him either way or you, for that matter, because you feel the end of this coming right up!\\n\\n[pc.cumSNVH\\n\\t|You cum, but it’s no more than a footnote on what’s happening. Between the hyena man’s jumping, and your own struggles to keep up with him, your orgasm almost slips your mind even while it’s happening![pc.hasCocks 2\\n\\t\\t| Even the payload from your other cock[pc.hasCocks 3\\n\\t\\t\\t|s\\n\\t\\t] barely registers, simply splattering uneventfully onto his skin and fur.\\n\\t] It still takes its toll, however, and you find your energy starting to wane\\n\\t|You cum, but it’s no more than a footnote on what’s happening. Between the hyena man’s jumping, and your own struggles to keep up with him, your orgasm almost slips your mind even while it’s happening![pc.hasCocks 2\\n\\t\\t| Even the payload from your other cock[pc.hasCocks 3\\n\\t\\t\\t|s\\n\\t\\t] barely registers, simply splattering uneventfully onto his skin and fur.\\n\\t] It still takes its toll, however, and you find your energy starting to wane\\n\\t|Even in the face of your hips literally crashing together, your ungodly orgasm still manages to make a statement. The gnoll man’s gut bloats from the sheer amount, weighing him down but doing nothing to stop his frantic movements. You feel your energy start to drain from you in almost equal proportion to how fast your [pc.cum] flows out of his overstuffed booty.\\n\\t|Even in the face of your hips literally crashing together, your ungodly orgasm still manages to make a statement. The gnoll man’s gut bloats from the sheer amount, weighing him down but doing nothing to stop his frantic movements. You feel your energy start to drain from you in almost equal proportion to how fast your [pc.cum] flows out of his overstuffed booty.\\n]\\n\\nYou pull out, letting the hyena man slump forward, still jittering when he hits the ground. There’s a hint of worry in you about whether you’ve broken his brain or not, but the way he rolls over, exhales, and starts to rub himself tells you that he’s <i>probably</i> fine. He’s at least well enough off that you don’t feel bad as you gather your things and head out.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00795059&gt;&gt;"
+  },
+  {
+    "key": "textify|Your_penchant_for_carrying_around_assorted_medications_transfor|96d45421d6b5",
+    "original": "Your penchant for carrying around assorted medications, transformatives, and other trinkets may be awkward, but it does give you some interesting options. Pulling out a Lactaid medi-pen from your pack enlightens you to one such option. Putting it back for now, you approach the hyrax and start to grope at his tight chest. He moans lightly when you start playing with his nipples, telling you that they’re already pretty sensitive. Perfect!\\n\\nYou tackle him to the ground and continue fondling him, causing the yeen man to start purring, his eyes fluttering shut as you pleasure him. He’s clearly unaware of what your planning; not that you’d expect anyone sane to guess what you’re about to do... or do what you’re about to do. Part of you considers if TamaniCorp has validated this stuff for hyrax, but that’s something for their lawyers to figure out, assuming this guy manages to find an attorney!\\n\\nWhile you’re groping him, you pull the medi-pen out and sneak it between your fingers. With a huge smirk on your face, you push into his chest and press the pen into him, depositing its payload without him noticing. Your excitement fades when a few minutes pass and he seems to have no reaction to it. You get up, ready to walk away disappointed until you realize that the hyena savage hasn’t stopped moaning. In the absence of your hands, his own paws move in to continue stimulating his needy chest. His gropes are frantic like his pecs have caught fire and he’s desperately trying to put it out.\\n\\n<i>“W-what the fuck did you do to me! Y-y-yyyyooouuaAAHHH!”</i> he shouts as white beads from the tips of his nipples before bursting out, sending small arcs of milk flying above him before they splatter down his face.\\n\\nYou’d be pretty happy if that were as far as it went, but that’s not the end. He continues to grope and grope, grunting in irritation and pleasure as something is clearly still happening. Before your eyes, his nipples start growing larger while he fondles them, the milky spouts becoming even wetter as more of the pearly white stuff leaks out in increasing quantity. He starts pulling and tugging on them, looking like he’s about to yank his teats straight off. To your surprise, the ruthless stretching starts to actually pull them further and further away from his chest. The space between fills in, rounding out until they almost look like...\\n\\n<i>“Tits!? You gave me fucking tits!?”</i> he screams as he fondles his new milky tits. They’re pretty good tits, too, you’d wager about a DD-cup! The drugged hyena man glares at you while continuing to grope himself. His anger degrades as his pleasure continues, giving way to sheer, unrestrained pleasure. Milk continues to spill out in substantial quantities, soaking his hands and newly-grown bosom until they’re almost completely white. \\n\\nWithin minutes he becomes lost in the sensation, rolling around on the ground, obsessed with pleasuring himself. Obviously, the anger from earlier has been long since spent. He’s pretty much at your mercy now. The question is, what do you want to do with his new assets?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00804986&gt;&gt;"
+  },
+  {
+    "key": "button|Milk|ae01f6bc40bf",
+    "original": "Milk",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00808157&gt;&gt; addButton(0,\"Milk\",(function(){Es(!0),output(textify(ms||(ms=(0,et.Z)([\"\\n\\tAll this time wandering the sand sure makes a [pc.man] thirsty! Lucky for you, you have a nice, milky manslut right in front of you just brimming with tasty refreshments! You grab his hands and pull them out of the way, leav..."
+  },
+  {
+    "key": "button.hover|Milk|ae01f6bc40bf",
+    "original": "Milk",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00812419&gt;&gt; addButton(0,\"Milk\",(function(){Es(!0),output(textify(ms||(ms=(0,et.Z)([\"\\n\\tAll this time wandering the sand sure makes a [pc.man] thirsty! Lucky for you, you have a nice, milky manslut right in front of you just brimming with tasty refreshments! You grab his hands and pull them out of the way, leav..."
+  },
+  {
+    "key": "button.tooltip|He_seems_to_have_a_lot_of_it_You_can_help_with_that|90deb328585c",
+    "original": "He seems to have a lot of it. You can help with that!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00812426&gt;&gt; addButton(0,\"Milk\",(function(){Es(!0),output(textify(ms||(ms=(0,et.Z)([\"\\n\\tAll this time wandering the sand sure makes a [pc.man] thirsty! Lucky for you, you have a nice, milky manslut right in front of you just brimming with tasty refreshments! You grab his hands and pull them out of the way, leav..."
+  },
+  {
+    "key": "textify|You_have_to_admit_watching_a_man_grow_big_milky_tits_and_immedi|4ec471a25d5c",
+    "original": "You have to admit, watching a man grow big milky tits and immediately start fondling and groping them has you pretty turned on! Your [pc.cocks] strain[s\\n\\t\\t|s\\n\\t] [pc.hasLowerGarment\\n\\t\\t|in your [pc.lowerGarments]\\n\\t\\t|proudly, uncovered\\n\\t] as he pleasures his newly-grown boobs. [pc.cockSNVH\\n\\t\\t|The hyena man’s supple bosom looks like the perfect place to sheathe your member!\\n\\t\\t|The hyena man’s supple bosom looks like the perfect place to sheathe your member!\\n\\t\\t|You have to admit, his new tits are <i>very</i> enticing. Enticing enough that even if they’re a bit too small to fit your cock snugly, you’re still going to fuck them!\\n\\t\\t|For such a small pair of tits, the hyena man’s pair is surprisingly enticing. You doubt they’ll do much on your super-sized cock, but hey, a titfuck’s a titfuck!\\n\\t] [pc.isNude\\n\\t\\t|You grab your [pc.cockBiggest] and thrust it out in front of the hyena man\\n\\t\\t|You yank off your clothes and let your [pc.cockBiggest] flop out in front of the hyena man\\n\\t].\\n\\t\\n\\tThe hyrax looks at your bared dick and then back at his tits, realizing what you’re planning to do. Not really having the option to say no, he stops groping himself and apprehensively pushes his man-boobs together to make a nice target for you while looking away in embarrassment as you come over to take advantage. You sit down on his stomach and slap your meat between his breasts. [pc.cockSNVH\\n\\t\\t|You fit almost perfectly between his surprisingly-large tits, smothering them completely in warm, milk-slicked boob flesh.\\n\\t\\t|You fit almost perfectly between his surprisingly-large tits, smothering them completely in warm, milk-slicked boob flesh.\\n\\t\\t|The raider lets out a pained grunt when your sizable schlong slams against his chest, cresting over the peaks of his boobs and your [pc.cockHead] resting just in front of his face.\\n\\t\\t|The hyena man looks back in horror as you bring down your absolute mammoth of a cock down on him. He screams for a moment before his cries of fear are silenced by a mountain of dick flesh.\\n\\t]\\n\\t\\n\\t[var0\\n\\t\\t|You saw through his ample chest, moving your [pc.hips] in rhythmic motions and grinding your [pc.ass] against his tight chest. Milk continues to fountain from his teats, flowing into the canyon of cleavage that you’ve made your personal dick sheathe. It’s pleasantly warm, only egging you to fuck his tits harder now that you have some lube to work with! You do just that, raising your butt just a bit off of him so you’re not rubbing your cheeks raw and having at him. The hyena man grunts in irritation at this, naturally, glaring at your [pc.cockHead] while it crests in and out of his vision.\\n\\t\\t\\n\\t\\tHe starts to growl after a bit. It’s not aggressive, more just pouty and upset. You have a way to fix that, though. When he turns his head to glare at you, you ram yourself in hard enough that your tip goes right into his mouth! He shouts in surprise at the intrusion but gets no time to adjust before you pull back. You grab his head and hold him in place while you continue railing his mouth, picking up a nice sheen of his own milk and stuffing it down his throat.\\n\\t\\t\\n\\t\\tAs you continue, it becomes more clear that you’re not the only one enjoying this. His milky mammaries are spraying harder and harder with each thrust, and every time you move back enough, you feel his cock bounce against your [pc.ass], straining harder and harder each time. Realizing that, you pull his hands away from his chest and start working his tits over <i>your</i> way! The hyena man moans in between choking on your [pc.cock] when you begin absolutely manhandling his breasts, mashing them around your length as you continue having your way with the busty hyena boy.\\n\\t\\t\\n\\t\\tMilk squirts violently between your fingers, painting them and your dong white. The sheer sensitivity of his new tits becomes obvious when, after playing with him for only about a minute, the hyrax groans into your cock and cums, his legs shuttering and tamping behind you. You have to admit, cumming does sound pretty nice right now and your [pc.balls] seem[s\\n\\t\\t\\t|s\\n\\t\\t] to agree! [pc.cumSNVH|You press yourself as far into his mouth as possible and let yourself go, painting his mouth [pc.cumColor] on top of the white of his own milk.|Your cumvein swells as you ram yourself into his mouth, your cock throbbing and swelling as you let go. His mouth floods with your [pc.cum] until it overflows, [pc.cumColor] seed mixing with his own white milk.|Your member bloats ominously as you ram it right into the hyena man’s mouth. The poor boy couldn’t possibly predict what’s about to happen. His eyes go wide while his mouth fills far beyond capacity. [pc.Cum] flows out of his flooded fuckhole like water from a broken dam, soaking the sand below him until it almost turns to mud.|Your member bloats ominously as you ram it right into the hyena man’s mouth. The poor boy couldn’t possibly predict what’s about to happen. His eyes go wide while his mouth fills far beyond capacity. [pc.Cum] flows out of his flooded fuckhole like water from a broken dam, soaking the sand below him until it almost turns to mud.]\\n\\t\\t|You feel him growling underneath your mast as you start to grind it on him. In your mind, this was going to be a titfuck, but now that reality has set in, you realize his tits would have to be several times their current size to have any hope of even beginning to wrap around your mammoth girth! At least the milk spraying out of them provides nice warmth and much-needed lubrication. You give him a bit of a break and pull up just enough to let him breathe, a luxury he takes full advantage of, gasping heavily for breath and cursing you out between coughing fits.\\n\\t\\t\\n\\t\\tRather than continue to pummel him, you decide to keep your gigantic length hovering just above him. <i>“I’m sure I don’t have to tell you just how heavy this thing is. It’d be such a shame if I went soft and it fell back on you...”</i>\\n\\t\\t\\n\\t\\tThe threat of being crushed again spurs the hyena man to action, hooking his arms around your trunk and doing his best to pleasure every inch of you he can. You stand there and let it happen, seeing how he handles pleasing you. The answer is, surprisingly well! He clearly knows how to treat a cock, though you doubt they’re anywhere near your size. His hands dart up and down your length, keeping the stimulation up as best he can. Now that it’s not flattening him, the hyrax seems much more willing to put his whole body in on the action. He pulls himself up and wraps his tits and legs around your mast, letting you feel his hard, squirting teats and erect cock jab into the underside of your member.\\n\\t\\t\\n\\t\\tOnce he’s in a nice rhythm, you start to thrust again, forcing him to now move with you in addition to everything else. He still takes it rather well. From the way he’s sniffing your [pc.cock], you can only assume he’s become <i>very</i> enamored with it, reinforced by the subtle vibration that can only be him purring. You don’t blame him, being in such a tumescent presence has a way of completely absorbing one’s attention. The transition from murderous marauder to willing sex toy was a little sudden, but you’re glad it happened! A cock of your caliber takes a dedicated slut to fully please, and this one is doing a pretty nice job.\\n\\t\\t\\n\\t\\tWhen you move your [pc.cockHead] in range of his face, the hyena man takes full advantage. He licks and kisses across the considerable surface, managing to cover a good amount in the few seconds you give him. His tits are almost completely lost in the whole equation, but he’s clearly enjoying using them. Whenever he gets an opportunity, he takes one of his hands off of you and uses it to mash one of his tits into your girth. Every time he does, you feel his cock strain harder, even through his pants.\\n\\t\\t\\n\\t\\tAfter a while, you feel his whole body shutter against your [pc.cock] and a new warm wet patch smearing against you. You chuckle a bit, but an ominous throb from your [pc.balls] reminds you that you aren’t far behind. Wanting to go out in style, you pin him under you again, sinking the hyrax slightly into the sand while you feel something burst within you. The hyena man is subjected to the throbbing of your cumvein as it transports your load up, out, and across the sandy dunes. Instead of being upset this time, though, you feel him purring even harder, clearly sated by the experience.\\n\\t]\\n\\t\\n\\tStanding up, you look down at the hyraxi man one last time, seeing the blissed-out man absent-mindedly groping his new, still-squirting tits while the wet patch in his pants grows even larger. He’s absolutely soaked in his own milk[var0| and your cum] and seems to be relishing that fact. As much as you’d love to keep taking advantage of him, you <i>do</i> have places to be! You get your gear back together and head off, leaving the hyrax to his fate. At least he’ll have something to drink.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00812608&gt;&gt;"
+  },
+  {
+    "key": "textify|The_mutated_hyrax_falls_to_his_knees_unable_to_continue_fightin|187131eaf6c8",
+    "original": "The mutated hyrax falls to his knees, unable to continue fighting [var0|in the face of the beating you’re giving him|in the face of his increasingly erect cock]. He huffs and growls before starting to paw at his body, ripping off the remainder of his clothes and bearing his full, nude form to you. The strange hyena man calms down after that, looking at you and panting in a strangely submissive way while his cock strains, drooling onto the ground. Clearly, he wants you to fuck him. <b>He’s also clearly brimming with some kind of taint that he’ll no doubt pass to you if you do.[var1| Not that it matters with how saturated in Taint your body is already!]</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00821938&gt;&gt;"
+  },
+  {
+    "key": "button|Take_Him|e6d07527e559",
+    "original": "Take Him",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00822717&gt;&gt; addButton(t++,\"Take Him\",(function(){return vaginaRouter(qs,enemy.cockVolume(0),1,0)}),\"Take Him\",\"Do your best to work with his massive cock.\")"
+  },
+  {
+    "key": "button.hover|Take_Him|e6d07527e559",
+    "original": "Take Him",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00822790&gt;&gt; addButton(t++,\"Take Him\",(function(){return vaginaRouter(qs,enemy.cockVolume(0),1,0)}),\"Take Him\",\"Do your best to work with his massive cock.\")"
+  },
+  {
+    "key": "button.tooltip|Do_your_best_to_work_with_his_massive_cock|37b862297497",
+    "original": "Do your best to work with his massive cock.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00822801&gt;&gt; addButton(t++,\"Take Him\",(function(){return vaginaRouter(qs,enemy.cockVolume(0),1,0)}),\"Take Him\",\"Do your best to work with his massive cock.\")"
+  },
+  {
+    "key": "button|Leave|d5f1b1f70c20",
+    "original": "Leave",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00823187&gt;&gt; addButton(14,\"Leave\",(function(){xs(),output(textify(ks||(ks=(0,et.Z)([\"\\n\\tKnowing full well that there’s something <i>very</i> wrong with the mangy mutt of a man and that fucking him is a one-way trip to void-knows how many diseases, you decide to leave well-enough alone and get out before more of..."
+  },
+  {
+    "key": "button.hover|Leave|d5f1b1f70c20",
+    "original": "Leave",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00823547&gt;&gt; addButton(14,\"Leave\",(function(){xs(),output(textify(ks||(ks=(0,et.Z)([\"\\n\\tKnowing full well that there’s something <i>very</i> wrong with the mangy mutt of a man and that fucking him is a one-way trip to void-knows how many diseases, you decide to leave well-enough alone and get out before more of..."
+  },
+  {
+    "key": "textify|One_look_at_his_massive_swinging_member_has_your_more_daring_sid|06d94f76d1ce",
+    "original": "One look at his massive swinging member has your more daring side jumping for joy at the possibilities. It’s a ridiculous, possibly dangerous prospect, but if you weren’t willing to take risks you wouldn’t be out here, would you? And with such a willing partner, there’s no better time to give it a go! He looks up at you wide-eyed as you approach, ears twitching and a soft purr humming out from his chest. Without thinking, you reach out and pet him, putting your [pc.hand] right between his ears. The surprisingly-docile hyena man leans into it, his eyelids drooping unevenly as he takes an odd amount of pleasure in what you’re doing.\\n\\nNot <i>quite</i> what you were expecting, but you’re not about to look a gift catboy in the mouth. You guide him back onto his cushy butt, letting his cock poke straight up in the air as you straddle him. [pc.cupRange DD\\n\\t|His massive cock lands between your [pc.breasts], softly throbbing in your cleavage and drooling out hefty dollops of pre. Almost without thinking, you grab your bust and start to move them up and down his length. He moans out loudly, a strand of drool leaking down his cheek while he watches you, transfixed by your tits as they bounce up and down his length. Copious pre squirts out of his tip and washes down onto your tits, coating them in his slick essence. It burns when it touches your [pc.skinFurScales], a feeling that quickly simmers into a warm, persistent tingle.\\n\\t|You grab his cock with both hands and pull it up to your mouth. It’s already leaking like crazy, sending a potent musk straight into your [pc.nose]. It burns slightly when it hits your nostrils, but you feel oddly enticed. Your tongue lolls out by itself, slithering around the thin tip of the hyena man’s glans and scooping up a hefty dollop of pre just as it leaves. The taste is incredibly strange, like delicious cream tinged with battery acid and yet it somehow comes together and works! You take his tip and about two inches of his seed-slicked rod, polishing off the caked-on cum while your throat tingles more and more at each passing drop.\\n]\\n\\nRather than sticking to that, you decide to move on, letting his dick go and climbing further onto the hyena man and slipping his huge cock into the crack of your [pc.ass] and putting yourself face-to-face with him. He looks you straight in the eyes, a giddy expression across his wide-eyed face while his tail slaps happily against the sand. His tongue lolls, drool flowing down it constantly. He’s clearly begging you to do it, but, as much as it pains you to deny such an adorable face, you’re going to keep him waiting just a bit longer. You press your booty into his length and start to grind up and down on it. Pre seed spills onto your back, tingling every nerve it touches and sending a pounding heat surging through your body.\\n\\nThe warmth pools in your crotch, making it even more tempting just to give in right now, but you have one last thing to do. With no small amount of effort, you ascend his pillar of a cock to its apex before sticking it right on your [pc.vagOrAss ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00823672&gt;&gt;"
+  },
+  {
+    "key": "textify|and_squatting_down_just_enough_that_the_tip_sinks_in_You_groa|bf32bdd9ffc6",
+    "original": "] and squatting down just enough that the tip sinks in. You groan when you feel his pre start to seep into your passage, slowly lubing it up for what’s about to come. The oversized hyrax whimpers at your teasing but remains surprisingly pliant and restrained.\\n\\nYour muscles twitch as you continue to get lubed, feeling the steaming hot, tingly liquid seep further and further inside you. The tingling heat radiating from his tainted seed spreads up to your head, numbing you to the increasing instability in your [pc.legs]. Before you know it, you’re falling, taking several inches of hyena cock in one rapid motion. You and the hyena man cry out in unison at the sudden penetration. As surprising as it is, you can’t say you’re not enjoying it! The massive pillar of man meat slides through you with shocking ease, aided by the double helping of lube you’ve built up. [var0]\\n\\nIt isn’t long before he manages to bottom out, the outline of his cock proudly bulging in your stomach. The hyrax lightly grips your [pc.hips] but does nothing more, waiting for you to give the go-ahead. While you’re too stunned to speak, your moans of mindless pleasure and struggling attempts to bring yourself back up his pole tell him everything he needs to know. The mutated hyena man lifts you up with surprising strength, bringing you back up halfway before dropping you down again. You scream for more and he answers, taking you up and down slowly at first and only ramping up when your demands for pleasure outpace him.[pc.hasCock\\n\\t| Your [pc.cocks][pc.hasBalls\\n\\t\\t| and [pc.balls]\\n\\t] bounce[s\\n\\t\\t|s\\n\\t] on his chest while you fuck, slamming against his ribs with an audible ‘thwack’! Despite the heavy impacts, neither of you registers the pain, just the raw pleasure of your crotches slamming together.\\n]\\n\\nHis already-copious pre becomes even thicker and starts coming out much faster as you continue to copulate. The insidious liquid seeps into you more and more, spreading through you from inside and out. You don’t feel the heat anymore, but only because your whole body is so hot that you feel like you’re melting! The vibrations, on the other hand, continue to intensify, coalescing into a pleasant, ever-worsening ‘hum’ that keeps your body nice and loose to handle him while your brain shakes itself empty, leaving plenty of room in both for giant hyena cock!\\n\\nDespite your lust-addled state, the mutated hyena man still remains under your command, not even seeming to entertain rebelling against you. He’s still beaming up at you with wide, almost worshiping eyes, only moving when you ask him to. He moans and yips the whole time, clearly enjoying it in spite of his powerlessness in the situation. Not quite the kind of guy you’d peg for being a bottom, but you’re not about to complain!\\n\\nOne good thrust hits you in just the right spot and sets you off. [pc.vagAss\\n\\t|Your [pc.pussy] squirts around the invading rod as every muscle in your crotch squeezes down to try and milk it for the virile bounty sitting just inside his sizable sack.\\n\\t|You feel your [pc.anus] ripple around the hyena man’s tapered rod, squeezing it for everything it’s worth as your muscles work their... or, well, your butt off to use up every bit of energy they have!\\n][pc.hasCock\\n\\t| Your [pc.cocks] also go[pc.hasCocks 2\\n\\t\\t|\\n\\t\\t|es\\n\\t] off, [pc.cumSNVH\\n\\t\\t|splattering\\n\\t\\t|splashing\\n\\t\\t|blasting\\n\\t\\t|blasting\\n\\t] your [pc.cum] all over the hyena man’s face while he holds back from joining you.\\n]\\n\\nYou stop for a moment just to stew in the pleasure, feeling his delightfully sinful pre still squirting freely into your [pc.vagOrAss ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00826762&gt;&gt;"
+  },
+  {
+    "key": "textify|You_reach_back_and_squeeze_his_fat_balls_hearing_him_squeal|b0f5ed9089a7",
+    "original": "]. You reach back and squeeze his fat balls, hearing him squeal and feeling just how full his oversized orbs are. He’s going to cum, but the question now is, where are you going to let him?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00830416&gt;&gt;"
+  },
+  {
+    "key": "button|In_You|33e2bc5cb5da",
+    "original": "In You",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00830745&gt;&gt; addButton(t++,\"In You\",(function(){xs(!0),output(textify(Ts||(Ts=(0,et.Z)([\"\\n\\tYou start riding again, bouncing on his crotch slowly while his expression twists in pleasure. He’s trying desperately to hold back, most likely because you haven’t told him he can cum yet. You grin as you watch him, kno..."
+  },
+  {
+    "key": "button.hover|In_You|33e2bc5cb5da",
+    "original": "In You",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00832734&gt;&gt; addButton(t++,\"In You\",(function(){xs(!0),output(textify(Ts||(Ts=(0,et.Z)([\"\\n\\tYou start riding again, bouncing on his crotch slowly while his expression twists in pleasure. He’s trying desperately to hold back, most likely because you haven’t told him he can cum yet. You grin as you watch him, kno..."
+  },
+  {
+    "key": "button|Himself|934ba80f3c39",
+    "original": "Himself",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00832761&gt;&gt; addButton(t++,\"Himself\",(function(){xs(!0),output(textify(As||(As=(0,et.Z)([\"\\n\\tYou drag yourself up and off his cock, making him whimper in a mix of disappointment and relief until you pop off and immediately put your lean forward and down on it, pressing it down between your body and his chest. H..."
+  },
+  {
+    "key": "button.hover|Himself|934ba80f3c39",
+    "original": "Himself",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00834547&gt;&gt; addButton(t++,\"Himself\",(function(){xs(!0),output(textify(As||(As=(0,et.Z)([\"\\n\\tYou drag yourself up and off his cock, making him whimper in a mix of disappointment and relief until you pop off and immediately put your lean forward and down on it, pressing it down between your body and his chest. H..."
+  },
+  {
+    "key": "textify|You_circle_around_the_hyena_man_taking_in_every_one_of_his_surp|048de27d69be",
+    "original": "You circle around the hyena man, taking in every one of his surprisingly ample curves and focusing on his round, cushy ass. He tracks you as you do, shaking his fat booty and wagging his tail when he sees you staring. Well, if he’s into it too, you suppose that settles it! You grab his bountiful cheeks and start working them over, watching your hands sink deep into the soft, pliable flesh. Your [pc.cocks] grow[s\\n\\t|s\\n] hard at the anticipation[pc.hasLowerGarment\\n\\t| as you discard your offending garments\\n], drawing the gaze of the submissive raider[pc.cockSNVH\\n\\t|\\n\\t|\\n\\t|\\n\\t|, and making his mouth water from the sheer size you have on display\\n].\\n\\nHe leans back to give you a better angle, bouncing his cheeks in your grip at the same time. You give one of them a hefty slap, hearing the meaty ‘slap’ of the impact and watching the pounded booty jiggle rapidly in response. The hyena man lets out a husky growl of approval, clearly loving the rough treatment. Not one to deny a man his kinks, you strike him again on the other cheek before switching back, giving both a good tenderizing until they’re a nice shade of red.\\n\\nAfter you’re done with that, you slap your [pc.cock] right in the crack of his ass[pc.hasCocks 2\\n\\t| and your other[pc.hasCocks 3\\n\\t\\t|s\\n\\t] on his reddened cheek[pc.hasCocks 3\\n\\t\\t|s\\n\\t]\\n]. You ram your rod through the canyon of his bountiful booty, reveling in the warm embrace of his heated cheeks. The beating you gave them earlier ensures that they’re nice and toasty for you! The hyraxi’s own cock is hard as a rock and throbbing, clearly just as excited as yours is. You move your hands in and spread his booty hole, feeling it part shockingly easily. The hyena man groans at the attention, his tail swinging wildly and his legs twitching in anticipation. \\n\\nYou pull back and press your [pc.cockHead] against his pliant pucker, feeling it sink in almost immediately. Looks like you won’t be needing any lube! [var0\\n\\t|You sink in very easily, hitting right up to the hilt in a single thrust, ending with a rippling slap against his booty. Despite his immense capacity, his muscles are still able to squeeze down until his rear passage is as tight as a virgin’s yet still able to let you out as needed. You take full advantage of his well-trained hole, pounding in and out with wild abandon, sending his fat cheeks bouncing wildly with every crotch-crushing impact. You grab onto the jiggling globes and hold on tight, feeling them move like bowls of gelatin in your grip.\\n\\t|Even in the face of your sheer tumescence, the hyena man’s stretchy hole yields almost perfectly, parting like a silk curtain around your massive girth. You weren’t expecting such an accommodating partner, but you’re never going to complain when you get one! No matter how stretchy he is, it’s still a hard task to build up momentum with just how much meat you have to move. Your first thrusts are sluggish and deliberate, keeping yourself steady while you build up speed. Thanks to the hyena man’s sheer flexibility that’s not a problem at all and you manage to reach a fast pace very quickly.\\n] The oversized gnoll man grunts, huffs, and moans, clearly enjoying the copulation. His hands reach down and grab at his own straining cock and he starts jerking himself off in time with your thrusts. [var1]\\n\\n[pc.hasCocks 2\\n\\t|Your other member[pc.hasCocks 3\\n\\t\\t|s\\n\\t] slap[pc.hasCocks 3\\n\\t\\t|\\n\\t\\t|s\\n\\t] against his wide thighs, not able to enjoy the same pleasure as [pc.hasCocks 3\\n\\t\\t|their\\n\\t\\t|its\\n\\t] brother but not having a bad time either. \\n]While you’re railing him, you notice that your member is getting strangely warm and tingly. You can tell it’s not just the increasing pace of your coitus either, it just feels... <i>unnatural</i>. Fucking hyena booty takes priority over such small things, of course, and as your crotch crashing goes on, it takes up more and more of your thoughts.\\n\\nThe hyena man continues to mindlessly groan, drool, and pleasure himself, completely lost in a cloud of unthinking lust. As easy as it is to mock the mindless mutant, you feel yourself slowly moving to the same place. It’s harder and harder to focus on anything other than the bouncing boy butt in front of you and just how good it feels to sink your [pc.cock] as deep into it as you can[pc.hasCocks 2\\n\\t| while your other member[pc.hasCocks 3\\n\\t\\t|s\\n\\t] enjoy[pc.hasCocks 3\\n\\t\\t|\\n\\t\\t|s\\n\\t] bouncing on the plush flesh his rear provides\\n]. That strange warmth from earlier does spring back to mind for a moment, though. Not only has the sensation in your crotch gotten worse, it’s spread through the rest of your body, tingling in your fingertips while they sink into the hyraxi’s dusky booty flesh and softly vibrating your head. But is any of that as important as how good your cock feels right now? Void no! You shove those thoughts and worries out of your head and go back to focusing on what’s really important.\\n\\n[var0\\n\\t|The hyena man continues to take you like a champ, never skipping a beat despite your breakneck pace. You’re in a far worse state than he is, sweating buckets and gasping in exhaustion as you put every ounce of energy you have into railing the raider’s rear. He, on the other hand, just has to sit there, take it, and jerk off. You were the one who won here, weren’t you?\\n\\t|While the hyraxi’s rear is more than accommodating for your [pc.cock], the rest of him is struggling to keep up. Your immense member visibly distends his stomach with each thrust, a good reminder just how massive you are and how stretchy the hyena man is. He tries desperately not to buckle after each heavy thrust, barely keeping his footing. In spite of it, he’s still moaning like a whore and jerking himself off even harder than when you started, so he’s clearly enjoying it!\\n] The gnoll man howls when one good thrust finally sends him over the edge. He unloads into the hot sand below him, splattering a thick, white blanket over the dry ground.\\n\\n[pc.cumSNVH\\n\\t|While you can’t possibly match him in output, your body seems hell-bent on trying! Your internal muscles clench, forcing out as much seed as your [pc.balls] can possibly produce and trying to squeeze out even more after that!\\n\\t|While you can’t possibly match him in output, your body seems hell-bent on trying! Your internal muscles clench, forcing out as much seed as your [pc.balls] can possibly produce and trying to squeeze out even more after that!\\n\\t|The sheer volume of seed that the hyrax is able to put out stirs up a feeling of jealousy in your [pc.balls] as you start to unload. You absolutely stuff the hyena man, swelling his stomach out until he looks like he’s carrying twins! The stimulation from that only adds to his own orgasm, prolonging it and increasing the volume of the last few streams.\\n\\t|The sheer volume of seed that the hyrax is able to put out stirs up a feeling of jealousy in your [pc.balls] as you start to unload. You absolutely stuff the hyena man, swelling his stomach out until he looks like he’s carrying twins! The stimulation from that only adds to his own orgasm, prolonging it and increasing the volume of the last few streams.\\n]\\n\\nWith the both of you spent, you push the bulky hyena man forward, watching him awkwardly tumble into a pool of his own cum. He revels in the degeneracy, rolling around in it and smearing himself from top to bottom while you silently gather your things and leave him to... whatever he’s doing. Even as you get further away, though, that warm, tingling feeling remains, seeping deep into your bones and merging into your cells. That’s probably not great.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00834617&gt;&gt;"
+  },
+  {
+    "key": "textify|You_almost_feel_the_hyena_man_s_gaze_on_your_pc_cockBiggest|47ac7d7c81ac",
+    "original": "You almost feel the hyena man’s gaze on your [pc.cockBiggest], [pc.isCrotchGarbed\\n\\t|starring a hole through your [pc.lowerGarments]\\n\\t|taking a good look at your brazenly exposed member\\n]. You run a hand down your considerable length and watch him follow along, shuttering and drooling. Clearly, he’s a [pc.isBimbo\\n\\t|con...conno...conny... guy who really likes\\n\\t|connoisseur of\\n] big dicks! Truly a man after your own heart, and one who you think you could have a lot of fun with.[pc.isCrotchGarbed\\n\\t| You slowly pull off whatever you have covering your massive member, slowly unveiling the mountain of meat you have tantalizingly hidden.\\n] You approach the man, your cock stiffening to half-mast by the time you get over to him. He’s still focused entirely on it, watching with wide eyes as it hoists its own massive bulk.\\n\\n<i>“Hey,”</i> you say while snapping your fingers to get his attention. The hyena man’s face darts up to look you in the eye. <i>“Quit staring and start getting me ready. We’re going to have some fun!”</i>\\n\\nThe hyrax nods and immediately grabs your [pc.cock]. His big puffy paws are perfectly suited to the task, able to grab around most of your impressive girth. You moan at his ministrations, his hands starting to move at a brisk pace to cover your many inches in as little time as possible. His experience with his own cock shines through perfectly and he knows exactly how to treat a big, fat cock![pc.hasBalls\\n\\t| He even finds time to reach down and fondle your [pc.balls], his warm paws jostling and heating your sperm factories beautifully.\\n] It only takes a few moments for you to get to full mast under this kind of treatment.\\n\\nThe mutated gnoll almost instinctively starts licking at your fully-erect schlong, his sand-papery tongue leaving a trail of warm, tingly spit across your girth. It feels <i>good</i> and there’s no doubt in your mind that he could get you off just with his mouth, but that’s not quite what you were looking for. You push him away, feeling the saliva-soaked skin throb even after he’s gone. The hyena man looks up at you expectantly, wondering what you’ll have him do next. The answer is nothing, at least for now. You take charge and push the gnoll onto his butt, letting his massive cock point straight up into the air. You lean down into him, pressing your own [pc.cock] against his and starting to grind the two rods together.\\n\\nBoth of you groan at the feeling of your cocks grinding together. The sheer mass between the two of you generates an almost unbearable amount of heat almost immediately. You start thrusting against him, dragging well over a dozen inches of hot, throbbing cock against each other in mind-numbing pleasure. The hyena man starts thrusting his hips in opposite rhythm to yours, moving up just as you come down. It’s not something you asked him to do, but you’re not about to complain about the results![pc.hasBalls\\n\\t| Your [pc.balls] slap against his each time they pass, the seed-stuffed orbs throbbing in synchronized pleasure when they touch.\\n] Pre drools out of his tip[pc.cumSNVH\\n\\t|\\n\\t|\\n\\t| and yours\\n\\t| and yours\\n], smearing both of your lengths in a thick, musky sheen. You put your hands as far around your mashed schlongs as you can, unable to fully encircle the twined massive girths.\\n\\nYou and the hyena man continue to groan and thrust faster and faster, building the pleasure higher and higher. You could let it end here, but you have one last idea. The hyena man mewls in disappointment when you pull away, only to go quiet when you turn around and thrust your [pc.ass] into his face. You continue to push until he gets the hint and lays flat on the ground. He gasps when you shove your [pc.cock] in his face while grabbing his own massive dick and bringing it up to your [pc.lips]. It only takes him a second to see what you want him to do and act on it, shoving his welcoming maw onto your length and sucking it down.\\n\\nYou play with his a bit before diving in, jerking it slowly from top to bottom and feeling the massive veins across his length throbbing in pleasure. Pre is still squirting out of his cumslit at an alarming rate, some squirts even shooting up to a foot in the air. Your fingers tingle as more of his tainted seed washes over them. While you’re going slow, the hyrax is busy choking on your [pc.cock], ramming it as deep into his own throat as he possibly can. It’s impossible to resist doing the same. Pleasure in addition to whatever tainted chemicals are seeping into you through his cum are slowly shutting down any part of your brain that doesn’t have something to do with sucking cock!\\n\\n[pc.hasSnakeByte\\n\\t|Despite his immense size, your stretchy maw has no issue getting it down, sucking in several inches at once.\\n\\t|His sheer size is intimidating, but his tapered head makes it much easier, almost too easy. Before you know it, you’ve taken several inches down your throat!\\n] You feel the gnoll man shutter beneath you, clearly enjoying the stimulation. You feel another sensation on your [pc.cock], a vibration that’s far more pronounced than the tingling feeling seeping in from his cum and spit. He’s purring onto your cock! At the same time, you feel his hands grab your [pc.hips], bracing himself as he starts to deepthroat you even harder.\\n\\nHis enthusiasm is infectious, making you, knowingly or not, take him faster as well. [pc.hasSnakeByte\\n\\t|With how easily you take him, it’s easy to lose track of just how much you’re taking. By the time you come up for a breath and take measure again, you realize you’re more than halfway down!\\n\\t|It’s a struggle, but sheer determination fuels your journey down. Several choking, cock-sucking moments pass before you have to fully resurface, looking down at your progress, measured in the spit mark left behind. Void, you got at least halfway down!\\n] Taking a deep breath, you dive back down and get greeted by a massive squirt of pre shooting straight down your wide-open gullet. He’s obviously getting close, and so are you, for that matter.\\n\\nThe wet sounds of cocks mashing repeatedly in and out of mouths echos across the dry desert dunes. If there were anyone around for miles, there’d be almost nothing stopping them from watching the entire display. A strange outsider and a mutated hyena man cramming mountains of cock meat into their impossibly-stretched maws over and over again, utterly lost in each other’s bodies. As you’re pondering that, you feel a sudden surge of fluid shoot into your gut; he’s cumming! Tainted seed floods down your throat, stuffing your belly with the sinful treat until it starts swelling out. At the same time, you feel him moaning and groaning around your member, slamming it as far down his gullet as possible and holding it there, almost demanding that you cum with him.\\n\\n[pc.cumSNVH\\n\\t|He almost sucks the cum clean out of you, making you fire it into his stomach at an almost painful rate with no end in sight. Even long after you’ve run dry, his throat still squeezes down, hungry for far more than you have to offer.\\n\\t|He almost sucks the cum clean out of you, making you fire it into his stomach at an almost painful rate with no end in sight. Even long after you’ve run dry, his throat still squeezes down, hungry for far more than you have to offer.\\n\\t|You give him everything he wants and more, blasting seed down into him at the same rate he’s doing it to you. By the time it’s all done, both of you look like blimps and your swollen bellies are rubbing awkwardly against each other.\\n\\t|You give him everything he wants and more, blasting seed down into him at the same rate he’s doing it to you. By the time it’s all done, both of you look like blimps and your swollen bellies are rubbing awkwardly against each other.\\n]\\n\\nYou roll off of him, hearing your belly gurgle and feeling it tingle pleasantly.[var0\\n\\t|\\n\\t| Your Codex beeps at you, telling you that it’s detected a large influx of Taint in your system. You silence the noisy notification, considering how plainly obvious that little fact is\\n] The hyrax lays where he is, totally sated, even though his cock is still mostly erect. Clearly, he’s going to be fine, or at least as fine as he usually would be. You grab your gear and set off, leaving the weird not-so-little mutant to stew.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00842563&gt;&gt;"
+  },
+  {
+    "key": "textify|As_you_cross_the_wasteland_you_catch_the_sound_of_a_running_eng|930180c1f9a3",
+    "original": "As you cross the wasteland, you catch the sound of a running engine on the wind. Looking in the direction of the noise, you see a cloud of smoke kicking up in the distance. You pull out your [pc.rangedWeapon] and try to hit him but can’t connect. As it gets closer, you make out the distinct shape of a jet bike rushing at you with a hyraxi barbarian riding on it. <b>This one’s different</b>, though, more fearsome-looking with glowing eyes, long fangs coated in lightly glowing drool, and thick, powerful legs.\\n\\nThe tainted man stands up on his bike, showing off his massive, bulging package as he closes in, shouting and gesturing like a maniac. The feral man leaps from his bike, sending it tumbling towards you! You dive out of the way, getting back to your feet just as he lands, looking at you and snarling before drawing his axe.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00851648&gt;&gt;"
+  },
+  {
+    "key": "button|Fight|ad576f8e1b13",
+    "original": "Fight!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00852572&gt;&gt; addButton(0,\"Fight!\",Rs,\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|ad576f8e1b13",
+    "original": "Fight!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00852584&gt;&gt; addButton(0,\"Fight!\",Rs,\"Fight!\",\"\")"
+  }
+]

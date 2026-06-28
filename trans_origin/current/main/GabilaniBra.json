@@ -1,0 +1,499 @@
+[
+  {
+    "key": "combat|You_manage_to_dodge_and_the_bot_spins_a_full_circle_on_its_heel|0a8caaeacca0",
+    "original": "You manage to dodge, and the bot spins a full circle on its heel, then stands ready to strike again.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33092464&gt;&gt;"
+  },
+  {
+    "key": "combat|The_strike_lands_hard_knocking_you_to_the_ground|9df8c3e3da88",
+    "original": "The strike lands hard, knocking you to the ground.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33092582&gt;&gt;"
+  },
+  {
+    "key": "combat|b_You_re_prone_tripped_b|33a6a09b5355",
+    "original": " <b>You’re prone (tripped)!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33092796&gt;&gt;"
+  },
+  {
+    "key": "button|Start|f275dc62d4b4",
+    "original": "Start",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33116417&gt;&gt; addButton(0,\"Start\",(function(){return window.showRotateMinigame(e)}),\"Start\",\"\")"
+  },
+  {
+    "key": "button|Video|855e2ae8063f",
+    "original": "Video",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33144343&gt;&gt; addButton(e++,\"Video\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(Eme||(Eme=(0,Ce.Z)([\"\\n\\t\\tThe video blinks to life, and you see [flags.MASTODON_CAPTAIN_LOG\\n\\t\\t\\t|Redd, the rahn woman from the earlier video standing in front of a motley crew of fellow spacers.\\n\\t\\t\\t|a red rah..."
+  },
+  {
+    "key": "button|Hack_Door|f00f0dd67eaf",
+    "original": "Hack Door",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33167715&gt;&gt; addButton(e++,\"Hack Door\",ife,\"Hack Door\",\"\")"
+  },
+  {
+    "key": "button.hover|Start|f275dc62d4b4",
+    "original": "Start",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33116475&gt;&gt; addButton(0,\"Start\",(function(){return window.showRotateMinigame(e)}),\"Start\",\"\")"
+  },
+  {
+    "key": "button.hover|Video|855e2ae8063f",
+    "original": "Video",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33149512&gt;&gt; addButton(e++,\"Video\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(Eme||(Eme=(0,Ce.Z)([\"\\n\\t\\tThe video blinks to life, and you see [flags.MASTODON_CAPTAIN_LOG\\n\\t\\t\\t|Redd, the rahn woman from the earlier video standing in front of a motley crew of fellow spacers.\\n\\t\\t\\t|a red rah..."
+  },
+  {
+    "key": "button.hover|Hack_Door|f00f0dd67eaf",
+    "original": "Hack Door",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33167731&gt;&gt; addButton(e++,\"Hack Door\",ife,\"Hack Door\",\"\")"
+  },
+  {
+    "key": "textify|t_var0_n_t_t_A_patroller_drone_turns_to_face_you_as_you_enter_t|ae79edd01228",
+    "original": "\\t[var0\\n\\t\\t|A patroller drone turns to face you as you enter the area. It’s clearly made for combat, but also looks like some kind of military sexbot, complete with an arm cannon and a heavy staff. The weapons are a strange contrast with the heavy capacitor globes on the bot’s armored chest and its wide, rounded metal hips.\\n\\t\\t\\n\\t\\tThe combat patroller advances toward you, blaring a threat from its vocal unit. <i>“REMAINING CREW DETECTED. DESTROY ALL REMAINING CREW.”</i>\\n\\t\\t|Two patroller drones turn to face you as you enter the area. They’re clearly made for combat, but also look like some kind of military sexbots, complete with arm cannons and heavy staffs. The weapons are a strange contrast with the heavy capacitor globes on the bots’ armored chests and their wide, rounded metal hips.\\n\\t\\t\\n\\t\\tThe combat patrollers advance toward you, blaring a threat from their vocal units. <i>“REMAINING CREW DETECTED. DESTROY ALL REMAINING CREW.”</i>\\n\\t]\\n\\t\\n\\t<b>It’s a fight!</b>\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33109618&gt;&gt;"
+  },
+  {
+    "key": "button|Fight|89cad3ecd534",
+    "original": "Fight!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33112568&gt;&gt; addButton(0,\"Fight!\",(function(){return E.V.beginCombat()}),\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|89cad3ecd534",
+    "original": "Fight!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33112616&gt;&gt; addButton(0,\"Fight!\",(function(){return E.V.beginCombat()}),\"Fight!\",\"\")"
+  },
+  {
+    "key": "textify|tThe_patrol_bot_stumbles_back_from_your_strike_sparks_flying_f|92ea3e706f3e",
+    "original": "\\tThe patrol bot stumbles back from your strike, sparks flying from its joints. It staggers back and forth, then topples, narrow heels snapping as it loses its balance. One armored hip bounces against the metal floor, and the bot’s head hits next, making a loud crack as it strikes the deck. A few static-distorted words spill from the bot’s speaker, and a puff of smoke billows out of the neck before it goes still.\\n\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33112719&gt;&gt;"
+  },
+  {
+    "key": "header|Game_Over|5aca7fce272d",
+    "original": "Game Over",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33113669&gt;&gt;"
+  },
+  {
+    "key": "textify|tYou_crumple_to_the_ground_unable_to_keep_fighting_The_patrol|09b82de7e8c8",
+    "original": "\\tYou crumple to the ground, unable to keep fighting. The patrol bot that brought you down approaches, and tilts its head down at you, the lenses above its barely-featured face flickering in the Mastodon’s lights.\\n\\t\\n\\tThe bot takes only a moment to raise its cannon and point it directly at your face. A bright white light ignites in the cannon’s depths.\\n\\t\\n\\tThe bot booms, <i>“REMAINING CREW DETECTED. DESTROY ALL REMAINING CREW.”</i>\\n\\t\\n\\tThe white glow of the cannon is the last thing you see.\\n\\t\\n\\t<b>GAME OVER</b>\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33113720&gt;&gt;"
+  },
+  {
+    "key": "textify|tYou_prepare_your_tools_and_prepare_to_hack_the_door_open_Secu|1128fee8a603",
+    "original": "\\tYou prepare your tools and prepare to hack the door open. Security on this ship hasn’t been much so far, so hopefully this won’t be difficult.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33114356&gt;&gt;"
+  },
+  {
+    "key": "textify|t_t_tThe_door_slides_open_showing_a_steel_walled_hallway_leadi|2ebd3cea8912",
+    "original": "\\t\\t\\tThe door slides open, showing a steel-walled hallway leading into the front part of the ship. You put away your tools and prepare to move on.\\n\\t\\t\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33114612&gt;&gt;"
+  },
+  {
+    "key": "button|Next|9a7ac2cb7123",
+    "original": "Next",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33114811&gt;&gt; addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "button.hover|Next|9a7ac2cb7123",
+    "original": "Next",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33114831&gt;&gt; addButton(0,\"Next\",mainGameMenu,\"Next\",\"\")"
+  },
+  {
+    "key": "textify|tAs_soon_as_you_re_back_on_your_ship_you_head_for_the_cockpit|f6860eb27e9a",
+    "original": "\\tAs soon as you’re back on your ship, you head for the cockpit and put in a call to Steele Tech’s recovery department. There’s no point in risking damaging the Mastodon further by trying to tow it yourself, and if something happens to your ship on the way back to Dhaal, it’ll be in even more trouble.\\n\\t\\n\\tYour call connects almost immediately; one of the privileges of being heir to the company, you suppose. The person who pops up on your screen looks like a male human — he’s tall, with a very prominent nose and a thick beard that matches his light brown hair. Only his grayish skin suggests some mild modding in his past. His expression makes him look like the type who’s always ready with a friendly joke.\\n\\t\\n\\t<i>“Hey there, this is Steele Tech recovery, how can I—”</i> The man’s warm, mellow voice cuts off as he realizes who he’s talking to. He blinks once. <i>“Well damn, it’s the boss,”</i> he says, then elbows someone off-screen. <i>“Hey, Yalc, look who just popped up.”</i>\\n\\t\\n\\tAnother man leans over from next to the first one, this one with pink hair done in a side-shaved cut and long, goat-like ears. He looks at you and kind of chuckles, then leans back to whatever he was doing.\\n\\t\\n\\tThe man who answered your call continues. <i>“Anyway, hi there, [pc.mr] Steele, good to see you. My name’s Tamup Los. How can the recovery crew help you out today?”</i> \\n\\t\\n\\tYou tell Tamup that you need a towing ship at your coordinates, with something big enough to haul a cargo vessel. He nods as you send him the details, and asks a few questions about the other ship’s condition and whether or not you need an armed escort to go along with it.\\n\\t\\n\\t<i>“Got that, and I think I can get a team to your location in a few hours,”</i> Tamup Los says after taking down your info. <i>“Where you headed with that thing?”</i> \\n\\t\\n\\tYou tell him you’re returning the ship to Dhaal, as it belongs to some... friends of yours.\\n\\t\\n\\t<i>“Dhaal, eh?”</i> Tamup types in some more info, then rolls his wide shoulders. <i>“I heard some crazy stuff about that place. Is it true the native species is all girls, but they’ve got their parts in their tails?”</i>\\n\\t\\n\\tYou explain the Dhaal natives to Tamup, and he takes it all in without changing his amused expression at all. <i>“Wow. I’ve heard some stuff about the Rush, I tell you what, but that’s a new one on me.”</i> He laughs a little, shaking his head. <i>“All right, [pc.mr] Steele, I’ve got a crew heading in your direction. Just sit tight and they should be there soon as the warp gate can get them through. I’ll reach out once I’ve got information about where you can park the thing on Dhaal. Anything else I can do for you today?”</i>\\n\\t\\n\\tYou tell Tamup that’s all you need for now.\\n\\t\\n\\t<i>“All righty,”</i> Tamup says with a friendly smile. <i>“You stay safe out there.”</i>\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33116574&gt;&gt;"
+  },
+  {
+    "key": "button|Next|081a902da8d8",
+    "original": "Next",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33119486&gt;&gt; addButton(e++,\"Next\",(function(){clearAll(),author(\"Slab Bulkhead\"),showBust(\"KIKI\",\"JOSIE\",\"KARRAH\"),output(textify(Xme||(Xme=(0,Ce.Z)([\"\\n\\t\\tYou head into the Dhaal spaceport with the Mastodon and the towing crew behind you. Tamup Los calls you again once you’re through the warp gate, and gives y..."
+  },
+  {
+    "key": "button.hover|Next|081a902da8d8",
+    "original": "Next",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33129556&gt;&gt; addButton(e++,\"Next\",(function(){clearAll(),author(\"Slab Bulkhead\"),showBust(\"KIKI\",\"JOSIE\",\"KARRAH\"),output(textify(Xme||(Xme=(0,Ce.Z)([\"\\n\\t\\tYou head into the Dhaal spaceport with the Mastodon and the towing crew behind you. Tamup Los calls you again once you’re through the warp gate, and gives y..."
+  },
+  {
+    "key": "textify|t_flags_MASTODON_VISITED_n_t_t_You_decide_to_seek_out_the_Masto|2cfbc6d17c73",
+    "original": "\\t[flags.MASTODON_VISITED\\n\\t\\t|You decide to seek out the Mastodon again. After you reach the jump gate, it’s another long journey to the empty part of space where the ship drifts.\\n\\t\\t|You enter the coordinates Monika gave you, and your computer gives you a heading. It looks like Redd’s ship was on a route in between jump gates, so it’ll take some time to reach it.\\n\\t]\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33130181&gt;&gt;"
+  },
+  {
+    "key": "button|Next|80ba13df2146",
+    "original": "Next",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33130606&gt;&gt; addButton(e++,\"Next\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(mme||(mme=(0,Ce.Z)([\"\\n\\t\\t[flags.MASTODON_VISITED\\n\\t\\t\\t|The Mastodon floats through space, and there’s no sign anyone else has been here. Debris clouds hover around the darkened thrusters, and lights still flicker ..."
+  },
+  {
+    "key": "button.hover|Next|80ba13df2146",
+    "original": "Next",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33133576&gt;&gt; addButton(e++,\"Next\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(mme||(mme=(0,Ce.Z)([\"\\n\\t\\t[flags.MASTODON_VISITED\\n\\t\\t\\t|The Mastodon floats through space, and there’s no sign anyone else has been here. Debris clouds hover around the darkened thrusters, and lights still flicker ..."
+  },
+  {
+    "key": "textify|tThe_Mastodon_s_starboard_airlock_entry_is_simple_and_utilitari|437d5d5dc796",
+    "original": "\\tThe Mastodon’s starboard airlock entry is simple and utilitarian, just a basic open area for receiving people. All around you are steel walls and scuffed floors, marking the ship as a fairly standard cargo hauler, and one that’s seen a lot of use. The ceiling is a good twenty feet high, providing plenty of room for cargo. Running lights shine along the floor, directions to the different areas of the ship are marked on the walls, and black marks from blaster fire scar the walls and floor.\\n\\t\\n\\tThe airlock itself stands open, leading back to your ship. \\n\\t\\n\\tA video screen next to the entrance is still functional. It’s playing a video on repeat, with a rahn woman speaking. You can watch it if you want.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33133754&gt;&gt;"
+  },
+  {
+    "key": "button|Video|9fca9c1cdc4e",
+    "original": "Video",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33134510&gt;&gt; addButton(e++,\"Video\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(kme||(kme=(0,Ce.Z)([\"\\n\\t\\tThe video flickers as it starts, then focuses on a red rahn woman. She’s tall and has a strong, sturdy figure, with modest curves and a stern face. Her ponytail is done in long spikes, and ..."
+  },
+  {
+    "key": "button.hover|Video|9fca9c1cdc4e",
+    "original": "Video",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33139173&gt;&gt; addButton(e++,\"Video\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(kme||(kme=(0,Ce.Z)([\"\\n\\t\\tThe video flickers as it starts, then focuses on a red rahn woman. She’s tall and has a strong, sturdy figure, with modest curves and a stern face. Her ponytail is done in long spikes, and ..."
+  },
+  {
+    "key": "textify|tThe_Mastodon_s_cockpit_is_built_for_efficiency_not_comfort_a|b1f381dbbc34",
+    "original": "\\tThe Mastodon’s cockpit is built for efficiency, not comfort, and it’s no bigger than it needs to be. Three giant view screens take up most of the plain metal walls on the front part, showing the endless starfield outside. Two seats side by side, one for the pilot and one for the navigator, take up most of the rest of the space. The seats have clearly seen some wear, and one has strips of sealing tape holding the back of it together.\\n\\t\\n\\tCommunication panels sit to the side of both chairs, and weapon controls are built into both consoles. It looks like the ship was made to have two people flying it, but it’s doable with one.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33139297&gt;&gt;"
+  },
+  {
+    "key": "textify|tThis_is_the_ship_s_bridge_Computer_screens_show_the_Mastodon|b24a767ac59f",
+    "original": "\\tThis is the ship’s bridge. Computer screens show the Mastodon’s schematics and list off any issues. They’re currently warning of the non-functional thrusters, along with multiple damage reports caused by the battles that took place on the ship. Other monitors display security camera feeds for the cargo bay and engine rooms, allowing the crew to keep track of the rear half of the ship from the front. Most of those screens are black or showing only flickering, distorted images. Several large chairs sit before the screens.\\n\\t\\n\\tThe remains of the munitions bot lie in a smoking heap in the center of the room. Melted rubber from its tank treads pools around the wreckage, and the shielding and repair domes lay broken across the humanoid chest.\\n\\t\\n\\tWith the robot dead, you can access the ship’s schematics. It looks like the Mastodon has taken a fair amount of damage, but it’s not a total loss. You’ll need to call someone to tow it, as it’s no longer capable of flight, but there’s enough left that it can be repaired and become spaceworthy again.\\n\\t\\n\\tA single bright light blinks on one of the communication screens. You look closer, and see that a video is available — clearly an important one, if the bright red text reading “PLAY” is any indication.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33140053&gt;&gt;"
+  },
+  {
+    "key": "textify|tThree_heavily_armed_bots_patrol_the_bridge_of_the_Mastodon_Ea|0bff0833c954",
+    "original": "\\tThree heavily armed bots patrol the bridge of the Mastodon. Each robot consists of a humanoid upper-half with guns for arms--one a rapid firing minigun and the other a charged beam cannon--as well as two dome-shaped defensive units attached to the chest, all resting atop huge, moving rubberized tank treads.\\n\\n\\tTheir eye-shaped sensors flash a light of warning before they aim their hostile weaponry in your direction. You have no choice but to ready yourself.\\n\\n\\t<b>It’s a fight!</b>\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33141482&gt;&gt;"
+  },
+  {
+    "key": "textify|t_tYour_final_attack_breaks_something_vital_in_the_heavy_muniti|5485fb259de4",
+    "original": "\\t\\tYour final attack breaks something vital in the heavy munitions bot, and a blaze of sparks and lightning surges through its humanoid body. A fire starts somewhere within its lower half, spreading all through its mechanics and to the tank treads, which begin to melt. The humanoid body shakes itself to pieces, and falls apart all at once, the head spinning around until its neck snaps from the strain.\\n\\t\\t\\n\\t\\tFinally, the robot shudders and crumples to the ground, the lights across its torso and the glow from its beam cannon going dark. It settles into a heap of metal, broken and useless. It’s done. \\n\\t\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33142214&gt;&gt;"
+  },
+  {
+    "key": "header|Game_Over|90d7b4de205d",
+    "original": "Game Over",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33143611&gt;&gt;"
+  },
+  {
+    "key": "textify|t_tYou_crumple_to_the_ground_unable_to_keep_fighting_The_mons|3d33d131d201",
+    "original": "\\t\\tYou crumple to the ground, unable to keep fighting. The monstrous bot rolls toward you on its wide treads, and tilts its head down at you, the dual lenses of its sensors flickering in the Mastodon’s lights.\\n\\t\\t\\n\\t\\tThe robot takes only a moment to deploy its beam cannon and point it directly at your face. A bright blue light ignites in the cannon’s depths.\\n\\t\\t\\n\\t\\tThe bot booms, <i>“REMAINING CREW DETECTED. DESTROY ALL REMAINING CREW.”</i>\\n\\t\\t\\n\\t\\tThe blue glow of the cannon is the last thing you see.\\n\\t\\t\\n\\t\\t<b>GAME OVER</b>\\n\\t\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33143662&gt;&gt;"
+  },
+  {
+    "key": "button|Fight|97e37b28c54f",
+    "original": "Fight!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33144247&gt;&gt; addButton(0,\"Fight!\",(function(){return E.V.beginCombat()}),\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|97e37b28c54f",
+    "original": "Fight!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33144295&gt;&gt; addButton(0,\"Fight!\",(function(){return E.V.beginCombat()}),\"Fight!\",\"\")"
+  },
+  {
+    "key": "textify|tThis_is_the_ship_s_medbay_with_plain_white_walls_and_a_sickbe|b56bb52e2873",
+    "original": "\\tThis is the ship’s medbay, with plain white walls and a sickbed with side panels that can be raised or lowered to accommodate species of various sizes. The place is fairly well-stocked, and the storage bins are labeled with what they hold and what species it’s good for. Some of the bins hang open, their contents scattered across the floor. The room smells like antiseptic and gauze.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33149636&gt;&gt;"
+  },
+  {
+    "key": "textify|tThe_metal_walled_hallway_is_much_like_the_rest_of_the_ship_si|d662abcefdaf",
+    "original": "\\tThe metal-walled hallway is much like the rest of the ship, simple and utilitarian. Scrapes and scuffs mar the walls, and black marks run down either side of the hall, like someone tried to drive a tank through the place. From here, you can see a life support area to the port side, and what looks like small living quarters on the starboard side.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33150149&gt;&gt;"
+  },
+  {
+    "key": "textify|tA_short_hallway_holds_the_crew_s_quarters_The_quarters_are_bu|85d40b6def74",
+    "original": "\\tA short hallway holds the crew’s quarters. The quarters are built to take advantage of the ship’s height, with the rooms stacked on top of each other like apartments. Two doors on each side stand open, leading to small rooms with simple bunks and enough storage for one. A single larger room is at the end of the hallway, though the door is shut. The sign by that door reads ‘First Mate’.\\n\\t\\n\\tOne room looks bare, like whoever lived there had hardly moved in. There’s a datapad on the floor, the screen showing what looks like a basic programming interface. You can investigate it if you want.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33150618&gt;&gt;"
+  },
+  {
+    "key": "button|Datapad|2e1fe8fb05eb",
+    "original": "Datapad",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33151281&gt;&gt; addButton(e++,\"Datapad\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(_me||(_me=(0,Ce.Z)([\"\\n\\t\\tThe computer screen displays line after line of code, scrolling past in an ongoing loop. The user interface seems pretty basic, and it only takes you a second to find the button to make t..."
+  },
+  {
+    "key": "textify|tA_short_hallway_holds_the_crew_s_quarters_The_quarters_are_bu|ce96249f4725",
+    "original": "\\tA short hallway holds the crew’s quarters. The quarters are built to take advantage of the ship’s height, with the rooms stacked on top of each other like apartments. Two doors on each side stand halfway open, leading to small rooms with simple bunks and enough storage for one. A single larger room is at the end of the hallway, though the door is shut. The sign by that door reads ‘Captain’.\\n\\t\\n\\tOne room’s door hangs wide open. You can investigate it if you want.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33155295&gt;&gt;"
+  },
+  {
+    "key": "button|Investigate|9feba156476d",
+    "original": "Investigate",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33155830&gt;&gt; addButton(e++,\"Investigate\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(xme||(xme=(0,Ce.Z)([\"\\n\\t\\tThis room is small, but somehow manages to be a complete mess. Holo-posters cover what little wall space there is, flipping between images of all kinds of people from all kinds of spe..."
+  },
+  {
+    "key": "button.hover|Investigate|9feba156476d",
+    "original": "Investigate",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33157286&gt;&gt; addButton(e++,\"Investigate\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(xme||(xme=(0,Ce.Z)([\"\\n\\t\\tThis room is small, but somehow manages to be a complete mess. Holo-posters cover what little wall space there is, flipping between images of all kinds of people from all kinds of spe..."
+  },
+  {
+    "key": "textify|tThe_hallway_continues_through_the_center_of_the_ship_Somethin|720219e8a125",
+    "original": "\\tThe hallway continues through the center of the ship. Something heavy has been through here recently, if the long black streaks on the floor are any sign. The metal walls show a number of scrapes and scratches, and down near the floor, someone has scribbled “go suck a gryvain”.\\n\\t\\n\\tThe word “OKAY!” is written next to it in a different hand.\\n\\t\\n\\tTo the starboard side, you can see what looks like a recreation room of some kind. Small living quarters are in the other direction.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33157419&gt;&gt;"
+  },
+  {
+    "key": "textify|tThis_part_of_the_ship_holds_a_small_but_functional_rec_room_A|e6b47b882885",
+    "original": "\\tThis part of the ship holds a small but functional rec room. A few monitors with computer consoles stand along one wall, their screens blank, broken VR goggles attached to them on curling cords. A pool table made out of spare parts is bolted to the floor, though there’s no sign of any balls or cues. Several well-used couches line the rest of the walls, some surrounding a simple metal table. A larger screen is bolted to the wall, flickering and full of static.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33158033&gt;&gt;"
+  },
+  {
+    "key": "textify|tThis_part_of_the_steel_walled_hallway_leads_toward_the_front_o|6d79cc73f8a6",
+    "original": "\\tThis part of the steel-walled hallway leads toward the front of the ship. Like most of the Mastodon, it shows signs of heavy use. A sticker advertising some junk shop you’ve never heard of is stuck to the starboard wall near the floor. Occasional rattles from the air system echo through the hall.\\n\\t\\n\\tThe ruined remains of the turret bots lie against the walls here, collapsed on themselves after your assault. Occasional sparks spray out of the wreckage.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33158649&gt;&gt;"
+  },
+  {
+    "key": "textify|tTwo_turret_bots_stand_in_the_hallway_blocking_access_to_the_r|ca575308c896",
+    "original": "\\tTwo turret bots stand in the hallway, blocking access to the rest of the Mastodon. Both of them are built like some kind of tauric tripod, with two narrow legs in the front and a wider one in the back. A hardy, tank-like body holds the legs together, and a torso better suited for some kind of military sexbot rises from that, with a sensor array on the abdomen and two surge-absorbing bio-cushions above that, leading up to a head that looks like a stylized, domed helmet. Two multi-cannons jut out where the arms should be, each with five barrels. A multi-barreled minigun points out from between the tripod’s front legs.\\n\\t\\n\\tThe turrets aim their cannons at you, blaring a threat from their vocal units. <i>“REMAINING CREW DETECTED. DESTROY ALL REMAINING CREW.”</i>\\n\\t\\n\\t<b>It’s a fight!</b>\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33159255&gt;&gt;"
+  },
+  {
+    "key": "textify|t_tSparks_burst_up_from_between_the_turret_bot_s_bio_cushions|e8b0dca8011f",
+    "original": "\\t\\tSparks burst up from between the turret bot’s bio-cushions, blasting its helmeted head with hot steel. The tripod rears back, and a metallic screech erupts from its vocal unit. The robot teeters back and forth, then crashes to the ground, crushing one of its multi-cannons with its own weight. The minigun hangs limp between its front legs as the machine powers down permanently.\\n\\t\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33160241&gt;&gt;"
+  },
+  {
+    "key": "header|Game_Over|4ed18266a698",
+    "original": "Game Over",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33161183&gt;&gt;"
+  },
+  {
+    "key": "textify|t_tYou_crumple_to_the_ground_unable_to_keep_fighting_The_trip|c853c0465d8d",
+    "original": "\\t\\tYou crumple to the ground, unable to keep fighting. The tripod bot that shot you down approaches, and tilts its head down at you, the lens of its helmet-like head flickering in the Mastodon’s lights.\\n\\t\\t\\n\\t\\tThe turret takes only a moment to deploy its minigun and point it directly at your face. The barrels begin to spin.\\n\\t\\t\\n\\t\\tThe bot booms, <i>“REMAINING CREW DETECTED. DESTROY ALL REMAINING CREW.”</i>\\n\\t\\t\\n\\t\\tThe minigun’s muzzle flare is the last thing you see.\\n\\t\\t\\n\\t\\t<b>GAME OVER</b>\\n\\t\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33161234&gt;&gt;"
+  },
+  {
+    "key": "button|Fight|97e37b28c54f#1",
+    "original": "Fight!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33162410&gt;&gt; addButton(0,\"Fight!\",(function(){return E.V.beginCombat()}),\"Fight!\",\"\")"
+  },
+  {
+    "key": "button.hover|Fight|97e37b28c54f#1",
+    "original": "Fight!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33162458&gt;&gt; addButton(0,\"Fight!\",(function(){return E.V.beginCombat()}),\"Fight!\",\"\")"
+  },
+  {
+    "key": "textify|tThe_cargo_bay_narrows_to_a_hallway_leading_toward_the_front_of|347c05896d89",
+    "original": "\\tThe cargo bay narrows to a hallway leading toward the front of the ship. All the walls are sturdy metal, unadorned except for small dents in the walls and the scuffs that come with hauling heavy cargo. But the whole place seems intact and sturdy. Considering the beating the ship has taken, it must be even stronger than it looks to still be in one piece.\\n\\t\\n\\t[flags.MASTODON_PUZZLE\\n\\t\\t|A reinforced door stands open at the end of the hallway, allowing access to the rest of the ship.\\n\\t\\t|A reinforced door stands closed at the end of the hallway, cutting off access to the rest of the ship. You could try to hack it open if you want.\\n\\t] Charred marks from weapon fire mar the steel.\\n\\t\\n\\tA small screen with a keyboard beneath it blinks next to the door. There’s a message that says a video is available for viewing.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33162580&gt;&gt;"
+  },
+  {
+    "key": "button|Screen|5a10d1a37a51",
+    "original": "Screen",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33163466&gt;&gt; addButton(e++,\"Screen\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(Pme||(Pme=(0,Ce.Z)([\"\\n\\t\\tThe video flickers to life. It looks like it was shot from a camera on the screen you’re looking at — you can see the cargo bay behind you on the screen. Also on the screen is an ausar wom..."
+  },
+  {
+    "key": "button.hover|Screen|5a10d1a37a51",
+    "original": "Screen",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33167665&gt;&gt; addButton(e++,\"Screen\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(Pme||(Pme=(0,Ce.Z)([\"\\n\\t\\tThe video flickers to life. It looks like it was shot from a camera on the screen you’re looking at — you can see the cargo bay behind you on the screen. Also on the screen is an ausar wom..."
+  },
+  {
+    "key": "textify|tAn_airlock_large_enough_to_accommodate_a_small_ship_takes_up_m|7a8ba78ff239",
+    "original": "\\tAn airlock large enough to accommodate a small ship takes up most of the port wall here. The area that surrounds the airlock has bright yellow lines painted on the floor, with text that reads “LOADING AREA - KEEP CLEAR” in several languages. This is clearly where the crew hauled large cargo in or out of the ship. The metal floor is covered with scuff marks and tire treads, showing that this area saw a great deal of use.\\n\\n\\tSecurity cameras point down from the ceiling, and a computer console stands on one wall, probably to keep track of inventory and other transport details.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33167863&gt;&gt;"
+  },
+  {
+    "key": "textify|tThis_is_the_port_section_of_the_Mastodon_s_cargo_bay_and_it_s|bf3714002ca4",
+    "original": "\\tThis is the port section of the Mastodon’s cargo bay, and it’s less cluttered than the other areas. Clusters of bound-up netting hang from the ceiling, and boxes for smaller storage lie tumbled across the floor, but the center of this area looks like it was cleared and uncluttered. A wide door to port takes up most of the wall.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33168575&gt;&gt;"
+  },
+  {
+    "key": "textify|tThe_cargo_bay_opens_up_around_you_leading_to_the_rear_part_of|c37efa3e1ad2",
+    "original": "\\tThe cargo bay opens up around you, leading to the rear part of the ship. From here, you can see most of the area, and it’s filled with broken crates and battered boxes, spilling their contents across the metal floor. The Pyrexxx Industreez logo adorns several pieces of the wreckage. Lights hanging from the ceiling flicker on and off at random intervals, casting strange shadows everywhere.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33169034&gt;&gt;"
+  },
+  {
+    "key": "textify|tThis_is_the_starboard_part_of_the_Mastodon_s_cargo_bay_The_wh|9d0e802df76d",
+    "original": "\\tThis is the starboard part of the Mastodon’s cargo bay. The whole room is enormous, and clearly well-used. Most of the place shows signs of heavy wear and tear, with scrapes and dents and repair patches, and the walls and floor have tie-downs for all kinds of cargo. \\n\\t\\n\\tBoxes and crates are arranged here in a U-shape, stacked on top of each other, like someone was building a barricade or a place to hide. The edges of this improvised structure are charred with what looks like blaster shots. Not only was someone hiding here, they were being shot at.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33169555&gt;&gt;"
+  },
+  {
+    "key": "textify|tThis_part_of_the_cargo_bay_lacks_the_clutter_that_covers_the_r|ed4a0cf2b056",
+    "original": "\\tThis part of the cargo bay lacks the clutter that covers the rest of the place. Bright red lines on the floor outline a section of the starboard wall, with “ESCAPE POD AREA — KEEP CLEAR” written in bright red letters in several common languages. The walls are free of the marks from blaster fire that scar much of the rest of the ship.\\n\\t\\n\\tThe doors on five small bays stand closed and sealed, each marked with red lights. A glance at the readouts above the doors shows that all the escape pods have been ejected. A nearby readout shows they were all set to the same coordinates, a planet not far from where the Crash Landing crew told you to go to find this ship.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33170242&gt;&gt;"
+  },
+  {
+    "key": "textify|tA_single_enormous_metal_crate_takes_up_most_of_the_cargo_area|f4d3c9018806",
+    "original": "\\tA single enormous metal crate takes up most of the cargo area here, plain gray with the Pyrexxx Industreez logo stamped on every side. The box looks like it was opened normally - there’s no sign of forced entry. Black tread marks lead away from the box and toward the front of the ship. A few blaster marks mar the floor around it. Whatever happened here, it didn’t keep whatever was in the box from getting away.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33171039&gt;&gt;"
+  },
+  {
+    "key": "textify|tYou_ve_reached_the_center_of_the_Mastodon_s_cargo_bay_More_th|ca082fcd049d",
+    "original": "\\tYou’ve reached the center of the Mastodon’s cargo bay. More than a dozen metal boxes cover the floor here, all of them laying open. The Pyrexxx Industreez logo adorns all the boxes’ sides, and some of them look like robots walked over them, as the metal is scraped and covered with rectangular dents.\\n\\t\\n\\tThere’s a single broken robot laying in a heap among the boxes, with curved hip armor and two domes on its chest. It looks like someone put a few blaster shots through its head.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33171582&gt;&gt;"
+  },
+  {
+    "key": "textify|tThis_part_of_the_cargo_bay_is_an_utter_mess_Broken_boxes_sha|42277accb947",
+    "original": "\\tThis part of the cargo bay is an utter mess. Broken boxes, shattered crates, and all kinds of wrecked metal litter the floor, making it dangerous to walk through. You catch sight of broken pieces of some kind of robot, clearly the victim of blaster fire. It doesn’t look like any people were hurt here, but with the place in such disarray, it’s hard to tell.\\n\\t\\n\\tSeveral boxes with the Pyrexxx Industreez logo on them are stacked on top of each other here, forming a makeshift barricade. Black marks from blaster shots riddle the boxes.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33172197&gt;&gt;"
+  },
+  {
+    "key": "textify|tScraps_of_metal_and_other_waste_litter_the_floor_here_but_the|69336d368787",
+    "original": "\\tScraps of metal and other waste litter the floor here, but they’ve all been pushed away from the port-side wall. Long lines of detritus and discarded bits of metal suggest that the mess was shoved aside in a hurry. Bright red lines on the floor outline a section around the wall, with “ESCAPE POD AREA — KEEP CLEAR” written in bright red letters in several common languages.\\n\\t\\n\\tThe doors on five small bays stand closed and sealed, each marked with red lights. A glance at the readouts above the doors shows that all the escape pods have been ejected. A nearby readout shows they were all set to the same coordinates, a planet not far from where the Crash Landing crew told you to go to find this ship.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33172866&gt;&gt;"
+  },
+  {
+    "key": "textify|tThis_area_of_the_ship_is_a_vast_array_of_screens_keyboards_a|008e0b672bb0",
+    "original": "\\tThis area of the ship is a vast array of screens, keyboards, and diagnostic equipment. There’s a display of the whole ship on one screen, flashing with multiple warnings. Another screen next to it displays readouts pointing to massive damage to the engines, and another shows reports of weapons discharge all throughout the cargo bay and on the bridge.\\n\\t\\n\\tThe mess from the rest of the cargo bay doesn’t seem to have reached this area, and there aren’t any signs of battle.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33173702&gt;&gt;"
+  },
+  {
+    "key": "textify|tThe_rear_of_the_cargo_bay_looks_like_it_was_used_for_the_crew|3b6fdd9ca8a5",
+    "original": "\\tThe rear of the cargo bay looks like it was used for the crew’s larger personal items. There are several stacks of crates and boxes tied down to the floor, all of them labeled with different names, most of them with at least one kind of lock on them. One box has “HANDS OFF, MOTHERFUCKER” stenciled on it in an eye-searing shade of pink.\\n\\t\\n\\tA small speeder is locked down to the floor, with a helmet still attached to it. Mesh bags hang from the ceiling, holding smaller boxes off of the floor.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33174309&gt;&gt;"
+  },
+  {
+    "key": "textify|tThe_ship_s_maintenance_bay_looks_like_a_life_support_room_for|26acdc01ac98",
+    "original": "\\tThe ship’s maintenance bay looks like a life support room for mechanics. Cabinets and boxes full of metal parts line the walls, and the few empty spaces on the walls are filled with pinned-up ship schematics, small monitors displaying mechanical diagrams, and a calendar showing an ausar woman in a bikini. It looks like whatever took down the ship sent some things here flying, as scattered parts litter the floor.\\n\\t\\n\\tOne of the monitors seems to still be functional, and there’s a video log being displayed in a small window in the corner, though the sound is off. You can play it if you want.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33174930&gt;&gt;"
+  },
+  {
+    "key": "button|Video_Log|080ef4f0ac91",
+    "original": "Video Log",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33175572&gt;&gt; addButton(e++,\"Video Log\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(Vme||(Vme=(0,Ce.Z)([\"\\n\\t\\tWhen the video starts, all you see is a dark green blur, which resolves into green-skinned hands as they pull away. The camera focuses on the grinning face of a gabilani woman with brig..."
+  },
+  {
+    "key": "button.hover|Video_Log|080ef4f0ac91",
+    "original": "Video Log",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33179842&gt;&gt; addButton(e++,\"Video Log\",(function(){clearAll(),author(\"Slab Bulkhead\"),output(textify(Vme||(Vme=(0,Ce.Z)([\"\\n\\t\\tWhen the video starts, all you see is a dark green blur, which resolves into green-skinned hands as they pull away. The camera focuses on the grinning face of a gabilani woman with brig..."
+  },
+  {
+    "key": "textify|tThe_port_engine_a_powerful_piece_of_machinery_sits_dark_and|c95ada7230a0",
+    "original": "\\tThe port engine, a powerful piece of machinery, sits dark and silent and smoking. Occasional sparks fly from the battered machinery. All the damage is in one specific area, suggesting someone blew it up. Along with the damage, there are signs of multiple repairs, metal patches and the like, showing that the crew worked hard to keep the thing functioning.\\n\\t\\n\\tA note scribbled on one wall looks to be a list of parts, with comments like ‘need this’ or ‘will last another month’ written next to them.\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33179974&gt;&gt;"
+  },
+  {
+    "key": "textify|tThe_starboard_engine_might_have_once_propelled_the_Mastodon_th|aa63b3965ce7",
+    "original": "\\tThe starboard engine might have once propelled the Mastodon through the depths of space, but now there’s an enormous chunk of it missing. All the damage is in one specific area, suggesting some kind of explosive sabotage. Burnt pieces of machinery litter the floor.\\n\\t\\n\\tWriting on one side of what’s left of the engine catches your eye. You see that someone scribbled a message where the engine meets the wall, clearly meant for one specific person to see: <i>“K’Lee, if I catch you humping the engine again, you’re fired. I don’t care how much it vibrates.”</i>\\n\\t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:33180607&gt;&gt;"
+  }
+]

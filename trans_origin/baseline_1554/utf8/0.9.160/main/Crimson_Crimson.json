@@ -1,0 +1,170 @@
+[
+  {
+    "key": "textify|Crimson_rushes_forward_swinging_her_spear_in_a_wide_arc_the_bl|4de87eecee74",
+    "original": "Crimson rushes forward, swinging her spear in a wide arc, the blade so scalding hot it hurts to look at.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00232019&gt;&gt;"
+  },
+  {
+    "key": "textify|Grabbing_her_spear_with_both_hands_Crimson_rushes_forward_in_a|ff8bc46d38b3",
+    "original": "Grabbing her spear with both hands, Crimson rushes forward in a shocking burst of speed, aiming right at [target.combatHisHer] chest.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00232902&gt;&gt;"
+  },
+  {
+    "key": "textify|Smirking_Crimson_rushes_forward_with_speed_and_balance_few_orga|62e20a036791",
+    "original": "Smirking, Crimson rushes forward with speed and balance few organics could ever imitate. The gynoid spins, aiming to hit [target.combatHisHer] [target.lowerBody] with the length of her spear.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00234334&gt;&gt;"
+  },
+  {
+    "key": "combat|concat_m_capitalize_e_getCombatName_stumble_concat_e|42ed78923029",
+    "original": "\".concat(_.m.capitalize(e.getCombatName()),\" stumble\").concat(e.isPlural||e.isPlayer()?\"\":\"s\",\" back, grimacing at the sheer heat of the attack.\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00231482&gt;&gt;"
+  },
+  {
+    "key": "combat|concat_m_capitalize_e_getCombatName_duck_in_time_the_a|e1f1d1679a6f",
+    "original": "\".concat(_.m.capitalize(e.getCombatName()),\" duck in time, the attack sailing over \").concat(e.getCombatPronoun(\"hisher\"),\" head, much to Crimson’s chagrin.\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00231758&gt;&gt;"
+  },
+  {
+    "key": "combat|target_combatName_don_t_manage_to_avoid_it_in_time_the_superh|f81794630085",
+    "original": "[target.combatName] don’t manage to avoid it in time, the superheated metal cutting [target.combatHisHer] side. Crimson chuckles as [target.combatName] hiss\".concat(e.isPlayer()||e.isPlural?\"\":\"es\",\" in pain.\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00232161&gt;&gt;"
+  },
+  {
+    "key": "combat|Reacting_quickly_target_combatName_dash_concat_e_isPlayer|8008035fb86c",
+    "original": "Reacting quickly, [target.combatName] dash\".concat(e.isPlayer()||e.isPlural?\"\":\"es\",\" back, barely avoiding the scalding tip of her weapon as it cuts through the space [target.combatName] \").concat(e.isPlayer()||e.isPlural?\"were\":\"was\",\" occupying a moment before. Crimson frowns as she steps back.\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00232500&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_var0_don_t_doesn_t_e_isPlural_e_isPlayer_s|9ff90fd5d65e",
+    "original": "\"+{var1}({var0}?\"don’t\":\"doesn’t\",e.isPlural||e.isPlayer()?\"\":\"s\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00233073&gt;&gt; &lt;&lt;VARS:var0=s||(s=(0,g.Z)([\"[target.CombatName] \",\" react in time, the attack landing with both enormous strength and unbearable heat. The force of the impact is such that it actually pushes [target.CombatName] back.\\n\\t\\t\\t\\n\\t\\t\\t[target.CombatName] gasp\",\", the air knocked out of [target.combatHisHer] lungs. You glare at the smug-looking android as she jumps back.\"])),e.isPlayer()||e.isPlural,var1=textify&gt;&gt; combatAppend(\"\\n\\n\"+textify(s||(s=(0,g.Z)([\"[target.CombatName] \",\" react in time, the attack landing with both enormous strength and unbearable heat. The force of the impact is such that it actually pushes [target.CombatName] back.\\n\\t\\t\\t\\n\\t\\t\\t[target.CombatName] gasp\",\", the air knocked out of [target.combatHisHer] lungs. You glare at the smug-looking android as she jumps back.\"])),e.isPlayer()||e.isPlural?\"don’t\":\"doesn’t\",e.isPlural||e.isPlayer()?\"\":\"s\"))"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_var2_are_is_stunned|2352bd3ac25a",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+({var2}?\"are\":\"is\")+\" stunned!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00233667&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=_.m,var2=e.isPlayer()||e.isPlural&gt;&gt; combatAppend(\"\\n\\n<b>\"+_.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\" stunned!</b>\")"
+  },
+  {
+    "key": "combat.expr|var2_var1_var0_0_g_Z_With_no_time_to_think_target_c|10dd53cfe8a9",
+    "original": "\"+{var2}({var1}({var0}(0,g.Z)([\"With no time to think, [target.combatName] swing [target.combatHisHer] [target.weaponMelee] to knock her spear off course, somehow managing to deflect it to the side. Still, the burning tip passes way too close for comfort.\\n\\t\\t\\t\\n\\t\\t\\tCrimson blinks in surprise at [target.combatHisHer] successful defense before jumping back, out of melee range.\"])))",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00233787&gt;&gt; &lt;&lt;VARS:var0=r=,var1=r||,var2=textify&gt;&gt; combatAppend(\"\\n\\n\"+textify(r||(r=(0,g.Z)([\"With no time to think, [target.combatName] swing [target.combatHisHer] [target.weaponMelee] to knock her spear off course, somehow managing to deflect it to the side. Still, the burning tip passes way too close for comfort.\\n\\t\\t\\t\\n\\t\\t\\tCrimson blinks in surprise at [target.combatHisHer] successful defense before jumping back, out of melee range.\"]))))"
+  },
+  {
+    "key": "combat.expr|var2_var1_var0_0_g_Z_Crimson_moves_too_fast_for_targ|6e62c859899f",
+    "original": "\"+{var2}({var1}({var0}(0,g.Z)([\"Crimson moves too fast for [target.combatName] to block or dodge! Her swing strikes true, throwing [target.combatName] off balance and leaving the start of a bruise on the impacted part. Her strength is no joke.\"])))",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00234563&gt;&gt; &lt;&lt;VARS:var0=l=,var1=l||,var2=textify&gt;&gt; combatAppend(\"\\n\\n\"+textify(l||(l=(0,g.Z)([\"Crimson moves too fast for [target.combatName] to block or dodge! Her swing strikes true, throwing [target.combatName] off balance and leaving the start of a bruise on the impacted part. Her strength is no joke.\"]))))"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_var2_are_is_tripped|c64602478a64",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+({var2}?\"are\":\"is\")+\" tripped!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00234952&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=_.m,var2=e.isPlayer()||e.isPlural&gt;&gt; combatAppend(\"\\n\\n<b>\"+_.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\" tripped!</b>\")"
+  },
+  {
+    "key": "combat.expr|var1_var0_s|74dc6f0873fb",
+    "original": "\"+{var1}({var0}?\"\":\"s\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00235072&gt;&gt; &lt;&lt;VARS:var0=h||(h=(0,g.Z)([\"[target.CombatName] manage to get your [target.weaponMelee] in the way in time to block! It takes all of [target.combatHisHer] strength to avoid stumbling back from the impact, but [target.combatName] manage\",\" to stay standing, even if the attack forces [target.combatName] back a little.\\n\\nCrimson stops for a second, perplexed, before jumping back with a frown, not giving target.combatName] a chance of a retaliatory strike.\"])),e.isPlayer()||e.isPlural,var1=textify&gt;&gt; combatAppend(\"\\n\\n\"+textify(h||(h=(0,g.Z)([\"[target.CombatName] manage to get your [target.weaponMelee] in the way in time to block! It takes all of [target.combatHisHer] strength to avoid stumbling back from the impact, but [target.combatName] manage\",\" to stay standing, even if the attack forces [target.combatName] back a little.\\n\\nCrimson stops for a second, perplexed, before jumping back with a frown, not giving target.combatName] a chance of a retaliatory strike.\"])),e.isPlayer()||e.isPlural?\"\":\"s\"))"
+  },
+  {
+    "key": "textify|rand_Crimson_stabs_her_spear_on_the_ground_i_Don_t_you_love|a893f2511064",
+    "original": "[rand|Crimson stabs her spear on the ground. <i>“Don’t you love this foreplay? But believe me: what comes later is just as good,”</i> she teases while leaning on her spear, sandwiching it between her perky breasts. Her long, long tongue slides out, slithering through the air and making a ‘come hither’ gesture with the tip|Crimson, stabs her spear on the ground, using it as an impromptu pole for dancing. Showing off her body’s flexibility, she exposes all of her assets: her long legs, her bubble butt, her bouncing tits...\\n\\nShe ends her quick routine with a teasing wink and blowing a kiss in your direction.|Crimson stabs her spear on the ground and leans against it, using her hands to spread her exposed lower lips. <i>“Are you sure you don’t want to try this? KihaCorp spared no expenses equipping me with a vagina capable of taking any cock and milking every load out of you.”</i>]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00235723&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var2_var1_var0_0_g_Z_You_shrug_off_the_licentious_dis|9ac883214235",
+    "original": "\"+{var2}({var1}({var0}(0,g.Z)([\"You shrug off the licentious display.\"])))",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00236751&gt;&gt; &lt;&lt;VARS:var0=d=,var1=d||,var2=textify&gt;&gt; combatAppend(\"\\n\\n\"+textify(d||(d=(0,g.Z)([\"You shrug off the licentious display.\"]))))"
+  },
+  {
+    "key": "assign|She_swerves_aside|3b11af3e445f",
+    "original": "She swerves aside!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00226168&gt;&gt;"
+  },
+  {
+    "key": "assign|The_elfin_gynoid_stands_proudly_in_her_cybernetic_nudity_weapon|ea16d5da2c17",
+    "original": "The elfin gynoid stands proudly in her cybernetic nudity, weapons ready and pointing at you. Her curvy butt and luscious thighs sway in place as she teases you in silence, her expression full of desire; the high heels Crimson has instead of feet click against the ground as she adjusts her footing.\\n\\nHer curves, her body language; she radiates a dangerous sensuality. There’s no doubt Crimson is going to enjoy both the fight and the aftermath.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00226196&gt;&gt;"
+  },
+  {
+    "key": "assign|The_elfin_gynoid_stands_proudly_in_her_cybernetic_nudity_weapon|4af1f58cfa7e",
+    "original": "The elfin gynoid stands proudly in her cybernetic nudity, weapons ready and pointing at you. Her curvy butt and luscious thighs sway in place as she teases you in silence, her expression full of desire; the high heels Crimson has instead of feet click against the ground as she adjusts her footing.\\n\\nHer curves, her body language; she radiates a dangerous sensuality. There’s no doubt Crimson is going to enjoy both the fight and the aftermath.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00226661&gt;&gt;"
+  },
+  {
+    "key": "assign|burning_spear|85e3b7be1397",
+    "original": "burning spear",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00227303&gt;&gt;"
+  },
+  {
+    "key": "assign|burning_slash|8190db0b0f7b",
+    "original": "burning slash",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00227353&gt;&gt;"
+  },
+  {
+    "key": "assign|plasma_rifle|a56965c833dc",
+    "original": "plasma rifle",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00227691&gt;&gt;"
+  },
+  {
+    "key": "assign|subdermal_plating|a2af75a70c58",
+    "original": "subdermal plating",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00227861&gt;&gt;"
+  },
+  {
+    "key": "textify|Aiming_her_rifle_at|63d2af54836a",
+    "original": "Aiming her rifle at ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00231269&gt;&gt;"
+  },
+  {
+    "key": "textify|with_a_single_arm_Crimson_smirks_before_pulling_the_trigger_a|e963019b9c2c",
+    "original": " with a single arm, Crimson smirks before pulling the trigger, a red laser emerging from the gun barrel and streaming through the air.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00231292&gt;&gt;"
+  }
+]

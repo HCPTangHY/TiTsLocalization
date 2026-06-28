@@ -1,0 +1,368 @@
+[
+  {
+    "key": "output.expr|var0|6d5c8cf79027",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:12404260>> <<VARS:var0=e>> ParseText(e)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:12404390>> <<VARS:var0=this.props.altName>> ParseText(this.props.altName)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:12404561>> <<VARS:var0=this.props.statName>> ParseText(this.props.statName)"
+  },
+  {
+    "key": "assign|codexStats|f271182f2a0f",
+    "original": " codexStats",
+    "translation": "",
+    "context": "<<POS:12417235>>"
+  },
+  {
+    "key": "assign|levelStats|1ad71ff23c90",
+    "original": " levelStats",
+    "translation": "",
+    "context": "<<POS:12417277>>"
+  },
+  {
+    "key": "assign|soloCombat|68e7695932cc",
+    "original": " soloCombat",
+    "translation": "",
+    "context": "<<POS:12417319>>"
+  },
+  {
+    "key": "assign|teamCombat|748bbce1fb4c",
+    "original": " teamCombat",
+    "translation": "",
+    "context": "<<POS:12417361>>"
+  },
+  {
+    "key": "assign|shipCombat|e2d6c32b31a9",
+    "original": " shipCombat",
+    "translation": "",
+    "context": "<<POS:12417429>>"
+  },
+  {
+    "key": "assign|ctrlOverlay|4b13a6b843e2",
+    "original": " ctrlOverlay",
+    "translation": "",
+    "context": "<<POS:12417477>>"
+  },
+  {
+    "key": "assign|openMap|193900fc61cb",
+    "original": " openMap",
+    "translation": "",
+    "context": "<<POS:12417542>>"
+  },
+  {
+    "key": "assign|altMenu|0ab9c0ca551c",
+    "original": " altMenu",
+    "translation": "",
+    "context": "<<POS:12417578>>"
+  },
+  {
+    "key": "assign|hideNav|af2e7a3510f3",
+    "original": " hideNav",
+    "translation": "",
+    "context": "<<POS:12417639>>"
+  },
+  {
+    "key": "assign|legacyLayout|cd9655c2e9c5",
+    "original": " legacyLayout",
+    "translation": "",
+    "context": "<<POS:12417680>>"
+  },
+  {
+    "key": "assign|flashLayout|ff232fd07ded",
+    "original": " flashLayout",
+    "translation": "",
+    "context": "<<POS:12417725>>"
+  },
+  {
+    "key": "assign|bigger_thumb|1d2702fe55e5",
+    "original": " bigger_thumb",
+    "translation": "",
+    "context": "<<POS:12417766>>"
+  },
+  {
+    "key": "menu.button|Main_Menu|f4509e1c9e8f",
+    "original": "Main Menu",
+    "translation": "",
+    "context": "<<POS:12419497>> i(\"Menu\",\"menu\",\"Main Menu\",this.props.mainElement===Cl.gO.MAIN_MENU?\"\":\"Return to the Main Menu.\",Cl.T9.MENU,this.props.mainElement===Cl.gO.MAIN_MENU,!1,h,0,r,u)"
+  },
+  {
+    "key": "menu.tooltip.expr|var0_Return_to_the_Main_Menu|a797d1d2ba4a",
+    "original": "{var0}?\"\":\"Return to the Main Menu.\"",
+    "translation": "",
+    "context": "<<POS:12419508>> <<VARS:var0=this.props.mainElement===Cl.gO.MAIN_MENU>> i(\"Menu\",\"menu\",\"Main Menu\",this.props.mainElement===Cl.gO.MAIN_MENU?\"\":\"Return to the Main Menu.\",Cl.T9.MENU,this.props.mainElement===Cl.gO.MAIN_MENU,!1,h,0,r,u)"
+  },
+  {
+    "key": "menu.button|Panic|68d6d97bb01f",
+    "original": "Panic!",
+    "translation": "",
+    "context": "<<POS:12419753>> i(\"Panic\",\"panic\",\"Panic!\",this.props.mainElement===Cl.gO.MAIN_MENU||p?\"\":\"Utilize various apps from the workstation.\",Cl.T9.PANIC,!!p,this.props.mainElement===Cl.gO.MAIN_MENU,h,1,r,u)"
+  },
+  {
+    "key": "menu.tooltip.expr|var0_Utilize_various_apps_from_the_workstation|d02f806b7b42",
+    "original": "{var0}?\"\":\"Utilize various apps from the workstation.\"",
+    "translation": "",
+    "context": "<<POS:12419761>> <<VARS:var0=this.props.mainElement===Cl.gO.MAIN_MENU||p>> i(\"Panic\",\"panic\",\"Panic!\",this.props.mainElement===Cl.gO.MAIN_MENU||p?\"\":\"Utilize various apps from the workstation.\",Cl.T9.PANIC,!!p,this.props.mainElement===Cl.gO.MAIN_MENU,h,1,r,u)"
+  },
+  {
+    "key": "menu.button.expr|var0_Restore_Fullscreen|9874a362acaa",
+    "original": "{var0}?\"Restore\":\"Fullscreen\"",
+    "translation": "",
+    "context": "<<POS:12420275>> <<VARS:var0=f>> i(\"Screen\",f?\"restore\":\"fullscreen\",f?\"Restore\":\"Fullscreen\",this.props.mainElement===Cl.gO.MAIN_MENU?\"\":\"Toggle the full-screen view of the game.\",Cl.T9.FULLSCREEN,!1,this.props.mainElement===Cl.gO.MAIN_MENU,h,2,r,u)"
+  },
+  {
+    "key": "menu.tooltip.expr|var0_Toggle_the_full_screen_view_of_the_game|053fbdb64b9e",
+    "original": "{var0}?\"\":\"Toggle the full-screen view of the game.\"",
+    "translation": "",
+    "context": "<<POS:12420300>> <<VARS:var0=this.props.mainElement===Cl.gO.MAIN_MENU>> i(\"Screen\",f?\"restore\":\"fullscreen\",f?\"Restore\":\"Fullscreen\",this.props.mainElement===Cl.gO.MAIN_MENU?\"\":\"Toggle the full-screen view of the game.\",Cl.T9.FULLSCREEN,!1,this.props.mainElement===Cl.gO.MAIN_MENU,h,2,r,u)"
+  },
+  {
+    "key": "menu.button|Data_Menu|80364bb465c3",
+    "original": "Data Menu",
+    "translation": "",
+    "context": "<<POS:12420528>> i(\"Data\",isSaveDisabled()?\"load_file\":\"floppy_disk\",\"Data Menu\",this.props.mainElement===Cl.gO.SAVE_LOAD?\"\":\"\".concat(isSaveDisabled()?\"Load\":\" Save or load\",\" a file.\"),Cl.T9.DATA,this.props.mainElement===Cl.gO.SAVE_LOAD,!1,!!g||h,3,r,u)"
+  },
+  {
+    "key": "menu.tooltip.expr|var0_concat_isSaveDisabled_Load_Save_or_load_a|1b1f59233a00",
+    "original": "{var0}?\"\":\"\".concat(isSaveDisabled()?\"Load\":\" Save or load\",\" a file.\")",
+    "translation": "",
+    "context": "<<POS:12420539>> <<VARS:var0=this.props.mainElement===Cl.gO.SAVE_LOAD>> i(\"Data\",isSaveDisabled()?\"load_file\":\"floppy_disk\",\"Data Menu\",this.props.mainElement===Cl.gO.SAVE_LOAD?\"\":\"\".concat(isSaveDisabled()?\"Load\":\" Save or load\",\" a file.\"),Cl.T9.DATA,this.props.mainElement===Cl.gO.SAVE_LOAD,!1,!!g||h,3,r,u)"
+  },
+  {
+    "key": "menu.button|Masturbation|40e2919b6e3f",
+    "original": "Masturbation",
+    "translation": "",
+    "context": "<<POS:12421160>> i(\"Mast.\",\"arousal\",\"Masturbation\",this.props.mainElement===Cl.gO.MASTURBATION||k||w?\"\":\"Tend to your arousal.\",Cl.T9.MASTURBATE,this.props.mainElement===Cl.gO.MASTURBATION,(k||w)&&this.props.mainElement!==Cl.gO.MASTURBATION,h,4,r,u)"
+  },
+  {
+    "key": "menu.tooltip.expr|var0_Tend_to_your_arousal|5471e663dd61",
+    "original": "{var0}?\"\":\"Tend to your arousal.\"",
+    "translation": "",
+    "context": "<<POS:12421174>> <<VARS:var0=this.props.mainElement===Cl.gO.MASTURBATION||k||w>> i(\"Mast.\",\"arousal\",\"Masturbation\",this.props.mainElement===Cl.gO.MASTURBATION||k||w?\"\":\"Tend to your arousal.\",Cl.T9.MASTURBATE,this.props.mainElement===Cl.gO.MASTURBATION,(k||w)&&this.props.mainElement!==Cl.gO.MASTURBATION,h,4,r,u)"
+  },
+  {
+    "key": "menu.button|Rest|fda3e69b8cb8",
+    "original": "Rest",
+    "translation": "",
+    "context": "<<POS:12421410>> i(\"Rest\",\"pillow\",\"Rest\",this.props.mainElement===Cl.gO.REST||k||w?\"\":\"Take some time to recover.\",Cl.T9.REST,this.props.mainElement===Cl.gO.REST,(k||w)&&this.props.mainElement!==Cl.gO.REST,h,5,r,u)"
+  },
+  {
+    "key": "menu.tooltip.expr|var0_Take_some_time_to_recover|d223a50f2707",
+    "original": "{var0}?\"\":\"Take some time to recover.\"",
+    "translation": "",
+    "context": "<<POS:12421416>> <<VARS:var0=this.props.mainElement===Cl.gO.REST||k||w>> i(\"Rest\",\"pillow\",\"Rest\",this.props.mainElement===Cl.gO.REST||k||w?\"\":\"Take some time to recover.\",Cl.T9.REST,this.props.mainElement===Cl.gO.REST,(k||w)&&this.props.mainElement!==Cl.gO.REST,h,5,r,u)"
+  },
+  {
+    "key": "menu.button|Inventory|e0b12ec82289",
+    "original": "Inventory",
+    "translation": "",
+    "context": "<<POS:12421630>> i(\"Inv.\",\"inventory\",\"Inventory\",this.props.mainElement===Cl.gO.INVENTORY||b||w||!window.showInventoryAvailable()?getGameState()&&!window.showInventoryAvailable()?\"Your inventory is not accessible now.\":\"\":\"View and use items.\",Cl.T9.INVENTORY,this.props.mainElement===Cl.gO.INVENTORY,b||w||!window.s..."
+  },
+  {
+    "key": "menu.tooltip.expr|var0_showInventoryAvailable_var2_var1_Your_inventory_i|11c63bb6ae37",
+    "original": "{var0}.showInventoryAvailable()?{var2}({var1})?\"Your inventory is not accessible now.\":\"\":\"View and use items.\"",
+    "translation": "",
+    "context": "<<POS:12421641>> <<VARS:var0=this.props.mainElement===Cl.gO.INVENTORY||b||w||!window,var1=)&&!window.showInventoryAvailable(,var2=getGameState>> i(\"Inv.\",\"inventory\",\"Inventory\",this.props.mainElement===Cl.gO.INVENTORY||b||w||!window.showInventoryAvailable()?getGameState()&&!window.showInventoryAvailable()?\"Your inventory is not accessible now.\":\"\":\"View and use items.\",Cl.T9.INVENTORY,this.props.mainElement===Cl.gO.INVENTORY,b||w||!window.s..."
+  },
+  {
+    "key": "menu.button|Codex|f8c3e353355d",
+    "original": "Codex",
+    "translation": "",
+    "context": "<<POS:12422268>> i(\"Codex\",\"codex\",\"Codex\",this.props.mainElement===Cl.gO.CODEX||!getGameState()||getGameState().inSceneBlockSaving&&!getGameState().gameOverEvent||w||b?\"\":\"\".concat(getGameState().gameOverEvent?\"Review information from\":\"Use\",\" your CODEX™.\"),Cl.T9.CODEX,this.props.mainElement===Cl.gO.CODEX,(!getGam..."
+  },
+  {
+    "key": "menu.tooltip.expr|var0_concat_getGameState_gameOverEvent_Review_informa|fa08ec0ae9ea",
+    "original": "{var0}?\"\":\"\".concat(getGameState().gameOverEvent?\"Review information from\":\"Use\",\" your CODEX™.\")",
+    "translation": "",
+    "context": "<<POS:12422275>> <<VARS:var0=this.props.mainElement===Cl.gO.CODEX||!getGameState()||getGameState().inSceneBlockSaving&&!getGameState().gameOverEvent||w||b>> i(\"Codex\",\"codex\",\"Codex\",this.props.mainElement===Cl.gO.CODEX||!getGameState()||getGameState().inSceneBlockSaving&&!getGameState().gameOverEvent||w||b?\"\":\"\".concat(getGameState().gameOverEvent?\"Review information from\":\"Use\",\" your CODEX™.\"),Cl.T9.CODEX,this.props.mainElement===Cl.gO.CODEX,(!getGam..."
+  },
+  {
+    "key": "string.array|north_west_east_south_in_out_ship_in_ship_out|e88acd472f63",
+    "original": "[\"north\",\"west\",\"east\",\"south\",\"in\",\"out\",\"ship_in\",\"ship_out\"]",
+    "translation": "",
+    "context": "<<POS:12424360>>"
+  },
+  {
+    "key": "string.array|ship_in_ship_out|18c2b476826b",
+    "original": "[\"ship_in\",\"ship_out\"]",
+    "translation": "",
+    "context": "<<POS:12424450>>"
+  },
+  {
+    "key": "assign|Enter_Ship|15674232f19b",
+    "original": "Enter Ship",
+    "translation": "",
+    "context": "<<POS:12427542>>"
+  },
+  {
+    "key": "assign|Toggle_Navigation_Controls|ab7743317819",
+    "original": "Toggle Navigation Controls",
+    "translation": "",
+    "context": "<<POS:12427585>>"
+  },
+  {
+    "key": "string.array|ship_in_ship_out|be17640b3fe4",
+    "original": "[\"ship_in\",\"ship_out\"]",
+    "translation": "",
+    "context": "<<POS:12428100>>"
+  },
+  {
+    "key": "assign|Move|e364125bef7d",
+    "original": "Move ",
+    "translation": "",
+    "context": "<<POS:12428308>>"
+  },
+  {
+    "key": "assign|Go|c10a8b1da383",
+    "original": "Go ",
+    "translation": "",
+    "context": "<<POS:12428383>>"
+  },
+  {
+    "key": "assign|Enter_Ship|94fc7524c679",
+    "original": "Enter Ship",
+    "translation": "",
+    "context": "<<POS:12428420>>"
+  },
+  {
+    "key": "assign|Exit_Ship|cda8b18789bf",
+    "original": "Exit Ship",
+    "translation": "",
+    "context": "<<POS:12428454>>"
+  },
+  {
+    "key": "assign|Enter_Ship|ef533bf681a1",
+    "original": "Enter Ship",
+    "translation": "",
+    "context": "<<POS:12428606>>"
+  },
+  {
+    "key": "assign|Board_the_ship|be5d733c907c",
+    "original": "Board the ship.",
+    "translation": "",
+    "context": "<<POS:12428621>>"
+  },
+  {
+    "key": "assign|Exit_Ship|932737e2ae42",
+    "original": "Exit Ship",
+    "translation": "",
+    "context": "<<POS:12428659>>"
+  },
+  {
+    "key": "assign|Disembark_from_the_ship|095b9661d692",
+    "original": "Disembark from the ship.",
+    "translation": "",
+    "context": "<<POS:12428673>>"
+  },
+  {
+    "key": "assign|Move_to|4ace24b74774",
+    "original": "Move to ",
+    "translation": "",
+    "context": "<<POS:12428703>>"
+  },
+  {
+    "key": "assign|Cannot_use_this_now|32d1a594df6a",
+    "original": "Cannot use this now.",
+    "translation": "",
+    "context": "<<POS:12428753>>"
+  },
+  {
+    "key": "assign|Toggle_Map_Movement|17f69e31863f",
+    "original": "Toggle Map Movement",
+    "translation": "",
+    "context": "<<POS:12429272>>"
+  },
+  {
+    "key": "assign|This_instrument_designates_the_ordinal_directions_based_off_of_t|459c662fab32",
+    "original": "This instrument designates the ordinal directions based off of the orientation of the map.",
+    "translation": "",
+    "context": "<<POS:12429511>>"
+  },
+  {
+    "key": "assign|emblem|03d37d3f6985",
+    "original": " emblem",
+    "translation": "",
+    "context": "<<POS:12435535>>"
+  },
+  {
+    "key": "assign|wide|adaaab2f5491",
+    "original": " wide",
+    "translation": "",
+    "context": "<<POS:12435552>>"
+  },
+  {
+    "key": "assign|square|9c671827242c",
+    "original": " square",
+    "translation": "",
+    "context": "<<POS:12435569>>"
+  },
+  {
+    "key": "assign|tall|550c1cea8c04",
+    "original": " tall",
+    "translation": "",
+    "context": "<<POS:12435590>>"
+  },
+  {
+    "key": "assign|pixelated|6e8957600068",
+    "original": " pixelated",
+    "translation": "",
+    "context": "<<POS:12435725>>"
+  },
+  {
+    "key": "assign|View_Image|89c0352bb37a",
+    "original": "View Image",
+    "translation": "",
+    "context": "<<POS:12437162>>"
+  },
+  {
+    "key": "assign|Steele_Industries|6c8b597c8721",
+    "original": "Steele Industries",
+    "translation": "",
+    "context": "<<POS:12441898>>"
+  },
+  {
+    "key": "assign|emblem|9c9d7089e5a6",
+    "original": " emblem",
+    "translation": "",
+    "context": "<<POS:12452117>>"
+  },
+  {
+    "key": "assign|wide|adaaab2f5491#1",
+    "original": " wide",
+    "translation": "",
+    "context": "<<POS:12452134>>"
+  },
+  {
+    "key": "assign|square|9c671827242c#1",
+    "original": " square",
+    "translation": "",
+    "context": "<<POS:12452151>>"
+  },
+  {
+    "key": "assign|tall|550c1cea8c04#1",
+    "original": " tall",
+    "translation": "",
+    "context": "<<POS:12452172>>"
+  },
+  {
+    "key": "assign|pixelated|6e8957600068#1",
+    "original": " pixelated",
+    "translation": "",
+    "context": "<<POS:12452307>>"
+  },
+  {
+    "key": "assign|View_Image|89c0352bb37a#1",
+    "original": "View Image",
+    "translation": "",
+    "context": "<<POS:12453805>>"
+  }
+]

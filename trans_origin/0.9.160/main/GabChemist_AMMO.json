@@ -1,0 +1,492 @@
+[
+  {
+    "key": "assign|gabilani_chemist|6de7772ab0c2",
+    "original": "gabilani chemist",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11737546&gt;&gt;"
+  },
+  {
+    "key": "assign|the|e3c6c4590b49",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11737598&gt;&gt;"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "stage": 1,
+    "context": "&lt;&lt;POS:11737616&gt;&gt;"
+  },
+  {
+    "key": "assign|Toting_an_exotic_weapon_that_looks_like_a_blend_between_a_gigant|e634e16fd65f",
+    "original": "Toting an exotic weapon that looks like a blend between a gigantic doctor’s needle and a light machine gun, this green-skinned shortstack dresses with the sensibilities of a native. Her long, sweeping coat hangs open to leave her breasts fully uncovered aside from a set of collar-connected straps too narrow to hide the barbell piercings embedded in her pudgy violet nips. Her bottom is no better. The ink-black garment flosses into her cuntlips and prodigious ass as she moves, no thicker than a g-string and glossy with dampness along the edges. Her streetwalker-tier fishnets lead your eyes still lower, lending sensuous texture to the supple meat of her thighs.\\n\\nBehind the gabilani chemist, a mechanized tail whips back and forth, an artificial parody of standard-issue zaika anatomy. It even carries a vagina at the tip, though this plush, emerald pussy is more clearly of the vat-grown variety. It’s inner lips fade to rich purple in the center, glistening faintly with natural lubricants that make you question how recently she’s made use of it.\\n\\nIf it wasn’t for the faint outline of her shields and the deadly weapon in her hand, you’d think she was here to proposition you.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11738408&gt;&gt;"
+  },
+  {
+    "key": "assign|a_needle|1a5a22bfa092",
+    "original": "a needle",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11739695&gt;&gt;"
+  },
+  {
+    "key": "assign|streetwalker_clothing|256c38cf0584",
+    "original": "streetwalker clothing",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11739832&gt;&gt;"
+  },
+  {
+    "key": "perk|Fixed_MilkQ|7074273c58d5",
+    "original": "Fixed MilkQ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11740528&gt;&gt; createPerk(\"Fixed MilkQ\",5e3)"
+  },
+  {
+    "key": "combat.expr|var0|39bed04c90d6",
+    "original": "{var0}",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:11745023&gt;&gt; &lt;&lt;VARS:var0=n&gt;&gt; combatAppend(n)"
+  },
+  {
+    "key": "combat.expr|and_with_a_hasty_trigger_pull_a_torrent_of_blue_goo_sprays_ou|d574e31d54c4",
+    "original": ", and with a hasty trigger pull, a torrent of blue goo sprays out. The second it contacts the coating of sticky yellow gel on \"+{var0}.getCombatName()+\", the two chemicals react by <b>violently exploding!</b>\"+(\"PlayerCharacter\"===e.getClassName()?\"\\n\\nOuch!\":\"\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11745359&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\", and with a hasty trigger pull, a torrent of blue goo sprays out. The second it contacts the coating of sticky yellow gel on \"+e.getCombatName()+\", the two chemicals react by <b>violently exploding!</b>\"+(\"PlayerCharacter\"===e.getClassName()?\"\\n\\nOuch!\":\"\"))"
+  },
+  {
+    "key": "combat.expr|Ew_It_s_sticky_var0_b_var2_capitalize_var1_bet|9bbb7e7a0d3a",
+    "original": "Ew! It’s sticky! \"+({var0}?\"<b>\"+{var2}.capitalize({var1})+\" better wipe it off before she detonates it again!</b>\":\"...but that’s it?\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11745967&gt;&gt; &lt;&lt;VARS:var0=void 0!==flags.GABCHEM_DETTED,var1=e.getCombatName(),!1,var2=Ot.m&gt;&gt; combatAppend(\"\\n\\nEw! It’s sticky! \"+(void 0!==flags.GABCHEM_DETTED?\"<b>\"+Ot.m.capitalize(e.getCombatName(),!1)+\" better wipe it off before she detonates it again!</b>\":\"...but that’s it?\"))"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_barely_sidestep_PlayerCharacte|aea96c566260",
+    "original": " \"+{var1}.capitalize({var0})+\" barely sidestep\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\"!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11746808&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=Ot.m&gt;&gt; combatAppend(\" \"+Ot.m.capitalize(e.getCombatName(),!1)+\" barely sidestep\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\"!\")"
+  },
+  {
+    "key": "combat.expr|It_plunges_home_filling_var0_getCombatName_with_pain_a|3a690face791",
+    "original": " It plunges home, filling \"+{var0}.getCombatName()+\" with pain and lethargy alike!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11746946&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\" It plunges home, filling \"+e.getCombatName()+\" with pain and lethargy alike!\")"
+  },
+  {
+    "key": "combat.expr|So_tired_var1_capitalize_var0_getCombatPronoun_heshe|7b5d1b12e8f8",
+    "original": " So tired! \"+{var1}.capitalize({var0}.getCombatPronoun(\"heshe\"))+\" can’t even bring yourself to move. <b>\"+{var2}.getCombatPronoun(\"heshe\")+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"are\":\"is\")+\" paralyzed!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11747164&gt;&gt; &lt;&lt;VARS:var0=e,var1=Ot.m,var2=e&gt;&gt; combatAppend(\" So tired! \"+Ot.m.capitalize(e.getCombatPronoun(\"heshe\"))+\" can’t even bring yourself to move. <b>\"+e.getCombatPronoun(\"heshe\")+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"are\":\"is\")+\" paralyzed!</b>\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_twist_var2_getClassName|870d63056c9c",
+    "original": " \"+{var1}.capitalize({var0})+\" twist\"+({var2}.getClassName()?\"\":\"s\")+\" aside!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11747929&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=Ot.m,var2=e.isPlural||\"PlayerCharacter\"===e&gt;&gt; combatAppend(\" \"+Ot.m.capitalize(e.getCombatName(),!1)+\" twist\"+(e.isPlural||\"PlayerCharacter\"===e.getClassName()?\"\":\"s\")+\" aside!\")"
+  },
+  {
+    "key": "combat|Ouch|3e18ec52b6da",
+    "original": " Ouch!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11748101&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_feel_var2_getClassName|43e057e4ae37",
+    "original": " \"+{var1}.capitalize({var0})+\" feel\"+({var2}.getClassName()?\"\":\"s\")+\" woozy... \"+{var3}.getCombatName()+\" <b>must be poisoned!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11748257&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=Ot.m,var2=e.isPlural||\"PlayerCharacter\"===e,var3=e&gt;&gt; combatAppend(\" \"+Ot.m.capitalize(e.getCombatName(),!1)+\" feel\"+(e.isPlural||\"PlayerCharacter\"===e.getClassName()?\"\":\"s\")+\" woozy... \"+e.getCombatName()+\" <b>must be poisoned!</b>\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_hop_var2_getClassName_s|0937e5ca01c9",
+    "original": " \"+{var1}.capitalize({var0})+\" hop\"+({var2}.getClassName()?\"\":\"s\")+\" back, just out of range!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11748700&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=Ot.m,var2=e.isPlural||\"PlayerCharacter\"===e&gt;&gt; combatAppend(\" \"+Ot.m.capitalize(e.getCombatName(),!1)+\" hop\"+(e.isPlural||\"PlayerCharacter\"===e.getClassName()?\"\":\"s\")+\" back, just out of range!\")"
+  },
+  {
+    "key": "combat|Ouch|55db4d5caece",
+    "original": " Ouch!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11748888&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|Warmth_and_confidence_surges_through_var0_getCombatName|ccacb2f9043e",
+    "original": " Warmth and confidence surges through \"+{var0}.getCombatName()+\".\"+(\"PlayerCharacter\"===e.getClassName()?\" Suddenly, <b>running seems stupid</b>. Are you drunk?\":\"\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11749037&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\" Warmth and confidence surges through \"+e.getCombatName()+\".\"+(\"PlayerCharacter\"===e.getClassName()?\" Suddenly, <b>running seems stupid</b>. Are you drunk?\":\"\"))"
+  },
+  {
+    "key": "combat|and_carelessly_discharges_an_enormous_cone_of_bubbling_corrosiv|304d4bf5fb29",
+    "original": " and carelessly discharges an enormous cone of bubbling corrosives!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11749410&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_var2_getClassName_are_is|fa41daa8ecb4",
+    "original": "\"+{var1}.capitalize({var0})+\" \"+({var2}.getClassName()?\"are\":\"is\")+\" hit!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11749566&gt;&gt; &lt;&lt;VARS:var0=o.getCombatName(),!1,var1=Ot.m,var2=o.isPlural||\"PlayerCharacter\"===o&gt;&gt; combatAppend(\"\\n\"+Ot.m.capitalize(o.getCombatName(),!1)+\" \"+(o.isPlural||\"PlayerCharacter\"===o.getClassName()?\"are\":\"is\")+\" hit!\")"
+  },
+  {
+    "key": "combat|b_Error_no_target_creatures_found|a871eca9e844",
+    "original": " <b>Error: no target creatures found.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11749816&gt;&gt;"
+  },
+  {
+    "key": "combat|She_misses|5b51fe46abfe",
+    "original": " She misses!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11750113&gt;&gt;"
+  },
+  {
+    "key": "combat|Can_you_even_hurt_her_through_all_those_combat_stims|183817ffe70e",
+    "original": "Can you even hurt her through all those combat stims?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11751031&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_var2_getClassName_are_is|6c92900aea79",
+    "original": "\"+{var1}.capitalize({var0})+\" \"+({var2}.getClassName()?\"are\":\"is\")+\" too strong-willed to be aroused by such an obvious ploy!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11751783&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=Ot.m,var2=e.isPlural||\"PlayerCharacter\"===e&gt;&gt; combatAppend(\"\\n\\n\"+Ot.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural||\"PlayerCharacter\"===e.getClassName()?\"are\":\"is\")+\" too strong-willed to be aroused by such an obvious ploy!\")"
+  },
+  {
+    "key": "combat|Is_the_alley_getting_hotter_or_is_that_just_you|b799dbe2bf26",
+    "original": "Is the alley getting hotter, or is that just you?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11752007&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_var2_getClassName_are_is|9168c029c450",
+    "original": "\"+{var1}.capitalize({var0})+\" \"+({var2}.getClassName()?\"are\":\"is\")+\" too strong-willed to be aroused by such an obvious ploy!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11752945&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=Ot.m,var2=e.isPlural||\"PlayerCharacter\"===e&gt;&gt; combatAppend(\"\\n\\n\"+Ot.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural||\"PlayerCharacter\"===e.getClassName()?\"are\":\"is\")+\" too strong-willed to be aroused by such an obvious ploy!\")"
+  },
+  {
+    "key": "combat.expr|Two_shells_roll_into_the_chemist_s_weapon_as_she_stabs_it_in|e382c3a1e0b0",
+    "original": " Two shells roll into the chemist’s weapon as she stabs it in \"+{var1}.possessive({var0}.getCombatName())+\" direction!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11753435&gt;&gt; &lt;&lt;VARS:var0=e,var1=Ot.m&gt;&gt; combatAppend(\" Two shells roll into the chemist’s weapon as she stabs it in \"+Ot.m.possessive(e.getCombatName())+\" direction!\")"
+  },
+  {
+    "key": "combat.expr|Fat_chance_var1_capitalize_var0_sidestep_var2_get|2b216a8a53e8",
+    "original": " Fat chance! \"+{var1}.capitalize({var0})+\" sidestep\"+({var2}.getClassName()?\"\":\"s\")+\" the needle’s stabbing tip.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11753581&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=Ot.m,var2=e.isPlural||\"PlayerCharacter\"===e&gt;&gt; combatAppend(\" Fat chance! \"+Ot.m.capitalize(e.getCombatName(),!1)+\" sidestep\"+(e.isPlural||\"PlayerCharacter\"===e.getClassName()?\"\":\"s\")+\" the needle’s stabbing tip.\")"
+  },
+  {
+    "key": "combat.expr|Right_away_var0_getCombatPronoun_heshe_feel_var1|55a5f0cf444d",
+    "original": " Right away, \"+{var0}.getCombatPronoun(\"heshe\")+\" feel\"+({var1}.getClassName()?\"\":\"s\")+\" different: stronger, more... confident, better able to bend this goblin over and breed her so thoroughly that she blesses you with sextuplets. <b>\"+{var3}.capitalize({var2})+\" \"+({var4}.getClassName()?\"are\":\"is\")+\" in rut!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11753858&gt;&gt; &lt;&lt;VARS:var0=e,var1=e.isPlural||\"PlayerCharacter\"===e,var2=e.getCombatName(),!1,var3=Ot.m,var4=e.isPlural||\"PlayerCharacter\"===e&gt;&gt; combatAppend(\" Right away, \"+e.getCombatPronoun(\"heshe\")+\" feel\"+(e.isPlural||\"PlayerCharacter\"===e.getClassName()?\"\":\"s\")+\" different: stronger, more... confident, better able to bend this goblin over and breed her so thoroughly that she blesses you with sextuplets. <b>\"+Ot.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural||\"PlayerCharacter\"===e.getClassName()?\"are\":\"is\")+\" in rut!</b>\")"
+  },
+  {
+    "key": "combat.expr|i_One_taste_of_my_work_and_you_ll_be_begging_for_more_i|3ceaf3a9c7c6",
+    "original": " <i>“One taste of my work, and you’ll be begging for more!”</i> She attacks \"+{var0}.getCombatName()+\" without further warning!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11754577&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\" <i>“One taste of my work, and you’ll be begging for more!”</i> She attacks \"+e.getCombatName()+\" without further warning!\")"
+  },
+  {
+    "key": "combat|The_clumsy_strikes_goes_wide|103f930e556d",
+    "original": " The clumsy strikes goes wide!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11754734&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|Oh_That_didn_t_hurt_as_badly_as_it_could_have_In_fact_the_war|5de049823b30",
+    "original": "Oh. That didn’t hurt as badly as it could have. In fact, the warm flush spreading through \"+{var0}.getCombatName()+\" feels... wonderful. Relaxing. If this slovenly trollop wasn’t here, \"+{var1}.getCombatPronoun(\"heshe\")+\" could be finding somebody hotter to seduce. Someone with a nice, big dick.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11754898&gt;&gt; &lt;&lt;VARS:var0=e,var1=e&gt;&gt; combatAppend(\"\\n\\nOh. That didn’t hurt as badly as it could have. In fact, the warm flush spreading through \"+e.getCombatName()+\" feels... wonderful. Relaxing. If this slovenly trollop wasn’t here, \"+e.getCombatPronoun(\"heshe\")+\" could be finding somebody hotter to seduce. Someone with a nice, big dick.\")"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_var2_getClassName_are|f332d02656e9",
+    "original": " <b>\"+{var1}.capitalize({var0})+\" \"+({var2}.getClassName()?\"are\":\"is\")+\" in heat!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11755258&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=Ot.m,var2=e.isPlural||\"PlayerCharacter\"===e&gt;&gt; combatAppend(\" <b>\"+Ot.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural||\"PlayerCharacter\"===e.getClassName()?\"are\":\"is\")+\" in heat!</b>\")"
+  },
+  {
+    "key": "combat|You_can_t_avoid_breathing_it_in_and_neither_can_she|d9c31476e150",
+    "original": " You can’t avoid breathing it in, and neither can she!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11755879&gt;&gt;"
+  },
+  {
+    "key": "combat|i_Fuuuuck_I_need_to_stop_coming_up_with_excuses_to_gas_myself|d889aee8bfd8",
+    "original": "<i>“Fuuuuck, I need to stop coming up with excuses to gas myself with this...”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11755954&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_var2_getClassName_are|396c072598c7",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+({var2}.getClassName()?\"are\":\"is\")+\" aphro gassed!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11756132&gt;&gt; &lt;&lt;VARS:var0=o.getCombatName(),!1,var1=Ot.m,var2=o.isPlural||\"PlayerCharacter\"===o&gt;&gt; combatAppend(\"\\n<b>\"+Ot.m.capitalize(o.getCombatName(),!1)+\" \"+(o.isPlural||\"PlayerCharacter\"===o.getClassName()?\"are\":\"is\")+\" aphro gassed!</b>\")"
+  },
+  {
+    "key": "combat|b_The_chemist_is_aphro_gassed_b|7bd707abfb2e",
+    "original": "<b>The chemist is aphro gassed!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11756336&gt;&gt;"
+  },
+  {
+    "key": "combat|It_s_hard_to_tell_who_enjoyed_that_more_You|241f3404e48e",
+    "original": "It’s hard to tell who enjoyed that more. You?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11756992&gt;&gt;"
+  },
+  {
+    "key": "combat|Or_Her|f1fb4d613c4e",
+    "original": " Or Her?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11757152&gt;&gt;"
+  },
+  {
+    "key": "combat|pc_crotchCover|29208ce92e9a",
+    "original": "[pc.crotchCover]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11757798&gt;&gt;"
+  },
+  {
+    "key": "combat|swelling_skin|06d80effce45",
+    "original": "swelling skin",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11757831&gt;&gt;"
+  },
+  {
+    "key": "combat|i_Come_ooooon_Stop_fighting_already_and_let_me_tame_this_be|cf0fdff133ab",
+    "original": ". <i>“Come ooooon. Stop fighting already and let me tame this beast!”</i> she gasps before stumbling away.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11757861&gt;&gt;"
+  },
+  {
+    "key": "combat|The_goblin_looks_more_than_a_little_cock_drunk|e24f2ac3b8e2",
+    "original": "The goblin looks more than a little cock-drunk",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11757988&gt;&gt;"
+  },
+  {
+    "key": "combat|but_you_can_t_say_you_didn_t_enjoy_it_yourself|7bfe158f8af6",
+    "original": ", but you can’t say you didn’t enjoy it yourself.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11758204&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_var2_getClassName_are_is|0ddba7718830",
+    "original": "\"+{var1}.capitalize({var0})+\" \"+({var2}.getClassName()?\"are\":\"is\")+\" too strong willed to let it affect \"+{var3}.getCombatPronoun(\"himher\")+\".",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11758681&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=Ot.m,var2=e.isPlural||\"PlayerCharacter\"===e,var3=e&gt;&gt; combatAppend(\"\\n\\n\"+Ot.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural||\"PlayerCharacter\"===e.getClassName()?\"are\":\"is\")+\" too strong willed to let it affect \"+e.getCombatPronoun(\"himher\")+\".\")"
+  },
+  {
+    "key": "assign|Geoff_smiles_at_you_as_you_carefully_make_your_way_over_to_him|b3d35fca4c05",
+    "original": "Geoff smiles at you as you carefully make your way over to him.\\n\\n<i>“Hey, [pc.name]. Looking to buy something?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11762705&gt;&gt;"
+  },
+  {
+    "key": "assign|Artie_nods_at_you_as_you_enter_the_scrap_yard_hut_smiling_peace|d8e6bab24ae1",
+    "original": "Artie nods at you as you enter the scrap yard hut, smiling peacefully as he closes his eyes and goes back to meditating over a large diode. Geoff is busy working on something in the back.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11762844&gt;&gt;"
+  },
+  {
+    "key": "assign|dark_brown|120c11ac5853",
+    "original": "dark brown",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11763165&gt;&gt;"
+  },
+  {
+    "key": "assign|dark_brown|09079db66d24",
+    "original": "dark brown",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11763226&gt;&gt;"
+  },
+  {
+    "key": "assign|dark_brown|09079db66d24#1",
+    "original": "dark brown",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11763305&gt;&gt;"
+  },
+  {
+    "key": "name.short|Geoff|e170ab66300e",
+    "original": "Geoff",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11764835&gt;&gt;"
+  },
+  {
+    "key": "assign|The_goo_twists_a_portion_of_its_body_out_of_the_way_of_the_attac|ec9b8deb317e",
+    "original": "The goo twists a portion of its body out of the way of the attack, moving in a way that would be fatal for any vertebrate.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11765687&gt;&gt;"
+  },
+  {
+    "key": "assign|Your_attack_sinks_into_the_goo_the_wound_vanishing_almost_insta|d3a70d960465",
+    "original": "Your attack sinks into the goo, the wound vanishing almost instantly as her surface recloses.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11765826&gt;&gt;"
+  },
+  {
+    "key": "assign|semi_solid_fist|22d2181cc410",
+    "original": "semi-solid fist",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11765983&gt;&gt;"
+  },
+  {
+    "key": "assign|sun_bleached_overalls|1a9e70f6ba2e",
+    "original": "sun-bleached overalls",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11766085&gt;&gt;"
+  },
+  {
+    "key": "assign|companion_droid|b96cbf0f4eec",
+    "original": "companion droid",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11769371&gt;&gt;"
+  },
+  {
+    "key": "assign|Your_attack_fails_to_damage_the_bot|1863ccc029e0",
+    "original": "Your attack fails to damage the ‘bot.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11769451&gt;&gt;"
+  },
+  {
+    "key": "button|Gianna|71e4d8b513f6",
+    "original": "Gianna",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11772987&gt;&gt; addButton(e,\"Gianna\",window.giannaShipCrewMeeting)"
+  },
+  {
+    "key": "button|Gianna|8a0f4f69cfca",
+    "original": "Gianna",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11773161&gt;&gt; addButton(e,\"Gianna\",window.giannaCrewApproach)"
+  },
+  {
+    "key": "assign|Gianna_is_busy_doing_a_little_bit_of_maintenance_on_her_silicone|8b1668b6d15f",
+    "original": "Gianna is busy doing a little bit of maintenance on her silicone storage system and other machinery, but she does so with her [gianna.ass] aimed at the doorway and her back arched to maximize the effect for anyone walking by.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11773790&gt;&gt;"
+  },
+  {
+    "key": "assign|The_weight_of_her_silicone_padded_tits_keeps_her_more_than_a_li|fd738bf8b974",
+    "original": " The weight of her silicone-padded tits keeps her more than a little off-balance, but she doesn’t seem to mind in the slightest.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11774058&gt;&gt;"
+  },
+  {
+    "key": "assign|And_there_s_a_lot_to_look_at_from_behind_Gianna_s_jiggly_botto|8a730e455e7e",
+    "original": " And there’s a lot to look at from behind. Gianna’s jiggly bottom looks cushiony to the extreme. It wobbles enticingly with her every movement.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11774217&gt;&gt;"
+  },
+  {
+    "key": "assign|The_sight_of_such_a_trim_frame_on_display_seems_almost_comicall|422c7b091378",
+    "original": " The sight of such a trim frame on display seems almost comically out-of-place on someone you found on a planet full of busty cow-girls, but Gianna flaunts it all the same.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11774391&gt;&gt;"
+  },
+  {
+    "key": "assign|Gwon_s_eyes_literally_light_up_at_the_prospect_of_a_sale_and_sh|f1ca0619e659",
+    "original": "Gwon’s eyes literally light up at the prospect of a sale, and she scuttles out from behind the counter to show you her wares.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11780159&gt;&gt;"
+  },
+  {
+    "key": "assign|Zaika_Power_Cell_for_Gwon|66770de6bbdb",
+    "original": "Zaika Power Cell for Gwon",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11780382&gt;&gt;"
+  },
+  {
+    "key": "assign|sea_blue|32ef08dc2afe",
+    "original": "sea blue",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11781808&gt;&gt;"
+  },
+  {
+    "key": "perk|Fixed_CumQ|8047aa84e3d9",
+    "original": "Fixed CumQ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11783659&gt;&gt; createPerk(\"Fixed CumQ\",5e5,0,0,0)"
+  },
+  {
+    "key": "perk|Fixed_CumQ|ae8de53faa1a",
+    "original": "Fixed CumQ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11788914&gt;&gt; createPerk(\"Fixed CumQ\",1e4)"
+  },
+  {
+    "key": "assign|dark_green|36ac0980a3f9",
+    "original": "dark green",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11789055&gt;&gt;"
+  }
+]

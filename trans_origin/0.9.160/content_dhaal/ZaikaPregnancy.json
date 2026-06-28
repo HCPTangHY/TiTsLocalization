@@ -1,0 +1,737 @@
+[
+  {
+    "key": "assign|enhanced_XO|b23bcbf404d1",
+    "original": "enhanced XO",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05561692&gt;&gt;"
+  },
+  {
+    "key": "assign|Enh_XO|9d996a98d0b6",
+    "original": "Enh. XO",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05561722&gt;&gt;"
+  },
+  {
+    "key": "assign|an|7b5685b9d3b0",
+    "original": "an ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05561736&gt;&gt;"
+  },
+  {
+    "key": "assign|An|8c295878e01b",
+    "original": "An ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05561753&gt;&gt;"
+  },
+  {
+    "key": "assign|Implant_thrusters_fire_launching_her_aside|462035a35766",
+    "original": "Implant thrusters fire, launching her aside!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05562797&gt;&gt;"
+  },
+  {
+    "key": "assign|XOs_make_up_the_cybernetically_augmented_core_of_Dhaal_s_police|1fb1928973d3",
+    "original": "XOs make up the cybernetically augmented core of Dhaal’s police forces, but this one takes body modification to the extreme. Decked out from head to toe in metallic mods, she is a walking tornado of destruction just waiting to descend upon you, restrain you, and punish you to the fullest extent of Dhaal’s brutal penal codes. She watches you from behind the metal of her visor with impassive determination. Her tail lashes back and forth behind, tipped with a gleaming blade.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05562851&gt;&gt;"
+  },
+  {
+    "key": "assign|capacitance_club|c8a29c92ee41",
+    "original": "capacitance club",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05563478&gt;&gt;"
+  },
+  {
+    "key": "assign|standard_issue_XO_gun_baton|0e4ff0f5e08c",
+    "original": "standard-issue XO gun-baton",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05563670&gt;&gt;"
+  },
+  {
+    "key": "assign|subdermal_plating|2a481bf5556c",
+    "original": "subdermal plating",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05563856&gt;&gt;"
+  },
+  {
+    "key": "perk|Evasive|cf03a63afc16",
+    "original": "Evasive",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05565126&gt;&gt; createPerk(\"Evasive\",35,50)"
+  },
+  {
+    "key": "combat|You_barely_avoid_getting_pinned_to_the_wall_nShe_recoils_back|0aef278b3aff",
+    "original": " You barely avoid getting pinned to the wall!\\nShe recoils back, unphased. The wall bears a zaika-shaped dent.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05567420&gt;&gt;"
+  },
+  {
+    "key": "combat|Feruze_barely_avoids_getting_pinned_to_the_wall_nThe_XO_recoil|3ca9c95f8293",
+    "original": " Feruze barely avoids getting pinned to the wall!\\nThe XO recoils back, unphased. The wall bears a zaika-shaped dent.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05567547&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|She_pins_var0_getCombatName_to_the_wall_with_bruising_f|a06ae2dfcb39",
+    "original": " She pins \"+{var0}.getCombatName()+\" to the wall with bruising force!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05567682&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\" She pins \"+e.getCombatName()+\" to the wall with bruising force!\")"
+  },
+  {
+    "key": "combat|b_You_are_staggered_b|e37d69af5f88",
+    "original": "<b>You are staggered!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05567948&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|b_var0_getCombatName_is_staggered_b|87ac5736604b",
+    "original": "<b>\"+{var0}.getCombatName()+\" is staggered!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05567992&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\"\\n<b>\"+e.getCombatName()+\" is staggered!</b>\")"
+  },
+  {
+    "key": "combat|Miss|3609c9cea70f",
+    "original": " Miss!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05568309&gt;&gt;"
+  },
+  {
+    "key": "combat|Ouch|8f24374c5c77",
+    "original": " Ouch!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05568333&gt;&gt;"
+  },
+  {
+    "key": "combat|It_misses|65e89aaee9eb",
+    "original": " It misses!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05568619&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|It_slices_var0_It_dices_It_puts_ketchup_on_fries|dc241e9bf685",
+    "original": " It slices!\"+({var0}()?\" It dices! It puts ketchup on fries!\":\"\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05568648&gt;&gt; &lt;&lt;VARS:var0=isSillyModeEnabled&gt;&gt; combatAppend(\" It slices!\"+(isSillyModeEnabled()?\" It dices! It puts ketchup on fries!\":\"\"))"
+  },
+  {
+    "key": "assign|Hazard_Trooper|65d2661dc096",
+    "original": "Hazard Trooper",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05570633&gt;&gt;"
+  },
+  {
+    "key": "assign|the|4670cb9b57bd",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05570707&gt;&gt;"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "stage": 1,
+    "context": "&lt;&lt;POS:05570725&gt;&gt;"
+  },
+  {
+    "key": "assign|Char_blackened_plates_cover_most_of_the_hazard_trooper_s_body_a|61f9db89567a",
+    "original": "Char-blackened plates cover most of the hazard trooper’s body, and what isn’t covered by the plates is guarded by an amber, seemingly opaque bubble helm of exotic design and manufacture. Nevertheless, you feel the masked soldier’s baleful glare lingering on your [pc.skinFurScalesNoun], like she’s already imagining the damage her rivet gun can do to your flesh, though maybe she just likes what she sees? You’ll have to be careful getting close. No zaika, no matter how hot she may be under her armor, can compare to the blazing catastrophe that is her plasma-fueled torch.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05570739&gt;&gt;"
+  },
+  {
+    "key": "assign|She_sidesteps|182a8b329ded",
+    "original": "She sidesteps!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05571347&gt;&gt;"
+  },
+  {
+    "key": "assign|hazard_suit|90b432167052",
+    "original": "hazard suit",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05571509&gt;&gt;"
+  },
+  {
+    "key": "assign|hazard_undersuit|1002890da84f",
+    "original": "hazard undersuit",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05572032&gt;&gt;"
+  },
+  {
+    "key": "assign|plasma_torch|4f1d5043d089",
+    "original": "plasma torch",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05572279&gt;&gt;"
+  },
+  {
+    "key": "assign|a_plasma_torch|1b4fd7468aca",
+    "original": "a plasma torch",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05572330&gt;&gt;"
+  },
+  {
+    "key": "assign|rivet_gun|ca0fc96b51b1",
+    "original": "rivet gun",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05572550&gt;&gt;"
+  },
+  {
+    "key": "assign|a_rivet_gun|b266f0d167cb",
+    "original": "a rivet gun",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05572599&gt;&gt;"
+  },
+  {
+    "key": "textify|The_hazard_suit_trooper_thumps_her_plasma_torch_against_her_thig|510c4071386f",
+    "original": "The hazard suit trooper thumps her plasma torch against her thigh, one-handedly toggling a switch. <i>“Back off,”</i> she growls, lifting it to hose out a wash of staggeringly brilliant plasma.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05576674&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_reel_PlayerCharacter_n_getCl|9ed139618d0a",
+    "original": "\"+{var1}.capitalize({var0})+\" reel\"+(\"PlayerCharacter\"===n.getClassName()||n.isPlural?\"\":\"s\")+\" from the heat!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05577180&gt;&gt; &lt;&lt;VARS:var0=n.getCombatName(),!1,var1=Ot.m&gt;&gt; combatAppend(\"\\n\"+Ot.m.capitalize(n.getCombatName(),!1)+\" reel\"+(\"PlayerCharacter\"===n.getClassName()||n.isPlural?\"\":\"s\")+\" from the heat!\")"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_getCombatPronoun_heshe|de426b51dac8",
+    "original": " <b>\"+{var1}.capitalize({var0}.getCombatPronoun(\"heshe\"))+\" \"+(\"PlayerCharacter\"===n.getClassName()||n.isPlural?\"are\":\"is\")+\" blinded</b>!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05577495&gt;&gt; &lt;&lt;VARS:var0=n,var1=Ot.m&gt;&gt; combatAppend(\" <b>\"+Ot.m.capitalize(n.getCombatPronoun(\"heshe\"))+\" \"+(\"PlayerCharacter\"===n.getClassName()||n.isPlural?\"are\":\"is\")+\" blinded</b>!\")"
+  },
+  {
+    "key": "textify|Enraged_as_her_suit_s_seals_are_breached_the_hazard_suit_troope|c7f77ff97082",
+    "original": "Enraged as her suit’s seals are breached, the hazard suit trooper sweeps her rivet-gun around the room, unleashing an unavoidable spray!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05577800&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|Hot_metal_slams_into_var0_getCombatName|9d7a1327357b",
+    "original": "Hot metal slams into \"+{var0}.getCombatName()+\"!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05578180&gt;&gt; &lt;&lt;VARS:var0=a&gt;&gt; combatAppend(\"\\nHot metal slams into \"+a.getCombatName()+\"!\")"
+  },
+  {
+    "key": "combat|No_amount_of_rivets_can_conceal_the_fact_that_b_she_s_breathing|ba8bc71114cb",
+    "original": "No amount of rivets can conceal the fact that <b>she’s breathing her own gas grenades</b> now...",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05578416&gt;&gt;"
+  },
+  {
+    "key": "combat|b_Rivet_restrained_further_b|d71cf491929f",
+    "original": " <b>Rivet-restrained further!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05578764&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_PlayerCharacter_e_getCla|0a3213e67a54",
+    "original": "<b>\"+{var1}.capitalize({var0})+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"have \"+{var2}.getCombatPronoun(\"hisher\"):\"has \"+{var3}.getCombatPronoun(\"hisher\"))+\" evasion reduced by the embedded rivets!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05578816&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=Ot.m,var2=e,var3=e&gt;&gt; combatAppend(\"\\n<b>\"+Ot.m.capitalize(e.getCombatName(),!1)+\" \"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"have \"+e.getCombatPronoun(\"hisher\"):\"has \"+e.getCombatPronoun(\"hisher\"))+\" evasion reduced by the embedded rivets!</b>\")"
+  },
+  {
+    "key": "combat|She_misses_skidding_to_a_halt_in_frustration|3e873fe097d0",
+    "original": " She misses, skidding to a halt in frustration.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05579325&gt;&gt;"
+  },
+  {
+    "key": "combat|Ouch|a12902be16ad",
+    "original": "Ouch!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05579394&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_getCombatPronoun_he_is_stag|0bf211c8c00a",
+    "original": " <b>\"+{var1}.capitalize({var0}.getCombatPronoun(\"he is\"))+\" staggered!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05579585&gt;&gt; &lt;&lt;VARS:var0=e,var1=Ot.m&gt;&gt; combatAppend(\" <b>\"+Ot.m.capitalize(e.getCombatPronoun(\"he is\"))+\" staggered!</b>\")"
+  },
+  {
+    "key": "combat|Airtight_equipment_would_be_a_blessing_b_You_ll_have_to_win_be|2f861dd21339",
+    "original": "Airtight equipment would be a blessing. <b>You’ll have to win before the aphro gas gets to you!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05580085&gt;&gt;"
+  },
+  {
+    "key": "combat|b_It_burns_b|b0e769d54ceb",
+    "original": "<b>It burns!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05580468&gt;&gt;"
+  },
+  {
+    "key": "assign|tech_thrall|c277fd31f824",
+    "original": "tech thrall",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05581667&gt;&gt;"
+  },
+  {
+    "key": "assign|the|d9e3ca5dc788",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05581737&gt;&gt;"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#1",
+    "original": "The ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05581755&gt;&gt;"
+  },
+  {
+    "key": "assign|Once_the_tech_thrall_s_augments_assisted_with_any_heavy_lifting|d13c171ee7e3",
+    "original": "Once, the tech thrall’s augments assisted with any heavy lifting that Paragon needed done. Now, the hulking brute only carries hostility for Ehura’s enemies - and a convenient pipe she tored out of the wall.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05581769&gt;&gt;"
+  },
+  {
+    "key": "assign|She_shuffles_aside_at_precisely_the_correct_moment|d53a45dc6d7c",
+    "original": "She shuffles aside at precisely the correct moment.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05582010&gt;&gt;"
+  },
+  {
+    "key": "assign|defensive_augmentations|56b6d53ee927",
+    "original": "defensive augmentations",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05582573&gt;&gt;"
+  },
+  {
+    "key": "assign|tech_savant|4ed3a7015cab",
+    "original": "tech savant",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05585809&gt;&gt;"
+  },
+  {
+    "key": "assign|the|a4a4ca2371ca",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05585879&gt;&gt;"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#2",
+    "original": "The ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05585897&gt;&gt;"
+  },
+  {
+    "key": "assign|The_tech_savant_is_more_technology_than_flesh_Cybernetics_coat|b3addc5a65c0",
+    "original": "The tech savant is more technology than flesh. Cybernetics coat near every exposed inch of her body. Fingers augmented with digital interlinks wrap around the hilt of a sophisticated laser pistol. Other, nameless modifications poke through her paragon-branded jumpsuit, making her look a bit like a mechanical hedgehog. Empty, soulless eyes stare at you. Ehura owns her body now.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05585911&gt;&gt;"
+  },
+  {
+    "key": "assign|She_shuffles_aside_at_precisely_the_correct_moment|7d9179b779b6",
+    "original": "She shuffles aside at precisely the correct moment.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05586324&gt;&gt;"
+  },
+  {
+    "key": "assign|defensive_augmentations|56b6d53ee927#1",
+    "original": "defensive augmentations",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05586922&gt;&gt;"
+  },
+  {
+    "key": "assign|dark_purple|4ca0522cda78",
+    "original": "dark purple",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05587869&gt;&gt;"
+  },
+  {
+    "key": "assign|dark_purple|31630487d882",
+    "original": "dark purple",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05589092&gt;&gt;"
+  },
+  {
+    "key": "assign|Ehura_appears_as_a_face_on_a_monitor_watching_impassively_Her|c5ab8edbe0b4",
+    "original": "Ehura appears as a face on a monitor, watching impassively. Her allegience is as unclear as her capabilities. <b>You cannot fight her directly, but she may attempt to sway the tides of battle nonetheless.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05590746&gt;&gt;"
+  },
+  {
+    "key": "assign|Ehura_IS_the_facility_A_mere_attack_accomplishes_nothing|0e5230702324",
+    "original": "Ehura IS the facility. A mere attack accomplishes nothing.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05590971&gt;&gt;"
+  },
+  {
+    "key": "assign|The_machine_s_thick_plates_cause_the_attack_to_glance_off_into_t|2417e9c32d78",
+    "original": "The machine’s thick plates cause the attack to glance off into the wilderness!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05591046&gt;&gt;"
+  },
+  {
+    "key": "assign|metal_plates|6e5665d4a090",
+    "original": "metal plates",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05591282&gt;&gt;"
+  },
+  {
+    "key": "assign|Rizzon_Zau|e7cdbebd9246",
+    "original": "Rizzon Zau",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05596546&gt;&gt;"
+  },
+  {
+    "key": "assign|A_fearsome_titan_of_flesh_and_metal_Fabricator_Marshall_Rizzon|222def26e434",
+    "original": "A fearsome titan of flesh and metal, Fabricator Marshall Rizzon Zau looms tall over the battlefield, hefting her rotary autocannon as easily as a lesser zaika might tote a broomstick. The lines of her cybernetic augments spiderweb across every inch of exposed ‘skin’ - that looks as hard as a tank’s armor plating. She smiles with all the mirth of a feral shark, her cybernetic eyes burning with determination and hate for all who would stand in the way of her aspirations. You face Dhaal’s most violent titan of industry herself. She does not seem worried.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05596632&gt;&gt;"
+  },
+  {
+    "key": "assign|cybernetic_fist|095156411e5c",
+    "original": "cybernetic fist",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05597398&gt;&gt;"
+  },
+  {
+    "key": "assign|a_cybernetic_fist|4a3d69a6eb78",
+    "original": "a cybernetic fist",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05597452&gt;&gt;"
+  },
+  {
+    "key": "assign|prototype_rotary_autocannon|48833495f81c",
+    "original": "prototype rotary autocannon",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05597825&gt;&gt;"
+  },
+  {
+    "key": "assign|a_prototype_rotary_autocannon|93efee4f2658",
+    "original": "a prototype rotary autocannon",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05597892&gt;&gt;"
+  },
+  {
+    "key": "assign|explosive_shot|a4f1a9dfe421",
+    "original": "explosive shot",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05598004&gt;&gt;"
+  },
+  {
+    "key": "assign|defensive_augmentations|e8dddf1ae211",
+    "original": "defensive augmentations",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05598125&gt;&gt;"
+  },
+  {
+    "key": "assign|deep_purple|0393ce20860b",
+    "original": "deep purple",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05599239&gt;&gt;"
+  },
+  {
+    "key": "perk|Juggernaut|f7e13ef6732c",
+    "original": "Juggernaut",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05600690&gt;&gt; createPerk(\"Juggernaut\")"
+  },
+  {
+    "key": "desc.long|Fabricator_Marshal_Rizzon_Zau_stands_before_you_or_her_body_a|0d97eb356ecc",
+    "original": "Fabricator Marshal Rizzon Zau stands before you - or her body, anyway. Her mind is locked away, overridden by the inexorable pressure of an AI’s instantly reconfigurable body-jacking scripts. The giant zaika’s heavily augmented body glows faintly, her cybernetics clocked up to the absolute breaking point. Heat radiates off of her in waves as she hefts her multibarrelled autocannon vaguely in your direction, more than willing to destroy any organic life that threatens Ehura’s vision of Paragon’s future.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05602074&gt;&gt;"
+  },
+  {
+    "key": "desc.long|Overtaken_by_an_untested_mod_Fabricator_Marshal_Rizzon_Zau_s_bo|60dcbb1e9ddc",
+    "original": "Overtaken by an untested mod, Fabricator Marshal Rizzon Zau’s body almost looks almost mutated. Her digitally controlled, cable-corded muscles bulge obscenely, radiating a heat and light from the cracks like crusted over lava. The rotary autocannon in her hands looks almost tiny by comparison - a tank barrel would be a better fit. She howls in bestial rage as she confronts you, burning herself out for one final, glorious battle.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05602966&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|PlayerCharacter_e_getClassName_You_dive_var0_getCom|20fae7773105",
+    "original": "\"+(\"PlayerCharacter\"===e.getClassName()?\"You dive\":{var0}.getCombatName()+\" dives\")+\" through her legs at the last second.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05605239&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\"\\n\"+(\"PlayerCharacter\"===e.getClassName()?\"You dive\":e.getCombatName()+\" dives\")+\" through her legs at the last second.\")"
+  },
+  {
+    "key": "combat|She_hits|3092ecefbe8c",
+    "original": " She hits!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05605374&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|PlayerCharacter_n_getClassName_Ow_var1_capitalize|f651de29698d",
+    "original": "\"+(\"PlayerCharacter\"===n.getClassName()?\"Ow!\":{var1}.capitalize({var0}.getCombatName())+\" can’t dodge Zau’s voice!\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05605992&gt;&gt; &lt;&lt;VARS:var0=n,var1=Ot.m&gt;&gt; combatAppend(\"\\n\"+(\"PlayerCharacter\"===n.getClassName()?\"Ow!\":Ot.m.capitalize(n.getCombatName())+\" can’t dodge Zau’s voice!\"))"
+  },
+  {
+    "key": "combat|The_overheating_weapon_seizes_up_with_a_horrendous_screech_b_Z|36ac5de35642",
+    "original": "The overheating weapon seizes up with a horrendous screech. <b>Zau’s overloaded weapon can no longer fire!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05607628&gt;&gt;"
+  },
+  {
+    "key": "assign|broken_rotary_autocannon|c6759c39ac7c",
+    "original": "broken rotary autocannon",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05607942&gt;&gt;"
+  },
+  {
+    "key": "assign|a_broken_rotary_autocannon|b1065b1807ba",
+    "original": "a broken rotary autocannon",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05608005&gt;&gt;"
+  },
+  {
+    "key": "assign|cybernetic_fist|18bcd2135bf5",
+    "original": "cybernetic fist",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05608461&gt;&gt;"
+  },
+  {
+    "key": "assign|a_cybernetic_fist|4a3d69a6eb78#1",
+    "original": "a cybernetic fist",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05608515&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_getCombatName_PlayerCharacte|191c6fcc71cf",
+    "original": "\"+{var1}.capitalize({var0}.getCombatName())+\" \"+(\"PlayerCharacter\"===n.getClassName()||n.isPlural?\"are\":\"is\")+\" shocked!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05608964&gt;&gt; &lt;&lt;VARS:var0=n,var1=Ot.m&gt;&gt; combatAppend(\"\\n\"+Ot.m.capitalize(n.getCombatName())+\" \"+(\"PlayerCharacter\"===n.getClassName()||n.isPlural?\"are\":\"is\")+\" shocked!\")"
+  },
+  {
+    "key": "assign|geddanium_knee|d4991eb58e80",
+    "original": "geddanium knee",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05609336&gt;&gt;"
+  },
+  {
+    "key": "assign|a_geddanium_knee|29c7c583402e",
+    "original": "a geddanium knee",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05609389&gt;&gt;"
+  },
+  {
+    "key": "assign|cybernetic_fist|31d2c8f229cd",
+    "original": "cybernetic fist",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05609922&gt;&gt;"
+  },
+  {
+    "key": "assign|a_cybernetic_fist|4a3d69a6eb78#2",
+    "original": "a cybernetic fist",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05609976&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|PlayerCharacter_e_getClassName_You_dodge_var0_getCo|62605c153814",
+    "original": "\"+(\"PlayerCharacter\"===e.getClassName()?\"You dodge\":{var0}.getCombatName()+\" dodges\")+\", and Zau pivots with the aid of back-mounted thrusters to face \"+{var1}.getCombatName()+\" once more!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05610328&gt;&gt; &lt;&lt;VARS:var0=e,var1=e&gt;&gt; combatAppend(\"\\n\"+(\"PlayerCharacter\"===e.getClassName()?\"You dodge\":e.getCombatName()+\" dodges\")+\", and Zau pivots with the aid of back-mounted thrusters to face \"+e.getCombatName()+\" once more!\")"
+  },
+  {
+    "key": "combat|She_connects|ce2a75cab7ab",
+    "original": "She connects!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05610526&gt;&gt;"
+  },
+  {
+    "key": "combat|But_she_didn_t_count_on_slamming_into_an_even_stouter_foe_Z|9e8c4a9a92c6",
+    "original": " ...But she didn’t count on slamming into an even stouter foe! Zau deflects off to one side with a wince, <b>staggered!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05610698&gt;&gt;"
+  },
+  {
+    "key": "combat|The_impact_throws_you_but_you_twist_around_to_keep_your_pc_fe|0e46576d4691",
+    "original": " The impact throws you, but you twist around to keep your [pc.feet] under you, <b>staggered</b> instead of knocked prone!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05610915&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|The_impact_throws_var0_getCombatName_flat_on_the_ground|9bc4cb820db2",
+    "original": " The impact throws \"+{var0}.getCombatName()+\" flat on the ground, <b>staggered and tripped!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05611078&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\" The impact throws \"+e.getCombatName()+\" flat on the ground, <b>staggered and tripped!</b>\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_getCombatName_PlayerCharacte|f82606804203",
+    "original": "\"+{var1}.capitalize({var0}.getCombatName())+\" \"+(\"PlayerCharacter\"!==e.getClassName()&&e.isPlural?\"dodge\":\"dodges\")+\" aside. The microgrenade flashes into nothingness, robbed of its purpose.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05611509&gt;&gt; &lt;&lt;VARS:var0=e,var1=Ot.m&gt;&gt; combatAppend(\"\\n\"+Ot.m.capitalize(e.getCombatName())+\" \"+(\"PlayerCharacter\"!==e.getClassName()&&e.isPlural?\"dodge\":\"dodges\")+\" aside. The microgrenade flashes into nothingness, robbed of its purpose.\")"
+  },
+  {
+    "key": "combat.expr|It_flies_true_flashing_with_fizzing_shield_obliterating_light|7759f3f22d40",
+    "original": "It flies true, flashing with fizzing, shield-obliterating light against \"+{var0}.getCombatName()+\"!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05611712&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\"\\nIt flies true, flashing with fizzing, shield-obliterating light against \"+e.getCombatName()+\"!\")"
+  },
+  {
+    "key": "combat|concat_Ot_m_capitalize_n_getCombatName_concat_PlayerC|596894b0e247",
+    "original": "\".concat(Ot.m.capitalize(n.getCombatName()),\" \").concat(\"PlayerCharacter\"===n.getClassName()||n.isPlural?\"are\":\"is\",\" immune from being blinded!\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05612308&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_getCombatName_close_PlayerCha|0979cd28ef01",
+    "original": "\"+{var1}.capitalize({var0}.getCombatName())+\" close\"+(\"PlayerCharacter\"===n.getClassName()?\" your\":\"s \"+{var2}.getCombatPronoun(\"hisher\"))+\" eyes in time to prevent from being blinded!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05612515&gt;&gt; &lt;&lt;VARS:var0=n,var1=Ot.m,var2=n&gt;&gt; combatAppend(\"\\n\"+Ot.m.capitalize(n.getCombatName())+\" close\"+(\"PlayerCharacter\"===n.getClassName()?\" your\":\"s \"+n.getCombatPronoun(\"hisher\"))+\" eyes in time to prevent from being blinded!\")"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_getCombatName_PlayerChara|cf5394fd2520",
+    "original": "<b>\"+{var1}.capitalize({var0}.getCombatName())+\" \"+(\"PlayerCharacter\"===n.getClassName()||n.isPlural?\"are\":\"is\")+\" blinded</b> by the brilliant flashes!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05612707&gt;&gt; &lt;&lt;VARS:var0=n,var1=Ot.m&gt;&gt; combatAppend(\"\\n<b>\"+Ot.m.capitalize(n.getCombatName())+\" \"+(\"PlayerCharacter\"===n.getClassName()||n.isPlural?\"are\":\"is\")+\" blinded</b> by the brilliant flashes!\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_getCombatName_keep_var2_getCo|9d79f21b97d0",
+    "original": "\"+{var1}.capitalize({var0}.getCombatName())+\" keep\"+{var2}.getCombatPronoun(\"hisher\")+\" wits about \"+{var3}.getCombatPronoun(\"himher\")+\".",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05612936&gt;&gt; &lt;&lt;VARS:var0=n,var1=Ot.m,var2=n,var3=n&gt;&gt; combatAppend(\"\\n\"+Ot.m.capitalize(n.getCombatName())+\" keep\"+n.getCombatPronoun(\"hisher\")+\" wits about \"+n.getCombatPronoun(\"himher\")+\".\")"
+  },
+  {
+    "key": "combat.expr|b_var1_capitalize_var0_getCombatName_PlayerChara|e25a46159c69",
+    "original": "<b>\"+{var1}.capitalize({var0}.getCombatName())+\" \"+(\"PlayerCharacter\"===n.getClassName()?\"are\":\"is\")+\" stunned</b> by the concussive shockwaves!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05613076&gt;&gt; &lt;&lt;VARS:var0=n,var1=Ot.m&gt;&gt; combatAppend(\"\\n<b>\"+Ot.m.capitalize(n.getCombatName())+\" \"+(\"PlayerCharacter\"===n.getClassName()?\"are\":\"is\")+\" stunned</b> by the concussive shockwaves!\")"
+  },
+  {
+    "key": "combat.expr|Miraculously_var0_getCombatName_manage_PlayerCharact|0d7c02808841",
+    "original": "Miraculously, \"+{var0}.getCombatName()+\" manage\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" to roll aside on the rapidly cratering floor, grazed by fragments of shattering concrete.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05614132&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\"\\nMiraculously, \"+e.getCombatName()+\" manage\"+(\"PlayerCharacter\"===e.getClassName()||e.isPlural?\"\":\"s\")+\" to roll aside on the rapidly cratering floor, grazed by fragments of shattering concrete.\")"
+  },
+  {
+    "key": "combat|b_Ow_b|312da797734a",
+    "original": "<b>Ow.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05614486&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_getClassName_takes_the_hit_Ouch|4263c5d7aeb8",
+    "original": "\"+{var1}.capitalize({var0}.getClassName())+\" takes the hit. Ouch!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05614515&gt;&gt; &lt;&lt;VARS:var0=e,var1=Ot.m&gt;&gt; combatAppend(\"\\n\"+Ot.m.capitalize(e.getClassName())+\" takes the hit. Ouch!\")"
+  },
+  {
+    "key": "combat|You_wisely_hold_your_breath_before_the_gas_grenade_can_even_begi|21b251b6f613",
+    "original": "You wisely hold your breath before the gas grenade can even begin to spew its drugged payload, then kick it away to an empty corner.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05614982&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_getCombatName_smartly_hold_va|78bcec7a4a35",
+    "original": "\"+{var1}.capitalize({var0}.getCombatName())+\" smartly hold\"+({var2}?\" their\":\"s \"+{var3}.mfn(\"his\",\"her\",\"its\"))+\" breath before the gas grenade can begin to spew its noxious payload, and kicks it away to a corner.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05615133&gt;&gt; &lt;&lt;VARS:var0=e,var1=Ot.m,var2=e.isPlural,var3=e&gt;&gt; combatAppend(\"\\n\"+Ot.m.capitalize(e.getCombatName())+\" smartly hold\"+(e.isPlural?\" their\":\"s \"+e.mfn(\"his\",\"her\",\"its\"))+\" breath before the gas grenade can begin to spew its noxious payload, and kicks it away to a corner.\")"
+  },
+  {
+    "key": "combat|You_kick_away_the_obvious_grenade_but_not_before_accidentally_i|7274bddde4ed",
+    "original": "You kick away the obvious grenade, but not before accidentally inhaling a bit of the tranquilizing gas it spews. <b>You are tranquilized!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05615396&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_getCombatName_kick_var2|51c5f8b33725",
+    "original": "\"+{var1}.capitalize({var0}.getCombatName())+\" kick\"+({var2}?\"\":\"s\")+\" away the grenade but still inhale\"+({var3}?\"\":\"s\")+\" wisps of its spraying vapors. <b>\"+({var4}?\"They are\":{var5}.mfn(\"He\",\"She\",\"It\")+\" is\")+\" tranquilized!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:05615556&gt;&gt; &lt;&lt;VARS:var0=e,var1=Ot.m,var2=e.isPlural,var3=e.isPlural,var4=e.isPlural,var5=e&gt;&gt; combatAppend(\"\\n\"+Ot.m.capitalize(e.getCombatName())+\" kick\"+(e.isPlural?\"\":\"s\")+\" away the grenade but still inhale\"+(e.isPlural?\"\":\"s\")+\" wisps of its spraying vapors. <b>\"+(e.isPlural?\"They are\":e.mfn(\"He\",\"She\",\"It\")+\" is\")+\" tranquilized!</b>\")"
+  }
+]

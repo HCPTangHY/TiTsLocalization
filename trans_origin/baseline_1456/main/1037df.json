@@ -1,0 +1,44 @@
+[
+  {
+    "key": "combat|You_manage_to_duck_under_the_tentacle_which_swiftly_returns_to|ae9d44a9b16a",
+    "original": " You manage to duck under the tentacle, which swiftly returns to its normal size.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00659404&gt;&gt;"
+  },
+  {
+    "key": "combat|The_slap_connects_with_a_sharp_whip_crack_sending_you_briefly|b126fc14474e",
+    "original": " The slap connects with a sharp whip crack, sending you briefly staggering before you recover your stance.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00659507&gt;&gt;"
+  },
+  {
+    "key": "combat|You_find_yourself_caught_in_the_tendrils_A_painful_shock_wrack|ea9409f50c42",
+    "original": " You find yourself caught in the tendrils. A painful shock wracks your body, accompanied by a draining sensation. It’s sucking out your energy! <b>You’ve been grappled!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00661528&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|The_lightning_leaves_a_black_scorch_mark_on_the_wall_as_you_rol|791588ea22ab",
+    "original": " The lightning leaves a black scorch mark on the wall as you roll out of the way just in time. You notice the jellyfish wobbling a little in the aftermath of the attack, its glow visibly dimmed.\"+({var0}?\" Cracks have even formed on its tentacles.\":\"\")+{var1}",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00660518&gt;&gt; &lt;&lt;VARS:var0=t&gt;0,var1=a&gt;&gt; combatAppend(\" The lightning leaves a black scorch mark on the wall as you roll out of the way just in time. You notice the jellyfish wobbling a little in the aftermath of the attack, its glow visibly dimmed.\"+(t&gt;0?\" Cracks have even formed on its tentacles.\":\"\")+a)"
+  },
+  {
+    "key": "combat.expr|You_feel_the_searing_heat_of_the_electric_blast_wrack_your_body|3703bab1fe89",
+    "original": " You feel the searing heat of the electric blast wrack your body as it connects. It’s a small comfort that unleashing such an attack has left the alien looking noticeably drained.\"+({var0}?\" Spiderweb cracks have formed on its dome.\":\"\")+{var1}",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00660790&gt;&gt; &lt;&lt;VARS:var0=t&gt;0,var1=a&gt;&gt; combatAppend(\" You feel the searing heat of the electric blast wrack your body as it connects. It’s a small comfort that unleashing such an attack has left the alien looking noticeably drained.\"+(t&gt;0?\" Spiderweb cracks have formed on its dome.\":\"\")+a)"
+  },
+  {
+    "key": "combat|You_manage_to_duck_down_under_the_mass_of_writhing_tendrils_wh|e2880a361a46",
+    "original": " You manage to duck down under the mass of writhing tendrils, which soon retract. How can it do that?!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00661404&gt;&gt;"
+  }
+]

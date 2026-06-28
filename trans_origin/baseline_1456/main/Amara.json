@@ -1,0 +1,149 @@
+[
+  {
+    "key": "perk|Attack_Drone|ea28c0b2420e",
+    "original": "Attack Drone",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00731877&gt;&gt; createPerk(\"Attack Drone\",0,0,0,0,\"Attack Drone!\")"
+  },
+  {
+    "key": "combat|you_and_Kara|d5f8c4603d84",
+    "original": " you and Kara",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00733260&gt;&gt;"
+  },
+  {
+    "key": "combat|you|d1a43bb7cbf6",
+    "original": " you",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00733290&gt;&gt;"
+  },
+  {
+    "key": "combat|scorching_the_air_well_over_her_target|89ff1de86af7",
+    "original": " scorching the air well over her target.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00733758&gt;&gt;"
+  },
+  {
+    "key": "combat|you_and_Kara|8b6efb21209c",
+    "original": " you and Kara",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00734563&gt;&gt;"
+  },
+  {
+    "key": "combat|you|d1a43bb7cbf6#1",
+    "original": " you",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00734599&gt;&gt;"
+  },
+  {
+    "key": "combat|Kara|63b445b4922a",
+    "original": " Kara",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00734620&gt;&gt;"
+  },
+  {
+    "key": "combat|and_you_have|b5abda298c51",
+    "original": " and you have",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00734672&gt;&gt;"
+  },
+  {
+    "key": "combat|and_Kara_has|ff6475860dae",
+    "original": " and Kara has",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00734714&gt;&gt;"
+  },
+  {
+    "key": "combat|that_you_both_have|f875a6285a6c",
+    "original": " that you both have",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00734758&gt;&gt;"
+  },
+  {
+    "key": "combat|the_quick_sense_to_evade_before_they_detonate|4b10d30bc5cf",
+    "original": " the quick sense to evade before they detonate",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00734794&gt;&gt;"
+  },
+  {
+    "key": "combat|showering_the_helipad_in_shrapnel|64009c07cdd1",
+    "original": ", showering the helipad in shrapnel.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00734858&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|bathing_var0_you_her_in_fire|b3386b0520fb",
+    "original": " bathing \"+({var0}?\"you\":\"her\")+\" in fire!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00733816&gt;&gt; &lt;&lt;VARS:var0=e instanceof b.n&gt;&gt; combatAppend(\" bathing \"+(e instanceof b.n?\"you\":\"her\")+\" in fire!\")"
+  },
+  {
+    "key": "combat.expr|b_var0_You_are_Kara_is_burning_b|6679a83a9b02",
+    "original": " <b>\"+({var0}?\"You are\":\"Kara is\")+\" burning!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00734051&gt;&gt; &lt;&lt;VARS:var0=e instanceof b.n&gt;&gt; combatAppend(\" <b>\"+(e instanceof b.n?\"You are\":\"Kara is\")+\" burning!</b>\")"
+  },
+  {
+    "key": "combat|that_detonate_all_over|89c79d3deef1",
+    "original": " that detonate all over",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00734518&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var0_You_manage_Kara_manages_to_dodge_to_the_side|0f0d143dfd1c",
+    "original": " \"+({var0}?\"You manage\":\"Kara manages\")+\" to dodge to the side, letting the power-armor clad pirate hurtle past.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00735428&gt;&gt; &lt;&lt;VARS:var0=e instanceof b.n&gt;&gt; combatAppend(\" \"+(e instanceof b.n?\"You manage\":\"Kara manages\")+\" to dodge to the side, letting the power-armor clad pirate hurtle past.\")"
+  },
+  {
+    "key": "combat.expr|Amara_slams_into_var0_you_Kara_sending_var1|d010a6eac6b8",
+    "original": " Amara slams into \"+({var0}?\"you\":\"Kara\")+\", sending \"+({var1}?\"you\":\"her\")+\" hurling to the ground with bone-crushing force.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00735568&gt;&gt; &lt;&lt;VARS:var0=e instanceof b.n,var1=e instanceof b.n&gt;&gt; combatAppend(\" Amara slams into \"+(e instanceof b.n?\"you\":\"Kara\")+\", sending \"+(e instanceof b.n?\"you\":\"her\")+\" hurling to the ground with bone-crushing force.\")"
+  },
+  {
+    "key": "combat.expr|b_var0_You_smash_Kara_smashes_back_first_into_the|bca727718f72",
+    "original": " <b>\"+({var0}?\"You smash\":\"Kara smashes\")+\" back-first into the floor, HARD.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00735905&gt;&gt; &lt;&lt;VARS:var0=e instanceof b.n&gt;&gt; combatAppend(\" <b>\"+(e instanceof b.n?\"You smash\":\"Kara smashes\")+\" back-first into the floor, HARD.</b>\")"
+  },
+  {
+    "key": "combat.expr|var0_You_manage_Kara_manages_to_duck_out_of_the_way|30d0492f6c81",
+    "original": " \"+({var0}?\"You manage\":\"Kara manages\")+\" to duck out of the way at the last moment. Amara slams into the ground where \"+({var1}?\"you were\":\"Kara was\")+\" standing with tremendous force, leaving a crater where she landed.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00736315&gt;&gt; &lt;&lt;VARS:var0=e instanceof b.n,var1=e instanceof b.n&gt;&gt; combatAppend(\" \"+(e instanceof b.n?\"You manage\":\"Kara manages\")+\" to duck out of the way at the last moment. Amara slams into the ground where \"+(e instanceof b.n?\"you were\":\"Kara was\")+\" standing with tremendous force, leaving a crater where she landed.\")"
+  },
+  {
+    "key": "combat.expr|Amara_slams_into_var0_your_Kara_s_face_jumpjets_fi|f958c99f2fe1",
+    "original": " Amara slams into \"+({var0}?\"your\":\"Kara’s\")+\" face, jumpjets first, throwing \"+({var1}?\"you\":\"her\")+\" to the ground with bone-crushing force, driving \"+({var2}?\"you\":\"her\")+\" into a crater.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00736573&gt;&gt; &lt;&lt;VARS:var0=e instanceof b.n,var1=e instanceof b.n,var2=e instanceof b.n&gt;&gt; combatAppend(\" Amara slams into \"+(e instanceof b.n?\"your\":\"Kara’s\")+\" face, jumpjets first, throwing \"+(e instanceof b.n?\"you\":\"her\")+\" to the ground with bone-crushing force, driving \"+(e instanceof b.n?\"you\":\"her\")+\" into a crater.\")"
+  },
+  {
+    "key": "combat.expr|b_var0_You_are_Kara_is_stunned_b|591a297762d1",
+    "original": " <b>\"+({var0}?\"You are\":\"Kara is\")+\" stunned!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00737016&gt;&gt; &lt;&lt;VARS:var0=e instanceof b.n&gt;&gt; combatAppend(\" <b>\"+(e instanceof b.n?\"You are\":\"Kara is\")+\" stunned!</b>\")"
+  }
+]

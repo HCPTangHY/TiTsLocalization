@@ -1,0 +1,107 @@
+[
+  {
+    "key": "assign|zaika_bruiser|5e193ec63922",
+    "original": "zaika bruiser",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02007674&gt;&gt;"
+  },
+  {
+    "key": "assign|the|b8d4af01aec9",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02007743&gt;&gt;"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "stage": 1,
+    "context": "&lt;&lt;POS:02007761&gt;&gt;"
+  },
+  {
+    "key": "assign|This_girl_is_big_all_over_Every_aspect_of_her_from_height_to|36cb205dfeca",
+    "original": "This girl is big all over. Every aspect of her, from height, to muscle tone, to personality, screams “I will fuck you up and have fun doing it!” Sporting a heavy crowbar and a metal-augmented fist, she’s ready to dish out a beating to anyone who dares to get in the way of the riot, and right now, that’s you.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02007775&gt;&gt;"
+  },
+  {
+    "key": "assign|The_bruiser_lunges_out_of_the_way|a74eccc98ed8",
+    "original": "The bruiser lunges out of the way!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02008118&gt;&gt;"
+  },
+  {
+    "key": "assign|defensive_augmentations|e5f92b7eaef3",
+    "original": "defensive augmentations",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02008828&gt;&gt;"
+  },
+  {
+    "key": "assign|deep_purple|0393ce20860b",
+    "original": "deep purple",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02009409&gt;&gt;"
+  },
+  {
+    "key": "perk|Juggernaut|f7e13ef6732c",
+    "original": "Juggernaut",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02010931&gt;&gt; createPerk(\"Juggernaut\")"
+  },
+  {
+    "key": "combat|it_misses|5ca246e02c31",
+    "original": " it misses!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02012797&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|She_misses_var0_getCombatName|212ec3319314",
+    "original": "She misses \"+{var0}.getCombatName()+\"!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02013105&gt;&gt; &lt;&lt;VARS:var0=t[o]&gt;&gt; combatAppend(\"\\nShe misses \"+t[o].getCombatName()+\"!\")"
+  },
+  {
+    "key": "combat.expr|She_hits_var0_getCombatName|4821bc5ca8b7",
+    "original": "She hits \"+{var0}.getCombatName()+\"!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02013161&gt;&gt; &lt;&lt;VARS:var0=t[o]&gt;&gt; combatAppend(\"\\nShe hits \"+t[o].getCombatName()+\"!\")"
+  },
+  {
+    "key": "combat|It_misses|c8a70ffeef31",
+    "original": "It misses!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02013471&gt;&gt;"
+  },
+  {
+    "key": "combat|Miss|61a07a8e69fa",
+    "original": "Miss!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02014052&gt;&gt;"
+  },
+  {
+    "key": "combat|b_She_s_burning_b|a750501d9135",
+    "original": "<b>She’s burning!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02014258&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|b_var0_Ya_burnt_You_re_burning_b|4e5a6ea3a8f0",
+    "original": "<b>\"+({var0}()?\"Ya burnt!\":\"You’re burning!\")+\"</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02014298&gt;&gt; &lt;&lt;VARS:var0=isSillyModeEnabled&gt;&gt; combatAppend(\"\\n<b>\"+(isSillyModeEnabled()?\"Ya burnt!\":\"You’re burning!\")+\"</b>\")"
+  }
+]

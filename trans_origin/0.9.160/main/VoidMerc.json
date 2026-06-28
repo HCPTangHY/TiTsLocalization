@@ -1,0 +1,142 @@
+[
+  {
+    "key": "assign|mercenary_guard|4892073df27b",
+    "original": "mercenary guard",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01603555&gt;&gt;"
+  },
+  {
+    "key": "assign|the|be10e0d8c60c",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01603627&gt;&gt;"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "stage": 1,
+    "context": "&lt;&lt;POS:01603645&gt;&gt;"
+  },
+  {
+    "key": "assign|A_gruff_weathered_human_man_with_a_long_faded_brown_coat_pulle|5b29b5fb3d07",
+    "original": "A gruff, weathered human man with a long, faded-brown coat pulled over a ballistic vest. He’s packing a pump-action shotgun and a bandolier full of grenades and other goodies.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01603659&gt;&gt;"
+  },
+  {
+    "key": "assign|The_mercs_armor_deflects_your_attack_with_an_alarming_ease|d43f69963262",
+    "original": "The mercs armor deflects your attack with an alarming ease.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01603851&gt;&gt;"
+  },
+  {
+    "key": "assign|ballistic_armor|627d1fdd0bf7",
+    "original": "ballistic armor",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01604271&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var0_You_just_var1_var2_manage_var3_s|6755aa9ea8f9",
+    "original": " \"+({var0}?\"You just\":{var1}+{var2})+\" manage\"+({var3}?\"\":\"s\")+\" to duck under the swing, evading the pirate’s attack!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01606867&gt;&gt; &lt;&lt;VARS:var0=e instanceof p.n,var1=e.capitalA,var2=e.short,var3=e instanceof p.n||e.isPlural&gt;&gt; combatAppend(\" \"+(e instanceof p.n?\"You just\":e.capitalA+e.short)+\" manage\"+(e instanceof p.n||e.isPlural?\"\":\"s\")+\" to duck under the swing, evading the pirate’s attack!\")"
+  },
+  {
+    "key": "combat|You_take_a_shock_right_to_the_chest_zapping_you_b_Worse_you|ca0c937d8e3f",
+    "original": " You take a shock right to the chest, zapping you! <b>Worse, you’re stunned!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01607057&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var0_var1_take_var2_s_a_shock_right_to_the|7772fe678515",
+    "original": " \"+{var0}+{var1}+\" take\"+({var2}?\"\":\"s\")+\" a shock right to the chest! <b>\"+({var3}?\"They\":{var4}.mfn(\"He\",\"She\",\"It\"))+\" look\"+({var5}?\"\":\"s\")+\" a little unsteady on \"+({var6}?\"their\":{var7}.mfn(\"his\",\"her\",\"its\"))+\" feet!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01607154&gt;&gt; &lt;&lt;VARS:var0=e.capitalA,var1=e.short,var2=e.isPlural,var3=e.isPlural,var4=e,var5=e.isPlural,var6=e.isPlural,var7=e&gt;&gt; combatAppend(\" \"+e.capitalA+e.short+\" take\"+(e.isPlural?\"\":\"s\")+\" a shock right to the chest! <b>\"+(e.isPlural?\"They\":e.mfn(\"He\",\"She\",\"It\"))+\" look\"+(e.isPlural?\"\":\"s\")+\" a little unsteady on \"+(e.isPlural?\"their\":e.mfn(\"his\",\"her\",\"its\"))+\" feet!</b>\")"
+  },
+  {
+    "key": "combat|you|b64cb587ef87",
+    "original": " you,",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01607680&gt;&gt;"
+  },
+  {
+    "key": "combat|Saendra|aedf1f698bfc",
+    "original": " Saendra,",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01607719&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var0_var1|45327ea0837e",
+    "original": " \"+{var0}+{var1}+\",",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01607745&gt;&gt; &lt;&lt;VARS:var0=e.a,var1=e.short&gt;&gt; combatAppend(\" \"+e.a+e.short+\",\")"
+  },
+  {
+    "key": "combat|but_buries_itself_harmlessly_in_the_wall|7f509b9eceaf",
+    "original": " but buries itself harmlessly in the wall.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01607800&gt;&gt;"
+  },
+  {
+    "key": "combat|swinging_around_and_around_until_it_binds|738e2cc46675",
+    "original": " swinging around and around until it binds",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01607860&gt;&gt;"
+  },
+  {
+    "key": "combat|your_arms_to_your_side_You_are|a2c18ec5b25b",
+    "original": " your arms to your side. You are",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01607937&gt;&gt;"
+  },
+  {
+    "key": "combat|her_arms_against_her_side_Saendra_is|dc86385976ea",
+    "original": " her arms against her side. Saendra is",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01608067&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var0_their_var1_mfn_his_her_their_arms_again|ecf0cc4a32bc",
+    "original": " \"+({var0}?\"their\":{var1}.mfn(\"his\",\"her\",\"their\"))+\" arms against \"+{var2}.mfn(\"his\",\"her\",\"their\")+\" side\"+({var3}?\"s\":\"\")+\". \"+{var4}+{var5}+\" \"+({var6}?\"are\":\"is\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01608143&gt;&gt; &lt;&lt;VARS:var0=e.isPlural,var1=e,var2=e,var3=e.isPlural,var4=e.capitalA,var5=e.short,var6=e.isPlural&gt;&gt; combatAppend(\" \"+(e.isPlural?\"their\":e.mfn(\"his\",\"her\",\"their\"))+\" arms against \"+e.mfn(\"his\",\"her\",\"their\")+\" side\"+(e.isPlural?\"s\":\"\")+\". \"+e.capitalA+e.short+\" \"+(e.isPlural?\"are\":\"is\"))"
+  },
+  {
+    "key": "combat|restrained|fd89411bcce2",
+    "original": " restrained!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01608353&gt;&gt;"
+  },
+  {
+    "key": "combat|The_shell_misses_blasting_a_hole_in_the_bulkhead|0d1f710090fd",
+    "original": " The shell misses, blasting a hole in the bulkhead!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01609206&gt;&gt;"
+  },
+  {
+    "key": "combat|The_shell_hits|d5cd0df84d8a",
+    "original": " The shell hits!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01609279&gt;&gt;"
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "key": "output|p_b_concat_a_b_p|a546e3802293",
+    "original": "<p><b>\".concat(a,\"</b></p>\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11485154&gt;&gt;"
+  },
+  {
+    "key": "output|p_b_concat_n_b_p|8601da35de95",
+    "original": "<p><b>\".concat(n,\"</b></p>\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11485289&gt;&gt;"
+  },
+  {
+    "key": "output|A_nearby_whistle_blows_before_a_visible_cloud_of_steam_briefly_a|940d1475769b",
+    "original": "A nearby whistle blows before a visible cloud of steam briefly appears around you. You hear the gears cranking and axles turning before feeling the metal floor beneath you move. Not long after, the clacking clockwork mechanisms quickly carry the car across the impressive view of Gildenmere, then gradually slows to a stop before an audible woosh sounds, marking your arrival to your destination.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11488441&gt;&gt;"
+  },
+  {
+    "key": "output|The_glass_chamber_closes_and_muffles_the_sounds_around_you_leav|f6fd1f44be1a",
+    "original": "The glass chamber closes and muffles the sounds around you, leaving you with the faint noises of steam-powered hydraulics and turning gears--and an incredible view of Kressia. Before you know it, the elevator practically glides to its destination and you arrive with little fanfare. The doors open and the sounds of the busy populace instantly hit you once again.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11488868&gt;&gt;"
+  },
+  {
+    "key": "output|With_audible_hydraulic_presses_whirring_gears_and_a_mechanical|0c8a8bdb3a32",
+    "original": "With audible hydraulic presses, whirring gears and a mechanical hum, the cargo elevator powers up and shifts you towards the direction of your destination, then it slows down and quiets once you arrive.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11489263&gt;&gt;"
+  },
+  {
+    "key": "output|Your_stomach_drops_as_the_lift_kicks_into_gear_The_gentle_stea|10475076be23",
+    "original": "Your stomach drops as the lift kicks into gear. The gentle, steady thrum of powerful machinery fills the metallic tube as you are brought to your destination, slowly decelerating when you arrive.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11489537&gt;&gt;"
+  },
+  {
+    "key": "button|Next|dd86a3fb474b",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:11489756&gt;&gt; addButton(0,\"Next\",mainGameMenu)"
+  },
+  {
+    "key": "output|Nudity_is_illegal_in_that_location_You_ll_have_to_cover_up_if_y|6ab2d08eeab1",
+    "original": "Nudity is illegal in that location! You’ll have to cover up if you want to go there.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11490579&gt;&gt;"
+  },
+  {
+    "key": "button|Sneak_Back|fba4ac1fc43a",
+    "original": "Sneak Back",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11492296&gt;&gt; addButton(0,\"Sneak Back\",window.sneakBackYouNudist,\"Sneak Back\",\"Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.\")"
+  },
+  {
+    "key": "button|Help|4b70e0285fbf",
+    "original": "Help!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11492647&gt;&gt; addButton(1,\"Help!\",window.dropNewClothes,\"Emergency Clothing Drop\",\"Call a drone to retrieve a new set of clothes.\")"
+  },
+  {
+    "key": "button|Floors|5d0dc6754df4",
+    "original": "Floors",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11510453&gt;&gt; addButton(e,\"Floors\",t,\"Control Panel\",\"Ride the elevator to a specific floor.\")"
+  },
+  {
+    "key": "button.hover|Sneak_Back|fba4ac1fc43a",
+    "original": "Sneak Back",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11492335&gt;&gt; addButton(0,\"Sneak Back\",window.sneakBackYouNudist,\"Sneak Back\",\"Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.\")"
+  },
+  {
+    "key": "button.tooltip|Sneak_back_to_the_ship_Fuckin_prudes_It_might_take_you_a_coup|45377d60ecba",
+    "original": "Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11492348&gt;&gt; addButton(0,\"Sneak Back\",window.sneakBackYouNudist,\"Sneak Back\",\"Sneak back to the ship. Fuckin’ prudes. It might take you a couple hours to get back safely.\")"
+  },
+  {
+    "key": "button.hover|Emergency_Clothing_Drop|e1c656d77f8e",
+    "original": "Emergency Clothing Drop",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11492677&gt;&gt; addButton(1,\"Help!\",window.dropNewClothes,\"Emergency Clothing Drop\",\"Call a drone to retrieve a new set of clothes.\")"
+  },
+  {
+    "key": "button.tooltip|Call_a_drone_to_retrieve_a_new_set_of_clothes|d59da0abc7e7",
+    "original": "Call a drone to retrieve a new set of clothes.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11492703&gt;&gt; addButton(1,\"Help!\",window.dropNewClothes,\"Emergency Clothing Drop\",\"Call a drone to retrieve a new set of clothes.\")"
+  },
+  {
+    "key": "button|Back|ff5c8ec996bc",
+    "original": "Back",
+    "translation": "返回",
+    "stage": 1,
+    "context": "&lt;&lt;POS:11492772&gt;&gt; addButton(14,\"Back\",(function(){return window.enterPCShip(!0)}))"
+  },
+  {
+    "key": "button.hover|Unable_to_go_to|41fb6fa39473",
+    "original": "Unable to go to ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11510115&gt;&gt; addDisabledButton(a++,l,c,\"Unable to go to \".concat(n[t].long,\".\"))"
+  },
+  {
+    "key": "button|Back|e1f4002942db",
+    "original": "Back",
+    "translation": "返回",
+    "stage": 1,
+    "context": "&lt;&lt;POS:11510369&gt;&gt; addButton(14,\"Back\",mainGameMenu)"
+  },
+  {
+    "key": "button.hover|Control_Panel|094c6788726d",
+    "original": "Control Panel",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11510464&gt;&gt; addButton(e,\"Floors\",t,\"Control Panel\",\"Ride the elevator to a specific floor.\")"
+  },
+  {
+    "key": "button.tooltip|Ride_the_elevator_to_a_specific_floor|e858c719a147",
+    "original": "Ride the elevator to a specific floor.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11510480&gt;&gt; addButton(e,\"Floors\",t,\"Control Panel\",\"Ride the elevator to a specific floor.\")"
+  },
+  {
+    "key": "output|p_b_ERROR_attempted_to_extend_a_Log_Event_but_no_log_event_fo|3342491ae63c",
+    "original": "<p><b>ERROR: attempted to extend a Log Event but no log event found</b></p>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11511100&gt;&gt;"
+  },
+  {
+    "key": "output|You_can_try_your_luck_and_sneak_back_to_your_ship_if_you_are_dar|b841a32d94f7",
+    "original": "You can try your luck and sneak back to your ship if you are daring...",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11492210&gt;&gt;"
+  },
+  {
+    "key": "output|Due_to_your_lack_of_coverage_you_can_call_for_an_emergency_clot|a2b442bdb7d4",
+    "original": "Due to your lack of coverage, you can call for an emergency clothing drop to help with your situation--though it may cost you some credits if you choose to do so.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11492469&gt;&gt;"
+  },
+  {
+    "key": "string.array|null_January_February_March_April_May_June_July|3227162611b0",
+    "original": "[\"null\",\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11504098&gt;&gt;"
+  },
+  {
+    "key": "string.array|null_Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_O|180d8a27d17f",
+    "original": "[\"null\",\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11504237&gt;&gt;"
+  },
+  {
+    "key": "string.array|null_Sunday_Monday_Tuesday_Wednesday_Thursday_Frid|0eb21b19596f",
+    "original": "[\"null\",\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11504688&gt;&gt;"
+  },
+  {
+    "key": "string.array|null_Sun_Mon_Tue_Wed_Thu_Fri_Sat|ebc420b0133c",
+    "original": "[\"null\",\"Sun\",\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11504788&gt;&gt;"
+  },
+  {
+    "key": "string.array|Su_Mo_Tu_We_Th_Fr_Sa|1200cbd1fb20",
+    "original": "[\"--\",\"Su\",\"Mo\",\"Tu\",\"We\",\"Th\",\"Fr\",\"Sa\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11504859&gt;&gt;"
+  },
+  {
+    "key": "string.array|calendar_none_calendar_sunday_calendar_monday_calendar_t|fb31dde3f59b",
+    "original": "[\"calendar_none\",\"calendar_sunday\",\"calendar_monday\",\"calendar_tuesday\",\"calendar_wednesday\",\"calendar_thursday\",\"calendar_friday\",\"calendar_saturday\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11504922&gt;&gt;"
+  },
+  {
+    "key": "button.hover|You_are_already_on|c89fa7f86a8d",
+    "original": "You are already on ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11509889&gt;&gt; addDisabledButton(a++,l,c,\"You are already on \".concat(null!==(r=n[t].long)&&void 0!==r?r:\"this floor\",\".\"))"
+  },
+  {
+    "key": "string.array|horse_alicorn_unicorn_pegasus_terran|f54468dd4750",
+    "original": "[\"horse\",\"alicorn\",\"unicorn\",\"pegasus\",\"terran\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11515959&gt;&gt;"
+  }
+]

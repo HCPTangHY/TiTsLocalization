@@ -1,0 +1,93 @@
+[
+  {
+    "key": "assign|SHORT_DESCRIPTION|b8b40ea115e6",
+    "original": "<SHORT DESCRIPTION>",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:10421397&gt;&gt; he \",e.capitalA=\"The \",e.short='&lt;SHORT DESCRIPTION&gt;'"
+  },
+  {
+    "key": "assign|LONG_DESCRIPTION|f5458c8e727c",
+    "original": "<LONG DESCRIPTION>",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:10421426&gt;&gt; t=\"&lt;SHORT DESCRIPTION&gt;\",e.long='&lt;LONG DESCRIPTION&gt;'"
+  },
+  {
+    "key": "assign|INTERNAL_DESCRIPTION|e8bf95f9ef1d",
+    "original": "<INTERNAL DESCRIPTION>",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:10421469&gt;&gt; IPTION&gt;\",e.internalDescription='&lt;INTERNAL DESCRIPTION&gt;'"
+  },
+  {
+    "key": "combat.expr|var0|6c0b6519543c",
+    "original": "{var0}",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:10425355&gt;&gt; &lt;&lt;VARS:var0=s&gt;&gt; combatAppend(s)"
+  },
+  {
+    "key": "assign|the|0e3057607fb9",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10421364&gt;&gt; l(this)).neverSerialize=!1,e.a='the '"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10421382&gt;&gt; alize=!1,e.a=\"the \",e.capitalA='The '"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:10425365&gt;&gt; &lt;&lt;VARS:var0=s&gt;&gt; output(s)"
+  },
+  {
+    "key": "button.expr|Drones_concat_t_mode_Attack_Defense|919afa161ab6",
+    "original": "\"Drones: \".concat(t.mode?\"Attack\":\"Defense\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10430719&gt;&gt; &lt;&lt;VARS:&gt;&gt; addButton(e++,\"Drones: \".concat(t.mode?\"Attack\":\"Defense\"),(function(){return t.toggleMode(!0)}),\"Drones: \".concat(t.mode?\"Attack\":\"Defense\",\" Mode\"),\"Set your drones to \".concat(t.mode?\"Defense\":\"Attack\",\" Mode!\"))"
+  },
+  {
+    "key": "button.hover.expr|Drones_concat_t_mode_Attack_Defense_Mode|2dbc78c6b4a8",
+    "original": "\"Drones: \".concat(t.mode?\"Attack\":\"Defense\",\" Mode\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10430802&gt;&gt; &lt;&lt;VARS:&gt;&gt; addButton(e++,\"Drones: \".concat(t.mode?\"Attack\":\"Defense\"),(function(){return t.toggleMode(!0)}),\"Drones: \".concat(t.mode?\"Attack\":\"Defense\",\" Mode\"),\"Set your drones to \".concat(t.mode?\"Defense\":\"Attack\",\" Mode!\"))"
+  },
+  {
+    "key": "button.tooltip.expr|Set_your_drones_to_concat_t_mode_Defense_Attack_Mode|9f6fcb328cdb",
+    "original": "\"Set your drones to \".concat(t.mode?\"Defense\":\"Attack\",\" Mode!\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10430855&gt;&gt; &lt;&lt;VARS:&gt;&gt; addButton(e++,\"Drones: \".concat(t.mode?\"Attack\":\"Defense\"),(function(){return t.toggleMode(!0)}),\"Drones: \".concat(t.mode?\"Attack\":\"Defense\",\" Mode\"),\"Set your drones to \".concat(t.mode?\"Defense\":\"Attack\",\" Mode!\"))"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_fizzes_as_the_damaged_hologram_loses|03e3efe588a0",
+    "original": "{var1}.capitalize({var0})+\" fizzes as the damaged hologram loses all cohesion, dusting the stars with fading sparks.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10435954&gt;&gt; &lt;&lt;VARS:var0=this.getCombatName(),!1,var1=S.m&gt;&gt; combatOutput(S.m.capitalize(this.getCombatName(),!1)+\" fizzes as the damaged hologram loses all cohesion, dusting the stars with fading sparks.\",null,this)"
+  },
+  {
+    "key": "combat.expr|Your_comms_buzz_with_the_var1_possessive_var0_getCombatNam|a9fe69e6ce4f",
+    "original": "Your comms buzz with the \"+{var1}.possessive({var0}.getCombatName())+\" notification of surrender. Lacking in holographic support and shields to protect itself with, the captain throws in the towel.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10436268&gt;&gt; &lt;&lt;VARS:var0=this,var1=S.m&gt;&gt; combatOutput(\"Your comms buzz with the \"+S.m.possessive(this.getCombatName())+\" notification of surrender. Lacking in holographic support and shields to protect itself with, the captain throws in the towel.\",null,this)"
+  },
+  {
+    "key": "assign|REMOVE|bb374cd784b5",
+    "original": "< REMOVE >",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:10443630&gt;&gt; e===e}));t.hidden=!0,t.tooltip='&lt; REMOVE &gt;'"
+  }
+]

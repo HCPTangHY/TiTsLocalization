@@ -1,0 +1,142 @@
+[
+  {
+    "key": "assign|pirate_techie|cd7719b52e26",
+    "original": "pirate techie",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01610405&gt;&gt;"
+  },
+  {
+    "key": "assign|the|6d5787eb5bf8",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01610475&gt;&gt;"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": " ",
+    "stage": 1,
+    "context": "&lt;&lt;POS:01610493&gt;&gt;"
+  },
+  {
+    "key": "assign|The_pirates_armor_deflects_your_attack_with_an_alarming_ease|748d89722f26",
+    "original": "The pirates armor deflects your attack with an alarming ease.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01610524&gt;&gt;"
+  },
+  {
+    "key": "assign|machine_pistol|f69712c609f1",
+    "original": "machine pistol",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01610806&gt;&gt;"
+  },
+  {
+    "key": "assign|flight_suit|364408811998",
+    "original": "flight suit",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01611027&gt;&gt;"
+  },
+  {
+    "key": "perk|Attack_Drone|a80c08d8bb42",
+    "original": "Attack Drone",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01612532&gt;&gt; createPerk(\"Attack Drone\",0,0,0,0,\"Attack Drone!\")"
+  },
+  {
+    "key": "desc.long|An_ausar_woman_in_a_flight_suit_with_a_machine_pistol_at_her_hip|bb855dbfa371",
+    "original": "An ausar woman in a flight suit with a machine pistol at her hip. She’s got a shock of blonde hair, perky breasts under her suit, and a ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01612847&gt;&gt;"
+  },
+  {
+    "key": "combat|An_subtle_warmth_builds_in_your_crotch_as_you_stare_at_the_ausar|05803fd19d78",
+    "original": "An subtle warmth builds in your crotch as you stare at the ausar womans pert breasts, transfixed by their succulent, pliant flesh forming so perfectly around the tips of her fingers....",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01613906&gt;&gt;"
+  },
+  {
+    "key": "combat|You_respond_with_a_polite_and_obviously_fake_cough_The_ausar|b777cfc5b975",
+    "original": "You respond with a polite, and obviously fake, cough. The ausar womans sensual show ends as abruptly as it started. <i>“Hey, don’t stop now!”</i> You shoot a glare at Saen. <i>“What? I’m not going to turn down a free show.”</i> Touché.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01614339&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|though_var0_you_re_var1_var2_is_able_to_duck_o|54e2933be20c",
+    "original": " though \"+({var0}?\"you’re\":{var1}+{var2}+\" is\")+\" able to duck out of the way.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01614919&gt;&gt; &lt;&lt;VARS:var0=e instanceof h.n,var1=e.a,var2=e.short&gt;&gt; combatAppend(\" though \"+(e instanceof h.n?\"you’re\":e.a+e.short+\" is\")+\" able to duck out of the way.\")"
+  },
+  {
+    "key": "combat.expr|hitting_var0_you_var1_var2_in_the_shoulder_The_d|f24267ac625e",
+    "original": " hitting \"+({var0}?\"you\":{var1}+{var2})+\" in the shoulder. The darts instantly release an agonizing shock of electricity, making \"+({var3}?\"you\":{var4}?\"them\":{var5}.mfn(\"him\",\"her\",\"it\"))+\" yelp in agony.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01615023&gt;&gt; &lt;&lt;VARS:var0=e instanceof h.n,var1=e.a,var2=e.short,var3=e instanceof h.n,var4=e.isPlural,var5=e&gt;&gt; combatAppend(\" hitting \"+(e instanceof h.n?\"you\":e.a+e.short)+\" in the shoulder. The darts instantly release an agonizing shock of electricity, making \"+(e instanceof h.n?\"you\":e.isPlural?\"them\":e.mfn(\"him\",\"her\",\"it\"))+\" yelp in agony.\")"
+  },
+  {
+    "key": "combat.expr|The_shock_of_it_leaves_var0_you_var1_var2_reeling|ed04beed52dd",
+    "original": " The shock of it leaves \"+({var0}?\"you\":{var1}+{var2})+\" reeling -- <b>\"+({var3}?\"you’re\":{var4}?\"they’re\":{var5}.mfn(\"he’s\",\"she’s\",\"it’s\"))+\" stunned!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01615387&gt;&gt; &lt;&lt;VARS:var0=e instanceof h.n,var1=e.a,var2=e.short,var3=e instanceof h.n,var4=e.isPlural,var5=e&gt;&gt; combatAppend(\" The shock of it leaves \"+(e instanceof h.n?\"you\":e.a+e.short)+\" reeling -- <b>\"+(e instanceof h.n?\"you’re\":e.isPlural?\"they’re\":e.mfn(\"he’s\",\"she’s\",\"it’s\"))+\" stunned!</b>\")"
+  },
+  {
+    "key": "combat|All_of_her_shots_go_wide|cbcdf17bfa7a",
+    "original": " All of her shots go wide!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01615871&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|var1_numToText_var0_bullet|6bd7e0c529d7",
+    "original": " \"+{var1}.numToText({var0})+\" bullet",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01615919&gt;&gt; &lt;&lt;VARS:var0=t,!0,var1=f.m&gt;&gt; combatAppend(\" \"+f.m.numToText(t,!0)+\" bullet\")"
+  },
+  {
+    "key": "combat|s|d923c98e2e02",
+    "original": "s",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01615972&gt;&gt;"
+  },
+  {
+    "key": "combat|hit|7b882e0dc14b",
+    "original": " hit",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01615990&gt;&gt;"
+  },
+  {
+    "key": "combat|s|ef211b210b25",
+    "original": "s",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01616018&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|drilling_var0_you_var1_var2|dd71a0c6e7da",
+    "original": ", drilling \"+({var0}?\"you\":{var1}+{var2})+\"!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01616036&gt;&gt; &lt;&lt;VARS:var0=e instanceof h.n,var1=e.a,var2=e.short&gt;&gt; combatAppend(\", drilling \"+(e instanceof h.n?\"you\":e.a+e.short)+\"!\")"
+  },
+  {
+    "key": "combat|A_small_ball_shaped_hover_drone_floats_around_her_spraying_lase|0ec8b84e9deb",
+    "original": "A small ball-shaped hover drone floats around her, spraying laser fire everywhere.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01616578&gt;&gt;"
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "key": "assign|Shalin_Hunter|3ee4e1d2d658",
+    "original": "Shalin Hunter",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01670683&gt;&gt; etText=\"Shalin Hunter\",e.short='Shalin Hunter'"
+  },
+  {
+    "key": "assign|the|b6a370308e60",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01670729&gt;&gt; ,e.originalRace=\"shalinae\",e.a='the '"
+  },
+  {
+    "key": "assign|From_the_waist_up_he_has_a_bare_recognizably_human_body_slim|06fd340ffe27",
+    "original": "From the waist up, he has a bare, recognizably human body: slim, pale, almost elfin in his lithe long arms and high, feathery ears. Silken, shoulder-length black hair is held back from his face with a headband, and a similarly black bandana emblazoned with a white Kihan cog masks his lower face. Above it, round, yellow, unblinking eyes follow you wherever you go. They are devoid of mercy, or rage, or malice.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01670761&gt;&gt; the \",e.capitalA=\"The \",e.long='From the waist up, he has a bare, recognizably human body: s'"
+  },
+  {
+    "key": "assign|It_easily_avoids_your_attack|9c46e7997273",
+    "original": "It easily avoids your attack.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01671189&gt;&gt; age, or malice.\",e.customBlock='It easily avoids your attack.'"
+  },
+  {
+    "key": "perk|Fixed_CumQ|69926021b547",
+    "original": "Fixed CumQ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01673457&gt;&gt; createPerk(\"Fixed CumQ\",4e3)"
+  },
+  {
+    "key": "combat.expr|var0|48223780f249",
+    "original": "\"+{var0}",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01674262&gt;&gt; &lt;&lt;VARS:var0=this.OnTakeDamageOutput&gt;&gt; combatAppend(\"\\n\\n\"+this.OnTakeDamageOutput)"
+  },
+  {
+    "key": "textify|You_turn_and_leg_it_darting_into_the_trees_doing_your_level_be|2fb477ad803a",
+    "original": "You turn and leg it, darting into the trees, doing your level best to avoid tripping on the uneven, treacherous ground. \\n\\n\\t\\tMost enemies are neither determined nor fast enough to catch you. Most enemies cannot keep their gaze fixed on you from two hundred feet away, like a bug under a magnifying glass. Most enemies will not easily follow you on silent wing. Like something pale and inevitable.\\n\\t\\t\\n\\t\\tThe [pc.skinFurScales] on the back of your neck prickles...\\n\\t\\t\\n\\t\\tStunning force slams into your lower back, and in a winded, wounded blur you find yourself thumped face down in the moist soil, a feathered claw the size of a footrest pinning you to it.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01675011&gt;&gt; textify(['You turn and leg it, darting into the trees, doing'...])"
+  },
+  {
+    "key": "textify|It_took_the_last_of_your_strength_to_try_and_run_and_that_has_n|b2d92c1cb5e9",
+    "original": "It took the last of your strength to try and run, and that has now been poleaxed out of you. You emit a defeated sigh as he shifts his grip to better hold you, accepting that running away simply meant that now you will fuck tired.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01675853&gt;&gt; textify(['It took the last of your strength to try and run, '...])"
+  },
+  {
+    "key": "combat|Hard_black_talons_come_to_rest_on_either_side_of_your_head_Soft|e0c24411a557",
+    "original": "Hard black talons come to rest on either side of your head. Soft pink feathers touch your [pc.ears]. There is a pause. The opportunity to cease your pointless struggle is silently presented.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01676150&gt;&gt; combatAppend(\"Hard black talons come to rest on either side of your head. Soft pink feathers touch your [pc.ears]. There is a pause. The opportunity to cease your pointless struggle is silently presented.\")"
+  },
+  {
+    "key": "button|Fight|e5421a1469f1",
+    "original": "Fight",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01676368&gt;&gt; addButton(0,\"Fight\",(function(){combatOutput(\"You’ll quit when you’re dead. You go limp, let him think you’ve finally given up, and when he softens his grip just a tad you grab for your [pc.weapon].\\n\\n\\t\\t\\t\\tThe shalin hunter reacts by immediately tightening his monstrous grasp around you again, c..."
+  },
+  {
+    "key": "button.hover|Fight|e5421a1469f1",
+    "original": "Fight",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01676824&gt;&gt; addButton(0,\"Fight\",(function(){combatOutput(\"You’ll quit when you’re dead. You go limp, let him think you’ve finally given up, and when he softens his grip just a tad you grab for your [pc.weapon].\\n\\n\\t\\t\\t\\tThe shalin hunter reacts by immediately tightening his monstrous grasp around you again, c..."
+  },
+  {
+    "key": "button.hover|Fight|efd5fa299bdc",
+    "original": "Fight",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01677185&gt;&gt; addButton(1,\"Don’t Fight\",(function(){combatOutput(\"The hunter has made his point. You can’t beat him and you can’t get away from him. You’d be lying if it didn’t light a little fire in you when you accept his supremacy. You go soft with a defeated sigh, and the tentacles descend.\",[],e),pc.lust(pc...."
+  },
+  {
+    "key": "textify|You_turn_and_leg_it_darting_into_the_trees_doing_your_level_be|38f926ccc6d6",
+    "original": "You turn and leg it, darting into the trees, doing your level best to avoid tripping on the uneven, treacherous ground. \\n\\n\\t\\tMost enemies are neither determined nor fast enough to catch you. Most enemies cannot keep their gaze fixed on you from two hundred feet away, like a bug under a magnifying glass. Most enemies will not easily follow you on silent wing. Like something pale and inevitable.\\n\\t\\t\\n\\t\\tThe [pc.skinFurScales] on the back of your neck prickles...\\n\\n\\t\\tYou suddenly duck beneath the eaves of a giant tree, huddling yourself under the cover of its warped, twisting roots. You hold your breath as a white shadow passes overhead... and then glides onward through the boughs. You let a minute crawl by, then hurry on in a different direction to the one he went, praying fervently to whatever might be listening that you don’t fall under the gaze of the hunter again.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01677304&gt;&gt; textify(['\\\\n\\\\t\\\\tYou turn and leg it, darting into the trees,'...])"
+  },
+  {
+    "key": "button|Next|181db8c0c65a",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:01678259&gt;&gt; addButton(0,\"Next\",mainGameMenu)"
+  },
+  {
+    "key": "textify|The_fluffy_claw_that_currently_has_you_pinned_to_the_moss_and_tw|d3826cb50552",
+    "original": "The fluffy claw that currently has you pinned to the moss and twigs is the size of a car wheel, feels like it has the grip strength of a magnet anchor, and carries the weight of an avian larger than a horse. You struggle to break free of it with all you’ve got as the hunter tightens his grip. [var0|Bands of iron tighten around you as you feebly try to lift off even one of the giant, taloned toes limpeted around you. You are lifted off the ground and slammed brutally back into it for your efforts. As you’re trying to recover your breath, feathery pads descend, wrapping themselves around your [pc.chest], touching your face, your [pc.legs]... mesmerizing, with a promise of softness, a firm hold, and sexual electricity if you’d just stop struggling.|You manage to tear yourself free! You haul huge lungfuls of air into you as you crouch-stumble away, narrowly avoiding the hunter’s snatching attempts to grab you again.]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01678435&gt;&gt; textify(['The fluffy claw that currently has you pinned to t'...])"
+  },
+  {
+    "key": "textify|The_bird_taur_wheels_overhead_feinting_to_loose_an_arrow_at_you|41cc3e286ba8",
+    "original": "The bird-taur wheels overhead, feinting to loose an arrow at you. As he does, he rubs his tentacle ends together, buzzing visibly with blueish static. He suddenly rears them out towards your kinetic barrier. [var0|They discharge a huge, numbing blast of electricity into it.|You manage to avoid the attack.]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01679636&gt;&gt; textify(['The bird-taur wheels overhead, feinting to loose a'...])"
+  },
+  {
+    "key": "textify|The_Hunter_draws_an_arrow_from_his_back_slung_quiver_notches_it|a987df806083",
+    "original": "The Hunter draws an arrow from his back-slung quiver, notches it on his longbow and fires it at you, all as he glides through and around the trunks and boughs, a flicker-show of unearthly elan. [var0|[var1|The arrow wuds into your shield.|The arrow slams into you. [var2|More searing, helpless lust enters your body, practically making you pant... practically making the pain welcome, sensation, more sensation to overwhelm and mesmerize you. Whatever he dips those arrows in is potent!|You groan as the pain is almost immediately transposed by heat, bubbling giddy heat spreading from the wound into your bloodstream. He wasn’t trying to hurt you with his primitive weapon - not primarily anyway...]]|The arrow keens past your shoulder.]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01680172&gt;&gt; textify(['The Hunter draws an arrow from his back-slung quiv'...])"
+  },
+  {
+    "key": "textify|The_Hunter_sweeps_away_from_your_attack_into_the_trees_As_he_go|88ad1a9fa476",
+    "original": "The Hunter sweeps away from your attack into the trees. As he goes, he writhes his tentacles around one another as if wringing his hands, generating visible crackles of static charge. It’s difficult to tell what he’s doing - but then, it’s difficult to tell where he is at all. He’s a white-and-brown blur in the trees, a trick of light somewhere in that dense, dark tangle, moving impossibly quickly through it, changing direction... he seems to be all around you, and nowhere at all. Where is he coming from?!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01681449&gt;&gt; textify(['The Hunter sweeps away from your attack into the t'...])"
+  },
+  {
+    "key": "textify|He_takes_a_flapping_half_step_half_leap_towards_you_rising_int|4bf2fc3a5520",
+    "original": "He takes a flapping half-step, half-leap towards you, rising into the air only to reach his legs out and slash his knife-long, viciously sharp talons across your body. [var0|Claws of titanium strength rip through you. <b>You are ruptured!</b>|You manage to dodge out of the way.]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01683962&gt;&gt; textify(['He takes a flapping half-step, half-leap towards y'...])"
+  },
+  {
+    "key": "textify|He_brings_one_of_his_spread_claws_up_suddenly_and_when_you_fl|0dbe07ffc5be",
+    "original": "He brings one of his spread claws up suddenly... and when you flinch, he deploys his tentacles instead. [var0|You gasp as smooth, muscular, feathery magic slides around your [pc.chest] and waist, stimulating, tickling cilia stroking your [pc.skin] prospectively... you wrench yourself free, but the silent promise of what awaits if you give in to the silent predator has been made.|But you’re ready for them as well, and evade their soft, crackling touch.]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01684517&gt;&gt; textify(['He brings one of his spread claws up suddenly... a'...])"
+  },
+  {
+    "key": "textify|The_Hunter_lands_in_a_nearby_tree_feathered_talons_hooking_them|89ba62d8a7fc",
+    "original": "The Hunter lands in a nearby tree, feathered talons hooking themselves to a gnarled bough thick enough to take his weight. His tentacles gingerly probe outwards, miming towards a surface you can’t see; the square brass implants along their sides gleam, there’s a sharp SNAP of electricity, and the bare outline of an opaque bubble around him becomes visible once again.\\n\\n\\t\\tShield restored, he extends his wings and takes to the air once again.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01685629&gt;&gt; textify(['The Hunter lands in a nearby tree, feathered talon'...])"
+  },
+  {
+    "key": "textify|The_Hunter_swoops_in_claws_first_like_he_s_rocket_propelled_bu|5406f78e0401",
+    "original": "The Hunter swoops in, claws-first like he’s rocket propelled, but you drew a bead on him and are ready. You dive to the side, and feel only the slipstream of his devastating passage. You detect just the slightest amount of frustration in the hook of his talons and the furrows on his brow as he arcs back around to face you.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01687056&gt;&gt; textify(['The Hunter swoops in, claws-first like he’s rocket'...])"
+  },
+  {
+    "key": "textify|The_Hunter_is_a_pale_rumor_in_the_forest_canopy_something_ungra|202d0ecc91f5",
+    "original": "The Hunter is a pale rumor in the forest canopy, something ungraspable until the very moment he is unavoidable. Death itself, silently swooping in from the very direction you weren’t looking and slamming into you with stunning, bone-crunching force. His curving talons dig into you as you are sent stumbling, flying along with his momentum. [var0|You land flat on your back, the world whirling around you and iron in your mouth as those terrible claws tighten themselves around your body. <b>You are pinned!</b>|It takes all of your strength to wrench your limbs free and tear yourself away before he can pin you to the ground.]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01687599&gt;&gt; textify(['The Hunter is a pale rumor in the forest canopy, s'...])"
+  },
+  {
+    "key": "assign|Your_attack_seems_to_have_thrown_the_hunter_off_kilter_disrupti|06547533721e",
+    "original": "Your attack seems to have thrown the hunter off-kilter, disrupting their carefully calculated plans!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01688788&gt;&gt; rupt\"),this.OnTakeDamageOutput='Your attack seems to have thrown the hunter off-kilter, disr'"
+  },
+  {
+    "key": "combat|concat_this_getCombatName_0_s_wings_limply_continue_to_bea|d4ac72612d9e",
+    "original": "\".concat(this.getCombatName(!0),\"’s wings limply continue to beat, weakening with each flutter before they give up entirely, \").concat(this.getCombatPronoun(\"hisher\"),\" body crashing to the ground.\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01689052&gt;&gt; combatAppend(\"\\n\".concat(this.getCombatName(!0),\"’s wings limply continue to beat, weakening with each flutter before they give up entirely, \").concat(this.getCombatPronoun(\"hisher\"),\" body crashing to the ground.\"))"
+  },
+  {
+    "key": "textify|Rustles_in_the_tree_tops_seem_to_surrounded_you_on_all_sides_on|24d5d6e1757f",
+    "original": "Rustles in the tree-tops seem to surrounded you on all sides; one moment he seems to be in front of you, the next behind, darting around with impossible speed.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01686785&gt;&gt; textify(['Rustles in the tree-tops seem to surrounded you on'...])"
+  },
+  {
+    "key": "assign|Shalin_Hunter|d9dff2d50e46",
+    "original": "Shalin Hunter",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01670659&gt;&gt; erSerialize=!0,e.btnTargetText='Shalin Hunter'"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01670747&gt;&gt; halinae\",e.a=\"the \",e.capitalA='The '"
+  },
+  {
+    "key": "assign|It_easily_avoids_your_attack|475759aec3d2",
+    "original": "It easily avoids your attack.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01671235&gt;&gt; ds your attack.\",e.customDodge='It easily avoids your attack.'"
+  },
+  {
+    "key": "assign|a_set_of_tough_feathers|b6250ce7a317",
+    "original": "a set of tough feathers",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01671424&gt;&gt; gName=\"feathers\",n.description='a set of tough feathers'"
+  },
+  {
+    "key": "button|Don_t_Fight|542170dcb00e",
+    "original": "Don’t Fight",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01676848&gt;&gt; addButton(1,\"Don’t Fight\",(function(){combatOutput(\"The hunter has made his point. You can’t beat him and you can’t get away from him. You’d be lying if it didn’t light a little fire in you when you accept his supremacy. You go soft with a defeated sigh, and the tentacles descend.\",[],e),pc.lust(pc...."
+  },
+  {
+    "key": "combat.expr|var0|afce97bdb61d",
+    "original": "{var0}",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:01686308&gt;&gt; &lt;&lt;VARS:var0=t.OnTakeDamageOutput&gt;&gt; combatOutput(t.OnTakeDamageOutput,null,t)"
+  },
+  {
+    "key": "combat|Your_attack_forces_the_Hunter_from_the_air_His_outstretched_win|ee4ff21614ad",
+    "original": "Your attack forces the Hunter from the air. His outstretched wings billow, taking his weight as he lands on the uneven moss with a thump. [var0||He glares at you, and then, with wings still outstretched, stalks towards you.]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01682236&gt;&gt; combatOutput(\"Your attack forces the Hunter from the air. His outstretched wings billow, taking his weight as he lands on the uneven moss with a thump. [var0||He glares at you, and then, with wings still outstretched, stalks towards you.]\",[function(){return t.isImmobilized()}],this)"
+  },
+  {
+    "key": "textify|The_Hunter_draws_an_arrow_from_his_back_slung_quiver_notches_it|2035ed4136ae",
+    "original": "The Hunter draws an arrow from his back-slung quiver, notches it on his longbow and fires it at you, all as he glides through and around the trunks and boughs, a flicker-show of unearthly elan. [var0|[var1|The arrow wuds into your shield.|The arrow slams into you. [var2|More searing, helpless lust enters your body, practically making you pant... practically making the pain welcome, sensation, more sensation to overwhelm and mesmerize you. Whatever he dips those arrows in is potent!|You groan as the pain is almost immediately transposed by heat, bubbling giddy heat spreading from the wound into your bloodstream. He wasn’t trying to hurt you with his primitive weapon - not primarily anyway...]]|The arrow keens past your shoulder.]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01682643&gt;&gt; textify(['The Hunter draws an arrow from his back-slung quiv'...])"
+  },
+  {
+    "key": "combat|The_Hunter_turns_his_yellow_eyes_to_the_sky_and_a_second_later|b3b7ce28ed5a",
+    "original": "The Hunter turns his yellow eyes to the sky, and a second later he’s up there again, a blur of white and brown amongst the crowded canopy.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01685157&gt;&gt; combatOutput(\"The Hunter turns his yellow eyes to the sky, and a second later he’s up there again, a blur of white and brown amongst the crowded canopy.\",null,this)"
+  },
+  {
+    "key": "combat|b_He_is_no_longer_tripped_b|eba579105def",
+    "original": "<b>He is no longer tripped!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:01685365&gt;&gt; combatAppend(\"\\n\\n<b>He is no longer tripped!</b>\")"
+  }
+]

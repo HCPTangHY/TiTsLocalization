@@ -1,0 +1,44 @@
+[
+  {
+    "key": "assign|EM_Popper|88a9bc6d5f44",
+    "original": "EM Popper",
+    "translation": "",
+    "context": "<<POS:05910424>>"
+  },
+  {
+    "key": "assign|EM_Popper|506c9b453d7f",
+    "original": "EM Popper",
+    "translation": "",
+    "context": "<<POS:05910447>>"
+  },
+  {
+    "key": "assign|an_EM_Popper|e8782ce06cf2",
+    "original": "an EM Popper",
+    "translation": "",
+    "context": "<<POS:05910530>>"
+  },
+  {
+    "key": "assign|Also_called_a_rebel_s_best_friend_the_EM_Popper_is_a_small_ar|6fd72532ebd2",
+    "original": "Also called a “rebel’s best friend”, the EM Popper is a small-area electromagnetic pulse grenade that can take out shields as easily as it fries computer chips and communication devices. More robust security systems often have built-in protections and backups against EMP, but such contingencies can hardly be taken to the field. Needless to say, the property damage caused by EM Poppers is sufficient to drive the zaibatsu crazy.",
+    "translation": "",
+    "context": "<<POS:05910555>>"
+  },
+  {
+    "key": "output|Pulling_the_pin_on_a_grenade_without_a_target_to_throw_it_at_wou|41a5ff26802c",
+    "original": "Pulling the pin on a grenade without a target to throw it at would be pretty dumb now, wouldn’t it?",
+    "translation": "",
+    "context": "<<POS:05911555>>"
+  },
+  {
+    "key": "output.expr|var0_var1_considers_it_unwise_to_use_a_grenade_outside_of|bf9bd1dcc7d1",
+    "original": "{var0}+{var1}+\" considers it unwise to use a grenade outside of combat.",
+    "translation": "",
+    "context": "<<POS:05911682>> <<VARS:var0=e.capitalA,var1=e.short>> output(e.capitalA+e.short+\" considers it unwise to use a grenade outside of combat.\\n\")"
+  },
+  {
+    "key": "output.expr|var1_capitalize_var0_produces_an_EM_Popper_and_hucks_it_i|6aa189a4be30",
+    "original": "{var1}.capitalize({var0})+\" produces an EM Popper and hucks it in the direction of \"+{var2}.getCombatName()+\"!\",null,t",
+    "translation": "",
+    "context": "<<POS:05912448>> <<VARS:var0=t.getCombatName(),!1,var1=g.m,var2=a>> output(g.m.capitalize(t.getCombatName(),!1)+\" produces an EM Popper and hucks it in the direction of \"+a.getCombatName()+\"!\",null,t)"
+  }
+]

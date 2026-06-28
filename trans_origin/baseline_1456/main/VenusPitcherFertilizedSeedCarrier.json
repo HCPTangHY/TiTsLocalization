@@ -1,0 +1,9 @@
+[
+  {
+    "key": "output.expr|Your_womb_rumbles_audibly_as_the_plant_matter_inside_you_reacts|ced9707ada45",
+    "original": "Your womb rumbles audibly as the plant-matter inside you reacts to something, and your [pc.belly] visibly swells.\"+({var0}?\" Mmmm, another batch of pods are growing inside you, fertilized by your latest tryst.\":\" The stuff the venus pitcher put inside you... it’s growing! The latest pitcher must have done something to it... fertilized it, perhaps.\")+\" A few droplets of pale-green slime leak from your lips\"+({var2}.isCrotchGarbed()?\" into your \"+{var2}+\".\":\".\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:10279648&gt;&gt; &lt;&lt;VARS:var0=void 0!==flags[\"LAID VENUS PITCHER SEEDS\"],var1=t,var2=t.inventory.lowerUndergarment.longName&gt;&gt; ParseText(\"Your womb rumbles audibly as the plant-matter inside you reacts to something, and your [pc.belly] visibly swells.\"+(void 0!==flags[\"LAID VENUS PITCHER SEEDS\"]?\" Mmmm, another batch of pods are growing inside you, fertilized by your latest tryst.\":\" The stuff the venus pitcher put inside you... it’s growing! The latest pitcher must have done something to it... fertilized it, perhaps.\")+\" A few droplets of pale-green slime leak from your lips\"+(t.isCrotchGarbed()?\" into your \"+t.inventory.lowerUndergarment.longName+\".\":\".\"))"
+  }
+]

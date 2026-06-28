@@ -1,0 +1,114 @@
+[
+  {
+    "key": "output|You_press_the_medipen_against_your_pc_skin_and_activate_its_tr|7e4e8d3f4bb2",
+    "original": "You press the medipen against your [pc.skin] and activate its trigger stud. There’s a quick, almost imperceptible ‘snick’ followed by the pen flashing red. Now you’ve done it! You wonder what color you’re about to turn... and where.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06718495&gt;&gt;"
+  },
+  {
+    "key": "output|Your_scalp_itches_but_your_pc_hair_doesn_t_change_at_all_May|050f323aa98c",
+    "original": "Your scalp itches, but your [pc.hair] doesn’t change at all. Maybe it selected the same color you already had.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06719374&gt;&gt;"
+  },
+  {
+    "key": "output|Your_scales_click_as_if_something_irritated_them_yet_you_can_t|e7ffe100e501",
+    "original": "Your scales click as if something irritated them, yet you can’t spot reason why. There could be a slim chance that the Rainbotox tried changing their color to your existing complexion.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06721913&gt;&gt;"
+  },
+  {
+    "key": "output.expr|Your_pc_hair_rapidly_shifts_turning_var0_starting_at_th|d56d9ba65587",
+    "original": "Your [pc.hair] rapidly shifts, turning \"+{var0}+\" starting at the roots and rapidly spreading outward to the tips. <b>You have \"+{var1}+\" hair.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06719500&gt;&gt; &lt;&lt;VARS:var0=a,var1=a&gt;&gt; output(\"\\n\\nYour [pc.hair] rapidly shifts, turning \"+a+\" starting at the roots and rapidly spreading outward to the tips. <b>You have \"+a+\" hair.</b>\")"
+  },
+  {
+    "key": "output|Your_pc_skin_itches_but_the_sensation_soon_passes_A_closer_i|0638b2551342",
+    "original": "Your [pc.skin] itches, but the sensation soon passes. A closer inspection reveals no noticeable difference. You guess the random color must have matched your current pigmentation.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06719700&gt;&gt;"
+  },
+  {
+    "key": "output.expr|Your_pc_skin_briefly_itches_You_look_down_to_watch_it_changin|cd5c47c38ffe",
+    "original": "Your [pc.skin] briefly itches. You look down to watch it changing to a \"+{var0}+\" pigmentation. At first, there’s just a spot here and there, but they expand until they’re joining together into one seemless coat of new color. <b>You now have \"+{var1}+\" skin.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06720128&gt;&gt; &lt;&lt;VARS:var0=a,var1=a&gt;&gt; output(\"\\n\\nYour [pc.skin] briefly itches. You look down to watch it changing to a \"+a+\" pigmentation. At first, there’s just a spot here and there, but they expand until they’re joining together into one seemless coat of new color. <b>You now have \"+a+\" skin.</b>\")"
+  },
+  {
+    "key": "output.expr|A_flash_of_var0_momentarily_obscures_your_vision_When_it|5d8126fd00d3",
+    "original": "A flash of \"+{var0}+\" momentarily obscures your vision. When it passes, you check your appearance with your codex’s camera only to find that nothing has changed. It likely tried to change your eyes to their existing color.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06720442&gt;&gt; &lt;&lt;VARS:var0=e.eyeColor&gt;&gt; output(\"\\n\\nA flash of \"+e.eyeColor+\" momentarily obscures your vision. When it passes, you check your appearance with your codex’s camera only to find that nothing has changed. It likely tried to change your eyes to their existing color.\")"
+  },
+  {
+    "key": "output.expr|A_flash_of_var0_momentarily_obscures_your_vision_You_exci|e31f9e53b0e4",
+    "original": "A flash of \"+{var0}+\" momentarily obscures your vision. You excitedly pull up your codex’s holocam to check yourself once it clears and discover that your eyes have changed color. <b>They’re now \"+{var1}+\".</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06720684&gt;&gt; &lt;&lt;VARS:var0=e.eyeColor,var1=a&gt;&gt; output(\"\\n\\nA flash of \"+e.eyeColor+\" momentarily obscures your vision. You excitedly pull up your codex’s holocam to check yourself once it clears and discover that your eyes have changed color. <b>They’re now \"+a+\".</b>\")"
+  },
+  {
+    "key": "output|A_flash_of_irritation_causes_you_to_scratch_at_your_pc_nipples|e943f6c6f597",
+    "original": "A flash of irritation causes you to scratch at your [pc.nipples], but nothing seems different.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06721163&gt;&gt;"
+  },
+  {
+    "key": "output.expr|You_scratch_at_your_nipples_for_a_second_before_realizing_the_po|50fb54cbece8",
+    "original": "You scratch at your nipples for a second before realizing the potential significance of the act. A closer look confirms that <b>your [pc.nipples] are now \"+{var0}+\"!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06721273&gt;&gt; &lt;&lt;VARS:var0=a&gt;&gt; output(\"\\n\\nYou scratch at your nipples for a second before realizing the potential significance of the act. A closer look confirms that <b>your [pc.nipples] are now \"+a+\"!</b>\")"
+  },
+  {
+    "key": "output.expr|A_barely_discernable_tingling_runs_through_your_pc_skin_but_i|29674b7bb975",
+    "original": "A barely-discernable tingling runs through your [pc.skin], but its most intense around the roots of your [pc.skinFurScales]. Before your eyes, new coloration spreads out towards the tips, <b>turning your fur \"+{var0}+\".</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06721504&gt;&gt; &lt;&lt;VARS:var0=a&gt;&gt; output(\"\\n\\nA barely-discernable tingling runs through your [pc.skin], but its most intense around the roots of your [pc.skinFurScales]. Before your eyes, new coloration spreads out towards the tips, <b>turning your fur \"+a+\".</b>\")"
+  },
+  {
+    "key": "output|There_s_some_itching_around_your_pc_skinFurScales_but_nothing|04ef9a8b87b2",
+    "original": "There’s some itching around your [pc.skinFurScales], but nothing seems to change. Odd. Maybe you got ripped off?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06721751&gt;&gt;"
+  },
+  {
+    "key": "output.expr|Your_scales_click_feeling_almost_like_they_re_standing_up_on_en|98b42fd9f0fb",
+    "original": "Your scales click, feeling almost like they’re standing up on end. Then, they all begin to change color in perfect synchronization, shifting hue from one side to the other until <b>your scales are a glittering \"+{var0}+\".</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06722113&gt;&gt; &lt;&lt;VARS:var0=a&gt;&gt; output(\"\\n\\nYour scales click, feeling almost like they’re standing up on end. Then, they all begin to change color in perfect synchronization, shifting hue from one side to the other until <b>your scales are a glittering \"+a+\".</b>\")"
+  },
+  {
+    "key": "output|Your_pc_lips_tingle_but_they_remain_unchanged_by_Rainbotox_s|5c7808a03570",
+    "original": "Your [pc.lips] tingle, but they remain unchanged by Rainbotox’s random effects.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06722399&gt;&gt;"
+  },
+  {
+    "key": "output.expr|Your_pc_lips_itch_You_immediately_bring_up_your_codex_to_chec|38abfa0f7d44",
+    "original": "Your [pc.lips] itch. You immediately bring up your codex to check on your reflection. It’s just in time to show you blotches of \"+{var0}+\" spreading across them, forever changing their natural pigmentation.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06722701&gt;&gt; &lt;&lt;VARS:var0=a&gt;&gt; output(\"\\n\\nYour [pc.lips] itch. You immediately bring up your codex to check on your reflection. It’s just in time to show you blotches of \"+a+\" spreading across them, forever changing their natural pigmentation.\")"
+  },
+  {
+    "key": "output.expr|var0_var1_injects_the_Rainbotox_to_no_effect|5f18692809c3",
+    "original": "{var0}+{var1}+\" injects the Rainbotox to no effect.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:06722955&gt;&gt; &lt;&lt;VARS:var0=e.capitalA,var1=e.short&gt;&gt; output(e.capitalA+e.short+\" injects the Rainbotox to no effect.\")"
+  }
+]

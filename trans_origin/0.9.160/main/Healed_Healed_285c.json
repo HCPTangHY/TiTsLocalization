@@ -1,0 +1,93 @@
+[
+  {
+    "key": "assign|healing_poultice|98c717cbf6a1",
+    "original": "healing poultice",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:07522916&gt;&gt;"
+  },
+  {
+    "key": "assign|a_healing_poultice|4a0216dcec9c",
+    "original": "a healing poultice",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:07523006&gt;&gt;"
+  },
+  {
+    "key": "assign|You_can_t_see_the_actual_plants_and_herbs_they_re_wrapped_tight|9e4d80a859e7",
+    "original": "You can’t see the actual plants and herbs; they’re wrapped tightly in a thin gauze, which is tied shut at the top. You’re supposed to unravel the gauze, then apply the herbs to your body, and keep them in place <i>with</i> the gauze. It’s a bit primitive as far as medicine goes, and it’s too unwieldy to use more than once in a fight, but it’ll do in a pinch.\\n\\n<b>In Combat:</b> Restores 75 HP.\\n<b>Out of Combat:</b> Restores 200 HP.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:07523037&gt;&gt;"
+  },
+  {
+    "key": "combat|and_instantly_feel_the_alien_enzymes_go_to_work|f3b989742bf1",
+    "original": " and instantly feel the alien enzymes go to work",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:07524294&gt;&gt;"
+  },
+  {
+    "key": "combat|closing_quite_a_few_wounds|761d94190684",
+    "original": ", closing quite a few wounds.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:07524495&gt;&gt;"
+  },
+  {
+    "key": "combat|to_no_effect|bcd2f51b3a1c",
+    "original": " to no effect.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:07524541&gt;&gt;"
+  },
+  {
+    "key": "output|Using_supplements_to_heal_yourself_will_only_work_once_per_fight|b19edec69d81",
+    "original": "Using supplements to heal yourself will only work once per fight. No body can handle the metabolic strain of downing multiple regenerative items in such quick succession.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:07524732&gt;&gt;"
+  },
+  {
+    "key": "output.expr|var0_var1_has_already_healed_during_this_fight_Doing_so_a|5d6ba491fb50",
+    "original": "{var0}+{var1}+\" has already healed during this fight! Doing so again would be more than ill-advised!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:07524928&gt;&gt; &lt;&lt;VARS:var0=e.capitalA,var1=e.short&gt;&gt; output(e.capitalA+e.short+\" has already healed during this fight! Doing so again would be more than ill-advised!\")"
+  },
+  {
+    "key": "output|You_apply_the_poultice_to_your_body|b4693efa8802",
+    "original": "You apply the poultice to your body",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:07525100&gt;&gt;"
+  },
+  {
+    "key": "output|and_instantly_feel_the_alien_enzymes_go_to_work|cca8e018af5d",
+    "original": " and instantly feel the alien enzymes go to work",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:07525151&gt;&gt;"
+  },
+  {
+    "key": "output.expr|var0_var1_opens_a_healing_poultice_and_uses_it|f064f1398325",
+    "original": "{var0}+{var1}+\" opens a healing poultice and uses it",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:07525251&gt;&gt; &lt;&lt;VARS:var0=e.capitalA,var1=e.short&gt;&gt; output(e.capitalA+e.short+\" opens a healing poultice and uses it\")"
+  },
+  {
+    "key": "output|closing_quite_a_few_wounds|fb578316ac51",
+    "original": ", closing quite a few wounds.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:07525323&gt;&gt;"
+  },
+  {
+    "key": "output|to_no_effect|bcd2f51b3a1c",
+    "original": " to no effect.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:07525363&gt;&gt;"
+  }
+]

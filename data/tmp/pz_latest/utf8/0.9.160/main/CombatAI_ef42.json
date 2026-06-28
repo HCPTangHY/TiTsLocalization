@@ -1,0 +1,975 @@
+[
+  {
+    "key": "assign|The_T4L0N_stalk_on_serrated_spiders_like_limbs_The_famished_m|56cb461f6f52",
+    "original": "The T4L0N stalk on serrated, spiders-like limbs. The famished, mechanized leyak eagerly suck the air, lusting for your precious liquids!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22461291&gt;&gt; the \",e.capitalA=\"The \",e.long='The T4L0N stalk on serrated, spiders-like limbs. The famishe'"
+  },
+  {
+    "key": "assign|armor_plate|cbf98d014280",
+    "original": "armor plate",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22461506&gt;&gt; .T4,e.inventory.armor.longName='armor plate'"
+  },
+  {
+    "key": "assign|small_beamer|3a96bba7edd4",
+    "original": "small beamer",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22462189&gt;&gt; alue=10,n.attack=10,n.longName='small beamer'"
+  },
+  {
+    "key": "textify|The_T4L0N_heats_its_serrated_blades_before_letting_loose_and_sho|a8008d4da733",
+    "original": "The T4L0N heats its serrated blades before letting loose and shooting forward!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22463421&gt;&gt; textify(['The T4L0N heats its serrated blades before letting'...])"
+  },
+  {
+    "key": "combat.expr|var2_var1_var0_0_Ce_Z_target_CombatName_target_isR|58e177e5d502",
+    "original": "\"+{var2}({var1}({var0}(0,Ce.Z)([\"[target.CombatName] [target.isRobot|beep|hiss] in pain as the burning spikes dig into [target.combatHisHer][target.isRobot|| flesh]!\"])))",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22463599&gt;&gt; &lt;&lt;VARS:var0=QG=,var1=QG||,var2=textify&gt;&gt; combatAppend(\"\\n\\n\"+textify(QG||(QG=(0,Ce.Z)([\"[target.CombatName] [target.isRobot|beep|hiss] in pain as the burning spikes dig into [target.combatHisHer][target.isRobot|| flesh]!\"]))))"
+  },
+  {
+    "key": "combat.expr|var2_var1_var0_0_Ce_Z_target_CombatName_narrowly_do|ff8f4a40bcb9",
+    "original": "\"+{var2}({var1}({var0}(0,Ce.Z)([\"[target.CombatName] narrowly dodge[tps|s|] the fiery lunge!\"])))",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22463958&gt;&gt; &lt;&lt;VARS:var0=JG=,var1=JG||,var2=textify&gt;&gt; combatAppend(\"\\n\\n\"+textify(JG||(JG=(0,Ce.Z)([\"[target.CombatName] narrowly dodge[tps|s|] the fiery lunge!\"]))))"
+  },
+  {
+    "key": "textify|The_T4L0N_throws_its_weight_into_a_fierce_leaping_shoulder_chec|09fb8a68b0de",
+    "original": "The T4L0N throws its weight into a fierce, leaping shoulder check!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22464177&gt;&gt; textify(['The T4L0N throws its weight into a fierce, leaping'...])"
+  },
+  {
+    "key": "combat.expr|var2_var1_var0_0_Ce_Z_The_T4L0N_s_surprisingly_crushi|bdf8eb2194d2",
+    "original": "\"+{var2}({var1}({var0}(0,Ce.Z)([\"The T4L0N’s surprisingly crushing bulk squeezes the air out of [target.combatHisHer] lungs!\"])))",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22464281&gt;&gt; &lt;&lt;VARS:var0=$G=,var1=$G||,var2=textify&gt;&gt; combatAppend(\"\\n\\n\"+textify($G||($G=(0,Ce.Z)([\"The T4L0N’s surprisingly crushing bulk squeezes the air out of [target.combatHisHer] lungs!\"]))))"
+  },
+  {
+    "key": "combat|b_target_CombatName_are_staggered_b|be8eb46aefd0",
+    "original": " <b>[target.CombatName] are staggered</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22464563&gt;&gt; combatAppend(\" <b>[target.CombatName] are staggered</b>\")"
+  },
+  {
+    "key": "combat.expr|var2_var1_var0_0_Ce_Z_target_CombatName_evade_tps_s|ba7a0c1b3e46",
+    "original": "\"+{var2}({var1}({var0}(0,Ce.Z)([\"[target.CombatName] evade[tps|s] the cyborg’s bodyslam!\"])))",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22464650&gt;&gt; &lt;&lt;VARS:var0=eF=,var1=eF||,var2=textify&gt;&gt; combatAppend(\"\\n\\n\"+textify(eF||(eF=(0,Ce.Z)([\"[target.CombatName] evade[tps|s] the cyborg’s bodyslam!\"]))))"
+  },
+  {
+    "key": "textify|Venomous_drool_bubbles_on_the_cyborg_s_lips_As_soon_as_they_are|899148ef2def",
+    "original": "Venomous drool bubbles on the cyborg’s lips. As soon as they are glistening with spittle, it soars [target.combatHisHer] way for a daring smooch!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22464943&gt;&gt; textify(['Venomous drool bubbles on the cyborg’s lips. As so'...])"
+  },
+  {
+    "key": "combat.expr|var2_var1_var0_0_Ce_Z_The_T4L0N_pins_target_combatNa|32dfd91b2fa8",
+    "original": "\"+{var2}({var1}({var0}(0,Ce.Z)([\"The T4L0N pins [target.combatName] against the wall! [target.CombatName] moan and shiver[tps|s] as it viciously suckles [target.combatHisHer] groin, inoculating [target.combatName] with debilitating venom!\"])))",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22465126&gt;&gt; &lt;&lt;VARS:var0=oF=,var1=oF||,var2=textify&gt;&gt; combatAppend(\"\\n\\n\"+textify(oF||(oF=(0,Ce.Z)([\"The T4L0N pins [target.combatName] against the wall! [target.CombatName] moan and shiver[tps|s] as it viciously suckles [target.combatHisHer] groin, inoculating [target.combatName] with debilitating venom!\"]))))"
+  },
+  {
+    "key": "combat.expr|var2_var1_var0_0_Ce_Z_The_T4L0N_misses_target_combat|da6bbd187e81",
+    "original": "\"+{var2}({var1}({var0}(0,Ce.Z)([\"The T4L0N misses [target.combatName]!\"])))",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22465482&gt;&gt; &lt;&lt;VARS:var0=aF=,var1=aF||,var2=textify&gt;&gt; combatAppend(\"\\n\\n\"+textify(aF||(aF=(0,Ce.Z)([\"The T4L0N misses [target.combatName]!\"]))))"
+  },
+  {
+    "key": "textify|Small_beamers_slide_into_position_along_the_T4L0N_s_legs_aiming|8d11c087282d",
+    "original": "Small beamers slide into position along the T4L0N’s legs, aiming for [target.combatHisHer] chest!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22465629&gt;&gt; textify(['Small beamers slide into position along the T4L0N’'...])"
+  },
+  {
+    "key": "combat.expr|var2_var1_var0_0_Ce_Z_The_searing_laser_hits_target|cbec6c1a567f",
+    "original": "\"+{var2}({var1}({var0}(0,Ce.Z)([\"The searing laser hits [target.combatName]!\"])))",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22465826&gt;&gt; &lt;&lt;VARS:var0=iF=,var1=iF||,var2=textify&gt;&gt; combatAppend(\"\\n\\n\"+textify(iF||(iF=(0,Ce.Z)([\"The searing laser hits [target.combatName]!\"]))))"
+  },
+  {
+    "key": "combat.expr|var2_var1_var0_0_Ce_Z_target_CombatName_avoid_the_s|1d8400b59a37",
+    "original": "\"+{var2}({var1}({var0}(0,Ce.Z)([\"[target.CombatName] avoid the searing laser!\"])))",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22466066&gt;&gt; &lt;&lt;VARS:var0=sF=,var1=sF||,var2=textify&gt;&gt; combatAppend(\"\\n\\n\"+textify(sF||(sF=(0,Ce.Z)([\"[target.CombatName] avoid the searing laser!\"]))))"
+  },
+  {
+    "key": "textify|The_stalking_cyborg_lowers_itself_close_to_the_ground_before_ret|d5435b55113d",
+    "original": "The stalking cyborg lowers itself close to the ground before retracting its insectile stalks. Its exoskeleton entirely covers its soft core in a protective, spherical hull while hidden generators gather energy into powerful kinetic accelerators! Locked and loaded, the armored drone surges [target.combatHisHer] way, hopping into the air and ready to perform vehicular manslaughter!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22466313&gt;&gt; textify(['The stalking cyborg lowers itself close to the gro'...])"
+  },
+  {
+    "key": "combat.expr|var2_var1_var0_0_Ce_Z_The_mind_controlled_leyak_finds|9183ede5a819",
+    "original": "\"+{var2}({var1}({var0}(0,Ce.Z)([\"The mind-controlled leyak finds its mark! [target.CombatName] scream[tps|s] in pain, ribs crushed by its weight and spectacular velocity! The force of the impact strikes [target.combatName] off balance, knocking [target.combatName] down as the T4L0N bounces across the room to dissipate the momentum! After three ear-blasting rebounds, it finally stops its mad course and shifts back into its spider-like appearance!\"])))",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22466733&gt;&gt; &lt;&lt;VARS:var0=uF=,var1=uF||,var2=textify&gt;&gt; combatAppend(\"\\n\\n\"+textify(uF||(uF=(0,Ce.Z)([\"The mind-controlled leyak finds its mark! [target.CombatName] scream[tps|s] in pain, ribs crushed by its weight and spectacular velocity! The force of the impact strikes [target.combatName] off balance, knocking [target.combatName] down as the T4L0N bounces across the room to dissipate the momentum! After three ear-blasting rebounds, it finally stops its mad course and shifts back into its spider-like appearance!\"]))))"
+  },
+  {
+    "key": "textify|Bright_pink_liquid_oozes_from_the_cyborg_s_short_central_leg_A|f896b1824982",
+    "original": "Bright pink liquid oozes from the cyborg’s short, central leg. A sharp stinger slides into position at the tip, ready to pump [target.combatName] full of mind-erasing drugs!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22467804&gt;&gt; textify(['Bright pink liquid oozes from the cyborg’s short, '...])"
+  },
+  {
+    "key": "combat.expr|var2_var1_var0_0_Ce_Z_The_T4L0N_pins_target_combatNa|2d5ac367e479",
+    "original": "\"+{var2}({var1}({var0}(0,Ce.Z)([\"The T4L0N pins [target.combatName] to the ground with its insectile legs before jabbing [target.combatName] with its central stinger! [target.CombatName] hiss in pain, a hiss that turns into a lurid whine as [target.combatHisHer] body flares with masochistic bliss! A magmatic warmth surges through [target.combatHisHer] bloodstream, lighting a volcanic fire into [target.combatHisHer] core [target.cockVagBothNeither|and making [target.combatName] rock-hard with|and soaking [target.combatHisHer] legs with|and making [target.combatName] rock-hard with|with] but a single load!\"])))",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22468015&gt;&gt; &lt;&lt;VARS:var0=cF=,var1=cF||,var2=textify&gt;&gt; combatAppend(\"\\n\\n\"+textify(cF||(cF=(0,Ce.Z)([\"The T4L0N pins [target.combatName] to the ground with its insectile legs before jabbing [target.combatName] with its central stinger! [target.CombatName] hiss in pain, a hiss that turns into a lurid whine as [target.combatHisHer] body flares with masochistic bliss! A magmatic warmth surges through [target.combatHisHer] bloodstream, lighting a volcanic fire into [target.combatHisHer] core [target.cockVagBothNeither|and making [target.combatName] rock-hard with|and soaking [target.combatHisHer] legs with|and making [target.combatName] rock-hard with|with] but a single load!\"]))))"
+  },
+  {
+    "key": "combat.expr|var2_var1_var0_0_Ce_Z_The_hissing_syringe_goes_wide|f0cd41616481",
+    "original": "\"+{var2}({var1}({var0}(0,Ce.Z)([\"The hissing syringe goes wide!\"])))",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22468744&gt;&gt; &lt;&lt;VARS:var0=dF=,var1=dF||,var2=textify&gt;&gt; combatAppend(\"\\n\\n\"+textify(dF||(dF=(0,Ce.Z)([\"The hissing syringe goes wide!\"]))))"
+  },
+  {
+    "key": "assign|the|cb0e75b7bc16",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22469673&gt;&gt; it\",e.originalRace=\"robot\",e.a='the '"
+  },
+  {
+    "key": "assign|It_twists_and_turns_unnaturally_cavorting_like_some_kind_of_bea|7c263c0dcc50",
+    "original": "It twists and turns unnaturally, cavorting like some kind of beast. The liquid grace with which it moves is completely at odds with its unwieldy-looking form, threatening to lash out with its limbs at any moment.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22469705&gt;&gt; the \",e.capitalA=\"The \",e.long='It twists and turns unnaturally, cavorting like some kind of'"
+  },
+  {
+    "key": "assign|Claws_scrabbling|5946382a6fa2",
+    "original": "Claws scrabbling, ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22469934&gt;&gt; at any moment.\",e.customDodge='Claws scrabbling, '"
+  },
+  {
+    "key": "assign|The_armor_plates_soak_up_your_attack|a949e3968846",
+    "original": "The armor plates soak up your attack.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22470019&gt;&gt; om your attack.\",e.customBlock='The armor plates soak up your attack.'"
+  },
+  {
+    "key": "combat|You_take_the_two_of_them_right_in_the_chest_momentarily_knocki|274b85a60dd0",
+    "original": " You take the two of them right in the chest, momentarily knocking the wind from your lungs!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22472321&gt;&gt; combatAppend(\" You take the two of them right in the chest, momentarily knocking the wind from your lungs!\")"
+  },
+  {
+    "key": "combat|It_hits_you_right_in_the|72a1914dc2e8",
+    "original": " It hits you right in the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22472879&gt;&gt; combatAppend(\" It hits you right in the \")"
+  },
+  {
+    "key": "combat|front_sending_you_skittering_back_a_few_paces_with_the_force_o|df541deb03a7",
+    "original": " front, sending you skittering back a few paces with the force of it!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22472933&gt;&gt; combatAppend(\" front, sending you skittering back a few paces with the force of it!\")"
+  },
+  {
+    "key": "combat|front_sending_you_almost_toppling_over_as_you_try_to_regain_yo|29fd143c280c",
+    "original": " front, sending you almost toppling over as you try to regain your balance!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22473030&gt;&gt; combatAppend(\" front, sending you almost toppling over as you try to regain your balance!\")"
+  },
+  {
+    "key": "combat|legs_almost_toppling_you_over_with_the_force_of_it|99a1a6567ca1",
+    "original": " legs, almost toppling you over with the force of it!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22473122&gt;&gt; combatAppend(\" legs, almost toppling you over with the force of it!\")"
+  },
+  {
+    "key": "combat|You_re_too_slow_to_react_and_it_wraps_around_your_hips_With_unb|0d729a84cab7",
+    "original": "You’re too slow to react and it wraps around your hips! With unbelievable brute strength it lifts you straight off the floor and violently slams you against the wall, dropping you into a heap on the floor!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22473585&gt;&gt; combatAppend(\"You’re too slow to react and it wraps around your hips! With unbelievable brute strength it lifts you straight off the floor and violently slams you against the wall, dropping you into a heap on the floor!\")"
+  },
+  {
+    "key": "combat|b_You_re_stunned_b|d2ee3ff67386",
+    "original": " <b>You’re stunned!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22473872&gt;&gt; combatAppend(\" <b>You’re stunned!</b>\")"
+  },
+  {
+    "key": "combat|It_finds_its_mark_wrapping_around_your_lower_half_and_sending|90214b08037f",
+    "original": " It finds its mark, wrapping around your lower half and sending you tumbling to the ground! A followup series of slaps follows you down!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22474021&gt;&gt; combatAppend(\" It finds its mark, wrapping around your lower half and sending you tumbling to the ground! A followup series of slaps follows you down!\")"
+  },
+  {
+    "key": "combat|b_You_are_tripped_b|0ceed805a1ca",
+    "original": " <b>You are tripped!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22474301&gt;&gt; combatAppend(\" <b>You are tripped!</b>\")"
+  },
+  {
+    "key": "assign|Tentacle_Gardener|d014be8d48a5",
+    "original": "Tentacle Gardener",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22475070&gt;&gt; e),e.neverSerialize=!0,e.short='Tentacle Gardener'"
+  },
+  {
+    "key": "assign|the|dfe82296b24b",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22475117&gt;&gt; er\",e.originalRace=\"human\",e.a='the '"
+  },
+  {
+    "key": "assign|She_s_a_tall_statuesque_woman_if_the_statuary_you_re_looking|edf89a69a3fe",
+    "original": "She’s a tall, statuesque woman... if the statuary you’re looking at has grossly exaggerated sexual attributes: an impossibly thin waistline but mareish hips, huge breasts decorated with golden chains, and demonic claws and horns. Black-and-green hair swirls around her as she moves, dancing around the garden with a feline grace that seems outright impossible considering the sheer weight of ass, hips, and titties she’s carrying -- yet she makes her assets look feather-light. And predatory smile is drawn across her jade lips, and coal-black eyes betray a deep, fathomless hunger as she circles you.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22475149&gt;&gt; the \",e.capitalA=\"The \",e.long='She’s a tall, statuesque woman... if the statuary you’re loo'"
+  },
+  {
+    "key": "assign|The_gardener_deftly_slides_past_your_attack_with_graceful_agilit|0b674baf10af",
+    "original": "The gardener deftly slides past your attack with graceful agility.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22475767&gt;&gt; he circles you.\",e.customDodge='The gardener deftly slides past your attack with graceful ag'"
+  },
+  {
+    "key": "assign|The_gardener_meets_your_attack_with_one_of_her_own_glancing_it|ceb41847243e",
+    "original": "The gardener meets your attack with one of her own, glancing it away.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22475850&gt;&gt; aceful agility.\",e.customBlock='The gardener meets your attack with one of her own, glancing'"
+  },
+  {
+    "key": "assign|tough_hide|2b558c0c9db8",
+    "original": "tough hide",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22476699&gt;&gt; .T4,e.inventory.armor.longName='tough hide'"
+  },
+  {
+    "key": "combat|Good_thing_your_suit_is_air_tight|c41b35eb1a35",
+    "original": ". Good thing your suit is air-tight!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22478460&gt;&gt; combatAppend(\". Good thing your suit is air-tight!\")"
+  },
+  {
+    "key": "combat|clawing_at_your_will_to_fight|5496b6b43e3a",
+    "original": ", clawing at your will to fight!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22478521&gt;&gt; combatAppend(\", clawing at your will to fight!\")"
+  },
+  {
+    "key": "combat|The_tentacle_slaps_against_your_pc_foot_winding_around_your|fac9c6f2be91",
+    "original": " The tentacle slaps against your [pc.foot], winding around your body before you can react! In the blink of an eye, you’re wrapped up in tentacles that squeeze and squirm all around you, making movement all but impossible!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22479779&gt;&gt; combatAppend(\" The tentacle slaps against your [pc.foot], winding around your body before you can react! In the blink of an eye, you’re wrapped up in tentacles that squeeze and squirm all around you, making movement all but impossible!\")"
+  },
+  {
+    "key": "combat|When_she_breaks_the_forced_kiss_you_re_coughing_and_sputtering|582645a11531",
+    "original": "When she breaks the forced kiss, you’re coughing and sputtering, and purple plant-cum is leaking down your chin.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22481765&gt;&gt; combatAppend(\"\\n\\nWhen she breaks the forced kiss, you’re coughing and sputtering, and purple plant-cum is leaking down your chin.\")"
+  },
+  {
+    "key": "combat|The_whole_affair_only_lasts_a_handful_of_seconds_before_the_vine|24eb58e2f52a",
+    "original": "The whole affair only lasts a handful of seconds before the vine wriggles free, followed quickly by a purple streak that leaks down the gardener’s lush thighs.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22482727&gt;&gt; combatAppend(\"\\n\\nThe whole affair only lasts a handful of seconds before the vine wriggles free, followed quickly by a purple streak that leaks down the gardener’s lush thighs.\")"
+  },
+  {
+    "key": "assign|Tentacle_Garden|27f89fee7082",
+    "original": "Tentacle Garden",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22484772&gt;&gt; e),e.neverSerialize=!0,e.short='Tentacle Garden'"
+  },
+  {
+    "key": "assign|the|891e91e60c57",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22484850&gt;&gt; \",e.originalRace=\"foliage\",e.a='the '"
+  },
+  {
+    "key": "assign|You_re_surrounded_on_all_sides_by_wriggling_green_vines_mercile|802de168c7e1",
+    "original": "You’re surrounded on all sides by wriggling green vines, mercilessly whipping and grabbing at you. A wall of pink pussy-flowers box you in, sucking at your [pc.legOrLegs] if you stray out of the center of the garden. The tentacles grab at your [pc.arms], trying to restrain you -- and the cockhead-shaped tips at their ends make it abundantly clear what will happen if they succeed!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22484882&gt;&gt; the \",e.capitalA=\"The \",e.long='You’re surrounded on all sides by wriggling green vines, mer'"
+  },
+  {
+    "key": "assign|Vines_writhing_and_twisting_they_manage_to_slip_away_from_your|6aedfc6f5840",
+    "original": "Vines writhing and twisting, they manage to slip away from your attack.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22485281&gt;&gt; f they succeed!\",e.customDodge='Vines writhing and twisting, they manage to slip away from y'"
+  },
+  {
+    "key": "assign|The_spongey_vines_just_seem_to_absorb_your_attack|936e87191eb0",
+    "original": "The spongey vines just seem to absorb your attack.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22485369&gt;&gt; om your attack.\",e.customBlock='The spongey vines just seem to absorb your attack.'"
+  },
+  {
+    "key": "assign|tough_hide|49df19b0f2ee",
+    "original": "tough hide",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22486104&gt;&gt; .T4,e.inventory.armor.longName='tough hide'"
+  },
+  {
+    "key": "combat.expr|Several_of_the_thick_green_dick_vines_slap_you_knocking_you_ar|ea29a9d904b3",
+    "original": " Several of the thick green dick-vines slap you, knocking you around with sheer blunt impacts. Every time you’re hit, the alien fuck - vines squirt out their musky - smelling spunk across your\"+({var0}.isNude()?\" [pc.chest]\":\" [pc.armor]\")+\". You’re left with purple smears all over",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22487241&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\" Several of the thick green dick-vines slap you, knocking you around with sheer blunt impacts. Every time you’re hit, the alien fuck - vines squirt out their musky - smelling spunk across your\"+(e.isNude()?\" [pc.chest]\":\" [pc.armor]\")+\". You’re left with purple smears all over\")"
+  },
+  {
+    "key": "combat|smearing_your_suit_with_slightly_stringy_sticky_splatters_of|c0285a252ddb",
+    "original": ", smearing your suit with slightly stringy, sticky splatters of goo.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22487555&gt;&gt; combatAppend(\", smearing your suit with slightly stringy, sticky splatters of goo.\")"
+  },
+  {
+    "key": "combat|flooding_your_senses_with_fuck_pheromones|69fe857d0fff",
+    "original": ", flooding your senses with fuck-pheromones.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22487640&gt;&gt; combatAppend(\", flooding your senses with fuck-pheromones.\")"
+  },
+  {
+    "key": "combat|try_to|d68437a00faf",
+    "original": " try to",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22488134&gt;&gt; combatAppend(\" try to\")"
+  },
+  {
+    "key": "combat|slip_you_in_return|34781d8f9515",
+    "original": "slip you in return.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22488158&gt;&gt; combatAppend(\"slip you in return.\")"
+  },
+  {
+    "key": "combat|Something_wet_smears_underneath_you_and_you_re_forced_to_grab|069bafedffd8",
+    "original": " Something wet smears underneath you, and you’re forced to grab some of the squirming tentacles, pulling on them to keep yourself upright. Not today, fuck-plants!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22488218&gt;&gt; combatAppend(\" Something wet smears underneath you, and you’re forced to grab some of the squirming tentacles, pulling on them to keep yourself upright. Not today, fuck-plants!\")"
+  },
+  {
+    "key": "combat|You_feel_something_wet_under_you_but_by_the_time_you_realize_y|72a85241586a",
+    "original": " You feel something wet under you, but by the time you realize you’ve just stepped into a puddle of fuck-juices, you’re already slipping, thrown on your ass by an errant tentacle-slap. <b>You’re prone!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22488398&gt;&gt; combatAppend(\" You feel something wet under you, but by the time you realize you’ve just stepped into a puddle of fuck-juices, you’re already slipping, thrown on your ass by an errant tentacle-slap. <b>You’re prone!</b>\")"
+  },
+  {
+    "key": "combat|Your_mind_is_reeling_by_the_time_they_re_done_filled_with_the|5c95de706ee8",
+    "original": " Your mind is reeling by the time they’re done, filled with the irresistible scents of sex. Stars, it would be so easy to just spread your [pc.legs] and let these plants breed you senseless...",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22489356&gt;&gt; combatAppend(\" Your mind is reeling by the time they’re done, filled with the irresistible scents of sex. Stars, it would be so easy to just spread your [pc.legs] and let these plants breed you senseless...\")"
+  },
+  {
+    "key": "assign|stealth_field_generator|1f03f37e1a13",
+    "original": "stealth field generator",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22490678&gt;&gt; shortName=\"S.Field\",e.longName='stealth field generator'"
+  },
+  {
+    "key": "assign|a_stealth_field_generator|9dd1933917d5",
+    "original": "a stealth field generator",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22490777&gt;&gt; ase(e.longName)),e.description='a stealth field generator'"
+  },
+  {
+    "key": "assign|Stealth_field_generators_are_popular_with_smugglers_though_thei|8984fd727b8c",
+    "original": "Stealth field generators are popular with smugglers, though their extremely limited duration makes them unsuitable long term use. Most captains find use for them as evasion-boosters.\\n\\n(~4000 shields)\\n(1x per fight)",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22490815&gt;&gt; lth field generator\",e.tooltip='Stealth field generators are popular with smugglers, though '"
+  },
+  {
+    "key": "assign|Your_craft_thrums_quietly_as_the_stealth_field_leaps_into_existe|dbf75f774052",
+    "original": "Your craft thrums quietly as the stealth field leaps into existence.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22491693&gt;&gt; eldDefense),t===pc_ship){var o='Your craft thrums quietly as the stealth field leaps into ex'"
+  },
+  {
+    "key": "assign|Data_on|3e33faa70fd7",
+    "original": "Data on ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22491835&gt;&gt; Output(),output(o))}else{var a='Data on '"
+  },
+  {
+    "key": "assign|Star_Viper_Spearhead_SS|5f45e9be4b7a",
+    "original": "Star Viper Spearhead SS",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22492800&gt;&gt; is)).neverSerialize=!0,e.short='Star Viper Spearhead SS'"
+  },
+  {
+    "key": "assign|the|6c9355e0bdff",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22493149&gt;&gt; tyRaw=6,e.gunCapacityRaw=4,e.a='the '"
+  },
+  {
+    "key": "assign|The_KihaCorp_Spearhead_is_a_Terran_designed_ship_intended_for_pl|104c5d54f3b9",
+    "original": "The KihaCorp Spearhead is a Terran-designed ship intended for planetary exploration and scout missions. The Spearhead houses four large but powerful XFold engines whose unique design allows for unparalleled maneuverability both in space and in atmosphere. Modern XFolds have low fuel consumption and run quieter than any other engines in their class.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22493181&gt;&gt; the \",e.capitalA=\"The \",e.long='The KihaCorp Spearhead is a Terran-designed ship intended fo'"
+  },
+  {
+    "key": "assign|b_The_attack_was_blocked_b|fa133e736c52",
+    "original": "<b>The attack was blocked.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22493548&gt;&gt; in their class.\",e.customBlock='<b>The attack was blocked.</b>'"
+  },
+  {
+    "key": "perk|TACTICAL_AI|dd7c5dde5c85",
+    "original": "TACTICAL_AI",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22494262&gt;&gt; createPerk(\"TACTICAL_AI\")"
+  },
+  {
+    "key": "assign|Interceptor_Ova_LEK|977af356df21",
+    "original": "Interceptor Ova’LEK",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22495178&gt;&gt; is)).neverSerialize=!0,e.short='Interceptor Ova’LEK'"
+  },
+  {
+    "key": "assign|the|8988092fab9a",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22495391&gt;&gt; tyRaw=6,e.gunCapacityRaw=4,e.a='the '"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#5",
+    "original": "The ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22495409&gt;&gt; ityRaw=4,e.a=\"the \",e.capitalA='The '"
+  },
+  {
+    "key": "assign|It_s_too_evasive|cc9063ea312a#1",
+    "original": "It’s too evasive!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22495487&gt;&gt; as blocked.</b>\",e.customDodge='It’s too evasive!'"
+  },
+  {
+    "key": "assign|Myr_greatcoat|09aa02f2f16f",
+    "original": "Myr greatcoat",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22497351&gt;&gt; ortName=\"MyrG.coat\",e.longName='Myr greatcoat'"
+  },
+  {
+    "key": "assign|a_Myr_greatcoat|5a261da0113d",
+    "original": "a Myr greatcoat",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22497440&gt;&gt; ase(e.longName)),e.description='a Myr greatcoat'"
+  },
+  {
+    "key": "assign|A_standard_issue_Scarlet_Federation_officer_s_leather_greatcoat|f77fa8325786",
+    "original": "A standard-issue Scarlet Federation officer’s leather greatcoat, given to you by Lieve and customized for you, an alien on her world. Sexy, stylish, and guaranteed to keep you toasty in the cold depths.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22497468&gt;&gt; on=\"a Myr greatcoat\",e.tooltip='A standard-issue Scarlet Federation officer’s leather greatc'"
+  },
+  {
+    "key": "assign|Santa_hat|5bc51f2bb01d",
+    "original": "Santa hat",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22498785&gt;&gt; hortName=\"SantaHat\",e.longName='Santa hat'"
+  },
+  {
+    "key": "assign|a_Santa_hat|1630b59b33e2",
+    "original": "a Santa hat",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22498870&gt;&gt; ase(e.longName)),e.description='a Santa hat'"
+  },
+  {
+    "key": "assign|This_fuzzy_red_hat_looks_straight_out_of_Terran_Christmas_tales|2e500ce2c1c8",
+    "original": "This fuzzy red hat looks straight out of Terran Christmas tales of yore. It comes complete with luxurious white fur at the base and an orange sized ball of alabaster fluff at the very apex. The craftsmanship is impeccable. This is no ten credit costume piece. It’s a high-quality piece of haberdashery fit for the big red man himself - or a daring space captain who found a place in [pc.hisHer] heart to help out a poor lost soul during the holidays. Just looking at it makes you feel warm and fuzzy all over.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22498894&gt;&gt; iption=\"a Santa hat\",e.tooltip='This fuzzy red hat looks straight out of Terran Christmas ta'"
+  },
+  {
+    "key": "assign|signet_of_bravery|4bf6ae5c1800",
+    "original": "signet of bravery",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22500558&gt;&gt; hortName=\"BraveSig\",e.longName='signet of bravery'"
+  },
+  {
+    "key": "assign|a_signet_of_bravery|3ffe2b2b700d",
+    "original": "a signet of bravery",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22500651&gt;&gt; ase(e.longName)),e.description='a signet of bravery'"
+  },
+  {
+    "key": "assign|This_ring_is_made_from_a_solid_diamond_that_s_been_cut_into_the|ffc7fff78fa3",
+    "original": "This ring is made from a solid diamond that’s been cut into the shape of a twisting, glimmering spear. Silver-red streaks of some strange impurity are the only sign of its primitive manufacture, though you wager a coreward jeweler could judge it better than you.\\n\\n(Increases maximum aim and physique by +5)\\n(Increases maximum HP by 25.)\\n(Cannot <b>flee</b> combat.)",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22500683&gt;&gt; a signet of bravery\",e.tooltip='This ring is made from a solid diamond that’s been cut into '"
+  },
+  {
+    "key": "assign|Kiros_Dress|692e84f3a47a",
+    "original": "Kiros Dress",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22502851&gt;&gt; pe=GLOBAL.CLOTHING,e.shortName='Kiros Dress'"
+  },
+  {
+    "key": "output|kiro_name|45644677ac09",
+    "original": "[kiro.name]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22503824&gt;&gt; ParseText(\"[kiro.name]\")"
+  },
+  {
+    "key": "assign|kor_diiak_hide_armor|804c3774c917",
+    "original": "kor’diiak hide armor",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22505518&gt;&gt; hortName=\"KH.Armor\",e.longName='kor’diiak hide armor'"
+  },
+  {
+    "key": "assign|a_suit_of_masterworked_kor_diiak_hide_armor|5157569b8876",
+    "original": "a suit of masterworked kor’diiak hide armor",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22505614&gt;&gt; ase(e.longName)),e.description='a suit of masterworked kor’diiak hide armor'"
+  },
+  {
+    "key": "assign|Kor_diiak_hide_is_renowned_for_its_durability_and_resistance_to|a4fc5d75b7eb",
+    "original": "Kor’diiak hide is renowned for its durability and resistance to cold. Unlike many other materials, it does not stiffen or become brittle in sub-freezing temperatures, nor does it require special treatment to prevent rot.\\n\\nThis particular suit is an absolute masterwork. The stitching is near-perfect. Individual frostwyrm scales decorate the chest and reinforce potential weakpoints. The lining is thick and soft, made from some Uvetan beast you’re not quite familiar with. It’s quite the gift.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22505670&gt;&gt; or’diiak hide armor\",e.tooltip='Kor’diiak hide is renowned for its durability and resistance'"
+  },
+  {
+    "key": "assign|mirrored_jumpsuit|7edac3143ecf",
+    "original": "mirrored jumpsuit",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22507261&gt;&gt; .shortName=\"M.Suit\",e.longName='mirrored jumpsuit'"
+  },
+  {
+    "key": "assign|a_mirrored_jumpsuit|8a9bfd247be7",
+    "original": "a mirrored jumpsuit",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22507354&gt;&gt; ase(e.longName)),e.description='a mirrored jumpsuit'"
+  },
+  {
+    "key": "assign|This_mirrored_jumpsuit_is_branded_as_a_Refrax_4_Tacsuit_You_c|16228b499a42",
+    "original": "This mirrored jumpsuit is branded as a “Refrax 4 Tacsuit.” You can see where it gets the name - the entire suit is massively reflective. When wearing it, you’d look a walking puddle of liquid chrome. It’s tight enough not to leave much to the imagination but tough enough to provide a modicum of protection.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22507386&gt;&gt; a mirrored jumpsuit\",e.tooltip='This mirrored jumpsuit is branded as a “Refrax 4 Tacsuit.” Y'"
+  },
+  {
+    "key": "assign|slinky_black_omnisuit|cab090461434",
+    "original": "slinky black omnisuit",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22508959&gt;&gt; .shortName=\"O.Suit\",e.longName='slinky black omnisuit'"
+  },
+  {
+    "key": "assign|a_slinky_black_omnisuit|1cb528f90887",
+    "original": "a slinky black omnisuit",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22509056&gt;&gt; ase(e.longName)),e.description='a slinky black omnisuit'"
+  },
+  {
+    "key": "assign|This_shining_metal_collar_is_the_container_for_a_prototype_omnis|b86112e585f2",
+    "original": "This shining metal collar is the container for a prototype omnisuit - a high tech garment that flows out to cover one’s body in a shining black covering - genitalia and all. The resulting suit provides a modest amount of physical protection - and enhanced sensations for the bedroom.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22509092&gt;&gt; inky black omnisuit\",e.tooltip='This shining metal collar is the container for a prototype o'"
+  },
+  {
+    "key": "output|Touching_a_small_stud_on_the_collar_you_command_the_Omnisuit_to|769bce670a71",
+    "original": "Touching a small stud on the collar, you command the Omnisuit to retract. It does so at once, making you shiver and shudder as it disengages from your [pc.skinFurScales]. The crawling latex tickles at first, but with each blob that flows up into the collar, the sensations deaden. Once you’re completely uncovered, the collar hisses and snaps open, falling into a numbed palm. Your sense of touch is vastly diminished without the suit, leading you to wonder if it wouldn’t be better to just put it back on.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22511172&gt;&gt; output(\"Touching a small stud on the collar, you command the Omnisuit to retract. It does so at once, making you shiver and shudder as it disengages from your [pc.skinFurScales]. The crawling latex tickles at first, but with each blob that flows up into the collar, the sensations deaden. Once you’re..."
+  },
+  {
+    "key": "combat.expr|var2_var1_var0_0_Ce_Z_The_leyak_cannonball_misses_ta|ad4f68f19faf",
+    "original": "\"+{var2}({var1}({var0}(0,Ce.Z)([\"The leyak cannonball misses [target.combatName] by a hair’s breadth! It bounces on debris and the walls a couple of times before slowing down and taking back its spider-like appearance!\"])))",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22467410&gt;&gt; &lt;&lt;VARS:var0=lF=,var1=lF||,var2=textify&gt;&gt; combatAppend(\"\\n\\n\"+textify(lF||(lF=(0,Ce.Z)([\"The leyak cannonball misses [target.combatName] by a hair’s breadth! It bounces on debris and the walls a couple of times before slowing down and taking back its spider-like appearance!\"]))))"
+  },
+  {
+    "key": "assign|the|0e3057607fb9",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22461259&gt;&gt; 0N\",e.originalRace=\"leyak\",e.a='the '"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22461277&gt;&gt; =\"leyak\",e.a=\"the \",e.capitalA='The '"
+  },
+  {
+    "key": "combat|b_You_are_tripped_b|d995f45af3ad",
+    "original": " <b>You are tripped!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22467345&gt;&gt; combatOutput(\" <b>You are tripped!</b>\")"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#1",
+    "original": "The ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22469691&gt;&gt; =\"robot\",e.a=\"the \",e.capitalA='The '"
+  },
+  {
+    "key": "assign|tough_hide|6c0fcd3b66d4",
+    "original": "tough hide",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22470501&gt;&gt; .T4,e.inventory.armor.longName='tough hide'"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#2",
+    "original": "The ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22475135&gt;&gt; =\"human\",e.a=\"the \",e.capitalA='The '"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#3",
+    "original": "The ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22484868&gt;&gt; foliage\",e.a=\"the \",e.capitalA='The '"
+  },
+  {
+    "key": "combat.expr|var0|dfce9dcb82f3",
+    "original": "{var0}",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:22491787&gt;&gt; &lt;&lt;VARS:var0=o&gt;&gt; combatOutput(o,null,t)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1",
+    "original": "{var0}",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:22491819&gt;&gt; &lt;&lt;VARS:var0=o&gt;&gt; output(o)"
+  },
+  {
+    "key": "combat.expr|var0|4128b4884b74",
+    "original": "{var0}",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:22491951&gt;&gt; &lt;&lt;VARS:var0=a&gt;&gt; combatOutput(a,null,t)"
+  },
+  {
+    "key": "output.expr|var0|682b08bd06d1#1",
+    "original": "{var0}",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:22491983&gt;&gt; &lt;&lt;VARS:var0=a&gt;&gt; output(a)"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1#4",
+    "original": "The ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22493167&gt;&gt; ityRaw=4,e.a=\"the \",e.capitalA='The '"
+  },
+  {
+    "key": "assign|It_s_too_evasive|cc9063ea312a",
+    "original": "It’s too evasive!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22493595&gt;&gt; as blocked.</b>\",e.customDodge='It’s too evasive!'"
+  },
+  {
+    "key": "assign|b_The_attack_was_blocked_b|d64eb436591b",
+    "original": "<b>The attack was blocked.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22495440&gt;&gt; \"The \",e.long=\"\",e.customBlock='<b>The attack was blocked.</b>'"
+  },
+  {
+    "key": "perk|AGGRESSIVE_AI|212770e48b40",
+    "original": "AGGRESSIVE_AI",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22496251&gt;&gt; createPerk(\"AGGRESSIVE_AI\")"
+  },
+  {
+    "key": "combat|The_taursuit_ducks_and_waves_slithering_along_the_ground_in_a_w|86550965d843",
+    "original": "The taursuit ducks and waves, slithering along the ground in a wholly unnatural and disturbing manner and spinning backwards, kicking out with its rear legs!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22472021&gt;&gt; combatOutput(\"The taursuit ducks and waves, slithering along the ground in a wholly unnatural and disturbing manner and spinning backwards, kicking out with its rear legs!\",null,this)"
+  },
+  {
+    "key": "combat|You_just_narrowly_avoid_them_pulling_back_out_of_range_for_you|f61593900b8a",
+    "original": " You just narrowly avoid them, pulling back out of range for your counterattack!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22472223&gt;&gt; combatAppend(\" You just narrowly avoid them, pulling back out of range for your counterattack!\")"
+  },
+  {
+    "key": "combat|The_half_centaur_suit_bends_its_legs_in_a_fashion_that_doesn_t_s|5c3e76a1277a",
+    "original": "The half-centaur suit bends its legs in a fashion that doesn’t seem quite possible, leaping into the air with surprising speed and barreling into you!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22472547&gt;&gt; combatOutput(\"The half-centaur suit bends its legs in a fashion that doesn’t seem quite possible, leaping into the air with surprising speed and barreling into you!\",null,this)"
+  },
+  {
+    "key": "combat|It_goes_flying_right_by_you_narrowly_missing_you_by_inches_Pi|f613681d9738",
+    "original": " It goes flying right by you, narrowly missing you by inches! Pivoting once more, it turns to ready for another attack!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22472742&gt;&gt; combatAppend(\" It goes flying right by you, narrowly missing you by inches! Pivoting once more, it turns to ready for another attack!\")"
+  },
+  {
+    "key": "combat|A_long_grasping_tentacle_shoots_up_from_the_taursuit_seeking_t|af88a8817061",
+    "original": "A long, grasping tentacle shoots up from the taursuit, seeking to grab at your [pc.legOrLegs]!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22473319&gt;&gt; combatOutput(\"A long, grasping tentacle shoots up from the taursuit, seeking to grab at your [pc.legOrLegs]!\",null,this)"
+  },
+  {
+    "key": "combat|You_jump_out_of_the_way_avoiding_its_outstretched_groping_gra|8711d6078fa7",
+    "original": " You jump out of the way, avoiding its outstretched, groping grasp!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22473458&gt;&gt; combatAppend(\" You jump out of the way, avoiding its outstretched, groping grasp!\")"
+  },
+  {
+    "key": "combat|i_Oh_that_hurts_i_the_demonic_woman_mocks_crossing_her_h|4394a84b1570",
+    "original": "<i>“Oh, that hurts!”</i> the demonic woman mocks, crossing her hands over her heart. Pressing her shoulders together just makes her massive udders look that much larger, more enticing... and the subtle pressure on them triggers something inside her! Her pierced nipples stiffen, and you see a golden liquid start beading on the obsidian peaks. At first it looks like honey, but as soon as it’s out of her breasts, the stuff crystallizes and bursts into a million tiny particles!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22477785&gt;&gt; combatOutput(\"<i>“Oh, that hurts!”</i> the demonic woman mocks, crossing her hands over her heart. Pressing her shoulders together just makes her massive udders look that much larger, more enticing... and the subtle pressure on them triggers something inside her! Her pierced nipples stiffen, and you..."
+  },
+  {
+    "key": "combat|The_air_is_suddenly_thick_with_minuscule_golden_seeds_pollen|13b5293c5729",
+    "original": "The air is suddenly thick with minuscule golden seeds -- pollen! Her pain is filling the arena with some kind of fuck-scent cloud",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22478294&gt;&gt; combatAppend(\"\\n\\nThe air is suddenly thick with minuscule golden seeds -- pollen! Her pain is filling the arena with some kind of fuck-scent cloud\")"
+  },
+  {
+    "key": "combat|The_obsidian_temptress_twirls_around_you_making_fuck_hungry_noi|462ba8a5d255",
+    "original": "The obsidian temptress twirls around you, making fuck-hungry noises and shaking her hips and tits with every motion. Her hands grasp at the dildo-vines hanging from the walls, pulling them taut and swinging herself around them. At first, you think she’s using them to leap around the clearing just that much faster, but as you watch her movements, it becomes obvious it’s all a show, a dance to make her huge breasts jiggle and let her thrust her fuckable ass out towards you in a brazen display of sexuality.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22478882&gt;&gt; combatOutput(\"The obsidian temptress twirls around you, making fuck-hungry noises and shaking her hips and tits with every motion. Her hands grasp at the dildo-vines hanging from the walls, pulling them taut and swinging herself around them. At first, you think she’s using them to leap around the cl..."
+  },
+  {
+    "key": "combat|With_a_snarl_the_alien_woman_grabs_one_of_her_precious_vines_by|f7f6fed42a32",
+    "original": "With a snarl, the alien woman grabs one of her precious vines by the step and swings the meaty, living trunk of it right at your [pc.feet].",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22479534&gt;&gt; combatOutput(\"With a snarl, the alien woman grabs one of her precious vines by the step and swings the meaty, living trunk of it right at your [pc.feet].\",null,this)"
+  },
+  {
+    "key": "combat|You_dodge_backwards_evading_the_vine|bf0befef4e0a",
+    "original": " You dodge backwards, evading the vine!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22479722&gt;&gt; combatAppend(\" You dodge backwards, evading the vine!\")"
+  },
+  {
+    "key": "combat|The_sinuous_tentacles_squeeze_down_around_your_limbs_tightly_a|f8b989bac7ae",
+    "original": "The sinuous tentacles squeeze down around your limbs tightly, a cooing groan from their gardener mistress as she revels in the sweet sight of your tender flesh bulging slightly around the vice-tight embrace of her writhing pets. She squishes herself against your back, her face perched over your shoulder, cheek-to-helmet with your airtight suit, a lazy, tantalizing fingertip trailing down the other side of the face mask protecting you from the rich oozings delivered by the tentacles squirming around you.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22480209&gt;&gt; combatOutput(\"The sinuous tentacles squeeze down around your limbs tightly, a cooing groan from their gardener mistress as she revels in the sweet sight of your tender flesh bulging slightly around the vice-tight embrace of her writhing pets. She squishes herself against your back, her face perched ..."
+  },
+  {
+    "key": "combat|i_All_trussed_up_with_nowhere_to_go_i_the_demonic_looking|4fed679cca87",
+    "original": "<i>“All trussed up with nowhere to go,”</i> the demonic-looking gardener coos, approaching you with a swaggering gait. She cups some of the viney cock-heads surrounding you, pointedly ignoring your struggles while she takes one of the throbbing crowns into her mouth. Her jade lips close around it, and you can see her cheeks moving with an obvious sucking motion, drawing the shaft deeper in and letting it wiggle back out again.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22480889&gt;&gt; combatOutput(\"<i>“All trussed up with nowhere to go,”</i> the demonic-looking gardener coos, approaching you with a swaggering gait. She cups some of the viney cock-heads surrounding you, pointedly ignoring your struggles while she takes one of the throbbing crowns into her mouth. Her jade lips clos..."
+  },
+  {
+    "key": "combat|The_vine_shudders_and_grows_thicker_for_a_brief_moment_before_sq|517fcb645e95",
+    "original": "The vine shudders and grows thicker for a brief moment before squirming out of her mouth, squirting aftershots of purple cum onto its mother’s tits and belly. She moans, eyes fluttering closed. Then her hands are one your cheeks, claws caressing your [pc.skinFurScales]. Her lips push against yours, tongue thrusting forward to push your [pc.lips] apart. And with it comes thick, fragrant seed!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22481350&gt;&gt; combatAppend(\"\\n\\nThe vine shudders and grows thicker for a brief moment before squirming out of her mouth, squirting aftershots of purple cum onto its mother’s tits and belly. She moans, eyes fluttering closed. Then her hands are one your cheeks, claws caressing your [pc.skinFurScales]. Her lips pu..."
+  },
+  {
+    "key": "combat|The_woman_s_wave_like_motions_come_to_a_momentary_stop_when_she|abfa8792d284",
+    "original": "The woman’s wave-like motions come to a momentary stop when she nears one of the tentacles that was bruised in your previous conflict. She gasps, picking up the swollen cockhead in both hands and cradling its throbbing, turgid body. <i>“Oh, you poor baby! Here, mama will make it all better...”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22482024&gt;&gt; combatOutput(\"The woman’s wave-like motions come to a momentary stop when she nears one of the tentacles that was bruised in your previous conflict. She gasps, picking up the swollen cockhead in both hands and cradling its throbbing, turgid body. <i>“Oh, you poor baby! Here, mama will make it all be..."
+  },
+  {
+    "key": "combat|With_the_ease_of_an_act_practiced_a_thousand_times_the_gardener|398fe20f535e",
+    "original": "With the ease of an act practiced a thousand times, the gardener guides the vine’s purple crown right into her pussy. She moans throatily, cupping a boob and rubbing her clit while the vine snuggles in and starts pumping away. The golden chains hugging her plush frame jingle from their piercing mounts, making the lurid display that much more enticing.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22482353&gt;&gt; combatAppend(\"\\n\\nWith the ease of an act practiced a thousand times, the gardener guides the vine’s purple crown right into her pussy. She moans throatily, cupping a boob and rubbing her clit while the vine snuggles in and starts pumping away. The golden chains hugging her plush frame jingle from t..."
+  },
+  {
+    "key": "combat|Several_of_the_dildo_tentacles_lunge_out_swiping_at_you_like_ha|c296d5510288",
+    "original": "Several of the dildo-tentacles lunge out, swiping at you like hammers!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22483421&gt;&gt; combatOutput(\"Several of the dildo-tentacles lunge out, swiping at you like hammers!\",null,this)"
+  },
+  {
+    "key": "combat|You_duck_and_weave_avoiding_the_vines_attacks|9b51cce8a96c",
+    "original": " You duck and weave, avoiding the vines’ attacks!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22483536&gt;&gt; combatAppend(\" You duck and weave, avoiding the vines’ attacks!\",null,this)"
+  },
+  {
+    "key": "combat.expr|Several_of_the_thick_green_dick_vines_slap_you_knocking_you_ar|2eb9c2da648c",
+    "original": " Several of the thick green dick-vines slap you, knocking you around with sheer blunt impacts. Every time you’re hit, the alien fuck - vines squirt out their musky - smelling spunk across your\"+({var0}.isNude()?\" [pc.chest]\":\" [pc.armor]\")+\". You’re left with purple smears all over, flooding your senses with fuck-pheromones.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22483613&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; combatAppend(\" Several of the thick green dick-vines slap you, knocking you around with sheer blunt impacts. Every time you’re hit, the alien fuck - vines squirt out their musky - smelling spunk across your\"+(e.isNude()?\" [pc.chest]\":\" [pc.armor]\")+\". You’re left with purple smears all over, flooding your senses with fuck-pheromones.\")"
+  },
+  {
+    "key": "combat|Several_of_the_dildo_tentacles_lunge_out_swiping_at_you_like_ha|ce534b2dc6c0",
+    "original": "Several of the dildo-tentacles lunge out, swiping at you like hammers!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22487056&gt;&gt; combatOutput(\"Several of the dildo-tentacles lunge out, swiping at you like hammers!\",null,this)"
+  },
+  {
+    "key": "combat|You_duck_and_weave_avoiding_the_vines_attacks|9b51cce8a96c#1",
+    "original": " You duck and weave, avoiding the vines’ attacks!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22487174&gt;&gt; combatAppend(\" You duck and weave, avoiding the vines’ attacks!\")"
+  },
+  {
+    "key": "combat|You_re_having_a_good_enough_time_dodging_a_hundred_fuck_hungry_t|c7963edbfbcb",
+    "original": "You’re having a good enough time dodging a hundred fuck-hungry tentacles that for a moment, the pussy-flowers underfoot slip your mind",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22487891&gt;&gt; combatOutput(\"You’re having a good enough time dodging a hundred fuck-hungry tentacles that for a moment, the pussy-flowers underfoot slip your mind\",null,this)"
+  },
+  {
+    "key": "combat|so_they|926b32986626",
+    "original": " -- so they",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22488087&gt;&gt; combatAppend(\" -- so they\")"
+  },
+  {
+    "key": "combat|You_re_too_busy_trying_not_to_get_beaten_into_the_dirt_by_the_hu|23a51ee7d52c",
+    "original": "You’re too busy trying not to get beaten into the dirt by the hundreds of thrashing tentacles to notice a handful of them rising back into the air. Only when the rest of them pull apart, creating a perfect circle of open air over you, do you see all of the drooling purple cock-heads looming over you, throbbing with pent-up juices.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22488677&gt;&gt; combatOutput(\"You’re too busy trying not to get beaten into the dirt by the hundreds of thrashing tentacles to notice a handful of them rising back into the air. Only when the rest of them pull apart, creating a perfect circle of open air over you, do you see all of the drooling purple cock-heads lo..."
+  },
+  {
+    "key": "combat|And_then_all_as_one_they_ejaculate_Purple_plant_spunk_pours_d|171312681a07",
+    "original": "And then, all as one, they ejaculate. Purple plant-spunk pours down on you, squirting from the vines’ cockheads. Thick gouts of musky goo splatter all over your [pc.face], coating your body in the pheromone-laden seed.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22489040&gt;&gt; combatAppend(\"\\n\\nAnd then, all as one, they ejaculate. Purple plant-spunk pours down on you, squirting from the vines’ cockheads. Thick gouts of musky goo splatter all over your [pc.face], coating your body in the pheromone-laden seed.\")"
+  },
+  {
+    "key": "ui.title|Interact|757ef2091b6b",
+    "original": "Interact",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22510087&gt;&gt; title:'Interact'"
+  },
+  {
+    "key": "ui.title|Interact|b64425f7db23",
+    "original": "Interact",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22510248&gt;&gt; title:'Interact'"
+  },
+  {
+    "key": "ui.title|Interact|b64425f7db23#1",
+    "original": "Interact",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22510354&gt;&gt; title:'Interact'"
+  },
+  {
+    "key": "header|Removing_the_Omnisuit|c7762a24fc76",
+    "original": "Removing the Omnisuit...",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:22511136&gt;&gt; blockHeader(\"Removing the Omnisuit...\")"
+  }
+]

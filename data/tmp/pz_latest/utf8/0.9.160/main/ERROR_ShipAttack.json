@@ -1,0 +1,247 @@
+[
+  {
+    "key": "assign|Focus_on_recharging_your_ship_s_capacitors_instead_of_fighting_b|6fa61d96785b",
+    "original": "Focus on recharging your ship’s capacitors instead of fighting back. Note that this happens automatically if you select “Battle!” without any weapons enabled.\\n\\n(Double energy gain.)",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11234796&gt;&gt; rge!\",l.P.Recharge.TooltipBody='Focus on recharging your ship’s capacitors instead of fighti'"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_lacks_the_power_to_var2_var|3e9be77db7d9",
+    "original": "{var1}.capitalize({var0})+\" lacks the power to \"+{var2}+\" \"+{var3}+\".",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11237006&gt;&gt; &lt;&lt;VARS:var0=i,!1,var1=h.m,var2=o.attackVerb,var3=o.description&gt;&gt; combatAppend(h.m.capitalize(i,!1)+\" lacks the power to \"+o.attackVerb+\" \"+o.description+\".\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_cycles_a_flicker_of_power_through_it|e5f20a7b28e8",
+    "original": "{var1}.capitalize({var0})+\" cycles a flicker of power through its \"+{var2}+\", but not enough to fire.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11237099&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=h.m,var2=o.longName&gt;&gt; combatAppend(h.m.capitalize(e.getCombatName(),!1)+\" cycles a flicker of power through its \"+o.longName+\", but not enough to fire.\")"
+  },
+  {
+    "key": "assign|Not_ISaveable|d770cb60ccda",
+    "original": "Not ISaveable",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11237294&gt;&gt; tion\"!=typeof t.evasion){var u='Not ISaveable'"
+  },
+  {
+    "key": "combat.expr|You_var0_at_var1_getCombatName_var2|735abd16abb0",
+    "original": "You \"+{var0}+\" at \"+{var1}.getCombatName()+\". \"+{var2}",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11237759&gt;&gt; &lt;&lt;VARS:var0=o.attackVerb,var1=t,var2=t.customDodge&gt;&gt; combatAppend(\"You \"+o.attackVerb+\" at \"+t.getCombatName()+\". \"+t.customDodge)"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_fire_var2_s_var3|cd8e8cf3acce",
+    "original": "{var1}.capitalize({var0})+\" fire\"+({var2}?\"\":\"s\")+\" \"+{var3}+\". \"+{var4}",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11237836&gt;&gt; &lt;&lt;VARS:var0=i,!1,var1=h.m,var2=e.isPlural,var3=o.description,var4=t.customDodge&gt;&gt; combatAppend(h.m.capitalize(i,!1)+\" fire\"+(e.isPlural?\"\":\"s\")+\" \"+o.description+\". \"+t.customDodge)"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_var4_var5_var5_plural_var4|11cb6a21e80b",
+    "original": "{var1}.capitalize({var0})+\" \"+({var4}?{var5}:{var5}.plural({var4}))+\" \"+{var7}.indefiniteArticle({var6})+\" at \"+{var8}.getCombatName()+\". \"+{var9}",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11237936&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=h.m,var2=e.isPlural,var3=o.attackVerb,var4=o.attackVerb,var5=h.m,var6=o.longName,var7=h.m,var8=t,var9=t.customDodge&gt;&gt; combatAppend(h.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural?o.attackVerb:h.m.plural(o.attackVerb))+\" \"+h.m.indefiniteArticle(o.longName)+\" at \"+t.getCombatName()+\". \"+t.customDodge)"
+  },
+  {
+    "key": "combat.expr|You_var0_at_var1_getCombatName_with_your_var2|164f6a4912e4",
+    "original": "You \"+{var0}+\" at \"+{var1}.getCombatName()+\" with your \"+{var2}+\", but it goes wide.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11238134&gt;&gt; &lt;&lt;VARS:var0=o.attackVerb,var1=t,var2=o.longName&gt;&gt; combatAppend(\"You \"+o.attackVerb+\" at \"+t.getCombatName()+\" with your \"+o.longName+\", but it goes wide.\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_miss_var2_es_var3_ge|b5b6af571175",
+    "original": "{var1}.capitalize({var0})+\" miss\"+({var2}?\"\":\"es\")+\" \"+{var3}.getCombatName()+\" with \"+{var4}",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11238239&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=h.m,var2=e.isPlural,var3=t,var4=o.description&gt;&gt; combatAppend(h.m.capitalize(e.getCombatName(),!1)+\" miss\"+(e.isPlural?\"\":\"es\")+\" \"+t.getCombatName()+\" with \"+o.description)"
+  },
+  {
+    "key": "combat.expr|You_manage_to_avoid_var1_possessive_var0_getCombatName|10f410a19734",
+    "original": "You manage to avoid \"+{var1}.possessive({var0}.getCombatName())+\" \"+{var2}+\".",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11238367&gt;&gt; &lt;&lt;VARS:var0=e,var1=h.m,var2=o.attackNoun&gt;&gt; combatAppend(\"You manage to avoid \"+h.m.possessive(e.getCombatName())+\" \"+o.attackNoun+\".\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_manage_to_avoid_var3_possessive|646d6444f1e3",
+    "original": "{var1}.capitalize({var0})+\" manage to avoid \"+{var3}.possessive({var2}.getCombatName())+\" \"+{var4}+\".",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11238469&gt;&gt; &lt;&lt;VARS:var0=t.getCombatName(),!1,var1=h.m,var2=e,var3=h.m,var4=o.attackNoun&gt;&gt; combatAppend(h.m.capitalize(t.getCombatName(),!1)+\" manage to avoid \"+h.m.possessive(e.getCombatName())+\" \"+o.attackNoun+\".\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_manages_to_avoid_var3_possessive|c8b357b4b09f",
+    "original": "{var1}.capitalize({var0})+\" manages to avoid \"+{var3}.possessive({var2}.getCombatName())+\" \"+{var4}+\".",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11238595&gt;&gt; &lt;&lt;VARS:var0=t.getCombatName(),!1,var1=h.m,var2=e,var3=h.m,var4=o.attackNoun&gt;&gt; combatAppend(h.m.capitalize(t.getCombatName(),!1)+\" manages to avoid \"+h.m.possessive(e.getCombatName())+\" \"+o.attackNoun+\".\")"
+  },
+  {
+    "key": "combat.expr|You_var0_at_var1_getCombatName_var2|8b9005840bce",
+    "original": "You \"+{var0}+\" at \"+{var1}.getCombatName()+\". \"+{var2}",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11238854&gt;&gt; &lt;&lt;VARS:var0=o.attackVerb,var1=t,var2=t.customDodge&gt;&gt; combatAppend(\"You \"+o.attackVerb+\" at \"+t.getCombatName()+\". \"+t.customDodge)"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_fire_var2_s_var3|cd8e8cf3acce#1",
+    "original": "{var1}.capitalize({var0})+\" fire\"+({var2}?\"\":\"s\")+\" \"+{var3}+\". \"+{var4}",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11238931&gt;&gt; &lt;&lt;VARS:var0=i,!1,var1=h.m,var2=e.isPlural,var3=o.description,var4=t.customDodge&gt;&gt; combatAppend(h.m.capitalize(i,!1)+\" fire\"+(e.isPlural?\"\":\"s\")+\" \"+o.description+\". \"+t.customDodge)"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_var4_var5_var5_plural_var4|11cb6a21e80b#1",
+    "original": "{var1}.capitalize({var0})+\" \"+({var4}?{var5}:{var5}.plural({var4}))+\" \"+{var7}.indefiniteArticle({var6})+\" at \"+{var8}.getCombatName()+\". \"+{var9}",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11239031&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=h.m,var2=e.isPlural,var3=o.attackVerb,var4=o.attackVerb,var5=h.m,var6=o.longName,var7=h.m,var8=t,var9=t.customDodge&gt;&gt; combatAppend(h.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlural?o.attackVerb:h.m.plural(o.attackVerb))+\" \"+h.m.indefiniteArticle(o.longName)+\" at \"+t.getCombatName()+\". \"+t.customDodge)"
+  },
+  {
+    "key": "combat.expr|You_var0_at_var1_getCombatName_with_your_var2|c64bcd318174",
+    "original": "You \"+{var0}+\" at \"+{var1}.getCombatName()+\" with your \"+{var2}+\", but just can’t connect.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11239222&gt;&gt; &lt;&lt;VARS:var0=o.attackVerb,var1=t,var2=o.longName&gt;&gt; combatAppend(\"You \"+o.attackVerb+\" at \"+t.getCombatName()+\" with your \"+o.longName+\", but just can’t connect.\")"
+  },
+  {
+    "key": "combat.expr|You_manage_to_avoid_var1_possessive_var0_getCombatName|6ebe5dadba22",
+    "original": "You manage to avoid \"+{var1}.possessive({var0}.getCombatName())+\" \"+{var2}+\".",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11239336&gt;&gt; &lt;&lt;VARS:var0=e,var1=h.m,var2=o.attackNoun&gt;&gt; combatAppend(\"You manage to avoid \"+h.m.possessive(e.getCombatName())+\" \"+o.attackNoun+\".\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_manage_var2_s_to_avoid|c1ea9ec10d09",
+    "original": "{var1}.capitalize({var0})+\" manage\"+({var2}?\"\":\"s\")+\" to avoid \"+{var4}.possessive({var3}.getCombatName())+\" \"+{var5}+\".",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11239427&gt;&gt; &lt;&lt;VARS:var0=t.getCombatName(),!1,var1=h.m,var2=t.isPlural,var3=e,var4=h.m,var5=o.attackNoun&gt;&gt; combatAppend(h.m.capitalize(t.getCombatName(),!1)+\" manage\"+(t.isPlural?\"\":\"s\")+\" to avoid \"+h.m.possessive(e.getCombatName())+\" \"+o.attackNoun+\".\")"
+  },
+  {
+    "key": "combat.expr|You_var0_your_var1_and_hit_var2_getCombatName|95876205a414",
+    "original": "You \"+{var0}+\" your \"+{var1}+\" and hit \"+{var2}.getCombatName()+\"!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11239595&gt;&gt; &lt;&lt;VARS:var0=o.attackVerb,var1=o.longName,var2=t&gt;&gt; combatAppend(\"You \"+o.attackVerb+\" your \"+o.longName+\" and hit \"+t.getCombatName()+\"!\")"
+  },
+  {
+    "key": "combat.expr|var0|27a8ad22e54e",
+    "original": "{var0}",
+    "translation": "",
+    "stage": -1,
+    "context": "&lt;&lt;POS:11240249&gt;&gt; &lt;&lt;VARS:var0=l[rand(l.length)]&gt;&gt; combatAppend(l[rand(l.length)])"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_var4_var5_var5_plural_var4|08a212b48623",
+    "original": "{var1}.capitalize({var0})+\" \"+({var4}?{var5}:{var5}.plural({var4}))+\" \"+{var6}.getCombatName()+\" with \"+{var7}+\"!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11240286&gt;&gt; &lt;&lt;VARS:var0=i,!1,var1=h.m,var2=i.isPlural,var3=o.attackVerb,var4=o.attackVerb,var5=h.m,var6=t,var7=o.description&gt;&gt; combatAppend(h.m.capitalize(i,!1)+\" \"+(i.isPlural?o.attackVerb:h.m.plural(o.attackVerb))+\" \"+t.getCombatName()+\" with \"+o.description+\"!\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_connect_with_their_var3_plural|3394a8b38593",
+    "original": "{var1}.capitalize({var0})+\" connect with their \"+{var3}.plural({var2})+\"!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11240441&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=h.m,var2=o.longName,var3=h.m&gt;&gt; combatAppend(h.m.capitalize(e.getCombatName(),!1)+\" connect with their \"+h.m.plural(o.longName)+\"!\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_hits_you_with_its_var2|bad63e3ee66d",
+    "original": "{var1}.capitalize({var0})+\" hits you with its \"+{var2}+\"!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11240544&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=h.m,var2=o.longName&gt;&gt; combatAppend(h.m.capitalize(e.getCombatName(),!1)+\" hits you with its \"+o.longName+\"!\")"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_strikes_var2_getCombatName_w|750de6414704",
+    "original": "{var1}.capitalize({var0})+\" strikes \"+{var2}.getCombatName()+\" with its \"+{var3}+\"!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11240632&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=h.m,var2=t,var3=o.longName&gt;&gt; combatAppend(h.m.capitalize(e.getCombatName(),!1)+\" strikes \"+t.getCombatName()+\" with its \"+o.longName+\"!\")"
+  },
+  {
+    "key": "assign|Focus_on_evasion_rather_than_firing_any_weapon_systems_Dodge_d|54bca1d29fd0",
+    "original": "Focus on evasion rather than firing any weapon systems. Dodge, duck, dip, dive, and aileron roll!\\n\\n(+50 evasion.)",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11234525&gt;&gt; vade!\",l.P.Evasion.TooltipBody='Focus on evasion rather than firing any weapon systems. Dodg'"
+  },
+  {
+    "key": "combat.expr|You_would_like_to_var0_your_var1_but_lack_the_power|7a28990d4ae1",
+    "original": "You would like to \"+{var0}+\" your \"+{var1}+\", but lack the power to do so.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11235362&gt;&gt; &lt;&lt;VARS:var0=a.attackVerb,var1=a.longName&gt;&gt; combatOutput(\"You would like to \"+a.attackVerb+\" your \"+a.longName+\", but lack the power to do so.\",null,e)"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_doesn_t_have_enough_power_to_fire|6d60d958abdd",
+    "original": "{var1}.capitalize({var0})+\" doesn’t have enough power to fire \"+{var2}+\".",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11235469&gt;&gt; &lt;&lt;VARS:var0=n,var1=h.m,var2=a.description&gt;&gt; combatOutput(h.m.capitalize(n)+\" doesn’t have enough power to fire \"+a.description+\".\",null,e)"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_cycles_a_flicker_of_power_through_it|22be3c7c402b",
+    "original": "{var1}.capitalize({var0})+\" cycles a flicker of power through its \"+{var2}+\", but not enough to fire.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11235564&gt;&gt; &lt;&lt;VARS:var0=e.getCombatName(),!1,var1=h.m,var2=a.longName&gt;&gt; combatOutput(h.m.capitalize(e.getCombatName(),!1)+\" cycles a flicker of power through its \"+a.longName+\", but not enough to fire.\",null,e)"
+  },
+  {
+    "key": "combat|Playing_it_cool_you_keep_your_power_load_low_to_allow_your_reac|ffb48a3a3fa5",
+    "original": "Playing it cool, you keep your power load low to allow your reactor to recharge faster...",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11236361&gt;&gt; combatOutput(\"Playing it cool, you keep your power load low to allow your reactor to recharge faster...\",null,e)"
+  },
+  {
+    "key": "combat.expr|You_would_like_to_var0_your_var1_but_lack_the_power|673b186c5072",
+    "original": "You would like to \"+{var0}+\" your \"+{var1}+\", but lack the power to do so.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11236906&gt;&gt; &lt;&lt;VARS:var0=o.attackVerb,var1=o.longName&gt;&gt; combatAppend(\"You would like to \"+o.attackVerb+\" your \"+o.longName+\", but lack the power to do so.\")"
+  },
+  {
+    "key": "combat|You_close_off_the_weapon_relays_and_put_both_hands_on_the_stick|3e0cf5ceea70",
+    "original": "You close off the weapon relays and put both hands on the stick. Time to fly for your life!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11240912&gt;&gt; combatOutput(\"You close off the weapon relays and put both hands on the stick. Time to fly for your life!\",null,o)"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_begins_to_dodge_like_crazy_trying_i|38662ef8f7a5",
+    "original": "{var1}.capitalize({var0})+\" begins to dodge like crazy, trying its hardest to evade incoming fire!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11241026&gt;&gt; &lt;&lt;VARS:var0=o.getCombatName(),!1,var1=h.m&gt;&gt; combatOutput(h.m.capitalize(o.getCombatName(),!1)+\" begins to dodge like crazy, trying its hardest to evade incoming fire!\",null,o)"
+  },
+  {
+    "key": "combat|Playing_it_cool_you_keep_your_power_load_low_to_allow_your_reac|b7f575dc3b2c",
+    "original": "Playing it cool, you keep your power load low to allow your reactor to recharge faster...",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11241337&gt;&gt; combatOutput(\"Playing it cool, you keep your power load low to allow your reactor to recharge faster...\",null,o)"
+  },
+  {
+    "key": "combat|The_Space_Leviathan_gathers_power_in_its_core|400dedfa2252",
+    "original": "The Space Leviathan gathers power in its core!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11241486&gt;&gt; combatOutput(\"The Space Leviathan gathers power in its core!\",null,o)"
+  },
+  {
+    "key": "combat.expr|var1_capitalize_var0_minimizes_its_power_load_presumably|6a8de3abff8f",
+    "original": "{var1}.capitalize({var0})+\" minimizes its power load, presumably attempting to recharge its capacitor banks.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:11241555&gt;&gt; &lt;&lt;VARS:var0=o.getCombatName(),!1,var1=h.m&gt;&gt; combatOutput(h.m.capitalize(o.getCombatName(),!1)+\" minimizes its power load, presumably attempting to recharge its capacitor banks.\",null,o)"
+  }
+]

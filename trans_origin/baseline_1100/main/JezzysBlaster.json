@@ -1,0 +1,184 @@
+[
+  {
+    "key": "perk|Fixed_CumQ|9becd7a6288b",
+    "original": "Fixed CumQ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00694094&gt;&gt; createPerk(\"Fixed CumQ\",3912)"
+  },
+  {
+    "key": "perk|Juggernaut|0f827c3b9140",
+    "original": "Juggernaut",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00694181&gt;&gt; createPerk(\"Juggernaut\")"
+  },
+  {
+    "key": "combat|Whizzing_past_concat_e_getCombatPronoun_himher_the_weapo|56ec18c524bc",
+    "original": "Whizzing past \".concat(e.getCombatPronoun(\"himher\"),\", the weapon comes up short, missing!\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00695737&gt;&gt;"
+  },
+  {
+    "key": "combat|Swaying_slightly_e_getCombatPronoun_heshe_lose_e_isPl|bc34dd686a9c",
+    "original": " Swaying slightly, \"+e.getCombatPronoun(\"heshe\")+\" lose\"+(e.isPlural||e.isPlayer()?\"\":\"s\")+\" \"+e.getCombatPronoun(\"hisher\")+\" balance, then tumble\"+(e.isPlural||e.isPlayer()?\"\":\"s\")+\" to the floor awkwardly!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00697206&gt;&gt;"
+  },
+  {
+    "key": "combat|Lucky_for_e_getCombatPronoun_himher_the_the_gas_is_outs|54dedb8f88f6",
+    "original": " Lucky for \"+e.getCombatPronoun(\"himher\")+\", the the gas is outside!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00701088&gt;&gt;"
+  },
+  {
+    "key": "combat|The_gas_fills_e_getCombatPronoun_hisher_nostrils_and_mou|38759b53a2e5",
+    "original": " The gas fills \"+e.getCombatPronoun(\"hisher\")+\" nostrils and mouth before \"+e.getCombatPronoun(\"heshe\")+\" can shield them, sending \"+e.getCombatPronoun(\"himher\")+\" into a coughing fit!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00701178&gt;&gt;"
+  },
+  {
+    "key": "combat|Simultaneously_you_notice_your_blood_starting_to_heat_up_your|542a8d8eba94",
+    "original": " Simultaneously, you notice your blood starting to heat up, your heart pumping faster!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00701393&gt;&gt;"
+  },
+  {
+    "key": "combat|You_watch_her_eyes_go_wide_as_saucers_and_a_moment_later_she_y|0d3ef3240c19",
+    "original": " You watch her eyes go wide as saucers, and a moment later she yanks out the syringe and tosses it unceremoniously to the side. You’re not sure what happened, but it can’t be good!\",null,this",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00703165&gt;&gt;"
+  },
+  {
+    "key": "combat|The_makeshift_club_bashes_against_e_getCombatPronoun_hisher|192f5aac6d5a",
+    "original": "The makeshift club bashes against \"+e.getCombatPronoun(\"hisher\")+\" \"+(pc.shields()>0?\"shielded\":\"unshielded\")+\" shoulder!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00695850&gt;&gt;"
+  },
+  {
+    "key": "combat|She_shoots_wide_the_bolt_missing_e_getCombatName_by_a_mil|29ffbbde3257",
+    "original": "She shoots wide, the bolt missing \"+e.getCombatName()+\" by a mile!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00696275&gt;&gt;"
+  },
+  {
+    "key": "combat|Her_aim_true_she_wings_e_getCombatName_with_a_powerful_bo|320e914f7e2c",
+    "original": "Her aim true, she wings \"+e.getCombatName()+\" with a powerful bolt, cackling at her success!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00696363&gt;&gt;"
+  },
+  {
+    "key": "combat|She_barely_misses_only_the_rush_of_air_catching_e_getCombatNa|ca2df854d133",
+    "original": "She barely misses, only the rush of air catching \"+e.getCombatName()+\" in the face as it shoots past!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00696784&gt;&gt;"
+  },
+  {
+    "key": "combat|Unable_to_dodge_it_in_time_it_connects_hard_with_g_m_possessi|97fdd478b000",
+    "original": "Unable to dodge it in time, it connects hard with \"+g.m.possessive(e.getCombatName())+\" face!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00696907&gt;&gt;"
+  },
+  {
+    "key": "combat|b_g_m_capitalize_e_getCombatName_1_e_isPlayer_e_i|56824d27c3ce",
+    "original": "<b>\"+g.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\" tripped!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00697434&gt;&gt;"
+  },
+  {
+    "key": "combat|b_g_m_capitalize_e_getCombatName_1_e_isPlayer_e_i|e8a22aaf7c2f",
+    "original": "<b>\"+g.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\" stunned!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00697572&gt;&gt;"
+  },
+  {
+    "key": "combat|She_misses_e_getCombatName_barely_her_cock_sailing_harml|843a783bdb84",
+    "original": "She misses \"+e.getCombatName()+\", barely, her cock sailing harmlessly through the air. <i>“Fuck!”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00697943&gt;&gt;"
+  },
+  {
+    "key": "combat|Her_solid_mast_slaps_hard_against_e_getCombatName_the_wei|d31fa98e698b",
+    "original": "Her solid mast slaps hard against \"+e.getCombatName()+\", the weight of it catching you by surprise!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00698070&gt;&gt;"
+  },
+  {
+    "key": "combat|i_Like_that_huh_bitch_i|96694f848ee2",
+    "original": "<i>“Like that, huh, bitch?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00698190&gt;&gt;"
+  },
+  {
+    "key": "combat|b_g_m_capitalize_e_getCombatName_1_e_isPlayer_e_i|5bc64db6f22a",
+    "original": "<b>\"+g.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\" disarmed!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00699013&gt;&gt;"
+  },
+  {
+    "key": "combat|g_m_capitalize_e_getCombatName_1_barely_dodge_e_isPlay|d56fc38f7950",
+    "original": "\"+g.m.capitalize(e.getCombatName(),!1)+\" barely dodge\"+(e.isPlayer()||e.isPLural?\"\":\"s\")+\" the crackling lash, wincing when it snaps hard against the floor!\\n\\n<i>“Fuck!”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00699502&gt;&gt;"
+  },
+  {
+    "key": "combat|The_metal_lash_cracks_hard_against_g_m_possessive_e_getCombatN|630706134173",
+    "original": "The metal lash cracks hard against \"+g.m.possessive(e.getCombatName())+\" chest, subjecting \"+e.getCombatPronoun(\"himher\")+\" to a nasty jolt!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00699702&gt;&gt;"
+  },
+  {
+    "key": "combat|i_Fuck_yeah_Wire_is_the_best_conductor_i|651622beccbf",
+    "original": "<i>“Fuck yeah! Wire is the best conductor!”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00700016&gt;&gt;"
+  },
+  {
+    "key": "combat|The_sudden_shock_stuns_e_getCombatPronoun_hisher_nerves|7ceb70ace251",
+    "original": " The sudden shock stuns \"+e.getCombatPronoun(\"hisher\")+\" nerves for a brief moment, breaking \"+g.m.possessive(e.getCombatName())+\" balance!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00700081&gt;&gt;"
+  },
+  {
+    "key": "combat|b_g_m_capitalize_e_getCombatName_1_e_isPlayer_e_i|c6a7576ad172",
+    "original": "<b>\"+g.m.capitalize(e.getCombatName(),!1)+\" \"+(e.isPlayer()||e.isPlural?\"are\":\"is\")+\" tripped!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00700241&gt;&gt;"
+  },
+  {
+    "key": "combat|Thinking_fast_e_getCombatName_swing_e_isPlayer_e_isP|3d1ce84b6bde",
+    "original": "Thinking fast, \"+e.getCombatName()+\" swing\"+(e.isPlayer()||e.isPlural?\"\":\"s\")+\" \"+e.getCombatPronoun(\"hisher\")+\" [pc.weaponMain] at the soaring missile, sending it sailing harmlessly over Jezzy’s stunned face!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00700681&gt;&gt;"
+  },
+  {
+    "key": "combat|The_grenade_falls_short_of_hitting_e_getCombatName_landin|d5f8771a4b14",
+    "original": "The grenade falls short of hitting \"+e.getCombatName()+\", landing a foot short, then starts to hiss and release a thick pink cloud!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00700919&gt;&gt;"
+  }
+]

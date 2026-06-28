@@ -1,0 +1,51 @@
+[
+  {
+    "key": "combat|You_re_raked_by_impacts_from_the_gun|94f2c094c9c3",
+    "original": " You’re raked by impacts from the gun!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00211685&gt;&gt;"
+  },
+  {
+    "key": "combat|You_grab_cover_before_the_burst_hits_you_the_only_thing_you_fe|a2542e6dc6ce",
+    "original": " You grab cover before the burst hits you; the only thing you feel is water from where the shots hit, melting the ice encrusting the helipad.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00212672&gt;&gt;"
+  },
+  {
+    "key": "combat|The_blast_rips_into_your_armor_tearing_it_apart_b_It_s_Sunder|046897fcf943",
+    "original": "The blast rips into your armor, tearing it apart! <b>It’s Sundered!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00212215&gt;&gt;"
+  },
+  {
+    "key": "combat.expr|The_rounds_splatter_against_you_like_some_infernal_jelly_smear|aab9123290c4",
+    "original": " The rounds splatter against you like some infernal jelly, smearing across your \"+({var0}?{var1}:{var2}.skinFurScales())+\" with a sizzling agony!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00212835&gt;&gt; &lt;&lt;VARS:var0=e.inventory.hasArmor,var1=e.inventory.armor.longName,var2=e&gt;&gt; combatAppend(\" The rounds splatter against you like some infernal jelly, smearing across your \"+(e.inventory.hasArmor?e.inventory.armor.longName:e.skinFurScales())+\" with a sizzling agony!\")"
+  },
+  {
+    "key": "combat|b_You_are_burning_b|f344a3ee7fe0",
+    "original": " <b>You are burning!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00213210&gt;&gt;"
+  },
+  {
+    "key": "assign|strawberry_blonde|bcb0e1ed435a",
+    "original": "strawberry blonde",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00209354&gt;&gt;"
+  },
+  {
+    "key": "combat|Several_shots_impact_all_around_you|0bb8bd1c94e5",
+    "original": " Several shots impact all around you!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00211630&gt;&gt;"
+  }
+]

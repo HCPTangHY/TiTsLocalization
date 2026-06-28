@@ -1,0 +1,254 @@
+[
+  {
+    "key": "name.show|Poe_A|65347455c740",
+    "original": "Poe A",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00000180&gt;&gt; showName(\"Poe A\")"
+  },
+  {
+    "key": "output|Electing_to_have_a_little_fun_you_set_a_course_for_Poe_A_and_be|eb138a586209",
+    "original": "Electing to have a little fun, you set a course for Poe A and before long, the planet looms before you on the display. It’s not particularly large, for a civilized world, but the traffic for landing vehicles is a little ridiculous. Thousands of craft are coming in every minute, with no sign of the influx slowing down. They’re from all over the galaxy too, even models you’ve never heard of before. Taking your place in the landing queue, you look around at some of the other visitors, eyes watering with envy as you spot a few ships that probably cost as much as this whole planet. Apparently the stories of stars slumming it up during the festival weren’t exaggerated!",
+    "translation": "你想找点乐子，便设定航线飞往波埃A星。没飞多久，显示屏上就现出了那颗星球的轮廓，越靠近越显得庞大。作为宜居文明星球，它的个头不算大，但等着陆的载具流量却多得离谱。每分钟都有数千艘飞船涌入，丝毫不见放缓的迹象。这些飞船来自银河各地，有些型号你连听都没听过。你排进着陆队列，扫了眼周围其他访客的座驾，瞧见几艘的造价说不定顶得上整颗星球，顿时羡慕得眼睛都红了。看来之前说节庆期间各路名流都会放下身段来这儿凑热闹的传闻还真不是吹的！",
+    "stage": 1,
+    "context": "&lt;&lt;POS:00000214&gt;&gt; output(\"Electing to have a little fun, you set a course for Poe A and before long, the planet looms before you on the display. It’s not particularly large, for a civilized world, but the traffic for landing vehicles is a little ridiculous. Thousands of craft are coming in every minute, with no sign ..."
+  },
+  {
+    "key": "header|Poe_A_Confirm|67773424650a",
+    "original": "Poe A Confirm?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00001173&gt;&gt; blockHeader(\"Poe A Confirm?\")"
+  },
+  {
+    "key": "output|Recalling_what_you_ve_read_in_the_invitation_letter_the_parties|a30a0f1ba744",
+    "original": "Recalling what you’ve read in the invitation letter, the parties held at this location may have a tendency to get way out of hand, <b>resulting in permanent consequences.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00001199&gt;&gt; output(\"Recalling what you’ve read in the invitation letter, the parties held at this location may have a tendency to get way out of hand, <b>resulting in permanent consequences.</b>\")"
+  },
+  {
+    "key": "output|You_should_only_proceed_if_you_are_definitely_sure_you_want_to_t|481fd0322317",
+    "original": "You should only proceed if you are definitely sure you want to travel here.",
+    "translation": "你最好完全确定要前往此处再继续前进。",
+    "stage": 1,
+    "context": "&lt;&lt;POS:00001388&gt;&gt; output(\"\\n\\nYou should only proceed if you are definitely sure you want to travel here.\")"
+  },
+  {
+    "key": "output|Poe_A_is_intended_to_be_experienced_as_a_one_time_event_b_Rev|6e699756ef12",
+    "original": "(Poe A is intended to be experienced as a one-time event. <b>Revisiting this location is non-canon and will be treated as if you have been there for the very first time.</b> Keep that in mind and have a Happy Halloween!)",
+    "translation": "（波埃A星是专为单次体验设计的内容。<b>重访此地不属于官方正史，游玩时将按首次到访处理。</b>请知悉，祝万圣节快乐！）",
+    "stage": 1,
+    "context": "&lt;&lt;POS:00001509&gt;&gt; output(\"\\n\\n(Poe A is intended to be experienced as a one-time event. <b>Revisiting this location is non-canon and will be treated as if you have been there for the very first time.</b> Keep that in mind and have a Happy Halloween!)\")"
+  },
+  {
+    "key": "button|Continue|18c08383a2ed",
+    "original": "Continue",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:00001745&gt;&gt; addButton(0,\"Continue\",(function(){return flyTo(\"Poe A\")}),\"Fly to Poe A\",\"I can handle the consequences!\")"
+  },
+  {
+    "key": "button.hover|Fly_to_Poe_A|ac048af68912",
+    "original": "Fly to Poe A",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00001792&gt;&gt; addButton(0,\"Continue\",(function(){return flyTo(\"Poe A\")}),\"Fly to Poe A\",\"I can handle the consequences!\")"
+  },
+  {
+    "key": "button.tooltip|I_can_handle_the_consequences|6008d5057b8d",
+    "original": "I can handle the consequences!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00001807&gt;&gt; addButton(0,\"Continue\",(function(){return flyTo(\"Poe A\")}),\"Fly to Poe A\",\"I can handle the consequences!\")"
+  },
+  {
+    "key": "button|Back|4fa6b1a81277",
+    "original": "Back",
+    "translation": "返回",
+    "stage": 1,
+    "context": "&lt;&lt;POS:00001854&gt;&gt; addButton(14,\"Back\",window.flyMenu)"
+  },
+  {
+    "key": "name.show|Poe_A|dfecc9577123",
+    "original": "Poe A",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00001917&gt;&gt; showName(\"Poe A\")"
+  },
+  {
+    "key": "output|Recalling_what_you_ve_read_in_the_invitation_letter_the_parties|0db7b8a45f19",
+    "original": "Recalling what you’ve read in the invitation letter, the parties held at this location may have a tendency to get way out of hand, <b>resulting in permanent consequences.</b> However there are other options as well: you got another email inviting you to some kind of House of Whorrors if you wanted to go there before heading to the Masque.",
+    "translation": "你想起邀请函上的内容，这地方办的派对向来容易彻底失控，<b>甚至会造成永久的恶劣后果。</b>不过你还有别的选择：你之前收到过另一封邮件，要是不想直接去假面舞会，可以先去那个叫「艳恐屋」的地方看看。",
+    "stage": 1,
+    "context": "&lt;&lt;POS:00001933&gt;&gt; output(\"Recalling what you’ve read in the invitation letter, the parties held at this location may have a tendency to get way out of hand, <b>resulting in permanent consequences.</b> However there are other options as well: you got another email inviting you to some kind of House of Whorrors if you ..."
+  },
+  {
+    "key": "output|The_Masque_is_intended_to_be_experienced_as_a_one_time_event|1ddb90c21de8",
+    "original": "(The Masque is intended to be experienced as a one-time event. <b>Revisiting this event is non-canon and will be treated as if you have been there for the very first time.</b> Keep that in mind and have a Happy Halloween!)",
+    "translation": "（假面舞会为一次性体验剧情。<b>重复游玩此段不属于官方正史，系统将默认你为首次参与。</b>请知悉，祝万圣节快乐！）",
+    "stage": 1,
+    "context": "&lt;&lt;POS:00002319&gt;&gt; output(\"\\n\\n(The Masque is intended to be experienced as a one-time event. <b>Revisiting this event is non-canon and will be treated as if you have been there for the very first time.</b> Keep that in mind and have a Happy Halloween!)\")"
+  },
+  {
+    "key": "button|Masque|2c1ca547db31",
+    "original": "Masque",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00002557&gt;&gt; addButton(0,\"Masque\",(function(){return flyTo(\"Poe A\")}),\"Fly to the Masque\",\"I can handle the consequences!\")"
+  },
+  {
+    "key": "button.hover|Fly_to_the_Masque|648de51e45cf",
+    "original": "Fly to the Masque",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00002602&gt;&gt; addButton(0,\"Masque\",(function(){return flyTo(\"Poe A\")}),\"Fly to the Masque\",\"I can handle the consequences!\")"
+  },
+  {
+    "key": "button.tooltip|I_can_handle_the_consequences|6008d5057b8d#1",
+    "original": "I can handle the consequences!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00002622&gt;&gt; addButton(0,\"Masque\",(function(){return flyTo(\"Poe A\")}),\"Fly to the Masque\",\"I can handle the consequences!\")"
+  },
+  {
+    "key": "button|Whorrors|0fb3f5c69ede",
+    "original": "Whorrors",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00002668&gt;&gt; addButton(1,\"Whorrors\",window.erebusGoGoGo,\"The Haunted House of Whorrors\",\"Spooky scary sexytimes!\")"
+  },
+  {
+    "key": "button|Back|248cfbf401bb",
+    "original": "Back",
+    "translation": "返回",
+    "stage": 1,
+    "context": "&lt;&lt;POS:00002771&gt;&gt; addButton(14,\"Back\",window.flyMenu)"
+  },
+  {
+    "key": "name.show|Poe_A|dfecc9577123#1",
+    "original": "Poe A",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00002839&gt;&gt; showName(\"Poe A\")"
+  },
+  {
+    "key": "header.expr|var0_Been_There_Done_That_Out_of_Season|aa91b0835c47",
+    "original": "{var0}?\"Been There, Done That!\":\"Out of Season!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00002866&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; blockHeader(e?\"Been There, Done That!\":\"Out of Season!\")"
+  },
+  {
+    "key": "output|You_probably_shouldn_t_go_back_to_Poe_A_after_your_last_trip_to|df1316216c7d",
+    "original": "You probably shouldn’t go back to Poe A after your last trip to ‘The Masque’.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00002920&gt;&gt; output(\"You probably shouldn’t go back to Poe A after your last trip to ‘The Masque’.\")"
+  },
+  {
+    "key": "output|Besides_you_have_already_participated_in_the_festivities_for_th|af6df8d4b5a1",
+    "original": "Besides, you have already participated in the festivities for this year - it would be pointless to return again!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00003015&gt;&gt; output(\"\\n\\nBesides, you have already participated in the festivities for this year - it would be pointless to return again!\")"
+  },
+  {
+    "key": "button|Next|8a9864e1b8f1",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:00003148&gt;&gt; addButton(0,\"Next\",window.flyMenu)"
+  },
+  {
+    "key": "output|Otherwise_you_might_want_to_wait_until_it_is_in_season_before|dc657e47ebab",
+    "original": "(Otherwise, you might want to wait until it is in-season before deciding to travel back there again.)",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00003184&gt;&gt; output(\"\\n\\n(Otherwise, you might want to wait until it is in-season before deciding to travel back there again.)\")"
+  },
+  {
+    "key": "button|Next|8743cadb1f65",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:00003306&gt;&gt; addButton(0,\"Next\",window.flyMenu)"
+  },
+  {
+    "key": "output.expr|You_might_not_be_able_to_attend_the_masque_right_now_but_you_co|58a25a4b666e",
+    "original": "You might not be able to attend the masque right now, but you could stop by the haunted house\"+({var0}?\" again..\":\"\")+\".",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00003373&gt;&gt; &lt;&lt;VARS:var0=void 0!==flags.EREBUS_YEARDONE&gt;&gt; output(\"You might not be able to attend the masque right now, but you could stop by the haunted house\"+(void 0!==flags.EREBUS_YEARDONE?\" again..\":\"\")+\".\")"
+  },
+  {
+    "key": "button|Masque|556f08ad19a5",
+    "original": "Masque",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00003541&gt;&gt; addDisabledButton(0,\"Masque\",\"Masque\",e?\"You already attended this year!\":\"The Masque is currently out of season.\")"
+  },
+  {
+    "key": "button.hover.expr|var0_You_already_attended_this_year_The_Masque_is_currentl|f285443186b9",
+    "original": "{var0}?\"You already attended this year!\":\"The Masque is currently out of season.\"",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00003558&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; addDisabledButton(0,\"Masque\",\"Masque\",e?\"You already attended this year!\":\"The Masque is currently out of season.\")"
+  },
+  {
+    "key": "button|Whorrors|b1defc5d2b5f",
+    "original": "Whorrors",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00003649&gt;&gt; addButton(1,\"Whorrors\",window.erebusGoGoGo,\"The Haunted House of Whorrors\",\"Spooky scary sexytimes!\")"
+  },
+  {
+    "key": "button.hover|The_Haunted_House_of_Whorrors|239c235b41f6",
+    "original": "The Haunted House of Whorrors",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00003680&gt;&gt; addButton(1,\"Whorrors\",window.erebusGoGoGo,\"The Haunted House of Whorrors\",\"Spooky scary sexytimes!\")"
+  },
+  {
+    "key": "button.tooltip|Spooky_scary_sexytimes|3d50ec48de0b",
+    "original": "Spooky scary sexytimes!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00003712&gt;&gt; addButton(1,\"Whorrors\",window.erebusGoGoGo,\"The Haunted House of Whorrors\",\"Spooky scary sexytimes!\")"
+  },
+  {
+    "key": "button|Back|248cfbf401bb#1",
+    "original": "Back",
+    "translation": "返回",
+    "stage": 1,
+    "context": "&lt;&lt;POS:00003752&gt;&gt; addButton(14,\"Back\",window.flyMenu)"
+  },
+  {
+    "key": "assign|Poe_A|dfecc9577123",
+    "original": "Poe A",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00003921&gt;&gt; ionIndex=\"POEA\",t.locationName='Poe A'"
+  },
+  {
+    "key": "button.hover|The_Haunted_House_of_Whorrors|8cc3e7cf9420",
+    "original": "The Haunted House of Whorrors",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00002699&gt;&gt; addButton(1,\"Whorrors\",window.erebusGoGoGo,\"The Haunted House of Whorrors\",\"Spooky scary sexytimes!\")"
+  },
+  {
+    "key": "button.tooltip|Spooky_scary_sexytimes|1b7a518e244a",
+    "original": "Spooky scary sexytimes!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00002731&gt;&gt; addButton(1,\"Whorrors\",window.erebusGoGoGo,\"The Haunted House of Whorrors\",\"Spooky scary sexytimes!\")"
+  },
+  {
+    "key": "name.show|Poe_A|27a176145f99",
+    "original": "Poe A",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:00003357&gt;&gt; showName(\"Poe A\")"
+  }
+]

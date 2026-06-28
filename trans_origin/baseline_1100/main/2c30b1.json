@@ -1,0 +1,79 @@
+[
+  {
+    "key": "button|Help|305a380d639d",
+    "original": "Help",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12774302&gt;&gt; addButton(1,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_CIRCUIT_PROMPT&&(flags.TUTORIAL_CIRCUIT_PROMPT=2),e.generateTutorialBoard(),e.generateMenu()}),\"Circuit System Tutorial\",\"Get an explanation of this puzzle.\\n\\n<b>You can only ac..."
+  },
+  {
+    "key": "button.hover|Circuit_System_Tutorial|304d0279f0cd",
+    "original": "Circuit System Tutorial",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12774507&gt;&gt; addButton(1,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_CIRCUIT_PROMPT&&(flags.TUTORIAL_CIRCUIT_PROMPT=2),e.generateTutorialBoard(),e.generateMenu()}),\"Circuit System Tutorial\",\"Get an explanation of this puzzle.\\n\\n<b>You can only ac..."
+  },
+  {
+    "key": "button.tooltip|Get_an_explanation_of_this_puzzle_n_n_b_You_can_only_access_thi|a8f7cf216082",
+    "original": "Get an explanation of this puzzle.\\n\\n<b>You can only access this before beginning!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12774533&gt;&gt; addButton(1,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_CIRCUIT_PROMPT&&(flags.TUTORIAL_CIRCUIT_PROMPT=2),e.generateTutorialBoard(),e.generateMenu()}),\"Circuit System Tutorial\",\"Get an explanation of this puzzle.\\n\\n<b>You can only ac..."
+  },
+  {
+    "key": "button|Give_Up|9351ddec0a4c",
+    "original": "Give Up",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12774682&gt;&gt; addButton(4,\"Give Up\",(function(){window.removeRotateMinigame(),window.returnFromElement(),window.getGameState()&&!0!==e.props.testGame||showMainMenu(!0,!0,!0),e.props.onFailure()}))"
+  },
+  {
+    "key": "button|Next|f1831e116865",
+    "original": "Next",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12777814&gt;&gt; addButton(2,\"Next\",c)"
+  },
+  {
+    "key": "string.array|equipmentSlot|9658697aa3fe",
+    "original": "[\"equipmentSlot\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12729416&gt;&gt;"
+  },
+  {
+    "key": "string.array|Eyebrow_Nose_Tongue_Lip_Ear|1e322bb86493",
+    "original": "[\"Eyebrow\",\"Nose\",\"Tongue\",\"Lip\",\"Ear\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12737940&gt;&gt;"
+  },
+  {
+    "key": "string.array|Bellybutton|81c5a2eaaeb3",
+    "original": "[\"Bellybutton\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12738262&gt;&gt;"
+  },
+  {
+    "key": "string.array|Ballsack|7dbc9c81d04c",
+    "original": "[\"Ballsack\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12739788&gt;&gt;"
+  },
+  {
+    "key": "button|Help|307335e0e5a9",
+    "original": "Help",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12774200&gt;&gt; addDisabledButton(1,\"Help\",\"Circuit System Tutorial\",\"You can only access this before beginning the puzzle.\")"
+  },
+  {
+    "key": "button.hover|You_can_only_access_this_before_beginning_the_puzzle|a407f36b05ca",
+    "original": "You can only access this before beginning the puzzle.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12774233&gt;&gt; addDisabledButton(1,\"Help\",\"Circuit System Tutorial\",\"You can only access this before beginning the puzzle.\")"
+  }
+]

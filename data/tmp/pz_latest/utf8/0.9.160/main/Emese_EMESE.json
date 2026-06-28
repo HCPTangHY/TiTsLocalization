@@ -1,0 +1,149 @@
+[
+  {
+    "key": "assign|i_W_would_you_like_to_pick_up_some_Twilit_It_s_technically_st|981589363dac",
+    "original": "<i>“W-would you like to pick up some Twilit? It’s technically still in early access, but we’ve got all the weirdness worked out! And, we’re selling it at a healthy discount! Y- you should, um, try some. It’s good, I promise!”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12156388&gt;&gt; 1,e.buyMarkdown=.5,e.keeperBuy='<i>“W-would you like to pick up some Twilit? It’s technicall'"
+  },
+  {
+    "key": "assign|glowing_green|b1ec5c5d9557",
+    "original": "glowing green",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12156675&gt;&gt; e=GLOBAL.TYPE_HUMAN,e.eyeColor='glowing green'"
+  },
+  {
+    "key": "assign|dark_purple|e4f06e4d76c0",
+    "original": "dark purple",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12156929&gt;&gt; OBAL.SKIN_TYPE_SKIN,e.skinTone='dark purple'"
+  },
+  {
+    "key": "assign|dark_purple|31630487d882",
+    "original": "dark purple",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12158123&gt;&gt; NIPPLE_TYPE_FLAT,e.nippleColor='dark purple'"
+  },
+  {
+    "key": "perk|Inhuman_Desire|0bf82e8b04eb",
+    "original": "Inhuman Desire",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12158296&gt;&gt; createPerk(\"Inhuman Desire\",100)"
+  },
+  {
+    "key": "perk|Appearance_Enabled|468b9a179f4c",
+    "original": "Appearance Enabled",
+    "translation": "启用外观",
+    "stage": 1,
+    "context": "&lt;&lt;POS:12158348&gt;&gt; createPerk(\"Appearance Enabled\")"
+  },
+  {
+    "key": "assign|slyveren_slave|1b6d1fb74ef3",
+    "original": "slyveren slave",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12159563&gt;&gt; e),e.neverSerialize=!1,e.short='slyveren slave'"
+  },
+  {
+    "key": "assign|the|6d55e273c433",
+    "original": "the ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12159662&gt;&gt; \",e.originalAuthor=\"Doots\",e.a='the '"
+  },
+  {
+    "key": "assign|The_sea_of_her_glittering_black_scales_would_swallow_your_gaze_u|8ca46e3a6210",
+    "original": "The sea of her glittering black scales would swallow your gaze up whole were it not for the bioluminescent gold patterns that twist and twirl around her curvaceous body. You almost wish you could see beneath the cups of her revealing, pink-dyed leather top to see how they frame the jiggling mounds upon which they dwell. A bit further down, her tattoos spiral around her tail until they converge in a bioluminescent singularity of eye-trapping amber. Equally golden (though no less enchanting) orbs leer back at you from beneath an enormous cobra hood, so heavy it droops slightly on one side. She licks her glistening ebony lips and winks at you, a not-so-subtle reminder that she likes to break her slaves with pleasure rather than pain.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12159694&gt;&gt; the \",e.capitalA=\"The \",e.long='The sea of her glittering black scales would swallow your ga'"
+  },
+  {
+    "key": "assign|The_slyveren_sensuously_wiggles_aside|c0080ab7670e",
+    "original": "The slyveren sensuously wiggles aside.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12160451&gt;&gt; ther than pain.\",e.customDodge='The slyveren sensuously wiggles aside.'"
+  },
+  {
+    "key": "assign|a_fist|5a725c0002a5",
+    "original": "a fist",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12160717&gt;&gt; entory.meleeWeapon.description='a fist'"
+  },
+  {
+    "key": "assign|beam_of_psychic_erotic_energies|3a4524b5faa7",
+    "original": "beam of psychic, erotic energies",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12160957&gt;&gt; entory.rangedWeapon.attackNoun='beam of psychic, erotic energies'"
+  },
+  {
+    "key": "perk|Appearance_Enabled|bc3ba4a4fb4f",
+    "original": "Appearance Enabled",
+    "translation": "启用外观",
+    "stage": 1,
+    "context": "&lt;&lt;POS:12163120&gt;&gt; createPerk(\"Appearance Enabled\")"
+  },
+  {
+    "key": "button|Slyveren_Slave|8d4bcd202e07",
+    "original": "Slyveren Slave",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12165228&gt;&gt; addButton(arguments.length&gt;0&&void 0!==arguments[0]?arguments[0]:0,\"Slyveren Slave\",this.crewApproach,\"Slyveren Slave\",\"\")"
+  },
+  {
+    "key": "button.hover|Slyveren_Slave|8d4bcd202e07",
+    "original": "Slyveren Slave",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12165263&gt;&gt; addButton(arguments.length&gt;0&&void 0!==arguments[0]?arguments[0]:0,\"Slyveren Slave\",this.crewApproach,\"Slyveren Slave\",\"\")"
+  },
+  {
+    "key": "string.array|physique_reflexes_aim_intelligence_willpower_libido|550fd5000a95",
+    "original": "[\"physique\",\"reflexes\",\"aim\",\"intelligence\",\"willpower\",\"libido\",\"taint\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12175540&gt;&gt; '[\"physique\",\"reflexes\",\"aim\",\"intelligence\",\"willpower\",\"libido\",\"taint\"]'"
+  },
+  {
+    "key": "string.array|ShockBlade_StrangeEgg_HardlightBoxers_HardlightBoyshorts|c80b5f965bfd",
+    "original": "[\"ShockBlade\",\"StrangeEgg\",\"HardlightBoxers\",\"HardlightBoyshorts\",\"HardlightPlainPanties\",\"HardlightShibariBottom\",\"HardlightStockings\",\"HardlightThong\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12179596&gt;&gt; '[\"ShockBlade\",\"StrangeEgg\",\"HardlightBoxers\",\"HardlightBoyshorts\",\"HardlightPlai'..."
+  },
+  {
+    "key": "string.array|Boxers_Boyshorts_PlainPanties_ShibariBottom_Stockings|80b6910d1a17",
+    "original": "[\"Boxers\",\"Boyshorts\",\"PlainPanties\",\"ShibariBottom\",\"Stockings\",\"Thong\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12179753&gt;&gt; '[\"Boxers\",\"Boyshorts\",\"PlainPanties\",\"ShibariBottom\",\"Stockings\",\"Thong\"]'"
+  },
+  {
+    "key": "string.array|Boxers_Boyshorts_PlainPanties_ShibariBottom_Stockings|d75feab755d8",
+    "original": "[\"Boxers\",\"Boyshorts\",\"PlainPanties\",\"ShibariBottom\",\"Stockings\",\"Thong\"]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12181153&gt;&gt; '[\"Boxers\",\"Boyshorts\",\"PlainPanties\",\"ShibariBottom\",\"Stockings\",\"Thong\"]'"
+  },
+  {
+    "key": "perk|Fixed_CumQ|9becd7a6288b",
+    "original": "Fixed CumQ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12155116&gt;&gt; createPerk(\"Fixed CumQ\",1e3)"
+  },
+  {
+    "key": "assign|The|63f2e902a6e1",
+    "original": "The ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:12159680&gt;&gt; =\"Doots\",e.a=\"the \",e.capitalA='The '"
+  }
+]

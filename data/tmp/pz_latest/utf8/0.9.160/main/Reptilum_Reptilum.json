@@ -1,0 +1,751 @@
+[
+  {
+    "key": "assign|This_package_contains_a_bottle_of_murky_gray_liquid_all_but_hi|d5d33ff093f7",
+    "original": "This package contains a bottle of murky, gray liquid, all but hidden by layers of brightly colored packaging and gaudy decals. Originally created during an early rush for settlers acclimating to a tropical planet, this transformative has undergone many iterations through the generations. Consuming the contents of the bottle should grant a sleek, reptilian form.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09367457&gt;&gt; labeled ‘Reptilum’\",e.tooltip='This package contains a bottle of murky, gray liquid, all bu'"
+  },
+  {
+    "key": "output|ERROR_Reptilum_should_not_be_used_by_NPCs|a380b8ed4148",
+    "original": "ERROR: Reptilum should not be used by NPCs.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09368071&gt;&gt; output(\"ERROR: Reptilum should not be used by NPCs.\")"
+  },
+  {
+    "key": "output|You_unscrew_the_cap_on_the_bottle_and_begin_to_drink_The_taste|6a763c58e591",
+    "original": "You unscrew the cap on the bottle and begin to drink. The taste is bitter and dry but smooth enough that you don’t immediately retch it back up. Before you know it, the potent beverage is gone, though you are sure you have not drunk more than two or three mouthfuls. You set the bottle down, bracing yourself for whatever transformations might come.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09368253&gt;&gt; output(\"You unscrew the cap on the bottle and begin to drink. The taste is bitter and dry but smooth enough that you don’t immediately retch it back up. Before you know it, the potent beverage is gone, though you are sure you have not drunk more than two or three mouthfuls. You set the bottle down, ..."
+  },
+  {
+    "key": "output|Your_entire_body_begins_to_numb_All_sensation_of_touch_is_quick|1f203e64ec62",
+    "original": "Your entire body begins to numb. All sensation of touch is quickly replaced by a queasiness far more violent than the buzz of a usual transformation.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09368822&gt;&gt; output(\"\\n\\nYour entire body begins to numb. All sensation of touch is quickly replaced by a queasiness far more violent than the buzz of a usual transformation.\")"
+  },
+  {
+    "key": "output.expr|As_you_try_to_regain_your_bearings_your_fur_begins_to_fall_out|e4cdec590b2d",
+    "original": " As you try to regain your bearings, your fur begins to fall out in clumps until your skin lies hairless\"+({var1}.hasHair({var0})?\"... mostly.\":\".\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09368993&gt;&gt; &lt;&lt;VARS:var0=)||e.hasBeard(,var1=e&gt;&gt; output(\" As you try to regain your bearings, your fur begins to fall out in clumps until your skin lies hairless\"+(e.hasHair()||e.hasBeard()?\"... mostly.\":\".\"))"
+  },
+  {
+    "key": "output|As_you_try_to_regain_your_bearings_your_plumage_begins_to_shud|b4bc5a7b42b5",
+    "original": " As you try to regain your bearings, your plumage begins to shudder as your feathers fall out in clumps.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09369170&gt;&gt; output(\" As you try to regain your bearings, your plumage begins to shudder as your feathers fall out in clumps.\")"
+  },
+  {
+    "key": "output|As_you_try_to_regain_your_bearings_abrupt_cracks_slither_throu|1b04baa55c8a",
+    "original": " As you try to regain your bearings, abrupt cracks slither through your chitin, splitting off bits and chunks until it’s more of a dusty coating than an exoskeleton.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09369300&gt;&gt; output(\" As you try to regain your bearings, abrupt cracks slither through your chitin, splitting off bits and chunks until it’s more of a dusty coating than an exoskeleton.\")"
+  },
+  {
+    "key": "output|You_pat_down_your_body_as_you_try_to_understand_the_change_kno|16015d84496e",
+    "original": " You pat down your body as you try to understand the change, knocking away sections of molted skin, revealing an unspoiled hide of [pc.skinColor] scales beneath. <b>Your body is now covered in [pc.skinColor] scales!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09369476&gt;&gt; output(\" You pat down your body as you try to understand the change, knocking away sections of molted skin, revealing an unspoiled hide of [pc.skinColor] scales beneath. <b>Your body is now covered in [pc.skinColor] scales!</b>\")"
+  },
+  {
+    "key": "output|Without_warning_your_mind_is_suddenly_assaulted_by_the_violent|1c27afd3a0b1",
+    "original": "Without warning, your mind is suddenly assaulted by the violent throbs of a skull-splitting headache. Moaning softly, you bring your hands up to vainly try and ward some portion of the pain. What you find is your skull shifting, popping and cracking as your face reforms under your fingers. Your face writhes",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09369968&gt;&gt; output(\"\\n\\nWithout warning, your mind is suddenly assaulted by the violent throbs of a skull-splitting headache. Moaning softly, you bring your hands up to vainly try and ward some portion of the pain. What you find is your skull shifting, popping and cracking as your face reforms under your finger..."
+  },
+  {
+    "key": "output|and_stretches_outwards|f60c8b65f66d",
+    "original": " and stretches outwards",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09370356&gt;&gt; output(\" and stretches outwards\")"
+  },
+  {
+    "key": "output|into_a_new_vaguely_triangular_shape_For_a_moment_you_re_almo|aac1340cfd43",
+    "original": " into a new, vaguely triangular shape. For a moment, you’re almost glad for the headache as it distorts the pounding ache of your reshaping skull. As suddenly as it came, the distress fades. Using your Codex’s camera, you inspect <b>your toothy, reptilian visage.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09370390&gt;&gt; output(\" into a new, vaguely triangular shape. For a moment, you’re almost glad for the headache as it distorts the pounding ache of your reshaping skull. As suddenly as it came, the distress fades. Using your Codex’s camera, you inspect <b>your toothy, reptilian visage.</b>\")"
+  },
+  {
+    "key": "output|Everything_around_you_distorts_into_pulses_of_color_and_shadow|db863f223297",
+    "original": "Everything around you distorts into pulses of color and shadow, the entire world seeming to shift around you. You blink a few times, the distortion fading with each heartbeat until your vision is clear. Things look different than they did a minute ago. Everything is slightly clearer than it used to be but subtly tinged with... with... It’s almost like a new color, one you had never noticed until now. You bring out your Codex’s camera, <b>revealing your new reptilian eyes</b>: [pc.eyeColor] spheres with cat-like slits. While examining your newly reptilian gaze, you notice a new set of eyelids: transparent membranes that allow you to blink without closing your eyes. Neat!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09370847&gt;&gt; output(\"\\n\\nEverything around you distorts into pulses of color and shadow, the entire world seeming to shift around you. You blink a few times, the distortion fading with each heartbeat until your vision is clear. Things look different than they did a minute ago. Everything is slightly clearer than..."
+  },
+  {
+    "key": "output|You_notice_something_pc_hairColor_drifting_down_past_your_eyes|b87d47123682",
+    "original": "You notice something [pc.hairColor] drifting down past your eyes. As you reach up to snag it, you recognize it as a bit of your [pc.hairNoun]. Lifting your hands up, you feel your [pc.hairsNoun] coming loose. Before you know it, your entire head is barren. <b>You are now bald.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09371696&gt;&gt; output(\"\\n\\nYou notice something [pc.hairColor] drifting down past your eyes. As you reach up to snag it, you recognize it as a bit of your [pc.hairNoun]. Lifting your hands up, you feel your [pc.hairsNoun] coming loose. Before you know it, your entire head is barren. <b>You are now bald.</b>\")"
+  },
+  {
+    "key": "output|Your_pc_ears_begin_to_itch_and_burn_and_you_reach_up_to_rub_t|5be467100949",
+    "original": "Your [pc.ears] begin to itch and burn, and you reach up to rub them. You’re surprised to find, however, that your ears have sunk into the sides of your head, leaving shallow divots for your hearing holes. <b>You now have lizard ears!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09372145&gt;&gt; output(\"\\n\\nYour [pc.ears] begin to itch and burn, and you reach up to rub them. You’re surprised to find, however, that your ears have sunk into the sides of your head, leaving shallow divots for your hearing holes. <b>You now have lizard ears!</b>\")"
+  },
+  {
+    "key": "output|Your_arms_begin_to_feel_very_odd_alternating_between_irritation|ddccd447907a",
+    "original": "Your arms begin to feel very odd, alternating between irritation and numbness, the sharp contrast causing greater discomfort than either sensation alone.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09372511&gt;&gt; output(\"\\n\\nYour arms begin to feel very odd, alternating between irritation and numbness, the sharp contrast causing greater discomfort than either sensation alone.\")"
+  },
+  {
+    "key": "output|You_idly_begin_to_scratch_some_particularly_itchy_spots_only_t|b1e3082a1ca6",
+    "original": " You idly begin to scratch some particularly itchy spots, only to unwittingly tear away patches of [pc.skinFurScales]. You cautiously remove the bizarre molt, revealing the scales that now cover your arms.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09372724&gt;&gt; output(\" You idly begin to scratch some particularly itchy spots, only to unwittingly tear away patches of [pc.skinFurScales]. You cautiously remove the bizarre molt, revealing the scales that now cover your arms.\")"
+  },
+  {
+    "key": "output|Distracted_by_the_itching_you_barely_notice_your_hands_shift_a|2b654724362a",
+    "original": " Distracted by the itching, you barely notice your hands shift and warp as your palm gains a subtle layer of padding and your fingertips sharpen into claws. <b>Your arms are now",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09372940&gt;&gt; output(\" Distracted by the itching, you barely notice your hands shift and warp as your palm gains a subtle layer of padding and your fingertips sharpen into claws. <b>Your arms are now\")"
+  },
+  {
+    "key": "output|scaly_and|a65960c4e17f",
+    "original": " scaly and",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09373177&gt;&gt; output(\" scaly and\")"
+  },
+  {
+    "key": "output|reptilian_b|933f5091c63f",
+    "original": " reptilian.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09373198&gt;&gt; output(\" reptilian.</b>\")"
+  },
+  {
+    "key": "output|You_feel_woozy_The_entire_room_seems_to_rock_around_you_You_si|7cd355813a25",
+    "original": "You feel woozy. The entire room seems to rock around you. You sit (as best you can) and try and wait out the vertigo, only to feel your additional [pc.legsNoun] go numb. As you try to investigate the source of this sensation, your tauric rear suddenly falls clean off,",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09373396&gt;&gt; output(\"\\n\\nYou feel woozy. The entire room seems to rock around you. You sit (as best you can) and try and wait out the vertigo, only to feel your additional [pc.legsNoun] go numb. As you try to investigate the source of this sensation, your tauric rear suddenly falls clean off,\")"
+  },
+  {
+    "key": "output.expr|before_var0_stumbling_galloping_off_into_the_sunset|091f7a7e649d",
+    "original": " before \"+({var0}?\"stumbling\":\"galloping\")+\" off into the sunset.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09373696&gt;&gt; &lt;&lt;VARS:var0=e.legCount&lt;=4&gt;&gt; output(\" before \"+(e.legCount&lt;=4?\"stumbling\":\"galloping\")+\" off into the sunset.\")"
+  },
+  {
+    "key": "output|bloodlessly_laying_on_the_floor_as_it_crumbles_into_a_pile_of_u|6ce881b2db3d",
+    "original": " bloodlessly laying on the floor as it crumbles into a pile of unnecessary, basic elements.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09373779&gt;&gt; output(\" bloodlessly laying on the floor as it crumbles into a pile of unnecessary, basic elements.\")"
+  },
+  {
+    "key": "output|It_takes_a_moment_to_regain_your_balance_as_your_readjust_to_yo|7a244363fbaa",
+    "original": " It takes a moment to regain your balance as your readjust to your new, bipedal stance.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09373881&gt;&gt; output(\" It takes a moment to regain your balance as your readjust to your new, bipedal stance.\")"
+  },
+  {
+    "key": "output.expr|As_you_dispose_of_your_former_extraneous_body_parts_you_notice|52dbcc6c1f01",
+    "original": " As you dispose of your former extraneous body parts, you notice that your \"+({var0}.hasTails()?\"tails are\":\"tail is\")+\" still attached to you rather than your discarded hindquarters.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09374015&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; output(\" As you dispose of your former extraneous body parts, you notice that your \"+(e.hasTails()?\"tails are\":\"tail is\")+\" still attached to you rather than your discarded hindquarters.\")"
+  },
+  {
+    "key": "output|You_briefly_feel_some_sense_of_emptiness_from_the_loss_of_limbs|dec0e4c197c1",
+    "original": " You briefly feel some sense of emptiness from the loss of limbs, but the feeling is muted and passes quickly.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09374204&gt;&gt; output(\" You briefly feel some sense of emptiness from the loss of limbs, but the feeling is muted and passes quickly.\")"
+  },
+  {
+    "key": "output|Your_pc_legs_are_stricken_by_stabbing_pains_as_their_skeletal|a0d6591783c6",
+    "original": "Your [pc.legs] are stricken by stabbing pains as their skeletal arrangement begins to shift and reshuffle. You manage to get off your [pc.feet] before you suffer an unseemly fall, turning your attention to your shifting [pc.legsNoun]. The changes are over almost as quickly as they come, <b>leaving you with distinctly reptilian looking legs.</b> Your new feet have three toes, tipped with sharp looking claws, and a smaller toe-claw in back for better grip.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09374522&gt;&gt; output(\"\\n\\nYour [pc.legs] are stricken by stabbing pains as their skeletal arrangement begins to shift and reshuffle. You manage to get off your [pc.feet] before you suffer an unseemly fall, turning your attention to your shifting [pc.legsNoun]. The changes are over almost as quickly as they come, ..."
+  },
+  {
+    "key": "output|You_briefly_feel_a_flash_of_numbness_at_the_top_of_your_head_Wh|32a5072f98e2",
+    "original": "You briefly feel a flash of numbness at the top of your head. When you reach your hand up, you’re met with a soft cascade of dust. You bring out your Codex’s camera, and are immediately met with a dramatic change to your appearance: Your<b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09375353&gt;&gt; output(\"\\n\\nYou briefly feel a flash of numbness at the top of your head. When you reach your hand up, you’re met with a soft cascade of dust. You bring out your Codex’s camera, and are immediately met with a dramatic change to your appearance: Your<b>\")"
+  },
+  {
+    "key": "output.expr|var0_horns_horn|6871c7866377",
+    "original": "{var0}?\" horns\":\" horn",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09375618&gt;&gt; &lt;&lt;VARS:var0=e.horns&gt;1&gt;&gt; output(e.horns&gt;1?\" horns\":\" horn\")"
+  },
+  {
+    "key": "output|and|f658c0938fb2",
+    "original": " and",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09375671&gt;&gt; output(\" and\")"
+  },
+  {
+    "key": "output.expr|var0_antennae_antenna|3a6f2f1bdc23",
+    "original": "{var0}?\" antennae\":\" antenna",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09375703&gt;&gt; &lt;&lt;VARS:var0=e.antennae&gt;1&gt;&gt; output(e.antennae&gt;1?\" antennae\":\" antenna\")"
+  },
+  {
+    "key": "output.expr|var0_var1_are_is|ad0483ac165e",
+    "original": "{var0}+{var1}?\" are\":\" is",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09375747&gt;&gt; &lt;&lt;VARS:var0=e.horns,var1=e.antennae&gt;1&gt;&gt; output(e.horns+e.antennae&gt;1?\" are\":\" is\")"
+  },
+  {
+    "key": "output|gone_b_n_n_Well_that_explains_the_dust|6425ce38d859",
+    "original": " gone!</b>\\n\\n...Well, that explains the dust.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09375790&gt;&gt; output(\" gone!</b>\\n\\n...Well, that explains the dust.\")"
+  },
+  {
+    "key": "output|You_keep_calm_focusing_on_breathing_deeply_as_the_insides_of_y|d98a0b848d9a",
+    "original": "You keep calm, focusing on breathing deeply, as the insides of your mouth begin to violently itch but quickly realize that the itching comes and goes with every breath. You try and hold your breath, breathing through the nose until the discomfort dissipates. Once it does, you bring up your Codex’s camera to inspect the changes, only to immediately retch the moment you stick out your tongue. <b>Your tongue is thinner and slightly longer than it used to be, and your sense of taste has sharpened to the point where it can taste the air itself.</b> That’ll take some getting used to...",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09375941&gt;&gt; output(\"\\n\\nYou keep calm, focusing on breathing deeply, as the insides of your mouth begin to violently itch but quickly realize that the itching comes and goes with every breath. You try and hold your breath, breathing through the nose until the discomfort dissipates. Once it does, you bring up yo..."
+  },
+  {
+    "key": "output|A_strange_savory_taste_beings_to_cover_your_tongue_You_absently|9dd9623b235b",
+    "original": "A strange savory taste beings to cover your tongue. You absently drool a bit, your tongue lolling out of your mouth. When the strange sensation subsides, you try to retract the errant muscle back into your mouth only to find much, much more ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09376963&gt;&gt; output(\"\\n\\nA strange savory taste beings to cover your tongue. You absently drool a bit, your tongue lolling out of your mouth. When the strange sensation subsides, you try to retract the errant muscle back into your mouth only to find much, much more \")"
+  },
+  {
+    "key": "output|muscle|81c28a95506c",
+    "original": "muscle",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09377249&gt;&gt; output(\"muscle\")"
+  },
+  {
+    "key": "output|tongue|bd27e46fbb7f",
+    "original": "tongue",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09377266&gt;&gt; output(\"tongue\")"
+  },
+  {
+    "key": "output|than_you_can_remember_b|3e7b29ffb5e9",
+    "original": " than you can remember. <b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09377283&gt;&gt; output(\" than you can remember. <b>\")"
+  },
+  {
+    "key": "output|It_seems_your_tongue_is_now_around_a_foot_long|10a6e71346a3",
+    "original": "It seems your tongue is now around a foot long!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09377356&gt;&gt; output(\"It seems your tongue is now around a foot long!\")"
+  },
+  {
+    "key": "output|It_seems_your_tongue_is_now_prehensile|2b5f2f1b80b5",
+    "original": "It seems your tongue is now prehensile!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09377530&gt;&gt; output(\"It seems your tongue is now prehensile!\")"
+  },
+  {
+    "key": "output|And_prehensile_as_well|9f8fc8843f5e",
+    "original": " ...And prehensile as well!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09377580&gt;&gt; output(\" ...And prehensile as well!\")"
+  },
+  {
+    "key": "output|b_Your_mind_is_already_filled_with_ideas_of_how_to_use_this_i|0dd35bd85abc",
+    "original": "</b> Your mind is already filled with ideas of how to use this in the bedroom.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09377618&gt;&gt; output(\"</b> Your mind is already filled with ideas of how to use this in the bedroom.\")"
+  },
+  {
+    "key": "output.expr|Your_tail_1_e_tailCount_begins_s_begin_to_throb_suf|fee04c6ae187",
+    "original": "Your tail\"+(1===e.tailCount?\" begins\":\"s begin\")+\" to throb, suffused with a dull ache that grows with every heartbeat, before suddenly going numb.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09378260&gt;&gt;  output(\"\\n\\nYour tail\"+(1===e.tailCount?\" begins\":\"s begin\")+\" to throb, suffused with a dull ache that grows with every heartbeat, before suddenly going numb.\")"
+  },
+  {
+    "key": "output|You_quickly_remove_your_pc_assCovers_just_in_time_too|afa2cd2165e2",
+    "original": " You quickly remove your [pc.assCovers] - just in time, too.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09378436&gt;&gt; output(\" You quickly remove your [pc.assCovers] - just in time, too.\")"
+  },
+  {
+    "key": "output|Your_tail_shudders_mutating_into_a_thick_limb|3e8344c54b05",
+    "original": " Your tail shudders, mutating into a thick limb.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09378523&gt;&gt; output(\" Your tail shudders, mutating into a thick limb.\")"
+  },
+  {
+    "key": "output|They_shudder_twisting_together_into_one_thickened_mass|9dc667604e7d",
+    "original": " They shudder, twisting together into one thickened mass.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09378582&gt;&gt; output(\" They shudder, twisting together into one thickened mass.\")"
+  },
+  {
+    "key": "output.expr|Cautiously_inspecting_the_altered_appendage_you_watch_as_feeli|72f26d1f8533",
+    "original": " Cautiously inspecting the altered appendage, you watch as feeling begins to flow back into it, bearing witness to the spreading \"+{var0}+\" scales that grow across its surface.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09378650&gt;&gt; &lt;&lt;VARS:var0=e.scaleColor&gt;&gt; output(\" Cautiously inspecting the altered appendage, you watch as feeling begins to flow back into it, bearing witness to the spreading \"+e.scaleColor+\" scales that grow across its surface.\")"
+  },
+  {
+    "key": "output|A_dull_throbbing_forms_above_your_ass_as_if_something_under_the|054f7284e0e7",
+    "original": "A dull throbbing forms above your ass, as if something under the skin is trying to get out",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09378849&gt;&gt; output(\"\\n\\nA dull throbbing forms above your ass, as if something under the skin is trying to get out\")"
+  },
+  {
+    "key": "output|With_a_hunch_of_what_s_about_to_happen_you_quickly_remove_you|2c67d56b084c",
+    "original": ". With a hunch of what’s about to happen, you quickly remove your",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09378969&gt;&gt; output(\". With a hunch of what’s about to happen, you quickly remove your\")"
+  },
+  {
+    "key": "output|pc_armor|62611b8e38bb",
+    "original": " [pc.armor]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09379094&gt;&gt; output(\" [pc.armor]\")"
+  },
+  {
+    "key": "output|pc_lowerGarment|cf4e7881bffb",
+    "original": " [pc.lowerGarment]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09379276&gt;&gt; output(\" [pc.lowerGarment]\")"
+  },
+  {
+    "key": "output.expr|The_throbbing_continues_as_your_tailbone_grows_outward_a_new|3e6e0dea2b88",
+    "original": ". The throbbing continues as your tailbone grows outward, a new limb bulging around the skeletal extension. A few minutes later, this new tail is several feet long with \"+{var0}+\" scales quickly growing ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09379306&gt;&gt; &lt;&lt;VARS:var0=e.scaleColor&gt;&gt; output(\". The throbbing continues as your tailbone grows outward, a new limb bulging around the skeletal extension. A few minutes later, this new tail is several feet long with \"+e.scaleColor+\" scales quickly growing \")"
+  },
+  {
+    "key": "output|over_the_pc_skinColor_skin|ea78ba4526fe",
+    "original": " over the [pc.skinColor] skin",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09379541&gt;&gt; output(\" over the [pc.skinColor] skin\")"
+  },
+  {
+    "key": "output|as_the_transformation_subsides|0329f99ccac1",
+    "original": " as the transformation subsides.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09379581&gt;&gt; output(\" as the transformation subsides.\")"
+  },
+  {
+    "key": "output|b_You_now_have_a_reptilian_tail_b|b04967fbe721",
+    "original": " <b>You now have a reptilian tail!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09379625&gt;&gt; output(\" <b>You now have a reptilian tail!</b>\")"
+  },
+  {
+    "key": "output|Though_the_transformation_has_dissipated_you_still_feel_a_faint|54a88fb18f5e",
+    "original": "Though the transformation has dissipated, you still feel a faint tingling from the tip of your tail. Probing the tip, you find your tail genitalia is still present (albeit more lizard-like than it used to be).",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09379699&gt;&gt; output(\"\\n\\nThough the transformation has dissipated, you still feel a faint tingling from the tip of your tail. Probing the tip, you find your tail genitalia is still present (albeit more lizard-like than it used to be).\")"
+  },
+  {
+    "key": "output|The_tip_of_your_tail_has_become_a_scaly_sheath_of_sorts_It_con|8655cca422c0",
+    "original": " The tip of your tail has become a scaly sheath of sorts. It conceals your tail’s true nature from most, but will retract to reveal your reptilian tail-prick when you will it.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09379935&gt;&gt; output(\" The tip of your tail has become a scaly sheath of sorts. It conceals your tail’s true nature from most, but will retract to reveal your reptilian tail-prick when you will it.\")"
+  },
+  {
+    "key": "output|It_has_become_every_bit_as_reptilian_as_the_limb_it_adorns_It|791eace9b33b",
+    "original": " It has become every bit as reptilian as the limb it adorns. It remains clenched shut for now, but with a thought or urge, you can make it open it’s lips, revealing the cum-thirsty tail-twat to the world.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09380121&gt;&gt; output(\" It has become every bit as reptilian as the limb it adorns. It remains clenched shut for now, but with a thought or urge, you can make it open it’s lips, revealing the cum-thirsty tail-twat to the world.\")"
+  },
+  {
+    "key": "output.expr|var0_isAssExposed_Y_After_you_re_dress_y_ou_move_a|071c305acdbe",
+    "original": "\"+({var0}.isAssExposed()?\"Y\":\"After you re-dress, y\")+\"ou move around a bit, testing your balance. Your center of weight has shifted,",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09380341&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; output(\"\\n\\n\"+(e.isAssExposed()?\"Y\":\"After you re-dress, y\")+\"ou move around a bit, testing your balance. Your center of weight has shifted,\")"
+  },
+  {
+    "key": "output|in_a_way_that_you_are_not_particularly_comfortable_with|f9fb5f18cf42",
+    "original": " in a way that you are not particularly comfortable with",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09380519&gt;&gt; output(\" in a way that you are not particularly comfortable with\")"
+  },
+  {
+    "key": "output|but_you_find_it_much_easier_to_keep_your_balance_than_before|318bdcdc8cc2",
+    "original": " but you find it much easier to keep your balance than before.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09380586&gt;&gt; output(\" but you find it much easier to keep your balance than before.\")"
+  },
+  {
+    "key": "output|Your_tail_begins_to_feel_strange_much_of_it_feeling_vaguely_inf|4098bc714767",
+    "original": "Your tail begins to feel strange, much of it feeling vaguely inflamed. As you turn to inspect your tail, you notice that it appears to be stretching before your eyes. The bizarre swelling and stretching continues until your tail is a proper, majestic length... <b>You have a long tail!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09381361&gt;&gt; output(\"\\n\\nYour tail begins to feel strange, much of it feeling vaguely inflamed. As you turn to inspect your tail, you notice that it appears to be stretching before your eyes. The bizarre swelling and stretching continues until your tail is a proper, majestic length... <b>You have a long tail!&lt;/b..."
+  },
+  {
+    "key": "output.expr|Your_pc_wings_suddenly_go_1_e_wingCount_es_numb_a|a17430d9c055",
+    "original": "Your [pc.wings] suddenly go\"+(1===e.wingCount?\"es\":\"\")+\" numb, all sensation fading in the blink of an eye. As you reach behind, trying to discern the fate of your [pc.wings], you notice that \"+(1===e.wingCount?\"it’s\":\"they’re\")+\"... dissolving. Before your eyes, your [pc.wings] turn\"+(1===e.wingCount?\"s\":\"\")+\" to dust, falling away until your back is covered by naught but your unbroken hide of [pc.skinFurScales]. <b>You have lost your wings!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09381806&gt;&gt;  output(\"\\n\\nYour [pc.wings] suddenly go\"+(1===e.wingCount?\"es\":\"\")+\" numb, all sensation fading in the blink of an eye. As you reach behind, trying to discern the fate of your [pc.wings], you notice that \"+(1===e.wingCount?\"it’s\":\"they’re\")+\"... dissolving. Before your eyes, your [pc.wings] turn\"+(1===e.wingCount?\"s\":\"\")+\" to dust, falling away until your back is covered by naught but your unbroken hide of [pc.skinFurScales]. <b>You have lost your wings!</b>\")"
+  },
+  {
+    "key": "output.expr|You_feel_a_surge_of_arousal_bloom_in_your_groin_before_convergin|2a2689bcfd98",
+    "original": "You feel a surge of arousal bloom in your groin before converging on [pc.cock \"+{var0}+\"].",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09382489&gt;&gt; &lt;&lt;VARS:var0=r&gt;&gt; output(\"\\n\\nYou feel a surge of arousal bloom in your groin before converging on [pc.cock \"+r+\"].\")"
+  },
+  {
+    "key": "output|You_quickly_duck_into_a_secluded_spot_so_you_can_inspect_the_ch|5393e8ac40d8",
+    "original": " You quickly duck into a secluded spot so you can inspect the changes as they happen.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09382635&gt;&gt; output(\" You quickly duck into a secluded spot so you can inspect the changes as they happen.\")"
+  },
+  {
+    "key": "output.expr|Removing_your_pc_crotchCovers_you_focus_your_attention_fully|fadc39d4b0a3",
+    "original": " Removing your [pc.crotchCovers], you focus your attention fully on your throbbing [pc.cockNoun \"+{var0}+\"].",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09382791&gt;&gt; &lt;&lt;VARS:var0=r&gt;&gt; output(\" Removing your [pc.crotchCovers], you focus your attention fully on your throbbing [pc.cockNoun \"+r+\"].\")"
+  },
+  {
+    "key": "output|Your_masculine_genitalia_tapers_out_its_color_shifting_and_dar|6a6f8f7648f6",
+    "original": " Your masculine genitalia tapers out, its color shifting and darkening until it settles on a deep purple. Bulbous lumps form along your cock’s length,",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09382905&gt;&gt; output(\" Your masculine genitalia tapers out, its color shifting and darkening until it settles on a deep purple. Bulbous lumps form along your cock’s length,\")"
+  },
+  {
+    "key": "output|though_they_are_sorry_compensation_for_your_deflating_knot|05af1edae1ec",
+    "original": " though they are sorry compensation for your deflating knot.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09383079&gt;&gt; output(\" though they are sorry compensation for your deflating knot.\")"
+  },
+  {
+    "key": "output|swelling_with_arousal|7e81f69f9384",
+    "original": " swelling with arousal.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09383150&gt;&gt; output(\" swelling with arousal.\")"
+  },
+  {
+    "key": "output|pc_Cum_leaks_from_the_tip_like_a_faucet_as_waves_of_arousal_s|719c7cd7b8d0",
+    "original": " [pc.Cum] leaks from the tip like a faucet as waves of arousal slam into you without warning. The touch-free desire only recedes once you’ve leaked out and entire orgasm worth of [pc.cumNoun], leaving your prick throbbing and sensitive. <b>Your dick is now reptilian!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09383184&gt;&gt; output(\" [pc.Cum] leaks from the tip like a faucet as waves of arousal slam into you without warning. The touch-free desire only recedes once you’ve leaked out and entire orgasm worth of [pc.cumNoun], leaving your prick throbbing and sensitive. <b>Your dick is now reptilian!</b>\")"
+  },
+  {
+    "key": "output.expr|After_a_moment_of_introspection_you_reluctantly_replace_your_co|94f6948cd821",
+    "original": "After a moment of introspection, you reluctantly replace your coverings\"+({var0}?\". \":\" \")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09383541&gt;&gt; &lt;&lt;VARS:var0=e.lustQ()&lt;50&gt;&gt; output(\"After a moment of introspection, you reluctantly replace your coverings\"+(e.lustQ()&lt;50?\". \":\" \"))"
+  },
+  {
+    "key": "output|You_re_more_than_a_little_pent_up_already_fantasizing_on_how_to|a96ae717c4e3",
+    "original": "You’re more than a little pent up, already fantasizing on how to put your new tool to use.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09383660&gt;&gt; output(\"You’re more than a little pent up, already fantasizing on how to put your new tool to use.\")"
+  },
+  {
+    "key": "output|and_you_re_more_than_a_little_frustrated_But_you_ve_got_a_n|6f4606e3976f",
+    "original": "... and you’re more than a little frustrated. But you’ve got a new and exotic prick, and you’re already thinking on how to put it to use.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09383761&gt;&gt; output(\"... and you’re more than a little frustrated. But you’ve got a new and exotic prick, and you’re already thinking on how to put it to use.\")"
+  },
+  {
+    "key": "output.expr|Discomfort_pulses_through_your_pc_sack_jerking_your_hand_with|a47947ccde40",
+    "original": "Discomfort pulses through your [pc.sack], jerking your hand with a puppeteer's strings of pain. By the time your fingers \"+({var0}?\"reach it\":\"reach under your [pc.crotchCover]\")+\", the discomfort has faded, leaving behind a hollow feeling. Fondling your sack, you find it emptier than it used to be... <b>It seems your testicles have shrunk!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09384199&gt;&gt; &lt;&lt;VARS:var0=e.isCrotchExposed()||void 0!==flags.REPTILUM_MOVED_CLOTHES&gt;&gt; output(\"\\n\\nDiscomfort pulses through your [pc.sack], jerking your hand with a puppeteer's strings of pain. By the time your fingers \"+(e.isCrotchExposed()||void 0!==flags.REPTILUM_MOVED_CLOTHES?\"reach it\":\"reach under your [pc.crotchCover]\")+\", the discomfort has faded, leaving behind a hollow feeling. Fondling your sack, you find it emptier than it used to be... <b>It seems your testicles have shrunk!</b>\")"
+  },
+  {
+    "key": "output.expr|A_sudden_hot_throb_in_your_slit_is_the_only_warning_you_get_bef|f6d1e4789dad",
+    "original": "A sudden, hot throb in your slit is the only warning you get before you feel the start of \"+({var0}?\"a\":\"another\")+\" change. It feels like your [pc.cock] is getting thicker inside you, fattening up so nicely that you wonder just how much dick you can contain, even soft and unaroused.\\n\\nThat question is answered by the momentary pain of something separating inside you. You can feel your dick being rubbed from above and below at the same time, both places feeling as phallic as the source of your sensation. It’s then that <b>you pull open your slit to reveal a newly grown pair of reptile-dicks where once there was one.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09384975&gt;&gt; &lt;&lt;VARS:var0=void 0===flags.REPTILUM_CHANGES&gt;&gt; output(\"\\n\\nA sudden, hot throb in your slit is the only warning you get before you feel the start of \"+(void 0===flags.REPTILUM_CHANGES?\"a\":\"another\")+\" change. It feels like your [pc.cock] is getting thicker inside you, fattening up so nicely that you wonder just how much dick you can contain, even soft and unaroused.\\n\\nThat question is answered by the momentary pain of something separating inside you. You can feel your dick being rubbed from above and below at the same time, both places feeling as phallic as the source of your sensation. It’s then that <b>you pull open your slit to reveal a newly grown pair of reptile-dicks where once there was one.</b>\")"
+  },
+  {
+    "key": "output|Your_crotch_is_suddenly_assailed_by_discomfort_pulsing_waves_of|43805b395bd3",
+    "original": "Your crotch is suddenly assailed by discomfort, pulsing waves of queasiness flavored by a hint of arousal.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09386056&gt;&gt; output(\"\\n\\nYour crotch is suddenly assailed by discomfort, pulsing waves of queasiness flavored by a hint of arousal.\")"
+  },
+  {
+    "key": "output|You_quickly_duck_into_a_secluded_spot_so_you_can_inspect_the_ch|2f439ea67b68",
+    "original": " You quickly duck into a secluded spot so you can inspect the changes as they happen.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09386223&gt;&gt; output(\" You quickly duck into a secluded spot so you can inspect the changes as they happen.\")"
+  },
+  {
+    "key": "output|You_remove_your|109b5d4254c1",
+    "original": " You remove your",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09386380&gt;&gt; output(\" You remove your\")"
+  },
+  {
+    "key": "output|pc_armor|7c38f9921d87",
+    "original": " [pc.armor]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09386459&gt;&gt; output(\" [pc.armor]\")"
+  },
+  {
+    "key": "output|and|ada1e80c303c#1",
+    "original": " and",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09386556&gt;&gt; output(\" and\")"
+  },
+  {
+    "key": "output|pc_lowerGarment|cf4e7881bffb#1",
+    "original": " [pc.lowerGarment]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09386647&gt;&gt; output(\" [pc.lowerGarment]\")"
+  },
+  {
+    "key": "output|your_attention_fully_focused_on_your_throbbing_pc_cockNounSim|748b21ffa0d3",
+    "original": ", your attention fully focused on your throbbing [pc.cockNounSimple].",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09386676&gt;&gt; output(\", your attention fully focused on your throbbing [pc.cockNounSimple].\")"
+  },
+  {
+    "key": "output|As_your_hand_touches_your_pc_cock_waves_of_arousal_begin_to|238519c498fd",
+    "original": " As your hand touches your [pc.cock], waves of arousal begin to flow through you until you can think of nothing else. You begin to furiously masturbate, only to feel unusual resistance with every rub. Your cock",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09386757&gt;&gt; output(\" As your hand touches your [pc.cock], waves of arousal begin to flow through you until you can think of nothing else. You begin to furiously masturbate, only to feel unusual resistance with every rub. Your cock\")"
+  },
+  {
+    "key": "output|and_balls|a4489349e468",
+    "original": " and balls",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09386989&gt;&gt; output(\" and balls\")"
+  },
+  {
+    "key": "output|squirm_out_of_your_grasp_sinking_into_your_groin_before_your_e|bb0ae45b9b29",
+    "original": " squirm out of your grasp, sinking into your groin before your eyes.\\n\\nPanicked, you rub the spot where your cock vanished, finding a new opening",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09387010&gt;&gt; output(\" squirm out of your grasp, sinking into your groin before your eyes.\\n\\nPanicked, you rub the spot where your cock vanished, finding a new opening\")"
+  },
+  {
+    "key": "output|hidden_beneath_your_fur|6e17cd458ed2",
+    "original": " hidden beneath your fur",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09387178&gt;&gt; output(\" hidden beneath your fur\")"
+  },
+  {
+    "key": "output|concealed_by_scales|3f5b4c8a0a3c",
+    "original": " concealed by scales",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09387227&gt;&gt; output(\" concealed by scales\")"
+  },
+  {
+    "key": "output|forming_where_your_cock_used_to_be|1939e3da3916",
+    "original": " forming where your cock used to be",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09387258&gt;&gt; output(\" forming where your cock used to be\")"
+  },
+  {
+    "key": "output|Rubbing_the_new_orifice_your_ministrations_are_soon_rewarded|948ad03ca0f9",
+    "original": ". Rubbing the new orifice, your ministrations are soon rewarded when your [pc.cock] peeks out, dripping with [pc.cum]. <b>You have a genital slit!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09387304&gt;&gt; output(\". Rubbing the new orifice, your ministrations are soon rewarded when your [pc.cock] peeks out, dripping with [pc.cum]. <b>You have a genital slit!</b>\")"
+  },
+  {
+    "key": "output.expr|You_feel_a_surge_of_arousal_bloom_in_your_groin_before_convergin|b98f8e78604d",
+    "original": "You feel a surge of arousal bloom in your groin before converging on [pc.vagina \"+{var0}+\"].",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09387879&gt;&gt; &lt;&lt;VARS:var0=c&gt;&gt; output(\"\\n\\nYou feel a surge of arousal bloom in your groin before converging on [pc.vagina \"+c+\"].\")"
+  },
+  {
+    "key": "output|You_quickly_duck_into_a_secluded_spot_so_you_can_inspect_the_ch|93956a844bc4",
+    "original": " You quickly duck into a secluded spot so you can inspect the changes as they happen.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09388027&gt;&gt; output(\" You quickly duck into a secluded spot so you can inspect the changes as they happen.\")"
+  },
+  {
+    "key": "output|You_shift_pc_crotchCovers_aside|5da022301455",
+    "original": " You shift [pc.crotchCovers] aside.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09388183&gt;&gt; output(\" You shift [pc.crotchCovers] aside.\")"
+  },
+  {
+    "key": "output|Warmth_flows_through_your_love_tunnel_raw_arousal_masking_the|d52606a0cd78",
+    "original": " Warmth flows through your love tunnel, raw arousal masking the discomfort of transformation. You see your vulva contract, your lips",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09388229&gt;&gt; output(\" Warmth flows through your love tunnel, raw arousal masking the discomfort of transformation. You see your vulva contract, your lips\")"
+  },
+  {
+    "key": "output|seeming_to_vanish_before_your_eyes|2bb8706697d4",
+    "original": " seeming to vanish before your eyes",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09388398&gt;&gt; output(\" seeming to vanish before your eyes\")"
+  },
+  {
+    "key": "output|fading_to_a_subtle_cleft|08de0ca3713a",
+    "original": " fading to a subtle cleft",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09388445&gt;&gt; output(\" fading to a subtle cleft\")"
+  },
+  {
+    "key": "output|hidden_behind_your_pc_balls|c3ac63c64e35",
+    "original": " hidden behind your [pc.balls]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09388491&gt;&gt; output(\" hidden behind your [pc.balls]\")"
+  },
+  {
+    "key": "output.expr|var1_hasCrotchFlag_var0_under_your_other_slit_hidden_b|b3a97c21cf13",
+    "original": "{var1}.hasCrotchFlag({var0})?\" under your other slit\":\" hidden behind your [pc.cock]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09388544&gt;&gt; &lt;&lt;VARS:var0=GLOBAL.FLAG_GENITAL_SLIT,var1=e&gt;&gt; output(e.hasCrotchFlag(GLOBAL.FLAG_GENITAL_SLIT)?\" under your other slit\":\" hidden behind your [pc.cock]\")"
+  },
+  {
+    "key": "output.expr|Sticking_a_finger_in_you_re_pleased_to_see_that_your_altered_l|0afd313bfe72",
+    "original": " Sticking a finger in, you’re pleased to see that your altered lips are far more elastic than they look... You also find your \"+({var0}?\"clits\":\"clit\")+\", hidden just inside your slit. <b>Your vagina is now reptilian!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09388665&gt;&gt; &lt;&lt;VARS:var0=e.vaginas[c].clits&gt;1&gt;&gt; output(\" Sticking a finger in, you’re pleased to see that your altered lips are far more elastic than they look... You also find your \"+(e.vaginas[c].clits&gt;1?\"clits\":\"clit\")+\", hidden just inside your slit. <b>Your vagina is now reptilian!</b>\")"
+  },
+  {
+    "key": "output|Your_pc_asshole_feels_strange_for_a_second_tingling_with_the|2d010004cf97",
+    "original": "Your [pc.asshole] feels strange for a second, tingling with the promise of some secret, invisible transformation. Nothing feels different... but you’re strangely confident that <b>your [pc.asshole] could now take larger insertions than it could before</b>. Perhaps you should test this theory out, if for nothing else than to plumb the depths of Reptilum’s effects.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09389221&gt;&gt; output(\"\\n\\nYour [pc.asshole] feels strange for a second, tingling with the promise of some secret, invisible transformation. Nothing feels different... but you’re strangely confident that <b>your [pc.asshole] could now take larger insertions than it could before</b>. Perhaps you should test this th..."
+  },
+  {
+    "key": "output.expr|You_feel_a_vague_tingling_in_your_chest_gradually_giving_way_to|cd2f0ec2790d",
+    "original": "You feel a vague tingling in your chest, gradually giving way to greater discomfort. It feels as if the insides of your [pc.breasts \"+{var0}.biggestTitRow()+\"] are itching, each heartbeat bringing a wave of prickling upon your changing mammaries. Your breasts slowly shrink, and the itching dissipates as the changes recede. <b>Your \"+({var1}?\"chest is now flat\":\"breasts have lost one cup size\")+\"!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09389877&gt;&gt; &lt;&lt;VARS:var0=e,var1=e.biggestTitSize()&lt;=1&gt;&gt; output(\"\\n\\nYou feel a vague tingling in your chest, gradually giving way to greater discomfort. It feels as if the insides of your [pc.breasts \"+e.biggestTitRow()+\"] are itching, each heartbeat bringing a wave of prickling upon your changing mammaries. Your breasts slowly shrink, and the itching dissipates as the changes recede. <b>Your \"+(e.biggestTitSize()&lt;=1?\"chest is now flat\":\"breasts have lost one cup size\")+\"!</b>\")"
+  },
+  {
+    "key": "output.expr|Pain_spikes_through_your_waist_as_your_pelvis_shifts_slightly_Y|80aedb6ce4eb",
+    "original": "Pain spikes through your waist as your pelvis shifts slightly. You adjust your\"+({var0}.isNude()?\"self\":\" clothing\")+\", noting that <b>your [pc.hips] are now wider.</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09390548&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; output(\"\\n\\nPain spikes through your waist as your pelvis shifts slightly. You adjust your\"+(e.isNude()?\"self\":\" clothing\")+\", noting that <b>your [pc.hips] are now wider.</b>\")"
+  },
+  {
+    "key": "output.expr|Pain_spikes_through_your_pc_nipples_only_to_fade_a_few_moments|e854c48813b6",
+    "original": "Pain spikes through your [pc.nipples] only to fade a few moments later. \"+({var0}.isChestExposed()?\"You inspect your [pc.breasts],\":\"You peek inside your [pc.chestCover],\")+\" finding that your nipples have become innies! Rubbing the changed area a bit, you find that your nipples pop back out as arousal flows through them. <b>Your nipples are now inverted!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09390943&gt;&gt; &lt;&lt;VARS:var0=e&gt;&gt; output(\"\\n\\nPain spikes through your [pc.nipples] only to fade a few moments later. \"+(e.isChestExposed()?\"You inspect your [pc.breasts],\":\"You peek inside your [pc.chestCover],\")+\" finding that your nipples have become innies! Rubbing the changed area a bit, you find that your nipples pop back out as arousal flows through them. <b>Your nipples are now inverted!</b>\")"
+  },
+  {
+    "key": "output.expr|Your_codex_beeps_for_attention_the_noise_almost_distracting_you|46af5e0729bb",
+    "original": "Your codex beeps for attention, the noise almost distracting you from a shudder of change flowing through your insides. Tapping the screen a few times, your codex informs you that... you are now oviparous? Realization hits you: \"+({var0}?\"the Ovilium\":\"your egg-pregnancy\")+\"! <b>It looks like your \"+({var1}.hasVaginas()?\"wombs\":\"womb\")+\" will be producing unfertilized eggs when left unoccupied\"+({var2}?\" - all without further chemical assistance\":\"\")+\".</b>\\n\\n(<b>Perk Gained: Oviposition</b>)",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09391676&gt;&gt; &lt;&lt;VARS:var0=t,var1=e,var2=t&gt;&gt; output(\"\\n\\nYour codex beeps for attention, the noise almost distracting you from a shudder of change flowing through your insides. Tapping the screen a few times, your codex informs you that... you are now oviparous? Realization hits you: \"+(t?\"the Ovilium\":\"your egg-pregnancy\")+\"! <b>It looks like your \"+(e.hasVaginas()?\"wombs\":\"womb\")+\" will be producing unfertilized eggs when left unoccupied\"+(t?\" - all without further chemical assistance\":\"\")+\".</b>\\n\\n(<b>Perk Gained: Oviposition</b>)\")"
+  },
+  {
+    "key": "perk|Oviposition|27ae79db45ca",
+    "original": "Oviposition",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09392176&gt;&gt; createPerk(\"Oviposition\",0,0,0,GetGameTimestamp(),\"Causes you to regularly lay eggs when not otherwise pregnant.\")"
+  },
+  {
+    "key": "output|A_brief_wave_of_discomfort_flows_through_you_before_fading_away|cf5162a97bc7",
+    "original": "A brief wave of discomfort flows through you before fading away. You wait patiently, only to realize after a minute that no changes are coming. Seems like that dose was a dud...",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09392319&gt;&gt; output(\"\\n\\nA brief wave of discomfort flows through you before fading away. You wait patiently, only to realize after a minute that no changes are coming. Seems like that dose was a dud...\")"
+  },
+  {
+    "key": "output.expr|var1_splice_var0|7e0baf0734c0",
+    "original": "\"+{var1}.splice({var0})",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09392631&gt;&gt; &lt;&lt;VARS:var0=rand(a.length),1)[0](,var1=a&gt;&gt; output(\"\\n\\n\"+a.splice(rand(a.length),1)[0]())"
+  },
+  {
+    "key": "assign|a_brightly_packaged_bottle_of_murky_liquid_labeled_Reptilum|ecbdd1b2d3f0",
+    "original": "a brightly packaged bottle of murky liquid labeled ‘Reptilum’",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09367383&gt;&gt; ase(e.longName)),e.description='a brightly packaged bottle of murky liquid labeled ‘Reptilum'"
+  },
+  {
+    "key": "output|and|ada1e80c303c",
+    "original": " and",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:09379188&gt;&gt; output(\" and\")"
+  }
+]

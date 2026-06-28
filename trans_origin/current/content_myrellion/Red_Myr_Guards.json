@@ -1,0 +1,2620 @@
+[
+  {
+    "key": "output|Which_act_will_you_perform|307d40ee41b6",
+    "original": "Which act will you perform?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02911688&gt;&gt;"
+  },
+  {
+    "key": "button|Sit_n_Screw|06819395e6c5",
+    "original": "Sit‘n’Screw",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02911745&gt;&gt; addButton(0,\"Sit‘n’Screw\",qn,\"Sit & Screw\",\"Have some fun screwing her... with her strap-on if you need one.\")"
+  },
+  {
+    "key": "button|Steal_Dildo|572ccb7eccac",
+    "original": "Steal Dildo",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02913842&gt;&gt; addDisabledButton(5,\"Steal Dildo\",\"Steal Dildo\",\"You don’t even know if she has one!\")"
+  },
+  {
+    "key": "button|Talk|84336d9f4b63",
+    "original": "Talk",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02913948&gt;&gt; addButton(1,\"Talk\",(function t(){function o(){clearOutput(),En(e),author(\"Jim Thermic\"),e?(flags.ENABLE_LYS_FLOWER=1,output(\"You ask Lys a little bit about herself. She curls a finger around her wild locks, her other arms hugging under her voluptuous breasts.\"),output(\"\\n\\n<i>“I guess I can tell you..."
+  },
+  {
+    "key": "button|Fight|01af79f2dcc7",
+    "original": "Fight",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02921903&gt;&gt; addButton(2,\"Fight\",n)"
+  },
+  {
+    "key": "button|Fight|efd5fa299bdc",
+    "original": "Fight",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02921972&gt;&gt; addDisabledButton(2,\"Fight\",\"Fight\",\"You’re not going to smack around a pregnant girl!\")"
+  },
+  {
+    "key": "button|Give_Dildo|56ac5e3939bf",
+    "original": "Give Dildo",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02922127&gt;&gt; addButton(3,\"Give Dildo\",o,\"Give Dildo\",\"Return your looted prize.\")"
+  },
+  {
+    "key": "button|Give_Flower|db3c7a14b9a9",
+    "original": "Give Flower",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02922334&gt;&gt; addButton(4,\"Give Flower\",Vn,\"Give Flower\",\"Present Lys with the exotic flower you found on Mhen’ga and see if it’ll cheer the poor girl up.\")"
+  },
+  {
+    "key": "output|i_It_s_a_super_nice_toy_i|f7dbb78ae68d",
+    "original": " <i>“It’s a super nice toy!”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02922845&gt;&gt;"
+  },
+  {
+    "key": "output|i_It_seems_only_fitting_I_return_your_property_i|7317da21de62",
+    "original": " <i>“It seems only fitting I return your property.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02922900&gt;&gt;"
+  },
+  {
+    "key": "output|i_I_was_getting_tired_of_lugging_this_thing_around_everywhere|bdda7d57c40b",
+    "original": " <i>“I was getting tired of lugging this thing around everywhere.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02922985&gt;&gt;"
+  },
+  {
+    "key": "output|i_I_kept_it_warm_for_you_i|9428c8f4f567",
+    "original": " <i>“I kept it warm for you.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02923066&gt;&gt;"
+  },
+  {
+    "key": "output|You_pull_out_your_pc_weapon_enemy_name_clicks_her_tongue|48c23c13fe30",
+    "original": "You pull out your [pc.weapon]. [enemy.name] clicks her tongue. <i>“...Damn. Oh well, it was worth a try, right?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02923336&gt;&gt;"
+  },
+  {
+    "key": "output|You_say_your_goodbyes_and_go_on_your_way|2e09f9723402",
+    "original": "You say your goodbyes and go on your way.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02923622&gt;&gt;"
+  },
+  {
+    "key": "button|Next|06f52005b57f",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:02923706&gt;&gt; addButton(0,\"Next\",mainGameMenu)"
+  },
+  {
+    "key": "button|Run|b56d0577a5db",
+    "original": "Run",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02923740&gt;&gt; addButton(14,\"Run\",(function(){clearOutput(),En(e),author(\"Jim Thermic\"),output(\"You decide to avoid dealing with [enemy.name] altogether. As she stands there with a dumbfounded expression, you slip off.\"),processTime(2),clearMenu(),addButton(0,\"Next\",mainGameMenu)}))"
+  },
+  {
+    "key": "button|Take|19486f9b7e8b",
+    "original": "Take",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02924577&gt;&gt; addButton(0,\"Take\",(function(){clearOutput(),output(blockHeader(\"Panties\")),author(\"ASpoopyGhost\"),output(\"You pocket Lys’s panties. Either the female soldier forgot, left them as a gift, or really doesn’t mind just walking around commando.\"),output(\"\\n\\n<b>You have obtained Lys’s panties!</b>\"),pc...."
+  },
+  {
+    "key": "button|Take|82cba73e3d68",
+    "original": "Take",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02925766&gt;&gt; addButton(0,\"Take\",(function(){clearOutput(),output(blockHeader(\"Panties\")),author(\"ASpoopyGhost\"),output(\"You pocket Briha’s panties. Either the female soldier forgot, left them as a gift, or really doesn’t mind just walking around commando.\"),output(\"\\n\\n<b>You have obtained Briha’s panties!</b>\")..."
+  },
+  {
+    "key": "output|You_concat_pc_isNaga_pc_isGoo_slide_step_through_a|6cdf410e42a3",
+    "original": "You \".concat(pc.isNaga()||pc.isGoo()?\"slide\":\"step\",\" through a doorless entryway and into a large, cluttered building that reminds you of a warehouse, albeit a terribly organized one. Actually... looking around at all the boxes and parts lying around, that’s exactly what it seems to be. Several myrmedions of the <i>“Red”</i> variety are present, some standing guard with weapons at the ready while others mill about and busy themselves with what looks like cleaning. It doesn’t take a genius to deduce that this area was assigned to them rather recently and that they’re still moving in. You can see numerous individuals of other species moving to and fro: they’re mostly UGC personnel or other unaffiliated parties, since there are quite a few less Gold Myr here than elsewhere in the embassy. Half of the area is dominated by makeshift offices and rooms, and one doorway has two guards positioned on either side of it.\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02926663&gt;&gt;"
+  },
+  {
+    "key": "button|Guards|e91379197406",
+    "original": "Guards",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02927603&gt;&gt; addButton(0,\"Guards\",(function e(){clearOutput(),output(\"You approach the pair of Red Myr standing watch over the nearest entrance, noting to yourself that they’re not wearing gasmasks like the pair outside the warehouse. For that matter, none of the Reds in here are covering their faces. One guard ..."
+  },
+  {
+    "key": "name.show|Nehzara_Lyralla_Juro|f585383e9798",
+    "original": "Nehzara, Lyralla & Juro",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02931979&gt;&gt; showName(\"Nehzara, Lyralla & Juro\")"
+  },
+  {
+    "key": "output|step|c96da102070e",
+    "original": "step",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02932080&gt;&gt;"
+  },
+  {
+    "key": "output|slide|fd854dffff4a",
+    "original": "slide",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02932095&gt;&gt;"
+  },
+  {
+    "key": "output|You_decide_to_go_over_and_see_how_Nehzara_s_handling_the_disappo|7a726ddc396c",
+    "original": "You decide to go over and see how Nehzara’s handling the disappointment of watching her rival snatch a major accomplishment out from under her. You’ve never seen her so furious, and you’re sort of worried that she might do something drastic. She <i>was</i> a warrior long before she was a diplomat, after all.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02932215&gt;&gt;"
+  },
+  {
+    "key": "output|into_the_cluttered_warehouse_which_hosts_much_of_the_Scarlet_Fe|eafd6c20dc79",
+    "original": " into the cluttered warehouse which hosts much of the Scarlet Federation’s embassy staff, expecting to see the same busy scene that you’re normally greeted with. You get a bit of a shock when you find yourself witnessing a rather alarming argument in progress.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02936039&gt;&gt;"
+  },
+  {
+    "key": "button|Nehzara_Lt|316a7e23416a",
+    "original": "Nehzara & Lt.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02938427&gt;&gt; addButton(0,\"Nehzara & Lt.\",n,\"Nehzara & Lt.\",\"Go see what’s up.\")"
+  },
+  {
+    "key": "button|Nehzara|9d24fb93a841",
+    "original": "Nehzara",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02939358&gt;&gt; addButton(0,\"Nehzara\",(function e(){if(clearOutput(),t(),pc.bellyRating()&gt;40&&pc.isPregnant()&&void 0===flags.NEHZ_PREGGO_RUB_HAPPENED&&void 0!==flags.SEXED_NEHZARA&&0===rand(3))return void n();function n(){function e(){clearOutput(),t(),output(\"With a \"),pc.isNice()?output(\"warm smile on your face\"..."
+  },
+  {
+    "key": "output|Nehzara_is_a_snappy_hard_eyed_Red_Myr_woman_who_looks_every_inc|e4375d550f33",
+    "original": "Nehzara is a snappy, hard-eyed Red Myr woman who looks every inch the Scarlet Federation field officer she is. Others of her race are just barely taller than an average human female, though more sturdily built, but Nehzara is a little larger than average. You estimate she’d be 5' 10\\\" when standing. Her general frame is slim and lithe, but not frail by any stretch of the word.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02943872&gt;&gt;"
+  },
+  {
+    "key": "output|There_s_a_tension_to_the_way_she_s_carrying_herself_a_rigidity|bd2309533942",
+    "original": " There’s a tension to the way she’s carrying herself, a rigidity that goes beyond military discipline and looks forced and uncomfortable.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02944291&gt;&gt;"
+  },
+  {
+    "key": "output|She_is_far_more_relaxed_than_she_had_been_during_your_first_mee|27639fdd5762",
+    "original": " She is far more relaxed than she had been during your first meeting. While her posture is still impeccable, she no longer looks so rigid and uncomfortable.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02944439&gt;&gt;"
+  },
+  {
+    "key": "output|For_all_you_know_she_very_well_could_be|8443691159f9",
+    "original": "For all you know, she very well could be. ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02945817&gt;&gt;"
+  },
+  {
+    "key": "output|You_can_t_really_see_any_more_of_her_while_she_s_sitting_at_her|ed3c6c9644ef",
+    "original": "You can’t really see any more of her while she’s sitting at her desk like this, ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02945870&gt;&gt;"
+  },
+  {
+    "key": "output|so_you_re_left_to_imagine_what_that_uniform_does_for_the_rest_of|e3b95c4b065b",
+    "original": "so you’re left to imagine what that uniform does for the rest of her figure",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02945990&gt;&gt;"
+  },
+  {
+    "key": "output|but_you_re_well_aware_of_what_that_uniform_does_for_the_rest_of|afa8826babc4",
+    "original": "but you’re well aware of what that uniform does for the rest of her figure, and you know you like it a lot",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02946076&gt;&gt;"
+  },
+  {
+    "key": "output|Running_your_fingers|e4866a8fc1cb",
+    "original": "Running your fingers ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02946253&gt;&gt;"
+  },
+  {
+    "key": "output|through_your_pc_hair|d609287168ed",
+    "original": "through your [pc.hair]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02946298&gt;&gt;"
+  },
+  {
+    "key": "output|over_your_smooth_scalp|d5cafb0cb4c4",
+    "original": "over your smooth scalp",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02946331&gt;&gt;"
+  },
+  {
+    "key": "output|you_take_a_second_or_two_to_ponder_over_how_to_phrase_the_ques|f175123c29ef",
+    "original": ", you take a second or two to ponder over how to phrase the question, and then ask Nehzara about her people and nation.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02946364&gt;&gt;"
+  },
+  {
+    "key": "output|You_find_yourself_nodding_in_agreement_As_a_mercenary_you_ve|922e88faca0b",
+    "original": " You find yourself nodding in agreement. As a mercenary, you’ve definitely seen an equal measure of virtue and vice among your fellow hired guns.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02949352&gt;&gt;"
+  },
+  {
+    "key": "output|You_throw_out_the_question_with_a_light_tone_but_you_have_to_as|04c650a62e53",
+    "original": "You throw out the question with a light tone, but you have to ask",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02950872&gt;&gt;"
+  },
+  {
+    "key": "output|You_re_blunt_and_straight_to_the_point|51bce1f8e35d",
+    "original": "You’re blunt and straight to the point",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02950948&gt;&gt;"
+  },
+  {
+    "key": "output|are_the_Reds_any_better_off_when_they_re_living_in_a_jingoist|9ca43a70d1fb",
+    "original": ": are the Reds any better off when they’re living in a jingoist society where they’re every bit as bound by the system?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02950997&gt;&gt;"
+  },
+  {
+    "key": "output|You_sigh_and_shake_your_head_deciding_you_can_put_up_with_her_a|c982f058b7a2",
+    "original": "You sigh and shake your head, deciding you can put up with her acerbic demeanor for a bit longer.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02952928&gt;&gt;"
+  },
+  {
+    "key": "output|You_roll_your_eyes_inwardly_hoping_you_don_t_sound_that_bitingl|8008a0c9e6ac",
+    "original": "You roll your eyes, inwardly hoping you don’t sound that bitingly sardonic to others.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02953055&gt;&gt;"
+  },
+  {
+    "key": "output|Well_someone_sure_is_bitter_You_frown_and_gesture_for_her_to_c|b9d8b1bd95d3",
+    "original": "Well, someone sure is bitter. You frown and gesture for her to continue.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02953151&gt;&gt;"
+  },
+  {
+    "key": "output|So_if_Nehzara_is_this_big_war_hero_and_everything_why_exactly|634a887b12e7",
+    "original": "So, if Nehzara is this big war hero and everything, why exactly has she been placed behind a desk in the corner of a warehouse in the demilitarized zone? You pose the question ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02956689&gt;&gt;"
+  },
+  {
+    "key": "output|as_delicately_as_you_can|80153940a291",
+    "original": "as delicately as you can",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02956888&gt;&gt;"
+  },
+  {
+    "key": "output|with_as_light_a_tone_as_you_can_manage|c46ac07c0d53",
+    "original": "with as light a tone as you can manage",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02956942&gt;&gt;"
+  },
+  {
+    "key": "output|with_some_of_your_own_bitterness_mixed_into_your_tone|797eb718f05b",
+    "original": "with some of your own bitterness mixed into your tone",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02956991&gt;&gt;"
+  },
+  {
+    "key": "output|You_ask_Nehzara_what_exactly_she_meant_by_trench_wives|68525e2724ad",
+    "original": "You ask Nehzara what exactly she meant by ‘trench wives.’",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02962841&gt;&gt;"
+  },
+  {
+    "key": "output|In_fact_she_almost_seems_pleased_that_you_noticed_it|ca9b03ec4b29",
+    "original": " In fact, she almost seems pleased that you noticed it.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02963205&gt;&gt;"
+  },
+  {
+    "key": "output|explain_that_you_ve_only_seen_the_inside_of_a_few_holding_cells|5fb3e3fb5e5d",
+    "original": "explain that you’ve only seen the inside of a few holding cells and police stations, but you’re not acquainted with any actual prisons",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02963923&gt;&gt;"
+  },
+  {
+    "key": "output|admit_that_you_don_t_really_have_any_experience_with_being_on_th|285d8d1154b1",
+    "original": "admit that you don’t really have any experience with being on that side of the law, and so you can’t personally attest to anything",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02964068&gt;&gt;"
+  },
+  {
+    "key": "output|War_politics_and_history_aside_you_have_your_own_concerns_On|9ae57511db01",
+    "original": "War, politics, and history aside, you have your own concerns. One of your father’s probes is on this planet and you need to find it... preferably before your cousin does. Nehzara’s the only one who can get you clearance for travel to Kressia and Scarlet Federation territory. You tell her that’s why you’re here.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02968032&gt;&gt;"
+  },
+  {
+    "key": "output|i_You_do_smell_absolutely_amazing_but_I_can_t_think_of_any|4f49a0847d92",
+    "original": "<i>“You do smell absolutely amazing, but... I can’t think of any place I’d even fit both of us without rutting right in public. Still, I could use someone giving me a little encouragement and relief as I work, and I think I have </i>just<i> enough space under here for you.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02970761&gt;&gt;"
+  },
+  {
+    "key": "output|i_Since_I_d_rather_not_ask_it_of_my_subordinates_and_I_surely|6b5a8e269a4c",
+    "original": "<i>“Since I’d rather not ask it of my subordinates, and I surely can’t keep any trench wives here with me, I could use someone giving me a little encouragement and relief as I work... someone who can be felt and not seen... like under my desk, perhaps?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02971050&gt;&gt;"
+  },
+  {
+    "key": "button|Under_Desk|777c6f05d9aa",
+    "original": "Under Desk",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02971394&gt;&gt; addButton(0,\"Under Desk\",(function(){return l(!0)}),\"Under Desk\",\"It’d be more than a little humiliating to be hidden under a desk and used like some stress-relief toy, but there’s a saying about scratching backs....\")"
+  },
+  {
+    "key": "output|i_Why_not_i_you_reply_with_a_wink_i_Just_promise_to_be|3910d0b08af2",
+    "original": "<i>“Why not?”</i> you reply with a wink. <i>“Just promise to be this polite when my head’s between your legs.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02972653&gt;&gt;"
+  },
+  {
+    "key": "output|Heh_Why_not_i_All_right_i_you_reply_in_a_sultry_lustful|137b2b619583",
+    "original": "Heh. Why not? <i>“All right,”</i> you reply in a sultry, lustful tone, <i>“but only because you could use that stick pulled out of your ass.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02972778&gt;&gt;"
+  },
+  {
+    "key": "output|You|48b35e1f05c5",
+    "original": "You ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02972936&gt;&gt;"
+  },
+  {
+    "key": "output|take_a_step_forward|db8e2c04eba8",
+    "original": "take a step forward",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02972965&gt;&gt;"
+  },
+  {
+    "key": "output|slide_yourself_forward|2e763e1f887d",
+    "original": "slide yourself forward",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02972995&gt;&gt;"
+  },
+  {
+    "key": "output|to_stand_just_before_Nehzara_s_desk_i_Someone_looks_stressed|b925dbb17198",
+    "original": " to stand just before Nehzara’s desk. <i>“Someone looks stressed,”</i> you begin, looking her in the eye. ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02973028&gt;&gt;"
+  },
+  {
+    "key": "output|i_Perhaps_there_s_something_I_could_do_to_help_i|117ae70b8a4c",
+    "original": "<i>“Perhaps there’s something I could do to help?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02973157&gt;&gt;"
+  },
+  {
+    "key": "output|i_I_ve_got_the_cure_for_that_care_to_guess_what_it_is_i|882d6639dc13",
+    "original": "<i>“I’ve got the cure for that; care to guess what it is?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02973241&gt;&gt;"
+  },
+  {
+    "key": "output|i_If_I_take_care_of_it_think_you_could_be_a_i_little_i_war|b3005bb98ea7",
+    "original": "<i>“If I take care of it, think you could be a </i>little<i> warmer after?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02973314&gt;&gt;"
+  },
+  {
+    "key": "output|Not_a_moment_after_you_ask_your_gaze_travels_down_her_chest_to|690d61b7d230",
+    "original": " Not a moment after you ask, your gaze travels down her chest to settle on her desk. On the other side of that wooden surface lies exactly what you’re after.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02973404&gt;&gt;"
+  },
+  {
+    "key": "output|nod|bc1e71806905",
+    "original": "nod, ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02974350&gt;&gt;"
+  },
+  {
+    "key": "output|sliding|a6f2e599cf30",
+    "original": "sliding",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02974382&gt;&gt;"
+  },
+  {
+    "key": "output|stepping|f893b0162303",
+    "original": "stepping",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02974400&gt;&gt;"
+  },
+  {
+    "key": "output|forward_and_gingerly_lowering_yourself_to|d958cebbca7b",
+    "original": " forward and gingerly lowering yourself to ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02974419&gt;&gt;"
+  },
+  {
+    "key": "output|flash_her_a_smirk_before_gracefully_lowering_yourself_to|5c2959165359",
+    "original": "flash her a smirk before gracefully lowering yourself to ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02974493&gt;&gt;"
+  },
+  {
+    "key": "output|give_her_a_cold_smile_before_hunkering_down_on_the_floor_between|f975e1eab7b2",
+    "original": "give her a cold smile before hunkering down on the floor between the desk and her chair. You turn your torso so you’re facing ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02974561&gt;&gt;"
+  },
+  {
+    "key": "output|the_myrmedion_s_spread_legs_and_open_lap|b7f8e13d0ad4",
+    "original": "the myrmedion’s spread legs and open lap.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02974698&gt;&gt;"
+  },
+  {
+    "key": "output|It_quickly_becomes_clear_that_there_s_no_damn_way_you_re_fitting|4a9ff225d6ad",
+    "original": "It quickly becomes clear that there’s no damn way you’re fitting under the desk, despite it being one of the larger ones you’ve seen. Nehzara sighs and pushes herself a little farther back away from the desk, letting you fit half of yourself under there instead. She glances at the door nervously, clearly hoping that anyone who passes by won’t notice that she’s sitting almost at arm’s length from her workspace",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02974961&gt;&gt;"
+  },
+  {
+    "key": "output|It_s_actually_kind_of_roomy_beneath_the_large_desk_at_least_bef|b07a1f643fa1",
+    "original": "It’s actually kind of roomy beneath the large desk, at least before she slides forward and places her knees on either side of your head",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02975399&gt;&gt;"
+  },
+  {
+    "key": "output|There_s_just_enough_space_for_you_to_fit_beneath_the_large_desk|b98f86b67232",
+    "original": "There’s just enough space for you to fit beneath the large desk, and it gets rather crowded once she slides forward and places her knees on either side of your head",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02975545&gt;&gt;"
+  },
+  {
+    "key": "output|runs_her_fingers_through_your_pc_hair|36ec5ccbc4f3",
+    "original": "runs her fingers through your [pc.hair]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02977071&gt;&gt;"
+  },
+  {
+    "key": "output|kneads_her_fingers_into_your_pc_skinFurScales|4dc7bd7eb6a2",
+    "original": "kneads her fingers into your [pc.skinFurScales]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02977121&gt;&gt;"
+  },
+  {
+    "key": "output|and_lightly_scratches_at_your_scalp_while_you_re_busy_mounting|0aa02c8f19d7",
+    "original": " and lightly scratches at your scalp while you’re busy mounting an oral expedition into the tight little crevice between her legs. Her affectionate attentions send a little shiver ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02977179&gt;&gt;"
+  },
+  {
+    "key": "output|throughout_your_gooey_body|451f02e94223",
+    "original": "throughout your gooey body",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02977381&gt;&gt;"
+  },
+  {
+    "key": "output|up_your_spine|62a6bcbd3997",
+    "original": "up your spine",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02977418&gt;&gt;"
+  },
+  {
+    "key": "output|that_s_entirely_separate_from_the_excitement_you_feel_from_eati|f0e258783e57",
+    "original": " that’s entirely separate from the excitement you feel from eating her out. You absently wiggle your [pc.hips] just a little at the tactile praise",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02977442&gt;&gt;"
+  },
+  {
+    "key": "output|pc_eachTail_adding_its_own_motion_to_that_of_your_pc_ass|f438925a9ba6",
+    "original": ", [pc.eachTail] adding its own motion to that of your [pc.ass]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02977615&gt;&gt;"
+  },
+  {
+    "key": "output|into_your_pc_lowerGarment|e3056fefcea3",
+    "original": "into your [pc.lowerGarment] ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02978176&gt;&gt;"
+  },
+  {
+    "key": "output|to|de5cb1d9962a",
+    "original": "to ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02978215&gt;&gt;"
+  },
+  {
+    "key": "output|grasp_at_your_pc_cockBiggest|f4f762aab2e1",
+    "original": "grasp at your [pc.cockBiggest]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02978242&gt;&gt;"
+  },
+  {
+    "key": "output|push_a_couple_fingers_into_your_pc_vagOrAss|2a24cd750f6d",
+    "original": "push a couple fingers into your [pc.vagOrAss]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02978283&gt;&gt;"
+  },
+  {
+    "key": "output|absolutely_desperate_for_your_own_stimulation_Nehzara_howeve|2d52155b505b",
+    "original": ", absolutely desperate for your own stimulation. Nehzara, however, has now settled down and is thoroughly pretending you aren’t even there. For your part, the cold treatment has you even more aroused than before, and you ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02978339&gt;&gt;"
+  },
+  {
+    "key": "output|begin_to_furiously_pump_at_your_shaft|da392d41572c",
+    "original": "begin to furiously pump at your shaft",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02978584&gt;&gt;"
+  },
+  {
+    "key": "output|jab_your_fingers_deeper_into_yourself_spreading_and_bending_the|cc0af7890c06",
+    "original": "jab your fingers deeper into yourself, spreading and bending them madly",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02978632&gt;&gt;"
+  },
+  {
+    "key": "output|to_get_yourself_off|02a704e9c2a7",
+    "original": " to get yourself off.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02978714&gt;&gt;"
+  },
+  {
+    "key": "output|pc_cockBiggest|18b29a8041b7",
+    "original": "[pc.cockBiggest]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02979410&gt;&gt;"
+  },
+  {
+    "key": "output|pc_vagOrAss|9c7c6038f3a1",
+    "original": "[pc.vagOrAss]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02979437&gt;&gt;"
+  },
+  {
+    "key": "output|aches_for_more_stimulation_Damn_it_You_consider_leaving_her_w|4d1d46a1d5f6",
+    "original": " aches for more stimulation. Damn it. You consider leaving her with a similar sense of unfulfilled desire, but the thought vanishes from your mind when you hear someone open the door and step into Nehzara’s office.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02979461&gt;&gt;"
+  },
+  {
+    "key": "output|slurp_up_as_much_as_possible_and_add_it_to_your_goopy_mass|aba99f759316",
+    "original": "slurp up as much as possible and add it to your goopy mass",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02981875&gt;&gt;"
+  },
+  {
+    "key": "output|lap_up_as_much_as_possible_with_your_pc_tongue|f930d940175e",
+    "original": "lap up as much as possible with your [pc.tongue]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02981944&gt;&gt;"
+  },
+  {
+    "key": "output|mindful_of_her_earlier_statement_about_making_a_mess|46d99688ddca",
+    "original": ", mindful of her earlier statement about making a mess.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02982003&gt;&gt;"
+  },
+  {
+    "key": "output|running_through_your_pc_hair_and|af0aa25f3c09",
+    "original": " running through your [pc.hair] and",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02982633&gt;&gt;"
+  },
+  {
+    "key": "output|playing_softly_with_one_pc_ear_The_expression_on_her_face_ha|0ebbffacd010",
+    "original": " playing softly with one [pc.ear]. The expression on her face has her looking for all the world as if she can see right through you at the moment. You can’t help but blush a little, and not just at the praise. Somehow, you don’t think she’ll be any nicer to you in the future, but you’re also not sure if you even want her to be. Now that you’ve seen what she’s like when her guard is down, you’re sure you can handle her even at her worst.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02982679&gt;&gt;"
+  },
+  {
+    "key": "button|Next|65d6b9c0da18",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:02983691&gt;&gt; addButton(0,\"Next\",mainGameMenu)"
+  },
+  {
+    "key": "output|Nehzara_seems_to_have_expected_the_proposal_to_take_you_aback_b|29d638844ed0",
+    "original": "Nehzara seems to have expected the proposal to take you aback, but she’s certainly not the first alien to proposition you. Still, you suppose it <i>is</i> a little odd coming from someone so... strict. Even now that she’s asked something so lewd of you, she’s straight-backed and composed, regarding you calmly and coolly and patiently awaiting a reply.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02983817&gt;&gt;"
+  },
+  {
+    "key": "output|i_Why_not_i_you_reply_with_a_wink_i_I_m_running_a_sale|717c02cd0f0c",
+    "original": "<i>“Why not?”</i> you reply with a wink. <i>“I’m running a sale on [pc.cumNoun] today, anyways.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02984381&gt;&gt;"
+  },
+  {
+    "key": "output|Heh_Why_not_i_All_right_i_you_reply_in_a_sultry_lustful|5a58f26fd87a",
+    "original": "Heh. Why not? <i>“All right,”</i> you reply in a sultry, lustful tone, <i>“but only because you could use that stick pulled out of your ass.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02984492&gt;&gt;"
+  },
+  {
+    "key": "output|You|48b35e1f05c5#1",
+    "original": "You ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02984650&gt;&gt;"
+  },
+  {
+    "key": "output|take_a_step|55e7ef08fa50",
+    "original": "take a step",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02984679&gt;&gt;"
+  },
+  {
+    "key": "output|slide_yourself|5018437bd863",
+    "original": "slide yourself",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02984701&gt;&gt;"
+  },
+  {
+    "key": "output|forward_to_stand_just_before_Nehzara_s_desk_i_Someone_looks|f3f67b549273",
+    "original": " forward to stand just before Nehzara’s desk. <i>“Someone looks stressed,”</i> you begin, looking her in the eye. ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02984726&gt;&gt;"
+  },
+  {
+    "key": "output|i_Perhaps_there_s_something_I_could_do_to_help_i|117ae70b8a4c#1",
+    "original": "<i>“Perhaps there’s something I could do to help?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02984863&gt;&gt;"
+  },
+  {
+    "key": "output|i_I_ve_got_the_cure_for_that_care_to_guess_what_it_is_i|882d6639dc13#1",
+    "original": "<i>“I’ve got the cure for that; care to guess what it is?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02984947&gt;&gt;"
+  },
+  {
+    "key": "output|i_If_I_take_care_of_it_think_you_could_be_a_i_little_i_war|b3005bb98ea7#1",
+    "original": "<i>“If I take care of it, think you could be a </i>little<i> warmer after?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02985020&gt;&gt;"
+  },
+  {
+    "key": "output|A_smile_crosses_your_pc_face_when_you_finish_speaking_and_th|65785f85501b",
+    "original": " A smile crosses your [pc.face] when you finish speaking, and the myr colonel returns the expression with an understated smirk of her own.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02985110&gt;&gt;"
+  },
+  {
+    "key": "output|Your_firm_pc_cocksLight|214d5c532f8b",
+    "original": " Your firm [pc.cocksLight] ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02986835&gt;&gt;"
+  },
+  {
+    "key": "output|is|ac74fd560677",
+    "original": "is",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02986892&gt;&gt;"
+  },
+  {
+    "key": "output|are|c663ab43bf85",
+    "original": "are",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02986905&gt;&gt;"
+  },
+  {
+    "key": "output|standing_at_full_attention_for_everyone_to_see_and_you_catch_m|e06fe7a96af3",
+    "original": " standing at full attention for everyone to see, and you catch more than one concerned or incredulous glance from Red Myr soldiers as you and Nehzara pass by them. She looks quite unconcerned, though, which seems a little at odds with how much trouble she’s going through to find a private place for fucking.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02986919&gt;&gt;"
+  },
+  {
+    "key": "output|even_though_you_d_been_expecting_it|77faa09e1d62",
+    "original": " even though you’d been expecting it",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02987872&gt;&gt;"
+  },
+  {
+    "key": "output|Her_surprisingly_strong_hands_feel_their_way_down_your_sides|2f87d1c7e05d",
+    "original": ". Her surprisingly strong hands feel their way down your sides, her fingers running over your [pc.hips] to give your [pc.butt] a firm squeeze. The myr woman’s tongue forces its way past your lips, wrestling your own [pc.tongue] and pinning it down with a hold as forceful as the one pushing you up against the wall. Your entire mouth tingles oddly, and you begin to feel unbearably warm and lightheaded. You briefly recall something about Reds having a potent aphrodisiac venom in their saliva, but the thought is quickly buried under need as Nehzara’s tongue continues to violate your mouth. Several seconds of this pass before she pulls away, reluctantly letting you go so she can concentrate on making preparations for the main event.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02987919&gt;&gt;"
+  },
+  {
+    "key": "output|her_fingers|ea9e62e81d03",
+    "original": ", her fingers ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02989702&gt;&gt;"
+  },
+  {
+    "key": "output|weaving_their_way_into_your_pc_hair_and_affording_her_a_better|2be5effab5ef",
+    "original": "weaving their way into your [pc.hair] and affording her a better grip on you",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02989740&gt;&gt;"
+  },
+  {
+    "key": "output|burying_themselves_in_the_gooey_substance|bc964b99fdc4",
+    "original": "burying themselves in the gooey substance",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02989827&gt;&gt;"
+  },
+  {
+    "key": "output|You_just_manage_to_gasp_before_your_pc_face_is_forced_into_h|c40be4e72d3a",
+    "original": ". You just manage to gasp before your [pc.face] is forced into her newly freed bust. You’re momentarily overcome with her aroma: the mix of pheromones and some sort of Myrellion perfume gives off such a fiercely feminine fragrance that you can’t help but push forward and bury yourself in her cleavage. The olfactory stimulation only adds to the effect her aphrodisiac saliva is working on your body, and you can’t stop yourself from moaning out of pure desire.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02989880&gt;&gt;"
+  },
+  {
+    "key": "output|running_them_along_the_surface_tension_of_your_gelatinous_form|5f8ef4759a2d",
+    "original": ", running them along the surface tension of your gelatinous form and gradually applying more force until the tips of her fingers are inside you",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02990470&gt;&gt;"
+  },
+  {
+    "key": "output|The_sensation_of_her_slender_nails_just_barely_sharp_enough_t|c4ff3c3d01cb",
+    "original": ". The sensation of her slender nails, just barely sharp enough to be felt, ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02990624&gt;&gt;"
+  },
+  {
+    "key": "output|working_their_way_into_your_pc_skinFurScales|33365311744e",
+    "original": "working their way into your [pc.skinFurScales]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02990733&gt;&gt;"
+  },
+  {
+    "key": "output|brushing_through_your_pc_skinFurScales|bfe53fc22c0b",
+    "original": "brushing through your [pc.skinFurScales]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02990790&gt;&gt;"
+  },
+  {
+    "key": "output|running_along_your_pc_skinFurScales|d55fb5a2e5f7",
+    "original": "running along your [pc.skinFurScales]",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02990841&gt;&gt;"
+  },
+  {
+    "key": "output|sends_an_electric_tingle_through_your_entire_body_What_s_even|6cb7e83b8074",
+    "original": " sends an electric tingle through your entire body. What’s even better is that she seems to be enjoying this as much as you are: you can hear her heart racing and feel her body heat climbing in intensity as she holds you in place.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02990889&gt;&gt;"
+  },
+  {
+    "key": "output|Her_eyebrows_rise_a_little_i_Though_I_wonder_if_your_species|f7b631900695",
+    "original": "Her eyebrows rise a little. <i>“Though I wonder if your species substitutes size with passion.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02991827&gt;&gt;"
+  },
+  {
+    "key": "output|She_nods_approvingly_i_And_I_look_forward_to_feeling_that_ful|fad7029782e3",
+    "original": "She nods approvingly. <i>“And I look forward to feeling that fullness inside me again.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02991964&gt;&gt;"
+  },
+  {
+    "key": "output|She_licks_her_lips_as_she_appraises_your_package_i_Can_t_say|98801fff8e8b",
+    "original": "She licks her lips as she appraises your package. <i>“Can’t say the drone was that big, though. I look forward to seeing if you know how to use all of it.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02992094&gt;&gt;"
+  },
+  {
+    "key": "output|She_seems_to_think_something_over_for_a_moment_and_then_shakes|954875f57b3d",
+    "original": "She seems to think something over for a moment, and then shakes her head. <i>“There’s no way I can even take that much... women of your species must be very impressive, indeed.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02992265&gt;&gt;"
+  },
+  {
+    "key": "output|It_s_a_good_thing_you_ve_got_another_one_better_suited_for_me|a29bf501bde9",
+    "original": " It’s a good thing you’ve got another one better-suited for me, though.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02992476&gt;&gt;"
+  },
+  {
+    "key": "output|I_think_I_know_a_way_to_make_it_work_though|89f94e00e2ee",
+    "original": "I think I know a way to make it work, though.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02992558&gt;&gt;"
+  },
+  {
+    "key": "output|i|73a82914f983",
+    "original": "”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02992614&gt;&gt;"
+  },
+  {
+    "key": "button|Next|d33112445941",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:02992710&gt;&gt; addButton(0,\"Next\",(function(){clearOutput(),t(!0);var e=pc.cockThatFits(800);e&lt;0&&(e=pc.smallestCockIndex());pc.cockThatFits(800)&gt;=0?(output(\"Nehzara’s hand grips your [pc.cock \"+e+\"], and squeezes it tightly before giving a low coo of appreciation when it jumps up at her touch. She gives your shaf..."
+  },
+  {
+    "key": "output|i_Hmmm_i_Nehzara_murmurs_to_herself_She_s_still_basking_i|22c4fb8be097",
+    "original": "<i>“Hmmm,”</i> Nehzara murmurs to herself. She’s still basking in blissful post-sex afterglow, watching you through half-closed eyes while you struggle to work through the effects her venom-laced kisses had on you. The lust has worn off, but you’re still groggy and a little unsteady. You’re sure that was far more than the recommended dose. You make a mental note to remember this for the next time you face the possibility of making out with a Red Myr.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03005586&gt;&gt;"
+  },
+  {
+    "key": "button|Next|f8bd660b7de4",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:03007309&gt;&gt; addButton(0,\"Next\",mainGameMenu)"
+  },
+  {
+    "key": "output|You_shake_your_head_and|dc26f5412161",
+    "original": "You shake your head and ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03007368&gt;&gt;"
+  },
+  {
+    "key": "output|give_a_polite_refusal|3a4b7ee3d3a5",
+    "original": "give a polite refusal",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03007415&gt;&gt;"
+  },
+  {
+    "key": "output|tell_her_you_ve_got_a_migraine|111cce16ff73",
+    "original": "tell her you’ve got a migraine",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03007466&gt;&gt;"
+  },
+  {
+    "key": "output|scoff_amused_at_such_a_request_coming_from_a_professional_offic|252fe8eac4d8",
+    "original": "scoff, amused at such a request coming from a professional officer in her position",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03007507&gt;&gt;"
+  },
+  {
+    "key": "output|You_speak_up_just_as_she_s_about_to_sigh_and_respond_telling|65bed9ecf6fa",
+    "original": ". You speak up just as she’s about to sigh and respond, telling her that you’re not just a passing traveler: you have quite a bit to offer her and her people if she could work with you this once.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03007600&gt;&gt;"
+  },
+  {
+    "key": "button|Her_People|bedd68c1f82b",
+    "original": "Her People",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03009422&gt;&gt; addDisabledButton(0,\"Her People\",\"Her People\",\"You just discussed this.\")"
+  },
+  {
+    "key": "button|Blood_Sample|5a792dc350ca",
+    "original": "Blood Sample",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03011777&gt;&gt; addButton(10,\"Blood Sample\",(function(){clearOutput(),t(),output(\"After a moment of thinking over precisely how to breach the subject, you\"),pc.isNice()?output(\" carefully\"):pc.isMischievous()?output(\" archly\"):output(\" curtly\");output(\" mention to Nehzara that you happen to be in need of a red myr ..."
+  },
+  {
+    "key": "button.hover|Sit_Screw|e1eccde964d2",
+    "original": "Sit & Screw",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02911762&gt;&gt; addButton(0,\"Sit‘n’Screw\",qn,\"Sit & Screw\",\"Have some fun screwing her... with her strap-on if you need one.\")"
+  },
+  {
+    "key": "button.tooltip|Have_some_fun_screwing_her_with_her_strap_on_if_you_need_one|c4413be17bb0",
+    "original": "Have some fun screwing her... with her strap-on if you need one.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02911776&gt;&gt; addButton(0,\"Sit‘n’Screw\",qn,\"Sit & Screw\",\"Have some fun screwing her... with her strap-on if you need one.\")"
+  },
+  {
+    "key": "button|Dildo_Screw|13fc3393a2e3",
+    "original": "Dildo Screw",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02911856&gt;&gt; addButton(0,\"Dildo Screw\",Dn,\"Dildo Screw\",\"Play with her and her dildo.\")"
+  },
+  {
+    "key": "button.hover|Dildo_Screw|13fc3393a2e3",
+    "original": "Dildo Screw",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02911873&gt;&gt; addButton(0,\"Dildo Screw\",Dn,\"Dildo Screw\",\"Play with her and her dildo.\")"
+  },
+  {
+    "key": "button.tooltip|Play_with_her_and_her_dildo|4932fff0b629",
+    "original": "Play with her and her dildo.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02911887&gt;&gt; addButton(0,\"Dildo Screw\",Dn,\"Dildo Screw\",\"Play with her and her dildo.\")"
+  },
+  {
+    "key": "button|Doggy_Style|18ea88749740",
+    "original": "Doggy Style",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02911990&gt;&gt; addButton(1,\"Doggy Style\",(function(){return _n(e)}),\"Doggy Style\",\"Do her doggy style!\")"
+  },
+  {
+    "key": "button.hover|Doggy_Style|18ea88749740",
+    "original": "Doggy Style",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912031&gt;&gt; addButton(1,\"Doggy Style\",(function(){return _n(e)}),\"Doggy Style\",\"Do her doggy style!\")"
+  },
+  {
+    "key": "button.tooltip|Do_her_doggy_style|51c94b4ccfe1",
+    "original": "Do her doggy style!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912045&gt;&gt; addButton(1,\"Doggy Style\",(function(){return _n(e)}),\"Doggy Style\",\"Do her doggy style!\")"
+  },
+  {
+    "key": "button|Doggy_Style|aabaa125b49b",
+    "original": "Doggy Style",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912101&gt;&gt; addDisabledButton(1,\"Doggy Style\",\"Doggy Style\",\"You need a penis that will fit inside her for this scene.\")"
+  },
+  {
+    "key": "button.hover|You_need_a_penis_that_will_fit_inside_her_for_this_scene|7eebb134ec3f",
+    "original": "You need a penis that will fit inside her for this scene.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912129&gt;&gt; addDisabledButton(1,\"Doggy Style\",\"Doggy Style\",\"You need a penis that will fit inside her for this scene.\")"
+  },
+  {
+    "key": "button|Doggy_Style|a84314bf171a",
+    "original": "Doggy Style",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912210&gt;&gt; addDisabledButton(1,\"Doggy Style\",\"Doggy Style\",\"You can’t do her doggie style without a dick of your own.\")"
+  },
+  {
+    "key": "button.hover|You_can_t_do_her_doggie_style_without_a_dick_of_your_own|b6f93615daf2",
+    "original": "You can’t do her doggie style without a dick of your own.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912238&gt;&gt; addDisabledButton(1,\"Doggy Style\",\"Doggy Style\",\"You can’t do her doggie style without a dick of your own.\")"
+  },
+  {
+    "key": "button|Cum_Splurge|611526ad9d2f",
+    "original": "Cum Splurge",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912322&gt;&gt; addDisabledButton(3,\"Cum Splurge\",\"Cum Splurge\",\"This scene is exclusive to red myr deserters.\")"
+  },
+  {
+    "key": "button.hover|This_scene_is_exclusive_to_red_myr_deserters|55760e288dd7",
+    "original": "This scene is exclusive to red myr deserters.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912350&gt;&gt; addDisabledButton(3,\"Cum Splurge\",\"Cum Splurge\",\"This scene is exclusive to red myr deserters.\")"
+  },
+  {
+    "key": "button|Anal_Sex|4ee22cc99362",
+    "original": "Anal Sex",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912419&gt;&gt; addDisabledButton(2,\"Anal Sex\",\"Anal Sex\",\"This scene is only available for the red myr.\")"
+  },
+  {
+    "key": "button.hover|This_scene_is_only_available_for_the_red_myr|09649fe6d1c1",
+    "original": "This scene is only available for the red myr.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912441&gt;&gt; addDisabledButton(2,\"Anal Sex\",\"Anal Sex\",\"This scene is only available for the red myr.\")"
+  },
+  {
+    "key": "button|Cum_Splurge|4c9e3ea8928f",
+    "original": "Cum Splurge",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912517&gt;&gt; addButton(3,\"Cum Splurge\",Rn,\"Cum Splurge\",\"Have the red myr give you a BJ. All that venom should make it interesting...\")"
+  },
+  {
+    "key": "button.hover|Cum_Splurge|4c9e3ea8928f",
+    "original": "Cum Splurge",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912534&gt;&gt; addButton(3,\"Cum Splurge\",Rn,\"Cum Splurge\",\"Have the red myr give you a BJ. All that venom should make it interesting...\")"
+  },
+  {
+    "key": "button.tooltip|Have_the_red_myr_give_you_a_BJ_All_that_venom_should_make_it_in|3f0def1fff0a",
+    "original": "Have the red myr give you a BJ. All that venom should make it interesting...",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912548&gt;&gt; addButton(3,\"Cum Splurge\",Rn,\"Cum Splurge\",\"Have the red myr give you a BJ. All that venom should make it interesting...\")"
+  },
+  {
+    "key": "button|Cum_Splurge|28f50930364a",
+    "original": "Cum Splurge",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912648&gt;&gt; addDisabledButton(3,\"Cum Splurge\",\"Cum Splurge\",\"You need a penis that fits inside her for this scene.\")"
+  },
+  {
+    "key": "button.hover|You_need_a_penis_that_fits_inside_her_for_this_scene|e09f43d7611a",
+    "original": "You need a penis that fits inside her for this scene.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912676&gt;&gt; addDisabledButton(3,\"Cum Splurge\",\"Cum Splurge\",\"You need a penis that fits inside her for this scene.\")"
+  },
+  {
+    "key": "button|Anal_Sex|f5e423fb8fb6",
+    "original": "Anal Sex",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912800&gt;&gt; addButton(2,\"Anal Sex\",Hn,\"Anal Sex\",\"Put it in her butt.\")"
+  },
+  {
+    "key": "button.hover|Anal_Sex|f5e423fb8fb6",
+    "original": "Anal Sex",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912814&gt;&gt; addButton(2,\"Anal Sex\",Hn,\"Anal Sex\",\"Put it in her butt.\")"
+  },
+  {
+    "key": "button.tooltip|Put_it_in_her_butt|f22ae0d7dc94",
+    "original": "Put it in her butt.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912825&gt;&gt; addButton(2,\"Anal Sex\",Hn,\"Anal Sex\",\"Put it in her butt.\")"
+  },
+  {
+    "key": "button|Anal_Sex|b429e5ad4d12",
+    "original": "Anal Sex",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912868&gt;&gt; addDisabledButton(2,\"Anal Sex\",\"Anal Sex\",\"You need a penis that will fit inside her for this scene.\")"
+  },
+  {
+    "key": "button.hover|You_need_a_penis_that_will_fit_inside_her_for_this_scene|7e47b16bb6f2",
+    "original": "You need a penis that will fit inside her for this scene.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912890&gt;&gt; addDisabledButton(2,\"Anal Sex\",\"Anal Sex\",\"You need a penis that will fit inside her for this scene.\")"
+  },
+  {
+    "key": "button|Compare_Toys|023a519a9712",
+    "original": "Compare Toys",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02912989&gt;&gt; addButton(4,\"Compare Toys\",Kn,\"Compare Toys\",\"Show off your high-tech hardlight for the ant-girl\"+(void 0!==flags.RED_MYR_DESERT_DILDO_DONE?\" and see how it stacks up to what she’s used to\":\"\")+\".\")"
+  },
+  {
+    "key": "button.hover|Compare_Toys|023a519a9712",
+    "original": "Compare Toys",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02913007&gt;&gt; addButton(4,\"Compare Toys\",Kn,\"Compare Toys\",\"Show off your high-tech hardlight for the ant-girl\"+(void 0!==flags.RED_MYR_DESERT_DILDO_DONE?\" and see how it stacks up to what she’s used to\":\"\")+\".\")"
+  },
+  {
+    "key": "button.tooltip|Show_off_your_high_tech_hardlight_for_the_ant_girl|e5b0b322b939",
+    "original": "Show off your high-tech hardlight for the ant-girl",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02913022&gt;&gt; addButton(4,\"Compare Toys\",Kn,\"Compare Toys\",\"Show off your high-tech hardlight for the ant-girl\"+(void 0!==flags.RED_MYR_DESERT_DILDO_DONE?\" and see how it stacks up to what she’s used to\":\"\")+\".\")"
+  },
+  {
+    "key": "button|Compare_Toys|d20481048249",
+    "original": "Compare Toys",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02913196&gt;&gt; addDisabledButton(4,\"Compare Toys\",\"Compare Toys\",\"You need hardlight-enabled underwear for this.\")"
+  },
+  {
+    "key": "button.hover|You_need_hardlight_enabled_underwear_for_this|751fa6fc5d5d",
+    "original": "You need hardlight-enabled underwear for this.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02913226&gt;&gt; addDisabledButton(4,\"Compare Toys\",\"Compare Toys\",\"You need hardlight-enabled underwear for this.\")"
+  },
+  {
+    "key": "button|Hand_Play|1f47f23d5c3e",
+    "original": "Hand-Play",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02913313&gt;&gt; addDisabledButton(4,\"Hand-Play\",\"Hand-Play\",\"Tauric creatures cannot enjoy this scene.\")"
+  },
+  {
+    "key": "button.hover|Tauric_creatures_cannot_enjoy_this_scene|a47c5e6a7198",
+    "original": "Tauric creatures cannot enjoy this scene.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02913337&gt;&gt; addDisabledButton(4,\"Hand-Play\",\"Hand-Play\",\"Tauric creatures cannot enjoy this scene.\")"
+  },
+  {
+    "key": "button|Hand_Play|2298e8981eaf",
+    "original": "Hand-Play",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02913394&gt;&gt; addButton(4,\"Hand-Play\",Cn,\"Hand-Play\",\"She’s got four arms... put them to work.\")"
+  },
+  {
+    "key": "button.hover|Hand_Play|2298e8981eaf",
+    "original": "Hand-Play",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02913409&gt;&gt; addButton(4,\"Hand-Play\",Cn,\"Hand-Play\",\"She’s got four arms... put them to work.\")"
+  },
+  {
+    "key": "button.tooltip|She_s_got_four_arms_put_them_to_work|9bdd6473f594",
+    "original": "She’s got four arms... put them to work.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02913421&gt;&gt; addButton(4,\"Hand-Play\",Cn,\"Hand-Play\",\"She’s got four arms... put them to work.\")"
+  },
+  {
+    "key": "button|Steal_Dildo|46c892f43ec2",
+    "original": "Steal Dildo",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02913764&gt;&gt; addButton(5,\"Steal Dildo\",(function(){return Gn(e)}),\"Steal Dildo\",t)"
+  },
+  {
+    "key": "button.hover|Steal_Dildo|46c892f43ec2",
+    "original": "Steal Dildo",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02913805&gt;&gt; addButton(5,\"Steal Dildo\",(function(){return Gn(e)}),\"Steal Dildo\",t)"
+  },
+  {
+    "key": "button.hover|You_don_t_even_know_if_she_has_one|afda49b5333e",
+    "original": "You don’t even know if she has one!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02913870&gt;&gt; addDisabledButton(5,\"Steal Dildo\",\"Steal Dildo\",\"You don’t even know if she has one!\")"
+  },
+  {
+    "key": "button|Leave|aaaeccc50196",
+    "original": "Leave",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02913922&gt;&gt; addButton(14,\"Leave\",a)"
+  },
+  {
+    "key": "button.hover|You_re_not_going_to_smack_around_a_pregnant_girl|fdba525b15be",
+    "original": "You’re not going to smack around a pregnant girl!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02921988&gt;&gt; addDisabledButton(2,\"Fight\",\"Fight\",\"You’re not going to smack around a pregnant girl!\")"
+  },
+  {
+    "key": "button|Fight|8e0b74da5578",
+    "original": "Fight",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02922053&gt;&gt; addButton(2,\"Fight\",n)"
+  },
+  {
+    "key": "button.hover|Give_Dildo|56ac5e3939bf",
+    "original": "Give Dildo",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02922142&gt;&gt; addButton(3,\"Give Dildo\",o,\"Give Dildo\",\"Return your looted prize.\")"
+  },
+  {
+    "key": "button.tooltip|Return_your_looted_prize|3d02fb7b94e8",
+    "original": "Return your looted prize.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02922155&gt;&gt; addButton(3,\"Give Dildo\",o,\"Give Dildo\",\"Return your looted prize.\")"
+  },
+  {
+    "key": "button|Give_Dildo|db2a191e66cf",
+    "original": "Give Dildo",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02922204&gt;&gt; addDisabledButton(3,\"Give Dildo\",\"You don’t have a dildo to give back.\")"
+  },
+  {
+    "key": "button.hover|Give_Flower|db3c7a14b9a9",
+    "original": "Give Flower",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02922351&gt;&gt; addButton(4,\"Give Flower\",Vn,\"Give Flower\",\"Present Lys with the exotic flower you found on Mhen’ga and see if it’ll cheer the poor girl up.\")"
+  },
+  {
+    "key": "button.tooltip|Present_Lys_with_the_exotic_flower_you_found_on_Mhen_ga_and_see|698dea7da496",
+    "original": "Present Lys with the exotic flower you found on Mhen’ga and see if it’ll cheer the poor girl up.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02922365&gt;&gt; addButton(4,\"Give Flower\",Vn,\"Give Flower\",\"Present Lys with the exotic flower you found on Mhen’ga and see if it’ll cheer the poor girl up.\")"
+  },
+  {
+    "key": "button|Give_Flower|45163a3e8e90",
+    "original": "Give Flower",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02922518&gt;&gt; addDisabledButton(4,\"Give Flower\",\"Give Flower\",\"Lys would appreciate any flowers you find. You wonder where you could get one....\")"
+  },
+  {
+    "key": "button.hover|Lys_would_appreciate_any_flowers_you_find_You_wonder_where_you|e2fdea52f421",
+    "original": "Lys would appreciate any flowers you find. You wonder where you could get one....",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02922546&gt;&gt; addDisabledButton(4,\"Give Flower\",\"Give Flower\",\"Lys would appreciate any flowers you find. You wonder where you could get one....\")"
+  },
+  {
+    "key": "button|Locked|581a429cce4e",
+    "original": "Locked",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02922651&gt;&gt; addDisabledButton(4,\"Locked\",\"Locked\",\"You don’t know her well enough for this.\")"
+  },
+  {
+    "key": "button.hover|You_don_t_know_her_well_enough_for_this|c3e5533f7f36",
+    "original": "You don’t know her well enough for this.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02922669&gt;&gt; addDisabledButton(4,\"Locked\",\"Locked\",\"You don’t know her well enough for this.\")"
+  },
+  {
+    "key": "output|You_pass_the_dildo_back_to_its_proper_owner|0bd2d34e91dd",
+    "original": "You pass the dildo back to its proper owner.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02922777&gt;&gt;"
+  },
+  {
+    "key": "button.hover|Take|19486f9b7e8b",
+    "original": "Take",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02924969&gt;&gt; addButton(0,\"Take\",(function(){clearOutput(),output(blockHeader(\"Panties\")),author(\"ASpoopyGhost\"),output(\"You pocket Lys’s panties. Either the female soldier forgot, left them as a gift, or really doesn’t mind just walking around commando.\"),output(\"\\n\\n<b>You have obtained Lys’s panties!</b>\"),pc...."
+  },
+  {
+    "key": "button.tooltip|Pick_those_panties_up_and_keep_em_they_re_spoils_of_war|68f64edf42d5",
+    "original": "Pick those panties up and keep ‘em - they’re spoils of war!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02924976&gt;&gt; addButton(0,\"Take\",(function(){clearOutput(),output(blockHeader(\"Panties\")),author(\"ASpoopyGhost\"),output(\"You pocket Lys’s panties. Either the female soldier forgot, left them as a gift, or really doesn’t mind just walking around commando.\"),output(\"\\n\\n<b>You have obtained Lys’s panties!</b>\"),pc...."
+  },
+  {
+    "key": "button|Don_t|1b3843fcc759",
+    "original": "Don’t",
+    "translation": "不",
+    "stage": 1,
+    "context": "&lt;&lt;POS:02925051&gt;&gt; addButton(1,\"Don’t\",(function(){clearOutput(),output(blockHeader(\"Panties\")),author(\"ASpoopyGhost\"),output(\"You leave Lys’s panties alone, deciding not to take them.\"),clearMenu(),addButton(0,\"Next\",mainGameMenu)}),\"Don’t\",\"Leave them where they are. Gross.\")"
+  },
+  {
+    "key": "button.hover|Don_t|1b3843fcc759",
+    "original": "Don’t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02925254&gt;&gt; addButton(1,\"Don’t\",(function(){clearOutput(),output(blockHeader(\"Panties\")),author(\"ASpoopyGhost\"),output(\"You leave Lys’s panties alone, deciding not to take them.\"),clearMenu(),addButton(0,\"Next\",mainGameMenu)}),\"Don’t\",\"Leave them where they are. Gross.\")"
+  },
+  {
+    "key": "button.tooltip|Leave_them_where_they_are_Gross|65fc7786eb97",
+    "original": "Leave them where they are. Gross.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02925262&gt;&gt; addButton(1,\"Don’t\",(function(){clearOutput(),output(blockHeader(\"Panties\")),author(\"ASpoopyGhost\"),output(\"You leave Lys’s panties alone, deciding not to take them.\"),clearMenu(),addButton(0,\"Next\",mainGameMenu)}),\"Don’t\",\"Leave them where they are. Gross.\")"
+  },
+  {
+    "key": "button.hover|Take|82cba73e3d68",
+    "original": "Take",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02926164&gt;&gt; addButton(0,\"Take\",(function(){clearOutput(),output(blockHeader(\"Panties\")),author(\"ASpoopyGhost\"),output(\"You pocket Briha’s panties. Either the female soldier forgot, left them as a gift, or really doesn’t mind just walking around commando.\"),output(\"\\n\\n<b>You have obtained Briha’s panties!</b>\")..."
+  },
+  {
+    "key": "button.tooltip|Pick_those_panties_up_and_keep_em_they_re_spoils_of_war|37e1b2693d3d",
+    "original": "Pick those panties up and keep ‘em - they’re spoils of war!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02926171&gt;&gt; addButton(0,\"Take\",(function(){clearOutput(),output(blockHeader(\"Panties\")),author(\"ASpoopyGhost\"),output(\"You pocket Briha’s panties. Either the female soldier forgot, left them as a gift, or really doesn’t mind just walking around commando.\"),output(\"\\n\\n<b>You have obtained Briha’s panties!</b>\")..."
+  },
+  {
+    "key": "button|Don_t|1b3843fcc759#1",
+    "original": "Don’t",
+    "translation": "不",
+    "stage": 1,
+    "context": "&lt;&lt;POS:02926246&gt;&gt; addButton(1,\"Don’t\",(function(){clearOutput(),output(blockHeader(\"Panties\")),author(\"ASpoopyGhost\"),output(\"You leave Briha’s panties alone, deciding not to take them.\"),clearMenu(),addButton(0,\"Next\",mainGameMenu)}),\"Don’t\",\"Leave them where they are. Gross.\")"
+  },
+  {
+    "key": "button.hover|Don_t|1b3843fcc759#1",
+    "original": "Don’t",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02926451&gt;&gt; addButton(1,\"Don’t\",(function(){clearOutput(),output(blockHeader(\"Panties\")),author(\"ASpoopyGhost\"),output(\"You leave Briha’s panties alone, deciding not to take them.\"),clearMenu(),addButton(0,\"Next\",mainGameMenu)}),\"Don’t\",\"Leave them where they are. Gross.\")"
+  },
+  {
+    "key": "button.tooltip|Leave_them_where_they_are_Gross|65fc7786eb97#1",
+    "original": "Leave them where they are. Gross.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02926459&gt;&gt; addButton(1,\"Don’t\",(function(){clearOutput(),output(blockHeader(\"Panties\")),author(\"ASpoopyGhost\"),output(\"You leave Briha’s panties alone, deciding not to take them.\"),clearMenu(),addButton(0,\"Next\",mainGameMenu)}),\"Don’t\",\"Leave them where they are. Gross.\")"
+  },
+  {
+    "key": "button.hover|Nehzara_Lt|316a7e23416a",
+    "original": "Nehzara & Lt.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02938445&gt;&gt; addButton(0,\"Nehzara & Lt.\",n,\"Nehzara & Lt.\",\"Go see what’s up.\")"
+  },
+  {
+    "key": "button.tooltip|Go_see_what_s_up|1bcbf99527a9",
+    "original": "Go see what’s up.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02938461&gt;&gt; addButton(0,\"Nehzara & Lt.\",n,\"Nehzara & Lt.\",\"Go see what’s up.\")"
+  },
+  {
+    "key": "output|You_concat_pc_isNaga_pc_isGoo_slide_step_into_the_c|42a15999b6ee",
+    "original": "You \".concat(pc.isNaga()||pc.isGoo()?\"slide\":\"step\",\" into the cluttered warehouse which hosts much of the Scarlet Federation’s embassy staff, taking in the sight of all the ant-like workers hustling about while their soldier sisters look on with boredom.\")",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02938497&gt;&gt;"
+  },
+  {
+    "key": "button.hover|Under_Desk|777c6f05d9aa",
+    "original": "Under Desk",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02971434&gt;&gt; addButton(0,\"Under Desk\",(function(){return l(!0)}),\"Under Desk\",\"It’d be more than a little humiliating to be hidden under a desk and used like some stress-relief toy, but there’s a saying about scratching backs....\")"
+  },
+  {
+    "key": "button.tooltip|It_d_be_more_than_a_little_humiliating_to_be_hidden_under_a_desk|70befdb6ed36",
+    "original": "It’d be more than a little humiliating to be hidden under a desk and used like some stress-relief toy, but there’s a saying about scratching backs....",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02971447&gt;&gt; addButton(0,\"Under Desk\",(function(){return l(!0)}),\"Under Desk\",\"It’d be more than a little humiliating to be hidden under a desk and used like some stress-relief toy, but there’s a saying about scratching backs....\")"
+  },
+  {
+    "key": "button|Storage_Closet|2a74e898646f",
+    "original": "Storage Closet",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02971613&gt;&gt; addButton(0,\"Storage Closet\",(function(){return d(!0)}),\"Storage Closet\",\"You’ve got what she wants, but you know she’ll want to call the shots. Still, going along with Nehzara and letting her use you for her own pleasure could be fun for both of you.\")"
+  },
+  {
+    "key": "button.hover|Storage_Closet|2a74e898646f",
+    "original": "Storage Closet",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02971657&gt;&gt; addButton(0,\"Storage Closet\",(function(){return d(!0)}),\"Storage Closet\",\"You’ve got what she wants, but you know she’ll want to call the shots. Still, going along with Nehzara and letting her use you for her own pleasure could be fun for both of you.\")"
+  },
+  {
+    "key": "button.tooltip|You_ve_got_what_she_wants_but_you_know_she_ll_want_to_call_the|4133f9f82902",
+    "original": "You’ve got what she wants, but you know she’ll want to call the shots. Still, going along with Nehzara and letting her use you for her own pleasure could be fun for both of you.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02971674&gt;&gt; addButton(0,\"Storage Closet\",(function(){return d(!0)}),\"Storage Closet\",\"You’ve got what she wants, but you know she’ll want to call the shots. Still, going along with Nehzara and letting her use you for her own pleasure could be fun for both of you.\")"
+  },
+  {
+    "key": "button|Refuse|67096f4f77b2",
+    "original": "Refuse",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02971867&gt;&gt; addButton(1,\"Refuse\",p,\"Refuse\",\"Tell her that you’d rather not, and that you have other things to offer her.\")"
+  },
+  {
+    "key": "button.hover|Refuse|67096f4f77b2",
+    "original": "Refuse",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02971878&gt;&gt; addButton(1,\"Refuse\",p,\"Refuse\",\"Tell her that you’d rather not, and that you have other things to offer her.\")"
+  },
+  {
+    "key": "button.tooltip|Tell_her_that_you_d_rather_not_and_that_you_have_other_things_t|7b7cb355711e",
+    "original": "Tell her that you’d rather not, and that you have other things to offer her.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02971887&gt;&gt; addButton(1,\"Refuse\",p,\"Refuse\",\"Tell her that you’d rather not, and that you have other things to offer her.\")"
+  },
+  {
+    "key": "output|Nehzara_seems_to_have_expected_the_proposal_to_take_you_aback_b|200f6db8215e",
+    "original": "Nehzara seems to have expected the proposal to take you aback, but she’s certainly not the first alien to proposition you. Still, you suppose it <i>is</i> a little odd coming from someone so... strict. Even now that she’s asked something so lewd of you, she’s straight-backed and composed, regarding you calmly and coolly and patiently awaiting a reply.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02972072&gt;&gt;"
+  },
+  {
+    "key": "button.hover|You_just_discussed_this|0b80926ad7ac",
+    "original": "You just discussed this.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03009448&gt;&gt; addDisabledButton(0,\"Her People\",\"Her People\",\"You just discussed this.\")"
+  },
+  {
+    "key": "button|Her_People|244cbd5263c5",
+    "original": "Her People",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03009488&gt;&gt; addButton(0,\"Her People\",a,\"Her People\",\"It might be interesting to find out a little more about the Reds from their point of view.\")"
+  },
+  {
+    "key": "button.hover|Her_People|244cbd5263c5",
+    "original": "Her People",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03009503&gt;&gt; addButton(0,\"Her People\",a,\"Her People\",\"It might be interesting to find out a little more about the Reds from their point of view.\")"
+  },
+  {
+    "key": "button.tooltip|It_might_be_interesting_to_find_out_a_little_more_about_the_Reds|ae82c1fdf27c",
+    "original": "It might be interesting to find out a little more about the Reds from their point of view.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03009516&gt;&gt; addButton(0,\"Her People\",a,\"Her People\",\"It might be interesting to find out a little more about the Reds from their point of view.\")"
+  },
+  {
+    "key": "button|The_War|adbf54518f9e",
+    "original": "The War",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03009636&gt;&gt; addDisabledButton(1,\"The War\",\"The War\",\"You just finished talking about that. Maybe a new topic?\")"
+  },
+  {
+    "key": "button.hover|You_just_finished_talking_about_that_Maybe_a_new_topic|4258642b77dd",
+    "original": "You just finished talking about that. Maybe a new topic?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03009656&gt;&gt; addDisabledButton(1,\"The War\",\"The War\",\"You just finished talking about that. Maybe a new topic?\")"
+  },
+  {
+    "key": "button|The_War|56a6f7b4afbc",
+    "original": "The War",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03009728&gt;&gt; addButton(1,\"The War\",i,\"The War\",\"A little history lesson never hurt anyone. A little information on the war might help you while on this planet. Knowledge is power, right?\")"
+  },
+  {
+    "key": "button.hover|The_War|56a6f7b4afbc",
+    "original": "The War",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03009740&gt;&gt; addButton(1,\"The War\",i,\"The War\",\"A little history lesson never hurt anyone. A little information on the war might help you while on this planet. Knowledge is power, right?\")"
+  },
+  {
+    "key": "button.tooltip|A_little_history_lesson_never_hurt_anyone_A_little_information|9fd3348fbccf",
+    "original": "A little history lesson never hurt anyone. A little information on the war might help you while on this planet. Knowledge is power, right?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03009750&gt;&gt; addButton(1,\"The War\",i,\"The War\",\"A little history lesson never hurt anyone. A little information on the war might help you while on this planet. Knowledge is power, right?\")"
+  },
+  {
+    "key": "button|Your_Mission|5139a276acbe",
+    "original": "Your Mission",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03009925&gt;&gt; addDisabledButton(2,\"Your Mission\",\"YourMission\",\"You just finished talking about that. Maybe a new topic?\")"
+  },
+  {
+    "key": "button.hover|You_just_finished_talking_about_that_Maybe_a_new_topic|1d05a01a1401",
+    "original": "You just finished talking about that. Maybe a new topic?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03009954&gt;&gt; addDisabledButton(2,\"Your Mission\",\"YourMission\",\"You just finished talking about that. Maybe a new topic?\")"
+  },
+  {
+    "key": "button|Your_Mission|57d8217c78db",
+    "original": "Your Mission",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03010026&gt;&gt; addButton(2,\"Your Mission\",h,\"YourMission\",\"You came here for a reason, and there’s a chance that having access to Red Myr territory could help you find the probe and fulfill your mission. This diplomat is the one who can get you access.\")"
+  },
+  {
+    "key": "button.hover|YourMission|2d100a64c40e",
+    "original": "YourMission",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03010043&gt;&gt; addButton(2,\"Your Mission\",h,\"YourMission\",\"You came here for a reason, and there’s a chance that having access to Red Myr territory could help you find the probe and fulfill your mission. This diplomat is the one who can get you access.\")"
+  },
+  {
+    "key": "button.tooltip|You_came_here_for_a_reason_and_there_s_a_chance_that_having_acc|f1313c2da8e3",
+    "original": "You came here for a reason, and there’s a chance that having access to Red Myr territory could help you find the probe and fulfill your mission. This diplomat is the one who can get you access.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03010057&gt;&gt; addButton(2,\"Your Mission\",h,\"YourMission\",\"You came here for a reason, and there’s a chance that having access to Red Myr territory could help you find the probe and fulfill your mission. This diplomat is the one who can get you access.\")"
+  },
+  {
+    "key": "button|Appearance|db4239849db5",
+    "original": "Appearance",
+    "translation": "外貌",
+    "stage": 1,
+    "context": "&lt;&lt;POS:03010280&gt;&gt; addDisabledButton(3,\"Appearance\",\"Appearance\",\"You’re looking at her right now!\")"
+  },
+  {
+    "key": "button.hover|You_re_looking_at_her_right_now|2c8c6593a970",
+    "original": "You’re looking at her right now!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03010306&gt;&gt; addDisabledButton(3,\"Appearance\",\"Appearance\",\"You’re looking at her right now!\")"
+  },
+  {
+    "key": "button|Appearance|bd9b56a94e43",
+    "original": "Appearance",
+    "translation": "外貌",
+    "stage": 1,
+    "context": "&lt;&lt;POS:03010354&gt;&gt; addButton(3,\"Appearance\",n,\"Appearance\",\"Take a closer look at the red myr Ambassador.\")"
+  },
+  {
+    "key": "button.hover|Appearance|bd9b56a94e43",
+    "original": "Appearance",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03010369&gt;&gt; addButton(3,\"Appearance\",n,\"Appearance\",\"Take a closer look at the red myr Ambassador.\")"
+  },
+  {
+    "key": "button.tooltip|Take_a_closer_look_at_the_red_myr_Ambassador|5afadbd7ca03",
+    "original": "Take a closer look at the red myr Ambassador.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03010382&gt;&gt; addButton(3,\"Appearance\",n,\"Appearance\",\"Take a closer look at the red myr Ambassador.\")"
+  },
+  {
+    "key": "button|Her_History|fbc0dff8cc60",
+    "original": "Her History",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03010489&gt;&gt; addDisabledButton(4,\"Her History\",\"Her History\",\"You just finished talking about that. Maybe a new topic?\")"
+  },
+  {
+    "key": "button.hover|You_just_finished_talking_about_that_Maybe_a_new_topic|2df2af6bcb3f",
+    "original": "You just finished talking about that. Maybe a new topic?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03010517&gt;&gt; addDisabledButton(4,\"Her History\",\"Her History\",\"You just finished talking about that. Maybe a new topic?\")"
+  },
+  {
+    "key": "button|Her_History|411ffd79b36e",
+    "original": "Her History",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03010589&gt;&gt; addButton(4,\"Her History\",s,\"Her History\",\"Wars and politics are interesting and all, but what about the woman in front of you? You could ask how she got here, and why.\")"
+  },
+  {
+    "key": "button.hover|Her_History|411ffd79b36e",
+    "original": "Her History",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03010605&gt;&gt; addButton(4,\"Her History\",s,\"Her History\",\"Wars and politics are interesting and all, but what about the woman in front of you? You could ask how she got here, and why.\")"
+  },
+  {
+    "key": "button.tooltip|Wars_and_politics_are_interesting_and_all_but_what_about_the_wo|9bc01dc27a03",
+    "original": "Wars and politics are interesting and all, but what about the woman in front of you? You could ask how she got here, and why.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03010619&gt;&gt; addButton(4,\"Her History\",s,\"Her History\",\"Wars and politics are interesting and all, but what about the woman in front of you? You could ask how she got here, and why.\")"
+  },
+  {
+    "key": "button|Under_Desk|650424d08865",
+    "original": "Under Desk",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03010760&gt;&gt; addButton(5,\"Under Desk\",(function(){return l(!1)}),\"Under Desk\",\"It’d be more than a little humiliating to be hidden under a desk and used like some stress-relief toy, but there’s a saying about scratching backs....\")"
+  },
+  {
+    "key": "button.hover|Under_Desk|650424d08865",
+    "original": "Under Desk",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03010800&gt;&gt; addButton(5,\"Under Desk\",(function(){return l(!1)}),\"Under Desk\",\"It’d be more than a little humiliating to be hidden under a desk and used like some stress-relief toy, but there’s a saying about scratching backs....\")"
+  },
+  {
+    "key": "button.tooltip|It_d_be_more_than_a_little_humiliating_to_be_hidden_under_a_desk|42e3c0ee4e69",
+    "original": "It’d be more than a little humiliating to be hidden under a desk and used like some stress-relief toy, but there’s a saying about scratching backs....",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03010813&gt;&gt; addButton(5,\"Under Desk\",(function(){return l(!1)}),\"Under Desk\",\"It’d be more than a little humiliating to be hidden under a desk and used like some stress-relief toy, but there’s a saying about scratching backs....\")"
+  },
+  {
+    "key": "button|Storage_Closet|2a74e898646f#1",
+    "original": "Storage Closet",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03011006&gt;&gt; addButton(6,\"Storage Closet\",(function(){return d(!1)}),\"Storage Closet\",\"You’ve got what she wants, but you know she’ll want to call the shots. Still, going along with Nehzara and letting her use you for her own pleasure could be fun for both of you.\")"
+  },
+  {
+    "key": "button.hover|Storage_Closet|2a74e898646f#1",
+    "original": "Storage Closet",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03011050&gt;&gt; addButton(6,\"Storage Closet\",(function(){return d(!1)}),\"Storage Closet\",\"You’ve got what she wants, but you know she’ll want to call the shots. Still, going along with Nehzara and letting her use you for her own pleasure could be fun for both of you.\")"
+  },
+  {
+    "key": "button.tooltip|You_ve_got_what_she_wants_but_you_know_she_ll_want_to_call_the|4133f9f82902#1",
+    "original": "You’ve got what she wants, but you know she’ll want to call the shots. Still, going along with Nehzara and letting her use you for her own pleasure could be fun for both of you.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03011067&gt;&gt; addButton(6,\"Storage Closet\",(function(){return d(!1)}),\"Storage Closet\",\"You’ve got what she wants, but you know she’ll want to call the shots. Still, going along with Nehzara and letting her use you for her own pleasure could be fun for both of you.\")"
+  },
+  {
+    "key": "button|Storage_Closet|760b691dc320",
+    "original": "Storage Closet",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03011268&gt;&gt; addDisabledButton(6,\"Storage Closet\",\"Storage Closet\",\"You must not have any kind of tauric body and have a penis in order to access this scene.\")"
+  },
+  {
+    "key": "button.hover|You_must_not_have_any_kind_of_tauric_body_and_have_a_penis_in_or|56823db7db1d",
+    "original": "You must not have any kind of tauric body and have a penis in order to access this scene.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03011302&gt;&gt; addDisabledButton(6,\"Storage Closet\",\"Storage Closet\",\"You must not have any kind of tauric body and have a penis in order to access this scene.\")"
+  },
+  {
+    "key": "button|Trench_Wives|3e931308130a",
+    "original": "Trench Wives?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03011414&gt;&gt; addButton(9,\"Trench Wives?\",u,\"Trench Wives?\",\"Wait... trench wives? There’s an unusual term, and she said something about <i>“war trophies.”</i> You could ask her to elaborate on that.\")"
+  },
+  {
+    "key": "button.hover|Trench_Wives|3e931308130a",
+    "original": "Trench Wives?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03011432&gt;&gt; addButton(9,\"Trench Wives?\",u,\"Trench Wives?\",\"Wait... trench wives? There’s an unusual term, and she said something about <i>“war trophies.”</i> You could ask her to elaborate on that.\")"
+  },
+  {
+    "key": "button.tooltip|Wait_trench_wives_There_s_an_unusual_term_and_she_said_some|58b406cab14d",
+    "original": "Wait... trench wives? There’s an unusual term, and she said something about <i>“war trophies.”</i> You could ask her to elaborate on that.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03011448&gt;&gt; addButton(9,\"Trench Wives?\",u,\"Trench Wives?\",\"Wait... trench wives? There’s an unusual term, and she said something about <i>“war trophies.”</i> You could ask her to elaborate on that.\")"
+  },
+  {
+    "key": "button|Trench_Wives|9522d5743b08",
+    "original": "Trench Wives",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03011617&gt;&gt; addDisabledButton(9,\"Trench Wives\",\"You just finished that discussion.\")"
+  },
+  {
+    "key": "button.hover|Blood_Sample|5a792dc350ca",
+    "original": "Blood Sample",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03015714&gt;&gt; addButton(10,\"Blood Sample\",(function(){clearOutput(),t(),output(\"After a moment of thinking over precisely how to breach the subject, you\"),pc.isNice()?output(\" carefully\"):pc.isMischievous()?output(\" archly\"):output(\" curtly\");output(\" mention to Nehzara that you happen to be in need of a red myr ..."
+  },
+  {
+    "key": "button.tooltip|Ask_Colonel_Nehzara_if_she_d_be_interested_in_providing_a_sample|868c442a9141",
+    "original": "Ask Colonel Nehzara if she’d be interested in providing a sample of her blood for the purpose of myr gene-mod development.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03015729&gt;&gt; addButton(10,\"Blood Sample\",(function(){clearOutput(),t(),output(\"After a moment of thinking over precisely how to breach the subject, you\"),pc.isNice()?output(\" carefully\"):pc.isMischievous()?output(\" archly\"):output(\" curtly\");output(\" mention to Nehzara that you happen to be in need of a red myr ..."
+  },
+  {
+    "key": "button|Leave|71ad538f1824",
+    "original": "Leave",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03015868&gt;&gt; addButton(14,\"Leave\",(function(){clearOutput(),t(),output(\"With a shrug, you say you’re out of questions and should probably \"),pc.isNice()?output(\"get out of her hair\"):pc.isMischievous()?output(\"leave her to think up more ways to drive people off\"):output(\"seek out more pleasant company\");output(\"..."
+  },
+  {
+    "key": "name.show|Red_Myr_Guards|90bfd9f12210",
+    "original": "Red Myr Guards",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02926603&gt;&gt; showName(\"Red Myr Guards\")"
+  },
+  {
+    "key": "output|Lys_smiles_shyly_i_Well_okay_then_want_to_talk_i|b368c89687f1",
+    "original": "Lys smiles shyly. <i>“Well, okay then... want to talk?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02923116&gt;&gt;"
+  },
+  {
+    "key": "output|The_myr_smiles_i_Want_to_spend_some_time_with_me_then_i|b323696eee1a",
+    "original": "The myr smiles. <i>“Want to spend some time with me, then?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02923190&gt;&gt;"
+  },
+  {
+    "key": "output|b_It_s_a_fight_b|79074bcd2a8e",
+    "original": "<b>It’s a fight!</b>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02923467&gt;&gt;"
+  },
+  {
+    "key": "button|Next|d17d33d06308",
+    "original": "Next",
+    "translation": "继续",
+    "stage": 1,
+    "context": "&lt;&lt;POS:02923536&gt;&gt; addButton(0,\"Next\",v.V.beginCombat)"
+  },
+  {
+    "key": "output|i_The_goddamn_nerve_of_that_honey_guzzling_bitch_i_Nehza|692a020405c3",
+    "original": "<i>“The goddamn nerve of that honey-guzzling bitch...”</i> Nehzara’s grumbling to herself and has her arms crossed over her chest, just under her bust. You can’t help but notice that the pose she’s struck makes her bust look absolutely fantastic, though that’s probably the last thing on her mind.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02932539&gt;&gt;"
+  },
+  {
+    "key": "output|Her_face_brightens_when_she_sees_you_approaching_The_change_is|96107de222b5",
+    "original": "Her face brightens when she sees you approaching. The change is subtle, but she definitely perks up a little once you’re there. <i>“Steele,”</i> she says by way of greeting. <i>“No doubt you saw what just happened. That sorry excuse for an ambassador gets away with blatantly drugging a corporate representative and no one does a damn thing.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02932851&gt;&gt;"
+  },
+  {
+    "key": "output|You_decide_not_to_mention_that_she_s_the_one_with_the_lust_induc|69d5a5eec639",
+    "original": "You decide not to mention that she’s the one with the lust-inducing venom on her side.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02933212&gt;&gt;"
+  },
+  {
+    "key": "output|i_Can_t_be_helped_i_she_continues_with_a_sigh_i_The_Gol|f4e5c03df3b1",
+    "original": "<i>“Can’t be helped,”</i> she continues with a sigh. <i>“The Golds have never fought fair, and there’s no reason for me to expect them to start. Sorry you had to see that, Steele, but it’s the reality of this embassy. Just because we’re not shooting each other, that doesn’t mean the Golds aren’t trying to fuck us over however they can manage. Only difference is that now we can’t even retaliate in the way we’re best-suited for. The UGC likes to act as if they’re a neutral party, but every day sees them sucking up more and more to the Goldies. First they shoehorn us into this warehouse, and now they’re letting that vapid cunt schmooze visitors any way she feels like. Probably offered the degenerate fuck a drink straight from the damn tap of one of their honey-whores.”</i> Her voice still drips with bile and contempt, but the tone is more one of exhaustion than active fury.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02933313&gt;&gt;"
+  },
+  {
+    "key": "output|The_lieutenant_beside_her_however_has_not_calmed_down_i_The|76d1c0f30c6b",
+    "original": "The lieutenant beside her, however, has not calmed down. <i>“They’re leaving us high and dry, Colonel! We can’t just leave it at this! I say we give that tin-plated gimp a good-”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02934211&gt;&gt;"
+  },
+  {
+    "key": "output|i_Lieutenant_i_Nehzara_s_voice_is_like_a_razor_as_she_cuts|767467c1470b",
+    "original": "<i>“Lieutenant.”</i> Nehzara’s voice is like a razor as she cuts off her subordinate. Where she’d been obviously irritated before, now she radiates an icy calm that’s actually kind of terrifying. The young officer’s eyes go wide at being interrupted, but Nehzara isn’t finished.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02934408&gt;&gt;"
+  },
+  {
+    "key": "output|i_I_will_i_not_i_tolerate_speech_like_that_again_A_warrior|db8ddd368190",
+    "original": "<i>“I will </i>not<i> tolerate speech like that again. A warrior’s scars are her </i>pride<i>, and I don’t have any inclination to listen to some upstart hatchling whose entire time in uniform has been spent licking the boots of her superiors like some nyrea’s bitch run her goddamn mouth about anyone who’s actually given her all in real combat. Do I make myself </i>clear<i>, Lieutenant?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02934701&gt;&gt;"
+  },
+  {
+    "key": "output|Oh_snap|debcd0725d0d",
+    "original": "Oh snap.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02935110&gt;&gt;"
+  },
+  {
+    "key": "output|The_chastised_officer_is_clearly_having_difficulty_figuring_out|807b37e40444",
+    "original": "The chastised officer is clearly having difficulty figuring out how to respond. Her entire body is tensed, and for a moment you think she might actually be about to strike her commanding officer. Instead, she finally swallows her rage and mutters a half-hearted <i>“Yes, Colonel.”</i> Nehzara coolly dismisses her, and the lieutenant delivers a snappy about-face and storms off.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02935133&gt;&gt;"
+  },
+  {
+    "key": "output|The_diplomat_shakes_her_head_and_faces_you_again_i_Once_again|90aeca0b1264",
+    "original": "The diplomat shakes her head and faces you again. <i>“Once again, I’m sorry you had to see that. Today has just been one unpleasant interaction after another.”</i> She leads you into her office and takes a seat in her normal chair. You can tell that she immediately feels more comfortable in the familiar setting of you standing before her desk like this. <i>“So, Steele...”</i> Her face softens when her lips form the familiar words. <i>“Is there anything I can help you with?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02935526&gt;&gt;"
+  },
+  {
+    "key": "output|i_You_deliberately_drugged_him_with_that_brain_rotting_ooze_of|a25567d85fed",
+    "original": "<i>“You deliberately drugged him with that brain-rotting ooze of yours, and you know it!”</i> Colonel Nehzara is in fine form: snapping, snarling, and looking as though she’s about to rip off the head of the woman standing in front of her... which would be Ambassador Lyralla.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02936314&gt;&gt;"
+  },
+  {
+    "key": "output|i_Hogwash_You_Reds_wouldn_t_know_hospitable_diplomacy_if_it_r|3877b7de2476",
+    "original": "<i>“Hogwash! You Reds wouldn’t know hospitable diplomacy if it rubbed its honey-spouts in your faces, and that’s why you lost out on the deal!”</i> The Gold ambassador looks equally confrontational, and you’re uncertain whether they’ll be able to restrain themselves for much longer. A fight could break out at any moment, and both of them are accompanied by numerous subordinates. No one’s armed, but you’re aware that myr are strong enough to cause plenty of damage without the aid of weaponry.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02936605&gt;&gt;"
+  },
+  {
+    "key": "output|Fortunately_Ambassador_Juro_is_on_the_scene_as_well_and_he_s_n|a2e81af0d5c8",
+    "original": "Fortunately, Ambassador Juro is on the scene as well, and he’s not alone either. UGC servicemembers of various races stand ready beside and behind him as he does his best to cool down the heated exchange and ease the mood. You breathe a sigh of relief. That wouldn’t have been a catfight: it would have been a disaster.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02937116&gt;&gt;"
+  },
+  {
+    "key": "output|Once_Juro_s_done_his_job_the_Golds_move_to_the_other_side_of_th|2334b862474a",
+    "original": "Once Juro’s done his job, the Golds move to the other side of the warehouse and the UGC personnel disperse. You learn from one as he passes by that Lyralla had recently signed an agreement with a major interstellar biotech corporation that strongly favored the Golds. It was the most drastic deal to date, and was only possible because the UGC had just loosened restrictions on outside parties dealing with Myrellion... and Nehzara had set her sights on attaining it. Lyralla went to meet with one of the Red legal consultants today, and Nehzara had confronted her as soon as she entered the Red area.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02937450&gt;&gt;"
+  },
+  {
+    "key": "output|You_notice_that_Nehzara_is_standing_by_the_door_of_her_office_an|1beb92018a6e",
+    "original": "You notice that Nehzara is standing by the door of her office and talking with a younger myr that your codex informs you is adorned with the trappings and insignia of a lieutenant. She looks to have calmed down somewhat, though the junior officer is still fuming. You could go talk to them, or you could decide to come back later.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02938066&gt;&gt;"
+  },
+  {
+    "key": "output|Half_of_the_area_is_dominated_by_makeshift_offices_and_rooms_an|b96fd2adaac6",
+    "original": "Half of the area is dominated by makeshift offices and rooms, and one doorway has two guards positioned on either side of it. You can see numerous individuals of other species moving to and fro: they’re mostly UGC personnel or other unaffiliated parties, since there are quite a few less Gold Myr here than elsewhere in the embassy.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02938768&gt;&gt;"
+  },
+  {
+    "key": "output|One_such_office_has_a_pair_of_sentries_standing_guard_by_its_ent|cd7a8f77f39c",
+    "original": "One such office has a pair of sentries standing guard by its entrance. You recognize one of them from your last time here. If you wanted to go speak to Colonel Nehzara again, you could always go up to the guard and tell her so.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02939115&gt;&gt;"
+  },
+  {
+    "key": "output|Her_parade_dress_uniform_is_a_deep_black_with_decorative_gold_c|acff6688bc04",
+    "original": "Her parade-dress uniform is a deep black, with decorative gold-colored thread trimming the corners and creases. It’s tailored perfectly to Nehzara’s figure, hugging every curve and giving her an imposingly fashionable air. The colonel’s small collection of medals glimmers against the dark fabric, each one proudly polished to a perfect shine. A peaked, wide-brimmed uniform cap is lying on her desk rather than being worn upon her head.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02944610&gt;&gt;"
+  },
+  {
+    "key": "output|The_bright_crimson_of_her_hair_could_invoke_jealousy_in_most_wom|bb0c25da0fe0",
+    "original": "The bright crimson of her hair could invoke jealousy in most women of other species, though it’s cut into a short and utilitarian style that wouldn’t look out of place on a military officer from Earth or Ausaril. It still looks good on her, though. Her face is unadorned by any expression at the moment, and her jet-black eyes are fixed on you.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02945062&gt;&gt;"
+  },
+  {
+    "key": "output|The_angular_lines_of_her_face_transition_smoothly_to_her_slender|4bc2e68cab40",
+    "original": "The angular lines of her face transition smoothly to her slender, red-skinned neck, and from there to her ample and alluring bust. The tightness of her uniform serves to enhance the impression her perky, D-cup breasts have. Nehzara’s straight-backed pose and confident bearing only increase this effect, almost as if she’s proudly presenting them to you. ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02945421&gt;&gt;"
+  },
+  {
+    "key": "output|i_Ah_I_m_sure_that_you_ve_heard_i_something_i_already_hav|e857ae4907cf",
+    "original": "<i>“Ah. I’m sure that you’ve heard </i>something<i> already, haven’t you?”</i> the uniformed woman replies. At your nod, she scoffs bitterly and practically spits out her next words. <i>“Let me guess: the Scarlets are a bunch of warmongering monsters who thirst for the tears and suffering of everyone good and wholesome in this world. That close to the mark on what you’ve heard so far?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02946498&gt;&gt;"
+  },
+  {
+    "key": "output|Though_you_re_a_little_taken_back_by_the_sudden_heat_from_the_pr|37134d7a3197",
+    "original": "Though you’re a little taken back by the sudden heat from the previously composed and chilly officer, you respond in the affirmative. Perhaps it wasn’t quite so damning as all that, but you distinctly remember something about the Reds wanting nothing less than the extermination of every other species and total domination over the world.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02946933&gt;&gt;"
+  },
+  {
+    "key": "output|Nehzara_shakes_her_head_in_a_universal_gesture_of_exasperation|484b10bec20a",
+    "original": "Nehzara shakes her head in a universal gesture of exasperation. <i>“Sounds about right for Lyralla. That brainwashed, spineless nectar-guzzler spends every waking moment trying to convince everyone that we’re nothing short of evil given form. Well, any moment her lips aren’t wrapped around a swollen honey-spout. I could swear the stuff kills their brain cells. So she’s cried on your shoulder and given her usual cockamamie spiel about how the heartless Reds eat babes and kill prisoners for sport?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02947286&gt;&gt;"
+  },
+  {
+    "key": "output|Though_you_re_a_little_taken_back_by_the_sudden_heat_from_the_pr|cf6add848dbd",
+    "original": "Though you’re a little taken back by the sudden heat from the previously composed and chilly officer, you shake your head and tell her you haven’t heard that much. No one’s given you a comprehensive run-down on the situation on Myrellion. You just have a general idea of the situation here on the ground.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02947808&gt;&gt;"
+  },
+  {
+    "key": "output|i_Oh_so_the_virtuous_and_victimized_Ambassador_Lyralla_hasn_t|ae60fd856a74",
+    "original": "<i>“Oh, so the virtuous and victimized Ambassador Lyralla hasn’t had a chance to weep at you about how evil we all are, and how their use of immoral and inhumane chemical and biological weaponry was all in self-defense?”</i> The Red Myr diplomat gives you a little smile, and you think there might be something conspiratorial to the expression. <i>“Well then,”</i> she says slowly, <i>“that means I get the rare chance to explain things </i>my<i> way without worrying about preconceived notions from... other influences.”</i> Judging by her body language and the tone of her voice, she’s quite pleased by that.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02948127&gt;&gt;"
+  },
+  {
+    "key": "output|Nehzara_leans_back_in_her_chair_and_crosses_her_arms_looking_ri|9634da1bf06d",
+    "original": "Nehzara leans back in her chair and crosses her arms, looking right into your eyes. You find yourself both reassured and challenged by her utter confidence. <i>“Listen up,”</i> she continues, <i>“I’m not going to say we’re all saints or that every Gold queen is a tyrant. If you really believe there are through-and-through good guys and bad guys in war, then you’ve obviously never picked up a weapon for your people and your land. There are soldiers, and maybe some are heroes or villains, but most of them are somewhere between the two.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02948753&gt;&gt;"
+  },
+  {
+    "key": "output|i_Right_You_want_to_know_the_truth_We_may_have_a_few_questio|38fa56abc368",
+    "original": "<i>“Right. You want to know the truth? We may have a few questionable individuals in our nation, but the Golds? Their entire </i>system<i> is rotten. Maybe the Golds see us as brutal, but that is only because their Queens are all too happy to keep them all as unquestioning, mindless followers. Weak-willed and supine. They breed, and so they carry the future of their people with them, and what do they do?”</i> Nehzara is practically fuming now. You’d expected a little more self-control from someone with her rank and position. Does she get so worked up every time she has to discuss the war with an outsider? That can’t be wise.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02949512&gt;&gt;"
+  },
+  {
+    "key": "output|She_seems_to_realize_this_and_places_her_hands_on_the_table_one|5c9a2cbfbed8",
+    "original": "She seems to realize this and places her hands on the table, one atop the other, and looks you in the eye while taking a breath. <i>“They flaunt their status about and lord it over everyone else without a second thought... as if they’re undertaking some great labor by being worshiped and fertilized every hour of the day. Make no mistake: for all their talk of liberalism and forward thinking, they’re slaves, each and every one of them. They’re encouraged to live undisciplined lives free of any form of self-respect or pride beyond their assigned responsibilities to the Queens.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02950159&gt;&gt;"
+  },
+  {
+    "key": "output|You_re_careful_to_phrase_it_delicately_but_you_have_to_ask|ed39d1b46a46",
+    "original": "You’re careful to phrase it delicately, but you have to ask",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02950783&gt;&gt;"
+  },
+  {
+    "key": "output|i_Mm_You_re_far_from_the_first_alien_to_ask_that_i_she_sa|03d96f0d38cb",
+    "original": "<i>“Mm. You’re far from the first alien to ask that,”</i> she says coolly, her frosty composure having returned while listening to your words. <i>“I suppose we seem somewhat odd to you, then. Discipline is liberating. Much as it seems to restrict you, once you’ve lived a life of self-discipline, you’ll quickly find that it gives you control over yourself and your life. It’s not about your fealty to some queen or overlord, or even an officer. Choosing to fight means submitting to the chain of command, but that is a system made manifest by the will of the people, not the select few who rule. The Gold Queens ensnare their people with the illusion of freedom by keeping them scurrying about pointless lives and never questioning whether they’re in control. We embrace our duty to ourselves by choosing to be ruled by our wills, not petty desires, and in doing so we become free.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02951131&gt;&gt;"
+  },
+  {
+    "key": "output|Well_You_suppose_that_s_one_way_to_look_at_it|a176eded52cd",
+    "original": "Well. You suppose that’s one way to look at it.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02952033&gt;&gt;"
+  },
+  {
+    "key": "output|Everyone_s_been_talking_about_war_this_and_war_that_Soldiers_ar|057a84c8ddc2",
+    "original": "Everyone’s been talking about war this and war that. Soldiers are standing sentry everywhere you turn, and even the UGC members on-world seem tense and ready for something to snap at any moment. You’ve heard of a war, but maybe the colonel could provide a little more insight.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02952142&gt;&gt;"
+  },
+  {
+    "key": "output|Nehzara_leans_back_in_her_chair_i_Not_an_uncommon_question_I|add95055e40f",
+    "original": "Nehzara leans back in her chair. <i>“Not an uncommon question. I really should just write a pamphlet and spend all day getting </i>actual work<i> done instead of answering the same questions thrice a day.”</i> She flashes you a sharp smile just before you can respond. <i>“Oh, don’t get defensive. It’s not your fault they’d rather stick a field officer in some slapdash cubicle and have her play Scarlet Federation tour guide instead of letting her do her real job.”</i> ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02952433&gt;&gt;"
+  },
+  {
+    "key": "output|i_Well_you_probably_know_the_basics_of_recent_events_What_yo|e7ac4254df04",
+    "original": "<i>“Well, you probably know the basics of recent events. What you probably haven’t heard is that little skirmishes and conflicts have been part of our mutual history since long before the current war. Relations have </i>never<i> been great between our nations. Of course, they claim we started it, which makes absolutely no sense at all. Only a braindead idiot would even assume the Scarlet Federation simply attacked for no reason. No, that blame lies with the damn Goldies.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02953238&gt;&gt;"
+  },
+  {
+    "key": "output|Well_That_s_new_You_ll_bite_how_did_the_Golds_start_the_confl|5cd287d48a3f",
+    "original": "Well. That’s new. You’ll bite: how did the Golds start the conflict?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02953733&gt;&gt;"
+  },
+  {
+    "key": "output|i_How_do_you_think_We_re_a_threat_to_their_damn_way_of_life|6e3e55e98d58",
+    "original": "<i>“How do you think? We’re a threat to their damn way of life. Too different from them. The close-minded cunts were a lot more powerful back then, compared to us. They thought they’d just wipe out what they saw as a few rogue hives without a ‘proper Queen’ and call it a day. We fought back. Wars have come and gone since then, but as long as they live, they’re a threat to us. When they grew weaker, we grew stronger, and now we have the means to ensure the security of our people.”</i> She looks at you levelly, her alien eyes cold and hard.\\n\\n<i>“It’s us or them, Steele. I doubt you visitors understand what it’s like growing up knowing there’s an enemy striving to erase your people and that your only option is to live a life of vigilance or wipe them out first. You all seem to get along well, and I’ve heard more than one of you discuss the possibility of bringing both Red and Gold into agreement and lasting peace. It’s a pipe dream, off-worlder, a nice little fantasy that may seem possible to people that cross stars and see our world from above but is blatantly impossible for us.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02953816&gt;&gt;"
+  },
+  {
+    "key": "output|You_re_pretty_sure_the_Golds_would_tell_the_story_differently_H|30c627619084",
+    "original": "You’re pretty sure the Golds would tell the story differently. History’s written by the victors, they say, and accounts probably conflict when there’s no victor yet decided. They do seem to agree on one thing, though: neither race is comfortable so long as the other survives.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02954931&gt;&gt;"
+  },
+  {
+    "key": "output|Nehzara_takes_a_breath_before_continuing_She_s_a_little_more_di|652029311b3f",
+    "original": "Nehzara takes a breath before continuing. She’s a little more dispassionate now; that cold fire in her eyes has been replaced by a calmer and more professional clarity. <i>“The current war began with a major offensive on our part, yes, but any Gold who points to that as proof of us being the aggressor inevitably fails to mention that this war could be looked at as the result of several skirmishes which took place over </i>our<i> airspace,”</i> she continues. <i>“They were testing out new models of military craft unacceptably close to our cities.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02955222&gt;&gt;"
+  },
+  {
+    "key": "output|i_When_we_engaged_and_tried_to_see_them_off_our_pilots_came_u|e3af4f301858",
+    "original": "<i>“When we engaged and tried to see them off, our pilots came under attack. Of course, the bastards later claimed their pilots were not under orders to fire, but that’s nonsense and we all know it. We already knew they’d been developing a new delivery system for that gas of theirs. One grueling campaign later, Kressia is ours and Gildenmere is in our sights. And then you showed up.”</i> Her tone turns bitter at that last sentence, but she’s not looking directly at you: instead, her gaze is fixed firmly on a point just to your left.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02955793&gt;&gt;"
+  },
+  {
+    "key": "output|You_shrug_and_cross_your_arms_over_your_pc_chest_remaining_si|da014d33904a",
+    "original": "You shrug and cross your arms over your [pc.chest], remaining silent for a moment. Nehzara meets your gaze once again, and turns her hands over upon her desk to show her palms, silently asking <i>“anything else?”</i> with her facial expression.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02956346&gt;&gt;"
+  },
+  {
+    "key": "output|i_Ah_A_surprisingly_astute_observation_i_she_responds_lev|f8dd40925e69",
+    "original": "<i>“Ah. A surprisingly astute observation,”</i> she responds levelly. Wait, surprisingly? Was that a dig at your intelligence? You decide to pay it no more mind and let her continue.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02957071&gt;&gt;"
+  },
+  {
+    "key": "output|i_It_was_decided_that_I_d_be_an_officer_practically_before_I_w|2543bdbf63f9",
+    "original": "<i>“It was decided that I’d be an officer practically before I was ever born. My mother was captaining an assault company at the time, and she’d already been singled out by higher-ups to be groomed for further promotion. It’s not uncommon for fertile females to find themselves on a fast-track out of any front-line duties, even when we’re not in a state of total war.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02957268&gt;&gt;"
+  },
+  {
+    "key": "output|By_the_time_she_returned_from_birthing_leave_she_d_already_been|070c960f7051",
+    "original": "By the time she returned from birthing leave, she’d already been nominated as a leading candidate for a field major position. Naturally, as I grew older and accumulated my own achievements in the academy, so too did she continue to accrue authority. By the time I was captaining a company of my own, she’d established herself as one of the top brass at Command. It’s led to a few accusations of nepotism throughout my career.”</i> Nehzara folds her hands on her desk and looks down at them. <i>“I am the third-youngest individual in our entire history to hold the rank of colonel, Steele, and easily the youngest one at this time. No matter how often those accusations are denied, some shadow of a doubt will always linger.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02957651&gt;&gt;"
+  },
+  {
+    "key": "output|You_wonder_if_she_means_those_doubts_will_linger_in_the_minds_of|e692aae2cf5d",
+    "original": "You wonder if she means those doubts will linger in the minds of her peers... or her own. Judging by the way she said it, Nehzara herself has doubts over whether or not her mother’s been pulling strings behind the scenes.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02958394&gt;&gt;"
+  },
+  {
+    "key": "output|i_With_me_being_infertile_it_was_pretty_much_a_done_deal_that|c061db82a8a0",
+    "original": "<i>“With me being infertile, it was pretty much a done deal that I’d be leading combat elements. I didn’t mind, though; something like that suited me just fine. Hell, I was </i>good<i> at it. I made major just as the current campaign kicked off, right when this most recent war between us and the Golds went hot. I took a few cities, led a few assaults, earned a few medals, and found myself being recognized as one of the foremost field commanders in the entire army.”</i> The smile that touches her lips when she says that contains no small amount of pride.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02958630&gt;&gt;"
+  },
+  {
+    "key": "output|The_moment_of_self_congratulation_is_short_lived_i_However|1515697f9983",
+    "original": "The moment of self-congratulation is short-lived. <i>“However... the Golds were hardly my only enemy. Success breeds envy. By the time we were knocking at Gildenmere’s front door, I was not only a shoo-in for colonel, but it was looking pretty damn likely that I’d be commanding a very prestigious regiment and that it wouldn’t take long to pick up a star or two.”</i> Despite your codex telling you that the Scarlet Federation equivalent of a general officer wears a very different indicator of rank, you’re impressed by how well it translates Nehzara’s use of her people’s jargon into a Terran equivalent.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02959204&gt;&gt;"
+  },
+  {
+    "key": "output|The_Red_Myr_officer_pauses_a_moment_before_continuing_i_Peopl|7310740c5994",
+    "original": "The Red Myr officer pauses a moment before continuing. <i>“People think a military runs on bullets, or soldiers, or even food. Ultimately, it all comes down to paper. The army runs on paper. Logistics. What goes here, who goes there, what’s assigned to what regiment and which lieutenant gets a promotion to replace some dead captain. Paper. We have legions upon legions of pencil-pushers and paper-shufflers, and there’s a war being waged behind the front lines, too. Petty politicking and backroom skullduggery never much appealed to me, but my mother was adept at it. I know she tried to make me see how important the political games were, and how I needed to grasp the rules and players if I was going to climb that ladder I was scaling, but I always thought killing honey-suckers was more important.”</i> Her hands clench into fists on her desk, and a fierce anger begins to simmer beneath her precariously calm expression.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02959826&gt;&gt;"
+  },
+  {
+    "key": "output|i_Oh_I_didn_t_listen_She_called_me_stubborn_said_that_a_hea|9f7c96b26bf2",
+    "original": "<i>“Oh, I didn’t listen. She called me stubborn, said that a headstrong attitude and a strong arm might win some battles but would mean certain death in others. You would think I’d listen to one of the greatest commanders in our nation, but something in me just refused to accept it.”</i> She shakes her head.\\n\\n<i>“So when the ceasefire was forced on us by the alien fleet that appeared above our world, Colonel Kalayna made it quite clear that someone as decorated as I would be the best choice to assist the Scarlet Federation ambassador. Of course, while being an ambassador is a prestigious position, being the assistant of one is practically a career death sentence for a war hero. So now, while the generals and their toadies are busy arguing over which of the brass gets assigned as the head honcho here, I’m stuck doing all of their work with practically no support structure in place. Kalayna is leading my old regiment now, sitting comfortably in Kressia and probably raiding some Gold stashes of that disgusting tit-sap of theirs. That swill sure would suit her perfectly. I couldn’t even bring my trench wives along. Was told the practice of keeping them wouldn’t appeal to your people, and that I’d be better off not flaunting it at you.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02960769&gt;&gt;"
+  },
+  {
+    "key": "output|She_gives_a_little_scoff_and_laces_her_next_words_with_enough_sa|f3a8cc20c260",
+    "original": "She gives a little scoff and laces her next words with enough sarcasm that they’re practically dripping with it. <i>“Ha. Yeah, the UGC sure does seem enamored with the Federation. Showing off our war trophies would just ruin all of that.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02962041&gt;&gt;"
+  },
+  {
+    "key": "output|The_colonel_suddenly_weary_sighs_and_looks_down_for_a_few_seco|cf37850ab3fb",
+    "original": "The colonel, suddenly weary, sighs and looks down for a few seconds. <i>“Well then. That’s how I ended up commanding a desk instead of a regiment, and why I don’t get a fancy ‘ambassador’ title like that dim-witted Goldy or that pampered alien. Suits me, I guess. As long as I’m called ‘colonel,’ maybe I can pretend it’s still what I actually am.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02962298&gt;&gt;"
+  },
+  {
+    "key": "output|Nehzara_clears_her_throat_suddenly_and_looks_you_in_the_eyes_i|948ebd78d2ec",
+    "original": "Nehzara clears her throat suddenly and looks you in the eyes. <i>“Was there anything else you wanted, Steele?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02962665&gt;&gt;"
+  },
+  {
+    "key": "output|i_Ah_i_she_says_tapping_her_chin_with_one_finger_i_Per|81e6a4744575",
+    "original": "<i>“Ah,”</i> she says, tapping her chin with one finger. <i>“Perhaps I said too much. We’re not supposed to draw attention to the practice.”</i> Something about her tone and expression tells you that her dropping of the term wasn’t as accidental as she claims.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02962913&gt;&gt;"
+  },
+  {
+    "key": "output|You_encourage_her_to_continue_you_want_to_hear_about_this_wheth|ca5458f603f6",
+    "original": "You encourage her to continue; you want to hear about this whether or not you’re supposed to. It sounds interesting.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02963275&gt;&gt;"
+  },
+  {
+    "key": "output|i_Every_war_creates_prisoners_A_position_is_overwhelmed_a_li|c6132f8dc77e",
+    "original": "<i>“Every war creates prisoners. A position is overwhelmed, a line is broken, soldiers drop their arms and throw themselves upon the enemy’s mercy... it’s a natural state of affairs. Tell me, Steele... how are prisoners handled in your society?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02963406&gt;&gt;"
+  },
+  {
+    "key": "output|You_shrug_and|87964f1948fb",
+    "original": "You shrug and ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02963670&gt;&gt;"
+  },
+  {
+    "key": "output|say_that_you_can_t_particularly_complain_about_it_different_wor|c640c612596c",
+    "original": "say that you can’t particularly complain about it; different worlds have different detention policies, but they’re all pretty humane",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02963737&gt;&gt;"
+  },
+  {
+    "key": "output|Nehzara_nods_as_if_she_d_received_the_answer_she_expected_i|0b0c98442078",
+    "original": "Nehzara nods, as if she’d received the answer she expected. <i>“A prisoner of war is different. Her only offense is fighting for her nation. How do you rehabilitate that, ethically speaking? That’s one thing that separates us from the Gold Queens. They’d gladly brainwash each and every peon into serving them and slap some high-minded propaganda on to claim it’s all for peace and prosperity. It’s fucking revolting, is what it is.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02964225&gt;&gt;"
+  },
+  {
+    "key": "output|i_So_a_question_arises_how_do_we_handle_those_who_aren_t_kill|0f31a6eb02ab",
+    "original": "<i>“So a question arises: how do we handle those who aren’t killed in battle, but find themselves at our mercy? Logistics being the nightmare that they always are, we can’t exactly carry around a baggage train of bound Goldies and expect everything to be hunky-dory, and transporting them back to our territory presents problems of its own... namely cost and need to devote manpower to guarding those convoys. That’s something we absolutely could not spare.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02964677&gt;&gt;"
+  },
+  {
+    "key": "output|You_re_starting_to_see_where_this_is_going_So_the_Red_soldiers|46a7322a8fcd",
+    "original": "You’re starting to see where this is going. So the Red soldiers kept the Gold prisoners around, didn’t they? Kept them as... ‘trench wives.’",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02965154&gt;&gt;"
+  },
+  {
+    "key": "output|i_Correct_i_she_answers_nonchalantly_i_And_before_you_s|84200a054aa5",
+    "original": "<i>“Correct,”</i> she answers nonchalantly. <i>“And before you say anything, it’s not so simple as slavery. You see, devoting our limited resources to feeding and supporting these prisoners would create resentment among the soldiery. That’s natural, and understandable. A practice of claiming prisoners as the spoils of war had existed in the earlier days of our history... and I’m quite sure the Golds can say the same, even if they’d love to deny it. This is not so cut-and-dried as that, however. Trench wives are not slaves, and any soldier who thinks otherwise will likely find herself on the wrong end of a disciplinary action. Allowing the soldiers, especially ranking officers and NCOs, to take prisoners as ‘their own’ fostered a sense of protectiveness and concern which helped to guarantee the safety of any prisoners claimed. The fact that a level of intimacy arose was a natural consequence of the practice.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02965309&gt;&gt;"
+  },
+  {
+    "key": "output|So_the_Reds_would_take_prisoners_as_sex_slaves_in_all_but_name|91f89b92c2dc",
+    "original": "So the Reds would take prisoners as sex slaves in all but name, but doing so allowed them to be better protected and keep up the morale of the troops?",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02966249&gt;&gt;"
+  },
+  {
+    "key": "output|i_Essentially_i_Nehzara_agrees_i_And_it_s_not_as_though|b0598392dad6",
+    "original": "<i>“Essentially,”</i> Nehzara agrees. <i>“And it’s not as though it’s as inhumane as other alternatives. Would you rather the prisoners be rotting in a jail, waiting to be traded with their original government like chattel for some of ours? Ha. The Golds use gas and bombs; they hardly ever take any prisoners that way. Any of ours they take are going to be traded for officers and important personnel, not some infantrywoman who surrendered when her machine-gun nest was stormed. A good portion of the wives are reasonably happy, and I’ve heard of genuine bonds of affection forming between soldier and trench wife... though I’ll fully admit that it’s quite rare, even if it does truly exist.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02966414&gt;&gt;"
+  },
+  {
+    "key": "output|The_colonel_shrugs_and_sits_back_in_her_chair_i_What_can_I_te|2c5eb829fc48",
+    "original": "The colonel shrugs and sits back in her chair. <i>“What can I tell you, Steele? Soldiers have a tendency to take trophies. It’s a coping mechanism, well-documented by psychs at home. Would you rather they simply shoot prisoners who surrender, or lock them in a jail cell for years and years while they’re forgotten by their own people? If some soldiers see Gold women as nothing more than potential spoils of war to be taken and sexually conquered, then that’s an unfortunate price to pay for the general welfare of prisoners on the whole.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02967127&gt;&gt;"
+  },
+  {
+    "key": "output|The_look_on_her_face_as_she_discusses_the_hypothetical_conquista|512e6c9c32c8",
+    "original": "The look on her face as she discusses the hypothetical conquistadoras does suggest she’s not fond of their outlook, but her tone is certain and absolute.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02967686&gt;&gt;"
+  },
+  {
+    "key": "output|i_Now_Steele_i_she_begins_watching_your_face_closely_i|6d4809ac3a0f",
+    "original": "<i>“Now, Steele,”</i> she begins, watching your face closely. <i>“Did you have any other questions or concerns?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02967854&gt;&gt;"
+  },
+  {
+    "key": "output|i_I_see_i_she_muses_turning_her_chair_to_the_side_as_one|d1771d9e817a",
+    "original": "<i>“I see,”</i> she muses, turning her chair to the side as one leg moves to cross the other in a decidedly feminine motion, <i>“I can’t say I’ve had many visitors request access to Kressia.”</i> Her eyes don’t look to be focusing on anything in particular, as if they’re staring into space instead of the wall at which they’re pointed. <i>“Normally it’s just conferences with UGC members, day-in and day-out. Deals on what we can export and import, resolution for little squabbles here in the embassy or other demilitarized zones, dealing with that braindead Lyralla... all of it so stressful. And you know damn well they won’t let me get any time to myself so that I can deal with it </i>properly<i>. Not even a minute; even when I’m not working, I’m being watched by someone and asked to do this or that.”</i>\\n\\nThe ant-like woman sighs, and her severe aura fades a little. For one fleeting instant, she looks tired and vulnerable. Then the moment passes, and you’re looking at the stern and forward Colonel Nehzara again.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02968359&gt;&gt;"
+  },
+  {
+    "key": "output|After_a_short_stretch_of_silence_you_begin_wondering_if_you_sho|ab437b1d7a35",
+    "original": "After a short stretch of silence, you begin wondering if you should speak up. The woman in front of you seems to be considering something, as if contemplating how to answer you. There’s a distinct difference in the atmosphere of the room now, and you now have time to consider just how attractive Nehzara looks under that uniform. It’s artfully tailored to her in a rather flattering manner, now that you think about it, and it lends her a very regal and impressive air which complements her personality perfectly.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02969400&gt;&gt;"
+  },
+  {
+    "key": "output|The_colonel_interrupts_your_thoughts_with_a_clearing_of_her_thro|7bfb5c94d478",
+    "original": "The colonel interrupts your thoughts with a clearing of her throat. <i>“Ahem. Steele. I’ve been thinking over your request for clearance into Federation-occupied territory, and I believe we can reach an agreement that benefits both of us. If I were to give you the proper authorization, I believe you can do something for me.”</i> Nehzara uncrosses her legs now, managing to make a subtle show of it and draw your gaze to the lines of her thighs and calves, to where her uniform pants end and the chitin begins.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02969929&gt;&gt;"
+  },
+  {
+    "key": "output|i_I_don_t_get_many_opportunities_to_step_out_of_the_office_and|e4baf7f96f4f",
+    "original": "<i>“I don’t get many opportunities to step out of the office and enjoy myself with a male, or anything resembling one, but you’ll certainly do for a little stress-relief. Give me a few pleasurable minutes, and you can go anywhere you want.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02970493&gt;&gt;"
+  },
+  {
+    "key": "output|i_Sure_i_you_say_with_a_shrug_and_a_smile_It_s_obvious_th|5e3fb22153f9",
+    "original": "<i>“Sure,”</i> you say with a shrug and a smile. It’s obvious that she could use a little release, and you wouldn’t mind getting a taste of some red-ant nectar.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02972463&gt;&gt;"
+  },
+  {
+    "key": "output|i_Excellent_i_she_murmurs_You_see_her_fidget_a_little_and|1471380dd612",
+    "original": "<i>“Excellent,”</i> she murmurs. You see her fidget a little and draw back from the desk in her rolling chair. Once you’ve come around the desk to stand beside her, you can see that she’s hiked down her uniform pants to expose a pair of glistening, inviting lips positioned between two sinfully smooth, slender-yet-strong thighs. Oh, you’re pretty sure you’re going to enjoy this.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02973577&gt;&gt;"
+  },
+  {
+    "key": "output|Your_eyes_meet_Nehzara_s_and_her_mouth_quirks_into_a_little_smi|05d88baad52e",
+    "original": "Your eyes meet Nehzara’s, and her mouth quirks into a little smile that you can’t help but find devilishly attractive. Rough and commanding she may be, but there’s an oddly charming woman beneath all the abrasive bluntness.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02973972&gt;&gt;"
+  },
+  {
+    "key": "output|The_Red_Myr_officer_beckons_for_you_to_get_down_behind_the_desk|6847b61ad81a",
+    "original": "The Red Myr officer beckons for you to get down behind the desk, and you ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02974253&gt;&gt;"
+  },
+  {
+    "key": "output|The_myr_officer_beckons_toward_the_space_under_the_desk_that_fa|a8af9f6dd38b",
+    "original": "The myr officer beckons toward the space under the desk, that faint smile widening subtly as she watches you get down on your knees and make your way under there. ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02974756&gt;&gt;"
+  },
+  {
+    "key": "output|Nehzara_looks_down_at_you_her_normally_severe_expression_broken|6c4c99315453",
+    "original": "Nehzara looks down at you, her normally severe expression broken by a smile she’s making no attempt to hide. A little heartened by this, you give a deep, lingering kiss to the sweet-smelling snatch before you, and are immediately rewarded with a gasp escaping from the professional officer’s lips. This will be worth it just to hear her struggle to maintain composure, you think to yourself... which makes the ambrosial aroma of her alien-yet-familiar womanhood and the smooth, red thighs on either side of your head mere bonuses.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02975737&gt;&gt;"
+  },
+  {
+    "key": "output|i_Ah_i_she_starts_forced_into_holding_back_another_involu|8669d7569a41",
+    "original": "<i>“Ah,”</i> she starts, forced into holding back another involuntary gasp of pleasure by your [pc.tongue] flicking out and giving the moistening lips of her labia a good lick. Further emboldened by her suppressed reaction, you give another quick, probing lick. And another. And another. Nehzara looks down at you as if to ask what you’re doing, and you choose that exact moment to go forward and thrust your tongue into the tight snatch you’ve been teasing.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02976282&gt;&gt;"
+  },
+  {
+    "key": "output|The_response_is_exactly_what_you_d_hoped_for_The_myr_woman_give|757d83c57d8a",
+    "original": "The response is exactly what you’d hoped for. The myr woman gives a breathy little coo of encouragement before she reaches down to pat at your head approvingly. It’s always nice to be appreciated once in a while, you think, and you allow yourself to savor a rush of satisfaction when Nehzara ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02976755&gt;&gt;"
+  },
+  {
+    "key": "output|You_couldn_t_be_happier_Down_here_between_the_Red_Myr_officer_s|4761e9829448",
+    "original": "You couldn’t be happier. Down here between the Red Myr officer’s legs, [pc.face] buried in her warm cunt so firmly you’re practically making out with it. You’re overwhelmed by a tingly, electric excitement that you can’t fully describe. Though you started out trying to make the cool, dismissive woman lose her cool and descend into moaning ecstasy, you are quickly realizing that the tables have turned. You reach down ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02977704&gt;&gt;"
+  },
+  {
+    "key": "output|i_Ah_ah_i_the_diplomat_says_softly_shuffling_a_few_papers|219fb0794444",
+    "original": "<i>“Ah-ah,”</i> the diplomat says softly, shuffling a few papers on her desk. The tip of her chitinous boot presses firmly against your [pc.belly], and you momentarily freeze. <i>“I don’t want a mess on my floor. You can finish on your own time, </i>after<i> I get mine, and where no one will expect me to clean it up.”</i> The pressure of her boot slowly increases until you remove your hand from your naughty place. <i>“Good,”</i> she murmurs in approval, and she places her foot back on the floor next to you.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02978750&gt;&gt;"
+  },
+  {
+    "key": "output|She_waited_until_you_were_getting_good_momentum_you_think_You|d2454c78b302",
+    "original": "She waited until you were getting good momentum, you think. You know she timed that on purpose, and now your ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02979277&gt;&gt;"
+  },
+  {
+    "key": "output|i_Ah_Lieutenant_Commander_Yehade_I_wasn_t_expecting_a_visit|1e9fb0942975",
+    "original": "<i>“Ah. Lieutenant-Commander Yehade. I wasn’t expecting a visit from you at this hour.”</i> Nehzara’s voice comes out level and controlled above you. Unsure of whether you should continue while she’s not alone, you make to slow down your oral attentions... and promptly receive a forceful hand-press on the back of your head for the consideration. Chastised so, you get back to work, nuzzling your face against her sopping-wet snatch. So ungrateful.\\n\\nWell, at least her cunt can’t lie, and it’s growing hotter and sloppier by the second, so surely some part of her appreciates your efforts. Unless, hold on: you listen closely, and can clearly hear a male voice responding to Nehzara’s greeting. It must be some UGC officer who’s meeting with her now, not one of her people. Knowing the cock-starved nature of the myr women, her loins are probably screaming at her to mount him right now.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02979690&gt;&gt;"
+  },
+  {
+    "key": "output|Your_suspicions_are_confirmed_when_you_hear_the_visitor_leave_an|b8d829fb4eea",
+    "original": "Your suspicions are confirmed when you hear the visitor leave and Nehzara pushes down on your head with both hands, almost smothering you in ant-pussy. She’s not even trying to act cool anymore, and bucks her hips up against you as your tongue lashes about within her and presses every one of her buttons. You’ve been down here for a good few minutes now, and you’re starting to become quite familiar with her honeypot. The lust-filled myr gives a low, quiet moan while you go at her with abandon, and it’s not hard to tell she’s close. You press the attack, capitalizing on your forward momentum by repeatedly thrusting your [pc.tongue] back and forth into her even as your [pc.lips] brush against her puffed-up labia. It won’t be long now.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02980595&gt;&gt;"
+  },
+  {
+    "key": "output|It_isn_t_long_at_all_Within_seconds_of_your_redoubled_assault_o|eb4908241251",
+    "original": "It isn’t long at all. Within seconds of your redoubled assault on her yearning pussy, Nehzara gives a suppressed squeak and lifts her ass out of her chair, crotch pressed firmly against you for her grand finish. Eager for your reward at last, you let out a delighted little moan at her blatant cue. The scarlet-skinned alien woman arches her back and climaxes, and to your delight, her orgasm is both sweet and bountiful. A small flood of myrmedion fem-spunk wettens your [pc.face], and you’re sure to ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02981351&gt;&gt;"
+  },
+  {
+    "key": "output|Nehzara_slumps_back_into_her_chair_once_she_s_done_Her_breaths|5f65da7c039b",
+    "original": "Nehzara slumps back into her chair once she’s done. Her breaths are just a little heavy, and after a mere moment of recovery, she rolls her chair back and slides her pants back up. <i>“Not bad, Steele,”</i> she says with a feminine purr, her voice sultry and satisfied. You like that tone; it’s an interesting contrast to her normal sharpness. <i>“I really needed that, and you’re a lot better than most of my partners. You have... spirit.”</i>\\n\\nThe myr officer gives you a knowing smile as she reaches down to pat your head, fingers",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02982073&gt;&gt;"
+  },
+  {
+    "key": "output|You_pick_yourself_up_off_the_floor_and_adjust_your_gear_That_wa|68632230bc5e",
+    "original": "You pick yourself up off the floor and adjust your gear. That was certainly an experience, at least. Nehzara looks as if nothing had even happened, and has already organized the papers on her desk and is now casting a questioning glance your way.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02983134&gt;&gt;"
+  },
+  {
+    "key": "output|i_Sure_i_you_say_with_a_shrug_and_a_smile_It_s_obvious_th|9c73e7642390",
+    "original": "<i>“Sure,”</i> you say with a shrug and a smile. It’s obvious that she could use a little release, and you wouldn’t mind getting off, yourself.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02984208&gt;&gt;"
+  },
+  {
+    "key": "output|You_notice_exactly_where_her_eyes_go_and_clear_your_throat_to_ge|10b29c85bddf",
+    "original": "You notice exactly where her eyes go and clear your throat to get her attention. <i>“I’m up here, you know.”</i> Her reaction is almost perfect: between the sudden turning of her head and the sullen pursing of her lips, it’s the closest you’ve seen to Nehzara being flustered.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02985264&gt;&gt;"
+  },
+  {
+    "key": "output|She_draws_back_from_the_desk_in_her_rolling_chair_and_gets_to_he|67f9ede6278d",
+    "original": "She draws back from the desk in her rolling chair and gets to her feet, eyes fixed on your face this time. <i>“I know just the place,”</i> she announces. The ant-like woman hooks a finger into your [pc.gear] to lead you toward the doorway. A little taken aback, you follow along, feeling almost like you’re on a leash.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02985555&gt;&gt;"
+  },
+  {
+    "key": "output|The_guards_salute_when_the_two_of_you_exit_the_office_and_Nehza|4ba7a66a17dc",
+    "original": "The guards salute when the two of you exit the office, and Nehzara nods approvingly to both of them before returning the formal gesture. <i>“Watch the office and tell any visitors I was pulled away on business,”</i> she states firmly. <i>“Steele and I have to... discuss future diplomatic relations between us.”</i> To their credit, the Scarlet Federation soldiers answer the order firmly and professionally in the affirmative, their faces giving no indication that they suspect their commanding officer was doing anything but what she said. You’re sure the guards are fully aware of what’s really going on, but you can’t tell by looking at them.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02985888&gt;&gt;"
+  },
+  {
+    "key": "output|Merely_hearing_Nehzara_use_such_a_commanding_tone_has_brought_a|fe675ce9e55c",
+    "original": "Merely hearing Nehzara use such a commanding tone has brought a faint blush to your face. You can’t help but imagine her fucking you in the same way: forceful, firm, and in control. You trail behind her, [pc.eachCock] slowly growing in arousal and anticipation.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02986549&gt;&gt;"
+  },
+  {
+    "key": "output|i_In_here_i_she_says_and_directs_you_to_a_small_door_almo|ce1406ae0f4f",
+    "original": "<i>“In here,”</i> she says, and directs you to a small door almost hidden behind several boxes. <i>“This is where they’ve stuck a few of the smaller supplies, stuff like cleaning tools and the like.”</i> She nods and pulls open the door to pull you inside.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02987243&gt;&gt;"
+  },
+  {
+    "key": "output|She_s_on_you_immediately_No_sooner_had_the_door_closed_behind_y|218dcd1b323a",
+    "original": "She’s on you immediately. No sooner had the door closed behind you than you find yourself pushed up against the wall, Nehzara’s lips pressed to yours. Her curvaceous body forces itself against you as if she had completely lost control. You’d had a feeling she was pent-up, but this still catches you off-guard",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02987514&gt;&gt;"
+  },
+  {
+    "key": "output|You_both_reach_for_your_gear_before_it_becomes_obvious_that_ther|0a5827c4324a",
+    "original": "You both reach for your gear before it becomes obvious that there isn’t anything between the red myr and your rigid loins",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02988692&gt;&gt;"
+  },
+  {
+    "key": "output|Your_pc_gear_is_stripped_off_you_in_record_time|6882af42e0b4",
+    "original": "Your [pc.gear] is stripped off you in record time",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02988828&gt;&gt;"
+  },
+  {
+    "key": "output|and_you_watch_in_fascination_while_Nehzara_finally_clicks_on_t|b260cf98872a",
+    "original": ", and you watch in fascination while Nehzara finally clicks on the light, unbuttons her uniform blouse, and unclasps something – you assume it’s a built-in brassiere – so that you finally get a look at her generous breasts. You’d already noticed she’s a good bit bustier than the other Reds you’ve seen; now that she’s displaying her tits openly, you guess they’re somewhere in the vicinity of a D-cup. They look to have been sculpted by some masterful hand: they’re just the right fullness and perkiness for their size, and the shape couldn’t have been more perfect if she’d paid top-dollar for mods. You only get a second to marvel at them, however, because Nehzara has ideas of her own.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02988888&gt;&gt;"
+  },
+  {
+    "key": "output|The_colonel_reaches_forward_to_cup_the_back_of_your_head_with_on|bde9fffc310f",
+    "original": "The colonel reaches forward to cup the back of your head with one hand",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02989592&gt;&gt;"
+  },
+  {
+    "key": "output|Nehzara_responds_with_a_smug_smirk_and_traces_her_fingers_down_y|52268b49d82f",
+    "original": "Nehzara responds with a smug smirk and traces her fingers down your unguarded back gingerly",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02990356&gt;&gt;"
+  },
+  {
+    "key": "output|Your_pc_face_is_finally_removed_from_the_amorous_diplomat_s_bo|af510d1fd9ae",
+    "original": "Your [pc.face] is finally removed from the amorous diplomat’s bosom when she pulls back to take in the entirety of your naked body. There’s a hungry gleam in her eyes as she looks you up and down. You can still smell her pheromones lingering in your nose, driving [pc.eachCock] crazy with anticipation. Your arousal spatters down to the floor in the form of dribs and drabs of slick, thin pre that dribble down from your [pc.cockHeads].",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02991134&gt;&gt;"
+  },
+  {
+    "key": "output|i_You_want_this_too_don_t_you_i_Nehzara_asks_flashing_y|42ab50ac05f4",
+    "original": "<i>“You want this, too, don’t you?”</i> Nehzara asks, flashing you a fierce smile that shows off her brilliant teeth. <i>“It’s been so long since I saw a cock standing erect for me, just like that...”</i> ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02991585&gt;&gt;"
+  },
+  {
+    "key": "output|You_feel_a_firm_hand_grasp_your_shoulder_Nehzara_s_body_presses|0854374a3af5",
+    "original": "You feel a firm hand grasp your shoulder. Nehzara’s body presses close to yours, and her mouth is by your [pc.ear] before you know it. <i>“That was good, Steele,”</i> she coos in a gentle and almost affectionate tone. Hearing her speak like that sends a warm glow through you that’s completely different from the overpowering lust-venom. <i>“Feel free to visit me any time you make an embassy visit. I’d love to do this again.”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03006055&gt;&gt;"
+  },
+  {
+    "key": "output|The_colonel_pulls_away_cleaning_herself_up_and_pulling_on_her_u|425c3b63e2f2",
+    "original": "The colonel pulls away, cleaning herself up and pulling on her uniform. She looks every bit as crisp and composed as when you first laid eyes on her, like she didn’t just ride you through three complete orgasms. She clears her throat and extends her hand to give you a pat on the head. <i>“I should return to the office before I’m missed.”</i> Nehzara’s voice has returned to its normal hard tone, but you know it’s only because she’s switched back to professional mode.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03006501&gt;&gt;"
+  },
+  {
+    "key": "output|Nehzara_gives_you_a_curt_nod_and_leaves_the_storage_closet_lett|e59eed97d4c8",
+    "original": "Nehzara gives you a curt nod and leaves the storage closet, letting you take a moment to catch your breath and step back out into the warehouse.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03006986&gt;&gt;"
+  },
+  {
+    "key": "output|i_Hm_Yes_your_people_here_certainly_recognized_your_name_whe|03218981cfe1",
+    "original": "<i>“Hm. Yes, your people here certainly recognized your name when you arrived. Since they’re not placing you under arrest, it should be safe to assume it’s not because you’re infamous.”</i> Nehzara places her elbows on the desk, folding her hands together and leaning forward to place her chin upon them. <i>“So, Steele... what did you have in mind?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03007810&gt;&gt;"
+  },
+  {
+    "key": "output|With_a_shrug_you_explain_that_as_the_heir_of_an_industrial_and|52ca12dd249a",
+    "original": "With a shrug, you explain that, as the heir of an industrial and technological development company, you’d be a great friend to have as their world is catapulted into the future. The UGC is here, and things aren’t going to return to what they were. A little cooperation now could pay dividends in the future.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03008179&gt;&gt;"
+  },
+  {
+    "key": "output|Nehzara_stares_at_you_for_a_moment_and_comes_to_a_decision_You|58152dae5297",
+    "original": "Nehzara stares at you for a moment and comes to a decision. You’re sure you notice her antennae twitch and her eyes briefly widen, as if she had suddenly realized something. <i>“Yes,”</i> she says after a little more consideration, <i>“I suppose your science and technology could greatly benefit our race. Perhaps....”</i> She goes quiet suddenly, her sentence drifting off and leaving the rest unsaid.\\n\\n<i>“Very well, Steele. You’ve got a deal. I do hope your first impression of the Scarlet Federation was a positive one. I’d have made at least </i>one<i> good impression on someone. But... my original offer still stands, for future consideration. I’m sure I can find some way we could help one another out. Now, do you have more questions for me, or may I get back to work?”</i>",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:03008501&gt;&gt;"
+  },
+  {
+    "key": "header|Panties|be37515efce8",
+    "original": "Panties",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02924165&gt;&gt;"
+  },
+  {
+    "key": "output|Hang_on_a_second_You_look_down_on_the_ground_and_notice_there_s|c739c63dd504",
+    "original": "Hang on a second. You look down on the ground and notice there’s a piece of fabric on the ground. Leaning down and picking it up, you realize they’re Lys’s panties. Did she leave them behind? The black sheer panties are rather alluring and definitely not military issue. You notice they’ve got a noticeably wet crotch.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02924231&gt;&gt;"
+  },
+  {
+    "key": "header|Panties|a2a3ead030f2",
+    "original": "Panties",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02925382&gt;&gt;"
+  },
+  {
+    "key": "output|Hang_on_a_second_You_look_down_on_the_ground_and_notice_ther|df977fcecf2d",
+    "original": "Hang on a second.... You look down on the ground and notice there’s a piece of fabric on the ground. Leaning down and picking it up, you realize they’re Briha’s panties. Did she leave them behind? They’re pretty standard issue for a military girl; camo t-backs, with a notably wet crotch.",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02925450&gt;&gt;"
+  },
+  {
+    "key": "header|Confrontation|64d3d19466da",
+    "original": "Confrontation!",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02932025&gt;&gt;"
+  },
+  {
+    "key": "output|You|d92a1c7e7e5f",
+    "original": "You ",
+    "translation": "",
+    "stage": 0,
+    "context": "&lt;&lt;POS:02932051&gt;&gt;"
+  }
+]
