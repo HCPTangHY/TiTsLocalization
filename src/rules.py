@@ -373,9 +373,23 @@ def _process_arg_extract(ctx):
                 # 以引号开头但后面有拼接（如 "text"+var），走 expr
                 real_pos = ctx.paren_pos + 1 + arg_offset + leading
                 placeholder, var_map = _placeholderize_expr(stripped)
+                # 剥离首尾 wrapper 引号（同 call_extract 逻辑）
+                expr_text = placeholder
+                pos_adjust = 0
+                if expr_text.startswith('"'):
+                    expr_text = expr_text[1:]
+                    pos_adjust += 1
+                while expr_text.startswith('\\n') or expr_text.startswith('\\t'):
+                    expr_text = expr_text[2:]
+                    pos_adjust += 2
+                if expr_text.endswith('"'):
+                    expr_text = expr_text[:-1]
+                while expr_text.endswith('\\n') or expr_text.endswith('\\t'):
+                    expr_text = expr_text[:-2]
+                real_pos += pos_adjust
                 vars_tag = '<<VARS:' + ','.join(f'{k}={v}' for k, v in var_map.items()) + '>>'
                 expr_context = f"{vars_tag} {full_call}"
-                entry = make_entry(ctx, category + ".expr", placeholder, real_pos, context_text=expr_context)
+                entry = make_entry(ctx, category + ".expr", expr_text, real_pos, context_text=expr_context)
         else:
             # 非字符串参数（纯变量、表达式、拼接等）：
             # 全部走 placeholderize，让译者决定是否翻译/包装
@@ -517,6 +531,11 @@ _FIELD = {
 }
 
 
+# statName/statTitle 等字段在三目表达式中出现时（如 statName:t?"PHY":"PHYSIQUE"），
+# scanner 触发 string event 时 prefix 末尾是 t?" 或 e:" 而不是 statName:"。
+# 需要在 prefix 中搜索字段名而不是只检查末尾。
+_FIELD_ANY_VALUE = {'statName', 'statTitle'}  # 这些字段提取任意值表达式中的字符串
+
 def _is_field(ctx):
     if ctx.event != "string":
         return False
@@ -524,12 +543,24 @@ def _is_field(ctx):
     for f in _FIELD:
         if prefix.endswith(f + ':') or prefix.endswith(f + ': '):
             return True
+    # 三目/nullish fallback：prefix 中有字段名后跟 : 再跟非引号内容再跟 ? 或引号
+    # 如 statName:t?"  statName:null!==...?e:"
+    for f in _FIELD_ANY_VALUE:
+        # 搜 prefix 中 f: 的位置
+        tag = f + ':'
+        idx = prefix.rfind(tag)
+        if idx >= 0:
+            after = prefix[idx + len(tag):]
+            # 确认中间没有逗号或 }（说明还在同一个属性值内）
+            if ',' not in after and '}' not in after:
+                return True
     return False
 
 
 def _process_field(ctx):
     s = ctx.scanner
     prefix = ctx.prefix.rstrip()
+    # 直接匹配：statName:"LEVEL"
     for f, category in _FIELD.items():
         if prefix.endswith(f + ':') or prefix.endswith(f + ': '):
             str_content, end = parse_js_string(s.content, ctx.pos)
@@ -538,6 +569,21 @@ def _process_field(ctx):
                 field_ctx = f"{f}:" + repr(str_content[:60])
                 entry = make_entry(ctx, category, str_content, ctx.pos + 1, context_text=field_ctx)
                 return [entry] if entry else []
+    # 三目/nullish fallback：statName:t?"PHY" 或 statName:...?e:"SHIELDS"
+    # prefix 里有字段名但不在末尾（中间隔了三目表达式片段）
+    for f in _FIELD_ANY_VALUE:
+        tag = f + ':'
+        idx = prefix.rfind(tag)
+        if idx >= 0:
+            after = prefix[idx + len(tag):]
+            if ',' not in after and '}' not in after:
+                str_content, end = parse_js_string(s.content, ctx.pos)
+                if str_content is not None:
+                    ctx.end_pos = end
+                    field_ctx = f"{f}:(ternary)" + repr(str_content[:60])
+                    category = _FIELD[f]
+                    entry = make_entry(ctx, category, str_content, ctx.pos + 1, context_text=field_ctx)
+                    return [entry] if entry else []
     return []
 
 
