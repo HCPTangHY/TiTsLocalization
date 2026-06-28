@@ -329,14 +329,24 @@ def _process_arg_extract(ctx):
         return []
 
     inner = s.content[ctx.paren_pos + 1:close]
-    ctx.end_pos = close + 1
+
+    # addButton/addDisabledButton 的第三个参数是 callback 函数体，
+    # 里面可能包含 output()/blockHeader() 等需要提取的调用。
+    # 不跳过整个 addButton(...)，只跳到第三个参数之前，让 scanner 深入 callback。
+    args = s.split_args(inner)
+    if ctx.identifier in ('addButton', 'addDisabledButton') and len(args) > 2:
+        # end_pos 设到第三个参数开始位置，scanner 会从这里继续扫描
+        _, third_arg_offset = args[2]
+        ctx.end_pos = ctx.paren_pos + 1 + third_arg_offset
+    else:
+        ctx.end_pos = close + 1
 
     # 完整调用作为上下文（截断避免过长）
     full_call = f"{ctx.identifier}({inner})"
     if len(full_call) > 300:
         full_call = full_call[:300] + "..."
 
-    args = s.split_args(inner)
+    # args 已在上面 split 过，直接复用
     results = []
 
     for arg_idx, category in extractions:
