@@ -1,1 +1,242 @@
-[{"key": "assign|Deerium_Lite|8a0c016cf950", "original": "Deerium Lite", "translation": "", "context": "<<POS:09849778>> hortName=\"DeerLite\",e.longName='Deerium Lite'"}, {"key": "assign|a_Deerium_Lite_medipen|9c0d4911d1cc", "original": "a Deerium Lite medipen", "translation": "", "context": "<<POS:09849864>> ase(e.longName)),e.description='a Deerium Lite medipen'"}, {"key": "assign|With_the_success_of_Taurico_Venidae_VesperTech_received_high_de|17544e8d91bc", "original": "With the success of Taurico Venidae, VesperTech received high demands to create a 'Deerium Lite' for those who wanted to gain deer-like features without becoming a taur. This time, VesperTech's marketing team chose to stick with the more popular name.", "translation": "", "context": "<<POS:09849899>> eerium Lite medipen\",e.tooltip='With the success of Taurico Venidae, VesperTech received hig'"}, {"key": "output.expr|var0_var1_uses_the_injector_to_no_effect|5dfc71ab33d1", "original": "{var0}+{var1}+\" uses the injector to no effect.", "translation": "", "context": "<<POS:09850380>> <<VARS:var0=e.capitalA,var1=e.short>> output(e.capitalA+e.short+\" uses the injector to no effect.\")"}, {"key": "output|You_hold_the_medipen_to_your_arm_and_slowly_press_down_You_feel|49f32fa049b9", "original": "You hold the medipen to your arm and slowly press down. You feel a bit of numbness, which is quickly followed by a sharp prick as the medipen injects you with the Deerium Lite. Hope this works.", "translation": "", "context": "<<POS:09850479>> output(\"You hold the medipen to your arm and slowly press down. You feel a bit of numbness, which is quickly followed by a sharp prick as the medipen injects you with the Deerium Lite. Hope this works.\")"}, {"key": "output|Nothing_happens_Oh_deer_looks_like_it_s_already_done_all_it_co|10cb39c664e5", "original": "Nothing happens. Oh deer, looks like it's already done all it could.", "translation": "", "context": "<<POS:09851889>> output(\"\\n\\nNothing happens. Oh deer, looks like it's already done all it could.\")"}, {"key": "output|Your_vision_blurs_as_you_feel_your|6b8f868fd30d", "original": "Your vision blurs as you feel your", "translation": "", "context": "<<POS:09852269>> output(\"\\n\\nYour vision blurs as you feel your\")"}, {"key": "output.expr|top_var0_set_of_eyes_eye_shrink_into_your_head_whi|aaa764231dbe", "original": " top \"+({var0}?\"set of eyes\":\"eye\")+\" shrink into your head, while your primary", "translation": "", "context": "<<POS:09852330>> <<VARS:var0=e.eyeCount()>3>> output(\" top \"+(e.eyeCount()>3?\"set of eyes\":\"eye\")+\" shrink into your head, while your primary\")"}, {"key": "output|eyes_bloat_up_like_they_re_about_to_pop_Thankfully_it_stops|49fbe190f3f8", "original": " eyes bloat up, like they're about to pop! Thankfully, it stops and you quickly regain your vision and check your codex to see the changes. <b>Well, you certainly look 'doe-eyed' now!</b>", "translation": "", "context": "<<POS:09852428>> output(\" eyes bloat up, like they're about to pop! Thankfully, it stops and you quickly regain your vision and check your codex to see the changes. <b>Well, you certainly look 'doe-eyed' now!</b>\")"}, {"key": "output.expr|var0_eyeTypeLockedMessage|955f7f88009a", "original": "\"+{var0}.eyeTypeLockedMessage()", "translation": "", "context": "<<POS:09852808>> <<VARS:var0=e>> output(\"\\n\\n\"+e.eyeTypeLockedMessage())"}, {"key": "output.expr|Your_pc_legOrLegs_suddenly_become_weak_sending_you_tumbling_o|e201efcd4963", "original": "Your [pc.legOrLegs] suddenly become weak, sending you tumbling onto your \"+({var0}.isTaur()?\"flank\":\"butt\")+\" wondering what’s happening. You flop on the floor helplessly feeling like ", "translation": "", "context": "<<POS:09852950>> <<VARS:var0=e>> output(\"\\n\\nYour [pc.legOrLegs] suddenly become weak, sending you tumbling onto your \"+(e.isTaur()?\"flank\":\"butt\")+\" wondering what’s happening. You flop on the floor helplessly feeling like \")"}, {"key": "output|you_re_splitting_in_half_until_it_really_happens_and_your_lower|d4f667c6b713", "original": "you’re splitting in half, until it really happens and your lower body becomes a pair of legs! They grow to look like those of a deer, with light brown fur capped by small black hooves.", "translation": "", "context": "<<POS:09853155>> output(\"you’re splitting in half, until it really happens and your lower body becomes a pair of legs! They grow to look like those of a deer, with light brown fur capped by small black hooves.\")"}, {"key": "output|they_re_turning_to_putty_until_they_change_shape_and_start_to_r|d820b91b8336", "original": "they’re turning to putty, until they change shape and start to resemble those of a deer, with light brown fur capped by small black hooves.", "translation": "", "context": "<<POS:09853350>> output(\"they’re turning to putty, until they change shape and start to resemble those of a deer, with light brown fur capped by small black hooves.\")"}, {"key": "output|Your_new_legs_aren_t_much_different_than_the_old_to_be_honest|9593019d416d", "original": " Your new legs aren’t much different than the old, to be honest.", "translation": "", "context": "<<POS:09853595>> output(\" Your new legs aren’t much different than the old, to be honest.\")"}, {"key": "output|You_carefully_get_up_balancing_yourself_on_your_hooves_as_you|bf020ce60034", "original": " You carefully get up, balancing yourself on your hooves as you try to get used to your new gait.", "translation": "", "context": "<<POS:09853670>> output(\" You carefully get up, balancing yourself on your hooves as you try to get used to your new gait.\")"}, {"key": "output|b_You_now_have_the_legs_of_a_deer_b|a73580a15bce", "original": " <b>You now have the legs of a deer!</b>", "translation": "", "context": "<<POS:09853778>> output(\" <b>You now have the legs of a deer!</b>\")"}, {"key": "output.expr|var0_legTypeLockedMessage|967f350d2b2a", "original": "\"+{var0}.legTypeLockedMessage()", "translation": "", "context": "<<POS:09854031>> <<VARS:var0=e>> output(\"\\n\\n\"+e.legTypeLockedMessage())"}, {"key": "output.expr|var0_legCountLockedMessage|09ba01780b7b", "original": "\"+{var0}.legCountLockedMessage()", "translation": "", "context": "<<POS:09854071>> <<VARS:var0=e>> output(\"\\n\\n\"+e.legCountLockedMessage())"}, {"key": "output|There_s_a_rush_of_heat_that_hits_your_groin_and_pulses_through_y|d47ea4459cc0", "original": "There's a rush of heat that hits your groin and pulses through your [pc.cocks]", "translation": "", "context": "<<POS:09854319>> output(\"\\n\\nThere's a rush of heat that hits your groin and pulses through your [pc.cocks]\")"}, {"key": "output.expr|causing_var0_hasCocks_them_it_to_strain_against|836b569348ba", "original": ", causing \"+({var0}.hasCocks()?\"them\":\"it\")+\" to strain against your [pc.crotchCoverUnder]", "translation": "", "context": "<<POS:09854429>> <<VARS:var0=e>> output(\", causing \"+(e.hasCocks()?\"them\":\"it\")+\" to strain against your [pc.crotchCoverUnder]\")"}, {"key": "output.expr|The_pulsing_continues_as_you_feel_your_pc_cock_var0_shri|e27f70350636", "original": "The pulsing continues as you feel your [pc.cock \"+{var0}+\"] shrink into your crotch, disappearing", "translation": "", "context": "<<POS:09854541>> <<VARS:var0=a>> output(\"\\n\\nThe pulsing continues as you feel your [pc.cock \"+a+\"] shrink into your crotch, disappearing\")"}, {"key": "output.expr|into_your_var1_hasCrotchFlag_var0_slit_sheath|1f90ea0a4212", "original": " into your \"+({var1}.hasCrotchFlag({var0})?\"slit\":\"sheath\")", "translation": "", "context": "<<POS:09854705>> <<VARS:var0=GLOBAL.FLAG_GENITAL_SLIT,var1=e>> output(\" into your \"+(e.hasCrotchFlag(GLOBAL.FLAG_GENITAL_SLIT)?\"slit\":\"sheath\"))"}, {"key": "output|completely_Just_as_you_think_your_cock_has_been_removed_you_s|226d28674488", "original": " completely. Just as you think your cock has been removed, you see a tapered head poking out of your", "translation": "", "context": "<<POS:09854787>> output(\" completely. Just as you think your cock has been removed, you see a tapered head poking out of your\")"}, {"key": "output|newly_formed|23b5e1262844", "original": " newly formed", "translation": "", "context": "<<POS:09854914>> output(\" newly formed\")"}, {"key": "output|sheath_stretching_outwards_until_it_reaches_its_full_length|db8138e982dc", "original": " sheath, stretching outwards until it reaches its full length.", "translation": "", "context": "<<POS:09854938>> output(\" sheath, stretching outwards until it reaches its full length.\")"}, {"key": "output|Come_to_think_of_it_it_doesn_t_look_too_different_from_your_ol|cb9fdd97546e", "original": " Come to think of it, it doesn't look too different from your old one.", "translation": "", "context": "<<POS:09855049>> output(\" Come to think of it, it doesn't look too different from your old one.\")"}, {"key": "output|b_You_now_have_a_sheathed_tapered_deer_s_cock_b|b44b68138167", "original": " <b>You now have a sheathed, tapered deer's cock!</b>", "translation": "", "context": "<<POS:09855130>> output(\" <b>You now have a sheathed, tapered deer's cock!</b>\")"}, {"key": "output.expr|var0_cockTypeLockedMessage|23e556f4e54b", "original": "\"+{var0}.cockTypeLockedMessage()", "translation": "", "context": "<<POS:09855235>> <<VARS:var0=e>> output(\"\\n\\n\"+e.cockTypeLockedMessage())"}, {"key": "output|You_feel_your_nose_twitch_for_a_bit_but_your_face_doesn_t_feel|24be0afda25c", "original": "You feel your nose twitch for a bit, but your face doesn't feel any different. Still, you pull up your codex just to make sure. And behold, <b>you now have an adorable black, button nose - just like a deer's!</b>", "translation": "", "context": "<<POS:09855318>> output(\"\\n\\nYou feel your nose twitch for a bit, but your face doesn't feel any different. Still, you pull up your codex just to make sure. And behold, <b>you now have an adorable black, button nose - just like a deer's!</b>\")"}, {"key": "output|You_feel_an_uncomfortable_tingling_sensation_as_the_bones_in_you|595992e7a1d9", "original": "You feel an uncomfortable tingling sensation as the bones in your face begin flex out, stretching your nose and jaw until they form <b>a long, elegant snout, like a deer's!</b>", "translation": "", "context": "<<POS:09855634>> output(\"\\n\\nYou feel an uncomfortable tingling sensation as the bones in your face begin flex out, stretching your nose and jaw until they form <b>a long, elegant snout, like a deer's!</b>\")"}, {"key": "output|Your_scales_are_flaking_off_One_after_another_the_shiny_pc_sc|2c256f7ca76a", "original": "Your scales are flaking off! One after another, the shiny [pc.scaleColor] little plates are falling to the ground. In their place soft, [pc.furColor] hairs spring up. You brush the last of your scales away as your full-body fur finishes growing in.", "translation": "", "context": "<<POS:09856025>> output(\"\\n\\nYour scales are flaking off! One after another, the shiny [pc.scaleColor] little plates are falling to the ground. In their place soft, [pc.furColor] hairs spring up. You brush the last of your scales away as your full-body fur finishes growing in.\")"}, {"key": "output|Your_chitinous_armor_cracks_loudly_Thankfully_it_doesn_t_hurt|4d00a8c50be3", "original": "Your chitinous armor cracks loudly. Thankfully, it doesn’t hurt even though the fractures are spreading across your body like breaking glass. You peel away a piece and discover [pc.skinFurScales] growing up out of the gap, and as you marvel at it, the rest of your chitin slowly sloughs off.", "translation": "", "context": "<<POS:09856302>> output(\"\\n\\nYour chitinous armor cracks loudly. Thankfully, it doesn’t hurt even though the fractures are spreading across your body like breaking glass. You peel away a piece and discover [pc.skinFurScales] growing up out of the gap, and as you marvel at it, the rest of your chitin slowly sloughs o..."}, {"key": "output|Tiny_hairs_break_through_the_surface_of_your_pc_skin_making_y|6200eeb0029e", "original": "Tiny hairs break through the surface of your [pc.skin], making you itch like crazy. It’s enough to distract you for sure, and it only gets worse as more and more hair emerges. The ones that came out first are getting longer and thicker, with the newer additions following close behind.", "translation": "", "context": "<<POS:09856608>> output(\"\\n\\nTiny hairs break through the surface of your [pc.skin], making you itch like crazy. It’s enough to distract you for sure, and it only gets worse as more and more hair emerges. The ones that came out first are getting longer and thicker, with the newer additions following close behind.\")"}, {"key": "output|b_Your_whole_body_is_now_covered_in_pc_skinFurScales_b|a6869ea0e684", "original": "<b>Your whole body is now covered in [pc.skinFurScales]!</b>", "translation": "", "context": "<<POS:09856959>> output(\"\\n\\n<b>Your whole body is now covered in [pc.skinFurScales]!</b>\")"}, {"key": "output.expr|var0_skinTypeLockedMessage|be0fc29e3cbc", "original": "\"+{var0}.skinTypeLockedMessage()", "translation": "", "context": "<<POS:09857035>> <<VARS:var0=e>> output(\"\\n\\n\"+e.skinTypeLockedMessage())"}, {"key": "output|Your_fur_begins_to_change_in_color_becoming_a_light_brown_save|8e31a3542d2e", "original": "Your fur begins to change in color, becoming a light brown save for your stomach and tail turning white.", "translation": "", "context": "<<POS:09857112>> output(\"\\n\\nYour fur begins to change in color, becoming a light brown save for your stomach and tail turning white.\")"}, {"key": "output|You_notice_that_you_have_white_spots_across_your_body_too_givi|eef22d412c06", "original": " You notice that you have white spots across your body too, giving a dappled effect of color.", "translation": "", "context": "<<POS:09857257>> output(\" You notice that you have white spots across your body too, giving a dappled effect of color.\")"}, {"key": "output|b_You_now_have_brown_fur|5c31c7e50a27", "original": " <b>You now have brown fur", "translation": "", "context": "<<POS:09857361>> output(\" <b>You now have brown fur\")"}, {"key": "output|dappled_with_white_spots|157a37ca64ae", "original": " dappled with white spots", "translation": "", "context": "<<POS:09857428>> output(\" dappled with white spots\")"}, {"key": "output|b|554bc4cb1cc4", "original": "!</b>", "translation": "", "context": "<<POS:09857464>> output(\"!</b>\")"}]
+[
+  {
+    "key": "assign|Deerium_Lite|8a0c016cf950",
+    "original": "Deerium Lite",
+    "translation": "",
+    "context": "<<POS:09849778>> hortName=\"DeerLite\",e.longName='Deerium Lite'"
+  },
+  {
+    "key": "assign|a_Deerium_Lite_medipen|9c0d4911d1cc",
+    "original": "a Deerium Lite medipen",
+    "translation": "",
+    "context": "<<POS:09849864>> ase(e.longName)),e.description='a Deerium Lite medipen'"
+  },
+  {
+    "key": "assign|With_the_success_of_Taurico_Venidae_VesperTech_received_high_de|17544e8d91bc",
+    "original": "With the success of Taurico Venidae, VesperTech received high demands to create a 'Deerium Lite' for those who wanted to gain deer-like features without becoming a taur. This time, VesperTech's marketing team chose to stick with the more popular name.",
+    "translation": "",
+    "context": "<<POS:09849899>> eerium Lite medipen\",e.tooltip='With the success of Taurico Venidae, VesperTech received hig'"
+  },
+  {
+    "key": "output.expr|var0_var1_uses_the_injector_to_no_effect|5dfc71ab33d1",
+    "original": "{var0}+{var1}+\" uses the injector to no effect.",
+    "translation": "",
+    "context": "<<POS:09850380>> <<VARS:var0=e.capitalA|var1=e.short>> output(e.capitalA+e.short+\" uses the injector to no effect.\")"
+  },
+  {
+    "key": "output|You_hold_the_medipen_to_your_arm_and_slowly_press_down_You_feel|49f32fa049b9",
+    "original": "You hold the medipen to your arm and slowly press down. You feel a bit of numbness, which is quickly followed by a sharp prick as the medipen injects you with the Deerium Lite. Hope this works.",
+    "translation": "",
+    "context": "<<POS:09850479>> output(\"You hold the medipen to your arm and slowly press down. You feel a bit of numbness, which is quickly followed by a sharp prick as the medipen injects you with the Deerium Lite. Hope this works.\")"
+  },
+  {
+    "key": "output|Nothing_happens_Oh_deer_looks_like_it_s_already_done_all_it_co|10cb39c664e5",
+    "original": "Nothing happens. Oh deer, looks like it's already done all it could.",
+    "translation": "",
+    "context": "<<POS:09851889>> output(\"\\n\\nNothing happens. Oh deer, looks like it's already done all it could.\")"
+  },
+  {
+    "key": "output|Your_vision_blurs_as_you_feel_your|6b8f868fd30d",
+    "original": "Your vision blurs as you feel your",
+    "translation": "",
+    "context": "<<POS:09852269>> output(\"\\n\\nYour vision blurs as you feel your\")"
+  },
+  {
+    "key": "output.expr|top_var0_set_of_eyes_eye_shrink_into_your_head_whi|aaa764231dbe",
+    "original": " top \"+({var0}?\"set of eyes\":\"eye\")+\" shrink into your head, while your primary",
+    "translation": "",
+    "context": "<<POS:09852330>> <<VARS:var0=e.eyeCount()>3>> output(\" top \"+(e.eyeCount()>3?\"set of eyes\":\"eye\")+\" shrink into your head, while your primary\")"
+  },
+  {
+    "key": "output|eyes_bloat_up_like_they_re_about_to_pop_Thankfully_it_stops|49fbe190f3f8",
+    "original": " eyes bloat up, like they're about to pop! Thankfully, it stops and you quickly regain your vision and check your codex to see the changes. <b>Well, you certainly look 'doe-eyed' now!</b>",
+    "translation": "",
+    "context": "<<POS:09852428>> output(\" eyes bloat up, like they're about to pop! Thankfully, it stops and you quickly regain your vision and check your codex to see the changes. <b>Well, you certainly look 'doe-eyed' now!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_eyeTypeLockedMessage|955f7f88009a",
+    "original": "\"+{var0}.eyeTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:09852808>> <<VARS:var0=e>> output(\"\\n\\n\"+e.eyeTypeLockedMessage())"
+  },
+  {
+    "key": "output.expr|Your_pc_legOrLegs_suddenly_become_weak_sending_you_tumbling_o|e201efcd4963",
+    "original": "Your [pc.legOrLegs] suddenly become weak, sending you tumbling onto your \"+({var0}.isTaur()?\"flank\":\"butt\")+\" wondering what’s happening. You flop on the floor helplessly feeling like ",
+    "translation": "",
+    "context": "<<POS:09852950>> <<VARS:var0=e>> output(\"\\n\\nYour [pc.legOrLegs] suddenly become weak, sending you tumbling onto your \"+(e.isTaur()?\"flank\":\"butt\")+\" wondering what’s happening. You flop on the floor helplessly feeling like \")"
+  },
+  {
+    "key": "output|you_re_splitting_in_half_until_it_really_happens_and_your_lower|d4f667c6b713",
+    "original": "you’re splitting in half, until it really happens and your lower body becomes a pair of legs! They grow to look like those of a deer, with light brown fur capped by small black hooves.",
+    "translation": "",
+    "context": "<<POS:09853155>> output(\"you’re splitting in half, until it really happens and your lower body becomes a pair of legs! They grow to look like those of a deer, with light brown fur capped by small black hooves.\")"
+  },
+  {
+    "key": "output|they_re_turning_to_putty_until_they_change_shape_and_start_to_r|d820b91b8336",
+    "original": "they’re turning to putty, until they change shape and start to resemble those of a deer, with light brown fur capped by small black hooves.",
+    "translation": "",
+    "context": "<<POS:09853350>> output(\"they’re turning to putty, until they change shape and start to resemble those of a deer, with light brown fur capped by small black hooves.\")"
+  },
+  {
+    "key": "output|Your_new_legs_aren_t_much_different_than_the_old_to_be_honest|9593019d416d",
+    "original": " Your new legs aren’t much different than the old, to be honest.",
+    "translation": "",
+    "context": "<<POS:09853595>> output(\" Your new legs aren’t much different than the old, to be honest.\")"
+  },
+  {
+    "key": "output|You_carefully_get_up_balancing_yourself_on_your_hooves_as_you|bf020ce60034",
+    "original": " You carefully get up, balancing yourself on your hooves as you try to get used to your new gait.",
+    "translation": "",
+    "context": "<<POS:09853670>> output(\" You carefully get up, balancing yourself on your hooves as you try to get used to your new gait.\")"
+  },
+  {
+    "key": "output|b_You_now_have_the_legs_of_a_deer_b|a73580a15bce",
+    "original": " <b>You now have the legs of a deer!</b>",
+    "translation": "",
+    "context": "<<POS:09853778>> output(\" <b>You now have the legs of a deer!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_legTypeLockedMessage|967f350d2b2a",
+    "original": "\"+{var0}.legTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:09854031>> <<VARS:var0=e>> output(\"\\n\\n\"+e.legTypeLockedMessage())"
+  },
+  {
+    "key": "output.expr|var0_legCountLockedMessage|09ba01780b7b",
+    "original": "\"+{var0}.legCountLockedMessage()",
+    "translation": "",
+    "context": "<<POS:09854071>> <<VARS:var0=e>> output(\"\\n\\n\"+e.legCountLockedMessage())"
+  },
+  {
+    "key": "output|There_s_a_rush_of_heat_that_hits_your_groin_and_pulses_through_y|d47ea4459cc0",
+    "original": "There's a rush of heat that hits your groin and pulses through your [pc.cocks]",
+    "translation": "",
+    "context": "<<POS:09854319>> output(\"\\n\\nThere's a rush of heat that hits your groin and pulses through your [pc.cocks]\")"
+  },
+  {
+    "key": "output.expr|causing_var0_hasCocks_them_it_to_strain_against|836b569348ba",
+    "original": ", causing \"+({var0}.hasCocks()?\"them\":\"it\")+\" to strain against your [pc.crotchCoverUnder]",
+    "translation": "",
+    "context": "<<POS:09854429>> <<VARS:var0=e>> output(\", causing \"+(e.hasCocks()?\"them\":\"it\")+\" to strain against your [pc.crotchCoverUnder]\")"
+  },
+  {
+    "key": "output.expr|The_pulsing_continues_as_you_feel_your_pc_cock_var0_shri|e27f70350636",
+    "original": "The pulsing continues as you feel your [pc.cock \"+{var0}+\"] shrink into your crotch, disappearing",
+    "translation": "",
+    "context": "<<POS:09854541>> <<VARS:var0=a>> output(\"\\n\\nThe pulsing continues as you feel your [pc.cock \"+a+\"] shrink into your crotch, disappearing\")"
+  },
+  {
+    "key": "output.expr|into_your_var1_hasCrotchFlag_var0_slit_sheath|1f90ea0a4212",
+    "original": " into your \"+({var1}.hasCrotchFlag({var0})?\"slit\":\"sheath\")",
+    "translation": "",
+    "context": "<<POS:09854705>> <<VARS:var0=GLOBAL.FLAG_GENITAL_SLIT|var1=e>> output(\" into your \"+(e.hasCrotchFlag(GLOBAL.FLAG_GENITAL_SLIT)?\"slit\":\"sheath\"))"
+  },
+  {
+    "key": "output|completely_Just_as_you_think_your_cock_has_been_removed_you_s|226d28674488",
+    "original": " completely. Just as you think your cock has been removed, you see a tapered head poking out of your",
+    "translation": "",
+    "context": "<<POS:09854787>> output(\" completely. Just as you think your cock has been removed, you see a tapered head poking out of your\")"
+  },
+  {
+    "key": "output|newly_formed|23b5e1262844",
+    "original": " newly formed",
+    "translation": "",
+    "context": "<<POS:09854914>> output(\" newly formed\")"
+  },
+  {
+    "key": "output|sheath_stretching_outwards_until_it_reaches_its_full_length|db8138e982dc",
+    "original": " sheath, stretching outwards until it reaches its full length.",
+    "translation": "",
+    "context": "<<POS:09854938>> output(\" sheath, stretching outwards until it reaches its full length.\")"
+  },
+  {
+    "key": "output|Come_to_think_of_it_it_doesn_t_look_too_different_from_your_ol|cb9fdd97546e",
+    "original": " Come to think of it, it doesn't look too different from your old one.",
+    "translation": "",
+    "context": "<<POS:09855049>> output(\" Come to think of it, it doesn't look too different from your old one.\")"
+  },
+  {
+    "key": "output|b_You_now_have_a_sheathed_tapered_deer_s_cock_b|b44b68138167",
+    "original": " <b>You now have a sheathed, tapered deer's cock!</b>",
+    "translation": "",
+    "context": "<<POS:09855130>> output(\" <b>You now have a sheathed, tapered deer's cock!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_cockTypeLockedMessage|23e556f4e54b",
+    "original": "\"+{var0}.cockTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:09855235>> <<VARS:var0=e>> output(\"\\n\\n\"+e.cockTypeLockedMessage())"
+  },
+  {
+    "key": "output|You_feel_your_nose_twitch_for_a_bit_but_your_face_doesn_t_feel|24be0afda25c",
+    "original": "You feel your nose twitch for a bit, but your face doesn't feel any different. Still, you pull up your codex just to make sure. And behold, <b>you now have an adorable black, button nose - just like a deer's!</b>",
+    "translation": "",
+    "context": "<<POS:09855318>> output(\"\\n\\nYou feel your nose twitch for a bit, but your face doesn't feel any different. Still, you pull up your codex just to make sure. And behold, <b>you now have an adorable black, button nose - just like a deer's!</b>\")"
+  },
+  {
+    "key": "output|You_feel_an_uncomfortable_tingling_sensation_as_the_bones_in_you|595992e7a1d9",
+    "original": "You feel an uncomfortable tingling sensation as the bones in your face begin flex out, stretching your nose and jaw until they form <b>a long, elegant snout, like a deer's!</b>",
+    "translation": "",
+    "context": "<<POS:09855634>> output(\"\\n\\nYou feel an uncomfortable tingling sensation as the bones in your face begin flex out, stretching your nose and jaw until they form <b>a long, elegant snout, like a deer's!</b>\")"
+  },
+  {
+    "key": "output|Your_scales_are_flaking_off_One_after_another_the_shiny_pc_sc|2c256f7ca76a",
+    "original": "Your scales are flaking off! One after another, the shiny [pc.scaleColor] little plates are falling to the ground. In their place soft, [pc.furColor] hairs spring up. You brush the last of your scales away as your full-body fur finishes growing in.",
+    "translation": "",
+    "context": "<<POS:09856025>> output(\"\\n\\nYour scales are flaking off! One after another, the shiny [pc.scaleColor] little plates are falling to the ground. In their place soft, [pc.furColor] hairs spring up. You brush the last of your scales away as your full-body fur finishes growing in.\")"
+  },
+  {
+    "key": "output|Your_chitinous_armor_cracks_loudly_Thankfully_it_doesn_t_hurt|4d00a8c50be3",
+    "original": "Your chitinous armor cracks loudly. Thankfully, it doesn’t hurt even though the fractures are spreading across your body like breaking glass. You peel away a piece and discover [pc.skinFurScales] growing up out of the gap, and as you marvel at it, the rest of your chitin slowly sloughs off.",
+    "translation": "",
+    "context": "<<POS:09856302>> output(\"\\n\\nYour chitinous armor cracks loudly. Thankfully, it doesn’t hurt even though the fractures are spreading across your body like breaking glass. You peel away a piece and discover [pc.skinFurScales] growing up out of the gap, and as you marvel at it, the rest of your chitin slowly sloughs o..."
+  },
+  {
+    "key": "output|Tiny_hairs_break_through_the_surface_of_your_pc_skin_making_y|6200eeb0029e",
+    "original": "Tiny hairs break through the surface of your [pc.skin], making you itch like crazy. It’s enough to distract you for sure, and it only gets worse as more and more hair emerges. The ones that came out first are getting longer and thicker, with the newer additions following close behind.",
+    "translation": "",
+    "context": "<<POS:09856608>> output(\"\\n\\nTiny hairs break through the surface of your [pc.skin], making you itch like crazy. It’s enough to distract you for sure, and it only gets worse as more and more hair emerges. The ones that came out first are getting longer and thicker, with the newer additions following close behind.\")"
+  },
+  {
+    "key": "output|b_Your_whole_body_is_now_covered_in_pc_skinFurScales_b|a6869ea0e684",
+    "original": "<b>Your whole body is now covered in [pc.skinFurScales]!</b>",
+    "translation": "",
+    "context": "<<POS:09856959>> output(\"\\n\\n<b>Your whole body is now covered in [pc.skinFurScales]!</b>\")"
+  },
+  {
+    "key": "output.expr|var0_skinTypeLockedMessage|be0fc29e3cbc",
+    "original": "\"+{var0}.skinTypeLockedMessage()",
+    "translation": "",
+    "context": "<<POS:09857035>> <<VARS:var0=e>> output(\"\\n\\n\"+e.skinTypeLockedMessage())"
+  },
+  {
+    "key": "output|Your_fur_begins_to_change_in_color_becoming_a_light_brown_save|8e31a3542d2e",
+    "original": "Your fur begins to change in color, becoming a light brown save for your stomach and tail turning white.",
+    "translation": "",
+    "context": "<<POS:09857112>> output(\"\\n\\nYour fur begins to change in color, becoming a light brown save for your stomach and tail turning white.\")"
+  },
+  {
+    "key": "output|You_notice_that_you_have_white_spots_across_your_body_too_givi|eef22d412c06",
+    "original": " You notice that you have white spots across your body too, giving a dappled effect of color.",
+    "translation": "",
+    "context": "<<POS:09857257>> output(\" You notice that you have white spots across your body too, giving a dappled effect of color.\")"
+  },
+  {
+    "key": "output|b_You_now_have_brown_fur|5c31c7e50a27",
+    "original": " <b>You now have brown fur",
+    "translation": "",
+    "context": "<<POS:09857361>> output(\" <b>You now have brown fur\")"
+  },
+  {
+    "key": "output|dappled_with_white_spots|157a37ca64ae",
+    "original": " dappled with white spots",
+    "translation": "",
+    "context": "<<POS:09857428>> output(\" dappled with white spots\")"
+  },
+  {
+    "key": "output|b|554bc4cb1cc4",
+    "original": "!</b>",
+    "translation": "",
+    "context": "<<POS:09857464>> output(\"!</b>\")"
+  }
+]

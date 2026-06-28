@@ -1,1 +1,638 @@
-[{"key": "assign|The_top_row_of_cards_is_the_dealer_s_hand_The_total_points_in_t|797b8cf7e045", "original": "The top row of cards is the dealer’s hand. The total points in this hand is listed under the <b>Dealer</b> score.", "translation": "", "context": "<<POS:17554318>> });var i=o.prepHelper();i.text='The top row of cards is the dealer’s hand. The total points '"}, {"key": "assign|And_the_bottom_row_of_cards_is_your_hand_The_total_points_in_th|4990411b8bbd", "original": "And the bottom row of cards is your hand. The total points in this hand is listed under the <b>Player</b> score.", "translation": "", "context": "<<POS:17555170>> });var s=o.prepHelper();s.text='And the bottom row of cards is your hand. The total points i'"}, {"key": "assign|For_each_pip_card_their_point_values_are_equivalent_to_the_numb|3b7c27ccb025", "original": "For each pip card, their point values are equivalent to the number displayed, ranging from 2 to 10 points.", "translation": "", "context": "<<POS:17555981>> });var r=o.prepHelper();r.text='For each pip card, their point values are equivalent to the '"}, {"key": "assign|For_each_face_card_that_is_Jack_J_Queen_Q_and_King_K_t|cacd36a4e68a", "original": "For each face card--that is: Jack (J), Queen (Q) and King (K)--their point values will be 10 points each.", "translation": "", "context": "<<POS:17556793>> });var u=o.prepHelper();u.text='For each face card--that is: Jack (J), Queen (Q) and King (K'"}, {"key": "assign|Normally_Aces_A_are_11_points_each_but_if_the_hand_s_score_ev|972fa525cc32", "original": "Normally Aces (A) are 11 points each, but if the hand’s score ever reaches over 21 points, the affected hand’s Aces will be re-evaluated to be 1 point each instead.", "translation": "", "context": "<<POS:17557588>> });var l=o.prepHelper();l.text='Normally Aces (A) are 11 points each, but if the hand’s scor'"}, {"key": "assign|If_they_are_played_in_the_decks_Joker_cards_are_always_valued_a|3338159e82f2", "original": "If they are played in the decks, Joker cards are always valued at 11 points each.", "translation": "", "context": "<<POS:17558307>> });var h=o.prepHelper();h.text='If they are played in the decks, Joker cards are always valu'"}, {"key": "assign|For_your_possible_actions_you_can_b_Hit_b_to_take_a_turn_and|6af6ff7bdf94", "original": "For your possible actions, you can <b>Hit</b> to take a turn and draw a new card to your hand, if possible. Or, you can <b>Stand</b> to hold your current hand for the remainder of the game.", "translation": "", "context": "<<POS:17558984>> });var c=o.prepHelper();c.text='For your possible actions, you can <b>Hit</b> to take a turn'"}, {"key": "assign|View_your_current_betting_status_by_looking_at_the_b_Stakes_b|d34db4d37044", "original": " View your current betting status by looking at the <b>Stakes</b>.", "translation": "", "context": "<<POS:17559210>> s.state.showViewBets&&(c.text+=' View your current betting status by looking at the <b>Stake'"}, {"key": "assign|To_win_a_game_is_to_have_a_hand_with_a_point_score_higher_than_t|55bd1d2b03ad", "original": "To win a game is to have a hand with a point score higher than the opponent’s but no greater than 21 points. If the scores both match, the game will be considered a draw or a loss, depending on the house rules.", "translation": "", "context": "<<POS:17559692>> });var d=o.prepHelper();d.text='To win a game is to have a hand with a point score higher th'"}, {"key": "assign|br_Now_that_you_know_how_everything_works_it_s_time_to_play_so|a20cbbbe13a2", "original": "<br>Now that you know how everything works, it’s time to play some cards!<br><br>", "translation": "", "context": "<<POS:17560512>> });var g=o.prepHelper();g.text='<br>Now that you know how everything works, it’s time to pla'"}, {"key": "string.array|spade_heart_club_diamond|0fae016a7cda", "original": "[\"spade\",\"heart\",\"club\",\"diamond\"]", "translation": "", "context": "<<POS:17561277>> '[\"spade\",\"heart\",\"club\",\"diamond\"]'"}, {"key": "button|Hit|528ee92459d2", "original": "Hit", "translation": "", "context": "<<POS:17562110>> addButton(0,\"Hit\",(function(){return t.generateMenu()}))"}, {"key": "button|Stakes|ea0b9080f88a", "original": "Stakes", "translation": "", "context": "<<POS:17562192>> addButton(1,\"Stakes\",(function(){return t.generateMenu()}))"}, {"key": "button|Stand|ddacd292763c", "original": "Stand", "translation": "", "context": "<<POS:17562252>> addButton(2,\"Stand\",(function(){return t.generateMenu()}))"}, {"key": "assign|br|537c8bac8e7c", "original": "<br>", "translation": "", "context": "<<POS:17562327>> ));var u=o.prepHelper();u.text='<br>'"}, {"key": "button|Next|ccd558e9003a", "original": "Next", "translation": "继续", "context": "<<POS:17565686>> addButton(0,\"Next\",this.processAction)", "stage": 1}, {"key": "assign|Both_hands_are_Bust_the_House_wins|fe9fcd119ebb", "original": "Both hands are Bust; the House wins.", "translation": "", "context": "<<POS:17567498>> 1?(r=i?\"You Lost\":\"You Lose\",u='Both hands are Bust; the House wins.'"}, {"key": "assign|Both_hands_are_Blackjack_you_win_ties_with_Roo|d081b18ba32b", "original": "Both hands are Blackjack; you win ties with Roo!", "translation": "", "context": "<<POS:17567645>> \"Victory Achieved\":\"You Win\",u='Both hands are Blackjack; you win ties with Roo!'"}, {"key": "assign|Both_hands_are_Blackjack_but_you_have_more_cards_you_win|a2081aef7ee0", "original": "Both hands are Blackjack, but you have more cards; you win!", "translation": "", "context": "<<POS:17567817>> r=i?\"You Defeated\":\"You Win\",u='Both hands are Blackjack, but you have more cards; you win!'"}, {"key": "assign|Both_hands_are_Blackjack_the_House_wins|ab61130d34f8", "original": "Both hands are Blackjack; the House wins.", "translation": "", "context": "<<POS:17567943>> ?\"Victory Stolen\":\"You Lose\",u='Both hands are Blackjack; the House wins.'"}, {"key": "assign|Your_hand_is_Bust_the_House_wins|45ac3775feef", "original": "Your hand is Bust; the House wins.", "translation": "", "context": "<<POS:17568059>> 1?(r=i?\"You Lost\":\"You Lose\",u='Your hand is Bust; the House wins.'"}, {"key": "assign|You_win_ties_with_Roo|edb7dc295ded", "original": "You win ties with Roo!", "translation": "", "context": "<<POS:17568351>> \",\"Roo\"===this.props.dealer?(u='You win ties with Roo!'"}, {"key": "assign|Tie_game_push|d7ada9ae6c56", "original": "Tie game, push.", "translation": "", "context": "<<POS:17568408>> ||(l.win+=1),l.class=\"win\"):(u='Tie game, push.'"}, {"key": "assign|No_penalties_for_this_round|1d6601323ce0", "original": " No penalties for this round.", "translation": "", "context": "<<POS:17568456>> ,isNaN(this.props.gameCost)?u+=' No penalties for this round.'"}, {"key": "assign|You_get_your_money_back|9dc763aee237", "original": " You get your money back.", "translation": "", "context": "<<POS:17568491>> penalties for this round.\":u+=' You get your money back.'"}, {"key": "assign|Blackjack_You_win|3568ec0900fb", "original": "Blackjack! You win!", "translation": "", "context": "<<POS:17568752>> \"Victory Achieved\":\"You Win\",u='Blackjack! You win!'"}, {"key": "assign|You_have_a_better_hand_than_the_House_you_win|89c1127aaf61", "original": "You have a better hand than the House; you win!", "translation": "", "context": "<<POS:17568839>> \"Victory Achieved\":\"You Win\",u='You have a better hand than the House; you win!'"}, {"key": "assign|br_You_can_t_afford_to_play_another_hand|9cddf6e38f87", "original": "<br>You can’t afford to play another hand.", "translation": "", "context": "<<POS:17569153>> s+h-this.props.gameCost<=0?(u+='<br>You can’t afford to play another hand.'"}, {"key": "button|Next|272ef45efafd", "original": "Next", "translation": "继续", "context": "<<POS:17569264>> addButton(n++,\"Next\",(function(){var e;a.clearAnnouncement(),clearMenu(),a.cachePuzzleState(!0),ui.state.tempBlackjackState=((e=ui.state.puzzleStateSnapshot).data.playerCards=[],e.data.dealerCards=[],e.data.isPlayerFirst=!1,e.data.isPlayerTurn=!1,e.data.isRoundOver=!0,e.data.roundsWon=l.win,e.data.r...", "stage": 1}, {"key": "button|Deal|a54e26a49926", "original": "Deal", "translation": "", "context": "<<POS:17569803>> addButton(n++,\"Deal\",(function(){a.clearAnnouncement(),clearMenu(),a.triggerDrawCardAnimation(),a.setState({gameStarted:!0,playerCards:[],dealerCards:[],isPlayerFirst:!1,isPlayerTurn:!1,isRoundOver:!0},a.processAction)}),\"Deal\",\"Get dealt a new hand.\")"}, {"key": "button.hover|Deal|a54e26a49926", "original": "Deal", "translation": "", "context": "<<POS:17570010>> addButton(n++,\"Deal\",(function(){a.clearAnnouncement(),clearMenu(),a.triggerDrawCardAnimation(),a.setState({gameStarted:!0,playerCards:[],dealerCards:[],isPlayerFirst:!1,isPlayerTurn:!1,isRoundOver:!0},a.processAction)}),\"Deal\",\"Get dealt a new hand.\")"}, {"key": "button.tooltip|Get_dealt_a_new_hand|f60c548984d1", "original": "Get dealt a new hand.", "translation": "", "context": "<<POS:17570017>> addButton(n++,\"Deal\",(function(){a.clearAnnouncement(),clearMenu(),a.triggerDrawCardAnimation(),a.setState({gameStarted:!0,playerCards:[],dealerCards:[],isPlayerFirst:!1,isPlayerTurn:!1,isRoundOver:!0},a.processAction)}),\"Deal\",\"Get dealt a new hand.\")"}, {"key": "button|Done|cd5364d989d7", "original": "Done", "translation": "", "context": "<<POS:17570059>> addButton(n++,\"Done\",(function(){a.clearAnnouncement(),a.onFinishedPlaying()}),\"Done\",\"You are finished playing the card game.\")"}, {"key": "button.hover|Done|cd5364d989d7", "original": "Done", "translation": "", "context": "<<POS:17570124>> addButton(n++,\"Done\",(function(){a.clearAnnouncement(),a.onFinishedPlaying()}),\"Done\",\"You are finished playing the card game.\")"}, {"key": "button.tooltip|You_are_finished_playing_the_card_game|cc2889b1a00c", "original": "You are finished playing the card game.", "translation": "", "context": "<<POS:17570131>> addButton(n++,\"Done\",(function(){a.clearAnnouncement(),a.onFinishedPlaying()}),\"Done\",\"You are finished playing the card game.\")"}, {"key": "assign|div_class_receiptContainer|66265d3d584d", "original": "<div class=\"receiptContainer\">", "translation": "", "context": "<<POS:17570870>> Math.round(s*u),h=\"Credits\";t+='<div class=\"receiptContainer\">'"}, {"key": "assign|ul_class_receipt|8e57745403c9", "original": "<ul class=\"receipt\">", "translation": "", "context": "<<POS:17570906>> class=\"receiptContainer\">',t+='<ul class=\"receipt\">'"}, {"key": "assign|li|65e5b5453780", "original": "<li>", "translation": "", "context": "<<POS:17570932>> ',t+='<ul class=\"receipt\">',t+='<li>'"}, {"key": "assign|span_class_name_span_class_text_Current_Bet_span_span|ac8a8f62eb3d", "original": "<span class=\"name\"><span class=\"text\">Current Bet</span></span>", "translation": "", "context": "<<POS:17570942>> class=\"receipt\">',t+=\"<li>\",t+='<span class=\"name\"><span class=\"text\">Current Bet</span></sp'"}, {"key": "assign|span_class_value_span_class_caution|7e68a03e88f7", "original": "<span class=\"value\"><span class=\"caution\">", "translation": "", "context": "<<POS:17571011>> >Current Bet</span></span>',t+='<span class=\"value\"><span class=\"caution\">'"}, {"key": "output.expr|var0|cf8c8788ef3d", "original": "{var0}", "translation": "", "context": "<<POS:17571137>> <<VARS:var0=h>> ParseText(h)"}, {"key": "assign|li|56b0527af81b", "original": "</li>", "translation": "", "context": "<<POS:17571177>> erCase()),\"</span></span>\"),t+='</li>'"}, {"key": "assign|li|92ebfcc2954e", "original": "<li>", "translation": "", "context": "<<POS:17571188>> </span></span>\"),t+=\"</li>\",t+='<li>'"}, {"key": "assign|span_class_name_span_class_text_Win_span_class_good|8dd544683552", "original": "<span class=\"name\"><span class=\"text\">Win (<span class=\"good\">", "translation": "", "context": "<<POS:17571198>> pan>\"),t+=\"</li>\",t+=\"<li>\",t+='<span class=\"name\"><span class=\"text\">Win (<span class=\"good'"}, {"key": "assign|span_class_value_span_class|7aa6f2f91312", "original": "<span class=\"value\"><span class=\"", "translation": "", "context": "<<POS:17571422>> an>)\"):\"\",\"</span></span>\"),t+='<span class=\"value\"><span class=\"'"}, {"key": "assign|li|9ed8d0b35d9a", "original": "</li>", "translation": "", "context": "<<POS:17571529>> th.abs(s),\"</span></span>\"),t+='</li>'"}, {"key": "assign|ul|3f5fecb64d8a", "original": "</ul>", "translation": "", "context": "<<POS:17571540>> </span></span>\"),t+=\"</li>\",t+='</ul>'"}, {"key": "assign|ul_class_receipt|99a6ebbe6a9e", "original": "<ul class=\"receipt\">", "translation": "", "context": "<<POS:17571551>> an>\"),t+=\"</li>\",t+=\"</ul>\",t+='<ul class=\"receipt\">'"}, {"key": "assign|li|65e5b5453780#1", "original": "<li>", "translation": "", "context": "<<POS:17571577>> \",t+='<ul class=\"receipt\">',t+='<li>'"}, {"key": "assign|span_class_name_span_class_text_Your_Funds_span_span|0d7f848f0658", "original": "<span class=\"name\"><span class=\"text\">Your Funds</span></span>", "translation": "", "context": "<<POS:17571587>> class=\"receipt\">',t+=\"<li>\",t+='<span class=\"name\"><span class=\"text\">Your Funds</span></spa'"}, {"key": "assign|span_class_value_span_class_text|5718801f7327", "original": "<span class=\"value\"><span class=\"text\">", "translation": "", "context": "<<POS:17571655>> \">Your Funds</span></span>',t+='<span class=\"value\"><span class=\"text\">'"}, {"key": "output.expr|var0|2f54ea430eb7", "original": "{var0}", "translation": "", "context": "<<POS:17571778>> <<VARS:var0=h>> ParseText(h)"}, {"key": "assign|li|56b0527af81b#1", "original": "</li>", "translation": "", "context": "<<POS:17571818>> erCase()),\"</span></span>\"),t+='</li>'"}, {"key": "assign|li|92ebfcc2954e#1", "original": "<li>", "translation": "", "context": "<<POS:17571829>> </span></span>\"),t+=\"</li>\",t+='<li>'"}, {"key": "assign|span_class_name_span_class_text_Current_Pot_span_span|c3be9b9357e0", "original": "<span class=\"name\"><span class=\"text\">Current Pot</span></span>", "translation": "", "context": "<<POS:17571839>> pan>\"),t+=\"</li>\",t+=\"<li>\",t+='<span class=\"name\"><span class=\"text\">Current Pot</span></sp'"}, {"key": "assign|span_class_value_span_class|916986e4eabd", "original": "<span class=\"value\"><span class=\"", "translation": "", "context": "<<POS:17571908>> >Current Pot</span></span>',t+='<span class=\"value\"><span class=\"'"}, {"key": "output.expr|var0|9ce7cb213fec", "original": "{var0}", "translation": "", "context": "<<POS:17572059>> <<VARS:var0=h>> ParseText(h)"}, {"key": "assign|li|56b0527af81b#2", "original": "</li>", "translation": "", "context": "<<POS:17572099>> erCase()),\"</span></span>\"),t+='</li>'"}, {"key": "assign|ul|3f5fecb64d8a#1", "original": "</ul>", "translation": "", "context": "<<POS:17572110>> </span></span>\"),t+=\"</li>\",t+='</ul>'"}, {"key": "assign|div|93b83304f2df", "original": "</div>", "translation": "", "context": "<<POS:17572121>> an>\"),t+=\"</li>\",t+=\"</ul>\",t+='</div>'"}, {"key": "button|Stakes|c4eebe5c33f7", "original": "Stakes", "translation": "", "context": "<<POS:17572621>> addButton(t,\"Stakes\",(function(){return e.viewBets(t)}),\"View Stakes\",\"View the amount of Credits you are betting.\")"}, {"key": "button.hover|View_Stakes|b0bbc43763ff", "original": "View Stakes", "translation": "", "context": "<<POS:17572665>> addButton(t,\"Stakes\",(function(){return e.viewBets(t)}),\"View Stakes\",\"View the amount of Credits you are betting.\")"}, {"key": "button.tooltip|View_the_amount_of_Credits_you_are_betting|ca56c53cb08c", "original": "View the amount of Credits you are betting.", "translation": "", "context": "<<POS:17572679>> addButton(t,\"Stakes\",(function(){return e.viewBets(t)}),\"View Stakes\",\"View the amount of Credits you are betting.\")"}, {"key": "button|New_Game|3302c29543d9", "original": "New Game", "translation": "新游戏", "context": "<<POS:17573049>> addButton(0,\"New Game\",(function(){return e.initGame(!0)}),\"New Card Game\",\"Begin a new game of blackjack.\")", "stage": 1}, {"key": "button.hover|New_Card_Game|e33d69b6974e", "original": "New Card Game", "translation": "", "context": "<<POS:17573096>> addButton(0,\"New Game\",(function(){return e.initGame(!0)}),\"New Card Game\",\"Begin a new game of blackjack.\")"}, {"key": "button.tooltip|Begin_a_new_game_of_blackjack|4682d41661b4", "original": "Begin a new game of blackjack.", "translation": "", "context": "<<POS:17573112>> addButton(0,\"New Game\",(function(){return e.initGame(!0)}),\"New Card Game\",\"Begin a new game of blackjack.\")"}, {"key": "button|Deck_Settings|058f24f7d53e", "original": "Deck Settings", "translation": "", "context": "<<POS:17573209>> addButton(2,\"Deck Settings\",(function(){return Up(2)}),\"Deck Settings\",\"Customize the deck of cards.\")"}, {"key": "button.hover|Deck_Settings|058f24f7d53e", "original": "Deck Settings", "translation": "", "context": "<<POS:17573252>> addButton(2,\"Deck Settings\",(function(){return Up(2)}),\"Deck Settings\",\"Customize the deck of cards.\")"}, {"key": "button.tooltip|Customize_the_deck_of_cards|6b315b2c5909", "original": "Customize the deck of cards.", "translation": "", "context": "<<POS:17573268>> addButton(2,\"Deck Settings\",(function(){return Up(2)}),\"Deck Settings\",\"Customize the deck of cards.\")"}, {"key": "button|Help|455935940a6c", "original": "Help", "translation": "", "context": "<<POS:17573455>> addButton(3,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_BLACKJACK_PROMPT&&(flags.TUTORIAL_BLACKJACK_PROMPT=2),e.generateTutorialBoard()}),\"Blackjack Tutorial\",\"Get an explanation of this game mode.\")"}, {"key": "button.hover|Blackjack_Tutorial|d0621a4b906a", "original": "Blackjack Tutorial", "translation": "", "context": "<<POS:17573647>> addButton(3,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_BLACKJACK_PROMPT&&(flags.TUTORIAL_BLACKJACK_PROMPT=2),e.generateTutorialBoard()}),\"Blackjack Tutorial\",\"Get an explanation of this game mode.\")"}, {"key": "button.tooltip|Get_an_explanation_of_this_game_mode|a07a255ca0e3", "original": "Get an explanation of this game mode.", "translation": "", "context": "<<POS:17573668>> addButton(3,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_BLACKJACK_PROMPT&&(flags.TUTORIAL_BLACKJACK_PROMPT=2),e.generateTutorialBoard()}),\"Blackjack Tutorial\",\"Get an explanation of this game mode.\")"}, {"key": "button|Exit_Game|c72493389ba6", "original": "Exit Game", "translation": "", "context": "<<POS:17573729>> addButton(4,\"Exit Game\",(function(){window.removeBlackjackMinigame(),window.returnFromElement(),window.getGameState()&&!0!==e.props.testGame||showMainMenu(!0,!0,!0),e.props.onFailure()}),\"Exit Card Game\",\"Do not play blackjack.\")"}, {"key": "button.hover|Exit_Card_Game|14d5c7de653c", "original": "Exit Card Game", "translation": "", "context": "<<POS:17573904>> addButton(4,\"Exit Game\",(function(){window.removeBlackjackMinigame(),window.returnFromElement(),window.getGameState()&&!0!==e.props.testGame||showMainMenu(!0,!0,!0),e.props.onFailure()}),\"Exit Card Game\",\"Do not play blackjack.\")"}, {"key": "button.tooltip|Do_not_play_blackjack|a78ad645b538", "original": "Do not play blackjack.", "translation": "", "context": "<<POS:17573921>> addButton(4,\"Exit Game\",(function(){window.removeBlackjackMinigame(),window.returnFromElement(),window.getGameState()&&!0!==e.props.testGame||showMainMenu(!0,!0,!0),e.props.onFailure()}),\"Exit Card Game\",\"Do not play blackjack.\")"}, {"key": "button|Hit|0ad84ab67839", "original": "Hit", "translation": "", "context": "<<POS:17574030>> addDisabledButton(0,\"Hit\",\"Hit\",\"No point hitting when you’re already bust...\")"}, {"key": "button.hover|No_point_hitting_when_you_re_already_bust|77c9f607e2ea", "original": "No point hitting when you’re already bust...", "translation": "", "context": "<<POS:17574042>> addDisabledButton(0,\"Hit\",\"Hit\",\"No point hitting when you’re already bust...\")"}, {"key": "button|Continue|9d04c156a158", "original": "Continue", "translation": "继续", "context": "<<POS:17574102>> addButton(2,\"Continue\",(function(){return e.stand()}),\"Continue\",\"Not much to do when you’re already bust...\")", "stage": 1}, {"key": "button.hover|Continue|9d04c156a158", "original": "Continue", "translation": "继续", "context": "<<POS:17574144>> addButton(2,\"Continue\",(function(){return e.stand()}),\"Continue\",\"Not much to do when you’re already bust...\")", "stage": 1}, {"key": "button.tooltip|Not_much_to_do_when_you_re_already_bust|b152d30ed072", "original": "Not much to do when you’re already bust...", "translation": "", "context": "<<POS:17574155>> addButton(2,\"Continue\",(function(){return e.stand()}),\"Continue\",\"Not much to do when you’re already bust...\")"}, {"key": "button|Hit|f61f462312ae", "original": "Hit", "translation": "", "context": "<<POS:17574230>> addDisabledButton(0,\"Hit\",\"Hit\",\"You’ve already got 21, doofus!\")"}, {"key": "button.hover|You_ve_already_got_21_doofus|db071c48565b", "original": "You’ve already got 21, doofus!", "translation": "", "context": "<<POS:17574242>> addDisabledButton(0,\"Hit\",\"Hit\",\"You’ve already got 21, doofus!\")"}, {"key": "button|Hit|48cccc1e7322", "original": "Hit", "translation": "", "context": "<<POS:17574288>> addButton(0,\"Hit\",(function(){return e.hit()}),\"Hit\",\"Draw another card...\")"}, {"key": "button.hover|Hit|48cccc1e7322", "original": "Hit", "translation": "", "context": "<<POS:17574323>> addButton(0,\"Hit\",(function(){return e.hit()}),\"Hit\",\"Draw another card...\")"}, {"key": "button.tooltip|Draw_another_card|0da2b6696aa2", "original": "Draw another card...", "translation": "", "context": "<<POS:17574329>> addButton(0,\"Hit\",(function(){return e.hit()}),\"Hit\",\"Draw another card...\")"}, {"key": "button|Stand|1b01231f93a6", "original": "Stand", "translation": "", "context": "<<POS:17574365>> addButton(2,\"Stand\",(function(){return e.stand()}),\"Stand\",\"Stick with what you’ve got already...\")"}, {"key": "button.hover|Stand|1b01231f93a6", "original": "Stand", "translation": "", "context": "<<POS:17574404>> addButton(2,\"Stand\",(function(){return e.stand()}),\"Stand\",\"Stick with what you’ve got already...\")"}, {"key": "button.tooltip|Stick_with_what_you_ve_got_already|5c7836b6e640", "original": "Stick with what you’ve got already...", "translation": "", "context": "<<POS:17574412>> addButton(2,\"Stand\",(function(){return e.stand()}),\"Stand\",\"Stick with what you’ve got already...\")"}, {"key": "button|Next|6675188dc933", "original": "Next", "translation": "继续", "context": "<<POS:17574523>> addButton(0,\"Next\",this.processAction)", "stage": 1}, {"key": "button|Deal|a54e26a49926#1", "original": "Deal", "translation": "", "context": "<<POS:17574599>> addButton(0,\"Deal\",(function(){e.triggerDrawCardAnimation(),e.processAction()}),\"Deal\",\"Get dealt a new hand.\")"}, {"key": "button.hover|Deal|a54e26a49926#1", "original": "Deal", "translation": "", "context": "<<POS:17574667>> addButton(0,\"Deal\",(function(){e.triggerDrawCardAnimation(),e.processAction()}),\"Deal\",\"Get dealt a new hand.\")"}, {"key": "button.tooltip|Get_dealt_a_new_hand|f60c548984d1#1", "original": "Get dealt a new hand.", "translation": "", "context": "<<POS:17574674>> addButton(0,\"Deal\",(function(){e.triggerDrawCardAnimation(),e.processAction()}),\"Deal\",\"Get dealt a new hand.\")"}, {"key": "ui.title|Current_Round|46d4d8a071c1", "original": "Current Round", "translation": "", "context": "<<POS:17577759>> title:'Current Round'"}, {"key": "ui.element|W|fbbeb20bb2a8", "original": "W: ", "translation": "", "context": "<<POS:17577993>> createElement(\"span\", ..., 'W: ')"}, {"key": "ui.title|Wins|b6dfe8ecc7bd", "original": "Wins", "translation": "", "context": "<<POS:17577985>> title:'Wins'"}, {"key": "ui.element|L|2911668739f7", "original": "L: ", "translation": "", "context": "<<POS:17578210>> createElement(\"span\", ..., 'L: ')"}, {"key": "ui.title|Losses|45615b1b8b0f", "original": "Losses", "translation": "", "context": "<<POS:17578200>> title:'Losses'"}, {"key": "ui.element|D|9f080a72a337", "original": "D: ", "translation": "", "context": "<<POS:17578484>> createElement(\"span\", ..., 'D: ')"}, {"key": "ui.title|Draws|8e8ffb63886d", "original": "Draws", "translation": "", "context": "<<POS:17578475>> title:'Draws'"}, {"key": "ui.title|Dealer_Score|c470f3dee577", "original": "Dealer Score", "translation": "", "context": "<<POS:17578762>> title:'Dealer Score'"}, {"key": "ui.title|Player_Score|32298f997374", "original": "Player Score", "translation": "", "context": "<<POS:17579030>> title:'Player Score'"}, {"key": "ui.title|Current_Bet|674d2f9b011e", "original": "Current Bet", "translation": "", "context": "<<POS:17579287>> title:'Current Bet'"}, {"key": "output.expr|var0|ecba505ac1f7", "original": "{var0}", "translation": "", "context": "<<POS:17579515>> <<VARS:var0=b>> ParseText(b)"}, {"key": "ui.title|Current_Pot|e8a580030a06", "original": "Current Pot", "translation": "", "context": "<<POS:17579646>> title:'Current Pot'"}, {"key": "output.expr|var0|870ddc9d7045", "original": "{var0}", "translation": "", "context": "<<POS:17579813>> <<VARS:var0=b>> ParseText(b)"}, {"key": "string.array|a_2_3_4_5_6_7_8_9_10_j_q_k|3ca3c941e223", "original": "[\"a\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"j\",\"q\",\"k\"]", "translation": "", "context": "<<POS:17583507>> '[\"a\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"j\",\"q\",\"k\"]'"}]
+[
+  {
+    "key": "assign|The_top_row_of_cards_is_the_dealer_s_hand_The_total_points_in_t|797b8cf7e045",
+    "original": "The top row of cards is the dealer’s hand. The total points in this hand is listed under the <b>Dealer</b> score.",
+    "translation": "",
+    "context": "<<POS:17554318>> });var i=o.prepHelper();i.text='The top row of cards is the dealer’s hand. The total points '"
+  },
+  {
+    "key": "assign|And_the_bottom_row_of_cards_is_your_hand_The_total_points_in_th|4990411b8bbd",
+    "original": "And the bottom row of cards is your hand. The total points in this hand is listed under the <b>Player</b> score.",
+    "translation": "",
+    "context": "<<POS:17555170>> });var s=o.prepHelper();s.text='And the bottom row of cards is your hand. The total points i'"
+  },
+  {
+    "key": "assign|For_each_pip_card_their_point_values_are_equivalent_to_the_numb|3b7c27ccb025",
+    "original": "For each pip card, their point values are equivalent to the number displayed, ranging from 2 to 10 points.",
+    "translation": "",
+    "context": "<<POS:17555981>> });var r=o.prepHelper();r.text='For each pip card, their point values are equivalent to the '"
+  },
+  {
+    "key": "assign|For_each_face_card_that_is_Jack_J_Queen_Q_and_King_K_t|cacd36a4e68a",
+    "original": "For each face card--that is: Jack (J), Queen (Q) and King (K)--their point values will be 10 points each.",
+    "translation": "",
+    "context": "<<POS:17556793>> });var u=o.prepHelper();u.text='For each face card--that is: Jack (J), Queen (Q) and King (K'"
+  },
+  {
+    "key": "assign|Normally_Aces_A_are_11_points_each_but_if_the_hand_s_score_ev|972fa525cc32",
+    "original": "Normally Aces (A) are 11 points each, but if the hand’s score ever reaches over 21 points, the affected hand’s Aces will be re-evaluated to be 1 point each instead.",
+    "translation": "",
+    "context": "<<POS:17557588>> });var l=o.prepHelper();l.text='Normally Aces (A) are 11 points each, but if the hand’s scor'"
+  },
+  {
+    "key": "assign|If_they_are_played_in_the_decks_Joker_cards_are_always_valued_a|3338159e82f2",
+    "original": "If they are played in the decks, Joker cards are always valued at 11 points each.",
+    "translation": "",
+    "context": "<<POS:17558307>> });var h=o.prepHelper();h.text='If they are played in the decks, Joker cards are always valu'"
+  },
+  {
+    "key": "assign|For_your_possible_actions_you_can_b_Hit_b_to_take_a_turn_and|6af6ff7bdf94",
+    "original": "For your possible actions, you can <b>Hit</b> to take a turn and draw a new card to your hand, if possible. Or, you can <b>Stand</b> to hold your current hand for the remainder of the game.",
+    "translation": "",
+    "context": "<<POS:17558984>> });var c=o.prepHelper();c.text='For your possible actions, you can <b>Hit</b> to take a turn'"
+  },
+  {
+    "key": "assign|View_your_current_betting_status_by_looking_at_the_b_Stakes_b|d34db4d37044",
+    "original": " View your current betting status by looking at the <b>Stakes</b>.",
+    "translation": "",
+    "context": "<<POS:17559210>> s.state.showViewBets&&(c.text+=' View your current betting status by looking at the <b>Stake'"
+  },
+  {
+    "key": "assign|To_win_a_game_is_to_have_a_hand_with_a_point_score_higher_than_t|55bd1d2b03ad",
+    "original": "To win a game is to have a hand with a point score higher than the opponent’s but no greater than 21 points. If the scores both match, the game will be considered a draw or a loss, depending on the house rules.",
+    "translation": "",
+    "context": "<<POS:17559692>> });var d=o.prepHelper();d.text='To win a game is to have a hand with a point score higher th'"
+  },
+  {
+    "key": "assign|br_Now_that_you_know_how_everything_works_it_s_time_to_play_so|a20cbbbe13a2",
+    "original": "<br>Now that you know how everything works, it’s time to play some cards!<br><br>",
+    "translation": "",
+    "context": "<<POS:17560512>> });var g=o.prepHelper();g.text='<br>Now that you know how everything works, it’s time to pla'"
+  },
+  {
+    "key": "string.array|spade_heart_club_diamond|0fae016a7cda",
+    "original": "[\"spade\",\"heart\",\"club\",\"diamond\"]",
+    "translation": "",
+    "context": "<<POS:17561277>> '[\"spade\",\"heart\",\"club\",\"diamond\"]'"
+  },
+  {
+    "key": "button|Hit|528ee92459d2",
+    "original": "Hit",
+    "translation": "",
+    "context": "<<POS:17562110>> addButton(0,\"Hit\",(function(){return t.generateMenu()}))"
+  },
+  {
+    "key": "button|Stakes|ea0b9080f88a",
+    "original": "Stakes",
+    "translation": "",
+    "context": "<<POS:17562192>> addButton(1,\"Stakes\",(function(){return t.generateMenu()}))"
+  },
+  {
+    "key": "button|Stand|ddacd292763c",
+    "original": "Stand",
+    "translation": "",
+    "context": "<<POS:17562252>> addButton(2,\"Stand\",(function(){return t.generateMenu()}))"
+  },
+  {
+    "key": "assign|br|537c8bac8e7c",
+    "original": "<br>",
+    "translation": "",
+    "context": "<<POS:17562327>> ));var u=o.prepHelper();u.text='<br>'"
+  },
+  {
+    "key": "button|Next|ccd558e9003a",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:17565686>> addButton(0,\"Next\",this.processAction)"
+  },
+  {
+    "key": "assign|Both_hands_are_Bust_the_House_wins|fe9fcd119ebb",
+    "original": "Both hands are Bust; the House wins.",
+    "translation": "",
+    "context": "<<POS:17567498>> 1?(r=i?\"You Lost\":\"You Lose\",u='Both hands are Bust; the House wins.'"
+  },
+  {
+    "key": "assign|Both_hands_are_Blackjack_you_win_ties_with_Roo|d081b18ba32b",
+    "original": "Both hands are Blackjack; you win ties with Roo!",
+    "translation": "",
+    "context": "<<POS:17567645>> \"Victory Achieved\":\"You Win\",u='Both hands are Blackjack; you win ties with Roo!'"
+  },
+  {
+    "key": "assign|Both_hands_are_Blackjack_but_you_have_more_cards_you_win|a2081aef7ee0",
+    "original": "Both hands are Blackjack, but you have more cards; you win!",
+    "translation": "",
+    "context": "<<POS:17567817>> r=i?\"You Defeated\":\"You Win\",u='Both hands are Blackjack, but you have more cards; you win!'"
+  },
+  {
+    "key": "assign|Both_hands_are_Blackjack_the_House_wins|ab61130d34f8",
+    "original": "Both hands are Blackjack; the House wins.",
+    "translation": "",
+    "context": "<<POS:17567943>> ?\"Victory Stolen\":\"You Lose\",u='Both hands are Blackjack; the House wins.'"
+  },
+  {
+    "key": "assign|Your_hand_is_Bust_the_House_wins|45ac3775feef",
+    "original": "Your hand is Bust; the House wins.",
+    "translation": "",
+    "context": "<<POS:17568059>> 1?(r=i?\"You Lost\":\"You Lose\",u='Your hand is Bust; the House wins.'"
+  },
+  {
+    "key": "assign|You_win_ties_with_Roo|edb7dc295ded",
+    "original": "You win ties with Roo!",
+    "translation": "",
+    "context": "<<POS:17568351>> \",\"Roo\"===this.props.dealer?(u='You win ties with Roo!'"
+  },
+  {
+    "key": "assign|Tie_game_push|d7ada9ae6c56",
+    "original": "Tie game, push.",
+    "translation": "",
+    "context": "<<POS:17568408>> ||(l.win+=1),l.class=\"win\"):(u='Tie game, push.'"
+  },
+  {
+    "key": "assign|No_penalties_for_this_round|1d6601323ce0",
+    "original": " No penalties for this round.",
+    "translation": "",
+    "context": "<<POS:17568456>> ,isNaN(this.props.gameCost)?u+=' No penalties for this round.'"
+  },
+  {
+    "key": "assign|You_get_your_money_back|9dc763aee237",
+    "original": " You get your money back.",
+    "translation": "",
+    "context": "<<POS:17568491>> penalties for this round.\":u+=' You get your money back.'"
+  },
+  {
+    "key": "assign|Blackjack_You_win|3568ec0900fb",
+    "original": "Blackjack! You win!",
+    "translation": "",
+    "context": "<<POS:17568752>> \"Victory Achieved\":\"You Win\",u='Blackjack! You win!'"
+  },
+  {
+    "key": "assign|You_have_a_better_hand_than_the_House_you_win|89c1127aaf61",
+    "original": "You have a better hand than the House; you win!",
+    "translation": "",
+    "context": "<<POS:17568839>> \"Victory Achieved\":\"You Win\",u='You have a better hand than the House; you win!'"
+  },
+  {
+    "key": "assign|br_You_can_t_afford_to_play_another_hand|9cddf6e38f87",
+    "original": "<br>You can’t afford to play another hand.",
+    "translation": "",
+    "context": "<<POS:17569153>> s+h-this.props.gameCost<=0?(u+='<br>You can’t afford to play another hand.'"
+  },
+  {
+    "key": "button|Next|272ef45efafd",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:17569264>> addButton(n++,\"Next\",(function(){var e;a.clearAnnouncement(),clearMenu(),a.cachePuzzleState(!0),ui.state.tempBlackjackState=((e=ui.state.puzzleStateSnapshot).data.playerCards=[],e.data.dealerCards=[],e.data.isPlayerFirst=!1,e.data.isPlayerTurn=!1,e.data.isRoundOver=!0,e.data.roundsWon=l.win,e.data.r..."
+  },
+  {
+    "key": "button|Deal|a54e26a49926",
+    "original": "Deal",
+    "translation": "",
+    "context": "<<POS:17569803>> addButton(n++,\"Deal\",(function(){a.clearAnnouncement(),clearMenu(),a.triggerDrawCardAnimation(),a.setState({gameStarted:!0,playerCards:[],dealerCards:[],isPlayerFirst:!1,isPlayerTurn:!1,isRoundOver:!0},a.processAction)}),\"Deal\",\"Get dealt a new hand.\")"
+  },
+  {
+    "key": "button.hover|Deal|a54e26a49926",
+    "original": "Deal",
+    "translation": "",
+    "context": "<<POS:17570010>> addButton(n++,\"Deal\",(function(){a.clearAnnouncement(),clearMenu(),a.triggerDrawCardAnimation(),a.setState({gameStarted:!0,playerCards:[],dealerCards:[],isPlayerFirst:!1,isPlayerTurn:!1,isRoundOver:!0},a.processAction)}),\"Deal\",\"Get dealt a new hand.\")"
+  },
+  {
+    "key": "button.tooltip|Get_dealt_a_new_hand|f60c548984d1",
+    "original": "Get dealt a new hand.",
+    "translation": "",
+    "context": "<<POS:17570017>> addButton(n++,\"Deal\",(function(){a.clearAnnouncement(),clearMenu(),a.triggerDrawCardAnimation(),a.setState({gameStarted:!0,playerCards:[],dealerCards:[],isPlayerFirst:!1,isPlayerTurn:!1,isRoundOver:!0},a.processAction)}),\"Deal\",\"Get dealt a new hand.\")"
+  },
+  {
+    "key": "button|Done|cd5364d989d7",
+    "original": "Done",
+    "translation": "",
+    "context": "<<POS:17570059>> addButton(n++,\"Done\",(function(){a.clearAnnouncement(),a.onFinishedPlaying()}),\"Done\",\"You are finished playing the card game.\")"
+  },
+  {
+    "key": "button.hover|Done|cd5364d989d7",
+    "original": "Done",
+    "translation": "",
+    "context": "<<POS:17570124>> addButton(n++,\"Done\",(function(){a.clearAnnouncement(),a.onFinishedPlaying()}),\"Done\",\"You are finished playing the card game.\")"
+  },
+  {
+    "key": "button.tooltip|You_are_finished_playing_the_card_game|cc2889b1a00c",
+    "original": "You are finished playing the card game.",
+    "translation": "",
+    "context": "<<POS:17570131>> addButton(n++,\"Done\",(function(){a.clearAnnouncement(),a.onFinishedPlaying()}),\"Done\",\"You are finished playing the card game.\")"
+  },
+  {
+    "key": "assign|div_class_receiptContainer|66265d3d584d",
+    "original": "<div class=\"receiptContainer\">",
+    "translation": "",
+    "context": "<<POS:17570870>> Math.round(s*u),h=\"Credits\";t+='<div class=\"receiptContainer\">'"
+  },
+  {
+    "key": "assign|ul_class_receipt|8e57745403c9",
+    "original": "<ul class=\"receipt\">",
+    "translation": "",
+    "context": "<<POS:17570906>> class=\"receiptContainer\">',t+='<ul class=\"receipt\">'"
+  },
+  {
+    "key": "assign|li|65e5b5453780",
+    "original": "<li>",
+    "translation": "",
+    "context": "<<POS:17570932>> ',t+='<ul class=\"receipt\">',t+='<li>'"
+  },
+  {
+    "key": "assign|span_class_name_span_class_text_Current_Bet_span_span|ac8a8f62eb3d",
+    "original": "<span class=\"name\"><span class=\"text\">Current Bet</span></span>",
+    "translation": "",
+    "context": "<<POS:17570942>> class=\"receipt\">',t+=\"<li>\",t+='<span class=\"name\"><span class=\"text\">Current Bet</span></sp'"
+  },
+  {
+    "key": "assign|span_class_value_span_class_caution|7e68a03e88f7",
+    "original": "<span class=\"value\"><span class=\"caution\">",
+    "translation": "",
+    "context": "<<POS:17571011>> >Current Bet</span></span>',t+='<span class=\"value\"><span class=\"caution\">'"
+  },
+  {
+    "key": "output.expr|var0|cf8c8788ef3d",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:17571137>> <<VARS:var0=h>> ParseText(h)"
+  },
+  {
+    "key": "assign|li|56b0527af81b",
+    "original": "</li>",
+    "translation": "",
+    "context": "<<POS:17571177>> erCase()),\"</span></span>\"),t+='</li>'"
+  },
+  {
+    "key": "assign|li|92ebfcc2954e",
+    "original": "<li>",
+    "translation": "",
+    "context": "<<POS:17571188>> </span></span>\"),t+=\"</li>\",t+='<li>'"
+  },
+  {
+    "key": "assign|span_class_name_span_class_text_Win_span_class_good|8dd544683552",
+    "original": "<span class=\"name\"><span class=\"text\">Win (<span class=\"good\">",
+    "translation": "",
+    "context": "<<POS:17571198>> pan>\"),t+=\"</li>\",t+=\"<li>\",t+='<span class=\"name\"><span class=\"text\">Win (<span class=\"good'"
+  },
+  {
+    "key": "assign|span_class_value_span_class|7aa6f2f91312",
+    "original": "<span class=\"value\"><span class=\"",
+    "translation": "",
+    "context": "<<POS:17571422>> an>)\"):\"\",\"</span></span>\"),t+='<span class=\"value\"><span class=\"'"
+  },
+  {
+    "key": "assign|li|9ed8d0b35d9a",
+    "original": "</li>",
+    "translation": "",
+    "context": "<<POS:17571529>> th.abs(s),\"</span></span>\"),t+='</li>'"
+  },
+  {
+    "key": "assign|ul|3f5fecb64d8a",
+    "original": "</ul>",
+    "translation": "",
+    "context": "<<POS:17571540>> </span></span>\"),t+=\"</li>\",t+='</ul>'"
+  },
+  {
+    "key": "assign|ul_class_receipt|99a6ebbe6a9e",
+    "original": "<ul class=\"receipt\">",
+    "translation": "",
+    "context": "<<POS:17571551>> an>\"),t+=\"</li>\",t+=\"</ul>\",t+='<ul class=\"receipt\">'"
+  },
+  {
+    "key": "assign|li|65e5b5453780#1",
+    "original": "<li>",
+    "translation": "",
+    "context": "<<POS:17571577>> \",t+='<ul class=\"receipt\">',t+='<li>'"
+  },
+  {
+    "key": "assign|span_class_name_span_class_text_Your_Funds_span_span|0d7f848f0658",
+    "original": "<span class=\"name\"><span class=\"text\">Your Funds</span></span>",
+    "translation": "",
+    "context": "<<POS:17571587>> class=\"receipt\">',t+=\"<li>\",t+='<span class=\"name\"><span class=\"text\">Your Funds</span></spa'"
+  },
+  {
+    "key": "assign|span_class_value_span_class_text|5718801f7327",
+    "original": "<span class=\"value\"><span class=\"text\">",
+    "translation": "",
+    "context": "<<POS:17571655>> \">Your Funds</span></span>',t+='<span class=\"value\"><span class=\"text\">'"
+  },
+  {
+    "key": "output.expr|var0|2f54ea430eb7",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:17571778>> <<VARS:var0=h>> ParseText(h)"
+  },
+  {
+    "key": "assign|li|56b0527af81b#1",
+    "original": "</li>",
+    "translation": "",
+    "context": "<<POS:17571818>> erCase()),\"</span></span>\"),t+='</li>'"
+  },
+  {
+    "key": "assign|li|92ebfcc2954e#1",
+    "original": "<li>",
+    "translation": "",
+    "context": "<<POS:17571829>> </span></span>\"),t+=\"</li>\",t+='<li>'"
+  },
+  {
+    "key": "assign|span_class_name_span_class_text_Current_Pot_span_span|c3be9b9357e0",
+    "original": "<span class=\"name\"><span class=\"text\">Current Pot</span></span>",
+    "translation": "",
+    "context": "<<POS:17571839>> pan>\"),t+=\"</li>\",t+=\"<li>\",t+='<span class=\"name\"><span class=\"text\">Current Pot</span></sp'"
+  },
+  {
+    "key": "assign|span_class_value_span_class|916986e4eabd",
+    "original": "<span class=\"value\"><span class=\"",
+    "translation": "",
+    "context": "<<POS:17571908>> >Current Pot</span></span>',t+='<span class=\"value\"><span class=\"'"
+  },
+  {
+    "key": "output.expr|var0|9ce7cb213fec",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:17572059>> <<VARS:var0=h>> ParseText(h)"
+  },
+  {
+    "key": "assign|li|56b0527af81b#2",
+    "original": "</li>",
+    "translation": "",
+    "context": "<<POS:17572099>> erCase()),\"</span></span>\"),t+='</li>'"
+  },
+  {
+    "key": "assign|ul|3f5fecb64d8a#1",
+    "original": "</ul>",
+    "translation": "",
+    "context": "<<POS:17572110>> </span></span>\"),t+=\"</li>\",t+='</ul>'"
+  },
+  {
+    "key": "assign|div|93b83304f2df",
+    "original": "</div>",
+    "translation": "",
+    "context": "<<POS:17572121>> an>\"),t+=\"</li>\",t+=\"</ul>\",t+='</div>'"
+  },
+  {
+    "key": "button|Stakes|c4eebe5c33f7",
+    "original": "Stakes",
+    "translation": "",
+    "context": "<<POS:17572621>> addButton(t,\"Stakes\",(function(){return e.viewBets(t)}),\"View Stakes\",\"View the amount of Credits you are betting.\")"
+  },
+  {
+    "key": "button.hover|View_Stakes|b0bbc43763ff",
+    "original": "View Stakes",
+    "translation": "",
+    "context": "<<POS:17572665>> addButton(t,\"Stakes\",(function(){return e.viewBets(t)}),\"View Stakes\",\"View the amount of Credits you are betting.\")"
+  },
+  {
+    "key": "button.tooltip|View_the_amount_of_Credits_you_are_betting|ca56c53cb08c",
+    "original": "View the amount of Credits you are betting.",
+    "translation": "",
+    "context": "<<POS:17572679>> addButton(t,\"Stakes\",(function(){return e.viewBets(t)}),\"View Stakes\",\"View the amount of Credits you are betting.\")"
+  },
+  {
+    "key": "button|New_Game|3302c29543d9",
+    "original": "New Game",
+    "translation": "",
+    "context": "<<POS:17573049>> addButton(0,\"New Game\",(function(){return e.initGame(!0)}),\"New Card Game\",\"Begin a new game of blackjack.\")"
+  },
+  {
+    "key": "button.hover|New_Card_Game|e33d69b6974e",
+    "original": "New Card Game",
+    "translation": "",
+    "context": "<<POS:17573096>> addButton(0,\"New Game\",(function(){return e.initGame(!0)}),\"New Card Game\",\"Begin a new game of blackjack.\")"
+  },
+  {
+    "key": "button.tooltip|Begin_a_new_game_of_blackjack|4682d41661b4",
+    "original": "Begin a new game of blackjack.",
+    "translation": "",
+    "context": "<<POS:17573112>> addButton(0,\"New Game\",(function(){return e.initGame(!0)}),\"New Card Game\",\"Begin a new game of blackjack.\")"
+  },
+  {
+    "key": "button|Deck_Settings|058f24f7d53e",
+    "original": "Deck Settings",
+    "translation": "",
+    "context": "<<POS:17573209>> addButton(2,\"Deck Settings\",(function(){return Up(2)}),\"Deck Settings\",\"Customize the deck of cards.\")"
+  },
+  {
+    "key": "button.hover|Deck_Settings|058f24f7d53e",
+    "original": "Deck Settings",
+    "translation": "",
+    "context": "<<POS:17573252>> addButton(2,\"Deck Settings\",(function(){return Up(2)}),\"Deck Settings\",\"Customize the deck of cards.\")"
+  },
+  {
+    "key": "button.tooltip|Customize_the_deck_of_cards|6b315b2c5909",
+    "original": "Customize the deck of cards.",
+    "translation": "",
+    "context": "<<POS:17573268>> addButton(2,\"Deck Settings\",(function(){return Up(2)}),\"Deck Settings\",\"Customize the deck of cards.\")"
+  },
+  {
+    "key": "button|Help|455935940a6c",
+    "original": "Help",
+    "translation": "",
+    "context": "<<POS:17573455>> addButton(3,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_BLACKJACK_PROMPT&&(flags.TUTORIAL_BLACKJACK_PROMPT=2),e.generateTutorialBoard()}),\"Blackjack Tutorial\",\"Get an explanation of this game mode.\")"
+  },
+  {
+    "key": "button.hover|Blackjack_Tutorial|d0621a4b906a",
+    "original": "Blackjack Tutorial",
+    "translation": "",
+    "context": "<<POS:17573647>> addButton(3,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_BLACKJACK_PROMPT&&(flags.TUTORIAL_BLACKJACK_PROMPT=2),e.generateTutorialBoard()}),\"Blackjack Tutorial\",\"Get an explanation of this game mode.\")"
+  },
+  {
+    "key": "button.tooltip|Get_an_explanation_of_this_game_mode|a07a255ca0e3",
+    "original": "Get an explanation of this game mode.",
+    "translation": "",
+    "context": "<<POS:17573668>> addButton(3,\"Help\",(function(){e.state.tutorial=!0,e.state.tutorialStage=void 0,window.game.gamestate&&2!==flags.TUTORIAL_BLACKJACK_PROMPT&&(flags.TUTORIAL_BLACKJACK_PROMPT=2),e.generateTutorialBoard()}),\"Blackjack Tutorial\",\"Get an explanation of this game mode.\")"
+  },
+  {
+    "key": "button|Exit_Game|c72493389ba6",
+    "original": "Exit Game",
+    "translation": "",
+    "context": "<<POS:17573729>> addButton(4,\"Exit Game\",(function(){window.removeBlackjackMinigame(),window.returnFromElement(),window.getGameState()&&!0!==e.props.testGame||showMainMenu(!0,!0,!0),e.props.onFailure()}),\"Exit Card Game\",\"Do not play blackjack.\")"
+  },
+  {
+    "key": "button.hover|Exit_Card_Game|14d5c7de653c",
+    "original": "Exit Card Game",
+    "translation": "",
+    "context": "<<POS:17573904>> addButton(4,\"Exit Game\",(function(){window.removeBlackjackMinigame(),window.returnFromElement(),window.getGameState()&&!0!==e.props.testGame||showMainMenu(!0,!0,!0),e.props.onFailure()}),\"Exit Card Game\",\"Do not play blackjack.\")"
+  },
+  {
+    "key": "button.tooltip|Do_not_play_blackjack|a78ad645b538",
+    "original": "Do not play blackjack.",
+    "translation": "",
+    "context": "<<POS:17573921>> addButton(4,\"Exit Game\",(function(){window.removeBlackjackMinigame(),window.returnFromElement(),window.getGameState()&&!0!==e.props.testGame||showMainMenu(!0,!0,!0),e.props.onFailure()}),\"Exit Card Game\",\"Do not play blackjack.\")"
+  },
+  {
+    "key": "button|Hit|0ad84ab67839",
+    "original": "Hit",
+    "translation": "",
+    "context": "<<POS:17574030>> addDisabledButton(0,\"Hit\",\"Hit\",\"No point hitting when you’re already bust...\")"
+  },
+  {
+    "key": "button.hover|No_point_hitting_when_you_re_already_bust|77c9f607e2ea",
+    "original": "No point hitting when you’re already bust...",
+    "translation": "",
+    "context": "<<POS:17574042>> addDisabledButton(0,\"Hit\",\"Hit\",\"No point hitting when you’re already bust...\")"
+  },
+  {
+    "key": "button|Continue|9d04c156a158",
+    "original": "Continue",
+    "translation": "",
+    "context": "<<POS:17574102>> addButton(2,\"Continue\",(function(){return e.stand()}),\"Continue\",\"Not much to do when you’re already bust...\")"
+  },
+  {
+    "key": "button.hover|Continue|9d04c156a158",
+    "original": "Continue",
+    "translation": "",
+    "context": "<<POS:17574144>> addButton(2,\"Continue\",(function(){return e.stand()}),\"Continue\",\"Not much to do when you’re already bust...\")"
+  },
+  {
+    "key": "button.tooltip|Not_much_to_do_when_you_re_already_bust|b152d30ed072",
+    "original": "Not much to do when you’re already bust...",
+    "translation": "",
+    "context": "<<POS:17574155>> addButton(2,\"Continue\",(function(){return e.stand()}),\"Continue\",\"Not much to do when you’re already bust...\")"
+  },
+  {
+    "key": "button|Hit|f61f462312ae",
+    "original": "Hit",
+    "translation": "",
+    "context": "<<POS:17574230>> addDisabledButton(0,\"Hit\",\"Hit\",\"You’ve already got 21, doofus!\")"
+  },
+  {
+    "key": "button.hover|You_ve_already_got_21_doofus|db071c48565b",
+    "original": "You’ve already got 21, doofus!",
+    "translation": "",
+    "context": "<<POS:17574242>> addDisabledButton(0,\"Hit\",\"Hit\",\"You’ve already got 21, doofus!\")"
+  },
+  {
+    "key": "button|Hit|48cccc1e7322",
+    "original": "Hit",
+    "translation": "",
+    "context": "<<POS:17574288>> addButton(0,\"Hit\",(function(){return e.hit()}),\"Hit\",\"Draw another card...\")"
+  },
+  {
+    "key": "button.hover|Hit|48cccc1e7322",
+    "original": "Hit",
+    "translation": "",
+    "context": "<<POS:17574323>> addButton(0,\"Hit\",(function(){return e.hit()}),\"Hit\",\"Draw another card...\")"
+  },
+  {
+    "key": "button.tooltip|Draw_another_card|0da2b6696aa2",
+    "original": "Draw another card...",
+    "translation": "",
+    "context": "<<POS:17574329>> addButton(0,\"Hit\",(function(){return e.hit()}),\"Hit\",\"Draw another card...\")"
+  },
+  {
+    "key": "button|Stand|1b01231f93a6",
+    "original": "Stand",
+    "translation": "",
+    "context": "<<POS:17574365>> addButton(2,\"Stand\",(function(){return e.stand()}),\"Stand\",\"Stick with what you’ve got already...\")"
+  },
+  {
+    "key": "button.hover|Stand|1b01231f93a6",
+    "original": "Stand",
+    "translation": "",
+    "context": "<<POS:17574404>> addButton(2,\"Stand\",(function(){return e.stand()}),\"Stand\",\"Stick with what you’ve got already...\")"
+  },
+  {
+    "key": "button.tooltip|Stick_with_what_you_ve_got_already|5c7836b6e640",
+    "original": "Stick with what you’ve got already...",
+    "translation": "",
+    "context": "<<POS:17574412>> addButton(2,\"Stand\",(function(){return e.stand()}),\"Stand\",\"Stick with what you’ve got already...\")"
+  },
+  {
+    "key": "button|Next|6675188dc933",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:17574523>> addButton(0,\"Next\",this.processAction)"
+  },
+  {
+    "key": "button|Deal|a54e26a49926#1",
+    "original": "Deal",
+    "translation": "",
+    "context": "<<POS:17574599>> addButton(0,\"Deal\",(function(){e.triggerDrawCardAnimation(),e.processAction()}),\"Deal\",\"Get dealt a new hand.\")"
+  },
+  {
+    "key": "button.hover|Deal|a54e26a49926#1",
+    "original": "Deal",
+    "translation": "",
+    "context": "<<POS:17574667>> addButton(0,\"Deal\",(function(){e.triggerDrawCardAnimation(),e.processAction()}),\"Deal\",\"Get dealt a new hand.\")"
+  },
+  {
+    "key": "button.tooltip|Get_dealt_a_new_hand|f60c548984d1#1",
+    "original": "Get dealt a new hand.",
+    "translation": "",
+    "context": "<<POS:17574674>> addButton(0,\"Deal\",(function(){e.triggerDrawCardAnimation(),e.processAction()}),\"Deal\",\"Get dealt a new hand.\")"
+  },
+  {
+    "key": "ui.title|Current_Round|46d4d8a071c1",
+    "original": "Current Round",
+    "translation": "",
+    "context": "<<POS:17577759>> title:'Current Round'"
+  },
+  {
+    "key": "ui.element|W|fbbeb20bb2a8",
+    "original": "W: ",
+    "translation": "",
+    "context": "<<POS:17577993>> createElement(\"span\", ..., 'W: ')"
+  },
+  {
+    "key": "ui.title|Wins|b6dfe8ecc7bd",
+    "original": "Wins",
+    "translation": "",
+    "context": "<<POS:17577985>> title:'Wins'"
+  },
+  {
+    "key": "ui.element|L|2911668739f7",
+    "original": "L: ",
+    "translation": "",
+    "context": "<<POS:17578210>> createElement(\"span\", ..., 'L: ')"
+  },
+  {
+    "key": "ui.title|Losses|45615b1b8b0f",
+    "original": "Losses",
+    "translation": "",
+    "context": "<<POS:17578200>> title:'Losses'"
+  },
+  {
+    "key": "ui.element|D|9f080a72a337",
+    "original": "D: ",
+    "translation": "",
+    "context": "<<POS:17578484>> createElement(\"span\", ..., 'D: ')"
+  },
+  {
+    "key": "ui.title|Draws|8e8ffb63886d",
+    "original": "Draws",
+    "translation": "",
+    "context": "<<POS:17578475>> title:'Draws'"
+  },
+  {
+    "key": "ui.title|Dealer_Score|c470f3dee577",
+    "original": "Dealer Score",
+    "translation": "",
+    "context": "<<POS:17578762>> title:'Dealer Score'"
+  },
+  {
+    "key": "ui.title|Player_Score|32298f997374",
+    "original": "Player Score",
+    "translation": "",
+    "context": "<<POS:17579030>> title:'Player Score'"
+  },
+  {
+    "key": "ui.title|Current_Bet|674d2f9b011e",
+    "original": "Current Bet",
+    "translation": "",
+    "context": "<<POS:17579287>> title:'Current Bet'"
+  },
+  {
+    "key": "output.expr|var0|ecba505ac1f7",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:17579515>> <<VARS:var0=b>> ParseText(b)"
+  },
+  {
+    "key": "ui.title|Current_Pot|e8a580030a06",
+    "original": "Current Pot",
+    "translation": "",
+    "context": "<<POS:17579646>> title:'Current Pot'"
+  },
+  {
+    "key": "output.expr|var0|870ddc9d7045",
+    "original": "{var0}",
+    "translation": "",
+    "context": "<<POS:17579813>> <<VARS:var0=b>> ParseText(b)"
+  },
+  {
+    "key": "string.array|a_2_3_4_5_6_7_8_9_10_j_q_k|3ca3c941e223",
+    "original": "[\"a\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"j\",\"q\",\"k\"]",
+    "translation": "",
+    "context": "<<POS:17583507>> '[\"a\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"j\",\"q\",\"k\"]'"
+  }
+]

@@ -31,14 +31,28 @@ def parse_pos(context: str) -> int:
 
 
 def parse_vars(context: str) -> dict:
-    """从 context 解析 <<VARS:var0=a,var1=Ot.m>> 映射表。"""
+    """从 context 解析 <<VARS:var0=a|var1=Ot.m>> 映射表。
+    兼容旧格式逗号分隔（当值里不含逗号时）。"""
     if not context:
         return {}
     m = re.search(r'<<VARS:([^>]+)>>', context)
     if not m:
         return {}
+    raw = m.group(1)
+    # 新格式用 | 分隔（值里可能含逗号）
+    if '|' in raw:
+        pairs = raw.split('|')
+    else:
+        # 旧格式兼容：找 ,varN= 边界手动切分
+        pairs = []
+        start = 0
+        for i in range(len(raw)):
+            if raw[i] == ',' and raw[i+1:i+4].startswith('var') and '=' in raw[i+1:i+8]:
+                pairs.append(raw[start:i])
+                start = i + 1
+        pairs.append(raw[start:])
     result = {}
-    for pair in m.group(1).split(','):
+    for pair in pairs:
         eq = pair.find('=')
         if eq > 0:
             result[pair[:eq]] = pair[eq + 1:]

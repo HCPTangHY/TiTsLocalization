@@ -1,1 +1,248 @@
-[{"key": "assign|Crk_Jelly|d388fec6942c", "original": "Crk. Jelly", "translation": "", "context": "<<POS:08090660>> e.type=GLOBAL.PILL,e.shortName='Crk. Jelly'"}, {"key": "assign|Crackle_Jelly|48d295b2764a", "original": "Crackle Jelly", "translation": "", "context": "<<POS:08090684>> rtName=\"Crk. Jelly\",e.longName='Crackle Jelly'"}, {"key": "assign|a_tube_of_Crackle_Jelly|6fda7f9ac4a2", "original": "a tube of Crackle Jelly", "translation": "", "context": "<<POS:08090771>> ase(e.longName)),e.description='a tube of Crackle Jelly'"}, {"key": "assign|This_is_a_glowing_blue_green_gelatin_that_reminds_you_rather_fri|3ad98651c59b", "original": "This is a glowing blue-green gelatin that reminds you rather frighteningly of the monster you defeated on the ocean floor of Uveto. You've been assured that the gel poses no threat, but rather is a skin-applied transformative that will cause you to take on a form based off the janeria’s appearance, though it’s a thematic copy rather than an exact recreation. The tube is labeled with the Steele Tech logo, along with a disclaimer regarding its current trial status.", "translation": "", "context": "<<POS:08090807>> be of Crackle Jelly\",e.tooltip='This is a glowing blue-green gelatin that reminds you rather'"}, {"key": "string.array|pale_green_pale_blue|ee382e418a17", "original": "[\"pale green\",\"pale blue\"]", "translation": "", "context": "<<POS:08091365>> '[\"pale green\",\"pale blue\"]'"}, {"key": "string.array|luminous_green_luminous_blue|39dd36af21d5", "original": "[\"luminous green\",\"luminous blue\"]", "translation": "", "context": "<<POS:08091409>> '[\"luminous green\",\"luminous blue\"]'"}, {"key": "output.expr|b_Item_cannot_be_used_on_var0_b|6a3a1fbfc61a", "original": "<b>Item cannot be used on \"+{var0}+\".</b>", "translation": "", "context": "<<POS:08092170>> <<VARS:var0=e.short>> output(\"<b>Item cannot be used on \"+e.short+\".</b>\")"}, {"key": "output|You_put_the_medipen_to_your_arm_and_inject_its_contents_A_cold|776b819a7445", "original": "You put the medipen to your arm and inject its contents. A cold feeling washes through you, but soon passes as the changes begin.", "translation": "", "context": "<<POS:08092226>> output(\"You put the medipen to your arm and inject its contents. A cold feeling washes through you, but soon passes as the changes begin.\")"}, {"key": "output|Your_pc_skinFurScalesNoun_feels_prickly_and_hot_as_if_being_re|8e26cfefe3d6", "original": "Your [pc.skinFurScalesNoun] feels prickly and hot as if being repeatedly shocked. Gradually it begins to flake away, revealing the [pc.skinColor] skin underneath. It still tingles a little as you rub your newly-bare arms.", "translation": "", "context": "<<POS:08094320>> output(\"\\n\\nYour [pc.skinFurScalesNoun] feels prickly and hot as if being repeatedly shocked. Gradually it begins to flake away, revealing the [pc.skinColor] skin underneath. It still tingles a little as you rub your newly-bare arms.\")"}, {"key": "output|Electric_charges_crackle_over_your_body_bleaching_the_color_fro|88432570c9ec", "original": "Electric charges crackle over your body, bleaching the color from the skin.", "translation": "", "context": "<<POS:08094738>> output(\"\\n\\nElectric charges crackle over your body, bleaching the color from the skin.\")"}, {"key": "output.expr|Each_jolt_turns_your_body_a_little_more_var0_split_pop|b79c5659dbdf", "original": " Each jolt turns your body a little more \"+{var0}.split(\" \").pop()", "translation": "", "context": "<<POS:08094881>> <<VARS:var0=t>> output(\" Each jolt turns your body a little more \"+t.split(\" \").pop())"}, {"key": "output|in_particular_your|548af0f2b575", "original": ", in particular your ", "translation": "", "context": "<<POS:08095123>> output(\", in particular your \")"}, {"key": "output|In_particular_your|38767467f10d", "original": " In particular your ", "translation": "", "context": "<<POS:08095155>> output(\" In particular your \")"}, {"key": "output.expr|var0_var1_nipples_and_lips_nipples_lips_which_tur|29adca89c8a4", "original": "({var0}?{var1}?\"nipples and lips\":\"nipples\":\"lips\")+\", which turn a contrasting \"+{var2}.split(\" \").pop()+\" and start to practically glow as if the shocks were charging them up with new energy.", "translation": "", "context": "<<POS:08095185>> <<VARS:var0=i,var1=n,var2=o>> output((i?n?\"nipples and lips\":\"nipples\":\"lips\")+\", which turn a contrasting \"+o.split(\" \").pop()+\" and start to practically glow as if the shocks were charging them up with new energy.\")"}, {"key": "output|You_can_feel_it_in_your|84538a486f60", "original": " You can feel it in your", "translation": "", "context": "<<POS:08095488>> output(\" You can feel it in your\")"}, {"key": "output|pussy|37a6f737148b", "original": " pussy", "translation": "", "context": "<<POS:08095529>> output(\" pussy\")"}, {"key": "output|pussies|2e8f9752a9fa", "original": " pussies", "translation": "", "context": "<<POS:08095546>> output(\" pussies\")"}, {"key": "output|too|cb3a87530eda", "original": " too", "translation": "", "context": "<<POS:08095568>> output(\" too\")"}, {"key": "output|a_little_bit_of_light_starting_to_peek_out_from_between_your_n|4f0105f4fc42", "original": ", a little bit of light starting to peek out from between your nether lips as your tunnel turns luminous.", "translation": "", "context": "<<POS:08095583>> output(\", a little bit of light starting to peek out from between your nether lips as your tunnel turns luminous.\")"}, {"key": "output|It_s_not_just_the_color_that_changes_though_the|1a5bc3404e65", "original": " It’s not just the color that changes, though: the", "translation": "", "context": "<<POS:08095760>> output(\" It’s not just the color that changes, though: the\")"}, {"key": "output|The|4dcae464653d", "original": " The", "translation": "", "context": "<<POS:08095821>> output(\" The\")"}, {"key": "output|shocks_seem_to_make_your_skin_smoother_springier_practically|6152c01334c0", "original": " shocks seem to make your skin smoother, springier, practically rubbery. By the time the color finishes sweeping across your body, it’s absolutely flawless.", "translation": "", "context": "<<POS:08095836>> output(\" shocks seem to make your skin smoother, springier, practically rubbery. By the time the color finishes sweeping across your body, it’s absolutely flawless.\")"}, {"key": "output|Your_vision_jumps_and_crackles_with_sudden_sensory_overload_as|18c67b2e747f", "original": "Your vision jumps and crackles with sudden sensory overload, as if there were tiny bolts of lightning jumping about inside your eyes. The sensation passes after a few moments, but everything feels somehow brighter. You think to check your reflection, and discover it’s not the world around you that’s gotten brighter, but rather your eyes themselves", "translation": "", "context": "<<POS:08096283>> output(\"\\n\\nYour vision jumps and crackles with sudden sensory overload, as if there were tiny bolts of lightning jumping about inside your eyes. The sensation passes after a few moments, but everything feels somehow brighter. You think to check your reflection, and discover it’s not the world aroun..."}, {"key": "output|which_have_turned_pc_eyeColor|d3c5f094689d", "original": ", which have turned [pc.eyeColor].", "translation": "", "context": "<<POS:08096688>> output(\", which have turned [pc.eyeColor].\")"}, {"key": "output|Electric_currents_crackle_down_your_pc_hair|ea6300fd2920", "original": "Electric currents crackle down your [pc.hair],", "translation": "", "context": "<<POS:08096916>> output(\"\\n\\nElectric currents crackle down your [pc.hair],\")"}, {"key": "output|setting_it_quaking_and_vibrating_until_it_splits_into_a_mass_of|c47d4b05bbde", "original": " setting it quaking and vibrating until it splits into a mass of thin filaments. The electric surges along your newly-human hair continue,", "translation": "", "context": "<<POS:08097058>> output(\" setting it quaking and vibrating until it splits into a mass of thin filaments. The electric surges along your newly-human hair continue,\")"}, {"key": "output.expr|illuminating_it_in_var0_split_pop_radiance_until_t|9efe72d5f86f", "original": " illuminating it in \"+{var0}.split(\" \").pop()+\" radiance until the glow takes over your hair completely. <b>You now have [pc.hairColor] hair!</b>", "translation": "", "context": "<<POS:08097339>> <<VARS:var0=e.hairColor>> output(\" illuminating it in \"+e.hairColor.split(\" \").pop()+\" radiance until the glow takes over your hair completely. <b>You now have [pc.hairColor] hair!</b>\")"}, {"key": "output|Your_legs_start_to_quake_uncontrollably_prompting_you_to_quickl|1c63b658ba39", "original": "Your legs start to quake uncontrollably, prompting you to quickly sit before you lose control altogether. Gradually your legs lengthen and thin out until they look almost impossibly slender, all visible definition vanishing before new lines etch themselves down your legs, contours and bends forming that can’t correspond to any sort of muscles but rather make it look like your legs are made of several tentacles woven and pressed together. Even your feet streamline into diamond-shaped slippers, arched to provide a shape not unlike platform pumps. You can still feel some sort of bones inside, but from the outside it looks like you have a mass of tentacles contorted into the shape of legs.", "translation": "", "context": "<<POS:08097726>> output(\"\\n\\nYour legs start to quake uncontrollably, prompting you to quickly sit before you lose control altogether. Gradually your legs lengthen and thin out until they look almost impossibly slender, all visible definition vanishing before new lines etch themselves down your legs, contours and be..."}, {"key": "output|Your_tongue_thickens_your_jaw_reflexively_going_slack_to_let_it|ecc202e03096", "original": "Your tongue thickens, your jaw reflexively going slack to let it hang out of your mouth. Further and further it spills out, turning into a long, conical tube that you find you can twist and curl around objects almost like a tentacle. Oh, this is going to be fun. <b>You have a long, tentacle-like tongue.</b>", "translation": "", "context": "<<POS:08098475>> output(\"\\n\\nYour tongue thickens, your jaw reflexively going slack to let it hang out of your mouth. Further and further it spills out, turning into a long, conical tube that you find you can twist and curl around objects almost like a tentacle. Oh, this is going to be fun. <b>You have a long, tenta..."}, {"key": "output|You_cry_out_as_your_spine_is_rocked_with_huge_surges_of_lightnin|eb653153fe8e", "original": "You cry out as your spine is rocked with huge surges of lightning, sending you to the ground. Gradually the sensation pools higher, near your shoulders, the flesh roiling as if coming to a boil.", "translation": "", "context": "<<POS:08099043>> output(\"\\n\\nYou cry out as your spine is rocked with huge surges of lightning, sending you to the ground. Gradually the sensation pools higher, near your shoulders, the flesh roiling as if coming to a boil.\")"}, {"key": "output.expr|Your_1_e_wingCount_pc_wings_seemingly_i_does_i_pc|03538dab3621", "original": " Your \"+(1===e.wingCount?\"[pc.wings] seemingly <i>does</i>\":\"[pc.wings] seemingly <i>do</i>\")+\" boil, wicking away into nothingness.", "translation": "", "context": "<<POS:08099264>>  output(\" Your \"+(1===e.wingCount?\"[pc.wings] seemingly <i>does</i>\":\"[pc.wings] seemingly <i>do</i>\")+\" boil, wicking away into nothingness.\")"}, {"key": "output|Just_before_you_can_t_take_it_anymore_a_thick_surging_feeling|55e9d47f75f0", "original": " Just before you can’t take it anymore, a thick surging feeling replaces the shocks as one, two, three, four [pc.skinColor] tentacles erupt from your back. They’re absolutely enormous, at least as long as you are tall and two inches thick apiece, each ending in a diamond-shaped pad. What’s more, as they sway and lash about you feel something forming inside each one, a tiny channel that goes from the tip of each tentacle to somewhere inside you. Are they <i>cocks</i>?", "translation": "", "context": "<<POS:08099407>> output(\" Just before you can’t take it anymore, a thick surging feeling replaces the shocks as one, two, three, four [pc.skinColor] tentacles erupt from your back. They’re absolutely enormous, at least as long as you are tall and two inches thick apiece, each ending in a diamond-shaped pad. What’s m..."}, {"key": "output|You_make_your_way_to_your_feet_as_your_spine_recovers_still_fee|9dd0d0f4a9fa", "original": "You make your way to your feet as your spine recovers, still feeling sore and not quite in the mood to test out your newfound back tentacles... at least, not yet.", "translation": "", "context": "<<POS:08099893>> output(\"\\n\\nYou make your way to your feet as your spine recovers, still feeling sore and not quite in the mood to test out your newfound back tentacles... at least, not yet.\")"}, {"key": "output.expr|You_feel_aflutter_with_tingles_and_jitters_at_the_crackling_sens|1a46ba7c63fb", "original": "You feel aflutter with tingles and jitters at the crackling sensation that pools around your groin. It feels like the electricity is digging inward, until you realize that it’s actually the sensation of your \"+({var0}.hasCocks()?\"cocks\":\"cock\")+\" sinking into your crotch. Your hands spasm as you try to reach for your groin, filling you with panic, but soon the sensation fades and you’re left with an odd inner fullness. You reach down to find that [pc.eachCock] is hidden inside you, packed into a glowing green slit that’s practically invisible when sealed shut. <b>You now have a genital slit</b>.", "translation": "", "context": "<<POS:08100186>> <<VARS:var0=e>> output(\"\\n\\nYou feel aflutter with tingles and jitters at the crackling sensation that pools around your groin. It feels like the electricity is digging inward, until you realize that it’s actually the sensation of your \"+(e.hasCocks()?\"cocks\":\"cock\")+\" sinking into your crotch. Your hands spasm as you try to reach for your groin, filling you with panic, but soon the sensation fades and you’re left with an odd inner fullness. You reach down to find that [pc.eachCock] is hidden inside you, packed into a glowing green slit that’s practically invisible when sealed shut. <b>You now have a genital slit</b>.\")"}, {"key": "output.expr|Your_pc_cock_var0_spasms_within_you_twisting_about_in_w|5680a6122ff1", "original": "Your [pc.cock \"+{var0}+\"] spasms within you, twisting about in ways that feel strange and alien as electric heat races up and down the squirming shaft. Soon it’s too much to bear, and your dick thrusts forcefully out from within your slit.", "translation": "", "context": "<<POS:08100995>> <<VARS:var0=a>> output(\"\\n\\nYour [pc.cock \"+a+\"] spasms within you, twisting about in ways that feel strange and alien as electric heat races up and down the squirming shaft. Soon it’s too much to bear, and your dick thrusts forcefully out from within your slit.\")"}, {"key": "output.expr|It_looks_like_a_miniature_tentacle_emerging_uniform_var0|56432ebc9694", "original": " It looks like a miniature tentacle emerging, uniform \"+{var0}+\" from base to tip and flexing about as if gifted with a mind of its own. The tip is shaped like a diamond, with your cumslit tucked along the underside so that someone would have to be underneath you to be sure it was a cock at all. You’re pretty sure the janeria didn’t have a tentacle like <i>this</i>, did it?", "translation": "", "context": "<<POS:08101336>> <<VARS:var0=e.cocks[a].cockColor>> output(\" It looks like a miniature tentacle emerging, uniform \"+e.cocks[a].cockColor+\" from base to tip and flexing about as if gifted with a mind of its own. The tip is shaped like a diamond, with your cumslit tucked along the underside so that someone would have to be underneath you to be sure it was a cock at all. You’re pretty sure the janeria didn’t have a tentacle like <i>this</i>, did it?\")"}, {"key": "output|It_takes_you_some_time_to_learn_how_to_control_b_your_new_tenta|1c5fd61ad08b", "original": "It takes you some time to learn how to control <b>your new tentacle dick</b>, but you’re sure the possibilities for how to use it will present themselves soon enough.", "translation": "", "context": "<<POS:08101741>> output(\"\\n\\nIt takes you some time to learn how to control <b>your new tentacle dick</b>, but you’re sure the possibilities for how to use it will present themselves soon enough.\")"}, {"key": "output.expr|Electric_charges_crackle_down_the_whole_length_of_your_pc_vagin|11c4d669bd8a", "original": "Electric charges crackle down the whole length of your [pc.vagina \"+{var0}+\"], setting your pussy squirming even as all exterior definition seems to vanish.", "translation": "", "context": "<<POS:08102120>> <<VARS:var0=a>> output(\"\\n\\nElectric charges crackle down the whole length of your [pc.vagina \"+a+\"], setting your pussy squirming even as all exterior definition seems to vanish.\")"}, {"key": "output.expr|It_takes_you_a_few_moments_of_searching_with_your_fingers_to_fi|2ba902b758e8", "original": " It takes you a few moments of searching with your fingers to figure out where your entrance even is, but when the lips peel apart your fingers are lit by the \"+{var0}+\" of your new interior. <b>Your pussy has become a discreet, almost completely concealed slit</b>.", "translation": "", "context": "<<POS:08102382>> <<VARS:var0=e.vaginas[a].vaginaColor>> output(\" It takes you a few moments of searching with your fingers to figure out where your entrance even is, but when the lips peel apart your fingers are lit by the \"+e.vaginas[a].vaginaColor+\" of your new interior. <b>Your pussy has become a discreet, almost completely concealed slit</b>.\")"}, {"key": "output|Your_mind_alights_with_sudden_energy_as_if_the_energy_from_your|87e1d071edb9", "original": "Your mind alights with sudden energy, as if the energy from your muscles was being redirected straight to your brain. The sense of focus and clarity is sublime, cutting through a haze you didn’t even realize was there before. Your limbs feel a bit like jelly, but hey, mind over matter, right?", "translation": "", "context": "<<POS:08102814>> output(\"\\n\\nYour mind alights with sudden energy, as if the energy from your muscles was being redirected straight to your brain. The sense of focus and clarity is sublime, cutting through a haze you didn’t even realize was there before. Your limbs feel a bit like jelly, but hey, mind over matter, r..."}, {"key": "output|Aside_from_a_pleasant_crackling_all_through_your_body_nothing_c|ab93e5e2bef2", "original": "Aside from a pleasant crackling all through your body, nothing changes. You're as charged up as you can be.", "translation": "", "context": "<<POS:08103158>> output(\"\\n\\nAside from a pleasant crackling all through your body, nothing changes. You're as charged up as you can be.\")"}]
+[
+  {
+    "key": "assign|Crk_Jelly|d388fec6942c",
+    "original": "Crk. Jelly",
+    "translation": "",
+    "context": "<<POS:08090660>> e.type=GLOBAL.PILL,e.shortName='Crk. Jelly'"
+  },
+  {
+    "key": "assign|Crackle_Jelly|48d295b2764a",
+    "original": "Crackle Jelly",
+    "translation": "",
+    "context": "<<POS:08090684>> rtName=\"Crk. Jelly\",e.longName='Crackle Jelly'"
+  },
+  {
+    "key": "assign|a_tube_of_Crackle_Jelly|6fda7f9ac4a2",
+    "original": "a tube of Crackle Jelly",
+    "translation": "",
+    "context": "<<POS:08090771>> ase(e.longName)),e.description='a tube of Crackle Jelly'"
+  },
+  {
+    "key": "assign|This_is_a_glowing_blue_green_gelatin_that_reminds_you_rather_fri|3ad98651c59b",
+    "original": "This is a glowing blue-green gelatin that reminds you rather frighteningly of the monster you defeated on the ocean floor of Uveto. You've been assured that the gel poses no threat, but rather is a skin-applied transformative that will cause you to take on a form based off the janeria’s appearance, though it’s a thematic copy rather than an exact recreation. The tube is labeled with the Steele Tech logo, along with a disclaimer regarding its current trial status.",
+    "translation": "",
+    "context": "<<POS:08090807>> be of Crackle Jelly\",e.tooltip='This is a glowing blue-green gelatin that reminds you rather'"
+  },
+  {
+    "key": "string.array|pale_green_pale_blue|ee382e418a17",
+    "original": "[\"pale green\",\"pale blue\"]",
+    "translation": "",
+    "context": "<<POS:08091365>> '[\"pale green\",\"pale blue\"]'"
+  },
+  {
+    "key": "string.array|luminous_green_luminous_blue|39dd36af21d5",
+    "original": "[\"luminous green\",\"luminous blue\"]",
+    "translation": "",
+    "context": "<<POS:08091409>> '[\"luminous green\",\"luminous blue\"]'"
+  },
+  {
+    "key": "output.expr|b_Item_cannot_be_used_on_var0_b|6a3a1fbfc61a",
+    "original": "<b>Item cannot be used on \"+{var0}+\".</b>",
+    "translation": "",
+    "context": "<<POS:08092170>> <<VARS:var0=e.short>> output(\"<b>Item cannot be used on \"+e.short+\".</b>\")"
+  },
+  {
+    "key": "output|You_put_the_medipen_to_your_arm_and_inject_its_contents_A_cold|776b819a7445",
+    "original": "You put the medipen to your arm and inject its contents. A cold feeling washes through you, but soon passes as the changes begin.",
+    "translation": "",
+    "context": "<<POS:08092226>> output(\"You put the medipen to your arm and inject its contents. A cold feeling washes through you, but soon passes as the changes begin.\")"
+  },
+  {
+    "key": "output|Your_pc_skinFurScalesNoun_feels_prickly_and_hot_as_if_being_re|8e26cfefe3d6",
+    "original": "Your [pc.skinFurScalesNoun] feels prickly and hot as if being repeatedly shocked. Gradually it begins to flake away, revealing the [pc.skinColor] skin underneath. It still tingles a little as you rub your newly-bare arms.",
+    "translation": "",
+    "context": "<<POS:08094320>> output(\"\\n\\nYour [pc.skinFurScalesNoun] feels prickly and hot as if being repeatedly shocked. Gradually it begins to flake away, revealing the [pc.skinColor] skin underneath. It still tingles a little as you rub your newly-bare arms.\")"
+  },
+  {
+    "key": "output|Electric_charges_crackle_over_your_body_bleaching_the_color_fro|88432570c9ec",
+    "original": "Electric charges crackle over your body, bleaching the color from the skin.",
+    "translation": "",
+    "context": "<<POS:08094738>> output(\"\\n\\nElectric charges crackle over your body, bleaching the color from the skin.\")"
+  },
+  {
+    "key": "output.expr|Each_jolt_turns_your_body_a_little_more_var0_split_pop|b79c5659dbdf",
+    "original": " Each jolt turns your body a little more \"+{var0}.split(\" \").pop()",
+    "translation": "",
+    "context": "<<POS:08094881>> <<VARS:var0=t>> output(\" Each jolt turns your body a little more \"+t.split(\" \").pop())"
+  },
+  {
+    "key": "output|in_particular_your|548af0f2b575",
+    "original": ", in particular your ",
+    "translation": "",
+    "context": "<<POS:08095123>> output(\", in particular your \")"
+  },
+  {
+    "key": "output|In_particular_your|38767467f10d",
+    "original": " In particular your ",
+    "translation": "",
+    "context": "<<POS:08095155>> output(\" In particular your \")"
+  },
+  {
+    "key": "output.expr|var0_var1_nipples_and_lips_nipples_lips_which_tur|29adca89c8a4",
+    "original": "({var0}?{var1}?\"nipples and lips\":\"nipples\":\"lips\")+\", which turn a contrasting \"+{var2}.split(\" \").pop()+\" and start to practically glow as if the shocks were charging them up with new energy.",
+    "translation": "",
+    "context": "<<POS:08095185>> <<VARS:var0=i|var1=n|var2=o>> output((i?n?\"nipples and lips\":\"nipples\":\"lips\")+\", which turn a contrasting \"+o.split(\" \").pop()+\" and start to practically glow as if the shocks were charging them up with new energy.\")"
+  },
+  {
+    "key": "output|You_can_feel_it_in_your|84538a486f60",
+    "original": " You can feel it in your",
+    "translation": "",
+    "context": "<<POS:08095488>> output(\" You can feel it in your\")"
+  },
+  {
+    "key": "output|pussy|37a6f737148b",
+    "original": " pussy",
+    "translation": "",
+    "context": "<<POS:08095529>> output(\" pussy\")"
+  },
+  {
+    "key": "output|pussies|2e8f9752a9fa",
+    "original": " pussies",
+    "translation": "",
+    "context": "<<POS:08095546>> output(\" pussies\")"
+  },
+  {
+    "key": "output|too|cb3a87530eda",
+    "original": " too",
+    "translation": "",
+    "context": "<<POS:08095568>> output(\" too\")"
+  },
+  {
+    "key": "output|a_little_bit_of_light_starting_to_peek_out_from_between_your_n|4f0105f4fc42",
+    "original": ", a little bit of light starting to peek out from between your nether lips as your tunnel turns luminous.",
+    "translation": "",
+    "context": "<<POS:08095583>> output(\", a little bit of light starting to peek out from between your nether lips as your tunnel turns luminous.\")"
+  },
+  {
+    "key": "output|It_s_not_just_the_color_that_changes_though_the|1a5bc3404e65",
+    "original": " It’s not just the color that changes, though: the",
+    "translation": "",
+    "context": "<<POS:08095760>> output(\" It’s not just the color that changes, though: the\")"
+  },
+  {
+    "key": "output|The|4dcae464653d",
+    "original": " The",
+    "translation": "",
+    "context": "<<POS:08095821>> output(\" The\")"
+  },
+  {
+    "key": "output|shocks_seem_to_make_your_skin_smoother_springier_practically|6152c01334c0",
+    "original": " shocks seem to make your skin smoother, springier, practically rubbery. By the time the color finishes sweeping across your body, it’s absolutely flawless.",
+    "translation": "",
+    "context": "<<POS:08095836>> output(\" shocks seem to make your skin smoother, springier, practically rubbery. By the time the color finishes sweeping across your body, it’s absolutely flawless.\")"
+  },
+  {
+    "key": "output|Your_vision_jumps_and_crackles_with_sudden_sensory_overload_as|18c67b2e747f",
+    "original": "Your vision jumps and crackles with sudden sensory overload, as if there were tiny bolts of lightning jumping about inside your eyes. The sensation passes after a few moments, but everything feels somehow brighter. You think to check your reflection, and discover it’s not the world around you that’s gotten brighter, but rather your eyes themselves",
+    "translation": "",
+    "context": "<<POS:08096283>> output(\"\\n\\nYour vision jumps and crackles with sudden sensory overload, as if there were tiny bolts of lightning jumping about inside your eyes. The sensation passes after a few moments, but everything feels somehow brighter. You think to check your reflection, and discover it’s not the world aroun..."
+  },
+  {
+    "key": "output|which_have_turned_pc_eyeColor|d3c5f094689d",
+    "original": ", which have turned [pc.eyeColor].",
+    "translation": "",
+    "context": "<<POS:08096688>> output(\", which have turned [pc.eyeColor].\")"
+  },
+  {
+    "key": "output|Electric_currents_crackle_down_your_pc_hair|ea6300fd2920",
+    "original": "Electric currents crackle down your [pc.hair],",
+    "translation": "",
+    "context": "<<POS:08096916>> output(\"\\n\\nElectric currents crackle down your [pc.hair],\")"
+  },
+  {
+    "key": "output|setting_it_quaking_and_vibrating_until_it_splits_into_a_mass_of|c47d4b05bbde",
+    "original": " setting it quaking and vibrating until it splits into a mass of thin filaments. The electric surges along your newly-human hair continue,",
+    "translation": "",
+    "context": "<<POS:08097058>> output(\" setting it quaking and vibrating until it splits into a mass of thin filaments. The electric surges along your newly-human hair continue,\")"
+  },
+  {
+    "key": "output.expr|illuminating_it_in_var0_split_pop_radiance_until_t|9efe72d5f86f",
+    "original": " illuminating it in \"+{var0}.split(\" \").pop()+\" radiance until the glow takes over your hair completely. <b>You now have [pc.hairColor] hair!</b>",
+    "translation": "",
+    "context": "<<POS:08097339>> <<VARS:var0=e.hairColor>> output(\" illuminating it in \"+e.hairColor.split(\" \").pop()+\" radiance until the glow takes over your hair completely. <b>You now have [pc.hairColor] hair!</b>\")"
+  },
+  {
+    "key": "output|Your_legs_start_to_quake_uncontrollably_prompting_you_to_quickl|1c63b658ba39",
+    "original": "Your legs start to quake uncontrollably, prompting you to quickly sit before you lose control altogether. Gradually your legs lengthen and thin out until they look almost impossibly slender, all visible definition vanishing before new lines etch themselves down your legs, contours and bends forming that can’t correspond to any sort of muscles but rather make it look like your legs are made of several tentacles woven and pressed together. Even your feet streamline into diamond-shaped slippers, arched to provide a shape not unlike platform pumps. You can still feel some sort of bones inside, but from the outside it looks like you have a mass of tentacles contorted into the shape of legs.",
+    "translation": "",
+    "context": "<<POS:08097726>> output(\"\\n\\nYour legs start to quake uncontrollably, prompting you to quickly sit before you lose control altogether. Gradually your legs lengthen and thin out until they look almost impossibly slender, all visible definition vanishing before new lines etch themselves down your legs, contours and be..."
+  },
+  {
+    "key": "output|Your_tongue_thickens_your_jaw_reflexively_going_slack_to_let_it|ecc202e03096",
+    "original": "Your tongue thickens, your jaw reflexively going slack to let it hang out of your mouth. Further and further it spills out, turning into a long, conical tube that you find you can twist and curl around objects almost like a tentacle. Oh, this is going to be fun. <b>You have a long, tentacle-like tongue.</b>",
+    "translation": "",
+    "context": "<<POS:08098475>> output(\"\\n\\nYour tongue thickens, your jaw reflexively going slack to let it hang out of your mouth. Further and further it spills out, turning into a long, conical tube that you find you can twist and curl around objects almost like a tentacle. Oh, this is going to be fun. <b>You have a long, tenta..."
+  },
+  {
+    "key": "output|You_cry_out_as_your_spine_is_rocked_with_huge_surges_of_lightnin|eb653153fe8e",
+    "original": "You cry out as your spine is rocked with huge surges of lightning, sending you to the ground. Gradually the sensation pools higher, near your shoulders, the flesh roiling as if coming to a boil.",
+    "translation": "",
+    "context": "<<POS:08099043>> output(\"\\n\\nYou cry out as your spine is rocked with huge surges of lightning, sending you to the ground. Gradually the sensation pools higher, near your shoulders, the flesh roiling as if coming to a boil.\")"
+  },
+  {
+    "key": "output.expr|Your_1_e_wingCount_pc_wings_seemingly_i_does_i_pc|03538dab3621",
+    "original": " Your \"+(1===e.wingCount?\"[pc.wings] seemingly <i>does</i>\":\"[pc.wings] seemingly <i>do</i>\")+\" boil, wicking away into nothingness.",
+    "translation": "",
+    "context": "<<POS:08099264>>  output(\" Your \"+(1===e.wingCount?\"[pc.wings] seemingly <i>does</i>\":\"[pc.wings] seemingly <i>do</i>\")+\" boil, wicking away into nothingness.\")"
+  },
+  {
+    "key": "output|Just_before_you_can_t_take_it_anymore_a_thick_surging_feeling|55e9d47f75f0",
+    "original": " Just before you can’t take it anymore, a thick surging feeling replaces the shocks as one, two, three, four [pc.skinColor] tentacles erupt from your back. They’re absolutely enormous, at least as long as you are tall and two inches thick apiece, each ending in a diamond-shaped pad. What’s more, as they sway and lash about you feel something forming inside each one, a tiny channel that goes from the tip of each tentacle to somewhere inside you. Are they <i>cocks</i>?",
+    "translation": "",
+    "context": "<<POS:08099407>> output(\" Just before you can’t take it anymore, a thick surging feeling replaces the shocks as one, two, three, four [pc.skinColor] tentacles erupt from your back. They’re absolutely enormous, at least as long as you are tall and two inches thick apiece, each ending in a diamond-shaped pad. What’s m..."
+  },
+  {
+    "key": "output|You_make_your_way_to_your_feet_as_your_spine_recovers_still_fee|9dd0d0f4a9fa",
+    "original": "You make your way to your feet as your spine recovers, still feeling sore and not quite in the mood to test out your newfound back tentacles... at least, not yet.",
+    "translation": "",
+    "context": "<<POS:08099893>> output(\"\\n\\nYou make your way to your feet as your spine recovers, still feeling sore and not quite in the mood to test out your newfound back tentacles... at least, not yet.\")"
+  },
+  {
+    "key": "output.expr|You_feel_aflutter_with_tingles_and_jitters_at_the_crackling_sens|1a46ba7c63fb",
+    "original": "You feel aflutter with tingles and jitters at the crackling sensation that pools around your groin. It feels like the electricity is digging inward, until you realize that it’s actually the sensation of your \"+({var0}.hasCocks()?\"cocks\":\"cock\")+\" sinking into your crotch. Your hands spasm as you try to reach for your groin, filling you with panic, but soon the sensation fades and you’re left with an odd inner fullness. You reach down to find that [pc.eachCock] is hidden inside you, packed into a glowing green slit that’s practically invisible when sealed shut. <b>You now have a genital slit</b>.",
+    "translation": "",
+    "context": "<<POS:08100186>> <<VARS:var0=e>> output(\"\\n\\nYou feel aflutter with tingles and jitters at the crackling sensation that pools around your groin. It feels like the electricity is digging inward, until you realize that it’s actually the sensation of your \"+(e.hasCocks()?\"cocks\":\"cock\")+\" sinking into your crotch. Your hands spasm as you try to reach for your groin, filling you with panic, but soon the sensation fades and you’re left with an odd inner fullness. You reach down to find that [pc.eachCock] is hidden inside you, packed into a glowing green slit that’s practically invisible when sealed shut. <b>You now have a genital slit</b>.\")"
+  },
+  {
+    "key": "output.expr|Your_pc_cock_var0_spasms_within_you_twisting_about_in_w|5680a6122ff1",
+    "original": "Your [pc.cock \"+{var0}+\"] spasms within you, twisting about in ways that feel strange and alien as electric heat races up and down the squirming shaft. Soon it’s too much to bear, and your dick thrusts forcefully out from within your slit.",
+    "translation": "",
+    "context": "<<POS:08100995>> <<VARS:var0=a>> output(\"\\n\\nYour [pc.cock \"+a+\"] spasms within you, twisting about in ways that feel strange and alien as electric heat races up and down the squirming shaft. Soon it’s too much to bear, and your dick thrusts forcefully out from within your slit.\")"
+  },
+  {
+    "key": "output.expr|It_looks_like_a_miniature_tentacle_emerging_uniform_var0|56432ebc9694",
+    "original": " It looks like a miniature tentacle emerging, uniform \"+{var0}+\" from base to tip and flexing about as if gifted with a mind of its own. The tip is shaped like a diamond, with your cumslit tucked along the underside so that someone would have to be underneath you to be sure it was a cock at all. You’re pretty sure the janeria didn’t have a tentacle like <i>this</i>, did it?",
+    "translation": "",
+    "context": "<<POS:08101336>> <<VARS:var0=e.cocks[a].cockColor>> output(\" It looks like a miniature tentacle emerging, uniform \"+e.cocks[a].cockColor+\" from base to tip and flexing about as if gifted with a mind of its own. The tip is shaped like a diamond, with your cumslit tucked along the underside so that someone would have to be underneath you to be sure it was a cock at all. You’re pretty sure the janeria didn’t have a tentacle like <i>this</i>, did it?\")"
+  },
+  {
+    "key": "output|It_takes_you_some_time_to_learn_how_to_control_b_your_new_tenta|1c5fd61ad08b",
+    "original": "It takes you some time to learn how to control <b>your new tentacle dick</b>, but you’re sure the possibilities for how to use it will present themselves soon enough.",
+    "translation": "",
+    "context": "<<POS:08101741>> output(\"\\n\\nIt takes you some time to learn how to control <b>your new tentacle dick</b>, but you’re sure the possibilities for how to use it will present themselves soon enough.\")"
+  },
+  {
+    "key": "output.expr|Electric_charges_crackle_down_the_whole_length_of_your_pc_vagin|11c4d669bd8a",
+    "original": "Electric charges crackle down the whole length of your [pc.vagina \"+{var0}+\"], setting your pussy squirming even as all exterior definition seems to vanish.",
+    "translation": "",
+    "context": "<<POS:08102120>> <<VARS:var0=a>> output(\"\\n\\nElectric charges crackle down the whole length of your [pc.vagina \"+a+\"], setting your pussy squirming even as all exterior definition seems to vanish.\")"
+  },
+  {
+    "key": "output.expr|It_takes_you_a_few_moments_of_searching_with_your_fingers_to_fi|2ba902b758e8",
+    "original": " It takes you a few moments of searching with your fingers to figure out where your entrance even is, but when the lips peel apart your fingers are lit by the \"+{var0}+\" of your new interior. <b>Your pussy has become a discreet, almost completely concealed slit</b>.",
+    "translation": "",
+    "context": "<<POS:08102382>> <<VARS:var0=e.vaginas[a].vaginaColor>> output(\" It takes you a few moments of searching with your fingers to figure out where your entrance even is, but when the lips peel apart your fingers are lit by the \"+e.vaginas[a].vaginaColor+\" of your new interior. <b>Your pussy has become a discreet, almost completely concealed slit</b>.\")"
+  },
+  {
+    "key": "output|Your_mind_alights_with_sudden_energy_as_if_the_energy_from_your|87e1d071edb9",
+    "original": "Your mind alights with sudden energy, as if the energy from your muscles was being redirected straight to your brain. The sense of focus and clarity is sublime, cutting through a haze you didn’t even realize was there before. Your limbs feel a bit like jelly, but hey, mind over matter, right?",
+    "translation": "",
+    "context": "<<POS:08102814>> output(\"\\n\\nYour mind alights with sudden energy, as if the energy from your muscles was being redirected straight to your brain. The sense of focus and clarity is sublime, cutting through a haze you didn’t even realize was there before. Your limbs feel a bit like jelly, but hey, mind over matter, r..."
+  },
+  {
+    "key": "output|Aside_from_a_pleasant_crackling_all_through_your_body_nothing_c|ab93e5e2bef2",
+    "original": "Aside from a pleasant crackling all through your body, nothing changes. You're as charged up as you can be.",
+    "translation": "",
+    "context": "<<POS:08103158>> output(\"\\n\\nAside from a pleasant crackling all through your body, nothing changes. You're as charged up as you can be.\")"
+  }
+]

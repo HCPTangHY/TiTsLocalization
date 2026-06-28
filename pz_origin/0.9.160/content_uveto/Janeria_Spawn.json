@@ -1,1 +1,890 @@
-[{"key": "output|You_pass_through_the_final_airlock_into_the_generator_room_not|f7cc5fd6d78c", "original": "You pass through the final airlock into the generator room, not that it matters much when the room beyond is flooded. A huge gash in the far side of the wall is the cause, through which a gigantic jellyfish has emerged, several of its tentacles wrapped around the main generator. Power flows in a constant stream up those tendrils, leaving the main body blazing bright even underwater like this.", "translation": "", "context": "<<POS:07802417>> output(\"You pass through the final airlock into the generator room, not that it matters much when the room beyond is flooded. A huge gash in the far side of the wall is the cause, through which a gigantic jellyfish has emerged, several of its tentacles wrapped around the main generator. Power flows ..."}, {"key": "output|As_the_jellyfish_notices_you_you_feel_a_powerful_psionic_pressu|d2248dbcdbb5", "original": "As the jellyfish notices you, you feel a powerful psionic pressure form in the air. It’s not just strong, it’s <i>growing</i>. Every draw of electricity from the generator makes the alien noticeably stronger. Who knows where it’ll end if you don’t stop it?", "translation": "", "context": "<<POS:07802827>> output(\"\\n\\nAs the jellyfish notices you, you feel a powerful psionic pressure form in the air. It’s not just strong, it’s <i>growing</i>. Every draw of electricity from the generator makes the alien noticeably stronger. Who knows where it’ll end if you don’t stop it?\")"}, {"key": "output|i_Creature_wants_to_take_the_power_i|2382b71cc909", "original": "<i>Creature...wants to take the power?</i>", "translation": "", "context": "<<POS:07803098>> output(\"\\n\\n<i>Creature...wants to take the power?</i>\")"}, {"key": "output.expr|The_pressure_becomes_a_booming_roar_and_even_as_you_grit_your_t|f80f67633794", "original": "The pressure becomes a booming roar, and even as you grit your teeth under the mental assault. You feel a psychic call focused towards the facility. \"+({var0}?{var2}.numToText({var1})+\" smaller jellyfish slip\"+(1===e?\"s through the crack in the door and swims over to meld with its parent,\":\" through the crack in the door and swim over to meld with their parent,\")+\" increasing its size still further.\":\"To the monster’s annoyance, nobody comes.\")", "translation": "", "context": "<<POS:07803155>> <<VARS:var0=e>0,var1=e,!0,var2=M.m>> output(\"\\n\\nThe pressure becomes a booming roar, and even as you grit your teeth under the mental assault. You feel a psychic call focused towards the facility. \"+(e>0?M.m.numToText(e,!0)+\" smaller jellyfish slip\"+(1===e?\"s through the crack in the door and swims over to meld with its parent,\":\" through the crack in the door and swim over to meld with their parent,\")+\" increasing its size still further.\":\"To the monster’s annoyance, nobody comes.\"))"}, {"key": "output|i_This_one_is_b_I_am_b_Janeria_You_will_not_prevent_my_fl|e658a7450102", "original": "<i>This one is...<b>I am</b> Janeria. You will not prevent my flowering!</i>", "translation": "", "context": "<<POS:07803609>> output(\"\\n\\n<i>This one is...<b>I am</b> Janeria. You will not prevent my flowering!</i>\")"}, {"key": "output|Janeria_s_glow_intensifies_as_it_looms_over_you_its_tendrils_be|6f27697c5fd0", "original": "Janeria’s glow intensifies as it looms over you, its tendrils beginning to crackle with fresh lightning. You ready your [pc.mainWeapon] - it’s time to end this!", "translation": "", "context": "<<POS:07803700>> output(\"\\n\\nJaneria’s glow intensifies as it looms over you, its tendrils beginning to crackle with fresh lightning. You ready your [pc.mainWeapon] - it’s time to end this!\")"}, {"key": "button|Next|2b06d61814ed", "original": "Next", "translation": "继续", "context": "<<POS:07803888>> addButton(0,\"Next\",Bj)", "stage": 1}, {"key": "combat|Janeria_seems_to_be_sucking_power_from_the_generator_even_harder|a290ac2501e7", "original": "Janeria seems to be sucking power from the generator even harder. Energy is building up within the monster’s core, brighter and brighter. <b>You probably should take cover, but you could also try to turn off the generator.</b>", "translation": "", "context": "<<POS:07803967>> combatAppend(\"\\n\\nJaneria seems to be sucking power from the generator even harder. Energy is building up within the monster’s core, brighter and brighter. <b>You probably should take cover, but you could also try to turn off the generator.</b>\")"}, {"key": "button|Take_Cover|52ec46212571", "original": "Take Cover", "translation": "", "context": "<<POS:07804210>> addButton(10,\"Take Cover\",Hj,\"Take Cover\",\"Take cover to avoid the worst of the attack.\")"}, {"key": "button.hover|Take_Cover|52ec46212571", "original": "Take Cover", "translation": "", "context": "<<POS:07804226>> addButton(10,\"Take Cover\",Hj,\"Take Cover\",\"Take cover to avoid the worst of the attack.\")"}, {"key": "button.tooltip|Take_cover_to_avoid_the_worst_of_the_attack|2686a234fe87", "original": "Take cover to avoid the worst of the attack.", "translation": "", "context": "<<POS:07804239>> addButton(10,\"Take Cover\",Hj,\"Take Cover\",\"Take cover to avoid the worst of the attack.\")"}, {"key": "button|Generator|c33c99d803f0", "original": "Generator", "translation": "", "context": "<<POS:07804300>> addButton(11,\"Generator\",Rj,\"Generator\",\"Rush up and hit the emergency off button to shut the generator down. You will take the full brunt of Janeria’s attack.\")"}, {"key": "button.hover|Generator|c33c99d803f0", "original": "Generator", "translation": "", "context": "<<POS:07804315>> addButton(11,\"Generator\",Rj,\"Generator\",\"Rush up and hit the emergency off button to shut the generator down. You will take the full brunt of Janeria’s attack.\")"}, {"key": "button.tooltip|Rush_up_and_hit_the_emergency_off_button_to_shut_the_generator_d|5bf0478fb0e3", "original": "Rush up and hit the emergency off button to shut the generator down. You will take the full brunt of Janeria’s attack.", "translation": "", "context": "<<POS:07804327>> addButton(11,\"Generator\",Rj,\"Generator\",\"Rush up and hit the emergency off button to shut the generator down. You will take the full brunt of Janeria’s attack.\")"}, {"key": "name.show|Janeria_Spawn|645c89955a51", "original": "Janeria Spawn", "translation": "", "context": "<<POS:07804489>> showName(\"Janeria Spawn\")"}, {"key": "output|Overwhelmed_by_the_bizarre_alien_creature_you_sink_to_your_knee|51373f6f69ba", "original": "Overwhelmed by the bizarre alien creature, you sink to your knees. It pauses in its assault, tentacles idly waving, before reaching out with one towards your face. You reflexively recoil, but too late; it wraps the tendril around your head, the flat pad morphing into a mass of smaller tentacles that form a tight net. You struggle, but a shock from the jellyfish knocks you unconscious.", "translation": "", "context": "<<POS:07804816>> output(\"Overwhelmed by the bizarre alien creature, you sink to your knees. It pauses in its assault, tentacles idly waving, before reaching out with one towards your face. You reflexively recoil, but too late; it wraps the tendril around your head, the flat pad morphing into a mass of smaller tentac..."}, {"key": "button|Next|87d339793a99", "original": "Next", "translation": "继续", "context": "<<POS:07805247>> addButton(0,\"Next\",Gj)", "stage": 1}, {"key": "output|You_feel_adrift_as_if_you_were_floating_in_a_void_You_try_to_m|43bd4a0c44f3", "original": "You feel adrift, as if you were floating in a void. You try to move your limbs, but they don’t respond. You realize with a shock that you have no limbs, no body at all. You’re nothing but a bare and naked consciousness, alone in the void. But not alone for long. Soon a presence reaches out to you, vast and overwhelming. It reaches in and begins sifting through your memories, drawing them into itself and tearing them from you in the process. Your adventures, your mission, your childhood, all of it starts to slip away from you. You try to resist, but there’s nothing you can do to defend yourself. Yourself...who are you again?", "translation": "", "context": "<<POS:07805298>> output(\"You feel adrift, as if you were floating in a void. You try to move your limbs, but they don’t respond. You realize with a shock that you have no limbs, no body at all. You’re nothing but a bare and naked consciousness, alone in the void. But not alone for long. Soon a presence reaches out t..."}, {"key": "output|You_struggle_to_hold_on_to_remember_just_one_thing_as_memory_af|e4b142fed583", "original": "You struggle to hold on, to remember just one thing as memory after memory slips away from you. You are [pc.name] Steele. You are [pc.name] Steele. You are...you are...", "translation": "", "context": "<<POS:07805944>> output(\"\\n\\nYou struggle to hold on, to remember just one thing as memory after memory slips away from you. You are [pc.name] Steele. You are [pc.name] Steele. You are...you are...\")"}, {"key": "output|i_You_are_part_of_my_being_Your_thoughts_your_memories_will|937be598e93e", "original": "<i>“You are part of my being. Your thoughts, your memories, will help me grow. And such delicious thoughts they are, a far cry from any fish I’ve had before. I can feel my intellect expanding tremendously with the addition of yours; I should even be able to assert dominance over my parent form when we rejoin. You say there are whole worlds of beings like you, whole swathes of experiences I have yet to taste? Fascinating. And you produce such delicious lightning as well, far more than I’ve ever had the pleasure of tasting at once before. I’ll be able to sustain my current intellect for decades on this much alone. Once I’ve finished with my meal, perhaps I’ll take a look at the surface I’ve neglected for so long.”</i>", "translation": "", "context": "<<POS:07806127>> output(\"\\n\\n<i>“You are part of my being. Your thoughts, your memories, will help me grow. And such delicious thoughts they are, a far cry from any fish I’ve had before. I can feel my intellect expanding tremendously with the addition of yours; I should even be able to assert dominance over my paren..."}, {"key": "output|i_Thank_you_for_your_contribution_Captain_Steele_i|ad5266c48603", "original": "<i>“Thank you for your contribution, Captain Steele.”</i>", "translation": "", "context": "<<POS:07806867>> output(\"\\n\\n<i>“Thank you for your contribution, Captain Steele.”</i>\")"}, {"key": "output|The_jellyfish_quivers_with_your_last_attack_its_glow_fading_to|2ff4fa0ed72f", "original": "The jellyfish quivers with your last attack, its glow fading to a dull gray. It hovers in the air a moment longer as its body turns dry and cracked, before finally the whole creature falls apart. Taking no chances, you set fire to the remains, ensuring nothing but ash is left behind.", "translation": "", "context": "<<POS:07807055>> output(\"The jellyfish quivers with your last attack, its glow fading to a dull gray. It hovers in the air a moment longer as its body turns dry and cracked, before finally the whole creature falls apart. Taking no chances, you set fire to the remains, ensuring nothing but ash is left behind.\")"}, {"key": "output.expr|The_facility_is_a_little_quieter_now_at_least_var0_thoug|e19bd0303551", "original": "The facility is a little quieter now, at least\"+({var0}?\", though there’s still the sounds of more of these things in the building.\":\". It sounds like you might have gotten them all.\")", "translation": "", "context": "<<POS:07807354>> <<VARS:var0=e>0>> output(\"\\n\\nThe facility is a little quieter now, at least\"+(e>0?\", though there’s still the sounds of more of these things in the building.\":\". It sounds like you might have gotten them all.\"))"}, {"key": "output|You_hear_a_crackling_sound_as_you_enter_the_room_prompting_you|8545076e3648", "original": "You hear a crackling sound as you enter the room, prompting you to get down and away from the door. Just as you do, a bolt of lightning streaks overhead, scorching the door you just came through. As you look up you see the source: an odd creature is hovering near the other door, resembling an oversized jellyfish. Its whole body pulses with an eerie green and blue light, while lightning flickers along the tentacles that hang under its body.", "translation": "", "context": "<<POS:07807704>> output(\"You hear a crackling sound as you enter the room, prompting you to get down and away from the door. Just as you do, a bolt of lightning streaks overhead, scorching the door you just came through. As you look up you see the source: an odd creature is hovering near the other door, resembling a..."}, {"key": "output|Well_it_looks_like_you_ve_found_the_invaders_You_ready_your_p|715e573893cd", "original": "Well, it looks like you’ve found the invaders! You ready your [pc.mainWeapon] and prepare to fight!", "translation": "", "context": "<<POS:07808162>> output(\"\\n\\nWell, it looks like you’ve found the invaders! You ready your [pc.mainWeapon] and prepare to fight!\")"}, {"key": "output|You_hear_the_same_crackling_sound_from_before_as_you_enter_the_r|172e36c2deda", "original": "You hear the same crackling sound from before as you enter the room. Sure enough, another one of those jellyfish is lying in wait, its tentacles hanging limp under its body. As it spots you those tendrils billow outward in an aggressive posture, the glow of its body intensifying.", "translation": "", "context": "<<POS:07808274>> output(\"You hear the same crackling sound from before as you enter the room. Sure enough, another one of those jellyfish is lying in wait, its tentacles hanging limp under its body. As it spots you those tendrils billow outward in an aggressive posture, the glow of its body intensifying.\")"}, {"key": "output.expr|This_is_the_var0_var1_second_of_four_third_of_four_l|852bcca5c7cc", "original": "This is the \"+({var0}?{var1}?\"second of four\":\"third of four\":\"last one\")+\", you think. You ready your [pc.mainWeapon] and get ready to fight!", "translation": "", "context": "<<POS:07808569>> <<VARS:var0=e>1,var1=e>2>> output(\"\\n\\nThis is the \"+(e>1?e>2?\"second of four\":\"third of four\":\"last one\")+\", you think. You ready your [pc.mainWeapon] and get ready to fight!\")"}, {"key": "button|Next|c5cc80fad7cf", "original": "Next", "translation": "继续", "context": "<<POS:07808734>> addButton(0,\"Next\",_j)", "stage": 1}, {"key": "header|Mainframe_Card|aa3a346c1ba1", "original": "Mainframe Card", "translation": "", "context": "<<POS:07808885>> blockHeader(\"Mainframe Card\")"}, {"key": "output|You_examine_the_object_on_the_counter_It_s_an_access_card_for_u|27378718d2d0", "original": "You examine the object on the counter. It’s an access card for unlocking a magnetically sealed door. You should be able to use this to get into the mainframe chamber. There might be a clue there as to what’s going on.", "translation": "", "context": "<<POS:07808927>> output(\"You examine the object on the counter. It’s an access card for unlocking a magnetically sealed door. You should be able to use this to get into the mainframe chamber. There might be a clue there as to what’s going on.\")"}, {"key": "button|Next|02549d068e62", "original": "Next", "translation": "继续", "context": "<<POS:07809255>> addButton(0,\"Next\",mainGameMenu)", "stage": 1}, {"key": "header|Storage_Card|5d75702832be", "original": "Storage Card", "translation": "", "context": "<<POS:07809383>> blockHeader(\"Storage Card\")"}, {"key": "output|You_pick_up_the_access_card_lying_on_the_console_This_one_looks|44cad8af5712", "original": "You pick up the access card lying on the console. This one looks like it should get you into the facility’s storage closet. There ought to be something in there you can use to get to the generator room.", "translation": "", "context": "<<POS:07809423>> output(\"You pick up the access card lying on the console. This one looks like it should get you into the facility’s storage closet. There ought to be something in there you can use to get to the generator room.\")"}, {"key": "button|Next|5177c54a8f50", "original": "Next", "translation": "继续", "context": "<<POS:07809734>> addButton(0,\"Next\",mainGameMenu)", "stage": 1}, {"key": "header|Armored_Depthsuit|df3cff908969", "original": "Armored Depthsuit", "translation": "", "context": "<<POS:07809860>> blockHeader(\"Armored Depthsuit\")"}, {"key": "header|Laser_Turrets|db4cd60e75eb", "original": "Laser Turrets", "translation": "", "context": "<<POS:07810091>> blockHeader(\"Laser Turrets\")"}, {"key": "output|You_look_over_the_damaged_laser_turrets_All_of_them_are_irrepar|72140166fd71", "original": "You look over the damaged laser turrets. All of them are irreparable on their own, but with a little luck you manage to salvage enough of the working parts from each of them to put together a working expansion pack for your attack drone.", "translation": "", "context": "<<POS:07810132>> output(\"You look over the damaged laser turrets. All of them are irreparable on their own, but with a little luck you manage to salvage enough of the working parts from each of them to put together a working expansion pack for your attack drone.\")"}, {"key": "output|It_takes_some_doing_but_you_grew_up_working_with_Steele_Tech_eq|6b7a095070bb", "original": "It takes some doing, but you grew up working with Steele Tech equipment, so the conversion is nice and simple. You don’t even need your workshop on the ship. By the time you’re done you’ve installed a modular port on your attack drone, letting you swap out the old arc caster for this shiny new laser cannon whenever you want. It should make dealing with this place a lot easier.", "translation": "", "context": "<<POS:07810384>> output(\"\\n\\nIt takes some doing, but you grew up working with Steele Tech equipment, so the conversion is nice and simple. You don’t even need your workshop on the ship. By the time you’re done you’ve installed a modular port on your attack drone, letting you swap out the old arc caster for this shi..."}, {"key": "header|Armor_Upgrade|5dd1a09b699b", "original": "Armor Upgrade", "translation": "", "context": "<<POS:07810979>> blockHeader(\"Armor Upgrade\")"}, {"key": "output|The_silence_is_broken_after_a_few_moments|d70bac28e8df", "original": "The silence is broken after a few moments.", "translation": "", "context": "<<POS:07811020>> output(\"The silence is broken after a few moments.\")"}, {"key": "output|i_That_was_cool_i_Your_goo_companion_giggles_apparently_u|54a2b30743c1", "original": "<i>“That was cool!”</i> Your goo companion giggles, apparently unfazed by everything that just happened. <i>“I wish I could do that.”</i>", "translation": "", "context": "<<POS:07811077>> output(\"\\n\\n<i>“That was cool!”</i> Your goo companion giggles, apparently unfazed by everything that just happened. <i>“I wish I could do that.”</i>\")"}, {"key": "output|You_don_t_know_if_asking_which_part_will_make_things_better_or_w|f9395455ab2d", "original": "You don’t know if asking which part will make things better or worse. [gooarmor.name] is too distracted to notice your silence, experimenting with shifting herself around a bit, which only makes you more wary. After about a minute or so passes, she gives a triumphant cheer as a shield bubble pops into existence around her.", "translation": "", "context": "<<POS:07811229>> output(\"\\n\\nYou don’t know if asking which part will make things better or worse. [gooarmor.name] is too distracted to notice your silence, experimenting with shifting herself around a bit, which only makes you more wary. After about a minute or so passes, she gives a triumphant cheer as a shield bu..."}, {"key": "output|i_There_we_go_Now_I_can_keep_the_mean_things_away_while_we_re|e7b39c9c2b82", "original": "<i>“There we go! Now I can keep the mean things away while we’re making them all horny and stuff so they’ll stop being mean and fuck us!”</i> [gooarmor.name] gives you a cheeky grin. <i>“All I had to do was copy the plastic cell structure that creates storage conduits for electrical impulses. The constant electrical flow throughout the surface produces the layered toroidal magnetic fields that create the formation plane for a shield bubble. It has the side benefit of channeling incoming electrical impulses, turning the primary weakness of microbot-based armor into a strength.”</i>", "translation": "", "context": "<<POS:07811568>> output(\"\\n\\n<i>“There we go! Now I can keep the mean things away while we’re making them all horny and stuff so they’ll stop being mean and fuck us!”</i> [gooarmor.name] gives you a cheeky grin. <i>“All I had to do was copy the plastic cell structure that creates storage conduits for electrical impu..."}, {"key": "output|You_blink_gooarmor_name_looks_at_you_innocently|ba53712aaede", "original": "You blink. [gooarmor.name] looks at you innocently.", "translation": "", "context": "<<POS:07812170>> output(\"\\n\\nYou blink. [gooarmor.name] looks at you innocently.\")"}, {"key": "output|i_Let_s_get_out_of_here_i_you_offer_after_a_few_moments|c5256de556af", "original": "<i>“...Let’s get out of here,”</i> you offer after a few moments.", "translation": "", "context": "<<POS:07812236>> output(\"\\n\\n<i>“...Let’s get out of here,”</i> you offer after a few moments.\")"}, {"key": "output|i_Okay_i_Your_goo_hops_back_on_seeming_quite_pleased_at_h|90eae2cdfc07", "original": "<i>“Okay!”</i> Your goo hops back on, seeming quite pleased at her new shields.", "translation": "", "context": "<<POS:07812316>> output(\"\\n\\n<i>“Okay!”</i> Your goo hops back on, seeming quite pleased at her new shields.\")"}, {"key": "output|concat_e_n_n|82692d9ce489", "original": "\".concat(e,\"\\n\\n\")", "translation": "", "context": "<<POS:07812543>> output(\"\\n\\n\".concat(e,\"\\n\\n\"))"}, {"key": "header|Game_Over|9e45cb164b45", "original": "Game Over", "translation": "", "context": "<<POS:07812680>> blockHeader(\"Game Over\")"}, {"key": "output|Now_why_did_you_do_a_damn_fool_thing_like_that_Removing_your_ar|d3e005f930f3", "original": "Now why did you do a damn fool thing like that? Removing your armor has the effect of quickly subjecting you to a truly gruesome simultaneous death by crushing and drowning. Not the most illustrious end to the adventures of Captain Steele.", "translation": "", "context": "<<POS:07812717>> output(\"Now why did you do a damn fool thing like that? Removing your armor has the effect of quickly subjecting you to a truly gruesome simultaneous death by crushing and drowning. Not the most illustrious end to the adventures of Captain Steele.\")"}, {"key": "output|You_hear_a_beep_from_your_Codex_informing_you_that_you_ve_just_r|93efa1b61de8", "original": "You hear a beep from your Codex informing you that you’ve just received a \".concat(5e4.toLocaleString(),\" credit deposit to your account. Attached is a letter from Steele Tech’s board of directors thanking you for your assistance and saving the company from the loss of their facility. <b>It seems you’ve scored some points with Steele Tech for this.</b>\\n\\nA second notification soon follows as you receive a call from Dr. Lessau.\\n\\n<i>“I wanted to thank you personally for your help, [pc.name]. I’m sure the company has shown their gratitude, but I’ve also begun developing a new product based off the data you provided on that creature. It’s experimental, but come by my lab if you’d like to try using it.”</i>\")", "translation": "", "context": "<<POS:07813054>> ParseText(\"You hear a beep from your Codex informing you that you’ve just received a \".concat(5e4.toLocaleString(),\" credit deposit to your account. Attached is a letter from Steele Tech’s board of directors thanking you for your assistance and saving the company from the loss of their facility. <b>..."}, {"key": "name.show|Typhon|9bee4885f612", "original": "Typhon", "translation": "", "context": "<<POS:07813911>> showName(\"Typhon\")"}, {"key": "output|It_only_takes_one_stray_shot_catching_you_in_the_knee_to_send_yo|f1a5d281e9fb", "original": "It only takes one stray shot catching you in the knee to send you tumbling to the floor. All of the turrets round on you, to the cackling of the insane AI. At least you think it’s cackling, but it’s getting hard to tell. Everything’s starting to get pretty dark right about now, could be the bloodloss.", "translation": "", "context": "<<POS:07814222>> output(\"It only takes one stray shot catching you in the knee to send you tumbling to the floor. All of the turrets round on you, to the cackling of the insane AI. At least you think it’s cackling, but it’s getting hard to tell. Everything’s starting to get pretty dark right about now, could be the ..."}, {"key": "output|You_try_to_get_to_your_feet_but_your_legs_give_out_Your_shield|36321f290698", "original": "You try to get to your feet, but your legs give out. Your shields are exhausted and your gear in ruins. The last thing you hear is the sound of gunfire, and then the world goes black.", "translation": "", "context": "<<POS:07814539>> output(\"\\n\\nYou try to get to your feet, but your legs give out. Your shields are exhausted and your gear in ruins. The last thing you hear is the sound of gunfire, and then the world goes black.\")"}, {"key": "output|The_last_turret_shuts_down_leaving_Typhon_at_your_mercy_Not_th|334317d88c79", "original": "The last turret shuts down, leaving Typhon at your mercy. Not that the AI seems to notice, it’s practically on the verge of breaking down.", "translation": "", "context": "<<POS:07814786>> output(\"The last turret shuts down, leaving Typhon at your mercy. Not that the AI seems to notice, it’s practically on the verge of breaking down.\")"}, {"key": "output|i_KiLL_killkillkillkillkillk_k_k_k_k_i|f5ed79fcc697", "original": "<i>“KiLL killkillkillkillkillk-k-k-k-k-”</i>", "translation": "", "context": "<<POS:07814939>> output(\"\\n\\n<i>“KiLL killkillkillkillkillk-k-k-k-k-”</i>\")"}, {"key": "output|You_flinch_at_stepping_through_the_hologram_but_reach_the_conso|2461af9f7175", "original": "You flinch at stepping through the hologram, but reach the console and swiftly eject the AI core.", "translation": "", "context": "<<POS:07814998>> output(\"\\n\\nYou flinch at stepping through the hologram, but reach the console and swiftly eject the AI core.\")"}, {"key": "output|i_meEeee_i_The_broken_holoprojection_instantly_vanishes_l|cd30987c1b92", "original": "<i>“meEeee-”</i> The broken holoprojection instantly vanishes, leaving the room blessedly silent. A moment passes before there’s a soft whirr from the mainframe console, a data bead emerging from an access panel.", "translation": "", "context": "<<POS:07815110>> output(\"\\n\\n<i>“meEeee-”</i> The broken holoprojection instantly vanishes, leaving the room blessedly silent. A moment passes before there’s a soft whirr from the mainframe console, a data bead emerging from an access panel.\")"}, {"key": "output|You_take_the_bead_pondering_what_to_do_with_its_occupant_The_A|fd9dd0646fc4", "original": "You take the bead, pondering what to do with its occupant. The AI looked very far gone, well beyond anyone’s capacity to repair. Do you want to prolong its existence in the hopes of maybe extracting some data from it, or end its suffering now?", "translation": "", "context": "<<POS:07815337>> output(\"\\n\\nYou take the bead, pondering what to do with its occupant. The AI looked very far gone, well beyond anyone’s capacity to repair. Do you want to prolong its existence in the hopes of maybe extracting some data from it, or end its suffering now?\")"}, {"key": "output|What_do_you_do|da1de78b9922", "original": "What do you do?", "translation": "", "context": "<<POS:07815595>> output(\"\\n\\nWhat do you do?\")"}, {"key": "button|Kill_It|f378a2a9bc32", "original": "Kill It", "translation": "", "context": "<<POS:07815653>> addButton(0,\"Kill It\",Zj)"}, {"key": "button|Take_It|46a470b3dcd6", "original": "Take It", "translation": "", "context": "<<POS:07815679>> addButton(1,\"Take It\",Xj)"}, {"key": "output|You_drop_the_data_bead_and_stomp_down_on_it_crushing_it_until_t|547dd4289989", "original": "You drop the data bead and stomp down on it, crushing it until there’s nothing left of it but some loose bits of silicon. At least the AI won’t be in constant agony anymore. You hope your decision was a merciful one.", "translation": "", "context": "<<POS:07815733>> output(\"You drop the data bead and stomp down on it, crushing it until there’s nothing left of it but some loose bits of silicon. At least the AI won’t be in constant agony anymore. You hope your decision was a merciful one.\")"}, {"key": "output|You_pocket_the_data_bead_making_a_note_to_give_it_to_Lessau_whe|10f9d50151c6", "original": "You pocket the data bead, making a note to give it to Lessau when you get back to the surface. Maybe he can recover some of what Typhon was before the invader scrambled it. You hope your decision doesn’t prolong the AI’s suffering.", "translation": "", "context": "<<POS:07816077>> output(\"You pocket the data bead, making a note to give it to Lessau when you get back to the surface. Maybe he can recover some of what Typhon was before the invader scrambled it. You hope your decision doesn’t prolong the AI’s suffering.\")"}, {"key": "output|You_hear_someone_talking_as_you_approach_the_door_of_the_mainfra|0396b23a1050", "original": "You hear someone talking as you approach the door of the mainframe chamber. The words are frantic and hard to make out, prompting you to open the door.", "translation": "", "context": "<<POS:07816584>> output(\"You hear someone talking as you approach the door of the mainframe chamber. The words are frantic and hard to make out, prompting you to open the door.\")"}, {"key": "output|What_you_see_makes_your_heart_skip_a_beat_The_silver_holoavatar|63b9463bb352", "original": "What you see makes your heart skip a beat. The silver holoavatar of the facility’s AI looks like someone tore it apart and crudely glued it back together again. One limb hangs outward at an odd angle, another looks like it’s been stapled to his chest. Render errors leave swathes of what may have once been a polished appearance looking jagged, cracked, or just missing entirely. His jaw hangs impossibly far down whenever he opens his mouth, a nonsense string of words gushing forth in a voice layered thick with ear-grating static and random volume changes. What the hell did this invader <i>do</i> to him?!", "translation": "", "context": "<<POS:07816750>> output(\"\\n\\nWhat you see makes your heart skip a beat. The silver holoavatar of the facility’s AI looks like someone tore it apart and crudely glued it back together again. One limb hangs outward at an odd angle, another looks like it’s been stapled to his chest. Render errors leave swathes of what ..."}, {"key": "output|Seeing_you_agitates_the_broken_AI_which_lets_out_a_garbled_scre|fe28d7a028e3", "original": "Seeing you agitates the broken AI, which lets out a garbled scream. Sentry turrets deploy from the floors and ceiling, listing and spinning oddly in their docks. It would almost be comical if they weren’t also spooling up to fire. You’d better stop this now before he tears the whole base apart!", "translation": "", "context": "<<POS:07817374>> output(\"\\n\\nSeeing you agitates the broken AI, which lets out a garbled scream. Sentry turrets deploy from the floors and ceiling, listing and spinning oddly in their docks. It would almost be comical if they weren’t also spooling up to fire. You’d better stop this now before he tears the whole base..."}, {"key": "output|There_are_four_laser_turrets_remaining|f1ac6d21a824", "original": "There are four laser turrets remaining.", "translation": "", "context": "<<POS:07817684>> output(\"\\n\\nThere are four laser turrets remaining.\")"}, {"key": "button|Next|bed95c319b52", "original": "Next", "translation": "继续", "context": "<<POS:07817751>> addButton(0,\"Next\",Pj)", "stage": 1}, {"key": "assign|SBRF_LIFT|6473d4bc790d", "original": "SBRF LIFT", "translation": "", "context": "<<POS:07817998>> \",!0),t=[],o=new dM.du;o.index='SBRF LIFT'"}, {"key": "assign|Research_Lift|ff855495acdf", "original": "Research Lift", "translation": "", "context": "<<POS:07818017>> .du;o.index=\"SBRF LIFT\",o.name='Research Lift'"}, {"key": "assign|SBRF_A1|74b8170d15f6", "original": "SBRF A1", "translation": "", "context": "<<POS:07818041>> o.name=\"Research Lift\",o.south='SBRF A1'"}, {"key": "assign|UVI_RES_LIFT|29a3930e1167", "original": "UVI RES LIFT", "translation": "", "context": "<<POS:07818056>> h Lift\",o.south=\"SBRF A1\",o.in='UVI RES LIFT'"}, {"key": "assign|SBRF_A1|1ce67acac5c8", "original": "SBRF A1", "translation": "", "context": "<<POS:07818289>> ush(o);var n=new dM.du;n.index='SBRF A1'"}, {"key": "assign|Ruined_Lobby|33c0e27d1113", "original": "Ruined Lobby", "translation": "", "context": "<<POS:07818306>> dM.du;n.index=\"SBRF A1\",n.name='Ruined Lobby'"}, {"key": "assign|SBRF_LIFT|b4347add75e7", "original": "SBRF LIFT", "translation": "", "context": "<<POS:07818329>> ,n.name=\"Ruined Lobby\",n.north='SBRF LIFT'"}, {"key": "assign|SBRF_B1|610dc61d0a10", "original": "SBRF B1", "translation": "", "context": "<<POS:07818348>> by\",n.north=\"SBRF LIFT\",n.east='SBRF B1'"}, {"key": "assign|SBRF_A2|7e3e3664daf1", "original": "SBRF A2", "translation": "", "context": "<<POS:07818366>> LIFT\",n.east=\"SBRF B1\",n.south='SBRF A2'"}, {"key": "textify|You_re_in_what_was_originally_a_lobby_The_couches_and_reception|75da0c8d2400", "original": "You’re in what was originally a lobby. The couches and reception desk are still there, but the red emergency lighting casts an eerie glow across the room. The walls and furniture show some damage, though fortunately it doesn’t look like the place has sprung a leak...yet. Still, having miles of water over your head isn’t comforting.", "translation": "", "context": "<<POS:07818455>> textify(['You’re in what was originally a lobby. The couches'...])"}, {"key": "assign|SBRF_A2|06fda9b0a7d0", "original": "SBRF A2", "translation": "", "context": "<<POS:07818919>> ush(n);var a=new dM.du;a.index='SBRF A2'"}, {"key": "assign|Research_Airlock|7c7613be434d", "original": "Research Airlock", "translation": "", "context": "<<POS:07818936>> dM.du;a.index=\"SBRF A2\",a.name='Research Airlock'"}, {"key": "assign|SBRF_A1|6f452d1ae3fc", "original": "SBRF A1", "translation": "", "context": "<<POS:07818963>> ame=\"Research Airlock\",a.north='SBRF A1'"}, {"key": "assign|SBRF_A3|a69053347dcd", "original": "SBRF A3", "translation": "", "context": "<<POS:07818981>> ock\",a.north=\"SBRF A1\",a.south='SBRF A3'"}, {"key": "assign|SBRF_O1|4c12d883b09e", "original": "SBRF O1", "translation": "", "context": "<<POS:07818998>> F A1\",a.south=\"SBRF A3\",a.west='SBRF O1'"}, {"key": "textify|Along_the_west_wall_of_this_tunnel_is_an_airlock_leading_outside|bd85ca52ff6c", "original": "Along the west wall of this tunnel is an airlock leading outside that seems to still be in working order.", "translation": "", "context": "<<POS:07819244>> textify(['Along the west wall of this tunnel is an airlock l'...])"}, {"key": "assign|SBRF_A3|8006ae5f13a3", "original": "SBRF A3", "translation": "", "context": "<<POS:07819482>> ush(a);var i=new dM.du;i.index='SBRF A3'"}, {"key": "assign|Ruined_Laboratory|45ea84072491", "original": "Ruined Laboratory", "translation": "", "context": "<<POS:07819499>> dM.du;i.index=\"SBRF A3\",i.name='Ruined Laboratory'"}, {"key": "assign|SBRF_A2|7dc910809a29", "original": "SBRF A2", "translation": "", "context": "<<POS:07819527>> me=\"Ruined Laboratory\",i.north='SBRF A2'"}, {"key": "assign|SBRF_B3|d0ca2445956e", "original": "SBRF B3", "translation": "", "context": "<<POS:07819544>> tory\",i.north=\"SBRF A2\",i.east='SBRF B3'"}, {"key": "textify|This_room_was_originally_filled_with_sample_tanks_and_lab_equipm|05f463427b49", "original": "This room was originally filled with sample tanks and lab equipment, most of which is ruined. The hull hasn’t ruptured that you can see, but water’s getting in from somewhere, leaving the room flooded ankle-deep. Thankfully it doesn’t seem to be rising, at least not yet.", "translation": "", "context": "<<POS:07819633>> textify(['This room was originally filled with sample tanks '...])"}, {"key": "assign|SBRF_B1|97bfc18ea6eb", "original": "SBRF B1", "translation": "", "context": "<<POS:07820038>> ush(i);var s=new dM.du;s.index='SBRF B1'"}, {"key": "assign|Observation_Tunnel|0257141236e0", "original": "Observation Tunnel", "translation": "", "context": "<<POS:07820055>> dM.du;s.index=\"SBRF B1\",s.name='Observation Tunnel'"}, {"key": "assign|SBRF_C1|6b0e2ac4108a", "original": "SBRF C1", "translation": "", "context": "<<POS:07820083>> me=\"Observation Tunnel\",s.east='SBRF C1'"}, {"key": "assign|SBRF_A1|50b44b3b57d2", "original": "SBRF A1", "translation": "", "context": "<<POS:07820100>> unnel\",s.east=\"SBRF C1\",s.west='SBRF A1'"}, {"key": "textify|The_whole_north_wall_of_this_room_is_transparent_presumably_to|3289030dae93", "original": "The whole north wall of this room is transparent, presumably to let the researchers have a view of the ocean floor, but right now all you can see is blackness. It’s not exactly comforting. Thankfully the corridor is mercifully short, so that you can get to the relatively safe-feeling rooms on either end without having to spend too long with the reminder of how thin these walls are and how much water is just outside.", "translation": "", "context": "<<POS:07820189>> textify(['The whole north wall of this room is transparent, '...])"}, {"key": "assign|SBRF_B2|f9f6db7d049d", "original": "SBRF B2", "translation": "", "context": "<<POS:07820739>> ush(s);var r=new dM.du;r.index='SBRF B2'"}, {"key": "assign|Mainframe_Chamber|b198d7e59be2", "original": "Mainframe Chamber", "translation": "", "context": "<<POS:07820756>> dM.du;r.index=\"SBRF B2\",r.name='Mainframe Chamber'"}, {"key": "assign|SBRF_C2|0a986462c8fa", "original": "SBRF C2", "translation": "", "context": "<<POS:07820783>> ame=\"Mainframe Chamber\",r.east='SBRF C2'"}, {"key": "textify|The_mainframe_chamber_is_in_ruins_after_your_battle_with_Typhon|e0774e11e7c1", "original": "The mainframe chamber is in ruins after your battle with Typhon. Between the shot-up servers and the ruined sentry turrets the room reeks of burning plastic and metal. At least the AI’s insane babbling has stopped, and the closed door gives you a blessed moment of security. Still, it’s probably best to get out of here as soon as possible.", "translation": "", "context": "<<POS:07820872>> textify(['The mainframe chamber is in ruins after your battl'...])"}, {"key": "assign|SBRF_B3|22dbe2352270", "original": "SBRF B3", "translation": "", "context": "<<POS:07821578>> ush(r);var u=new dM.du;u.index='SBRF B3'"}, {"key": "assign|Generator_Access|d3eae4ab1e49", "original": "Generator Access", "translation": "", "context": "<<POS:07821595>> dM.du;u.index=\"SBRF B3\",u.name='Generator Access'"}, {"key": "assign|SBRF_C3|b1c4ec686eb5", "original": "SBRF C3", "translation": "", "context": "<<POS:07821621>> name=\"Generator Access\",u.east='SBRF C3'"}, {"key": "assign|SBRF_A3|255e8985ae1e", "original": "SBRF A3", "translation": "", "context": "<<POS:07821638>> ccess\",u.east=\"SBRF C3\",u.west='SBRF A3'"}, {"key": "assign|SBRF_B4|a519e86e53eb", "original": "SBRF B4", "translation": "", "context": "<<POS:07821656>> F C3\",u.west=\"SBRF A3\",u.south='SBRF B4'"}, {"key": "assign|SBRF_B4|c3f26eae269d", "original": "SBRF B4", "translation": "", "context": "<<POS:07821898>> ush(u);var h=new dM.du;h.index='SBRF B4'"}, {"key": "assign|Generator_Room|c0f1be52bb24", "original": "Generator Room", "translation": "", "context": "<<POS:07821915>> dM.du;h.index=\"SBRF B4\",h.name='Generator Room'"}, {"key": "assign|SBRF_B3|1e6599c20cce", "original": "SBRF B3", "translation": "", "context": "<<POS:07821940>> .name=\"Generator Room\",h.north='SBRF B3'"}, {"key": "assign|SBRF_O4|ccb41ab4c514", "original": "SBRF O4", "translation": "", "context": "<<POS:07821957>> Room\",h.north=\"SBRF B3\",h.west='SBRF O4'"}, {"key": "textify|With_Janeria_defeated_the_generator_has_come_back_online_There|1110752a3c88", "original": "With Janeria defeated the generator has come back online. There’s still an uncomfortably large hole in the wall, but the shields are holding back any more water from flooding the room and the pumps seem to be doing their job. The scorched remains of the creature have left a nasty stench in the room, and the emergency lights are still on due to the damage, but at least the planet’s no longer in danger of being assimilated by an oversized jellyfish. All in a day’s work.", "translation": "", "context": "<<POS:07822046>> textify(['With Janeria defeated the generator has come back '...])"}, {"key": "assign|SBRF_C1|2c7f7f37be48", "original": "SBRF C1", "translation": "", "context": "<<POS:07822760>> ush(h);var l=new dM.du;l.index='SBRF C1'"}, {"key": "assign|Ruined_Break_Room|c259f495bf4a", "original": "Ruined Break Room", "translation": "", "context": "<<POS:07822777>> dM.du;l.index=\"SBRF C1\",l.name='Ruined Break Room'"}, {"key": "assign|SBRF_D1|5a58121b8eff", "original": "SBRF D1", "translation": "", "context": "<<POS:07822804>> ame=\"Ruined Break Room\",l.east='SBRF D1'"}, {"key": "assign|SBRF_C2|17af355b15a7", "original": "SBRF C2", "translation": "", "context": "<<POS:07822915>> al Lab Storage Card\")},l.south='SBRF C2'"}, {"key": "assign|SBRF_B1|3df9cfa72367", "original": "SBRF B1", "translation": "", "context": "<<POS:07822932>> rd\")},l.south=\"SBRF C2\",l.west='SBRF B1'"}, {"key": "textify|This_was_the_employee_break_room_Half_eaten_lunches_are_on_the|8ffe33832392", "original": "This was the employee break room. Half-eaten lunches are on the upright tables and scattered across the ground.", "translation": "", "context": "<<POS:07823021>> textify(['This was the employee break room. Half-eaten lunch'...])"}, {"key": "assign|SBRF_C2|9c99b5cc3435", "original": "SBRF C2", "translation": "", "context": "<<POS:07823265>> ush(l);var d=new dM.du;d.index='SBRF C2'"}, {"key": "assign|Ruined_Offices|54bcb3c71fde", "original": "Ruined Offices", "translation": "", "context": "<<POS:07823282>> dM.du;d.index=\"SBRF C2\",d.name='Ruined Offices'"}, {"key": "assign|SBRF_C1|a460c0befd1b", "original": "SBRF C1", "translation": "", "context": "<<POS:07823307>> .name=\"Ruined Offices\",d.north='SBRF C1'"}, {"key": "assign|SBRF_C3|feccab487ceb", "original": "SBRF C3", "translation": "", "context": "<<POS:07823325>> ces\",d.north=\"SBRF C1\",d.south='SBRF C3'"}, {"key": "assign|SBRF_B2|ddff838be601", "original": "SBRF B2", "translation": "", "context": "<<POS:07823342>> F C1\",d.south=\"SBRF C3\",d.west='SBRF B2'"}, {"key": "textify|The_offices_are_mostly_intact_though_many_of_the_consoles_have|f5b21c76225d", "original": "The offices are mostly intact, though many of the consoles have been knocked over and the projectors are nonfunctional.", "translation": "", "context": "<<POS:07823526>> textify(['The offices are mostly intact, though many of the '...])"}, {"key": "assign|SBRF_C3|fc78bd5d18c2", "original": "SBRF C3", "translation": "", "context": "<<POS:07823776>> ush(d);var y=new dM.du;y.index='SBRF C3'"}, {"key": "assign|Ruined_Offices|87ebbbf2c8ad", "original": "Ruined Offices", "translation": "", "context": "<<POS:07823793>> dM.du;y.index=\"SBRF C3\",y.name='Ruined Offices'"}, {"key": "assign|SBRF_C2|cd4174a9cdb4", "original": "SBRF C2", "translation": "", "context": "<<POS:07823818>> .name=\"Ruined Offices\",y.north='SBRF C2'"}, {"key": "assign|SBRF_B3|8ff8599d14a9", "original": "SBRF B3", "translation": "", "context": "<<POS:07823835>> ices\",y.north=\"SBRF C2\",y.west='SBRF B3'"}, {"key": "textify|The_carpet_here_is_soaked_with_water_leaking_from_the_west_door|dad3c78cb720", "original": "The carpet here is soaked with water leaking from the west door. The computers are all shut down or knocked over, though the desks themselves are sturdy enough to be largely unscathed. The pale red glow cast across the room does rather unsettling things to the appearance of the water.", "translation": "", "context": "<<POS:07823924>> textify(['The carpet here is soaked with water leaking from '...])"}, {"key": "assign|SBRF_D1|966a53f0b942", "original": "SBRF D1", "translation": "", "context": "<<POS:07824340>> ush(y);var c=new dM.du;c.index='SBRF D1'"}, {"key": "assign|Storage_Closet|c5907e931dea", "original": "Storage Closet", "translation": "", "context": "<<POS:07824357>> dM.du;c.index=\"SBRF D1\",c.name='Storage Closet'"}, {"key": "assign|SBRF_C1|879b6f85f727", "original": "SBRF C1", "translation": "", "context": "<<POS:07824381>> c.name=\"Storage Closet\",c.west='SBRF C1'"}, {"key": "textify|Compared_to_the_rest_of_the_station_the_storage_closet_is_in_ve|7106ad6b4304", "original": "Compared to the rest of the station, the storage closet is in very good shape. Tools and office supplies line the walls, while the emergency lighting is somehow less oppressive in such a small space.", "translation": "", "context": "<<POS:07824470>> textify(['Compared to the rest of the station, the storage c'...])"}, {"key": "assign|SBRF_O1|c77df0171b4a", "original": "SBRF O1", "translation": "", "context": "<<POS:07824904>> ush(c);var g=new dM.du;g.index='SBRF O1'"}, {"key": "assign|Outside_the_Station|06d364f387cc", "original": "Outside the Station", "translation": "", "context": "<<POS:07824921>> dM.du;g.index=\"SBRF O1\",g.name='Outside the Station'"}, {"key": "assign|SBRF_A2|b1a37471752a", "original": "SBRF A2", "translation": "", "context": "<<POS:07824950>> e=\"Outside the Station\",g.east='SBRF A2'"}, {"key": "assign|SBRF_O2|ebf553effa54", "original": "SBRF O2", "translation": "", "context": "<<POS:07824968>> tion\",g.east=\"SBRF A2\",g.south='SBRF O2'"}, {"key": "textify|You_re_outside_the_research_facility_Phosphorus_lights_stuck_in|586901caf5a2", "original": "You’re outside the research facility. Phosphorus lights stuck into the seabed mark a trail leading south towards the generator room. Everything even just a few feet past the lights is pitch black. You dare not step off the path lest you lose your way forever.", "translation": "", "context": "<<POS:07825057>> textify(['You’re outside the research facility. Phosphorus l'...])"}, {"key": "assign|SBRF_O2|092bd39d5965", "original": "SBRF O2", "translation": "", "context": "<<POS:07825454>> ush(g);var p=new dM.du;p.index='SBRF O2'"}, {"key": "assign|Outside_the_Station|0d4acb97efbe", "original": "Outside the Station", "translation": "", "context": "<<POS:07825471>> dM.du;p.index=\"SBRF O2\",p.name='Outside the Station'"}, {"key": "assign|SBRF_O1|852b6af23681", "original": "SBRF O1", "translation": "", "context": "<<POS:07825501>> =\"Outside the Station\",p.north='SBRF O1'"}, {"key": "assign|SBRF_O3|6d568c329dc3", "original": "SBRF O3", "translation": "", "context": "<<POS:07825519>> ion\",p.north=\"SBRF O1\",p.south='SBRF O3'"}, {"key": "textify|The_dull_glow_of_the_facility_s_emergency_lighting_barely_reache|d17cac90d7a5", "original": "The dull glow of the facility’s emergency lighting barely reaches you from here. It’s almost impossible to see anything but the trail of light posts ahead of you, and the water mutes all sounds of any kind. Even your own breathing seems faint and muffled because of the suit you’re wearing. It’s as close as you’ve ever experienced to utter sensory deprivation. You can only hope the trail leads you in the right direction.", "translation": "", "context": "<<POS:07825608>> textify(['The dull glow of the facility’s emergency lighting'...])"}, {"key": "assign|SBRF_O3|1710b7fdf01f", "original": "SBRF O3", "translation": "", "context": "<<POS:07826169>> ush(p);var m=new dM.du;m.index='SBRF O3'"}, {"key": "assign|Outside_the_Station|124dd7aaf762", "original": "Outside the Station", "translation": "", "context": "<<POS:07826186>> dM.du;m.index=\"SBRF O3\",m.name='Outside the Station'"}, {"key": "assign|SBRF_O2|4fe06883d77f", "original": "SBRF O2", "translation": "", "context": "<<POS:07826216>> =\"Outside the Station\",m.north='SBRF O2'"}, {"key": "assign|SBRF_O4|4bc5ac8fd38b", "original": "SBRF O4", "translation": "", "context": "<<POS:07826233>> tion\",m.north=\"SBRF O2\",m.east='SBRF O4'"}, {"key": "assign|SBRF_O4|bbcc1af433a3", "original": "SBRF O4", "translation": "", "context": "<<POS:07826408>> ush(m);var f=new dM.du;f.index='SBRF O4'"}, {"key": "assign|Outside_the_Station|b67665ec0a4a", "original": "Outside the Station", "translation": "", "context": "<<POS:07826425>> dM.du;f.index=\"SBRF O4\",f.name='Outside the Station'"}, {"key": "assign|SBRF_B4|fbb293a7971f", "original": "SBRF B4", "translation": "", "context": "<<POS:07826454>> e=\"Outside the Station\",f.east='SBRF B4'"}, {"key": "assign|SBRF_O3|02beed16cbba", "original": "SBRF O3", "translation": "", "context": "<<POS:07826471>> ation\",f.east=\"SBRF B4\",f.west='SBRF O3'"}, {"key": "textify|You_ve_reached_the_airlock_leading_straight_into_the_generator_r|e8d3b06ef267", "original": "You’ve reached the airlock leading straight into the generator room.", "translation": "", "context": "<<POS:07826560>> textify(['You’ve reached the airlock leading straight into t'...])"}]
+[
+  {
+    "key": "output|You_pass_through_the_final_airlock_into_the_generator_room_not|f7cc5fd6d78c",
+    "original": "You pass through the final airlock into the generator room, not that it matters much when the room beyond is flooded. A huge gash in the far side of the wall is the cause, through which a gigantic jellyfish has emerged, several of its tentacles wrapped around the main generator. Power flows in a constant stream up those tendrils, leaving the main body blazing bright even underwater like this.",
+    "translation": "",
+    "context": "<<POS:07802417>> output(\"You pass through the final airlock into the generator room, not that it matters much when the room beyond is flooded. A huge gash in the far side of the wall is the cause, through which a gigantic jellyfish has emerged, several of its tentacles wrapped around the main generator. Power flows ..."
+  },
+  {
+    "key": "output|As_the_jellyfish_notices_you_you_feel_a_powerful_psionic_pressu|d2248dbcdbb5",
+    "original": "As the jellyfish notices you, you feel a powerful psionic pressure form in the air. It’s not just strong, it’s <i>growing</i>. Every draw of electricity from the generator makes the alien noticeably stronger. Who knows where it’ll end if you don’t stop it?",
+    "translation": "",
+    "context": "<<POS:07802827>> output(\"\\n\\nAs the jellyfish notices you, you feel a powerful psionic pressure form in the air. It’s not just strong, it’s <i>growing</i>. Every draw of electricity from the generator makes the alien noticeably stronger. Who knows where it’ll end if you don’t stop it?\")"
+  },
+  {
+    "key": "output|i_Creature_wants_to_take_the_power_i|2382b71cc909",
+    "original": "<i>Creature...wants to take the power?</i>",
+    "translation": "",
+    "context": "<<POS:07803098>> output(\"\\n\\n<i>Creature...wants to take the power?</i>\")"
+  },
+  {
+    "key": "output.expr|The_pressure_becomes_a_booming_roar_and_even_as_you_grit_your_t|f80f67633794",
+    "original": "The pressure becomes a booming roar, and even as you grit your teeth under the mental assault. You feel a psychic call focused towards the facility. \"+({var0}?{var2}.numToText({var1})+\" smaller jellyfish slip\"+(1===e?\"s through the crack in the door and swims over to meld with its parent,\":\" through the crack in the door and swim over to meld with their parent,\")+\" increasing its size still further.\":\"To the monster’s annoyance, nobody comes.\")",
+    "translation": "",
+    "context": "<<POS:07803155>> <<VARS:var0=e>0|var1=e,!0|var2=M.m>> output(\"\\n\\nThe pressure becomes a booming roar, and even as you grit your teeth under the mental assault. You feel a psychic call focused towards the facility. \"+(e>0?M.m.numToText(e,!0)+\" smaller jellyfish slip\"+(1===e?\"s through the crack in the door and swims over to meld with its parent,\":\" through the crack in the door and swim over to meld with their parent,\")+\" increasing its size still further.\":\"To the monster’s annoyance, nobody comes.\"))"
+  },
+  {
+    "key": "output|i_This_one_is_b_I_am_b_Janeria_You_will_not_prevent_my_fl|e658a7450102",
+    "original": "<i>This one is...<b>I am</b> Janeria. You will not prevent my flowering!</i>",
+    "translation": "",
+    "context": "<<POS:07803609>> output(\"\\n\\n<i>This one is...<b>I am</b> Janeria. You will not prevent my flowering!</i>\")"
+  },
+  {
+    "key": "output|Janeria_s_glow_intensifies_as_it_looms_over_you_its_tendrils_be|6f27697c5fd0",
+    "original": "Janeria’s glow intensifies as it looms over you, its tendrils beginning to crackle with fresh lightning. You ready your [pc.mainWeapon] - it’s time to end this!",
+    "translation": "",
+    "context": "<<POS:07803700>> output(\"\\n\\nJaneria’s glow intensifies as it looms over you, its tendrils beginning to crackle with fresh lightning. You ready your [pc.mainWeapon] - it’s time to end this!\")"
+  },
+  {
+    "key": "button|Next|2b06d61814ed",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:07803888>> addButton(0,\"Next\",Bj)"
+  },
+  {
+    "key": "combat|Janeria_seems_to_be_sucking_power_from_the_generator_even_harder|a290ac2501e7",
+    "original": "Janeria seems to be sucking power from the generator even harder. Energy is building up within the monster’s core, brighter and brighter. <b>You probably should take cover, but you could also try to turn off the generator.</b>",
+    "translation": "",
+    "context": "<<POS:07803967>> combatAppend(\"\\n\\nJaneria seems to be sucking power from the generator even harder. Energy is building up within the monster’s core, brighter and brighter. <b>You probably should take cover, but you could also try to turn off the generator.</b>\")"
+  },
+  {
+    "key": "button|Take_Cover|52ec46212571",
+    "original": "Take Cover",
+    "translation": "",
+    "context": "<<POS:07804210>> addButton(10,\"Take Cover\",Hj,\"Take Cover\",\"Take cover to avoid the worst of the attack.\")"
+  },
+  {
+    "key": "button.hover|Take_Cover|52ec46212571",
+    "original": "Take Cover",
+    "translation": "",
+    "context": "<<POS:07804226>> addButton(10,\"Take Cover\",Hj,\"Take Cover\",\"Take cover to avoid the worst of the attack.\")"
+  },
+  {
+    "key": "button.tooltip|Take_cover_to_avoid_the_worst_of_the_attack|2686a234fe87",
+    "original": "Take cover to avoid the worst of the attack.",
+    "translation": "",
+    "context": "<<POS:07804239>> addButton(10,\"Take Cover\",Hj,\"Take Cover\",\"Take cover to avoid the worst of the attack.\")"
+  },
+  {
+    "key": "button|Generator|c33c99d803f0",
+    "original": "Generator",
+    "translation": "",
+    "context": "<<POS:07804300>> addButton(11,\"Generator\",Rj,\"Generator\",\"Rush up and hit the emergency off button to shut the generator down. You will take the full brunt of Janeria’s attack.\")"
+  },
+  {
+    "key": "button.hover|Generator|c33c99d803f0",
+    "original": "Generator",
+    "translation": "",
+    "context": "<<POS:07804315>> addButton(11,\"Generator\",Rj,\"Generator\",\"Rush up and hit the emergency off button to shut the generator down. You will take the full brunt of Janeria’s attack.\")"
+  },
+  {
+    "key": "button.tooltip|Rush_up_and_hit_the_emergency_off_button_to_shut_the_generator_d|5bf0478fb0e3",
+    "original": "Rush up and hit the emergency off button to shut the generator down. You will take the full brunt of Janeria’s attack.",
+    "translation": "",
+    "context": "<<POS:07804327>> addButton(11,\"Generator\",Rj,\"Generator\",\"Rush up and hit the emergency off button to shut the generator down. You will take the full brunt of Janeria’s attack.\")"
+  },
+  {
+    "key": "name.show|Janeria_Spawn|645c89955a51",
+    "original": "Janeria Spawn",
+    "translation": "",
+    "context": "<<POS:07804489>> showName(\"Janeria Spawn\")"
+  },
+  {
+    "key": "output|Overwhelmed_by_the_bizarre_alien_creature_you_sink_to_your_knee|51373f6f69ba",
+    "original": "Overwhelmed by the bizarre alien creature, you sink to your knees. It pauses in its assault, tentacles idly waving, before reaching out with one towards your face. You reflexively recoil, but too late; it wraps the tendril around your head, the flat pad morphing into a mass of smaller tentacles that form a tight net. You struggle, but a shock from the jellyfish knocks you unconscious.",
+    "translation": "",
+    "context": "<<POS:07804816>> output(\"Overwhelmed by the bizarre alien creature, you sink to your knees. It pauses in its assault, tentacles idly waving, before reaching out with one towards your face. You reflexively recoil, but too late; it wraps the tendril around your head, the flat pad morphing into a mass of smaller tentac..."
+  },
+  {
+    "key": "button|Next|87d339793a99",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:07805247>> addButton(0,\"Next\",Gj)"
+  },
+  {
+    "key": "output|You_feel_adrift_as_if_you_were_floating_in_a_void_You_try_to_m|43bd4a0c44f3",
+    "original": "You feel adrift, as if you were floating in a void. You try to move your limbs, but they don’t respond. You realize with a shock that you have no limbs, no body at all. You’re nothing but a bare and naked consciousness, alone in the void. But not alone for long. Soon a presence reaches out to you, vast and overwhelming. It reaches in and begins sifting through your memories, drawing them into itself and tearing them from you in the process. Your adventures, your mission, your childhood, all of it starts to slip away from you. You try to resist, but there’s nothing you can do to defend yourself. Yourself...who are you again?",
+    "translation": "",
+    "context": "<<POS:07805298>> output(\"You feel adrift, as if you were floating in a void. You try to move your limbs, but they don’t respond. You realize with a shock that you have no limbs, no body at all. You’re nothing but a bare and naked consciousness, alone in the void. But not alone for long. Soon a presence reaches out t..."
+  },
+  {
+    "key": "output|You_struggle_to_hold_on_to_remember_just_one_thing_as_memory_af|e4b142fed583",
+    "original": "You struggle to hold on, to remember just one thing as memory after memory slips away from you. You are [pc.name] Steele. You are [pc.name] Steele. You are...you are...",
+    "translation": "",
+    "context": "<<POS:07805944>> output(\"\\n\\nYou struggle to hold on, to remember just one thing as memory after memory slips away from you. You are [pc.name] Steele. You are [pc.name] Steele. You are...you are...\")"
+  },
+  {
+    "key": "output|i_You_are_part_of_my_being_Your_thoughts_your_memories_will|937be598e93e",
+    "original": "<i>“You are part of my being. Your thoughts, your memories, will help me grow. And such delicious thoughts they are, a far cry from any fish I’ve had before. I can feel my intellect expanding tremendously with the addition of yours; I should even be able to assert dominance over my parent form when we rejoin. You say there are whole worlds of beings like you, whole swathes of experiences I have yet to taste? Fascinating. And you produce such delicious lightning as well, far more than I’ve ever had the pleasure of tasting at once before. I’ll be able to sustain my current intellect for decades on this much alone. Once I’ve finished with my meal, perhaps I’ll take a look at the surface I’ve neglected for so long.”</i>",
+    "translation": "",
+    "context": "<<POS:07806127>> output(\"\\n\\n<i>“You are part of my being. Your thoughts, your memories, will help me grow. And such delicious thoughts they are, a far cry from any fish I’ve had before. I can feel my intellect expanding tremendously with the addition of yours; I should even be able to assert dominance over my paren..."
+  },
+  {
+    "key": "output|i_Thank_you_for_your_contribution_Captain_Steele_i|ad5266c48603",
+    "original": "<i>“Thank you for your contribution, Captain Steele.”</i>",
+    "translation": "",
+    "context": "<<POS:07806867>> output(\"\\n\\n<i>“Thank you for your contribution, Captain Steele.”</i>\")"
+  },
+  {
+    "key": "output|The_jellyfish_quivers_with_your_last_attack_its_glow_fading_to|2ff4fa0ed72f",
+    "original": "The jellyfish quivers with your last attack, its glow fading to a dull gray. It hovers in the air a moment longer as its body turns dry and cracked, before finally the whole creature falls apart. Taking no chances, you set fire to the remains, ensuring nothing but ash is left behind.",
+    "translation": "",
+    "context": "<<POS:07807055>> output(\"The jellyfish quivers with your last attack, its glow fading to a dull gray. It hovers in the air a moment longer as its body turns dry and cracked, before finally the whole creature falls apart. Taking no chances, you set fire to the remains, ensuring nothing but ash is left behind.\")"
+  },
+  {
+    "key": "output.expr|The_facility_is_a_little_quieter_now_at_least_var0_thoug|e19bd0303551",
+    "original": "The facility is a little quieter now, at least\"+({var0}?\", though there’s still the sounds of more of these things in the building.\":\". It sounds like you might have gotten them all.\")",
+    "translation": "",
+    "context": "<<POS:07807354>> <<VARS:var0=e>0>> output(\"\\n\\nThe facility is a little quieter now, at least\"+(e>0?\", though there’s still the sounds of more of these things in the building.\":\". It sounds like you might have gotten them all.\"))"
+  },
+  {
+    "key": "output|You_hear_a_crackling_sound_as_you_enter_the_room_prompting_you|8545076e3648",
+    "original": "You hear a crackling sound as you enter the room, prompting you to get down and away from the door. Just as you do, a bolt of lightning streaks overhead, scorching the door you just came through. As you look up you see the source: an odd creature is hovering near the other door, resembling an oversized jellyfish. Its whole body pulses with an eerie green and blue light, while lightning flickers along the tentacles that hang under its body.",
+    "translation": "",
+    "context": "<<POS:07807704>> output(\"You hear a crackling sound as you enter the room, prompting you to get down and away from the door. Just as you do, a bolt of lightning streaks overhead, scorching the door you just came through. As you look up you see the source: an odd creature is hovering near the other door, resembling a..."
+  },
+  {
+    "key": "output|Well_it_looks_like_you_ve_found_the_invaders_You_ready_your_p|715e573893cd",
+    "original": "Well, it looks like you’ve found the invaders! You ready your [pc.mainWeapon] and prepare to fight!",
+    "translation": "",
+    "context": "<<POS:07808162>> output(\"\\n\\nWell, it looks like you’ve found the invaders! You ready your [pc.mainWeapon] and prepare to fight!\")"
+  },
+  {
+    "key": "output|You_hear_the_same_crackling_sound_from_before_as_you_enter_the_r|172e36c2deda",
+    "original": "You hear the same crackling sound from before as you enter the room. Sure enough, another one of those jellyfish is lying in wait, its tentacles hanging limp under its body. As it spots you those tendrils billow outward in an aggressive posture, the glow of its body intensifying.",
+    "translation": "",
+    "context": "<<POS:07808274>> output(\"You hear the same crackling sound from before as you enter the room. Sure enough, another one of those jellyfish is lying in wait, its tentacles hanging limp under its body. As it spots you those tendrils billow outward in an aggressive posture, the glow of its body intensifying.\")"
+  },
+  {
+    "key": "output.expr|This_is_the_var0_var1_second_of_four_third_of_four_l|852bcca5c7cc",
+    "original": "This is the \"+({var0}?{var1}?\"second of four\":\"third of four\":\"last one\")+\", you think. You ready your [pc.mainWeapon] and get ready to fight!",
+    "translation": "",
+    "context": "<<POS:07808569>> <<VARS:var0=e>1|var1=e>2>> output(\"\\n\\nThis is the \"+(e>1?e>2?\"second of four\":\"third of four\":\"last one\")+\", you think. You ready your [pc.mainWeapon] and get ready to fight!\")"
+  },
+  {
+    "key": "button|Next|c5cc80fad7cf",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:07808734>> addButton(0,\"Next\",_j)"
+  },
+  {
+    "key": "header|Mainframe_Card|aa3a346c1ba1",
+    "original": "Mainframe Card",
+    "translation": "",
+    "context": "<<POS:07808885>> blockHeader(\"Mainframe Card\")"
+  },
+  {
+    "key": "output|You_examine_the_object_on_the_counter_It_s_an_access_card_for_u|27378718d2d0",
+    "original": "You examine the object on the counter. It’s an access card for unlocking a magnetically sealed door. You should be able to use this to get into the mainframe chamber. There might be a clue there as to what’s going on.",
+    "translation": "",
+    "context": "<<POS:07808927>> output(\"You examine the object on the counter. It’s an access card for unlocking a magnetically sealed door. You should be able to use this to get into the mainframe chamber. There might be a clue there as to what’s going on.\")"
+  },
+  {
+    "key": "button|Next|02549d068e62",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:07809255>> addButton(0,\"Next\",mainGameMenu)"
+  },
+  {
+    "key": "header|Storage_Card|5d75702832be",
+    "original": "Storage Card",
+    "translation": "",
+    "context": "<<POS:07809383>> blockHeader(\"Storage Card\")"
+  },
+  {
+    "key": "output|You_pick_up_the_access_card_lying_on_the_console_This_one_looks|44cad8af5712",
+    "original": "You pick up the access card lying on the console. This one looks like it should get you into the facility’s storage closet. There ought to be something in there you can use to get to the generator room.",
+    "translation": "",
+    "context": "<<POS:07809423>> output(\"You pick up the access card lying on the console. This one looks like it should get you into the facility’s storage closet. There ought to be something in there you can use to get to the generator room.\")"
+  },
+  {
+    "key": "button|Next|5177c54a8f50",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:07809734>> addButton(0,\"Next\",mainGameMenu)"
+  },
+  {
+    "key": "header|Armored_Depthsuit|df3cff908969",
+    "original": "Armored Depthsuit",
+    "translation": "",
+    "context": "<<POS:07809860>> blockHeader(\"Armored Depthsuit\")"
+  },
+  {
+    "key": "header|Laser_Turrets|db4cd60e75eb",
+    "original": "Laser Turrets",
+    "translation": "",
+    "context": "<<POS:07810091>> blockHeader(\"Laser Turrets\")"
+  },
+  {
+    "key": "output|You_look_over_the_damaged_laser_turrets_All_of_them_are_irrepar|72140166fd71",
+    "original": "You look over the damaged laser turrets. All of them are irreparable on their own, but with a little luck you manage to salvage enough of the working parts from each of them to put together a working expansion pack for your attack drone.",
+    "translation": "",
+    "context": "<<POS:07810132>> output(\"You look over the damaged laser turrets. All of them are irreparable on their own, but with a little luck you manage to salvage enough of the working parts from each of them to put together a working expansion pack for your attack drone.\")"
+  },
+  {
+    "key": "output|It_takes_some_doing_but_you_grew_up_working_with_Steele_Tech_eq|6b7a095070bb",
+    "original": "It takes some doing, but you grew up working with Steele Tech equipment, so the conversion is nice and simple. You don’t even need your workshop on the ship. By the time you’re done you’ve installed a modular port on your attack drone, letting you swap out the old arc caster for this shiny new laser cannon whenever you want. It should make dealing with this place a lot easier.",
+    "translation": "",
+    "context": "<<POS:07810384>> output(\"\\n\\nIt takes some doing, but you grew up working with Steele Tech equipment, so the conversion is nice and simple. You don’t even need your workshop on the ship. By the time you’re done you’ve installed a modular port on your attack drone, letting you swap out the old arc caster for this shi..."
+  },
+  {
+    "key": "header|Armor_Upgrade|5dd1a09b699b",
+    "original": "Armor Upgrade",
+    "translation": "",
+    "context": "<<POS:07810979>> blockHeader(\"Armor Upgrade\")"
+  },
+  {
+    "key": "output|The_silence_is_broken_after_a_few_moments|d70bac28e8df",
+    "original": "The silence is broken after a few moments.",
+    "translation": "",
+    "context": "<<POS:07811020>> output(\"The silence is broken after a few moments.\")"
+  },
+  {
+    "key": "output|i_That_was_cool_i_Your_goo_companion_giggles_apparently_u|54a2b30743c1",
+    "original": "<i>“That was cool!”</i> Your goo companion giggles, apparently unfazed by everything that just happened. <i>“I wish I could do that.”</i>",
+    "translation": "",
+    "context": "<<POS:07811077>> output(\"\\n\\n<i>“That was cool!”</i> Your goo companion giggles, apparently unfazed by everything that just happened. <i>“I wish I could do that.”</i>\")"
+  },
+  {
+    "key": "output|You_don_t_know_if_asking_which_part_will_make_things_better_or_w|f9395455ab2d",
+    "original": "You don’t know if asking which part will make things better or worse. [gooarmor.name] is too distracted to notice your silence, experimenting with shifting herself around a bit, which only makes you more wary. After about a minute or so passes, she gives a triumphant cheer as a shield bubble pops into existence around her.",
+    "translation": "",
+    "context": "<<POS:07811229>> output(\"\\n\\nYou don’t know if asking which part will make things better or worse. [gooarmor.name] is too distracted to notice your silence, experimenting with shifting herself around a bit, which only makes you more wary. After about a minute or so passes, she gives a triumphant cheer as a shield bu..."
+  },
+  {
+    "key": "output|i_There_we_go_Now_I_can_keep_the_mean_things_away_while_we_re|e7b39c9c2b82",
+    "original": "<i>“There we go! Now I can keep the mean things away while we’re making them all horny and stuff so they’ll stop being mean and fuck us!”</i> [gooarmor.name] gives you a cheeky grin. <i>“All I had to do was copy the plastic cell structure that creates storage conduits for electrical impulses. The constant electrical flow throughout the surface produces the layered toroidal magnetic fields that create the formation plane for a shield bubble. It has the side benefit of channeling incoming electrical impulses, turning the primary weakness of microbot-based armor into a strength.”</i>",
+    "translation": "",
+    "context": "<<POS:07811568>> output(\"\\n\\n<i>“There we go! Now I can keep the mean things away while we’re making them all horny and stuff so they’ll stop being mean and fuck us!”</i> [gooarmor.name] gives you a cheeky grin. <i>“All I had to do was copy the plastic cell structure that creates storage conduits for electrical impu..."
+  },
+  {
+    "key": "output|You_blink_gooarmor_name_looks_at_you_innocently|ba53712aaede",
+    "original": "You blink. [gooarmor.name] looks at you innocently.",
+    "translation": "",
+    "context": "<<POS:07812170>> output(\"\\n\\nYou blink. [gooarmor.name] looks at you innocently.\")"
+  },
+  {
+    "key": "output|i_Let_s_get_out_of_here_i_you_offer_after_a_few_moments|c5256de556af",
+    "original": "<i>“...Let’s get out of here,”</i> you offer after a few moments.",
+    "translation": "",
+    "context": "<<POS:07812236>> output(\"\\n\\n<i>“...Let’s get out of here,”</i> you offer after a few moments.\")"
+  },
+  {
+    "key": "output|i_Okay_i_Your_goo_hops_back_on_seeming_quite_pleased_at_h|90eae2cdfc07",
+    "original": "<i>“Okay!”</i> Your goo hops back on, seeming quite pleased at her new shields.",
+    "translation": "",
+    "context": "<<POS:07812316>> output(\"\\n\\n<i>“Okay!”</i> Your goo hops back on, seeming quite pleased at her new shields.\")"
+  },
+  {
+    "key": "output|concat_e_n_n|82692d9ce489",
+    "original": "\".concat(e,\"\\n\\n\")",
+    "translation": "",
+    "context": "<<POS:07812543>> output(\"\\n\\n\".concat(e,\"\\n\\n\"))"
+  },
+  {
+    "key": "header|Game_Over|9e45cb164b45",
+    "original": "Game Over",
+    "translation": "",
+    "context": "<<POS:07812680>> blockHeader(\"Game Over\")"
+  },
+  {
+    "key": "output|Now_why_did_you_do_a_damn_fool_thing_like_that_Removing_your_ar|d3e005f930f3",
+    "original": "Now why did you do a damn fool thing like that? Removing your armor has the effect of quickly subjecting you to a truly gruesome simultaneous death by crushing and drowning. Not the most illustrious end to the adventures of Captain Steele.",
+    "translation": "",
+    "context": "<<POS:07812717>> output(\"Now why did you do a damn fool thing like that? Removing your armor has the effect of quickly subjecting you to a truly gruesome simultaneous death by crushing and drowning. Not the most illustrious end to the adventures of Captain Steele.\")"
+  },
+  {
+    "key": "output|You_hear_a_beep_from_your_Codex_informing_you_that_you_ve_just_r|93efa1b61de8",
+    "original": "You hear a beep from your Codex informing you that you’ve just received a \".concat(5e4.toLocaleString(),\" credit deposit to your account. Attached is a letter from Steele Tech’s board of directors thanking you for your assistance and saving the company from the loss of their facility. <b>It seems you’ve scored some points with Steele Tech for this.</b>\\n\\nA second notification soon follows as you receive a call from Dr. Lessau.\\n\\n<i>“I wanted to thank you personally for your help, [pc.name]. I’m sure the company has shown their gratitude, but I’ve also begun developing a new product based off the data you provided on that creature. It’s experimental, but come by my lab if you’d like to try using it.”</i>\")",
+    "translation": "",
+    "context": "<<POS:07813054>> ParseText(\"You hear a beep from your Codex informing you that you’ve just received a \".concat(5e4.toLocaleString(),\" credit deposit to your account. Attached is a letter from Steele Tech’s board of directors thanking you for your assistance and saving the company from the loss of their facility. <b>..."
+  },
+  {
+    "key": "name.show|Typhon|9bee4885f612",
+    "original": "Typhon",
+    "translation": "",
+    "context": "<<POS:07813911>> showName(\"Typhon\")"
+  },
+  {
+    "key": "output|It_only_takes_one_stray_shot_catching_you_in_the_knee_to_send_yo|f1a5d281e9fb",
+    "original": "It only takes one stray shot catching you in the knee to send you tumbling to the floor. All of the turrets round on you, to the cackling of the insane AI. At least you think it’s cackling, but it’s getting hard to tell. Everything’s starting to get pretty dark right about now, could be the bloodloss.",
+    "translation": "",
+    "context": "<<POS:07814222>> output(\"It only takes one stray shot catching you in the knee to send you tumbling to the floor. All of the turrets round on you, to the cackling of the insane AI. At least you think it’s cackling, but it’s getting hard to tell. Everything’s starting to get pretty dark right about now, could be the ..."
+  },
+  {
+    "key": "output|You_try_to_get_to_your_feet_but_your_legs_give_out_Your_shield|36321f290698",
+    "original": "You try to get to your feet, but your legs give out. Your shields are exhausted and your gear in ruins. The last thing you hear is the sound of gunfire, and then the world goes black.",
+    "translation": "",
+    "context": "<<POS:07814539>> output(\"\\n\\nYou try to get to your feet, but your legs give out. Your shields are exhausted and your gear in ruins. The last thing you hear is the sound of gunfire, and then the world goes black.\")"
+  },
+  {
+    "key": "output|The_last_turret_shuts_down_leaving_Typhon_at_your_mercy_Not_th|334317d88c79",
+    "original": "The last turret shuts down, leaving Typhon at your mercy. Not that the AI seems to notice, it’s practically on the verge of breaking down.",
+    "translation": "",
+    "context": "<<POS:07814786>> output(\"The last turret shuts down, leaving Typhon at your mercy. Not that the AI seems to notice, it’s practically on the verge of breaking down.\")"
+  },
+  {
+    "key": "output|i_KiLL_killkillkillkillkillk_k_k_k_k_i|f5ed79fcc697",
+    "original": "<i>“KiLL killkillkillkillkillk-k-k-k-k-”</i>",
+    "translation": "",
+    "context": "<<POS:07814939>> output(\"\\n\\n<i>“KiLL killkillkillkillkillk-k-k-k-k-”</i>\")"
+  },
+  {
+    "key": "output|You_flinch_at_stepping_through_the_hologram_but_reach_the_conso|2461af9f7175",
+    "original": "You flinch at stepping through the hologram, but reach the console and swiftly eject the AI core.",
+    "translation": "",
+    "context": "<<POS:07814998>> output(\"\\n\\nYou flinch at stepping through the hologram, but reach the console and swiftly eject the AI core.\")"
+  },
+  {
+    "key": "output|i_meEeee_i_The_broken_holoprojection_instantly_vanishes_l|cd30987c1b92",
+    "original": "<i>“meEeee-”</i> The broken holoprojection instantly vanishes, leaving the room blessedly silent. A moment passes before there’s a soft whirr from the mainframe console, a data bead emerging from an access panel.",
+    "translation": "",
+    "context": "<<POS:07815110>> output(\"\\n\\n<i>“meEeee-”</i> The broken holoprojection instantly vanishes, leaving the room blessedly silent. A moment passes before there’s a soft whirr from the mainframe console, a data bead emerging from an access panel.\")"
+  },
+  {
+    "key": "output|You_take_the_bead_pondering_what_to_do_with_its_occupant_The_A|fd9dd0646fc4",
+    "original": "You take the bead, pondering what to do with its occupant. The AI looked very far gone, well beyond anyone’s capacity to repair. Do you want to prolong its existence in the hopes of maybe extracting some data from it, or end its suffering now?",
+    "translation": "",
+    "context": "<<POS:07815337>> output(\"\\n\\nYou take the bead, pondering what to do with its occupant. The AI looked very far gone, well beyond anyone’s capacity to repair. Do you want to prolong its existence in the hopes of maybe extracting some data from it, or end its suffering now?\")"
+  },
+  {
+    "key": "output|What_do_you_do|da1de78b9922",
+    "original": "What do you do?",
+    "translation": "",
+    "context": "<<POS:07815595>> output(\"\\n\\nWhat do you do?\")"
+  },
+  {
+    "key": "button|Kill_It|f378a2a9bc32",
+    "original": "Kill It",
+    "translation": "",
+    "context": "<<POS:07815653>> addButton(0,\"Kill It\",Zj)"
+  },
+  {
+    "key": "button|Take_It|46a470b3dcd6",
+    "original": "Take It",
+    "translation": "",
+    "context": "<<POS:07815679>> addButton(1,\"Take It\",Xj)"
+  },
+  {
+    "key": "output|You_drop_the_data_bead_and_stomp_down_on_it_crushing_it_until_t|547dd4289989",
+    "original": "You drop the data bead and stomp down on it, crushing it until there’s nothing left of it but some loose bits of silicon. At least the AI won’t be in constant agony anymore. You hope your decision was a merciful one.",
+    "translation": "",
+    "context": "<<POS:07815733>> output(\"You drop the data bead and stomp down on it, crushing it until there’s nothing left of it but some loose bits of silicon. At least the AI won’t be in constant agony anymore. You hope your decision was a merciful one.\")"
+  },
+  {
+    "key": "output|You_pocket_the_data_bead_making_a_note_to_give_it_to_Lessau_whe|10f9d50151c6",
+    "original": "You pocket the data bead, making a note to give it to Lessau when you get back to the surface. Maybe he can recover some of what Typhon was before the invader scrambled it. You hope your decision doesn’t prolong the AI’s suffering.",
+    "translation": "",
+    "context": "<<POS:07816077>> output(\"You pocket the data bead, making a note to give it to Lessau when you get back to the surface. Maybe he can recover some of what Typhon was before the invader scrambled it. You hope your decision doesn’t prolong the AI’s suffering.\")"
+  },
+  {
+    "key": "output|You_hear_someone_talking_as_you_approach_the_door_of_the_mainfra|0396b23a1050",
+    "original": "You hear someone talking as you approach the door of the mainframe chamber. The words are frantic and hard to make out, prompting you to open the door.",
+    "translation": "",
+    "context": "<<POS:07816584>> output(\"You hear someone talking as you approach the door of the mainframe chamber. The words are frantic and hard to make out, prompting you to open the door.\")"
+  },
+  {
+    "key": "output|What_you_see_makes_your_heart_skip_a_beat_The_silver_holoavatar|63b9463bb352",
+    "original": "What you see makes your heart skip a beat. The silver holoavatar of the facility’s AI looks like someone tore it apart and crudely glued it back together again. One limb hangs outward at an odd angle, another looks like it’s been stapled to his chest. Render errors leave swathes of what may have once been a polished appearance looking jagged, cracked, or just missing entirely. His jaw hangs impossibly far down whenever he opens his mouth, a nonsense string of words gushing forth in a voice layered thick with ear-grating static and random volume changes. What the hell did this invader <i>do</i> to him?!",
+    "translation": "",
+    "context": "<<POS:07816750>> output(\"\\n\\nWhat you see makes your heart skip a beat. The silver holoavatar of the facility’s AI looks like someone tore it apart and crudely glued it back together again. One limb hangs outward at an odd angle, another looks like it’s been stapled to his chest. Render errors leave swathes of what ..."
+  },
+  {
+    "key": "output|Seeing_you_agitates_the_broken_AI_which_lets_out_a_garbled_scre|fe28d7a028e3",
+    "original": "Seeing you agitates the broken AI, which lets out a garbled scream. Sentry turrets deploy from the floors and ceiling, listing and spinning oddly in their docks. It would almost be comical if they weren’t also spooling up to fire. You’d better stop this now before he tears the whole base apart!",
+    "translation": "",
+    "context": "<<POS:07817374>> output(\"\\n\\nSeeing you agitates the broken AI, which lets out a garbled scream. Sentry turrets deploy from the floors and ceiling, listing and spinning oddly in their docks. It would almost be comical if they weren’t also spooling up to fire. You’d better stop this now before he tears the whole base..."
+  },
+  {
+    "key": "output|There_are_four_laser_turrets_remaining|f1ac6d21a824",
+    "original": "There are four laser turrets remaining.",
+    "translation": "",
+    "context": "<<POS:07817684>> output(\"\\n\\nThere are four laser turrets remaining.\")"
+  },
+  {
+    "key": "button|Next|bed95c319b52",
+    "original": "Next",
+    "translation": "",
+    "context": "<<POS:07817751>> addButton(0,\"Next\",Pj)"
+  },
+  {
+    "key": "assign|SBRF_LIFT|6473d4bc790d",
+    "original": "SBRF LIFT",
+    "translation": "",
+    "context": "<<POS:07817998>> \",!0),t=[],o=new dM.du;o.index='SBRF LIFT'"
+  },
+  {
+    "key": "assign|Research_Lift|ff855495acdf",
+    "original": "Research Lift",
+    "translation": "",
+    "context": "<<POS:07818017>> .du;o.index=\"SBRF LIFT\",o.name='Research Lift'"
+  },
+  {
+    "key": "assign|SBRF_A1|74b8170d15f6",
+    "original": "SBRF A1",
+    "translation": "",
+    "context": "<<POS:07818041>> o.name=\"Research Lift\",o.south='SBRF A1'"
+  },
+  {
+    "key": "assign|UVI_RES_LIFT|29a3930e1167",
+    "original": "UVI RES LIFT",
+    "translation": "",
+    "context": "<<POS:07818056>> h Lift\",o.south=\"SBRF A1\",o.in='UVI RES LIFT'"
+  },
+  {
+    "key": "assign|SBRF_A1|1ce67acac5c8",
+    "original": "SBRF A1",
+    "translation": "",
+    "context": "<<POS:07818289>> ush(o);var n=new dM.du;n.index='SBRF A1'"
+  },
+  {
+    "key": "assign|Ruined_Lobby|33c0e27d1113",
+    "original": "Ruined Lobby",
+    "translation": "",
+    "context": "<<POS:07818306>> dM.du;n.index=\"SBRF A1\",n.name='Ruined Lobby'"
+  },
+  {
+    "key": "assign|SBRF_LIFT|b4347add75e7",
+    "original": "SBRF LIFT",
+    "translation": "",
+    "context": "<<POS:07818329>> ,n.name=\"Ruined Lobby\",n.north='SBRF LIFT'"
+  },
+  {
+    "key": "assign|SBRF_B1|610dc61d0a10",
+    "original": "SBRF B1",
+    "translation": "",
+    "context": "<<POS:07818348>> by\",n.north=\"SBRF LIFT\",n.east='SBRF B1'"
+  },
+  {
+    "key": "assign|SBRF_A2|7e3e3664daf1",
+    "original": "SBRF A2",
+    "translation": "",
+    "context": "<<POS:07818366>> LIFT\",n.east=\"SBRF B1\",n.south='SBRF A2'"
+  },
+  {
+    "key": "textify|You_re_in_what_was_originally_a_lobby_The_couches_and_reception|75da0c8d2400",
+    "original": "You’re in what was originally a lobby. The couches and reception desk are still there, but the red emergency lighting casts an eerie glow across the room. The walls and furniture show some damage, though fortunately it doesn’t look like the place has sprung a leak...yet. Still, having miles of water over your head isn’t comforting.",
+    "translation": "",
+    "context": "<<POS:07818455>> textify(['You’re in what was originally a lobby. The couches'...])"
+  },
+  {
+    "key": "assign|SBRF_A2|06fda9b0a7d0",
+    "original": "SBRF A2",
+    "translation": "",
+    "context": "<<POS:07818919>> ush(n);var a=new dM.du;a.index='SBRF A2'"
+  },
+  {
+    "key": "assign|Research_Airlock|7c7613be434d",
+    "original": "Research Airlock",
+    "translation": "",
+    "context": "<<POS:07818936>> dM.du;a.index=\"SBRF A2\",a.name='Research Airlock'"
+  },
+  {
+    "key": "assign|SBRF_A1|6f452d1ae3fc",
+    "original": "SBRF A1",
+    "translation": "",
+    "context": "<<POS:07818963>> ame=\"Research Airlock\",a.north='SBRF A1'"
+  },
+  {
+    "key": "assign|SBRF_A3|a69053347dcd",
+    "original": "SBRF A3",
+    "translation": "",
+    "context": "<<POS:07818981>> ock\",a.north=\"SBRF A1\",a.south='SBRF A3'"
+  },
+  {
+    "key": "assign|SBRF_O1|4c12d883b09e",
+    "original": "SBRF O1",
+    "translation": "",
+    "context": "<<POS:07818998>> F A1\",a.south=\"SBRF A3\",a.west='SBRF O1'"
+  },
+  {
+    "key": "textify|Along_the_west_wall_of_this_tunnel_is_an_airlock_leading_outside|bd85ca52ff6c",
+    "original": "Along the west wall of this tunnel is an airlock leading outside that seems to still be in working order.",
+    "translation": "",
+    "context": "<<POS:07819244>> textify(['Along the west wall of this tunnel is an airlock l'...])"
+  },
+  {
+    "key": "assign|SBRF_A3|8006ae5f13a3",
+    "original": "SBRF A3",
+    "translation": "",
+    "context": "<<POS:07819482>> ush(a);var i=new dM.du;i.index='SBRF A3'"
+  },
+  {
+    "key": "assign|Ruined_Laboratory|45ea84072491",
+    "original": "Ruined Laboratory",
+    "translation": "",
+    "context": "<<POS:07819499>> dM.du;i.index=\"SBRF A3\",i.name='Ruined Laboratory'"
+  },
+  {
+    "key": "assign|SBRF_A2|7dc910809a29",
+    "original": "SBRF A2",
+    "translation": "",
+    "context": "<<POS:07819527>> me=\"Ruined Laboratory\",i.north='SBRF A2'"
+  },
+  {
+    "key": "assign|SBRF_B3|d0ca2445956e",
+    "original": "SBRF B3",
+    "translation": "",
+    "context": "<<POS:07819544>> tory\",i.north=\"SBRF A2\",i.east='SBRF B3'"
+  },
+  {
+    "key": "textify|This_room_was_originally_filled_with_sample_tanks_and_lab_equipm|05f463427b49",
+    "original": "This room was originally filled with sample tanks and lab equipment, most of which is ruined. The hull hasn’t ruptured that you can see, but water’s getting in from somewhere, leaving the room flooded ankle-deep. Thankfully it doesn’t seem to be rising, at least not yet.",
+    "translation": "",
+    "context": "<<POS:07819633>> textify(['This room was originally filled with sample tanks '...])"
+  },
+  {
+    "key": "assign|SBRF_B1|97bfc18ea6eb",
+    "original": "SBRF B1",
+    "translation": "",
+    "context": "<<POS:07820038>> ush(i);var s=new dM.du;s.index='SBRF B1'"
+  },
+  {
+    "key": "assign|Observation_Tunnel|0257141236e0",
+    "original": "Observation Tunnel",
+    "translation": "",
+    "context": "<<POS:07820055>> dM.du;s.index=\"SBRF B1\",s.name='Observation Tunnel'"
+  },
+  {
+    "key": "assign|SBRF_C1|6b0e2ac4108a",
+    "original": "SBRF C1",
+    "translation": "",
+    "context": "<<POS:07820083>> me=\"Observation Tunnel\",s.east='SBRF C1'"
+  },
+  {
+    "key": "assign|SBRF_A1|50b44b3b57d2",
+    "original": "SBRF A1",
+    "translation": "",
+    "context": "<<POS:07820100>> unnel\",s.east=\"SBRF C1\",s.west='SBRF A1'"
+  },
+  {
+    "key": "textify|The_whole_north_wall_of_this_room_is_transparent_presumably_to|3289030dae93",
+    "original": "The whole north wall of this room is transparent, presumably to let the researchers have a view of the ocean floor, but right now all you can see is blackness. It’s not exactly comforting. Thankfully the corridor is mercifully short, so that you can get to the relatively safe-feeling rooms on either end without having to spend too long with the reminder of how thin these walls are and how much water is just outside.",
+    "translation": "",
+    "context": "<<POS:07820189>> textify(['The whole north wall of this room is transparent, '...])"
+  },
+  {
+    "key": "assign|SBRF_B2|f9f6db7d049d",
+    "original": "SBRF B2",
+    "translation": "",
+    "context": "<<POS:07820739>> ush(s);var r=new dM.du;r.index='SBRF B2'"
+  },
+  {
+    "key": "assign|Mainframe_Chamber|b198d7e59be2",
+    "original": "Mainframe Chamber",
+    "translation": "",
+    "context": "<<POS:07820756>> dM.du;r.index=\"SBRF B2\",r.name='Mainframe Chamber'"
+  },
+  {
+    "key": "assign|SBRF_C2|0a986462c8fa",
+    "original": "SBRF C2",
+    "translation": "",
+    "context": "<<POS:07820783>> ame=\"Mainframe Chamber\",r.east='SBRF C2'"
+  },
+  {
+    "key": "textify|The_mainframe_chamber_is_in_ruins_after_your_battle_with_Typhon|e0774e11e7c1",
+    "original": "The mainframe chamber is in ruins after your battle with Typhon. Between the shot-up servers and the ruined sentry turrets the room reeks of burning plastic and metal. At least the AI’s insane babbling has stopped, and the closed door gives you a blessed moment of security. Still, it’s probably best to get out of here as soon as possible.",
+    "translation": "",
+    "context": "<<POS:07820872>> textify(['The mainframe chamber is in ruins after your battl'...])"
+  },
+  {
+    "key": "assign|SBRF_B3|22dbe2352270",
+    "original": "SBRF B3",
+    "translation": "",
+    "context": "<<POS:07821578>> ush(r);var u=new dM.du;u.index='SBRF B3'"
+  },
+  {
+    "key": "assign|Generator_Access|d3eae4ab1e49",
+    "original": "Generator Access",
+    "translation": "",
+    "context": "<<POS:07821595>> dM.du;u.index=\"SBRF B3\",u.name='Generator Access'"
+  },
+  {
+    "key": "assign|SBRF_C3|b1c4ec686eb5",
+    "original": "SBRF C3",
+    "translation": "",
+    "context": "<<POS:07821621>> name=\"Generator Access\",u.east='SBRF C3'"
+  },
+  {
+    "key": "assign|SBRF_A3|255e8985ae1e",
+    "original": "SBRF A3",
+    "translation": "",
+    "context": "<<POS:07821638>> ccess\",u.east=\"SBRF C3\",u.west='SBRF A3'"
+  },
+  {
+    "key": "assign|SBRF_B4|a519e86e53eb",
+    "original": "SBRF B4",
+    "translation": "",
+    "context": "<<POS:07821656>> F C3\",u.west=\"SBRF A3\",u.south='SBRF B4'"
+  },
+  {
+    "key": "assign|SBRF_B4|c3f26eae269d",
+    "original": "SBRF B4",
+    "translation": "",
+    "context": "<<POS:07821898>> ush(u);var h=new dM.du;h.index='SBRF B4'"
+  },
+  {
+    "key": "assign|Generator_Room|c0f1be52bb24",
+    "original": "Generator Room",
+    "translation": "",
+    "context": "<<POS:07821915>> dM.du;h.index=\"SBRF B4\",h.name='Generator Room'"
+  },
+  {
+    "key": "assign|SBRF_B3|1e6599c20cce",
+    "original": "SBRF B3",
+    "translation": "",
+    "context": "<<POS:07821940>> .name=\"Generator Room\",h.north='SBRF B3'"
+  },
+  {
+    "key": "assign|SBRF_O4|ccb41ab4c514",
+    "original": "SBRF O4",
+    "translation": "",
+    "context": "<<POS:07821957>> Room\",h.north=\"SBRF B3\",h.west='SBRF O4'"
+  },
+  {
+    "key": "textify|With_Janeria_defeated_the_generator_has_come_back_online_There|1110752a3c88",
+    "original": "With Janeria defeated the generator has come back online. There’s still an uncomfortably large hole in the wall, but the shields are holding back any more water from flooding the room and the pumps seem to be doing their job. The scorched remains of the creature have left a nasty stench in the room, and the emergency lights are still on due to the damage, but at least the planet’s no longer in danger of being assimilated by an oversized jellyfish. All in a day’s work.",
+    "translation": "",
+    "context": "<<POS:07822046>> textify(['With Janeria defeated the generator has come back '...])"
+  },
+  {
+    "key": "assign|SBRF_C1|2c7f7f37be48",
+    "original": "SBRF C1",
+    "translation": "",
+    "context": "<<POS:07822760>> ush(h);var l=new dM.du;l.index='SBRF C1'"
+  },
+  {
+    "key": "assign|Ruined_Break_Room|c259f495bf4a",
+    "original": "Ruined Break Room",
+    "translation": "",
+    "context": "<<POS:07822777>> dM.du;l.index=\"SBRF C1\",l.name='Ruined Break Room'"
+  },
+  {
+    "key": "assign|SBRF_D1|5a58121b8eff",
+    "original": "SBRF D1",
+    "translation": "",
+    "context": "<<POS:07822804>> ame=\"Ruined Break Room\",l.east='SBRF D1'"
+  },
+  {
+    "key": "assign|SBRF_C2|17af355b15a7",
+    "original": "SBRF C2",
+    "translation": "",
+    "context": "<<POS:07822915>> al Lab Storage Card\")},l.south='SBRF C2'"
+  },
+  {
+    "key": "assign|SBRF_B1|3df9cfa72367",
+    "original": "SBRF B1",
+    "translation": "",
+    "context": "<<POS:07822932>> rd\")},l.south=\"SBRF C2\",l.west='SBRF B1'"
+  },
+  {
+    "key": "textify|This_was_the_employee_break_room_Half_eaten_lunches_are_on_the|8ffe33832392",
+    "original": "This was the employee break room. Half-eaten lunches are on the upright tables and scattered across the ground.",
+    "translation": "",
+    "context": "<<POS:07823021>> textify(['This was the employee break room. Half-eaten lunch'...])"
+  },
+  {
+    "key": "assign|SBRF_C2|9c99b5cc3435",
+    "original": "SBRF C2",
+    "translation": "",
+    "context": "<<POS:07823265>> ush(l);var d=new dM.du;d.index='SBRF C2'"
+  },
+  {
+    "key": "assign|Ruined_Offices|54bcb3c71fde",
+    "original": "Ruined Offices",
+    "translation": "",
+    "context": "<<POS:07823282>> dM.du;d.index=\"SBRF C2\",d.name='Ruined Offices'"
+  },
+  {
+    "key": "assign|SBRF_C1|a460c0befd1b",
+    "original": "SBRF C1",
+    "translation": "",
+    "context": "<<POS:07823307>> .name=\"Ruined Offices\",d.north='SBRF C1'"
+  },
+  {
+    "key": "assign|SBRF_C3|feccab487ceb",
+    "original": "SBRF C3",
+    "translation": "",
+    "context": "<<POS:07823325>> ces\",d.north=\"SBRF C1\",d.south='SBRF C3'"
+  },
+  {
+    "key": "assign|SBRF_B2|ddff838be601",
+    "original": "SBRF B2",
+    "translation": "",
+    "context": "<<POS:07823342>> F C1\",d.south=\"SBRF C3\",d.west='SBRF B2'"
+  },
+  {
+    "key": "textify|The_offices_are_mostly_intact_though_many_of_the_consoles_have|f5b21c76225d",
+    "original": "The offices are mostly intact, though many of the consoles have been knocked over and the projectors are nonfunctional.",
+    "translation": "",
+    "context": "<<POS:07823526>> textify(['The offices are mostly intact, though many of the '...])"
+  },
+  {
+    "key": "assign|SBRF_C3|fc78bd5d18c2",
+    "original": "SBRF C3",
+    "translation": "",
+    "context": "<<POS:07823776>> ush(d);var y=new dM.du;y.index='SBRF C3'"
+  },
+  {
+    "key": "assign|Ruined_Offices|87ebbbf2c8ad",
+    "original": "Ruined Offices",
+    "translation": "",
+    "context": "<<POS:07823793>> dM.du;y.index=\"SBRF C3\",y.name='Ruined Offices'"
+  },
+  {
+    "key": "assign|SBRF_C2|cd4174a9cdb4",
+    "original": "SBRF C2",
+    "translation": "",
+    "context": "<<POS:07823818>> .name=\"Ruined Offices\",y.north='SBRF C2'"
+  },
+  {
+    "key": "assign|SBRF_B3|8ff8599d14a9",
+    "original": "SBRF B3",
+    "translation": "",
+    "context": "<<POS:07823835>> ices\",y.north=\"SBRF C2\",y.west='SBRF B3'"
+  },
+  {
+    "key": "textify|The_carpet_here_is_soaked_with_water_leaking_from_the_west_door|dad3c78cb720",
+    "original": "The carpet here is soaked with water leaking from the west door. The computers are all shut down or knocked over, though the desks themselves are sturdy enough to be largely unscathed. The pale red glow cast across the room does rather unsettling things to the appearance of the water.",
+    "translation": "",
+    "context": "<<POS:07823924>> textify(['The carpet here is soaked with water leaking from '...])"
+  },
+  {
+    "key": "assign|SBRF_D1|966a53f0b942",
+    "original": "SBRF D1",
+    "translation": "",
+    "context": "<<POS:07824340>> ush(y);var c=new dM.du;c.index='SBRF D1'"
+  },
+  {
+    "key": "assign|Storage_Closet|c5907e931dea",
+    "original": "Storage Closet",
+    "translation": "",
+    "context": "<<POS:07824357>> dM.du;c.index=\"SBRF D1\",c.name='Storage Closet'"
+  },
+  {
+    "key": "assign|SBRF_C1|879b6f85f727",
+    "original": "SBRF C1",
+    "translation": "",
+    "context": "<<POS:07824381>> c.name=\"Storage Closet\",c.west='SBRF C1'"
+  },
+  {
+    "key": "textify|Compared_to_the_rest_of_the_station_the_storage_closet_is_in_ve|7106ad6b4304",
+    "original": "Compared to the rest of the station, the storage closet is in very good shape. Tools and office supplies line the walls, while the emergency lighting is somehow less oppressive in such a small space.",
+    "translation": "",
+    "context": "<<POS:07824470>> textify(['Compared to the rest of the station, the storage c'...])"
+  },
+  {
+    "key": "assign|SBRF_O1|c77df0171b4a",
+    "original": "SBRF O1",
+    "translation": "",
+    "context": "<<POS:07824904>> ush(c);var g=new dM.du;g.index='SBRF O1'"
+  },
+  {
+    "key": "assign|Outside_the_Station|06d364f387cc",
+    "original": "Outside the Station",
+    "translation": "",
+    "context": "<<POS:07824921>> dM.du;g.index=\"SBRF O1\",g.name='Outside the Station'"
+  },
+  {
+    "key": "assign|SBRF_A2|b1a37471752a",
+    "original": "SBRF A2",
+    "translation": "",
+    "context": "<<POS:07824950>> e=\"Outside the Station\",g.east='SBRF A2'"
+  },
+  {
+    "key": "assign|SBRF_O2|ebf553effa54",
+    "original": "SBRF O2",
+    "translation": "",
+    "context": "<<POS:07824968>> tion\",g.east=\"SBRF A2\",g.south='SBRF O2'"
+  },
+  {
+    "key": "textify|You_re_outside_the_research_facility_Phosphorus_lights_stuck_in|586901caf5a2",
+    "original": "You’re outside the research facility. Phosphorus lights stuck into the seabed mark a trail leading south towards the generator room. Everything even just a few feet past the lights is pitch black. You dare not step off the path lest you lose your way forever.",
+    "translation": "",
+    "context": "<<POS:07825057>> textify(['You’re outside the research facility. Phosphorus l'...])"
+  },
+  {
+    "key": "assign|SBRF_O2|092bd39d5965",
+    "original": "SBRF O2",
+    "translation": "",
+    "context": "<<POS:07825454>> ush(g);var p=new dM.du;p.index='SBRF O2'"
+  },
+  {
+    "key": "assign|Outside_the_Station|0d4acb97efbe",
+    "original": "Outside the Station",
+    "translation": "",
+    "context": "<<POS:07825471>> dM.du;p.index=\"SBRF O2\",p.name='Outside the Station'"
+  },
+  {
+    "key": "assign|SBRF_O1|852b6af23681",
+    "original": "SBRF O1",
+    "translation": "",
+    "context": "<<POS:07825501>> =\"Outside the Station\",p.north='SBRF O1'"
+  },
+  {
+    "key": "assign|SBRF_O3|6d568c329dc3",
+    "original": "SBRF O3",
+    "translation": "",
+    "context": "<<POS:07825519>> ion\",p.north=\"SBRF O1\",p.south='SBRF O3'"
+  },
+  {
+    "key": "textify|The_dull_glow_of_the_facility_s_emergency_lighting_barely_reache|d17cac90d7a5",
+    "original": "The dull glow of the facility’s emergency lighting barely reaches you from here. It’s almost impossible to see anything but the trail of light posts ahead of you, and the water mutes all sounds of any kind. Even your own breathing seems faint and muffled because of the suit you’re wearing. It’s as close as you’ve ever experienced to utter sensory deprivation. You can only hope the trail leads you in the right direction.",
+    "translation": "",
+    "context": "<<POS:07825608>> textify(['The dull glow of the facility’s emergency lighting'...])"
+  },
+  {
+    "key": "assign|SBRF_O3|1710b7fdf01f",
+    "original": "SBRF O3",
+    "translation": "",
+    "context": "<<POS:07826169>> ush(p);var m=new dM.du;m.index='SBRF O3'"
+  },
+  {
+    "key": "assign|Outside_the_Station|124dd7aaf762",
+    "original": "Outside the Station",
+    "translation": "",
+    "context": "<<POS:07826186>> dM.du;m.index=\"SBRF O3\",m.name='Outside the Station'"
+  },
+  {
+    "key": "assign|SBRF_O2|4fe06883d77f",
+    "original": "SBRF O2",
+    "translation": "",
+    "context": "<<POS:07826216>> =\"Outside the Station\",m.north='SBRF O2'"
+  },
+  {
+    "key": "assign|SBRF_O4|4bc5ac8fd38b",
+    "original": "SBRF O4",
+    "translation": "",
+    "context": "<<POS:07826233>> tion\",m.north=\"SBRF O2\",m.east='SBRF O4'"
+  },
+  {
+    "key": "assign|SBRF_O4|bbcc1af433a3",
+    "original": "SBRF O4",
+    "translation": "",
+    "context": "<<POS:07826408>> ush(m);var f=new dM.du;f.index='SBRF O4'"
+  },
+  {
+    "key": "assign|Outside_the_Station|b67665ec0a4a",
+    "original": "Outside the Station",
+    "translation": "",
+    "context": "<<POS:07826425>> dM.du;f.index=\"SBRF O4\",f.name='Outside the Station'"
+  },
+  {
+    "key": "assign|SBRF_B4|fbb293a7971f",
+    "original": "SBRF B4",
+    "translation": "",
+    "context": "<<POS:07826454>> e=\"Outside the Station\",f.east='SBRF B4'"
+  },
+  {
+    "key": "assign|SBRF_O3|02beed16cbba",
+    "original": "SBRF O3",
+    "translation": "",
+    "context": "<<POS:07826471>> ation\",f.east=\"SBRF B4\",f.west='SBRF O3'"
+  },
+  {
+    "key": "textify|You_ve_reached_the_airlock_leading_straight_into_the_generator_r|e8d3b06ef267",
+    "original": "You’ve reached the airlock leading straight into the generator room.",
+    "translation": "",
+    "context": "<<POS:07826560>> textify(['You’ve reached the airlock leading straight into t'...])"
+  }
+]

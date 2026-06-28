@@ -286,7 +286,7 @@ def _process_call_extract(ctx):
         while expr_text.endswith('\\n') or expr_text.endswith('\\t'):
             expr_text = expr_text[:-2]
         real_pos += pos_adjust
-        vars_tag = '<<VARS:' + ','.join(f'{k}={v}' for k, v in var_map.items()) + '>>' if var_map else ''
+        vars_tag = '<<VARS:' + '|'.join(f'{k}={v}' for k, v in var_map.items()) + '>>' if var_map else ''
         expr_ctx = f"{vars_tag} {ctx.identifier}({inner})"
         entry = make_entry(ctx, category + ".expr", expr_text, real_pos, context_text=expr_ctx)
         return [entry] if entry else []
@@ -387,7 +387,7 @@ def _process_arg_extract(ctx):
                 while expr_text.endswith('\\n') or expr_text.endswith('\\t'):
                     expr_text = expr_text[:-2]
                 real_pos += pos_adjust
-                vars_tag = '<<VARS:' + ','.join(f'{k}={v}' for k, v in var_map.items()) + '>>'
+                vars_tag = '<<VARS:' + '|'.join(f'{k}={v}' for k, v in var_map.items()) + '>>'
                 expr_context = f"{vars_tag} {full_call}"
                 entry = make_entry(ctx, category + ".expr", expr_text, real_pos, context_text=expr_context)
         else:
@@ -398,7 +398,7 @@ def _process_arg_extract(ctx):
             placeholder, var_map = _placeholderize_expr(stripped)
             # <<VARS:...>> 是 replacer 需要解析的占位符映射
             # 后面的是给译者看的参考上下文
-            vars_tag = '<<VARS:' + ','.join(f'{k}={v}' for k, v in var_map.items()) + '>>'
+            vars_tag = '<<VARS:' + '|'.join(f'{k}={v}' for k, v in var_map.items()) + '>>'
             expr_context = f"{vars_tag} {full_call}"
             entry = make_entry(ctx, category + ".expr", placeholder, real_pos, context_text=expr_context)
 
