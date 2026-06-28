@@ -11,6 +11,11 @@ on:
         description: 'Source release tag (e.g. source-0.9.159-d7896009). Leave empty for latest.'
         required: false
         default: ''
+      dist_js_only:
+        description: 'Only build dist JS patch (skip Electron/Web/APK packaging)'
+        type: boolean
+        required: false
+        default: false
 
 # The workflow is split by platform so Electron, Web, and APK packaging can run
 # in parallel after one shared translation replacement pass. Artifacts carry the
@@ -108,7 +113,8 @@ jobs:
           echo "Extracted $JS_COUNT JS files"
 
           # Download pz_origin for whitelist filtering
-          PZ_TARBALL=$(gh release download "$TAG" --pattern "tits-pz-origin-*.tar.gz" --dir source-release 2>&1 &&             find source-release -maxdepth 1 -name 'tits-pz-origin-*.tar.gz' -print -quit || true)
+          PZ_TARBALL=$(gh release download "$TAG" --pattern "tits-pz-origin-*.tar.gz" --dir source-release 2>&1 && \
+            find source-release -maxdepth 1 -name 'tits-pz-origin-*.tar.gz' -print -quit || true)
           PZ_TARBALL=$(find source-release -maxdepth 1 -name 'tits-pz-origin-*.tar.gz' -print -quit)
           if [ -n "$PZ_TARBALL" ]; then
             mkdir -p "pz_origin/$VERSION"
@@ -154,6 +160,7 @@ jobs:
 
   build-electron:
     needs: prepare
+    if: ${{ github.event.inputs.dist_js_only != 'true' }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -252,6 +259,7 @@ jobs:
 
   build-web:
     needs: prepare
+    if: ${{ github.event.inputs.dist_js_only != 'true' }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -336,6 +344,7 @@ jobs:
 
   build-apk:
     needs: prepare
+    if: ${{ github.event.inputs.dist_js_only != 'true' }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -468,20 +477,36 @@ jobs:
     permissions:
       contents: write
     steps:
-      # The release job always starts, then downloads whichever platform
-      # artifacts exist so one failed platform does not block successful ones.
+      # --- Dist JS patch mode: package translated JS files directly ---
+      - name: Download dist JS patch
+        if: ${{ github.event.inputs.dist_js_only == 'true' && needs.prepare.result == 'success' }}
+        uses: actions/download-artifact@v4
+        with:
+          name: dist-js
+          path: dist-js-patch
+
+      - name: Package dist JS patch
+        if: ${{ github.event.inputs.dist_js_only == 'true' && needs.prepare.result == 'success' }}
+        run: |
+          VERSION="${{ needs.prepare.outputs.version }}"
+          CHS="${{ needs.prepare.outputs.chs_version }}"
+          mkdir -p release-assets
+          (cd dist-js-patch && zip -qr "../release-assets/TiTS-CHS-${VERSION}-${CHS}-dist-js.zip" .)
+
+      # --- Full build mode: collect platform packages ---
       - name: Download package artifacts
-        if: ${{ needs.prepare.result == 'success' && (needs.build-electron.result == 'success' || needs.build-web.result == 'success' || needs.build-apk.result == 'success') }}
+        if: ${{ github.event.inputs.dist_js_only != 'true' && needs.prepare.result == 'success' && (needs.build-electron.result == 'success' || needs.build-web.result == 'success' || needs.build-apk.result == 'success') }}
         uses: actions/download-artifact@v4
         with:
           pattern: package-*
           path: release-assets
           merge-multiple: true
 
+      # --- Shared release steps ---
       - name: Collect release assets
         id: assets
-        if: ${{ needs.prepare.result == 'success' && (needs.build-electron.result == 'success' || needs.build-web.result == 'success' || needs.build-apk.result == 'success') }}
         run: |
+          mkdir -p release-assets
           find release-assets -maxdepth 1 -type f -print | sort
           COUNT=$(find release-assets -maxdepth 1 -type f | wc -l)
           echo "count=$COUNT" >> "$GITHUB_OUTPUT"
