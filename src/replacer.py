@@ -6,6 +6,7 @@
 按位置升序处理，确保 last_idx 单调递增。
 """
 
+import html
 import json
 import os
 import re
@@ -39,6 +40,9 @@ def parse_vars(context: str) -> dict:
         return {}
     m = re.search(r'<<VARS:([^>]+)>>', context)
     if not m:
+        # 兼容 HTML 转义
+        m = re.search(r'&lt;&lt;VARS:(.+?)&gt;&gt;', context)
+    if not m:
         return {}
     raw = m.group(1)
     # 按 depth=0 的 ,varN= 边界切分，兼容表达式内嵌逗号
@@ -61,7 +65,7 @@ def parse_vars(context: str) -> dict:
     for pair in pairs:
         eq = pair.find('=')
         if eq > 0:
-            result[pair[:eq]] = pair[eq + 1:]
+            result[pair[:eq]] = html.unescape(pair[eq + 1:])
     return result
 
 
