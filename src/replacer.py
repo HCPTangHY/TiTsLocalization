@@ -38,7 +38,7 @@ def parse_vars(context: str) -> dict:
     修改目的：避免变量映射被误拆，保证回写表达式时能还原原始变量。"""
     if not context:
         return {}
-    m = re.search(r'<<VARS:([^>]+)>>', context)
+    m = re.search(r'<<VARS:(.+?)>>', context)
     if not m:
         # 兼容 HTML 转义
         m = re.search(r'&lt;&lt;VARS:(.+?)&gt;&gt;', context)
