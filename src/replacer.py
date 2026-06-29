@@ -45,22 +45,9 @@ def parse_vars(context: str) -> dict:
     if not m:
         return {}
     raw = m.group(1)
-    # 按 depth=0 的 ,varN= 边界切分，兼容表达式内嵌逗号
-    pairs = []
-    start = 0
-    depth = 0
-    for i, ch in enumerate(raw):
-        if ch in ('(', '[', '{'):
-            depth += 1
-        elif ch in (')', ']', '}'):
-            depth = max(0, depth - 1)
-        elif ch == ',' and depth == 0:
-            # depth=0 的逗号：检查后面是否是 varN= 开头
-            rest = raw[i+1:]
-            if rest.startswith('var') and '=' in rest[:8]:
-                pairs.append(raw[start:i])
-                start = i + 1
-    pairs.append(raw[start:])
+    # 按 ,varN= 边界切分（不依赖括号深度，因为变量值可能含不平衡括号）
+    parts = re.split(r',(?=var\d+=)', raw)
+    pairs = parts
     result = {}
     for pair in pairs:
         eq = pair.find('=')
